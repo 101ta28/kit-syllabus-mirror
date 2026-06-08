@@ -121,6 +121,8 @@ h1 {
   margin: 0;
   font-size: clamp(30px, 5vw, 56px);
   line-height: 1.08;
+  word-break: keep-all;
+  overflow-wrap: anywhere;
 }
 
 .list-hero p:not(.eyebrow),
@@ -128,6 +130,8 @@ h1 {
   max-width: 760px;
   color: #53606f;
   line-height: 1.8;
+  word-break: keep-all;
+  overflow-wrap: anywhere;
 }
 
 .hero-stats {
@@ -145,28 +149,65 @@ h1 {
   color: #667085;
 }
 
-.filters {
+.search-panel {
   display: grid;
-  grid-template-columns: minmax(240px, 2fr) repeat(3, minmax(150px, 1fr));
-  gap: 12px;
-  align-items: end;
+  gap: 16px;
   padding: 16px;
   border: 1px solid #d9dee7;
   border-radius: 8px;
   background: #fff;
 }
 
-.filters label {
+.search-panel-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.search-panel h2 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.search-panel-header p {
+  margin: 4px 0 0;
+  color: #667085;
+  font-size: 13px;
+}
+
+.primary-filters,
+.filters {
+  display: grid;
+  align-items: end;
+  gap: 12px;
+}
+
+.primary-filters {
+  grid-template-columns: minmax(280px, 2fr) minmax(180px, 1fr) minmax(150px, 0.75fr);
+}
+
+.filters {
+  grid-template-columns: repeat(4, minmax(150px, 1fr));
+  padding-top: 12px;
+}
+
+.primary-filters label,
+.filters label,
+.filters fieldset {
   display: grid;
   gap: 6px;
 }
 
-.filters span {
+.primary-filters span,
+.filters span,
+.filters legend {
   color: #53606f;
   font-size: 13px;
   font-weight: 700;
 }
 
+.primary-filters input,
 .filters input,
 .filters select {
   width: 100%;
@@ -178,15 +219,228 @@ h1 {
   padding: 0 10px;
 }
 
+.primary-filters input[type="radio"],
+.filters input[type="radio"],
+.filters input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  padding: 0;
+}
+
+.keyword-filter > div {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 8px;
+}
+
+.inline-options {
+  align-self: stretch;
+  margin: 0;
+  border: 1px solid #cfd6e2;
+  border-radius: 6px;
+  padding: 8px 10px;
+}
+
+.inline-options label,
+.checkbox-filter {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.checkbox-filter {
+  align-self: stretch;
+  border: 1px solid #cfd6e2;
+  border-radius: 6px;
+  padding: 8px 10px;
+}
+
+.advanced-filters {
+  border-top: 1px solid #e7ebf1;
+  padding-top: 12px;
+}
+
+.advanced-filters summary {
+  width: fit-content;
+  cursor: pointer;
+  color: #005f7f;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.secondary-button {
+  min-height: 36px;
+  border: 1px solid #cfd6e2;
+  border-radius: 6px;
+  background: #fff;
+  color: #1e2329;
+  padding: 0 12px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.secondary-button:hover {
+  border-color: #006a8e;
+  color: #005f7f;
+}
+
 .result-summary {
   display: flex;
-  align-items: baseline;
+  align-items: end;
+  justify-content: space-between;
   gap: 8px;
   margin: 22px 0 10px;
 }
 
+.result-summary div {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+}
+
 .result-summary strong {
   font-size: 28px;
+}
+
+.result-summary label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #53606f;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.result-summary select {
+  height: 36px;
+  border: 1px solid #cfd6e2;
+  border-radius: 6px;
+  background: #fff;
+  color: #1e2329;
+  padding: 0 10px;
+}
+
+.credit-calculator {
+  margin: 0 0 16px;
+  border: 1px solid #d9dee7;
+  border-radius: 8px;
+  background: #fff;
+  padding: 18px;
+}
+
+.credit-calculator-header {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.credit-calculator.collapsed .credit-calculator-header {
+  margin-bottom: 0;
+}
+
+.credit-calculator h2 {
+  margin: 0;
+  font-size: 22px;
+}
+
+.credit-actions {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.credit-total {
+  min-width: 150px;
+  text-align: right;
+}
+
+.credit-total strong {
+  font-size: 34px;
+}
+
+.credit-total span {
+  color: #53606f;
+  font-weight: 700;
+}
+
+.credit-bars {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(240px, 1fr));
+  gap: 12px 16px;
+}
+
+.credit-bars article {
+  display: grid;
+  gap: 6px;
+}
+
+.credit-bars article div:first-child {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  color: #53606f;
+  font-size: 13px;
+}
+
+.credit-bars strong {
+  color: #1e2329;
+}
+
+.credit-bar {
+  height: 9px;
+  overflow: hidden;
+  border-radius: 999px;
+  background: #edf2f7;
+}
+
+.credit-bar span {
+  display: block;
+  height: 100%;
+  border-radius: inherit;
+  background: #006a8e;
+}
+
+.credit-calculator-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-top: 16px;
+  border-top: 1px solid #e7ebf1;
+  padding-top: 14px;
+}
+
+.credit-calculator-footer p {
+  margin: 0;
+  color: #53606f;
+  font-size: 13px;
+  line-height: 1.7;
+}
+
+.credit-calculator-footer a {
+  margin-left: 8px;
+  color: #005f7f;
+  font-weight: 700;
+}
+
+.credit-actions button,
+.credit-calculator-footer button,
+.pagination button {
+  border: 1px solid #cfd6e2;
+  border-radius: 6px;
+  background: #fff;
+  color: #1e2329;
+  padding: 8px 12px;
+  white-space: nowrap;
+}
+
+.credit-actions button:disabled,
+.credit-calculator-footer button:disabled,
+.pagination button:disabled {
+  color: #a5afbd;
+  cursor: not-allowed;
 }
 
 .course-table-wrap {
@@ -199,7 +453,7 @@ h1 {
 .course-table {
   width: 100%;
   border-collapse: collapse;
-  min-width: 900px;
+  min-width: 980px;
 }
 
 .course-table th,
@@ -212,7 +466,8 @@ h1 {
 
 .course-table th {
   position: sticky;
-  top: 67px;
+  top: 0;
+  z-index: 1;
   background: #f1f4f8;
   color: #53606f;
   font-size: 13px;
@@ -220,6 +475,26 @@ h1 {
 
 .course-table tbody tr:hover {
   background: #eef8fb;
+}
+
+.course-table input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 16px 0 0;
+}
+
+.pagination span {
+  min-width: 220px;
+  color: #53606f;
+  text-align: center;
+  font-weight: 700;
 }
 
 code {
@@ -345,6 +620,9 @@ code {
 .preline {
   white-space: pre-line;
   line-height: 1.85;
+  word-break: keep-all;
+  overflow-wrap: anywhere;
+  line-break: strict;
 }
 
 .teacher-list,
@@ -390,36 +668,47 @@ code {
 .goal-list p {
   margin: 0;
   line-height: 1.7;
+  word-break: keep-all;
+  overflow-wrap: anywhere;
+  line-break: strict;
 }
 
-.evaluation-grid {
-  display: grid;
-  gap: 10px;
+.evaluation-table-wrap {
+  overflow-x: auto;
 }
 
-.evaluation-grid article {
-  display: grid;
-  grid-template-columns: minmax(160px, 240px) 1fr;
-  gap: 12px;
-  align-items: center;
-}
-
-.evaluation-grid h3 {
-  margin: 0;
+.evaluation-table {
+  width: 100%;
+  min-width: 860px;
+  border-collapse: collapse;
   font-size: 14px;
 }
 
-.evaluation-grid article div {
-  display: grid;
-  grid-template-columns: repeat(8, minmax(40px, 1fr));
-  gap: 6px;
+.evaluation-table th,
+.evaluation-table td {
+  border: 1px solid #d9dee7;
+  padding: 10px 12px;
+  text-align: center;
+  vertical-align: middle;
 }
 
-.evaluation-grid span {
-  border-radius: 5px;
+.evaluation-table thead th {
   background: #edf2f7;
-  padding: 8px;
-  text-align: center;
+  color: #334155;
+  font-weight: 800;
+  line-height: 1.35;
+}
+
+.evaluation-table tbody th {
+  width: 220px;
+  background: #f8fafc;
+  color: #1e2329;
+  text-align: left;
+  font-weight: 800;
+  line-height: 1.45;
+}
+
+.evaluation-table td {
   font-weight: 700;
 }
 
@@ -469,12 +758,32 @@ code {
     flex-direction: column;
   }
 
+  .primary-filters,
   .filters,
   .metadata-strip,
   .split-section,
   .lesson-list article,
-  .evaluation-grid article {
+  .credit-bars {
     grid-template-columns: 1fr;
+  }
+
+  .search-panel-header,
+  .keyword-filter > div {
+    align-items: stretch;
+    grid-template-columns: 1fr;
+  }
+
+  .result-summary,
+  .credit-calculator-header,
+  .credit-actions,
+  .credit-calculator-footer,
+  .pagination {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .credit-total {
+    text-align: left;
   }
 
   .metadata-strip div {

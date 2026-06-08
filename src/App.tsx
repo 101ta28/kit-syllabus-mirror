@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useState } from "react";
+import { loadDefaultJapaneseParser } from "budoux";
 import { courses, type CourseSummary, type SyllabusDetail } from "./data/generated";
 
 type View =
@@ -49,6 +50,77 @@ const sectionLabels = {
   },
 } as const;
 
+const creditRequirements = [
+  { id: "shugaku", label: "修学基礎", required: 4, commonEligible: false },
+  { id: "ethics", label: "技術者倫理", required: 4, commonEligible: false },
+  { id: "humanities", label: "人文社会科学・外国語", required: 6, commonEligible: true },
+  { id: "sports", label: "生涯スポーツ", required: 2, commonEligible: false },
+  { id: "english", label: "英語", required: 8, commonEligible: true },
+  { id: "math", label: "数理基礎", required: 15, commonEligible: true },
+  { id: "basicPractice", label: "基礎実技", required: 10, commonEligible: true },
+  { id: "specialized", label: "専門", required: 60, commonEligible: true },
+  { id: "specializedProject", label: "専門プロジェクト", required: 9, commonEligible: false },
+] as const;
+
+const commonRequirement = { label: "課程共通", required: 6 };
+const graduationRequirementUrl = "https://www.kanazawa-it.ac.jp/campus_guide/2021/chapter_3/list_1/page_9.html";
+const japaneseParser = loadDefaultJapaneseParser();
+const breakOpportunity = "\u200b";
+
+function normalizeDisplayWidth(value: string) {
+  return value
+    .replace(/[\uff61-\uff9f]+/g, (text) => text.normalize("NFKC"))
+    .replace(/[！-～]/g, (char) => String.fromCharCode(char.charCodeAt(0) - 0xfee0))
+    .replace(/\u3000/g, " ");
+}
+
+function displayText(value: string | number | null | undefined) {
+  if (value == null) return "";
+  return normalizeDisplayWidth(String(value));
+}
+
+function normalizeSoftLineBreaks(value: string) {
+  const lines = value.split("\n");
+  return lines.reduce((text, line, index) => {
+    if (index === 0) return line;
+    const previous = lines[index - 1] ?? "";
+    const next = line;
+    const previousText = previous.trim();
+    const nextText = next.trim();
+    const hasUnclosedParen = (previousText.match(/[（(]/g)?.length ?? 0) > (previousText.match(/[）)]/g)?.length ?? 0);
+    const startsContinuation = /^[のをにがはへでと、。・･）)]/.test(nextText);
+    const previousLooksStandalone = previousText.length >= 4 && previousText.length <= 14 && !startsContinuation && !hasUnclosedParen;
+    const shouldKeepBreak =
+      !previousText ||
+      !nextText ||
+      previousLooksStandalone ||
+      /[。．.!?！？;；:：」』）)]$/.test(previousText) ||
+      /^[^:\n]{1,16}:/.test(nextText) ||
+      /^[\s　]*(?:[・･\-－]|[0-9０-９]+[.)．、]|第[0-9０-９]+回|[①-⑳])/.test(next);
+    if (shouldKeepBreak) return `${text}\n${next}`;
+    const needsSpace = /[A-Za-z0-9]$/.test(previousText) && /^[A-Za-z0-9]/.test(nextText);
+    return `${text}${needsSpace ? " " : ""}${next.trimStart()}`;
+  }, "");
+}
+
+function readableText(value: string | number | null | undefined) {
+  const normalized = normalizeSoftLineBreaks(displayText(value));
+  if (!/[\u3040-\u30ff\u3400-\u9fff]/.test(normalized)) return normalized;
+  return normalized
+    .split("\n")
+    .map((line) => (line.trim() ? japaneseParser.parse(line).join(breakOpportunity) : line))
+    .join("\n");
+}
+
+function normalizeDetailText<T>(value: T): T {
+  if (typeof value === "string") return normalizeDisplayWidth(value) as T;
+  if (Array.isArray(value)) return value.map((item) => normalizeDetailText(item)) as T;
+  if (value && typeof value === "object") {
+    return Object.fromEntries(Object.entries(value).map(([key, item]) => [key, normalizeDetailText(item)])) as T;
+  }
+  return value;
+}
+
 function navigate(path: string) {
   window.history.pushState({}, "", path);
   window.dispatchEvent(new PopStateEvent("popstate"));
@@ -88,6 +160,33 @@ function uniqueSorted(values: string[]) {
   return [...new Set(values.filter(Boolean))].sort((a, b) => a.localeCompare(b, "ja"));
 }
 
+function normalizeForSearch(value: string | null | undefined) {
+  return normalizeDisplayWidth(String(value ?? "")).trim().toLowerCase();
+}
+
+function wordsForSearch(value: string) {
+  return normalizeForSearch(value).split(/\s+/).filter(Boolean);
+}
+
+function clampPage(page: number, totalPages: number) {
+  return Math.min(Math.max(page, 1), totalPages);
+}
+
+function selectedCreditStats(selectedCourses: CourseSummary[]) {
+  const creditsByCategory = new Map<string, number>();
+  for (const course of selectedCourses) {
+    creditsByCategory.set(course.creditCategory, (creditsByCategory.get(course.creditCategory) ?? 0) + course.credits);
+  }
+  const total = selectedCourses.reduce((sum, course) => sum + course.credits, 0);
+  const commonCredits = creditRequirements
+    .filter((requirement) => requirement.commonEligible)
+    .reduce((sum, requirement) => {
+      const credits = creditsByCategory.get(requirement.id) ?? 0;
+      return sum + Math.max(0, credits - requirement.required);
+    }, 0);
+  return { creditsByCategory, total, commonCredits };
+}
+
 function AppHeader() {
   return (
     <header className="app-header">
@@ -108,13 +207,109 @@ function AppHeader() {
   );
 }
 
+function CreditCalculator({
+  selectedCourses,
+  isOpen,
+  onClear,
+  onToggle,
+}: {
+  selectedCourses: CourseSummary[];
+  isOpen: boolean;
+  onClear: () => void;
+  onToggle: () => void;
+}) {
+  const stats = useMemo(() => selectedCreditStats(selectedCourses), [selectedCourses]);
+  const commonFulfilled = Math.min(stats.commonCredits, commonRequirement.required);
+  const graduationMinimum = 124;
+  return (
+    <section className={`credit-calculator ${isOpen ? "open" : "collapsed"}`} aria-label="単位計算">
+      <div className="credit-calculator-header">
+        <div>
+          <p className="eyebrow">credit calculator</p>
+          <h2>選択科目の単位計算</h2>
+        </div>
+        <div className="credit-actions">
+          <div className="credit-total">
+            <strong>{displayText(stats.total)}</strong>
+            <span>/ {graduationMinimum} 単位</span>
+          </div>
+          <button onClick={onToggle} aria-expanded={isOpen}>
+            {isOpen ? "閉じる" : "単位計算を開く"}
+          </button>
+        </div>
+      </div>
+      {isOpen && (
+        <>
+          <div className="credit-bars">
+            {creditRequirements.map((requirement) => {
+              const credits = stats.creditsByCategory.get(requirement.id) ?? 0;
+              const fulfilled = Math.min(credits, requirement.required);
+              const percent = requirement.required ? Math.min(100, (fulfilled / requirement.required) * 100) : 100;
+              return (
+                <article key={requirement.id}>
+                  <div>
+                    <strong>{requirement.label}</strong>
+                    <span>
+                      {displayText(credits)} / {displayText(requirement.required)}
+                    </span>
+                  </div>
+                  <div className="credit-bar" aria-hidden="true">
+                    <span style={{ width: `${percent}%` }} />
+                  </div>
+                </article>
+              );
+            })}
+            <article>
+              <div>
+                <strong>{commonRequirement.label}</strong>
+                <span>
+                  {displayText(commonFulfilled)} / {displayText(commonRequirement.required)}
+                </span>
+              </div>
+              <div className="credit-bar" aria-hidden="true">
+                <span style={{ width: `${Math.min(100, (commonFulfilled / commonRequirement.required) * 100)}%` }} />
+              </div>
+            </article>
+          </div>
+          <div className="credit-calculator-footer">
+            <p>
+              卒業に必要な最低単位数 124 単位と科目群別の最低単位数を目安に集計します。課程共通 6 単位は、対象科目群の最低単位を超えた分から計算します。
+              <a href={graduationRequirementUrl} target="_blank" rel="noreferrer">
+                出典
+              </a>
+            </p>
+            <button onClick={onClear} disabled={!selectedCourses.length}>
+              選択解除
+            </button>
+          </div>
+        </>
+      )}
+    </section>
+  );
+}
+
 function CourseList() {
-  const [query, setQuery] = useState("");
   const [year, setYear] = useState("2026");
   const [semester, setSemester] = useState("");
-  const [program, setProgram] = useState("");
+  const [programDepartment, setProgramDepartment] = useState("");
+  const [courseNameQuery, setCourseNameQuery] = useState("");
+  const [courseCodeQuery, setCourseCodeQuery] = useState("");
+  const [fuzzyKeywords, setFuzzyKeywords] = useState("");
+  const [fuzzyCondition, setFuzzyCondition] = useState<"AND" | "OR">("AND");
+  const [practicalOnly, setPracticalOnly] = useState(false);
+  const [page, setPage] = useState(1);
+  const pageSize = 50;
+  const [selectedCourseIds, setSelectedCourseIds] = useState<Set<string>>(() => new Set());
+  const [creditCalculatorOpen, setCreditCalculatorOpen] = useState(false);
+  const [searchIndex, setSearchIndex] = useState<Record<string, string> | null>(null);
   const years = useMemo(() => uniqueSorted(courses.map((course) => course.yearLabel)).reverse(), []);
-  const programs = useMemo(() => uniqueSorted(courses.filter((course) => course.yearLabel === year).map((course) => course.programLabel)), [year]);
+  const programDepartmentOptions = useMemo(() => {
+    const scoped = courses.filter((course) => !year || course.yearLabel === year);
+    return [
+      ...uniqueSorted(scoped.map((course) => course.programLabel)).map((value) => ({ value: `program:${value}`, label: value })),
+      ...uniqueSorted(scoped.map((course) => course.departmentLabel ?? "")).map((value) => ({ value: `department:${value}`, label: `　${value}` })),
+    ];
+  }, [year]);
   const semesters = useMemo(
     () =>
       uniqueSorted(courses.filter((course) => course.yearLabel === year).map((course) => course.semesterLabel)).sort(
@@ -124,22 +319,104 @@ function CourseList() {
   );
 
   const filtered = useMemo(() => {
-    const needle = query.trim().toLowerCase();
+    const courseNameNeedle = normalizeForSearch(courseNameQuery);
+    const courseCodeNeedle = normalizeForSearch(courseCodeQuery);
+    const fuzzyWords = wordsForSearch(fuzzyKeywords);
     return courses.filter((course) => {
-      const matchesQuery =
-        !needle ||
-        [course.courseName, course.courseCodeLabel, course.programLabel, course.departmentLabel ?? ""]
-          .join(" ")
-          .toLowerCase()
-          .includes(needle);
+      const courseName = normalizeForSearch(course.courseName);
+      const courseCode = normalizeForSearch(course.courseCodeLabel);
+      const searchText = normalizeForSearch(searchIndex?.[course.id] ?? [course.courseName, course.courseCodeLabel, course.programLabel, course.departmentLabel ?? ""].join(" "));
+      const matchesProgramDepartment =
+        !programDepartment ||
+        (programDepartment.startsWith("program:") && course.programLabel === programDepartment.slice("program:".length)) ||
+        (programDepartment.startsWith("department:") && (course.departmentLabel ?? "") === programDepartment.slice("department:".length));
+      const matchesFuzzy =
+        fuzzyWords.length === 0 ||
+        (fuzzyCondition === "AND"
+          ? fuzzyWords.every((word) => searchText.includes(word))
+          : fuzzyWords.some((word) => searchText.includes(word)));
       return (
-        matchesQuery &&
         (!year || course.yearLabel === year) &&
         (!semester || course.semesterLabel === semester) &&
-        (!program || course.programLabel === program)
+        matchesProgramDepartment &&
+        (!courseNameNeedle || courseName.includes(courseNameNeedle)) &&
+        (!courseCodeNeedle || courseCode.startsWith(courseCodeNeedle)) &&
+        matchesFuzzy &&
+        (!practicalOnly || course.hasPracticalTeacher)
       );
     });
-  }, [query, year, semester, program]);
+  }, [courseCodeQuery, courseNameQuery, fuzzyCondition, fuzzyKeywords, practicalOnly, programDepartment, searchIndex, semester, year]);
+  const totalPages = Math.max(1, Math.ceil(filtered.length / pageSize));
+  const currentPage = clampPage(page, totalPages);
+  const pageStart = (currentPage - 1) * pageSize;
+  const paginated = filtered.slice(pageStart, pageStart + pageSize);
+  const pageRangeStart = filtered.length ? pageStart + 1 : 0;
+  const pageRangeEnd = Math.min(pageStart + pageSize, filtered.length);
+  const selectedCourses = useMemo(() => courses.filter((course) => selectedCourseIds.has(course.id)), [selectedCourseIds]);
+  const selectedOnPage = paginated.filter((course) => selectedCourseIds.has(course.id)).length;
+  const allOnPageSelected = paginated.length > 0 && selectedOnPage === paginated.length;
+
+  useEffect(() => {
+    setPage(1);
+  }, [courseCodeQuery, courseNameQuery, fuzzyCondition, fuzzyKeywords, practicalOnly, programDepartment, semester, year]);
+
+  useEffect(() => {
+    if (!fuzzyKeywords.trim() || searchIndex) return;
+    let cancelled = false;
+    fetch("/search-index.json")
+      .then((response) => {
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        return response.json() as Promise<Record<string, string>>;
+      })
+      .then((value) => {
+        if (!cancelled) setSearchIndex(value);
+      })
+      .catch(() => {
+        if (!cancelled) setSearchIndex({});
+      });
+    return () => {
+      cancelled = true;
+    };
+  }, [fuzzyKeywords, searchIndex]);
+
+  useEffect(() => {
+    setPage((value) => clampPage(value, totalPages));
+  }, [totalPages]);
+
+  function toggleCourse(courseId: string) {
+    setSelectedCourseIds((current) => {
+      const next = new Set(current);
+      if (next.has(courseId)) {
+        next.delete(courseId);
+      } else {
+        next.add(courseId);
+      }
+      return next;
+    });
+  }
+
+  function togglePageSelection() {
+    setSelectedCourseIds((current) => {
+      const next = new Set(current);
+      if (allOnPageSelected) {
+        for (const course of paginated) next.delete(course.id);
+      } else {
+        for (const course of paginated) next.add(course.id);
+      }
+      return next;
+    });
+  }
+
+  function clearFilters() {
+    setYear("");
+    setSemester("");
+    setProgramDepartment("");
+    setCourseNameQuery("");
+    setCourseCodeQuery("");
+    setFuzzyKeywords("");
+    setFuzzyCondition("AND");
+    setPracticalOnly(false);
+  }
 
   return (
     <main>
@@ -157,79 +434,175 @@ function CourseList() {
         </div>
       </section>
 
-      <section className="filters" aria-label="検索条件">
-        <label>
-          <span>キーワード</span>
-          <input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="科目名・コード・課程で検索" />
-        </label>
-        <label>
-          <span>年度</span>
-          <select value={year} onChange={(event) => setYear(event.target.value)}>
-            <option value="">すべて</option>
-            {years.map((value) => (
-              <option key={value}>{value}</option>
-            ))}
-          </select>
-        </label>
-        <label>
-          <span>学期</span>
-          <select value={semester} onChange={(event) => setSemester(event.target.value)}>
-            <option value="">すべて</option>
-            {semesters.map((value) => (
-              <option key={value}>{value}</option>
-            ))}
-          </select>
-        </label>
-        <label>
-          <span>課程</span>
-          <select value={program} onChange={(event) => setProgram(event.target.value)}>
-            <option value="">すべて</option>
-            {programs.map((value) => (
-              <option key={value}>{value}</option>
-            ))}
-          </select>
-        </label>
+      <section className="search-panel" aria-label="検索条件">
+        <div className="search-panel-header">
+          <div>
+            <h2>検索条件</h2>
+            <p>科目名・科目コード・キーワードで絞り込みできます。</p>
+          </div>
+          <button className="secondary-button" type="button" onClick={clearFilters}>
+            条件クリア
+          </button>
+        </div>
+
+        <div className="primary-filters">
+          <label className="keyword-filter">
+            <span>キーワード</span>
+            <div>
+              <input value={fuzzyKeywords} onChange={(event) => setFuzzyKeywords(event.target.value)} placeholder="全文検索" />
+              <fieldset className="inline-options" aria-label="キーワード検索条件">
+                <label>
+                  <input checked={fuzzyCondition === "AND"} name="fuzzy-condition" type="radio" onChange={() => setFuzzyCondition("AND")} />
+                  <span>AND</span>
+                </label>
+                <label>
+                  <input checked={fuzzyCondition === "OR"} name="fuzzy-condition" type="radio" onChange={() => setFuzzyCondition("OR")} />
+                  <span>OR</span>
+                </label>
+              </fieldset>
+            </div>
+          </label>
+          <label>
+            <span>科目名</span>
+            <input value={courseNameQuery} onChange={(event) => setCourseNameQuery(event.target.value)} placeholder="部分一致検索" />
+          </label>
+          <label>
+            <span>科目コード</span>
+            <input value={courseCodeQuery} onChange={(event) => setCourseCodeQuery(event.target.value)} maxLength={7} placeholder="前方一致検索" />
+          </label>
+        </div>
+
+        <details className="advanced-filters">
+          <summary>詳細条件</summary>
+          <div className="filters">
+            <label>
+              <span>年度</span>
+              <select value={year} onChange={(event) => setYear(event.target.value)}>
+                <option value="">すべて</option>
+                {years.map((value) => (
+                  <option key={value}>{displayText(value)}</option>
+                ))}
+              </select>
+            </label>
+            <label>
+              <span>学期</span>
+              <select value={semester} onChange={(event) => setSemester(event.target.value)}>
+                <option value="">すべて</option>
+                {semesters.map((value) => (
+                  <option key={value}>{displayText(value)}</option>
+                ))}
+              </select>
+            </label>
+            <label>
+              <span>課程／学科</span>
+              <select value={programDepartment} onChange={(event) => setProgramDepartment(event.target.value)}>
+                <option value="">すべて</option>
+                {programDepartmentOptions.map((option) => (
+                  <option key={option.value} value={option.value}>
+                    {displayText(option.label)}
+                  </option>
+                ))}
+              </select>
+            </label>
+            <label className="checkbox-filter">
+              <input checked={practicalOnly} type="checkbox" onChange={(event) => setPracticalOnly(event.target.checked)} />
+              <span>実務経験のある教員の担当科目</span>
+            </label>
+          </div>
+        </details>
       </section>
 
       <section className="result-summary">
-        <strong>{filtered.length.toLocaleString()}</strong>
-        <span>件を表示中</span>
+        <div>
+          <strong>{filtered.length.toLocaleString()}</strong>
+          <span>件を表示中</span>
+        </div>
       </section>
+
+      <CreditCalculator
+        selectedCourses={selectedCourses}
+        isOpen={creditCalculatorOpen}
+        onClear={() => setSelectedCourseIds(new Set())}
+        onToggle={() => setCreditCalculatorOpen((value) => !value)}
+      />
 
       <section className="course-table-wrap">
         <table className="course-table">
           <thead>
             <tr>
+              <th>
+                <input
+                  aria-label="このページの科目を選択"
+                  checked={allOnPageSelected}
+                  disabled={!paginated.length}
+                  type="checkbox"
+                  onChange={togglePageSelection}
+                />
+              </th>
               <th>年度</th>
               <th>学期</th>
               <th>科目コード</th>
+              <th>単位</th>
               <th>科目名</th>
               <th>課程</th>
               <th>対象学科</th>
             </tr>
           </thead>
           <tbody>
-            {filtered.slice(0, 200).map((course) => (
+            {paginated.map((course) => (
               <tr key={course.id} onClick={() => navigate(course.routePath)}>
-                <td>{course.yearLabel}</td>
-                <td>{course.semesterLabel}</td>
                 <td>
-                  <code>{course.courseCodeLabel}</code>
+                  <input
+                    aria-label={`${displayText(course.courseName)}を単位計算に追加`}
+                    checked={selectedCourseIds.has(course.id)}
+                    type="checkbox"
+                    onChange={() => toggleCourse(course.id)}
+                    onClick={(event) => event.stopPropagation()}
+                  />
                 </td>
+                <td>{displayText(course.yearLabel)}</td>
+                <td>{displayText(course.semesterLabel)}</td>
                 <td>
-                  <button className="link-button" onClick={() => navigate(course.routePath)}>
-                    {course.courseName}
+                  <code>{displayText(course.courseCodeLabel)}</code>
+                </td>
+                <td>{displayText(course.credits)}</td>
+                <td>
+                  <button
+                    className="link-button"
+                    onClick={(event) => {
+                      event.stopPropagation();
+                      navigate(course.routePath);
+                    }}
+                  >
+                    {displayText(course.courseName)}
                   </button>
                   {course.hasDetail && <span className="detail-badge">{course.hasEnglishDetail ? "日英詳細あり" : "詳細あり"}</span>}
                 </td>
-                <td>{course.programLabel}</td>
-                <td>{course.departmentLabel ?? "全学"}</td>
+                <td>{displayText(course.programLabel)}</td>
+                <td>{displayText(course.departmentLabel ?? "全学")}</td>
               </tr>
             ))}
           </tbody>
         </table>
-        {filtered.length > 200 && <p className="table-note">表示を軽くするため先頭 200 件を表示しています。検索条件を追加してください。</p>}
       </section>
+      <nav className="pagination" aria-label="ページネーション">
+        <button disabled={currentPage <= 1} onClick={() => setPage(1)}>
+          最初
+        </button>
+        <button disabled={currentPage <= 1} onClick={() => setPage((value) => value - 1)}>
+          前へ
+        </button>
+        <span>
+          {displayText(currentPage)} / {displayText(totalPages)} ページ（{displayText(pageRangeStart)}-
+          {displayText(pageRangeEnd)} 件）
+        </span>
+        <button disabled={currentPage >= totalPages} onClick={() => setPage((value) => value + 1)}>
+          次へ
+        </button>
+        <button disabled={currentPage >= totalPages} onClick={() => setPage(totalPages)}>
+          最後
+        </button>
+      </nav>
     </main>
   );
 }
@@ -251,7 +624,7 @@ function MetadataStrip({ course, detail, language }: { course: CourseSummary; de
       {items.map(([label, value]) => (
         <div key={label}>
           <dt>{label}</dt>
-          <dd>{value}</dd>
+          <dd>{displayText(value)}</dd>
         </div>
       ))}
     </dl>
@@ -260,10 +633,12 @@ function MetadataStrip({ course, detail, language }: { course: CourseSummary; de
 
 function TextSection({ title, body }: { title: string; body?: string }) {
   if (!body) return null;
+  const normalizedBody = displayText(body);
+  const visibleBody = normalizedBody.startsWith(title) ? normalizedBody.slice(title.length).trimStart() : normalizedBody;
   return (
     <section className="detail-section">
       <h2>{title}</h2>
-      <p className="preline">{body}</p>
+      <p className="preline">{readableText(visibleBody)}</p>
     </section>
   );
 }
@@ -285,7 +660,7 @@ function DetailPage({ course, language }: Extract<View, { name: "detail" }>) {
       })
       .then((value) => {
         if (!cancelled) {
-          setDetail(value);
+          setDetail(normalizeDetailText(value));
           setStatus("ready");
         }
       })
@@ -310,10 +685,10 @@ function DetailPage({ course, language }: Extract<View, { name: "detail" }>) {
       </button>
       <section className="detail-hero">
         <p className="eyebrow">
-          {course.programLabel} / {course.departmentLabel ?? "全学"}
+          {displayText(course.programLabel)} / {displayText(course.departmentLabel ?? "全学")}
         </p>
-        <h1>{title}</h1>
-        {subtitle && <p className="subtitle">{subtitle}</p>}
+        <h1>{readableText(title)}</h1>
+        {subtitle && <p className="subtitle">{readableText(subtitle)}</p>}
         <MetadataStrip course={course} detail={detail} language={language} />
         <div className="language-tabs" aria-label="シラバス言語">
           <button className={language === "ja" ? "active" : ""} onClick={() => navigate(japanesePath)}>
@@ -340,26 +715,28 @@ function DetailPage({ course, language }: Extract<View, { name: "detail" }>) {
               ? "この科目の英語シラバス本文は取得データ内で確認できませんでした。日本語版は同じ URL から切り替えて確認できます。"
               : "この科目のフルシラバス本文はまだ取り込んでいません。検索結果由来の基本情報は URL に固定済みなので、今後の詳細取り込み時にも同じ共有リンクを使えます。"}
           </p>
-          <code>{course.routePath}</code>
+          <code>{displayText(course.routePath)}</code>
         </section>
       )}
 
       {detail && (
         <>
-          <section className="detail-section teachers">
-            <h2>{labels.teachers}</h2>
-            <div className="teacher-list">
-              {detail.teachers.map((teacher) => (
-                <span key={teacher}>{teacher}</span>
-              ))}
-            </div>
-          </section>
+          {detail.teachers.length > 0 && (
+            <section className="detail-section teachers">
+              <h2>{labels.teachers}</h2>
+              <div className="teacher-list">
+                {detail.teachers.map((teacher) => (
+                  <span key={teacher}>{displayText(teacher)}</span>
+                ))}
+              </div>
+            </section>
+          )}
 
           <section className="detail-section">
             <h2>{labels.keywords}</h2>
             <div className="keyword-list">
               {detail.keywords.map((keyword) => (
-                <span key={keyword}>{keyword}</span>
+                <span key={keyword}>{displayText(keyword)}</span>
               ))}
             </div>
           </section>
@@ -374,9 +751,9 @@ function DetailPage({ course, language }: Extract<View, { name: "detail" }>) {
             <div className="goal-list">
               {detail.activityGoals.map((goal) => (
                 <article key={goal.index}>
-                  <strong>{goal.index}</strong>
-                  <span>{goal.type}</span>
-                  <p>{goal.body}</p>
+                  <strong>{displayText(goal.index)}</strong>
+                  <span>{displayText(goal.type)}</span>
+                  <p>{readableText(goal.body)}</p>
                 </article>
               ))}
             </div>
@@ -384,28 +761,40 @@ function DetailPage({ course, language }: Extract<View, { name: "detail" }>) {
 
           <section className="detail-section">
             <h2>{labels.evaluation}</h2>
-            <div className="evaluation-grid">
-              {detail.evaluationWeights.map((row) => (
-                <article key={row.label}>
-                  <h3>{row.label}</h3>
-                  <div>
-                    {row.values.map((value, index) => (
-                      <span key={`${row.label}-${index}`}>{value}</span>
+            <div className="evaluation-table-wrap">
+              <table className="evaluation-table">
+                <thead>
+                  <tr>
+                    <th scope="col">評価方法</th>
+                    {(detail.evaluationWeights[0]?.columns?.length ? detail.evaluationWeights[0].columns : detail.evaluationWeights[0]?.values.map((_, index) => `${index + 1}`) ?? []).map((column) => (
+                      <th key={column} scope="col">
+                        {displayText(column)}
+                      </th>
                     ))}
-                  </div>
-                </article>
-              ))}
+                  </tr>
+                </thead>
+                <tbody>
+                  {detail.evaluationWeights.map((row) => (
+                    <tr key={row.label}>
+                      <th scope="row">{displayText(row.label)}</th>
+                      {row.values.map((value, index) => (
+                        <td key={`${row.label}-${index}`}>{displayText(value)}</td>
+                      ))}
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
             </div>
           </section>
 
           <section className="detail-section split-section">
             <div>
               <h2>{labels.ideal}</h2>
-              <p className="preline">{detail.achievementLevels.ideal}</p>
+              <p className="preline">{readableText(detail.achievementLevels.ideal)}</p>
             </div>
             <div>
               <h2>{labels.standard}</h2>
-              <p className="preline">{detail.achievementLevels.standard}</p>
+              <p className="preline">{readableText(detail.achievementLevels.standard)}</p>
             </div>
           </section>
 
@@ -417,22 +806,22 @@ function DetailPage({ course, language }: Extract<View, { name: "detail" }>) {
               <div className="lesson-list">
                 {detail.lessons.map((lesson) => (
                   <article key={lesson.index}>
-                    <div className="lesson-index">{lesson.index}</div>
+                    <div className="lesson-index">{displayText(lesson.index)}</div>
                     <div>
                       <h3>{labels.lessonContent}</h3>
-                      <p className="preline">{lesson.content}</p>
+                      <p className="preline">{readableText(lesson.content)}</p>
                     </div>
                     <div>
                       <h3>{labels.lessonOperation}</h3>
-                      <p className="preline">{lesson.operation}</p>
+                      <p className="preline">{readableText(lesson.operation)}</p>
                     </div>
                     <div>
                       <h3>{labels.lessonAssignments}</h3>
-                      <p className="preline">{lesson.assignments}</p>
+                      <p className="preline">{readableText(lesson.assignments)}</p>
                     </div>
                     <div>
                       <h3>{labels.lessonMinutes}</h3>
-                      <p className="preline">{lesson.minutes}</p>
+                      <p className="preline">{readableText(lesson.minutes)}</p>
                     </div>
                   </article>
                 ))}
