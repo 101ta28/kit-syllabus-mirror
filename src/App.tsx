@@ -3,26 +3,70 @@ import { courses, type CourseSummary, type SyllabusDetail } from "./data/generat
 
 type View =
   | { name: "list" }
-  | { name: "detail"; course: CourseSummary };
+  | { name: "detail"; course: CourseSummary; language: "ja" | "en" };
 
 const semesterOrder = ["spring", "fall", "full-year"];
+const sectionLabels = {
+  ja: {
+    teachers: "担当教員",
+    keywords: "キーワード",
+    educationalGoal: "学習・教育目標",
+    advice: "授業の概要および学習上の助言",
+    books: "教科書および参考書",
+    requiredKnowledge: "履修に必要な予備知識や技能",
+    activityGoals: "学生が達成すべき行動目標",
+    evaluation: "達成度評価",
+    ideal: "理想的な達成レベル",
+    standard: "標準的な達成レベル",
+    clip: "CLIP 学習プロセス",
+    lessons: "授業明細",
+    lessonContent: "学習内容",
+    lessonOperation: "運営方法",
+    lessonAssignments: "学習課題",
+    lessonMinutes: "時間",
+    loading: "詳細を読み込み中です",
+    loadingBody: "この科目の詳細 JSON を取得しています。",
+  },
+  en: {
+    teachers: "Instructor",
+    keywords: "Keywords",
+    educationalGoal: "Learning and Educational Goals",
+    advice: "Course Outline and Advice",
+    books: "Textbooks and References",
+    requiredKnowledge: "Required Knowledge and Skills",
+    activityGoals: "Behavioral Goals",
+    evaluation: "Performance Evaluation",
+    ideal: "Ideal Achievement Level",
+    standard: "Standard Achievement Level",
+    clip: "CLIP Learning Process",
+    lessons: "Course Schedule",
+    lessonContent: "Content",
+    lessonOperation: "Method",
+    lessonAssignments: "Assignments",
+    lessonMinutes: "Time",
+    loading: "Loading details",
+    loadingBody: "Loading the detailed syllabus JSON for this course.",
+  },
+} as const;
 
 function navigate(path: string) {
   window.history.pushState({}, "", path);
   window.dispatchEvent(new PopStateEvent("popstate"));
 }
 
-function useLocationPath() {
-  const [path, setPath] = useState(window.location.pathname);
+function useLocation() {
+  const [location, setLocation] = useState(window.location.pathname + window.location.search);
   useEffect(() => {
-    const onPop = () => setPath(window.location.pathname);
+    const onPop = () => setLocation(window.location.pathname + window.location.search);
     window.addEventListener("popstate", onPop);
     return () => window.removeEventListener("popstate", onPop);
   }, []);
-  return path;
+  return location;
 }
 
-function routeToView(pathname: string): View {
+function routeToView(location: string): View {
+  const [pathname, search = ""] = location.split("?");
+  const language = new URLSearchParams(search).get("lang") === "en" ? "en" : "ja";
   const parts = pathname.split("/").filter(Boolean).map(decodeURIComponent);
   if (parts[0] !== "courses" || parts.length < 4) return { name: "list" };
   const [, year, semester, code] = parts;
@@ -36,6 +80,7 @@ function routeToView(pathname: string): View {
   return {
     name: "detail",
     course,
+    language,
   };
 }
 
@@ -175,7 +220,7 @@ function CourseList() {
                   <button className="link-button" onClick={() => navigate(course.routePath)}>
                     {course.courseName}
                   </button>
-                  {course.hasDetail && <span className="detail-badge">詳細あり</span>}
+                  {course.hasDetail && <span className="detail-badge">{course.hasEnglishDetail ? "日英詳細あり" : "詳細あり"}</span>}
                 </td>
                 <td>{course.programLabel}</td>
                 <td>{course.departmentLabel ?? "全学"}</td>
@@ -189,13 +234,17 @@ function CourseList() {
   );
 }
 
-function MetadataStrip({ course, detail }: { course: CourseSummary; detail?: SyllabusDetail }) {
+function MetadataStrip({ course, detail, language }: { course: CourseSummary; detail?: SyllabusDetail; language: "ja" | "en" }) {
+  const labels =
+    language === "en"
+      ? { year: "Year", semester: "Semester", code: "Course Code", credits: "Credits", method: "Registration" }
+      : { year: "年度", semester: "学期", code: "科目コード", credits: "単位", method: "履修方法" };
   const items = [
-    ["年度", course.yearLabel],
-    ["学期", course.semesterLabel],
-    ["科目コード", course.courseCodeLabel],
-    ["単位", detail?.credits || "-"],
-    ["履修方法", detail?.method || "-"],
+    [labels.year, course.yearLabel],
+    [labels.semester, course.semesterLabel],
+    [labels.code, course.courseCodeLabel],
+    [labels.credits, detail?.credits || "-"],
+    [labels.method, detail?.method || "-"],
   ];
   return (
     <dl className="metadata-strip">
@@ -219,16 +268,17 @@ function TextSection({ title, body }: { title: string; body?: string }) {
   );
 }
 
-function DetailPage({ course }: Extract<View, { name: "detail" }>) {
+function DetailPage({ course, language }: Extract<View, { name: "detail" }>) {
   const [detail, setDetail] = useState<SyllabusDetail | undefined>();
-  const [status, setStatus] = useState<"loading" | "ready" | "empty" | "error">(course.detailPath ? "loading" : "empty");
+  const selectedDetailPath = language === "en" ? course.detailPaths.en : course.detailPaths.ja;
+  const [status, setStatus] = useState<"loading" | "ready" | "empty" | "error">(selectedDetailPath ? "loading" : "empty");
 
   useEffect(() => {
     let cancelled = false;
     setDetail(undefined);
-    setStatus(course.detailPath ? "loading" : "empty");
-    if (!course.detailPath) return;
-    fetch(course.detailPath)
+    setStatus(selectedDetailPath ? "loading" : "empty");
+    if (!selectedDetailPath) return;
+    fetch(selectedDetailPath)
       .then((response) => {
         if (!response.ok) throw new Error(`HTTP ${response.status}`);
         return response.json() as Promise<SyllabusDetail>;
@@ -245,7 +295,13 @@ function DetailPage({ course }: Extract<View, { name: "detail" }>) {
     return () => {
       cancelled = true;
     };
-  }, [course.detailPath]);
+  }, [selectedDetailPath]);
+
+  const japanesePath = course.routePath;
+  const englishPath = `${course.routePath}?lang=en`;
+  const labels = sectionLabels[language];
+  const title = language === "en" && detail?.subtitle ? detail.subtitle : course.courseName;
+  const subtitle = language === "en" && detail?.subtitle ? course.courseName : detail?.subtitle;
 
   return (
     <main>
@@ -256,15 +312,23 @@ function DetailPage({ course }: Extract<View, { name: "detail" }>) {
         <p className="eyebrow">
           {course.programLabel} / {course.departmentLabel ?? "全学"}
         </p>
-        <h1>{course.courseName}</h1>
-        {detail?.subtitle && <p className="subtitle">{detail.subtitle}</p>}
-        <MetadataStrip course={course} detail={detail} />
+        <h1>{title}</h1>
+        {subtitle && <p className="subtitle">{subtitle}</p>}
+        <MetadataStrip course={course} detail={detail} language={language} />
+        <div className="language-tabs" aria-label="シラバス言語">
+          <button className={language === "ja" ? "active" : ""} onClick={() => navigate(japanesePath)}>
+            日本語
+          </button>
+          <button className={language === "en" ? "active" : ""} disabled={!course.hasEnglishDetail} onClick={() => navigate(englishPath)}>
+            English
+          </button>
+        </div>
       </section>
 
       {status === "loading" && (
         <section className="empty-detail">
-          <h2>詳細を読み込み中です</h2>
-          <p>この科目の詳細 JSON を取得しています。</p>
+          <h2>{labels.loading}</h2>
+          <p>{labels.loadingBody}</p>
         </section>
       )}
 
@@ -272,7 +336,9 @@ function DetailPage({ course }: Extract<View, { name: "detail" }>) {
         <section className="empty-detail">
           <h2>{status === "error" ? "詳細を読み込めませんでした" : "共有 URL は作成済みです"}</h2>
           <p>
-            この科目のフルシラバス本文はまだ取り込んでいません。検索結果由来の基本情報は URL に固定済みなので、今後の詳細取り込み時にも同じ共有リンクを使えます。
+            {language === "en"
+              ? "この科目の英語シラバス本文は取得データ内で確認できませんでした。日本語版は同じ URL から切り替えて確認できます。"
+              : "この科目のフルシラバス本文はまだ取り込んでいません。検索結果由来の基本情報は URL に固定済みなので、今後の詳細取り込み時にも同じ共有リンクを使えます。"}
           </p>
           <code>{course.routePath}</code>
         </section>
@@ -281,7 +347,7 @@ function DetailPage({ course }: Extract<View, { name: "detail" }>) {
       {detail && (
         <>
           <section className="detail-section teachers">
-            <h2>担当教員</h2>
+            <h2>{labels.teachers}</h2>
             <div className="teacher-list">
               {detail.teachers.map((teacher) => (
                 <span key={teacher}>{teacher}</span>
@@ -290,7 +356,7 @@ function DetailPage({ course }: Extract<View, { name: "detail" }>) {
           </section>
 
           <section className="detail-section">
-            <h2>キーワード</h2>
+            <h2>{labels.keywords}</h2>
             <div className="keyword-list">
               {detail.keywords.map((keyword) => (
                 <span key={keyword}>{keyword}</span>
@@ -298,13 +364,13 @@ function DetailPage({ course }: Extract<View, { name: "detail" }>) {
             </div>
           </section>
 
-          <TextSection title="学習・教育目標" body={detail.educationalGoal} />
-          <TextSection title="授業の概要および学習上の助言" body={detail.advice} />
-          <TextSection title="教科書および参考書" body={detail.books} />
-          <TextSection title="履修に必要な予備知識や技能" body={detail.requiredKnowledge} />
+          <TextSection title={labels.educationalGoal} body={detail.educationalGoal} />
+          <TextSection title={labels.advice} body={detail.advice} />
+          <TextSection title={labels.books} body={detail.books} />
+          <TextSection title={labels.requiredKnowledge} body={detail.requiredKnowledge} />
 
           <section className="detail-section">
-            <h2>学生が達成すべき行動目標</h2>
+            <h2>{labels.activityGoals}</h2>
             <div className="goal-list">
               {detail.activityGoals.map((goal) => (
                 <article key={goal.index}>
@@ -317,7 +383,7 @@ function DetailPage({ course }: Extract<View, { name: "detail" }>) {
           </section>
 
           <section className="detail-section">
-            <h2>達成度評価</h2>
+            <h2>{labels.evaluation}</h2>
             <div className="evaluation-grid">
               {detail.evaluationWeights.map((row) => (
                 <article key={row.label}>
@@ -334,38 +400,38 @@ function DetailPage({ course }: Extract<View, { name: "detail" }>) {
 
           <section className="detail-section split-section">
             <div>
-              <h2>理想的な達成レベル</h2>
+              <h2>{labels.ideal}</h2>
               <p className="preline">{detail.achievementLevels.ideal}</p>
             </div>
             <div>
-              <h2>標準的な達成レベル</h2>
+              <h2>{labels.standard}</h2>
               <p className="preline">{detail.achievementLevels.standard}</p>
             </div>
           </section>
 
-          <TextSection title="CLIP 学習プロセス" body={detail.clipProcess} />
+          <TextSection title={labels.clip} body={detail.clipProcess} />
 
           <section className="detail-section">
-            <h2>授業明細</h2>
+            <h2>{labels.lessons}</h2>
             {detail.lessons.length ? (
               <div className="lesson-list">
                 {detail.lessons.map((lesson) => (
                   <article key={lesson.index}>
                     <div className="lesson-index">{lesson.index}</div>
                     <div>
-                      <h3>学習内容</h3>
+                      <h3>{labels.lessonContent}</h3>
                       <p className="preline">{lesson.content}</p>
                     </div>
                     <div>
-                      <h3>運営方法</h3>
+                      <h3>{labels.lessonOperation}</h3>
                       <p className="preline">{lesson.operation}</p>
                     </div>
                     <div>
-                      <h3>学習課題</h3>
+                      <h3>{labels.lessonAssignments}</h3>
                       <p className="preline">{lesson.assignments}</p>
                     </div>
                     <div>
-                      <h3>時間</h3>
+                      <h3>{labels.lessonMinutes}</h3>
                       <p className="preline">{lesson.minutes}</p>
                     </div>
                   </article>
@@ -382,8 +448,8 @@ function DetailPage({ course }: Extract<View, { name: "detail" }>) {
 }
 
 export function App() {
-  const path = useLocationPath();
-  const view = routeToView(path);
+  const location = useLocation();
+  const view = routeToView(location);
   return (
     <>
       <AppHeader />

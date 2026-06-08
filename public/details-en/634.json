@@ -1,0 +1,312 @@
+{
+  "sourceIndex": 634,
+  "sourceUrl": "/opsyllabus/kitos0110/634/1",
+  "importedAt": "2026-06-08T09:34:06.043Z",
+  "title": "ソフトウェアモデリング",
+  "subtitle": "Software Modeling",
+  "courseType": "Major ProgramMajor Courses",
+  "credits": "2",
+  "term": "2026年度\n\n                2nd year 2nd semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "FUJIMOTO Taro\n授業科目の学習・教育目標"
+  ],
+  "keywords": [
+    "Software design",
+    "Requirement analysis",
+    "Systems analysis",
+    "Systems design",
+    "UML"
+  ],
+  "educationalGoal": "In this course, students will achieve the following learning objectives:\n  1. Understand the basic concepts of software design, with a focus on object-oriented development.\n  2. Gain fundamental knowledge of UML as a software design description language.\n  3. Develop practical software design skills through the design and implementation process.",
+  "advice": "To develop software for information processing systems, it is necessary to follow a series of processes, including system requirements analysis, system analysis, system design, system construction, software design and implementation, system verification, and operational testing.\n\nIn order to understand the importance of software design, students need to gain hands-on experience with design activities as part of the system development process.\n\nIn this course, students will learn object-oriented development through practical exercises using UML and the Java programming language. The main topics covered in this course are as follows:\n  1. Overview of object-oriented concepts\n  2. Object-oriented development process\n  3. Analysis, design, and modeling using UML\n  4. Program development using Java\n\nNote: Students are required to bring their own laptop computer and the designated textbook to each class.",
+  "books": "Textbooks: 実践UMLによるシステム開発ー事例で学ぶ「オブジェクト指向」のシステム設計[工学社]\nReference books: None\nReserved books: None",
+  "requiredKnowledge": "Students are expected to have reviewed and understood the following topics covered in Programming II (Java Basics) and Programming III (Object-Oriented Programming).\n  1. Ability to explain basic object-oriented concepts, such as classes, methods, objects, and inheritance.\n  2. Ability to read and explain example source code.\n  3. Ability to create, compile, and execute a simple object-oriented Java program.\n  4. Basic ability to program in Python and to use SQL databases.",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "J,N,O",
+      "body": "Explain key terms and concepts related to object-oriented programming."
+    },
+    {
+      "index": "②",
+      "type": "J,N,O",
+      "body": "Describe the system development process using UML."
+    },
+    {
+      "index": "③",
+      "type": "J,N,O",
+      "body": "Understand the meanings of graphical symbols in UML diagrams, and create and use UML diagrams appropriately."
+    },
+    {
+      "index": "④",
+      "type": "J,N,O",
+      "body": "Define and implement classes using the Java programming language."
+    },
+    {
+      "index": "⑤",
+      "type": "J,N,O",
+      "body": "Explain the terminology associated with representative software testing techniques."
+    },
+    {
+      "index": "⑥",
+      "type": "J,N,O",
+      "body": "Create UML design diagrams based on program implementations."
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "40",
+        "20",
+        "40",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "40",
+        "20",
+        "40",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "40",
+        "20",
+        "40",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションとリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "In addition to the standard learning outcomes, students will be able to:\n  4. Create appropriate UML diagrams and corresponding\n    Java code based on given requirements.\n  5. Generate UML diagrams from existing Java code and\n    specified requirements.\n  6. Understand representative software testing techniques and\n    explain their appropriate use according to project situations\n    and states.",
+    "standard": "By completing this course, students will be able to:\n  1. Explain key terms related to object-oriented software\n    development and Java programming.\n  2. Understand the overall system development process and\n    the UML graphical symbols used.\n  3. Explain the relationship between system development\n    components and Java class definitions."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Guidance, Object-oriented features, Elemental\ntechnology, Checking the exercise environment,\nInstalling UML draw tools",
+      "operation": "Lecture and exercise",
+      "assignments": "Review: Understanding object-\noriented features and the\nconcept of elemental\ntechnology",
+      "minutes": "180"
+    },
+    {
+      "index": "2",
+      "content": "Object-oriented features and elemental\ntechnologies, Operation of UML tool\nExercise: Drawing a UML diagram",
+      "operation": "Lecture and exercise",
+      "assignments": "Review: Understanding basic\nobject-oriented concepts of\nobjects",
+      "minutes": "120"
+    },
+    {
+      "index": "3",
+      "content": "System Development and UML, Drawing class\ndiagram, Java Programming,\nA mini exam",
+      "operation": "Lecture, exercise and shor\nt test",
+      "assignments": "Review: Explaining each system\ndevelopment process",
+      "minutes": "190"
+    },
+    {
+      "index": "4",
+      "content": "Requirements analysis, Drawing usecase diagram\nwith usecase description",
+      "operation": "Lecture and exercise,",
+      "assignments": "Report #1",
+      "minutes": "120"
+    },
+    {
+      "index": "5",
+      "content": "Continue to requirements analysis, drawing\nactivity diagrams, usecase diagrams, and\nusecase descriptions with UML tools",
+      "operation": "Lecture and exercise",
+      "assignments": "Understanding UML diagrams\nused in requirements analysis\nReport #2",
+      "minutes": "120"
+    },
+    {
+      "index": "6",
+      "content": "System analysis, Class objects creation from\nusecase description",
+      "operation": "Lecture and exercise",
+      "assignments": "Understanding class diagrams,\nsequence diagrams",
+      "minutes": "150"
+    },
+    {
+      "index": "7",
+      "content": "Understanding and drawing object diagrams, class\n diagrams, and sequence diagrams",
+      "operation": "Lecture, exercise and shor\nt test",
+      "assignments": "Report #3",
+      "minutes": "150"
+    },
+    {
+      "index": "8",
+      "content": "Exercises for Learn HTML tags and create web\npages",
+      "operation": "Exercise",
+      "assignments": "Report #4\nReview HTML tags and improve\nhomepage",
+      "minutes": "120"
+    },
+    {
+      "index": "9",
+      "content": "Exercise for Web application: HTML input form,\nflask web application framework",
+      "operation": "Lecture and exercise",
+      "assignments": "Preview: Improve the Web\nApplication program\nReport #5",
+      "minutes": "150"
+    },
+    {
+      "index": "10",
+      "content": "Exercise for Web application: Database interface\n #1",
+      "operation": "Lecture and exercise",
+      "assignments": "Extend Web application\nprogram to add, query, and\ndelete records in the database",
+      "minutes": "150"
+    },
+    {
+      "index": "11",
+      "content": "Exercise for Web application: Database interface\n　#2",
+      "operation": "Lecture and exercise",
+      "assignments": "Report #6, Review of class\ndiagrams, sequence diagrams,\nand activity diagrams",
+      "minutes": "120"
+    },
+    {
+      "index": "12",
+      "content": "Reverse engineering, Translation from source\ncode to class diagrams",
+      "operation": "Lecture and exercise",
+      "assignments": "Report #7,\nUnderstanding reverse\nengineering",
+      "minutes": "90"
+    },
+    {
+      "index": "13",
+      "content": "Review of previously covered material and Exam.",
+      "operation": "Lectures, review, and exam\n.",
+      "assignments": "Exam, review",
+      "minutes": "90"
+    },
+    {
+      "index": "14",
+      "content": "Software test method",
+      "operation": "Lectures",
+      "assignments": "Preview: preparing Exam",
+      "minutes": "120"
+    },
+    {
+      "index": "15",
+      "content": "Commentary for Exam, Self-inspection,\nRelated topics",
+      "operation": "Lectures, review, and QA",
+      "assignments": "Review of less understood\nparts",
+      "minutes": ""
+    }
+  ],
+  "rawText": "金沢工業大学　学習支援計画書　C114-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Artificial Intelligence\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                ソフトウェアモデリング\n                Software Modeling\n\n              2\n              C114-01\n\n                2026年度\n\n                2nd year 2nd semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  FUJIMOTO Taro\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Software design\n2.Requirement analysis\n3.Systems analysis\n4.Systems design\n5.UML\n\n              In this course, students will achieve the following learning objectives:\n  1. Understand the basic concepts of software design, with a focus on object-oriented development.\n  2. Gain fundamental knowledge of UML as a software design description language.\n  3. Develop practical software design skills through the design and implementation process.\n\n              授業の概要および学習上の助言\n\n              To develop software for information processing systems, it is necessary to follow a series of processes, including system requirements analysis, system analysis, system design, system construction, software design and implementation, system verification, and operational testing.\n\nIn order to understand the importance of software design, students need to gain hands-on experience with design activities as part of the system development process.\n\nIn this course, students will learn object-oriented development through practical exercises using UML and the Java programming language. The main topics covered in this course are as follows:\n  1. Overview of object-oriented concepts\n  2. Object-oriented development process\n  3. Analysis, design, and modeling using UML\n  4. Program development using Java\n\nNote: Students are required to bring their own laptop computer and the designated textbook to each class.\n\n              教科書および参考書・リザーブドブック\n\n              Textbooks: 実践UMLによるシステム開発ー事例で学ぶ「オブジェクト指向」のシステム設計[工学社]\nReference books: None\nReserved books: None\n\n              履修に必要な予備知識や技能\n\n              Students are expected to have reviewed and understood the following topics covered in Programming II (Java Basics) and Programming III (Object-Oriented Programming).\n  1. Ability to explain basic object-oriented concepts, such as classes, methods, objects, and inheritance.\n  2. Ability to read and explain example source code.\n  3. Ability to create, compile, and execute a simple object-oriented Java program.\n  4. Basic ability to program in Python and to use SQL databases.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                J,N,O\n                Explain key terms and concepts related to object-oriented programming.\n\n                ②\n                J,N,O\n                Describe the system development process using UML.\n\n                ③\n                J,N,O\n                Understand the meanings of graphical symbols in UML diagrams, and create and use UML diagrams appropriately.\n\n                ④\n                J,N,O\n                Define and implement classes using the Java programming language.\n\n                ⑤\n                J,N,O\n                Explain the terminology associated with representative software testing techniques.\n\n                ⑥\n                J,N,O\n                Create UML design diagrams based on program implementations.\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                40\n\n                20\n\n                40\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n          ",
+  "courseId": "2026:fall:C114-01:0:634",
+  "language": "en"
+}

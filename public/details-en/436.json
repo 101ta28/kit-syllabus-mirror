@@ -1,0 +1,302 @@
+{
+  "sourceIndex": 436,
+  "sourceUrl": "/opsyllabus/kitos0110/436/1",
+  "importedAt": "2026-06-08T09:34:01.966Z",
+  "title": "アルゴリズムとデータ構造",
+  "subtitle": "Algorithms and Data Structure",
+  "courseType": "Major ProgramMajor Courses",
+  "credits": "2",
+  "term": "2026年度\n\n                3rd year 1st semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "SAITO Masashi\n授業科目の学習・教育目標"
+  ],
+  "keywords": [
+    "Algorithms",
+    "Sort, Search, encryption, digital signature",
+    "Dynamic programming",
+    "K neighborhood method",
+    "Indeterminably"
+  ],
+  "educationalGoal": "This course is for an educational goal to acquire Information design basic ability.\nStudents will:\n(1)　acquire the basic algorithmic thinking ability to fuse and utilize　management and IT,\n(2)　learn the fundamental algorithms which are useful to solve several problems,\n(3)　acquire the ability to devise solutions for management organizations aim.",
+  "advice": "There is a need for managers and business promoters who understand IT in these days, so that various management functions and IT application systems should be vital for students who are willing to become modern business persons.\nUp to now, students have learned web page creation method, IT system basics that enable IT passport acquisition, database construction techniques, hands-on efforts such as dynamic web page creation, and programming with Python. To understand the IT technology used in actual business from a bird's-eye view, it is necessary to solve problems rather than using individual applications. So students should understand algorithms that are methods and means to solve them.\nThe purpose of this class is to learn the outline of more than a dozen types of algorithms and to acquire the ability to solve problems using algorithms. Specifically, learning of the following ten algorithms that students normally use in an invisible form, they will deepen understanding through the proposal of practical solutions.\n(1) Sort, (2) Recursion, (3) Quick sort, (4) Hash table, (5) Breadth-first search, (6) Dijkstra method, (7) Greedy algorithm, (8) Dynamic programming, (9) k-neighbors, (10) cryptography.\nOne of the purposes of this class is “deeply think about the answer by yourself”, so that students will have a simple assignment at each lecture. In addition, lectures will be held by using Python, students can learn by executing some actual programs.",
+  "books": "Grokking Algorithms: An illustrated guide for programmers and other curious people, Manning Publications, Manning Publications; ISBN 978-1617292231",
+  "requiredKnowledge": "It is necessary to have a certain level of knowledge about general corporate management and information technology by taking other subjects: Web design, IT system management, database management, programming basics, applied programming.",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "J,N",
+      "body": "Be able to understand and explain information technology in general by learning basic knowledge of IT."
+    },
+    {
+      "index": "②",
+      "type": "J,N",
+      "body": "Be able to explain necessity and effectiveness of algorithms used in various information systems."
+    },
+    {
+      "index": "③",
+      "type": "J,N",
+      "body": "Be able to explain algorithms being important means and subject of corporate strategies."
+    },
+    {
+      "index": "④",
+      "type": "J,N",
+      "body": "Be able to devise and design algorithms to solve problems by yourselves."
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "30",
+        "40",
+        "20",
+        "0",
+        "0",
+        "0",
+        "10",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "30",
+        "40",
+        "20",
+        "0",
+        "0",
+        "0",
+        "10",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "30",
+        "40",
+        "20",
+        "0",
+        "0",
+        "0",
+        "10",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションとリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "(1)Be able to explain the method and the method of execution on a computer especially 10 kinds of algorithms taken up in this class.\n(2)Be able to explain IT solutions with an algorithm form when a task is given.\n(3)Be able to write a pseudo programming code and/or diagram from some algorithms.\n(4)Be able to judge an algorithm working correctly when an algorithm is given.",
+    "standard": "(1)Be able to explain the method and the method of execution on a computer especially 10 kinds of algorithms taken up in this class.\n(2)Be able to explain IT solutions with an algorithm form when a task is given.\n(3)Be able to write a pseudo programming code and/or diagram from some algorithms."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "- Guidance\n- Introduction to algorithm",
+      "operation": "Lecture\nQuiz description",
+      "assignments": "Implementation of a quiz\nReview: Chapter 1\n  Solve text book exercises\nSelf-evaluation",
+      "minutes": "260"
+    },
+    {
+      "index": "2",
+      "content": "- Selection sort",
+      "operation": "Lecture\nQuiz description",
+      "assignments": "Implementation of a quiz\nReview: Chapter 2\n  Solve text book exercises\nSelf-evaluation",
+      "minutes": "260"
+    },
+    {
+      "index": "3",
+      "content": "- Recursion",
+      "operation": "Lecture\nQuiz description",
+      "assignments": "Implementation of a quiz\nReview: Chapter 3\n  Solve text book exercises\nSelf-evaluation",
+      "minutes": "260"
+    },
+    {
+      "index": "4",
+      "content": "- Quicksort",
+      "operation": "Lecture\nQuiz description",
+      "assignments": "Implementation of a quiz\nReview: Chapter 4\n  Solve text book exercises\nSelf-evaluation",
+      "minutes": "260"
+    },
+    {
+      "index": "5",
+      "content": "- Hash tables",
+      "operation": "Lecture\nQuiz description",
+      "assignments": "Implementation of a quiz\nReview: Chapter 5\n  Solve text book exercises\nSelf-evaluation",
+      "minutes": "260"
+    },
+    {
+      "index": "6",
+      "content": "- Breadth-first search",
+      "operation": "Lecture\nQuiz description",
+      "assignments": "Implementation of a quiz\nReview: Chapter 6\n  Solve text book exercises\nSelf-evaluation",
+      "minutes": "260"
+    },
+    {
+      "index": "7",
+      "content": "- Dijkstra's algorithm - 1",
+      "operation": "Lecture\nQuiz description",
+      "assignments": "Implementation of a quiz\nReview: Chapter 7\n  Solve text book exercises\nSelf-evaluation",
+      "minutes": "300"
+    },
+    {
+      "index": "8",
+      "content": "- Dijkstra's algorithm - 2",
+      "operation": "Lecture\nQuiz description",
+      "assignments": "Implementation of a quiz\nReview: Chapter 7\n  Solve text book exercises\nSelf-evaluation",
+      "minutes": "300"
+    },
+    {
+      "index": "9",
+      "content": "- Greedy algorithms",
+      "operation": "Lecture\nQuiz description",
+      "assignments": "Implementation of a quiz\nReview: Chapter 8\n  Solve text book exercises\nSurveying report topic\nSelf-evaluation",
+      "minutes": "300"
+    },
+    {
+      "index": "10",
+      "content": "- Dynamic programming - 1",
+      "operation": "Lecture\nQuiz description",
+      "assignments": "Implementation of a quiz\nReview: Chapter 9\n  Solve text book exercises\nWrite a draft report\nSelf-evaluation",
+      "minutes": "300"
+    },
+    {
+      "index": "11",
+      "content": "- Dynamic programming - 2",
+      "operation": "Lecture\nQuiz description",
+      "assignments": "Implementation of a quiz\nReview: Chapter 9\n  Solve text book exercises\nComplete your report\nSelf-evaluation",
+      "minutes": "260"
+    },
+    {
+      "index": "12",
+      "content": "- K-nearest neighbors",
+      "operation": "Lecture\nQuiz description",
+      "assignments": "Implementation of a quiz\nReview: Chapter 10\n  Solve text book exercises\nReview the report & submit\nSelf-evaluation",
+      "minutes": "260"
+    },
+    {
+      "index": "13",
+      "content": "- Where to go next\nTrees, Inverted indexes, The Fourier\ntransform, Parallel algorithms, MapReduce,\nBloom filters, and others",
+      "operation": "Lecture\nQuiz description",
+      "assignments": "Review: Chapter 1-10\nSelf-evaluation",
+      "minutes": "300"
+    },
+    {
+      "index": "14",
+      "content": "- Overall review\n- A written exam",
+      "operation": "Lecture and exam",
+      "assignments": "Preparation: Review what you\nlearned\nSelf-evaluation",
+      "minutes": "300"
+    },
+    {
+      "index": "15",
+      "content": "- Other famous algorithms\n- Self-evaluation\n- Questionnaire",
+      "operation": "Lecture",
+      "assignments": "Review: Overall reviewing\nSelf-evaluation\n Level of achievement",
+      "minutes": "60"
+    }
+  ],
+  "rawText": "金沢工業大学　学習支援計画書　F129-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Management Systems(〜2024)\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                アルゴリズムとデータ構造\n                Algorithms and Data Structure\n\n              2\n              F129-01\n\n                2026年度\n\n                3rd year 1st semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  SAITO Masashi\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Algorithms\n2.Sort, Search, encryption, digital signature\n3.Dynamic programming\n4.K neighborhood method\n5.Indeterminably\n\n              This course is for an educational goal to acquire Information design basic ability.\nStudents will:\n(1)　acquire the basic algorithmic thinking ability to fuse and utilize　management and IT,\n(2)　learn the fundamental algorithms which are useful to solve several problems,\n(3)　acquire the ability to devise solutions for management organizations aim.\n\n              授業の概要および学習上の助言\n\n              There is a need for managers and business promoters who understand IT in these days, so that various management functions and IT application systems should be vital for students who are willing to become modern business persons.\nUp to now, students have learned web page creation method, IT system basics that enable IT passport acquisition, database construction techniques, hands-on efforts such as dynamic web page creation, and programming with Python. To understand the IT technology used in actual business from a bird's-eye view, it is necessary to solve problems rather than using individual applications. So students should understand algorithms that are methods and means to solve them.\nThe purpose of this class is to learn the outline of more than a dozen types of algorithms and to acquire the ability to solve problems using algorithms. Specifically, learning of the following ten algorithms that students normally use in an invisible form, they will deepen understanding through the proposal of practical solutions.\n(1) Sort, (2) Recursion, (3) Quick sort, (4) Hash table, (5) Breadth-first search, (6) Dijkstra method, (7) Greedy algorithm, (8) Dynamic programming, (9) k-neighbors, (10) cryptography.\nOne of the purposes of this class is “deeply think about the answer by yourself”, so that students will have a simple assignment at each lecture. In addition, lectures will be held by using Python, students can learn by executing some actual programs.\n\n              教科書および参考書・リザーブドブック\n\n              Grokking Algorithms: An illustrated guide for programmers and other curious people, Manning Publications, Manning Publications; ISBN 978-1617292231\n\n              履修に必要な予備知識や技能\n\n              It is necessary to have a certain level of knowledge about general corporate management and information technology by taking other subjects: Web design, IT system management, database management, programming basics, applied programming.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                J,N\n                Be able to understand and explain information technology in general by learning basic knowledge of IT.\n\n                ②\n                J,N\n                Be able to explain necessity and effectiveness of algorithms used in various information systems.\n\n                ③\n                J,N\n                Be able to explain algorithms being important means and subject of corporate strategies.\n\n                ④\n                J,N\n                Be able to devise and design algorithms to solve problems by yourselves.\n\n                ⑤\n\n                ⑥\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n     ",
+  "courseId": "2026:spring:F129-01:0:436",
+  "language": "en"
+}

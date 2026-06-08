@@ -1,0 +1,312 @@
+{
+  "sourceIndex": 269,
+  "sourceUrl": "/opsyllabus/kitos0110/269/1",
+  "importedAt": "2026-06-08T09:33:58.557Z",
+  "title": "情報伝送工学",
+  "subtitle": "Information Transmission Engineering",
+  "courseType": "Major ProgramMajor Courses",
+  "credits": "2",
+  "term": "2026年度\n\n                3rd year 1st semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "ITO Kenji\n授業科目の学習・教育目標"
+  ],
+  "keywords": [
+    "Fourier series and Fourier transform",
+    "Amplitude modulation and Frequency modulation",
+    "Continuous time system",
+    "Analog modulation",
+    "Pulse code modulation and sampling theorem"
+  ],
+  "educationalGoal": "This course introduces the basis of information signal and its transmission. For signal analysis in frequency domain, Fourier series/transform are explained. Frequency spectra of radio waves in analog modulations are analyzed. In addition to above, this course introduces the coding method named PCM from analog to digital and sampling theorem that gives the basic restriction for sampling frequency. For each topic, basis and principle are explained with basic formulas.",
+  "advice": "This course is constructed following chapters:\ni) Basic topology of telecommunication systems,\nii) Signal analysis method,\n-\tFourier series and Fourier transform\niii) Continuous time system,\n-\tFilters’ behaviors and their analysis\n-\tQuadrature modulation\niv) Analog modulation and demodulation,\n-\tAmplitude modulation and frequency modulation\nv) Pulse code modulation and sampling theorem.\n-\tPulse amplitude modulation and pulse code modulation\n-\tSampling theorem",
+  "books": "Yamashita, \"Tsuushin-kougaku gairon (the third edi.)\" Morikita",
+  "requiredKnowledge": "Acquisition of Electrical circuits.\nEnough skill of mathematics (basic functions, integral calculus, complex number)\nHow to use a calculator.",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "L",
+      "body": "Be able to understand and calculate Fourie series for basic periodic functions."
+    },
+    {
+      "index": "②",
+      "type": "L",
+      "body": "Be able to understand and calculate Fourier transform and inverse Fourier transform."
+    },
+    {
+      "index": "③",
+      "type": "L",
+      "body": "Be able to understand basic properties of filters in time domain and frequency domain."
+    },
+    {
+      "index": "④",
+      "type": "L",
+      "body": "Be able to understand and explain amplitude modulation."
+    },
+    {
+      "index": "⑤",
+      "type": "L",
+      "body": "Be able to understand and explain frequency modulation."
+    },
+    {
+      "index": "⑥",
+      "type": "L",
+      "body": "Be able to understand and explain principles of pulse code modulation and the sampling theorem."
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "40",
+        "20",
+        "40",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "40",
+        "20",
+        "40",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "40",
+        "20",
+        "40",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションとリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "To explain the concept and principle of the items that are described in “target abilities for students”.",
+    "standard": "To explain meanings of the items that are described in “target abilities for students”."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Course introduction\n1. Basis of telecommunication systems\n2. Basic mathematics for this course (1)\n- sine wave, exponential function, integral\ncalculus",
+      "operation": "Lecture based on PPT\nslides. Practice after\nthe class.",
+      "assignments": "Understanding the objectives\nof class, basis of\ntelecommunication systems and\nbasic mathematics.",
+      "minutes": "200"
+    },
+    {
+      "index": "2",
+      "content": "2. Basic mathematics for this course (2)\n- complex number\n3. Signal analysis (1)\n- Periodical function\n- Fourier series",
+      "operation": "Test and review. Lecture\nbased on PPT slides.\nPractice after the class.",
+      "assignments": "Understanding basic\nmathematics, periodical\nfunction and Fourier series.",
+      "minutes": "200"
+    },
+    {
+      "index": "3",
+      "content": "3. Signal analysis (2)\n- Fourier series for periodical function\n- Fourier series for even/odd functions",
+      "operation": "Test and review. Lecture\nbased on PPT slides.\nPractice after the class.",
+      "assignments": "Understanding Fourier series\nfor periodical functions and\neven/odd functions",
+      "minutes": "200"
+    },
+    {
+      "index": "4",
+      "content": "3. Signal analysis (3)\n- Exponential expression of Fourier series\n- Fourier series for wave form shift",
+      "operation": "Test and review. Lecture\nbased on PPT slides.\nPractice after the class.",
+      "assignments": "Understanding exponential\nexpression of Fourier series\nand Fourier series for wave\nform shift",
+      "minutes": "200"
+    },
+    {
+      "index": "5",
+      "content": "3. Signal analysis (4)\n- Fourier series pulse train signal and its\nexpansion to Fourier transform",
+      "operation": "Test and review. Lecture\nbased on PPT slides.\nPractice after the class.",
+      "assignments": "Test and review. Lecture\nbased on PPT slides. Practice\nafter the class.\nUnderstanding Fourier series\npulse train signal and its\nexpansion to Fourier\ntransform.",
+      "minutes": "200"
+    },
+    {
+      "index": "6",
+      "content": "3. Signal analysis (5)\n- Fourier transform and inverse Fourier\ntransform\n- Property of Fourier transform",
+      "operation": "Test and review. Lecture\nbased on PPT slides.\nPractice after the class.",
+      "assignments": "Understanding Fourier\ntransform and its property",
+      "minutes": "200"
+    },
+    {
+      "index": "7",
+      "content": "4. Continuous time system\n- Basic functions: multiplier, filters and\nquadrature modulator",
+      "operation": "Exam\nLecture based on PPT\nslides. Practice after\nthe class.",
+      "assignments": "Understanding basic\nfunctions: multiplier,\nfilters and quadrature\nmodulator.",
+      "minutes": "200"
+    },
+    {
+      "index": "8",
+      "content": "Exam\n5. Analog modulation (1)\n- Principle of amplitude modulation",
+      "operation": "Exam.\nLecture based on PPT\nslides. Practice after\nthe class.",
+      "assignments": "Prepare for the exam\nUnderstanding principle of\namplitude modulation",
+      "minutes": "200"
+    },
+    {
+      "index": "9",
+      "content": "Self-evaluation of the exam in previous class\n5. Analog modulation (2)\n- Principle of amplitude modulation (continued)",
+      "operation": "Test and review.\nLecture based on PPT\nslides. Practice after\nthe class.",
+      "assignments": "Understanding principle of\namplitude modulation.",
+      "minutes": "200"
+    },
+    {
+      "index": "10",
+      "content": "5. Analog modulation (3)\n- Principle of double sideband modulation\n- Demodulation methods of radio waves with\namplitude modulation",
+      "operation": "Test and review.\nLecture based on PPT\nslides. Practice after\nthe class.",
+      "assignments": "Test and review.\nLecture based on PPT slides.\nPractice after the class.",
+      "minutes": "200"
+    },
+    {
+      "index": "11",
+      "content": "5. Analog modulation (4)\n- Principle of frequency modulation\n- Demodulation method of frequency modulation",
+      "operation": "Test and review.\nLecture based on PPT\nslides. Practice after\nthe class.",
+      "assignments": "Understanding principle of\nfrequency modulation and its\ndemodulation method",
+      "minutes": "200"
+    },
+    {
+      "index": "12",
+      "content": "6. Pulse code modulation and sampling theorem.\n- Pulse amplitude modulation and pulse code\nmodulation\n- Sampling theorem",
+      "operation": "Test and review.\nLecture based on PPT\nslides. Practice after\nthe class.",
+      "assignments": "Understanding principle of\npulse code modulation and\nsampling theorem.",
+      "minutes": "200"
+    },
+    {
+      "index": "13",
+      "content": "Final exam",
+      "operation": "Exam",
+      "assignments": "Prepare for the exam",
+      "minutes": "200"
+    },
+    {
+      "index": "14",
+      "content": "Special lecture by the invited speaker in\nindustry.",
+      "operation": "Lecture",
+      "assignments": "Prepare for the exam",
+      "minutes": "200"
+    },
+    {
+      "index": "15",
+      "content": "Self-evaluation of the exam in previous class",
+      "operation": "Review",
+      "assignments": "none",
+      "minutes": "200"
+    }
+  ],
+  "rawText": "金沢工業大学　学習支援計画書　E630-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Electrical and Electronic Engineering(〜2024)\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                情報伝送工学\n                Information Transmission Engineering\n\n              2\n              E630-01\n\n                2026年度\n\n                3rd year 1st semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  ITO Kenji\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Fourier series and Fourier transform\n2.Amplitude modulation and Frequency modulation\n3.Continuous time system\n4.Analog modulation\n5.Pulse code modulation and sampling theorem\n\n              This course introduces the basis of information signal and its transmission. For signal analysis in frequency domain, Fourier series/transform are explained. Frequency spectra of radio waves in analog modulations are analyzed. In addition to above, this course introduces the coding method named PCM from analog to digital and sampling theorem that gives the basic restriction for sampling frequency. For each topic, basis and principle are explained with basic formulas.\n\n              授業の概要および学習上の助言\n\n              This course is constructed following chapters:\ni) Basic topology of telecommunication systems,\nii) Signal analysis method,\n-\tFourier series and Fourier transform\niii) Continuous time system,\n-\tFilters’ behaviors and their analysis\n-\tQuadrature modulation\niv) Analog modulation and demodulation,\n-\tAmplitude modulation and frequency modulation\nv) Pulse code modulation and sampling theorem.\n-\tPulse amplitude modulation and pulse code modulation\n-\tSampling theorem\n\n              教科書および参考書・リザーブドブック\n\n              Yamashita, \"Tsuushin-kougaku gairon (the third edi.)\" Morikita\n\n              履修に必要な予備知識や技能\n\n              Acquisition of Electrical circuits.\nEnough skill of mathematics (basic functions, integral calculus, complex number)\nHow to use a calculator.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                L\n                Be able to understand and calculate Fourie series for basic periodic functions.\n\n                ②\n                L\n                Be able to understand and calculate Fourier transform and inverse Fourier transform.\n\n                ③\n                L\n                Be able to understand basic properties of filters in time domain and frequency domain.\n\n                ④\n                L\n                Be able to understand and explain amplitude modulation.\n\n                ⑤\n                L\n                Be able to understand and explain frequency modulation.\n\n                ⑥\n                L\n                Be able to understand and explain principles of pulse code modulation and the sampling theorem.\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                40\n\n                20\n\n                40\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                40\n\n                20\n\n                40\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                40\n\n                20\n\n                40\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n              ",
+  "courseId": "2026:spring:E630-01:0:269",
+  "language": "en"
+}

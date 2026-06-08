@@ -1,0 +1,298 @@
+{
+  "sourceIndex": 514,
+  "sourceUrl": "/opsyllabus/kitos0110/514/1",
+  "importedAt": "2026-06-08T09:34:03.547Z",
+  "title": "オブジェクト指向プログラミング",
+  "subtitle": "Object Oriented Programming",
+  "courseType": "Major ProgramMajor Courses",
+  "credits": "2",
+  "term": "2026年度\n\n                2nd year 2nd semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "SENGOKU Yasushi",
+    "SATOU Fujio\n授業科目の学習・教育目標"
+  ],
+  "keywords": [
+    "Object-oriented",
+    "Java",
+    "Class",
+    "Encapsulation",
+    "Inheritance"
+  ],
+  "educationalGoal": "In this course, students will:\n(1) Learn the concepts and practices of object-oriented programming in Java.\n(2) Learn the basics of classes and how to use objects.\n(3) Gain a deep understanding of the above by creating and running Java programs and verifying their behavior.",
+  "advice": "This is a course in object-oriented programming and the Java language.\n\nWe will cover the following materials:\n - Overview of object-oriented programming and Java, Installation of development environment\n - Java basics\n - Class, encapsulation, constructor\n - Class library, string\n - Class inheritance, interface\n - Exception handling, input/output\n - Multithread\n - GUI, event processing",
+  "books": "Textbooks:\nReference books: None\nReserved books: None",
+  "requiredKnowledge": "Acquisition of the knowledge/skills of \"Fundamentals of Programming\" and \"Programming.\"\nBasic C language skills are required.\nBasic PC operation skills are required.",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "H,I,K",
+      "body": "Be able to explain the concept of object-oriented programming."
+    },
+    {
+      "index": "②",
+      "type": "I,K",
+      "body": "Be able to develop basic programs using Java."
+    },
+    {
+      "index": "③",
+      "type": "I,K",
+      "body": "Be able to learn Java independently by referring to textbooks and technical materials."
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "30",
+        "40",
+        "20",
+        "0",
+        "0",
+        "0",
+        "10",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "30",
+        "40",
+        "20",
+        "0",
+        "0",
+        "0",
+        "10",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "30",
+        "40",
+        "20",
+        "0",
+        "0",
+        "0",
+        "10",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションとリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "(1) Be able to fully understand object-oriented programming and use it to create Java programs.\n(2) Be able to create programs by combining the learned techniques.",
+    "standard": "(1) Be able to understand object-oriented programming and use it to create Java programs.\n(2) Be able to create programs with reference to the sample programs."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Course introduction\nOverview of object-oriented programming\nOverview of Java language\nInstallation of Java development environment",
+      "operation": "Lecture, practice, and Q&A\nSelf-check",
+      "assignments": "Understand the objectives of\nclass\nPrepare for Chapters 3-7 of\nthe textbook",
+      "minutes": "240"
+    },
+    {
+      "index": "2",
+      "content": "Java language basics",
+      "operation": "Lecture, practice, and Q&A\nSelf-check",
+      "assignments": "Review materials from the\nlast class\nPrepare for Chapter 8 of the\ntextbook",
+      "minutes": "240"
+    },
+    {
+      "index": "3",
+      "content": "Class, field, method",
+      "operation": "Quiz\nLecture, practice, and Q&A\nSelf-check",
+      "assignments": "Review materials from the\nlast class\nPrepare for Chapter 9 of the\ntextbook",
+      "minutes": "240"
+    },
+    {
+      "index": "4",
+      "content": "Encapsulation, overload, constructor",
+      "operation": "Lecture, practice, and Q&A\nSelf-check",
+      "assignments": "Review materials from the\nlast class\nPrepare for Chapter 10 of the\ntextbook",
+      "minutes": "240"
+    },
+    {
+      "index": "5",
+      "content": "Use of class library, string operation",
+      "operation": "Quiz\nLecture, practice, and Q&A\nSelf-check",
+      "assignments": "Review materials from the\nlast class",
+      "minutes": "240"
+    },
+    {
+      "index": "6",
+      "content": "Programming exercise\n - class creation and library usage",
+      "operation": "Practice and Q&A\nSelf-check",
+      "assignments": "Review materials from the\nlast class\nPrepare for Chapters 11-12 of\nthe textbook",
+      "minutes": "240"
+    },
+    {
+      "index": "7",
+      "content": "Class inheritance, override, interface",
+      "operation": "Lecture, practice, and Q&A\nSelf-check",
+      "assignments": "Review materials from the\nlast class\nPrepare for Chapter 14 of the\ntextbook",
+      "minutes": "240"
+    },
+    {
+      "index": "8",
+      "content": "Exception handling, input/output",
+      "operation": "Quiz\nLecture, practice, and Q&A\nSelf-check",
+      "assignments": "Review materials from the\nlast class\nPrepare for Chapter 15 of the\ntextbook",
+      "minutes": "240"
+    },
+    {
+      "index": "9",
+      "content": "Multithread",
+      "operation": "Lecture, practice, and Q&A\nSelf-check",
+      "assignments": "Review materials from the\nlast class",
+      "minutes": "240"
+    },
+    {
+      "index": "10",
+      "content": "Programming exercise\n - inheritance, input/output, multi-threading",
+      "operation": "Quiz\nPractice and Q&A\nSelf-check",
+      "assignments": "Review materials from the\nlast class\nPrepare for Chapter 16 of the\ntextbook",
+      "minutes": "240"
+    },
+    {
+      "index": "11",
+      "content": "GUI, Event processing",
+      "operation": "Lecture, practice, and Q&A\nSelf-check",
+      "assignments": "Review materials from the\nlast class",
+      "minutes": "240"
+    },
+    {
+      "index": "12",
+      "content": "Drawing, Animation",
+      "operation": "Lecture, practice, and Q&A\nSelf-check",
+      "assignments": "Review materials from the\nlast class",
+      "minutes": "240"
+    },
+    {
+      "index": "13",
+      "content": "Integrated learning",
+      "operation": "Practice and Q&A\nSelf-check",
+      "assignments": "Review materials from the\nlast class",
+      "minutes": "240"
+    },
+    {
+      "index": "14",
+      "content": "Integrated learning\nFinal exam",
+      "operation": "Practice and Q&A\nSelf-check\nExam",
+      "assignments": "Review materials from the\nlast class",
+      "minutes": "240"
+    },
+    {
+      "index": "15",
+      "content": "Integrated learning\nSelf-evaluation",
+      "operation": "Lecture, practice, and Q&A\nSelf-check",
+      "assignments": "Review the final exam",
+      "minutes": "240"
+    }
+  ],
+  "rawText": "金沢工業大学　学習支援計画書　M019-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Media Information\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                オブジェクト指向プログラミング\n                Object Oriented Programming\n\n              2\n              M019-01\n\n                2026年度\n\n                2nd year 2nd semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  SENGOKU Yasushi, SATOU Fujio\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Object-oriented\n2.Java\n3.Class\n4.Encapsulation\n5.Inheritance\n\n              In this course, students will:\n(1) Learn the concepts and practices of object-oriented programming in Java.\n(2) Learn the basics of classes and how to use objects.\n(3) Gain a deep understanding of the above by creating and running Java programs and verifying their behavior.\n\n              授業の概要および学習上の助言\n\n              This is a course in object-oriented programming and the Java language.\n\nWe will cover the following materials:\n - Overview of object-oriented programming and Java, Installation of development environment\n - Java basics\n - Class, encapsulation, constructor\n - Class library, string\n - Class inheritance, interface\n - Exception handling, input/output\n - Multithread\n - GUI, event processing\n\n              教科書および参考書・リザーブドブック\n\n              Textbooks:\nReference books: None\nReserved books: None\n\n              履修に必要な予備知識や技能\n\n              Acquisition of the knowledge/skills of \"Fundamentals of Programming\" and \"Programming.\"\nBasic C language skills are required.\nBasic PC operation skills are required.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                H,I,K\n                Be able to explain the concept of object-oriented programming.\n\n                ②\n                I,K\n                Be able to develop basic programs using Java.\n\n                ③\n                I,K\n                Be able to learn Java independently by referring to textbooks and technical materials.\n\n                ④\n\n                ⑤\n\n                ⑥\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                30\n\n                40\n\n                20\n\n                0\n\n                0\n\n                0\n\n                10\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                30\n\n                40\n\n                20\n\n                0\n\n                0\n\n                0\n\n                10\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                30\n\n                40\n\n                20\n\n                0\n\n                0\n\n                0\n\n                10\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  コラボレーションとリーダーシップ\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  発表・表現・伝達する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  学習に取組む姿勢・意欲\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n        ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n\n      ",
+  "courseId": "2026:fall:M019-01:0:514",
+  "language": "en"
+}

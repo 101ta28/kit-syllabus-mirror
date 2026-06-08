@@ -1,0 +1,316 @@
+{
+  "sourceIndex": 98,
+  "sourceUrl": "/opsyllabus/kitos0110/98/1",
+  "importedAt": "2026-06-08T09:33:55.056Z",
+  "title": "プロジェクトデザイン実践（実験）(機械工学科)",
+  "subtitle": "Design Project / Implementing and Operating",
+  "courseType": "Design Project ProgramDesign Project CoursesDesign Project",
+  "credits": "2",
+  "term": "2026年度\n\n                2nd year 2nd semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "KANAI Ryo",
+    "NAGANUMA Kaname",
+    "FUJIMOTO Masanori",
+    "SAKAMOTO Shigehiko",
+    "NAKAMURA Makoto\n授業科目の学習・教育目標"
+  ],
+  "keywords": [
+    "Verification process",
+    "Effectiveness/Acceptability",
+    "Data handling skills",
+    "Credibility",
+    "PBL for science and technology"
+  ],
+  "educationalGoal": "-To gain skills to verify hypotheses or solution concept with logical approaches.\n-To understand phenomena, objects and events quantitatively with high credibility based on data science.\n-To reliably find characteristics and laws of phenomena, objects, events.\n-To deliver the above information to a third person intelligibly.\n-To gain basic skills to credibly and smoothly conduct verification activities.\n-To have an image of the technology fields and engineers in the discipline.",
+  "advice": "-Learn how to proceed with the hypothesis testing process. Learn the process of verifying the effectiveness/acceptability of methods aimed at solving problems.\n-Learn \"data processing skills\" necessary for data collection, organization, analysis, hypothesis, visualization, and reporting.\n-Students will learn \"skills to advance the verification process\" and \"basic skills of verification activities\" from hypothesis planning to verification based on data science.\n-The Department of Mechanical Engineering has the theme of \"heat sink,\" which is a heat dissipation mechanism for engines, etc., as the basis of thermal engineering.\n-Performance has been verified with experimental tests and evidence-based prototypes.\n-Based on this validation, you will learn data collection skills, validation process progress skills, and validation factor solution proposals.\n[Activity report]\nRegardless of the effectiveness of the solution proposal, the results of the project activities are compiled into a project report and presented in a poster session or verbally.",
+  "books": "",
+  "requiredKnowledge": "Comprehensive experience in \"investigation of information\", \"how to put out ideas\", \"experimental methods\", and \"problem discovery / problem solving / team activity / logical verification activity\" acquired in Project Design Introduction I/II. In order to make use of these, it is necessary to review these items.\nAt the same time, students must pay attention to the utilization and improvement of learning CAD skills in mechanical drawing.\nThis course uses Yumekobo machine tools, so be sure to obtain a license.",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "G,F",
+      "body": "To be able to proceed with activities from finding problems to solutions."
+    },
+    {
+      "index": "②",
+      "type": "D",
+      "body": "To be able to understand phenomena, objectives, and events quantitatively and qualitatively."
+    },
+    {
+      "index": "③",
+      "type": "D",
+      "body": "To be able to find characteristics, features, and laws of phenomena, objects, and events."
+    },
+    {
+      "index": "④",
+      "type": "E",
+      "body": "To be able to deliver acquired information to a third person intelligibly."
+    },
+    {
+      "index": "⑤",
+      "type": "F",
+      "body": "To be able to utilize various basic skills needed to proceed smoothly with verification activities."
+    },
+    {
+      "index": "⑥",
+      "type": "A",
+      "body": "To be able to have a picture of the technology fields and engineers in the discipline."
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "0",
+        "40",
+        "20",
+        "20",
+        "10",
+        "5",
+        "5",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "0",
+        "40",
+        "20",
+        "20",
+        "10",
+        "5",
+        "5",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "0",
+        "40",
+        "20",
+        "20",
+        "10",
+        "5",
+        "5",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションとリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "1) To proceed with verification processes for hypotheses and solution concepts.\n2) To quantitatively and qualitatively recognize phenomena, objects, and events and organize information.\n3) To find and understand features, characteristics, and regularities of corresponding phenomena, objects, and events based on data science\n4) To communicate acquired information to a third person intelligibly.\n5) To smoothly conduct verification activities.\n6) To become aware of your specialties and imagine the technological fields and engineers.",
+    "standard": "1) To proceed with verification processes for hypotheses and solution concepts with guidance.\n2) To quantitatively and qualitatively recognize phenomena, objects, and events and organize the information with guidance from the instructor.\n3) To find and understand characteristics and regularities of phenomena, objects, etc. based on data with guidance.\n4) To share acquired information to third person.\n5) To smoothly conduct verification activities with guidance from the instructor.\n6) To recognize your specialties and imagine the technological fields and engineers with guidance."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1,2",
+      "content": "·Guidance\n・ Team information registration\n・ Confirmation of project (explanation of\n 　business and explanation of relationship\n　with other subjects)\n・ Check class rules\n(Team activities, individual activities,\n　performance evaluation, etc.)\n(Announcements, reports, how to write\n　reports, etc.)\n(Explanation regarding assembly of\n verification activities)\n・ Check the outline of the practical plan\n(Design outline (investigation),\n　production (prototype), experiment,\n　evaluation))",
+      "operation": "・lecture\n・team activities\n　 (team meetings)\n・report",
+      "assignments": "[Team activities]\n・ Team file preparation\n・ Summary of practical plan\n[Individual]\n・ Preparation of Practical\n　 notes\n・ Practical notes\n　(literature survey: safety,\n　 preparation for\n　verification)\n・ Investigate data on heat\n　 sinks using LC.",
+      "minutes": ""
+    },
+    {
+      "index": "3,4",
+      "content": "・Lecture\n(Explanation of related basic matters:\n Explanation of framework with specialized\n basic subjects such as production\n processing, heat, fluid, materials, etc.)\n(Explanation of system engineering)\n(Outline of Yumekobo activity and safety\n education)\n・ Activity plan\n・ Preparation for verification\n (preliminary experiment, preliminary survey,\n concept model design study, etc.)\n・ Oral report",
+      "operation": "・lecture\n・Team activities\n(Team meeting &\npreparation for practice)\n・report",
+      "assignments": "[Team activities]\n・ Start studying practical\n　 plans, process schedules,\n　 and design calculations.\n[Individual]\n・ Project report creation\n　 started (Introduction)\n・ Survey on related\n　 specialized basic subjects",
+      "minutes": ""
+    },
+    {
+      "index": "5,6",
+      "content": "・Lecture\n(Redefinition of heat sink evaluation in\n machine work exercises)\n(Explanation of discussion worksheet with\n other specialized basic subjects)\n・ Practical activities\n(Analysis of performance factors,\n　reconfirmation of necessary considerations)\n・report",
+      "operation": "・lecture\n・Team activities\n(Team meetings &\n practical activities)\n・report",
+      "assignments": "[Individual]\n・ Practical notes\n (organization of activities)\n・ Creation of project report\n　(Main article: Method etc.)",
+      "minutes": ""
+    },
+    {
+      "index": "7,8",
+      "content": "・Lecture\n(Confirmation of performance influence on heat\n sink by machining method (relationship between\n processing accuracy & heat dissipation\n performance))\n(Explanation of the relationship between\n Yumekobo activities and manufacturing\n processes, practical activities on how to\n proceed)\n(Concurrent license confirmation / supplement)\n・ Practical activity (dream studio: machining\n　 related)\n　(Activities using Yumekobo Facility)\n・report",
+      "operation": "・lecture\n・Team activities\n (activities at Yumekobo)\n・report",
+      "assignments": "[Individual]\n・ Practical notes\n (organization of activities)\n・ Creation of project report\n (Main article: Method etc.)",
+      "minutes": ""
+    },
+    {
+      "index": "9,10",
+      "content": "・Lecture\n(Confirmation of performance influence on heat\n sink by machining method (relationship between\n processing accuracy & heat dissipation\n performance))\n(Explanation of the relationship between\n Yumekobo activities and manufacturing\n processes, practical activities on how to\n proceed)\n(Concurrent license confirmation/ supplement)\n・ Practical activity (dream dream studio:\n  machining related)\n(Activities using Yumekobo Facility)\n・report",
+      "operation": "・lecture\n・Team activities\n (activities at Yumekobo)\n・report",
+      "assignments": "[Individual]\n・ Practical notes\n (organization of activities)\n・ Creation of project report\n (Main article: Method etc.)",
+      "minutes": ""
+    },
+    {
+      "index": "11,12",
+      "content": "・Lecture\n(Confirmation of heat conduction\n characteristics according to thermophysical\n properties)\n(Confirmation of position regarding issues)\n(Explanation of experimental methods related\n to heat conduction)\n・ Practical activities\n(Conducting basic experiments on heat\n conduction and organizing results)\n・report",
+      "operation": "・lecture\n・Team activities\n (Team meetings &\n  practical activities)\n・report",
+      "assignments": "[Individual]\n・ Practical notes\n (organization of activities)\n・ Creation of project report\n (Main article: Methodology\n  etc.)",
+      "minutes": ""
+    },
+    {
+      "index": "13,14",
+      "content": "・Lecture\n(Confirmation of forced convection heat\n transfer characteristics)\n(Understanding the relationship between issues\n and heat sinks)\n(Explanation of experimental methods for\n convective heat transfer)\n・Practical activities\n(Conducting basic experiments on convective\n heat transfer and organizing results)\n・report",
+      "operation": "・lecture\n・ Team activities (team\n  meetings & practical\n  activities)\n・report",
+      "assignments": "[Individual]\n・ Practical notes\n (organization of activities)\n・ Creation of project report\n (Main article: Methodology\n  etc.)",
+      "minutes": ""
+    },
+    {
+      "index": "15,16",
+      "content": "・Lecture\n(Confirmation of heat transfer characteristics\n at the contact surface)\n(Understanding the relationship between issues\n and heat sinks)\n(Explanation of experimental methods for\n contact heat transfer)\n・ Practical activities\n(Conducting basic experiments on contact heat\n transfer and organizing results)\n・report",
+      "operation": "・lecture\n・Team activities\n (team meetings &\n  practical activities)\n・report",
+      "assignments": "[Team activities]\n・ Summary of examination on\n  issues\n (Design points, parts\n  drawings, performance\n  prediction, machining\n  process diagrams, etc.)\n[Individual]\n・ Practical notes\n (organization of activities)\n・ Creation of project report\n (Main article: Methodology\n  etc.)",
+      "minutes": ""
+    },
+    {
+      "index": "17,18",
+      "content": "・Lecture\n (Explanation of the examination points for\n  redesign of heat sink)\n (Design consideration points, parts drawings,\n  performance prediction, machining process\n  diagrams, etc.)\n・Practical activities\n (Lecture meeting, design review policy,\n  drawing review work, etc.)\n (Preparation and start of work activities)\n・report",
+      "operation": "・lecture\n・Team activities\n (Team meetings &\n  practical activities)\n (Extracurricular\n  activities at Yumekobo)\n・report",
+      "assignments": "[Team activities]\n・ Summary of issues\n  (modification of design\n   details)\n・ Production activities at\n  Yumekobo\n[Individual]\n・ Practical notes\n  (organization of activities)\n・ Creation of project report\n  (Main article: Methodology\n   etc.)",
+      "minutes": ""
+    },
+    {
+      "index": "19,20",
+      "content": "・Lecture\n(Design review, censorship and evaluation)\n・Practical activities\n(Presentation for each group)\n(Preparation and implementation of work\n activities)\n・report",
+      "operation": "・lecture\n・Team activities\n (Team meetings &\n  practical activities)\n (Extracurricular\n  activities at Yumekobo)\n・report",
+      "assignments": "[Team activities]\n・ Summary of issues\n  (modification of design\n   details)\n・ Production activities at\n  Yumekobo\n[Individual]\n・ Practical notes\n  (organization of activities)\n・ Creation of project report\n  (conclusion, reference)",
+      "minutes": ""
+    },
+    {
+      "index": "21,22",
+      "content": "・Lecture\n Explanation of preliminary test evaluation\n (measurement method and experimental\n  evaluation method)\n (Check points related to examination items and\n  specialized subjects)\n・Practical verification\n (Meeting and preparation for verification)\n (Confirmation experiment conducted for each\n  group that can be evaluated in advance)\n (Preparation and implementation of work\n  activities)\n・report",
+      "operation": "・lecture\n・Team activities\n (Team meetings &\n  practical activities)\n (Extracurricular\n  activities at Yumekobo)\n・report",
+      "assignments": "[Team activities]\n・ Production activities at\n  Yumekobo\n[Individual]\n・ Practical notes\n  (organization of activities)\n・ Creation of project report\n  (conclusion, reference)",
+      "minutes": ""
+    },
+    {
+      "index": "23,24",
+      "content": "・Lecture\nExplanation of preliminary test evaluation\n (measurement method and experimental\n  evaluation method)\n (Check points related to examination items and\n  specialized subjects)\n・Practical verification\n (Meeting and preparation for verification)\n (Confirmation experiment conducted for each\n  group that can be evaluated in advance)\n (Preparation and implementation of work\n  activities)\n・report",
+      "operation": "・lecture\n・Team activities\n (Team meetings &\n  practical activities)\n (Extracurricular\n  activities at Yumekobo)\n・report",
+      "assignments": "[Team activities]\n・ Production activities at\n  Yumekobo\n[Individual]\n・ Practical notes\n  (organization of activities)\n・ Creation of project report\n  (conclusion, reference)",
+      "minutes": ""
+    },
+    {
+      "index": "25,26",
+      "content": "・Lecture\nFinal performance evaluation\n (performance evaluation of prototype)\n・Practical verification\n(Machining accuracy (measurement side\n  measurement) and quality evaluation)\n(Heat sink performance evaluation)\n・report",
+      "operation": "・lecture\n・Team activities\n (Team meetings &\n  practical activities)\n (Extracurricular\n  activities at Yumekobo)\n・report",
+      "assignments": "[Team activities]\n・ Summary of verification eva\nluation\n・ Summary of abstract\n・ Presentation slide or\n   poster creation\n[Individual]\n・ Project report creation\n  (conclusion and discussion)",
+      "minutes": ""
+    },
+    {
+      "index": "27,28",
+      "content": "・Summary of verification evaluation\n・Summary of the abstract (submission)\n・Creation and summary of results announcement\n  slides or posters\n・Creation and summary of project results report\n・report",
+      "operation": "・lecture\n・Team activities\n  (Team meetings &\n   practical activities)\n・report",
+      "assignments": "[Team activities]\n・ Submission of abstract\n・ Slide or poster completed\n[Individual]\n・ Completion of project\n   report",
+      "minutes": ""
+    },
+    {
+      "index": "29,30",
+      "content": "[Presentation]\n・ Submission of presentation materials\n・ Submission of project report\n・ Check upload items\n・ Performance assessment portfolio\n[Comprehensive review]",
+      "operation": "[Result announcement]\n・lecture\n・Team activities\n[Self-inspection class]",
+      "assignments": "[Team activities]\n・ Presentation materials\n   submission\n[Individual]\n・ Project report submission\n・ Enter the achievement\n   evaluation portfolio",
+      "minutes": ""
+    }
+  ],
+  "rawText": "金沢工業大学　学習支援計画書　G253-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Design Project Program\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Design Project ProgramDesign Project CoursesDesign Project\n\n                プロジェクトデザイン実践（実験）(機械工学科)\n                Design Project / Implementing and Operating\n\n              2\n              G253-01\n\n                2026年度\n\n                2nd year 2nd semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  KANAI Ryo, NAGANUMA Kaname, FUJIMOTO Masanori, SAKAMOTO Shigehiko, NAKAMURA Makoto\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Verification process\n2.Effectiveness/Acceptability\n3.Data handling skills\n4.Credibility\n5.PBL for science and technology\n\n              -To gain skills to verify hypotheses or solution concept with logical approaches.\n-To understand phenomena, objects and events quantitatively with high credibility based on data science.\n-To reliably find characteristics and laws of phenomena, objects, events.\n-To deliver the above information to a third person intelligibly.\n-To gain basic skills to credibly and smoothly conduct verification activities.\n-To have an image of the technology fields and engineers in the discipline.\n\n              授業の概要および学習上の助言\n\n              -Learn how to proceed with the hypothesis testing process. Learn the process of verifying the effectiveness/acceptability of methods aimed at solving problems.\n-Learn \"data processing skills\" necessary for data collection, organization, analysis, hypothesis, visualization, and reporting.\n-Students will learn \"skills to advance the verification process\" and \"basic skills of verification activities\" from hypothesis planning to verification based on data science.\n-The Department of Mechanical Engineering has the theme of \"heat sink,\" which is a heat dissipation mechanism for engines, etc., as the basis of thermal engineering.\n-Performance has been verified with experimental tests and evidence-based prototypes.\n-Based on this validation, you will learn data collection skills, validation process progress skills, and validation factor solution proposals.\n[Activity report]\nRegardless of the effectiveness of the solution proposal, the results of the project activities are compiled into a project report and presented in a poster session or verbally.\n\n              教科書および参考書・リザーブドブック\n\n              履修に必要な予備知識や技能\n\n              Comprehensive experience in \"investigation of information\", \"how to put out ideas\", \"experimental methods\", and \"problem discovery / problem solving / team activity / logical verification activity\" acquired in Project Design Introduction I/II. In order to make use of these, it is necessary to review these items.\nAt the same time, students must pay attention to the utilization and improvement of learning CAD skills in mechanical drawing.\nThis course uses Yumekobo machine tools, so be sure to obtain a license.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                G,F\n                To be able to proceed with activities from finding problems to solutions.\n\n                ②\n                D\n                To be able to understand phenomena, objectives, and events quantitatively and qualitatively.\n\n                ③\n                D\n                To be able to find characteristics, features, and laws of phenomena, objects, and events.\n\n                ④\n                E\n                To be able to deliver acquired information to a third person intelligibly.\n\n                ⑤\n                F\n                To be able to utilize various basic skills needed to proceed smoothly with verification activities.\n\n                ⑥\n                A\n                To be able to have a picture of the technology fields ",
+  "courseId": "2026:fall:G253-01:0:98",
+  "language": "en"
+}

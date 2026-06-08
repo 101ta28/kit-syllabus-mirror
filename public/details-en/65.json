@@ -1,0 +1,319 @@
+{
+  "sourceIndex": 65,
+  "sourceUrl": "/opsyllabus/kitos0110/65/1",
+  "importedAt": "2026-06-08T09:33:54.383Z",
+  "title": "技術者のための統計",
+  "subtitle": "Statistics for Engineers",
+  "courseType": "Mathematics and Science ProgramMathematics and Science Courses",
+  "credits": "2",
+  "term": "2026年度\n\n                2nd year 1st semester2nd year 2nd semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "TOCHI Kunio",
+    "AKIYAMA Koki",
+    "WATANABE Shuji",
+    "HORI Haruna",
+    "SAEKI Akihiko",
+    "YASHIMA Takamasa",
+    "KITASHOJI Nobuyuki",
+    "NISHI Makoto\n授業科目の学習・教育目標"
+  ],
+  "keywords": [
+    "Data organization and processing",
+    "Probability function and probability distribution",
+    "Evaluation of statistics based on probability theory",
+    "Estimates and tests",
+    "Data Science"
+  ],
+  "educationalGoal": "Students will\n(1) learn data organization and processing\n(2) acquire basic knowledge of probability.\n(3) learn typical distribution functions such as the normal distribution,Student's t-distribution, and the chi-square distribution.\n(4) learn methods for interval estimation and hypothesis testing.\n(5) learn methods for multivariate analysis",
+  "advice": "This is a course in statistical analysis of data. We will cover the following topics:\n1.  Data organization and data distribution\n(1) Data collection and organization (2) Data distribution (3) Quantitative data distribution features\n2 Relationships between variates\n(1) Arrangement of bivariate data (2) Correlation and correlation coefficient (3) Estimated bivariate relationship\n3. Basics of Probability Theory\n(1) Basic concept of probability theory (2) Probability distribution of discrete quantity (3) Probability distribution of continuous quantity\n4. Basics of statistical data processing\n(1) Sampling of sample population (2) Evaluation of statistics based on probability theory (3) Statistical estimation of population parameter\n5. Statistical tests and multivariate analysis\n(1) Basic concept of statistical test (2) Method of statistical test (3) To multivariate analysis\n6．Conduct statistical analysis using the programming language \"R\" with real social data",
+  "books": "Textbooks：Getting Started with Data Science [kyoritsu Shuppan]",
+  "requiredKnowledge": "Knowledge of basic mathematics .",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "D",
+      "body": "Be able to organize the data and obtain the basic features of the data."
+    },
+    {
+      "index": "②",
+      "type": "D",
+      "body": "Be able to calculate mean and variance for random variables."
+    },
+    {
+      "index": "③",
+      "type": "D",
+      "body": "Be able to analyze data by calculating the necessary statistics from data."
+    },
+    {
+      "index": "④",
+      "type": "D",
+      "body": "Be able to estimate and test population mean, variance, and population ratio using a sample distribution."
+    },
+    {
+      "index": "⑤",
+      "type": "C",
+      "body": "Understand the meanings of fundamental english words for statistics."
+    },
+    {
+      "index": "⑥",
+      "type": "A",
+      "body": "Be able to understand the contents of each class, work on assigned tasks, and attend every class."
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "30",
+        "20",
+        "20",
+        "0",
+        "0",
+        "0",
+        "30",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "30",
+        "20",
+        "20",
+        "0",
+        "0",
+        "0",
+        "30",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "30",
+        "20",
+        "20",
+        "0",
+        "0",
+        "0",
+        "30",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションとリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "(1) Understand how to organize the data that is the basis of data science.\n(2) Understand the meaning of random variables appropriately and calculate the mean and variance of a probability distribution.\n(3) Use common probability distributions to calculate probabilities in various situations.\n(4) Correctly calculate the statistical values required for data analysis.\n(5) Perform appropriate interval estimation and hypothesis testing using a sample distribution.\n(6) Apply course contents to various statistical problems.",
+    "standard": "(1) Understand how to organize the data that is the basis of data science.\n(2) Understand the meaning of random variables and calculate the mean and variance of a probability distribution.\n(3) Calculate probability using common probability distributions.\n(4) Calculate the statistical values required for data analysis.\n(5) Perform interval estimation and hypothesis testing using a sample distribution.\n(6) Apply course contents to statistical problems."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Course introduction\nObtaining data and its types\nCharacteristics of quantitative data\ndistribution.",
+      "operation": "Lecture, practice",
+      "assignments": "Understand the syllabus of\nthis course\nReview the content of the\nlecture\nPrepare for the next class",
+      "minutes": "60\n\n30"
+    },
+    {
+      "index": "2",
+      "content": "Organizing data",
+      "operation": "Lecture, practice,\ninteractive activities",
+      "assignments": "Review the content of the\nlecture\nPrepare for the next class",
+      "minutes": "60\n\n30"
+    },
+    {
+      "index": "3",
+      "content": "Organizing data of two variables\nCorrelations and correlation coefficients\nregression analysis",
+      "operation": "Lecture, practice,\ninteractive activities",
+      "assignments": "Review the content of the\nlecture\nPrepare for the next class",
+      "minutes": "150"
+    },
+    {
+      "index": "4",
+      "content": "Quiz (classes 1 to 4)\nBasic idea of probability theory",
+      "operation": "Quiz (classes 1 to 3)\nBasic idea of probability\ntheory",
+      "assignments": "Review the content of the\nlecture\nPrepare for the next class",
+      "minutes": "100"
+    },
+    {
+      "index": "5",
+      "content": "Basic idea of probability theory\nProbability distribution of discrete quantities",
+      "operation": "Lecture, practice,\ninteractive activities",
+      "assignments": "Review the content of the\nlecture\nPrepare for the next class",
+      "minutes": "100"
+    },
+    {
+      "index": "6",
+      "content": "Conditional probability and Bayes' theorem.",
+      "operation": "Self-check\nLecture, practice,\ninteractive activities",
+      "assignments": "Review the content of the\nlecture\nPrepare for the next class",
+      "minutes": "100"
+    },
+    {
+      "index": "7",
+      "content": "Probability distribution of discrete quantities\nProbability distribution of continuous\nquantities",
+      "operation": "Lecture, practice,\ninteractive activities",
+      "assignments": "Review the content of the\nlecture\nPrepare for the next class",
+      "minutes": "100"
+    },
+    {
+      "index": "8",
+      "content": "Probability distribution of continuous\nquantities",
+      "operation": "Lecture, practice,\ninteractive activities\nReview and self-reflection",
+      "assignments": "Review the content of the\nlecture\nPrepare for the next class",
+      "minutes": "150"
+    },
+    {
+      "index": "9",
+      "content": "Quiz (classes 4 to 7)\nPopulation and sample population sampling",
+      "operation": "Lecture, practice,\ninteractive activities",
+      "assignments": "Review the content of the\nlecture\nPrepare for the next class",
+      "minutes": "100"
+    },
+    {
+      "index": "10",
+      "content": "Basic idea of inference statistics\nStatistical estimation of population means",
+      "operation": "Self-check\nLecture, practice,\ninteractive activities",
+      "assignments": "Review the content of the\nlecture\nPrepare for the next class",
+      "minutes": "100"
+    },
+    {
+      "index": "11",
+      "content": "Statistical estimation of population means\nBasic idea of statistics.\nmethods and practices of statistical tests.",
+      "operation": "Lecture, practice,\ninteractive activities",
+      "assignments": "Review the content of the\nlecture\nPrepare for the next class",
+      "minutes": "100"
+    },
+    {
+      "index": "12",
+      "content": "methods and practices of statistical tests.",
+      "operation": "Lecture, practice,\ninteractive activities",
+      "assignments": "Review the content of the\nlecture\nPrepare for the next class",
+      "minutes": "100"
+    },
+    {
+      "index": "13",
+      "content": "methods and practices of statistical tests",
+      "operation": "Lecture, practice,\ninteractive activities\nReview and self-reflection",
+      "assignments": "Review the content of the\nlecture\nPrepare for the next class",
+      "minutes": "200"
+    },
+    {
+      "index": "14",
+      "content": "Final exam\nApplying course contents to various statistical\nproblems",
+      "operation": "Self-check\nImplementation of test\nLecture, practice,\ninteractive activities",
+      "assignments": "Review the content of the\nlecture",
+      "minutes": "100"
+    },
+    {
+      "index": "15",
+      "content": "Self-reflection on class\nSelf-evaluation",
+      "operation": "Review and self-reflection\nQuestionnaire survey",
+      "assignments": "",
+      "minutes": "100"
+    }
+  ],
+  "rawText": "金沢工業大学　学習支援計画書　G161-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Mathematics, Science, Data Science and AI Program\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Mathematics and Science ProgramMathematics and Science Courses\n\n                技術者のための統計\n                Statistics for Engineers\n\n              2\n              G161-01\n\n                2026年度\n\n                2nd year 1st semester2nd year 2nd semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  TOCHI Kunio, AKIYAMA Koki, WATANABE Shuji, HORI Haruna, SAEKI Akihiko, YASHIMA Takamasa, KITASHOJI Nobuyuki, NISHI Makoto\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Data organization and processing\n2.Probability function and probability distribution\n3.Evaluation of statistics based on probability theory\n4.Estimates and tests\n5.Data Science\n\n              Students will\n(1) learn data organization and processing\n(2) acquire basic knowledge of probability.\n(3) learn typical distribution functions such as the normal distribution,Student's t-distribution, and the chi-square distribution.\n(4) learn methods for interval estimation and hypothesis testing.\n(5) learn methods for multivariate analysis\n\n              授業の概要および学習上の助言\n\n              This is a course in statistical analysis of data. We will cover the following topics:\n1.  Data organization and data distribution\n(1) Data collection and organization (2) Data distribution (3) Quantitative data distribution features\n2 Relationships between variates\n(1) Arrangement of bivariate data (2) Correlation and correlation coefficient (3) Estimated bivariate relationship\n3. Basics of Probability Theory\n(1) Basic concept of probability theory (2) Probability distribution of discrete quantity (3) Probability distribution of continuous quantity\n4. Basics of statistical data processing\n(1) Sampling of sample population (2) Evaluation of statistics based on probability theory (3) Statistical estimation of population parameter\n5. Statistical tests and multivariate analysis\n(1) Basic concept of statistical test (2) Method of statistical test (3) To multivariate analysis\n6．Conduct statistical analysis using the programming language \"R\" with real social data\n\n              教科書および参考書・リザーブドブック\n\n              Textbooks：Getting Started with Data Science [kyoritsu Shuppan]\n\n              履修に必要な予備知識や技能\n\n              Knowledge of basic mathematics .\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                D\n                Be able to organize the data and obtain the basic features of the data.\n\n                ②\n                D\n                Be able to calculate mean and variance for random variables.\n\n                ③\n                D\n                Be able to analyze data by calculating the necessary statistics from data.\n\n                ④\n                D\n                Be able to estimate and test population mean, variance, and population ratio using a sample distribution.\n\n                ⑤\n                C\n                Understand the meanings of fundamental english words for statistics.\n\n                ⑥\n                A\n                Be able to understand the contents of each class, work on assigned tasks, and attend every class.\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                30\n\n                20\n\n                20\n\n                0\n\n                0\n\n                0\n\n                30\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                30\n\n                20\n\n                20\n\n                0\n\n                0\n",
+  "courseId": "2026:spring:G161-01:0:65",
+  "language": "en"
+}

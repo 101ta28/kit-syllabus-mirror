@@ -1,0 +1,308 @@
+{
+  "sourceIndex": 898,
+  "sourceUrl": "/opsyllabus/kitos0110/898/1",
+  "importedAt": "2026-06-08T09:34:11.887Z",
+  "title": "建築構造力学Ⅰ",
+  "subtitle": "Structural Mechanics for Architecture I",
+  "courseType": "Major ProgramMajor Courses",
+  "credits": "2",
+  "term": "2026年度\n\n                1st year 2nd semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "YAMAGISHI Kuniaki",
+    "SATO Hiromi\n授業科目の学習・教育目標"
+  ],
+  "keywords": [
+    "e-Learning",
+    "Beam, truss, and frame",
+    "Reaction force",
+    "Stress resultant",
+    "Stress"
+  ],
+  "educationalGoal": "Students learn the mechanical characteristics of statically determinate beams, trusses, and frames, which are basic models of building structures. They understand the balance of forces that work on buildings and learn how to find reaction forces. Students understand the concept of resultant stress and the balance of free bodies, and learn how to determine the distribution of resultant stress in beams and frames. They learn how to find the axial forces in trusses by solving the nodal balance.",
+  "advice": "1. Building structures and structural mechanics\n2. Equilibrium of force\n3. Structure modeling and reaction forces\n4. Loads and external forces\n5. Mechanical classification of structures\n6. Stress and resultant stress\n7. Reaction forces and resultant stresses in statically determinate structures\n8. Sectional properties\n9. Material properties\n10. Stress and member design",
+  "books": "Textbooks： Step up structural mechanics wrighten by Ota Kazuhiko\nReference books：None\nReserved books：None",
+  "requiredKnowledge": "Students must understand trigonometric functions and elementary mechanics.\nA scientific calculator is required for testing.\nStudents should review the application of vector operations in Linear Algebra.",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "JP",
+      "body": "Building structure and loads/external forces can correspond to the dynamic model."
+    },
+    {
+      "index": "②",
+      "type": "JP",
+      "body": "Students can determine the reaction forces of static structures."
+    },
+    {
+      "index": "③",
+      "type": "JP",
+      "body": "Students can draw diagrams of axial force, shear force, and bending moment of a statically determinate structure"
+    },
+    {
+      "index": "④",
+      "type": "JP",
+      "body": "Students can explain the basic cross-sectional and mechanical properties of materials."
+    },
+    {
+      "index": "⑤",
+      "type": "JP",
+      "body": "Students can determine the stress in a beam."
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "30",
+        "30",
+        "40",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "30",
+        "30",
+        "40",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "30",
+        "30",
+        "40",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションとリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "(1)\tStudents have acquired a basic knowledge of structural mechanics.\n(2)\tStudents can describe the underlying formulas and find the exact solutions to those formulas.\n(3)\tStudents can represent the resulting solutions graphically.\n(4)\tStudents can show a simple structural model and can calculate stress.\n(5)\tStudents can present a proposal to plan a rational building from a mechanical point of view for a simple building.",
+    "standard": "(1)\tStudents have acquired a basic knowledge of structural mechanics.\n(2)\tStudents can write the underlying formulas and understands the procedure for finding the solution.\n(3)\tStudents can represent the resulting solution graphically."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Building structures and structural mechanics\nForce notation\nForce composition and decomposition\nMoment of force",
+      "operation": "Lectures and exercises",
+      "assignments": "Review: What is force, Force\ncomposition and decomposition\nMoment of force\nPreparation: Read all of\nChapter 2 to Section 3.1",
+      "minutes": "120\n120"
+    },
+    {
+      "index": "2",
+      "content": "Modeling structures and loads\nStable and unstable\nReaction force",
+      "operation": "Lectures and exercises",
+      "assignments": "Review: Work on textbook\nissues and report issues.\nPreparation: Read all of\nSections 3.2 to 3.3",
+      "minutes": "120\n120"
+    },
+    {
+      "index": "3",
+      "content": "Resultant stress\nHow to draw a stress diagram",
+      "operation": "Lectures and exercises",
+      "assignments": "Review: Work on textbook\nissues and report issues.\nPreparation: Read all of\nSections 3.4 to 3.6.",
+      "minutes": "120\n120"
+    },
+    {
+      "index": "4",
+      "content": "Reaction forces and resultant stress in\nstatically determinate beams",
+      "operation": "Lectures and exercises",
+      "assignments": "Review: Work on textbook\nissues and report issues.\nPreparation: Read Chapter 5\nand understand the definition\nof statically determinate\ntrusses and how to solve a\nstatic truss.",
+      "minutes": "120\n120"
+    },
+    {
+      "index": "5",
+      "content": "Reaction forces and resultant stress in\nstatically determinate trusses",
+      "operation": "Lectures and exercises",
+      "assignments": "Review: Review the node and\ncutting methods. Work on\ntextbook examples and\nexercises.\nPreparation: Check the\nlecture contents up to the\n5th lecture. Proceed with\npreparations for quizzes.\nAddress report issues.",
+      "minutes": "120\n120"
+    },
+    {
+      "index": "6",
+      "content": "Comprehensive learning",
+      "operation": "Lectures and exercises",
+      "assignments": "Review: Confirm ability to\nperform the tasks that are\nassigned in the 6th lecture.\nPreparation: Prepare for\nthe quiz.",
+      "minutes": "120\n120"
+    },
+    {
+      "index": "7",
+      "content": "Quiz and explanation",
+      "operation": "Test and lecture",
+      "assignments": "Review: Recalculate the\nunscored part.\nPreparation: Read Chapter 4\nand understand how to\ncalculate the reaction force\nand resultant stress in\nstatically determinate\nframes.",
+      "minutes": "120\n120"
+    },
+    {
+      "index": "8",
+      "content": "Reaction forces and resultant stresses in\nstatically determinate frames",
+      "operation": "Lectures and exercises",
+      "assignments": "Review: Work on textbook\nexamples and exercises.\nPreparation: Read all of\nSections 2.1-2.2. Reconfirm\nthe integration of elementary\nfunctions. Address report\nissues.",
+      "minutes": "120\n120"
+    },
+    {
+      "index": "9",
+      "content": "Sectional properties",
+      "operation": "Lectures and exercises",
+      "assignments": "Review: Centroid,\ncross-sectional area,\ncross-section primary moment,\nand moment of inertia.\nWork on textbook examples and\nexercises.\nPreparation: Read 2.5.",
+      "minutes": "120\n120"
+    },
+    {
+      "index": "10",
+      "content": "Material properties",
+      "operation": "Lectures and exercises",
+      "assignments": "Review: Stress, strain,\nYoung's modulus, shear\nmodulus, etc.\nWork on textbook examples\nand exercises.\nPreparation: Check the\nlecture contents up to the\n10th lecture. Address report\nissues. Work on the work\nsubject.",
+      "minutes": "120\n120"
+    },
+    {
+      "index": "11",
+      "content": "Normal stress of a member subjected to\nbending\nSectional modulus and edge stress",
+      "operation": "Lectures and exercises",
+      "assignments": "Review: the relationship\nbetween vertical stress and\nsection force and the\nrelationship between edge\nstress and section modulus.\nPreparation: Read all of\nSection 2.4. Address report\nissues. Work on the work\nsubject and submit it at\nthe 12th lecture.",
+      "minutes": "120\n120"
+    },
+    {
+      "index": "12",
+      "content": "Shear stress of a member subjected to bending",
+      "operation": "Lectures and exercises",
+      "assignments": "Review: Review the concept\nof shear stress and review\nthe distribution of shear\nstress in rectangular\nsections.\nPreparation: Work on report\ntasks. Rearrange the contents\nlearned so far.\nIn particular, understand the\ncontents after the 8th\nlecture. Prepare for the\nexam.",
+      "minutes": "120\n120"
+    },
+    {
+      "index": "13",
+      "content": "Comprehensive learning",
+      "operation": "Lectures and exercises",
+      "assignments": "Review: Confirm ability to\nperform the tasks.\nPreparation: Prepare for\nthe examination.",
+      "minutes": "120\n120"
+    },
+    {
+      "index": "14",
+      "content": "Example and explanation",
+      "operation": "Test and lecture",
+      "assignments": "Review: Recalculate the\nunscored sections.",
+      "minutes": "120\n120"
+    },
+    {
+      "index": "15",
+      "content": "Review of what you learned in this course\nCommentary on the relationship between this\nsubject and future subjects",
+      "operation": "Lecture and self-check",
+      "assignments": "Review: Review texts and\nreports to deepen\nunderstanding of the contents\nexplained in Structural\nMechanics for Architecture I.\n[Does this correction reflect\nyour intended meaning?]",
+      "minutes": "120\n120"
+    }
+  ],
+  "rawText": "金沢工業大学　学習支援計画書　A106-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Architecture\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                建築構造力学Ⅰ\n                Structural Mechanics for Architecture I\n\n              2\n              A106-01\n\n                2026年度\n\n                1st year 2nd semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  YAMAGISHI Kuniaki, SATO Hiromi\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.e-Learning\n2.Beam, truss, and frame\n3.Reaction force\n4.Stress resultant\n5.Stress\n\n              Students learn the mechanical characteristics of statically determinate beams, trusses, and frames, which are basic models of building structures. They understand the balance of forces that work on buildings and learn how to find reaction forces. Students understand the concept of resultant stress and the balance of free bodies, and learn how to determine the distribution of resultant stress in beams and frames. They learn how to find the axial forces in trusses by solving the nodal balance.\n\n              授業の概要および学習上の助言\n\n              1. Building structures and structural mechanics\n2. Equilibrium of force\n3. Structure modeling and reaction forces\n4. Loads and external forces\n5. Mechanical classification of structures\n6. Stress and resultant stress\n7. Reaction forces and resultant stresses in statically determinate structures\n8. Sectional properties\n9. Material properties\n10. Stress and member design\n\n              教科書および参考書・リザーブドブック\n\n              Textbooks： Step up structural mechanics wrighten by Ota Kazuhiko\nReference books：None\nReserved books：None\n\n              履修に必要な予備知識や技能\n\n              Students must understand trigonometric functions and elementary mechanics.\nA scientific calculator is required for testing.\nStudents should review the application of vector operations in Linear Algebra.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                JP\n                Building structure and loads/external forces can correspond to the dynamic model.\n\n                ②\n                JP\n                Students can determine the reaction forces of static structures.\n\n                ③\n                JP\n                Students can draw diagrams of axial force, shear force, and bending moment of a statically determinate structure\n\n                ④\n                JP\n                Students can explain the basic cross-sectional and mechanical properties of materials.\n\n                ⑤\n                JP\n                Students can determine the stress in a beam.\n\n                ⑥\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                30\n\n                30\n\n                40\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                30\n\n                30\n\n                40\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                30\n\n                30\n\n                40\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  コラボレーションとリーダーシップ\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n ",
+  "courseId": "2026:fall:A106-01:0:898",
+  "language": "en"
+}

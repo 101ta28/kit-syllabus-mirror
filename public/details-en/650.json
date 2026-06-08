@@ -1,0 +1,295 @@
+{
+  "sourceIndex": 650,
+  "sourceUrl": "/opsyllabus/kitos0110/650/1",
+  "importedAt": "2026-06-08T09:34:06.372Z",
+  "title": "電子回路",
+  "subtitle": "Electronic Circuit",
+  "courseType": "Major ProgramMajor Courses",
+  "credits": "2",
+  "term": "2026年度\n\n                2nd year 2nd semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "FUJIKI Nobuaki\n授業科目の学習・教育目標"
+  ],
+  "keywords": [
+    "Digital circuit",
+    "Interface",
+    "Analog circuit"
+  ],
+  "educationalGoal": "(1)Learn digital and analog circuits.\n(2)Learn interfaces between computers and machines.\n(3)Understand how various kinds of electronic circuits work.",
+  "advice": "This is the second fundamental course in electronic circuits. We will mainly cover the following topics:\n1.Digital circuits and their applications\n2.Interfaces between computers and machines\n3.Analog circuits\n\nStudents are expected to actively participate in class.\nStudents are expected to complete exercises independently.\nStudents are required to be aware of the instructor’s messages in the class and to check for messages/materials on the KIT Inside website before every class because the course schedule may change depending on the class progress.",
+  "books": "None",
+  "requiredKnowledge": "Completion of Mathematics for Electric Circuit I.",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "K",
+      "body": "Explain how a digital circuit works."
+    },
+    {
+      "index": "②",
+      "type": "K",
+      "body": "Explain a stepping motor, a DC motor, and an interface between a computer and a machine."
+    },
+    {
+      "index": "③",
+      "type": "K",
+      "body": "Explain how an analog circuit works."
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "40",
+        "40",
+        "20",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "40",
+        "40",
+        "20",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "40",
+        "40",
+        "20",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションとリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "(1)Explain how a digital circuit works.\n(2)Explain a stepping motor, a DC motor, and an interface between a computer and a machine.\n(3)Explain how an analog circuit with at least one operational amplifier works.",
+    "standard": "(1)Explain how a simple digital circuit works.\n(2)Explain DC motor control with pulse-width modulation (PWM).\n(3)Explain how a simple analog circuit with one operational amplifier works."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Course introduction\nTextbook Chapter 1, \"Basic knowledge of\nelectronic parts\"\n - Diodes\n - Transistors\n - Field-effect transistors",
+      "operation": "Lecture (including Q&A)\nand Exercise",
+      "assignments": "Read and understand the\nindicated textbook chapter",
+      "minutes": "90"
+    },
+    {
+      "index": "2",
+      "content": "Textbook Chapter 2, \"Expressions of numbers\nin digital circuits\"\n - Decimal and binary numbers\n - Hexadecimal numbers\n - Binary-coded decimal numbers",
+      "operation": "Lecture (including Q&A)\nand Exercise",
+      "assignments": "Read and understand the\nindicated textbook chapter",
+      "minutes": "60\n\n90"
+    },
+    {
+      "index": "3",
+      "content": "Textbook Chapter 3, \"The basics of digital\ncircuits\"\n - Logic levels and voltages\n - Basic gate circuits\n - MIL-STD-806 logic gate symbols",
+      "operation": "Lecture (including Q&A)\nand Exercise",
+      "assignments": "Read and understand the\nindicated textbook sections",
+      "minutes": "60\n\n90"
+    },
+    {
+      "index": "4",
+      "content": "Textbook Chapter 3, \"The basics of digital\ncircuits\"\n - NAND and NOR gates\n - Equivalent circuits using NAND gates\n - ExOR and EXNOR gates",
+      "operation": "Lecture (including Q&A)\nand Exercise",
+      "assignments": "Read and understand the\nindicated textbook sections",
+      "minutes": "60\n\n90"
+    },
+    {
+      "index": "5",
+      "content": "Textbook Chapter 4, \"The basics of digital\nICs\"\n - Types of digital integrated circuits (ICs)\n - Power supplies and grounds\n - Basics of transistor-transistor logic (TTL)",
+      "operation": "Lecture (including Q&A)\nand Exercise",
+      "assignments": "Read and understand the\nindicated textbook sections",
+      "minutes": "60\n\n90"
+    },
+    {
+      "index": "6",
+      "content": "Textbook Chapter 4, \"The basics of digital\nICs\"\n - Basics of TTL\n - CMOS ICs\n - Interfaces between CMOS and TTL ICs",
+      "operation": "Lecture (including Q&A)\nand Exercise",
+      "assignments": "Read and understand the\nindicated textbook sections",
+      "minutes": "60\n\n90"
+    },
+    {
+      "index": "7",
+      "content": "Practice\nMid-semester test",
+      "operation": "Examination",
+      "assignments": "Review the content of\nclasses 1-6",
+      "minutes": "180"
+    },
+    {
+      "index": "8",
+      "content": "Review of the mid-semester test\nSelf-check",
+      "operation": "Lecture (including Q&A)\nand Exercise\nSelf-check",
+      "assignments": "Review the content of the\nmid-semester test",
+      "minutes": "90"
+    },
+    {
+      "index": "9",
+      "content": "Textbook Chapter 5, \"Applications of digital\ncircuits\"\n - Flip-flops",
+      "operation": "Lecture (including Q&A)\nand Exercise",
+      "assignments": "Read and understand the\nindicated textbook section",
+      "minutes": "60\n\n90"
+    },
+    {
+      "index": "10",
+      "content": "Textbook Chapter 5, \"Applications of digital\ncircuits\"\n - Registers\n - Counters\n - Encoders and decoders",
+      "operation": "Lecture (including Q&A)\nand Exercise",
+      "assignments": "Read and understand the\nindicated textbook sections",
+      "minutes": "60\n\n90"
+    },
+    {
+      "index": "11",
+      "content": "Textbook Chapter 7, \"Interfaces between\ncomputers and machines\"\n - Driving a stepping motor\n - DC motor control with PWM\n - Photocouplers and photointerrupters",
+      "operation": "Lecture (including Q&A)\nand Exercise",
+      "assignments": "Read and understand the\nindicated textbook sections",
+      "minutes": "60\n\n90"
+    },
+    {
+      "index": "12",
+      "content": "Textbook Chapter 8, \"The basics of analog ICs\"\n - Overview of operational amplifiers\n - Amplifier circuits using operational\namplifiers\n - Operation circuits using operational\namplifiers",
+      "operation": "Lecture (including Q&A)\nand Exercise",
+      "assignments": "Read and understand the\nindicated textbook sections",
+      "minutes": "60\n\n90"
+    },
+    {
+      "index": "13",
+      "content": "Exercise",
+      "operation": "Exercise",
+      "assignments": "Review the content of\nclasses 1-12\nReview the content of the\npractice",
+      "minutes": "90\n\n90"
+    },
+    {
+      "index": "14",
+      "content": "Exercise\nSemester final examination",
+      "operation": "Exercise\nExamination",
+      "assignments": "Review the content of\nclasses 1-13",
+      "minutes": "180"
+    },
+    {
+      "index": "15",
+      "content": "Review of semester final examination\nSelf-check",
+      "operation": "Lecture (including Q&A)\nand Exercise\nSelf-check",
+      "assignments": "Review the content of the\nsemester final examination",
+      "minutes": "90"
+    }
+  ],
+  "rawText": "金沢工業大学　学習支援計画書　C219-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Robotics\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                電子回路\n                Electronic Circuit\n\n              2\n              C219-01\n\n                2026年度\n\n                2nd year 2nd semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  FUJIKI Nobuaki\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Digital circuit\n2.Interface\n3.Analog circuit\n\n              (1)Learn digital and analog circuits.\n(2)Learn interfaces between computers and machines.\n(3)Understand how various kinds of electronic circuits work.\n\n              授業の概要および学習上の助言\n\n              This is the second fundamental course in electronic circuits. We will mainly cover the following topics:\n1.Digital circuits and their applications\n2.Interfaces between computers and machines\n3.Analog circuits\n\nStudents are expected to actively participate in class.\nStudents are expected to complete exercises independently.\nStudents are required to be aware of the instructor’s messages in the class and to check for messages/materials on the KIT Inside website before every class because the course schedule may change depending on the class progress.\n\n              教科書および参考書・リザーブドブック\n\n              None\n\n              履修に必要な予備知識や技能\n\n              Completion of Mathematics for Electric Circuit I.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                K\n                Explain how a digital circuit works.\n\n                ②\n                K\n                Explain a stepping motor, a DC motor, and an interface between a computer and a machine.\n\n                ③\n                K\n                Explain how an analog circuit works.\n\n                ④\n\n                ⑤\n\n                ⑥\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                40\n\n                40\n\n                20\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                40\n\n                40\n\n                20\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                40\n\n                40\n\n                20\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  コラボレーションとリーダーシップ\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  発表・表現・伝達する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  学習に取組む姿勢・意欲\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n        ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n\n              評価の要点\n\n              評価方法\n              行動目標\n              評価の実施方法と注意点\n\n                    試験\n\n                    ①\n                    レ\n                    A semester final examination is given, as specified in the ",
+  "courseId": "2026:fall:C219-01:0:650",
+  "language": "en"
+}

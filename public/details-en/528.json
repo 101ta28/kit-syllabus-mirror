@@ -1,0 +1,301 @@
+{
+  "sourceIndex": 528,
+  "sourceUrl": "/opsyllabus/kitos0110/528/1",
+  "importedAt": "2026-06-08T09:34:03.841Z",
+  "title": "心理学統計法",
+  "subtitle": "Psychological Statistics",
+  "courseType": "Major ProgramMajor Courses",
+  "credits": "2",
+  "term": "2026年度\n\n                2nd year 1st semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "TOKUOKA Masaru\n授業科目の学習・教育目標"
+  ],
+  "keywords": [
+    "Data and Scales",
+    "Descriptive statistics",
+    "Population and sample",
+    "Statistical tests"
+  ],
+  "educationalGoal": "Statistical analysis is required for psychological research with high generalizability. The goal of this course is to provide students with the basic knowledge to run statistical tests and to understand the results of the tests precisely.",
+  "advice": "The class proceeds with lectures on the basic theory of psychological statistics and practical training of statistical analyses that include calculations with real data using Microsoft Excel and R. Students are expected to understand the basics of psychological statistics and learn the method of statistical analysis to avoid misuse of statistical analysis and misinterpretation of the results of analyses.\nNote that the course flow can be changed according to other closely related courses such as “Practice of Elementary Psychological Experiments.”\n\nThis subject is subject to the course credit system.",
+  "books": "心理学統計法　清水裕士\nNHK出版",
+  "requiredKnowledge": "Students are required to bring their own personal computer for statistical analysis.",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "D,G",
+      "body": "Ability to decide which statistical analyses are appropriate for the data acquired in experiments and surveys."
+    },
+    {
+      "index": "②",
+      "type": "D,G",
+      "body": "Ability to run statistical analyses with appropriate methods and to interpret the results in appropriate ways."
+    },
+    {
+      "index": "③",
+      "type": "D",
+      "body": "Ability to understand the selection, computation, and interpretation of descriptive statistics."
+    },
+    {
+      "index": "④",
+      "type": "D",
+      "body": "Ability to understand inferential statistics."
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "40",
+        "45",
+        "0",
+        "0",
+        "0",
+        "0",
+        "15",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "40",
+        "45",
+        "0",
+        "0",
+        "0",
+        "0",
+        "15",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "40",
+        "45",
+        "0",
+        "0",
+        "0",
+        "0",
+        "15",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションとリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "1)\tCalculate the data acquired in experiments, surveys and observations precisely and interpret their features.\n2)\tDecide which statistical analyses are appropriate for the experimental design and run the statistical analyses with appropriate methods.\n3)\tInterpret the results of the analyses and make a conclusion according to the purpose of the experiment.",
+    "standard": "1)\tCalculate the data acquired in experiments, surveys and observations precisely and interpret their features.\n2)\tDecide which statistical analyses are appropriate for the experimental design and run the statistical analyses with appropriate methods.\n3)\tUnderstand why statistical analyses are required in psychological research and explain the reason."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Guidance\nData for psychological research and its\nmeasurement",
+      "operation": "Lecture",
+      "assignments": "Read the text",
+      "minutes": "45"
+    },
+    {
+      "index": "2",
+      "content": "Descriptive statistics: average, median,\ndispersion",
+      "operation": "Lecture\nPractical training\n(Excel or R)\nQuiz 2",
+      "assignments": "Read the text\nReview the calculation in the\nclass",
+      "minutes": "45\n30"
+    },
+    {
+      "index": "3",
+      "content": "Relation between two variables",
+      "operation": "Lecture\nPractical training",
+      "assignments": "Read the text\nReview the calculation in the\nclass",
+      "minutes": "45\n30"
+    },
+    {
+      "index": "4",
+      "content": "Linear regression",
+      "operation": "Lecture\nPractical training",
+      "assignments": "Read the text\nReview the calculation in the\nclass",
+      "minutes": "45\n30"
+    },
+    {
+      "index": "5",
+      "content": "Partial correlation coefficient and causal effec\nt",
+      "operation": "Lecture\nPractical training",
+      "assignments": "Read the text\nReview the calculation in the\nclass",
+      "minutes": "40\n30"
+    },
+    {
+      "index": "6",
+      "content": "Population and sampling",
+      "operation": "Lecture",
+      "assignments": "Read the text\nReview the calculation in the\nclass",
+      "minutes": "45"
+    },
+    {
+      "index": "7",
+      "content": "Interval estimation with probabilistic model",
+      "operation": "Lecture\nPractical training",
+      "assignments": "Read the text\nReview the calculation in the\nclass",
+      "minutes": "40\n30"
+    },
+    {
+      "index": "8",
+      "content": "Interval estimation of population mean",
+      "operation": "Lecture\nPractical training",
+      "assignments": "Read the text\nReview the calculation in the\nclass",
+      "minutes": "40\n30"
+    },
+    {
+      "index": "9",
+      "content": "Exam 1",
+      "operation": "Exam\nReview",
+      "assignments": "Read the text\nReview the calculation in the\nclass",
+      "minutes": "40\n30"
+    },
+    {
+      "index": "10",
+      "content": "Statistics that express the relationship between\n two variables",
+      "operation": "Lecture\nPractical training",
+      "assignments": "Read the text\nReview the calculation in the\nclass",
+      "minutes": "40\n30"
+    },
+    {
+      "index": "11",
+      "content": "Test for the difference between the means of two\n conditions",
+      "operation": "Lecture\nPractical training",
+      "assignments": "Read the text\nReview the calculation in the\nclass",
+      "minutes": "40\n30"
+    },
+    {
+      "index": "12",
+      "content": "Statistical test",
+      "operation": "Lecture\nPractical training",
+      "assignments": "Read the text\nReview the calculation in the\nclass",
+      "minutes": "40\n30"
+    },
+    {
+      "index": "13",
+      "content": "Test for more than three mean value differences",
+      "operation": "Lecture\nDiscussion",
+      "assignments": "Read the text\nReview the calculation in the\nclass",
+      "minutes": "45\n30"
+    },
+    {
+      "index": "14",
+      "content": "Exam 2",
+      "operation": "Test",
+      "assignments": "Read the text\nReview the calculation in the\nclass",
+      "minutes": "40\n30"
+    },
+    {
+      "index": "15",
+      "content": "Reviewing lessons\nEffect size, design of sample size\nSelf-check",
+      "operation": "Lecture\nSelf-check",
+      "assignments": "",
+      "minutes": ""
+    }
+  ],
+  "rawText": "金沢工業大学　学習支援計画書　M110-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Psychology and Information Design\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                心理学統計法\n                Psychological Statistics\n\n              2\n              M110-01\n\n                2026年度\n\n                2nd year 1st semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  TOKUOKA Masaru\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Data and Scales\n2.Descriptive statistics\n3.Population and sample\n4.Statistical tests\n\n              Statistical analysis is required for psychological research with high generalizability. The goal of this course is to provide students with the basic knowledge to run statistical tests and to understand the results of the tests precisely.\n\n              授業の概要および学習上の助言\n\n              The class proceeds with lectures on the basic theory of psychological statistics and practical training of statistical analyses that include calculations with real data using Microsoft Excel and R. Students are expected to understand the basics of psychological statistics and learn the method of statistical analysis to avoid misuse of statistical analysis and misinterpretation of the results of analyses.\nNote that the course flow can be changed according to other closely related courses such as “Practice of Elementary Psychological Experiments.”\n\nThis subject is subject to the course credit system.\n\n              教科書および参考書・リザーブドブック\n\n              心理学統計法　清水裕士\nNHK出版\n\n              履修に必要な予備知識や技能\n\n              Students are required to bring their own personal computer for statistical analysis.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                D,G\n                Ability to decide which statistical analyses are appropriate for the data acquired in experiments and surveys.\n\n                ②\n                D,G\n                Ability to run statistical analyses with appropriate methods and to interpret the results in appropriate ways.\n\n                ③\n                D\n                Ability to understand the selection, computation, and interpretation of descriptive statistics.\n\n                ④\n                D\n                Ability to understand inferential statistics.\n\n                ⑤\n\n                ⑥\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                40\n\n                45\n\n                0\n\n                0\n\n                0\n\n                0\n\n                15\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                40\n\n                45\n\n                0\n\n                0\n\n                0\n\n                0\n\n                15\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                40\n\n                45\n\n                0\n\n                0\n\n                0\n\n                0\n\n                15\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  コラボレーションとリーダーシップ\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  発表・表現・伝達する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                 ",
+  "courseId": "2026:spring:M110-01:0:528",
+  "language": "en"
+}

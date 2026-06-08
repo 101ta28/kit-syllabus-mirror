@@ -1,0 +1,301 @@
+{
+  "sourceIndex": 259,
+  "sourceUrl": "/opsyllabus/kitos0110/259/1",
+  "importedAt": "2026-06-08T09:33:58.339Z",
+  "title": "電気回路Ⅲ（再履修クラス）",
+  "subtitle": "Electric Circuits III",
+  "courseType": "Major ProgramMajor Courses",
+  "credits": "2",
+  "term": "2026年度\n\n                2nd year 1st semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "AIZAWA Koji\n授業科目の学習・教育目標"
+  ],
+  "keywords": [
+    "Mutual induction",
+    "Useful theorems",
+    "Two-port circuit",
+    "Phasor trajectory"
+  ],
+  "educationalGoal": "In this class, including a review of Electric Circuit I and II, contents from the basic circuit combining resistance (R), inductance (L) or capacitance (C) and their combination to a slightly more complex AC circuit are learned. In the calculation of an AC circuit, it is no exaggeration to say that it is common sense to use a so-called symbolic solution using phasors and complex numbers. In the subsequent course Electric Circuit IV, the circuit analysis techniques using symbolic solution becomes the base for learning more advanced and complex analysis methods.",
+  "advice": "1 Mutual induction\n2 Useful theorems\n3 Two-port circuit\n4 Phasor trajectory\n\nIn addition, since the progress is adjusted while confirming the degree of understanding from the result of the quiz or the like, the schedule of the class and the learning content may be changed. Active learnings, that is, exercises, quizzes, presentation discussions, questions and answers, short breaks, etc. are conducted so that students concentrate on classes. Depending on the presence of Humanity and Nature Seminar, times and contents of review class may change (follow the instructions of the professor in charge)",
+  "books": "Basic electric circuit(2nd edition)New Edition, Morikita Publishing Co., Ltd.",
+  "requiredKnowledge": "In this course, it is important to solve more problems in order to understand the theory and put it into practice. Moreover, since it is the accumulation of learning one by one, daily continuous efforts are required. Therefore, you are required to do things like 1. Check various reference books, 2. Ask the professor in charge, 3. Use the Mathematics Education Center so that you can always clear things that you do not understand. In this classes, Mathematics such as simultaneous linear equations, determinants, matrices, differentiation / integration, basics of complex numbers, and trigonometric functions are utilized.",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "I",
+      "body": "The mutual induction phenomenon can be explained. The basic mutual induction can be analyzed."
+    },
+    {
+      "index": "②",
+      "type": "I",
+      "body": "The electric circuits can be solved using useful theorems."
+    },
+    {
+      "index": "③",
+      "type": "I",
+      "body": "In a two-terminal pair circuit, calculations using at least Z, Y, and F matrix."
+    },
+    {
+      "index": "④",
+      "type": "I",
+      "body": "The problem of phasor trajectory can be solved using symbolic solutions."
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "40",
+        "40",
+        "20",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "40",
+        "40",
+        "20",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "40",
+        "40",
+        "20",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションとリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "Slightly complicated problems of mutual induction circuit as in an application problem can be analyzed using symbolic solutions. Slightly complicated problems of electric circuit can be solved using  useful theorems.  Slightly complicated problems of derivation of Z, Y, and F parameters and transform from T-type to π-type (or vice versa) equivalent circuit as in application problems are solved. Slightly complicated problems of phasor trajectory are solved.  In order to achieve the above levels, the average for the exams, quizzes and reports is over 85%.",
+    "standard": "Basic problems of mutual induction circuit can be analyzed using symbolic solutions. Basic problems of electric circuit can be solved using useful theorems. Basic problems of derivation of Z, Y, and F parameters and transform from T-type to π-type (or vice versa) equivalent circuit are solved. Basic problems of phasor trajectory are solved. In order to achieve the above levels, the average for the exams, quizzes and reports is over 75%."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Guidance\n\nMutual induction circuit (Textbook pp. 106-109)\n\nSelf-check",
+      "operation": "Explanation of the\ncontents of the Syllabus\nLectures on mutual\ninduction circuit.\nExercises and questions\nare conducted if\nnecessary.",
+      "assignments": "Preparation: Re-study the\nparts of the electrical\ncircuit I and II that are\nnot fully understood.\nPreparation: Read the contents\n(pp. 106-109).\nReview: Review the lecture\nnotes. If a homework is\nmade, complete the homework by\nthe deadline.",
+      "minutes": "200"
+    },
+    {
+      "index": "2",
+      "content": "Mutual induction (Textbook pp.109-111)\n\nSelf-check",
+      "operation": "Lectures on mutual\ninduction circuit.\nExercises and questions\nare conducted if\nnecessary",
+      "assignments": "Preparation:.Read the\ncontents (pp. 109-111).\nReview exercises\nReview: Review the lecture\nnotes. If there is an\ninsufficient understanding\nof the exercise, ask the\nprofessor in charge to solve\nit. If a homework is made,\ncomplete the homework by the\ndeadline.",
+      "minutes": "200"
+    },
+    {
+      "index": "3",
+      "content": "Mutual induction (Textbook pp.112-113)\n\nSelf-check",
+      "operation": "Explanation of\napplication problems\nrelated to the mutual\ninduction.\nIf necessary, a quiz on\nthe mutual induction is\nconducted and the content\nis explained.\nLectures on mutual\ninduction\nExercises and question\nare conducted if\nnecessary.",
+      "assignments": "Review: Review the lecture\nnotes on the phasor\ntrajectory. If there is an\ninsufficient understanding\nof the exercise, ask the\nprofessor in charge to solve\nit. If there is a quiz,\nselfcheck the answer.\nComplete the homework by\nthe deadline.",
+      "minutes": "200"
+    },
+    {
+      "index": "4",
+      "content": "Useful theorems (Textbook pp.121-122)\n\nSelf-check",
+      "operation": "Lectures on useful\ntheorems.\nExercises and questions\nare conducted if\nnecessary",
+      "assignments": "Preparation: Read the\ncontents (pp. 121-122).\nIf there is a quiz, study\nenough.\nReview: Review the lecture\nnotes on the useful theorems.\nIf there is an insufficient\nunderstanding of the\nexercise, ask the professor\nin charge to solve it.\nComplete the homework by\nthe deadline.",
+      "minutes": "200"
+    },
+    {
+      "index": "5",
+      "content": "Useful theorems (Textbook pp.122-124)\n\nSelf-check",
+      "operation": "Lectures on useful\ntheorems.\nExercises and questions\nare conducted if necessary",
+      "assignments": "Preparation: Read the\ncontents (pp. 122-124).\nIf there is a quiz, study\nenough.\nReview: Review the lecture\nnotes on the useful theorems.\nIf there is an insufficient\nunderstanding of the exercise,\n ask the professor in\ncharge to solve it.\nComplete the homework by the\ndeadline.",
+      "minutes": "200"
+    },
+    {
+      "index": "6",
+      "content": "Useful theorems (Textbook pp.124-127)\n\nSelf-check",
+      "operation": "Lectures on useful\ntheorems.\nExercises and questions\nare conducted if necessary",
+      "assignments": "Preparation: Read the contents\n(pp. 124-127). If there is a\nquiz, study enough.\nReview: Review the lecture\nnotes on the useful theorems.\nIf there is an insufficient\nunderstanding of the\nexercise, ask the professor\nin charge to solve it.\nIf there is a quiz,\nself-check the answer.\nComplete the homework by the\ndeadline.",
+      "minutes": "200"
+    },
+    {
+      "index": "7",
+      "content": "Review about contents learned in between No.1\nand 6 classes. 　\n\nSelf-check",
+      "operation": "A general discussion is\nheld on the contents of\nthe lectures so far.\nIf necessary, problems\nare presented and are\nresolved within the\nlecture time.\nIf necessary,\nretrospective exercises\nand explanations are\nconducted.\nIf necessary, a temporary\ntest can be conducted.\nSelf-check of class 1 to\n6, and confirm the\ndegree of achievement\nof the program\nobjectives.",
+      "assignments": "Preparation: Review the\nlecture notes. If there are\nany questions in the\nexercises or quizzes, they\nare resolved before the\nlecture.\nReview: Look back on the\ncontents of the lecture.\nIf there is insufficient\nunderstanding, ask the\nprofessor in charge to solve\nit. If a homework is made,\ncomplete the homework by\nthe deadline.",
+      "minutes": "200"
+    },
+    {
+      "index": "8",
+      "content": "Two-port circuit (Textbook pp. 140-143)\n\nSelf-check",
+      "operation": "Lectures on two-port\ncircuit.\nExercises and questions\nare conducted if\nnecessary",
+      "assignments": "Preparation: Read the\ncontents of sections 14.1 and\n14.2 (pp.140-143) regarding\nthe two-port circuit\n(Z, Y, and F matrix).\nReview: Review the lecture\nnotes. If there is an\ninsufficient understanding\nof the exercise, ask the\nprofessor in charge to\nsolve it. If a homework is\nmade, complete the homework\nby the deadline.",
+      "minutes": "200"
+    },
+    {
+      "index": "9",
+      "content": "Two-port circuit (Textbook pp.144-148)\n\nSelf-check",
+      "operation": "Lectures on two-port\ncircuit.\nExercises and questions\nare conducted if\nnecessary",
+      "assignments": "Preparation: Try the examples\nin Chapter 14 (pp.142-143)\nand exercises (pp.148-149).\nAlso read the contents of the\ntextbooks (p.144, p.147-148,\npp.146-147) on the two-port\n circuit (F parameter,\nimpedance conversion, T-π\ntransform).\nReview: Review the lecture\nnotes. If there is an\ninsufficient understanding\nof the exercise, ask the\nprofessor in charge to\nsolve it. If a homework is\nmade, complete the homework\nby the deadline.",
+      "minutes": "200"
+    },
+    {
+      "index": "10",
+      "content": "Applications of two-port circuit\n(Materials will be distributed if necessary)\n\nSelf-check",
+      "operation": "Lectures on two-port\ncircuit.\nThere may be cases where\na quiz on the two-port\ncircuit and explanation\nare given",
+      "assignments": "Use the exercises in Chapter\n14 (pp.148-149) to enable\ncalculations such as T-π\ntransform, cascade\nconnection, and impedance\nconversion using F parameters.\nIf necessary, review\nexercises. If there is a\nquiz, study enough.\nReview: Review the lecture\nnotes. If there is an\ninsufficient understanding\nof the exercise, ask the\nprofessor in charge to\nsolve it. If a homework is\nmade, complete the homework\nby the deadline.",
+      "minutes": "200"
+    },
+    {
+      "index": "11",
+      "content": "Phasor trajectory (Textbook pp.150-155)\n\nSelf-check",
+      "operation": "Lectures on Phasor\ntrajectory.\nExercises and questions\nare conducted if\nnecessary",
+      "assignments": "Preparation: Read the contents\nof Section 9.2 (pp. 79-84).\nReview: If there is an\ninsufficient understanding\nof the exercise, ask the\nprofessor in charge to\nsolve it. Review the lecture\nnotes on the phasor\ntrajectory. Complete the\nhomework by the deadline.",
+      "minutes": "200"
+    },
+    {
+      "index": "12",
+      "content": "Phasor trajectory (Textbook pp.155-156)\n\nSelf-check",
+      "operation": "Lectures on Phasor\ntrajectory. There may be\ncases where a  quiz on\nthe phasor trajectory\nand explanation are given.",
+      "assignments": "Preparation: Solve textbook\nexamples (pp.155-156) and\ndistributed exercises.\nReview: Review the lecture\nnotes. If the content is\nnot fully understood, ask\nthe professor in charge\nto resolve it before the\nclass starts. Complete\nthe homework by the\ndeadline.",
+      "minutes": "200"
+    },
+    {
+      "index": "13",
+      "content": "Review about contents of No.1 to 12 classes.\n\nSelf-check\n\nAdvanced learning",
+      "operation": "Conduct exercises and\ndiscussion on the\ncontents of No.1 to 12\nclasses.\nThe problem will be\npresented if necessary.\nSolve in class time.\nAdvanced learning\n(Three-phase circuit,\nDistributed constant\ncircuit).",
+      "assignments": "Preparation: Review the\nlecture notes. If there are\nany questions in the\nexercises or quizzes, they\nare resolved before the\nlecture.\nReview: Look back on the\ncontents of the lecture.\nIf there is insufficient\nunderstanding, ask the\nprofessor in charge to solve\nit. If a homework is made,\ncomplete the homework by the\ndeadline.",
+      "minutes": "200"
+    },
+    {
+      "index": "14",
+      "content": "Final exam\n\nSelf-check",
+      "operation": "The final exam is\nconducted on the contents\nof No.1 to 12 classes.\nIf necessary,\nexplanations and\nexercises are given\nafter the final exam.",
+      "assignments": "Preparation: Review the\nlecture notes so far, and if\nthere are unclear points in\nthe exercises and quizzes,\nresolve them before the\nlecture. If it cannot be\nresolved, it will be the\nsubject of general discussion.\nReview: Review the content of\nthe classes. If there is\ninsufficient understanding,\nask task the professor in\ncharge to solve it. If a\nhomework is made, complete\nthe homework by the deadline.",
+      "minutes": "200"
+    },
+    {
+      "index": "15",
+      "content": "Review of final exam\n\nSelf-check",
+      "operation": "Review the entire lecture\ncontent.\nConfirm final evaluation.\nAnswer the class\nquestionnaire.",
+      "assignments": "Preparation: If there are\nadditional tasks, complete\nthem and submit them by the\ndeadline.\nTry to self-check and clear\nwhere your understanding of\nthe final test and the past\nquestions quizzes and reports\nis insufficient.",
+      "minutes": "200"
+    }
+  ],
+  "rawText": "金沢工業大学　学習支援計画書　E607-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Electrical and Electronic Engineering(〜2024)\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                電気回路Ⅲ（再履修クラス）\n                Electric Circuits III\n\n              2\n              E607-01\n\n                2026年度\n\n                2nd year 1st semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  AIZAWA Koji\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Mutual induction\n2.Useful theorems\n3.Two-port circuit\n4.Phasor trajectory\n\n              In this class, including a review of Electric Circuit I and II, contents from the basic circuit combining resistance (R), inductance (L) or capacitance (C) and their combination to a slightly more complex AC circuit are learned. In the calculation of an AC circuit, it is no exaggeration to say that it is common sense to use a so-called symbolic solution using phasors and complex numbers. In the subsequent course Electric Circuit IV, the circuit analysis techniques using symbolic solution becomes the base for learning more advanced and complex analysis methods.\n\n              授業の概要および学習上の助言\n\n              1 Mutual induction\n2 Useful theorems\n3 Two-port circuit\n4 Phasor trajectory\n\nIn addition, since the progress is adjusted while confirming the degree of understanding from the result of the quiz or the like, the schedule of the class and the learning content may be changed. Active learnings, that is, exercises, quizzes, presentation discussions, questions and answers, short breaks, etc. are conducted so that students concentrate on classes. Depending on the presence of Humanity and Nature Seminar, times and contents of review class may change (follow the instructions of the professor in charge)\n\n              教科書および参考書・リザーブドブック\n\n              Basic electric circuit(2nd edition)New Edition, Morikita Publishing Co., Ltd.\n\n              履修に必要な予備知識や技能\n\n              In this course, it is important to solve more problems in order to understand the theory and put it into practice. Moreover, since it is the accumulation of learning one by one, daily continuous efforts are required. Therefore, you are required to do things like 1. Check various reference books, 2. Ask the professor in charge, 3. Use the Mathematics Education Center so that you can always clear things that you do not understand. In this classes, Mathematics such as simultaneous linear equations, determinants, matrices, differentiation / integration, basics of complex numbers, and trigonometric functions are utilized.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                I\n                The mutual induction phenomenon can be explained. The basic mutual induction can be analyzed.\n\n                ②\n                I\n                The electric circuits can be solved using useful theorems.\n\n                ③\n                I\n                In a two-terminal pair circuit, calculations using at least Z, Y, and F matrix.\n\n                ④\n                I\n                The problem of phasor trajectory can be solved using symbolic solutions.\n\n                ⑤\n\n                ⑥\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                40\n\n                40\n\n                20\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                40\n\n                40\n\n                20\n\n                0\n\n                0\n\n                0\n\n                0\n\n    ",
+  "courseId": "2026:spring:E607-01:0:259",
+  "language": "en"
+}

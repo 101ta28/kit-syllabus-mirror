@@ -1,0 +1,306 @@
+{
+  "sourceIndex": 434,
+  "sourceUrl": "/opsyllabus/kitos0110/434/1",
+  "importedAt": "2026-06-08T09:34:01.924Z",
+  "title": "先進プログラミング",
+  "subtitle": "Advanced Programming",
+  "courseType": "Major ProgramMajor Courses",
+  "credits": "2",
+  "term": "2026年度\n\n                3rd year 1st semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "TOKUNAGA Yuichi\n授業科目の学習・教育目標"
+  ],
+  "keywords": [
+    "Python",
+    "Programming",
+    "Data analysis",
+    "Machine learning"
+  ],
+  "educationalGoal": "This course is a specialized core class to achieve the specialized core “Information design basic ability” goal of the Department of Management Information.\nStudents will learn Python, a general-purpose programming language so that they can create simple tools for data analysis.",
+  "advice": "This course deals with data representation and programming basics in AI applications basics.\nStudents will learn the basics and application of Python by completing several programming exercises.\nBy writing programs, students will produce a tool that will perform data analysis and then use the tool on open data.\nSimply running the program in class is not sufficient; students will need to actually run the program on their own, especially as a means of review.",
+  "books": "Specify in class.",
+  "requiredKnowledge": "Students should have a knowledge of general corporate management and information technology by taking other classes.\nIt is assumed that students will have an understanding of Web design, IT system basics, database management, programming basics, and applied programming; these topics should be reviewed as necessary.",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "I,J,K,L",
+      "body": "Be able to understand the basic syntax of Python and do simple programming."
+    },
+    {
+      "index": "②",
+      "type": "I,J,K,L",
+      "body": "Be able to calculate sequences using Python."
+    },
+    {
+      "index": "③",
+      "type": "I,J,K,L",
+      "body": "Be able to create a simple graph using Python."
+    },
+    {
+      "index": "④",
+      "type": "I,J,K,L",
+      "body": "Be able to do simple data analysis using Python."
+    },
+    {
+      "index": "⑤",
+      "type": "I,J,K,L",
+      "body": "Be able to explain machine learning using Python."
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "30",
+        "10",
+        "30",
+        "20",
+        "0",
+        "0",
+        "10",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "30",
+        "10",
+        "30",
+        "20",
+        "0",
+        "0",
+        "10",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "30",
+        "10",
+        "30",
+        "20",
+        "0",
+        "0",
+        "10",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションとリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "Understand the basics of Python and be able to write a program.\nPerform simple tasks such as graph creation and data analysis.\nUnderstand the basics of machine learning and create simple programs.",
+    "standard": "Understand the basics of Python and be able to write a program.\nPerform simple tasks such as graph creation and data analysis.\nUnderstand and be able to explain the basics of machine learning."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Introduction",
+      "operation": "Lecture and exercise",
+      "assignments": "Read the relevant part of the\ntextbook.",
+      "minutes": "260"
+    },
+    {
+      "index": "2",
+      "content": "Learn about writing code, assigning\nvalues to variables, and\nexpressions using operators.",
+      "operation": "Lecture and exercise",
+      "assignments": "Read the relevant part of the\ntextbook.",
+      "minutes": "260"
+    },
+    {
+      "index": "3",
+      "content": "Learn about built-in functions,\nmodule loading, and object methods.",
+      "operation": "Lecture and exercise",
+      "assignments": "Read the relevant part of the\ntextbook.",
+      "minutes": "260"
+    },
+    {
+      "index": "4",
+      "content": "Learn about if, while, for, and\nexception handling.",
+      "operation": "Lecture and exercise",
+      "assignments": "Read the relevant part of the\ntextbook.",
+      "minutes": "260"
+    },
+    {
+      "index": "5",
+      "content": "Learn about lists and tuples, which\nare mechanisms for handling multiple\ndata.",
+      "operation": "Lecture and exercise",
+      "assignments": "Read the relevant part of the\ntextbook.",
+      "minutes": "260"
+    },
+    {
+      "index": "6",
+      "content": "Learn about sets and dictionaries,\nwhich are ways to handle multiple\nvalues as a set.",
+      "operation": "Lecture and exercise",
+      "assignments": "Read the relevant part of the\ntextbook.",
+      "minutes": "260"
+    },
+    {
+      "index": "7",
+      "content": "Learn how to define and execute\nfunctions, pass arguments, and use\nother functions.",
+      "operation": "Lecture and exercise",
+      "assignments": "Read the relevant part of the\ntextbook.",
+      "minutes": "260"
+    },
+    {
+      "index": "8",
+      "content": "Learn the basics of object-oriented programming\nsuch as class definition, inheritance,\nand access rights.",
+      "operation": "Lecture and exercise",
+      "assignments": "Read the relevant part of the\ntextbook.",
+      "minutes": "260"
+    },
+    {
+      "index": "9",
+      "content": "Review of previous classes and\nexam.",
+      "operation": "Lecture and exam",
+      "assignments": "Read the relevant part of the\ntextbook.",
+      "minutes": "260"
+    },
+    {
+      "index": "10",
+      "content": "Self-evaluation based on exam results.\nLearn about importing and exporting\ntext files.",
+      "operation": "Lecture and exercise\nSelf-evaluation",
+      "assignments": "Read the relevant part of the\ntextbook.",
+      "minutes": "260"
+    },
+    {
+      "index": "11",
+      "content": "Learn how to draw graphs necessary\nfor visualization of data analysis\nresults.",
+      "operation": "Lecture and exercise",
+      "assignments": "Read the relevant part of the\ntextbook.",
+      "minutes": "260"
+    },
+    {
+      "index": "12",
+      "content": "Learn about NumPy, which can\nhandle multidimensional arrays\nand perform matrix operations at\nhigh speed.",
+      "operation": "Lecture and exercise",
+      "assignments": "Read the relevant part of the\ntextbook.",
+      "minutes": "260"
+    },
+    {
+      "index": "13",
+      "content": "Use sample data as an introduction to\nmachine learning to deepen your\nunderstanding of machine learning.",
+      "operation": "Lecture and exercise",
+      "assignments": "Read the relevant part of the\ntextbook.",
+      "minutes": "260"
+    },
+    {
+      "index": "14",
+      "content": "Demonstration of the created program.",
+      "operation": "Demonstration",
+      "assignments": "Read the relevant part of the\ntextbook.",
+      "minutes": "260"
+    },
+    {
+      "index": "15",
+      "content": "Supplementary lessons and self-evaluation.",
+      "operation": "Lecture and\nself-evaluation",
+      "assignments": "Read the relevant part of the\ntextbook.",
+      "minutes": "260"
+    }
+  ],
+  "rawText": "金沢工業大学　学習支援計画書　F125-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Management Systems(〜2024)\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                先進プログラミング\n                Advanced Programming\n\n              2\n              F125-01\n\n                2026年度\n\n                3rd year 1st semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  TOKUNAGA Yuichi\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Python\n2.Programming\n3.Data analysis\n4.Machine learning\n\n              This course is a specialized core class to achieve the specialized core “Information design basic ability” goal of the Department of Management Information.\nStudents will learn Python, a general-purpose programming language so that they can create simple tools for data analysis.\n\n              授業の概要および学習上の助言\n\n              This course deals with data representation and programming basics in AI applications basics.\nStudents will learn the basics and application of Python by completing several programming exercises.\nBy writing programs, students will produce a tool that will perform data analysis and then use the tool on open data.\nSimply running the program in class is not sufficient; students will need to actually run the program on their own, especially as a means of review.\n\n              教科書および参考書・リザーブドブック\n\n              Specify in class.\n\n              履修に必要な予備知識や技能\n\n              Students should have a knowledge of general corporate management and information technology by taking other classes.\nIt is assumed that students will have an understanding of Web design, IT system basics, database management, programming basics, and applied programming; these topics should be reviewed as necessary.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                I,J,K,L\n                Be able to understand the basic syntax of Python and do simple programming.\n\n                ②\n                I,J,K,L\n                Be able to calculate sequences using Python.\n\n                ③\n                I,J,K,L\n                Be able to create a simple graph using Python.\n\n                ④\n                I,J,K,L\n                Be able to do simple data analysis using Python.\n\n                ⑤\n                I,J,K,L\n                Be able to explain machine learning using Python.\n\n                ⑥\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                30\n\n                10\n\n                30\n\n                20\n\n                0\n\n                0\n\n                10\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                30\n\n                10\n\n                30\n\n                20\n\n                0\n\n                0\n\n                10\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                30\n\n                10\n\n                30\n\n                20\n\n                0\n\n                0\n\n                10\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  コラボレーションとリーダーシップ\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  発表・表現・伝達する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n  ",
+  "courseId": "2026:spring:F125-01:0:434",
+  "language": "en"
+}

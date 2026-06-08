@@ -1,0 +1,312 @@
+{
+  "sourceIndex": 626,
+  "sourceUrl": "/opsyllabus/kitos0110/626/1",
+  "importedAt": "2026-06-08T09:34:05.909Z",
+  "title": "アルゴリズムデザイン",
+  "subtitle": "Algorithm Design",
+  "courseType": "Major ProgramMajor Courses",
+  "credits": "2",
+  "term": "2026年度\n\n                2nd year 2nd semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "MOTOKI Mitsuo\n授業科目の学習・教育目標"
+  ],
+  "keywords": [
+    "Graph theory",
+    "Algorithm design techniques",
+    "Undecidability",
+    "Intractability",
+    "Approaches to hard problems"
+  ],
+  "educationalGoal": "In this class, students learn various algorithm design techniques to design efficient algorithms for many complex problems.\nFurthermore, students also learn knowledge on hard problems, and algorithmic approaches to such hard problems.",
+  "advice": "In this class, students learn various algorithm design techniques, such as, greedy method, divide-and-conquer, and dynamic programming.\nStudents also learn base of undecidability, i.e., there exists problems that can not be solved by computers. On the other hand, student learn base of intractability, i.e., it is believed that many problems can not be solved in polynomial time.\nIn spite of such negative facts, students learn some tractable approaches for such hard problems.",
+  "books": "(See the Japanese syllabus.)",
+  "requiredKnowledge": "It is desirable for students to have taken \"Formal language and automata\". Prior knowledge of formal language is especially helpful although it is also taught in the course.",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "L,M",
+      "body": "Be able to explain algorithms using greedy method."
+    },
+    {
+      "index": "②",
+      "type": "L,M",
+      "body": "Be able to explain algorithms using divide-and-conquer."
+    },
+    {
+      "index": "③",
+      "type": "L,M",
+      "body": "Be able to explain algorithms using local search."
+    },
+    {
+      "index": "④",
+      "type": "L,M",
+      "body": "Be able to explain algorithms using dynamic programming."
+    },
+    {
+      "index": "⑤",
+      "type": "L,M",
+      "body": "Be able to explain NP completeness."
+    },
+    {
+      "index": "⑥",
+      "type": "L,M",
+      "body": "Be able to explain approaches for hard problems"
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "40",
+        "40",
+        "20",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "40",
+        "40",
+        "20",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "40",
+        "40",
+        "20",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションとリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "Be able to design algorithm using appropriate design technique.",
+    "standard": "Be able to explain the idea of various algorithm design techniques."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Basic of algorithm analysis",
+      "operation": "Lecture\nQ&A\nself-check",
+      "assignments": "Preview: Read Ch. 1 of the\ntextbook\nReview: Solve practices in\nCh. 1 of the textbook",
+      "minutes": "60\n\n60"
+    },
+    {
+      "index": "2",
+      "content": "Graph theory",
+      "operation": "Lecture\nQ&A\nself-check",
+      "assignments": "Preview: Read Ch. 2 of the\ntextbook\nReview: Solve practices in\nCh. 2 of the textbook",
+      "minutes": "60\n\n60"
+    },
+    {
+      "index": "3",
+      "content": "Divide-and-conquer",
+      "operation": "Lecture\nQ&A\nself-check",
+      "assignments": "Preview: Read Ch. 3 of the\ntextbook\nReview: Solve practices in\nCh. 3 of the textbook",
+      "minutes": "60\n\n60"
+    },
+    {
+      "index": "4",
+      "content": "Greedy method",
+      "operation": "Lecture\nQ&A\nself-check",
+      "assignments": "Preview: Read Ch. 4 of the\ntextbook\nReview: Solve practices in\nCh. 4 of the textbook",
+      "minutes": "60\n\n60"
+    },
+    {
+      "index": "5",
+      "content": "Overall exercise",
+      "operation": "Lecture\nQ&A\nself-check",
+      "assignments": "Preview: Review the contents\nfrom 1st to the 4th lecture",
+      "minutes": "60"
+    },
+    {
+      "index": "6",
+      "content": "Local search",
+      "operation": "Lecture\nQ&A\nself-check",
+      "assignments": "Preview: Read Ch. 5 of the\ntextbook\nReview: Solve practices in\nCh. 5 of the textbook",
+      "minutes": "60\n\n60"
+    },
+    {
+      "index": "7",
+      "content": "Dynamic programming",
+      "operation": "Lecture\nQ&A\nself-check",
+      "assignments": "Preview: Read Ch. 6 of the\ntextbook\nReview: Solve practices in\nCh. 6 of the textbook",
+      "minutes": "60\n\n60"
+    },
+    {
+      "index": "8",
+      "content": "Overall exercise",
+      "operation": "Lecture\nQ&A\nself-check",
+      "assignments": "Preview: Review the contents\nthe 6th and the 7th lecture",
+      "minutes": "60"
+    },
+    {
+      "index": "9",
+      "content": "Undecidability",
+      "operation": "Lecture\nQ&A\nself-check",
+      "assignments": "Review: Review the handouts",
+      "minutes": "60"
+    },
+    {
+      "index": "10",
+      "content": "Intractability and computational complexity",
+      "operation": "Lecture\nQ&A\nself-check",
+      "assignments": "Preview: Read Ch. 7 of the\ntextbook\nReview: Solve practices in\nCh. 7 of the textbook",
+      "minutes": "60\n\n60"
+    },
+    {
+      "index": "11",
+      "content": "Approaches for hard problems (approximation)",
+      "operation": "Lecture\nQ&A\nself-check",
+      "assignments": "Preview: Read Ch. 8 of the\ntextbook\nReview: Solve practices in\nCh. 8 of the textbook",
+      "minutes": "60\n\n60"
+    },
+    {
+      "index": "12",
+      "content": "Approaches for hard problems (randamization)",
+      "operation": "Lecture\nQ&A\nself-check",
+      "assignments": "Preview: Read Ch. 9 of the\ntextbook\nReview: Solve practices in\nCh. 9 of the textbook",
+      "minutes": "60\n\n60"
+    },
+    {
+      "index": "13",
+      "content": "Approaches for hard problems (deterministic\napproaches, heuristics)",
+      "operation": "Lecture\nQ&A\nself-check",
+      "assignments": "Preview: Read Ch. 5 of the\ntextbook\nReview: Solve practices in\nCh. 5 of the textbook",
+      "minutes": "60\n\n60"
+    },
+    {
+      "index": "14",
+      "content": "Overall exercise",
+      "operation": "Lecture and Exercise",
+      "assignments": "Preview: Review the contents\nfrom the 9th to the 13th\nlecture",
+      "minutes": "120"
+    },
+    {
+      "index": "15",
+      "content": "Examination\nSelf-check",
+      "operation": "Exam\nSelf-check",
+      "assignments": "Prepare for the exam",
+      "minutes": "120"
+    }
+  ],
+  "rawText": "金沢工業大学　学習支援計画書　C019-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Information and Computer Science\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                アルゴリズムデザイン\n                Algorithm Design\n\n              2\n              C019-01\n\n                2026年度\n\n                2nd year 2nd semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  MOTOKI Mitsuo\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Graph theory\n2.Algorithm design techniques\n3.Undecidability\n4.Intractability\n5.Approaches to hard problems\n\n              In this class, students learn various algorithm design techniques to design efficient algorithms for many complex problems.\nFurthermore, students also learn knowledge on hard problems, and algorithmic approaches to such hard problems.\n\n              授業の概要および学習上の助言\n\n              In this class, students learn various algorithm design techniques, such as, greedy method, divide-and-conquer, and dynamic programming.\nStudents also learn base of undecidability, i.e., there exists problems that can not be solved by computers. On the other hand, student learn base of intractability, i.e., it is believed that many problems can not be solved in polynomial time.\nIn spite of such negative facts, students learn some tractable approaches for such hard problems.\n\n              教科書および参考書・リザーブドブック\n\n              (See the Japanese syllabus.)\n\n              履修に必要な予備知識や技能\n\n              It is desirable for students to have taken \"Formal language and automata\". Prior knowledge of formal language is especially helpful although it is also taught in the course.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                L,M\n                Be able to explain algorithms using greedy method.\n\n                ②\n                L,M\n                Be able to explain algorithms using divide-and-conquer.\n\n                ③\n                L,M\n                Be able to explain algorithms using local search.\n\n                ④\n                L,M\n                Be able to explain algorithms using dynamic programming.\n\n                ⑤\n                L,M\n                Be able to explain NP completeness.\n\n                ⑥\n                L,M\n                Be able to explain approaches for hard problems\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                40\n\n                40\n\n                20\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                40\n\n                40\n\n                20\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                40\n\n                40\n\n                20\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  コラボレーションとリーダーシップ\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  発表・表現・伝達する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n",
+  "courseId": "2026:fall:C019-01:0:626",
+  "language": "en"
+}

@@ -1,0 +1,312 @@
+{
+  "sourceIndex": 513,
+  "sourceUrl": "/opsyllabus/kitos0110/513/1",
+  "importedAt": "2026-06-08T09:34:03.529Z",
+  "title": "音楽・音響情報処理",
+  "subtitle": "Acoustical and Musical Processing",
+  "courseType": "Major ProgramMajor Courses",
+  "credits": "2",
+  "term": "2026年度\n\n                2nd year 2nd semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "EMURA Norio\n授業科目の学習・教育目標"
+  ],
+  "keywords": [
+    "Music synthesizer",
+    "Fourier synthesis",
+    "Fourier Analysis",
+    "Music sequencer",
+    "Automatic music performance"
+  ],
+  "educationalGoal": "In this course, students will:\n(1) Learn the mechanisms for synthesis of sound in a musical synthesizer and automatic performance methods through MATLAB programming.\n(2) Learn the physical characteristics of sound and methods for the input or output of sound.\n(3) Consider the impressions of sound created by programming.\n(4) Discuss application of the contents for regional cooperation.",
+  "advice": "In this course, the mechanism for Fourier synthesis in a musical synthesizer and method for automatic performance will be examine based on the knowledge imparted in “Media Informatics I”.\n\nIn a part of the course, students will learn and practice how to create sound or music work via MATLAB programming.\n\nStudents are expected to review the contents of “Media Informatics I” and other courses related to computer programming.",
+  "books": "None",
+  "requiredKnowledge": "An understanding of the course “Media Informatics I” is required.\nBasic computer programming skills are required.",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "D,F,G,I,M",
+      "body": "Be able to understand how sound is represented in a computer."
+    },
+    {
+      "index": "②",
+      "type": "D,F,G,I,M",
+      "body": "Be able to understand the relationship between sound timber and Fourier synthesis."
+    },
+    {
+      "index": "③",
+      "type": "D,F,G,I,M",
+      "body": "Be able to understand the relationship between temporal characteristics of sound loudness and time envelopes."
+    },
+    {
+      "index": "④",
+      "type": "D,F,G,H,I,K,M",
+      "body": "Be able to recreate an imagined sound via MATLAB programming."
+    },
+    {
+      "index": "⑤",
+      "type": "D,F,G,H,I,K,M",
+      "body": "Be able to present an automatic music performance via MATLAB programming."
+    },
+    {
+      "index": "⑥",
+      "type": "D,F,G,H,I,K,M",
+      "body": "Be able to create original sound or music."
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "40",
+        "0",
+        "60",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "40",
+        "0",
+        "60",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "40",
+        "0",
+        "60",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションとリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "(1) Be able to explain how sound is represented in a computer.\n\n(2) Be able to explain the mechanism for sound synthesis with principles of Fourier synthesis.\n\n(3) Be able to imagine a method for representing an envisioned sound or music via MATLAB programming.\n\n(4) Be able to create a piece of sound or music that shows good quality.",
+    "standard": "(1) Be able to understand how sound is represented in a computer.\n\n(2) Be able to understand principles of Fourier synthesis.\n\n(3) Be able to partially represent an envisioned sound or music using an exemplified program.\n\n(4) Be able to create a piece of sound or music."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Course introduction\nChapter 1 “Basis of MATLAB”\n-Matrix calculation\n-Built-in function and User-defined function",
+      "operation": "Lecture and practice\nSelf-check",
+      "assignments": "Lecture review",
+      "minutes": "120"
+    },
+    {
+      "index": "2",
+      "content": "Chapter 2 “Method for Synthesis of Sound”\n-Representation of sound in computer\n-Sampling theorem and Aliasing\n-Create pure sound",
+      "operation": "Lecture and practice\nSelf-check",
+      "assignments": "Lecture review",
+      "minutes": "120"
+    },
+    {
+      "index": "3",
+      "content": "Chapter 2 “Method for Synthesis of Sound”\n-Synthesis of two pure tones",
+      "operation": "Lecture and practice\nSelf-check",
+      "assignments": "Lecture review",
+      "minutes": "120"
+    },
+    {
+      "index": "4",
+      "content": "Chapter 3 “Fourier Synthesis and Fourier\nAnalysis”\n -Fourier series of square wave, sawtooth wave\nand triangle wave.\n-Fourier synthesis of square wave",
+      "operation": "Lecture and practice\nSelf-check",
+      "assignments": "Lecture review",
+      "minutes": "120"
+    },
+    {
+      "index": "5",
+      "content": "Chapter 3 “Fourier Synthesis and Fourier\nAnalysis”\n-Fourier synthesis of sawtooth wave and\ntriangle wave",
+      "operation": "Lecture and practice\nSelf-check",
+      "assignments": "Lecture review",
+      "minutes": "120"
+    },
+    {
+      "index": "6",
+      "content": "Chapter 3 “Fourier Synthesis and Fourier\nAnalysis”\n-Synthesis of sound using\n“fourier_synthesis” function",
+      "operation": "Lecture and practice\nSelf-check",
+      "assignments": "Lecture review",
+      "minutes": "120"
+    },
+    {
+      "index": "7",
+      "content": "Chapter 3 “Fourier Synthesis and Fourier\nAnalysis”\n -Fourier analysis of complex tone",
+      "operation": "Lecture and practice\nSelf-reflection",
+      "assignments": "Lecture review",
+      "minutes": "120"
+    },
+    {
+      "index": "8",
+      "content": "Chapter 3 “Fourier Synthesis and Fourier\nAnalysis”\n-Recording using microphone",
+      "operation": "Lecture and practice\nSelf-check",
+      "assignments": "Lecture review",
+      "minutes": "120"
+    },
+    {
+      "index": "9",
+      "content": "Chapter 4 “Time Envelope”\n-Basis of time envelope\n -Control for temporal characteristics of\nsound pressure level",
+      "operation": "Lecture and practice\nSelf-check",
+      "assignments": "Lecture review",
+      "minutes": "120"
+    },
+    {
+      "index": "10",
+      "content": "Chapter 4 “Time Envelope”\n-Control for temporal characteristics of sound\npressure level",
+      "operation": "Lecture and practice\nSelf-check",
+      "assignments": "Lecture review",
+      "minutes": "120"
+    },
+    {
+      "index": "11",
+      "content": "Chapter 5 “Music Sequencer”\n-Implement music sequencer in a Fourier\nsynthesizer",
+      "operation": "Lecture and practice\nSelf-check",
+      "assignments": "Lecture review\nPrepare for the exam\nincluding the assignment\nsheet",
+      "minutes": "240"
+    },
+    {
+      "index": "12",
+      "content": "Chapter 5 “Music Sequencer”\n -Control of sound timber",
+      "operation": "Exam and Self-reflection\nPractice",
+      "assignments": "Write a paper about the\nexperiment",
+      "minutes": "240"
+    },
+    {
+      "index": "13",
+      "content": "Exam\nComprehensive practice 1\n-Create work of sound or music",
+      "operation": "Practice\nSelf-check",
+      "assignments": "Lecture review",
+      "minutes": "240"
+    },
+    {
+      "index": "14",
+      "content": "Comprehensive practice 2\n-Create work of sound or music",
+      "operation": "Practice\nSelf-check",
+      "assignments": "Lecture review",
+      "minutes": "240"
+    },
+    {
+      "index": "15",
+      "content": "Conclusion of the course",
+      "operation": "Self-reflection\nSelf-evaluation",
+      "assignments": "",
+      "minutes": ""
+    }
+  ],
+  "rawText": "金沢工業大学　学習支援計画書　M018-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Media Information\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                音楽・音響情報処理\n                Acoustical and Musical Processing\n\n              2\n              M018-01\n\n                2026年度\n\n                2nd year 2nd semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  EMURA Norio\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Music synthesizer\n2.Fourier synthesis\n3.Fourier Analysis\n4.Music sequencer\n5.Automatic music performance\n\n              In this course, students will:\n(1) Learn the mechanisms for synthesis of sound in a musical synthesizer and automatic performance methods through MATLAB programming.\n(2) Learn the physical characteristics of sound and methods for the input or output of sound.\n(3) Consider the impressions of sound created by programming.\n(4) Discuss application of the contents for regional cooperation.\n\n              授業の概要および学習上の助言\n\n              In this course, the mechanism for Fourier synthesis in a musical synthesizer and method for automatic performance will be examine based on the knowledge imparted in “Media Informatics I”.\n\nIn a part of the course, students will learn and practice how to create sound or music work via MATLAB programming.\n\nStudents are expected to review the contents of “Media Informatics I” and other courses related to computer programming.\n\n              教科書および参考書・リザーブドブック\n\n              None\n\n              履修に必要な予備知識や技能\n\n              An understanding of the course “Media Informatics I” is required.\nBasic computer programming skills are required.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                D,F,G,I,M\n                Be able to understand how sound is represented in a computer.\n\n                ②\n                D,F,G,I,M\n                Be able to understand the relationship between sound timber and Fourier synthesis.\n\n                ③\n                D,F,G,I,M\n                Be able to understand the relationship between temporal characteristics of sound loudness and time envelopes.\n\n                ④\n                D,F,G,H,I,K,M\n                Be able to recreate an imagined sound via MATLAB programming.\n\n                ⑤\n                D,F,G,H,I,K,M\n                Be able to present an automatic music performance via MATLAB programming.\n\n                ⑥\n                D,F,G,H,I,K,M\n                Be able to create original sound or music.\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                0\n\n                0\n\n                0\n\n                0\n\n                40\n\n                0\n\n                60\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                0\n\n                0\n\n                0\n\n                0\n\n                40\n\n                0\n\n                60\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                0\n\n                0\n\n                0\n\n                0\n\n                40\n\n                0\n\n                60\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  コラボレーションとリーダーシップ\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  発",
+  "courseId": "2026:fall:M018-01:0:513",
+  "language": "en"
+}

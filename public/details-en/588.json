@@ -1,0 +1,313 @@
+{
+  "sourceIndex": 588,
+  "sourceUrl": "/opsyllabus/kitos0110/588/1",
+  "importedAt": "2026-06-08T09:34:05.113Z",
+  "title": "コンピュータシステム基礎",
+  "subtitle": "Fundamentals of Computer Systems",
+  "courseType": "Major ProgramMajor Courses",
+  "credits": "2",
+  "term": "2026年度\n\n                1st year 1st semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "KAWANAMI Takashi",
+    "SANO Shoji\n授業科目の学習・教育目標"
+  ],
+  "keywords": [
+    "Binary Encoding",
+    "Logical and arithmetic operations",
+    "Logic Circuit",
+    "CPU",
+    "Machine Code"
+  ],
+  "educationalGoal": "Students will:\n(1) Learn how to store information as “binary data” on computer systems.\n(2) Learn logic circuits to understand the behavior of computer systems.\n(3) Learn the basic mechanism of processing “machine code” inside computer systems.",
+  "advice": "Learn the fundamentals of the configuration and behavior of program-stored computers for base systems of AI and IoT. Understand the function of instructions and concrete operation of computers through circuit design exercises.\n\n1. Basic structure of a computer\n2. data representation and codes\n3. logic circuits\n4. Main memory and address\n5. CPU and instruction execution\n6. Instruction Cycle\n7. Machine language instructions and assembly language\n8. Program Processing",
+  "books": "Textbooks：Introduction to Computers: Introduction to Information Systems, 9th Edition (in Japanese)\nReference books：Introduction to Logic Circuits (in Japanese)\nReserved books：None",
+  "requiredKnowledge": "No prior knowledge is required, but the self-motivated learning attitude is essential as follows:\n1. Listen carefully to each lecture, organize any questions you have, and resolve them by asking the teachers or your friends.\n2. Input circuits yourself in exercises using a logic circuit simulator, execute them, and verify the results.\n3. Try solving the exercise problems in the lecture before looking at the answers, Create your own example problems and solve them.",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "I,M,N",
+      "body": "Be able to convert and compute base 2-decimal numbers, to explain the coding of information."
+    },
+    {
+      "index": "②",
+      "type": "I,M,N",
+      "body": "Be able to explain the role of each device in a computer."
+    },
+    {
+      "index": "③",
+      "type": "I,M,N",
+      "body": "Be able to explain basic instruction execution."
+    },
+    {
+      "index": "④",
+      "type": "I,M,N",
+      "body": "Be able to explain the operation of circuits composed of logic gate elements (AND, OR, NOT, etc.)."
+    },
+    {
+      "index": "⑤",
+      "type": "I,M,N",
+      "body": "Be able to explain the operation of encoders, decoders, and multiplexers."
+    },
+    {
+      "index": "⑥",
+      "type": "I,M,N",
+      "body": "Be able to construct an n-bit addition circuit using fulladders."
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "40",
+        "40",
+        "20",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "40",
+        "40",
+        "20",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "40",
+        "40",
+        "20",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションとリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "(1) To be able to correctly perform radix conversion to binary numbers, and addition and subtraction. (2) To be able to answer correctly about each device of a computer. (3) To be able to correctly answer the execution process of a program. (4) (5) (6) To be able to accurately design elementary logic circuits at the lecture level.",
+    "standard": "(1) To be able to perform base conversion to binary numbers, and addition and subtraction. (2) To be able to explain each device of a computer. (3) To be able to explain the process of program execution. (4) (5) (6) Explain elementary logic circuits at the lecture level accurately."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Confirmation of Syllabus Contents\nBasic computer configuration (1)",
+      "operation": "Lecture and exercise,\nQ&A, and Self-check",
+      "assignments": "Preparation: Read the syllabus\n.\nReview: Understand the basic\nstructure of computers by\nusing the materials.",
+      "minutes": "200"
+    },
+    {
+      "index": "2",
+      "content": "Basic computer configuration (2)",
+      "operation": "Lecture and exercise,\nQ&A, and Self-check",
+      "assignments": "Preparation: Understand the\nfirst half of chapter 5 in\ntextbook 2.\nReview: To understand the\nbasic structure of computers\nby using the course materials.",
+      "minutes": "200"
+    },
+    {
+      "index": "3",
+      "content": "Radix conversions and operations (1)",
+      "operation": "Lecture and exercise,\nQ&A, and Self-check",
+      "assignments": "Preparation: Understand\nchapter 4 of Textbook 2.\nReview: Decimal to binary\nconversion, addition and\nsubtraction of binary numbers.",
+      "minutes": "200"
+    },
+    {
+      "index": "4",
+      "content": "Radix conversions and operations (2)",
+      "operation": "Lecture and exercise,\nQ&A, and Self-check",
+      "assignments": "Preparation: Understand\nchapter 4 of Textbook 2.\nReview: Decimal to binary\nconversion, addition and\nsubtraction of binary numbers.",
+      "minutes": "200"
+    },
+    {
+      "index": "5",
+      "content": "Computers and Coding (1)",
+      "operation": "Lecture and exercise,\nQ&A, and Self-check",
+      "assignments": "Preparation: Understand\nchapter 4 of Textbook 2.\nReview: Review text, image,\nand sound data.",
+      "minutes": "200"
+    },
+    {
+      "index": "6",
+      "content": "Computers and Coding (2)",
+      "operation": "Lecture and exercise,\nQ&A, and Self-check",
+      "assignments": "Preparation: Understand\nchapter 4 of Textbook 2.\nReview: Review text, image,\nand sound data.",
+      "minutes": "200"
+    },
+    {
+      "index": "7",
+      "content": "Basic Logic Gate",
+      "operation": "Lecture and exercise,\nQ&A, and Self-check",
+      "assignments": "Preparation: Understand the\nlatter half of Chapter 5 of\nTextbook 2.\nReview: Truth table, logic\ncircuits, and logic gate\nsymbols.",
+      "minutes": "200"
+    },
+    {
+      "index": "8",
+      "content": "Examination\nArithmetic logic circuit",
+      "operation": "Examination,\nLecture and exercise,\nQ&A, and Self-check",
+      "assignments": "Preparation: Understand the\nlatter half of chapter 5 in\ntextbook 2.\nReview: Review about\nadd/subtract circuits of\nlogic circuits.",
+      "minutes": "200"
+    },
+    {
+      "index": "9",
+      "content": "Integrated Exercises\n　Report Assignment 1",
+      "operation": "Lecture and exercise,\nQ&A, and Self-check",
+      "assignments": "Preparation: Understand the\nlatter half of Chapter 5 of\nTextbook 2.\nReview: Review the report\nassignment 1.",
+      "minutes": "200"
+    },
+    {
+      "index": "10",
+      "content": "Decoder/Encoder\nParity Check",
+      "operation": "Lecture and exercise,\nQ&A, and Self-check",
+      "assignments": "Preparation: Understand\nChapter 6 of Textbook 1.\nReview: Decoder, encoder, and\nparity check of logic circuits\n.",
+      "minutes": "200"
+    },
+    {
+      "index": "11",
+      "content": "Multiplexers\nDemultiplexer",
+      "operation": "Lecture and exercise,\nQ&A, and Self-check",
+      "assignments": "Preparation: Understand\nchapter 6 of Introduction to\nLogic Circuits.\nReview: Review multiplexers\nin logic circuits.",
+      "minutes": "200"
+    },
+    {
+      "index": "12",
+      "content": "Matching circuit\nComparison circuit",
+      "operation": "Lecture and exercise,\nQ&A, and Self-check",
+      "assignments": "Preparation: Understand\nchapter 7 of textbook 1.\nReview: Review comparative\ncircuits of logic circuits.",
+      "minutes": "200"
+    },
+    {
+      "index": "13",
+      "content": "Integrated Exercises\n　Complex circuits",
+      "operation": "Lecture and exercise,\nQ&A, and Self-check",
+      "assignments": "Preparation: Understand\nchapter 5 of textbook 2.\nReview: Review simple CPU\ncircuits of logic circuits.",
+      "minutes": "200"
+    },
+    {
+      "index": "14",
+      "content": "Examination\nIntegrated Exercise\n　Simple CPU-like circuit\n　Report Assignment 2",
+      "operation": "Examination,\nLecture and exercise,\nQ&A, and Self-check",
+      "assignments": "Preparation: Understand\nChapter 5 of Textbook 2.\nReview: Review the report\nassignment 2.",
+      "minutes": "200"
+    },
+    {
+      "index": "15",
+      "content": "Self-reflection class.\nSelf-evaluation.",
+      "operation": "Lecture, self-reflection,\nand individual conference",
+      "assignments": "Review (Achievement exam)",
+      "minutes": "200"
+    }
+  ],
+  "rawText": "金沢工業大学　学習支援計画書　C003-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Information and Computer Science\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                コンピュータシステム基礎\n                Fundamentals of Computer Systems\n\n              2\n              C003-01\n\n                2026年度\n\n                1st year 1st semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  KAWANAMI Takashi, SANO Shoji\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Binary Encoding\n2.Logical and arithmetic operations\n3.Logic Circuit\n4.CPU\n5.Machine Code\n\n              Students will:\n(1) Learn how to store information as “binary data” on computer systems.\n(2) Learn logic circuits to understand the behavior of computer systems.\n(3) Learn the basic mechanism of processing “machine code” inside computer systems.\n\n              授業の概要および学習上の助言\n\n              Learn the fundamentals of the configuration and behavior of program-stored computers for base systems of AI and IoT. Understand the function of instructions and concrete operation of computers through circuit design exercises.\n\n1. Basic structure of a computer\n2. data representation and codes\n3. logic circuits\n4. Main memory and address\n5. CPU and instruction execution\n6. Instruction Cycle\n7. Machine language instructions and assembly language\n8. Program Processing\n\n              教科書および参考書・リザーブドブック\n\n              Textbooks：Introduction to Computers: Introduction to Information Systems, 9th Edition (in Japanese)\nReference books：Introduction to Logic Circuits (in Japanese)\nReserved books：None\n\n              履修に必要な予備知識や技能\n\n              No prior knowledge is required, but the self-motivated learning attitude is essential as follows:\n1. Listen carefully to each lecture, organize any questions you have, and resolve them by asking the teachers or your friends.\n2. Input circuits yourself in exercises using a logic circuit simulator, execute them, and verify the results.\n3. Try solving the exercise problems in the lecture before looking at the answers, Create your own example problems and solve them.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                I,M,N\n                Be able to convert and compute base 2-decimal numbers, to explain the coding of information.\n\n                ②\n                I,M,N\n                Be able to explain the role of each device in a computer.\n\n                ③\n                I,M,N\n                Be able to explain basic instruction execution.\n\n                ④\n                I,M,N\n                Be able to explain the operation of circuits composed of logic gate elements (AND, OR, NOT, etc.).\n\n                ⑤\n                I,M,N\n                Be able to explain the operation of encoders, decoders, and multiplexers.\n\n                ⑥\n                I,M,N\n                Be able to construct an n-bit addition circuit using fulladders.\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                40\n\n                40\n\n                20\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                40\n\n                40\n\n                20\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                40\n\n                40\n\n                20\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n                  思考・推論・創造する力\n\n     ",
+  "courseId": "2026:spring:C003-01:0:588",
+  "language": "en"
+}

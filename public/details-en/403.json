@@ -1,0 +1,302 @@
+{
+  "sourceIndex": 403,
+  "sourceUrl": "/opsyllabus/kitos0110/403/1",
+  "importedAt": "2026-06-08T09:34:01.284Z",
+  "title": "情報セキュリティ",
+  "subtitle": "Information Security",
+  "courseType": "Major ProgramMajor Courses",
+  "credits": "2",
+  "term": "2026年度\n\n                3rd year 1st semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "SENGOKU Yasushi\n授業科目の学習・教育目標"
+  ],
+  "keywords": [
+    "Information security",
+    "Cryptography",
+    "Hash function",
+    "Authentication",
+    "Antivirus"
+  ],
+  "educationalGoal": "In this course, students will:\n(1) Learn an overview of information security technology and its necessity.\n(2) Learn basic knowledge of technologies such as cryptography and authentication.\n(3) Learn application systems such as antivirus, digital watermarking, and biometric authentication.",
+  "advice": "This is a basic course on information security. The following materials will be covered:\n\n1. Information security\n - overview of security technology\n2. Cryptographic technology\n - common-key cryptosystem, and public-key cryptosystem\n3. Authentication technology\n - hash function, digital signature\n4. Security tools\n - client authentication, PKI, PGP, IPsec, TLS, and SSH\n5. Application system\n - antivirus, countermeasures for unauthorized access, digital watermarking, and biometric authentication\n6. Information ethics\n - ethical issues in information security",
+  "books": "Textbooks:\nReference books: None\nReserved books: None",
+  "requiredKnowledge": "Basic knowledge of information networks is required.",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "H,I",
+      "body": "Be able to provide an overview of security technology and its necessity."
+    },
+    {
+      "index": "②",
+      "type": "I",
+      "body": "Be able to provide an overview of cryptography."
+    },
+    {
+      "index": "③",
+      "type": "I",
+      "body": "Be able to provide an overview of authentication technology."
+    },
+    {
+      "index": "④",
+      "type": "I",
+      "body": "Be able to provide an overview of security application systems."
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "40",
+        "60",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "40",
+        "60",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "40",
+        "60",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションとリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "(1) Be able to fully understand and explain information security technology.\n(2) Be able to fully understand and explain the mechanisms of standard cryptography.\n(3) Be able to fully understand and explain the mechanisms of standard authentication technology.\n(4) Be able to fully understand and utilize the functions of standard security tools.\n(5) Be able to fully understand and explain the security application system.",
+    "standard": "(1) Be able to understand and explain information security technology.\n(2) Be able to understand and explain the mechanisms of standard encryption technology.\n(3) Be able to understand and explain the mechanisms of standard authentication technology.\n(4) Be able to understand and use standard security tools.\n(5) Be able to understand and explain security application systems."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Course introduction\n1. Overview of information security",
+      "operation": "Lecture and Q&A\nSelf-check",
+      "assignments": "Understand the objectives of\nclass\nPrepare for Chapter 2 of the\ntextbook",
+      "minutes": "240"
+    },
+    {
+      "index": "2",
+      "content": "2. Cryptography (1)\n - cryptography basics",
+      "operation": "Lecture and Q&A\nSelf-check",
+      "assignments": "Review materials from the last\nclass",
+      "minutes": "240"
+    },
+    {
+      "index": "3",
+      "content": "2. Cryptography (2)\n - common-key cryptosystem",
+      "operation": "Lecture and Q&A\nSelf-check",
+      "assignments": "Review materials from the last\nclass\nPrepare for Chapter 4 of the\ntextbook",
+      "minutes": "240"
+    },
+    {
+      "index": "4",
+      "content": "2. Cryptography (3)\n - public-key cryptosystem",
+      "operation": "Quiz\nLecture and Q&A\nSelf-check",
+      "assignments": "Review materials from the last\nclass\nPrepare for Chapter 5 of the\ntextbook",
+      "minutes": "240"
+    },
+    {
+      "index": "5",
+      "content": "3. Authentication (1)\n - hash function",
+      "operation": "Lecture and Q&A\nSelf-check",
+      "assignments": "Review materials from the last\nclass",
+      "minutes": "240"
+    },
+    {
+      "index": "6",
+      "content": "3. Authentication (2)\n - digital signature",
+      "operation": "Lecture and Q&A\nSelf-check",
+      "assignments": "Review materials from the last\nclass\nPrepare for Chapter 9 of the\ntextbook",
+      "minutes": "240"
+    },
+    {
+      "index": "7",
+      "content": "4. Security tools (1)\n - client authentication\n - PKI\n - PGP",
+      "operation": "Quiz\nLecture and Q&A\nSelf-check",
+      "assignments": "Review materials from the last\nclass\nPrepare for Chapter 10 of the\ntextbook",
+      "minutes": "240"
+    },
+    {
+      "index": "8",
+      "content": "4. Security tools (2)\n - IPsec\n - TLS\n - SSH",
+      "operation": "Lecture and Q&A\nSelf-check",
+      "assignments": "Review materials from the last\nclass\nPrepare for Chapter 11 of the\ntextbook",
+      "minutes": "240"
+    },
+    {
+      "index": "9",
+      "content": "5. Application system (1)\n - antivirus",
+      "operation": "Lecture and Q&A\nSelf-check",
+      "assignments": "Review materials from the last\nclass",
+      "minutes": "240"
+    },
+    {
+      "index": "10",
+      "content": "5. Application system (2)\n - firewall\n - IDS",
+      "operation": "Lecture and Q&A\nSelf-check",
+      "assignments": "Review materials from the last\nclass\nPrepare for Chapter 12 of the\ntextbook",
+      "minutes": "240"
+    },
+    {
+      "index": "11",
+      "content": "5. Application system (3)\n - digital watermarking\n - biometrics",
+      "operation": "Lecture and Q&A\nSelf-check",
+      "assignments": "Review materials from the last\nclass\nPrepare for Chapter 15 of the\ntextbook",
+      "minutes": "240"
+    },
+    {
+      "index": "12",
+      "content": "6. Information ethics\n - ethical issues in information security",
+      "operation": "Quiz\nPractice and Q&A\nSelf-check",
+      "assignments": "Review materials from the last\nclass",
+      "minutes": "240"
+    },
+    {
+      "index": "13",
+      "content": "Integrated learning",
+      "operation": "Practice and Q&A\nSelf-check",
+      "assignments": "Review materials from the last\nclass",
+      "minutes": "240"
+    },
+    {
+      "index": "14",
+      "content": "Integrated learning\nFinal exam",
+      "operation": "Practice and Q&A\nSelf-check\nExam",
+      "assignments": "Review materials from the last\nclass",
+      "minutes": "240"
+    },
+    {
+      "index": "15",
+      "content": "Integrated learning\nSelf-evaluation",
+      "operation": "Lecture, practice and Q&A\nSelf-check",
+      "assignments": "Review the final exam",
+      "minutes": "240"
+    }
+  ],
+  "rawText": "金沢工業大学　学習支援計画書　F025-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Media Informatics(〜2024)\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                情報セキュリティ\n                Information Security\n\n              2\n              F025-01\n\n                2026年度\n\n                3rd year 1st semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  SENGOKU Yasushi\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Information security\n2.Cryptography\n3.Hash function\n4.Authentication\n5.Antivirus\n\n              In this course, students will:\n(1) Learn an overview of information security technology and its necessity.\n(2) Learn basic knowledge of technologies such as cryptography and authentication.\n(3) Learn application systems such as antivirus, digital watermarking, and biometric authentication.\n\n              授業の概要および学習上の助言\n\n              This is a basic course on information security. The following materials will be covered:\n\n1. Information security\n - overview of security technology\n2. Cryptographic technology\n - common-key cryptosystem, and public-key cryptosystem\n3. Authentication technology\n - hash function, digital signature\n4. Security tools\n - client authentication, PKI, PGP, IPsec, TLS, and SSH\n5. Application system\n - antivirus, countermeasures for unauthorized access, digital watermarking, and biometric authentication\n6. Information ethics\n - ethical issues in information security\n\n              教科書および参考書・リザーブドブック\n\n              Textbooks:\nReference books: None\nReserved books: None\n\n              履修に必要な予備知識や技能\n\n              Basic knowledge of information networks is required.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                H,I\n                Be able to provide an overview of security technology and its necessity.\n\n                ②\n                I\n                Be able to provide an overview of cryptography.\n\n                ③\n                I\n                Be able to provide an overview of authentication technology.\n\n                ④\n                I\n                Be able to provide an overview of security application systems.\n\n                ⑤\n\n                ⑥\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                40\n\n                60\n\n                0\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                40\n\n                60\n\n                0\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                40\n\n                60\n\n                0\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  コラボレーションとリーダーシップ\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  発表・表現・伝達する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  学習に取組む姿勢・意欲\n\n                    0\n\n                    0\n\n                    0\n\n                 ",
+  "courseId": "2026:spring:F025-01:0:403",
+  "language": "en"
+}

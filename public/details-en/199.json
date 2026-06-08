@@ -1,0 +1,297 @@
+{
+  "sourceIndex": 199,
+  "sourceUrl": "/opsyllabus/kitos0110/199/1",
+  "importedAt": "2026-06-08T09:33:57.198Z",
+  "title": "環境・空間調査分析法",
+  "subtitle": "Environmental and Spatial Survey Analysis",
+  "courseType": "Major ProgramMajor Courses",
+  "credits": "2",
+  "term": "2026年度\n\n                2nd year 2nd semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "ISHIHARA Masahiko\n授業科目の学習・教育目標"
+  ],
+  "keywords": [
+    "Geographic Information Science",
+    "Geospatial Information",
+    "Geographic Information Systems",
+    "Open Data",
+    "Data Analysis"
+  ],
+  "educationalGoal": "This course teaches fundamental GIS operations to visualize and analyze social conditions using open geospatial data. Students learn to identify regional challenges and examine society-environment interactions from a spatial perspective. The goal is for students to logically interpret data and provide evidence-based recommendations for contemporary social issues, fostering a practical, data-driven approach to problem-solving.",
+  "advice": "Students should review statistics and social research methods to effectively utilize open data within GIS. Since the course relies on QGIS, bringing a personal laptop to every class is mandatory. This ensures full participation in practical data analysis and spatial visualization tasks.",
+  "books": "Introduction to Spatial Data Analysis for Area Studies [Kokon Shoin]",
+  "requiredKnowledge": "Essential skills include basic PC operations like file management. Students must already understand e-Stat data extraction and Excel processing from \"Social Research Methods.\" While advanced math is unnecessary, a strong motivation to analyze social phenomena spatially is vital. Students should possess a foundational research mindset—forming hypotheses and logically analyzing issues using objective data. Curiosity to explore society's hidden layers through maps is highly valued.",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "E",
+      "body": "Students will be able to visualize statistical data appropriately using GIS and explain the relationships betwee"
+    },
+    {
+      "index": "②",
+      "type": "G",
+      "body": "Students will objectively identify social issues through geospatial information analysis, grasp their correlatio"
+    },
+    {
+      "index": "③",
+      "type": "K",
+      "body": "Students will analyze regional characteristics and needs using geospatial information and logically propose stra"
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "0",
+        "0",
+        "40",
+        "40",
+        "0",
+        "0",
+        "20",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "0",
+        "0",
+        "40",
+        "40",
+        "0",
+        "0",
+        "20",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "0",
+        "0",
+        "40",
+        "40",
+        "0",
+        "0",
+        "20",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションとリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "Students aim to master GIS as a \"language to read society,\" visualizing regional issues and environment-society interactions using e-Stat data. The goal is to logically identify challenges and propose strategic solutions with a marketing mindset. The course fosters persuasive communication and collaborative leadership, empowering students to transform statistics into evidence for social change through autonomous, data-driven inquiry.",
+    "standard": "Students aim to master basic GIS to independently map statistical data and describe social issues. This involves joining e-Stat data with boundaries to create thematic maps, such as choropleth and buffer analysis. Students must logically explain regional challenges using data-driven visuals and collaborate effectively. The passing standard requires completing the foundational spatial analysis process autonomously."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1st",
+      "content": "Orientation: Geographic Information Science and\nGIS",
+      "operation": "Lectures and Exercises",
+      "assignments": "Assignment 1: Completion of Ex\nercise Deliverables",
+      "minutes": "200min\n."
+    },
+    {
+      "index": "2nd",
+      "content": "From Statistics to Maps: Geospatialization",
+      "operation": "Lectures and Exercises",
+      "assignments": "Assignment 2: Completion of Ex\nercise Deliverables",
+      "minutes": "200min\n."
+    },
+    {
+      "index": "3rd",
+      "content": "Basic Operations of GIS Software (1):\nQGIS Installation, Basic Interface, and Understa\nnding the Concept of Layers (Overlaying)",
+      "operation": "Lectures and Exercises",
+      "assignments": "Assignment 3: Completion of Ex\nercise Deliverables",
+      "minutes": "200min\n."
+    },
+    {
+      "index": "4th",
+      "content": "Basic Operations of GIS Software (2): Importance\n of Coordinate Reference Systems (CRS) and Displ\naying Basemaps (GSI Maps, etc.)",
+      "operation": "Lectures and Exercises",
+      "assignments": "Assignment 4: Completion of Ex\nercise Deliverables",
+      "minutes": "200min\n."
+    },
+    {
+      "index": "5th",
+      "content": "Data Visualization (1): Joining Attribute Data (\nPopulation, Households, etc.) and Creating Choro\npleth Maps",
+      "operation": "Lectures and Exercises",
+      "assignments": "Assignment 5: Completion of Ex\nercise Deliverables",
+      "minutes": "200min\n."
+    },
+    {
+      "index": "6th",
+      "content": "Data Visualization (2): Creating Point Data̵\n2;Converting Address Information into Map Points\n (Geocoding)",
+      "operation": "Lectures and Exercises",
+      "assignments": "Assignment 6: Completion of Ex\nercise Deliverables",
+      "minutes": "200min\n."
+    },
+    {
+      "index": "7th",
+      "content": "Fundamentals of Spatial Analysis (1): Buffer Ana\nlysis (Technique for extracting areas within a s\npecified radius from designated points).",
+      "operation": "Lectures and Exercises",
+      "assignments": "Assignment 7: Completion of Ex\nercise Deliverables",
+      "minutes": "200min\n."
+    },
+    {
+      "index": "8th",
+      "content": "Fundamentals of Spatial Analysis (2): Overlay An\nalysis—Visualizing Risks by Integrating Da\nta (e.g., Topography & Population, Shelters & Fl\nood Inundation Zones).",
+      "operation": "Lectures and Exercises",
+      "assignments": "Assignment 8: Completion of Ex\nercise Deliverables",
+      "minutes": "200min\n."
+    },
+    {
+      "index": "9th",
+      "content": "Session 9: [Case Study] Disaster Prevention and\nthe Environment\nIdentifying regional vulnerabilities by overlayi\nng hazard maps with demographic trends.",
+      "operation": "Lectures and Exercises",
+      "assignments": "Assignment 9: Completion of Ex\nercise Deliverables",
+      "minutes": "200min\n."
+    },
+    {
+      "index": "10th",
+      "content": "Session 10: [Case Study] Daily Life and Social W\nelfare\nAccessibility analysis of healthcare facilities\nand daily shopping (addressing the issue of \"sho\npping deserts\").",
+      "operation": "Lectures and Exercises",
+      "assignments": "Assignment 10: Completion of E\nxercise Deliverables",
+      "minutes": "200min\n."
+    },
+    {
+      "index": "11th",
+      "content": "Session 11: [Case Study] Society and the Environ\nment Examining the interactions between society\nand the environment by analyzing data on the rel\nationship between food and local regions.",
+      "operation": "Lectures and Exercises",
+      "assignments": "Assignment 11: Completion of E\nxercise Deliverables",
+      "minutes": "200min\n."
+    },
+    {
+      "index": "12th",
+      "content": "Final Project—Problem Definition and Analy\nsis\nStudents will select a social issue of personal\ninterest, plan the necessary data and analytical\n methods, and individually create analytical map\ns using GIS.",
+      "operation": "Group Work",
+      "assignments": "Completion of assigned tasks a\nnd responsibilities within gro\nup activities",
+      "minutes": "200min\n."
+    },
+    {
+      "index": "13th",
+      "content": "Interpreting Results and Creating Presentation S\nlides:Students will summarize key insights deriv\ned from their visualized maps and formulate evid\nence-based discussions to explain what the data\nreveals about social issues.",
+      "operation": "Group Work",
+      "assignments": "Completion of assigned tasks a\nnd responsibilities within gro\nup activities",
+      "minutes": "200min\n."
+    },
+    {
+      "index": "14th",
+      "content": "Session 14: Final Presentation Session\nStudents will present their analysis of social i\nssues and proposed directions for solutions, uti\nlizing the maps they have created.",
+      "operation": "Presentation and Q&A",
+      "assignments": "Completion of assigned tasks a\nnd responsibilities within gro\nup activities",
+      "minutes": "200min\n."
+    },
+    {
+      "index": "15th",
+      "content": "Final Review and Self-Assessment",
+      "operation": "Final Review and Self-Asse\nssment",
+      "assignments": "Class Contribution Survey",
+      "minutes": "200min\n."
+    }
+  ],
+  "rawText": "金沢工業大学　学習支援計画書　D123-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Environmental Design and Innovation\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                環境・空間調査分析法\n                Environmental and Spatial Survey Analysis\n\n              2\n              D123-01\n\n                2026年度\n\n                2nd year 2nd semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  ISHIHARA Masahiko\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Geographic Information Science\n2.Geospatial Information\n3.Geographic Information Systems\n4.Open Data\n5.Data Analysis\n\n              This course teaches fundamental GIS operations to visualize and analyze social conditions using open geospatial data. Students learn to identify regional challenges and examine society-environment interactions from a spatial perspective. The goal is for students to logically interpret data and provide evidence-based recommendations for contemporary social issues, fostering a practical, data-driven approach to problem-solving.\n\n              授業の概要および学習上の助言\n\n              Students should review statistics and social research methods to effectively utilize open data within GIS. Since the course relies on QGIS, bringing a personal laptop to every class is mandatory. This ensures full participation in practical data analysis and spatial visualization tasks.\n\n              教科書および参考書・リザーブドブック\n\n              Introduction to Spatial Data Analysis for Area Studies [Kokon Shoin]\n\n              履修に必要な予備知識や技能\n\n              Essential skills include basic PC operations like file management. Students must already understand e-Stat data extraction and Excel processing from \"Social Research Methods.\" While advanced math is unnecessary, a strong motivation to analyze social phenomena spatially is vital. Students should possess a foundational research mindset—forming hypotheses and logically analyzing issues using objective data. Curiosity to explore society's hidden layers through maps is highly valued.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                E\n                Students will be able to visualize statistical data appropriately using GIS and explain the relationships betwee\n\n                ②\n                G\n                Students will objectively identify social issues through geospatial information analysis, grasp their correlatio\n\n                ③\n                K\n                Students will analyze regional characteristics and needs using geospatial information and logically propose stra\n\n                ④\n\n                ⑤\n\n                ⑥\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                0\n\n                0\n\n                40\n\n                40\n\n                0\n\n                0\n\n                20\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                0\n\n                0\n\n                40\n\n                40\n\n                0\n\n                0\n\n                20\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                0\n\n                0\n\n                40\n\n                40\n\n                0\n\n                0\n\n                20\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  コラボレーションとリーダーシップ\n\n                    0\n\n                    0\n\n                    0\n\n      ",
+  "courseId": "2026:fall:D123-01:0:199",
+  "language": "en"
+}

@@ -1,0 +1,302 @@
+{
+  "sourceIndex": 236,
+  "sourceUrl": "/opsyllabus/kitos0110/236/1",
+  "importedAt": "2026-06-08T09:33:57.918Z",
+  "title": "メカトロニクス",
+  "subtitle": "Mechatronics",
+  "courseType": "Major ProgramMajor Courses",
+  "credits": "2",
+  "term": "2026年度\n\n                3rd year 1st semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "FURUYA Shigehiko\n授業科目の学習・教育目標"
+  ],
+  "keywords": [
+    "Mechatronics",
+    "sensor",
+    "servo motor",
+    "Computer",
+    "IoT(Internet of Things)"
+  ],
+  "educationalGoal": "Understand mechatronics, a multidisciplinary field of mechanical engineering, electrical engineering, and computer engineering.\nLearn sensor technology, principles of motors, and electrical and electronic circuits for sensors and motors.",
+  "advice": "Course Content\n\n1.Sensor Selection and Circuit Design\nStudents will learn how to interpret data sheets for various sensors and develop a deeper understanding of sensor circuits that interface with microcontrollers.\n\n2.DC Servo Motors and Control Circuits\nThe course will cover the characteristics and selection methods of DC servo motors, which serve as representative actuators in robotic systems, along with an in-depth study of motor control circuits.\n\n3.Mechanical Transmission and Motor Selection\nStudents will learn how to mathematically model mechanical transmission mechanisms and apply these models to select appropriate DC motors for specific applications.",
+  "books": "Textbooks: handout, Fundamentals of Mechatronics, Morikita Syuppan (in Japanese)\nReference books: None\nReserved books: None",
+  "requiredKnowledge": "Basic knowledge of electronic circuits, control engineering, and computer engineering.",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "K,M",
+      "body": "Be able to select sensors that meet the specified requirements."
+    },
+    {
+      "index": "②",
+      "type": "K,M",
+      "body": "Be able to select DC servo motors that meet the specified requirements."
+    },
+    {
+      "index": "③",
+      "type": "K,M",
+      "body": "Be able to design interface circuits and wiring diagrams to connect sensors and DC servo motors with microcontro"
+    },
+    {
+      "index": "④",
+      "type": "K,M",
+      "body": "Be able to conceptualize mechatronic devices based on given specifications."
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "30",
+        "20",
+        "30",
+        "0",
+        "0",
+        "5",
+        "15",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "30",
+        "20",
+        "30",
+        "0",
+        "0",
+        "5",
+        "15",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "30",
+        "20",
+        "30",
+        "0",
+        "0",
+        "5",
+        "15",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションとリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "(1) Appropriately select sensors and motors for making a new mechatronic system.\n(2) Design an interface circuit to connect sensors and actuators using microcomputers.",
+    "standard": "(1) Select sensors and DC motors for making a required mechatronic system.\n(2) Select IO ports of a microcomputer to connect sensors and DC motors."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Introduction",
+      "operation": "Lecture and practice",
+      "assignments": "Exercise",
+      "minutes": "200"
+    },
+    {
+      "index": "2",
+      "content": "Actuator #1\n- DC motor\n- AC motor",
+      "operation": "Lecture and practice",
+      "assignments": "Exercise",
+      "minutes": "200"
+    },
+    {
+      "index": "3",
+      "content": "Actuator #2\n- Stepping motor\n- Other actuators",
+      "operation": "Lecture and practice",
+      "assignments": "Exercise\nQuiz / Short Test #1",
+      "minutes": "200"
+    },
+    {
+      "index": "4",
+      "content": "Selection of DC Motor",
+      "operation": "Lecture and practice",
+      "assignments": "Exercise",
+      "minutes": "200"
+    },
+    {
+      "index": "5",
+      "content": "Mechanical Transmission Mechanisms\n- Gear mechanism\n- Belt and pulley mechanism\n- Ball screw mechanism\n- Other mechanisms",
+      "operation": "Lecture and practice",
+      "assignments": "Exercise",
+      "minutes": "200"
+    },
+    {
+      "index": "6",
+      "content": "Examination\nSummary of learning on mechatronic devices",
+      "operation": "Lecture and practice",
+      "assignments": "Examination: Content from Sess\nions 1 to 5\nExercise\nReport #1",
+      "minutes": "200"
+    },
+    {
+      "index": "7",
+      "content": "Sensor #1",
+      "operation": "Lecture and practice",
+      "assignments": "Exercise",
+      "minutes": "200"
+    },
+    {
+      "index": "8",
+      "content": "Sensor #2",
+      "operation": "Lecture and practice",
+      "assignments": "Exercise",
+      "minutes": "200"
+    },
+    {
+      "index": "9",
+      "content": "Sensor #3",
+      "operation": "Lecture and practice",
+      "assignments": "Exercise",
+      "minutes": "200"
+    },
+    {
+      "index": "10",
+      "content": "Sensor #4",
+      "operation": "Lecture and practice",
+      "assignments": "Exercise\nQuiz / Short Test #2\nReport #2",
+      "minutes": "200"
+    },
+    {
+      "index": "11",
+      "content": "- Electronic circuit components and their applic\nations\n- Controllers and their peripheral devices",
+      "operation": "Lecture and practice",
+      "assignments": "Examination: Content from Sess\nions 7 to 11\nExercise",
+      "minutes": "200"
+    },
+    {
+      "index": "12",
+      "content": "Examination\nSelection of motor driver",
+      "operation": "Lecture and practice",
+      "assignments": "Exercise",
+      "minutes": "200"
+    },
+    {
+      "index": "13",
+      "content": "Design of Mechanical Mechanisms #1",
+      "operation": "Lecture and practice",
+      "assignments": "Exercise\nQuiz / Short Test #3\nReport #3",
+      "minutes": "200"
+    },
+    {
+      "index": "14",
+      "content": "Design of Mechanical Mechanisms #2\nSummary of learning on mechatronic devices",
+      "operation": "Lecture and practice",
+      "assignments": "Exercise",
+      "minutes": "200"
+    },
+    {
+      "index": "15",
+      "content": "Review and summary",
+      "operation": "Lecture and Self-evaluatio\nn",
+      "assignments": "",
+      "minutes": "200"
+    }
+  ],
+  "rawText": "金沢工業大学　学習支援計画書　E227-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Robotics(〜2024)\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                メカトロニクス\n                Mechatronics\n\n              2\n              E227-01\n\n                2026年度\n\n                3rd year 1st semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  FURUYA Shigehiko\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Mechatronics\n2.sensor\n3.servo motor\n4.Computer\n5.IoT(Internet of Things)\n\n              Understand mechatronics, a multidisciplinary field of mechanical engineering, electrical engineering, and computer engineering.\nLearn sensor technology, principles of motors, and electrical and electronic circuits for sensors and motors.\n\n              授業の概要および学習上の助言\n\n              Course Content\n\n1.Sensor Selection and Circuit Design\nStudents will learn how to interpret data sheets for various sensors and develop a deeper understanding of sensor circuits that interface with microcontrollers.\n\n2.DC Servo Motors and Control Circuits\nThe course will cover the characteristics and selection methods of DC servo motors, which serve as representative actuators in robotic systems, along with an in-depth study of motor control circuits.\n\n3.Mechanical Transmission and Motor Selection\nStudents will learn how to mathematically model mechanical transmission mechanisms and apply these models to select appropriate DC motors for specific applications.\n\n              教科書および参考書・リザーブドブック\n\n              Textbooks: handout, Fundamentals of Mechatronics, Morikita Syuppan (in Japanese)\nReference books: None\nReserved books: None\n\n              履修に必要な予備知識や技能\n\n              Basic knowledge of electronic circuits, control engineering, and computer engineering.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                K,M\n                Be able to select sensors that meet the specified requirements.\n\n                ②\n                K,M\n                Be able to select DC servo motors that meet the specified requirements.\n\n                ③\n                K,M\n                Be able to design interface circuits and wiring diagrams to connect sensors and DC servo motors with microcontro\n\n                ④\n                K,M\n                Be able to conceptualize mechatronic devices based on given specifications.\n\n                ⑤\n\n                ⑥\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                30\n\n                20\n\n                30\n\n                0\n\n                0\n\n                5\n\n                15\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                30\n\n                20\n\n                30\n\n                0\n\n                0\n\n                5\n\n                15\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                30\n\n                20\n\n                30\n\n                0\n\n                0\n\n                5\n\n                15\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  コラボレーションとリーダーシップ\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  発表・表現・伝達する力\n\n                    0\n\n                    0\n\n                    0\n\n            ",
+  "courseId": "2026:spring:E227-01:0:236",
+  "language": "en"
+}

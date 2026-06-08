@@ -119,10 +119,35 @@ const secondaryDetail = await evaluate(
   }))()`,
 );
 
+await tab.send("Page.navigate", { url: BASE + "/courses/2026/spring/M004-01?lang=en" });
+await waitLoad(tab);
+await sleep(1500);
+const englishDetail = await evaluate(
+  tab,
+  `(() => ({
+    h1: document.querySelector('h1')?.innerText,
+    hasEnglishHeading: document.body.innerText.includes('Course Schedule'),
+    hasEnglishToggle: document.body.innerText.includes('English'),
+    url: location.pathname + location.search
+  }))()`,
+);
+
+await tab.send("Page.navigate", { url: BASE + "/courses/2026/spring/G001-01?lang=en" });
+await waitLoad(tab);
+await sleep(1500);
+const missingEnglishDetail = await evaluate(
+  tab,
+  `(() => ({
+    h1: document.querySelector('h1')?.innerText,
+    hasMissingMessage: document.body.innerText.includes('英語シラバス本文は取得データ内で確認できませんでした'),
+    url: location.pathname + location.search
+  }))()`,
+);
+
 await tab.send("Page.captureScreenshot", { format: "png", captureBeyondViewport: false }).then(async (shot) => {
   const fs = await import("node:fs/promises");
   await fs.writeFile("verification-detail.png", Buffer.from(shot.data, "base64"));
 });
 
 tab.close();
-console.log(JSON.stringify({ home, filtered, detail, secondaryDetail }, null, 2));
+console.log(JSON.stringify({ home, filtered, detail, secondaryDetail, englishDetail, missingEnglishDetail }, null, 2));

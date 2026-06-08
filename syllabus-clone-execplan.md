@@ -18,6 +18,7 @@ The current Kanazawa Institute of Technology syllabus site can show a syllabus, 
 - [x] (2026-06-08 09:22Z) Validated with a production build and a Chrome DevTools Protocol local browser check.
 - [x] (2026-06-08 10:05Z) Scraped and generated all 1056 detail pages as split JSON assets under `public/details`.
 - [x] (2026-06-08 10:15Z) Fixed lesson parsing for numeric lesson rows such as `１`, then regenerated all details.
+- [x] (2026-06-08 10:45Z) Added English syllabus scraping, split English JSON assets, and `?lang=en` language switching while keeping the path ending in course code.
 
 ## Surprises & Discoveries
 
@@ -35,6 +36,8 @@ The current Kanazawa Institute of Technology syllabus site can show a syllabus, 
   Evidence: `G001-01` used labels like `第１回`, while `G003-01 技術者と持続可能社会` used numeric labels like `１`; parsing by the `nth` cell class increased lesson extraction from 152 courses to 1046 courses.
 - Observation: All full detail pages were fetched without HTTP or parser errors.
   Evidence: `scripts/scrape-details-cdp.mjs` finished with `Finished detail scrape: 1056/1056; errors=0`.
+- Observation: English syllabus pages are not available for every captured course.
+  Evidence: Running `LANGUAGE_TYPE=1 scripts/scrape-details-cdp.mjs` finished with `Finished detail scrape: 1056/1056; errors=45`; generated English detail assets count is 1011.
 
 ## Decision Log
 
@@ -56,10 +59,13 @@ The current Kanazawa Institute of Technology syllabus site can show a syllabus, 
 - Decision: Store full syllabus details as split JSON files under `public/details` rather than embedding every detail in the JavaScript bundle.
   Rationale: The list page should load the searchable course summaries immediately, while long syllabus bodies should be fetched only when a user opens a detail page.
   Date/Author: 2026-06-08 / Codex
+- Decision: Represent English detail pages as `?lang=en`, for example `/courses/2026/spring/M004-01?lang=en`, instead of adding `/en` to the path.
+  Rationale: The user asked for URLs that end with the course code. A query parameter preserves that path shape while still making the language-specific view shareable.
+  Date/Author: 2026-06-08 / Codex
 
 ## Outcomes & Retrospective
 
-The React clone now exists as an independent repository in `kit-syllabus-clone`. It imports 1056 captured course summaries, renders a searchable list, and opens detail pages at code-ending URLs such as `/courses/2026/spring/G001-01` and `/courses/2026/spring/M004-01`. Full detail JSON was generated for all 1056 courses. Production build validation passes. Lesson schedules were extracted for 1046 courses; 10 courses have detail pages and core text but no parsed lesson schedule in the current extractor.
+The React clone now exists as an independent repository in `kit-syllabus-clone`. It imports 1056 captured course summaries, renders a searchable list, and opens detail pages at code-ending URLs such as `/courses/2026/spring/G001-01` and `/courses/2026/spring/M004-01`. Full Japanese detail JSON was generated for all 1056 courses. English detail JSON was generated for 1011 courses and is available through `?lang=en`. Production build validation passes. Lesson schedules were extracted for 1046 Japanese courses and 976 English courses; the remaining detail pages still include core text but no parsed lesson schedule in the current extractor.
 
 ## Context and Orientation
 
@@ -106,6 +112,8 @@ Expected commands:
     cd C:\Users\Kikakuiin\Desktop\codex-workspace\kit-syllabus-clone
     bun install
     bun run scrape-details
+    $env:LANGUAGE_TYPE='1'; bun run scrape-details
+    Remove-Item Env:LANGUAGE_TYPE
     bun run prepare-data
     bun run build
     bun run dev -- --host 127.0.0.1
@@ -150,3 +158,5 @@ Revision note, 2026-06-08: Initial plan created before implementation to satisfy
 Revision note, 2026-06-08: Updated after implementation to record Bun usage, CDP verification, successful build evidence, and the current limitation that only one full detail page has been imported.
 
 Revision note, 2026-06-08: Updated after the follow-up request for detail pages and course-code-ending URLs. The plan now records the full detail scrape, split JSON asset design, lesson parser fix, and final validation results.
+
+Revision note, 2026-06-08: Updated after the English syllabus implementation. The plan now records `?lang=en`, English scrape counts, and validation of both existing and missing English detail pages.

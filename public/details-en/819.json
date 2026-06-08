@@ -1,0 +1,307 @@
+{
+  "sourceIndex": 819,
+  "sourceUrl": "/opsyllabus/kitos0110/819/1",
+  "importedAt": "2026-06-08T09:34:10.037Z",
+  "title": "航空材料力学Ⅰ",
+  "subtitle": "Mechanics of Materials for Aeronautics I",
+  "courseType": "Major ProgramMajor Courses",
+  "credits": "2",
+  "term": "2026年度\n\n                2nd year 2nd semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "YOSHIDA Keishiro\n授業科目の学習・教育目標"
+  ],
+  "keywords": [
+    "Torsion",
+    "Stress and strain relationship",
+    "Normal and shear stresses",
+    "Principal stresses",
+    "Mohr's stress circle"
+  ],
+  "educationalGoal": "Students will learn:\n(1) Bars with circular cross section under torsional moment\n(2) Stress-strain relationship for 3D elastic body and elastic\n    bodies under plane-stress or plane-strain conditions\n(3) Normal and shear stresses on an arbitrary cross section of\n    slender bar under uniaxial tensile load\n(4) Combined stress problem",
+  "advice": "On the basis of 'Industrial Mechanics' and 'Strength of Materials', students will study advanced topics\nin Strength of Materials.\nWe will cover the following materials:\n\n(1) Torsion of bars with circular cross section\n(2) Relationship between stress and strain (for 3D elastic body or 2D elastic body under plane-stress\n    or plane-strain)\n(3) Normal and shear stresses on an arbitrary cross section of slender bar under uniaxial tensile load\n(4) Combined stress problem (principal stresses and principal shear stress, Mohr's stress circle)\n\nStudents should thoroughly review what they have learned in  'Industrial Mechanics' and\n'Strength of Materials' before taking this course.",
+  "books": "Required materials will be specified in the first lesson.",
+  "requiredKnowledge": "Basic knowledge of industrial mechanics and mechanics of materials.",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "D,K",
+      "body": "Be able to calculate torsional stiffness and shear stress of bars with circular cross sections"
+    },
+    {
+      "index": "②",
+      "type": "D,K",
+      "body": "Be able to express the relationship between stresses and strains for plane-stress and plane-strain"
+    },
+    {
+      "index": "③",
+      "type": "D,K",
+      "body": "Be able to calculate normal and shear stresses on an arbitrary cross section of slender bar under tension"
+    },
+    {
+      "index": "④",
+      "type": "D,K",
+      "body": "Be able to calculate principal stresses and principal shear stress of thin flat plate under in-plane load"
+    },
+    {
+      "index": "⑤",
+      "type": "D,K",
+      "body": "Be able to draw the Mohr's stress circle and obtain principal stress and principal shear stress from it"
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "40",
+        "60",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "40",
+        "60",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "40",
+        "60",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションとリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "(1) Accurately calculate the torsional stiffness and\n    the torsional stress of bars with circular\n    cross section\n(2) Express the relationship between stresses and\n    strains for plane-stress and plane-strain\n(3) Accurately calculate normal and shear stresses\n    on an arbitrary cross section of slender bar\n(4) Accurately calculate principal stresses and\n    principal shear stress\n(5) Draw the Mohr's stress circle and obtain\n    principal stress and principal shear stress\n    from it",
+    "standard": "(1) Calculate the torsional stiffness of bars with\n    circular cross section\n(2) Explain the difference between stresses and\n    strains for plane-stress and plane-strain\n(3) Calculate normal and shear stresses on an\n    arbitrary cross section of slender bar under\n    uniaxial tensile load\n(4) Explain the meaning of technical terms 'principal\n    stresses' and ‘principal shear stress’\n(5) Draw the Mohr's stress circle"
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Course introduction Features of the\naircraft structure\nTorsion of bars with circular cross\nsection #1",
+      "operation": "Lecture and practice\nSelf-check",
+      "assignments": "Review class content",
+      "minutes": "40"
+    },
+    {
+      "index": "2",
+      "content": "Torsion of bars with circular cross\nsection #2",
+      "operation": "Lecture and practice\nSelf-check",
+      "assignments": "Read textbook sec. 4.1\nReview class content",
+      "minutes": "20\n40"
+    },
+    {
+      "index": "3",
+      "content": "Torsion of bars with circular cross\nsection #3",
+      "operation": "Lecture and practice\nSelf-check",
+      "assignments": "Read textbook sec. 4.1\nReview class content",
+      "minutes": "20\n40"
+    },
+    {
+      "index": "4",
+      "content": "Relationship between stress and\nstrain #1",
+      "operation": "Lecture and practice\nSelf-check",
+      "assignments": "Read textbook sec. 5.3.1\nReview class content",
+      "minutes": "20\n40"
+    },
+    {
+      "index": "5",
+      "content": "Relationship between stress and\nstrain #2",
+      "operation": "Lecture and practice\nSelf-check",
+      "assignments": "Read textbook sec. 5.3.2\nReview class content",
+      "minutes": "20\n40"
+    },
+    {
+      "index": "6",
+      "content": "Relationship between stress and\nstrain #3",
+      "operation": "Lecture and practice\nSelf-check",
+      "assignments": "Read textbook sec. 5.3.3\nReview class content",
+      "minutes": "20\n40"
+    },
+    {
+      "index": "7",
+      "content": "Normal and shear stresses on an\narbitrary cross section of slender\nbar under longitudinal tension #1",
+      "operation": "Lecture and practice\nSelf-check",
+      "assignments": "Read textbook sec. 5.1\nReview class content",
+      "minutes": "20\n40"
+    },
+    {
+      "index": "8",
+      "content": "Normal and shear stresses on an\narbitrary cross section of slender\nbar under longitudinal tension #2",
+      "operation": "Lecture and practice\nSelf-check",
+      "assignments": "Read textbook sec. 5.1\nReview class content",
+      "minutes": "20\n40"
+    },
+    {
+      "index": "9",
+      "content": "Self-reflection (class)\nNormal and shear stresses",
+      "operation": "Lecture and practice\nSelf-check",
+      "assignments": "Review first half of this\ncourse\nRead textbook sec. 5.2.1\nReview class content",
+      "minutes": "20\n\n20\n40"
+    },
+    {
+      "index": "10",
+      "content": "Principal stress and Principal\nshear stress #1",
+      "operation": "Lecture and practice\nSelf-check",
+      "assignments": "Read textbook sec. 5.2.2\nReview class content",
+      "minutes": "20\n40"
+    },
+    {
+      "index": "11",
+      "content": "Principal stress and Principal\nshear stress #2",
+      "operation": "Lecture and practice\nSelf-check",
+      "assignments": "Read textbook sec. 5.2.2\nReview class content",
+      "minutes": "20\n40"
+    },
+    {
+      "index": "12",
+      "content": "Mohr's stress circle #1",
+      "operation": "Lecture and practice\nSelf-check",
+      "assignments": "Read textbook sec. 5.2.3\nReview class content",
+      "minutes": "20\n40"
+    },
+    {
+      "index": "13",
+      "content": "Mohr's stress circle #2",
+      "operation": "Lecture and practice\nSelf-check",
+      "assignments": "Read textbook sec. 5.2.3\nReview class content",
+      "minutes": "20\n40"
+    },
+    {
+      "index": "14",
+      "content": "Self-reflection (class)\nTest",
+      "operation": "Lecture and practice\nTest",
+      "assignments": "Review 2nd half of this\ncourse\nPrepare for test",
+      "minutes": "20\n\n100"
+    },
+    {
+      "index": "15",
+      "content": "Integrated learning\nSelf-evaluation",
+      "operation": "Lecture and practice\nSelf-evaluation",
+      "assignments": "Self-evaluation on\nachievement in this subject",
+      "minutes": "40"
+    }
+  ],
+  "rawText": "金沢工業大学　学習支援計画書　K215-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Aeronautics and Astronautics\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                航空材料力学Ⅰ\n                Mechanics of Materials for Aeronautics I\n\n              2\n              K215-01\n\n                2026年度\n\n                2nd year 2nd semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  YOSHIDA Keishiro\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Torsion\n2.Stress and strain relationship\n3.Normal and shear stresses\n4.Principal stresses\n5.Mohr's stress circle\n\n              Students will learn:\n(1) Bars with circular cross section under torsional moment\n(2) Stress-strain relationship for 3D elastic body and elastic\n    bodies under plane-stress or plane-strain conditions\n(3) Normal and shear stresses on an arbitrary cross section of\n    slender bar under uniaxial tensile load\n(4) Combined stress problem\n\n              授業の概要および学習上の助言\n\n              On the basis of 'Industrial Mechanics' and 'Strength of Materials', students will study advanced topics\nin Strength of Materials.\nWe will cover the following materials:\n\n(1) Torsion of bars with circular cross section\n(2) Relationship between stress and strain (for 3D elastic body or 2D elastic body under plane-stress\n    or plane-strain)\n(3) Normal and shear stresses on an arbitrary cross section of slender bar under uniaxial tensile load\n(4) Combined stress problem (principal stresses and principal shear stress, Mohr's stress circle)\n\nStudents should thoroughly review what they have learned in  'Industrial Mechanics' and\n'Strength of Materials' before taking this course.\n\n              教科書および参考書・リザーブドブック\n\n              Required materials will be specified in the first lesson.\n\n              履修に必要な予備知識や技能\n\n              Basic knowledge of industrial mechanics and mechanics of materials.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                D,K\n                Be able to calculate torsional stiffness and shear stress of bars with circular cross sections\n\n                ②\n                D,K\n                Be able to express the relationship between stresses and strains for plane-stress and plane-strain\n\n                ③\n                D,K\n                Be able to calculate normal and shear stresses on an arbitrary cross section of slender bar under tension\n\n                ④\n                D,K\n                Be able to calculate principal stresses and principal shear stress of thin flat plate under in-plane load\n\n                ⑤\n                D,K\n                Be able to draw the Mohr's stress circle and obtain principal stress and principal shear stress from it\n\n                ⑥\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                40\n\n                60\n\n                0\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                40\n\n                60\n\n                0\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                40\n\n                60\n\n                0\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n        ",
+  "courseId": "2026:fall:K215-01:0:819",
+  "language": "en"
+}

@@ -1,0 +1,312 @@
+{
+  "sourceIndex": 131,
+  "sourceUrl": "/opsyllabus/kitos0110/131/1",
+  "importedAt": "2026-06-08T09:33:55.818Z",
+  "title": "システムモデリング",
+  "subtitle": "Systems Modeling",
+  "courseType": "Major ProgramMajor Courses",
+  "credits": "2",
+  "term": "2026年度\n\n                2nd year 2nd semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "TOKUNAGA Yuichi\n授業科目の学習・教育目標"
+  ],
+  "keywords": [
+    "System Design",
+    "Systems Thinking",
+    "Conceptual Modeling",
+    "UML",
+    "Object Diagram"
+  ],
+  "educationalGoal": "Students will learn:\n(1) how to grasp complex systems correctly.\n(2) how to describe conceptual models using UML diagrams.\n(3) how to improve the system using the model.",
+  "advice": "To grasp complex systems correctly, the following three abilities are required :\n  1. The ability to view the system in two levels (concept level and implementation level).\n  2. The ability to view the system from three aspects (static, functional, and dynamic).\n  3. The ability to visualize the structure and behavior of the system with appropriate expressions.\n\nIn the first half of the class, students will learn 1 and 2 through lectures and quizzes, and in the second half, they will learn 3 through exercises.\n\nIn 3, students use PC to draw UML diagrams.\nAs the drawing software, astah* will be used. The installing will be instructed in the class.",
+  "books": "Textbook : The Introduction to UML Modeling, Nikkei-BP (Japanese book)",
+  "requiredKnowledge": "Knowledge of any model diagram (Not required)",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "J",
+      "body": "Be able to explain \"class\" and \"instance\"."
+    },
+    {
+      "index": "②",
+      "type": "J",
+      "body": "Be able to explain \"three facets\" and associate UML diagrams."
+    },
+    {
+      "index": "③",
+      "type": "D,E,J",
+      "body": "Be able to draw UML diagrams of a simple system."
+    },
+    {
+      "index": "④",
+      "type": "D,E,G,J",
+      "body": "Be able to design specific requirements and draw the concept model."
+    },
+    {
+      "index": "⑤",
+      "type": "D,E,J",
+      "body": "Be able to understand system behavior from UML diagrams."
+    },
+    {
+      "index": "⑥",
+      "type": "D,E,G,J",
+      "body": "Be able to pick up problems and improve systems."
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "0",
+        "20",
+        "40",
+        "30",
+        "0",
+        "0",
+        "10",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "0",
+        "20",
+        "40",
+        "30",
+        "0",
+        "0",
+        "10",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "0",
+        "20",
+        "40",
+        "30",
+        "0",
+        "0",
+        "10",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションとリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "1) Design requirements and draw the concept model.\n2) Understand system behavior from UML diagrams.\n3) Pick up problems and improve systems.",
+    "standard": "1) Grasp complex system.\n2) Describe business processes in a data-flow diagram.\n3) Calculate the cost reduction of improved processes."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Course introduction\nWhat a model expresses (1)",
+      "operation": "Lecture and quizzes",
+      "assignments": "Completion of quizzes\nReread of the textbook",
+      "minutes": "120"
+    },
+    {
+      "index": "2",
+      "content": "What a model expresses (2)",
+      "operation": "Lecture and quizzes",
+      "assignments": "Completion of quizzes\nReread of the textbook",
+      "minutes": "240"
+    },
+    {
+      "index": "3",
+      "content": "Basic knowledge of UML",
+      "operation": "Lecture and quizzes",
+      "assignments": "Completion of quizzes\nReread of the textbook",
+      "minutes": "240"
+    },
+    {
+      "index": "4",
+      "content": "Static modeling,\n  concept and class",
+      "operation": "Lecture and exercise",
+      "assignments": "Completion of the textbook\nexercises\nRedraw of UML diagrams",
+      "minutes": "300"
+    },
+    {
+      "index": "5",
+      "content": "Static modeling,\n  relations",
+      "operation": "Lecture and exercise",
+      "assignments": "Completion of the textbook\nexercises\nRedraw of UML diagrams",
+      "minutes": "300"
+    },
+    {
+      "index": "6",
+      "content": "Static modeling,\n  instance constructions",
+      "operation": "Lecture and exercise",
+      "assignments": "Completion of the textbook\nexercises\nRedraw of UML diagrams",
+      "minutes": "300"
+    },
+    {
+      "index": "7",
+      "content": "Static modeling,\n  highly relations",
+      "operation": "Lecture and exercise",
+      "assignments": "Completion of the textbook\nexercises\nRedraw of UML diagrams",
+      "minutes": "300"
+    },
+    {
+      "index": "8",
+      "content": "Summary of static modeling",
+      "operation": "Small test",
+      "assignments": "Self-reflection",
+      "minutes": "240"
+    },
+    {
+      "index": "9",
+      "content": "Review\nModeling exercise",
+      "operation": "Lecture and exercise",
+      "assignments": "Submission of the report\nRedraw of UML diagrams",
+      "minutes": "360"
+    },
+    {
+      "index": "10",
+      "content": "Dynamic modeling,\n  state-machine diagram\n  activity diagram",
+      "operation": "Lecture and exercise",
+      "assignments": "Completion of the textbook\nexercises\nRedraw of UML diagrams",
+      "minutes": "240"
+    },
+    {
+      "index": "11",
+      "content": "Dynamic modeling,\n  use-case diagram",
+      "operation": "Lecture and exercise",
+      "assignments": "Completion of the textbook\nexercises\nRedraw of UML diagrams",
+      "minutes": "300"
+    },
+    {
+      "index": "12",
+      "content": "Comprehensive exercise",
+      "operation": "Exercise",
+      "assignments": "Submission of the exercise\nprogress report",
+      "minutes": "300"
+    },
+    {
+      "index": "13",
+      "content": "Comprehensive exercise",
+      "operation": "Exercise",
+      "assignments": "Submission of presentation\nmaterials",
+      "minutes": "240"
+    },
+    {
+      "index": "14",
+      "content": "Presentation",
+      "operation": "Presentation\nDiscussion\nReflection",
+      "assignments": "Self-reflection",
+      "minutes": "120"
+    },
+    {
+      "index": "15",
+      "content": "Presentation",
+      "operation": "Presentation\nDiscussion\nReflection\nQuestionnaire",
+      "assignments": "Self-evaluation",
+      "minutes": "60"
+    }
+  ],
+  "rawText": "金沢工業大学　学習支援計画書　D018-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Management Systems\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                システムモデリング\n                Systems Modeling\n\n              2\n              D018-01\n\n                2026年度\n\n                2nd year 2nd semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  TOKUNAGA Yuichi\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.System Design\n2.Systems Thinking\n3.Conceptual Modeling\n4.UML\n5.Object Diagram\n\n              Students will learn:\n(1) how to grasp complex systems correctly.\n(2) how to describe conceptual models using UML diagrams.\n(3) how to improve the system using the model.\n\n              授業の概要および学習上の助言\n\n              To grasp complex systems correctly, the following three abilities are required :\n  1. The ability to view the system in two levels (concept level and implementation level).\n  2. The ability to view the system from three aspects (static, functional, and dynamic).\n  3. The ability to visualize the structure and behavior of the system with appropriate expressions.\n\nIn the first half of the class, students will learn 1 and 2 through lectures and quizzes, and in the second half, they will learn 3 through exercises.\n\nIn 3, students use PC to draw UML diagrams.\nAs the drawing software, astah* will be used. The installing will be instructed in the class.\n\n              教科書および参考書・リザーブドブック\n\n              Textbook : The Introduction to UML Modeling, Nikkei-BP (Japanese book)\n\n              履修に必要な予備知識や技能\n\n              Knowledge of any model diagram (Not required)\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                J\n                Be able to explain \"class\" and \"instance\".\n\n                ②\n                J\n                Be able to explain \"three facets\" and associate UML diagrams.\n\n                ③\n                D,E,J\n                Be able to draw UML diagrams of a simple system.\n\n                ④\n                D,E,G,J\n                Be able to design specific requirements and draw the concept model.\n\n                ⑤\n                D,E,J\n                Be able to understand system behavior from UML diagrams.\n\n                ⑥\n                D,E,G,J\n                Be able to pick up problems and improve systems.\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                0\n\n                20\n\n                40\n\n                30\n\n                0\n\n                0\n\n                10\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                0\n\n                20\n\n                40\n\n                30\n\n                0\n\n                0\n\n                10\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                0\n\n                20\n\n                40\n\n                30\n\n                0\n\n                0\n\n                10\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  コラボレーションとリーダーシップ\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  発表・表現・伝達する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0",
+  "courseId": "2026:fall:D018-01:0:131",
+  "language": "en"
+}

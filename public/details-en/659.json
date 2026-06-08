@@ -1,0 +1,307 @@
+{
+  "sourceIndex": 659,
+  "sourceUrl": "/opsyllabus/kitos0110/659/1",
+  "importedAt": "2026-06-08T09:34:06.523Z",
+  "title": "化学コンピュータ演習",
+  "subtitle": "Computer Practice for Chemistry",
+  "courseType": "Major ProgramMajor Courses",
+  "credits": "2",
+  "term": "2026年度\n\n                3rd year 1st semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "TANIGUCHI Masahiro\n授業科目の学習・教育目標"
+  ],
+  "keywords": [
+    "Spreadsheet",
+    "Chemical computing",
+    "Physical chemistry",
+    "Chemical engineering",
+    "Programming"
+  ],
+  "educationalGoal": "Students will:\n(1) use a personal computer for data analysis in chemistry, engineering  (manufacturing).\n(2) use spreadsheet software to increase the efficiency of data analysis.\n(3) learn how to solve problems in chemistry and engineering and enhance your understanding of chemistry and engineering.\n(4) learn the basics of programming utilizing artificial intelligence.",
+  "advice": "The course will cover:\n1. Document preparation, including chemical formulas and crystal structures.\n2. Basic knowledge about spreadsheet software, including plotting and visualization of numerical data.\n3. Numerical simulations in physical chemistry and chemical engineering.\n4. Numerical technique and utilities for finding solutions.\n5. Programming in BASIC computer language.\n\nStudents are expected to bring their personal computer to every class.\nBe sure that the computer works well before the beginning of the semester.\nStudents are expected to check for messages/materials on the KIT Inside website before every class.",
+  "books": "Not specified.",
+  "requiredKnowledge": "Install the specified application (freeware, database access) on your PC before class begins.",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "I,J,L,Q,S",
+      "body": "Prepare a document with chemical structural formulas"
+    },
+    {
+      "index": "②",
+      "type": "I,J,L,Q,S",
+      "body": "Analyze experimental data using a spreadsheet"
+    },
+    {
+      "index": "③",
+      "type": "I,J,L,Q,S",
+      "body": "Explain the basic concepts of programming and data manipulation"
+    },
+    {
+      "index": "④",
+      "type": "I,J,L,Q,S",
+      "body": "Find solutions to problems in physical chemistry and chemical engineering using the PC"
+    },
+    {
+      "index": "⑤",
+      "type": "I,J,L,Q,S",
+      "body": "Find chemical information using the Internet and a database"
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "30",
+        "0",
+        "50",
+        "0",
+        "0",
+        "0",
+        "20",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "30",
+        "0",
+        "50",
+        "0",
+        "0",
+        "0",
+        "20",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "30",
+        "0",
+        "50",
+        "0",
+        "0",
+        "0",
+        "20",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションとリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "(1) Can prepare well-formed documents with chemical structural formulas.\n(2) Can correctly perform chemistry and engineering calculations with a PC.\n(3) Can prepare a useful program in BASIC.",
+    "standard": "(1) Can prepare documents with chemical structural formulas.\n(2) Can perform simple calculations in chemistry and engineering using a PC.\n(3) Can prepare a small program in BASIC."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Guidance for the course\n(Announcements about software, PC, etc.)",
+      "operation": "Lecture",
+      "assignments": "Check your PC and software.\nAccess the Internet and\ndownload and install\nspecified freeware.",
+      "minutes": "100"
+    },
+    {
+      "index": "2",
+      "content": "Drawing of chemical formulas and structural\nformulas using PC.",
+      "operation": "Lecture (Demonstration),\nPractice, and Quiz",
+      "assignments": "Read the relevant section of\nthe general or organic\nchemistry textbook beforehand\nand be able to do the\nexercises.",
+      "minutes": "90\n\n90"
+    },
+    {
+      "index": "3",
+      "content": "Basic operations of spreadsheet software.\nDo the exercises of data plotting and\nvisualization with the spreadsheet.",
+      "operation": "Lecture (Demonstration),\nPractice, and Quiz",
+      "assignments": "Read the relevant section of\nthe physical chemistry\ntextbook beforehand and be\nable to do the exercises.",
+      "minutes": "90\n\n180"
+    },
+    {
+      "index": "4",
+      "content": "Applications for Physical Chemistry 1\n(equation of perfect gas, compression factor)",
+      "operation": "Lecture (Demonstration),\nPractice, and Quiz",
+      "assignments": "Read the relevant section of\nthe physical chemistry\ntextbook beforehand and be\nable to do the exercises.",
+      "minutes": "180\n\n180"
+    },
+    {
+      "index": "5",
+      "content": "Applications for Physical Chemistry 2\n(thermodynamics, phase equilibrium)",
+      "operation": "Lecture (Demonstration),\nPractice, and Quiz",
+      "assignments": "Read the relevant section of\nthe physical chemistry\ntextbook beforehand and be\nable to do the exercises.",
+      "minutes": "180\n\n180"
+    },
+    {
+      "index": "6",
+      "content": "Applications for physical chemistry 3\n(electrochemistry)",
+      "operation": "Lecture (Demonstration),\nPractice, and Quiz",
+      "assignments": "Read the relevant section of\nthe physical chemistry\ntextbook beforehand and be\nable to do the exercises.",
+      "minutes": "90\n\n180"
+    },
+    {
+      "index": "7",
+      "content": "Applications for Physical Chemistry 4\n(SI units, dimension analysis, unit conversion,\nmaterial balance)",
+      "operation": "Lecture (Demonstration),\nPractice, and Quiz",
+      "assignments": "Read the relevant section of\nthe chemical engineering\ntextbook beforehand and be\nable to do the exercises.",
+      "minutes": "90\n\n180"
+    },
+    {
+      "index": "8",
+      "content": "Applications for Physical Chemistry 5\n(chemical equilibrium, reaction kinetics)",
+      "operation": "Lecture (Demonstration),\nPractice, and Quiz",
+      "assignments": "Read the relevant section of\nthe chemical engineering\ntextbook beforehand and be\nable to do the exercises.",
+      "minutes": "90\n\n180"
+    },
+    {
+      "index": "9",
+      "content": "Advanced use of Excel Spreadsheet 1\n (Goal Seek, Solver, Cell functions)",
+      "operation": "Lecture (Demonstration),\nPractice, and Quiz",
+      "assignments": "Read the materials delivered\nin the class beforehand and\nbe able to do the exercises.",
+      "minutes": "90\n\n180"
+    },
+    {
+      "index": "10",
+      "content": "Advanced use of Excel spreadsheet 2\n (Complex value, Matrix operation)",
+      "operation": "Lecture (Demonstration),\nPractice, and Quiz",
+      "assignments": "Read the materials delivered\nin the class beforehand and\nbe able to do the exercises.",
+      "minutes": "90\n\n180"
+    },
+    {
+      "index": "11",
+      "content": "Advanced use of Excel spreadsheet 3\n (Functions, Procedures in VBA macro)",
+      "operation": "Lecture (Demonstration),\nPractice, and Quiz",
+      "assignments": "Read the materials delivered\nin the class beforehand and\nbe able to do the exercises.",
+      "minutes": "90\n\n180"
+    },
+    {
+      "index": "12",
+      "content": "Programming in Excel-VBA 1\n  Data type, function and procedure, parameter",
+      "operation": "Lecture (Demonstration),\nPractice, and Quiz",
+      "assignments": "Read the materials delivered\nin the class beforehand and\nbe able to do the exercises.",
+      "minutes": "90\n\n180"
+    },
+    {
+      "index": "13",
+      "content": "Programming in Excel-VBA 2\n  (Control structure, loop, judgment)",
+      "operation": "Lecture (Demonstration),\nPractice, and Quiz",
+      "assignments": "Read the materials delivered\nin the class beforehand and\nbe able to do the exercises.",
+      "minutes": "90\n\n180"
+    },
+    {
+      "index": "14",
+      "content": "Database access and search for scientific\ninformation",
+      "operation": "Lecture (Demonstration),\nPractice, and Quiz",
+      "assignments": "Pick up the relevant topics\nand keywords from the\nPreparatory\nSeminar for Design Project\nIII beforehand and prepare\nyour report on the database\nsearch.",
+      "minutes": "90\n\n180"
+    },
+    {
+      "index": "15",
+      "content": "Final examination\nSelf-evaluation day",
+      "operation": "Final examination",
+      "assignments": "Prepare for the final exam\nand evaluate your\nunderstanding.",
+      "minutes": "180\n\n30"
+    }
+  ],
+  "rawText": "金沢工業大学　学習支援計画書　B021-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Chemistry and Environmental Science(〜2024)\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                化学コンピュータ演習\n                Computer Practice for Chemistry\n\n              2\n              B021-01\n\n                2026年度\n\n                3rd year 1st semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  TANIGUCHI Masahiro\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Spreadsheet\n2.Chemical computing\n3.Physical chemistry\n4.Chemical engineering\n5.Programming\n\n              Students will:\n(1) use a personal computer for data analysis in chemistry, engineering  (manufacturing).\n(2) use spreadsheet software to increase the efficiency of data analysis.\n(3) learn how to solve problems in chemistry and engineering and enhance your understanding of chemistry and engineering.\n(4) learn the basics of programming utilizing artificial intelligence.\n\n              授業の概要および学習上の助言\n\n              The course will cover:\n1. Document preparation, including chemical formulas and crystal structures.\n2. Basic knowledge about spreadsheet software, including plotting and visualization of numerical data.\n3. Numerical simulations in physical chemistry and chemical engineering.\n4. Numerical technique and utilities for finding solutions.\n5. Programming in BASIC computer language.\n\nStudents are expected to bring their personal computer to every class.\nBe sure that the computer works well before the beginning of the semester.\nStudents are expected to check for messages/materials on the KIT Inside website before every class.\n\n              教科書および参考書・リザーブドブック\n\n              Not specified.\n\n              履修に必要な予備知識や技能\n\n              Install the specified application (freeware, database access) on your PC before class begins.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                I,J,L,Q,S\n                Prepare a document with chemical structural formulas\n\n                ②\n                I,J,L,Q,S\n                Analyze experimental data using a spreadsheet\n\n                ③\n                I,J,L,Q,S\n                Explain the basic concepts of programming and data manipulation\n\n                ④\n                I,J,L,Q,S\n                Find solutions to problems in physical chemistry and chemical engineering using the PC\n\n                ⑤\n                I,J,L,Q,S\n                Find chemical information using the Internet and a database\n\n                ⑥\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                30\n\n                0\n\n                50\n\n                0\n\n                0\n\n                0\n\n                20\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                30\n\n                0\n\n                50\n\n                0\n\n                0\n\n                0\n\n                20\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                30\n\n                0\n\n                50\n\n                0\n\n                0\n\n                0\n\n                20\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  コラボレーションとリーダーシップ\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n    ",
+  "courseId": "2026:spring:B021-01:0:659",
+  "language": "en"
+}

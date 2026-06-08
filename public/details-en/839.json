@@ -1,0 +1,313 @@
+{
+  "sourceIndex": 839,
+  "sourceUrl": "/opsyllabus/kitos0110/839/1",
+  "importedAt": "2026-06-08T09:34:10.467Z",
+  "title": "電気電子プログラミング",
+  "subtitle": "Programming for Electrical and Electronic Engineering",
+  "courseType": "Major ProgramMajor Courses",
+  "credits": "2",
+  "term": "2026年度\n\n                2nd year 1st semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "AIZAWA Koji",
+    "HAYASHI Keiji\n授業科目の学習・教育目標"
+  ],
+  "keywords": [
+    "Computer Programming",
+    "C Language",
+    "Control Structure",
+    "Algorithm",
+    "Electrical and Electronic Engineers"
+  ],
+  "educationalGoal": "Students will: (1) learn the fundamental concepts and methods of programming using C language. (2) learn how to solve problems and transform the solutions into computer programs written in C language. The goal of this course is to provide an introduction not just to C but also to logical thinking. (3) learn some applications of C programming in electrical and electronic engineering.",
+  "advice": "This course is designed to familiarize students with computer programming, with an emphasis on a widely used language, C.\nThe classes incorporate lecture with hands-on programming exercises.\nWe will cover the following materials:\n1. Elementary programming in C\n2. Selection statements\n3. Repetition statements\n4. Modular programming with functions\na. Integrated learning  - For applied problems related to the field of electrical and electronic engineering -\nb. Overview of advanced C language syntax\n\nStudents should be aware of the teacher's instructions in the class, because the detailed course schedules may change depending on the students' progress in understanding.",
+  "books": "Textbooks: None\nReference books: None\nReserved books: None",
+  "requiredKnowledge": "You are expected to bring your Windows laptop to class with you to work on programming exercises.\nNo prior programming knowledge is required.\nThis course and “Computer Engineering for Electrical and Electronic Engineers” are complementary. “Feedback Control” is related to this course.",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "K,D",
+      "body": "Be able to demonstrate problem-solving skills by developing algorithms to solve problems."
+    },
+    {
+      "index": "②",
+      "type": "K,H",
+      "body": "Be able to write C programs that perform sequential operations."
+    },
+    {
+      "index": "③",
+      "type": "K,H",
+      "body": "Be able to incorporate the selection control structure into C programs."
+    },
+    {
+      "index": "④",
+      "type": "K,H",
+      "body": "Be able to incorporate the repetition control structure into C programs."
+    },
+    {
+      "index": "⑤",
+      "type": "K,H",
+      "body": "Be able to decompose the solution into modules at the function level."
+    },
+    {
+      "index": "⑥",
+      "type": "K,H",
+      "body": "Be able to make a computer execute a program you have written in C language."
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "0",
+        "40",
+        "60",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "0",
+        "40",
+        "60",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "0",
+        "40",
+        "60",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションとリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "(1) Develop modular and efficient programs in C efficiently.\n(2) Identify a problem in electrical and electronic engineering and provide a proper solution by designing algorithms and implementing computer programs.\n(3) Be comfortable using C.",
+    "standard": "(1) Design algorithms to solve rudimentary problems in electric and electronic engineering.\n(2) Demonstrate basic skills in writing and implementing simple structured programs in C.\n(3)  Describe the fundamentals of C based on the hands-on knowledge of programming."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Course introduction",
+      "operation": "Lecture and Q&A",
+      "assignments": "Understand the objectives of\nclass\nReview materials from No. 1\nclass",
+      "minutes": "100\n\n100"
+    },
+    {
+      "index": "2",
+      "content": "1. Elementary programming in C",
+      "operation": "Lecture and Q&A",
+      "assignments": "Prepare Ch. 1 of the class\nmaterials distributed via the\ne-syllabus\nReview materials from No. 2\nclass",
+      "minutes": "100\n\n100"
+    },
+    {
+      "index": "3",
+      "content": "continued",
+      "operation": "Lecture and Q&A",
+      "assignments": "Prepare Ch. 1 of the class\nmaterials distributed via the\ne-syllabus\nReview materials from No. 3\nclass",
+      "minutes": "100\n\n100"
+    },
+    {
+      "index": "4",
+      "content": "continued",
+      "operation": "Programming exercise",
+      "assignments": "Prepare for the programming\nexercise\nReview materials from No. 4\nclass",
+      "minutes": "100\n\n100"
+    },
+    {
+      "index": "5",
+      "content": "2. Selection statements",
+      "operation": "Self-check\n\nLecture and Q&A",
+      "assignments": "Prepare Ch. 2 of the class\nmaterials distributed via the\ne-syllabus\nReview materials from No. 5\nclass",
+      "minutes": "100\n\n100"
+    },
+    {
+      "index": "6",
+      "content": "continued",
+      "operation": "Programming exercise",
+      "assignments": "Prepare for the programming\nexercise\nReview materials from No. 6\nclass",
+      "minutes": "100\n\n100"
+    },
+    {
+      "index": "7",
+      "content": "3. Repetition statements",
+      "operation": "Self-check\n\nLecture and Q&A",
+      "assignments": "Prepare Ch. 3 of the class\nmaterials distributed via the\ne-syllabus\nReview materials from No. 7\nclass",
+      "minutes": "100\n\n100"
+    },
+    {
+      "index": "8",
+      "content": "continued",
+      "operation": "Programming exercise",
+      "assignments": "Prepare for the programming\nexercise\nReview materials from No. 8\nclass",
+      "minutes": "100\n\n100"
+    },
+    {
+      "index": "9",
+      "content": "continued",
+      "operation": "Self-check\n\nLecture and Q&A",
+      "assignments": "Prepare Ch. 3 of the class\nmaterials distributed via the\ne-syllabus\nReview materials from No. 9\nclass",
+      "minutes": "100\n\n100"
+    },
+    {
+      "index": "10",
+      "content": "continued",
+      "operation": "Programming exercise",
+      "assignments": "Prepare for the programming\nexercise\nReview materials from No. 10\nclass",
+      "minutes": "100\n\n100"
+    },
+    {
+      "index": "11",
+      "content": "4. Modular programming with functions",
+      "operation": "Self-check\n\nLecture and Q&A",
+      "assignments": "Prepare Ch. 4 of the class\nmaterials distributed via the\ne-syllabus\nReview materials from No. 11\nclass",
+      "minutes": "100\n\n100"
+    },
+    {
+      "index": "12",
+      "content": "continued",
+      "operation": "Self-check\n\nLecture and Q&A",
+      "assignments": "Prepare Ch. 4 of the class\nmaterials distributed via the\ne-syllabus\nReview materials from No. 12\nclass",
+      "minutes": "100\n\n100"
+    },
+    {
+      "index": "13",
+      "content": "continued",
+      "operation": "Programming exercise",
+      "assignments": "Prepare for the programming\nexercise\nReview materials from No. 13\nclass",
+      "minutes": "100\n\n100"
+    },
+    {
+      "index": "14",
+      "content": "a. Integrated learning  - For applied problems\nrelated to the field of electrical and\nelectronic engineering -\n\nb. Overview of advanced C language syntax",
+      "operation": "Review and self-reflection\n\nLecture and interactive\nactivities",
+      "assignments": "Prepare for Integrated\nlearning\nReview contents learned in\nNos. 2 to 13 classes",
+      "minutes": "100\n\n100"
+    },
+    {
+      "index": "15",
+      "content": "continued\n\nSelf-evaluation",
+      "operation": "Lecture and interactive\nactivities\n\nReview and self-reflection\nSelf-evaluation",
+      "assignments": "Prepare for Integrated\nlearning\nReview contents learned in\nNos. 2 to 15 classes",
+      "minutes": "100\n\n100"
+    }
+  ],
+  "rawText": "金沢工業大学　学習支援計画書　K312-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Electrical Energy Systems Engineering\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                電気電子プログラミング\n                Programming for Electrical and Electronic Engineering\n\n              2\n              K312-01\n\n                2026年度\n\n                2nd year 1st semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  AIZAWA Koji, HAYASHI Keiji\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Computer Programming\n2.C Language\n3.Control Structure\n4.Algorithm\n5.Electrical and Electronic Engineers\n\n              Students will: (1) learn the fundamental concepts and methods of programming using C language. (2) learn how to solve problems and transform the solutions into computer programs written in C language. The goal of this course is to provide an introduction not just to C but also to logical thinking. (3) learn some applications of C programming in electrical and electronic engineering.\n\n              授業の概要および学習上の助言\n\n              This course is designed to familiarize students with computer programming, with an emphasis on a widely used language, C.\nThe classes incorporate lecture with hands-on programming exercises.\nWe will cover the following materials:\n1. Elementary programming in C\n2. Selection statements\n3. Repetition statements\n4. Modular programming with functions\na. Integrated learning  - For applied problems related to the field of electrical and electronic engineering -\nb. Overview of advanced C language syntax\n\nStudents should be aware of the teacher's instructions in the class, because the detailed course schedules may change depending on the students' progress in understanding.\n\n              教科書および参考書・リザーブドブック\n\n              Textbooks: None\nReference books: None\nReserved books: None\n\n              履修に必要な予備知識や技能\n\n              You are expected to bring your Windows laptop to class with you to work on programming exercises.\nNo prior programming knowledge is required.\nThis course and “Computer Engineering for Electrical and Electronic Engineers” are complementary. “Feedback Control” is related to this course.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                K,D\n                Be able to demonstrate problem-solving skills by developing algorithms to solve problems.\n\n                ②\n                K,H\n                Be able to write C programs that perform sequential operations.\n\n                ③\n                K,H\n                Be able to incorporate the selection control structure into C programs.\n\n                ④\n                K,H\n                Be able to incorporate the repetition control structure into C programs.\n\n                ⑤\n                K,H\n                Be able to decompose the solution into modules at the function level.\n\n                ⑥\n                K,H\n                Be able to make a computer execute a program you have written in C language.\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                0\n\n                40\n\n                60\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                0\n\n                40\n\n                60\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                0\n\n                40\n\n                60\n\n                0\n\n                0\n\n                0\n\n   ",
+  "courseId": "2026:spring:K312-01:0:839",
+  "language": "en"
+}

@@ -1,0 +1,302 @@
+{
+  "sourceIndex": 265,
+  "sourceUrl": "/opsyllabus/kitos0110/265/1",
+  "importedAt": "2026-06-08T09:33:58.487Z",
+  "title": "電気回路Ⅳ（電子工学）",
+  "subtitle": "Electric Circuits IV for Electronic Engineering",
+  "courseType": "Major ProgramMajor Courses",
+  "credits": "2",
+  "term": "2026年度\n\n                3rd year 1st semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "YAMANAKA Koji\n授業科目の学習・教育目標"
+  ],
+  "keywords": [
+    "Distributed-Constant Circuits",
+    "Reflection Coefficient",
+    "Smith Chart",
+    "Scattering Matrix",
+    "Impedance Matching"
+  ],
+  "educationalGoal": "In the previous study of electric circuits, the physical dimensions of a circuit has been assumed to be small enough. At the higher frequencies, however, the size of the circuit must be taken into account, and voltages and currents behave as waves. In this course, students will learn the theory of distributed-constant circuits, propagation of electric waves along transmission lines. They will also study about the tools and techniques for high-frequency circuit analysis and design.",
+  "advice": "1. Voltages and currents on distributed-constant circuits\n2. Reflection Coefficient, standing waves, and input impedance looking into a transmission line.\n3. Smith chart\n4. Impedance matching for a distributed-constant circuit\n5. Scattering matrix\n\nStudents are expected to understand the difference between lumped-constant circuits and distributed-constant circuits, relation between frequency and wavelength, and will learn about the equations for voltages and currents on distributed-constant circuits and their solutions.\nStudents are also expected to learn how to use Smith chart and scattering matrix.",
+  "books": "Textbooks: Fundamentals of Transmission Lines (in Japanese) [Corona publishing]\nReference books: None\nReserved books: None",
+  "requiredKnowledge": "Understanding of Electric Circuits I, II and III, especially theory of alternating voltage and current.\nEnough skills of circuit analysis using complex numbers.",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "J",
+      "body": "Be able to explain the difference between lumped-constant circuits and distributed-constant circuits."
+    },
+    {
+      "index": "②",
+      "type": "J",
+      "body": "Be able to analyze basic lumped-constant circuits."
+    },
+    {
+      "index": "③",
+      "type": "J",
+      "body": "Be able to use Smith chart."
+    },
+    {
+      "index": "④",
+      "type": "J",
+      "body": "Be able to design matching circuit."
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "40",
+        "30",
+        "30",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "40",
+        "30",
+        "30",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "40",
+        "30",
+        "30",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションとリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "Understand the characteristics of distributed-constant circuits, propagation and reflection of waves, and can solve related problems.\nUnderstand the Smith chart and be able to apply it.\nBe able to design a matching circuit for a load of arbitrary impedance.\nUnderstand the scattering matrix and be able to apply it.",
+    "standard": "Reach about 70% of ideal achievement."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Review of electric circuit theory and related\nmathematical items\n\nVoltages and currents on distributed-constant\ncircuits",
+      "operation": "Review and lecture",
+      "assignments": "Review electric circuit theory",
+      "minutes": "200"
+    },
+    {
+      "index": "2",
+      "content": "Voltages and currents on distributed-constant\ncircuits",
+      "operation": "Lecture and practice",
+      "assignments": "Prepare chapter 1 of the\ntextbook\nReview electric waves on\ntransmission lines",
+      "minutes": "200"
+    },
+    {
+      "index": "3",
+      "content": "Voltages and currents on distributed-constant\ncircuits",
+      "operation": "Lecture and practice",
+      "assignments": "Review relation between\nreflection and load impedance",
+      "minutes": "200"
+    },
+    {
+      "index": "4",
+      "content": "Voltages and currents on distributed-constant\ncircuits\nCharacteristics of transmission lines",
+      "operation": "Lecture and practice",
+      "assignments": "Prepare chapter 2 of the\ntextbook\nReview line parameters",
+      "minutes": "200"
+    },
+    {
+      "index": "5",
+      "content": "Characteristics of transmission lines",
+      "operation": "Lecture and practice",
+      "assignments": "Review reflection coefficient\nand standing wave",
+      "minutes": "200"
+    },
+    {
+      "index": "6",
+      "content": "Characteristics of transmission lines",
+      "operation": "Lecture and practice",
+      "assignments": "Review standing wave on a\nlossy transmission line and\nits input impedance",
+      "minutes": "200"
+    },
+    {
+      "index": "7",
+      "content": "Characteristics of transmission lines",
+      "operation": "Lecture and practice",
+      "assignments": "Review relation between load\nimpedance and the position on\nthe Smith chart",
+      "minutes": "200"
+    },
+    {
+      "index": "8",
+      "content": "Characteristics of transmission lines\nTransmission of signal and power",
+      "operation": "Lecture and practice",
+      "assignments": "Review decibel\nPrepare chapter 3 of the\ntextbook",
+      "minutes": "200"
+    },
+    {
+      "index": "9",
+      "content": "Review\nPractical transmission lines",
+      "operation": "Lecture and practice",
+      "assignments": "Review transmission\nproperties of practical lines",
+      "minutes": "200"
+    },
+    {
+      "index": "10",
+      "content": "Impedance matching of transmission lines",
+      "operation": "Lecture and practice",
+      "assignments": "Prepare chapter 6 of the\ntextbook",
+      "minutes": "200"
+    },
+    {
+      "index": "11",
+      "content": "Impedance matching of transmission lines",
+      "operation": "Lecture and practice",
+      "assignments": "Review impedance matching and\nconsider it on the Smith chart",
+      "minutes": "200"
+    },
+    {
+      "index": "12",
+      "content": "Impedance matching of transmission lines\nScattering matrix",
+      "operation": "Lecture and practice",
+      "assignments": "Review Scattering matrix",
+      "minutes": "200"
+    },
+    {
+      "index": "13",
+      "content": "Integrated learning",
+      "operation": "Practice\nSelf-reflection",
+      "assignments": "Prepare for the test",
+      "minutes": "200"
+    },
+    {
+      "index": "14",
+      "content": "Final exam and review",
+      "operation": "Exam and review",
+      "assignments": "Prepare for the exam",
+      "minutes": "200"
+    },
+    {
+      "index": "15",
+      "content": "Review",
+      "operation": "Total review and\nself-check",
+      "assignments": "Self-reflection and evaluation",
+      "minutes": "200"
+    }
+  ],
+  "rawText": "金沢工業大学　学習支援計画書　E626-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Electrical and Electronic Engineering(〜2024)\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                電気回路Ⅳ（電子工学）\n                Electric Circuits IV for Electronic Engineering\n\n              2\n              E626-01\n\n                2026年度\n\n                3rd year 1st semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  YAMANAKA Koji\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Distributed-Constant Circuits\n2.Reflection Coefficient\n3.Smith Chart\n4.Scattering Matrix\n5.Impedance Matching\n\n              In the previous study of electric circuits, the physical dimensions of a circuit has been assumed to be small enough. At the higher frequencies, however, the size of the circuit must be taken into account, and voltages and currents behave as waves. In this course, students will learn the theory of distributed-constant circuits, propagation of electric waves along transmission lines. They will also study about the tools and techniques for high-frequency circuit analysis and design.\n\n              授業の概要および学習上の助言\n\n              1. Voltages and currents on distributed-constant circuits\n2. Reflection Coefficient, standing waves, and input impedance looking into a transmission line.\n3. Smith chart\n4. Impedance matching for a distributed-constant circuit\n5. Scattering matrix\n\nStudents are expected to understand the difference between lumped-constant circuits and distributed-constant circuits, relation between frequency and wavelength, and will learn about the equations for voltages and currents on distributed-constant circuits and their solutions.\nStudents are also expected to learn how to use Smith chart and scattering matrix.\n\n              教科書および参考書・リザーブドブック\n\n              Textbooks: Fundamentals of Transmission Lines (in Japanese) [Corona publishing]\nReference books: None\nReserved books: None\n\n              履修に必要な予備知識や技能\n\n              Understanding of Electric Circuits I, II and III, especially theory of alternating voltage and current.\nEnough skills of circuit analysis using complex numbers.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                J\n                Be able to explain the difference between lumped-constant circuits and distributed-constant circuits.\n\n                ②\n                J\n                Be able to analyze basic lumped-constant circuits.\n\n                ③\n                J\n                Be able to use Smith chart.\n\n                ④\n                J\n                Be able to design matching circuit.\n\n                ⑤\n\n                ⑥\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                40\n\n                30\n\n                30\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                40\n\n                30\n\n                30\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                40\n\n                30\n\n                30\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  コラボレーションとリーダーシップ\n\n                    0\n\n                    0\n\n     ",
+  "courseId": "2026:spring:E626-01:0:265",
+  "language": "en"
+}

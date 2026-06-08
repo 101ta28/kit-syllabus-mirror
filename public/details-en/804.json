@@ -1,0 +1,312 @@
+{
+  "sourceIndex": 804,
+  "sourceUrl": "/opsyllabus/kitos0110/804/1",
+  "importedAt": "2026-06-08T09:34:09.735Z",
+  "title": "制御系プログラミング",
+  "subtitle": "Programming for control systems",
+  "courseType": "Major ProgramMajor Courses",
+  "credits": "2",
+  "term": "2026年度\n\n                2nd year 2nd semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "HAYASHI Akio\n授業科目の学習・教育目標"
+  ],
+  "keywords": [
+    "Programming",
+    "Numerical computation",
+    "Control system simulation",
+    "Frequency analysis",
+    "Regional collaboration"
+  ],
+  "educationalGoal": "Students will:\n(1) Understand how physical phenomena can be modeled using differential equations and analyzed with computers.\n(2) Acquire the ability to implement numerical computation algorithms and perform analyses through programming.\n(3) Develop the ability to interpret analytical results and improve programs for higher accuracy.",
+  "advice": "This course introduces mathematical models used to represent physical phenomena and provides training in numerical computation methods using MATLAB/Simulink. Students will learn how to construct models (block diagrams) and perform control system simulations.\n\nTopics include:\nProgramming using MATLAB\n1. Numerical computation with MATLAB (basic operations and matrix calculations)\n2. Vibration analysis using MATLAB (differential equations; spring–mass–damper models)\n3. Signal processing using MATLAB (FFT: Fast Fourier Transform)\n4. Control system analysis using MATLAB (transfer functions, Bode plots, transient response)\n5. Control system design using Simulink (transient response, PID control)\n\nClasses will be conducted primarily through exercises. Students are expected to prepare adequately before each class.",
+  "books": "None",
+  "requiredKnowledge": "Students are expected to have a basic understanding of MATLAB usage as learned in the introductory AI course. Knowledge of programming languages such as C or Python is desirable.\n\nConcurrent enrollment in Control Engineering (required) and Mechanical Dynamics II (elective), which supports understanding of vibration models, is recommended.",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "D,H,L",
+      "body": "Be able to develop programs for input/output operations and numerical calculations."
+    },
+    {
+      "index": "②",
+      "type": "D,H,L",
+      "body": "Be able to solve differential equations using numerical methods."
+    },
+    {
+      "index": "③",
+      "type": "D,H,L",
+      "body": "Be able to perform frequency analysis using numerical computation."
+    },
+    {
+      "index": "④",
+      "type": "D,H,L",
+      "body": "Be able to plot transient responses and Bode diagrams for mechanical models."
+    },
+    {
+      "index": "⑤",
+      "type": "D,H,L",
+      "body": "Be able to simulate and evaluate system responses from control block diagrams."
+    },
+    {
+      "index": "⑥",
+      "type": "D,H,J,L,N",
+      "body": "Be able to develop and apply programs to solve problems in mechanical engineering."
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "30",
+        "40",
+        "30",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "30",
+        "40",
+        "30",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "30",
+        "40",
+        "30",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションとリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "(1) Be able to design and implement efficient and well-structured programs.\n(2) Be able to select appropriate methods considering error and stability.\n(3) Be able to interpret frequency characteristics considering analysis conditions.\n(4)Be able to explain how parameter changes affect dynamic characteristics.\n(5)Be able to adjust and improve system performance based on results.\n(6) Be able to formulate problems algorithmically and apply solutions broadly.",
+    "standard": "(1) Be able to create programs for basic input/output processing and numerical calculations.\n(2) Be able to solve differential equations using common numerical methods.\n(3) Be able to obtain frequency spectra using FFT.\n(4) Be able to generate transient responses and Bode diagrams and identify basic characteristics.\n(5) Be able to simulate system responses and evaluate performance.\n(6) Be able to develop programs to analyze mechanical engineering problems."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Course introduction\nReview of MATLAB",
+      "operation": "Lecture and Q&A",
+      "assignments": "Review MATLAB before class.\nUnderstand the relationship\nbetween the educational goals\nof the Department of\nMechanical Engineering and\nthis course.",
+      "minutes": "100\n30"
+    },
+    {
+      "index": "2",
+      "content": "Students will learn basic arithmetic operations\nand matrix calculations using MATLAB.\n\nExercises will be conducted on data import, comp\nutation, visualization of results, and graph cre\nation.",
+      "operation": "Lecture and practice\nQuiz\nSelf-check",
+      "assignments": "",
+      "minutes": "100"
+    },
+    {
+      "index": "3",
+      "content": "Students will learn basic arithmetic operations\nand matrix calculations using MATLAB.\n\nExercises will be conducted on data import, comp\nutation, visualization of results, and graph cre\nation.",
+      "operation": "Lecture and practice\nQuiz\nSelf-check",
+      "assignments": "",
+      "minutes": "100"
+    },
+    {
+      "index": "4",
+      "content": "Students will learn methods for solving differen\ntial equations using the Laplace transform.",
+      "operation": "Lecture and practice\nQuiz\nSelf-check",
+      "assignments": "",
+      "minutes": "100"
+    },
+    {
+      "index": "5",
+      "content": "Students will learn methods for solving differen\ntial equations using the Laplace transform.",
+      "operation": "Lecture and practice\nQuiz\nSelf-check",
+      "assignments": "",
+      "minutes": "100"
+    },
+    {
+      "index": "6",
+      "content": "Students will learn about vibration analysis.",
+      "operation": "Lecture and practice\nQuiz\nSelf-check",
+      "assignments": "",
+      "minutes": "90\n\n10"
+    },
+    {
+      "index": "7",
+      "content": "Students will learn about signal processing\nusing MATLAB and frequency analysis\nusing the Fast Fourier Transform (FFT).",
+      "operation": "Exercise\n\nReview and Exam\nSelf-reflection",
+      "assignments": "Review",
+      "minutes": "90\n\n10"
+    },
+    {
+      "index": "8",
+      "content": "Control system analysis using MATLAB\n\nTransfer functions, Bode diagrams, and transient\n response",
+      "operation": "Exercise",
+      "assignments": "Prepare for exam",
+      "minutes": "90\n\n10"
+    },
+    {
+      "index": "9",
+      "content": "Control system analysis using MATLAB\n\nTransfer functions, Bode diagrams, and transient\n response",
+      "operation": "Lecture and practice\nQuiz\nSelf-check",
+      "assignments": "",
+      "minutes": "90\n\n10"
+    },
+    {
+      "index": "10",
+      "content": "Control system design using Simulink\n\nTransient response and PID control",
+      "operation": "Lecture and practice\nQuiz\nSelf-check",
+      "assignments": "",
+      "minutes": "90\n\n10"
+    },
+    {
+      "index": "11",
+      "content": "Control system design using Simulink\n\nTransient response and PID control",
+      "operation": "Lecture and practice\nQuiz\nSelf-check",
+      "assignments": "",
+      "minutes": "90\n\n10"
+    },
+    {
+      "index": "12",
+      "content": "Control system design using Simulink\n\nTransient response and PID control",
+      "operation": "Lecture and practice\nQuiz\nSelf-check",
+      "assignments": "",
+      "minutes": "90\n\n10"
+    },
+    {
+      "index": "13",
+      "content": "Control system design using Simulink\n\nTransient response and PID control\n\nReview",
+      "operation": "Exercise",
+      "assignments": "review",
+      "minutes": "90\n\n10"
+    },
+    {
+      "index": "14",
+      "content": "Review　and Final exam",
+      "operation": "Test and review\nSelf-check",
+      "assignments": "Create a report on an issue\nassigned in class",
+      "minutes": "90\n\n10"
+    },
+    {
+      "index": "15",
+      "content": "Review of final exam\nAdvanced numerical analysis",
+      "operation": "Review\nLecture\nSelf-evaluation",
+      "assignments": "Prepare for exam",
+      "minutes": "30\n\n60\n\n10"
+    }
+  ],
+  "rawText": "金沢工業大学　学習支援計画書　K121-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Advanced Mechanical Systems Engineering\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                制御系プログラミング\n                Programming for control systems\n\n              2\n              K121-01\n\n                2026年度\n\n                2nd year 2nd semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  HAYASHI Akio\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Programming\n2.Numerical computation\n3.Control system simulation\n4.Frequency analysis\n5.Regional collaboration\n\n              Students will:\n(1) Understand how physical phenomena can be modeled using differential equations and analyzed with computers.\n(2) Acquire the ability to implement numerical computation algorithms and perform analyses through programming.\n(3) Develop the ability to interpret analytical results and improve programs for higher accuracy.\n\n              授業の概要および学習上の助言\n\n              This course introduces mathematical models used to represent physical phenomena and provides training in numerical computation methods using MATLAB/Simulink. Students will learn how to construct models (block diagrams) and perform control system simulations.\n\nTopics include:\nProgramming using MATLAB\n1. Numerical computation with MATLAB (basic operations and matrix calculations)\n2. Vibration analysis using MATLAB (differential equations; spring–mass–damper models)\n3. Signal processing using MATLAB (FFT: Fast Fourier Transform)\n4. Control system analysis using MATLAB (transfer functions, Bode plots, transient response)\n5. Control system design using Simulink (transient response, PID control)\n\nClasses will be conducted primarily through exercises. Students are expected to prepare adequately before each class.\n\n              教科書および参考書・リザーブドブック\n\n              None\n\n              履修に必要な予備知識や技能\n\n              Students are expected to have a basic understanding of MATLAB usage as learned in the introductory AI course. Knowledge of programming languages such as C or Python is desirable.\n\nConcurrent enrollment in Control Engineering (required) and Mechanical Dynamics II (elective), which supports understanding of vibration models, is recommended.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                D,H,L\n                Be able to develop programs for input/output operations and numerical calculations.\n\n                ②\n                D,H,L\n                Be able to solve differential equations using numerical methods.\n\n                ③\n                D,H,L\n                Be able to perform frequency analysis using numerical computation.\n\n                ④\n                D,H,L\n                Be able to plot transient responses and Bode diagrams for mechanical models.\n\n                ⑤\n                D,H,L\n                Be able to simulate and evaluate system responses from control block diagrams.\n\n                ⑥\n                D,H,J,L,N\n                Be able to develop and apply programs to solve problems in mechanical engineering.\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                30\n\n                40\n\n                30\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                30\n\n                40\n\n                30\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                30\n\n      ",
+  "courseId": "2026:fall:K121-01:0:804",
+  "language": "en"
+}

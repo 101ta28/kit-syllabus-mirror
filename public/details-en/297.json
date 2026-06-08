@@ -1,0 +1,222 @@
+{
+  "sourceIndex": 297,
+  "sourceUrl": "/opsyllabus/kitos0110/297/1",
+  "importedAt": "2026-06-08T09:33:59.081Z",
+  "title": "プロジェクトデザインⅢ（伊東健治研究室）",
+  "subtitle": "Design Project III(Ito Kenji)",
+  "courseType": "Major ProgramMajor Project Courses",
+  "credits": "8",
+  "term": "2026年度\n\n                All year",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "ITO Kenji\n授業科目の学習・教育目標"
+  ],
+  "keywords": [
+    "Wireless power transfer",
+    "Rectenna",
+    "Rectifier",
+    "Mixer Circuit"
+  ],
+  "educationalGoal": "This course is the final destination of design project course. Regarding to the project theme, theoretical, experimental investigations are done for integration of knowledge.\nProject theme: Microwave semiconductor circuits\nActivities: Through research activities for each student, a PDCA cycle for research is introduced.",
+  "advice": "Following PDCA cycle is arranged:\ni) Assignment of the project theme: Detailed technical theme is established from technical area of microwave semiconductor circuits.\nii) Understanding of the background of the assigned project theme: Through investigations for past works, technical issues that will be solved through the activity is clarified.\niii) Planning research activities:  The planned schedule is reviewed in weekly meetings. Final destination that is “differentiation compared with past works” is defined through discussions.\niv) Learnings of EDA tools: Microwave circuit simulator (Keysite ADS), Analog IC design simulator (Cadence Virtuoso), EM simulator (Keysite EM-pro) are trained.\nv) First design activity: Design procedures is established at first. By using theoretical and simulational approaches, first circuit is designed.\nvi) First validation activity: With use of PCB etching, the validated circuit is fabricated.\nvii) Analysis of the first trial: From difference between the design and the validation results, improvement actions are planned.\n\nAbove activities are reviewed in weekly meetings. Deliverables of the project are implemented as “the project report”. And they are presented in the review conference in Feb.",
+  "books": "None",
+  "requiredKnowledge": "i) Acquisition of electrical circuits, electronic circuits and EM theory.\nEnough skill of mathematics (basic functions, integral calculus, complex number)\nii) Basic presentation skills and technical writing skill.",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "K,L,M",
+      "body": "Be able to understand basis of microwave circuit."
+    },
+    {
+      "index": "②",
+      "type": "G,M,N",
+      "body": "Be able to plan and explain about objectives and outline of the research activities."
+    },
+    {
+      "index": "③",
+      "type": "G,K,L,M,N",
+      "body": "Be able to report the activity in a week."
+    },
+    {
+      "index": "④",
+      "type": "M,N",
+      "body": "Be able to explain the research activity"
+    },
+    {
+      "index": "⑤",
+      "type": "G,K,L,M,N",
+      "body": "Be able to describe the research deliverable as the project report, and to present it in the review conference."
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "0",
+        "0",
+        "50",
+        "40",
+        "0",
+        "10",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "0",
+        "0",
+        "50",
+        "40",
+        "0",
+        "10",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "0",
+        "0",
+        "50",
+        "40",
+        "0",
+        "10",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションとリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "To achieve good knowledge about microwave circuits. To be achieve good design skills for microwave circuits by using EDA tools and to measure fabricated circuits.\nTo achieve good differentiations about research deliverables.\nTo achieve good presentation skills for above research deliverables, well.",
+    "standard": "To achieve enough knowledge about microwave circuits. To achieve enough design skills for microwave circuits by using EDA tools and to measure fabricated circuits.\nTo achieve enough differentiations about research deliverables.\nTo achieve enough presentation skills for above research deliverables, well."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1-30\n(the\nfirst\nhalf)",
+      "content": "Following research activities:\ni) Assignment of the project theme\nii) Understanding of background\niii) Planning research activities\niv) Learnings of EDA tools\nv) First design activity of the first trial",
+      "operation": "To present the research\nprogress, and to be\nreviewed in meetings\n(2 times/week) .\none meeting for all\nmembers, another meeting\n for detailed topics.",
+      "assignments": "To prepare presentation\ndocuments for two meetings\nevery week.",
+      "minutes": "3 hour\ns per\nweek b\ny lect\nurer\n\n15 hou\nrs per\n week\nby the\n stude\nnt"
+    },
+    {
+      "index": "31(the\nsecond\n half)",
+      "content": "Presentation of technical achievements in the\n first half",
+      "operation": "Presentation and\ndiscussions",
+      "assignments": "To prepare presentation\ndocuments.",
+      "minutes": ""
+    },
+    {
+      "index": "32-61\n(the\nsecond\n half)",
+      "content": "i) First validation activity.\nii) Analysis of the first trial\niii) Second trial from design to validation\nfor improvements.\niv) To describe the project report\nv) Presentation of the project",
+      "operation": "To present the research\nprogress, and to be\nreviewed in meetings\n(2 times/week) .\none meeting for all\nmembers, another meeting\n for detailed topics.",
+      "assignments": "Prepare presentation\ndocuments for two meetings\nevery week.",
+      "minutes": "3 hour\ns per\nweek b\ny lect\nurer\n\n15 hou\nrs per\n week\nby the\n stude\nnt"
+    }
+  ],
+  "rawText": "金沢工業大学　学習支援計画書　E927-15\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Electrical and Electronic Engineering(〜2024)\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Project Courses\n\n                プロジェクトデザインⅢ（伊東健治研究室）\n                Design Project III(Ito Kenji)\n\n              8\n              E927-15\n\n                2026年度\n\n                All year\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  ITO Kenji\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Wireless power transfer\n2.Rectenna\n3.Rectifier\n4.Mixer Circuit\n\n              This course is the final destination of design project course. Regarding to the project theme, theoretical, experimental investigations are done for integration of knowledge.\nProject theme: Microwave semiconductor circuits\nActivities: Through research activities for each student, a PDCA cycle for research is introduced.\n\n              授業の概要および学習上の助言\n\n              Following PDCA cycle is arranged:\ni) Assignment of the project theme: Detailed technical theme is established from technical area of microwave semiconductor circuits.\nii) Understanding of the background of the assigned project theme: Through investigations for past works, technical issues that will be solved through the activity is clarified.\niii) Planning research activities:  The planned schedule is reviewed in weekly meetings. Final destination that is “differentiation compared with past works” is defined through discussions.\niv) Learnings of EDA tools: Microwave circuit simulator (Keysite ADS), Analog IC design simulator (Cadence Virtuoso), EM simulator (Keysite EM-pro) are trained.\nv) First design activity: Design procedures is established at first. By using theoretical and simulational approaches, first circuit is designed.\nvi) First validation activity: With use of PCB etching, the validated circuit is fabricated.\nvii) Analysis of the first trial: From difference between the design and the validation results, improvement actions are planned.\n\nAbove activities are reviewed in weekly meetings. Deliverables of the project are implemented as “the project report”. And they are presented in the review conference in Feb.\n\n              教科書および参考書・リザーブドブック\n\n              None\n\n              履修に必要な予備知識や技能\n\n              i) Acquisition of electrical circuits, electronic circuits and EM theory.\nEnough skill of mathematics (basic functions, integral calculus, complex number)\nii) Basic presentation skills and technical writing skill.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                K,L,M\n                Be able to understand basis of microwave circuit.\n\n                ②\n                G,M,N\n                Be able to plan and explain about objectives and outline of the research activities.\n\n                ③\n                G,K,L,M,N\n                Be able to report the activity in a week.\n\n                ④\n                M,N\n                Be able to explain the research activity\n\n                ⑤\n                G,K,L,M,N\n                Be able to describe the research deliverable as the project report, and to present it in the review conference.\n\n                ⑥\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                0\n\n                0\n\n                50\n\n                40\n\n                0\n\n                10\n\n                0\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                0\n\n                0\n\n                50\n\n                40\n\n                0\n\n                10\n\n                0\n\n            ",
+  "courseId": "2026:full-year:E927-15:0:297",
+  "language": "en"
+}

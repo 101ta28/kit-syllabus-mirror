@@ -1,0 +1,312 @@
+{
+  "sourceIndex": 509,
+  "sourceUrl": "/opsyllabus/kitos0110/509/1",
+  "importedAt": "2026-06-08T09:34:03.464Z",
+  "title": "コンピュータシステムとＡＩ",
+  "subtitle": "Computer Systems and AI",
+  "courseType": "Major ProgramMajor Courses",
+  "credits": "2",
+  "term": "2026年度\n\n                2nd year 1st semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "MATSUSHITA Yutaka\n授業科目の学習・教育目標"
+  ],
+  "keywords": [
+    "Computer",
+    "Instruction execution",
+    "Assembler",
+    "Memory unit",
+    "Performance evaluation"
+  ],
+  "educationalGoal": "Information technology (IT) and artificial intelligence (AI) are essential elements of modern society, and they are realized by computer systems. In this course, students will learn the structure and operating principles of a central processing unit (CPU), memory, and the input/output units that are the main components of a computer. In addition, students will learn the fundamentals of AI.",
+  "advice": "This course covers the following basics of computer systems:\n\n1. Computer components\n2. Principles of calculation, instruction execution control\n3. Assembler language\n4. Configuration of storage devices and memory\n5. Calculation methods for performance evaluation\n6. Fundamentals of AI",
+  "books": "",
+  "requiredKnowledge": "This is the first course covering the internal structure of computers.\nStudents should review numerical expressions such as binary.",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "A,D,E,F,H,I",
+      "body": "Be able to understand the components of a computer"
+    },
+    {
+      "index": "②",
+      "type": "A,D,E,F,H,I",
+      "body": "Be able to understand programs written in the assembler language."
+    },
+    {
+      "index": "③",
+      "type": "A,D,E,F,H,I",
+      "body": "Be able to explain calculation control."
+    },
+    {
+      "index": "④",
+      "type": "A,D,E,F,H,I",
+      "body": "Be able to understand the configuration of memory."
+    },
+    {
+      "index": "⑤",
+      "type": "A,D,E,F,H,I",
+      "body": "Be able to understand basic properties of an operating system."
+    },
+    {
+      "index": "⑥",
+      "type": "A,D,E,F,H,I",
+      "body": "Be able to understand the fundamentals of AI"
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "40",
+        "30",
+        "20",
+        "0",
+        "0",
+        "0",
+        "10",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "40",
+        "30",
+        "20",
+        "0",
+        "0",
+        "0",
+        "10",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "40",
+        "30",
+        "20",
+        "0",
+        "0",
+        "0",
+        "10",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションとリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "Be able to fully understand a basic computer system, its system components, software, and hardware.\n\nBe able to completely resolve problems related to computer systems within the scope of the Japan Information-Technology Engineers Examination (Information-Technology Promotion Agency, Japan).\n\nBe able to understand the fundamentals of AI.",
+    "standard": "Be able to understand the fundamental concepts of a basic computer system, its system components, software, and hardware.\n\nBe able to understand the overview of AI."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Expression of information",
+      "operation": "Lecture and practice",
+      "assignments": "Preparation: Read textbook\nchapter 2 (pp. 5-11).\nReview: Understand contents\nof handouts.",
+      "minutes": "60"
+    },
+    {
+      "index": "2",
+      "content": "Performance evaluation",
+      "operation": "Lecture and practice",
+      "assignments": "Review: Understanding\nhandouts. Prepare for the\nfirst quiz.",
+      "minutes": "60"
+    },
+    {
+      "index": "3",
+      "content": "Calculation models and the configuration of\na computer",
+      "operation": "Lecture and practice",
+      "assignments": "Review: Understanding\nhandouts.",
+      "minutes": "60"
+    },
+    {
+      "index": "4",
+      "content": "Assembler language (1)\nSummary\n\nQuiz 1",
+      "operation": "Lecture and practice",
+      "assignments": "Preparation: Read textbook\nchapter 2 (pp. 11-19).\nReview: Understand contents\nof handouts",
+      "minutes": "60\n\n30"
+    },
+    {
+      "index": "5",
+      "content": "Assembler language (2)\nStore, Load",
+      "operation": "Lecture and practice",
+      "assignments": "Preparation: Read textbook\nchapters 3, 4 (pp. 37-44).\nReview: Understand contents\nof handouts",
+      "minutes": "60\n\n30"
+    },
+    {
+      "index": "6",
+      "content": "Assembler language (3)\nArithmetic and logic calculations",
+      "operation": "Lecture and practice",
+      "assignments": "Preparation: Read textbook\nchapter 4 (pp. 45-55).\nReview: Understand contents\nof handouts",
+      "minutes": "60\n\n30"
+    },
+    {
+      "index": "7",
+      "content": "Assembler language (4)\nConditional branching and iteration",
+      "operation": "Lecture and practice",
+      "assignments": "Preparation: Read textbook\nchapter 4 (pp. 56-58, 71-75).\nReview: Understand contents\nof handouts",
+      "minutes": "60\n\n60"
+    },
+    {
+      "index": "8",
+      "content": "Assembler language (Comprehensive review), CPU",
+      "operation": "Lecture and practice",
+      "assignments": "Preparation: Read textbook\nchapter 4 (pp. 59-70).\nReview: Understand contents\nPrepare the quiz.",
+      "minutes": "30\n\n60"
+    },
+    {
+      "index": "9",
+      "content": "CPU\nMemory unit (1)\n\nQuiz 2",
+      "operation": "Lecture and practice",
+      "assignments": "Preparation: Read reference\nbook section 6.1 to 6.3.\nReview: Understand contents\nof handouts",
+      "minutes": "60\n\n30"
+    },
+    {
+      "index": "10",
+      "content": "Memory unit (2)",
+      "operation": "Lecture and practice",
+      "assignments": "Preparation: Read reference\nbook section 6.4 to 6.6.\nReview: Understand contents\nof handouts",
+      "minutes": "60\n\n30"
+    },
+    {
+      "index": "11",
+      "content": "Virtual memory\n\nReport",
+      "operation": "Lecture and practice",
+      "assignments": "Preparation: Read reference\nbook chapter 7.\nReview: Prepare for the\nreport.",
+      "minutes": "60\n\n60"
+    },
+    {
+      "index": "12",
+      "content": "Operating system",
+      "operation": "Lecture and practice",
+      "assignments": "Preparation: Read reference\nbook chapter 7.\nReview: Understand contents\nof handouts",
+      "minutes": "60\n\n30"
+    },
+    {
+      "index": "13",
+      "content": "AI Fundamentals",
+      "operation": "Lecture and practice",
+      "assignments": "Preparation: Read reference\nbook chapter 7.\nReview: Understand contents\nof handouts",
+      "minutes": "60\n\n30"
+    },
+    {
+      "index": "14",
+      "content": "AI and Examination for confirmation of\nachievement",
+      "operation": "Examination",
+      "assignments": "Preparation: Understand what\nyou have learned so far.",
+      "minutes": "180"
+    },
+    {
+      "index": "15",
+      "content": "Commentary on the examination and\nSelf-inspection class",
+      "operation": "Commentary on the\nexamination",
+      "assignments": "Review: understand the\nproblems of the examination.",
+      "minutes": "60"
+    }
+  ],
+  "rawText": "金沢工業大学　学習支援計画書　M013-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Media Information\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                コンピュータシステムとＡＩ\n                Computer Systems and AI\n\n              2\n              M013-01\n\n                2026年度\n\n                2nd year 1st semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  MATSUSHITA Yutaka\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Computer\n2.Instruction execution\n3.Assembler\n4.Memory unit\n5.Performance evaluation\n\n              Information technology (IT) and artificial intelligence (AI) are essential elements of modern society, and they are realized by computer systems. In this course, students will learn the structure and operating principles of a central processing unit (CPU), memory, and the input/output units that are the main components of a computer. In addition, students will learn the fundamentals of AI.\n\n              授業の概要および学習上の助言\n\n              This course covers the following basics of computer systems:\n\n1. Computer components\n2. Principles of calculation, instruction execution control\n3. Assembler language\n4. Configuration of storage devices and memory\n5. Calculation methods for performance evaluation\n6. Fundamentals of AI\n\n              教科書および参考書・リザーブドブック\n\n              履修に必要な予備知識や技能\n\n              This is the first course covering the internal structure of computers.\nStudents should review numerical expressions such as binary.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                A,D,E,F,H,I\n                Be able to understand the components of a computer\n\n                ②\n                A,D,E,F,H,I\n                Be able to understand programs written in the assembler language.\n\n                ③\n                A,D,E,F,H,I\n                Be able to explain calculation control.\n\n                ④\n                A,D,E,F,H,I\n                Be able to understand the configuration of memory.\n\n                ⑤\n                A,D,E,F,H,I\n                Be able to understand basic properties of an operating system.\n\n                ⑥\n                A,D,E,F,H,I\n                Be able to understand the fundamentals of AI\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                40\n\n                30\n\n                20\n\n                0\n\n                0\n\n                0\n\n                10\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                40\n\n                30\n\n                20\n\n                0\n\n                0\n\n                0\n\n                10\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                40\n\n                30\n\n                20\n\n                0\n\n                0\n\n                0\n\n                10\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  コラボレーションとリーダーシップ\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  発表・表現・伝達する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  学習に取組む姿勢・意欲\n\n                    0\n\n                    0",
+  "courseId": "2026:spring:M013-01:0:509",
+  "language": "en"
+}

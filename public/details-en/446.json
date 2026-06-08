@@ -1,0 +1,307 @@
+{
+  "sourceIndex": 446,
+  "sourceUrl": "/opsyllabus/kitos0110/446/1",
+  "importedAt": "2026-06-08T09:34:02.200Z",
+  "title": "データサイエンス実践",
+  "subtitle": "Advanced Data Science",
+  "courseType": "Major ProgramMajor Courses",
+  "credits": "2",
+  "term": "2026年度\n\n                3rd year 2nd semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "TAKECHI Shoji\n授業科目の学習・教育目標"
+  ],
+  "keywords": [
+    "machine learning",
+    "deep learning",
+    "image classification",
+    "natural language processing",
+    "Artificial Intelligence"
+  ],
+  "educationalGoal": "This course provides the principles and practices of advance methods of data science. Students learn AI (Artificial Intelligence) technology such as ensemble learning method and some kinds of deep learning methods.\nStudents learn those method through the handouts with Python and Google Colaboratory.",
+  "advice": "In recent years, mathematics, AI, and data science have attracted a great deal of attention of various fields. This course is especially designed for the students who have learned basic statistics. Students learn advanced data science techniques including deep learning methods.\nThis course provides both classroom lectures and hands-on analysis exercises with Python and Google Colaboratory that are useful and use freeware tools for data analysis. Students learn theories, analytical skills, and some examples of business intelligence, which is considered to be the use of data in actual business.\nThe instructor expect students to acquire the ability of data analysis trough this class to develop business in the future.",
+  "books": "Textbooks: Yukinaga Azuma, Noble guidebook of artificial intelligence with Google Colaboratory, 2nd Edition (Google Colaboratoryで学ぶ! あたらしい人工知能技術の教科書 第2版), Shoueisha (ISBN:978-4798186092) (in Japanese language)\nReference books: None\nReserved books: None",
+  "requiredKnowledge": "Students are required to bring their own laptop computer to each class. The laptop PC needs to be able to install KNIME and Python with connecting to the Internet.\nStudents are expected to understand basics of statistics and Python programming, so the instructor strongly recommend to take the course, \"Statistics I\", \"Statistics II\", \"Algorithms and Data Structures\", and \"Business Analytics\" before taking this course.",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "D,J",
+      "body": "Be able to visualize given data to get appropriate findings"
+    },
+    {
+      "index": "②",
+      "type": "D,J",
+      "body": "Be able to understand and explain the outline of deep learning techniques"
+    },
+    {
+      "index": "③",
+      "type": "D,J",
+      "body": "Be able to apply a CNN (Convolutional Neural Networks) method for given image data"
+    },
+    {
+      "index": "④",
+      "type": "D,J",
+      "body": "Be able to apply a RNN (Recurrent  Neural Networks) method for given text data"
+    },
+    {
+      "index": "⑤",
+      "type": "D,G,L,N",
+      "body": "Be able to apply an appropriate analytical method of to make predictions and classifications for given data"
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "0",
+        "0",
+        "90",
+        "0",
+        "0",
+        "0",
+        "10",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "0",
+        "0",
+        "90",
+        "0",
+        "0",
+        "0",
+        "10",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "0",
+        "0",
+        "90",
+        "0",
+        "0",
+        "0",
+        "10",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションとリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "1) Understand and explain the details of deep learning techniques.\n2) Apply AI methods such as CNN and RNN to a variety kinds of data, and then explain the results of them appropriately.",
+    "standard": "1) Understand and explain the outlines of deep learning techniques.\n2) Apply AI methods such as CNN and RNN to given data, and then understand the results of them appropriately."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Oritentation (textbook chap.1)\n- What is AI & deep learning",
+      "operation": "Lecture & Exercise",
+      "assignments": "Review of textbook\nPreparation of tools",
+      "minutes": "60\n120"
+    },
+    {
+      "index": "2",
+      "content": "Google Colaboratory(textbook chap.2)　\nPython Introduction (textbook chap.3)",
+      "operation": "Lecture & Exercise",
+      "assignments": "Review of textbook\nReport assignment instructed\nin the class",
+      "minutes": "120\n180"
+    },
+    {
+      "index": "3",
+      "content": "Introduction to Deep Learning (1)\n(textbook chap.4)",
+      "operation": "Lecture & Exercise",
+      "assignments": "Review of textbook\nReport assignment instructed\nin the class",
+      "minutes": "180\n180"
+    },
+    {
+      "index": "4",
+      "content": "Introduction to Deep Learning (2)\n(textbook chap.4)",
+      "operation": "Lecture & Exercise",
+      "assignments": "Review of textbook\nReport assignment instructed\nin the class",
+      "minutes": "120\n180"
+    },
+    {
+      "index": "5",
+      "content": "Theory of Deep Learning (textbook chap.5)",
+      "operation": "Lecture & Exercise",
+      "assignments": "Review of textbook\nReport assignment instructed\nin the class",
+      "minutes": "120\n180"
+    },
+    {
+      "index": "6",
+      "content": "Machine Learning (textbook chap.6)",
+      "operation": "Lecture & Exercise",
+      "assignments": "Review of textbook\nReport assignment instructed\nin the class",
+      "minutes": "120\n180"
+    },
+    {
+      "index": "7",
+      "content": "Review of Deep Learning Techniques",
+      "operation": "Exercise, interactive\nactivities, and\nself-reflection",
+      "assignments": "Review of textbook\nReport assignment instructed\nin the class",
+      "minutes": "180\n180"
+    },
+    {
+      "index": "8",
+      "content": "CNN(Convolutional Neural Network)\n(textbook chap.7)",
+      "operation": "Lecture & Exercise",
+      "assignments": "Review of textbook\nReport assignment instructed\nin the class",
+      "minutes": "180\n180"
+    },
+    {
+      "index": "9",
+      "content": "Transfer Learning (textbook chap.12)",
+      "operation": "Lecture & Exercise",
+      "assignments": "Review of textbook\nReport assignment instructed\nin the class",
+      "minutes": "120\n180"
+    },
+    {
+      "index": "10",
+      "content": "RNN (Recurrent  Neural Network)\n(textbook chap.8)",
+      "operation": "Lecture & Exercise",
+      "assignments": "Review of textbook\nReport assignment instructed\nin the class",
+      "minutes": "120\n180"
+    },
+    {
+      "index": "11",
+      "content": "VAE(Variational Autoencoder) (textbook chap.9)",
+      "operation": "Lecture & Exercise",
+      "assignments": "Review of textbook\nReport assignment instructed\nin the class",
+      "minutes": "120\n180"
+    },
+    {
+      "index": "12",
+      "content": "GAN (Generative Adversarial Network)\n(textbook chap.10)",
+      "operation": "Lecture & Exercise",
+      "assignments": "Review of textbook\nReport assignment instructed\nin the class",
+      "minutes": "120\n180"
+    },
+    {
+      "index": "13",
+      "content": "Reinforcement Learning (textbook chap.11)",
+      "operation": "Lecture & Exercise",
+      "assignments": "Review of textbook\nReport assignment instructed\nin the class",
+      "minutes": "120\n180"
+    },
+    {
+      "index": "14",
+      "content": "Final Exercise",
+      "operation": "Exercise",
+      "assignments": "Report assignment instructed\nin the class",
+      "minutes": "300"
+    },
+    {
+      "index": "15",
+      "content": "Final review\nSelf-evaluation",
+      "operation": "Lecture, interactive\nactivities, and\nself-reflection",
+      "assignments": "Review of all materials\nincluding textbook",
+      "minutes": "120"
+    }
+  ],
+  "rawText": "金沢工業大学　学習支援計画書　F140-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Management Systems(〜2024)\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                データサイエンス実践\n                Advanced Data Science\n\n              2\n              F140-01\n\n                2026年度\n\n                3rd year 2nd semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  TAKECHI Shoji\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.machine learning\n2.deep learning\n3.image classification\n4.natural language processing\n5.Artificial Intelligence\n\n              This course provides the principles and practices of advance methods of data science. Students learn AI (Artificial Intelligence) technology such as ensemble learning method and some kinds of deep learning methods.\nStudents learn those method through the handouts with Python and Google Colaboratory.\n\n              授業の概要および学習上の助言\n\n              In recent years, mathematics, AI, and data science have attracted a great deal of attention of various fields. This course is especially designed for the students who have learned basic statistics. Students learn advanced data science techniques including deep learning methods.\nThis course provides both classroom lectures and hands-on analysis exercises with Python and Google Colaboratory that are useful and use freeware tools for data analysis. Students learn theories, analytical skills, and some examples of business intelligence, which is considered to be the use of data in actual business.\nThe instructor expect students to acquire the ability of data analysis trough this class to develop business in the future.\n\n              教科書および参考書・リザーブドブック\n\n              Textbooks: Yukinaga Azuma, Noble guidebook of artificial intelligence with Google Colaboratory, 2nd Edition (Google Colaboratoryで学ぶ! あたらしい人工知能技術の教科書 第2版), Shoueisha (ISBN:978-4798186092) (in Japanese language)\nReference books: None\nReserved books: None\n\n              履修に必要な予備知識や技能\n\n              Students are required to bring their own laptop computer to each class. The laptop PC needs to be able to install KNIME and Python with connecting to the Internet.\nStudents are expected to understand basics of statistics and Python programming, so the instructor strongly recommend to take the course, \"Statistics I\", \"Statistics II\", \"Algorithms and Data Structures\", and \"Business Analytics\" before taking this course.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                D,J\n                Be able to visualize given data to get appropriate findings\n\n                ②\n                D,J\n                Be able to understand and explain the outline of deep learning techniques\n\n                ③\n                D,J\n                Be able to apply a CNN (Convolutional Neural Networks) method for given image data\n\n                ④\n                D,J\n                Be able to apply a RNN (Recurrent  Neural Networks) method for given text data\n\n                ⑤\n                D,G,L,N\n                Be able to apply an appropriate analytical method of to make predictions and classifications for given data\n\n                ⑥\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                0\n\n                0\n\n                90\n\n                0\n\n                0\n\n                0\n\n                10\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                0\n\n                0\n\n                90\n\n                0\n\n                0\n\n                0\n\n                10\n\n              ",
+  "courseId": "2026:fall:F140-01:0:446",
+  "language": "en"
+}

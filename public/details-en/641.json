@@ -1,0 +1,305 @@
+{
+  "sourceIndex": 641,
+  "sourceUrl": "/opsyllabus/kitos0110/641/1",
+  "importedAt": "2026-06-08T09:34:06.221Z",
+  "title": "ロボット材料力学",
+  "subtitle": "Mechanics of Materials",
+  "courseType": "Major ProgramMajor Courses",
+  "credits": "2",
+  "term": "2026年度\n\n                2nd year 1st semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "DOI Takahiro\n授業科目の学習・教育目標"
+  ],
+  "keywords": [
+    "Stress, strain",
+    "Shearing force, bending moment",
+    "Beam deflection"
+  ],
+  "educationalGoal": "Understand how force application to and deformation of a material is important as a basis of the structural design of machines and robots.\nLearn step-by-step stress and strain and the deformation of stressed objects, truss structures, and beams by lecture and exercises.\nRepresent the inner stress caused by external forces as a mathematical model useful for design.",
+  "advice": "1. Students will use mathematical tools (matrix, vector, and differential equations) and physical tools (units, force, and moment). In this course, these tools are reviewed and supplemented. Students are expected to review mathematics and physics.\n2. Students are expected to work hard on exercises during the class and review them afterward. Students are expected to complete all exercises.\n3. Questions should not be left unsolved. Review of basic mathematics and physics is recommended.",
+  "books": "Basis of Understanding Strength of Materials Second edition, Kyoritsu Syuppan (in Japanese)",
+  "requiredKnowledge": "Scientific calculator\nLinear algebra (vector, matrix, and differential equations)",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "M",
+      "body": "Understand stress and strain"
+    },
+    {
+      "index": "②",
+      "type": "M",
+      "body": "Draw a stress-strain graph and explain its characteristics and how it reflects deformation"
+    },
+    {
+      "index": "③",
+      "type": "M",
+      "body": "Draw a shear force diagram (SFD) and bending moment diagram (BMD) to improve your understanding"
+    },
+    {
+      "index": "④",
+      "type": "M",
+      "body": "Use load parameters to derive a differential equation of beam deflection"
+    },
+    {
+      "index": "⑤",
+      "type": "M",
+      "body": "Solve a differential equation for beam deflection"
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "40",
+        "50",
+        "10",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "40",
+        "50",
+        "10",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "40",
+        "50",
+        "10",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションとリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "(1) Explain stress and strain from the viewpoint of elastic mechanics.\n(2) Design a safe structure using allowable stress and safety factors.\n(3) Derive and solve differential equations of beam deflection.\n(4) Design robotic structures while applying the mechanics of materials.",
+    "standard": "(1) Calculate stress and strain.\n(2) Draw SFDs and BMDs.\n(3) Calculate thermal stress.\n(4) Calculate deflection of beams using simple formulas"
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Course introduction\nUnits\nStress and strain, Hook's law",
+      "operation": "Lecture and Q&A\nMathematics test\nSelf-check",
+      "assignments": "Review mathematics\nStudy textbook sections 1.2\nand 1.3",
+      "minutes": "150"
+    },
+    {
+      "index": "2",
+      "content": "Mechanics of steel materials\nSafety factor",
+      "operation": "Lecture and Q&A\nSelf-check",
+      "assignments": "Study textbook sections 1.4\nand 1.5",
+      "minutes": "120"
+    },
+    {
+      "index": "3",
+      "content": "Truss structure",
+      "operation": "Lecture and Q&A\nSelf-check",
+      "assignments": "Study textbook sections 2.1\nand 2.2",
+      "minutes": "120"
+    },
+    {
+      "index": "4",
+      "content": "Statically indeterminate\nInitial stress\nThermal stress\nStress concentration",
+      "operation": "Lecture and Q&A\nSelf-check",
+      "assignments": "Study textbook sections\n2.1-2.5",
+      "minutes": "120"
+    },
+    {
+      "index": "5",
+      "content": "Review of integral\nTensile compressive stress\nNon-uniform object cross section",
+      "operation": "Lecture and Q&A\nSelf-check",
+      "assignments": "Study textbook sections\n2.1-2.5",
+      "minutes": "120"
+    },
+    {
+      "index": "6",
+      "content": "Stress and deformation caused by gravity\nCentrifugal force",
+      "operation": "Lecture and Q&A\nSelf-check",
+      "assignments": "Study textbook sections 3.1\nand 2.1",
+      "minutes": "120"
+    },
+    {
+      "index": "7",
+      "content": "Beams\nShearing force and bending moment of beams\nSFDs and BMDs",
+      "operation": "Lecture and Q&A\nSelf-check",
+      "assignments": "Study textbook sections 3.1\nand 3.2",
+      "minutes": "120"
+    },
+    {
+      "index": "8",
+      "content": "Review and quiz",
+      "operation": "Review of classes 1-7\nSelf-check",
+      "assignments": "Review",
+      "minutes": "240"
+    },
+    {
+      "index": "9",
+      "content": "SFDs and BMDs\nVariation of load",
+      "operation": "Lecture and Q&A\nSelf-check",
+      "assignments": "Study textbook section 3.2",
+      "minutes": "120"
+    },
+    {
+      "index": "10",
+      "content": "Quiz review",
+      "operation": "Lecture and Q&A\nSelf-check",
+      "assignments": "Review",
+      "minutes": "240"
+    },
+    {
+      "index": "11",
+      "content": "SFDs and BMDs\nVariation of load",
+      "operation": "Lecture and Q&A\nSelf-check",
+      "assignments": "Study textbook section 3.2",
+      "minutes": "240"
+    },
+    {
+      "index": "12",
+      "content": "Bending stress\nNeutral surface, neutral axis\nBending stress and bending moment\nSection modulus",
+      "operation": "Lecture and Q&A\nSelf-check",
+      "assignments": "Study textbook section 3.3",
+      "minutes": "240"
+    },
+    {
+      "index": "13",
+      "content": "Deflection of beam\nAngle of deflection\nSolution by differential equation\nExercises on beam deflection\nTorsion",
+      "operation": "Lecture and Q&A\nSelf-check",
+      "assignments": "Study textbook sections 3.3,3.\n4 and 4.1",
+      "minutes": "240"
+    },
+    {
+      "index": "14",
+      "content": "Review\nExamination",
+      "operation": "Review\nSelf-check",
+      "assignments": "Review beam deflection",
+      "minutes": "240"
+    },
+    {
+      "index": "15",
+      "content": "Exam description\nReview",
+      "operation": "Comments\nSelf-check",
+      "assignments": "Review",
+      "minutes": "120"
+    }
+  ],
+  "rawText": "金沢工業大学　学習支援計画書　C210-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Robotics\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                ロボット材料力学\n                Mechanics of Materials\n\n              2\n              C210-01\n\n                2026年度\n\n                2nd year 1st semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  DOI Takahiro\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Stress, strain\n2.Shearing force, bending moment\n3.Beam deflection\n\n              Understand how force application to and deformation of a material is important as a basis of the structural design of machines and robots.\nLearn step-by-step stress and strain and the deformation of stressed objects, truss structures, and beams by lecture and exercises.\nRepresent the inner stress caused by external forces as a mathematical model useful for design.\n\n              授業の概要および学習上の助言\n\n              1. Students will use mathematical tools (matrix, vector, and differential equations) and physical tools (units, force, and moment). In this course, these tools are reviewed and supplemented. Students are expected to review mathematics and physics.\n2. Students are expected to work hard on exercises during the class and review them afterward. Students are expected to complete all exercises.\n3. Questions should not be left unsolved. Review of basic mathematics and physics is recommended.\n\n              教科書および参考書・リザーブドブック\n\n              Basis of Understanding Strength of Materials Second edition, Kyoritsu Syuppan (in Japanese)\n\n              履修に必要な予備知識や技能\n\n              Scientific calculator\nLinear algebra (vector, matrix, and differential equations)\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                M\n                Understand stress and strain\n\n                ②\n                M\n                Draw a stress-strain graph and explain its characteristics and how it reflects deformation\n\n                ③\n                M\n                Draw a shear force diagram (SFD) and bending moment diagram (BMD) to improve your understanding\n\n                ④\n                M\n                Use load parameters to derive a differential equation of beam deflection\n\n                ⑤\n                M\n                Solve a differential equation for beam deflection\n\n                ⑥\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                40\n\n                50\n\n                10\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                40\n\n                50\n\n                10\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                40\n\n                50\n\n                10\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  コラボレーションとリーダーシップ\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  発表・表現・伝達する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0",
+  "courseId": "2026:spring:C210-01:0:641",
+  "language": "en"
+}

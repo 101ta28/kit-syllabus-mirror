@@ -1,0 +1,305 @@
+{
+  "sourceIndex": 242,
+  "sourceUrl": "/opsyllabus/kitos0110/242/1",
+  "importedAt": "2026-06-08T09:33:58.063Z",
+  "title": "ロボティクス専門実験・演習Ａ",
+  "subtitle": "Robotics Major Lab/Exercises A",
+  "courseType": "Major ProgramMajor Courses",
+  "credits": "3",
+  "term": "2026年度\n\n                3rd year 1st semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "TAKEI Yoshinori",
+    "ITO Kouhei",
+    "DOI Takahiro",
+    "MURAO Toshiyuki\n授業科目の学習・教育目標"
+  ],
+  "keywords": [
+    "Electrical and electronic circuits",
+    "Vibration engineering",
+    "Control engineering",
+    "Robot control",
+    "Mechanics"
+  ],
+  "educationalGoal": "(1) Learn basic theory and method for robotics control.\n(2) Deepen understanding and develop robotics application capabilities.\n(3) Learn the skills needed to perform experiments and write reports.\n(4) Learn how to arrange and present the content, results, and discussion in a report.",
+  "advice": "This is a course of lab exercises in robotics. We will cover the following topics:\n\n1.Measurement and Signal processing: Evaluation of sensor characteristics\nThis course deals with linearity, nonlinearity and hysteresis property in sensors, which can be evaluated with a potentiometer, a pressure conductive sensor and a phototransistor. Using the Arduino and the MATLAB & Simulink software, the data acquisition can be done interactively.\n2.Experiment for mechanics of materials\nStudents will measure the load and deformation of a robot arm, summarize the results as a mechanical model and evaluate the model by experiments.\n3.Exercise for micro-controller\nStudents will construct a timer interrupt program, ADC/DAC program, PWM control and encoder reading program, and I2C program using Arduino, and run each program using an actual circuit, motor, and sensor.\n4.Experiment for control engineering\nStudents will apply the classical control theory to DC servomotors using Arduino and a PC with MATLAB/Simulink software.",
+  "books": "None",
+  "requiredKnowledge": "None",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "J-O",
+      "body": "Complete lab exercises safely while following the prescribed steps."
+    },
+    {
+      "index": "②",
+      "type": "J-O",
+      "body": "Complete lab exercises proactively using on your knowledge of robotics."
+    },
+    {
+      "index": "③",
+      "type": "J-O",
+      "body": "Organize and discuss results using your knowledge of robotics."
+    },
+    {
+      "index": "④",
+      "type": "J-O",
+      "body": "Write and submit a report using the results, and explain the results orally."
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "40",
+        "20",
+        "40",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "40",
+        "20",
+        "40",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "40",
+        "20",
+        "40",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションとリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "(1) Complete lab exercises based on the preparation contents.\n(2) Logically discuss and explain the obtained results.\n(3) Write a report from the results and discussions and communicate in an easy-to-understand manner.",
+    "standard": "(1) Complete lab exercises following the textbook.\n(2) Discuss and explain the obtained results.\n(3) Write a report from the results and discussions."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Understand the learning, summary, and action\nobjectives based on the distributed syllabus.\nEspecially, understand the part of the\neducation objectives of the Department of\nRobotics that is covered by this subject and\nspecific achievement level.",
+      "operation": "Lecture and Q&A",
+      "assignments": "Review: Confirm the text,\nresumes, contents, and notes\nof each theme.",
+      "minutes": "60"
+    },
+    {
+      "index": "2",
+      "content": "Understand how to write a report and use\nexperimental apparatus I.",
+      "operation": "Lecture and Exercises",
+      "assignments": "Preparation: Confirm the\ntheme.\nReview: Read the distributed\nresumes. Confirm how to write\na report and how to use the\nexperimental apparatus.",
+      "minutes": "30\n\n60"
+    },
+    {
+      "index": "3",
+      "content": "Understand how to write a report and use\nexperimental apparatus II.",
+      "operation": "Lecture and Exercises",
+      "assignments": "Preparation: Confirm the\ntheme.\nReview: Read the distributed\nresumes. Confirm how to write\na report and how to use the\nexperimental apparatus.",
+      "minutes": "30\n\n60"
+    },
+    {
+      "index": "4",
+      "content": "Measurement and Signal processing: Evaluation\nof sensor characteristics 1",
+      "operation": "Experiment\n-\tEvaluation of\nPotentiometer and\nPressure conductive sensor",
+      "assignments": "Preparation: Setup of data\nacquisition environment using\nthe MATLAB & Simulink\nReview: Review basic\nproperties of sensors:\nprinciples, structures and\napplications",
+      "minutes": "30\n\n60"
+    },
+    {
+      "index": "5",
+      "content": "Measurement and Signal processing: Evaluation\nof sensor characteristics 2",
+      "operation": "Experiment\n-\tEvaluation of\nPhototransistor and its\napplication to line\ndetection sensor",
+      "assignments": "Preparation:Review basic\nproperties of sensors for\nline tracing robot\nReview: Make out first draft\nof the report in this course",
+      "minutes": "30\n\n240"
+    },
+    {
+      "index": "6",
+      "content": "Measurement and Signal processing: Evaluation\nof sensor characteristics 3",
+      "operation": "Experiment:\n Evaluation and analyzing\ndata of experiments",
+      "assignments": "Preparation: Review the least\nsquares method for sensor\ncalibration\n\nReview: Complete the report\nof this course.",
+      "minutes": "30\n\n240"
+    },
+    {
+      "index": "7",
+      "content": "Experiment for mechanics of materials\n(1) Measurement and modeling of the deformation\nof a robot arm",
+      "operation": "Experiment:\n-      Measurement of the\ndeformation of a robot arm\n-      Evaluation and\nanalyzing data of\nexperiments",
+      "assignments": "Preparation: Review the\nmechanics of materials\nReview: Analyze and discuss\nthe data",
+      "minutes": "30\n\n60"
+    },
+    {
+      "index": "8",
+      "content": "Experiment for mechanics of materials\n(2) Stress and deformation simulation of a robot\n arm",
+      "operation": "Experiment:\n-      Design and\nsimulation of a robot arm\n-      Evaluation and\nanalyzing data of\nexperiments",
+      "assignments": "Preparation: Review the\ninstruction documents\nReview: Analyze and discuss\nthe data",
+      "minutes": "30\n\n60"
+    },
+    {
+      "index": "9",
+      "content": "Experiment for mechanics of materials\n(3) Design and evaluation of a robot arm\nconsidering strength",
+      "operation": "Experiment:\n-      Measurement of the\ndeformation of the\ndesigned robot arm\n-      Evaluation and\nanalyzing data of\nexperiments",
+      "assignments": "Preparation: Review the\ninstruction documents\nReview: Analyze and discuss\nthe data",
+      "minutes": "30\n\n120"
+    },
+    {
+      "index": "10",
+      "content": "Exercise for micro-controllers I: Write timer\ninterrupt and ADC/DAC program using Arduino",
+      "operation": "Experiment:\n-      Write a program\n-      Measure DAC and ADC",
+      "assignments": "Preparation: Review the PWM\ncontrol program\nReview: Review the R-2R DAC\ncircuit",
+      "minutes": "30\n\n120"
+    },
+    {
+      "index": "11",
+      "content": "Exercise for micro-controllers II: Write PWM\ncontrol and encoder program using Arduino",
+      "operation": "Experiment:\n-\tWrite a program\n-\tMeasure PWM\nsignal and encoder output\nsignal",
+      "assignments": "Preparation: Review the\nserial communication program\nReview: Calculate the RPMs\nfrom the encoder output signal",
+      "minutes": "30\n\n120"
+    },
+    {
+      "index": "12",
+      "content": "Exercise for micro-controllers III: Write I2C\nprogram using Arduino with 9DOF sensor",
+      "operation": "Experiment:\n-\tWrite a program\n-\tMeasure 2-axis\nacceleration",
+      "assignments": "Preparation: Review the I2C\nprogram\nReview: Calculate the\nattitude angle from sensor\noutput signals",
+      "minutes": "30\n\n120"
+    },
+    {
+      "index": "13",
+      "content": "Experiment for control engineering I: Velocity\nfeedback control",
+      "operation": "Experiment:\n-\tMeasure the time\nconstant\n-\tPlot a Bode\ndiagram and the vector\nlocus",
+      "assignments": "Preparation: Review the\ntransient response and the\nfrequency response for the\nfirst-order system\nReview: Plot a Bode diagram\nand a vector locus",
+      "minutes": "30\n\n60"
+    },
+    {
+      "index": "14",
+      "content": "Experiment for control engineering II: PID\ncontrol",
+      "operation": "Experiment:\n-\tMeasure the\novershoot and the\nsteady-state position\nerror\n-\tConfirm the\nstability property\n-\tConfirm the\nresponse with the\ntrapezoid wave input",
+      "assignments": "Preparation: Review the\ntransient response for the\nsecond-order system and\nstability analysis\nReview: Draft an experimental\nreport",
+      "minutes": "30\n\n240"
+    },
+    {
+      "index": "15",
+      "content": "Experiment for control engineering III: Review\nfrequency response experiments",
+      "operation": "Experiment\nFrequency response",
+      "assignments": "Preparation: Check the\nexperimental results and the\nexperimental report\nReview: Complete the\nexperimental report",
+      "minutes": "30\n\n240"
+    }
+  ],
+  "rawText": "金沢工業大学　学習支援計画書　E235-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Robotics(〜2024)\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                ロボティクス専門実験・演習Ａ\n                Robotics Major Lab/Exercises A\n\n              3\n              E235-01\n\n                2026年度\n\n                3rd year 1st semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  TAKEI Yoshinori, ITO Kouhei, DOI Takahiro, MURAO Toshiyuki\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Electrical and electronic circuits\n2.Vibration engineering\n3.Control engineering\n4.Robot control\n5.Mechanics\n\n              (1) Learn basic theory and method for robotics control.\n(2) Deepen understanding and develop robotics application capabilities.\n(3) Learn the skills needed to perform experiments and write reports.\n(4) Learn how to arrange and present the content, results, and discussion in a report.\n\n              授業の概要および学習上の助言\n\n              This is a course of lab exercises in robotics. We will cover the following topics:\n\n1.Measurement and Signal processing: Evaluation of sensor characteristics\nThis course deals with linearity, nonlinearity and hysteresis property in sensors, which can be evaluated with a potentiometer, a pressure conductive sensor and a phototransistor. Using the Arduino and the MATLAB & Simulink software, the data acquisition can be done interactively.\n2.Experiment for mechanics of materials\nStudents will measure the load and deformation of a robot arm, summarize the results as a mechanical model and evaluate the model by experiments.\n3.Exercise for micro-controller\nStudents will construct a timer interrupt program, ADC/DAC program, PWM control and encoder reading program, and I2C program using Arduino, and run each program using an actual circuit, motor, and sensor.\n4.Experiment for control engineering\nStudents will apply the classical control theory to DC servomotors using Arduino and a PC with MATLAB/Simulink software.\n\n              教科書および参考書・リザーブドブック\n\n              None\n\n              履修に必要な予備知識や技能\n\n              None\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                J-O\n                Complete lab exercises safely while following the prescribed steps.\n\n                ②\n                J-O\n                Complete lab exercises proactively using on your knowledge of robotics.\n\n                ③\n                J-O\n                Organize and discuss results using your knowledge of robotics.\n\n                ④\n                J-O\n                Write and submit a report using the results, and explain the results orally.\n\n                ⑤\n\n                ⑥\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                40\n\n                20\n\n                40\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                40\n\n                20\n\n                40\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                40\n\n                20\n\n                40\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  コラボレーションとリーダーシップ\n\n                    0\n\n                  ",
+  "courseId": "2026:spring:E235-01:0:242",
+  "language": "en"
+}

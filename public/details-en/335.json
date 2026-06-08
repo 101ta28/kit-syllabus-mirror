@@ -1,0 +1,309 @@
+{
+  "sourceIndex": 335,
+  "sourceUrl": "/opsyllabus/kitos0110/335/1",
+  "importedAt": "2026-06-08T09:33:59.852Z",
+  "title": "情報工学専門実験・演習Ｂ",
+  "subtitle": "Information and Computer Science Major Lab/Exercises B",
+  "courseType": "Major ProgramMajor Courses",
+  "credits": "3",
+  "term": "2026年度\n\n                3rd year 1st semester3rd year 2nd semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "YAMAMOTO Tomohito",
+    "MOTOKI Mitsuo",
+    "KONNO Takeshi\n授業科目の学習・教育目標"
+  ],
+  "keywords": [
+    "LEGO SPIKE + Raspberry Pi",
+    "Developing embedded system",
+    "Android programming",
+    "UI and APIs",
+    "Solution proposal"
+  ],
+  "educationalGoal": "- Students will acquire knowledge and skills in deep learning by developing and running an autonomous driving program that connects image data obtained from a camera attached to a robot car built using LEGO SPIKE and a Raspberry Pi with motor control.\n- Students will also acquire knowledge and skills for developing Android applications using various UI and APIs and propose valuable IT solutions.",
+  "advice": "Overview of this class:\n\n[Developing autonomous driving programs for LEGO SPIKE with Raspberry Pi]\n1) Introduction of the LEGO SPIKE + Raspberry Pi robot and setup of the development environments for SPIKE and Raspberry Pi (Python, Visual Studio Code, and Google Colaboratory).\n2) Basic motions and control methods of the LEGO SPIKE + Raspberry Pi robot.\n3) Implementation of autonomous driving using image recognition techniques.\n4) Implementation of autonomous driving using convolutional neural networks.\n5) Implementation of advanced autonomous driving tasks and demonstration of development results.\n\n[Developing Android apps]\n6) Introduction of development environment and basic Android programming.\n7) Android programming using various UIs.\n8) Android programming using APIs and proposing an IT solution.\n9) Android programming using “Intent” and implementation of the IT solution.\n10) Presentation on the IT solution",
+  "books": "Required Materials will be provided in the class.",
+  "requiredKnowledge": "- Review Linux command-line operations and Python programming.\n- Review basic mechanisms of computer networks (TCP/IP).\n- Review the methods of group development.",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "D,F,I,K,L,N",
+      "body": "Be able to explain the principles of autonomous driving using a LEGO SPIKE + Raspberry Pi robot."
+    },
+    {
+      "index": "②",
+      "type": "D,F,I,J,K,L,N",
+      "body": "Be able to prepare a development environment for the LEGO SPIKE + Raspberry Pi robot and develop advanced applic"
+    },
+    {
+      "index": "③",
+      "type": "D,F,I,J,K,L,N,O,R",
+      "body": "Be able to develop basic Android apps using a proper UI."
+    },
+    {
+      "index": "④",
+      "type": "D,F,I,J,K,L,N,O,R",
+      "body": "Be able to develop useful Android apps using proper APIs."
+    },
+    {
+      "index": "⑤",
+      "type": "D,F,I,J,K,L,N,O,R",
+      "body": "Be able to propose valuable IT solutions with Android apps."
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "0",
+        "0",
+        "100",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "0",
+        "0",
+        "100",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "0",
+        "0",
+        "100",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションとリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "[Developing control programs for LEGO SPIKE+RasPi]\n- Students with ideal achievement levels can design and implement practical control programs for a robot car using LEGO SPIKE and a RasPi, explain advanced mechanisms of robot car control systems, and design autonomous driving models based on image recognition and deep learning.\n[Developing Android apps]\n-Students with ideal achievement levels can implement Android apps realizing high usability using various UIs and APIs\n and they can also understand the customer needs sufficiently and deploy IT solutions based on them, as well as present them to customers in a comprehensive way.",
+    "standard": "[Developing control programs for LEGO SPIKE+RasPi]\n-Students with standard achievement levels can implement practical control programs for a robot car using LEGO SPIKE and a RasPi, explain mechanisms of robot car control systems, and design autonomous driving models based on deep learning.\n[Developing Android apps]\n-Students with standard achievement levels can implement basic Android apps using online documents for developers\n and they can also understand what IT solutions are applicable and acquire the basic skills for proposing them."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "[Developing control programs for LEGO SPIKE + Ra\nspberry Pi]\nIntroduction of the robot car and the laboratory\n exercises, and setup of the development environ\nment.\n\n[Developing Android apps]\nLearn the overview of the apps development and\nintroduce development environment",
+      "operation": "Lecture, exercise,\nexperiment, and\nself- check",
+      "assignments": "[Developing control programs f\nor LEGO SPIKE + Raspberry Pi]\nReview Linux commands and prog\nram development using Python.\n\n[Developing Android apps]\nIntroduce development\nenvironment for Android apps\nin each student’s notebook\ncomputer and review Java\nprogramming.",
+      "minutes": "Reflec\ntion:\n90\nPrepar\nation:\n 90"
+    },
+    {
+      "index": "2",
+      "content": "SPIKE + Raspberry Pi programming 1: Learn to dev\nelop programs that connect input and output (i.e\n., motor control and camera input) through manua\nl driving.",
+      "operation": "Lecture, exercise,\nexperiment, and\nself- check",
+      "assignments": "Preview basic control structur\nes in Python programs and meth\nods for serial communication.\nReport assignment 1 (0.5).",
+      "minutes": "Reflec\ntion:\n60\nPrepar\nation:\n 60"
+    },
+    {
+      "index": "3",
+      "content": "SPIKE + Raspberry Pi programming 2: Learn to imp\nlement autonomous driving of a robot car using c\nlassical image recognition techniques.",
+      "operation": "Lecture, exercise,\nexperiment, and\nself- check",
+      "assignments": "Preview methods for acquiring\nimages from a camera, handling\n image data, and feature extra\nction.\nReport assignment 1 (0.5).",
+      "minutes": "Reflec\ntion:\n60\nPrepar\nation:\n 60"
+    },
+    {
+      "index": "4",
+      "content": "SPIKE + Raspberry Pi programming 3: Learn to dev\nelop deep learning models using autonomous drivi\nng data obtained through classical control techn\niques.",
+      "operation": "Lecture, exercise,\nexperiment, and\nself- check",
+      "assignments": "Preview learning methods using\n deep neural networks (NNs), e\nspecially convolutional neural\n networks.\nReport assignment 2.",
+      "minutes": "Reflec\ntion:\n60\nPrepar\nation:\n 60"
+    },
+    {
+      "index": "5",
+      "content": "SPIKE + Raspberry Pi programming 4: Learn to dev\nelop deep learning models using data obtained th\nrough manual driving.",
+      "operation": "Lecture, exercise,\nexperiment, and\nself- check",
+      "assignments": "Preview methods for improving\nthe training accuracy of neura\nl networks.",
+      "minutes": "Reflec\ntion:\n120\nPrepar\nation:\n 120"
+    },
+    {
+      "index": "6",
+      "content": "SPIKE + Raspberry Pi advanced task (1): Learn to\n develop deep learning models by setting advance\nd scenarios for autonomous driving.",
+      "operation": "Lecture, exercise,\nexperiment, and self-check",
+      "assignments": "Review and consider advanced t\nasks for autonomous driving.",
+      "minutes": "Reflec\ntion:\n120\nPrepar\nation:\n 120"
+    },
+    {
+      "index": "7",
+      "content": "SPIKE + Raspberry Pi advanced task (2): Continue\n to learn to develop deep learning models for ad\nvanced scenarios in autonomous driving.",
+      "operation": "Lecture, experiment, and\nself-check",
+      "assignments": "Work on implementing advanced\nautonomous driving tasks and c\nompleting unfinished report as\nsignments.",
+      "minutes": "Reflec\ntion:\n120\nPrepar\nation:\n 120"
+    },
+    {
+      "index": "8",
+      "content": "SPIKE + Raspberry Pi advanced task demonstration\n: Demonstrate autonomous driving using models de\nveloped for the defined advanced scenarios.",
+      "operation": "Lecture, presentation,\nand self-check",
+      "assignments": "Review all topics of this\nclass and connect them for\nfuture studies and research.",
+      "minutes": "Reflec\ntion:\n60"
+    },
+    {
+      "index": "9",
+      "content": "Android programming 1:\nLearn basic Android programming using various\nUI.",
+      "operation": "Lecture, exercise,\nexperiment, and\nself- check",
+      "assignments": "Review Android programming\nwith UI and prepare for\nevent-driven programming.",
+      "minutes": "Reflec\ntion:\n90\nPrepar\nation:\n 90"
+    },
+    {
+      "index": "10",
+      "content": "Android programming 2:\nLearn Android programming using several\n“View” and event-driven processes.",
+      "operation": "Lecture, exercise,\nexperiment, and\nself- check",
+      "assignments": "Review the programming with\nView and event-driven\nprocesses and prepare for\nprogramming with APIs.",
+      "minutes": "Reflec\ntion:\n90\nPrepar\nation:\n 90"
+    },
+    {
+      "index": "11",
+      "content": "Android programming 3:\nLearn Android programming using various APIs\n(Multimedia, Graphics, Database).",
+      "operation": "Lecture, exercise,\nExperiment, and\nself- check",
+      "assignments": "Review the programming with\nAPIs and consider the\noverview of IT solutions.",
+      "minutes": "Reflec\ntion:\n90\nPrepar\nation:\n 90"
+    },
+    {
+      "index": "12",
+      "content": "Android programming 4:\nLearn Android programming using various APIs\n(Sensors, Google Maps). Present the idea of IT\nsolutions.",
+      "operation": "Lecture, exercise,\npresentation, and\nself-check",
+      "assignments": "Review the programming with\nAPIs and develop the apps for\nIT solutions.",
+      "minutes": "Reflec\ntion:\n90\nPrepar\nation:\n 90"
+    },
+    {
+      "index": "13",
+      "content": "Android programming 5:\nLearn Android programming using “Intent” for\ncooperation between apps.",
+      "operation": "Lecture, exercise,\nexperiment, and\nself- check",
+      "assignments": "Review the programming with\nIntent and develop the apps\nfor IT solutions.",
+      "minutes": "Reflec\ntion:\n120\nPrepar\nation:\n 120"
+    },
+    {
+      "index": "14",
+      "content": "Develop IT solutions with Android apps and\nprepare the final presentation and report.",
+      "operation": "Lecture, exercise,\nexperiment, and\nself- check",
+      "assignments": "Develop IT solutions with\nAndroid apps and prepare the\nfinal presentation and report.",
+      "minutes": "Reflec\ntion:\n120\nPrepar\nation:\n 120"
+    },
+    {
+      "index": "15",
+      "content": "Present developed IT solution with Android\napps and submit the final report.",
+      "operation": "Lecture, exercise,\npresentation, and\nself- check",
+      "assignments": "Review all topics of this\nclass and connect them for\nfuture studies and research.",
+      "minutes": "Reflec\ntion:\n60"
+    }
+  ],
+  "rawText": "金沢工業大学　学習支援計画書　E535-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Information and Computer Science(〜2024)\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                情報工学専門実験・演習Ｂ\n                Information and Computer Science Major Lab/Exercises B\n\n              3\n              E535-01\n\n                2026年度\n\n                3rd year 1st semester3rd year 2nd semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  YAMAMOTO Tomohito, MOTOKI Mitsuo, KONNO Takeshi\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.LEGO SPIKE + Raspberry Pi\n2.Developing embedded system\n3.Android programming\n4.UI and APIs\n5.Solution proposal\n\n              - Students will acquire knowledge and skills in deep learning by developing and running an autonomous driving program that connects image data obtained from a camera attached to a robot car built using LEGO SPIKE and a Raspberry Pi with motor control.\n- Students will also acquire knowledge and skills for developing Android applications using various UI and APIs and propose valuable IT solutions.\n\n              授業の概要および学習上の助言\n\n              Overview of this class:\n\n[Developing autonomous driving programs for LEGO SPIKE with Raspberry Pi]\n1) Introduction of the LEGO SPIKE + Raspberry Pi robot and setup of the development environments for SPIKE and Raspberry Pi (Python, Visual Studio Code, and Google Colaboratory).\n2) Basic motions and control methods of the LEGO SPIKE + Raspberry Pi robot.\n3) Implementation of autonomous driving using image recognition techniques.\n4) Implementation of autonomous driving using convolutional neural networks.\n5) Implementation of advanced autonomous driving tasks and demonstration of development results.\n\n[Developing Android apps]\n6) Introduction of development environment and basic Android programming.\n7) Android programming using various UIs.\n8) Android programming using APIs and proposing an IT solution.\n9) Android programming using “Intent” and implementation of the IT solution.\n10) Presentation on the IT solution\n\n              教科書および参考書・リザーブドブック\n\n              Required Materials will be provided in the class.\n\n              履修に必要な予備知識や技能\n\n              - Review Linux command-line operations and Python programming.\n- Review basic mechanisms of computer networks (TCP/IP).\n- Review the methods of group development.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                D,F,I,K,L,N\n                Be able to explain the principles of autonomous driving using a LEGO SPIKE + Raspberry Pi robot.\n\n                ②\n                D,F,I,J,K,L,N\n                Be able to prepare a development environment for the LEGO SPIKE + Raspberry Pi robot and develop advanced applic\n\n                ③\n                D,F,I,J,K,L,N,O,R\n                Be able to develop basic Android apps using a proper UI.\n\n                ④\n                D,F,I,J,K,L,N,O,R\n                Be able to develop useful Android apps using proper APIs.\n\n                ⑤\n                D,F,I,J,K,L,N,O,R\n                Be able to propose valuable IT solutions with Android apps.\n\n                ⑥\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                0\n\n                0\n\n                100\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                0\n\n                0\n\n                100\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              総",
+  "courseId": "2026:fall:E535-01:0:335",
+  "language": "en"
+}

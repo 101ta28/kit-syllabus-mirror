@@ -300,6 +300,35 @@ code {
   font-weight: 700;
 }
 
+.language-tabs {
+  display: inline-flex;
+  gap: 8px;
+  margin-top: 16px;
+  border: 1px solid #cfd6e2;
+  border-radius: 8px;
+  background: #fff;
+  padding: 4px;
+}
+
+.language-tabs button {
+  border: 0;
+  border-radius: 6px;
+  background: transparent;
+  color: #53606f;
+  padding: 8px 14px;
+  font-weight: 700;
+}
+
+.language-tabs button.active {
+  background: #006a8e;
+  color: #fff;
+}
+
+.language-tabs button:disabled {
+  color: #a5afbd;
+  cursor: not-allowed;
+}
+
 .detail-section {
   margin-top: 18px;
   border: 1px solid #d9dee7;

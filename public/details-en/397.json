@@ -1,0 +1,311 @@
+{
+  "sourceIndex": 397,
+  "sourceUrl": "/opsyllabus/kitos0110/397/1",
+  "importedAt": "2026-06-08T09:34:01.128Z",
+  "title": "プログラミング（再履修クラス）",
+  "subtitle": "Programming",
+  "courseType": "Major ProgramMajor Courses",
+  "credits": "2",
+  "term": "2026年度\n\n                2nd year 1st semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "授業科目の学習・教育目標"
+  ],
+  "keywords": [
+    "Programming language C",
+    "Control structures",
+    "Standard library functions",
+    "File input/output"
+  ],
+  "educationalGoal": "In this course, students conduct programming exercises within small groups.\nSpecifically, students will:\n(1) Learn how to develop programs using their PCs.\n(2) Learn how to create a simple arithmetic program.\n(3) Learn how to create programs using control statements such as \"if\" and \"for.\"\n(4) Learn how to use standard library functions.",
+  "advice": "In this course, students conduct programming exercises within small groups with the aim of acquiring skills related to the C language and other practical skills.\n\nWe will cover the following materials:\n - basic syntax\n - control structures\n - functions\n - standard library functions\n - file input/output\n - command-line arguments\n - pointer\n - structure\n - basic algorithms",
+  "books": "Textbooks:\nReference books:\nReserved books: None",
+  "requiredKnowledge": "Acquisition of the knowledge/skills of \"Fundamentals of Programming\" is required.\nBasic knowledge of C language syntax is required.\nBasic C development environment skills are required.",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "H,I",
+      "body": "Be able to develop programs using their PC."
+    },
+    {
+      "index": "②",
+      "type": "H,I",
+      "body": "Be able to find and correct mistakes in programs."
+    },
+    {
+      "index": "③",
+      "type": "H,I",
+      "body": "Be able to create simple calculation programs."
+    },
+    {
+      "index": "④",
+      "type": "H,I",
+      "body": "Be able to create programs that use control statements such as \"if\" and \"for.\""
+    },
+    {
+      "index": "⑤",
+      "type": "H,I",
+      "body": "Be able to use standard library functions appropriately."
+    },
+    {
+      "index": "⑥",
+      "type": "H,I",
+      "body": "Be able to create practical programs for data processing, such as averages and maximums."
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "20",
+        "50",
+        "30",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "20",
+        "50",
+        "30",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "20",
+        "50",
+        "30",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションとリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "(1) Be able to fully understand C basic grammar, control structure, function, file processing, pointer, data structure, basic algorithm, etc.\n(2) Be able to create practical programs that combine these skills.",
+    "standard": "(1) Be able to fully understand C basic grammar, control structure, functions, file processing, pointers, etc.\n(2) Be able to create basic programs using these skills."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Course introduction",
+      "operation": "Lecture, Q&A, and practice",
+      "assignments": "Understand the class\nobjectives\nPrepare for Chapter 1 of the\ntextbook",
+      "minutes": "240"
+    },
+    {
+      "index": "2",
+      "content": "Basic syntax\n- main function, string, variables",
+      "operation": "Practice and Q&A\nSelf-check\nQuiz",
+      "assignments": "Review materials from the last\nclass",
+      "minutes": "240"
+    },
+    {
+      "index": "3",
+      "content": "Basic syntax\n- calculation, data input/output",
+      "operation": "Practice and Q&A\nSelf-check\nQuiz",
+      "assignments": "Review materials from the last\nclass\nPrepare for Chapter 2 of the\ntextbook",
+      "minutes": "240"
+    },
+    {
+      "index": "4",
+      "content": "Control structures\n- conditional control statements",
+      "operation": "Practice and Q&A\nSelf-check\nQuiz",
+      "assignments": "Review materials from the last\nclass",
+      "minutes": "240"
+    },
+    {
+      "index": "5",
+      "content": "Control structures\n- loop control statements",
+      "operation": "Practice and Q&A\nSelf-check\nQuiz",
+      "assignments": "Review materials from the last\nclass\nPrepare for Chapter 3 of the\ntextbook",
+      "minutes": "240"
+    },
+    {
+      "index": "6",
+      "content": "Functions\n- basic form of function",
+      "operation": "Practice and Q&A\nSelf-check\nQuiz",
+      "assignments": "Review materials from the last\nclass",
+      "minutes": "240"
+    },
+    {
+      "index": "7",
+      "content": "Functions\n- practical use of a function",
+      "operation": "Practice and Q&A\nSelf-check\nQuiz",
+      "assignments": "Review materials from the last\nclass\nPrepare for Chapter 4 of the\ntextbook",
+      "minutes": "240"
+    },
+    {
+      "index": "8",
+      "content": "Standard library functions\n- string processing, character processing\n- mathematical processing, numerical conversion,\n etc.",
+      "operation": "Practice and Q&A\nSelf-check\nQuiz",
+      "assignments": "Review materials from the last\nclass\nPrepare for Chapter 5 of the\ntextbook",
+      "minutes": "240"
+    },
+    {
+      "index": "9",
+      "content": "File input / output\nCommand line arguments",
+      "operation": "Practice and Q&A\nSelf-check\nQuiz",
+      "assignments": "Review materials from the last\nclass\nPrepare for Chapter 6 of the\ntextbook",
+      "minutes": "240"
+    },
+    {
+      "index": "10",
+      "content": "Pointer\nOther features",
+      "operation": "Practice and Q&A\nSelf-check\nQuiz",
+      "assignments": "Review materials from the last\nclass\nPrepare for Chapter 7 of the\ntextbook",
+      "minutes": "240"
+    },
+    {
+      "index": "11",
+      "content": "Structure\n- stack, queue, list",
+      "operation": "Practice and Q&A\nSelf-check\nQuiz",
+      "assignments": "Review materials from the last\nclass\nPrepare for Chapter 8 of the\ntextbook",
+      "minutes": "240"
+    },
+    {
+      "index": "12",
+      "content": "Basic algorithms\n- sort, search, etc.",
+      "operation": "Practice and Q&A\nSelf-check\nQuiz",
+      "assignments": "Review materials from the last\nclass",
+      "minutes": "240"
+    },
+    {
+      "index": "13",
+      "content": "Integrated learning",
+      "operation": "Practice and Q&A\nSelf-check\nQuiz",
+      "assignments": "Review materials from the last\nclass",
+      "minutes": "240"
+    },
+    {
+      "index": "14",
+      "content": "Integrated learning\nFinal exam",
+      "operation": "Practice and Q&A\nSelf-check\nExam",
+      "assignments": "Review materials from the last\nclass",
+      "minutes": "240"
+    },
+    {
+      "index": "15",
+      "content": "Integrated learning\nSelf-evaluation",
+      "operation": "Lecture, Q&A, and practice\nSelf-check",
+      "assignments": "Review the final exam",
+      "minutes": "240"
+    }
+  ],
+  "rawText": "金沢工業大学　学習支援計画書　F008-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Media Informatics(〜2024)\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                プログラミング（再履修クラス）\n                Programming\n\n              2\n              F008-01\n\n                2026年度\n\n                2nd year 1st semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Programming language C\n2.Control structures\n3.Standard library functions\n4.File input/output\n\n              In this course, students conduct programming exercises within small groups.\nSpecifically, students will:\n(1) Learn how to develop programs using their PCs.\n(2) Learn how to create a simple arithmetic program.\n(3) Learn how to create programs using control statements such as \"if\" and \"for.\"\n(4) Learn how to use standard library functions.\n\n              授業の概要および学習上の助言\n\n              In this course, students conduct programming exercises within small groups with the aim of acquiring skills related to the C language and other practical skills.\n\nWe will cover the following materials:\n - basic syntax\n - control structures\n - functions\n - standard library functions\n - file input/output\n - command-line arguments\n - pointer\n - structure\n - basic algorithms\n\n              教科書および参考書・リザーブドブック\n\n              Textbooks:\nReference books:\nReserved books: None\n\n              履修に必要な予備知識や技能\n\n              Acquisition of the knowledge/skills of \"Fundamentals of Programming\" is required.\nBasic knowledge of C language syntax is required.\nBasic C development environment skills are required.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                H,I\n                Be able to develop programs using their PC.\n\n                ②\n                H,I\n                Be able to find and correct mistakes in programs.\n\n                ③\n                H,I\n                Be able to create simple calculation programs.\n\n                ④\n                H,I\n                Be able to create programs that use control statements such as \"if\" and \"for.\"\n\n                ⑤\n                H,I\n                Be able to use standard library functions appropriately.\n\n                ⑥\n                H,I\n                Be able to create practical programs for data processing, such as averages and maximums.\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                20\n\n                50\n\n                30\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                20\n\n                50\n\n                30\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                20\n\n                50\n\n                30\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  コラボレーションとリーダーシップ\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  発表・表現・伝達する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n ",
+  "courseId": "2026:spring:F008-01:0:397",
+  "language": "en"
+}

@@ -1,0 +1,305 @@
+{
+  "sourceIndex": 243,
+  "sourceUrl": "/opsyllabus/kitos0110/243/1",
+  "importedAt": "2026-06-08T09:33:58.081Z",
+  "title": "ロボティクス専門実験・演習Ｂ",
+  "subtitle": "Robotics Major Lab/Exercises B",
+  "courseType": "Major ProgramMajor Courses",
+  "credits": "3",
+  "term": "2026年度\n\n                3rd year 2nd semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "KAWAI Hiroyuki",
+    "DOI Takahiro",
+    "DEMURA Kosei",
+    "SUZUKI Ryoichi\n授業科目の学習・教育目標"
+  ],
+  "keywords": [
+    "Electrical and electronic circuits",
+    "Vibration engineering",
+    "Control engineering",
+    "Robot control",
+    "Reinforcement learning"
+  ],
+  "educationalGoal": "(1) Learn basic theory and method for robotics control.\n(2) Deepen understanding and develop robotics application capabilities.\n(3) Learn the skills needed to perform experiments and write reports.\n(4) Learn how to arrange and present the content, results, and discussion in a report.",
+  "advice": "This is a course of lab exercises in robotics. We will cover the following topics:\n1. Dynamic behavior\nStudents will deepen their understanding of the basis of vibration analysis of one- and two-degree-of-freedom vibration systems. In particular, students will measure the amplitude and phase of a vibration system affected by time-varying force to measure the vibration of the experimental apparatus. Students will learn the basic theory of a dynamic vibration absorber.\n2. Robot control 1\nStudents will learn the operation of robot simulator and then program a robotic arm.\n3. Robot control 2\nStudents will learn feedback control and programming. A driving circuit and a computer will be installed on the robot that was built in the previous course, Engineering Exercises for Robotics I.\n4. Fundamentals and practice of reinforcement learning\nStudents will learn the fundamentals and implementation of reinforcement learning through both simulation experiments and real-world experiments using an inverted pendulum system.",
+  "books": "None",
+  "requiredKnowledge": "None",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "J-O",
+      "body": "Complete lab exercises safely while following the prescribed steps."
+    },
+    {
+      "index": "②",
+      "type": "J-O",
+      "body": "Complete lab exercises proactively using on your knowledge of robotics."
+    },
+    {
+      "index": "③",
+      "type": "J-O",
+      "body": "Organize and discuss results using your knowledge of robotics."
+    },
+    {
+      "index": "④",
+      "type": "J-O",
+      "body": "Write and submit a report using the results, and explain the results orally."
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "40",
+        "20",
+        "40",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "40",
+        "20",
+        "40",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "40",
+        "20",
+        "40",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションとリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "(1) Complete lab exercises based on the preparation contents.\n(2) Logically discuss and explain the obtained results.\n(3) Write a report from the results and discussions and communicate in an easy-to-understand manner.",
+    "standard": "(1) Complete lab exercises following the textbook.\n(2) Discuss and explain the obtained results.\n(3) Write a report from the results and discussions."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Understand the learning, summary, and action\nobjectives using the distributed syllabus.\nEspecially, understand the part of the\neducation objectives of Department of Robotics\nthat is covered by this subject and specific\nachievement level.",
+      "operation": "Lecture and Q&A",
+      "assignments": "Review: Confirm the text,\nresumes, contents, and notes\nof each theme.",
+      "minutes": "60"
+    },
+    {
+      "index": "2",
+      "content": "Acquire the prior knowledge necessary for\nexercises",
+      "operation": "Lecture and exercises",
+      "assignments": "Review: Understand the class\ncontent",
+      "minutes": "90"
+    },
+    {
+      "index": "3",
+      "content": "1. Dynamic behavior:\n- Experiment with one degree of freedom\n　\n*Submit a pre-assignment",
+      "operation": "Experiments and exercises",
+      "assignments": "Preparation: Read the\ntextbook carefully and\ncomplete the preparation\nassignment (pre-assignment).\nReview: Organize the results\nand prepare to write a\nreport.",
+      "minutes": "90\n\n120"
+    },
+    {
+      "index": "4",
+      "content": "1. Dynamic behavior:\n- Experiment with two degrees of freedom",
+      "operation": "Experiments and exercises",
+      "assignments": "Preparation: Read the\ntextbook carefully and\nconfirm the procedure of the\nexperiment.\nReview: Organize the results\nand prepare to write a\nreport.",
+      "minutes": "90\n\n120"
+    },
+    {
+      "index": "5",
+      "content": "1. Dynamic behavior:\n- Experiment on system identification",
+      "operation": "Experiments and exercises\nReview",
+      "assignments": "Preparation: Read the\ntextbook carefully and\nconfirm the procedure of the\nexperiment.\nReview: Organize the results\nand prepare to write a\nreport.",
+      "minutes": "90\n\n120"
+    },
+    {
+      "index": "6",
+      "content": "2. Robot control I:\n- Experimental operation of a robot and\nsimulator",
+      "operation": "Experiments and exercises",
+      "assignments": "Preparation: Confirm the\nprocedure of the experiment\nin the textbook.\nReview: Organize the results\nand prepare to write a\nreport.",
+      "minutes": "90\n\n120"
+    },
+    {
+      "index": "7",
+      "content": "2. Robot Control I:\n- Experimental control of robot using\nprogramming",
+      "operation": "Experiments and exercises",
+      "assignments": "Preparation: Confirm the\nprocedure of the experiment\nin the textbook.\nReview: Organize the results\nand prepare to write a\nreport.",
+      "minutes": "90\n\n120"
+    },
+    {
+      "index": "8",
+      "content": "2. Robot control I:\n- Experimental operation of a robot and\nsimulator",
+      "operation": "Experiments and exercises",
+      "assignments": "Preparation: Confirm the\nprocedure of the experiment\nin the textbook.\nReview: Organize the results\nand prepare to write a\nreport.",
+      "minutes": "90\n\n120"
+    },
+    {
+      "index": "9",
+      "content": "3. Robot Control II:\n- Evaluation of linear line sensor and\nmechanism backlash",
+      "operation": "Experiments and exercises",
+      "assignments": "Preparation: Read the\ntextbook carefully and\nconfirm the procedure of the\nexperiment.\nReview: Organize the results\nand prepare to write a\nreport.",
+      "minutes": "90\n\n120"
+    },
+    {
+      "index": "10",
+      "content": "3. Robot Control II:\n- Tuning PID parameters",
+      "operation": "Experiments and exercises",
+      "assignments": "Preparation: Read the\ntextbook carefully and\nconfirm the procedure of the\nexperiment.\nReview: Organize the results\nand prepare to write a\nreport.",
+      "minutes": "90\n\n120"
+    },
+    {
+      "index": "11",
+      "content": "3. Robot Control II:\n- Experiment with PID control",
+      "operation": "Experiments and exercises",
+      "assignments": "Preparation: Read the\ntextbook carefully and\nconfirm the procedure of the\nexperiment.\nReview: Organize the results\nand prepare to write a\nreport.",
+      "minutes": "90\n\n120"
+    },
+    {
+      "index": "12",
+      "content": "4. Fundamentals and practice of reinforcement le\narning\n- Fundamental principles of reinforcement learni\nng and simulator operation",
+      "operation": "Experiments and exercises",
+      "assignments": "Preparation: Read the\ntextbook carefully and\nconfirm the procedure of the\nexperiment.\nReview: Organize the results\nand prepare to write a\nreport.",
+      "minutes": "90\n\n120"
+    },
+    {
+      "index": "13",
+      "content": "4. Fundamentals and practice of reinforcement le\narning\n- Simulation experiments using an inverted pendu\nlum model",
+      "operation": "Experiments and exercises",
+      "assignments": "Preparation: Read the\ntextbook carefully and\nconfirm the procedure of the\nexperiment.\nReview: Organize the results\nand prepare to write a\nreport.",
+      "minutes": "90\n\n120"
+    },
+    {
+      "index": "14",
+      "content": "4. Fundamentals and practice of reinforcement le\narning\n- Real-world experiments using a physical invert\ned pendulum system",
+      "operation": "Experiments and exercises",
+      "assignments": "Preparation: Read the\ntextbook carefully and\nconfirm the procedure of the\nexperiment.\nReview: Organize the results\nand prepare to write a\nreport.",
+      "minutes": "90\n\n120"
+    },
+    {
+      "index": "15",
+      "content": "Self-check",
+      "operation": "Review",
+      "assignments": "Review: Review each theme.",
+      "minutes": "60"
+    }
+  ],
+  "rawText": "金沢工業大学　学習支援計画書　E236-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Robotics(〜2024)\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                ロボティクス専門実験・演習Ｂ\n                Robotics Major Lab/Exercises B\n\n              3\n              E236-01\n\n                2026年度\n\n                3rd year 2nd semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  KAWAI Hiroyuki, DOI Takahiro, DEMURA Kosei, SUZUKI Ryoichi\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Electrical and electronic circuits\n2.Vibration engineering\n3.Control engineering\n4.Robot control\n5.Reinforcement learning\n\n              (1) Learn basic theory and method for robotics control.\n(2) Deepen understanding and develop robotics application capabilities.\n(3) Learn the skills needed to perform experiments and write reports.\n(4) Learn how to arrange and present the content, results, and discussion in a report.\n\n              授業の概要および学習上の助言\n\n              This is a course of lab exercises in robotics. We will cover the following topics:\n1. Dynamic behavior\nStudents will deepen their understanding of the basis of vibration analysis of one- and two-degree-of-freedom vibration systems. In particular, students will measure the amplitude and phase of a vibration system affected by time-varying force to measure the vibration of the experimental apparatus. Students will learn the basic theory of a dynamic vibration absorber.\n2. Robot control 1\nStudents will learn the operation of robot simulator and then program a robotic arm.\n3. Robot control 2\nStudents will learn feedback control and programming. A driving circuit and a computer will be installed on the robot that was built in the previous course, Engineering Exercises for Robotics I.\n4. Fundamentals and practice of reinforcement learning\nStudents will learn the fundamentals and implementation of reinforcement learning through both simulation experiments and real-world experiments using an inverted pendulum system.\n\n              教科書および参考書・リザーブドブック\n\n              None\n\n              履修に必要な予備知識や技能\n\n              None\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                J-O\n                Complete lab exercises safely while following the prescribed steps.\n\n                ②\n                J-O\n                Complete lab exercises proactively using on your knowledge of robotics.\n\n                ③\n                J-O\n                Organize and discuss results using your knowledge of robotics.\n\n                ④\n                J-O\n                Write and submit a report using the results, and explain the results orally.\n\n                ⑤\n\n                ⑥\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                40\n\n                20\n\n                40\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                40\n\n                20\n\n                40\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                40\n\n                20\n\n                40\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  コラボレーションとリーダーシップ\n\n                    0\n\n ",
+  "courseId": "2026:fall:E236-01:0:243",
+  "language": "en"
+}

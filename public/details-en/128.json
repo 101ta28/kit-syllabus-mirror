@@ -1,0 +1,311 @@
+{
+  "sourceIndex": 128,
+  "sourceUrl": "/opsyllabus/kitos0110/128/1",
+  "importedAt": "2026-06-08T09:33:55.768Z",
+  "title": "データベースマネジメント",
+  "subtitle": "Database Management",
+  "courseType": "Major ProgramMajor Courses",
+  "credits": "2",
+  "term": "2026年度\n\n                2nd year 1st semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "HIRATA Kazufumi\n授業科目の学習・教育目標"
+  ],
+  "keywords": [
+    "Relational Database",
+    "Table Definition, ER Diagram",
+    "Normalization, Primary Key, External Key",
+    "Data Manipulation Language, SQL"
+  ],
+  "educationalGoal": "This course is for an educational goal of the Dept. of Management Systems to acquire \"Information design basic ability\". Students will:\n(1) acquire the basic ability to utilize IT.\n(2) learn the fundamental theory of relational databases.\n(3) learn how to design a database, use SQL, and operate a database.",
+  "advice": "To use a database, the following three abilities are required:\n  1. The ability to use SQL, a language for managing data held in a database.\n  2. The ability to maintain data integrity using normalization, primary/foreign key, and so on.\n  3. The ability to design application systems using a database.\n\nStudents will acquire abilities 1 and 2 mainly through lectures and exercises in the first half of the course; they will acquire ability 3 in the second half of the course.",
+  "books": "The Manga Guide to Database by Mana Takahashi, Shoko Azuma, and Trend-Pro Co., Ltd., No Starch Press; ISBN: 978-1-59327-190-9",
+  "requiredKnowledge": "Basic knowledge of computers such as the basic operation of a PC, Web design, IT systems, etc.",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "A,B",
+      "body": "Be able to explain what a database is."
+    },
+    {
+      "index": "②",
+      "type": "IH,I",
+      "body": "Be able to explain a relational database."
+    },
+    {
+      "index": "③",
+      "type": "H,N",
+      "body": "Be able to design an E-R diagram."
+    },
+    {
+      "index": "④",
+      "type": "D,E,G",
+      "body": "Be able to convert an entity to third normal form."
+    },
+    {
+      "index": "⑤",
+      "type": "D,H,J",
+      "body": "Be able to use the SQL’s “SELECT” statement."
+    },
+    {
+      "index": "⑥",
+      "type": "D,H,J",
+      "body": "Be able to design a database."
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "30",
+        "40",
+        "20",
+        "0",
+        "0",
+        "0",
+        "10",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "30",
+        "40",
+        "20",
+        "0",
+        "0",
+        "0",
+        "10",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "30",
+        "40",
+        "20",
+        "0",
+        "0",
+        "0",
+        "10",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションとリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "Understand the basic operations of a database, normalization, the design method, and SQL, and be able to model, design, implement, and operate a database.",
+    "standard": "Understand the basic operations of the database and use the basic method of normalization, design, and SQL."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Course introduction\nWhat is a database?",
+      "operation": "Lecture and practicum",
+      "assignments": "Prepare Chapter 1 of the\ntextbook",
+      "minutes": "260"
+    },
+    {
+      "index": "2",
+      "content": "What is a relational database? (1)",
+      "operation": "Lecture and practicum",
+      "assignments": "Review Chapter 1 of the\ntextbook\nPrepare Chapter 2 of the\ntextbook",
+      "minutes": "260"
+    },
+    {
+      "index": "3",
+      "content": "What is a relational database? (2)",
+      "operation": "Lecture and practicum",
+      "assignments": "Solve the exercises in\nChapter 2 of the textbook",
+      "minutes": "260"
+    },
+    {
+      "index": "4",
+      "content": "Designing a database (1)",
+      "operation": "Lecture and practicum",
+      "assignments": "Re-solve the exercises in\nChapter 2 of the textbook\nPrepare Chapter 3 of the\ntextbook",
+      "minutes": "260"
+    },
+    {
+      "index": "5",
+      "content": "Designing a database (2)",
+      "operation": "Lecture and practicum",
+      "assignments": "Solve the exercises in\nChapter 3 of the textbook",
+      "minutes": "260"
+    },
+    {
+      "index": "6",
+      "content": "Utilizing a database (1)\n -Basic operations of SQL",
+      "operation": "Lecture and practicum",
+      "assignments": "Review the basic operations\nof SQL",
+      "minutes": "260"
+    },
+    {
+      "index": "7",
+      "content": "Utilizing a database (2)\n -Basic operations of SQL",
+      "operation": "Lecture and practicum",
+      "assignments": "Review the basic operations\nof SQL",
+      "minutes": "260"
+    },
+    {
+      "index": "8",
+      "content": "Confirmation of the acquisition of\nbasic knowledge",
+      "operation": "Written Exam and review\nSelf-evaluation",
+      "assignments": "Prepare for the exam",
+      "minutes": "300"
+    },
+    {
+      "index": "9",
+      "content": "Self-evaluation based on exam result\nUse-case utilizing a database",
+      "operation": "Lecture and practicum\nSelf-evaluation",
+      "assignments": "Conduct a report",
+      "minutes": "260"
+    },
+    {
+      "index": "10",
+      "content": "Let’s operate a database",
+      "operation": "Lecture and practicum",
+      "assignments": "Solve the exercises in\nChapter 4 of the textbook",
+      "minutes": "260"
+    },
+    {
+      "index": "11",
+      "content": "The popularization and activities of a database",
+      "operation": "Lecture and practicum",
+      "assignments": "Review Chapter 5 of the\ntextbook\nSolve the exercises in\nChapter 5 of the textbook",
+      "minutes": "260"
+    },
+    {
+      "index": "12",
+      "content": "The database administration system (1)",
+      "operation": "Lecture and practicum",
+      "assignments": "Review all chapters learned",
+      "minutes": "260"
+    },
+    {
+      "index": "13",
+      "content": "The database administration system (2)",
+      "operation": "Lecture and practicum",
+      "assignments": "Prepare for the exam",
+      "minutes": "260"
+    },
+    {
+      "index": "14",
+      "content": "Final exam\nSelf-evaluation",
+      "operation": "Written exam and review\nSelf-evaluation",
+      "assignments": "Review exam questions",
+      "minutes": "300"
+    },
+    {
+      "index": "15",
+      "content": "Self-evaluation based on test results",
+      "operation": "Self-evaluation\nQuestionnaire\nSupplementary lesson",
+      "assignments": "",
+      "minutes": "260"
+    }
+  ],
+  "rawText": "金沢工業大学　学習支援計画書　D015-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Management Systems\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                データベースマネジメント\n                Database Management\n\n              2\n              D015-01\n\n                2026年度\n\n                2nd year 1st semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  HIRATA Kazufumi\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Relational Database\n2.Table Definition, ER Diagram\n3.Normalization, Primary Key, External Key\n4.Data Manipulation Language, SQL\n\n              This course is for an educational goal of the Dept. of Management Systems to acquire \"Information design basic ability\". Students will:\n(1) acquire the basic ability to utilize IT.\n(2) learn the fundamental theory of relational databases.\n(3) learn how to design a database, use SQL, and operate a database.\n\n              授業の概要および学習上の助言\n\n              To use a database, the following three abilities are required:\n  1. The ability to use SQL, a language for managing data held in a database.\n  2. The ability to maintain data integrity using normalization, primary/foreign key, and so on.\n  3. The ability to design application systems using a database.\n\nStudents will acquire abilities 1 and 2 mainly through lectures and exercises in the first half of the course; they will acquire ability 3 in the second half of the course.\n\n              教科書および参考書・リザーブドブック\n\n              The Manga Guide to Database by Mana Takahashi, Shoko Azuma, and Trend-Pro Co., Ltd., No Starch Press; ISBN: 978-1-59327-190-9\n\n              履修に必要な予備知識や技能\n\n              Basic knowledge of computers such as the basic operation of a PC, Web design, IT systems, etc.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                A,B\n                Be able to explain what a database is.\n\n                ②\n                IH,I\n                Be able to explain a relational database.\n\n                ③\n                H,N\n                Be able to design an E-R diagram.\n\n                ④\n                D,E,G\n                Be able to convert an entity to third normal form.\n\n                ⑤\n                D,H,J\n                Be able to use the SQL’s “SELECT” statement.\n\n                ⑥\n                D,H,J\n                Be able to design a database.\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                30\n\n                40\n\n                20\n\n                0\n\n                0\n\n                0\n\n                10\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                30\n\n                40\n\n                20\n\n                0\n\n                0\n\n                0\n\n                10\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                30\n\n                40\n\n                20\n\n                0\n\n                0\n\n                0\n\n                10\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  コラボレーションとリーダーシップ\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  発表・表現・伝達する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n            ",
+  "courseId": "2026:spring:D015-01:0:128",
+  "language": "en"
+}

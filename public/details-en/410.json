@@ -1,0 +1,312 @@
+{
+  "sourceIndex": 410,
+  "sourceUrl": "/opsyllabus/kitos0110/410/1",
+  "importedAt": "2026-06-08T09:34:01.418Z",
+  "title": "Ｗｅｂアプリケーション",
+  "subtitle": "Web Application",
+  "courseType": "Major ProgramMajor Courses",
+  "credits": "2",
+  "term": "2026年度\n\n                3rd year 2nd semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "HASEGAWA Wataru\n授業科目の学習・教育目標"
+  ],
+  "keywords": [
+    "Web application",
+    "Database",
+    "SQL",
+    "PHP",
+    "Regional cooperation"
+  ],
+  "educationalGoal": "The primary purpose of this course is to assist students in understanding the development concepts and environments of Web application, and to master the skills needed when administrating Web applications on three-tier system databases. In particular, students will learn database construction and how to make connections between Web applications and their newly constructed databases. Students will also be given the opportunity try to create a Web service that contributes to regional contents like “Cool Kanazawa”.",
+  "advice": "In this course, students will learn about creating network access to a three-tier model database based on their acquired knowledge of networks, security, and Web programming. The first half of the course consists of lectures based on Chapters 1 to 8 of the assigned textbook and practice involving sample programs. In second half of the course, students will learn about model view controllers (MVCs) and develop Web applications through practice with the device. In the end of the course, students will submit their developed Web applications as reports.",
+  "books": "Textbooks：3ステップでしっかり学ぶMySQL入門 改訂第3版[技術評論社]\nReference books：基礎からのPHP [ソフトバンククリエイティブ]\nReserved books：None",
+  "requiredKnowledge": "An understanding of the “Database” and “Web programming” courses is necessary for this course. In particular, PHP programming skill is strongly desired, and programming skills for HTML, CSS, and JavaScript may also be helpful.",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "A,F,H,I,J,K",
+      "body": "Be able to construct a development environment for a Web application."
+    },
+    {
+      "index": "②",
+      "type": "A,F,H,I,K",
+      "body": "Be able to operate a database on the command line."
+    },
+    {
+      "index": "③",
+      "type": "A,F,H,I,K",
+      "body": "Be able to use SQL commands during PHP programming."
+    },
+    {
+      "index": "④",
+      "type": "A,F,H,I,J,K",
+      "body": "Be able to design the functions for a Web application."
+    },
+    {
+      "index": "⑤",
+      "type": "A,F,H,I,J,K",
+      "body": "Be able to develop a basic Web application."
+    },
+    {
+      "index": "⑥",
+      "type": "E,H,I",
+      "body": "Be able to explain your newly developed Web application."
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "30",
+        "20",
+        "30",
+        "0",
+        "0",
+        "0",
+        "20",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "30",
+        "20",
+        "30",
+        "0",
+        "0",
+        "0",
+        "20",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "30",
+        "20",
+        "30",
+        "0",
+        "0",
+        "0",
+        "20",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションとリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "(1) Be able to develop Web applications based on a sufficient level of knowledge and skill.\n\n(2) Be able to report on the newly developed Web applications appropriately.",
+    "standard": "(1) Be able to develop Web applications based on a sufficient level of knowledge and skill.\n\n(2) Be able to report on the newly developed Web applications."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Fundamentals of Web application (1)",
+      "operation": "Lecture\nPractice\nConstructing the\ndevelopment environment",
+      "assignments": "Preparation: Check your own un\nderstanding of web programming\n. Review: If you are unable to\n complete class during class,\nprepare the environment on you\nr own.",
+      "minutes": "180"
+    },
+    {
+      "index": "2",
+      "content": "Fundamentals of Web application (2)",
+      "operation": "Lecture\nPractice\nSelf-check",
+      "assignments": "Review: Review web programming\n.",
+      "minutes": "60"
+    },
+    {
+      "index": "3",
+      "content": "Fundamentals of database (1)",
+      "operation": "Lecture\nPractice\nSelf-check",
+      "assignments": "Preparation: Read Chapters 1 t\no 3 in the textbook.",
+      "minutes": "90"
+    },
+    {
+      "index": "4",
+      "content": "Fundamentals of database (2)",
+      "operation": "Lecture\nPractice\nSelf-check",
+      "assignments": "Preparation: Read Chapters 4 a\nnd 5 in the textbook.",
+      "minutes": "90"
+    },
+    {
+      "index": "5",
+      "content": "Linkage between PHP and database (1)\nMini exam",
+      "operation": "Lecture\nPractice\nExam\nSelf-check",
+      "assignments": "Preparation: Read Chapter 8 in\n the textbook. Review: Underst\nand Chapters 1, 2, 3, 4, 5, an\nd 8 in the textbook in prepara\ntion for the quiz.",
+      "minutes": "30\n\n150"
+    },
+    {
+      "index": "6",
+      "content": "Linkage between PHP and database (2)",
+      "operation": "Lecture\nPractice\nSelf-check",
+      "assignments": "Review: Understand the content\n assigned in class, taking int\no account Chapters 1, 2, 3, 4,\n 5, and 8 in the textbook.",
+      "minutes": "60"
+    },
+    {
+      "index": "7",
+      "content": "Linkage between PHP and database (3)",
+      "operation": "Lecture\nPractice\nSelf-check",
+      "assignments": "Review: Understand the content\n assigned in class, taking int\no account Chapters 1, 2, 3, 4,\n 5, and 8 in the textbook.",
+      "minutes": "60"
+    },
+    {
+      "index": "8",
+      "content": "Total practice (1)",
+      "operation": "Lecture\nPractice\nSelf-check",
+      "assignments": "Review: Understand the content\n assigned in class, taking int\no account Chapters 1, 2, 3, 4,\n 5, and 8 in the textbook.",
+      "minutes": "120"
+    },
+    {
+      "index": "9",
+      "content": "Functions of Web application (1)",
+      "operation": "Lecture\nPractice\nSelf-check",
+      "assignments": "Review: Understand the content\n assigned in class, taking int\no account Chapters 1, 2, 3, 4,\n 5, and 8 in the textbook.",
+      "minutes": "60"
+    },
+    {
+      "index": "10",
+      "content": "Functions of Web application (2)",
+      "operation": "Lecture\nPractice\nSelf-check",
+      "assignments": "Preparation: Read Chapter 9 in\n the textbook",
+      "minutes": "60"
+    },
+    {
+      "index": "11",
+      "content": "Functions of Web application (3)",
+      "operation": "Lecture\nPractice\nSelf-check",
+      "assignments": "Review: Take into account text\nbook chapters 8 and 9 and unde\nrstand the content assigned du\nring class.",
+      "minutes": "120"
+    },
+    {
+      "index": "12",
+      "content": "Total practice (2)",
+      "operation": "Lecture\nPractice\nSelf-check",
+      "assignments": "Review: Take into account text\nbook chapters 8 and 9 and unde\nrstand the content assigned du\nring class.",
+      "minutes": "120"
+    },
+    {
+      "index": "13",
+      "content": "Total practice (3)",
+      "operation": "Lecture\nPractice\nSelf-check",
+      "assignments": "Review: Write a report.",
+      "minutes": "120"
+    },
+    {
+      "index": "14",
+      "content": "Final term exam",
+      "operation": "Exam",
+      "assignments": "Preparation: Master the conten\nt you have learned so far in p\nreparation for the exam. exam",
+      "minutes": "150"
+    },
+    {
+      "index": "15",
+      "content": "Course conclusion",
+      "operation": "Self-reflection\nSelf-evaluation",
+      "assignments": "",
+      "minutes": ""
+    }
+  ],
+  "rawText": "金沢工業大学　学習支援計画書　F030-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Media Informatics(〜2024)\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                Ｗｅｂアプリケーション\n                Web Application\n\n              2\n              F030-01\n\n                2026年度\n\n                3rd year 2nd semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  HASEGAWA Wataru\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Web application\n2.Database\n3.SQL\n4.PHP\n5.Regional cooperation\n\n              The primary purpose of this course is to assist students in understanding the development concepts and environments of Web application, and to master the skills needed when administrating Web applications on three-tier system databases. In particular, students will learn database construction and how to make connections between Web applications and their newly constructed databases. Students will also be given the opportunity try to create a Web service that contributes to regional contents like “Cool Kanazawa”.\n\n              授業の概要および学習上の助言\n\n              In this course, students will learn about creating network access to a three-tier model database based on their acquired knowledge of networks, security, and Web programming. The first half of the course consists of lectures based on Chapters 1 to 8 of the assigned textbook and practice involving sample programs. In second half of the course, students will learn about model view controllers (MVCs) and develop Web applications through practice with the device. In the end of the course, students will submit their developed Web applications as reports.\n\n              教科書および参考書・リザーブドブック\n\n              Textbooks：3ステップでしっかり学ぶMySQL入門 改訂第3版[技術評論社]\nReference books：基礎からのPHP [ソフトバンククリエイティブ]\nReserved books：None\n\n              履修に必要な予備知識や技能\n\n              An understanding of the “Database” and “Web programming” courses is necessary for this course. In particular, PHP programming skill is strongly desired, and programming skills for HTML, CSS, and JavaScript may also be helpful.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                A,F,H,I,J,K\n                Be able to construct a development environment for a Web application.\n\n                ②\n                A,F,H,I,K\n                Be able to operate a database on the command line.\n\n                ③\n                A,F,H,I,K\n                Be able to use SQL commands during PHP programming.\n\n                ④\n                A,F,H,I,J,K\n                Be able to design the functions for a Web application.\n\n                ⑤\n                A,F,H,I,J,K\n                Be able to develop a basic Web application.\n\n                ⑥\n                E,H,I\n                Be able to explain your newly developed Web application.\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                30\n\n                20\n\n                30\n\n                0\n\n                0\n\n                0\n\n                20\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                30\n\n                20\n\n                30\n\n                0\n\n                0\n\n                0\n\n                20\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                30\n\n                20\n\n                30\n\n                0\n\n                0\n\n                0\n\n                20\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                 ",
+  "courseId": "2026:fall:F030-01:0:410",
+  "language": "en"
+}

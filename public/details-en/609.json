@@ -1,0 +1,310 @@
+{
+  "sourceIndex": 609,
+  "sourceUrl": "/opsyllabus/kitos0110/609/1",
+  "importedAt": "2026-06-08T09:34:05.541Z",
+  "title": "プログラミング基礎Ⅰ（再履修クラス）",
+  "subtitle": "Programming Basics I",
+  "courseType": "Major ProgramMajor Courses",
+  "credits": "2",
+  "term": "2026年度\n\n                1st year 2nd semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "DEMURA Kosei",
+    "HIRASAWA Kazuki\n授業科目の学習・教育目標"
+  ],
+  "keywords": [
+    "Programming",
+    "C programming language"
+  ],
+  "educationalGoal": "Students will learn the foundations of the C programming language, as computer programs are essential for developing robots, particularly for implementing motion control and environmental information acquisition.",
+  "advice": "This is a basic course in the C programming language. We will cover the following topics:\n1.\tCreating and running a computer program\n2.\tInput and output\n3.\tVariables\n4.\tExpressions and operators\n5.\tConditional branching\n6.\tIteration\n7.\tArrays\n8.\tFunctions\n\nStudents are expected to actively participate in class.\nStudents are expected to complete exercises independently.\nStudents are required to bring their own laptop computers for use in exercises.\nStudents are required to be aware of the instructor's messages in the class and to check for messages/materials on  the KIT Inside website before every class, as the course schedule may change depending on the class progress.",
+  "books": "Textbook: ISBN 978-4797392586 (in Japanese).",
+  "requiredKnowledge": "Ability to type efficiently.",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "J",
+      "body": "Understand the behavior of a basic C program that includes input/output and create such a program."
+    },
+    {
+      "index": "②",
+      "type": "J",
+      "body": "Understand the behavior of a basic C program that includes a variable and create such a program."
+    },
+    {
+      "index": "③",
+      "type": "J",
+      "body": "Understand the behavior of a basic C program that includes conditional branching and create such a program."
+    },
+    {
+      "index": "④",
+      "type": "J",
+      "body": "Understand the behavior of a basic C program that includes iteration and create such a program."
+    },
+    {
+      "index": "⑤",
+      "type": "J",
+      "body": "Understand the behavior of a basic C program that includes an array and create such a program."
+    },
+    {
+      "index": "⑥",
+      "type": "J",
+      "body": "Understand the behavior of a basic C program that includes a user-defined function and create such a program."
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "40",
+        "0",
+        "60",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "40",
+        "0",
+        "60",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "40",
+        "0",
+        "60",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションとリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "Understand sufficiently the behavior of a C program that includes any combination of input/output, a variable, conditional branching, iteration, an array, and a user-defined function, and create a C program with such features at will.",
+    "standard": "Understand the behavior of a basic C program that includes any combination of input/output, a variable, conditional branching, iteration, an array, and a user-defined function, and create a basic C program with such features."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Course introduction\nTextbook Lesson 1, “The first step”\nTextbook Lesson 2, “The basics of the C\nlanguage”\nSelf-check",
+      "operation": "Lecture (including Q&A)\nand exercises\nSelf-check",
+      "assignments": "Preview: Read the indicated\ntextbook lesson\nReview: Understand the\nclass content",
+      "minutes": "30\n\n60"
+    },
+    {
+      "index": "2",
+      "content": "Textbook Lesson 3, “Variables”\nSelf-check",
+      "operation": "Lecture (including Q&A)\nand exercises\nSelf-check",
+      "assignments": "Preview: Read the indicated\ntextbook lesson\nReview: Understand the\nclass content",
+      "minutes": "30\n\n60"
+    },
+    {
+      "index": "3",
+      "content": "Textbook Lesson 4, “Expressions and operators”\nSelf-check",
+      "operation": "Lecture (including Q&A)\nand exercises\nSelf-check",
+      "assignments": "Preview: Read the indicated\ntextbook lesson\nReview: Understand the\nclass content",
+      "minutes": "30\n\n60"
+    },
+    {
+      "index": "4",
+      "content": "Textbook Lesson 5, “Conditional procedures”(1)\nSelf-check",
+      "operation": "Lecture (including Q&A)\nand exercises\nSelf-check",
+      "assignments": "Preview: Read the indicated\ntextbook lesson\nReview: Understand the\nclass content",
+      "minutes": "30\n\n60"
+    },
+    {
+      "index": "5",
+      "content": "Textbook Lesson 5, “Conditional procedures”(2)\nSelf-check",
+      "operation": "Lecture (including Q&A)\nand exercises\nSelf-check",
+      "assignments": "Preview: Read the indicated\ntextbook lesson\nReview: Understand the\nclass content",
+      "minutes": "30\n\n60"
+    },
+    {
+      "index": "6",
+      "content": "Textbook Lesson 6, “Iteration” (1)\nSelf-check",
+      "operation": "Lecture (including Q&A)\nand exercises\nSelf-check",
+      "assignments": "Review: Understand the\nclass content",
+      "minutes": "60"
+    },
+    {
+      "index": "7",
+      "content": "Textbook Lesson 6, “Iteration” (2)\nSelf-check",
+      "operation": "Lecture (including Q&A)\nand exercises\nSelf-check",
+      "assignments": "Preview: Read the indicated\ntextbook lesson\nReview: Understand the\nclass content",
+      "minutes": "30\n\n60"
+    },
+    {
+      "index": "8",
+      "content": "Midterm examination\nSelf-check",
+      "operation": "Examination\nSelf-check",
+      "assignments": "Review: Understand the\nclass content",
+      "minutes": "60"
+    },
+    {
+      "index": "9",
+      "content": "Textbook Lesson 7, “Arrays” (1)\n\nSelf-check",
+      "operation": "Lecture (including Q&A)\nand exercises\nSelf-check",
+      "assignments": "Preview: Read the indicated\ntextbook lesson\nReview: Understand the\nclass content",
+      "minutes": "30\n\n60"
+    },
+    {
+      "index": "10",
+      "content": "Textbook Lesson 7, “Arrays” (2)\n\nSelf-check",
+      "operation": "Lecture (including Q&A)\nand exercises\nSelf-check",
+      "assignments": "Review: Understand the\nclass content",
+      "minutes": "60"
+    },
+    {
+      "index": "11",
+      "content": "Textbook Lesson 8, “Functions” (1)\n\nSelf-check",
+      "operation": "Lecture (including Q&A)\nand exercises\nSelf-check",
+      "assignments": "Preview: Read the indicated\ntextbook lesson\nReview: Understand the\nclass content",
+      "minutes": "30\n\n60"
+    },
+    {
+      "index": "12",
+      "content": "Textbook Lesson 8, “Functions” (2)\n\nSelf-check",
+      "operation": "Lecture (including Q&A)\nand exercises\nSelf-check",
+      "assignments": "Review: Understand the\nclass content",
+      "minutes": "60"
+    },
+    {
+      "index": "13",
+      "content": "Exercises\nSelf-check",
+      "operation": "Exercises\nSelf-check",
+      "assignments": "Preview: Review the content of\nclasses 1-12\nReview: Understand the\nclass content",
+      "minutes": "90\n\n90"
+    },
+    {
+      "index": "14",
+      "content": "Exercises\nSemester final examination\nSelf-check",
+      "operation": "Exercises\nExamination\nSelf-check",
+      "assignments": "Preview: Review the content of\nclasses 1-13",
+      "minutes": "180"
+    },
+    {
+      "index": "15",
+      "content": "Review of the semester final examination\nSelf-check",
+      "operation": "Lecture (including Q&A)\nSelf-check",
+      "assignments": "Review: Review the content of\nthe semester final examination",
+      "minutes": "90"
+    }
+  ],
+  "rawText": "金沢工業大学　学習支援計画書　C205-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Robotics\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                プログラミング基礎Ⅰ（再履修クラス）\n                Programming Basics I\n\n              2\n              C205-01\n\n                2026年度\n\n                1st year 2nd semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  DEMURA Kosei, HIRASAWA Kazuki\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Programming\n2.C programming language\n\n              Students will learn the foundations of the C programming language, as computer programs are essential for developing robots, particularly for implementing motion control and environmental information acquisition.\n\n              授業の概要および学習上の助言\n\n              This is a basic course in the C programming language. We will cover the following topics:\n1.\tCreating and running a computer program\n2.\tInput and output\n3.\tVariables\n4.\tExpressions and operators\n5.\tConditional branching\n6.\tIteration\n7.\tArrays\n8.\tFunctions\n\nStudents are expected to actively participate in class.\nStudents are expected to complete exercises independently.\nStudents are required to bring their own laptop computers for use in exercises.\nStudents are required to be aware of the instructor's messages in the class and to check for messages/materials on  the KIT Inside website before every class, as the course schedule may change depending on the class progress.\n\n              教科書および参考書・リザーブドブック\n\n              Textbook: ISBN 978-4797392586 (in Japanese).\n\n              履修に必要な予備知識や技能\n\n              Ability to type efficiently.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                J\n                Understand the behavior of a basic C program that includes input/output and create such a program.\n\n                ②\n                J\n                Understand the behavior of a basic C program that includes a variable and create such a program.\n\n                ③\n                J\n                Understand the behavior of a basic C program that includes conditional branching and create such a program.\n\n                ④\n                J\n                Understand the behavior of a basic C program that includes iteration and create such a program.\n\n                ⑤\n                J\n                Understand the behavior of a basic C program that includes an array and create such a program.\n\n                ⑥\n                J\n                Understand the behavior of a basic C program that includes a user-defined function and create such a program.\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                40\n\n                0\n\n                60\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                40\n\n                0\n\n                60\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                40\n\n                0\n\n                60\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  コラボレーションとリーダーシップ\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n         ",
+  "courseId": "2026:fall:C205-01:0:609",
+  "language": "en"
+}

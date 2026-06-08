@@ -1,0 +1,302 @@
+{
+  "sourceIndex": 279,
+  "sourceUrl": "/opsyllabus/kitos0110/279/1",
+  "importedAt": "2026-06-08T09:33:58.741Z",
+  "title": "光情報工学",
+  "subtitle": "Optical Information Engineering",
+  "courseType": "Major ProgramMajor Courses",
+  "credits": "2",
+  "term": "2026年度\n\n                3rd year 2nd semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "AIZAWA Koji\n授業科目の学習・教育目標"
+  ],
+  "keywords": [
+    "Electromagnetic Wave",
+    "Wave Optics",
+    "Linear Optical System",
+    "Linear Optical System",
+    "Image Analysis"
+  ],
+  "educationalGoal": "Students will:\n(1)learn the basic properties of light (reflection, refraction, interference, diffraction, and diffusion).\n(2)learn the structures, operating principles and applications about various information devices, systems and display device.\n(3)learn the image recognition and quality evaluation technology.",
+  "advice": "We will cover the following materials:\n\n1. Basics of wave optics\n2. Coherence of light waves\n3. Optical waveguide\n4. Light wave recording and playback\n5. Linear optical system\n6. Basics of optical information processing\n7. Digital processing of image information",
+  "books": "\"Fundamentals of Optical Information Processing\",Takeaki Yoshimura, Corona Publishing Co., LTD.",
+  "requiredKnowledge": "Review basics of “Electromagnetics”, “Opt-electronic device engineering” and “Introduction to audio and video”.",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "L",
+      "body": "Be able to explain the basic characteristics of light waves, the interaction between light and matter."
+    },
+    {
+      "index": "②",
+      "type": "L",
+      "body": "Be able to describe polarized light wave."
+    },
+    {
+      "index": "③",
+      "type": "L",
+      "body": "Be able to describe reflection, refraction and coherence of light wave."
+    },
+    {
+      "index": "④",
+      "type": "L",
+      "body": "Be able to explain light weave transform using an optical system."
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "40",
+        "30",
+        "30",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "40",
+        "30",
+        "30",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "40",
+        "30",
+        "30",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションとリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "(1) Understand the basic properties of light and explain quantitatively using mathematical formulas.\n(2) Understand reflection, refraction, interference and propagation of light using mathematical formulas.\n(3) Understand light wave transform technology for optical design and be able to analyze image processing operations.",
+    "standard": "(1) Understand the basic properties of light and explain qualitatively using mathematical formulas.\n(2) Understand the concepts of reflection, refraction, interference, propagation of light and explain qualitatively.\n(3) Understand the basics of light wave transform for optical design and be able to explain the mechanism of image processing operations."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Course introduction\nBasic characteristics of Electromagnetic wave",
+      "operation": "Lecture and Q&A",
+      "assignments": "Understand the objectives of\nclass",
+      "minutes": "100"
+    },
+    {
+      "index": "2",
+      "content": "Ch. 1. Basic characteristics of light wave\nPoralized light wave\nReflection and optical wave",
+      "operation": "Lecture and practice\nSelf-check",
+      "assignments": "Review previous lesson and\nprepare Ch. 1 of the text\nbook",
+      "minutes": "200"
+    },
+    {
+      "index": "3",
+      "content": "Ch. 1. Basic characteristics of light wave\nPoralized light wave\nReflection and optical wave",
+      "operation": "Test and review\nSelf-reflection",
+      "assignments": "Review previous lesson and\nprepare Ch. 1 of the text\nbook",
+      "minutes": "200"
+    },
+    {
+      "index": "4",
+      "content": "Ch. 2. Optical interference of light wave\nSingle wave optical interference\nMulti-wave optical interference",
+      "operation": "Lecture and practice\nSelf-check",
+      "assignments": "Review previous lesson and\nprepare Ch. 2 of the text\nbook",
+      "minutes": "200"
+    },
+    {
+      "index": "5",
+      "content": "Ch. 2. Optical interference of light wave\nSingle wave optical interference\nMulti-wave optical interference",
+      "operation": "Lecture and practice\nSelf-check",
+      "assignments": "Review previous lesson and\nprepare Ch. 2 of the text\nbook",
+      "minutes": "200"
+    },
+    {
+      "index": "6",
+      "content": "Ch. 3. Propagation of light wave\nAmplitude modulation\nPhase modulation\nRecording and playback",
+      "operation": "Lecture and practice\nSelf-check",
+      "assignments": "Review previous lesson and\nprepare Ch. 3 of the text\nbook",
+      "minutes": "200"
+    },
+    {
+      "index": "7",
+      "content": "Ch. 3. Propagation of light wave\nAmplitude modulation\nPhase modulation\nRecording and playback",
+      "operation": "Lecture and practice\nSelf-check",
+      "assignments": "Review previous lesson and\nprepare Ch. 3 of the text\nbook",
+      "minutes": "200"
+    },
+    {
+      "index": "8",
+      "content": "Intermediate exam and review of Ch. 1 to 3",
+      "operation": "Test and review\nSelf-reflection",
+      "assignments": "Prepare for the test\n(solve the exercises in\nCh. 1 to 3 of the text book )",
+      "minutes": "200"
+    },
+    {
+      "index": "9",
+      "content": "Ch. 4. Coherence of light wave\nTime coherence\nSpace coherence",
+      "operation": "Lecture and practice\nSelf-check",
+      "assignments": "Review previous lesson and\nprepare Ch. 4 of the text\nbook",
+      "minutes": "200"
+    },
+    {
+      "index": "10",
+      "content": "Ch. 4. Coherence of light wave\nTime coherence\nSpace coherence",
+      "operation": "Lecture and practice\nSelf-check",
+      "assignments": "Review previous lesson and\nprepare Ch. 4 of the text\nbook",
+      "minutes": "200"
+    },
+    {
+      "index": "11",
+      "content": "Ch. 5. Linear optical system\nFourier transformation\nBasic characteristics of optical system",
+      "operation": "Lecture and practice\nSelf-check",
+      "assignments": "Review previous lesson and\nprepare the optical device\nfor display technology",
+      "minutes": "200"
+    },
+    {
+      "index": "12",
+      "content": "Appendix. Application for Information Display\ntechnology\nOptical device in display technology",
+      "operation": "Lecture and practice\nSelf-check",
+      "assignments": "Review previous lesson and\nprepare Ch. 5 of the text\nbook",
+      "minutes": "200"
+    },
+    {
+      "index": "13",
+      "content": "Appendix. Application for Information Display\ntechnology\nLiquid crystal, Organic light emitting diode\nand 3D technology",
+      "operation": "Lecture and practice\nSelf-check",
+      "assignments": "Review previous lesson and\nprepare the examination",
+      "minutes": "200"
+    },
+    {
+      "index": "14",
+      "content": "Final exam and review",
+      "operation": "Test and review\nSelf-reflection",
+      "assignments": "Prepare for the test\n(solve the exercises in\nCh. 4 to 6 of the text book)",
+      "minutes": "200"
+    },
+    {
+      "index": "15",
+      "content": "Exam answer and review\nSelf-evaluation",
+      "operation": "Exam and review\nSelf-evaluation",
+      "assignments": "Prepare for the exam",
+      "minutes": "100"
+    }
+  ],
+  "rawText": "金沢工業大学　学習支援計画書　E640-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Electrical and Electronic Engineering(〜2024)\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                光情報工学\n                Optical Information Engineering\n\n              2\n              E640-01\n\n                2026年度\n\n                3rd year 2nd semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  AIZAWA Koji\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Electromagnetic Wave\n2.Wave Optics\n3.Linear Optical System\n4.Linear Optical System\n5.Image Analysis\n\n              Students will:\n(1)learn the basic properties of light (reflection, refraction, interference, diffraction, and diffusion).\n(2)learn the structures, operating principles and applications about various information devices, systems and display device.\n(3)learn the image recognition and quality evaluation technology.\n\n              授業の概要および学習上の助言\n\n              We will cover the following materials:\n\n1. Basics of wave optics\n2. Coherence of light waves\n3. Optical waveguide\n4. Light wave recording and playback\n5. Linear optical system\n6. Basics of optical information processing\n7. Digital processing of image information\n\n              教科書および参考書・リザーブドブック\n\n              \"Fundamentals of Optical Information Processing\",Takeaki Yoshimura, Corona Publishing Co., LTD.\n\n              履修に必要な予備知識や技能\n\n              Review basics of “Electromagnetics”, “Opt-electronic device engineering” and “Introduction to audio and video”.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                L\n                Be able to explain the basic characteristics of light waves, the interaction between light and matter.\n\n                ②\n                L\n                Be able to describe polarized light wave.\n\n                ③\n                L\n                Be able to describe reflection, refraction and coherence of light wave.\n\n                ④\n                L\n                Be able to explain light weave transform using an optical system.\n\n                ⑤\n\n                ⑥\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                40\n\n                30\n\n                30\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                40\n\n                30\n\n                30\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                40\n\n                30\n\n                30\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  コラボレーションとリーダーシップ\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  発表・表現・伝達する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  学習に取組む姿勢・意欲\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0",
+  "courseId": "2026:fall:E640-01:0:279",
+  "language": "en"
+}

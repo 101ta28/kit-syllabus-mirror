@@ -1,0 +1,312 @@
+{
+  "sourceIndex": 607,
+  "sourceUrl": "/opsyllabus/kitos0110/607/1",
+  "importedAt": "2026-06-08T09:34:05.506Z",
+  "title": "ロボット基礎力学Ⅰ",
+  "subtitle": "Engineering Mechanics I",
+  "courseType": "Major ProgramMajor Courses",
+  "credits": "2",
+  "term": "2026年度\n\n                1st year 1st semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "ITO Kouhei\n授業科目の学習・教育目標"
+  ],
+  "keywords": [
+    "Force",
+    "Equilibrium of force",
+    "Moment of force",
+    "Gravitational force",
+    "Inertial force"
+  ],
+  "educationalGoal": "In this course, students will understand the basic concepts of dynamics (force, moment of force, center of gravity, inertia force, etc.) and acquire basic analytical methods for elementary problems in statics such as the balance of force and moment of force acting on a rigid body, and in dynamics such as parabolic motion of a mass under gravity.",
+  "advice": "Mechanics is the basis of mechanical subjects, and the basis of mechanical design and dynamic motion analysis of robots. Dynamics includes analytical mechanics, vibration, material dynamics, fluid mechanics, thermodynamics, statistical mechanics, and quantum mechanics. This is an introductory course for specialized robotics subjects, and it provides a foundation in mechanics and dynamics. This course covers the following basic topics:\n1. Power\n2. Synthesis and decomposition of force\n3. Moment of force\n4. Equilibrium of force\n5. Center of gravity\n6. Movement and force",
+  "books": "Textbook: Engineering Mechanics [Corona Publishing]\nReference book: Thinking mechanics [Academic book publisher]",
+  "requiredKnowledge": "Many exercise problems require familiarity with the mathematics and physics used in basic engineering.\nAcquire the content of this class, which is essential for understanding specialized subjects in the following year.",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "I,M",
+      "body": "Appropriately express the force acting on an object and represent its magnitude in SI units."
+    },
+    {
+      "index": "②",
+      "type": "I,M",
+      "body": "Understand the concept of force and combined multiple forces, and find any directional component of a force."
+    },
+    {
+      "index": "③",
+      "type": "I,M",
+      "body": "Understand the concept of force moments and calculate force moments."
+    },
+    {
+      "index": "④",
+      "type": "I,M",
+      "body": "Derive the equilibrium equation of forces and calculate them."
+    },
+    {
+      "index": "⑤",
+      "type": "I,M",
+      "body": "Understand the concept of the center of gravity (or centroid) and find the center of gravity."
+    },
+    {
+      "index": "⑥",
+      "type": "I,M",
+      "body": "Understand the relationship between motion and force and calculate inertial force."
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "40",
+        "60",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "40",
+        "60",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "40",
+        "60",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションとリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "1. Synthesize and decompose forces in 3D space accurately.\n2. Use vectors to derive the moment of force.\n3. Describe and solve the equilibrium equation of forces in 3D space.\n4. Derive the center of gravity correctly.\n5. Establish and solve the equation of motion using the motion of mass points.",
+    "standard": "1. Explain the definition of force and moment.\n2. Understand the units of force.\n3. Synthesize and decompose forces.\n4. Describe force balance and find solutions for simple mechanics problems."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Course introduction",
+      "operation": "Lecture and Q&A",
+      "assignments": "Understand the objectives of\nthe course",
+      "minutes": "90"
+    },
+    {
+      "index": "2",
+      "content": "Significant Figure",
+      "operation": "Lecture and Q&A",
+      "assignments": "Review lecture content and\nassignments",
+      "minutes": "90"
+    },
+    {
+      "index": "3",
+      "content": "Significant Figure",
+      "operation": "Lecture and Q&A",
+      "assignments": "Review lecture content and\nassignments",
+      "minutes": "90"
+    },
+    {
+      "index": "4",
+      "content": "Vectors",
+      "operation": "Lecture and Q&A",
+      "assignments": "Review lecture content and\nassignments",
+      "minutes": "90"
+    },
+    {
+      "index": "5",
+      "content": "Vectors",
+      "operation": "Lecture and Q&A",
+      "assignments": "Review lecture content and\nassignments",
+      "minutes": "90"
+    },
+    {
+      "index": "6",
+      "content": "Vectors",
+      "operation": "Lecture and Q&A",
+      "assignments": "Review lecture content and\nassignments",
+      "minutes": "90"
+    },
+    {
+      "index": "7",
+      "content": "Vectors",
+      "operation": "Lecture and Q&A",
+      "assignments": "Review lecture content and\nassignments",
+      "minutes": "90"
+    },
+    {
+      "index": "8",
+      "content": "Middle Examination",
+      "operation": "Lecture and Q&A",
+      "assignments": "Review lecture content and\nassignments",
+      "minutes": "90"
+    },
+    {
+      "index": "9",
+      "content": "Newron`s law",
+      "operation": "Lecture and Q&A",
+      "assignments": "Review lecture content and\nassignments",
+      "minutes": "90"
+    },
+    {
+      "index": "10",
+      "content": "Decomposition and\ncomposition of force",
+      "operation": "Lecture and Q&A",
+      "assignments": "Review lecture content and\nassignments",
+      "minutes": "90"
+    },
+    {
+      "index": "11",
+      "content": "Decomposition and\ncomposition of force",
+      "operation": "Lecture and Q&A",
+      "assignments": "Review lecture content and\nassignments",
+      "minutes": "90"
+    },
+    {
+      "index": "12",
+      "content": "Equilibrium of force",
+      "operation": "Lecture and Q&A",
+      "assignments": "Review lecture content and\nassignments",
+      "minutes": "90"
+    },
+    {
+      "index": "13",
+      "content": "Equilibrium of force",
+      "operation": "Lecture and Q&A",
+      "assignments": "Review lecture content and\nassignments",
+      "minutes": "90"
+    },
+    {
+      "index": "14",
+      "content": "Final Examination",
+      "operation": "Review\nExam",
+      "assignments": "Demonstrate your\ncomprehension of the entire\ncourse",
+      "minutes": "90"
+    },
+    {
+      "index": "15",
+      "content": "Review of final exam\nSelf-evaluation",
+      "operation": "Review\nSelf-evaluation",
+      "assignments": "Review of final exam\nSelf-evaluation",
+      "minutes": "90"
+    }
+  ],
+  "rawText": "金沢工業大学　学習支援計画書　C204-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Robotics\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                ロボット基礎力学Ⅰ\n                Engineering Mechanics I\n\n              2\n              C204-01\n\n                2026年度\n\n                1st year 1st semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  ITO Kouhei\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Force\n2.Equilibrium of force\n3.Moment of force\n4.Gravitational force\n5.Inertial force\n\n              In this course, students will understand the basic concepts of dynamics (force, moment of force, center of gravity, inertia force, etc.) and acquire basic analytical methods for elementary problems in statics such as the balance of force and moment of force acting on a rigid body, and in dynamics such as parabolic motion of a mass under gravity.\n\n              授業の概要および学習上の助言\n\n              Mechanics is the basis of mechanical subjects, and the basis of mechanical design and dynamic motion analysis of robots. Dynamics includes analytical mechanics, vibration, material dynamics, fluid mechanics, thermodynamics, statistical mechanics, and quantum mechanics. This is an introductory course for specialized robotics subjects, and it provides a foundation in mechanics and dynamics. This course covers the following basic topics:\n1. Power\n2. Synthesis and decomposition of force\n3. Moment of force\n4. Equilibrium of force\n5. Center of gravity\n6. Movement and force\n\n              教科書および参考書・リザーブドブック\n\n              Textbook: Engineering Mechanics [Corona Publishing]\nReference book: Thinking mechanics [Academic book publisher]\n\n              履修に必要な予備知識や技能\n\n              Many exercise problems require familiarity with the mathematics and physics used in basic engineering.\nAcquire the content of this class, which is essential for understanding specialized subjects in the following year.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                I,M\n                Appropriately express the force acting on an object and represent its magnitude in SI units.\n\n                ②\n                I,M\n                Understand the concept of force and combined multiple forces, and find any directional component of a force.\n\n                ③\n                I,M\n                Understand the concept of force moments and calculate force moments.\n\n                ④\n                I,M\n                Derive the equilibrium equation of forces and calculate them.\n\n                ⑤\n                I,M\n                Understand the concept of the center of gravity (or centroid) and find the center of gravity.\n\n                ⑥\n                I,M\n                Understand the relationship between motion and force and calculate inertial force.\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                40\n\n                60\n\n                0\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                40\n\n                60\n\n                0\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                40\n\n                60\n\n                0\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n",
+  "courseId": "2026:spring:C204-01:0:607",
+  "language": "en"
+}

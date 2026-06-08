@@ -1,0 +1,267 @@
+{
+  "sourceIndex": 80,
+  "sourceUrl": "/opsyllabus/kitos0110/80/1",
+  "importedAt": "2026-06-08T09:33:54.731Z",
+  "title": "データサイエンス基礎Ⅱ",
+  "subtitle": "Data Science for Beginners 2",
+  "courseType": "Mathematics and Science ProgramMathematics and Science Courses",
+  "credits": "1",
+  "term": "2026年度\n\n                2nd year 1st semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "TANIGUCHI Shinichi",
+    "YAMAOKA Hidetaka",
+    "NISHIOKA Keita",
+    "TANIGUCHI Tetsuya",
+    "KUDO Tomoshige",
+    "UESU Hiroaki",
+    "AKIYAMA Koki",
+    "WATANABE Shuji",
+    "KITAJIMA Takahiro",
+    "TANAKA Yasuhiro",
+    "NAKAGAWA Hayato",
+    "NEMA Hirofumi\n授業科目の学習・教育目標"
+  ],
+  "keywords": [
+    "machine learning",
+    "cluster analysis",
+    "decision tree",
+    "neural network",
+    "MATLAB，MS Excel"
+  ],
+  "educationalGoal": "Utilization of data is indispensable for realizing the smart society Society 5.0, and it will be indispensable in the future to acquire a background in data science.\nIn this lecture, we will discuss,　\n1) Cluster analysis　2) Decision tree analysis　\n3) (artificial) neural networks\nThe goal is to acquire the three methods through lectures and exercises.",
+  "advice": "In this class, we will learn \"classification (discrimination)\" and \"prediction\", which are important uses of data science, through lectures and exercises.\nFirst, we will understand what machine learning is, and learn the theory and usage of three typical methods: cluster analysis, decision tree analysis, and (artificial) neural network.\n\"Cluster analysis\" groups similar things together\nIt is a method that is representative of unsupervised machine learning. ``Decision tree'' is a technique for automatically creating a tree structure for classification, and is a powerful technique for machine learning with supervised data. An “(artificial) neural network” simulates the brain nervous system.\nIt is a powerful method of machine learning with supervised data.\nEach time, in addition to lectures based on classroom lectures, we will conduct exercises in which we actually move our hands and perform analysis. The mathematical explanation of the mathematical background of each method is kept to a minimum to facilitate understanding of the method. Make sure you take the time to explain. Any unclear points should be resolved during class, and time should be allocated for review.",
+  "books": "Do not use textbooks.\nReferences will be given as appropriate in class.",
+  "requiredKnowledge": "It is compulsory to take the preceding course, \"Fundamentals of Data Science I\". Furthermore, it is strongly recommended that students also take ``Statistics for Engineers'' to learn the basics of statistics. Please bring your own laptop PC because analysis tools will be used in every class.",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "D,H",
+      "body": "Be able to after understanding the meaning of machine learning, the purpose of cluster analysis can be explained"
+    },
+    {
+      "index": "②",
+      "type": "D,H",
+      "body": "Be able to the purpose of decision tree analysis can be explained, and analysis can be actually performed."
+    },
+    {
+      "index": "③",
+      "type": "D,H",
+      "body": "Be able to explain the purpose of neural networks and demonstrate their use."
+    },
+    {
+      "index": "④",
+      "type": "D,H",
+      "body": "Be able to classification and prediction using appropriate analysis methods can be performed for given data."
+    },
+    {
+      "index": "⑤",
+      "type": "D,H",
+      "body": "Be able to give a basic explanation of the significance of data science in one's specialized field."
+    },
+    {
+      "index": "⑥",
+      "type": "A",
+      "body": "Be able to attend every class, work on assigned tasks, and understand the contents of the class."
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "0",
+        "0",
+        "70",
+        "0",
+        "0",
+        "0",
+        "30",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "0",
+        "0",
+        "70",
+        "0",
+        "0",
+        "0",
+        "30",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "0",
+        "0",
+        "70",
+        "0",
+        "0",
+        "0",
+        "30",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションとリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "Be able to explain the three methods of network, cluster analysis, decision tree analysis, (artificial) neural network.\nAppropriate analysis models can be created using analysis tools for data.\nUsing the results of this analysis, classification and prediction can be performed when the target data is unknown.\ncan be performed and explained.\nApplying appropriate analysis methods to conduct factor analysis and knowledge discovery\ncan be done.",
+    "standard": "Multivariate data, including given numerical and categorical data\n``cluster analysis'', ``decision tree analysis'', and ``(artificial)\nThe three methods of “parallel network” can be implemented using analysis tools.\nWear. Furthermore, by using the results of this analysis, the target data is unknown.\nClassification and prediction can be performed if\nunderstand the role of data science in their field of expertise."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Guidance: Use and significance of data science.\nLaws and ethics related to data science\n・Machine learning\n・Supervised learning\n・Unsupervised learning (reinforcement\nlearning)\n・Prediction and classification\n・Analysis tool setup",
+      "operation": "lecture\nExercises using MATLAB\nand Excel",
+      "assignments": "Review what you have learned\nand take tasks work\ntogether.\nDistribution pre-distribution\nabout the next learning\ncontent\nPrepare for the lesson.",
+      "minutes": "60\n\n30"
+    },
+    {
+      "index": "2",
+      "content": "cluster analysis (1)\n・Unsupervised learning\n・Distance and similarity\n・Hierarchical clustering\n (example: iris data, etc.)\n・Dendrogram (tree diagram), etc.\n・Practice",
+      "operation": "lecture\nExercises using MATLAB\nand Excel",
+      "assignments": "Review what you have learned\nand take tasks work together.\nDistribution pre-distribution\nabout the next learning\ncontent\nPrepare for the lesson.",
+      "minutes": "60\n\n30"
+    },
+    {
+      "index": "3",
+      "content": "cluster analysis (2)\n・K-Means method (example: iris data, etc.)\n・ Determining the optimal number of clusters:\nGap statistics and elbow method, etc.\n・Practice",
+      "operation": "lecture\nExercises using MATLAB\nand Excel",
+      "assignments": "Review what you have learned\nand take tasks work together.\nDistribution pre-distribution\nabout the next learning\ncontent\nPrepare for the lesson.",
+      "minutes": "60\n\n30"
+    },
+    {
+      "index": "4",
+      "content": "Decision tree analysis (1)\n・Information gain and randomness (impurity)\n・Branching (and pruning)\n・CART (Example: One example is the life and\ndeath of passengers on the passenger ship\nTitanic. Other specific examples may be used\ndepending on the situation.)\n・Practice",
+      "operation": "lecture\nExercises using MATLAB\nand Excel",
+      "assignments": "Review what you have learned\nand take tasks work\ntogether.\nDistribution pre-\ndistribution about the next\nlearning content\nPrepare for the lesson.",
+      "minutes": "60\n\n30"
+    },
+    {
+      "index": "5",
+      "content": "Decision tree analysis (2)\n・C5.0\n・Classification tree and regression tree\n・Random forest method (⇒ ensemble learning)\n・Validation and generalization ability\n・Practice",
+      "operation": "lecture\nExercises using MATLAB\nand Excel",
+      "assignments": "Review what you have learned\nand take tasks work together.\nDistribution pre-distribution\nabout the next learning\ncontent\nPrepare for the lesson.",
+      "minutes": "60\n\n30"
+    },
+    {
+      "index": "6",
+      "content": "neural network\n・Nervous system\n- Perceptron\n・Backpropagation method, etc.\n・Practice",
+      "operation": "lecture\nExercises using MATLAB\nand Excel",
+      "assignments": "Review what you have learned\nand take tasks work together.\nDistribution pre-distribution\nabout the next learning\ncontent\nPrepare for the lesson.",
+      "minutes": "60\n\n30"
+    },
+    {
+      "index": "7",
+      "content": "General practice\n・Review: What is data science (again)\n・Regarding general practice data, prepare\nby each department or use open data\nIn addition, students will review the\nlessons they have learned so far.",
+      "operation": "lecture\nExercises using MATLAB\nand Excel",
+      "assignments": "Review what you have learned\nso far, check the overall\nflow, and review.",
+      "minutes": "60"
+    }
+  ],
+  "rawText": "金沢工業大学　学習支援計画書　G242-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Mathematics, Science, Data Science and AI Program\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Mathematics and Science ProgramMathematics and Science Courses\n\n                データサイエンス基礎Ⅱ\n                Data Science for Beginners 2\n\n              1\n              G242-01\n\n                2026年度\n\n                2nd year 1st semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  TANIGUCHI Shinichi, YAMAOKA Hidetaka, NISHIOKA Keita, TANIGUCHI Tetsuya, KUDO Tomoshige, UESU Hiroaki, AKIYAMA Koki, WATANABE Shuji, KITAJIMA Takahiro, TANAKA Yasuhiro, NAKAGAWA Hayato, NEMA Hirofumi\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.machine learning\n2.cluster analysis\n3.decision tree\n4.neural network\n5. MATLAB，MS Excel\n\n              Utilization of data is indispensable for realizing the smart society Society 5.0, and it will be indispensable in the future to acquire a background in data science.\nIn this lecture, we will discuss,　\n1) Cluster analysis　2) Decision tree analysis　\n3) (artificial) neural networks\nThe goal is to acquire the three methods through lectures and exercises.\n\n              授業の概要および学習上の助言\n\n              In this class, we will learn \"classification (discrimination)\" and \"prediction\", which are important uses of data science, through lectures and exercises.\nFirst, we will understand what machine learning is, and learn the theory and usage of three typical methods: cluster analysis, decision tree analysis, and (artificial) neural network.\n\"Cluster analysis\" groups similar things together\nIt is a method that is representative of unsupervised machine learning. ``Decision tree'' is a technique for automatically creating a tree structure for classification, and is a powerful technique for machine learning with supervised data. An “(artificial) neural network” simulates the brain nervous system.\nIt is a powerful method of machine learning with supervised data.\nEach time, in addition to lectures based on classroom lectures, we will conduct exercises in which we actually move our hands and perform analysis. The mathematical explanation of the mathematical background of each method is kept to a minimum to facilitate understanding of the method. Make sure you take the time to explain. Any unclear points should be resolved during class, and time should be allocated for review.\n\n              教科書および参考書・リザーブドブック\n\n              Do not use textbooks.\nReferences will be given as appropriate in class.\n\n              履修に必要な予備知識や技能\n\n              It is compulsory to take the preceding course, \"Fundamentals of Data Science I\". Furthermore, it is strongly recommended that students also take ``Statistics for Engineers'' to learn the basics of statistics. Please bring your own laptop PC because analysis tools will be used in every class.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                D,H\n                Be able to after understanding the meaning of machine learning, the purpose of cluster analysis can be explained\n\n                ②\n                D,H\n                Be able to the purpose of decision tree analysis can be explained, and analysis can be actually performed.\n\n                ③\n                D,H\n                Be able to explain the purpose of neural networks and demonstrate their use.\n\n                ④\n                D,H\n                Be able to classification and prediction using appropriate analysis methods can be performed for given data.\n\n                ⑤\n                D,H\n                Be able to give a basic explanation of the significance of data science in one's specialized field.\n\n                ⑥\n                A\n                Be able to attend eve",
+  "courseId": "2026:spring:G242-01:0:80",
+  "language": "en"
+}

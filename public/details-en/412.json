@@ -1,0 +1,312 @@
+{
+  "sourceIndex": 412,
+  "sourceUrl": "/opsyllabus/kitos0110/412/1",
+  "importedAt": "2026-06-08T09:34:01.452Z",
+  "title": "メディア数理",
+  "subtitle": "Media Mathematics",
+  "courseType": "Major ProgramMajor Courses",
+  "credits": "2",
+  "term": "2026年度\n\n                3rd year 2nd semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "KAMADA Hiroshi\n授業科目の学習・教育目標"
+  ],
+  "keywords": [
+    "Mathematics",
+    "Physics",
+    "Matrix",
+    "Game programming",
+    "AI information society"
+  ],
+  "educationalGoal": "In this course, students will learn mathematics, physics, and how to write game programs. More specifically, students will learn the basics of geometry, vector operations, matrix operations, and geometric transformations as mathematics knowledge. Next, they will learn the basic equations of 1D, 2D, and 3D motion, Newton's law of motion. In parallel with learning mathematics and physics, students will also learn how to write programs.",
+  "advice": "In this course, students will learn about mathematics, physics, and corresponding programs up to their application to game programs. Students will learn to solve exercises autonomously and explain the answers appropriately. In addition, students will acquire practical knowledge about familiar game programs through consideration of applications such as contribution to the information society.",
+  "books": "None",
+  "requiredKnowledge": "It is desirable for students to have taken basic mathematical courses.",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "D,E,K,L",
+      "body": "Be able to express geometric transformations such as translation, scaling, and rotation in a matrix."
+    },
+    {
+      "index": "②",
+      "type": "D,E,K,L",
+      "body": "Be able to express 1D, 2D, and 3D movements using mathematical formulas."
+    },
+    {
+      "index": "③",
+      "type": "D,E,K,L",
+      "body": "Be able to express collision detection mathematically."
+    },
+    {
+      "index": "④",
+      "type": "D,E,K,L",
+      "body": "Be able to express parabolic motion mathematically."
+    },
+    {
+      "index": "⑤",
+      "type": "D,E,K,L",
+      "body": "Be able to understand programs related to geometric expression."
+    },
+    {
+      "index": "⑥",
+      "type": "D,E,K,L",
+      "body": "Be able to understand programs related to physical movement."
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "0",
+        "0",
+        "80",
+        "0",
+        "0",
+        "0",
+        "20",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "0",
+        "0",
+        "80",
+        "0",
+        "0",
+        "0",
+        "20",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "0",
+        "0",
+        "80",
+        "0",
+        "0",
+        "0",
+        "20",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションとリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "Be able to understand textbook contents, solve high level problems, and make corresponding programs.",
+    "standard": "Be able to understand textbook contents, solve standard level problems, and understand corresponding programs."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Explanation of syllabus\nProgramming environment\nVisual expression language Processing; 3D,\nNature of code, ControlP5",
+      "operation": "Lecture & exercise\nSelf-check",
+      "assignments": "Review: Lecture contents",
+      "minutes": "120"
+    },
+    {
+      "index": "2",
+      "content": "Lecture & exercise: Points and Lines\nLecture & exercise: Geometry Snippets",
+      "operation": "Lecture & exercise\nSelf-check",
+      "assignments": "Review: Lecture contents\nPreparation: Describe answers\nexplanation for the specified\nexercises.",
+      "minutes": "60\n60"
+    },
+    {
+      "index": "3",
+      "content": "Lecture & exercise: Trigonometry Snippets\nLecture & exercise: Vector Operations",
+      "operation": "Lecture & exercise\nSelf-check",
+      "assignments": "Review: Lecture contents\nPreparation: Describe answers\nexplanation for the specified\nexercises.",
+      "minutes": "60\n60"
+    },
+    {
+      "index": "4",
+      "content": "Lecture & exercise: Matrix Operations\nLecture & exercise: Transformations",
+      "operation": "Lecture & exercise\nSelf-check",
+      "assignments": "Review: Lecture contents\nPreparation: Describe answers\nexplanation for the specified\nexercises.",
+      "minutes": "60\n60"
+    },
+    {
+      "index": "5",
+      "content": "Lecture & exercise: Unit Conversions\nLecture & exercise: Motion in One\nDimension",
+      "operation": "Lecture & exercise\nSelf-check",
+      "assignments": "Review: Lecture contents\nPreparation: Describe answers\nexplanation for the specified\nexercises.",
+      "minutes": "60\n60"
+    },
+    {
+      "index": "6",
+      "content": "Lecture & exercise: Derivative Approach to Motio\nn in One Dimension\nLecture & exercise: Motion in Two and Three Dime\nnsions",
+      "operation": "Lecture & exercise\nSelf-check",
+      "assignments": "Review: Lecture contents\nPreparation: Describe answers\nexplanation for the specified\nexercises.",
+      "minutes": "60\n60"
+    },
+    {
+      "index": "7",
+      "content": "Lecture & exercise: Newton's Laws",
+      "operation": "Lecture & exercise\nSelf-check",
+      "assignments": "Review: Lecture contents\nPreparation: Describe answers\nexplanation for the specified\nexercises.",
+      "minutes": "60\n60"
+    },
+    {
+      "index": "8",
+      "content": "Lecture & exercise: Energy",
+      "operation": "Lecture & exercise\nSelf-check",
+      "assignments": "Review: Lecture contents\nPreparation: Describe answers\nexplanation for the specified\nexercises.",
+      "minutes": "60\n60"
+    },
+    {
+      "index": "9",
+      "content": "Lecture & exercise: Momentum and Collisions",
+      "operation": "Lecture & exercise\nSelf-check",
+      "assignments": "Review: Lecture contents\nPreparation: Describe answers\nexplanation for the specified\nexercises.",
+      "minutes": "60\n60"
+    },
+    {
+      "index": "10",
+      "content": "Lecture & exercise: Rotational Motion",
+      "operation": "Lecture & exercise\nSelf-check",
+      "assignments": "Review: Lecture contents\nPreparation: Describe answers\nexplanation for the specified\nexercises.",
+      "minutes": "60\n60"
+    },
+    {
+      "index": "11",
+      "content": "Explanation and preparation for work issues",
+      "operation": "Lecture & exercise\nSelf-check",
+      "assignments": "Review: Concept of the work",
+      "minutes": "90"
+    },
+    {
+      "index": "12",
+      "content": "Presentation of work concept",
+      "operation": "Presentation\nLecture & exercise\nSelf-check",
+      "assignments": "Preparation: Produce the\nfirst edition of the work.",
+      "minutes": "240"
+    },
+    {
+      "index": "13",
+      "content": "First presentation of work",
+      "operation": "Presentation\nEvaluation\nSelf-check",
+      "assignments": "Preparation: Completion of\nthe work",
+      "minutes": "240"
+    },
+    {
+      "index": "14",
+      "content": "Final presentation of the work",
+      "operation": "Presentation\nEvaluation\nSelf-check",
+      "assignments": "Review: Evaluation results.",
+      "minutes": "30"
+    },
+    {
+      "index": "15",
+      "content": "Developmental learning\nClass summary\nSelf-check",
+      "operation": "Review the entire\nclass\nLecture & exercise\nSelf-check",
+      "assignments": "Review: Review the entire\nclass and organize class\nknowledge.",
+      "minutes": "90"
+    }
+  ],
+  "rawText": "金沢工業大学　学習支援計画書　F032-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Media Informatics(〜2024)\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                メディア数理\n                Media Mathematics\n\n              2\n              F032-01\n\n                2026年度\n\n                3rd year 2nd semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  KAMADA Hiroshi\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Mathematics\n2.Physics\n3.Matrix\n4.Game programming\n5.AI information society\n\n              In this course, students will learn mathematics, physics, and how to write game programs. More specifically, students will learn the basics of geometry, vector operations, matrix operations, and geometric transformations as mathematics knowledge. Next, they will learn the basic equations of 1D, 2D, and 3D motion, Newton's law of motion. In parallel with learning mathematics and physics, students will also learn how to write programs.\n\n              授業の概要および学習上の助言\n\n              In this course, students will learn about mathematics, physics, and corresponding programs up to their application to game programs. Students will learn to solve exercises autonomously and explain the answers appropriately. In addition, students will acquire practical knowledge about familiar game programs through consideration of applications such as contribution to the information society.\n\n              教科書および参考書・リザーブドブック\n\n              None\n\n              履修に必要な予備知識や技能\n\n              It is desirable for students to have taken basic mathematical courses.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                D,E,K,L\n                Be able to express geometric transformations such as translation, scaling, and rotation in a matrix.\n\n                ②\n                D,E,K,L\n                Be able to express 1D, 2D, and 3D movements using mathematical formulas.\n\n                ③\n                D,E,K,L\n                Be able to express collision detection mathematically.\n\n                ④\n                D,E,K,L\n                Be able to express parabolic motion mathematically.\n\n                ⑤\n                D,E,K,L\n                Be able to understand programs related to geometric expression.\n\n                ⑥\n                D,E,K,L\n                Be able to understand programs related to physical movement.\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                0\n\n                0\n\n                80\n\n                0\n\n                0\n\n                0\n\n                20\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                0\n\n                0\n\n                80\n\n                0\n\n                0\n\n                0\n\n                20\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                0\n\n                0\n\n                80\n\n                0\n\n                0\n\n                0\n\n                20\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  コラボレーションとリーダーシップ\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  発表・表現・伝達する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n            ",
+  "courseId": "2026:fall:F032-01:0:412",
+  "language": "en"
+}

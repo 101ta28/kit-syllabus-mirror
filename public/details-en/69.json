@@ -1,0 +1,312 @@
+{
+  "sourceIndex": 69,
+  "sourceUrl": "/opsyllabus/kitos0110/69/1",
+  "importedAt": "2026-06-08T09:33:54.476Z",
+  "title": "線形代数Ⅱ（再履修クラス）",
+  "subtitle": "Linear Algebra II",
+  "courseType": "Mathematics and Science ProgramMathematics and Science Courses",
+  "credits": "2",
+  "term": "2026年度\n\n                1st year 2nd semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "TANAKA Tadayoshi\n授業科目の学習・教育目標"
+  ],
+  "keywords": [
+    "Determinant",
+    "Cofactor",
+    "Cramer's rule",
+    "Vector space",
+    "Eigenvalue and eigenvector"
+  ],
+  "educationalGoal": "Students will learn:\n(1) the properties of a determinant and a method to calculate determinants.\n(2) the properties of cofactors.\n(3) the concept of a vector space and a basis.\n(4) eigenvalues and eigenvectors.",
+  "advice": "This is a basic course in linear algebra, continued from “Linea Algebra I.” We will cover the following topics:\n\n1. Determinants\n1.1 Definition of determinant.\n1.2 Properties of the determinant and calculation method\n1.3 Cofactors and their applications\n2. Vector spaces and Eigenvalue\n2.1 Vector spaces\n2.2 Eigenvalues and eigenvectors\n\nClasses include exercises and quizzes; a final examination will be given at the end of the semester.\nDaily preparation and review are important. Students are required to complete the designated tasks.\nStudents should prepare reports and study research topics in a planned manner, and strictly avoid plagiarism.",
+  "books": "Textbook: Linear Algebra Ⅱ (KIT Math and Science Academic Foundations Programs)\nReference book: A First Course in Linear Algebra (Open Textbook Library)[Lyryx]",
+  "requiredKnowledge": "Students should understand the concepts introduced in “Linear Algebra I.” It is especially important that students understand and are able to perform matrix calculations and have a good knowledge of linear transformations.",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "D",
+      "body": "Understand the properties of determinants and be able to calculate the value of a determinant."
+    },
+    {
+      "index": "②",
+      "type": "D",
+      "body": "Be able to find inverse matrices using cofactors."
+    },
+    {
+      "index": "③",
+      "type": "D",
+      "body": "Understand the concept of vector space and be able to find a basis."
+    },
+    {
+      "index": "④",
+      "type": "D",
+      "body": "Be able to find the eigenvalues and eigenvectors of matrices."
+    },
+    {
+      "index": "⑤",
+      "type": "C",
+      "body": "Understand the meanings of fundamental english words for mathematics."
+    },
+    {
+      "index": "⑥",
+      "type": "A",
+      "body": "Understand the contents of the course and be able to complete the required tasks by the announced deadlines."
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "30",
+        "30",
+        "15",
+        "0",
+        "0",
+        "0",
+        "25",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "30",
+        "30",
+        "15",
+        "0",
+        "0",
+        "0",
+        "25",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "30",
+        "30",
+        "15",
+        "0",
+        "0",
+        "0",
+        "25",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションとリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "(1) Understand the definition and properties of determinants and be able to calculate a determinant.\n(2) Understand the properties of cofactors and find inverse matrices.\n(3) Understand the properties of vector spaces and the concept of a basis.\n(4) Find the eigenvalues and eigenvectors of matrices and apply them to diagonalization.",
+    "standard": "(1) Understand the properties of determinants and be able to calculate a determinant.\n(2) Find inverse matrices using cofactors.\n(3) Find the basis of a subspace.\n(4) Find the eigenvalues and eigenvectors of simple matrices."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Course introduction\nDefinition of determinant\nCalculation of determinants of\norders 2 and 3",
+      "operation": "Lecture and exercises",
+      "assignments": "Understand the objectives of\nclass\nReview materials from the\nprevious course",
+      "minutes": "120"
+    },
+    {
+      "index": "2",
+      "content": "Fundamental properties of determinants",
+      "operation": "Lecture and exercises",
+      "assignments": "Review materials from the\nlast class\nPrepare for next class",
+      "minutes": "120"
+    },
+    {
+      "index": "3",
+      "content": "Calculation method of determinants\nbased on the properties of determinants",
+      "operation": "Lecture and exercises",
+      "assignments": "Review materials from the\nlast class\nPrepare for next class",
+      "minutes": "120"
+    },
+    {
+      "index": "4",
+      "content": "Cofactor expansion",
+      "operation": "Lecture and exercises",
+      "assignments": "Review materials from the\nlast class\nPreview for next class",
+      "minutes": "120"
+    },
+    {
+      "index": "5",
+      "content": "Inverse matrices and Cramer's rule",
+      "operation": "Lecture and exercises",
+      "assignments": "Review materials from the\nlast class\nPrepare for the test",
+      "minutes": "180"
+    },
+    {
+      "index": "6",
+      "content": "Quiz (1)\n\nVector spaces, subspaces",
+      "operation": "Quiz on the contents of\n# 1 - # 5\nLecture and exercises",
+      "assignments": "Review materials from the\nlast class\nPrepare for next class",
+      "minutes": "120"
+    },
+    {
+      "index": "7",
+      "content": "Linear independence, linear dependence\nof vectors",
+      "operation": "Lecture and exercises\n\nSelf-check",
+      "assignments": "Review materials from the\nlast class\nPrepare for next class",
+      "minutes": "120"
+    },
+    {
+      "index": "8",
+      "content": "Basis and dimension of a subspace",
+      "operation": "Lecture and exercises",
+      "assignments": "Review materials from the\nlast class\nPrepare for next class",
+      "minutes": "120"
+    },
+    {
+      "index": "9",
+      "content": "Eigenvalues and eigenvectors",
+      "operation": "Lecture and exercises",
+      "assignments": "Review materials from the\nlast class\nPrepare for next class",
+      "minutes": "120"
+    },
+    {
+      "index": "10",
+      "content": "Properties of eigenvalues and eigenvectors",
+      "operation": "Lecture and exercises",
+      "assignments": "Review materials from the\nlast class\nPrepare for next class",
+      "minutes": "120"
+    },
+    {
+      "index": "11",
+      "content": "Diagonalization and its applications",
+      "operation": "Lecture and exercises",
+      "assignments": "Review materials from the\nlast class\nPrepare for the test",
+      "minutes": "180"
+    },
+    {
+      "index": "12",
+      "content": "Quiz (2)\n\nIntegrated subject: standard forms\nof quadratic curves",
+      "operation": "Quiz on the contents of\n# 6 - # 11\nLecture and exercises",
+      "assignments": "Review materials from the\nlast class\nPrepare for next class",
+      "minutes": "120"
+    },
+    {
+      "index": "13",
+      "content": "Classifications of quadratic curves\n\nSelf-reflection class",
+      "operation": "Lecture and exercises\n\nSelf-check",
+      "assignments": "Study for the final exam",
+      "minutes": "180"
+    },
+    {
+      "index": "14",
+      "content": "Review\n\nFinal exam",
+      "operation": "Review\n\nExam on contents of\n# 1 - # 11",
+      "assignments": "Study for the final exam\nReview of this class",
+      "minutes": "120"
+    },
+    {
+      "index": "15",
+      "content": "Review the final exam\n\nSelf-check",
+      "operation": "Review the final exam\nSelf-check",
+      "assignments": "Review: Final exam",
+      "minutes": "90"
+    }
+  ],
+  "rawText": "金沢工業大学　学習支援計画書　G202-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Mathematics, Science, Data Science and AI Program\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Mathematics and Science ProgramMathematics and Science Courses\n\n                線形代数Ⅱ（再履修クラス）\n                Linear Algebra II\n\n              2\n              G202-01\n\n                2026年度\n\n                1st year 2nd semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  TANAKA Tadayoshi\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Determinant\n2.Cofactor\n3.Cramer's rule\n4.Vector space\n5.Eigenvalue and eigenvector\n\n              Students will learn:\n(1) the properties of a determinant and a method to calculate determinants.\n(2) the properties of cofactors.\n(3) the concept of a vector space and a basis.\n(4) eigenvalues and eigenvectors.\n\n              授業の概要および学習上の助言\n\n              This is a basic course in linear algebra, continued from “Linea Algebra I.” We will cover the following topics:\n\n1. Determinants\n1.1 Definition of determinant.\n1.2 Properties of the determinant and calculation method\n1.3 Cofactors and their applications\n2. Vector spaces and Eigenvalue\n2.1 Vector spaces\n2.2 Eigenvalues and eigenvectors\n\nClasses include exercises and quizzes; a final examination will be given at the end of the semester.\nDaily preparation and review are important. Students are required to complete the designated tasks.\nStudents should prepare reports and study research topics in a planned manner, and strictly avoid plagiarism.\n\n              教科書および参考書・リザーブドブック\n\n              Textbook: Linear Algebra Ⅱ (KIT Math and Science Academic Foundations Programs)\nReference book: A First Course in Linear Algebra (Open Textbook Library)[Lyryx]\n\n              履修に必要な予備知識や技能\n\n              Students should understand the concepts introduced in “Linear Algebra I.” It is especially important that students understand and are able to perform matrix calculations and have a good knowledge of linear transformations.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                D\n                Understand the properties of determinants and be able to calculate the value of a determinant.\n\n                ②\n                D\n                Be able to find inverse matrices using cofactors.\n\n                ③\n                D\n                Understand the concept of vector space and be able to find a basis.\n\n                ④\n                D\n                Be able to find the eigenvalues and eigenvectors of matrices.\n\n                ⑤\n                C\n                Understand the meanings of fundamental english words for mathematics.\n\n                ⑥\n                A\n                Understand the contents of the course and be able to complete the required tasks by the announced deadlines.\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                30\n\n                30\n\n                15\n\n                0\n\n                0\n\n                0\n\n                25\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                30\n\n                30\n\n                15\n\n                0\n\n                0\n\n                0\n\n                25\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                30\n\n                30\n\n                15\n\n                0\n\n                0\n\n                0\n\n                25\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n        ",
+  "courseId": "2026:fall:G202-01:0:69",
+  "language": "en"
+}

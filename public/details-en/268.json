@@ -1,0 +1,307 @@
+{
+  "sourceIndex": 268,
+  "sourceUrl": "/opsyllabus/kitos0110/268/1",
+  "importedAt": "2026-06-08T09:33:58.539Z",
+  "title": "情報通信ネットワーク",
+  "subtitle": "Network Technology of Information processing and Communication",
+  "courseType": "Major ProgramMajor Courses",
+  "credits": "2",
+  "term": "2026年度\n\n                3rd year 1st semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "YOKOTANI Tetsuya\n授業科目の学習・教育目標"
+  ],
+  "keywords": [
+    "IoT",
+    "Communication Protocol",
+    "Internet",
+    "Network design",
+    "Community cooperation"
+  ],
+  "educationalGoal": "Information and Communication Technology (ICT) including IoT and related technologies is an indispensable factor in the social infrastructure. Especially, in communication networks, understanding communication protocol and network configurations are important items. This course focuses on these items. Moreover, this course comes in touch with the latest trends and future directions in ICT.",
+  "advice": "This course is a systems approach of fundamental technologies including \"Communication and Network system\" and \"Transmission of Electronic Information\".\n\nThis course includes the following topics.\n(1) Overview of communication network focusing on the Internet\n(2) Communication protocols in each layer of the Internet reference model\n  - Data link layer (Ethernet, Wireless LAN)\n  - Network layer (IPv4, IPv6)\n  - Transport layer (TCP, UDP)\n(3) Applications on the Internet\n  - e-mail\n  - Web access\n  - File transfer, etc.\n(4) Basic technologies on performance analysis in networks\n(5) IoT services and technologies\n(6) The latest topics in ICT by a guest lecturer",
+  "books": "Textbooks：Commercially available Japanese book\nReference books：White Paper: Information and Communications in Japan, MIC, http://www.soumu.go.jp/johotsusintokei/wp_eng.html\nReserved books：",
+  "requiredKnowledge": "Nothing",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "L",
+      "body": "Understanding summary of typical communication protocols"
+    },
+    {
+      "index": "②",
+      "type": "L",
+      "body": "Understanding the layered reference model"
+    },
+    {
+      "index": "③",
+      "type": "L",
+      "body": "Understanding mechanisms of the Internet"
+    },
+    {
+      "index": "④",
+      "type": "L",
+      "body": "Understanding the basic level of traffic theory and its applications"
+    },
+    {
+      "index": "⑤",
+      "type": "L",
+      "body": "Understanding features of network topology"
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "40",
+        "40",
+        "20",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "40",
+        "40",
+        "20",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "40",
+        "40",
+        "20",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションとリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "Students can explain following items with precision.\n(1) Key technical terms in the ICT field\n(2) Communication mechanisms of current networks and future directions\n(3) Modeling and performance evaluation techniques for networks",
+    "standard": "Students can explain roughly following items with hesitations\n(1) Key technical terms in the ICT field\n(2) Mechanisms of Ethernet, Wireless LAN and TCP/IP\n(3) Future directions of communication networks"
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Introduction\nOverview of International standardization in\nICT for interoperability in networks\nOverview of the Internet (Chapter 1)",
+      "operation": "Lecture and small\npractice",
+      "assignments": "Preparation: read syllabus\nand Chapter 1 of text\nReview: review class material",
+      "minutes": "Prepar\nation\n100\nReview\n100"
+    },
+    {
+      "index": "2",
+      "content": "Network products and their functions (Chapter 2)\nOverview of communication mechanisms in the\nInternet (Chapter 3)",
+      "operation": "Lecture and small\npractice",
+      "assignments": "Preparation: read Chapters 2\nand 3 of text\nReview: review class material",
+      "minutes": "Prepar\nation\n100\nReview"
+    },
+    {
+      "index": "3",
+      "content": "Layered reference model (Chapter 4)\nArchitecture of communication links (Chapter 5)",
+      "operation": "Lecture and small\npractice",
+      "assignments": "Preparation: read Chapters 4\nand 5 of text\nReview: review class material",
+      "minutes": "Prepar\nation\n100\nReview"
+    },
+    {
+      "index": "4",
+      "content": "Wired link in networks (Chapter 6)\nWireless link networks (Chapter 7)",
+      "operation": "Lecture and small\npractice",
+      "assignments": "Preparation: read Chapters 6\nand 7 of text\nReview: review class material",
+      "minutes": "Prepar\nation\n100\nReview"
+    },
+    {
+      "index": "5",
+      "content": "End-to-End communication and IP address\nstructure (Chapter 8)\nTransfer mechanisms of IP packets (Chapter 9)",
+      "operation": "Lecture and small\npractice",
+      "assignments": "Preparation: read Chapters 8\nand 9 of text\nReview: review class material",
+      "minutes": "Prepar\nation\n100\nReview"
+    },
+    {
+      "index": "6",
+      "content": "Communication control mechanisms on End-to-End\ncommunication (Chapter 10)",
+      "operation": "Lecture and small\npractice",
+      "assignments": "Preparation: read Chapter 10\nof text\nReview: review class material",
+      "minutes": "Prepar\nation\n100\nReview\n100"
+    },
+    {
+      "index": "7",
+      "content": "IP routing (Chapter 11)",
+      "operation": "Lecture and small\npractice",
+      "assignments": "Preparation: read Chapter 10\nof text\nReview: review class material",
+      "minutes": "Prepar\nation\n100\nReview\n100"
+    },
+    {
+      "index": "8",
+      "content": "Interim examination and explanation of its\nreference answer\nReview of #1-#7",
+      "operation": "Interim examination\nLecture",
+      "assignments": "Preparation: review class\nmaterial and text (#1-#7)\nReview: review reference\nanswer",
+      "minutes": "Prepar\nation\n100\nReview\n100"
+    },
+    {
+      "index": "9",
+      "content": "Notification of the theme of 1st report\nDNS and interconnection in Private LAN\n(Chapter 12)\nRemote login and file transfer mechanisms\n(Chapter 13)",
+      "operation": "Lecture and small\npractice",
+      "assignments": "Preparation: read Chapters 12\nand 13 of text\nReview: review class material\nand make the report",
+      "minutes": "Prepar\nation\n100\nReview\n100"
+    },
+    {
+      "index": "10",
+      "content": "e-mail transfer mechanisms (Chapter 14)\nWWW access mechanisms (Chapter 15)",
+      "operation": "Lecture and small\npractice",
+      "assignments": "Preparation: read Chapters 14\nand 15 of text\nReview: review class material",
+      "minutes": "Prepar\nation\n100\nReview\n100"
+    },
+    {
+      "index": "11",
+      "content": "Network design techniques (Traffic theory and\nTraffic simulation)",
+      "operation": "Lecture and small\npractice",
+      "assignments": "Preparation: read class\nmaterial\nReview: review class material",
+      "minutes": "Prepar\nation\n100\nReview\n100"
+    },
+    {
+      "index": "12",
+      "content": "IoT technology and use cases in Hokuriku areas",
+      "operation": "Lecture and small\npractice",
+      "assignments": "Preparation: read class\nmaterial\nReview: review class material",
+      "minutes": "Prepar\nation\n100\nReview\n100"
+    },
+    {
+      "index": "13",
+      "content": "Final examination and explanation of its\nreference answer\nReview of #9-#12",
+      "operation": "Final examination\nLecture",
+      "assignments": "Preparation: review class\nmaterial and text (#9-#12)\nReview: review reference\nanswer",
+      "minutes": "Prepar\nation\n100\nReview\n100"
+    },
+    {
+      "index": "14",
+      "content": "Notification of the theme of 2nd report\nSpecial lecture: the latest topics of ICT in\ntelecommunication fields",
+      "operation": "Lecture with making\nlecture note",
+      "assignments": "Preparation: read class\nmaterial\nReview: review class material\nand make the report",
+      "minutes": "Prepar\nation\n100\nReview\n100"
+    },
+    {
+      "index": "15",
+      "content": "Summary of whole of classes",
+      "operation": "Lecture\nInterview for each\nstudent including\nnotification of score in\nthis course\nResponse unified",
+      "assignments": "Preparation: read class\nmaterial (#1-#15)\nReview: review class material\n(#1-#15)",
+      "minutes": "Prepar\nation\n100\nReview\n100"
+    }
+  ],
+  "rawText": "金沢工業大学　学習支援計画書　E629-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Electrical and Electronic Engineering(〜2024)\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                情報通信ネットワーク\n                Network Technology of Information processing and Communication\n\n              2\n              E629-01\n\n                2026年度\n\n                3rd year 1st semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  YOKOTANI Tetsuya\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.IoT\n2.Communication Protocol\n3.Internet\n4.Network design\n5.Community cooperation\n\n              Information and Communication Technology (ICT) including IoT and related technologies is an indispensable factor in the social infrastructure. Especially, in communication networks, understanding communication protocol and network configurations are important items. This course focuses on these items. Moreover, this course comes in touch with the latest trends and future directions in ICT.\n\n              授業の概要および学習上の助言\n\n              This course is a systems approach of fundamental technologies including \"Communication and Network system\" and \"Transmission of Electronic Information\".\n\nThis course includes the following topics.\n(1) Overview of communication network focusing on the Internet\n(2) Communication protocols in each layer of the Internet reference model\n  - Data link layer (Ethernet, Wireless LAN)\n  - Network layer (IPv4, IPv6)\n  - Transport layer (TCP, UDP)\n(3) Applications on the Internet\n  - e-mail\n  - Web access\n  - File transfer, etc.\n(4) Basic technologies on performance analysis in networks\n(5) IoT services and technologies\n(6) The latest topics in ICT by a guest lecturer\n\n              教科書および参考書・リザーブドブック\n\n              Textbooks：Commercially available Japanese book\nReference books：White Paper: Information and Communications in Japan, MIC, http://www.soumu.go.jp/johotsusintokei/wp_eng.html\nReserved books：\n\n              履修に必要な予備知識や技能\n\n              Nothing\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                L\n                Understanding summary of typical communication protocols\n\n                ②\n                L\n                Understanding the layered reference model\n\n                ③\n                L\n                Understanding mechanisms of the Internet\n\n                ④\n                L\n                Understanding the basic level of traffic theory and its applications\n\n                ⑤\n                L\n                Understanding features of network topology\n\n                ⑥\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                40\n\n                40\n\n                20\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                40\n\n                40\n\n                20\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                40\n\n                40\n\n                20\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  コラボレーションとリーダーシップ\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n ",
+  "courseId": "2026:spring:E629-01:0:268",
+  "language": "en"
+}

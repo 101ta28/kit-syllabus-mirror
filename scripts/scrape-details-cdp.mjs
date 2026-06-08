@@ -5,7 +5,9 @@ const CDP = "http://127.0.0.1:9222";
 const SOURCE = "https://europa.kanazawa-it.ac.jp/opsyllabus/kitos0100/0";
 const root = process.cwd();
 const searchSourcePath = path.resolve(root, "../europa-syllabus-search-detail.json");
-const cachePath = path.resolve(root, "data/syllabus-details-cache.json");
+const languageType = String(process.env.LANGUAGE_TYPE ?? "0");
+const languageSuffix = languageType === "1" ? "-en" : "";
+const cachePath = path.resolve(root, `data/syllabus-details-cache${languageSuffix}.json`);
 const batchSize = Number(process.env.BATCH_SIZE ?? 20);
 
 async function json(url, init = undefined) {
@@ -121,8 +123,15 @@ for (let start = 0; start < total; start += batchSize) {
         .replace(/[ \\t]+\\n/g, '\\n')
         .replace(/\\n{3,}/g, '\\n\\n')
         .trim();
-      const cellText = (row, className) => normalizeText(row?.cells?.find((cell) => String(cell.className).split(/\\s+/).includes(className))?.text ?? '');
+      const hasClass = (cell, className) => String(cell?.className ?? '').split(/\\s+/).includes(className);
+      const cellText = (row, className) => normalizeText(row?.cells?.find((cell) => hasClass(cell, className))?.text ?? '');
       const firstRowByCellClass = (rows, className) => rows.find((row) => row.cells?.some((cell) => String(cell.className).split(/\\s+/).includes(className)));
+      const rowsBetweenClass = (rows, startClass, endClasses = []) => {
+        const start = rows.findIndex((row) => row.cells?.some((cell) => hasClass(cell, startClass)));
+        if (start < 0) return [];
+        const end = rows.findIndex((row, index) => index > start && row.cells?.some((cell) => endClasses.some((className) => hasClass(cell, className))));
+        return rows.slice(start + 1, end < 0 ? rows.length : end);
+      };
       const rowsAfterHeader = (rows, headerText, untilHeaderTexts = []) => {
         const start = rows.findIndex((row) => row.cells?.some((cell) => normalizeText(cell.text) === headerText));
         if (start < 0) return [];
@@ -131,6 +140,13 @@ for (let start = 0; start < total; start += batchSize) {
       };
       const extractSingleSection = (rows, headerText, untilHeaderTexts = []) => normalizeText(
         rowsAfterHeader(rows, headerText, untilHeaderTexts)
+          .flatMap((row) => row.cells ?? [])
+          .map((cell) => cell.text)
+          .filter(Boolean)
+          .join('\\n')
+      );
+      const extractSingleSectionByClass = (rows, startClass, endClasses = []) => normalizeText(
+        rowsBetweenClass(rows, startClass, endClasses)
           .flatMap((row) => row.cells ?? [])
           .map((cell) => cell.text)
           .filter(Boolean)
@@ -201,14 +217,25 @@ for (let start = 0; start < total; start += batchSize) {
         const rows = [...doc.querySelectorAll('table tr')].map((row) => ({
           className: row.className,
           cells: [...row.cells].map((cell) => ({
+            tag: cell.tagName,
             className: cell.className,
             text: cell.innerText.trim()
           }))
         }));
         const basicRow = firstRowByCellClass(rows, 'courseName');
-        const goalRows = rowsAfterHeader(rows, '授業科目の学習・教育目標', ['授業の概要および学習上の助言']);
-        const keywordText = goalRows.map((row) => cellText(row, 'keywords')).filter(Boolean).join('\\n');
-        const educationalGoal = goalRows.map((row) => cellText(row, 'educationalGoal')).filter(Boolean).join('\\n');
+        const goalRows = rowsBetweenClass(rows, 'keywords', ['abstractAndAdvice']);
+        const keywordText = goalRows
+          .flatMap((row) => row.cells ?? [])
+          .filter((cell) => hasClass(cell, 'keywords') && cell.tag !== 'TH')
+          .map((cell) => cell.text)
+          .filter(Boolean)
+          .join('\\n');
+        const educationalGoal = goalRows
+          .flatMap((row) => row.cells ?? [])
+          .filter((cell) => hasClass(cell, 'educationalGoal') && cell.tag !== 'TH')
+          .map((cell) => cell.text)
+          .filter(Boolean)
+          .join('\\n');
         const courseNameParts = cellText(basicRow, 'courseName').split('\\n');
         return {
           sourceIndex,
@@ -220,16 +247,16 @@ for (let start = 0; start < total; start += batchSize) {
           credits: cellText(basicRow, 'credits'),
           term: cellText(basicRow, 'courseTerm'),
           method: cellText(basicRow, 'method'),
-          teachers: splitTeachers(extractSingleSection(rows, '担当教員名', ['授業科目の学習・教育目標'])),
+          teachers: splitTeachers(extractSingleSectionByClass(rows, 'teacherNames', ['keywords', 'educationalGoal', 'abstractAndAdvice'])),
           keywords: splitKeywords(keywordText),
           educationalGoal: normalizeText(educationalGoal),
-          advice: extractSingleSection(rows, '授業の概要および学習上の助言', ['教科書および参考書・リザーブドブック']),
-          books: extractSingleSection(rows, '教科書および参考書・リザーブドブック', ['履修に必要な予備知識や技能']),
-          requiredKnowledge: extractSingleSection(rows, '履修に必要な予備知識や技能', ['学生が達成すべき行動目標']),
+          advice: extractSingleSectionByClass(rows, 'abstractAndAdvice', ['reservedBook']),
+          books: extractSingleSectionByClass(rows, 'reservedBook', ['requiredKnowledge']),
+          requiredKnowledge: extractSingleSectionByClass(rows, 'requiredKnowledge', ['activityGoal']),
           activityGoals: extractActivityGoals(rows),
           evaluationWeights: extractEvaluationWeights(rows),
           achievementLevels: extractAchievementLevels(rows),
-          clipProcess: extractSingleSection(rows, 'ＣＬＩＰ学習プロセスについて', ['授業明細']),
+          clipProcess: extractSingleSection(rows, 'ＣＬＩＰ学習プロセスについて', ['授業明細']) || extractSingleSection(rows, 'CLIP Learning Process', ['Course Schedule']),
           lessons: extractLessons(rows),
           rawText: normalizeText(doc.body?.innerText ?? '').slice(0, 4000)
         };
@@ -237,11 +264,11 @@ for (let start = 0; start < total; start += batchSize) {
 
       const out = [];
       for (const index of indexes) {
-        const sourceUrl = '/opsyllabus/kitos0110/' + index + '/0';
+        const sourceUrl = '/opsyllabus/kitos0110/' + index + '/${languageType}';
         try {
           const response = await fetch(sourceUrl, { credentials: 'include' });
           const html = await response.text();
-          if (!response.ok || !html.includes('授業科目区分')) {
+          if (!response.ok || !html.includes('courseName')) {
             out.push({ sourceIndex: index, sourceUrl, error: response.status + ' detail page not available' });
           } else {
             out.push(parse(html, index, sourceUrl));

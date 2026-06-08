@@ -1,0 +1,305 @@
+{
+  "sourceIndex": 598,
+  "sourceUrl": "/opsyllabus/kitos0110/598/1",
+  "importedAt": "2026-06-08T09:34:05.283Z",
+  "title": "離散数学",
+  "subtitle": "Discrete Mathematics",
+  "courseType": "Major ProgramMajor Courses",
+  "credits": "2",
+  "term": "2026年度\n\n                1st year 2nd semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "NINAGAWA Shigeru\n授業科目の学習・教育目標"
+  ],
+  "keywords": [
+    "Set and logic",
+    "Relation and mapping",
+    "Algebraic system"
+  ],
+  "educationalGoal": "Following the recent progress in AI technology demands a knowledge of mathematics. Discrete mathematics is an essential part of mathematics necessary for developing information technology. The subjects dealt with in this course are required in succeeding courses.",
+  "advice": "In this course, we learn the following topics:\n\n1. Sets and their operations\n2. Propositional logic\n3. Predicate and quantifier\n4. Mathematical induction\n5. Relation\n6. Equivalence class\n7. Mapping\n8. Semigroup\n9. Group\n10. Modulo arithmetics and residue class\n11. Ring\n12. Field\n\nSince all topics are abstract, students are strongly recommended to solve the exercises by themselves.",
+  "books": "やさしく学べる離散数学，石村園子，共立出版",
+  "requiredKnowledge": "There are no prerequisites. If students encounter something they cannot understand, they will be expected to resolve it by utilizing office hours.",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "M",
+      "body": "Be able to obtain the truth value of a formula in propositional logic."
+    },
+    {
+      "index": "②",
+      "type": "M",
+      "body": "Be able to classify elements according to the equivalence class."
+    },
+    {
+      "index": "③",
+      "type": "M",
+      "body": "Be able to perform modulo arithmetic."
+    },
+    {
+      "index": "④",
+      "type": "M",
+      "body": "Be able to explain isomorphism of groups."
+    },
+    {
+      "index": "⑤",
+      "type": "M",
+      "body": "Be able to perform arithmetic operations of polynomials over a field."
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "40",
+        "60",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "40",
+        "60",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "40",
+        "60",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションとリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "Be able to apply knowledge of discrete mathematics to solving practical problems.",
+    "standard": "Be able to understand the notions and terms used in discrete mathematics."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Outline of the course\nSets and their operations",
+      "operation": "Lecture\nQ&A\nself-check",
+      "assignments": "Preview: Sets and their\noperations\nReview: Sets and their\noperations",
+      "minutes": "40"
+    },
+    {
+      "index": "2",
+      "content": "Proposition and logical connectives",
+      "operation": "Lecture\nQ&A\nself-check",
+      "assignments": "Preview: Proposition and\nlogical connectives\nReview: Proposition and\nlogical connectives",
+      "minutes": "60\n60"
+    },
+    {
+      "index": "3",
+      "content": "Mathematical induction",
+      "operation": "Lecture\nQ&A\nself-check",
+      "assignments": "Preview: Mathematical\ninduction\nReview: Mathematical\ninduction",
+      "minutes": "60\n60"
+    },
+    {
+      "index": "4",
+      "content": "Direct product\nRelation",
+      "operation": "Lecture\nQ&A\nself-check",
+      "assignments": "Preview: Direct product,\nrelation\nReview: Direct product,\nrelation",
+      "minutes": "60\n60"
+    },
+    {
+      "index": "5",
+      "content": "Equivalence class",
+      "operation": "Lecture\nQ&A\nself-check",
+      "assignments": "Preview: Equivalence class\nReview: Equivalence class",
+      "minutes": "60\n60"
+    },
+    {
+      "index": "6",
+      "content": "Mapping\nMid-term review",
+      "operation": "Lecture\nQ&A\nself-check",
+      "assignments": "Preview: Mapping\nReview: Mapping",
+      "minutes": "60\n60"
+    },
+    {
+      "index": "7",
+      "content": "Binary operation\nAlgebraic system",
+      "operation": "Lecture\nQ&A\nself-check",
+      "assignments": "Preview: Binary operation,\nalgebraic system\nReview: Binary operation,\nalgebraic system",
+      "minutes": "60\n60"
+    },
+    {
+      "index": "8",
+      "content": "Commutative law and associative law\nIdentity element and inverse element",
+      "operation": "Lecture\nQ&A\nself-check",
+      "assignments": "Preview: Commutative law and\nassociative law\nReview: Identity element and\ninverse element",
+      "minutes": "60\n60"
+    },
+    {
+      "index": "9",
+      "content": "Semigroup and group",
+      "operation": "Lecture\nQ&A\nself-check",
+      "assignments": "Preview: Semigroup and group\nReview: Semigroup and group",
+      "minutes": "60\n60"
+    },
+    {
+      "index": "10",
+      "content": "Isomorphism",
+      "operation": "Lecture\nQ&A\nself-check",
+      "assignments": "Preview: Isomorphism\nReview: Isomorphism",
+      "minutes": "60\n60"
+    },
+    {
+      "index": "11",
+      "content": "Subgroup and symmetric group",
+      "operation": "Lecture\nQ&A\nself-check",
+      "assignments": "Preview: Subgroup and\nsymmetric group\nReview: Subgroup and\nsymmetric group",
+      "minutes": "60\n60"
+    },
+    {
+      "index": "12",
+      "content": "Ring and field",
+      "operation": "Lecture\nQ&A\nself-check",
+      "assignments": "Preview: Ring and field\nReview: Ring and field",
+      "minutes": "60\n60"
+    },
+    {
+      "index": "13",
+      "content": "Polynomial on field",
+      "operation": "Lecture\nQ&A\nself-check",
+      "assignments": "Preview: Polynomial on field\nReview: Polynomial on field",
+      "minutes": "60\n60"
+    },
+    {
+      "index": "14",
+      "content": "Review\nExamination",
+      "operation": "Lecture\nQ&A\nself-check",
+      "assignments": "Preview: All topics",
+      "minutes": "120"
+    },
+    {
+      "index": "15",
+      "content": "Review\nSelf-check",
+      "operation": "Lecture\nQ&A\nself-check",
+      "assignments": "Review: Self-check",
+      "minutes": "40"
+    }
+  ],
+  "rawText": "金沢工業大学　学習支援計画書　C104-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Artificial Intelligence\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                離散数学\n                Discrete Mathematics\n\n              2\n              C104-01\n\n                2026年度\n\n                1st year 2nd semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  NINAGAWA Shigeru\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Set and logic\n2.Relation and mapping\n3.Algebraic system\n\n              Following the recent progress in AI technology demands a knowledge of mathematics. Discrete mathematics is an essential part of mathematics necessary for developing information technology. The subjects dealt with in this course are required in succeeding courses.\n\n              授業の概要および学習上の助言\n\n              In this course, we learn the following topics:\n\n1. Sets and their operations\n2. Propositional logic\n3. Predicate and quantifier\n4. Mathematical induction\n5. Relation\n6. Equivalence class\n7. Mapping\n8. Semigroup\n9. Group\n10. Modulo arithmetics and residue class\n11. Ring\n12. Field\n\nSince all topics are abstract, students are strongly recommended to solve the exercises by themselves.\n\n              教科書および参考書・リザーブドブック\n\n              やさしく学べる離散数学，石村園子，共立出版\n\n              履修に必要な予備知識や技能\n\n              There are no prerequisites. If students encounter something they cannot understand, they will be expected to resolve it by utilizing office hours.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                M\n                Be able to obtain the truth value of a formula in propositional logic.\n\n                ②\n                M\n                Be able to classify elements according to the equivalence class.\n\n                ③\n                M\n                Be able to perform modulo arithmetic.\n\n                ④\n                M\n                Be able to explain isomorphism of groups.\n\n                ⑤\n                M\n                Be able to perform arithmetic operations of polynomials over a field.\n\n                ⑥\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                40\n\n                60\n\n                0\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                40\n\n                60\n\n                0\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                40\n\n                60\n\n                0\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  コラボレーションとリーダーシップ\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  発表・表現・伝達する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  学習に取組む姿勢・意欲\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n    ",
+  "courseId": "2026:fall:C104-01:0:598",
+  "language": "en"
+}

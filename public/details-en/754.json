@@ -1,0 +1,307 @@
+{
+  "sourceIndex": 754,
+  "sourceUrl": "/opsyllabus/kitos0110/754/1",
+  "importedAt": "2026-06-08T09:34:08.600Z",
+  "title": "データ解析",
+  "subtitle": "Data Analysis",
+  "courseType": "Major ProgramMajor Courses",
+  "credits": "2",
+  "term": "2026年度\n\n                2nd year 1st semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "SAGARA Jun-ichi\n授業科目の学習・教育目標"
+  ],
+  "keywords": [
+    "Statistical data",
+    "Data science",
+    "Probability distribution",
+    "Test and estimation",
+    "Programming"
+  ],
+  "educationalGoal": "Students will learn:\n(1) Statistical data and data science.\n(2) Concepts of statistics and probability.\n(3) Methods for testing and estimation.\n(4) The basics of programming.",
+  "advice": "This is a basic data science course. We will cover the following topics:\n\n1. Statistical data\n2. Data science\n3. Probabilistic distribution\n4. Testing and estimation\n5. Programming (using R)\n\nStudents will also learn about advanced issues such as probabilistic modelling, if time permits.\nStudents are expected to understand the basics of data science.\nStudents are expected to understand the meaning of terms and formulas.\nStudents are expected to solve the exercises independently.\nStudents should pay attention to the teacher’s instructions in the class because the schedules of quizzes, tests and reports may change as the class progresses.\nStudents should attend all classes as the handouts may not be received.",
+  "books": "None.",
+  "requiredKnowledge": "Acquisition of Statistics for Bioscience and Chemistry.\nSufficient skills of the basics of data science.\nBasic knowledge of statistics.\nHow to use a personal computer and internet communication technology.",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "I,N,O,P",
+      "body": "Ability to understand and explain statistical values."
+    },
+    {
+      "index": "②",
+      "type": "I,N,O,P",
+      "body": "Ability to understand and explain probabilistic distributions"
+    },
+    {
+      "index": "③",
+      "type": "I,N,O,P",
+      "body": "Ability to understand and explain probability for statistics"
+    },
+    {
+      "index": "④",
+      "type": "I,N,O,P",
+      "body": "Ability to choose the appropriate statistical method for your purpose"
+    },
+    {
+      "index": "⑤",
+      "type": "I,N,O,P",
+      "body": "Ability to operate R (programming using free software)"
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "20",
+        "30",
+        "40",
+        "0",
+        "0",
+        "0",
+        "10",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "20",
+        "30",
+        "40",
+        "0",
+        "0",
+        "0",
+        "10",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "20",
+        "30",
+        "40",
+        "0",
+        "0",
+        "0",
+        "10",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションとリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "(1) Understand statistical data.\n\n(2) Understand data science.\n\n(3) Understand probabilistic distribution.\n\n(4) Understand testing and estimation.\n\n(5) Understand programming.",
+    "standard": "(1) Explain the concepts of statistical data.\n\n(2) Explain the concepts of data science\n\n(3) Explain the concepts of probabilistic distribution.\n\n(4) Explain the concepts of testing and estimation.\n\n(5) Explain the concepts of programming."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Course introduction",
+      "operation": "Lecture and Q&A",
+      "assignments": "Understand the objectives\nof the course",
+      "minutes": "90"
+    },
+    {
+      "index": "2",
+      "content": "Basics of statistics",
+      "operation": "Lecture and practice\nSelf-check",
+      "assignments": "Read applicable parts of\nthe textbook\nReview applicable parts of\nthe textbook",
+      "minutes": "60\n\n60"
+    },
+    {
+      "index": "3",
+      "content": "Basic operation of R",
+      "operation": "Lecture and practice\nSelf-check",
+      "assignments": "Read applicable parts of\nthe textbook\nReview applicable parts of\nthe textbook",
+      "minutes": "60\n\n60"
+    },
+    {
+      "index": "4",
+      "content": "R: data operation",
+      "operation": "Lecture and practice\nSelf-check",
+      "assignments": "Read applicable parts of\nthe textbook\nReview applicable parts of\nthe textbook",
+      "minutes": "60\n\n60"
+    },
+    {
+      "index": "5",
+      "content": "Basics of probability",
+      "operation": "Lecture and practice\nSelf-check",
+      "assignments": "Read applicable parts of\nthe textbook\nReview applicable parts of\nthe textbook",
+      "minutes": "60\n\n60"
+    },
+    {
+      "index": "6",
+      "content": "Basics of probabilistic distribution",
+      "operation": "Lecture and practice\nSelf-check",
+      "assignments": "Read applicable parts of\nthe textbook\nReview applicable parts of\nthe textbook",
+      "minutes": "60\n\n60"
+    },
+    {
+      "index": "7",
+      "content": "Normal distribution and binomial distribution",
+      "operation": "Lecture and practice\nSelf-check",
+      "assignments": "Read applicable parts of\nthe textbook\nReview applicable parts of\nthe textbook",
+      "minutes": "60\n\n60"
+    },
+    {
+      "index": "8",
+      "content": "R: Normal distribution and binomial distribution",
+      "operation": "Lecture and practice\nSelf-check",
+      "assignments": "Read applicable parts of\nthe textbook\nReview applicable parts of\nthe textbook",
+      "minutes": "60\n\n60"
+    },
+    {
+      "index": "9",
+      "content": "Population and sample",
+      "operation": "Lecture and practice\nSelf-check",
+      "assignments": "Read applicable parts of\nthe textbook\nReview applicable parts of\nthe textbook",
+      "minutes": "60\n\n60"
+    },
+    {
+      "index": "10",
+      "content": "Test and estimation (1)",
+      "operation": "Lecture and practice\nSelf-check",
+      "assignments": "Read applicable parts of\nthe textbook\nReview applicable parts of\nthe textbook",
+      "minutes": "60\n\n60"
+    },
+    {
+      "index": "11",
+      "content": "Test and estimation (2)",
+      "operation": "Lecture and practice\nSelf-check",
+      "assignments": "Read applicable parts of\nthe textbook\nReview applicable parts of\nthe textbook",
+      "minutes": "60\n\n60"
+    },
+    {
+      "index": "12",
+      "content": "R: Programming",
+      "operation": "Lecture and practice\nSelf-check",
+      "assignments": "Read applicable parts of\nthe textbook\nReview applicable parts of\nthe textbook",
+      "minutes": "60\n\n60"
+    },
+    {
+      "index": "13",
+      "content": "R: Bioconductor (1)",
+      "operation": "Lecture and practice\nSelf-check",
+      "assignments": "Read applicable parts of\nthe textbook\nReview applicable parts of\nthe textbook",
+      "minutes": "60\n\n60"
+    },
+    {
+      "index": "14",
+      "content": "R: Bioconductors (2)",
+      "operation": "Lecture and practice\nSelf-check",
+      "assignments": "Read applicable parts of\nthe textbook\nReview applicable parts of\nthe textbook",
+      "minutes": "60\n\n60"
+    },
+    {
+      "index": "15",
+      "content": "Final exam",
+      "operation": "Exam and review\nSelf-evaluation",
+      "assignments": "Prepare for the exam",
+      "minutes": "240"
+    }
+  ],
+  "rawText": "金沢工業大学　学習支援計画書　B313-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Life Science and Biotechnology\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                データ解析\n                Data Analysis\n\n              2\n              B313-01\n\n                2026年度\n\n                2nd year 1st semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  SAGARA Jun-ichi\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Statistical data\n2.Data science\n3.Probability distribution\n4.Test and estimation\n5.Programming\n\n              Students will learn:\n(1) Statistical data and data science.\n(2) Concepts of statistics and probability.\n(3) Methods for testing and estimation.\n(4) The basics of programming.\n\n              授業の概要および学習上の助言\n\n              This is a basic data science course. We will cover the following topics:\n\n1. Statistical data\n2. Data science\n3. Probabilistic distribution\n4. Testing and estimation\n5. Programming (using R)\n\nStudents will also learn about advanced issues such as probabilistic modelling, if time permits.\nStudents are expected to understand the basics of data science.\nStudents are expected to understand the meaning of terms and formulas.\nStudents are expected to solve the exercises independently.\nStudents should pay attention to the teacher’s instructions in the class because the schedules of quizzes, tests and reports may change as the class progresses.\nStudents should attend all classes as the handouts may not be received.\n\n              教科書および参考書・リザーブドブック\n\n              None.\n\n              履修に必要な予備知識や技能\n\n              Acquisition of Statistics for Bioscience and Chemistry.\nSufficient skills of the basics of data science.\nBasic knowledge of statistics.\nHow to use a personal computer and internet communication technology.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                I,N,O,P\n                Ability to understand and explain statistical values.\n\n                ②\n                I,N,O,P\n                Ability to understand and explain probabilistic distributions\n\n                ③\n                I,N,O,P\n                Ability to understand and explain probability for statistics\n\n                ④\n                I,N,O,P\n                Ability to choose the appropriate statistical method for your purpose\n\n                ⑤\n                I,N,O,P\n                Ability to operate R (programming using free software)\n\n                ⑥\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                20\n\n                30\n\n                40\n\n                0\n\n                0\n\n                0\n\n                10\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                20\n\n                30\n\n                40\n\n                0\n\n                0\n\n                0\n\n                10\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                20\n\n                30\n\n                40\n\n                0\n\n                0\n\n                0\n\n                10\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  コラボレーションとリーダーシップ\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  発表・表現・伝達する力\n\n                    0\n\n  ",
+  "courseId": "2026:spring:B313-01:0:754",
+  "language": "en"
+}

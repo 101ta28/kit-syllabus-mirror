@@ -1,0 +1,296 @@
+{
+  "sourceIndex": 653,
+  "sourceUrl": "/opsyllabus/kitos0110/653/1",
+  "importedAt": "2026-06-08T09:34:06.422Z",
+  "title": "ロボット設計演習Ⅱ",
+  "subtitle": "Engineering Exercise for Robotics II",
+  "courseType": "Major ProgramMajor Courses",
+  "credits": "2",
+  "term": "2026年度\n\n                2nd year 2nd semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "FUJIKI Nobuaki\n授業科目の学習・教育目標"
+  ],
+  "keywords": [
+    "Machine design",
+    "Mechanical drawing",
+    "Japanese Industrial Standard (JIS)",
+    "3D-CAD"
+  ],
+  "educationalGoal": "(1) Learn mechanical design skills.\n(2) Learn mechanical drawing skills.\n(3) Learn how to use mechanical elements.",
+  "advice": "This is a practical course on the design of a reduction gear. We will cover the following topics:\n\n1. Design of spur gear\n2. Design of input and output shafts\n3. Bearing selection\n4. 3D-CAD mechanical drawing",
+  "books": "Textbooks: Methods of Machine Design, Morikita Publishing (in Japanese), Practice of Mechanical Design and Drafting, Suurikougakusha Co.,Ltd.(in Japanese), New JIS Mechanical Drawing, Morikita Publishing (in Japanese)\nReference books: None\nReserved books: None",
+  "requiredKnowledge": "Completion of Industrial Mechanics and Material Mechanics\nBasic knowledge of mechanical drawing",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "M,N",
+      "body": "Be able to understand the implementation of mechanical design, and use 3D-CAD drawings to explain design images."
+    },
+    {
+      "index": "②",
+      "type": "M,N",
+      "body": "Be able to carry out design calculations, such as basic design and detailed design of components."
+    },
+    {
+      "index": "③",
+      "type": "M,N",
+      "body": "Be able to create 3D-CAD machine designs that consider manufacturing methods, according to the machine drafting."
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "30",
+        "0",
+        "70",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "30",
+        "0",
+        "70",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "30",
+        "0",
+        "70",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションとリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "(1)Understand the substance and shape of the design according to the instructions and prepare an easy-to-read assembly drawing by applying it to your own design conditions.\n(2)Understand design modeling and strength calculations according to the instructions.\n(3) Perform drawing of a 3D-CAD model of lower casing in addition to a 3D-CAD assembly model consisting of axes,gears,bearing and collar.",
+    "standard": "(1)Understand the content and shape of the design according to the instructions.\n(2)Understand design modeling and strength calculations according to the instructions.\n(3)Perform drawing of a 3D-CAD assembly model consisting of axes,gears,bearing and collar."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Outline of gear reducer.\nOutline of the design specifications.\nOutline of the design processes.\nPerform design calculations.",
+      "operation": "Lecture, Q&A and Practice\nUnderstand the mechanism\nof gear reducer.\nStart the design\ncalculations.",
+      "assignments": "Preparation:\n・ Make sure that CAD software\n is ready for use.\n・ Understand the relationship\n between the educational goals\n of the department and this\nsubject.\nReview:\n・ Progress the design\ncalculations.",
+      "minutes": "60\n\n60"
+    },
+    {
+      "index": "2",
+      "content": "Perform design\ncalculations.",
+      "operation": "Practice and Q&A\nProgress the design\ncalculations.",
+      "assignments": "Preparation:\n・ Development of calculation\nsheet for leading the design\nsolutions.\nReview:\n・ Perform design calculation\nbased on the calculation sheet\n developed by each student.",
+      "minutes": "60\n\n60"
+    },
+    {
+      "index": "3",
+      "content": "Perform design calculations.",
+      "operation": "Practice and Q&A\nProgress the design\ncalculations.",
+      "assignments": "Preparation:\n・ Confirm the performance of\ncalculation sheet.\nReview:\n・ Perform design calculation\nbased on the calculation sheet\n developed by each student.",
+      "minutes": "60\n\n60"
+    },
+    {
+      "index": "4",
+      "content": "Perform design calculations.",
+      "operation": "Practice and Q&A\nProgress the design\ncalculations.",
+      "assignments": "Preparation and Review:\n・ Perform design calculation\nbased on the calculation sheet\n.",
+      "minutes": "60\n60"
+    },
+    {
+      "index": "5",
+      "content": "Finish design calculations.",
+      "operation": "Practice and Q&A\nFinish the design\ncalculations and submit\nthe design solution.",
+      "assignments": "Preparation and Review:\n・ Perform design calculation\nbased on the calculation sheet\n.",
+      "minutes": "60\n60"
+    },
+    {
+      "index": "6",
+      "content": "Review design solutions.\nOutline of 3D-CAD modelling of axes and gears.",
+      "operation": "Lecture, Q&A and Practice\nReview the design\ncalculations if necessary.\nStart drawing of 3D-CAD\nmodels of axes and gears.",
+      "assignments": "Preparation:\n・ Review the design\ncalculations.\nReview:\n・ Perform drawing of 3D-CAD\nmodels of axes and gears.",
+      "minutes": "60\n\n60"
+    },
+    {
+      "index": "7",
+      "content": "Perform 3D-CAD modelling of axes and gears with\nreviewing design solutions.",
+      "operation": "Practice and Q&A\nProgress the 3D-CAD\nmodelling of axes and\ngears.\nReview the design\ncalculations if necessary.",
+      "assignments": "Preparation and Review:\n・ Perform drawing of 3D-CAD\nmodels of axes and gears.",
+      "minutes": "60\n60"
+    },
+    {
+      "index": "8",
+      "content": "Perform 3D-CAD modelling of axes and gears with\nreviewing design solutions.",
+      "operation": "Practice and Q&A\nProgress the 3D-CAD\nmodelling of axes and\ngears.\nReview the design\ncalculations if necessary.",
+      "assignments": "Preparation and Review:\n・ Perform drawing of 3D-CAD\nmodels of axes and gears.",
+      "minutes": "60\n60"
+    },
+    {
+      "index": "9",
+      "content": "Assembly 3D-CAD models.\nAssemble axes and gears.",
+      "operation": "Practice and Q&A\nAssemble axes and gears\nmodels.\nReview the design\ncalculations if necessary.",
+      "assignments": "Preparation:\n・ Review the textbook of\nMechanical Design to confirm\nthe assembly function.\nReview:\n・ Perform assembly of axes\nand gears.",
+      "minutes": "60\n\n60"
+    },
+    {
+      "index": "10",
+      "content": "Assembly 3D-CAD models.\nAssemble axes and gears.",
+      "operation": "Practice and Q&A\nAssemble axes and gears\nmodels.\nReview the design\ncalculations if necessary.",
+      "assignments": "Preparation:\n・ Review the textbook of\nMechanical Design to confirm\nthe assembly function.\nReview:\n・ Perform assembly of axes\nand gears.",
+      "minutes": "60\n\n60"
+    },
+    {
+      "index": "11",
+      "content": "Adjustment of dimensions and interferences.\nReview desing calculations.",
+      "operation": "Practice and Q&A\nConfirm dimensions and\ninterferences between axes\n and gears in a assembly\nmodel.\nReview the design\ncalculations if necessary.",
+      "assignments": "Preparation and Review:\n・ Compare between calculation\n solutions and dimentions of\n3D-CAD models made.",
+      "minutes": "60\n60"
+    },
+    {
+      "index": "12",
+      "content": "Perform 3D-CAD modelling of bearings and collars\n.",
+      "operation": "Practice and Q&A\nPerform 3D-CAD modelling\nof bearings and collars\nto assemble with axes and\ngears.",
+      "assignments": "Preparation and Review:\n・ Compare between calculation\n solutions and dimentions of\n3D-CAD models made.",
+      "minutes": "60\n60"
+    },
+    {
+      "index": "13",
+      "content": "Submit an assembly model.\nOutline of the design process of lower casing.",
+      "operation": "Lecture, Q&A and Practice\nSubmit an assembly model\nconsisting of axes, gears,\n bearings and collars.\nUnderstand the locational\nrelationship between the\nassembled model and a\nlower casing.",
+      "assignments": "Preparation:\n・ Finish assembly of all\n3D-CAD models.\n・ Prepare the final\nachievement test.",
+      "minutes": ""
+    },
+    {
+      "index": "14",
+      "content": "Final achievement test and explanations.",
+      "operation": "Test",
+      "assignments": "Preparation:\n・ Prepare the final\nachievement test.",
+      "minutes": ""
+    },
+    {
+      "index": "15",
+      "content": "Self-check for reviewing achievement.",
+      "operation": "Overall commentary and\nevaluation",
+      "assignments": "Review:\n・ Understand the results of\nachievement confirmation test,\n and confirm the achievement\ngoal of this course.\n・ Recognize your knowledge\nand abilities, including\nknowledge gaps, and restudy\ncourse materials as necessary.",
+      "minutes": ""
+    }
+  ],
+  "rawText": "金沢工業大学　学習支援計画書　C222-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Robotics\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                ロボット設計演習Ⅱ\n                Engineering Exercise for Robotics II\n\n              2\n              C222-01\n\n                2026年度\n\n                2nd year 2nd semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  FUJIKI Nobuaki\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Machine design\n2.Mechanical drawing\n3.Japanese Industrial Standard (JIS)\n4.3D-CAD\n\n              (1) Learn mechanical design skills.\n(2) Learn mechanical drawing skills.\n(3) Learn how to use mechanical elements.\n\n              授業の概要および学習上の助言\n\n              This is a practical course on the design of a reduction gear. We will cover the following topics:\n\n1. Design of spur gear\n2. Design of input and output shafts\n3. Bearing selection\n4. 3D-CAD mechanical drawing\n\n              教科書および参考書・リザーブドブック\n\n              Textbooks: Methods of Machine Design, Morikita Publishing (in Japanese), Practice of Mechanical Design and Drafting, Suurikougakusha Co.,Ltd.(in Japanese), New JIS Mechanical Drawing, Morikita Publishing (in Japanese)\nReference books: None\nReserved books: None　\n\n              履修に必要な予備知識や技能\n\n              Completion of Industrial Mechanics and Material Mechanics\nBasic knowledge of mechanical drawing\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                M,N\n                Be able to understand the implementation of mechanical design, and use 3D-CAD drawings to explain design images.\n\n                ②\n                M,N\n                Be able to carry out design calculations, such as basic design and detailed design of components.\n\n                ③\n                M,N\n                Be able to create 3D-CAD machine designs that consider manufacturing methods, according to the machine drafting.\n\n                ④\n\n                ⑤\n\n                ⑥\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                30\n\n                0\n\n                70\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                30\n\n                0\n\n                70\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                30\n\n                0\n\n                70\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  コラボレーションとリーダーシップ\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  発表・表現・伝達する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  学習に取組む姿勢・意欲\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n        ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n\n              評価の要点\n\n              評価方法\n              行動目標\n              評価の実施方法と注意点\n\n ",
+  "courseId": "2026:fall:C222-01:0:653",
+  "language": "en"
+}

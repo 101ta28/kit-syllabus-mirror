@@ -1,0 +1,312 @@
+{
+  "sourceIndex": 337,
+  "sourceUrl": "/opsyllabus/kitos0110/337/1",
+  "importedAt": "2026-06-08T09:33:59.886Z",
+  "title": "情報セキュリティ",
+  "subtitle": "Information Security",
+  "courseType": "Major ProgramMajor Courses",
+  "credits": "2",
+  "term": "2026年度\n\n                3rd year 2nd semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "MUKAI Hiroaki",
+    "NINAGAWA Shigeru\n授業科目の学習・教育目標"
+  ],
+  "keywords": [
+    "public-key cryptography",
+    "elliptic curve cryptography",
+    "TCP/IP",
+    "security protocol"
+  ],
+  "educationalGoal": "In this course, you can learn cryptography and network security. The first half of the course deals with elliptic curve cryptography which is gradually spreading in practice. The second half of the course deal with adaptation of security technique such as encryption and authentication to the Internet.",
+  "advice": "In the first half of the course, the textbook \"誤り訂正符号と暗号の基礎数理\" is used and you can learn cryptography especially ellipctic curve cryptography.\nIn the second half of the course, the textbook \"マスタリングTCP/IP　情報セキュリティ編\" is used. The students learn adaptation of security technique such as encryption and authentication to the Internet environment. The students also learn general network security. Understanding TCP/IP is important.",
+  "books": "笠原正雄，佐竹賢治著：誤り訂正符号と暗号の基礎数理，コロナ社，2004\n齋藤孝道著：マスタリングTCP/IP 情報セキュリティ編，オーム社，2013",
+  "requiredKnowledge": "Taking \"Algebra for Computer Science\" helps to learn this course especially for the first half of the course.\nKnowledge about TCP/IP is required.",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "M",
+      "body": "Be able to explain the public-key cryptography"
+    },
+    {
+      "index": "②",
+      "type": "M",
+      "body": "Be able to explain the details of the discrete logarithm problem"
+    },
+    {
+      "index": "③",
+      "type": "M",
+      "body": "Be able to explain the encoding and decoding in elliptic curve cryptography"
+    },
+    {
+      "index": "④",
+      "type": "M",
+      "body": "Be able to explain authentication technique"
+    },
+    {
+      "index": "⑤",
+      "type": "M",
+      "body": "Be able to explain network security technique"
+    },
+    {
+      "index": "⑥",
+      "type": "M",
+      "body": "Be able to explain security technique for the hosts in networks"
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "20",
+        "30",
+        "30",
+        "0",
+        "0",
+        "0",
+        "20",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "20",
+        "30",
+        "30",
+        "0",
+        "0",
+        "0",
+        "20",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "20",
+        "30",
+        "30",
+        "0",
+        "0",
+        "0",
+        "20",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションとリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ小テスト",
+        "レポート",
+        "成果発表(口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "Be able to explain the details of public-key cryptography and implement elliptic curve cryptosystem.\nBe able to explain the details of network security technique.",
+    "standard": "Be able to explain public-key cryptography and elliptic curve cryptography.\nBe able to explain the basic of network security technique."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Foundation of cryptography",
+      "operation": "Lecture\nQ&A\nself-check",
+      "assignments": "Review and preview of class\nnumber 1",
+      "minutes": "100"
+    },
+    {
+      "index": "2",
+      "content": "Common key cryptography and SPN structure",
+      "operation": "Lecture\nQ&A\nself-check",
+      "assignments": "Review and preview of class\nnumber 2",
+      "minutes": "100"
+    },
+    {
+      "index": "3",
+      "content": "Information theoretically secure cryptography",
+      "operation": "Lecture\nQ&A\nself-check",
+      "assignments": "Review and preview of class\nnumber 3",
+      "minutes": "100"
+    },
+    {
+      "index": "4",
+      "content": "Discrete logarithm problem",
+      "operation": "Lecture\nQ&A\nself-check",
+      "assignments": "Review and preview of class\nnumber 4",
+      "minutes": "100"
+    },
+    {
+      "index": "5",
+      "content": "Elliptic curve",
+      "operation": "Lecture\nQ&A\nself-check",
+      "assignments": "Review and preview of class\nnumber 5",
+      "minutes": "100"
+    },
+    {
+      "index": "6",
+      "content": "Elliptic curve on finite field",
+      "operation": "Lecture\nQ&A\nself-check",
+      "assignments": "Review and preview of class\nnumber 6",
+      "minutes": "100"
+    },
+    {
+      "index": "7",
+      "content": "Discrete logarithm problem on elliptic curve",
+      "operation": "Lecture\nQ&A\nself-check",
+      "assignments": "Review and preview of class\nnumber 7",
+      "minutes": "100"
+    },
+    {
+      "index": "8",
+      "content": "Review of the first half of the course\nSele-check",
+      "operation": "Lecture\nQ&A\nself-check",
+      "assignments": "Review and preview of class\nnumber 8",
+      "minutes": "100"
+    },
+    {
+      "index": "9",
+      "content": "IT system security overview",
+      "operation": "Lecture\nQ&A\nself-check",
+      "assignments": "Review and preview of class\nnumber 9",
+      "minutes": "100"
+    },
+    {
+      "index": "10",
+      "content": "Encryption and authentication in communication\nnetworks",
+      "operation": "Lecture\nQ&A\nself-check",
+      "assignments": "Review and preview of class\nnumber 10",
+      "minutes": "100"
+    },
+    {
+      "index": "11",
+      "content": "PKI and security protocols",
+      "operation": "Lecture\nQ&A\nself-check",
+      "assignments": "Review and preview of class\nnumber 11",
+      "minutes": "100"
+    },
+    {
+      "index": "12",
+      "content": "Network security",
+      "operation": "Lecture\nQ&A\nself-check",
+      "assignments": "Review and preview of class\nnumber 12",
+      "minutes": "100"
+    },
+    {
+      "index": "13",
+      "content": "Host security, Web security",
+      "operation": "Lecture\nQ&A\nself-check",
+      "assignments": "Review and preview of class\nnumber 13",
+      "minutes": "100"
+    },
+    {
+      "index": "14",
+      "content": "Exam and review",
+      "operation": "Lecture\nQ&A\nExam\nself-check",
+      "assignments": "Review and preview of class\nnumber 14",
+      "minutes": "100"
+    },
+    {
+      "index": "15",
+      "content": "Review of the second half of the course",
+      "operation": "Lecture\nQ&A\nself-check",
+      "assignments": "Review and preview of class\nnumber 15",
+      "minutes": "100"
+    }
+  ],
+  "rawText": "金沢工業大学　学習支援計画書　E541-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Information and Computer Science(〜2024)\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                情報セキュリティ\n                Information Security\n\n              2\n              E541-01\n\n                2026年度\n\n                3rd year 2nd semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  MUKAI Hiroaki, NINAGAWA Shigeru\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.public-key cryptography\n2.elliptic curve cryptography\n3.TCP/IP\n4.security protocol\n\n              In this course, you can learn cryptography and network security. The first half of the course deals with elliptic curve cryptography which is gradually spreading in practice. The second half of the course deal with adaptation of security technique such as encryption and authentication to the Internet.\n\n              授業の概要および学習上の助言\n\n              In the first half of the course, the textbook \"誤り訂正符号と暗号の基礎数理\" is used and you can learn cryptography especially ellipctic curve cryptography.\nIn the second half of the course, the textbook \"マスタリングTCP/IP　情報セキュリティ編\" is used. The students learn adaptation of security technique such as encryption and authentication to the Internet environment. The students also learn general network security. Understanding TCP/IP is important.\n\n              教科書および参考書・リザーブドブック\n\n              笠原正雄，佐竹賢治著：誤り訂正符号と暗号の基礎数理，コロナ社，2004\n齋藤孝道著：マスタリングTCP/IP 情報セキュリティ編，オーム社，2013\n\n              履修に必要な予備知識や技能\n\n              Taking \"Algebra for Computer Science\" helps to learn this course especially for the first half of the course.\nKnowledge about TCP/IP is required.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                M\n                Be able to explain the public-key cryptography\n\n                ②\n                M\n                Be able to explain the details of the discrete logarithm problem\n\n                ③\n                M\n                Be able to explain the encoding and decoding in elliptic curve cryptography\n\n                ④\n                M\n                Be able to explain authentication technique\n\n                ⑤\n                M\n                Be able to explain network security technique\n\n                ⑥\n                M\n                Be able to explain security technique for the hosts in networks\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                20\n\n                30\n\n                30\n\n                0\n\n                0\n\n                0\n\n                20\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                20\n\n                30\n\n                30\n\n                0\n\n                0\n\n                0\n\n                20\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                20\n\n                30\n\n                30\n\n                0\n\n                0\n\n                0\n\n                20\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  コラボレーションとリーダーシップ\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  発表・表現・伝達する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  ",
+  "courseId": "2026:fall:E541-01:0:337",
+  "language": "en"
+}

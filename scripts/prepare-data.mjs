@@ -4,8 +4,10 @@ import path from "node:path";
 const root = process.cwd();
 const sourcePath = path.resolve(root, "../europa-syllabus-search-detail.json");
 const detailCachePath = path.resolve(root, "data/syllabus-details-cache.json");
+const englishDetailCachePath = path.resolve(root, "data/syllabus-details-cache-en.json");
 const outputPath = path.resolve(root, "src/data/generated.ts");
 const detailsOutputDir = path.resolve(root, "public/details");
+const englishDetailsOutputDir = path.resolve(root, "public/details-en");
 
 const knownCourseSlugs = new Map([
   ["修学基礎Ａ", "shugaku-kiso-a"],
@@ -212,7 +214,13 @@ function toCourse(raw, index) {
     courseCodeLabel: String(raw.courseCodeLabel ?? ""),
     sourceIndex: index,
     hasDetail: false,
+    hasEnglishDetail: false,
     detailPath: null,
+    englishDetailPath: null,
+    detailPaths: {
+      ja: null,
+      en: null,
+    },
     routePath: `/courses/${raw.yearLabel}/${semSlug}/${raw.courseCodeLabel}`,
   };
 }
@@ -226,25 +234,47 @@ try {
 } catch {
   details = [{ sourceIndex: 0, ...buildDetail(source.detailDom, courses[0]) }];
 }
+let englishDetails = [];
+try {
+  englishDetails = JSON.parse(await fs.readFile(englishDetailCachePath, "utf8"));
+} catch {
+  englishDetails = [];
+}
 
 await fs.mkdir(detailsOutputDir, { recursive: true });
+await fs.mkdir(englishDetailsOutputDir, { recursive: true });
 const validDetails = [];
-for (const detail of details) {
+async function writeDetailsForLanguage(detailList, language, outputDir) {
+  const valid = [];
+  for (const detail of detailList) {
   const sourceIndex = Number(detail.sourceIndex ?? 0);
   const course = courses[sourceIndex];
-  if (!course) continue;
+  if (!course || detail.error) continue;
   const normalizedDetail = {
     ...detail,
     sourceIndex,
     courseId: course.id,
+    language,
     title: detail.title || course.courseName,
   };
   const filename = `${sourceIndex}.json`;
-  await fs.writeFile(path.join(detailsOutputDir, filename), JSON.stringify(normalizedDetail, null, 2), "utf8");
-  course.hasDetail = true;
-  course.detailPath = `/details/${filename}`;
-  validDetails.push(normalizedDetail);
+  await fs.writeFile(path.join(outputDir, filename), JSON.stringify(normalizedDetail, null, 2), "utf8");
+  const publicPath = language === "en" ? `/details-en/${filename}` : `/details/${filename}`;
+  if (language === "en") {
+    course.hasEnglishDetail = true;
+    course.englishDetailPath = publicPath;
+    course.detailPaths.en = publicPath;
+  } else {
+    course.hasDetail = true;
+    course.detailPath = publicPath;
+    course.detailPaths.ja = publicPath;
+  }
+  valid.push(normalizedDetail);
+  }
+  return valid;
 }
+validDetails.push(...await writeDetailsForLanguage(details, "ja", detailsOutputDir));
+const validEnglishDetails = await writeDetailsForLanguage(englishDetails, "en", englishDetailsOutputDir);
 
 const generated = `export interface CourseSummary {
   id: string;
@@ -266,13 +296,20 @@ const generated = `export interface CourseSummary {
   courseCodeLabel: string;
   sourceIndex: number;
   hasDetail: boolean;
+  hasEnglishDetail: boolean;
   detailPath: string | null;
+  englishDetailPath: string | null;
+  detailPaths: {
+    ja: string | null;
+    en: string | null;
+  };
   routePath: string;
 }
 
 export interface SyllabusDetail {
   sourceIndex: number;
   courseId: string;
+  language?: "ja" | "en";
   sourceUrl: string;
   importedAt: string;
   title: string;
@@ -305,5 +342,5 @@ export const courses: CourseSummary[] = ${JSON.stringify(courses, null, 2)};
 `;
 
 await fs.writeFile(outputPath, generated, "utf8");
-console.log(`Generated ${courses.length} courses and ${validDetails.length} detail pages.`);
+console.log(`Generated ${courses.length} courses, ${validDetails.length} Japanese detail pages, and ${validEnglishDetails.length} English detail pages.`);
 console.log(`Example route: ${courses[0].routePath}`);

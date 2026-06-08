@@ -18,13 +18,20 @@ export interface CourseSummary {
   courseCodeLabel: string;
   sourceIndex: number;
   hasDetail: boolean;
+  hasEnglishDetail: boolean;
   detailPath: string | null;
+  englishDetailPath: string | null;
+  detailPaths: {
+    ja: string | null;
+    en: string | null;
+  };
   routePath: string;
 }
 
 export interface SyllabusDetail {
   sourceIndex: number;
   courseId: string;
+  language?: "ja" | "en";
   sourceUrl: string;
   importedAt: string;
   title: string;
@@ -74,7 +81,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G001-01",
     "sourceIndex": 0,
     "hasDetail": true,
+    "hasEnglishDetail": false,
     "detailPath": "/details/0.json",
+    "englishDetailPath": null,
+    "detailPaths": {
+      "ja": "/details/0.json",
+      "en": null
+    },
     "routePath": "/courses/2026/spring/G001-01"
   },
   {
@@ -97,7 +110,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G002-01",
     "sourceIndex": 1,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/1.json",
+    "englishDetailPath": "/details-en/1.json",
+    "detailPaths": {
+      "ja": "/details/1.json",
+      "en": "/details-en/1.json"
+    },
     "routePath": "/courses/2026/fall/G002-01"
   },
   {
@@ -120,7 +139,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G003-01",
     "sourceIndex": 2,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/2.json",
+    "englishDetailPath": "/details-en/2.json",
+    "detailPaths": {
+      "ja": "/details/2.json",
+      "en": "/details-en/2.json"
+    },
     "routePath": "/courses/2026/spring/G003-01"
   },
   {
@@ -143,7 +168,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G003-01",
     "sourceIndex": 3,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/3.json",
+    "englishDetailPath": "/details-en/3.json",
+    "detailPaths": {
+      "ja": "/details/3.json",
+      "en": "/details-en/3.json"
+    },
     "routePath": "/courses/2026/fall/G003-01"
   },
   {
@@ -166,7 +197,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G011-01",
     "sourceIndex": 4,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/4.json",
+    "englishDetailPath": "/details-en/4.json",
+    "detailPaths": {
+      "ja": "/details/4.json",
+      "en": "/details-en/4.json"
+    },
     "routePath": "/courses/2026/spring/G011-01"
   },
   {
@@ -189,7 +226,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G011-01",
     "sourceIndex": 5,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/5.json",
+    "englishDetailPath": "/details-en/5.json",
+    "detailPaths": {
+      "ja": "/details/5.json",
+      "en": "/details-en/5.json"
+    },
     "routePath": "/courses/2026/fall/G011-01"
   },
   {
@@ -212,7 +255,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G012-01",
     "sourceIndex": 6,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/6.json",
+    "englishDetailPath": "/details-en/6.json",
+    "detailPaths": {
+      "ja": "/details/6.json",
+      "en": "/details-en/6.json"
+    },
     "routePath": "/courses/2026/spring/G012-01"
   },
   {
@@ -235,7 +284,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G012-01",
     "sourceIndex": 7,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/7.json",
+    "englishDetailPath": "/details-en/7.json",
+    "detailPaths": {
+      "ja": "/details/7.json",
+      "en": "/details-en/7.json"
+    },
     "routePath": "/courses/2026/fall/G012-01"
   },
   {
@@ -258,7 +313,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G013-01",
     "sourceIndex": 8,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/8.json",
+    "englishDetailPath": "/details-en/8.json",
+    "detailPaths": {
+      "ja": "/details/8.json",
+      "en": "/details-en/8.json"
+    },
     "routePath": "/courses/2026/spring/G013-01"
   },
   {
@@ -281,7 +342,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G013-01",
     "sourceIndex": 9,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/9.json",
+    "englishDetailPath": "/details-en/9.json",
+    "detailPaths": {
+      "ja": "/details/9.json",
+      "en": "/details-en/9.json"
+    },
     "routePath": "/courses/2026/fall/G013-01"
   },
   {
@@ -304,7 +371,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G060-01",
     "sourceIndex": 10,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/10.json",
+    "englishDetailPath": "/details-en/10.json",
+    "detailPaths": {
+      "ja": "/details/10.json",
+      "en": "/details-en/10.json"
+    },
     "routePath": "/courses/2026/spring/G060-01"
   },
   {
@@ -327,7 +400,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G060-01",
     "sourceIndex": 11,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/11.json",
+    "englishDetailPath": "/details-en/11.json",
+    "detailPaths": {
+      "ja": "/details/11.json",
+      "en": "/details-en/11.json"
+    },
     "routePath": "/courses/2026/fall/G060-01"
   },
   {
@@ -350,7 +429,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G071-01",
     "sourceIndex": 12,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/12.json",
+    "englishDetailPath": "/details-en/12.json",
+    "detailPaths": {
+      "ja": "/details/12.json",
+      "en": "/details-en/12.json"
+    },
     "routePath": "/courses/2026/spring/G071-01"
   },
   {
@@ -373,7 +458,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G072-01",
     "sourceIndex": 13,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/13.json",
+    "englishDetailPath": "/details-en/13.json",
+    "detailPaths": {
+      "ja": "/details/13.json",
+      "en": "/details-en/13.json"
+    },
     "routePath": "/courses/2026/fall/G072-01"
   },
   {
@@ -396,7 +487,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G072-03",
     "sourceIndex": 14,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/14.json",
+    "englishDetailPath": "/details-en/14.json",
+    "detailPaths": {
+      "ja": "/details/14.json",
+      "en": "/details-en/14.json"
+    },
     "routePath": "/courses/2026/fall/G072-03"
   },
   {
@@ -419,7 +516,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G072-04",
     "sourceIndex": 15,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/15.json",
+    "englishDetailPath": "/details-en/15.json",
+    "detailPaths": {
+      "ja": "/details/15.json",
+      "en": "/details-en/15.json"
+    },
     "routePath": "/courses/2026/fall/G072-04"
   },
   {
@@ -442,7 +545,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G072-05",
     "sourceIndex": 16,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/16.json",
+    "englishDetailPath": "/details-en/16.json",
+    "detailPaths": {
+      "ja": "/details/16.json",
+      "en": "/details-en/16.json"
+    },
     "routePath": "/courses/2026/fall/G072-05"
   },
   {
@@ -465,7 +574,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G072-06",
     "sourceIndex": 17,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/17.json",
+    "englishDetailPath": "/details-en/17.json",
+    "detailPaths": {
+      "ja": "/details/17.json",
+      "en": "/details-en/17.json"
+    },
     "routePath": "/courses/2026/fall/G072-06"
   },
   {
@@ -488,7 +603,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G072-07",
     "sourceIndex": 18,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/18.json",
+    "englishDetailPath": "/details-en/18.json",
+    "detailPaths": {
+      "ja": "/details/18.json",
+      "en": "/details-en/18.json"
+    },
     "routePath": "/courses/2026/fall/G072-07"
   },
   {
@@ -511,7 +632,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G072-09",
     "sourceIndex": 19,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/19.json",
+    "englishDetailPath": "/details-en/19.json",
+    "detailPaths": {
+      "ja": "/details/19.json",
+      "en": "/details-en/19.json"
+    },
     "routePath": "/courses/2026/fall/G072-09"
   },
   {
@@ -534,7 +661,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G072-12",
     "sourceIndex": 20,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/20.json",
+    "englishDetailPath": "/details-en/20.json",
+    "detailPaths": {
+      "ja": "/details/20.json",
+      "en": "/details-en/20.json"
+    },
     "routePath": "/courses/2026/fall/G072-12"
   },
   {
@@ -557,7 +690,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G072-13",
     "sourceIndex": 21,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/21.json",
+    "englishDetailPath": "/details-en/21.json",
+    "detailPaths": {
+      "ja": "/details/21.json",
+      "en": "/details-en/21.json"
+    },
     "routePath": "/courses/2026/fall/G072-13"
   },
   {
@@ -580,7 +719,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G072-14",
     "sourceIndex": 22,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/22.json",
+    "englishDetailPath": "/details-en/22.json",
+    "detailPaths": {
+      "ja": "/details/22.json",
+      "en": "/details-en/22.json"
+    },
     "routePath": "/courses/2026/fall/G072-14"
   },
   {
@@ -603,7 +748,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G072-15",
     "sourceIndex": 23,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/23.json",
+    "englishDetailPath": "/details-en/23.json",
+    "detailPaths": {
+      "ja": "/details/23.json",
+      "en": "/details-en/23.json"
+    },
     "routePath": "/courses/2026/fall/G072-15"
   },
   {
@@ -626,7 +777,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G084-01",
     "sourceIndex": 24,
     "hasDetail": true,
+    "hasEnglishDetail": false,
     "detailPath": "/details/24.json",
+    "englishDetailPath": null,
+    "detailPaths": {
+      "ja": "/details/24.json",
+      "en": null
+    },
     "routePath": "/courses/2026/spring/G084-01"
   },
   {
@@ -649,7 +806,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G101-01",
     "sourceIndex": 25,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/25.json",
+    "englishDetailPath": "/details-en/25.json",
+    "detailPaths": {
+      "ja": "/details/25.json",
+      "en": "/details-en/25.json"
+    },
     "routePath": "/courses/2026/spring/G101-01"
   },
   {
@@ -672,7 +835,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G102-01",
     "sourceIndex": 26,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/26.json",
+    "englishDetailPath": "/details-en/26.json",
+    "detailPaths": {
+      "ja": "/details/26.json",
+      "en": "/details-en/26.json"
+    },
     "routePath": "/courses/2026/fall/G102-01"
   },
   {
@@ -695,7 +864,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G103-01",
     "sourceIndex": 27,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/27.json",
+    "englishDetailPath": "/details-en/27.json",
+    "detailPaths": {
+      "ja": "/details/27.json",
+      "en": "/details-en/27.json"
+    },
     "routePath": "/courses/2026/spring/G103-01"
   },
   {
@@ -718,7 +893,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G104-01",
     "sourceIndex": 28,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/28.json",
+    "englishDetailPath": "/details-en/28.json",
+    "detailPaths": {
+      "ja": "/details/28.json",
+      "en": "/details-en/28.json"
+    },
     "routePath": "/courses/2026/fall/G104-01"
   },
   {
@@ -741,7 +922,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G105-01",
     "sourceIndex": 29,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/29.json",
+    "englishDetailPath": "/details-en/29.json",
+    "detailPaths": {
+      "ja": "/details/29.json",
+      "en": "/details-en/29.json"
+    },
     "routePath": "/courses/2026/spring/G105-01"
   },
   {
@@ -764,7 +951,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G107-01",
     "sourceIndex": 30,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/30.json",
+    "englishDetailPath": "/details-en/30.json",
+    "detailPaths": {
+      "ja": "/details/30.json",
+      "en": "/details-en/30.json"
+    },
     "routePath": "/courses/2026/fall/G107-01"
   },
   {
@@ -787,7 +980,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G108-01",
     "sourceIndex": 31,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/31.json",
+    "englishDetailPath": "/details-en/31.json",
+    "detailPaths": {
+      "ja": "/details/31.json",
+      "en": "/details-en/31.json"
+    },
     "routePath": "/courses/2026/fall/G108-01"
   },
   {
@@ -810,7 +1009,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G109-01",
     "sourceIndex": 32,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/32.json",
+    "englishDetailPath": "/details-en/32.json",
+    "detailPaths": {
+      "ja": "/details/32.json",
+      "en": "/details-en/32.json"
+    },
     "routePath": "/courses/2026/spring/G109-01"
   },
   {
@@ -833,7 +1038,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G110-01",
     "sourceIndex": 33,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/33.json",
+    "englishDetailPath": "/details-en/33.json",
+    "detailPaths": {
+      "ja": "/details/33.json",
+      "en": "/details-en/33.json"
+    },
     "routePath": "/courses/2026/fall/G110-01"
   },
   {
@@ -856,7 +1067,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G111-01",
     "sourceIndex": 34,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/34.json",
+    "englishDetailPath": "/details-en/34.json",
+    "detailPaths": {
+      "ja": "/details/34.json",
+      "en": "/details-en/34.json"
+    },
     "routePath": "/courses/2026/spring/G111-01"
   },
   {
@@ -879,7 +1096,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G112-01",
     "sourceIndex": 35,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/35.json",
+    "englishDetailPath": "/details-en/35.json",
+    "detailPaths": {
+      "ja": "/details/35.json",
+      "en": "/details-en/35.json"
+    },
     "routePath": "/courses/2026/fall/G112-01"
   },
   {
@@ -902,7 +1125,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G113-01",
     "sourceIndex": 36,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/36.json",
+    "englishDetailPath": "/details-en/36.json",
+    "detailPaths": {
+      "ja": "/details/36.json",
+      "en": "/details-en/36.json"
+    },
     "routePath": "/courses/2026/spring/G113-01"
   },
   {
@@ -925,7 +1154,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G114-01",
     "sourceIndex": 37,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/37.json",
+    "englishDetailPath": "/details-en/37.json",
+    "detailPaths": {
+      "ja": "/details/37.json",
+      "en": "/details-en/37.json"
+    },
     "routePath": "/courses/2026/fall/G114-01"
   },
   {
@@ -948,7 +1183,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G115-01",
     "sourceIndex": 38,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/38.json",
+    "englishDetailPath": "/details-en/38.json",
+    "detailPaths": {
+      "ja": "/details/38.json",
+      "en": "/details-en/38.json"
+    },
     "routePath": "/courses/2026/fall/G115-01"
   },
   {
@@ -971,7 +1212,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G116-01",
     "sourceIndex": 39,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/39.json",
+    "englishDetailPath": "/details-en/39.json",
+    "detailPaths": {
+      "ja": "/details/39.json",
+      "en": "/details-en/39.json"
+    },
     "routePath": "/courses/2026/spring/G116-01"
   },
   {
@@ -994,7 +1241,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G116-01",
     "sourceIndex": 40,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/40.json",
+    "englishDetailPath": "/details-en/40.json",
+    "detailPaths": {
+      "ja": "/details/40.json",
+      "en": "/details-en/40.json"
+    },
     "routePath": "/courses/2026/fall/G116-01"
   },
   {
@@ -1017,7 +1270,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G117-01",
     "sourceIndex": 41,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/41.json",
+    "englishDetailPath": "/details-en/41.json",
+    "detailPaths": {
+      "ja": "/details/41.json",
+      "en": "/details-en/41.json"
+    },
     "routePath": "/courses/2026/spring/G117-01"
   },
   {
@@ -1040,7 +1299,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G605-01",
     "sourceIndex": 42,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/42.json",
+    "englishDetailPath": "/details-en/42.json",
+    "detailPaths": {
+      "ja": "/details/42.json",
+      "en": "/details-en/42.json"
+    },
     "routePath": "/courses/2026/spring/G605-01"
   },
   {
@@ -1063,7 +1328,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G606-01",
     "sourceIndex": 43,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/43.json",
+    "englishDetailPath": "/details-en/43.json",
+    "detailPaths": {
+      "ja": "/details/43.json",
+      "en": "/details-en/43.json"
+    },
     "routePath": "/courses/2026/spring/G606-01"
   },
   {
@@ -1086,7 +1357,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G607-01",
     "sourceIndex": 44,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/44.json",
+    "englishDetailPath": "/details-en/44.json",
+    "detailPaths": {
+      "ja": "/details/44.json",
+      "en": "/details-en/44.json"
+    },
     "routePath": "/courses/2026/spring/G607-01"
   },
   {
@@ -1109,7 +1386,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G608-01",
     "sourceIndex": 45,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/45.json",
+    "englishDetailPath": "/details-en/45.json",
+    "detailPaths": {
+      "ja": "/details/45.json",
+      "en": "/details-en/45.json"
+    },
     "routePath": "/courses/2026/spring/G608-01"
   },
   {
@@ -1132,7 +1415,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G611-01",
     "sourceIndex": 46,
     "hasDetail": true,
+    "hasEnglishDetail": false,
     "detailPath": "/details/46.json",
+    "englishDetailPath": null,
+    "detailPaths": {
+      "ja": "/details/46.json",
+      "en": null
+    },
     "routePath": "/courses/2026/spring/G611-01"
   },
   {
@@ -1155,7 +1444,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G613-01",
     "sourceIndex": 47,
     "hasDetail": true,
+    "hasEnglishDetail": false,
     "detailPath": "/details/47.json",
+    "englishDetailPath": null,
+    "detailPaths": {
+      "ja": "/details/47.json",
+      "en": null
+    },
     "routePath": "/courses/2026/spring/G613-01"
   },
   {
@@ -1178,7 +1473,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G616-01",
     "sourceIndex": 48,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/48.json",
+    "englishDetailPath": "/details-en/48.json",
+    "detailPaths": {
+      "ja": "/details/48.json",
+      "en": "/details-en/48.json"
+    },
     "routePath": "/courses/2026/spring/G616-01"
   },
   {
@@ -1201,7 +1502,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G151-01",
     "sourceIndex": 49,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/49.json",
+    "englishDetailPath": "/details-en/49.json",
+    "detailPaths": {
+      "ja": "/details/49.json",
+      "en": "/details-en/49.json"
+    },
     "routePath": "/courses/2026/spring/G151-01"
   },
   {
@@ -1224,7 +1531,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G151-01",
     "sourceIndex": 50,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/50.json",
+    "englishDetailPath": "/details-en/50.json",
+    "detailPaths": {
+      "ja": "/details/50.json",
+      "en": "/details-en/50.json"
+    },
     "routePath": "/courses/2026/fall/G151-01"
   },
   {
@@ -1247,7 +1560,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G152-01",
     "sourceIndex": 51,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/51.json",
+    "englishDetailPath": "/details-en/51.json",
+    "detailPaths": {
+      "ja": "/details/51.json",
+      "en": "/details-en/51.json"
+    },
     "routePath": "/courses/2026/spring/G152-01"
   },
   {
@@ -1270,7 +1589,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G152-01",
     "sourceIndex": 52,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/52.json",
+    "englishDetailPath": "/details-en/52.json",
+    "detailPaths": {
+      "ja": "/details/52.json",
+      "en": "/details-en/52.json"
+    },
     "routePath": "/courses/2026/fall/G152-01"
   },
   {
@@ -1293,7 +1618,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G153-01",
     "sourceIndex": 53,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/53.json",
+    "englishDetailPath": "/details-en/53.json",
+    "detailPaths": {
+      "ja": "/details/53.json",
+      "en": "/details-en/53.json"
+    },
     "routePath": "/courses/2026/spring/G153-01"
   },
   {
@@ -1316,7 +1647,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G153-01",
     "sourceIndex": 54,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/54.json",
+    "englishDetailPath": "/details-en/54.json",
+    "detailPaths": {
+      "ja": "/details/54.json",
+      "en": "/details-en/54.json"
+    },
     "routePath": "/courses/2026/fall/G153-01"
   },
   {
@@ -1339,7 +1676,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G154-01",
     "sourceIndex": 55,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/55.json",
+    "englishDetailPath": "/details-en/55.json",
+    "detailPaths": {
+      "ja": "/details/55.json",
+      "en": "/details-en/55.json"
+    },
     "routePath": "/courses/2026/spring/G154-01"
   },
   {
@@ -1362,7 +1705,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G154-01",
     "sourceIndex": 56,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/56.json",
+    "englishDetailPath": "/details-en/56.json",
+    "detailPaths": {
+      "ja": "/details/56.json",
+      "en": "/details-en/56.json"
+    },
     "routePath": "/courses/2026/fall/G154-01"
   },
   {
@@ -1385,7 +1734,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G155-01",
     "sourceIndex": 57,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/57.json",
+    "englishDetailPath": "/details-en/57.json",
+    "detailPaths": {
+      "ja": "/details/57.json",
+      "en": "/details-en/57.json"
+    },
     "routePath": "/courses/2026/spring/G155-01"
   },
   {
@@ -1408,7 +1763,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G155-01",
     "sourceIndex": 58,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/58.json",
+    "englishDetailPath": "/details-en/58.json",
+    "detailPaths": {
+      "ja": "/details/58.json",
+      "en": "/details-en/58.json"
+    },
     "routePath": "/courses/2026/fall/G155-01"
   },
   {
@@ -1431,7 +1792,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G156-01",
     "sourceIndex": 59,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/59.json",
+    "englishDetailPath": "/details-en/59.json",
+    "detailPaths": {
+      "ja": "/details/59.json",
+      "en": "/details-en/59.json"
+    },
     "routePath": "/courses/2026/fall/G156-01"
   },
   {
@@ -1454,7 +1821,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G157-01",
     "sourceIndex": 60,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/60.json",
+    "englishDetailPath": "/details-en/60.json",
+    "detailPaths": {
+      "ja": "/details/60.json",
+      "en": "/details-en/60.json"
+    },
     "routePath": "/courses/2026/spring/G157-01"
   },
   {
@@ -1477,7 +1850,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G157-01",
     "sourceIndex": 61,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/61.json",
+    "englishDetailPath": "/details-en/61.json",
+    "detailPaths": {
+      "ja": "/details/61.json",
+      "en": "/details-en/61.json"
+    },
     "routePath": "/courses/2026/fall/G157-01"
   },
   {
@@ -1500,7 +1879,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G158-01",
     "sourceIndex": 62,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/62.json",
+    "englishDetailPath": "/details-en/62.json",
+    "detailPaths": {
+      "ja": "/details/62.json",
+      "en": "/details-en/62.json"
+    },
     "routePath": "/courses/2026/spring/G158-01"
   },
   {
@@ -1523,7 +1908,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G159-01",
     "sourceIndex": 63,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/63.json",
+    "englishDetailPath": "/details-en/63.json",
+    "detailPaths": {
+      "ja": "/details/63.json",
+      "en": "/details-en/63.json"
+    },
     "routePath": "/courses/2026/fall/G159-01"
   },
   {
@@ -1546,7 +1937,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G160-01",
     "sourceIndex": 64,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/64.json",
+    "englishDetailPath": "/details-en/64.json",
+    "detailPaths": {
+      "ja": "/details/64.json",
+      "en": "/details-en/64.json"
+    },
     "routePath": "/courses/2026/spring/G160-01"
   },
   {
@@ -1569,7 +1966,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G161-01",
     "sourceIndex": 65,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/65.json",
+    "englishDetailPath": "/details-en/65.json",
+    "detailPaths": {
+      "ja": "/details/65.json",
+      "en": "/details-en/65.json"
+    },
     "routePath": "/courses/2026/spring/G161-01"
   },
   {
@@ -1592,7 +1995,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G161-01",
     "sourceIndex": 66,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/66.json",
+    "englishDetailPath": "/details-en/66.json",
+    "detailPaths": {
+      "ja": "/details/66.json",
+      "en": "/details-en/66.json"
+    },
     "routePath": "/courses/2026/fall/G161-01"
   },
   {
@@ -1615,7 +2024,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G162-01",
     "sourceIndex": 67,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/67.json",
+    "englishDetailPath": "/details-en/67.json",
+    "detailPaths": {
+      "ja": "/details/67.json",
+      "en": "/details-en/67.json"
+    },
     "routePath": "/courses/2026/fall/G162-01"
   },
   {
@@ -1638,7 +2053,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G201-01",
     "sourceIndex": 68,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/68.json",
+    "englishDetailPath": "/details-en/68.json",
+    "detailPaths": {
+      "ja": "/details/68.json",
+      "en": "/details-en/68.json"
+    },
     "routePath": "/courses/2026/spring/G201-01"
   },
   {
@@ -1661,7 +2082,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G202-01",
     "sourceIndex": 69,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/69.json",
+    "englishDetailPath": "/details-en/69.json",
+    "detailPaths": {
+      "ja": "/details/69.json",
+      "en": "/details-en/69.json"
+    },
     "routePath": "/courses/2026/fall/G202-01"
   },
   {
@@ -1684,7 +2111,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G203-01",
     "sourceIndex": 70,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/70.json",
+    "englishDetailPath": "/details-en/70.json",
+    "detailPaths": {
+      "ja": "/details/70.json",
+      "en": "/details-en/70.json"
+    },
     "routePath": "/courses/2026/spring/G203-01"
   },
   {
@@ -1707,7 +2140,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G204-01",
     "sourceIndex": 71,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/71.json",
+    "englishDetailPath": "/details-en/71.json",
+    "detailPaths": {
+      "ja": "/details/71.json",
+      "en": "/details-en/71.json"
+    },
     "routePath": "/courses/2026/fall/G204-01"
   },
   {
@@ -1730,7 +2169,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G209-01",
     "sourceIndex": 72,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/72.json",
+    "englishDetailPath": "/details-en/72.json",
+    "detailPaths": {
+      "ja": "/details/72.json",
+      "en": "/details-en/72.json"
+    },
     "routePath": "/courses/2026/fall/G209-01"
   },
   {
@@ -1753,7 +2198,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G211-01",
     "sourceIndex": 73,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/73.json",
+    "englishDetailPath": "/details-en/73.json",
+    "detailPaths": {
+      "ja": "/details/73.json",
+      "en": "/details-en/73.json"
+    },
     "routePath": "/courses/2026/fall/G211-01"
   },
   {
@@ -1776,7 +2227,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G212-01",
     "sourceIndex": 74,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/74.json",
+    "englishDetailPath": "/details-en/74.json",
+    "detailPaths": {
+      "ja": "/details/74.json",
+      "en": "/details-en/74.json"
+    },
     "routePath": "/courses/2026/spring/G212-01"
   },
   {
@@ -1799,7 +2256,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G221-01",
     "sourceIndex": 75,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/75.json",
+    "englishDetailPath": "/details-en/75.json",
+    "detailPaths": {
+      "ja": "/details/75.json",
+      "en": "/details-en/75.json"
+    },
     "routePath": "/courses/2026/spring/G221-01"
   },
   {
@@ -1822,7 +2285,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G223-01",
     "sourceIndex": 76,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/76.json",
+    "englishDetailPath": "/details-en/76.json",
+    "detailPaths": {
+      "ja": "/details/76.json",
+      "en": "/details-en/76.json"
+    },
     "routePath": "/courses/2026/fall/G223-01"
   },
   {
@@ -1845,7 +2314,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G240-01",
     "sourceIndex": 77,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/77.json",
+    "englishDetailPath": "/details-en/77.json",
+    "detailPaths": {
+      "ja": "/details/77.json",
+      "en": "/details-en/77.json"
+    },
     "routePath": "/courses/2026/spring/G240-01"
   },
   {
@@ -1868,7 +2343,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G240-01",
     "sourceIndex": 78,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/78.json",
+    "englishDetailPath": "/details-en/78.json",
+    "detailPaths": {
+      "ja": "/details/78.json",
+      "en": "/details-en/78.json"
+    },
     "routePath": "/courses/2026/fall/G240-01"
   },
   {
@@ -1891,7 +2372,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G241-01",
     "sourceIndex": 79,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/79.json",
+    "englishDetailPath": "/details-en/79.json",
+    "detailPaths": {
+      "ja": "/details/79.json",
+      "en": "/details-en/79.json"
+    },
     "routePath": "/courses/2026/fall/G241-01"
   },
   {
@@ -1914,7 +2401,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G242-01",
     "sourceIndex": 80,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/80.json",
+    "englishDetailPath": "/details-en/80.json",
+    "detailPaths": {
+      "ja": "/details/80.json",
+      "en": "/details-en/80.json"
+    },
     "routePath": "/courses/2026/spring/G242-01"
   },
   {
@@ -1937,7 +2430,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G250-01",
     "sourceIndex": 81,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/81.json",
+    "englishDetailPath": "/details-en/81.json",
+    "detailPaths": {
+      "ja": "/details/81.json",
+      "en": "/details-en/81.json"
+    },
     "routePath": "/courses/2026/spring/G250-01"
   },
   {
@@ -1960,7 +2459,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G250-02",
     "sourceIndex": 82,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/82.json",
+    "englishDetailPath": "/details-en/82.json",
+    "detailPaths": {
+      "ja": "/details/82.json",
+      "en": "/details-en/82.json"
+    },
     "routePath": "/courses/2026/spring/G250-02"
   },
   {
@@ -1983,7 +2488,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G250-03",
     "sourceIndex": 83,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/83.json",
+    "englishDetailPath": "/details-en/83.json",
+    "detailPaths": {
+      "ja": "/details/83.json",
+      "en": "/details-en/83.json"
+    },
     "routePath": "/courses/2026/spring/G250-03"
   },
   {
@@ -2006,7 +2517,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G250-04",
     "sourceIndex": 84,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/84.json",
+    "englishDetailPath": "/details-en/84.json",
+    "detailPaths": {
+      "ja": "/details/84.json",
+      "en": "/details-en/84.json"
+    },
     "routePath": "/courses/2026/spring/G250-04"
   },
   {
@@ -2029,7 +2546,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G250-05",
     "sourceIndex": 85,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/85.json",
+    "englishDetailPath": "/details-en/85.json",
+    "detailPaths": {
+      "ja": "/details/85.json",
+      "en": "/details-en/85.json"
+    },
     "routePath": "/courses/2026/spring/G250-05"
   },
   {
@@ -2052,7 +2575,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G250-06",
     "sourceIndex": 86,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/86.json",
+    "englishDetailPath": "/details-en/86.json",
+    "detailPaths": {
+      "ja": "/details/86.json",
+      "en": "/details-en/86.json"
+    },
     "routePath": "/courses/2026/spring/G250-06"
   },
   {
@@ -2075,7 +2604,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G250-07",
     "sourceIndex": 87,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/87.json",
+    "englishDetailPath": "/details-en/87.json",
+    "detailPaths": {
+      "ja": "/details/87.json",
+      "en": "/details-en/87.json"
+    },
     "routePath": "/courses/2026/spring/G250-07"
   },
   {
@@ -2098,7 +2633,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G250-08",
     "sourceIndex": 88,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/88.json",
+    "englishDetailPath": "/details-en/88.json",
+    "detailPaths": {
+      "ja": "/details/88.json",
+      "en": "/details-en/88.json"
+    },
     "routePath": "/courses/2026/spring/G250-08"
   },
   {
@@ -2121,7 +2662,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G250-09",
     "sourceIndex": 89,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/89.json",
+    "englishDetailPath": "/details-en/89.json",
+    "detailPaths": {
+      "ja": "/details/89.json",
+      "en": "/details-en/89.json"
+    },
     "routePath": "/courses/2026/spring/G250-09"
   },
   {
@@ -2144,7 +2691,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G250-10",
     "sourceIndex": 90,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/90.json",
+    "englishDetailPath": "/details-en/90.json",
+    "detailPaths": {
+      "ja": "/details/90.json",
+      "en": "/details-en/90.json"
+    },
     "routePath": "/courses/2026/spring/G250-10"
   },
   {
@@ -2167,7 +2720,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G250-11",
     "sourceIndex": 91,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/91.json",
+    "englishDetailPath": "/details-en/91.json",
+    "detailPaths": {
+      "ja": "/details/91.json",
+      "en": "/details-en/91.json"
+    },
     "routePath": "/courses/2026/spring/G250-11"
   },
   {
@@ -2190,7 +2749,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G250-12",
     "sourceIndex": 92,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/92.json",
+    "englishDetailPath": "/details-en/92.json",
+    "detailPaths": {
+      "ja": "/details/92.json",
+      "en": "/details-en/92.json"
+    },
     "routePath": "/courses/2026/spring/G250-12"
   },
   {
@@ -2213,7 +2778,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G250-13",
     "sourceIndex": 93,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/93.json",
+    "englishDetailPath": "/details-en/93.json",
+    "detailPaths": {
+      "ja": "/details/93.json",
+      "en": "/details-en/93.json"
+    },
     "routePath": "/courses/2026/spring/G250-13"
   },
   {
@@ -2236,7 +2807,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G251-01",
     "sourceIndex": 94,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/94.json",
+    "englishDetailPath": "/details-en/94.json",
+    "detailPaths": {
+      "ja": "/details/94.json",
+      "en": "/details-en/94.json"
+    },
     "routePath": "/courses/2026/fall/G251-01"
   },
   {
@@ -2259,7 +2836,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G251-02",
     "sourceIndex": 95,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/95.json",
+    "englishDetailPath": "/details-en/95.json",
+    "detailPaths": {
+      "ja": "/details/95.json",
+      "en": "/details-en/95.json"
+    },
     "routePath": "/courses/2026/fall/G251-02"
   },
   {
@@ -2282,7 +2865,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G252-01",
     "sourceIndex": 96,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/96.json",
+    "englishDetailPath": "/details-en/96.json",
+    "detailPaths": {
+      "ja": "/details/96.json",
+      "en": "/details-en/96.json"
+    },
     "routePath": "/courses/2026/spring/G252-01"
   },
   {
@@ -2305,7 +2894,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G252-02",
     "sourceIndex": 97,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/97.json",
+    "englishDetailPath": "/details-en/97.json",
+    "detailPaths": {
+      "ja": "/details/97.json",
+      "en": "/details-en/97.json"
+    },
     "routePath": "/courses/2026/spring/G252-02"
   },
   {
@@ -2328,7 +2923,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G253-01",
     "sourceIndex": 98,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/98.json",
+    "englishDetailPath": "/details-en/98.json",
+    "detailPaths": {
+      "ja": "/details/98.json",
+      "en": "/details-en/98.json"
+    },
     "routePath": "/courses/2026/fall/G253-01"
   },
   {
@@ -2351,7 +2952,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G253-02",
     "sourceIndex": 99,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/99.json",
+    "englishDetailPath": "/details-en/99.json",
+    "detailPaths": {
+      "ja": "/details/99.json",
+      "en": "/details-en/99.json"
+    },
     "routePath": "/courses/2026/fall/G253-02"
   },
   {
@@ -2374,7 +2981,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G253-03",
     "sourceIndex": 100,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/100.json",
+    "englishDetailPath": "/details-en/100.json",
+    "detailPaths": {
+      "ja": "/details/100.json",
+      "en": "/details-en/100.json"
+    },
     "routePath": "/courses/2026/fall/G253-03"
   },
   {
@@ -2397,7 +3010,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G253-04",
     "sourceIndex": 101,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/101.json",
+    "englishDetailPath": "/details-en/101.json",
+    "detailPaths": {
+      "ja": "/details/101.json",
+      "en": "/details-en/101.json"
+    },
     "routePath": "/courses/2026/fall/G253-04"
   },
   {
@@ -2420,7 +3039,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G253-05",
     "sourceIndex": 102,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/102.json",
+    "englishDetailPath": "/details-en/102.json",
+    "detailPaths": {
+      "ja": "/details/102.json",
+      "en": "/details-en/102.json"
+    },
     "routePath": "/courses/2026/fall/G253-05"
   },
   {
@@ -2443,7 +3068,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G253-06",
     "sourceIndex": 103,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/103.json",
+    "englishDetailPath": "/details-en/103.json",
+    "detailPaths": {
+      "ja": "/details/103.json",
+      "en": "/details-en/103.json"
+    },
     "routePath": "/courses/2026/fall/G253-06"
   },
   {
@@ -2466,7 +3097,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G253-07",
     "sourceIndex": 104,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/104.json",
+    "englishDetailPath": "/details-en/104.json",
+    "detailPaths": {
+      "ja": "/details/104.json",
+      "en": "/details-en/104.json"
+    },
     "routePath": "/courses/2026/fall/G253-07"
   },
   {
@@ -2489,7 +3126,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G253-08",
     "sourceIndex": 105,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/105.json",
+    "englishDetailPath": "/details-en/105.json",
+    "detailPaths": {
+      "ja": "/details/105.json",
+      "en": "/details-en/105.json"
+    },
     "routePath": "/courses/2026/fall/G253-08"
   },
   {
@@ -2512,7 +3155,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G253-09",
     "sourceIndex": 106,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/106.json",
+    "englishDetailPath": "/details-en/106.json",
+    "detailPaths": {
+      "ja": "/details/106.json",
+      "en": "/details-en/106.json"
+    },
     "routePath": "/courses/2026/fall/G253-09"
   },
   {
@@ -2535,7 +3184,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G253-10",
     "sourceIndex": 107,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/107.json",
+    "englishDetailPath": "/details-en/107.json",
+    "detailPaths": {
+      "ja": "/details/107.json",
+      "en": "/details-en/107.json"
+    },
     "routePath": "/courses/2026/fall/G253-10"
   },
   {
@@ -2558,7 +3213,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G253-11",
     "sourceIndex": 108,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/108.json",
+    "englishDetailPath": "/details-en/108.json",
+    "detailPaths": {
+      "ja": "/details/108.json",
+      "en": "/details-en/108.json"
+    },
     "routePath": "/courses/2026/fall/G253-11"
   },
   {
@@ -2581,7 +3242,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G253-12",
     "sourceIndex": 109,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/109.json",
+    "englishDetailPath": "/details-en/109.json",
+    "detailPaths": {
+      "ja": "/details/109.json",
+      "en": "/details-en/109.json"
+    },
     "routePath": "/courses/2026/fall/G253-12"
   },
   {
@@ -2604,7 +3271,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G253-13",
     "sourceIndex": 110,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/110.json",
+    "englishDetailPath": "/details-en/110.json",
+    "detailPaths": {
+      "ja": "/details/110.json",
+      "en": "/details-en/110.json"
+    },
     "routePath": "/courses/2026/fall/G253-13"
   },
   {
@@ -2627,7 +3300,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G254-01",
     "sourceIndex": 111,
     "hasDetail": true,
+    "hasEnglishDetail": false,
     "detailPath": "/details/111.json",
+    "englishDetailPath": null,
+    "detailPaths": {
+      "ja": "/details/111.json",
+      "en": null
+    },
     "routePath": "/courses/2026/spring/G254-01"
   },
   {
@@ -2650,7 +3329,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G256-01",
     "sourceIndex": 112,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/112.json",
+    "englishDetailPath": "/details-en/112.json",
+    "detailPaths": {
+      "ja": "/details/112.json",
+      "en": "/details-en/112.json"
+    },
     "routePath": "/courses/2026/spring/G256-01"
   },
   {
@@ -2673,7 +3358,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G257-01",
     "sourceIndex": 113,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/113.json",
+    "englishDetailPath": "/details-en/113.json",
+    "detailPaths": {
+      "ja": "/details/113.json",
+      "en": "/details-en/113.json"
+    },
     "routePath": "/courses/2026/spring/G257-01"
   },
   {
@@ -2696,7 +3387,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "D001-01",
     "sourceIndex": 114,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/114.json",
+    "englishDetailPath": "/details-en/114.json",
+    "detailPaths": {
+      "ja": "/details/114.json",
+      "en": "/details-en/114.json"
+    },
     "routePath": "/courses/2026/spring/D001-01"
   },
   {
@@ -2719,7 +3416,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "D002-01",
     "sourceIndex": 115,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/115.json",
+    "englishDetailPath": "/details-en/115.json",
+    "detailPaths": {
+      "ja": "/details/115.json",
+      "en": "/details-en/115.json"
+    },
     "routePath": "/courses/2026/spring/D002-01"
   },
   {
@@ -2742,7 +3445,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "D003-01",
     "sourceIndex": 116,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/116.json",
+    "englishDetailPath": "/details-en/116.json",
+    "detailPaths": {
+      "ja": "/details/116.json",
+      "en": "/details-en/116.json"
+    },
     "routePath": "/courses/2026/spring/D003-01"
   },
   {
@@ -2765,7 +3474,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "D004-01",
     "sourceIndex": 117,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/117.json",
+    "englishDetailPath": "/details-en/117.json",
+    "detailPaths": {
+      "ja": "/details/117.json",
+      "en": "/details-en/117.json"
+    },
     "routePath": "/courses/2026/spring/D004-01"
   },
   {
@@ -2788,7 +3503,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "D005-01",
     "sourceIndex": 118,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/118.json",
+    "englishDetailPath": "/details-en/118.json",
+    "detailPaths": {
+      "ja": "/details/118.json",
+      "en": "/details-en/118.json"
+    },
     "routePath": "/courses/2026/spring/D005-01"
   },
   {
@@ -2811,7 +3532,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "D006-01",
     "sourceIndex": 119,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/119.json",
+    "englishDetailPath": "/details-en/119.json",
+    "detailPaths": {
+      "ja": "/details/119.json",
+      "en": "/details-en/119.json"
+    },
     "routePath": "/courses/2026/fall/D006-01"
   },
   {
@@ -2834,7 +3561,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "D007-01",
     "sourceIndex": 120,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/120.json",
+    "englishDetailPath": "/details-en/120.json",
+    "detailPaths": {
+      "ja": "/details/120.json",
+      "en": "/details-en/120.json"
+    },
     "routePath": "/courses/2026/fall/D007-01"
   },
   {
@@ -2857,7 +3590,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "D008-01",
     "sourceIndex": 121,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/121.json",
+    "englishDetailPath": "/details-en/121.json",
+    "detailPaths": {
+      "ja": "/details/121.json",
+      "en": "/details-en/121.json"
+    },
     "routePath": "/courses/2026/fall/D008-01"
   },
   {
@@ -2880,7 +3619,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "D009-01",
     "sourceIndex": 122,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/122.json",
+    "englishDetailPath": "/details-en/122.json",
+    "detailPaths": {
+      "ja": "/details/122.json",
+      "en": "/details-en/122.json"
+    },
     "routePath": "/courses/2026/spring/D009-01"
   },
   {
@@ -2903,7 +3648,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "D010-01",
     "sourceIndex": 123,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/123.json",
+    "englishDetailPath": "/details-en/123.json",
+    "detailPaths": {
+      "ja": "/details/123.json",
+      "en": "/details-en/123.json"
+    },
     "routePath": "/courses/2026/spring/D010-01"
   },
   {
@@ -2926,7 +3677,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "D011-01",
     "sourceIndex": 124,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/124.json",
+    "englishDetailPath": "/details-en/124.json",
+    "detailPaths": {
+      "ja": "/details/124.json",
+      "en": "/details-en/124.json"
+    },
     "routePath": "/courses/2026/spring/D011-01"
   },
   {
@@ -2949,7 +3706,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "D012-01",
     "sourceIndex": 125,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/125.json",
+    "englishDetailPath": "/details-en/125.json",
+    "detailPaths": {
+      "ja": "/details/125.json",
+      "en": "/details-en/125.json"
+    },
     "routePath": "/courses/2026/spring/D012-01"
   },
   {
@@ -2972,7 +3735,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "D013-01",
     "sourceIndex": 126,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/126.json",
+    "englishDetailPath": "/details-en/126.json",
+    "detailPaths": {
+      "ja": "/details/126.json",
+      "en": "/details-en/126.json"
+    },
     "routePath": "/courses/2026/spring/D013-01"
   },
   {
@@ -2995,7 +3764,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "D014-01",
     "sourceIndex": 127,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/127.json",
+    "englishDetailPath": "/details-en/127.json",
+    "detailPaths": {
+      "ja": "/details/127.json",
+      "en": "/details-en/127.json"
+    },
     "routePath": "/courses/2026/spring/D014-01"
   },
   {
@@ -3018,7 +3793,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "D015-01",
     "sourceIndex": 128,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/128.json",
+    "englishDetailPath": "/details-en/128.json",
+    "detailPaths": {
+      "ja": "/details/128.json",
+      "en": "/details-en/128.json"
+    },
     "routePath": "/courses/2026/spring/D015-01"
   },
   {
@@ -3041,7 +3822,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "D016-01",
     "sourceIndex": 129,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/129.json",
+    "englishDetailPath": "/details-en/129.json",
+    "detailPaths": {
+      "ja": "/details/129.json",
+      "en": "/details-en/129.json"
+    },
     "routePath": "/courses/2026/spring/D016-01"
   },
   {
@@ -3064,7 +3851,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "D017-01",
     "sourceIndex": 130,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/130.json",
+    "englishDetailPath": "/details-en/130.json",
+    "detailPaths": {
+      "ja": "/details/130.json",
+      "en": "/details-en/130.json"
+    },
     "routePath": "/courses/2026/fall/D017-01"
   },
   {
@@ -3087,7 +3880,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "D018-01",
     "sourceIndex": 131,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/131.json",
+    "englishDetailPath": "/details-en/131.json",
+    "detailPaths": {
+      "ja": "/details/131.json",
+      "en": "/details-en/131.json"
+    },
     "routePath": "/courses/2026/fall/D018-01"
   },
   {
@@ -3110,7 +3909,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "D019-01",
     "sourceIndex": 132,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/132.json",
+    "englishDetailPath": "/details-en/132.json",
+    "detailPaths": {
+      "ja": "/details/132.json",
+      "en": "/details-en/132.json"
+    },
     "routePath": "/courses/2026/fall/D019-01"
   },
   {
@@ -3133,7 +3938,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "D020-01",
     "sourceIndex": 133,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/133.json",
+    "englishDetailPath": "/details-en/133.json",
+    "detailPaths": {
+      "ja": "/details/133.json",
+      "en": "/details-en/133.json"
+    },
     "routePath": "/courses/2026/fall/D020-01"
   },
   {
@@ -3156,7 +3967,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "D021-01",
     "sourceIndex": 134,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/134.json",
+    "englishDetailPath": "/details-en/134.json",
+    "detailPaths": {
+      "ja": "/details/134.json",
+      "en": "/details-en/134.json"
+    },
     "routePath": "/courses/2026/fall/D021-01"
   },
   {
@@ -3179,7 +3996,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "D022-01",
     "sourceIndex": 135,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/135.json",
+    "englishDetailPath": "/details-en/135.json",
+    "detailPaths": {
+      "ja": "/details/135.json",
+      "en": "/details-en/135.json"
+    },
     "routePath": "/courses/2026/fall/D022-01"
   },
   {
@@ -3202,7 +4025,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E018-01",
     "sourceIndex": 136,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/136.json",
+    "englishDetailPath": "/details-en/136.json",
+    "detailPaths": {
+      "ja": "/details/136.json",
+      "en": "/details-en/136.json"
+    },
     "routePath": "/courses/2026/spring/E018-01"
   },
   {
@@ -3225,7 +4054,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E020-01",
     "sourceIndex": 137,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/137.json",
+    "englishDetailPath": "/details-en/137.json",
+    "detailPaths": {
+      "ja": "/details/137.json",
+      "en": "/details-en/137.json"
+    },
     "routePath": "/courses/2026/spring/E020-01"
   },
   {
@@ -3248,7 +4083,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E021-01",
     "sourceIndex": 138,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/138.json",
+    "englishDetailPath": "/details-en/138.json",
+    "detailPaths": {
+      "ja": "/details/138.json",
+      "en": "/details-en/138.json"
+    },
     "routePath": "/courses/2026/spring/E021-01"
   },
   {
@@ -3271,7 +4112,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E022-01",
     "sourceIndex": 139,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/139.json",
+    "englishDetailPath": "/details-en/139.json",
+    "detailPaths": {
+      "ja": "/details/139.json",
+      "en": "/details-en/139.json"
+    },
     "routePath": "/courses/2026/fall/E022-01"
   },
   {
@@ -3294,7 +4141,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E026-01",
     "sourceIndex": 140,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/140.json",
+    "englishDetailPath": "/details-en/140.json",
+    "detailPaths": {
+      "ja": "/details/140.json",
+      "en": "/details-en/140.json"
+    },
     "routePath": "/courses/2026/fall/E026-01"
   },
   {
@@ -3317,7 +4170,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E027-01",
     "sourceIndex": 141,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/141.json",
+    "englishDetailPath": "/details-en/141.json",
+    "detailPaths": {
+      "ja": "/details/141.json",
+      "en": "/details-en/141.json"
+    },
     "routePath": "/courses/2026/spring/E027-01"
   },
   {
@@ -3340,7 +4199,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E028-01",
     "sourceIndex": 142,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/142.json",
+    "englishDetailPath": "/details-en/142.json",
+    "detailPaths": {
+      "ja": "/details/142.json",
+      "en": "/details-en/142.json"
+    },
     "routePath": "/courses/2026/fall/E028-01"
   },
   {
@@ -3363,7 +4228,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E030-01",
     "sourceIndex": 143,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/143.json",
+    "englishDetailPath": "/details-en/143.json",
+    "detailPaths": {
+      "ja": "/details/143.json",
+      "en": "/details-en/143.json"
+    },
     "routePath": "/courses/2026/spring/E030-01"
   },
   {
@@ -3386,7 +4257,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E031-01",
     "sourceIndex": 144,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/144.json",
+    "englishDetailPath": "/details-en/144.json",
+    "detailPaths": {
+      "ja": "/details/144.json",
+      "en": "/details-en/144.json"
+    },
     "routePath": "/courses/2026/spring/E031-01"
   },
   {
@@ -3409,7 +4286,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E031-01",
     "sourceIndex": 145,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/145.json",
+    "englishDetailPath": "/details-en/145.json",
+    "detailPaths": {
+      "ja": "/details/145.json",
+      "en": "/details-en/145.json"
+    },
     "routePath": "/courses/2026/fall/E031-01"
   },
   {
@@ -3432,7 +4315,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E032-01",
     "sourceIndex": 146,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/146.json",
+    "englishDetailPath": "/details-en/146.json",
+    "detailPaths": {
+      "ja": "/details/146.json",
+      "en": "/details-en/146.json"
+    },
     "routePath": "/courses/2026/spring/E032-01"
   },
   {
@@ -3455,7 +4344,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E032-01",
     "sourceIndex": 147,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/147.json",
+    "englishDetailPath": "/details-en/147.json",
+    "detailPaths": {
+      "ja": "/details/147.json",
+      "en": "/details-en/147.json"
+    },
     "routePath": "/courses/2026/fall/E032-01"
   },
   {
@@ -3478,7 +4373,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E033-01",
     "sourceIndex": 148,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/148.json",
+    "englishDetailPath": "/details-en/148.json",
+    "detailPaths": {
+      "ja": "/details/148.json",
+      "en": "/details-en/148.json"
+    },
     "routePath": "/courses/2026/fall/E033-01"
   },
   {
@@ -3501,7 +4402,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E034-01",
     "sourceIndex": 149,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/149.json",
+    "englishDetailPath": "/details-en/149.json",
+    "detailPaths": {
+      "ja": "/details/149.json",
+      "en": "/details-en/149.json"
+    },
     "routePath": "/courses/2026/spring/E034-01"
   },
   {
@@ -3524,7 +4431,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E035-01",
     "sourceIndex": 150,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/150.json",
+    "englishDetailPath": "/details-en/150.json",
+    "detailPaths": {
+      "ja": "/details/150.json",
+      "en": "/details-en/150.json"
+    },
     "routePath": "/courses/2026/fall/E035-01"
   },
   {
@@ -3547,7 +4460,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E040-01",
     "sourceIndex": 151,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/151.json",
+    "englishDetailPath": "/details-en/151.json",
+    "detailPaths": {
+      "ja": "/details/151.json",
+      "en": "/details-en/151.json"
+    },
     "routePath": "/courses/2026/spring/E040-01"
   },
   {
@@ -3570,7 +4489,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E041-01",
     "sourceIndex": 152,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/152.json",
+    "englishDetailPath": "/details-en/152.json",
+    "detailPaths": {
+      "ja": "/details/152.json",
+      "en": "/details-en/152.json"
+    },
     "routePath": "/courses/2026/spring/E041-01"
   },
   {
@@ -3593,7 +4518,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E072-01",
     "sourceIndex": 153,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/153.json",
+    "englishDetailPath": "/details-en/153.json",
+    "detailPaths": {
+      "ja": "/details/153.json",
+      "en": "/details-en/153.json"
+    },
     "routePath": "/courses/2026/fall/E072-01"
   },
   {
@@ -3616,7 +4547,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E901-01",
     "sourceIndex": 154,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/154.json",
+    "englishDetailPath": "/details-en/154.json",
+    "detailPaths": {
+      "ja": "/details/154.json",
+      "en": "/details-en/154.json"
+    },
     "routePath": "/courses/2026/fall/E901-01"
   },
   {
@@ -3639,7 +4576,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E911-01",
     "sourceIndex": 155,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/155.json",
+    "englishDetailPath": "/details-en/155.json",
+    "detailPaths": {
+      "ja": "/details/155.json",
+      "en": "/details-en/155.json"
+    },
     "routePath": "/courses/2026/spring/E911-01"
   },
   {
@@ -3662,7 +4605,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E921-06",
     "sourceIndex": 156,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/156.json",
+    "englishDetailPath": "/details-en/156.json",
+    "detailPaths": {
+      "ja": "/details/156.json",
+      "en": "/details-en/156.json"
+    },
     "routePath": "/courses/2026/full-year/E921-06"
   },
   {
@@ -3685,7 +4634,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E921-07",
     "sourceIndex": 157,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/157.json",
+    "englishDetailPath": "/details-en/157.json",
+    "detailPaths": {
+      "ja": "/details/157.json",
+      "en": "/details-en/157.json"
+    },
     "routePath": "/courses/2026/full-year/E921-07"
   },
   {
@@ -3708,7 +4663,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E921-08",
     "sourceIndex": 158,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/158.json",
+    "englishDetailPath": "/details-en/158.json",
+    "detailPaths": {
+      "ja": "/details/158.json",
+      "en": "/details-en/158.json"
+    },
     "routePath": "/courses/2026/full-year/E921-08"
   },
   {
@@ -3731,7 +4692,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E921-09",
     "sourceIndex": 159,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/159.json",
+    "englishDetailPath": "/details-en/159.json",
+    "detailPaths": {
+      "ja": "/details/159.json",
+      "en": "/details-en/159.json"
+    },
     "routePath": "/courses/2026/full-year/E921-09"
   },
   {
@@ -3754,7 +4721,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E921-10",
     "sourceIndex": 160,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/160.json",
+    "englishDetailPath": "/details-en/160.json",
+    "detailPaths": {
+      "ja": "/details/160.json",
+      "en": "/details-en/160.json"
+    },
     "routePath": "/courses/2026/full-year/E921-10"
   },
   {
@@ -3777,7 +4750,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E921-11",
     "sourceIndex": 161,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/161.json",
+    "englishDetailPath": "/details-en/161.json",
+    "detailPaths": {
+      "ja": "/details/161.json",
+      "en": "/details-en/161.json"
+    },
     "routePath": "/courses/2026/full-year/E921-11"
   },
   {
@@ -3800,7 +4779,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E921-12",
     "sourceIndex": 162,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/162.json",
+    "englishDetailPath": "/details-en/162.json",
+    "detailPaths": {
+      "ja": "/details/162.json",
+      "en": "/details-en/162.json"
+    },
     "routePath": "/courses/2026/full-year/E921-12"
   },
   {
@@ -3823,7 +4808,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E921-14",
     "sourceIndex": 163,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/163.json",
+    "englishDetailPath": "/details-en/163.json",
+    "detailPaths": {
+      "ja": "/details/163.json",
+      "en": "/details-en/163.json"
+    },
     "routePath": "/courses/2026/full-year/E921-14"
   },
   {
@@ -3846,7 +4837,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E921-16",
     "sourceIndex": 164,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/164.json",
+    "englishDetailPath": "/details-en/164.json",
+    "detailPaths": {
+      "ja": "/details/164.json",
+      "en": "/details-en/164.json"
+    },
     "routePath": "/courses/2026/full-year/E921-16"
   },
   {
@@ -3869,7 +4866,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E921-18",
     "sourceIndex": 165,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/165.json",
+    "englishDetailPath": "/details-en/165.json",
+    "detailPaths": {
+      "ja": "/details/165.json",
+      "en": "/details-en/165.json"
+    },
     "routePath": "/courses/2026/full-year/E921-18"
   },
   {
@@ -3892,7 +4895,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E921-19",
     "sourceIndex": 166,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/166.json",
+    "englishDetailPath": "/details-en/166.json",
+    "detailPaths": {
+      "ja": "/details/166.json",
+      "en": "/details-en/166.json"
+    },
     "routePath": "/courses/2026/full-year/E921-19"
   },
   {
@@ -3915,7 +4924,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E921-20",
     "sourceIndex": 167,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/167.json",
+    "englishDetailPath": "/details-en/167.json",
+    "detailPaths": {
+      "ja": "/details/167.json",
+      "en": "/details-en/167.json"
+    },
     "routePath": "/courses/2026/full-year/E921-20"
   },
   {
@@ -3938,7 +4953,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E921-21",
     "sourceIndex": 168,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/168.json",
+    "englishDetailPath": "/details-en/168.json",
+    "detailPaths": {
+      "ja": "/details/168.json",
+      "en": "/details-en/168.json"
+    },
     "routePath": "/courses/2026/full-year/E921-21"
   },
   {
@@ -3961,7 +4982,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E921-22",
     "sourceIndex": 169,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/169.json",
+    "englishDetailPath": "/details-en/169.json",
+    "detailPaths": {
+      "ja": "/details/169.json",
+      "en": "/details-en/169.json"
+    },
     "routePath": "/courses/2026/full-year/E921-22"
   },
   {
@@ -3984,7 +5011,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E921-23",
     "sourceIndex": 170,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/170.json",
+    "englishDetailPath": "/details-en/170.json",
+    "detailPaths": {
+      "ja": "/details/170.json",
+      "en": "/details-en/170.json"
+    },
     "routePath": "/courses/2026/full-year/E921-23"
   },
   {
@@ -4007,7 +5040,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E921-24",
     "sourceIndex": 171,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/171.json",
+    "englishDetailPath": "/details-en/171.json",
+    "detailPaths": {
+      "ja": "/details/171.json",
+      "en": "/details-en/171.json"
+    },
     "routePath": "/courses/2026/full-year/E921-24"
   },
   {
@@ -4030,7 +5069,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E921-26",
     "sourceIndex": 172,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/172.json",
+    "englishDetailPath": "/details-en/172.json",
+    "detailPaths": {
+      "ja": "/details/172.json",
+      "en": "/details-en/172.json"
+    },
     "routePath": "/courses/2026/full-year/E921-26"
   },
   {
@@ -4053,7 +5098,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E921-28",
     "sourceIndex": 173,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/173.json",
+    "englishDetailPath": "/details-en/173.json",
+    "detailPaths": {
+      "ja": "/details/173.json",
+      "en": "/details-en/173.json"
+    },
     "routePath": "/courses/2026/full-year/E921-28"
   },
   {
@@ -4076,7 +5127,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E921-30",
     "sourceIndex": 174,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/174.json",
+    "englishDetailPath": "/details-en/174.json",
+    "detailPaths": {
+      "ja": "/details/174.json",
+      "en": "/details-en/174.json"
+    },
     "routePath": "/courses/2026/full-year/E921-30"
   },
   {
@@ -4099,7 +5156,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E941-01",
     "sourceIndex": 175,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/175.json",
+    "englishDetailPath": "/details-en/175.json",
+    "detailPaths": {
+      "ja": "/details/175.json",
+      "en": "/details-en/175.json"
+    },
     "routePath": "/courses/2026/spring/E941-01"
   },
   {
@@ -4122,7 +5185,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E951-01",
     "sourceIndex": 176,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/176.json",
+    "englishDetailPath": "/details-en/176.json",
+    "detailPaths": {
+      "ja": "/details/176.json",
+      "en": "/details-en/176.json"
+    },
     "routePath": "/courses/2026/spring/E951-01"
   },
   {
@@ -4145,7 +5214,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "D101-01",
     "sourceIndex": 177,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/177.json",
+    "englishDetailPath": "/details-en/177.json",
+    "detailPaths": {
+      "ja": "/details/177.json",
+      "en": "/details-en/177.json"
+    },
     "routePath": "/courses/2026/spring/D101-01"
   },
   {
@@ -4168,7 +5243,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "D102-01",
     "sourceIndex": 178,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/178.json",
+    "englishDetailPath": "/details-en/178.json",
+    "detailPaths": {
+      "ja": "/details/178.json",
+      "en": "/details-en/178.json"
+    },
     "routePath": "/courses/2026/spring/D102-01"
   },
   {
@@ -4191,7 +5272,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "D103-01",
     "sourceIndex": 179,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/179.json",
+    "englishDetailPath": "/details-en/179.json",
+    "detailPaths": {
+      "ja": "/details/179.json",
+      "en": "/details-en/179.json"
+    },
     "routePath": "/courses/2026/spring/D103-01"
   },
   {
@@ -4214,7 +5301,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "D104-01",
     "sourceIndex": 180,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/180.json",
+    "englishDetailPath": "/details-en/180.json",
+    "detailPaths": {
+      "ja": "/details/180.json",
+      "en": "/details-en/180.json"
+    },
     "routePath": "/courses/2026/spring/D104-01"
   },
   {
@@ -4237,7 +5330,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "D105-01",
     "sourceIndex": 181,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/181.json",
+    "englishDetailPath": "/details-en/181.json",
+    "detailPaths": {
+      "ja": "/details/181.json",
+      "en": "/details-en/181.json"
+    },
     "routePath": "/courses/2026/fall/D105-01"
   },
   {
@@ -4260,7 +5359,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "D106-01",
     "sourceIndex": 182,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/182.json",
+    "englishDetailPath": "/details-en/182.json",
+    "detailPaths": {
+      "ja": "/details/182.json",
+      "en": "/details-en/182.json"
+    },
     "routePath": "/courses/2026/fall/D106-01"
   },
   {
@@ -4283,7 +5388,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "D107-01",
     "sourceIndex": 183,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/183.json",
+    "englishDetailPath": "/details-en/183.json",
+    "detailPaths": {
+      "ja": "/details/183.json",
+      "en": "/details-en/183.json"
+    },
     "routePath": "/courses/2026/fall/D107-01"
   },
   {
@@ -4306,7 +5417,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "D108-01",
     "sourceIndex": 184,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/184.json",
+    "englishDetailPath": "/details-en/184.json",
+    "detailPaths": {
+      "ja": "/details/184.json",
+      "en": "/details-en/184.json"
+    },
     "routePath": "/courses/2026/fall/D108-01"
   },
   {
@@ -4329,7 +5446,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "D109-01",
     "sourceIndex": 185,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/185.json",
+    "englishDetailPath": "/details-en/185.json",
+    "detailPaths": {
+      "ja": "/details/185.json",
+      "en": "/details-en/185.json"
+    },
     "routePath": "/courses/2026/fall/D109-01"
   },
   {
@@ -4352,7 +5475,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "D110-01",
     "sourceIndex": 186,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/186.json",
+    "englishDetailPath": "/details-en/186.json",
+    "detailPaths": {
+      "ja": "/details/186.json",
+      "en": "/details-en/186.json"
+    },
     "routePath": "/courses/2026/spring/D110-01"
   },
   {
@@ -4375,7 +5504,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "D111-01",
     "sourceIndex": 187,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/187.json",
+    "englishDetailPath": "/details-en/187.json",
+    "detailPaths": {
+      "ja": "/details/187.json",
+      "en": "/details-en/187.json"
+    },
     "routePath": "/courses/2026/spring/D111-01"
   },
   {
@@ -4398,7 +5533,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "D112-01",
     "sourceIndex": 188,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/188.json",
+    "englishDetailPath": "/details-en/188.json",
+    "detailPaths": {
+      "ja": "/details/188.json",
+      "en": "/details-en/188.json"
+    },
     "routePath": "/courses/2026/spring/D112-01"
   },
   {
@@ -4421,7 +5562,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "D113-01",
     "sourceIndex": 189,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/189.json",
+    "englishDetailPath": "/details-en/189.json",
+    "detailPaths": {
+      "ja": "/details/189.json",
+      "en": "/details-en/189.json"
+    },
     "routePath": "/courses/2026/spring/D113-01"
   },
   {
@@ -4444,7 +5591,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "D114-01",
     "sourceIndex": 190,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/190.json",
+    "englishDetailPath": "/details-en/190.json",
+    "detailPaths": {
+      "ja": "/details/190.json",
+      "en": "/details-en/190.json"
+    },
     "routePath": "/courses/2026/spring/D114-01"
   },
   {
@@ -4467,7 +5620,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "D115-01",
     "sourceIndex": 191,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/191.json",
+    "englishDetailPath": "/details-en/191.json",
+    "detailPaths": {
+      "ja": "/details/191.json",
+      "en": "/details-en/191.json"
+    },
     "routePath": "/courses/2026/spring/D115-01"
   },
   {
@@ -4490,7 +5649,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "D116-01",
     "sourceIndex": 192,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/192.json",
+    "englishDetailPath": "/details-en/192.json",
+    "detailPaths": {
+      "ja": "/details/192.json",
+      "en": "/details-en/192.json"
+    },
     "routePath": "/courses/2026/fall/D116-01"
   },
   {
@@ -4513,7 +5678,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "D117-01",
     "sourceIndex": 193,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/193.json",
+    "englishDetailPath": "/details-en/193.json",
+    "detailPaths": {
+      "ja": "/details/193.json",
+      "en": "/details-en/193.json"
+    },
     "routePath": "/courses/2026/fall/D117-01"
   },
   {
@@ -4536,7 +5707,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "D118-01",
     "sourceIndex": 194,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/194.json",
+    "englishDetailPath": "/details-en/194.json",
+    "detailPaths": {
+      "ja": "/details/194.json",
+      "en": "/details-en/194.json"
+    },
     "routePath": "/courses/2026/fall/D118-01"
   },
   {
@@ -4559,7 +5736,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "D119-01",
     "sourceIndex": 195,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/195.json",
+    "englishDetailPath": "/details-en/195.json",
+    "detailPaths": {
+      "ja": "/details/195.json",
+      "en": "/details-en/195.json"
+    },
     "routePath": "/courses/2026/fall/D119-01"
   },
   {
@@ -4582,7 +5765,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "D120-01",
     "sourceIndex": 196,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/196.json",
+    "englishDetailPath": "/details-en/196.json",
+    "detailPaths": {
+      "ja": "/details/196.json",
+      "en": "/details-en/196.json"
+    },
     "routePath": "/courses/2026/fall/D120-01"
   },
   {
@@ -4605,7 +5794,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "D121-01",
     "sourceIndex": 197,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/197.json",
+    "englishDetailPath": "/details-en/197.json",
+    "detailPaths": {
+      "ja": "/details/197.json",
+      "en": "/details-en/197.json"
+    },
     "routePath": "/courses/2026/fall/D121-01"
   },
   {
@@ -4628,7 +5823,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "D122-01",
     "sourceIndex": 198,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/198.json",
+    "englishDetailPath": "/details-en/198.json",
+    "detailPaths": {
+      "ja": "/details/198.json",
+      "en": "/details-en/198.json"
+    },
     "routePath": "/courses/2026/fall/D122-01"
   },
   {
@@ -4651,7 +5852,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "D123-01",
     "sourceIndex": 199,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/199.json",
+    "englishDetailPath": "/details-en/199.json",
+    "detailPaths": {
+      "ja": "/details/199.json",
+      "en": "/details-en/199.json"
+    },
     "routePath": "/courses/2026/fall/D123-01"
   },
   {
@@ -4674,7 +5881,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E115-01",
     "sourceIndex": 200,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/200.json",
+    "englishDetailPath": "/details-en/200.json",
+    "detailPaths": {
+      "ja": "/details/200.json",
+      "en": "/details-en/200.json"
+    },
     "routePath": "/courses/2026/fall/E115-01"
   },
   {
@@ -4697,7 +5910,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E116-01",
     "sourceIndex": 201,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/201.json",
+    "englishDetailPath": "/details-en/201.json",
+    "detailPaths": {
+      "ja": "/details/201.json",
+      "en": "/details-en/201.json"
+    },
     "routePath": "/courses/2026/spring/E116-01"
   },
   {
@@ -4720,7 +5939,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E118-01",
     "sourceIndex": 202,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/202.json",
+    "englishDetailPath": "/details-en/202.json",
+    "detailPaths": {
+      "ja": "/details/202.json",
+      "en": "/details-en/202.json"
+    },
     "routePath": "/courses/2026/spring/E118-01"
   },
   {
@@ -4743,7 +5968,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E119-01",
     "sourceIndex": 203,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/203.json",
+    "englishDetailPath": "/details-en/203.json",
+    "detailPaths": {
+      "ja": "/details/203.json",
+      "en": "/details-en/203.json"
+    },
     "routePath": "/courses/2026/spring/E119-01"
   },
   {
@@ -4766,7 +5997,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E120-01",
     "sourceIndex": 204,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/204.json",
+    "englishDetailPath": "/details-en/204.json",
+    "detailPaths": {
+      "ja": "/details/204.json",
+      "en": "/details-en/204.json"
+    },
     "routePath": "/courses/2026/spring/E120-01"
   },
   {
@@ -4789,7 +6026,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E121-01",
     "sourceIndex": 205,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/205.json",
+    "englishDetailPath": "/details-en/205.json",
+    "detailPaths": {
+      "ja": "/details/205.json",
+      "en": "/details-en/205.json"
+    },
     "routePath": "/courses/2026/spring/E121-01"
   },
   {
@@ -4812,7 +6055,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E122-01",
     "sourceIndex": 206,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/206.json",
+    "englishDetailPath": "/details-en/206.json",
+    "detailPaths": {
+      "ja": "/details/206.json",
+      "en": "/details-en/206.json"
+    },
     "routePath": "/courses/2026/spring/E122-01"
   },
   {
@@ -4835,7 +6084,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E126-01",
     "sourceIndex": 207,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/207.json",
+    "englishDetailPath": "/details-en/207.json",
+    "detailPaths": {
+      "ja": "/details/207.json",
+      "en": "/details-en/207.json"
+    },
     "routePath": "/courses/2026/fall/E126-01"
   },
   {
@@ -4858,7 +6113,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E128-01",
     "sourceIndex": 208,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/208.json",
+    "englishDetailPath": "/details-en/208.json",
+    "detailPaths": {
+      "ja": "/details/208.json",
+      "en": "/details-en/208.json"
+    },
     "routePath": "/courses/2026/fall/E128-01"
   },
   {
@@ -4881,7 +6142,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E129-01",
     "sourceIndex": 209,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/209.json",
+    "englishDetailPath": "/details-en/209.json",
+    "detailPaths": {
+      "ja": "/details/209.json",
+      "en": "/details-en/209.json"
+    },
     "routePath": "/courses/2026/fall/E129-01"
   },
   {
@@ -4904,7 +6171,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E130-01",
     "sourceIndex": 210,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/210.json",
+    "englishDetailPath": "/details-en/210.json",
+    "detailPaths": {
+      "ja": "/details/210.json",
+      "en": "/details-en/210.json"
+    },
     "routePath": "/courses/2026/spring/E130-01"
   },
   {
@@ -4927,7 +6200,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E138-01",
     "sourceIndex": 211,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/211.json",
+    "englishDetailPath": "/details-en/211.json",
+    "detailPaths": {
+      "ja": "/details/211.json",
+      "en": "/details-en/211.json"
+    },
     "routePath": "/courses/2026/spring/E138-01"
   },
   {
@@ -4950,7 +6229,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E139-01",
     "sourceIndex": 212,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/212.json",
+    "englishDetailPath": "/details-en/212.json",
+    "detailPaths": {
+      "ja": "/details/212.json",
+      "en": "/details-en/212.json"
+    },
     "routePath": "/courses/2026/spring/E139-01"
   },
   {
@@ -4973,7 +6258,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E140-01",
     "sourceIndex": 213,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/213.json",
+    "englishDetailPath": "/details-en/213.json",
+    "detailPaths": {
+      "ja": "/details/213.json",
+      "en": "/details-en/213.json"
+    },
     "routePath": "/courses/2026/fall/E140-01"
   },
   {
@@ -4996,7 +6287,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E141-01",
     "sourceIndex": 214,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/214.json",
+    "englishDetailPath": "/details-en/214.json",
+    "detailPaths": {
+      "ja": "/details/214.json",
+      "en": "/details-en/214.json"
+    },
     "routePath": "/courses/2026/fall/E141-01"
   },
   {
@@ -5019,7 +6316,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E142-01",
     "sourceIndex": 215,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/215.json",
+    "englishDetailPath": "/details-en/215.json",
+    "detailPaths": {
+      "ja": "/details/215.json",
+      "en": "/details-en/215.json"
+    },
     "routePath": "/courses/2026/spring/E142-01"
   },
   {
@@ -5042,7 +6345,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E143-01",
     "sourceIndex": 216,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/216.json",
+    "englishDetailPath": "/details-en/216.json",
+    "detailPaths": {
+      "ja": "/details/216.json",
+      "en": "/details-en/216.json"
+    },
     "routePath": "/courses/2026/fall/E143-01"
   },
   {
@@ -5065,7 +6374,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E144-01",
     "sourceIndex": 217,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/217.json",
+    "englishDetailPath": "/details-en/217.json",
+    "detailPaths": {
+      "ja": "/details/217.json",
+      "en": "/details-en/217.json"
+    },
     "routePath": "/courses/2026/fall/E144-01"
   },
   {
@@ -5088,7 +6403,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E144-01",
     "sourceIndex": 218,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/218.json",
+    "englishDetailPath": "/details-en/218.json",
+    "detailPaths": {
+      "ja": "/details/218.json",
+      "en": "/details-en/218.json"
+    },
     "routePath": "/courses/2026/full-year/E144-01"
   },
   {
@@ -5111,7 +6432,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E902-01",
     "sourceIndex": 219,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/219.json",
+    "englishDetailPath": "/details-en/219.json",
+    "detailPaths": {
+      "ja": "/details/219.json",
+      "en": "/details-en/219.json"
+    },
     "routePath": "/courses/2026/fall/E902-01"
   },
   {
@@ -5134,7 +6461,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E912-01",
     "sourceIndex": 220,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/220.json",
+    "englishDetailPath": "/details-en/220.json",
+    "detailPaths": {
+      "ja": "/details/220.json",
+      "en": "/details-en/220.json"
+    },
     "routePath": "/courses/2026/fall/E912-01"
   },
   {
@@ -5157,7 +6490,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E922-06",
     "sourceIndex": 221,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/221.json",
+    "englishDetailPath": "/details-en/221.json",
+    "detailPaths": {
+      "ja": "/details/221.json",
+      "en": "/details-en/221.json"
+    },
     "routePath": "/courses/2026/full-year/E922-06"
   },
   {
@@ -5180,7 +6519,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E922-08",
     "sourceIndex": 222,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/222.json",
+    "englishDetailPath": "/details-en/222.json",
+    "detailPaths": {
+      "ja": "/details/222.json",
+      "en": "/details-en/222.json"
+    },
     "routePath": "/courses/2026/full-year/E922-08"
   },
   {
@@ -5203,7 +6548,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E922-09",
     "sourceIndex": 223,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/223.json",
+    "englishDetailPath": "/details-en/223.json",
+    "detailPaths": {
+      "ja": "/details/223.json",
+      "en": "/details-en/223.json"
+    },
     "routePath": "/courses/2026/full-year/E922-09"
   },
   {
@@ -5226,7 +6577,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E922-12",
     "sourceIndex": 224,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/224.json",
+    "englishDetailPath": "/details-en/224.json",
+    "detailPaths": {
+      "ja": "/details/224.json",
+      "en": "/details-en/224.json"
+    },
     "routePath": "/courses/2026/full-year/E922-12"
   },
   {
@@ -5249,7 +6606,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E922-13",
     "sourceIndex": 225,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/225.json",
+    "englishDetailPath": "/details-en/225.json",
+    "detailPaths": {
+      "ja": "/details/225.json",
+      "en": "/details-en/225.json"
+    },
     "routePath": "/courses/2026/full-year/E922-13"
   },
   {
@@ -5272,7 +6635,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E922-14",
     "sourceIndex": 226,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/226.json",
+    "englishDetailPath": "/details-en/226.json",
+    "detailPaths": {
+      "ja": "/details/226.json",
+      "en": "/details-en/226.json"
+    },
     "routePath": "/courses/2026/full-year/E922-14"
   },
   {
@@ -5295,7 +6664,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E922-15",
     "sourceIndex": 227,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/227.json",
+    "englishDetailPath": "/details-en/227.json",
+    "detailPaths": {
+      "ja": "/details/227.json",
+      "en": "/details-en/227.json"
+    },
     "routePath": "/courses/2026/full-year/E922-15"
   },
   {
@@ -5318,7 +6693,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E942-01",
     "sourceIndex": 228,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/228.json",
+    "englishDetailPath": "/details-en/228.json",
+    "detailPaths": {
+      "ja": "/details/228.json",
+      "en": "/details-en/228.json"
+    },
     "routePath": "/courses/2026/spring/E942-01"
   },
   {
@@ -5341,7 +6722,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E952-01",
     "sourceIndex": 229,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/229.json",
+    "englishDetailPath": "/details-en/229.json",
+    "detailPaths": {
+      "ja": "/details/229.json",
+      "en": "/details-en/229.json"
+    },
     "routePath": "/courses/2026/spring/E952-01"
   },
   {
@@ -5364,7 +6751,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E209-01",
     "sourceIndex": 230,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/230.json",
+    "englishDetailPath": "/details-en/230.json",
+    "detailPaths": {
+      "ja": "/details/230.json",
+      "en": "/details-en/230.json"
+    },
     "routePath": "/courses/2026/spring/E209-01"
   },
   {
@@ -5387,7 +6780,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E219-01",
     "sourceIndex": 231,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/231.json",
+    "englishDetailPath": "/details-en/231.json",
+    "detailPaths": {
+      "ja": "/details/231.json",
+      "en": "/details-en/231.json"
+    },
     "routePath": "/courses/2026/fall/E219-01"
   },
   {
@@ -5410,7 +6809,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E222-01",
     "sourceIndex": 232,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/232.json",
+    "englishDetailPath": "/details-en/232.json",
+    "detailPaths": {
+      "ja": "/details/232.json",
+      "en": "/details-en/232.json"
+    },
     "routePath": "/courses/2026/spring/E222-01"
   },
   {
@@ -5433,7 +6838,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E224-01",
     "sourceIndex": 233,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/233.json",
+    "englishDetailPath": "/details-en/233.json",
+    "detailPaths": {
+      "ja": "/details/233.json",
+      "en": "/details-en/233.json"
+    },
     "routePath": "/courses/2026/spring/E224-01"
   },
   {
@@ -5456,7 +6867,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E225-01",
     "sourceIndex": 234,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/234.json",
+    "englishDetailPath": "/details-en/234.json",
+    "detailPaths": {
+      "ja": "/details/234.json",
+      "en": "/details-en/234.json"
+    },
     "routePath": "/courses/2026/spring/E225-01"
   },
   {
@@ -5479,7 +6896,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E226-01",
     "sourceIndex": 235,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/235.json",
+    "englishDetailPath": "/details-en/235.json",
+    "detailPaths": {
+      "ja": "/details/235.json",
+      "en": "/details-en/235.json"
+    },
     "routePath": "/courses/2026/spring/E226-01"
   },
   {
@@ -5502,7 +6925,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E227-01",
     "sourceIndex": 236,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/236.json",
+    "englishDetailPath": "/details-en/236.json",
+    "detailPaths": {
+      "ja": "/details/236.json",
+      "en": "/details-en/236.json"
+    },
     "routePath": "/courses/2026/spring/E227-01"
   },
   {
@@ -5525,7 +6954,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E228-01",
     "sourceIndex": 237,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/237.json",
+    "englishDetailPath": "/details-en/237.json",
+    "detailPaths": {
+      "ja": "/details/237.json",
+      "en": "/details-en/237.json"
+    },
     "routePath": "/courses/2026/fall/E228-01"
   },
   {
@@ -5548,7 +6983,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E230-01",
     "sourceIndex": 238,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/238.json",
+    "englishDetailPath": "/details-en/238.json",
+    "detailPaths": {
+      "ja": "/details/238.json",
+      "en": "/details-en/238.json"
+    },
     "routePath": "/courses/2026/fall/E230-01"
   },
   {
@@ -5571,7 +7012,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E232-01",
     "sourceIndex": 239,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/239.json",
+    "englishDetailPath": "/details-en/239.json",
+    "detailPaths": {
+      "ja": "/details/239.json",
+      "en": "/details-en/239.json"
+    },
     "routePath": "/courses/2026/spring/E232-01"
   },
   {
@@ -5594,7 +7041,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E233-01",
     "sourceIndex": 240,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/240.json",
+    "englishDetailPath": "/details-en/240.json",
+    "detailPaths": {
+      "ja": "/details/240.json",
+      "en": "/details-en/240.json"
+    },
     "routePath": "/courses/2026/spring/E233-01"
   },
   {
@@ -5617,7 +7070,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E234-01",
     "sourceIndex": 241,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/241.json",
+    "englishDetailPath": "/details-en/241.json",
+    "detailPaths": {
+      "ja": "/details/241.json",
+      "en": "/details-en/241.json"
+    },
     "routePath": "/courses/2026/fall/E234-01"
   },
   {
@@ -5640,7 +7099,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E235-01",
     "sourceIndex": 242,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/242.json",
+    "englishDetailPath": "/details-en/242.json",
+    "detailPaths": {
+      "ja": "/details/242.json",
+      "en": "/details-en/242.json"
+    },
     "routePath": "/courses/2026/spring/E235-01"
   },
   {
@@ -5663,7 +7128,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E236-01",
     "sourceIndex": 243,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/243.json",
+    "englishDetailPath": "/details-en/243.json",
+    "detailPaths": {
+      "ja": "/details/243.json",
+      "en": "/details-en/243.json"
+    },
     "routePath": "/courses/2026/fall/E236-01"
   },
   {
@@ -5686,7 +7157,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E237-01",
     "sourceIndex": 244,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/244.json",
+    "englishDetailPath": "/details-en/244.json",
+    "detailPaths": {
+      "ja": "/details/244.json",
+      "en": "/details-en/244.json"
+    },
     "routePath": "/courses/2026/spring/E237-01"
   },
   {
@@ -5709,7 +7186,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E903-01",
     "sourceIndex": 245,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/245.json",
+    "englishDetailPath": "/details-en/245.json",
+    "detailPaths": {
+      "ja": "/details/245.json",
+      "en": "/details-en/245.json"
+    },
     "routePath": "/courses/2026/fall/E903-01"
   },
   {
@@ -5732,7 +7215,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E913-01",
     "sourceIndex": 246,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/246.json",
+    "englishDetailPath": "/details-en/246.json",
+    "detailPaths": {
+      "ja": "/details/246.json",
+      "en": "/details-en/246.json"
+    },
     "routePath": "/courses/2026/fall/E913-01"
   },
   {
@@ -5755,7 +7244,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E923-04",
     "sourceIndex": 247,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/247.json",
+    "englishDetailPath": "/details-en/247.json",
+    "detailPaths": {
+      "ja": "/details/247.json",
+      "en": "/details-en/247.json"
+    },
     "routePath": "/courses/2026/full-year/E923-04"
   },
   {
@@ -5778,7 +7273,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E923-05",
     "sourceIndex": 248,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/248.json",
+    "englishDetailPath": "/details-en/248.json",
+    "detailPaths": {
+      "ja": "/details/248.json",
+      "en": "/details-en/248.json"
+    },
     "routePath": "/courses/2026/full-year/E923-05"
   },
   {
@@ -5801,7 +7302,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E923-07",
     "sourceIndex": 249,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/249.json",
+    "englishDetailPath": "/details-en/249.json",
+    "detailPaths": {
+      "ja": "/details/249.json",
+      "en": "/details-en/249.json"
+    },
     "routePath": "/courses/2026/full-year/E923-07"
   },
   {
@@ -5824,7 +7331,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E923-08",
     "sourceIndex": 250,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/250.json",
+    "englishDetailPath": "/details-en/250.json",
+    "detailPaths": {
+      "ja": "/details/250.json",
+      "en": "/details-en/250.json"
+    },
     "routePath": "/courses/2026/full-year/E923-08"
   },
   {
@@ -5847,7 +7360,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E923-09",
     "sourceIndex": 251,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/251.json",
+    "englishDetailPath": "/details-en/251.json",
+    "detailPaths": {
+      "ja": "/details/251.json",
+      "en": "/details-en/251.json"
+    },
     "routePath": "/courses/2026/full-year/E923-09"
   },
   {
@@ -5870,7 +7389,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E923-10",
     "sourceIndex": 252,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/252.json",
+    "englishDetailPath": "/details-en/252.json",
+    "detailPaths": {
+      "ja": "/details/252.json",
+      "en": "/details-en/252.json"
+    },
     "routePath": "/courses/2026/full-year/E923-10"
   },
   {
@@ -5893,7 +7418,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E923-13",
     "sourceIndex": 253,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/253.json",
+    "englishDetailPath": "/details-en/253.json",
+    "detailPaths": {
+      "ja": "/details/253.json",
+      "en": "/details-en/253.json"
+    },
     "routePath": "/courses/2026/full-year/E923-13"
   },
   {
@@ -5916,7 +7447,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E923-14",
     "sourceIndex": 254,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/254.json",
+    "englishDetailPath": "/details-en/254.json",
+    "detailPaths": {
+      "ja": "/details/254.json",
+      "en": "/details-en/254.json"
+    },
     "routePath": "/courses/2026/full-year/E923-14"
   },
   {
@@ -5939,7 +7476,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E943-01",
     "sourceIndex": 255,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/255.json",
+    "englishDetailPath": "/details-en/255.json",
+    "detailPaths": {
+      "ja": "/details/255.json",
+      "en": "/details-en/255.json"
+    },
     "routePath": "/courses/2026/spring/E943-01"
   },
   {
@@ -5962,7 +7505,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E953-01",
     "sourceIndex": 256,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/256.json",
+    "englishDetailPath": "/details-en/256.json",
+    "detailPaths": {
+      "ja": "/details/256.json",
+      "en": "/details-en/256.json"
+    },
     "routePath": "/courses/2026/fall/E953-01"
   },
   {
@@ -5985,7 +7534,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E602-01",
     "sourceIndex": 257,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/257.json",
+    "englishDetailPath": "/details-en/257.json",
+    "detailPaths": {
+      "ja": "/details/257.json",
+      "en": "/details-en/257.json"
+    },
     "routePath": "/courses/2026/spring/E602-01"
   },
   {
@@ -6008,7 +7563,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E605-01",
     "sourceIndex": 258,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/258.json",
+    "englishDetailPath": "/details-en/258.json",
+    "detailPaths": {
+      "ja": "/details/258.json",
+      "en": "/details-en/258.json"
+    },
     "routePath": "/courses/2026/spring/E605-01"
   },
   {
@@ -6031,7 +7592,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E607-01",
     "sourceIndex": 259,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/259.json",
+    "englishDetailPath": "/details-en/259.json",
+    "detailPaths": {
+      "ja": "/details/259.json",
+      "en": "/details-en/259.json"
+    },
     "routePath": "/courses/2026/spring/E607-01"
   },
   {
@@ -6054,7 +7621,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E617-01",
     "sourceIndex": 260,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/260.json",
+    "englishDetailPath": "/details-en/260.json",
+    "detailPaths": {
+      "ja": "/details/260.json",
+      "en": "/details-en/260.json"
+    },
     "routePath": "/courses/2026/fall/E617-01"
   },
   {
@@ -6077,7 +7650,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E622-01",
     "sourceIndex": 261,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/261.json",
+    "englishDetailPath": "/details-en/261.json",
+    "detailPaths": {
+      "ja": "/details/261.json",
+      "en": "/details-en/261.json"
+    },
     "routePath": "/courses/2026/spring/E622-01"
   },
   {
@@ -6100,7 +7679,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E623-01",
     "sourceIndex": 262,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/262.json",
+    "englishDetailPath": "/details-en/262.json",
+    "detailPaths": {
+      "ja": "/details/262.json",
+      "en": "/details-en/262.json"
+    },
     "routePath": "/courses/2026/spring/E623-01"
   },
   {
@@ -6123,7 +7708,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E624-01",
     "sourceIndex": 263,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/263.json",
+    "englishDetailPath": "/details-en/263.json",
+    "detailPaths": {
+      "ja": "/details/263.json",
+      "en": "/details-en/263.json"
+    },
     "routePath": "/courses/2026/spring/E624-01"
   },
   {
@@ -6146,7 +7737,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E625-01",
     "sourceIndex": 264,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/264.json",
+    "englishDetailPath": "/details-en/264.json",
+    "detailPaths": {
+      "ja": "/details/264.json",
+      "en": "/details-en/264.json"
+    },
     "routePath": "/courses/2026/spring/E625-01"
   },
   {
@@ -6169,7 +7766,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E626-01",
     "sourceIndex": 265,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/265.json",
+    "englishDetailPath": "/details-en/265.json",
+    "detailPaths": {
+      "ja": "/details/265.json",
+      "en": "/details-en/265.json"
+    },
     "routePath": "/courses/2026/spring/E626-01"
   },
   {
@@ -6192,7 +7795,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E627-01",
     "sourceIndex": 266,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/266.json",
+    "englishDetailPath": "/details-en/266.json",
+    "detailPaths": {
+      "ja": "/details/266.json",
+      "en": "/details-en/266.json"
+    },
     "routePath": "/courses/2026/spring/E627-01"
   },
   {
@@ -6215,7 +7824,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E628-01",
     "sourceIndex": 267,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/267.json",
+    "englishDetailPath": "/details-en/267.json",
+    "detailPaths": {
+      "ja": "/details/267.json",
+      "en": "/details-en/267.json"
+    },
     "routePath": "/courses/2026/spring/E628-01"
   },
   {
@@ -6238,7 +7853,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E629-01",
     "sourceIndex": 268,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/268.json",
+    "englishDetailPath": "/details-en/268.json",
+    "detailPaths": {
+      "ja": "/details/268.json",
+      "en": "/details-en/268.json"
+    },
     "routePath": "/courses/2026/spring/E629-01"
   },
   {
@@ -6261,7 +7882,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E630-01",
     "sourceIndex": 269,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/269.json",
+    "englishDetailPath": "/details-en/269.json",
+    "detailPaths": {
+      "ja": "/details/269.json",
+      "en": "/details-en/269.json"
+    },
     "routePath": "/courses/2026/spring/E630-01"
   },
   {
@@ -6284,7 +7911,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E631-01",
     "sourceIndex": 270,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/270.json",
+    "englishDetailPath": "/details-en/270.json",
+    "detailPaths": {
+      "ja": "/details/270.json",
+      "en": "/details-en/270.json"
+    },
     "routePath": "/courses/2026/spring/E631-01"
   },
   {
@@ -6307,7 +7940,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E632-01",
     "sourceIndex": 271,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/271.json",
+    "englishDetailPath": "/details-en/271.json",
+    "detailPaths": {
+      "ja": "/details/271.json",
+      "en": "/details-en/271.json"
+    },
     "routePath": "/courses/2026/fall/E632-01"
   },
   {
@@ -6330,7 +7969,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E633-01",
     "sourceIndex": 272,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/272.json",
+    "englishDetailPath": "/details-en/272.json",
+    "detailPaths": {
+      "ja": "/details/272.json",
+      "en": "/details-en/272.json"
+    },
     "routePath": "/courses/2026/fall/E633-01"
   },
   {
@@ -6353,7 +7998,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E634-01",
     "sourceIndex": 273,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/273.json",
+    "englishDetailPath": "/details-en/273.json",
+    "detailPaths": {
+      "ja": "/details/273.json",
+      "en": "/details-en/273.json"
+    },
     "routePath": "/courses/2026/fall/E634-01"
   },
   {
@@ -6376,7 +8027,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E635-01",
     "sourceIndex": 274,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/274.json",
+    "englishDetailPath": "/details-en/274.json",
+    "detailPaths": {
+      "ja": "/details/274.json",
+      "en": "/details-en/274.json"
+    },
     "routePath": "/courses/2026/fall/E635-01"
   },
   {
@@ -6399,7 +8056,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E636-01",
     "sourceIndex": 275,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/275.json",
+    "englishDetailPath": "/details-en/275.json",
+    "detailPaths": {
+      "ja": "/details/275.json",
+      "en": "/details-en/275.json"
+    },
     "routePath": "/courses/2026/fall/E636-01"
   },
   {
@@ -6422,7 +8085,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E637-01",
     "sourceIndex": 276,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/276.json",
+    "englishDetailPath": "/details-en/276.json",
+    "detailPaths": {
+      "ja": "/details/276.json",
+      "en": "/details-en/276.json"
+    },
     "routePath": "/courses/2026/fall/E637-01"
   },
   {
@@ -6445,7 +8114,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E638-01",
     "sourceIndex": 277,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/277.json",
+    "englishDetailPath": "/details-en/277.json",
+    "detailPaths": {
+      "ja": "/details/277.json",
+      "en": "/details-en/277.json"
+    },
     "routePath": "/courses/2026/fall/E638-01"
   },
   {
@@ -6468,7 +8143,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E639-01",
     "sourceIndex": 278,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/278.json",
+    "englishDetailPath": "/details-en/278.json",
+    "detailPaths": {
+      "ja": "/details/278.json",
+      "en": "/details-en/278.json"
+    },
     "routePath": "/courses/2026/fall/E639-01"
   },
   {
@@ -6491,7 +8172,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E640-01",
     "sourceIndex": 279,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/279.json",
+    "englishDetailPath": "/details-en/279.json",
+    "detailPaths": {
+      "ja": "/details/279.json",
+      "en": "/details-en/279.json"
+    },
     "routePath": "/courses/2026/fall/E640-01"
   },
   {
@@ -6514,7 +8201,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E641-01",
     "sourceIndex": 280,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/280.json",
+    "englishDetailPath": "/details-en/280.json",
+    "detailPaths": {
+      "ja": "/details/280.json",
+      "en": "/details-en/280.json"
+    },
     "routePath": "/courses/2026/spring/E641-01"
   },
   {
@@ -6537,7 +8230,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E641-01",
     "sourceIndex": 281,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/281.json",
+    "englishDetailPath": "/details-en/281.json",
+    "detailPaths": {
+      "ja": "/details/281.json",
+      "en": "/details-en/281.json"
+    },
     "routePath": "/courses/2026/fall/E641-01"
   },
   {
@@ -6560,7 +8259,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E642-01",
     "sourceIndex": 282,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/282.json",
+    "englishDetailPath": "/details-en/282.json",
+    "detailPaths": {
+      "ja": "/details/282.json",
+      "en": "/details-en/282.json"
+    },
     "routePath": "/courses/2026/spring/E642-01"
   },
   {
@@ -6583,7 +8288,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E642-01",
     "sourceIndex": 283,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/283.json",
+    "englishDetailPath": "/details-en/283.json",
+    "detailPaths": {
+      "ja": "/details/283.json",
+      "en": "/details-en/283.json"
+    },
     "routePath": "/courses/2026/fall/E642-01"
   },
   {
@@ -6606,7 +8317,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E643-01",
     "sourceIndex": 284,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/284.json",
+    "englishDetailPath": "/details-en/284.json",
+    "detailPaths": {
+      "ja": "/details/284.json",
+      "en": "/details-en/284.json"
+    },
     "routePath": "/courses/2026/spring/E643-01"
   },
   {
@@ -6629,7 +8346,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E644-01",
     "sourceIndex": 285,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/285.json",
+    "englishDetailPath": "/details-en/285.json",
+    "detailPaths": {
+      "ja": "/details/285.json",
+      "en": "/details-en/285.json"
+    },
     "routePath": "/courses/2026/spring/E644-01"
   },
   {
@@ -6652,7 +8375,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E645-01",
     "sourceIndex": 286,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/286.json",
+    "englishDetailPath": "/details-en/286.json",
+    "detailPaths": {
+      "ja": "/details/286.json",
+      "en": "/details-en/286.json"
+    },
     "routePath": "/courses/2026/spring/E645-01"
   },
   {
@@ -6675,7 +8404,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E646-01",
     "sourceIndex": 287,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/287.json",
+    "englishDetailPath": "/details-en/287.json",
+    "detailPaths": {
+      "ja": "/details/287.json",
+      "en": "/details-en/287.json"
+    },
     "routePath": "/courses/2026/fall/E646-01"
   },
   {
@@ -6698,7 +8433,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E907-01",
     "sourceIndex": 288,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/288.json",
+    "englishDetailPath": "/details-en/288.json",
+    "detailPaths": {
+      "ja": "/details/288.json",
+      "en": "/details-en/288.json"
+    },
     "routePath": "/courses/2026/fall/E907-01"
   },
   {
@@ -6721,7 +8462,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E917-01",
     "sourceIndex": 289,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/289.json",
+    "englishDetailPath": "/details-en/289.json",
+    "detailPaths": {
+      "ja": "/details/289.json",
+      "en": "/details-en/289.json"
+    },
     "routePath": "/courses/2026/spring/E917-01"
   },
   {
@@ -6744,7 +8491,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E927-04",
     "sourceIndex": 290,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/290.json",
+    "englishDetailPath": "/details-en/290.json",
+    "detailPaths": {
+      "ja": "/details/290.json",
+      "en": "/details-en/290.json"
+    },
     "routePath": "/courses/2026/full-year/E927-04"
   },
   {
@@ -6767,7 +8520,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E927-06",
     "sourceIndex": 291,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/291.json",
+    "englishDetailPath": "/details-en/291.json",
+    "detailPaths": {
+      "ja": "/details/291.json",
+      "en": "/details-en/291.json"
+    },
     "routePath": "/courses/2026/full-year/E927-06"
   },
   {
@@ -6790,7 +8549,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E927-07",
     "sourceIndex": 292,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/292.json",
+    "englishDetailPath": "/details-en/292.json",
+    "detailPaths": {
+      "ja": "/details/292.json",
+      "en": "/details-en/292.json"
+    },
     "routePath": "/courses/2026/full-year/E927-07"
   },
   {
@@ -6813,7 +8578,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E927-09",
     "sourceIndex": 293,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/293.json",
+    "englishDetailPath": "/details-en/293.json",
+    "detailPaths": {
+      "ja": "/details/293.json",
+      "en": "/details-en/293.json"
+    },
     "routePath": "/courses/2026/full-year/E927-09"
   },
   {
@@ -6836,7 +8607,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E927-10",
     "sourceIndex": 294,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/294.json",
+    "englishDetailPath": "/details-en/294.json",
+    "detailPaths": {
+      "ja": "/details/294.json",
+      "en": "/details-en/294.json"
+    },
     "routePath": "/courses/2026/full-year/E927-10"
   },
   {
@@ -6859,7 +8636,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E927-12",
     "sourceIndex": 295,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/295.json",
+    "englishDetailPath": "/details-en/295.json",
+    "detailPaths": {
+      "ja": "/details/295.json",
+      "en": "/details-en/295.json"
+    },
     "routePath": "/courses/2026/full-year/E927-12"
   },
   {
@@ -6882,7 +8665,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E927-13",
     "sourceIndex": 296,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/296.json",
+    "englishDetailPath": "/details-en/296.json",
+    "detailPaths": {
+      "ja": "/details/296.json",
+      "en": "/details-en/296.json"
+    },
     "routePath": "/courses/2026/full-year/E927-13"
   },
   {
@@ -6905,7 +8694,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E927-15",
     "sourceIndex": 297,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/297.json",
+    "englishDetailPath": "/details-en/297.json",
+    "detailPaths": {
+      "ja": "/details/297.json",
+      "en": "/details-en/297.json"
+    },
     "routePath": "/courses/2026/full-year/E927-15"
   },
   {
@@ -6928,7 +8723,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E927-16",
     "sourceIndex": 298,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/298.json",
+    "englishDetailPath": "/details-en/298.json",
+    "detailPaths": {
+      "ja": "/details/298.json",
+      "en": "/details-en/298.json"
+    },
     "routePath": "/courses/2026/full-year/E927-16"
   },
   {
@@ -6951,7 +8752,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E927-17",
     "sourceIndex": 299,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/299.json",
+    "englishDetailPath": "/details-en/299.json",
+    "detailPaths": {
+      "ja": "/details/299.json",
+      "en": "/details-en/299.json"
+    },
     "routePath": "/courses/2026/full-year/E927-17"
   },
   {
@@ -6974,7 +8781,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E927-19",
     "sourceIndex": 300,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/300.json",
+    "englishDetailPath": "/details-en/300.json",
+    "detailPaths": {
+      "ja": "/details/300.json",
+      "en": "/details-en/300.json"
+    },
     "routePath": "/courses/2026/full-year/E927-19"
   },
   {
@@ -6997,7 +8810,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E927-20",
     "sourceIndex": 301,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/301.json",
+    "englishDetailPath": "/details-en/301.json",
+    "detailPaths": {
+      "ja": "/details/301.json",
+      "en": "/details-en/301.json"
+    },
     "routePath": "/courses/2026/full-year/E927-20"
   },
   {
@@ -7020,7 +8839,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E927-21",
     "sourceIndex": 302,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/302.json",
+    "englishDetailPath": "/details-en/302.json",
+    "detailPaths": {
+      "ja": "/details/302.json",
+      "en": "/details-en/302.json"
+    },
     "routePath": "/courses/2026/full-year/E927-21"
   },
   {
@@ -7043,7 +8868,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E927-22",
     "sourceIndex": 303,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/303.json",
+    "englishDetailPath": "/details-en/303.json",
+    "detailPaths": {
+      "ja": "/details/303.json",
+      "en": "/details-en/303.json"
+    },
     "routePath": "/courses/2026/full-year/E927-22"
   },
   {
@@ -7066,7 +8897,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E927-23",
     "sourceIndex": 304,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/304.json",
+    "englishDetailPath": "/details-en/304.json",
+    "detailPaths": {
+      "ja": "/details/304.json",
+      "en": "/details-en/304.json"
+    },
     "routePath": "/courses/2026/full-year/E927-23"
   },
   {
@@ -7089,7 +8926,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E927-24",
     "sourceIndex": 305,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/305.json",
+    "englishDetailPath": "/details-en/305.json",
+    "detailPaths": {
+      "ja": "/details/305.json",
+      "en": "/details-en/305.json"
+    },
     "routePath": "/courses/2026/full-year/E927-24"
   },
   {
@@ -7112,7 +8955,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E927-26",
     "sourceIndex": 306,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/306.json",
+    "englishDetailPath": "/details-en/306.json",
+    "detailPaths": {
+      "ja": "/details/306.json",
+      "en": "/details-en/306.json"
+    },
     "routePath": "/courses/2026/full-year/E927-26"
   },
   {
@@ -7135,7 +8984,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E927-27",
     "sourceIndex": 307,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/307.json",
+    "englishDetailPath": "/details-en/307.json",
+    "detailPaths": {
+      "ja": "/details/307.json",
+      "en": "/details-en/307.json"
+    },
     "routePath": "/courses/2026/full-year/E927-27"
   },
   {
@@ -7158,7 +9013,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E927-28",
     "sourceIndex": 308,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/308.json",
+    "englishDetailPath": "/details-en/308.json",
+    "detailPaths": {
+      "ja": "/details/308.json",
+      "en": "/details-en/308.json"
+    },
     "routePath": "/courses/2026/full-year/E927-28"
   },
   {
@@ -7181,7 +9042,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E927-30",
     "sourceIndex": 309,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/309.json",
+    "englishDetailPath": "/details-en/309.json",
+    "detailPaths": {
+      "ja": "/details/309.json",
+      "en": "/details-en/309.json"
+    },
     "routePath": "/courses/2026/full-year/E927-30"
   },
   {
@@ -7204,7 +9071,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E927-31",
     "sourceIndex": 310,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/310.json",
+    "englishDetailPath": "/details-en/310.json",
+    "detailPaths": {
+      "ja": "/details/310.json",
+      "en": "/details-en/310.json"
+    },
     "routePath": "/courses/2026/full-year/E927-31"
   },
   {
@@ -7227,7 +9100,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E927-32",
     "sourceIndex": 311,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/311.json",
+    "englishDetailPath": "/details-en/311.json",
+    "detailPaths": {
+      "ja": "/details/311.json",
+      "en": "/details-en/311.json"
+    },
     "routePath": "/courses/2026/full-year/E927-32"
   },
   {
@@ -7250,7 +9129,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E927-33",
     "sourceIndex": 312,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/312.json",
+    "englishDetailPath": "/details-en/312.json",
+    "detailPaths": {
+      "ja": "/details/312.json",
+      "en": "/details-en/312.json"
+    },
     "routePath": "/courses/2026/full-year/E927-33"
   },
   {
@@ -7273,7 +9158,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E927-34",
     "sourceIndex": 313,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/313.json",
+    "englishDetailPath": "/details-en/313.json",
+    "detailPaths": {
+      "ja": "/details/313.json",
+      "en": "/details-en/313.json"
+    },
     "routePath": "/courses/2026/full-year/E927-34"
   },
   {
@@ -7296,7 +9187,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E927-35",
     "sourceIndex": 314,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/314.json",
+    "englishDetailPath": "/details-en/314.json",
+    "detailPaths": {
+      "ja": "/details/314.json",
+      "en": "/details-en/314.json"
+    },
     "routePath": "/courses/2026/full-year/E927-35"
   },
   {
@@ -7319,7 +9216,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E927-36",
     "sourceIndex": 315,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/315.json",
+    "englishDetailPath": "/details-en/315.json",
+    "detailPaths": {
+      "ja": "/details/315.json",
+      "en": "/details-en/315.json"
+    },
     "routePath": "/courses/2026/full-year/E927-36"
   },
   {
@@ -7342,7 +9245,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E947-01",
     "sourceIndex": 316,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/316.json",
+    "englishDetailPath": "/details-en/316.json",
+    "detailPaths": {
+      "ja": "/details/316.json",
+      "en": "/details-en/316.json"
+    },
     "routePath": "/courses/2026/spring/E947-01"
   },
   {
@@ -7365,7 +9274,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E957-01",
     "sourceIndex": 317,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/317.json",
+    "englishDetailPath": "/details-en/317.json",
+    "detailPaths": {
+      "ja": "/details/317.json",
+      "en": "/details-en/317.json"
+    },
     "routePath": "/courses/2026/fall/E957-01"
   },
   {
@@ -7388,7 +9303,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E505-01",
     "sourceIndex": 318,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/318.json",
+    "englishDetailPath": "/details-en/318.json",
+    "detailPaths": {
+      "ja": "/details/318.json",
+      "en": "/details-en/318.json"
+    },
     "routePath": "/courses/2026/spring/E505-01"
   },
   {
@@ -7411,7 +9332,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E505-01",
     "sourceIndex": 319,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/319.json",
+    "englishDetailPath": "/details-en/319.json",
+    "detailPaths": {
+      "ja": "/details/319.json",
+      "en": "/details-en/319.json"
+    },
     "routePath": "/courses/2026/fall/E505-01"
   },
   {
@@ -7434,7 +9361,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E517-01",
     "sourceIndex": 320,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/320.json",
+    "englishDetailPath": "/details-en/320.json",
+    "detailPaths": {
+      "ja": "/details/320.json",
+      "en": "/details-en/320.json"
+    },
     "routePath": "/courses/2026/spring/E517-01"
   },
   {
@@ -7457,7 +9390,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E518-01",
     "sourceIndex": 321,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/321.json",
+    "englishDetailPath": "/details-en/321.json",
+    "detailPaths": {
+      "ja": "/details/321.json",
+      "en": "/details-en/321.json"
+    },
     "routePath": "/courses/2026/spring/E518-01"
   },
   {
@@ -7480,7 +9419,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E520-01",
     "sourceIndex": 322,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/322.json",
+    "englishDetailPath": "/details-en/322.json",
+    "detailPaths": {
+      "ja": "/details/322.json",
+      "en": "/details-en/322.json"
+    },
     "routePath": "/courses/2026/spring/E520-01"
   },
   {
@@ -7503,7 +9448,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E521-01",
     "sourceIndex": 323,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/323.json",
+    "englishDetailPath": "/details-en/323.json",
+    "detailPaths": {
+      "ja": "/details/323.json",
+      "en": "/details-en/323.json"
+    },
     "routePath": "/courses/2026/spring/E521-01"
   },
   {
@@ -7526,7 +9477,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E522-01",
     "sourceIndex": 324,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/324.json",
+    "englishDetailPath": "/details-en/324.json",
+    "detailPaths": {
+      "ja": "/details/324.json",
+      "en": "/details-en/324.json"
+    },
     "routePath": "/courses/2026/spring/E522-01"
   },
   {
@@ -7549,7 +9506,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E523-01",
     "sourceIndex": 325,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/325.json",
+    "englishDetailPath": "/details-en/325.json",
+    "detailPaths": {
+      "ja": "/details/325.json",
+      "en": "/details-en/325.json"
+    },
     "routePath": "/courses/2026/fall/E523-01"
   },
   {
@@ -7572,7 +9535,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E524-01",
     "sourceIndex": 326,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/326.json",
+    "englishDetailPath": "/details-en/326.json",
+    "detailPaths": {
+      "ja": "/details/326.json",
+      "en": "/details-en/326.json"
+    },
     "routePath": "/courses/2026/fall/E524-01"
   },
   {
@@ -7595,7 +9564,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E526-01",
     "sourceIndex": 327,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/327.json",
+    "englishDetailPath": "/details-en/327.json",
+    "detailPaths": {
+      "ja": "/details/327.json",
+      "en": "/details-en/327.json"
+    },
     "routePath": "/courses/2026/spring/E526-01"
   },
   {
@@ -7618,7 +9593,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E527-01",
     "sourceIndex": 328,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/328.json",
+    "englishDetailPath": "/details-en/328.json",
+    "detailPaths": {
+      "ja": "/details/328.json",
+      "en": "/details-en/328.json"
+    },
     "routePath": "/courses/2026/spring/E527-01"
   },
   {
@@ -7641,7 +9622,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E529-01",
     "sourceIndex": 329,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/329.json",
+    "englishDetailPath": "/details-en/329.json",
+    "detailPaths": {
+      "ja": "/details/329.json",
+      "en": "/details-en/329.json"
+    },
     "routePath": "/courses/2026/fall/E529-01"
   },
   {
@@ -7664,7 +9651,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E532-01",
     "sourceIndex": 330,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/330.json",
+    "englishDetailPath": "/details-en/330.json",
+    "detailPaths": {
+      "ja": "/details/330.json",
+      "en": "/details-en/330.json"
+    },
     "routePath": "/courses/2026/spring/E532-01"
   },
   {
@@ -7687,7 +9680,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E533-01",
     "sourceIndex": 331,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/331.json",
+    "englishDetailPath": "/details-en/331.json",
+    "detailPaths": {
+      "ja": "/details/331.json",
+      "en": "/details-en/331.json"
+    },
     "routePath": "/courses/2026/fall/E533-01"
   },
   {
@@ -7710,7 +9709,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E534-01",
     "sourceIndex": 332,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/332.json",
+    "englishDetailPath": "/details-en/332.json",
+    "detailPaths": {
+      "ja": "/details/332.json",
+      "en": "/details-en/332.json"
+    },
     "routePath": "/courses/2026/spring/E534-01"
   },
   {
@@ -7733,7 +9738,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E534-01",
     "sourceIndex": 333,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/333.json",
+    "englishDetailPath": "/details-en/333.json",
+    "detailPaths": {
+      "ja": "/details/333.json",
+      "en": "/details-en/333.json"
+    },
     "routePath": "/courses/2026/fall/E534-01"
   },
   {
@@ -7756,7 +9767,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E535-01",
     "sourceIndex": 334,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/334.json",
+    "englishDetailPath": "/details-en/334.json",
+    "detailPaths": {
+      "ja": "/details/334.json",
+      "en": "/details-en/334.json"
+    },
     "routePath": "/courses/2026/spring/E535-01"
   },
   {
@@ -7779,7 +9796,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E535-01",
     "sourceIndex": 335,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/335.json",
+    "englishDetailPath": "/details-en/335.json",
+    "detailPaths": {
+      "ja": "/details/335.json",
+      "en": "/details-en/335.json"
+    },
     "routePath": "/courses/2026/fall/E535-01"
   },
   {
@@ -7802,7 +9825,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E540-01",
     "sourceIndex": 336,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/336.json",
+    "englishDetailPath": "/details-en/336.json",
+    "detailPaths": {
+      "ja": "/details/336.json",
+      "en": "/details-en/336.json"
+    },
     "routePath": "/courses/2026/fall/E540-01"
   },
   {
@@ -7825,7 +9854,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E541-01",
     "sourceIndex": 337,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/337.json",
+    "englishDetailPath": "/details-en/337.json",
+    "detailPaths": {
+      "ja": "/details/337.json",
+      "en": "/details-en/337.json"
+    },
     "routePath": "/courses/2026/fall/E541-01"
   },
   {
@@ -7848,7 +9883,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E557-01",
     "sourceIndex": 338,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/338.json",
+    "englishDetailPath": "/details-en/338.json",
+    "detailPaths": {
+      "ja": "/details/338.json",
+      "en": "/details-en/338.json"
+    },
     "routePath": "/courses/2026/spring/E557-01"
   },
   {
@@ -7871,7 +9912,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E906-01",
     "sourceIndex": 339,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/339.json",
+    "englishDetailPath": "/details-en/339.json",
+    "detailPaths": {
+      "ja": "/details/339.json",
+      "en": "/details-en/339.json"
+    },
     "routePath": "/courses/2026/fall/E906-01"
   },
   {
@@ -7894,7 +9941,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E916-01",
     "sourceIndex": 340,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/340.json",
+    "englishDetailPath": "/details-en/340.json",
+    "detailPaths": {
+      "ja": "/details/340.json",
+      "en": "/details-en/340.json"
+    },
     "routePath": "/courses/2026/fall/E916-01"
   },
   {
@@ -7917,7 +9970,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E926-04",
     "sourceIndex": 341,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/341.json",
+    "englishDetailPath": "/details-en/341.json",
+    "detailPaths": {
+      "ja": "/details/341.json",
+      "en": "/details-en/341.json"
+    },
     "routePath": "/courses/2026/full-year/E926-04"
   },
   {
@@ -7940,7 +9999,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E926-08",
     "sourceIndex": 342,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/342.json",
+    "englishDetailPath": "/details-en/342.json",
+    "detailPaths": {
+      "ja": "/details/342.json",
+      "en": "/details-en/342.json"
+    },
     "routePath": "/courses/2026/full-year/E926-08"
   },
   {
@@ -7963,7 +10028,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E926-11",
     "sourceIndex": 343,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/343.json",
+    "englishDetailPath": "/details-en/343.json",
+    "detailPaths": {
+      "ja": "/details/343.json",
+      "en": "/details-en/343.json"
+    },
     "routePath": "/courses/2026/full-year/E926-11"
   },
   {
@@ -7986,7 +10057,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E926-12",
     "sourceIndex": 344,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/344.json",
+    "englishDetailPath": "/details-en/344.json",
+    "detailPaths": {
+      "ja": "/details/344.json",
+      "en": "/details-en/344.json"
+    },
     "routePath": "/courses/2026/full-year/E926-12"
   },
   {
@@ -8009,7 +10086,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E926-13",
     "sourceIndex": 345,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/345.json",
+    "englishDetailPath": "/details-en/345.json",
+    "detailPaths": {
+      "ja": "/details/345.json",
+      "en": "/details-en/345.json"
+    },
     "routePath": "/courses/2026/full-year/E926-13"
   },
   {
@@ -8032,7 +10115,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E926-17",
     "sourceIndex": 346,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/346.json",
+    "englishDetailPath": "/details-en/346.json",
+    "detailPaths": {
+      "ja": "/details/346.json",
+      "en": "/details-en/346.json"
+    },
     "routePath": "/courses/2026/full-year/E926-17"
   },
   {
@@ -8055,7 +10144,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E926-19",
     "sourceIndex": 347,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/347.json",
+    "englishDetailPath": "/details-en/347.json",
+    "detailPaths": {
+      "ja": "/details/347.json",
+      "en": "/details-en/347.json"
+    },
     "routePath": "/courses/2026/full-year/E926-19"
   },
   {
@@ -8078,7 +10173,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E926-20",
     "sourceIndex": 348,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/348.json",
+    "englishDetailPath": "/details-en/348.json",
+    "detailPaths": {
+      "ja": "/details/348.json",
+      "en": "/details-en/348.json"
+    },
     "routePath": "/courses/2026/full-year/E926-20"
   },
   {
@@ -8101,7 +10202,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E926-21",
     "sourceIndex": 349,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/349.json",
+    "englishDetailPath": "/details-en/349.json",
+    "detailPaths": {
+      "ja": "/details/349.json",
+      "en": "/details-en/349.json"
+    },
     "routePath": "/courses/2026/full-year/E926-21"
   },
   {
@@ -8124,7 +10231,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E926-22",
     "sourceIndex": 350,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/350.json",
+    "englishDetailPath": "/details-en/350.json",
+    "detailPaths": {
+      "ja": "/details/350.json",
+      "en": "/details-en/350.json"
+    },
     "routePath": "/courses/2026/full-year/E926-22"
   },
   {
@@ -8147,7 +10260,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E926-23",
     "sourceIndex": 351,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/351.json",
+    "englishDetailPath": "/details-en/351.json",
+    "detailPaths": {
+      "ja": "/details/351.json",
+      "en": "/details-en/351.json"
+    },
     "routePath": "/courses/2026/full-year/E926-23"
   },
   {
@@ -8170,7 +10289,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E926-24",
     "sourceIndex": 352,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/352.json",
+    "englishDetailPath": "/details-en/352.json",
+    "detailPaths": {
+      "ja": "/details/352.json",
+      "en": "/details-en/352.json"
+    },
     "routePath": "/courses/2026/full-year/E926-24"
   },
   {
@@ -8193,7 +10318,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E926-25",
     "sourceIndex": 353,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/353.json",
+    "englishDetailPath": "/details-en/353.json",
+    "detailPaths": {
+      "ja": "/details/353.json",
+      "en": "/details-en/353.json"
+    },
     "routePath": "/courses/2026/full-year/E926-25"
   },
   {
@@ -8216,7 +10347,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E926-26",
     "sourceIndex": 354,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/354.json",
+    "englishDetailPath": "/details-en/354.json",
+    "detailPaths": {
+      "ja": "/details/354.json",
+      "en": "/details-en/354.json"
+    },
     "routePath": "/courses/2026/full-year/E926-26"
   },
   {
@@ -8239,7 +10376,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E926-27",
     "sourceIndex": 355,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/355.json",
+    "englishDetailPath": "/details-en/355.json",
+    "detailPaths": {
+      "ja": "/details/355.json",
+      "en": "/details-en/355.json"
+    },
     "routePath": "/courses/2026/full-year/E926-27"
   },
   {
@@ -8262,7 +10405,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E926-28",
     "sourceIndex": 356,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/356.json",
+    "englishDetailPath": "/details-en/356.json",
+    "detailPaths": {
+      "ja": "/details/356.json",
+      "en": "/details-en/356.json"
+    },
     "routePath": "/courses/2026/full-year/E926-28"
   },
   {
@@ -8285,7 +10434,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E926-29",
     "sourceIndex": 357,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/357.json",
+    "englishDetailPath": "/details-en/357.json",
+    "detailPaths": {
+      "ja": "/details/357.json",
+      "en": "/details-en/357.json"
+    },
     "routePath": "/courses/2026/full-year/E926-29"
   },
   {
@@ -8308,7 +10463,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E926-30",
     "sourceIndex": 358,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/358.json",
+    "englishDetailPath": "/details-en/358.json",
+    "detailPaths": {
+      "ja": "/details/358.json",
+      "en": "/details-en/358.json"
+    },
     "routePath": "/courses/2026/full-year/E926-30"
   },
   {
@@ -8331,7 +10492,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E926-31",
     "sourceIndex": 359,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/359.json",
+    "englishDetailPath": "/details-en/359.json",
+    "detailPaths": {
+      "ja": "/details/359.json",
+      "en": "/details-en/359.json"
+    },
     "routePath": "/courses/2026/full-year/E926-31"
   },
   {
@@ -8354,7 +10521,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E946-01",
     "sourceIndex": 360,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/360.json",
+    "englishDetailPath": "/details-en/360.json",
+    "detailPaths": {
+      "ja": "/details/360.json",
+      "en": "/details-en/360.json"
+    },
     "routePath": "/courses/2026/spring/E946-01"
   },
   {
@@ -8377,7 +10550,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E956-01",
     "sourceIndex": 361,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/361.json",
+    "englishDetailPath": "/details-en/361.json",
+    "detailPaths": {
+      "ja": "/details/361.json",
+      "en": "/details-en/361.json"
+    },
     "routePath": "/courses/2026/fall/E956-01"
   },
   {
@@ -8400,7 +10579,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E717-01",
     "sourceIndex": 362,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/362.json",
+    "englishDetailPath": "/details-en/362.json",
+    "detailPaths": {
+      "ja": "/details/362.json",
+      "en": "/details-en/362.json"
+    },
     "routePath": "/courses/2026/spring/E717-01"
   },
   {
@@ -8423,7 +10608,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E718-01",
     "sourceIndex": 363,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/363.json",
+    "englishDetailPath": "/details-en/363.json",
+    "detailPaths": {
+      "ja": "/details/363.json",
+      "en": "/details-en/363.json"
+    },
     "routePath": "/courses/2026/spring/E718-01"
   },
   {
@@ -8446,7 +10637,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E719-01",
     "sourceIndex": 364,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/364.json",
+    "englishDetailPath": "/details-en/364.json",
+    "detailPaths": {
+      "ja": "/details/364.json",
+      "en": "/details-en/364.json"
+    },
     "routePath": "/courses/2026/spring/E719-01"
   },
   {
@@ -8469,7 +10666,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E720-01",
     "sourceIndex": 365,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/365.json",
+    "englishDetailPath": "/details-en/365.json",
+    "detailPaths": {
+      "ja": "/details/365.json",
+      "en": "/details-en/365.json"
+    },
     "routePath": "/courses/2026/spring/E720-01"
   },
   {
@@ -8492,7 +10695,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E721-01",
     "sourceIndex": 366,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/366.json",
+    "englishDetailPath": "/details-en/366.json",
+    "detailPaths": {
+      "ja": "/details/366.json",
+      "en": "/details-en/366.json"
+    },
     "routePath": "/courses/2026/spring/E721-01"
   },
   {
@@ -8515,7 +10724,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E722-01",
     "sourceIndex": 367,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/367.json",
+    "englishDetailPath": "/details-en/367.json",
+    "detailPaths": {
+      "ja": "/details/367.json",
+      "en": "/details-en/367.json"
+    },
     "routePath": "/courses/2026/spring/E722-01"
   },
   {
@@ -8538,7 +10753,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E723-01",
     "sourceIndex": 368,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/368.json",
+    "englishDetailPath": "/details-en/368.json",
+    "detailPaths": {
+      "ja": "/details/368.json",
+      "en": "/details-en/368.json"
+    },
     "routePath": "/courses/2026/spring/E723-01"
   },
   {
@@ -8561,7 +10782,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E724-01",
     "sourceIndex": 369,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/369.json",
+    "englishDetailPath": "/details-en/369.json",
+    "detailPaths": {
+      "ja": "/details/369.json",
+      "en": "/details-en/369.json"
+    },
     "routePath": "/courses/2026/spring/E724-01"
   },
   {
@@ -8584,7 +10811,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E725-01",
     "sourceIndex": 370,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/370.json",
+    "englishDetailPath": "/details-en/370.json",
+    "detailPaths": {
+      "ja": "/details/370.json",
+      "en": "/details-en/370.json"
+    },
     "routePath": "/courses/2026/spring/E725-01"
   },
   {
@@ -8607,7 +10840,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E726-01",
     "sourceIndex": 371,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/371.json",
+    "englishDetailPath": "/details-en/371.json",
+    "detailPaths": {
+      "ja": "/details/371.json",
+      "en": "/details-en/371.json"
+    },
     "routePath": "/courses/2026/fall/E726-01"
   },
   {
@@ -8630,7 +10869,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E727-01",
     "sourceIndex": 372,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/372.json",
+    "englishDetailPath": "/details-en/372.json",
+    "detailPaths": {
+      "ja": "/details/372.json",
+      "en": "/details-en/372.json"
+    },
     "routePath": "/courses/2026/fall/E727-01"
   },
   {
@@ -8653,7 +10898,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E728-01",
     "sourceIndex": 373,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/373.json",
+    "englishDetailPath": "/details-en/373.json",
+    "detailPaths": {
+      "ja": "/details/373.json",
+      "en": "/details-en/373.json"
+    },
     "routePath": "/courses/2026/fall/E728-01"
   },
   {
@@ -8676,7 +10927,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E729-01",
     "sourceIndex": 374,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/374.json",
+    "englishDetailPath": "/details-en/374.json",
+    "detailPaths": {
+      "ja": "/details/374.json",
+      "en": "/details-en/374.json"
+    },
     "routePath": "/courses/2026/fall/E729-01"
   },
   {
@@ -8699,7 +10956,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E730-01",
     "sourceIndex": 375,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/375.json",
+    "englishDetailPath": "/details-en/375.json",
+    "detailPaths": {
+      "ja": "/details/375.json",
+      "en": "/details-en/375.json"
+    },
     "routePath": "/courses/2026/fall/E730-01"
   },
   {
@@ -8722,7 +10985,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E731-01",
     "sourceIndex": 376,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/376.json",
+    "englishDetailPath": "/details-en/376.json",
+    "detailPaths": {
+      "ja": "/details/376.json",
+      "en": "/details-en/376.json"
+    },
     "routePath": "/courses/2026/fall/E731-01"
   },
   {
@@ -8745,7 +11014,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E732-01",
     "sourceIndex": 377,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/377.json",
+    "englishDetailPath": "/details-en/377.json",
+    "detailPaths": {
+      "ja": "/details/377.json",
+      "en": "/details-en/377.json"
+    },
     "routePath": "/courses/2026/fall/E732-01"
   },
   {
@@ -8768,7 +11043,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E733-01",
     "sourceIndex": 378,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/378.json",
+    "englishDetailPath": "/details-en/378.json",
+    "detailPaths": {
+      "ja": "/details/378.json",
+      "en": "/details-en/378.json"
+    },
     "routePath": "/courses/2026/spring/E733-01"
   },
   {
@@ -8791,7 +11072,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E733-01",
     "sourceIndex": 379,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/379.json",
+    "englishDetailPath": "/details-en/379.json",
+    "detailPaths": {
+      "ja": "/details/379.json",
+      "en": "/details-en/379.json"
+    },
     "routePath": "/courses/2026/fall/E733-01"
   },
   {
@@ -8814,7 +11101,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E734-01",
     "sourceIndex": 380,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/380.json",
+    "englishDetailPath": "/details-en/380.json",
+    "detailPaths": {
+      "ja": "/details/380.json",
+      "en": "/details-en/380.json"
+    },
     "routePath": "/courses/2026/spring/E734-01"
   },
   {
@@ -8837,7 +11130,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E734-01",
     "sourceIndex": 381,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/381.json",
+    "englishDetailPath": "/details-en/381.json",
+    "detailPaths": {
+      "ja": "/details/381.json",
+      "en": "/details-en/381.json"
+    },
     "routePath": "/courses/2026/fall/E734-01"
   },
   {
@@ -8860,7 +11159,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E908-01",
     "sourceIndex": 382,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/382.json",
+    "englishDetailPath": "/details-en/382.json",
+    "detailPaths": {
+      "ja": "/details/382.json",
+      "en": "/details-en/382.json"
+    },
     "routePath": "/courses/2026/fall/E908-01"
   },
   {
@@ -8883,7 +11188,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E918-01",
     "sourceIndex": 383,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/383.json",
+    "englishDetailPath": "/details-en/383.json",
+    "detailPaths": {
+      "ja": "/details/383.json",
+      "en": "/details-en/383.json"
+    },
     "routePath": "/courses/2026/spring/E918-01"
   },
   {
@@ -8906,7 +11217,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E928-03",
     "sourceIndex": 384,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/384.json",
+    "englishDetailPath": "/details-en/384.json",
+    "detailPaths": {
+      "ja": "/details/384.json",
+      "en": "/details-en/384.json"
+    },
     "routePath": "/courses/2026/full-year/E928-03"
   },
   {
@@ -8929,7 +11246,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E928-04",
     "sourceIndex": 385,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/385.json",
+    "englishDetailPath": "/details-en/385.json",
+    "detailPaths": {
+      "ja": "/details/385.json",
+      "en": "/details-en/385.json"
+    },
     "routePath": "/courses/2026/full-year/E928-04"
   },
   {
@@ -8952,7 +11275,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E928-05",
     "sourceIndex": 386,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/386.json",
+    "englishDetailPath": "/details-en/386.json",
+    "detailPaths": {
+      "ja": "/details/386.json",
+      "en": "/details-en/386.json"
+    },
     "routePath": "/courses/2026/full-year/E928-05"
   },
   {
@@ -8975,7 +11304,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E928-06",
     "sourceIndex": 387,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/387.json",
+    "englishDetailPath": "/details-en/387.json",
+    "detailPaths": {
+      "ja": "/details/387.json",
+      "en": "/details-en/387.json"
+    },
     "routePath": "/courses/2026/full-year/E928-06"
   },
   {
@@ -8998,7 +11333,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E928-07",
     "sourceIndex": 388,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/388.json",
+    "englishDetailPath": "/details-en/388.json",
+    "detailPaths": {
+      "ja": "/details/388.json",
+      "en": "/details-en/388.json"
+    },
     "routePath": "/courses/2026/full-year/E928-07"
   },
   {
@@ -9021,7 +11362,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E928-08",
     "sourceIndex": 389,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/389.json",
+    "englishDetailPath": "/details-en/389.json",
+    "detailPaths": {
+      "ja": "/details/389.json",
+      "en": "/details-en/389.json"
+    },
     "routePath": "/courses/2026/full-year/E928-08"
   },
   {
@@ -9044,7 +11391,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E928-09",
     "sourceIndex": 390,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/390.json",
+    "englishDetailPath": "/details-en/390.json",
+    "detailPaths": {
+      "ja": "/details/390.json",
+      "en": "/details-en/390.json"
+    },
     "routePath": "/courses/2026/full-year/E928-09"
   },
   {
@@ -9067,7 +11420,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E928-10",
     "sourceIndex": 391,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/391.json",
+    "englishDetailPath": "/details-en/391.json",
+    "detailPaths": {
+      "ja": "/details/391.json",
+      "en": "/details-en/391.json"
+    },
     "routePath": "/courses/2026/full-year/E928-10"
   },
   {
@@ -9090,7 +11449,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E928-11",
     "sourceIndex": 392,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/392.json",
+    "englishDetailPath": "/details-en/392.json",
+    "detailPaths": {
+      "ja": "/details/392.json",
+      "en": "/details-en/392.json"
+    },
     "routePath": "/courses/2026/full-year/E928-11"
   },
   {
@@ -9113,7 +11478,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E928-12",
     "sourceIndex": 393,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/393.json",
+    "englishDetailPath": "/details-en/393.json",
+    "detailPaths": {
+      "ja": "/details/393.json",
+      "en": "/details-en/393.json"
+    },
     "routePath": "/courses/2026/full-year/E928-12"
   },
   {
@@ -9136,7 +11507,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E948-01",
     "sourceIndex": 394,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/394.json",
+    "englishDetailPath": "/details-en/394.json",
+    "detailPaths": {
+      "ja": "/details/394.json",
+      "en": "/details-en/394.json"
+    },
     "routePath": "/courses/2026/spring/E948-01"
   },
   {
@@ -9159,7 +11536,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "E958-01",
     "sourceIndex": 395,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/395.json",
+    "englishDetailPath": "/details-en/395.json",
+    "detailPaths": {
+      "ja": "/details/395.json",
+      "en": "/details-en/395.json"
+    },
     "routePath": "/courses/2026/fall/E958-01"
   },
   {
@@ -9182,7 +11565,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "F005-01",
     "sourceIndex": 396,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/396.json",
+    "englishDetailPath": "/details-en/396.json",
+    "detailPaths": {
+      "ja": "/details/396.json",
+      "en": "/details-en/396.json"
+    },
     "routePath": "/courses/2026/full-year/F005-01"
   },
   {
@@ -9205,7 +11594,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "F008-01",
     "sourceIndex": 397,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/397.json",
+    "englishDetailPath": "/details-en/397.json",
+    "detailPaths": {
+      "ja": "/details/397.json",
+      "en": "/details-en/397.json"
+    },
     "routePath": "/courses/2026/spring/F008-01"
   },
   {
@@ -9228,7 +11623,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "F020-01",
     "sourceIndex": 398,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/398.json",
+    "englishDetailPath": "/details-en/398.json",
+    "detailPaths": {
+      "ja": "/details/398.json",
+      "en": "/details-en/398.json"
+    },
     "routePath": "/courses/2026/spring/F020-01"
   },
   {
@@ -9251,7 +11652,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "F021-01",
     "sourceIndex": 399,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/399.json",
+    "englishDetailPath": "/details-en/399.json",
+    "detailPaths": {
+      "ja": "/details/399.json",
+      "en": "/details-en/399.json"
+    },
     "routePath": "/courses/2026/spring/F021-01"
   },
   {
@@ -9274,7 +11681,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "F022-01",
     "sourceIndex": 400,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/400.json",
+    "englishDetailPath": "/details-en/400.json",
+    "detailPaths": {
+      "ja": "/details/400.json",
+      "en": "/details-en/400.json"
+    },
     "routePath": "/courses/2026/spring/F022-01"
   },
   {
@@ -9297,7 +11710,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "F023-01",
     "sourceIndex": 401,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/401.json",
+    "englishDetailPath": "/details-en/401.json",
+    "detailPaths": {
+      "ja": "/details/401.json",
+      "en": "/details-en/401.json"
+    },
     "routePath": "/courses/2026/spring/F023-01"
   },
   {
@@ -9320,7 +11739,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "F024-01",
     "sourceIndex": 402,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/402.json",
+    "englishDetailPath": "/details-en/402.json",
+    "detailPaths": {
+      "ja": "/details/402.json",
+      "en": "/details-en/402.json"
+    },
     "routePath": "/courses/2026/spring/F024-01"
   },
   {
@@ -9343,7 +11768,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "F025-01",
     "sourceIndex": 403,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/403.json",
+    "englishDetailPath": "/details-en/403.json",
+    "detailPaths": {
+      "ja": "/details/403.json",
+      "en": "/details-en/403.json"
+    },
     "routePath": "/courses/2026/spring/F025-01"
   },
   {
@@ -9366,7 +11797,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "F026-01",
     "sourceIndex": 404,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/404.json",
+    "englishDetailPath": "/details-en/404.json",
+    "detailPaths": {
+      "ja": "/details/404.json",
+      "en": "/details-en/404.json"
+    },
     "routePath": "/courses/2026/spring/F026-01"
   },
   {
@@ -9389,7 +11826,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "F026-01",
     "sourceIndex": 405,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/405.json",
+    "englishDetailPath": "/details-en/405.json",
+    "detailPaths": {
+      "ja": "/details/405.json",
+      "en": "/details-en/405.json"
+    },
     "routePath": "/courses/2026/fall/F026-01"
   },
   {
@@ -9412,7 +11855,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "F027-01",
     "sourceIndex": 406,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/406.json",
+    "englishDetailPath": "/details-en/406.json",
+    "detailPaths": {
+      "ja": "/details/406.json",
+      "en": "/details-en/406.json"
+    },
     "routePath": "/courses/2026/spring/F027-01"
   },
   {
@@ -9435,7 +11884,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "F027-01",
     "sourceIndex": 407,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/407.json",
+    "englishDetailPath": "/details-en/407.json",
+    "detailPaths": {
+      "ja": "/details/407.json",
+      "en": "/details-en/407.json"
+    },
     "routePath": "/courses/2026/fall/F027-01"
   },
   {
@@ -9458,7 +11913,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "F028-01",
     "sourceIndex": 408,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/408.json",
+    "englishDetailPath": "/details-en/408.json",
+    "detailPaths": {
+      "ja": "/details/408.json",
+      "en": "/details-en/408.json"
+    },
     "routePath": "/courses/2026/fall/F028-01"
   },
   {
@@ -9481,7 +11942,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "F029-01",
     "sourceIndex": 409,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/409.json",
+    "englishDetailPath": "/details-en/409.json",
+    "detailPaths": {
+      "ja": "/details/409.json",
+      "en": "/details-en/409.json"
+    },
     "routePath": "/courses/2026/spring/F029-01"
   },
   {
@@ -9504,7 +11971,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "F030-01",
     "sourceIndex": 410,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/410.json",
+    "englishDetailPath": "/details-en/410.json",
+    "detailPaths": {
+      "ja": "/details/410.json",
+      "en": "/details-en/410.json"
+    },
     "routePath": "/courses/2026/fall/F030-01"
   },
   {
@@ -9527,7 +12000,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "F031-01",
     "sourceIndex": 411,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/411.json",
+    "englishDetailPath": "/details-en/411.json",
+    "detailPaths": {
+      "ja": "/details/411.json",
+      "en": "/details-en/411.json"
+    },
     "routePath": "/courses/2026/fall/F031-01"
   },
   {
@@ -9550,7 +12029,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "F032-01",
     "sourceIndex": 412,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/412.json",
+    "englishDetailPath": "/details-en/412.json",
+    "detailPaths": {
+      "ja": "/details/412.json",
+      "en": "/details-en/412.json"
+    },
     "routePath": "/courses/2026/fall/F032-01"
   },
   {
@@ -9573,7 +12058,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "F034-01",
     "sourceIndex": 413,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/413.json",
+    "englishDetailPath": "/details-en/413.json",
+    "detailPaths": {
+      "ja": "/details/413.json",
+      "en": "/details-en/413.json"
+    },
     "routePath": "/courses/2026/spring/F034-01"
   },
   {
@@ -9596,7 +12087,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "F035-01",
     "sourceIndex": 414,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/414.json",
+    "englishDetailPath": "/details-en/414.json",
+    "detailPaths": {
+      "ja": "/details/414.json",
+      "en": "/details-en/414.json"
+    },
     "routePath": "/courses/2026/fall/F035-01"
   },
   {
@@ -9619,7 +12116,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "F901-01",
     "sourceIndex": 415,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/415.json",
+    "englishDetailPath": "/details-en/415.json",
+    "detailPaths": {
+      "ja": "/details/415.json",
+      "en": "/details-en/415.json"
+    },
     "routePath": "/courses/2026/fall/F901-01"
   },
   {
@@ -9642,7 +12145,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "F911-01",
     "sourceIndex": 416,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/416.json",
+    "englishDetailPath": "/details-en/416.json",
+    "detailPaths": {
+      "ja": "/details/416.json",
+      "en": "/details-en/416.json"
+    },
     "routePath": "/courses/2026/fall/F911-01"
   },
   {
@@ -9665,7 +12174,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "F921-05",
     "sourceIndex": 417,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/417.json",
+    "englishDetailPath": "/details-en/417.json",
+    "detailPaths": {
+      "ja": "/details/417.json",
+      "en": "/details-en/417.json"
+    },
     "routePath": "/courses/2026/full-year/F921-05"
   },
   {
@@ -9688,7 +12203,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "F921-06",
     "sourceIndex": 418,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/418.json",
+    "englishDetailPath": "/details-en/418.json",
+    "detailPaths": {
+      "ja": "/details/418.json",
+      "en": "/details-en/418.json"
+    },
     "routePath": "/courses/2026/full-year/F921-06"
   },
   {
@@ -9711,7 +12232,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "F921-07",
     "sourceIndex": 419,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/419.json",
+    "englishDetailPath": "/details-en/419.json",
+    "detailPaths": {
+      "ja": "/details/419.json",
+      "en": "/details-en/419.json"
+    },
     "routePath": "/courses/2026/full-year/F921-07"
   },
   {
@@ -9734,7 +12261,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "F921-08",
     "sourceIndex": 420,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/420.json",
+    "englishDetailPath": "/details-en/420.json",
+    "detailPaths": {
+      "ja": "/details/420.json",
+      "en": "/details-en/420.json"
+    },
     "routePath": "/courses/2026/full-year/F921-08"
   },
   {
@@ -9757,7 +12290,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "F921-10",
     "sourceIndex": 421,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/421.json",
+    "englishDetailPath": "/details-en/421.json",
+    "detailPaths": {
+      "ja": "/details/421.json",
+      "en": "/details-en/421.json"
+    },
     "routePath": "/courses/2026/full-year/F921-10"
   },
   {
@@ -9780,7 +12319,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "F921-11",
     "sourceIndex": 422,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/422.json",
+    "englishDetailPath": "/details-en/422.json",
+    "detailPaths": {
+      "ja": "/details/422.json",
+      "en": "/details-en/422.json"
+    },
     "routePath": "/courses/2026/full-year/F921-11"
   },
   {
@@ -9803,7 +12348,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "F921-14",
     "sourceIndex": 423,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/423.json",
+    "englishDetailPath": "/details-en/423.json",
+    "detailPaths": {
+      "ja": "/details/423.json",
+      "en": "/details-en/423.json"
+    },
     "routePath": "/courses/2026/full-year/F921-14"
   },
   {
@@ -9826,7 +12377,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "F921-15",
     "sourceIndex": 424,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/424.json",
+    "englishDetailPath": "/details-en/424.json",
+    "detailPaths": {
+      "ja": "/details/424.json",
+      "en": "/details-en/424.json"
+    },
     "routePath": "/courses/2026/full-year/F921-15"
   },
   {
@@ -9849,7 +12406,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "F921-16",
     "sourceIndex": 425,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/425.json",
+    "englishDetailPath": "/details-en/425.json",
+    "detailPaths": {
+      "ja": "/details/425.json",
+      "en": "/details-en/425.json"
+    },
     "routePath": "/courses/2026/full-year/F921-16"
   },
   {
@@ -9872,7 +12435,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "F921-18",
     "sourceIndex": 426,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/426.json",
+    "englishDetailPath": "/details-en/426.json",
+    "detailPaths": {
+      "ja": "/details/426.json",
+      "en": "/details-en/426.json"
+    },
     "routePath": "/courses/2026/full-year/F921-18"
   },
   {
@@ -9895,7 +12464,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "F921-19",
     "sourceIndex": 427,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/427.json",
+    "englishDetailPath": "/details-en/427.json",
+    "detailPaths": {
+      "ja": "/details/427.json",
+      "en": "/details-en/427.json"
+    },
     "routePath": "/courses/2026/full-year/F921-19"
   },
   {
@@ -9918,7 +12493,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "F941-01",
     "sourceIndex": 428,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/428.json",
+    "englishDetailPath": "/details-en/428.json",
+    "detailPaths": {
+      "ja": "/details/428.json",
+      "en": "/details-en/428.json"
+    },
     "routePath": "/courses/2026/spring/F941-01"
   },
   {
@@ -9941,7 +12522,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "F951-01",
     "sourceIndex": 429,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/429.json",
+    "englishDetailPath": "/details-en/429.json",
+    "detailPaths": {
+      "ja": "/details/429.json",
+      "en": "/details-en/429.json"
+    },
     "routePath": "/courses/2026/fall/F951-01"
   },
   {
@@ -9964,7 +12551,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "F120-01",
     "sourceIndex": 430,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/430.json",
+    "englishDetailPath": "/details-en/430.json",
+    "detailPaths": {
+      "ja": "/details/430.json",
+      "en": "/details-en/430.json"
+    },
     "routePath": "/courses/2026/spring/F120-01"
   },
   {
@@ -9987,7 +12580,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "F121-01",
     "sourceIndex": 431,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/431.json",
+    "englishDetailPath": "/details-en/431.json",
+    "detailPaths": {
+      "ja": "/details/431.json",
+      "en": "/details-en/431.json"
+    },
     "routePath": "/courses/2026/spring/F121-01"
   },
   {
@@ -10010,7 +12609,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "F123-01",
     "sourceIndex": 432,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/432.json",
+    "englishDetailPath": "/details-en/432.json",
+    "detailPaths": {
+      "ja": "/details/432.json",
+      "en": "/details-en/432.json"
+    },
     "routePath": "/courses/2026/fall/F123-01"
   },
   {
@@ -10033,7 +12638,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "F124-01",
     "sourceIndex": 433,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/433.json",
+    "englishDetailPath": "/details-en/433.json",
+    "detailPaths": {
+      "ja": "/details/433.json",
+      "en": "/details-en/433.json"
+    },
     "routePath": "/courses/2026/spring/F124-01"
   },
   {
@@ -10056,7 +12667,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "F125-01",
     "sourceIndex": 434,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/434.json",
+    "englishDetailPath": "/details-en/434.json",
+    "detailPaths": {
+      "ja": "/details/434.json",
+      "en": "/details-en/434.json"
+    },
     "routePath": "/courses/2026/spring/F125-01"
   },
   {
@@ -10079,7 +12696,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "F128-01",
     "sourceIndex": 435,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/435.json",
+    "englishDetailPath": "/details-en/435.json",
+    "detailPaths": {
+      "ja": "/details/435.json",
+      "en": "/details-en/435.json"
+    },
     "routePath": "/courses/2026/fall/F128-01"
   },
   {
@@ -10102,7 +12725,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "F129-01",
     "sourceIndex": 436,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/436.json",
+    "englishDetailPath": "/details-en/436.json",
+    "detailPaths": {
+      "ja": "/details/436.json",
+      "en": "/details-en/436.json"
+    },
     "routePath": "/courses/2026/spring/F129-01"
   },
   {
@@ -10125,7 +12754,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "F130-01",
     "sourceIndex": 437,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/437.json",
+    "englishDetailPath": "/details-en/437.json",
+    "detailPaths": {
+      "ja": "/details/437.json",
+      "en": "/details-en/437.json"
+    },
     "routePath": "/courses/2026/spring/F130-01"
   },
   {
@@ -10148,7 +12783,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "F131-01",
     "sourceIndex": 438,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/438.json",
+    "englishDetailPath": "/details-en/438.json",
+    "detailPaths": {
+      "ja": "/details/438.json",
+      "en": "/details-en/438.json"
+    },
     "routePath": "/courses/2026/spring/F131-01"
   },
   {
@@ -10171,7 +12812,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "F132-01",
     "sourceIndex": 439,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/439.json",
+    "englishDetailPath": "/details-en/439.json",
+    "detailPaths": {
+      "ja": "/details/439.json",
+      "en": "/details-en/439.json"
+    },
     "routePath": "/courses/2026/fall/F132-01"
   },
   {
@@ -10194,7 +12841,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "F133-01",
     "sourceIndex": 440,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/440.json",
+    "englishDetailPath": "/details-en/440.json",
+    "detailPaths": {
+      "ja": "/details/440.json",
+      "en": "/details-en/440.json"
+    },
     "routePath": "/courses/2026/spring/F133-01"
   },
   {
@@ -10217,7 +12870,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "F133-01",
     "sourceIndex": 441,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/441.json",
+    "englishDetailPath": "/details-en/441.json",
+    "detailPaths": {
+      "ja": "/details/441.json",
+      "en": "/details-en/441.json"
+    },
     "routePath": "/courses/2026/fall/F133-01"
   },
   {
@@ -10240,7 +12899,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "F134-01",
     "sourceIndex": 442,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/442.json",
+    "englishDetailPath": "/details-en/442.json",
+    "detailPaths": {
+      "ja": "/details/442.json",
+      "en": "/details-en/442.json"
+    },
     "routePath": "/courses/2026/spring/F134-01"
   },
   {
@@ -10263,7 +12928,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "F134-01",
     "sourceIndex": 443,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/443.json",
+    "englishDetailPath": "/details-en/443.json",
+    "detailPaths": {
+      "ja": "/details/443.json",
+      "en": "/details-en/443.json"
+    },
     "routePath": "/courses/2026/fall/F134-01"
   },
   {
@@ -10286,7 +12957,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "F135-01",
     "sourceIndex": 444,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/444.json",
+    "englishDetailPath": "/details-en/444.json",
+    "detailPaths": {
+      "ja": "/details/444.json",
+      "en": "/details-en/444.json"
+    },
     "routePath": "/courses/2026/fall/F135-01"
   },
   {
@@ -10309,7 +12986,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "F139-01",
     "sourceIndex": 445,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/445.json",
+    "englishDetailPath": "/details-en/445.json",
+    "detailPaths": {
+      "ja": "/details/445.json",
+      "en": "/details-en/445.json"
+    },
     "routePath": "/courses/2026/spring/F139-01"
   },
   {
@@ -10332,7 +13015,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "F140-01",
     "sourceIndex": 446,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/446.json",
+    "englishDetailPath": "/details-en/446.json",
+    "detailPaths": {
+      "ja": "/details/446.json",
+      "en": "/details-en/446.json"
+    },
     "routePath": "/courses/2026/fall/F140-01"
   },
   {
@@ -10355,7 +13044,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "F141-01",
     "sourceIndex": 447,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/447.json",
+    "englishDetailPath": "/details-en/447.json",
+    "detailPaths": {
+      "ja": "/details/447.json",
+      "en": "/details-en/447.json"
+    },
     "routePath": "/courses/2026/fall/F141-01"
   },
   {
@@ -10378,7 +13073,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "F142-01",
     "sourceIndex": 448,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/448.json",
+    "englishDetailPath": "/details-en/448.json",
+    "detailPaths": {
+      "ja": "/details/448.json",
+      "en": "/details-en/448.json"
+    },
     "routePath": "/courses/2026/fall/F142-01"
   },
   {
@@ -10401,7 +13102,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "F902-01",
     "sourceIndex": 449,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/449.json",
+    "englishDetailPath": "/details-en/449.json",
+    "detailPaths": {
+      "ja": "/details/449.json",
+      "en": "/details-en/449.json"
+    },
     "routePath": "/courses/2026/fall/F902-01"
   },
   {
@@ -10424,7 +13131,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "F912-01",
     "sourceIndex": 450,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/450.json",
+    "englishDetailPath": "/details-en/450.json",
+    "detailPaths": {
+      "ja": "/details/450.json",
+      "en": "/details-en/450.json"
+    },
     "routePath": "/courses/2026/spring/F912-01"
   },
   {
@@ -10447,7 +13160,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "F922-05",
     "sourceIndex": 451,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/451.json",
+    "englishDetailPath": "/details-en/451.json",
+    "detailPaths": {
+      "ja": "/details/451.json",
+      "en": "/details-en/451.json"
+    },
     "routePath": "/courses/2026/full-year/F922-05"
   },
   {
@@ -10470,7 +13189,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "F922-09",
     "sourceIndex": 452,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/452.json",
+    "englishDetailPath": "/details-en/452.json",
+    "detailPaths": {
+      "ja": "/details/452.json",
+      "en": "/details-en/452.json"
+    },
     "routePath": "/courses/2026/full-year/F922-09"
   },
   {
@@ -10493,7 +13218,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "F922-11",
     "sourceIndex": 453,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/453.json",
+    "englishDetailPath": "/details-en/453.json",
+    "detailPaths": {
+      "ja": "/details/453.json",
+      "en": "/details-en/453.json"
+    },
     "routePath": "/courses/2026/full-year/F922-11"
   },
   {
@@ -10516,7 +13247,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "F922-12",
     "sourceIndex": 454,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/454.json",
+    "englishDetailPath": "/details-en/454.json",
+    "detailPaths": {
+      "ja": "/details/454.json",
+      "en": "/details-en/454.json"
+    },
     "routePath": "/courses/2026/full-year/F922-12"
   },
   {
@@ -10539,7 +13276,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "F922-13",
     "sourceIndex": 455,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/455.json",
+    "englishDetailPath": "/details-en/455.json",
+    "detailPaths": {
+      "ja": "/details/455.json",
+      "en": "/details-en/455.json"
+    },
     "routePath": "/courses/2026/full-year/F922-13"
   },
   {
@@ -10562,7 +13305,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "F922-14",
     "sourceIndex": 456,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/456.json",
+    "englishDetailPath": "/details-en/456.json",
+    "detailPaths": {
+      "ja": "/details/456.json",
+      "en": "/details-en/456.json"
+    },
     "routePath": "/courses/2026/full-year/F922-14"
   },
   {
@@ -10585,7 +13334,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "F922-15",
     "sourceIndex": 457,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/457.json",
+    "englishDetailPath": "/details-en/457.json",
+    "detailPaths": {
+      "ja": "/details/457.json",
+      "en": "/details-en/457.json"
+    },
     "routePath": "/courses/2026/full-year/F922-15"
   },
   {
@@ -10608,7 +13363,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "F922-17",
     "sourceIndex": 458,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/458.json",
+    "englishDetailPath": "/details-en/458.json",
+    "detailPaths": {
+      "ja": "/details/458.json",
+      "en": "/details-en/458.json"
+    },
     "routePath": "/courses/2026/full-year/F922-17"
   },
   {
@@ -10631,7 +13392,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "F942-01",
     "sourceIndex": 459,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/459.json",
+    "englishDetailPath": "/details-en/459.json",
+    "detailPaths": {
+      "ja": "/details/459.json",
+      "en": "/details-en/459.json"
+    },
     "routePath": "/courses/2026/spring/F942-01"
   },
   {
@@ -10654,7 +13421,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "F952-01",
     "sourceIndex": 460,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/460.json",
+    "englishDetailPath": "/details-en/460.json",
+    "detailPaths": {
+      "ja": "/details/460.json",
+      "en": "/details-en/460.json"
+    },
     "routePath": "/courses/2026/fall/F952-01"
   },
   {
@@ -10677,7 +13450,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "F320-01",
     "sourceIndex": 461,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/461.json",
+    "englishDetailPath": "/details-en/461.json",
+    "detailPaths": {
+      "ja": "/details/461.json",
+      "en": "/details-en/461.json"
+    },
     "routePath": "/courses/2026/spring/F320-01"
   },
   {
@@ -10700,7 +13479,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "F321-01",
     "sourceIndex": 462,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/462.json",
+    "englishDetailPath": "/details-en/462.json",
+    "detailPaths": {
+      "ja": "/details/462.json",
+      "en": "/details-en/462.json"
+    },
     "routePath": "/courses/2026/spring/F321-01"
   },
   {
@@ -10723,7 +13508,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "F322-01",
     "sourceIndex": 463,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/463.json",
+    "englishDetailPath": "/details-en/463.json",
+    "detailPaths": {
+      "ja": "/details/463.json",
+      "en": "/details-en/463.json"
+    },
     "routePath": "/courses/2026/spring/F322-01"
   },
   {
@@ -10746,7 +13537,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "F323-01",
     "sourceIndex": 464,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/464.json",
+    "englishDetailPath": "/details-en/464.json",
+    "detailPaths": {
+      "ja": "/details/464.json",
+      "en": "/details-en/464.json"
+    },
     "routePath": "/courses/2026/spring/F323-01"
   },
   {
@@ -10769,7 +13566,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "F324-01",
     "sourceIndex": 465,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/465.json",
+    "englishDetailPath": "/details-en/465.json",
+    "detailPaths": {
+      "ja": "/details/465.json",
+      "en": "/details-en/465.json"
+    },
     "routePath": "/courses/2026/spring/F324-01"
   },
   {
@@ -10792,7 +13595,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "F325-01",
     "sourceIndex": 466,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/466.json",
+    "englishDetailPath": "/details-en/466.json",
+    "detailPaths": {
+      "ja": "/details/466.json",
+      "en": "/details-en/466.json"
+    },
     "routePath": "/courses/2026/spring/F325-01"
   },
   {
@@ -10815,7 +13624,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "F327-01",
     "sourceIndex": 467,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/467.json",
+    "englishDetailPath": "/details-en/467.json",
+    "detailPaths": {
+      "ja": "/details/467.json",
+      "en": "/details-en/467.json"
+    },
     "routePath": "/courses/2026/spring/F327-01"
   },
   {
@@ -10838,7 +13653,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "F328-01",
     "sourceIndex": 468,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/468.json",
+    "englishDetailPath": "/details-en/468.json",
+    "detailPaths": {
+      "ja": "/details/468.json",
+      "en": "/details-en/468.json"
+    },
     "routePath": "/courses/2026/fall/F328-01"
   },
   {
@@ -10861,7 +13682,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "F329-01",
     "sourceIndex": 469,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/469.json",
+    "englishDetailPath": "/details-en/469.json",
+    "detailPaths": {
+      "ja": "/details/469.json",
+      "en": "/details-en/469.json"
+    },
     "routePath": "/courses/2026/fall/F329-01"
   },
   {
@@ -10884,7 +13711,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "F330-01",
     "sourceIndex": 470,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/470.json",
+    "englishDetailPath": "/details-en/470.json",
+    "detailPaths": {
+      "ja": "/details/470.json",
+      "en": "/details-en/470.json"
+    },
     "routePath": "/courses/2026/fall/F330-01"
   },
   {
@@ -10907,7 +13740,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "F331-01",
     "sourceIndex": 471,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/471.json",
+    "englishDetailPath": "/details-en/471.json",
+    "detailPaths": {
+      "ja": "/details/471.json",
+      "en": "/details-en/471.json"
+    },
     "routePath": "/courses/2026/fall/F331-01"
   },
   {
@@ -10930,7 +13769,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "F332-01",
     "sourceIndex": 472,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/472.json",
+    "englishDetailPath": "/details-en/472.json",
+    "detailPaths": {
+      "ja": "/details/472.json",
+      "en": "/details-en/472.json"
+    },
     "routePath": "/courses/2026/fall/F332-01"
   },
   {
@@ -10953,7 +13798,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "F334-01",
     "sourceIndex": 473,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/473.json",
+    "englishDetailPath": "/details-en/473.json",
+    "detailPaths": {
+      "ja": "/details/473.json",
+      "en": "/details-en/473.json"
+    },
     "routePath": "/courses/2026/fall/F334-01"
   },
   {
@@ -10976,7 +13827,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "F335-01",
     "sourceIndex": 474,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/474.json",
+    "englishDetailPath": "/details-en/474.json",
+    "detailPaths": {
+      "ja": "/details/474.json",
+      "en": "/details-en/474.json"
+    },
     "routePath": "/courses/2026/spring/F335-01"
   },
   {
@@ -10999,7 +13856,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "F335-01",
     "sourceIndex": 475,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/475.json",
+    "englishDetailPath": "/details-en/475.json",
+    "detailPaths": {
+      "ja": "/details/475.json",
+      "en": "/details-en/475.json"
+    },
     "routePath": "/courses/2026/fall/F335-01"
   },
   {
@@ -11022,7 +13885,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "F336-01",
     "sourceIndex": 476,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/476.json",
+    "englishDetailPath": "/details-en/476.json",
+    "detailPaths": {
+      "ja": "/details/476.json",
+      "en": "/details-en/476.json"
+    },
     "routePath": "/courses/2026/spring/F336-01"
   },
   {
@@ -11045,7 +13914,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "F336-01",
     "sourceIndex": 477,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/477.json",
+    "englishDetailPath": "/details-en/477.json",
+    "detailPaths": {
+      "ja": "/details/477.json",
+      "en": "/details-en/477.json"
+    },
     "routePath": "/courses/2026/fall/F336-01"
   },
   {
@@ -11068,7 +13943,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "F337-01",
     "sourceIndex": 478,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/478.json",
+    "englishDetailPath": "/details-en/478.json",
+    "detailPaths": {
+      "ja": "/details/478.json",
+      "en": "/details-en/478.json"
+    },
     "routePath": "/courses/2026/full-year/F337-01"
   },
   {
@@ -11091,7 +13972,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "F338-01",
     "sourceIndex": 479,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/479.json",
+    "englishDetailPath": "/details-en/479.json",
+    "detailPaths": {
+      "ja": "/details/479.json",
+      "en": "/details-en/479.json"
+    },
     "routePath": "/courses/2026/spring/F338-01"
   },
   {
@@ -11114,7 +14001,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "F339-01",
     "sourceIndex": 480,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/480.json",
+    "englishDetailPath": "/details-en/480.json",
+    "detailPaths": {
+      "ja": "/details/480.json",
+      "en": "/details-en/480.json"
+    },
     "routePath": "/courses/2026/fall/F339-01"
   },
   {
@@ -11137,7 +14030,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "F340-01",
     "sourceIndex": 481,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/481.json",
+    "englishDetailPath": "/details-en/481.json",
+    "detailPaths": {
+      "ja": "/details/481.json",
+      "en": "/details-en/481.json"
+    },
     "routePath": "/courses/2026/fall/F340-01"
   },
   {
@@ -11160,7 +14059,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "F341-01",
     "sourceIndex": 482,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/482.json",
+    "englishDetailPath": "/details-en/482.json",
+    "detailPaths": {
+      "ja": "/details/482.json",
+      "en": "/details-en/482.json"
+    },
     "routePath": "/courses/2026/fall/F341-01"
   },
   {
@@ -11183,7 +14088,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "F342-01",
     "sourceIndex": 483,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/483.json",
+    "englishDetailPath": "/details-en/483.json",
+    "detailPaths": {
+      "ja": "/details/483.json",
+      "en": "/details-en/483.json"
+    },
     "routePath": "/courses/2026/fall/F342-01"
   },
   {
@@ -11206,7 +14117,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "F343-01",
     "sourceIndex": 484,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/484.json",
+    "englishDetailPath": "/details-en/484.json",
+    "detailPaths": {
+      "ja": "/details/484.json",
+      "en": "/details-en/484.json"
+    },
     "routePath": "/courses/2026/spring/F343-01"
   },
   {
@@ -11229,7 +14146,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "F904-01",
     "sourceIndex": 485,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/485.json",
+    "englishDetailPath": "/details-en/485.json",
+    "detailPaths": {
+      "ja": "/details/485.json",
+      "en": "/details-en/485.json"
+    },
     "routePath": "/courses/2026/fall/F904-01"
   },
   {
@@ -11252,7 +14175,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "F914-01",
     "sourceIndex": 486,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/486.json",
+    "englishDetailPath": "/details-en/486.json",
+    "detailPaths": {
+      "ja": "/details/486.json",
+      "en": "/details-en/486.json"
+    },
     "routePath": "/courses/2026/fall/F914-01"
   },
   {
@@ -11275,7 +14204,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "F924-03",
     "sourceIndex": 487,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/487.json",
+    "englishDetailPath": "/details-en/487.json",
+    "detailPaths": {
+      "ja": "/details/487.json",
+      "en": "/details-en/487.json"
+    },
     "routePath": "/courses/2026/full-year/F924-03"
   },
   {
@@ -11298,7 +14233,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "F924-04",
     "sourceIndex": 488,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/488.json",
+    "englishDetailPath": "/details-en/488.json",
+    "detailPaths": {
+      "ja": "/details/488.json",
+      "en": "/details-en/488.json"
+    },
     "routePath": "/courses/2026/full-year/F924-04"
   },
   {
@@ -11321,7 +14262,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "F924-05",
     "sourceIndex": 489,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/489.json",
+    "englishDetailPath": "/details-en/489.json",
+    "detailPaths": {
+      "ja": "/details/489.json",
+      "en": "/details-en/489.json"
+    },
     "routePath": "/courses/2026/full-year/F924-05"
   },
   {
@@ -11344,7 +14291,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "F924-06",
     "sourceIndex": 490,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/490.json",
+    "englishDetailPath": "/details-en/490.json",
+    "detailPaths": {
+      "ja": "/details/490.json",
+      "en": "/details-en/490.json"
+    },
     "routePath": "/courses/2026/full-year/F924-06"
   },
   {
@@ -11367,7 +14320,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "F924-07",
     "sourceIndex": 491,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/491.json",
+    "englishDetailPath": "/details-en/491.json",
+    "detailPaths": {
+      "ja": "/details/491.json",
+      "en": "/details-en/491.json"
+    },
     "routePath": "/courses/2026/full-year/F924-07"
   },
   {
@@ -11390,7 +14349,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "F924-08",
     "sourceIndex": 492,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/492.json",
+    "englishDetailPath": "/details-en/492.json",
+    "detailPaths": {
+      "ja": "/details/492.json",
+      "en": "/details-en/492.json"
+    },
     "routePath": "/courses/2026/full-year/F924-08"
   },
   {
@@ -11413,7 +14378,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "F924-10",
     "sourceIndex": 493,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/493.json",
+    "englishDetailPath": "/details-en/493.json",
+    "detailPaths": {
+      "ja": "/details/493.json",
+      "en": "/details-en/493.json"
+    },
     "routePath": "/courses/2026/full-year/F924-10"
   },
   {
@@ -11436,7 +14407,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "F924-11",
     "sourceIndex": 494,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/494.json",
+    "englishDetailPath": "/details-en/494.json",
+    "detailPaths": {
+      "ja": "/details/494.json",
+      "en": "/details-en/494.json"
+    },
     "routePath": "/courses/2026/full-year/F924-11"
   },
   {
@@ -11459,7 +14436,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "F944-01",
     "sourceIndex": 495,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/495.json",
+    "englishDetailPath": "/details-en/495.json",
+    "detailPaths": {
+      "ja": "/details/495.json",
+      "en": "/details-en/495.json"
+    },
     "routePath": "/courses/2026/spring/F944-01"
   },
   {
@@ -11482,7 +14465,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "F954-01",
     "sourceIndex": 496,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/496.json",
+    "englishDetailPath": "/details-en/496.json",
+    "detailPaths": {
+      "ja": "/details/496.json",
+      "en": "/details-en/496.json"
+    },
     "routePath": "/courses/2026/fall/F954-01"
   },
   {
@@ -11505,7 +14494,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "M001-01",
     "sourceIndex": 497,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/497.json",
+    "englishDetailPath": "/details-en/497.json",
+    "detailPaths": {
+      "ja": "/details/497.json",
+      "en": "/details-en/497.json"
+    },
     "routePath": "/courses/2026/spring/M001-01"
   },
   {
@@ -11528,7 +14523,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "M002-01",
     "sourceIndex": 498,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/498.json",
+    "englishDetailPath": "/details-en/498.json",
+    "detailPaths": {
+      "ja": "/details/498.json",
+      "en": "/details-en/498.json"
+    },
     "routePath": "/courses/2026/spring/M002-01"
   },
   {
@@ -11551,7 +14552,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "M003-01",
     "sourceIndex": 499,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/499.json",
+    "englishDetailPath": "/details-en/499.json",
+    "detailPaths": {
+      "ja": "/details/499.json",
+      "en": "/details-en/499.json"
+    },
     "routePath": "/courses/2026/spring/M003-01"
   },
   {
@@ -11574,7 +14581,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "M004-01",
     "sourceIndex": 500,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/500.json",
+    "englishDetailPath": "/details-en/500.json",
+    "detailPaths": {
+      "ja": "/details/500.json",
+      "en": "/details-en/500.json"
+    },
     "routePath": "/courses/2026/spring/M004-01"
   },
   {
@@ -11597,7 +14610,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "M005-01",
     "sourceIndex": 501,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/501.json",
+    "englishDetailPath": "/details-en/501.json",
+    "detailPaths": {
+      "ja": "/details/501.json",
+      "en": "/details-en/501.json"
+    },
     "routePath": "/courses/2026/fall/M005-01"
   },
   {
@@ -11620,7 +14639,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "M006-01",
     "sourceIndex": 502,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/502.json",
+    "englishDetailPath": "/details-en/502.json",
+    "detailPaths": {
+      "ja": "/details/502.json",
+      "en": "/details-en/502.json"
+    },
     "routePath": "/courses/2026/fall/M006-01"
   },
   {
@@ -11643,7 +14668,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "M007-01",
     "sourceIndex": 503,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/503.json",
+    "englishDetailPath": "/details-en/503.json",
+    "detailPaths": {
+      "ja": "/details/503.json",
+      "en": "/details-en/503.json"
+    },
     "routePath": "/courses/2026/fall/M007-01"
   },
   {
@@ -11666,7 +14697,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "M008-01",
     "sourceIndex": 504,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/504.json",
+    "englishDetailPath": "/details-en/504.json",
+    "detailPaths": {
+      "ja": "/details/504.json",
+      "en": "/details-en/504.json"
+    },
     "routePath": "/courses/2026/fall/M008-01"
   },
   {
@@ -11689,7 +14726,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "M009-01",
     "sourceIndex": 505,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/505.json",
+    "englishDetailPath": "/details-en/505.json",
+    "detailPaths": {
+      "ja": "/details/505.json",
+      "en": "/details-en/505.json"
+    },
     "routePath": "/courses/2026/spring/M009-01"
   },
   {
@@ -11712,7 +14755,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "M010-01",
     "sourceIndex": 506,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/506.json",
+    "englishDetailPath": "/details-en/506.json",
+    "detailPaths": {
+      "ja": "/details/506.json",
+      "en": "/details-en/506.json"
+    },
     "routePath": "/courses/2026/spring/M010-01"
   },
   {
@@ -11735,7 +14784,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "M011-01",
     "sourceIndex": 507,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/507.json",
+    "englishDetailPath": "/details-en/507.json",
+    "detailPaths": {
+      "ja": "/details/507.json",
+      "en": "/details-en/507.json"
+    },
     "routePath": "/courses/2026/spring/M011-01"
   },
   {
@@ -11758,7 +14813,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "M012-01",
     "sourceIndex": 508,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/508.json",
+    "englishDetailPath": "/details-en/508.json",
+    "detailPaths": {
+      "ja": "/details/508.json",
+      "en": "/details-en/508.json"
+    },
     "routePath": "/courses/2026/spring/M012-01"
   },
   {
@@ -11781,7 +14842,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "M013-01",
     "sourceIndex": 509,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/509.json",
+    "englishDetailPath": "/details-en/509.json",
+    "detailPaths": {
+      "ja": "/details/509.json",
+      "en": "/details-en/509.json"
+    },
     "routePath": "/courses/2026/spring/M013-01"
   },
   {
@@ -11804,7 +14871,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "M014-01",
     "sourceIndex": 510,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/510.json",
+    "englishDetailPath": "/details-en/510.json",
+    "detailPaths": {
+      "ja": "/details/510.json",
+      "en": "/details-en/510.json"
+    },
     "routePath": "/courses/2026/spring/M014-01"
   },
   {
@@ -11827,7 +14900,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "M015-01",
     "sourceIndex": 511,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/511.json",
+    "englishDetailPath": "/details-en/511.json",
+    "detailPaths": {
+      "ja": "/details/511.json",
+      "en": "/details-en/511.json"
+    },
     "routePath": "/courses/2026/spring/M015-01"
   },
   {
@@ -11850,7 +14929,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "M017-01",
     "sourceIndex": 512,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/512.json",
+    "englishDetailPath": "/details-en/512.json",
+    "detailPaths": {
+      "ja": "/details/512.json",
+      "en": "/details-en/512.json"
+    },
     "routePath": "/courses/2026/fall/M017-01"
   },
   {
@@ -11873,7 +14958,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "M018-01",
     "sourceIndex": 513,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/513.json",
+    "englishDetailPath": "/details-en/513.json",
+    "detailPaths": {
+      "ja": "/details/513.json",
+      "en": "/details-en/513.json"
+    },
     "routePath": "/courses/2026/fall/M018-01"
   },
   {
@@ -11896,7 +14987,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "M019-01",
     "sourceIndex": 514,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/514.json",
+    "englishDetailPath": "/details-en/514.json",
+    "detailPaths": {
+      "ja": "/details/514.json",
+      "en": "/details-en/514.json"
+    },
     "routePath": "/courses/2026/fall/M019-01"
   },
   {
@@ -11919,7 +15016,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "M020-01",
     "sourceIndex": 515,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/515.json",
+    "englishDetailPath": "/details-en/515.json",
+    "detailPaths": {
+      "ja": "/details/515.json",
+      "en": "/details-en/515.json"
+    },
     "routePath": "/courses/2026/fall/M020-01"
   },
   {
@@ -11942,7 +15045,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "M021-01",
     "sourceIndex": 516,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/516.json",
+    "englishDetailPath": "/details-en/516.json",
+    "detailPaths": {
+      "ja": "/details/516.json",
+      "en": "/details-en/516.json"
+    },
     "routePath": "/courses/2026/fall/M021-01"
   },
   {
@@ -11965,7 +15074,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "M022-01",
     "sourceIndex": 517,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/517.json",
+    "englishDetailPath": "/details-en/517.json",
+    "detailPaths": {
+      "ja": "/details/517.json",
+      "en": "/details-en/517.json"
+    },
     "routePath": "/courses/2026/fall/M022-01"
   },
   {
@@ -11988,7 +15103,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "M023-01",
     "sourceIndex": 518,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/518.json",
+    "englishDetailPath": "/details-en/518.json",
+    "detailPaths": {
+      "ja": "/details/518.json",
+      "en": "/details-en/518.json"
+    },
     "routePath": "/courses/2026/fall/M023-01"
   },
   {
@@ -12011,7 +15132,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "M101-01",
     "sourceIndex": 519,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/519.json",
+    "englishDetailPath": "/details-en/519.json",
+    "detailPaths": {
+      "ja": "/details/519.json",
+      "en": "/details-en/519.json"
+    },
     "routePath": "/courses/2026/spring/M101-01"
   },
   {
@@ -12034,7 +15161,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "M102-01",
     "sourceIndex": 520,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/520.json",
+    "englishDetailPath": "/details-en/520.json",
+    "detailPaths": {
+      "ja": "/details/520.json",
+      "en": "/details-en/520.json"
+    },
     "routePath": "/courses/2026/spring/M102-01"
   },
   {
@@ -12057,7 +15190,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "M103-01",
     "sourceIndex": 521,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/521.json",
+    "englishDetailPath": "/details-en/521.json",
+    "detailPaths": {
+      "ja": "/details/521.json",
+      "en": "/details-en/521.json"
+    },
     "routePath": "/courses/2026/spring/M103-01"
   },
   {
@@ -12080,7 +15219,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "M104-01",
     "sourceIndex": 522,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/522.json",
+    "englishDetailPath": "/details-en/522.json",
+    "detailPaths": {
+      "ja": "/details/522.json",
+      "en": "/details-en/522.json"
+    },
     "routePath": "/courses/2026/spring/M104-01"
   },
   {
@@ -12103,7 +15248,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "M105-01",
     "sourceIndex": 523,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/523.json",
+    "englishDetailPath": "/details-en/523.json",
+    "detailPaths": {
+      "ja": "/details/523.json",
+      "en": "/details-en/523.json"
+    },
     "routePath": "/courses/2026/spring/M105-01"
   },
   {
@@ -12126,7 +15277,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "M106-01",
     "sourceIndex": 524,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/524.json",
+    "englishDetailPath": "/details-en/524.json",
+    "detailPaths": {
+      "ja": "/details/524.json",
+      "en": "/details-en/524.json"
+    },
     "routePath": "/courses/2026/fall/M106-01"
   },
   {
@@ -12149,7 +15306,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "M107-01",
     "sourceIndex": 525,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/525.json",
+    "englishDetailPath": "/details-en/525.json",
+    "detailPaths": {
+      "ja": "/details/525.json",
+      "en": "/details-en/525.json"
+    },
     "routePath": "/courses/2026/fall/M107-01"
   },
   {
@@ -12172,7 +15335,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "M108-01",
     "sourceIndex": 526,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/526.json",
+    "englishDetailPath": "/details-en/526.json",
+    "detailPaths": {
+      "ja": "/details/526.json",
+      "en": "/details-en/526.json"
+    },
     "routePath": "/courses/2026/fall/M108-01"
   },
   {
@@ -12195,7 +15364,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "M109-01",
     "sourceIndex": 527,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/527.json",
+    "englishDetailPath": "/details-en/527.json",
+    "detailPaths": {
+      "ja": "/details/527.json",
+      "en": "/details-en/527.json"
+    },
     "routePath": "/courses/2026/spring/M109-01"
   },
   {
@@ -12218,7 +15393,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "M110-01",
     "sourceIndex": 528,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/528.json",
+    "englishDetailPath": "/details-en/528.json",
+    "detailPaths": {
+      "ja": "/details/528.json",
+      "en": "/details-en/528.json"
+    },
     "routePath": "/courses/2026/spring/M110-01"
   },
   {
@@ -12241,7 +15422,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "M111-01",
     "sourceIndex": 529,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/529.json",
+    "englishDetailPath": "/details-en/529.json",
+    "detailPaths": {
+      "ja": "/details/529.json",
+      "en": "/details-en/529.json"
+    },
     "routePath": "/courses/2026/spring/M111-01"
   },
   {
@@ -12264,7 +15451,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "M112-01",
     "sourceIndex": 530,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/530.json",
+    "englishDetailPath": "/details-en/530.json",
+    "detailPaths": {
+      "ja": "/details/530.json",
+      "en": "/details-en/530.json"
+    },
     "routePath": "/courses/2026/spring/M112-01"
   },
   {
@@ -12287,7 +15480,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "M113-01",
     "sourceIndex": 531,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/531.json",
+    "englishDetailPath": "/details-en/531.json",
+    "detailPaths": {
+      "ja": "/details/531.json",
+      "en": "/details-en/531.json"
+    },
     "routePath": "/courses/2026/spring/M113-01"
   },
   {
@@ -12310,7 +15509,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "M114-01",
     "sourceIndex": 532,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/532.json",
+    "englishDetailPath": "/details-en/532.json",
+    "detailPaths": {
+      "ja": "/details/532.json",
+      "en": "/details-en/532.json"
+    },
     "routePath": "/courses/2026/spring/M114-01"
   },
   {
@@ -12333,7 +15538,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "M115-01",
     "sourceIndex": 533,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/533.json",
+    "englishDetailPath": "/details-en/533.json",
+    "detailPaths": {
+      "ja": "/details/533.json",
+      "en": "/details-en/533.json"
+    },
     "routePath": "/courses/2026/fall/M115-01"
   },
   {
@@ -12356,7 +15567,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "M116-01",
     "sourceIndex": 534,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/534.json",
+    "englishDetailPath": "/details-en/534.json",
+    "detailPaths": {
+      "ja": "/details/534.json",
+      "en": "/details-en/534.json"
+    },
     "routePath": "/courses/2026/fall/M116-01"
   },
   {
@@ -12379,7 +15596,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "M117-01",
     "sourceIndex": 535,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/535.json",
+    "englishDetailPath": "/details-en/535.json",
+    "detailPaths": {
+      "ja": "/details/535.json",
+      "en": "/details-en/535.json"
+    },
     "routePath": "/courses/2026/fall/M117-01"
   },
   {
@@ -12402,7 +15625,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "M118-01",
     "sourceIndex": 536,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/536.json",
+    "englishDetailPath": "/details-en/536.json",
+    "detailPaths": {
+      "ja": "/details/536.json",
+      "en": "/details-en/536.json"
+    },
     "routePath": "/courses/2026/fall/M118-01"
   },
   {
@@ -12425,7 +15654,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "M119-01",
     "sourceIndex": 537,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/537.json",
+    "englishDetailPath": "/details-en/537.json",
+    "detailPaths": {
+      "ja": "/details/537.json",
+      "en": "/details-en/537.json"
+    },
     "routePath": "/courses/2026/fall/M119-01"
   },
   {
@@ -12448,7 +15683,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "M120-01",
     "sourceIndex": 538,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/538.json",
+    "englishDetailPath": "/details-en/538.json",
+    "detailPaths": {
+      "ja": "/details/538.json",
+      "en": "/details-en/538.json"
+    },
     "routePath": "/courses/2026/fall/M120-01"
   },
   {
@@ -12471,7 +15712,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "M942-01",
     "sourceIndex": 539,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/539.json",
+    "englishDetailPath": "/details-en/539.json",
+    "detailPaths": {
+      "ja": "/details/539.json",
+      "en": "/details-en/539.json"
+    },
     "routePath": "/courses/2026/fall/M942-01"
   },
   {
@@ -12494,7 +15741,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "A018-01",
     "sourceIndex": 540,
     "hasDetail": true,
+    "hasEnglishDetail": false,
     "detailPath": "/details/540.json",
+    "englishDetailPath": null,
+    "detailPaths": {
+      "ja": "/details/540.json",
+      "en": null
+    },
     "routePath": "/courses/2026/spring/A018-01"
   },
   {
@@ -12517,7 +15770,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "A021-01",
     "sourceIndex": 541,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/541.json",
+    "englishDetailPath": "/details-en/541.json",
+    "detailPaths": {
+      "ja": "/details/541.json",
+      "en": "/details-en/541.json"
+    },
     "routePath": "/courses/2026/spring/A021-01"
   },
   {
@@ -12540,7 +15799,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "A022-01",
     "sourceIndex": 542,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/542.json",
+    "englishDetailPath": "/details-en/542.json",
+    "detailPaths": {
+      "ja": "/details/542.json",
+      "en": "/details-en/542.json"
+    },
     "routePath": "/courses/2026/spring/A022-01"
   },
   {
@@ -12563,7 +15828,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "A023-01",
     "sourceIndex": 543,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/543.json",
+    "englishDetailPath": "/details-en/543.json",
+    "detailPaths": {
+      "ja": "/details/543.json",
+      "en": "/details-en/543.json"
+    },
     "routePath": "/courses/2026/spring/A023-01"
   },
   {
@@ -12586,7 +15857,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "A024-01",
     "sourceIndex": 544,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/544.json",
+    "englishDetailPath": "/details-en/544.json",
+    "detailPaths": {
+      "ja": "/details/544.json",
+      "en": "/details-en/544.json"
+    },
     "routePath": "/courses/2026/spring/A024-01"
   },
   {
@@ -12609,7 +15886,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "A025-01",
     "sourceIndex": 545,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/545.json",
+    "englishDetailPath": "/details-en/545.json",
+    "detailPaths": {
+      "ja": "/details/545.json",
+      "en": "/details-en/545.json"
+    },
     "routePath": "/courses/2026/spring/A025-01"
   },
   {
@@ -12632,7 +15915,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "A026-01",
     "sourceIndex": 546,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/546.json",
+    "englishDetailPath": "/details-en/546.json",
+    "detailPaths": {
+      "ja": "/details/546.json",
+      "en": "/details-en/546.json"
+    },
     "routePath": "/courses/2026/spring/A026-01"
   },
   {
@@ -12655,7 +15944,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "A027-01",
     "sourceIndex": 547,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/547.json",
+    "englishDetailPath": "/details-en/547.json",
+    "detailPaths": {
+      "ja": "/details/547.json",
+      "en": "/details-en/547.json"
+    },
     "routePath": "/courses/2026/spring/A027-01"
   },
   {
@@ -12678,7 +15973,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "A028-01",
     "sourceIndex": 548,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/548.json",
+    "englishDetailPath": "/details-en/548.json",
+    "detailPaths": {
+      "ja": "/details/548.json",
+      "en": "/details-en/548.json"
+    },
     "routePath": "/courses/2026/spring/A028-01"
   },
   {
@@ -12701,7 +16002,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "A029-01",
     "sourceIndex": 549,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/549.json",
+    "englishDetailPath": "/details-en/549.json",
+    "detailPaths": {
+      "ja": "/details/549.json",
+      "en": "/details-en/549.json"
+    },
     "routePath": "/courses/2026/fall/A029-01"
   },
   {
@@ -12724,7 +16031,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "A030-01",
     "sourceIndex": 550,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/550.json",
+    "englishDetailPath": "/details-en/550.json",
+    "detailPaths": {
+      "ja": "/details/550.json",
+      "en": "/details-en/550.json"
+    },
     "routePath": "/courses/2026/fall/A030-01"
   },
   {
@@ -12747,7 +16060,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "A031-01",
     "sourceIndex": 551,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/551.json",
+    "englishDetailPath": "/details-en/551.json",
+    "detailPaths": {
+      "ja": "/details/551.json",
+      "en": "/details-en/551.json"
+    },
     "routePath": "/courses/2026/fall/A031-01"
   },
   {
@@ -12770,7 +16089,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "A032-01",
     "sourceIndex": 552,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/552.json",
+    "englishDetailPath": "/details-en/552.json",
+    "detailPaths": {
+      "ja": "/details/552.json",
+      "en": "/details-en/552.json"
+    },
     "routePath": "/courses/2026/fall/A032-01"
   },
   {
@@ -12793,7 +16118,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "A033-01",
     "sourceIndex": 553,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/553.json",
+    "englishDetailPath": "/details-en/553.json",
+    "detailPaths": {
+      "ja": "/details/553.json",
+      "en": "/details-en/553.json"
+    },
     "routePath": "/courses/2026/fall/A033-01"
   },
   {
@@ -12816,7 +16147,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "A034-01",
     "sourceIndex": 554,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/554.json",
+    "englishDetailPath": "/details-en/554.json",
+    "detailPaths": {
+      "ja": "/details/554.json",
+      "en": "/details-en/554.json"
+    },
     "routePath": "/courses/2026/fall/A034-01"
   },
   {
@@ -12839,7 +16176,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "A035-01",
     "sourceIndex": 555,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/555.json",
+    "englishDetailPath": "/details-en/555.json",
+    "detailPaths": {
+      "ja": "/details/555.json",
+      "en": "/details-en/555.json"
+    },
     "routePath": "/courses/2026/fall/A035-01"
   },
   {
@@ -12862,7 +16205,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "A036-01",
     "sourceIndex": 556,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/556.json",
+    "englishDetailPath": "/details-en/556.json",
+    "detailPaths": {
+      "ja": "/details/556.json",
+      "en": "/details-en/556.json"
+    },
     "routePath": "/courses/2026/spring/A036-01"
   },
   {
@@ -12885,7 +16234,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "A037-01",
     "sourceIndex": 557,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/557.json",
+    "englishDetailPath": "/details-en/557.json",
+    "detailPaths": {
+      "ja": "/details/557.json",
+      "en": "/details-en/557.json"
+    },
     "routePath": "/courses/2026/fall/A037-01"
   },
   {
@@ -12908,7 +16263,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "A038-01",
     "sourceIndex": 558,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/558.json",
+    "englishDetailPath": "/details-en/558.json",
+    "detailPaths": {
+      "ja": "/details/558.json",
+      "en": "/details-en/558.json"
+    },
     "routePath": "/courses/2026/spring/A038-01"
   },
   {
@@ -12931,7 +16292,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "A039-01",
     "sourceIndex": 559,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/559.json",
+    "englishDetailPath": "/details-en/559.json",
+    "detailPaths": {
+      "ja": "/details/559.json",
+      "en": "/details-en/559.json"
+    },
     "routePath": "/courses/2026/fall/A039-01"
   },
   {
@@ -12954,7 +16321,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "A901-01",
     "sourceIndex": 560,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/560.json",
+    "englishDetailPath": "/details-en/560.json",
+    "detailPaths": {
+      "ja": "/details/560.json",
+      "en": "/details-en/560.json"
+    },
     "routePath": "/courses/2026/fall/A901-01"
   },
   {
@@ -12977,7 +16350,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "A911-01",
     "sourceIndex": 561,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/561.json",
+    "englishDetailPath": "/details-en/561.json",
+    "detailPaths": {
+      "ja": "/details/561.json",
+      "en": "/details-en/561.json"
+    },
     "routePath": "/courses/2026/fall/A911-01"
   },
   {
@@ -13000,7 +16379,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "A921-02",
     "sourceIndex": 562,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/562.json",
+    "englishDetailPath": "/details-en/562.json",
+    "detailPaths": {
+      "ja": "/details/562.json",
+      "en": "/details-en/562.json"
+    },
     "routePath": "/courses/2026/full-year/A921-02"
   },
   {
@@ -13023,7 +16408,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "A921-03",
     "sourceIndex": 563,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/563.json",
+    "englishDetailPath": "/details-en/563.json",
+    "detailPaths": {
+      "ja": "/details/563.json",
+      "en": "/details-en/563.json"
+    },
     "routePath": "/courses/2026/full-year/A921-03"
   },
   {
@@ -13046,7 +16437,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "A921-04",
     "sourceIndex": 564,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/564.json",
+    "englishDetailPath": "/details-en/564.json",
+    "detailPaths": {
+      "ja": "/details/564.json",
+      "en": "/details-en/564.json"
+    },
     "routePath": "/courses/2026/full-year/A921-04"
   },
   {
@@ -13069,7 +16466,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "A921-05",
     "sourceIndex": 565,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/565.json",
+    "englishDetailPath": "/details-en/565.json",
+    "detailPaths": {
+      "ja": "/details/565.json",
+      "en": "/details-en/565.json"
+    },
     "routePath": "/courses/2026/full-year/A921-05"
   },
   {
@@ -13092,7 +16495,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "A921-06",
     "sourceIndex": 566,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/566.json",
+    "englishDetailPath": "/details-en/566.json",
+    "detailPaths": {
+      "ja": "/details/566.json",
+      "en": "/details-en/566.json"
+    },
     "routePath": "/courses/2026/full-year/A921-06"
   },
   {
@@ -13115,7 +16524,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "A921-07",
     "sourceIndex": 567,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/567.json",
+    "englishDetailPath": "/details-en/567.json",
+    "detailPaths": {
+      "ja": "/details/567.json",
+      "en": "/details-en/567.json"
+    },
     "routePath": "/courses/2026/full-year/A921-07"
   },
   {
@@ -13138,7 +16553,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "A921-08",
     "sourceIndex": 568,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/568.json",
+    "englishDetailPath": "/details-en/568.json",
+    "detailPaths": {
+      "ja": "/details/568.json",
+      "en": "/details-en/568.json"
+    },
     "routePath": "/courses/2026/full-year/A921-08"
   },
   {
@@ -13161,7 +16582,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "A921-09",
     "sourceIndex": 569,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/569.json",
+    "englishDetailPath": "/details-en/569.json",
+    "detailPaths": {
+      "ja": "/details/569.json",
+      "en": "/details-en/569.json"
+    },
     "routePath": "/courses/2026/full-year/A921-09"
   },
   {
@@ -13184,7 +16611,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "A921-12",
     "sourceIndex": 570,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/570.json",
+    "englishDetailPath": "/details-en/570.json",
+    "detailPaths": {
+      "ja": "/details/570.json",
+      "en": "/details-en/570.json"
+    },
     "routePath": "/courses/2026/full-year/A921-12"
   },
   {
@@ -13207,7 +16640,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "A921-14",
     "sourceIndex": 571,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/571.json",
+    "englishDetailPath": "/details-en/571.json",
+    "detailPaths": {
+      "ja": "/details/571.json",
+      "en": "/details-en/571.json"
+    },
     "routePath": "/courses/2026/full-year/A921-14"
   },
   {
@@ -13230,7 +16669,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "A921-15",
     "sourceIndex": 572,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/572.json",
+    "englishDetailPath": "/details-en/572.json",
+    "detailPaths": {
+      "ja": "/details/572.json",
+      "en": "/details-en/572.json"
+    },
     "routePath": "/courses/2026/full-year/A921-15"
   },
   {
@@ -13253,7 +16698,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "A921-16",
     "sourceIndex": 573,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/573.json",
+    "englishDetailPath": "/details-en/573.json",
+    "detailPaths": {
+      "ja": "/details/573.json",
+      "en": "/details-en/573.json"
+    },
     "routePath": "/courses/2026/full-year/A921-16"
   },
   {
@@ -13276,7 +16727,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "A921-17",
     "sourceIndex": 574,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/574.json",
+    "englishDetailPath": "/details-en/574.json",
+    "detailPaths": {
+      "ja": "/details/574.json",
+      "en": "/details-en/574.json"
+    },
     "routePath": "/courses/2026/full-year/A921-17"
   },
   {
@@ -13299,7 +16756,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "A921-18",
     "sourceIndex": 575,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/575.json",
+    "englishDetailPath": "/details-en/575.json",
+    "detailPaths": {
+      "ja": "/details/575.json",
+      "en": "/details-en/575.json"
+    },
     "routePath": "/courses/2026/full-year/A921-18"
   },
   {
@@ -13322,7 +16785,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "A921-19",
     "sourceIndex": 576,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/576.json",
+    "englishDetailPath": "/details-en/576.json",
+    "detailPaths": {
+      "ja": "/details/576.json",
+      "en": "/details-en/576.json"
+    },
     "routePath": "/courses/2026/full-year/A921-19"
   },
   {
@@ -13345,7 +16814,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "A921-20",
     "sourceIndex": 577,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/577.json",
+    "englishDetailPath": "/details-en/577.json",
+    "detailPaths": {
+      "ja": "/details/577.json",
+      "en": "/details-en/577.json"
+    },
     "routePath": "/courses/2026/full-year/A921-20"
   },
   {
@@ -13368,7 +16843,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "A921-21",
     "sourceIndex": 578,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/578.json",
+    "englishDetailPath": "/details-en/578.json",
+    "detailPaths": {
+      "ja": "/details/578.json",
+      "en": "/details-en/578.json"
+    },
     "routePath": "/courses/2026/full-year/A921-21"
   },
   {
@@ -13391,7 +16872,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "A921-22",
     "sourceIndex": 579,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/579.json",
+    "englishDetailPath": "/details-en/579.json",
+    "detailPaths": {
+      "ja": "/details/579.json",
+      "en": "/details-en/579.json"
+    },
     "routePath": "/courses/2026/full-year/A921-22"
   },
   {
@@ -13414,7 +16901,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "A921-23",
     "sourceIndex": 580,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/580.json",
+    "englishDetailPath": "/details-en/580.json",
+    "detailPaths": {
+      "ja": "/details/580.json",
+      "en": "/details-en/580.json"
+    },
     "routePath": "/courses/2026/full-year/A921-23"
   },
   {
@@ -13437,7 +16930,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "A921-24",
     "sourceIndex": 581,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/581.json",
+    "englishDetailPath": "/details-en/581.json",
+    "detailPaths": {
+      "ja": "/details/581.json",
+      "en": "/details-en/581.json"
+    },
     "routePath": "/courses/2026/full-year/A921-24"
   },
   {
@@ -13460,7 +16959,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "A921-25",
     "sourceIndex": 582,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/582.json",
+    "englishDetailPath": "/details-en/582.json",
+    "detailPaths": {
+      "ja": "/details/582.json",
+      "en": "/details-en/582.json"
+    },
     "routePath": "/courses/2026/full-year/A921-25"
   },
   {
@@ -13483,7 +16988,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "A921-26",
     "sourceIndex": 583,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/583.json",
+    "englishDetailPath": "/details-en/583.json",
+    "detailPaths": {
+      "ja": "/details/583.json",
+      "en": "/details-en/583.json"
+    },
     "routePath": "/courses/2026/full-year/A921-26"
   },
   {
@@ -13506,7 +17017,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "A941-01",
     "sourceIndex": 584,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/584.json",
+    "englishDetailPath": "/details-en/584.json",
+    "detailPaths": {
+      "ja": "/details/584.json",
+      "en": "/details-en/584.json"
+    },
     "routePath": "/courses/2026/spring/A941-01"
   },
   {
@@ -13529,7 +17046,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "A951-01",
     "sourceIndex": 585,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/585.json",
+    "englishDetailPath": "/details-en/585.json",
+    "detailPaths": {
+      "ja": "/details/585.json",
+      "en": "/details-en/585.json"
+    },
     "routePath": "/courses/2026/fall/A951-01"
   },
   {
@@ -13552,7 +17075,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "C001-01",
     "sourceIndex": 586,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/586.json",
+    "englishDetailPath": "/details-en/586.json",
+    "detailPaths": {
+      "ja": "/details/586.json",
+      "en": "/details-en/586.json"
+    },
     "routePath": "/courses/2026/spring/C001-01"
   },
   {
@@ -13575,7 +17104,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "C002-01",
     "sourceIndex": 587,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/587.json",
+    "englishDetailPath": "/details-en/587.json",
+    "detailPaths": {
+      "ja": "/details/587.json",
+      "en": "/details-en/587.json"
+    },
     "routePath": "/courses/2026/spring/C002-01"
   },
   {
@@ -13598,7 +17133,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "C003-01",
     "sourceIndex": 588,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/588.json",
+    "englishDetailPath": "/details-en/588.json",
+    "detailPaths": {
+      "ja": "/details/588.json",
+      "en": "/details-en/588.json"
+    },
     "routePath": "/courses/2026/spring/C003-01"
   },
   {
@@ -13621,7 +17162,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "C004-01",
     "sourceIndex": 589,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/589.json",
+    "englishDetailPath": "/details-en/589.json",
+    "detailPaths": {
+      "ja": "/details/589.json",
+      "en": "/details-en/589.json"
+    },
     "routePath": "/courses/2026/fall/C004-01"
   },
   {
@@ -13644,7 +17191,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "C005-01",
     "sourceIndex": 590,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/590.json",
+    "englishDetailPath": "/details-en/590.json",
+    "detailPaths": {
+      "ja": "/details/590.json",
+      "en": "/details-en/590.json"
+    },
     "routePath": "/courses/2026/fall/C005-01"
   },
   {
@@ -13667,7 +17220,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "C006-01",
     "sourceIndex": 591,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/591.json",
+    "englishDetailPath": "/details-en/591.json",
+    "detailPaths": {
+      "ja": "/details/591.json",
+      "en": "/details-en/591.json"
+    },
     "routePath": "/courses/2026/fall/C006-01"
   },
   {
@@ -13690,7 +17249,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "C007-01",
     "sourceIndex": 592,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/592.json",
+    "englishDetailPath": "/details-en/592.json",
+    "detailPaths": {
+      "ja": "/details/592.json",
+      "en": "/details-en/592.json"
+    },
     "routePath": "/courses/2026/fall/C007-01"
   },
   {
@@ -13713,7 +17278,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "C008-01",
     "sourceIndex": 593,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/593.json",
+    "englishDetailPath": "/details-en/593.json",
+    "detailPaths": {
+      "ja": "/details/593.json",
+      "en": "/details-en/593.json"
+    },
     "routePath": "/courses/2026/fall/C008-01"
   },
   {
@@ -13736,7 +17307,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "C961-01",
     "sourceIndex": 594,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/594.json",
+    "englishDetailPath": "/details-en/594.json",
+    "detailPaths": {
+      "ja": "/details/594.json",
+      "en": "/details-en/594.json"
+    },
     "routePath": "/courses/2026/fall/C961-01"
   },
   {
@@ -13759,7 +17336,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "C101-01",
     "sourceIndex": 595,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/595.json",
+    "englishDetailPath": "/details-en/595.json",
+    "detailPaths": {
+      "ja": "/details/595.json",
+      "en": "/details-en/595.json"
+    },
     "routePath": "/courses/2026/spring/C101-01"
   },
   {
@@ -13782,7 +17365,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "C102-01",
     "sourceIndex": 596,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/596.json",
+    "englishDetailPath": "/details-en/596.json",
+    "detailPaths": {
+      "ja": "/details/596.json",
+      "en": "/details-en/596.json"
+    },
     "routePath": "/courses/2026/spring/C102-01"
   },
   {
@@ -13805,7 +17394,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "C103-01",
     "sourceIndex": 597,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/597.json",
+    "englishDetailPath": "/details-en/597.json",
+    "detailPaths": {
+      "ja": "/details/597.json",
+      "en": "/details-en/597.json"
+    },
     "routePath": "/courses/2026/spring/C103-01"
   },
   {
@@ -13828,7 +17423,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "C104-01",
     "sourceIndex": 598,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/598.json",
+    "englishDetailPath": "/details-en/598.json",
+    "detailPaths": {
+      "ja": "/details/598.json",
+      "en": "/details-en/598.json"
+    },
     "routePath": "/courses/2026/fall/C104-01"
   },
   {
@@ -13851,7 +17452,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "C105-01",
     "sourceIndex": 599,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/599.json",
+    "englishDetailPath": "/details-en/599.json",
+    "detailPaths": {
+      "ja": "/details/599.json",
+      "en": "/details-en/599.json"
+    },
     "routePath": "/courses/2026/fall/C105-01"
   },
   {
@@ -13874,7 +17481,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "C106-01",
     "sourceIndex": 600,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/600.json",
+    "englishDetailPath": "/details-en/600.json",
+    "detailPaths": {
+      "ja": "/details/600.json",
+      "en": "/details-en/600.json"
+    },
     "routePath": "/courses/2026/fall/C106-01"
   },
   {
@@ -13897,7 +17510,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "C107-01",
     "sourceIndex": 601,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/601.json",
+    "englishDetailPath": "/details-en/601.json",
+    "detailPaths": {
+      "ja": "/details/601.json",
+      "en": "/details-en/601.json"
+    },
     "routePath": "/courses/2026/fall/C107-01"
   },
   {
@@ -13920,7 +17539,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "C108-01",
     "sourceIndex": 602,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/602.json",
+    "englishDetailPath": "/details-en/602.json",
+    "detailPaths": {
+      "ja": "/details/602.json",
+      "en": "/details-en/602.json"
+    },
     "routePath": "/courses/2026/fall/C108-01"
   },
   {
@@ -13943,7 +17568,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "C971-01",
     "sourceIndex": 603,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/603.json",
+    "englishDetailPath": "/details-en/603.json",
+    "detailPaths": {
+      "ja": "/details/603.json",
+      "en": "/details-en/603.json"
+    },
     "routePath": "/courses/2026/fall/C971-01"
   },
   {
@@ -13966,7 +17597,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "C201-01",
     "sourceIndex": 604,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/604.json",
+    "englishDetailPath": "/details-en/604.json",
+    "detailPaths": {
+      "ja": "/details/604.json",
+      "en": "/details-en/604.json"
+    },
     "routePath": "/courses/2026/spring/C201-01"
   },
   {
@@ -13989,7 +17626,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "C202-01",
     "sourceIndex": 605,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/605.json",
+    "englishDetailPath": "/details-en/605.json",
+    "detailPaths": {
+      "ja": "/details/605.json",
+      "en": "/details-en/605.json"
+    },
     "routePath": "/courses/2026/spring/C202-01"
   },
   {
@@ -14012,7 +17655,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "C203-01",
     "sourceIndex": 606,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/606.json",
+    "englishDetailPath": "/details-en/606.json",
+    "detailPaths": {
+      "ja": "/details/606.json",
+      "en": "/details-en/606.json"
+    },
     "routePath": "/courses/2026/spring/C203-01"
   },
   {
@@ -14035,7 +17684,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "C204-01",
     "sourceIndex": 607,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/607.json",
+    "englishDetailPath": "/details-en/607.json",
+    "detailPaths": {
+      "ja": "/details/607.json",
+      "en": "/details-en/607.json"
+    },
     "routePath": "/courses/2026/spring/C204-01"
   },
   {
@@ -14058,7 +17713,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "C205-01",
     "sourceIndex": 608,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/608.json",
+    "englishDetailPath": "/details-en/608.json",
+    "detailPaths": {
+      "ja": "/details/608.json",
+      "en": "/details-en/608.json"
+    },
     "routePath": "/courses/2026/spring/C205-01"
   },
   {
@@ -14081,7 +17742,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "C205-01",
     "sourceIndex": 609,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/609.json",
+    "englishDetailPath": "/details-en/609.json",
+    "detailPaths": {
+      "ja": "/details/609.json",
+      "en": "/details-en/609.json"
+    },
     "routePath": "/courses/2026/fall/C205-01"
   },
   {
@@ -14104,7 +17771,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "C206-01",
     "sourceIndex": 610,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/610.json",
+    "englishDetailPath": "/details-en/610.json",
+    "detailPaths": {
+      "ja": "/details/610.json",
+      "en": "/details-en/610.json"
+    },
     "routePath": "/courses/2026/fall/C206-01"
   },
   {
@@ -14127,7 +17800,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "C207-01",
     "sourceIndex": 611,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/611.json",
+    "englishDetailPath": "/details-en/611.json",
+    "detailPaths": {
+      "ja": "/details/611.json",
+      "en": "/details-en/611.json"
+    },
     "routePath": "/courses/2026/fall/C207-01"
   },
   {
@@ -14150,7 +17829,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "C208-01",
     "sourceIndex": 612,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/612.json",
+    "englishDetailPath": "/details-en/612.json",
+    "detailPaths": {
+      "ja": "/details/612.json",
+      "en": "/details-en/612.json"
+    },
     "routePath": "/courses/2026/fall/C208-01"
   },
   {
@@ -14173,7 +17858,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "C209-01",
     "sourceIndex": 613,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/613.json",
+    "englishDetailPath": "/details-en/613.json",
+    "detailPaths": {
+      "ja": "/details/613.json",
+      "en": "/details-en/613.json"
+    },
     "routePath": "/courses/2026/fall/C209-01"
   },
   {
@@ -14196,7 +17887,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "C007-01",
     "sourceIndex": 614,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/614.json",
+    "englishDetailPath": "/details-en/614.json",
+    "detailPaths": {
+      "ja": "/details/614.json",
+      "en": "/details-en/614.json"
+    },
     "routePath": "/courses/2026/spring/C007-01"
   },
   {
@@ -14219,7 +17916,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "C008-01",
     "sourceIndex": 615,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/615.json",
+    "englishDetailPath": "/details-en/615.json",
+    "detailPaths": {
+      "ja": "/details/615.json",
+      "en": "/details-en/615.json"
+    },
     "routePath": "/courses/2026/spring/C008-01"
   },
   {
@@ -14242,7 +17945,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "C009-01",
     "sourceIndex": 616,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/616.json",
+    "englishDetailPath": "/details-en/616.json",
+    "detailPaths": {
+      "ja": "/details/616.json",
+      "en": "/details-en/616.json"
+    },
     "routePath": "/courses/2026/spring/C009-01"
   },
   {
@@ -14265,7 +17974,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "C010-01",
     "sourceIndex": 617,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/617.json",
+    "englishDetailPath": "/details-en/617.json",
+    "detailPaths": {
+      "ja": "/details/617.json",
+      "en": "/details-en/617.json"
+    },
     "routePath": "/courses/2026/spring/C010-01"
   },
   {
@@ -14288,7 +18003,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "C011-01",
     "sourceIndex": 618,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/618.json",
+    "englishDetailPath": "/details-en/618.json",
+    "detailPaths": {
+      "ja": "/details/618.json",
+      "en": "/details-en/618.json"
+    },
     "routePath": "/courses/2026/spring/C011-01"
   },
   {
@@ -14311,7 +18032,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "C012-01",
     "sourceIndex": 619,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/619.json",
+    "englishDetailPath": "/details-en/619.json",
+    "detailPaths": {
+      "ja": "/details/619.json",
+      "en": "/details-en/619.json"
+    },
     "routePath": "/courses/2026/spring/C012-01"
   },
   {
@@ -14334,7 +18061,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "C013-01",
     "sourceIndex": 620,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/620.json",
+    "englishDetailPath": "/details-en/620.json",
+    "detailPaths": {
+      "ja": "/details/620.json",
+      "en": "/details-en/620.json"
+    },
     "routePath": "/courses/2026/spring/C013-01"
   },
   {
@@ -14357,7 +18090,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "C014-01",
     "sourceIndex": 621,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/621.json",
+    "englishDetailPath": "/details-en/621.json",
+    "detailPaths": {
+      "ja": "/details/621.json",
+      "en": "/details-en/621.json"
+    },
     "routePath": "/courses/2026/fall/C014-01"
   },
   {
@@ -14380,7 +18119,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "C015-01",
     "sourceIndex": 622,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/622.json",
+    "englishDetailPath": "/details-en/622.json",
+    "detailPaths": {
+      "ja": "/details/622.json",
+      "en": "/details-en/622.json"
+    },
     "routePath": "/courses/2026/fall/C015-01"
   },
   {
@@ -14403,7 +18148,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "C016-01",
     "sourceIndex": 623,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/623.json",
+    "englishDetailPath": "/details-en/623.json",
+    "detailPaths": {
+      "ja": "/details/623.json",
+      "en": "/details-en/623.json"
+    },
     "routePath": "/courses/2026/fall/C016-01"
   },
   {
@@ -14426,7 +18177,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "C017-01",
     "sourceIndex": 624,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/624.json",
+    "englishDetailPath": "/details-en/624.json",
+    "detailPaths": {
+      "ja": "/details/624.json",
+      "en": "/details-en/624.json"
+    },
     "routePath": "/courses/2026/fall/C017-01"
   },
   {
@@ -14449,7 +18206,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "C018-01",
     "sourceIndex": 625,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/625.json",
+    "englishDetailPath": "/details-en/625.json",
+    "detailPaths": {
+      "ja": "/details/625.json",
+      "en": "/details-en/625.json"
+    },
     "routePath": "/courses/2026/fall/C018-01"
   },
   {
@@ -14472,7 +18235,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "C019-01",
     "sourceIndex": 626,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/626.json",
+    "englishDetailPath": "/details-en/626.json",
+    "detailPaths": {
+      "ja": "/details/626.json",
+      "en": "/details-en/626.json"
+    },
     "routePath": "/courses/2026/fall/C019-01"
   },
   {
@@ -14495,7 +18264,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "C107-01",
     "sourceIndex": 627,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/627.json",
+    "englishDetailPath": "/details-en/627.json",
+    "detailPaths": {
+      "ja": "/details/627.json",
+      "en": "/details-en/627.json"
+    },
     "routePath": "/courses/2026/spring/C107-01"
   },
   {
@@ -14518,7 +18293,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "C108-01",
     "sourceIndex": 628,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/628.json",
+    "englishDetailPath": "/details-en/628.json",
+    "detailPaths": {
+      "ja": "/details/628.json",
+      "en": "/details-en/628.json"
+    },
     "routePath": "/courses/2026/spring/C108-01"
   },
   {
@@ -14541,7 +18322,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "C109-01",
     "sourceIndex": 629,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/629.json",
+    "englishDetailPath": "/details-en/629.json",
+    "detailPaths": {
+      "ja": "/details/629.json",
+      "en": "/details-en/629.json"
+    },
     "routePath": "/courses/2026/spring/C109-01"
   },
   {
@@ -14564,7 +18351,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "C110-01",
     "sourceIndex": 630,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/630.json",
+    "englishDetailPath": "/details-en/630.json",
+    "detailPaths": {
+      "ja": "/details/630.json",
+      "en": "/details-en/630.json"
+    },
     "routePath": "/courses/2026/spring/C110-01"
   },
   {
@@ -14587,7 +18380,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "C111-01",
     "sourceIndex": 631,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/631.json",
+    "englishDetailPath": "/details-en/631.json",
+    "detailPaths": {
+      "ja": "/details/631.json",
+      "en": "/details-en/631.json"
+    },
     "routePath": "/courses/2026/spring/C111-01"
   },
   {
@@ -14610,7 +18409,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "C112-01",
     "sourceIndex": 632,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/632.json",
+    "englishDetailPath": "/details-en/632.json",
+    "detailPaths": {
+      "ja": "/details/632.json",
+      "en": "/details-en/632.json"
+    },
     "routePath": "/courses/2026/spring/C112-01"
   },
   {
@@ -14633,7 +18438,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "C113-01",
     "sourceIndex": 633,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/633.json",
+    "englishDetailPath": "/details-en/633.json",
+    "detailPaths": {
+      "ja": "/details/633.json",
+      "en": "/details-en/633.json"
+    },
     "routePath": "/courses/2026/spring/C113-01"
   },
   {
@@ -14656,7 +18467,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "C114-01",
     "sourceIndex": 634,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/634.json",
+    "englishDetailPath": "/details-en/634.json",
+    "detailPaths": {
+      "ja": "/details/634.json",
+      "en": "/details-en/634.json"
+    },
     "routePath": "/courses/2026/fall/C114-01"
   },
   {
@@ -14679,7 +18496,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "C115-01",
     "sourceIndex": 635,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/635.json",
+    "englishDetailPath": "/details-en/635.json",
+    "detailPaths": {
+      "ja": "/details/635.json",
+      "en": "/details-en/635.json"
+    },
     "routePath": "/courses/2026/fall/C115-01"
   },
   {
@@ -14702,7 +18525,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "C116-01",
     "sourceIndex": 636,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/636.json",
+    "englishDetailPath": "/details-en/636.json",
+    "detailPaths": {
+      "ja": "/details/636.json",
+      "en": "/details-en/636.json"
+    },
     "routePath": "/courses/2026/fall/C116-01"
   },
   {
@@ -14725,7 +18554,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "C117-01",
     "sourceIndex": 637,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/637.json",
+    "englishDetailPath": "/details-en/637.json",
+    "detailPaths": {
+      "ja": "/details/637.json",
+      "en": "/details-en/637.json"
+    },
     "routePath": "/courses/2026/fall/C117-01"
   },
   {
@@ -14748,7 +18583,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "C118-01",
     "sourceIndex": 638,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/638.json",
+    "englishDetailPath": "/details-en/638.json",
+    "detailPaths": {
+      "ja": "/details/638.json",
+      "en": "/details-en/638.json"
+    },
     "routePath": "/courses/2026/fall/C118-01"
   },
   {
@@ -14771,7 +18612,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "C119-01",
     "sourceIndex": 639,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/639.json",
+    "englishDetailPath": "/details-en/639.json",
+    "detailPaths": {
+      "ja": "/details/639.json",
+      "en": "/details-en/639.json"
+    },
     "routePath": "/courses/2026/fall/C119-01"
   },
   {
@@ -14794,7 +18641,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "C208-01",
     "sourceIndex": 640,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/640.json",
+    "englishDetailPath": "/details-en/640.json",
+    "detailPaths": {
+      "ja": "/details/640.json",
+      "en": "/details-en/640.json"
+    },
     "routePath": "/courses/2026/spring/C208-01"
   },
   {
@@ -14817,7 +18670,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "C210-01",
     "sourceIndex": 641,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/641.json",
+    "englishDetailPath": "/details-en/641.json",
+    "detailPaths": {
+      "ja": "/details/641.json",
+      "en": "/details-en/641.json"
+    },
     "routePath": "/courses/2026/spring/C210-01"
   },
   {
@@ -14840,7 +18699,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "C211-01",
     "sourceIndex": 642,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/642.json",
+    "englishDetailPath": "/details-en/642.json",
+    "detailPaths": {
+      "ja": "/details/642.json",
+      "en": "/details-en/642.json"
+    },
     "routePath": "/courses/2026/spring/C211-01"
   },
   {
@@ -14863,7 +18728,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "C212-01",
     "sourceIndex": 643,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/643.json",
+    "englishDetailPath": "/details-en/643.json",
+    "detailPaths": {
+      "ja": "/details/643.json",
+      "en": "/details-en/643.json"
+    },
     "routePath": "/courses/2026/spring/C212-01"
   },
   {
@@ -14886,7 +18757,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "C213-01",
     "sourceIndex": 644,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/644.json",
+    "englishDetailPath": "/details-en/644.json",
+    "detailPaths": {
+      "ja": "/details/644.json",
+      "en": "/details-en/644.json"
+    },
     "routePath": "/courses/2026/spring/C213-01"
   },
   {
@@ -14909,7 +18786,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "C214-01",
     "sourceIndex": 645,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/645.json",
+    "englishDetailPath": "/details-en/645.json",
+    "detailPaths": {
+      "ja": "/details/645.json",
+      "en": "/details-en/645.json"
+    },
     "routePath": "/courses/2026/spring/C214-01"
   },
   {
@@ -14932,7 +18815,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "C215-01",
     "sourceIndex": 646,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/646.json",
+    "englishDetailPath": "/details-en/646.json",
+    "detailPaths": {
+      "ja": "/details/646.json",
+      "en": "/details-en/646.json"
+    },
     "routePath": "/courses/2026/spring/C215-01"
   },
   {
@@ -14955,7 +18844,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "C216-01",
     "sourceIndex": 647,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/647.json",
+    "englishDetailPath": "/details-en/647.json",
+    "detailPaths": {
+      "ja": "/details/647.json",
+      "en": "/details-en/647.json"
+    },
     "routePath": "/courses/2026/fall/C216-01"
   },
   {
@@ -14978,7 +18873,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "C217-01",
     "sourceIndex": 648,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/648.json",
+    "englishDetailPath": "/details-en/648.json",
+    "detailPaths": {
+      "ja": "/details/648.json",
+      "en": "/details-en/648.json"
+    },
     "routePath": "/courses/2026/fall/C217-01"
   },
   {
@@ -15001,7 +18902,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "C218-01",
     "sourceIndex": 649,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/649.json",
+    "englishDetailPath": "/details-en/649.json",
+    "detailPaths": {
+      "ja": "/details/649.json",
+      "en": "/details-en/649.json"
+    },
     "routePath": "/courses/2026/fall/C218-01"
   },
   {
@@ -15024,7 +18931,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "C219-01",
     "sourceIndex": 650,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/650.json",
+    "englishDetailPath": "/details-en/650.json",
+    "detailPaths": {
+      "ja": "/details/650.json",
+      "en": "/details-en/650.json"
+    },
     "routePath": "/courses/2026/fall/C219-01"
   },
   {
@@ -15047,7 +18960,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "C220-01",
     "sourceIndex": 651,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/651.json",
+    "englishDetailPath": "/details-en/651.json",
+    "detailPaths": {
+      "ja": "/details/651.json",
+      "en": "/details-en/651.json"
+    },
     "routePath": "/courses/2026/fall/C220-01"
   },
   {
@@ -15070,7 +18989,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "C221-01",
     "sourceIndex": 652,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/652.json",
+    "englishDetailPath": "/details-en/652.json",
+    "detailPaths": {
+      "ja": "/details/652.json",
+      "en": "/details-en/652.json"
+    },
     "routePath": "/courses/2026/fall/C221-01"
   },
   {
@@ -15093,7 +19018,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "C222-01",
     "sourceIndex": 653,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/653.json",
+    "englishDetailPath": "/details-en/653.json",
+    "detailPaths": {
+      "ja": "/details/653.json",
+      "en": "/details-en/653.json"
+    },
     "routePath": "/courses/2026/fall/C222-01"
   },
   {
@@ -15116,7 +19047,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "C223-01",
     "sourceIndex": 654,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/654.json",
+    "englishDetailPath": "/details-en/654.json",
+    "detailPaths": {
+      "ja": "/details/654.json",
+      "en": "/details-en/654.json"
+    },
     "routePath": "/courses/2026/fall/C223-01"
   },
   {
@@ -15139,7 +19076,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "C943-01",
     "sourceIndex": 655,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/655.json",
+    "englishDetailPath": "/details-en/655.json",
+    "detailPaths": {
+      "ja": "/details/655.json",
+      "en": "/details-en/655.json"
+    },
     "routePath": "/courses/2026/fall/C943-01"
   },
   {
@@ -15162,7 +19105,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "B006-01",
     "sourceIndex": 656,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/656.json",
+    "englishDetailPath": "/details-en/656.json",
+    "detailPaths": {
+      "ja": "/details/656.json",
+      "en": "/details-en/656.json"
+    },
     "routePath": "/courses/2026/fall/B006-01"
   },
   {
@@ -15185,7 +19134,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "B017-01",
     "sourceIndex": 657,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/657.json",
+    "englishDetailPath": "/details-en/657.json",
+    "detailPaths": {
+      "ja": "/details/657.json",
+      "en": "/details-en/657.json"
+    },
     "routePath": "/courses/2026/spring/B017-01"
   },
   {
@@ -15208,7 +19163,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "B018-01",
     "sourceIndex": 658,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/658.json",
+    "englishDetailPath": "/details-en/658.json",
+    "detailPaths": {
+      "ja": "/details/658.json",
+      "en": "/details-en/658.json"
+    },
     "routePath": "/courses/2026/spring/B018-01"
   },
   {
@@ -15231,7 +19192,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "B021-01",
     "sourceIndex": 659,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/659.json",
+    "englishDetailPath": "/details-en/659.json",
+    "detailPaths": {
+      "ja": "/details/659.json",
+      "en": "/details-en/659.json"
+    },
     "routePath": "/courses/2026/spring/B021-01"
   },
   {
@@ -15254,7 +19221,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "B022-01",
     "sourceIndex": 660,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/660.json",
+    "englishDetailPath": "/details-en/660.json",
+    "detailPaths": {
+      "ja": "/details/660.json",
+      "en": "/details-en/660.json"
+    },
     "routePath": "/courses/2026/fall/B022-01"
   },
   {
@@ -15277,7 +19250,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "B023-01",
     "sourceIndex": 661,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/661.json",
+    "englishDetailPath": "/details-en/661.json",
+    "detailPaths": {
+      "ja": "/details/661.json",
+      "en": "/details-en/661.json"
+    },
     "routePath": "/courses/2026/spring/B023-01"
   },
   {
@@ -15300,7 +19279,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "B024-01",
     "sourceIndex": 662,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/662.json",
+    "englishDetailPath": "/details-en/662.json",
+    "detailPaths": {
+      "ja": "/details/662.json",
+      "en": "/details-en/662.json"
+    },
     "routePath": "/courses/2026/fall/B024-01"
   },
   {
@@ -15323,7 +19308,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "B025-01",
     "sourceIndex": 663,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/663.json",
+    "englishDetailPath": "/details-en/663.json",
+    "detailPaths": {
+      "ja": "/details/663.json",
+      "en": "/details-en/663.json"
+    },
     "routePath": "/courses/2026/spring/B025-01"
   },
   {
@@ -15346,7 +19337,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "B026-01",
     "sourceIndex": 664,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/664.json",
+    "englishDetailPath": "/details-en/664.json",
+    "detailPaths": {
+      "ja": "/details/664.json",
+      "en": "/details-en/664.json"
+    },
     "routePath": "/courses/2026/fall/B026-01"
   },
   {
@@ -15369,7 +19366,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "B027-01",
     "sourceIndex": 665,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/665.json",
+    "englishDetailPath": "/details-en/665.json",
+    "detailPaths": {
+      "ja": "/details/665.json",
+      "en": "/details-en/665.json"
+    },
     "routePath": "/courses/2026/fall/B027-01"
   },
   {
@@ -15392,7 +19395,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "B028-01",
     "sourceIndex": 666,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/666.json",
+    "englishDetailPath": "/details-en/666.json",
+    "detailPaths": {
+      "ja": "/details/666.json",
+      "en": "/details-en/666.json"
+    },
     "routePath": "/courses/2026/fall/B028-01"
   },
   {
@@ -15415,7 +19424,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "B034-01",
     "sourceIndex": 667,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/667.json",
+    "englishDetailPath": "/details-en/667.json",
+    "detailPaths": {
+      "ja": "/details/667.json",
+      "en": "/details-en/667.json"
+    },
     "routePath": "/courses/2026/spring/B034-01"
   },
   {
@@ -15438,7 +19453,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "B035-01",
     "sourceIndex": 668,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/668.json",
+    "englishDetailPath": "/details-en/668.json",
+    "detailPaths": {
+      "ja": "/details/668.json",
+      "en": "/details-en/668.json"
+    },
     "routePath": "/courses/2026/spring/B035-01"
   },
   {
@@ -15461,7 +19482,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "B042-01",
     "sourceIndex": 669,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/669.json",
+    "englishDetailPath": "/details-en/669.json",
+    "detailPaths": {
+      "ja": "/details/669.json",
+      "en": "/details-en/669.json"
+    },
     "routePath": "/courses/2026/fall/B042-01"
   },
   {
@@ -15484,7 +19511,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "B043-01",
     "sourceIndex": 670,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/670.json",
+    "englishDetailPath": "/details-en/670.json",
+    "detailPaths": {
+      "ja": "/details/670.json",
+      "en": "/details-en/670.json"
+    },
     "routePath": "/courses/2026/fall/B043-01"
   },
   {
@@ -15507,7 +19540,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "B044-01",
     "sourceIndex": 671,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/671.json",
+    "englishDetailPath": "/details-en/671.json",
+    "detailPaths": {
+      "ja": "/details/671.json",
+      "en": "/details-en/671.json"
+    },
     "routePath": "/courses/2026/fall/B044-01"
   },
   {
@@ -15530,7 +19569,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "B045-01",
     "sourceIndex": 672,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/672.json",
+    "englishDetailPath": "/details-en/672.json",
+    "detailPaths": {
+      "ja": "/details/672.json",
+      "en": "/details-en/672.json"
+    },
     "routePath": "/courses/2026/spring/B045-01"
   },
   {
@@ -15553,7 +19598,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "B046-01",
     "sourceIndex": 673,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/673.json",
+    "englishDetailPath": "/details-en/673.json",
+    "detailPaths": {
+      "ja": "/details/673.json",
+      "en": "/details-en/673.json"
+    },
     "routePath": "/courses/2026/spring/B046-01"
   },
   {
@@ -15576,7 +19627,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "B047-01",
     "sourceIndex": 674,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/674.json",
+    "englishDetailPath": "/details-en/674.json",
+    "detailPaths": {
+      "ja": "/details/674.json",
+      "en": "/details-en/674.json"
+    },
     "routePath": "/courses/2026/spring/B047-01"
   },
   {
@@ -15599,7 +19656,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "B901-01",
     "sourceIndex": 675,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/675.json",
+    "englishDetailPath": "/details-en/675.json",
+    "detailPaths": {
+      "ja": "/details/675.json",
+      "en": "/details-en/675.json"
+    },
     "routePath": "/courses/2026/fall/B901-01"
   },
   {
@@ -15622,7 +19685,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "B911-01",
     "sourceIndex": 676,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/676.json",
+    "englishDetailPath": "/details-en/676.json",
+    "detailPaths": {
+      "ja": "/details/676.json",
+      "en": "/details-en/676.json"
+    },
     "routePath": "/courses/2026/fall/B911-01"
   },
   {
@@ -15645,7 +19714,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "B921-02",
     "sourceIndex": 677,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/677.json",
+    "englishDetailPath": "/details-en/677.json",
+    "detailPaths": {
+      "ja": "/details/677.json",
+      "en": "/details-en/677.json"
+    },
     "routePath": "/courses/2026/full-year/B921-02"
   },
   {
@@ -15668,7 +19743,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "B921-03",
     "sourceIndex": 678,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/678.json",
+    "englishDetailPath": "/details-en/678.json",
+    "detailPaths": {
+      "ja": "/details/678.json",
+      "en": "/details-en/678.json"
+    },
     "routePath": "/courses/2026/full-year/B921-03"
   },
   {
@@ -15691,7 +19772,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "B921-05",
     "sourceIndex": 679,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/679.json",
+    "englishDetailPath": "/details-en/679.json",
+    "detailPaths": {
+      "ja": "/details/679.json",
+      "en": "/details-en/679.json"
+    },
     "routePath": "/courses/2026/full-year/B921-05"
   },
   {
@@ -15714,7 +19801,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "B921-06",
     "sourceIndex": 680,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/680.json",
+    "englishDetailPath": "/details-en/680.json",
+    "detailPaths": {
+      "ja": "/details/680.json",
+      "en": "/details-en/680.json"
+    },
     "routePath": "/courses/2026/full-year/B921-06"
   },
   {
@@ -15737,7 +19830,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "B921-07",
     "sourceIndex": 681,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/681.json",
+    "englishDetailPath": "/details-en/681.json",
+    "detailPaths": {
+      "ja": "/details/681.json",
+      "en": "/details-en/681.json"
+    },
     "routePath": "/courses/2026/full-year/B921-07"
   },
   {
@@ -15760,7 +19859,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "B921-08",
     "sourceIndex": 682,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/682.json",
+    "englishDetailPath": "/details-en/682.json",
+    "detailPaths": {
+      "ja": "/details/682.json",
+      "en": "/details-en/682.json"
+    },
     "routePath": "/courses/2026/full-year/B921-08"
   },
   {
@@ -15783,7 +19888,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "B921-09",
     "sourceIndex": 683,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/683.json",
+    "englishDetailPath": "/details-en/683.json",
+    "detailPaths": {
+      "ja": "/details/683.json",
+      "en": "/details-en/683.json"
+    },
     "routePath": "/courses/2026/full-year/B921-09"
   },
   {
@@ -15806,7 +19917,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "B921-10",
     "sourceIndex": 684,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/684.json",
+    "englishDetailPath": "/details-en/684.json",
+    "detailPaths": {
+      "ja": "/details/684.json",
+      "en": "/details-en/684.json"
+    },
     "routePath": "/courses/2026/full-year/B921-10"
   },
   {
@@ -15829,7 +19946,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "B921-12",
     "sourceIndex": 685,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/685.json",
+    "englishDetailPath": "/details-en/685.json",
+    "detailPaths": {
+      "ja": "/details/685.json",
+      "en": "/details-en/685.json"
+    },
     "routePath": "/courses/2026/full-year/B921-12"
   },
   {
@@ -15852,7 +19975,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "B921-13",
     "sourceIndex": 686,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/686.json",
+    "englishDetailPath": "/details-en/686.json",
+    "detailPaths": {
+      "ja": "/details/686.json",
+      "en": "/details-en/686.json"
+    },
     "routePath": "/courses/2026/full-year/B921-13"
   },
   {
@@ -15875,7 +20004,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "B921-14",
     "sourceIndex": 687,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/687.json",
+    "englishDetailPath": "/details-en/687.json",
+    "detailPaths": {
+      "ja": "/details/687.json",
+      "en": "/details-en/687.json"
+    },
     "routePath": "/courses/2026/full-year/B921-14"
   },
   {
@@ -15898,7 +20033,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "B921-15",
     "sourceIndex": 688,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/688.json",
+    "englishDetailPath": "/details-en/688.json",
+    "detailPaths": {
+      "ja": "/details/688.json",
+      "en": "/details-en/688.json"
+    },
     "routePath": "/courses/2026/full-year/B921-15"
   },
   {
@@ -15921,7 +20062,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "B941-01",
     "sourceIndex": 689,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/689.json",
+    "englishDetailPath": "/details-en/689.json",
+    "detailPaths": {
+      "ja": "/details/689.json",
+      "en": "/details-en/689.json"
+    },
     "routePath": "/courses/2026/spring/B941-01"
   },
   {
@@ -15944,7 +20091,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "B951-01",
     "sourceIndex": 690,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/690.json",
+    "englishDetailPath": "/details-en/690.json",
+    "detailPaths": {
+      "ja": "/details/690.json",
+      "en": "/details-en/690.json"
+    },
     "routePath": "/courses/2026/fall/B951-01"
   },
   {
@@ -15967,7 +20120,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "B117-01",
     "sourceIndex": 691,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/691.json",
+    "englishDetailPath": "/details-en/691.json",
+    "detailPaths": {
+      "ja": "/details/691.json",
+      "en": "/details-en/691.json"
+    },
     "routePath": "/courses/2026/spring/B117-01"
   },
   {
@@ -15990,7 +20149,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "B118-01",
     "sourceIndex": 692,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/692.json",
+    "englishDetailPath": "/details-en/692.json",
+    "detailPaths": {
+      "ja": "/details/692.json",
+      "en": "/details-en/692.json"
+    },
     "routePath": "/courses/2026/spring/B118-01"
   },
   {
@@ -16013,7 +20178,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "B119-01",
     "sourceIndex": 693,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/693.json",
+    "englishDetailPath": "/details-en/693.json",
+    "detailPaths": {
+      "ja": "/details/693.json",
+      "en": "/details-en/693.json"
+    },
     "routePath": "/courses/2026/spring/B119-01"
   },
   {
@@ -16036,7 +20207,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "B120-01",
     "sourceIndex": 694,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/694.json",
+    "englishDetailPath": "/details-en/694.json",
+    "detailPaths": {
+      "ja": "/details/694.json",
+      "en": "/details-en/694.json"
+    },
     "routePath": "/courses/2026/spring/B120-01"
   },
   {
@@ -16059,7 +20236,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "B121-01",
     "sourceIndex": 695,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/695.json",
+    "englishDetailPath": "/details-en/695.json",
+    "detailPaths": {
+      "ja": "/details/695.json",
+      "en": "/details-en/695.json"
+    },
     "routePath": "/courses/2026/spring/B121-01"
   },
   {
@@ -16082,7 +20265,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "B122-01",
     "sourceIndex": 696,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/696.json",
+    "englishDetailPath": "/details-en/696.json",
+    "detailPaths": {
+      "ja": "/details/696.json",
+      "en": "/details-en/696.json"
+    },
     "routePath": "/courses/2026/spring/B122-01"
   },
   {
@@ -16105,7 +20294,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "B123-01",
     "sourceIndex": 697,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/697.json",
+    "englishDetailPath": "/details-en/697.json",
+    "detailPaths": {
+      "ja": "/details/697.json",
+      "en": "/details-en/697.json"
+    },
     "routePath": "/courses/2026/fall/B123-01"
   },
   {
@@ -16128,7 +20323,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "B124-01",
     "sourceIndex": 698,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/698.json",
+    "englishDetailPath": "/details-en/698.json",
+    "detailPaths": {
+      "ja": "/details/698.json",
+      "en": "/details-en/698.json"
+    },
     "routePath": "/courses/2026/fall/B124-01"
   },
   {
@@ -16151,7 +20352,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "B125-01",
     "sourceIndex": 699,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/699.json",
+    "englishDetailPath": "/details-en/699.json",
+    "detailPaths": {
+      "ja": "/details/699.json",
+      "en": "/details-en/699.json"
+    },
     "routePath": "/courses/2026/fall/B125-01"
   },
   {
@@ -16174,7 +20381,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "B126-01",
     "sourceIndex": 700,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/700.json",
+    "englishDetailPath": "/details-en/700.json",
+    "detailPaths": {
+      "ja": "/details/700.json",
+      "en": "/details-en/700.json"
+    },
     "routePath": "/courses/2026/fall/B126-01"
   },
   {
@@ -16197,7 +20410,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "B127-01",
     "sourceIndex": 701,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/701.json",
+    "englishDetailPath": "/details-en/701.json",
+    "detailPaths": {
+      "ja": "/details/701.json",
+      "en": "/details-en/701.json"
+    },
     "routePath": "/courses/2026/fall/B127-01"
   },
   {
@@ -16220,7 +20439,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "B128-01",
     "sourceIndex": 702,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/702.json",
+    "englishDetailPath": "/details-en/702.json",
+    "detailPaths": {
+      "ja": "/details/702.json",
+      "en": "/details-en/702.json"
+    },
     "routePath": "/courses/2026/spring/B128-01"
   },
   {
@@ -16243,7 +20468,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "B129-01",
     "sourceIndex": 703,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/703.json",
+    "englishDetailPath": "/details-en/703.json",
+    "detailPaths": {
+      "ja": "/details/703.json",
+      "en": "/details-en/703.json"
+    },
     "routePath": "/courses/2026/fall/B129-01"
   },
   {
@@ -16266,7 +20497,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "B132-01",
     "sourceIndex": 704,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/704.json",
+    "englishDetailPath": "/details-en/704.json",
+    "detailPaths": {
+      "ja": "/details/704.json",
+      "en": "/details-en/704.json"
+    },
     "routePath": "/courses/2026/spring/B132-01"
   },
   {
@@ -16289,7 +20526,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "B132-01",
     "sourceIndex": 705,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/705.json",
+    "englishDetailPath": "/details-en/705.json",
+    "detailPaths": {
+      "ja": "/details/705.json",
+      "en": "/details-en/705.json"
+    },
     "routePath": "/courses/2026/fall/B132-01"
   },
   {
@@ -16312,7 +20555,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "B133-01",
     "sourceIndex": 706,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/706.json",
+    "englishDetailPath": "/details-en/706.json",
+    "detailPaths": {
+      "ja": "/details/706.json",
+      "en": "/details-en/706.json"
+    },
     "routePath": "/courses/2026/spring/B133-01"
   },
   {
@@ -16335,7 +20584,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "B133-01",
     "sourceIndex": 707,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/707.json",
+    "englishDetailPath": "/details-en/707.json",
+    "detailPaths": {
+      "ja": "/details/707.json",
+      "en": "/details-en/707.json"
+    },
     "routePath": "/courses/2026/fall/B133-01"
   },
   {
@@ -16358,7 +20613,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "B902-01",
     "sourceIndex": 708,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/708.json",
+    "englishDetailPath": "/details-en/708.json",
+    "detailPaths": {
+      "ja": "/details/708.json",
+      "en": "/details-en/708.json"
+    },
     "routePath": "/courses/2026/fall/B902-01"
   },
   {
@@ -16381,7 +20642,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "B912-01",
     "sourceIndex": 709,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/709.json",
+    "englishDetailPath": "/details-en/709.json",
+    "detailPaths": {
+      "ja": "/details/709.json",
+      "en": "/details-en/709.json"
+    },
     "routePath": "/courses/2026/spring/B912-01"
   },
   {
@@ -16404,7 +20671,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "B922-07",
     "sourceIndex": 710,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/710.json",
+    "englishDetailPath": "/details-en/710.json",
+    "detailPaths": {
+      "ja": "/details/710.json",
+      "en": "/details-en/710.json"
+    },
     "routePath": "/courses/2026/full-year/B922-07"
   },
   {
@@ -16427,7 +20700,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "B922-08",
     "sourceIndex": 711,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/711.json",
+    "englishDetailPath": "/details-en/711.json",
+    "detailPaths": {
+      "ja": "/details/711.json",
+      "en": "/details-en/711.json"
+    },
     "routePath": "/courses/2026/full-year/B922-08"
   },
   {
@@ -16450,7 +20729,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "B922-11",
     "sourceIndex": 712,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/712.json",
+    "englishDetailPath": "/details-en/712.json",
+    "detailPaths": {
+      "ja": "/details/712.json",
+      "en": "/details-en/712.json"
+    },
     "routePath": "/courses/2026/full-year/B922-11"
   },
   {
@@ -16473,7 +20758,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "B922-12",
     "sourceIndex": 713,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/713.json",
+    "englishDetailPath": "/details-en/713.json",
+    "detailPaths": {
+      "ja": "/details/713.json",
+      "en": "/details-en/713.json"
+    },
     "routePath": "/courses/2026/full-year/B922-12"
   },
   {
@@ -16496,7 +20787,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "B922-14",
     "sourceIndex": 714,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/714.json",
+    "englishDetailPath": "/details-en/714.json",
+    "detailPaths": {
+      "ja": "/details/714.json",
+      "en": "/details-en/714.json"
+    },
     "routePath": "/courses/2026/full-year/B922-14"
   },
   {
@@ -16519,7 +20816,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "B922-16",
     "sourceIndex": 715,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/715.json",
+    "englishDetailPath": "/details-en/715.json",
+    "detailPaths": {
+      "ja": "/details/715.json",
+      "en": "/details-en/715.json"
+    },
     "routePath": "/courses/2026/full-year/B922-16"
   },
   {
@@ -16542,7 +20845,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "B922-17",
     "sourceIndex": 716,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/716.json",
+    "englishDetailPath": "/details-en/716.json",
+    "detailPaths": {
+      "ja": "/details/716.json",
+      "en": "/details-en/716.json"
+    },
     "routePath": "/courses/2026/full-year/B922-17"
   },
   {
@@ -16565,7 +20874,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "B922-18",
     "sourceIndex": 717,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/717.json",
+    "englishDetailPath": "/details-en/717.json",
+    "detailPaths": {
+      "ja": "/details/717.json",
+      "en": "/details-en/717.json"
+    },
     "routePath": "/courses/2026/full-year/B922-18"
   },
   {
@@ -16588,7 +20903,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "B942-01",
     "sourceIndex": 718,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/718.json",
+    "englishDetailPath": "/details-en/718.json",
+    "detailPaths": {
+      "ja": "/details/718.json",
+      "en": "/details-en/718.json"
+    },
     "routePath": "/courses/2026/spring/B942-01"
   },
   {
@@ -16611,7 +20932,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "B952-01",
     "sourceIndex": 719,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/719.json",
+    "englishDetailPath": "/details-en/719.json",
+    "detailPaths": {
+      "ja": "/details/719.json",
+      "en": "/details-en/719.json"
+    },
     "routePath": "/courses/2026/fall/B952-01"
   },
   {
@@ -16634,7 +20961,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "B201-01",
     "sourceIndex": 720,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/720.json",
+    "englishDetailPath": "/details-en/720.json",
+    "detailPaths": {
+      "ja": "/details/720.json",
+      "en": "/details-en/720.json"
+    },
     "routePath": "/courses/2026/spring/B201-01"
   },
   {
@@ -16657,7 +20990,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "B202-01",
     "sourceIndex": 721,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/721.json",
+    "englishDetailPath": "/details-en/721.json",
+    "detailPaths": {
+      "ja": "/details/721.json",
+      "en": "/details-en/721.json"
+    },
     "routePath": "/courses/2026/spring/B202-01"
   },
   {
@@ -16680,7 +21019,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "B203-01",
     "sourceIndex": 722,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/722.json",
+    "englishDetailPath": "/details-en/722.json",
+    "detailPaths": {
+      "ja": "/details/722.json",
+      "en": "/details-en/722.json"
+    },
     "routePath": "/courses/2026/spring/B203-01"
   },
   {
@@ -16703,7 +21048,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "B204-01",
     "sourceIndex": 723,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/723.json",
+    "englishDetailPath": "/details-en/723.json",
+    "detailPaths": {
+      "ja": "/details/723.json",
+      "en": "/details-en/723.json"
+    },
     "routePath": "/courses/2026/spring/B204-01"
   },
   {
@@ -16726,7 +21077,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "B205-01",
     "sourceIndex": 724,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/724.json",
+    "englishDetailPath": "/details-en/724.json",
+    "detailPaths": {
+      "ja": "/details/724.json",
+      "en": "/details-en/724.json"
+    },
     "routePath": "/courses/2026/fall/B205-01"
   },
   {
@@ -16749,7 +21106,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "B206-01",
     "sourceIndex": 725,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/725.json",
+    "englishDetailPath": "/details-en/725.json",
+    "detailPaths": {
+      "ja": "/details/725.json",
+      "en": "/details-en/725.json"
+    },
     "routePath": "/courses/2026/fall/B206-01"
   },
   {
@@ -16772,7 +21135,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "B207-01",
     "sourceIndex": 726,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/726.json",
+    "englishDetailPath": "/details-en/726.json",
+    "detailPaths": {
+      "ja": "/details/726.json",
+      "en": "/details-en/726.json"
+    },
     "routePath": "/courses/2026/fall/B207-01"
   },
   {
@@ -16795,7 +21164,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "B208-01",
     "sourceIndex": 727,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/727.json",
+    "englishDetailPath": "/details-en/727.json",
+    "detailPaths": {
+      "ja": "/details/727.json",
+      "en": "/details-en/727.json"
+    },
     "routePath": "/courses/2026/spring/B208-01"
   },
   {
@@ -16818,7 +21193,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "B209-01",
     "sourceIndex": 728,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/728.json",
+    "englishDetailPath": "/details-en/728.json",
+    "detailPaths": {
+      "ja": "/details/728.json",
+      "en": "/details-en/728.json"
+    },
     "routePath": "/courses/2026/spring/B209-01"
   },
   {
@@ -16841,7 +21222,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "B210-01",
     "sourceIndex": 729,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/729.json",
+    "englishDetailPath": "/details-en/729.json",
+    "detailPaths": {
+      "ja": "/details/729.json",
+      "en": "/details-en/729.json"
+    },
     "routePath": "/courses/2026/spring/B210-01"
   },
   {
@@ -16864,7 +21251,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "B211-01",
     "sourceIndex": 730,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/730.json",
+    "englishDetailPath": "/details-en/730.json",
+    "detailPaths": {
+      "ja": "/details/730.json",
+      "en": "/details-en/730.json"
+    },
     "routePath": "/courses/2026/spring/B211-01"
   },
   {
@@ -16887,7 +21280,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "B212-01",
     "sourceIndex": 731,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/731.json",
+    "englishDetailPath": "/details-en/731.json",
+    "detailPaths": {
+      "ja": "/details/731.json",
+      "en": "/details-en/731.json"
+    },
     "routePath": "/courses/2026/fall/B212-01"
   },
   {
@@ -16910,7 +21309,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "B213-01",
     "sourceIndex": 732,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/732.json",
+    "englishDetailPath": "/details-en/732.json",
+    "detailPaths": {
+      "ja": "/details/732.json",
+      "en": "/details-en/732.json"
+    },
     "routePath": "/courses/2026/fall/B213-01"
   },
   {
@@ -16933,7 +21338,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "B214-01",
     "sourceIndex": 733,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/733.json",
+    "englishDetailPath": "/details-en/733.json",
+    "detailPaths": {
+      "ja": "/details/733.json",
+      "en": "/details-en/733.json"
+    },
     "routePath": "/courses/2026/fall/B214-01"
   },
   {
@@ -16956,7 +21367,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "B215-01",
     "sourceIndex": 734,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/734.json",
+    "englishDetailPath": "/details-en/734.json",
+    "detailPaths": {
+      "ja": "/details/734.json",
+      "en": "/details-en/734.json"
+    },
     "routePath": "/courses/2026/fall/B215-01"
   },
   {
@@ -16979,7 +21396,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "B216-01",
     "sourceIndex": 735,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/735.json",
+    "englishDetailPath": "/details-en/735.json",
+    "detailPaths": {
+      "ja": "/details/735.json",
+      "en": "/details-en/735.json"
+    },
     "routePath": "/courses/2026/spring/B216-01"
   },
   {
@@ -17002,7 +21425,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "B217-01",
     "sourceIndex": 736,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/736.json",
+    "englishDetailPath": "/details-en/736.json",
+    "detailPaths": {
+      "ja": "/details/736.json",
+      "en": "/details-en/736.json"
+    },
     "routePath": "/courses/2026/spring/B217-01"
   },
   {
@@ -17025,7 +21454,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "B218-01",
     "sourceIndex": 737,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/737.json",
+    "englishDetailPath": "/details-en/737.json",
+    "detailPaths": {
+      "ja": "/details/737.json",
+      "en": "/details-en/737.json"
+    },
     "routePath": "/courses/2026/spring/B218-01"
   },
   {
@@ -17048,7 +21483,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "B219-01",
     "sourceIndex": 738,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/738.json",
+    "englishDetailPath": "/details-en/738.json",
+    "detailPaths": {
+      "ja": "/details/738.json",
+      "en": "/details-en/738.json"
+    },
     "routePath": "/courses/2026/fall/B219-01"
   },
   {
@@ -17071,7 +21512,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "B220-01",
     "sourceIndex": 739,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/739.json",
+    "englishDetailPath": "/details-en/739.json",
+    "detailPaths": {
+      "ja": "/details/739.json",
+      "en": "/details-en/739.json"
+    },
     "routePath": "/courses/2026/fall/B220-01"
   },
   {
@@ -17094,7 +21541,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "B221-01",
     "sourceIndex": 740,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/740.json",
+    "englishDetailPath": "/details-en/740.json",
+    "detailPaths": {
+      "ja": "/details/740.json",
+      "en": "/details-en/740.json"
+    },
     "routePath": "/courses/2026/fall/B221-01"
   },
   {
@@ -17117,7 +21570,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "B943-01",
     "sourceIndex": 741,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/741.json",
+    "englishDetailPath": "/details-en/741.json",
+    "detailPaths": {
+      "ja": "/details/741.json",
+      "en": "/details-en/741.json"
+    },
     "routePath": "/courses/2026/fall/B943-01"
   },
   {
@@ -17140,7 +21599,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "B301-01",
     "sourceIndex": 742,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/742.json",
+    "englishDetailPath": "/details-en/742.json",
+    "detailPaths": {
+      "ja": "/details/742.json",
+      "en": "/details-en/742.json"
+    },
     "routePath": "/courses/2026/spring/B301-01"
   },
   {
@@ -17163,7 +21628,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "B302-01",
     "sourceIndex": 743,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/743.json",
+    "englishDetailPath": "/details-en/743.json",
+    "detailPaths": {
+      "ja": "/details/743.json",
+      "en": "/details-en/743.json"
+    },
     "routePath": "/courses/2026/spring/B302-01"
   },
   {
@@ -17186,7 +21657,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "B303-01",
     "sourceIndex": 744,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/744.json",
+    "englishDetailPath": "/details-en/744.json",
+    "detailPaths": {
+      "ja": "/details/744.json",
+      "en": "/details-en/744.json"
+    },
     "routePath": "/courses/2026/spring/B303-01"
   },
   {
@@ -17209,7 +21686,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "B304-01",
     "sourceIndex": 745,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/745.json",
+    "englishDetailPath": "/details-en/745.json",
+    "detailPaths": {
+      "ja": "/details/745.json",
+      "en": "/details-en/745.json"
+    },
     "routePath": "/courses/2026/spring/B304-01"
   },
   {
@@ -17232,7 +21715,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "B305-01",
     "sourceIndex": 746,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/746.json",
+    "englishDetailPath": "/details-en/746.json",
+    "detailPaths": {
+      "ja": "/details/746.json",
+      "en": "/details-en/746.json"
+    },
     "routePath": "/courses/2026/fall/B305-01"
   },
   {
@@ -17255,7 +21744,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "B306-01",
     "sourceIndex": 747,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/747.json",
+    "englishDetailPath": "/details-en/747.json",
+    "detailPaths": {
+      "ja": "/details/747.json",
+      "en": "/details-en/747.json"
+    },
     "routePath": "/courses/2026/fall/B306-01"
   },
   {
@@ -17278,7 +21773,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "B307-01",
     "sourceIndex": 748,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/748.json",
+    "englishDetailPath": "/details-en/748.json",
+    "detailPaths": {
+      "ja": "/details/748.json",
+      "en": "/details-en/748.json"
+    },
     "routePath": "/courses/2026/fall/B307-01"
   },
   {
@@ -17301,7 +21802,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "B308-01",
     "sourceIndex": 749,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/749.json",
+    "englishDetailPath": "/details-en/749.json",
+    "detailPaths": {
+      "ja": "/details/749.json",
+      "en": "/details-en/749.json"
+    },
     "routePath": "/courses/2026/spring/B308-01"
   },
   {
@@ -17324,7 +21831,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "B309-01",
     "sourceIndex": 750,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/750.json",
+    "englishDetailPath": "/details-en/750.json",
+    "detailPaths": {
+      "ja": "/details/750.json",
+      "en": "/details-en/750.json"
+    },
     "routePath": "/courses/2026/spring/B309-01"
   },
   {
@@ -17347,7 +21860,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "B310-01",
     "sourceIndex": 751,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/751.json",
+    "englishDetailPath": "/details-en/751.json",
+    "detailPaths": {
+      "ja": "/details/751.json",
+      "en": "/details-en/751.json"
+    },
     "routePath": "/courses/2026/spring/B310-01"
   },
   {
@@ -17370,7 +21889,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "B311-01",
     "sourceIndex": 752,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/752.json",
+    "englishDetailPath": "/details-en/752.json",
+    "detailPaths": {
+      "ja": "/details/752.json",
+      "en": "/details-en/752.json"
+    },
     "routePath": "/courses/2026/spring/B311-01"
   },
   {
@@ -17393,7 +21918,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "B312-01",
     "sourceIndex": 753,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/753.json",
+    "englishDetailPath": "/details-en/753.json",
+    "detailPaths": {
+      "ja": "/details/753.json",
+      "en": "/details-en/753.json"
+    },
     "routePath": "/courses/2026/spring/B312-01"
   },
   {
@@ -17416,7 +21947,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "B313-01",
     "sourceIndex": 754,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/754.json",
+    "englishDetailPath": "/details-en/754.json",
+    "detailPaths": {
+      "ja": "/details/754.json",
+      "en": "/details-en/754.json"
+    },
     "routePath": "/courses/2026/spring/B313-01"
   },
   {
@@ -17439,7 +21976,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "B314-01",
     "sourceIndex": 755,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/755.json",
+    "englishDetailPath": "/details-en/755.json",
+    "detailPaths": {
+      "ja": "/details/755.json",
+      "en": "/details-en/755.json"
+    },
     "routePath": "/courses/2026/fall/B314-01"
   },
   {
@@ -17462,7 +22005,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "B315-01",
     "sourceIndex": 756,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/756.json",
+    "englishDetailPath": "/details-en/756.json",
+    "detailPaths": {
+      "ja": "/details/756.json",
+      "en": "/details-en/756.json"
+    },
     "routePath": "/courses/2026/fall/B315-01"
   },
   {
@@ -17485,7 +22034,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "B316-01",
     "sourceIndex": 757,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/757.json",
+    "englishDetailPath": "/details-en/757.json",
+    "detailPaths": {
+      "ja": "/details/757.json",
+      "en": "/details-en/757.json"
+    },
     "routePath": "/courses/2026/fall/B316-01"
   },
   {
@@ -17508,7 +22063,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "B317-01",
     "sourceIndex": 758,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/758.json",
+    "englishDetailPath": "/details-en/758.json",
+    "detailPaths": {
+      "ja": "/details/758.json",
+      "en": "/details-en/758.json"
+    },
     "routePath": "/courses/2026/spring/B317-01"
   },
   {
@@ -17531,7 +22092,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "B317-01",
     "sourceIndex": 759,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/759.json",
+    "englishDetailPath": "/details-en/759.json",
+    "detailPaths": {
+      "ja": "/details/759.json",
+      "en": "/details-en/759.json"
+    },
     "routePath": "/courses/2026/fall/B317-01"
   },
   {
@@ -17554,7 +22121,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "B318-01",
     "sourceIndex": 760,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/760.json",
+    "englishDetailPath": "/details-en/760.json",
+    "detailPaths": {
+      "ja": "/details/760.json",
+      "en": "/details-en/760.json"
+    },
     "routePath": "/courses/2026/spring/B318-01"
   },
   {
@@ -17577,7 +22150,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "B318-01",
     "sourceIndex": 761,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/761.json",
+    "englishDetailPath": "/details-en/761.json",
+    "detailPaths": {
+      "ja": "/details/761.json",
+      "en": "/details-en/761.json"
+    },
     "routePath": "/courses/2026/fall/B318-01"
   },
   {
@@ -17600,7 +22179,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "B944-01",
     "sourceIndex": 762,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/762.json",
+    "englishDetailPath": "/details-en/762.json",
+    "detailPaths": {
+      "ja": "/details/762.json",
+      "en": "/details-en/762.json"
+    },
     "routePath": "/courses/2026/fall/B944-01"
   },
   {
@@ -17623,7 +22208,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K001-01",
     "sourceIndex": 763,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/763.json",
+    "englishDetailPath": "/details-en/763.json",
+    "detailPaths": {
+      "ja": "/details/763.json",
+      "en": "/details-en/763.json"
+    },
     "routePath": "/courses/2026/spring/K001-01"
   },
   {
@@ -17646,7 +22237,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K002-01",
     "sourceIndex": 764,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/764.json",
+    "englishDetailPath": "/details-en/764.json",
+    "detailPaths": {
+      "ja": "/details/764.json",
+      "en": "/details-en/764.json"
+    },
     "routePath": "/courses/2026/spring/K002-01"
   },
   {
@@ -17669,7 +22266,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K003-01",
     "sourceIndex": 765,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/765.json",
+    "englishDetailPath": "/details-en/765.json",
+    "detailPaths": {
+      "ja": "/details/765.json",
+      "en": "/details-en/765.json"
+    },
     "routePath": "/courses/2026/spring/K003-01"
   },
   {
@@ -17692,7 +22295,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K004-01",
     "sourceIndex": 766,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/766.json",
+    "englishDetailPath": "/details-en/766.json",
+    "detailPaths": {
+      "ja": "/details/766.json",
+      "en": "/details-en/766.json"
+    },
     "routePath": "/courses/2026/spring/K004-01"
   },
   {
@@ -17715,7 +22324,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K005-01",
     "sourceIndex": 767,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/767.json",
+    "englishDetailPath": "/details-en/767.json",
+    "detailPaths": {
+      "ja": "/details/767.json",
+      "en": "/details-en/767.json"
+    },
     "routePath": "/courses/2026/spring/K005-01"
   },
   {
@@ -17738,7 +22353,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K006-01",
     "sourceIndex": 768,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/768.json",
+    "englishDetailPath": "/details-en/768.json",
+    "detailPaths": {
+      "ja": "/details/768.json",
+      "en": "/details-en/768.json"
+    },
     "routePath": "/courses/2026/fall/K006-01"
   },
   {
@@ -17761,7 +22382,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K007-01",
     "sourceIndex": 769,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/769.json",
+    "englishDetailPath": "/details-en/769.json",
+    "detailPaths": {
+      "ja": "/details/769.json",
+      "en": "/details-en/769.json"
+    },
     "routePath": "/courses/2026/fall/K007-01"
   },
   {
@@ -17784,7 +22411,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K008-01",
     "sourceIndex": 770,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/770.json",
+    "englishDetailPath": "/details-en/770.json",
+    "detailPaths": {
+      "ja": "/details/770.json",
+      "en": "/details-en/770.json"
+    },
     "routePath": "/courses/2026/spring/K008-01"
   },
   {
@@ -17807,7 +22440,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K009-01",
     "sourceIndex": 771,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/771.json",
+    "englishDetailPath": "/details-en/771.json",
+    "detailPaths": {
+      "ja": "/details/771.json",
+      "en": "/details-en/771.json"
+    },
     "routePath": "/courses/2026/spring/K009-01"
   },
   {
@@ -17830,7 +22469,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K010-01",
     "sourceIndex": 772,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/772.json",
+    "englishDetailPath": "/details-en/772.json",
+    "detailPaths": {
+      "ja": "/details/772.json",
+      "en": "/details-en/772.json"
+    },
     "routePath": "/courses/2026/spring/K010-01"
   },
   {
@@ -17853,7 +22498,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K011-01",
     "sourceIndex": 773,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/773.json",
+    "englishDetailPath": "/details-en/773.json",
+    "detailPaths": {
+      "ja": "/details/773.json",
+      "en": "/details-en/773.json"
+    },
     "routePath": "/courses/2026/spring/K011-01"
   },
   {
@@ -17876,7 +22527,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K012-01",
     "sourceIndex": 774,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/774.json",
+    "englishDetailPath": "/details-en/774.json",
+    "detailPaths": {
+      "ja": "/details/774.json",
+      "en": "/details-en/774.json"
+    },
     "routePath": "/courses/2026/spring/K012-01"
   },
   {
@@ -17899,7 +22556,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K013-01",
     "sourceIndex": 775,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/775.json",
+    "englishDetailPath": "/details-en/775.json",
+    "detailPaths": {
+      "ja": "/details/775.json",
+      "en": "/details-en/775.json"
+    },
     "routePath": "/courses/2026/spring/K013-01"
   },
   {
@@ -17922,7 +22585,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K014-01",
     "sourceIndex": 776,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/776.json",
+    "englishDetailPath": "/details-en/776.json",
+    "detailPaths": {
+      "ja": "/details/776.json",
+      "en": "/details-en/776.json"
+    },
     "routePath": "/courses/2026/fall/K014-01"
   },
   {
@@ -17945,7 +22614,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K015-01",
     "sourceIndex": 777,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/777.json",
+    "englishDetailPath": "/details-en/777.json",
+    "detailPaths": {
+      "ja": "/details/777.json",
+      "en": "/details-en/777.json"
+    },
     "routePath": "/courses/2026/fall/K015-01"
   },
   {
@@ -17968,7 +22643,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K016-01",
     "sourceIndex": 778,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/778.json",
+    "englishDetailPath": "/details-en/778.json",
+    "detailPaths": {
+      "ja": "/details/778.json",
+      "en": "/details-en/778.json"
+    },
     "routePath": "/courses/2026/fall/K016-01"
   },
   {
@@ -17991,7 +22672,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K017-01",
     "sourceIndex": 779,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/779.json",
+    "englishDetailPath": "/details-en/779.json",
+    "detailPaths": {
+      "ja": "/details/779.json",
+      "en": "/details-en/779.json"
+    },
     "routePath": "/courses/2026/fall/K017-01"
   },
   {
@@ -18014,7 +22701,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K018-01",
     "sourceIndex": 780,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/780.json",
+    "englishDetailPath": "/details-en/780.json",
+    "detailPaths": {
+      "ja": "/details/780.json",
+      "en": "/details-en/780.json"
+    },
     "routePath": "/courses/2026/fall/K018-01"
   },
   {
@@ -18037,7 +22730,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K019-01",
     "sourceIndex": 781,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/781.json",
+    "englishDetailPath": "/details-en/781.json",
+    "detailPaths": {
+      "ja": "/details/781.json",
+      "en": "/details-en/781.json"
+    },
     "routePath": "/courses/2026/fall/K019-01"
   },
   {
@@ -18060,7 +22759,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K020-01",
     "sourceIndex": 782,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/782.json",
+    "englishDetailPath": "/details-en/782.json",
+    "detailPaths": {
+      "ja": "/details/782.json",
+      "en": "/details-en/782.json"
+    },
     "routePath": "/courses/2026/fall/K020-01"
   },
   {
@@ -18083,7 +22788,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K021-01",
     "sourceIndex": 783,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/783.json",
+    "englishDetailPath": "/details-en/783.json",
+    "detailPaths": {
+      "ja": "/details/783.json",
+      "en": "/details-en/783.json"
+    },
     "routePath": "/courses/2026/fall/K021-01"
   },
   {
@@ -18106,7 +22817,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K101-01",
     "sourceIndex": 784,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/784.json",
+    "englishDetailPath": "/details-en/784.json",
+    "detailPaths": {
+      "ja": "/details/784.json",
+      "en": "/details-en/784.json"
+    },
     "routePath": "/courses/2026/spring/K101-01"
   },
   {
@@ -18129,7 +22846,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K102-01",
     "sourceIndex": 785,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/785.json",
+    "englishDetailPath": "/details-en/785.json",
+    "detailPaths": {
+      "ja": "/details/785.json",
+      "en": "/details-en/785.json"
+    },
     "routePath": "/courses/2026/spring/K102-01"
   },
   {
@@ -18152,7 +22875,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K103-01",
     "sourceIndex": 786,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/786.json",
+    "englishDetailPath": "/details-en/786.json",
+    "detailPaths": {
+      "ja": "/details/786.json",
+      "en": "/details-en/786.json"
+    },
     "routePath": "/courses/2026/spring/K103-01"
   },
   {
@@ -18175,7 +22904,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K104-01",
     "sourceIndex": 787,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/787.json",
+    "englishDetailPath": "/details-en/787.json",
+    "detailPaths": {
+      "ja": "/details/787.json",
+      "en": "/details-en/787.json"
+    },
     "routePath": "/courses/2026/spring/K104-01"
   },
   {
@@ -18198,7 +22933,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K105-01",
     "sourceIndex": 788,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/788.json",
+    "englishDetailPath": "/details-en/788.json",
+    "detailPaths": {
+      "ja": "/details/788.json",
+      "en": "/details-en/788.json"
+    },
     "routePath": "/courses/2026/spring/K105-01"
   },
   {
@@ -18221,7 +22962,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K106-01",
     "sourceIndex": 789,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/789.json",
+    "englishDetailPath": "/details-en/789.json",
+    "detailPaths": {
+      "ja": "/details/789.json",
+      "en": "/details-en/789.json"
+    },
     "routePath": "/courses/2026/fall/K106-01"
   },
   {
@@ -18244,7 +22991,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K107-01",
     "sourceIndex": 790,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/790.json",
+    "englishDetailPath": "/details-en/790.json",
+    "detailPaths": {
+      "ja": "/details/790.json",
+      "en": "/details-en/790.json"
+    },
     "routePath": "/courses/2026/fall/K107-01"
   },
   {
@@ -18267,7 +23020,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K108-01",
     "sourceIndex": 791,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/791.json",
+    "englishDetailPath": "/details-en/791.json",
+    "detailPaths": {
+      "ja": "/details/791.json",
+      "en": "/details-en/791.json"
+    },
     "routePath": "/courses/2026/spring/K108-01"
   },
   {
@@ -18290,7 +23049,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K109-01",
     "sourceIndex": 792,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/792.json",
+    "englishDetailPath": "/details-en/792.json",
+    "detailPaths": {
+      "ja": "/details/792.json",
+      "en": "/details-en/792.json"
+    },
     "routePath": "/courses/2026/spring/K109-01"
   },
   {
@@ -18313,7 +23078,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K110-01",
     "sourceIndex": 793,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/793.json",
+    "englishDetailPath": "/details-en/793.json",
+    "detailPaths": {
+      "ja": "/details/793.json",
+      "en": "/details-en/793.json"
+    },
     "routePath": "/courses/2026/spring/K110-01"
   },
   {
@@ -18336,7 +23107,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K111-01",
     "sourceIndex": 794,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/794.json",
+    "englishDetailPath": "/details-en/794.json",
+    "detailPaths": {
+      "ja": "/details/794.json",
+      "en": "/details-en/794.json"
+    },
     "routePath": "/courses/2026/spring/K111-01"
   },
   {
@@ -18359,7 +23136,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K112-01",
     "sourceIndex": 795,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/795.json",
+    "englishDetailPath": "/details-en/795.json",
+    "detailPaths": {
+      "ja": "/details/795.json",
+      "en": "/details-en/795.json"
+    },
     "routePath": "/courses/2026/spring/K112-01"
   },
   {
@@ -18382,7 +23165,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K113-01",
     "sourceIndex": 796,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/796.json",
+    "englishDetailPath": "/details-en/796.json",
+    "detailPaths": {
+      "ja": "/details/796.json",
+      "en": "/details-en/796.json"
+    },
     "routePath": "/courses/2026/spring/K113-01"
   },
   {
@@ -18405,7 +23194,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K114-01",
     "sourceIndex": 797,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/797.json",
+    "englishDetailPath": "/details-en/797.json",
+    "detailPaths": {
+      "ja": "/details/797.json",
+      "en": "/details-en/797.json"
+    },
     "routePath": "/courses/2026/fall/K114-01"
   },
   {
@@ -18428,7 +23223,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K115-01",
     "sourceIndex": 798,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/798.json",
+    "englishDetailPath": "/details-en/798.json",
+    "detailPaths": {
+      "ja": "/details/798.json",
+      "en": "/details-en/798.json"
+    },
     "routePath": "/courses/2026/fall/K115-01"
   },
   {
@@ -18451,7 +23252,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K116-01",
     "sourceIndex": 799,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/799.json",
+    "englishDetailPath": "/details-en/799.json",
+    "detailPaths": {
+      "ja": "/details/799.json",
+      "en": "/details-en/799.json"
+    },
     "routePath": "/courses/2026/fall/K116-01"
   },
   {
@@ -18474,7 +23281,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K117-01",
     "sourceIndex": 800,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/800.json",
+    "englishDetailPath": "/details-en/800.json",
+    "detailPaths": {
+      "ja": "/details/800.json",
+      "en": "/details-en/800.json"
+    },
     "routePath": "/courses/2026/fall/K117-01"
   },
   {
@@ -18497,7 +23310,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K118-01",
     "sourceIndex": 801,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/801.json",
+    "englishDetailPath": "/details-en/801.json",
+    "detailPaths": {
+      "ja": "/details/801.json",
+      "en": "/details-en/801.json"
+    },
     "routePath": "/courses/2026/fall/K118-01"
   },
   {
@@ -18520,7 +23339,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K119-01",
     "sourceIndex": 802,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/802.json",
+    "englishDetailPath": "/details-en/802.json",
+    "detailPaths": {
+      "ja": "/details/802.json",
+      "en": "/details-en/802.json"
+    },
     "routePath": "/courses/2026/fall/K119-01"
   },
   {
@@ -18543,7 +23368,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K120-01",
     "sourceIndex": 803,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/803.json",
+    "englishDetailPath": "/details-en/803.json",
+    "detailPaths": {
+      "ja": "/details/803.json",
+      "en": "/details-en/803.json"
+    },
     "routePath": "/courses/2026/fall/K120-01"
   },
   {
@@ -18566,7 +23397,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K121-01",
     "sourceIndex": 804,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/804.json",
+    "englishDetailPath": "/details-en/804.json",
+    "detailPaths": {
+      "ja": "/details/804.json",
+      "en": "/details-en/804.json"
+    },
     "routePath": "/courses/2026/fall/K121-01"
   },
   {
@@ -18589,7 +23426,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K201-01",
     "sourceIndex": 805,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/805.json",
+    "englishDetailPath": "/details-en/805.json",
+    "detailPaths": {
+      "ja": "/details/805.json",
+      "en": "/details-en/805.json"
+    },
     "routePath": "/courses/2026/spring/K201-01"
   },
   {
@@ -18612,7 +23455,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K202-01",
     "sourceIndex": 806,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/806.json",
+    "englishDetailPath": "/details-en/806.json",
+    "detailPaths": {
+      "ja": "/details/806.json",
+      "en": "/details-en/806.json"
+    },
     "routePath": "/courses/2026/spring/K202-01"
   },
   {
@@ -18635,7 +23484,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K203-01",
     "sourceIndex": 807,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/807.json",
+    "englishDetailPath": "/details-en/807.json",
+    "detailPaths": {
+      "ja": "/details/807.json",
+      "en": "/details-en/807.json"
+    },
     "routePath": "/courses/2026/spring/K203-01"
   },
   {
@@ -18658,7 +23513,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K204-01",
     "sourceIndex": 808,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/808.json",
+    "englishDetailPath": "/details-en/808.json",
+    "detailPaths": {
+      "ja": "/details/808.json",
+      "en": "/details-en/808.json"
+    },
     "routePath": "/courses/2026/spring/K204-01"
   },
   {
@@ -18681,7 +23542,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K205-01",
     "sourceIndex": 809,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/809.json",
+    "englishDetailPath": "/details-en/809.json",
+    "detailPaths": {
+      "ja": "/details/809.json",
+      "en": "/details-en/809.json"
+    },
     "routePath": "/courses/2026/fall/K205-01"
   },
   {
@@ -18704,7 +23571,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K206-01",
     "sourceIndex": 810,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/810.json",
+    "englishDetailPath": "/details-en/810.json",
+    "detailPaths": {
+      "ja": "/details/810.json",
+      "en": "/details-en/810.json"
+    },
     "routePath": "/courses/2026/fall/K206-01"
   },
   {
@@ -18727,7 +23600,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K207-01",
     "sourceIndex": 811,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/811.json",
+    "englishDetailPath": "/details-en/811.json",
+    "detailPaths": {
+      "ja": "/details/811.json",
+      "en": "/details-en/811.json"
+    },
     "routePath": "/courses/2026/fall/K207-01"
   },
   {
@@ -18750,7 +23629,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K208-01",
     "sourceIndex": 812,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/812.json",
+    "englishDetailPath": "/details-en/812.json",
+    "detailPaths": {
+      "ja": "/details/812.json",
+      "en": "/details-en/812.json"
+    },
     "routePath": "/courses/2026/fall/K208-01"
   },
   {
@@ -18773,7 +23658,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K209-01",
     "sourceIndex": 813,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/813.json",
+    "englishDetailPath": "/details-en/813.json",
+    "detailPaths": {
+      "ja": "/details/813.json",
+      "en": "/details-en/813.json"
+    },
     "routePath": "/courses/2026/spring/K209-01"
   },
   {
@@ -18796,7 +23687,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K210-01",
     "sourceIndex": 814,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/814.json",
+    "englishDetailPath": "/details-en/814.json",
+    "detailPaths": {
+      "ja": "/details/814.json",
+      "en": "/details-en/814.json"
+    },
     "routePath": "/courses/2026/spring/K210-01"
   },
   {
@@ -18819,7 +23716,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K211-01",
     "sourceIndex": 815,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/815.json",
+    "englishDetailPath": "/details-en/815.json",
+    "detailPaths": {
+      "ja": "/details/815.json",
+      "en": "/details-en/815.json"
+    },
     "routePath": "/courses/2026/spring/K211-01"
   },
   {
@@ -18842,7 +23745,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K212-01",
     "sourceIndex": 816,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/816.json",
+    "englishDetailPath": "/details-en/816.json",
+    "detailPaths": {
+      "ja": "/details/816.json",
+      "en": "/details-en/816.json"
+    },
     "routePath": "/courses/2026/spring/K212-01"
   },
   {
@@ -18865,7 +23774,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K213-01",
     "sourceIndex": 817,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/817.json",
+    "englishDetailPath": "/details-en/817.json",
+    "detailPaths": {
+      "ja": "/details/817.json",
+      "en": "/details-en/817.json"
+    },
     "routePath": "/courses/2026/spring/K213-01"
   },
   {
@@ -18888,7 +23803,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K214-01",
     "sourceIndex": 818,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/818.json",
+    "englishDetailPath": "/details-en/818.json",
+    "detailPaths": {
+      "ja": "/details/818.json",
+      "en": "/details-en/818.json"
+    },
     "routePath": "/courses/2026/fall/K214-01"
   },
   {
@@ -18911,7 +23832,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K215-01",
     "sourceIndex": 819,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/819.json",
+    "englishDetailPath": "/details-en/819.json",
+    "detailPaths": {
+      "ja": "/details/819.json",
+      "en": "/details-en/819.json"
+    },
     "routePath": "/courses/2026/fall/K215-01"
   },
   {
@@ -18934,7 +23861,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K216-01",
     "sourceIndex": 820,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/820.json",
+    "englishDetailPath": "/details-en/820.json",
+    "detailPaths": {
+      "ja": "/details/820.json",
+      "en": "/details-en/820.json"
+    },
     "routePath": "/courses/2026/fall/K216-01"
   },
   {
@@ -18957,7 +23890,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K217-01",
     "sourceIndex": 821,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/821.json",
+    "englishDetailPath": "/details-en/821.json",
+    "detailPaths": {
+      "ja": "/details/821.json",
+      "en": "/details-en/821.json"
+    },
     "routePath": "/courses/2026/fall/K217-01"
   },
   {
@@ -18980,7 +23919,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K218-01",
     "sourceIndex": 822,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/822.json",
+    "englishDetailPath": "/details-en/822.json",
+    "detailPaths": {
+      "ja": "/details/822.json",
+      "en": "/details-en/822.json"
+    },
     "routePath": "/courses/2026/fall/K218-01"
   },
   {
@@ -19003,7 +23948,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K219-01",
     "sourceIndex": 823,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/823.json",
+    "englishDetailPath": "/details-en/823.json",
+    "detailPaths": {
+      "ja": "/details/823.json",
+      "en": "/details-en/823.json"
+    },
     "routePath": "/courses/2026/fall/K219-01"
   },
   {
@@ -19026,7 +23977,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K301-01",
     "sourceIndex": 824,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/824.json",
+    "englishDetailPath": "/details-en/824.json",
+    "detailPaths": {
+      "ja": "/details/824.json",
+      "en": "/details-en/824.json"
+    },
     "routePath": "/courses/2026/spring/K301-01"
   },
   {
@@ -19049,7 +24006,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K302-01",
     "sourceIndex": 825,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/825.json",
+    "englishDetailPath": "/details-en/825.json",
+    "detailPaths": {
+      "ja": "/details/825.json",
+      "en": "/details-en/825.json"
+    },
     "routePath": "/courses/2026/spring/K302-01"
   },
   {
@@ -19072,7 +24035,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K303-01",
     "sourceIndex": 826,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/826.json",
+    "englishDetailPath": "/details-en/826.json",
+    "detailPaths": {
+      "ja": "/details/826.json",
+      "en": "/details-en/826.json"
+    },
     "routePath": "/courses/2026/spring/K303-01"
   },
   {
@@ -19095,7 +24064,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K304-01",
     "sourceIndex": 827,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/827.json",
+    "englishDetailPath": "/details-en/827.json",
+    "detailPaths": {
+      "ja": "/details/827.json",
+      "en": "/details-en/827.json"
+    },
     "routePath": "/courses/2026/spring/K304-01"
   },
   {
@@ -19118,7 +24093,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K304-01",
     "sourceIndex": 828,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/828.json",
+    "englishDetailPath": "/details-en/828.json",
+    "detailPaths": {
+      "ja": "/details/828.json",
+      "en": "/details-en/828.json"
+    },
     "routePath": "/courses/2026/fall/K304-01"
   },
   {
@@ -19141,7 +24122,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K305-01",
     "sourceIndex": 829,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/829.json",
+    "englishDetailPath": "/details-en/829.json",
+    "detailPaths": {
+      "ja": "/details/829.json",
+      "en": "/details-en/829.json"
+    },
     "routePath": "/courses/2026/spring/K305-01"
   },
   {
@@ -19164,7 +24151,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K305-01",
     "sourceIndex": 830,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/830.json",
+    "englishDetailPath": "/details-en/830.json",
+    "detailPaths": {
+      "ja": "/details/830.json",
+      "en": "/details-en/830.json"
+    },
     "routePath": "/courses/2026/fall/K305-01"
   },
   {
@@ -19187,7 +24180,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K306-01",
     "sourceIndex": 831,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/831.json",
+    "englishDetailPath": "/details-en/831.json",
+    "detailPaths": {
+      "ja": "/details/831.json",
+      "en": "/details-en/831.json"
+    },
     "routePath": "/courses/2026/fall/K306-01"
   },
   {
@@ -19210,7 +24209,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K307-01",
     "sourceIndex": 832,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/832.json",
+    "englishDetailPath": "/details-en/832.json",
+    "detailPaths": {
+      "ja": "/details/832.json",
+      "en": "/details-en/832.json"
+    },
     "routePath": "/courses/2026/spring/K307-01"
   },
   {
@@ -19233,7 +24238,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K307-01",
     "sourceIndex": 833,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/833.json",
+    "englishDetailPath": "/details-en/833.json",
+    "detailPaths": {
+      "ja": "/details/833.json",
+      "en": "/details-en/833.json"
+    },
     "routePath": "/courses/2026/fall/K307-01"
   },
   {
@@ -19256,7 +24267,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K302-02",
     "sourceIndex": 834,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/834.json",
+    "englishDetailPath": "/details-en/834.json",
+    "detailPaths": {
+      "ja": "/details/834.json",
+      "en": "/details-en/834.json"
+    },
     "routePath": "/courses/2026/spring/K302-02"
   },
   {
@@ -19279,7 +24296,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K308-01",
     "sourceIndex": 835,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/835.json",
+    "englishDetailPath": "/details-en/835.json",
+    "detailPaths": {
+      "ja": "/details/835.json",
+      "en": "/details-en/835.json"
+    },
     "routePath": "/courses/2026/spring/K308-01"
   },
   {
@@ -19302,7 +24325,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K309-01",
     "sourceIndex": 836,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/836.json",
+    "englishDetailPath": "/details-en/836.json",
+    "detailPaths": {
+      "ja": "/details/836.json",
+      "en": "/details-en/836.json"
+    },
     "routePath": "/courses/2026/spring/K309-01"
   },
   {
@@ -19325,7 +24354,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K310-01",
     "sourceIndex": 837,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/837.json",
+    "englishDetailPath": "/details-en/837.json",
+    "detailPaths": {
+      "ja": "/details/837.json",
+      "en": "/details-en/837.json"
+    },
     "routePath": "/courses/2026/spring/K310-01"
   },
   {
@@ -19348,7 +24383,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K311-01",
     "sourceIndex": 838,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/838.json",
+    "englishDetailPath": "/details-en/838.json",
+    "detailPaths": {
+      "ja": "/details/838.json",
+      "en": "/details-en/838.json"
+    },
     "routePath": "/courses/2026/spring/K311-01"
   },
   {
@@ -19371,7 +24412,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K312-01",
     "sourceIndex": 839,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/839.json",
+    "englishDetailPath": "/details-en/839.json",
+    "detailPaths": {
+      "ja": "/details/839.json",
+      "en": "/details-en/839.json"
+    },
     "routePath": "/courses/2026/spring/K312-01"
   },
   {
@@ -19394,7 +24441,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K313-01",
     "sourceIndex": 840,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/840.json",
+    "englishDetailPath": "/details-en/840.json",
+    "detailPaths": {
+      "ja": "/details/840.json",
+      "en": "/details-en/840.json"
+    },
     "routePath": "/courses/2026/fall/K313-01"
   },
   {
@@ -19417,7 +24470,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K314-01",
     "sourceIndex": 841,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/841.json",
+    "englishDetailPath": "/details-en/841.json",
+    "detailPaths": {
+      "ja": "/details/841.json",
+      "en": "/details-en/841.json"
+    },
     "routePath": "/courses/2026/fall/K314-01"
   },
   {
@@ -19440,7 +24499,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K315-01",
     "sourceIndex": 842,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/842.json",
+    "englishDetailPath": "/details-en/842.json",
+    "detailPaths": {
+      "ja": "/details/842.json",
+      "en": "/details-en/842.json"
+    },
     "routePath": "/courses/2026/fall/K315-01"
   },
   {
@@ -19463,7 +24528,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K316-01",
     "sourceIndex": 843,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/843.json",
+    "englishDetailPath": "/details-en/843.json",
+    "detailPaths": {
+      "ja": "/details/843.json",
+      "en": "/details-en/843.json"
+    },
     "routePath": "/courses/2026/fall/K316-01"
   },
   {
@@ -19486,7 +24557,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K317-01",
     "sourceIndex": 844,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/844.json",
+    "englishDetailPath": "/details-en/844.json",
+    "detailPaths": {
+      "ja": "/details/844.json",
+      "en": "/details-en/844.json"
+    },
     "routePath": "/courses/2026/fall/K317-01"
   },
   {
@@ -19509,7 +24586,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K318-01",
     "sourceIndex": 845,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/845.json",
+    "englishDetailPath": "/details-en/845.json",
+    "detailPaths": {
+      "ja": "/details/845.json",
+      "en": "/details-en/845.json"
+    },
     "routePath": "/courses/2026/fall/K318-01"
   },
   {
@@ -19532,7 +24615,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K319-01",
     "sourceIndex": 846,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/846.json",
+    "englishDetailPath": "/details-en/846.json",
+    "detailPaths": {
+      "ja": "/details/846.json",
+      "en": "/details-en/846.json"
+    },
     "routePath": "/courses/2026/fall/K319-01"
   },
   {
@@ -19555,7 +24644,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K320-01",
     "sourceIndex": 847,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/847.json",
+    "englishDetailPath": "/details-en/847.json",
+    "detailPaths": {
+      "ja": "/details/847.json",
+      "en": "/details-en/847.json"
+    },
     "routePath": "/courses/2026/fall/K320-01"
   },
   {
@@ -19578,7 +24673,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K321-01",
     "sourceIndex": 848,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/848.json",
+    "englishDetailPath": "/details-en/848.json",
+    "detailPaths": {
+      "ja": "/details/848.json",
+      "en": "/details-en/848.json"
+    },
     "routePath": "/courses/2026/fall/K321-01"
   },
   {
@@ -19601,7 +24702,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K402-02",
     "sourceIndex": 849,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/849.json",
+    "englishDetailPath": "/details-en/849.json",
+    "detailPaths": {
+      "ja": "/details/849.json",
+      "en": "/details-en/849.json"
+    },
     "routePath": "/courses/2026/spring/K402-02"
   },
   {
@@ -19624,7 +24731,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K408-01",
     "sourceIndex": 850,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/850.json",
+    "englishDetailPath": "/details-en/850.json",
+    "detailPaths": {
+      "ja": "/details/850.json",
+      "en": "/details-en/850.json"
+    },
     "routePath": "/courses/2026/spring/K408-01"
   },
   {
@@ -19647,7 +24760,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K409-01",
     "sourceIndex": 851,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/851.json",
+    "englishDetailPath": "/details-en/851.json",
+    "detailPaths": {
+      "ja": "/details/851.json",
+      "en": "/details-en/851.json"
+    },
     "routePath": "/courses/2026/spring/K409-01"
   },
   {
@@ -19670,7 +24789,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K410-01",
     "sourceIndex": 852,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/852.json",
+    "englishDetailPath": "/details-en/852.json",
+    "detailPaths": {
+      "ja": "/details/852.json",
+      "en": "/details-en/852.json"
+    },
     "routePath": "/courses/2026/spring/K410-01"
   },
   {
@@ -19693,7 +24818,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K411-01",
     "sourceIndex": 853,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/853.json",
+    "englishDetailPath": "/details-en/853.json",
+    "detailPaths": {
+      "ja": "/details/853.json",
+      "en": "/details-en/853.json"
+    },
     "routePath": "/courses/2026/spring/K411-01"
   },
   {
@@ -19716,7 +24847,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K412-01",
     "sourceIndex": 854,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/854.json",
+    "englishDetailPath": "/details-en/854.json",
+    "detailPaths": {
+      "ja": "/details/854.json",
+      "en": "/details-en/854.json"
+    },
     "routePath": "/courses/2026/spring/K412-01"
   },
   {
@@ -19739,7 +24876,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K413-01",
     "sourceIndex": 855,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/855.json",
+    "englishDetailPath": "/details-en/855.json",
+    "detailPaths": {
+      "ja": "/details/855.json",
+      "en": "/details-en/855.json"
+    },
     "routePath": "/courses/2026/fall/K413-01"
   },
   {
@@ -19762,7 +24905,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K414-01",
     "sourceIndex": 856,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/856.json",
+    "englishDetailPath": "/details-en/856.json",
+    "detailPaths": {
+      "ja": "/details/856.json",
+      "en": "/details-en/856.json"
+    },
     "routePath": "/courses/2026/fall/K414-01"
   },
   {
@@ -19785,7 +24934,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K415-01",
     "sourceIndex": 857,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/857.json",
+    "englishDetailPath": "/details-en/857.json",
+    "detailPaths": {
+      "ja": "/details/857.json",
+      "en": "/details-en/857.json"
+    },
     "routePath": "/courses/2026/fall/K415-01"
   },
   {
@@ -19808,7 +24963,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K416-01",
     "sourceIndex": 858,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/858.json",
+    "englishDetailPath": "/details-en/858.json",
+    "detailPaths": {
+      "ja": "/details/858.json",
+      "en": "/details-en/858.json"
+    },
     "routePath": "/courses/2026/fall/K416-01"
   },
   {
@@ -19831,7 +24992,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K417-01",
     "sourceIndex": 859,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/859.json",
+    "englishDetailPath": "/details-en/859.json",
+    "detailPaths": {
+      "ja": "/details/859.json",
+      "en": "/details-en/859.json"
+    },
     "routePath": "/courses/2026/fall/K417-01"
   },
   {
@@ -19854,7 +25021,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K418-01",
     "sourceIndex": 860,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/860.json",
+    "englishDetailPath": "/details-en/860.json",
+    "detailPaths": {
+      "ja": "/details/860.json",
+      "en": "/details-en/860.json"
+    },
     "routePath": "/courses/2026/fall/K418-01"
   },
   {
@@ -19877,7 +25050,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K419-01",
     "sourceIndex": 861,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/861.json",
+    "englishDetailPath": "/details-en/861.json",
+    "detailPaths": {
+      "ja": "/details/861.json",
+      "en": "/details-en/861.json"
+    },
     "routePath": "/courses/2026/fall/K419-01"
   },
   {
@@ -19900,7 +25079,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K420-01",
     "sourceIndex": 862,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/862.json",
+    "englishDetailPath": "/details-en/862.json",
+    "detailPaths": {
+      "ja": "/details/862.json",
+      "en": "/details-en/862.json"
+    },
     "routePath": "/courses/2026/fall/K420-01"
   },
   {
@@ -19923,7 +25108,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K421-01",
     "sourceIndex": 863,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/863.json",
+    "englishDetailPath": "/details-en/863.json",
+    "detailPaths": {
+      "ja": "/details/863.json",
+      "en": "/details-en/863.json"
+    },
     "routePath": "/courses/2026/fall/K421-01"
   },
   {
@@ -19946,7 +25137,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K401-01",
     "sourceIndex": 864,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/864.json",
+    "englishDetailPath": "/details-en/864.json",
+    "detailPaths": {
+      "ja": "/details/864.json",
+      "en": "/details-en/864.json"
+    },
     "routePath": "/courses/2026/spring/K401-01"
   },
   {
@@ -19969,7 +25166,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K402-01",
     "sourceIndex": 865,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/865.json",
+    "englishDetailPath": "/details-en/865.json",
+    "detailPaths": {
+      "ja": "/details/865.json",
+      "en": "/details-en/865.json"
+    },
     "routePath": "/courses/2026/spring/K402-01"
   },
   {
@@ -19992,7 +25195,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K403-01",
     "sourceIndex": 866,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/866.json",
+    "englishDetailPath": "/details-en/866.json",
+    "detailPaths": {
+      "ja": "/details/866.json",
+      "en": "/details-en/866.json"
+    },
     "routePath": "/courses/2026/spring/K403-01"
   },
   {
@@ -20015,7 +25224,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K404-01",
     "sourceIndex": 867,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/867.json",
+    "englishDetailPath": "/details-en/867.json",
+    "detailPaths": {
+      "ja": "/details/867.json",
+      "en": "/details-en/867.json"
+    },
     "routePath": "/courses/2026/spring/K404-01"
   },
   {
@@ -20038,7 +25253,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K404-01",
     "sourceIndex": 868,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/868.json",
+    "englishDetailPath": "/details-en/868.json",
+    "detailPaths": {
+      "ja": "/details/868.json",
+      "en": "/details-en/868.json"
+    },
     "routePath": "/courses/2026/fall/K404-01"
   },
   {
@@ -20061,7 +25282,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K405-01",
     "sourceIndex": 869,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/869.json",
+    "englishDetailPath": "/details-en/869.json",
+    "detailPaths": {
+      "ja": "/details/869.json",
+      "en": "/details-en/869.json"
+    },
     "routePath": "/courses/2026/spring/K405-01"
   },
   {
@@ -20084,7 +25311,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K405-01",
     "sourceIndex": 870,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/870.json",
+    "englishDetailPath": "/details-en/870.json",
+    "detailPaths": {
+      "ja": "/details/870.json",
+      "en": "/details-en/870.json"
+    },
     "routePath": "/courses/2026/fall/K405-01"
   },
   {
@@ -20107,7 +25340,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K406-01",
     "sourceIndex": 871,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/871.json",
+    "englishDetailPath": "/details-en/871.json",
+    "detailPaths": {
+      "ja": "/details/871.json",
+      "en": "/details-en/871.json"
+    },
     "routePath": "/courses/2026/fall/K406-01"
   },
   {
@@ -20130,7 +25369,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K407-01",
     "sourceIndex": 872,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/872.json",
+    "englishDetailPath": "/details-en/872.json",
+    "detailPaths": {
+      "ja": "/details/872.json",
+      "en": "/details-en/872.json"
+    },
     "routePath": "/courses/2026/spring/K407-01"
   },
   {
@@ -20153,7 +25398,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K407-01",
     "sourceIndex": 873,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/873.json",
+    "englishDetailPath": "/details-en/873.json",
+    "detailPaths": {
+      "ja": "/details/873.json",
+      "en": "/details-en/873.json"
+    },
     "routePath": "/courses/2026/fall/K407-01"
   },
   {
@@ -20176,7 +25427,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K501-01",
     "sourceIndex": 874,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/874.json",
+    "englishDetailPath": "/details-en/874.json",
+    "detailPaths": {
+      "ja": "/details/874.json",
+      "en": "/details-en/874.json"
+    },
     "routePath": "/courses/2026/spring/K501-01"
   },
   {
@@ -20199,7 +25456,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K502-01",
     "sourceIndex": 875,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/875.json",
+    "englishDetailPath": "/details-en/875.json",
+    "detailPaths": {
+      "ja": "/details/875.json",
+      "en": "/details-en/875.json"
+    },
     "routePath": "/courses/2026/spring/K502-01"
   },
   {
@@ -20222,7 +25485,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K503-01",
     "sourceIndex": 876,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/876.json",
+    "englishDetailPath": "/details-en/876.json",
+    "detailPaths": {
+      "ja": "/details/876.json",
+      "en": "/details-en/876.json"
+    },
     "routePath": "/courses/2026/spring/K503-01"
   },
   {
@@ -20245,7 +25514,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K504-01",
     "sourceIndex": 877,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/877.json",
+    "englishDetailPath": "/details-en/877.json",
+    "detailPaths": {
+      "ja": "/details/877.json",
+      "en": "/details-en/877.json"
+    },
     "routePath": "/courses/2026/spring/K504-01"
   },
   {
@@ -20268,7 +25543,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K505-01",
     "sourceIndex": 878,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/878.json",
+    "englishDetailPath": "/details-en/878.json",
+    "detailPaths": {
+      "ja": "/details/878.json",
+      "en": "/details-en/878.json"
+    },
     "routePath": "/courses/2026/fall/K505-01"
   },
   {
@@ -20291,7 +25572,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K506-01",
     "sourceIndex": 879,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/879.json",
+    "englishDetailPath": "/details-en/879.json",
+    "detailPaths": {
+      "ja": "/details/879.json",
+      "en": "/details-en/879.json"
+    },
     "routePath": "/courses/2026/fall/K506-01"
   },
   {
@@ -20314,7 +25601,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K507-01",
     "sourceIndex": 880,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/880.json",
+    "englishDetailPath": "/details-en/880.json",
+    "detailPaths": {
+      "ja": "/details/880.json",
+      "en": "/details-en/880.json"
+    },
     "routePath": "/courses/2026/fall/K507-01"
   },
   {
@@ -20337,7 +25630,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K508-01",
     "sourceIndex": 881,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/881.json",
+    "englishDetailPath": "/details-en/881.json",
+    "detailPaths": {
+      "ja": "/details/881.json",
+      "en": "/details-en/881.json"
+    },
     "routePath": "/courses/2026/fall/K508-01"
   },
   {
@@ -20360,7 +25659,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K509-01",
     "sourceIndex": 882,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/882.json",
+    "englishDetailPath": "/details-en/882.json",
+    "detailPaths": {
+      "ja": "/details/882.json",
+      "en": "/details-en/882.json"
+    },
     "routePath": "/courses/2026/fall/K509-01"
   },
   {
@@ -20383,7 +25688,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K510-01",
     "sourceIndex": 883,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/883.json",
+    "englishDetailPath": "/details-en/883.json",
+    "detailPaths": {
+      "ja": "/details/883.json",
+      "en": "/details-en/883.json"
+    },
     "routePath": "/courses/2026/spring/K510-01"
   },
   {
@@ -20406,7 +25717,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K511-01",
     "sourceIndex": 884,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/884.json",
+    "englishDetailPath": "/details-en/884.json",
+    "detailPaths": {
+      "ja": "/details/884.json",
+      "en": "/details-en/884.json"
+    },
     "routePath": "/courses/2026/spring/K511-01"
   },
   {
@@ -20429,7 +25746,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K512-01",
     "sourceIndex": 885,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/885.json",
+    "englishDetailPath": "/details-en/885.json",
+    "detailPaths": {
+      "ja": "/details/885.json",
+      "en": "/details-en/885.json"
+    },
     "routePath": "/courses/2026/spring/K512-01"
   },
   {
@@ -20452,7 +25775,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K513-01",
     "sourceIndex": 886,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/886.json",
+    "englishDetailPath": "/details-en/886.json",
+    "detailPaths": {
+      "ja": "/details/886.json",
+      "en": "/details-en/886.json"
+    },
     "routePath": "/courses/2026/spring/K513-01"
   },
   {
@@ -20475,7 +25804,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K514-01",
     "sourceIndex": 887,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/887.json",
+    "englishDetailPath": "/details-en/887.json",
+    "detailPaths": {
+      "ja": "/details/887.json",
+      "en": "/details-en/887.json"
+    },
     "routePath": "/courses/2026/fall/K514-01"
   },
   {
@@ -20498,7 +25833,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K515-01",
     "sourceIndex": 888,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/888.json",
+    "englishDetailPath": "/details-en/888.json",
+    "detailPaths": {
+      "ja": "/details/888.json",
+      "en": "/details-en/888.json"
+    },
     "routePath": "/courses/2026/fall/K515-01"
   },
   {
@@ -20521,7 +25862,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K516-01",
     "sourceIndex": 889,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/889.json",
+    "englishDetailPath": "/details-en/889.json",
+    "detailPaths": {
+      "ja": "/details/889.json",
+      "en": "/details-en/889.json"
+    },
     "routePath": "/courses/2026/fall/K516-01"
   },
   {
@@ -20544,7 +25891,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K517-01",
     "sourceIndex": 890,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/890.json",
+    "englishDetailPath": "/details-en/890.json",
+    "detailPaths": {
+      "ja": "/details/890.json",
+      "en": "/details-en/890.json"
+    },
     "routePath": "/courses/2026/fall/K517-01"
   },
   {
@@ -20567,7 +25920,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "K946-01",
     "sourceIndex": 891,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/891.json",
+    "englishDetailPath": "/details-en/891.json",
+    "detailPaths": {
+      "ja": "/details/891.json",
+      "en": "/details-en/891.json"
+    },
     "routePath": "/courses/2026/fall/K946-01"
   },
   {
@@ -20590,7 +25949,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "A101-01",
     "sourceIndex": 892,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/892.json",
+    "englishDetailPath": "/details-en/892.json",
+    "detailPaths": {
+      "ja": "/details/892.json",
+      "en": "/details-en/892.json"
+    },
     "routePath": "/courses/2026/spring/A101-01"
   },
   {
@@ -20613,7 +25978,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "A102-01",
     "sourceIndex": 893,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/893.json",
+    "englishDetailPath": "/details-en/893.json",
+    "detailPaths": {
+      "ja": "/details/893.json",
+      "en": "/details-en/893.json"
+    },
     "routePath": "/courses/2026/spring/A102-01"
   },
   {
@@ -20636,7 +26007,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "A103-01",
     "sourceIndex": 894,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/894.json",
+    "englishDetailPath": "/details-en/894.json",
+    "detailPaths": {
+      "ja": "/details/894.json",
+      "en": "/details-en/894.json"
+    },
     "routePath": "/courses/2026/spring/A103-01"
   },
   {
@@ -20659,7 +26036,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "A104-01",
     "sourceIndex": 895,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/895.json",
+    "englishDetailPath": "/details-en/895.json",
+    "detailPaths": {
+      "ja": "/details/895.json",
+      "en": "/details-en/895.json"
+    },
     "routePath": "/courses/2026/spring/A104-01"
   },
   {
@@ -20682,7 +26065,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "A105-01",
     "sourceIndex": 896,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/896.json",
+    "englishDetailPath": "/details-en/896.json",
+    "detailPaths": {
+      "ja": "/details/896.json",
+      "en": "/details-en/896.json"
+    },
     "routePath": "/courses/2026/fall/A105-01"
   },
   {
@@ -20705,7 +26094,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "A106-01",
     "sourceIndex": 897,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/897.json",
+    "englishDetailPath": "/details-en/897.json",
+    "detailPaths": {
+      "ja": "/details/897.json",
+      "en": "/details-en/897.json"
+    },
     "routePath": "/courses/2026/spring/A106-01"
   },
   {
@@ -20728,7 +26123,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "A106-01",
     "sourceIndex": 898,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/898.json",
+    "englishDetailPath": "/details-en/898.json",
+    "detailPaths": {
+      "ja": "/details/898.json",
+      "en": "/details-en/898.json"
+    },
     "routePath": "/courses/2026/fall/A106-01"
   },
   {
@@ -20751,7 +26152,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "A107-01",
     "sourceIndex": 899,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/899.json",
+    "englishDetailPath": "/details-en/899.json",
+    "detailPaths": {
+      "ja": "/details/899.json",
+      "en": "/details-en/899.json"
+    },
     "routePath": "/courses/2026/fall/A107-01"
   },
   {
@@ -20774,7 +26181,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "A108-01",
     "sourceIndex": 900,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/900.json",
+    "englishDetailPath": "/details-en/900.json",
+    "detailPaths": {
+      "ja": "/details/900.json",
+      "en": "/details-en/900.json"
+    },
     "routePath": "/courses/2026/fall/A108-01"
   },
   {
@@ -20797,7 +26210,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "A109-01",
     "sourceIndex": 901,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/901.json",
+    "englishDetailPath": "/details-en/901.json",
+    "detailPaths": {
+      "ja": "/details/901.json",
+      "en": "/details-en/901.json"
+    },
     "routePath": "/courses/2026/spring/A109-01"
   },
   {
@@ -20820,7 +26239,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "A110-01",
     "sourceIndex": 902,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/902.json",
+    "englishDetailPath": "/details-en/902.json",
+    "detailPaths": {
+      "ja": "/details/902.json",
+      "en": "/details-en/902.json"
+    },
     "routePath": "/courses/2026/spring/A110-01"
   },
   {
@@ -20843,7 +26268,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "A111-01",
     "sourceIndex": 903,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/903.json",
+    "englishDetailPath": "/details-en/903.json",
+    "detailPaths": {
+      "ja": "/details/903.json",
+      "en": "/details-en/903.json"
+    },
     "routePath": "/courses/2026/spring/A111-01"
   },
   {
@@ -20866,7 +26297,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "A112-01",
     "sourceIndex": 904,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/904.json",
+    "englishDetailPath": "/details-en/904.json",
+    "detailPaths": {
+      "ja": "/details/904.json",
+      "en": "/details-en/904.json"
+    },
     "routePath": "/courses/2026/spring/A112-01"
   },
   {
@@ -20889,7 +26326,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "A113-01",
     "sourceIndex": 905,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/905.json",
+    "englishDetailPath": "/details-en/905.json",
+    "detailPaths": {
+      "ja": "/details/905.json",
+      "en": "/details-en/905.json"
+    },
     "routePath": "/courses/2026/spring/A113-01"
   },
   {
@@ -20912,7 +26355,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "A114-01",
     "sourceIndex": 906,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/906.json",
+    "englishDetailPath": "/details-en/906.json",
+    "detailPaths": {
+      "ja": "/details/906.json",
+      "en": "/details-en/906.json"
+    },
     "routePath": "/courses/2026/spring/A114-01"
   },
   {
@@ -20935,7 +26384,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "A115-01",
     "sourceIndex": 907,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/907.json",
+    "englishDetailPath": "/details-en/907.json",
+    "detailPaths": {
+      "ja": "/details/907.json",
+      "en": "/details-en/907.json"
+    },
     "routePath": "/courses/2026/fall/A115-01"
   },
   {
@@ -20958,7 +26413,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "A116-01",
     "sourceIndex": 908,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/908.json",
+    "englishDetailPath": "/details-en/908.json",
+    "detailPaths": {
+      "ja": "/details/908.json",
+      "en": "/details-en/908.json"
+    },
     "routePath": "/courses/2026/fall/A116-01"
   },
   {
@@ -20981,7 +26442,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "A117-01",
     "sourceIndex": 909,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/909.json",
+    "englishDetailPath": "/details-en/909.json",
+    "detailPaths": {
+      "ja": "/details/909.json",
+      "en": "/details-en/909.json"
+    },
     "routePath": "/courses/2026/fall/A117-01"
   },
   {
@@ -21004,7 +26471,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "A118-01",
     "sourceIndex": 910,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/910.json",
+    "englishDetailPath": "/details-en/910.json",
+    "detailPaths": {
+      "ja": "/details/910.json",
+      "en": "/details-en/910.json"
+    },
     "routePath": "/courses/2026/fall/A118-01"
   },
   {
@@ -21027,7 +26500,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "A119-01",
     "sourceIndex": 911,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/911.json",
+    "englishDetailPath": "/details-en/911.json",
+    "detailPaths": {
+      "ja": "/details/911.json",
+      "en": "/details-en/911.json"
+    },
     "routePath": "/courses/2026/fall/A119-01"
   },
   {
@@ -21050,7 +26529,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "A120-01",
     "sourceIndex": 912,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/912.json",
+    "englishDetailPath": "/details-en/912.json",
+    "detailPaths": {
+      "ja": "/details/912.json",
+      "en": "/details-en/912.json"
+    },
     "routePath": "/courses/2026/fall/A120-01"
   },
   {
@@ -21073,7 +26558,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "A942-01",
     "sourceIndex": 913,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/913.json",
+    "englishDetailPath": "/details-en/913.json",
+    "detailPaths": {
+      "ja": "/details/913.json",
+      "en": "/details-en/913.json"
+    },
     "routePath": "/courses/2026/fall/A942-01"
   },
   {
@@ -21096,7 +26587,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "A201-01",
     "sourceIndex": 914,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/914.json",
+    "englishDetailPath": "/details-en/914.json",
+    "detailPaths": {
+      "ja": "/details/914.json",
+      "en": "/details-en/914.json"
+    },
     "routePath": "/courses/2026/spring/A201-01"
   },
   {
@@ -21119,7 +26616,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "A202-01",
     "sourceIndex": 915,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/915.json",
+    "englishDetailPath": "/details-en/915.json",
+    "detailPaths": {
+      "ja": "/details/915.json",
+      "en": "/details-en/915.json"
+    },
     "routePath": "/courses/2026/spring/A202-01"
   },
   {
@@ -21142,7 +26645,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "A203-01",
     "sourceIndex": 916,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/916.json",
+    "englishDetailPath": "/details-en/916.json",
+    "detailPaths": {
+      "ja": "/details/916.json",
+      "en": "/details-en/916.json"
+    },
     "routePath": "/courses/2026/spring/A203-01"
   },
   {
@@ -21165,7 +26674,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "A204-01",
     "sourceIndex": 917,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/917.json",
+    "englishDetailPath": "/details-en/917.json",
+    "detailPaths": {
+      "ja": "/details/917.json",
+      "en": "/details-en/917.json"
+    },
     "routePath": "/courses/2026/spring/A204-01"
   },
   {
@@ -21188,7 +26703,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "A205-01",
     "sourceIndex": 918,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/918.json",
+    "englishDetailPath": "/details-en/918.json",
+    "detailPaths": {
+      "ja": "/details/918.json",
+      "en": "/details-en/918.json"
+    },
     "routePath": "/courses/2026/fall/A205-01"
   },
   {
@@ -21211,7 +26732,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "A206-01",
     "sourceIndex": 919,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/919.json",
+    "englishDetailPath": "/details-en/919.json",
+    "detailPaths": {
+      "ja": "/details/919.json",
+      "en": "/details-en/919.json"
+    },
     "routePath": "/courses/2026/spring/A206-01"
   },
   {
@@ -21234,7 +26761,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "A206-01",
     "sourceIndex": 920,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/920.json",
+    "englishDetailPath": "/details-en/920.json",
+    "detailPaths": {
+      "ja": "/details/920.json",
+      "en": "/details-en/920.json"
+    },
     "routePath": "/courses/2026/fall/A206-01"
   },
   {
@@ -21257,7 +26790,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "A207-01",
     "sourceIndex": 921,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/921.json",
+    "englishDetailPath": "/details-en/921.json",
+    "detailPaths": {
+      "ja": "/details/921.json",
+      "en": "/details-en/921.json"
+    },
     "routePath": "/courses/2026/fall/A207-01"
   },
   {
@@ -21280,7 +26819,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "A208-01",
     "sourceIndex": 922,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/922.json",
+    "englishDetailPath": "/details-en/922.json",
+    "detailPaths": {
+      "ja": "/details/922.json",
+      "en": "/details-en/922.json"
+    },
     "routePath": "/courses/2026/fall/A208-01"
   },
   {
@@ -21303,7 +26848,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "A209-01",
     "sourceIndex": 923,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/923.json",
+    "englishDetailPath": "/details-en/923.json",
+    "detailPaths": {
+      "ja": "/details/923.json",
+      "en": "/details-en/923.json"
+    },
     "routePath": "/courses/2026/spring/A209-01"
   },
   {
@@ -21326,7 +26877,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "A210-01",
     "sourceIndex": 924,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/924.json",
+    "englishDetailPath": "/details-en/924.json",
+    "detailPaths": {
+      "ja": "/details/924.json",
+      "en": "/details-en/924.json"
+    },
     "routePath": "/courses/2026/spring/A210-01"
   },
   {
@@ -21349,7 +26906,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "A211-01",
     "sourceIndex": 925,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/925.json",
+    "englishDetailPath": "/details-en/925.json",
+    "detailPaths": {
+      "ja": "/details/925.json",
+      "en": "/details-en/925.json"
+    },
     "routePath": "/courses/2026/spring/A211-01"
   },
   {
@@ -21372,7 +26935,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "A212-01",
     "sourceIndex": 926,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/926.json",
+    "englishDetailPath": "/details-en/926.json",
+    "detailPaths": {
+      "ja": "/details/926.json",
+      "en": "/details-en/926.json"
+    },
     "routePath": "/courses/2026/spring/A212-01"
   },
   {
@@ -21395,7 +26964,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "A213-01",
     "sourceIndex": 927,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/927.json",
+    "englishDetailPath": "/details-en/927.json",
+    "detailPaths": {
+      "ja": "/details/927.json",
+      "en": "/details-en/927.json"
+    },
     "routePath": "/courses/2026/spring/A213-01"
   },
   {
@@ -21418,7 +26993,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "A214-01",
     "sourceIndex": 928,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/928.json",
+    "englishDetailPath": "/details-en/928.json",
+    "detailPaths": {
+      "ja": "/details/928.json",
+      "en": "/details-en/928.json"
+    },
     "routePath": "/courses/2026/spring/A214-01"
   },
   {
@@ -21441,7 +27022,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "A215-01",
     "sourceIndex": 929,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/929.json",
+    "englishDetailPath": "/details-en/929.json",
+    "detailPaths": {
+      "ja": "/details/929.json",
+      "en": "/details-en/929.json"
+    },
     "routePath": "/courses/2026/fall/A215-01"
   },
   {
@@ -21464,7 +27051,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "A216-01",
     "sourceIndex": 930,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/930.json",
+    "englishDetailPath": "/details-en/930.json",
+    "detailPaths": {
+      "ja": "/details/930.json",
+      "en": "/details-en/930.json"
+    },
     "routePath": "/courses/2026/fall/A216-01"
   },
   {
@@ -21487,7 +27080,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "A217-01",
     "sourceIndex": 931,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/931.json",
+    "englishDetailPath": "/details-en/931.json",
+    "detailPaths": {
+      "ja": "/details/931.json",
+      "en": "/details-en/931.json"
+    },
     "routePath": "/courses/2026/fall/A217-01"
   },
   {
@@ -21510,7 +27109,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "A218-01",
     "sourceIndex": 932,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/932.json",
+    "englishDetailPath": "/details-en/932.json",
+    "detailPaths": {
+      "ja": "/details/932.json",
+      "en": "/details-en/932.json"
+    },
     "routePath": "/courses/2026/fall/A218-01"
   },
   {
@@ -21533,7 +27138,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "A219-01",
     "sourceIndex": 933,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/933.json",
+    "englishDetailPath": "/details-en/933.json",
+    "detailPaths": {
+      "ja": "/details/933.json",
+      "en": "/details-en/933.json"
+    },
     "routePath": "/courses/2026/fall/A219-01"
   },
   {
@@ -21556,7 +27167,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "A220-01",
     "sourceIndex": 934,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/934.json",
+    "englishDetailPath": "/details-en/934.json",
+    "detailPaths": {
+      "ja": "/details/934.json",
+      "en": "/details-en/934.json"
+    },
     "routePath": "/courses/2026/fall/A220-01"
   },
   {
@@ -21579,7 +27196,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "A943-01",
     "sourceIndex": 935,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/935.json",
+    "englishDetailPath": "/details-en/935.json",
+    "detailPaths": {
+      "ja": "/details/935.json",
+      "en": "/details-en/935.json"
+    },
     "routePath": "/courses/2026/fall/A943-01"
   },
   {
@@ -21602,7 +27225,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G951-01",
     "sourceIndex": 936,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/936.json",
+    "englishDetailPath": "/details-en/936.json",
+    "detailPaths": {
+      "ja": "/details/936.json",
+      "en": "/details-en/936.json"
+    },
     "routePath": "/courses/2026/fall/G951-01"
   },
   {
@@ -21625,7 +27254,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G952-01",
     "sourceIndex": 937,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/937.json",
+    "englishDetailPath": "/details-en/937.json",
+    "detailPaths": {
+      "ja": "/details/937.json",
+      "en": "/details-en/937.json"
+    },
     "routePath": "/courses/2026/spring/G952-01"
   },
   {
@@ -21648,7 +27283,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G954-01",
     "sourceIndex": 938,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/938.json",
+    "englishDetailPath": "/details-en/938.json",
+    "detailPaths": {
+      "ja": "/details/938.json",
+      "en": "/details-en/938.json"
+    },
     "routePath": "/courses/2026/fall/G954-01"
   },
   {
@@ -21671,7 +27312,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G955-01",
     "sourceIndex": 939,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/939.json",
+    "englishDetailPath": "/details-en/939.json",
+    "detailPaths": {
+      "ja": "/details/939.json",
+      "en": "/details-en/939.json"
+    },
     "routePath": "/courses/2026/fall/G955-01"
   },
   {
@@ -21694,7 +27341,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G015-01",
     "sourceIndex": 940,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/940.json",
+    "englishDetailPath": "/details-en/940.json",
+    "detailPaths": {
+      "ja": "/details/940.json",
+      "en": "/details-en/940.json"
+    },
     "routePath": "/courses/2026/spring/G015-01"
   },
   {
@@ -21717,7 +27370,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G015-01",
     "sourceIndex": 941,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/941.json",
+    "englishDetailPath": "/details-en/941.json",
+    "detailPaths": {
+      "ja": "/details/941.json",
+      "en": "/details-en/941.json"
+    },
     "routePath": "/courses/2026/fall/G015-01"
   },
   {
@@ -21740,7 +27399,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G016-01",
     "sourceIndex": 942,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/942.json",
+    "englishDetailPath": "/details-en/942.json",
+    "detailPaths": {
+      "ja": "/details/942.json",
+      "en": "/details-en/942.json"
+    },
     "routePath": "/courses/2026/fall/G016-01"
   },
   {
@@ -21763,7 +27428,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G017-01",
     "sourceIndex": 943,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/943.json",
+    "englishDetailPath": "/details-en/943.json",
+    "detailPaths": {
+      "ja": "/details/943.json",
+      "en": "/details-en/943.json"
+    },
     "routePath": "/courses/2026/spring/G017-01"
   },
   {
@@ -21786,7 +27457,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G017-01",
     "sourceIndex": 944,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/944.json",
+    "englishDetailPath": "/details-en/944.json",
+    "detailPaths": {
+      "ja": "/details/944.json",
+      "en": "/details-en/944.json"
+    },
     "routePath": "/courses/2026/fall/G017-01"
   },
   {
@@ -21809,7 +27486,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G019-01",
     "sourceIndex": 945,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/945.json",
+    "englishDetailPath": "/details-en/945.json",
+    "detailPaths": {
+      "ja": "/details/945.json",
+      "en": "/details-en/945.json"
+    },
     "routePath": "/courses/2026/spring/G019-01"
   },
   {
@@ -21832,7 +27515,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G019-01",
     "sourceIndex": 946,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/946.json",
+    "englishDetailPath": "/details-en/946.json",
+    "detailPaths": {
+      "ja": "/details/946.json",
+      "en": "/details-en/946.json"
+    },
     "routePath": "/courses/2026/fall/G019-01"
   },
   {
@@ -21855,7 +27544,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G023-01",
     "sourceIndex": 947,
     "hasDetail": true,
+    "hasEnglishDetail": false,
     "detailPath": "/details/947.json",
+    "englishDetailPath": null,
+    "detailPaths": {
+      "ja": "/details/947.json",
+      "en": null
+    },
     "routePath": "/courses/2026/spring/G023-01"
   },
   {
@@ -21878,7 +27573,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G023-01",
     "sourceIndex": 948,
     "hasDetail": true,
+    "hasEnglishDetail": false,
     "detailPath": "/details/948.json",
+    "englishDetailPath": null,
+    "detailPaths": {
+      "ja": "/details/948.json",
+      "en": null
+    },
     "routePath": "/courses/2026/fall/G023-01"
   },
   {
@@ -21901,7 +27602,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G025-01",
     "sourceIndex": 949,
     "hasDetail": true,
+    "hasEnglishDetail": false,
     "detailPath": "/details/949.json",
+    "englishDetailPath": null,
+    "detailPaths": {
+      "ja": "/details/949.json",
+      "en": null
+    },
     "routePath": "/courses/2026/spring/G025-01"
   },
   {
@@ -21924,7 +27631,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G025-01",
     "sourceIndex": 950,
     "hasDetail": true,
+    "hasEnglishDetail": false,
     "detailPath": "/details/950.json",
+    "englishDetailPath": null,
+    "detailPaths": {
+      "ja": "/details/950.json",
+      "en": null
+    },
     "routePath": "/courses/2026/fall/G025-01"
   },
   {
@@ -21947,7 +27660,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G027-01",
     "sourceIndex": 951,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/951.json",
+    "englishDetailPath": "/details-en/951.json",
+    "detailPaths": {
+      "ja": "/details/951.json",
+      "en": "/details-en/951.json"
+    },
     "routePath": "/courses/2026/spring/G027-01"
   },
   {
@@ -21970,7 +27689,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G027-01",
     "sourceIndex": 952,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/952.json",
+    "englishDetailPath": "/details-en/952.json",
+    "detailPaths": {
+      "ja": "/details/952.json",
+      "en": "/details-en/952.json"
+    },
     "routePath": "/courses/2026/fall/G027-01"
   },
   {
@@ -21993,7 +27718,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G030-01",
     "sourceIndex": 953,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/953.json",
+    "englishDetailPath": "/details-en/953.json",
+    "detailPaths": {
+      "ja": "/details/953.json",
+      "en": "/details-en/953.json"
+    },
     "routePath": "/courses/2026/spring/G030-01"
   },
   {
@@ -22016,7 +27747,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G030-01",
     "sourceIndex": 954,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/954.json",
+    "englishDetailPath": "/details-en/954.json",
+    "detailPaths": {
+      "ja": "/details/954.json",
+      "en": "/details-en/954.json"
+    },
     "routePath": "/courses/2026/fall/G030-01"
   },
   {
@@ -22039,7 +27776,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G037-01",
     "sourceIndex": 955,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/955.json",
+    "englishDetailPath": "/details-en/955.json",
+    "detailPaths": {
+      "ja": "/details/955.json",
+      "en": "/details-en/955.json"
+    },
     "routePath": "/courses/2026/spring/G037-01"
   },
   {
@@ -22062,7 +27805,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G037-01",
     "sourceIndex": 956,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/956.json",
+    "englishDetailPath": "/details-en/956.json",
+    "detailPaths": {
+      "ja": "/details/956.json",
+      "en": "/details-en/956.json"
+    },
     "routePath": "/courses/2026/fall/G037-01"
   },
   {
@@ -22085,7 +27834,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G243-01",
     "sourceIndex": 957,
     "hasDetail": true,
+    "hasEnglishDetail": false,
     "detailPath": "/details/957.json",
+    "englishDetailPath": null,
+    "detailPaths": {
+      "ja": "/details/957.json",
+      "en": null
+    },
     "routePath": "/courses/2026/spring/G243-01"
   },
   {
@@ -22108,7 +27863,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G243-01",
     "sourceIndex": 958,
     "hasDetail": true,
+    "hasEnglishDetail": false,
     "detailPath": "/details/958.json",
+    "englishDetailPath": null,
+    "detailPaths": {
+      "ja": "/details/958.json",
+      "en": null
+    },
     "routePath": "/courses/2026/fall/G243-01"
   },
   {
@@ -22131,7 +27892,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G244-01",
     "sourceIndex": 959,
     "hasDetail": true,
+    "hasEnglishDetail": false,
     "detailPath": "/details/959.json",
+    "englishDetailPath": null,
+    "detailPaths": {
+      "ja": "/details/959.json",
+      "en": null
+    },
     "routePath": "/courses/2026/spring/G244-01"
   },
   {
@@ -22154,7 +27921,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G245-01",
     "sourceIndex": 960,
     "hasDetail": true,
+    "hasEnglishDetail": false,
     "detailPath": "/details/960.json",
+    "englishDetailPath": null,
+    "detailPaths": {
+      "ja": "/details/960.json",
+      "en": null
+    },
     "routePath": "/courses/2026/spring/G245-01"
   },
   {
@@ -22177,7 +27950,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G246-01",
     "sourceIndex": 961,
     "hasDetail": true,
+    "hasEnglishDetail": false,
     "detailPath": "/details/961.json",
+    "englishDetailPath": null,
+    "detailPaths": {
+      "ja": "/details/961.json",
+      "en": null
+    },
     "routePath": "/courses/2026/spring/G246-01"
   },
   {
@@ -22200,7 +27979,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G247-01",
     "sourceIndex": 962,
     "hasDetail": true,
+    "hasEnglishDetail": false,
     "detailPath": "/details/962.json",
+    "englishDetailPath": null,
+    "detailPaths": {
+      "ja": "/details/962.json",
+      "en": null
+    },
     "routePath": "/courses/2026/spring/G247-01"
   },
   {
@@ -22223,7 +28008,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G255-01",
     "sourceIndex": 963,
     "hasDetail": true,
+    "hasEnglishDetail": false,
     "detailPath": "/details/963.json",
+    "englishDetailPath": null,
+    "detailPaths": {
+      "ja": "/details/963.json",
+      "en": null
+    },
     "routePath": "/courses/2026/spring/G255-01"
   },
   {
@@ -22246,7 +28037,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G255-01",
     "sourceIndex": 964,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/964.json",
+    "englishDetailPath": "/details-en/964.json",
+    "detailPaths": {
+      "ja": "/details/964.json",
+      "en": "/details-en/964.json"
+    },
     "routePath": "/courses/2026/fall/G255-01"
   },
   {
@@ -22269,7 +28066,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G258-01",
     "sourceIndex": 965,
     "hasDetail": true,
+    "hasEnglishDetail": false,
     "detailPath": "/details/965.json",
+    "englishDetailPath": null,
+    "detailPaths": {
+      "ja": "/details/965.json",
+      "en": null
+    },
     "routePath": "/courses/2026/spring/G258-01"
   },
   {
@@ -22292,7 +28095,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G258-01",
     "sourceIndex": 966,
     "hasDetail": true,
+    "hasEnglishDetail": false,
     "detailPath": "/details/966.json",
+    "englishDetailPath": null,
+    "detailPaths": {
+      "ja": "/details/966.json",
+      "en": null
+    },
     "routePath": "/courses/2026/fall/G258-01"
   },
   {
@@ -22315,7 +28124,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G259-01",
     "sourceIndex": 967,
     "hasDetail": true,
+    "hasEnglishDetail": false,
     "detailPath": "/details/967.json",
+    "englishDetailPath": null,
+    "detailPaths": {
+      "ja": "/details/967.json",
+      "en": null
+    },
     "routePath": "/courses/2026/spring/G259-01"
   },
   {
@@ -22338,7 +28153,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G259-01",
     "sourceIndex": 968,
     "hasDetail": true,
+    "hasEnglishDetail": false,
     "detailPath": "/details/968.json",
+    "englishDetailPath": null,
+    "detailPaths": {
+      "ja": "/details/968.json",
+      "en": null
+    },
     "routePath": "/courses/2026/fall/G259-01"
   },
   {
@@ -22361,7 +28182,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G260-01",
     "sourceIndex": 969,
     "hasDetail": true,
+    "hasEnglishDetail": false,
     "detailPath": "/details/969.json",
+    "englishDetailPath": null,
+    "detailPaths": {
+      "ja": "/details/969.json",
+      "en": null
+    },
     "routePath": "/courses/2026/spring/G260-01"
   },
   {
@@ -22384,7 +28211,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G260-01",
     "sourceIndex": 970,
     "hasDetail": true,
+    "hasEnglishDetail": false,
     "detailPath": "/details/970.json",
+    "englishDetailPath": null,
+    "detailPaths": {
+      "ja": "/details/970.json",
+      "en": null
+    },
     "routePath": "/courses/2026/fall/G260-01"
   },
   {
@@ -22407,7 +28240,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G261-01",
     "sourceIndex": 971,
     "hasDetail": true,
+    "hasEnglishDetail": false,
     "detailPath": "/details/971.json",
+    "englishDetailPath": null,
+    "detailPaths": {
+      "ja": "/details/971.json",
+      "en": null
+    },
     "routePath": "/courses/2026/spring/G261-01"
   },
   {
@@ -22430,7 +28269,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G263-01",
     "sourceIndex": 972,
     "hasDetail": true,
+    "hasEnglishDetail": false,
     "detailPath": "/details/972.json",
+    "englishDetailPath": null,
+    "detailPaths": {
+      "ja": "/details/972.json",
+      "en": null
+    },
     "routePath": "/courses/2026/spring/G263-01"
   },
   {
@@ -22453,7 +28298,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G263-01",
     "sourceIndex": 973,
     "hasDetail": true,
+    "hasEnglishDetail": false,
     "detailPath": "/details/973.json",
+    "englishDetailPath": null,
+    "detailPaths": {
+      "ja": "/details/973.json",
+      "en": null
+    },
     "routePath": "/courses/2026/fall/G263-01"
   },
   {
@@ -22476,7 +28327,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G264-01",
     "sourceIndex": 974,
     "hasDetail": true,
+    "hasEnglishDetail": false,
     "detailPath": "/details/974.json",
+    "englishDetailPath": null,
+    "detailPaths": {
+      "ja": "/details/974.json",
+      "en": null
+    },
     "routePath": "/courses/2026/spring/G264-01"
   },
   {
@@ -22499,7 +28356,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G265-01",
     "sourceIndex": 975,
     "hasDetail": true,
+    "hasEnglishDetail": false,
     "detailPath": "/details/975.json",
+    "englishDetailPath": null,
+    "detailPaths": {
+      "ja": "/details/975.json",
+      "en": null
+    },
     "routePath": "/courses/2026/spring/G265-01"
   },
   {
@@ -22522,7 +28385,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G265-01",
     "sourceIndex": 976,
     "hasDetail": true,
+    "hasEnglishDetail": false,
     "detailPath": "/details/976.json",
+    "englishDetailPath": null,
+    "detailPaths": {
+      "ja": "/details/976.json",
+      "en": null
+    },
     "routePath": "/courses/2026/fall/G265-01"
   },
   {
@@ -22545,7 +28414,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G266-01",
     "sourceIndex": 977,
     "hasDetail": true,
+    "hasEnglishDetail": false,
     "detailPath": "/details/977.json",
+    "englishDetailPath": null,
+    "detailPaths": {
+      "ja": "/details/977.json",
+      "en": null
+    },
     "routePath": "/courses/2026/spring/G266-01"
   },
   {
@@ -22568,7 +28443,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G409-01",
     "sourceIndex": 978,
     "hasDetail": true,
+    "hasEnglishDetail": false,
     "detailPath": "/details/978.json",
+    "englishDetailPath": null,
+    "detailPaths": {
+      "ja": "/details/978.json",
+      "en": null
+    },
     "routePath": "/courses/2026/spring/G409-01"
   },
   {
@@ -22591,7 +28472,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G479-01",
     "sourceIndex": 979,
     "hasDetail": true,
+    "hasEnglishDetail": false,
     "detailPath": "/details/979.json",
+    "englishDetailPath": null,
+    "detailPaths": {
+      "ja": "/details/979.json",
+      "en": null
+    },
     "routePath": "/courses/2026/spring/G479-01"
   },
   {
@@ -22614,7 +28501,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G479-01",
     "sourceIndex": 980,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/980.json",
+    "englishDetailPath": "/details-en/980.json",
+    "detailPaths": {
+      "ja": "/details/980.json",
+      "en": "/details-en/980.json"
+    },
     "routePath": "/courses/2026/fall/G479-01"
   },
   {
@@ -22637,7 +28530,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G488-01",
     "sourceIndex": 981,
     "hasDetail": true,
+    "hasEnglishDetail": false,
     "detailPath": "/details/981.json",
+    "englishDetailPath": null,
+    "detailPaths": {
+      "ja": "/details/981.json",
+      "en": null
+    },
     "routePath": "/courses/2026/spring/G488-01"
   },
   {
@@ -22660,7 +28559,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G495-01",
     "sourceIndex": 982,
     "hasDetail": true,
+    "hasEnglishDetail": false,
     "detailPath": "/details/982.json",
+    "englishDetailPath": null,
+    "detailPaths": {
+      "ja": "/details/982.json",
+      "en": null
+    },
     "routePath": "/courses/2026/spring/G495-01"
   },
   {
@@ -22683,7 +28588,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G495-01",
     "sourceIndex": 983,
     "hasDetail": true,
+    "hasEnglishDetail": false,
     "detailPath": "/details/983.json",
+    "englishDetailPath": null,
+    "detailPaths": {
+      "ja": "/details/983.json",
+      "en": null
+    },
     "routePath": "/courses/2026/fall/G495-01"
   },
   {
@@ -22706,7 +28617,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G508-01",
     "sourceIndex": 984,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/984.json",
+    "englishDetailPath": "/details-en/984.json",
+    "detailPaths": {
+      "ja": "/details/984.json",
+      "en": "/details-en/984.json"
+    },
     "routePath": "/courses/2026/spring/G508-01"
   },
   {
@@ -22729,7 +28646,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G519-01",
     "sourceIndex": 985,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/985.json",
+    "englishDetailPath": "/details-en/985.json",
+    "detailPaths": {
+      "ja": "/details/985.json",
+      "en": "/details-en/985.json"
+    },
     "routePath": "/courses/2026/spring/G519-01"
   },
   {
@@ -22752,7 +28675,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G519-01",
     "sourceIndex": 986,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/986.json",
+    "englishDetailPath": "/details-en/986.json",
+    "detailPaths": {
+      "ja": "/details/986.json",
+      "en": "/details-en/986.json"
+    },
     "routePath": "/courses/2026/fall/G519-01"
   },
   {
@@ -22775,7 +28704,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G521-01",
     "sourceIndex": 987,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/987.json",
+    "englishDetailPath": "/details-en/987.json",
+    "detailPaths": {
+      "ja": "/details/987.json",
+      "en": "/details-en/987.json"
+    },
     "routePath": "/courses/2026/fall/G521-01"
   },
   {
@@ -22798,7 +28733,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G522-01",
     "sourceIndex": 988,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/988.json",
+    "englishDetailPath": "/details-en/988.json",
+    "detailPaths": {
+      "ja": "/details/988.json",
+      "en": "/details-en/988.json"
+    },
     "routePath": "/courses/2026/spring/G522-01"
   },
   {
@@ -22821,7 +28762,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G522-01",
     "sourceIndex": 989,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/989.json",
+    "englishDetailPath": "/details-en/989.json",
+    "detailPaths": {
+      "ja": "/details/989.json",
+      "en": "/details-en/989.json"
+    },
     "routePath": "/courses/2026/fall/G522-01"
   },
   {
@@ -22844,7 +28791,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G523-01",
     "sourceIndex": 990,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/990.json",
+    "englishDetailPath": "/details-en/990.json",
+    "detailPaths": {
+      "ja": "/details/990.json",
+      "en": "/details-en/990.json"
+    },
     "routePath": "/courses/2026/fall/G523-01"
   },
   {
@@ -22867,7 +28820,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G524-01",
     "sourceIndex": 991,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/991.json",
+    "englishDetailPath": "/details-en/991.json",
+    "detailPaths": {
+      "ja": "/details/991.json",
+      "en": "/details-en/991.json"
+    },
     "routePath": "/courses/2026/fall/G524-01"
   },
   {
@@ -22890,7 +28849,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G525-01",
     "sourceIndex": 992,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/992.json",
+    "englishDetailPath": "/details-en/992.json",
+    "detailPaths": {
+      "ja": "/details/992.json",
+      "en": "/details-en/992.json"
+    },
     "routePath": "/courses/2026/fall/G525-01"
   },
   {
@@ -22913,7 +28878,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G526-01",
     "sourceIndex": 993,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/993.json",
+    "englishDetailPath": "/details-en/993.json",
+    "detailPaths": {
+      "ja": "/details/993.json",
+      "en": "/details-en/993.json"
+    },
     "routePath": "/courses/2026/fall/G526-01"
   },
   {
@@ -22936,7 +28907,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G527-01",
     "sourceIndex": 994,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/994.json",
+    "englishDetailPath": "/details-en/994.json",
+    "detailPaths": {
+      "ja": "/details/994.json",
+      "en": "/details-en/994.json"
+    },
     "routePath": "/courses/2026/spring/G527-01"
   },
   {
@@ -22959,7 +28936,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G528-01",
     "sourceIndex": 995,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/995.json",
+    "englishDetailPath": "/details-en/995.json",
+    "detailPaths": {
+      "ja": "/details/995.json",
+      "en": "/details-en/995.json"
+    },
     "routePath": "/courses/2026/spring/G528-01"
   },
   {
@@ -22982,7 +28965,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G528-01",
     "sourceIndex": 996,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/996.json",
+    "englishDetailPath": "/details-en/996.json",
+    "detailPaths": {
+      "ja": "/details/996.json",
+      "en": "/details-en/996.json"
+    },
     "routePath": "/courses/2026/fall/G528-01"
   },
   {
@@ -23005,7 +28994,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G529-01",
     "sourceIndex": 997,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/997.json",
+    "englishDetailPath": "/details-en/997.json",
+    "detailPaths": {
+      "ja": "/details/997.json",
+      "en": "/details-en/997.json"
+    },
     "routePath": "/courses/2026/spring/G529-01"
   },
   {
@@ -23028,7 +29023,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G529-01",
     "sourceIndex": 998,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/998.json",
+    "englishDetailPath": "/details-en/998.json",
+    "detailPaths": {
+      "ja": "/details/998.json",
+      "en": "/details-en/998.json"
+    },
     "routePath": "/courses/2026/fall/G529-01"
   },
   {
@@ -23051,7 +29052,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G534-01",
     "sourceIndex": 999,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/999.json",
+    "englishDetailPath": "/details-en/999.json",
+    "detailPaths": {
+      "ja": "/details/999.json",
+      "en": "/details-en/999.json"
+    },
     "routePath": "/courses/2026/fall/G534-01"
   },
   {
@@ -23074,7 +29081,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G535-01",
     "sourceIndex": 1000,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/1000.json",
+    "englishDetailPath": "/details-en/1000.json",
+    "detailPaths": {
+      "ja": "/details/1000.json",
+      "en": "/details-en/1000.json"
+    },
     "routePath": "/courses/2026/fall/G535-01"
   },
   {
@@ -23097,7 +29110,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G537-01",
     "sourceIndex": 1001,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/1001.json",
+    "englishDetailPath": "/details-en/1001.json",
+    "detailPaths": {
+      "ja": "/details/1001.json",
+      "en": "/details-en/1001.json"
+    },
     "routePath": "/courses/2026/spring/G537-01"
   },
   {
@@ -23120,7 +29139,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G541-01",
     "sourceIndex": 1002,
     "hasDetail": true,
+    "hasEnglishDetail": false,
     "detailPath": "/details/1002.json",
+    "englishDetailPath": null,
+    "detailPaths": {
+      "ja": "/details/1002.json",
+      "en": null
+    },
     "routePath": "/courses/2026/spring/G541-01"
   },
   {
@@ -23143,7 +29168,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G543-01",
     "sourceIndex": 1003,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/1003.json",
+    "englishDetailPath": "/details-en/1003.json",
+    "detailPaths": {
+      "ja": "/details/1003.json",
+      "en": "/details-en/1003.json"
+    },
     "routePath": "/courses/2026/fall/G543-01"
   },
   {
@@ -23166,7 +29197,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G545-01",
     "sourceIndex": 1004,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/1004.json",
+    "englishDetailPath": "/details-en/1004.json",
+    "detailPaths": {
+      "ja": "/details/1004.json",
+      "en": "/details-en/1004.json"
+    },
     "routePath": "/courses/2026/spring/G545-01"
   },
   {
@@ -23189,7 +29226,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G547-01",
     "sourceIndex": 1005,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/1005.json",
+    "englishDetailPath": "/details-en/1005.json",
+    "detailPaths": {
+      "ja": "/details/1005.json",
+      "en": "/details-en/1005.json"
+    },
     "routePath": "/courses/2026/spring/G547-01"
   },
   {
@@ -23212,7 +29255,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G549-01",
     "sourceIndex": 1006,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/1006.json",
+    "englishDetailPath": "/details-en/1006.json",
+    "detailPaths": {
+      "ja": "/details/1006.json",
+      "en": "/details-en/1006.json"
+    },
     "routePath": "/courses/2026/spring/G549-01"
   },
   {
@@ -23235,7 +29284,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G549-01",
     "sourceIndex": 1007,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/1007.json",
+    "englishDetailPath": "/details-en/1007.json",
+    "detailPaths": {
+      "ja": "/details/1007.json",
+      "en": "/details-en/1007.json"
+    },
     "routePath": "/courses/2026/fall/G549-01"
   },
   {
@@ -23258,7 +29313,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G551-01",
     "sourceIndex": 1008,
     "hasDetail": true,
+    "hasEnglishDetail": false,
     "detailPath": "/details/1008.json",
+    "englishDetailPath": null,
+    "detailPaths": {
+      "ja": "/details/1008.json",
+      "en": null
+    },
     "routePath": "/courses/2026/spring/G551-01"
   },
   {
@@ -23281,7 +29342,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G552-01",
     "sourceIndex": 1009,
     "hasDetail": true,
+    "hasEnglishDetail": false,
     "detailPath": "/details/1009.json",
+    "englishDetailPath": null,
+    "detailPaths": {
+      "ja": "/details/1009.json",
+      "en": null
+    },
     "routePath": "/courses/2026/spring/G552-01"
   },
   {
@@ -23304,7 +29371,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G553-01",
     "sourceIndex": 1010,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/1010.json",
+    "englishDetailPath": "/details-en/1010.json",
+    "detailPaths": {
+      "ja": "/details/1010.json",
+      "en": "/details-en/1010.json"
+    },
     "routePath": "/courses/2026/spring/G553-01"
   },
   {
@@ -23327,7 +29400,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G554-01",
     "sourceIndex": 1011,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/1011.json",
+    "englishDetailPath": "/details-en/1011.json",
+    "detailPaths": {
+      "ja": "/details/1011.json",
+      "en": "/details-en/1011.json"
+    },
     "routePath": "/courses/2026/fall/G554-01"
   },
   {
@@ -23350,7 +29429,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G555-01",
     "sourceIndex": 1012,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/1012.json",
+    "englishDetailPath": "/details-en/1012.json",
+    "detailPaths": {
+      "ja": "/details/1012.json",
+      "en": "/details-en/1012.json"
+    },
     "routePath": "/courses/2026/fall/G555-01"
   },
   {
@@ -23373,7 +29458,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G556-01",
     "sourceIndex": 1013,
     "hasDetail": true,
+    "hasEnglishDetail": false,
     "detailPath": "/details/1013.json",
+    "englishDetailPath": null,
+    "detailPaths": {
+      "ja": "/details/1013.json",
+      "en": null
+    },
     "routePath": "/courses/2026/spring/G556-01"
   },
   {
@@ -23396,7 +29487,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G558-01",
     "sourceIndex": 1014,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/1014.json",
+    "englishDetailPath": "/details-en/1014.json",
+    "detailPaths": {
+      "ja": "/details/1014.json",
+      "en": "/details-en/1014.json"
+    },
     "routePath": "/courses/2026/fall/G558-01"
   },
   {
@@ -23419,7 +29516,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G564-01",
     "sourceIndex": 1015,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/1015.json",
+    "englishDetailPath": "/details-en/1015.json",
+    "detailPaths": {
+      "ja": "/details/1015.json",
+      "en": "/details-en/1015.json"
+    },
     "routePath": "/courses/2026/fall/G564-01"
   },
   {
@@ -23442,7 +29545,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G565-01",
     "sourceIndex": 1016,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/1016.json",
+    "englishDetailPath": "/details-en/1016.json",
+    "detailPaths": {
+      "ja": "/details/1016.json",
+      "en": "/details-en/1016.json"
+    },
     "routePath": "/courses/2026/spring/G565-01"
   },
   {
@@ -23465,7 +29574,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G565-01",
     "sourceIndex": 1017,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/1017.json",
+    "englishDetailPath": "/details-en/1017.json",
+    "detailPaths": {
+      "ja": "/details/1017.json",
+      "en": "/details-en/1017.json"
+    },
     "routePath": "/courses/2026/fall/G565-01"
   },
   {
@@ -23488,7 +29603,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G573-01",
     "sourceIndex": 1018,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/1018.json",
+    "englishDetailPath": "/details-en/1018.json",
+    "detailPaths": {
+      "ja": "/details/1018.json",
+      "en": "/details-en/1018.json"
+    },
     "routePath": "/courses/2026/full-year/G573-01"
   },
   {
@@ -23511,7 +29632,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G575-01",
     "sourceIndex": 1019,
     "hasDetail": true,
+    "hasEnglishDetail": false,
     "detailPath": "/details/1019.json",
+    "englishDetailPath": null,
+    "detailPaths": {
+      "ja": "/details/1019.json",
+      "en": null
+    },
     "routePath": "/courses/2026/spring/G575-01"
   },
   {
@@ -23534,7 +29661,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G577-01",
     "sourceIndex": 1020,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/1020.json",
+    "englishDetailPath": "/details-en/1020.json",
+    "detailPaths": {
+      "ja": "/details/1020.json",
+      "en": "/details-en/1020.json"
+    },
     "routePath": "/courses/2026/spring/G577-01"
   },
   {
@@ -23557,7 +29690,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G580-01",
     "sourceIndex": 1021,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/1021.json",
+    "englishDetailPath": "/details-en/1021.json",
+    "detailPaths": {
+      "ja": "/details/1021.json",
+      "en": "/details-en/1021.json"
+    },
     "routePath": "/courses/2026/fall/G580-01"
   },
   {
@@ -23580,7 +29719,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G585-01",
     "sourceIndex": 1022,
     "hasDetail": true,
+    "hasEnglishDetail": false,
     "detailPath": "/details/1022.json",
+    "englishDetailPath": null,
+    "detailPaths": {
+      "ja": "/details/1022.json",
+      "en": null
+    },
     "routePath": "/courses/2026/spring/G585-01"
   },
   {
@@ -23603,7 +29748,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G586-01",
     "sourceIndex": 1023,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/1023.json",
+    "englishDetailPath": "/details-en/1023.json",
+    "detailPaths": {
+      "ja": "/details/1023.json",
+      "en": "/details-en/1023.json"
+    },
     "routePath": "/courses/2026/spring/G586-01"
   },
   {
@@ -23626,7 +29777,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G587-01",
     "sourceIndex": 1024,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/1024.json",
+    "englishDetailPath": "/details-en/1024.json",
+    "detailPaths": {
+      "ja": "/details/1024.json",
+      "en": "/details-en/1024.json"
+    },
     "routePath": "/courses/2026/fall/G587-01"
   },
   {
@@ -23649,7 +29806,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G588-01",
     "sourceIndex": 1025,
     "hasDetail": true,
+    "hasEnglishDetail": false,
     "detailPath": "/details/1025.json",
+    "englishDetailPath": null,
+    "detailPaths": {
+      "ja": "/details/1025.json",
+      "en": null
+    },
     "routePath": "/courses/2026/spring/G588-01"
   },
   {
@@ -23672,7 +29835,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G589-01",
     "sourceIndex": 1026,
     "hasDetail": true,
+    "hasEnglishDetail": false,
     "detailPath": "/details/1026.json",
+    "englishDetailPath": null,
+    "detailPaths": {
+      "ja": "/details/1026.json",
+      "en": null
+    },
     "routePath": "/courses/2026/fall/G589-01"
   },
   {
@@ -23695,7 +29864,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G594-01",
     "sourceIndex": 1027,
     "hasDetail": true,
+    "hasEnglishDetail": false,
     "detailPath": "/details/1027.json",
+    "englishDetailPath": null,
+    "detailPaths": {
+      "ja": "/details/1027.json",
+      "en": null
+    },
     "routePath": "/courses/2026/full-year/G594-01"
   },
   {
@@ -23718,7 +29893,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G595-01",
     "sourceIndex": 1028,
     "hasDetail": true,
+    "hasEnglishDetail": false,
     "detailPath": "/details/1028.json",
+    "englishDetailPath": null,
+    "detailPaths": {
+      "ja": "/details/1028.json",
+      "en": null
+    },
     "routePath": "/courses/2026/spring/G595-01"
   },
   {
@@ -23741,7 +29922,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G900-01",
     "sourceIndex": 1029,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/1029.json",
+    "englishDetailPath": "/details-en/1029.json",
+    "detailPaths": {
+      "ja": "/details/1029.json",
+      "en": "/details-en/1029.json"
+    },
     "routePath": "/courses/2026/full-year/G900-01"
   },
   {
@@ -23764,7 +29951,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G901-01",
     "sourceIndex": 1030,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/1030.json",
+    "englishDetailPath": "/details-en/1030.json",
+    "detailPaths": {
+      "ja": "/details/1030.json",
+      "en": "/details-en/1030.json"
+    },
     "routePath": "/courses/2026/fall/G901-01"
   },
   {
@@ -23787,7 +29980,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G902-01",
     "sourceIndex": 1031,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/1031.json",
+    "englishDetailPath": "/details-en/1031.json",
+    "detailPaths": {
+      "ja": "/details/1031.json",
+      "en": "/details-en/1031.json"
+    },
     "routePath": "/courses/2026/spring/G902-01"
   },
   {
@@ -23810,7 +30009,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G903-01",
     "sourceIndex": 1032,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/1032.json",
+    "englishDetailPath": "/details-en/1032.json",
+    "detailPaths": {
+      "ja": "/details/1032.json",
+      "en": "/details-en/1032.json"
+    },
     "routePath": "/courses/2026/fall/G903-01"
   },
   {
@@ -23833,7 +30038,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G904-01",
     "sourceIndex": 1033,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/1033.json",
+    "englishDetailPath": "/details-en/1033.json",
+    "detailPaths": {
+      "ja": "/details/1033.json",
+      "en": "/details-en/1033.json"
+    },
     "routePath": "/courses/2026/spring/G904-01"
   },
   {
@@ -23856,7 +30067,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G905-01",
     "sourceIndex": 1034,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/1034.json",
+    "englishDetailPath": "/details-en/1034.json",
+    "detailPaths": {
+      "ja": "/details/1034.json",
+      "en": "/details-en/1034.json"
+    },
     "routePath": "/courses/2026/fall/G905-01"
   },
   {
@@ -23879,7 +30096,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G906-01",
     "sourceIndex": 1035,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/1035.json",
+    "englishDetailPath": "/details-en/1035.json",
+    "detailPaths": {
+      "ja": "/details/1035.json",
+      "en": "/details-en/1035.json"
+    },
     "routePath": "/courses/2026/spring/G906-01"
   },
   {
@@ -23902,7 +30125,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G907-01",
     "sourceIndex": 1036,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/1036.json",
+    "englishDetailPath": "/details-en/1036.json",
+    "detailPaths": {
+      "ja": "/details/1036.json",
+      "en": "/details-en/1036.json"
+    },
     "routePath": "/courses/2026/fall/G907-01"
   },
   {
@@ -23925,7 +30154,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G908-01",
     "sourceIndex": 1037,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/1037.json",
+    "englishDetailPath": "/details-en/1037.json",
+    "detailPaths": {
+      "ja": "/details/1037.json",
+      "en": "/details-en/1037.json"
+    },
     "routePath": "/courses/2026/fall/G908-01"
   },
   {
@@ -23948,7 +30183,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G909-01",
     "sourceIndex": 1038,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/1038.json",
+    "englishDetailPath": "/details-en/1038.json",
+    "detailPaths": {
+      "ja": "/details/1038.json",
+      "en": "/details-en/1038.json"
+    },
     "routePath": "/courses/2026/fall/G909-01"
   },
   {
@@ -23971,7 +30212,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G910-01",
     "sourceIndex": 1039,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/1039.json",
+    "englishDetailPath": "/details-en/1039.json",
+    "detailPaths": {
+      "ja": "/details/1039.json",
+      "en": "/details-en/1039.json"
+    },
     "routePath": "/courses/2026/spring/G910-01"
   },
   {
@@ -23994,7 +30241,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G911-01",
     "sourceIndex": 1040,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/1040.json",
+    "englishDetailPath": "/details-en/1040.json",
+    "detailPaths": {
+      "ja": "/details/1040.json",
+      "en": "/details-en/1040.json"
+    },
     "routePath": "/courses/2026/fall/G911-01"
   },
   {
@@ -24017,7 +30270,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G912-01",
     "sourceIndex": 1041,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/1041.json",
+    "englishDetailPath": "/details-en/1041.json",
+    "detailPaths": {
+      "ja": "/details/1041.json",
+      "en": "/details-en/1041.json"
+    },
     "routePath": "/courses/2026/spring/G912-01"
   },
   {
@@ -24040,7 +30299,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G913-01",
     "sourceIndex": 1042,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/1042.json",
+    "englishDetailPath": "/details-en/1042.json",
+    "detailPaths": {
+      "ja": "/details/1042.json",
+      "en": "/details-en/1042.json"
+    },
     "routePath": "/courses/2026/fall/G913-01"
   },
   {
@@ -24063,7 +30328,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G914-01",
     "sourceIndex": 1043,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/1043.json",
+    "englishDetailPath": "/details-en/1043.json",
+    "detailPaths": {
+      "ja": "/details/1043.json",
+      "en": "/details-en/1043.json"
+    },
     "routePath": "/courses/2026/spring/G914-01"
   },
   {
@@ -24086,7 +30357,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G915-01",
     "sourceIndex": 1044,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/1044.json",
+    "englishDetailPath": "/details-en/1044.json",
+    "detailPaths": {
+      "ja": "/details/1044.json",
+      "en": "/details-en/1044.json"
+    },
     "routePath": "/courses/2026/spring/G915-01"
   },
   {
@@ -24109,7 +30386,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G916-01",
     "sourceIndex": 1045,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/1045.json",
+    "englishDetailPath": "/details-en/1045.json",
+    "detailPaths": {
+      "ja": "/details/1045.json",
+      "en": "/details-en/1045.json"
+    },
     "routePath": "/courses/2026/spring/G916-01"
   },
   {
@@ -24132,7 +30415,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G917-01",
     "sourceIndex": 1046,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/1046.json",
+    "englishDetailPath": "/details-en/1046.json",
+    "detailPaths": {
+      "ja": "/details/1046.json",
+      "en": "/details-en/1046.json"
+    },
     "routePath": "/courses/2026/full-year/G917-01"
   },
   {
@@ -24155,7 +30444,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G918-01",
     "sourceIndex": 1047,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/1047.json",
+    "englishDetailPath": "/details-en/1047.json",
+    "detailPaths": {
+      "ja": "/details/1047.json",
+      "en": "/details-en/1047.json"
+    },
     "routePath": "/courses/2026/spring/G918-01"
   },
   {
@@ -24178,7 +30473,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G919-01",
     "sourceIndex": 1048,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/1048.json",
+    "englishDetailPath": "/details-en/1048.json",
+    "detailPaths": {
+      "ja": "/details/1048.json",
+      "en": "/details-en/1048.json"
+    },
     "routePath": "/courses/2026/full-year/G919-01"
   },
   {
@@ -24201,7 +30502,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G920-01",
     "sourceIndex": 1049,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/1049.json",
+    "englishDetailPath": "/details-en/1049.json",
+    "detailPaths": {
+      "ja": "/details/1049.json",
+      "en": "/details-en/1049.json"
+    },
     "routePath": "/courses/2026/full-year/G920-01"
   },
   {
@@ -24224,7 +30531,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G921-01",
     "sourceIndex": 1050,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/1050.json",
+    "englishDetailPath": "/details-en/1050.json",
+    "detailPaths": {
+      "ja": "/details/1050.json",
+      "en": "/details-en/1050.json"
+    },
     "routePath": "/courses/2026/full-year/G921-01"
   },
   {
@@ -24247,7 +30560,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G922-01",
     "sourceIndex": 1051,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/1051.json",
+    "englishDetailPath": "/details-en/1051.json",
+    "detailPaths": {
+      "ja": "/details/1051.json",
+      "en": "/details-en/1051.json"
+    },
     "routePath": "/courses/2026/fall/G922-01"
   },
   {
@@ -24270,7 +30589,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G923-01",
     "sourceIndex": 1052,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/1052.json",
+    "englishDetailPath": "/details-en/1052.json",
+    "detailPaths": {
+      "ja": "/details/1052.json",
+      "en": "/details-en/1052.json"
+    },
     "routePath": "/courses/2026/fall/G923-01"
   },
   {
@@ -24293,7 +30618,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G924-01",
     "sourceIndex": 1053,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/1053.json",
+    "englishDetailPath": "/details-en/1053.json",
+    "detailPaths": {
+      "ja": "/details/1053.json",
+      "en": "/details-en/1053.json"
+    },
     "routePath": "/courses/2026/spring/G924-01"
   },
   {
@@ -24316,7 +30647,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G930-01",
     "sourceIndex": 1054,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/1054.json",
+    "englishDetailPath": "/details-en/1054.json",
+    "detailPaths": {
+      "ja": "/details/1054.json",
+      "en": "/details-en/1054.json"
+    },
     "routePath": "/courses/2026/spring/G930-01"
   },
   {
@@ -24339,7 +30676,13 @@ export const courses: CourseSummary[] = [
     "courseCodeLabel": "G953-01",
     "sourceIndex": 1055,
     "hasDetail": true,
+    "hasEnglishDetail": true,
     "detailPath": "/details/1055.json",
+    "englishDetailPath": "/details-en/1055.json",
+    "detailPaths": {
+      "ja": "/details/1055.json",
+      "en": "/details-en/1055.json"
+    },
     "routePath": "/courses/2026/full-year/G953-01"
   }
 ];
