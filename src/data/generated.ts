@@ -16,6 +16,9 @@ export interface CourseSummary {
   departmentLabel: string | null;
   courseCategoryLabel: string | null;
   courseCodeLabel: string;
+  credits: number;
+  courseType: string;
+  creditCategory: string;
   sourceIndex: number;
   hasDetail: boolean;
   hasEnglishDetail: boolean;
@@ -26,6 +29,7 @@ export interface CourseSummary {
     en: string | null;
   };
   routePath: string;
+  hasPracticalTeacher: boolean;
 }
 
 export interface SyllabusDetail {
@@ -88,7 +92,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/0.json",
       "en": null
     },
-    "routePath": "/courses/2026/spring/G001-01"
+    "routePath": "/courses/2026/spring/G001-01",
+    "credits": 2,
+    "courseType": "修学基礎教育課程修学基礎科目修学基礎",
+    "creditCategory": "shugaku",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:G002-01:0:1",
@@ -117,7 +125,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/1.json",
       "en": "/details-en/1.json"
     },
-    "routePath": "/courses/2026/fall/G002-01"
+    "routePath": "/courses/2026/fall/G002-01",
+    "credits": 2,
+    "courseType": "修学基礎教育課程修学基礎科目修学基礎",
+    "creditCategory": "shugaku",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:G003-01:0:2",
@@ -146,7 +158,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/2.json",
       "en": "/details-en/2.json"
     },
-    "routePath": "/courses/2026/spring/G003-01"
+    "routePath": "/courses/2026/spring/G003-01",
+    "credits": 2,
+    "courseType": "修学基礎教育課程人間形成基礎科目人間形成基礎",
+    "creditCategory": "ethics",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:G003-01:0:3",
@@ -175,7 +191,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/3.json",
       "en": "/details-en/3.json"
     },
-    "routePath": "/courses/2026/fall/G003-01"
+    "routePath": "/courses/2026/fall/G003-01",
+    "credits": 2,
+    "courseType": "修学基礎教育課程人間形成基礎科目人間形成基礎",
+    "creditCategory": "ethics",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:G011-01:0:4",
@@ -204,7 +224,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/4.json",
       "en": "/details-en/4.json"
     },
-    "routePath": "/courses/2026/spring/G011-01"
+    "routePath": "/courses/2026/spring/G011-01",
+    "credits": 1,
+    "courseType": "修学基礎教育課程人間形成基礎科目人間形成基礎",
+    "creditCategory": "humanities",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:G011-01:0:5",
@@ -233,7 +257,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/5.json",
       "en": "/details-en/5.json"
     },
-    "routePath": "/courses/2026/fall/G011-01"
+    "routePath": "/courses/2026/fall/G011-01",
+    "credits": 1,
+    "courseType": "修学基礎教育課程人間形成基礎科目人間形成基礎",
+    "creditCategory": "humanities",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:G012-01:0:6",
@@ -262,7 +290,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/6.json",
       "en": "/details-en/6.json"
     },
-    "routePath": "/courses/2026/spring/G012-01"
+    "routePath": "/courses/2026/spring/G012-01",
+    "credits": 1,
+    "courseType": "修学基礎教育課程人間形成基礎科目人間形成基礎",
+    "creditCategory": "humanities",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:G012-01:0:7",
@@ -291,7 +323,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/7.json",
       "en": "/details-en/7.json"
     },
-    "routePath": "/courses/2026/fall/G012-01"
+    "routePath": "/courses/2026/fall/G012-01",
+    "credits": 1,
+    "courseType": "修学基礎教育課程人間形成基礎科目人間形成基礎",
+    "creditCategory": "humanities",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:G013-01:0:8",
@@ -320,7 +356,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/8.json",
       "en": "/details-en/8.json"
     },
-    "routePath": "/courses/2026/spring/G013-01"
+    "routePath": "/courses/2026/spring/G013-01",
+    "credits": 2,
+    "courseType": "修学基礎教育課程人間形成基礎科目人間形成基礎",
+    "creditCategory": "ethics",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:G013-01:0:9",
@@ -349,7 +389,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/9.json",
       "en": "/details-en/9.json"
     },
-    "routePath": "/courses/2026/fall/G013-01"
+    "routePath": "/courses/2026/fall/G013-01",
+    "credits": 2,
+    "courseType": "修学基礎教育課程人間形成基礎科目人間形成基礎",
+    "creditCategory": "ethics",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:G060-01:0:10",
@@ -378,7 +422,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/10.json",
       "en": "/details-en/10.json"
     },
-    "routePath": "/courses/2026/spring/G060-01"
+    "routePath": "/courses/2026/spring/G060-01",
+    "credits": 1,
+    "courseType": "修学基礎教育課程人間形成基礎科目人間形成基礎",
+    "creditCategory": "humanities",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:G060-01:0:11",
@@ -407,7 +455,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/11.json",
       "en": "/details-en/11.json"
     },
-    "routePath": "/courses/2026/fall/G060-01"
+    "routePath": "/courses/2026/fall/G060-01",
+    "credits": 1,
+    "courseType": "修学基礎教育課程人間形成基礎科目人間形成基礎",
+    "creditCategory": "humanities",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:G071-01:0:12",
@@ -436,7 +488,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/12.json",
       "en": "/details-en/12.json"
     },
-    "routePath": "/courses/2026/spring/G071-01"
+    "routePath": "/courses/2026/spring/G071-01",
+    "credits": 1,
+    "courseType": "修学基礎教育課程人間形成基礎科目生涯スポーツ",
+    "creditCategory": "sports",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:G072-01:0:13",
@@ -465,7 +521,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/13.json",
       "en": "/details-en/13.json"
     },
-    "routePath": "/courses/2026/fall/G072-01"
+    "routePath": "/courses/2026/fall/G072-01",
+    "credits": 1,
+    "courseType": "修学基礎教育課程人間形成基礎科目生涯スポーツ",
+    "creditCategory": "sports",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:G072-03:0:14",
@@ -494,7 +554,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/14.json",
       "en": "/details-en/14.json"
     },
-    "routePath": "/courses/2026/fall/G072-03"
+    "routePath": "/courses/2026/fall/G072-03",
+    "credits": 1,
+    "courseType": "修学基礎教育課程人間形成基礎科目生涯スポーツ",
+    "creditCategory": "sports",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:G072-04:0:15",
@@ -523,7 +587,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/15.json",
       "en": "/details-en/15.json"
     },
-    "routePath": "/courses/2026/fall/G072-04"
+    "routePath": "/courses/2026/fall/G072-04",
+    "credits": 1,
+    "courseType": "修学基礎教育課程人間形成基礎科目生涯スポーツ",
+    "creditCategory": "sports",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:G072-05:0:16",
@@ -552,7 +620,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/16.json",
       "en": "/details-en/16.json"
     },
-    "routePath": "/courses/2026/fall/G072-05"
+    "routePath": "/courses/2026/fall/G072-05",
+    "credits": 1,
+    "courseType": "修学基礎教育課程人間形成基礎科目生涯スポーツ",
+    "creditCategory": "sports",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:G072-06:0:17",
@@ -581,7 +653,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/17.json",
       "en": "/details-en/17.json"
     },
-    "routePath": "/courses/2026/fall/G072-06"
+    "routePath": "/courses/2026/fall/G072-06",
+    "credits": 1,
+    "courseType": "修学基礎教育課程人間形成基礎科目生涯スポーツ",
+    "creditCategory": "sports",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:G072-07:0:18",
@@ -610,7 +686,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/18.json",
       "en": "/details-en/18.json"
     },
-    "routePath": "/courses/2026/fall/G072-07"
+    "routePath": "/courses/2026/fall/G072-07",
+    "credits": 1,
+    "courseType": "修学基礎教育課程人間形成基礎科目生涯スポーツ",
+    "creditCategory": "sports",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:G072-09:0:19",
@@ -639,7 +719,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/19.json",
       "en": "/details-en/19.json"
     },
-    "routePath": "/courses/2026/fall/G072-09"
+    "routePath": "/courses/2026/fall/G072-09",
+    "credits": 1,
+    "courseType": "修学基礎教育課程人間形成基礎科目生涯スポーツ",
+    "creditCategory": "sports",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:G072-12:0:20",
@@ -668,7 +752,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/20.json",
       "en": "/details-en/20.json"
     },
-    "routePath": "/courses/2026/fall/G072-12"
+    "routePath": "/courses/2026/fall/G072-12",
+    "credits": 1,
+    "courseType": "修学基礎教育課程人間形成基礎科目生涯スポーツ",
+    "creditCategory": "sports",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:G072-13:0:21",
@@ -697,7 +785,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/21.json",
       "en": "/details-en/21.json"
     },
-    "routePath": "/courses/2026/fall/G072-13"
+    "routePath": "/courses/2026/fall/G072-13",
+    "credits": 1,
+    "courseType": "修学基礎教育課程人間形成基礎科目生涯スポーツ",
+    "creditCategory": "sports",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:G072-14:0:22",
@@ -726,7 +818,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/22.json",
       "en": "/details-en/22.json"
     },
-    "routePath": "/courses/2026/fall/G072-14"
+    "routePath": "/courses/2026/fall/G072-14",
+    "credits": 1,
+    "courseType": "修学基礎教育課程人間形成基礎科目生涯スポーツ",
+    "creditCategory": "sports",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:G072-15:0:23",
@@ -755,7 +851,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/23.json",
       "en": "/details-en/23.json"
     },
-    "routePath": "/courses/2026/fall/G072-15"
+    "routePath": "/courses/2026/fall/G072-15",
+    "credits": 1,
+    "courseType": "修学基礎教育課程人間形成基礎科目生涯スポーツ",
+    "creditCategory": "sports",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:G084-01:0:24",
@@ -784,7 +884,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/24.json",
       "en": null
     },
-    "routePath": "/courses/2026/spring/G084-01"
+    "routePath": "/courses/2026/spring/G084-01",
+    "credits": 0,
+    "courseType": "修学基礎教育課程人間形成基礎科目人間と自然",
+    "creditCategory": "humanities",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:G101-01:0:25",
@@ -813,7 +917,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/25.json",
       "en": "/details-en/25.json"
     },
-    "routePath": "/courses/2026/spring/G101-01"
+    "routePath": "/courses/2026/spring/G101-01",
+    "credits": 2,
+    "courseType": "英語教育課程英語科目英語",
+    "creditCategory": "english",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:G102-01:0:26",
@@ -842,7 +950,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/26.json",
       "en": "/details-en/26.json"
     },
-    "routePath": "/courses/2026/fall/G102-01"
+    "routePath": "/courses/2026/fall/G102-01",
+    "credits": 2,
+    "courseType": "英語教育課程英語科目英語",
+    "creditCategory": "english",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:G103-01:0:27",
@@ -871,7 +983,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/27.json",
       "en": "/details-en/27.json"
     },
-    "routePath": "/courses/2026/spring/G103-01"
+    "routePath": "/courses/2026/spring/G103-01",
+    "credits": 2,
+    "courseType": "英語教育課程英語科目英語",
+    "creditCategory": "english",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:G104-01:0:28",
@@ -900,7 +1016,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/28.json",
       "en": "/details-en/28.json"
     },
-    "routePath": "/courses/2026/fall/G104-01"
+    "routePath": "/courses/2026/fall/G104-01",
+    "credits": 2,
+    "courseType": "英語教育課程英語科目英語",
+    "creditCategory": "english",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:G105-01:0:29",
@@ -929,7 +1049,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/29.json",
       "en": "/details-en/29.json"
     },
-    "routePath": "/courses/2026/spring/G105-01"
+    "routePath": "/courses/2026/spring/G105-01",
+    "credits": 2,
+    "courseType": "英語教育課程英語科目英語",
+    "creditCategory": "english",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:G107-01:0:30",
@@ -958,7 +1082,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/30.json",
       "en": "/details-en/30.json"
     },
-    "routePath": "/courses/2026/fall/G107-01"
+    "routePath": "/courses/2026/fall/G107-01",
+    "credits": 2,
+    "courseType": "英語教育課程英語科目英語",
+    "creditCategory": "english",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:G108-01:0:31",
@@ -987,7 +1115,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/31.json",
       "en": "/details-en/31.json"
     },
-    "routePath": "/courses/2026/fall/G108-01"
+    "routePath": "/courses/2026/fall/G108-01",
+    "credits": 2,
+    "courseType": "英語教育課程英語科目英語",
+    "creditCategory": "english",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:G109-01:0:32",
@@ -1016,7 +1148,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/32.json",
       "en": "/details-en/32.json"
     },
-    "routePath": "/courses/2026/spring/G109-01"
+    "routePath": "/courses/2026/spring/G109-01",
+    "credits": 2,
+    "courseType": "英語教育課程英語科目英語",
+    "creditCategory": "english",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:G110-01:0:33",
@@ -1045,7 +1181,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/33.json",
       "en": "/details-en/33.json"
     },
-    "routePath": "/courses/2026/fall/G110-01"
+    "routePath": "/courses/2026/fall/G110-01",
+    "credits": 2,
+    "courseType": "英語教育課程英語科目英語",
+    "creditCategory": "english",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:G111-01:0:34",
@@ -1074,7 +1214,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/34.json",
       "en": "/details-en/34.json"
     },
-    "routePath": "/courses/2026/spring/G111-01"
+    "routePath": "/courses/2026/spring/G111-01",
+    "credits": 2,
+    "courseType": "英語教育課程英語科目英語",
+    "creditCategory": "english",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:G112-01:0:35",
@@ -1103,7 +1247,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/35.json",
       "en": "/details-en/35.json"
     },
-    "routePath": "/courses/2026/fall/G112-01"
+    "routePath": "/courses/2026/fall/G112-01",
+    "credits": 2,
+    "courseType": "英語教育課程英語科目英語",
+    "creditCategory": "english",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:G113-01:0:36",
@@ -1132,7 +1280,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/36.json",
       "en": "/details-en/36.json"
     },
-    "routePath": "/courses/2026/spring/G113-01"
+    "routePath": "/courses/2026/spring/G113-01",
+    "credits": 2,
+    "courseType": "英語教育課程英語科目英語",
+    "creditCategory": "english",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:G114-01:0:37",
@@ -1161,7 +1313,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/37.json",
       "en": "/details-en/37.json"
     },
-    "routePath": "/courses/2026/fall/G114-01"
+    "routePath": "/courses/2026/fall/G114-01",
+    "credits": 2,
+    "courseType": "英語教育課程英語科目英語",
+    "creditCategory": "english",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:G115-01:0:38",
@@ -1190,7 +1346,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/38.json",
       "en": "/details-en/38.json"
     },
-    "routePath": "/courses/2026/fall/G115-01"
+    "routePath": "/courses/2026/fall/G115-01",
+    "credits": 2,
+    "courseType": "英語教育課程英語科目英語",
+    "creditCategory": "english",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:G116-01:0:39",
@@ -1219,7 +1379,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/39.json",
       "en": "/details-en/39.json"
     },
-    "routePath": "/courses/2026/spring/G116-01"
+    "routePath": "/courses/2026/spring/G116-01",
+    "credits": 2,
+    "courseType": "英語教育課程英語科目英語",
+    "creditCategory": "english",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:G116-01:0:40",
@@ -1248,7 +1412,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/40.json",
       "en": "/details-en/40.json"
     },
-    "routePath": "/courses/2026/fall/G116-01"
+    "routePath": "/courses/2026/fall/G116-01",
+    "credits": 2,
+    "courseType": "英語教育課程英語科目英語",
+    "creditCategory": "english",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:G117-01:0:41",
@@ -1277,7 +1445,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/41.json",
       "en": "/details-en/41.json"
     },
-    "routePath": "/courses/2026/spring/G117-01"
+    "routePath": "/courses/2026/spring/G117-01",
+    "credits": 2,
+    "courseType": "英語教育課程英語科目英語",
+    "creditCategory": "english",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:G605-01:0:42",
@@ -1306,7 +1478,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/42.json",
       "en": "/details-en/42.json"
     },
-    "routePath": "/courses/2026/spring/G605-01"
+    "routePath": "/courses/2026/spring/G605-01",
+    "credits": 4,
+    "courseType": "英語教育課程英語科目英語",
+    "creditCategory": "english",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:G606-01:0:43",
@@ -1335,7 +1511,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/43.json",
       "en": "/details-en/43.json"
     },
-    "routePath": "/courses/2026/spring/G606-01"
+    "routePath": "/courses/2026/spring/G606-01",
+    "credits": 4,
+    "courseType": "英語教育課程英語科目英語",
+    "creditCategory": "english",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:G607-01:0:44",
@@ -1364,7 +1544,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/44.json",
       "en": "/details-en/44.json"
     },
-    "routePath": "/courses/2026/spring/G607-01"
+    "routePath": "/courses/2026/spring/G607-01",
+    "credits": 4,
+    "courseType": "英語教育課程英語科目英語",
+    "creditCategory": "english",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:G608-01:0:45",
@@ -1393,7 +1577,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/45.json",
       "en": "/details-en/45.json"
     },
-    "routePath": "/courses/2026/spring/G608-01"
+    "routePath": "/courses/2026/spring/G608-01",
+    "credits": 4,
+    "courseType": "英語教育課程英語科目英語",
+    "creditCategory": "english",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:G611-01:0:46",
@@ -1422,7 +1610,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/46.json",
       "en": null
     },
-    "routePath": "/courses/2026/spring/G611-01"
+    "routePath": "/courses/2026/spring/G611-01",
+    "credits": 2,
+    "courseType": "英語教育課程英語科目英語",
+    "creditCategory": "english",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:G613-01:0:47",
@@ -1451,7 +1643,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/47.json",
       "en": null
     },
-    "routePath": "/courses/2026/spring/G613-01"
+    "routePath": "/courses/2026/spring/G613-01",
+    "credits": 2,
+    "courseType": "英語教育課程英語科目英語",
+    "creditCategory": "english",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:G616-01:0:48",
@@ -1480,7 +1676,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/48.json",
       "en": "/details-en/48.json"
     },
-    "routePath": "/courses/2026/spring/G616-01"
+    "routePath": "/courses/2026/spring/G616-01",
+    "credits": 2,
+    "courseType": "英語教育課程英語科目英語",
+    "creditCategory": "english",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:G151-01:0:49",
@@ -1509,7 +1709,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/49.json",
       "en": "/details-en/49.json"
     },
-    "routePath": "/courses/2026/spring/G151-01"
+    "routePath": "/courses/2026/spring/G151-01",
+    "credits": 2,
+    "courseType": "数理・DS・AI教育課程数理基礎科目数理基礎",
+    "creditCategory": "math",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:G151-01:0:50",
@@ -1538,7 +1742,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/50.json",
       "en": "/details-en/50.json"
     },
-    "routePath": "/courses/2026/fall/G151-01"
+    "routePath": "/courses/2026/fall/G151-01",
+    "credits": 2,
+    "courseType": "数理・DS・AI教育課程数理基礎科目数理基礎",
+    "creditCategory": "math",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:G152-01:0:51",
@@ -1567,7 +1775,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/51.json",
       "en": "/details-en/51.json"
     },
-    "routePath": "/courses/2026/spring/G152-01"
+    "routePath": "/courses/2026/spring/G152-01",
+    "credits": 2,
+    "courseType": "数理・DS・AI教育課程数理基礎科目数理基礎",
+    "creditCategory": "math",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:G152-01:0:52",
@@ -1596,7 +1808,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/52.json",
       "en": "/details-en/52.json"
     },
-    "routePath": "/courses/2026/fall/G152-01"
+    "routePath": "/courses/2026/fall/G152-01",
+    "credits": 2,
+    "courseType": "数理・DS・AI教育課程数理基礎科目数理基礎",
+    "creditCategory": "math",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:G153-01:0:53",
@@ -1625,7 +1841,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/53.json",
       "en": "/details-en/53.json"
     },
-    "routePath": "/courses/2026/spring/G153-01"
+    "routePath": "/courses/2026/spring/G153-01",
+    "credits": 2,
+    "courseType": "数理・DS・AI教育課程数理基礎科目数理基礎",
+    "creditCategory": "math",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:G153-01:0:54",
@@ -1654,7 +1874,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/54.json",
       "en": "/details-en/54.json"
     },
-    "routePath": "/courses/2026/fall/G153-01"
+    "routePath": "/courses/2026/fall/G153-01",
+    "credits": 2,
+    "courseType": "数理・DS・AI教育課程数理基礎科目数理基礎",
+    "creditCategory": "math",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:G154-01:0:55",
@@ -1683,7 +1907,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/55.json",
       "en": "/details-en/55.json"
     },
-    "routePath": "/courses/2026/spring/G154-01"
+    "routePath": "/courses/2026/spring/G154-01",
+    "credits": 2,
+    "courseType": "数理・DS・AI教育課程数理基礎科目数理基礎",
+    "creditCategory": "math",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:G154-01:0:56",
@@ -1712,7 +1940,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/56.json",
       "en": "/details-en/56.json"
     },
-    "routePath": "/courses/2026/fall/G154-01"
+    "routePath": "/courses/2026/fall/G154-01",
+    "credits": 2,
+    "courseType": "数理・DS・AI教育課程数理基礎科目数理基礎",
+    "creditCategory": "math",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:G155-01:0:57",
@@ -1741,7 +1973,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/57.json",
       "en": "/details-en/57.json"
     },
-    "routePath": "/courses/2026/spring/G155-01"
+    "routePath": "/courses/2026/spring/G155-01",
+    "credits": 2,
+    "courseType": "数理・DS・AI教育課程数理基礎科目数理基礎",
+    "creditCategory": "math",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:G155-01:0:58",
@@ -1770,7 +2006,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/58.json",
       "en": "/details-en/58.json"
     },
-    "routePath": "/courses/2026/fall/G155-01"
+    "routePath": "/courses/2026/fall/G155-01",
+    "credits": 2,
+    "courseType": "数理・DS・AI教育課程数理基礎科目数理基礎",
+    "creditCategory": "math",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:G156-01:0:59",
@@ -1799,7 +2039,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/59.json",
       "en": "/details-en/59.json"
     },
-    "routePath": "/courses/2026/fall/G156-01"
+    "routePath": "/courses/2026/fall/G156-01",
+    "credits": 2,
+    "courseType": "数理・DS・AI教育課程数理基礎科目数理基礎",
+    "creditCategory": "math",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:G157-01:0:60",
@@ -1828,7 +2072,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/60.json",
       "en": "/details-en/60.json"
     },
-    "routePath": "/courses/2026/spring/G157-01"
+    "routePath": "/courses/2026/spring/G157-01",
+    "credits": 2,
+    "courseType": "数理・DS・AI教育課程数理基礎科目数理基礎",
+    "creditCategory": "math",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:G157-01:0:61",
@@ -1857,7 +2105,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/61.json",
       "en": "/details-en/61.json"
     },
-    "routePath": "/courses/2026/fall/G157-01"
+    "routePath": "/courses/2026/fall/G157-01",
+    "credits": 2,
+    "courseType": "数理・DS・AI教育課程数理基礎科目数理基礎",
+    "creditCategory": "math",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:G158-01:0:62",
@@ -1886,7 +2138,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/62.json",
       "en": "/details-en/62.json"
     },
-    "routePath": "/courses/2026/spring/G158-01"
+    "routePath": "/courses/2026/spring/G158-01",
+    "credits": 2,
+    "courseType": "数理・DS・AI教育課程数理基礎科目数理基礎",
+    "creditCategory": "math",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:G159-01:0:63",
@@ -1915,7 +2171,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/63.json",
       "en": "/details-en/63.json"
     },
-    "routePath": "/courses/2026/fall/G159-01"
+    "routePath": "/courses/2026/fall/G159-01",
+    "credits": 2,
+    "courseType": "数理・DS・AI教育課程数理基礎科目数理基礎",
+    "creditCategory": "math",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:G160-01:0:64",
@@ -1944,7 +2204,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/64.json",
       "en": "/details-en/64.json"
     },
-    "routePath": "/courses/2026/spring/G160-01"
+    "routePath": "/courses/2026/spring/G160-01",
+    "credits": 2,
+    "courseType": "数理・DS・AI教育課程数理基礎科目数理基礎",
+    "creditCategory": "math",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:G161-01:0:65",
@@ -1973,7 +2237,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/65.json",
       "en": "/details-en/65.json"
     },
-    "routePath": "/courses/2026/spring/G161-01"
+    "routePath": "/courses/2026/spring/G161-01",
+    "credits": 2,
+    "courseType": "数理・DS・AI教育課程数理基礎科目数理基礎",
+    "creditCategory": "math",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:G161-01:0:66",
@@ -2002,7 +2270,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/66.json",
       "en": "/details-en/66.json"
     },
-    "routePath": "/courses/2026/fall/G161-01"
+    "routePath": "/courses/2026/fall/G161-01",
+    "credits": 2,
+    "courseType": "数理・DS・AI教育課程数理基礎科目数理基礎",
+    "creditCategory": "math",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:G162-01:0:67",
@@ -2031,7 +2303,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/67.json",
       "en": "/details-en/67.json"
     },
-    "routePath": "/courses/2026/fall/G162-01"
+    "routePath": "/courses/2026/fall/G162-01",
+    "credits": 2,
+    "courseType": "数理・DS・AI教育課程数理基礎科目数理基礎",
+    "creditCategory": "math",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:G201-01:0:68",
@@ -2060,7 +2336,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/68.json",
       "en": "/details-en/68.json"
     },
-    "routePath": "/courses/2026/spring/G201-01"
+    "routePath": "/courses/2026/spring/G201-01",
+    "credits": 2,
+    "courseType": "数理・DS・AI教育課程数理基礎科目数理基礎",
+    "creditCategory": "math",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:G202-01:0:69",
@@ -2089,7 +2369,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/69.json",
       "en": "/details-en/69.json"
     },
-    "routePath": "/courses/2026/fall/G202-01"
+    "routePath": "/courses/2026/fall/G202-01",
+    "credits": 2,
+    "courseType": "数理・DS・AI教育課程数理基礎科目数理基礎",
+    "creditCategory": "math",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:G203-01:0:70",
@@ -2118,7 +2402,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/70.json",
       "en": "/details-en/70.json"
     },
-    "routePath": "/courses/2026/spring/G203-01"
+    "routePath": "/courses/2026/spring/G203-01",
+    "credits": 4,
+    "courseType": "数理・DS・AI教育課程数理基礎科目数理基礎",
+    "creditCategory": "math",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:G204-01:0:71",
@@ -2147,7 +2435,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/71.json",
       "en": "/details-en/71.json"
     },
-    "routePath": "/courses/2026/fall/G204-01"
+    "routePath": "/courses/2026/fall/G204-01",
+    "credits": 4,
+    "courseType": "数理・DS・AI教育課程数理基礎科目数理基礎",
+    "creditCategory": "math",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:G209-01:0:72",
@@ -2176,7 +2468,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/72.json",
       "en": "/details-en/72.json"
     },
-    "routePath": "/courses/2026/fall/G209-01"
+    "routePath": "/courses/2026/fall/G209-01",
+    "credits": 2,
+    "courseType": "数理基礎教育課程数理基礎科目数理基礎",
+    "creditCategory": "math",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:G211-01:0:73",
@@ -2205,7 +2501,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/73.json",
       "en": "/details-en/73.json"
     },
-    "routePath": "/courses/2026/fall/G211-01"
+    "routePath": "/courses/2026/fall/G211-01",
+    "credits": 4,
+    "courseType": "数理・DS・AI教育課程数理基礎科目数理基礎",
+    "creditCategory": "math",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:G212-01:0:74",
@@ -2234,7 +2534,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/74.json",
       "en": "/details-en/74.json"
     },
-    "routePath": "/courses/2026/spring/G212-01"
+    "routePath": "/courses/2026/spring/G212-01",
+    "credits": 2,
+    "courseType": "数理・DS・AI教育課程数理基礎科目数理基礎",
+    "creditCategory": "math",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:G221-01:0:75",
@@ -2263,7 +2567,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/75.json",
       "en": "/details-en/75.json"
     },
-    "routePath": "/courses/2026/spring/G221-01"
+    "routePath": "/courses/2026/spring/G221-01",
+    "credits": 2,
+    "courseType": "数理・DS・AI教育課程数理基礎科目数理基礎",
+    "creditCategory": "math",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:G223-01:0:76",
@@ -2292,7 +2600,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/76.json",
       "en": "/details-en/76.json"
     },
-    "routePath": "/courses/2026/fall/G223-01"
+    "routePath": "/courses/2026/fall/G223-01",
+    "credits": 2,
+    "courseType": "数理・DS・AI教育課程数理基礎科目数理基礎",
+    "creditCategory": "math",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:G240-01:0:77",
@@ -2321,7 +2633,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/77.json",
       "en": "/details-en/77.json"
     },
-    "routePath": "/courses/2026/spring/G240-01"
+    "routePath": "/courses/2026/spring/G240-01",
+    "credits": 1,
+    "courseType": "数理・DS・AI教育課程数理基礎科目数理基礎",
+    "creditCategory": "math",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:G240-01:0:78",
@@ -2350,7 +2666,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/78.json",
       "en": "/details-en/78.json"
     },
-    "routePath": "/courses/2026/fall/G240-01"
+    "routePath": "/courses/2026/fall/G240-01",
+    "credits": 1,
+    "courseType": "数理・DS・AI教育課程数理基礎科目数理基礎",
+    "creditCategory": "math",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:G241-01:0:79",
@@ -2379,7 +2699,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/79.json",
       "en": "/details-en/79.json"
     },
-    "routePath": "/courses/2026/fall/G241-01"
+    "routePath": "/courses/2026/fall/G241-01",
+    "credits": 1,
+    "courseType": "数理・DS・AI教育課程数理基礎科目数理基礎",
+    "creditCategory": "math",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:G242-01:0:80",
@@ -2408,7 +2732,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/80.json",
       "en": "/details-en/80.json"
     },
-    "routePath": "/courses/2026/spring/G242-01"
+    "routePath": "/courses/2026/spring/G242-01",
+    "credits": 1,
+    "courseType": "数理・DS・AI教育課程数理基礎科目数理基礎",
+    "creditCategory": "math",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:G250-01:0:81",
@@ -2437,7 +2765,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/81.json",
       "en": "/details-en/81.json"
     },
-    "routePath": "/courses/2026/spring/G250-01"
+    "routePath": "/courses/2026/spring/G250-01",
+    "credits": 2,
+    "courseType": "PD基礎教育課程基礎プロジェクト科目基礎プロジェクト",
+    "creditCategory": "basicPractice",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:G250-02:0:82",
@@ -2466,7 +2798,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/82.json",
       "en": "/details-en/82.json"
     },
-    "routePath": "/courses/2026/spring/G250-02"
+    "routePath": "/courses/2026/spring/G250-02",
+    "credits": 2,
+    "courseType": "PD基礎教育課程基礎プロジェクト科目基礎プロジェクト",
+    "creditCategory": "basicPractice",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:G250-03:0:83",
@@ -2495,7 +2831,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/83.json",
       "en": "/details-en/83.json"
     },
-    "routePath": "/courses/2026/spring/G250-03"
+    "routePath": "/courses/2026/spring/G250-03",
+    "credits": 2,
+    "courseType": "PD基礎教育課程基礎プロジェクト科目基礎プロジェクト",
+    "creditCategory": "basicPractice",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:G250-04:0:84",
@@ -2524,7 +2864,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/84.json",
       "en": "/details-en/84.json"
     },
-    "routePath": "/courses/2026/spring/G250-04"
+    "routePath": "/courses/2026/spring/G250-04",
+    "credits": 2,
+    "courseType": "PD基礎教育課程基礎プロジェクト科目基礎プロジェクト",
+    "creditCategory": "basicPractice",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:G250-05:0:85",
@@ -2553,7 +2897,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/85.json",
       "en": "/details-en/85.json"
     },
-    "routePath": "/courses/2026/spring/G250-05"
+    "routePath": "/courses/2026/spring/G250-05",
+    "credits": 2,
+    "courseType": "PD基礎教育課程基礎プロジェクト科目基礎プロジェクト",
+    "creditCategory": "basicPractice",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:G250-06:0:86",
@@ -2582,7 +2930,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/86.json",
       "en": "/details-en/86.json"
     },
-    "routePath": "/courses/2026/spring/G250-06"
+    "routePath": "/courses/2026/spring/G250-06",
+    "credits": 2,
+    "courseType": "PD基礎教育課程基礎プロジェクト科目基礎プロジェクト",
+    "creditCategory": "basicPractice",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:G250-07:0:87",
@@ -2611,7 +2963,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/87.json",
       "en": "/details-en/87.json"
     },
-    "routePath": "/courses/2026/spring/G250-07"
+    "routePath": "/courses/2026/spring/G250-07",
+    "credits": 2,
+    "courseType": "PD基礎教育課程基礎プロジェクト科目基礎プロジェクト",
+    "creditCategory": "basicPractice",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:G250-08:0:88",
@@ -2640,7 +2996,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/88.json",
       "en": "/details-en/88.json"
     },
-    "routePath": "/courses/2026/spring/G250-08"
+    "routePath": "/courses/2026/spring/G250-08",
+    "credits": 2,
+    "courseType": "PD基礎教育課程基礎プロジェクト科目基礎プロジェクト",
+    "creditCategory": "basicPractice",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:G250-09:0:89",
@@ -2669,7 +3029,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/89.json",
       "en": "/details-en/89.json"
     },
-    "routePath": "/courses/2026/spring/G250-09"
+    "routePath": "/courses/2026/spring/G250-09",
+    "credits": 2,
+    "courseType": "PD基礎教育課程基礎プロジェクト科目基礎プロジェクト",
+    "creditCategory": "basicPractice",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:G250-10:0:90",
@@ -2698,7 +3062,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/90.json",
       "en": "/details-en/90.json"
     },
-    "routePath": "/courses/2026/spring/G250-10"
+    "routePath": "/courses/2026/spring/G250-10",
+    "credits": 2,
+    "courseType": "PD基礎教育課程基礎プロジェクト科目基礎プロジェクト",
+    "creditCategory": "basicPractice",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:G250-11:0:91",
@@ -2727,7 +3095,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/91.json",
       "en": "/details-en/91.json"
     },
-    "routePath": "/courses/2026/spring/G250-11"
+    "routePath": "/courses/2026/spring/G250-11",
+    "credits": 2,
+    "courseType": "PD基礎教育課程基礎プロジェクト科目基礎プロジェクト",
+    "creditCategory": "basicPractice",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:G250-12:0:92",
@@ -2756,7 +3128,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/92.json",
       "en": "/details-en/92.json"
     },
-    "routePath": "/courses/2026/spring/G250-12"
+    "routePath": "/courses/2026/spring/G250-12",
+    "credits": 2,
+    "courseType": "PD基礎教育課程基礎プロジェクト科目基礎プロジェクト",
+    "creditCategory": "basicPractice",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:G250-13:0:93",
@@ -2785,7 +3161,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/93.json",
       "en": "/details-en/93.json"
     },
-    "routePath": "/courses/2026/spring/G250-13"
+    "routePath": "/courses/2026/spring/G250-13",
+    "credits": 2,
+    "courseType": "PD基礎教育課程基礎プロジェクト科目基礎プロジェクト",
+    "creditCategory": "basicPractice",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:G251-01:0:94",
@@ -2814,7 +3194,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/94.json",
       "en": "/details-en/94.json"
     },
-    "routePath": "/courses/2026/fall/G251-01"
+    "routePath": "/courses/2026/fall/G251-01",
+    "credits": 2,
+    "courseType": "PD基礎教育課程基礎プロジェクト科目基礎プロジェクト",
+    "creditCategory": "basicPractice",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:G251-02:0:95",
@@ -2843,7 +3227,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/95.json",
       "en": "/details-en/95.json"
     },
-    "routePath": "/courses/2026/fall/G251-02"
+    "routePath": "/courses/2026/fall/G251-02",
+    "credits": 2,
+    "courseType": "PD基礎教育課程基礎プロジェクト科目基礎プロジェクト",
+    "creditCategory": "basicPractice",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:G252-01:0:96",
@@ -2872,7 +3260,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/96.json",
       "en": "/details-en/96.json"
     },
-    "routePath": "/courses/2026/spring/G252-01"
+    "routePath": "/courses/2026/spring/G252-01",
+    "credits": 2,
+    "courseType": "PD基礎教育課程基礎プロジェクト科目基礎プロジェクト",
+    "creditCategory": "basicPractice",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:G252-02:0:97",
@@ -2901,7 +3293,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/97.json",
       "en": "/details-en/97.json"
     },
-    "routePath": "/courses/2026/spring/G252-02"
+    "routePath": "/courses/2026/spring/G252-02",
+    "credits": 2,
+    "courseType": "PD基礎教育課程基礎プロジェクト科目基礎プロジェクト",
+    "creditCategory": "basicPractice",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:G253-01:0:98",
@@ -2930,7 +3326,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/98.json",
       "en": "/details-en/98.json"
     },
-    "routePath": "/courses/2026/fall/G253-01"
+    "routePath": "/courses/2026/fall/G253-01",
+    "credits": 2,
+    "courseType": "PD基礎教育課程基礎プロジェクト科目基礎プロジェクト",
+    "creditCategory": "basicPractice",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:G253-02:0:99",
@@ -2959,7 +3359,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/99.json",
       "en": "/details-en/99.json"
     },
-    "routePath": "/courses/2026/fall/G253-02"
+    "routePath": "/courses/2026/fall/G253-02",
+    "credits": 2,
+    "courseType": "PD基礎教育課程基礎プロジェクト科目基礎プロジェクト",
+    "creditCategory": "basicPractice",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:G253-03:0:100",
@@ -2988,7 +3392,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/100.json",
       "en": "/details-en/100.json"
     },
-    "routePath": "/courses/2026/fall/G253-03"
+    "routePath": "/courses/2026/fall/G253-03",
+    "credits": 2,
+    "courseType": "PD基礎教育課程基礎プロジェクト科目基礎プロジェクト",
+    "creditCategory": "basicPractice",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:G253-04:0:101",
@@ -3017,7 +3425,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/101.json",
       "en": "/details-en/101.json"
     },
-    "routePath": "/courses/2026/fall/G253-04"
+    "routePath": "/courses/2026/fall/G253-04",
+    "credits": 2,
+    "courseType": "PD基礎教育課程基礎プロジェクト科目基礎プロジェクト",
+    "creditCategory": "basicPractice",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:G253-05:0:102",
@@ -3046,7 +3458,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/102.json",
       "en": "/details-en/102.json"
     },
-    "routePath": "/courses/2026/fall/G253-05"
+    "routePath": "/courses/2026/fall/G253-05",
+    "credits": 2,
+    "courseType": "PD基礎教育課程基礎プロジェクト科目基礎プロジェクト",
+    "creditCategory": "basicPractice",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:G253-06:0:103",
@@ -3075,7 +3491,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/103.json",
       "en": "/details-en/103.json"
     },
-    "routePath": "/courses/2026/fall/G253-06"
+    "routePath": "/courses/2026/fall/G253-06",
+    "credits": 2,
+    "courseType": "PD基礎教育課程基礎プロジェクト科目基礎プロジェクト",
+    "creditCategory": "basicPractice",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:G253-07:0:104",
@@ -3104,7 +3524,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/104.json",
       "en": "/details-en/104.json"
     },
-    "routePath": "/courses/2026/fall/G253-07"
+    "routePath": "/courses/2026/fall/G253-07",
+    "credits": 2,
+    "courseType": "PD基礎教育課程基礎プロジェクト科目基礎プロジェクト",
+    "creditCategory": "basicPractice",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:G253-08:0:105",
@@ -3133,7 +3557,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/105.json",
       "en": "/details-en/105.json"
     },
-    "routePath": "/courses/2026/fall/G253-08"
+    "routePath": "/courses/2026/fall/G253-08",
+    "credits": 2,
+    "courseType": "PD基礎教育課程基礎プロジェクト科目基礎プロジェクト",
+    "creditCategory": "basicPractice",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:G253-09:0:106",
@@ -3162,7 +3590,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/106.json",
       "en": "/details-en/106.json"
     },
-    "routePath": "/courses/2026/fall/G253-09"
+    "routePath": "/courses/2026/fall/G253-09",
+    "credits": 2,
+    "courseType": "PD基礎教育課程基礎プロジェクト科目基礎プロジェクト",
+    "creditCategory": "basicPractice",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:G253-10:0:107",
@@ -3191,7 +3623,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/107.json",
       "en": "/details-en/107.json"
     },
-    "routePath": "/courses/2026/fall/G253-10"
+    "routePath": "/courses/2026/fall/G253-10",
+    "credits": 2,
+    "courseType": "PD基礎教育課程基礎プロジェクト科目基礎プロジェクト",
+    "creditCategory": "basicPractice",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:G253-11:0:108",
@@ -3220,7 +3656,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/108.json",
       "en": "/details-en/108.json"
     },
-    "routePath": "/courses/2026/fall/G253-11"
+    "routePath": "/courses/2026/fall/G253-11",
+    "credits": 2,
+    "courseType": "PD基礎教育課程基礎プロジェクト科目基礎プロジェクト",
+    "creditCategory": "basicPractice",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:G253-12:0:109",
@@ -3249,7 +3689,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/109.json",
       "en": "/details-en/109.json"
     },
-    "routePath": "/courses/2026/fall/G253-12"
+    "routePath": "/courses/2026/fall/G253-12",
+    "credits": 2,
+    "courseType": "PD基礎教育課程基礎プロジェクト科目基礎プロジェクト",
+    "creditCategory": "basicPractice",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:G253-13:0:110",
@@ -3278,7 +3722,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/110.json",
       "en": "/details-en/110.json"
     },
-    "routePath": "/courses/2026/fall/G253-13"
+    "routePath": "/courses/2026/fall/G253-13",
+    "credits": 2,
+    "courseType": "PD基礎教育課程基礎プロジェクト科目基礎プロジェクト",
+    "creditCategory": "basicPractice",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:G254-01:0:111",
@@ -3307,7 +3755,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/111.json",
       "en": null
     },
-    "routePath": "/courses/2026/spring/G254-01"
+    "routePath": "/courses/2026/spring/G254-01",
+    "credits": 2,
+    "courseType": "基礎実技教育課程基礎実技科目基礎実技",
+    "creditCategory": "basicPractice",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:G256-01:0:112",
@@ -3336,7 +3788,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/112.json",
       "en": "/details-en/112.json"
     },
-    "routePath": "/courses/2026/spring/G256-01"
+    "routePath": "/courses/2026/spring/G256-01",
+    "credits": 1,
+    "courseType": "PD基礎教育課程基礎プロジェクト科目基礎プロジェクト",
+    "creditCategory": "basicPractice",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:G257-01:0:113",
@@ -3365,7 +3821,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/113.json",
       "en": "/details-en/113.json"
     },
-    "routePath": "/courses/2026/spring/G257-01"
+    "routePath": "/courses/2026/spring/G257-01",
+    "credits": 1,
+    "courseType": "PD基礎教育課程基礎プロジェクト科目基礎プロジェクト",
+    "creditCategory": "basicPractice",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:D001-01:0:114",
@@ -3394,7 +3854,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/114.json",
       "en": "/details-en/114.json"
     },
-    "routePath": "/courses/2026/spring/D001-01"
+    "routePath": "/courses/2026/spring/D001-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:D002-01:0:115",
@@ -3423,7 +3887,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/115.json",
       "en": "/details-en/115.json"
     },
-    "routePath": "/courses/2026/spring/D002-01"
+    "routePath": "/courses/2026/spring/D002-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:D003-01:0:116",
@@ -3452,7 +3920,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/116.json",
       "en": "/details-en/116.json"
     },
-    "routePath": "/courses/2026/spring/D003-01"
+    "routePath": "/courses/2026/spring/D003-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:D004-01:0:117",
@@ -3481,7 +3953,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/117.json",
       "en": "/details-en/117.json"
     },
-    "routePath": "/courses/2026/spring/D004-01"
+    "routePath": "/courses/2026/spring/D004-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:D005-01:0:118",
@@ -3510,7 +3986,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/118.json",
       "en": "/details-en/118.json"
     },
-    "routePath": "/courses/2026/spring/D005-01"
+    "routePath": "/courses/2026/spring/D005-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:D006-01:0:119",
@@ -3539,7 +4019,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/119.json",
       "en": "/details-en/119.json"
     },
-    "routePath": "/courses/2026/fall/D006-01"
+    "routePath": "/courses/2026/fall/D006-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:D007-01:0:120",
@@ -3568,7 +4052,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/120.json",
       "en": "/details-en/120.json"
     },
-    "routePath": "/courses/2026/fall/D007-01"
+    "routePath": "/courses/2026/fall/D007-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:D008-01:0:121",
@@ -3597,7 +4085,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/121.json",
       "en": "/details-en/121.json"
     },
-    "routePath": "/courses/2026/fall/D008-01"
+    "routePath": "/courses/2026/fall/D008-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:D009-01:0:122",
@@ -3626,7 +4118,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/122.json",
       "en": "/details-en/122.json"
     },
-    "routePath": "/courses/2026/spring/D009-01"
+    "routePath": "/courses/2026/spring/D009-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:D010-01:0:123",
@@ -3655,7 +4151,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/123.json",
       "en": "/details-en/123.json"
     },
-    "routePath": "/courses/2026/spring/D010-01"
+    "routePath": "/courses/2026/spring/D010-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:D011-01:0:124",
@@ -3684,7 +4184,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/124.json",
       "en": "/details-en/124.json"
     },
-    "routePath": "/courses/2026/spring/D011-01"
+    "routePath": "/courses/2026/spring/D011-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:D012-01:0:125",
@@ -3713,7 +4217,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/125.json",
       "en": "/details-en/125.json"
     },
-    "routePath": "/courses/2026/spring/D012-01"
+    "routePath": "/courses/2026/spring/D012-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:D013-01:0:126",
@@ -3742,7 +4250,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/126.json",
       "en": "/details-en/126.json"
     },
-    "routePath": "/courses/2026/spring/D013-01"
+    "routePath": "/courses/2026/spring/D013-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:D014-01:0:127",
@@ -3771,7 +4283,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/127.json",
       "en": "/details-en/127.json"
     },
-    "routePath": "/courses/2026/spring/D014-01"
+    "routePath": "/courses/2026/spring/D014-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:D015-01:0:128",
@@ -3800,7 +4316,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/128.json",
       "en": "/details-en/128.json"
     },
-    "routePath": "/courses/2026/spring/D015-01"
+    "routePath": "/courses/2026/spring/D015-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:D016-01:0:129",
@@ -3829,7 +4349,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/129.json",
       "en": "/details-en/129.json"
     },
-    "routePath": "/courses/2026/spring/D016-01"
+    "routePath": "/courses/2026/spring/D016-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:D017-01:0:130",
@@ -3858,7 +4382,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/130.json",
       "en": "/details-en/130.json"
     },
-    "routePath": "/courses/2026/fall/D017-01"
+    "routePath": "/courses/2026/fall/D017-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:D018-01:0:131",
@@ -3887,7 +4415,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/131.json",
       "en": "/details-en/131.json"
     },
-    "routePath": "/courses/2026/fall/D018-01"
+    "routePath": "/courses/2026/fall/D018-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:D019-01:0:132",
@@ -3916,7 +4448,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/132.json",
       "en": "/details-en/132.json"
     },
-    "routePath": "/courses/2026/fall/D019-01"
+    "routePath": "/courses/2026/fall/D019-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:D020-01:0:133",
@@ -3945,7 +4481,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/133.json",
       "en": "/details-en/133.json"
     },
-    "routePath": "/courses/2026/fall/D020-01"
+    "routePath": "/courses/2026/fall/D020-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:D021-01:0:134",
@@ -3974,7 +4514,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/134.json",
       "en": "/details-en/134.json"
     },
-    "routePath": "/courses/2026/fall/D021-01"
+    "routePath": "/courses/2026/fall/D021-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:D022-01:0:135",
@@ -4003,7 +4547,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/135.json",
       "en": "/details-en/135.json"
     },
-    "routePath": "/courses/2026/fall/D022-01"
+    "routePath": "/courses/2026/fall/D022-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:E018-01:0:136",
@@ -4032,7 +4580,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/136.json",
       "en": "/details-en/136.json"
     },
-    "routePath": "/courses/2026/spring/E018-01"
+    "routePath": "/courses/2026/spring/E018-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:E020-01:0:137",
@@ -4061,7 +4613,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/137.json",
       "en": "/details-en/137.json"
     },
-    "routePath": "/courses/2026/spring/E020-01"
+    "routePath": "/courses/2026/spring/E020-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:E021-01:0:138",
@@ -4090,7 +4646,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/138.json",
       "en": "/details-en/138.json"
     },
-    "routePath": "/courses/2026/spring/E021-01"
+    "routePath": "/courses/2026/spring/E021-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:E022-01:0:139",
@@ -4119,7 +4679,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/139.json",
       "en": "/details-en/139.json"
     },
-    "routePath": "/courses/2026/fall/E022-01"
+    "routePath": "/courses/2026/fall/E022-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:E026-01:0:140",
@@ -4148,7 +4712,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/140.json",
       "en": "/details-en/140.json"
     },
-    "routePath": "/courses/2026/fall/E026-01"
+    "routePath": "/courses/2026/fall/E026-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:E027-01:0:141",
@@ -4177,7 +4745,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/141.json",
       "en": "/details-en/141.json"
     },
-    "routePath": "/courses/2026/spring/E027-01"
+    "routePath": "/courses/2026/spring/E027-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:E028-01:0:142",
@@ -4206,7 +4778,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/142.json",
       "en": "/details-en/142.json"
     },
-    "routePath": "/courses/2026/fall/E028-01"
+    "routePath": "/courses/2026/fall/E028-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:E030-01:0:143",
@@ -4235,7 +4811,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/143.json",
       "en": "/details-en/143.json"
     },
-    "routePath": "/courses/2026/spring/E030-01"
+    "routePath": "/courses/2026/spring/E030-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:E031-01:0:144",
@@ -4264,7 +4844,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/144.json",
       "en": "/details-en/144.json"
     },
-    "routePath": "/courses/2026/spring/E031-01"
+    "routePath": "/courses/2026/spring/E031-01",
+    "credits": 3,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:E031-01:0:145",
@@ -4293,7 +4877,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/145.json",
       "en": "/details-en/145.json"
     },
-    "routePath": "/courses/2026/fall/E031-01"
+    "routePath": "/courses/2026/fall/E031-01",
+    "credits": 3,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:E032-01:0:146",
@@ -4322,7 +4910,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/146.json",
       "en": "/details-en/146.json"
     },
-    "routePath": "/courses/2026/spring/E032-01"
+    "routePath": "/courses/2026/spring/E032-01",
+    "credits": 3,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:E032-01:0:147",
@@ -4351,7 +4943,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/147.json",
       "en": "/details-en/147.json"
     },
-    "routePath": "/courses/2026/fall/E032-01"
+    "routePath": "/courses/2026/fall/E032-01",
+    "credits": 3,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:E033-01:0:148",
@@ -4380,7 +4976,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/148.json",
       "en": "/details-en/148.json"
     },
-    "routePath": "/courses/2026/fall/E033-01"
+    "routePath": "/courses/2026/fall/E033-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:E034-01:0:149",
@@ -4409,7 +5009,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/149.json",
       "en": "/details-en/149.json"
     },
-    "routePath": "/courses/2026/spring/E034-01"
+    "routePath": "/courses/2026/spring/E034-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:E035-01:0:150",
@@ -4438,7 +5042,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/150.json",
       "en": "/details-en/150.json"
     },
-    "routePath": "/courses/2026/fall/E035-01"
+    "routePath": "/courses/2026/fall/E035-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:E040-01:0:151",
@@ -4467,7 +5075,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/151.json",
       "en": "/details-en/151.json"
     },
-    "routePath": "/courses/2026/spring/E040-01"
+    "routePath": "/courses/2026/spring/E040-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:E041-01:0:152",
@@ -4496,7 +5108,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/152.json",
       "en": "/details-en/152.json"
     },
-    "routePath": "/courses/2026/spring/E041-01"
+    "routePath": "/courses/2026/spring/E041-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:E072-01:0:153",
@@ -4525,7 +5141,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/153.json",
       "en": "/details-en/153.json"
     },
-    "routePath": "/courses/2026/fall/E072-01"
+    "routePath": "/courses/2026/fall/E072-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:E901-01:0:154",
@@ -4554,7 +5174,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/154.json",
       "en": "/details-en/154.json"
     },
-    "routePath": "/courses/2026/fall/E901-01"
+    "routePath": "/courses/2026/fall/E901-01",
+    "credits": 1,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:E911-01:0:155",
@@ -4583,7 +5207,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/155.json",
       "en": "/details-en/155.json"
     },
-    "routePath": "/courses/2026/spring/E911-01"
+    "routePath": "/courses/2026/spring/E911-01",
+    "credits": 1,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:E921-06:0:156",
@@ -4612,7 +5240,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/156.json",
       "en": "/details-en/156.json"
     },
-    "routePath": "/courses/2026/full-year/E921-06"
+    "routePath": "/courses/2026/full-year/E921-06",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:E921-07:0:157",
@@ -4641,7 +5273,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/157.json",
       "en": "/details-en/157.json"
     },
-    "routePath": "/courses/2026/full-year/E921-07"
+    "routePath": "/courses/2026/full-year/E921-07",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:E921-08:0:158",
@@ -4670,7 +5306,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/158.json",
       "en": "/details-en/158.json"
     },
-    "routePath": "/courses/2026/full-year/E921-08"
+    "routePath": "/courses/2026/full-year/E921-08",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:E921-09:0:159",
@@ -4699,7 +5339,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/159.json",
       "en": "/details-en/159.json"
     },
-    "routePath": "/courses/2026/full-year/E921-09"
+    "routePath": "/courses/2026/full-year/E921-09",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:E921-10:0:160",
@@ -4728,7 +5372,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/160.json",
       "en": "/details-en/160.json"
     },
-    "routePath": "/courses/2026/full-year/E921-10"
+    "routePath": "/courses/2026/full-year/E921-10",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:E921-11:0:161",
@@ -4757,7 +5405,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/161.json",
       "en": "/details-en/161.json"
     },
-    "routePath": "/courses/2026/full-year/E921-11"
+    "routePath": "/courses/2026/full-year/E921-11",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:E921-12:0:162",
@@ -4786,7 +5438,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/162.json",
       "en": "/details-en/162.json"
     },
-    "routePath": "/courses/2026/full-year/E921-12"
+    "routePath": "/courses/2026/full-year/E921-12",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:E921-14:0:163",
@@ -4815,7 +5471,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/163.json",
       "en": "/details-en/163.json"
     },
-    "routePath": "/courses/2026/full-year/E921-14"
+    "routePath": "/courses/2026/full-year/E921-14",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:full-year:E921-16:0:164",
@@ -4844,7 +5504,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/164.json",
       "en": "/details-en/164.json"
     },
-    "routePath": "/courses/2026/full-year/E921-16"
+    "routePath": "/courses/2026/full-year/E921-16",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:E921-18:0:165",
@@ -4873,7 +5537,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/165.json",
       "en": "/details-en/165.json"
     },
-    "routePath": "/courses/2026/full-year/E921-18"
+    "routePath": "/courses/2026/full-year/E921-18",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:E921-19:0:166",
@@ -4902,7 +5570,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/166.json",
       "en": "/details-en/166.json"
     },
-    "routePath": "/courses/2026/full-year/E921-19"
+    "routePath": "/courses/2026/full-year/E921-19",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:full-year:E921-20:0:167",
@@ -4931,7 +5603,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/167.json",
       "en": "/details-en/167.json"
     },
-    "routePath": "/courses/2026/full-year/E921-20"
+    "routePath": "/courses/2026/full-year/E921-20",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:E921-21:0:168",
@@ -4960,7 +5636,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/168.json",
       "en": "/details-en/168.json"
     },
-    "routePath": "/courses/2026/full-year/E921-21"
+    "routePath": "/courses/2026/full-year/E921-21",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:E921-22:0:169",
@@ -4989,7 +5669,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/169.json",
       "en": "/details-en/169.json"
     },
-    "routePath": "/courses/2026/full-year/E921-22"
+    "routePath": "/courses/2026/full-year/E921-22",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:E921-23:0:170",
@@ -5018,7 +5702,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/170.json",
       "en": "/details-en/170.json"
     },
-    "routePath": "/courses/2026/full-year/E921-23"
+    "routePath": "/courses/2026/full-year/E921-23",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:E921-24:0:171",
@@ -5047,7 +5735,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/171.json",
       "en": "/details-en/171.json"
     },
-    "routePath": "/courses/2026/full-year/E921-24"
+    "routePath": "/courses/2026/full-year/E921-24",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:full-year:E921-26:0:172",
@@ -5076,7 +5768,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/172.json",
       "en": "/details-en/172.json"
     },
-    "routePath": "/courses/2026/full-year/E921-26"
+    "routePath": "/courses/2026/full-year/E921-26",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:E921-28:0:173",
@@ -5105,7 +5801,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/173.json",
       "en": "/details-en/173.json"
     },
-    "routePath": "/courses/2026/full-year/E921-28"
+    "routePath": "/courses/2026/full-year/E921-28",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:E921-30:0:174",
@@ -5134,7 +5834,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/174.json",
       "en": "/details-en/174.json"
     },
-    "routePath": "/courses/2026/full-year/E921-30"
+    "routePath": "/courses/2026/full-year/E921-30",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:E941-01:0:175",
@@ -5163,7 +5867,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/175.json",
       "en": "/details-en/175.json"
     },
-    "routePath": "/courses/2026/spring/E941-01"
+    "routePath": "/courses/2026/spring/E941-01",
+    "credits": 1,
+    "courseType": "専門教育課程その他科目その他",
+    "creditCategory": "other",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:E951-01:0:176",
@@ -5192,7 +5900,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/176.json",
       "en": "/details-en/176.json"
     },
-    "routePath": "/courses/2026/spring/E951-01"
+    "routePath": "/courses/2026/spring/E951-01",
+    "credits": 1,
+    "courseType": "専門教育課程その他科目その他",
+    "creditCategory": "other",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:D101-01:0:177",
@@ -5221,7 +5933,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/177.json",
       "en": "/details-en/177.json"
     },
-    "routePath": "/courses/2026/spring/D101-01"
+    "routePath": "/courses/2026/spring/D101-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:D102-01:0:178",
@@ -5250,7 +5966,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/178.json",
       "en": "/details-en/178.json"
     },
-    "routePath": "/courses/2026/spring/D102-01"
+    "routePath": "/courses/2026/spring/D102-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:D103-01:0:179",
@@ -5279,7 +5999,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/179.json",
       "en": "/details-en/179.json"
     },
-    "routePath": "/courses/2026/spring/D103-01"
+    "routePath": "/courses/2026/spring/D103-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:D104-01:0:180",
@@ -5308,7 +6032,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/180.json",
       "en": "/details-en/180.json"
     },
-    "routePath": "/courses/2026/spring/D104-01"
+    "routePath": "/courses/2026/spring/D104-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:D105-01:0:181",
@@ -5337,7 +6065,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/181.json",
       "en": "/details-en/181.json"
     },
-    "routePath": "/courses/2026/fall/D105-01"
+    "routePath": "/courses/2026/fall/D105-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:D106-01:0:182",
@@ -5366,7 +6098,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/182.json",
       "en": "/details-en/182.json"
     },
-    "routePath": "/courses/2026/fall/D106-01"
+    "routePath": "/courses/2026/fall/D106-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:D107-01:0:183",
@@ -5395,7 +6131,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/183.json",
       "en": "/details-en/183.json"
     },
-    "routePath": "/courses/2026/fall/D107-01"
+    "routePath": "/courses/2026/fall/D107-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:D108-01:0:184",
@@ -5424,7 +6164,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/184.json",
       "en": "/details-en/184.json"
     },
-    "routePath": "/courses/2026/fall/D108-01"
+    "routePath": "/courses/2026/fall/D108-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:D109-01:0:185",
@@ -5453,7 +6197,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/185.json",
       "en": "/details-en/185.json"
     },
-    "routePath": "/courses/2026/fall/D109-01"
+    "routePath": "/courses/2026/fall/D109-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:D110-01:0:186",
@@ -5482,7 +6230,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/186.json",
       "en": "/details-en/186.json"
     },
-    "routePath": "/courses/2026/spring/D110-01"
+    "routePath": "/courses/2026/spring/D110-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:D111-01:0:187",
@@ -5511,7 +6263,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/187.json",
       "en": "/details-en/187.json"
     },
-    "routePath": "/courses/2026/spring/D111-01"
+    "routePath": "/courses/2026/spring/D111-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:D112-01:0:188",
@@ -5540,7 +6296,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/188.json",
       "en": "/details-en/188.json"
     },
-    "routePath": "/courses/2026/spring/D112-01"
+    "routePath": "/courses/2026/spring/D112-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:D113-01:0:189",
@@ -5569,7 +6329,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/189.json",
       "en": "/details-en/189.json"
     },
-    "routePath": "/courses/2026/spring/D113-01"
+    "routePath": "/courses/2026/spring/D113-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:D114-01:0:190",
@@ -5598,7 +6362,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/190.json",
       "en": "/details-en/190.json"
     },
-    "routePath": "/courses/2026/spring/D114-01"
+    "routePath": "/courses/2026/spring/D114-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:D115-01:0:191",
@@ -5627,7 +6395,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/191.json",
       "en": "/details-en/191.json"
     },
-    "routePath": "/courses/2026/spring/D115-01"
+    "routePath": "/courses/2026/spring/D115-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:D116-01:0:192",
@@ -5656,7 +6428,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/192.json",
       "en": "/details-en/192.json"
     },
-    "routePath": "/courses/2026/fall/D116-01"
+    "routePath": "/courses/2026/fall/D116-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:D117-01:0:193",
@@ -5685,7 +6461,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/193.json",
       "en": "/details-en/193.json"
     },
-    "routePath": "/courses/2026/fall/D117-01"
+    "routePath": "/courses/2026/fall/D117-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:D118-01:0:194",
@@ -5714,7 +6494,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/194.json",
       "en": "/details-en/194.json"
     },
-    "routePath": "/courses/2026/fall/D118-01"
+    "routePath": "/courses/2026/fall/D118-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:D119-01:0:195",
@@ -5743,7 +6527,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/195.json",
       "en": "/details-en/195.json"
     },
-    "routePath": "/courses/2026/fall/D119-01"
+    "routePath": "/courses/2026/fall/D119-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:D120-01:0:196",
@@ -5772,7 +6560,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/196.json",
       "en": "/details-en/196.json"
     },
-    "routePath": "/courses/2026/fall/D120-01"
+    "routePath": "/courses/2026/fall/D120-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:D121-01:0:197",
@@ -5801,7 +6593,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/197.json",
       "en": "/details-en/197.json"
     },
-    "routePath": "/courses/2026/fall/D121-01"
+    "routePath": "/courses/2026/fall/D121-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:D122-01:0:198",
@@ -5830,7 +6626,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/198.json",
       "en": "/details-en/198.json"
     },
-    "routePath": "/courses/2026/fall/D122-01"
+    "routePath": "/courses/2026/fall/D122-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:D123-01:0:199",
@@ -5859,7 +6659,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/199.json",
       "en": "/details-en/199.json"
     },
-    "routePath": "/courses/2026/fall/D123-01"
+    "routePath": "/courses/2026/fall/D123-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:E115-01:0:200",
@@ -5888,7 +6692,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/200.json",
       "en": "/details-en/200.json"
     },
-    "routePath": "/courses/2026/fall/E115-01"
+    "routePath": "/courses/2026/fall/E115-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:E116-01:0:201",
@@ -5917,7 +6725,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/201.json",
       "en": "/details-en/201.json"
     },
-    "routePath": "/courses/2026/spring/E116-01"
+    "routePath": "/courses/2026/spring/E116-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:E118-01:0:202",
@@ -5946,7 +6758,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/202.json",
       "en": "/details-en/202.json"
     },
-    "routePath": "/courses/2026/spring/E118-01"
+    "routePath": "/courses/2026/spring/E118-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:E119-01:0:203",
@@ -5975,7 +6791,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/203.json",
       "en": "/details-en/203.json"
     },
-    "routePath": "/courses/2026/spring/E119-01"
+    "routePath": "/courses/2026/spring/E119-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:E120-01:0:204",
@@ -6004,7 +6824,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/204.json",
       "en": "/details-en/204.json"
     },
-    "routePath": "/courses/2026/spring/E120-01"
+    "routePath": "/courses/2026/spring/E120-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:E121-01:0:205",
@@ -6033,7 +6857,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/205.json",
       "en": "/details-en/205.json"
     },
-    "routePath": "/courses/2026/spring/E121-01"
+    "routePath": "/courses/2026/spring/E121-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:E122-01:0:206",
@@ -6062,7 +6890,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/206.json",
       "en": "/details-en/206.json"
     },
-    "routePath": "/courses/2026/spring/E122-01"
+    "routePath": "/courses/2026/spring/E122-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:E126-01:0:207",
@@ -6091,7 +6923,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/207.json",
       "en": "/details-en/207.json"
     },
-    "routePath": "/courses/2026/fall/E126-01"
+    "routePath": "/courses/2026/fall/E126-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:E128-01:0:208",
@@ -6120,7 +6956,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/208.json",
       "en": "/details-en/208.json"
     },
-    "routePath": "/courses/2026/fall/E128-01"
+    "routePath": "/courses/2026/fall/E128-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:E129-01:0:209",
@@ -6149,7 +6989,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/209.json",
       "en": "/details-en/209.json"
     },
-    "routePath": "/courses/2026/fall/E129-01"
+    "routePath": "/courses/2026/fall/E129-01",
+    "credits": 3,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:E130-01:0:210",
@@ -6178,7 +7022,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/210.json",
       "en": "/details-en/210.json"
     },
-    "routePath": "/courses/2026/spring/E130-01"
+    "routePath": "/courses/2026/spring/E130-01",
+    "credits": 3,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:E138-01:0:211",
@@ -6207,7 +7055,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/211.json",
       "en": "/details-en/211.json"
     },
-    "routePath": "/courses/2026/spring/E138-01"
+    "routePath": "/courses/2026/spring/E138-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:E139-01:0:212",
@@ -6236,7 +7088,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/212.json",
       "en": "/details-en/212.json"
     },
-    "routePath": "/courses/2026/spring/E139-01"
+    "routePath": "/courses/2026/spring/E139-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:E140-01:0:213",
@@ -6265,7 +7121,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/213.json",
       "en": "/details-en/213.json"
     },
-    "routePath": "/courses/2026/fall/E140-01"
+    "routePath": "/courses/2026/fall/E140-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:E141-01:0:214",
@@ -6294,7 +7154,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/214.json",
       "en": "/details-en/214.json"
     },
-    "routePath": "/courses/2026/fall/E141-01"
+    "routePath": "/courses/2026/fall/E141-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:E142-01:0:215",
@@ -6323,7 +7187,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/215.json",
       "en": "/details-en/215.json"
     },
-    "routePath": "/courses/2026/spring/E142-01"
+    "routePath": "/courses/2026/spring/E142-01",
+    "credits": 1,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:E143-01:0:216",
@@ -6352,7 +7220,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/216.json",
       "en": "/details-en/216.json"
     },
-    "routePath": "/courses/2026/fall/E143-01"
+    "routePath": "/courses/2026/fall/E143-01",
+    "credits": 1,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:E144-01:0:217",
@@ -6381,7 +7253,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/217.json",
       "en": "/details-en/217.json"
     },
-    "routePath": "/courses/2026/fall/E144-01"
+    "routePath": "/courses/2026/fall/E144-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:E144-01:0:218",
@@ -6410,7 +7286,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/218.json",
       "en": "/details-en/218.json"
     },
-    "routePath": "/courses/2026/full-year/E144-01"
+    "routePath": "/courses/2026/full-year/E144-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:E902-01:0:219",
@@ -6439,7 +7319,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/219.json",
       "en": "/details-en/219.json"
     },
-    "routePath": "/courses/2026/fall/E902-01"
+    "routePath": "/courses/2026/fall/E902-01",
+    "credits": 1,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:E912-01:0:220",
@@ -6468,7 +7352,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/220.json",
       "en": "/details-en/220.json"
     },
-    "routePath": "/courses/2026/fall/E912-01"
+    "routePath": "/courses/2026/fall/E912-01",
+    "credits": 1,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:E922-06:0:221",
@@ -6497,7 +7385,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/221.json",
       "en": "/details-en/221.json"
     },
-    "routePath": "/courses/2026/full-year/E922-06"
+    "routePath": "/courses/2026/full-year/E922-06",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:full-year:E922-08:0:222",
@@ -6526,7 +7418,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/222.json",
       "en": "/details-en/222.json"
     },
-    "routePath": "/courses/2026/full-year/E922-08"
+    "routePath": "/courses/2026/full-year/E922-08",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:full-year:E922-09:0:223",
@@ -6555,7 +7451,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/223.json",
       "en": "/details-en/223.json"
     },
-    "routePath": "/courses/2026/full-year/E922-09"
+    "routePath": "/courses/2026/full-year/E922-09",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:E922-12:0:224",
@@ -6584,7 +7484,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/224.json",
       "en": "/details-en/224.json"
     },
-    "routePath": "/courses/2026/full-year/E922-12"
+    "routePath": "/courses/2026/full-year/E922-12",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:full-year:E922-13:0:225",
@@ -6613,7 +7517,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/225.json",
       "en": "/details-en/225.json"
     },
-    "routePath": "/courses/2026/full-year/E922-13"
+    "routePath": "/courses/2026/full-year/E922-13",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:E922-14:0:226",
@@ -6642,7 +7550,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/226.json",
       "en": "/details-en/226.json"
     },
-    "routePath": "/courses/2026/full-year/E922-14"
+    "routePath": "/courses/2026/full-year/E922-14",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:E922-15:0:227",
@@ -6671,7 +7583,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/227.json",
       "en": "/details-en/227.json"
     },
-    "routePath": "/courses/2026/full-year/E922-15"
+    "routePath": "/courses/2026/full-year/E922-15",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:E942-01:0:228",
@@ -6700,7 +7616,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/228.json",
       "en": "/details-en/228.json"
     },
-    "routePath": "/courses/2026/spring/E942-01"
+    "routePath": "/courses/2026/spring/E942-01",
+    "credits": 1,
+    "courseType": "専門教育課程その他科目その他",
+    "creditCategory": "other",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:E952-01:0:229",
@@ -6729,7 +7649,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/229.json",
       "en": "/details-en/229.json"
     },
-    "routePath": "/courses/2026/spring/E952-01"
+    "routePath": "/courses/2026/spring/E952-01",
+    "credits": 1,
+    "courseType": "専門教育課程その他科目その他",
+    "creditCategory": "other",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:E209-01:0:230",
@@ -6758,7 +7682,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/230.json",
       "en": "/details-en/230.json"
     },
-    "routePath": "/courses/2026/spring/E209-01"
+    "routePath": "/courses/2026/spring/E209-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:E219-01:0:231",
@@ -6787,7 +7715,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/231.json",
       "en": "/details-en/231.json"
     },
-    "routePath": "/courses/2026/fall/E219-01"
+    "routePath": "/courses/2026/fall/E219-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:E222-01:0:232",
@@ -6816,7 +7748,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/232.json",
       "en": "/details-en/232.json"
     },
-    "routePath": "/courses/2026/spring/E222-01"
+    "routePath": "/courses/2026/spring/E222-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:E224-01:0:233",
@@ -6845,7 +7781,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/233.json",
       "en": "/details-en/233.json"
     },
-    "routePath": "/courses/2026/spring/E224-01"
+    "routePath": "/courses/2026/spring/E224-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:E225-01:0:234",
@@ -6874,7 +7814,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/234.json",
       "en": "/details-en/234.json"
     },
-    "routePath": "/courses/2026/spring/E225-01"
+    "routePath": "/courses/2026/spring/E225-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:E226-01:0:235",
@@ -6903,7 +7847,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/235.json",
       "en": "/details-en/235.json"
     },
-    "routePath": "/courses/2026/spring/E226-01"
+    "routePath": "/courses/2026/spring/E226-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:E227-01:0:236",
@@ -6932,7 +7880,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/236.json",
       "en": "/details-en/236.json"
     },
-    "routePath": "/courses/2026/spring/E227-01"
+    "routePath": "/courses/2026/spring/E227-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:E228-01:0:237",
@@ -6961,7 +7913,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/237.json",
       "en": "/details-en/237.json"
     },
-    "routePath": "/courses/2026/fall/E228-01"
+    "routePath": "/courses/2026/fall/E228-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:E230-01:0:238",
@@ -6990,7 +7946,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/238.json",
       "en": "/details-en/238.json"
     },
-    "routePath": "/courses/2026/fall/E230-01"
+    "routePath": "/courses/2026/fall/E230-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:E232-01:0:239",
@@ -7019,7 +7979,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/239.json",
       "en": "/details-en/239.json"
     },
-    "routePath": "/courses/2026/spring/E232-01"
+    "routePath": "/courses/2026/spring/E232-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:E233-01:0:240",
@@ -7048,7 +8012,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/240.json",
       "en": "/details-en/240.json"
     },
-    "routePath": "/courses/2026/spring/E233-01"
+    "routePath": "/courses/2026/spring/E233-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:E234-01:0:241",
@@ -7077,7 +8045,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/241.json",
       "en": "/details-en/241.json"
     },
-    "routePath": "/courses/2026/fall/E234-01"
+    "routePath": "/courses/2026/fall/E234-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:E235-01:0:242",
@@ -7106,7 +8078,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/242.json",
       "en": "/details-en/242.json"
     },
-    "routePath": "/courses/2026/spring/E235-01"
+    "routePath": "/courses/2026/spring/E235-01",
+    "credits": 3,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:E236-01:0:243",
@@ -7135,7 +8111,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/243.json",
       "en": "/details-en/243.json"
     },
-    "routePath": "/courses/2026/fall/E236-01"
+    "routePath": "/courses/2026/fall/E236-01",
+    "credits": 3,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:E237-01:0:244",
@@ -7164,7 +8144,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/244.json",
       "en": "/details-en/244.json"
     },
-    "routePath": "/courses/2026/spring/E237-01"
+    "routePath": "/courses/2026/spring/E237-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:E903-01:0:245",
@@ -7193,7 +8177,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/245.json",
       "en": "/details-en/245.json"
     },
-    "routePath": "/courses/2026/fall/E903-01"
+    "routePath": "/courses/2026/fall/E903-01",
+    "credits": 1,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:E913-01:0:246",
@@ -7222,7 +8210,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/246.json",
       "en": "/details-en/246.json"
     },
-    "routePath": "/courses/2026/fall/E913-01"
+    "routePath": "/courses/2026/fall/E913-01",
+    "credits": 1,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:E923-04:0:247",
@@ -7251,7 +8243,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/247.json",
       "en": "/details-en/247.json"
     },
-    "routePath": "/courses/2026/full-year/E923-04"
+    "routePath": "/courses/2026/full-year/E923-04",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:E923-05:0:248",
@@ -7280,7 +8276,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/248.json",
       "en": "/details-en/248.json"
     },
-    "routePath": "/courses/2026/full-year/E923-05"
+    "routePath": "/courses/2026/full-year/E923-05",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:E923-07:0:249",
@@ -7309,7 +8309,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/249.json",
       "en": "/details-en/249.json"
     },
-    "routePath": "/courses/2026/full-year/E923-07"
+    "routePath": "/courses/2026/full-year/E923-07",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:full-year:E923-08:0:250",
@@ -7338,7 +8342,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/250.json",
       "en": "/details-en/250.json"
     },
-    "routePath": "/courses/2026/full-year/E923-08"
+    "routePath": "/courses/2026/full-year/E923-08",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:E923-09:0:251",
@@ -7367,7 +8375,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/251.json",
       "en": "/details-en/251.json"
     },
-    "routePath": "/courses/2026/full-year/E923-09"
+    "routePath": "/courses/2026/full-year/E923-09",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:E923-10:0:252",
@@ -7396,7 +8408,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/252.json",
       "en": "/details-en/252.json"
     },
-    "routePath": "/courses/2026/full-year/E923-10"
+    "routePath": "/courses/2026/full-year/E923-10",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:E923-13:0:253",
@@ -7425,7 +8441,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/253.json",
       "en": "/details-en/253.json"
     },
-    "routePath": "/courses/2026/full-year/E923-13"
+    "routePath": "/courses/2026/full-year/E923-13",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:E923-14:0:254",
@@ -7454,7 +8474,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/254.json",
       "en": "/details-en/254.json"
     },
-    "routePath": "/courses/2026/full-year/E923-14"
+    "routePath": "/courses/2026/full-year/E923-14",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:E943-01:0:255",
@@ -7483,7 +8507,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/255.json",
       "en": "/details-en/255.json"
     },
-    "routePath": "/courses/2026/spring/E943-01"
+    "routePath": "/courses/2026/spring/E943-01",
+    "credits": 1,
+    "courseType": "専門教育課程その他科目その他",
+    "creditCategory": "other",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:E953-01:0:256",
@@ -7512,7 +8540,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/256.json",
       "en": "/details-en/256.json"
     },
-    "routePath": "/courses/2026/fall/E953-01"
+    "routePath": "/courses/2026/fall/E953-01",
+    "credits": 1,
+    "courseType": "専門教育課程その他科目その他",
+    "creditCategory": "other",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:E602-01:0:257",
@@ -7541,7 +8573,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/257.json",
       "en": "/details-en/257.json"
     },
-    "routePath": "/courses/2026/spring/E602-01"
+    "routePath": "/courses/2026/spring/E602-01",
+    "credits": 4,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:E605-01:0:258",
@@ -7570,7 +8606,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/258.json",
       "en": "/details-en/258.json"
     },
-    "routePath": "/courses/2026/spring/E605-01"
+    "routePath": "/courses/2026/spring/E605-01",
+    "credits": 1,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:E607-01:0:259",
@@ -7599,7 +8639,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/259.json",
       "en": "/details-en/259.json"
     },
-    "routePath": "/courses/2026/spring/E607-01"
+    "routePath": "/courses/2026/spring/E607-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:E617-01:0:260",
@@ -7628,7 +8672,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/260.json",
       "en": "/details-en/260.json"
     },
-    "routePath": "/courses/2026/fall/E617-01"
+    "routePath": "/courses/2026/fall/E617-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:E622-01:0:261",
@@ -7657,7 +8705,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/261.json",
       "en": "/details-en/261.json"
     },
-    "routePath": "/courses/2026/spring/E622-01"
+    "routePath": "/courses/2026/spring/E622-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:E623-01:0:262",
@@ -7686,7 +8738,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/262.json",
       "en": "/details-en/262.json"
     },
-    "routePath": "/courses/2026/spring/E623-01"
+    "routePath": "/courses/2026/spring/E623-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:E624-01:0:263",
@@ -7715,7 +8771,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/263.json",
       "en": "/details-en/263.json"
     },
-    "routePath": "/courses/2026/spring/E624-01"
+    "routePath": "/courses/2026/spring/E624-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:E625-01:0:264",
@@ -7744,7 +8804,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/264.json",
       "en": "/details-en/264.json"
     },
-    "routePath": "/courses/2026/spring/E625-01"
+    "routePath": "/courses/2026/spring/E625-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:E626-01:0:265",
@@ -7773,7 +8837,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/265.json",
       "en": "/details-en/265.json"
     },
-    "routePath": "/courses/2026/spring/E626-01"
+    "routePath": "/courses/2026/spring/E626-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:E627-01:0:266",
@@ -7802,7 +8870,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/266.json",
       "en": "/details-en/266.json"
     },
-    "routePath": "/courses/2026/spring/E627-01"
+    "routePath": "/courses/2026/spring/E627-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:E628-01:0:267",
@@ -7831,7 +8903,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/267.json",
       "en": "/details-en/267.json"
     },
-    "routePath": "/courses/2026/spring/E628-01"
+    "routePath": "/courses/2026/spring/E628-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:E629-01:0:268",
@@ -7860,7 +8936,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/268.json",
       "en": "/details-en/268.json"
     },
-    "routePath": "/courses/2026/spring/E629-01"
+    "routePath": "/courses/2026/spring/E629-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:E630-01:0:269",
@@ -7889,7 +8969,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/269.json",
       "en": "/details-en/269.json"
     },
-    "routePath": "/courses/2026/spring/E630-01"
+    "routePath": "/courses/2026/spring/E630-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:E631-01:0:270",
@@ -7918,7 +9002,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/270.json",
       "en": "/details-en/270.json"
     },
-    "routePath": "/courses/2026/spring/E631-01"
+    "routePath": "/courses/2026/spring/E631-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:E632-01:0:271",
@@ -7947,7 +9035,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/271.json",
       "en": "/details-en/271.json"
     },
-    "routePath": "/courses/2026/fall/E632-01"
+    "routePath": "/courses/2026/fall/E632-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:E633-01:0:272",
@@ -7976,7 +9068,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/272.json",
       "en": "/details-en/272.json"
     },
-    "routePath": "/courses/2026/fall/E633-01"
+    "routePath": "/courses/2026/fall/E633-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:E634-01:0:273",
@@ -8005,7 +9101,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/273.json",
       "en": "/details-en/273.json"
     },
-    "routePath": "/courses/2026/fall/E634-01"
+    "routePath": "/courses/2026/fall/E634-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:E635-01:0:274",
@@ -8034,7 +9134,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/274.json",
       "en": "/details-en/274.json"
     },
-    "routePath": "/courses/2026/fall/E635-01"
+    "routePath": "/courses/2026/fall/E635-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:E636-01:0:275",
@@ -8063,7 +9167,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/275.json",
       "en": "/details-en/275.json"
     },
-    "routePath": "/courses/2026/fall/E636-01"
+    "routePath": "/courses/2026/fall/E636-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:E637-01:0:276",
@@ -8092,7 +9200,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/276.json",
       "en": "/details-en/276.json"
     },
-    "routePath": "/courses/2026/fall/E637-01"
+    "routePath": "/courses/2026/fall/E637-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:E638-01:0:277",
@@ -8121,7 +9233,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/277.json",
       "en": "/details-en/277.json"
     },
-    "routePath": "/courses/2026/fall/E638-01"
+    "routePath": "/courses/2026/fall/E638-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:E639-01:0:278",
@@ -8150,7 +9266,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/278.json",
       "en": "/details-en/278.json"
     },
-    "routePath": "/courses/2026/fall/E639-01"
+    "routePath": "/courses/2026/fall/E639-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:E640-01:0:279",
@@ -8179,7 +9299,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/279.json",
       "en": "/details-en/279.json"
     },
-    "routePath": "/courses/2026/fall/E640-01"
+    "routePath": "/courses/2026/fall/E640-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:E641-01:0:280",
@@ -8208,7 +9332,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/280.json",
       "en": "/details-en/280.json"
     },
-    "routePath": "/courses/2026/spring/E641-01"
+    "routePath": "/courses/2026/spring/E641-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:E641-01:0:281",
@@ -8237,7 +9365,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/281.json",
       "en": "/details-en/281.json"
     },
-    "routePath": "/courses/2026/fall/E641-01"
+    "routePath": "/courses/2026/fall/E641-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:E642-01:0:282",
@@ -8266,7 +9398,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/282.json",
       "en": "/details-en/282.json"
     },
-    "routePath": "/courses/2026/spring/E642-01"
+    "routePath": "/courses/2026/spring/E642-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:E642-01:0:283",
@@ -8295,7 +9431,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/283.json",
       "en": "/details-en/283.json"
     },
-    "routePath": "/courses/2026/fall/E642-01"
+    "routePath": "/courses/2026/fall/E642-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:E643-01:0:284",
@@ -8324,7 +9464,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/284.json",
       "en": "/details-en/284.json"
     },
-    "routePath": "/courses/2026/spring/E643-01"
+    "routePath": "/courses/2026/spring/E643-01",
+    "credits": 3,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:E644-01:0:285",
@@ -8353,7 +9497,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/285.json",
       "en": "/details-en/285.json"
     },
-    "routePath": "/courses/2026/spring/E644-01"
+    "routePath": "/courses/2026/spring/E644-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:E645-01:0:286",
@@ -8382,7 +9530,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/286.json",
       "en": "/details-en/286.json"
     },
-    "routePath": "/courses/2026/spring/E645-01"
+    "routePath": "/courses/2026/spring/E645-01",
+    "credits": 1,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:E646-01:0:287",
@@ -8411,7 +9563,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/287.json",
       "en": "/details-en/287.json"
     },
-    "routePath": "/courses/2026/fall/E646-01"
+    "routePath": "/courses/2026/fall/E646-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:E907-01:0:288",
@@ -8440,7 +9596,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/288.json",
       "en": "/details-en/288.json"
     },
-    "routePath": "/courses/2026/fall/E907-01"
+    "routePath": "/courses/2026/fall/E907-01",
+    "credits": 1,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:E917-01:0:289",
@@ -8469,7 +9629,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/289.json",
       "en": "/details-en/289.json"
     },
-    "routePath": "/courses/2026/spring/E917-01"
+    "routePath": "/courses/2026/spring/E917-01",
+    "credits": 1,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:E927-04:0:290",
@@ -8498,7 +9662,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/290.json",
       "en": "/details-en/290.json"
     },
-    "routePath": "/courses/2026/full-year/E927-04"
+    "routePath": "/courses/2026/full-year/E927-04",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:E927-06:0:291",
@@ -8527,7 +9695,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/291.json",
       "en": "/details-en/291.json"
     },
-    "routePath": "/courses/2026/full-year/E927-06"
+    "routePath": "/courses/2026/full-year/E927-06",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:E927-07:0:292",
@@ -8556,7 +9728,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/292.json",
       "en": "/details-en/292.json"
     },
-    "routePath": "/courses/2026/full-year/E927-07"
+    "routePath": "/courses/2026/full-year/E927-07",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:E927-09:0:293",
@@ -8585,7 +9761,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/293.json",
       "en": "/details-en/293.json"
     },
-    "routePath": "/courses/2026/full-year/E927-09"
+    "routePath": "/courses/2026/full-year/E927-09",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:full-year:E927-10:0:294",
@@ -8614,7 +9794,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/294.json",
       "en": "/details-en/294.json"
     },
-    "routePath": "/courses/2026/full-year/E927-10"
+    "routePath": "/courses/2026/full-year/E927-10",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:full-year:E927-12:0:295",
@@ -8643,7 +9827,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/295.json",
       "en": "/details-en/295.json"
     },
-    "routePath": "/courses/2026/full-year/E927-12"
+    "routePath": "/courses/2026/full-year/E927-12",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:E927-13:0:296",
@@ -8672,7 +9860,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/296.json",
       "en": "/details-en/296.json"
     },
-    "routePath": "/courses/2026/full-year/E927-13"
+    "routePath": "/courses/2026/full-year/E927-13",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:E927-15:0:297",
@@ -8701,7 +9893,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/297.json",
       "en": "/details-en/297.json"
     },
-    "routePath": "/courses/2026/full-year/E927-15"
+    "routePath": "/courses/2026/full-year/E927-15",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:E927-16:0:298",
@@ -8730,7 +9926,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/298.json",
       "en": "/details-en/298.json"
     },
-    "routePath": "/courses/2026/full-year/E927-16"
+    "routePath": "/courses/2026/full-year/E927-16",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:full-year:E927-17:0:299",
@@ -8759,7 +9959,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/299.json",
       "en": "/details-en/299.json"
     },
-    "routePath": "/courses/2026/full-year/E927-17"
+    "routePath": "/courses/2026/full-year/E927-17",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:full-year:E927-19:0:300",
@@ -8788,7 +9992,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/300.json",
       "en": "/details-en/300.json"
     },
-    "routePath": "/courses/2026/full-year/E927-19"
+    "routePath": "/courses/2026/full-year/E927-19",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:full-year:E927-20:0:301",
@@ -8817,7 +10025,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/301.json",
       "en": "/details-en/301.json"
     },
-    "routePath": "/courses/2026/full-year/E927-20"
+    "routePath": "/courses/2026/full-year/E927-20",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:full-year:E927-21:0:302",
@@ -8846,7 +10058,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/302.json",
       "en": "/details-en/302.json"
     },
-    "routePath": "/courses/2026/full-year/E927-21"
+    "routePath": "/courses/2026/full-year/E927-21",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:full-year:E927-22:0:303",
@@ -8875,7 +10091,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/303.json",
       "en": "/details-en/303.json"
     },
-    "routePath": "/courses/2026/full-year/E927-22"
+    "routePath": "/courses/2026/full-year/E927-22",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:E927-23:0:304",
@@ -8904,7 +10124,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/304.json",
       "en": "/details-en/304.json"
     },
-    "routePath": "/courses/2026/full-year/E927-23"
+    "routePath": "/courses/2026/full-year/E927-23",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:E927-24:0:305",
@@ -8933,7 +10157,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/305.json",
       "en": "/details-en/305.json"
     },
-    "routePath": "/courses/2026/full-year/E927-24"
+    "routePath": "/courses/2026/full-year/E927-24",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:E927-26:0:306",
@@ -8962,7 +10190,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/306.json",
       "en": "/details-en/306.json"
     },
-    "routePath": "/courses/2026/full-year/E927-26"
+    "routePath": "/courses/2026/full-year/E927-26",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:E927-27:0:307",
@@ -8991,7 +10223,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/307.json",
       "en": "/details-en/307.json"
     },
-    "routePath": "/courses/2026/full-year/E927-27"
+    "routePath": "/courses/2026/full-year/E927-27",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:E927-28:0:308",
@@ -9020,7 +10256,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/308.json",
       "en": "/details-en/308.json"
     },
-    "routePath": "/courses/2026/full-year/E927-28"
+    "routePath": "/courses/2026/full-year/E927-28",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:E927-30:0:309",
@@ -9049,7 +10289,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/309.json",
       "en": "/details-en/309.json"
     },
-    "routePath": "/courses/2026/full-year/E927-30"
+    "routePath": "/courses/2026/full-year/E927-30",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:full-year:E927-31:0:310",
@@ -9078,7 +10322,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/310.json",
       "en": "/details-en/310.json"
     },
-    "routePath": "/courses/2026/full-year/E927-31"
+    "routePath": "/courses/2026/full-year/E927-31",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:E927-32:0:311",
@@ -9107,7 +10355,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/311.json",
       "en": "/details-en/311.json"
     },
-    "routePath": "/courses/2026/full-year/E927-32"
+    "routePath": "/courses/2026/full-year/E927-32",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:E927-33:0:312",
@@ -9136,7 +10388,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/312.json",
       "en": "/details-en/312.json"
     },
-    "routePath": "/courses/2026/full-year/E927-33"
+    "routePath": "/courses/2026/full-year/E927-33",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:full-year:E927-34:0:313",
@@ -9165,7 +10421,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/313.json",
       "en": "/details-en/313.json"
     },
-    "routePath": "/courses/2026/full-year/E927-34"
+    "routePath": "/courses/2026/full-year/E927-34",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:E927-35:0:314",
@@ -9194,7 +10454,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/314.json",
       "en": "/details-en/314.json"
     },
-    "routePath": "/courses/2026/full-year/E927-35"
+    "routePath": "/courses/2026/full-year/E927-35",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:E927-36:0:315",
@@ -9223,7 +10487,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/315.json",
       "en": "/details-en/315.json"
     },
-    "routePath": "/courses/2026/full-year/E927-36"
+    "routePath": "/courses/2026/full-year/E927-36",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:E947-01:0:316",
@@ -9252,7 +10520,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/316.json",
       "en": "/details-en/316.json"
     },
-    "routePath": "/courses/2026/spring/E947-01"
+    "routePath": "/courses/2026/spring/E947-01",
+    "credits": 1,
+    "courseType": "専門教育課程その他科目その他",
+    "creditCategory": "other",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:E957-01:0:317",
@@ -9281,7 +10553,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/317.json",
       "en": "/details-en/317.json"
     },
-    "routePath": "/courses/2026/fall/E957-01"
+    "routePath": "/courses/2026/fall/E957-01",
+    "credits": 1,
+    "courseType": "専門教育課程その他科目その他",
+    "creditCategory": "other",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:E505-01:0:318",
@@ -9310,7 +10586,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/318.json",
       "en": "/details-en/318.json"
     },
-    "routePath": "/courses/2026/spring/E505-01"
+    "routePath": "/courses/2026/spring/E505-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:E505-01:0:319",
@@ -9339,7 +10619,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/319.json",
       "en": "/details-en/319.json"
     },
-    "routePath": "/courses/2026/fall/E505-01"
+    "routePath": "/courses/2026/fall/E505-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:E517-01:0:320",
@@ -9368,7 +10652,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/320.json",
       "en": "/details-en/320.json"
     },
-    "routePath": "/courses/2026/spring/E517-01"
+    "routePath": "/courses/2026/spring/E517-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:E518-01:0:321",
@@ -9397,7 +10685,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/321.json",
       "en": "/details-en/321.json"
     },
-    "routePath": "/courses/2026/spring/E518-01"
+    "routePath": "/courses/2026/spring/E518-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:E520-01:0:322",
@@ -9426,7 +10718,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/322.json",
       "en": "/details-en/322.json"
     },
-    "routePath": "/courses/2026/spring/E520-01"
+    "routePath": "/courses/2026/spring/E520-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:E521-01:0:323",
@@ -9455,7 +10751,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/323.json",
       "en": "/details-en/323.json"
     },
-    "routePath": "/courses/2026/spring/E521-01"
+    "routePath": "/courses/2026/spring/E521-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:E522-01:0:324",
@@ -9484,7 +10784,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/324.json",
       "en": "/details-en/324.json"
     },
-    "routePath": "/courses/2026/spring/E522-01"
+    "routePath": "/courses/2026/spring/E522-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:E523-01:0:325",
@@ -9513,7 +10817,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/325.json",
       "en": "/details-en/325.json"
     },
-    "routePath": "/courses/2026/fall/E523-01"
+    "routePath": "/courses/2026/fall/E523-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:E524-01:0:326",
@@ -9542,7 +10850,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/326.json",
       "en": "/details-en/326.json"
     },
-    "routePath": "/courses/2026/fall/E524-01"
+    "routePath": "/courses/2026/fall/E524-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:E526-01:0:327",
@@ -9571,7 +10883,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/327.json",
       "en": "/details-en/327.json"
     },
-    "routePath": "/courses/2026/spring/E526-01"
+    "routePath": "/courses/2026/spring/E526-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:E527-01:0:328",
@@ -9600,7 +10916,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/328.json",
       "en": "/details-en/328.json"
     },
-    "routePath": "/courses/2026/spring/E527-01"
+    "routePath": "/courses/2026/spring/E527-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:E529-01:0:329",
@@ -9629,7 +10949,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/329.json",
       "en": "/details-en/329.json"
     },
-    "routePath": "/courses/2026/fall/E529-01"
+    "routePath": "/courses/2026/fall/E529-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:E532-01:0:330",
@@ -9658,7 +10982,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/330.json",
       "en": "/details-en/330.json"
     },
-    "routePath": "/courses/2026/spring/E532-01"
+    "routePath": "/courses/2026/spring/E532-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:E533-01:0:331",
@@ -9687,7 +11015,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/331.json",
       "en": "/details-en/331.json"
     },
-    "routePath": "/courses/2026/fall/E533-01"
+    "routePath": "/courses/2026/fall/E533-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:E534-01:0:332",
@@ -9716,7 +11048,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/332.json",
       "en": "/details-en/332.json"
     },
-    "routePath": "/courses/2026/spring/E534-01"
+    "routePath": "/courses/2026/spring/E534-01",
+    "credits": 3,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:E534-01:0:333",
@@ -9745,7 +11081,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/333.json",
       "en": "/details-en/333.json"
     },
-    "routePath": "/courses/2026/fall/E534-01"
+    "routePath": "/courses/2026/fall/E534-01",
+    "credits": 3,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:E535-01:0:334",
@@ -9774,7 +11114,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/334.json",
       "en": "/details-en/334.json"
     },
-    "routePath": "/courses/2026/spring/E535-01"
+    "routePath": "/courses/2026/spring/E535-01",
+    "credits": 3,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:E535-01:0:335",
@@ -9803,7 +11147,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/335.json",
       "en": "/details-en/335.json"
     },
-    "routePath": "/courses/2026/fall/E535-01"
+    "routePath": "/courses/2026/fall/E535-01",
+    "credits": 3,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:E540-01:0:336",
@@ -9832,7 +11180,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/336.json",
       "en": "/details-en/336.json"
     },
-    "routePath": "/courses/2026/fall/E540-01"
+    "routePath": "/courses/2026/fall/E540-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:E541-01:0:337",
@@ -9861,7 +11213,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/337.json",
       "en": "/details-en/337.json"
     },
-    "routePath": "/courses/2026/fall/E541-01"
+    "routePath": "/courses/2026/fall/E541-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:E557-01:0:338",
@@ -9890,7 +11246,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/338.json",
       "en": "/details-en/338.json"
     },
-    "routePath": "/courses/2026/spring/E557-01"
+    "routePath": "/courses/2026/spring/E557-01",
+    "credits": 2,
+    "courseType": "専門教育課程その他科目その他",
+    "creditCategory": "other",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:E906-01:0:339",
@@ -9919,7 +11279,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/339.json",
       "en": "/details-en/339.json"
     },
-    "routePath": "/courses/2026/fall/E906-01"
+    "routePath": "/courses/2026/fall/E906-01",
+    "credits": 1,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:E916-01:0:340",
@@ -9948,7 +11312,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/340.json",
       "en": "/details-en/340.json"
     },
-    "routePath": "/courses/2026/fall/E916-01"
+    "routePath": "/courses/2026/fall/E916-01",
+    "credits": 1,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:full-year:E926-04:0:341",
@@ -9977,7 +11345,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/341.json",
       "en": "/details-en/341.json"
     },
-    "routePath": "/courses/2026/full-year/E926-04"
+    "routePath": "/courses/2026/full-year/E926-04",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:E926-08:0:342",
@@ -10006,7 +11378,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/342.json",
       "en": "/details-en/342.json"
     },
-    "routePath": "/courses/2026/full-year/E926-08"
+    "routePath": "/courses/2026/full-year/E926-08",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:E926-11:0:343",
@@ -10035,7 +11411,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/343.json",
       "en": "/details-en/343.json"
     },
-    "routePath": "/courses/2026/full-year/E926-11"
+    "routePath": "/courses/2026/full-year/E926-11",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:E926-12:0:344",
@@ -10064,7 +11444,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/344.json",
       "en": "/details-en/344.json"
     },
-    "routePath": "/courses/2026/full-year/E926-12"
+    "routePath": "/courses/2026/full-year/E926-12",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:E926-13:0:345",
@@ -10093,7 +11477,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/345.json",
       "en": "/details-en/345.json"
     },
-    "routePath": "/courses/2026/full-year/E926-13"
+    "routePath": "/courses/2026/full-year/E926-13",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:E926-17:0:346",
@@ -10122,7 +11510,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/346.json",
       "en": "/details-en/346.json"
     },
-    "routePath": "/courses/2026/full-year/E926-17"
+    "routePath": "/courses/2026/full-year/E926-17",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:E926-19:0:347",
@@ -10151,7 +11543,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/347.json",
       "en": "/details-en/347.json"
     },
-    "routePath": "/courses/2026/full-year/E926-19"
+    "routePath": "/courses/2026/full-year/E926-19",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:E926-20:0:348",
@@ -10180,7 +11576,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/348.json",
       "en": "/details-en/348.json"
     },
-    "routePath": "/courses/2026/full-year/E926-20"
+    "routePath": "/courses/2026/full-year/E926-20",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:E926-21:0:349",
@@ -10209,7 +11609,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/349.json",
       "en": "/details-en/349.json"
     },
-    "routePath": "/courses/2026/full-year/E926-21"
+    "routePath": "/courses/2026/full-year/E926-21",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:full-year:E926-22:0:350",
@@ -10238,7 +11642,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/350.json",
       "en": "/details-en/350.json"
     },
-    "routePath": "/courses/2026/full-year/E926-22"
+    "routePath": "/courses/2026/full-year/E926-22",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:E926-23:0:351",
@@ -10267,7 +11675,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/351.json",
       "en": "/details-en/351.json"
     },
-    "routePath": "/courses/2026/full-year/E926-23"
+    "routePath": "/courses/2026/full-year/E926-23",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:full-year:E926-24:0:352",
@@ -10296,7 +11708,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/352.json",
       "en": "/details-en/352.json"
     },
-    "routePath": "/courses/2026/full-year/E926-24"
+    "routePath": "/courses/2026/full-year/E926-24",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:full-year:E926-25:0:353",
@@ -10325,7 +11741,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/353.json",
       "en": "/details-en/353.json"
     },
-    "routePath": "/courses/2026/full-year/E926-25"
+    "routePath": "/courses/2026/full-year/E926-25",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:full-year:E926-26:0:354",
@@ -10354,7 +11774,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/354.json",
       "en": "/details-en/354.json"
     },
-    "routePath": "/courses/2026/full-year/E926-26"
+    "routePath": "/courses/2026/full-year/E926-26",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:E926-27:0:355",
@@ -10383,7 +11807,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/355.json",
       "en": "/details-en/355.json"
     },
-    "routePath": "/courses/2026/full-year/E926-27"
+    "routePath": "/courses/2026/full-year/E926-27",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:E926-28:0:356",
@@ -10412,7 +11840,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/356.json",
       "en": "/details-en/356.json"
     },
-    "routePath": "/courses/2026/full-year/E926-28"
+    "routePath": "/courses/2026/full-year/E926-28",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:E926-29:0:357",
@@ -10441,7 +11873,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/357.json",
       "en": "/details-en/357.json"
     },
-    "routePath": "/courses/2026/full-year/E926-29"
+    "routePath": "/courses/2026/full-year/E926-29",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:E926-30:0:358",
@@ -10470,7 +11906,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/358.json",
       "en": "/details-en/358.json"
     },
-    "routePath": "/courses/2026/full-year/E926-30"
+    "routePath": "/courses/2026/full-year/E926-30",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:E926-31:0:359",
@@ -10499,7 +11939,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/359.json",
       "en": "/details-en/359.json"
     },
-    "routePath": "/courses/2026/full-year/E926-31"
+    "routePath": "/courses/2026/full-year/E926-31",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:E946-01:0:360",
@@ -10528,7 +11972,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/360.json",
       "en": "/details-en/360.json"
     },
-    "routePath": "/courses/2026/spring/E946-01"
+    "routePath": "/courses/2026/spring/E946-01",
+    "credits": 1,
+    "courseType": "専門教育課程その他科目その他",
+    "creditCategory": "other",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:E956-01:0:361",
@@ -10557,7 +12005,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/361.json",
       "en": "/details-en/361.json"
     },
-    "routePath": "/courses/2026/fall/E956-01"
+    "routePath": "/courses/2026/fall/E956-01",
+    "credits": 1,
+    "courseType": "専門教育課程その他科目その他",
+    "creditCategory": "other",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:E717-01:0:362",
@@ -10586,7 +12038,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/362.json",
       "en": "/details-en/362.json"
     },
-    "routePath": "/courses/2026/spring/E717-01"
+    "routePath": "/courses/2026/spring/E717-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:E718-01:0:363",
@@ -10615,7 +12071,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/363.json",
       "en": "/details-en/363.json"
     },
-    "routePath": "/courses/2026/spring/E718-01"
+    "routePath": "/courses/2026/spring/E718-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:E719-01:0:364",
@@ -10644,7 +12104,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/364.json",
       "en": "/details-en/364.json"
     },
-    "routePath": "/courses/2026/spring/E719-01"
+    "routePath": "/courses/2026/spring/E719-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:E720-01:0:365",
@@ -10673,7 +12137,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/365.json",
       "en": "/details-en/365.json"
     },
-    "routePath": "/courses/2026/spring/E720-01"
+    "routePath": "/courses/2026/spring/E720-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:E721-01:0:366",
@@ -10702,7 +12170,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/366.json",
       "en": "/details-en/366.json"
     },
-    "routePath": "/courses/2026/spring/E721-01"
+    "routePath": "/courses/2026/spring/E721-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:E722-01:0:367",
@@ -10731,7 +12203,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/367.json",
       "en": "/details-en/367.json"
     },
-    "routePath": "/courses/2026/spring/E722-01"
+    "routePath": "/courses/2026/spring/E722-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:E723-01:0:368",
@@ -10760,7 +12236,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/368.json",
       "en": "/details-en/368.json"
     },
-    "routePath": "/courses/2026/spring/E723-01"
+    "routePath": "/courses/2026/spring/E723-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:E724-01:0:369",
@@ -10789,7 +12269,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/369.json",
       "en": "/details-en/369.json"
     },
-    "routePath": "/courses/2026/spring/E724-01"
+    "routePath": "/courses/2026/spring/E724-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:E725-01:0:370",
@@ -10818,7 +12302,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/370.json",
       "en": "/details-en/370.json"
     },
-    "routePath": "/courses/2026/spring/E725-01"
+    "routePath": "/courses/2026/spring/E725-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:E726-01:0:371",
@@ -10847,7 +12335,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/371.json",
       "en": "/details-en/371.json"
     },
-    "routePath": "/courses/2026/fall/E726-01"
+    "routePath": "/courses/2026/fall/E726-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:E727-01:0:372",
@@ -10876,7 +12368,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/372.json",
       "en": "/details-en/372.json"
     },
-    "routePath": "/courses/2026/fall/E727-01"
+    "routePath": "/courses/2026/fall/E727-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:E728-01:0:373",
@@ -10905,7 +12401,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/373.json",
       "en": "/details-en/373.json"
     },
-    "routePath": "/courses/2026/fall/E728-01"
+    "routePath": "/courses/2026/fall/E728-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:E729-01:0:374",
@@ -10934,7 +12434,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/374.json",
       "en": "/details-en/374.json"
     },
-    "routePath": "/courses/2026/fall/E729-01"
+    "routePath": "/courses/2026/fall/E729-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:E730-01:0:375",
@@ -10963,7 +12467,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/375.json",
       "en": "/details-en/375.json"
     },
-    "routePath": "/courses/2026/fall/E730-01"
+    "routePath": "/courses/2026/fall/E730-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:E731-01:0:376",
@@ -10992,7 +12500,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/376.json",
       "en": "/details-en/376.json"
     },
-    "routePath": "/courses/2026/fall/E731-01"
+    "routePath": "/courses/2026/fall/E731-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:E732-01:0:377",
@@ -11021,7 +12533,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/377.json",
       "en": "/details-en/377.json"
     },
-    "routePath": "/courses/2026/fall/E732-01"
+    "routePath": "/courses/2026/fall/E732-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:E733-01:0:378",
@@ -11050,7 +12566,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/378.json",
       "en": "/details-en/378.json"
     },
-    "routePath": "/courses/2026/spring/E733-01"
+    "routePath": "/courses/2026/spring/E733-01",
+    "credits": 3,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:E733-01:0:379",
@@ -11079,7 +12599,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/379.json",
       "en": "/details-en/379.json"
     },
-    "routePath": "/courses/2026/fall/E733-01"
+    "routePath": "/courses/2026/fall/E733-01",
+    "credits": 3,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:E734-01:0:380",
@@ -11108,7 +12632,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/380.json",
       "en": "/details-en/380.json"
     },
-    "routePath": "/courses/2026/spring/E734-01"
+    "routePath": "/courses/2026/spring/E734-01",
+    "credits": 3,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:E734-01:0:381",
@@ -11137,7 +12665,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/381.json",
       "en": "/details-en/381.json"
     },
-    "routePath": "/courses/2026/fall/E734-01"
+    "routePath": "/courses/2026/fall/E734-01",
+    "credits": 3,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:E908-01:0:382",
@@ -11166,7 +12698,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/382.json",
       "en": "/details-en/382.json"
     },
-    "routePath": "/courses/2026/fall/E908-01"
+    "routePath": "/courses/2026/fall/E908-01",
+    "credits": 1,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:E918-01:0:383",
@@ -11195,7 +12731,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/383.json",
       "en": "/details-en/383.json"
     },
-    "routePath": "/courses/2026/spring/E918-01"
+    "routePath": "/courses/2026/spring/E918-01",
+    "credits": 1,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:full-year:E928-03:0:384",
@@ -11224,7 +12764,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/384.json",
       "en": "/details-en/384.json"
     },
-    "routePath": "/courses/2026/full-year/E928-03"
+    "routePath": "/courses/2026/full-year/E928-03",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:full-year:E928-04:0:385",
@@ -11253,7 +12797,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/385.json",
       "en": "/details-en/385.json"
     },
-    "routePath": "/courses/2026/full-year/E928-04"
+    "routePath": "/courses/2026/full-year/E928-04",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:full-year:E928-05:0:386",
@@ -11282,7 +12830,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/386.json",
       "en": "/details-en/386.json"
     },
-    "routePath": "/courses/2026/full-year/E928-05"
+    "routePath": "/courses/2026/full-year/E928-05",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:E928-06:0:387",
@@ -11311,7 +12863,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/387.json",
       "en": "/details-en/387.json"
     },
-    "routePath": "/courses/2026/full-year/E928-06"
+    "routePath": "/courses/2026/full-year/E928-06",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:E928-07:0:388",
@@ -11340,7 +12896,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/388.json",
       "en": "/details-en/388.json"
     },
-    "routePath": "/courses/2026/full-year/E928-07"
+    "routePath": "/courses/2026/full-year/E928-07",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:E928-08:0:389",
@@ -11369,7 +12929,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/389.json",
       "en": "/details-en/389.json"
     },
-    "routePath": "/courses/2026/full-year/E928-08"
+    "routePath": "/courses/2026/full-year/E928-08",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:full-year:E928-09:0:390",
@@ -11398,7 +12962,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/390.json",
       "en": "/details-en/390.json"
     },
-    "routePath": "/courses/2026/full-year/E928-09"
+    "routePath": "/courses/2026/full-year/E928-09",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:E928-10:0:391",
@@ -11427,7 +12995,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/391.json",
       "en": "/details-en/391.json"
     },
-    "routePath": "/courses/2026/full-year/E928-10"
+    "routePath": "/courses/2026/full-year/E928-10",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:E928-11:0:392",
@@ -11456,7 +13028,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/392.json",
       "en": "/details-en/392.json"
     },
-    "routePath": "/courses/2026/full-year/E928-11"
+    "routePath": "/courses/2026/full-year/E928-11",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:E928-12:0:393",
@@ -11485,7 +13061,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/393.json",
       "en": "/details-en/393.json"
     },
-    "routePath": "/courses/2026/full-year/E928-12"
+    "routePath": "/courses/2026/full-year/E928-12",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:E948-01:0:394",
@@ -11514,7 +13094,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/394.json",
       "en": "/details-en/394.json"
     },
-    "routePath": "/courses/2026/spring/E948-01"
+    "routePath": "/courses/2026/spring/E948-01",
+    "credits": 1,
+    "courseType": "専門教育課程その他科目その他",
+    "creditCategory": "other",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:E958-01:0:395",
@@ -11543,7 +13127,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/395.json",
       "en": "/details-en/395.json"
     },
-    "routePath": "/courses/2026/fall/E958-01"
+    "routePath": "/courses/2026/fall/E958-01",
+    "credits": 1,
+    "courseType": "専門教育課程その他科目その他",
+    "creditCategory": "other",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:full-year:F005-01:0:396",
@@ -11572,7 +13160,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/396.json",
       "en": "/details-en/396.json"
     },
-    "routePath": "/courses/2026/full-year/F005-01"
+    "routePath": "/courses/2026/full-year/F005-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:F008-01:0:397",
@@ -11601,7 +13193,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/397.json",
       "en": "/details-en/397.json"
     },
-    "routePath": "/courses/2026/spring/F008-01"
+    "routePath": "/courses/2026/spring/F008-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:F020-01:0:398",
@@ -11630,7 +13226,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/398.json",
       "en": "/details-en/398.json"
     },
-    "routePath": "/courses/2026/spring/F020-01"
+    "routePath": "/courses/2026/spring/F020-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:F021-01:0:399",
@@ -11659,7 +13259,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/399.json",
       "en": "/details-en/399.json"
     },
-    "routePath": "/courses/2026/spring/F021-01"
+    "routePath": "/courses/2026/spring/F021-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:F022-01:0:400",
@@ -11688,7 +13292,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/400.json",
       "en": "/details-en/400.json"
     },
-    "routePath": "/courses/2026/spring/F022-01"
+    "routePath": "/courses/2026/spring/F022-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:F023-01:0:401",
@@ -11717,7 +13325,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/401.json",
       "en": "/details-en/401.json"
     },
-    "routePath": "/courses/2026/spring/F023-01"
+    "routePath": "/courses/2026/spring/F023-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:F024-01:0:402",
@@ -11746,7 +13358,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/402.json",
       "en": "/details-en/402.json"
     },
-    "routePath": "/courses/2026/spring/F024-01"
+    "routePath": "/courses/2026/spring/F024-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:F025-01:0:403",
@@ -11775,7 +13391,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/403.json",
       "en": "/details-en/403.json"
     },
-    "routePath": "/courses/2026/spring/F025-01"
+    "routePath": "/courses/2026/spring/F025-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:F026-01:0:404",
@@ -11804,7 +13424,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/404.json",
       "en": "/details-en/404.json"
     },
-    "routePath": "/courses/2026/spring/F026-01"
+    "routePath": "/courses/2026/spring/F026-01",
+    "credits": 3,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:F026-01:0:405",
@@ -11833,7 +13457,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/405.json",
       "en": "/details-en/405.json"
     },
-    "routePath": "/courses/2026/fall/F026-01"
+    "routePath": "/courses/2026/fall/F026-01",
+    "credits": 3,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:F027-01:0:406",
@@ -11862,7 +13490,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/406.json",
       "en": "/details-en/406.json"
     },
-    "routePath": "/courses/2026/spring/F027-01"
+    "routePath": "/courses/2026/spring/F027-01",
+    "credits": 3,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:F027-01:0:407",
@@ -11891,7 +13523,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/407.json",
       "en": "/details-en/407.json"
     },
-    "routePath": "/courses/2026/fall/F027-01"
+    "routePath": "/courses/2026/fall/F027-01",
+    "credits": 3,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:F028-01:0:408",
@@ -11920,7 +13556,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/408.json",
       "en": "/details-en/408.json"
     },
-    "routePath": "/courses/2026/fall/F028-01"
+    "routePath": "/courses/2026/fall/F028-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:F029-01:0:409",
@@ -11949,7 +13589,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/409.json",
       "en": "/details-en/409.json"
     },
-    "routePath": "/courses/2026/spring/F029-01"
+    "routePath": "/courses/2026/spring/F029-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:F030-01:0:410",
@@ -11978,7 +13622,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/410.json",
       "en": "/details-en/410.json"
     },
-    "routePath": "/courses/2026/fall/F030-01"
+    "routePath": "/courses/2026/fall/F030-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:F031-01:0:411",
@@ -12007,7 +13655,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/411.json",
       "en": "/details-en/411.json"
     },
-    "routePath": "/courses/2026/fall/F031-01"
+    "routePath": "/courses/2026/fall/F031-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:F032-01:0:412",
@@ -12036,7 +13688,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/412.json",
       "en": "/details-en/412.json"
     },
-    "routePath": "/courses/2026/fall/F032-01"
+    "routePath": "/courses/2026/fall/F032-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:F034-01:0:413",
@@ -12065,7 +13721,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/413.json",
       "en": "/details-en/413.json"
     },
-    "routePath": "/courses/2026/spring/F034-01"
+    "routePath": "/courses/2026/spring/F034-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:F035-01:0:414",
@@ -12094,7 +13754,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/414.json",
       "en": "/details-en/414.json"
     },
-    "routePath": "/courses/2026/fall/F035-01"
+    "routePath": "/courses/2026/fall/F035-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:F901-01:0:415",
@@ -12123,7 +13787,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/415.json",
       "en": "/details-en/415.json"
     },
-    "routePath": "/courses/2026/fall/F901-01"
+    "routePath": "/courses/2026/fall/F901-01",
+    "credits": 1,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:F911-01:0:416",
@@ -12152,7 +13820,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/416.json",
       "en": "/details-en/416.json"
     },
-    "routePath": "/courses/2026/fall/F911-01"
+    "routePath": "/courses/2026/fall/F911-01",
+    "credits": 1,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:F921-05:0:417",
@@ -12181,7 +13853,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/417.json",
       "en": "/details-en/417.json"
     },
-    "routePath": "/courses/2026/full-year/F921-05"
+    "routePath": "/courses/2026/full-year/F921-05",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:F921-06:0:418",
@@ -12210,7 +13886,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/418.json",
       "en": "/details-en/418.json"
     },
-    "routePath": "/courses/2026/full-year/F921-06"
+    "routePath": "/courses/2026/full-year/F921-06",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:F921-07:0:419",
@@ -12239,7 +13919,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/419.json",
       "en": "/details-en/419.json"
     },
-    "routePath": "/courses/2026/full-year/F921-07"
+    "routePath": "/courses/2026/full-year/F921-07",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:F921-08:0:420",
@@ -12268,7 +13952,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/420.json",
       "en": "/details-en/420.json"
     },
-    "routePath": "/courses/2026/full-year/F921-08"
+    "routePath": "/courses/2026/full-year/F921-08",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:F921-10:0:421",
@@ -12297,7 +13985,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/421.json",
       "en": "/details-en/421.json"
     },
-    "routePath": "/courses/2026/full-year/F921-10"
+    "routePath": "/courses/2026/full-year/F921-10",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:F921-11:0:422",
@@ -12326,7 +14018,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/422.json",
       "en": "/details-en/422.json"
     },
-    "routePath": "/courses/2026/full-year/F921-11"
+    "routePath": "/courses/2026/full-year/F921-11",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:full-year:F921-14:0:423",
@@ -12355,7 +14051,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/423.json",
       "en": "/details-en/423.json"
     },
-    "routePath": "/courses/2026/full-year/F921-14"
+    "routePath": "/courses/2026/full-year/F921-14",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:full-year:F921-15:0:424",
@@ -12384,7 +14084,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/424.json",
       "en": "/details-en/424.json"
     },
-    "routePath": "/courses/2026/full-year/F921-15"
+    "routePath": "/courses/2026/full-year/F921-15",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:F921-16:0:425",
@@ -12413,7 +14117,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/425.json",
       "en": "/details-en/425.json"
     },
-    "routePath": "/courses/2026/full-year/F921-16"
+    "routePath": "/courses/2026/full-year/F921-16",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:F921-18:0:426",
@@ -12442,7 +14150,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/426.json",
       "en": "/details-en/426.json"
     },
-    "routePath": "/courses/2026/full-year/F921-18"
+    "routePath": "/courses/2026/full-year/F921-18",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:F921-19:0:427",
@@ -12471,7 +14183,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/427.json",
       "en": "/details-en/427.json"
     },
-    "routePath": "/courses/2026/full-year/F921-19"
+    "routePath": "/courses/2026/full-year/F921-19",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:F941-01:0:428",
@@ -12500,7 +14216,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/428.json",
       "en": "/details-en/428.json"
     },
-    "routePath": "/courses/2026/spring/F941-01"
+    "routePath": "/courses/2026/spring/F941-01",
+    "credits": 1,
+    "courseType": "専門教育課程その他科目その他",
+    "creditCategory": "other",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:F951-01:0:429",
@@ -12529,7 +14249,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/429.json",
       "en": "/details-en/429.json"
     },
-    "routePath": "/courses/2026/fall/F951-01"
+    "routePath": "/courses/2026/fall/F951-01",
+    "credits": 1,
+    "courseType": "専門教育課程その他科目その他",
+    "creditCategory": "other",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:F120-01:0:430",
@@ -12558,7 +14282,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/430.json",
       "en": "/details-en/430.json"
     },
-    "routePath": "/courses/2026/spring/F120-01"
+    "routePath": "/courses/2026/spring/F120-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:F121-01:0:431",
@@ -12587,7 +14315,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/431.json",
       "en": "/details-en/431.json"
     },
-    "routePath": "/courses/2026/spring/F121-01"
+    "routePath": "/courses/2026/spring/F121-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:F123-01:0:432",
@@ -12616,7 +14348,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/432.json",
       "en": "/details-en/432.json"
     },
-    "routePath": "/courses/2026/fall/F123-01"
+    "routePath": "/courses/2026/fall/F123-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:F124-01:0:433",
@@ -12645,7 +14381,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/433.json",
       "en": "/details-en/433.json"
     },
-    "routePath": "/courses/2026/spring/F124-01"
+    "routePath": "/courses/2026/spring/F124-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:F125-01:0:434",
@@ -12674,7 +14414,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/434.json",
       "en": "/details-en/434.json"
     },
-    "routePath": "/courses/2026/spring/F125-01"
+    "routePath": "/courses/2026/spring/F125-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:F128-01:0:435",
@@ -12703,7 +14447,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/435.json",
       "en": "/details-en/435.json"
     },
-    "routePath": "/courses/2026/fall/F128-01"
+    "routePath": "/courses/2026/fall/F128-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:F129-01:0:436",
@@ -12732,7 +14480,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/436.json",
       "en": "/details-en/436.json"
     },
-    "routePath": "/courses/2026/spring/F129-01"
+    "routePath": "/courses/2026/spring/F129-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:F130-01:0:437",
@@ -12761,7 +14513,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/437.json",
       "en": "/details-en/437.json"
     },
-    "routePath": "/courses/2026/spring/F130-01"
+    "routePath": "/courses/2026/spring/F130-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:F131-01:0:438",
@@ -12790,7 +14546,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/438.json",
       "en": "/details-en/438.json"
     },
-    "routePath": "/courses/2026/spring/F131-01"
+    "routePath": "/courses/2026/spring/F131-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:F132-01:0:439",
@@ -12819,7 +14579,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/439.json",
       "en": "/details-en/439.json"
     },
-    "routePath": "/courses/2026/fall/F132-01"
+    "routePath": "/courses/2026/fall/F132-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:F133-01:0:440",
@@ -12848,7 +14612,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/440.json",
       "en": "/details-en/440.json"
     },
-    "routePath": "/courses/2026/spring/F133-01"
+    "routePath": "/courses/2026/spring/F133-01",
+    "credits": 3,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:F133-01:0:441",
@@ -12877,7 +14645,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/441.json",
       "en": "/details-en/441.json"
     },
-    "routePath": "/courses/2026/fall/F133-01"
+    "routePath": "/courses/2026/fall/F133-01",
+    "credits": 3,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:F134-01:0:442",
@@ -12906,7 +14678,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/442.json",
       "en": "/details-en/442.json"
     },
-    "routePath": "/courses/2026/spring/F134-01"
+    "routePath": "/courses/2026/spring/F134-01",
+    "credits": 3,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:F134-01:0:443",
@@ -12935,7 +14711,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/443.json",
       "en": "/details-en/443.json"
     },
-    "routePath": "/courses/2026/fall/F134-01"
+    "routePath": "/courses/2026/fall/F134-01",
+    "credits": 3,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:F135-01:0:444",
@@ -12964,7 +14744,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/444.json",
       "en": "/details-en/444.json"
     },
-    "routePath": "/courses/2026/fall/F135-01"
+    "routePath": "/courses/2026/fall/F135-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:F139-01:0:445",
@@ -12993,7 +14777,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/445.json",
       "en": "/details-en/445.json"
     },
-    "routePath": "/courses/2026/spring/F139-01"
+    "routePath": "/courses/2026/spring/F139-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:F140-01:0:446",
@@ -13022,7 +14810,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/446.json",
       "en": "/details-en/446.json"
     },
-    "routePath": "/courses/2026/fall/F140-01"
+    "routePath": "/courses/2026/fall/F140-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:F141-01:0:447",
@@ -13051,7 +14843,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/447.json",
       "en": "/details-en/447.json"
     },
-    "routePath": "/courses/2026/fall/F141-01"
+    "routePath": "/courses/2026/fall/F141-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:F142-01:0:448",
@@ -13080,7 +14876,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/448.json",
       "en": "/details-en/448.json"
     },
-    "routePath": "/courses/2026/fall/F142-01"
+    "routePath": "/courses/2026/fall/F142-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:F902-01:0:449",
@@ -13109,7 +14909,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/449.json",
       "en": "/details-en/449.json"
     },
-    "routePath": "/courses/2026/fall/F902-01"
+    "routePath": "/courses/2026/fall/F902-01",
+    "credits": 1,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:F912-01:0:450",
@@ -13138,7 +14942,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/450.json",
       "en": "/details-en/450.json"
     },
-    "routePath": "/courses/2026/spring/F912-01"
+    "routePath": "/courses/2026/spring/F912-01",
+    "credits": 1,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:F922-05:0:451",
@@ -13167,7 +14975,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/451.json",
       "en": "/details-en/451.json"
     },
-    "routePath": "/courses/2026/full-year/F922-05"
+    "routePath": "/courses/2026/full-year/F922-05",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:F922-09:0:452",
@@ -13196,7 +15008,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/452.json",
       "en": "/details-en/452.json"
     },
-    "routePath": "/courses/2026/full-year/F922-09"
+    "routePath": "/courses/2026/full-year/F922-09",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:full-year:F922-11:0:453",
@@ -13225,7 +15041,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/453.json",
       "en": "/details-en/453.json"
     },
-    "routePath": "/courses/2026/full-year/F922-11"
+    "routePath": "/courses/2026/full-year/F922-11",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:full-year:F922-12:0:454",
@@ -13254,7 +15074,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/454.json",
       "en": "/details-en/454.json"
     },
-    "routePath": "/courses/2026/full-year/F922-12"
+    "routePath": "/courses/2026/full-year/F922-12",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:F922-13:0:455",
@@ -13283,7 +15107,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/455.json",
       "en": "/details-en/455.json"
     },
-    "routePath": "/courses/2026/full-year/F922-13"
+    "routePath": "/courses/2026/full-year/F922-13",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:F922-14:0:456",
@@ -13312,7 +15140,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/456.json",
       "en": "/details-en/456.json"
     },
-    "routePath": "/courses/2026/full-year/F922-14"
+    "routePath": "/courses/2026/full-year/F922-14",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:full-year:F922-15:0:457",
@@ -13341,7 +15173,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/457.json",
       "en": "/details-en/457.json"
     },
-    "routePath": "/courses/2026/full-year/F922-15"
+    "routePath": "/courses/2026/full-year/F922-15",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:full-year:F922-17:0:458",
@@ -13370,7 +15206,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/458.json",
       "en": "/details-en/458.json"
     },
-    "routePath": "/courses/2026/full-year/F922-17"
+    "routePath": "/courses/2026/full-year/F922-17",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:F942-01:0:459",
@@ -13399,7 +15239,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/459.json",
       "en": "/details-en/459.json"
     },
-    "routePath": "/courses/2026/spring/F942-01"
+    "routePath": "/courses/2026/spring/F942-01",
+    "credits": 1,
+    "courseType": "専門教育課程その他科目その他",
+    "creditCategory": "other",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:F952-01:0:460",
@@ -13428,7 +15272,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/460.json",
       "en": "/details-en/460.json"
     },
-    "routePath": "/courses/2026/fall/F952-01"
+    "routePath": "/courses/2026/fall/F952-01",
+    "credits": 1,
+    "courseType": "専門教育課程その他科目その他",
+    "creditCategory": "other",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:F320-01:0:461",
@@ -13457,7 +15305,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/461.json",
       "en": "/details-en/461.json"
     },
-    "routePath": "/courses/2026/spring/F320-01"
+    "routePath": "/courses/2026/spring/F320-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:F321-01:0:462",
@@ -13486,7 +15338,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/462.json",
       "en": "/details-en/462.json"
     },
-    "routePath": "/courses/2026/spring/F321-01"
+    "routePath": "/courses/2026/spring/F321-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:F322-01:0:463",
@@ -13515,7 +15371,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/463.json",
       "en": "/details-en/463.json"
     },
-    "routePath": "/courses/2026/spring/F322-01"
+    "routePath": "/courses/2026/spring/F322-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:F323-01:0:464",
@@ -13544,7 +15404,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/464.json",
       "en": "/details-en/464.json"
     },
-    "routePath": "/courses/2026/spring/F323-01"
+    "routePath": "/courses/2026/spring/F323-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:F324-01:0:465",
@@ -13573,7 +15437,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/465.json",
       "en": "/details-en/465.json"
     },
-    "routePath": "/courses/2026/spring/F324-01"
+    "routePath": "/courses/2026/spring/F324-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:F325-01:0:466",
@@ -13602,7 +15470,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/466.json",
       "en": "/details-en/466.json"
     },
-    "routePath": "/courses/2026/spring/F325-01"
+    "routePath": "/courses/2026/spring/F325-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:F327-01:0:467",
@@ -13631,7 +15503,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/467.json",
       "en": "/details-en/467.json"
     },
-    "routePath": "/courses/2026/spring/F327-01"
+    "routePath": "/courses/2026/spring/F327-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:F328-01:0:468",
@@ -13660,7 +15536,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/468.json",
       "en": "/details-en/468.json"
     },
-    "routePath": "/courses/2026/fall/F328-01"
+    "routePath": "/courses/2026/fall/F328-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:F329-01:0:469",
@@ -13689,7 +15569,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/469.json",
       "en": "/details-en/469.json"
     },
-    "routePath": "/courses/2026/fall/F329-01"
+    "routePath": "/courses/2026/fall/F329-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:F330-01:0:470",
@@ -13718,7 +15602,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/470.json",
       "en": "/details-en/470.json"
     },
-    "routePath": "/courses/2026/fall/F330-01"
+    "routePath": "/courses/2026/fall/F330-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:F331-01:0:471",
@@ -13747,7 +15635,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/471.json",
       "en": "/details-en/471.json"
     },
-    "routePath": "/courses/2026/fall/F331-01"
+    "routePath": "/courses/2026/fall/F331-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:F332-01:0:472",
@@ -13776,7 +15668,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/472.json",
       "en": "/details-en/472.json"
     },
-    "routePath": "/courses/2026/fall/F332-01"
+    "routePath": "/courses/2026/fall/F332-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:F334-01:0:473",
@@ -13805,7 +15701,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/473.json",
       "en": "/details-en/473.json"
     },
-    "routePath": "/courses/2026/fall/F334-01"
+    "routePath": "/courses/2026/fall/F334-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:F335-01:0:474",
@@ -13834,7 +15734,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/474.json",
       "en": "/details-en/474.json"
     },
-    "routePath": "/courses/2026/spring/F335-01"
+    "routePath": "/courses/2026/spring/F335-01",
+    "credits": 3,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:F335-01:0:475",
@@ -13863,7 +15767,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/475.json",
       "en": "/details-en/475.json"
     },
-    "routePath": "/courses/2026/fall/F335-01"
+    "routePath": "/courses/2026/fall/F335-01",
+    "credits": 3,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:F336-01:0:476",
@@ -13892,7 +15800,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/476.json",
       "en": "/details-en/476.json"
     },
-    "routePath": "/courses/2026/spring/F336-01"
+    "routePath": "/courses/2026/spring/F336-01",
+    "credits": 3,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:F336-01:0:477",
@@ -13921,7 +15833,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/477.json",
       "en": "/details-en/477.json"
     },
-    "routePath": "/courses/2026/fall/F336-01"
+    "routePath": "/courses/2026/fall/F336-01",
+    "credits": 3,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:F337-01:0:478",
@@ -13950,7 +15866,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/478.json",
       "en": "/details-en/478.json"
     },
-    "routePath": "/courses/2026/full-year/F337-01"
+    "routePath": "/courses/2026/full-year/F337-01",
+    "credits": 3,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:F338-01:0:479",
@@ -13979,7 +15899,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/479.json",
       "en": "/details-en/479.json"
     },
-    "routePath": "/courses/2026/spring/F338-01"
+    "routePath": "/courses/2026/spring/F338-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:F339-01:0:480",
@@ -14008,7 +15932,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/480.json",
       "en": "/details-en/480.json"
     },
-    "routePath": "/courses/2026/fall/F339-01"
+    "routePath": "/courses/2026/fall/F339-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:F340-01:0:481",
@@ -14037,7 +15965,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/481.json",
       "en": "/details-en/481.json"
     },
-    "routePath": "/courses/2026/fall/F340-01"
+    "routePath": "/courses/2026/fall/F340-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:F341-01:0:482",
@@ -14066,7 +15998,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/482.json",
       "en": "/details-en/482.json"
     },
-    "routePath": "/courses/2026/fall/F341-01"
+    "routePath": "/courses/2026/fall/F341-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:F342-01:0:483",
@@ -14095,7 +16031,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/483.json",
       "en": "/details-en/483.json"
     },
-    "routePath": "/courses/2026/fall/F342-01"
+    "routePath": "/courses/2026/fall/F342-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:F343-01:0:484",
@@ -14124,7 +16064,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/484.json",
       "en": "/details-en/484.json"
     },
-    "routePath": "/courses/2026/spring/F343-01"
+    "routePath": "/courses/2026/spring/F343-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:F904-01:0:485",
@@ -14153,7 +16097,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/485.json",
       "en": "/details-en/485.json"
     },
-    "routePath": "/courses/2026/fall/F904-01"
+    "routePath": "/courses/2026/fall/F904-01",
+    "credits": 1,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:F914-01:0:486",
@@ -14182,7 +16130,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/486.json",
       "en": "/details-en/486.json"
     },
-    "routePath": "/courses/2026/fall/F914-01"
+    "routePath": "/courses/2026/fall/F914-01",
+    "credits": 1,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:F924-03:0:487",
@@ -14211,7 +16163,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/487.json",
       "en": "/details-en/487.json"
     },
-    "routePath": "/courses/2026/full-year/F924-03"
+    "routePath": "/courses/2026/full-year/F924-03",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:F924-04:0:488",
@@ -14240,7 +16196,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/488.json",
       "en": "/details-en/488.json"
     },
-    "routePath": "/courses/2026/full-year/F924-04"
+    "routePath": "/courses/2026/full-year/F924-04",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:F924-05:0:489",
@@ -14269,7 +16229,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/489.json",
       "en": "/details-en/489.json"
     },
-    "routePath": "/courses/2026/full-year/F924-05"
+    "routePath": "/courses/2026/full-year/F924-05",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:F924-06:0:490",
@@ -14298,7 +16262,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/490.json",
       "en": "/details-en/490.json"
     },
-    "routePath": "/courses/2026/full-year/F924-06"
+    "routePath": "/courses/2026/full-year/F924-06",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:F924-07:0:491",
@@ -14327,7 +16295,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/491.json",
       "en": "/details-en/491.json"
     },
-    "routePath": "/courses/2026/full-year/F924-07"
+    "routePath": "/courses/2026/full-year/F924-07",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:F924-08:0:492",
@@ -14356,7 +16328,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/492.json",
       "en": "/details-en/492.json"
     },
-    "routePath": "/courses/2026/full-year/F924-08"
+    "routePath": "/courses/2026/full-year/F924-08",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:F924-10:0:493",
@@ -14385,7 +16361,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/493.json",
       "en": "/details-en/493.json"
     },
-    "routePath": "/courses/2026/full-year/F924-10"
+    "routePath": "/courses/2026/full-year/F924-10",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:full-year:F924-11:0:494",
@@ -14414,7 +16394,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/494.json",
       "en": "/details-en/494.json"
     },
-    "routePath": "/courses/2026/full-year/F924-11"
+    "routePath": "/courses/2026/full-year/F924-11",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:F944-01:0:495",
@@ -14443,7 +16427,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/495.json",
       "en": "/details-en/495.json"
     },
-    "routePath": "/courses/2026/spring/F944-01"
+    "routePath": "/courses/2026/spring/F944-01",
+    "credits": 1,
+    "courseType": "専門教育課程その他科目その他",
+    "creditCategory": "other",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:F954-01:0:496",
@@ -14472,7 +16460,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/496.json",
       "en": "/details-en/496.json"
     },
-    "routePath": "/courses/2026/fall/F954-01"
+    "routePath": "/courses/2026/fall/F954-01",
+    "credits": 1,
+    "courseType": "専門教育課程その他科目その他",
+    "creditCategory": "other",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:M001-01:0:497",
@@ -14501,7 +16493,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/497.json",
       "en": "/details-en/497.json"
     },
-    "routePath": "/courses/2026/spring/M001-01"
+    "routePath": "/courses/2026/spring/M001-01",
+    "credits": 1,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:M002-01:0:498",
@@ -14530,7 +16526,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/498.json",
       "en": "/details-en/498.json"
     },
-    "routePath": "/courses/2026/spring/M002-01"
+    "routePath": "/courses/2026/spring/M002-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:M003-01:0:499",
@@ -14559,7 +16559,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/499.json",
       "en": "/details-en/499.json"
     },
-    "routePath": "/courses/2026/spring/M003-01"
+    "routePath": "/courses/2026/spring/M003-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:M004-01:0:500",
@@ -14588,7 +16592,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/500.json",
       "en": "/details-en/500.json"
     },
-    "routePath": "/courses/2026/spring/M004-01"
+    "routePath": "/courses/2026/spring/M004-01",
+    "credits": 1,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:M005-01:0:501",
@@ -14617,7 +16625,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/501.json",
       "en": "/details-en/501.json"
     },
-    "routePath": "/courses/2026/fall/M005-01"
+    "routePath": "/courses/2026/fall/M005-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:M006-01:0:502",
@@ -14646,7 +16658,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/502.json",
       "en": "/details-en/502.json"
     },
-    "routePath": "/courses/2026/fall/M006-01"
+    "routePath": "/courses/2026/fall/M006-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:M007-01:0:503",
@@ -14675,7 +16691,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/503.json",
       "en": "/details-en/503.json"
     },
-    "routePath": "/courses/2026/fall/M007-01"
+    "routePath": "/courses/2026/fall/M007-01",
+    "credits": 1,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:M008-01:0:504",
@@ -14704,7 +16724,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/504.json",
       "en": "/details-en/504.json"
     },
-    "routePath": "/courses/2026/fall/M008-01"
+    "routePath": "/courses/2026/fall/M008-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:M009-01:0:505",
@@ -14733,7 +16757,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/505.json",
       "en": "/details-en/505.json"
     },
-    "routePath": "/courses/2026/spring/M009-01"
+    "routePath": "/courses/2026/spring/M009-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:M010-01:0:506",
@@ -14762,7 +16790,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/506.json",
       "en": "/details-en/506.json"
     },
-    "routePath": "/courses/2026/spring/M010-01"
+    "routePath": "/courses/2026/spring/M010-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:M011-01:0:507",
@@ -14791,7 +16823,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/507.json",
       "en": "/details-en/507.json"
     },
-    "routePath": "/courses/2026/spring/M011-01"
+    "routePath": "/courses/2026/spring/M011-01",
+    "credits": 1,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:M012-01:0:508",
@@ -14820,7 +16856,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/508.json",
       "en": "/details-en/508.json"
     },
-    "routePath": "/courses/2026/spring/M012-01"
+    "routePath": "/courses/2026/spring/M012-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:M013-01:0:509",
@@ -14849,7 +16889,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/509.json",
       "en": "/details-en/509.json"
     },
-    "routePath": "/courses/2026/spring/M013-01"
+    "routePath": "/courses/2026/spring/M013-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:M014-01:0:510",
@@ -14878,7 +16922,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/510.json",
       "en": "/details-en/510.json"
     },
-    "routePath": "/courses/2026/spring/M014-01"
+    "routePath": "/courses/2026/spring/M014-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:M015-01:0:511",
@@ -14907,7 +16955,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/511.json",
       "en": "/details-en/511.json"
     },
-    "routePath": "/courses/2026/spring/M015-01"
+    "routePath": "/courses/2026/spring/M015-01",
+    "credits": 1,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:M017-01:0:512",
@@ -14936,7 +16988,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/512.json",
       "en": "/details-en/512.json"
     },
-    "routePath": "/courses/2026/fall/M017-01"
+    "routePath": "/courses/2026/fall/M017-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:M018-01:0:513",
@@ -14965,7 +17021,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/513.json",
       "en": "/details-en/513.json"
     },
-    "routePath": "/courses/2026/fall/M018-01"
+    "routePath": "/courses/2026/fall/M018-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:M019-01:0:514",
@@ -14994,7 +17054,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/514.json",
       "en": "/details-en/514.json"
     },
-    "routePath": "/courses/2026/fall/M019-01"
+    "routePath": "/courses/2026/fall/M019-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:M020-01:0:515",
@@ -15023,7 +17087,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/515.json",
       "en": "/details-en/515.json"
     },
-    "routePath": "/courses/2026/fall/M020-01"
+    "routePath": "/courses/2026/fall/M020-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:M021-01:0:516",
@@ -15052,7 +17120,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/516.json",
       "en": "/details-en/516.json"
     },
-    "routePath": "/courses/2026/fall/M021-01"
+    "routePath": "/courses/2026/fall/M021-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:M022-01:0:517",
@@ -15081,7 +17153,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/517.json",
       "en": "/details-en/517.json"
     },
-    "routePath": "/courses/2026/fall/M022-01"
+    "routePath": "/courses/2026/fall/M022-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:M023-01:0:518",
@@ -15110,7 +17186,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/518.json",
       "en": "/details-en/518.json"
     },
-    "routePath": "/courses/2026/fall/M023-01"
+    "routePath": "/courses/2026/fall/M023-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:M101-01:0:519",
@@ -15139,7 +17219,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/519.json",
       "en": "/details-en/519.json"
     },
-    "routePath": "/courses/2026/spring/M101-01"
+    "routePath": "/courses/2026/spring/M101-01",
+    "credits": 1,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:M102-01:0:520",
@@ -15168,7 +17252,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/520.json",
       "en": "/details-en/520.json"
     },
-    "routePath": "/courses/2026/spring/M102-01"
+    "routePath": "/courses/2026/spring/M102-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:M103-01:0:521",
@@ -15197,7 +17285,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/521.json",
       "en": "/details-en/521.json"
     },
-    "routePath": "/courses/2026/spring/M103-01"
+    "routePath": "/courses/2026/spring/M103-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:M104-01:0:522",
@@ -15226,7 +17318,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/522.json",
       "en": "/details-en/522.json"
     },
-    "routePath": "/courses/2026/spring/M104-01"
+    "routePath": "/courses/2026/spring/M104-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:M105-01:0:523",
@@ -15255,7 +17351,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/523.json",
       "en": "/details-en/523.json"
     },
-    "routePath": "/courses/2026/spring/M105-01"
+    "routePath": "/courses/2026/spring/M105-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:M106-01:0:524",
@@ -15284,7 +17384,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/524.json",
       "en": "/details-en/524.json"
     },
-    "routePath": "/courses/2026/fall/M106-01"
+    "routePath": "/courses/2026/fall/M106-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:M107-01:0:525",
@@ -15313,7 +17417,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/525.json",
       "en": "/details-en/525.json"
     },
-    "routePath": "/courses/2026/fall/M107-01"
+    "routePath": "/courses/2026/fall/M107-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:M108-01:0:526",
@@ -15342,7 +17450,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/526.json",
       "en": "/details-en/526.json"
     },
-    "routePath": "/courses/2026/fall/M108-01"
+    "routePath": "/courses/2026/fall/M108-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:M109-01:0:527",
@@ -15371,7 +17483,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/527.json",
       "en": "/details-en/527.json"
     },
-    "routePath": "/courses/2026/spring/M109-01"
+    "routePath": "/courses/2026/spring/M109-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:M110-01:0:528",
@@ -15400,7 +17516,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/528.json",
       "en": "/details-en/528.json"
     },
-    "routePath": "/courses/2026/spring/M110-01"
+    "routePath": "/courses/2026/spring/M110-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:M111-01:0:529",
@@ -15429,7 +17549,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/529.json",
       "en": "/details-en/529.json"
     },
-    "routePath": "/courses/2026/spring/M111-01"
+    "routePath": "/courses/2026/spring/M111-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:M112-01:0:530",
@@ -15458,7 +17582,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/530.json",
       "en": "/details-en/530.json"
     },
-    "routePath": "/courses/2026/spring/M112-01"
+    "routePath": "/courses/2026/spring/M112-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:M113-01:0:531",
@@ -15487,7 +17615,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/531.json",
       "en": "/details-en/531.json"
     },
-    "routePath": "/courses/2026/spring/M113-01"
+    "routePath": "/courses/2026/spring/M113-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:M114-01:0:532",
@@ -15516,7 +17648,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/532.json",
       "en": "/details-en/532.json"
     },
-    "routePath": "/courses/2026/spring/M114-01"
+    "routePath": "/courses/2026/spring/M114-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:M115-01:0:533",
@@ -15545,7 +17681,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/533.json",
       "en": "/details-en/533.json"
     },
-    "routePath": "/courses/2026/fall/M115-01"
+    "routePath": "/courses/2026/fall/M115-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:M116-01:0:534",
@@ -15574,7 +17714,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/534.json",
       "en": "/details-en/534.json"
     },
-    "routePath": "/courses/2026/fall/M116-01"
+    "routePath": "/courses/2026/fall/M116-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:M117-01:0:535",
@@ -15603,7 +17747,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/535.json",
       "en": "/details-en/535.json"
     },
-    "routePath": "/courses/2026/fall/M117-01"
+    "routePath": "/courses/2026/fall/M117-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:M118-01:0:536",
@@ -15632,7 +17780,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/536.json",
       "en": "/details-en/536.json"
     },
-    "routePath": "/courses/2026/fall/M118-01"
+    "routePath": "/courses/2026/fall/M118-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:M119-01:0:537",
@@ -15661,7 +17813,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/537.json",
       "en": "/details-en/537.json"
     },
-    "routePath": "/courses/2026/fall/M119-01"
+    "routePath": "/courses/2026/fall/M119-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:M120-01:0:538",
@@ -15690,7 +17846,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/538.json",
       "en": "/details-en/538.json"
     },
-    "routePath": "/courses/2026/fall/M120-01"
+    "routePath": "/courses/2026/fall/M120-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:M942-01:0:539",
@@ -15719,7 +17879,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/539.json",
       "en": "/details-en/539.json"
     },
-    "routePath": "/courses/2026/fall/M942-01"
+    "routePath": "/courses/2026/fall/M942-01",
+    "credits": 1,
+    "courseType": "専門教育課程その他科目その他",
+    "creditCategory": "other",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:A018-01:0:540",
@@ -15748,7 +17912,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/540.json",
       "en": null
     },
-    "routePath": "/courses/2026/spring/A018-01"
+    "routePath": "/courses/2026/spring/A018-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:A021-01:0:541",
@@ -15777,7 +17945,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/541.json",
       "en": "/details-en/541.json"
     },
-    "routePath": "/courses/2026/spring/A021-01"
+    "routePath": "/courses/2026/spring/A021-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:A022-01:0:542",
@@ -15806,7 +17978,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/542.json",
       "en": "/details-en/542.json"
     },
-    "routePath": "/courses/2026/spring/A022-01"
+    "routePath": "/courses/2026/spring/A022-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:A023-01:0:543",
@@ -15835,7 +18011,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/543.json",
       "en": "/details-en/543.json"
     },
-    "routePath": "/courses/2026/spring/A023-01"
+    "routePath": "/courses/2026/spring/A023-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:A024-01:0:544",
@@ -15864,7 +18044,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/544.json",
       "en": "/details-en/544.json"
     },
-    "routePath": "/courses/2026/spring/A024-01"
+    "routePath": "/courses/2026/spring/A024-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:A025-01:0:545",
@@ -15893,7 +18077,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/545.json",
       "en": "/details-en/545.json"
     },
-    "routePath": "/courses/2026/spring/A025-01"
+    "routePath": "/courses/2026/spring/A025-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:A026-01:0:546",
@@ -15922,7 +18110,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/546.json",
       "en": "/details-en/546.json"
     },
-    "routePath": "/courses/2026/spring/A026-01"
+    "routePath": "/courses/2026/spring/A026-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:A027-01:0:547",
@@ -15951,7 +18143,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/547.json",
       "en": "/details-en/547.json"
     },
-    "routePath": "/courses/2026/spring/A027-01"
+    "routePath": "/courses/2026/spring/A027-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:A028-01:0:548",
@@ -15980,7 +18176,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/548.json",
       "en": "/details-en/548.json"
     },
-    "routePath": "/courses/2026/spring/A028-01"
+    "routePath": "/courses/2026/spring/A028-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:A029-01:0:549",
@@ -16009,7 +18209,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/549.json",
       "en": "/details-en/549.json"
     },
-    "routePath": "/courses/2026/fall/A029-01"
+    "routePath": "/courses/2026/fall/A029-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:A030-01:0:550",
@@ -16038,7 +18242,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/550.json",
       "en": "/details-en/550.json"
     },
-    "routePath": "/courses/2026/fall/A030-01"
+    "routePath": "/courses/2026/fall/A030-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:A031-01:0:551",
@@ -16067,7 +18275,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/551.json",
       "en": "/details-en/551.json"
     },
-    "routePath": "/courses/2026/fall/A031-01"
+    "routePath": "/courses/2026/fall/A031-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:A032-01:0:552",
@@ -16096,7 +18308,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/552.json",
       "en": "/details-en/552.json"
     },
-    "routePath": "/courses/2026/fall/A032-01"
+    "routePath": "/courses/2026/fall/A032-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:A033-01:0:553",
@@ -16125,7 +18341,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/553.json",
       "en": "/details-en/553.json"
     },
-    "routePath": "/courses/2026/fall/A033-01"
+    "routePath": "/courses/2026/fall/A033-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:A034-01:0:554",
@@ -16154,7 +18374,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/554.json",
       "en": "/details-en/554.json"
     },
-    "routePath": "/courses/2026/fall/A034-01"
+    "routePath": "/courses/2026/fall/A034-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:A035-01:0:555",
@@ -16183,7 +18407,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/555.json",
       "en": "/details-en/555.json"
     },
-    "routePath": "/courses/2026/fall/A035-01"
+    "routePath": "/courses/2026/fall/A035-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:A036-01:0:556",
@@ -16212,7 +18440,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/556.json",
       "en": "/details-en/556.json"
     },
-    "routePath": "/courses/2026/spring/A036-01"
+    "routePath": "/courses/2026/spring/A036-01",
+    "credits": 3,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:A037-01:0:557",
@@ -16241,7 +18473,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/557.json",
       "en": "/details-en/557.json"
     },
-    "routePath": "/courses/2026/fall/A037-01"
+    "routePath": "/courses/2026/fall/A037-01",
+    "credits": 3,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:A038-01:0:558",
@@ -16270,7 +18506,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/558.json",
       "en": "/details-en/558.json"
     },
-    "routePath": "/courses/2026/spring/A038-01"
+    "routePath": "/courses/2026/spring/A038-01",
+    "credits": 3,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:A039-01:0:559",
@@ -16299,7 +18539,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/559.json",
       "en": "/details-en/559.json"
     },
-    "routePath": "/courses/2026/fall/A039-01"
+    "routePath": "/courses/2026/fall/A039-01",
+    "credits": 3,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:A901-01:0:560",
@@ -16328,7 +18572,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/560.json",
       "en": "/details-en/560.json"
     },
-    "routePath": "/courses/2026/fall/A901-01"
+    "routePath": "/courses/2026/fall/A901-01",
+    "credits": 1,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:A911-01:0:561",
@@ -16357,7 +18605,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/561.json",
       "en": "/details-en/561.json"
     },
-    "routePath": "/courses/2026/fall/A911-01"
+    "routePath": "/courses/2026/fall/A911-01",
+    "credits": 1,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:full-year:A921-02:0:562",
@@ -16386,7 +18638,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/562.json",
       "en": "/details-en/562.json"
     },
-    "routePath": "/courses/2026/full-year/A921-02"
+    "routePath": "/courses/2026/full-year/A921-02",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:full-year:A921-03:0:563",
@@ -16415,7 +18671,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/563.json",
       "en": "/details-en/563.json"
     },
-    "routePath": "/courses/2026/full-year/A921-03"
+    "routePath": "/courses/2026/full-year/A921-03",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:A921-04:0:564",
@@ -16444,7 +18704,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/564.json",
       "en": "/details-en/564.json"
     },
-    "routePath": "/courses/2026/full-year/A921-04"
+    "routePath": "/courses/2026/full-year/A921-04",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:A921-05:0:565",
@@ -16473,7 +18737,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/565.json",
       "en": "/details-en/565.json"
     },
-    "routePath": "/courses/2026/full-year/A921-05"
+    "routePath": "/courses/2026/full-year/A921-05",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:full-year:A921-06:0:566",
@@ -16502,7 +18770,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/566.json",
       "en": "/details-en/566.json"
     },
-    "routePath": "/courses/2026/full-year/A921-06"
+    "routePath": "/courses/2026/full-year/A921-06",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:A921-07:0:567",
@@ -16531,7 +18803,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/567.json",
       "en": "/details-en/567.json"
     },
-    "routePath": "/courses/2026/full-year/A921-07"
+    "routePath": "/courses/2026/full-year/A921-07",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:A921-08:0:568",
@@ -16560,7 +18836,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/568.json",
       "en": "/details-en/568.json"
     },
-    "routePath": "/courses/2026/full-year/A921-08"
+    "routePath": "/courses/2026/full-year/A921-08",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:full-year:A921-09:0:569",
@@ -16589,7 +18869,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/569.json",
       "en": "/details-en/569.json"
     },
-    "routePath": "/courses/2026/full-year/A921-09"
+    "routePath": "/courses/2026/full-year/A921-09",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:full-year:A921-12:0:570",
@@ -16618,7 +18902,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/570.json",
       "en": "/details-en/570.json"
     },
-    "routePath": "/courses/2026/full-year/A921-12"
+    "routePath": "/courses/2026/full-year/A921-12",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:A921-14:0:571",
@@ -16647,7 +18935,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/571.json",
       "en": "/details-en/571.json"
     },
-    "routePath": "/courses/2026/full-year/A921-14"
+    "routePath": "/courses/2026/full-year/A921-14",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:full-year:A921-15:0:572",
@@ -16676,7 +18968,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/572.json",
       "en": "/details-en/572.json"
     },
-    "routePath": "/courses/2026/full-year/A921-15"
+    "routePath": "/courses/2026/full-year/A921-15",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:full-year:A921-16:0:573",
@@ -16705,7 +19001,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/573.json",
       "en": "/details-en/573.json"
     },
-    "routePath": "/courses/2026/full-year/A921-16"
+    "routePath": "/courses/2026/full-year/A921-16",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:full-year:A921-17:0:574",
@@ -16734,7 +19034,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/574.json",
       "en": "/details-en/574.json"
     },
-    "routePath": "/courses/2026/full-year/A921-17"
+    "routePath": "/courses/2026/full-year/A921-17",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:A921-18:0:575",
@@ -16763,7 +19067,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/575.json",
       "en": "/details-en/575.json"
     },
-    "routePath": "/courses/2026/full-year/A921-18"
+    "routePath": "/courses/2026/full-year/A921-18",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:full-year:A921-19:0:576",
@@ -16792,7 +19100,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/576.json",
       "en": "/details-en/576.json"
     },
-    "routePath": "/courses/2026/full-year/A921-19"
+    "routePath": "/courses/2026/full-year/A921-19",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:A921-20:0:577",
@@ -16821,7 +19133,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/577.json",
       "en": "/details-en/577.json"
     },
-    "routePath": "/courses/2026/full-year/A921-20"
+    "routePath": "/courses/2026/full-year/A921-20",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:A921-21:0:578",
@@ -16850,7 +19166,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/578.json",
       "en": "/details-en/578.json"
     },
-    "routePath": "/courses/2026/full-year/A921-21"
+    "routePath": "/courses/2026/full-year/A921-21",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:A921-22:0:579",
@@ -16879,7 +19199,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/579.json",
       "en": "/details-en/579.json"
     },
-    "routePath": "/courses/2026/full-year/A921-22"
+    "routePath": "/courses/2026/full-year/A921-22",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:A921-23:0:580",
@@ -16908,7 +19232,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/580.json",
       "en": "/details-en/580.json"
     },
-    "routePath": "/courses/2026/full-year/A921-23"
+    "routePath": "/courses/2026/full-year/A921-23",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:A921-24:0:581",
@@ -16937,7 +19265,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/581.json",
       "en": "/details-en/581.json"
     },
-    "routePath": "/courses/2026/full-year/A921-24"
+    "routePath": "/courses/2026/full-year/A921-24",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:A921-25:0:582",
@@ -16966,7 +19298,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/582.json",
       "en": "/details-en/582.json"
     },
-    "routePath": "/courses/2026/full-year/A921-25"
+    "routePath": "/courses/2026/full-year/A921-25",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:A921-26:0:583",
@@ -16995,7 +19331,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/583.json",
       "en": "/details-en/583.json"
     },
-    "routePath": "/courses/2026/full-year/A921-26"
+    "routePath": "/courses/2026/full-year/A921-26",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:A941-01:0:584",
@@ -17024,7 +19364,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/584.json",
       "en": "/details-en/584.json"
     },
-    "routePath": "/courses/2026/spring/A941-01"
+    "routePath": "/courses/2026/spring/A941-01",
+    "credits": 1,
+    "courseType": "専門教育課程その他科目その他",
+    "creditCategory": "other",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:A951-01:0:585",
@@ -17053,7 +19397,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/585.json",
       "en": "/details-en/585.json"
     },
-    "routePath": "/courses/2026/fall/A951-01"
+    "routePath": "/courses/2026/fall/A951-01",
+    "credits": 1,
+    "courseType": "専門教育課程その他科目その他",
+    "creditCategory": "other",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:C001-01:0:586",
@@ -17082,7 +19430,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/586.json",
       "en": "/details-en/586.json"
     },
-    "routePath": "/courses/2026/spring/C001-01"
+    "routePath": "/courses/2026/spring/C001-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:C002-01:0:587",
@@ -17111,7 +19463,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/587.json",
       "en": "/details-en/587.json"
     },
-    "routePath": "/courses/2026/spring/C002-01"
+    "routePath": "/courses/2026/spring/C002-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:C003-01:0:588",
@@ -17140,7 +19496,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/588.json",
       "en": "/details-en/588.json"
     },
-    "routePath": "/courses/2026/spring/C003-01"
+    "routePath": "/courses/2026/spring/C003-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:C004-01:0:589",
@@ -17169,7 +19529,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/589.json",
       "en": "/details-en/589.json"
     },
-    "routePath": "/courses/2026/fall/C004-01"
+    "routePath": "/courses/2026/fall/C004-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:C005-01:0:590",
@@ -17198,7 +19562,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/590.json",
       "en": "/details-en/590.json"
     },
-    "routePath": "/courses/2026/fall/C005-01"
+    "routePath": "/courses/2026/fall/C005-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:C006-01:0:591",
@@ -17227,7 +19595,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/591.json",
       "en": "/details-en/591.json"
     },
-    "routePath": "/courses/2026/fall/C006-01"
+    "routePath": "/courses/2026/fall/C006-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:C007-01:0:592",
@@ -17256,7 +19628,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/592.json",
       "en": "/details-en/592.json"
     },
-    "routePath": "/courses/2026/fall/C007-01"
+    "routePath": "/courses/2026/fall/C007-01",
+    "credits": 1,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:C008-01:0:593",
@@ -17285,7 +19661,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/593.json",
       "en": "/details-en/593.json"
     },
-    "routePath": "/courses/2026/fall/C008-01"
+    "routePath": "/courses/2026/fall/C008-01",
+    "credits": 1,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:C961-01:0:594",
@@ -17314,7 +19694,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/594.json",
       "en": "/details-en/594.json"
     },
-    "routePath": "/courses/2026/fall/C961-01"
+    "routePath": "/courses/2026/fall/C961-01",
+    "credits": 2,
+    "courseType": "専門教育課程その他科目その他",
+    "creditCategory": "other",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:C101-01:0:595",
@@ -17343,7 +19727,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/595.json",
       "en": "/details-en/595.json"
     },
-    "routePath": "/courses/2026/spring/C101-01"
+    "routePath": "/courses/2026/spring/C101-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:C102-01:0:596",
@@ -17372,7 +19760,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/596.json",
       "en": "/details-en/596.json"
     },
-    "routePath": "/courses/2026/spring/C102-01"
+    "routePath": "/courses/2026/spring/C102-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:C103-01:0:597",
@@ -17401,7 +19793,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/597.json",
       "en": "/details-en/597.json"
     },
-    "routePath": "/courses/2026/spring/C103-01"
+    "routePath": "/courses/2026/spring/C103-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:C104-01:0:598",
@@ -17430,7 +19826,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/598.json",
       "en": "/details-en/598.json"
     },
-    "routePath": "/courses/2026/fall/C104-01"
+    "routePath": "/courses/2026/fall/C104-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:C105-01:0:599",
@@ -17459,7 +19859,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/599.json",
       "en": "/details-en/599.json"
     },
-    "routePath": "/courses/2026/fall/C105-01"
+    "routePath": "/courses/2026/fall/C105-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:C106-01:0:600",
@@ -17488,7 +19892,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/600.json",
       "en": "/details-en/600.json"
     },
-    "routePath": "/courses/2026/fall/C106-01"
+    "routePath": "/courses/2026/fall/C106-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:C107-01:0:601",
@@ -17517,7 +19925,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/601.json",
       "en": "/details-en/601.json"
     },
-    "routePath": "/courses/2026/fall/C107-01"
+    "routePath": "/courses/2026/fall/C107-01",
+    "credits": 1,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:C108-01:0:602",
@@ -17546,7 +19958,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/602.json",
       "en": "/details-en/602.json"
     },
-    "routePath": "/courses/2026/fall/C108-01"
+    "routePath": "/courses/2026/fall/C108-01",
+    "credits": 1,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:C971-01:0:603",
@@ -17575,7 +19991,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/603.json",
       "en": "/details-en/603.json"
     },
-    "routePath": "/courses/2026/fall/C971-01"
+    "routePath": "/courses/2026/fall/C971-01",
+    "credits": 2,
+    "courseType": "専門教育課程その他科目その他",
+    "creditCategory": "other",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:C201-01:0:604",
@@ -17604,7 +20024,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/604.json",
       "en": "/details-en/604.json"
     },
-    "routePath": "/courses/2026/spring/C201-01"
+    "routePath": "/courses/2026/spring/C201-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:C202-01:0:605",
@@ -17633,7 +20057,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/605.json",
       "en": "/details-en/605.json"
     },
-    "routePath": "/courses/2026/spring/C202-01"
+    "routePath": "/courses/2026/spring/C202-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:C203-01:0:606",
@@ -17662,7 +20090,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/606.json",
       "en": "/details-en/606.json"
     },
-    "routePath": "/courses/2026/spring/C203-01"
+    "routePath": "/courses/2026/spring/C203-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:C204-01:0:607",
@@ -17691,7 +20123,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/607.json",
       "en": "/details-en/607.json"
     },
-    "routePath": "/courses/2026/spring/C204-01"
+    "routePath": "/courses/2026/spring/C204-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:C205-01:0:608",
@@ -17720,7 +20156,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/608.json",
       "en": "/details-en/608.json"
     },
-    "routePath": "/courses/2026/spring/C205-01"
+    "routePath": "/courses/2026/spring/C205-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:C205-01:0:609",
@@ -17749,7 +20189,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/609.json",
       "en": "/details-en/609.json"
     },
-    "routePath": "/courses/2026/fall/C205-01"
+    "routePath": "/courses/2026/fall/C205-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:C206-01:0:610",
@@ -17778,7 +20222,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/610.json",
       "en": "/details-en/610.json"
     },
-    "routePath": "/courses/2026/fall/C206-01"
+    "routePath": "/courses/2026/fall/C206-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:C207-01:0:611",
@@ -17807,7 +20255,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/611.json",
       "en": "/details-en/611.json"
     },
-    "routePath": "/courses/2026/fall/C207-01"
+    "routePath": "/courses/2026/fall/C207-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:C208-01:0:612",
@@ -17836,7 +20288,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/612.json",
       "en": "/details-en/612.json"
     },
-    "routePath": "/courses/2026/fall/C208-01"
+    "routePath": "/courses/2026/fall/C208-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:C209-01:0:613",
@@ -17865,7 +20321,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/613.json",
       "en": "/details-en/613.json"
     },
-    "routePath": "/courses/2026/fall/C209-01"
+    "routePath": "/courses/2026/fall/C209-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:C007-01:0:614",
@@ -17894,7 +20354,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/614.json",
       "en": "/details-en/614.json"
     },
-    "routePath": "/courses/2026/spring/C007-01"
+    "routePath": "/courses/2026/spring/C007-01",
+    "credits": 1,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:C008-01:0:615",
@@ -17923,7 +20387,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/615.json",
       "en": "/details-en/615.json"
     },
-    "routePath": "/courses/2026/spring/C008-01"
+    "routePath": "/courses/2026/spring/C008-01",
+    "credits": 1,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:C009-01:0:616",
@@ -17952,7 +20420,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/616.json",
       "en": "/details-en/616.json"
     },
-    "routePath": "/courses/2026/spring/C009-01"
+    "routePath": "/courses/2026/spring/C009-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:C010-01:0:617",
@@ -17981,7 +20453,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/617.json",
       "en": "/details-en/617.json"
     },
-    "routePath": "/courses/2026/spring/C010-01"
+    "routePath": "/courses/2026/spring/C010-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:C011-01:0:618",
@@ -18010,7 +20486,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/618.json",
       "en": "/details-en/618.json"
     },
-    "routePath": "/courses/2026/spring/C011-01"
+    "routePath": "/courses/2026/spring/C011-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:C012-01:0:619",
@@ -18039,7 +20519,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/619.json",
       "en": "/details-en/619.json"
     },
-    "routePath": "/courses/2026/spring/C012-01"
+    "routePath": "/courses/2026/spring/C012-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:C013-01:0:620",
@@ -18068,7 +20552,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/620.json",
       "en": "/details-en/620.json"
     },
-    "routePath": "/courses/2026/spring/C013-01"
+    "routePath": "/courses/2026/spring/C013-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:C014-01:0:621",
@@ -18097,7 +20585,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/621.json",
       "en": "/details-en/621.json"
     },
-    "routePath": "/courses/2026/fall/C014-01"
+    "routePath": "/courses/2026/fall/C014-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:C015-01:0:622",
@@ -18126,7 +20618,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/622.json",
       "en": "/details-en/622.json"
     },
-    "routePath": "/courses/2026/fall/C015-01"
+    "routePath": "/courses/2026/fall/C015-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:C016-01:0:623",
@@ -18155,7 +20651,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/623.json",
       "en": "/details-en/623.json"
     },
-    "routePath": "/courses/2026/fall/C016-01"
+    "routePath": "/courses/2026/fall/C016-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:C017-01:0:624",
@@ -18184,7 +20684,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/624.json",
       "en": "/details-en/624.json"
     },
-    "routePath": "/courses/2026/fall/C017-01"
+    "routePath": "/courses/2026/fall/C017-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:C018-01:0:625",
@@ -18213,7 +20717,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/625.json",
       "en": "/details-en/625.json"
     },
-    "routePath": "/courses/2026/fall/C018-01"
+    "routePath": "/courses/2026/fall/C018-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:C019-01:0:626",
@@ -18242,7 +20750,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/626.json",
       "en": "/details-en/626.json"
     },
-    "routePath": "/courses/2026/fall/C019-01"
+    "routePath": "/courses/2026/fall/C019-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:C107-01:0:627",
@@ -18271,7 +20783,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/627.json",
       "en": "/details-en/627.json"
     },
-    "routePath": "/courses/2026/spring/C107-01"
+    "routePath": "/courses/2026/spring/C107-01",
+    "credits": 1,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:C108-01:0:628",
@@ -18300,7 +20816,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/628.json",
       "en": "/details-en/628.json"
     },
-    "routePath": "/courses/2026/spring/C108-01"
+    "routePath": "/courses/2026/spring/C108-01",
+    "credits": 1,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:C109-01:0:629",
@@ -18329,7 +20849,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/629.json",
       "en": "/details-en/629.json"
     },
-    "routePath": "/courses/2026/spring/C109-01"
+    "routePath": "/courses/2026/spring/C109-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:C110-01:0:630",
@@ -18358,7 +20882,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/630.json",
       "en": "/details-en/630.json"
     },
-    "routePath": "/courses/2026/spring/C110-01"
+    "routePath": "/courses/2026/spring/C110-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:C111-01:0:631",
@@ -18387,7 +20915,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/631.json",
       "en": "/details-en/631.json"
     },
-    "routePath": "/courses/2026/spring/C111-01"
+    "routePath": "/courses/2026/spring/C111-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:C112-01:0:632",
@@ -18416,7 +20948,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/632.json",
       "en": "/details-en/632.json"
     },
-    "routePath": "/courses/2026/spring/C112-01"
+    "routePath": "/courses/2026/spring/C112-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:C113-01:0:633",
@@ -18445,7 +20981,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/633.json",
       "en": "/details-en/633.json"
     },
-    "routePath": "/courses/2026/spring/C113-01"
+    "routePath": "/courses/2026/spring/C113-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:C114-01:0:634",
@@ -18474,7 +21014,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/634.json",
       "en": "/details-en/634.json"
     },
-    "routePath": "/courses/2026/fall/C114-01"
+    "routePath": "/courses/2026/fall/C114-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:C115-01:0:635",
@@ -18503,7 +21047,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/635.json",
       "en": "/details-en/635.json"
     },
-    "routePath": "/courses/2026/fall/C115-01"
+    "routePath": "/courses/2026/fall/C115-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:C116-01:0:636",
@@ -18532,7 +21080,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/636.json",
       "en": "/details-en/636.json"
     },
-    "routePath": "/courses/2026/fall/C116-01"
+    "routePath": "/courses/2026/fall/C116-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:C117-01:0:637",
@@ -18561,7 +21113,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/637.json",
       "en": "/details-en/637.json"
     },
-    "routePath": "/courses/2026/fall/C117-01"
+    "routePath": "/courses/2026/fall/C117-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:C118-01:0:638",
@@ -18590,7 +21146,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/638.json",
       "en": "/details-en/638.json"
     },
-    "routePath": "/courses/2026/fall/C118-01"
+    "routePath": "/courses/2026/fall/C118-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:C119-01:0:639",
@@ -18619,7 +21179,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/639.json",
       "en": "/details-en/639.json"
     },
-    "routePath": "/courses/2026/fall/C119-01"
+    "routePath": "/courses/2026/fall/C119-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:C208-01:0:640",
@@ -18648,7 +21212,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/640.json",
       "en": "/details-en/640.json"
     },
-    "routePath": "/courses/2026/spring/C208-01"
+    "routePath": "/courses/2026/spring/C208-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:C210-01:0:641",
@@ -18677,7 +21245,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/641.json",
       "en": "/details-en/641.json"
     },
-    "routePath": "/courses/2026/spring/C210-01"
+    "routePath": "/courses/2026/spring/C210-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:C211-01:0:642",
@@ -18706,7 +21278,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/642.json",
       "en": "/details-en/642.json"
     },
-    "routePath": "/courses/2026/spring/C211-01"
+    "routePath": "/courses/2026/spring/C211-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:C212-01:0:643",
@@ -18735,7 +21311,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/643.json",
       "en": "/details-en/643.json"
     },
-    "routePath": "/courses/2026/spring/C212-01"
+    "routePath": "/courses/2026/spring/C212-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:C213-01:0:644",
@@ -18764,7 +21344,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/644.json",
       "en": "/details-en/644.json"
     },
-    "routePath": "/courses/2026/spring/C213-01"
+    "routePath": "/courses/2026/spring/C213-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:C214-01:0:645",
@@ -18793,7 +21377,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/645.json",
       "en": "/details-en/645.json"
     },
-    "routePath": "/courses/2026/spring/C214-01"
+    "routePath": "/courses/2026/spring/C214-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:C215-01:0:646",
@@ -18822,7 +21410,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/646.json",
       "en": "/details-en/646.json"
     },
-    "routePath": "/courses/2026/spring/C215-01"
+    "routePath": "/courses/2026/spring/C215-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:C216-01:0:647",
@@ -18851,7 +21443,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/647.json",
       "en": "/details-en/647.json"
     },
-    "routePath": "/courses/2026/fall/C216-01"
+    "routePath": "/courses/2026/fall/C216-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:C217-01:0:648",
@@ -18880,7 +21476,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/648.json",
       "en": "/details-en/648.json"
     },
-    "routePath": "/courses/2026/fall/C217-01"
+    "routePath": "/courses/2026/fall/C217-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:C218-01:0:649",
@@ -18909,7 +21509,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/649.json",
       "en": "/details-en/649.json"
     },
-    "routePath": "/courses/2026/fall/C218-01"
+    "routePath": "/courses/2026/fall/C218-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:C219-01:0:650",
@@ -18938,7 +21542,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/650.json",
       "en": "/details-en/650.json"
     },
-    "routePath": "/courses/2026/fall/C219-01"
+    "routePath": "/courses/2026/fall/C219-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:C220-01:0:651",
@@ -18967,7 +21575,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/651.json",
       "en": "/details-en/651.json"
     },
-    "routePath": "/courses/2026/fall/C220-01"
+    "routePath": "/courses/2026/fall/C220-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:C221-01:0:652",
@@ -18996,7 +21608,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/652.json",
       "en": "/details-en/652.json"
     },
-    "routePath": "/courses/2026/fall/C221-01"
+    "routePath": "/courses/2026/fall/C221-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:C222-01:0:653",
@@ -19025,7 +21641,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/653.json",
       "en": "/details-en/653.json"
     },
-    "routePath": "/courses/2026/fall/C222-01"
+    "routePath": "/courses/2026/fall/C222-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:C223-01:0:654",
@@ -19054,7 +21674,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/654.json",
       "en": "/details-en/654.json"
     },
-    "routePath": "/courses/2026/fall/C223-01"
+    "routePath": "/courses/2026/fall/C223-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:C943-01:0:655",
@@ -19083,7 +21707,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/655.json",
       "en": "/details-en/655.json"
     },
-    "routePath": "/courses/2026/fall/C943-01"
+    "routePath": "/courses/2026/fall/C943-01",
+    "credits": 1,
+    "courseType": "専門教育課程その他科目その他",
+    "creditCategory": "other",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:B006-01:0:656",
@@ -19112,7 +21740,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/656.json",
       "en": "/details-en/656.json"
     },
-    "routePath": "/courses/2026/fall/B006-01"
+    "routePath": "/courses/2026/fall/B006-01",
+    "credits": 1,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:B017-01:0:657",
@@ -19141,7 +21773,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/657.json",
       "en": "/details-en/657.json"
     },
-    "routePath": "/courses/2026/spring/B017-01"
+    "routePath": "/courses/2026/spring/B017-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:B018-01:0:658",
@@ -19170,7 +21806,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/658.json",
       "en": "/details-en/658.json"
     },
-    "routePath": "/courses/2026/spring/B018-01"
+    "routePath": "/courses/2026/spring/B018-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:B021-01:0:659",
@@ -19199,7 +21839,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/659.json",
       "en": "/details-en/659.json"
     },
-    "routePath": "/courses/2026/spring/B021-01"
+    "routePath": "/courses/2026/spring/B021-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:B022-01:0:660",
@@ -19228,7 +21872,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/660.json",
       "en": "/details-en/660.json"
     },
-    "routePath": "/courses/2026/fall/B022-01"
+    "routePath": "/courses/2026/fall/B022-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:B023-01:0:661",
@@ -19257,7 +21905,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/661.json",
       "en": "/details-en/661.json"
     },
-    "routePath": "/courses/2026/spring/B023-01"
+    "routePath": "/courses/2026/spring/B023-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:B024-01:0:662",
@@ -19286,7 +21938,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/662.json",
       "en": "/details-en/662.json"
     },
-    "routePath": "/courses/2026/fall/B024-01"
+    "routePath": "/courses/2026/fall/B024-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:B025-01:0:663",
@@ -19315,7 +21971,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/663.json",
       "en": "/details-en/663.json"
     },
-    "routePath": "/courses/2026/spring/B025-01"
+    "routePath": "/courses/2026/spring/B025-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:B026-01:0:664",
@@ -19344,7 +22004,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/664.json",
       "en": "/details-en/664.json"
     },
-    "routePath": "/courses/2026/fall/B026-01"
+    "routePath": "/courses/2026/fall/B026-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:B027-01:0:665",
@@ -19373,7 +22037,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/665.json",
       "en": "/details-en/665.json"
     },
-    "routePath": "/courses/2026/fall/B027-01"
+    "routePath": "/courses/2026/fall/B027-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:B028-01:0:666",
@@ -19402,7 +22070,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/666.json",
       "en": "/details-en/666.json"
     },
-    "routePath": "/courses/2026/fall/B028-01"
+    "routePath": "/courses/2026/fall/B028-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:B034-01:0:667",
@@ -19431,7 +22103,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/667.json",
       "en": "/details-en/667.json"
     },
-    "routePath": "/courses/2026/spring/B034-01"
+    "routePath": "/courses/2026/spring/B034-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:B035-01:0:668",
@@ -19460,7 +22136,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/668.json",
       "en": "/details-en/668.json"
     },
-    "routePath": "/courses/2026/spring/B035-01"
+    "routePath": "/courses/2026/spring/B035-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:B042-01:0:669",
@@ -19489,7 +22169,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/669.json",
       "en": "/details-en/669.json"
     },
-    "routePath": "/courses/2026/fall/B042-01"
+    "routePath": "/courses/2026/fall/B042-01",
+    "credits": 1,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:B043-01:0:670",
@@ -19518,7 +22202,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/670.json",
       "en": "/details-en/670.json"
     },
-    "routePath": "/courses/2026/fall/B043-01"
+    "routePath": "/courses/2026/fall/B043-01",
+    "credits": 1,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:B044-01:0:671",
@@ -19547,7 +22235,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/671.json",
       "en": "/details-en/671.json"
     },
-    "routePath": "/courses/2026/fall/B044-01"
+    "routePath": "/courses/2026/fall/B044-01",
+    "credits": 1,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:B045-01:0:672",
@@ -19576,7 +22268,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/672.json",
       "en": "/details-en/672.json"
     },
-    "routePath": "/courses/2026/spring/B045-01"
+    "routePath": "/courses/2026/spring/B045-01",
+    "credits": 1,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:B046-01:0:673",
@@ -19605,7 +22301,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/673.json",
       "en": "/details-en/673.json"
     },
-    "routePath": "/courses/2026/spring/B046-01"
+    "routePath": "/courses/2026/spring/B046-01",
+    "credits": 1,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:B047-01:0:674",
@@ -19634,7 +22334,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/674.json",
       "en": "/details-en/674.json"
     },
-    "routePath": "/courses/2026/spring/B047-01"
+    "routePath": "/courses/2026/spring/B047-01",
+    "credits": 1,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:B901-01:0:675",
@@ -19663,7 +22367,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/675.json",
       "en": "/details-en/675.json"
     },
-    "routePath": "/courses/2026/fall/B901-01"
+    "routePath": "/courses/2026/fall/B901-01",
+    "credits": 1,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:B911-01:0:676",
@@ -19692,7 +22400,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/676.json",
       "en": "/details-en/676.json"
     },
-    "routePath": "/courses/2026/fall/B911-01"
+    "routePath": "/courses/2026/fall/B911-01",
+    "credits": 1,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:full-year:B921-02:0:677",
@@ -19721,7 +22433,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/677.json",
       "en": "/details-en/677.json"
     },
-    "routePath": "/courses/2026/full-year/B921-02"
+    "routePath": "/courses/2026/full-year/B921-02",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:full-year:B921-03:0:678",
@@ -19750,7 +22466,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/678.json",
       "en": "/details-en/678.json"
     },
-    "routePath": "/courses/2026/full-year/B921-03"
+    "routePath": "/courses/2026/full-year/B921-03",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:B921-05:0:679",
@@ -19779,7 +22499,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/679.json",
       "en": "/details-en/679.json"
     },
-    "routePath": "/courses/2026/full-year/B921-05"
+    "routePath": "/courses/2026/full-year/B921-05",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:B921-06:0:680",
@@ -19808,7 +22532,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/680.json",
       "en": "/details-en/680.json"
     },
-    "routePath": "/courses/2026/full-year/B921-06"
+    "routePath": "/courses/2026/full-year/B921-06",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:B921-07:0:681",
@@ -19837,7 +22565,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/681.json",
       "en": "/details-en/681.json"
     },
-    "routePath": "/courses/2026/full-year/B921-07"
+    "routePath": "/courses/2026/full-year/B921-07",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:B921-08:0:682",
@@ -19866,7 +22598,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/682.json",
       "en": "/details-en/682.json"
     },
-    "routePath": "/courses/2026/full-year/B921-08"
+    "routePath": "/courses/2026/full-year/B921-08",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:full-year:B921-09:0:683",
@@ -19895,7 +22631,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/683.json",
       "en": "/details-en/683.json"
     },
-    "routePath": "/courses/2026/full-year/B921-09"
+    "routePath": "/courses/2026/full-year/B921-09",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:B921-10:0:684",
@@ -19924,7 +22664,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/684.json",
       "en": "/details-en/684.json"
     },
-    "routePath": "/courses/2026/full-year/B921-10"
+    "routePath": "/courses/2026/full-year/B921-10",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:B921-12:0:685",
@@ -19953,7 +22697,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/685.json",
       "en": "/details-en/685.json"
     },
-    "routePath": "/courses/2026/full-year/B921-12"
+    "routePath": "/courses/2026/full-year/B921-12",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:full-year:B921-13:0:686",
@@ -19982,7 +22730,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/686.json",
       "en": "/details-en/686.json"
     },
-    "routePath": "/courses/2026/full-year/B921-13"
+    "routePath": "/courses/2026/full-year/B921-13",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:B921-14:0:687",
@@ -20011,7 +22763,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/687.json",
       "en": "/details-en/687.json"
     },
-    "routePath": "/courses/2026/full-year/B921-14"
+    "routePath": "/courses/2026/full-year/B921-14",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:B921-15:0:688",
@@ -20040,7 +22796,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/688.json",
       "en": "/details-en/688.json"
     },
-    "routePath": "/courses/2026/full-year/B921-15"
+    "routePath": "/courses/2026/full-year/B921-15",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:B941-01:0:689",
@@ -20069,7 +22829,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/689.json",
       "en": "/details-en/689.json"
     },
-    "routePath": "/courses/2026/spring/B941-01"
+    "routePath": "/courses/2026/spring/B941-01",
+    "credits": 1,
+    "courseType": "専門教育課程その他科目その他",
+    "creditCategory": "other",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:B951-01:0:690",
@@ -20098,7 +22862,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/690.json",
       "en": "/details-en/690.json"
     },
-    "routePath": "/courses/2026/fall/B951-01"
+    "routePath": "/courses/2026/fall/B951-01",
+    "credits": 1,
+    "courseType": "専門教育課程その他科目その他",
+    "creditCategory": "other",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:B117-01:0:691",
@@ -20127,7 +22895,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/691.json",
       "en": "/details-en/691.json"
     },
-    "routePath": "/courses/2026/spring/B117-01"
+    "routePath": "/courses/2026/spring/B117-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:B118-01:0:692",
@@ -20156,7 +22928,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/692.json",
       "en": "/details-en/692.json"
     },
-    "routePath": "/courses/2026/spring/B118-01"
+    "routePath": "/courses/2026/spring/B118-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:B119-01:0:693",
@@ -20185,7 +22961,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/693.json",
       "en": "/details-en/693.json"
     },
-    "routePath": "/courses/2026/spring/B119-01"
+    "routePath": "/courses/2026/spring/B119-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:B120-01:0:694",
@@ -20214,7 +22994,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/694.json",
       "en": "/details-en/694.json"
     },
-    "routePath": "/courses/2026/spring/B120-01"
+    "routePath": "/courses/2026/spring/B120-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:B121-01:0:695",
@@ -20243,7 +23027,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/695.json",
       "en": "/details-en/695.json"
     },
-    "routePath": "/courses/2026/spring/B121-01"
+    "routePath": "/courses/2026/spring/B121-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:B122-01:0:696",
@@ -20272,7 +23060,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/696.json",
       "en": "/details-en/696.json"
     },
-    "routePath": "/courses/2026/spring/B122-01"
+    "routePath": "/courses/2026/spring/B122-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:B123-01:0:697",
@@ -20301,7 +23093,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/697.json",
       "en": "/details-en/697.json"
     },
-    "routePath": "/courses/2026/fall/B123-01"
+    "routePath": "/courses/2026/fall/B123-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:B124-01:0:698",
@@ -20330,7 +23126,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/698.json",
       "en": "/details-en/698.json"
     },
-    "routePath": "/courses/2026/fall/B124-01"
+    "routePath": "/courses/2026/fall/B124-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:B125-01:0:699",
@@ -20359,7 +23159,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/699.json",
       "en": "/details-en/699.json"
     },
-    "routePath": "/courses/2026/fall/B125-01"
+    "routePath": "/courses/2026/fall/B125-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:B126-01:0:700",
@@ -20388,7 +23192,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/700.json",
       "en": "/details-en/700.json"
     },
-    "routePath": "/courses/2026/fall/B126-01"
+    "routePath": "/courses/2026/fall/B126-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:B127-01:0:701",
@@ -20417,7 +23225,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/701.json",
       "en": "/details-en/701.json"
     },
-    "routePath": "/courses/2026/fall/B127-01"
+    "routePath": "/courses/2026/fall/B127-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:B128-01:0:702",
@@ -20446,7 +23258,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/702.json",
       "en": "/details-en/702.json"
     },
-    "routePath": "/courses/2026/spring/B128-01"
+    "routePath": "/courses/2026/spring/B128-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:B129-01:0:703",
@@ -20475,7 +23291,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/703.json",
       "en": "/details-en/703.json"
     },
-    "routePath": "/courses/2026/fall/B129-01"
+    "routePath": "/courses/2026/fall/B129-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:B132-01:0:704",
@@ -20504,7 +23324,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/704.json",
       "en": "/details-en/704.json"
     },
-    "routePath": "/courses/2026/spring/B132-01"
+    "routePath": "/courses/2026/spring/B132-01",
+    "credits": 3,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:B132-01:0:705",
@@ -20533,7 +23357,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/705.json",
       "en": "/details-en/705.json"
     },
-    "routePath": "/courses/2026/fall/B132-01"
+    "routePath": "/courses/2026/fall/B132-01",
+    "credits": 3,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:B133-01:0:706",
@@ -20562,7 +23390,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/706.json",
       "en": "/details-en/706.json"
     },
-    "routePath": "/courses/2026/spring/B133-01"
+    "routePath": "/courses/2026/spring/B133-01",
+    "credits": 3,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:B133-01:0:707",
@@ -20591,7 +23423,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/707.json",
       "en": "/details-en/707.json"
     },
-    "routePath": "/courses/2026/fall/B133-01"
+    "routePath": "/courses/2026/fall/B133-01",
+    "credits": 3,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:B902-01:0:708",
@@ -20620,7 +23456,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/708.json",
       "en": "/details-en/708.json"
     },
-    "routePath": "/courses/2026/fall/B902-01"
+    "routePath": "/courses/2026/fall/B902-01",
+    "credits": 1,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:B912-01:0:709",
@@ -20649,7 +23489,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/709.json",
       "en": "/details-en/709.json"
     },
-    "routePath": "/courses/2026/spring/B912-01"
+    "routePath": "/courses/2026/spring/B912-01",
+    "credits": 1,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:B922-07:0:710",
@@ -20678,7 +23522,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/710.json",
       "en": "/details-en/710.json"
     },
-    "routePath": "/courses/2026/full-year/B922-07"
+    "routePath": "/courses/2026/full-year/B922-07",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:full-year:B922-08:0:711",
@@ -20707,7 +23555,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/711.json",
       "en": "/details-en/711.json"
     },
-    "routePath": "/courses/2026/full-year/B922-08"
+    "routePath": "/courses/2026/full-year/B922-08",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:full-year:B922-11:0:712",
@@ -20736,7 +23588,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/712.json",
       "en": "/details-en/712.json"
     },
-    "routePath": "/courses/2026/full-year/B922-11"
+    "routePath": "/courses/2026/full-year/B922-11",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:B922-12:0:713",
@@ -20765,7 +23621,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/713.json",
       "en": "/details-en/713.json"
     },
-    "routePath": "/courses/2026/full-year/B922-12"
+    "routePath": "/courses/2026/full-year/B922-12",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:B922-14:0:714",
@@ -20794,7 +23654,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/714.json",
       "en": "/details-en/714.json"
     },
-    "routePath": "/courses/2026/full-year/B922-14"
+    "routePath": "/courses/2026/full-year/B922-14",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:B922-16:0:715",
@@ -20823,7 +23687,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/715.json",
       "en": "/details-en/715.json"
     },
-    "routePath": "/courses/2026/full-year/B922-16"
+    "routePath": "/courses/2026/full-year/B922-16",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:B922-17:0:716",
@@ -20852,7 +23720,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/716.json",
       "en": "/details-en/716.json"
     },
-    "routePath": "/courses/2026/full-year/B922-17"
+    "routePath": "/courses/2026/full-year/B922-17",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:full-year:B922-18:0:717",
@@ -20881,7 +23753,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/717.json",
       "en": "/details-en/717.json"
     },
-    "routePath": "/courses/2026/full-year/B922-18"
+    "routePath": "/courses/2026/full-year/B922-18",
+    "credits": 8,
+    "courseType": "専門教育課程専門プロジェクト科目専門プロジェクト",
+    "creditCategory": "specializedProject",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:B942-01:0:718",
@@ -20910,7 +23786,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/718.json",
       "en": "/details-en/718.json"
     },
-    "routePath": "/courses/2026/spring/B942-01"
+    "routePath": "/courses/2026/spring/B942-01",
+    "credits": 1,
+    "courseType": "専門教育課程その他科目その他",
+    "creditCategory": "other",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:B952-01:0:719",
@@ -20939,7 +23819,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/719.json",
       "en": "/details-en/719.json"
     },
-    "routePath": "/courses/2026/fall/B952-01"
+    "routePath": "/courses/2026/fall/B952-01",
+    "credits": 1,
+    "courseType": "専門教育課程その他科目その他",
+    "creditCategory": "other",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:B201-01:0:720",
@@ -20968,7 +23852,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/720.json",
       "en": "/details-en/720.json"
     },
-    "routePath": "/courses/2026/spring/B201-01"
+    "routePath": "/courses/2026/spring/B201-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:B202-01:0:721",
@@ -20997,7 +23885,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/721.json",
       "en": "/details-en/721.json"
     },
-    "routePath": "/courses/2026/spring/B202-01"
+    "routePath": "/courses/2026/spring/B202-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:B203-01:0:722",
@@ -21026,7 +23918,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/722.json",
       "en": "/details-en/722.json"
     },
-    "routePath": "/courses/2026/spring/B203-01"
+    "routePath": "/courses/2026/spring/B203-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:B204-01:0:723",
@@ -21055,7 +23951,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/723.json",
       "en": "/details-en/723.json"
     },
-    "routePath": "/courses/2026/spring/B204-01"
+    "routePath": "/courses/2026/spring/B204-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:B205-01:0:724",
@@ -21084,7 +23984,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/724.json",
       "en": "/details-en/724.json"
     },
-    "routePath": "/courses/2026/fall/B205-01"
+    "routePath": "/courses/2026/fall/B205-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:B206-01:0:725",
@@ -21113,7 +24017,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/725.json",
       "en": "/details-en/725.json"
     },
-    "routePath": "/courses/2026/fall/B206-01"
+    "routePath": "/courses/2026/fall/B206-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:B207-01:0:726",
@@ -21142,7 +24050,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/726.json",
       "en": "/details-en/726.json"
     },
-    "routePath": "/courses/2026/fall/B207-01"
+    "routePath": "/courses/2026/fall/B207-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:B208-01:0:727",
@@ -21171,7 +24083,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/727.json",
       "en": "/details-en/727.json"
     },
-    "routePath": "/courses/2026/spring/B208-01"
+    "routePath": "/courses/2026/spring/B208-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:B209-01:0:728",
@@ -21200,7 +24116,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/728.json",
       "en": "/details-en/728.json"
     },
-    "routePath": "/courses/2026/spring/B209-01"
+    "routePath": "/courses/2026/spring/B209-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:B210-01:0:729",
@@ -21229,7 +24149,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/729.json",
       "en": "/details-en/729.json"
     },
-    "routePath": "/courses/2026/spring/B210-01"
+    "routePath": "/courses/2026/spring/B210-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:B211-01:0:730",
@@ -21258,7 +24182,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/730.json",
       "en": "/details-en/730.json"
     },
-    "routePath": "/courses/2026/spring/B211-01"
+    "routePath": "/courses/2026/spring/B211-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:B212-01:0:731",
@@ -21287,7 +24215,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/731.json",
       "en": "/details-en/731.json"
     },
-    "routePath": "/courses/2026/fall/B212-01"
+    "routePath": "/courses/2026/fall/B212-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:B213-01:0:732",
@@ -21316,7 +24248,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/732.json",
       "en": "/details-en/732.json"
     },
-    "routePath": "/courses/2026/fall/B213-01"
+    "routePath": "/courses/2026/fall/B213-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:B214-01:0:733",
@@ -21345,7 +24281,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/733.json",
       "en": "/details-en/733.json"
     },
-    "routePath": "/courses/2026/fall/B214-01"
+    "routePath": "/courses/2026/fall/B214-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:B215-01:0:734",
@@ -21374,7 +24314,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/734.json",
       "en": "/details-en/734.json"
     },
-    "routePath": "/courses/2026/fall/B215-01"
+    "routePath": "/courses/2026/fall/B215-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:B216-01:0:735",
@@ -21403,7 +24347,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/735.json",
       "en": "/details-en/735.json"
     },
-    "routePath": "/courses/2026/spring/B216-01"
+    "routePath": "/courses/2026/spring/B216-01",
+    "credits": 1,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:B217-01:0:736",
@@ -21432,7 +24380,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/736.json",
       "en": "/details-en/736.json"
     },
-    "routePath": "/courses/2026/spring/B217-01"
+    "routePath": "/courses/2026/spring/B217-01",
+    "credits": 1,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:B218-01:0:737",
@@ -21461,7 +24413,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/737.json",
       "en": "/details-en/737.json"
     },
-    "routePath": "/courses/2026/spring/B218-01"
+    "routePath": "/courses/2026/spring/B218-01",
+    "credits": 1,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:B219-01:0:738",
@@ -21490,7 +24446,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/738.json",
       "en": "/details-en/738.json"
     },
-    "routePath": "/courses/2026/fall/B219-01"
+    "routePath": "/courses/2026/fall/B219-01",
+    "credits": 1,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:B220-01:0:739",
@@ -21519,7 +24479,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/739.json",
       "en": "/details-en/739.json"
     },
-    "routePath": "/courses/2026/fall/B220-01"
+    "routePath": "/courses/2026/fall/B220-01",
+    "credits": 1,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:B221-01:0:740",
@@ -21548,7 +24512,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/740.json",
       "en": "/details-en/740.json"
     },
-    "routePath": "/courses/2026/fall/B221-01"
+    "routePath": "/courses/2026/fall/B221-01",
+    "credits": 1,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:B943-01:0:741",
@@ -21577,7 +24545,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/741.json",
       "en": "/details-en/741.json"
     },
-    "routePath": "/courses/2026/fall/B943-01"
+    "routePath": "/courses/2026/fall/B943-01",
+    "credits": 1,
+    "courseType": "専門教育課程その他科目その他",
+    "creditCategory": "other",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:B301-01:0:742",
@@ -21606,7 +24578,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/742.json",
       "en": "/details-en/742.json"
     },
-    "routePath": "/courses/2026/spring/B301-01"
+    "routePath": "/courses/2026/spring/B301-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:B302-01:0:743",
@@ -21635,7 +24611,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/743.json",
       "en": "/details-en/743.json"
     },
-    "routePath": "/courses/2026/spring/B302-01"
+    "routePath": "/courses/2026/spring/B302-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:B303-01:0:744",
@@ -21664,7 +24644,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/744.json",
       "en": "/details-en/744.json"
     },
-    "routePath": "/courses/2026/spring/B303-01"
+    "routePath": "/courses/2026/spring/B303-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:B304-01:0:745",
@@ -21693,7 +24677,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/745.json",
       "en": "/details-en/745.json"
     },
-    "routePath": "/courses/2026/spring/B304-01"
+    "routePath": "/courses/2026/spring/B304-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:B305-01:0:746",
@@ -21722,7 +24710,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/746.json",
       "en": "/details-en/746.json"
     },
-    "routePath": "/courses/2026/fall/B305-01"
+    "routePath": "/courses/2026/fall/B305-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:B306-01:0:747",
@@ -21751,7 +24743,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/747.json",
       "en": "/details-en/747.json"
     },
-    "routePath": "/courses/2026/fall/B306-01"
+    "routePath": "/courses/2026/fall/B306-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:B307-01:0:748",
@@ -21780,7 +24776,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/748.json",
       "en": "/details-en/748.json"
     },
-    "routePath": "/courses/2026/fall/B307-01"
+    "routePath": "/courses/2026/fall/B307-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:B308-01:0:749",
@@ -21809,7 +24809,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/749.json",
       "en": "/details-en/749.json"
     },
-    "routePath": "/courses/2026/spring/B308-01"
+    "routePath": "/courses/2026/spring/B308-01",
+    "credits": 1,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:B309-01:0:750",
@@ -21838,7 +24842,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/750.json",
       "en": "/details-en/750.json"
     },
-    "routePath": "/courses/2026/spring/B309-01"
+    "routePath": "/courses/2026/spring/B309-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:B310-01:0:751",
@@ -21867,7 +24875,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/751.json",
       "en": "/details-en/751.json"
     },
-    "routePath": "/courses/2026/spring/B310-01"
+    "routePath": "/courses/2026/spring/B310-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:B311-01:0:752",
@@ -21896,7 +24908,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/752.json",
       "en": "/details-en/752.json"
     },
-    "routePath": "/courses/2026/spring/B311-01"
+    "routePath": "/courses/2026/spring/B311-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:B312-01:0:753",
@@ -21925,7 +24941,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/753.json",
       "en": "/details-en/753.json"
     },
-    "routePath": "/courses/2026/spring/B312-01"
+    "routePath": "/courses/2026/spring/B312-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:B313-01:0:754",
@@ -21954,7 +24974,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/754.json",
       "en": "/details-en/754.json"
     },
-    "routePath": "/courses/2026/spring/B313-01"
+    "routePath": "/courses/2026/spring/B313-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:B314-01:0:755",
@@ -21983,7 +25007,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/755.json",
       "en": "/details-en/755.json"
     },
-    "routePath": "/courses/2026/fall/B314-01"
+    "routePath": "/courses/2026/fall/B314-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:B315-01:0:756",
@@ -22012,7 +25040,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/756.json",
       "en": "/details-en/756.json"
     },
-    "routePath": "/courses/2026/fall/B315-01"
+    "routePath": "/courses/2026/fall/B315-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:B316-01:0:757",
@@ -22041,7 +25073,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/757.json",
       "en": "/details-en/757.json"
     },
-    "routePath": "/courses/2026/fall/B316-01"
+    "routePath": "/courses/2026/fall/B316-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:B317-01:0:758",
@@ -22070,7 +25106,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/758.json",
       "en": "/details-en/758.json"
     },
-    "routePath": "/courses/2026/spring/B317-01"
+    "routePath": "/courses/2026/spring/B317-01",
+    "credits": 3,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:B317-01:0:759",
@@ -22099,7 +25139,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/759.json",
       "en": "/details-en/759.json"
     },
-    "routePath": "/courses/2026/fall/B317-01"
+    "routePath": "/courses/2026/fall/B317-01",
+    "credits": 3,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:B318-01:0:760",
@@ -22128,7 +25172,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/760.json",
       "en": "/details-en/760.json"
     },
-    "routePath": "/courses/2026/spring/B318-01"
+    "routePath": "/courses/2026/spring/B318-01",
+    "credits": 3,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:B318-01:0:761",
@@ -22157,7 +25205,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/761.json",
       "en": "/details-en/761.json"
     },
-    "routePath": "/courses/2026/fall/B318-01"
+    "routePath": "/courses/2026/fall/B318-01",
+    "credits": 3,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:B944-01:0:762",
@@ -22186,7 +25238,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/762.json",
       "en": "/details-en/762.json"
     },
-    "routePath": "/courses/2026/fall/B944-01"
+    "routePath": "/courses/2026/fall/B944-01",
+    "credits": 1,
+    "courseType": "専門教育課程その他科目その他",
+    "creditCategory": "other",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:K001-01:0:763",
@@ -22215,7 +25271,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/763.json",
       "en": "/details-en/763.json"
     },
-    "routePath": "/courses/2026/spring/K001-01"
+    "routePath": "/courses/2026/spring/K001-01",
+    "credits": 1,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:K002-01:0:764",
@@ -22244,7 +25304,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/764.json",
       "en": "/details-en/764.json"
     },
-    "routePath": "/courses/2026/spring/K002-01"
+    "routePath": "/courses/2026/spring/K002-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:K003-01:0:765",
@@ -22273,7 +25337,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/765.json",
       "en": "/details-en/765.json"
     },
-    "routePath": "/courses/2026/spring/K003-01"
+    "routePath": "/courses/2026/spring/K003-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:K004-01:0:766",
@@ -22302,7 +25370,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/766.json",
       "en": "/details-en/766.json"
     },
-    "routePath": "/courses/2026/spring/K004-01"
+    "routePath": "/courses/2026/spring/K004-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:K005-01:0:767",
@@ -22331,7 +25403,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/767.json",
       "en": "/details-en/767.json"
     },
-    "routePath": "/courses/2026/spring/K005-01"
+    "routePath": "/courses/2026/spring/K005-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:K006-01:0:768",
@@ -22360,7 +25436,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/768.json",
       "en": "/details-en/768.json"
     },
-    "routePath": "/courses/2026/fall/K006-01"
+    "routePath": "/courses/2026/fall/K006-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:K007-01:0:769",
@@ -22389,7 +25469,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/769.json",
       "en": "/details-en/769.json"
     },
-    "routePath": "/courses/2026/fall/K007-01"
+    "routePath": "/courses/2026/fall/K007-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:K008-01:0:770",
@@ -22418,7 +25502,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/770.json",
       "en": "/details-en/770.json"
     },
-    "routePath": "/courses/2026/spring/K008-01"
+    "routePath": "/courses/2026/spring/K008-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:K009-01:0:771",
@@ -22447,7 +25535,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/771.json",
       "en": "/details-en/771.json"
     },
-    "routePath": "/courses/2026/spring/K009-01"
+    "routePath": "/courses/2026/spring/K009-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:K010-01:0:772",
@@ -22476,7 +25568,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/772.json",
       "en": "/details-en/772.json"
     },
-    "routePath": "/courses/2026/spring/K010-01"
+    "routePath": "/courses/2026/spring/K010-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:K011-01:0:773",
@@ -22505,7 +25601,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/773.json",
       "en": "/details-en/773.json"
     },
-    "routePath": "/courses/2026/spring/K011-01"
+    "routePath": "/courses/2026/spring/K011-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:K012-01:0:774",
@@ -22534,7 +25634,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/774.json",
       "en": "/details-en/774.json"
     },
-    "routePath": "/courses/2026/spring/K012-01"
+    "routePath": "/courses/2026/spring/K012-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:K013-01:0:775",
@@ -22563,7 +25667,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/775.json",
       "en": "/details-en/775.json"
     },
-    "routePath": "/courses/2026/spring/K013-01"
+    "routePath": "/courses/2026/spring/K013-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:K014-01:0:776",
@@ -22592,7 +25700,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/776.json",
       "en": "/details-en/776.json"
     },
-    "routePath": "/courses/2026/fall/K014-01"
+    "routePath": "/courses/2026/fall/K014-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:K015-01:0:777",
@@ -22621,7 +25733,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/777.json",
       "en": "/details-en/777.json"
     },
-    "routePath": "/courses/2026/fall/K015-01"
+    "routePath": "/courses/2026/fall/K015-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:K016-01:0:778",
@@ -22650,7 +25766,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/778.json",
       "en": "/details-en/778.json"
     },
-    "routePath": "/courses/2026/fall/K016-01"
+    "routePath": "/courses/2026/fall/K016-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:K017-01:0:779",
@@ -22679,7 +25799,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/779.json",
       "en": "/details-en/779.json"
     },
-    "routePath": "/courses/2026/fall/K017-01"
+    "routePath": "/courses/2026/fall/K017-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:K018-01:0:780",
@@ -22708,7 +25832,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/780.json",
       "en": "/details-en/780.json"
     },
-    "routePath": "/courses/2026/fall/K018-01"
+    "routePath": "/courses/2026/fall/K018-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:K019-01:0:781",
@@ -22737,7 +25865,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/781.json",
       "en": "/details-en/781.json"
     },
-    "routePath": "/courses/2026/fall/K019-01"
+    "routePath": "/courses/2026/fall/K019-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:K020-01:0:782",
@@ -22766,7 +25898,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/782.json",
       "en": "/details-en/782.json"
     },
-    "routePath": "/courses/2026/fall/K020-01"
+    "routePath": "/courses/2026/fall/K020-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:K021-01:0:783",
@@ -22795,7 +25931,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/783.json",
       "en": "/details-en/783.json"
     },
-    "routePath": "/courses/2026/fall/K021-01"
+    "routePath": "/courses/2026/fall/K021-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:K101-01:0:784",
@@ -22824,7 +25964,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/784.json",
       "en": "/details-en/784.json"
     },
-    "routePath": "/courses/2026/spring/K101-01"
+    "routePath": "/courses/2026/spring/K101-01",
+    "credits": 1,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:K102-01:0:785",
@@ -22853,7 +25997,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/785.json",
       "en": "/details-en/785.json"
     },
-    "routePath": "/courses/2026/spring/K102-01"
+    "routePath": "/courses/2026/spring/K102-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:K103-01:0:786",
@@ -22882,7 +26030,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/786.json",
       "en": "/details-en/786.json"
     },
-    "routePath": "/courses/2026/spring/K103-01"
+    "routePath": "/courses/2026/spring/K103-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:K104-01:0:787",
@@ -22911,7 +26063,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/787.json",
       "en": "/details-en/787.json"
     },
-    "routePath": "/courses/2026/spring/K104-01"
+    "routePath": "/courses/2026/spring/K104-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:K105-01:0:788",
@@ -22940,7 +26096,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/788.json",
       "en": "/details-en/788.json"
     },
-    "routePath": "/courses/2026/spring/K105-01"
+    "routePath": "/courses/2026/spring/K105-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:K106-01:0:789",
@@ -22969,7 +26129,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/789.json",
       "en": "/details-en/789.json"
     },
-    "routePath": "/courses/2026/fall/K106-01"
+    "routePath": "/courses/2026/fall/K106-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:K107-01:0:790",
@@ -22998,7 +26162,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/790.json",
       "en": "/details-en/790.json"
     },
-    "routePath": "/courses/2026/fall/K107-01"
+    "routePath": "/courses/2026/fall/K107-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:K108-01:0:791",
@@ -23027,7 +26195,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/791.json",
       "en": "/details-en/791.json"
     },
-    "routePath": "/courses/2026/spring/K108-01"
+    "routePath": "/courses/2026/spring/K108-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:K109-01:0:792",
@@ -23056,7 +26228,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/792.json",
       "en": "/details-en/792.json"
     },
-    "routePath": "/courses/2026/spring/K109-01"
+    "routePath": "/courses/2026/spring/K109-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:K110-01:0:793",
@@ -23085,7 +26261,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/793.json",
       "en": "/details-en/793.json"
     },
-    "routePath": "/courses/2026/spring/K110-01"
+    "routePath": "/courses/2026/spring/K110-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:K111-01:0:794",
@@ -23114,7 +26294,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/794.json",
       "en": "/details-en/794.json"
     },
-    "routePath": "/courses/2026/spring/K111-01"
+    "routePath": "/courses/2026/spring/K111-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:K112-01:0:795",
@@ -23143,7 +26327,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/795.json",
       "en": "/details-en/795.json"
     },
-    "routePath": "/courses/2026/spring/K112-01"
+    "routePath": "/courses/2026/spring/K112-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:K113-01:0:796",
@@ -23172,7 +26360,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/796.json",
       "en": "/details-en/796.json"
     },
-    "routePath": "/courses/2026/spring/K113-01"
+    "routePath": "/courses/2026/spring/K113-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:K114-01:0:797",
@@ -23201,7 +26393,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/797.json",
       "en": "/details-en/797.json"
     },
-    "routePath": "/courses/2026/fall/K114-01"
+    "routePath": "/courses/2026/fall/K114-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:K115-01:0:798",
@@ -23230,7 +26426,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/798.json",
       "en": "/details-en/798.json"
     },
-    "routePath": "/courses/2026/fall/K115-01"
+    "routePath": "/courses/2026/fall/K115-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:K116-01:0:799",
@@ -23259,7 +26459,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/799.json",
       "en": "/details-en/799.json"
     },
-    "routePath": "/courses/2026/fall/K116-01"
+    "routePath": "/courses/2026/fall/K116-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:K117-01:0:800",
@@ -23288,7 +26492,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/800.json",
       "en": "/details-en/800.json"
     },
-    "routePath": "/courses/2026/fall/K117-01"
+    "routePath": "/courses/2026/fall/K117-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:K118-01:0:801",
@@ -23317,7 +26525,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/801.json",
       "en": "/details-en/801.json"
     },
-    "routePath": "/courses/2026/fall/K118-01"
+    "routePath": "/courses/2026/fall/K118-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:K119-01:0:802",
@@ -23346,7 +26558,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/802.json",
       "en": "/details-en/802.json"
     },
-    "routePath": "/courses/2026/fall/K119-01"
+    "routePath": "/courses/2026/fall/K119-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:K120-01:0:803",
@@ -23375,7 +26591,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/803.json",
       "en": "/details-en/803.json"
     },
-    "routePath": "/courses/2026/fall/K120-01"
+    "routePath": "/courses/2026/fall/K120-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:K121-01:0:804",
@@ -23404,7 +26624,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/804.json",
       "en": "/details-en/804.json"
     },
-    "routePath": "/courses/2026/fall/K121-01"
+    "routePath": "/courses/2026/fall/K121-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:K201-01:0:805",
@@ -23433,7 +26657,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/805.json",
       "en": "/details-en/805.json"
     },
-    "routePath": "/courses/2026/spring/K201-01"
+    "routePath": "/courses/2026/spring/K201-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:K202-01:0:806",
@@ -23462,7 +26690,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/806.json",
       "en": "/details-en/806.json"
     },
-    "routePath": "/courses/2026/spring/K202-01"
+    "routePath": "/courses/2026/spring/K202-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:K203-01:0:807",
@@ -23491,7 +26723,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/807.json",
       "en": "/details-en/807.json"
     },
-    "routePath": "/courses/2026/spring/K203-01"
+    "routePath": "/courses/2026/spring/K203-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:K204-01:0:808",
@@ -23520,7 +26756,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/808.json",
       "en": "/details-en/808.json"
     },
-    "routePath": "/courses/2026/spring/K204-01"
+    "routePath": "/courses/2026/spring/K204-01",
+    "credits": 3,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:K205-01:0:809",
@@ -23549,7 +26789,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/809.json",
       "en": "/details-en/809.json"
     },
-    "routePath": "/courses/2026/fall/K205-01"
+    "routePath": "/courses/2026/fall/K205-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:K206-01:0:810",
@@ -23578,7 +26822,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/810.json",
       "en": "/details-en/810.json"
     },
-    "routePath": "/courses/2026/fall/K206-01"
+    "routePath": "/courses/2026/fall/K206-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:K207-01:0:811",
@@ -23607,7 +26855,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/811.json",
       "en": "/details-en/811.json"
     },
-    "routePath": "/courses/2026/fall/K207-01"
+    "routePath": "/courses/2026/fall/K207-01",
+    "credits": 1,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:K208-01:0:812",
@@ -23636,7 +26888,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/812.json",
       "en": "/details-en/812.json"
     },
-    "routePath": "/courses/2026/fall/K208-01"
+    "routePath": "/courses/2026/fall/K208-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:K209-01:0:813",
@@ -23665,7 +26921,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/813.json",
       "en": "/details-en/813.json"
     },
-    "routePath": "/courses/2026/spring/K209-01"
+    "routePath": "/courses/2026/spring/K209-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:K210-01:0:814",
@@ -23694,7 +26954,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/814.json",
       "en": "/details-en/814.json"
     },
-    "routePath": "/courses/2026/spring/K210-01"
+    "routePath": "/courses/2026/spring/K210-01",
+    "credits": 4,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:K211-01:0:815",
@@ -23723,7 +26987,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/815.json",
       "en": "/details-en/815.json"
     },
-    "routePath": "/courses/2026/spring/K211-01"
+    "routePath": "/courses/2026/spring/K211-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:K212-01:0:816",
@@ -23752,7 +27020,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/816.json",
       "en": "/details-en/816.json"
     },
-    "routePath": "/courses/2026/spring/K212-01"
+    "routePath": "/courses/2026/spring/K212-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:K213-01:0:817",
@@ -23781,7 +27053,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/817.json",
       "en": "/details-en/817.json"
     },
-    "routePath": "/courses/2026/spring/K213-01"
+    "routePath": "/courses/2026/spring/K213-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:K214-01:0:818",
@@ -23810,7 +27086,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/818.json",
       "en": "/details-en/818.json"
     },
-    "routePath": "/courses/2026/fall/K214-01"
+    "routePath": "/courses/2026/fall/K214-01",
+    "credits": 1,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:K215-01:0:819",
@@ -23839,7 +27119,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/819.json",
       "en": "/details-en/819.json"
     },
-    "routePath": "/courses/2026/fall/K215-01"
+    "routePath": "/courses/2026/fall/K215-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:K216-01:0:820",
@@ -23868,7 +27152,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/820.json",
       "en": "/details-en/820.json"
     },
-    "routePath": "/courses/2026/fall/K216-01"
+    "routePath": "/courses/2026/fall/K216-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:K217-01:0:821",
@@ -23897,7 +27185,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/821.json",
       "en": "/details-en/821.json"
     },
-    "routePath": "/courses/2026/fall/K217-01"
+    "routePath": "/courses/2026/fall/K217-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:K218-01:0:822",
@@ -23926,7 +27218,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/822.json",
       "en": "/details-en/822.json"
     },
-    "routePath": "/courses/2026/fall/K218-01"
+    "routePath": "/courses/2026/fall/K218-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:K219-01:0:823",
@@ -23955,7 +27251,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/823.json",
       "en": "/details-en/823.json"
     },
-    "routePath": "/courses/2026/fall/K219-01"
+    "routePath": "/courses/2026/fall/K219-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:K301-01:0:824",
@@ -23984,7 +27284,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/824.json",
       "en": "/details-en/824.json"
     },
-    "routePath": "/courses/2026/spring/K301-01"
+    "routePath": "/courses/2026/spring/K301-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:K302-01:0:825",
@@ -24013,7 +27317,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/825.json",
       "en": "/details-en/825.json"
     },
-    "routePath": "/courses/2026/spring/K302-01"
+    "routePath": "/courses/2026/spring/K302-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:K303-01:0:826",
@@ -24042,7 +27350,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/826.json",
       "en": "/details-en/826.json"
     },
-    "routePath": "/courses/2026/spring/K303-01"
+    "routePath": "/courses/2026/spring/K303-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:K304-01:0:827",
@@ -24071,7 +27383,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/827.json",
       "en": "/details-en/827.json"
     },
-    "routePath": "/courses/2026/spring/K304-01"
+    "routePath": "/courses/2026/spring/K304-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:K304-01:0:828",
@@ -24100,7 +27416,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/828.json",
       "en": "/details-en/828.json"
     },
-    "routePath": "/courses/2026/fall/K304-01"
+    "routePath": "/courses/2026/fall/K304-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:K305-01:0:829",
@@ -24129,7 +27449,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/829.json",
       "en": "/details-en/829.json"
     },
-    "routePath": "/courses/2026/spring/K305-01"
+    "routePath": "/courses/2026/spring/K305-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:K305-01:0:830",
@@ -24158,7 +27482,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/830.json",
       "en": "/details-en/830.json"
     },
-    "routePath": "/courses/2026/fall/K305-01"
+    "routePath": "/courses/2026/fall/K305-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:K306-01:0:831",
@@ -24187,7 +27515,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/831.json",
       "en": "/details-en/831.json"
     },
-    "routePath": "/courses/2026/fall/K306-01"
+    "routePath": "/courses/2026/fall/K306-01",
+    "credits": 4,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:K307-01:0:832",
@@ -24216,7 +27548,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/832.json",
       "en": "/details-en/832.json"
     },
-    "routePath": "/courses/2026/spring/K307-01"
+    "routePath": "/courses/2026/spring/K307-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:K307-01:0:833",
@@ -24245,7 +27581,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/833.json",
       "en": "/details-en/833.json"
     },
-    "routePath": "/courses/2026/fall/K307-01"
+    "routePath": "/courses/2026/fall/K307-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:K302-02:0:834",
@@ -24274,7 +27614,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/834.json",
       "en": "/details-en/834.json"
     },
-    "routePath": "/courses/2026/spring/K302-02"
+    "routePath": "/courses/2026/spring/K302-02",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:K308-01:0:835",
@@ -24303,7 +27647,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/835.json",
       "en": "/details-en/835.json"
     },
-    "routePath": "/courses/2026/spring/K308-01"
+    "routePath": "/courses/2026/spring/K308-01",
+    "credits": 1,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:K309-01:0:836",
@@ -24332,7 +27680,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/836.json",
       "en": "/details-en/836.json"
     },
-    "routePath": "/courses/2026/spring/K309-01"
+    "routePath": "/courses/2026/spring/K309-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:K310-01:0:837",
@@ -24361,7 +27713,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/837.json",
       "en": "/details-en/837.json"
     },
-    "routePath": "/courses/2026/spring/K310-01"
+    "routePath": "/courses/2026/spring/K310-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:K311-01:0:838",
@@ -24390,7 +27746,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/838.json",
       "en": "/details-en/838.json"
     },
-    "routePath": "/courses/2026/spring/K311-01"
+    "routePath": "/courses/2026/spring/K311-01",
+    "credits": 4,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:K312-01:0:839",
@@ -24419,7 +27779,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/839.json",
       "en": "/details-en/839.json"
     },
-    "routePath": "/courses/2026/spring/K312-01"
+    "routePath": "/courses/2026/spring/K312-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:K313-01:0:840",
@@ -24448,7 +27812,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/840.json",
       "en": "/details-en/840.json"
     },
-    "routePath": "/courses/2026/fall/K313-01"
+    "routePath": "/courses/2026/fall/K313-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:K314-01:0:841",
@@ -24477,7 +27845,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/841.json",
       "en": "/details-en/841.json"
     },
-    "routePath": "/courses/2026/fall/K314-01"
+    "routePath": "/courses/2026/fall/K314-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:K315-01:0:842",
@@ -24506,7 +27878,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/842.json",
       "en": "/details-en/842.json"
     },
-    "routePath": "/courses/2026/fall/K315-01"
+    "routePath": "/courses/2026/fall/K315-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:K316-01:0:843",
@@ -24535,7 +27911,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/843.json",
       "en": "/details-en/843.json"
     },
-    "routePath": "/courses/2026/fall/K316-01"
+    "routePath": "/courses/2026/fall/K316-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:K317-01:0:844",
@@ -24564,7 +27944,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/844.json",
       "en": "/details-en/844.json"
     },
-    "routePath": "/courses/2026/fall/K317-01"
+    "routePath": "/courses/2026/fall/K317-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:K318-01:0:845",
@@ -24593,7 +27977,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/845.json",
       "en": "/details-en/845.json"
     },
-    "routePath": "/courses/2026/fall/K318-01"
+    "routePath": "/courses/2026/fall/K318-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:K319-01:0:846",
@@ -24622,7 +28010,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/846.json",
       "en": "/details-en/846.json"
     },
-    "routePath": "/courses/2026/fall/K319-01"
+    "routePath": "/courses/2026/fall/K319-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:K320-01:0:847",
@@ -24651,7 +28043,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/847.json",
       "en": "/details-en/847.json"
     },
-    "routePath": "/courses/2026/fall/K320-01"
+    "routePath": "/courses/2026/fall/K320-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:K321-01:0:848",
@@ -24680,7 +28076,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/848.json",
       "en": "/details-en/848.json"
     },
-    "routePath": "/courses/2026/fall/K321-01"
+    "routePath": "/courses/2026/fall/K321-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:K402-02:0:849",
@@ -24709,7 +28109,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/849.json",
       "en": "/details-en/849.json"
     },
-    "routePath": "/courses/2026/spring/K402-02"
+    "routePath": "/courses/2026/spring/K402-02",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:K408-01:0:850",
@@ -24738,7 +28142,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/850.json",
       "en": "/details-en/850.json"
     },
-    "routePath": "/courses/2026/spring/K408-01"
+    "routePath": "/courses/2026/spring/K408-01",
+    "credits": 1,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:K409-01:0:851",
@@ -24767,7 +28175,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/851.json",
       "en": "/details-en/851.json"
     },
-    "routePath": "/courses/2026/spring/K409-01"
+    "routePath": "/courses/2026/spring/K409-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:K410-01:0:852",
@@ -24796,7 +28208,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/852.json",
       "en": "/details-en/852.json"
     },
-    "routePath": "/courses/2026/spring/K410-01"
+    "routePath": "/courses/2026/spring/K410-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:K411-01:0:853",
@@ -24825,7 +28241,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/853.json",
       "en": "/details-en/853.json"
     },
-    "routePath": "/courses/2026/spring/K411-01"
+    "routePath": "/courses/2026/spring/K411-01",
+    "credits": 4,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:K412-01:0:854",
@@ -24854,7 +28274,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/854.json",
       "en": "/details-en/854.json"
     },
-    "routePath": "/courses/2026/spring/K412-01"
+    "routePath": "/courses/2026/spring/K412-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:K413-01:0:855",
@@ -24883,7 +28307,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/855.json",
       "en": "/details-en/855.json"
     },
-    "routePath": "/courses/2026/fall/K413-01"
+    "routePath": "/courses/2026/fall/K413-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:K414-01:0:856",
@@ -24912,7 +28340,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/856.json",
       "en": "/details-en/856.json"
     },
-    "routePath": "/courses/2026/fall/K414-01"
+    "routePath": "/courses/2026/fall/K414-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:K415-01:0:857",
@@ -24941,7 +28373,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/857.json",
       "en": "/details-en/857.json"
     },
-    "routePath": "/courses/2026/fall/K415-01"
+    "routePath": "/courses/2026/fall/K415-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:K416-01:0:858",
@@ -24970,7 +28406,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/858.json",
       "en": "/details-en/858.json"
     },
-    "routePath": "/courses/2026/fall/K416-01"
+    "routePath": "/courses/2026/fall/K416-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:K417-01:0:859",
@@ -24999,7 +28439,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/859.json",
       "en": "/details-en/859.json"
     },
-    "routePath": "/courses/2026/fall/K417-01"
+    "routePath": "/courses/2026/fall/K417-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:K418-01:0:860",
@@ -25028,7 +28472,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/860.json",
       "en": "/details-en/860.json"
     },
-    "routePath": "/courses/2026/fall/K418-01"
+    "routePath": "/courses/2026/fall/K418-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:K419-01:0:861",
@@ -25057,7 +28505,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/861.json",
       "en": "/details-en/861.json"
     },
-    "routePath": "/courses/2026/fall/K419-01"
+    "routePath": "/courses/2026/fall/K419-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:K420-01:0:862",
@@ -25086,7 +28538,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/862.json",
       "en": "/details-en/862.json"
     },
-    "routePath": "/courses/2026/fall/K420-01"
+    "routePath": "/courses/2026/fall/K420-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:K421-01:0:863",
@@ -25115,7 +28571,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/863.json",
       "en": "/details-en/863.json"
     },
-    "routePath": "/courses/2026/fall/K421-01"
+    "routePath": "/courses/2026/fall/K421-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:K401-01:0:864",
@@ -25144,7 +28604,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/864.json",
       "en": "/details-en/864.json"
     },
-    "routePath": "/courses/2026/spring/K401-01"
+    "routePath": "/courses/2026/spring/K401-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:K402-01:0:865",
@@ -25173,7 +28637,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/865.json",
       "en": "/details-en/865.json"
     },
-    "routePath": "/courses/2026/spring/K402-01"
+    "routePath": "/courses/2026/spring/K402-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:K403-01:0:866",
@@ -25202,7 +28670,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/866.json",
       "en": "/details-en/866.json"
     },
-    "routePath": "/courses/2026/spring/K403-01"
+    "routePath": "/courses/2026/spring/K403-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:K404-01:0:867",
@@ -25231,7 +28703,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/867.json",
       "en": "/details-en/867.json"
     },
-    "routePath": "/courses/2026/spring/K404-01"
+    "routePath": "/courses/2026/spring/K404-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:K404-01:0:868",
@@ -25260,7 +28736,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/868.json",
       "en": "/details-en/868.json"
     },
-    "routePath": "/courses/2026/fall/K404-01"
+    "routePath": "/courses/2026/fall/K404-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:K405-01:0:869",
@@ -25289,7 +28769,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/869.json",
       "en": "/details-en/869.json"
     },
-    "routePath": "/courses/2026/spring/K405-01"
+    "routePath": "/courses/2026/spring/K405-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:K405-01:0:870",
@@ -25318,7 +28802,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/870.json",
       "en": "/details-en/870.json"
     },
-    "routePath": "/courses/2026/fall/K405-01"
+    "routePath": "/courses/2026/fall/K405-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:K406-01:0:871",
@@ -25347,7 +28835,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/871.json",
       "en": "/details-en/871.json"
     },
-    "routePath": "/courses/2026/fall/K406-01"
+    "routePath": "/courses/2026/fall/K406-01",
+    "credits": 4,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:K407-01:0:872",
@@ -25376,7 +28868,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/872.json",
       "en": "/details-en/872.json"
     },
-    "routePath": "/courses/2026/spring/K407-01"
+    "routePath": "/courses/2026/spring/K407-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:K407-01:0:873",
@@ -25405,7 +28901,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/873.json",
       "en": "/details-en/873.json"
     },
-    "routePath": "/courses/2026/fall/K407-01"
+    "routePath": "/courses/2026/fall/K407-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:K501-01:0:874",
@@ -25434,7 +28934,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/874.json",
       "en": "/details-en/874.json"
     },
-    "routePath": "/courses/2026/spring/K501-01"
+    "routePath": "/courses/2026/spring/K501-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:K502-01:0:875",
@@ -25463,7 +28967,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/875.json",
       "en": "/details-en/875.json"
     },
-    "routePath": "/courses/2026/spring/K502-01"
+    "routePath": "/courses/2026/spring/K502-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:K503-01:0:876",
@@ -25492,7 +29000,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/876.json",
       "en": "/details-en/876.json"
     },
-    "routePath": "/courses/2026/spring/K503-01"
+    "routePath": "/courses/2026/spring/K503-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:K504-01:0:877",
@@ -25521,7 +29033,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/877.json",
       "en": "/details-en/877.json"
     },
-    "routePath": "/courses/2026/spring/K504-01"
+    "routePath": "/courses/2026/spring/K504-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:K505-01:0:878",
@@ -25550,7 +29066,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/878.json",
       "en": "/details-en/878.json"
     },
-    "routePath": "/courses/2026/fall/K505-01"
+    "routePath": "/courses/2026/fall/K505-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:K506-01:0:879",
@@ -25579,7 +29099,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/879.json",
       "en": "/details-en/879.json"
     },
-    "routePath": "/courses/2026/fall/K506-01"
+    "routePath": "/courses/2026/fall/K506-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:K507-01:0:880",
@@ -25608,7 +29132,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/880.json",
       "en": "/details-en/880.json"
     },
-    "routePath": "/courses/2026/fall/K507-01"
+    "routePath": "/courses/2026/fall/K507-01",
+    "credits": 1,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:K508-01:0:881",
@@ -25637,7 +29165,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/881.json",
       "en": "/details-en/881.json"
     },
-    "routePath": "/courses/2026/fall/K508-01"
+    "routePath": "/courses/2026/fall/K508-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:K509-01:0:882",
@@ -25666,7 +29198,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/882.json",
       "en": "/details-en/882.json"
     },
-    "routePath": "/courses/2026/fall/K509-01"
+    "routePath": "/courses/2026/fall/K509-01",
+    "credits": 1,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:K510-01:0:883",
@@ -25695,7 +29231,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/883.json",
       "en": "/details-en/883.json"
     },
-    "routePath": "/courses/2026/spring/K510-01"
+    "routePath": "/courses/2026/spring/K510-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:K511-01:0:884",
@@ -25724,7 +29264,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/884.json",
       "en": "/details-en/884.json"
     },
-    "routePath": "/courses/2026/spring/K511-01"
+    "routePath": "/courses/2026/spring/K511-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:K512-01:0:885",
@@ -25753,7 +29297,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/885.json",
       "en": "/details-en/885.json"
     },
-    "routePath": "/courses/2026/spring/K512-01"
+    "routePath": "/courses/2026/spring/K512-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:K513-01:0:886",
@@ -25782,7 +29330,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/886.json",
       "en": "/details-en/886.json"
     },
-    "routePath": "/courses/2026/spring/K513-01"
+    "routePath": "/courses/2026/spring/K513-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:K514-01:0:887",
@@ -25811,7 +29363,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/887.json",
       "en": "/details-en/887.json"
     },
-    "routePath": "/courses/2026/fall/K514-01"
+    "routePath": "/courses/2026/fall/K514-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:K515-01:0:888",
@@ -25840,7 +29396,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/888.json",
       "en": "/details-en/888.json"
     },
-    "routePath": "/courses/2026/fall/K515-01"
+    "routePath": "/courses/2026/fall/K515-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:K516-01:0:889",
@@ -25869,7 +29429,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/889.json",
       "en": "/details-en/889.json"
     },
-    "routePath": "/courses/2026/fall/K516-01"
+    "routePath": "/courses/2026/fall/K516-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:K517-01:0:890",
@@ -25898,7 +29462,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/890.json",
       "en": "/details-en/890.json"
     },
-    "routePath": "/courses/2026/fall/K517-01"
+    "routePath": "/courses/2026/fall/K517-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:K946-01:0:891",
@@ -25927,7 +29495,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/891.json",
       "en": "/details-en/891.json"
     },
-    "routePath": "/courses/2026/fall/K946-01"
+    "routePath": "/courses/2026/fall/K946-01",
+    "credits": 1,
+    "courseType": "専門教育課程その他科目その他",
+    "creditCategory": "other",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:A101-01:0:892",
@@ -25956,7 +29528,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/892.json",
       "en": "/details-en/892.json"
     },
-    "routePath": "/courses/2026/spring/A101-01"
+    "routePath": "/courses/2026/spring/A101-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:A102-01:0:893",
@@ -25985,7 +29561,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/893.json",
       "en": "/details-en/893.json"
     },
-    "routePath": "/courses/2026/spring/A102-01"
+    "routePath": "/courses/2026/spring/A102-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:A103-01:0:894",
@@ -26014,7 +29594,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/894.json",
       "en": "/details-en/894.json"
     },
-    "routePath": "/courses/2026/spring/A103-01"
+    "routePath": "/courses/2026/spring/A103-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:A104-01:0:895",
@@ -26043,7 +29627,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/895.json",
       "en": "/details-en/895.json"
     },
-    "routePath": "/courses/2026/spring/A104-01"
+    "routePath": "/courses/2026/spring/A104-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:A105-01:0:896",
@@ -26072,7 +29660,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/896.json",
       "en": "/details-en/896.json"
     },
-    "routePath": "/courses/2026/fall/A105-01"
+    "routePath": "/courses/2026/fall/A105-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:A106-01:0:897",
@@ -26101,7 +29693,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/897.json",
       "en": "/details-en/897.json"
     },
-    "routePath": "/courses/2026/spring/A106-01"
+    "routePath": "/courses/2026/spring/A106-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:A106-01:0:898",
@@ -26130,7 +29726,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/898.json",
       "en": "/details-en/898.json"
     },
-    "routePath": "/courses/2026/fall/A106-01"
+    "routePath": "/courses/2026/fall/A106-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:A107-01:0:899",
@@ -26159,7 +29759,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/899.json",
       "en": "/details-en/899.json"
     },
-    "routePath": "/courses/2026/fall/A107-01"
+    "routePath": "/courses/2026/fall/A107-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:A108-01:0:900",
@@ -26188,7 +29792,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/900.json",
       "en": "/details-en/900.json"
     },
-    "routePath": "/courses/2026/fall/A108-01"
+    "routePath": "/courses/2026/fall/A108-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:A109-01:0:901",
@@ -26217,7 +29825,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/901.json",
       "en": "/details-en/901.json"
     },
-    "routePath": "/courses/2026/spring/A109-01"
+    "routePath": "/courses/2026/spring/A109-01",
+    "credits": 4,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:A110-01:0:902",
@@ -26246,7 +29858,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/902.json",
       "en": "/details-en/902.json"
     },
-    "routePath": "/courses/2026/spring/A110-01"
+    "routePath": "/courses/2026/spring/A110-01",
+    "credits": 1,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:A111-01:0:903",
@@ -26275,7 +29891,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/903.json",
       "en": "/details-en/903.json"
     },
-    "routePath": "/courses/2026/spring/A111-01"
+    "routePath": "/courses/2026/spring/A111-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:A112-01:0:904",
@@ -26304,7 +29924,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/904.json",
       "en": "/details-en/904.json"
     },
-    "routePath": "/courses/2026/spring/A112-01"
+    "routePath": "/courses/2026/spring/A112-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:A113-01:0:905",
@@ -26333,7 +29957,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/905.json",
       "en": "/details-en/905.json"
     },
-    "routePath": "/courses/2026/spring/A113-01"
+    "routePath": "/courses/2026/spring/A113-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:A114-01:0:906",
@@ -26362,7 +29990,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/906.json",
       "en": "/details-en/906.json"
     },
-    "routePath": "/courses/2026/spring/A114-01"
+    "routePath": "/courses/2026/spring/A114-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:A115-01:0:907",
@@ -26391,7 +30023,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/907.json",
       "en": "/details-en/907.json"
     },
-    "routePath": "/courses/2026/fall/A115-01"
+    "routePath": "/courses/2026/fall/A115-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:A116-01:0:908",
@@ -26420,7 +30056,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/908.json",
       "en": "/details-en/908.json"
     },
-    "routePath": "/courses/2026/fall/A116-01"
+    "routePath": "/courses/2026/fall/A116-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:A117-01:0:909",
@@ -26449,7 +30089,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/909.json",
       "en": "/details-en/909.json"
     },
-    "routePath": "/courses/2026/fall/A117-01"
+    "routePath": "/courses/2026/fall/A117-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:A118-01:0:910",
@@ -26478,7 +30122,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/910.json",
       "en": "/details-en/910.json"
     },
-    "routePath": "/courses/2026/fall/A118-01"
+    "routePath": "/courses/2026/fall/A118-01",
+    "credits": 4,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:A119-01:0:911",
@@ -26507,7 +30155,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/911.json",
       "en": "/details-en/911.json"
     },
-    "routePath": "/courses/2026/fall/A119-01"
+    "routePath": "/courses/2026/fall/A119-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:A120-01:0:912",
@@ -26536,7 +30188,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/912.json",
       "en": "/details-en/912.json"
     },
-    "routePath": "/courses/2026/fall/A120-01"
+    "routePath": "/courses/2026/fall/A120-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:A942-01:0:913",
@@ -26565,7 +30221,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/913.json",
       "en": "/details-en/913.json"
     },
-    "routePath": "/courses/2026/fall/A942-01"
+    "routePath": "/courses/2026/fall/A942-01",
+    "credits": 1,
+    "courseType": "専門教育課程その他科目その他",
+    "creditCategory": "other",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:A201-01:0:914",
@@ -26594,7 +30254,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/914.json",
       "en": "/details-en/914.json"
     },
-    "routePath": "/courses/2026/spring/A201-01"
+    "routePath": "/courses/2026/spring/A201-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:A202-01:0:915",
@@ -26623,7 +30287,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/915.json",
       "en": "/details-en/915.json"
     },
-    "routePath": "/courses/2026/spring/A202-01"
+    "routePath": "/courses/2026/spring/A202-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:A203-01:0:916",
@@ -26652,7 +30320,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/916.json",
       "en": "/details-en/916.json"
     },
-    "routePath": "/courses/2026/spring/A203-01"
+    "routePath": "/courses/2026/spring/A203-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:A204-01:0:917",
@@ -26681,7 +30353,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/917.json",
       "en": "/details-en/917.json"
     },
-    "routePath": "/courses/2026/spring/A204-01"
+    "routePath": "/courses/2026/spring/A204-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:A205-01:0:918",
@@ -26710,7 +30386,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/918.json",
       "en": "/details-en/918.json"
     },
-    "routePath": "/courses/2026/fall/A205-01"
+    "routePath": "/courses/2026/fall/A205-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:A206-01:0:919",
@@ -26739,7 +30419,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/919.json",
       "en": "/details-en/919.json"
     },
-    "routePath": "/courses/2026/spring/A206-01"
+    "routePath": "/courses/2026/spring/A206-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:A206-01:0:920",
@@ -26768,7 +30452,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/920.json",
       "en": "/details-en/920.json"
     },
-    "routePath": "/courses/2026/fall/A206-01"
+    "routePath": "/courses/2026/fall/A206-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:A207-01:0:921",
@@ -26797,7 +30485,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/921.json",
       "en": "/details-en/921.json"
     },
-    "routePath": "/courses/2026/fall/A207-01"
+    "routePath": "/courses/2026/fall/A207-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:A208-01:0:922",
@@ -26826,7 +30518,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/922.json",
       "en": "/details-en/922.json"
     },
-    "routePath": "/courses/2026/fall/A208-01"
+    "routePath": "/courses/2026/fall/A208-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:A209-01:0:923",
@@ -26855,7 +30551,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/923.json",
       "en": "/details-en/923.json"
     },
-    "routePath": "/courses/2026/spring/A209-01"
+    "routePath": "/courses/2026/spring/A209-01",
+    "credits": 4,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:A210-01:0:924",
@@ -26884,7 +30584,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/924.json",
       "en": "/details-en/924.json"
     },
-    "routePath": "/courses/2026/spring/A210-01"
+    "routePath": "/courses/2026/spring/A210-01",
+    "credits": 1,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:A211-01:0:925",
@@ -26913,7 +30617,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/925.json",
       "en": "/details-en/925.json"
     },
-    "routePath": "/courses/2026/spring/A211-01"
+    "routePath": "/courses/2026/spring/A211-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:A212-01:0:926",
@@ -26942,7 +30650,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/926.json",
       "en": "/details-en/926.json"
     },
-    "routePath": "/courses/2026/spring/A212-01"
+    "routePath": "/courses/2026/spring/A212-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:A213-01:0:927",
@@ -26971,7 +30683,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/927.json",
       "en": "/details-en/927.json"
     },
-    "routePath": "/courses/2026/spring/A213-01"
+    "routePath": "/courses/2026/spring/A213-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:A214-01:0:928",
@@ -27000,7 +30716,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/928.json",
       "en": "/details-en/928.json"
     },
-    "routePath": "/courses/2026/spring/A214-01"
+    "routePath": "/courses/2026/spring/A214-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:A215-01:0:929",
@@ -27029,7 +30749,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/929.json",
       "en": "/details-en/929.json"
     },
-    "routePath": "/courses/2026/fall/A215-01"
+    "routePath": "/courses/2026/fall/A215-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:A216-01:0:930",
@@ -27058,7 +30782,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/930.json",
       "en": "/details-en/930.json"
     },
-    "routePath": "/courses/2026/fall/A216-01"
+    "routePath": "/courses/2026/fall/A216-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:A217-01:0:931",
@@ -27087,7 +30815,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/931.json",
       "en": "/details-en/931.json"
     },
-    "routePath": "/courses/2026/fall/A217-01"
+    "routePath": "/courses/2026/fall/A217-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:A218-01:0:932",
@@ -27116,7 +30848,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/932.json",
       "en": "/details-en/932.json"
     },
-    "routePath": "/courses/2026/fall/A218-01"
+    "routePath": "/courses/2026/fall/A218-01",
+    "credits": 4,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:A219-01:0:933",
@@ -27145,7 +30881,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/933.json",
       "en": "/details-en/933.json"
     },
-    "routePath": "/courses/2026/fall/A219-01"
+    "routePath": "/courses/2026/fall/A219-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:A220-01:0:934",
@@ -27174,7 +30914,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/934.json",
       "en": "/details-en/934.json"
     },
-    "routePath": "/courses/2026/fall/A220-01"
+    "routePath": "/courses/2026/fall/A220-01",
+    "credits": 2,
+    "courseType": "専門教育課程専門科目専門",
+    "creditCategory": "specialized",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:A943-01:0:935",
@@ -27203,7 +30947,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/935.json",
       "en": "/details-en/935.json"
     },
-    "routePath": "/courses/2026/fall/A943-01"
+    "routePath": "/courses/2026/fall/A943-01",
+    "credits": 1,
+    "courseType": "専門教育課程その他科目その他",
+    "creditCategory": "other",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:G951-01:0:936",
@@ -27232,7 +30980,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/936.json",
       "en": "/details-en/936.json"
     },
-    "routePath": "/courses/2026/fall/G951-01"
+    "routePath": "/courses/2026/fall/G951-01",
+    "credits": 1,
+    "courseType": "専門教育課程その他科目その他",
+    "creditCategory": "other",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:G952-01:0:937",
@@ -27261,7 +31013,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/937.json",
       "en": "/details-en/937.json"
     },
-    "routePath": "/courses/2026/spring/G952-01"
+    "routePath": "/courses/2026/spring/G952-01",
+    "credits": 1,
+    "courseType": "専門教育課程その他科目その他",
+    "creditCategory": "other",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:G954-01:0:938",
@@ -27290,7 +31046,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/938.json",
       "en": "/details-en/938.json"
     },
-    "routePath": "/courses/2026/fall/G954-01"
+    "routePath": "/courses/2026/fall/G954-01",
+    "credits": 2,
+    "courseType": "専門教育課程その他科目その他",
+    "creditCategory": "other",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:G955-01:0:939",
@@ -27319,7 +31079,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/939.json",
       "en": "/details-en/939.json"
     },
-    "routePath": "/courses/2026/fall/G955-01"
+    "routePath": "/courses/2026/fall/G955-01",
+    "credits": 2,
+    "courseType": "専門教育課程その他科目その他",
+    "creditCategory": "other",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:G015-01:0:940",
@@ -27348,7 +31112,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/940.json",
       "en": "/details-en/940.json"
     },
-    "routePath": "/courses/2026/spring/G015-01"
+    "routePath": "/courses/2026/spring/G015-01",
+    "credits": 2,
+    "courseType": "(全課程からの提供)リベラルアーツ系科目文理横断",
+    "creditCategory": "humanities",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:G015-01:0:941",
@@ -27377,7 +31145,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/941.json",
       "en": "/details-en/941.json"
     },
-    "routePath": "/courses/2026/fall/G015-01"
+    "routePath": "/courses/2026/fall/G015-01",
+    "credits": 2,
+    "courseType": "(全課程からの提供)リベラルアーツ系科目文理横断",
+    "creditCategory": "humanities",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:G016-01:0:942",
@@ -27406,7 +31178,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/942.json",
       "en": "/details-en/942.json"
     },
-    "routePath": "/courses/2026/fall/G016-01"
+    "routePath": "/courses/2026/fall/G016-01",
+    "credits": 2,
+    "courseType": "(全課程からの提供)リベラルアーツ系科目文理横断",
+    "creditCategory": "humanities",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:G017-01:0:943",
@@ -27435,7 +31211,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/943.json",
       "en": "/details-en/943.json"
     },
-    "routePath": "/courses/2026/spring/G017-01"
+    "routePath": "/courses/2026/spring/G017-01",
+    "credits": 2,
+    "courseType": "(全課程からの提供)リベラルアーツ系科目文理横断",
+    "creditCategory": "humanities",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:G017-01:0:944",
@@ -27464,7 +31244,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/944.json",
       "en": "/details-en/944.json"
     },
-    "routePath": "/courses/2026/fall/G017-01"
+    "routePath": "/courses/2026/fall/G017-01",
+    "credits": 2,
+    "courseType": "(全課程からの提供)リベラルアーツ系科目文理横断",
+    "creditCategory": "humanities",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:G019-01:0:945",
@@ -27493,7 +31277,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/945.json",
       "en": "/details-en/945.json"
     },
-    "routePath": "/courses/2026/spring/G019-01"
+    "routePath": "/courses/2026/spring/G019-01",
+    "credits": 2,
+    "courseType": "(全課程からの提供)リベラルアーツ系科目文理横断",
+    "creditCategory": "humanities",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:G019-01:0:946",
@@ -27522,7 +31310,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/946.json",
       "en": "/details-en/946.json"
     },
-    "routePath": "/courses/2026/fall/G019-01"
+    "routePath": "/courses/2026/fall/G019-01",
+    "credits": 2,
+    "courseType": "(全課程からの提供)リベラルアーツ系科目文理横断",
+    "creditCategory": "humanities",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:G023-01:0:947",
@@ -27551,7 +31343,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/947.json",
       "en": null
     },
-    "routePath": "/courses/2026/spring/G023-01"
+    "routePath": "/courses/2026/spring/G023-01",
+    "credits": 2,
+    "courseType": "(全課程からの提供)リベラルアーツ系科目文理横断",
+    "creditCategory": "humanities",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:G023-01:0:948",
@@ -27580,7 +31376,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/948.json",
       "en": null
     },
-    "routePath": "/courses/2026/fall/G023-01"
+    "routePath": "/courses/2026/fall/G023-01",
+    "credits": 2,
+    "courseType": "(全課程からの提供)リベラルアーツ系科目文理横断",
+    "creditCategory": "humanities",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:G025-01:0:949",
@@ -27609,7 +31409,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/949.json",
       "en": null
     },
-    "routePath": "/courses/2026/spring/G025-01"
+    "routePath": "/courses/2026/spring/G025-01",
+    "credits": 2,
+    "courseType": "(全課程からの提供)リベラルアーツ系科目文理横断",
+    "creditCategory": "humanities",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:G025-01:0:950",
@@ -27638,7 +31442,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/950.json",
       "en": null
     },
-    "routePath": "/courses/2026/fall/G025-01"
+    "routePath": "/courses/2026/fall/G025-01",
+    "credits": 2,
+    "courseType": "(全課程からの提供)リベラルアーツ系科目文理横断",
+    "creditCategory": "humanities",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:G027-01:0:951",
@@ -27667,7 +31475,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/951.json",
       "en": "/details-en/951.json"
     },
-    "routePath": "/courses/2026/spring/G027-01"
+    "routePath": "/courses/2026/spring/G027-01",
+    "credits": 2,
+    "courseType": "(全課程からの提供)リベラルアーツ系科目文理横断",
+    "creditCategory": "humanities",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:G027-01:0:952",
@@ -27696,7 +31508,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/952.json",
       "en": "/details-en/952.json"
     },
-    "routePath": "/courses/2026/fall/G027-01"
+    "routePath": "/courses/2026/fall/G027-01",
+    "credits": 2,
+    "courseType": "(全課程からの提供)リベラルアーツ系科目文理横断",
+    "creditCategory": "humanities",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:G030-01:0:953",
@@ -27725,7 +31541,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/953.json",
       "en": "/details-en/953.json"
     },
-    "routePath": "/courses/2026/spring/G030-01"
+    "routePath": "/courses/2026/spring/G030-01",
+    "credits": 2,
+    "courseType": "(全課程からの提供)リベラルアーツ系科目文理横断",
+    "creditCategory": "humanities",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:G030-01:0:954",
@@ -27754,7 +31574,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/954.json",
       "en": "/details-en/954.json"
     },
-    "routePath": "/courses/2026/fall/G030-01"
+    "routePath": "/courses/2026/fall/G030-01",
+    "credits": 2,
+    "courseType": "(全課程からの提供)リベラルアーツ系科目文理横断",
+    "creditCategory": "humanities",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:G037-01:0:955",
@@ -27783,7 +31607,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/955.json",
       "en": "/details-en/955.json"
     },
-    "routePath": "/courses/2026/spring/G037-01"
+    "routePath": "/courses/2026/spring/G037-01",
+    "credits": 2,
+    "courseType": "(全課程からの提供)リベラルアーツ系科目文理横断",
+    "creditCategory": "humanities",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:G037-01:0:956",
@@ -27812,7 +31640,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/956.json",
       "en": "/details-en/956.json"
     },
-    "routePath": "/courses/2026/fall/G037-01"
+    "routePath": "/courses/2026/fall/G037-01",
+    "credits": 2,
+    "courseType": "(全課程からの提供)リベラルアーツ系科目文理横断",
+    "creditCategory": "humanities",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:G243-01:0:957",
@@ -27841,7 +31673,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/957.json",
       "en": null
     },
-    "routePath": "/courses/2026/spring/G243-01"
+    "routePath": "/courses/2026/spring/G243-01",
+    "credits": 1,
+    "courseType": "(全課程からの提供)リベラルアーツ系科目文理横断",
+    "creditCategory": "humanities",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:G243-01:0:958",
@@ -27870,7 +31706,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/958.json",
       "en": null
     },
-    "routePath": "/courses/2026/fall/G243-01"
+    "routePath": "/courses/2026/fall/G243-01",
+    "credits": 1,
+    "courseType": "(全課程からの提供)リベラルアーツ系科目文理横断",
+    "creditCategory": "humanities",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:G244-01:0:959",
@@ -27899,7 +31739,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/959.json",
       "en": null
     },
-    "routePath": "/courses/2026/spring/G244-01"
+    "routePath": "/courses/2026/spring/G244-01",
+    "credits": 1,
+    "courseType": "(全課程からの提供)リベラルアーツ系科目文理横断",
+    "creditCategory": "humanities",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:G245-01:0:960",
@@ -27928,7 +31772,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/960.json",
       "en": null
     },
-    "routePath": "/courses/2026/spring/G245-01"
+    "routePath": "/courses/2026/spring/G245-01",
+    "credits": 1,
+    "courseType": "(全課程からの提供)リベラルアーツ系科目文理横断",
+    "creditCategory": "humanities",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:G246-01:0:961",
@@ -27957,7 +31805,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/961.json",
       "en": null
     },
-    "routePath": "/courses/2026/spring/G246-01"
+    "routePath": "/courses/2026/spring/G246-01",
+    "credits": 1,
+    "courseType": "(全課程からの提供)リベラルアーツ系科目文理横断",
+    "creditCategory": "humanities",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:G247-01:0:962",
@@ -27986,7 +31838,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/962.json",
       "en": null
     },
-    "routePath": "/courses/2026/spring/G247-01"
+    "routePath": "/courses/2026/spring/G247-01",
+    "credits": 1,
+    "courseType": "(全課程からの提供)リベラルアーツ系科目文理横断",
+    "creditCategory": "humanities",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:G255-01:0:963",
@@ -28015,7 +31871,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/963.json",
       "en": null
     },
-    "routePath": "/courses/2026/spring/G255-01"
+    "routePath": "/courses/2026/spring/G255-01",
+    "credits": 2,
+    "courseType": "(全課程からの提供)リベラルアーツ系科目文理横断",
+    "creditCategory": "humanities",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:G255-01:0:964",
@@ -28044,7 +31904,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/964.json",
       "en": "/details-en/964.json"
     },
-    "routePath": "/courses/2026/fall/G255-01"
+    "routePath": "/courses/2026/fall/G255-01",
+    "credits": 2,
+    "courseType": "(全課程からの提供)リベラルアーツ系科目文理横断",
+    "creditCategory": "humanities",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:G258-01:0:965",
@@ -28073,7 +31937,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/965.json",
       "en": null
     },
-    "routePath": "/courses/2026/spring/G258-01"
+    "routePath": "/courses/2026/spring/G258-01",
+    "credits": 1,
+    "courseType": "(全課程からの提供)リベラルアーツ系科目文理横断",
+    "creditCategory": "humanities",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:G258-01:0:966",
@@ -28102,7 +31970,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/966.json",
       "en": null
     },
-    "routePath": "/courses/2026/fall/G258-01"
+    "routePath": "/courses/2026/fall/G258-01",
+    "credits": 1,
+    "courseType": "(全課程からの提供)リベラルアーツ系科目文理横断",
+    "creditCategory": "humanities",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:G259-01:0:967",
@@ -28131,7 +32003,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/967.json",
       "en": null
     },
-    "routePath": "/courses/2026/spring/G259-01"
+    "routePath": "/courses/2026/spring/G259-01",
+    "credits": 1,
+    "courseType": "(全課程からの提供)リベラルアーツ系科目文理横断",
+    "creditCategory": "humanities",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:G259-01:0:968",
@@ -28160,7 +32036,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/968.json",
       "en": null
     },
-    "routePath": "/courses/2026/fall/G259-01"
+    "routePath": "/courses/2026/fall/G259-01",
+    "credits": 1,
+    "courseType": "(全課程からの提供)リベラルアーツ系科目文理横断",
+    "creditCategory": "humanities",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:G260-01:0:969",
@@ -28189,7 +32069,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/969.json",
       "en": null
     },
-    "routePath": "/courses/2026/spring/G260-01"
+    "routePath": "/courses/2026/spring/G260-01",
+    "credits": 1,
+    "courseType": "(全課程からの提供)リベラルアーツ系科目文理横断",
+    "creditCategory": "humanities",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:G260-01:0:970",
@@ -28218,7 +32102,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/970.json",
       "en": null
     },
-    "routePath": "/courses/2026/fall/G260-01"
+    "routePath": "/courses/2026/fall/G260-01",
+    "credits": 1,
+    "courseType": "(全課程からの提供)リベラルアーツ系科目文理横断",
+    "creditCategory": "humanities",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:G261-01:0:971",
@@ -28247,7 +32135,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/971.json",
       "en": null
     },
-    "routePath": "/courses/2026/spring/G261-01"
+    "routePath": "/courses/2026/spring/G261-01",
+    "credits": 1,
+    "courseType": "(全課程からの提供)リベラルアーツ系科目文理横断",
+    "creditCategory": "humanities",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:G263-01:0:972",
@@ -28276,7 +32168,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/972.json",
       "en": null
     },
-    "routePath": "/courses/2026/spring/G263-01"
+    "routePath": "/courses/2026/spring/G263-01",
+    "credits": 1,
+    "courseType": "(全課程からの提供)リベラルアーツ系科目文理横断",
+    "creditCategory": "humanities",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:G263-01:0:973",
@@ -28305,7 +32201,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/973.json",
       "en": null
     },
-    "routePath": "/courses/2026/fall/G263-01"
+    "routePath": "/courses/2026/fall/G263-01",
+    "credits": 1,
+    "courseType": "(全課程からの提供)リベラルアーツ系科目文理横断",
+    "creditCategory": "humanities",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:G264-01:0:974",
@@ -28334,7 +32234,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/974.json",
       "en": null
     },
-    "routePath": "/courses/2026/spring/G264-01"
+    "routePath": "/courses/2026/spring/G264-01",
+    "credits": 1,
+    "courseType": "(全課程からの提供)リベラルアーツ系科目文理横断",
+    "creditCategory": "humanities",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:G265-01:0:975",
@@ -28363,7 +32267,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/975.json",
       "en": null
     },
-    "routePath": "/courses/2026/spring/G265-01"
+    "routePath": "/courses/2026/spring/G265-01",
+    "credits": 1,
+    "courseType": "(全課程からの提供)リベラルアーツ系科目文理横断",
+    "creditCategory": "humanities",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:G265-01:0:976",
@@ -28392,7 +32300,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/976.json",
       "en": null
     },
-    "routePath": "/courses/2026/fall/G265-01"
+    "routePath": "/courses/2026/fall/G265-01",
+    "credits": 1,
+    "courseType": "(全課程からの提供)リベラルアーツ系科目文理横断",
+    "creditCategory": "humanities",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:G266-01:0:977",
@@ -28421,7 +32333,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/977.json",
       "en": null
     },
-    "routePath": "/courses/2026/spring/G266-01"
+    "routePath": "/courses/2026/spring/G266-01",
+    "credits": 1,
+    "courseType": "(全課程からの提供)リベラルアーツ系科目文理横断",
+    "creditCategory": "humanities",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:G409-01:0:978",
@@ -28450,7 +32366,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/978.json",
       "en": null
     },
-    "routePath": "/courses/2026/spring/G409-01"
+    "routePath": "/courses/2026/spring/G409-01",
+    "credits": 2,
+    "courseType": "(全課程からの提供)リベラルアーツ系科目文理横断",
+    "creditCategory": "humanities",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:G479-01:0:979",
@@ -28479,7 +32399,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/979.json",
       "en": null
     },
-    "routePath": "/courses/2026/spring/G479-01"
+    "routePath": "/courses/2026/spring/G479-01",
+    "credits": 2,
+    "courseType": "(全課程からの提供)リベラルアーツ系科目文理横断",
+    "creditCategory": "humanities",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:G479-01:0:980",
@@ -28508,7 +32432,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/980.json",
       "en": "/details-en/980.json"
     },
-    "routePath": "/courses/2026/fall/G479-01"
+    "routePath": "/courses/2026/fall/G479-01",
+    "credits": 2,
+    "courseType": "(全課程からの提供)リベラルアーツ系科目文理横断",
+    "creditCategory": "humanities",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:G488-01:0:981",
@@ -28537,7 +32465,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/981.json",
       "en": null
     },
-    "routePath": "/courses/2026/spring/G488-01"
+    "routePath": "/courses/2026/spring/G488-01",
+    "credits": 1,
+    "courseType": "(全課程からの提供)リベラルアーツ系科目文理横断",
+    "creditCategory": "humanities",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:G495-01:0:982",
@@ -28566,7 +32498,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/982.json",
       "en": null
     },
-    "routePath": "/courses/2026/spring/G495-01"
+    "routePath": "/courses/2026/spring/G495-01",
+    "credits": 2,
+    "courseType": "(全課程からの提供)リベラルアーツ系科目文理横断",
+    "creditCategory": "humanities",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:G495-01:0:983",
@@ -28595,7 +32531,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/983.json",
       "en": null
     },
-    "routePath": "/courses/2026/fall/G495-01"
+    "routePath": "/courses/2026/fall/G495-01",
+    "credits": 2,
+    "courseType": "(全課程からの提供)リベラルアーツ系科目文理横断",
+    "creditCategory": "humanities",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:G508-01:0:984",
@@ -28624,7 +32564,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/984.json",
       "en": "/details-en/984.json"
     },
-    "routePath": "/courses/2026/spring/G508-01"
+    "routePath": "/courses/2026/spring/G508-01",
+    "credits": 1,
+    "courseType": "(全課程からの提供)リベラルアーツ系科目文理横断",
+    "creditCategory": "humanities",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:G519-01:0:985",
@@ -28653,7 +32597,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/985.json",
       "en": "/details-en/985.json"
     },
-    "routePath": "/courses/2026/spring/G519-01"
+    "routePath": "/courses/2026/spring/G519-01",
+    "credits": 2,
+    "courseType": "(全課程からの提供)リベラルアーツ系科目文理横断",
+    "creditCategory": "humanities",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:G519-01:0:986",
@@ -28682,7 +32630,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/986.json",
       "en": "/details-en/986.json"
     },
-    "routePath": "/courses/2026/fall/G519-01"
+    "routePath": "/courses/2026/fall/G519-01",
+    "credits": 2,
+    "courseType": "(全課程からの提供)リベラルアーツ系科目文理横断",
+    "creditCategory": "humanities",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:G521-01:0:987",
@@ -28711,7 +32663,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/987.json",
       "en": "/details-en/987.json"
     },
-    "routePath": "/courses/2026/fall/G521-01"
+    "routePath": "/courses/2026/fall/G521-01",
+    "credits": 1,
+    "courseType": "(全課程からの提供)リベラルアーツ系科目文理横断",
+    "creditCategory": "humanities",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:G522-01:0:988",
@@ -28740,7 +32696,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/988.json",
       "en": "/details-en/988.json"
     },
-    "routePath": "/courses/2026/spring/G522-01"
+    "routePath": "/courses/2026/spring/G522-01",
+    "credits": 1,
+    "courseType": "(全課程からの提供)リベラルアーツ系科目文理横断",
+    "creditCategory": "humanities",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:G522-01:0:989",
@@ -28769,7 +32729,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/989.json",
       "en": "/details-en/989.json"
     },
-    "routePath": "/courses/2026/fall/G522-01"
+    "routePath": "/courses/2026/fall/G522-01",
+    "credits": 1,
+    "courseType": "(全課程からの提供)リベラルアーツ系科目文理横断",
+    "creditCategory": "humanities",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:G523-01:0:990",
@@ -28798,7 +32762,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/990.json",
       "en": "/details-en/990.json"
     },
-    "routePath": "/courses/2026/fall/G523-01"
+    "routePath": "/courses/2026/fall/G523-01",
+    "credits": 1,
+    "courseType": "(全課程からの提供)リベラルアーツ系科目文理横断",
+    "creditCategory": "humanities",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:G524-01:0:991",
@@ -28827,7 +32795,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/991.json",
       "en": "/details-en/991.json"
     },
-    "routePath": "/courses/2026/fall/G524-01"
+    "routePath": "/courses/2026/fall/G524-01",
+    "credits": 1,
+    "courseType": "(全課程からの提供)リベラルアーツ系科目文理横断",
+    "creditCategory": "humanities",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:G525-01:0:992",
@@ -28856,7 +32828,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/992.json",
       "en": "/details-en/992.json"
     },
-    "routePath": "/courses/2026/fall/G525-01"
+    "routePath": "/courses/2026/fall/G525-01",
+    "credits": 1,
+    "courseType": "(全課程からの提供)リベラルアーツ系科目文理横断",
+    "creditCategory": "humanities",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:G526-01:0:993",
@@ -28885,7 +32861,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/993.json",
       "en": "/details-en/993.json"
     },
-    "routePath": "/courses/2026/fall/G526-01"
+    "routePath": "/courses/2026/fall/G526-01",
+    "credits": 1,
+    "courseType": "(全課程からの提供)リベラルアーツ系科目文理横断",
+    "creditCategory": "humanities",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:G527-01:0:994",
@@ -28914,7 +32894,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/994.json",
       "en": "/details-en/994.json"
     },
-    "routePath": "/courses/2026/spring/G527-01"
+    "routePath": "/courses/2026/spring/G527-01",
+    "credits": 2,
+    "courseType": "(全課程からの提供)リベラルアーツ系科目文理横断",
+    "creditCategory": "humanities",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:G528-01:0:995",
@@ -28943,7 +32927,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/995.json",
       "en": "/details-en/995.json"
     },
-    "routePath": "/courses/2026/spring/G528-01"
+    "routePath": "/courses/2026/spring/G528-01",
+    "credits": 2,
+    "courseType": "(全課程からの提供)リベラルアーツ系科目文理横断",
+    "creditCategory": "humanities",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:G528-01:0:996",
@@ -28972,7 +32960,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/996.json",
       "en": "/details-en/996.json"
     },
-    "routePath": "/courses/2026/fall/G528-01"
+    "routePath": "/courses/2026/fall/G528-01",
+    "credits": 2,
+    "courseType": "(全課程からの提供)リベラルアーツ系科目文理横断",
+    "creditCategory": "humanities",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:G529-01:0:997",
@@ -29001,7 +32993,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/997.json",
       "en": "/details-en/997.json"
     },
-    "routePath": "/courses/2026/spring/G529-01"
+    "routePath": "/courses/2026/spring/G529-01",
+    "credits": 2,
+    "courseType": "(全課程からの提供)リベラルアーツ系科目文理横断",
+    "creditCategory": "humanities",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:G529-01:0:998",
@@ -29030,7 +33026,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/998.json",
       "en": "/details-en/998.json"
     },
-    "routePath": "/courses/2026/fall/G529-01"
+    "routePath": "/courses/2026/fall/G529-01",
+    "credits": 2,
+    "courseType": "(全課程からの提供)リベラルアーツ系科目文理横断",
+    "creditCategory": "humanities",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:G534-01:0:999",
@@ -29059,7 +33059,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/999.json",
       "en": "/details-en/999.json"
     },
-    "routePath": "/courses/2026/fall/G534-01"
+    "routePath": "/courses/2026/fall/G534-01",
+    "credits": 2,
+    "courseType": "(全課程からの提供)リベラルアーツ系科目文理横断",
+    "creditCategory": "humanities",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:fall:G535-01:0:1000",
@@ -29088,7 +33092,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/1000.json",
       "en": "/details-en/1000.json"
     },
-    "routePath": "/courses/2026/fall/G535-01"
+    "routePath": "/courses/2026/fall/G535-01",
+    "credits": 1,
+    "courseType": "(全課程からの提供)リベラルアーツ系科目文理横断",
+    "creditCategory": "humanities",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:spring:G537-01:0:1001",
@@ -29117,7 +33125,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/1001.json",
       "en": "/details-en/1001.json"
     },
-    "routePath": "/courses/2026/spring/G537-01"
+    "routePath": "/courses/2026/spring/G537-01",
+    "credits": 1,
+    "courseType": "(全課程からの提供)リベラルアーツ系科目文理横断",
+    "creditCategory": "humanities",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:G541-01:0:1002",
@@ -29146,7 +33158,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/1002.json",
       "en": null
     },
-    "routePath": "/courses/2026/spring/G541-01"
+    "routePath": "/courses/2026/spring/G541-01",
+    "credits": 1,
+    "courseType": "(全課程からの提供)リベラルアーツ系科目文理横断",
+    "creditCategory": "humanities",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:G543-01:0:1003",
@@ -29175,7 +33191,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/1003.json",
       "en": "/details-en/1003.json"
     },
-    "routePath": "/courses/2026/fall/G543-01"
+    "routePath": "/courses/2026/fall/G543-01",
+    "credits": 1,
+    "courseType": "(全課程からの提供)リベラルアーツ系科目文理横断",
+    "creditCategory": "humanities",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:G545-01:0:1004",
@@ -29204,7 +33224,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/1004.json",
       "en": "/details-en/1004.json"
     },
-    "routePath": "/courses/2026/spring/G545-01"
+    "routePath": "/courses/2026/spring/G545-01",
+    "credits": 1,
+    "courseType": "(全課程からの提供)リベラルアーツ系科目文理横断",
+    "creditCategory": "humanities",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:G547-01:0:1005",
@@ -29233,7 +33257,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/1005.json",
       "en": "/details-en/1005.json"
     },
-    "routePath": "/courses/2026/spring/G547-01"
+    "routePath": "/courses/2026/spring/G547-01",
+    "credits": 2,
+    "courseType": "(全課程からの提供)リベラルアーツ系科目文理横断",
+    "creditCategory": "humanities",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:G549-01:0:1006",
@@ -29262,7 +33290,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/1006.json",
       "en": "/details-en/1006.json"
     },
-    "routePath": "/courses/2026/spring/G549-01"
+    "routePath": "/courses/2026/spring/G549-01",
+    "credits": 2,
+    "courseType": "(全課程からの提供)リベラルアーツ系科目文理横断",
+    "creditCategory": "humanities",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:G549-01:0:1007",
@@ -29291,7 +33323,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/1007.json",
       "en": "/details-en/1007.json"
     },
-    "routePath": "/courses/2026/fall/G549-01"
+    "routePath": "/courses/2026/fall/G549-01",
+    "credits": 2,
+    "courseType": "(全課程からの提供)リベラルアーツ系科目文理横断",
+    "creditCategory": "humanities",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:G551-01:0:1008",
@@ -29320,7 +33356,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/1008.json",
       "en": null
     },
-    "routePath": "/courses/2026/spring/G551-01"
+    "routePath": "/courses/2026/spring/G551-01",
+    "credits": 2,
+    "courseType": "(全課程からの提供)リベラルアーツ系科目文理横断",
+    "creditCategory": "humanities",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:G552-01:0:1009",
@@ -29349,7 +33389,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/1009.json",
       "en": null
     },
-    "routePath": "/courses/2026/spring/G552-01"
+    "routePath": "/courses/2026/spring/G552-01",
+    "credits": 2,
+    "courseType": "(全課程からの提供)リベラルアーツ系科目文理横断",
+    "creditCategory": "humanities",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:G553-01:0:1010",
@@ -29378,7 +33422,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/1010.json",
       "en": "/details-en/1010.json"
     },
-    "routePath": "/courses/2026/spring/G553-01"
+    "routePath": "/courses/2026/spring/G553-01",
+    "credits": 2,
+    "courseType": "(全課程からの提供)リベラルアーツ系科目文理横断",
+    "creditCategory": "humanities",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:G554-01:0:1011",
@@ -29407,7 +33455,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/1011.json",
       "en": "/details-en/1011.json"
     },
-    "routePath": "/courses/2026/fall/G554-01"
+    "routePath": "/courses/2026/fall/G554-01",
+    "credits": 2,
+    "courseType": "(全課程からの提供)リベラルアーツ系科目文理横断",
+    "creditCategory": "humanities",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:G555-01:0:1012",
@@ -29436,7 +33488,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/1012.json",
       "en": "/details-en/1012.json"
     },
-    "routePath": "/courses/2026/fall/G555-01"
+    "routePath": "/courses/2026/fall/G555-01",
+    "credits": 2,
+    "courseType": "(全課程からの提供)リベラルアーツ系科目文理横断",
+    "creditCategory": "humanities",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:G556-01:0:1013",
@@ -29465,7 +33521,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/1013.json",
       "en": null
     },
-    "routePath": "/courses/2026/spring/G556-01"
+    "routePath": "/courses/2026/spring/G556-01",
+    "credits": 1,
+    "courseType": "(全課程からの提供)リベラルアーツ系科目文理横断",
+    "creditCategory": "humanities",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:G558-01:0:1014",
@@ -29494,7 +33554,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/1014.json",
       "en": "/details-en/1014.json"
     },
-    "routePath": "/courses/2026/fall/G558-01"
+    "routePath": "/courses/2026/fall/G558-01",
+    "credits": 2,
+    "courseType": "(全課程からの提供)リベラルアーツ系科目文理横断",
+    "creditCategory": "humanities",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:G564-01:0:1015",
@@ -29523,7 +33587,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/1015.json",
       "en": "/details-en/1015.json"
     },
-    "routePath": "/courses/2026/fall/G564-01"
+    "routePath": "/courses/2026/fall/G564-01",
+    "credits": 2,
+    "courseType": "(全課程からの提供)リベラルアーツ系科目文理横断",
+    "creditCategory": "humanities",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:G565-01:0:1016",
@@ -29552,7 +33620,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/1016.json",
       "en": "/details-en/1016.json"
     },
-    "routePath": "/courses/2026/spring/G565-01"
+    "routePath": "/courses/2026/spring/G565-01",
+    "credits": 1,
+    "courseType": "(全課程からの提供)リベラルアーツ系科目文理横断",
+    "creditCategory": "humanities",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:G565-01:0:1017",
@@ -29581,7 +33653,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/1017.json",
       "en": "/details-en/1017.json"
     },
-    "routePath": "/courses/2026/fall/G565-01"
+    "routePath": "/courses/2026/fall/G565-01",
+    "credits": 1,
+    "courseType": "(全課程からの提供)リベラルアーツ系科目文理横断",
+    "creditCategory": "humanities",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:G573-01:0:1018",
@@ -29610,7 +33686,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/1018.json",
       "en": "/details-en/1018.json"
     },
-    "routePath": "/courses/2026/full-year/G573-01"
+    "routePath": "/courses/2026/full-year/G573-01",
+    "credits": 4,
+    "courseType": "(全課程からの提供)リベラルアーツ系科目文理横断",
+    "creditCategory": "humanities",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:G575-01:0:1019",
@@ -29639,7 +33719,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/1019.json",
       "en": null
     },
-    "routePath": "/courses/2026/spring/G575-01"
+    "routePath": "/courses/2026/spring/G575-01",
+    "credits": 1,
+    "courseType": "(全課程からの提供)リベラルアーツ系科目文理横断",
+    "creditCategory": "humanities",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:G577-01:0:1020",
@@ -29668,7 +33752,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/1020.json",
       "en": "/details-en/1020.json"
     },
-    "routePath": "/courses/2026/spring/G577-01"
+    "routePath": "/courses/2026/spring/G577-01",
+    "credits": 2,
+    "courseType": "(全課程からの提供)リベラルアーツ系科目文理横断",
+    "creditCategory": "humanities",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:G580-01:0:1021",
@@ -29697,7 +33785,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/1021.json",
       "en": "/details-en/1021.json"
     },
-    "routePath": "/courses/2026/fall/G580-01"
+    "routePath": "/courses/2026/fall/G580-01",
+    "credits": 1,
+    "courseType": "(全課程からの提供)リベラルアーツ系科目文理横断",
+    "creditCategory": "humanities",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:G585-01:0:1022",
@@ -29726,7 +33818,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/1022.json",
       "en": null
     },
-    "routePath": "/courses/2026/spring/G585-01"
+    "routePath": "/courses/2026/spring/G585-01",
+    "credits": 1,
+    "courseType": "(全課程からの提供)リベラルアーツ系科目文理横断",
+    "creditCategory": "humanities",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:G586-01:0:1023",
@@ -29755,7 +33851,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/1023.json",
       "en": "/details-en/1023.json"
     },
-    "routePath": "/courses/2026/spring/G586-01"
+    "routePath": "/courses/2026/spring/G586-01",
+    "credits": 2,
+    "courseType": "(全課程からの提供)リベラルアーツ系科目文理横断",
+    "creditCategory": "humanities",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:G587-01:0:1024",
@@ -29784,7 +33884,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/1024.json",
       "en": "/details-en/1024.json"
     },
-    "routePath": "/courses/2026/fall/G587-01"
+    "routePath": "/courses/2026/fall/G587-01",
+    "credits": 2,
+    "courseType": "(全課程からの提供)リベラルアーツ系科目文理横断",
+    "creditCategory": "humanities",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:G588-01:0:1025",
@@ -29813,7 +33917,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/1025.json",
       "en": null
     },
-    "routePath": "/courses/2026/spring/G588-01"
+    "routePath": "/courses/2026/spring/G588-01",
+    "credits": 1,
+    "courseType": "(全課程からの提供)リベラルアーツ系科目文理横断",
+    "creditCategory": "humanities",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:G589-01:0:1026",
@@ -29842,7 +33950,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/1026.json",
       "en": null
     },
-    "routePath": "/courses/2026/fall/G589-01"
+    "routePath": "/courses/2026/fall/G589-01",
+    "credits": 2,
+    "courseType": "(全課程からの提供)リベラルアーツ系科目文理横断",
+    "creditCategory": "humanities",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:G594-01:0:1027",
@@ -29871,7 +33983,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/1027.json",
       "en": null
     },
-    "routePath": "/courses/2026/full-year/G594-01"
+    "routePath": "/courses/2026/full-year/G594-01",
+    "credits": 1,
+    "courseType": "(全課程からの提供)リベラルアーツ系科目文理横断",
+    "creditCategory": "humanities",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:G595-01:0:1028",
@@ -29900,7 +34016,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/1028.json",
       "en": null
     },
-    "routePath": "/courses/2026/spring/G595-01"
+    "routePath": "/courses/2026/spring/G595-01",
+    "credits": 1,
+    "courseType": "(全課程からの提供)リベラルアーツ系科目文理横断",
+    "creditCategory": "humanities",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:full-year:G900-01:0:1029",
@@ -29929,7 +34049,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/1029.json",
       "en": "/details-en/1029.json"
     },
-    "routePath": "/courses/2026/full-year/G900-01"
+    "routePath": "/courses/2026/full-year/G900-01",
+    "credits": 2,
+    "courseType": "教職課程教職に関する科目教職",
+    "creditCategory": "other",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:G901-01:0:1030",
@@ -29958,7 +34082,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/1030.json",
       "en": "/details-en/1030.json"
     },
-    "routePath": "/courses/2026/fall/G901-01"
+    "routePath": "/courses/2026/fall/G901-01",
+    "credits": 2,
+    "courseType": "教職課程教職に関する科目教職",
+    "creditCategory": "other",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:G902-01:0:1031",
@@ -29987,7 +34115,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/1031.json",
       "en": "/details-en/1031.json"
     },
-    "routePath": "/courses/2026/spring/G902-01"
+    "routePath": "/courses/2026/spring/G902-01",
+    "credits": 2,
+    "courseType": "教職課程教職に関する科目教職",
+    "creditCategory": "other",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:G903-01:0:1032",
@@ -30016,7 +34148,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/1032.json",
       "en": "/details-en/1032.json"
     },
-    "routePath": "/courses/2026/fall/G903-01"
+    "routePath": "/courses/2026/fall/G903-01",
+    "credits": 2,
+    "courseType": "教職課程教職に関する科目教職",
+    "creditCategory": "other",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:G904-01:0:1033",
@@ -30045,7 +34181,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/1033.json",
       "en": "/details-en/1033.json"
     },
-    "routePath": "/courses/2026/spring/G904-01"
+    "routePath": "/courses/2026/spring/G904-01",
+    "credits": 2,
+    "courseType": "教職課程教職に関する科目教職",
+    "creditCategory": "other",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:G905-01:0:1034",
@@ -30074,7 +34214,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/1034.json",
       "en": "/details-en/1034.json"
     },
-    "routePath": "/courses/2026/fall/G905-01"
+    "routePath": "/courses/2026/fall/G905-01",
+    "credits": 2,
+    "courseType": "教職課程教職に関する科目教職",
+    "creditCategory": "other",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:G906-01:0:1035",
@@ -30103,7 +34247,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/1035.json",
       "en": "/details-en/1035.json"
     },
-    "routePath": "/courses/2026/spring/G906-01"
+    "routePath": "/courses/2026/spring/G906-01",
+    "credits": 2,
+    "courseType": "教職課程教職に関する科目教職",
+    "creditCategory": "other",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:G907-01:0:1036",
@@ -30132,7 +34280,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/1036.json",
       "en": "/details-en/1036.json"
     },
-    "routePath": "/courses/2026/fall/G907-01"
+    "routePath": "/courses/2026/fall/G907-01",
+    "credits": 2,
+    "courseType": "教職課程教職に関する科目教職",
+    "creditCategory": "other",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:G908-01:0:1037",
@@ -30161,7 +34313,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/1037.json",
       "en": "/details-en/1037.json"
     },
-    "routePath": "/courses/2026/fall/G908-01"
+    "routePath": "/courses/2026/fall/G908-01",
+    "credits": 4,
+    "courseType": "教職課程教職に関する科目教職",
+    "creditCategory": "other",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:G909-01:0:1038",
@@ -30190,7 +34346,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/1038.json",
       "en": "/details-en/1038.json"
     },
-    "routePath": "/courses/2026/fall/G909-01"
+    "routePath": "/courses/2026/fall/G909-01",
+    "credits": 4,
+    "courseType": "教職課程教職に関する科目教職",
+    "creditCategory": "other",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:G910-01:0:1039",
@@ -30219,7 +34379,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/1039.json",
       "en": "/details-en/1039.json"
     },
-    "routePath": "/courses/2026/spring/G910-01"
+    "routePath": "/courses/2026/spring/G910-01",
+    "credits": 4,
+    "courseType": "教職課程教職に関する科目教職",
+    "creditCategory": "other",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:G911-01:0:1040",
@@ -30248,7 +34412,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/1040.json",
       "en": "/details-en/1040.json"
     },
-    "routePath": "/courses/2026/fall/G911-01"
+    "routePath": "/courses/2026/fall/G911-01",
+    "credits": 4,
+    "courseType": "教職課程教職に関する科目教職",
+    "creditCategory": "other",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:G912-01:0:1041",
@@ -30277,7 +34445,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/1041.json",
       "en": "/details-en/1041.json"
     },
-    "routePath": "/courses/2026/spring/G912-01"
+    "routePath": "/courses/2026/spring/G912-01",
+    "credits": 4,
+    "courseType": "教職課程教職に関する科目教職",
+    "creditCategory": "other",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:G913-01:0:1042",
@@ -30306,7 +34478,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/1042.json",
       "en": "/details-en/1042.json"
     },
-    "routePath": "/courses/2026/fall/G913-01"
+    "routePath": "/courses/2026/fall/G913-01",
+    "credits": 4,
+    "courseType": "教職課程教職に関する科目教職",
+    "creditCategory": "other",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:G914-01:0:1043",
@@ -30335,7 +34511,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/1043.json",
       "en": "/details-en/1043.json"
     },
-    "routePath": "/courses/2026/spring/G914-01"
+    "routePath": "/courses/2026/spring/G914-01",
+    "credits": 2,
+    "courseType": "教職課程教職に関する科目教職",
+    "creditCategory": "other",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:G915-01:0:1044",
@@ -30364,7 +34544,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/1044.json",
       "en": "/details-en/1044.json"
     },
-    "routePath": "/courses/2026/spring/G915-01"
+    "routePath": "/courses/2026/spring/G915-01",
+    "credits": 2,
+    "courseType": "教職課程教職に関する科目教職",
+    "creditCategory": "other",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:G916-01:0:1045",
@@ -30393,7 +34577,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/1045.json",
       "en": "/details-en/1045.json"
     },
-    "routePath": "/courses/2026/spring/G916-01"
+    "routePath": "/courses/2026/spring/G916-01",
+    "credits": 2,
+    "courseType": "教職課程教職に関する科目教職",
+    "creditCategory": "other",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:G917-01:0:1046",
@@ -30422,7 +34610,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/1046.json",
       "en": "/details-en/1046.json"
     },
-    "routePath": "/courses/2026/full-year/G917-01"
+    "routePath": "/courses/2026/full-year/G917-01",
+    "credits": 3,
+    "courseType": "教職課程教職に関する科目教職",
+    "creditCategory": "other",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:G918-01:0:1047",
@@ -30451,7 +34643,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/1047.json",
       "en": "/details-en/1047.json"
     },
-    "routePath": "/courses/2026/spring/G918-01"
+    "routePath": "/courses/2026/spring/G918-01",
+    "credits": 2,
+    "courseType": "教職課程教職に関する科目教職",
+    "creditCategory": "other",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:full-year:G919-01:0:1048",
@@ -30480,7 +34676,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/1048.json",
       "en": "/details-en/1048.json"
     },
-    "routePath": "/courses/2026/full-year/G919-01"
+    "routePath": "/courses/2026/full-year/G919-01",
+    "credits": 1,
+    "courseType": "教職課程教職に関する科目教職",
+    "creditCategory": "other",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:G920-01:0:1049",
@@ -30509,7 +34709,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/1049.json",
       "en": "/details-en/1049.json"
     },
-    "routePath": "/courses/2026/full-year/G920-01"
+    "routePath": "/courses/2026/full-year/G920-01",
+    "credits": 2,
+    "courseType": "教職課程教職に関する科目教職",
+    "creditCategory": "other",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:full-year:G921-01:0:1050",
@@ -30538,7 +34742,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/1050.json",
       "en": "/details-en/1050.json"
     },
-    "routePath": "/courses/2026/full-year/G921-01"
+    "routePath": "/courses/2026/full-year/G921-01",
+    "credits": 2,
+    "courseType": "教職課程教職に関する科目教職",
+    "creditCategory": "other",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:G922-01:0:1051",
@@ -30567,7 +34775,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/1051.json",
       "en": "/details-en/1051.json"
     },
-    "routePath": "/courses/2026/fall/G922-01"
+    "routePath": "/courses/2026/fall/G922-01",
+    "credits": 2,
+    "courseType": "教職課程教職に関する科目教職",
+    "creditCategory": "other",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:fall:G923-01:0:1052",
@@ -30596,7 +34808,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/1052.json",
       "en": "/details-en/1052.json"
     },
-    "routePath": "/courses/2026/fall/G923-01"
+    "routePath": "/courses/2026/fall/G923-01",
+    "credits": 1,
+    "courseType": "教職課程教職に関する科目教職",
+    "creditCategory": "other",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:G924-01:0:1053",
@@ -30625,7 +34841,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/1053.json",
       "en": "/details-en/1053.json"
     },
-    "routePath": "/courses/2026/spring/G924-01"
+    "routePath": "/courses/2026/spring/G924-01",
+    "credits": 1,
+    "courseType": "教職課程教職に関する科目教職",
+    "creditCategory": "other",
+    "hasPracticalTeacher": false
   },
   {
     "id": "2026:spring:G930-01:0:1054",
@@ -30654,7 +34874,11 @@ export const courses: CourseSummary[] = [
       "ja": "/details/1054.json",
       "en": "/details-en/1054.json"
     },
-    "routePath": "/courses/2026/spring/G930-01"
+    "routePath": "/courses/2026/spring/G930-01",
+    "credits": 2,
+    "courseType": "教職課程教職に関する科目教職",
+    "creditCategory": "other",
+    "hasPracticalTeacher": true
   },
   {
     "id": "2026:full-year:G953-01:0:1055",
@@ -30683,6 +34907,10 @@ export const courses: CourseSummary[] = [
       "ja": "/details/1055.json",
       "en": "/details-en/1055.json"
     },
-    "routePath": "/courses/2026/full-year/G953-01"
+    "routePath": "/courses/2026/full-year/G953-01",
+    "credits": 1,
+    "courseType": "教職課程教職に関する科目教職",
+    "creditCategory": "other",
+    "hasPracticalTeacher": false
   }
 ];

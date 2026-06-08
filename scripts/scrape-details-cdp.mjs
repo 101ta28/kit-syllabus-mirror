@@ -119,6 +119,9 @@ for (let start = 0; start < total; start += batchSize) {
     `(async () => {
       const indexes = ${JSON.stringify(indexes)};
       const normalizeText = (text) => String(text ?? '')
+        .replace(/[\\uff61-\\uff9f]+/g, (value) => value.normalize('NFKC'))
+        .replace(/[！-～]/g, (char) => String.fromCharCode(char.charCodeAt(0) - 0xfee0))
+        .replace(/\\u3000/g, ' ')
         .replace(/\\r/g, '')
         .replace(/[ \\t]+\\n/g, '\\n')
         .replace(/\\n{3,}/g, '\\n\\n')
@@ -154,12 +157,14 @@ for (let start = 0; start < total; start += batchSize) {
       );
       const splitTeachers = (text) => normalizeText(text)
         .replace('＊印は、実務経験のある教員を示しています。', '')
-        .split(/[、,]/)
+        .split(/[、,\\n]/)
         .map((teacher) => teacher.trim())
+        .filter((teacher) => teacher !== '授業科目の学習・教育目標' && teacher !== '担当教員名')
         .filter(Boolean);
       const splitKeywords = (text) => normalizeText(text)
         .split(/\\n+/)
         .map((line) => line.replace(/^\\d+\\./, '').trim())
+        .filter((line) => line !== 'キーワード' && line !== 'Keywords')
         .filter(Boolean);
       const extractActivityGoals = (rows) => rowsAfterHeader(rows, '学生が達成すべき行動目標', ['達成度評価'])
         .filter((row) => row.cells?.some((cell) => String(cell.className).includes('activityGoalLabel')))

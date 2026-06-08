@@ -6,6 +6,7 @@ const sourcePath = path.resolve(root, "../europa-syllabus-search-detail.json");
 const detailCachePath = path.resolve(root, "data/syllabus-details-cache.json");
 const englishDetailCachePath = path.resolve(root, "data/syllabus-details-cache-en.json");
 const outputPath = path.resolve(root, "src/data/generated.ts");
+const searchIndexOutputPath = path.resolve(root, "public/search-index.json");
 const detailsOutputDir = path.resolve(root, "public/details");
 const englishDetailsOutputDir = path.resolve(root, "public/details-en");
 
@@ -47,6 +48,9 @@ function slugifyCourseName(name) {
 
 function normalizeText(text) {
   return String(text ?? "")
+    .replace(/[\uff61-\uff9f]+/g, (value) => value.normalize("NFKC"))
+    .replace(/[！-～]/g, (char) => String.fromCharCode(char.charCodeAt(0) - 0xfee0))
+    .replace(/\u3000/g, " ")
     .replace(/\r/g, "")
     .replace(/[ \t]+\n/g, "\n")
     .replace(/\n{3,}/g, "\n\n")
@@ -139,8 +143,9 @@ function extractLessons(rows) {
 function splitTeachers(text) {
   return normalizeText(text)
     .replace("＊印は、実務経験のある教員を示しています。", "")
-    .split(/[、,]/)
+    .split(/[、,\n]/)
     .map((teacher) => teacher.trim())
+    .filter((teacher) => teacher !== "授業科目の学習・教育目標" && teacher !== "担当教員名")
     .filter(Boolean);
 }
 
@@ -148,7 +153,54 @@ function splitKeywords(text) {
   return normalizeText(text)
     .split(/\n+/)
     .map((line) => line.replace(/^\d+\./, "").trim())
+    .filter((line) => line !== "キーワード" && line !== "Keywords")
     .filter(Boolean);
+}
+
+function parseCredits(value) {
+  const numeric = Number(normalizeText(value).match(/\d+(?:\.\d+)?/)?.[0] ?? 0);
+  return Number.isFinite(numeric) ? numeric : 0;
+}
+
+function creditCategoryFor(detail, course) {
+  const courseType = normalizeText(detail?.courseType ?? "");
+  const name = normalizeText(course?.courseName ?? detail?.title ?? "");
+  if (courseType.includes("修学基礎科目")) return "shugaku";
+  if (courseType.includes("生涯スポーツ")) return "sports";
+  if (courseType.includes("英語教育課程")) return "english";
+  if (courseType.includes("数理") && courseType.includes("数理基礎")) return "math";
+  if (courseType.includes("基礎実技") || courseType.includes("PD基礎")) return "basicPractice";
+  if (courseType.includes("専門プロジェクト")) return "specializedProject";
+  if (courseType.includes("専門教育課程") && courseType.includes("専門科目")) return "specialized";
+  if (name.includes("科学技術者倫理") || name.includes("技術者と持続可能社会")) return "ethics";
+  if (courseType.includes("リベラルアーツ") || courseType.includes("人間形成基礎")) return "humanities";
+  return "other";
+}
+
+function collectSearchParts(value, parts = []) {
+  if (typeof value === "string") {
+    parts.push(value);
+  } else if (Array.isArray(value)) {
+    for (const item of value) collectSearchParts(item, parts);
+  } else if (value && typeof value === "object") {
+    for (const [key, item] of Object.entries(value)) {
+      if (!["rawText", "sourceUrl", "importedAt", "courseId", "sourceIndex", "language"].includes(key)) {
+        collectSearchParts(item, parts);
+      }
+    }
+  }
+  return parts;
+}
+
+function buildSearchText(course, detail) {
+  return normalizeText([
+    course.courseName,
+    course.courseCodeLabel,
+    course.programLabel,
+    course.departmentLabel ?? "",
+    course.courseType ?? "",
+    ...collectSearchParts(detail),
+  ].join("\n")).toLowerCase();
 }
 
 function buildDetail(detailDom, firstCourse) {
@@ -212,6 +264,11 @@ function toCourse(raw, index) {
     departmentLabel: raw.departmentLabel == null ? null : normalizeText(raw.departmentLabel),
     courseCategoryLabel: raw.courseCategoryLabel == null ? null : normalizeText(raw.courseCategoryLabel),
     courseCodeLabel: String(raw.courseCodeLabel ?? ""),
+    credits: 0,
+    courseType: "",
+    creditCategory: "other",
+    searchText: "",
+    hasPracticalTeacher: false,
     sourceIndex: index,
     hasDetail: false,
     hasEnglishDetail: false,
@@ -268,6 +325,11 @@ async function writeDetailsForLanguage(detailList, language, outputDir) {
     course.hasDetail = true;
     course.detailPath = publicPath;
     course.detailPaths.ja = publicPath;
+    course.credits = parseCredits(normalizedDetail.credits);
+    course.courseType = normalizeText(normalizedDetail.courseType);
+    course.creditCategory = creditCategoryFor(normalizedDetail, course);
+    course.searchText = buildSearchText(course, normalizedDetail);
+    course.hasPracticalTeacher = normalizedDetail.teachers?.some((teacher) => String(teacher).includes("＊")) ?? false;
   }
   valid.push(normalizedDetail);
   }
@@ -294,6 +356,10 @@ const generated = `export interface CourseSummary {
   departmentLabel: string | null;
   courseCategoryLabel: string | null;
   courseCodeLabel: string;
+  credits: number;
+  courseType: string;
+  creditCategory: string;
+  hasPracticalTeacher: boolean;
   sourceIndex: number;
   hasDetail: boolean;
   hasEnglishDetail: boolean;
@@ -338,9 +404,10 @@ export interface SyllabusDetail {
   rawText: string;
 }
 
-export const courses: CourseSummary[] = ${JSON.stringify(courses, null, 2)};
+export const courses: CourseSummary[] = ${JSON.stringify(courses.map(({ searchText, ...course }) => course), null, 2)};
 `;
 
 await fs.writeFile(outputPath, generated, "utf8");
+await fs.writeFile(searchIndexOutputPath, JSON.stringify(Object.fromEntries(courses.map((course) => [course.id, course.searchText ?? ""]))), "utf8");
 console.log(`Generated ${courses.length} courses, ${validDetails.length} Japanese detail pages, and ${validEnglishDetails.length} English detail pages.`);
 console.log(`Example route: ${courses[0].routePath}`);
