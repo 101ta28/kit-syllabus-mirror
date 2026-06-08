@@ -6,13 +6,13 @@
 
 元サイトの詳細 URL は検索結果 index に依存するため共有に向きません。このアプリでは次の形式にしています。
 
-    /courses/:year/:semester/:courseCode/:courseNameSlug
+    /courses/:year/:semester/:courseCode
 
 例:
 
-    /courses/2026/spring/G001-01/shugaku-kiso-a
+    /courses/2026/spring/G001-01
 
-`semester` は `spring`, `fall`, `full-year` のような英語 token です。科目名 slug は既知の科目では読みやすい英字を使い、それ以外は安定した ASCII slug を生成します。
+`semester` は `spring`, `fall`, `full-year` のような英語 token です。2026 年度の取得済みデータでは `年度 + 学期 + 科目コード` が 1056 件すべて一意だったため、URL は科目コードで終わる形にしています。
 
 ## 開発
 
@@ -28,4 +28,9 @@
 
 ## データ
 
-このプロトタイプは親ディレクトリにある取得済みファイル `../europa-syllabus-search-detail.json` からデータを生成します。検索結果 1056 件は一覧として取り込み、詳細本文は取得済みの `G001-01 修学基礎Ａ` を構造化しています。ほかの科目は共有 URL と基本情報を表示し、詳細本文は今後の取り込み対象として扱います。
+このプロトタイプは親ディレクトリにある取得済みファイル `../europa-syllabus-search-detail.json` と、Chrome DevTools Protocol 経由で取得した `data/syllabus-details-cache.json` からデータを生成します。検索結果 1056 件は一覧として取り込み、詳細本文も 1056 件すべてを `public/details/*.json` に分割して生成しています。
+
+詳細を再取得する場合:
+
+    bun run scrape-details
+    bun run prepare-data

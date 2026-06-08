@@ -1,9 +1,9 @@
 import { useEffect, useMemo, useState } from "react";
-import { courses, detailsByCourseId, type CourseSummary, type SyllabusDetail } from "./data/generated";
+import { courses, type CourseSummary, type SyllabusDetail } from "./data/generated";
 
 type View =
   | { name: "list" }
-  | { name: "detail"; course: CourseSummary; detail?: SyllabusDetail; canonicalMismatch: boolean };
+  | { name: "detail"; course: CourseSummary };
 
 const semesterOrder = ["spring", "fall", "full-year"];
 
@@ -25,7 +25,7 @@ function useLocationPath() {
 function routeToView(pathname: string): View {
   const parts = pathname.split("/").filter(Boolean).map(decodeURIComponent);
   if (parts[0] !== "courses" || parts.length < 4) return { name: "list" };
-  const [, year, semester, code, slug = ""] = parts;
+  const [, year, semester, code] = parts;
   const course = courses.find(
     (item) =>
       item.yearLabel === year &&
@@ -36,8 +36,6 @@ function routeToView(pathname: string): View {
   return {
     name: "detail",
     course,
-    detail: detailsByCourseId[course.id],
-    canonicalMismatch: course.courseNameSlug !== slug,
   };
 }
 
@@ -177,7 +175,7 @@ function CourseList() {
                   <button className="link-button" onClick={() => navigate(course.routePath)}>
                     {course.courseName}
                   </button>
-                  {detailsByCourseId[course.id] && <span className="detail-badge">詳細あり</span>}
+                  {course.hasDetail && <span className="detail-badge">詳細あり</span>}
                 </td>
                 <td>{course.programLabel}</td>
                 <td>{course.departmentLabel ?? "全学"}</td>
@@ -221,16 +219,36 @@ function TextSection({ title, body }: { title: string; body?: string }) {
   );
 }
 
-function DetailPage({ course, detail, canonicalMismatch }: Extract<View, { name: "detail" }>) {
+function DetailPage({ course }: Extract<View, { name: "detail" }>) {
+  const [detail, setDetail] = useState<SyllabusDetail | undefined>();
+  const [status, setStatus] = useState<"loading" | "ready" | "empty" | "error">(course.detailPath ? "loading" : "empty");
+
+  useEffect(() => {
+    let cancelled = false;
+    setDetail(undefined);
+    setStatus(course.detailPath ? "loading" : "empty");
+    if (!course.detailPath) return;
+    fetch(course.detailPath)
+      .then((response) => {
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        return response.json() as Promise<SyllabusDetail>;
+      })
+      .then((value) => {
+        if (!cancelled) {
+          setDetail(value);
+          setStatus("ready");
+        }
+      })
+      .catch(() => {
+        if (!cancelled) setStatus("error");
+      });
+    return () => {
+      cancelled = true;
+    };
+  }, [course.detailPath]);
+
   return (
     <main>
-      {canonicalMismatch && (
-        <div className="canonical-warning">
-          このリンクは開けますが、正規 URL は{" "}
-          <button onClick={() => navigate(course.routePath)}>{course.routePath}</button>
-          です。
-        </div>
-      )}
       <button className="back-button" onClick={() => navigate("/courses")}>
         ← 一覧へ戻る
       </button>
@@ -243,9 +261,16 @@ function DetailPage({ course, detail, canonicalMismatch }: Extract<View, { name:
         <MetadataStrip course={course} detail={detail} />
       </section>
 
-      {!detail && (
+      {status === "loading" && (
         <section className="empty-detail">
-          <h2>共有 URL は作成済みです</h2>
+          <h2>詳細を読み込み中です</h2>
+          <p>この科目の詳細 JSON を取得しています。</p>
+        </section>
+      )}
+
+      {(status === "empty" || status === "error") && (
+        <section className="empty-detail">
+          <h2>{status === "error" ? "詳細を読み込めませんでした" : "共有 URL は作成済みです"}</h2>
           <p>
             この科目のフルシラバス本文はまだ取り込んでいません。検索結果由来の基本情報は URL に固定済みなので、今後の詳細取り込み時にも同じ共有リンクを使えます。
           </p>
@@ -322,29 +347,33 @@ function DetailPage({ course, detail, canonicalMismatch }: Extract<View, { name:
 
           <section className="detail-section">
             <h2>授業明細</h2>
-            <div className="lesson-list">
-              {detail.lessons.map((lesson) => (
-                <article key={lesson.index}>
-                  <div className="lesson-index">{lesson.index}</div>
-                  <div>
-                    <h3>学習内容</h3>
-                    <p className="preline">{lesson.content}</p>
-                  </div>
-                  <div>
-                    <h3>運営方法</h3>
-                    <p className="preline">{lesson.operation}</p>
-                  </div>
-                  <div>
-                    <h3>学習課題</h3>
-                    <p className="preline">{lesson.assignments}</p>
-                  </div>
-                  <div>
-                    <h3>時間</h3>
-                    <p className="preline">{lesson.minutes}</p>
-                  </div>
-                </article>
-              ))}
-            </div>
+            {detail.lessons.length ? (
+              <div className="lesson-list">
+                {detail.lessons.map((lesson) => (
+                  <article key={lesson.index}>
+                    <div className="lesson-index">{lesson.index}</div>
+                    <div>
+                      <h3>学習内容</h3>
+                      <p className="preline">{lesson.content}</p>
+                    </div>
+                    <div>
+                      <h3>運営方法</h3>
+                      <p className="preline">{lesson.operation}</p>
+                    </div>
+                    <div>
+                      <h3>学習課題</h3>
+                      <p className="preline">{lesson.assignments}</p>
+                    </div>
+                    <div>
+                      <h3>時間</h3>
+                      <p className="preline">{lesson.minutes}</p>
+                    </div>
+                  </article>
+                ))}
+              </div>
+            ) : (
+              <p className="muted">この科目の授業明細は取得データ内で確認できませんでした。</p>
+            )}
           </section>
         </>
       )}

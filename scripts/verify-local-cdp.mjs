@@ -93,10 +93,23 @@ const filtered = await evaluate(
   }))()`,
 );
 
-await tab.send("Page.navigate", { url: BASE + "/courses/2026/spring/G001-01/shugaku-kiso-a" });
+await tab.send("Page.navigate", { url: BASE + "/courses/2026/spring/G001-01" });
 await waitLoad(tab);
 await sleep(1500);
 const detail = await evaluate(
+  tab,
+  `(() => ({
+    h1: document.querySelector('h1')?.innerText,
+    hasTeachers: document.body.innerText.includes('担当教員'),
+    hasLessons: document.body.innerText.includes('授業明細'),
+    url: location.pathname
+  }))()`,
+);
+
+await tab.send("Page.navigate", { url: BASE + "/courses/2026/spring/M004-01" });
+await waitLoad(tab);
+await sleep(1500);
+const secondaryDetail = await evaluate(
   tab,
   `(() => ({
     h1: document.querySelector('h1')?.innerText,
@@ -112,4 +125,4 @@ await tab.send("Page.captureScreenshot", { format: "png", captureBeyondViewport:
 });
 
 tab.close();
-console.log(JSON.stringify({ home, filtered, detail }, null, 2));
+console.log(JSON.stringify({ home, filtered, detail, secondaryDetail }, null, 2));

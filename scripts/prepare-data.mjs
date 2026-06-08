@@ -3,7 +3,9 @@ import path from "node:path";
 
 const root = process.cwd();
 const sourcePath = path.resolve(root, "../europa-syllabus-search-detail.json");
+const detailCachePath = path.resolve(root, "data/syllabus-details-cache.json");
 const outputPath = path.resolve(root, "src/data/generated.ts");
+const detailsOutputDir = path.resolve(root, "public/details");
 
 const knownCourseSlugs = new Map([
   ["修学基礎Ａ", "shugaku-kiso-a"],
@@ -117,7 +119,12 @@ function extractLessons(rows) {
   if (start < 0) return [];
   return rows
     .slice(start + 2)
-    .filter((row) => row.cells?.[0]?.text?.trim().startsWith("第"))
+    .filter((row) => {
+      const first = row.cells?.[0];
+      const firstText = normalizeText(first?.text ?? "");
+      const firstClass = String(first?.className ?? "");
+      return firstText && firstText !== "回数" && (firstText.startsWith("第") || firstClass.includes("nth"));
+    })
     .map((row) => ({
       index: normalizeText(row.cells[0]?.text ?? ""),
       content: normalizeText(row.cells[1]?.text ?? ""),
@@ -203,14 +210,41 @@ function toCourse(raw, index) {
     departmentLabel: raw.departmentLabel == null ? null : normalizeText(raw.departmentLabel),
     courseCategoryLabel: raw.courseCategoryLabel == null ? null : normalizeText(raw.courseCategoryLabel),
     courseCodeLabel: String(raw.courseCodeLabel ?? ""),
-    routePath: `/courses/${raw.yearLabel}/${semSlug}/${raw.courseCodeLabel}/${courseNameSlug}`,
+    sourceIndex: index,
+    hasDetail: false,
+    detailPath: null,
+    routePath: `/courses/${raw.yearLabel}/${semSlug}/${raw.courseCodeLabel}`,
   };
 }
 
 const source = JSON.parse(await fs.readFile(sourcePath, "utf8"));
 const rawCourses = JSON.parse(source.resultsBody);
 const courses = rawCourses.map(toCourse);
-const detail = buildDetail(source.detailDom, courses[0]);
+let details = [];
+try {
+  details = JSON.parse(await fs.readFile(detailCachePath, "utf8"));
+} catch {
+  details = [{ sourceIndex: 0, ...buildDetail(source.detailDom, courses[0]) }];
+}
+
+await fs.mkdir(detailsOutputDir, { recursive: true });
+const validDetails = [];
+for (const detail of details) {
+  const sourceIndex = Number(detail.sourceIndex ?? 0);
+  const course = courses[sourceIndex];
+  if (!course) continue;
+  const normalizedDetail = {
+    ...detail,
+    sourceIndex,
+    courseId: course.id,
+    title: detail.title || course.courseName,
+  };
+  const filename = `${sourceIndex}.json`;
+  await fs.writeFile(path.join(detailsOutputDir, filename), JSON.stringify(normalizedDetail, null, 2), "utf8");
+  course.hasDetail = true;
+  course.detailPath = `/details/${filename}`;
+  validDetails.push(normalizedDetail);
+}
 
 const generated = `export interface CourseSummary {
   id: string;
@@ -230,10 +264,14 @@ const generated = `export interface CourseSummary {
   departmentLabel: string | null;
   courseCategoryLabel: string | null;
   courseCodeLabel: string;
+  sourceIndex: number;
+  hasDetail: boolean;
+  detailPath: string | null;
   routePath: string;
 }
 
 export interface SyllabusDetail {
+  sourceIndex: number;
   courseId: string;
   sourceUrl: string;
   importedAt: string;
@@ -264,10 +302,8 @@ export interface SyllabusDetail {
 }
 
 export const courses: CourseSummary[] = ${JSON.stringify(courses, null, 2)};
-
-export const detailsByCourseId: Record<string, SyllabusDetail> = ${JSON.stringify({ [courses[0].id]: detail }, null, 2)};
 `;
 
 await fs.writeFile(outputPath, generated, "utf8");
-console.log(`Generated ${courses.length} courses and ${Object.keys({ [courses[0].id]: detail }).length} detail page.`);
+console.log(`Generated ${courses.length} courses and ${validDetails.length} detail pages.`);
 console.log(`Example route: ${courses[0].routePath}`);

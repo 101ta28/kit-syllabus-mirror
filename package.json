@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "prepare-data": "node scripts/prepare-data.mjs",
+    "scrape-details": "node scripts/scrape-details-cdp.mjs",
     "dev": "vite",
     "build": "tsc -b && vite build",
     "preview": "vite preview"

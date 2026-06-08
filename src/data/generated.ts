@@ -16,10 +16,14 @@ export interface CourseSummary {
   departmentLabel: string | null;
   courseCategoryLabel: string | null;
   courseCodeLabel: string;
+  sourceIndex: number;
+  hasDetail: boolean;
+  detailPath: string | null;
   routePath: string;
 }
 
 export interface SyllabusDetail {
+  sourceIndex: number;
   courseId: string;
   sourceUrl: string;
   importedAt: string;
@@ -68,7 +72,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G001-01",
-    "routePath": "/courses/2026/spring/G001-01/shugaku-kiso-a"
+    "sourceIndex": 0,
+    "hasDetail": true,
+    "detailPath": "/details/0.json",
+    "routePath": "/courses/2026/spring/G001-01"
   },
   {
     "id": "2026:fall:G002-01:0:1",
@@ -88,7 +95,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G002-01",
-    "routePath": "/courses/2026/fall/G002-01/shugaku-kiso-b"
+    "sourceIndex": 1,
+    "hasDetail": true,
+    "detailPath": "/details/1.json",
+    "routePath": "/courses/2026/fall/G002-01"
   },
   {
     "id": "2026:spring:G003-01:0:2",
@@ -108,7 +118,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G003-01",
-    "routePath": "/courses/2026/spring/G003-01/engineers-and-sustainable-society"
+    "sourceIndex": 2,
+    "hasDetail": true,
+    "detailPath": "/details/2.json",
+    "routePath": "/courses/2026/spring/G003-01"
   },
   {
     "id": "2026:fall:G003-01:0:3",
@@ -128,7 +141,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G003-01",
-    "routePath": "/courses/2026/fall/G003-01/engineers-and-sustainable-society"
+    "sourceIndex": 3,
+    "hasDetail": true,
+    "detailPath": "/details/3.json",
+    "routePath": "/courses/2026/fall/G003-01"
   },
   {
     "id": "2026:spring:G011-01:0:4",
@@ -148,7 +164,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G011-01",
-    "routePath": "/courses/2026/spring/G011-01/japanese-studies-a"
+    "sourceIndex": 4,
+    "hasDetail": true,
+    "detailPath": "/details/4.json",
+    "routePath": "/courses/2026/spring/G011-01"
   },
   {
     "id": "2026:fall:G011-01:0:5",
@@ -168,7 +187,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G011-01",
-    "routePath": "/courses/2026/fall/G011-01/japanese-studies-a"
+    "sourceIndex": 5,
+    "hasDetail": true,
+    "detailPath": "/details/5.json",
+    "routePath": "/courses/2026/fall/G011-01"
   },
   {
     "id": "2026:spring:G012-01:0:6",
@@ -188,7 +210,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G012-01",
-    "routePath": "/courses/2026/spring/G012-01/b"
+    "sourceIndex": 6,
+    "hasDetail": true,
+    "detailPath": "/details/6.json",
+    "routePath": "/courses/2026/spring/G012-01"
   },
   {
     "id": "2026:fall:G012-01:0:7",
@@ -208,7 +233,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G012-01",
-    "routePath": "/courses/2026/fall/G012-01/b"
+    "sourceIndex": 7,
+    "hasDetail": true,
+    "detailPath": "/details/7.json",
+    "routePath": "/courses/2026/fall/G012-01"
   },
   {
     "id": "2026:spring:G013-01:0:8",
@@ -228,7 +256,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G013-01",
-    "routePath": "/courses/2026/spring/G013-01/course-ngw1a7"
+    "sourceIndex": 8,
+    "hasDetail": true,
+    "detailPath": "/details/8.json",
+    "routePath": "/courses/2026/spring/G013-01"
   },
   {
     "id": "2026:fall:G013-01:0:9",
@@ -248,7 +279,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G013-01",
-    "routePath": "/courses/2026/fall/G013-01/course-ngw1a7"
+    "sourceIndex": 9,
+    "hasDetail": true,
+    "detailPath": "/details/9.json",
+    "routePath": "/courses/2026/fall/G013-01"
   },
   {
     "id": "2026:spring:G060-01:0:10",
@@ -268,7 +302,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G060-01",
-    "routePath": "/courses/2026/spring/G060-01/course-1x3akbb"
+    "sourceIndex": 10,
+    "hasDetail": true,
+    "detailPath": "/details/10.json",
+    "routePath": "/courses/2026/spring/G060-01"
   },
   {
     "id": "2026:fall:G060-01:0:11",
@@ -288,7 +325,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G060-01",
-    "routePath": "/courses/2026/fall/G060-01/course-1x3akbb"
+    "sourceIndex": 11,
+    "hasDetail": true,
+    "detailPath": "/details/11.json",
+    "routePath": "/courses/2026/fall/G060-01"
   },
   {
     "id": "2026:spring:G071-01:0:12",
@@ -308,7 +348,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G071-01",
-    "routePath": "/courses/2026/spring/G071-01/course-1v0b5ri"
+    "sourceIndex": 12,
+    "hasDetail": true,
+    "detailPath": "/details/12.json",
+    "routePath": "/courses/2026/spring/G071-01"
   },
   {
     "id": "2026:fall:G072-01:0:13",
@@ -328,7 +371,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G072-01",
-    "routePath": "/courses/2026/fall/G072-01/course-1osm1ki"
+    "sourceIndex": 13,
+    "hasDetail": true,
+    "detailPath": "/details/13.json",
+    "routePath": "/courses/2026/fall/G072-01"
   },
   {
     "id": "2026:fall:G072-03:0:14",
@@ -348,7 +394,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G072-03",
-    "routePath": "/courses/2026/fall/G072-03/course-v0sznd"
+    "sourceIndex": 14,
+    "hasDetail": true,
+    "detailPath": "/details/14.json",
+    "routePath": "/courses/2026/fall/G072-03"
   },
   {
     "id": "2026:fall:G072-04:0:15",
@@ -368,7 +417,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G072-04",
-    "routePath": "/courses/2026/fall/G072-04/course-103t77o"
+    "sourceIndex": 15,
+    "hasDetail": true,
+    "detailPath": "/details/15.json",
+    "routePath": "/courses/2026/fall/G072-04"
   },
   {
     "id": "2026:fall:G072-05:0:16",
@@ -388,7 +440,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G072-05",
-    "routePath": "/courses/2026/fall/G072-05/course-4cgb1a"
+    "sourceIndex": 16,
+    "hasDetail": true,
+    "detailPath": "/details/16.json",
+    "routePath": "/courses/2026/fall/G072-05"
   },
   {
     "id": "2026:fall:G072-06:0:17",
@@ -408,7 +463,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G072-06",
-    "routePath": "/courses/2026/fall/G072-06/course-1uc0ml0"
+    "sourceIndex": 17,
+    "hasDetail": true,
+    "detailPath": "/details/17.json",
+    "routePath": "/courses/2026/fall/G072-06"
   },
   {
     "id": "2026:fall:G072-07:0:18",
@@ -428,7 +486,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G072-07",
-    "routePath": "/courses/2026/fall/G072-07/course-p89qgu"
+    "sourceIndex": 18,
+    "hasDetail": true,
+    "detailPath": "/details/18.json",
+    "routePath": "/courses/2026/fall/G072-07"
   },
   {
     "id": "2026:fall:G072-09:0:19",
@@ -448,7 +509,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G072-09",
-    "routePath": "/courses/2026/fall/G072-09/course-nizj20"
+    "sourceIndex": 19,
+    "hasDetail": true,
+    "detailPath": "/details/19.json",
+    "routePath": "/courses/2026/fall/G072-09"
   },
   {
     "id": "2026:fall:G072-12:0:20",
@@ -468,7 +532,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G072-12",
-    "routePath": "/courses/2026/fall/G072-12/course-wgewvh"
+    "sourceIndex": 20,
+    "hasDetail": true,
+    "detailPath": "/details/20.json",
+    "routePath": "/courses/2026/fall/G072-12"
   },
   {
     "id": "2026:fall:G072-13:0:21",
@@ -488,7 +555,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G072-13",
-    "routePath": "/courses/2026/fall/G072-13/course-vrfij4"
+    "sourceIndex": 21,
+    "hasDetail": true,
+    "detailPath": "/details/21.json",
+    "routePath": "/courses/2026/fall/G072-13"
   },
   {
     "id": "2026:fall:G072-14:0:22",
@@ -508,7 +578,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G072-14",
-    "routePath": "/courses/2026/fall/G072-14/course-106nt81"
+    "sourceIndex": 22,
+    "hasDetail": true,
+    "detailPath": "/details/22.json",
+    "routePath": "/courses/2026/fall/G072-14"
   },
   {
     "id": "2026:fall:G072-15:0:23",
@@ -528,7 +601,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G072-15",
-    "routePath": "/courses/2026/fall/G072-15/100km"
+    "sourceIndex": 23,
+    "hasDetail": true,
+    "detailPath": "/details/23.json",
+    "routePath": "/courses/2026/fall/G072-15"
   },
   {
     "id": "2026:spring:G084-01:0:24",
@@ -548,7 +624,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G084-01",
-    "routePath": "/courses/2026/spring/G084-01/course-8l8eyu"
+    "sourceIndex": 24,
+    "hasDetail": true,
+    "detailPath": "/details/24.json",
+    "routePath": "/courses/2026/spring/G084-01"
   },
   {
     "id": "2026:spring:G101-01:0:25",
@@ -568,7 +647,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G101-01",
-    "routePath": "/courses/2026/spring/G101-01/1"
+    "sourceIndex": 25,
+    "hasDetail": true,
+    "detailPath": "/details/25.json",
+    "routePath": "/courses/2026/spring/G101-01"
   },
   {
     "id": "2026:fall:G102-01:0:26",
@@ -588,7 +670,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G102-01",
-    "routePath": "/courses/2026/fall/G102-01/2"
+    "sourceIndex": 26,
+    "hasDetail": true,
+    "detailPath": "/details/26.json",
+    "routePath": "/courses/2026/fall/G102-01"
   },
   {
     "id": "2026:spring:G103-01:0:27",
@@ -608,7 +693,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G103-01",
-    "routePath": "/courses/2026/spring/G103-01/3"
+    "sourceIndex": 27,
+    "hasDetail": true,
+    "detailPath": "/details/27.json",
+    "routePath": "/courses/2026/spring/G103-01"
   },
   {
     "id": "2026:fall:G104-01:0:28",
@@ -628,7 +716,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G104-01",
-    "routePath": "/courses/2026/fall/G104-01/4"
+    "sourceIndex": 28,
+    "hasDetail": true,
+    "detailPath": "/details/28.json",
+    "routePath": "/courses/2026/fall/G104-01"
   },
   {
     "id": "2026:spring:G105-01:0:29",
@@ -648,7 +739,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G105-01",
-    "routePath": "/courses/2026/spring/G105-01/5"
+    "sourceIndex": 29,
+    "hasDetail": true,
+    "detailPath": "/details/29.json",
+    "routePath": "/courses/2026/spring/G105-01"
   },
   {
     "id": "2026:fall:G107-01:0:30",
@@ -668,7 +762,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G107-01",
-    "routePath": "/courses/2026/fall/G107-01/course-3e6r82"
+    "sourceIndex": 30,
+    "hasDetail": true,
+    "detailPath": "/details/30.json",
+    "routePath": "/courses/2026/fall/G107-01"
   },
   {
     "id": "2026:fall:G108-01:0:31",
@@ -688,7 +785,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G108-01",
-    "routePath": "/courses/2026/fall/G108-01/1"
+    "sourceIndex": 31,
+    "hasDetail": true,
+    "detailPath": "/details/31.json",
+    "routePath": "/courses/2026/fall/G108-01"
   },
   {
     "id": "2026:spring:G109-01:0:32",
@@ -708,7 +808,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G109-01",
-    "routePath": "/courses/2026/spring/G109-01/2"
+    "sourceIndex": 32,
+    "hasDetail": true,
+    "detailPath": "/details/32.json",
+    "routePath": "/courses/2026/spring/G109-01"
   },
   {
     "id": "2026:fall:G110-01:0:33",
@@ -728,7 +831,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G110-01",
-    "routePath": "/courses/2026/fall/G110-01/course-19kzh7f"
+    "sourceIndex": 33,
+    "hasDetail": true,
+    "detailPath": "/details/33.json",
+    "routePath": "/courses/2026/fall/G110-01"
   },
   {
     "id": "2026:spring:G111-01:0:34",
@@ -748,7 +854,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G111-01",
-    "routePath": "/courses/2026/spring/G111-01/course-1f0nsj1"
+    "sourceIndex": 34,
+    "hasDetail": true,
+    "detailPath": "/details/34.json",
+    "routePath": "/courses/2026/spring/G111-01"
   },
   {
     "id": "2026:fall:G112-01:0:35",
@@ -768,7 +877,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G112-01",
-    "routePath": "/courses/2026/fall/G112-01/stem"
+    "sourceIndex": 35,
+    "hasDetail": true,
+    "detailPath": "/details/35.json",
+    "routePath": "/courses/2026/fall/G112-01"
   },
   {
     "id": "2026:spring:G113-01:0:36",
@@ -788,7 +900,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G113-01",
-    "routePath": "/courses/2026/spring/G113-01/course-dpngfz"
+    "sourceIndex": 36,
+    "hasDetail": true,
+    "detailPath": "/details/36.json",
+    "routePath": "/courses/2026/spring/G113-01"
   },
   {
     "id": "2026:fall:G114-01:0:37",
@@ -808,7 +923,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G114-01",
-    "routePath": "/courses/2026/fall/G114-01/toeic"
+    "sourceIndex": 37,
+    "hasDetail": true,
+    "detailPath": "/details/37.json",
+    "routePath": "/courses/2026/fall/G114-01"
   },
   {
     "id": "2026:fall:G115-01:0:38",
@@ -828,7 +946,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G115-01",
-    "routePath": "/courses/2026/fall/G115-01/toeic"
+    "sourceIndex": 38,
+    "hasDetail": true,
+    "detailPath": "/details/38.json",
+    "routePath": "/courses/2026/fall/G115-01"
   },
   {
     "id": "2026:spring:G116-01:0:39",
@@ -848,7 +969,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G116-01",
-    "routePath": "/courses/2026/spring/G116-01/course-972s9i"
+    "sourceIndex": 39,
+    "hasDetail": true,
+    "detailPath": "/details/39.json",
+    "routePath": "/courses/2026/spring/G116-01"
   },
   {
     "id": "2026:fall:G116-01:0:40",
@@ -868,7 +992,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G116-01",
-    "routePath": "/courses/2026/fall/G116-01/course-972s9i"
+    "sourceIndex": 40,
+    "hasDetail": true,
+    "detailPath": "/details/40.json",
+    "routePath": "/courses/2026/fall/G116-01"
   },
   {
     "id": "2026:spring:G117-01:0:41",
@@ -888,7 +1015,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G117-01",
-    "routePath": "/courses/2026/spring/G117-01/course-1b28ny8"
+    "sourceIndex": 41,
+    "hasDetail": true,
+    "detailPath": "/details/41.json",
+    "routePath": "/courses/2026/spring/G117-01"
   },
   {
     "id": "2026:spring:G605-01:0:42",
@@ -908,7 +1038,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G605-01",
-    "routePath": "/courses/2026/spring/G605-01/japanese-communication-1"
+    "sourceIndex": 42,
+    "hasDetail": true,
+    "detailPath": "/details/42.json",
+    "routePath": "/courses/2026/spring/G605-01"
   },
   {
     "id": "2026:spring:G606-01:0:43",
@@ -928,7 +1061,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G606-01",
-    "routePath": "/courses/2026/spring/G606-01/japanese-communication-2"
+    "sourceIndex": 43,
+    "hasDetail": true,
+    "detailPath": "/details/43.json",
+    "routePath": "/courses/2026/spring/G606-01"
   },
   {
     "id": "2026:spring:G607-01:0:44",
@@ -948,7 +1084,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G607-01",
-    "routePath": "/courses/2026/spring/G607-01/japanese-communication-3"
+    "sourceIndex": 44,
+    "hasDetail": true,
+    "detailPath": "/details/44.json",
+    "routePath": "/courses/2026/spring/G607-01"
   },
   {
     "id": "2026:spring:G608-01:0:45",
@@ -968,7 +1107,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G608-01",
-    "routePath": "/courses/2026/spring/G608-01/japanese-seminar"
+    "sourceIndex": 45,
+    "hasDetail": true,
+    "detailPath": "/details/45.json",
+    "routePath": "/courses/2026/spring/G608-01"
   },
   {
     "id": "2026:spring:G611-01:0:46",
@@ -988,7 +1130,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G611-01",
-    "routePath": "/courses/2026/spring/G611-01/japanese-for-science-and-technology-1"
+    "sourceIndex": 46,
+    "hasDetail": true,
+    "detailPath": "/details/46.json",
+    "routePath": "/courses/2026/spring/G611-01"
   },
   {
     "id": "2026:spring:G613-01:0:47",
@@ -1008,7 +1153,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G613-01",
-    "routePath": "/courses/2026/spring/G613-01/japanese-basics-1"
+    "sourceIndex": 47,
+    "hasDetail": true,
+    "detailPath": "/details/47.json",
+    "routePath": "/courses/2026/spring/G613-01"
   },
   {
     "id": "2026:spring:G616-01:0:48",
@@ -1028,7 +1176,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G616-01",
-    "routePath": "/courses/2026/spring/G616-01/english-academic-writing-1"
+    "sourceIndex": 48,
+    "hasDetail": true,
+    "detailPath": "/details/48.json",
+    "routePath": "/courses/2026/spring/G616-01"
   },
   {
     "id": "2026:spring:G151-01:0:49",
@@ -1048,7 +1199,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G151-01",
-    "routePath": "/courses/2026/spring/G151-01/i"
+    "sourceIndex": 49,
+    "hasDetail": true,
+    "detailPath": "/details/49.json",
+    "routePath": "/courses/2026/spring/G151-01"
   },
   {
     "id": "2026:fall:G151-01:0:50",
@@ -1068,7 +1222,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G151-01",
-    "routePath": "/courses/2026/fall/G151-01/i"
+    "sourceIndex": 50,
+    "hasDetail": true,
+    "detailPath": "/details/50.json",
+    "routePath": "/courses/2026/fall/G151-01"
   },
   {
     "id": "2026:spring:G152-01:0:51",
@@ -1088,7 +1245,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G152-01",
-    "routePath": "/courses/2026/spring/G152-01/ii"
+    "sourceIndex": 51,
+    "hasDetail": true,
+    "detailPath": "/details/51.json",
+    "routePath": "/courses/2026/spring/G152-01"
   },
   {
     "id": "2026:fall:G152-01:0:52",
@@ -1108,7 +1268,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G152-01",
-    "routePath": "/courses/2026/fall/G152-01/ii"
+    "sourceIndex": 52,
+    "hasDetail": true,
+    "detailPath": "/details/52.json",
+    "routePath": "/courses/2026/fall/G152-01"
   },
   {
     "id": "2026:spring:G153-01:0:53",
@@ -1128,7 +1291,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G153-01",
-    "routePath": "/courses/2026/spring/G153-01/course-1vx3vii"
+    "sourceIndex": 53,
+    "hasDetail": true,
+    "detailPath": "/details/53.json",
+    "routePath": "/courses/2026/spring/G153-01"
   },
   {
     "id": "2026:fall:G153-01:0:54",
@@ -1148,7 +1314,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G153-01",
-    "routePath": "/courses/2026/fall/G153-01/course-10zvn7s"
+    "sourceIndex": 54,
+    "hasDetail": true,
+    "detailPath": "/details/54.json",
+    "routePath": "/courses/2026/fall/G153-01"
   },
   {
     "id": "2026:spring:G154-01:0:55",
@@ -1168,7 +1337,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G154-01",
-    "routePath": "/courses/2026/spring/G154-01/i"
+    "sourceIndex": 55,
+    "hasDetail": true,
+    "detailPath": "/details/55.json",
+    "routePath": "/courses/2026/spring/G154-01"
   },
   {
     "id": "2026:fall:G154-01:0:56",
@@ -1188,7 +1360,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G154-01",
-    "routePath": "/courses/2026/fall/G154-01/i"
+    "sourceIndex": 56,
+    "hasDetail": true,
+    "detailPath": "/details/56.json",
+    "routePath": "/courses/2026/fall/G154-01"
   },
   {
     "id": "2026:spring:G155-01:0:57",
@@ -1208,7 +1383,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G155-01",
-    "routePath": "/courses/2026/spring/G155-01/ii"
+    "sourceIndex": 57,
+    "hasDetail": true,
+    "detailPath": "/details/57.json",
+    "routePath": "/courses/2026/spring/G155-01"
   },
   {
     "id": "2026:fall:G155-01:0:58",
@@ -1228,7 +1406,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G155-01",
-    "routePath": "/courses/2026/fall/G155-01/ii"
+    "sourceIndex": 58,
+    "hasDetail": true,
+    "detailPath": "/details/58.json",
+    "routePath": "/courses/2026/fall/G155-01"
   },
   {
     "id": "2026:fall:G156-01:0:59",
@@ -1248,7 +1429,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G156-01",
-    "routePath": "/courses/2026/fall/G156-01/a"
+    "sourceIndex": 59,
+    "hasDetail": true,
+    "detailPath": "/details/59.json",
+    "routePath": "/courses/2026/fall/G156-01"
   },
   {
     "id": "2026:spring:G157-01:0:60",
@@ -1268,7 +1452,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G157-01",
-    "routePath": "/courses/2026/spring/G157-01/course-qhtp5p"
+    "sourceIndex": 60,
+    "hasDetail": true,
+    "detailPath": "/details/60.json",
+    "routePath": "/courses/2026/spring/G157-01"
   },
   {
     "id": "2026:fall:G157-01:0:61",
@@ -1288,7 +1475,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G157-01",
-    "routePath": "/courses/2026/fall/G157-01/course-qhtp5p"
+    "sourceIndex": 61,
+    "hasDetail": true,
+    "detailPath": "/details/61.json",
+    "routePath": "/courses/2026/fall/G157-01"
   },
   {
     "id": "2026:spring:G158-01:0:62",
@@ -1308,7 +1498,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G158-01",
-    "routePath": "/courses/2026/spring/G158-01/a"
+    "sourceIndex": 62,
+    "hasDetail": true,
+    "detailPath": "/details/62.json",
+    "routePath": "/courses/2026/spring/G158-01"
   },
   {
     "id": "2026:fall:G159-01:0:63",
@@ -1328,7 +1521,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G159-01",
-    "routePath": "/courses/2026/fall/G159-01/b"
+    "sourceIndex": 63,
+    "hasDetail": true,
+    "detailPath": "/details/63.json",
+    "routePath": "/courses/2026/fall/G159-01"
   },
   {
     "id": "2026:spring:G160-01:0:64",
@@ -1348,7 +1544,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G160-01",
-    "routePath": "/courses/2026/spring/G160-01/iii"
+    "sourceIndex": 64,
+    "hasDetail": true,
+    "detailPath": "/details/64.json",
+    "routePath": "/courses/2026/spring/G160-01"
   },
   {
     "id": "2026:spring:G161-01:0:65",
@@ -1368,7 +1567,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G161-01",
-    "routePath": "/courses/2026/spring/G161-01/course-1255mcm"
+    "sourceIndex": 65,
+    "hasDetail": true,
+    "detailPath": "/details/65.json",
+    "routePath": "/courses/2026/spring/G161-01"
   },
   {
     "id": "2026:fall:G161-01:0:66",
@@ -1388,7 +1590,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G161-01",
-    "routePath": "/courses/2026/fall/G161-01/course-1255mcm"
+    "sourceIndex": 66,
+    "hasDetail": true,
+    "detailPath": "/details/66.json",
+    "routePath": "/courses/2026/fall/G161-01"
   },
   {
     "id": "2026:fall:G162-01:0:67",
@@ -1408,7 +1613,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G162-01",
-    "routePath": "/courses/2026/fall/G162-01/course-xzx60j"
+    "sourceIndex": 67,
+    "hasDetail": true,
+    "detailPath": "/details/67.json",
+    "routePath": "/courses/2026/fall/G162-01"
   },
   {
     "id": "2026:spring:G201-01:0:68",
@@ -1428,7 +1636,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G201-01",
-    "routePath": "/courses/2026/spring/G201-01/i"
+    "sourceIndex": 68,
+    "hasDetail": true,
+    "detailPath": "/details/68.json",
+    "routePath": "/courses/2026/spring/G201-01"
   },
   {
     "id": "2026:fall:G202-01:0:69",
@@ -1448,7 +1659,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G202-01",
-    "routePath": "/courses/2026/fall/G202-01/ii"
+    "sourceIndex": 69,
+    "hasDetail": true,
+    "detailPath": "/details/69.json",
+    "routePath": "/courses/2026/fall/G202-01"
   },
   {
     "id": "2026:spring:G203-01:0:70",
@@ -1468,7 +1682,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G203-01",
-    "routePath": "/courses/2026/spring/G203-01/i"
+    "sourceIndex": 70,
+    "hasDetail": true,
+    "detailPath": "/details/70.json",
+    "routePath": "/courses/2026/spring/G203-01"
   },
   {
     "id": "2026:fall:G204-01:0:71",
@@ -1488,7 +1705,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G204-01",
-    "routePath": "/courses/2026/fall/G204-01/ii"
+    "sourceIndex": 71,
+    "hasDetail": true,
+    "detailPath": "/details/71.json",
+    "routePath": "/courses/2026/fall/G204-01"
   },
   {
     "id": "2026:fall:G209-01:0:72",
@@ -1508,7 +1728,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G209-01",
-    "routePath": "/courses/2026/fall/G209-01/course-16thsb9"
+    "sourceIndex": 72,
+    "hasDetail": true,
+    "detailPath": "/details/72.json",
+    "routePath": "/courses/2026/fall/G209-01"
   },
   {
     "id": "2026:fall:G211-01:0:73",
@@ -1528,7 +1751,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G211-01",
-    "routePath": "/courses/2026/fall/G211-01/course-1fcik9d"
+    "sourceIndex": 73,
+    "hasDetail": true,
+    "detailPath": "/details/73.json",
+    "routePath": "/courses/2026/fall/G211-01"
   },
   {
     "id": "2026:spring:G212-01:0:74",
@@ -1548,7 +1774,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G212-01",
-    "routePath": "/courses/2026/spring/G212-01/course-1ldib2j"
+    "sourceIndex": 74,
+    "hasDetail": true,
+    "detailPath": "/details/74.json",
+    "routePath": "/courses/2026/spring/G212-01"
   },
   {
     "id": "2026:spring:G221-01:0:75",
@@ -1568,7 +1797,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G221-01",
-    "routePath": "/courses/2026/spring/G221-01/course-1jn4t4b"
+    "sourceIndex": 75,
+    "hasDetail": true,
+    "detailPath": "/details/75.json",
+    "routePath": "/courses/2026/spring/G221-01"
   },
   {
     "id": "2026:fall:G223-01:0:76",
@@ -1588,7 +1820,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G223-01",
-    "routePath": "/courses/2026/fall/G223-01/course-18bt66j"
+    "sourceIndex": 76,
+    "hasDetail": true,
+    "detailPath": "/details/76.json",
+    "routePath": "/courses/2026/fall/G223-01"
   },
   {
     "id": "2026:spring:G240-01:0:77",
@@ -1608,7 +1843,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G240-01",
-    "routePath": "/courses/2026/spring/G240-01/ai"
+    "sourceIndex": 77,
+    "hasDetail": true,
+    "detailPath": "/details/77.json",
+    "routePath": "/courses/2026/spring/G240-01"
   },
   {
     "id": "2026:fall:G240-01:0:78",
@@ -1628,7 +1866,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G240-01",
-    "routePath": "/courses/2026/fall/G240-01/ai"
+    "sourceIndex": 78,
+    "hasDetail": true,
+    "detailPath": "/details/78.json",
+    "routePath": "/courses/2026/fall/G240-01"
   },
   {
     "id": "2026:fall:G241-01:0:79",
@@ -1648,7 +1889,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G241-01",
-    "routePath": "/courses/2026/fall/G241-01/i"
+    "sourceIndex": 79,
+    "hasDetail": true,
+    "detailPath": "/details/79.json",
+    "routePath": "/courses/2026/fall/G241-01"
   },
   {
     "id": "2026:spring:G242-01:0:80",
@@ -1668,7 +1912,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G242-01",
-    "routePath": "/courses/2026/spring/G242-01/ii"
+    "sourceIndex": 80,
+    "hasDetail": true,
+    "detailPath": "/details/80.json",
+    "routePath": "/courses/2026/spring/G242-01"
   },
   {
     "id": "2026:spring:G250-01:0:81",
@@ -1688,7 +1935,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G250-01",
-    "routePath": "/courses/2026/spring/G250-01/course-4j3ocf"
+    "sourceIndex": 81,
+    "hasDetail": true,
+    "detailPath": "/details/81.json",
+    "routePath": "/courses/2026/spring/G250-01"
   },
   {
     "id": "2026:spring:G250-02:0:82",
@@ -1708,7 +1958,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G250-02",
-    "routePath": "/courses/2026/spring/G250-02/course-146bvos"
+    "sourceIndex": 82,
+    "hasDetail": true,
+    "detailPath": "/details/82.json",
+    "routePath": "/courses/2026/spring/G250-02"
   },
   {
     "id": "2026:spring:G250-03:0:83",
@@ -1728,7 +1981,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G250-03",
-    "routePath": "/courses/2026/spring/G250-03/course-1gsx3zp"
+    "sourceIndex": 83,
+    "hasDetail": true,
+    "detailPath": "/details/83.json",
+    "routePath": "/courses/2026/spring/G250-03"
   },
   {
     "id": "2026:spring:G250-04:0:84",
@@ -1748,7 +2004,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G250-04",
-    "routePath": "/courses/2026/spring/G250-04/course-imyqzy"
+    "sourceIndex": 84,
+    "hasDetail": true,
+    "detailPath": "/details/84.json",
+    "routePath": "/courses/2026/spring/G250-04"
   },
   {
     "id": "2026:spring:G250-05:0:85",
@@ -1768,7 +2027,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G250-05",
-    "routePath": "/courses/2026/spring/G250-05/course-1dv692y"
+    "sourceIndex": 85,
+    "hasDetail": true,
+    "detailPath": "/details/85.json",
+    "routePath": "/courses/2026/spring/G250-05"
   },
   {
     "id": "2026:spring:G250-06:0:86",
@@ -1788,7 +2050,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G250-06",
-    "routePath": "/courses/2026/spring/G250-06/course-1yh65ue"
+    "sourceIndex": 86,
+    "hasDetail": true,
+    "detailPath": "/details/86.json",
+    "routePath": "/courses/2026/spring/G250-06"
   },
   {
     "id": "2026:spring:G250-07:0:87",
@@ -1808,7 +2073,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G250-07",
-    "routePath": "/courses/2026/spring/G250-07/course-1ixrk0i"
+    "sourceIndex": 87,
+    "hasDetail": true,
+    "detailPath": "/details/87.json",
+    "routePath": "/courses/2026/spring/G250-07"
   },
   {
     "id": "2026:spring:G250-08:0:88",
@@ -1828,7 +2096,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G250-08",
-    "routePath": "/courses/2026/spring/G250-08/course-210sny"
+    "sourceIndex": 88,
+    "hasDetail": true,
+    "detailPath": "/details/88.json",
+    "routePath": "/courses/2026/spring/G250-08"
   },
   {
     "id": "2026:spring:G250-09:0:89",
@@ -1848,7 +2119,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G250-09",
-    "routePath": "/courses/2026/spring/G250-09/course-3vv6kq"
+    "sourceIndex": 89,
+    "hasDetail": true,
+    "detailPath": "/details/89.json",
+    "routePath": "/courses/2026/spring/G250-09"
   },
   {
     "id": "2026:spring:G250-10:0:90",
@@ -1868,7 +2142,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G250-10",
-    "routePath": "/courses/2026/spring/G250-10/course-160zchf"
+    "sourceIndex": 90,
+    "hasDetail": true,
+    "detailPath": "/details/90.json",
+    "routePath": "/courses/2026/spring/G250-10"
   },
   {
     "id": "2026:spring:G250-11:0:91",
@@ -1888,7 +2165,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G250-11",
-    "routePath": "/courses/2026/spring/G250-11/course-18np81b"
+    "sourceIndex": 91,
+    "hasDetail": true,
+    "detailPath": "/details/91.json",
+    "routePath": "/courses/2026/spring/G250-11"
   },
   {
     "id": "2026:spring:G250-12:0:92",
@@ -1908,7 +2188,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G250-12",
-    "routePath": "/courses/2026/spring/G250-12/course-mhpz68"
+    "sourceIndex": 92,
+    "hasDetail": true,
+    "detailPath": "/details/92.json",
+    "routePath": "/courses/2026/spring/G250-12"
   },
   {
     "id": "2026:spring:G250-13:0:93",
@@ -1928,7 +2211,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G250-13",
-    "routePath": "/courses/2026/spring/G250-13/course-g9oz9j"
+    "sourceIndex": 93,
+    "hasDetail": true,
+    "detailPath": "/details/93.json",
+    "routePath": "/courses/2026/spring/G250-13"
   },
   {
     "id": "2026:fall:G251-01:0:94",
@@ -1948,7 +2234,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G251-01",
-    "routePath": "/courses/2026/fall/G251-01/i"
+    "sourceIndex": 94,
+    "hasDetail": true,
+    "detailPath": "/details/94.json",
+    "routePath": "/courses/2026/fall/G251-01"
   },
   {
     "id": "2026:fall:G251-02:0:95",
@@ -1968,7 +2257,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G251-02",
-    "routePath": "/courses/2026/fall/G251-02/i"
+    "sourceIndex": 95,
+    "hasDetail": true,
+    "detailPath": "/details/95.json",
+    "routePath": "/courses/2026/fall/G251-02"
   },
   {
     "id": "2026:spring:G252-01:0:96",
@@ -1988,7 +2280,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G252-01",
-    "routePath": "/courses/2026/spring/G252-01/ii"
+    "sourceIndex": 96,
+    "hasDetail": true,
+    "detailPath": "/details/96.json",
+    "routePath": "/courses/2026/spring/G252-01"
   },
   {
     "id": "2026:spring:G252-02:0:97",
@@ -2008,7 +2303,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G252-02",
-    "routePath": "/courses/2026/spring/G252-02/ii"
+    "sourceIndex": 97,
+    "hasDetail": true,
+    "detailPath": "/details/97.json",
+    "routePath": "/courses/2026/spring/G252-02"
   },
   {
     "id": "2026:fall:G253-01:0:98",
@@ -2028,7 +2326,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G253-01",
-    "routePath": "/courses/2026/fall/G253-01/course-126bnpo"
+    "sourceIndex": 98,
+    "hasDetail": true,
+    "detailPath": "/details/98.json",
+    "routePath": "/courses/2026/fall/G253-01"
   },
   {
     "id": "2026:fall:G253-02:0:99",
@@ -2048,7 +2349,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G253-02",
-    "routePath": "/courses/2026/fall/G253-02/course-rjd9vv"
+    "sourceIndex": 99,
+    "hasDetail": true,
+    "detailPath": "/details/99.json",
+    "routePath": "/courses/2026/fall/G253-02"
   },
   {
     "id": "2026:fall:G253-03:0:100",
@@ -2068,7 +2372,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G253-03",
-    "routePath": "/courses/2026/fall/G253-03/course-1psfurg"
+    "sourceIndex": 100,
+    "hasDetail": true,
+    "detailPath": "/details/100.json",
+    "routePath": "/courses/2026/fall/G253-03"
   },
   {
     "id": "2026:fall:G253-04:0:101",
@@ -2088,7 +2395,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G253-04",
-    "routePath": "/courses/2026/fall/G253-04/course-uapkm1"
+    "sourceIndex": 101,
+    "hasDetail": true,
+    "detailPath": "/details/101.json",
+    "routePath": "/courses/2026/fall/G253-04"
   },
   {
     "id": "2026:fall:G253-05:0:102",
@@ -2108,7 +2418,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G253-05",
-    "routePath": "/courses/2026/fall/G253-05/course-8z5243"
+    "sourceIndex": 102,
+    "hasDetail": true,
+    "detailPath": "/details/102.json",
+    "routePath": "/courses/2026/fall/G253-05"
   },
   {
     "id": "2026:fall:G253-06:0:103",
@@ -2128,7 +2441,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G253-06",
-    "routePath": "/courses/2026/fall/G253-06/course-1swrb7t"
+    "sourceIndex": 103,
+    "hasDetail": true,
+    "detailPath": "/details/103.json",
+    "routePath": "/courses/2026/fall/G253-06"
   },
   {
     "id": "2026:fall:G253-07:0:104",
@@ -2148,7 +2464,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G253-07",
-    "routePath": "/courses/2026/fall/G253-07/course-16up037"
+    "sourceIndex": 104,
+    "hasDetail": true,
+    "detailPath": "/details/104.json",
+    "routePath": "/courses/2026/fall/G253-07"
   },
   {
     "id": "2026:fall:G253-08:0:105",
@@ -2168,7 +2487,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G253-08",
-    "routePath": "/courses/2026/fall/G253-08/course-e9h1sn"
+    "sourceIndex": 105,
+    "hasDetail": true,
+    "detailPath": "/details/105.json",
+    "routePath": "/courses/2026/fall/G253-08"
   },
   {
     "id": "2026:fall:G253-09:0:106",
@@ -2188,7 +2510,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G253-09",
-    "routePath": "/courses/2026/fall/G253-09/course-73u7m7"
+    "sourceIndex": 106,
+    "hasDetail": true,
+    "detailPath": "/details/106.json",
+    "routePath": "/courses/2026/fall/G253-09"
   },
   {
     "id": "2026:fall:G253-10:0:107",
@@ -2208,7 +2533,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G253-10",
-    "routePath": "/courses/2026/fall/G253-10/course-k2ny0a"
+    "sourceIndex": 107,
+    "hasDetail": true,
+    "detailPath": "/details/107.json",
+    "routePath": "/courses/2026/fall/G253-10"
   },
   {
     "id": "2026:fall:G253-11:0:108",
@@ -2228,7 +2556,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G253-11",
-    "routePath": "/courses/2026/fall/G253-11/course-uc9b1i"
+    "sourceIndex": 108,
+    "hasDetail": true,
+    "detailPath": "/details/108.json",
+    "routePath": "/courses/2026/fall/G253-11"
   },
   {
     "id": "2026:fall:G253-12:0:109",
@@ -2248,7 +2579,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G253-12",
-    "routePath": "/courses/2026/fall/G253-12/course-1pavcm9"
+    "sourceIndex": 109,
+    "hasDetail": true,
+    "detailPath": "/details/109.json",
+    "routePath": "/courses/2026/fall/G253-12"
   },
   {
     "id": "2026:fall:G253-13:0:110",
@@ -2268,7 +2602,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G253-13",
-    "routePath": "/courses/2026/fall/G253-13/course-171ijug"
+    "sourceIndex": 110,
+    "hasDetail": true,
+    "detailPath": "/details/110.json",
+    "routePath": "/courses/2026/fall/G253-13"
   },
   {
     "id": "2026:spring:G254-01:0:111",
@@ -2288,7 +2625,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G254-01",
-    "routePath": "/courses/2026/spring/G254-01/ict"
+    "sourceIndex": 111,
+    "hasDetail": true,
+    "detailPath": "/details/111.json",
+    "routePath": "/courses/2026/spring/G254-01"
   },
   {
     "id": "2026:spring:G256-01:0:112",
@@ -2308,7 +2648,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G256-01",
-    "routePath": "/courses/2026/spring/G256-01/ict"
+    "sourceIndex": 112,
+    "hasDetail": true,
+    "detailPath": "/details/112.json",
+    "routePath": "/courses/2026/spring/G256-01"
   },
   {
     "id": "2026:spring:G257-01:0:113",
@@ -2328,7 +2671,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G257-01",
-    "routePath": "/courses/2026/spring/G257-01/course-1szv79z"
+    "sourceIndex": 113,
+    "hasDetail": true,
+    "detailPath": "/details/113.json",
+    "routePath": "/courses/2026/spring/G257-01"
   },
   {
     "id": "2026:spring:D001-01:0:114",
@@ -2348,7 +2694,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "経営情報学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "D001-01",
-    "routePath": "/courses/2026/spring/D001-01/course-8e4qks"
+    "sourceIndex": 114,
+    "hasDetail": true,
+    "detailPath": "/details/114.json",
+    "routePath": "/courses/2026/spring/D001-01"
   },
   {
     "id": "2026:spring:D002-01:0:115",
@@ -2368,7 +2717,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "経営情報学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "D002-01",
-    "routePath": "/courses/2026/spring/D002-01/web"
+    "sourceIndex": 115,
+    "hasDetail": true,
+    "detailPath": "/details/115.json",
+    "routePath": "/courses/2026/spring/D002-01"
   },
   {
     "id": "2026:spring:D003-01:0:116",
@@ -2388,7 +2740,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "経営情報学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "D003-01",
-    "routePath": "/courses/2026/spring/D003-01/course-937l2"
+    "sourceIndex": 116,
+    "hasDetail": true,
+    "detailPath": "/details/116.json",
+    "routePath": "/courses/2026/spring/D003-01"
   },
   {
     "id": "2026:spring:D004-01:0:117",
@@ -2408,7 +2763,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "経営情報学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "D004-01",
-    "routePath": "/courses/2026/spring/D004-01/course-1uiyj11"
+    "sourceIndex": 117,
+    "hasDetail": true,
+    "detailPath": "/details/117.json",
+    "routePath": "/courses/2026/spring/D004-01"
   },
   {
     "id": "2026:spring:D005-01:0:118",
@@ -2428,7 +2786,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "経営情報学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "D005-01",
-    "routePath": "/courses/2026/spring/D005-01/course-s5cuc5"
+    "sourceIndex": 118,
+    "hasDetail": true,
+    "detailPath": "/details/118.json",
+    "routePath": "/courses/2026/spring/D005-01"
   },
   {
     "id": "2026:fall:D006-01:0:119",
@@ -2448,7 +2809,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "経営情報学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "D006-01",
-    "routePath": "/courses/2026/fall/D006-01/it"
+    "sourceIndex": 119,
+    "hasDetail": true,
+    "detailPath": "/details/119.json",
+    "routePath": "/courses/2026/fall/D006-01"
   },
   {
     "id": "2026:fall:D007-01:0:120",
@@ -2468,7 +2832,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "経営情報学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "D007-01",
-    "routePath": "/courses/2026/fall/D007-01/course-mdjy6o"
+    "sourceIndex": 120,
+    "hasDetail": true,
+    "detailPath": "/details/120.json",
+    "routePath": "/courses/2026/fall/D007-01"
   },
   {
     "id": "2026:fall:D008-01:0:121",
@@ -2488,7 +2855,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "経営情報学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "D008-01",
-    "routePath": "/courses/2026/fall/D008-01/course-1m77f2m"
+    "sourceIndex": 121,
+    "hasDetail": true,
+    "detailPath": "/details/121.json",
+    "routePath": "/courses/2026/fall/D008-01"
   },
   {
     "id": "2026:spring:D009-01:0:122",
@@ -2508,7 +2878,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "経営情報学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "D009-01",
-    "routePath": "/courses/2026/spring/D009-01/course-1rygo9i"
+    "sourceIndex": 122,
+    "hasDetail": true,
+    "detailPath": "/details/122.json",
+    "routePath": "/courses/2026/spring/D009-01"
   },
   {
     "id": "2026:spring:D010-01:0:123",
@@ -2528,7 +2901,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "経営情報学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "D010-01",
-    "routePath": "/courses/2026/spring/D010-01/i"
+    "sourceIndex": 123,
+    "hasDetail": true,
+    "detailPath": "/details/123.json",
+    "routePath": "/courses/2026/spring/D010-01"
   },
   {
     "id": "2026:spring:D011-01:0:124",
@@ -2548,7 +2924,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "経営情報学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "D011-01",
-    "routePath": "/courses/2026/spring/D011-01/esg"
+    "sourceIndex": 124,
+    "hasDetail": true,
+    "detailPath": "/details/124.json",
+    "routePath": "/courses/2026/spring/D011-01"
   },
   {
     "id": "2026:spring:D012-01:0:125",
@@ -2568,7 +2947,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "経営情報学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "D012-01",
-    "routePath": "/courses/2026/spring/D012-01/course-1x5y463"
+    "sourceIndex": 125,
+    "hasDetail": true,
+    "detailPath": "/details/125.json",
+    "routePath": "/courses/2026/spring/D012-01"
   },
   {
     "id": "2026:spring:D013-01:0:126",
@@ -2588,7 +2970,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "経営情報学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "D013-01",
-    "routePath": "/courses/2026/spring/D013-01/course-1kkc1oe"
+    "sourceIndex": 126,
+    "hasDetail": true,
+    "detailPath": "/details/126.json",
+    "routePath": "/courses/2026/spring/D013-01"
   },
   {
     "id": "2026:spring:D014-01:0:127",
@@ -2608,7 +2993,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "経営情報学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "D014-01",
-    "routePath": "/courses/2026/spring/D014-01/course-n1irf0"
+    "sourceIndex": 127,
+    "hasDetail": true,
+    "detailPath": "/details/127.json",
+    "routePath": "/courses/2026/spring/D014-01"
   },
   {
     "id": "2026:spring:D015-01:0:128",
@@ -2628,7 +3016,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "経営情報学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "D015-01",
-    "routePath": "/courses/2026/spring/D015-01/course-1nk72gc"
+    "sourceIndex": 128,
+    "hasDetail": true,
+    "detailPath": "/details/128.json",
+    "routePath": "/courses/2026/spring/D015-01"
   },
   {
     "id": "2026:spring:D016-01:0:129",
@@ -2648,7 +3039,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "経営情報学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "D016-01",
-    "routePath": "/courses/2026/spring/D016-01/course-1oi3na2"
+    "sourceIndex": 129,
+    "hasDetail": true,
+    "detailPath": "/details/129.json",
+    "routePath": "/courses/2026/spring/D016-01"
   },
   {
     "id": "2026:fall:D017-01:0:130",
@@ -2668,7 +3062,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "経営情報学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "D017-01",
-    "routePath": "/courses/2026/fall/D017-01/web"
+    "sourceIndex": 130,
+    "hasDetail": true,
+    "detailPath": "/details/130.json",
+    "routePath": "/courses/2026/fall/D017-01"
   },
   {
     "id": "2026:fall:D018-01:0:131",
@@ -2688,7 +3085,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "経営情報学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "D018-01",
-    "routePath": "/courses/2026/fall/D018-01/course-17wmmux"
+    "sourceIndex": 131,
+    "hasDetail": true,
+    "detailPath": "/details/131.json",
+    "routePath": "/courses/2026/fall/D018-01"
   },
   {
     "id": "2026:fall:D019-01:0:132",
@@ -2708,7 +3108,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "経営情報学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "D019-01",
-    "routePath": "/courses/2026/fall/D019-01/course-1luf5wn"
+    "sourceIndex": 132,
+    "hasDetail": true,
+    "detailPath": "/details/132.json",
+    "routePath": "/courses/2026/fall/D019-01"
   },
   {
     "id": "2026:fall:D020-01:0:133",
@@ -2728,7 +3131,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "経営情報学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "D020-01",
-    "routePath": "/courses/2026/fall/D020-01/course-1yecnw2"
+    "sourceIndex": 133,
+    "hasDetail": true,
+    "detailPath": "/details/133.json",
+    "routePath": "/courses/2026/fall/D020-01"
   },
   {
     "id": "2026:fall:D021-01:0:134",
@@ -2748,7 +3154,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "経営情報学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "D021-01",
-    "routePath": "/courses/2026/fall/D021-01/course-j44lde"
+    "sourceIndex": 134,
+    "hasDetail": true,
+    "detailPath": "/details/134.json",
+    "routePath": "/courses/2026/fall/D021-01"
   },
   {
     "id": "2026:fall:D022-01:0:135",
@@ -2768,7 +3177,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "経営情報学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "D022-01",
-    "routePath": "/courses/2026/fall/D022-01/ii"
+    "sourceIndex": 135,
+    "hasDetail": true,
+    "detailPath": "/details/135.json",
+    "routePath": "/courses/2026/fall/D022-01"
   },
   {
     "id": "2026:spring:E018-01:0:136",
@@ -2788,7 +3200,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "機械工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E018-01",
-    "routePath": "/courses/2026/spring/E018-01/ii"
+    "sourceIndex": 136,
+    "hasDetail": true,
+    "detailPath": "/details/136.json",
+    "routePath": "/courses/2026/spring/E018-01"
   },
   {
     "id": "2026:spring:E020-01:0:137",
@@ -2808,7 +3223,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "機械工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E020-01",
-    "routePath": "/courses/2026/spring/E020-01/course-1h69f4l"
+    "sourceIndex": 137,
+    "hasDetail": true,
+    "detailPath": "/details/137.json",
+    "routePath": "/courses/2026/spring/E020-01"
   },
   {
     "id": "2026:spring:E021-01:0:138",
@@ -2828,7 +3246,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "機械工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E021-01",
-    "routePath": "/courses/2026/spring/E021-01/ii"
+    "sourceIndex": 138,
+    "hasDetail": true,
+    "detailPath": "/details/138.json",
+    "routePath": "/courses/2026/spring/E021-01"
   },
   {
     "id": "2026:fall:E022-01:0:139",
@@ -2848,7 +3269,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "機械工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E022-01",
-    "routePath": "/courses/2026/fall/E022-01/course-1noxig4"
+    "sourceIndex": 139,
+    "hasDetail": true,
+    "detailPath": "/details/139.json",
+    "routePath": "/courses/2026/fall/E022-01"
   },
   {
     "id": "2026:fall:E026-01:0:140",
@@ -2868,7 +3292,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "機械工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E026-01",
-    "routePath": "/courses/2026/fall/E026-01/course-10wj4sj"
+    "sourceIndex": 140,
+    "hasDetail": true,
+    "detailPath": "/details/140.json",
+    "routePath": "/courses/2026/fall/E026-01"
   },
   {
     "id": "2026:spring:E027-01:0:141",
@@ -2888,7 +3315,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "機械工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E027-01",
-    "routePath": "/courses/2026/spring/E027-01/iii"
+    "sourceIndex": 141,
+    "hasDetail": true,
+    "detailPath": "/details/141.json",
+    "routePath": "/courses/2026/spring/E027-01"
   },
   {
     "id": "2026:fall:E028-01:0:142",
@@ -2908,7 +3338,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "機械工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E028-01",
-    "routePath": "/courses/2026/fall/E028-01/course-1kuct9n"
+    "sourceIndex": 142,
+    "hasDetail": true,
+    "detailPath": "/details/142.json",
+    "routePath": "/courses/2026/fall/E028-01"
   },
   {
     "id": "2026:spring:E030-01:0:143",
@@ -2928,7 +3361,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "機械工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E030-01",
-    "routePath": "/courses/2026/spring/E030-01/iii"
+    "sourceIndex": 143,
+    "hasDetail": true,
+    "detailPath": "/details/143.json",
+    "routePath": "/courses/2026/spring/E030-01"
   },
   {
     "id": "2026:spring:E031-01:0:144",
@@ -2948,7 +3384,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "機械工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E031-01",
-    "routePath": "/courses/2026/spring/E031-01/a"
+    "sourceIndex": 144,
+    "hasDetail": true,
+    "detailPath": "/details/144.json",
+    "routePath": "/courses/2026/spring/E031-01"
   },
   {
     "id": "2026:fall:E031-01:0:145",
@@ -2968,7 +3407,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "機械工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E031-01",
-    "routePath": "/courses/2026/fall/E031-01/a"
+    "sourceIndex": 145,
+    "hasDetail": true,
+    "detailPath": "/details/145.json",
+    "routePath": "/courses/2026/fall/E031-01"
   },
   {
     "id": "2026:spring:E032-01:0:146",
@@ -2988,7 +3430,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "機械工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E032-01",
-    "routePath": "/courses/2026/spring/E032-01/b"
+    "sourceIndex": 146,
+    "hasDetail": true,
+    "detailPath": "/details/146.json",
+    "routePath": "/courses/2026/spring/E032-01"
   },
   {
     "id": "2026:fall:E032-01:0:147",
@@ -3008,7 +3453,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "機械工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E032-01",
-    "routePath": "/courses/2026/fall/E032-01/b"
+    "sourceIndex": 147,
+    "hasDetail": true,
+    "detailPath": "/details/147.json",
+    "routePath": "/courses/2026/fall/E032-01"
   },
   {
     "id": "2026:fall:E033-01:0:148",
@@ -3028,7 +3476,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "機械工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E033-01",
-    "routePath": "/courses/2026/fall/E033-01/course-14je4f1"
+    "sourceIndex": 148,
+    "hasDetail": true,
+    "detailPath": "/details/148.json",
+    "routePath": "/courses/2026/fall/E033-01"
   },
   {
     "id": "2026:spring:E034-01:0:149",
@@ -3048,7 +3499,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "機械工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E034-01",
-    "routePath": "/courses/2026/spring/E034-01/course-1bwdr1f"
+    "sourceIndex": 149,
+    "hasDetail": true,
+    "detailPath": "/details/149.json",
+    "routePath": "/courses/2026/spring/E034-01"
   },
   {
     "id": "2026:fall:E035-01:0:150",
@@ -3068,7 +3522,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "機械工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E035-01",
-    "routePath": "/courses/2026/fall/E035-01/course-1k2l5sa"
+    "sourceIndex": 150,
+    "hasDetail": true,
+    "detailPath": "/details/150.json",
+    "routePath": "/courses/2026/fall/E035-01"
   },
   {
     "id": "2026:spring:E040-01:0:151",
@@ -3088,7 +3545,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "機械工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E040-01",
-    "routePath": "/courses/2026/spring/E040-01/3d"
+    "sourceIndex": 151,
+    "hasDetail": true,
+    "detailPath": "/details/151.json",
+    "routePath": "/courses/2026/spring/E040-01"
   },
   {
     "id": "2026:spring:E041-01:0:152",
@@ -3108,7 +3568,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "機械工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E041-01",
-    "routePath": "/courses/2026/spring/E041-01/3d"
+    "sourceIndex": 152,
+    "hasDetail": true,
+    "detailPath": "/details/152.json",
+    "routePath": "/courses/2026/spring/E041-01"
   },
   {
     "id": "2026:fall:E072-01:0:153",
@@ -3128,7 +3591,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "機械工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E072-01",
-    "routePath": "/courses/2026/fall/E072-01/course-shlzqf"
+    "sourceIndex": 153,
+    "hasDetail": true,
+    "detailPath": "/details/153.json",
+    "routePath": "/courses/2026/fall/E072-01"
   },
   {
     "id": "2026:fall:E901-01:0:154",
@@ -3148,7 +3614,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "機械工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E901-01",
-    "routePath": "/courses/2026/fall/E901-01/course-692o1e"
+    "sourceIndex": 154,
+    "hasDetail": true,
+    "detailPath": "/details/154.json",
+    "routePath": "/courses/2026/fall/E901-01"
   },
   {
     "id": "2026:spring:E911-01:0:155",
@@ -3168,7 +3637,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "機械工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E911-01",
-    "routePath": "/courses/2026/spring/E911-01/course-18v6c71"
+    "sourceIndex": 155,
+    "hasDetail": true,
+    "detailPath": "/details/155.json",
+    "routePath": "/courses/2026/spring/E911-01"
   },
   {
     "id": "2026:full-year:E921-06:0:156",
@@ -3188,7 +3660,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "機械工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E921-06",
-    "routePath": "/courses/2026/full-year/E921-06/iii"
+    "sourceIndex": 156,
+    "hasDetail": true,
+    "detailPath": "/details/156.json",
+    "routePath": "/courses/2026/full-year/E921-06"
   },
   {
     "id": "2026:full-year:E921-07:0:157",
@@ -3208,7 +3683,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "機械工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E921-07",
-    "routePath": "/courses/2026/full-year/E921-07/iii"
+    "sourceIndex": 157,
+    "hasDetail": true,
+    "detailPath": "/details/157.json",
+    "routePath": "/courses/2026/full-year/E921-07"
   },
   {
     "id": "2026:full-year:E921-08:0:158",
@@ -3228,7 +3706,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "機械工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E921-08",
-    "routePath": "/courses/2026/full-year/E921-08/iii"
+    "sourceIndex": 158,
+    "hasDetail": true,
+    "detailPath": "/details/158.json",
+    "routePath": "/courses/2026/full-year/E921-08"
   },
   {
     "id": "2026:full-year:E921-09:0:159",
@@ -3248,7 +3729,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "機械工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E921-09",
-    "routePath": "/courses/2026/full-year/E921-09/iii"
+    "sourceIndex": 159,
+    "hasDetail": true,
+    "detailPath": "/details/159.json",
+    "routePath": "/courses/2026/full-year/E921-09"
   },
   {
     "id": "2026:full-year:E921-10:0:160",
@@ -3268,7 +3752,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "機械工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E921-10",
-    "routePath": "/courses/2026/full-year/E921-10/iii"
+    "sourceIndex": 160,
+    "hasDetail": true,
+    "detailPath": "/details/160.json",
+    "routePath": "/courses/2026/full-year/E921-10"
   },
   {
     "id": "2026:full-year:E921-11:0:161",
@@ -3288,7 +3775,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "機械工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E921-11",
-    "routePath": "/courses/2026/full-year/E921-11/iii"
+    "sourceIndex": 161,
+    "hasDetail": true,
+    "detailPath": "/details/161.json",
+    "routePath": "/courses/2026/full-year/E921-11"
   },
   {
     "id": "2026:full-year:E921-12:0:162",
@@ -3308,7 +3798,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "機械工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E921-12",
-    "routePath": "/courses/2026/full-year/E921-12/iii"
+    "sourceIndex": 162,
+    "hasDetail": true,
+    "detailPath": "/details/162.json",
+    "routePath": "/courses/2026/full-year/E921-12"
   },
   {
     "id": "2026:full-year:E921-14:0:163",
@@ -3328,7 +3821,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "機械工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E921-14",
-    "routePath": "/courses/2026/full-year/E921-14/iii"
+    "sourceIndex": 163,
+    "hasDetail": true,
+    "detailPath": "/details/163.json",
+    "routePath": "/courses/2026/full-year/E921-14"
   },
   {
     "id": "2026:full-year:E921-16:0:164",
@@ -3348,7 +3844,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "機械工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E921-16",
-    "routePath": "/courses/2026/full-year/E921-16/iii"
+    "sourceIndex": 164,
+    "hasDetail": true,
+    "detailPath": "/details/164.json",
+    "routePath": "/courses/2026/full-year/E921-16"
   },
   {
     "id": "2026:full-year:E921-18:0:165",
@@ -3368,7 +3867,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "機械工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E921-18",
-    "routePath": "/courses/2026/full-year/E921-18/iii"
+    "sourceIndex": 165,
+    "hasDetail": true,
+    "detailPath": "/details/165.json",
+    "routePath": "/courses/2026/full-year/E921-18"
   },
   {
     "id": "2026:full-year:E921-19:0:166",
@@ -3388,7 +3890,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "機械工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E921-19",
-    "routePath": "/courses/2026/full-year/E921-19/iii"
+    "sourceIndex": 166,
+    "hasDetail": true,
+    "detailPath": "/details/166.json",
+    "routePath": "/courses/2026/full-year/E921-19"
   },
   {
     "id": "2026:full-year:E921-20:0:167",
@@ -3408,7 +3913,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "機械工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E921-20",
-    "routePath": "/courses/2026/full-year/E921-20/iii"
+    "sourceIndex": 167,
+    "hasDetail": true,
+    "detailPath": "/details/167.json",
+    "routePath": "/courses/2026/full-year/E921-20"
   },
   {
     "id": "2026:full-year:E921-21:0:168",
@@ -3428,7 +3936,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "機械工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E921-21",
-    "routePath": "/courses/2026/full-year/E921-21/iii"
+    "sourceIndex": 168,
+    "hasDetail": true,
+    "detailPath": "/details/168.json",
+    "routePath": "/courses/2026/full-year/E921-21"
   },
   {
     "id": "2026:full-year:E921-22:0:169",
@@ -3448,7 +3959,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "機械工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E921-22",
-    "routePath": "/courses/2026/full-year/E921-22/iii"
+    "sourceIndex": 169,
+    "hasDetail": true,
+    "detailPath": "/details/169.json",
+    "routePath": "/courses/2026/full-year/E921-22"
   },
   {
     "id": "2026:full-year:E921-23:0:170",
@@ -3468,7 +3982,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "機械工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E921-23",
-    "routePath": "/courses/2026/full-year/E921-23/iii"
+    "sourceIndex": 170,
+    "hasDetail": true,
+    "detailPath": "/details/170.json",
+    "routePath": "/courses/2026/full-year/E921-23"
   },
   {
     "id": "2026:full-year:E921-24:0:171",
@@ -3488,7 +4005,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "機械工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E921-24",
-    "routePath": "/courses/2026/full-year/E921-24/iii"
+    "sourceIndex": 171,
+    "hasDetail": true,
+    "detailPath": "/details/171.json",
+    "routePath": "/courses/2026/full-year/E921-24"
   },
   {
     "id": "2026:full-year:E921-26:0:172",
@@ -3508,7 +4028,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "機械工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E921-26",
-    "routePath": "/courses/2026/full-year/E921-26/iii"
+    "sourceIndex": 172,
+    "hasDetail": true,
+    "detailPath": "/details/172.json",
+    "routePath": "/courses/2026/full-year/E921-26"
   },
   {
     "id": "2026:full-year:E921-28:0:173",
@@ -3528,7 +4051,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "機械工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E921-28",
-    "routePath": "/courses/2026/full-year/E921-28/iii"
+    "sourceIndex": 173,
+    "hasDetail": true,
+    "detailPath": "/details/173.json",
+    "routePath": "/courses/2026/full-year/E921-28"
   },
   {
     "id": "2026:full-year:E921-30:0:174",
@@ -3548,7 +4074,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "機械工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E921-30",
-    "routePath": "/courses/2026/full-year/E921-30/iii"
+    "sourceIndex": 174,
+    "hasDetail": true,
+    "detailPath": "/details/174.json",
+    "routePath": "/courses/2026/full-year/E921-30"
   },
   {
     "id": "2026:spring:E941-01:0:175",
@@ -3568,7 +4097,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "機械工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E941-01",
-    "routePath": "/courses/2026/spring/E941-01/i"
+    "sourceIndex": 175,
+    "hasDetail": true,
+    "detailPath": "/details/175.json",
+    "routePath": "/courses/2026/spring/E941-01"
   },
   {
     "id": "2026:spring:E951-01:0:176",
@@ -3588,7 +4120,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "機械工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E951-01",
-    "routePath": "/courses/2026/spring/E951-01/ii"
+    "sourceIndex": 176,
+    "hasDetail": true,
+    "detailPath": "/details/176.json",
+    "routePath": "/courses/2026/spring/E951-01"
   },
   {
     "id": "2026:spring:D101-01:0:177",
@@ -3608,7 +4143,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境デザイン創成学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "D101-01",
-    "routePath": "/courses/2026/spring/D101-01/course-18yqt64"
+    "sourceIndex": 177,
+    "hasDetail": true,
+    "detailPath": "/details/177.json",
+    "routePath": "/courses/2026/spring/D101-01"
   },
   {
     "id": "2026:spring:D102-01:0:178",
@@ -3628,7 +4166,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境デザイン創成学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "D102-01",
-    "routePath": "/courses/2026/spring/D102-01/web"
+    "sourceIndex": 178,
+    "hasDetail": true,
+    "detailPath": "/details/178.json",
+    "routePath": "/courses/2026/spring/D102-01"
   },
   {
     "id": "2026:spring:D103-01:0:179",
@@ -3648,7 +4189,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境デザイン創成学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "D103-01",
-    "routePath": "/courses/2026/spring/D103-01/course-937l2"
+    "sourceIndex": 179,
+    "hasDetail": true,
+    "detailPath": "/details/179.json",
+    "routePath": "/courses/2026/spring/D103-01"
   },
   {
     "id": "2026:spring:D104-01:0:180",
@@ -3668,7 +4212,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境デザイン創成学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "D104-01",
-    "routePath": "/courses/2026/spring/D104-01/course-s5cuc5"
+    "sourceIndex": 180,
+    "hasDetail": true,
+    "detailPath": "/details/180.json",
+    "routePath": "/courses/2026/spring/D104-01"
   },
   {
     "id": "2026:fall:D105-01:0:181",
@@ -3688,7 +4235,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境デザイン創成学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "D105-01",
-    "routePath": "/courses/2026/fall/D105-01/course-1fmy3aq"
+    "sourceIndex": 181,
+    "hasDetail": true,
+    "detailPath": "/details/181.json",
+    "routePath": "/courses/2026/fall/D105-01"
   },
   {
     "id": "2026:fall:D106-01:0:182",
@@ -3708,7 +4258,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境デザイン創成学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "D106-01",
-    "routePath": "/courses/2026/fall/D106-01/course-13kxwpd"
+    "sourceIndex": 182,
+    "hasDetail": true,
+    "detailPath": "/details/182.json",
+    "routePath": "/courses/2026/fall/D106-01"
   },
   {
     "id": "2026:fall:D107-01:0:183",
@@ -3728,7 +4281,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境デザイン創成学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "D107-01",
-    "routePath": "/courses/2026/fall/D107-01/course-1jt3te8"
+    "sourceIndex": 183,
+    "hasDetail": true,
+    "detailPath": "/details/183.json",
+    "routePath": "/courses/2026/fall/D107-01"
   },
   {
     "id": "2026:fall:D108-01:0:184",
@@ -3748,7 +4304,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境デザイン創成学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "D108-01",
-    "routePath": "/courses/2026/fall/D108-01/course-1ppgdx7"
+    "sourceIndex": 184,
+    "hasDetail": true,
+    "detailPath": "/details/184.json",
+    "routePath": "/courses/2026/fall/D108-01"
   },
   {
     "id": "2026:fall:D109-01:0:185",
@@ -3768,7 +4327,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境デザイン創成学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "D109-01",
-    "routePath": "/courses/2026/fall/D109-01/course-mdjy6o"
+    "sourceIndex": 185,
+    "hasDetail": true,
+    "detailPath": "/details/185.json",
+    "routePath": "/courses/2026/fall/D109-01"
   },
   {
     "id": "2026:spring:D110-01:0:186",
@@ -3788,7 +4350,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境デザイン創成学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "D110-01",
-    "routePath": "/courses/2026/spring/D110-01/course-1kkc1oe"
+    "sourceIndex": 186,
+    "hasDetail": true,
+    "detailPath": "/details/186.json",
+    "routePath": "/courses/2026/spring/D110-01"
   },
   {
     "id": "2026:spring:D111-01:0:187",
@@ -3808,7 +4373,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境デザイン創成学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "D111-01",
-    "routePath": "/courses/2026/spring/D111-01/course-1m2vacz"
+    "sourceIndex": 187,
+    "hasDetail": true,
+    "detailPath": "/details/187.json",
+    "routePath": "/courses/2026/spring/D111-01"
   },
   {
     "id": "2026:spring:D112-01:0:188",
@@ -3828,7 +4396,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境デザイン創成学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "D112-01",
-    "routePath": "/courses/2026/spring/D112-01/course-sjd1oq"
+    "sourceIndex": 188,
+    "hasDetail": true,
+    "detailPath": "/details/188.json",
+    "routePath": "/courses/2026/spring/D112-01"
   },
   {
     "id": "2026:spring:D113-01:0:189",
@@ -3848,7 +4419,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境デザイン創成学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "D113-01",
-    "routePath": "/courses/2026/spring/D113-01/esg"
+    "sourceIndex": 189,
+    "hasDetail": true,
+    "detailPath": "/details/189.json",
+    "routePath": "/courses/2026/spring/D113-01"
   },
   {
     "id": "2026:spring:D114-01:0:190",
@@ -3868,7 +4442,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境デザイン創成学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "D114-01",
-    "routePath": "/courses/2026/spring/D114-01/course-1tabaq"
+    "sourceIndex": 190,
+    "hasDetail": true,
+    "detailPath": "/details/190.json",
+    "routePath": "/courses/2026/spring/D114-01"
   },
   {
     "id": "2026:spring:D115-01:0:191",
@@ -3888,7 +4465,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境デザイン創成学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "D115-01",
-    "routePath": "/courses/2026/spring/D115-01/course-1rygo9i"
+    "sourceIndex": 191,
+    "hasDetail": true,
+    "detailPath": "/details/191.json",
+    "routePath": "/courses/2026/spring/D115-01"
   },
   {
     "id": "2026:fall:D116-01:0:192",
@@ -3908,7 +4488,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境デザイン創成学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "D116-01",
-    "routePath": "/courses/2026/fall/D116-01/course-63wkne"
+    "sourceIndex": 192,
+    "hasDetail": true,
+    "detailPath": "/details/192.json",
+    "routePath": "/courses/2026/fall/D116-01"
   },
   {
     "id": "2026:fall:D117-01:0:193",
@@ -3928,7 +4511,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境デザイン創成学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "D117-01",
-    "routePath": "/courses/2026/fall/D117-01/3"
+    "sourceIndex": 193,
+    "hasDetail": true,
+    "detailPath": "/details/193.json",
+    "routePath": "/courses/2026/fall/D117-01"
   },
   {
     "id": "2026:fall:D118-01:0:194",
@@ -3948,7 +4534,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境デザイン創成学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "D118-01",
-    "routePath": "/courses/2026/fall/D118-01/course-1i9oa21"
+    "sourceIndex": 194,
+    "hasDetail": true,
+    "detailPath": "/details/194.json",
+    "routePath": "/courses/2026/fall/D118-01"
   },
   {
     "id": "2026:fall:D119-01:0:195",
@@ -3968,7 +4557,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境デザイン創成学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "D119-01",
-    "routePath": "/courses/2026/fall/D119-01/course-5sp520"
+    "sourceIndex": 195,
+    "hasDetail": true,
+    "detailPath": "/details/195.json",
+    "routePath": "/courses/2026/fall/D119-01"
   },
   {
     "id": "2026:fall:D120-01:0:196",
@@ -3988,7 +4580,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境デザイン創成学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "D120-01",
-    "routePath": "/courses/2026/fall/D120-01/course-1k15sdj"
+    "sourceIndex": 196,
+    "hasDetail": true,
+    "detailPath": "/details/196.json",
+    "routePath": "/courses/2026/fall/D120-01"
   },
   {
     "id": "2026:fall:D121-01:0:197",
@@ -4008,7 +4603,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境デザイン創成学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "D121-01",
-    "routePath": "/courses/2026/fall/D121-01/course-o0d5ts"
+    "sourceIndex": 197,
+    "hasDetail": true,
+    "detailPath": "/details/197.json",
+    "routePath": "/courses/2026/fall/D121-01"
   },
   {
     "id": "2026:fall:D122-01:0:198",
@@ -4028,7 +4626,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境デザイン創成学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "D122-01",
-    "routePath": "/courses/2026/fall/D122-01/course-m5vrxp"
+    "sourceIndex": 198,
+    "hasDetail": true,
+    "detailPath": "/details/198.json",
+    "routePath": "/courses/2026/fall/D122-01"
   },
   {
     "id": "2026:fall:D123-01:0:199",
@@ -4048,7 +4649,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境デザイン創成学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "D123-01",
-    "routePath": "/courses/2026/fall/D123-01/course-1b91gdx"
+    "sourceIndex": 199,
+    "hasDetail": true,
+    "detailPath": "/details/199.json",
+    "routePath": "/courses/2026/fall/D123-01"
   },
   {
     "id": "2026:fall:E115-01:0:200",
@@ -4068,7 +4672,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "航空宇宙工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E115-01",
-    "routePath": "/courses/2026/fall/E115-01/course-qax5r"
+    "sourceIndex": 200,
+    "hasDetail": true,
+    "detailPath": "/details/200.json",
+    "routePath": "/courses/2026/fall/E115-01"
   },
   {
     "id": "2026:spring:E116-01:0:201",
@@ -4088,7 +4695,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "航空宇宙工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E116-01",
-    "routePath": "/courses/2026/spring/E116-01/3d-cad"
+    "sourceIndex": 201,
+    "hasDetail": true,
+    "detailPath": "/details/201.json",
+    "routePath": "/courses/2026/spring/E116-01"
   },
   {
     "id": "2026:spring:E118-01:0:202",
@@ -4108,7 +4718,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "航空宇宙工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E118-01",
-    "routePath": "/courses/2026/spring/E118-01/course-sc3ahf"
+    "sourceIndex": 202,
+    "hasDetail": true,
+    "detailPath": "/details/202.json",
+    "routePath": "/courses/2026/spring/E118-01"
   },
   {
     "id": "2026:spring:E119-01:0:203",
@@ -4128,7 +4741,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "航空宇宙工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E119-01",
-    "routePath": "/courses/2026/spring/E119-01/i"
+    "sourceIndex": 203,
+    "hasDetail": true,
+    "detailPath": "/details/203.json",
+    "routePath": "/courses/2026/spring/E119-01"
   },
   {
     "id": "2026:spring:E120-01:0:204",
@@ -4148,7 +4764,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "航空宇宙工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E120-01",
-    "routePath": "/courses/2026/spring/E120-01/course-33okgy"
+    "sourceIndex": 204,
+    "hasDetail": true,
+    "detailPath": "/details/204.json",
+    "routePath": "/courses/2026/spring/E120-01"
   },
   {
     "id": "2026:spring:E121-01:0:205",
@@ -4168,7 +4787,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "航空宇宙工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E121-01",
-    "routePath": "/courses/2026/spring/E121-01/course-x30ndz"
+    "sourceIndex": 205,
+    "hasDetail": true,
+    "detailPath": "/details/205.json",
+    "routePath": "/courses/2026/spring/E121-01"
   },
   {
     "id": "2026:spring:E122-01:0:206",
@@ -4188,7 +4810,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "航空宇宙工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E122-01",
-    "routePath": "/courses/2026/spring/E122-01/course-12buub4"
+    "sourceIndex": 206,
+    "hasDetail": true,
+    "detailPath": "/details/206.json",
+    "routePath": "/courses/2026/spring/E122-01"
   },
   {
     "id": "2026:fall:E126-01:0:207",
@@ -4208,7 +4833,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "航空宇宙工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E126-01",
-    "routePath": "/courses/2026/fall/E126-01/course-s7wxju"
+    "sourceIndex": 207,
+    "hasDetail": true,
+    "detailPath": "/details/207.json",
+    "routePath": "/courses/2026/fall/E126-01"
   },
   {
     "id": "2026:fall:E128-01:0:208",
@@ -4228,7 +4856,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "航空宇宙工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E128-01",
-    "routePath": "/courses/2026/fall/E128-01/ii"
+    "sourceIndex": 208,
+    "hasDetail": true,
+    "detailPath": "/details/208.json",
+    "routePath": "/courses/2026/fall/E128-01"
   },
   {
     "id": "2026:fall:E129-01:0:209",
@@ -4248,7 +4879,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "航空宇宙工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E129-01",
-    "routePath": "/courses/2026/fall/E129-01/a"
+    "sourceIndex": 209,
+    "hasDetail": true,
+    "detailPath": "/details/209.json",
+    "routePath": "/courses/2026/fall/E129-01"
   },
   {
     "id": "2026:spring:E130-01:0:210",
@@ -4268,7 +4902,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "航空宇宙工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E130-01",
-    "routePath": "/courses/2026/spring/E130-01/b"
+    "sourceIndex": 210,
+    "hasDetail": true,
+    "detailPath": "/details/210.json",
+    "routePath": "/courses/2026/spring/E130-01"
   },
   {
     "id": "2026:spring:E138-01:0:211",
@@ -4288,7 +4925,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "航空宇宙工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E138-01",
-    "routePath": "/courses/2026/spring/E138-01/ii"
+    "sourceIndex": 211,
+    "hasDetail": true,
+    "detailPath": "/details/211.json",
+    "routePath": "/courses/2026/spring/E138-01"
   },
   {
     "id": "2026:spring:E139-01:0:212",
@@ -4308,7 +4948,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "航空宇宙工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E139-01",
-    "routePath": "/courses/2026/spring/E139-01/i"
+    "sourceIndex": 212,
+    "hasDetail": true,
+    "detailPath": "/details/212.json",
+    "routePath": "/courses/2026/spring/E139-01"
   },
   {
     "id": "2026:fall:E140-01:0:213",
@@ -4328,7 +4971,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "航空宇宙工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E140-01",
-    "routePath": "/courses/2026/fall/E140-01/course-ywtvei"
+    "sourceIndex": 213,
+    "hasDetail": true,
+    "detailPath": "/details/213.json",
+    "routePath": "/courses/2026/fall/E140-01"
   },
   {
     "id": "2026:fall:E141-01:0:214",
@@ -4348,7 +4994,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "航空宇宙工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E141-01",
-    "routePath": "/courses/2026/fall/E141-01/ii"
+    "sourceIndex": 214,
+    "hasDetail": true,
+    "detailPath": "/details/214.json",
+    "routePath": "/courses/2026/fall/E141-01"
   },
   {
     "id": "2026:spring:E142-01:0:215",
@@ -4368,7 +5017,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "航空宇宙工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E142-01",
-    "routePath": "/courses/2026/spring/E142-01/course-1v2dxv7"
+    "sourceIndex": 215,
+    "hasDetail": true,
+    "detailPath": "/details/215.json",
+    "routePath": "/courses/2026/spring/E142-01"
   },
   {
     "id": "2026:fall:E143-01:0:216",
@@ -4388,7 +5040,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "航空宇宙工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E143-01",
-    "routePath": "/courses/2026/fall/E143-01/course-ld5r27"
+    "sourceIndex": 216,
+    "hasDetail": true,
+    "detailPath": "/details/216.json",
+    "routePath": "/courses/2026/fall/E143-01"
   },
   {
     "id": "2026:fall:E144-01:0:217",
@@ -4408,7 +5063,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "航空宇宙工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E144-01",
-    "routePath": "/courses/2026/fall/E144-01/course-16gfpfp"
+    "sourceIndex": 217,
+    "hasDetail": true,
+    "detailPath": "/details/217.json",
+    "routePath": "/courses/2026/fall/E144-01"
   },
   {
     "id": "2026:full-year:E144-01:0:218",
@@ -4428,7 +5086,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "航空宇宙工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E144-01",
-    "routePath": "/courses/2026/full-year/E144-01/course-16gfpfp"
+    "sourceIndex": 218,
+    "hasDetail": true,
+    "detailPath": "/details/218.json",
+    "routePath": "/courses/2026/full-year/E144-01"
   },
   {
     "id": "2026:fall:E902-01:0:219",
@@ -4448,7 +5109,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "航空宇宙工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E902-01",
-    "routePath": "/courses/2026/fall/E902-01/course-692o1e"
+    "sourceIndex": 219,
+    "hasDetail": true,
+    "detailPath": "/details/219.json",
+    "routePath": "/courses/2026/fall/E902-01"
   },
   {
     "id": "2026:fall:E912-01:0:220",
@@ -4468,7 +5132,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "航空宇宙工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E912-01",
-    "routePath": "/courses/2026/fall/E912-01/course-18v6c71"
+    "sourceIndex": 220,
+    "hasDetail": true,
+    "detailPath": "/details/220.json",
+    "routePath": "/courses/2026/fall/E912-01"
   },
   {
     "id": "2026:full-year:E922-06:0:221",
@@ -4488,7 +5155,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "航空宇宙工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E922-06",
-    "routePath": "/courses/2026/full-year/E922-06/iii"
+    "sourceIndex": 221,
+    "hasDetail": true,
+    "detailPath": "/details/221.json",
+    "routePath": "/courses/2026/full-year/E922-06"
   },
   {
     "id": "2026:full-year:E922-08:0:222",
@@ -4508,7 +5178,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "航空宇宙工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E922-08",
-    "routePath": "/courses/2026/full-year/E922-08/iii"
+    "sourceIndex": 222,
+    "hasDetail": true,
+    "detailPath": "/details/222.json",
+    "routePath": "/courses/2026/full-year/E922-08"
   },
   {
     "id": "2026:full-year:E922-09:0:223",
@@ -4528,7 +5201,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "航空宇宙工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E922-09",
-    "routePath": "/courses/2026/full-year/E922-09/iii"
+    "sourceIndex": 223,
+    "hasDetail": true,
+    "detailPath": "/details/223.json",
+    "routePath": "/courses/2026/full-year/E922-09"
   },
   {
     "id": "2026:full-year:E922-12:0:224",
@@ -4548,7 +5224,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "航空宇宙工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E922-12",
-    "routePath": "/courses/2026/full-year/E922-12/iii"
+    "sourceIndex": 224,
+    "hasDetail": true,
+    "detailPath": "/details/224.json",
+    "routePath": "/courses/2026/full-year/E922-12"
   },
   {
     "id": "2026:full-year:E922-13:0:225",
@@ -4568,7 +5247,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "航空宇宙工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E922-13",
-    "routePath": "/courses/2026/full-year/E922-13/iii"
+    "sourceIndex": 225,
+    "hasDetail": true,
+    "detailPath": "/details/225.json",
+    "routePath": "/courses/2026/full-year/E922-13"
   },
   {
     "id": "2026:full-year:E922-14:0:226",
@@ -4588,7 +5270,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "航空宇宙工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E922-14",
-    "routePath": "/courses/2026/full-year/E922-14/iii"
+    "sourceIndex": 226,
+    "hasDetail": true,
+    "detailPath": "/details/226.json",
+    "routePath": "/courses/2026/full-year/E922-14"
   },
   {
     "id": "2026:full-year:E922-15:0:227",
@@ -4608,7 +5293,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "航空宇宙工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E922-15",
-    "routePath": "/courses/2026/full-year/E922-15/iii"
+    "sourceIndex": 227,
+    "hasDetail": true,
+    "detailPath": "/details/227.json",
+    "routePath": "/courses/2026/full-year/E922-15"
   },
   {
     "id": "2026:spring:E942-01:0:228",
@@ -4628,7 +5316,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "航空宇宙工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E942-01",
-    "routePath": "/courses/2026/spring/E942-01/i"
+    "sourceIndex": 228,
+    "hasDetail": true,
+    "detailPath": "/details/228.json",
+    "routePath": "/courses/2026/spring/E942-01"
   },
   {
     "id": "2026:spring:E952-01:0:229",
@@ -4648,7 +5339,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "航空宇宙工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E952-01",
-    "routePath": "/courses/2026/spring/E952-01/ii"
+    "sourceIndex": 229,
+    "hasDetail": true,
+    "detailPath": "/details/229.json",
+    "routePath": "/courses/2026/spring/E952-01"
   },
   {
     "id": "2026:spring:E209-01:0:230",
@@ -4668,7 +5362,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "ロボティクス学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E209-01",
-    "routePath": "/courses/2026/spring/E209-01/course-1n02c4q"
+    "sourceIndex": 230,
+    "hasDetail": true,
+    "detailPath": "/details/230.json",
+    "routePath": "/courses/2026/spring/E209-01"
   },
   {
     "id": "2026:fall:E219-01:0:231",
@@ -4688,7 +5385,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "ロボティクス学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E219-01",
-    "routePath": "/courses/2026/fall/E219-01/course-df4mw5"
+    "sourceIndex": 231,
+    "hasDetail": true,
+    "detailPath": "/details/231.json",
+    "routePath": "/courses/2026/fall/E219-01"
   },
   {
     "id": "2026:spring:E222-01:0:232",
@@ -4708,7 +5408,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "ロボティクス学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E222-01",
-    "routePath": "/courses/2026/spring/E222-01/ii"
+    "sourceIndex": 232,
+    "hasDetail": true,
+    "detailPath": "/details/232.json",
+    "routePath": "/courses/2026/spring/E222-01"
   },
   {
     "id": "2026:spring:E224-01:0:233",
@@ -4728,7 +5431,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "ロボティクス学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E224-01",
-    "routePath": "/courses/2026/spring/E224-01/course-x30ndz"
+    "sourceIndex": 233,
+    "hasDetail": true,
+    "detailPath": "/details/233.json",
+    "routePath": "/courses/2026/spring/E224-01"
   },
   {
     "id": "2026:spring:E225-01:0:234",
@@ -4748,7 +5454,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "ロボティクス学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E225-01",
-    "routePath": "/courses/2026/spring/E225-01/ii"
+    "sourceIndex": 234,
+    "hasDetail": true,
+    "detailPath": "/details/234.json",
+    "routePath": "/courses/2026/spring/E225-01"
   },
   {
     "id": "2026:spring:E226-01:0:235",
@@ -4768,7 +5477,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "ロボティクス学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E226-01",
-    "routePath": "/courses/2026/spring/E226-01/course-10itbqe"
+    "sourceIndex": 235,
+    "hasDetail": true,
+    "detailPath": "/details/235.json",
+    "routePath": "/courses/2026/spring/E226-01"
   },
   {
     "id": "2026:spring:E227-01:0:236",
@@ -4788,7 +5500,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "ロボティクス学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E227-01",
-    "routePath": "/courses/2026/spring/E227-01/course-1lr32zv"
+    "sourceIndex": 236,
+    "hasDetail": true,
+    "detailPath": "/details/236.json",
+    "routePath": "/courses/2026/spring/E227-01"
   },
   {
     "id": "2026:fall:E228-01:0:237",
@@ -4808,7 +5523,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "ロボティクス学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E228-01",
-    "routePath": "/courses/2026/fall/E228-01/course-c1ct86"
+    "sourceIndex": 237,
+    "hasDetail": true,
+    "detailPath": "/details/237.json",
+    "routePath": "/courses/2026/fall/E228-01"
   },
   {
     "id": "2026:fall:E230-01:0:238",
@@ -4828,7 +5546,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "ロボティクス学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E230-01",
-    "routePath": "/courses/2026/fall/E230-01/ai"
+    "sourceIndex": 238,
+    "hasDetail": true,
+    "detailPath": "/details/238.json",
+    "routePath": "/courses/2026/fall/E230-01"
   },
   {
     "id": "2026:spring:E232-01:0:239",
@@ -4848,7 +5569,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "ロボティクス学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E232-01",
-    "routePath": "/courses/2026/spring/E232-01/course-13kiaoe"
+    "sourceIndex": 239,
+    "hasDetail": true,
+    "detailPath": "/details/239.json",
+    "routePath": "/courses/2026/spring/E232-01"
   },
   {
     "id": "2026:spring:E233-01:0:240",
@@ -4868,7 +5592,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "ロボティクス学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E233-01",
-    "routePath": "/courses/2026/spring/E233-01/course-athb5e"
+    "sourceIndex": 240,
+    "hasDetail": true,
+    "detailPath": "/details/240.json",
+    "routePath": "/courses/2026/spring/E233-01"
   },
   {
     "id": "2026:fall:E234-01:0:241",
@@ -4888,7 +5615,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "ロボティクス学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E234-01",
-    "routePath": "/courses/2026/fall/E234-01/course-1h69f4l"
+    "sourceIndex": 241,
+    "hasDetail": true,
+    "detailPath": "/details/241.json",
+    "routePath": "/courses/2026/fall/E234-01"
   },
   {
     "id": "2026:spring:E235-01:0:242",
@@ -4908,7 +5638,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "ロボティクス学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E235-01",
-    "routePath": "/courses/2026/spring/E235-01/a"
+    "sourceIndex": 242,
+    "hasDetail": true,
+    "detailPath": "/details/242.json",
+    "routePath": "/courses/2026/spring/E235-01"
   },
   {
     "id": "2026:fall:E236-01:0:243",
@@ -4928,7 +5661,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "ロボティクス学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E236-01",
-    "routePath": "/courses/2026/fall/E236-01/b"
+    "sourceIndex": 243,
+    "hasDetail": true,
+    "detailPath": "/details/243.json",
+    "routePath": "/courses/2026/fall/E236-01"
   },
   {
     "id": "2026:spring:E237-01:0:244",
@@ -4948,7 +5684,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "ロボティクス学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E237-01",
-    "routePath": "/courses/2026/spring/E237-01/course-17uhmns"
+    "sourceIndex": 244,
+    "hasDetail": true,
+    "detailPath": "/details/244.json",
+    "routePath": "/courses/2026/spring/E237-01"
   },
   {
     "id": "2026:fall:E903-01:0:245",
@@ -4968,7 +5707,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "ロボティクス学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E903-01",
-    "routePath": "/courses/2026/fall/E903-01/course-692o1e"
+    "sourceIndex": 245,
+    "hasDetail": true,
+    "detailPath": "/details/245.json",
+    "routePath": "/courses/2026/fall/E903-01"
   },
   {
     "id": "2026:fall:E913-01:0:246",
@@ -4988,7 +5730,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "ロボティクス学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E913-01",
-    "routePath": "/courses/2026/fall/E913-01/course-18v6c71"
+    "sourceIndex": 246,
+    "hasDetail": true,
+    "detailPath": "/details/246.json",
+    "routePath": "/courses/2026/fall/E913-01"
   },
   {
     "id": "2026:full-year:E923-04:0:247",
@@ -5008,7 +5753,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "ロボティクス学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E923-04",
-    "routePath": "/courses/2026/full-year/E923-04/iii"
+    "sourceIndex": 247,
+    "hasDetail": true,
+    "detailPath": "/details/247.json",
+    "routePath": "/courses/2026/full-year/E923-04"
   },
   {
     "id": "2026:full-year:E923-05:0:248",
@@ -5028,7 +5776,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "ロボティクス学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E923-05",
-    "routePath": "/courses/2026/full-year/E923-05/iii"
+    "sourceIndex": 248,
+    "hasDetail": true,
+    "detailPath": "/details/248.json",
+    "routePath": "/courses/2026/full-year/E923-05"
   },
   {
     "id": "2026:full-year:E923-07:0:249",
@@ -5048,7 +5799,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "ロボティクス学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E923-07",
-    "routePath": "/courses/2026/full-year/E923-07/iii"
+    "sourceIndex": 249,
+    "hasDetail": true,
+    "detailPath": "/details/249.json",
+    "routePath": "/courses/2026/full-year/E923-07"
   },
   {
     "id": "2026:full-year:E923-08:0:250",
@@ -5068,7 +5822,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "ロボティクス学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E923-08",
-    "routePath": "/courses/2026/full-year/E923-08/iii"
+    "sourceIndex": 250,
+    "hasDetail": true,
+    "detailPath": "/details/250.json",
+    "routePath": "/courses/2026/full-year/E923-08"
   },
   {
     "id": "2026:full-year:E923-09:0:251",
@@ -5088,7 +5845,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "ロボティクス学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E923-09",
-    "routePath": "/courses/2026/full-year/E923-09/iii"
+    "sourceIndex": 251,
+    "hasDetail": true,
+    "detailPath": "/details/251.json",
+    "routePath": "/courses/2026/full-year/E923-09"
   },
   {
     "id": "2026:full-year:E923-10:0:252",
@@ -5108,7 +5868,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "ロボティクス学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E923-10",
-    "routePath": "/courses/2026/full-year/E923-10/iii"
+    "sourceIndex": 252,
+    "hasDetail": true,
+    "detailPath": "/details/252.json",
+    "routePath": "/courses/2026/full-year/E923-10"
   },
   {
     "id": "2026:full-year:E923-13:0:253",
@@ -5128,7 +5891,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "ロボティクス学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E923-13",
-    "routePath": "/courses/2026/full-year/E923-13/iii"
+    "sourceIndex": 253,
+    "hasDetail": true,
+    "detailPath": "/details/253.json",
+    "routePath": "/courses/2026/full-year/E923-13"
   },
   {
     "id": "2026:full-year:E923-14:0:254",
@@ -5148,7 +5914,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "ロボティクス学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E923-14",
-    "routePath": "/courses/2026/full-year/E923-14/iii"
+    "sourceIndex": 254,
+    "hasDetail": true,
+    "detailPath": "/details/254.json",
+    "routePath": "/courses/2026/full-year/E923-14"
   },
   {
     "id": "2026:spring:E943-01:0:255",
@@ -5168,7 +5937,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "ロボティクス学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E943-01",
-    "routePath": "/courses/2026/spring/E943-01/i"
+    "sourceIndex": 255,
+    "hasDetail": true,
+    "detailPath": "/details/255.json",
+    "routePath": "/courses/2026/spring/E943-01"
   },
   {
     "id": "2026:fall:E953-01:0:256",
@@ -5188,7 +5960,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "ロボティクス学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E953-01",
-    "routePath": "/courses/2026/fall/E953-01/ii"
+    "sourceIndex": 256,
+    "hasDetail": true,
+    "detailPath": "/details/256.json",
+    "routePath": "/courses/2026/fall/E953-01"
   },
   {
     "id": "2026:spring:E602-01:0:257",
@@ -5208,7 +5983,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "電気電子工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E602-01",
-    "routePath": "/courses/2026/spring/E602-01/i"
+    "sourceIndex": 257,
+    "hasDetail": true,
+    "detailPath": "/details/257.json",
+    "routePath": "/courses/2026/spring/E602-01"
   },
   {
     "id": "2026:spring:E605-01:0:258",
@@ -5228,7 +6006,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "電気電子工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E605-01",
-    "routePath": "/courses/2026/spring/E605-01/course-184o0op"
+    "sourceIndex": 258,
+    "hasDetail": true,
+    "detailPath": "/details/258.json",
+    "routePath": "/courses/2026/spring/E605-01"
   },
   {
     "id": "2026:spring:E607-01:0:259",
@@ -5248,7 +6029,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "電気電子工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E607-01",
-    "routePath": "/courses/2026/spring/E607-01/iii"
+    "sourceIndex": 259,
+    "hasDetail": true,
+    "detailPath": "/details/259.json",
+    "routePath": "/courses/2026/spring/E607-01"
   },
   {
     "id": "2026:fall:E617-01:0:260",
@@ -5268,7 +6052,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "電気電子工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E617-01",
-    "routePath": "/courses/2026/fall/E617-01/course-j0m1px"
+    "sourceIndex": 260,
+    "hasDetail": true,
+    "detailPath": "/details/260.json",
+    "routePath": "/courses/2026/fall/E617-01"
   },
   {
     "id": "2026:spring:E622-01:0:261",
@@ -5288,7 +6075,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "電気電子工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E622-01",
-    "routePath": "/courses/2026/spring/E622-01/course-vm5z13"
+    "sourceIndex": 261,
+    "hasDetail": true,
+    "detailPath": "/details/261.json",
+    "routePath": "/courses/2026/spring/E622-01"
   },
   {
     "id": "2026:spring:E623-01:0:262",
@@ -5308,7 +6098,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "電気電子工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E623-01",
-    "routePath": "/courses/2026/spring/E623-01/i"
+    "sourceIndex": 262,
+    "hasDetail": true,
+    "detailPath": "/details/262.json",
+    "routePath": "/courses/2026/spring/E623-01"
   },
   {
     "id": "2026:spring:E624-01:0:263",
@@ -5328,7 +6121,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "電気電子工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E624-01",
-    "routePath": "/courses/2026/spring/E624-01/course-1yk5qlt"
+    "sourceIndex": 263,
+    "hasDetail": true,
+    "detailPath": "/details/263.json",
+    "routePath": "/courses/2026/spring/E624-01"
   },
   {
     "id": "2026:spring:E625-01:0:264",
@@ -5348,7 +6144,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "電気電子工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E625-01",
-    "routePath": "/courses/2026/spring/E625-01/iv"
+    "sourceIndex": 264,
+    "hasDetail": true,
+    "detailPath": "/details/264.json",
+    "routePath": "/courses/2026/spring/E625-01"
   },
   {
     "id": "2026:spring:E626-01:0:265",
@@ -5368,7 +6167,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "電気電子工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E626-01",
-    "routePath": "/courses/2026/spring/E626-01/iv"
+    "sourceIndex": 265,
+    "hasDetail": true,
+    "detailPath": "/details/265.json",
+    "routePath": "/courses/2026/spring/E626-01"
   },
   {
     "id": "2026:spring:E627-01:0:266",
@@ -5388,7 +6190,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "電気電子工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E627-01",
-    "routePath": "/courses/2026/spring/E627-01/course-13d3051"
+    "sourceIndex": 266,
+    "hasDetail": true,
+    "detailPath": "/details/266.json",
+    "routePath": "/courses/2026/spring/E627-01"
   },
   {
     "id": "2026:spring:E628-01:0:267",
@@ -5408,7 +6213,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "電気電子工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E628-01",
-    "routePath": "/courses/2026/spring/E628-01/course-1kewm4p"
+    "sourceIndex": 267,
+    "hasDetail": true,
+    "detailPath": "/details/267.json",
+    "routePath": "/courses/2026/spring/E628-01"
   },
   {
     "id": "2026:spring:E629-01:0:268",
@@ -5428,7 +6236,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "電気電子工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E629-01",
-    "routePath": "/courses/2026/spring/E629-01/course-kn28p6"
+    "sourceIndex": 268,
+    "hasDetail": true,
+    "detailPath": "/details/268.json",
+    "routePath": "/courses/2026/spring/E629-01"
   },
   {
     "id": "2026:spring:E630-01:0:269",
@@ -5448,7 +6259,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "電気電子工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E630-01",
-    "routePath": "/courses/2026/spring/E630-01/course-q69pha"
+    "sourceIndex": 269,
+    "hasDetail": true,
+    "detailPath": "/details/269.json",
+    "routePath": "/courses/2026/spring/E630-01"
   },
   {
     "id": "2026:spring:E631-01:0:270",
@@ -5468,7 +6282,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "電気電子工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E631-01",
-    "routePath": "/courses/2026/spring/E631-01/course-1bnj21s"
+    "sourceIndex": 270,
+    "hasDetail": true,
+    "detailPath": "/details/270.json",
+    "routePath": "/courses/2026/spring/E631-01"
   },
   {
     "id": "2026:fall:E632-01:0:271",
@@ -5488,7 +6305,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "電気電子工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E632-01",
-    "routePath": "/courses/2026/fall/E632-01/course-6ry0qm"
+    "sourceIndex": 271,
+    "hasDetail": true,
+    "detailPath": "/details/271.json",
+    "routePath": "/courses/2026/fall/E632-01"
   },
   {
     "id": "2026:fall:E633-01:0:272",
@@ -5508,7 +6328,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "電気電子工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E633-01",
-    "routePath": "/courses/2026/fall/E633-01/ii"
+    "sourceIndex": 272,
+    "hasDetail": true,
+    "detailPath": "/details/272.json",
+    "routePath": "/courses/2026/fall/E633-01"
   },
   {
     "id": "2026:fall:E634-01:0:273",
@@ -5528,7 +6351,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "電気電子工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E634-01",
-    "routePath": "/courses/2026/fall/E634-01/course-1xt2ues"
+    "sourceIndex": 273,
+    "hasDetail": true,
+    "detailPath": "/details/273.json",
+    "routePath": "/courses/2026/fall/E634-01"
   },
   {
     "id": "2026:fall:E635-01:0:274",
@@ -5548,7 +6374,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "電気電子工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E635-01",
-    "routePath": "/courses/2026/fall/E635-01/course-emf5y"
+    "sourceIndex": 274,
+    "hasDetail": true,
+    "detailPath": "/details/274.json",
+    "routePath": "/courses/2026/fall/E635-01"
   },
   {
     "id": "2026:fall:E636-01:0:275",
@@ -5568,7 +6397,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "電気電子工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E636-01",
-    "routePath": "/courses/2026/fall/E636-01/course-1kdq9vl"
+    "sourceIndex": 275,
+    "hasDetail": true,
+    "detailPath": "/details/275.json",
+    "routePath": "/courses/2026/fall/E636-01"
   },
   {
     "id": "2026:fall:E637-01:0:276",
@@ -5588,7 +6420,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "電気電子工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E637-01",
-    "routePath": "/courses/2026/fall/E637-01/course-1ccbmwz"
+    "sourceIndex": 276,
+    "hasDetail": true,
+    "detailPath": "/details/276.json",
+    "routePath": "/courses/2026/fall/E637-01"
   },
   {
     "id": "2026:fall:E638-01:0:277",
@@ -5608,7 +6443,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "電気電子工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E638-01",
-    "routePath": "/courses/2026/fall/E638-01/course-1geacsv"
+    "sourceIndex": 277,
+    "hasDetail": true,
+    "detailPath": "/details/277.json",
+    "routePath": "/courses/2026/fall/E638-01"
   },
   {
     "id": "2026:fall:E639-01:0:278",
@@ -5628,7 +6466,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "電気電子工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E639-01",
-    "routePath": "/courses/2026/fall/E639-01/course-1qj61zr"
+    "sourceIndex": 278,
+    "hasDetail": true,
+    "detailPath": "/details/278.json",
+    "routePath": "/courses/2026/fall/E639-01"
   },
   {
     "id": "2026:fall:E640-01:0:279",
@@ -5648,7 +6489,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "電気電子工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E640-01",
-    "routePath": "/courses/2026/fall/E640-01/course-1ggphp"
+    "sourceIndex": 279,
+    "hasDetail": true,
+    "detailPath": "/details/279.json",
+    "routePath": "/courses/2026/fall/E640-01"
   },
   {
     "id": "2026:spring:E641-01:0:280",
@@ -5668,7 +6512,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "電気電子工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E641-01",
-    "routePath": "/courses/2026/spring/E641-01/a"
+    "sourceIndex": 280,
+    "hasDetail": true,
+    "detailPath": "/details/280.json",
+    "routePath": "/courses/2026/spring/E641-01"
   },
   {
     "id": "2026:fall:E641-01:0:281",
@@ -5688,7 +6535,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "電気電子工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E641-01",
-    "routePath": "/courses/2026/fall/E641-01/a"
+    "sourceIndex": 281,
+    "hasDetail": true,
+    "detailPath": "/details/281.json",
+    "routePath": "/courses/2026/fall/E641-01"
   },
   {
     "id": "2026:spring:E642-01:0:282",
@@ -5708,7 +6558,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "電気電子工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E642-01",
-    "routePath": "/courses/2026/spring/E642-01/b"
+    "sourceIndex": 282,
+    "hasDetail": true,
+    "detailPath": "/details/282.json",
+    "routePath": "/courses/2026/spring/E642-01"
   },
   {
     "id": "2026:fall:E642-01:0:283",
@@ -5728,7 +6581,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "電気電子工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E642-01",
-    "routePath": "/courses/2026/fall/E642-01/b"
+    "sourceIndex": 283,
+    "hasDetail": true,
+    "detailPath": "/details/283.json",
+    "routePath": "/courses/2026/fall/E642-01"
   },
   {
     "id": "2026:spring:E643-01:0:284",
@@ -5748,7 +6604,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "電気電子工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E643-01",
-    "routePath": "/courses/2026/spring/E643-01/course-eegloy"
+    "sourceIndex": 284,
+    "hasDetail": true,
+    "detailPath": "/details/284.json",
+    "routePath": "/courses/2026/spring/E643-01"
   },
   {
     "id": "2026:spring:E644-01:0:285",
@@ -5768,7 +6627,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "電気電子工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E644-01",
-    "routePath": "/courses/2026/spring/E644-01/course-6hbopn"
+    "sourceIndex": 285,
+    "hasDetail": true,
+    "detailPath": "/details/285.json",
+    "routePath": "/courses/2026/spring/E644-01"
   },
   {
     "id": "2026:spring:E645-01:0:286",
@@ -5788,7 +6650,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "電気電子工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E645-01",
-    "routePath": "/courses/2026/spring/E645-01/course-1bg1nri"
+    "sourceIndex": 286,
+    "hasDetail": true,
+    "detailPath": "/details/286.json",
+    "routePath": "/courses/2026/spring/E645-01"
   },
   {
     "id": "2026:fall:E646-01:0:287",
@@ -5808,7 +6673,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "電気電子工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E646-01",
-    "routePath": "/courses/2026/fall/E646-01/course-swkc5f"
+    "sourceIndex": 287,
+    "hasDetail": true,
+    "detailPath": "/details/287.json",
+    "routePath": "/courses/2026/fall/E646-01"
   },
   {
     "id": "2026:fall:E907-01:0:288",
@@ -5828,7 +6696,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "電気電子工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E907-01",
-    "routePath": "/courses/2026/fall/E907-01/course-692o1e"
+    "sourceIndex": 288,
+    "hasDetail": true,
+    "detailPath": "/details/288.json",
+    "routePath": "/courses/2026/fall/E907-01"
   },
   {
     "id": "2026:spring:E917-01:0:289",
@@ -5848,7 +6719,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "電気電子工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E917-01",
-    "routePath": "/courses/2026/spring/E917-01/course-18v6c71"
+    "sourceIndex": 289,
+    "hasDetail": true,
+    "detailPath": "/details/289.json",
+    "routePath": "/courses/2026/spring/E917-01"
   },
   {
     "id": "2026:full-year:E927-04:0:290",
@@ -5868,7 +6742,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "電気電子工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E927-04",
-    "routePath": "/courses/2026/full-year/E927-04/iii"
+    "sourceIndex": 290,
+    "hasDetail": true,
+    "detailPath": "/details/290.json",
+    "routePath": "/courses/2026/full-year/E927-04"
   },
   {
     "id": "2026:full-year:E927-06:0:291",
@@ -5888,7 +6765,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "電気電子工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E927-06",
-    "routePath": "/courses/2026/full-year/E927-06/iii"
+    "sourceIndex": 291,
+    "hasDetail": true,
+    "detailPath": "/details/291.json",
+    "routePath": "/courses/2026/full-year/E927-06"
   },
   {
     "id": "2026:full-year:E927-07:0:292",
@@ -5908,7 +6788,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "電気電子工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E927-07",
-    "routePath": "/courses/2026/full-year/E927-07/iii"
+    "sourceIndex": 292,
+    "hasDetail": true,
+    "detailPath": "/details/292.json",
+    "routePath": "/courses/2026/full-year/E927-07"
   },
   {
     "id": "2026:full-year:E927-09:0:293",
@@ -5928,7 +6811,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "電気電子工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E927-09",
-    "routePath": "/courses/2026/full-year/E927-09/iii"
+    "sourceIndex": 293,
+    "hasDetail": true,
+    "detailPath": "/details/293.json",
+    "routePath": "/courses/2026/full-year/E927-09"
   },
   {
     "id": "2026:full-year:E927-10:0:294",
@@ -5948,7 +6834,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "電気電子工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E927-10",
-    "routePath": "/courses/2026/full-year/E927-10/iii"
+    "sourceIndex": 294,
+    "hasDetail": true,
+    "detailPath": "/details/294.json",
+    "routePath": "/courses/2026/full-year/E927-10"
   },
   {
     "id": "2026:full-year:E927-12:0:295",
@@ -5968,7 +6857,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "電気電子工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E927-12",
-    "routePath": "/courses/2026/full-year/E927-12/iii"
+    "sourceIndex": 295,
+    "hasDetail": true,
+    "detailPath": "/details/295.json",
+    "routePath": "/courses/2026/full-year/E927-12"
   },
   {
     "id": "2026:full-year:E927-13:0:296",
@@ -5988,7 +6880,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "電気電子工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E927-13",
-    "routePath": "/courses/2026/full-year/E927-13/iii"
+    "sourceIndex": 296,
+    "hasDetail": true,
+    "detailPath": "/details/296.json",
+    "routePath": "/courses/2026/full-year/E927-13"
   },
   {
     "id": "2026:full-year:E927-15:0:297",
@@ -6008,7 +6903,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "電気電子工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E927-15",
-    "routePath": "/courses/2026/full-year/E927-15/iii"
+    "sourceIndex": 297,
+    "hasDetail": true,
+    "detailPath": "/details/297.json",
+    "routePath": "/courses/2026/full-year/E927-15"
   },
   {
     "id": "2026:full-year:E927-16:0:298",
@@ -6028,7 +6926,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "電気電子工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E927-16",
-    "routePath": "/courses/2026/full-year/E927-16/iii"
+    "sourceIndex": 298,
+    "hasDetail": true,
+    "detailPath": "/details/298.json",
+    "routePath": "/courses/2026/full-year/E927-16"
   },
   {
     "id": "2026:full-year:E927-17:0:299",
@@ -6048,7 +6949,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "電気電子工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E927-17",
-    "routePath": "/courses/2026/full-year/E927-17/iii"
+    "sourceIndex": 299,
+    "hasDetail": true,
+    "detailPath": "/details/299.json",
+    "routePath": "/courses/2026/full-year/E927-17"
   },
   {
     "id": "2026:full-year:E927-19:0:300",
@@ -6068,7 +6972,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "電気電子工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E927-19",
-    "routePath": "/courses/2026/full-year/E927-19/iii"
+    "sourceIndex": 300,
+    "hasDetail": true,
+    "detailPath": "/details/300.json",
+    "routePath": "/courses/2026/full-year/E927-19"
   },
   {
     "id": "2026:full-year:E927-20:0:301",
@@ -6088,7 +6995,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "電気電子工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E927-20",
-    "routePath": "/courses/2026/full-year/E927-20/iii"
+    "sourceIndex": 301,
+    "hasDetail": true,
+    "detailPath": "/details/301.json",
+    "routePath": "/courses/2026/full-year/E927-20"
   },
   {
     "id": "2026:full-year:E927-21:0:302",
@@ -6108,7 +7018,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "電気電子工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E927-21",
-    "routePath": "/courses/2026/full-year/E927-21/iii"
+    "sourceIndex": 302,
+    "hasDetail": true,
+    "detailPath": "/details/302.json",
+    "routePath": "/courses/2026/full-year/E927-21"
   },
   {
     "id": "2026:full-year:E927-22:0:303",
@@ -6128,7 +7041,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "電気電子工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E927-22",
-    "routePath": "/courses/2026/full-year/E927-22/iii"
+    "sourceIndex": 303,
+    "hasDetail": true,
+    "detailPath": "/details/303.json",
+    "routePath": "/courses/2026/full-year/E927-22"
   },
   {
     "id": "2026:full-year:E927-23:0:304",
@@ -6148,7 +7064,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "電気電子工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E927-23",
-    "routePath": "/courses/2026/full-year/E927-23/iii"
+    "sourceIndex": 304,
+    "hasDetail": true,
+    "detailPath": "/details/304.json",
+    "routePath": "/courses/2026/full-year/E927-23"
   },
   {
     "id": "2026:full-year:E927-24:0:305",
@@ -6168,7 +7087,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "電気電子工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E927-24",
-    "routePath": "/courses/2026/full-year/E927-24/iii"
+    "sourceIndex": 305,
+    "hasDetail": true,
+    "detailPath": "/details/305.json",
+    "routePath": "/courses/2026/full-year/E927-24"
   },
   {
     "id": "2026:full-year:E927-26:0:306",
@@ -6188,7 +7110,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "電気電子工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E927-26",
-    "routePath": "/courses/2026/full-year/E927-26/iii"
+    "sourceIndex": 306,
+    "hasDetail": true,
+    "detailPath": "/details/306.json",
+    "routePath": "/courses/2026/full-year/E927-26"
   },
   {
     "id": "2026:full-year:E927-27:0:307",
@@ -6208,7 +7133,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "電気電子工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E927-27",
-    "routePath": "/courses/2026/full-year/E927-27/iii"
+    "sourceIndex": 307,
+    "hasDetail": true,
+    "detailPath": "/details/307.json",
+    "routePath": "/courses/2026/full-year/E927-27"
   },
   {
     "id": "2026:full-year:E927-28:0:308",
@@ -6228,7 +7156,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "電気電子工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E927-28",
-    "routePath": "/courses/2026/full-year/E927-28/iii"
+    "sourceIndex": 308,
+    "hasDetail": true,
+    "detailPath": "/details/308.json",
+    "routePath": "/courses/2026/full-year/E927-28"
   },
   {
     "id": "2026:full-year:E927-30:0:309",
@@ -6248,7 +7179,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "電気電子工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E927-30",
-    "routePath": "/courses/2026/full-year/E927-30/iii"
+    "sourceIndex": 309,
+    "hasDetail": true,
+    "detailPath": "/details/309.json",
+    "routePath": "/courses/2026/full-year/E927-30"
   },
   {
     "id": "2026:full-year:E927-31:0:310",
@@ -6268,7 +7202,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "電気電子工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E927-31",
-    "routePath": "/courses/2026/full-year/E927-31/iii"
+    "sourceIndex": 310,
+    "hasDetail": true,
+    "detailPath": "/details/310.json",
+    "routePath": "/courses/2026/full-year/E927-31"
   },
   {
     "id": "2026:full-year:E927-32:0:311",
@@ -6288,7 +7225,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "電気電子工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E927-32",
-    "routePath": "/courses/2026/full-year/E927-32/iii"
+    "sourceIndex": 311,
+    "hasDetail": true,
+    "detailPath": "/details/311.json",
+    "routePath": "/courses/2026/full-year/E927-32"
   },
   {
     "id": "2026:full-year:E927-33:0:312",
@@ -6308,7 +7248,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "電気電子工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E927-33",
-    "routePath": "/courses/2026/full-year/E927-33/iii"
+    "sourceIndex": 312,
+    "hasDetail": true,
+    "detailPath": "/details/312.json",
+    "routePath": "/courses/2026/full-year/E927-33"
   },
   {
     "id": "2026:full-year:E927-34:0:313",
@@ -6328,7 +7271,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "電気電子工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E927-34",
-    "routePath": "/courses/2026/full-year/E927-34/iii"
+    "sourceIndex": 313,
+    "hasDetail": true,
+    "detailPath": "/details/313.json",
+    "routePath": "/courses/2026/full-year/E927-34"
   },
   {
     "id": "2026:full-year:E927-35:0:314",
@@ -6348,7 +7294,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "電気電子工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E927-35",
-    "routePath": "/courses/2026/full-year/E927-35/iii"
+    "sourceIndex": 314,
+    "hasDetail": true,
+    "detailPath": "/details/314.json",
+    "routePath": "/courses/2026/full-year/E927-35"
   },
   {
     "id": "2026:full-year:E927-36:0:315",
@@ -6368,7 +7317,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "電気電子工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E927-36",
-    "routePath": "/courses/2026/full-year/E927-36/iii"
+    "sourceIndex": 315,
+    "hasDetail": true,
+    "detailPath": "/details/315.json",
+    "routePath": "/courses/2026/full-year/E927-36"
   },
   {
     "id": "2026:spring:E947-01:0:316",
@@ -6388,7 +7340,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "電気電子工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E947-01",
-    "routePath": "/courses/2026/spring/E947-01/i"
+    "sourceIndex": 316,
+    "hasDetail": true,
+    "detailPath": "/details/316.json",
+    "routePath": "/courses/2026/spring/E947-01"
   },
   {
     "id": "2026:fall:E957-01:0:317",
@@ -6408,7 +7363,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "電気電子工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E957-01",
-    "routePath": "/courses/2026/fall/E957-01/ii"
+    "sourceIndex": 317,
+    "hasDetail": true,
+    "detailPath": "/details/317.json",
+    "routePath": "/courses/2026/fall/E957-01"
   },
   {
     "id": "2026:spring:E505-01:0:318",
@@ -6428,7 +7386,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "情報工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E505-01",
-    "routePath": "/courses/2026/spring/E505-01/ii"
+    "sourceIndex": 318,
+    "hasDetail": true,
+    "detailPath": "/details/318.json",
+    "routePath": "/courses/2026/spring/E505-01"
   },
   {
     "id": "2026:fall:E505-01:0:319",
@@ -6448,7 +7409,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "情報工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E505-01",
-    "routePath": "/courses/2026/fall/E505-01/ii"
+    "sourceIndex": 319,
+    "hasDetail": true,
+    "detailPath": "/details/319.json",
+    "routePath": "/courses/2026/fall/E505-01"
   },
   {
     "id": "2026:spring:E517-01:0:320",
@@ -6468,7 +7432,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "情報工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E517-01",
-    "routePath": "/courses/2026/spring/E517-01/course-98ikg9"
+    "sourceIndex": 320,
+    "hasDetail": true,
+    "detailPath": "/details/320.json",
+    "routePath": "/courses/2026/spring/E517-01"
   },
   {
     "id": "2026:spring:E518-01:0:321",
@@ -6488,7 +7455,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "情報工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E518-01",
-    "routePath": "/courses/2026/spring/E518-01/course-q0udwk"
+    "sourceIndex": 321,
+    "hasDetail": true,
+    "detailPath": "/details/321.json",
+    "routePath": "/courses/2026/spring/E518-01"
   },
   {
     "id": "2026:spring:E520-01:0:322",
@@ -6508,7 +7478,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "情報工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E520-01",
-    "routePath": "/courses/2026/spring/E520-01/course-1yo2tbl"
+    "sourceIndex": 322,
+    "hasDetail": true,
+    "detailPath": "/details/322.json",
+    "routePath": "/courses/2026/spring/E520-01"
   },
   {
     "id": "2026:spring:E521-01:0:323",
@@ -6528,7 +7501,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "情報工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E521-01",
-    "routePath": "/courses/2026/spring/E521-01/course-1y26mow"
+    "sourceIndex": 323,
+    "hasDetail": true,
+    "detailPath": "/details/323.json",
+    "routePath": "/courses/2026/spring/E521-01"
   },
   {
     "id": "2026:spring:E522-01:0:324",
@@ -6548,7 +7524,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "情報工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E522-01",
-    "routePath": "/courses/2026/spring/E522-01/course-1jxkrez"
+    "sourceIndex": 324,
+    "hasDetail": true,
+    "detailPath": "/details/324.json",
+    "routePath": "/courses/2026/spring/E522-01"
   },
   {
     "id": "2026:fall:E523-01:0:325",
@@ -6568,7 +7547,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "情報工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E523-01",
-    "routePath": "/courses/2026/fall/E523-01/course-1ol19aw"
+    "sourceIndex": 325,
+    "hasDetail": true,
+    "detailPath": "/details/325.json",
+    "routePath": "/courses/2026/fall/E523-01"
   },
   {
     "id": "2026:fall:E524-01:0:326",
@@ -6588,7 +7570,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "情報工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E524-01",
-    "routePath": "/courses/2026/fall/E524-01/course-12bseut"
+    "sourceIndex": 326,
+    "hasDetail": true,
+    "detailPath": "/details/326.json",
+    "routePath": "/courses/2026/fall/E524-01"
   },
   {
     "id": "2026:spring:E526-01:0:327",
@@ -6608,7 +7593,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "情報工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E526-01",
-    "routePath": "/courses/2026/spring/E526-01/course-18w9kzf"
+    "sourceIndex": 327,
+    "hasDetail": true,
+    "detailPath": "/details/327.json",
+    "routePath": "/courses/2026/spring/E526-01"
   },
   {
     "id": "2026:spring:E527-01:0:328",
@@ -6628,7 +7616,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "情報工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E527-01",
-    "routePath": "/courses/2026/spring/E527-01/course-1t5ickw"
+    "sourceIndex": 328,
+    "hasDetail": true,
+    "detailPath": "/details/328.json",
+    "routePath": "/courses/2026/spring/E527-01"
   },
   {
     "id": "2026:fall:E529-01:0:329",
@@ -6648,7 +7639,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "情報工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E529-01",
-    "routePath": "/courses/2026/fall/E529-01/course-kjh3qm"
+    "sourceIndex": 329,
+    "hasDetail": true,
+    "detailPath": "/details/329.json",
+    "routePath": "/courses/2026/fall/E529-01"
   },
   {
     "id": "2026:spring:E532-01:0:330",
@@ -6668,7 +7662,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "情報工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E532-01",
-    "routePath": "/courses/2026/spring/E532-01/course-1u87v2y"
+    "sourceIndex": 330,
+    "hasDetail": true,
+    "detailPath": "/details/330.json",
+    "routePath": "/courses/2026/spring/E532-01"
   },
   {
     "id": "2026:fall:E533-01:0:331",
@@ -6688,7 +7685,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "情報工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E533-01",
-    "routePath": "/courses/2026/fall/E533-01/course-j8snrs"
+    "sourceIndex": 331,
+    "hasDetail": true,
+    "detailPath": "/details/331.json",
+    "routePath": "/courses/2026/fall/E533-01"
   },
   {
     "id": "2026:spring:E534-01:0:332",
@@ -6708,7 +7708,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "情報工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E534-01",
-    "routePath": "/courses/2026/spring/E534-01/a"
+    "sourceIndex": 332,
+    "hasDetail": true,
+    "detailPath": "/details/332.json",
+    "routePath": "/courses/2026/spring/E534-01"
   },
   {
     "id": "2026:fall:E534-01:0:333",
@@ -6728,7 +7731,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "情報工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E534-01",
-    "routePath": "/courses/2026/fall/E534-01/a"
+    "sourceIndex": 333,
+    "hasDetail": true,
+    "detailPath": "/details/333.json",
+    "routePath": "/courses/2026/fall/E534-01"
   },
   {
     "id": "2026:spring:E535-01:0:334",
@@ -6748,7 +7754,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "情報工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E535-01",
-    "routePath": "/courses/2026/spring/E535-01/b"
+    "sourceIndex": 334,
+    "hasDetail": true,
+    "detailPath": "/details/334.json",
+    "routePath": "/courses/2026/spring/E535-01"
   },
   {
     "id": "2026:fall:E535-01:0:335",
@@ -6768,7 +7777,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "情報工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E535-01",
-    "routePath": "/courses/2026/fall/E535-01/b"
+    "sourceIndex": 335,
+    "hasDetail": true,
+    "detailPath": "/details/335.json",
+    "routePath": "/courses/2026/fall/E535-01"
   },
   {
     "id": "2026:fall:E540-01:0:336",
@@ -6788,7 +7800,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "情報工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E540-01",
-    "routePath": "/courses/2026/fall/E540-01/course-1rvydll"
+    "sourceIndex": 336,
+    "hasDetail": true,
+    "detailPath": "/details/336.json",
+    "routePath": "/courses/2026/fall/E540-01"
   },
   {
     "id": "2026:fall:E541-01:0:337",
@@ -6808,7 +7823,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "情報工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E541-01",
-    "routePath": "/courses/2026/fall/E541-01/course-15s0asn"
+    "sourceIndex": 337,
+    "hasDetail": true,
+    "detailPath": "/details/337.json",
+    "routePath": "/courses/2026/fall/E541-01"
   },
   {
     "id": "2026:spring:E557-01:0:338",
@@ -6828,7 +7846,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "情報工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E557-01",
-    "routePath": "/courses/2026/spring/E557-01/vii-2"
+    "sourceIndex": 338,
+    "hasDetail": true,
+    "detailPath": "/details/338.json",
+    "routePath": "/courses/2026/spring/E557-01"
   },
   {
     "id": "2026:fall:E906-01:0:339",
@@ -6848,7 +7869,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "情報工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E906-01",
-    "routePath": "/courses/2026/fall/E906-01/course-692o1e"
+    "sourceIndex": 339,
+    "hasDetail": true,
+    "detailPath": "/details/339.json",
+    "routePath": "/courses/2026/fall/E906-01"
   },
   {
     "id": "2026:fall:E916-01:0:340",
@@ -6868,7 +7892,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "情報工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E916-01",
-    "routePath": "/courses/2026/fall/E916-01/course-18v6c71"
+    "sourceIndex": 340,
+    "hasDetail": true,
+    "detailPath": "/details/340.json",
+    "routePath": "/courses/2026/fall/E916-01"
   },
   {
     "id": "2026:full-year:E926-04:0:341",
@@ -6888,7 +7915,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "情報工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E926-04",
-    "routePath": "/courses/2026/full-year/E926-04/iii"
+    "sourceIndex": 341,
+    "hasDetail": true,
+    "detailPath": "/details/341.json",
+    "routePath": "/courses/2026/full-year/E926-04"
   },
   {
     "id": "2026:full-year:E926-08:0:342",
@@ -6908,7 +7938,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "情報工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E926-08",
-    "routePath": "/courses/2026/full-year/E926-08/iii"
+    "sourceIndex": 342,
+    "hasDetail": true,
+    "detailPath": "/details/342.json",
+    "routePath": "/courses/2026/full-year/E926-08"
   },
   {
     "id": "2026:full-year:E926-11:0:343",
@@ -6928,7 +7961,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "情報工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E926-11",
-    "routePath": "/courses/2026/full-year/E926-11/iii"
+    "sourceIndex": 343,
+    "hasDetail": true,
+    "detailPath": "/details/343.json",
+    "routePath": "/courses/2026/full-year/E926-11"
   },
   {
     "id": "2026:full-year:E926-12:0:344",
@@ -6948,7 +7984,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "情報工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E926-12",
-    "routePath": "/courses/2026/full-year/E926-12/iii"
+    "sourceIndex": 344,
+    "hasDetail": true,
+    "detailPath": "/details/344.json",
+    "routePath": "/courses/2026/full-year/E926-12"
   },
   {
     "id": "2026:full-year:E926-13:0:345",
@@ -6968,7 +8007,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "情報工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E926-13",
-    "routePath": "/courses/2026/full-year/E926-13/iii"
+    "sourceIndex": 345,
+    "hasDetail": true,
+    "detailPath": "/details/345.json",
+    "routePath": "/courses/2026/full-year/E926-13"
   },
   {
     "id": "2026:full-year:E926-17:0:346",
@@ -6988,7 +8030,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "情報工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E926-17",
-    "routePath": "/courses/2026/full-year/E926-17/iii"
+    "sourceIndex": 346,
+    "hasDetail": true,
+    "detailPath": "/details/346.json",
+    "routePath": "/courses/2026/full-year/E926-17"
   },
   {
     "id": "2026:full-year:E926-19:0:347",
@@ -7008,7 +8053,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "情報工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E926-19",
-    "routePath": "/courses/2026/full-year/E926-19/iii"
+    "sourceIndex": 347,
+    "hasDetail": true,
+    "detailPath": "/details/347.json",
+    "routePath": "/courses/2026/full-year/E926-19"
   },
   {
     "id": "2026:full-year:E926-20:0:348",
@@ -7028,7 +8076,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "情報工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E926-20",
-    "routePath": "/courses/2026/full-year/E926-20/iii"
+    "sourceIndex": 348,
+    "hasDetail": true,
+    "detailPath": "/details/348.json",
+    "routePath": "/courses/2026/full-year/E926-20"
   },
   {
     "id": "2026:full-year:E926-21:0:349",
@@ -7048,7 +8099,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "情報工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E926-21",
-    "routePath": "/courses/2026/full-year/E926-21/iii"
+    "sourceIndex": 349,
+    "hasDetail": true,
+    "detailPath": "/details/349.json",
+    "routePath": "/courses/2026/full-year/E926-21"
   },
   {
     "id": "2026:full-year:E926-22:0:350",
@@ -7068,7 +8122,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "情報工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E926-22",
-    "routePath": "/courses/2026/full-year/E926-22/iii"
+    "sourceIndex": 350,
+    "hasDetail": true,
+    "detailPath": "/details/350.json",
+    "routePath": "/courses/2026/full-year/E926-22"
   },
   {
     "id": "2026:full-year:E926-23:0:351",
@@ -7088,7 +8145,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "情報工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E926-23",
-    "routePath": "/courses/2026/full-year/E926-23/iii"
+    "sourceIndex": 351,
+    "hasDetail": true,
+    "detailPath": "/details/351.json",
+    "routePath": "/courses/2026/full-year/E926-23"
   },
   {
     "id": "2026:full-year:E926-24:0:352",
@@ -7108,7 +8168,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "情報工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E926-24",
-    "routePath": "/courses/2026/full-year/E926-24/iii"
+    "sourceIndex": 352,
+    "hasDetail": true,
+    "detailPath": "/details/352.json",
+    "routePath": "/courses/2026/full-year/E926-24"
   },
   {
     "id": "2026:full-year:E926-25:0:353",
@@ -7128,7 +8191,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "情報工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E926-25",
-    "routePath": "/courses/2026/full-year/E926-25/iii"
+    "sourceIndex": 353,
+    "hasDetail": true,
+    "detailPath": "/details/353.json",
+    "routePath": "/courses/2026/full-year/E926-25"
   },
   {
     "id": "2026:full-year:E926-26:0:354",
@@ -7148,7 +8214,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "情報工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E926-26",
-    "routePath": "/courses/2026/full-year/E926-26/iii"
+    "sourceIndex": 354,
+    "hasDetail": true,
+    "detailPath": "/details/354.json",
+    "routePath": "/courses/2026/full-year/E926-26"
   },
   {
     "id": "2026:full-year:E926-27:0:355",
@@ -7168,7 +8237,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "情報工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E926-27",
-    "routePath": "/courses/2026/full-year/E926-27/iii"
+    "sourceIndex": 355,
+    "hasDetail": true,
+    "detailPath": "/details/355.json",
+    "routePath": "/courses/2026/full-year/E926-27"
   },
   {
     "id": "2026:full-year:E926-28:0:356",
@@ -7188,7 +8260,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "情報工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E926-28",
-    "routePath": "/courses/2026/full-year/E926-28/iii"
+    "sourceIndex": 356,
+    "hasDetail": true,
+    "detailPath": "/details/356.json",
+    "routePath": "/courses/2026/full-year/E926-28"
   },
   {
     "id": "2026:full-year:E926-29:0:357",
@@ -7208,7 +8283,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "情報工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E926-29",
-    "routePath": "/courses/2026/full-year/E926-29/iii"
+    "sourceIndex": 357,
+    "hasDetail": true,
+    "detailPath": "/details/357.json",
+    "routePath": "/courses/2026/full-year/E926-29"
   },
   {
     "id": "2026:full-year:E926-30:0:358",
@@ -7228,7 +8306,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "情報工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E926-30",
-    "routePath": "/courses/2026/full-year/E926-30/iii"
+    "sourceIndex": 358,
+    "hasDetail": true,
+    "detailPath": "/details/358.json",
+    "routePath": "/courses/2026/full-year/E926-30"
   },
   {
     "id": "2026:full-year:E926-31:0:359",
@@ -7248,7 +8329,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "情報工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E926-31",
-    "routePath": "/courses/2026/full-year/E926-31/iii"
+    "sourceIndex": 359,
+    "hasDetail": true,
+    "detailPath": "/details/359.json",
+    "routePath": "/courses/2026/full-year/E926-31"
   },
   {
     "id": "2026:spring:E946-01:0:360",
@@ -7268,7 +8352,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "情報工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E946-01",
-    "routePath": "/courses/2026/spring/E946-01/i"
+    "sourceIndex": 360,
+    "hasDetail": true,
+    "detailPath": "/details/360.json",
+    "routePath": "/courses/2026/spring/E946-01"
   },
   {
     "id": "2026:fall:E956-01:0:361",
@@ -7288,7 +8375,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "情報工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E956-01",
-    "routePath": "/courses/2026/fall/E956-01/ii"
+    "sourceIndex": 361,
+    "hasDetail": true,
+    "detailPath": "/details/361.json",
+    "routePath": "/courses/2026/fall/E956-01"
   },
   {
     "id": "2026:spring:E717-01:0:362",
@@ -7308,7 +8398,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境土木工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E717-01",
-    "routePath": "/courses/2026/spring/E717-01/course-sw6mn8"
+    "sourceIndex": 362,
+    "hasDetail": true,
+    "detailPath": "/details/362.json",
+    "routePath": "/courses/2026/spring/E717-01"
   },
   {
     "id": "2026:spring:E718-01:0:363",
@@ -7328,7 +8421,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境土木工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E718-01",
-    "routePath": "/courses/2026/spring/E718-01/course-1oyyfnu"
+    "sourceIndex": 363,
+    "hasDetail": true,
+    "detailPath": "/details/363.json",
+    "routePath": "/courses/2026/spring/E718-01"
   },
   {
     "id": "2026:spring:E719-01:0:364",
@@ -7348,7 +8444,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境土木工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E719-01",
-    "routePath": "/courses/2026/spring/E719-01/ii"
+    "sourceIndex": 364,
+    "hasDetail": true,
+    "detailPath": "/details/364.json",
+    "routePath": "/courses/2026/spring/E719-01"
   },
   {
     "id": "2026:spring:E720-01:0:365",
@@ -7368,7 +8467,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境土木工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E720-01",
-    "routePath": "/courses/2026/spring/E720-01/course-syv0j3"
+    "sourceIndex": 365,
+    "hasDetail": true,
+    "detailPath": "/details/365.json",
+    "routePath": "/courses/2026/spring/E720-01"
   },
   {
     "id": "2026:spring:E721-01:0:366",
@@ -7388,7 +8490,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境土木工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E721-01",
-    "routePath": "/courses/2026/spring/E721-01/course-amee4u"
+    "sourceIndex": 366,
+    "hasDetail": true,
+    "detailPath": "/details/366.json",
+    "routePath": "/courses/2026/spring/E721-01"
   },
   {
     "id": "2026:spring:E722-01:0:367",
@@ -7408,7 +8513,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境土木工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E722-01",
-    "routePath": "/courses/2026/spring/E722-01/course-1ocd0ov"
+    "sourceIndex": 367,
+    "hasDetail": true,
+    "detailPath": "/details/367.json",
+    "routePath": "/courses/2026/spring/E722-01"
   },
   {
     "id": "2026:spring:E723-01:0:368",
@@ -7428,7 +8536,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境土木工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E723-01",
-    "routePath": "/courses/2026/spring/E723-01/i"
+    "sourceIndex": 368,
+    "hasDetail": true,
+    "detailPath": "/details/368.json",
+    "routePath": "/courses/2026/spring/E723-01"
   },
   {
     "id": "2026:spring:E724-01:0:369",
@@ -7448,7 +8559,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境土木工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E724-01",
-    "routePath": "/courses/2026/spring/E724-01/i"
+    "sourceIndex": 369,
+    "hasDetail": true,
+    "detailPath": "/details/369.json",
+    "routePath": "/courses/2026/spring/E724-01"
   },
   {
     "id": "2026:spring:E725-01:0:370",
@@ -7468,7 +8582,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境土木工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E725-01",
-    "routePath": "/courses/2026/spring/E725-01/i"
+    "sourceIndex": 370,
+    "hasDetail": true,
+    "detailPath": "/details/370.json",
+    "routePath": "/courses/2026/spring/E725-01"
   },
   {
     "id": "2026:fall:E726-01:0:371",
@@ -7488,7 +8605,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境土木工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E726-01",
-    "routePath": "/courses/2026/fall/E726-01/course-8162h5"
+    "sourceIndex": 371,
+    "hasDetail": true,
+    "detailPath": "/details/371.json",
+    "routePath": "/courses/2026/fall/E726-01"
   },
   {
     "id": "2026:fall:E727-01:0:372",
@@ -7508,7 +8628,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境土木工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E727-01",
-    "routePath": "/courses/2026/fall/E727-01/course-ov5px0"
+    "sourceIndex": 372,
+    "hasDetail": true,
+    "detailPath": "/details/372.json",
+    "routePath": "/courses/2026/fall/E727-01"
   },
   {
     "id": "2026:fall:E728-01:0:373",
@@ -7528,7 +8651,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境土木工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E728-01",
-    "routePath": "/courses/2026/fall/E728-01/course-pld55l"
+    "sourceIndex": 373,
+    "hasDetail": true,
+    "detailPath": "/details/373.json",
+    "routePath": "/courses/2026/fall/E728-01"
   },
   {
     "id": "2026:fall:E729-01:0:374",
@@ -7548,7 +8674,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境土木工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E729-01",
-    "routePath": "/courses/2026/fall/E729-01/course-k3it6d"
+    "sourceIndex": 374,
+    "hasDetail": true,
+    "detailPath": "/details/374.json",
+    "routePath": "/courses/2026/fall/E729-01"
   },
   {
     "id": "2026:fall:E730-01:0:375",
@@ -7568,7 +8697,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境土木工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E730-01",
-    "routePath": "/courses/2026/fall/E730-01/ii"
+    "sourceIndex": 375,
+    "hasDetail": true,
+    "detailPath": "/details/375.json",
+    "routePath": "/courses/2026/fall/E730-01"
   },
   {
     "id": "2026:fall:E731-01:0:376",
@@ -7588,7 +8720,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境土木工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E731-01",
-    "routePath": "/courses/2026/fall/E731-01/ii"
+    "sourceIndex": 376,
+    "hasDetail": true,
+    "detailPath": "/details/376.json",
+    "routePath": "/courses/2026/fall/E731-01"
   },
   {
     "id": "2026:fall:E732-01:0:377",
@@ -7608,7 +8743,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境土木工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E732-01",
-    "routePath": "/courses/2026/fall/E732-01/ii"
+    "sourceIndex": 377,
+    "hasDetail": true,
+    "detailPath": "/details/377.json",
+    "routePath": "/courses/2026/fall/E732-01"
   },
   {
     "id": "2026:spring:E733-01:0:378",
@@ -7628,7 +8766,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境土木工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E733-01",
-    "routePath": "/courses/2026/spring/E733-01/a"
+    "sourceIndex": 378,
+    "hasDetail": true,
+    "detailPath": "/details/378.json",
+    "routePath": "/courses/2026/spring/E733-01"
   },
   {
     "id": "2026:fall:E733-01:0:379",
@@ -7648,7 +8789,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境土木工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E733-01",
-    "routePath": "/courses/2026/fall/E733-01/a"
+    "sourceIndex": 379,
+    "hasDetail": true,
+    "detailPath": "/details/379.json",
+    "routePath": "/courses/2026/fall/E733-01"
   },
   {
     "id": "2026:spring:E734-01:0:380",
@@ -7668,7 +8812,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境土木工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E734-01",
-    "routePath": "/courses/2026/spring/E734-01/b"
+    "sourceIndex": 380,
+    "hasDetail": true,
+    "detailPath": "/details/380.json",
+    "routePath": "/courses/2026/spring/E734-01"
   },
   {
     "id": "2026:fall:E734-01:0:381",
@@ -7688,7 +8835,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境土木工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E734-01",
-    "routePath": "/courses/2026/fall/E734-01/b"
+    "sourceIndex": 381,
+    "hasDetail": true,
+    "detailPath": "/details/381.json",
+    "routePath": "/courses/2026/fall/E734-01"
   },
   {
     "id": "2026:fall:E908-01:0:382",
@@ -7708,7 +8858,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境土木工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E908-01",
-    "routePath": "/courses/2026/fall/E908-01/course-692o1e"
+    "sourceIndex": 382,
+    "hasDetail": true,
+    "detailPath": "/details/382.json",
+    "routePath": "/courses/2026/fall/E908-01"
   },
   {
     "id": "2026:spring:E918-01:0:383",
@@ -7728,7 +8881,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境土木工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E918-01",
-    "routePath": "/courses/2026/spring/E918-01/course-18v6c71"
+    "sourceIndex": 383,
+    "hasDetail": true,
+    "detailPath": "/details/383.json",
+    "routePath": "/courses/2026/spring/E918-01"
   },
   {
     "id": "2026:full-year:E928-03:0:384",
@@ -7748,7 +8904,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境土木工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E928-03",
-    "routePath": "/courses/2026/full-year/E928-03/iii"
+    "sourceIndex": 384,
+    "hasDetail": true,
+    "detailPath": "/details/384.json",
+    "routePath": "/courses/2026/full-year/E928-03"
   },
   {
     "id": "2026:full-year:E928-04:0:385",
@@ -7768,7 +8927,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境土木工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E928-04",
-    "routePath": "/courses/2026/full-year/E928-04/iii"
+    "sourceIndex": 385,
+    "hasDetail": true,
+    "detailPath": "/details/385.json",
+    "routePath": "/courses/2026/full-year/E928-04"
   },
   {
     "id": "2026:full-year:E928-05:0:386",
@@ -7788,7 +8950,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境土木工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E928-05",
-    "routePath": "/courses/2026/full-year/E928-05/iii"
+    "sourceIndex": 386,
+    "hasDetail": true,
+    "detailPath": "/details/386.json",
+    "routePath": "/courses/2026/full-year/E928-05"
   },
   {
     "id": "2026:full-year:E928-06:0:387",
@@ -7808,7 +8973,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境土木工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E928-06",
-    "routePath": "/courses/2026/full-year/E928-06/iii"
+    "sourceIndex": 387,
+    "hasDetail": true,
+    "detailPath": "/details/387.json",
+    "routePath": "/courses/2026/full-year/E928-06"
   },
   {
     "id": "2026:full-year:E928-07:0:388",
@@ -7828,7 +8996,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境土木工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E928-07",
-    "routePath": "/courses/2026/full-year/E928-07/iii"
+    "sourceIndex": 388,
+    "hasDetail": true,
+    "detailPath": "/details/388.json",
+    "routePath": "/courses/2026/full-year/E928-07"
   },
   {
     "id": "2026:full-year:E928-08:0:389",
@@ -7848,7 +9019,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境土木工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E928-08",
-    "routePath": "/courses/2026/full-year/E928-08/iii"
+    "sourceIndex": 389,
+    "hasDetail": true,
+    "detailPath": "/details/389.json",
+    "routePath": "/courses/2026/full-year/E928-08"
   },
   {
     "id": "2026:full-year:E928-09:0:390",
@@ -7868,7 +9042,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境土木工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E928-09",
-    "routePath": "/courses/2026/full-year/E928-09/iii"
+    "sourceIndex": 390,
+    "hasDetail": true,
+    "detailPath": "/details/390.json",
+    "routePath": "/courses/2026/full-year/E928-09"
   },
   {
     "id": "2026:full-year:E928-10:0:391",
@@ -7888,7 +9065,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境土木工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E928-10",
-    "routePath": "/courses/2026/full-year/E928-10/iii"
+    "sourceIndex": 391,
+    "hasDetail": true,
+    "detailPath": "/details/391.json",
+    "routePath": "/courses/2026/full-year/E928-10"
   },
   {
     "id": "2026:full-year:E928-11:0:392",
@@ -7908,7 +9088,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境土木工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E928-11",
-    "routePath": "/courses/2026/full-year/E928-11/iii"
+    "sourceIndex": 392,
+    "hasDetail": true,
+    "detailPath": "/details/392.json",
+    "routePath": "/courses/2026/full-year/E928-11"
   },
   {
     "id": "2026:full-year:E928-12:0:393",
@@ -7928,7 +9111,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境土木工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E928-12",
-    "routePath": "/courses/2026/full-year/E928-12/iii"
+    "sourceIndex": 393,
+    "hasDetail": true,
+    "detailPath": "/details/393.json",
+    "routePath": "/courses/2026/full-year/E928-12"
   },
   {
     "id": "2026:spring:E948-01:0:394",
@@ -7948,7 +9134,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境土木工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E948-01",
-    "routePath": "/courses/2026/spring/E948-01/i"
+    "sourceIndex": 394,
+    "hasDetail": true,
+    "detailPath": "/details/394.json",
+    "routePath": "/courses/2026/spring/E948-01"
   },
   {
     "id": "2026:fall:E958-01:0:395",
@@ -7968,7 +9157,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境土木工学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "E958-01",
-    "routePath": "/courses/2026/fall/E958-01/ii"
+    "sourceIndex": 395,
+    "hasDetail": true,
+    "detailPath": "/details/395.json",
+    "routePath": "/courses/2026/fall/E958-01"
   },
   {
     "id": "2026:full-year:F005-01:0:396",
@@ -7988,7 +9180,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "メディア情報学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "F005-01",
-    "routePath": "/courses/2026/full-year/F005-01/course-1sugbsy"
+    "sourceIndex": 396,
+    "hasDetail": true,
+    "detailPath": "/details/396.json",
+    "routePath": "/courses/2026/full-year/F005-01"
   },
   {
     "id": "2026:spring:F008-01:0:397",
@@ -8008,7 +9203,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "メディア情報学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "F008-01",
-    "routePath": "/courses/2026/spring/F008-01/course-1i133s2"
+    "sourceIndex": 397,
+    "hasDetail": true,
+    "detailPath": "/details/397.json",
+    "routePath": "/courses/2026/spring/F008-01"
   },
   {
     "id": "2026:spring:F020-01:0:398",
@@ -8028,7 +9226,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "メディア情報学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "F020-01",
-    "routePath": "/courses/2026/spring/F020-01/ii"
+    "sourceIndex": 398,
+    "hasDetail": true,
+    "detailPath": "/details/398.json",
+    "routePath": "/courses/2026/spring/F020-01"
   },
   {
     "id": "2026:spring:F021-01:0:399",
@@ -8048,7 +9249,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "メディア情報学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "F021-01",
-    "routePath": "/courses/2026/spring/F021-01/course-17k4khp"
+    "sourceIndex": 399,
+    "hasDetail": true,
+    "detailPath": "/details/399.json",
+    "routePath": "/courses/2026/spring/F021-01"
   },
   {
     "id": "2026:spring:F022-01:0:400",
@@ -8068,7 +9272,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "メディア情報学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "F022-01",
-    "routePath": "/courses/2026/spring/F022-01/web"
+    "sourceIndex": 400,
+    "hasDetail": true,
+    "detailPath": "/details/400.json",
+    "routePath": "/courses/2026/spring/F022-01"
   },
   {
     "id": "2026:spring:F023-01:0:401",
@@ -8088,7 +9295,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "メディア情報学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "F023-01",
-    "routePath": "/courses/2026/spring/F023-01/course-zj74f1"
+    "sourceIndex": 401,
+    "hasDetail": true,
+    "detailPath": "/details/401.json",
+    "routePath": "/courses/2026/spring/F023-01"
   },
   {
     "id": "2026:spring:F024-01:0:402",
@@ -8108,7 +9318,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "メディア情報学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "F024-01",
-    "routePath": "/courses/2026/spring/F024-01/course-qc1my8"
+    "sourceIndex": 402,
+    "hasDetail": true,
+    "detailPath": "/details/402.json",
+    "routePath": "/courses/2026/spring/F024-01"
   },
   {
     "id": "2026:spring:F025-01:0:403",
@@ -8128,7 +9341,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "メディア情報学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "F025-01",
-    "routePath": "/courses/2026/spring/F025-01/course-15s0asn"
+    "sourceIndex": 403,
+    "hasDetail": true,
+    "detailPath": "/details/403.json",
+    "routePath": "/courses/2026/spring/F025-01"
   },
   {
     "id": "2026:spring:F026-01:0:404",
@@ -8148,7 +9364,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "メディア情報学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "F026-01",
-    "routePath": "/courses/2026/spring/F026-01/a"
+    "sourceIndex": 404,
+    "hasDetail": true,
+    "detailPath": "/details/404.json",
+    "routePath": "/courses/2026/spring/F026-01"
   },
   {
     "id": "2026:fall:F026-01:0:405",
@@ -8168,7 +9387,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "メディア情報学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "F026-01",
-    "routePath": "/courses/2026/fall/F026-01/a"
+    "sourceIndex": 405,
+    "hasDetail": true,
+    "detailPath": "/details/405.json",
+    "routePath": "/courses/2026/fall/F026-01"
   },
   {
     "id": "2026:spring:F027-01:0:406",
@@ -8188,7 +9410,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "メディア情報学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "F027-01",
-    "routePath": "/courses/2026/spring/F027-01/b"
+    "sourceIndex": 406,
+    "hasDetail": true,
+    "detailPath": "/details/406.json",
+    "routePath": "/courses/2026/spring/F027-01"
   },
   {
     "id": "2026:fall:F027-01:0:407",
@@ -8208,7 +9433,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "メディア情報学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "F027-01",
-    "routePath": "/courses/2026/fall/F027-01/b"
+    "sourceIndex": 407,
+    "hasDetail": true,
+    "detailPath": "/details/407.json",
+    "routePath": "/courses/2026/fall/F027-01"
   },
   {
     "id": "2026:fall:F028-01:0:408",
@@ -8228,7 +9456,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "メディア情報学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "F028-01",
-    "routePath": "/courses/2026/fall/F028-01/course-1gl2ooj"
+    "sourceIndex": 408,
+    "hasDetail": true,
+    "detailPath": "/details/408.json",
+    "routePath": "/courses/2026/fall/F028-01"
   },
   {
     "id": "2026:spring:F029-01:0:409",
@@ -8248,7 +9479,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "メディア情報学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "F029-01",
-    "routePath": "/courses/2026/spring/F029-01/course-cti4yt"
+    "sourceIndex": 409,
+    "hasDetail": true,
+    "detailPath": "/details/409.json",
+    "routePath": "/courses/2026/spring/F029-01"
   },
   {
     "id": "2026:fall:F030-01:0:410",
@@ -8268,7 +9502,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "メディア情報学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "F030-01",
-    "routePath": "/courses/2026/fall/F030-01/web"
+    "sourceIndex": 410,
+    "hasDetail": true,
+    "detailPath": "/details/410.json",
+    "routePath": "/courses/2026/fall/F030-01"
   },
   {
     "id": "2026:fall:F031-01:0:411",
@@ -8288,7 +9525,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "メディア情報学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "F031-01",
-    "routePath": "/courses/2026/fall/F031-01/course-11h8myl"
+    "sourceIndex": 411,
+    "hasDetail": true,
+    "detailPath": "/details/411.json",
+    "routePath": "/courses/2026/fall/F031-01"
   },
   {
     "id": "2026:fall:F032-01:0:412",
@@ -8308,7 +9548,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "メディア情報学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "F032-01",
-    "routePath": "/courses/2026/fall/F032-01/course-vyrg4m"
+    "sourceIndex": 412,
+    "hasDetail": true,
+    "detailPath": "/details/412.json",
+    "routePath": "/courses/2026/fall/F032-01"
   },
   {
     "id": "2026:spring:F034-01:0:413",
@@ -8328,7 +9571,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "メディア情報学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "F034-01",
-    "routePath": "/courses/2026/spring/F034-01/course-2m1slr"
+    "sourceIndex": 413,
+    "hasDetail": true,
+    "detailPath": "/details/413.json",
+    "routePath": "/courses/2026/spring/F034-01"
   },
   {
     "id": "2026:fall:F035-01:0:414",
@@ -8348,7 +9594,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "メディア情報学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "F035-01",
-    "routePath": "/courses/2026/fall/F035-01/ai"
+    "sourceIndex": 414,
+    "hasDetail": true,
+    "detailPath": "/details/414.json",
+    "routePath": "/courses/2026/fall/F035-01"
   },
   {
     "id": "2026:fall:F901-01:0:415",
@@ -8368,7 +9617,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "メディア情報学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "F901-01",
-    "routePath": "/courses/2026/fall/F901-01/course-692o1e"
+    "sourceIndex": 415,
+    "hasDetail": true,
+    "detailPath": "/details/415.json",
+    "routePath": "/courses/2026/fall/F901-01"
   },
   {
     "id": "2026:fall:F911-01:0:416",
@@ -8388,7 +9640,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "メディア情報学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "F911-01",
-    "routePath": "/courses/2026/fall/F911-01/course-18v6c71"
+    "sourceIndex": 416,
+    "hasDetail": true,
+    "detailPath": "/details/416.json",
+    "routePath": "/courses/2026/fall/F911-01"
   },
   {
     "id": "2026:full-year:F921-05:0:417",
@@ -8408,7 +9663,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "メディア情報学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "F921-05",
-    "routePath": "/courses/2026/full-year/F921-05/iii"
+    "sourceIndex": 417,
+    "hasDetail": true,
+    "detailPath": "/details/417.json",
+    "routePath": "/courses/2026/full-year/F921-05"
   },
   {
     "id": "2026:full-year:F921-06:0:418",
@@ -8428,7 +9686,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "メディア情報学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "F921-06",
-    "routePath": "/courses/2026/full-year/F921-06/iii"
+    "sourceIndex": 418,
+    "hasDetail": true,
+    "detailPath": "/details/418.json",
+    "routePath": "/courses/2026/full-year/F921-06"
   },
   {
     "id": "2026:full-year:F921-07:0:419",
@@ -8448,7 +9709,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "メディア情報学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "F921-07",
-    "routePath": "/courses/2026/full-year/F921-07/iii"
+    "sourceIndex": 419,
+    "hasDetail": true,
+    "detailPath": "/details/419.json",
+    "routePath": "/courses/2026/full-year/F921-07"
   },
   {
     "id": "2026:full-year:F921-08:0:420",
@@ -8468,7 +9732,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "メディア情報学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "F921-08",
-    "routePath": "/courses/2026/full-year/F921-08/iii"
+    "sourceIndex": 420,
+    "hasDetail": true,
+    "detailPath": "/details/420.json",
+    "routePath": "/courses/2026/full-year/F921-08"
   },
   {
     "id": "2026:full-year:F921-10:0:421",
@@ -8488,7 +9755,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "メディア情報学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "F921-10",
-    "routePath": "/courses/2026/full-year/F921-10/iii"
+    "sourceIndex": 421,
+    "hasDetail": true,
+    "detailPath": "/details/421.json",
+    "routePath": "/courses/2026/full-year/F921-10"
   },
   {
     "id": "2026:full-year:F921-11:0:422",
@@ -8508,7 +9778,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "メディア情報学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "F921-11",
-    "routePath": "/courses/2026/full-year/F921-11/iii"
+    "sourceIndex": 422,
+    "hasDetail": true,
+    "detailPath": "/details/422.json",
+    "routePath": "/courses/2026/full-year/F921-11"
   },
   {
     "id": "2026:full-year:F921-14:0:423",
@@ -8528,7 +9801,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "メディア情報学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "F921-14",
-    "routePath": "/courses/2026/full-year/F921-14/iii"
+    "sourceIndex": 423,
+    "hasDetail": true,
+    "detailPath": "/details/423.json",
+    "routePath": "/courses/2026/full-year/F921-14"
   },
   {
     "id": "2026:full-year:F921-15:0:424",
@@ -8548,7 +9824,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "メディア情報学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "F921-15",
-    "routePath": "/courses/2026/full-year/F921-15/iii"
+    "sourceIndex": 424,
+    "hasDetail": true,
+    "detailPath": "/details/424.json",
+    "routePath": "/courses/2026/full-year/F921-15"
   },
   {
     "id": "2026:full-year:F921-16:0:425",
@@ -8568,7 +9847,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "メディア情報学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "F921-16",
-    "routePath": "/courses/2026/full-year/F921-16/iii"
+    "sourceIndex": 425,
+    "hasDetail": true,
+    "detailPath": "/details/425.json",
+    "routePath": "/courses/2026/full-year/F921-16"
   },
   {
     "id": "2026:full-year:F921-18:0:426",
@@ -8588,7 +9870,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "メディア情報学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "F921-18",
-    "routePath": "/courses/2026/full-year/F921-18/iii"
+    "sourceIndex": 426,
+    "hasDetail": true,
+    "detailPath": "/details/426.json",
+    "routePath": "/courses/2026/full-year/F921-18"
   },
   {
     "id": "2026:full-year:F921-19:0:427",
@@ -8608,7 +9893,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "メディア情報学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "F921-19",
-    "routePath": "/courses/2026/full-year/F921-19/iii"
+    "sourceIndex": 427,
+    "hasDetail": true,
+    "detailPath": "/details/427.json",
+    "routePath": "/courses/2026/full-year/F921-19"
   },
   {
     "id": "2026:spring:F941-01:0:428",
@@ -8628,7 +9916,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "メディア情報学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "F941-01",
-    "routePath": "/courses/2026/spring/F941-01/i"
+    "sourceIndex": 428,
+    "hasDetail": true,
+    "detailPath": "/details/428.json",
+    "routePath": "/courses/2026/spring/F941-01"
   },
   {
     "id": "2026:fall:F951-01:0:429",
@@ -8648,7 +9939,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "メディア情報学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "F951-01",
-    "routePath": "/courses/2026/fall/F951-01/ii"
+    "sourceIndex": 429,
+    "hasDetail": true,
+    "detailPath": "/details/429.json",
+    "routePath": "/courses/2026/fall/F951-01"
   },
   {
     "id": "2026:spring:F120-01:0:430",
@@ -8668,7 +9962,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "経営情報学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "F120-01",
-    "routePath": "/courses/2026/spring/F120-01/course-gv0875"
+    "sourceIndex": 430,
+    "hasDetail": true,
+    "detailPath": "/details/430.json",
+    "routePath": "/courses/2026/spring/F120-01"
   },
   {
     "id": "2026:spring:F121-01:0:431",
@@ -8688,7 +9985,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "経営情報学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "F121-01",
-    "routePath": "/courses/2026/spring/F121-01/course-1b4xjoj"
+    "sourceIndex": 431,
+    "hasDetail": true,
+    "detailPath": "/details/431.json",
+    "routePath": "/courses/2026/spring/F121-01"
   },
   {
     "id": "2026:fall:F123-01:0:432",
@@ -8708,7 +10008,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "経営情報学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "F123-01",
-    "routePath": "/courses/2026/fall/F123-01/course-19yd9mq"
+    "sourceIndex": 432,
+    "hasDetail": true,
+    "detailPath": "/details/432.json",
+    "routePath": "/courses/2026/fall/F123-01"
   },
   {
     "id": "2026:spring:F124-01:0:433",
@@ -8728,7 +10031,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "経営情報学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "F124-01",
-    "routePath": "/courses/2026/spring/F124-01/sdgs"
+    "sourceIndex": 433,
+    "hasDetail": true,
+    "detailPath": "/details/433.json",
+    "routePath": "/courses/2026/spring/F124-01"
   },
   {
     "id": "2026:spring:F125-01:0:434",
@@ -8748,7 +10054,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "経営情報学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "F125-01",
-    "routePath": "/courses/2026/spring/F125-01/course-dkyrtm"
+    "sourceIndex": 434,
+    "hasDetail": true,
+    "detailPath": "/details/434.json",
+    "routePath": "/courses/2026/spring/F125-01"
   },
   {
     "id": "2026:fall:F128-01:0:435",
@@ -8768,7 +10077,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "経営情報学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "F128-01",
-    "routePath": "/courses/2026/fall/F128-01/sdgs"
+    "sourceIndex": 435,
+    "hasDetail": true,
+    "detailPath": "/details/435.json",
+    "routePath": "/courses/2026/fall/F128-01"
   },
   {
     "id": "2026:spring:F129-01:0:436",
@@ -8788,7 +10100,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "経営情報学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "F129-01",
-    "routePath": "/courses/2026/spring/F129-01/course-536u79"
+    "sourceIndex": 436,
+    "hasDetail": true,
+    "detailPath": "/details/436.json",
+    "routePath": "/courses/2026/spring/F129-01"
   },
   {
     "id": "2026:spring:F130-01:0:437",
@@ -8808,7 +10123,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "経営情報学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "F130-01",
-    "routePath": "/courses/2026/spring/F130-01/course-1argsrg"
+    "sourceIndex": 437,
+    "hasDetail": true,
+    "detailPath": "/details/437.json",
+    "routePath": "/courses/2026/spring/F130-01"
   },
   {
     "id": "2026:spring:F131-01:0:438",
@@ -8828,7 +10146,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "経営情報学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "F131-01",
-    "routePath": "/courses/2026/spring/F131-01/course-uvws52"
+    "sourceIndex": 438,
+    "hasDetail": true,
+    "detailPath": "/details/438.json",
+    "routePath": "/courses/2026/spring/F131-01"
   },
   {
     "id": "2026:fall:F132-01:0:439",
@@ -8848,7 +10169,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "経営情報学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "F132-01",
-    "routePath": "/courses/2026/fall/F132-01/esg"
+    "sourceIndex": 439,
+    "hasDetail": true,
+    "detailPath": "/details/439.json",
+    "routePath": "/courses/2026/fall/F132-01"
   },
   {
     "id": "2026:spring:F133-01:0:440",
@@ -8868,7 +10192,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "経営情報学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "F133-01",
-    "routePath": "/courses/2026/spring/F133-01/a"
+    "sourceIndex": 440,
+    "hasDetail": true,
+    "detailPath": "/details/440.json",
+    "routePath": "/courses/2026/spring/F133-01"
   },
   {
     "id": "2026:fall:F133-01:0:441",
@@ -8888,7 +10215,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "経営情報学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "F133-01",
-    "routePath": "/courses/2026/fall/F133-01/a"
+    "sourceIndex": 441,
+    "hasDetail": true,
+    "detailPath": "/details/441.json",
+    "routePath": "/courses/2026/fall/F133-01"
   },
   {
     "id": "2026:spring:F134-01:0:442",
@@ -8908,7 +10238,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "経営情報学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "F134-01",
-    "routePath": "/courses/2026/spring/F134-01/b"
+    "sourceIndex": 442,
+    "hasDetail": true,
+    "detailPath": "/details/442.json",
+    "routePath": "/courses/2026/spring/F134-01"
   },
   {
     "id": "2026:fall:F134-01:0:443",
@@ -8928,7 +10261,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "経営情報学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "F134-01",
-    "routePath": "/courses/2026/fall/F134-01/b"
+    "sourceIndex": 443,
+    "hasDetail": true,
+    "detailPath": "/details/443.json",
+    "routePath": "/courses/2026/fall/F134-01"
   },
   {
     "id": "2026:fall:F135-01:0:444",
@@ -8948,7 +10284,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "経営情報学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "F135-01",
-    "routePath": "/courses/2026/fall/F135-01/course-1nj46dh"
+    "sourceIndex": 444,
+    "hasDetail": true,
+    "detailPath": "/details/444.json",
+    "routePath": "/courses/2026/fall/F135-01"
   },
   {
     "id": "2026:spring:F139-01:0:445",
@@ -8968,7 +10307,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "経営情報学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "F139-01",
-    "routePath": "/courses/2026/spring/F139-01/course-1sywniy"
+    "sourceIndex": 445,
+    "hasDetail": true,
+    "detailPath": "/details/445.json",
+    "routePath": "/courses/2026/spring/F139-01"
   },
   {
     "id": "2026:fall:F140-01:0:446",
@@ -8988,7 +10330,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "経営情報学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "F140-01",
-    "routePath": "/courses/2026/fall/F140-01/course-12ee8pq"
+    "sourceIndex": 446,
+    "hasDetail": true,
+    "detailPath": "/details/446.json",
+    "routePath": "/courses/2026/fall/F140-01"
   },
   {
     "id": "2026:fall:F141-01:0:447",
@@ -9008,7 +10353,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "経営情報学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "F141-01",
-    "routePath": "/courses/2026/fall/F141-01/course-1vyl51n"
+    "sourceIndex": 447,
+    "hasDetail": true,
+    "detailPath": "/details/447.json",
+    "routePath": "/courses/2026/fall/F141-01"
   },
   {
     "id": "2026:fall:F142-01:0:448",
@@ -9028,7 +10376,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "経営情報学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "F142-01",
-    "routePath": "/courses/2026/fall/F142-01/course-4qh166"
+    "sourceIndex": 448,
+    "hasDetail": true,
+    "detailPath": "/details/448.json",
+    "routePath": "/courses/2026/fall/F142-01"
   },
   {
     "id": "2026:fall:F902-01:0:449",
@@ -9048,7 +10399,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "経営情報学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "F902-01",
-    "routePath": "/courses/2026/fall/F902-01/course-692o1e"
+    "sourceIndex": 449,
+    "hasDetail": true,
+    "detailPath": "/details/449.json",
+    "routePath": "/courses/2026/fall/F902-01"
   },
   {
     "id": "2026:spring:F912-01:0:450",
@@ -9068,7 +10422,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "経営情報学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "F912-01",
-    "routePath": "/courses/2026/spring/F912-01/course-18v6c71"
+    "sourceIndex": 450,
+    "hasDetail": true,
+    "detailPath": "/details/450.json",
+    "routePath": "/courses/2026/spring/F912-01"
   },
   {
     "id": "2026:full-year:F922-05:0:451",
@@ -9088,7 +10445,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "経営情報学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "F922-05",
-    "routePath": "/courses/2026/full-year/F922-05/iii"
+    "sourceIndex": 451,
+    "hasDetail": true,
+    "detailPath": "/details/451.json",
+    "routePath": "/courses/2026/full-year/F922-05"
   },
   {
     "id": "2026:full-year:F922-09:0:452",
@@ -9108,7 +10468,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "経営情報学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "F922-09",
-    "routePath": "/courses/2026/full-year/F922-09/iii"
+    "sourceIndex": 452,
+    "hasDetail": true,
+    "detailPath": "/details/452.json",
+    "routePath": "/courses/2026/full-year/F922-09"
   },
   {
     "id": "2026:full-year:F922-11:0:453",
@@ -9128,7 +10491,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "経営情報学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "F922-11",
-    "routePath": "/courses/2026/full-year/F922-11/iii"
+    "sourceIndex": 453,
+    "hasDetail": true,
+    "detailPath": "/details/453.json",
+    "routePath": "/courses/2026/full-year/F922-11"
   },
   {
     "id": "2026:full-year:F922-12:0:454",
@@ -9148,7 +10514,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "経営情報学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "F922-12",
-    "routePath": "/courses/2026/full-year/F922-12/iii"
+    "sourceIndex": 454,
+    "hasDetail": true,
+    "detailPath": "/details/454.json",
+    "routePath": "/courses/2026/full-year/F922-12"
   },
   {
     "id": "2026:full-year:F922-13:0:455",
@@ -9168,7 +10537,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "経営情報学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "F922-13",
-    "routePath": "/courses/2026/full-year/F922-13/iii"
+    "sourceIndex": 455,
+    "hasDetail": true,
+    "detailPath": "/details/455.json",
+    "routePath": "/courses/2026/full-year/F922-13"
   },
   {
     "id": "2026:full-year:F922-14:0:456",
@@ -9188,7 +10560,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "経営情報学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "F922-14",
-    "routePath": "/courses/2026/full-year/F922-14/iii"
+    "sourceIndex": 456,
+    "hasDetail": true,
+    "detailPath": "/details/456.json",
+    "routePath": "/courses/2026/full-year/F922-14"
   },
   {
     "id": "2026:full-year:F922-15:0:457",
@@ -9208,7 +10583,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "経営情報学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "F922-15",
-    "routePath": "/courses/2026/full-year/F922-15/iii"
+    "sourceIndex": 457,
+    "hasDetail": true,
+    "detailPath": "/details/457.json",
+    "routePath": "/courses/2026/full-year/F922-15"
   },
   {
     "id": "2026:full-year:F922-17:0:458",
@@ -9228,7 +10606,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "経営情報学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "F922-17",
-    "routePath": "/courses/2026/full-year/F922-17/iii"
+    "sourceIndex": 458,
+    "hasDetail": true,
+    "detailPath": "/details/458.json",
+    "routePath": "/courses/2026/full-year/F922-17"
   },
   {
     "id": "2026:spring:F942-01:0:459",
@@ -9248,7 +10629,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "経営情報学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "F942-01",
-    "routePath": "/courses/2026/spring/F942-01/i"
+    "sourceIndex": 459,
+    "hasDetail": true,
+    "detailPath": "/details/459.json",
+    "routePath": "/courses/2026/spring/F942-01"
   },
   {
     "id": "2026:fall:F952-01:0:460",
@@ -9268,7 +10652,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "経営情報学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "F952-01",
-    "routePath": "/courses/2026/fall/F952-01/ii"
+    "sourceIndex": 460,
+    "hasDetail": true,
+    "detailPath": "/details/460.json",
+    "routePath": "/courses/2026/fall/F952-01"
   },
   {
     "id": "2026:spring:F320-01:0:461",
@@ -9288,7 +10675,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "心理科学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "F320-01",
-    "routePath": "/courses/2026/spring/F320-01/course-1b6710f"
+    "sourceIndex": 461,
+    "hasDetail": true,
+    "detailPath": "/details/461.json",
+    "routePath": "/courses/2026/spring/F320-01"
   },
   {
     "id": "2026:spring:F321-01:0:462",
@@ -9308,7 +10698,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "心理科学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "F321-01",
-    "routePath": "/courses/2026/spring/F321-01/course-23dgfi"
+    "sourceIndex": 462,
+    "hasDetail": true,
+    "detailPath": "/details/462.json",
+    "routePath": "/courses/2026/spring/F321-01"
   },
   {
     "id": "2026:spring:F322-01:0:463",
@@ -9328,7 +10721,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "心理科学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "F322-01",
-    "routePath": "/courses/2026/spring/F322-01/course-u41aem"
+    "sourceIndex": 463,
+    "hasDetail": true,
+    "detailPath": "/details/463.json",
+    "routePath": "/courses/2026/spring/F322-01"
   },
   {
     "id": "2026:spring:F323-01:0:464",
@@ -9348,7 +10744,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "心理科学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "F323-01",
-    "routePath": "/courses/2026/spring/F323-01/course-2pxjk0"
+    "sourceIndex": 464,
+    "hasDetail": true,
+    "detailPath": "/details/464.json",
+    "routePath": "/courses/2026/spring/F323-01"
   },
   {
     "id": "2026:spring:F324-01:0:465",
@@ -9368,7 +10767,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "心理科学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "F324-01",
-    "routePath": "/courses/2026/spring/F324-01/course-1g1z1ad"
+    "sourceIndex": 465,
+    "hasDetail": true,
+    "detailPath": "/details/465.json",
+    "routePath": "/courses/2026/spring/F324-01"
   },
   {
     "id": "2026:spring:F325-01:0:466",
@@ -9388,7 +10790,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "心理科学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "F325-01",
-    "routePath": "/courses/2026/spring/F325-01/course-1fi8997"
+    "sourceIndex": 466,
+    "hasDetail": true,
+    "detailPath": "/details/466.json",
+    "routePath": "/courses/2026/spring/F325-01"
   },
   {
     "id": "2026:spring:F327-01:0:467",
@@ -9408,7 +10813,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "心理科学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "F327-01",
-    "routePath": "/courses/2026/spring/F327-01/course-tm9vzg"
+    "sourceIndex": 467,
+    "hasDetail": true,
+    "detailPath": "/details/467.json",
+    "routePath": "/courses/2026/spring/F327-01"
   },
   {
     "id": "2026:fall:F328-01:0:468",
@@ -9428,7 +10836,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "心理科学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "F328-01",
-    "routePath": "/courses/2026/fall/F328-01/course-1egpf5q"
+    "sourceIndex": 468,
+    "hasDetail": true,
+    "detailPath": "/details/468.json",
+    "routePath": "/courses/2026/fall/F328-01"
   },
   {
     "id": "2026:fall:F329-01:0:469",
@@ -9448,7 +10859,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "心理科学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "F329-01",
-    "routePath": "/courses/2026/fall/F329-01/course-1as2vcz"
+    "sourceIndex": 469,
+    "hasDetail": true,
+    "detailPath": "/details/469.json",
+    "routePath": "/courses/2026/fall/F329-01"
   },
   {
     "id": "2026:fall:F330-01:0:470",
@@ -9468,7 +10882,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "心理科学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "F330-01",
-    "routePath": "/courses/2026/fall/F330-01/course-g0wn38"
+    "sourceIndex": 470,
+    "hasDetail": true,
+    "detailPath": "/details/470.json",
+    "routePath": "/courses/2026/fall/F330-01"
   },
   {
     "id": "2026:fall:F331-01:0:471",
@@ -9488,7 +10905,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "心理科学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "F331-01",
-    "routePath": "/courses/2026/fall/F331-01/course-r6i4s"
+    "sourceIndex": 471,
+    "hasDetail": true,
+    "detailPath": "/details/471.json",
+    "routePath": "/courses/2026/fall/F331-01"
   },
   {
     "id": "2026:fall:F332-01:0:472",
@@ -9508,7 +10928,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "心理科学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "F332-01",
-    "routePath": "/courses/2026/fall/F332-01/course-7np9dt"
+    "sourceIndex": 472,
+    "hasDetail": true,
+    "detailPath": "/details/472.json",
+    "routePath": "/courses/2026/fall/F332-01"
   },
   {
     "id": "2026:fall:F334-01:0:473",
@@ -9528,7 +10951,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "心理科学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "F334-01",
-    "routePath": "/courses/2026/fall/F334-01/course-dyhic2"
+    "sourceIndex": 473,
+    "hasDetail": true,
+    "detailPath": "/details/473.json",
+    "routePath": "/courses/2026/fall/F334-01"
   },
   {
     "id": "2026:spring:F335-01:0:474",
@@ -9548,7 +10974,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "心理科学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "F335-01",
-    "routePath": "/courses/2026/spring/F335-01/a"
+    "sourceIndex": 474,
+    "hasDetail": true,
+    "detailPath": "/details/474.json",
+    "routePath": "/courses/2026/spring/F335-01"
   },
   {
     "id": "2026:fall:F335-01:0:475",
@@ -9568,7 +10997,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "心理科学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "F335-01",
-    "routePath": "/courses/2026/fall/F335-01/a"
+    "sourceIndex": 475,
+    "hasDetail": true,
+    "detailPath": "/details/475.json",
+    "routePath": "/courses/2026/fall/F335-01"
   },
   {
     "id": "2026:spring:F336-01:0:476",
@@ -9588,7 +11020,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "心理科学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "F336-01",
-    "routePath": "/courses/2026/spring/F336-01/b"
+    "sourceIndex": 476,
+    "hasDetail": true,
+    "detailPath": "/details/476.json",
+    "routePath": "/courses/2026/spring/F336-01"
   },
   {
     "id": "2026:fall:F336-01:0:477",
@@ -9608,7 +11043,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "心理科学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "F336-01",
-    "routePath": "/courses/2026/fall/F336-01/b"
+    "sourceIndex": 477,
+    "hasDetail": true,
+    "detailPath": "/details/477.json",
+    "routePath": "/courses/2026/fall/F336-01"
   },
   {
     "id": "2026:full-year:F337-01:0:478",
@@ -9628,7 +11066,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "心理科学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "F337-01",
-    "routePath": "/courses/2026/full-year/F337-01/course-bfkdpt"
+    "sourceIndex": 478,
+    "hasDetail": true,
+    "detailPath": "/details/478.json",
+    "routePath": "/courses/2026/full-year/F337-01"
   },
   {
     "id": "2026:spring:F338-01:0:479",
@@ -9648,7 +11089,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "心理科学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "F338-01",
-    "routePath": "/courses/2026/spring/F338-01/course-1byn4b1"
+    "sourceIndex": 479,
+    "hasDetail": true,
+    "detailPath": "/details/479.json",
+    "routePath": "/courses/2026/spring/F338-01"
   },
   {
     "id": "2026:fall:F339-01:0:480",
@@ -9668,7 +11112,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "心理科学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "F339-01",
-    "routePath": "/courses/2026/fall/F339-01/course-q0xlt8"
+    "sourceIndex": 480,
+    "hasDetail": true,
+    "detailPath": "/details/480.json",
+    "routePath": "/courses/2026/fall/F339-01"
   },
   {
     "id": "2026:fall:F340-01:0:481",
@@ -9688,7 +11135,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "心理科学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "F340-01",
-    "routePath": "/courses/2026/fall/F340-01/course-17ghozi"
+    "sourceIndex": 481,
+    "hasDetail": true,
+    "detailPath": "/details/481.json",
+    "routePath": "/courses/2026/fall/F340-01"
   },
   {
     "id": "2026:fall:F341-01:0:482",
@@ -9708,7 +11158,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "心理科学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "F341-01",
-    "routePath": "/courses/2026/fall/F341-01/course-1l1p8fb"
+    "sourceIndex": 482,
+    "hasDetail": true,
+    "detailPath": "/details/482.json",
+    "routePath": "/courses/2026/fall/F341-01"
   },
   {
     "id": "2026:fall:F342-01:0:483",
@@ -9728,7 +11181,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "心理科学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "F342-01",
-    "routePath": "/courses/2026/fall/F342-01/course-ks0f7i"
+    "sourceIndex": 483,
+    "hasDetail": true,
+    "detailPath": "/details/483.json",
+    "routePath": "/courses/2026/fall/F342-01"
   },
   {
     "id": "2026:spring:F343-01:0:484",
@@ -9748,7 +11204,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "心理科学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "F343-01",
-    "routePath": "/courses/2026/spring/F343-01/b"
+    "sourceIndex": 484,
+    "hasDetail": true,
+    "detailPath": "/details/484.json",
+    "routePath": "/courses/2026/spring/F343-01"
   },
   {
     "id": "2026:fall:F904-01:0:485",
@@ -9768,7 +11227,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "心理科学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "F904-01",
-    "routePath": "/courses/2026/fall/F904-01/course-692o1e"
+    "sourceIndex": 485,
+    "hasDetail": true,
+    "detailPath": "/details/485.json",
+    "routePath": "/courses/2026/fall/F904-01"
   },
   {
     "id": "2026:fall:F914-01:0:486",
@@ -9788,7 +11250,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "心理科学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "F914-01",
-    "routePath": "/courses/2026/fall/F914-01/course-18v6c71"
+    "sourceIndex": 486,
+    "hasDetail": true,
+    "detailPath": "/details/486.json",
+    "routePath": "/courses/2026/fall/F914-01"
   },
   {
     "id": "2026:full-year:F924-03:0:487",
@@ -9808,7 +11273,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "心理科学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "F924-03",
-    "routePath": "/courses/2026/full-year/F924-03/iii"
+    "sourceIndex": 487,
+    "hasDetail": true,
+    "detailPath": "/details/487.json",
+    "routePath": "/courses/2026/full-year/F924-03"
   },
   {
     "id": "2026:full-year:F924-04:0:488",
@@ -9828,7 +11296,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "心理科学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "F924-04",
-    "routePath": "/courses/2026/full-year/F924-04/iii"
+    "sourceIndex": 488,
+    "hasDetail": true,
+    "detailPath": "/details/488.json",
+    "routePath": "/courses/2026/full-year/F924-04"
   },
   {
     "id": "2026:full-year:F924-05:0:489",
@@ -9848,7 +11319,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "心理科学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "F924-05",
-    "routePath": "/courses/2026/full-year/F924-05/iii"
+    "sourceIndex": 489,
+    "hasDetail": true,
+    "detailPath": "/details/489.json",
+    "routePath": "/courses/2026/full-year/F924-05"
   },
   {
     "id": "2026:full-year:F924-06:0:490",
@@ -9868,7 +11342,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "心理科学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "F924-06",
-    "routePath": "/courses/2026/full-year/F924-06/iii"
+    "sourceIndex": 490,
+    "hasDetail": true,
+    "detailPath": "/details/490.json",
+    "routePath": "/courses/2026/full-year/F924-06"
   },
   {
     "id": "2026:full-year:F924-07:0:491",
@@ -9888,7 +11365,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "心理科学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "F924-07",
-    "routePath": "/courses/2026/full-year/F924-07/iii"
+    "sourceIndex": 491,
+    "hasDetail": true,
+    "detailPath": "/details/491.json",
+    "routePath": "/courses/2026/full-year/F924-07"
   },
   {
     "id": "2026:full-year:F924-08:0:492",
@@ -9908,7 +11388,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "心理科学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "F924-08",
-    "routePath": "/courses/2026/full-year/F924-08/iii"
+    "sourceIndex": 492,
+    "hasDetail": true,
+    "detailPath": "/details/492.json",
+    "routePath": "/courses/2026/full-year/F924-08"
   },
   {
     "id": "2026:full-year:F924-10:0:493",
@@ -9928,7 +11411,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "心理科学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "F924-10",
-    "routePath": "/courses/2026/full-year/F924-10/iii"
+    "sourceIndex": 493,
+    "hasDetail": true,
+    "detailPath": "/details/493.json",
+    "routePath": "/courses/2026/full-year/F924-10"
   },
   {
     "id": "2026:full-year:F924-11:0:494",
@@ -9948,7 +11434,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "心理科学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "F924-11",
-    "routePath": "/courses/2026/full-year/F924-11/iii"
+    "sourceIndex": 494,
+    "hasDetail": true,
+    "detailPath": "/details/494.json",
+    "routePath": "/courses/2026/full-year/F924-11"
   },
   {
     "id": "2026:spring:F944-01:0:495",
@@ -9968,7 +11457,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "心理科学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "F944-01",
-    "routePath": "/courses/2026/spring/F944-01/i"
+    "sourceIndex": 495,
+    "hasDetail": true,
+    "detailPath": "/details/495.json",
+    "routePath": "/courses/2026/spring/F944-01"
   },
   {
     "id": "2026:fall:F954-01:0:496",
@@ -9988,7 +11480,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "心理科学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "F954-01",
-    "routePath": "/courses/2026/fall/F954-01/ii"
+    "sourceIndex": 496,
+    "hasDetail": true,
+    "detailPath": "/details/496.json",
+    "routePath": "/courses/2026/fall/F954-01"
   },
   {
     "id": "2026:spring:M001-01:0:497",
@@ -10008,7 +11503,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "メディア情報学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "M001-01",
-    "routePath": "/courses/2026/spring/M001-01/course-1o0nhuj"
+    "sourceIndex": 497,
+    "hasDetail": true,
+    "detailPath": "/details/497.json",
+    "routePath": "/courses/2026/spring/M001-01"
   },
   {
     "id": "2026:spring:M002-01:0:498",
@@ -10028,7 +11526,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "メディア情報学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "M002-01",
-    "routePath": "/courses/2026/spring/M002-01/web"
+    "sourceIndex": 498,
+    "hasDetail": true,
+    "detailPath": "/details/498.json",
+    "routePath": "/courses/2026/spring/M002-01"
   },
   {
     "id": "2026:spring:M003-01:0:499",
@@ -10048,7 +11549,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "メディア情報学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "M003-01",
-    "routePath": "/courses/2026/spring/M003-01/course-1dl9q1m"
+    "sourceIndex": 499,
+    "hasDetail": true,
+    "detailPath": "/details/499.json",
+    "routePath": "/courses/2026/spring/M003-01"
   },
   {
     "id": "2026:spring:M004-01:0:500",
@@ -10068,7 +11572,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "メディア情報学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "M004-01",
-    "routePath": "/courses/2026/spring/M004-01/course-y2djdp"
+    "sourceIndex": 500,
+    "hasDetail": true,
+    "detailPath": "/details/500.json",
+    "routePath": "/courses/2026/spring/M004-01"
   },
   {
     "id": "2026:fall:M005-01:0:501",
@@ -10088,7 +11595,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "メディア情報学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "M005-01",
-    "routePath": "/courses/2026/fall/M005-01/it"
+    "sourceIndex": 501,
+    "hasDetail": true,
+    "detailPath": "/details/501.json",
+    "routePath": "/courses/2026/fall/M005-01"
   },
   {
     "id": "2026:fall:M006-01:0:502",
@@ -10108,7 +11618,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "メディア情報学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "M006-01",
-    "routePath": "/courses/2026/fall/M006-01/course-105ybnw"
+    "sourceIndex": 502,
+    "hasDetail": true,
+    "detailPath": "/details/502.json",
+    "routePath": "/courses/2026/fall/M006-01"
   },
   {
     "id": "2026:fall:M007-01:0:503",
@@ -10128,7 +11641,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "メディア情報学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "M007-01",
-    "routePath": "/courses/2026/fall/M007-01/i"
+    "sourceIndex": 503,
+    "hasDetail": true,
+    "detailPath": "/details/503.json",
+    "routePath": "/courses/2026/fall/M007-01"
   },
   {
     "id": "2026:fall:M008-01:0:504",
@@ -10148,7 +11664,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "メディア情報学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "M008-01",
-    "routePath": "/courses/2026/fall/M008-01/ui-ux"
+    "sourceIndex": 504,
+    "hasDetail": true,
+    "detailPath": "/details/504.json",
+    "routePath": "/courses/2026/fall/M008-01"
   },
   {
     "id": "2026:spring:M009-01:0:505",
@@ -10168,7 +11687,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "メディア情報学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "M009-01",
-    "routePath": "/courses/2026/spring/M009-01/i"
+    "sourceIndex": 505,
+    "hasDetail": true,
+    "detailPath": "/details/505.json",
+    "routePath": "/courses/2026/spring/M009-01"
   },
   {
     "id": "2026:spring:M010-01:0:506",
@@ -10188,7 +11710,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "メディア情報学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "M010-01",
-    "routePath": "/courses/2026/spring/M010-01/course-8m9h0o"
+    "sourceIndex": 506,
+    "hasDetail": true,
+    "detailPath": "/details/506.json",
+    "routePath": "/courses/2026/spring/M010-01"
   },
   {
     "id": "2026:spring:M011-01:0:507",
@@ -10208,7 +11733,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "メディア情報学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "M011-01",
-    "routePath": "/courses/2026/spring/M011-01/ii"
+    "sourceIndex": 507,
+    "hasDetail": true,
+    "detailPath": "/details/507.json",
+    "routePath": "/courses/2026/spring/M011-01"
   },
   {
     "id": "2026:spring:M012-01:0:508",
@@ -10228,7 +11756,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "メディア情報学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "M012-01",
-    "routePath": "/courses/2026/spring/M012-01/course-13kxwpd"
+    "sourceIndex": 508,
+    "hasDetail": true,
+    "detailPath": "/details/508.json",
+    "routePath": "/courses/2026/spring/M012-01"
   },
   {
     "id": "2026:spring:M013-01:0:509",
@@ -10248,7 +11779,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "メディア情報学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "M013-01",
-    "routePath": "/courses/2026/spring/M013-01/ai"
+    "sourceIndex": 509,
+    "hasDetail": true,
+    "detailPath": "/details/509.json",
+    "routePath": "/courses/2026/spring/M013-01"
   },
   {
     "id": "2026:spring:M014-01:0:510",
@@ -10268,7 +11802,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "メディア情報学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "M014-01",
-    "routePath": "/courses/2026/spring/M014-01/course-1uemif1"
+    "sourceIndex": 510,
+    "hasDetail": true,
+    "detailPath": "/details/510.json",
+    "routePath": "/courses/2026/spring/M014-01"
   },
   {
     "id": "2026:spring:M015-01:0:511",
@@ -10288,7 +11825,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "メディア情報学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "M015-01",
-    "routePath": "/courses/2026/spring/M015-01/course-17mu327"
+    "sourceIndex": 511,
+    "hasDetail": true,
+    "detailPath": "/details/511.json",
+    "routePath": "/courses/2026/spring/M015-01"
   },
   {
     "id": "2026:fall:M017-01:0:512",
@@ -10308,7 +11848,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "メディア情報学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "M017-01",
-    "routePath": "/courses/2026/fall/M017-01/course-gw4nx5"
+    "sourceIndex": 512,
+    "hasDetail": true,
+    "detailPath": "/details/512.json",
+    "routePath": "/courses/2026/fall/M017-01"
   },
   {
     "id": "2026:fall:M018-01:0:513",
@@ -10328,7 +11871,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "メディア情報学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "M018-01",
-    "routePath": "/courses/2026/fall/M018-01/course-fty6ea"
+    "sourceIndex": 513,
+    "hasDetail": true,
+    "detailPath": "/details/513.json",
+    "routePath": "/courses/2026/fall/M018-01"
   },
   {
     "id": "2026:fall:M019-01:0:514",
@@ -10348,7 +11894,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "メディア情報学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "M019-01",
-    "routePath": "/courses/2026/fall/M019-01/course-1urthsq"
+    "sourceIndex": 514,
+    "hasDetail": true,
+    "detailPath": "/details/514.json",
+    "routePath": "/courses/2026/fall/M019-01"
   },
   {
     "id": "2026:fall:M020-01:0:515",
@@ -10368,7 +11917,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "メディア情報学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "M020-01",
-    "routePath": "/courses/2026/fall/M020-01/course-1vjqxt6"
+    "sourceIndex": 515,
+    "hasDetail": true,
+    "detailPath": "/details/515.json",
+    "routePath": "/courses/2026/fall/M020-01"
   },
   {
     "id": "2026:fall:M021-01:0:516",
@@ -10388,7 +11940,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "メディア情報学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "M021-01",
-    "routePath": "/courses/2026/fall/M021-01/course-cj3lgf"
+    "sourceIndex": 516,
+    "hasDetail": true,
+    "detailPath": "/details/516.json",
+    "routePath": "/courses/2026/fall/M021-01"
   },
   {
     "id": "2026:fall:M022-01:0:517",
@@ -10408,7 +11963,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "メディア情報学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "M022-01",
-    "routePath": "/courses/2026/fall/M022-01/course-1oggfin"
+    "sourceIndex": 517,
+    "hasDetail": true,
+    "detailPath": "/details/517.json",
+    "routePath": "/courses/2026/fall/M022-01"
   },
   {
     "id": "2026:fall:M023-01:0:518",
@@ -10428,7 +11986,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "メディア情報学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "M023-01",
-    "routePath": "/courses/2026/fall/M023-01/course-1hibosl"
+    "sourceIndex": 518,
+    "hasDetail": true,
+    "detailPath": "/details/518.json",
+    "routePath": "/courses/2026/fall/M023-01"
   },
   {
     "id": "2026:spring:M101-01:0:519",
@@ -10448,7 +12009,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "心理情報デザイン学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "M101-01",
-    "routePath": "/courses/2026/spring/M101-01/course-27zmry"
+    "sourceIndex": 519,
+    "hasDetail": true,
+    "detailPath": "/details/519.json",
+    "routePath": "/courses/2026/spring/M101-01"
   },
   {
     "id": "2026:spring:M102-01:0:520",
@@ -10468,7 +12032,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "心理情報デザイン学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "M102-01",
-    "routePath": "/courses/2026/spring/M102-01/a"
+    "sourceIndex": 520,
+    "hasDetail": true,
+    "detailPath": "/details/520.json",
+    "routePath": "/courses/2026/spring/M102-01"
   },
   {
     "id": "2026:spring:M103-01:0:521",
@@ -10488,7 +12055,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "心理情報デザイン学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "M103-01",
-    "routePath": "/courses/2026/spring/M103-01/b"
+    "sourceIndex": 521,
+    "hasDetail": true,
+    "detailPath": "/details/521.json",
+    "routePath": "/courses/2026/spring/M103-01"
   },
   {
     "id": "2026:spring:M104-01:0:522",
@@ -10508,7 +12078,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "心理情報デザイン学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "M104-01",
-    "routePath": "/courses/2026/spring/M104-01/course-1ek2jl3"
+    "sourceIndex": 522,
+    "hasDetail": true,
+    "detailPath": "/details/522.json",
+    "routePath": "/courses/2026/spring/M104-01"
   },
   {
     "id": "2026:spring:M105-01:0:523",
@@ -10528,7 +12101,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "心理情報デザイン学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "M105-01",
-    "routePath": "/courses/2026/spring/M105-01/course-1ntuiv4"
+    "sourceIndex": 523,
+    "hasDetail": true,
+    "detailPath": "/details/523.json",
+    "routePath": "/courses/2026/spring/M105-01"
   },
   {
     "id": "2026:fall:M106-01:0:524",
@@ -10548,7 +12124,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "心理情報デザイン学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "M106-01",
-    "routePath": "/courses/2026/fall/M106-01/i"
+    "sourceIndex": 524,
+    "hasDetail": true,
+    "detailPath": "/details/524.json",
+    "routePath": "/courses/2026/fall/M106-01"
   },
   {
     "id": "2026:fall:M107-01:0:525",
@@ -10568,7 +12147,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "心理情報デザイン学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "M107-01",
-    "routePath": "/courses/2026/fall/M107-01/a"
+    "sourceIndex": 525,
+    "hasDetail": true,
+    "detailPath": "/details/525.json",
+    "routePath": "/courses/2026/fall/M107-01"
   },
   {
     "id": "2026:fall:M108-01:0:526",
@@ -10588,7 +12170,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "心理情報デザイン学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "M108-01",
-    "routePath": "/courses/2026/fall/M108-01/course-175kejc"
+    "sourceIndex": 526,
+    "hasDetail": true,
+    "detailPath": "/details/526.json",
+    "routePath": "/courses/2026/fall/M108-01"
   },
   {
     "id": "2026:spring:M109-01:0:527",
@@ -10608,7 +12193,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "心理情報デザイン学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "M109-01",
-    "routePath": "/courses/2026/spring/M109-01/course-1dcus1c"
+    "sourceIndex": 527,
+    "hasDetail": true,
+    "detailPath": "/details/527.json",
+    "routePath": "/courses/2026/spring/M109-01"
   },
   {
     "id": "2026:spring:M110-01:0:528",
@@ -10628,7 +12216,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "心理情報デザイン学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "M110-01",
-    "routePath": "/courses/2026/spring/M110-01/course-fhk3dq"
+    "sourceIndex": 528,
+    "hasDetail": true,
+    "detailPath": "/details/528.json",
+    "routePath": "/courses/2026/spring/M110-01"
   },
   {
     "id": "2026:spring:M111-01:0:529",
@@ -10648,7 +12239,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "心理情報デザイン学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "M111-01",
-    "routePath": "/courses/2026/spring/M111-01/i"
+    "sourceIndex": 529,
+    "hasDetail": true,
+    "detailPath": "/details/529.json",
+    "routePath": "/courses/2026/spring/M111-01"
   },
   {
     "id": "2026:spring:M112-01:0:530",
@@ -10668,7 +12262,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "心理情報デザイン学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "M112-01",
-    "routePath": "/courses/2026/spring/M112-01/course-5nmxl2"
+    "sourceIndex": 530,
+    "hasDetail": true,
+    "detailPath": "/details/530.json",
+    "routePath": "/courses/2026/spring/M112-01"
   },
   {
     "id": "2026:spring:M113-01:0:531",
@@ -10688,7 +12285,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "心理情報デザイン学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "M113-01",
-    "routePath": "/courses/2026/spring/M113-01/course-16dlq0n"
+    "sourceIndex": 531,
+    "hasDetail": true,
+    "detailPath": "/details/531.json",
+    "routePath": "/courses/2026/spring/M113-01"
   },
   {
     "id": "2026:spring:M114-01:0:532",
@@ -10708,7 +12308,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "心理情報デザイン学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "M114-01",
-    "routePath": "/courses/2026/spring/M114-01/ii"
+    "sourceIndex": 532,
+    "hasDetail": true,
+    "detailPath": "/details/532.json",
+    "routePath": "/courses/2026/spring/M114-01"
   },
   {
     "id": "2026:fall:M115-01:0:533",
@@ -10728,7 +12331,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "心理情報デザイン学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "M115-01",
-    "routePath": "/courses/2026/fall/M115-01/course-1im2idn"
+    "sourceIndex": 533,
+    "hasDetail": true,
+    "detailPath": "/details/533.json",
+    "routePath": "/courses/2026/fall/M115-01"
   },
   {
     "id": "2026:fall:M116-01:0:534",
@@ -10748,7 +12354,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "心理情報デザイン学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "M116-01",
-    "routePath": "/courses/2026/fall/M116-01/ii"
+    "sourceIndex": 534,
+    "hasDetail": true,
+    "detailPath": "/details/534.json",
+    "routePath": "/courses/2026/fall/M116-01"
   },
   {
     "id": "2026:fall:M117-01:0:535",
@@ -10768,7 +12377,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "心理情報デザイン学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "M117-01",
-    "routePath": "/courses/2026/fall/M117-01/course-1c4vs8k"
+    "sourceIndex": 535,
+    "hasDetail": true,
+    "detailPath": "/details/535.json",
+    "routePath": "/courses/2026/fall/M117-01"
   },
   {
     "id": "2026:fall:M118-01:0:536",
@@ -10788,7 +12400,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "心理情報デザイン学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "M118-01",
-    "routePath": "/courses/2026/fall/M118-01/course-vuvxvw"
+    "sourceIndex": 536,
+    "hasDetail": true,
+    "detailPath": "/details/536.json",
+    "routePath": "/courses/2026/fall/M118-01"
   },
   {
     "id": "2026:fall:M119-01:0:537",
@@ -10808,7 +12423,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "心理情報デザイン学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "M119-01",
-    "routePath": "/courses/2026/fall/M119-01/course-ivkfw6"
+    "sourceIndex": 537,
+    "hasDetail": true,
+    "detailPath": "/details/537.json",
+    "routePath": "/courses/2026/fall/M119-01"
   },
   {
     "id": "2026:fall:M120-01:0:538",
@@ -10828,7 +12446,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "心理情報デザイン学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "M120-01",
-    "routePath": "/courses/2026/fall/M120-01/course-5anfxw"
+    "sourceIndex": 538,
+    "hasDetail": true,
+    "detailPath": "/details/538.json",
+    "routePath": "/courses/2026/fall/M120-01"
   },
   {
     "id": "2026:fall:M942-01:0:539",
@@ -10848,7 +12469,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "心理情報デザイン学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "M942-01",
-    "routePath": "/courses/2026/fall/M942-01/i"
+    "sourceIndex": 539,
+    "hasDetail": true,
+    "detailPath": "/details/539.json",
+    "routePath": "/courses/2026/fall/M942-01"
   },
   {
     "id": "2026:spring:A018-01:0:540",
@@ -10868,7 +12492,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "建築学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "A018-01",
-    "routePath": "/courses/2026/spring/A018-01/course-1n1mfkp"
+    "sourceIndex": 540,
+    "hasDetail": true,
+    "detailPath": "/details/540.json",
+    "routePath": "/courses/2026/spring/A018-01"
   },
   {
     "id": "2026:spring:A021-01:0:541",
@@ -10888,7 +12515,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "建築学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "A021-01",
-    "routePath": "/courses/2026/spring/A021-01/course-g23qfi"
+    "sourceIndex": 541,
+    "hasDetail": true,
+    "detailPath": "/details/541.json",
+    "routePath": "/courses/2026/spring/A021-01"
   },
   {
     "id": "2026:spring:A022-01:0:542",
@@ -10908,7 +12538,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "建築学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "A022-01",
-    "routePath": "/courses/2026/spring/A022-01/course-1gh2nvm"
+    "sourceIndex": 542,
+    "hasDetail": true,
+    "detailPath": "/details/542.json",
+    "routePath": "/courses/2026/spring/A022-01"
   },
   {
     "id": "2026:spring:A023-01:0:543",
@@ -10928,7 +12561,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "建築学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "A023-01",
-    "routePath": "/courses/2026/spring/A023-01/course-1u2r2m6"
+    "sourceIndex": 543,
+    "hasDetail": true,
+    "detailPath": "/details/543.json",
+    "routePath": "/courses/2026/spring/A023-01"
   },
   {
     "id": "2026:spring:A024-01:0:544",
@@ -10948,7 +12584,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "建築学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "A024-01",
-    "routePath": "/courses/2026/spring/A024-01/course-g64sac"
+    "sourceIndex": 544,
+    "hasDetail": true,
+    "detailPath": "/details/544.json",
+    "routePath": "/courses/2026/spring/A024-01"
   },
   {
     "id": "2026:spring:A025-01:0:545",
@@ -10968,7 +12607,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "建築学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "A025-01",
-    "routePath": "/courses/2026/spring/A025-01/course-1tpu3a2"
+    "sourceIndex": 545,
+    "hasDetail": true,
+    "detailPath": "/details/545.json",
+    "routePath": "/courses/2026/spring/A025-01"
   },
   {
     "id": "2026:spring:A026-01:0:546",
@@ -10988,7 +12630,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "建築学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "A026-01",
-    "routePath": "/courses/2026/spring/A026-01/i"
+    "sourceIndex": 546,
+    "hasDetail": true,
+    "detailPath": "/details/546.json",
+    "routePath": "/courses/2026/spring/A026-01"
   },
   {
     "id": "2026:spring:A027-01:0:547",
@@ -11008,7 +12653,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "建築学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "A027-01",
-    "routePath": "/courses/2026/spring/A027-01/iii"
+    "sourceIndex": 547,
+    "hasDetail": true,
+    "detailPath": "/details/547.json",
+    "routePath": "/courses/2026/spring/A027-01"
   },
   {
     "id": "2026:spring:A028-01:0:548",
@@ -11028,7 +12676,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "建築学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "A028-01",
-    "routePath": "/courses/2026/spring/A028-01/course-1d2w2vm"
+    "sourceIndex": 548,
+    "hasDetail": true,
+    "detailPath": "/details/548.json",
+    "routePath": "/courses/2026/spring/A028-01"
   },
   {
     "id": "2026:fall:A029-01:0:549",
@@ -11048,7 +12699,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "建築学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "A029-01",
-    "routePath": "/courses/2026/fall/A029-01/course-1s0pb48"
+    "sourceIndex": 549,
+    "hasDetail": true,
+    "detailPath": "/details/549.json",
+    "routePath": "/courses/2026/fall/A029-01"
   },
   {
     "id": "2026:fall:A030-01:0:550",
@@ -11068,7 +12722,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "建築学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "A030-01",
-    "routePath": "/courses/2026/fall/A030-01/course-t7oiub"
+    "sourceIndex": 550,
+    "hasDetail": true,
+    "detailPath": "/details/550.json",
+    "routePath": "/courses/2026/fall/A030-01"
   },
   {
     "id": "2026:fall:A031-01:0:551",
@@ -11088,7 +12745,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "建築学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "A031-01",
-    "routePath": "/courses/2026/fall/A031-01/course-yczdtf"
+    "sourceIndex": 551,
+    "hasDetail": true,
+    "detailPath": "/details/551.json",
+    "routePath": "/courses/2026/fall/A031-01"
   },
   {
     "id": "2026:fall:A032-01:0:552",
@@ -11108,7 +12768,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "建築学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "A032-01",
-    "routePath": "/courses/2026/fall/A032-01/course-1qofvru"
+    "sourceIndex": 552,
+    "hasDetail": true,
+    "detailPath": "/details/552.json",
+    "routePath": "/courses/2026/fall/A032-01"
   },
   {
     "id": "2026:fall:A033-01:0:553",
@@ -11128,7 +12791,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "建築学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "A033-01",
-    "routePath": "/courses/2026/fall/A033-01/course-1hpgh0i"
+    "sourceIndex": 553,
+    "hasDetail": true,
+    "detailPath": "/details/553.json",
+    "routePath": "/courses/2026/fall/A033-01"
   },
   {
     "id": "2026:fall:A034-01:0:554",
@@ -11148,7 +12814,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "建築学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "A034-01",
-    "routePath": "/courses/2026/fall/A034-01/ii"
+    "sourceIndex": 554,
+    "hasDetail": true,
+    "detailPath": "/details/554.json",
+    "routePath": "/courses/2026/fall/A034-01"
   },
   {
     "id": "2026:fall:A035-01:0:555",
@@ -11168,7 +12837,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "建築学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "A035-01",
-    "routePath": "/courses/2026/fall/A035-01/course-1a5w0d8"
+    "sourceIndex": 555,
+    "hasDetail": true,
+    "detailPath": "/details/555.json",
+    "routePath": "/courses/2026/fall/A035-01"
   },
   {
     "id": "2026:spring:A036-01:0:556",
@@ -11188,7 +12860,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "建築学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "A036-01",
-    "routePath": "/courses/2026/spring/A036-01/a"
+    "sourceIndex": 556,
+    "hasDetail": true,
+    "detailPath": "/details/556.json",
+    "routePath": "/courses/2026/spring/A036-01"
   },
   {
     "id": "2026:fall:A037-01:0:557",
@@ -11208,7 +12883,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "建築学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "A037-01",
-    "routePath": "/courses/2026/fall/A037-01/b"
+    "sourceIndex": 557,
+    "hasDetail": true,
+    "detailPath": "/details/557.json",
+    "routePath": "/courses/2026/fall/A037-01"
   },
   {
     "id": "2026:spring:A038-01:0:558",
@@ -11228,7 +12906,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "建築学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "A038-01",
-    "routePath": "/courses/2026/spring/A038-01/a"
+    "sourceIndex": 558,
+    "hasDetail": true,
+    "detailPath": "/details/558.json",
+    "routePath": "/courses/2026/spring/A038-01"
   },
   {
     "id": "2026:fall:A039-01:0:559",
@@ -11248,7 +12929,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "建築学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "A039-01",
-    "routePath": "/courses/2026/fall/A039-01/b"
+    "sourceIndex": 559,
+    "hasDetail": true,
+    "detailPath": "/details/559.json",
+    "routePath": "/courses/2026/fall/A039-01"
   },
   {
     "id": "2026:fall:A901-01:0:560",
@@ -11268,7 +12952,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "建築学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "A901-01",
-    "routePath": "/courses/2026/fall/A901-01/course-692o1e"
+    "sourceIndex": 560,
+    "hasDetail": true,
+    "detailPath": "/details/560.json",
+    "routePath": "/courses/2026/fall/A901-01"
   },
   {
     "id": "2026:fall:A911-01:0:561",
@@ -11288,7 +12975,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "建築学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "A911-01",
-    "routePath": "/courses/2026/fall/A911-01/course-18v6c71"
+    "sourceIndex": 561,
+    "hasDetail": true,
+    "detailPath": "/details/561.json",
+    "routePath": "/courses/2026/fall/A911-01"
   },
   {
     "id": "2026:full-year:A921-02:0:562",
@@ -11308,7 +12998,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "建築学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "A921-02",
-    "routePath": "/courses/2026/full-year/A921-02/iii"
+    "sourceIndex": 562,
+    "hasDetail": true,
+    "detailPath": "/details/562.json",
+    "routePath": "/courses/2026/full-year/A921-02"
   },
   {
     "id": "2026:full-year:A921-03:0:563",
@@ -11328,7 +13021,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "建築学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "A921-03",
-    "routePath": "/courses/2026/full-year/A921-03/iii"
+    "sourceIndex": 563,
+    "hasDetail": true,
+    "detailPath": "/details/563.json",
+    "routePath": "/courses/2026/full-year/A921-03"
   },
   {
     "id": "2026:full-year:A921-04:0:564",
@@ -11348,7 +13044,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "建築学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "A921-04",
-    "routePath": "/courses/2026/full-year/A921-04/iii"
+    "sourceIndex": 564,
+    "hasDetail": true,
+    "detailPath": "/details/564.json",
+    "routePath": "/courses/2026/full-year/A921-04"
   },
   {
     "id": "2026:full-year:A921-05:0:565",
@@ -11368,7 +13067,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "建築学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "A921-05",
-    "routePath": "/courses/2026/full-year/A921-05/iii"
+    "sourceIndex": 565,
+    "hasDetail": true,
+    "detailPath": "/details/565.json",
+    "routePath": "/courses/2026/full-year/A921-05"
   },
   {
     "id": "2026:full-year:A921-06:0:566",
@@ -11388,7 +13090,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "建築学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "A921-06",
-    "routePath": "/courses/2026/full-year/A921-06/iii"
+    "sourceIndex": 566,
+    "hasDetail": true,
+    "detailPath": "/details/566.json",
+    "routePath": "/courses/2026/full-year/A921-06"
   },
   {
     "id": "2026:full-year:A921-07:0:567",
@@ -11408,7 +13113,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "建築学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "A921-07",
-    "routePath": "/courses/2026/full-year/A921-07/iii"
+    "sourceIndex": 567,
+    "hasDetail": true,
+    "detailPath": "/details/567.json",
+    "routePath": "/courses/2026/full-year/A921-07"
   },
   {
     "id": "2026:full-year:A921-08:0:568",
@@ -11428,7 +13136,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "建築学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "A921-08",
-    "routePath": "/courses/2026/full-year/A921-08/iii"
+    "sourceIndex": 568,
+    "hasDetail": true,
+    "detailPath": "/details/568.json",
+    "routePath": "/courses/2026/full-year/A921-08"
   },
   {
     "id": "2026:full-year:A921-09:0:569",
@@ -11448,7 +13159,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "建築学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "A921-09",
-    "routePath": "/courses/2026/full-year/A921-09/iii"
+    "sourceIndex": 569,
+    "hasDetail": true,
+    "detailPath": "/details/569.json",
+    "routePath": "/courses/2026/full-year/A921-09"
   },
   {
     "id": "2026:full-year:A921-12:0:570",
@@ -11468,7 +13182,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "建築学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "A921-12",
-    "routePath": "/courses/2026/full-year/A921-12/iii"
+    "sourceIndex": 570,
+    "hasDetail": true,
+    "detailPath": "/details/570.json",
+    "routePath": "/courses/2026/full-year/A921-12"
   },
   {
     "id": "2026:full-year:A921-14:0:571",
@@ -11488,7 +13205,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "建築学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "A921-14",
-    "routePath": "/courses/2026/full-year/A921-14/iii"
+    "sourceIndex": 571,
+    "hasDetail": true,
+    "detailPath": "/details/571.json",
+    "routePath": "/courses/2026/full-year/A921-14"
   },
   {
     "id": "2026:full-year:A921-15:0:572",
@@ -11508,7 +13228,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "建築学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "A921-15",
-    "routePath": "/courses/2026/full-year/A921-15/iii"
+    "sourceIndex": 572,
+    "hasDetail": true,
+    "detailPath": "/details/572.json",
+    "routePath": "/courses/2026/full-year/A921-15"
   },
   {
     "id": "2026:full-year:A921-16:0:573",
@@ -11528,7 +13251,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "建築学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "A921-16",
-    "routePath": "/courses/2026/full-year/A921-16/iii"
+    "sourceIndex": 573,
+    "hasDetail": true,
+    "detailPath": "/details/573.json",
+    "routePath": "/courses/2026/full-year/A921-16"
   },
   {
     "id": "2026:full-year:A921-17:0:574",
@@ -11548,7 +13274,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "建築学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "A921-17",
-    "routePath": "/courses/2026/full-year/A921-17/iii"
+    "sourceIndex": 574,
+    "hasDetail": true,
+    "detailPath": "/details/574.json",
+    "routePath": "/courses/2026/full-year/A921-17"
   },
   {
     "id": "2026:full-year:A921-18:0:575",
@@ -11568,7 +13297,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "建築学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "A921-18",
-    "routePath": "/courses/2026/full-year/A921-18/iii"
+    "sourceIndex": 575,
+    "hasDetail": true,
+    "detailPath": "/details/575.json",
+    "routePath": "/courses/2026/full-year/A921-18"
   },
   {
     "id": "2026:full-year:A921-19:0:576",
@@ -11588,7 +13320,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "建築学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "A921-19",
-    "routePath": "/courses/2026/full-year/A921-19/iii"
+    "sourceIndex": 576,
+    "hasDetail": true,
+    "detailPath": "/details/576.json",
+    "routePath": "/courses/2026/full-year/A921-19"
   },
   {
     "id": "2026:full-year:A921-20:0:577",
@@ -11608,7 +13343,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "建築学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "A921-20",
-    "routePath": "/courses/2026/full-year/A921-20/iii"
+    "sourceIndex": 577,
+    "hasDetail": true,
+    "detailPath": "/details/577.json",
+    "routePath": "/courses/2026/full-year/A921-20"
   },
   {
     "id": "2026:full-year:A921-21:0:578",
@@ -11628,7 +13366,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "建築学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "A921-21",
-    "routePath": "/courses/2026/full-year/A921-21/iii"
+    "sourceIndex": 578,
+    "hasDetail": true,
+    "detailPath": "/details/578.json",
+    "routePath": "/courses/2026/full-year/A921-21"
   },
   {
     "id": "2026:full-year:A921-22:0:579",
@@ -11648,7 +13389,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "建築学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "A921-22",
-    "routePath": "/courses/2026/full-year/A921-22/iii"
+    "sourceIndex": 579,
+    "hasDetail": true,
+    "detailPath": "/details/579.json",
+    "routePath": "/courses/2026/full-year/A921-22"
   },
   {
     "id": "2026:full-year:A921-23:0:580",
@@ -11668,7 +13412,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "建築学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "A921-23",
-    "routePath": "/courses/2026/full-year/A921-23/iii"
+    "sourceIndex": 580,
+    "hasDetail": true,
+    "detailPath": "/details/580.json",
+    "routePath": "/courses/2026/full-year/A921-23"
   },
   {
     "id": "2026:full-year:A921-24:0:581",
@@ -11688,7 +13435,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "建築学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "A921-24",
-    "routePath": "/courses/2026/full-year/A921-24/iii"
+    "sourceIndex": 581,
+    "hasDetail": true,
+    "detailPath": "/details/581.json",
+    "routePath": "/courses/2026/full-year/A921-24"
   },
   {
     "id": "2026:full-year:A921-25:0:582",
@@ -11708,7 +13458,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "建築学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "A921-25",
-    "routePath": "/courses/2026/full-year/A921-25/iii"
+    "sourceIndex": 582,
+    "hasDetail": true,
+    "detailPath": "/details/582.json",
+    "routePath": "/courses/2026/full-year/A921-25"
   },
   {
     "id": "2026:full-year:A921-26:0:583",
@@ -11728,7 +13481,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "建築学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "A921-26",
-    "routePath": "/courses/2026/full-year/A921-26/iii"
+    "sourceIndex": 583,
+    "hasDetail": true,
+    "detailPath": "/details/583.json",
+    "routePath": "/courses/2026/full-year/A921-26"
   },
   {
     "id": "2026:spring:A941-01:0:584",
@@ -11748,7 +13504,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "建築学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "A941-01",
-    "routePath": "/courses/2026/spring/A941-01/i"
+    "sourceIndex": 584,
+    "hasDetail": true,
+    "detailPath": "/details/584.json",
+    "routePath": "/courses/2026/spring/A941-01"
   },
   {
     "id": "2026:fall:A951-01:0:585",
@@ -11768,7 +13527,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "建築学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "A951-01",
-    "routePath": "/courses/2026/fall/A951-01/ii"
+    "sourceIndex": 585,
+    "hasDetail": true,
+    "detailPath": "/details/585.json",
+    "routePath": "/courses/2026/fall/A951-01"
   },
   {
     "id": "2026:spring:C001-01:0:586",
@@ -11788,7 +13550,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "情報工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "C001-01",
-    "routePath": "/courses/2026/spring/C001-01/course-wec9bz"
+    "sourceIndex": 586,
+    "hasDetail": true,
+    "detailPath": "/details/586.json",
+    "routePath": "/courses/2026/spring/C001-01"
   },
   {
     "id": "2026:spring:C002-01:0:587",
@@ -11808,7 +13573,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "情報工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "C002-01",
-    "routePath": "/courses/2026/spring/C002-01/i"
+    "sourceIndex": 587,
+    "hasDetail": true,
+    "detailPath": "/details/587.json",
+    "routePath": "/courses/2026/spring/C002-01"
   },
   {
     "id": "2026:spring:C003-01:0:588",
@@ -11828,7 +13596,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "情報工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "C003-01",
-    "routePath": "/courses/2026/spring/C003-01/course-1ldvapv"
+    "sourceIndex": 588,
+    "hasDetail": true,
+    "detailPath": "/details/588.json",
+    "routePath": "/courses/2026/spring/C003-01"
   },
   {
     "id": "2026:fall:C004-01:0:589",
@@ -11848,7 +13619,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "情報工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "C004-01",
-    "routePath": "/courses/2026/fall/C004-01/course-1969zgg"
+    "sourceIndex": 589,
+    "hasDetail": true,
+    "detailPath": "/details/589.json",
+    "routePath": "/courses/2026/fall/C004-01"
   },
   {
     "id": "2026:fall:C005-01:0:590",
@@ -11868,7 +13642,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "情報工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "C005-01",
-    "routePath": "/courses/2026/fall/C005-01/course-1jfg8le"
+    "sourceIndex": 590,
+    "hasDetail": true,
+    "detailPath": "/details/590.json",
+    "routePath": "/courses/2026/fall/C005-01"
   },
   {
     "id": "2026:fall:C006-01:0:591",
@@ -11888,7 +13665,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "情報工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "C006-01",
-    "routePath": "/courses/2026/fall/C006-01/course-1oggfin"
+    "sourceIndex": 591,
+    "hasDetail": true,
+    "detailPath": "/details/591.json",
+    "routePath": "/courses/2026/fall/C006-01"
   },
   {
     "id": "2026:fall:C007-01:0:592",
@@ -11908,7 +13688,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "情報工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "C007-01",
-    "routePath": "/courses/2026/fall/C007-01/ii"
+    "sourceIndex": 592,
+    "hasDetail": true,
+    "detailPath": "/details/592.json",
+    "routePath": "/courses/2026/fall/C007-01"
   },
   {
     "id": "2026:fall:C008-01:0:593",
@@ -11928,7 +13711,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "情報工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "C008-01",
-    "routePath": "/courses/2026/fall/C008-01/iii"
+    "sourceIndex": 593,
+    "hasDetail": true,
+    "detailPath": "/details/593.json",
+    "routePath": "/courses/2026/fall/C008-01"
   },
   {
     "id": "2026:fall:C961-01:0:594",
@@ -11948,7 +13734,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "情報工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "C961-01",
-    "routePath": "/courses/2026/fall/C961-01/ii"
+    "sourceIndex": 594,
+    "hasDetail": true,
+    "detailPath": "/details/594.json",
+    "routePath": "/courses/2026/fall/C961-01"
   },
   {
     "id": "2026:spring:C101-01:0:595",
@@ -11968,7 +13757,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "知能情報システム学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "C101-01",
-    "routePath": "/courses/2026/spring/C101-01/course-oz41g4"
+    "sourceIndex": 595,
+    "hasDetail": true,
+    "detailPath": "/details/595.json",
+    "routePath": "/courses/2026/spring/C101-01"
   },
   {
     "id": "2026:spring:C102-01:0:596",
@@ -11988,7 +13780,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "知能情報システム学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "C102-01",
-    "routePath": "/courses/2026/spring/C102-01/i"
+    "sourceIndex": 596,
+    "hasDetail": true,
+    "detailPath": "/details/596.json",
+    "routePath": "/courses/2026/spring/C102-01"
   },
   {
     "id": "2026:spring:C103-01:0:597",
@@ -12008,7 +13803,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "知能情報システム学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "C103-01",
-    "routePath": "/courses/2026/spring/C103-01/course-1ldvapv"
+    "sourceIndex": 597,
+    "hasDetail": true,
+    "detailPath": "/details/597.json",
+    "routePath": "/courses/2026/spring/C103-01"
   },
   {
     "id": "2026:fall:C104-01:0:598",
@@ -12028,7 +13826,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "知能情報システム学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "C104-01",
-    "routePath": "/courses/2026/fall/C104-01/course-1969zgg"
+    "sourceIndex": 598,
+    "hasDetail": true,
+    "detailPath": "/details/598.json",
+    "routePath": "/courses/2026/fall/C104-01"
   },
   {
     "id": "2026:fall:C105-01:0:599",
@@ -12048,7 +13849,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "知能情報システム学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "C105-01",
-    "routePath": "/courses/2026/fall/C105-01/course-1jfg8le"
+    "sourceIndex": 599,
+    "hasDetail": true,
+    "detailPath": "/details/599.json",
+    "routePath": "/courses/2026/fall/C105-01"
   },
   {
     "id": "2026:fall:C106-01:0:600",
@@ -12068,7 +13872,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "知能情報システム学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "C106-01",
-    "routePath": "/courses/2026/fall/C106-01/course-1oggfin"
+    "sourceIndex": 600,
+    "hasDetail": true,
+    "detailPath": "/details/600.json",
+    "routePath": "/courses/2026/fall/C106-01"
   },
   {
     "id": "2026:fall:C107-01:0:601",
@@ -12088,7 +13895,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "知能情報システム学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "C107-01",
-    "routePath": "/courses/2026/fall/C107-01/ii"
+    "sourceIndex": 601,
+    "hasDetail": true,
+    "detailPath": "/details/601.json",
+    "routePath": "/courses/2026/fall/C107-01"
   },
   {
     "id": "2026:fall:C108-01:0:602",
@@ -12108,7 +13918,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "知能情報システム学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "C108-01",
-    "routePath": "/courses/2026/fall/C108-01/iii"
+    "sourceIndex": 602,
+    "hasDetail": true,
+    "detailPath": "/details/602.json",
+    "routePath": "/courses/2026/fall/C108-01"
   },
   {
     "id": "2026:fall:C971-01:0:603",
@@ -12128,7 +13941,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "知能情報システム学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "C971-01",
-    "routePath": "/courses/2026/fall/C971-01/ii"
+    "sourceIndex": 603,
+    "hasDetail": true,
+    "detailPath": "/details/603.json",
+    "routePath": "/courses/2026/fall/C971-01"
   },
   {
     "id": "2026:spring:C201-01:0:604",
@@ -12148,7 +13964,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "ロボティクス学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "C201-01",
-    "routePath": "/courses/2026/spring/C201-01/course-qzlf9j"
+    "sourceIndex": 604,
+    "hasDetail": true,
+    "detailPath": "/details/604.json",
+    "routePath": "/courses/2026/spring/C201-01"
   },
   {
     "id": "2026:spring:C202-01:0:605",
@@ -12168,7 +13987,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "ロボティクス学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "C202-01",
-    "routePath": "/courses/2026/spring/C202-01/course-1xrboti"
+    "sourceIndex": 605,
+    "hasDetail": true,
+    "detailPath": "/details/605.json",
+    "routePath": "/courses/2026/spring/C202-01"
   },
   {
     "id": "2026:spring:C203-01:0:606",
@@ -12188,7 +14010,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "ロボティクス学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "C203-01",
-    "routePath": "/courses/2026/spring/C203-01/i"
+    "sourceIndex": 606,
+    "hasDetail": true,
+    "detailPath": "/details/606.json",
+    "routePath": "/courses/2026/spring/C203-01"
   },
   {
     "id": "2026:spring:C204-01:0:607",
@@ -12208,7 +14033,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "ロボティクス学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "C204-01",
-    "routePath": "/courses/2026/spring/C204-01/i"
+    "sourceIndex": 607,
+    "hasDetail": true,
+    "detailPath": "/details/607.json",
+    "routePath": "/courses/2026/spring/C204-01"
   },
   {
     "id": "2026:spring:C205-01:0:608",
@@ -12228,7 +14056,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "ロボティクス学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "C205-01",
-    "routePath": "/courses/2026/spring/C205-01/i"
+    "sourceIndex": 608,
+    "hasDetail": true,
+    "detailPath": "/details/608.json",
+    "routePath": "/courses/2026/spring/C205-01"
   },
   {
     "id": "2026:fall:C205-01:0:609",
@@ -12248,7 +14079,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "ロボティクス学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "C205-01",
-    "routePath": "/courses/2026/fall/C205-01/i"
+    "sourceIndex": 609,
+    "hasDetail": true,
+    "detailPath": "/details/609.json",
+    "routePath": "/courses/2026/fall/C205-01"
   },
   {
     "id": "2026:fall:C206-01:0:610",
@@ -12268,7 +14102,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "ロボティクス学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "C206-01",
-    "routePath": "/courses/2026/fall/C206-01/ii"
+    "sourceIndex": 610,
+    "hasDetail": true,
+    "detailPath": "/details/610.json",
+    "routePath": "/courses/2026/fall/C206-01"
   },
   {
     "id": "2026:fall:C207-01:0:611",
@@ -12288,7 +14125,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "ロボティクス学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "C207-01",
-    "routePath": "/courses/2026/fall/C207-01/ii"
+    "sourceIndex": 611,
+    "hasDetail": true,
+    "detailPath": "/details/611.json",
+    "routePath": "/courses/2026/fall/C207-01"
   },
   {
     "id": "2026:fall:C208-01:0:612",
@@ -12308,7 +14148,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "ロボティクス学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "C208-01",
-    "routePath": "/courses/2026/fall/C208-01/i"
+    "sourceIndex": 612,
+    "hasDetail": true,
+    "detailPath": "/details/612.json",
+    "routePath": "/courses/2026/fall/C208-01"
   },
   {
     "id": "2026:fall:C209-01:0:613",
@@ -12328,7 +14171,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "ロボティクス学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "C209-01",
-    "routePath": "/courses/2026/fall/C209-01/ii"
+    "sourceIndex": 613,
+    "hasDetail": true,
+    "detailPath": "/details/613.json",
+    "routePath": "/courses/2026/fall/C209-01"
   },
   {
     "id": "2026:spring:C007-01:0:614",
@@ -12348,7 +14194,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "情報工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "C007-01",
-    "routePath": "/courses/2026/spring/C007-01/ii"
+    "sourceIndex": 614,
+    "hasDetail": true,
+    "detailPath": "/details/614.json",
+    "routePath": "/courses/2026/spring/C007-01"
   },
   {
     "id": "2026:spring:C008-01:0:615",
@@ -12368,7 +14217,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "情報工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "C008-01",
-    "routePath": "/courses/2026/spring/C008-01/iii"
+    "sourceIndex": 615,
+    "hasDetail": true,
+    "detailPath": "/details/615.json",
+    "routePath": "/courses/2026/spring/C008-01"
   },
   {
     "id": "2026:spring:C009-01:0:616",
@@ -12388,7 +14240,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "情報工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "C009-01",
-    "routePath": "/courses/2026/spring/C009-01/course-536u79"
+    "sourceIndex": 616,
+    "hasDetail": true,
+    "detailPath": "/details/616.json",
+    "routePath": "/courses/2026/spring/C009-01"
   },
   {
     "id": "2026:spring:C010-01:0:617",
@@ -12408,7 +14263,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "情報工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "C010-01",
-    "routePath": "/courses/2026/spring/C010-01/course-1urthsq"
+    "sourceIndex": 617,
+    "hasDetail": true,
+    "detailPath": "/details/617.json",
+    "routePath": "/courses/2026/spring/C010-01"
   },
   {
     "id": "2026:spring:C011-01:0:618",
@@ -12428,7 +14286,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "情報工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "C011-01",
-    "routePath": "/courses/2026/spring/C011-01/course-17k4khp"
+    "sourceIndex": 618,
+    "hasDetail": true,
+    "detailPath": "/details/618.json",
+    "routePath": "/courses/2026/spring/C011-01"
   },
   {
     "id": "2026:spring:C012-01:0:619",
@@ -12448,7 +14309,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "情報工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "C012-01",
-    "routePath": "/courses/2026/spring/C012-01/course-c5rkza"
+    "sourceIndex": 619,
+    "hasDetail": true,
+    "detailPath": "/details/619.json",
+    "routePath": "/courses/2026/spring/C012-01"
   },
   {
     "id": "2026:spring:C013-01:0:620",
@@ -12468,7 +14332,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "情報工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "C013-01",
-    "routePath": "/courses/2026/spring/C013-01/course-1v1elh5"
+    "sourceIndex": 620,
+    "hasDetail": true,
+    "detailPath": "/details/620.json",
+    "routePath": "/courses/2026/spring/C013-01"
   },
   {
     "id": "2026:fall:C014-01:0:621",
@@ -12488,7 +14355,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "情報工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "C014-01",
-    "routePath": "/courses/2026/fall/C014-01/course-13u80s"
+    "sourceIndex": 621,
+    "hasDetail": true,
+    "detailPath": "/details/621.json",
+    "routePath": "/courses/2026/fall/C014-01"
   },
   {
     "id": "2026:fall:C015-01:0:622",
@@ -12508,7 +14378,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "情報工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "C015-01",
-    "routePath": "/courses/2026/fall/C015-01/course-1bs6r2r"
+    "sourceIndex": 622,
+    "hasDetail": true,
+    "detailPath": "/details/622.json",
+    "routePath": "/courses/2026/fall/C015-01"
   },
   {
     "id": "2026:fall:C016-01:0:623",
@@ -12528,7 +14401,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "情報工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "C016-01",
-    "routePath": "/courses/2026/fall/C016-01/course-151h1jn"
+    "sourceIndex": 623,
+    "hasDetail": true,
+    "detailPath": "/details/623.json",
+    "routePath": "/courses/2026/fall/C016-01"
   },
   {
     "id": "2026:fall:C017-01:0:624",
@@ -12548,7 +14424,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "情報工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "C017-01",
-    "routePath": "/courses/2026/fall/C017-01/course-vu1sq0"
+    "sourceIndex": 624,
+    "hasDetail": true,
+    "detailPath": "/details/624.json",
+    "routePath": "/courses/2026/fall/C017-01"
   },
   {
     "id": "2026:fall:C018-01:0:625",
@@ -12568,7 +14447,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "情報工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "C018-01",
-    "routePath": "/courses/2026/fall/C018-01/course-1iq39r4"
+    "sourceIndex": 625,
+    "hasDetail": true,
+    "detailPath": "/details/625.json",
+    "routePath": "/courses/2026/fall/C018-01"
   },
   {
     "id": "2026:fall:C019-01:0:626",
@@ -12588,7 +14470,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "情報工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "C019-01",
-    "routePath": "/courses/2026/fall/C019-01/course-27s2q"
+    "sourceIndex": 626,
+    "hasDetail": true,
+    "detailPath": "/details/626.json",
+    "routePath": "/courses/2026/fall/C019-01"
   },
   {
     "id": "2026:spring:C107-01:0:627",
@@ -12608,7 +14493,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "知能情報システム学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "C107-01",
-    "routePath": "/courses/2026/spring/C107-01/ii"
+    "sourceIndex": 627,
+    "hasDetail": true,
+    "detailPath": "/details/627.json",
+    "routePath": "/courses/2026/spring/C107-01"
   },
   {
     "id": "2026:spring:C108-01:0:628",
@@ -12628,7 +14516,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "知能情報システム学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "C108-01",
-    "routePath": "/courses/2026/spring/C108-01/iii"
+    "sourceIndex": 628,
+    "hasDetail": true,
+    "detailPath": "/details/628.json",
+    "routePath": "/courses/2026/spring/C108-01"
   },
   {
     "id": "2026:spring:C109-01:0:629",
@@ -12648,7 +14539,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "知能情報システム学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "C109-01",
-    "routePath": "/courses/2026/spring/C109-01/course-536u79"
+    "sourceIndex": 629,
+    "hasDetail": true,
+    "detailPath": "/details/629.json",
+    "routePath": "/courses/2026/spring/C109-01"
   },
   {
     "id": "2026:spring:C110-01:0:630",
@@ -12668,7 +14562,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "知能情報システム学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "C110-01",
-    "routePath": "/courses/2026/spring/C110-01/course-1urthsq"
+    "sourceIndex": 630,
+    "hasDetail": true,
+    "detailPath": "/details/630.json",
+    "routePath": "/courses/2026/spring/C110-01"
   },
   {
     "id": "2026:spring:C111-01:0:631",
@@ -12688,7 +14585,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "知能情報システム学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "C111-01",
-    "routePath": "/courses/2026/spring/C111-01/course-17k4khp"
+    "sourceIndex": 631,
+    "hasDetail": true,
+    "detailPath": "/details/631.json",
+    "routePath": "/courses/2026/spring/C111-01"
   },
   {
     "id": "2026:spring:C112-01:0:632",
@@ -12708,7 +14608,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "知能情報システム学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "C112-01",
-    "routePath": "/courses/2026/spring/C112-01/course-1gw7r1c"
+    "sourceIndex": 632,
+    "hasDetail": true,
+    "detailPath": "/details/632.json",
+    "routePath": "/courses/2026/spring/C112-01"
   },
   {
     "id": "2026:spring:C113-01:0:633",
@@ -12728,7 +14631,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "知能情報システム学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "C113-01",
-    "routePath": "/courses/2026/spring/C113-01/course-1v1elh5"
+    "sourceIndex": 633,
+    "hasDetail": true,
+    "detailPath": "/details/633.json",
+    "routePath": "/courses/2026/spring/C113-01"
   },
   {
     "id": "2026:fall:C114-01:0:634",
@@ -12748,7 +14654,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "知能情報システム学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "C114-01",
-    "routePath": "/courses/2026/fall/C114-01/course-2x8hag"
+    "sourceIndex": 634,
+    "hasDetail": true,
+    "detailPath": "/details/634.json",
+    "routePath": "/courses/2026/fall/C114-01"
   },
   {
     "id": "2026:fall:C115-01:0:635",
@@ -12768,7 +14677,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "知能情報システム学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "C115-01",
-    "routePath": "/courses/2026/fall/C115-01/course-1bs6r2r"
+    "sourceIndex": 635,
+    "hasDetail": true,
+    "detailPath": "/details/635.json",
+    "routePath": "/courses/2026/fall/C115-01"
   },
   {
     "id": "2026:fall:C116-01:0:636",
@@ -12788,7 +14700,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "知能情報システム学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "C116-01",
-    "routePath": "/courses/2026/fall/C116-01/course-151h1jn"
+    "sourceIndex": 636,
+    "hasDetail": true,
+    "detailPath": "/details/636.json",
+    "routePath": "/courses/2026/fall/C116-01"
   },
   {
     "id": "2026:fall:C117-01:0:637",
@@ -12808,7 +14723,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "知能情報システム学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "C117-01",
-    "routePath": "/courses/2026/fall/C117-01/course-27s2q"
+    "sourceIndex": 637,
+    "hasDetail": true,
+    "detailPath": "/details/637.json",
+    "routePath": "/courses/2026/fall/C117-01"
   },
   {
     "id": "2026:fall:C118-01:0:638",
@@ -12828,7 +14746,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "知能情報システム学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "C118-01",
-    "routePath": "/courses/2026/fall/C118-01/course-1iq39r4"
+    "sourceIndex": 638,
+    "hasDetail": true,
+    "detailPath": "/details/638.json",
+    "routePath": "/courses/2026/fall/C118-01"
   },
   {
     "id": "2026:fall:C119-01:0:639",
@@ -12848,7 +14769,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "知能情報システム学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "C119-01",
-    "routePath": "/courses/2026/fall/C119-01/course-vu1sq0"
+    "sourceIndex": 639,
+    "hasDetail": true,
+    "detailPath": "/details/639.json",
+    "routePath": "/courses/2026/fall/C119-01"
   },
   {
     "id": "2026:spring:C208-01:0:640",
@@ -12868,7 +14792,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "ロボティクス学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "C208-01",
-    "routePath": "/courses/2026/spring/C208-01/i"
+    "sourceIndex": 640,
+    "hasDetail": true,
+    "detailPath": "/details/640.json",
+    "routePath": "/courses/2026/spring/C208-01"
   },
   {
     "id": "2026:spring:C210-01:0:641",
@@ -12888,7 +14815,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "ロボティクス学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "C210-01",
-    "routePath": "/courses/2026/spring/C210-01/course-1acg5i1"
+    "sourceIndex": 641,
+    "hasDetail": true,
+    "detailPath": "/details/641.json",
+    "routePath": "/courses/2026/spring/C210-01"
   },
   {
     "id": "2026:spring:C211-01:0:642",
@@ -12908,7 +14838,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "ロボティクス学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "C211-01",
-    "routePath": "/courses/2026/spring/C211-01/i"
+    "sourceIndex": 642,
+    "hasDetail": true,
+    "detailPath": "/details/642.json",
+    "routePath": "/courses/2026/spring/C211-01"
   },
   {
     "id": "2026:spring:C212-01:0:643",
@@ -12928,7 +14861,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "ロボティクス学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "C212-01",
-    "routePath": "/courses/2026/spring/C212-01/course-17zg5wz"
+    "sourceIndex": 643,
+    "hasDetail": true,
+    "detailPath": "/details/643.json",
+    "routePath": "/courses/2026/spring/C212-01"
   },
   {
     "id": "2026:spring:C213-01:0:644",
@@ -12948,7 +14884,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "ロボティクス学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "C213-01",
-    "routePath": "/courses/2026/spring/C213-01/i"
+    "sourceIndex": 644,
+    "hasDetail": true,
+    "detailPath": "/details/644.json",
+    "routePath": "/courses/2026/spring/C213-01"
   },
   {
     "id": "2026:spring:C214-01:0:645",
@@ -12968,7 +14907,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "ロボティクス学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "C214-01",
-    "routePath": "/courses/2026/spring/C214-01/ii"
+    "sourceIndex": 645,
+    "hasDetail": true,
+    "detailPath": "/details/645.json",
+    "routePath": "/courses/2026/spring/C214-01"
   },
   {
     "id": "2026:spring:C215-01:0:646",
@@ -12988,7 +14930,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "ロボティクス学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "C215-01",
-    "routePath": "/courses/2026/spring/C215-01/course-1paexi5"
+    "sourceIndex": 646,
+    "hasDetail": true,
+    "detailPath": "/details/646.json",
+    "routePath": "/courses/2026/spring/C215-01"
   },
   {
     "id": "2026:fall:C216-01:0:647",
@@ -13008,7 +14953,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "ロボティクス学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "C216-01",
-    "routePath": "/courses/2026/fall/C216-01/i"
+    "sourceIndex": 647,
+    "hasDetail": true,
+    "detailPath": "/details/647.json",
+    "routePath": "/courses/2026/fall/C216-01"
   },
   {
     "id": "2026:fall:C217-01:0:648",
@@ -13028,7 +14976,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "ロボティクス学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "C217-01",
-    "routePath": "/courses/2026/fall/C217-01/course-zefbc6"
+    "sourceIndex": 648,
+    "hasDetail": true,
+    "detailPath": "/details/648.json",
+    "routePath": "/courses/2026/fall/C217-01"
   },
   {
     "id": "2026:fall:C218-01:0:649",
@@ -13048,7 +14999,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "ロボティクス学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "C218-01",
-    "routePath": "/courses/2026/fall/C218-01/i"
+    "sourceIndex": 649,
+    "hasDetail": true,
+    "detailPath": "/details/649.json",
+    "routePath": "/courses/2026/fall/C218-01"
   },
   {
     "id": "2026:fall:C219-01:0:650",
@@ -13068,7 +15022,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "ロボティクス学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "C219-01",
-    "routePath": "/courses/2026/fall/C219-01/course-e2z9ct"
+    "sourceIndex": 650,
+    "hasDetail": true,
+    "detailPath": "/details/650.json",
+    "routePath": "/courses/2026/fall/C219-01"
   },
   {
     "id": "2026:fall:C220-01:0:651",
@@ -13088,7 +15045,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "ロボティクス学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "C220-01",
-    "routePath": "/courses/2026/fall/C220-01/course-2l3xcw"
+    "sourceIndex": 651,
+    "hasDetail": true,
+    "detailPath": "/details/651.json",
+    "routePath": "/courses/2026/fall/C220-01"
   },
   {
     "id": "2026:fall:C221-01:0:652",
@@ -13108,7 +15068,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "ロボティクス学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "C221-01",
-    "routePath": "/courses/2026/fall/C221-01/ii"
+    "sourceIndex": 652,
+    "hasDetail": true,
+    "detailPath": "/details/652.json",
+    "routePath": "/courses/2026/fall/C221-01"
   },
   {
     "id": "2026:fall:C222-01:0:653",
@@ -13128,7 +15091,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "ロボティクス学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "C222-01",
-    "routePath": "/courses/2026/fall/C222-01/ii"
+    "sourceIndex": 653,
+    "hasDetail": true,
+    "detailPath": "/details/653.json",
+    "routePath": "/courses/2026/fall/C222-01"
   },
   {
     "id": "2026:fall:C223-01:0:654",
@@ -13148,7 +15114,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "ロボティクス学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "C223-01",
-    "routePath": "/courses/2026/fall/C223-01/course-15opemx"
+    "sourceIndex": 654,
+    "hasDetail": true,
+    "detailPath": "/details/654.json",
+    "routePath": "/courses/2026/fall/C223-01"
   },
   {
     "id": "2026:fall:C943-01:0:655",
@@ -13168,7 +15137,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "ロボティクス学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "C943-01",
-    "routePath": "/courses/2026/fall/C943-01/i"
+    "sourceIndex": 655,
+    "hasDetail": true,
+    "detailPath": "/details/655.json",
+    "routePath": "/courses/2026/fall/C943-01"
   },
   {
     "id": "2026:fall:B006-01:0:656",
@@ -13188,7 +15160,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境・応用化学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "B006-01",
-    "routePath": "/courses/2026/fall/B006-01/course-vyuu3k"
+    "sourceIndex": 656,
+    "hasDetail": true,
+    "detailPath": "/details/656.json",
+    "routePath": "/courses/2026/fall/B006-01"
   },
   {
     "id": "2026:spring:B017-01:0:657",
@@ -13208,7 +15183,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境・応用化学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "B017-01",
-    "routePath": "/courses/2026/spring/B017-01/course-1dx5yfe"
+    "sourceIndex": 657,
+    "hasDetail": true,
+    "detailPath": "/details/657.json",
+    "routePath": "/courses/2026/spring/B017-01"
   },
   {
     "id": "2026:spring:B018-01:0:658",
@@ -13228,7 +15206,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境・応用化学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "B018-01",
-    "routePath": "/courses/2026/spring/B018-01/course-186nws0"
+    "sourceIndex": 658,
+    "hasDetail": true,
+    "detailPath": "/details/658.json",
+    "routePath": "/courses/2026/spring/B018-01"
   },
   {
     "id": "2026:spring:B021-01:0:659",
@@ -13248,7 +15229,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境・応用化学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "B021-01",
-    "routePath": "/courses/2026/spring/B021-01/course-1x4o76n"
+    "sourceIndex": 659,
+    "hasDetail": true,
+    "detailPath": "/details/659.json",
+    "routePath": "/courses/2026/spring/B021-01"
   },
   {
     "id": "2026:fall:B022-01:0:660",
@@ -13268,7 +15252,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境・応用化学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "B022-01",
-    "routePath": "/courses/2026/fall/B022-01/course-1di1vrr"
+    "sourceIndex": 660,
+    "hasDetail": true,
+    "detailPath": "/details/660.json",
+    "routePath": "/courses/2026/fall/B022-01"
   },
   {
     "id": "2026:spring:B023-01:0:661",
@@ -13288,7 +15275,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境・応用化学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "B023-01",
-    "routePath": "/courses/2026/spring/B023-01/course-qzxr9a"
+    "sourceIndex": 661,
+    "hasDetail": true,
+    "detailPath": "/details/661.json",
+    "routePath": "/courses/2026/spring/B023-01"
   },
   {
     "id": "2026:fall:B024-01:0:662",
@@ -13308,7 +15298,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境・応用化学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "B024-01",
-    "routePath": "/courses/2026/fall/B024-01/course-9l95wx"
+    "sourceIndex": 662,
+    "hasDetail": true,
+    "detailPath": "/details/662.json",
+    "routePath": "/courses/2026/fall/B024-01"
   },
   {
     "id": "2026:spring:B025-01:0:663",
@@ -13328,7 +15321,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境・応用化学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "B025-01",
-    "routePath": "/courses/2026/spring/B025-01/course-s2s7dy"
+    "sourceIndex": 663,
+    "hasDetail": true,
+    "detailPath": "/details/663.json",
+    "routePath": "/courses/2026/spring/B025-01"
   },
   {
     "id": "2026:fall:B026-01:0:664",
@@ -13348,7 +15344,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境・応用化学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "B026-01",
-    "routePath": "/courses/2026/fall/B026-01/course-4dsul6"
+    "sourceIndex": 664,
+    "hasDetail": true,
+    "detailPath": "/details/664.json",
+    "routePath": "/courses/2026/fall/B026-01"
   },
   {
     "id": "2026:fall:B027-01:0:665",
@@ -13368,7 +15367,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境・応用化学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "B027-01",
-    "routePath": "/courses/2026/fall/B027-01/course-nxtd0c"
+    "sourceIndex": 665,
+    "hasDetail": true,
+    "detailPath": "/details/665.json",
+    "routePath": "/courses/2026/fall/B027-01"
   },
   {
     "id": "2026:fall:B028-01:0:666",
@@ -13388,7 +15390,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境・応用化学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "B028-01",
-    "routePath": "/courses/2026/fall/B028-01/course-1v139m4"
+    "sourceIndex": 666,
+    "hasDetail": true,
+    "detailPath": "/details/666.json",
+    "routePath": "/courses/2026/fall/B028-01"
   },
   {
     "id": "2026:spring:B034-01:0:667",
@@ -13408,7 +15413,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境・応用化学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "B034-01",
-    "routePath": "/courses/2026/spring/B034-01/course-ev5xtg"
+    "sourceIndex": 667,
+    "hasDetail": true,
+    "detailPath": "/details/667.json",
+    "routePath": "/courses/2026/spring/B034-01"
   },
   {
     "id": "2026:spring:B035-01:0:668",
@@ -13428,7 +15436,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境・応用化学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "B035-01",
-    "routePath": "/courses/2026/spring/B035-01/course-kgftwl"
+    "sourceIndex": 668,
+    "hasDetail": true,
+    "detailPath": "/details/668.json",
+    "routePath": "/courses/2026/spring/B035-01"
   },
   {
     "id": "2026:fall:B042-01:0:669",
@@ -13448,7 +15459,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境・応用化学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "B042-01",
-    "routePath": "/courses/2026/fall/B042-01/a1"
+    "sourceIndex": 669,
+    "hasDetail": true,
+    "detailPath": "/details/669.json",
+    "routePath": "/courses/2026/fall/B042-01"
   },
   {
     "id": "2026:fall:B043-01:0:670",
@@ -13468,7 +15482,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境・応用化学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "B043-01",
-    "routePath": "/courses/2026/fall/B043-01/a2"
+    "sourceIndex": 670,
+    "hasDetail": true,
+    "detailPath": "/details/670.json",
+    "routePath": "/courses/2026/fall/B043-01"
   },
   {
     "id": "2026:fall:B044-01:0:671",
@@ -13488,7 +15505,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境・応用化学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "B044-01",
-    "routePath": "/courses/2026/fall/B044-01/a3"
+    "sourceIndex": 671,
+    "hasDetail": true,
+    "detailPath": "/details/671.json",
+    "routePath": "/courses/2026/fall/B044-01"
   },
   {
     "id": "2026:spring:B045-01:0:672",
@@ -13508,7 +15528,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境・応用化学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "B045-01",
-    "routePath": "/courses/2026/spring/B045-01/b1"
+    "sourceIndex": 672,
+    "hasDetail": true,
+    "detailPath": "/details/672.json",
+    "routePath": "/courses/2026/spring/B045-01"
   },
   {
     "id": "2026:spring:B046-01:0:673",
@@ -13528,7 +15551,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境・応用化学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "B046-01",
-    "routePath": "/courses/2026/spring/B046-01/b2"
+    "sourceIndex": 673,
+    "hasDetail": true,
+    "detailPath": "/details/673.json",
+    "routePath": "/courses/2026/spring/B046-01"
   },
   {
     "id": "2026:spring:B047-01:0:674",
@@ -13548,7 +15574,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境・応用化学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "B047-01",
-    "routePath": "/courses/2026/spring/B047-01/b3"
+    "sourceIndex": 674,
+    "hasDetail": true,
+    "detailPath": "/details/674.json",
+    "routePath": "/courses/2026/spring/B047-01"
   },
   {
     "id": "2026:fall:B901-01:0:675",
@@ -13568,7 +15597,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境・応用化学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "B901-01",
-    "routePath": "/courses/2026/fall/B901-01/course-692o1e"
+    "sourceIndex": 675,
+    "hasDetail": true,
+    "detailPath": "/details/675.json",
+    "routePath": "/courses/2026/fall/B901-01"
   },
   {
     "id": "2026:fall:B911-01:0:676",
@@ -13588,7 +15620,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境・応用化学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "B911-01",
-    "routePath": "/courses/2026/fall/B911-01/course-18v6c71"
+    "sourceIndex": 676,
+    "hasDetail": true,
+    "detailPath": "/details/676.json",
+    "routePath": "/courses/2026/fall/B911-01"
   },
   {
     "id": "2026:full-year:B921-02:0:677",
@@ -13608,7 +15643,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境・応用化学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "B921-02",
-    "routePath": "/courses/2026/full-year/B921-02/iii"
+    "sourceIndex": 677,
+    "hasDetail": true,
+    "detailPath": "/details/677.json",
+    "routePath": "/courses/2026/full-year/B921-02"
   },
   {
     "id": "2026:full-year:B921-03:0:678",
@@ -13628,7 +15666,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境・応用化学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "B921-03",
-    "routePath": "/courses/2026/full-year/B921-03/iii"
+    "sourceIndex": 678,
+    "hasDetail": true,
+    "detailPath": "/details/678.json",
+    "routePath": "/courses/2026/full-year/B921-03"
   },
   {
     "id": "2026:full-year:B921-05:0:679",
@@ -13648,7 +15689,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境・応用化学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "B921-05",
-    "routePath": "/courses/2026/full-year/B921-05/iii"
+    "sourceIndex": 679,
+    "hasDetail": true,
+    "detailPath": "/details/679.json",
+    "routePath": "/courses/2026/full-year/B921-05"
   },
   {
     "id": "2026:full-year:B921-06:0:680",
@@ -13668,7 +15712,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境・応用化学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "B921-06",
-    "routePath": "/courses/2026/full-year/B921-06/iii"
+    "sourceIndex": 680,
+    "hasDetail": true,
+    "detailPath": "/details/680.json",
+    "routePath": "/courses/2026/full-year/B921-06"
   },
   {
     "id": "2026:full-year:B921-07:0:681",
@@ -13688,7 +15735,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境・応用化学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "B921-07",
-    "routePath": "/courses/2026/full-year/B921-07/iii"
+    "sourceIndex": 681,
+    "hasDetail": true,
+    "detailPath": "/details/681.json",
+    "routePath": "/courses/2026/full-year/B921-07"
   },
   {
     "id": "2026:full-year:B921-08:0:682",
@@ -13708,7 +15758,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境・応用化学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "B921-08",
-    "routePath": "/courses/2026/full-year/B921-08/iii"
+    "sourceIndex": 682,
+    "hasDetail": true,
+    "detailPath": "/details/682.json",
+    "routePath": "/courses/2026/full-year/B921-08"
   },
   {
     "id": "2026:full-year:B921-09:0:683",
@@ -13728,7 +15781,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境・応用化学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "B921-09",
-    "routePath": "/courses/2026/full-year/B921-09/iii"
+    "sourceIndex": 683,
+    "hasDetail": true,
+    "detailPath": "/details/683.json",
+    "routePath": "/courses/2026/full-year/B921-09"
   },
   {
     "id": "2026:full-year:B921-10:0:684",
@@ -13748,7 +15804,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境・応用化学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "B921-10",
-    "routePath": "/courses/2026/full-year/B921-10/iii"
+    "sourceIndex": 684,
+    "hasDetail": true,
+    "detailPath": "/details/684.json",
+    "routePath": "/courses/2026/full-year/B921-10"
   },
   {
     "id": "2026:full-year:B921-12:0:685",
@@ -13768,7 +15827,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境・応用化学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "B921-12",
-    "routePath": "/courses/2026/full-year/B921-12/iii"
+    "sourceIndex": 685,
+    "hasDetail": true,
+    "detailPath": "/details/685.json",
+    "routePath": "/courses/2026/full-year/B921-12"
   },
   {
     "id": "2026:full-year:B921-13:0:686",
@@ -13788,7 +15850,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境・応用化学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "B921-13",
-    "routePath": "/courses/2026/full-year/B921-13/iii"
+    "sourceIndex": 686,
+    "hasDetail": true,
+    "detailPath": "/details/686.json",
+    "routePath": "/courses/2026/full-year/B921-13"
   },
   {
     "id": "2026:full-year:B921-14:0:687",
@@ -13808,7 +15873,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境・応用化学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "B921-14",
-    "routePath": "/courses/2026/full-year/B921-14/iii"
+    "sourceIndex": 687,
+    "hasDetail": true,
+    "detailPath": "/details/687.json",
+    "routePath": "/courses/2026/full-year/B921-14"
   },
   {
     "id": "2026:full-year:B921-15:0:688",
@@ -13828,7 +15896,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境・応用化学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "B921-15",
-    "routePath": "/courses/2026/full-year/B921-15/iii"
+    "sourceIndex": 688,
+    "hasDetail": true,
+    "detailPath": "/details/688.json",
+    "routePath": "/courses/2026/full-year/B921-15"
   },
   {
     "id": "2026:spring:B941-01:0:689",
@@ -13848,7 +15919,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境・応用化学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "B941-01",
-    "routePath": "/courses/2026/spring/B941-01/i"
+    "sourceIndex": 689,
+    "hasDetail": true,
+    "detailPath": "/details/689.json",
+    "routePath": "/courses/2026/spring/B941-01"
   },
   {
     "id": "2026:fall:B951-01:0:690",
@@ -13868,7 +15942,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境・応用化学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "B951-01",
-    "routePath": "/courses/2026/fall/B951-01/ii"
+    "sourceIndex": 690,
+    "hasDetail": true,
+    "detailPath": "/details/690.json",
+    "routePath": "/courses/2026/fall/B951-01"
   },
   {
     "id": "2026:spring:B117-01:0:691",
@@ -13888,7 +15965,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "生命・応用バイオ学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "B117-01",
-    "routePath": "/courses/2026/spring/B117-01/course-1g1h6ay"
+    "sourceIndex": 691,
+    "hasDetail": true,
+    "detailPath": "/details/691.json",
+    "routePath": "/courses/2026/spring/B117-01"
   },
   {
     "id": "2026:spring:B118-01:0:692",
@@ -13908,7 +15988,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "生命・応用バイオ学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "B118-01",
-    "routePath": "/courses/2026/spring/B118-01/course-ttzt8q"
+    "sourceIndex": 692,
+    "hasDetail": true,
+    "detailPath": "/details/692.json",
+    "routePath": "/courses/2026/spring/B118-01"
   },
   {
     "id": "2026:spring:B119-01:0:693",
@@ -13928,7 +16011,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "生命・応用バイオ学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "B119-01",
-    "routePath": "/courses/2026/spring/B119-01/course-1bqhsdh"
+    "sourceIndex": 693,
+    "hasDetail": true,
+    "detailPath": "/details/693.json",
+    "routePath": "/courses/2026/spring/B119-01"
   },
   {
     "id": "2026:spring:B120-01:0:694",
@@ -13948,7 +16034,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "生命・応用バイオ学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "B120-01",
-    "routePath": "/courses/2026/spring/B120-01/course-9tvmr"
+    "sourceIndex": 694,
+    "hasDetail": true,
+    "detailPath": "/details/694.json",
+    "routePath": "/courses/2026/spring/B120-01"
   },
   {
     "id": "2026:spring:B121-01:0:695",
@@ -13968,7 +16057,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "生命・応用バイオ学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "B121-01",
-    "routePath": "/courses/2026/spring/B121-01/course-sv36qn"
+    "sourceIndex": 695,
+    "hasDetail": true,
+    "detailPath": "/details/695.json",
+    "routePath": "/courses/2026/spring/B121-01"
   },
   {
     "id": "2026:spring:B122-01:0:696",
@@ -13988,7 +16080,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "生命・応用バイオ学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "B122-01",
-    "routePath": "/courses/2026/spring/B122-01/course-ezfcij"
+    "sourceIndex": 696,
+    "hasDetail": true,
+    "detailPath": "/details/696.json",
+    "routePath": "/courses/2026/spring/B122-01"
   },
   {
     "id": "2026:fall:B123-01:0:697",
@@ -14008,7 +16103,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "生命・応用バイオ学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "B123-01",
-    "routePath": "/courses/2026/fall/B123-01/course-1dx5yfe"
+    "sourceIndex": 697,
+    "hasDetail": true,
+    "detailPath": "/details/697.json",
+    "routePath": "/courses/2026/fall/B123-01"
   },
   {
     "id": "2026:fall:B124-01:0:698",
@@ -14028,7 +16126,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "生命・応用バイオ学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "B124-01",
-    "routePath": "/courses/2026/fall/B124-01/course-16im9wd"
+    "sourceIndex": 698,
+    "hasDetail": true,
+    "detailPath": "/details/698.json",
+    "routePath": "/courses/2026/fall/B124-01"
   },
   {
     "id": "2026:fall:B125-01:0:699",
@@ -14048,7 +16149,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "生命・応用バイオ学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "B125-01",
-    "routePath": "/courses/2026/fall/B125-01/course-142y4nx"
+    "sourceIndex": 699,
+    "hasDetail": true,
+    "detailPath": "/details/699.json",
+    "routePath": "/courses/2026/fall/B125-01"
   },
   {
     "id": "2026:fall:B126-01:0:700",
@@ -14068,7 +16172,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "生命・応用バイオ学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "B126-01",
-    "routePath": "/courses/2026/fall/B126-01/course-1biavlo"
+    "sourceIndex": 700,
+    "hasDetail": true,
+    "detailPath": "/details/700.json",
+    "routePath": "/courses/2026/fall/B126-01"
   },
   {
     "id": "2026:fall:B127-01:0:701",
@@ -14088,7 +16195,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "生命・応用バイオ学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "B127-01",
-    "routePath": "/courses/2026/fall/B127-01/course-7snitx"
+    "sourceIndex": 701,
+    "hasDetail": true,
+    "detailPath": "/details/701.json",
+    "routePath": "/courses/2026/fall/B127-01"
   },
   {
     "id": "2026:spring:B128-01:0:702",
@@ -14108,7 +16218,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "生命・応用バイオ学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "B128-01",
-    "routePath": "/courses/2026/spring/B128-01/course-1wyvojk"
+    "sourceIndex": 702,
+    "hasDetail": true,
+    "detailPath": "/details/702.json",
+    "routePath": "/courses/2026/spring/B128-01"
   },
   {
     "id": "2026:fall:B129-01:0:703",
@@ -14128,7 +16241,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "生命・応用バイオ学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "B129-01",
-    "routePath": "/courses/2026/fall/B129-01/course-196fk3k"
+    "sourceIndex": 703,
+    "hasDetail": true,
+    "detailPath": "/details/703.json",
+    "routePath": "/courses/2026/fall/B129-01"
   },
   {
     "id": "2026:spring:B132-01:0:704",
@@ -14148,7 +16264,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "生命・応用バイオ学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "B132-01",
-    "routePath": "/courses/2026/spring/B132-01/a"
+    "sourceIndex": 704,
+    "hasDetail": true,
+    "detailPath": "/details/704.json",
+    "routePath": "/courses/2026/spring/B132-01"
   },
   {
     "id": "2026:fall:B132-01:0:705",
@@ -14168,7 +16287,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "生命・応用バイオ学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "B132-01",
-    "routePath": "/courses/2026/fall/B132-01/a"
+    "sourceIndex": 705,
+    "hasDetail": true,
+    "detailPath": "/details/705.json",
+    "routePath": "/courses/2026/fall/B132-01"
   },
   {
     "id": "2026:spring:B133-01:0:706",
@@ -14188,7 +16310,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "生命・応用バイオ学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "B133-01",
-    "routePath": "/courses/2026/spring/B133-01/b"
+    "sourceIndex": 706,
+    "hasDetail": true,
+    "detailPath": "/details/706.json",
+    "routePath": "/courses/2026/spring/B133-01"
   },
   {
     "id": "2026:fall:B133-01:0:707",
@@ -14208,7 +16333,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "生命・応用バイオ学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "B133-01",
-    "routePath": "/courses/2026/fall/B133-01/b"
+    "sourceIndex": 707,
+    "hasDetail": true,
+    "detailPath": "/details/707.json",
+    "routePath": "/courses/2026/fall/B133-01"
   },
   {
     "id": "2026:fall:B902-01:0:708",
@@ -14228,7 +16356,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "生命・応用バイオ学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "B902-01",
-    "routePath": "/courses/2026/fall/B902-01/course-692o1e"
+    "sourceIndex": 708,
+    "hasDetail": true,
+    "detailPath": "/details/708.json",
+    "routePath": "/courses/2026/fall/B902-01"
   },
   {
     "id": "2026:spring:B912-01:0:709",
@@ -14248,7 +16379,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "生命・応用バイオ学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "B912-01",
-    "routePath": "/courses/2026/spring/B912-01/course-18v6c71"
+    "sourceIndex": 709,
+    "hasDetail": true,
+    "detailPath": "/details/709.json",
+    "routePath": "/courses/2026/spring/B912-01"
   },
   {
     "id": "2026:full-year:B922-07:0:710",
@@ -14268,7 +16402,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "生命・応用バイオ学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "B922-07",
-    "routePath": "/courses/2026/full-year/B922-07/iii"
+    "sourceIndex": 710,
+    "hasDetail": true,
+    "detailPath": "/details/710.json",
+    "routePath": "/courses/2026/full-year/B922-07"
   },
   {
     "id": "2026:full-year:B922-08:0:711",
@@ -14288,7 +16425,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "生命・応用バイオ学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "B922-08",
-    "routePath": "/courses/2026/full-year/B922-08/iii"
+    "sourceIndex": 711,
+    "hasDetail": true,
+    "detailPath": "/details/711.json",
+    "routePath": "/courses/2026/full-year/B922-08"
   },
   {
     "id": "2026:full-year:B922-11:0:712",
@@ -14308,7 +16448,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "生命・応用バイオ学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "B922-11",
-    "routePath": "/courses/2026/full-year/B922-11/iii"
+    "sourceIndex": 712,
+    "hasDetail": true,
+    "detailPath": "/details/712.json",
+    "routePath": "/courses/2026/full-year/B922-11"
   },
   {
     "id": "2026:full-year:B922-12:0:713",
@@ -14328,7 +16471,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "生命・応用バイオ学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "B922-12",
-    "routePath": "/courses/2026/full-year/B922-12/iii"
+    "sourceIndex": 713,
+    "hasDetail": true,
+    "detailPath": "/details/713.json",
+    "routePath": "/courses/2026/full-year/B922-12"
   },
   {
     "id": "2026:full-year:B922-14:0:714",
@@ -14348,7 +16494,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "生命・応用バイオ学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "B922-14",
-    "routePath": "/courses/2026/full-year/B922-14/iii"
+    "sourceIndex": 714,
+    "hasDetail": true,
+    "detailPath": "/details/714.json",
+    "routePath": "/courses/2026/full-year/B922-14"
   },
   {
     "id": "2026:full-year:B922-16:0:715",
@@ -14368,7 +16517,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "生命・応用バイオ学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "B922-16",
-    "routePath": "/courses/2026/full-year/B922-16/iii"
+    "sourceIndex": 715,
+    "hasDetail": true,
+    "detailPath": "/details/715.json",
+    "routePath": "/courses/2026/full-year/B922-16"
   },
   {
     "id": "2026:full-year:B922-17:0:716",
@@ -14388,7 +16540,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "生命・応用バイオ学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "B922-17",
-    "routePath": "/courses/2026/full-year/B922-17/iii"
+    "sourceIndex": 716,
+    "hasDetail": true,
+    "detailPath": "/details/716.json",
+    "routePath": "/courses/2026/full-year/B922-17"
   },
   {
     "id": "2026:full-year:B922-18:0:717",
@@ -14408,7 +16563,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "生命・応用バイオ学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "B922-18",
-    "routePath": "/courses/2026/full-year/B922-18/iii"
+    "sourceIndex": 717,
+    "hasDetail": true,
+    "detailPath": "/details/717.json",
+    "routePath": "/courses/2026/full-year/B922-18"
   },
   {
     "id": "2026:spring:B942-01:0:718",
@@ -14428,7 +16586,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "生命・応用バイオ学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "B942-01",
-    "routePath": "/courses/2026/spring/B942-01/i"
+    "sourceIndex": 718,
+    "hasDetail": true,
+    "detailPath": "/details/718.json",
+    "routePath": "/courses/2026/spring/B942-01"
   },
   {
     "id": "2026:fall:B952-01:0:719",
@@ -14448,7 +16609,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "生命・応用バイオ学科(〜2024年度入学)",
     "courseCategoryLabel": null,
     "courseCodeLabel": "B952-01",
-    "routePath": "/courses/2026/fall/B952-01/ii"
+    "sourceIndex": 719,
+    "hasDetail": true,
+    "detailPath": "/details/719.json",
+    "routePath": "/courses/2026/fall/B952-01"
   },
   {
     "id": "2026:spring:B201-01:0:720",
@@ -14468,7 +16632,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境・応用化学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "B201-01",
-    "routePath": "/courses/2026/spring/B201-01/course-5pv74n"
+    "sourceIndex": 720,
+    "hasDetail": true,
+    "detailPath": "/details/720.json",
+    "routePath": "/courses/2026/spring/B201-01"
   },
   {
     "id": "2026:spring:B202-01:0:721",
@@ -14488,7 +16655,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境・応用化学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "B202-01",
-    "routePath": "/courses/2026/spring/B202-01/course-1ucrojm"
+    "sourceIndex": 721,
+    "hasDetail": true,
+    "detailPath": "/details/721.json",
+    "routePath": "/courses/2026/spring/B202-01"
   },
   {
     "id": "2026:spring:B203-01:0:722",
@@ -14508,7 +16678,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境・応用化学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "B203-01",
-    "routePath": "/courses/2026/spring/B203-01/course-1192cy1"
+    "sourceIndex": 722,
+    "hasDetail": true,
+    "detailPath": "/details/722.json",
+    "routePath": "/courses/2026/spring/B203-01"
   },
   {
     "id": "2026:spring:B204-01:0:723",
@@ -14528,7 +16701,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境・応用化学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "B204-01",
-    "routePath": "/courses/2026/spring/B204-01/course-58zw9a"
+    "sourceIndex": 723,
+    "hasDetail": true,
+    "detailPath": "/details/723.json",
+    "routePath": "/courses/2026/spring/B204-01"
   },
   {
     "id": "2026:fall:B205-01:0:724",
@@ -14548,7 +16724,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境・応用化学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "B205-01",
-    "routePath": "/courses/2026/fall/B205-01/course-9cqkoh"
+    "sourceIndex": 724,
+    "hasDetail": true,
+    "detailPath": "/details/724.json",
+    "routePath": "/courses/2026/fall/B205-01"
   },
   {
     "id": "2026:fall:B206-01:0:725",
@@ -14568,7 +16747,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境・応用化学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "B206-01",
-    "routePath": "/courses/2026/fall/B206-01/course-gmfh4h"
+    "sourceIndex": 725,
+    "hasDetail": true,
+    "detailPath": "/details/725.json",
+    "routePath": "/courses/2026/fall/B206-01"
   },
   {
     "id": "2026:fall:B207-01:0:726",
@@ -14588,7 +16770,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境・応用化学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "B207-01",
-    "routePath": "/courses/2026/fall/B207-01/course-19pyqab"
+    "sourceIndex": 726,
+    "hasDetail": true,
+    "detailPath": "/details/726.json",
+    "routePath": "/courses/2026/fall/B207-01"
   },
   {
     "id": "2026:spring:B208-01:0:727",
@@ -14608,7 +16793,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境・応用化学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "B208-01",
-    "routePath": "/courses/2026/spring/B208-01/course-7pum95"
+    "sourceIndex": 727,
+    "hasDetail": true,
+    "detailPath": "/details/727.json",
+    "routePath": "/courses/2026/spring/B208-01"
   },
   {
     "id": "2026:spring:B209-01:0:728",
@@ -14628,7 +16816,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境・応用化学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "B209-01",
-    "routePath": "/courses/2026/spring/B209-01/course-2kenpy"
+    "sourceIndex": 728,
+    "hasDetail": true,
+    "detailPath": "/details/728.json",
+    "routePath": "/courses/2026/spring/B209-01"
   },
   {
     "id": "2026:spring:B210-01:0:729",
@@ -14648,7 +16839,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境・応用化学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "B210-01",
-    "routePath": "/courses/2026/spring/B210-01/course-nap1ao"
+    "sourceIndex": 729,
+    "hasDetail": true,
+    "detailPath": "/details/729.json",
+    "routePath": "/courses/2026/spring/B210-01"
   },
   {
     "id": "2026:spring:B211-01:0:730",
@@ -14668,7 +16862,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境・応用化学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "B211-01",
-    "routePath": "/courses/2026/spring/B211-01/course-1ckq666"
+    "sourceIndex": 730,
+    "hasDetail": true,
+    "detailPath": "/details/730.json",
+    "routePath": "/courses/2026/spring/B211-01"
   },
   {
     "id": "2026:fall:B212-01:0:731",
@@ -14688,7 +16885,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境・応用化学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "B212-01",
-    "routePath": "/courses/2026/fall/B212-01/course-juww22"
+    "sourceIndex": 731,
+    "hasDetail": true,
+    "detailPath": "/details/731.json",
+    "routePath": "/courses/2026/fall/B212-01"
   },
   {
     "id": "2026:fall:B213-01:0:732",
@@ -14708,7 +16908,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境・応用化学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "B213-01",
-    "routePath": "/courses/2026/fall/B213-01/course-xy3okh"
+    "sourceIndex": 732,
+    "hasDetail": true,
+    "detailPath": "/details/732.json",
+    "routePath": "/courses/2026/fall/B213-01"
   },
   {
     "id": "2026:fall:B214-01:0:733",
@@ -14728,7 +16931,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境・応用化学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "B214-01",
-    "routePath": "/courses/2026/fall/B214-01/course-lmcixb"
+    "sourceIndex": 733,
+    "hasDetail": true,
+    "detailPath": "/details/733.json",
+    "routePath": "/courses/2026/fall/B214-01"
   },
   {
     "id": "2026:fall:B215-01:0:734",
@@ -14748,7 +16954,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境・応用化学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "B215-01",
-    "routePath": "/courses/2026/fall/B215-01/course-n0xe8e"
+    "sourceIndex": 734,
+    "hasDetail": true,
+    "detailPath": "/details/734.json",
+    "routePath": "/courses/2026/fall/B215-01"
   },
   {
     "id": "2026:spring:B216-01:0:735",
@@ -14768,7 +16977,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境・応用化学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "B216-01",
-    "routePath": "/courses/2026/spring/B216-01/a1"
+    "sourceIndex": 735,
+    "hasDetail": true,
+    "detailPath": "/details/735.json",
+    "routePath": "/courses/2026/spring/B216-01"
   },
   {
     "id": "2026:spring:B217-01:0:736",
@@ -14788,7 +17000,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境・応用化学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "B217-01",
-    "routePath": "/courses/2026/spring/B217-01/a2"
+    "sourceIndex": 736,
+    "hasDetail": true,
+    "detailPath": "/details/736.json",
+    "routePath": "/courses/2026/spring/B217-01"
   },
   {
     "id": "2026:spring:B218-01:0:737",
@@ -14808,7 +17023,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境・応用化学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "B218-01",
-    "routePath": "/courses/2026/spring/B218-01/a3"
+    "sourceIndex": 737,
+    "hasDetail": true,
+    "detailPath": "/details/737.json",
+    "routePath": "/courses/2026/spring/B218-01"
   },
   {
     "id": "2026:fall:B219-01:0:738",
@@ -14828,7 +17046,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境・応用化学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "B219-01",
-    "routePath": "/courses/2026/fall/B219-01/b1"
+    "sourceIndex": 738,
+    "hasDetail": true,
+    "detailPath": "/details/738.json",
+    "routePath": "/courses/2026/fall/B219-01"
   },
   {
     "id": "2026:fall:B220-01:0:739",
@@ -14848,7 +17069,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境・応用化学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "B220-01",
-    "routePath": "/courses/2026/fall/B220-01/b2"
+    "sourceIndex": 739,
+    "hasDetail": true,
+    "detailPath": "/details/739.json",
+    "routePath": "/courses/2026/fall/B220-01"
   },
   {
     "id": "2026:fall:B221-01:0:740",
@@ -14868,7 +17092,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境・応用化学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "B221-01",
-    "routePath": "/courses/2026/fall/B221-01/b3"
+    "sourceIndex": 740,
+    "hasDetail": true,
+    "detailPath": "/details/740.json",
+    "routePath": "/courses/2026/fall/B221-01"
   },
   {
     "id": "2026:fall:B943-01:0:741",
@@ -14888,7 +17115,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境・応用化学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "B943-01",
-    "routePath": "/courses/2026/fall/B943-01/i"
+    "sourceIndex": 741,
+    "hasDetail": true,
+    "detailPath": "/details/741.json",
+    "routePath": "/courses/2026/fall/B943-01"
   },
   {
     "id": "2026:spring:B301-01:0:742",
@@ -14908,7 +17138,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "生命・応用バイオ学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "B301-01",
-    "routePath": "/courses/2026/spring/B301-01/course-uqbq3h"
+    "sourceIndex": 742,
+    "hasDetail": true,
+    "detailPath": "/details/742.json",
+    "routePath": "/courses/2026/spring/B301-01"
   },
   {
     "id": "2026:spring:B302-01:0:743",
@@ -14928,7 +17161,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "生命・応用バイオ学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "B302-01",
-    "routePath": "/courses/2026/spring/B302-01/i"
+    "sourceIndex": 743,
+    "hasDetail": true,
+    "detailPath": "/details/743.json",
+    "routePath": "/courses/2026/spring/B302-01"
   },
   {
     "id": "2026:spring:B303-01:0:744",
@@ -14948,7 +17184,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "生命・応用バイオ学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "B303-01",
-    "routePath": "/courses/2026/spring/B303-01/course-cdbao9"
+    "sourceIndex": 744,
+    "hasDetail": true,
+    "detailPath": "/details/744.json",
+    "routePath": "/courses/2026/spring/B303-01"
   },
   {
     "id": "2026:spring:B304-01:0:745",
@@ -14968,7 +17207,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "生命・応用バイオ学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "B304-01",
-    "routePath": "/courses/2026/spring/B304-01/ii"
+    "sourceIndex": 745,
+    "hasDetail": true,
+    "detailPath": "/details/745.json",
+    "routePath": "/courses/2026/spring/B304-01"
   },
   {
     "id": "2026:fall:B305-01:0:746",
@@ -14988,7 +17230,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "生命・応用バイオ学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "B305-01",
-    "routePath": "/courses/2026/fall/B305-01/course-1gz31sj"
+    "sourceIndex": 746,
+    "hasDetail": true,
+    "detailPath": "/details/746.json",
+    "routePath": "/courses/2026/fall/B305-01"
   },
   {
     "id": "2026:fall:B306-01:0:747",
@@ -15008,7 +17253,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "生命・応用バイオ学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "B306-01",
-    "routePath": "/courses/2026/fall/B306-01/course-5ju9qe"
+    "sourceIndex": 747,
+    "hasDetail": true,
+    "detailPath": "/details/747.json",
+    "routePath": "/courses/2026/fall/B306-01"
   },
   {
     "id": "2026:fall:B307-01:0:748",
@@ -15028,7 +17276,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "生命・応用バイオ学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "B307-01",
-    "routePath": "/courses/2026/fall/B307-01/i"
+    "sourceIndex": 748,
+    "hasDetail": true,
+    "detailPath": "/details/748.json",
+    "routePath": "/courses/2026/fall/B307-01"
   },
   {
     "id": "2026:spring:B308-01:0:749",
@@ -15048,7 +17299,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "生命・応用バイオ学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "B308-01",
-    "routePath": "/courses/2026/spring/B308-01/course-1yaiesz"
+    "sourceIndex": 749,
+    "hasDetail": true,
+    "detailPath": "/details/749.json",
+    "routePath": "/courses/2026/spring/B308-01"
   },
   {
     "id": "2026:spring:B309-01:0:750",
@@ -15068,7 +17322,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "生命・応用バイオ学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "B309-01",
-    "routePath": "/courses/2026/spring/B309-01/course-kz6qb0"
+    "sourceIndex": 750,
+    "hasDetail": true,
+    "detailPath": "/details/750.json",
+    "routePath": "/courses/2026/spring/B309-01"
   },
   {
     "id": "2026:spring:B310-01:0:751",
@@ -15088,7 +17345,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "生命・応用バイオ学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "B310-01",
-    "routePath": "/courses/2026/spring/B310-01/course-18n01wc"
+    "sourceIndex": 751,
+    "hasDetail": true,
+    "detailPath": "/details/751.json",
+    "routePath": "/courses/2026/spring/B310-01"
   },
   {
     "id": "2026:spring:B311-01:0:752",
@@ -15108,7 +17368,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "生命・応用バイオ学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "B311-01",
-    "routePath": "/courses/2026/spring/B311-01/course-wfi6ob"
+    "sourceIndex": 752,
+    "hasDetail": true,
+    "detailPath": "/details/752.json",
+    "routePath": "/courses/2026/spring/B311-01"
   },
   {
     "id": "2026:spring:B312-01:0:753",
@@ -15128,7 +17391,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "生命・応用バイオ学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "B312-01",
-    "routePath": "/courses/2026/spring/B312-01/ii"
+    "sourceIndex": 753,
+    "hasDetail": true,
+    "detailPath": "/details/753.json",
+    "routePath": "/courses/2026/spring/B312-01"
   },
   {
     "id": "2026:spring:B313-01:0:754",
@@ -15148,7 +17414,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "生命・応用バイオ学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "B313-01",
-    "routePath": "/courses/2026/spring/B313-01/course-7uamhc"
+    "sourceIndex": 754,
+    "hasDetail": true,
+    "detailPath": "/details/754.json",
+    "routePath": "/courses/2026/spring/B313-01"
   },
   {
     "id": "2026:fall:B314-01:0:755",
@@ -15168,7 +17437,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "生命・応用バイオ学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "B314-01",
-    "routePath": "/courses/2026/fall/B314-01/course-cq9yvh"
+    "sourceIndex": 755,
+    "hasDetail": true,
+    "detailPath": "/details/755.json",
+    "routePath": "/courses/2026/fall/B314-01"
   },
   {
     "id": "2026:fall:B315-01:0:756",
@@ -15188,7 +17460,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "生命・応用バイオ学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "B315-01",
-    "routePath": "/courses/2026/fall/B315-01/course-whj31q"
+    "sourceIndex": 756,
+    "hasDetail": true,
+    "detailPath": "/details/756.json",
+    "routePath": "/courses/2026/fall/B315-01"
   },
   {
     "id": "2026:fall:B316-01:0:757",
@@ -15208,7 +17483,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "生命・応用バイオ学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "B316-01",
-    "routePath": "/courses/2026/fall/B316-01/course-hnt757"
+    "sourceIndex": 757,
+    "hasDetail": true,
+    "detailPath": "/details/757.json",
+    "routePath": "/courses/2026/fall/B316-01"
   },
   {
     "id": "2026:spring:B317-01:0:758",
@@ -15228,7 +17506,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "生命・応用バイオ学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "B317-01",
-    "routePath": "/courses/2026/spring/B317-01/a"
+    "sourceIndex": 758,
+    "hasDetail": true,
+    "detailPath": "/details/758.json",
+    "routePath": "/courses/2026/spring/B317-01"
   },
   {
     "id": "2026:fall:B317-01:0:759",
@@ -15248,7 +17529,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "生命・応用バイオ学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "B317-01",
-    "routePath": "/courses/2026/fall/B317-01/a"
+    "sourceIndex": 759,
+    "hasDetail": true,
+    "detailPath": "/details/759.json",
+    "routePath": "/courses/2026/fall/B317-01"
   },
   {
     "id": "2026:spring:B318-01:0:760",
@@ -15268,7 +17552,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "生命・応用バイオ学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "B318-01",
-    "routePath": "/courses/2026/spring/B318-01/b"
+    "sourceIndex": 760,
+    "hasDetail": true,
+    "detailPath": "/details/760.json",
+    "routePath": "/courses/2026/spring/B318-01"
   },
   {
     "id": "2026:fall:B318-01:0:761",
@@ -15288,7 +17575,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "生命・応用バイオ学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "B318-01",
-    "routePath": "/courses/2026/fall/B318-01/b"
+    "sourceIndex": 761,
+    "hasDetail": true,
+    "detailPath": "/details/761.json",
+    "routePath": "/courses/2026/fall/B318-01"
   },
   {
     "id": "2026:fall:B944-01:0:762",
@@ -15308,7 +17598,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "生命・応用バイオ学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "B944-01",
-    "routePath": "/courses/2026/fall/B944-01/i"
+    "sourceIndex": 762,
+    "hasDetail": true,
+    "detailPath": "/details/762.json",
+    "routePath": "/courses/2026/fall/B944-01"
   },
   {
     "id": "2026:spring:K001-01:0:763",
@@ -15328,7 +17621,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "機械工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K001-01",
-    "routePath": "/courses/2026/spring/K001-01/course-1932gyd"
+    "sourceIndex": 763,
+    "hasDetail": true,
+    "detailPath": "/details/763.json",
+    "routePath": "/courses/2026/spring/K001-01"
   },
   {
     "id": "2026:spring:K002-01:0:764",
@@ -15348,7 +17644,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "機械工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K002-01",
-    "routePath": "/courses/2026/spring/K002-01/i"
+    "sourceIndex": 764,
+    "hasDetail": true,
+    "detailPath": "/details/764.json",
+    "routePath": "/courses/2026/spring/K002-01"
   },
   {
     "id": "2026:spring:K003-01:0:765",
@@ -15368,7 +17667,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "機械工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K003-01",
-    "routePath": "/courses/2026/spring/K003-01/course-y61j0w"
+    "sourceIndex": 765,
+    "hasDetail": true,
+    "detailPath": "/details/765.json",
+    "routePath": "/courses/2026/spring/K003-01"
   },
   {
     "id": "2026:spring:K004-01:0:766",
@@ -15388,7 +17690,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "機械工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K004-01",
-    "routePath": "/courses/2026/spring/K004-01/i"
+    "sourceIndex": 766,
+    "hasDetail": true,
+    "detailPath": "/details/766.json",
+    "routePath": "/courses/2026/spring/K004-01"
   },
   {
     "id": "2026:spring:K005-01:0:767",
@@ -15408,7 +17713,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "機械工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K005-01",
-    "routePath": "/courses/2026/spring/K005-01/course-1b6rbln"
+    "sourceIndex": 767,
+    "hasDetail": true,
+    "detailPath": "/details/767.json",
+    "routePath": "/courses/2026/spring/K005-01"
   },
   {
     "id": "2026:fall:K006-01:0:768",
@@ -15428,7 +17736,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "機械工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K006-01",
-    "routePath": "/courses/2026/fall/K006-01/ii"
+    "sourceIndex": 768,
+    "hasDetail": true,
+    "detailPath": "/details/768.json",
+    "routePath": "/courses/2026/fall/K006-01"
   },
   {
     "id": "2026:fall:K007-01:0:769",
@@ -15448,7 +17759,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "機械工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K007-01",
-    "routePath": "/courses/2026/fall/K007-01/ii"
+    "sourceIndex": 769,
+    "hasDetail": true,
+    "detailPath": "/details/769.json",
+    "routePath": "/courses/2026/fall/K007-01"
   },
   {
     "id": "2026:spring:K008-01:0:770",
@@ -15468,7 +17782,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "機械工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K008-01",
-    "routePath": "/courses/2026/spring/K008-01/i"
+    "sourceIndex": 770,
+    "hasDetail": true,
+    "detailPath": "/details/770.json",
+    "routePath": "/courses/2026/spring/K008-01"
   },
   {
     "id": "2026:spring:K009-01:0:771",
@@ -15488,7 +17805,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "機械工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K009-01",
-    "routePath": "/courses/2026/spring/K009-01/i"
+    "sourceIndex": 771,
+    "hasDetail": true,
+    "detailPath": "/details/771.json",
+    "routePath": "/courses/2026/spring/K009-01"
   },
   {
     "id": "2026:spring:K010-01:0:772",
@@ -15508,7 +17828,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "機械工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K010-01",
-    "routePath": "/courses/2026/spring/K010-01/i"
+    "sourceIndex": 772,
+    "hasDetail": true,
+    "detailPath": "/details/772.json",
+    "routePath": "/courses/2026/spring/K010-01"
   },
   {
     "id": "2026:spring:K011-01:0:773",
@@ -15528,7 +17851,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "機械工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K011-01",
-    "routePath": "/courses/2026/spring/K011-01/i"
+    "sourceIndex": 773,
+    "hasDetail": true,
+    "detailPath": "/details/773.json",
+    "routePath": "/courses/2026/spring/K011-01"
   },
   {
     "id": "2026:spring:K012-01:0:774",
@@ -15548,7 +17874,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "機械工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K012-01",
-    "routePath": "/courses/2026/spring/K012-01/course-1qw471e"
+    "sourceIndex": 774,
+    "hasDetail": true,
+    "detailPath": "/details/774.json",
+    "routePath": "/courses/2026/spring/K012-01"
   },
   {
     "id": "2026:spring:K013-01:0:775",
@@ -15568,7 +17897,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "機械工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K013-01",
-    "routePath": "/courses/2026/spring/K013-01/course-mdjy6o"
+    "sourceIndex": 775,
+    "hasDetail": true,
+    "detailPath": "/details/775.json",
+    "routePath": "/courses/2026/spring/K013-01"
   },
   {
     "id": "2026:fall:K014-01:0:776",
@@ -15588,7 +17920,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "機械工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K014-01",
-    "routePath": "/courses/2026/fall/K014-01/ii"
+    "sourceIndex": 776,
+    "hasDetail": true,
+    "detailPath": "/details/776.json",
+    "routePath": "/courses/2026/fall/K014-01"
   },
   {
     "id": "2026:fall:K015-01:0:777",
@@ -15608,7 +17943,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "機械工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K015-01",
-    "routePath": "/courses/2026/fall/K015-01/i"
+    "sourceIndex": 777,
+    "hasDetail": true,
+    "detailPath": "/details/777.json",
+    "routePath": "/courses/2026/fall/K015-01"
   },
   {
     "id": "2026:fall:K016-01:0:778",
@@ -15628,7 +17966,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "機械工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K016-01",
-    "routePath": "/courses/2026/fall/K016-01/course-1h0qbme"
+    "sourceIndex": 778,
+    "hasDetail": true,
+    "detailPath": "/details/778.json",
+    "routePath": "/courses/2026/fall/K016-01"
   },
   {
     "id": "2026:fall:K017-01:0:779",
@@ -15648,7 +17989,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "機械工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K017-01",
-    "routePath": "/courses/2026/fall/K017-01/ii"
+    "sourceIndex": 779,
+    "hasDetail": true,
+    "detailPath": "/details/779.json",
+    "routePath": "/courses/2026/fall/K017-01"
   },
   {
     "id": "2026:fall:K018-01:0:780",
@@ -15668,7 +18012,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "機械工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K018-01",
-    "routePath": "/courses/2026/fall/K018-01/ii"
+    "sourceIndex": 780,
+    "hasDetail": true,
+    "detailPath": "/details/780.json",
+    "routePath": "/courses/2026/fall/K018-01"
   },
   {
     "id": "2026:fall:K019-01:0:781",
@@ -15688,7 +18035,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "機械工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K019-01",
-    "routePath": "/courses/2026/fall/K019-01/course-1l9bi2r"
+    "sourceIndex": 781,
+    "hasDetail": true,
+    "detailPath": "/details/781.json",
+    "routePath": "/courses/2026/fall/K019-01"
   },
   {
     "id": "2026:fall:K020-01:0:782",
@@ -15708,7 +18058,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "機械工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K020-01",
-    "routePath": "/courses/2026/fall/K020-01/course-1jjk3lq"
+    "sourceIndex": 782,
+    "hasDetail": true,
+    "detailPath": "/details/782.json",
+    "routePath": "/courses/2026/fall/K020-01"
   },
   {
     "id": "2026:fall:K021-01:0:783",
@@ -15728,7 +18081,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "機械工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K021-01",
-    "routePath": "/courses/2026/fall/K021-01/course-va5n83"
+    "sourceIndex": 783,
+    "hasDetail": true,
+    "detailPath": "/details/783.json",
+    "routePath": "/courses/2026/fall/K021-01"
   },
   {
     "id": "2026:spring:K101-01:0:784",
@@ -15748,7 +18104,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "先進機械システム工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K101-01",
-    "routePath": "/courses/2026/spring/K101-01/course-1notvnq"
+    "sourceIndex": 784,
+    "hasDetail": true,
+    "detailPath": "/details/784.json",
+    "routePath": "/courses/2026/spring/K101-01"
   },
   {
     "id": "2026:spring:K102-01:0:785",
@@ -15768,7 +18127,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "先進機械システム工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K102-01",
-    "routePath": "/courses/2026/spring/K102-01/i"
+    "sourceIndex": 785,
+    "hasDetail": true,
+    "detailPath": "/details/785.json",
+    "routePath": "/courses/2026/spring/K102-01"
   },
   {
     "id": "2026:spring:K103-01:0:786",
@@ -15788,7 +18150,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "先進機械システム工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K103-01",
-    "routePath": "/courses/2026/spring/K103-01/course-y61j0w"
+    "sourceIndex": 786,
+    "hasDetail": true,
+    "detailPath": "/details/786.json",
+    "routePath": "/courses/2026/spring/K103-01"
   },
   {
     "id": "2026:spring:K104-01:0:787",
@@ -15808,7 +18173,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "先進機械システム工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K104-01",
-    "routePath": "/courses/2026/spring/K104-01/i"
+    "sourceIndex": 787,
+    "hasDetail": true,
+    "detailPath": "/details/787.json",
+    "routePath": "/courses/2026/spring/K104-01"
   },
   {
     "id": "2026:spring:K105-01:0:788",
@@ -15828,7 +18196,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "先進機械システム工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K105-01",
-    "routePath": "/courses/2026/spring/K105-01/course-1b6rbln"
+    "sourceIndex": 788,
+    "hasDetail": true,
+    "detailPath": "/details/788.json",
+    "routePath": "/courses/2026/spring/K105-01"
   },
   {
     "id": "2026:fall:K106-01:0:789",
@@ -15848,7 +18219,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "先進機械システム工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K106-01",
-    "routePath": "/courses/2026/fall/K106-01/ii"
+    "sourceIndex": 789,
+    "hasDetail": true,
+    "detailPath": "/details/789.json",
+    "routePath": "/courses/2026/fall/K106-01"
   },
   {
     "id": "2026:fall:K107-01:0:790",
@@ -15868,7 +18242,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "先進機械システム工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K107-01",
-    "routePath": "/courses/2026/fall/K107-01/ii"
+    "sourceIndex": 790,
+    "hasDetail": true,
+    "detailPath": "/details/790.json",
+    "routePath": "/courses/2026/fall/K107-01"
   },
   {
     "id": "2026:spring:K108-01:0:791",
@@ -15888,7 +18265,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "先進機械システム工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K108-01",
-    "routePath": "/courses/2026/spring/K108-01/i"
+    "sourceIndex": 791,
+    "hasDetail": true,
+    "detailPath": "/details/791.json",
+    "routePath": "/courses/2026/spring/K108-01"
   },
   {
     "id": "2026:spring:K109-01:0:792",
@@ -15908,7 +18288,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "先進機械システム工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K109-01",
-    "routePath": "/courses/2026/spring/K109-01/i"
+    "sourceIndex": 792,
+    "hasDetail": true,
+    "detailPath": "/details/792.json",
+    "routePath": "/courses/2026/spring/K109-01"
   },
   {
     "id": "2026:spring:K110-01:0:793",
@@ -15928,7 +18311,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "先進機械システム工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K110-01",
-    "routePath": "/courses/2026/spring/K110-01/course-hnh9lk"
+    "sourceIndex": 793,
+    "hasDetail": true,
+    "detailPath": "/details/793.json",
+    "routePath": "/courses/2026/spring/K110-01"
   },
   {
     "id": "2026:spring:K111-01:0:794",
@@ -15948,7 +18334,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "先進機械システム工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K111-01",
-    "routePath": "/courses/2026/spring/K111-01/course-1saa37z"
+    "sourceIndex": 794,
+    "hasDetail": true,
+    "detailPath": "/details/794.json",
+    "routePath": "/courses/2026/spring/K111-01"
   },
   {
     "id": "2026:spring:K112-01:0:795",
@@ -15968,7 +18357,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "先進機械システム工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K112-01",
-    "routePath": "/courses/2026/spring/K112-01/i"
+    "sourceIndex": 795,
+    "hasDetail": true,
+    "detailPath": "/details/795.json",
+    "routePath": "/courses/2026/spring/K112-01"
   },
   {
     "id": "2026:spring:K113-01:0:796",
@@ -15988,7 +18380,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "先進機械システム工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K113-01",
-    "routePath": "/courses/2026/spring/K113-01/course-mdjy6o"
+    "sourceIndex": 796,
+    "hasDetail": true,
+    "detailPath": "/details/796.json",
+    "routePath": "/courses/2026/spring/K113-01"
   },
   {
     "id": "2026:fall:K114-01:0:797",
@@ -16008,7 +18403,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "先進機械システム工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K114-01",
-    "routePath": "/courses/2026/fall/K114-01/course-jwb5m5"
+    "sourceIndex": 797,
+    "hasDetail": true,
+    "detailPath": "/details/797.json",
+    "routePath": "/courses/2026/fall/K114-01"
   },
   {
     "id": "2026:fall:K115-01:0:798",
@@ -16028,7 +18426,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "先進機械システム工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K115-01",
-    "routePath": "/courses/2026/fall/K115-01/course-1h0qbme"
+    "sourceIndex": 798,
+    "hasDetail": true,
+    "detailPath": "/details/798.json",
+    "routePath": "/courses/2026/fall/K115-01"
   },
   {
     "id": "2026:fall:K116-01:0:799",
@@ -16048,7 +18449,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "先進機械システム工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K116-01",
-    "routePath": "/courses/2026/fall/K116-01/ii"
+    "sourceIndex": 799,
+    "hasDetail": true,
+    "detailPath": "/details/799.json",
+    "routePath": "/courses/2026/fall/K116-01"
   },
   {
     "id": "2026:fall:K117-01:0:800",
@@ -16068,7 +18472,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "先進機械システム工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K117-01",
-    "routePath": "/courses/2026/fall/K117-01/course-va5n83"
+    "sourceIndex": 800,
+    "hasDetail": true,
+    "detailPath": "/details/800.json",
+    "routePath": "/courses/2026/fall/K117-01"
   },
   {
     "id": "2026:fall:K118-01:0:801",
@@ -16088,7 +18495,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "先進機械システム工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K118-01",
-    "routePath": "/courses/2026/fall/K118-01/course-7dp972"
+    "sourceIndex": 801,
+    "hasDetail": true,
+    "detailPath": "/details/801.json",
+    "routePath": "/courses/2026/fall/K118-01"
   },
   {
     "id": "2026:fall:K119-01:0:802",
@@ -16108,7 +18518,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "先進機械システム工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K119-01",
-    "routePath": "/courses/2026/fall/K119-01/ii"
+    "sourceIndex": 802,
+    "hasDetail": true,
+    "detailPath": "/details/802.json",
+    "routePath": "/courses/2026/fall/K119-01"
   },
   {
     "id": "2026:fall:K120-01:0:803",
@@ -16128,7 +18541,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "先進機械システム工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K120-01",
-    "routePath": "/courses/2026/fall/K120-01/ii"
+    "sourceIndex": 803,
+    "hasDetail": true,
+    "detailPath": "/details/803.json",
+    "routePath": "/courses/2026/fall/K120-01"
   },
   {
     "id": "2026:fall:K121-01:0:804",
@@ -16148,7 +18564,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "先進機械システム工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K121-01",
-    "routePath": "/courses/2026/fall/K121-01/course-137o3x0"
+    "sourceIndex": 804,
+    "hasDetail": true,
+    "detailPath": "/details/804.json",
+    "routePath": "/courses/2026/fall/K121-01"
   },
   {
     "id": "2026:spring:K201-01:0:805",
@@ -16168,7 +18587,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "航空宇宙工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K201-01",
-    "routePath": "/courses/2026/spring/K201-01/course-1537mv5"
+    "sourceIndex": 805,
+    "hasDetail": true,
+    "detailPath": "/details/805.json",
+    "routePath": "/courses/2026/spring/K201-01"
   },
   {
     "id": "2026:spring:K202-01:0:806",
@@ -16188,7 +18610,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "航空宇宙工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K202-01",
-    "routePath": "/courses/2026/spring/K202-01/i"
+    "sourceIndex": 806,
+    "hasDetail": true,
+    "detailPath": "/details/806.json",
+    "routePath": "/courses/2026/spring/K202-01"
   },
   {
     "id": "2026:spring:K203-01:0:807",
@@ -16208,7 +18633,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "航空宇宙工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K203-01",
-    "routePath": "/courses/2026/spring/K203-01/course-rtj9ch"
+    "sourceIndex": 807,
+    "hasDetail": true,
+    "detailPath": "/details/807.json",
+    "routePath": "/courses/2026/spring/K203-01"
   },
   {
     "id": "2026:spring:K204-01:0:808",
@@ -16228,7 +18656,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "航空宇宙工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K204-01",
-    "routePath": "/courses/2026/spring/K204-01/i"
+    "sourceIndex": 808,
+    "hasDetail": true,
+    "detailPath": "/details/808.json",
+    "routePath": "/courses/2026/spring/K204-01"
   },
   {
     "id": "2026:fall:K205-01:0:809",
@@ -16248,7 +18679,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "航空宇宙工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K205-01",
-    "routePath": "/courses/2026/fall/K205-01/ii"
+    "sourceIndex": 809,
+    "hasDetail": true,
+    "detailPath": "/details/809.json",
+    "routePath": "/courses/2026/fall/K205-01"
   },
   {
     "id": "2026:fall:K206-01:0:810",
@@ -16268,7 +18702,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "航空宇宙工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K206-01",
-    "routePath": "/courses/2026/fall/K206-01/ii"
+    "sourceIndex": 810,
+    "hasDetail": true,
+    "detailPath": "/details/810.json",
+    "routePath": "/courses/2026/fall/K206-01"
   },
   {
     "id": "2026:fall:K207-01:0:811",
@@ -16288,7 +18725,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "航空宇宙工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K207-01",
-    "routePath": "/courses/2026/fall/K207-01/course-gcnarj"
+    "sourceIndex": 811,
+    "hasDetail": true,
+    "detailPath": "/details/811.json",
+    "routePath": "/courses/2026/fall/K207-01"
   },
   {
     "id": "2026:fall:K208-01:0:812",
@@ -16308,7 +18748,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "航空宇宙工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K208-01",
-    "routePath": "/courses/2026/fall/K208-01/course-up9djc"
+    "sourceIndex": 812,
+    "hasDetail": true,
+    "detailPath": "/details/812.json",
+    "routePath": "/courses/2026/fall/K208-01"
   },
   {
     "id": "2026:spring:K209-01:0:813",
@@ -16328,7 +18771,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "航空宇宙工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K209-01",
-    "routePath": "/courses/2026/spring/K209-01/course-1saa37z"
+    "sourceIndex": 813,
+    "hasDetail": true,
+    "detailPath": "/details/813.json",
+    "routePath": "/courses/2026/spring/K209-01"
   },
   {
     "id": "2026:spring:K210-01:0:814",
@@ -16348,7 +18794,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "航空宇宙工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K210-01",
-    "routePath": "/courses/2026/spring/K210-01/course-1dcnvfr"
+    "sourceIndex": 814,
+    "hasDetail": true,
+    "detailPath": "/details/814.json",
+    "routePath": "/courses/2026/spring/K210-01"
   },
   {
     "id": "2026:spring:K211-01:0:815",
@@ -16368,7 +18817,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "航空宇宙工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K211-01",
-    "routePath": "/courses/2026/spring/K211-01/course-1m2e9kq"
+    "sourceIndex": 815,
+    "hasDetail": true,
+    "detailPath": "/details/815.json",
+    "routePath": "/courses/2026/spring/K211-01"
   },
   {
     "id": "2026:spring:K212-01:0:816",
@@ -16388,7 +18840,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "航空宇宙工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K212-01",
-    "routePath": "/courses/2026/spring/K212-01/i"
+    "sourceIndex": 816,
+    "hasDetail": true,
+    "detailPath": "/details/816.json",
+    "routePath": "/courses/2026/spring/K212-01"
   },
   {
     "id": "2026:spring:K213-01:0:817",
@@ -16408,7 +18863,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "航空宇宙工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K213-01",
-    "routePath": "/courses/2026/spring/K213-01/i"
+    "sourceIndex": 817,
+    "hasDetail": true,
+    "detailPath": "/details/817.json",
+    "routePath": "/courses/2026/spring/K213-01"
   },
   {
     "id": "2026:fall:K214-01:0:818",
@@ -16428,7 +18886,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "航空宇宙工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K214-01",
-    "routePath": "/courses/2026/fall/K214-01/course-ljwh7z"
+    "sourceIndex": 818,
+    "hasDetail": true,
+    "detailPath": "/details/818.json",
+    "routePath": "/courses/2026/fall/K214-01"
   },
   {
     "id": "2026:fall:K215-01:0:819",
@@ -16448,7 +18909,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "航空宇宙工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K215-01",
-    "routePath": "/courses/2026/fall/K215-01/i"
+    "sourceIndex": 819,
+    "hasDetail": true,
+    "detailPath": "/details/819.json",
+    "routePath": "/courses/2026/fall/K215-01"
   },
   {
     "id": "2026:fall:K216-01:0:820",
@@ -16468,7 +18932,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "航空宇宙工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K216-01",
-    "routePath": "/courses/2026/fall/K216-01/i"
+    "sourceIndex": 820,
+    "hasDetail": true,
+    "detailPath": "/details/820.json",
+    "routePath": "/courses/2026/fall/K216-01"
   },
   {
     "id": "2026:fall:K217-01:0:821",
@@ -16488,7 +18955,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "航空宇宙工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K217-01",
-    "routePath": "/courses/2026/fall/K217-01/ii"
+    "sourceIndex": 821,
+    "hasDetail": true,
+    "detailPath": "/details/821.json",
+    "routePath": "/courses/2026/fall/K217-01"
   },
   {
     "id": "2026:fall:K218-01:0:822",
@@ -16508,7 +18978,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "航空宇宙工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K218-01",
-    "routePath": "/courses/2026/fall/K218-01/ii"
+    "sourceIndex": 822,
+    "hasDetail": true,
+    "detailPath": "/details/822.json",
+    "routePath": "/courses/2026/fall/K218-01"
   },
   {
     "id": "2026:fall:K219-01:0:823",
@@ -16528,7 +19001,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "航空宇宙工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K219-01",
-    "routePath": "/courses/2026/fall/K219-01/course-7dp972"
+    "sourceIndex": 823,
+    "hasDetail": true,
+    "detailPath": "/details/823.json",
+    "routePath": "/courses/2026/fall/K219-01"
   },
   {
     "id": "2026:spring:K301-01:0:824",
@@ -16548,7 +19024,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "電気エネルギーシステム工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K301-01",
-    "routePath": "/courses/2026/spring/K301-01/i"
+    "sourceIndex": 824,
+    "hasDetail": true,
+    "detailPath": "/details/824.json",
+    "routePath": "/courses/2026/spring/K301-01"
   },
   {
     "id": "2026:spring:K302-01:0:825",
@@ -16568,7 +19047,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "電気エネルギーシステム工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K302-01",
-    "routePath": "/courses/2026/spring/K302-01/ii"
+    "sourceIndex": 825,
+    "hasDetail": true,
+    "detailPath": "/details/825.json",
+    "routePath": "/courses/2026/spring/K302-01"
   },
   {
     "id": "2026:spring:K303-01:0:826",
@@ -16588,7 +19070,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "電気エネルギーシステム工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K303-01",
-    "routePath": "/courses/2026/spring/K303-01/course-1nmwxms"
+    "sourceIndex": 826,
+    "hasDetail": true,
+    "detailPath": "/details/826.json",
+    "routePath": "/courses/2026/spring/K303-01"
   },
   {
     "id": "2026:spring:K304-01:0:827",
@@ -16608,7 +19093,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "電気エネルギーシステム工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K304-01",
-    "routePath": "/courses/2026/spring/K304-01/i"
+    "sourceIndex": 827,
+    "hasDetail": true,
+    "detailPath": "/details/827.json",
+    "routePath": "/courses/2026/spring/K304-01"
   },
   {
     "id": "2026:fall:K304-01:0:828",
@@ -16628,7 +19116,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "電気エネルギーシステム工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K304-01",
-    "routePath": "/courses/2026/fall/K304-01/i"
+    "sourceIndex": 828,
+    "hasDetail": true,
+    "detailPath": "/details/828.json",
+    "routePath": "/courses/2026/fall/K304-01"
   },
   {
     "id": "2026:spring:K305-01:0:829",
@@ -16648,7 +19139,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "電気エネルギーシステム工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K305-01",
-    "routePath": "/courses/2026/spring/K305-01/ii"
+    "sourceIndex": 829,
+    "hasDetail": true,
+    "detailPath": "/details/829.json",
+    "routePath": "/courses/2026/spring/K305-01"
   },
   {
     "id": "2026:fall:K305-01:0:830",
@@ -16668,7 +19162,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "電気エネルギーシステム工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K305-01",
-    "routePath": "/courses/2026/fall/K305-01/ii"
+    "sourceIndex": 830,
+    "hasDetail": true,
+    "detailPath": "/details/830.json",
+    "routePath": "/courses/2026/fall/K305-01"
   },
   {
     "id": "2026:fall:K306-01:0:831",
@@ -16688,7 +19185,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "電気エネルギーシステム工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K306-01",
-    "routePath": "/courses/2026/fall/K306-01/i"
+    "sourceIndex": 831,
+    "hasDetail": true,
+    "detailPath": "/details/831.json",
+    "routePath": "/courses/2026/fall/K306-01"
   },
   {
     "id": "2026:spring:K307-01:0:832",
@@ -16708,7 +19208,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "電気エネルギーシステム工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K307-01",
-    "routePath": "/courses/2026/spring/K307-01/course-z22rl5"
+    "sourceIndex": 832,
+    "hasDetail": true,
+    "detailPath": "/details/832.json",
+    "routePath": "/courses/2026/spring/K307-01"
   },
   {
     "id": "2026:fall:K307-01:0:833",
@@ -16728,7 +19231,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "電気エネルギーシステム工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K307-01",
-    "routePath": "/courses/2026/fall/K307-01/course-153two5"
+    "sourceIndex": 833,
+    "hasDetail": true,
+    "detailPath": "/details/833.json",
+    "routePath": "/courses/2026/fall/K307-01"
   },
   {
     "id": "2026:spring:K302-02:0:834",
@@ -16748,7 +19254,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "電気エネルギーシステム工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K302-02",
-    "routePath": "/courses/2026/spring/K302-02/ii"
+    "sourceIndex": 834,
+    "hasDetail": true,
+    "detailPath": "/details/834.json",
+    "routePath": "/courses/2026/spring/K302-02"
   },
   {
     "id": "2026:spring:K308-01:0:835",
@@ -16768,7 +19277,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "電気エネルギーシステム工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K308-01",
-    "routePath": "/courses/2026/spring/K308-01/course-1eq7uko"
+    "sourceIndex": 835,
+    "hasDetail": true,
+    "detailPath": "/details/835.json",
+    "routePath": "/courses/2026/spring/K308-01"
   },
   {
     "id": "2026:spring:K309-01:0:836",
@@ -16788,7 +19300,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "電気エネルギーシステム工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K309-01",
-    "routePath": "/courses/2026/spring/K309-01/iii"
+    "sourceIndex": 836,
+    "hasDetail": true,
+    "detailPath": "/details/836.json",
+    "routePath": "/courses/2026/spring/K309-01"
   },
   {
     "id": "2026:spring:K310-01:0:837",
@@ -16808,7 +19323,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "電気エネルギーシステム工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K310-01",
-    "routePath": "/courses/2026/spring/K310-01/ii"
+    "sourceIndex": 837,
+    "hasDetail": true,
+    "detailPath": "/details/837.json",
+    "routePath": "/courses/2026/spring/K310-01"
   },
   {
     "id": "2026:spring:K311-01:0:838",
@@ -16828,7 +19346,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "電気エネルギーシステム工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K311-01",
-    "routePath": "/courses/2026/spring/K311-01/i"
+    "sourceIndex": 838,
+    "hasDetail": true,
+    "detailPath": "/details/838.json",
+    "routePath": "/courses/2026/spring/K311-01"
   },
   {
     "id": "2026:spring:K312-01:0:839",
@@ -16848,7 +19369,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "電気エネルギーシステム工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K312-01",
-    "routePath": "/courses/2026/spring/K312-01/course-136a7bv"
+    "sourceIndex": 839,
+    "hasDetail": true,
+    "detailPath": "/details/839.json",
+    "routePath": "/courses/2026/spring/K312-01"
   },
   {
     "id": "2026:fall:K313-01:0:840",
@@ -16868,7 +19392,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "電気エネルギーシステム工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K313-01",
-    "routePath": "/courses/2026/fall/K313-01/course-1auged"
+    "sourceIndex": 840,
+    "hasDetail": true,
+    "detailPath": "/details/840.json",
+    "routePath": "/courses/2026/fall/K313-01"
   },
   {
     "id": "2026:fall:K314-01:0:841",
@@ -16888,7 +19415,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "電気エネルギーシステム工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K314-01",
-    "routePath": "/courses/2026/fall/K314-01/course-133qwyb"
+    "sourceIndex": 841,
+    "hasDetail": true,
+    "detailPath": "/details/841.json",
+    "routePath": "/courses/2026/fall/K314-01"
   },
   {
     "id": "2026:fall:K315-01:0:842",
@@ -16908,7 +19438,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "電気エネルギーシステム工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K315-01",
-    "routePath": "/courses/2026/fall/K315-01/course-14xnrjo"
+    "sourceIndex": 842,
+    "hasDetail": true,
+    "detailPath": "/details/842.json",
+    "routePath": "/courses/2026/fall/K315-01"
   },
   {
     "id": "2026:fall:K316-01:0:843",
@@ -16928,7 +19461,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "電気エネルギーシステム工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K316-01",
-    "routePath": "/courses/2026/fall/K316-01/course-vm5z13"
+    "sourceIndex": 843,
+    "hasDetail": true,
+    "detailPath": "/details/843.json",
+    "routePath": "/courses/2026/fall/K316-01"
   },
   {
     "id": "2026:fall:K317-01:0:844",
@@ -16948,7 +19484,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "電気エネルギーシステム工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K317-01",
-    "routePath": "/courses/2026/fall/K317-01/iii"
+    "sourceIndex": 844,
+    "hasDetail": true,
+    "detailPath": "/details/844.json",
+    "routePath": "/courses/2026/fall/K317-01"
   },
   {
     "id": "2026:fall:K318-01:0:845",
@@ -16968,7 +19507,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "電気エネルギーシステム工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K318-01",
-    "routePath": "/courses/2026/fall/K318-01/course-1k9xv33"
+    "sourceIndex": 845,
+    "hasDetail": true,
+    "detailPath": "/details/845.json",
+    "routePath": "/courses/2026/fall/K318-01"
   },
   {
     "id": "2026:fall:K319-01:0:846",
@@ -16988,7 +19530,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "電気エネルギーシステム工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K319-01",
-    "routePath": "/courses/2026/fall/K319-01/course-1k2osyn"
+    "sourceIndex": 846,
+    "hasDetail": true,
+    "detailPath": "/details/846.json",
+    "routePath": "/courses/2026/fall/K319-01"
   },
   {
     "id": "2026:fall:K320-01:0:847",
@@ -17008,7 +19553,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "電気エネルギーシステム工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K320-01",
-    "routePath": "/courses/2026/fall/K320-01/ii"
+    "sourceIndex": 847,
+    "hasDetail": true,
+    "detailPath": "/details/847.json",
+    "routePath": "/courses/2026/fall/K320-01"
   },
   {
     "id": "2026:fall:K321-01:0:848",
@@ -17028,7 +19576,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "電気エネルギーシステム工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K321-01",
-    "routePath": "/courses/2026/fall/K321-01/course-v1v36x"
+    "sourceIndex": 848,
+    "hasDetail": true,
+    "detailPath": "/details/848.json",
+    "routePath": "/courses/2026/fall/K321-01"
   },
   {
     "id": "2026:spring:K402-02:0:849",
@@ -17048,7 +19599,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "電子情報システム工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K402-02",
-    "routePath": "/courses/2026/spring/K402-02/ii"
+    "sourceIndex": 849,
+    "hasDetail": true,
+    "detailPath": "/details/849.json",
+    "routePath": "/courses/2026/spring/K402-02"
   },
   {
     "id": "2026:spring:K408-01:0:850",
@@ -17068,7 +19622,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "電子情報システム工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K408-01",
-    "routePath": "/courses/2026/spring/K408-01/course-1eq7uko"
+    "sourceIndex": 850,
+    "hasDetail": true,
+    "detailPath": "/details/850.json",
+    "routePath": "/courses/2026/spring/K408-01"
   },
   {
     "id": "2026:spring:K409-01:0:851",
@@ -17088,7 +19645,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "電子情報システム工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K409-01",
-    "routePath": "/courses/2026/spring/K409-01/iii"
+    "sourceIndex": 851,
+    "hasDetail": true,
+    "detailPath": "/details/851.json",
+    "routePath": "/courses/2026/spring/K409-01"
   },
   {
     "id": "2026:spring:K410-01:0:852",
@@ -17108,7 +19668,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "電子情報システム工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K410-01",
-    "routePath": "/courses/2026/spring/K410-01/ii"
+    "sourceIndex": 852,
+    "hasDetail": true,
+    "detailPath": "/details/852.json",
+    "routePath": "/courses/2026/spring/K410-01"
   },
   {
     "id": "2026:spring:K411-01:0:853",
@@ -17128,7 +19691,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "電子情報システム工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K411-01",
-    "routePath": "/courses/2026/spring/K411-01/i"
+    "sourceIndex": 853,
+    "hasDetail": true,
+    "detailPath": "/details/853.json",
+    "routePath": "/courses/2026/spring/K411-01"
   },
   {
     "id": "2026:spring:K412-01:0:854",
@@ -17148,7 +19714,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "電子情報システム工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K412-01",
-    "routePath": "/courses/2026/spring/K412-01/course-136a7bv"
+    "sourceIndex": 854,
+    "hasDetail": true,
+    "detailPath": "/details/854.json",
+    "routePath": "/courses/2026/spring/K412-01"
   },
   {
     "id": "2026:fall:K413-01:0:855",
@@ -17168,7 +19737,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "電子情報システム工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K413-01",
-    "routePath": "/courses/2026/fall/K413-01/course-1auged"
+    "sourceIndex": 855,
+    "hasDetail": true,
+    "detailPath": "/details/855.json",
+    "routePath": "/courses/2026/fall/K413-01"
   },
   {
     "id": "2026:fall:K414-01:0:856",
@@ -17188,7 +19760,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "電子情報システム工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K414-01",
-    "routePath": "/courses/2026/fall/K414-01/course-ls65nu"
+    "sourceIndex": 856,
+    "hasDetail": true,
+    "detailPath": "/details/856.json",
+    "routePath": "/courses/2026/fall/K414-01"
   },
   {
     "id": "2026:fall:K415-01:0:857",
@@ -17208,7 +19783,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "電子情報システム工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K415-01",
-    "routePath": "/courses/2026/fall/K415-01/course-v1v36x"
+    "sourceIndex": 857,
+    "hasDetail": true,
+    "detailPath": "/details/857.json",
+    "routePath": "/courses/2026/fall/K415-01"
   },
   {
     "id": "2026:fall:K416-01:0:858",
@@ -17228,7 +19806,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "電子情報システム工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K416-01",
-    "routePath": "/courses/2026/fall/K416-01/course-1gd6l5s"
+    "sourceIndex": 858,
+    "hasDetail": true,
+    "detailPath": "/details/858.json",
+    "routePath": "/courses/2026/fall/K416-01"
   },
   {
     "id": "2026:fall:K417-01:0:859",
@@ -17248,7 +19829,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "電子情報システム工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K417-01",
-    "routePath": "/courses/2026/fall/K417-01/course-bffuv9"
+    "sourceIndex": 859,
+    "hasDetail": true,
+    "detailPath": "/details/859.json",
+    "routePath": "/courses/2026/fall/K417-01"
   },
   {
     "id": "2026:fall:K418-01:0:860",
@@ -17268,7 +19852,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "電子情報システム工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K418-01",
-    "routePath": "/courses/2026/fall/K418-01/course-1k2osyn"
+    "sourceIndex": 860,
+    "hasDetail": true,
+    "detailPath": "/details/860.json",
+    "routePath": "/courses/2026/fall/K418-01"
   },
   {
     "id": "2026:fall:K419-01:0:861",
@@ -17288,7 +19875,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "電子情報システム工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K419-01",
-    "routePath": "/courses/2026/fall/K419-01/ii"
+    "sourceIndex": 861,
+    "hasDetail": true,
+    "detailPath": "/details/861.json",
+    "routePath": "/courses/2026/fall/K419-01"
   },
   {
     "id": "2026:fall:K420-01:0:862",
@@ -17308,7 +19898,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "電子情報システム工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K420-01",
-    "routePath": "/courses/2026/fall/K420-01/iii"
+    "sourceIndex": 862,
+    "hasDetail": true,
+    "detailPath": "/details/862.json",
+    "routePath": "/courses/2026/fall/K420-01"
   },
   {
     "id": "2026:fall:K421-01:0:863",
@@ -17328,7 +19921,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "電子情報システム工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K421-01",
-    "routePath": "/courses/2026/fall/K421-01/course-3pi0kz"
+    "sourceIndex": 863,
+    "hasDetail": true,
+    "detailPath": "/details/863.json",
+    "routePath": "/courses/2026/fall/K421-01"
   },
   {
     "id": "2026:spring:K401-01:0:864",
@@ -17348,7 +19944,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "電子情報システム工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K401-01",
-    "routePath": "/courses/2026/spring/K401-01/i"
+    "sourceIndex": 864,
+    "hasDetail": true,
+    "detailPath": "/details/864.json",
+    "routePath": "/courses/2026/spring/K401-01"
   },
   {
     "id": "2026:spring:K402-01:0:865",
@@ -17368,7 +19967,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "電子情報システム工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K402-01",
-    "routePath": "/courses/2026/spring/K402-01/ii"
+    "sourceIndex": 865,
+    "hasDetail": true,
+    "detailPath": "/details/865.json",
+    "routePath": "/courses/2026/spring/K402-01"
   },
   {
     "id": "2026:spring:K403-01:0:866",
@@ -17388,7 +19990,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "電子情報システム工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K403-01",
-    "routePath": "/courses/2026/spring/K403-01/course-1nmwxms"
+    "sourceIndex": 866,
+    "hasDetail": true,
+    "detailPath": "/details/866.json",
+    "routePath": "/courses/2026/spring/K403-01"
   },
   {
     "id": "2026:spring:K404-01:0:867",
@@ -17408,7 +20013,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "電子情報システム工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K404-01",
-    "routePath": "/courses/2026/spring/K404-01/i"
+    "sourceIndex": 867,
+    "hasDetail": true,
+    "detailPath": "/details/867.json",
+    "routePath": "/courses/2026/spring/K404-01"
   },
   {
     "id": "2026:fall:K404-01:0:868",
@@ -17428,7 +20036,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "電子情報システム工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K404-01",
-    "routePath": "/courses/2026/fall/K404-01/i"
+    "sourceIndex": 868,
+    "hasDetail": true,
+    "detailPath": "/details/868.json",
+    "routePath": "/courses/2026/fall/K404-01"
   },
   {
     "id": "2026:spring:K405-01:0:869",
@@ -17448,7 +20059,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "電子情報システム工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K405-01",
-    "routePath": "/courses/2026/spring/K405-01/ii"
+    "sourceIndex": 869,
+    "hasDetail": true,
+    "detailPath": "/details/869.json",
+    "routePath": "/courses/2026/spring/K405-01"
   },
   {
     "id": "2026:fall:K405-01:0:870",
@@ -17468,7 +20082,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "電子情報システム工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K405-01",
-    "routePath": "/courses/2026/fall/K405-01/ii"
+    "sourceIndex": 870,
+    "hasDetail": true,
+    "detailPath": "/details/870.json",
+    "routePath": "/courses/2026/fall/K405-01"
   },
   {
     "id": "2026:fall:K406-01:0:871",
@@ -17488,7 +20105,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "電子情報システム工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K406-01",
-    "routePath": "/courses/2026/fall/K406-01/i"
+    "sourceIndex": 871,
+    "hasDetail": true,
+    "detailPath": "/details/871.json",
+    "routePath": "/courses/2026/fall/K406-01"
   },
   {
     "id": "2026:spring:K407-01:0:872",
@@ -17508,7 +20128,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "電子情報システム工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K407-01",
-    "routePath": "/courses/2026/spring/K407-01/course-z22rl5"
+    "sourceIndex": 872,
+    "hasDetail": true,
+    "detailPath": "/details/872.json",
+    "routePath": "/courses/2026/spring/K407-01"
   },
   {
     "id": "2026:fall:K407-01:0:873",
@@ -17528,7 +20151,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "電子情報システム工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K407-01",
-    "routePath": "/courses/2026/fall/K407-01/course-153two5"
+    "sourceIndex": 873,
+    "hasDetail": true,
+    "detailPath": "/details/873.json",
+    "routePath": "/courses/2026/fall/K407-01"
   },
   {
     "id": "2026:spring:K501-01:0:874",
@@ -17548,7 +20174,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境土木工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K501-01",
-    "routePath": "/courses/2026/spring/K501-01/course-pzu0ef"
+    "sourceIndex": 874,
+    "hasDetail": true,
+    "detailPath": "/details/874.json",
+    "routePath": "/courses/2026/spring/K501-01"
   },
   {
     "id": "2026:spring:K502-01:0:875",
@@ -17568,7 +20197,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境土木工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K502-01",
-    "routePath": "/courses/2026/spring/K502-01/i"
+    "sourceIndex": 875,
+    "hasDetail": true,
+    "detailPath": "/details/875.json",
+    "routePath": "/courses/2026/spring/K502-01"
   },
   {
     "id": "2026:spring:K503-01:0:876",
@@ -17588,7 +20220,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境土木工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K503-01",
-    "routePath": "/courses/2026/spring/K503-01/i"
+    "sourceIndex": 876,
+    "hasDetail": true,
+    "detailPath": "/details/876.json",
+    "routePath": "/courses/2026/spring/K503-01"
   },
   {
     "id": "2026:spring:K504-01:0:877",
@@ -17608,7 +20243,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境土木工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K504-01",
-    "routePath": "/courses/2026/spring/K504-01/course-1r6c76o"
+    "sourceIndex": 877,
+    "hasDetail": true,
+    "detailPath": "/details/877.json",
+    "routePath": "/courses/2026/spring/K504-01"
   },
   {
     "id": "2026:fall:K505-01:0:878",
@@ -17628,7 +20266,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境土木工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K505-01",
-    "routePath": "/courses/2026/fall/K505-01/i"
+    "sourceIndex": 878,
+    "hasDetail": true,
+    "detailPath": "/details/878.json",
+    "routePath": "/courses/2026/fall/K505-01"
   },
   {
     "id": "2026:fall:K506-01:0:879",
@@ -17648,7 +20289,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境土木工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K506-01",
-    "routePath": "/courses/2026/fall/K506-01/ii"
+    "sourceIndex": 879,
+    "hasDetail": true,
+    "detailPath": "/details/879.json",
+    "routePath": "/courses/2026/fall/K506-01"
   },
   {
     "id": "2026:fall:K507-01:0:880",
@@ -17668,7 +20312,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境土木工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K507-01",
-    "routePath": "/courses/2026/fall/K507-01/course-1mkvlmz"
+    "sourceIndex": 880,
+    "hasDetail": true,
+    "detailPath": "/details/880.json",
+    "routePath": "/courses/2026/fall/K507-01"
   },
   {
     "id": "2026:fall:K508-01:0:881",
@@ -17688,7 +20335,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境土木工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K508-01",
-    "routePath": "/courses/2026/fall/K508-01/ii"
+    "sourceIndex": 881,
+    "hasDetail": true,
+    "detailPath": "/details/881.json",
+    "routePath": "/courses/2026/fall/K508-01"
   },
   {
     "id": "2026:fall:K509-01:0:882",
@@ -17708,7 +20358,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境土木工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K509-01",
-    "routePath": "/courses/2026/fall/K509-01/course-98buyv"
+    "sourceIndex": 882,
+    "hasDetail": true,
+    "detailPath": "/details/882.json",
+    "routePath": "/courses/2026/fall/K509-01"
   },
   {
     "id": "2026:spring:K510-01:0:883",
@@ -17728,7 +20381,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境土木工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K510-01",
-    "routePath": "/courses/2026/spring/K510-01/course-q5w923"
+    "sourceIndex": 883,
+    "hasDetail": true,
+    "detailPath": "/details/883.json",
+    "routePath": "/courses/2026/spring/K510-01"
   },
   {
     "id": "2026:spring:K511-01:0:884",
@@ -17748,7 +20404,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境土木工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K511-01",
-    "routePath": "/courses/2026/spring/K511-01/i"
+    "sourceIndex": 884,
+    "hasDetail": true,
+    "detailPath": "/details/884.json",
+    "routePath": "/courses/2026/spring/K511-01"
   },
   {
     "id": "2026:spring:K512-01:0:885",
@@ -17768,7 +20427,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境土木工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K512-01",
-    "routePath": "/courses/2026/spring/K512-01/i"
+    "sourceIndex": 885,
+    "hasDetail": true,
+    "detailPath": "/details/885.json",
+    "routePath": "/courses/2026/spring/K512-01"
   },
   {
     "id": "2026:spring:K513-01:0:886",
@@ -17788,7 +20450,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境土木工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K513-01",
-    "routePath": "/courses/2026/spring/K513-01/i"
+    "sourceIndex": 886,
+    "hasDetail": true,
+    "detailPath": "/details/886.json",
+    "routePath": "/courses/2026/spring/K513-01"
   },
   {
     "id": "2026:fall:K514-01:0:887",
@@ -17808,7 +20473,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境土木工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K514-01",
-    "routePath": "/courses/2026/fall/K514-01/ii"
+    "sourceIndex": 887,
+    "hasDetail": true,
+    "detailPath": "/details/887.json",
+    "routePath": "/courses/2026/fall/K514-01"
   },
   {
     "id": "2026:fall:K515-01:0:888",
@@ -17828,7 +20496,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境土木工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K515-01",
-    "routePath": "/courses/2026/fall/K515-01/course-odqz6g"
+    "sourceIndex": 888,
+    "hasDetail": true,
+    "detailPath": "/details/888.json",
+    "routePath": "/courses/2026/fall/K515-01"
   },
   {
     "id": "2026:fall:K516-01:0:889",
@@ -17848,7 +20519,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境土木工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K516-01",
-    "routePath": "/courses/2026/fall/K516-01/ii"
+    "sourceIndex": 889,
+    "hasDetail": true,
+    "detailPath": "/details/889.json",
+    "routePath": "/courses/2026/fall/K516-01"
   },
   {
     "id": "2026:fall:K517-01:0:890",
@@ -17868,7 +20542,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境土木工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K517-01",
-    "routePath": "/courses/2026/fall/K517-01/ii"
+    "sourceIndex": 890,
+    "hasDetail": true,
+    "detailPath": "/details/890.json",
+    "routePath": "/courses/2026/fall/K517-01"
   },
   {
     "id": "2026:fall:K946-01:0:891",
@@ -17888,7 +20565,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "環境土木工学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "K946-01",
-    "routePath": "/courses/2026/fall/K946-01/i"
+    "sourceIndex": 891,
+    "hasDetail": true,
+    "detailPath": "/details/891.json",
+    "routePath": "/courses/2026/fall/K946-01"
   },
   {
     "id": "2026:spring:A101-01:0:892",
@@ -17908,7 +20588,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "建築学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "A101-01",
-    "routePath": "/courses/2026/spring/A101-01/course-cq83oi"
+    "sourceIndex": 892,
+    "hasDetail": true,
+    "detailPath": "/details/892.json",
+    "routePath": "/courses/2026/spring/A101-01"
   },
   {
     "id": "2026:spring:A102-01:0:893",
@@ -17928,7 +20611,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "建築学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "A102-01",
-    "routePath": "/courses/2026/spring/A102-01/course-y3fqm9"
+    "sourceIndex": 893,
+    "hasDetail": true,
+    "detailPath": "/details/893.json",
+    "routePath": "/courses/2026/spring/A102-01"
   },
   {
     "id": "2026:spring:A103-01:0:894",
@@ -17948,7 +20634,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "建築学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "A103-01",
-    "routePath": "/courses/2026/spring/A103-01/course-yxeic8"
+    "sourceIndex": 894,
+    "hasDetail": true,
+    "detailPath": "/details/894.json",
+    "routePath": "/courses/2026/spring/A103-01"
   },
   {
     "id": "2026:spring:A104-01:0:895",
@@ -17968,7 +20657,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "建築学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "A104-01",
-    "routePath": "/courses/2026/spring/A104-01/i"
+    "sourceIndex": 895,
+    "hasDetail": true,
+    "detailPath": "/details/895.json",
+    "routePath": "/courses/2026/spring/A104-01"
   },
   {
     "id": "2026:fall:A105-01:0:896",
@@ -17988,7 +20680,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "建築学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "A105-01",
-    "routePath": "/courses/2026/fall/A105-01/course-rhd1sx"
+    "sourceIndex": 896,
+    "hasDetail": true,
+    "detailPath": "/details/896.json",
+    "routePath": "/courses/2026/fall/A105-01"
   },
   {
     "id": "2026:spring:A106-01:0:897",
@@ -18008,7 +20703,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "建築学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "A106-01",
-    "routePath": "/courses/2026/spring/A106-01/i"
+    "sourceIndex": 897,
+    "hasDetail": true,
+    "detailPath": "/details/897.json",
+    "routePath": "/courses/2026/spring/A106-01"
   },
   {
     "id": "2026:fall:A106-01:0:898",
@@ -18028,7 +20726,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "建築学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "A106-01",
-    "routePath": "/courses/2026/fall/A106-01/i"
+    "sourceIndex": 898,
+    "hasDetail": true,
+    "detailPath": "/details/898.json",
+    "routePath": "/courses/2026/fall/A106-01"
   },
   {
     "id": "2026:fall:A107-01:0:899",
@@ -18048,7 +20749,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "建築学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "A107-01",
-    "routePath": "/courses/2026/fall/A107-01/course-17ozi9b"
+    "sourceIndex": 899,
+    "hasDetail": true,
+    "detailPath": "/details/899.json",
+    "routePath": "/courses/2026/fall/A107-01"
   },
   {
     "id": "2026:fall:A108-01:0:900",
@@ -18068,7 +20772,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "建築学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "A108-01",
-    "routePath": "/courses/2026/fall/A108-01/course-eq61q5"
+    "sourceIndex": 900,
+    "hasDetail": true,
+    "detailPath": "/details/900.json",
+    "routePath": "/courses/2026/fall/A108-01"
   },
   {
     "id": "2026:spring:A109-01:0:901",
@@ -18088,7 +20795,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "建築学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "A109-01",
-    "routePath": "/courses/2026/spring/A109-01/i"
+    "sourceIndex": 901,
+    "hasDetail": true,
+    "detailPath": "/details/901.json",
+    "routePath": "/courses/2026/spring/A109-01"
   },
   {
     "id": "2026:spring:A110-01:0:902",
@@ -18108,7 +20818,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "建築学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "A110-01",
-    "routePath": "/courses/2026/spring/A110-01/course-1cy1qzc"
+    "sourceIndex": 902,
+    "hasDetail": true,
+    "detailPath": "/details/902.json",
+    "routePath": "/courses/2026/spring/A110-01"
   },
   {
     "id": "2026:spring:A111-01:0:903",
@@ -18128,7 +20841,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "建築学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "A111-01",
-    "routePath": "/courses/2026/spring/A111-01/course-drlets"
+    "sourceIndex": 903,
+    "hasDetail": true,
+    "detailPath": "/details/903.json",
+    "routePath": "/courses/2026/spring/A111-01"
   },
   {
     "id": "2026:spring:A112-01:0:904",
@@ -18148,7 +20864,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "建築学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "A112-01",
-    "routePath": "/courses/2026/spring/A112-01/course-n1nr7t"
+    "sourceIndex": 904,
+    "hasDetail": true,
+    "detailPath": "/details/904.json",
+    "routePath": "/courses/2026/spring/A112-01"
   },
   {
     "id": "2026:spring:A113-01:0:905",
@@ -18168,7 +20887,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "建築学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "A113-01",
-    "routePath": "/courses/2026/spring/A113-01/ii"
+    "sourceIndex": 905,
+    "hasDetail": true,
+    "detailPath": "/details/905.json",
+    "routePath": "/courses/2026/spring/A113-01"
   },
   {
     "id": "2026:spring:A114-01:0:906",
@@ -18188,7 +20910,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "建築学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "A114-01",
-    "routePath": "/courses/2026/spring/A114-01/ii"
+    "sourceIndex": 906,
+    "hasDetail": true,
+    "detailPath": "/details/906.json",
+    "routePath": "/courses/2026/spring/A114-01"
   },
   {
     "id": "2026:fall:A115-01:0:907",
@@ -18208,7 +20933,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "建築学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "A115-01",
-    "routePath": "/courses/2026/fall/A115-01/i"
+    "sourceIndex": 907,
+    "hasDetail": true,
+    "detailPath": "/details/907.json",
+    "routePath": "/courses/2026/fall/A115-01"
   },
   {
     "id": "2026:fall:A116-01:0:908",
@@ -18228,7 +20956,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "建築学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "A116-01",
-    "routePath": "/courses/2026/fall/A116-01/course-z4x1md"
+    "sourceIndex": 908,
+    "hasDetail": true,
+    "detailPath": "/details/908.json",
+    "routePath": "/courses/2026/fall/A116-01"
   },
   {
     "id": "2026:fall:A117-01:0:909",
@@ -18248,7 +20979,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "建築学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "A117-01",
-    "routePath": "/courses/2026/fall/A117-01/course-a6s4uv"
+    "sourceIndex": 909,
+    "hasDetail": true,
+    "detailPath": "/details/909.json",
+    "routePath": "/courses/2026/fall/A117-01"
   },
   {
     "id": "2026:fall:A118-01:0:910",
@@ -18268,7 +21002,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "建築学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "A118-01",
-    "routePath": "/courses/2026/fall/A118-01/ii"
+    "sourceIndex": 910,
+    "hasDetail": true,
+    "detailPath": "/details/910.json",
+    "routePath": "/courses/2026/fall/A118-01"
   },
   {
     "id": "2026:fall:A119-01:0:911",
@@ -18288,7 +21025,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "建築学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "A119-01",
-    "routePath": "/courses/2026/fall/A119-01/course-1d8wqyy"
+    "sourceIndex": 911,
+    "hasDetail": true,
+    "detailPath": "/details/911.json",
+    "routePath": "/courses/2026/fall/A119-01"
   },
   {
     "id": "2026:fall:A120-01:0:912",
@@ -18308,7 +21048,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "建築学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "A120-01",
-    "routePath": "/courses/2026/fall/A120-01/course-codvig"
+    "sourceIndex": 912,
+    "hasDetail": true,
+    "detailPath": "/details/912.json",
+    "routePath": "/courses/2026/fall/A120-01"
   },
   {
     "id": "2026:fall:A942-01:0:913",
@@ -18328,7 +21071,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "建築学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "A942-01",
-    "routePath": "/courses/2026/fall/A942-01/i"
+    "sourceIndex": 913,
+    "hasDetail": true,
+    "detailPath": "/details/913.json",
+    "routePath": "/courses/2026/fall/A942-01"
   },
   {
     "id": "2026:spring:A201-01:0:914",
@@ -18348,7 +21094,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "建築デザイン学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "A201-01",
-    "routePath": "/courses/2026/spring/A201-01/course-h06wdz"
+    "sourceIndex": 914,
+    "hasDetail": true,
+    "detailPath": "/details/914.json",
+    "routePath": "/courses/2026/spring/A201-01"
   },
   {
     "id": "2026:spring:A202-01:0:915",
@@ -18368,7 +21117,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "建築デザイン学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "A202-01",
-    "routePath": "/courses/2026/spring/A202-01/course-y3fqm9"
+    "sourceIndex": 915,
+    "hasDetail": true,
+    "detailPath": "/details/915.json",
+    "routePath": "/courses/2026/spring/A202-01"
   },
   {
     "id": "2026:spring:A203-01:0:916",
@@ -18388,7 +21140,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "建築デザイン学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "A203-01",
-    "routePath": "/courses/2026/spring/A203-01/course-yxeic8"
+    "sourceIndex": 916,
+    "hasDetail": true,
+    "detailPath": "/details/916.json",
+    "routePath": "/courses/2026/spring/A203-01"
   },
   {
     "id": "2026:spring:A204-01:0:917",
@@ -18408,7 +21163,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "建築デザイン学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "A204-01",
-    "routePath": "/courses/2026/spring/A204-01/i"
+    "sourceIndex": 917,
+    "hasDetail": true,
+    "detailPath": "/details/917.json",
+    "routePath": "/courses/2026/spring/A204-01"
   },
   {
     "id": "2026:fall:A205-01:0:918",
@@ -18428,7 +21186,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "建築デザイン学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "A205-01",
-    "routePath": "/courses/2026/fall/A205-01/course-rhd1sx"
+    "sourceIndex": 918,
+    "hasDetail": true,
+    "detailPath": "/details/918.json",
+    "routePath": "/courses/2026/fall/A205-01"
   },
   {
     "id": "2026:spring:A206-01:0:919",
@@ -18448,7 +21209,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "建築デザイン学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "A206-01",
-    "routePath": "/courses/2026/spring/A206-01/i"
+    "sourceIndex": 919,
+    "hasDetail": true,
+    "detailPath": "/details/919.json",
+    "routePath": "/courses/2026/spring/A206-01"
   },
   {
     "id": "2026:fall:A206-01:0:920",
@@ -18468,7 +21232,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "建築デザイン学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "A206-01",
-    "routePath": "/courses/2026/fall/A206-01/i"
+    "sourceIndex": 920,
+    "hasDetail": true,
+    "detailPath": "/details/920.json",
+    "routePath": "/courses/2026/fall/A206-01"
   },
   {
     "id": "2026:fall:A207-01:0:921",
@@ -18488,7 +21255,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "建築デザイン学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "A207-01",
-    "routePath": "/courses/2026/fall/A207-01/course-1vskikg"
+    "sourceIndex": 921,
+    "hasDetail": true,
+    "detailPath": "/details/921.json",
+    "routePath": "/courses/2026/fall/A207-01"
   },
   {
     "id": "2026:fall:A208-01:0:922",
@@ -18508,7 +21278,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "建築デザイン学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "A208-01",
-    "routePath": "/courses/2026/fall/A208-01/course-17ozi9b"
+    "sourceIndex": 922,
+    "hasDetail": true,
+    "detailPath": "/details/922.json",
+    "routePath": "/courses/2026/fall/A208-01"
   },
   {
     "id": "2026:spring:A209-01:0:923",
@@ -18528,7 +21301,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "建築デザイン学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "A209-01",
-    "routePath": "/courses/2026/spring/A209-01/i"
+    "sourceIndex": 923,
+    "hasDetail": true,
+    "detailPath": "/details/923.json",
+    "routePath": "/courses/2026/spring/A209-01"
   },
   {
     "id": "2026:spring:A210-01:0:924",
@@ -18548,7 +21324,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "建築デザイン学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "A210-01",
-    "routePath": "/courses/2026/spring/A210-01/course-1cy1qzc"
+    "sourceIndex": 924,
+    "hasDetail": true,
+    "detailPath": "/details/924.json",
+    "routePath": "/courses/2026/spring/A210-01"
   },
   {
     "id": "2026:spring:A211-01:0:925",
@@ -18568,7 +21347,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "建築デザイン学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "A211-01",
-    "routePath": "/courses/2026/spring/A211-01/course-drlets"
+    "sourceIndex": 925,
+    "hasDetail": true,
+    "detailPath": "/details/925.json",
+    "routePath": "/courses/2026/spring/A211-01"
   },
   {
     "id": "2026:spring:A212-01:0:926",
@@ -18588,7 +21370,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "建築デザイン学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "A212-01",
-    "routePath": "/courses/2026/spring/A212-01/course-n1nr7t"
+    "sourceIndex": 926,
+    "hasDetail": true,
+    "detailPath": "/details/926.json",
+    "routePath": "/courses/2026/spring/A212-01"
   },
   {
     "id": "2026:spring:A213-01:0:927",
@@ -18608,7 +21393,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "建築デザイン学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "A213-01",
-    "routePath": "/courses/2026/spring/A213-01/ii"
+    "sourceIndex": 927,
+    "hasDetail": true,
+    "detailPath": "/details/927.json",
+    "routePath": "/courses/2026/spring/A213-01"
   },
   {
     "id": "2026:spring:A214-01:0:928",
@@ -18628,7 +21416,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "建築デザイン学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "A214-01",
-    "routePath": "/courses/2026/spring/A214-01/ii"
+    "sourceIndex": 928,
+    "hasDetail": true,
+    "detailPath": "/details/928.json",
+    "routePath": "/courses/2026/spring/A214-01"
   },
   {
     "id": "2026:fall:A215-01:0:929",
@@ -18648,7 +21439,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "建築デザイン学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "A215-01",
-    "routePath": "/courses/2026/fall/A215-01/i"
+    "sourceIndex": 929,
+    "hasDetail": true,
+    "detailPath": "/details/929.json",
+    "routePath": "/courses/2026/fall/A215-01"
   },
   {
     "id": "2026:fall:A216-01:0:930",
@@ -18668,7 +21462,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "建築デザイン学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "A216-01",
-    "routePath": "/courses/2026/fall/A216-01/course-z4x1md"
+    "sourceIndex": 930,
+    "hasDetail": true,
+    "detailPath": "/details/930.json",
+    "routePath": "/courses/2026/fall/A216-01"
   },
   {
     "id": "2026:fall:A217-01:0:931",
@@ -18688,7 +21485,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "建築デザイン学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "A217-01",
-    "routePath": "/courses/2026/fall/A217-01/course-a6s4uv"
+    "sourceIndex": 931,
+    "hasDetail": true,
+    "detailPath": "/details/931.json",
+    "routePath": "/courses/2026/fall/A217-01"
   },
   {
     "id": "2026:fall:A218-01:0:932",
@@ -18708,7 +21508,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "建築デザイン学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "A218-01",
-    "routePath": "/courses/2026/fall/A218-01/ii"
+    "sourceIndex": 932,
+    "hasDetail": true,
+    "detailPath": "/details/932.json",
+    "routePath": "/courses/2026/fall/A218-01"
   },
   {
     "id": "2026:fall:A219-01:0:933",
@@ -18728,7 +21531,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "建築デザイン学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "A219-01",
-    "routePath": "/courses/2026/fall/A219-01/course-1d8wqyy"
+    "sourceIndex": 933,
+    "hasDetail": true,
+    "detailPath": "/details/933.json",
+    "routePath": "/courses/2026/fall/A219-01"
   },
   {
     "id": "2026:fall:A220-01:0:934",
@@ -18748,7 +21554,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "建築デザイン学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "A220-01",
-    "routePath": "/courses/2026/fall/A220-01/course-codvig"
+    "sourceIndex": 934,
+    "hasDetail": true,
+    "detailPath": "/details/934.json",
+    "routePath": "/courses/2026/fall/A220-01"
   },
   {
     "id": "2026:fall:A943-01:0:935",
@@ -18768,7 +21577,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "建築デザイン学科",
     "courseCategoryLabel": null,
     "courseCodeLabel": "A943-01",
-    "routePath": "/courses/2026/fall/A943-01/i"
+    "sourceIndex": 935,
+    "hasDetail": true,
+    "detailPath": "/details/935.json",
+    "routePath": "/courses/2026/fall/A943-01"
   },
   {
     "id": "2026:fall:G951-01:0:936",
@@ -18788,7 +21600,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "その他",
     "courseCategoryLabel": null,
     "courseCodeLabel": "G951-01",
-    "routePath": "/courses/2026/fall/G951-01/course-13rpzzu"
+    "sourceIndex": 936,
+    "hasDetail": true,
+    "detailPath": "/details/936.json",
+    "routePath": "/courses/2026/fall/G951-01"
   },
   {
     "id": "2026:spring:G952-01:0:937",
@@ -18808,7 +21623,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "その他",
     "courseCategoryLabel": null,
     "courseCodeLabel": "G952-01",
-    "routePath": "/courses/2026/spring/G952-01/course-15znzw1"
+    "sourceIndex": 937,
+    "hasDetail": true,
+    "detailPath": "/details/937.json",
+    "routePath": "/courses/2026/spring/G952-01"
   },
   {
     "id": "2026:fall:G954-01:0:938",
@@ -18828,7 +21646,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "その他",
     "courseCategoryLabel": null,
     "courseCodeLabel": "G954-01",
-    "routePath": "/courses/2026/fall/G954-01/course-9l95wx"
+    "sourceIndex": 938,
+    "hasDetail": true,
+    "detailPath": "/details/938.json",
+    "routePath": "/courses/2026/fall/G954-01"
   },
   {
     "id": "2026:fall:G955-01:0:939",
@@ -18848,7 +21669,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": "その他",
     "courseCategoryLabel": null,
     "courseCodeLabel": "G955-01",
-    "routePath": "/courses/2026/fall/G955-01/course-4dsul6"
+    "sourceIndex": 939,
+    "hasDetail": true,
+    "detailPath": "/details/939.json",
+    "routePath": "/courses/2026/fall/G955-01"
   },
   {
     "id": "2026:spring:G015-01:0:940",
@@ -18868,7 +21692,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G015-01",
-    "routePath": "/courses/2026/spring/G015-01/course-ig6c2r"
+    "sourceIndex": 940,
+    "hasDetail": true,
+    "detailPath": "/details/940.json",
+    "routePath": "/courses/2026/spring/G015-01"
   },
   {
     "id": "2026:fall:G015-01:0:941",
@@ -18888,7 +21715,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G015-01",
-    "routePath": "/courses/2026/fall/G015-01/course-ig6c2r"
+    "sourceIndex": 941,
+    "hasDetail": true,
+    "detailPath": "/details/941.json",
+    "routePath": "/courses/2026/fall/G015-01"
   },
   {
     "id": "2026:fall:G016-01:0:942",
@@ -18908,7 +21738,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G016-01",
-    "routePath": "/courses/2026/fall/G016-01/course-lm0a8u"
+    "sourceIndex": 942,
+    "hasDetail": true,
+    "detailPath": "/details/942.json",
+    "routePath": "/courses/2026/fall/G016-01"
   },
   {
     "id": "2026:spring:G017-01:0:943",
@@ -18928,7 +21761,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G017-01",
-    "routePath": "/courses/2026/spring/G017-01/course-137cqw"
+    "sourceIndex": 943,
+    "hasDetail": true,
+    "detailPath": "/details/943.json",
+    "routePath": "/courses/2026/spring/G017-01"
   },
   {
     "id": "2026:fall:G017-01:0:944",
@@ -18948,7 +21784,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G017-01",
-    "routePath": "/courses/2026/fall/G017-01/course-137cqw"
+    "sourceIndex": 944,
+    "hasDetail": true,
+    "detailPath": "/details/944.json",
+    "routePath": "/courses/2026/fall/G017-01"
   },
   {
     "id": "2026:spring:G019-01:0:945",
@@ -18968,7 +21807,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G019-01",
-    "routePath": "/courses/2026/spring/G019-01/course-ug6m4k"
+    "sourceIndex": 945,
+    "hasDetail": true,
+    "detailPath": "/details/945.json",
+    "routePath": "/courses/2026/spring/G019-01"
   },
   {
     "id": "2026:fall:G019-01:0:946",
@@ -18988,7 +21830,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G019-01",
-    "routePath": "/courses/2026/fall/G019-01/course-ug6m4k"
+    "sourceIndex": 946,
+    "hasDetail": true,
+    "detailPath": "/details/946.json",
+    "routePath": "/courses/2026/fall/G019-01"
   },
   {
     "id": "2026:spring:G023-01:0:947",
@@ -19008,7 +21853,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G023-01",
-    "routePath": "/courses/2026/spring/G023-01/course-1u5lb2v"
+    "sourceIndex": 947,
+    "hasDetail": true,
+    "detailPath": "/details/947.json",
+    "routePath": "/courses/2026/spring/G023-01"
   },
   {
     "id": "2026:fall:G023-01:0:948",
@@ -19028,7 +21876,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G023-01",
-    "routePath": "/courses/2026/fall/G023-01/course-1u5lb2v"
+    "sourceIndex": 948,
+    "hasDetail": true,
+    "detailPath": "/details/948.json",
+    "routePath": "/courses/2026/fall/G023-01"
   },
   {
     "id": "2026:spring:G025-01:0:949",
@@ -19048,7 +21899,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G025-01",
-    "routePath": "/courses/2026/spring/G025-01/course-1keftkb"
+    "sourceIndex": 949,
+    "hasDetail": true,
+    "detailPath": "/details/949.json",
+    "routePath": "/courses/2026/spring/G025-01"
   },
   {
     "id": "2026:fall:G025-01:0:950",
@@ -19068,7 +21922,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G025-01",
-    "routePath": "/courses/2026/fall/G025-01/course-1keftkb"
+    "sourceIndex": 950,
+    "hasDetail": true,
+    "detailPath": "/details/950.json",
+    "routePath": "/courses/2026/fall/G025-01"
   },
   {
     "id": "2026:spring:G027-01:0:951",
@@ -19088,7 +21945,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G027-01",
-    "routePath": "/courses/2026/spring/G027-01/course-1vxo1xb"
+    "sourceIndex": 951,
+    "hasDetail": true,
+    "detailPath": "/details/951.json",
+    "routePath": "/courses/2026/spring/G027-01"
   },
   {
     "id": "2026:fall:G027-01:0:952",
@@ -19108,7 +21968,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G027-01",
-    "routePath": "/courses/2026/fall/G027-01/course-1vxo1xb"
+    "sourceIndex": 952,
+    "hasDetail": true,
+    "detailPath": "/details/952.json",
+    "routePath": "/courses/2026/fall/G027-01"
   },
   {
     "id": "2026:spring:G030-01:0:953",
@@ -19128,7 +21991,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G030-01",
-    "routePath": "/courses/2026/spring/G030-01/course-1pu08e2"
+    "sourceIndex": 953,
+    "hasDetail": true,
+    "detailPath": "/details/953.json",
+    "routePath": "/courses/2026/spring/G030-01"
   },
   {
     "id": "2026:fall:G030-01:0:954",
@@ -19148,7 +22014,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G030-01",
-    "routePath": "/courses/2026/fall/G030-01/course-1pu08e2"
+    "sourceIndex": 954,
+    "hasDetail": true,
+    "detailPath": "/details/954.json",
+    "routePath": "/courses/2026/fall/G030-01"
   },
   {
     "id": "2026:spring:G037-01:0:955",
@@ -19168,7 +22037,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G037-01",
-    "routePath": "/courses/2026/spring/G037-01/course-v91jr0"
+    "sourceIndex": 955,
+    "hasDetail": true,
+    "detailPath": "/details/955.json",
+    "routePath": "/courses/2026/spring/G037-01"
   },
   {
     "id": "2026:fall:G037-01:0:956",
@@ -19188,7 +22060,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G037-01",
-    "routePath": "/courses/2026/fall/G037-01/course-v91jr0"
+    "sourceIndex": 956,
+    "hasDetail": true,
+    "detailPath": "/details/956.json",
+    "routePath": "/courses/2026/fall/G037-01"
   },
   {
     "id": "2026:spring:G243-01:0:957",
@@ -19208,7 +22083,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G243-01",
-    "routePath": "/courses/2026/spring/G243-01/ai"
+    "sourceIndex": 957,
+    "hasDetail": true,
+    "detailPath": "/details/957.json",
+    "routePath": "/courses/2026/spring/G243-01"
   },
   {
     "id": "2026:fall:G243-01:0:958",
@@ -19228,7 +22106,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G243-01",
-    "routePath": "/courses/2026/fall/G243-01/ai"
+    "sourceIndex": 958,
+    "hasDetail": true,
+    "detailPath": "/details/958.json",
+    "routePath": "/courses/2026/fall/G243-01"
   },
   {
     "id": "2026:spring:G244-01:0:959",
@@ -19248,7 +22129,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G244-01",
-    "routePath": "/courses/2026/spring/G244-01/ai-i"
+    "sourceIndex": 959,
+    "hasDetail": true,
+    "detailPath": "/details/959.json",
+    "routePath": "/courses/2026/spring/G244-01"
   },
   {
     "id": "2026:spring:G245-01:0:960",
@@ -19268,7 +22152,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G245-01",
-    "routePath": "/courses/2026/spring/G245-01/ai-ii"
+    "sourceIndex": 960,
+    "hasDetail": true,
+    "detailPath": "/details/960.json",
+    "routePath": "/courses/2026/spring/G245-01"
   },
   {
     "id": "2026:spring:G246-01:0:961",
@@ -19288,7 +22175,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G246-01",
-    "routePath": "/courses/2026/spring/G246-01/course-1b0exdt"
+    "sourceIndex": 961,
+    "hasDetail": true,
+    "detailPath": "/details/961.json",
+    "routePath": "/courses/2026/spring/G246-01"
   },
   {
     "id": "2026:spring:G247-01:0:962",
@@ -19308,7 +22198,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G247-01",
-    "routePath": "/courses/2026/spring/G247-01/course-cyaaao"
+    "sourceIndex": 962,
+    "hasDetail": true,
+    "detailPath": "/details/962.json",
+    "routePath": "/courses/2026/spring/G247-01"
   },
   {
     "id": "2026:spring:G255-01:0:963",
@@ -19328,7 +22221,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G255-01",
-    "routePath": "/courses/2026/spring/G255-01/pd"
+    "sourceIndex": 963,
+    "hasDetail": true,
+    "detailPath": "/details/963.json",
+    "routePath": "/courses/2026/spring/G255-01"
   },
   {
     "id": "2026:fall:G255-01:0:964",
@@ -19348,7 +22244,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G255-01",
-    "routePath": "/courses/2026/fall/G255-01/pd"
+    "sourceIndex": 964,
+    "hasDetail": true,
+    "detailPath": "/details/964.json",
+    "routePath": "/courses/2026/fall/G255-01"
   },
   {
     "id": "2026:spring:G258-01:0:965",
@@ -19368,7 +22267,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G258-01",
-    "routePath": "/courses/2026/spring/G258-01/iot"
+    "sourceIndex": 965,
+    "hasDetail": true,
+    "detailPath": "/details/965.json",
+    "routePath": "/courses/2026/spring/G258-01"
   },
   {
     "id": "2026:fall:G258-01:0:966",
@@ -19388,7 +22290,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G258-01",
-    "routePath": "/courses/2026/fall/G258-01/iot"
+    "sourceIndex": 966,
+    "hasDetail": true,
+    "detailPath": "/details/966.json",
+    "routePath": "/courses/2026/fall/G258-01"
   },
   {
     "id": "2026:spring:G259-01:0:967",
@@ -19408,7 +22313,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G259-01",
-    "routePath": "/courses/2026/spring/G259-01/iot"
+    "sourceIndex": 967,
+    "hasDetail": true,
+    "detailPath": "/details/967.json",
+    "routePath": "/courses/2026/spring/G259-01"
   },
   {
     "id": "2026:fall:G259-01:0:968",
@@ -19428,7 +22336,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G259-01",
-    "routePath": "/courses/2026/fall/G259-01/iot"
+    "sourceIndex": 968,
+    "hasDetail": true,
+    "detailPath": "/details/968.json",
+    "routePath": "/courses/2026/fall/G259-01"
   },
   {
     "id": "2026:spring:G260-01:0:969",
@@ -19448,7 +22359,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G260-01",
-    "routePath": "/courses/2026/spring/G260-01/iot"
+    "sourceIndex": 969,
+    "hasDetail": true,
+    "detailPath": "/details/969.json",
+    "routePath": "/courses/2026/spring/G260-01"
   },
   {
     "id": "2026:fall:G260-01:0:970",
@@ -19468,7 +22382,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G260-01",
-    "routePath": "/courses/2026/fall/G260-01/iot"
+    "sourceIndex": 970,
+    "hasDetail": true,
+    "detailPath": "/details/970.json",
+    "routePath": "/courses/2026/fall/G260-01"
   },
   {
     "id": "2026:spring:G261-01:0:971",
@@ -19488,7 +22405,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G261-01",
-    "routePath": "/courses/2026/spring/G261-01/course-corhl"
+    "sourceIndex": 971,
+    "hasDetail": true,
+    "detailPath": "/details/971.json",
+    "routePath": "/courses/2026/spring/G261-01"
   },
   {
     "id": "2026:spring:G263-01:0:972",
@@ -19508,7 +22428,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G263-01",
-    "routePath": "/courses/2026/spring/G263-01/course-1yxcvx"
+    "sourceIndex": 972,
+    "hasDetail": true,
+    "detailPath": "/details/972.json",
+    "routePath": "/courses/2026/spring/G263-01"
   },
   {
     "id": "2026:fall:G263-01:0:973",
@@ -19528,7 +22451,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G263-01",
-    "routePath": "/courses/2026/fall/G263-01/course-1ii73gz"
+    "sourceIndex": 973,
+    "hasDetail": true,
+    "detailPath": "/details/973.json",
+    "routePath": "/courses/2026/fall/G263-01"
   },
   {
     "id": "2026:spring:G264-01:0:974",
@@ -19548,7 +22474,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G264-01",
-    "routePath": "/courses/2026/spring/G264-01/course-cfqfob"
+    "sourceIndex": 974,
+    "hasDetail": true,
+    "detailPath": "/details/974.json",
+    "routePath": "/courses/2026/spring/G264-01"
   },
   {
     "id": "2026:spring:G265-01:0:975",
@@ -19568,7 +22497,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G265-01",
-    "routePath": "/courses/2026/spring/G265-01/iot"
+    "sourceIndex": 975,
+    "hasDetail": true,
+    "detailPath": "/details/975.json",
+    "routePath": "/courses/2026/spring/G265-01"
   },
   {
     "id": "2026:fall:G265-01:0:976",
@@ -19588,7 +22520,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G265-01",
-    "routePath": "/courses/2026/fall/G265-01/iot"
+    "sourceIndex": 976,
+    "hasDetail": true,
+    "detailPath": "/details/976.json",
+    "routePath": "/courses/2026/fall/G265-01"
   },
   {
     "id": "2026:spring:G266-01:0:977",
@@ -19608,7 +22543,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G266-01",
-    "routePath": "/courses/2026/spring/G266-01/course-1pd4yj7"
+    "sourceIndex": 977,
+    "hasDetail": true,
+    "detailPath": "/details/977.json",
+    "routePath": "/courses/2026/spring/G266-01"
   },
   {
     "id": "2026:spring:G409-01:0:978",
@@ -19628,7 +22566,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G409-01",
-    "routePath": "/courses/2026/spring/G409-01/course-1fjw7ex"
+    "sourceIndex": 978,
+    "hasDetail": true,
+    "detailPath": "/details/978.json",
+    "routePath": "/courses/2026/spring/G409-01"
   },
   {
     "id": "2026:spring:G479-01:0:979",
@@ -19648,7 +22589,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G479-01",
-    "routePath": "/courses/2026/spring/G479-01/course-1s2jte0"
+    "sourceIndex": 979,
+    "hasDetail": true,
+    "detailPath": "/details/979.json",
+    "routePath": "/courses/2026/spring/G479-01"
   },
   {
     "id": "2026:fall:G479-01:0:980",
@@ -19668,7 +22612,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G479-01",
-    "routePath": "/courses/2026/fall/G479-01/course-1s2jte0"
+    "sourceIndex": 980,
+    "hasDetail": true,
+    "detailPath": "/details/980.json",
+    "routePath": "/courses/2026/fall/G479-01"
   },
   {
     "id": "2026:spring:G488-01:0:981",
@@ -19688,7 +22635,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G488-01",
-    "routePath": "/courses/2026/spring/G488-01/ict"
+    "sourceIndex": 981,
+    "hasDetail": true,
+    "detailPath": "/details/981.json",
+    "routePath": "/courses/2026/spring/G488-01"
   },
   {
     "id": "2026:spring:G495-01:0:982",
@@ -19708,7 +22658,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G495-01",
-    "routePath": "/courses/2026/spring/G495-01/course-u0k19i"
+    "sourceIndex": 982,
+    "hasDetail": true,
+    "detailPath": "/details/982.json",
+    "routePath": "/courses/2026/spring/G495-01"
   },
   {
     "id": "2026:fall:G495-01:0:983",
@@ -19728,7 +22681,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G495-01",
-    "routePath": "/courses/2026/fall/G495-01/course-u0k19i"
+    "sourceIndex": 983,
+    "hasDetail": true,
+    "detailPath": "/details/983.json",
+    "routePath": "/courses/2026/fall/G495-01"
   },
   {
     "id": "2026:spring:G508-01:0:984",
@@ -19748,7 +22704,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G508-01",
-    "routePath": "/courses/2026/spring/G508-01/course-df0wft"
+    "sourceIndex": 984,
+    "hasDetail": true,
+    "detailPath": "/details/984.json",
+    "routePath": "/courses/2026/spring/G508-01"
   },
   {
     "id": "2026:spring:G519-01:0:985",
@@ -19768,7 +22727,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G519-01",
-    "routePath": "/courses/2026/spring/G519-01/course-1mnix6a"
+    "sourceIndex": 985,
+    "hasDetail": true,
+    "detailPath": "/details/985.json",
+    "routePath": "/courses/2026/spring/G519-01"
   },
   {
     "id": "2026:fall:G519-01:0:986",
@@ -19788,7 +22750,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G519-01",
-    "routePath": "/courses/2026/fall/G519-01/course-1mnix6a"
+    "sourceIndex": 986,
+    "hasDetail": true,
+    "detailPath": "/details/986.json",
+    "routePath": "/courses/2026/fall/G519-01"
   },
   {
     "id": "2026:fall:G521-01:0:987",
@@ -19808,7 +22773,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G521-01",
-    "routePath": "/courses/2026/fall/G521-01/course-19abn7i"
+    "sourceIndex": 987,
+    "hasDetail": true,
+    "detailPath": "/details/987.json",
+    "routePath": "/courses/2026/fall/G521-01"
   },
   {
     "id": "2026:spring:G522-01:0:988",
@@ -19828,7 +22796,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G522-01",
-    "routePath": "/courses/2026/spring/G522-01/course-l7xwv1"
+    "sourceIndex": 988,
+    "hasDetail": true,
+    "detailPath": "/details/988.json",
+    "routePath": "/courses/2026/spring/G522-01"
   },
   {
     "id": "2026:fall:G522-01:0:989",
@@ -19848,7 +22819,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G522-01",
-    "routePath": "/courses/2026/fall/G522-01/course-l7xwv1"
+    "sourceIndex": 989,
+    "hasDetail": true,
+    "detailPath": "/details/989.json",
+    "routePath": "/courses/2026/fall/G522-01"
   },
   {
     "id": "2026:fall:G523-01:0:990",
@@ -19868,7 +22842,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G523-01",
-    "routePath": "/courses/2026/fall/G523-01/course-3ivovp"
+    "sourceIndex": 990,
+    "hasDetail": true,
+    "detailPath": "/details/990.json",
+    "routePath": "/courses/2026/fall/G523-01"
   },
   {
     "id": "2026:fall:G524-01:0:991",
@@ -19888,7 +22865,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G524-01",
-    "routePath": "/courses/2026/fall/G524-01/course-1lh0th0"
+    "sourceIndex": 991,
+    "hasDetail": true,
+    "detailPath": "/details/991.json",
+    "routePath": "/courses/2026/fall/G524-01"
   },
   {
     "id": "2026:fall:G525-01:0:992",
@@ -19908,7 +22888,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G525-01",
-    "routePath": "/courses/2026/fall/G525-01/course-1emswne"
+    "sourceIndex": 992,
+    "hasDetail": true,
+    "detailPath": "/details/992.json",
+    "routePath": "/courses/2026/fall/G525-01"
   },
   {
     "id": "2026:fall:G526-01:0:993",
@@ -19928,7 +22911,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G526-01",
-    "routePath": "/courses/2026/fall/G526-01/course-1d2thzu"
+    "sourceIndex": 993,
+    "hasDetail": true,
+    "detailPath": "/details/993.json",
+    "routePath": "/courses/2026/fall/G526-01"
   },
   {
     "id": "2026:spring:G527-01:0:994",
@@ -19948,7 +22934,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G527-01",
-    "routePath": "/courses/2026/spring/G527-01/course-pxhov0"
+    "sourceIndex": 994,
+    "hasDetail": true,
+    "detailPath": "/details/994.json",
+    "routePath": "/courses/2026/spring/G527-01"
   },
   {
     "id": "2026:spring:G528-01:0:995",
@@ -19968,7 +22957,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G528-01",
-    "routePath": "/courses/2026/spring/G528-01/ngo"
+    "sourceIndex": 995,
+    "hasDetail": true,
+    "detailPath": "/details/995.json",
+    "routePath": "/courses/2026/spring/G528-01"
   },
   {
     "id": "2026:fall:G528-01:0:996",
@@ -19988,7 +22980,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G528-01",
-    "routePath": "/courses/2026/fall/G528-01/ngo"
+    "sourceIndex": 996,
+    "hasDetail": true,
+    "detailPath": "/details/996.json",
+    "routePath": "/courses/2026/fall/G528-01"
   },
   {
     "id": "2026:spring:G529-01:0:997",
@@ -20008,7 +23003,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G529-01",
-    "routePath": "/courses/2026/spring/G529-01/course-1ie312i"
+    "sourceIndex": 997,
+    "hasDetail": true,
+    "detailPath": "/details/997.json",
+    "routePath": "/courses/2026/spring/G529-01"
   },
   {
     "id": "2026:fall:G529-01:0:998",
@@ -20028,7 +23026,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G529-01",
-    "routePath": "/courses/2026/fall/G529-01/course-1ie312i"
+    "sourceIndex": 998,
+    "hasDetail": true,
+    "detailPath": "/details/998.json",
+    "routePath": "/courses/2026/fall/G529-01"
   },
   {
     "id": "2026:fall:G534-01:0:999",
@@ -20048,7 +23049,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G534-01",
-    "routePath": "/courses/2026/fall/G534-01/course-r2ifms"
+    "sourceIndex": 999,
+    "hasDetail": true,
+    "detailPath": "/details/999.json",
+    "routePath": "/courses/2026/fall/G534-01"
   },
   {
     "id": "2026:fall:G535-01:0:1000",
@@ -20068,7 +23072,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G535-01",
-    "routePath": "/courses/2026/fall/G535-01/course-1rj92b6"
+    "sourceIndex": 1000,
+    "hasDetail": true,
+    "detailPath": "/details/1000.json",
+    "routePath": "/courses/2026/fall/G535-01"
   },
   {
     "id": "2026:spring:G537-01:0:1001",
@@ -20088,7 +23095,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G537-01",
-    "routePath": "/courses/2026/spring/G537-01/course-10f6k7y"
+    "sourceIndex": 1001,
+    "hasDetail": true,
+    "detailPath": "/details/1001.json",
+    "routePath": "/courses/2026/spring/G537-01"
   },
   {
     "id": "2026:spring:G541-01:0:1002",
@@ -20108,7 +23118,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G541-01",
-    "routePath": "/courses/2026/spring/G541-01/course-6msttb"
+    "sourceIndex": 1002,
+    "hasDetail": true,
+    "detailPath": "/details/1002.json",
+    "routePath": "/courses/2026/spring/G541-01"
   },
   {
     "id": "2026:fall:G543-01:0:1003",
@@ -20128,7 +23141,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G543-01",
-    "routePath": "/courses/2026/fall/G543-01/ai-for-beginners"
+    "sourceIndex": 1003,
+    "hasDetail": true,
+    "detailPath": "/details/1003.json",
+    "routePath": "/courses/2026/fall/G543-01"
   },
   {
     "id": "2026:spring:G545-01:0:1004",
@@ -20148,7 +23164,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G545-01",
-    "routePath": "/courses/2026/spring/G545-01/3d"
+    "sourceIndex": 1004,
+    "hasDetail": true,
+    "detailPath": "/details/1004.json",
+    "routePath": "/courses/2026/spring/G545-01"
   },
   {
     "id": "2026:spring:G547-01:0:1005",
@@ -20168,7 +23187,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G547-01",
-    "routePath": "/courses/2026/spring/G547-01/asian-studies"
+    "sourceIndex": 1005,
+    "hasDetail": true,
+    "detailPath": "/details/1005.json",
+    "routePath": "/courses/2026/spring/G547-01"
   },
   {
     "id": "2026:spring:G549-01:0:1006",
@@ -20188,7 +23210,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G549-01",
-    "routePath": "/courses/2026/spring/G549-01/course-145ophp"
+    "sourceIndex": 1006,
+    "hasDetail": true,
+    "detailPath": "/details/1006.json",
+    "routePath": "/courses/2026/spring/G549-01"
   },
   {
     "id": "2026:fall:G549-01:0:1007",
@@ -20208,7 +23233,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G549-01",
-    "routePath": "/courses/2026/fall/G549-01/course-145ophp"
+    "sourceIndex": 1007,
+    "hasDetail": true,
+    "detailPath": "/details/1007.json",
+    "routePath": "/courses/2026/fall/G549-01"
   },
   {
     "id": "2026:spring:G551-01:0:1008",
@@ -20228,7 +23256,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G551-01",
-    "routePath": "/courses/2026/spring/G551-01/course-1eeze7e"
+    "sourceIndex": 1008,
+    "hasDetail": true,
+    "detailPath": "/details/1008.json",
+    "routePath": "/courses/2026/spring/G551-01"
   },
   {
     "id": "2026:spring:G552-01:0:1009",
@@ -20248,7 +23279,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G552-01",
-    "routePath": "/courses/2026/spring/G552-01/course-94uoic"
+    "sourceIndex": 1009,
+    "hasDetail": true,
+    "detailPath": "/details/1009.json",
+    "routePath": "/courses/2026/spring/G552-01"
   },
   {
     "id": "2026:spring:G553-01:0:1010",
@@ -20268,7 +23302,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G553-01",
-    "routePath": "/courses/2026/spring/G553-01/course-17ngh5"
+    "sourceIndex": 1010,
+    "hasDetail": true,
+    "detailPath": "/details/1010.json",
+    "routePath": "/courses/2026/spring/G553-01"
   },
   {
     "id": "2026:fall:G554-01:0:1011",
@@ -20288,7 +23325,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G554-01",
-    "routePath": "/courses/2026/fall/G554-01/course-o7zkoe"
+    "sourceIndex": 1011,
+    "hasDetail": true,
+    "detailPath": "/details/1011.json",
+    "routePath": "/courses/2026/fall/G554-01"
   },
   {
     "id": "2026:fall:G555-01:0:1012",
@@ -20308,7 +23348,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G555-01",
-    "routePath": "/courses/2026/fall/G555-01/course-14d5fwm"
+    "sourceIndex": 1012,
+    "hasDetail": true,
+    "detailPath": "/details/1012.json",
+    "routePath": "/courses/2026/fall/G555-01"
   },
   {
     "id": "2026:spring:G556-01:0:1013",
@@ -20328,7 +23371,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G556-01",
-    "routePath": "/courses/2026/spring/G556-01/pd-innovation"
+    "sourceIndex": 1013,
+    "hasDetail": true,
+    "detailPath": "/details/1013.json",
+    "routePath": "/courses/2026/spring/G556-01"
   },
   {
     "id": "2026:fall:G558-01:0:1014",
@@ -20348,7 +23394,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G558-01",
-    "routePath": "/courses/2026/fall/G558-01/ai"
+    "sourceIndex": 1014,
+    "hasDetail": true,
+    "detailPath": "/details/1014.json",
+    "routePath": "/courses/2026/fall/G558-01"
   },
   {
     "id": "2026:fall:G564-01:0:1015",
@@ -20368,7 +23417,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G564-01",
-    "routePath": "/courses/2026/fall/G564-01/course-1v8dcbj"
+    "sourceIndex": 1015,
+    "hasDetail": true,
+    "detailPath": "/details/1015.json",
+    "routePath": "/courses/2026/fall/G564-01"
   },
   {
     "id": "2026:spring:G565-01:0:1016",
@@ -20388,7 +23440,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G565-01",
-    "routePath": "/courses/2026/spring/G565-01/course-en5gt6"
+    "sourceIndex": 1016,
+    "hasDetail": true,
+    "detailPath": "/details/1016.json",
+    "routePath": "/courses/2026/spring/G565-01"
   },
   {
     "id": "2026:fall:G565-01:0:1017",
@@ -20408,7 +23463,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G565-01",
-    "routePath": "/courses/2026/fall/G565-01/course-en5gt6"
+    "sourceIndex": 1017,
+    "hasDetail": true,
+    "detailPath": "/details/1017.json",
+    "routePath": "/courses/2026/fall/G565-01"
   },
   {
     "id": "2026:full-year:G573-01:0:1018",
@@ -20428,7 +23486,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G573-01",
-    "routePath": "/courses/2026/full-year/G573-01/i"
+    "sourceIndex": 1018,
+    "hasDetail": true,
+    "detailPath": "/details/1018.json",
+    "routePath": "/courses/2026/full-year/G573-01"
   },
   {
     "id": "2026:spring:G575-01:0:1019",
@@ -20448,7 +23509,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G575-01",
-    "routePath": "/courses/2026/spring/G575-01/dx"
+    "sourceIndex": 1019,
+    "hasDetail": true,
+    "detailPath": "/details/1019.json",
+    "routePath": "/courses/2026/spring/G575-01"
   },
   {
     "id": "2026:spring:G577-01:0:1020",
@@ -20468,7 +23532,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G577-01",
-    "routePath": "/courses/2026/spring/G577-01/global-englishes"
+    "sourceIndex": 1020,
+    "hasDetail": true,
+    "detailPath": "/details/1020.json",
+    "routePath": "/courses/2026/spring/G577-01"
   },
   {
     "id": "2026:fall:G580-01:0:1021",
@@ -20488,7 +23555,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G580-01",
-    "routePath": "/courses/2026/fall/G580-01/course-5nddwj"
+    "sourceIndex": 1021,
+    "hasDetail": true,
+    "detailPath": "/details/1021.json",
+    "routePath": "/courses/2026/fall/G580-01"
   },
   {
     "id": "2026:spring:G585-01:0:1022",
@@ -20508,7 +23578,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G585-01",
-    "routePath": "/courses/2026/spring/G585-01/ai"
+    "sourceIndex": 1022,
+    "hasDetail": true,
+    "detailPath": "/details/1022.json",
+    "routePath": "/courses/2026/spring/G585-01"
   },
   {
     "id": "2026:spring:G586-01:0:1023",
@@ -20528,7 +23601,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G586-01",
-    "routePath": "/courses/2026/spring/G586-01/course-duoyhl"
+    "sourceIndex": 1023,
+    "hasDetail": true,
+    "detailPath": "/details/1023.json",
+    "routePath": "/courses/2026/spring/G586-01"
   },
   {
     "id": "2026:fall:G587-01:0:1024",
@@ -20548,7 +23624,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G587-01",
-    "routePath": "/courses/2026/fall/G587-01/3d"
+    "sourceIndex": 1024,
+    "hasDetail": true,
+    "detailPath": "/details/1024.json",
+    "routePath": "/courses/2026/fall/G587-01"
   },
   {
     "id": "2026:spring:G588-01:0:1025",
@@ -20568,7 +23647,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G588-01",
-    "routePath": "/courses/2026/spring/G588-01/course-1ks3nrh"
+    "sourceIndex": 1025,
+    "hasDetail": true,
+    "detailPath": "/details/1025.json",
+    "routePath": "/courses/2026/spring/G588-01"
   },
   {
     "id": "2026:fall:G589-01:0:1026",
@@ -20588,7 +23670,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G589-01",
-    "routePath": "/courses/2026/fall/G589-01/course-1e75pp8"
+    "sourceIndex": 1026,
+    "hasDetail": true,
+    "detailPath": "/details/1026.json",
+    "routePath": "/courses/2026/fall/G589-01"
   },
   {
     "id": "2026:full-year:G594-01:0:1027",
@@ -20608,7 +23693,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G594-01",
-    "routePath": "/courses/2026/full-year/G594-01/course-1qxkzcq"
+    "sourceIndex": 1027,
+    "hasDetail": true,
+    "detailPath": "/details/1027.json",
+    "routePath": "/courses/2026/full-year/G594-01"
   },
   {
     "id": "2026:spring:G595-01:0:1028",
@@ -20628,7 +23716,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G595-01",
-    "routePath": "/courses/2026/spring/G595-01/jetson-ai"
+    "sourceIndex": 1028,
+    "hasDetail": true,
+    "detailPath": "/details/1028.json",
+    "routePath": "/courses/2026/spring/G595-01"
   },
   {
     "id": "2026:full-year:G900-01:0:1029",
@@ -20648,7 +23739,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G900-01",
-    "routePath": "/courses/2026/full-year/G900-01/course-1rz4ltg"
+    "sourceIndex": 1029,
+    "hasDetail": true,
+    "detailPath": "/details/1029.json",
+    "routePath": "/courses/2026/full-year/G900-01"
   },
   {
     "id": "2026:fall:G901-01:0:1030",
@@ -20668,7 +23762,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G901-01",
-    "routePath": "/courses/2026/fall/G901-01/course-mg6y6k"
+    "sourceIndex": 1030,
+    "hasDetail": true,
+    "detailPath": "/details/1030.json",
+    "routePath": "/courses/2026/fall/G901-01"
   },
   {
     "id": "2026:spring:G902-01:0:1031",
@@ -20688,7 +23785,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G902-01",
-    "routePath": "/courses/2026/spring/G902-01/course-z4x6fr"
+    "sourceIndex": 1031,
+    "hasDetail": true,
+    "detailPath": "/details/1031.json",
+    "routePath": "/courses/2026/spring/G902-01"
   },
   {
     "id": "2026:fall:G903-01:0:1032",
@@ -20708,7 +23808,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G903-01",
-    "routePath": "/courses/2026/fall/G903-01/course-dduver"
+    "sourceIndex": 1032,
+    "hasDetail": true,
+    "detailPath": "/details/1032.json",
+    "routePath": "/courses/2026/fall/G903-01"
   },
   {
     "id": "2026:spring:G904-01:0:1033",
@@ -20728,7 +23831,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G904-01",
-    "routePath": "/courses/2026/spring/G904-01/course-1bijpw5"
+    "sourceIndex": 1033,
+    "hasDetail": true,
+    "detailPath": "/details/1033.json",
+    "routePath": "/courses/2026/spring/G904-01"
   },
   {
     "id": "2026:fall:G905-01:0:1034",
@@ -20748,7 +23854,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G905-01",
-    "routePath": "/courses/2026/fall/G905-01/course-2mu1p6"
+    "sourceIndex": 1034,
+    "hasDetail": true,
+    "detailPath": "/details/1034.json",
+    "routePath": "/courses/2026/fall/G905-01"
   },
   {
     "id": "2026:spring:G906-01:0:1035",
@@ -20768,7 +23877,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G906-01",
-    "routePath": "/courses/2026/spring/G906-01/course-112y33e"
+    "sourceIndex": 1035,
+    "hasDetail": true,
+    "detailPath": "/details/1035.json",
+    "routePath": "/courses/2026/spring/G906-01"
   },
   {
     "id": "2026:fall:G907-01:0:1036",
@@ -20788,7 +23900,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G907-01",
-    "routePath": "/courses/2026/fall/G907-01/course-1wae869"
+    "sourceIndex": 1036,
+    "hasDetail": true,
+    "detailPath": "/details/1036.json",
+    "routePath": "/courses/2026/fall/G907-01"
   },
   {
     "id": "2026:fall:G908-01:0:1037",
@@ -20808,7 +23923,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G908-01",
-    "routePath": "/courses/2026/fall/G908-01/course-1cu4x0"
+    "sourceIndex": 1037,
+    "hasDetail": true,
+    "detailPath": "/details/1037.json",
+    "routePath": "/courses/2026/fall/G908-01"
   },
   {
     "id": "2026:fall:G909-01:0:1038",
@@ -20828,7 +23946,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G909-01",
-    "routePath": "/courses/2026/fall/G909-01/course-1dqtiu0"
+    "sourceIndex": 1038,
+    "hasDetail": true,
+    "detailPath": "/details/1038.json",
+    "routePath": "/courses/2026/fall/G909-01"
   },
   {
     "id": "2026:spring:G910-01:0:1039",
@@ -20848,7 +23969,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G910-01",
-    "routePath": "/courses/2026/spring/G910-01/i"
+    "sourceIndex": 1039,
+    "hasDetail": true,
+    "detailPath": "/details/1039.json",
+    "routePath": "/courses/2026/spring/G910-01"
   },
   {
     "id": "2026:fall:G911-01:0:1040",
@@ -20868,7 +23992,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G911-01",
-    "routePath": "/courses/2026/fall/G911-01/ii"
+    "sourceIndex": 1040,
+    "hasDetail": true,
+    "detailPath": "/details/1040.json",
+    "routePath": "/courses/2026/fall/G911-01"
   },
   {
     "id": "2026:spring:G912-01:0:1041",
@@ -20888,7 +24015,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G912-01",
-    "routePath": "/courses/2026/spring/G912-01/i"
+    "sourceIndex": 1041,
+    "hasDetail": true,
+    "detailPath": "/details/1041.json",
+    "routePath": "/courses/2026/spring/G912-01"
   },
   {
     "id": "2026:fall:G913-01:0:1042",
@@ -20908,7 +24038,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G913-01",
-    "routePath": "/courses/2026/fall/G913-01/ii"
+    "sourceIndex": 1042,
+    "hasDetail": true,
+    "detailPath": "/details/1042.json",
+    "routePath": "/courses/2026/fall/G913-01"
   },
   {
     "id": "2026:spring:G914-01:0:1043",
@@ -20928,7 +24061,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G914-01",
-    "routePath": "/courses/2026/spring/G914-01/course-f8wxt6"
+    "sourceIndex": 1043,
+    "hasDetail": true,
+    "detailPath": "/details/1043.json",
+    "routePath": "/courses/2026/spring/G914-01"
   },
   {
     "id": "2026:spring:G915-01:0:1044",
@@ -20948,7 +24084,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G915-01",
-    "routePath": "/courses/2026/spring/G915-01/course-riq41v"
+    "sourceIndex": 1044,
+    "hasDetail": true,
+    "detailPath": "/details/1044.json",
+    "routePath": "/courses/2026/spring/G915-01"
   },
   {
     "id": "2026:spring:G916-01:0:1045",
@@ -20968,7 +24107,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G916-01",
-    "routePath": "/courses/2026/spring/G916-01/course-abpmq9"
+    "sourceIndex": 1045,
+    "hasDetail": true,
+    "detailPath": "/details/1045.json",
+    "routePath": "/courses/2026/spring/G916-01"
   },
   {
     "id": "2026:full-year:G917-01:0:1046",
@@ -20988,7 +24130,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G917-01",
-    "routePath": "/courses/2026/full-year/G917-01/course-m0dvg3"
+    "sourceIndex": 1046,
+    "hasDetail": true,
+    "detailPath": "/details/1046.json",
+    "routePath": "/courses/2026/full-year/G917-01"
   },
   {
     "id": "2026:spring:G918-01:0:1047",
@@ -21008,7 +24153,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G918-01",
-    "routePath": "/courses/2026/spring/G918-01/course-1tkbbsl"
+    "sourceIndex": 1047,
+    "hasDetail": true,
+    "detailPath": "/details/1047.json",
+    "routePath": "/courses/2026/spring/G918-01"
   },
   {
     "id": "2026:full-year:G919-01:0:1048",
@@ -21028,7 +24176,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G919-01",
-    "routePath": "/courses/2026/full-year/G919-01/course-1wwy457"
+    "sourceIndex": 1048,
+    "hasDetail": true,
+    "detailPath": "/details/1048.json",
+    "routePath": "/courses/2026/full-year/G919-01"
   },
   {
     "id": "2026:full-year:G920-01:0:1049",
@@ -21048,7 +24199,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G920-01",
-    "routePath": "/courses/2026/full-year/G920-01/i"
+    "sourceIndex": 1049,
+    "hasDetail": true,
+    "detailPath": "/details/1049.json",
+    "routePath": "/courses/2026/full-year/G920-01"
   },
   {
     "id": "2026:full-year:G921-01:0:1050",
@@ -21068,7 +24222,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G921-01",
-    "routePath": "/courses/2026/full-year/G921-01/ii"
+    "sourceIndex": 1050,
+    "hasDetail": true,
+    "detailPath": "/details/1050.json",
+    "routePath": "/courses/2026/full-year/G921-01"
   },
   {
     "id": "2026:fall:G922-01:0:1051",
@@ -21088,7 +24245,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G922-01",
-    "routePath": "/courses/2026/fall/G922-01/course-1m0bp57"
+    "sourceIndex": 1051,
+    "hasDetail": true,
+    "detailPath": "/details/1051.json",
+    "routePath": "/courses/2026/fall/G922-01"
   },
   {
     "id": "2026:fall:G923-01:0:1052",
@@ -21108,7 +24268,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G923-01",
-    "routePath": "/courses/2026/fall/G923-01/course-etz2xj"
+    "sourceIndex": 1052,
+    "hasDetail": true,
+    "detailPath": "/details/1052.json",
+    "routePath": "/courses/2026/fall/G923-01"
   },
   {
     "id": "2026:spring:G924-01:0:1053",
@@ -21128,7 +24291,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G924-01",
-    "routePath": "/courses/2026/spring/G924-01/course-11x1xzb"
+    "sourceIndex": 1053,
+    "hasDetail": true,
+    "detailPath": "/details/1053.json",
+    "routePath": "/courses/2026/spring/G924-01"
   },
   {
     "id": "2026:spring:G930-01:0:1054",
@@ -21148,7 +24314,10 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G930-01",
-    "routePath": "/courses/2026/spring/G930-01/course-qfpqwr"
+    "sourceIndex": 1054,
+    "hasDetail": true,
+    "detailPath": "/details/1054.json",
+    "routePath": "/courses/2026/spring/G930-01"
   },
   {
     "id": "2026:full-year:G953-01:0:1055",
@@ -21168,348 +24337,9 @@ export const courses: CourseSummary[] = [
     "departmentLabel": null,
     "courseCategoryLabel": null,
     "courseCodeLabel": "G953-01",
-    "routePath": "/courses/2026/full-year/G953-01/course-1oxshc6"
+    "sourceIndex": 1055,
+    "hasDetail": true,
+    "detailPath": "/details/1055.json",
+    "routePath": "/courses/2026/full-year/G953-01"
   }
 ];
-
-export const detailsByCourseId: Record<string, SyllabusDetail> = {
-  "2026:spring:G001-01:0:0": {
-    "courseId": "2026:spring:G001-01:0:0",
-    "sourceUrl": "https://europa.kanazawa-it.ac.jp/opsyllabus/kitos0110/0/0",
-    "importedAt": "2026-06-08T08:59:08.457Z",
-    "title": "修学基礎Ａ",
-    "subtitle": "Basic Style for Study A",
-    "courseType": "修学基礎教育課程\n修学基礎科目\n修学基礎",
-    "credits": "2",
-    "term": "2026年度\n１期（前学期）",
-    "method": "修学規程第4条を参照",
-    "teachers": [
-      "川田　敬一",
-      "清水　節",
-      "木村　竜也",
-      "鈴木　貴士",
-      "長山　恵子＊",
-      "ライト　ブレント",
-      "谷口　萌未",
-      "白木　みどり",
-      "平泉　紀房",
-      "水谷　元紀",
-      "畝本　紗斗子",
-      "山下　恭正＊",
-      "長尾　政志＊",
-      "佐々木　瑛",
-      "増渕　隆史",
-      "平　真由子",
-      "土橋　喜人",
-      "原　健一",
-      "大貫　大樹",
-      "日向　正志",
-      "上杉　敬子",
-      "立花　達也",
-      "浜本　佑典",
-      "村田　俊也",
-      "佐藤　進",
-      "村本　美春",
-      "山上　史野",
-      "松本　圭",
-      "石川　倫子"
-    ],
-    "keywords": [
-      "キーワード",
-      "学修支援システム",
-      "大学での学び方",
-      "修学設計",
-      "キャリアデザイン",
-      "個人面談"
-    ],
-    "educationalGoal": "学習・教育目標\n本学での学習環境を把握し、学業継続を妨げる生活リスクを理解した上で、よりよい学習と\n生活のための計画を立てることができる。さらに、その計画のもとで自己管理を行い、学習\nに意欲的に取り組むことができる。また、共同の重要性も認識し、実践することができる。\n本学学生に期待される学習と生活に取り組む適切な姿勢を「学修支援システム」などを活用\nして身につけることができる。\n本学の様々な授業形態や学習スタイルを理解し、その基礎を身につけることができる。",
-    "advice": "１．学長講話等の講話を聴講し、「KIT IDEALS」、「学生宣言」の意味や意義を含めて理解することで、本学学生としての意\n　　識や修学に対する意欲、規範意識を高める。また、本学の諸施設の機能と利用法を確認して、自学自習の意識を高める。\n２．毎日「一週間の行動履歴」を記録し、学生ポータルに入力するなど「学修支援システム」を活用し、自己管理能力を高め\n    る。\n３．学習内容を通して、大学生活や社会問題などへの関心を深める。\n４．カウンセリングセンター所長講話の聴講により、メンタルヘルスの重要性を認識し、本学におけるサポート環境を把握す\nる。\n５．文章・小論文作成の基本的な技法を学習し実践することで、正しい文章表現力を身につける。\n６．グループ討議・発表の基本的な技法を学習し実践することで、それらの技法を身につける。\n７．1年次後学期以降の履修計画を立てられるよう、本学の教育課程（修学基礎教育課程、英語教育課程、数理・データサイ\n    エンス・AI教育課程、プロジェクトデザイン基礎教育課程、専門教育課程）と教育制度についての理解を深める。\n８．学習・生活など、修学全般についての個人面談を行う。\n\n①出席・提出物の締切を守ることについては特に厳しく評価する。\n②「学生ポータル」、「eシラバス」を頻繁に確認すること。",
-    "books": "教科書：指定なし\n参考書：指定なし\nﾘｻﾞｰﾌﾞﾄﾞﾌﾞｯｸ：指定なし",
-    "requiredKnowledge": "１．「KIT IDEALS」を理解し実践する意志\n２．「学生宣言」を理解し実践する意志\n３．金沢工業大学「人間力」を身に付ける意志\n４．「自ら学ぶ」という意志と意欲",
-    "activityGoals": [
-      {
-        "index": "①",
-        "type": "A,B",
-        "body": "「一週間の行動履歴」などの作成を通して自己管理能力を高め、提出物の締切厳守を含めた「自ら学ぶ」姿勢を確立できる。"
-      },
-      {
-        "index": "②",
-        "type": "A,B",
-        "body": "学習内容を通して大学生活や社会に関心をもち、キャリアデザインの意識を高めることができる。"
-      },
-      {
-        "index": "③",
-        "type": "A,B",
-        "body": "講話を聴講し、講話内容の的確な整理を行うとともに、自身の見解を口頭および文章で表現することができる。"
-      },
-      {
-        "index": "④",
-        "type": "A,B",
-        "body": "文章作成の基本技術を学習し、ルールに沿った文章の作成ができる。"
-      },
-      {
-        "index": "⑤",
-        "type": "A,B",
-        "body": "グループ討議を通して自己の見解と他者の見解を対比させ、意見をまとめ、口頭および文章で発表・表現することができる。"
-      },
-      {
-        "index": "⑥",
-        "type": "A",
-        "body": "今後の学習目標を明確にするとともに、後学期の履修計画を立てることができる。"
-      }
-    ],
-    "evaluationWeights": [
-      {
-        "label": "総合評価割合",
-        "values": [
-          "0",
-          "0",
-          "34",
-          "5",
-          "0",
-          "54",
-          "7",
-          "100"
-        ],
-        "columns": [
-          "試験",
-          "クイズ 小テスト",
-          "レポート",
-          "成果発表 (口頭・実技)",
-          "作品",
-          "ポートフォリオ",
-          "その他",
-          "合計"
-        ]
-      },
-      {
-        "label": "指標と評価割合 / 総合評価割合",
-        "values": [
-          "0",
-          "0",
-          "34",
-          "5",
-          "0",
-          "54",
-          "7",
-          "100"
-        ],
-        "columns": [
-          "試験",
-          "クイズ 小テスト",
-          "レポート",
-          "成果発表 (口頭・実技)",
-          "作品",
-          "ポートフォリオ",
-          "その他",
-          "合計"
-        ]
-      },
-      {
-        "label": "総合力指標 / 知識を取り込む力",
-        "values": [
-          "0",
-          "0",
-          "5",
-          "0",
-          "0",
-          "0",
-          "0",
-          "5"
-        ],
-        "columns": [
-          "試験",
-          "クイズ 小テスト",
-          "レポート",
-          "成果発表 (口頭・実技)",
-          "作品",
-          "ポートフォリオ",
-          "その他",
-          "合計"
-        ]
-      },
-      {
-        "label": "思考・推論・創造する力",
-        "values": [
-          "0",
-          "0",
-          "10",
-          "0",
-          "0",
-          "5",
-          "0",
-          "15"
-        ],
-        "columns": [
-          "試験",
-          "クイズ 小テスト",
-          "レポート",
-          "成果発表 (口頭・実技)",
-          "作品",
-          "ポートフォリオ",
-          "その他",
-          "合計"
-        ]
-      },
-      {
-        "label": "コラボレーションと\nリーダーシップ",
-        "values": [
-          "0",
-          "0",
-          "0",
-          "2",
-          "0",
-          "0",
-          "0",
-          "2"
-        ],
-        "columns": [
-          "試験",
-          "クイズ 小テスト",
-          "レポート",
-          "成果発表 (口頭・実技)",
-          "作品",
-          "ポートフォリオ",
-          "その他",
-          "合計"
-        ]
-      },
-      {
-        "label": "発表・表現・伝達する力",
-        "values": [
-          "0",
-          "0",
-          "15",
-          "2",
-          "0",
-          "18",
-          "0",
-          "35"
-        ],
-        "columns": [
-          "試験",
-          "クイズ 小テスト",
-          "レポート",
-          "成果発表 (口頭・実技)",
-          "作品",
-          "ポートフォリオ",
-          "その他",
-          "合計"
-        ]
-      }
-    ],
-    "achievementLevels": {
-      "ideal": "●「一週間の行動履歴」を記録し、目標を明確に記すことがで\nきる。\n●学習内容を通し、キャリアデザインの意識を高めることがで\nきる。\n●講話を聴きながら要点を整理し、自身の見解を口頭および文\n章で表現することができる。\n●文章作成の基礎を理解し、ルールに従って、正しく明解な文\n章を作成することができる。\n●自分の意見を他者の意見と対比させながら明確に述べ、口頭\nや文章で表現・発表することができる。\n●授業に欠かさず出席し、提出物の期限を守るなど、学習に対\nする積極的な態度が身についている。",
-      "standard": "●「一週間の行動履歴｣を記録することができる。\n\n●学習内容を通し、キャリアデザインを意識することができる\n。\n●講話の内容を口頭もしくは文章でまとめることができる。\n\n●文章作成のルールに従い、文章を作成することができる。\n\n●自分の意見と他者の意見を区別することができる。\n\n●授業に出席し、提出物の期限を守るなどの学習態度が身につ\nいている。"
-    },
-    "clipProcess": "",
-    "lessons": [
-      {
-        "index": "第１回",
-        "content": "●ガイダンス\n　・大学での学び方の理解\n　・メモ・ノートの取り方\n　・KITポートフォリオシステム解説\n　・「一週間の行動履歴」の活用\n\n【持参物】\n『修学基礎2026 ワークシート』（毎回持参すること\n。以降未記載）\n　修学アドバイザーが指示したもの\n　(授業内容に応じて修学アドバイザーから指示があ\nる。指示を必ず確認すること。以降、同様のため未記\n載）",
-        "operation": "講義・演習",
-        "assignments": "【課題】\n　・一週間の行動履歴\n　・「キャンパスラリー」\n　・「自己診断シート」\n※各種課題の提出日、提出方法は\n修学アドバイザーの指示に従うこ\nと。",
-        "minutes": "30\n60\n30"
-      },
-      {
-        "index": "第２回",
-        "content": "●学長講話\n　・講話の聴講\n　・「聴講メモ：学長講話」の作成\n\n【提出物】\n　・一週間の行動履歴\n　※課題の提出日、提出方法については目安であり、\n詳細は修学アドバイザーの指示に従うこと。以降、同\n様のため未記載",
-        "operation": "講話の聴講\nグループ討議",
-        "assignments": "【課題】\n　・一週間の行動履歴\n　・「キャンパスラリー」\n　・「聴講メモ：学長講話」",
-        "minutes": "30\n60\n30"
-      },
-      {
-        "index": "第３回",
-        "content": "●「先輩たちの学生生活」\n　・上級生の大学生活について聴講する。\n　・グループ討議\n　・質疑応答\n　・「聴講メモ：先輩たちの学生生活」の作成\n\n【提出物】\n　・「キャンパスラリー」\n　・「聴講メモ：学長講話」",
-        "operation": "講話の聴講\nグループ討議",
-        "assignments": "【課題】\n　・一週間の行動履歴\n　・「聴講メモ：先輩たちの学生\n生活」",
-        "minutes": "30\n30"
-      },
-      {
-        "index": "第４回",
-        "content": "●「文章作成の基本①」\n　・文献の探し方\n　・書式設定方法\n　・文章の要約\n\n【提出物】\n　・「聴講メモ：先輩たちの学生生活」",
-        "operation": "講義・演習",
-        "assignments": "【課題】\n　・一週間の行動履歴\n　・要約文\n　・新聞ポートフォリオ\n　　※新聞ポートフォリオは修学\nアドバイザーの指定する期間に1\n週分取り組むこと。",
-        "minutes": "30\n90\n30"
-      },
-      {
-        "index": "第５回",
-        "content": "●「文章作成の基本②」\n　・文章の構成(アウトライン)を理解する\n　・「小論文」の作成\n\n【提出物】\n　・「要約文」",
-        "operation": "講義・演習",
-        "assignments": "【課題】\n　・一週間の行動履歴\n　・「小論文アウトライン」",
-        "minutes": "30\n60"
-      },
-      {
-        "index": "第６回",
-        "content": "●カウンセリングセンター所長講話\n　・「聴講メモ：カウンセリングセンター所長講話」\nの作成\n　・グループ討議\n  ・これまでに提出した聴講メモを返却する。",
-        "operation": "講話の聴講\n指定教室にて【オンデマンド\n視聴】",
-        "assignments": "【課題】\n　・一週間の行動履歴\n　・「聴講メモ：カウンセリング\nセンター所長講話」\n　・「私の大学生活」",
-        "minutes": "30\n30\n\n30"
-      },
-      {
-        "index": "第７回",
-        "content": "●「グループ討議①」\n　・小論文テーマに基づいたアウトラインを参照し、\nグループ討議を行う。\n\n【提出物】\n　・「聴講メモ：カウンセリングセンター所長講話」\n　・「私の大学生活」",
-        "operation": "講義・演習\nグループ討議",
-        "assignments": "【課題】\n　・一週間の行動履歴",
-        "minutes": "30"
-      },
-      {
-        "index": "第８回",
-        "content": "●「グループ討議②」\n　・前回に引き続き、グループ討議を行う。\n　・発表スライドを作成する。\n　・授業後半にはリハーサルを行う。",
-        "operation": "講義・演習\nグループ討議",
-        "assignments": "【課題】\n　・一週間の行動履歴\n　・「小論文」",
-        "minutes": "30\n90"
-      },
-      {
-        "index": "第９回",
-        "content": "●「プレゼンテーション」\n　・グループで討議してきた内容について、プレゼン\nテーションを行う。\n　・発表の相互評価を行う。\n\n【提出物】\n　・グループ活動に関する課題",
-        "operation": "講義・演習\nプレゼンテーション",
-        "assignments": "【課題】\n　・一週間の行動履歴\n　・「小論文」",
-        "minutes": "30\n90"
-      },
-      {
-        "index": "第10回",
-        "content": "●「文章作成の基本③」\n　・引用について\n　・自身が作成した小論文に講義内容を反映させる\n\n【次回持参物】\n　・「小論文（完成したもの）」",
-        "operation": "講義・演習",
-        "assignments": "【課題】\n　・一週間の行動履歴\n　・「小論文」",
-        "minutes": "30\n30"
-      },
-      {
-        "index": "第11回",
-        "content": "●「文章作成の基本④」\n　・チェックシートを用いて小論文の相互チェックを\n行う\n　・これまでの文章作成に関する内容を復習する\n\n【提出物】\n　・「小論文」",
-        "operation": "講義・演習",
-        "assignments": "【課題】\n　・一週間の行動履歴",
-        "minutes": "30"
-      },
-      {
-        "index": "第12回",
-        "content": "●自己開発センター所長講話\n　・「聴講メモ：自己開発センター所長講話」の作成\n　・グループ討議\n\n【次回提出物】\n　・「聴講メモ：自己開発センター所長講話」",
-        "operation": "講話の聴講\n指定教室にて【オンデマンド\n視聴】",
-        "assignments": "【課題】\n　・一週間の行動履歴\n　・「聴講メモ：自己開発センタ\nー所長講話」\n　・「前学期の達成度自己評価」",
-        "minutes": "30\n30\n60"
-      },
-      {
-        "index": "第13回",
-        "content": "●個人面談・（必要と希望に応じて）再個人面談\n　・4月下旬から5月上旬にかけての個人面談（全員）\n　※個人面談の出欠は、この回の出欠となる。面談の\n際には「自己診断シート」を持参すること\n\n　・希望者と修学アドバイザーに指示された者は再個\n人面談を行う\n\n【提出物】\n　・「前学期の達成度自己評価」\n　※教員の指定する日時・場所に提出すること",
-        "operation": "教室での授業は行わない",
-        "assignments": "【課題】\n　・一週間の行動履歴",
-        "minutes": "30"
-      },
-      {
-        "index": "第14回",
-        "content": "●大学における履修について\n　・大学における単位制度の理解\n　・履修申請の方法と後学期の履修計画\n　・サブメジャー制度などの理解",
-        "operation": "講義・演習",
-        "assignments": "【課題】\n　・一週間の行動履歴",
-        "minutes": "30"
-      },
-      {
-        "index": "第15回",
-        "content": "●修学アドバイザーによる自由講義・演習\n\n●夏期休暇に関する注意\n　・夏期休暇中の生活に関する注意事項、夏期休暇中\nの学習や集中講義、後学期の日程の確認\n●成績確認\n　・出席および課題提出状況などの確認、自らの成果\nの振り返りと反省",
-        "operation": "講義・演習",
-        "assignments": "【課題】\n　・一週間の行動履歴\n  　※夏期休暇中も作成する",
-        "minutes": "30"
-      }
-    ],
-    "rawText": "印刷 閉じる\n修学基礎教育課程\n授業科目区分\t科目名\t単位数\t科目コード\t開講時期\t履修方法\n修学基礎教育課程\n修学基礎科目\n修学基礎\n修学基礎Ａ\nBasic Style for Study A\n\t2\tG001-01\t2026年度\n１期（前学期）\t修学規程第4条を参照\n担当教員名\n\n川田　敬一、清水　節、木村　竜也、鈴木　貴士、長山　恵子＊、ライト　ブレント、谷口　萌未、白木　みどり、平泉　紀房、水谷　元紀、畝本　紗斗子、山下　恭正＊、長尾　政志＊、佐々木　瑛、増渕　隆史、平　真由子、土橋　喜人、原　健一、大貫　大樹、日向　正志、上杉　敬子、立花　達也、浜本　佑典、村田　俊也、佐藤　進、村本　美春、山上　史野、松本　圭、石川　倫子\n＊印は、実務経験のある教員を示しています。\n授業科目の学習・教育目標\nキーワード\t学習・教育目標\n\n1.学修支援システム\n2.大学での学び方\n3.修学設計\n4.キャリアデザイン\n5.個人面談\n\n本学での学習環境を把握し、学業継続を妨げる生活リスクを理解した上で、よりよい学習と\n生活のための計画を立てることができる。さらに、その計画のもとで自己管理を行い、学習\nに意欲的に取り組むことができる。また、共同の重要性も認識し、実践することができる。\n本学学生に期待される学習と生活に取り組む適切な姿勢を「学修支援システム」などを活用\nして身につけることができる。\n本学の様々な授業形態や学習スタイルを理解し、その基礎を身につけることができる。\n授業の概要および学習上の助言\n\n１．学長講話等の講話を聴講し、「KIT IDEALS」、「学生宣言」の意味や意義を含めて理解することで、本学学生としての意\n　　識や修学に対する意欲、規範意識を高める。また、本学の諸施設の機能と利用法を確認して、自学自習の意識を高める。\n２．毎日「一週間の行動履歴」を記録し、学生ポータルに入力するなど「学修支援システム」を活用し、自己管理能力を高め\n    る。\n３．学習内容を通して、大学生活や社会問題などへの関心を深める。\n４．カウンセリングセンター所長講話の聴講により、メンタルヘルスの重要性を認識し、本学におけるサポート環境を把握す\nる。\n５．文章・小論文作成の基本的な技法を学習し実践することで、正しい文章表現力を身につける。\n６．グループ討議・発表の基本的な技法を学習し実践することで、それらの技法を身につける。\n７．1年次後学期以降の履修計画を立てられるよう、本学の教育課程（修学基礎教育課程、英語教育課程、数理・データサイ\n    エンス・AI教育課程、プロジェクトデザイン基礎教育課程、専門教育課程）と教育制度についての理解を深める。\n８．学習・生活など、修学全般についての個人面談を行う。\n\n①出席・提出物の締切を守ることについては特に厳しく評価する。\n②「学生ポータル」、「eシラバス」を頻繁に確認すること。\n教科書および参考書・リザーブドブック\n\n教科書：指定なし\n参考書：指定なし\nﾘｻﾞｰﾌﾞﾄﾞﾌﾞｯｸ：指定なし\n履修に必要な予備知識や技能\n\n１．「KIT IDEALS」を理解し実践する意志\n２．「学生宣言」を理解し実践する意志\n３．金沢工業大学「人間力」を身に付ける意志\n４．「自ら学ぶ」という意志と意欲\n学生が達成すべき行動目標\nNo.\t学科教育目標\n①\tA,B\t「一週間の行動履歴」などの作成を通して自己管理能力を高め、提出物の締切厳守を含めた「自ら学ぶ」姿勢を確立できる。\n②\tA,B\t学習内容を通して大学生活や社会に関心をもち、キャリアデザインの意識を高めることができる。\n③\tA,B\t講話を聴講し、講話内容の的確な整理を行うとともに、自身の見解を口頭および文章で表現することができる。\n④\tA,B\t文章作成の基本技術を学習し、ルールに沿った文章の作成ができる。\n⑤\tA,B\tグループ討議を通して自己の見解と他者の見解を対比させ、意見をまとめ、口頭および文章で発表・表現することができる。\n⑥\tA\t今後の学習目標を明確にするとともに、後学期の履修計画を立てることができる。\n達成度評価\n\t評価方法\n試験\tクイズ\n小テスト\tレポート\t成果発表\n(口頭・実技)\t作品\tポートフォリオ\tその他\t合計\n指標と評価割合\t総合評価割合\t0\t0\t34\t5\t0\t54\t7\t100\n総合力指標\t知識を取り込む力\t0\t0\t5\t0\t0\t0\t0\t5\n思考・推論・創造する力\t0\t0\t10\t0\t0\t5\t0\t15\nコラボレーションと\nリーダーシップ\t0\t0\t0\t2\t0\t0\t0\t2\n発表・表現・伝達する力\t0\t0\t15\t2\t0\t18\t0\t35\n学習に取組む姿勢・意欲\t0\t0\t4\t1\t0\t31\t7\t43\n※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n評価の要点\n評価方法\t行動目標\t評価の実施方法と注意点\n試験\t①\t　\n\n②\t　\n③\t　\n④\t　\n⑤\t　\n⑥\t　\nクイズ\n小テスト\t①\t　\n\n②\t　\n③\t　\n④\t　\n⑤\t　\n⑥\t　\nレポート\t①\tレ\n●レポート１「聴講メモ：学長講話」（3点）\n●レポート２「聴講メモ：先輩たちの学生生活」（3点）\n●レポート３「聴講メモ：カウンセリングセンター所長講話」（3点）\n●レポート４「聴講メモ：自己開発センター所長講話」（3点）\n●レポート５：「要約文」（4点）　　　●レポート６：「小論文アウトライン（3点）\n●レポート７：「小論文」（10点）　　 ●レポート８：「私の学生生活」（5点）\n\n②\tレ\n③\tレ\n④\tレ\n⑤\t　\n⑥\t　\n成果発表\n(口頭・実技)\t①\t　\n●グループ討議・プレゼンテーション（5点）\n\n②\tレ\n③\t　\n④\t　\n⑤\tレ\n⑥\t　\n作品\t①\t　\n\n②\t　\n③\t　\n④\t　\n⑤\t　\n⑥\t　\nポートフォリオ\t①\tレ\n●「一週間の行動履歴」　3点×15週分 = 45点\n●「新聞ポートフォリオ」3点×1週分 = 3点\n　※提出する授業回などについては、修学アドバイザーの指示に従うこと。\n　※提出の有無に関わらず「行動履歴」は毎週作成し、新聞に目を通す習慣をつけることが望ましい。\n●前学期の達成度自己評価（6点）\n\n②\tレ\n③\t　\n④\t　\n⑤\t　\n⑥\tレ\nその他\t①\tレ\n●7点満点で、受講態度の不良（遅刻、欠席、学習意欲の欠如、提出物の未提出、グループ活動への非協\n力など）が見られる場合減点する。\n●6回以上の欠席は「F」判定となる。\n●個人面談の無断欠席者は13回目の授業を欠席扱いとする。\n\n②\t　\n③\t　\n④\t　\n⑤\t　\n⑥\t　\n具体的な達成の目安\n理想的な達成レベルの目安\t標準的な達成レベルの目安\n\n●「一週間の行動履歴」を記録し、目標を明確に記すことがで\nきる。\n●学習内容を通し、キャリアデザインの意識を高めることがで\nきる。\n●講話を聴きながら要点を整理し、自身の見解を口頭および文\n章で表現することができる。\n●文章作成の基礎を理解し、ルールに従って、正しく明解な文\n章を作成することができる。\n●自分の意見を他者の意見と対比させながら明確に述べ、口頭\nや文章で表現・発表することができる。\n●授業に欠かさず出席し、提出物の期限を守るなど、学習に対\nする積極的な態度が身についている。\n\n●「一週間の行動履歴｣を記録することができる。\n\n●学習内容を通し、キャリアデザインを意識することができる\n。\n●講話の内容を口頭もしくは文章でまとめることができる。\n\n●文章作成のルールに従い、文章を作成することができる。\n\n●自分の意見と他者の意見を区別することができる。\n\n●授業に出席し、提出物の期限を守るなどの学習態度が身につ\nいている。\nＣＬＩＰ学習プロセスについて\n一般に、授業あるいは課外での学習では：「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、ＧｏｏｄＷｏｒｋ！」：のようなプロセス（一部あるいは全体）を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n※学習課題の時間欄には、指定された学習課題に要する標準的な時間を記載してあります。日々の自学自習時間全体としては、各授業に応じた時間（例えば2単位科目の場合、予習2時間・復習2時間／週）を取るよう努めてください。詳しくは教員の指導に従って下さい。\n授業明細\n回数\t学習内容\t授業の運営方法\t学習課題 (予習・復習)\t時間：分※\n\n第１回\n\n●ガイダンス\n　・大学での学び方の理解\n　・メモ・ノートの取り方\n　・KITポートフォリオシステム解説\n　・「一週間の行動履歴」の活用\n\n【持参物】\n『修学基礎2026 ワークシート』（毎回持参すること\n。以降未記載）\n　修学アドバイザーが指示したもの\n　(授業内容に応じて修学アドバイザーから指示があ\nる。指示を必ず確認すること。以降、同様のため未記\n載）\n\n講義・演習\n\n【課題】\n　・一週間の行動履歴\n　・「キャンパスラリー」\n　・「自己診断シート」\n※各種課題の提出日、提出方法は\n修学アドバイザーの指示に従うこ\nと。\n\n　\n30\n60\n30\n\n第２回\n\n●学長講話\n　・講話の聴講\n　・「聴講メモ：学長講話」の作成\n\n【提出物】\n　・一週間の行動履歴\n　※課題の提出日、提出方法については目安であり、\n詳細は修学アドバイザーの指示に従うこと。以降、同\n様のため未記載\n\n講話の聴講\nグループ討議\n\n【課題】\n　・一週間の行動履歴\n　・「キャンパスラリー」\n　・「聴講メモ：学長講話」\n\n　\n30\n60\n30\n\n第３回\n\n●「先輩たちの学生生活」\n　・上級生の大学生活について聴講する。\n　・グループ討議\n　・質疑応答\n　・「聴講メモ：先輩たちの学生生活」の作成\n\n【提出物】\n　・「キャンパスラリー」\n　・「聴講メモ：学長講話」\n\n講話の聴講\nグループ討議\n\n【課題】\n　・一週間の行動履歴\n　・「聴講メモ：先輩たちの学生\n生活」\n\n　\n30\n30\n\n第４回\n\n●「文章作成の基本①」\n　・文献の探し方\n　・書式設定方法\n　・文章の要約\n\n【提出物】\n　・「聴講メモ：先輩たちの学生生活」\n\n講義・演習\n\n【課題】\n　・一週間の行動履歴\n　・要約文\n　・新聞ポートフォリオ\n　　※新聞ポートフォリオは修学\nアドバイザーの指定する期間に1\n週分取り組むこと。\n\n30\n90\n30\n\n第５回\n\n●「文章作成の基本②」\n　・文章の構成(アウトライン)を理解する\n　・「小論文」の作成\n\n【提出物】\n　・「要約文」\n\n講義・演習\n\n【課題】\n　・一週間の行動履歴\n　・「小論文アウトライン」\n\n30\n60\n\n第６回\n\n●カウンセリングセンター所長講話\n　・「聴講メモ：カウンセリングセンター所長講話」\nの作成\n　・グループ討議\n  ・これまでに提出した聴講メモを返却する。\n\n講話の聴講\n指定教室にて【オンデマンド\n視聴】\n\n【課題】\n　・一週間の行動履歴\n　・「聴講メモ：カウンセリング\nセンター所長講話」\n　・「私の大学生活」\n\n　\n30\n30\n\n30\n\n第７回\n\n●「グループ討議①」\n　・小論文テーマに基づいたアウトラインを参照し、\nグループ討議を行う。\n\n【提出物】\n　・「聴講メモ：カウンセリングセンター所長講話」\n　・「私の大学生活」\n\n講義・演習\nグループ討議\n\n【課題】\n　・一週間の行動履歴\n\n　\n30\n\n第８回\n\n●「グループ討議②」\n　・前回に引き続き、グループ討議を行う。\n　・発表スライドを作成する。\n　・授業後半にはリハーサルを行う。\n\n講義・演習\nグループ討議\n\n【課題】\n　・一週間の行動履歴\n　・「小論文」\n\n　\n30\n90\n\n第９回\n\n●「プレゼンテーション」\n　・グループで討議してきた内容について、プレゼン\nテーションを行う。\n　・発表の相互評価を行う。\n\n【提出物】\n　・グループ活動に関する課題\n\n講義・演習\nプレゼンテーション\n\n【課題】\n　・一週間の行動履歴\n　・「小論文」\n\n　\n30\n90\n\n第10回\n\n●「文章作成の基本③」\n　・引用について\n　・自身が作成した小論文に講義内容を反映させる\n\n【次回持参物】\n　・「小論文（完成したもの）」\n\n講義・演習\n\n【課題】\n　・一週間の行動履歴\n　・「小論文」\n\n　\n30\n30\n\n第11回\n\n●「文章作成の基本④」\n　・チェックシートを用いて小論文の相互チェックを\n行う\n　・これまでの文章作成に関する内容を復習する\n\n【提出物】\n　・「小論文」\n\n講義・演習\n\n【課題】\n　・一週間の行動履歴\n\n　\n30\n\n第12回\n\n●自己開発センター所長講話\n　・「聴講メモ：自己開発センター所長講話」の作成\n　・グループ討議\n\n【次回提出物】\n　・「聴講メモ：自己開発センター所長講話」\n\n講話の聴講\n指定教室にて【オンデマンド\n視聴】\n\n【課題】\n　・一週間の行動履歴\n　・「聴講メモ：自己開発センタ\nー所長講話」\n　・「前学期の達成度自己評価」\n\n　\n30\n30\n60\n\n第13回\n\n●個人面談・（必要と希望に応じて）再個人面談\n　・4月下旬から5月上旬にかけての個人面談（全員）\n　※個人面談の出欠は、この回の出欠となる。面談の\n際には「自己診断シート」を持参すること\n\n　・希望者と修学アドバイザーに指示された者は再個\n人面談を行う\n\n【提出物】\n　・「前学期の達成度自己評価」\n　※教員の指定する日時・場所に提出すること\n\n教室での授業は行わない\n\n【課題】\n　・一週間の行動履歴\n\n　\n30\n\n第14回\n\n●大学における履修について\n　・大学における単位制度の理解\n　・履修申請の方法と後学期の履修計画\n　・サブメジャー制度などの理解\n\n講義・演習\n\n【課題】\n　・一週間の行動履歴\n\n30\n\n第15回\n\n●修学アドバイザーによる自由講義・演習\n\n●夏期休暇に関する注意\n　・夏期休暇中の生活に関する注意事項、夏期休暇中\nの学習や集中講義、後学期の日程の確認\n●成績確認\n　・出席および課題提出状況などの確認、自らの成果\nの振り返りと反省\n\n講義・演習\n\n【課題】\n　・一週間の行動履歴\n  　※夏期休暇中も作成する\n\n30"
-  }
-};
