@@ -526,11 +526,36 @@ function CourseList() {
         onToggle={() => setCreditCalculatorOpen((value) => !value)}
       />
 
+      <div className="table-controls">
+        <div className="selection-summary">
+          <strong>{displayText(selectedCourseIds.size)}</strong>
+          <span>件を単位計算に選択中</span>
+        </div>
+        <nav className="pagination" aria-label="ページネーション">
+          <button disabled={currentPage <= 1} onClick={() => setPage(1)}>
+            最初
+          </button>
+          <button disabled={currentPage <= 1} onClick={() => setPage((value) => value - 1)}>
+            前へ
+          </button>
+          <span>
+            {displayText(currentPage)} / {displayText(totalPages)} ページ（{displayText(pageRangeStart)}-
+            {displayText(pageRangeEnd)} 件）
+          </span>
+          <button disabled={currentPage >= totalPages} onClick={() => setPage((value) => value + 1)}>
+            次へ
+          </button>
+          <button disabled={currentPage >= totalPages} onClick={() => setPage(totalPages)}>
+            最後
+          </button>
+        </nav>
+      </div>
+
       <section className="course-table-wrap">
         <table className="course-table">
           <thead>
             <tr>
-              <th>
+              <th className="selection-cell">
                 <input
                   aria-label="このページの科目を選択"
                   checked={allOnPageSelected}
@@ -551,13 +576,12 @@ function CourseList() {
           <tbody>
             {paginated.map((course) => (
               <tr key={course.id} onClick={() => navigate(course.routePath)}>
-                <td>
+                <td className="selection-cell" onClick={(event) => event.stopPropagation()}>
                   <input
                     aria-label={`${displayText(course.courseName)}を単位計算に追加`}
                     checked={selectedCourseIds.has(course.id)}
                     type="checkbox"
                     onChange={() => toggleCourse(course.id)}
-                    onClick={(event) => event.stopPropagation()}
                   />
                 </td>
                 <td>{displayText(course.yearLabel)}</td>
@@ -585,24 +609,6 @@ function CourseList() {
           </tbody>
         </table>
       </section>
-      <nav className="pagination" aria-label="ページネーション">
-        <button disabled={currentPage <= 1} onClick={() => setPage(1)}>
-          最初
-        </button>
-        <button disabled={currentPage <= 1} onClick={() => setPage((value) => value - 1)}>
-          前へ
-        </button>
-        <span>
-          {displayText(currentPage)} / {displayText(totalPages)} ページ（{displayText(pageRangeStart)}-
-          {displayText(pageRangeEnd)} 件）
-        </span>
-        <button disabled={currentPage >= totalPages} onClick={() => setPage((value) => value + 1)}>
-          次へ
-        </button>
-        <button disabled={currentPage >= totalPages} onClick={() => setPage(totalPages)}>
-          最後
-        </button>
-      </nav>
     </main>
   );
 }
