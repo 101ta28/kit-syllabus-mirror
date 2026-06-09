@@ -1,65 +1,63 @@
 {
   "sourceIndex": 570,
   "sourceUrl": "/opsyllabus/kitos0110/570/1",
-  "importedAt": "2026-06-08T09:34:04.739Z",
-  "title": "プロジェクトデザインⅢ（土田義郎研究室）",
-  "subtitle": "Design Project III(Tsuchida Yoshio)",
-  "courseType": "Major ProgramMajor Project Courses",
-  "credits": "8",
-  "term": "2026年度\n\n                All year",
+  "importedAt": "2026-06-09T01:29:24.377Z",
+  "title": "数理マネジメント",
+  "subtitle": "Mathematical Methods for Business",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "2",
+  "term": "2024年度\n 2nd year 2nd semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "TSUCHIDA Yoshio"
+    "TAKECHI Shoji"
   ],
   "keywords": [
-    "Soundscape",
-    "Disaster prevention broadcast",
-    "Environnmental psychology"
+    "Mathematical Models 2.Operations Research 3.Microsoft Excel 4.Production Planning 5.Inventory Management"
   ],
-  "educationalGoal": "Architecture and cities are required to have various functions for human life. There, environmental comfort is important. The fundamental goal of the lab is to know the psychological response to the physical environment. In this subject, we study the psychological system of human environmental recognition and evaluation. The laboratory aims to contribute to the construction of architectural and urban spaces.",
-  "advice": "* Project flow\n[1] Rewrite the proposal created during the third grade. Make an oral presentation in the seminar and submit the revised proposal.\n[2] To obtain the necessary knowledge for the project, abstract related documents.\n[3] Conduct surveys and experiments based on proposals. Use the method appropriate for the purpose of the project.\n[4] Hold an interim report meeting twice a year. Create a summary paper in the prescribed format. And give an oral presentation.\n[5] Submit a project report and an outline on a fixed date, and give a presentation outside the university at a public review board.\n\n* Unlike general lectures and experiments, there is no fixed methodology. It is necessary to devise original ideas after carefully conducting past case studies. I want you to always have a spirit of challenge.\n\n* Some activities are required during the spring break. If the direction is not fixed by that time, the activities will be delayed later and it will be difficult to reach the ideal level.",
+  "educationalGoal": "This course deals with quantitative analysis from a business perspective. Students will learn to: (1)conduct quantitative analyses based on the methods of operations research. (2)make choices based on mathematical methods such as inventory analysis, queueing theory, demand estimation, and so on.",
+  "advice": "This is a basic course in operations research. Students will learn the theoretical foundations for the various mathematical models of operations research and will acquire practical skills to analyze and plan through exercises using Microsoft Excel. We will cover the following topics: 1) Graphs and tables for business data. 2) Mathematical estimation using the multiple regression analysis. 3) Simulation: inventory management, queueing theory 4) Optimization: linear programming. Students are required to bring their laptop computer, with Microsoft Excel installed, to every class.",
   "books": "None",
-  "requiredKnowledge": "Students are assumed to have a knowledge of environmental engineering.",
+  "requiredKnowledge": "Basic computer skills",
   "activityGoals": [
     {
       "index": "①",
-      "type": "N,Q,R",
-      "body": "Students are able to utilize their expertise to identify problems and propose solutions."
+      "type": "D",
+      "body": "Be able to explain problems from a mathematical viewpoint."
     },
     {
       "index": "②",
-      "type": "Q,R",
-      "body": "Students are able to select a project theme and promote it independently."
+      "type": "D,L",
+      "body": "Be able to solve problems using mathematical tools such as Microsoft Excel."
     },
     {
       "index": "③",
-      "type": "N,Q,R",
-      "body": "Students are able to write a report that logically expresses the process from problem discovery to solution."
+      "type": "D,L",
+      "body": "Be able to construct mathematical models of complex problems in business."
     },
     {
       "index": "④",
-      "type": "I,S",
-      "body": "Students are able to understand the state of the architectural field and determine their own career path."
+      "type": "D,L,M",
+      "body": "Be able to propose effective solutions to business problems based on mathematical methods."
     }
   ],
   "evaluationWeights": [
     {
       "label": "総合評価割合",
       "values": [
-        "0",
+        "40",
         "0",
         "50",
-        "30",
         "0",
         "0",
-        "20",
+        "0",
+        "10",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -69,20 +67,20 @@
     {
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
-        "0",
+        "40",
         "0",
         "50",
-        "30",
         "0",
         "0",
-        "20",
+        "0",
+        "10",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -92,20 +90,20 @@
     {
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
-        "0",
+        "40",
         "0",
         "50",
-        "30",
         "0",
         "0",
-        "20",
+        "0",
+        "10",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -126,9 +124,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -136,7 +134,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -149,9 +147,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -172,9 +170,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -183,41 +181,118 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "(1) Students review previous research relevant to a project theme crossing to two or more scientific fields.\n(2) Students conceive an experiment, survey, and analysis required to move the research forward and clarify the originality of their research.\n(3) Students can correctly explain the actual conditions and phenomena related to the thermal environment and primary energy consumption based on usage.\n(4) Students create and display suitable and attractive charts to the audience in a society presentation.\n(5) Students create appropriate project reports.",
-    "standard": "(1) Students review previous research relevant to a project theme.\n(2) Students conceive an experiment, survey, and analysis required to move the research forward.\n(3) Students can correctly explain the actual conditions and phenomena related to the environment and energy consumption.\n(4) Students create and display suitable charts for explaining their findings to a third party.\n(5) Students create appropriate project reports."
+    "ideal": "1) Have a full understanding of the mathematical models and methods of operations research and be able to explain them. 2) Create appropriate mathematical models and solve problems correctly using tools such as Microsoft Excel.",
+    "standard": "1) Understand the mathematical models and methods of operations research. 2) Solve mathematical problems correctly using tools such as Microsoft Excel"
   },
   "clipProcess": "",
   "lessons": [
     {
-      "index": "1-40",
-      "content": "Review of previous research relevant to a\nproject theme",
-      "operation": "Laboratory seminar",
-      "assignments": "Survey of previous research\nPreparation of experiments\nand monitoring",
-      "minutes": "16000"
+      "index": "1",
+      "content": "Course introduction Data aggregation (1) with Microsoft Excel",
+      "operation": "Lecture and exercise",
+      "assignments": "Prepare for exercises using Microsoft Excel",
+      "minutes": "120"
     },
     {
-      "index": "41-80",
-      "content": "Experiments and monitoring of the research\nsubjects",
-      "operation": "Laboratory seminar\nExperiments\nSurveillance",
-      "assignments": "Analysis of the acquired data",
-      "minutes": "32000"
+      "index": "2",
+      "content": "Data aggregation (2) with Microsoft Excel",
+      "operation": "Lecture, exercise, and self-check",
+      "assignments": "Review materials from the previous class",
+      "minutes": "240"
     },
     {
-      "index": "81-100",
-      "content": "Discovery of principles and mechanisms based\non data analysis",
-      "operation": "Laboratory seminar",
-      "assignments": "Creating suitable charts for\n explaining the findings",
-      "minutes": "24000"
+      "index": "3",
+      "content": "Estimation with multi-regression analysis",
+      "operation": "Lecture, exercise, and self-check",
+      "assignments": "Review materials from the previous class",
+      "minutes": "300"
     },
     {
-      "index": "101-12\n0",
-      "content": "Creation of a project report",
-      "operation": "Laboratory seminar",
-      "assignments": "Writing the text",
-      "minutes": "16000"
+      "index": "4",
+      "content": "Queueing theory (1)",
+      "operation": "Lecture and exercise",
+      "assignments": "Review materials from the previous class",
+      "minutes": "240"
+    },
+    {
+      "index": "5",
+      "content": "Queueing theory (2)",
+      "operation": "Lecture and exercise",
+      "assignments": "Review materials from the previous class Prepare for mini-exam on queueing theory",
+      "minutes": "300"
+    },
+    {
+      "index": "6",
+      "content": "Mini-exam",
+      "operation": "Mini-exam Lecture, exercise, and self-reflection",
+      "assignments": "Review materials from the previous class",
+      "minutes": "300"
+    },
+    {
+      "index": "7",
+      "content": "Inventory management (1)",
+      "operation": "Lecture and exercise",
+      "assignments": "Review materials from the previous class",
+      "minutes": "360"
+    },
+    {
+      "index": "8",
+      "content": "Inventory management (2)",
+      "operation": "Lecture and exercise",
+      "assignments": "Review materials from the previous class",
+      "minutes": "360"
+    },
+    {
+      "index": "9",
+      "content": "Midterm examination",
+      "operation": "Lecture, examination, and self-reflection",
+      "assignments": "Review materials from the previous class Prepare for midterm examination",
+      "minutes": "360"
+    },
+    {
+      "index": "10",
+      "content": "Scheduling (1)",
+      "operation": "Lecture and exercise",
+      "assignments": "Review materials from the previous class",
+      "minutes": "300"
+    },
+    {
+      "index": "11",
+      "content": "Scheduling (2)",
+      "operation": "Lecture and exercise",
+      "assignments": "Review materials from the previous class",
+      "minutes": "300"
+    },
+    {
+      "index": "12",
+      "content": "Optimization and Linear programming (1)",
+      "operation": "Lecture and exercise",
+      "assignments": "Review materials from the previous class",
+      "minutes": "300"
+    },
+    {
+      "index": "13",
+      "content": "Optimization and Linear programming (2)",
+      "operation": "Lecture, exercise, and self-reflection",
+      "assignments": "Review materials from the previous class Prepare for final examination",
+      "minutes": "360"
+    },
+    {
+      "index": "14",
+      "content": "Final examination Self-reflection",
+      "operation": "Examination, lecture, and self-reflection",
+      "assignments": "Review materials from the all classes",
+      "minutes": "240"
+    },
+    {
+      "index": "15",
+      "content": "Final review Self-evaluation",
+      "operation": "Lecture, interactive activities, and self-reflection",
+      "assignments": "Self-evaluation",
+      "minutes": "60"
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　A921-12\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Architecture(〜2024)\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Project Courses\n\n                プロジェクトデザインⅢ（土田義郎研究室）\n                Design Project III(Tsuchida Yoshio)\n\n              8\n              A921-12\n\n                2026年度\n\n                All year\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  TSUCHIDA Yoshio\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Soundscape\n2.Disaster prevention broadcast\n3.Environnmental psychology\n\n              Architecture and cities are required to have various functions for human life. There, environmental comfort is important. The fundamental goal of the lab is to know the psychological response to the physical environment. In this subject, we study the psychological system of human environmental recognition and evaluation. The laboratory aims to contribute to the construction of architectural and urban spaces.\n\n              授業の概要および学習上の助言\n\n              * Project flow\n[1] Rewrite the proposal created during the third grade. Make an oral presentation in the seminar and submit the revised proposal.\n[2] To obtain the necessary knowledge for the project, abstract related documents.\n[3] Conduct surveys and experiments based on proposals. Use the method appropriate for the purpose of the project.\n[4] Hold an interim report meeting twice a year. Create a summary paper in the prescribed format. And give an oral presentation.\n[5] Submit a project report and an outline on a fixed date, and give a presentation outside the university at a public review board.\n\n* Unlike general lectures and experiments, there is no fixed methodology. It is necessary to devise original ideas after carefully conducting past case studies. I want you to always have a spirit of challenge.\n\n* Some activities are required during the spring break. If the direction is not fixed by that time, the activities will be delayed later and it will be difficult to reach the ideal level.\n\n              教科書および参考書・リザーブドブック\n\n              None\n\n              履修に必要な予備知識や技能\n\n              Students are assumed to have a knowledge of environmental engineering.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                N,Q,R\n                Students are able to utilize their expertise to identify problems and propose solutions.\n\n                ②\n                Q,R\n                Students are able to select a project theme and promote it independently.\n\n                ③\n                N,Q,R\n                Students are able to write a report that logically expresses the process from problem discovery to solution.\n\n                ④\n                I,S\n                Students are able to understand the state of the architectural field and determine their own career path.\n\n                ⑤\n\n                ⑥\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                0\n\n                0\n\n                50\n\n                30\n\n                0\n\n                0\n\n                20\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                0\n\n                0\n\n                50\n\n                30\n\n                0\n\n                0\n\n                20\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                0\n\n                0\n\n                50\n\n                30\n\n                0\n\n                0\n\n                20\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n      ",
-  "courseId": "2026:full-year:A921-12:0:570",
+  "rawText": "金沢工業大学 学習支援計画書 F116-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Management Systems\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n数理マネジメント\nMathematical Methods for Business  2 F116-01  2024年度\n 2nd year 2nd semester  修学規程第4条を参照\n    担当教員名\n TAKECHI Shoji\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Mathematical Models 2.Operations Research 3.Microsoft Excel 4.Production Planning 5.Inventory Management  This course deals with quantitative analysis from a business perspective. Students will learn to: (1)conduct quantitative analyses based on the methods of operations research. (2)make choices based on mathematical methods such as inventory analysis, queueing theory, demand estimation, and so on.\n    授業の概要および学習上の助言   This is a basic course in operations research. Students will learn the theoretical foundations for the various mathematical models of operations research and will acquire practical skills to analyze and plan through exercises using Microsoft Excel. We will cover the following topics: 1) Graphs and tables for business data. 2) Mathematical estimation using the multiple regression analysis. 3) Simulation: inventory management, queueing theory 4) Optimization: linear programming. Students are required to bring their laptop computer, with Microsoft Excel installed, to every class.\n    教科書および参考書・リザーブドブック   None\n    履修に必要な予備知識や技能   Basic computer skills\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① D Be able to explain problems from a mathematical viewpoint.   ② D,L Be able to solve problems using mathematical tools such as Microsoft Excel.   ③ D,L Be able to construct mathematical models of complex problems in business.   ④ D,L,M Be able to propose effective solutions to business problems based on mathematical methods.   ⑤     ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 40 0 50 0 0 0 10 100     指標と評価割合 総合評価割合 40 0 50 0 0 0 10 100   総合力指標 知識を取り込む力 40 0 50 0 0 0 10 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ Students will be evaluated on two examinations: 1) Midterm (mini) examination 2) Final examination    ② レ   ③ レ   ④ レ   ⑤     ⑥     クイズ\n小テスト ①      ②     ③     ④     ⑤     ⑥     レポート ① レ Students will be evaluated on their reports on the simple exercises in nearly every class. Details of each assignment and the grading criteria will be announced in class.   ② レ   ③ レ   ④ レ   ⑤     ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ① レ Students will be evaluated on their active commitment to the class, including the frequency with which they speak, offer insights, answer questions, etc.   ② レ   ③ レ   ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     1) Have a full understanding of the mathematical models and methods of operations research and be able to explain them. 2) Create appropriate mathematical models and solve problems correctly using tools such as Microsoft Excel.  1) Understand the mathematical models and methods of operations research. 2) Solve mathematical problems correctly using tools such as Microsoft Excel\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習課題に要する標準的な時間を記載してあります。日々の自学自習時間全体としては、各授業に応じた時間(例えば2単位科目の場合、予習2時間・復習2時間/週)を取るよう努めてください。詳しくは教員の指導に従って下さい。     授業明細   回数 学習内容 授業の運営方法 学習課題(予習・復習) 時間:分※     1  Course introduction Data aggregation (1) with Microsoft Excel Lecture and exercise Prepare for exercises using Microsoft Excel  120   2  Data aggregation (2) with Microsoft Excel Lecture, exercise, and self-check Review materials from the previous class  240   3 ",
+  "courseId": "2024:spring:F112-01:0:570",
   "language": "en"
 }

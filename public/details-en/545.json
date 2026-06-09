@@ -1,77 +1,68 @@
 {
   "sourceIndex": 545,
   "sourceUrl": "/opsyllabus/kitos0110/545/1",
-  "importedAt": "2026-06-08T09:34:04.183Z",
-  "title": "鉄骨構造",
-  "subtitle": "Steel Structure",
-  "courseType": "Major ProgramMajor Courses",
-  "credits": "2",
-  "term": "2026年度\n\n                3rd year 1st semester",
+  "importedAt": "2026-06-09T01:29:24.175Z",
+  "title": "プロジェクトデザインⅢ(千石靖研究室)",
+  "subtitle": "Design Project III(Sengoku Yasushi)",
+  "courseType": "Major Program\nMajor Project Courses",
+  "credits": "8",
+  "term": "2024年度\n All year",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "NISHIMURA Toku"
+    "SENGOKU Yasushi"
   ],
   "keywords": [
-    "Characteristics of steel",
-    "Structural design",
-    "Fabrication and construction",
-    "Regional cooperation",
-    "Information technology"
+    "Problem-finding/solving 2.CDIO 3.Learning summary 4.Engineer ethics 5.Regional cooperation"
   ],
-  "educationalGoal": "Steel structures are a commonly applied structural type in Japan. Students learn the basic characteristics of steel materials, steel structural design, construction, etc., necessary to safely build steel structures, and they develop skills that can be applied to actual design and construction based on this knowledge.",
-  "advice": "Using the textbook, we will cover the following topics:\n\n1. Introduction to the subject and features of steel structures\n2. Characteristics of steel\n3. Explanation of a sample building to analyze\n4. Design of members for axial force\n5. Design of members for bending moments\n6. Beam design\n7. Column design\n8. Structural joints\n9. Design of structural joints\n10. Brace design\n11. Column base design\n12. Nonstructural member design\n13. Construction of steel structures",
-  "books": "Wakariyasui tekkotsu no kouzo sekkei 5th edition\nWritten by Japanese Society of Steel Construction\nPublisher: Gihodo Shuppan Co., Ltd.",
-  "requiredKnowledge": "Since lectures will proceed on the premise that students have credit for \"Structural Mechanics for Architecture I\" and \"Structural Mechanics for Architecture II\", if students have forgotten or need to better understand the contents of these subjects, they must review appropriately.",
+  "educationalGoal": "In this course, each student will be tasked with finding a unique theme related to Media Informatics, thinking about the problem scientifically, and then proposing and implementing a solution. As a result, students can be expected to gain knowledge necessary for becoming creative engineers by embodying project design methods that are based on the conceive-design-implement-operate (CDIO) cycle using the knowledge they have acquired so far.",
+  "advice": "In Design Project III, each student will work on a unique theme based on the lessons of the first to third years of study with the Department of Media Informatics. Students will practice problem-finding and problem-solving techniques, and then produce deliverables based on the advice and guidance of their faculty advisers. Students will be expected to learn techniques for finding, investigating, and solving problems in specialized areas based on the knowledge and skills of the specialized subjects that they have studied thus far. The primary theme of this laboratory is the construction and evaluation of the following systems: antivirus, measures against unauthorized access, e-commerce, copyright protection, etc. Learning tips: Students will need to be fully self-managed in order to work on project themes and achieve results. Students will need to acquire the skills and knowledge necessary for the theme proactively.",
+  "books": "Textbooks: None Reference books: None Reserved books: None",
+  "requiredKnowledge": "Acquisition of \"Design Project I/II/Implementation and Operation\" are prerequisite courses. \"Information Security\" and \"Network and Security Laboratory\" are prerequisite courses. Basic programming skills are required.",
   "activityGoals": [
     {
       "index": "①",
-      "type": "O",
-      "body": "Students can explain the features of steel structures and the concepts of their design."
+      "type": "G,N",
+      "body": "Be able to learn the basics of creative engineering using problem-finding/solving techniques."
     },
     {
       "index": "②",
-      "type": "O",
-      "body": "Students understand structural diagrams."
+      "type": "H-M",
+      "body": "Be able to explain matters related to their specialization."
     },
     {
       "index": "③",
-      "type": "O",
-      "body": "Students can design members using beam and column design formulas."
+      "type": "B",
+      "body": "Be able to deepen their understanding of \"engineer ethics.\""
     },
     {
       "index": "④",
-      "type": "O",
-      "body": "Students can explain the types of structural joints and their characteristics and can design"
+      "type": "E-N",
+      "body": "Be able to apply their expertise to project themes."
     },
     {
       "index": "⑤",
-      "type": "O",
-      "body": "Students can design braces using a brace design formula."
-    },
-    {
-      "index": "⑥",
-      "type": "O",
-      "body": "Students can explain the main points of steel construction."
+      "type": "A,F,G,N",
+      "body": "Be able to conduct research and development on the project theme using the CDIO cycle."
     }
   ],
   "evaluationWeights": [
     {
       "label": "総合評価割合",
       "values": [
-        "25",
-        "50",
-        "25",
         "0",
         "0",
+        "40",
+        "40",
         "0",
         "0",
+        "20",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -81,20 +72,20 @@
     {
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
-        "25",
-        "50",
-        "25",
         "0",
         "0",
+        "40",
+        "40",
         "0",
         "0",
+        "20",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -104,20 +95,20 @@
     {
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
-        "25",
-        "50",
-        "25",
         "0",
         "0",
+        "40",
+        "40",
         "0",
         "0",
+        "20",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -138,9 +129,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -148,7 +139,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -161,9 +152,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -184,9 +175,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -195,118 +186,27 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "Students understand more than 80% of the contents of the textbooks, understand the characteristics of steel structures, structural design, and the components of construction, and can conduct structural design from structural planning to design of each member, referring to the textbook.",
-    "standard": "Students understand more than 60% of the contents of the textbooks, and generally understand the characteristics of steel structures, structural design, and construction."
+    "ideal": "(1) Be able to determine project themes, plan activity schedules, and work independently. (2) Be able to actively participate in laboratory activities and make presentations at academic conferences. (3) Be able to complete and present a work that is sufficiently novel or useful.",
+    "standard": "(1) Be able to determine project themes, plan activity schedules, and work independently. (2) Be able to participate in laboratory activities and academic conferences. (3) Be able to complete and present a novel or useful work."
   },
   "clipProcess": "",
   "lessons": [
     {
-      "index": "1",
-      "content": "Introduction (How the course proceeds)\n-History of steel structures\n-Characteristics of steel structures\n-Types of steel structures",
-      "operation": "Lecture, Q&A, Quiz, and Se\nlf-reflection",
-      "assignments": "Review section 1 of the\ntextbook\nPrepare section 2 of the\ntextbook, and work on the 1st\nreport",
-      "minutes": "120/\n120"
+      "index": "First semest er",
+      "content": "Acquisition of basic knowledge and skills in specialized fields. Project research, design, and prototype production. Explanation and discussion of survey results and progress. Interim presentation.",
+      "operation": "Lecture, practice, and Q&A Self-check",
+      "assignments": "Learn about specialized fields and work on project theme.",
+      "minutes": "520 x 15 weeks"
     },
     {
-      "index": "2",
-      "content": "Characteristics of steel materials\n-Types of carbon steel\n-Yield strength and ultimate tensile strength\n-Design flow of steel structures",
-      "operation": "Lecture, Q&A, Quiz and Sel\nf-reflection",
-      "assignments": "Review section 2 of the\ntextbook\nPrepare section 10.1 and 10.2\nof the textbook, grasp the\noutline of the sample\nbuilding, and read from\nsection 3.1 to section 3.6",
-      "minutes": "120/\n120"
-    },
-    {
-      "index": "3",
-      "content": "Explanation of a sample building to analyze\n-How to read architectural drawings\n-How to read structural drawings\n-Loads and external forces\n-How to read cross section force diagrams",
-      "operation": "Lecture, Q&A, Quiz and Sel\nf-reflection",
-      "assignments": "Review to understand the\nsample building by studying\nits drawings\nPrepare sections 5.1, 5.2,\n5.5, and 6.1-6.3 of the\ntextbook",
-      "minutes": "120/\n120"
-    },
-    {
-      "index": "4",
-      "content": "Design of members for axial force\n-Buckling of rods\n-Buckling of plates, and width-thickness ratio\n-Design of tensile members\n-Design of compression members",
-      "operation": "Lecture, Q&A, Quiz, Report\n-1, and Self-reflection",
-      "assignments": "Review sections 5.1, 5.2, 5.5,\n and 6.1-6.3 of the textbook\nPrepare sections 5.3 and 5.4\nof the textbook, work on the\n2nd report",
-      "minutes": "120/\n120"
-    },
-    {
-      "index": "5",
-      "content": "Design of members for bending moments\n-Lateral buckling",
-      "operation": "Lecture, Q&A, Quiz and Sel\nf-reflection",
-      "assignments": "Review sections 5.3 and 5.4\nof the textbook\nPrepare section 6.4 of the\ntextbook",
-      "minutes": "120/\n120"
-    },
-    {
-      "index": "6",
-      "content": "Beam design\n-Cross-sectional force in beam\n-Design formulas for beam design\n-Allowable bending stress\n-Lateral buckling stiffeners",
-      "operation": "Lecture, Q&A, Quiz,Report-\n2, and Self-reflection",
-      "assignments": "Review section 6.4 of the text\nbook\nPrepare section 6.5 of the\ntextbook, work on the 3rd\nreport",
-      "minutes": "120/\n120"
-    },
-    {
-      "index": "7",
-      "content": "Midterm test",
-      "operation": "Test and lecture",
-      "assignments": "Review: correct mistakes in\nproblems\nPrepare section 6.6 of the\ntextbook",
-      "minutes": "120/\n120"
-    },
-    {
-      "index": "8",
-      "content": "Column design\n-Cross section forces in columns\n-Design formulas for column design\n-Allowable bending stress",
-      "operation": "Lecture, Q&A, Quiz, Report\n-3 and Self-reflection",
-      "assignments": "Review section 6.5 of the text\nbook\nPrepare for the midterm test",
-      "minutes": "120/\n120"
-    },
-    {
-      "index": "9",
-      "content": "Structural joints\n-Bolted joints\n-High strength bolted joints\n-Welded joints",
-      "operation": "Lecture, Q&A, Quiz and Sel\nf-reflection",
-      "assignments": "Review section 6.6 of the text\nbook\nPrepare section 7 of the\ntextbook",
-      "minutes": "120/\n120"
-    },
-    {
-      "index": "10",
-      "content": "Design of structural joints\n-Concept of structural joints\n-Design of structural joints",
-      "operation": "Lecture, Q&A, Quiz and Sel\nf-reflection",
-      "assignments": "Review section 7 of the\ntextbook\nPrepare sections 8.1-8.5 of\nthe textbook",
-      "minutes": "120/\n120"
-    },
-    {
-      "index": "11",
-      "content": "Brace design\n-Role of braces and basics of brace design\n-Design formula for brace design",
-      "operation": "Lecture, Q&A, Quiz, Report\n-4, and Self-reflection",
-      "assignments": "Review sections 8.1-8.5 of\nthe textbook\nPrepare section 8.6 of the\ntextbook, work on the 4th\nreport",
-      "minutes": "120/\n120"
-    },
-    {
-      "index": "12",
-      "content": "Column base design\n-Base plate type\n-Embedded type\n-Concrete-encased type",
-      "operation": "Lecture, Q&A, Quiz and Sel\nf-reflection",
-      "assignments": "Review section 8.6 of the\ntextbook\nPrepare section 6.7 of the\ntextbook, prepare for the\nfinal test",
-      "minutes": "120/\n120"
-    },
-    {
-      "index": "13",
-      "content": "Final test",
-      "operation": "Test and lecture",
-      "assignments": "Review: correct mistakes in\nproblems\nPrepare: read the reserved\nbook and watch the DVD",
-      "minutes": "120/\n120"
-    },
-    {
-      "index": "14",
-      "content": "Nonstructural member design\n-Slab design\n-Design of other members",
-      "operation": "Lecture, Q&A, Quiz and Sel\nf-reflection",
-      "assignments": "Review section 6.7 of the\ntextbook\nPrepare for the final test",
-      "minutes": "120/\n120"
-    },
-    {
-      "index": "15",
-      "content": "Construction of steel structures\nSelf-evaluation",
-      "operation": "Lecture, Q&A, and self-\nreflection",
-      "assignments": "Review construction\nprocedures for steel\nstructures and develop your\nimage for construction",
-      "minutes": "120/\n120"
+      "index": "Second semes ter",
+      "content": "Word creation and experiment. Explanation and discussion of progress and experimental results. Report writing. Creation of presentation materials.",
+      "operation": "Lecture, practice, and Q&A Self-check",
+      "assignments": "Learn about specialized fields and work on project theme.",
+      "minutes": "520 x 15 weeks"
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　A025-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Architecture(〜2024)\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                鉄骨構造\n                Steel Structure\n\n              2\n              A025-01\n\n                2026年度\n\n                3rd year 1st semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  NISHIMURA Toku\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Characteristics of steel\n2.Structural design\n3.Fabrication and construction\n4.Regional cooperation\n5.Information technology\n\n              Steel structures are a commonly applied structural type in Japan. Students learn the basic characteristics of steel materials, steel structural design, construction, etc., necessary to safely build steel structures, and they develop skills that can be applied to actual design and construction based on this knowledge.\n\n              授業の概要および学習上の助言\n\n              Using the textbook, we will cover the following topics:\n\n1. Introduction to the subject and features of steel structures\n2. Characteristics of steel\n3. Explanation of a sample building to analyze\n4. Design of members for axial force\n5. Design of members for bending moments\n6. Beam design\n7. Column design\n8. Structural joints\n9. Design of structural joints\n10. Brace design\n11. Column base design\n12. Nonstructural member design\n13. Construction of steel structures\n\n              教科書および参考書・リザーブドブック\n\n              Wakariyasui tekkotsu no kouzo sekkei 5th edition\nWritten by Japanese Society of Steel Construction\nPublisher: Gihodo Shuppan Co., Ltd.\n\n              履修に必要な予備知識や技能\n\n              Since lectures will proceed on the premise that students have credit for \"Structural Mechanics for Architecture I\" and \"Structural Mechanics for Architecture II\", if students have forgotten or need to better understand the contents of these subjects, they must review appropriately.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                O\n                Students can explain the features of steel structures and the concepts of their design.\n\n                ②\n                O\n                Students understand structural diagrams.\n\n                ③\n                O\n                Students can design members using beam and column design formulas.\n\n                ④\n                O\n                Students can explain the types of structural joints and their characteristics and can design\n\n                ⑤\n                O\n                Students can design braces using a brace design formula.\n\n                ⑥\n                O\n                Students can explain the main points of steel construction.\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                25\n\n                50\n\n                25\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                25\n\n                50\n\n                25\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                25\n\n                50\n\n                25\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  コラボレーションとリーダーシップ\n\n                 ",
-  "courseId": "2026:spring:A025-01:0:545",
+  "rawText": "金沢工業大学 学習支援計画書 F921-06\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Media Informatics\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Project Courses\nプロジェクトデザインⅢ(千石靖研究室)\nDesign Project III(Sengoku Yasushi)  8 F921-06  2024年度\n All year  修学規程第4条を参照\n    担当教員名\n SENGOKU Yasushi\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Problem-finding/solving 2.CDIO 3.Learning summary 4.Engineer ethics 5.Regional cooperation  In this course, each student will be tasked with finding a unique theme related to Media Informatics, thinking about the problem scientifically, and then proposing and implementing a solution. As a result, students can be expected to gain knowledge necessary for becoming creative engineers by embodying project design methods that are based on the conceive-design-implement-operate (CDIO) cycle using the knowledge they have acquired so far.\n    授業の概要および学習上の助言   In Design Project III, each student will work on a unique theme based on the lessons of the first to third years of study with the Department of Media Informatics. Students will practice problem-finding and problem-solving techniques, and then produce deliverables based on the advice and guidance of their faculty advisers. Students will be expected to learn techniques for finding, investigating, and solving problems in specialized areas based on the knowledge and skills of the specialized subjects that they have studied thus far. The primary theme of this laboratory is the construction and evaluation of the following systems: antivirus, measures against unauthorized access, e-commerce, copyright protection, etc. Learning tips: Students will need to be fully self-managed in order to work on project themes and achieve results. Students will need to acquire the skills and knowledge necessary for the theme proactively.\n    教科書および参考書・リザーブドブック   Textbooks: None Reference books: None Reserved books: None\n    履修に必要な予備知識や技能   Acquisition of \"Design Project I/II/Implementation and Operation\" are prerequisite courses. \"Information Security\" and \"Network and Security Laboratory\" are prerequisite courses. Basic programming skills are required.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① G,N Be able to learn the basics of creative engineering using problem-finding/solving techniques.   ② H-M Be able to explain matters related to their specialization.   ③ B Be able to deepen their understanding of \"engineer ethics.\"   ④ E-N Be able to apply their expertise to project themes.   ⑤ A,F,G,N Be able to conduct research and development on the project theme using the CDIO cycle.   ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 0 0 40 40 0 0 20 100     指標と評価割合 総合評価割合 0 0 40 40 0 0 20 100   総合力指標 知識を取り込む力 0 0 40 40 0 0 20 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ①      ②     ③     ④     ⑤     ⑥     クイズ\n小テスト ①      ②     ③     ④     ⑤     ⑥     レポート ① レ Each student will be evaluated on monthly reports, activity records, and a graduation thesis.    ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     成果発表\n(口頭・実技) ① レ Students will be evaluated on the contents of and attitude displayed during their interim and final presentations.    ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ① レ Students will be evaluated for teamwork, leadership, and attitudes toward learning and research.    ② レ   ③ レ   ④ レ   ⑤ レ   ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     (1) Be able to determine project themes, plan activity schedules, and work independently. (2) Be able to actively participate in laboratory activities and make presentations at academic conferences. (3) Be able to complete and present a work that is sufficiently novel or useful. (1) Be able to determine project themes, plan activity schedules, and work indepen",
+  "courseId": "2024:fall:F041-01:0:545",
   "language": "en"
 }

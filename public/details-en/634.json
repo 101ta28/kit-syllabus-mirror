@@ -1,57 +1,43 @@
 {
   "sourceIndex": 634,
   "sourceUrl": "/opsyllabus/kitos0110/634/1",
-  "importedAt": "2026-06-08T09:34:06.043Z",
-  "title": "ソフトウェアモデリング",
-  "subtitle": "Software Modeling",
-  "courseType": "Major ProgramMajor Courses",
+  "importedAt": "2026-06-09T01:29:24.866Z",
+  "title": "産業・組織心理学",
+  "subtitle": "Industrial and Organizational Psychology",
+  "courseType": "Major Program\nMajor Courses",
   "credits": "2",
-  "term": "2026年度\n\n                2nd year 2nd semester",
+  "term": "2024年度\n 3rd year 1st semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "FUJIMOTO Taro"
+    "KATO Juri"
   ],
   "keywords": [
-    "Software design",
-    "Requirement analysis",
-    "Systems analysis",
-    "Systems design",
-    "UML"
+    "Organization 2.Motivation 3.Stress 4.Human resources 5.Regional collaboration"
   ],
-  "educationalGoal": "In this course, students will achieve the following learning objectives:\n  1. Understand the basic concepts of software design, with a focus on object-oriented development.\n  2. Gain fundamental knowledge of UML as a software design description language.\n  3. Develop practical software design skills through the design and implementation process.",
-  "advice": "To develop software for information processing systems, it is necessary to follow a series of processes, including system requirements analysis, system analysis, system design, system construction, software design and implementation, system verification, and operational testing.\n\nIn order to understand the importance of software design, students need to gain hands-on experience with design activities as part of the system development process.\n\nIn this course, students will learn object-oriented development through practical exercises using UML and the Java programming language. The main topics covered in this course are as follows:\n  1. Overview of object-oriented concepts\n  2. Object-oriented development process\n  3. Analysis, design, and modeling using UML\n  4. Program development using Java\n\nNote: Students are required to bring their own laptop computer and the designated textbook to each class.",
-  "books": "Textbooks: 実践UMLによるシステム開発ー事例で学ぶ「オブジェクト指向」のシステム設計[工学社]\nReference books: None\nReserved books: None",
-  "requiredKnowledge": "Students are expected to have reviewed and understood the following topics covered in Programming II (Java Basics) and Programming III (Object-Oriented Programming).\n  1. Ability to explain basic object-oriented concepts, such as classes, methods, objects, and inheritance.\n  2. Ability to read and explain example source code.\n  3. Ability to create, compile, and execute a simple object-oriented Java program.\n  4. Basic ability to program in Python and to use SQL databases.",
+  "educationalGoal": "Students will learn about: (1) dynamics in an organization. (2) stress caused by the working environment. (3) motivation for work and human resource management.",
+  "advice": "We will cover the following topics: 1. Organizational behavior 2. Motivation for work 3. Stress caused by the working environment 4. Workers' health and safety 5. Human resource management 6. Career development",
+  "books": "Textbooks:None Reference books:None Reserved books:None",
+  "requiredKnowledge": "Completion of the “Elements of Psychology” and “Method of Psychological Research” courses is recommended.",
   "activityGoals": [
     {
       "index": "①",
-      "type": "J,N,O",
-      "body": "Explain key terms and concepts related to object-oriented programming."
+      "type": "L",
+      "body": "Ability to understand human behavior, cognition, and emotion in an organization."
     },
     {
       "index": "②",
-      "type": "J,N,O",
-      "body": "Describe the system development process using UML."
+      "type": "L",
+      "body": "Ability to understand and assess the characteristic traits of a leader in an organization."
     },
     {
       "index": "③",
-      "type": "J,N,O",
-      "body": "Understand the meanings of graphical symbols in UML diagrams, and create and use UML diagrams appropriately."
+      "type": "L",
+      "body": "Ability to understand psychological stress caused by the working environment."
     },
     {
       "index": "④",
-      "type": "J,N,O",
-      "body": "Define and implement classes using the Java programming language."
-    },
-    {
-      "index": "⑤",
-      "type": "J,N,O",
-      "body": "Explain the terminology associated with representative software testing techniques."
-    },
-    {
-      "index": "⑥",
-      "type": "J,N,O",
-      "body": "Create UML design diagrams based on program implementations."
+      "type": "L",
+      "body": "Ability to consider career development for oneself."
     }
   ],
   "evaluationWeights": [
@@ -59,19 +45,19 @@
       "label": "総合評価割合",
       "values": [
         "40",
-        "20",
-        "40",
+        "10",
+        "30",
+        "10",
         "0",
         "0",
-        "0",
-        "0",
+        "10",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -82,19 +68,19 @@
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
         "40",
-        "20",
-        "40",
+        "10",
+        "30",
+        "10",
         "0",
         "0",
-        "0",
-        "0",
+        "10",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -105,19 +91,19 @@
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
         "40",
-        "20",
-        "40",
+        "10",
+        "30",
+        "10",
         "0",
         "0",
-        "0",
-        "0",
+        "10",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -138,9 +124,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -148,7 +134,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -161,9 +147,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -184,9 +170,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -195,118 +181,118 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "In addition to the standard learning outcomes, students will be able to:\n  4. Create appropriate UML diagrams and corresponding\n    Java code based on given requirements.\n  5. Generate UML diagrams from existing Java code and\n    specified requirements.\n  6. Understand representative software testing techniques and\n    explain their appropriate use according to project situations\n    and states.",
-    "standard": "By completing this course, students will be able to:\n  1. Explain key terms related to object-oriented software\n    development and Java programming.\n  2. Understand the overall system development process and\n    the UML graphical symbols used.\n  3. Explain the relationship between system development\n    components and Java class definitions."
+    "ideal": "Understand and explain the whole picture of industrial and organizational psychology. Apply this knowledge to an industrial field and to career development for oneself.",
+    "standard": "Understand and explain the whole picture of industrial and organizational psychology."
   },
   "clipProcess": "",
   "lessons": [
     {
       "index": "1",
-      "content": "Guidance, Object-oriented features, Elemental\ntechnology, Checking the exercise environment,\nInstalling UML draw tools",
-      "operation": "Lecture and exercise",
-      "assignments": "Review: Understanding object-\noriented features and the\nconcept of elemental\ntechnology",
-      "minutes": "180"
+      "content": "Course introduction Basics of industrial and organizational psychology",
+      "operation": "Lecture",
+      "assignments": "Review and Preview: Review themes and the overview of industrial and organizational psychology",
+      "minutes": "60"
     },
     {
       "index": "2",
-      "content": "Object-oriented features and elemental\ntechnologies, Operation of UML tool\nExercise: Drawing a UML diagram",
-      "operation": "Lecture and exercise",
-      "assignments": "Review: Understanding basic\nobject-oriented concepts of\nobjects",
-      "minutes": "120"
+      "content": "Organizational psychology (1)",
+      "operation": "Lecture and practice",
+      "assignments": "Review: Review notes from today's lecture Preview: Consider the task presented at the end of the lecture",
+      "minutes": "60 60"
     },
     {
       "index": "3",
-      "content": "System Development and UML, Drawing class\ndiagram, Java Programming,\nA mini exam",
-      "operation": "Lecture, exercise and shor\nt test",
-      "assignments": "Review: Explaining each system\ndevelopment process",
-      "minutes": "190"
+      "content": "Organizational psychology (2)",
+      "operation": "Lecture and practice",
+      "assignments": "Review: Review notes from today's lecture Preview: Consider the task presented at the end of the lecture",
+      "minutes": "60 60"
     },
     {
       "index": "4",
-      "content": "Requirements analysis, Drawing usecase diagram\nwith usecase description",
-      "operation": "Lecture and exercise,",
-      "assignments": "Report #1",
-      "minutes": "120"
+      "content": "Organizational psychology (3)",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Review: Review notes from today's lecture Preview: Consider the task presented at the end of the lecture",
+      "minutes": "60 60"
     },
     {
       "index": "5",
-      "content": "Continue to requirements analysis, drawing\nactivity diagrams, usecase diagrams, and\nusecase descriptions with UML tools",
-      "operation": "Lecture and exercise",
-      "assignments": "Understanding UML diagrams\nused in requirements analysis\nReport #2",
-      "minutes": "120"
+      "content": "Stress caused by working environment (1)",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Review: Review notes from today's lecture Preview: Consider the task presented at the end of the lecture",
+      "minutes": "60 60"
     },
     {
       "index": "6",
-      "content": "System analysis, Class objects creation from\nusecase description",
-      "operation": "Lecture and exercise",
-      "assignments": "Understanding class diagrams,\nsequence diagrams",
-      "minutes": "150"
+      "content": "Stress caused by working environment (2)",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Prepare for the midterm exam",
+      "minutes": "120"
     },
     {
       "index": "7",
-      "content": "Understanding and drawing object diagrams, class\n diagrams, and sequence diagrams",
-      "operation": "Lecture, exercise and shor\nt test",
-      "assignments": "Report #3",
-      "minutes": "150"
+      "content": "Midterm exam Motivation for work (1)",
+      "operation": "Midterm exam Lecture and practice",
+      "assignments": "Review: Review notes from today's lecture Preview: Consider the task presented at the end of the lecture",
+      "minutes": "60 60"
     },
     {
       "index": "8",
-      "content": "Exercises for Learn HTML tags and create web\npages",
-      "operation": "Exercise",
-      "assignments": "Report #4\nReview HTML tags and improve\nhomepage",
-      "minutes": "120"
+      "content": "Motivation for work (2)",
+      "operation": "Review Lecture and practice Self-check",
+      "assignments": "Review: Review notes from today's lecture Preview: Consider the task presented at the end of the lecture",
+      "minutes": "60"
     },
     {
       "index": "9",
-      "content": "Exercise for Web application: HTML input form,\nflask web application framework",
-      "operation": "Lecture and exercise",
-      "assignments": "Preview: Improve the Web\nApplication program\nReport #5",
-      "minutes": "150"
-    },
-    {
-      "index": "10",
-      "content": "Exercise for Web application: Database interface\n #1",
-      "operation": "Lecture and exercise",
-      "assignments": "Extend Web application\nprogram to add, query, and\ndelete records in the database",
-      "minutes": "150"
-    },
-    {
-      "index": "11",
-      "content": "Exercise for Web application: Database interface\n　#2",
-      "operation": "Lecture and exercise",
-      "assignments": "Report #6, Review of class\ndiagrams, sequence diagrams,\nand activity diagrams",
+      "content": "Exercise of study of Industrial and Organizational Psychology (1)",
+      "operation": "Exercise Self-check",
+      "assignments": "Prepare for the presentation",
       "minutes": "120"
     },
     {
+      "index": "10",
+      "content": "Exercise of study of Industrial and Organizational Psychology (2)",
+      "operation": "Exercise Self-check",
+      "assignments": "Preview: Consider the task presented at the end of the lecture",
+      "minutes": "60"
+    },
+    {
+      "index": "11",
+      "content": "Human resource management (1)",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Review: Review notes from today's lecture Preview: Consider the task presented at the end of the lecture",
+      "minutes": "60 60"
+    },
+    {
       "index": "12",
-      "content": "Reverse engineering, Translation from source\ncode to class diagrams",
-      "operation": "Lecture and exercise",
-      "assignments": "Report #7,\nUnderstanding reverse\nengineering",
-      "minutes": "90"
+      "content": "Human resource management (2)",
+      "operation": "Lecture Self-check",
+      "assignments": "Prepare for the final exam",
+      "minutes": "240"
     },
     {
       "index": "13",
-      "content": "Review of previously covered material and Exam.",
-      "operation": "Lectures, review, and exam\n.",
-      "assignments": "Exam, review",
-      "minutes": "90"
+      "content": "Review contents from all classes Final exam",
+      "operation": "Final exam and review Self-check",
+      "assignments": "Review the final exam",
+      "minutes": "240"
     },
     {
       "index": "14",
-      "content": "Software test method",
-      "operation": "Lectures",
-      "assignments": "Preview: preparing Exam",
+      "content": "Lecture by outside lecturer",
+      "operation": "Lecture Self-check",
+      "assignments": "Review: Review notes from today's lecture",
       "minutes": "120"
     },
     {
       "index": "15",
-      "content": "Commentary for Exam, Self-inspection,\nRelated topics",
-      "operation": "Lectures, review, and QA",
-      "assignments": "Review of less understood\nparts",
-      "minutes": ""
+      "content": "Self-reflection Industrial and organizational psychology in region Career development",
+      "operation": "Review Lecture Self-check",
+      "assignments": "Review notes of all lectures",
+      "minutes": "120"
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　C114-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Artificial Intelligence\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                ソフトウェアモデリング\n                Software Modeling\n\n              2\n              C114-01\n\n                2026年度\n\n                2nd year 2nd semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  FUJIMOTO Taro\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Software design\n2.Requirement analysis\n3.Systems analysis\n4.Systems design\n5.UML\n\n              In this course, students will achieve the following learning objectives:\n  1. Understand the basic concepts of software design, with a focus on object-oriented development.\n  2. Gain fundamental knowledge of UML as a software design description language.\n  3. Develop practical software design skills through the design and implementation process.\n\n              授業の概要および学習上の助言\n\n              To develop software for information processing systems, it is necessary to follow a series of processes, including system requirements analysis, system analysis, system design, system construction, software design and implementation, system verification, and operational testing.\n\nIn order to understand the importance of software design, students need to gain hands-on experience with design activities as part of the system development process.\n\nIn this course, students will learn object-oriented development through practical exercises using UML and the Java programming language. The main topics covered in this course are as follows:\n  1. Overview of object-oriented concepts\n  2. Object-oriented development process\n  3. Analysis, design, and modeling using UML\n  4. Program development using Java\n\nNote: Students are required to bring their own laptop computer and the designated textbook to each class.\n\n              教科書および参考書・リザーブドブック\n\n              Textbooks: 実践UMLによるシステム開発ー事例で学ぶ「オブジェクト指向」のシステム設計[工学社]\nReference books: None\nReserved books: None\n\n              履修に必要な予備知識や技能\n\n              Students are expected to have reviewed and understood the following topics covered in Programming II (Java Basics) and Programming III (Object-Oriented Programming).\n  1. Ability to explain basic object-oriented concepts, such as classes, methods, objects, and inheritance.\n  2. Ability to read and explain example source code.\n  3. Ability to create, compile, and execute a simple object-oriented Java program.\n  4. Basic ability to program in Python and to use SQL databases.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                J,N,O\n                Explain key terms and concepts related to object-oriented programming.\n\n                ②\n                J,N,O\n                Describe the system development process using UML.\n\n                ③\n                J,N,O\n                Understand the meanings of graphical symbols in UML diagrams, and create and use UML diagrams appropriately.\n\n                ④\n                J,N,O\n                Define and implement classes using the Java programming language.\n\n                ⑤\n                J,N,O\n                Explain the terminology associated with representative software testing techniques.\n\n                ⑥\n                J,N,O\n                Create UML design diagrams based on program implementations.\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                40\n\n                20\n\n                40\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n          ",
-  "courseId": "2026:fall:C114-01:0:634",
+  "rawText": "金沢工業大学 学習支援計画書 F325-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Psychological Science(2018〜)\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n産業・組織心理学\nIndustrial and Organizational Psychology  2 F325-01  2024年度\n 3rd year 1st semester  修学規程第4条を参照\n    担当教員名\n KATO Juri\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Organization 2.Motivation 3.Stress 4.Human resources 5.Regional collaboration  Students will learn about: (1) dynamics in an organization. (2) stress caused by the working environment. (3) motivation for work and human resource management.\n    授業の概要および学習上の助言   We will cover the following topics: 1. Organizational behavior 2. Motivation for work 3. Stress caused by the working environment 4. Workers' health and safety 5. Human resource management 6. Career development\n    教科書および参考書・リザーブドブック   Textbooks:None Reference books:None Reserved books:None\n    履修に必要な予備知識や技能   Completion of the “Elements of Psychology” and “Method of Psychological Research” courses is recommended.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① L Ability to understand human behavior, cognition, and emotion in an organization.   ② L Ability to understand and assess the characteristic traits of a leader in an organization.   ③ L Ability to understand psychological stress caused by the working environment.   ④ L Ability to consider career development for oneself.   ⑤     ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 40 10 30 10 0 0 10 100     指標と評価割合 総合評価割合 40 10 30 10 0 0 10 100   総合力指標 知識を取り込む力 40 10 30 10 0 0 10 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ There are two exams, a midterm and a final exam, to evaluate the degree of acquisition of the curriculum.   ② レ   ③ レ   ④ レ   ⑤     ⑥     クイズ\n小テスト ① レ There are a few quizzes to improve students’ level of understanding of the materials covered.   ② レ   ③ レ   ④ レ   ⑤     ⑥     レポート ① レ There is a report related to the exercise conducted in the course. We will explain the topic for the report and the due date during the course.   ② レ   ③ レ   ④ レ   ⑤     ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ① レ Students will be evaluated on written comments submitted at the end of each class and their attitudes in group work and discuss.   ② レ   ③ レ   ④ レ   ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     Understand and explain the whole picture of industrial and organizational psychology. Apply this knowledge to an industrial field and to career development for oneself. Understand and explain the whole picture of industrial and organizational psychology.\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習課題に要する標準的な時間を記載してあります。日々の自学自習時間全体としては、各授業に応じた時間(例えば2単位科目の場合、予習2時間・復習2時間/週)を取るよう努めてください。詳しくは教員の指導に従って下さい。     授業明細   回数 学習内容 授業の運営方法 学習課題(予習・復習) 時間:分※     1  Course introduction Basics of industrial and organizational psychology Lecture Review and Preview: Review themes and the overview of industrial and organizational psychology  60   2  Organizational psychology (1) Lecture and practice Review: Review notes from today's lecture Preview: Consider the task presented at the end of the lecture  60 60   3  Organizational psychology (2) Lecture and practice Review: Review notes from today's lecture Preview: Consider the task presented at the end of the lecture  60 60   4  Organizational psychology (3) Lecture and practice Self-check Review: Review notes from today's lecture Preview: Consider the task presented at the end of the lecture  60 60   5  Stress caused by working enviro",
+  "courseId": "2024:spring:F322-01:0:634",
   "language": "en"
 }

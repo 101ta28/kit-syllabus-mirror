@@ -1,77 +1,66 @@
 {
   "sourceIndex": 537,
   "sourceUrl": "/opsyllabus/kitos0110/537/1",
-  "importedAt": "2026-06-08T09:34:04.000Z",
-  "title": "観察法",
-  "subtitle": "Observational Method",
-  "courseType": "Major ProgramMajor Courses",
-  "credits": "2",
-  "term": "2026年度\n\n                2nd year 2nd semester",
+  "importedAt": "2026-06-09T01:29:23.962Z",
+  "title": "プログラミングⅠ",
+  "subtitle": "Programming I",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "1",
+  "term": "2024年度\n 1st year 2nd semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "TANAKA Yoshifumi"
+    "MATSUSHITA Yutaka",
+    "NEGISHI Ippei",
+    "SHIMAMOTO Shingo",
+    "HIRANO Noriyuki"
   ],
   "keywords": [
-    "Natural Observation / Experimental Observation",
-    "Time-sampling",
-    "Event-sampling",
-    "Hypothesis-generating Research",
-    "Regional Collaboration"
+    "C language 2.Conditional branch 3.Loop 4.Function"
   ],
-  "educationalGoal": "The observational method is the most basic scientific research method, which involves looking closely at phenomena, especially human behavior in the case of psychology. The observational method is also used in hypothesis-testing research as well as in exploratory hypothesis-generating research. In this course, students will learn the basic concepts of the observation method, how to plan and conduct observations, and how to analyze the data, with practical exercises.",
-  "advice": "In this class, the following topics will be studied with practical exercises.\n1. Basic characteristics of observation methods\n2. Types of observation methods\n3. How to perform observation methods\n4. Basic analysis methods in observation methods\n5. Appropriate interpretation of observation data\n\nIn the practical training, teams of several students will be formed to experience the flow of each type of observation method, from setting the research objectives, planning and conducting observations (data collection), to analysis and interpretation.\n\nSince research using observation methods often focuses on the casual behaviors that people take in their daily lives, we recommend that participants in this class pay attention to people's daily behaviors and their characteristics.\n\nThe lecture content and schedule are subject to change slightly.\nThis course is subject to the course credit system.",
-  "books": "Reference books are introduced in the class.",
-  "requiredKnowledge": "Review the basics of observation methods learned in \"Research Methods in Psychology\".\nIn addition, it will be helpful to review the knowledge of other research methods learned in previous classes and the methods used to obtain various findings in psychology, in order to understand the characteristics and implementation of the observation method.",
+  "educationalGoal": "\"Control structure\" and \"function\" are important and indispensable elements in programming. In this course, students learn the usage of \"conditional branch\", \"loop\" and \"function\" and practice them in actual program.",
+  "advice": "The concepts of \"conditional branch\", \"loop\" and \"functions\" learned in this course play an important role in almost all programming languages, not just C language. Therefore, I would like you to take this course with the intention of learning \"general programming\" rather than \"C language\".",
+  "books": "Textbook: 明快入門C スーパー ビギナー編 [SBクリエイティブ]",
+  "requiredKnowledge": "It is desirable to understand and master the contents of the introduction to programming.",
   "activityGoals": [
     {
       "index": "①",
-      "type": "B,I",
-      "body": "Ability to understand and to explain the basic features of the observation method."
+      "type": "F,I,K",
+      "body": "Be able to make conditional expressions."
     },
     {
       "index": "②",
-      "type": "F,J,K",
-      "body": "Ability to understand and to perform the characteristics and implementation of natural observation."
+      "type": "F,I,K",
+      "body": "Be able to use conditional branch by \"if\" and \"switch\"."
     },
     {
       "index": "③",
-      "type": "F,J,K",
-      "body": "Ability to understand and to perform the characteristics and implementation of experimental observation."
+      "type": "F,I,K",
+      "body": "Be able to use loop by \"for\" and \"while\"."
     },
     {
       "index": "④",
-      "type": "G,J,K",
-      "body": "Ability to understand and to perform analysis of observation data based on the time-sampling method."
-    },
-    {
-      "index": "⑤",
-      "type": "G,J,K",
-      "body": "Ability to understand and to perform analysis of observation data based on the event-sampling method."
-    },
-    {
-      "index": "⑥",
-      "type": "D,E,G,K",
-      "body": "Ability to interpret the results of obsabational data analysis appropriately, and to create new hypothesis."
+      "type": "F,I,K",
+      "body": "Be able to use functions understanding the mechanism of them."
     }
   ],
   "evaluationWeights": [
     {
       "label": "総合評価割合",
       "values": [
-        "30",
-        "0",
-        "60",
-        "0",
+        "40",
+        "40",
         "0",
         "0",
-        "10",
+        "0",
+        "0",
+        "20",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -81,20 +70,20 @@
     {
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
-        "30",
-        "0",
-        "60",
-        "0",
+        "40",
+        "40",
         "0",
         "0",
-        "10",
+        "0",
+        "0",
+        "20",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -104,20 +93,20 @@
     {
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
-        "30",
-        "0",
-        "60",
-        "0",
+        "40",
+        "40",
         "0",
         "0",
-        "10",
+        "0",
+        "0",
+        "20",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -138,9 +127,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -148,7 +137,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -161,9 +150,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -184,9 +173,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -195,118 +184,62 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "Ability to Understand and explain the basic concepts of the observation method.\nAbility to  plan a research project using appropriate observation methods according to the style of research.\nAbility to perform observations and collect data appropriately for the purpose.\nAbility to analyze observational data appropriately and interpret them appropriately according to the purpose.",
-    "standard": "Ability to Understand and explain the basic concepts of the observation method.\nAbility to plan and execute appropriate data collection using observational methods.\nAbility to appropriately analyze and interpret data obtained through observation."
+    "ideal": "Realize the desired program using conditional branch, loop, and function appropriately in C language.",
+    "standard": "Understand the usage and mechanism of conditional branch, loop, and function appropriately in C language."
   },
   "clipProcess": "",
   "lessons": [
     {
       "index": "1",
-      "content": "Introduction\nObservation methods and their characteristics.",
-      "operation": "Guidance, lecture\nreflection",
-      "assignments": "Review: Review the basic\ncharacteristics of\nobservation methods learned\nin \"Psychological Research\nMethods.\nPreparation: Think of a\nresearch topic suitable for\nthe observation method.",
-      "minutes": "30\n\n30"
+      "content": "Class guidance Programing experience",
+      "operation": "Lecture Practice",
+      "assignments": "Review",
+      "minutes": "50"
     },
     {
       "index": "2",
-      "content": "Exercise 1: Experimental observation\nLecture: What is the experimental observation?\nGroup work: Planning an experimental\nobservation",
-      "operation": "Lectures, exercises,\nreflection",
-      "assignments": "Review: Review the lecture\ncontents.\nPreparation: Planning\nexperimental observation.",
-      "minutes": "60\n60"
+      "content": "Conditional expression Conditional branch Loop",
+      "operation": "Lecture Practice",
+      "assignments": "Preview Review",
+      "minutes": "50 50"
     },
     {
       "index": "3",
-      "content": "Exercise 1: Experimental observation\nLecture: How to analyze the observational data\nusing time-sampling method\nGroup work: Conduct an experimental\nobservation. Analysis of the obtained data\nusing time-sampling method(1)",
-      "operation": "Lectures, exercises,\nreflection",
-      "assignments": "Review: Review the lecture\ncontents.\nPreparation: Review the\nobserved data from\nthe exercise and discuss the\npossibilities for analysis.",
-      "minutes": "60\n60"
+      "content": "Loop Quiz 1",
+      "operation": "Lecture Practice",
+      "assignments": "Preview Review",
+      "minutes": "50 50"
     },
     {
       "index": "4",
-      "content": "Exercise 1: Experimental observation\nGroup work: Analysis of the obtained data using\ntime-sampling method(2).\nDiscussion on reliability of the observational\ndata.",
-      "operation": "exercises, reflection",
-      "assignments": "Review the observed data from\nthe exercise and discuss the\npossibilities for analysis.\nPreparation: Analysis of the\nobserved data.",
-      "minutes": "60\n60"
+      "content": "Function Quiz 2",
+      "operation": "Lecture Practice",
+      "assignments": "Preview Review",
+      "minutes": "50 50"
     },
     {
       "index": "5",
-      "content": "Exercise 1: Experimental observation\nGroup work: Analysis of the obtained data using\ntime-sampling method(3)",
-      "operation": "Lectures, exercises,\nreflection",
-      "assignments": "Review: Review the lecture\ncontents.\nPreparation: Preparation of\nthe exercise using\ntime-sampling method.",
-      "minutes": "60\n\n60"
+      "content": "Function Quiz 3",
+      "operation": "Lecture Practice",
+      "assignments": "Preview Review",
+      "minutes": "50 50"
     },
     {
       "index": "6",
-      "content": "Exercise 1: Experimental observation\nLecture: Event-sampling method\nGroup work: Analysis of the observational data\nusing the event-sampling method(1)",
-      "operation": "Lecture, exercise,\nreflection",
-      "assignments": "Review: Review the lecture\ncontents.\nPreparation: Analysis of the\nobtained data.",
-      "minutes": "60\n60"
+      "content": "Function Quiz 4",
+      "operation": "Lecture Practice",
+      "assignments": "Preview Review",
+      "minutes": "50 50"
     },
     {
       "index": "7",
-      "content": "Exercise 1: Experimental observation\nLecture: Event-sampling method\nGroup work: Analysis of the observational data\nusing the event-sampling method(2)\nPreparation for the presentation of the\nexercise 1",
-      "operation": "Exercise, reflection",
-      "assignments": "Review: Analysis of the\nobserved data.\nPreparation: Review previous\nstudies using observational\nmethod.",
-      "minutes": "60\n60"
-    },
-    {
-      "index": "8",
-      "content": "Exercise 1: Experimental observation\nPresentation of the observation in exercise 1",
-      "operation": "presentation,\nreflection",
-      "assignments": "Review: Review the previous\nlecture.\nPreparation: Research on\nprevious studies related to\nthe research topic to be\naddressed in the exercise.",
-      "minutes": "60\n60"
-    },
-    {
-      "index": "9",
-      "content": "Exercise 2: Natural observation\nLecture: How to conduct natural\nobservation\nGroup work: Planning natural observation",
-      "operation": "Lecture, exercise,\nreflection",
-      "assignments": "Review: Review of the\nprevious lecture.\nPreparation: Prepare for the\nnatural observation",
-      "minutes": "60\n60"
-    },
-    {
-      "index": "10",
-      "content": "Exercise 2: Natural observation\nGroup work: Elaboration of the plan of natural\nobservation",
-      "operation": "Lecture, exercise,\nreflection",
-      "assignments": "Review/preparation: Review\nthe observed data and\ndiscuss the policy for the\nanalysis.",
-      "minutes": "60\n60"
-    },
-    {
-      "index": "11",
-      "content": "Exercise 2: Natural observation\nGroup work: Conducting the natural observation\nAnalysis of the obtained data",
-      "operation": "Exercise,\nreflection",
-      "assignments": "Review: Analysis of\nobservational data\nPreparation: Analysis of the\nobtained data",
-      "minutes": "60\n60\n\n60"
-    },
-    {
-      "index": "12",
-      "content": "Exercise 2: Natural observation\nGroup work: Analysis of the obtained data,\npreparation of presentation",
-      "operation": "Exercise,\nreflection",
-      "assignments": "Review: Analysis of\nobservational data\nPreparation: Preparation for\nthe presentation of the\nobtained data",
-      "minutes": "30"
-    },
-    {
-      "index": "13",
-      "content": "Exercise 2: Natural observation\nPresentation of the natural observation",
-      "operation": "Exercise, reflection",
-      "assignments": "Review: Review the feedback\non the presentation.\nPreparation: Review other\nobservational methods.",
-      "minutes": "60\n\n90"
-    },
-    {
-      "index": "14",
-      "content": "Other observation methods: fieldwork,\nparticipatory observation",
-      "operation": "Lecture, reflection",
-      "assignments": "Review of the lecture\nPreparation for the\nachievement test",
-      "minutes": "60\n120"
-    },
-    {
-      "index": "15",
-      "content": "Achievement test\nReview of the class\nReflection",
-      "operation": "Review\nSelf-evaluation",
-      "assignments": "Lecture, exercise,\nreflection",
-      "minutes": "60"
+      "content": "Final examination Self-check",
+      "operation": "Lecture",
+      "assignments": "Preview Review",
+      "minutes": "120 50"
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　M119-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Psychology and Information Design\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                観察法\n                Observational Method\n\n              2\n              M119-01\n\n                2026年度\n\n                2nd year 2nd semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  TANAKA Yoshifumi\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Natural Observation / Experimental Observation\n2.Time-sampling\n3.Event-sampling\n4.Hypothesis-generating Research\n5.Regional Collaboration\n\n              The observational method is the most basic scientific research method, which involves looking closely at phenomena, especially human behavior in the case of psychology. The observational method is also used in hypothesis-testing research as well as in exploratory hypothesis-generating research. In this course, students will learn the basic concepts of the observation method, how to plan and conduct observations, and how to analyze the data, with practical exercises.\n\n              授業の概要および学習上の助言\n\n              In this class, the following topics will be studied with practical exercises.\n1. Basic characteristics of observation methods\n2. Types of observation methods\n3. How to perform observation methods\n4. Basic analysis methods in observation methods\n5. Appropriate interpretation of observation data\n\nIn the practical training, teams of several students will be formed to experience the flow of each type of observation method, from setting the research objectives, planning and conducting observations (data collection), to analysis and interpretation.\n\nSince research using observation methods often focuses on the casual behaviors that people take in their daily lives, we recommend that participants in this class pay attention to people's daily behaviors and their characteristics.\n\nThe lecture content and schedule are subject to change slightly.\nThis course is subject to the course credit system.\n\n              教科書および参考書・リザーブドブック\n\n              Reference books are introduced in the class.\n\n              履修に必要な予備知識や技能\n\n              Review the basics of observation methods learned in \"Research Methods in Psychology\".\nIn addition, it will be helpful to review the knowledge of other research methods learned in previous classes and the methods used to obtain various findings in psychology, in order to understand the characteristics and implementation of the observation method.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                B,I\n                Ability to understand and to explain the basic features of the observation method.\n\n                ②\n                F,J,K\n                Ability to understand and to perform the characteristics and implementation of natural observation.\n\n                ③\n                F,J,K\n                Ability to understand and to perform the characteristics and implementation of experimental observation.\n\n                ④\n                G,J,K\n                Ability to understand and to perform analysis of observation data based on the time-sampling method.\n\n                ⑤\n                G,J,K\n                Ability to understand and to perform analysis of observation data based on the event-sampling method.\n\n                ⑥\n                D,E,G,K\n                Ability to interpret the results of obsabational data analysis appropriately, and to create new hypothesis.\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                ",
-  "courseId": "2026:fall:M119-01:0:537",
+  "rawText": "金沢工業大学 学習支援計画書 F037-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Media Informatics\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\nプログラミングⅠ\nProgramming I  1 F037-01  2024年度\n 1st year 2nd semester  修学規程第4条を参照\n    担当教員名\n MATSUSHITA Yutaka, NEGISHI Ippei, SHIMAMOTO Shingo, HIRANO Noriyuki\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.C language 2.Conditional branch 3.Loop 4.Function  \"Control structure\" and \"function\" are important and indispensable elements in programming. In this course, students learn the usage of \"conditional branch\", \"loop\" and \"function\" and practice them in actual program.\n    授業の概要および学習上の助言   The concepts of \"conditional branch\", \"loop\" and \"functions\" learned in this course play an important role in almost all programming languages, not just C language. Therefore, I would like you to take this course with the intention of learning \"general programming\" rather than \"C language\".\n    教科書および参考書・リザーブドブック   Textbook: 明快入門C スーパー ビギナー編 [SBクリエイティブ]\n    履修に必要な予備知識や技能   It is desirable to understand and master the contents of the introduction to programming.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① F,I,K Be able to make conditional expressions.   ② F,I,K Be able to use conditional branch by \"if\" and \"switch\".   ③ F,I,K Be able to use loop by \"for\" and \"while\".   ④ F,I,K Be able to use functions understanding the mechanism of them.   ⑤     ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 40 40 0 0 0 0 20 100     指標と評価割合 総合評価割合 40 40 0 0 0 0 20 100   総合力指標 知識を取り込む力 40 40 0 0 0 0 20 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ Final examination on 7th week will be evaluated.   ② レ   ③ レ   ④ レ   ⑤     ⑥     クイズ\n小テスト ① レ Quiz on 3rd, 4th, 5th, 6th week will be evaluated.   ② レ   ③ レ   ④ レ   ⑤     ⑥     レポート ①      ②     ③     ④     ⑤     ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ① レ Weekly assignment and attendance to the class will be evaluated.   ② レ   ③ レ   ④ レ   ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     Realize the desired program using conditional branch, loop, and function appropriately in C language. Understand the usage and mechanism of conditional branch, loop, and function appropriately in C language.\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習課題に要する標準的な時間を記載してあります。日々の自学自習時間全体としては、各授業に応じた時間(例えば2単位科目の場合、予習2時間・復習2時間/週)を取るよう努めてください。詳しくは教員の指導に従って下さい。     授業明細   回数 学習内容 授業の運営方法 学習課題(予習・復習) 時間:分※     1  Class guidance Programing experience Lecture Practice Review  50   2  Conditional expression Conditional branch Loop Lecture Practice Preview Review  50 50   3  Loop Quiz 1 Lecture Practice Preview Review  50 50   4  Function Quiz 2 Lecture Practice Preview Review  50 50   5  Function Quiz 3 Lecture Practice Preview Review  50 50   6  Function Quiz 4 Lecture Practice Preview Review  50 50   7  Final examination Self-check Lecture Preview Review  120 50",
+  "courseId": "2024:fall:F032-01:0:537",
   "language": "en"
 }

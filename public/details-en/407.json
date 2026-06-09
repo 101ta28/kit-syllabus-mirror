@@ -1,52 +1,49 @@
 {
   "sourceIndex": 407,
   "sourceUrl": "/opsyllabus/kitos0110/407/1",
-  "importedAt": "2026-06-08T09:34:01.368Z",
-  "title": "メディア情報専門実験・演習Ｂ",
-  "subtitle": "Media Informatics Major Lab/Exercises B",
-  "courseType": "Major ProgramMajor Courses",
-  "credits": "3",
-  "term": "2026年度\n\n                3rd year 1st semester3rd year 2nd semester",
+  "importedAt": "2026-06-09T01:29:22.786Z",
+  "title": "コンピュータアーキテクチャ設計",
+  "subtitle": "Computer Architecture and Design",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "2",
+  "term": "2024年度\n 3rd year 1st semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "TAKANO Sayoko",
-    "HIRANO Noriyuki"
+    "KAWANAMI Takashi",
+    "TAMURA Osamu"
   ],
   "keywords": [
-    "PC Assembly",
-    "LAN Construction",
-    "Physical Computing",
-    "Interactive Design"
+    "Processor 2.Circuit Design 3.ISA 4.Pipeline"
   ],
-  "educationalGoal": "This course is separated into following two parts.\nThe “PC Assembly and Network” part aims to foster the knowledge and skills needed to build a personal computer from parts and construct a simple network.\nIn the \"Physical Computing\" part, students are required to create an original system consisting of I/O devices connected to a microcomputer and learn about practical interaction designing.",
-  "advice": "\"PC Assembly and Network\"\n In this part of the course, the following experiments and exercises will be conducted: assembly of a standard desktop PC, configuration of the BIOS, installation of an operating system, assembly of the LAN cable, building and configuring Ethernet networks, connecting to local networks using a HUB, building servers, and troubleshooting.\n\n“Physical Computing”\n The goal of this part of the course is to realize a human-oriented interaction through experiments designed to create many kinds of interactions using I/O devices connected to a microcomputer.\n Students are required to participate actively in the class and engage in teamwork. Safety must be observed at all times. Compliance with scheduled actions and careful treatment of the equipment and tools are also required. All items must be restored to their original conditions when the class is over. Copyright infringement related to class work is strictly prohibited.\n To pass this course, students grade points must exceed 60% for each part. If any point is less than 60%, the student will fail the entire course.",
-  "books": "Textbooks: None\nReference books: None\nReserved books: None",
-  "requiredKnowledge": "Students are expected to have fundamental knowledge about PCs, networks, and programming.\n\nSince safety is a top priority, students must follow instructions from supervisors and work carefully during the exercises.",
+  "educationalGoal": "Students will: (1) learn the processor organization through circuit design. (2) learn processor components. (3) learn to design the basic processor. (4) learn to design advanced processors with additional instructions.",
+  "advice": "This is an advanced computer architecture course. The knowledge learned in this subject is the foundation for AI and IoT technologies. We will cover the following materials: 1. Design method of logic circuits 2. Design of processor components 3. Design of basic processor 4. Design of advanced processors",
+  "books": "コンピュータアーキテクチャ[コロナ社]",
+  "requiredKnowledge": "Knowledge of radix conversion, basic knowledge of logic circuit operations such as adder, selector, and register are required. Students should also understand data flow and control flow in the processor and basic usage of the “Logisim” logic simulator.",
   "activityGoals": [
     {
       "index": "①",
-      "type": "E,H,I",
-      "body": "Be able to assemble and configure a properly functioning PC based on correct knowledge and handling of the parts"
+      "type": "I,M,N",
+      "body": "Be able to explain the circuit design procedures that are used in logic circuit simulators."
     },
     {
       "index": "②",
-      "type": "E,H,I,J",
-      "body": "Be able to construct a simple LAN using multiple PCs and hubs."
+      "type": "I,M,N",
+      "body": "Be able to design small processor components from functional specifications."
     },
     {
       "index": "③",
-      "type": "E,H,I,J,L,W",
-      "body": "Be able to give a presentation about your work."
+      "type": "I,M,N",
+      "body": "Be able to conduct basic processor design from functional specifications."
     },
     {
       "index": "④",
-      "type": "G,H",
-      "body": "Be able to connect and control a microcomputer and input/output devices."
+      "type": "I,M,N",
+      "body": "Be able to add instructions to the basic processor."
     },
     {
       "index": "⑤",
-      "type": "G,H,E",
-      "body": "Be able to create and produce original interaction designs."
+      "type": "I,M,N",
+      "body": "Be able to verify a processor function using an assembler."
     }
   ],
   "evaluationWeights": [
@@ -55,18 +52,18 @@
       "values": [
         "0",
         "0",
-        "0",
-        "0",
-        "0",
-        "0",
         "100",
+        "0",
+        "0",
+        "0",
+        "0",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -78,18 +75,18 @@
       "values": [
         "0",
         "0",
-        "0",
-        "0",
-        "0",
-        "0",
         "100",
+        "0",
+        "0",
+        "0",
+        "0",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -101,18 +98,18 @@
       "values": [
         "0",
         "0",
-        "0",
-        "0",
-        "0",
-        "0",
         "100",
+        "0",
+        "0",
+        "0",
+        "0",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -133,9 +130,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -143,7 +140,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -156,9 +153,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -179,9 +176,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -190,118 +187,118 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "Achieve 90% of the learning goals.",
-    "standard": "Achieve at least 60% of the learning goals."
+    "ideal": "(1) Be able to fully acquire circuit design techniques using a logic simulator. (2) Be able to fully explain a basic computer configuration. (3) Be able to design basic processors based on specifications. (4) Be able to expand advanced processors based on specifications. (5) Be able to report these achievements accurately.",
+    "standard": "(1) Be able to design processor components based on specifications. (2) Be able to explain the operation of a basic processor circuit. (3) Be able to verify the operation of a basic processor circuit."
   },
   "clipProcess": "",
   "lessons": [
     {
-      "index": "1,2",
-      "content": "Total Orientation\n“PC Assembly and Network” Orientation,\nIntroduction to PC Assembly and Network,\nSafety Instruction, Grouping\n\n“Physical Computing” orientation. Safety\ntraining, Processing and Arduino installation,\nGrouping",
-      "operation": "Lecture and Practice",
-      "assignments": "Review: Review parts check /\nExamining physical computing\nsamples\nPreview: Read the next content",
-      "minutes": "30\n\n30"
+      "index": "1",
+      "content": "Course introduction Review of fundamental of computer architecture and logic circuit",
+      "operation": "Lecture, practice, self-check",
+      "assignments": "Understand the objectives of the class",
+      "minutes": "100"
     },
     {
-      "index": "3,4",
-      "content": "Parts Check\nPC Assembly #1",
-      "operation": "Lecture and Practice",
-      "assignments": "Review: Review about PC\nassembly",
-      "minutes": "60"
+      "index": "2",
+      "content": "Design of data memories -Register -RAM",
+      "operation": "Lecture, practice",
+      "assignments": "Review Chapter 2 in the textbook Complete remaining exercises",
+      "minutes": "100"
     },
     {
-      "index": "5,6",
-      "content": "PC Assembly #2\nOS Installation\nReport Submission",
-      "operation": "Lecture and Practice",
-      "assignments": "Review: Review about PC\nassembly\nPreview: Prepare PC Network\nwith the learning contents",
-      "minutes": "60\n\n30"
+      "index": "3",
+      "content": "Design of instruction fetch component -Sequencer -Program ROM -Instruction register",
+      "operation": "Lecture, practice",
+      "assignments": "Review Chapter 3 in the textbook Complete remaining exercises",
+      "minutes": "100"
     },
     {
-      "index": "7,8",
-      "content": "PC Network Construction #1",
-      "operation": "Lecture and Practice",
-      "assignments": "Review: Review about PC\nNetwork Construction",
-      "minutes": "60"
+      "index": "4",
+      "content": "Design of arithmetic logic component -Instruction set architecture -Instruction of arithmetic logic",
+      "operation": "Lecture, practice",
+      "assignments": "Review Chapter 3 in the textbook Complete remaining exercises",
+      "minutes": "100"
     },
     {
-      "index": "9,10",
-      "content": "PC Network Construction #2",
-      "operation": "Lecture and Practice",
-      "assignments": "Review: Review about PC\nNetwork Construction",
-      "minutes": "60"
+      "index": "5",
+      "content": "Design of arithmetic logic component -Instruction of arithmetic logic -Instruction decoder",
+      "operation": "Lecture, practice, self-check",
+      "assignments": "Review Chapter 3 in the textbook Complete remaining exercises",
+      "minutes": "100"
     },
     {
-      "index": "11,12",
-      "content": "PC Network Construction #3",
-      "operation": "Lecture and Practice",
-      "assignments": "Review: Review about PC\nNetwork Construction",
-      "minutes": "60"
+      "index": "6",
+      "content": "Integration of circuits (Report1)",
+      "operation": "Lecture, practice self-check",
+      "assignments": "Review Chapter 3 in the textbook Complete remaining exercises",
+      "minutes": "100"
     },
     {
-      "index": "13,14",
-      "content": "PC Network Construction #4\nPresentation Preparation\nReport Writing",
-      "operation": "Lecture and Practice",
-      "assignments": "Review: Review about PC\nassembly\nPreview: Prepare for team\npresentation",
-      "minutes": "180\n\n180"
+      "index": "7",
+      "content": "Design of basic processor #1 -w/oRAM",
+      "operation": "Lecture, practice",
+      "assignments": "Review Chapter 2 in the textbook Complete remaining exercises",
+      "minutes": "100"
     },
     {
-      "index": "15,16",
-      "content": "Team Presentation\nSelf-Assessment\nReport Submission",
-      "operation": "Presentation\nQuestionnaire\nReflection",
-      "assignments": "Review: Review and summarize\nthe contents which have been\nlearned during the part.",
-      "minutes": "180"
+      "index": "8",
+      "content": "Design of basic processor #2 -Design of instruction decoder -Verification using assembly language",
+      "operation": "Lecture, practice",
+      "assignments": "Review Chapter 2 in the textbook Complete remaining exercises",
+      "minutes": "100"
     },
     {
-      "index": "17,18",
-      "content": "Optical sensor input + CG animation output",
-      "operation": "Lecture and practice,\n(self-reflection)",
-      "assignments": "Preparation: Reading for the\nnext content.\nReview: Understanding the\ncontent",
-      "minutes": "60"
+      "index": "9",
+      "content": "Design of basic processor #3 -Implementation of data memory -Verification using assembly language",
+      "operation": "Lecture, practice",
+      "assignments": "Review Chapter 2 in the textbook Complete remaining exercises",
+      "minutes": "100"
     },
     {
-      "index": "19,20",
-      "content": "Idea creation",
-      "operation": "",
-      "assignments": "Preparation: Making out a\ndraft\nReview: Understanding the\ncontent",
-      "minutes": "60"
+      "index": "10",
+      "content": "Design of basic processor #4 -Implementation of IO -Verification using assembly language",
+      "operation": "Lecture, practice,",
+      "assignments": "Review Chapters 2 and 3 in the textbook Complete remaining exercises",
+      "minutes": "100"
     },
     {
-      "index": "21,22",
-      "content": "Design, development, and planning\nElectric circuit",
-      "operation": "Lecture and practice,\n(self-reflection)",
-      "assignments": "Reading for the next content.\nReview: Understanding the\ncontent",
-      "minutes": "60"
+      "index": "11",
+      "content": "Design of Basic processor #5(Report2) - Verifying operation",
+      "operation": "Practice self-check",
+      "assignments": "Review Chapters 2 and 3 in the textbook Complete remaining exercises",
+      "minutes": "100"
     },
     {
-      "index": "23,24",
-      "content": "Final work production\nMechanism of sensors",
-      "operation": "Lecture and practice,\n(self-reflection)",
-      "assignments": "Reading for the next content.\nReview: Understanding the\ncontent",
-      "minutes": "60"
+      "index": "12",
+      "content": "Design of advanced processor #1",
+      "operation": "Practice",
+      "assignments": "Review Chapters 2 and 3 in the textbook Complete remaining exercises",
+      "minutes": "100"
     },
     {
-      "index": "25,26",
-      "content": "Final work production\nMechanism of a microcomputer",
-      "operation": "Lecture and practice,\n(self-reflection)",
-      "assignments": "Reading for the next content.\nReview: Understanding the\ncontent",
-      "minutes": "60"
+      "index": "13",
+      "content": "Design of advanced processor #2",
+      "operation": "Practice",
+      "assignments": "Review Chapters 2 and 3 in the textbook Complete remaining exercises",
+      "minutes": "100"
     },
     {
-      "index": "27,28",
-      "content": "Final work production\nUnderstandig of Electric circuit",
-      "operation": "Lecture and practice,\n(self-reflection)",
-      "assignments": "Reading for the next content.\nReview: Understanding the\ncontent",
-      "minutes": "120"
+      "index": "14",
+      "content": "Design of advanced processor #3(Report3)",
+      "operation": "Practice",
+      "assignments": "Review Chapters 2 and 3 in the textbook Complete remaining exercises",
+      "minutes": "100"
     },
     {
-      "index": "29,30",
-      "content": "Final work presentation",
-      "operation": "Lecture and presentation\nSelf-check",
-      "assignments": "Review: Report submission",
-      "minutes": "120"
+      "index": "15",
+      "content": "Presentation Self-evaluation",
+      "operation": "Presentation, self-check",
+      "assignments": "Review Chapters 2 and 3 in the textbook Complete remaining exercises",
+      "minutes": "100"
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　F027-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Media Informatics(〜2024)\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                メディア情報専門実験・演習Ｂ\n                Media Informatics Major Lab/Exercises B\n\n              3\n              F027-01\n\n                2026年度\n\n                3rd year 1st semester3rd year 2nd semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  TAKANO Sayoko, HIRANO Noriyuki\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.PC Assembly\n2.LAN Construction\n3.Physical Computing\n4.Interactive Design\n\n              This course is separated into following two parts.\nThe “PC Assembly and Network” part aims to foster the knowledge and skills needed to build a personal computer from parts and construct a simple network.\nIn the \"Physical Computing\" part, students are required to create an original system consisting of I/O devices connected to a microcomputer and learn about practical interaction designing.\n\n              授業の概要および学習上の助言\n\n              \"PC Assembly and Network\"\n In this part of the course, the following experiments and exercises will be conducted: assembly of a standard desktop PC, configuration of the BIOS, installation of an operating system, assembly of the LAN cable, building and configuring Ethernet networks, connecting to local networks using a HUB, building servers, and troubleshooting.\n\n“Physical Computing”\n The goal of this part of the course is to realize a human-oriented interaction through experiments designed to create many kinds of interactions using I/O devices connected to a microcomputer.\n Students are required to participate actively in the class and engage in teamwork. Safety must be observed at all times. Compliance with scheduled actions and careful treatment of the equipment and tools are also required. All items must be restored to their original conditions when the class is over. Copyright infringement related to class work is strictly prohibited.\n To pass this course, students grade points must exceed 60% for each part. If any point is less than 60%, the student will fail the entire course.\n\n              教科書および参考書・リザーブドブック\n\n              Textbooks: None\nReference books: None\nReserved books: None\n\n              履修に必要な予備知識や技能\n\n              Students are expected to have fundamental knowledge about PCs, networks, and programming.\n\nSince safety is a top priority, students must follow instructions from supervisors and work carefully during the exercises.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                E,H,I\n                Be able to assemble and configure a properly functioning PC based on correct knowledge and handling of the parts\n\n                ②\n                E,H,I,J\n                Be able to construct a simple LAN using multiple PCs and hubs.\n\n                ③\n                E,H,I,J,L,W\n                Be able to give a presentation about your work.\n\n                ④\n                G,H\n                Be able to connect and control a microcomputer and input/output devices.\n\n                ⑤\n                G,H,E\n                Be able to create and produce original interaction designs.\n\n                ⑥\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                0\n\n                0\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                0\n\n                0\n\n                0\n\n                0\n\n                0\n",
-  "courseId": "2026:fall:F027-01:0:407",
+  "rawText": "金沢工業大学 学習支援計画書 E527-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Information and Computer Science\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\nコンピュータアーキテクチャ設計\nComputer Architecture and Design  2 E527-01  2024年度\n 3rd year 1st semester  修学規程第4条を参照\n    担当教員名\n KAWANAMI Takashi, TAMURA Osamu\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Processor 2.Circuit Design 3.ISA 4.Pipeline  Students will: (1) learn the processor organization through circuit design. (2) learn processor components. (3) learn to design the basic processor. (4) learn to design advanced processors with additional instructions.\n    授業の概要および学習上の助言   This is an advanced computer architecture course. The knowledge learned in this subject is the foundation for AI and IoT technologies. We will cover the following materials: 1. Design method of logic circuits 2. Design of processor components 3. Design of basic processor 4. Design of advanced processors\n    教科書および参考書・リザーブドブック    コンピュータアーキテクチャ[コロナ社]\n    履修に必要な予備知識や技能   Knowledge of radix conversion, basic knowledge of logic circuit operations such as adder, selector, and register are required. Students should also understand data flow and control flow in the processor and basic usage of the “Logisim” logic simulator.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① I,M,N Be able to explain the circuit design procedures that are used in logic circuit simulators.   ② I,M,N Be able to design small processor components from functional specifications.   ③ I,M,N Be able to conduct basic processor design from functional specifications.   ④ I,M,N Be able to add instructions to the basic processor.   ⑤ I,M,N Be able to verify a processor function using an assembler.   ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 0 0 100 0 0 0 0 100     指標と評価割合 総合評価割合 0 0 100 0 0 0 0 100   総合力指標 知識を取り込む力 0 0 100 0 0 0 0 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ①      ②     ③     ④     ⑤     ⑥     クイズ\n小テスト ①      ②     ③     ④     ⑤     ⑥     レポート ① レ Component implementation report: 30% Basic processor implementation report: 30% Advanced processor implementation report: 40%    ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ①      ②     ③     ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     (1) Be able to fully acquire circuit design techniques using a logic simulator. (2) Be able to fully explain a basic computer configuration. (3) Be able to design basic processors based on specifications. (4) Be able to expand advanced processors based on specifications. (5) Be able to report these achievements accurately. (1) Be able to design processor components based on specifications. (2) Be able to explain the operation of a basic processor circuit. (3) Be able to verify the operation of a basic processor circuit.\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習課題に要する標準的な時間を記載してあります。日々の自学自習時間全体としては、各授業に応じた時間(例えば2単位科目の場合、予習2時間・復習2時間/週)を取るよう努めてください。詳しくは教員の指導に従って下さい。     授業明細   回数 学習内容 授業の運営方法 学習課題(予習・復習) 時間:分※     1  Course introduction Review of fundamental of computer architecture and logic circuit Lecture, practice, self-check Understand the objectives of the class  100   2  Design of data memories -Register -RAM Lecture, practice Review Chapter 2 in the textbook Complete remaining exercises  100   3  Design of instruction fetch component -Sequencer -Program ROM -Instruction register Lecture, practice Review Chapter 3 in the textbook Complete remaining exercises  100   4  Design of arithme",
+  "courseId": "2024:spring:E520-01:0:407",
   "language": "en"
 }

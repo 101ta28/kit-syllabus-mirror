@@ -1,77 +1,68 @@
 {
   "sourceIndex": 431,
   "sourceUrl": "/opsyllabus/kitos0110/431/1",
-  "importedAt": "2026-06-08T09:34:01.854Z",
-  "title": "コーポレートファイナンス",
-  "subtitle": "Corporate Finance",
-  "courseType": "Major ProgramMajor Courses",
-  "credits": "2",
-  "term": "2026年度\n\n                3rd year 1st semester",
+  "importedAt": "2026-06-09T01:29:23.050Z",
+  "title": "プロジェクトデザインⅢ(郭清蓮研究室)",
+  "subtitle": "Design Project III(Guo Qinglian)",
+  "courseType": "Major Program\nMajor Project Courses",
+  "credits": "8",
+  "term": "2024年度\n All year",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "HIRATA Kazufumi"
+    "GUO Qinglian"
   ],
   "keywords": [
-    "Discounted cash flow",
-    "Dead Equity finance",
-    "Cost of capital",
-    "Optimal capital structure",
-    "Fintech"
+    "Computer graphics 2.Projection mapping 3.Content design 4.Content Creation 5.Computer game"
   ],
-  "educationalGoal": "This course corresponds to the “Financial Ability” learning and educational goal of the Department of Management Systems.\nThe goal is for the student to understand the basic concepts and methods of finance necessary for corporate management and to develop the ability to analyze and examine specific examples of corporate finance.\nIt also aims to understand typical Fintech services.",
-  "advice": "In this course, students will first learn the basic concepts that serve as the premise of learning. They will then learn the basic ideas and specific methods related to finance.",
-  "books": "None",
-  "requiredKnowledge": "This course deals with financial management from a capital procurement perspective.\nIn order to understand the content of this class, the material you have learned in previous financial courses will be useful, so it is recommended that you thoroughly review it before attending class.",
+  "educationalGoal": "Students will: (1) Learn how to investigate previous projection mapping studies. (2) Learn how to design projection mapping content. (3) Learn how to create projection mapping content. (4) Learn how to design interactive projection mapping games. (5) Learn how to carry out a projection mapping event.",
+  "advice": "Students are required to have knowledge about basic computer graphics algorithms. Students are required to have programming skills with Processing or Unity. Students are expected to be able to use Blender, Photoshop, and AfterEffect.",
+  "books": "no textbooks required",
+  "requiredKnowledge": "The ability to perform programming with C or Java is required.",
   "activityGoals": [
     {
       "index": "①",
-      "type": "M,N",
-      "body": "Be able to understand the role of financial markets and financial institutions."
+      "type": "A,B,C",
+      "body": "Be able to understand previous studies related to projection mapping."
     },
     {
       "index": "②",
-      "type": "M,N",
-      "body": "Be able to understand financial management systems."
+      "type": "A,B,C",
+      "body": "Be able to design projection mapping content."
     },
     {
       "index": "③",
-      "type": "M,N",
-      "body": "Be able to understand the time value of money."
+      "type": "A,B,C",
+      "body": "Be able to develop content using Blender, Unity, or Processing."
     },
     {
       "index": "④",
-      "type": "M,N",
-      "body": "Be able to understand various finance methods."
+      "type": "A,B,C",
+      "body": "Be able to design projection mapping game content."
     },
     {
       "index": "⑤",
-      "type": "M,N",
-      "body": "Be able to understand the cost of capital."
-    },
-    {
-      "index": "⑥",
-      "type": "M,N",
-      "body": "Be able to understand the optimal capital structure."
+      "type": "D,E",
+      "body": "Be able to carry out a projection mapping event."
     }
   ],
   "evaluationWeights": [
     {
       "label": "総合評価割合",
       "values": [
-        "40",
-        "30",
+        "0",
+        "0",
+        "0",
         "20",
+        "60",
         "0",
-        "0",
-        "0",
-        "10",
+        "20",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -81,20 +72,20 @@
     {
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
-        "40",
-        "30",
+        "0",
+        "0",
+        "0",
         "20",
+        "60",
         "0",
-        "0",
-        "0",
-        "10",
+        "20",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -104,20 +95,20 @@
     {
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
-        "40",
-        "30",
+        "0",
+        "0",
+        "0",
         "20",
+        "60",
         "0",
-        "0",
-        "0",
-        "10",
+        "20",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -138,9 +129,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -148,7 +139,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -161,9 +152,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -184,9 +175,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -195,118 +186,12 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "・Be able to understand the role of financial markets and institutions and explain the money creation system.\n・Be able to explain the financial management system from the aspect of capital procurement/operation management and profit/cash management.\n・Be able to understand the significance of the time value of money and calculate it in detail.\n・Be able to understand the concept of weighted average cost of capital and calculate it in detail.\n・Be able to explain the advantages and disadvantages of various finance methods.\n・Be able to give your opinion on the optimal capital structure.",
-    "standard": "・Be able to understand the role of financial markets and financial institutions.\n・Be able to briefly explain the financial management system.\n・Be able to understand the time value of money\n・Be able to understand the concept of capital cost\n・Be able to determine what kind of capital procurement is available.\n・Be able to understand the basic idea of optimal capital structure."
+    "ideal": "Be able to acquire basic knowledge about projection mapping. Be able to create original and high quality projection mapping content. Be able to carry out a projection mapping event.",
+    "standard": "Be able to acquire basic knowledge about projection mapping. Be able to create original high-quality content."
   },
   "clipProcess": "",
-  "lessons": [
-    {
-      "index": "1",
-      "content": "Introduction",
-      "operation": "Lecture, Q&A, Exercises",
-      "assignments": "Read and prepare basic\nfinance books",
-      "minutes": "260"
-    },
-    {
-      "index": "2",
-      "content": "What is Corporate Finance",
-      "operation": "Lecture, Q&A, Exercises",
-      "assignments": "Organize notes and deepen\nunderstanding of class content",
-      "minutes": "260"
-    },
-    {
-      "index": "3",
-      "content": "Fundamentals of Finance",
-      "operation": "Lecture, Q&A, Exercises",
-      "assignments": "Organize notes and deepen\nunderstanding of class content",
-      "minutes": "260"
-    },
-    {
-      "index": "4",
-      "content": "Business evaluation",
-      "operation": "Lecture, Q&A, Exercises",
-      "assignments": "Organize notes and deepen\nunderstanding of class content",
-      "minutes": "260"
-    },
-    {
-      "index": "5",
-      "content": "Optimal capital structure",
-      "operation": "Lecture, Q&A, Exercises",
-      "assignments": "Organize notes and deepen\nunderstanding of class content",
-      "minutes": "260"
-    },
-    {
-      "index": "6",
-      "content": "Shareholders’equity",
-      "operation": "Lecture, Q&A, Exercises",
-      "assignments": "Organize notes and deepen\nunderstanding of class content",
-      "minutes": "260"
-    },
-    {
-      "index": "7",
-      "content": "Review of past classes\n\n1st Quiz",
-      "operation": "Lecture, Quiz, Explanation",
-      "assignments": "Review of 1st Quiz",
-      "minutes": "260"
-    },
-    {
-      "index": "8",
-      "content": "Dead finance",
-      "operation": "Lecture, Q&A, Exercises",
-      "assignments": "Organize notes and deepen\nunderstanding of class content",
-      "minutes": "260"
-    },
-    {
-      "index": "9",
-      "content": "Investment decision",
-      "operation": "Lecture, Q&A, Exercises",
-      "assignments": "Organize notes and deepen\nunderstanding of class content",
-      "minutes": "260"
-    },
-    {
-      "index": "10",
-      "content": "Report assignment description",
-      "operation": "Lecture, Q&A, Exercises",
-      "assignments": "Organize notes and deepen\nunderstanding of class content",
-      "minutes": "260"
-    },
-    {
-      "index": "11",
-      "content": "Review of past classes\n\n2nd Quiz",
-      "operation": "Lecture, Quiz, Explanation",
-      "assignments": "Review of 2nd Quiz",
-      "minutes": "260"
-    },
-    {
-      "index": "12",
-      "content": "M&A / Alliance strategy",
-      "operation": "Lecture, Q&A, Exercises",
-      "assignments": "Organize notes and deepen\nunderstanding of class content",
-      "minutes": "260"
-    },
-    {
-      "index": "13",
-      "content": "M&A process/\nCorporate governance",
-      "operation": "Lecture, Q&A, Exercises",
-      "assignments": "Organize notes and deepen\nunderstanding of class content",
-      "minutes": "260"
-    },
-    {
-      "index": "14",
-      "content": "ESG investment",
-      "operation": "Lecture, Q&A, Exercises",
-      "assignments": "Organize notes and deepen\nunderstanding of class content",
-      "minutes": "260"
-    },
-    {
-      "index": "15",
-      "content": "Final exam\n\nExplanation of final exam\n\nQuestionnaire",
-      "operation": "Exam, Explanation, Q&A,\nQuestionnaire",
-      "assignments": "Review of final exam and what\nyou learned in this class",
-      "minutes": "260"
-    }
-  ],
-  "rawText": "金沢工業大学　学習支援計画書　F121-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Management Systems(〜2024)\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                コーポレートファイナンス\n                Corporate Finance\n\n              2\n              F121-01\n\n                2026年度\n\n                3rd year 1st semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  HIRATA Kazufumi\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Discounted cash flow\n2.Dead Equity finance\n3.Cost of capital\n4.Optimal capital structure\n5.Fintech\n\n              This course corresponds to the “Financial Ability” learning and educational goal of the Department of Management Systems.\nThe goal is for the student to understand the basic concepts and methods of finance necessary for corporate management and to develop the ability to analyze and examine specific examples of corporate finance.\nIt also aims to understand typical Fintech services.\n\n              授業の概要および学習上の助言\n\n              In this course, students will first learn the basic concepts that serve as the premise of learning. They will then learn the basic ideas and specific methods related to finance.\n\n              教科書および参考書・リザーブドブック\n\n              None\n\n              履修に必要な予備知識や技能\n\n              This course deals with financial management from a capital procurement perspective.\nIn order to understand the content of this class, the material you have learned in previous financial courses will be useful, so it is recommended that you thoroughly review it before attending class.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                M,N\n                Be able to understand the role of financial markets and financial institutions.\n\n                ②\n                M,N\n                Be able to understand financial management systems.\n\n                ③\n                M,N\n                Be able to understand the time value of money.\n\n                ④\n                M,N\n                Be able to understand various finance methods.\n\n                ⑤\n                M,N\n                Be able to understand the cost of capital.\n\n                ⑥\n                M,N\n                Be able to understand the optimal capital structure.\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                40\n\n                30\n\n                20\n\n                0\n\n                0\n\n                0\n\n                10\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                40\n\n                30\n\n                20\n\n                0\n\n                0\n\n                0\n\n                10\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                40\n\n                30\n\n                20\n\n                0\n\n                0\n\n                0\n\n                10\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  コラボレーションとリーダーシップ\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  発表・表現・伝達する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  学習に取組む姿勢・意欲\n\n                ",
-  "courseId": "2026:spring:F121-01:0:431",
+  "lessons": [],
+  "rawText": "金沢工業大学 学習支援計画書 E926-11\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Information and Computer Science\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Project Courses\nプロジェクトデザインⅢ(郭清蓮研究室)\nDesign Project III(Guo Qinglian)  8 E926-11  2024年度\n All year  修学規程第4条を参照\n    担当教員名\n GUO Qinglian\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Computer graphics 2.Projection mapping 3.Content design 4.Content Creation 5.Computer game  Students will: (1) Learn how to investigate previous projection mapping studies. (2) Learn how to design projection mapping content. (3) Learn how to create projection mapping content. (4) Learn how to design interactive projection mapping games. (5) Learn how to carry out a projection mapping event.\n    授業の概要および学習上の助言   Students are required to have knowledge about basic computer graphics algorithms. Students are required to have programming skills with Processing or Unity. Students are expected to be able to use Blender, Photoshop, and AfterEffect.\n    教科書および参考書・リザーブドブック   no textbooks required\n    履修に必要な予備知識や技能   The ability to perform programming with C or Java is required.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① A,B,C Be able to understand previous studies related to projection mapping.   ② A,B,C Be able to design projection mapping content.   ③ A,B,C Be able to develop content using Blender, Unity, or Processing.   ④ A,B,C Be able to design projection mapping game content.   ⑤ D,E Be able to carry out a projection mapping event.   ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 0 0 0 20 60 0 20 100     指標と評価割合 総合評価割合 0 0 0 20 60 0 20 100   総合力指標 知識を取り込む力 0 0 0 20 60 0 20 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ①      ②     ③     ④     ⑤     ⑥     クイズ\n小テスト ①      ②     ③     ④     ⑤     ⑥     レポート ①      ②     ③     ④     ⑤     ⑥     成果発表\n(口頭・実技) ① レ One real projection mapping event will be evaluated.    ② レ   ③ レ   ④     ⑤     ⑥     作品 ① レ Each student will create a short content (about 3 min.) for evaluation.   ② レ   ③ レ   ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ① レ Each student will take part in a practical projection mapping event   ② レ   ③ レ   ④ レ   ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     Be able to acquire basic knowledge about projection mapping. Be able to create original and high quality projection mapping content. Be able to carry out a projection mapping event.  Be able to acquire basic knowledge about projection mapping. Be able to create original high-quality content.\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習課題に要する標準的な時間を記載してあります。日々の自学自習時間全体としては、各授業に応じた時間(例えば2単位科目の場合、予習2時間・復習2時間/週)を取るよう努めてください。詳しくは教員の指導に従って下さい。     授業明細   回数 学習内容 授業の運営方法 学習課題(予習・復習) 時間:分※       Review of computer graphics Lecture Programming Practicing Review  160 min     History of projection mapping Lecture Programming Practicing Review  160 min     Study of using Unity Lecture Programming Practicing Review  160 min     Study of using Unity Lecture Programming Practicing Review  160 min     Study of using Unity Lecture Programming Practicing Review  160 min     Study of using Blender Lecture Programming Practicing Review  160 min     Study of using Blender Lecture Programming Practicing Review  160 min     Study of using Blender Lecture Programming Practicing Review  160 min     Study of using AE Lecture Programming Practicing Review  160 min     Study of previous works Lecture Programming Practicing Review  160 min     Study of previous works Lecture Programming Practicing Review  160 min     Study of previous works Lecture Programming Practicing Rev",
+  "courseId": "2024:fall:E543-01:0:431",
   "language": "en"
 }

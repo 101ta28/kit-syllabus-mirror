@@ -1,57 +1,43 @@
 {
   "sourceIndex": 874,
   "sourceUrl": "/opsyllabus/kitos0110/874/1",
-  "importedAt": "2026-06-08T09:34:11.330Z",
-  "title": "環境土木工学入門とキャリアデザイン",
-  "subtitle": "Introduction to Civil and Environmental Engineering and Career Design",
-  "courseType": "Major ProgramMajor Courses",
-  "credits": "2",
-  "term": "2026年度\n\n                1st year 1st semester",
+  "importedAt": "2026-06-09T01:29:27.255Z",
+  "title": "ネットワークセキュリティ(夏期集中講義)",
+  "subtitle": "Network Security",
+  "courseType": "(Provided by all courses)\nLiberal Arts Courses\nTransdisciplinary Learning",
+  "credits": "1",
+  "term": "2024年度\n 1st year 1st semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "MIYAZATO Shinichi"
+    "MUKAI Hiroaki"
   ],
   "keywords": [
-    "Civil Engineering",
-    "Actual Field",
-    "History",
-    "Career Pass",
-    "GX, DX"
+    "TCP/IP 2.Security 3.Encryption 4.Authentication"
   ],
-  "educationalGoal": "Students will: (1) understand connection between civil engineering and society, (2) understand history of technology, (3) understand academic area of civil and environmental engineering, (4) plan their course of study considering career formation to accomplish their dreams.",
-  "advice": "This is a basic course of study for civil and environmental engineering. We will cover the following materials:\n\n1. Understanding of system in the Department of Civil and Environmental Engineering (GX)\n2. Understanding of outline in Civil and Environmental Engineering\n3. Development of scientific capabilities that logically consider the essence of phenomena and conditions\n4. Introduction of fields to academic and research\n\nStudents are required to actively participate in class.\n\nThis is useful for all subjects, in particular Design in Civil and Environmental Engineering.",
-  "books": "none",
-  "requiredKnowledge": "Selecting and finding of an area of interest in civil and environmental engineering.",
+  "educationalGoal": "Understand various network attack methods such as DoS attacks and SQL injection, countermeasure technologies, and basic cryptography.",
+  "advice": "In this course, students will learn about network security knowledge and technology. Students learn various network attack methods such as DoS attacks and SQL injection and countermeasure techniques against them. Students will also learn about basic cryptography and its implementation.",
+  "books": "Mastering TCP/IP -Information security-",
+  "requiredKnowledge": "Need to understand TCP/IP.",
   "activityGoals": [
     {
       "index": "①",
-      "type": "A,I",
-      "body": "Students can understand engineering’s role in contemporary society, and plan their own studies. [0.05A, 0.05I]"
+      "type": "I,N,Q",
+      "body": "Able to explain basis of encryption."
     },
     {
       "index": "②",
-      "type": "A,I",
-      "body": "Students can understand the study area of civil and environmental engineering.  [0.1A, 0.1I]"
+      "type": "I,N,Q",
+      "body": "Able to explain basis of authentication."
     },
     {
       "index": "③",
-      "type": "J",
-      "body": "Students can give a rough outline of the design, construction, and maintenance of structures. [0.2J]"
+      "type": "I,N,Q",
+      "body": "Able to explain security protocols."
     },
     {
       "index": "④",
-      "type": "K",
-      "body": "Students can give a rough outline of the use of the natural environment (GX). [0.2K]"
-    },
-    {
-      "index": "⑤",
-      "type": "L",
-      "body": "Students can give a rough outline about measurement, analysis, and evaluation of geoinformatics (DX). [0.2L]"
-    },
-    {
-      "index": "⑥",
-      "type": "A,I",
-      "body": "Students can explain the process engineers follow as they create their own careers. [0.05A, 0.05I]"
+      "type": "I,N,Q",
+      "body": "Able to explain host and network security."
     }
   ],
   "evaluationWeights": [
@@ -60,18 +46,18 @@
       "values": [
         "0",
         "0",
-        "100",
+        "50",
         "0",
         "0",
         "0",
-        "0",
+        "50",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -83,18 +69,18 @@
       "values": [
         "0",
         "0",
-        "100",
+        "50",
         "0",
         "0",
         "0",
-        "0",
+        "50",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -106,18 +92,18 @@
       "values": [
         "0",
         "0",
-        "100",
+        "50",
         "0",
         "0",
         "0",
-        "0",
+        "50",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -138,9 +124,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -148,7 +134,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -161,9 +147,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -184,9 +170,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -195,118 +181,62 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "Students clearly consider their study targets in light of their plans to become engineers.",
-    "standard": "Students are interested in the utility of civil and environmental engineering."
+    "ideal": "Able to explain network security systematically.",
+    "standard": "Able to explain basis of network security."
   },
   "clipProcess": "",
   "lessons": [
     {
       "index": "1",
-      "content": "Guidance\nOutline of College of Engineering\nOutline of Department of Civil and\nEnvironmental Engineering",
-      "operation": "Lecture and\ninteractive activities\nSkill check\nSelf-check\nSubmission of note",
-      "assignments": "Inspect curriculum guidebook",
-      "minutes": "50"
+      "content": "Information security overview",
+      "operation": "Lecture, discussion and exercises",
+      "assignments": "",
+      "minutes": ""
     },
     {
       "index": "2",
-      "content": "Civilization, life, and social infrastructure\nin the world",
-      "operation": "Lecture and\ninteractive activities\nSelf-check\nSubmission of note",
-      "assignments": "Preview world’s geography\nand history\n\nReview worldwide social\ninfrastructures",
-      "minutes": "50\n\n50"
+      "content": "Encryption and authentication",
+      "operation": "Lecture, discussion and exercises",
+      "assignments": "",
+      "minutes": ""
     },
     {
       "index": "3",
-      "content": "Civilization, life and social infrastructure in\nJapan",
-      "operation": "Lecture and\ninteractive activities\nSelf-check\nSubmission of note",
-      "assignments": "Preview Japanese geography\nand history\n\nReview social infrastructures\nin Japan",
-      "minutes": "50\n\n50"
+      "content": "PKI, security protocols",
+      "operation": "Lecture, discussion and exercises",
+      "assignments": "",
+      "minutes": ""
     },
     {
       "index": "4",
-      "content": "Civilization, life and social infrastructure in\nHokuriku region",
-      "operation": "Lecture and\ninteractive activities\nSelf-check\nSubmission of note",
-      "assignments": "Preview Japanese geography\nand history\n\nReview social Hokuriku region\ninfrastructures",
-      "minutes": "50\n\n50"
+      "content": "Network security",
+      "operation": "Lecture, discussion and exercises",
+      "assignments": "",
+      "minutes": ""
     },
     {
       "index": "5",
-      "content": "Infrastructures\nConstruction industry",
-      "operation": "Lecture and\ninteractive activities\nSelf-check\nSubmission of note",
-      "assignments": "Preview infrastructures and\nconstruction industry\n\nReview infrastructures and\nconstruction industry",
-      "minutes": "50\n\n50"
+      "content": "Host security, Web security",
+      "operation": "Lecture, discussion and exercises",
+      "assignments": "",
+      "minutes": ""
     },
     {
       "index": "6",
-      "content": "Aging of infrastructures",
-      "operation": "Lecture and\ninteractive activities\nSelf-check\nSubmission of note",
-      "assignments": "Preview maintenance\n\nReview maintenance",
-      "minutes": "50\n\n50"
+      "content": "Hands on network equipment",
+      "operation": "Lecture, discussion and exercises",
+      "assignments": "",
+      "minutes": ""
     },
     {
       "index": "7",
-      "content": "Disaster prevention",
-      "operation": "Lecture and\ninteractive activities\nSelf-check\nSubmission of note",
-      "assignments": "Preview disaster prevention\n\nReview disaster prevention",
-      "minutes": "50\n\n50"
-    },
-    {
-      "index": "8",
-      "content": "National land planning and city planning\nGround design",
-      "operation": "Lecture and\ninteractive activities\nSkill check\nSelf-check\nSubmission of note",
-      "assignments": "Preview national development\nplan and structure design\n\nReview national land planning\nand city planning\nReview structure designing",
-      "minutes": "50\n\n50"
-    },
-    {
-      "index": "9",
-      "content": "Presentation by visiting lecturer (1)",
-      "operation": "Lecture and\ninteractive activities\nSelf-check\nSubmission of note",
-      "assignments": "Preview special lecture\n\nReview special lecture",
-      "minutes": "60\n\n60"
-    },
-    {
-      "index": "10",
-      "content": "Presentation by visiting lecturer (2)",
-      "operation": "Lecture and\ninteractive activities\nSelf-check\nSubmission of note",
-      "assignments": "Preview special lecture\n\nReview special lecture",
-      "minutes": "60\n\n60"
-    },
-    {
-      "index": "11",
-      "content": "Technological development\nSafety and morality",
-      "operation": "Lecture and\ninteractive activities\nSelf-check\nSubmission of note",
-      "assignments": "Preview technology in civil\nengineering\nPreview accidents\n\nReview needs for\ntechnological development\nReview needs for safety and\nmorality",
-      "minutes": "50\n\n50"
-    },
-    {
-      "index": "12",
-      "content": "Presentation by visiting lecturer (3)",
-      "operation": "Lecture and\ninteractive activities\nSelf-check\nSubmission of note",
-      "assignments": "Preview special lecture\n\nReview special lecture",
-      "minutes": "60\n\n60"
-    },
-    {
-      "index": "13",
-      "content": "Presentation by visiting lecturer (4)",
-      "operation": "Lecture and\ninteractive activities\nSelf-check\nSubmission of note",
-      "assignments": "Preview special lecture\n\nReview special lecture",
-      "minutes": "60\n\n60"
-    },
-    {
-      "index": "14",
-      "content": "Connection of university and society\nCareer pass",
-      "operation": "Lecture and\ninteractive activities\nSelf-check\nSubmission of note",
-      "assignments": "Preview current events\n\nView of aims as members of\nsociety\nThink career pass",
-      "minutes": "50\n\n50"
-    },
-    {
-      "index": "15",
-      "content": "Summary",
-      "operation": "Interactive activities\nSkill check\nIndividual conferences",
-      "assignments": "Review of previous classes",
-      "minutes": "50"
+      "content": "Hands on network equipment",
+      "operation": "Lecture, discussion and exercises",
+      "assignments": "",
+      "minutes": ""
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　K501-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Civil and Environmental Engineering\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                環境土木工学入門とキャリアデザイン\n                Introduction to Civil and Environmental Engineering and Career Design\n\n              2\n              K501-01\n\n                2026年度\n\n                1st year 1st semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  MIYAZATO Shinichi\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Civil Engineering\n2.Actual Field\n3.History\n4.Career Pass\n5.GX, DX\n\n              Students will: (1) understand connection between civil engineering and society, (2) understand history of technology, (3) understand academic area of civil and environmental engineering, (4) plan their course of study considering career formation to accomplish their dreams.\n\n              授業の概要および学習上の助言\n\n              This is a basic course of study for civil and environmental engineering. We will cover the following materials:\n\n1. Understanding of system in the Department of Civil and Environmental Engineering (GX)\n2. Understanding of outline in Civil and Environmental Engineering\n3. Development of scientific capabilities that logically consider the essence of phenomena and conditions\n4. Introduction of fields to academic and research\n\nStudents are required to actively participate in class.\n\nThis is useful for all subjects, in particular Design in Civil and Environmental Engineering.\n\n              教科書および参考書・リザーブドブック\n\n              none\n\n              履修に必要な予備知識や技能\n\n              Selecting and finding of an area of interest in civil and environmental engineering.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                A,I\n                Students can understand engineering’s role in contemporary society, and plan their own studies. [0.05A, 0.05I]\n\n                ②\n                A,I\n                Students can understand the study area of civil and environmental engineering.  [0.1A, 0.1I]\n\n                ③\n                J\n                Students can give a rough outline of the design, construction, and maintenance of structures. [0.2J]\n\n                ④\n                K\n                Students can give a rough outline of the use of the natural environment (GX). [0.2K]\n\n                ⑤\n                L\n                Students can give a rough outline about measurement, analysis, and evaluation of geoinformatics (DX). [0.2L]\n\n                ⑥\n                A,I\n                Students can explain the process engineers follow as they create their own careers. [0.05A, 0.05I]\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                0\n\n                0\n\n                100\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                0\n\n                0\n\n                100\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                0\n\n                0\n\n                100\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  コラボレーションとリーダーシップ\n\n                    0\n\n                    0\n\n         ",
-  "courseId": "2026:spring:K501-01:0:874",
+  "rawText": "金沢工業大学 学習支援計画書 G264-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\n(Provided by all courses)\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     (Provided by all courses)\nLiberal Arts Courses\nTransdisciplinary Learning\nネットワークセキュリティ(夏期集中講義)\nNetwork Security  1 G264-01  2024年度\n 1st year 1st semester  修学規程第4条を参照\n    担当教員名\n MUKAI Hiroaki\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.TCP/IP 2.Security 3.Encryption 4.Authentication  Understand various network attack methods such as DoS attacks and SQL injection, countermeasure technologies, and basic cryptography.\n    授業の概要および学習上の助言   In this course, students will learn about network security knowledge and technology. Students learn various network attack methods such as DoS attacks and SQL injection and countermeasure techniques against them. Students will also learn about basic cryptography and its implementation.\n    教科書および参考書・リザーブドブック   Mastering TCP/IP -Information security-\n    履修に必要な予備知識や技能   Need to understand TCP/IP.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① I,N,Q Able to explain basis of encryption.   ② I,N,Q Able to explain basis of authentication.   ③ I,N,Q Able to explain security protocols.   ④ I,N,Q Able to explain host and network security.   ⑤     ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 0 0 50 0 0 0 50 100     指標と評価割合 総合評価割合 0 0 50 0 0 0 50 100   総合力指標 知識を取り込む力 0 0 50 0 0 0 50 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ①      ②     ③     ④     ⑤     ⑥     クイズ\n小テスト ①      ②     ③     ④     ⑤     ⑥     レポート ① レ Students develop reports in every class.   ② レ   ③ レ   ④ レ   ⑤     ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ① レ Evaluate attitude of students,   ② レ   ③ レ   ④ レ   ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     Able to explain network security systematically. Able to explain basis of network security.\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習課題に要する標準的な時間を記載してあります。日々の自学自習時間全体としては、各授業に応じた時間(例えば2単位科目の場合、予習2時間・復習2時間/週)を取るよう努めてください。詳しくは教員の指導に従って下さい。     授業明細   回数 学習内容 授業の運営方法 学習課題(予習・復習) 時間:分※     1  Information security overview Lecture, discussion and exercises      2  Encryption and authentication Lecture, discussion and exercises      3  PKI, security protocols Lecture, discussion and exercises      4  Network security Lecture, discussion and exercises      5  Host security, Web security Lecture, discussion and exercises      6  Hands on network equipment Lecture, discussion and exercises      7  Hands on network equipment Lecture, discussion and exercises",
+  "courseId": "2024:fall:G258-01:0:874",
   "language": "en"
 }

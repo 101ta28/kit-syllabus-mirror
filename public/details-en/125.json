@@ -1,72 +1,70 @@
 {
   "sourceIndex": 125,
   "sourceUrl": "/opsyllabus/kitos0110/125/1",
-  "importedAt": "2026-06-08T09:33:55.698Z",
-  "title": "戦略会計入門",
-  "subtitle": "Management Accounting Basic",
-  "courseType": "Major ProgramMajor Courses",
-  "credits": "2",
-  "term": "2026年度\n\n                2nd year 1st semester",
+  "importedAt": "2026-06-09T01:29:20.313Z",
+  "title": "データサイエンス入門",
+  "subtitle": "Introduction to Data Science",
+  "courseType": "Design Project Program\nDesign Project Courses\nDesign Project",
+  "credits": "1",
+  "term": "2024年度\n 1st year 1st semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "MASUBUCHI Takashi"
+    "MIYATA Takatomi",
+    "TANIGUCHI Moemi",
+    "NISHIKAWA Yukinobu",
+    "MINAMIDE Akiyuki",
+    "SATOU Fujio",
+    "OKAMOTO Youhei",
+    "OOHIRA Yoshiyuki",
+    "OOHASHI Kazuki"
   ],
   "keywords": [
-    "CVP analysis and profit chart",
-    "Profit plan master plan",
-    "Estimated balance sheet",
-    "Working capital",
-    "Cash flow management"
+    "Data Science 2.Data handling 3.Spreadsheets 4.Graphs 5.Open data"
   ],
-  "educationalGoal": "This course corresponds to the “Financial Accounting Basic Ability” learning/education goal of the Department of Management Information. It aims to cultivate in the students various skills related to the creation of profit plans and cash plans, using exercises relating accounting information and the financial management of companies from a profit management and money management perspective.",
-  "advice": "This course consists of three parts:\nIn the first part, students will learn about variable income statements, CVP analysis, and profit charts.\nIn the second part, students will learn to create profit plans, focusing on relevant exercises.\nIn the third part, we will cover topics from profit planning to financial planning, focusing on exercises.\n\nSince there are numbers of exercises to prepare, it is important that students take an active approach to the class.",
-  "books": "None",
-  "requiredKnowledge": "Students should review the contents of Basic Accounting, a course that must be taken prior to this course.\nIt is also important for students to understand that the contents learned in this course will be needed for　\"Strategic Accounting Application\".",
+  "educationalGoal": "Learn the basics of data handling. In this course, you will learn the basic operations of the spreadsheet software Excel, which is an introductory tool for handling data. Then, using Excel, you will learn data handling skills such as aggregation and analysis of experimental data and questionnaire data. In addition, we will visualize actual datasets from the real world using Excel, and thereby gain an understanding of the meaning of the data and acquire the ability to aggregate and analyze the data.",
+  "advice": "In this course, you will learn the following basic knowledge as an introduction to data science. 1. Basic operations of Excel: Learn the basic operations of the spreadsheet software Excel, which is an introductory tool for handling data. 2. Aggregation/analysis of experimental data: Use Excel to aggregate/analyze experimental data. 3. Questionnaire data aggregation/analysis: Use Excel to aggregate/analyze questionnaire data. 4. Aggregation/analysis of open data: Use Excel to aggregate/analyze open data.",
+  "books": "Introduction to ICT/Introduction to Data Science 2024(Kanazawa Institute of Technology)",
+  "requiredKnowledge": "No prior knowledge or skills are assumed. You will use your own laptop computer to do the exercises. Be sure to bring your laptop computer, power adapter, and network cable (LAN cable) to each class.",
   "activityGoals": [
     {
       "index": "①",
-      "type": "M",
-      "body": "Be able to create a variable income statement and perform a CVP analysis."
+      "type": "H",
+      "body": "To be able to perform basic operations in the spreadsheet software Excel."
     },
     {
       "index": "②",
-      "type": "M",
-      "body": "Be able to create a profit plan master plan following the profit plan creation procedure."
+      "type": "H",
+      "body": "To be able to use Excel to aggregate and analyze experimental data."
     },
     {
       "index": "③",
-      "type": "M",
-      "body": "Be able to create an estimated income statement."
+      "type": "H",
+      "body": "To be able to use Excel to aggregate and analyze questionnaire data."
     },
     {
       "index": "④",
-      "type": "M",
-      "body": "Be able to understand the importance of cash flow management."
-    },
-    {
-      "index": "⑤",
-      "type": "M",
-      "body": "Be able to create an estimated balance sheet / estimated cash flow statement."
+      "type": "H",
+      "body": "To be able to use Excel to aggregate and analyze open data."
     }
   ],
   "evaluationWeights": [
     {
       "label": "総合評価割合",
       "values": [
-        "40",
-        "0",
-        "50",
         "0",
         "0",
+        "100",
         "0",
-        "10",
+        "0",
+        "0",
+        "0",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -76,20 +74,20 @@
     {
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
-        "40",
-        "0",
-        "50",
         "0",
         "0",
+        "100",
         "0",
-        "10",
+        "0",
+        "0",
+        "0",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -99,20 +97,20 @@
     {
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
-        "40",
-        "0",
-        "50",
         "0",
         "0",
+        "100",
         "0",
-        "10",
+        "0",
+        "0",
+        "0",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -133,9 +131,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -143,7 +141,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -156,9 +154,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -179,9 +177,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -190,118 +188,62 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "・Understand the significance of CVP analysis and how to use profit charts and conduct simulations using CVP sensitivity analysis.\n・Be able to systematically calculate required profit and prepare a budget using the proper procedure.\n・Be able to create an estimated balance sheet / estimated cash flow statement using the proper procedure for creating a financial plan.\n・Understand the importance of cash flow management.\n・Understand how to obtain working capital and understand the importance of cash flow.",
-    "standard": "・Understand the significance of CVP analysis and how to use profit charts and conduct simulations through CVP sensitivity analysis.\n・Be able to systematically calculate required profit and prepare a budget using the proper procedure.\n・Be able to create an estimated balance sheet / estimated cash flow statement using the proper procedure for creating a financial plan."
+    "ideal": "With a deep understanding of Excel functions, you can select and respond to various data handling problems by selecting appropriate functions. Data can be collected and analyzed in an optimal way.",
+    "standard": "You have learned the basic operations of Excel and can use it according to your needs."
   },
   "clipProcess": "",
   "lessons": [
     {
       "index": "1",
-      "content": "Guidance: Class policy and management\n(class schedule, lectures/exercises, report\ncreation/submission, attendance confirmation,\nevaluation, etc.) are explained using the\nlearning support plan\nConfirm the student's approach to the class\nand specific methods.\nReview of financial statements",
-      "operation": "Lecture and Q & A\nExercises",
-      "assignments": "Preparation: Read the\nrelevant part of the text and\norganize the questions.\nReview: Organize class notes\nto deepen understanding of\nthe significance and purpose\nof financial statements.",
-      "minutes": "260"
+      "content": "Excel (Part 1) ・Starting and quitting Excel, basic operations ・Table creation (Formulas, sums, units, cell widths, formatting, cell references)",
+      "operation": "Lecture and exercises using laptop computer",
+      "assignments": "Read about the names and uses of each part of the Excel window, and about basic editing operations such as copying and moving data and adding and deleting of cells and rows. After the class, review the exercises.",
+      "minutes": "90"
     },
     {
       "index": "2",
-      "content": "Significance and purpose of financial\nmanagement\nVariable income statement",
-      "operation": "Lecture and Q & A\nExercises",
-      "assignments": "Preparation: Read the\nrelevant part of the text and\norganize the questions.\nReview: Understanding of\nthe significance and purpose\nof financial management.\nA variable income statement\ncan be prepared.",
-      "minutes": "260"
+      "content": "Excel (Part 2) ・Data entry and worksheets ・Insert function",
+      "operation": "Lecture and exercises using laptop computer",
+      "assignments": "Read the textbook to see what functions are available. After the class, review the exercises.",
+      "minutes": "90"
     },
     {
       "index": "3",
-      "content": "CVP analysis (1)\n1. Variable and fixed costs\n2. Break-even point\n3. Profit chart",
-      "operation": "Lecture and Q & A\nExercises",
-      "assignments": "Preparation: Read the\nrelevant part of the text and\norganize the questions.\nReview: Understand variable\nand fixed costs and profit\ncharts while completing\nassignments.",
-      "minutes": "260"
+      "content": "Excel (Part 3) ・Relative and absolute references ・Create graph ・Print tables and graphs",
+      "operation": "Lecture and exercises using laptop computer",
+      "assignments": "Read the textbook on how to display tabular data as a graph. Review the class content so far in preparation for the report.",
+      "minutes": "90"
     },
     {
       "index": "4",
-      "content": "CVP analysis (2)\n1. Significance of CVP analysis\n2. Review of profit chart",
-      "operation": "Lecture and Q & A\nExercises",
-      "assignments": "Preparation: Read the\nrelevant part of the text and\norganize the questions.\nReview: Understand the\nsignificance of CVP analysis\nand create profit charts\nwhile completing assigned\ntasks.",
-      "minutes": "260"
+      "content": "Excel (Part 4) ・Operation of multiple books ・Merge printing ・Image operations (about Paint) Presentation of the 1st report",
+      "operation": "Lecture and exercises using laptop computer",
+      "assignments": "Read the textbook to see other Excel features. After the class, review the exercises.",
+      "minutes": "120"
     },
     {
       "index": "5",
-      "content": "CVP analysis (3)\n1. Utilization of profit chart\n2. Significance and utilization of\ncontribution margin",
-      "operation": "Lecture and Q & A\nExercises",
-      "assignments": "Preparation: Read the\nrelevant part of the text and\norganize the questions.\nReview: Make use of profit\ncharts while doing\nassignments. In addition,\nmake sure that the meaning of\ncontribution margin is\nunderstood and utilized.",
-      "minutes": "260"
+      "content": "Data handling skills (Part 1) ・Aggregation and graph creation of experimental results using Excel ・Analysis of experimental results using Excel",
+      "operation": "Lecture and exercises using laptop computer",
+      "assignments": "Gain an understanding of the class content and exercises in advance using class materials. After class, reconfirm the class content and exercises.",
+      "minutes": "90"
     },
     {
       "index": "6",
-      "content": "CVP analysis (4)",
-      "operation": "Lecture and Q & A\nExercises",
-      "assignments": "Preparation: Read the\nrelevant part of the text\nand organize the questions.\nReview: Make use of profit\ncharts while doing the\nassignments. In addition,\nmake sure that the meaning of\ncontribution margin is\nunderstood and utilized.",
-      "minutes": "260"
+      "content": "Data handling skills (Part 2) ・Questionnaire survey procedures and notes ・Aggregation and graphing of questionnaire survey results using Excel ・Analysis of questionnaire survey results using Excel",
+      "operation": "Lecture and exercises using laptop computer",
+      "assignments": "Gain an understanding of the class content and exercises in advance using class materials. After class, reconfirm the class content and exercises.",
+      "minutes": "90"
     },
     {
       "index": "7",
-      "content": "[Interim test]\nExam on class contents from classes 1 to 6",
-      "operation": "Lecture and Q & A\nExercises\nWritten exam",
-      "assignments": "Preparation: Read the\nrelevant part of the text and\norganize the questions.\nReview: Deepen understanding\nof the contents of classes\n1 to 6 while completing\nassignments.",
-      "minutes": "260"
-    },
-    {
-      "index": "8",
-      "content": "Profit plan (1)\n1. Calculation of required profits",
-      "operation": "Lecture and Q & A\nExercises",
-      "assignments": "Preparation: Read the\nrelevant part of the text\nand organize the questions.\nReview: Make use of profit\ncharts while doing the\nassignments. In addition,\nmake sure that the meaning of\ncontribution margin is\nunderstood and utilized.",
-      "minutes": "260"
-    },
-    {
-      "index": "9",
-      "content": "Profit plan (2)\n1. Calculation of required sales\n2. Profit plan master plan creation\n3. Preparation of estimated income statement",
-      "operation": "Lecture and Q & A\nExercises",
-      "assignments": "Preparation: Read the\nrelevant part of the text and\norganize the questions.\nReview: Undertake tasks to\ngain a deeper understanding\nof the required sales\ncalculation process and\nprofit planning master plan\ncreation process.",
-      "minutes": "260"
-    },
-    {
-      "index": "10",
-      "content": "Cash flow management\n1. Principles of cash flow management\n2. Understanding cash flow",
-      "operation": "Lecture and Q & A\nExercises",
-      "assignments": "Preparation: Read the\nrelevant part of the text\nand organize the questions.\nReview: Deepen understanding\nof the importance of cash\nflow management while\ncompleting assigned tasks.",
-      "minutes": "260"
-    },
-    {
-      "index": "11",
-      "content": "Creation of a financial plan (1)\nCreate an estimated balance sheet",
-      "operation": "Lecture and Q & A\nExercises",
-      "assignments": "Preparation: Read the\nrelevant part of the text\nand organize the questions.\nReview: Deepen understanding\nof how to create an estimated\nbalance sheet while\ncompleting assignments.",
-      "minutes": "260"
-    },
-    {
-      "index": "12",
-      "content": "Creation of a financial plan (2)\nCreate an estimated cash flow statement",
-      "operation": "Lecture and Q & A\nExercises",
-      "assignments": "Preparation: Read the\nrelevant part of the text and\norganize the questions.\nReview: Deepen understanding\nof how to create an estimated\ncash flow statement while\ncompleting assignments.",
-      "minutes": "260"
-    },
-    {
-      "index": "13",
-      "content": "Creation of a financial plan (3)\nCreate an estimated cash flow statement",
-      "operation": "Lecture and Q & A\nExercises",
-      "assignments": "Preparation: Review the\nlesson contents from classes\n8 to 13.\nReview: Review and deepen\nunderstanding of general\nexercise problems.",
-      "minutes": "260"
-    },
-    {
-      "index": "14",
-      "content": "[Final exam]\nExam on class contents from classes 8 to 13",
-      "operation": "Lecture and Q & A\nExercises\nWritten examination",
-      "assignments": "Preparation: Review the\ncontents of the examination\nrange.\nReview: Check the correct\nanswers for the questions\nthat were not answered\ncorrectly on the exam.",
-      "minutes": "260"
-    },
-    {
-      "index": "15",
-      "content": "[Self-inspection class]\n・ Final exam answers and explanations\n・ Q & A on profit management and fund\nmanagement learning/education\n・ Questionnaire",
-      "operation": "Lecture and Q & A\nExercises",
-      "assignments": "Review: ・ Confirm and\nunderstand the contents of\nthe final exam.\n・ Check the contents learned\nin profit management and\nmoney management.",
-      "minutes": "260"
+      "content": "Data handling skills (Part 3) ・Explanation of open data ・Aggregation and graphing of open data using Excel ・Analysis of open data using Excel Presentation of the 2nd report",
+      "operation": "Lecture and exercises using laptop computer",
+      "assignments": "Gain an understanding of the class content and exercises in advance using class materials. Review the previous class content and the exercises on data handling skills.",
+      "minutes": "120"
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　D012-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Management Systems\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                戦略会計入門\n                Management Accounting Basic\n\n              2\n              D012-01\n\n                2026年度\n\n                2nd year 1st semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  MASUBUCHI Takashi\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.CVP analysis and profit chart\n2.Profit plan master plan\n3.Estimated balance sheet\n4.Working capital\n5.Cash flow management\n\n              This course corresponds to the “Financial Accounting Basic Ability” learning/education goal of the Department of Management Information. It aims to cultivate in the students various skills related to the creation of profit plans and cash plans, using exercises relating accounting information and the financial management of companies from a profit management and money management perspective.\n\n              授業の概要および学習上の助言\n\n              This course consists of three parts:\nIn the first part, students will learn about variable income statements, CVP analysis, and profit charts.\nIn the second part, students will learn to create profit plans, focusing on relevant exercises.\nIn the third part, we will cover topics from profit planning to financial planning, focusing on exercises.\n\nSince there are numbers of exercises to prepare, it is important that students take an active approach to the class.\n\n              教科書および参考書・リザーブドブック\n\n              None\n\n              履修に必要な予備知識や技能\n\n              Students should review the contents of Basic Accounting, a course that must be taken prior to this course.\nIt is also important for students to understand that the contents learned in this course will be needed for　\"Strategic Accounting Application\".\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                M\n                Be able to create a variable income statement and perform a CVP analysis.\n\n                ②\n                M\n                Be able to create a profit plan master plan following the profit plan creation procedure.\n\n                ③\n                M\n                Be able to create an estimated income statement.\n\n                ④\n                M\n                Be able to understand the importance of cash flow management.\n\n                ⑤\n                M\n                Be able to create an estimated balance sheet / estimated cash flow statement.\n\n                ⑥\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                40\n\n                0\n\n                50\n\n                0\n\n                0\n\n                0\n\n                10\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                40\n\n                0\n\n                50\n\n                0\n\n                0\n\n                0\n\n                10\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                40\n\n                0\n\n                50\n\n                0\n\n                0\n\n                0\n\n                10\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  コラボレーションとリーダーシップ\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  ",
-  "courseId": "2026:spring:D012-01:0:125",
+  "rawText": "金沢工業大学 学習支援計画書 G257-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDesign Project Program\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Design Project Program\nDesign Project Courses\nDesign Project\nデータサイエンス入門\nIntroduction to Data Science  1 G257-01  2024年度\n 1st year 1st semester  修学規程第4条を参照\n    担当教員名\n MIYATA Takatomi, TANIGUCHI Moemi, NISHIKAWA Yukinobu, MINAMIDE Akiyuki, SATOU Fujio, OKAMOTO Youhei, OOHIRA Yoshiyuki, OOHASHI Kazuki\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Data Science 2.Data handling 3.Spreadsheets 4.Graphs 5.Open data  Learn the basics of data handling. In this course, you will learn the basic operations of the spreadsheet software Excel, which is an introductory tool for handling data. Then, using Excel, you will learn data handling skills such as aggregation and analysis of experimental data and questionnaire data. In addition, we will visualize actual datasets from the real world using Excel, and thereby gain an understanding of the meaning of the data and acquire the ability to aggregate and analyze the data.\n    授業の概要および学習上の助言   In this course, you will learn the following basic knowledge as an introduction to data science. 1. Basic operations of Excel: Learn the basic operations of the spreadsheet software Excel, which is an introductory tool for handling data. 2. Aggregation/analysis of experimental data: Use Excel to aggregate/analyze experimental data. 3. Questionnaire data aggregation/analysis: Use Excel to aggregate/analyze questionnaire data. 4. Aggregation/analysis of open data: Use Excel to aggregate/analyze open data.\n    教科書および参考書・リザーブドブック   Introduction to ICT/Introduction to Data Science 2024(Kanazawa Institute of Technology)\n    履修に必要な予備知識や技能   No prior knowledge or skills are assumed. You will use your own laptop computer to do the exercises. Be sure to bring your laptop computer, power adapter, and network cable (LAN cable) to each class.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① H To be able to perform basic operations in the spreadsheet software Excel.   ② H To be able to use Excel to aggregate and analyze experimental data.   ③ H To be able to use Excel to aggregate and analyze questionnaire data.   ④ H To be able to use Excel to aggregate and analyze open data.   ⑤     ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 0 0 100 0 0 0 0 100     指標と評価割合 総合評価割合 0 0 100 0 0 0 0 100   総合力指標 知識を取り込む力 0 0 100 0 0 0 0 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ①      ②     ③     ④     ⑤     ⑥     クイズ\n小テスト ①      ②     ③     ④     ⑤     ⑥     レポート ① レ Give a broad view of the skills acquired in the exercises up to the relevant point, and give an evaluation of whether you can perform the Excel operations accurately. The report assignments will be presented in the fourth and seventh classes.   ② レ   ③ レ   ④ レ   ⑤     ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ①      ②     ③     ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     With a deep understanding of Excel functions, you can select and respond to various data handling problems by selecting appropriate functions. Data can be collected and analyzed in an optimal way. You have learned the basic operations of Excel and can use it according to your needs.\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習課題に要する標準的な時間を記載してあります。日々の自学自習時間全体としては、各授業に応じた時間(例えば2単位科目の場合、予習2時間・復習2時間/週)を取るよう努めてください。詳しくは教員の指導に従って下さい。     授業明細   回数 学習内容 授業の運営方法 学習課題(予習・復習) 時間:分※     1  Excel (Part 1) ・Starting and quitting Excel, basic operations ・Table creation (Formula",
+  "courseId": "2024:fall:G253-04:0:125",
   "language": "en"
 }

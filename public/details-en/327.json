@@ -1,61 +1,52 @@
 {
   "sourceIndex": 327,
   "sourceUrl": "/opsyllabus/kitos0110/327/1",
-  "importedAt": "2026-06-08T09:33:59.704Z",
-  "title": "コンピュータグラフィックス",
-  "subtitle": "Computer Graphics",
-  "courseType": "Major ProgramMajor Courses",
+  "importedAt": "2026-06-09T01:29:22.128Z",
+  "title": "電子材料",
+  "subtitle": "Electronic Materials",
+  "courseType": "Major Program\nMajor Courses",
   "credits": "2",
-  "term": "2026年度\n\n                3rd year 1st semester",
+  "term": "2024年度\n 3rd year 1st semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "YAMAMOTO Tomohito"
+    "MIYATA Toshihiro"
   ],
   "keywords": [
-    "3D coordinate system",
-    "3D modeling",
-    "Rendering",
-    "Shading",
-    "Texture mapping"
+    "Atomic orbital and electron configuration 2.Ferroelectrics 3.Ferromagnetism 4.Superconductor"
   ],
-  "educationalGoal": "Computer graphics (CG) is used in various fields such as numerical simulations, the visualization of engineering or scientific phenomena, and contents production for education or entertainment use (VR/AR). In addition, devices such as GPUs and 3D printers have been developed rapidly in recent years. In this course, students will systematically learn the technologies used in CG today. They will also acquire the skills needed to create CG content through programming using a CG library.",
-  "advice": "In this course, lectures on basic theories about 3D representation and modeling methods are provided, and programming exercises for implementing the theories learned are conducted. Specifically, students will learn and implement knowledge related to coordinate transformation, 3D modeling, hidden surface removal, shading, rendering, texture mapping, and animation in 3D space. Specific topics include the following:\n\n1. Overview of 3D CG technology\n2. 3D coordinate system\n3. Coordinate and projective transformation in 3D space\n4. 3D CG modeling\n5. 3D CG animation\n6. Overview of 3D CG rendering\n7. Hidden surface removal and shading\n8. Texture mapping\n9. Radiosity and shadowing\n10. Summary and reflection",
-  "books": "Required Materials will be provided in the class.",
-  "requiredKnowledge": "1. Students must have basic mathematical skills such as trigonometric functions, matrices, and vector calculations.\n2. Student must be able to program an application using C language.\n3. Student should spend one hour preparing for the next class or exercise and spend more one hour for reflection.",
+  "educationalGoal": "In this lecture, we learn about the material properties of dielectrics and magnetic materials, which are the basic materials in the electronic field along with semiconductors. To understand the polarization phenomenon and dielectric loss of dielectrics and the physical meaning of the magnetism, and also about applications of ferroelectric and ferromagnetic materials to devices. Make it possible to recognize the importance of materials through lectures.",
+  "advice": "1. Basics of electronic materials : We learn the basic contents in learning electronic materials, especially the atomic orbital and electron configuration in solids, the bonding between atoms, band structures, and electrical conduction. 2. Dielectric materials and their properties : Learn about polarization, which is a general response phenomenon to the electric field of a solid. After learning the polarization under applying a DC electric field, the complex permittivity is derived under applying an AC electric field, and the dielectric loss. Furthermore, we learn about the properties of ferroelectrics that show strong polarization and their applications. 3. Magnetic materials and their properties : We understand from a microscopic point of view the magnetization phenomena that occur when a substance is placed in a magnetic field, and learn about the basic content of magnetism that determines the magnetic properties of the substance. Learn about the origin and classification of ferromagnetism, and their applications to the field of electrical and electronic engineering. In addition, we will learn about the basics and applications of spintronics that apply electron spin, which has attracted attention in recent years.",
+  "books": "",
+  "requiredKnowledge": "The purpose of this lecture is to learn the characteristics and practical applications of the dielectric and magnetic materials that make up the various devices that form the basis of the electrical and electronic engineering field, based on the knowledge learned in the Electronic Engineering and Physical Electronics. You will learn about various materials through this class, but please systematically organize your knowledge.",
   "activityGoals": [
     {
       "index": "①",
-      "type": "R",
-      "body": "Be able to explain and use coordinate systems in 3D space."
+      "type": "IJL",
+      "body": "Be able to explain atomic orbital and electron configuration, the bonds between atoms, and band structure in sol"
     },
     {
       "index": "②",
-      "type": "R",
-      "body": "Be able to explain coordinate and projection transformation of 3D CG and use them properly."
+      "type": "IJL",
+      "body": "Be able to explain properties and applications of dielectrics."
     },
     {
       "index": "③",
-      "type": "R",
-      "body": "Be able to explain the basic methods of 3D modeling and implement them by programming."
+      "type": "IJL",
+      "body": "Be able to explain properties and applications of magnetic materials."
     },
     {
       "index": "④",
-      "type": "R",
-      "body": "Be able to explain hidden surface removal and shading techniques and select effective techniques."
-    },
-    {
-      "index": "⑤",
-      "type": "R",
-      "body": "Be able to explain 3D CG animation techniques and program basic animations."
+      "type": "IJL",
+      "body": "Be able to explain properties and applications of superconducting materials."
     }
   ],
   "evaluationWeights": [
     {
       "label": "総合評価割合",
       "values": [
+        "40",
         "20",
-        "20",
-        "60",
+        "40",
         "0",
         "0",
         "0",
@@ -64,9 +55,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -76,9 +67,9 @@
     {
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
+        "40",
         "20",
-        "20",
-        "60",
+        "40",
         "0",
         "0",
         "0",
@@ -87,9 +78,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -99,9 +90,9 @@
     {
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
+        "40",
         "20",
-        "20",
-        "60",
+        "40",
         "0",
         "0",
         "0",
@@ -110,9 +101,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -133,9 +124,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -143,7 +134,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -156,9 +147,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -179,9 +170,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -190,118 +181,118 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "Students with ideal achievement will have acquired expert-level knowledge based on the “CG-ARTS CERTIFICATION TEST for CG Engineer”. Specifically, they can explain coordinate systems in 3D space and coordinate transformation. They can also explain basic and advanced 3D modeling. Moreover, they can explain methods of rendering, hidden surface removal, shading, and texture mapping sufficiently, and develop original CG animations using a computer graphics library.",
-    "standard": "Students with standard achievement have basic-level knowledge of the “CG-ARTS CERTIFICATION TEST for CG Engineer”. Specifically, they can understand coordinate systems in 3D space and coordinate transformation. They can also explain basic 3D modeling. Moreover, they can explain basic methods of rendering, hidden surface removal, and shading, and develop primitive CG animation using sample programs of computer graphics library."
+    "ideal": "A level where the 3 target abilities are almost certainly achieved. At the same time, the level at which interest and learning motivation is forming in related subjects such as Electronic Engineering, Physical Electronics, Semiconductor Engineering, Optical and Electronic Devices.",
+    "standard": "A level where the 3 target abilities are achieved in 60 to 70%."
   },
   "clipProcess": "",
   "lessons": [
     {
       "index": "1",
-      "content": "Learn the overview of 3D computer graphics. In\naddition, students will install the computer\ngraphics programming environment on their\npersonal notebook PCs.",
-      "operation": "Lecture, exercise, and\nself-check",
-      "assignments": "Prepare the programming\nenvironment and understand\nthe overview of 3D computer\ngraphics. Prepare 3D\ncoordinate system and\ngeometric transformation\nsystem.",
-      "minutes": "Reflec\ntion:\n60\nPrepar\nation:\n 60"
+      "content": "Course introduction < Basics of electronic materials > Atomic orbital and electron configuration",
+      "operation": "Lecture and Q&A",
+      "assignments": "Understand the objectives of class",
+      "minutes": "Prepar ation and re view20 0"
     },
     {
       "index": "2",
-      "content": "Learn 3D coordinate systems such as World,\nlocal coordinate systems, and 3D geometric\ntransformations such as Modeling\ntransformation, Viewing transformation, and\nProjection transformation.",
-      "operation": "Lecture, exercise, and\nself-check",
-      "assignments": "Review and understand the 3D\ncoordinate system and perform\nseveral transformations by\nexecuting the exercises.\nPrepare basic 3D modeling.",
-      "minutes": "Reflec\ntion:\n60\nPrepar\nation:\n 60"
+      "content": "< Basics of electronic materials > Bonding between atoms, and band structures",
+      "operation": "Lecture and Q&A",
+      "assignments": "Preparation and review",
+      "minutes": "Prepar ation and re view20 0"
     },
     {
       "index": "3",
-      "content": "Learn several 3D modeling methods such as\nWireframe model, Surface model, Free-form\nsurface, and CSG representation, etc.",
-      "operation": "Lecture, exercise, and\nself-check",
-      "assignments": "Review and understand 3D\nmodeling by performing the\nexercises. Prepare more\ncomplex 3D modeling.",
-      "minutes": "Reflec\ntion:\n60\nPrepar\nation:\n 60"
+      "content": "< Basics of electronic materials > Classical electrical conduction",
+      "operation": "Lecture and Q&A",
+      "assignments": "Preparation and review",
+      "minutes": "Prepar ation and re view20 0"
     },
     {
       "index": "4",
-      "content": "Learn complex 3D modeling such as fractal,\nparticle, and voxel representations.",
-      "operation": "Lecture, exercise, and\nself-check",
-      "assignments": "Review complex 3D modeling\nand prepare the non-objective\nmodeling. In addition,\ncontinue work on CG animation\nprogramming.",
-      "minutes": "60\nPrepar\nation:\n 60"
+      "content": "Quiz about contents learned from No.1 to 3 classes.",
+      "operation": "Quiz, Lecture and Q&A",
+      "assignments": "Preparation and review",
+      "minutes": "Prepar ation and re view20 0"
     },
     {
       "index": "5",
-      "content": "Learn non-objective modeling such as lights,\nbackground, and sound sources.",
-      "operation": "Lecture, exercise, and\nself-check",
-      "assignments": "Review non-objective modeling\nand prepare computer graphics\nanimation. In addition,\ncontinue work on CG animation\nprogramming",
-      "minutes": "Reflec\ntion:\n60\nPrepar\nation:\n 60"
+      "content": "Review about quiz carried out previous class.  Polarization under applying a DC electric field",
+      "operation": "review Self-reflection Lecture and Q&A",
+      "assignments": "Preparation and review",
+      "minutes": "Prepar ation and re view20 0"
     },
     {
       "index": "6",
-      "content": "Learn CG animation methods such as the key\nframe method, kinematics, motion blur, etc. In\naddition, learn the hardware such as the GPU\nand 3D printer.",
-      "operation": "Lecture, exercise, and\nself-check",
-      "assignments": "Reflect all learning topics\nin the first half of this\nclass. Complete the first CG\nanimation programming.",
-      "minutes": "Reflec\ntion:\n180"
+      "content": "Complex permittivity and dielectric loss under applying an AC electric field",
+      "operation": "Lecture and Q&A",
+      "assignments": "Preparation and review",
+      "minutes": "100"
     },
     {
       "index": "7",
-      "content": "Mid-term reflection: understand all the topics\nlearned in the first half of this class deeply.\nTake the test to verify comprehension.",
-      "operation": "Test or quizzes,\nexercise, and self-check",
-      "assignments": "Prepare the overview of the\ntopics (rendering, shading,\ntexture mapping, etc.) in the\nlast half of this class.",
-      "minutes": "Prepar\nation:\n 60"
+      "content": "Dielectric dispersion and Dielectric relaxation",
+      "operation": "Lecture and Q&A",
+      "assignments": "reparation and review",
+      "minutes": "Prepar ation and re view20 0"
     },
     {
       "index": "8",
-      "content": "Learn the overview of rendering (photo\nrealistic rendering, non-photo realistic\nrendering, volume rendering, etc.).",
-      "operation": "Lecture, exercise, and\nself-check",
-      "assignments": "Review the basic rendering\nmethod through the exercise\nand prepare to study hidden\nsurface removal.",
-      "minutes": "Reflec\ntion:\n60\nPrepar\nation:\n 60"
+      "content": "The properties of ferroelectrics and their applications",
+      "operation": "Lecture and Q&A",
+      "assignments": "reparation and review",
+      "minutes": "Prepar ation and re view20 0"
     },
     {
       "index": "9",
-      "content": "Learn hidden surface removal methods such as\nthe Z-buffer method and scan line method.",
-      "operation": "Lecture, exercise, and\nself-check",
-      "assignments": "Review hidden surface removal\nmethod through the exercise\nand prepare to study shading\nmethods.",
-      "minutes": "Reflec\ntion:\n60\nPrepar\nation:\n 60"
+      "content": "Quiz about contents learned from No.4 to 8 classes",
+      "operation": "Quiz, Review and Q&A",
+      "assignments": "reparation and review",
+      "minutes": "Prepar ation and re view20 0"
     },
     {
       "index": "10",
-      "content": "Learn shading methods such as Gouraud shading\nand Phong shading.",
-      "operation": "Lecture, exercise, and\nself-check",
-      "assignments": "Review shading methods\nthrough the calculating in\nactual cases and prepare to\nstudy texture mapping. In\naddition, continue work on CG\nanimation programming.",
-      "minutes": "Reflec\ntion:\n60\nPrepar\nation:\n 60"
+      "content": "Review about quiz carried out previous class.  Magnetic susceptibility and permeability, origin and classification of ferromagnetism (continued to next class)",
+      "operation": "review Self-reflection Lecture and Q&A",
+      "assignments": "reparation and review",
+      "minutes": "Prepar ation and re view20 0"
     },
     {
       "index": "11",
-      "content": "Learn texture mapping methods such as wrap\nmapping and UV mapping.",
-      "operation": "Lecture, exercise, and\nself-check",
-      "assignments": "Review texture mapping\nmethods and prepare to study\nradiosity method and\nshadowing. In addition,\ncontinue work on CG animation\nprogramming.",
-      "minutes": "Reflec\ntion:\n60\nPrepar\nation:\n 60"
+      "content": "The origin and classification of ferromagnetism",
+      "operation": "Lecture and Q&A",
+      "assignments": "Preparation and review",
+      "minutes": "Prepar ation and re view20 0"
     },
     {
       "index": "12",
-      "content": "Learn radiosity method and shadowing.",
-      "operation": "Lecture, exercise, and\nself-check",
-      "assignments": "Review radiosity method and\nshadowing and proceed CG\nanimation programming.",
-      "minutes": "Reflec\ntion:\n60\nPrepar\nation:\n 60"
+      "content": "Applications of ferromagnetic materials and spintronics",
+      "operation": "Lecture and Q&A",
+      "assignments": "Preparation and review",
+      "minutes": "Prepar ation and re view20 0"
     },
     {
       "index": "13",
-      "content": "Final reflection: understand all the topics\nlearned in the last half of this class deeply\nand complete CG animation programming.",
-      "operation": "Lecture, exercise, and\nself-check",
-      "assignments": "Review the all learning\ntopics in the last half of\nthis class for the final exam.",
-      "minutes": "Reflec\ntion:\n120"
+      "content": "Quiz about contents learned from No.10 to 12 classes Review about quiz",
+      "operation": "Quiz, Review and Q&A Self-reflection",
+      "assignments": "Prepare for the exam",
+      "minutes": "Prepar ation and re view20 0"
     },
     {
       "index": "14",
-      "content": "Take a test to make sure all learning topics in\nthe last half of this class.",
-      "operation": "Lecture, test, and\nself-check",
-      "assignments": "Complete CG animation\nprogramming, if necessary.",
-      "minutes": "Reflec\ntion:\n120"
+      "content": "Final exam",
+      "operation": "Test Self-reflection",
+      "assignments": "Preparation and review",
+      "minutes": "Prepar ation and re view20 0"
     },
     {
       "index": "15",
-      "content": "Self-evaluation class:\nConfirm the level of understanding of computer\ngraphics and discuss future research.",
-      "operation": "Lecture and self-check",
-      "assignments": "Review the topics learned in\nthis class once again, and\nconnect them for future\nstudies and research.",
-      "minutes": "Reflec\ntion:\n120"
+      "content": "Review for final exam",
+      "operation": "Review, self-evaluation",
+      "assignments": "Review",
+      "minutes": "Prepar ation and re view20 0"
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　E526-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Information and Computer Science(〜2024)\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                コンピュータグラフィックス\n                Computer Graphics\n\n              2\n              E526-01\n\n                2026年度\n\n                3rd year 1st semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  YAMAMOTO Tomohito\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.3D coordinate system\n2.3D modeling\n3.Rendering\n4.Shading\n5.Texture mapping\n\n              Computer graphics (CG) is used in various fields such as numerical simulations, the visualization of engineering or scientific phenomena, and contents production for education or entertainment use (VR/AR). In addition, devices such as GPUs and 3D printers have been developed rapidly in recent years. In this course, students will systematically learn the technologies used in CG today. They will also acquire the skills needed to create CG content through programming using a CG library.\n\n              授業の概要および学習上の助言\n\n              In this course, lectures on basic theories about 3D representation and modeling methods are provided, and programming exercises for implementing the theories learned are conducted. Specifically, students will learn and implement knowledge related to coordinate transformation, 3D modeling, hidden surface removal, shading, rendering, texture mapping, and animation in 3D space. Specific topics include the following:\n\n1. Overview of 3D CG technology\n2. 3D coordinate system\n3. Coordinate and projective transformation in 3D space\n4. 3D CG modeling\n5. 3D CG animation\n6. Overview of 3D CG rendering\n7. Hidden surface removal and shading\n8. Texture mapping\n9. Radiosity and shadowing\n10. Summary and reflection\n\n              教科書および参考書・リザーブドブック\n\n              Required Materials will be provided in the class.\n\n              履修に必要な予備知識や技能\n\n              1. Students must have basic mathematical skills such as trigonometric functions, matrices, and vector calculations.\n2. Student must be able to program an application using C language.\n3. Student should spend one hour preparing for the next class or exercise and spend more one hour for reflection.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                R\n                Be able to explain and use coordinate systems in 3D space.\n\n                ②\n                R\n                Be able to explain coordinate and projection transformation of 3D CG and use them properly.\n\n                ③\n                R\n                Be able to explain the basic methods of 3D modeling and implement them by programming.\n\n                ④\n                R\n                Be able to explain hidden surface removal and shading techniques and select effective techniques.\n\n                ⑤\n                R\n                Be able to explain 3D CG animation techniques and program basic animations.\n\n                ⑥\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                20\n\n                20\n\n                60\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                20\n\n                20\n\n                60\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                20\n\n                20\n\n                60\n\n                0\n\n                0\n\n                0\n\n         ",
-  "courseId": "2026:spring:E526-01:0:327",
+  "rawText": "金沢工業大学 学習支援計画書 E628-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Electrical and Electronic Engineering(2018〜)\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n電子材料\nElectronic Materials  2 E628-01  2024年度\n 3rd year 1st semester  修学規程第4条を参照\n    担当教員名\n MIYATA Toshihiro\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Atomic orbital and electron configuration 2.Ferroelectrics 3.Ferromagnetism 4.Superconductor  In this lecture, we learn about the material properties of dielectrics and magnetic materials, which are the basic materials in the electronic field along with semiconductors. To understand the polarization phenomenon and dielectric loss of dielectrics and the physical meaning of the magnetism, and also about applications of ferroelectric and ferromagnetic materials to devices. Make it possible to recognize the importance of materials through lectures.\n    授業の概要および学習上の助言   1. Basics of electronic materials : We learn the basic contents in learning electronic materials, especially the atomic orbital and electron configuration in solids, the bonding between atoms, band structures, and electrical conduction. 2. Dielectric materials and their properties : Learn about polarization, which is a general response phenomenon to the electric field of a solid. After learning the polarization under applying a DC electric field, the complex permittivity is derived under applying an AC electric field, and the dielectric loss. Furthermore, we learn about the properties of ferroelectrics that show strong polarization and their applications. 3. Magnetic materials and their properties : We understand from a microscopic point of view the magnetization phenomena that occur when a substance is placed in a magnetic field, and learn about the basic content of magnetism that determines the magnetic properties of the substance. Learn about the origin and classification of ferromagnetism, and their applications to the field of electrical and electronic engineering. In addition, we will learn about the basics and applications of spintronics that apply electron spin, which has attracted attention in recent years.\n    教科書および参考書・リザーブドブック\n    履修に必要な予備知識や技能   The purpose of this lecture is to learn the characteristics and practical applications of the dielectric and magnetic materials that make up the various devices that form the basis of the electrical and electronic engineering field, based on the knowledge learned in the Electronic Engineering and Physical Electronics. You will learn about various materials through this class, but please systematically organize your knowledge.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① IJL Be able to explain atomic orbital and electron configuration, the bonds between atoms, and band structure in sol   ② IJL Be able to explain properties and applications of dielectrics.   ③ IJL Be able to explain properties and applications of magnetic materials.   ④ IJL Be able to explain properties and applications of superconducting materials.   ⑤     ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 40 20 40 0 0 0 0 100     指標と評価割合 総合評価割合 40 20 40 0 0 0 0 100   総合力指標 知識を取り込む力 40 20 40 0 0 0 0 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ Evaluation of the test (40%): Conduct a test to confirm the degree of achievement.   ② レ   ③ レ   ④     ⑤     ⑥     クイズ\n小テスト ① レ Assessment of quizzes (20%): Determine the scope of the questions and conduct quizzes. The quiz may also ask questions about the degree of comprehension of the submitted report. Also, there may be quizzes during the class without notice.   ② レ   ③ レ   ④     ⑤     ⑥     レポート ① レ Evaluation of the report (40%): Evaluation is based on the content of the report on the exercises, the content of the report on the problem on the derivation",
+  "courseId": "2024:fall:E620-01:0:327",
   "language": "en"
 }

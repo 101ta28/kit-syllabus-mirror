@@ -1,61 +1,58 @@
 {
   "sourceIndex": 338,
   "sourceUrl": "/opsyllabus/kitos0110/338/1",
-  "importedAt": "2026-06-08T09:33:59.903Z",
-  "title": "情報工学特別講義Ⅶ（基本情報処理技術者試験対策講座２）",
-  "subtitle": "Special Lecture for Information and Computer Science 7",
-  "courseType": "Major ProgramOther Courses",
+  "importedAt": "2026-06-09T01:29:22.074Z",
+  "title": "音響・映像システム",
+  "subtitle": "Audio and Video Systems",
+  "courseType": "Major Program\nMajor Courses",
   "credits": "2",
-  "term": "2026年度\n\n                3rd year 1st semester",
+  "term": "2024年度\n 3rd year 2nd semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "ABE Noriyuki"
+    "KONNO Takeshi",
+    "SHIMAUCHI Suehiro"
   ],
   "keywords": [
-    "FE",
-    "security",
-    "project management",
-    "system strategy and management strategy",
-    "corporate and legal"
+    "Audio and video signals 2.Digital signal processing 3.Machine learning and pattern recognition 4.Virtual reality and augmented reality 5.System integration"
   ],
-  "educationalGoal": "“Fundamental Information Technology Engineer Examination (FE)” is known as the gateway to success for new ICT engineers, The FE is divided into the first half and the second half on the test day, and it is necessary to pass both of the examinations at the same day.\nStudents will learn ICT skills to pass the first half of the FE exam.",
-  "advice": "This is a countermeasure course to pass the first half of the FE exam. We will cover the following materials:\n\n1. Security\n2. Project management service management\n3. System audit\n4. System strategy\n5. System planning\n6. Technology strategy management\n\nStudents are expected to bring their textbook and other necessary materials to every class.\nStudents are expected to check for messages/materials on the KIT Inside website before every class and on a regular basis.",
-  "books": "Textbooks:\n1. WENet, \"System management and computerization\", Tokyo: WENet, 2020\nReference books: None\nReserved books: None",
-  "requiredKnowledge": "This course requires the following knowledge/skills:\n1. The units of “Programming 1”and “Programming 2” have been acquired.\n2. The units of \"Introduction to Engineering (Information and Computer Science)\".\n3. Knowledge of basic logical operation.",
+  "educationalGoal": "Sound and image are indispensable as information communication media. In this course, especially participants study the information processing technology of audio and video systems which connect human and machine. They learn how to analyze audio and video in a computer and understand the data processing techniques required for machine recognition of audio and video. The goal is to use specific hardware and software to gain an experiential understanding of audio and visual technology.",
+  "advice": "1. Capturing and formatting audio and video signals 2. Digital transmission and recording of audio and video signals 3. Digital audio and video analysis 4. Digital audio and video processing 5. Digital audio and video reproduction This course are conducted according to the syllabus. However, check the level of understanding based on the questions in the class and the results of the quizzes and exercises, then adjust the progress accordingly. Mathematical knowledge such as frequency conversion and matrix calculation is required to understand the technology in the lecture. If you have any questions about this type of knowledge, you should consult several reference books and ask to lecturer. In addition, several educational centers: Mathematical and Science Education Research Center and Center for Information Services and Processing can be used for the consultation. Be sure to bring your laptop PC with headphones and network cable during the lecture to practice how to handle sound and video. In addition, prepare the internet connection for acquiring lecture materials and retrieving information.",
+  "books": "Textbooks: Multimedia System Technology (in Japanese) [Corona publishing] Reference books: Introduction to Sound and Audio (in Japanese) [Corona publishing], Basic Studies of Video Systems -Fundamental Technologies for Digitization and their Applications- (in Japanese) [Corona publishing] Reserved books: None",
+  "requiredKnowledge": "This course is based on the contents of \"Introduction to Acoustics and Imaging\" and \"Acoustic Engineering\", and requires knowledge of \"Programming Practice for Electrical and Electronic Engineers\". Since the computer becomes a basic learning tool, it is required to master the operation of the computer.",
   "activityGoals": [
     {
       "index": "①",
-      "type": "I,P",
-      "body": "Be able to solve the problem of the first half of the FE exam."
+      "type": "L",
+      "body": "Be able to understand and explain the basics of capturing and formatting audio and video signals."
     },
     {
       "index": "②",
-      "type": "I,P",
-      "body": "Be able to explain the contents of the first half of the FE exam."
+      "type": "L",
+      "body": "Be able to understand and explain the basics of digital transmission and recording of audio and video signals."
     },
     {
       "index": "③",
-      "type": "I,P",
-      "body": "Be able to explain the key points of the information security and software maintenance."
+      "type": "L",
+      "body": "Be able to understand and explain the basics of digital audio and video analysis."
     },
     {
       "index": "④",
-      "type": "I,P",
-      "body": "Be able to explain the key points of the project management and service management."
+      "type": "L",
+      "body": "Be able to understand and explain the basics of digital audio and video processing."
     },
     {
       "index": "⑤",
-      "type": "I,P",
-      "body": "Be able to explain the key points of the system strategy and management strategy."
+      "type": "L",
+      "body": "Be able to understand and explain the basics of digital audio and video reproduction."
     }
   ],
   "evaluationWeights": [
     {
       "label": "総合評価割合",
       "values": [
-        "0",
-        "0",
-        "100",
+        "30",
+        "30",
+        "40",
         "0",
         "0",
         "0",
@@ -64,9 +61,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -76,9 +73,9 @@
     {
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
-        "0",
-        "0",
-        "100",
+        "30",
+        "30",
+        "40",
         "0",
         "0",
         "0",
@@ -87,9 +84,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -99,9 +96,9 @@
     {
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
-        "0",
-        "0",
-        "100",
+        "30",
+        "30",
+        "40",
         "0",
         "0",
         "0",
@@ -110,9 +107,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -133,9 +130,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -143,7 +140,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -156,9 +153,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -179,9 +176,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -190,118 +187,118 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "Be able to solve the following multiple problems required for the first half of the FE exam quickly:\n\n1. Security\n2. Project management service management\n3. System audit\n4. System strategy\n5. System planning\n6. Technology strategy management",
-    "standard": "Be able to solve the following multiple problems required for the first half of the FE exam:\n\n1. Security\n2. Project management service management\n3. System audit\n4. System strategy\n5. System planning\n6. Technology strategy management"
+    "ideal": "The evaluation scores (Out of 100 points) of \"exams\", \"quizzes\" and \"reports\" shall always be 75 or more. The ideal achievement level should be a total score of 85 or more.",
+    "standard": "The evaluation scores (Out of 100 points) of \"exams\", \"quizzes\" and \"reports\" shall always be 60 or more. The standard achievement level should be at least 70 overall points."
   },
   "clipProcess": "",
   "lessons": [
     {
       "index": "1",
-      "content": "Overview of the FE exam\n1.Security 1\n  Learn the Information security management.",
-      "operation": "Lecture and exercises",
-      "assignments": "Review (Security 1)\nPreparation\n(Security 2 of the textbook)",
-      "minutes": "120"
+      "content": "Provide a learning support plan, explanation of the relationship between the syllabus and this course. Lecture is given after the guidance. Outline of digital audio systems",
+      "operation": "Distribution and explanation of guidance documents. Lecture, exercise, and quizzes. Report task may be issued.",
+      "assignments": "Check the web page for the learning objective and target abilities in the syllabus. Have a laptop PC ready to connect to the Internet in the classroom.",
+      "minutes": "Previe w 100 Review 100"
     },
     {
       "index": "2",
-      "content": "2.Security 2\n  Learn the security technology assessment.",
-      "operation": "Lecture and exercises",
-      "assignments": "Review (Security 2)\nPreparation\n(Security 3 of the textbook)",
-      "minutes": "120"
+      "content": "Digital transmission and recording of audio signals",
+      "operation": "Lecture, exercise, and quizzes. Report task may be issued.",
+      "assignments": "Preview text or reference books. Review materials from the last class.",
+      "minutes": "Previe w 100 Review 100"
     },
     {
       "index": "3",
-      "content": "3.Security 3\n  Learn the security technology assessment.",
-      "operation": "Lecture and exercises",
-      "assignments": "Review (Security 3)\nPreparation (Project\nmanagement 1 of the textbook)",
-      "minutes": "120"
+      "content": "Audio processing in telecommunication systems",
+      "operation": "Lecture, exercise, and quizzes. Report task may be issued.",
+      "assignments": "Preview text or reference books. Review materials from the last class.",
+      "minutes": "Previe w 100 Review 100"
     },
     {
       "index": "4",
-      "content": "4.Project management 1\n  Learn the project integrated management.",
-      "operation": "Lecture and exercises",
-      "assignments": "Review (Project management 1)\nPreparation (Project\nmanagement 2 of the textbook)",
-      "minutes": "120"
+      "content": "Selective sensing and classification of sounds",
+      "operation": "Lecture, exercise, and quizzes. Report task may be issued.",
+      "assignments": "Preview text or reference books. Review materials from the last class.",
+      "minutes": "Previe w 100 Review 100"
     },
     {
       "index": "5",
-      "content": "5.Project management 2\n  Learn the project communication management.",
-      "operation": "Lecture and exercises",
-      "assignments": "Review (Project management 2)\nPreparation (Project\nmanagement 3 of the textbook)",
-      "minutes": "120"
+      "content": "Human-machine interface with voice and sound",
+      "operation": "Lecture, exercise, and quizzes. Report task may be issued.",
+      "assignments": "Preview text or reference books. Review materials from the last class.",
+      "minutes": "Previe w 100 Review 100"
     },
     {
       "index": "6",
-      "content": "6.Project management 3\n  Learn the project risk Management.",
-      "operation": "Lecture and exercises",
-      "assignments": "Review (Project management 3)\nPreparation (Project\nmanagement 4 of the textbook)",
-      "minutes": "120"
+      "content": "Spatial sound reproduction",
+      "operation": "Lecture, exercise, and quizzes. Report task may be issued.",
+      "assignments": "Preview text or reference books. Review materials from the last class.",
+      "minutes": "Previe w 100 Review 100"
     },
     {
       "index": "7",
-      "content": "7.Project management 4\n  Learn the project procurement management.",
-      "operation": "Lecture and exercises",
-      "assignments": "Review (Project management 4)\nPreparation (Service\nmanagement of the textbook)",
-      "minutes": "120"
+      "content": "Self-reflection class Midterm exam",
+      "operation": "Self-reflection and midterm exam. Report task may be issued.",
+      "assignments": "Prepare for self-reflection and midterm exam. Review materials from the last class.",
+      "minutes": "Previe w 100 Review 100"
     },
     {
       "index": "8",
-      "content": "8.Service management\n  Learn the facility management.",
-      "operation": "Lecture and exercises",
-      "assignments": "Review (Service management)\nPreparation\n(System audit of the textbook)",
-      "minutes": "120"
+      "content": "Outline of digital video systems",
+      "operation": "Lecture, exercise, and quizzes. Report task may be issued.",
+      "assignments": "Preview text or reference books. Review materials from the last class.",
+      "minutes": "Previe w 100 Review 100"
     },
     {
       "index": "9",
-      "content": "9.System audit\n  Learn the system audit.",
-      "operation": "Lecture and exercises",
-      "assignments": "Review (System audit)\nPreparation (System strategy\nof the textbook)",
-      "minutes": "120"
+      "content": "Digital transmission and recording of video signals",
+      "operation": "Lecture, exercise, and quizzes. Report task may be issued.",
+      "assignments": "Preview text or reference books. Review materials from the last class.",
+      "minutes": "Previe w 100 Review 100"
     },
     {
       "index": "10",
-      "content": "10.System strategy 1\n  Learn the solution business.",
-      "operation": "Lecture and exercises",
-      "assignments": "Review (System strategy 1)\nPreparation (System strategy 2\n of the textbook)",
-      "minutes": "120"
+      "content": "Image and video object detection and classification (I)",
+      "operation": "Lecture, exercise, and quizzes. Report task may be issued.",
+      "assignments": "Preview text or reference books. Review materials from the last class.",
+      "minutes": "Previe w 100 Review 100"
     },
     {
       "index": "11",
-      "content": "11.System strategy 2\n  Learn the system utilization.",
-      "operation": "Lecture and exercises",
-      "assignments": "Review (System strategy 2)\nPreparation (System planning 1\n of the textbook)",
-      "minutes": "120"
+      "content": "Image and video object detection and classification (II)",
+      "operation": "Lecture, exercise, and quizzes. Report task may be issued.",
+      "assignments": "Preview text or reference books. Review materials from the last class.",
+      "minutes": "Previe w 100 Review 100"
     },
     {
       "index": "12",
-      "content": "12. System planning 1\n Learn the requirement definition.",
-      "operation": "Lecture and exercises",
-      "assignments": "Review (System planning 1)\nPreparation (System planning 2\n of the textbook)",
-      "minutes": "120"
+      "content": "Image and video synthesis and rendering (I)",
+      "operation": "Lecture, exercise, and quizzes. Report task may be issued.",
+      "assignments": "Preview text or reference books. Review materials from the last class.",
+      "minutes": "Previe w 100 Review 100"
     },
     {
       "index": "13",
-      "content": "13. System planning 2\n14. Business management strategy",
-      "operation": "Lecture and exercises",
-      "assignments": "Review\n(Business management strategy)\nPreparation (Technology\nmanagement strategy of the\ntextbook)",
-      "minutes": "120"
+      "content": "Image and video synthesis and rendering (II)",
+      "operation": "Lecture, exercise, and quizzes. Report task may be issued.",
+      "assignments": "Preview text or reference books. Review materials from the last class.",
+      "minutes": "Previe w 100 Review 100"
     },
     {
       "index": "14",
-      "content": "15. Technology management strategy 1",
-      "operation": "Lecture and exercises",
-      "assignments": "Review (Technolog management 1\n strategy)\nPreparation (Technolog\nmanagement strategy 2 of the\ntextbook)",
-      "minutes": "120"
+      "content": "Term exam",
+      "operation": "Exam and self-check. Report task may be issued.",
+      "assignments": "Preview thoroughly for the term exam. Review the lack of understanding in the previous lectures.",
+      "minutes": "Previe w 100 Review 100"
     },
     {
       "index": "15",
-      "content": "16. Technology management strategy 2\n17. Self-reflection class.\nSelf-evaluation.",
-      "operation": "Lecture and exercises",
-      "assignments": "Lecture,\nself-reflection,\nand\nindividual conference",
-      "minutes": "240"
+      "content": "Self-evaluation",
+      "operation": "Self-evaluation. Additional lecture by visiting lecturer may be scheduled.",
+      "assignments": "Review the contents of this course, exercises and quizzes.",
+      "minutes": "Review 100"
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　E557-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Information and Computer Science(〜2024)\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramOther Courses\n\n                情報工学特別講義Ⅶ（基本情報処理技術者試験対策講座２）\n                Special Lecture for Information and Computer Science 7\n\n              2\n              E557-01\n\n                2026年度\n\n                3rd year 1st semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  ABE Noriyuki\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.FE\n2.security\n3.project management\n4.system strategy and management strategy\n5.corporate and legal\n\n              “Fundamental Information Technology Engineer Examination (FE)” is known as the gateway to success for new ICT engineers, The FE is divided into the first half and the second half on the test day, and it is necessary to pass both of the examinations at the same day.\nStudents will learn ICT skills to pass the first half of the FE exam.\n\n              授業の概要および学習上の助言\n\n              This is a countermeasure course to pass the first half of the FE exam. We will cover the following materials:\n\n1. Security\n2. Project management service management\n3. System audit\n4. System strategy\n5. System planning\n6. Technology strategy management\n\nStudents are expected to bring their textbook and other necessary materials to every class.\nStudents are expected to check for messages/materials on the KIT Inside website before every class and on a regular basis.\n\n              教科書および参考書・リザーブドブック\n\n              Textbooks:\n1. WENet, \"System management and computerization\", Tokyo: WENet, 2020\nReference books: None\nReserved books: None\n\n              履修に必要な予備知識や技能\n\n              This course requires the following knowledge/skills:\n1. The units of “Programming 1”and “Programming 2” have been acquired.\n2. The units of \"Introduction to Engineering (Information and Computer Science)\".\n3. Knowledge of basic logical operation.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                I,P\n                Be able to solve the problem of the first half of the FE exam.\n\n                ②\n                I,P\n                Be able to explain the contents of the first half of the FE exam.\n\n                ③\n                I,P\n                Be able to explain the key points of the information security and software maintenance.\n\n                ④\n                I,P\n                Be able to explain the key points of the project management and service management.\n\n                ⑤\n                I,P\n                Be able to explain the key points of the system strategy and management strategy.\n\n                ⑥\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                0\n\n                0\n\n                100\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                0\n\n                0\n\n                100\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                0\n\n                0\n\n                100\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  コラボレーションとリーダーシップ\n\n                    0\n\n                  ",
-  "courseId": "2026:spring:E557-01:0:338",
+  "rawText": "金沢工業大学 学習支援計画書 E639-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Electrical and Electronic Engineering(2018〜)\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n音響・映像システム\nAudio and Video Systems  2 E639-01  2024年度\n 3rd year 2nd semester  修学規程第4条を参照\n    担当教員名\n KONNO Takeshi, SHIMAUCHI Suehiro\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Audio and video signals 2.Digital signal processing 3.Machine learning and pattern recognition 4.Virtual reality and augmented reality 5.System integration  Sound and image are indispensable as information communication media. In this course, especially participants study the information processing technology of audio and video systems which connect human and machine. They learn how to analyze audio and video in a computer and understand the data processing techniques required for machine recognition of audio and video. The goal is to use specific hardware and software to gain an experiential understanding of audio and visual technology.\n    授業の概要および学習上の助言   1. Capturing and formatting audio and video signals 2. Digital transmission and recording of audio and video signals 3. Digital audio and video analysis 4. Digital audio and video processing 5. Digital audio and video reproduction This course are conducted according to the syllabus. However, check the level of understanding based on the questions in the class and the results of the quizzes and exercises, then adjust the progress accordingly. Mathematical knowledge such as frequency conversion and matrix calculation is required to understand the technology in the lecture. If you have any questions about this type of knowledge, you should consult several reference books and ask to lecturer. In addition, several educational centers: Mathematical and Science Education Research Center and Center for Information Services and Processing can be used for the consultation. Be sure to bring your laptop PC with headphones and network cable during the lecture to practice how to handle sound and video. In addition, prepare the internet connection for acquiring lecture materials and retrieving information.\n    教科書および参考書・リザーブドブック   Textbooks: Multimedia System Technology (in Japanese) [Corona publishing] Reference books: Introduction to Sound and Audio (in Japanese) [Corona publishing], Basic Studies of Video Systems -Fundamental Technologies for Digitization and their Applications- (in Japanese) [Corona publishing] Reserved books: None\n    履修に必要な予備知識や技能   This course is based on the contents of \"Introduction to Acoustics and Imaging\" and \"Acoustic Engineering\", and requires knowledge of \"Programming Practice for Electrical and Electronic Engineers\". Since the computer becomes a basic learning tool, it is required to master the operation of the computer.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① L Be able to understand and explain the basics of capturing and formatting audio and video signals.   ② L Be able to understand and explain the basics of digital transmission and recording of audio and video signals.   ③ L Be able to understand and explain the basics of digital audio and video analysis.   ④ L Be able to understand and explain the basics of digital audio and video processing.   ⑤ L Be able to understand and explain the basics of digital audio and video reproduction.   ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 30 30 40 0 0 0 0 100     指標と評価割合 総合評価割合 30 30 40 0 0 0 0 100   総合力指標 知識を取り込む力 30 30 40 0 0 0 0 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ A few exams are conducted to confirm the achievement. The degree of achievement for the action goals from 1 to 5 are confirmed by the exams. In doing so, the ability to incorporate knowledge, thinking and reasoning, and creativity are evaluated comprehens",
+  "courseId": "2024:spring:E631-01:0:338",
   "language": "en"
 }

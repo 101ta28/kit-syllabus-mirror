@@ -1,52 +1,48 @@
 {
   "sourceIndex": 430,
   "sourceUrl": "/opsyllabus/kitos0110/430/1",
-  "importedAt": "2026-06-08T09:34:01.838Z",
-  "title": "インダストリアルエンジニアリング",
-  "subtitle": "Industrial Engineering",
-  "courseType": "Major ProgramMajor Courses",
-  "credits": "2",
-  "term": "2026年度\n\n                3rd year 1st semester",
+  "importedAt": "2026-06-09T01:29:22.951Z",
+  "title": "プロジェクトデザインⅢ(中沢実研究室)",
+  "subtitle": "Design Project III(Nakazawa Minoru)",
+  "courseType": "Major Program\nMajor Project Courses",
+  "credits": "8",
+  "term": "2024年度\n All year",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "TAKECHI Shoji"
+    "NAKAZAWA Minoru"
   ],
   "keywords": [
-    "Improvement(Kaizen)",
-    "Work study",
-    "Standardization",
-    "Quality control methods",
-    "Design of experiments"
+    "Concept Setting 2.Problem Solving Method 3.Development Design 4.Implementation 5.Operation"
   ],
-  "educationalGoal": "Students understand the basic terms and methods for planning, management, and improvement in this course, and they also learn \"Industrial Engineering\" methods based on quantification and visualization, and improvements based on data acquisition and analysis. Industrial Engineering methods can be useful for not manufacturing industry but also many other industries.",
-  "advice": "This course deals with \"Industrial Engineering (IE)\" that is maximizing value while minimizing the input of resources such as people, materials, money, and information by clarifying value and waste.\nStudents learn the basic knowledge, principles, and methodologies of IE with a view to practical application as well as theoretical understanding through classroom lectures. The topics of this course covers so-called work studies such as time studies, motion studies, and process analysis in classical IE, improvement through standardization, statistical quality control methods, and design of experiments in modern IE. After understanding the basic knowledge and principles of these topics, students apply them to simple exercises to acquire practical skills in each classes.",
-  "books": "Textbooks: Sinjin IEer to mababu Jissen IE no Kyoukasho (ISBN:9784526081149, Nikkankougyoushinnbunsha)\nReference books: None\nReserved books: Seisan Kanri no Kiso (Rintarou Muramatsu, KunimotoShobo)",
-  "requiredKnowledge": "Nothing special except logical thinking",
+  "educationalGoal": "Based on the concrete knowledge of fundamental technology, students acquire problem-solving skills related to computer & information engineering. Students are also given opportunities to experience R&D activities related to concrete information technology and systems.Through this process, students cultivate advanced abilities in the area of problem setting, production process development, information gathering, communications, problem-solving ability in regional orientation, and making objective evaluations.",
+  "advice": "The laboratory is located in Building 31 on the Ougigaoka campus. As shown in the examples of research themes below, they are engaged in a wide range of research, including research focusing on brain waves as biological information, research on cutting-edge technologies for regional transportation, and research on network infrastructures. All research themes are at the forefront of research in Japan and often attract attention. The department also actively participates in academic conferences, exhibitions, and joint research with companies, enabling students to acquire a wide range of knowledge. The program also includes critical thinking, allowing students to be more deeply involved in project activities. - Research on HMI (Human Machine Interface) using brain activity - Research on behavior understanding using image and voice recognition - Application of AI in regional traffic at intersections - Collision detection system in the automatic driving system using MR/VR - Research on accident prevention in warehouses using AI sensors - Universal lesion detection system using deep learning - Construction of a 5G-enabled dynamic frequency-sharing mechanism using deep reinforcement learning - Identity management method for objects using the P2P method",
+  "books": "none",
+  "requiredKnowledge": "Research guidance policy In this laboratory, seminars by students and faculty members are conducted once a week. Students are expected to set themes, summarize survey analysis results, discover social problems, and conduct annual events such as the writing academic papers and making conference presentations. Additionally, using multiple networked PCs, students explore robot technology, embedded system technology, cloud technology, network technology, image processing technology, etc.",
   "activityGoals": [
     {
       "index": "①",
-      "type": "L,N",
-      "body": "Be able to explain the basic terms of industrial engineering"
+      "type": "G,H,L,P",
+      "body": "Be able to set one-year achievement goals in relation to your chosen research."
     },
     {
       "index": "②",
-      "type": "D,L,N",
-      "body": "Be able to apply the basic methods of industrial engineering to a given simple case"
+      "type": "G,H,L,P",
+      "body": "Be able to set a specific production approach based on your set research concept."
     },
     {
       "index": "③",
-      "type": "D,L,N",
-      "body": "Be able to acquire and visualize data for a given simple case using statistical quality control methods"
+      "type": "G,H,L,P",
+      "body": "Be able to use your acquired information engineering expertise to advance your design and analysis efforts."
     },
     {
       "index": "④",
-      "type": "D,L,N",
-      "body": "Be able to apply the concept of design of experiments to a given simple case"
+      "type": "G,H,L,P",
+      "body": "Be able to cope with various problems that occur during the design and analysis process."
     },
     {
       "index": "⑤",
-      "type": "D,G,L,N",
-      "body": "Be able to define the problem and make a plan to improve it (kaizen)"
+      "type": "G,H,L,P",
+      "body": "Be able to technically describe what you have accomplished in a convincing manner."
     }
   ],
   "evaluationWeights": [
@@ -55,18 +51,18 @@
       "values": [
         "0",
         "0",
-        "50",
-        "50",
         "0",
         "0",
         "0",
+        "0",
+        "100",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -78,18 +74,18 @@
       "values": [
         "0",
         "0",
-        "50",
-        "50",
         "0",
         "0",
         "0",
+        "0",
+        "100",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -101,18 +97,18 @@
       "values": [
         "0",
         "0",
-        "50",
-        "50",
         "0",
         "0",
         "0",
+        "0",
+        "100",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -133,9 +129,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -143,7 +139,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -156,9 +152,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -179,9 +175,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -190,118 +186,27 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "1) Explain the basic terms of industrial engineering 2) Analyze an advanced exercise for improvement.\n3) Make a logical QC stories with statistical quality control methods.\n4) Formulate each own hypotheses and plan improvement activities using the Design of Experiments method.",
-    "standard": "1) Understand the basic terms of industrial engineering\n2) Analyze an simple exercise for improvement.\n3) Apply statistical quality control methods.\n4) Plan improvement activities using the Design of Experiments method."
+    "ideal": "Be able to promote R&D activities smoothly according to the project plan (proposal) that you have created. In the results, it is desirable that students be able to announce concrete results that are scientifically and/or technically recognized as novel, effective, and reliable.",
+    "standard": "Be able to promote R&D activities smoothly according to the project plan (proposal) that you have created. In the results, it is desirable that students be able to announce concrete results that are based in scientific and technical reality."
   },
   "clipProcess": "",
   "lessons": [
     {
-      "index": "1",
-      "content": "Orientation Overview of class content,\nevaluation\nIntroduction to \"Industrial Engineering\"",
-      "operation": "Lecture",
-      "assignments": "Review of the class materials",
-      "minutes": "180"
+      "index": "Spring Semes ter",
+      "content": "Progress reports and study sessions are held every week.",
+      "operation": "Progress Seminar, Study Session",
+      "assignments": "Instructions are given each class",
+      "minutes": ""
     },
     {
-      "index": "2",
-      "content": "Simple manufacturing exercise\nwith Lego(R) blocks",
-      "operation": "Group exercises",
-      "assignments": "Reports of exercise",
-      "minutes": "300"
-    },
-    {
-      "index": "3",
-      "content": "Process analysis",
-      "operation": "Lecture and Exercises",
-      "assignments": "Review of the class materials\nReports of process\nvisualization",
-      "minutes": "180\n180"
-    },
-    {
-      "index": "4",
-      "content": "Guess statistics and business\nWork study\n-Motion research\n-Time study\n-Standard work\n-Standard time",
-      "operation": "Lecture",
-      "assignments": "Review of the class materials",
-      "minutes": "300"
-    },
-    {
-      "index": "5",
-      "content": "Operational analysis\nTransport analysis (Material handling)\nLine balancing",
-      "operation": "Lecture",
-      "assignments": "Review of the class materials",
-      "minutes": "300"
-    },
-    {
-      "index": "6",
-      "content": "Other IE methods\n-Coalition work analysis\n-VMS",
-      "operation": "Lecture",
-      "assignments": "Review of the class materials",
-      "minutes": "300"
-    },
-    {
-      "index": "7",
-      "content": "Operation improvement in 2nd weeks\nof Lego blocks",
-      "operation": "Exercises and\nself-reflection",
-      "assignments": "Report of operation\nimprovement",
-      "minutes": "360"
-    },
-    {
-      "index": "8",
-      "content": "Fundamentals of Quality Control (QC)",
-      "operation": "Lecture",
-      "assignments": "Review of the class materials",
-      "minutes": "300"
-    },
-    {
-      "index": "9",
-      "content": "QC exercise: making paper helicopter (1)",
-      "operation": "Lecture and exercise",
-      "assignments": "Reports of QC exercise",
-      "minutes": "300"
-    },
-    {
-      "index": "10",
-      "content": "Design of experiments (1)",
-      "operation": "Lecture",
-      "assignments": "Review of the class materials",
-      "minutes": "300"
-    },
-    {
-      "index": "11",
-      "content": "Design of experiments (2)",
-      "operation": "Lecture\nExercise",
-      "assignments": "Reports of QC exercise",
-      "minutes": "300"
-    },
-    {
-      "index": "12",
-      "content": "Design of experiments and improvement\nexercises (1)",
-      "operation": "Exercise",
-      "assignments": "Review of the class materials",
-      "minutes": "300"
-    },
-    {
-      "index": "13",
-      "content": "Design of experiments and improvement\nexercises (2)",
-      "operation": "Exercise",
-      "assignments": "Prepare the presentation\nmaterials",
-      "minutes": "360"
-    },
-    {
-      "index": "14",
-      "content": "Design of experiments and improvement\nexercises (3)",
-      "operation": "Presentations",
-      "assignments": "Final reports",
-      "minutes": "300"
-    },
-    {
-      "index": "15",
-      "content": "Final review\nSelf-evaluation",
-      "operation": "Lecture, interactive\nactivities, and\nself-reflection",
-      "assignments": "Review of all materials\nSelf-evaluation",
-      "minutes": "90\n30"
+      "index": "Summer Seaso n",
+      "content": "Study session for implementation. Implement. Presentation for the interim report meeting.",
+      "operation": "Progress Seminar, Study Session",
+      "assignments": "Instructions are given each class",
+      "minutes": ""
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　F120-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Management Systems(〜2024)\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                インダストリアルエンジニアリング\n                Industrial Engineering\n\n              2\n              F120-01\n\n                2026年度\n\n                3rd year 1st semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  TAKECHI Shoji\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Improvement(Kaizen)\n2.Work study\n3.Standardization\n4.Quality control methods\n5.Design of experiments\n\n              Students understand the basic terms and methods for planning, management, and improvement in this course, and they also learn \"Industrial Engineering\" methods based on quantification and visualization, and improvements based on data acquisition and analysis. Industrial Engineering methods can be useful for not manufacturing industry but also many other industries.\n\n              授業の概要および学習上の助言\n\n              This course deals with \"Industrial Engineering (IE)\" that is maximizing value while minimizing the input of resources such as people, materials, money, and information by clarifying value and waste.\nStudents learn the basic knowledge, principles, and methodologies of IE with a view to practical application as well as theoretical understanding through classroom lectures. The topics of this course covers so-called work studies such as time studies, motion studies, and process analysis in classical IE, improvement through standardization, statistical quality control methods, and design of experiments in modern IE. After understanding the basic knowledge and principles of these topics, students apply them to simple exercises to acquire practical skills in each classes.\n\n              教科書および参考書・リザーブドブック\n\n              Textbooks: Sinjin IEer to mababu Jissen IE no Kyoukasho (ISBN:9784526081149, Nikkankougyoushinnbunsha)\nReference books: None\nReserved books: Seisan Kanri no Kiso (Rintarou Muramatsu, KunimotoShobo)\n\n              履修に必要な予備知識や技能\n\n              Nothing special except logical thinking\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                L,N\n                Be able to explain the basic terms of industrial engineering\n\n                ②\n                D,L,N\n                Be able to apply the basic methods of industrial engineering to a given simple case\n\n                ③\n                D,L,N\n                Be able to acquire and visualize data for a given simple case using statistical quality control methods\n\n                ④\n                D,L,N\n                Be able to apply the concept of design of experiments to a given simple case\n\n                ⑤\n                D,G,L,N\n                Be able to define the problem and make a plan to improve it (kaizen)\n\n                ⑥\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                0\n\n                0\n\n                50\n\n                50\n\n                0\n\n                0\n\n                0\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                0\n\n                0\n\n                50\n\n                50\n\n                0\n\n                0\n\n                0\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                0\n\n                0\n\n                50\n\n                50\n\n                0\n\n                0\n\n                0\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                  ",
-  "courseId": "2026:spring:F120-01:0:430",
+  "rawText": "金沢工業大学 学習支援計画書 E926-08\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Information and Computer Science\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Project Courses\nプロジェクトデザインⅢ(中沢実研究室)\nDesign Project III(Nakazawa Minoru)  8 E926-08  2024年度\n All year  修学規程第4条を参照\n    担当教員名\n NAKAZAWA Minoru\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Concept Setting 2.Problem Solving Method 3.Development Design 4.Implementation 5.Operation  Based on the concrete knowledge of fundamental technology, students acquire problem-solving skills related to computer & information engineering. Students are also given opportunities to experience R&D activities related to concrete information technology and systems.Through this process, students cultivate advanced abilities in the area of problem setting, production process development, information gathering, communications, problem-solving ability in regional orientation, and making objective evaluations.\n    授業の概要および学習上の助言   The laboratory is located in Building 31 on the Ougigaoka campus. As shown in the examples of research themes below, they are engaged in a wide range of research, including research focusing on brain waves as biological information, research on cutting-edge technologies for regional transportation, and research on network infrastructures. All research themes are at the forefront of research in Japan and often attract attention. The department also actively participates in academic conferences, exhibitions, and joint research with companies, enabling students to acquire a wide range of knowledge. The program also includes critical thinking, allowing students to be more deeply involved in project activities. - Research on HMI (Human Machine Interface) using brain activity - Research on behavior understanding using image and voice recognition - Application of AI in regional traffic at intersections - Collision detection system in the automatic driving system using MR/VR - Research on accident prevention in warehouses using AI sensors - Universal lesion detection system using deep learning - Construction of a 5G-enabled dynamic frequency-sharing mechanism using deep reinforcement learning - Identity management method for objects using the P2P method\n    教科書および参考書・リザーブドブック   none\n    履修に必要な予備知識や技能   Research guidance policy In this laboratory, seminars by students and faculty members are conducted once a week. Students are expected to set themes, summarize survey analysis results, discover social problems, and conduct annual events such as the writing academic papers and making conference presentations. Additionally, using multiple networked PCs, students explore robot technology, embedded system technology, cloud technology, network technology, image processing technology, etc.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① G,H,L,P Be able to set one-year achievement goals in relation to your chosen research.   ② G,H,L,P Be able to set a specific production approach based on your set research concept.   ③ G,H,L,P Be able to use your acquired information engineering expertise to advance your design and analysis efforts.   ④ G,H,L,P Be able to cope with various problems that occur during the design and analysis process.   ⑤ G,H,L,P Be able to technically describe what you have accomplished in a convincing manner.   ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 0 0 0 0 0 0 100 100     指標と評価割合 総合評価割合 0 0 0 0 0 0 100 100   総合力指標 知識を取り込む力 0 0 0 0 0 0 100 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ①      ②     ③     ④     ⑤     ⑥     クイズ\n小テスト ①      ②     ③     ④     ⑤     ⑥     レポート ①      ②     ③     ④     ⑤     ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ① レ ",
+  "courseId": "2024:fall:E542-01:0:430",
   "language": "en"
 }

@@ -1,56 +1,38 @@
 {
   "sourceIndex": 276,
   "sourceUrl": "/opsyllabus/kitos0110/276/1",
-  "importedAt": "2026-06-08T09:33:58.691Z",
-  "title": "電波工学",
-  "subtitle": "Microwave Engineering",
-  "courseType": "Major ProgramMajor Courses",
+  "importedAt": "2026-06-09T01:29:21.568Z",
+  "title": "信号処理",
+  "subtitle": "Signal Processing",
+  "courseType": "Major Program\nMajor Courses",
   "credits": "2",
-  "term": "2026年度\n\n                3rd year 2nd semester",
+  "term": "2024年度\n 2nd year 2nd semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "NOGUCHI Keisuke"
+    "TAKEI Yoshinori"
   ],
   "keywords": [
-    "Electromagnetic wave",
-    "Antenna",
-    "Radio wave propagation",
-    "Radio wave application"
+    "Digital signal processing 2.Convolution 3.Z-transform 4.Fourier analysis"
   ],
-  "educationalGoal": "In this course, students will learn about the transfer of energy by electromagnetic waves and the radiation of electromagnetic waves, and perform basic calculations on electromagnetic waves.\nIn addition, students will learn the basics of wireless communication systems that apply radio waves.",
-  "advice": "The class covers the following items.\n\n1. Electromagnetic waves and their applications\n2. Transmission of energy by electromagnetic waves\n3. Radiation of electromagnetic waves\n4. Electromagnetic wave behavior at media boundaries\n5. Radio wave propagation in the atmosphere\n7. Transmitter and receiver\n8. Radar system",
-  "books": "M. Takahashi, Introduction of Electromagnetic Wave Engineering, Suurikougaku-sha Co.,Ltd., 2011.",
-  "requiredKnowledge": "1. Before studying this subject, it is necessary to master and understand \"Electromagnetics I\", \"Electromagnetics II\", and \"Electromagnetics III\".\n2. Be sure to answer and submit your own exercises in each chapter.\n3. Understand and store definitions and meanings of technical terms properly.\n4. Review the contents of the text and slides carefully in the class to clearly distinguish what you have understood and what you can not do, and ask questions",
+  "educationalGoal": "(1) Learn the foundations of signal processing, including analog-to-digital conversion. (2) Understand the basic concepts for digital signals processing, including convolution, Z-transform, sampling theorem, and Fourier analysis. (3) Acquire the ability to evaluate signals transmitted between linear time-invariant (LTI) systems and to extract the features underlying signals.",
+  "advice": "This is a basic course in signal processing for discrete time signals. We will mainly cover the following topics: 1. Basic concepts of digital signal processing. 2. Expressing LTI systems with linear convolution. 3. Expressing discrete time transfer functions using Z-transform and its frequency domain property. 4. Expressing Fourier series and Fourier transform for continuous and discrete time signals in relation to the sampling theorem. Students are expected to actively participate in class. Students are expected to complete exercises independently. Students are required to be aware of the instructor’s messages in the class and to check for messages/materials on the KIT Inside website before every class because the course schedule may change depending on the class progress.",
+  "books": "Hitoshi Kiya, Digital Signal Processing (in Japanese), Ohmsha",
+  "requiredKnowledge": "Sufficient mathematical calculation skills (especially those covered in Control Engineering I). Basic knowledge of differential and integral calculus.",
   "activityGoals": [
     {
       "index": "①",
-      "type": "L",
-      "body": "Understand the concept and role of radio waves and explain the mechanism applied."
+      "type": "K",
+      "body": "Explain expressions of discrete time signals obtained by sampling various continuous time signals"
     },
     {
       "index": "②",
-      "type": "L",
-      "body": "Understand the nature and propagation of electromagnetic waves and perform basic calculations."
+      "type": "K",
+      "body": "Express the linear convolution of discrete time signals, Fourier series, and Fourier transform"
     },
     {
       "index": "③",
-      "type": "L",
-      "body": "Understand the concept of antenna and calculate basic characteristics."
-    },
-    {
-      "index": "④",
-      "type": "L",
-      "body": "Understand the behavior of electromagnetic waves and explain typical concepts."
-    },
-    {
-      "index": "⑤",
-      "type": "L",
-      "body": "Understand the basics of radio wave propagation and explain typical concepts."
-    },
-    {
-      "index": "⑥",
-      "type": "L",
-      "body": "Understand the mechanism of radio wave application and explain the general outline."
+      "type": "K",
+      "body": "Express the characteristics of transient responses and frequency responses of discrete LTI systems"
     }
   ],
   "evaluationWeights": [
@@ -58,8 +40,8 @@
       "label": "総合評価割合",
       "values": [
         "40",
-        "0",
-        "60",
+        "30",
+        "30",
         "0",
         "0",
         "0",
@@ -68,9 +50,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -81,8 +63,8 @@
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
         "40",
-        "0",
-        "60",
+        "30",
+        "30",
         "0",
         "0",
         "0",
@@ -91,9 +73,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -104,8 +86,8 @@
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
         "40",
-        "0",
-        "60",
+        "30",
+        "30",
         "0",
         "0",
         "0",
@@ -114,9 +96,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -137,9 +119,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -147,7 +129,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -160,9 +142,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -183,9 +165,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -194,118 +176,118 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "Students will be able to fully explain the properties and propagation of electromagnetic waves, the concept of antennas, and basic calculations about the characteristics of electromagnetic waves and antennas.",
-    "standard": "Students will be able to understand the concept, role, and application mechanism of radio waves, explain the properties and propagation of electromagnetic waves, and the concept of antennas, and make basic calculations about the characteristics of electromagnetic waves and antennas."
+    "ideal": "(1) Calculate convolution, Z-transform, and Fourier series expansion signals from various sampled continuous time signals (2) Express the discrete time transfer function and its frequency domain property for discrete LTI systems (3) Express the characteristics of the frequency domain of discrete time signals in relation to the sampling theorem",
+    "standard": "(1) Calculate convolution, Z-transform, and Fourier series expansion for basic discrete time signals (2) Express the discrete time transfer function of discrete LTI systems (3) Explain the characteristics of frequency domain of discrete time signals in relation to the sampling theorem"
   },
   "clipProcess": "",
   "lessons": [
     {
       "index": "1",
-      "content": "Guidance on how to proceed with class\nExplanation of learning support plan\nSchedule of the lecture\n\n1. Electromagnetic waves",
-      "operation": "Lectures and questions\nLook back",
-      "assignments": "Review of the lecture\nSolve the exercises and\ncreate a report\nPreparation for the next\nlecture",
-      "minutes": "Pre ：\n 100\nRev ：\n 100"
+      "content": "Course introduction Basic concepts of digital signal processing Expression of signals",
+      "operation": "Lecture (including Q&A) and Exercises",
+      "assignments": "Understand the course objectives Read and understand the pertinent sections of the textbook",
+      "minutes": "180"
     },
     {
       "index": "2",
-      "content": "2. Plane wave (1)",
-      "operation": "Lectures and questions\nLook back",
-      "assignments": "Review of the lecture\nSolve the exercises and\ncreate a report\nPreparation for the next\nlecture",
-      "minutes": "Pre ：\n 100\nRev ：\n 100"
+      "content": "Signal processing system LTI systems",
+      "operation": "Lecture (including Q&A) and Exercises",
+      "assignments": "Read and understand the pertinent section of the textbook",
+      "minutes": "90"
     },
     {
       "index": "3",
-      "content": "3. Plane wave (2)",
-      "operation": "Lectures and questions\nLook back",
-      "assignments": "Review of the lecture\nSolve the exercises and\ncreate a report\nPreparation for the next\nlecture",
-      "minutes": "Pre ：\n 100\nRev ：\n 100"
+      "content": "Linear convolution",
+      "operation": "Lecture (including Q&A) and Exercises",
+      "assignments": "Read and understand the pertinent section of the textbook",
+      "minutes": "90"
     },
     {
       "index": "4",
-      "content": "4. Transmission Circuit(1)",
-      "operation": "Lectures and questions\nLook back",
-      "assignments": "Review of the lecture\nSolve the exercises and\ncreate a report\nPreparation for the next\nlecture",
-      "minutes": "Pre ：\n 100\nRev ：\n 100"
+      "content": "Properties of systems, stability, and causality",
+      "operation": "Lecture (including Q&A) and Exercises",
+      "assignments": "Read and understand the pertinent section of the textbook",
+      "minutes": "90"
     },
     {
       "index": "5",
-      "content": "5. Transmission Circuit(2)",
-      "operation": "Lectures and questions\nLook back",
-      "assignments": "Review of the lecture\nSolve the exercises and\ncreate a report\nPreparation for the next\nlecture",
-      "minutes": "Pre ：\n 100\nRev ：\n 100"
+      "content": "Z-transform and transfer function",
+      "operation": "Lecture (including Q&A) and Exercises",
+      "assignments": "Read and understand the pertinent section of the textbook",
+      "minutes": "90"
     },
     {
       "index": "6",
-      "content": "6. Midterm exam\nReview of the previous lectures",
-      "operation": "Lectures and questions\nLook back",
-      "assignments": "Preparation: Understand the co\nntents of the textbook, Chapte\nrs 1 to 3 in preparation for t\nhe midterm exam.\nReview: Review the midterm exa\nm and review the problems that\n were not solved.",
-      "minutes": "Pre ：\n 100\nRev ：\n 100"
+      "content": "Inverted Z-transform and stability of system in Z-domain",
+      "operation": "Lecture (including Q&A) and Exercises",
+      "assignments": "Read and understand the pertinent section of the textbook",
+      "minutes": "90"
     },
     {
       "index": "7",
-      "content": "7. Electromagnetic radiation (1)",
-      "operation": "Lectures and questions\nLook back",
-      "assignments": "Review of the lecture\nSolve the exercises and\ncreate a report\nPreparation for the intermedia\nte test",
-      "minutes": "Pre ：\n 100\nRev ：\n 100"
+      "content": "Exercises Mid-semester test",
+      "operation": "Exercises Test",
+      "assignments": "Review the content of classes 1-6",
+      "minutes": "180"
     },
     {
       "index": "8",
-      "content": "8. Electromagnetic radiation (2)",
-      "operation": "Lectures and questions\nLook back",
-      "assignments": "Lectures and questions\nLook back",
-      "minutes": "Pre ：\n 100\nRev ：\n 100"
+      "content": "Review of the mid-semester test Self-check",
+      "operation": "Lecture (including Q&A) and Exercises Self-check",
+      "assignments": "Review the content of the mid-semester test",
+      "minutes": "90"
     },
     {
       "index": "9",
-      "content": "9. Basic antennas, array antennas",
-      "operation": "Lectures and questions\nLook back",
-      "assignments": "Review of the lecture\nSolve the exercises and\ncreate a report\nPreparation for the next\nlecture",
-      "minutes": "Pre ：\n 100\nRev ：\n 100"
+      "content": "Frequency analysis and Fourier series",
+      "operation": "Lecture (including Q&A) and Exercises",
+      "assignments": "Read and understand the pertinent section of the textbook",
+      "minutes": "150"
     },
     {
       "index": "10",
-      "content": "10. Radio wave propagation(1)",
-      "operation": "Lectures and questions\nLook back",
-      "assignments": "Review of the lecture\nSolve the exercises and\ncreate a report\nPreparation for the next\nlecture",
-      "minutes": "Pre ：\n 100\nRev ：\n 100"
+      "content": "Fourier series expansion",
+      "operation": "Lecture (including Q&A) and Exercises",
+      "assignments": "Read and understand the pertinent section of the textbook",
+      "minutes": "90"
     },
     {
       "index": "11",
-      "content": "11. Radio wave propagation(2)",
-      "operation": "Lectures and questions\nLook back",
-      "assignments": "Review of the lecture\nSolve the exercises and\ncreate a report\nPreparation for the next\nlecture",
-      "minutes": "Pre ：\n 100\nRev ：\n 100"
+      "content": "Discrete-time Fourier series and sampling theorem",
+      "operation": "Lecture (including Q&A) and Exercises",
+      "assignments": "Read and understand the pertinent section of the textbook",
+      "minutes": "90"
     },
     {
       "index": "12",
-      "content": "12. Radio wave application(1)",
-      "operation": "Lectures and questions\nLook back",
-      "assignments": "Review of the lecture\nSolve the exercises and\ncreate a report\nPreparation for the next\nlecture",
-      "minutes": "Pre ：\n 100\nRev ：\n 100"
+      "content": "Fourier transform and discrete-time Fourier transform",
+      "operation": "Lecture (including Q&A) and Exercises",
+      "assignments": "Read and understand the pertinent section of the textbook",
+      "minutes": "90"
     },
     {
       "index": "13",
-      "content": "13. Radio wave application(2)",
-      "operation": "Lectures and questions\nLook back",
-      "assignments": "Review of the lecture\nSolve the exercises and\ncreate a report\nPreparation for the next\nlecture",
-      "minutes": "Pre ：\n 100\nRev ：\n 100"
+      "content": "Exercises",
+      "operation": "Exercises",
+      "assignments": "Review the content of classes 1-12 Review the content of the exercises",
+      "minutes": "90 90"
     },
     {
       "index": "14",
-      "content": "14. Final exam\nReview of the previous lectures",
-      "operation": "Lectures and questions\nLook back\nFinal exam",
-      "assignments": "Check the degree of\nachievement for the program\nobjectives.",
-      "minutes": "Rev ：\n 200"
+      "content": "Exercises Semester final examination",
+      "operation": "Exercises Examination",
+      "assignments": "Review the content of classes 1-13",
+      "minutes": "180"
     },
     {
       "index": "15",
-      "content": "15. Self check class\nInstruction about content that is not\nunderstood well\nComprehensive evaluation",
-      "operation": "Lectures and questions",
-      "assignments": "Check the degree of\nachievement for the program\nobjectives and learn the part\nwhere understanding is\nlacking.",
-      "minutes": "Rev ：\n 100"
+      "content": "Review of semester final examination Self-check",
+      "operation": "Lecture (including Q&A) and Exercises Self-check",
+      "assignments": "Review the content of the semester final examination",
+      "minutes": "90"
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　E637-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Electrical and Electronic Engineering(〜2024)\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                電波工学\n                Microwave Engineering\n\n              2\n              E637-01\n\n                2026年度\n\n                3rd year 2nd semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  NOGUCHI Keisuke\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Electromagnetic wave\n2.Antenna\n3.Radio wave propagation\n4.Radio wave application\n\n              In this course, students will learn about the transfer of energy by electromagnetic waves and the radiation of electromagnetic waves, and perform basic calculations on electromagnetic waves.\nIn addition, students will learn the basics of wireless communication systems that apply radio waves.\n\n              授業の概要および学習上の助言\n\n              The class covers the following items.\n\n1. Electromagnetic waves and their applications\n2. Transmission of energy by electromagnetic waves\n3. Radiation of electromagnetic waves\n4. Electromagnetic wave behavior at media boundaries\n5. Radio wave propagation in the atmosphere\n7. Transmitter and receiver\n8. Radar system\n\n              教科書および参考書・リザーブドブック\n\n              M. Takahashi, Introduction of Electromagnetic Wave Engineering, Suurikougaku-sha Co.,Ltd., 2011.\n\n              履修に必要な予備知識や技能\n\n              1. Before studying this subject, it is necessary to master and understand \"Electromagnetics I\", \"Electromagnetics II\", and \"Electromagnetics III\".\n2. Be sure to answer and submit your own exercises in each chapter.\n3. Understand and store definitions and meanings of technical terms properly.\n4. Review the contents of the text and slides carefully in the class to clearly distinguish what you have understood and what you can not do, and ask questions\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                L\n                Understand the concept and role of radio waves and explain the mechanism applied.\n\n                ②\n                L\n                Understand the nature and propagation of electromagnetic waves and perform basic calculations.\n\n                ③\n                L\n                Understand the concept of antenna and calculate basic characteristics.\n\n                ④\n                L\n                Understand the behavior of electromagnetic waves and explain typical concepts.\n\n                ⑤\n                L\n                Understand the basics of radio wave propagation and explain typical concepts.\n\n                ⑥\n                L\n                Understand the mechanism of radio wave application and explain the general outline.\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                40\n\n                0\n\n                60\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                40\n\n                0\n\n                60\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                40\n\n                0\n\n                60\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  コラボレーションとリ",
-  "courseId": "2026:fall:E637-01:0:276",
+  "rawText": "金沢工業大学 学習支援計画書 E231-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Robotics\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n信号処理\nSignal Processing  2 E231-01  2024年度\n 2nd year 2nd semester  修学規程第4条を参照\n    担当教員名\n TAKEI Yoshinori\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Digital signal processing 2.Convolution 3.Z-transform 4.Fourier analysis  (1) Learn the foundations of signal processing, including analog-to-digital conversion. (2) Understand the basic concepts for digital signals processing, including convolution, Z-transform, sampling theorem, and Fourier analysis. (3) Acquire the ability to evaluate signals transmitted between linear time-invariant (LTI) systems and to extract the features underlying signals.\n    授業の概要および学習上の助言   This is a basic course in signal processing for discrete time signals. We will mainly cover the following topics: 1. Basic concepts of digital signal processing. 2. Expressing LTI systems with linear convolution. 3. Expressing discrete time transfer functions using Z-transform and its frequency domain property. 4. Expressing Fourier series and Fourier transform for continuous and discrete time signals in relation to the sampling theorem. Students are expected to actively participate in class. Students are expected to complete exercises independently. Students are required to be aware of the instructor’s messages in the class and to check for messages/materials on the KIT Inside website before every class because the course schedule may change depending on the class progress.\n    教科書および参考書・リザーブドブック   Hitoshi Kiya, Digital Signal Processing (in Japanese), Ohmsha\n    履修に必要な予備知識や技能   Sufficient mathematical calculation skills (especially those covered in Control Engineering I). Basic knowledge of differential and integral calculus.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① K Explain expressions of discrete time signals obtained by sampling various continuous time signals   ② K Express the linear convolution of discrete time signals, Fourier series, and Fourier transform   ③ K Express the characteristics of transient responses and frequency responses of discrete LTI systems   ④     ⑤     ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 40 30 30 0 0 0 0 100     指標と評価割合 総合評価割合 40 30 30 0 0 0 0 100   総合力指標 知識を取り込む力 40 30 30 0 0 0 0 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ A semester final examination is given, as specified in the course schedule, to evaluate your degree of achievement comprehensively. The schedule may change depending on the class progress.   ② レ   ③ レ   ④     ⑤     ⑥     クイズ\n小テスト ① レ A mid-semester test is given, as specified in the course schedule, to evaluate your degree of achievement until that point. The schedule may change depending on the class progress. Unscheduled tests are also given.    ② レ   ③ レ   ④     ⑤     ⑥     レポート ① レ Students will prepare reports for evaluation.   ② レ   ③ レ   ④     ⑤     ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ①      ②     ③     ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     (1) Calculate convolution, Z-transform, and Fourier series expansion signals from various sampled continuous time signals (2) Express the discrete time transfer function and its frequency domain property for discrete LTI systems (3) Express the characteristics of the frequency domain of discrete time signals in relation to the sampling theorem  (1) Calculate convolution, Z-transform, and Fourier series expansion for basic discrete time signals (2) Express the discrete time transfer function of discrete LTI systems (3) Explain the characteristics of frequency domain of discrete time signals in relation to the samp",
+  "courseId": "2024:spring:E223-01:0:276",
   "language": "en"
 }

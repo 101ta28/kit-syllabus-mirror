@@ -1,61 +1,62 @@
 {
   "sourceIndex": 91,
   "sourceUrl": "/opsyllabus/kitos0110/91/1",
-  "importedAt": "2026-06-08T09:33:54.932Z",
-  "title": "プロジェクトデザイン入門（実験）（環境・応用化学科）",
-  "subtitle": "Design Project / Introduction",
-  "courseType": "Design Project ProgramDesign Project CoursesDesign Project",
-  "credits": "2",
-  "term": "2026年度\n\n                1st year 1st semester",
+  "importedAt": "2026-06-09T01:29:19.971Z",
+  "title": "AI基礎(夏期集中講義)",
+  "subtitle": "Basic Topics in Artificial Intelligence",
+  "courseType": "Mathematics and Science Program\nMathematics and Science Courses",
+  "credits": "1",
+  "term": "2024年度\n 1st year 2nd semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "OSHIMA Syunichi",
-    "MIYAZAKI Keisuke",
-    "TANIDA Ikuhiro",
-    "SUZUKI Yasutada",
-    "TANAKA Koki"
+    "TANIGUCHI Shinichi",
+    "TANIGUCHI Tetsuya",
+    "KUDO Tomoshige",
+    "UESU Hiroaki",
+    "AKIYAMA Koki",
+    "WATANABE Shuji",
+    "NISHITA Yoshito",
+    "TAKAI Yuuki",
+    "TANAKA Yasuhiro",
+    "NAKAGAWA Hayato"
   ],
   "keywords": [
-    "Verification process",
-    "Problem-solving process",
-    "Basic skills",
-    "Data handling skills",
-    "PBL for science and technology"
+    "AI: Artificial Intelligence 2.Visual recognition 3.Natural language analysis 4.Interactive voice recognition 5.Machine learning"
   ],
-  "educationalGoal": "-To gain the basic skills needed in processes from finding problems to solutions.\n-To understand phenomena, objectives, and events quantitatively and qualitatively.\n-To be able to find characteristics and laws of phenomena, objectives, and events.\n-To be able to deliver the above information to a third person intelligibly.\n-To gain various basic skills to proceed smoothly with verification activities.\n-To be able to have a picture of technology fields and engineers of discipline.",
-  "advice": "In this course, to achieve the above educational goals, the students will learn the basic skills required for verification and problem-solving processes.\nThis course will deal with characteristic things of the corresponding department.\nOne is that the students will learn the basic \"data-handling skills\" needed for data collection → organization → analysis→ hypothesis testing → visualization → reporting.\nOne is that the students will learn the basic skills of \"PBL for science and technology\" including the basic elements of processes from problem-finding to solution and verification activities.\nFor \"data-handling skills\", the students learn basic experimental operations and the analysis method for data obtained through neutralization titration.\nFor “PBL for science and technology\", the students prepare an experimental workflow, analyze data, discuss results, and prepare reports through group activities. The objective of this course is to develop the experimental skills and reporting ability necessary to carry out activities in Basic Experiments and Practice in Bioscience and Chemistry (2nd year), Applied Chemistry Major Lab/Exercises (3rd year), Preparatory Seminar for Design Project III (3rd year), and Design Project III (4th year).\nWe will conduct safety training to explain the handling of experimental instruments and use of chemicals. It is important to check and understand the handling and the risk of chemicals by yourself prior to the experiments.",
-  "books": "Textbooks：Unspecified\nReference books：Gakusei no tameno Anzen no Tebiki, Anzen Shishin (Kanazawa Institute of Technology Publishing)\nReserved books：Jikken Deta wo Tadashiku Atsukau tameni (Kagaku Dojin Publishing), Jikken wo Anzen ni Okonau tameni (Kagaku Dojin Publishing), Zoku Jikken wo Anzen ni Okonau tameni (Kagaku Dojin Publishing), Dare mo Oshietekurenakatta Jikken Noto no Kakikata (Kagaku Dojin Publishing)",
-  "requiredKnowledge": "Bring a specified A4 size experimental notebook, scientific calculator, and indoor shoes, as well as Lab coat and protective glasses. It is desirable to be aware of the possible risk to carry out the experiments safely. In order to use Word and Excel, it is desirable to be able to perform basic computer operations.",
+  "educationalGoal": "Students will: (1) study the history of AI, and experience basic functions and practical examples of AI through active learning. (2) based on these experiences, learn state-of-the-art technology through various basic examples. (3) learn how image recognition, natural language processing, and interactive speech recognition can understand and manipulate basic contents.",
+  "advice": "This is a basic course in AI. We will cover the following topics: 1. Basic mechanism of AI, basic and representative AI functions, and elementary theories of machine learning (deep learning). Through specific examples of AI functions, students will understand (1) to (3) and their basic operations. (1) Visual recognition. (2) Natural language processing. (3) Interactive voice identification. 2. The history of AI. 3. Legal compliance and ethical issues when using AI. (1) Compliance with laws and regulations such as the Personal Information Protection Act. (2) Regarding AI ethics as a broader standard than the law: Respect for ethics in the handling of information and data related to people. 4. The basic data structure necessary for AI machine learning and creating simple data. 5. Application examples of various AI functions in science and engineering.",
+  "books": "",
+  "requiredKnowledge": "1. An understanding of the basics of computer operation. 2. Since progress in this field is rapid and explanatory documents will not be immediately available, handouts will be distributed as the class progresses; students should have the ability to learn from the handouts. The latest reference books will be introduced as available. 3. The ability to write a report carefully and to adhere to a submission deadline",
   "activityGoals": [
     {
       "index": "①",
-      "type": "G,F",
-      "body": "To be able to proceed with activities from finding problems to solutions."
+      "type": "D,H",
+      "body": "Be able to understand basic examples of AI image identification and perform basic operations."
     },
     {
       "index": "②",
-      "type": "D",
-      "body": "To be able to understand phenomena, objects, and events quantitatively and qualitatively."
+      "type": "D,H",
+      "body": "Be able to understand basic examples of AI natural language processing."
     },
     {
       "index": "③",
-      "type": "D",
-      "body": "To be able to find characteristics, features, and laws of phenomena, objects, and events."
+      "type": "D,H",
+      "body": "Be able to understand basic examples of AI interactive voice recognition functions and perform basic operations."
     },
     {
       "index": "④",
-      "type": "E",
-      "body": "To be able to deliver acquired information to a third person intelligibly."
+      "type": "D",
+      "body": "Be able to understand the basic data structures necessary for machine learning and construct basic data."
     },
     {
       "index": "⑤",
-      "type": "F",
-      "body": "To be able to utilize various basic skills needed to proceed smoothly with verification activities."
+      "type": "B",
+      "body": "Be able to understand history of AI, observe AI-related laws, and develop an attitude of respecting AI ethics."
     },
     {
       "index": "⑥",
       "type": "A",
-      "body": "To be able to have a picture of the technology fields and engineers in the discipline."
+      "body": "Be able to attend every class, work on assigned tasks, and understand the contents of the class."
     }
   ],
   "evaluationWeights": [
@@ -64,18 +65,18 @@
       "values": [
         "0",
         "0",
-        "60",
-        "20",
+        "70",
         "0",
         "0",
-        "20",
+        "0",
+        "30",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -87,18 +88,18 @@
       "values": [
         "0",
         "0",
-        "60",
-        "20",
+        "70",
         "0",
         "0",
-        "20",
+        "0",
+        "30",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -110,18 +111,18 @@
       "values": [
         "0",
         "0",
-        "60",
-        "20",
+        "70",
         "0",
         "0",
-        "20",
+        "0",
+        "30",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -142,9 +143,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -152,7 +153,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -165,9 +166,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -188,9 +189,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -199,118 +200,62 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "1) To be able to proceed with activities from problem-finding to solution.\n2) To be able to quantitatively and qualitatively recognize phenomena, objects, and events.\n3) To be able to recognize characteristics and regularities of corresponding phenomena, objects, and events.\n4) To be able to communicate acquired information to a third person intelligibly.\n5) To be able to smoothly conduct verification activities independently.\n6) To be able to recognize the identity of the major (department) and be proud.",
-    "standard": "1) To be able to proceed with activities from problem-finding to solution with guidance by instructor.\n2) To be able to quantitatively and qualitatively recognize phenomena, objects, and events with guidance.\n3) To be able to recognize characteristics and regularities of phenomena, objects, and events with guidance.\n4) To be able to communicate acquired information to a third person.\n5) To be able to conduct verification activities with guidance.\n6) To be able to recognize the identity of the major (department) and be proud with guidance."
+    "ideal": "(1) Understand and explain the history of AI and the basics of machine learning (deep learning). (2) Understand the basic mechanism of image identification and be able to operate it sufficiently. (3) Understand the basic mechanism of natural language processing and be able to operate it sufficiently. (4) Understand the basic mechanism of interactive voice recognition function and be able to operate it sufficiently. (5) Be able to prepare machine learning data according to the purpose. (6) Understand and comply with AI laws and regulations; deepen respect for AI ethics.",
+    "standard": "(1) Understand the history of AI and the basic contents of machine learning (deep learning) and be able to give an overview of them. (2) Understand and operate the basic mechanism of image identification. (3) Understand and operate the basic mechanism of natural language processing. (4) Understand and operate the basic mechanism of interactive voice recognition function. (5) Prepare the required amount of data for machine learning. (6) Understand and comply with AI laws and regulations; deepen respect for AI ethics."
   },
   "clipProcess": "",
   "lessons": [
     {
-      "index": "1,2",
-      "content": "Safety training and guidance\nHow to write lab notebook\nAbout neutralization titration",
-      "operation": "Lecture, Exercise,\nand Self-evaluation",
-      "assignments": "Review: Understand how to\nwrite lab notebook.",
-      "minutes": "60"
+      "index": "1",
+      "content": "Course guidance Learn the outline of basic AI functions. Learn basic AI operations",
+      "operation": "Lecture and Q&A. Experience of AI operation Self-check",
+      "assignments": "Review what you have learned and tackle the issues. Prepare for the next study task, focusing on handouts.",
+      "minutes": "60 30"
     },
     {
-      "index": "3,4",
-      "content": "Handling of laboratory instruments and\nreagent preparation",
-      "operation": "Lecture, Exercise,\nand Self-evaluation",
-      "assignments": "Preview: Investigate the risk\nof reagents used.\nReview: Understand the\npreparation of reagent and\nthe accuracy of handling\ninstruments.",
-      "minutes": "60\n60"
+      "index": "2",
+      "content": "AI visual recognition. Laws related to AI. Ethical issues related to AI. The need for “ethics respect.”",
+      "operation": "Lecture and experience of AI operation Self-check",
+      "assignments": "Review what you have learned and tackle the issues. Prepare for the next study task, focusing on handouts.",
+      "minutes": "60 30"
     },
     {
-      "index": "5,6",
-      "content": "Neutralization titration",
-      "operation": "Experiments\nand Self-evaluation",
-      "assignments": "Preview: Study about\nneutralization titration and\nthe experimental workflow.\nReview: Summarize the\nobtained data.",
-      "minutes": "30\n90"
+      "index": "3",
+      "content": "AI visual recognition with a focus on numbers and letters. Basics of data structure for machine learning.",
+      "operation": "Lecture and experience of AI operation Self-check",
+      "assignments": "Review what you have learned and tackle the issues. Prepare for the next study task, focusing on handouts.",
+      "minutes": "60 30"
     },
     {
-      "index": "7,8",
-      "content": "Prepare a titration curve (Group activities)",
-      "operation": "Lecture, Exercise,\nand Self-evaluation",
-      "assignments": "Preview: Investigate the risk\nof reagents used and\nunderstand the experimental\nworkflow.\nReview: Summarize the\nobtained data.",
-      "minutes": "30\n90"
+      "index": "4",
+      "content": "Basics of creating machine learning data. Image identification using self-made data",
+      "operation": "Lecture and experience of AI operation Self-check",
+      "assignments": "Review what you have learned and tackle the issues. Prepare for the next study task, focusing on handouts.",
+      "minutes": "60 30"
     },
     {
-      "index": "9,10",
-      "content": "Data analysis\nHow to write an experimental report",
-      "operation": "Lecture, Exercise,\nand Self-evaluation",
-      "assignments": "Preview: Prepare how to\ncalculate averages and\nstandard deviations, and\nconcentration calculations.\nReview: Understand data\nanalysis and learn how to\nwrite a report.",
-      "minutes": "30\n90"
+      "index": "5",
+      "content": "Natural language processing.",
+      "operation": "Lecture and experience of AI operation Self-check",
+      "assignments": "Review what you have learned and tackle the issues. Prepare for the next study task, focusing on handouts.",
+      "minutes": "60 30"
     },
     {
-      "index": "11,12",
-      "content": "Prepare an experimental report",
-      "operation": "Lecture and Exercise",
-      "assignments": "Preview: Calculate the\ntheoretical values.\nReview: Complete an\nexperimental report.",
-      "minutes": "30\n120"
+      "index": "6",
+      "content": "Natural language processing and data analysis. Interactive voice recognition.",
+      "operation": "Lecture and experience of AI operation Self-check",
+      "assignments": "Review what you have learned and tackle the issues. Prepare for the next study task, focusing on handouts.",
+      "minutes": "60 30"
     },
     {
-      "index": "13,14",
-      "content": "Explain PBL mission activities",
-      "operation": "Lecture, Exercise,\nand Experiments",
-      "assignments": "Review: Search for references\nand understand the content of\nselected theme.",
-      "minutes": "60"
-    },
-    {
-      "index": "15,16",
-      "content": "Prepare an experimental workflow and\nPreliminary experiment",
-      "operation": "Lecture, Exercise,\nand Experiments",
-      "assignments": "Preview: Investigate the risk\nof reagents and instruments,\nand prepare an experimental\nworkflow based on the\nproblems.\nReview: Summarize the\nobtained data.",
-      "minutes": "45\n45"
-    },
-    {
-      "index": "17,18",
-      "content": "Mission execution 1",
-      "operation": "Exercise and Experiments",
-      "assignments": "Preview: Investigate the risk\nof reagents and instruments,\nand prepare an experimental\nworkflow based on the\nproblems.\nReview: Summarize the\nobtained data.",
-      "minutes": "45\n45"
-    },
-    {
-      "index": "19,20",
-      "content": "Mission execution 2",
-      "operation": "Exercise and Experiments",
-      "assignments": "Preview: Investigate the risk\nof reagents and instruments,\nand prepare an experimental\nworkflow based on the\nproblems.\nReview: Summarize the\nobtained data.",
-      "minutes": "45\n45"
-    },
-    {
-      "index": "21,22",
-      "content": "Mission execution 3",
-      "operation": "Exercise and Experiments",
-      "assignments": "Preview: Investigate the risk\nof reagents and instruments,\nand prepare an experimental\nworkflow based on the\nproblems.\nReview: Summarize the\nobtained data.",
-      "minutes": "45\n45"
-    },
-    {
-      "index": "23,24",
-      "content": "Mission execution 4",
-      "operation": "Exercise and Experiments",
-      "assignments": "Preview: Investigate the risk\nof reagents and instruments,\nand prepare an experimental\nworkflow based on the\nproblems.\nReview: Summarize the\nobtained data.",
-      "minutes": "45\n45"
-    },
-    {
-      "index": "25,26",
-      "content": "Data analysis, discussion and summarization of\nobtained data",
-      "operation": "Lecture, Exercise,\nand Experiments",
-      "assignments": "Preview: Summarize the data\nand discuss the results.\nReview: Summarize the data\nand discuss the results.",
-      "minutes": ""
-    },
-    {
-      "index": "27,28",
-      "content": "Prepare a poster",
-      "operation": "Lecture and Exercise",
-      "assignments": "Review: Complete a poster.",
-      "minutes": "240"
-    },
-    {
-      "index": "29,30",
-      "content": "Poster presentation\nSelf-evaluation",
-      "operation": "Presentation\nand Self-evaluation",
-      "assignments": "Prepare a poster\nCheck your mistakes and\nreview your weaknesses.",
-      "minutes": "120"
+      "index": "7",
+      "content": "Learn the history of AI. Review of the whole session and group discussion on machine learning (deep learning). As a self-assessment class, check attendance, submissions and grading.",
+      "operation": "Explanation of the history of AI Group discussion Review of previous lessons Checking attendance and submitted materials Explanation of grading",
+      "assignments": "Review what you have learned a bout the history of AI. Review the contents studied so far, and confirm and review the overall flow.",
+      "minutes": "60 30"
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　G250-11\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Design Project Program\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Design Project ProgramDesign Project CoursesDesign Project\n\n                プロジェクトデザイン入門（実験）（環境・応用化学科）\n                Design Project / Introduction\n\n              2\n              G250-11\n\n                2026年度\n\n                1st year 1st semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  OSHIMA Syunichi, MIYAZAKI Keisuke, TANIDA Ikuhiro, SUZUKI Yasutada, TANAKA Koki\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Verification process\n2.Problem-solving process\n3.Basic skills\n4.Data handling skills\n5.PBL for science and technology\n\n              -To gain the basic skills needed in processes from finding problems to solutions.\n-To understand phenomena, objectives, and events quantitatively and qualitatively.\n-To be able to find characteristics and laws of phenomena, objectives, and events.\n-To be able to deliver the above information to a third person intelligibly.\n-To gain various basic skills to proceed smoothly with verification activities.\n-To be able to have a picture of technology fields and engineers of discipline.\n\n              授業の概要および学習上の助言\n\n              In this course, to achieve the above educational goals, the students will learn the basic skills required for verification and problem-solving processes.\nThis course will deal with characteristic things of the corresponding department.\nOne is that the students will learn the basic \"data-handling skills\" needed for data collection → organization → analysis→ hypothesis testing → visualization → reporting.\nOne is that the students will learn the basic skills of \"PBL for science and technology\" including the basic elements of processes from problem-finding to solution and verification activities.\nFor \"data-handling skills\", the students learn basic experimental operations and the analysis method for data obtained through neutralization titration.\nFor “PBL for science and technology\", the students prepare an experimental workflow, analyze data, discuss results, and prepare reports through group activities. The objective of this course is to develop the experimental skills and reporting ability necessary to carry out activities in Basic Experiments and Practice in Bioscience and Chemistry (2nd year), Applied Chemistry Major Lab/Exercises (3rd year), Preparatory Seminar for Design Project III (3rd year), and Design Project III (4th year).\nWe will conduct safety training to explain the handling of experimental instruments and use of chemicals. It is important to check and understand the handling and the risk of chemicals by yourself prior to the experiments.\n\n              教科書および参考書・リザーブドブック\n\n              Textbooks：Unspecified\nReference books：Gakusei no tameno Anzen no Tebiki, Anzen Shishin (Kanazawa Institute of Technology Publishing)\nReserved books：Jikken Deta wo Tadashiku Atsukau tameni (Kagaku Dojin Publishing), Jikken wo Anzen ni Okonau tameni (Kagaku Dojin Publishing), Zoku Jikken wo Anzen ni Okonau tameni (Kagaku Dojin Publishing), Dare mo Oshietekurenakatta Jikken Noto no Kakikata (Kagaku Dojin Publishing)\n\n              履修に必要な予備知識や技能\n\n              Bring a specified A4 size experimental notebook, scientific calculator, and indoor shoes, as well as Lab coat and protective glasses. It is desirable to be aware of the possible risk to carry out the experiments safely. In order to use Word and Excel, it is desirable to be able to perform basic computer operations.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                G,F\n                To be able to proceed with activities from finding problems to solutions.\n\n                ②\n                D\n  ",
-  "courseId": "2026:spring:G250-11:0:91",
+  "rawText": "金沢工業大学 学習支援計画書 G240-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nMathematics, Science, Data Science and AI Program\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Mathematics and Science Program\nMathematics and Science Courses\nAI基礎(夏期集中講義)\nBasic Topics in Artificial Intelligence  1 G240-01  2024年度\n 1st year 2nd semester  修学規程第4条を参照\n    担当教員名\n TANIGUCHI Shinichi, TANIGUCHI Tetsuya, KUDO Tomoshige, UESU Hiroaki, AKIYAMA Koki, WATANABE Shuji, NISHITA Yoshito, TAKAI Yuuki, TANAKA Yasuhiro, NAKAGAWA Hayato\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.AI: Artificial Intelligence 2.Visual recognition 3.Natural language analysis 4.Interactive voice recognition 5.Machine learning  Students will: (1) study the history of AI, and experience basic functions and practical examples of AI through active learning. (2) based on these experiences, learn state-of-the-art technology through various basic examples. (3) learn how image recognition, natural language processing, and interactive speech recognition can understand and manipulate basic contents.\n    授業の概要および学習上の助言   This is a basic course in AI. We will cover the following topics: 1. Basic mechanism of AI, basic and representative AI functions, and elementary theories of machine learning (deep learning). Through specific examples of AI functions, students will understand (1) to (3) and their basic operations. (1) Visual recognition. (2) Natural language processing. (3) Interactive voice identification. 2. The history of AI. 3. Legal compliance and ethical issues when using AI. (1) Compliance with laws and regulations such as the Personal Information Protection Act. (2) Regarding AI ethics as a broader standard than the law: Respect for ethics in the handling of information and data related to people. 4. The basic data structure necessary for AI machine learning and creating simple data. 5. Application examples of various AI functions in science and engineering.\n    教科書および参考書・リザーブドブック\n    履修に必要な予備知識や技能   1. An understanding of the basics of computer operation. 2. Since progress in this field is rapid and explanatory documents will not be immediately available, handouts will be distributed as the class progresses; students should have the ability to learn from the handouts. The latest reference books will be introduced as available. 3. The ability to write a report carefully and to adhere to a submission deadline\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① D,H Be able to understand basic examples of AI image identification and perform basic operations.   ② D,H Be able to understand basic examples of AI natural language processing.    ③ D,H Be able to understand basic examples of AI interactive voice recognition functions and perform basic operations.   ④ D Be able to understand the basic data structures necessary for machine learning and construct basic data.   ⑤ B Be able to understand history of AI, observe AI-related laws, and develop an attitude of respecting AI ethics.   ⑥ A Be able to attend every class, work on assigned tasks, and understand the contents of the class.\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 0 0 70 0 0 0 30 100     指標と評価割合 総合評価割合 0 0 70 0 0 0 30 100   総合力指標 知識を取り込む力 0 0 70 0 0 0 30 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ①      ②     ③     ④     ⑤     ⑥     クイズ\n小テスト ①      ②     ③     ④     ⑤     ⑥     レポート ① レ The report will comprise 70% of the overall evaluation. The report should be written logically, with numerical values, text, and data; it should logically describe the process of tackling the problem. Copying the report of others is not permitted. Students must strictly adhere to the report submission deadline. The report submission date is listed in the schedule.    ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     ",
+  "courseId": "2024:spring:G218-01:0:91",
   "language": "en"
 }

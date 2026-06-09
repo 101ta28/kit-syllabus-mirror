@@ -1,71 +1,58 @@
 {
   "sourceIndex": 178,
   "sourceUrl": "/opsyllabus/kitos0110/178/1",
-  "importedAt": "2026-06-08T09:33:56.774Z",
-  "title": "Ｗｅｂデザイン",
-  "subtitle": "Web Design",
-  "courseType": "Major ProgramMajor Courses",
-  "credits": "2",
-  "term": "2026年度\n\n                1st year 1st semester",
+  "importedAt": "2026-06-09T01:29:20.735Z",
+  "title": "プロジェクトデザインⅢ(十河憲夫研究室)",
+  "subtitle": "Design Project III(Sogo Norio)",
+  "courseType": "Major Program\nMajor Project Courses",
+  "credits": "8",
+  "term": "2024年度\n All year",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "TAKEMATA Kazuya"
+    "SOGO Norio"
   ],
   "keywords": [
-    "Internet",
-    "WWW",
-    "HTML",
-    "CSS"
+    "Mechanical engineering 2.Vehicle system 3.Creation process 4.Design and manufacturing 5.Regional collaboration"
   ],
-  "educationalGoal": "This course is for an educational goal of the Dept. of Environmental Design and Innovation to acquire \"Information design basic ability\". Students will:\n(1)acquire the basic ability to utilize IT including mark-up language and the Internet,\n(2)learn the fundamental theory of WWW (World Wide Web) site,\n(3)learn how to create, manage and operate web pages.",
-  "advice": "To create, manage and operate a WWW site, the following 3 abilities are required:\n(1)\tThe ability to understand the WWW site production process,\n(a)\tPlanning a WWW site,\n(b)\tDesign and implement a WWW site,\n(c)\tManage and Operate a WWW site.\n(2)\tThe ability to understand and apply HTML (Hyper-Text Mark-up Language) and CSS (Cascading Style Sheets) to produce a WWW site,\n(3)\tThe ability to produce a web site that considers effective expression of information, ease of use, and availability to anyone.\n\nStudents will acquire abilities 1 and 2 mainly through lectures and exercises in the first half of the course; they will acquire ability 3 in the second half of the course.",
-  "books": "Text Book: A book that you can learn HTML & CSS and web design in one book (in Japanese), 2022/1/12, Gijutsu-Hyohron Co., Ltd. (ISBN: 978-4-297-12510-3)",
-  "requiredKnowledge": "Prior knowledge is not required before taking this course, but you should learn the designated part of the textbook.\nAccording to students’ understanding degree, lectures and practicums progress may be changed.",
+  "educationalGoal": "Students will:(1) Acquire the ability to identify and solve problems to research, develop, design, and manufacture socially useful and high-quality products using the basic knowledge learned in the Department of Mechanical Engineering. (2) Learn what technologies or new mechanisms are needed for that purpose. (3) Learn about the importance of collaboration with society (particularly local communities).",
+  "advice": "This is the final comprehensive course in the Department of Mechanical Engineering. To realize the educational objectives of the Department of Mechanical Engineering, this course focuses on the following goals: Students will acquire the ability to model phenomena accurately and analyze the models. Students will acquire the ability and the engineering sense to evaluate solutions using the obtained results. In practice, students should reconfirm their project theme (especially, related to Fluid dynamics), which was determined during in Preparatory Seminar, with the supervisors of the individual laboratories. (The theme should be revised as necessary.) Students are expected to pursue the identification and solution of problems in accordance with the engineering process.",
+  "books": "None",
+  "requiredKnowledge": "It is desirable to obtain a license for machining at the KIT Dream works (Yumekobo). It is desirable to obtain knowledge (especially, Fluid dynamics) and attend courses associated with your projects.",
   "activityGoals": [
     {
       "index": "①",
-      "type": "H",
-      "body": "Be able to set up your laptop computer and browse any WWW sites."
+      "type": "A,B,D,G,H,J-P",
+      "body": "Be able to advance your project in accordance with the engineering design process."
     },
     {
       "index": "②",
-      "type": "H,J",
-      "body": "Be able to use text editor (Brackets) to design and implement Web pages using text and still images using HTML."
+      "type": "A,B,D,G,H,J-P",
+      "body": "Be able to compile your results correctly into an article and discuss the content through presentations."
     },
     {
       "index": "③",
-      "type": "H,J",
-      "body": "Be able to upload created files (contents) to a web server."
-    },
-    {
-      "index": "④",
-      "type": "H,J",
-      "body": "Be able to lay out web contents using CSS."
-    },
-    {
-      "index": "⑤",
-      "type": "H,J",
-      "body": "Be able to produce a web site that considers effective expression of information, ease of use, and availability"
+      "type": "A,B,D,G,H,J-P",
+      "body": "Be able to act independently to solve the issues presented separately."
     }
   ],
   "evaluationWeights": [
     {
       "label": "総合評価割合",
       "values": [
-        "30",
         "0",
-        "20",
         "0",
-        "40",
+        "50",
+        "35",
         "0",
+        "5",
         "10",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -75,20 +62,20 @@
     {
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
-        "30",
         "0",
-        "20",
         "0",
-        "40",
+        "50",
+        "35",
         "0",
+        "5",
         "10",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -98,20 +85,20 @@
     {
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
-        "30",
         "0",
-        "20",
         "0",
-        "40",
+        "50",
+        "35",
         "0",
+        "5",
         "10",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -132,9 +119,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -142,7 +129,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -155,9 +142,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -178,9 +165,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -189,118 +176,27 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "(1) Be able to browse any web sites from your laptop,\n(2) Be able to produce some web pages using text editor with text and still images.\n(3) Be able to upload the produced files to a web server.\n(4) Be able to lay out pages using CSS.\n(5) Be able to produce a web site considering the effective expression of information, ease of use, and availability to anyone.\n(6) Be able to produce a web site with unified operations and color schemes by realizing original ideas.",
-    "standard": "(1) Be able to browse any web sites from your laptop computer,\n(2) Be able to produce some web pages using text editor with text and still images.\n(3) Be able to upload the produced files to a web server.\n(4) Be able to lay out pages using CSS.\n(5) Be able to produce a web site considering the effective expression of information, ease of use, and availability to anyone."
+    "ideal": "(1) Understand the your project and the advancement process accurately, and achieve the established annual goal. In addition, the process can be reported in the Design Project Activity Support System. (2) Compile intermediate results for the project into the interim report, and present and discuss its content. Complete the final report, present it to the Design Project III Public Presentation Review Board, and discuss its content. (3) If necessary, design and manufacture your own experimental devices, and also evaluate the performance of the product.",
+    "standard": "(1) Understand the purpose of your project theme and the advancement process, and achieve the established annual goal. In addition, the process can be reported in the Design Project Activity Support System. (2) Compile intermediate results for the project into the interim report, and present its content. Complete the final report and present it to the Design Project III Public Presentation Review Board. (3) Design and manufacture your own experimental devices if necessary. (The numbers in the text correspond to those of the student’s action goals.)"
   },
   "clipProcess": "",
   "lessons": [
     {
       "index": "1",
-      "content": "- Guidance\n- Web sites you should know and basic knowledge\nof web site design",
-      "operation": "Lecture",
-      "assignments": "Preparation: Textbook Chapter\n1 pp.15-44\nReview: Chapter 1\nSelf-evaluation",
-      "minutes": "180"
+      "content": "Course introduction Safety education",
+      "operation": "Lecture and experimental activities",
+      "assignments": "",
+      "minutes": ""
     },
     {
-      "index": "2",
-      "content": "- Things to prepare before web site production",
-      "operation": "Lecture and practicum",
-      "assignments": "Preparation: Textbook Chapter\n1 pp.45-64\nReview: Using up Visual\nStudio Code and Chrome,\nself-evaluation",
-      "minutes": "300"
-    },
-    {
-      "index": "3",
-      "content": "- HTML basics that you should remember",
-      "operation": "Lecture and practicum\nReviewing your knowledge\nof development\nenvironment,\nself-evaluation",
-      "assignments": "Preparation: Textbook Chapter\n2 pp.65-92\nReview: Complete sample HTML\nweb site, self-evaluation",
-      "minutes": "180"
-    },
-    {
-      "index": "4",
-      "content": "- CSS basics that you should remember",
-      "operation": "Lecture and practicum\nReviewing your knowledge\nof HTML, self-evaluation",
-      "assignments": "Preparation: Textbook Chapter\n3 pp.93-128\nReview: Complete simple web\nwith CSS, self-evaluation.",
-      "minutes": "300"
-    },
-    {
-      "index": "5",
-      "content": "- Responsive design basics that you should\nremember",
-      "operation": "Lecture and practicum\nReviewing your knowledge\nof CSS, self-evaluation",
-      "assignments": "Preparation: Textbook Chapter\n4 pp.129-156\nReview: Complete simple\nresponsive design web page,\nself-evaluation.",
-      "minutes": "300"
-    },
-    {
-      "index": "6",
-      "content": "- Creating full screen web pages",
-      "operation": "Lecture and practicum\nReviewing your knowledge\nof responsive design",
-      "assignments": "Preparation: Textbook Chapter\n4 pp.157-192\nReview: Complete full screen\nweb pages, self-evaluation.",
-      "minutes": "300"
-    },
-    {
-      "index": "7",
-      "content": "- Creating flexible boxes web pages",
-      "operation": "Lecture and practicum\nReviewing your created\nfull screen web pages",
-      "assignments": "Preparation: Textbook Chapter\n5 pp.193-224\nReview: Complete flexible\nboxes web pages,\nself-evaluation.",
-      "minutes": "300"
-    },
-    {
-      "index": "8",
-      "content": "- Creating single column web pages and\nembedding moving pictures",
-      "operation": "Lecture and practicum\nReviewing your flexible\nboxes web pages",
-      "assignments": "Preparation: Textbook Chapter\n6 pp.225-264\nReview: Complete single col.\nweb pages, self-evaluation.",
-      "minutes": "360"
-    },
-    {
-      "index": "9",
-      "content": "- Creating grid layout web pages",
-      "operation": "Lecture and practicum\nReviewing your single\ncolumn web pages",
-      "assignments": "Preparation: Textbook Chapter\n7,8 pp.265-296\nReview: Complete grid layout\nweb pages, self-evaluation.",
-      "minutes": "360"
-    },
-    {
-      "index": "10",
-      "content": "- A written exam and self-evaluation",
-      "operation": "Exam and lecture",
-      "assignments": "Preparation: Review what you\nlearned.\nSelf-evaluation",
-      "minutes": "360"
-    },
-    {
-      "index": "11",
-      "content": "- Creating 2 columns shop web pages",
-      "operation": "Lecture and practicum\nReviewing overall\nHTML/CSS knowledge",
-      "assignments": "Preparation: Textbook Chapter\n9,10 pp.297-340\nReview: Complete your 2\ncolumns shop web pages,\nself-evaluation.",
-      "minutes": "360"
-    },
-    {
-      "index": "12",
-      "content": "- Overall Practicum: Creating your shop or\nportfolio site (1)",
-      "operation": "Lecture and practicum\nReviewing your created\nweb pages",
-      "assignments": "Preparation: Planning your\nweb site\nReview: Creating your web\npages, self-evaluation",
-      "minutes": "300"
-    },
-    {
-      "index": "13",
-      "content": "- Overall Practicum: Creating your shop\nor portfolio site (2)\n- Uploading created contents to a web server",
-      "operation": "Lecture and practicum\nReviewing your created\nweb pages",
-      "assignments": "Review: Complete your web\nsite and upload your contents\nto a web server\nSelf-evaluation",
-      "minutes": "300"
-    },
-    {
-      "index": "14",
-      "content": "- Final Presentation: Introducing your shop or\nportfolio site",
-      "operation": "Presentation by students",
-      "assignments": "Preparation: Prepare your\npresentation including\ncompletion of web creation &\nupload, self-evaluation",
-      "minutes": "180"
-    },
-    {
-      "index": "15",
-      "content": "- Creating inquiry web pages with google map\n- Self-evaluation\n- Questionnaire",
-      "operation": "Lecture and practicum",
-      "assignments": "Review: Overall reviewing\nSelf-evaluation Level of\nachievement",
-      "minutes": "90"
+      "index": "2-",
+      "content": "Lecture and discussion on PD3-related technology PD3 activities",
+      "operation": "Lecture and experimental activities",
+      "assignments": "",
+      "minutes": ""
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　D102-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Environmental Design and Innovation\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                Ｗｅｂデザイン\n                Web Design\n\n              2\n              D102-01\n\n                2026年度\n\n                1st year 1st semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  TAKEMATA Kazuya\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Internet\n2.WWW\n3.HTML\n4.CSS\n\n              This course is for an educational goal of the Dept. of Environmental Design and Innovation to acquire \"Information design basic ability\". Students will:\n(1)acquire the basic ability to utilize IT including mark-up language and the Internet,\n(2)learn the fundamental theory of WWW (World Wide Web) site,\n(3)learn how to create, manage and operate web pages.\n\n              授業の概要および学習上の助言\n\n              To create, manage and operate a WWW site, the following 3 abilities are required:\n(1)\tThe ability to understand the WWW site production process,\n(a)\tPlanning a WWW site,\n(b)\tDesign and implement a WWW site,\n(c)\tManage and Operate a WWW site.\n(2)\tThe ability to understand and apply HTML (Hyper-Text Mark-up Language) and CSS (Cascading Style Sheets) to produce a WWW site,\n(3)\tThe ability to produce a web site that considers effective expression of information, ease of use, and availability to anyone.\n\nStudents will acquire abilities 1 and 2 mainly through lectures and exercises in the first half of the course; they will acquire ability 3 in the second half of the course.\n\n              教科書および参考書・リザーブドブック\n\n              Text Book: A book that you can learn HTML & CSS and web design in one book (in Japanese), 2022/1/12, Gijutsu-Hyohron Co., Ltd. (ISBN: 978-4-297-12510-3)\n\n              履修に必要な予備知識や技能\n\n              Prior knowledge is not required before taking this course, but you should learn the designated part of the textbook.\nAccording to students’ understanding degree, lectures and practicums progress may be changed.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                H\n                Be able to set up your laptop computer and browse any WWW sites.\n\n                ②\n                H,J\n                Be able to use text editor (Brackets) to design and implement Web pages using text and still images using HTML.\n\n                ③\n                H,J\n                Be able to upload created files (contents) to a web server.\n\n                ④\n                H,J\n                Be able to lay out web contents using CSS.\n\n                ⑤\n                H,J\n                Be able to produce a web site that considers effective expression of information, ease of use, and availability\n\n                ⑥\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                30\n\n                0\n\n                20\n\n                0\n\n                40\n\n                0\n\n                10\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                30\n\n                0\n\n                20\n\n                0\n\n                40\n\n                0\n\n                10\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                30\n\n                0\n\n                20\n\n                0\n\n                40\n\n                0\n\n                10\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n",
-  "courseId": "2026:spring:D102-01:0:178",
+  "rawText": "金沢工業大学 学習支援計画書 E921-17\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Mechanical Engineering\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Project Courses\nプロジェクトデザインⅢ(十河憲夫研究室)\nDesign Project III(Sogo Norio)  8 E921-17  2024年度\n All year  修学規程第4条を参照\n    担当教員名\n SOGO Norio\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Mechanical engineering 2.Vehicle system 3.Creation process 4.Design and manufacturing 5.Regional collaboration  Students will:(1) Acquire the ability to identify and solve problems to research, develop, design, and manufacture socially useful and high-quality products using the basic knowledge learned in the Department of Mechanical Engineering. (2) Learn what technologies or new mechanisms are needed for that purpose. (3) Learn about the importance of collaboration with society (particularly local communities).\n    授業の概要および学習上の助言   This is the final comprehensive course in the Department of Mechanical Engineering. To realize the educational objectives of the Department of Mechanical Engineering, this course focuses on the following goals: Students will acquire the ability to model phenomena accurately and analyze the models. Students will acquire the ability and the engineering sense to evaluate solutions using the obtained results. In practice, students should reconfirm their project theme (especially, related to Fluid dynamics), which was determined during in Preparatory Seminar, with the supervisors of the individual laboratories. (The theme should be revised as necessary.) Students are expected to pursue the identification and solution of problems in accordance with the engineering process.\n    教科書および参考書・リザーブドブック   None\n    履修に必要な予備知識や技能   It is desirable to obtain a license for machining at the KIT Dream works (Yumekobo). It is desirable to obtain knowledge (especially, Fluid dynamics) and attend courses associated with your projects.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① A,B,D,G,H,J-P Be able to advance your project in accordance with the engineering design process.   ② A,B,D,G,H,J-P Be able to compile your results correctly into an article and discuss the content through presentations.   ③ A,B,D,G,H,J-P Be able to act independently to solve the issues presented separately.   ④     ⑤     ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 0 0 50 35 0 5 10 100     指標と評価割合 総合評価割合 0 0 50 35 0 5 10 100   総合力指標 知識を取り込む力 0 0 50 35 0 5 10 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ①      ②     ③     ④     ⑤     ⑥     クイズ\n小テスト ①      ②     ③     ④     ⑤     ⑥     レポート ① レ Students are evaluated on the interim report submitted during the 1st semester and the final report submitted during the 2nd semester (Project III final report).    ② レ   ③ レ   ④     ⑤     ⑥     成果発表\n(口頭・実技) ① レ Students are evaluated on the results of their presentations at the interim report meeting held at the end of the semester, as well as presentations, questions, and answers to the Design Project III Public Presentation Review Board during the 2nd semester. In particular, note that the presentation to the Design Project III Public Presentation Review Board is indispensable for obtaining Design Project III credits.    ② レ   ③ レ   ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ① レ Students are evaluated based on their activities described in the Design Project Activity Support System.   ② レ   ③ レ   ④     ⑤     ⑥     その他 ① レ Students are evaluated on their activities in class.   ② レ   ③ レ   ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     (1) Understand the your project and the advancement process accurately, and achieve the established annual goal. In addition, the process can be reported in the Design Project Activity Support System. (2) Compile intermediate results for the proj",
+  "courseId": "2024:full-year:E921-06:0:178",
   "language": "en"
 }

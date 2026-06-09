@@ -1,67 +1,80 @@
 {
   "sourceIndex": 287,
   "sourceUrl": "/opsyllabus/kitos0110/287/1",
-  "importedAt": "2026-06-08T09:33:58.925Z",
-  "title": "電気通信法令",
-  "subtitle": "Telecommunications Law",
-  "courseType": "Major ProgramMajor Courses",
-  "credits": "2",
-  "term": "2026年度\n\n                3rd year 2nd semester",
+  "importedAt": "2026-06-09T01:29:21.718Z",
+  "title": "専門ゼミ(ロボティクス学科)",
+  "subtitle": "Preparatory Seminar for Design Project III",
+  "courseType": "Major Program\nMajor Project Courses",
+  "credits": "1",
+  "term": "2024年度\n 3rd year 2nd semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "HASEGAWA Teruyuki"
+    "TAKEI Yoshinori",
+    "KAWAI Hiroyuki",
+    "ITO Kouhei",
+    "DOI Takahiro",
+    "MURAO Toshiyuki",
+    "FUJIKI Nobuaki",
+    "DEMURA Kosei",
+    "SUZUKI Ryoichi"
   ],
   "keywords": [
-    "Telecommunications Business Act",
-    "National Exam for Chief Telecommunications Engineer",
-    "Telecommunications Technology, Information and Communications",
-    "Electronic Signatures, Information Security",
-    "Regional Collaboration"
+    "Robot intelligence 2.Robot mechanics 3.Intelligent control 4.Mechatronics 5.Regional collaboration"
   ],
-  "educationalGoal": "This course introduces the laws and regulations required for obtaining qualifications to students taking this course.  Students acquire the knowledge of telecommunications law for the operation of the telecommunications business and for the national exam of the Chief Telecommunications Engineer.",
-  "advice": "The outline of this course is shown in below.\n\n1. Introduction: Trends of telecommunication policy, Amendment of Telecommunications Business Act, Summary of telecommunications system etc.\n2. Telecommunications business Act,Enforcement order and regulations: Purpose, Definition, Registration, Notifications, Facilities for telecommunications business, Terminal Facilities, Chief Telecommunications Engineer, Rules of Installation, Technician, Land-use.\n3. Wire telecommunications Act, Enforcement order and regulations: Purpose, Definition, Technical Standards.\n4. Radio Act and Enforcement regulations: Purpose, Definition, Radio Station license, Radio facilities, Radio operators, Operation, Supervision.\n5. Treaty of International Telecommunications, the related law and regulations: The Treaty of International Telecommunication Union, Act on Prohibition of Unauthorized Computer Access, Summary of Electronic Signatures and Certification, Business and the related laws.\n6. Telecommunications trends: Summary\n\nTo pass, students must earn at least 60 points out of 100.",
-  "books": "Textbooks：\nReference books：\nReserved books：",
-  "requiredKnowledge": "Students should collect the recent information about telecommunications technology, internet services and mobile phones. Through these interesting and activity, they are able to obtain the knowledge regarding to the telecommunications law and Regulations.",
+  "educationalGoal": "(1)Predict robotics issues that could be encountered in Design Project III. (2)Learn how to use your acquired knowledge and techniques to address these issues. (3)Learn how to comprehensively apply your ability as an engineer. (4)Learn the importance of collaboration with regional society (especially the local community).",
+  "advice": "Issues to be addressed in Design Project III are presented. Students will understand the knowledge and skills required to carry out their senior project and identify where supplemental knowledge is needed. During the course of this seminar, students will clarify the purpose and action plan for their project, and finally make a project proposal. Note: Details will be provided during the first class.",
+  "books": "Not specified.",
+  "requiredKnowledge": "If you do not earn credit for this course, you cannot take Design Project III.",
   "activityGoals": [
     {
       "index": "①",
-      "type": "L",
-      "body": "Be able to understand the systems and purposes of major telecommunications laws and explain them."
+      "type": "I,O",
+      "body": "Clarify the purpose and action plan of your design project."
     },
     {
       "index": "②",
-      "type": "L",
-      "body": "Be able to understand the content and terms of each law and explain them."
+      "type": "I-O",
+      "body": "Understand important robotic technologies in each laboratory."
     },
     {
       "index": "③",
-      "type": "L",
-      "body": "Be able to understand the corresponding cases in each law and explain them."
+      "type": "I-O",
+      "body": "Apply your basic skills to develop a new robotic system during the project."
     },
     {
       "index": "④",
-      "type": "L",
-      "body": "Be able to solve the exam questions for chief telecommunications engineer."
+      "type": "I-O",
+      "body": "Decide the theme of the project, and summarize the research proposal."
+    },
+    {
+      "index": "⑤",
+      "type": "I-O",
+      "body": "Understand safety management for conducting experiments and developing the project."
+    },
+    {
+      "index": "⑥",
+      "type": "A,I",
+      "body": "See your future course and decide the direction you should follow."
     }
   ],
   "evaluationWeights": [
     {
       "label": "総合評価割合",
       "values": [
-        "40",
-        "40",
-        "20",
         "0",
         "0",
+        "60",
         "0",
         "0",
+        "10",
+        "30",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -71,20 +84,20 @@
     {
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
-        "40",
-        "40",
-        "20",
         "0",
         "0",
+        "60",
         "0",
         "0",
+        "10",
+        "30",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -94,20 +107,20 @@
     {
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
-        "40",
-        "40",
-        "20",
         "0",
         "0",
+        "60",
         "0",
         "0",
+        "10",
+        "30",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -128,9 +141,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -138,7 +151,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -151,9 +164,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -174,9 +187,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -185,118 +198,62 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "Achieve 100% of target abilities.",
-    "standard": "Achieve at least 75% of target abilities."
+    "ideal": "(1) Understand technical issues in engineering fields, and identify a project theme independently. (2) Submit an appropriate research proposal with clear goals and action plans for the project theme. (3) Collect articles related to the project theme, and study them to understand the research background and objectives. (4) Understand safety management guidelines and engineering ethics for conducting experiments and research safely in the laboratory.",
+    "standard": "(1) Understand technical issues in engineering fields, and identify a project theme with professor assistance. (2) Submit a research proposal with clear goals and action plans for the project theme. (3) Collect articles related to the project theme. (4) Understand safety management guidelines and engineering ethics for conducting experiments and research safely in the laboratory."
   },
   "clipProcess": "",
   "lessons": [
     {
       "index": "1",
-      "content": "Guidance of lecture\nIntroduction to telecommunications business law",
-      "operation": "Lecture and Discussions",
-      "assignments": "(Self-check) Submission and\ngrading",
-      "minutes": "Self-c\nheck:1\n00"
+      "content": "Course introduction",
+      "operation": "Lecture and Q&A",
+      "assignments": "Preview of research topics in each laboratory",
+      "minutes": "100"
     },
     {
       "index": "2",
-      "content": "Telecommunications Business Act\nChapter 1, Article 1-3\nChapter 1, Article 4-5\nChapter 2, Section 1, Article 6-8\nChapter 2, Sections 2, Article 9-18\nexercise",
-      "operation": "Lecture and Discussions",
-      "assignments": "(Preview) Next contents\n\n(Self-check) Submission and\ngrading",
-      "minutes": "Previe\nw:100\n\nSelf-c\nheck:2\n0"
+      "content": "Learning of safety management",
+      "operation": "Lecture and Q&A",
+      "assignments": "Investigation of how to predict accidents in the laboratory and propose safety and preventive measures",
+      "minutes": "100"
     },
     {
       "index": "3",
-      "content": "Telecommunications Business Act\nChapter 2, Sections 3, Article 19\nChapter 2, Sections 3, Article 20-21\nChapter 2, Sections 3, Article 24-28",
-      "operation": "Lecture and Discussions",
-      "assignments": "(Preview) Next contents\n\n(Self-check) Submission and\ngrading",
-      "minutes": "Previe\nw:100\n\nSelf-c\nheck:2\n0"
+      "content": "Seminar on important robotic technology in each laboratory",
+      "operation": "Lecture and exercises",
+      "assignments": "Report on learning content Preparation of proposal",
+      "minutes": "100"
     },
     {
       "index": "4",
-      "content": "Telecommunications Business Act\nChapter 2, Sections 3, Article 29-33\nChapter 2, Sections 3, Article 34-40\n1st Quiz\n1st Paper",
-      "operation": "Lecture and Discussions\n\nQuiz",
-      "assignments": "(Preview) Next contents\n\n(Self-check) Submission and\ngrading",
-      "minutes": "Previe\nw:100\n\nSelf-c\nheck:2\n0"
+      "content": "Seminar on important robotic technology in each laboratory",
+      "operation": "Lecture and exercises",
+      "assignments": "Report on learning content Preparation of proposal",
+      "minutes": "100"
     },
     {
       "index": "5",
-      "content": "Telecommunications Business Act\nChapter 2, Sections 3, Article 41-44\nRegulations of telecommunications facilities\nfor telecommunication business\nArticle 1-2\nArticle 3-8",
-      "operation": "Lecture and Discussions",
-      "assignments": "(Preview) Next contents\n\n(Self-check) Submission and\ngrading",
-      "minutes": "Previe\nw:100\n\nSelf-c\nheck:2\n0"
+      "content": "Carrier design",
+      "operation": "Lecture and Q&A",
+      "assignments": "Report on learning content Preparation of proposal",
+      "minutes": "100"
     },
     {
       "index": "6",
-      "content": "Regulations of telecommunications facilities\nfor telecommunication business\nArticle 8-24\nArticle 26-56\n\n2nd quiz",
-      "operation": "Lecture and Discussions\n\n1st paper submission\nQuiz",
-      "assignments": "(Preview) Next contents\n\n(Self-check) Submission and\ngrading",
-      "minutes": "Previe\nw:100\n\nSelf-c\nheck:2\n0"
+      "content": "Seminar on important robotic technology in each laboratory",
+      "operation": "Lecture and exercises Self-check",
+      "assignments": "Report on learning content Preparation of proposal",
+      "minutes": "100"
     },
     {
       "index": "7",
-      "content": "T Telecommunications Business Act\nChapter 2, Section 4, Article 52-53\nChapter 2, Section 4, Article 71-73",
-      "operation": "Lecture and Discussions",
-      "assignments": "(Preview) Next contents\n\n(Self-check) Submission and\ngrading",
-      "minutes": "Previe\nw:100\n\nSelf-c\nheck:2\n0"
-    },
-    {
-      "index": "8",
-      "content": "Regulations of installation technician\nRegulations of terminal facilities\nTelecommunications Business Act\nChapter 2, Section 5, Article 74-105\nChapter 2, Section 6, Article 106-116\nChapter 3, Article 117-162\n\n3rd quiz",
-      "operation": "Lecture and Discussions\n\nQuiz",
-      "assignments": "(Preview) Next contents\n\n(Self-check) Submission and\ngrading",
-      "minutes": "Previe\nw:100\n\nSelf-c\nheck:2\n0"
-    },
-    {
-      "index": "9",
-      "content": "Distribution of lecture materials\nRadio Act\nArticle 1-4",
-      "operation": "Lecture and Discussions",
-      "assignments": "(Preview) Next contents\n\n(Self-check) Submission and\ngrading",
-      "minutes": "Previe\nw:100\n\nSelf-c\nheck:2\n0"
-    },
-    {
-      "index": "10",
-      "content": "Distribution of lecture materials\nRadio Act\nArticle 4-27",
-      "operation": "Lecture and Discussions",
-      "assignments": "(Preview) Next contents\n\n(Self-check) Submission and\ngrading",
-      "minutes": "Previe\nw:100\n\nSelf-c\nheck:2\n0"
-    },
-    {
-      "index": "11",
-      "content": "Radio Act and Regulation for Enforcement of\nRadio Act\nArticle 28-38\n4th quiz",
-      "operation": "Lecture and Discussions\n\nQuiz",
-      "assignments": "(Preview) Next contents\n\n(Self-check) Submission and\ngrading",
-      "minutes": "Previe\nw:100\n\nSelf-c\nheck:2\n0"
-    },
-    {
-      "index": "12",
-      "content": "Radio Act and Regulation for Enforcement of\nRadio Act\nArticle 39-40\nArticle 52-76\nOrder of Wire Telecommunications Facilities,\nArticles 1-12\nRegulation for Enforcement of Wired\nTelecommunications Facilities,\nArticles 1-10\nWire telecommunications Act\nArticle 1-2\nArticle 3-9",
-      "operation": "Discussions",
-      "assignments": "(Preview) Next contents\n\n(Self-check) Submission and\ngrading",
-      "minutes": "Previe\nw:100\n\nSelf-c\nheck:2\n0"
-    },
-    {
-      "index": "13",
-      "content": "Constitution of the International\nTelecommunication Union\nRegulations of chief telecommunications engineer\nAct on Electronic Signatures and Certification\nBusiness\nArticle 1-10\nAct on Prohibition of Unauthorized Computer\nAccess\nArticle 1-9",
-      "operation": "Lecture and Discussions",
-      "assignments": "(Preview) Next contents\n\n(Self-check) Submission and\ngrading",
-      "minutes": "Previe\nw:100\n\nSelf-c\nheck:2\n0"
-    },
-    {
-      "index": "14",
-      "content": "End-term exam",
-      "operation": "Examination",
-      "assignments": "(Preview) Next contents\n\n(Self-check) Submission and\ngrading",
-      "minutes": "Previe\nw:100\n\nSelf-c\nheck:2\n0"
-    },
-    {
-      "index": "15",
-      "content": "Self-checking and discussions\nRecent trends of telecommunications",
-      "operation": "Lecture and Discussions",
-      "assignments": "(Self-check) Submission and\ngrading",
-      "minutes": "Self-c\nheck:1\n00"
+      "content": "Summary Submit the proposal Check the portfolio and reports",
+      "operation": "Lecture Self-evaluation",
+      "assignments": "Confirm objectives and action plan for the project",
+      "minutes": "100"
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　E646-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Electrical and Electronic Engineering(〜2024)\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                電気通信法令\n                Telecommunications Law\n\n              2\n              E646-01\n\n                2026年度\n\n                3rd year 2nd semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  HASEGAWA Teruyuki\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Telecommunications Business Act\n2.National Exam for Chief Telecommunications Engineer\n3.Telecommunications Technology, Information and Communications\n4.Electronic Signatures, Information Security\n5.Regional Collaboration\n\n              This course introduces the laws and regulations required for obtaining qualifications to students taking this course.  Students acquire the knowledge of telecommunications law for the operation of the telecommunications business and for the national exam of the Chief Telecommunications Engineer.\n\n              授業の概要および学習上の助言\n\n              The outline of this course is shown in below.\n\n1. Introduction: Trends of telecommunication policy, Amendment of Telecommunications Business Act, Summary of telecommunications system etc.\n2. Telecommunications business Act,Enforcement order and regulations: Purpose, Definition, Registration, Notifications, Facilities for telecommunications business, Terminal Facilities, Chief Telecommunications Engineer, Rules of Installation, Technician, Land-use.\n3. Wire telecommunications Act, Enforcement order and regulations: Purpose, Definition, Technical Standards.\n4. Radio Act and Enforcement regulations: Purpose, Definition, Radio Station license, Radio facilities, Radio operators, Operation, Supervision.\n5. Treaty of International Telecommunications, the related law and regulations: The Treaty of International Telecommunication Union, Act on Prohibition of Unauthorized Computer Access, Summary of Electronic Signatures and Certification, Business and the related laws.\n6. Telecommunications trends: Summary\n\nTo pass, students must earn at least 60 points out of 100.\n\n              教科書および参考書・リザーブドブック\n\n              Textbooks：\nReference books：\nReserved books：\n\n              履修に必要な予備知識や技能\n\n              Students should collect the recent information about telecommunications technology, internet services and mobile phones. Through these interesting and activity, they are able to obtain the knowledge regarding to the telecommunications law and Regulations.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                L\n                Be able to understand the systems and purposes of major telecommunications laws and explain them.\n\n                ②\n                L\n                Be able to understand the content and terms of each law and explain them.\n\n                ③\n                L\n                Be able to understand the corresponding cases in each law and explain them.\n\n                ④\n                L\n                Be able to solve the exam questions for chief telecommunications engineer.\n\n                ⑤\n\n                ⑥\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                40\n\n                40\n\n                20\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                40\n\n                40\n\n                20\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              総合力指標\n",
-  "courseId": "2026:fall:E646-01:0:287",
+  "rawText": "金沢工業大学 学習支援計画書 E903-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Robotics\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Project Courses\n専門ゼミ(ロボティクス学科)\nPreparatory Seminar for Design Project III  1 E903-01  2024年度\n 3rd year 2nd semester  修学規程第4条を参照\n    担当教員名\n TAKEI Yoshinori, KAWAI Hiroyuki, ITO Kouhei, DOI Takahiro, MURAO Toshiyuki, FUJIKI Nobuaki, DEMURA Kosei, SUZUKI Ryoichi\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Robot intelligence 2.Robot mechanics 3.Intelligent control 4.Mechatronics 5.Regional collaboration  (1)Predict robotics issues that could be encountered in Design Project III. (2)Learn how to use your acquired knowledge and techniques to address these issues. (3)Learn how to comprehensively apply your ability as an engineer. (4)Learn the importance of collaboration with regional society (especially the local community).\n    授業の概要および学習上の助言   Issues to be addressed in Design Project III are presented. Students will understand the knowledge and skills required to carry out their senior project and identify where supplemental knowledge is needed. During the course of this seminar, students will clarify the purpose and action plan for their project, and finally make a project proposal. Note: Details will be provided during the first class.\n    教科書および参考書・リザーブドブック   Not specified.\n    履修に必要な予備知識や技能   If you do not earn credit for this course, you cannot take Design Project III.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① I,O Clarify the purpose and action plan of your design project.   ② I-O Understand important robotic technologies in each laboratory.   ③ I-O Apply your basic skills to develop a new robotic system during the project.   ④ I-O Decide the theme of the project, and summarize the research proposal.   ⑤ I-O Understand safety management for conducting experiments and developing the project.   ⑥ A,I See your future course and decide the direction you should follow.\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 0 0 60 0 0 10 30 100     指標と評価割合 総合評価割合 0 0 60 0 0 10 30 100   総合力指標 知識を取り込む力 0 0 60 0 0 10 30 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ①      ②     ③     ④     ⑤     ⑥     クイズ\n小テスト ①      ②     ③     ④     ⑤     ⑥     レポート ① レ Students will prepare several reports concerning a survey of the research background, safety management, exercise materials in each laboratory, and their research proposal. The research proposal should be clear and contain a project theme description, abstract, objectives, schedule, and development plan.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥ レ   成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ① レ Planning and outcome of activities will be assessed by the achievement evaluation portfolio.   ②     ③     ④     ⑤     ⑥ レ   その他 ① レ Learning attitude will be also assessed in each class of the seminar, and reports of the activity supporting system of Design Project III.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥ レ\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     (1) Understand technical issues in engineering fields, and identify a project theme independently. (2) Submit an appropriate research proposal with clear goals and action plans for the project theme. (3) Collect articles related to the project theme, and study them to understand the research background and objectives. (4) Understand safety management guidelines and engineering ethics for conducting experiments and research safely in the laboratory. (1) Understand technical issues in engineering fields, and identify a project theme with professor assistance. (2) Submit a research proposal with clear goals and action plans for the project theme. (3) Collect articles related to the project theme. (4) Understand safety management guidelines and engineering ethics for",
+  "courseId": "2024:fall:E233-01:0:287",
   "language": "en"
 }

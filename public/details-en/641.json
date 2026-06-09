@@ -1,50 +1,44 @@
 {
   "sourceIndex": 641,
   "sourceUrl": "/opsyllabus/kitos0110/641/1",
-  "importedAt": "2026-06-08T09:34:06.221Z",
-  "title": "ロボット材料力学",
-  "subtitle": "Mechanics of Materials",
-  "courseType": "Major ProgramMajor Courses",
+  "importedAt": "2026-06-09T01:29:25.061Z",
+  "title": "感情・人格心理学",
+  "subtitle": "Psychology of Emotion and Personality",
+  "courseType": "Major Program\nMajor Courses",
   "credits": "2",
-  "term": "2026年度\n\n                2nd year 1st semester",
+  "term": "2024年度\n 3rd year 2nd semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "DOI Takahiro"
+    "WATANABE Nobuyuki",
+    "ISHIKAWA Kensuke"
   ],
   "keywords": [
-    "Stress, strain",
-    "Shearing force, bending moment",
-    "Beam deflection"
+    "Emotion 2.Cognition 3.Personality"
   ],
-  "educationalGoal": "Understand how force application to and deformation of a material is important as a basis of the structural design of machines and robots.\nLearn step-by-step stress and strain and the deformation of stressed objects, truss structures, and beams by lecture and exercises.\nRepresent the inner stress caused by external forces as a mathematical model useful for design.",
-  "advice": "1. Students will use mathematical tools (matrix, vector, and differential equations) and physical tools (units, force, and moment). In this course, these tools are reviewed and supplemented. Students are expected to review mathematics and physics.\n2. Students are expected to work hard on exercises during the class and review them afterward. Students are expected to complete all exercises.\n3. Questions should not be left unsolved. Review of basic mathematics and physics is recommended.",
-  "books": "Basis of Understanding Strength of Materials Second edition, Kyoritsu Syuppan (in Japanese)",
-  "requiredKnowledge": "Scientific calculator\nLinear algebra (vector, matrix, and differential equations)",
+  "educationalGoal": "Students will understand methodology and theories related to the psychology of emotion and personality. Students will: (1) learn theories of emotion and interaction between emotion and cognition. (2) learn the function of emotion from the perspective of evolutionary theory. (3) learn how modern personality research has developed. (4) understand the outline of modern personality psychology research.",
+  "advice": "We will cover the following topics: Classes1-7, 15: Psychology of emotion 1. Definition and kinds of emotion 2. Interaction between emotion and cognition 3. Function of emotion from the perspective of evolutionary theory 4. Methodology of the psychology of emotion Classes 8-15: Psychology of personality 1. The concept of personality and its formation process 2. Major personality theories 3. Basic methods of personality psychology",
+  "books": "Textbooks:None Reference books:None Reserved books:None",
+  "requiredKnowledge": "Completion of the “Elements of Psychology” and “Method of Psychological Research” course is required.",
   "activityGoals": [
     {
       "index": "①",
-      "type": "M",
-      "body": "Understand stress and strain"
+      "type": "J,K",
+      "body": "Ability to understand the definition of and kinds of emotion."
     },
     {
       "index": "②",
-      "type": "M",
-      "body": "Draw a stress-strain graph and explain its characteristics and how it reflects deformation"
+      "type": "J,K",
+      "body": "Ability to understand the interaction between emotion and cognition."
     },
     {
       "index": "③",
-      "type": "M",
-      "body": "Draw a shear force diagram (SFD) and bending moment diagram (BMD) to improve your understanding"
+      "type": "J,K",
+      "body": "Ability to explain typology and characteristic theory."
     },
     {
       "index": "④",
-      "type": "M",
-      "body": "Use load parameters to derive a differential equation of beam deflection"
-    },
-    {
-      "index": "⑤",
-      "type": "M",
-      "body": "Solve a differential equation for beam deflection"
+      "type": "J,K",
+      "body": "Ability to explain the reason for intelligence tests."
     }
   ],
   "evaluationWeights": [
@@ -52,19 +46,19 @@
       "label": "総合評価割合",
       "values": [
         "40",
-        "50",
-        "10",
+        "20",
+        "20",
         "0",
         "0",
         "0",
-        "0",
+        "20",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -75,19 +69,19 @@
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
         "40",
-        "50",
-        "10",
+        "20",
+        "20",
         "0",
         "0",
         "0",
-        "0",
+        "20",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -98,19 +92,19 @@
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
         "40",
-        "50",
-        "10",
+        "20",
+        "20",
         "0",
         "0",
         "0",
-        "0",
+        "20",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -131,9 +125,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -141,7 +135,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -154,9 +148,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -177,9 +171,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -188,118 +182,118 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "(1) Explain stress and strain from the viewpoint of elastic mechanics.\n(2) Design a safe structure using allowable stress and safety factors.\n(3) Derive and solve differential equations of beam deflection.\n(4) Design robotic structures while applying the mechanics of materials.",
-    "standard": "(1) Calculate stress and strain.\n(2) Draw SFDs and BMDs.\n(3) Calculate thermal stress.\n(4) Calculate deflection of beams using simple formulas"
+    "ideal": "Understand and have knowledge of the whole picture of the psychology of emotion and personality. Apply this knowledge to understanding human behavior.",
+    "standard": "Understand and have knowledge of the whole picture of the psychology of emotion and personality."
   },
   "clipProcess": "",
   "lessons": [
     {
       "index": "1",
-      "content": "Course introduction\nUnits\nStress and strain, Hook's law",
-      "operation": "Lecture and Q&A\nMathematics test\nSelf-check",
-      "assignments": "Review mathematics\nStudy textbook sections 1.2\nand 1.3",
-      "minutes": "150"
+      "content": "Course introduction Definition and kinds of emotion",
+      "operation": "Lecture",
+      "assignments": "Review and Preview: Consider episodes that explain the difference between emotion and mood",
+      "minutes": "45"
     },
     {
       "index": "2",
-      "content": "Mechanics of steel materials\nSafety factor",
-      "operation": "Lecture and Q&A\nSelf-check",
-      "assignments": "Study textbook sections 1.4\nand 1.5",
-      "minutes": "120"
+      "content": "Theories of emotion",
+      "operation": "Lecture and practice",
+      "assignments": "Review: Review notes from today's lecture Preview: Consider the task presented at the end of the lecture",
+      "minutes": "60 60"
     },
     {
       "index": "3",
-      "content": "Truss structure",
-      "operation": "Lecture and Q&A\nSelf-check",
-      "assignments": "Study textbook sections 2.1\nand 2.2",
-      "minutes": "120"
+      "content": "Biological basis of emotion",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Review: Review notes from today's lecture Preview: Consider the task presented at the end of the lecture",
+      "minutes": "60 60"
     },
     {
       "index": "4",
-      "content": "Statically indeterminate\nInitial stress\nThermal stress\nStress concentration",
-      "operation": "Lecture and Q&A\nSelf-check",
-      "assignments": "Study textbook sections\n2.1-2.5",
-      "minutes": "120"
+      "content": "Function of emotion (1)",
+      "operation": "Lecture and practice",
+      "assignments": "Review: Review notes from today's lecture Preview: Consider the task presented at the end of the lecture",
+      "minutes": "60 60"
     },
     {
       "index": "5",
-      "content": "Review of integral\nTensile compressive stress\nNon-uniform object cross section",
-      "operation": "Lecture and Q&A\nSelf-check",
-      "assignments": "Study textbook sections\n2.1-2.5",
-      "minutes": "120"
+      "content": "Function of emotion (2) Emotion and cognition (1)",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Review: Review notes from today's lecture Preview: Consider the task presented at the end of the lecture",
+      "minutes": "60 60"
     },
     {
       "index": "6",
-      "content": "Stress and deformation caused by gravity\nCentrifugal force",
-      "operation": "Lecture and Q&A\nSelf-check",
-      "assignments": "Study textbook sections 3.1\nand 2.1",
+      "content": "Emotion and cognition (2)",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Prepare for the midterm exam",
       "minutes": "120"
     },
     {
       "index": "7",
-      "content": "Beams\nShearing force and bending moment of beams\nSFDs and BMDs",
-      "operation": "Lecture and Q&A\nSelf-check",
-      "assignments": "Study textbook sections 3.1\nand 3.2",
+      "content": "Conclusion of psychology of emotion Midterms exam (psychology of emotion)",
+      "operation": "Lecture Exam",
+      "assignments": "Review notes of all lecture",
       "minutes": "120"
     },
     {
       "index": "8",
-      "content": "Review and quiz",
-      "operation": "Review of classes 1-7\nSelf-check",
-      "assignments": "Review",
-      "minutes": "240"
+      "content": "Comments on the midterm exam on the psychology of emotion Introduction to psychology of personality",
+      "operation": "Lecture",
+      "assignments": "Review: Review notes from today's lecture",
+      "minutes": "60"
     },
     {
       "index": "9",
-      "content": "SFDs and BMDs\nVariation of load",
-      "operation": "Lecture and Q&A\nSelf-check",
-      "assignments": "Study textbook section 3.2",
-      "minutes": "120"
+      "content": "History of personality research",
+      "operation": "Lecture",
+      "assignments": "Review: Review notes from today's lecture",
+      "minutes": "60"
     },
     {
       "index": "10",
-      "content": "Quiz review",
-      "operation": "Lecture and Q&A\nSelf-check",
-      "assignments": "Review",
-      "minutes": "240"
+      "content": "Representative theories in personality psychology (1)",
+      "operation": "Lecture and practice",
+      "assignments": "Review: Review notes from today's lecture",
+      "minutes": "60"
     },
     {
       "index": "11",
-      "content": "SFDs and BMDs\nVariation of load",
-      "operation": "Lecture and Q&A\nSelf-check",
-      "assignments": "Study textbook section 3.2",
-      "minutes": "240"
+      "content": "Representative theories in personality psychology (2)",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Review: Review notes from today's lecture",
+      "minutes": "60"
     },
     {
       "index": "12",
-      "content": "Bending stress\nNeutral surface, neutral axis\nBending stress and bending moment\nSection modulus",
-      "operation": "Lecture and Q&A\nSelf-check",
-      "assignments": "Study textbook section 3.3",
-      "minutes": "240"
+      "content": "Intelligence (1)",
+      "operation": "Lecture Quiz",
+      "assignments": "Review: Review notes from today's lecture",
+      "minutes": "60"
     },
     {
       "index": "13",
-      "content": "Deflection of beam\nAngle of deflection\nSolution by differential equation\nExercises on beam deflection\nTorsion",
-      "operation": "Lecture and Q&A\nSelf-check",
-      "assignments": "Study textbook sections 3.3,3.\n4 and 4.1",
-      "minutes": "240"
+      "content": "Intelligence (2) Other Topics in Personality Psychology",
+      "operation": "Lecture",
+      "assignments": "Prepare for the final exam",
+      "minutes": "120"
     },
     {
       "index": "14",
-      "content": "Review\nExamination",
-      "operation": "Review\nSelf-check",
-      "assignments": "Review beam deflection",
-      "minutes": "240"
+      "content": "Conclusion of the psychology of personality Final exam (psychology of personality)",
+      "operation": "Lecture Exam",
+      "assignments": "Review notes from all lectures",
+      "minutes": "120"
     },
     {
       "index": "15",
-      "content": "Exam description\nReview",
-      "operation": "Comments\nSelf-check",
-      "assignments": "Review",
-      "minutes": "120"
+      "content": "Comments on the final exam on the psychology of personality Review the psychology of emotion and personality",
+      "operation": "Review Self-check",
+      "assignments": "Review notes from all lectures and both exams",
+      "minutes": "240"
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　C210-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Robotics\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                ロボット材料力学\n                Mechanics of Materials\n\n              2\n              C210-01\n\n                2026年度\n\n                2nd year 1st semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  DOI Takahiro\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Stress, strain\n2.Shearing force, bending moment\n3.Beam deflection\n\n              Understand how force application to and deformation of a material is important as a basis of the structural design of machines and robots.\nLearn step-by-step stress and strain and the deformation of stressed objects, truss structures, and beams by lecture and exercises.\nRepresent the inner stress caused by external forces as a mathematical model useful for design.\n\n              授業の概要および学習上の助言\n\n              1. Students will use mathematical tools (matrix, vector, and differential equations) and physical tools (units, force, and moment). In this course, these tools are reviewed and supplemented. Students are expected to review mathematics and physics.\n2. Students are expected to work hard on exercises during the class and review them afterward. Students are expected to complete all exercises.\n3. Questions should not be left unsolved. Review of basic mathematics and physics is recommended.\n\n              教科書および参考書・リザーブドブック\n\n              Basis of Understanding Strength of Materials Second edition, Kyoritsu Syuppan (in Japanese)\n\n              履修に必要な予備知識や技能\n\n              Scientific calculator\nLinear algebra (vector, matrix, and differential equations)\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                M\n                Understand stress and strain\n\n                ②\n                M\n                Draw a stress-strain graph and explain its characteristics and how it reflects deformation\n\n                ③\n                M\n                Draw a shear force diagram (SFD) and bending moment diagram (BMD) to improve your understanding\n\n                ④\n                M\n                Use load parameters to derive a differential equation of beam deflection\n\n                ⑤\n                M\n                Solve a differential equation for beam deflection\n\n                ⑥\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                40\n\n                50\n\n                10\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                40\n\n                50\n\n                10\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                40\n\n                50\n\n                10\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  コラボレーションとリーダーシップ\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  発表・表現・伝達する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0",
-  "courseId": "2026:spring:C210-01:0:641",
+  "rawText": "金沢工業大学 学習支援計画書 F332-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Psychological Science(2018〜)\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n感情・人格心理学\nPsychology of Emotion and Personality  2 F332-01  2024年度\n 3rd year 2nd semester  修学規程第4条を参照\n    担当教員名\n WATANABE Nobuyuki, ISHIKAWA Kensuke\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Emotion 2.Cognition 3.Personality  Students will understand methodology and theories related to the psychology of emotion and personality. Students will: (1) learn theories of emotion and interaction between emotion and cognition. (2) learn the function of emotion from the perspective of evolutionary theory. (3) learn how modern personality research has developed. (4) understand the outline of modern personality psychology research.\n    授業の概要および学習上の助言   We will cover the following topics: Classes1-7, 15: Psychology of emotion 1. Definition and kinds of emotion 2. Interaction between emotion and cognition 3. Function of emotion from the perspective of evolutionary theory 4. Methodology of the psychology of emotion Classes 8-15: Psychology of personality 1. The concept of personality and its formation process 2. Major personality theories 3. Basic methods of personality psychology\n    教科書および参考書・リザーブドブック   Textbooks:None Reference books:None Reserved books:None\n    履修に必要な予備知識や技能   Completion of the “Elements of Psychology” and “Method of Psychological Research” course is required.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① J,K Ability to understand the definition of and kinds of emotion.   ② J,K Ability to understand the interaction between emotion and cognition.   ③ J,K Ability to explain typology and characteristic theory.   ④ J,K Ability to explain the reason for intelligence tests.   ⑤     ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 40 20 20 0 0 0 20 100     指標と評価割合 総合評価割合 40 20 20 0 0 0 20 100   総合力指標 知識を取り込む力 40 20 20 0 0 0 20 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ There are two exams, a midterm and a final exam, to evaluate the degree of acquisition of the curriculum. The midterm exam will focus on the psychology of emotion. The final exam with focus on the psychology of personality.   ② レ   ③ レ   ④ レ   ⑤     ⑥     クイズ\n小テスト ①   There is a quiz related to the psychology of personality.   ②     ③ レ   ④ レ   ⑤     ⑥     レポート ① レ There is a report related to the psychology of emotion. We will explain more about the report and provide the due date during the course.   ② レ   ③     ④     ⑤     ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ① レ Students will be evaluated on their attitudes towards class and their record of attendance in the course.   ② レ   ③ レ   ④ レ   ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     Understand and have knowledge of the whole picture of the psychology of emotion and personality. Apply this knowledge to understanding human behavior. Understand and have knowledge of the whole picture of the psychology of emotion and personality.\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習課題に要する標準的な時間を記載してあります。日々の自学自習時間全体としては、各授業に応じた時間(例えば2単位科目の場合、予習2時間・復習2時間/週)を取るよう努めてください。詳しくは教員の指導に従って下さい。     授業明細   回数 学習内容 授業の運営方法 学習課題(予習・復習) 時間:分※     1  Course introduction Definition and kinds of emotion Lecture Review and Preview: Consider episodes that explain the difference between emotion and mood  45   2  Theories of emotion Lecture and practice Review: Review notes from today's lecture Preview: Consider the task presented at the end of the lec",
+  "courseId": "2024:fall:F329-01:0:641",
   "language": "en"
 }

@@ -1,62 +1,63 @@
 {
   "sourceIndex": 158,
   "sourceUrl": "/opsyllabus/kitos0110/158/1",
-  "importedAt": "2026-06-08T09:33:56.411Z",
-  "title": "プロジェクトデザインⅢ（中田政之研究室）",
-  "subtitle": "Design Project III(Nakada Masayuki)",
-  "courseType": "Major ProgramMajor Project Courses",
-  "credits": "8",
-  "term": "2026年度\n\n                All year",
+  "importedAt": "2026-06-09T01:29:20.462Z",
+  "title": "医用生体工学",
+  "subtitle": "Bioengineering",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "2",
+  "term": "2024年度\n 3rd year 1st semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "NAKADA Masayuki"
+    "TAKANO Noriyuki"
   ],
   "keywords": [
-    "Engineering design",
-    "Design and manufacturing",
-    "Materials and processing",
-    "Energy and mechanics",
-    "Regional collaboration"
+    "Bioinformatics 2.Artificial organ 3.Surgical instruments 4.Regenerative medicine 5.Drug deliverly system"
   ],
-  "educationalGoal": "Students will (1) acquire the ability to identify and solve problems to research, develop, design, and manufacture socially useful and high-quality products using the basic knowledge learned in the Department of Mechanical Engineering, (2) learn what technologies or new mechanisms are needed for that purpose, (3) learn about the importance of collaboration with society (particularly local communities).",
-  "advice": "This is the final comprehensive course in the Department of Mechanical Engineering. To realize the educational objectives of the Department of Mechanical Engineering, this course focuses on the following goals: students will acquire the ability to model phenomena accurately and analyze the models, students will acquire the ability and the engineering sense to evaluate solutions using the obtained results.\nIn practice, students should reconfirm their project theme, which was determined during in Preparatory Seminar, with the supervisors of the individual laboratories. (The theme should be revised as necessary.)\nStudents are expected to pursue the identification and solution of problems in accordance with the engineering process.\nIn this laboratory, students should aim to develop material evaluation and design technology for designing safe and secure mechanical structures based on experimental elucidation of the destruction mechanisms of polymer composite materials, which are widely used in aerospace equipment, ships, vehicles, construction materials, sports equipment, etc.",
-  "books": "Textbooks: Unspecified\nReference books: Unspecified\nReserved books: Unspecified",
-  "requiredKnowledge": "It is desirable to obtain a license for machining at the KIT Dream works (Yumekobo).\nIt is desirable to obtain knowledge and attend courses associated with your projects.\nStudents are expected to have appropriate skills to ensure the safe and correct operation of molding/processing machines, material testing machines, evaluation equipment, and so on.",
+  "educationalGoal": "Students will: (1) Learn the structure of organisms and biological functions. (2) Learn about medical equipment. (3) Learn about the application of engineering to medicine",
+  "advice": "This is a basic course in bioengineering. We will cover the following topics: 1. Role and position of bioengineering in society 2. Importance of bioengineering 3. Basic anatomy and physiology 4. Regenerative medicine 5. Biometrics 6. Surgical instruments 7. Therapeutic equipment 8. Artificial organs 9. Drug delivery system",
+  "books": "Text book :(in Japanese)",
+  "requiredKnowledge": "Students are expected to be have completed Basic Biology",
   "activityGoals": [
     {
       "index": "①",
-      "type": "A,B,D,G,H,J-P",
-      "body": "Be able to advance your project in accordance with the engineering design process."
+      "type": "D,J,M,N",
+      "body": "Be able to understand the importance of bioengineering."
     },
     {
       "index": "②",
-      "type": "A,B,D,G,H,J-P",
-      "body": "Be able to compile your results correctly into an article and discuss the content through presentations."
+      "type": "D,J,M,N",
+      "body": "Be able to explain the problems in applying the mechanical engineering to medical care."
     },
     {
       "index": "③",
-      "type": "A,B,D,G,H,J-P",
-      "body": "Be able to act independently to solve the issues presented separately."
+      "type": "D,J,M,N",
+      "body": "Be able to explain hwo to measure vital signs."
+    },
+    {
+      "index": "④",
+      "type": "D,J,M,N",
+      "body": "Be able to make a discussion as to the advance medical technology"
     }
   ],
   "evaluationWeights": [
     {
       "label": "総合評価割合",
       "values": [
-        "0",
+        "30",
         "0",
         "50",
-        "35",
         "0",
-        "5",
-        "10",
+        "0",
+        "0",
+        "20",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -66,20 +67,20 @@
     {
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
-        "0",
+        "30",
         "0",
         "50",
-        "35",
         "0",
-        "5",
-        "10",
+        "0",
+        "0",
+        "20",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -89,20 +90,20 @@
     {
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
-        "0",
+        "30",
         "0",
         "50",
-        "35",
         "0",
-        "5",
-        "10",
+        "0",
+        "0",
+        "20",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -123,9 +124,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -133,7 +134,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -146,9 +147,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -169,9 +170,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -180,48 +181,118 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "(1) Understand the purpose of your project theme and the advancement process accurately, and achieve the established annual goal. In addition, the process can be reported in the Design Project Activity Support System.\n(2) Compile intermediate results for the project into the interim report, and present and discuss its content. Complete the final report, present it to the Design Project III Public Presentation Review Board, and discuss its content.\n(3) If necessary, design and manufacture your own experimental devices, and also evaluate the performance of the product.",
-    "standard": "(1) Understand the purpose of your project theme and the advancement process, and achieve the established annual goal. In addition, the process can be reported in the Design Project Activity Support System.\n(2) Compile intermediate results for the project into the interim report, and present its content. Complete the final report and present it to the Design Project III Public Presentation Review Board.\n(3) Design and manufacture your own experimental devices if necessary."
+    "ideal": "(1) Propose new machines to which bioengineering is applied (2) Propose new machines useful for medical care. (3) Propose new measurement methods of vital information. (4) Propose fuyther improvemnt of advanced medical technology",
+    "standard": "(1) Explain a machine to which bioengineering is applied (2) Explain the invasiveness of a medical machine. (3) Explain the principle of a device to measure vital information. (4) Explain an advanced medical technology"
   },
   "clipProcess": "",
   "lessons": [
     {
       "index": "1",
-      "content": "Course introduction",
-      "operation": "",
+      "content": "Course introduction Role and positioning of bioengineering Importance of bioengineering",
+      "operation": "Lecture, Q&A Self-check",
       "assignments": "",
-      "minutes": ""
+      "minutes": "60"
     },
     {
-      "index": "Apr.",
-      "content": "Reconfirm the project proposal that was been\n submitted during in Preparatory Seminar\n(revise it as necessary)",
-      "operation": "",
+      "index": "2",
+      "content": "Basics of biology : cell and DNA",
+      "operation": "lecture, Q&A Self-check",
       "assignments": "",
-      "minutes": ""
+      "minutes": "90"
     },
     {
-      "index": "Aug.",
-      "content": "Submit the interim report and present it at\nthe interim report meeting",
-      "operation": "",
+      "index": "3",
+      "content": "Basics of anatomical physiology",
+      "operation": "lecture, Q&A Self-check",
       "assignments": "",
-      "minutes": ""
+      "minutes": "90"
     },
     {
-      "index": "Jan.",
-      "content": "Submit the pre-print",
-      "operation": "",
+      "index": "4",
+      "content": "Bioinformatics Numerical provision type equipment",
+      "operation": "lecture, Q&A Self-check",
       "assignments": "",
-      "minutes": ""
+      "minutes": "90"
     },
     {
-      "index": "Feb.",
-      "content": "Submit the final report and present it to the\n Design Project III Public Presentation Review\n Board",
-      "operation": "",
+      "index": "5",
+      "content": "Bioinformatics Image-providing equipment",
+      "operation": "lecture, Q&A Self-check",
       "assignments": "",
-      "minutes": ""
+      "minutes": "75"
+    },
+    {
+      "index": "6",
+      "content": "Drug delivery system",
+      "operation": "lecture, Q&A Self-check",
+      "assignments": "",
+      "minutes": "90"
+    },
+    {
+      "index": "7",
+      "content": "Surgical instruments Cardiac catheter",
+      "operation": "lecture, Q&A Self-check",
+      "assignments": "",
+      "minutes": "90"
+    },
+    {
+      "index": "8",
+      "content": "Surgical instruments Laparoscopic endoscope",
+      "operation": "lecture, Q&A Self-check",
+      "assignments": "",
+      "minutes": "90"
+    },
+    {
+      "index": "9",
+      "content": "Surgical instruments Endourethroscopy",
+      "operation": "lecture, Q&A Self-check",
+      "assignments": "",
+      "minutes": "90"
+    },
+    {
+      "index": "10",
+      "content": "Surgical navigation system",
+      "operation": "lecture, Q&A Self-check",
+      "assignments": "",
+      "minutes": "120"
+    },
+    {
+      "index": "11",
+      "content": "Artificial organs(heart)",
+      "operation": "lecture, Q&A Self-check",
+      "assignments": "",
+      "minutes": "90"
+    },
+    {
+      "index": "12",
+      "content": "Artificial organs(joint)",
+      "operation": "lecture, Q&A Self-check",
+      "assignments": "",
+      "minutes": "90"
+    },
+    {
+      "index": "13",
+      "content": "Artificial organs(others)",
+      "operation": "lecture, Q&A Self-check",
+      "assignments": "",
+      "minutes": "90"
+    },
+    {
+      "index": "14",
+      "content": "Regenerative medicine",
+      "operation": "lecture, Q&A Self-check",
+      "assignments": "",
+      "minutes": "90"
+    },
+    {
+      "index": "15",
+      "content": "Exam and review",
+      "operation": "Exam and review",
+      "assignments": "Prepare for the exam",
+      "minutes": "180"
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　E921-08\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Mechanical Engineering(〜2024)\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Project Courses\n\n                プロジェクトデザインⅢ（中田政之研究室）\n                Design Project III(Nakada Masayuki)\n\n              8\n              E921-08\n\n                2026年度\n\n                All year\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  NAKADA Masayuki\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Engineering design\n2.Design and manufacturing\n3.Materials and processing\n4.Energy and mechanics\n5.Regional collaboration\n\n              Students will (1) acquire the ability to identify and solve problems to research, develop, design, and manufacture socially useful and high-quality products using the basic knowledge learned in the Department of Mechanical Engineering, (2) learn what technologies or new mechanisms are needed for that purpose, (3) learn about the importance of collaboration with society (particularly local communities).\n\n              授業の概要および学習上の助言\n\n              This is the final comprehensive course in the Department of Mechanical Engineering. To realize the educational objectives of the Department of Mechanical Engineering, this course focuses on the following goals: students will acquire the ability to model phenomena accurately and analyze the models, students will acquire the ability and the engineering sense to evaluate solutions using the obtained results.\nIn practice, students should reconfirm their project theme, which was determined during in Preparatory Seminar, with the supervisors of the individual laboratories. (The theme should be revised as necessary.)\nStudents are expected to pursue the identification and solution of problems in accordance with the engineering process.\nIn this laboratory, students should aim to develop material evaluation and design technology for designing safe and secure mechanical structures based on experimental elucidation of the destruction mechanisms of polymer composite materials, which are widely used in aerospace equipment, ships, vehicles, construction materials, sports equipment, etc.\n\n              教科書および参考書・リザーブドブック\n\n              Textbooks: Unspecified\nReference books: Unspecified\nReserved books: Unspecified\n\n              履修に必要な予備知識や技能\n\n              It is desirable to obtain a license for machining at the KIT Dream works (Yumekobo).\nIt is desirable to obtain knowledge and attend courses associated with your projects.\nStudents are expected to have appropriate skills to ensure the safe and correct operation of molding/processing machines, material testing machines, evaluation equipment, and so on.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                A,B,D,G,H,J-P\n                Be able to advance your project in accordance with the engineering design process.\n\n                ②\n                A,B,D,G,H,J-P\n                Be able to compile your results correctly into an article and discuss the content through presentations.\n\n                ③\n                A,B,D,G,H,J-P\n                Be able to act independently to solve the issues presented separately.\n\n                ④\n\n                ⑤\n\n                ⑥\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                0\n\n                0\n\n                50\n\n                35\n\n                0\n\n                5\n\n                10\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                0\n\n                0\n\n                50\n\n                35",
-  "courseId": "2026:full-year:E921-08:0:158",
+  "rawText": "金沢工業大学 学習支援計画書 E034-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Mechanical Engineering\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n医用生体工学\nBioengineering  2 E034-01  2024年度\n 3rd year 1st semester  修学規程第4条を参照\n    担当教員名\n TAKANO Noriyuki\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Bioinformatics 2.Artificial organ 3.Surgical instruments 4.Regenerative medicine 5.Drug deliverly system  Students will: (1) Learn the structure of organisms and biological functions. (2) Learn about medical equipment. (3) Learn about the application of engineering to medicine\n    授業の概要および学習上の助言   This is a basic course in bioengineering. We will cover the following topics: 1. Role and position of bioengineering in society 2. Importance of bioengineering 3. Basic anatomy and physiology 4. Regenerative medicine 5. Biometrics 6. Surgical instruments 7. Therapeutic equipment 8. Artificial organs 9. Drug delivery system\n    教科書および参考書・リザーブドブック   Text book :(in Japanese)\n    履修に必要な予備知識や技能   Students are expected to be have completed Basic Biology\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① D,J,M,N Be able to understand the importance of bioengineering.   ② D,J,M,N Be able to explain the problems in applying the mechanical engineering to medical care.   ③ D,J,M,N Be able to explain hwo to measure vital signs.   ④ D,J,M,N Be able to make a discussion as to the advance medical technology   ⑤     ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 30 0 50 0 0 0 20 100     指標と評価割合 総合評価割合 30 0 50 0 0 0 20 100   総合力指標 知識を取り込む力 30 0 50 0 0 0 20 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ Students willl be evaluated in the exam at the end of the semester   ② レ   ③ レ   ④ レ   ⑤     ⑥     クイズ\n小テスト ①      ②     ③     ④     ⑤     ⑥     レポート ① レ Students will be evaluated on some reports.   ② レ   ③ レ   ④ レ   ⑤     ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ① レ Students will be evaluated contents in 'Self-check' on e-syllabus evvry after class. Listing key words only is not allowed. Moreover, activities as to questions and dicussions will be evaluated in class.   ② レ   ③ レ   ④ レ   ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     (1) Propose new machines to which bioengineering is applied (2) Propose new machines useful for medical care. (3) Propose new measurement methods of vital information. (4) Propose fuyther improvemnt of advanced medical technology  (1) Explain a machine to which bioengineering is applied (2) Explain the invasiveness of a medical machine. (3) Explain the principle of a device to measure vital information. (4) Explain an advanced medical technology\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習課題に要する標準的な時間を記載してあります。日々の自学自習時間全体としては、各授業に応じた時間(例えば2単位科目の場合、予習2時間・復習2時間/週)を取るよう努めてください。詳しくは教員の指導に従って下さい。     授業明細   回数 学習内容 授業の運営方法 学習課題(予習・復習) 時間:分※     1  Course introduction Role and positioning of bioengineering Importance of bioengineering Lecture, Q&A Self-check   60   2  Basics of biology : cell and DNA lecture, Q&A Self-check   90   3  Basics of anatomical physiology lecture, Q&A Self-check   90   4  Bioinformatics Numerical provision type equipment lecture, Q&A Self-check   90   5  Bioinformatics Image-providing equipment lecture, Q&A Self-check   75   6  Drug delivery system  lecture, Q&A Self-check   90   7  Surgical instruments Cardiac catheter  lecture, Q&A Self-check   90   8  Surgical instruments Laparoscopic endoscope lecture, Q&A Self-check   90   9  Surgical instruments Endourethroscopy lecture, Q&A Se",
+  "courseId": "2024:fall:E024-01:0:158",
   "language": "en"
 }

@@ -1,77 +1,73 @@
 {
   "sourceIndex": 899,
   "sourceUrl": "/opsyllabus/kitos0110/899/1",
-  "importedAt": "2026-06-08T09:34:11.905Z",
-  "title": "建築設備総論",
-  "subtitle": "Introduction of Building Equipment",
-  "courseType": "Major ProgramMajor Courses",
-  "credits": "2",
-  "term": "2026年度\n\n                1st year 2nd semester",
+  "importedAt": "2026-06-09T01:29:27.448Z",
+  "title": "数理特別科目(教養のための量子力学基礎)",
+  "subtitle": "Special Subject - Mathematics(Basic Topics of Quantum Mechanics for Liberal Arts)",
+  "courseType": "(Provided by all courses)\nLiberal Arts Courses\nTransdisciplinary Learning",
+  "credits": "1",
+  "term": "2024年度",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "NAGANO Shinichiro"
+    "TANIGUCHI Shinichi"
   ],
   "keywords": [
-    "Air conditioner and ventilation design",
-    "Water supply and drainage sanitary installation",
-    "Building equipment",
-    "Data Science",
-    "Area cooperation"
+    "Particle-wave duality 2.Schroedinger equation 3.Uncertainty principle 4.Quantum entanglement 5.Various interpretations of quantum mechanics"
   ],
-  "educationalGoal": "It's learned about important air conditioning and building equipment in general of ventilating installation and water supply and drainage sanitary installation by building equipment and the ability which can be applied to an equipment design is learned through a problem and a practice.\nAir current analysis technology is learned by a practice as air streaming design technique based on data science for aerial environmental improvement.",
-  "advice": "Building equipment in general is explained by the lecture focusing on air conditioning among the building equipment, ventilating installation and water supply and drainage sanitary installation and basic terminology and concept of building equipment in general are understood by a practice.\nA practice of a way of thinking with a basic equipment design is performed based on those. The damage case and the trial case which have formed by building equipment in general are considered by a lecture and a practice. An analysis of strong winds blowing through the tall buildings by air current analysis technology base on data science is performed and a basic skill of analysis technology is learned to know more construction and aerial relation.\nArchitecture and building equipment.\nKnowledge of an air conditioner and design concept.\nKnowledge and design concept of water supply and drainage sanitary installation.\nSite electrical facilities and firefighting equipment.\nDisaster preventing.\nWay of thinking of ventilation design and ventilation design.\nDamage example of the building equipment field, precedent and consideration.\nAcquisition of air current analysis technology and analysis of strong winds blowing through the tall buildings.",
-  "books": "Building Environmental Engineering Teaching Materials -Equipment-,MARUZEN,2011\nISBN978-4-8189-2224-2",
-  "requiredKnowledge": "Understand the technological figure and way of thinking which come out by a textbook and distributed material in order to understand a concept of the language used by building equipment in general. It's free-hand, to be able to draw an image figure of the degree others can understand more.",
+  "educationalGoal": "Quantum mechanics is at the root of the latest modern technology, and quantum mechanics continues to make strong advances, including applications to quantum computers and quantum information. Even if you are not fully familiar with the mathematical aspects of modern education, it will be essential in the future to acquire the basic knowledge of quantum theory. In this lecture, we will explain the basic content of quantum mechanics in a way that even second-year students can underst.",
+  "advice": "In this lecture, we will explain the structure of quantum mechanics and learn about its differences from classical physics. The use of mathematical formulas will be kept to a minimum, but in order to explain the structure, a minimum number of mathematical formulas will be presented, and the focus will be on explaining their physical meaning without delving into the treatment of mathematical formulas. ① Explain how quantum mechanics is constructed from classical mechanics through a procedure called \"quantization.\" At this time, we will also explain the very basics of analytical mechanics necessary for quantization. ② Present the Schroedinger equation and explain its origin and interpretation, especially the fact that Schroedinger himself was unable to correctly interpret the equation he developed ③ Briefly explain the range of applications of quantum mechanics and explain the uncertainty principle I will explain about it. ④In addition to explaining quantum entanglement such as EPR correlation, we will also explain paradoxes such as Schroedinger's cat. ⑤Explain the interpretation of quantum mechanics. Specifically, I will explain the Copenhagen interpretation, the many-worlds interpretation, etc. Note that there are no serious textbooks that contain mathematical formulas that correspond to this lecture, so references will be introduced as appropriate.",
+  "books": "Do not use textbooks. References will be given as appropriate in class.",
+  "requiredKnowledge": "It is desirable to have basic knowledge of high school physics (especially mechanics) and basic knowledge of first-year mathematics calculus, but even if you have some gaps, you can listen to the lectures with concentration and improve your knowledge. You can take the course if you are willing to proactively research the parts you are lacking in and work on the tasks to make up for it. Even if you have a lot of prior knowledge, it will be difficult to complete the course if you are unable to maintain concentration during lectures.",
   "activityGoals": [
     {
       "index": "①",
-      "type": "O",
-      "body": "Air conditioner, water supply and drainage sanitary installation, site electrical facilities and a firefighting"
+      "type": "D,G",
+      "body": "Be able to explain the differences between classical mechanics and quantum mechanics and the \"quantization\""
     },
     {
       "index": "②",
-      "type": "O",
-      "body": "The design concept that an air conditioner and water supply and drainage sanitary installation are basic can be"
+      "type": "D,G",
+      "body": "Be able to explain the origin and interpretation of the Schroedinger equation."
     },
     {
       "index": "③",
-      "type": "O",
-      "body": "A student can understand a concept of ventilation due to wind force and ventilation caused by temperature differ"
+      "type": "D,G",
+      "body": "Be able to explain the simple application range and uncertainty principle of quantum mechanics."
     },
     {
       "index": "④",
-      "type": "O",
-      "body": "Easy ventilation design by mechanical equipment will be done."
+      "type": "D,G",
+      "body": "Be able to explain quantum entanglement such as EPR correlation and paradoxes such as Schroedinger's cat."
     },
     {
       "index": "⑤",
-      "type": "O",
-      "body": "A student puts on a law and the angle for a technical solution from a damage trial case of the construction fiel"
+      "type": "D,G",
+      "body": "Be able to explain the interpretation of quantum mechanics."
     },
     {
       "index": "⑥",
-      "type": "O",
-      "body": "An easy analysis of strong winds blowing through the tall buildings is made of air current analysis technology."
+      "type": "A",
+      "body": "Be able to attend every class, work on assigned assignments, and strive to understand the lesson content."
     }
   ],
   "evaluationWeights": [
     {
       "label": "総合評価割合",
       "values": [
+        "0",
+        "0",
+        "70",
+        "0",
+        "0",
+        "0",
         "30",
-        "0",
-        "55",
-        "5",
-        "0",
-        "0",
-        "10",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -81,20 +77,20 @@
     {
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
+        "0",
+        "0",
+        "70",
+        "0",
+        "0",
+        "0",
         "30",
-        "0",
-        "55",
-        "5",
-        "0",
-        "0",
-        "10",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -104,20 +100,20 @@
     {
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
+        "0",
+        "0",
+        "70",
+        "0",
+        "0",
+        "0",
         "30",
-        "0",
-        "55",
-        "5",
-        "0",
-        "0",
-        "10",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -138,9 +134,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -148,7 +144,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -161,9 +157,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -184,9 +180,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -195,118 +191,62 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "It can be explained about comfortable environmental in building and a realization method to the city environment healthily based on knowledge of building equipment in general.A student can understand a way of thinking of an air conditioner and water supply and drainage sanitary installation, design easily and explain about that.Easy ventilation design can understand a way of thinking of ventilation and explain about that, and is done. It's possible to put on legal knowledge based on a trial case in the construction field as well as consider a corrective action from a social technical viewpoint. A practicing analysis of strong winds blowing through the tall buildings is made of air current analysis technology.",
-    "standard": "The basic language of building equipment in general can be explained.\nA way of thinking of an air conditioner and water supply and drainage sanitary installation can be understood and explained.\nA student can understand air environment and a way of thinking of ventilation design and explain about that.\nA student puts on knowledge legal than a trial case in the construction field.\nThe wind analysis in a building with the easy shape can be made air current analysis technology."
+    "ideal": "① Quantum mechanics was established from classical mechanics through a procedure called “quantization” Can explain the mechanism by which this is done. ②Be able to explain the origin and interpretation of the Schroedinger equation. ③Be able to briefly explain the scope of application of quantum mechanics and explain the uncertainty principle. ④Be able to explain quantum entanglement such as EPR correlation. ⑤Be able to pinpoint the interpretation of quantum mechanics.",
+    "standard": "① Quantum mechanics was established from classical mechanics through a procedure called “quantization” Can explain the general structure of the system. ②Be able to easily explain the origin and interpretation of the Schroedinger equation. ③ Briefly explain the scope of application of quantum mechanics and explain the source of uncertainty. Can give a simple explanation of the theory. ④Be able to explain quantum entanglement such as EPR correlation. ⑤Be able to easily explain the interpretation of quantum mechanics."
   },
   "clipProcess": "",
   "lessons": [
     {
       "index": "1",
-      "content": "Learning support plan and overview of the entire\n course.\nArchitecture and building equipment.\n1.Temperature and CO2 emissions\n2.Carbon neutral\n3.Architecture and climate\n4.Japan's climate and design weather conditions\n5.Japan's energy situation\n6.Urbanization and building equipment\n7.History of equipment\n8.Energy-saving design\n9.Equipment design overview",
-      "operation": "Lecture and question and\nanswer.\nA practice problem is\nsolved.",
-      "assignments": "Preparation\n\nReview",
-      "minutes": "120\n\n120"
+      "content": "Guidance: “Quantity as Liberal Arts” in the era of fusion of humanities and sciences Significance of “Fundamentals of Quantum Mechanics” ・Quantum force is derived from classical mechanics through a procedure called “quantization” Explanation of the mechanism by which science is constructed ・Very basics of analytical mechanics in classical mechanics necessary for quantization Explanation of main matters ・About Hamiltonian and Lagrangian ・Explanation of quantization methods “canonical quantization”, “path integral quantization”, and “stochastic process quantization”",
+      "operation": "lecture Exercises using assignments",
+      "assignments": "Review what you have learned and take tasks work together. Distribution pre-distribution about the next learning content Prepare for the lesson.",
+      "minutes": "60 30"
     },
     {
       "index": "2",
-      "content": "Air conditioning equipment.\n1.How air and heat work in homes\n2.How air conditioning equipment works\n3.Hot heat source: boiler\n4.Cold heat source: refrigeration unit\n5.Heat pumps and COP\n6.Cooling towers",
-      "operation": "Lecture and question and\nanswer.",
-      "assignments": "Preparation\n\nReview",
-      "minutes": "120\n\n120"
+      "content": "Introduction to Schroedinger equation (1) ・Explanation of particle/wave duality ・Present the Schroedinger equation and explain its origin and interpretation, especially that Schroedinger himself was unable to correctly interpret the equation he developed .",
+      "operation": "lecture Exercises using assignments",
+      "assignments": "Review what you have learned and take tasks work together. Distribution pre-distribution about the next learning content Prepare for the lesson.",
+      "minutes": "60 30"
     },
     {
       "index": "3",
-      "content": "Heat storage tanks and space for equipment.\n1.Heat storage tanks\n2.Heat storage methods and power load leveling\n3.Water heat storage and ice heat storage\n4.Cogeneration systems\n5.Air conditioning equipment configuration\n6.Building equipment design\n7.Required space design for equipment machine ro\noms, etc.\n8.Classification of air outlets and allowable te\nmperature difference of air outlet",
-      "operation": "Lecture and question and\nanswer.",
-      "assignments": "Preparation\n\nReview",
-      "minutes": "120\n\n120"
+      "content": "Introduction to Schoedinger equation (2) ・Heisenberg's matrix mechanics and Schroedinger's Explain the differences in wave mechanics ・About simple applications of Schroedinger equation",
+      "operation": "lecture Exercises using assignments",
+      "assignments": "Review what you have learned and take tasks work together. Distribution pre-distribution about the next learning content Prepare for the lesson.",
+      "minutes": "60 30"
     },
     {
       "index": "4",
-      "content": "Water supply and drainage sanitary equipment.\n1.Water supply and drainage/sanitary equipment\n2.Piping\n3.Water supply equipment, water supply pipes, wa\nter supply load\n4.Reverse siphoning\n5.Vacuum breaker\n6.Water hammer\n7.Trap\nReview of the lesson.",
-      "operation": "Lecture and question and\nanswer.\nTuition's looking and\nself-check.",
-      "assignments": "Preparation\n\nReview",
-      "minutes": "120\n\n120"
+      "content": "Application of quantum mechanics ・Briefly explain the scope of application of quantum mechanics and explain the uncertainty principle. At the same time, specific applications such as orbital, photoelectric effect, tunnel effect, etc. ・We will also provide a simple introduction to quantum mechanical interpretation.",
+      "operation": "lecture Exercises using assignments",
+      "assignments": "Review what you have learned and take tasks work together. Distribution pre-distribution about the next learning content Prepare for the lesson.",
+      "minutes": "60 30"
     },
     {
       "index": "5",
-      "content": "What is CFD?\nThe outline of CFD (Computational fluid\ndynamics).\nThe explanation of CFD software.",
-      "operation": "A practice problem is\nsolved.",
-      "assignments": "Preparation\n\nReview",
-      "minutes": "120\n\n120"
+      "content": "Quantum entanglement and paradox resolution (1) ・About spins, Dirac bracket symbols, and Hilbert spaces ・Explain quantum entanglement such as EPR correlation",
+      "operation": "lecture Exercises using assignments",
+      "assignments": "Review what you have learned and take tasks work together. Distribution pre-distribution about the next learning content Prepare for the lesson.",
+      "minutes": "60 30"
     },
     {
       "index": "6",
-      "content": "Elementary knowledge for CFD.\nInstallation of CFD software (STREAM).",
-      "operation": "Lecture and question and\nanswer.\nInstallation support.",
-      "assignments": "Preparation\n\nReview",
-      "minutes": "120\n\n120"
+      "content": "Quantum entanglement and paradox resolution (2) ・Explanation of paradoxes such as Schroedinger's cat ・Bell's inequality and the failure of hidden variable theory",
+      "operation": "lecture Exercises using assignments",
+      "assignments": "Review what you have learned and take tasks work together. Distribution pre-distribution about the next learning content Prepare for the lesson.",
+      "minutes": "60 30"
     },
     {
       "index": "7",
-      "content": "Blower, electrical equipment, fire extinguishing\n equipment.\n1. Blower\n2. Parallel and serial operation of blowers\n3. Voltage classification\n4. Grounding\n5. Electrical equipment\n6. Fire extinguishing equipment\n7. Smoke exhaust equipment\n8. Gas leak detector\n9. Noise and vibration prevention measures from\nair conditioning equipment\nLooking back on the lesson.",
-      "operation": "A practice problem is\nsolved.\nTuition's looking and\nself-check.",
-      "assignments": "Preparation\n\nReview",
-      "minutes": "120\n\n120"
-    },
-    {
-      "index": "8",
-      "content": "About wind and building wind.\nThe explanation of an analysis of strong winds\nblowing through the tall buildings by CFD.",
-      "operation": "Lecture and question and\nanswer.",
-      "assignments": "Preparation\n\nReview",
-      "minutes": "120\n\n120"
-    },
-    {
-      "index": "9",
-      "content": "Air environment and air quality.\n1.Air environment\n2.Composition of atmospheric air\n3.Air quality standards\n4.Indoor air quality\n5.CO2 concentration as an indicator of air pollu\ntion\n6.Health damage caused by indoor air quality\n7.Sick building syndrome\n8.Indoor chemical pollutants\n9.Formaldehyde and other sick house countermeasu\nres\n10.Residential sick house countermeasures\n11.Formula for calculating indoor pollutant conc\nentration (Seidel formula)\n12.Example 1, 2 of calculating required ventilat\nion volume using Seidel formula\nAir quality-related damage and case studies.",
-      "operation": "A practice problem is\nsolved.",
-      "assignments": "Preparation\n\nReview",
-      "minutes": "120\n\n120"
-    },
-    {
-      "index": "10",
-      "content": "Experience of an analysis of strong winds\nblowing through the tall buildings.\nAn analysis of strong winds blowing through\nthe tall buildings using CFD is experienced.",
-      "operation": "Lecture and question and　\n answer.\nAnalysis exercises using　\n STREAM",
-      "assignments": "Preparation\n\nReview",
-      "minutes": "120\n\n120"
-    },
-    {
-      "index": "11",
-      "content": "Ventilation design by the wind velocity.\nWay of thinking of ventilation design and way\nby the wind velocity.",
-      "operation": "A practice problem is\nsolved.",
-      "assignments": "Preparation\n\nReview",
-      "minutes": "120\n\n120"
-    },
-    {
-      "index": "12",
-      "content": "Ventilation design by the temperature\ndifference.\nWay of thinking and way of the ventilation\ndesign for which the temperature difference\nwas used.\nLooking of ventilation design.",
-      "operation": "Lecture and question and\nanswer.\nTuition's looking and\nself-check.",
-      "assignments": "Preparation\n\nReview",
-      "minutes": "120\n\n120"
-    },
-    {
-      "index": "13",
-      "content": "Reproducing wind phenomena around buildings and\nverifying the effectiveness of countermeasures.\nExplanation of a reproduction example using CFD.\nCase study of wind-around-building law suits Rev\niew of exercises from lessons 1 to 12.",
-      "operation": "A practice problem is\nsolved.",
-      "assignments": "Preparation\n\nReview",
-      "minutes": "120\n\n120"
-    },
-    {
-      "index": "14",
-      "content": "Exam based on the contents of lessons 1 to 13.\nPresentation of selected analysis tasks (selecte\nd from exercise tasks targeting wind over buildi\nngs).",
-      "operation": "An exam implementation\nOutcome presentation",
-      "assignments": "Preparation\n\nReview",
-      "minutes": "120\n\n120"
-    },
-    {
-      "index": "15",
-      "content": "Supplementary information on ventilation and air\n quality.\n1.Ventilation methods\n2.Microorganisms: tuberculosis\n3.Legionnaires' disease\n4.Mesothelioma caused by asbestos\n5.Suspended dust\n6.Oxygen\n7.Nitrogen\n8.Body odor\n9.Odor\n10.Corrosion accidents such as salt damage\n11.Ventilation measures to improve air quality\nCase studies in the field of architecture.\nReflection on the entire course.\nGrade evaluation.",
-      "operation": "Lecture and practice\nAll tuition's looking.\nAnd self-check",
-      "assignments": "Review",
-      "minutes": "120"
+      "content": "Explanation of the interpretation of quantum mechanics ・Copenhagen interpretation ・Many-worlds interpretation and other interpretations ・About unresolved problems and applications in current quantum theory",
+      "operation": "lecture Exercises using assignments",
+      "assignments": "Review what you have learned so far, check the overall flow, and review.",
+      "minutes": "60"
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　A107-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Architecture\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                建築設備総論\n                Introduction of Building Equipment\n\n              2\n              A107-01\n\n                2026年度\n\n                1st year 2nd semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  NAGANO Shinichiro\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Air conditioner and ventilation design\n2.Water supply and drainage sanitary installation\n3.Building equipment\n4.Data Science\n5.Area cooperation\n\n              It's learned about important air conditioning and building equipment in general of ventilating installation and water supply and drainage sanitary installation by building equipment and the ability which can be applied to an equipment design is learned through a problem and a practice.\nAir current analysis technology is learned by a practice as air streaming design technique based on data science for aerial environmental improvement.\n\n              授業の概要および学習上の助言\n\n              Building equipment in general is explained by the lecture focusing on air conditioning among the building equipment, ventilating installation and water supply and drainage sanitary installation and basic terminology and concept of building equipment in general are understood by a practice.\nA practice of a way of thinking with a basic equipment design is performed based on those. The damage case and the trial case which have formed by building equipment in general are considered by a lecture and a practice. An analysis of strong winds blowing through the tall buildings by air current analysis technology base on data science is performed and a basic skill of analysis technology is learned to know more construction and aerial relation.\nArchitecture and building equipment.\nKnowledge of an air conditioner and design concept.\nKnowledge and design concept of water supply and drainage sanitary installation.\nSite electrical facilities and firefighting equipment.\nDisaster preventing.\nWay of thinking of ventilation design and ventilation design.\nDamage example of the building equipment field, precedent and consideration.\nAcquisition of air current analysis technology and analysis of strong winds blowing through the tall buildings.\n\n              教科書および参考書・リザーブドブック\n\n              Building Environmental Engineering Teaching Materials -Equipment-,MARUZEN,2011\nISBN978-4-8189-2224-2\n\n              履修に必要な予備知識や技能\n\n              Understand the technological figure and way of thinking which come out by a textbook and distributed material in order to understand a concept of the language used by building equipment in general. It's free-hand, to be able to draw an image figure of the degree others can understand more.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                O\n                Air conditioner, water supply and drainage sanitary installation, site electrical facilities and a firefighting\n\n                ②\n                O\n                The design concept that an air conditioner and water supply and drainage sanitary installation are basic can be\n\n                ③\n                O\n                A student can understand a concept of ventilation due to wind force and ventilation caused by temperature differ\n\n                ④\n                O\n                Easy ventilation design by mechanical equipment will be done.\n\n                ⑤\n                O\n                A student puts on a law and the angle for a technical solution from a damage trial case of the construction fiel\n\n                ⑥\n                O\n                An easy analysis of strong winds blowing ",
-  "courseId": "2026:fall:A107-01:0:899",
+  "rawText": "金沢工業大学 学習支援計画書 G537-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\n(Provided by all courses)\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     (Provided by all courses)\nLiberal Arts Courses\nTransdisciplinary Learning\n数理特別科目(教養のための量子力学基礎)\nSpecial Subject - Mathematics(Basic Topics of Quantum Mechanics for Liberal Arts)  1 G537-01  2024年度\n   修学規程第4条を参照\n    担当教員名\n TANIGUCHI Shinichi\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Particle-wave duality 2.Schroedinger equation 3.Uncertainty principle 4.Quantum entanglement 5.Various interpretations of quantum mechanics  Quantum mechanics is at the root of the latest modern technology, and quantum mechanics continues to make strong advances, including applications to quantum computers and quantum information. Even if you are not fully familiar with the mathematical aspects of modern education, it will be essential in the future to acquire the basic knowledge of quantum theory. In this lecture, we will explain the basic content of quantum mechanics in a way that even second-year students can underst.\n    授業の概要および学習上の助言   In this lecture, we will explain the structure of quantum mechanics and learn about its differences from classical physics. The use of mathematical formulas will be kept to a minimum, but in order to explain the structure, a minimum number of mathematical formulas will be presented, and the focus will be on explaining their physical meaning without delving into the treatment of mathematical formulas. ① Explain how quantum mechanics is constructed from classical mechanics through a procedure called \"quantization.\" At this time, we will also explain the very basics of analytical mechanics necessary for quantization. ② Present the Schroedinger equation and explain its origin and interpretation, especially the fact that Schroedinger himself was unable to correctly interpret the equation he developed ③ Briefly explain the range of applications of quantum mechanics and explain the uncertainty principle I will explain about it. ④In addition to explaining quantum entanglement such as EPR correlation, we will also explain paradoxes such as Schroedinger's cat. ⑤Explain the interpretation of quantum mechanics. Specifically, I will explain the Copenhagen interpretation, the many-worlds interpretation, etc. Note that there are no serious textbooks that contain mathematical formulas that correspond to this lecture, so references will be introduced as appropriate.\n    教科書および参考書・リザーブドブック   Do not use textbooks. References will be given as appropriate in class.\n    履修に必要な予備知識や技能   It is desirable to have basic knowledge of high school physics (especially mechanics) and basic knowledge of first-year mathematics calculus, but even if you have some gaps, you can listen to the lectures with concentration and improve your knowledge. You can take the course if you are willing to proactively research the parts you are lacking in and work on the tasks to make up for it. Even if you have a lot of prior knowledge, it will be difficult to complete the course if you are unable to maintain concentration during lectures.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① D,G Be able to explain the differences between classical mechanics and quantum mechanics and the \"quantization\"    ② D,G Be able to explain the origin and interpretation of the Schroedinger equation.   ③ D,G Be able to explain the simple application range and uncertainty principle of quantum mechanics.   ④ D,G Be able to explain quantum entanglement such as EPR correlation and paradoxes such as Schroedinger's cat.   ⑤ D,G Be able to explain the interpretation of quantum mechanics.   ⑥ A Be able to attend every class, work on assigned assignments, and strive to understand the lesson content.\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 0 0 70 0 0 0 30 100     指標と評価割合 総合評価割合 0 0 70 0 0 0 30 100   総合力指標 知識を取り込む力 0 0 70 0 0 0 30 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝",
+  "courseId": "2024:spring:G520-01:0:899",
   "language": "en"
 }

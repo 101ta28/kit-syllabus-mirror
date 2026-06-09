@@ -1,78 +1,76 @@
 {
   "sourceIndex": 118,
   "sourceUrl": "/opsyllabus/kitos0110/118/1",
-  "importedAt": "2026-06-08T09:33:55.524Z",
-  "title": "データアナリティクス入門",
-  "subtitle": "Data Analytics Basic",
-  "courseType": "Major ProgramMajor Courses",
+  "importedAt": "2026-06-09T01:29:20.244Z",
+  "title": "プロジェクトデザイン実践(実験)(メディア情報学科)",
+  "subtitle": "Design Project / Implementing and Operating",
+  "courseType": "Design Project Program\nDesign Project Courses\nDesign Project",
   "credits": "2",
-  "term": "2026年度\n\n                1st year 1st semester",
+  "term": "2024年度\n 2nd year 2nd semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "TAKECHI Shoji",
-    "MIZUTANI Motoki"
+    "MIYATA Takatomi",
+    "EMURA Norio",
+    "URA Masahiro",
+    "NISHITA Yoshito"
   ],
   "keywords": [
-    "Data Collection",
-    "Statistical Analysis",
-    "Social Survey and Questionnaire",
-    "Graph and Visualization",
-    "Data Science"
+    "Verification process 2.Effectiveness/Acceptability 3.Data handling skills 4.Credibility 5.PBL for science and technology"
   ],
-  "educationalGoal": "In this course, students will:\n(1) acquire a basic knowledge of data analytics.\n(2) learn how to collect, aggregate, and visualize data based on questionnaire surveys.\n(3) learn how to use statistical methods of sampling.",
-  "advice": "To analyze data properly, the following four abilities are required:\n  1. The ability to collect data according to purpose and hypothesized issues.\n  2. The ability to aggregate data in a table according to the data format.\n  3. The ability to display data visually using graphs.\n  4. The ability to verify hypotheses with statistical methods.\n\nStudents will acquire abilities 1 to 3 mainly through the questionnaire survey exercises in the first half of the course; ability 4 will be learned through exercises using sample data in the second half of the course.",
-  "books": "Textbook : 統計学〈1〉データ分析の基礎 オフィシャルスタディノート 改定第2版(Japanese book)\nReference book : 図解入門ビジネスアンケート調査とデータ解析の仕組みがよ~くわかる本[第2版](Japanese book)\nReserved book : アンケート調査入門―失敗しない顧客情報の読み方・まとめ方(Japanese book)",
-  "requiredKnowledge": "Understanding the meaning of the average, variance, and standard deviation formulas, scatter plots, and correlation coefficients learned in high school mathematics.",
+  "educationalGoal": "-To gain skills to verify hypotheses or solution concept with logical approaches. -To understand phenomena, objects and events quantitatively with high credibility. -To reliably find characteristics and laws of phenomena, objects, events. -To deliver the above information to a third person intelligibly. -To gain basic skills to credibly and smoothly conduct verification activities. -To have an image of the technology fields and engineers in the discipline.",
+  "advice": "The students will learn methodologies required to carry on processes to verify hypotheses; or, the students will learn methodologies to verify the effectiveness/acceptability of a solution concept, or a specific part of the concept. One is that the students will learn the basic “data-handling skills” needed for data collection → organization → analysis→ hypothesis testing→ visualization → reporting. One is that the students will learn the “skills to proceed with verification processes” and “elementary skills of verification activities” from setting the hypothesis to its verification. - measure the subjective sensation of the media contents quantitatively. - learn how to use the technical equipment and software, and measure physical quantities related to sensory quantities. -learn the meaning of statistical data and how to represent the data in a graph. For “PBL for science and technology”, students will learn the following contents. -Deciding a theme from the viewpoint of sensory or physical quantities. -Devising a project plan. -How to design things scientifically. -How to verify the project plan quantitatively.",
+  "books": "None",
+  "requiredKnowledge": "Understanding of the courses “Design Project / Introduction”, “Design Project I”, and “Design Project II”",
   "activityGoals": [
     {
       "index": "①",
-      "type": "A,B",
-      "body": "Be able to understand the concept of data analytics."
+      "type": "G,F",
+      "body": "To be able to proceed with activities from finding problems to solutions."
     },
     {
       "index": "②",
-      "type": "D,F,G",
-      "body": "Be able to plan a questionnaire survey."
+      "type": "D",
+      "body": "To be able to understand phenomena, objectives, and events quantitatively and qualitatively."
     },
     {
       "index": "③",
-      "type": "G,L",
-      "body": "Be able to create and improve a questionnaire sheet."
+      "type": "D",
+      "body": "To be able to find characteristics, features, and laws of phenomena, objects, and events."
     },
     {
       "index": "④",
-      "type": "D,J",
-      "body": "Be able to use simple/cross-tabulation to analyze questionnaire results."
+      "type": "E",
+      "body": "To be able to deliver acquired information to a third person intelligibly."
     },
     {
       "index": "⑤",
-      "type": "D,E,J",
-      "body": "Be able to be to produce pie, bar, and scatter charts using Excel."
+      "type": "F",
+      "body": "To be able to utilize various basic skills needed to proceed smoothly with verification activities."
     },
     {
       "index": "⑥",
-      "type": "D,G,L",
-      "body": "Be able to test a hypothesis using confidence intervals and various hypothesis testing methods."
+      "type": "A",
+      "body": "To be able to have a picture of the technology fields and engineers in the discipline."
     }
   ],
   "evaluationWeights": [
     {
       "label": "総合評価割合",
       "values": [
-        "30",
-        "30",
-        "30",
         "0",
+        "25",
+        "25",
+        "20",
         "0",
-        "0",
-        "10",
+        "2",
+        "28",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -82,20 +80,20 @@
     {
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
-        "30",
-        "30",
-        "30",
         "0",
+        "25",
+        "25",
+        "20",
         "0",
-        "0",
-        "10",
+        "2",
+        "28",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -105,20 +103,20 @@
     {
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
-        "30",
-        "30",
-        "30",
         "0",
+        "25",
+        "25",
+        "20",
         "0",
-        "0",
-        "10",
+        "2",
+        "28",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -139,9 +137,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -149,7 +147,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -162,9 +160,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -185,9 +183,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -196,118 +194,118 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "Understand the purpose and issues of data analysis; be able to collect data through questionnaire surveys and reach meaningful conclusions based on appropriate visualization methods.",
-    "standard": "Understand the purpose and issues of data analysis; create a questionnaire.\nVisually display data using a graph (but not necessarily always reach proper conclusions)."
+    "ideal": "1) To proceed with verification processes for hypotheses and solution concepts. 2) To quantitatively and qualitatively recognize phenomena, objects, and events and organize information. 3) To find and understand features, characteristics, and regularities of corresponding phenomena, objects, and events. 4) To communicate acquired information to a third person intelligibly. 5) To smoothly conduct verification activities. 6) To become aware of your specialties and imagine the technological fields and engineers.",
+    "standard": "1) To proceed with verification processes for hypotheses and solution concepts with guidance. 2) To quantitatively and qualitatively recognize phenomena, objects, and events and organize the information with guidance from the instructor. 3) To find and understand characteristics and regularities of phenomena, objects, etc., with guidance. 4) To share acquired information to third person. 5) To smoothly conduct verification activities with guidance from the instructor. 6) To recognize your specialties and imagine the technological fields and engineers with guidance."
   },
   "clipProcess": "",
   "lessons": [
     {
-      "index": "1",
-      "content": "Course introduction\nFlow of data analytics\nType of data",
-      "operation": "Lecture and interactive\nactivities",
-      "assignments": "Read the textbook\nRepeat the exercise quiz",
+      "index": "1,2",
+      "content": "Course introduction Activities related to gain data handling skill Research activity for finding problem",
+      "operation": "Lecture Group activity Self-check",
+      "assignments": "Write a research plan",
+      "minutes": "100"
+    },
+    {
+      "index": "3,4",
+      "content": "Decide a project theme",
+      "operation": "Lecture Group activity Self-check",
+      "assignments": "Write a research plan",
       "minutes": "200"
     },
     {
-      "index": "2",
-      "content": "Questionnaire surveys (1)\n Social survey\n Procedure of the survey\n Creation of the survey sheet",
-      "operation": "Lecture and interactive\nactivities",
-      "assignments": "Read the textbook and\nreserved book\nComplete the questionnaire\nsheet",
-      "minutes": "260"
+      "index": "5,6",
+      "content": "Draft a project plan 1",
+      "operation": "Lecture Group activity Self-check",
+      "assignments": "Write a research plan",
+      "minutes": "200"
     },
     {
-      "index": "3",
-      "content": "Questionnaire surveys (2)\n Method of the survey and question item\n Brushing up the survey sheet",
-      "operation": "Lecture and interactive\nactivities",
-      "assignments": "Read the textbook and\nreserved book\nBrush up the questionnaire\nsheet",
-      "minutes": "260"
+      "index": "7,8",
+      "content": "Draft a project plan 2",
+      "operation": "Lecture Group activity Self-check",
+      "assignments": "Write a research plan",
+      "minutes": "200"
     },
     {
-      "index": "4",
-      "content": "Qualitative data (1)\n Aggregation by frequency distribution table\n Statistical graph types and selection",
-      "operation": "Lecture and interactive\nactivities",
-      "assignments": "Read the textbook and\nlook up the terminology\nRepeat the exercise quiz",
-      "minutes": "260"
+      "index": "9,10",
+      "content": "Presentation of the project plan Modify the project plan 1",
+      "operation": "Lecture Group activity Self-check",
+      "assignments": "Write a progress report Modify the project plan",
+      "minutes": "200"
     },
     {
-      "index": "5",
-      "content": "Qualitative data (2)\n Cross-tabulation evaluation\n Creating multiple cross-tabulation tables",
-      "operation": "Lecture and interactive\nactivities",
-      "assignments": "Read the textbook and\nlook up the terminology\nRepeat the exercise quiz",
-      "minutes": "260"
+      "index": "11,12",
+      "content": "Prepare for the midterm presentation",
+      "operation": "Lecture Group activity Self-check",
+      "assignments": "Create the midterm presentation material Write a progress report",
+      "minutes": "200"
     },
     {
-      "index": "6",
-      "content": "Quantitative data (1)\n Frequency distribution table and histogram\n Using boxplots",
-      "operation": "Lecture and interactive\nactivities",
-      "assignments": "Read the textbook and\nlook up the terminology\nRepeat the practice quiz",
-      "minutes": "260"
+      "index": "13,14",
+      "content": "Midterm Presentation Modify the project plan 2",
+      "operation": "Lecture Presentation Group activity Self-check",
+      "assignments": "Modify the project plan",
+      "minutes": "200"
     },
     {
-      "index": "7",
-      "content": "Quantitative data (2)\n Typical value of distribution\n Magnitude of variation\n Standard deviation and disparity",
-      "operation": "Lecture and interactive\nactivities",
-      "assignments": "Read the textbook and\nlook up the terminology\nRepeat the practice quiz",
-      "minutes": "260"
+      "index": "15,16",
+      "content": "Implement the project plan 1",
+      "operation": "Lecture Group activity Self-check",
+      "assignments": "Write a progress report",
+      "minutes": "200"
     },
     {
-      "index": "8",
-      "content": "Mid-semester Exam\nConfirmation of the acquisition of basic\nknowledge",
-      "operation": "Lecture and interactive\nactivities",
-      "assignments": "Prepare for the exam",
-      "minutes": "260"
+      "index": "17,18",
+      "content": "Implement the project plan 2",
+      "operation": "Lecture Group activity Self-check",
+      "assignments": "Write a progress report",
+      "minutes": "200"
     },
     {
-      "index": "9",
-      "content": "Correlation (1)\n Correlation and scatter plot\n Stratified scatter plot\n Correlation coefficient",
-      "operation": "Lecture and interactive\nactivities",
-      "assignments": "Read the textbook and\nlook up the terminology\nRepeat the practice quiz",
-      "minutes": "260"
+      "index": "19,20",
+      "content": "Implement the project plan 3",
+      "operation": "Lecture Group activity Self-check",
+      "assignments": "Write a progress report",
+      "minutes": "200"
     },
     {
-      "index": "10",
-      "content": "Correlation (2)\n Spurious correlation\n Points to note for correlation coefficient\n Simple regression analysis",
-      "operation": "Lecture and interactive\nactivities",
-      "assignments": "Read the textbook and\nlook up the terminology\nRepeat the practice quiz",
-      "minutes": "260"
+      "index": "21,22",
+      "content": "Implement the project plan 4",
+      "operation": "Lecture Group activity Self-check",
+      "assignments": "Write a progress report",
+      "minutes": "200"
     },
     {
-      "index": "11",
-      "content": "Data in chronological order\n Standardization of time series graph\n Moving average\n Standardization of chronological order data",
-      "operation": "Lecture and interactive\nactivities",
-      "assignments": "Read the textbook and\nlook up the terminology\nRepeat the practice quiz",
-      "minutes": "260"
+      "index": "23,24",
+      "content": "Implement the project plan 5",
+      "operation": "Lecture Group activity Self-check",
+      "assignments": "Write a progress report",
+      "minutes": "200"
     },
     {
-      "index": "12",
-      "content": "Utilization of official statistics\n Establishment of public statistical system\n e-Stat\n Sampling error and probability",
-      "operation": "Lecture and interactive\nactivities",
-      "assignments": "Read the textbook and\nlook up the terminology\nRepeat the practice quiz",
-      "minutes": "260"
+      "index": "25,26",
+      "content": "Implement the project plan 6",
+      "operation": "Lecture Group activity Self-check",
+      "assignments": "Write a progress report",
+      "minutes": "200"
     },
     {
-      "index": "13",
-      "content": "Using Excel\nIntegrated learning",
-      "operation": "Lecture and interactive\nactivities",
-      "assignments": "Prepare for the exam",
-      "minutes": "260"
+      "index": "27,28",
+      "content": "Prepare for the final presentation Implement the project plan 7",
+      "operation": "Lecture Group activity Self-check",
+      "assignments": "Create the final presentation material Write a project report",
+      "minutes": "200"
     },
     {
-      "index": "14",
-      "content": "Final exam\nSelf-reflection",
-      "operation": "Exam and review\nSelf-reflection",
-      "assignments": "Review exam results",
-      "minutes": "330"
-    },
-    {
-      "index": "15",
-      "content": "Self-evaluation based on exam results",
-      "operation": "Interactive activities\nSelf-evaluation",
+      "index": "29,30",
+      "content": "Final presentation and review",
+      "operation": "Presentation Self-evaluation",
       "assignments": "",
-      "minutes": "260"
+      "minutes": ""
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　D005-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Management Systems\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                データアナリティクス入門\n                Data Analytics Basic\n\n              2\n              D005-01\n\n                2026年度\n\n                1st year 1st semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  TAKECHI Shoji, MIZUTANI Motoki\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Data Collection\n2.Statistical Analysis\n3.Social Survey and Questionnaire\n4.Graph and Visualization\n5.Data Science\n\n              In this course, students will:\n(1) acquire a basic knowledge of data analytics.\n(2) learn how to collect, aggregate, and visualize data based on questionnaire surveys.\n(3) learn how to use statistical methods of sampling.\n\n              授業の概要および学習上の助言\n\n              To analyze data properly, the following four abilities are required:\n  1. The ability to collect data according to purpose and hypothesized issues.\n  2. The ability to aggregate data in a table according to the data format.\n  3. The ability to display data visually using graphs.\n  4. The ability to verify hypotheses with statistical methods.\n\nStudents will acquire abilities 1 to 3 mainly through the questionnaire survey exercises in the first half of the course; ability 4 will be learned through exercises using sample data in the second half of the course.\n\n              教科書および参考書・リザーブドブック\n\n              Textbook : 統計学〈1〉データ分析の基礎 オフィシャルスタディノート 改定第2版(Japanese book)\nReference book : 図解入門ビジネスアンケート調査とデータ解析の仕組みがよ~くわかる本[第2版](Japanese book)\nReserved book : アンケート調査入門―失敗しない顧客情報の読み方・まとめ方(Japanese book)\n\n              履修に必要な予備知識や技能\n\n              Understanding the meaning of the average, variance, and standard deviation formulas, scatter plots, and correlation coefficients learned in high school mathematics.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                A,B\n                Be able to understand the concept of data analytics.\n\n                ②\n                D,F,G\n                Be able to plan a questionnaire survey.\n\n                ③\n                G,L\n                Be able to create and improve a questionnaire sheet.\n\n                ④\n                D,J\n                Be able to use simple/cross-tabulation to analyze questionnaire results.\n\n                ⑤\n                D,E,J\n                Be able to be to produce pie, bar, and scatter charts using Excel.\n\n                ⑥\n                D,G,L\n                Be able to test a hypothesis using confidence intervals and various hypothesis testing methods.\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                30\n\n                30\n\n                30\n\n                0\n\n                0\n\n                0\n\n                10\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                30\n\n                30\n\n                30\n\n                0\n\n                0\n\n                0\n\n                10\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                30\n\n                30\n\n                30\n\n                0\n\n                0\n\n                0\n\n                10\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  コラボレーションとリーダーシップ\n\n                    0\n\n                    0\n\n                  ",
-  "courseId": "2026:spring:D005-01:0:118",
+  "rawText": "金沢工業大学 学習支援計画書 G253-12\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDesign Project Program\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Design Project Program\nDesign Project Courses\nDesign Project\nプロジェクトデザイン実践(実験)(メディア情報学科)\nDesign Project / Implementing and Operating  2 G253-12  2024年度\n 2nd year 2nd semester  修学規程第4条を参照\n    担当教員名\n MIYATA Takatomi, EMURA Norio, URA Masahiro, NISHITA Yoshito\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Verification process 2.Effectiveness/Acceptability 3.Data handling skills 4.Credibility 5.PBL for science and technology  -To gain skills to verify hypotheses or solution concept with logical approaches. -To understand phenomena, objects and events quantitatively with high credibility. -To reliably find characteristics and laws of phenomena, objects, events. -To deliver the above information to a third person intelligibly. -To gain basic skills to credibly and smoothly conduct verification activities. -To have an image of the technology fields and engineers in the discipline.\n    授業の概要および学習上の助言   The students will learn methodologies required to carry on processes to verify hypotheses; or, the students will learn methodologies to verify the effectiveness/acceptability of a solution concept, or a specific part of the concept. One is that the students will learn the basic “data-handling skills” needed for data collection → organization → analysis→ hypothesis testing→ visualization → reporting. One is that the students will learn the “skills to proceed with verification processes” and “elementary skills of verification activities” from setting the hypothesis to its verification. - measure the subjective sensation of the media contents quantitatively. - learn how to use the technical equipment and software, and measure physical quantities related to sensory quantities. -learn the meaning of statistical data and how to represent the data in a graph. For “PBL for science and technology”, students will learn the following contents. -Deciding a theme from the viewpoint of sensory or physical quantities. -Devising a project plan. -How to design things scientifically. -How to verify the project plan quantitatively.\n    教科書および参考書・リザーブドブック   None\n    履修に必要な予備知識や技能   Understanding of the courses “Design Project / Introduction”, “Design Project I”, and “Design Project II”\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① G,F To be able to proceed with activities from finding problems to solutions.   ② D To be able to understand phenomena, objectives, and events quantitatively and qualitatively.   ③ D To be able to find characteristics, features, and laws of phenomena, objects, and events.   ④ E To be able to deliver acquired information to a third person intelligibly.   ⑤ F To be able to utilize various basic skills needed to proceed smoothly with verification activities.   ⑥ A To be able to have a picture of the technology fields and engineers in the discipline.\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 0 25 25 20 0 2 28 100     指標と評価割合 総合評価割合 0 25 25 20 0 2 28 100   総合力指標 知識を取り込む力 0 25 25 20 0 2 28 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ①      ②     ③     ④     ⑤     ⑥     クイズ\n小テスト ① レ Students will be evaluated on their personal activities and willingness in classes based on the contents of the worksheet.   ② レ   ③ レ   ④ レ   ⑤     ⑥     レポート ① レ Students will be evaluated on their personal activities and willingness in classes based on the contents of the worksheet.   ② レ   ③ レ   ④ レ   ⑤     ⑥ レ   成果発表\n(口頭・実技) ① レ Students will be evaluated on their personal and group activities based on presentation and materials.    ②     ③     ④     ⑤     ⑥ レ   作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ① レ Students will be evaluated on their personal and group activiti",
+  "courseId": "2024:fall:G251-01:0:118",
   "language": "en"
 }

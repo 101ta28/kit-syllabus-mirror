@@ -1,52 +1,53 @@
 {
   "sourceIndex": 858,
   "sourceUrl": "/opsyllabus/kitos0110/858/1",
-  "importedAt": "2026-06-08T09:34:10.921Z",
-  "title": "情報通信システム",
-  "subtitle": "Communication Network Systems",
-  "courseType": "Major ProgramMajor Courses",
-  "credits": "2",
-  "term": "2026年度\n\n                2nd year 2nd semester",
+  "importedAt": "2026-06-09T01:29:27.116Z",
+  "title": "AI応用Ⅰ(深層学習)(春期集中講義)",
+  "subtitle": "Deep Learning",
+  "courseType": "(Provided by all courses)\nLiberal Arts Courses\nTransdisciplinary Learning",
+  "credits": "1",
+  "term": "2024年度\n 1st year 2nd semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "YOKOTANI Tetsuya"
+    "INOUE Takuhiro"
   ],
   "keywords": [
-    "Communication Technology",
-    "Wired Communication",
-    "Wireless Communication",
-    "Data Communication",
-    "Network"
+    "Artificial Intelligence 2.Machine Learning 3.Deep Learning 4.Neural Network 5.Computer vision"
   ],
-  "educationalGoal": "Students will:\n(1) understand basic communication and network systems.\n(2) learn configurations of communication network.\n(3) learn wired and wireless communication systems such as optical fiber and mobile communication systems.\n(4) learn data communication based on computer network systems.",
-  "advice": "This is a fundamental course of communication and network systems.\n\n1. Historical review of communication and network systems\n2. Wired communication\n3. Wireless communication\n4. Data communication\n5. Fundamental technology of communication systems\n\nThis course is related with other subjects such as \"Transmission of Electronic Information\", \"Communication Engineering\", \"Electromagnetic Wave Engineering\" and \"Network Technology of Information and Communication\". Students will learn elemental technologies in the related subjects, since communication and network system consists of widely rage of technology.",
-  "books": "Text: Japanese text\nReference book: ICT white paper, the latest version, by MIC, Free download will be available by MIC Webpage.",
-  "requiredKnowledge": "Ask questions positively, if students do not understand enough. Students will learn related things of internet in \"Network Technology of Information and Communication\".",
+  "educationalGoal": "Artificial intelligence that can bring intelligence to machines is becoming increasingly important in various areas of the ICT society. This course aims to have students master basic technologies related to artificial intelligence, and in particular, to deepen their understanding of deep learning and its application systems, which are important technologies for realizing intelligent systems. Students will further develop their basic knowledge of intelligent information processing and deepen their understanding of how to build intelligent systems.",
+  "advice": "Course Description and Expectations for Students This course covers the basic to application of intelligent information processing. Students will learn the basic techniques for various deep learning and build and evaluate application systems based on these deep learning techniques. Students are expected to be able to evaluate the methods and challenges of implementing an application system for intelligent information processing.",
+  "books": "Textbooks:Deep Learning with Python, Second Edition [Manning] Reference books:None Reserved books:None",
+  "requiredKnowledge": "Knowledge/Skills Needed to Take This Course(Prerequisites) It is desirable for students to have knowledge and programming skills on intelligent information processing at the undergraduate level.",
   "activityGoals": [
     {
       "index": "①",
-      "type": "M",
-      "body": "Be able to explain basic configurations and elements of communication systems."
+      "type": "D",
+      "body": "Be able to explain basic technology in intelligent information processing."
     },
     {
       "index": "②",
-      "type": "M",
-      "body": "Be able to explain key terms used in communication systems."
+      "type": "D",
+      "body": "Be able to understand various techniques for deep learning."
     },
     {
       "index": "③",
-      "type": "M",
-      "body": "Be able to explain principle communication methods used in communication systems."
+      "type": "D,F",
+      "body": "Be able to implement various deep learning algorithms and build their application systems."
+    },
+    {
+      "index": "④",
+      "type": "D,F",
+      "body": "Be able to evaluate application systems based on various deep learning algorithms."
     }
   ],
   "evaluationWeights": [
     {
       "label": "総合評価割合",
       "values": [
-        "40",
-        "30",
-        "30",
         "0",
+        "0",
+        "50",
+        "50",
         "0",
         "0",
         "0",
@@ -54,9 +55,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -66,10 +67,10 @@
     {
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
-        "40",
-        "30",
-        "30",
         "0",
+        "0",
+        "50",
+        "50",
         "0",
         "0",
         "0",
@@ -77,9 +78,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -89,10 +90,10 @@
     {
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
-        "40",
-        "30",
-        "30",
         "0",
+        "0",
+        "50",
+        "50",
         "0",
         "0",
         "0",
@@ -100,9 +101,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -123,9 +124,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -133,7 +134,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -146,9 +147,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -169,9 +170,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -180,118 +181,62 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "(1) Explain basic configurations and elements of communication systems.\n(2) Explain key terms used in communication systems.\n(3) Explain principle communication methods used in communication systems.",
-    "standard": "(1) Explain basic configurations and almost all main elements of communication systems.\n(2) Explain most of key terms used in communication systems.\n(3) Explain most of principle communication methods used in communication systems."
+    "ideal": "In addition to the standard achievement level, the student is able to -challenge research issues and build an application system in intelligent information processing.",
+    "standard": "Understand the week-by-week content covered in this course and be able to generally solve typical exercises related to the content."
   },
   "clipProcess": "",
   "lessons": [
     {
       "index": "1",
-      "content": "Course introduction\n1. Historical review of communication and\nnetwork systems\n History and roles of communication systems\nin our society",
-      "operation": "Lecture with text book,\nslides and handouts.\nConduct quiz to confirm\nunderstanding.",
-      "assignments": "Read Ch. 1 of the text book\nfor preparation and review.",
-      "minutes": "Prepar\nation\n100\nReview\n 100"
+      "content": "Course introduction What is artificial intelligence? What is deep learning?",
+      "operation": "Lecture and Q&A",
+      "assignments": "Prepare for the next class about the mathematical building blocks of neural networks.",
+      "minutes": "180"
     },
     {
       "index": "2",
-      "content": "2. Fundamental technologies of communication\nsystems\n Transmission with wired and wireless\n Roles of communication systems\n Methods of information transmission\n Communication lines and network services",
-      "operation": "Lecture with text book,\nslides and handouts.\nConduct quiz to confirm\nunderstanding.",
-      "assignments": "Read Ch. 2 of the text book\nfor preparation and review.",
-      "minutes": "Prepar\nation\n100\nReview\n 100"
+      "content": "Before we begin: the mathematical building blocks of neural network",
+      "operation": "Lecture and Q&A",
+      "assignments": "Prepare for the next class about getting started with neural networks.",
+      "minutes": "180"
     },
     {
       "index": "3",
-      "content": "2. Fundamental technologies of communication\nsystems\n Methods of modulation and demodulation\n Methods of multiplex transmission\n Self-check of fundamental technologies of\ncommunication systems.",
-      "operation": "Lecture with text book,\nslides and handouts.\nConduct quiz to confirm\nunderstanding.",
-      "assignments": "Read Ch. 2 of the text book\nfor preparation and review.",
-      "minutes": "Prepar\nation\n100\nReview\n 100"
+      "content": "Getting started with neural networks",
+      "operation": "Lecture and Q&A",
+      "assignments": "Prepare for the next class on the fundamentals of machine learning.",
+      "minutes": "180"
     },
     {
       "index": "4",
-      "content": "3. Wired communication systems\n Analog and digital systems\n Configurations of telephone",
-      "operation": "Lecture with text book,\nslides and handouts.\nConduct quiz to confirm\nunderstanding.",
-      "assignments": "Read Ch. 3 of the text book\nfor preparation and review.",
-      "minutes": "Prepar\nation\n100\nReview\n 100"
+      "content": "Fundamentals of machine learning",
+      "operation": "Lecture and Q&A",
+      "assignments": "Prepare for the next class on deep learning for computer vision.",
+      "minutes": "180"
     },
     {
       "index": "5",
-      "content": "3. Wired communication systems\n  Facsimile\n Communication by carrier waves",
-      "operation": "Lecture with text book,\nslides and handouts.\nConduct quiz to confirm\nunderstanding.",
-      "assignments": "Read Ch. 3 of the text book\nfor preparation and review.",
-      "minutes": "Prepar\nation\n100\nReview\n 100"
+      "content": "Deep learning for computer vision",
+      "operation": "Lecture and Q&A",
+      "assignments": "Prepare for the next class on deep learning for text and sequences.",
+      "minutes": "180"
     },
     {
       "index": "6",
-      "content": "3. Wired communication systems\n Transmission lines\n Self-check about wired communication systems",
-      "operation": "Lecture with text book,\nslides and handouts.\nConduct quiz to confirm\nunderstanding.",
-      "assignments": "Read Ch. 3 of the text book\nfor preparation and review.",
-      "minutes": "Prepar\nation\n100\nReview\n 100"
+      "content": "Deep learning for text and sequences",
+      "operation": "Lecture and Q&A",
+      "assignments": "Prepare presentation to be given in the next class.",
+      "minutes": "180"
     },
     {
       "index": "7",
-      "content": "Midterm examination",
-      "operation": "Midterm exam from the 1st\nto the 6th. After the\nexam, explain the\ncontents and important\nthings.",
-      "assignments": "Review the materials so far",
-      "minutes": "Prepar\nation\n100\nReview\n 100"
-    },
-    {
-      "index": "8",
-      "content": "4. Wireless communication systems\n Types and features of radio waves\n Types and features of antennas",
-      "operation": "Lecture with text book,\nslides and handouts.\nConduct quiz to confirm\nunderstanding.",
-      "assignments": "Read Ch. 4 of the text book\nfor preparation and review.",
-      "minutes": "Prepar\nation\n100\nReview\n 100"
-    },
-    {
-      "index": "9",
-      "content": "4. Wireless communication systems\n Types and features of feeders\n Configurations of wireless communication\nsystems",
-      "operation": "Lecture with text book,\nslides and handouts.\nConduct quiz to confirm\nunderstanding.",
-      "assignments": "Read Ch. 4 of the text book\nfor preparation and review.",
-      "minutes": "Prepar\nation\n100\nReview\n 100"
-    },
-    {
-      "index": "10",
-      "content": "4. Wireless communication systems\n Types and features of feeders\n Configurations of wireless communication\nsystems",
-      "operation": "Lecture with text book,\nslides and handouts.\nConduct quiz to confirm\nunderstanding.",
-      "assignments": "Read Ch. 4 of the text book\nfor preparation and review.",
-      "minutes": "Prepar\nation\n100\nReview\n 100"
-    },
-    {
-      "index": "11",
-      "content": "5. Data communication technologies\n Fundamental configurations of data\ncommunication systems\n Types of communication line\n Transmission of data",
-      "operation": "Lecture with text book,\nslides and handouts.\nConduct quiz to confirm\nunderstanding.",
-      "assignments": "Read Ch. 5 of the text book\nfor preparation and review.",
-      "minutes": "Prepar\nation\n100\nReview\n 100"
-    },
-    {
-      "index": "12",
-      "content": "Special lecture by lecturer from academia for ba\nsic research on wireless network technology and\ncareer transmission technology",
-      "operation": "Lecture research trends\nby the lecturer.",
-      "assignments": "Review the lecture materials.",
-      "minutes": "Prepar\nation\n100\nReview\n 100"
-    },
-    {
-      "index": "13",
-      "content": "Special lecture by lecturer from industry",
-      "operation": "Lecture industrial topics\nby the lecturer.",
-      "assignments": "Review the lecture materials.",
-      "minutes": "Prepar\nation\n100\nReview\n 100"
-    },
-    {
-      "index": "14",
-      "content": "Final examination",
-      "operation": "Final exam from the 8th\nto the 10th. After the\nexam, explain the\ncontents and important\nthings.",
-      "assignments": "Review the materials so far\nto prepare to the final exam.",
-      "minutes": "Prepar\nation\n100\nReview\n 100"
-    },
-    {
-      "index": "15",
-      "content": "Inclusive summary",
-      "operation": "Analysis of weak points\nfor exam.\nLecture of communication\nsystems in the future\nQuestionnaire",
-      "assignments": "Total review of the text book\nand exam.",
-      "minutes": "Prepar\nation\n100\nReview\n 100"
+      "content": "Integrated learning Review Self-evaluation",
+      "operation": "Presentation and discussion",
+      "assignments": "Review Self-check",
+      "minutes": "180"
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　K416-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Electronics and Information Systems Engineering\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                情報通信システム\n                Communication Network Systems\n\n              2\n              K416-01\n\n                2026年度\n\n                2nd year 2nd semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  YOKOTANI Tetsuya\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Communication Technology\n2.Wired Communication\n3.Wireless Communication\n4.Data Communication\n5.Network\n\n              Students will:\n(1) understand basic communication and network systems.\n(2) learn configurations of communication network.\n(3) learn wired and wireless communication systems such as optical fiber and mobile communication systems.\n(4) learn data communication based on computer network systems.\n\n              授業の概要および学習上の助言\n\n              This is a fundamental course of communication and network systems.\n\n1. Historical review of communication and network systems\n2. Wired communication\n3. Wireless communication\n4. Data communication\n5. Fundamental technology of communication systems\n\nThis course is related with other subjects such as \"Transmission of Electronic Information\", \"Communication Engineering\", \"Electromagnetic Wave Engineering\" and \"Network Technology of Information and Communication\". Students will learn elemental technologies in the related subjects, since communication and network system consists of widely rage of technology.\n\n              教科書および参考書・リザーブドブック\n\n              Text: Japanese text\nReference book: ICT white paper, the latest version, by MIC, Free download will be available by MIC Webpage.\n\n              履修に必要な予備知識や技能\n\n              Ask questions positively, if students do not understand enough. Students will learn related things of internet in \"Network Technology of Information and Communication\".\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                M\n                Be able to explain basic configurations and elements of communication systems.\n\n                ②\n                M\n                Be able to explain key terms used in communication systems.\n\n                ③\n                M\n                Be able to explain principle communication methods used in communication systems.\n\n                ④\n\n                ⑤\n\n                ⑥\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                40\n\n                30\n\n                30\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                40\n\n                30\n\n                30\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                40\n\n                30\n\n                30\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  コラボレーションとリーダーシップ\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  発表・表現・伝達する力\n\n                    0\n\n                    0\n\n                  ",
-  "courseId": "2026:fall:K416-01:0:858",
+  "rawText": "金沢工業大学 学習支援計画書 G244-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\n(Provided by all courses)\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     (Provided by all courses)\nLiberal Arts Courses\nTransdisciplinary Learning\nAI応用Ⅰ(深層学習)(春期集中講義)\nDeep Learning  1 G244-01  2024年度\n 1st year 2nd semester  修学規程第4条を参照\n    担当教員名\n INOUE Takuhiro\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Artificial Intelligence 2.Machine Learning 3.Deep Learning 4.Neural Network 5.Computer vision  Artificial intelligence that can bring intelligence to machines is becoming increasingly important in various areas of the ICT society. This course aims to have students master basic technologies related to artificial intelligence, and in particular, to deepen their understanding of deep learning and its application systems, which are important technologies for realizing intelligent systems. Students will further develop their basic knowledge of intelligent information processing and deepen their understanding of how to build intelligent systems.\n    授業の概要および学習上の助言   Course Description and Expectations for Students This course covers the basic to application of intelligent information processing. Students will learn the basic techniques for various deep learning and build and evaluate application systems based on these deep learning techniques. Students are expected to be able to evaluate the methods and challenges of implementing an application system for intelligent information processing.\n    教科書および参考書・リザーブドブック   Textbooks:Deep Learning with Python, Second Edition [Manning] Reference books:None Reserved books:None\n    履修に必要な予備知識や技能   Knowledge/Skills Needed to Take This Course(Prerequisites) It is desirable for students to have knowledge and programming skills on intelligent information processing at the undergraduate level.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① D Be able to explain basic technology in intelligent information processing.   ② D Be able to understand various techniques for deep learning.   ③ D,F Be able to implement various deep learning algorithms and build their application systems.   ④ D,F Be able to evaluate application systems based on various deep learning algorithms.   ⑤     ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 0 0 50 50 0 0 0 100     指標と評価割合 総合評価割合 0 0 50 50 0 0 0 100   総合力指標 知識を取り込む力 0 0 50 50 0 0 0 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ①      ②     ③     ④     ⑤     ⑥     クイズ\n小テスト ①      ②     ③     ④     ⑤     ⑥     レポート ① レ Students will be evaluated on two reports.   ② レ   ③ レ   ④ レ   ⑤     ⑥     成果発表\n(口頭・実技) ① レ Students are required to give two presentations on the submitted reports.   ② レ   ③ レ   ④ レ   ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ①      ②     ③     ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     In addition to the standard achievement level, the student is able to -challenge research issues and build an application system in intelligent information processing. Understand the week-by-week content covered in this course and be able to generally solve typical exercises related to the content.\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習課題に要する標準的な時間を記載してあります。日々の自学自習時間全体としては、各授業に応じた時間(例えば2単位科目の場合、予習2時間・復習2時間/週)を取るよう努めてください。詳しくは教員の指導に従って下さい。     授業明細   回数 学習内容 授業の運営方法 学習課題(予習・復習) 時間:分※     1  Course introduction What is artificial intelligence? What is deep learning? Lecture and Q&A Prepare for the next class about the mathematical building blocks of neural networks.  180   2  Before we begin: the mathematical building blocks of neural netw",
+  "courseId": "2024:spring:G029-01:0:858",
   "language": "en"
 }

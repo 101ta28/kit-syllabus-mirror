@@ -1,80 +1,65 @@
 {
   "sourceIndex": 146,
   "sourceUrl": "/opsyllabus/kitos0110/146/1",
-  "importedAt": "2026-06-08T09:33:56.158Z",
-  "title": "機械工学専門実験・演習Ｂ",
-  "subtitle": "Mechanical Engineering Major Lab/ Exercises B",
-  "courseType": "Major ProgramMajor Courses",
-  "credits": "3",
-  "term": "2026年度\n\n                3rd year 1st semester3rd year 2nd semester",
+  "importedAt": "2026-06-09T01:29:20.494Z",
+  "title": "材料科学Ⅱ",
+  "subtitle": "Materials Science II",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "2",
+  "term": "2024年度\n 2nd year 2nd semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "NAGANUMA Kaname",
-    "HAYASHI Akio",
-    "SAKAMOTO Shigehiko",
-    "KATO Hideharu",
-    "KISHI Yoichi"
+    "KONDO Yasumitsu",
+    "KISHI Yoichi",
+    "SEGAWA Akio"
   ],
   "keywords": [
-    "Mechanical processing",
-    "Manufacturing system",
-    "Materials science",
-    "Energy and Power"
+    "Iron and steel materials 2.Non-ferrous materials 3.Equilibrium phase diagram 4.Microstructure control 5.Phase transformation"
   ],
-  "educationalGoal": "Students will:\n(1) Acquire sufficient understanding and application of the following specialized subjects: mechanical processing, materials science, and internal combustion engine.\n(2) Acquire technical writing skills.\n(3) Learn how to create presentation materials and presentation scripts.",
-  "advice": "We will cover the following topics:\n Mechanical processing: cutting conditions, tool geometry, cutting force, and surface finish\n Manufacturing systems: numerical control (NC), NC lathe, and NC simulator\n Materials Science: Observation of microstructures and hardness testing\n Energy and Power: Fuel economy, thermal efficiency and energy conversion system\n\nStudents are required to actively participate in class.\nStudents are expected to check for various messages and materials in class.\nStudents should not be absent from class, as they may not receive the handouts.",
-  "books": "Textbooks: Mechanical Engineering Major Lab/Exercises, Kanazawa Institute of Technology (in Japanese)\nReference books:\nReserved books:",
-  "requiredKnowledge": "Preview and review related specialized subjects.\nCreate and submit technical preparatory reports before each experimental class.\nHave basic knowledge of related specialized subjects.\nKnow how to use a calculator and Microsoft Office (Excel, Word, and PowerPoint).",
+  "educationalGoal": "To design and manufacture machines and structures that exhibit superior performance, it is necessary to select materials based on an understanding of the characteristics of the elements of which they are composed. In addition, the microstructures and properties of materials change after heat treatment and processing. In this course, students learn how to modify materials by heat treatment and processing.",
+  "advice": "The outline of the class is as follows: Fe-C phase diagram and normal microstructures Heat treatment and microstructure of steel Work hardening, recovery, and re-crystallization Solid solution strengthening, precipitation strengthening, and crystal grain refinement strengthening",
+  "books": "Textbooks: Reference books: Reserved books:",
+  "requiredKnowledge": "It is strongly recommended that students take this course after reviewing and fully understanding the contents of Materials Science I.",
   "activityGoals": [
     {
       "index": "①",
-      "type": "D,G,H,P",
-      "body": "Be able to summarize the experimental results."
+      "type": "D,J,K",
+      "body": "Be able to explain the relationship between an Fe-C phase diagram and normal microstructures."
     },
     {
       "index": "②",
-      "type": "A,D,F,G,N,O,P",
-      "body": "Be able to actively participate in experiments based on your knowledge of related specialized subjects."
+      "type": "D,J,K",
+      "body": "Be able to explain basic heat-treatment methods for steel."
     },
     {
       "index": "③",
-      "type": "D,F,H,J,M,N,O,P",
-      "body": "Be able to consider the experimental results based on your knowledge of related specialized subjects."
+      "type": "D,J,K",
+      "body": "Be able to explain basic heat-treatment methods for aluminum alloys."
     },
     {
       "index": "④",
-      "type": "D,J,K,M,N,P",
-      "body": "Be able to evaluate the experimental results based on your knowledge of related specialized subjects."
-    },
-    {
-      "index": "⑤",
-      "type": "D,M,K,P",
-      "body": "Be able to use the kinematics model to determine the relationship between experimental and theoretical results."
-    },
-    {
-      "index": "⑥",
-      "type": "A,D,H,M,N,O,P",
-      "body": "Be able to submit and explain your experimental results as a technical report."
+      "type": "D,J,K",
+      "body": "Be able to explain microstructures obtained by plastic deformation, and recovery and re-crystallization"
     }
   ],
   "evaluationWeights": [
     {
       "label": "総合評価割合",
       "values": [
-        "0",
-        "0",
-        "90",
-        "0",
-        "0",
-        "0",
+        "30",
+        "55",
         "10",
+        "0",
+        "0",
+        "0",
+        "5",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -84,20 +69,20 @@
     {
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
-        "0",
-        "0",
-        "90",
-        "0",
-        "0",
-        "0",
+        "30",
+        "55",
         "10",
+        "0",
+        "0",
+        "0",
+        "5",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -107,20 +92,20 @@
     {
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
-        "0",
-        "0",
-        "90",
-        "0",
-        "0",
-        "0",
+        "30",
+        "55",
         "10",
+        "0",
+        "0",
+        "0",
+        "5",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -141,9 +126,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -151,7 +136,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -164,9 +149,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -187,9 +172,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -198,118 +183,118 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "(1) Create thorough technical reports on experimental results using a computer.\n(2) Proactively participate systematically in class experiments based on the related specialized subjects.\n(3) Consider and evaluate your experimental results according to the related specialized subjects.\n(4) Use the kinematics model to compare experimental and theoretical results.\n(5) Explain experimental results in a thorough technical report and submit it for evaluation.",
-    "standard": "(1) Create technical reports on experimental results using a computer.\n(2) Participate in class experiments based on related specialized subjects.\n(3) Consider and evaluate the experimental results according to the related specialized subjects.\n(4) Compare the relationship between experimental and theoretical results.\n(5) Explain experimental results in a technical report and submit it for evaluation."
+    "ideal": "1: Explain the formation process of normal microstructures in carbon steels using an Fe-C phase diagram. 2: Propose heat-treatment conditions of steels using the Fe-C phase diagram, continuous cooling transformation (CCT) curve, and time-temperature transformation (TTT) curve. 2 and 3: Explain the relationship between mechanical properties and phase transformation and/or precipitation caused by heat treatment. 4: Explain the recovery and re-crystallization process for work-hardened materials.",
+    "standard": "1: Explain the relation between carbon content in carbon steels and normal microstructures. 2 and 3: Explain basic technical terms of heat treatment, for example, quenching, tempering, annealing, normalizing, solid-solution treatment, and aging. 4: Explain the relationship between work-hardening and lattice defects."
   },
   "clipProcess": "",
   "lessons": [
     {
       "index": "1",
-      "content": "Guidance\nLearn about how to attend each experiment,\nhow to create a report, and safety\nguidelines.",
-      "operation": "Lecture and Q&A",
-      "assignments": "(Preparation) Check the\nguidance materials\n\n(Review) Confirmation of\nattendance for each\nexperiment, report creation\nmethod, and safety guidelines",
-      "minutes": "100\n\n100"
+      "content": "Lecture: Course introduction Self-check: Review incomplete knowledge from Materials Science I. Develop future learning plans.",
+      "operation": "Lecture Q&A session",
+      "assignments": "Understand the course objectives. Review Materials Science I.",
+      "minutes": "60"
     },
     {
       "index": "2",
-      "content": "Experiments in Mechanical Processing (1)\nEffect of tool geometry on cutting force and\nmachined surface\nEvaluate cutting characteristics in four\ngroups. Select the optimum conditions from the\nexperimental results using the cutting edge\nangle and nose radius as parameters.",
-      "operation": "Lecture, experimental\nactivities, and Q&A",
-      "assignments": "Prepare the technical\npreparatory reports\nCreate 1st technical reports",
-      "minutes": "120"
+      "content": "Lecture: Learn the characteristic points (e.g., melting point, transformation point, eutectic point, and eutectoid point) expressed as an Fe-C phase diagram and the formation process of a normal microstructure.",
+      "operation": "Lecture Q&A session Exercises",
+      "assignments": "Review how to use a phase diagram.",
+      "minutes": "60"
     },
     {
       "index": "3",
-      "content": "Experiments in Mechanical Processing (2)\nEffect of cutting conditions on cutting force\nand machined surface\nEvaluate cutting characteristics in four groups.\nSelect the optimum conditions from the results\nusing the cutting speed and feed rate as\nparameters.",
-      "operation": "Lecture, experimental\nactivities, and Q&A",
-      "assignments": "Create 2nd technical reports",
-      "minutes": "120"
+      "content": "Lecture: Learn the basics of heat treatment for carbon steel and phase transformation of carbon steel.",
+      "operation": "Lecture Q&A session Exercises",
+      "assignments": "Review crystal structures of alpha, gamma, and delta phases in Fe-C phase diagram",
+      "minutes": "60"
     },
     {
       "index": "4",
-      "content": "Experiments in Mechanical Processing (3)\nReview reports summarizing experimental results\nand considerations conducted in classes 4 and 5.",
-      "operation": "Lecture, experimental\nactivities, and Q&A\nSelf-check and\nself-reflection",
-      "assignments": "Create final technical reports",
-      "minutes": "120"
+      "content": "Quiz 1: Check your level of understanding of classes 1-3. Lecture: Understand the relationship between mechanical properties and microstructure obtained by heat treatment.",
+      "operation": "Quiz 1 Lecture Q&A session",
+      "assignments": "Review the content of classes 1-3 to prepare for Quiz 1.",
+      "minutes": "180"
     },
     {
       "index": "5",
-      "content": "Experiments in Manufacturing Systems (1)\nLearn about NC programming and operation of the\nNC simulator.\nParticipate in team activity to machine\na workpiece with an NC lathe.",
-      "operation": "Lecture, experimental\nactivities, and Q&A",
-      "assignments": "Prepare the technical\npreparatory reports\nCreate 1st technical reports",
-      "minutes": "120"
+      "content": "Self-reflection class: Review Quiz 1 and its answers. As needed, review previous lectures to answer questions and reinforce knowledge. Lecture: Learn the TTT curve (also called the S curve) and CCT curve.",
+      "operation": "Lecture Q&A session Exercises",
+      "assignments": "Review classes 1-4 to answer your questions.",
+      "minutes": "60"
     },
     {
       "index": "6",
-      "content": "Experiments in Manufacturing Systems (2)\nTeam presentation on an NC program and its\nproductivity.\nPreparation for the intermediate report.",
-      "operation": "Lecture, experimental\nactivities, and Q&A",
-      "assignments": "Create 2nd technical reports",
-      "minutes": "120"
+      "content": "Lecture: Further learn the TTT curve and CCT curve.",
+      "operation": "Lecture Q&A session",
+      "assignments": "Review technical terms of heat treatment using JIS G0201.",
+      "minutes": "60"
     },
     {
       "index": "7",
-      "content": "Experiments in Manufacturing Systems (3)\nEvaluate accuracy of the machined workpiece.\nPrepare for the final report.\n\nSelf-check\nReview the content learned in the experiment,\nself-check the final report, and prepare for\nfuture study.",
-      "operation": "Lecture, experimental\nactivities, and Q&A\nSelf-check and self-\nreflection",
-      "assignments": "Create final technical reports",
+      "content": "Lecture: Learn tempering and temper brittleness of steels. Learn the Charpy pendulum impact test to evaluate temper brittleness.",
+      "operation": "Lecture Q&A session Exercises",
+      "assignments": "Study JIS Z2242, “Method for Charpy pendulum impact test of metallic materials.”",
       "minutes": "120"
     },
     {
       "index": "8",
-      "content": "Factory tour and company research\nLearn about the relationship between\nmanufacturing and engineering in a company.",
-      "operation": "Lecture and Q&A",
-      "assignments": "(Preparation) Browse the home\npage of the specified company\nand understand the products\nthat are manufactured and\nsold.\n\n(Review) A report on the\nrelationship between\nmanufacturing and engineering\nin companies.",
-      "minutes": "120\n\n120"
+      "content": "Quiz 2: Check the level of understanding of lectures from classes 4-7. Lecture: Understand the outline of microstructure control and material strengthening.",
+      "operation": "Quiz 2 Lecture Q&A session",
+      "assignments": "Review classes 4-7.",
+      "minutes": "120 60"
     },
     {
       "index": "9",
-      "content": "Experiments in materials science (1)\n\nConduct hardness testing of metals for a machine\n structure.",
-      "operation": "Lecture, experimental acti\nvities, and Q&A",
-      "assignments": "Prepare the technical preparat\nory reports\nCreate 1st technical reports",
+      "content": "Self-reflection class: Review Quiz 2 and its answer. As needed, review previous lectures to answer questions and reinforce knowledge. Lecture: Learn microstructure control with plastic working and heat treatment. Understand the mechanisms of microstructure control with work hardening, recovery, and re-crystallization.",
+      "operation": "Lecture Q&A session Exercises",
+      "assignments": "Review classes 1-8. Review technical terms of microstructure control.",
       "minutes": "120"
     },
     {
       "index": "10",
-      "content": "Experiments in materials science (2)\nConduct optical microscope observation of metals\n for a machine structure.",
-      "operation": "Lecture, experimental acti\nvities, and Q&A",
-      "assignments": "Create 1st technical reports",
-      "minutes": "120"
+      "content": "Lecture: Learn solid solution strengthening and precipitation strengthening. Understand characteristics of aluminum alloys subjected to these strengthening techniques.",
+      "operation": "Lecture Q&A session",
+      "assignments": "Research relation between strengthening mechanisms and dislocations after the class.",
+      "minutes": "60"
     },
     {
       "index": "11",
-      "content": "Experiments in materials science (3)\nDiscuss the relationship between macrostructure,\nhardness, and heat treatment.\n\nSelf-check\nReview the content learned in the experiment, se\nlf-check the final report, and use it for future\n study planning.",
-      "operation": "Discussion, and Q and A\nSelf-check and self- refle\nction",
-      "assignments": "Create final technical reports",
-      "minutes": "120"
+      "content": "Lecture: Crystal grain refinement strengthening.",
+      "operation": "Lecture Q&A session",
+      "assignments": "Research relation between strengthening mechanisms and crystal grain refinement after the class.",
+      "minutes": "60"
     },
     {
       "index": "12",
-      "content": "Experiments in Evaluation of Electric vehicle mo\ndel\nPerform performance tests under constant speed\nconditions.",
-      "operation": "Lecture, experimental\nactivities, and Q&A",
-      "assignments": "Prepare the technical\npreparatory reports\nCreate 1st technical reports",
-      "minutes": "120"
+      "content": "Quiz 3: Check your level of understanding of lectures from classes 8-12. Integrated learning: Discuss the functions of materials in mechanical engineering.",
+      "operation": "Quiz 3 Discussion",
+      "assignments": "Review classes 8-12.",
+      "minutes": "180 60"
     },
     {
       "index": "13",
-      "content": "Research investigation for Internal Combustion a\nnd ICE vehicle\nReview and discuss the experimental results.",
-      "operation": "Lecture, experimental\nactivities, and Q&A",
-      "assignments": "Create 2nd technical reports",
+      "content": "Self-reflection class: Review the answers of Quiz 3. As needed, review previous lectures to answer questions and reinforce knowledge. Integrated learning: To deepen your understanding of this course, a Q&A session is conducted.",
+      "operation": "Lecture Q&A session Exercises",
+      "assignments": "Review your notes, the textbook, and other materials before the class.",
       "minutes": "120"
     },
     {
       "index": "14",
-      "content": "Experiments in Evaluation of electric vehicle mo\ndel\nMake a presentation and participate in\ndiscussions on Electric vehicle model and ICE ve\nhicle performance in enery conversion issue",
-      "operation": "Lecture, experimental\nactivities, and Q&A\nSelf-check and\nself-reflection",
-      "assignments": "Create final technical reports",
-      "minutes": "120"
+      "content": "Integrated learning: Review the content of all classes. Exam: Evaluate the degree of your achievement for the entire course.",
+      "operation": "Lecture Q&A session",
+      "assignments": "Review the content of all classes.",
+      "minutes": "360"
     },
     {
       "index": "15",
-      "content": "Self-check",
-      "operation": "Q&A Self-evaluation",
-      "assignments": "Review items that are not yet\nfully understood.",
-      "minutes": "100"
+      "content": "Self-reflection class: Review the exam and its answers. As needed, review previous lectures to answer questions and reinforce knowledge. Self-check: Self-check of the quiz, exam, and report. Consider the future learning plan.",
+      "operation": "Review the exam Study exam answers and request explanations as needed Review comments on the graded report",
+      "assignments": "Create and submit a report.",
+      "minutes": "120 120"
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　E032-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Mechanical Engineering(〜2024)\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                機械工学専門実験・演習Ｂ\n                Mechanical Engineering Major Lab/ Exercises B\n\n              3\n              E032-01\n\n                2026年度\n\n                3rd year 1st semester3rd year 2nd semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  NAGANUMA Kaname, HAYASHI Akio, SAKAMOTO Shigehiko, KATO Hideharu, KISHI Yoichi\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Mechanical processing\n2.Manufacturing system\n3.Materials science\n4.Energy and Power\n\n              Students will:\n(1) Acquire sufficient understanding and application of the following specialized subjects: mechanical processing, materials science, and internal combustion engine.\n(2) Acquire technical writing skills.\n(3) Learn how to create presentation materials and presentation scripts.\n\n              授業の概要および学習上の助言\n\n              We will cover the following topics:\n Mechanical processing: cutting conditions, tool geometry, cutting force, and surface finish\n Manufacturing systems: numerical control (NC), NC lathe, and NC simulator\n Materials Science: Observation of microstructures and hardness testing\n Energy and Power: Fuel economy, thermal efficiency and energy conversion system\n\nStudents are required to actively participate in class.\nStudents are expected to check for various messages and materials in class.\nStudents should not be absent from class, as they may not receive the handouts.\n\n              教科書および参考書・リザーブドブック\n\n              Textbooks: Mechanical Engineering Major Lab/Exercises, Kanazawa Institute of Technology (in Japanese)\nReference books:\nReserved books:\n\n              履修に必要な予備知識や技能\n\n              Preview and review related specialized subjects.\nCreate and submit technical preparatory reports before each experimental class.\nHave basic knowledge of related specialized subjects.\nKnow how to use a calculator and Microsoft Office (Excel, Word, and PowerPoint).\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                D,G,H,P\n                Be able to summarize the experimental results.\n\n                ②\n                A,D,F,G,N,O,P\n                Be able to actively participate in experiments based on your knowledge of related specialized subjects.\n\n                ③\n                D,F,H,J,M,N,O,P\n                Be able to consider the experimental results based on your knowledge of related specialized subjects.\n\n                ④\n                D,J,K,M,N,P\n                Be able to evaluate the experimental results based on your knowledge of related specialized subjects.\n\n                ⑤\n                D,M,K,P\n                Be able to use the kinematics model to determine the relationship between experimental and theoretical results.\n\n                ⑥\n                A,D,H,M,N,O,P\n                Be able to submit and explain your experimental results as a technical report.\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                0\n\n                0\n\n                90\n\n                0\n\n                0\n\n                0\n\n                10\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                0\n\n                0\n\n                90\n\n                0\n\n                0\n\n                0\n\n                10\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                0\n\n                0\n\n                90\n\n                0\n\n",
-  "courseId": "2026:spring:E032-01:0:146",
+  "rawText": "金沢工業大学 学習支援計画書 E023-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Mechanical Engineering\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n材料科学Ⅱ\nMaterials Science II  2 E023-01  2024年度\n 2nd year 2nd semester  修学規程第4条を参照\n    担当教員名\n KONDO Yasumitsu, KISHI Yoichi, SEGAWA Akio\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Iron and steel materials 2.Non-ferrous materials 3.Equilibrium phase diagram 4.Microstructure control 5.Phase transformation  To design and manufacture machines and structures that exhibit superior performance, it is necessary to select materials based on an understanding of the characteristics of the elements of which they are composed. In addition, the microstructures and properties of materials change after heat treatment and processing. In this course, students learn how to modify materials by heat treatment and processing.\n    授業の概要および学習上の助言   The outline of the class is as follows: Fe-C phase diagram and normal microstructures Heat treatment and microstructure of steel Work hardening, recovery, and re-crystallization Solid solution strengthening, precipitation strengthening, and crystal grain refinement strengthening\n    教科書および参考書・リザーブドブック   Textbooks: Reference books: Reserved books:\n    履修に必要な予備知識や技能   It is strongly recommended that students take this course after reviewing and fully understanding the contents of Materials Science I.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① D,J,K Be able to explain the relationship between an Fe-C phase diagram and normal microstructures.   ② D,J,K Be able to explain basic heat-treatment methods for steel.   ③ D,J,K Be able to explain basic heat-treatment methods for aluminum alloys.   ④ D,J,K Be able to explain microstructures obtained by plastic deformation, and recovery and re-crystallization   ⑤     ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 30 55 10 0 0 0 5 100     指標と評価割合 総合評価割合 30 55 10 0 0 0 5 100   総合力指標 知識を取り込む力 30 55 10 0 0 0 5 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ An exam is given at the end of the semester to evaluate your degree of achievement.   ② レ   ③ レ   ④ レ   ⑤     ⑥     クイズ\n小テスト ① レ Tests are given after each chapter is finished to improve your level of understanding.   ② レ   ③ レ   ④ レ   ⑤     ⑥     レポート ① レ Students will be evaluated on the report they prepare.   ② レ   ③ レ   ④ レ   ⑤     ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ① レ After self-grading the quiz, create and submit a self-checking sheet and consider your future study plans.   ② レ   ③ レ   ④ レ   ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     1: Explain the formation process of normal microstructures in carbon steels using an Fe-C phase diagram. 2: Propose heat-treatment conditions of steels using the Fe-C phase diagram, continuous cooling transformation (CCT) curve, and time-temperature transformation (TTT) curve. 2 and 3: Explain the relationship between mechanical properties and phase transformation and/or precipitation caused by heat treatment. 4: Explain the recovery and re-crystallization process for work-hardened materials.  1: Explain the relation between carbon content in carbon steels and normal microstructures. 2 and 3: Explain basic technical terms of heat treatment, for example, quenching, tempering, annealing, normalizing, solid-solution treatment, and aging. 4: Explain the relationship between work-hardening and lattice defects.\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習課題に要する標準的な時間を記載してあります。日々の自学自習時間全体としては、各授業に応じた時",
+  "courseId": "2024:fall:E012-01:0:146",
   "language": "en"
 }

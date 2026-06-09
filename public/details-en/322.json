@@ -1,65 +1,52 @@
 {
   "sourceIndex": 322,
   "sourceUrl": "/opsyllabus/kitos0110/322/1",
-  "importedAt": "2026-06-08T09:33:59.615Z",
-  "title": "情報システムデザイン",
-  "subtitle": "Information Systems Design",
-  "courseType": "Major ProgramMajor Courses",
+  "importedAt": "2026-06-09T01:29:22.079Z",
+  "title": "電気機器Ⅰ",
+  "subtitle": "Electrical Machinery I",
+  "courseType": "Major Program\nMajor Courses",
   "credits": "2",
-  "term": "2026年度\n\n                3rd year 1st semester",
+  "term": "2024年度\n 3rd year 1st semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "KUROSE Hiroshi"
+    "TSUDA Toshihiro",
+    "FUKAMI Tadashi"
   ],
   "keywords": [
-    "Information systems",
-    "Reliability",
-    "Availability",
-    "Virtualization",
-    "Project management"
+    "Magnetic system 2.Transformer 3.Direct current machine"
   ],
-  "educationalGoal": "In addition to IT knowledge, project management and business knowledge are required to build or use information systems. In information system construction, the user and the builder confirm the requirements for many items such as functions, reliability, shortening of disaster recovery time, and improvement of operability. In this course, students will learn basic knowledge about the construction and use of information systems.",
-  "advice": "Information systems are created by integrating IT knowledge such as programs, databases, networks, and system configurations. In order to design a good information system, it is necessary to confirm the usage requirements for many items such as functions, reliability, operability, and operability. In design, it is necessary to consider important matters, costs and trade-offs. In information system construction, both the builder side and the user side are constructed by the project, so a project management method is required. In this class, students will learn the basic knowledge necessary to build an information system.",
-  "books": "N/A",
-  "requiredKnowledge": "Students should bring a laptop.\nThe prerequisite skills for this course are programming, databases, networking, and system architecture.",
+  "educationalGoal": "Students will: (1) learn basic theories of transformers, such as principles, structures, operating characteristics. (2) learn basic theories of direct current machines, such as principles, structures, operating characteristics, starting methods, and speed control methods.",
+  "advice": "This is the first course in the series of Electrical Machinery. We will cover the following materials: 1. Fundamentals of electric machines, 2. Transformers, 3. Direct current machines. Students are required to actively participate in class.",
+  "books": "Electric Machinery and Apparatus Studies [Corona] (in Japanese)",
+  "requiredKnowledge": "Knowledge of electromagnetics and electric circuits.",
   "activityGoals": [
     {
       "index": "①",
-      "type": "I,J,O",
-      "body": "Be able to explain points to note regarding the design and construction of information systems."
+      "type": "L",
+      "body": "Be able to explain the types of electric machines and magnetic systems."
     },
     {
       "index": "②",
-      "type": "I,J,O,Q",
-      "body": "Be able to break down information systems into components and explain the role of each component."
+      "type": "L",
+      "body": "Be able to understand the transformers and to calculate their operating characteristics."
     },
     {
       "index": "③",
-      "type": "I,J,O,Q",
-      "body": "Be able to integrate each component into a system and set numerical indicators to evaluate."
+      "type": "L",
+      "body": "Be able to understand the direct current machines and to calculate their operating characteristics."
     },
     {
       "index": "④",
-      "type": "I,J,O",
-      "body": "Be able to explain the basics of development life cycle and project management."
-    },
-    {
-      "index": "⑤",
-      "type": "I,J,O",
-      "body": "Be able to explain stakeholders and their roles related to information systems."
-    },
-    {
-      "index": "⑥",
-      "type": "I,J,O",
-      "body": "Be able to explain the method of quantitative evaluation of information systems."
+      "type": "L",
+      "body": "Be able to explain the starting method and speed control principle of direct current machines."
     }
   ],
   "evaluationWeights": [
     {
       "label": "総合評価割合",
       "values": [
-        "40",
         "30",
+        "40",
         "30",
         "0",
         "0",
@@ -69,9 +56,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -81,8 +68,8 @@
     {
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
-        "40",
         "30",
+        "40",
         "30",
         "0",
         "0",
@@ -92,9 +79,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -104,8 +91,8 @@
     {
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
-        "40",
         "30",
+        "40",
         "30",
         "0",
         "0",
@@ -115,9 +102,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -138,9 +125,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -148,7 +135,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -161,9 +148,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -184,9 +171,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -195,118 +182,118 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "In addition to standard achievement goals, the following are required:\n4) Be able to explain the trade-off resolution policy and the reason.\n5) Be able to objectively explain the task from the perspectives of both the user and the builder.\n6) Be able to explain items for improving the system along with priorities.",
-    "standard": "The following three goals can be achieved:\n1) Be able to explain the components of information systems.\n2) Be able to explain how to evaluate information systems.\n3) Be able to explain how to develop and manage information systems."
+    "ideal": "(1) Fully understand the types of electric machines and magnetic systems and explain them. (2) Fully understand the principle and structure of transformers and calculate their operating characteristics (3) Fully understand the principle and structure of direct current machines and calculate their operating characteristics. (4) Fully understand the speed control method of direct current motors and explain them.",
+    "standard": "(1) Understand the types of electric machines and magnetic systems and explain them. (2) Understand the principle and structure of transformers and calculate their operating characteristics (3) Understand the principle and structure of direct current machines and calculate their operating characteristics. (4) Understand the speed control method of direct current motors and explain them."
   },
   "clipProcess": "",
   "lessons": [
     {
       "index": "1",
-      "content": "Class guidance, information systems type",
-      "operation": "Lecture and exercises",
-      "assignments": "Review unclear points",
-      "minutes": "100"
+      "content": "Course introduction",
+      "operation": "Lecture and Q&A",
+      "assignments": "Understand the objectives of class",
+      "minutes": "200"
     },
     {
       "index": "2",
-      "content": "Reliability, availability, disaster recovery",
-      "operation": "Lecture and exercises",
-      "assignments": "Calculation exercise",
-      "minutes": "100"
+      "content": "Types of electric machines and magnetic systems",
+      "operation": "Lecture, practice, Q&A, and self-check",
+      "assignments": "Prepare for Sections 1.1 and 1 .2 of the text book",
+      "minutes": "200"
     },
     {
       "index": "3",
-      "content": "Virtualization",
-      "operation": "Lecture and exercises",
-      "assignments": "Review unclear points",
-      "minutes": "100"
+      "content": "Materials for electric machines",
+      "operation": "Lecture, practice, Q&A, and self-check",
+      "assignments": "Prepare for Section 1.3 of the text book",
+      "minutes": "200"
     },
     {
       "index": "4",
-      "content": "Data management",
-      "operation": "Lecture and exercises",
-      "assignments": "Review unclear points",
-      "minutes": "100"
+      "content": "Losses, efficiency and rating of electric machines",
+      "operation": "Lecture, practice, Q&A, and self-check",
+      "assignments": "Prepare for Section 1.4 of the text book",
+      "minutes": "200"
     },
     {
       "index": "5",
-      "content": "Networking, synchronization",
-      "operation": "Lecture and exercises",
-      "assignments": "Review unclear points",
-      "minutes": "100"
+      "content": "Test about the contents learned in the classes from No.2 to 4",
+      "operation": "Test",
+      "assignments": "Prepare for the test (solve the exercises in Chapter 1 of the text book )",
+      "minutes": "200"
     },
     {
       "index": "6",
-      "content": "System operations",
-      "operation": "Lecture and exercises",
-      "assignments": "Review unclear points",
-      "minutes": "100"
+      "content": "The ideal transformers",
+      "operation": "Lecture, practice, Q&A, and self-check",
+      "assignments": "Prepare for Section 2.1 of the text book",
+      "minutes": "200"
     },
     {
       "index": "7",
-      "content": "System evaluation",
-      "operation": "Lecture and exercises",
-      "assignments": "Review unclear points",
-      "minutes": "100"
+      "content": "Equivalent circuit of a transformer and their operating characteristics",
+      "operation": "Lecture, practice, Q&A, and self-check",
+      "assignments": "Prepare for Sections 2.2 and 2 .3 of the text book",
+      "minutes": "200"
     },
     {
       "index": "8",
-      "content": "Review",
-      "operation": "Q&A, mini exams",
-      "assignments": "Review of previous lectures\nand exercises",
-      "minutes": "100"
+      "content": "Types of transformers and their structure",
+      "operation": "Lecture, practice, Q&A, and self-check",
+      "assignments": "Prepare for Sections 2.4 and 2 .5 of the text book",
+      "minutes": "200"
     },
     {
       "index": "9",
-      "content": "Business system and organization 1",
-      "operation": "Lecture and exercises",
-      "assignments": "Investigate companies on the\nInternet and books",
-      "minutes": "100"
+      "content": "Circuit connections of transformers",
+      "operation": "Lecture, practice, Q&A, and self-check",
+      "assignments": "Prepare for Section 2.6 of the text book",
+      "minutes": "200"
     },
     {
       "index": "10",
-      "content": "Business system and organization 2",
-      "operation": "Lecture and exercises",
-      "assignments": "Investigate companies on the\nInternet and books",
-      "minutes": "100"
+      "content": "Test about the contents learned in the classes from No.6 to 9",
+      "operation": "Test",
+      "assignments": "Prepare for the test (solve the exercises in Chapter 2 of the text book )",
+      "minutes": "200"
     },
     {
       "index": "11",
-      "content": "Redundant system",
-      "operation": "Lecture and exercises",
-      "assignments": "Review unclear points",
-      "minutes": "100"
+      "content": "Principle of direct current machines and their structure Induced electromotive force and torque",
+      "operation": "Lecture, practice, Q&A, and self-check",
+      "assignments": "Prepare for Sections 5.2 to 5.3 of the text book",
+      "minutes": "200"
     },
     {
       "index": "12",
-      "content": "Project management",
-      "operation": "Lecture and exercises",
-      "assignments": "Review unclear points,\nCalculation exercises",
-      "minutes": "100"
+      "content": "Armature reaction and function of commutators",
+      "operation": "Lecture, practice, Q&A, and self-check",
+      "assignments": "Prepare for Sections 5.4 to 5.5 of the text book",
+      "minutes": "200"
     },
     {
       "index": "13",
-      "content": "Goal management",
-      "operation": "Lecture and exercises",
-      "assignments": "Review unclear points,\nCalculation exercises",
-      "minutes": "100"
+      "content": "Types of direct current generators and their operating characteristics. Operating characteristics of direct current motors and their speed control methods.",
+      "operation": "Lecture, practice, Q&A, and self-check",
+      "assignments": "Prepare for Sections 5.6 to 5.8 of the text book",
+      "minutes": "200"
     },
     {
       "index": "14",
-      "content": "Q&A, Exam",
-      "operation": "Q&A, Exam",
-      "assignments": "Review previous lectures",
-      "minutes": "100"
+      "content": "Exam about contents learned in the classes from No.11 to 13",
+      "operation": "Exam",
+      "assignments": "Prepare for the exam (solve the exercises in Chapter 5 of the text book )",
+      "minutes": "200"
     },
     {
       "index": "15",
-      "content": "Commentary for exams and reports,\nself-inspection, related topics",
-      "operation": "Review and Q&A",
-      "assignments": "Looking back on what has\nbeen learned so far. It will\nlead to future learning and\nresearch.",
-      "minutes": "100"
+      "content": "Self-reflection class",
+      "operation": "Lecture, Q&A, and self-evaluation",
+      "assignments": "",
+      "minutes": ""
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　E520-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Information and Computer Science(〜2024)\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                情報システムデザイン\n                Information Systems Design\n\n              2\n              E520-01\n\n                2026年度\n\n                3rd year 1st semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  KUROSE Hiroshi\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Information systems\n2.Reliability\n3.Availability\n4.Virtualization\n5.Project management\n\n              In addition to IT knowledge, project management and business knowledge are required to build or use information systems. In information system construction, the user and the builder confirm the requirements for many items such as functions, reliability, shortening of disaster recovery time, and improvement of operability. In this course, students will learn basic knowledge about the construction and use of information systems.\n\n              授業の概要および学習上の助言\n\n              Information systems are created by integrating IT knowledge such as programs, databases, networks, and system configurations. In order to design a good information system, it is necessary to confirm the usage requirements for many items such as functions, reliability, operability, and operability. In design, it is necessary to consider important matters, costs and trade-offs. In information system construction, both the builder side and the user side are constructed by the project, so a project management method is required. In this class, students will learn the basic knowledge necessary to build an information system.\n\n              教科書および参考書・リザーブドブック\n\n              N/A\n\n              履修に必要な予備知識や技能\n\n              Students should bring a laptop.\nThe prerequisite skills for this course are programming, databases, networking, and system architecture.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                I,J,O\n                Be able to explain points to note regarding the design and construction of information systems.\n\n                ②\n                I,J,O,Q\n                Be able to break down information systems into components and explain the role of each component.\n\n                ③\n                I,J,O,Q\n                Be able to integrate each component into a system and set numerical indicators to evaluate.\n\n                ④\n                I,J,O\n                Be able to explain the basics of development life cycle and project management.\n\n                ⑤\n                I,J,O\n                Be able to explain stakeholders and their roles related to information systems.\n\n                ⑥\n                I,J,O\n                Be able to explain the method of quantitative evaluation of information systems.\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                40\n\n                30\n\n                30\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                40\n\n                30\n\n                30\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                40\n\n                30\n\n                30\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n",
-  "courseId": "2026:spring:E520-01:0:322",
+  "rawText": "金沢工業大学 学習支援計画書 E623-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Electrical and Electronic Engineering(2018〜)\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n電気機器Ⅰ\nElectrical Machinery I  2 E623-01  2024年度\n 3rd year 1st semester  修学規程第4条を参照\n    担当教員名\n TSUDA Toshihiro, FUKAMI Tadashi\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Magnetic system 2.Transformer 3.Direct current machine  Students will: (1) learn basic theories of transformers, such as principles, structures, operating characteristics. (2) learn basic theories of direct current machines, such as principles, structures, operating characteristics, starting methods, and speed control methods.\n    授業の概要および学習上の助言   This is the first course in the series of Electrical Machinery. We will cover the following materials: 1. Fundamentals of electric machines, 2. Transformers, 3. Direct current machines. Students are required to actively participate in class.\n    教科書および参考書・リザーブドブック   Electric Machinery and Apparatus Studies [Corona] (in Japanese)\n    履修に必要な予備知識や技能   Knowledge of electromagnetics and electric circuits.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① L Be able to explain the types of electric machines and magnetic systems.   ② L Be able to understand the transformers and to calculate their operating characteristics.   ③ L Be able to understand the direct current machines and to calculate their operating characteristics.   ④ L Be able to explain the starting method and speed control principle of direct current machines.   ⑤     ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 30 40 30 0 0 0 0 100     指標と評価割合 総合評価割合 30 40 30 0 0 0 0 100   総合力指標 知識を取り込む力 30 40 30 0 0 0 0 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ①   There is an exam to evaluate the level of understanding.   ②     ③ レ   ④ レ   ⑤     ⑥     クイズ\n小テスト ① レ There are two tests to evaluate the level of understanding.   ② レ   ③     ④     ⑤     ⑥     レポート ① レ Students will be evaluated on two or three reports.   ② レ   ③ レ   ④ レ   ⑤     ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ①      ②     ③     ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     (1) Fully understand the types of electric machines and magnetic systems and explain them. (2) Fully understand the principle and structure of transformers and calculate their operating characteristics (3) Fully understand the principle and structure of direct current machines and calculate their operating characteristics. (4) Fully understand the speed control method of direct current motors and explain them.  (1) Understand the types of electric machines and magnetic systems and explain them. (2) Understand the principle and structure of transformers and calculate their operating characteristics (3) Understand the principle and structure of direct current machines and calculate their operating characteristics. (4) Understand the speed control method of direct current motors and explain them.\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習課題に要する標準的な時間を記載してあります。日々の自学自習時間全体としては、各授業に応じた時間(例えば2単位科目の場合、予習2時間・復習2時間/週)を取るよう努めてください。詳しくは教員の指導に従って下さい。     授業明細   回数 学習内容 授業の運営方法 学習課題(予習・復習) 時間:分※     1  Course introduction Lecture and Q&A Understand the objectives of class  200   2  Types of electric machines and magnetic systems Lecture, practice, Q&A, and self-check Prepare for Sections 1.1 and 1 .2 of the text book  200   3  Materials for electric machines Lecture, practice, Q&A, and self-check Prepare for Section 1.3 of the text book  ",
+  "courseId": "2024:fall:E615-01:0:322",
   "language": "en"
 }

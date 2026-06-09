@@ -1,77 +1,58 @@
 {
   "sourceIndex": 747,
   "sourceUrl": "/opsyllabus/kitos0110/747/1",
-  "importedAt": "2026-06-08T09:34:08.486Z",
-  "title": "バイオ情報学入門",
-  "subtitle": "Introduction to Bioinformatics",
-  "courseType": "Major ProgramMajor Courses",
+  "importedAt": "2026-06-09T01:29:26.107Z",
+  "title": "応用化学演習",
+  "subtitle": "Applied Chemistry Practices",
+  "courseType": "Major Program\nMajor Courses",
   "credits": "2",
-  "term": "2026年度\n\n                1st year 2nd semester",
+  "term": "2024年度\n 3rd year 2nd semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "SAGARA Jun-ichi"
+    "TOSA Koji"
   ],
   "keywords": [
-    "Information literacy",
-    "Gene sequences",
-    "Phylogenetics",
-    "Bio-database",
-    "Protein structures"
+    "Physical chemistry 2.Organic chemistry 3.Inorganic chemistry"
   ],
-  "educationalGoal": "Students will:\n(1) acquire literacy of information technology\n(2) learn analysis of gene sequence and phylogenetic tree using mathematical methods\n(3) learn how to operate bio-databases\n(4) learn analysis of molecular dynamics",
-  "advice": "This is a basic bioinformatics course. We will cover the following topics:\n\n1. Information literacy\n2. Gene sequence analysis\n3. Phylogenetics\n4. Phylogenetic tree\n5. Bio-databases\n6. Protein structure\n\nStudents will also learn about advanced issues such as dynamics of proteins, if time permits.\nStudents are expected to understand the basics of gene sequence analysis.\nStudents are expected to understand the meaning of terms.\nStudents are expected to solve the exercises independently.\nStudents should pay attention to the teacher's instructions in the class because the schedules of quizzes, tests and reports may change as the class progresses.\nStudents should attend all classes, as the handouts may be not received.",
-  "books": "none.",
-  "requiredKnowledge": "Knowledge of biochemistry, molecular biology and data analysis.\nSufficient knowledge of bioinformatics (mathematics and physics).\nBasic knowledge of biology (gene sequence and protein structure).\nHow to use a personal computer and internet communication technology.",
+  "educationalGoal": "Learn basics of physical, organic, and inorganic chemistry through active learning methods using exercises. Will provide an understanding of chemistry for related classes.",
+  "advice": "Physical Chemistry Practices Properties of gases, thermodynamics, quantum chemistry, chemical equilibria, and rates of chemical reactions Organic Chemistry Practices Structures and bonding, alkanes, alkenes, alkynes, organohalides, aromatics Inorganic Chemistry Practices Main group elements, transition elements, solution chemistry, coordination compounds",
+  "books": "Textbooks: Basic Organic Chemistry[Sankyo Shuppan], Inorganic Chemistry 2nd Edition[Tokyo Kagaku Dojin], Elements of Physical Chemistry 6th Edition[Tokyo Kagaku Dojin]",
+  "requiredKnowledge": "A basic understanding of physics, physical chemistry, organic chemistry, inorganic chemistry, and mathematics (exponential, logarithmic, and differential calculus) is necessary.",
   "activityGoals": [
     {
       "index": "①",
-      "type": "I",
-      "body": "Ability to acquire knowledge of information technology"
+      "type": "L,S",
+      "body": "Solve problems in physical chemistry."
     },
     {
       "index": "②",
-      "type": "I,N",
-      "body": "Ability to explain gene sequence analysis"
+      "type": "L,S",
+      "body": "Solve problems in organic chemistry."
     },
     {
       "index": "③",
-      "type": "I,N",
-      "body": "Ability to explain phylogenetics"
-    },
-    {
-      "index": "④",
-      "type": "I,K,N",
-      "body": "Ability to make a phylogenetic tree"
-    },
-    {
-      "index": "⑤",
-      "type": "N",
-      "body": "Ability to operate bio-databases"
-    },
-    {
-      "index": "⑥",
-      "type": "K,N",
-      "body": "Ability to explain the structure of proteins"
+      "type": "L,S",
+      "body": "Solve problems in inorganic chemistry."
     }
   ],
   "evaluationWeights": [
     {
       "label": "総合評価割合",
       "values": [
-        "20",
-        "30",
-        "40",
+        "0",
+        "0",
+        "100",
         "0",
         "0",
         "0",
-        "10",
+        "0",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -81,20 +62,20 @@
     {
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
-        "20",
-        "30",
-        "40",
+        "0",
+        "0",
+        "100",
         "0",
         "0",
         "0",
-        "10",
+        "0",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -104,20 +85,20 @@
     {
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
-        "20",
-        "30",
-        "40",
+        "0",
+        "0",
+        "100",
         "0",
         "0",
         "0",
-        "10",
+        "0",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -138,9 +119,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -148,7 +129,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -161,9 +142,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -184,9 +165,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -195,118 +176,118 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "(1) Understand and practice information literacy.\n\n(2) Understand and analyze gene sequences.\n\n(3) Understand and explain the concepts of phylogenetics.\n\n(4) Understand and create phylogenetic trees.\n\n(5) Understand and practice bio-sequences.\n\n(6) Understand and explain the concepts of protein structure.",
-    "standard": "(1) Explain the concepts of information literacy.\n\n(2) Explain the concepts of gene sequence analysis.\n\n(3) Explain the concepts of phylogenetics.\n\n(4) Explain the concepts of phylogenetic trees.\n\n(5) Explain the concepts of bio-databases.\n\n(6) Explain the concepts of protein structure."
+    "ideal": "Can solve problems in physical chemistry by oneself. Can solve problems in organic chemistry by oneself. Can solve problems in inorganic chemistry by oneself.",
+    "standard": "Can solve problems in physical chemistry. Can solve problems in organic chemistry. Can solve problems in inorganic chemistry."
   },
   "clipProcess": "",
   "lessons": [
     {
       "index": "1",
-      "content": "Course introduction",
-      "operation": "Lecture and Q&A",
-      "assignments": "Understand the objectives of\nthe course",
-      "minutes": "90"
+      "content": "Physical chemistry practices 1",
+      "operation": "Lecture and Exercise",
+      "assignments": "Solve problems and write a report. Submit the report the next week.",
+      "minutes": "100"
     },
     {
       "index": "2",
-      "content": "Information literacy (1)\nInformation ethics",
-      "operation": "Lecture and practice\nSelf-check",
-      "assignments": "Read the applicable parts of\nthe textbook\nReview the applicable parts\nof the textbook",
-      "minutes": "60\n\n60"
+      "content": "Physical chemistry practices 2",
+      "operation": "Lecture and Exercise",
+      "assignments": "Solve problems and write a report. Submit the report the next week.",
+      "minutes": "100"
     },
     {
       "index": "3",
-      "content": "Information literacy (2)\nComputers and the internet",
-      "operation": "Lecture and practice\nSelf-check",
-      "assignments": "Read the applicable parts of\nthe textbook\nReview the applicable parts\nof the textbook",
-      "minutes": "60\n\n60"
+      "content": "Physical chemistry practices 3",
+      "operation": "Lecture and Exercise",
+      "assignments": "Solve problems and write a report. Submit the report the next week.",
+      "minutes": "100"
     },
     {
       "index": "4",
-      "content": "Information literacy (3)\nInformation theory for biology",
-      "operation": "Lecture and practice\nSelf-check",
-      "assignments": "Read the applicable parts of\nthe textbook\nReview the applicable parts\nof the textbook",
-      "minutes": "60\n\n60"
+      "content": "Physical chemistry practices 4",
+      "operation": "Lecture and Exercise",
+      "assignments": "Solve problems and write a report. Submit the report the next week.",
+      "minutes": "100"
     },
     {
       "index": "5",
-      "content": "PC practice\nBio-databases on the internet",
-      "operation": "Lecture and practice\nSelf-check",
-      "assignments": "Read the applicable parts of\nthe textbook\nReview the applicable parts\nof the textbook",
-      "minutes": "60\n\n60"
+      "content": "Organic chemistry practices 1",
+      "operation": "Lecture and Exercise",
+      "assignments": "Solve problems and write a report. Submit the report the next week.",
+      "minutes": "100"
     },
     {
       "index": "6",
-      "content": "Pairwise alignment (1)\nAlgorithm of dot matrix",
-      "operation": "Lecture and practice\nSelf-check",
-      "assignments": "Read the applicable parts of\nthe textbook\nReview the applicable parts of\nthe textbook",
-      "minutes": "60\n\n60"
+      "content": "Organic chemistry practices 2",
+      "operation": "Lecture and Exercise",
+      "assignments": "Solve problems and write a report. Submit the report the next week.",
+      "minutes": "100"
     },
     {
       "index": "7",
-      "content": "Pairwise alignment (2)\nAlgorithm of dot matrix",
-      "operation": "Lecture and practice\nSelf-check",
-      "assignments": "Read the applicable parts of\nthe textbook\nReview the applicable parts of\nthe textbook",
-      "minutes": "60\n\n60"
+      "content": "Organic chemistry practices 3",
+      "operation": "Lecture and Exercise",
+      "assignments": "Solve problems and write a report. Submit the report the next week.",
+      "minutes": "100"
     },
     {
       "index": "8",
-      "content": "Pairwise alignment (3)\nAlgorithm of dot matrix",
-      "operation": "Lecture and practice\nSelf-check",
-      "assignments": "Read the applicable parts of\nthe textbook\nReview the applicable parts of\nthe textbook",
-      "minutes": "60\n\n60"
+      "content": "Organic chemistry practices 4",
+      "operation": "Lecture and Exercise",
+      "assignments": "Solve problems and write a report. Submit the report the next week.",
+      "minutes": "100"
     },
     {
       "index": "9",
-      "content": "Gene sequence analysis (1)\nFASTA",
-      "operation": "Lecture and practice\nSelf-check",
-      "assignments": "Read the applicable parts of\nthe textbook\nReview the applicable parts of\nthe textbook",
-      "minutes": "60\n\n60"
+      "content": "Inorganic chemistry practices 1",
+      "operation": "Lecture and Exercise",
+      "assignments": "Solve problems and write a report. Submit the report the next week.",
+      "minutes": "100"
     },
     {
       "index": "10",
-      "content": "Gene sequence analysis (2)\nBLAST",
-      "operation": "Lecture and practice\nSelf-check",
-      "assignments": "Read the applicable parts of\nthe textbook\nReview the applicable parts of\nthe textbook",
-      "minutes": "60\n\n60"
+      "content": "Inorganic chemistry practices 2",
+      "operation": "Lecture and Exercise",
+      "assignments": "Solve problems and write a report. Submit the report the next week.",
+      "minutes": "100"
     },
     {
       "index": "11",
-      "content": "Gene sequence analysis (3)\nMultiple alignment",
-      "operation": "Lecture and practice\nSelf-check",
-      "assignments": "Read the applicable parts of\nthe textbook\nReview the applicable parts of\nthe textbook",
-      "minutes": "60\n\n60"
+      "content": "Inorganic chemistry practices 3",
+      "operation": "Lecture and Exercise",
+      "assignments": "Solve problems and write a report. Submit the report the next week.",
+      "minutes": "100"
     },
     {
       "index": "12",
-      "content": "PC practice\nFASTA, BLAST and Phylogenetic tree",
-      "operation": "Lecture and practice\nSelf-check",
-      "assignments": "Read the applicable parts of\nthe textbook\nReview the applicable parts of\nthe textbook",
-      "minutes": "60\n\n60"
+      "content": "Analytical chemistry practices 1",
+      "operation": "Lecture and Exercise",
+      "assignments": "Solve problems and write a report. Submit the report the next week.",
+      "minutes": "100"
     },
     {
       "index": "13",
-      "content": "Phylogenetic tree (1)\n UPGMA and NJ",
-      "operation": "Lecture and practice\nSelf-check",
-      "assignments": "Read the applicable parts of\nthe textbook\nReview the applicable parts of\nthe textbook",
-      "minutes": "60\n\n60"
+      "content": "Analytical chemistry practices 2",
+      "operation": "Lecture and Exercise",
+      "assignments": "Solve problems and write a report. Submit the report the next week.",
+      "minutes": "100"
     },
     {
       "index": "14",
-      "content": "Phylogenetic tree (2)\n Maximum parsimony and maximum likelihood",
-      "operation": "Lecture and practice\nSelf-check",
-      "assignments": "Read the applicable parts of\nthe textbook\nReview the applicable parts of\nthe textbook",
-      "minutes": "60\n\n60"
+      "content": "Special lecture by an industrial engineer",
+      "operation": "Lecture and Exercise",
+      "assignments": "Submit the report the next week.",
+      "minutes": "100"
     },
     {
       "index": "15",
-      "content": "Final exam and review",
-      "operation": "Exam and review\nSelf-evaluation",
-      "assignments": "Prepare for the exam",
-      "minutes": "240"
+      "content": "Supplemental Lecture and Seminar Self-evaluation day",
+      "operation": "Lecture and Exercise",
+      "assignments": "Identify your mistakes and review your weaknesses.",
+      "minutes": "100"
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　B306-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Life Science and Biotechnology\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                バイオ情報学入門\n                Introduction to Bioinformatics\n\n              2\n              B306-01\n\n                2026年度\n\n                1st year 2nd semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  SAGARA Jun-ichi\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Information literacy\n2.Gene sequences\n3.Phylogenetics\n4.Bio-database\n5.Protein structures\n\n              Students will:\n(1) acquire literacy of information technology\n(2) learn analysis of gene sequence and phylogenetic tree using mathematical methods\n(3) learn how to operate bio-databases\n(4) learn analysis of molecular dynamics\n\n              授業の概要および学習上の助言\n\n              This is a basic bioinformatics course. We will cover the following topics:\n\n1. Information literacy\n2. Gene sequence analysis\n3. Phylogenetics\n4. Phylogenetic tree\n5. Bio-databases\n6. Protein structure\n\nStudents will also learn about advanced issues such as dynamics of proteins, if time permits.\nStudents are expected to understand the basics of gene sequence analysis.\nStudents are expected to understand the meaning of terms.\nStudents are expected to solve the exercises independently.\nStudents should pay attention to the teacher's instructions in the class because the schedules of quizzes, tests and reports may change as the class progresses.\nStudents should attend all classes, as the handouts may be not received.\n\n              教科書および参考書・リザーブドブック\n\n              none.\n\n              履修に必要な予備知識や技能\n\n              Knowledge of biochemistry, molecular biology and data analysis.\nSufficient knowledge of bioinformatics (mathematics and physics).\nBasic knowledge of biology (gene sequence and protein structure).\nHow to use a personal computer and internet communication technology.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                I\n                Ability to acquire knowledge of information technology\n\n                ②\n                I,N\n                Ability to explain gene sequence analysis\n\n                ③\n                I,N\n                Ability to explain phylogenetics\n\n                ④\n                I,K,N\n                Ability to make a phylogenetic tree\n\n                ⑤\n                N\n                Ability to operate bio-databases\n\n                ⑥\n                K,N\n                Ability to explain the structure of proteins\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                20\n\n                30\n\n                40\n\n                0\n\n                0\n\n                0\n\n                10\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                20\n\n                30\n\n                40\n\n                0\n\n                0\n\n                0\n\n                10\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                20\n\n                30\n\n                40\n\n                0\n\n                0\n\n                0\n\n                10\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  コラボレーションとリーダーシップ\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n             ",
-  "courseId": "2026:fall:B306-01:0:747",
+  "rawText": "金沢工業大学 学習支援計画書 B022-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Applied Chemistry\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n応用化学演習\nApplied Chemistry Practices  2 B022-01  2024年度\n 3rd year 2nd semester  修学規程第4条を参照\n    担当教員名\n TOSA Koji\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Physical chemistry 2.Organic chemistry 3.Inorganic chemistry  Learn basics of physical, organic, and inorganic chemistry through active learning methods using exercises. Will provide an understanding of chemistry for related classes.\n    授業の概要および学習上の助言   Physical Chemistry Practices Properties of gases, thermodynamics, quantum chemistry, chemical equilibria, and rates of chemical reactions Organic Chemistry Practices Structures and bonding, alkanes, alkenes, alkynes, organohalides, aromatics Inorganic Chemistry Practices Main group elements, transition elements, solution chemistry, coordination compounds\n    教科書および参考書・リザーブドブック   Textbooks: Basic Organic Chemistry[Sankyo Shuppan], Inorganic Chemistry 2nd Edition[Tokyo Kagaku Dojin], Elements of Physical Chemistry 6th Edition[Tokyo Kagaku Dojin]\n    履修に必要な予備知識や技能   A basic understanding of physics, physical chemistry, organic chemistry, inorganic chemistry, and mathematics (exponential, logarithmic, and differential calculus) is necessary.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① L,S Solve problems in physical chemistry.   ② L,S Solve problems in organic chemistry.   ③ L,S Solve problems in inorganic chemistry.   ④     ⑤     ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 0 0 100 0 0 0 0 100     指標と評価割合 総合評価割合 0 0 100 0 0 0 0 100   総合力指標 知識を取り込む力 0 0 100 0 0 0 0 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ①      ②     ③     ④     ⑤     ⑥     クイズ\n小テスト ①      ②     ③     ④     ⑤     ⑥     レポート ① レ Assignments should be submitted as reports the following week.   ② レ   ③ レ   ④     ⑤     ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ①      ②     ③     ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     Can solve problems in physical chemistry by oneself. Can solve problems in organic chemistry by oneself. Can solve problems in inorganic chemistry by oneself.  Can solve problems in physical chemistry. Can solve problems in organic chemistry. Can solve problems in inorganic chemistry.\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習課題に要する標準的な時間を記載してあります。日々の自学自習時間全体としては、各授業に応じた時間(例えば2単位科目の場合、予習2時間・復習2時間/週)を取るよう努めてください。詳しくは教員の指導に従って下さい。     授業明細   回数 学習内容 授業の運営方法 学習課題(予習・復習) 時間:分※     1  Physical chemistry practices 1 Lecture and Exercise Solve problems and write a report. Submit the report the next week.  100   2  Physical chemistry practices 2 Lecture and Exercise Solve problems and write a report. Submit the report the next week.  100   3  Physical chemistry practices 3 Lecture and Exercise Solve problems and write a report. Submit the report the next week.  100   4  Physical chemistry practices 4 Lecture and Exercise Solve problems and write a report. Submit the report the next week.  100   5  Organic chemistry practices 1 Lecture and Exercise Solve problems and write a report. Submit the report the next week.  100   6  Organic chemistry practices 2 Lecture and Exercise Solve problems and write a report. Submit the report the next week.  100   7  Organic chemistry practices 3 Lecture and Exercise Solve problems and write a report. Submit the report the next week.  100   8  Organic chemistry practices 4 Lecture and Exercise Solve problems and write a report. Submi",
+  "courseId": "2024:spring:B021-01:0:747",
   "language": "en"
 }

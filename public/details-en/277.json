@@ -1,57 +1,43 @@
 {
   "sourceIndex": 277,
   "sourceUrl": "/opsyllabus/kitos0110/277/1",
-  "importedAt": "2026-06-08T09:33:58.709Z",
-  "title": "通信工学",
-  "subtitle": "Communication Engineering",
-  "courseType": "Major ProgramMajor Courses",
+  "importedAt": "2026-06-09T01:29:21.548Z",
+  "title": "ロボット制御",
+  "subtitle": "Robot Control",
+  "courseType": "Major Program\nMajor Courses",
   "credits": "2",
-  "term": "2026年度\n\n                3rd year 2nd semester",
+  "term": "2024年度\n 3rd year 1st semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "ITO Kenji"
+    "KAWAI Hiroyuki"
   ],
   "keywords": [
-    "Basic topology, QoS",
-    "Information",
-    "Digital modulation",
-    "Imperfection",
-    "Multiplex"
+    "Kinematics 2.Inverse kinematics 3.Dynamics 4.Inverse dynamics 5.Position and force control"
   ],
-  "educationalGoal": "This course introduced the basic topology of communication systems, properties of basic information like voices and videos, imperfection of transmission systems that makes data errors, basis of digital modulation/demodulation and multiplexing scheme. For each topic, basis and principle are explained with basic formulas.",
-  "advice": "This course is constructed following chapters:\ni) Basic topology of telecommunication systems,\nii) Basic properties of information (voice, video, data) on telecommunication systems,\niii) Entropy of information,\niv) Communication disturbance due to imperfections of transmission (noise, linear/non-linear distortion),\nv) Digital modulation/demodulation and its filtering techniques,\nvi) Multiplexing techniques (Frequency division multiplex, Time division multiplex, Code division multiplex,)",
-  "books": "Yamashita, \"Tsuushin Kogaku Gairon 2nd edi.,\" Morikita pub.",
-  "requiredKnowledge": "Acquisition of Communication and Network Systems.\nEnough skill of mathematics (especially Fourier transfer)\nHow to use a calculator.",
+  "educationalGoal": "(1) Learn kinematics and inverse kinematics of robot manipulators. (2) Learn dynamics and inverse dynamics of robot manipulators. (3) Learn modeling and control methods for robotic systems.",
+  "advice": "This is a basic course in robot control. It covers the following topics: 1. Mechanism of robotic manipulators and statics and dynamics for robotic systems. 2. Representation of position and orientation of manipulators, and velocity and moment of rigid bodies. 3. Dynamic equations of manipulators. 4. Generation of a desired trajectory and position control method. 5. Force control method, including impedance/hybrid control.",
+  "books": "We have one textbook. The textbook is written in Japanese.",
+  "requiredKnowledge": "Sufficient mathematical skills (differential equations, integrals, and linear algebra). Basic knowledge of dynamics and control engineering.",
   "activityGoals": [
     {
       "index": "①",
       "type": "L",
-      "body": "Be able to understand and explain basis of telecommunication systems."
+      "body": "Represent position and orientation of manipulators mathematically."
     },
     {
       "index": "②",
       "type": "L",
-      "body": "Be able to understand and explain principles of voice/video coding/decoding schemes."
+      "body": "Understand kinematics and inverse kinematics and calculate end point position and joint angle."
     },
     {
       "index": "③",
       "type": "L",
-      "body": "Be able to understand and explain baseband transmission."
+      "body": "Obtain a dynamic equation and represent manipulators with a mathematical model."
     },
     {
       "index": "④",
       "type": "L",
-      "body": "Be able to understand and explain digital modulation/demodulation schemes."
-    },
-    {
-      "index": "⑤",
-      "type": "L",
-      "body": "Be able to understand and explain degradation factors on quality of communications."
-    },
-    {
-      "index": "⑥",
-      "type": "L",
-      "body": "Be able to understand and explain principles of multiplexing systems in communication systems."
+      "body": "Understand position control and force control and describe stable robotic systems."
     }
   ],
   "evaluationWeights": [
@@ -59,8 +45,8 @@
       "label": "総合評価割合",
       "values": [
         "40",
-        "20",
-        "40",
+        "30",
+        "30",
         "0",
         "0",
         "0",
@@ -69,9 +55,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -82,8 +68,8 @@
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
         "40",
-        "20",
-        "40",
+        "30",
+        "30",
         "0",
         "0",
         "0",
@@ -92,9 +78,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -105,8 +91,8 @@
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
         "40",
-        "20",
-        "40",
+        "30",
+        "30",
         "0",
         "0",
         "0",
@@ -115,9 +101,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -138,9 +124,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -148,7 +134,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -161,9 +147,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -184,9 +170,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -195,118 +181,118 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "To explain the concept and principle of the items that are described in “target abilities for students.",
-    "standard": "To explain meanings of the items that are described in “target abilities for students."
+    "ideal": "Achieve 80% of learning objectives 1-4. Apply your acquired knowledge to problem solving.",
+    "standard": "Achieve 60% of learning objectives 1-4. Acquire basic skills concerning kinematics, dynamics, and control methods for robotic systems."
   },
   "clipProcess": "",
   "lessons": [
     {
       "index": "1",
-      "content": "1. Course introduction",
-      "operation": "Lecture and Q&A",
-      "assignments": "Understand the objectives of\nclass",
-      "minutes": "200"
+      "content": "Introduction Review and practice of basic mathematics",
+      "operation": "Lecture (including Q & A) and exercises Self-check",
+      "assignments": "Preview: Read the indicated textbook sections Review: Understand the indicated textbook sections Understand the course objectives",
+      "minutes": "60 30 30"
     },
     {
       "index": "2",
-      "content": "2.Basic topology of telecommunication systems\n(1)\n- Basic configuration\n- Quality of service",
-      "operation": "Test and review. Lecture\nbased on PPT slides.\nPractice after the class.",
-      "assignments": "Understanding protocol of\ncommunication and principles\nof voice and its coding/\ndecoding",
-      "minutes": "200"
+      "content": "Kinematics Position and orientation Object frame and rotation matrix",
+      "operation": "Lecture (including Q & A) and exercises Self-check",
+      "assignments": "Preview: Read the indicated textbook sections Review: Understand the indicated textbook sections",
+      "minutes": "60 60"
     },
     {
       "index": "3",
-      "content": "2.Basic topology of telecommunication systems\n(2)\n- protocol of communication\n3. Information in telecommunication (1)\n- principles of voice signal and its coding/\ndecoding",
-      "operation": "Test and review. Lecture\nbased on PPT slides.\nPractice after the class.",
-      "assignments": "Understanding protocol of\ncommunication and principles\nof voice and its coding/\ndecoding",
-      "minutes": "200"
+      "content": "Kinematics Position and orientation Euler angles and roll-pitch-yaw angles",
+      "operation": "Lecture (including Q & A) and exercises Self-check",
+      "assignments": "Preview: Read the indicated textbook sections Review: Understand the indicated textbook sections",
+      "minutes": "60 60"
     },
     {
       "index": "4",
-      "content": "3. Information in telecommunication (2)\n- principles of video signal and its coding/\ndecoding",
-      "operation": "Test and review. Lecture\nbased on PPT slides.\nPractice after the class.",
-      "assignments": "Understanding protocol of\ncommunication and principles\nof video and its coding/\ndecoding",
-      "minutes": "200"
+      "content": "Kinematics Homogeneous coordinate transformation",
+      "operation": "Lecture (including Q & A) and exercises Self-check",
+      "assignments": "Preview: Read the indicated textbook sections Review: Understand the indicated textbook sections",
+      "minutes": "60 60"
     },
     {
       "index": "5",
-      "content": "4. Basis of information\n- Entropy: quantity of information\n5. Communication disturbance due to\nimperfections of transmission (1)\n- Property of noise",
-      "operation": "Test and review. Lecture\nbased on PPT slides.\nPractice after the class",
-      "assignments": "Understanding entropy and its\ncalculation. Understanding\nproperty of noise and its\ninfluence on communication.",
-      "minutes": "200"
+      "content": "Kinematics Joint variables and end point position Link parameter Link frame",
+      "operation": "Lecture (including Q & A) and exercises Self-check",
+      "assignments": "Preview: Read the indicated textbook sections Review: Understand the indicated textbook sections",
+      "minutes": "60 60"
     },
     {
       "index": "6",
-      "content": "5. Communication disturbance due to\nimperfections of transmission (2)\n-Property of linear/non-linear distortion\n- Property of delay dispersion",
-      "operation": "Test and review. Lecture\nbased on PPT slides.\nPractice after the class.",
-      "assignments": "Understanding property of\nlinear/non-linear distortion\nand delay dispersion.\nUnderstanding their influence\non communication",
-      "minutes": "200"
+      "content": "Kinematics and Inverse Kinematics Angular velocity and singular configuration",
+      "operation": "Lecture (including Q & A) and exercises Self-check",
+      "assignments": "Preview: Read the indicated textbook sections Review: Understand the indicated textbook sections",
+      "minutes": "60 60"
     },
     {
       "index": "7",
-      "content": "Exam\n7. Digital modulation (1)\n- Principle of AD and DA conversion",
-      "operation": "Exam\nLecture based on PPT\nslides. Practice after\nthe class.",
-      "assignments": "Understanding principle of\nAD and DA conversion.",
-      "minutes": "200"
+      "content": "Kinematics and Inverse Kinematics Jacobian matrix and end point velocity",
+      "operation": "Lecture (including Q & A) and exercises Self-check",
+      "assignments": "Preview: Read the indicated textbook sections Review: Understand the indicated textbook sections",
+      "minutes": "60 60"
     },
     {
       "index": "8",
-      "content": "Self-evaluation of the exam in previous class\n7. Digital modulation (2)\n- Principle of the transmitter filter",
-      "operation": "Test and review.\nLecture based on PPT\nslides. Practice after\nthe class.",
-      "assignments": "Understanding principle of\nthe transmitter filter",
-      "minutes": "200"
+      "content": "Exercises Mid-semester test",
+      "operation": "Exercises Test Self-check",
+      "assignments": "Prepare for the mid-semester test",
+      "minutes": "120"
     },
     {
       "index": "9",
-      "content": "7. Digital modulation (2)\n- Principle of the matched filter",
-      "operation": "Test and review.\nLecture based on PPT\nslides. Practice after\nthe class.",
-      "assignments": "Understanding principle of\nthe matched filter.",
-      "minutes": "200"
+      "content": "Review of the mid-semester test Self-check",
+      "operation": "Lecture (including Q & A) and exercises Self-check",
+      "assignments": "Preview: Read the indicated textbook sections Review: Understand the indicated textbook sections",
+      "minutes": "60 60"
     },
     {
       "index": "10",
-      "content": "7. Digital modulation (3)\n- Modulation method of ASK, PSK and FSK",
-      "operation": "Test and review.\nLecture based on PPT\nslides. Practice after\nthe class.",
-      "assignments": "Understanding modulation\ndetails of ASK, PSK and FSK",
-      "minutes": "200"
+      "content": "Dynamics Review of basic dynamics Lagrange's equation of motion",
+      "operation": "Lecture (including Q & A) and exercises Self-check",
+      "assignments": "Preview: Read the indicated textbook sections Review: Understand the indicated textbook sections",
+      "minutes": "60 60"
     },
     {
       "index": "11",
-      "content": "7. Digital modulation (4)\n- Demodulation method\n- Bit error rate",
-      "operation": "Test and review.\nLecture based on PPT\nslides. Practice after\nthe class.",
-      "assignments": "Understanding demodulation\nmethod and bit error rate",
-      "minutes": "200"
+      "content": "Position Control Desired trajectory",
+      "operation": "Lecture (including Q & A) and exercises Self-check",
+      "assignments": "Preview: Read the indicated textbook sections Review: Understand the indicated textbook sections",
+      "minutes": "60 60"
     },
     {
       "index": "12",
-      "content": "8. Multiplexing method\n- Method of Frequency Division Multiplexing\n(FDM), Time Division Multiplexing (TDM) and\nCode Division Multiplexing (CDM).",
-      "operation": "Test and review.\nLecture based on PPT\nslides. Practice after\nthe class.",
-      "assignments": "Understanding method of FDM,\nTDM and CDM.",
-      "minutes": "200"
+      "content": "Position Control Linearizing compensation Servo compensation",
+      "operation": "Lecture (including Q & A) and exercises Self-check",
+      "assignments": "Preview: Read the indicated textbook sections Review: Understand the indicated textbook sections",
+      "minutes": "60 60"
     },
     {
       "index": "13",
-      "content": "Final exam",
-      "operation": "Exam",
-      "assignments": "Prepare for the exam",
-      "minutes": "200"
+      "content": "Force Control Impedance control Hybrid control",
+      "operation": "Lecture (including Q & A) and exercises Self-check",
+      "assignments": "Preview: Read the indicated textbook sections Review: Understand the indicated textbook sections",
+      "minutes": "60 60"
     },
     {
       "index": "14",
-      "content": "Special lecture by the invited speaker in\nindustry.",
-      "operation": "Lecture",
-      "assignments": "Understanding communication\nsystems at present",
-      "minutes": "200"
+      "content": "Exercise Semester final examination",
+      "operation": "Exercises Examination Self-check",
+      "assignments": "Prepare for the semester final examination",
+      "minutes": "120"
     },
     {
       "index": "15",
-      "content": "Self-evaluation of the exam in previous class",
-      "operation": "Review",
+      "content": "Review and new robotics technology",
+      "operation": "Lecture and Self-evaluation",
       "assignments": "",
-      "minutes": "200"
+      "minutes": ""
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　E638-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Electrical and Electronic Engineering(〜2024)\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                通信工学\n                Communication Engineering\n\n              2\n              E638-01\n\n                2026年度\n\n                3rd year 2nd semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  ITO Kenji\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Basic topology, QoS\n2.Information\n3.Digital modulation\n4.Imperfection\n5.Multiplex\n\n              This course introduced the basic topology of communication systems, properties of basic information like voices and videos, imperfection of transmission systems that makes data errors, basis of digital modulation/demodulation and multiplexing scheme. For each topic, basis and principle are explained with basic formulas.\n\n              授業の概要および学習上の助言\n\n              This course is constructed following chapters:\ni) Basic topology of telecommunication systems,\nii) Basic properties of information (voice, video, data) on telecommunication systems,\niii) Entropy of information,\niv) Communication disturbance due to imperfections of transmission (noise, linear/non-linear distortion),\nv) Digital modulation/demodulation and its filtering techniques,\nvi) Multiplexing techniques (Frequency division multiplex, Time division multiplex, Code division multiplex,)\n\n              教科書および参考書・リザーブドブック\n\n              Yamashita, \"Tsuushin Kogaku Gairon 2nd edi.,\" Morikita pub.\n\n              履修に必要な予備知識や技能\n\n              Acquisition of Communication and Network Systems.\nEnough skill of mathematics (especially Fourier transfer)\nHow to use a calculator.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                L\n                Be able to understand and explain basis of telecommunication systems.\n\n                ②\n                L\n                Be able to understand and explain principles of voice/video coding/decoding schemes.\n\n                ③\n                L\n                Be able to understand and explain baseband transmission.\n\n                ④\n                L\n                Be able to understand and explain digital modulation/demodulation schemes.\n\n                ⑤\n                L\n                Be able to understand and explain degradation factors on quality of communications.\n\n                ⑥\n                L\n                Be able to understand and explain principles of multiplexing systems in communication systems.\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                40\n\n                20\n\n                40\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                40\n\n                20\n\n                40\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                40\n\n                20\n\n                40\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  コラボレーションとリーダーシップ\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n     ",
-  "courseId": "2026:fall:E638-01:0:277",
+  "rawText": "金沢工業大学 学習支援計画書 E232-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Robotics\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\nロボット制御\nRobot Control  2 E232-01  2024年度\n 3rd year 1st semester  修学規程第4条を参照\n    担当教員名\n KAWAI Hiroyuki\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Kinematics 2.Inverse kinematics 3.Dynamics 4.Inverse dynamics 5.Position and force control  (1) Learn kinematics and inverse kinematics of robot manipulators. (2) Learn dynamics and inverse dynamics of robot manipulators. (3) Learn modeling and control methods for robotic systems.\n    授業の概要および学習上の助言   This is a basic course in robot control. It covers the following topics: 1. Mechanism of robotic manipulators and statics and dynamics for robotic systems. 2. Representation of position and orientation of manipulators, and velocity and moment of rigid bodies. 3. Dynamic equations of manipulators. 4. Generation of a desired trajectory and position control method. 5. Force control method, including impedance/hybrid control.\n    教科書および参考書・リザーブドブック   We have one textbook. The textbook is written in Japanese.\n    履修に必要な予備知識や技能   Sufficient mathematical skills (differential equations, integrals, and linear algebra). Basic knowledge of dynamics and control engineering.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① L Represent position and orientation of manipulators mathematically.   ② L Understand kinematics and inverse kinematics and calculate end point position and joint angle.   ③ L Obtain a dynamic equation and represent manipulators with a mathematical model.   ④ L Understand position control and force control and describe stable robotic systems.   ⑤     ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 40 30 30 0 0 0 0 100     指標と評価割合 総合評価割合 40 30 30 0 0 0 0 100   総合力指標 知識を取り込む力 40 30 30 0 0 0 0 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ A semester final examination is given, as specified in the course schedule, to evaluate your degree of achievement comprehensively. The schedule may change depending on the class progress.   ② レ   ③ レ   ④ レ   ⑤     ⑥     クイズ\n小テスト ① レ A mid-semester test is given, as specified in the course schedule, to evaluate your degree of achievement until that point. The schedule may change depending on the class progress.    ② レ   ③ レ   ④ レ   ⑤     ⑥     レポート ① レ Students will prepare four or five reports for evaluation.    ② レ   ③ レ   ④ レ   ⑤     ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ①      ②     ③     ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     Achieve 80% of learning objectives 1-4. Apply your acquired knowledge to problem solving. Achieve 60% of learning objectives 1-4. Acquire basic skills concerning kinematics, dynamics, and control methods for robotic systems.\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習課題に要する標準的な時間を記載してあります。日々の自学自習時間全体としては、各授業に応じた時間(例えば2単位科目の場合、予習2時間・復習2時間/週)を取るよう努めてください。詳しくは教員の指導に従って下さい。     授業明細   回数 学習内容 授業の運営方法 学習課題(予習・復習) 時間:分※     1  Introduction Review and practice of basic mathematics Lecture (including Q & A) and exercises Self-check Preview: Read the indicated textbook sections Review: Understand the indicated textbook sections Understand the course objectives  60 30 30   2  Kinematics Position and orientation Object frame and rotation matrix Lecture (including Q & A) and exercises Self-check Preview: Read the indicated textbook sections Review: Understand the indicated textbook sections  60 60   3  Kinematics Position and orientation Euler angles and ",
+  "courseId": "2024:fall:E223-01:0:277",
   "language": "en"
 }

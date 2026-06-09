@@ -1,72 +1,58 @@
 {
   "sourceIndex": 235,
   "sourceUrl": "/opsyllabus/kitos0110/235/1",
-  "importedAt": "2026-06-08T09:33:57.901Z",
-  "title": "シミュレーション工学",
-  "subtitle": "Modeling and Simulation in Robotics",
-  "courseType": "Major ProgramMajor Courses",
-  "credits": "2",
-  "term": "2026年度\n\n                3rd year 1st semester",
+  "importedAt": "2026-06-09T01:29:21.221Z",
+  "title": "プロジェクトデザインⅢ(小栗和幸研究室)",
+  "subtitle": "Design Project III(Oguri Kazuyuki)",
+  "courseType": "Major Program\nMajor Project Courses",
+  "credits": "8",
+  "term": "2024年度\n All year",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "MURAO Toshiyuki"
+    "OGURI Kazuyuki"
   ],
   "keywords": [
-    "Dynamic model",
-    "Transfer function",
-    "Transient response",
-    "Frequency response",
-    "Controller design"
+    "Aeronautics 2.Engineering design 3.Integrated engineering 4.Engineering analysis 5.Regional alliance"
   ],
-  "educationalGoal": "Learn how to simulate a dynamical system using MATLAB.\nIn particular, apply the MATLAB software to mathematical modeling of a dynamical system, analysis of transient response and frequency response of a dynamic model, and design of a controller.",
-  "advice": "We will cover the following topics:\n\n1. How to use MATLAB software\n2. Methods for modeling a dynamical system\n3. Analysis of dynamic characteristics of a robotic arm\n4. Transient response and steady-state response\n5. Frequency response through plotting of a Bode diagram and the vector locus\n6. Design and analysis of robot control through proportional integral derivative (PID) control",
-  "books": "We have one textbook. The textbook is written in Japanese.",
-  "requiredKnowledge": "Completion of Mathematics for Robotics I and Control Engineering I.\nStudents should concurrently attend Control Engineering II, which is offered the same semester.",
+  "educationalGoal": "On the basis of the design and fabrication technology of the basics of aeronautical engineering learned so far, the basic ability to design, fabricate and propose feasible ideas on transportation machines by applying aeronautical engineering theory will be obtained. At the same time, students will learn the importance of cooperation with society (community in particular) to advance their ideas.",
+  "advice": "Design Project III is the subject of the collected studies in the final stage of the curriculum. Examples of research subjects at Oguri Lab include the following. -Surface treatment of composite materials Modification and analysis of surfaces by atmospheric pressure and plasma, and fine particle shot blast to obtain better adhesion of bond and paint. -Surface treatment of metallic materials Modification and analysis of surface by fine particle shot peening to obtain better fatigue and anti-corrosion properties, also photocatalytic properties. -Surface treatment of aircraft materials Various surface microfabrications and analysis to obtain electromagnetic shielding and stealth properties. A detailed project theme is determined through discussion. Students will discover their own problems and solve them. Students will also understand the targets of this subject, the overview of the course and the objectives. In particular, students will understand which part of the learning objectives of this department this subject carries and a detailed level of their achievement.",
+  "books": "Not specified.",
+  "requiredKnowledge": "Because Design Project III is based on the lectures, experiments, and practice of quarters 1 to 6 in the department of aeronautics, students should review them appropriately as needed. In particular, a review of Materials for Aircraft Structure and Strength of Materials is needed.",
   "activityGoals": [
     {
       "index": "①",
-      "type": "L",
-      "body": "Understand how to use MATLAB."
+      "type": "A,B,D,G,H,I-O",
+      "body": "Be able to establish a project theme and put it into action based on an engineering design process."
     },
     {
       "index": "②",
-      "type": "L",
-      "body": "Model a dynamical system and simulate its transient and frequency response."
+      "type": "A,B,D,G,H,I-O",
+      "body": "Be able to finalize the results students obtained as documents and conduct a presentation with discussion."
     },
     {
       "index": "③",
-      "type": "L",
-      "body": "Plot the vector locus, create a Nyquist plot, and use them to check the system stability and properties."
-    },
-    {
-      "index": "④",
-      "type": "L",
-      "body": "Plot a Bode diagram and use it to check the system stability and properties."
-    },
-    {
-      "index": "⑤",
-      "type": "L",
-      "body": "Design and analyze a dynamical system."
+      "type": "A,B,D,G,H,I-O",
+      "body": "Be able to perform design, drafting, manufacturing (production) and simulation."
     }
   ],
   "evaluationWeights": [
     {
       "label": "総合評価割合",
       "values": [
-        "40",
-        "40",
-        "20",
         "0",
         "0",
+        "50",
+        "35",
         "0",
-        "0",
+        "5",
+        "10",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -76,20 +62,20 @@
     {
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
-        "40",
-        "40",
-        "20",
         "0",
         "0",
+        "50",
+        "35",
         "0",
-        "0",
+        "5",
+        "10",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -99,20 +85,20 @@
     {
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
-        "40",
-        "40",
-        "20",
         "0",
         "0",
+        "50",
+        "35",
         "0",
-        "0",
+        "5",
+        "10",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -133,9 +119,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -143,7 +129,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -156,9 +142,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -179,9 +165,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -190,118 +176,27 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "Analyze a dynamical system with mathematical modeling and apply analysis techniques to transient response and frequency response.\nUse MATLAB to design a controller to satisfy design specifications based on transient response and frequency response.",
-    "standard": "Analyze a dynamical system with the analysis techniques of transient response and frequency response for a given model.\nUse MATLAB to design a controller based on transient response and frequency response."
+    "ideal": "(1)Students understand the purpose and the promotion process of the project theme and can achieve the ojectives that suit the purpose. (2)Students should prepare an interim result of the project and present and discuss it. Students should prepare their research result as a final report and present and discuss it in an open presentation and evaluation meeting. In addition, students should announce this final result in the societies which were equal to each specialty domain and can receive outside evaluation. (3)Students design and manufacture specimens properly by themselves and evaluate them.",
+    "standard": "(1)Students understand the purpose and the promotion process of the project theme and can achieve the annual objectives that suit the purpose. (2)Students should prepare an interim result of the project accomplishments and present it. Students can prepare the final result as a final report and can present it in an open presentation and evaluation meeting. (3)Students design and manufacture specimens and evaluate the specimens."
   },
   "clipProcess": "",
   "lessons": [
     {
       "index": "1",
-      "content": "How to use MATLAB through linear algebra",
-      "operation": "Lecture and exercises",
-      "assignments": "Preview: Install MATLAB on\n your PC and read the MATLAB\n handout\nReview: Review how to use\nMATLAB through linear algebra",
-      "minutes": "60\n\n60"
-    },
-    {
-      "index": "2",
-      "content": "Transfer functions for modeling a\ndynamical system",
-      "operation": "Lecture and exercises",
-      "assignments": "Preview: Read the handout on\ntransfer functions\nReview: Define the transfer\nfunction in MATLAB",
-      "minutes": "30\n\n60"
-    },
-    {
-      "index": "3",
-      "content": "Step response and ramp response",
-      "operation": "Lecture and exercises",
-      "assignments": "Preview: Read the handout on\nfirst-order and second-order\nsystems\nReview: Plot the step response\n for a second-order system in\nMATLAB",
-      "minutes": "30\n\n60"
-    },
-    {
-      "index": "4",
-      "content": "Transient response and steady-state response of\nfirst-order and second-order systems\nPoles, zeroes, and stability",
-      "operation": "Lecture and exercises",
-      "assignments": "Preview: Read the handout on\nfirst-order and second-order\nsystems\nReview: Plot the step response\n for a second-order system in\nMATLAB",
-      "minutes": "30\n\n60"
-    },
-    {
-      "index": "5",
-      "content": "Internal stability\nReference tracking property\nDisturbance rejection property",
-      "operation": "Lecture and exercises",
-      "assignments": "Preview: Read the handout on\nthe reference tracking and\ndisturbance rejection\nproperties\nReview: Calculate the\nreference tracking and\ndisturbance rejection\nproperties in MATLAB",
-      "minutes": "30\n\n60"
-    },
-    {
-      "index": "6",
-      "content": "PID control",
-      "operation": "Lecture and exercises",
-      "assignments": "Preview: Read the handout on\nPID control\nReview: Design a PID\ncontroller and plot the step\nresponse in MATLAB",
-      "minutes": "30\n\n90"
-    },
-    {
-      "index": "7",
-      "content": "General training",
-      "operation": "General training",
-      "assignments": "Preview: Read the previous\nhandouts\nReview: Design a PID\ncontroller and plot the\ntransient response in\nMATLAB",
-      "minutes": "60\n\n60"
-    },
-    {
-      "index": "8",
-      "content": "Midterm test and training",
-      "operation": "Midterm test and general\ntraining",
-      "assignments": "Preview: Review all content of\n classes 1-7",
-      "minutes": "180"
-    },
-    {
-      "index": "9",
-      "content": "Review of midterm test\nFrequency transfer function\nVector locus",
-      "operation": "Lecture and exercises",
-      "assignments": "Preview: Read the handout on\nthe vector locus\nReview: Plot a vector locus in\n MATLAB",
-      "minutes": "30\n\n60"
-    },
-    {
-      "index": "10",
-      "content": "Bode diagrams",
-      "operation": "Lecture and exercises",
-      "assignments": "Preview: Read the handout on\nBode diagrams\nReview: Plot a Bode diagram in\n MATLAB",
-      "minutes": "30\n\n60"
-    },
-    {
-      "index": "11",
-      "content": "Nyquist plot and the stability property\nGain margin and phase margin",
-      "operation": "Lecture and exercises",
-      "assignments": "Preview: Read the handout on\nthe stability property\nReview: Calculate the\nstability margin in MATLAB",
-      "minutes": "30\n\n30"
-    },
-    {
-      "index": "12",
-      "content": "Frequency property for PID control",
-      "operation": "Lecture and exercises",
-      "assignments": "Preview: Read the handout on\nthe frequency property for PID\n control\nReview: Plot the frequency\nresponse for PID control in\nMATLAB",
-      "minutes": "30\n\n60"
-    },
-    {
-      "index": "13",
-      "content": "General training",
-      "operation": "General training",
-      "assignments": "Preview: Read the previous\nhandouts\nReview: Design a PID\ncontroller and plot the\nfrequency response in\nMATLAB",
-      "minutes": "60\n\n60"
-    },
-    {
-      "index": "14",
-      "content": "Final examination and training",
-      "operation": "Examination and general\ntraining",
-      "assignments": "Preview: Review all content of\n this course",
-      "minutes": "180"
-    },
-    {
-      "index": "15",
-      "content": "Review of final examination",
-      "operation": "General training",
+      "content": "Course Orientation.",
+      "operation": "Introduction to the management of the laboratory, safety and research activities by the teacher.",
       "assignments": "",
-      "minutes": ""
+      "minutes": "120"
+    },
+    {
+      "index": "2 and after",
+      "content": "Students conduct their research activities.",
+      "operation": "Research of papers on their own research topics. Conduct research, consideration and summary. Interim presentation. Design Project III open presentation. Design Project III final report.",
+      "assignments": "Paper, report and document search on the reference book in the special domain.",
+      "minutes": "100"
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　E226-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Robotics(〜2024)\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                シミュレーション工学\n                Modeling and Simulation in Robotics\n\n              2\n              E226-01\n\n                2026年度\n\n                3rd year 1st semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  MURAO Toshiyuki\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Dynamic model\n2.Transfer function\n3.Transient response\n4.Frequency response\n5.Controller design\n\n              Learn how to simulate a dynamical system using MATLAB.\nIn particular, apply the MATLAB software to mathematical modeling of a dynamical system, analysis of transient response and frequency response of a dynamic model, and design of a controller.\n\n              授業の概要および学習上の助言\n\n              We will cover the following topics:\n\n1. How to use MATLAB software\n2. Methods for modeling a dynamical system\n3. Analysis of dynamic characteristics of a robotic arm\n4. Transient response and steady-state response\n5. Frequency response through plotting of a Bode diagram and the vector locus\n6. Design and analysis of robot control through proportional integral derivative (PID) control\n\n              教科書および参考書・リザーブドブック\n\n              We have one textbook. The textbook is written in Japanese.\n\n              履修に必要な予備知識や技能\n\n              Completion of Mathematics for Robotics I and Control Engineering I.\nStudents should concurrently attend Control Engineering II, which is offered the same semester.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                L\n                Understand how to use MATLAB.\n\n                ②\n                L\n                Model a dynamical system and simulate its transient and frequency response.\n\n                ③\n                L\n                Plot the vector locus, create a Nyquist plot, and use them to check the system stability and properties.\n\n                ④\n                L\n                Plot a Bode diagram and use it to check the system stability and properties.\n\n                ⑤\n                L\n                Design and analyze a dynamical system.\n\n                ⑥\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                40\n\n                40\n\n                20\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                40\n\n                40\n\n                20\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                40\n\n                40\n\n                20\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  コラボレーションとリーダーシップ\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  発表・表現・伝達する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  学習に取組む姿勢・意欲\n\n                    0\n\n                    0\n\n       ",
-  "courseId": "2026:spring:E226-01:0:235",
+  "rawText": "金沢工業大学 学習支援計画書 E922-06\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Aeronautics\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Project Courses\nプロジェクトデザインⅢ(小栗和幸研究室)\nDesign Project III(Oguri Kazuyuki)  8 E922-06  2024年度\n All year  修学規程第4条を参照\n    担当教員名\n OGURI Kazuyuki\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Aeronautics 2.Engineering design 3.Integrated engineering 4.Engineering analysis 5.Regional alliance  On the basis of the design and fabrication technology of the basics of aeronautical engineering learned so far, the basic ability to design, fabricate and propose feasible ideas on transportation machines by applying aeronautical engineering theory will be obtained. At the same time, students will learn the importance of cooperation with society (community in particular) to advance their ideas.\n    授業の概要および学習上の助言   Design Project III is the subject of the collected studies in the final stage of the curriculum. Examples of research subjects at Oguri Lab include the following. -Surface treatment of composite materials Modification and analysis of surfaces by atmospheric pressure and plasma, and fine particle shot blast to obtain better adhesion of bond and paint. -Surface treatment of metallic materials Modification and analysis of surface by fine particle shot peening to obtain better fatigue and anti-corrosion properties, also photocatalytic properties. -Surface treatment of aircraft materials Various surface microfabrications and analysis to obtain electromagnetic shielding and stealth properties. A detailed project theme is determined through discussion. Students will discover their own problems and solve them. Students will also understand the targets of this subject, the overview of the course and the objectives. In particular, students will understand which part of the learning objectives of this department this subject carries and a detailed level of their achievement.\n    教科書および参考書・リザーブドブック   Not specified.\n    履修に必要な予備知識や技能   Because Design Project III is based on the lectures, experiments, and practice of quarters 1 to 6 in the department of aeronautics, students should review them appropriately as needed. In particular, a review of Materials for Aircraft Structure and Strength of Materials is needed.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① A,B,D,G,H,I-O Be able to establish a project theme and put it into action based on an engineering design process.    ② A,B,D,G,H,I-O Be able to finalize the results students obtained as documents and conduct a presentation with discussion.    ③ A,B,D,G,H,I-O Be able to perform design, drafting, manufacturing (production) and simulation.    ④     ⑤     ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 0 0 50 35 0 5 10 100     指標と評価割合 総合評価割合 0 0 50 35 0 5 10 100   総合力指標 知識を取り込む力 0 0 50 35 0 5 10 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ①      ②     ③     ④     ⑤     ⑥     クイズ\n小テスト ①      ②     ③     ④     ⑤     ⑥     レポート ① レ Students are evaluated on the content of the interim report submitted at the first semester and the final report (Design Project III final report) submitted at the second semester.   ② レ   ③ レ   ④     ⑤     ⑥     成果発表\n(口頭・実技) ① レ Students are evaluated by the results of their interim presentation held at the end of the first semester and the contents and Q&A in the Design Project III open presentation and evaluation meeting held at the end of the second semester. In addition, the presentation at this Design Project III open presentation and evaluation meeting is required for Design Project III accreditation.   ② レ   ③ レ   ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ① レ Students are evaluated on the result of a weekly report using the Web.   ② レ   ③ レ   ④     ⑤     ⑥     その他 ① レ Students are eval",
+  "courseId": "2024:spring:E139-01:0:235",
   "language": "en"
 }

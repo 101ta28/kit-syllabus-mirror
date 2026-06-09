@@ -1,47 +1,44 @@
 {
   "sourceIndex": 877,
   "sourceUrl": "/opsyllabus/kitos0110/877/1",
-  "importedAt": "2026-06-08T09:34:11.393Z",
-  "title": "土木数理",
-  "subtitle": "Mathematics in Civil Engineering",
-  "courseType": "Major ProgramMajor Courses",
-  "credits": "2",
-  "term": "2026年度\n\n                1st year 1st semester",
+  "importedAt": "2026-06-09T01:29:27.302Z",
+  "title": "IoTプロトタイピング(春期集中講義)",
+  "subtitle": "IoT Prototyping",
+  "courseType": "(Provided by all courses)\nLiberal Arts Courses\nTransdisciplinary Learning",
+  "credits": "1",
+  "term": "2024年度\n 1st year 2nd semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "TOKUNAGA Mitsuharu"
+    "KAWANAMI Takashi",
+    "SANO Shoji"
   ],
   "keywords": [
-    "Civil engineering math",
-    "Trigonometric functions",
-    "Exp and log functions",
-    "Derivatives and integrals",
-    "Regional cooperation"
+    "Prototyping 2.Microcontrollers 3.Sensors & Actuators 4.Networking 5.Communication"
   ],
-  "educationalGoal": "Students can learn basic mathematics used in civil and environmental engineering and acquire the ability to apply them. This course is essential preparation for specialized subjects in the Department of Civil and Environmental Engineering.",
-  "advice": "In this course, students learn the following contents using textbooks and solve the relevant problems.\nIn order to measure the level of understanding and achievement, students will take ten small tests.\nContents:\nNumbers and variables in equations, primary equations, factorization, second-order equations, shapes and trigonometric ratios, trigonometric functions, exponential functions, logarithmic functions, differentials, integrals, vectors\n\nLectures by external lecturers or video lectures will also be presented.",
-  "books": "大学新入生のためのリメディアル数学　(Japanese)",
-  "requiredKnowledge": "The range of mathematics learned in technical high schools, agricultural high schools, and ordinary courses differs. In this course, students will learn the minimum necessary mathematics to take basic subjects and specialized applied subjects in the Department of Civil and Environmental Engineering. It is important to review areas and problems that students had not understand coming into the program.",
+  "educationalGoal": "Learn prototyping methods using microcontrollers to build IoT systems. - Be able to understand the concept and process of prototyping. - Be able to understand how to use microcontroller-based sensors and actuators and how to use networks as basic knowledge required to build IoT systems. - Be able to propose and prototype IoT systems individually and in teams.",
+  "advice": "In this course, students will learn how to use microcontrollers to configure IoT systems, while creating and evaluating prototypes of their own (or their team's) proposed ideas. 1. Introduction to IoT Prototyping 2. Microcontroller exercise for prototyping 3. Prototyping preparation (individual) 4. Prototyping (team) 5. Evaluation and review 6. Prototyping (team) 7. Evaluation and review",
+  "books": "Textbooks:None Reference books:None Reserved books:None",
+  "requiredKnowledge": "No specialized knowledge is required for the course. Basic computer literacy (Windows/Office operation, typing, etc.) is required. Programming experience is not required. Because, microcomputer development is basically done by visual programming.",
   "activityGoals": [
     {
       "index": "①",
-      "type": "D",
-      "body": "Students can solve applied problems using primary equations and second-order equations. [0.25D]"
+      "type": "H",
+      "body": "To be able to explain the concept and methods of IoT prototyping."
     },
     {
       "index": "②",
-      "type": "D",
-      "body": "Students can solve applied problems using exponential and logarithmic functions. [0.25D]"
+      "type": "H",
+      "body": "To be able to develop IoT devices with sensors, actuators and microcontrollers."
     },
     {
       "index": "③",
-      "type": "D",
-      "body": "Students can solve applied problems using trigonometric functions. [0.25D]"
+      "type": "H",
+      "body": "To be able to construct IoT systems using networks."
     },
     {
       "index": "④",
-      "type": "D",
-      "body": "Students can solve applied problems using differentiation and integration. [0.25D]"
+      "type": "G,H",
+      "body": "To be able to make proposals to use IoT systems to solve actual problems."
     }
   ],
   "evaluationWeights": [
@@ -49,19 +46,19 @@
       "label": "総合評価割合",
       "values": [
         "0",
-        "70",
+        "0",
+        "60",
+        "40",
         "0",
         "0",
         "0",
-        "0",
-        "30",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -72,19 +69,19 @@
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
         "0",
-        "70",
+        "0",
+        "60",
+        "40",
         "0",
         "0",
         "0",
-        "0",
-        "30",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -95,19 +92,19 @@
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
         "0",
-        "70",
+        "0",
+        "60",
+        "40",
         "0",
         "0",
         "0",
-        "0",
-        "30",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -128,9 +125,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -138,7 +135,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -151,9 +148,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -174,9 +171,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -185,118 +182,62 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "Students can solve 100% of the applied problems related to civil engineering mathematics using basic mathematics.",
-    "standard": "Students can solve 60% of the applied problems related to civil engineering mathematics using basic mathematics."
+    "ideal": "- Understand IoT prototyping techniques and be able to explain them to others. - Understand the basic technologies for prototyping IoT systems and be able to develop actual prototypes. - Make proposals to use IoT systems to solve actual problems.",
+    "standard": "- Understand IoT prototyping methods. - Understand basic technologies for prototyping IoT systems. - Understand the application examples of IoT systems."
   },
   "clipProcess": "",
   "lessons": [
     {
       "index": "1",
-      "content": "Guidance\nExplanation of class management\nTextbook explanation",
-      "operation": "Lecture",
-      "assignments": "Prepare for chapters 1, 2,\nand 3 in the textbook.",
-      "minutes": "90"
+      "content": "Guidance Introduction to IoT Prototyping",
+      "operation": "Lectures and Exercises",
+      "assignments": "Review of exercises Prepare a report on the lecture content.",
+      "minutes": "200"
     },
     {
       "index": "2",
-      "content": "Explanation and exercises in chapters 1, 2, and\n3 in textbook",
-      "operation": "Lecture and exercises",
-      "assignments": "Review textbook chapters 1, 2,\n and 3.\nPrepare for chapter 4 in the\ntextbook.",
-      "minutes": "90"
+      "content": "Microcontroller Exercise for Prototyping (Sensor/Actuator)",
+      "operation": "Lectures and Exercises",
+      "assignments": "Review of exercises Prepare a report on the lecture content.",
+      "minutes": "200"
     },
     {
       "index": "3",
-      "content": "Quiz measuring students’ understanding of\ntextbook chapters 1, 2, and 3\nExplanations and exercises in textbook chapter 4",
-      "operation": "Quiz\nLecture and exercises",
-      "assignments": "Review textbook chapter 4.\nPrepare for chapter 5 in the\ntextbook.",
-      "minutes": "90"
+      "content": "Microcomputer exercise for prototyping (Using network) Prototyping preparation Elevator pitch",
+      "operation": "Lectures and Exercises",
+      "assignments": "Review of exercises Prepare a report on the lecture content.",
+      "minutes": "200"
     },
     {
       "index": "4",
-      "content": "Quiz measuring students’ understanding of\ntextbook chapter 4\nExplanation and exercises in textbook chapter 5",
-      "operation": "Quiz\nLecture and exercises\nSelf-check",
-      "assignments": "Review textbook chapter 5.\nPrepare for chapters 6 and 7\nin the textbook.",
-      "minutes": "90"
+      "content": "Prototyping1 (Team)",
+      "operation": "Lectures and Exercises",
+      "assignments": "Review of exercises Prepare a report on the lecture content.",
+      "minutes": "200"
     },
     {
       "index": "5",
-      "content": "Quiz measuring students’ understanding of\ntextbook chapter\nExplanation and exercises in textbook chapters 6\n and 7",
-      "operation": "Quiz\nLecture and exercises\nSelf-check",
-      "assignments": "Review textbook chapters 6\nand 7.\nPrepare for chapters 8 and 9\nin the textbook.",
-      "minutes": "90"
+      "content": "Evaluation and Reflection",
+      "operation": "Lectures and Exercises Presentation",
+      "assignments": "Review of exercises",
+      "minutes": "200"
     },
     {
       "index": "6",
-      "content": "Quiz measuring students’ understanding of\ntextbook chapters 6 and 7\nExplanation and exercises in textbook chapters 8\n and 9",
-      "operation": "Quiz\nLecture and exercises\nSelf-check",
-      "assignments": "Review textbook chapters 8\nand 9.\nPrepare for chapter 10 in the\ntextbook.",
-      "minutes": "90"
+      "content": "Prototyping2 (Team)",
+      "operation": "Lectures and Exercises",
+      "assignments": "Review of exercises Prepare a report on the lecture content.",
+      "minutes": "200"
     },
     {
       "index": "7",
-      "content": "Quiz measuring students’ understanding of\ntextbook chapters 8and 9\nExplanation and exercises in textbook chapter 10",
-      "operation": "Quiz\nLectures and exercises\nSelf-check",
-      "assignments": "Review textbook chapter 10.\nPrepare for chapter 11 in the\ntextbook.",
-      "minutes": "90"
-    },
-    {
-      "index": "8",
-      "content": "Regional cooperation",
-      "operation": "Lectures by related\ncompanies or video\npresentations related to\ncivil engineering",
-      "assignments": "",
-      "minutes": ""
-    },
-    {
-      "index": "9",
-      "content": "Quiz measuring students’ understanding of\ntextbook chapter 10\nExplanation and exercises in textbook chapter 11",
-      "operation": "Quiz\nLecture and exercises\nSelf-check",
-      "assignments": "Review textbook chapter 11.\nPrepare for chapter 12 in the\ntextbook.",
-      "minutes": "90"
-    },
-    {
-      "index": "10",
-      "content": "Quiz measuring students’ understanding of\ntextbook chapter 11\nExplanation and exercises in textbook chapter 12",
-      "operation": "Quiz\nLecture and exercises\nSelf-check",
-      "assignments": "Review textbook chapter 12.\nPrepare for chapters 13 and\n14 in the textbook.",
-      "minutes": "90"
-    },
-    {
-      "index": "11",
-      "content": "Quiz measuring students’ understanding of\ntextbook chapter 12\nExplanation and exercises in textbook chapters\n13 and 14",
-      "operation": "Quiz\nLecture and exercises\nSelf-check",
-      "assignments": "Review textbook chapters 13\nand 14.\nPrepare for chapters 17 and\n18 in the textbook.",
-      "minutes": "90"
-    },
-    {
-      "index": "12",
-      "content": "Quiz measuring students’ understanding of\ntextbook chapters 13 and 14\nExplanation and exercises in textbook chapters\n17 and 18",
-      "operation": "Quiz\nLecture and exercises\nSelf-check",
-      "assignments": "Review textbook chapters 17\nand 18.\nPrepare for chapter 19 in the\ntextbook.",
-      "minutes": "90"
-    },
-    {
-      "index": "13",
-      "content": "Quiz measuring students’ understanding of\ntextbook chapters 17 and 18\nExplanation and exercises in textbook chapter 19",
-      "operation": "Quiz\nLecture and exercises\nSelf-check",
-      "assignments": "Review textbook chapter 19.",
-      "minutes": "90"
-    },
-    {
-      "index": "14",
-      "content": "Regional cooperation",
-      "operation": "Lectures by related\ncompanies or video\npresentations related to\ncivil engineering",
-      "assignments": "",
-      "minutes": ""
-    },
-    {
-      "index": "15",
-      "content": "Integrated learning",
-      "operation": "Follow-up quiz\nSelf-check",
-      "assignments": "",
-      "minutes": ""
+      "content": "Evaluation and Reflection",
+      "operation": "Lectures and Exercises Presentation",
+      "assignments": "Review of exercises",
+      "minutes": "200"
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　K504-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Civil and Environmental Engineering\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                土木数理\n                Mathematics in Civil Engineering\n\n              2\n              K504-01\n\n                2026年度\n\n                1st year 1st semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  TOKUNAGA Mitsuharu\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Civil engineering math\n2.Trigonometric functions\n3.Exp and log functions\n4.Derivatives and integrals\n5.Regional cooperation\n\n              Students can learn basic mathematics used in civil and environmental engineering and acquire the ability to apply them. This course is essential preparation for specialized subjects in the Department of Civil and Environmental Engineering.\n\n              授業の概要および学習上の助言\n\n              In this course, students learn the following contents using textbooks and solve the relevant problems.\nIn order to measure the level of understanding and achievement, students will take ten small tests.\nContents:\nNumbers and variables in equations, primary equations, factorization, second-order equations, shapes and trigonometric ratios, trigonometric functions, exponential functions, logarithmic functions, differentials, integrals, vectors\n\nLectures by external lecturers or video lectures will also be presented.\n\n              教科書および参考書・リザーブドブック\n\n              大学新入生のためのリメディアル数学　(Japanese)\n\n              履修に必要な予備知識や技能\n\n              The range of mathematics learned in technical high schools, agricultural high schools, and ordinary courses differs. In this course, students will learn the minimum necessary mathematics to take basic subjects and specialized applied subjects in the Department of Civil and Environmental Engineering. It is important to review areas and problems that students had not understand coming into the program.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                D\n                Students can solve applied problems using primary equations and second-order equations. [0.25D]\n\n                ②\n                D\n                Students can solve applied problems using exponential and logarithmic functions. [0.25D]\n\n                ③\n                D\n                Students can solve applied problems using trigonometric functions. [0.25D]\n\n                ④\n                D\n                Students can solve applied problems using differentiation and integration. [0.25D]\n\n                ⑤\n\n                ⑥\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                0\n\n                70\n\n                0\n\n                0\n\n                0\n\n                0\n\n                30\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                0\n\n                70\n\n                0\n\n                0\n\n                0\n\n                0\n\n                30\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                0\n\n                70\n\n                0\n\n                0\n\n                0\n\n                0\n\n                30\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  コラボレーションとリーダーシップ\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n           ",
-  "courseId": "2026:spring:K504-01:0:877",
+  "rawText": "金沢工業大学 学習支援計画書 G265-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\n(Provided by all courses)\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     (Provided by all courses)\nLiberal Arts Courses\nTransdisciplinary Learning\nIoTプロトタイピング(春期集中講義)\nIoT Prototyping  1 G265-01  2024年度\n 1st year 2nd semester  修学規程第4条を参照\n    担当教員名\n KAWANAMI Takashi, SANO Shoji\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Prototyping 2.Microcontrollers 3.Sensors & Actuators 4.Networking 5.Communication  Learn prototyping methods using microcontrollers to build IoT systems. - Be able to understand the concept and process of prototyping. - Be able to understand how to use microcontroller-based sensors and actuators and how to use networks as basic knowledge required to build IoT systems. - Be able to propose and prototype IoT systems individually and in teams.\n    授業の概要および学習上の助言   In this course, students will learn how to use microcontrollers to configure IoT systems, while creating and evaluating prototypes of their own (or their team's) proposed ideas. 1. Introduction to IoT Prototyping 2. Microcontroller exercise for prototyping 3. Prototyping preparation (individual) 4. Prototyping (team) 5. Evaluation and review 6. Prototyping (team) 7. Evaluation and review\n    教科書および参考書・リザーブドブック   Textbooks:None Reference books:None Reserved books:None\n    履修に必要な予備知識や技能   No specialized knowledge is required for the course. Basic computer literacy (Windows/Office operation, typing, etc.) is required. Programming experience is not required. Because, microcomputer development is basically done by visual programming.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① H To be able to explain the concept and methods of IoT prototyping.   ② H To be able to develop IoT devices with sensors, actuators and microcontrollers.   ③ H To be able to construct IoT systems using networks.   ④ G,H To be able to make proposals to use IoT systems to solve actual problems.   ⑤     ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 0 0 60 40 0 0 0 100     指標と評価割合 総合評価割合 0 0 60 40 0 0 0 100   総合力指標 知識を取り込む力 0 0 60 40 0 0 0 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ①      ②     ③     ④     ⑤     ⑥     クイズ\n小テスト ①      ②     ③     ④     ⑤     ⑥     レポート ① レ Report on opinions about IoT prototyping methods(individual) Report on the results of a basic exercise using microcontrollers(individual) Prototyping proposal (individual)    ② レ   ③ レ   ④ レ   ⑤     ⑥     成果発表\n(口頭・実技) ① レ Propose a prototype IoT system to solve a real problem (team): 2 sessions   ② レ   ③ レ   ④ レ   ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ①      ②     ③     ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     - Understand IoT prototyping techniques and be able to explain them to others. - Understand the basic technologies for prototyping IoT systems and be able to develop actual prototypes. - Make proposals to use IoT systems to solve actual problems. - Understand IoT prototyping methods. - Understand basic technologies for prototyping IoT systems. - Understand the application examples of IoT systems.\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習課題に要する標準的な時間を記載してあります。日々の自学自習時間全体としては、各授業に応じた時間(例えば2単位科目の場合、予習2時間・復習2時間/週)を取るよう努めてください。詳しくは教員の指導に従って下さい。     授業明細   回数 学習内容 授業の運営方法 学習課題(予習・復習) 時間:分※     1  Guidance Introduction to IoT Prototyping Lectures and Exercises Review of exercises Prepare a report on the lecture content.  200   2  Microcontroller Exercise for Prototyping (Sensor/Actuator) Lectures and Exercises Review of exercises Prepare a report on the lecture content.  200   ",
+  "courseId": "2024:spring:G260-01:0:877",
   "language": "en"
 }

@@ -1,57 +1,58 @@
 {
   "sourceIndex": 767,
   "sourceUrl": "/opsyllabus/kitos0110/767/1",
-  "importedAt": "2026-06-08T09:34:08.902Z",
-  "title": "電気基礎",
-  "subtitle": "Fundamentals of Electrical Engineering",
-  "courseType": "Major ProgramMajor Courses",
-  "credits": "2",
-  "term": "2026年度\n\n                1st year 1st semester",
+  "importedAt": "2026-06-09T01:29:26.345Z",
+  "title": "応用化学専門実験・演習B3",
+  "subtitle": "Applied Chemistry Major Lab/Exercises B3",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "1",
+  "term": "2024年度\n 3rd year 1st semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "SAITO Hiroshi",
-    "TAKANO Noriyuki"
+    "ONO Shin",
+    "TANIDA Ikuhiro"
   ],
   "keywords": [
-    "Electric current, voltage",
-    "Electric resistor",
-    "Condenser",
-    "Coil",
-    "Motor"
+    "Proteolytic enzymes 2.Enzyme kinetics 3.Gel electrophoresis 4.Ristriction enzymes"
   ],
-  "educationalGoal": "Students will:\n(1) Learn the basic of electronics for a machine engineer\n(2) Learn the basic concepts such as electric current and voltage\n(3) Learn the principles and the functions such as resistor, condenser and coil\n(4) Learn the principle of motor",
-  "advice": "This is a basic course in electric engineering.\n\nStep 1: students will understand the concepts as follows,\n electric current, voltage, resistance, electric power, magnetic field, magnetic force, alternating current, electric field\nStep 2: students will understand the laws and use them as follows,\n Ohm's law, Kirchhoff's current law, Joule's law, Coulomb's law, Ampere's law, Biot-Savart law, Fleming's law, Faraday's law\nStep 3: students will apply them to electric circuits and equipments as follows,\n voltage and current measurement, Wheatstone bridge, heater, temperature measurement, electromagnetic induction, motor, electric transformer, electric storage\n\nLecture and exercise explanations will be provided on demand as needed.",
-  "books": "Text book: Introduction to Electrical Engineering, Morikita Publishing (in Japanese)",
-  "requiredKnowledge": "Students are required basic mathematical skills.\nIt is desirable to understand differentiation and integration.",
+  "educationalGoal": "Students will: (1) Learn the skills related to chemistry experimental operations, instrument handling, instrumental analysis, data analysis, and report preparation. (2) Acquire the ability to evaluate results obtained from qualitative and quantitative experiments, and perform logical thinking. (3) Learn theories and methods, acquire comprehension, and apply the knowledge.",
+  "advice": "In Applied Chemistry Major Lab/Exercises B3, biochemical experiments are conducted. 1. Experimental guidance, safety training, examinations 2. Measurement of reaction rates of proteolytic enzyme 3. Enzyme kinetics analysis 4. Analysis of proteins by SDS-PAGE 5. Treatment of plasmid DNA with ristriction enzyme Bring a scientific calculator and scale. If understanding the experiments and exercises is difficult, gain the understanding before next class through research, questions, or other methods.",
+  "books": "Textbooks: Ouyou Kagaku Senmon Jikken/enshu AB (Kanazawa Institute of Technology Publishing) Reference Books: Anzen Shishin (Kanazawa Institute of Technology Publishing) Reserved Books in the Library: Jikken Deta wo Tadashiku Atsukau tameni (Kagaku Dojin Publishing); Jikken wo Anzen ni Okonau tameni (Kagaku Dojin Publishing); Zoku Jikken wo Anzen ni Okonau tameni (Kagaku Dojin Publishing)",
+  "requiredKnowledge": "Knowledge of fundamental chemistry such as analytical chemistry, inorganic chemistry, organic chemistry, physical chemistry, and biochemistry is needed to take this course. If the progress of the experiment is delayed, course time will be extended until the experiment is completed, so keep some time free after the course on experiment days.",
   "activityGoals": [
     {
       "index": "①",
-      "type": "D,O,P",
-      "body": "Be able to explain the difference between direct current and alternating current."
+      "type": "K",
+      "body": "Handle instruments and equipment safely and explain the experimental procedures."
     },
     {
       "index": "②",
-      "type": "D,O,P",
-      "body": "Be able to explain the relationship between current, voltage, and power throuhg a resistor."
+      "type": "I,K,S",
+      "body": "Read the instructions using technical terms and conduct the experiments yourself."
     },
     {
       "index": "③",
-      "type": "D,O,P",
-      "body": "Be able to explain the functions of a condenser and  a coil."
+      "type": "I,K",
+      "body": "Understand the theoretical basis of the experiments and logically examine the experimental results."
     },
     {
       "index": "④",
-      "type": "D,O,P",
-      "body": "Be able to explain the principle of a motor."
+      "type": "I,J,S",
+      "body": "Prepare reports from the experiments."
+    },
+    {
+      "index": "⑤",
+      "type": "M-P",
+      "body": "Understand basic experimental operations and perform specific experiments."
     }
   ],
   "evaluationWeights": [
     {
       "label": "総合評価割合",
       "values": [
+        "20",
         "0",
-        "50",
-        "30",
+        "60",
         "0",
         "0",
         "0",
@@ -60,9 +61,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -72,9 +73,9 @@
     {
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
+        "20",
         "0",
-        "50",
-        "30",
+        "60",
         "0",
         "0",
         "0",
@@ -83,9 +84,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -95,9 +96,9 @@
     {
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
+        "20",
         "0",
-        "50",
-        "30",
+        "60",
         "0",
         "0",
         "0",
@@ -106,9 +107,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -129,9 +130,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -139,7 +140,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -152,9 +153,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -175,9 +176,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -186,111 +187,48 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "(1) Explain the difference in the use of direct current and alternating current and the reasons.\n(2) Calculate the voltage and the current in complicated circuits using Kirchhoff's law.\n(3) Calculate the voltage and the current in RLC circuits.\n(4) Explain the principle of a DC motor.",
-    "standard": "(1) Explain the difference in the properties of direct current and alternating current.\n(2) Calculate the voltage, the current and the power of resistors connected in parallel or in series.\n(3) Explain the role of condenser s and coils.\n(4) Explain Fleming's left-hand rule."
+    "ideal": "(1) Can use experimental instruments safely and accurately. (2) Understand the principles and use of the analytical apparatus. (3) Can devise your own experimental plan according to the experimental instructions and conduct the experiments. (4) Prepare a report logically and hand in by the deadline.",
+    "standard": "(1) Can use experimental instruments safely. (2) Can use the analytical apparatus. (3) Can conduct the experiments according to the experimental instructions. (4) Prepare a report and hand in by the deadline."
   },
   "clipProcess": "",
   "lessons": [
     {
       "index": "1",
-      "content": "Basics I in DC circuits :\ncurrent, voltage and resistor",
-      "operation": "Lecture and practice\nSelf-check",
-      "assignments": "Prepare Chapter 1 in textbook\nOrganize in your note",
-      "minutes": "40\n60"
+      "content": "Measurement of enzyme reaction rate 1. Observation of characteristic enzyme reaction",
+      "operation": "Lecture, Exercises and Experiments",
+      "assignments": "Pre-Lab Assignment: Read the experimental instructions and prepare a preliminary report. Assignment: Complete post-laboratory report.",
+      "minutes": "30 90"
     },
     {
       "index": "2",
-      "content": "Basics II in DC circuits :\ncalculation combined resistance",
-      "operation": "Lecture and practice\nSelf-check",
-      "assignments": "Prepare Chapter 2 in textbook\nOrganize in your note",
-      "minutes": "40\n60"
+      "content": "Measurement of enzyme reaction rate 2. Determination of reaction rate parameters (Km and Vmax) by Lineweaver-Burk plot",
+      "operation": "Lecture, Exercises and Experiments",
+      "assignments": "Pre-Lab Assignment Read the experimental instructions and prepare a preliminary report. Assignment: Complete post-laboratory report.",
+      "minutes": "30 90"
     },
     {
       "index": "3",
-      "content": "Basic rules in electric circuits :\nKirchhoff's law",
-      "operation": "Lecture and practice\nSelf-check",
-      "assignments": "Prepare Chapter 3 in textbook\nOrganize in your note",
-      "minutes": "40\n60"
+      "content": "Protein separation by SDS-PAGE. Separation of proteins by sodium dodecylsulfate poly-acrylamide gel electrophoresis",
+      "operation": "Lecture, Exercises and Experiments",
+      "assignments": "Pre-Lab Assignment Read the experimental instructions and prepare a preliminary report. Assignment: Complete post-laboratory report.",
+      "minutes": "30 90"
     },
     {
       "index": "4",
-      "content": "Electric energy :\npower consumptipon",
-      "operation": "Lecture and practice\nSelf-check",
-      "assignments": "Prepare Chapter 4 in textbook\nOrganize in your note",
-      "minutes": "40\n60"
+      "content": "Restriction enzyme treatment of DNA. Agarose gel electrophoresis",
+      "operation": "Lecture, Exercises and Experiments",
+      "assignments": "Pre-Lab Assignment Read the experimental instructions and prepare a preliminary report. Assignment: Complete post-laboratory report.",
+      "minutes": "30 90"
     },
     {
       "index": "5",
-      "content": "Electric resistor :\nconductivity, temperature coefficient",
-      "operation": "Lecture and practice\nSelf-check",
-      "assignments": "Prepare Chapter 5 in textbook\nOrganize in your note",
-      "minutes": "40\n60"
-    },
-    {
-      "index": "6",
-      "content": "Properties of magnets :\nrelationship between a current and magnetic\nfield",
-      "operation": "Lecture and practice\nSelf-check",
-      "assignments": "Prepare Chapter 6 in textbook\nOrganize in your note",
-      "minutes": "40\n60"
-    },
-    {
-      "index": "7",
-      "content": "Strength of magnetic field :\nBiot-Savart law",
-      "operation": "Lecture and practice\nSelf-check",
-      "assignments": "Prepare Chapter 7 in textbook\nOrganize in your note",
-      "minutes": "40\n60"
-    },
-    {
-      "index": "8",
-      "content": "Quiz on class 1 to 7 and review",
-      "operation": "Quiz and review\nSelf-reflection",
-      "assignments": "Prepare for th quiz",
-      "minutes": "200"
-    },
-    {
-      "index": "9",
-      "content": "Motor :\ntorque acting on a coil",
-      "operation": "Lecture and practice\nSelf-check",
-      "assignments": "Prepare Chapter 8 in textbook\nOrganize in your note",
-      "minutes": "40\n60"
-    },
-    {
-      "index": "10",
-      "content": "Basics of alternating circuits :\nproperties of alternating current",
-      "operation": "Lecture and practice\nSelf-check",
-      "assignments": "Prepare Chapter 11 in textbook\nOrganize in your note",
-      "minutes": "40\n60"
-    },
-    {
-      "index": "11",
-      "content": "Functions of coils :\nself-inductance, mutual inductance",
-      "operation": "Lecture and practice\nSelf-check",
-      "assignments": "Prepare Chapter 12 in textbook\nOrganize in your note",
-      "minutes": "40\n60"
-    },
-    {
-      "index": "12",
-      "content": "Functions of condensors :\nCoulomb's law and capcitance",
-      "operation": "Lecture and practice\nSelf-check",
-      "assignments": "Prepare Chapter 13 in textbook\nOrganize in your note",
-      "minutes": "40\n60"
-    },
-    {
-      "index": "13",
-      "content": "Class review",
-      "operation": "Review and Exercises\nSelf-reflection",
-      "assignments": "Review",
-      "minutes": "60"
-    },
-    {
-      "index": "15",
-      "content": "Review and supplementary curriculum",
-      "operation": "Lecture and practice\nSelf-check",
-      "assignments": "Review",
-      "minutes": "60"
+      "content": "Examination of biochemistry experiment Self-Evaluation Day",
+      "operation": "Examination and Self-Evaluation",
+      "assignments": "Study for examination Identify your mistakes and review your weaknesses.",
+      "minutes": "120"
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　K005-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Mechanical Engineering\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                電気基礎\n                Fundamentals of Electrical Engineering\n\n              2\n              K005-01\n\n                2026年度\n\n                1st year 1st semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  SAITO Hiroshi, TAKANO Noriyuki\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Electric current, voltage\n2.Electric resistor\n3.Condenser\n4.Coil\n5.Motor\n\n              Students will:\n(1) Learn the basic of electronics for a machine engineer\n(2) Learn the basic concepts such as electric current and voltage\n(3) Learn the principles and the functions such as resistor, condenser and coil\n(4) Learn the principle of motor\n\n              授業の概要および学習上の助言\n\n              This is a basic course in electric engineering.\n\nStep 1: students will understand the concepts as follows,\n electric current, voltage, resistance, electric power, magnetic field, magnetic force, alternating current, electric field\nStep 2: students will understand the laws and use them as follows,\n Ohm's law, Kirchhoff's current law, Joule's law, Coulomb's law, Ampere's law, Biot-Savart law, Fleming's law, Faraday's law\nStep 3: students will apply them to electric circuits and equipments as follows,\n voltage and current measurement, Wheatstone bridge, heater, temperature measurement, electromagnetic induction, motor, electric transformer, electric storage\n\nLecture and exercise explanations will be provided on demand as needed.\n\n              教科書および参考書・リザーブドブック\n\n              Text book: Introduction to Electrical Engineering, Morikita Publishing (in Japanese)\n\n              履修に必要な予備知識や技能\n\n              Students are required basic mathematical skills.\nIt is desirable to understand differentiation and integration.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                D,O,P\n                Be able to explain the difference between direct current and alternating current.\n\n                ②\n                D,O,P\n                Be able to explain the relationship between current, voltage, and power throuhg a resistor.\n\n                ③\n                D,O,P\n                Be able to explain the functions of a condenser and  a coil.\n\n                ④\n                D,O,P\n                Be able to explain the principle of a motor.\n\n                ⑤\n\n                ⑥\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                0\n\n                50\n\n                30\n\n                0\n\n                0\n\n                0\n\n                20\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                0\n\n                50\n\n                30\n\n                0\n\n                0\n\n                0\n\n                20\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                0\n\n                50\n\n                30\n\n                0\n\n                0\n\n                0\n\n                20\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  コラボレーションとリーダーシップ\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  発表・表現・伝達する力\n\n        ",
-  "courseId": "2026:spring:K005-01:0:767",
+  "rawText": "金沢工業大学 学習支援計画書 B047-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Applied Chemistry\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n応用化学専門実験・演習B3\nApplied Chemistry Major Lab/Exercises B3  1 B047-01  2024年度\n 3rd year 1st semester  修学規程第4条を参照\n    担当教員名\n ONO Shin, TANIDA Ikuhiro\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Proteolytic enzymes 2.Enzyme kinetics 3.Gel electrophoresis 4.Ristriction enzymes  Students will: (1) Learn the skills related to chemistry experimental operations, instrument handling, instrumental analysis, data analysis, and report preparation. (2) Acquire the ability to evaluate results obtained from qualitative and quantitative experiments, and perform logical thinking. (3) Learn theories and methods, acquire comprehension, and apply the knowledge.\n    授業の概要および学習上の助言   In Applied Chemistry Major Lab/Exercises B3, biochemical experiments are conducted. 1. Experimental guidance, safety training, examinations 2. Measurement of reaction rates of proteolytic enzyme 3. Enzyme kinetics analysis 4. Analysis of proteins by SDS-PAGE 5. Treatment of plasmid DNA with ristriction enzyme Bring a scientific calculator and scale. If understanding the experiments and exercises is difficult, gain the understanding before next class through research, questions, or other methods.\n    教科書および参考書・リザーブドブック   Textbooks: Ouyou Kagaku Senmon Jikken/enshu AB (Kanazawa Institute of Technology Publishing) Reference Books: Anzen Shishin (Kanazawa Institute of Technology Publishing) Reserved Books in the Library: Jikken Deta wo Tadashiku Atsukau tameni (Kagaku Dojin Publishing); Jikken wo Anzen ni Okonau tameni (Kagaku Dojin Publishing); Zoku Jikken wo Anzen ni Okonau tameni (Kagaku Dojin Publishing)\n    履修に必要な予備知識や技能   Knowledge of fundamental chemistry such as analytical chemistry, inorganic chemistry, organic chemistry, physical chemistry, and biochemistry is needed to take this course. If the progress of the experiment is delayed, course time will be extended until the experiment is completed, so keep some time free after the course on experiment days.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① K Handle instruments and equipment safely and explain the experimental procedures.   ② I,K,S Read the instructions using technical terms and conduct the experiments yourself.   ③ I,K Understand the theoretical basis of the experiments and logically examine the experimental results.   ④ I,J,S Prepare reports from the experiments.   ⑤ M-P Understand basic experimental operations and perform specific experiments.   ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 20 0 60 0 0 0 20 100     指標と評価割合 総合評価割合 20 0 60 0 0 0 20 100   総合力指標 知識を取り込む力 20 0 60 0 0 0 20 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ Examination based on experimental content will be given at the end of each class: proteolytic enzymes, enzyme kinetics, gel electrophoresis and ristriction enzymes.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     クイズ\n小テスト ①      ②     ③     ④     ⑤     ⑥     レポート ① レ Prepare an experimental report in the prescribed format for each theme and submit it by the designated deadline. In the experimental report, describe the content and results of the experiment, add a reference list if necessary, and summarize them on A4 size report paper. If you do not submit the report by the deadline, the score will be reduced.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ① レ Attendance and attitude during the experiments also will be evaluated (completion of preliminary tasks). Because this is a laboratory course, attending all classes is important.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベ",
+  "courseId": "2024:spring:B046-01:0:767",
   "language": "en"
 }

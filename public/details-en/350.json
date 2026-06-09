@@ -1,72 +1,66 @@
 {
   "sourceIndex": 350,
   "sourceUrl": "/opsyllabus/kitos0110/350/1",
-  "importedAt": "2026-06-08T09:34:00.202Z",
-  "title": "プロジェクトデザインⅢ（佐野渉二研究室）",
-  "subtitle": "Design Project III(Sano Shoji)",
-  "courseType": "Major ProgramMajor Project Courses",
-  "credits": "8",
-  "term": "2026年度\n\n                All year",
+  "importedAt": "2026-06-09T01:29:22.331Z",
+  "title": "電気回路Ⅰ",
+  "subtitle": "Electric Circuits I",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "2",
+  "term": "2024年度\n 1st year 1st semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "SANO Shoji"
+    "HIROTA Tetsuo",
+    "FUKADA Haruki",
+    "IKENAGA Noriaki",
+    "KONNO Takeshi"
   ],
   "keywords": [
-    "Concept Setting",
-    "Problem Solving Method",
-    "Development Design",
-    "Implementation",
-    "Local Cooperation"
+    "AC circuits 2.Sine wave AC 3.Average and RMS values 4.Phasor representation 5.Region cooperation"
   ],
-  "educationalGoal": "Students will\n(1) Conduct research activities related to an information technology system for an academically unsolved problem based on their acquired knowledge and skills related to computer science and technology.\n(2) Through these activities, students will develop skills related to problem setting, development, presentation, and writing.",
-  "advice": "This is the constructive computer science activity. We will cover the following themes:\n\n1. Computer interaction\n2. Real-world computing\n3. Wearable computing\n4. Ubiquitous computing\n5. Entertainment computing\n6. Public transportation systems",
-  "books": "",
-  "requiredKnowledge": "Problem-solving skills learned in this course include planning skills, execution skills, communication skills, programming skills, writing skills, and presentation skills.",
+  "educationalGoal": "This is a fundamental and important subject in the electrical engineering curriculum. The objective is to acquire a basic knowledge of electrical circuits and develop the ability to analyze and design electrical circuits through physical and mathematical considerations. Students will learn the fundamentals of electric circuits consisting of resistance (R), inductance (L), capacitance (C), and their combinations connected to an AC power source. In addition, students will learn about phasor representation of sinusoidal AC.",
+  "advice": "Below is an outline of the topics to be covered: AC circuit basics: properties of sine wave AC, effects of resistance, inductance, and capacitance, average and RMS values, phasor indication of sinusoidal AC This subject is not only important as preparation for subsequent courses (Electrical Circuit II, Electrical Circuit III, and Electrical Circuit IV), but also each specialized topic should be studied keeping in mind that it is a basic course requirement. Based on the level of student understanding as indicated by quiz results, etc., changes may occur in the class schedule and course content.",
+  "books": "Basic electric circuit (2nd edition) New Edition, Morikita Publishing Co., Ltd.",
+  "requiredKnowledge": "It is important that you solve as many problems as possible in order to understand and practice the theory presented. In addition, continuous effort is required on a daily basis. We encourage you to 1) examine various reference books, 2) ask the lecturer questions, and 3) take advantage of the Mathematical and Science Education Research Center so that you can clarify what you don't understand.",
   "activityGoals": [
     {
       "index": "①",
-      "type": "A,B,D,E,G,H,L-P",
-      "body": "Be able to set a project schedule based on a set research topic goal."
+      "type": "J",
+      "body": "Participants can draw and explain the waveform of a sine wave alternating current."
     },
     {
       "index": "②",
-      "type": "A,B,D,E,G,H,L-P",
-      "body": "Be able to set an appropriate approach or method for the project."
+      "type": "J",
+      "body": "Participants can formulate the circuit equations for AC circuits consisting of R, L, and C."
     },
     {
       "index": "③",
-      "type": "A,B,D,E,G,H,L-P",
-      "body": "Be able to acquire the IT knowledge and skills needed for proceeding with the project."
+      "type": "J",
+      "body": "Participants can calculate average and rms values of sine wave AC."
     },
     {
       "index": "④",
-      "type": "A,B,D,E,G,H,L-P",
-      "body": "Be able to deal with the problems that will occur in the analysis and design process."
-    },
-    {
-      "index": "⑤",
-      "type": "A,B,D,E,G,H,L-P",
-      "body": "Be able to evaluate the result from subjective and objective viewpoints for better understanding."
+      "type": "J",
+      "body": "Participants can represent the phasor of sine wave AC."
     }
   ],
   "evaluationWeights": [
     {
       "label": "総合評価割合",
       "values": [
+        "40",
+        "40",
+        "20",
         "0",
         "0",
         "0",
         "0",
-        "0",
-        "0",
-        "100",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -76,20 +70,20 @@
     {
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
+        "40",
+        "40",
+        "20",
         "0",
         "0",
         "0",
         "0",
-        "0",
-        "0",
-        "100",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -99,20 +93,20 @@
     {
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
+        "40",
+        "40",
+        "20",
         "0",
         "0",
         "0",
         "0",
-        "0",
-        "0",
-        "100",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -133,9 +127,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -143,7 +137,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -156,9 +150,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -179,9 +173,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -190,20 +184,118 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "Students conduct research activities related to problem setting, design, and implementation of an information system. They then write a project report and make a conference level presentation.",
-    "standard": "Students conduct a set of research activities related to problem setting, design, and implementation of an information system. They then write a project report and make a presentation."
+    "ideal": "Participants can correctly draw and sufficiently explain the waveform of a sine wave AC and be able to correctly formulate the circuit equations of a sine wave AC circuit consisting of R, L, and C. They can correctly calculate the average and RMS values of a sine wave AC and sufficiently explain the physical meaning of the RMS value. They can represent correctly the phasor of a sine wave AC and sufficiently explain why complex numbers are introduced in the calculation of sine wave AC circuits.",
+    "standard": "Participants can draw and explain the waveform of a sine wave AC, and formulate the circuit equations of a sine wave AC circuit consisting of R, L, and C. They can calculate the average and RMS values of a sine wave AC and explain the physical meaning of the RMS value. They can represent the phasor of a sine wave AC and explain why complex numbers are introduced in the calculation of sine wave AC circuits."
   },
   "clipProcess": "",
   "lessons": [
     {
-      "index": "1-90",
-      "content": "Proceed with research activities.\nReport and present the results of your research\nproject.",
-      "operation": "",
-      "assignments": "Set a goal of engaging in rese\narch activities for at least 4\n hours per day on weekdays.",
-      "minutes": ""
+      "index": "1",
+      "content": "Chapter 1 Circuit Elements 1.2 Element voltage and current 1.3 Element energy Chapter 5 Sine-wave AC circuit 5.1 Circuit equation",
+      "operation": "Lecture, practice, and questions. In principle, subtests are conducted as many times as is appropriate with advance notice. The test is explained appropriately.",
+      "assignments": "Read the sections of the textbook indicated in the left column. Review the matters learned that day. Write the correct answers for the tests. Be sure to submit your report by the deadline. Review the lecture and learn more about the circuit elements and circuit equations of a sine wave AC. Study textbooks to understand sinusoidal voltage and current.",
+      "minutes": "200"
+    },
+    {
+      "index": "2",
+      "content": "Chapter 5 Sine wave AC circuit 5.2 Sinusoidal voltage, sinusoidal current",
+      "operation": "Lecture and practice Interactive activities",
+      "assignments": "Review the lecture and deepen your understanding of sinusoidal voltage and current. Study textbooks to understand circuit equations for a single element.",
+      "minutes": "200"
+    },
+    {
+      "index": "3",
+      "content": "Chapter 5 Sine wave AC circuit 5.3 Circuit equations for a single element",
+      "operation": "Lecture and practice Interactive activities",
+      "assignments": "Review the content of the lecture and deepen your understanding of circuit equations for a single element. Study textbooks to understand circuit equations for multiple elements.",
+      "minutes": "200"
+    },
+    {
+      "index": "4",
+      "content": "Chapter 5 Sine wave AC circuit 5.4 Circuit equations for multiple elements",
+      "operation": "Lecture and practice Interactive activities",
+      "assignments": "Review the content of the lecture and deepen your understanding of circuit equations for multiple elements. Study textbooks to understand the power and power factor of sine wave AC circuits.",
+      "minutes": "200"
+    },
+    {
+      "index": "5",
+      "content": "Chapter 5 Sine wave AC circuit 5.5 Power and power factor",
+      "operation": "Lecture and practice Interactive activities",
+      "assignments": "Review the content of the lecture and deepen your understanding of the power and power factor of sine wave AC circuits.",
+      "minutes": "200"
+    },
+    {
+      "index": "6",
+      "content": "Exercises on basic circuits of sine wave AC.",
+      "operation": "Lecture and practice Interactive activities",
+      "assignments": "Review the content of the lecture and deepen your understanding of basic sine wave AC circuits. Study textbooks to understand the average and RMS values of periodic waveforms.",
+      "minutes": "200"
+    },
+    {
+      "index": "7",
+      "content": "Chapter 6 Average and RMS values of periodic waveform 6.1 Average value 6.2 RMS value",
+      "operation": "Lecture and practice Interactive activities",
+      "assignments": "Review the content of the lecture and deepen your understanding of the average and RMS values of periodic waveforms. Study textbooks to understand the representation of sinusoidal functions in phasor form.",
+      "minutes": "200"
+    },
+    {
+      "index": "8",
+      "content": "Chapter 7 Phasor representation of sine wave AC 7.1 Representation of sinusoidal functions in phasor form",
+      "operation": "Lecture and practice Interactive activities",
+      "assignments": "Review the content of the lecture and deepen your understanding of the representation of sinusoidal functions in phasor form. Study textbooks to understand complex numbers, conjugate complex numbers and phasor rotation.",
+      "minutes": "200"
+    },
+    {
+      "index": "9",
+      "content": "Chapter 7 Phasor representation of sine wave AC 7.2 Complex numbers 7.3 Phasor in exponential form",
+      "operation": "Lecture and practice Interactive activities",
+      "assignments": "Review the content of the lecture and deepen your understanding of complex numbers, conjugate complex numbers and the phasor rotation. Study textbooks to understand the differentiation and integration of sinusoidal functions.",
+      "minutes": "200"
+    },
+    {
+      "index": "10",
+      "content": "Chapter 7 Phasor representation of sine wave AC 7.4 Differentiation and integration of sinusoidal functions",
+      "operation": "Lecture and practice Interactive activities",
+      "assignments": "Review the content of the lecture and deepen your understanding of the differentiation and integration of sinusoidal functions.",
+      "minutes": "200"
+    },
+    {
+      "index": "11",
+      "content": "Preparation for “Electric Circuit II” (Analysis of sine wave AC circuits using the symbolic method)",
+      "operation": "Lecture and practice Interactive activities",
+      "assignments": "Review the content of the lecture and deepen your understanding of the analysis of sine wave AC circuits using the symbolic method.",
+      "minutes": "200"
+    },
+    {
+      "index": "12",
+      "content": "Integrated learning 1, Self-reflection",
+      "operation": "Lecture and practice Interactive activities",
+      "assignments": "Review for final exam.",
+      "minutes": "200"
+    },
+    {
+      "index": "13",
+      "content": "Integrated learning 2, Self-reflection",
+      "operation": "Lecture and practice Interactive activities",
+      "assignments": "Review for final exam.",
+      "minutes": "200"
+    },
+    {
+      "index": "14",
+      "content": "Term exam and explanation",
+      "operation": "The exam covers the content of all lectures.",
+      "assignments": "Review lecture and exercise questions that were not fully answered in the final exam.",
+      "minutes": "200"
+    },
+    {
+      "index": "15",
+      "content": "Integrated learning of this course, Self-evaluation",
+      "operation": "Return the final exam and explain the questions and answers. Clear unmet action goals identified in previous tests.",
+      "assignments": "Self-check and try to resolve any lack of understanding of the previous practices and test questions.",
+      "minutes": "200"
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　E926-22\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Information and Computer Science(〜2024)\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Project Courses\n\n                プロジェクトデザインⅢ（佐野渉二研究室）\n                Design Project III(Sano Shoji)\n\n              8\n              E926-22\n\n                2026年度\n\n                All year\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  SANO Shoji\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Concept Setting\n2.Problem Solving Method\n3.Development Design\n4.Implementation\n5.Local Cooperation\n\n              Students will\n(1) Conduct research activities related to an information technology system for an academically unsolved problem based on their acquired knowledge and skills related to computer science and technology.\n(2) Through these activities, students will develop skills related to problem setting, development, presentation, and writing.\n\n              授業の概要および学習上の助言\n\n              This is the constructive computer science activity. We will cover the following themes:\n\n1. Computer interaction\n2. Real-world computing\n3. Wearable computing\n4. Ubiquitous computing\n5. Entertainment computing\n6. Public transportation systems\n\n              教科書および参考書・リザーブドブック\n\n              履修に必要な予備知識や技能\n\n              Problem-solving skills learned in this course include planning skills, execution skills, communication skills, programming skills, writing skills, and presentation skills.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                A,B,D,E,G,H,L-P\n                Be able to set a project schedule based on a set research topic goal.\n\n                ②\n                A,B,D,E,G,H,L-P\n                Be able to set an appropriate approach or method for the project.\n\n                ③\n                A,B,D,E,G,H,L-P\n                Be able to acquire the IT knowledge and skills needed for proceeding with the project.\n\n                ④\n                A,B,D,E,G,H,L-P\n                Be able to deal with the problems that will occur in the analysis and design process.\n\n                ⑤\n                A,B,D,E,G,H,L-P\n                Be able to evaluate the result from subjective and objective viewpoints for better understanding.\n\n                ⑥\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                0\n\n                0\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                0\n\n                0\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                0\n\n                0\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  コラボレーションとリーダーシップ\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  発表・表現・伝達する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  学習に取組む姿勢・意",
-  "courseId": "2026:full-year:E926-22:0:350",
+  "rawText": "金沢工業大学 学習支援計画書 E649-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Electrical and Electronic Engineering(2018〜)\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n電気回路Ⅰ\nElectric Circuits I  2 E649-01  2024年度\n 1st year 1st semester  修学規程第4条を参照\n    担当教員名\n HIROTA Tetsuo, FUKADA Haruki, IKENAGA Noriaki, KONNO Takeshi\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.AC circuits 2.Sine wave AC 3.Average and RMS values 4.Phasor representation 5.Region cooperation  This is a fundamental and important subject in the electrical engineering curriculum. The objective is to acquire a basic knowledge of electrical circuits and develop the ability to analyze and design electrical circuits through physical and mathematical considerations. Students will learn the fundamentals of electric circuits consisting of resistance (R), inductance (L), capacitance (C), and their combinations connected to an AC power source. In addition, students will learn about phasor representation of sinusoidal AC.\n    授業の概要および学習上の助言   Below is an outline of the topics to be covered: AC circuit basics: properties of sine wave AC, effects of resistance, inductance, and capacitance, average and RMS values, phasor indication of sinusoidal AC This subject is not only important as preparation for subsequent courses (Electrical Circuit II, Electrical Circuit III, and Electrical Circuit IV), but also each specialized topic should be studied keeping in mind that it is a basic course requirement. Based on the level of student understanding as indicated by quiz results, etc., changes may occur in the class schedule and course content.\n    教科書および参考書・リザーブドブック   Basic electric circuit (2nd edition) New Edition, Morikita Publishing Co., Ltd.\n    履修に必要な予備知識や技能   It is important that you solve as many problems as possible in order to understand and practice the theory presented. In addition, continuous effort is required on a daily basis. We encourage you to 1) examine various reference books, 2) ask the lecturer questions, and 3) take advantage of the Mathematical and Science Education Research Center so that you can clarify what you don't understand.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① J Participants can draw and explain the waveform of a sine wave alternating current.   ② J Participants can formulate the circuit equations for AC circuits consisting of R, L, and C.   ③ J Participants can calculate average and rms values of sine wave AC.   ④ J Participants can represent the phasor of sine wave AC.   ⑤     ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 40 40 20 0 0 0 0 100     指標と評価割合 総合評価割合 40 40 20 0 0 0 0 100   総合力指標 知識を取り込む力 40 40 20 0 0 0 0 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ There will be one examination (final exam) to confirm the student’s degree of achievement of the above behavioral. The final exam will be based on all four of the behavioral objectives, 1-4. The score will count as 40 percent of the final grade.   ② レ   ③ レ   ④ レ   ⑤     ⑥     クイズ\n小テスト ① レ Quizzes will also be conducted to confirm the achievement of the above action goals. The quizzes will be conducted at several points in the term based on a particular action goal (of goals 1- 4) and will be evaluated comprehensively. The overall score will count as 40 percent of the final grade.   ② レ   ③ レ   ④ レ   ⑤     ⑥     レポート ① レ Participants will submit a report several times during the term. The score will count as 20 percent of the final grade.   ② レ   ③ レ   ④ レ   ⑤     ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ①      ②     ③     ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     Participants can correctly draw and sufficiently explain the wavefo",
+  "courseId": "2024:spring:E642-01:0:350",
   "language": "en"
 }

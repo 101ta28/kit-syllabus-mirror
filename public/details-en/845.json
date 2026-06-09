@@ -1,70 +1,63 @@
 {
   "sourceIndex": 845,
   "sourceUrl": "/opsyllabus/kitos0110/845/1",
-  "importedAt": "2026-06-08T09:34:10.662Z",
-  "title": "多相交流回路",
-  "subtitle": "Polyphase AC Circuits",
-  "courseType": "Major ProgramMajor Courses",
+  "importedAt": "2026-06-09T01:29:27.095Z",
+  "title": "経済と社会",
+  "subtitle": "Economy and Society",
+  "courseType": "(Provided by all courses)\nLiberal Arts Courses\nTransdisciplinary Learning",
   "credits": "2",
-  "term": "2026年度\n\n                2nd year 2nd semester",
+  "term": "2024年度\n 1st year 2nd semester\n2nd year 1st semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "FUKAMI Tadashi"
+    "NAKANO Makoto"
   ],
   "keywords": [
-    "Three-phase electricity",
-    "Fourier Series",
-    "Distorted wave"
+    "Economic activity 2.Commercial code 3.Companies act"
   ],
-  "educationalGoal": "(1)Students will learn how to calculate the electric circuit of three-phase electricity.\n\n(2)Students will learn Fourier series of periodic wave.\n\n(3)Students will learn how to calculate the electric circuit with distorted wave.",
-  "advice": "We will cover the following materials:\n10.Three-phase AC circuits\n10.1.1 Configurations of three-phase AC circuits\n10.1.2 Connection diagrams of three-phase sources\n10.1.3 Connection diagrams of three-phase loads\n10.1.4 Conversion of a balanced load from star and delta connection, and vice-versa\n10.1.5 Analysis of three-phase AC circuits: voltage and current calculations\n10.1.6 Analysis of three-phase AC circuits: power calculations\n\n8. Distorted wave\n8.1 Introduction of distorted wave\n8.2 Analysis of distorted waveforms: power calculations\n8.3 Analysis of distorted waveforms: the calculation of form factor, crest factor and distortion factor\n8.4 Fourier series: Fourier series expansion of distorted waveforms\n8.5 Fourier series: Fourier series expansion of even and odd function",
-  "books": "Fundamentals of Electric Circuits[Corona Publishing Co., Ltd.](in Japanese)",
-  "requiredKnowledge": "Fully understanding of “Electric Circuit I, II, III”.\nBasic knowledge and application ability of mathematics such as complex number, calculus and trigonometric function.",
+  "educationalGoal": "The purpose of this course is to understand the economy that is involved in modern society and life, and to understand the functions and roles of companies. In this course, students will learn basic knowledge of economics, as well as basic knowledge of corporate systems and laws that play a major role in the economy, and how to respond to society.",
+  "advice": "In this course, students will learn the following about economics and companies. ・Society and economic activity ・Company purpose and activities ・Company owned and management ・Responding to the information society ・Relationship between company and society",
+  "books": "・Textbooks: None ・Reference books: None ・Reserved books: None",
+  "requiredKnowledge": "・Basic knowledge about the market economy. ・Basic knowledge about the Company.",
   "activityGoals": [
     {
       "index": "①",
-      "type": "M",
-      "body": "Be able to understand the basic concept of the three phase electricity and analyze the circuit."
+      "type": "A,B",
+      "body": "Understand the mechanism of market economy and economic policy. And explain the current economic situation."
     },
     {
       "index": "②",
-      "type": "M",
-      "body": "Be able to calculate the equivalent conversion between the delta and star connection."
+      "type": "A,B",
+      "body": "Explain the purpose and role of a company in society."
     },
     {
       "index": "③",
-      "type": "M",
-      "body": "Be able to understand the Fourier series of the distorted wave."
+      "type": "A,B",
+      "body": "Investigate and consider cases related to the establishment and survival of a company."
     },
     {
       "index": "④",
-      "type": "M",
-      "body": "Be able to calculate the Fourier series of the distorted wave."
-    },
-    {
-      "index": "⑤",
-      "type": "M",
-      "body": "Be able to analyze the circuit with the distorted wave."
+      "type": "A,B",
+      "body": "Investigate responses to social situations and consider the results."
     }
   ],
   "evaluationWeights": [
     {
       "label": "総合評価割合",
       "values": [
-        "30",
-        "60",
+        "0",
+        "48",
+        "36",
         "0",
         "0",
         "0",
-        "0",
-        "10",
+        "16",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -74,20 +67,20 @@
     {
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
-        "30",
-        "60",
+        "0",
+        "48",
+        "36",
         "0",
         "0",
         "0",
-        "0",
-        "10",
+        "16",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -97,20 +90,20 @@
     {
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
-        "30",
-        "60",
+        "0",
+        "48",
+        "36",
         "0",
         "0",
         "0",
-        "0",
-        "10",
+        "16",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -131,9 +124,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -141,7 +134,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -154,9 +147,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -177,9 +170,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -188,118 +181,118 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "(1) Explain the concept of three-phase AC circuits by mathematical expressions and conduct circuit calculations.\n(2) Calculate equivalent impedances between delta and star connection.\n(3) Calculate the current, voltage, and power of three-phase AC circuits.\n(4) Derive a Fourier series formula by yourself and explain the meaning of the formula strictly.\n(5) Calculate Fourier series of periodic waveform.\n(6) Correctly calculate the distorted wave current, voltage and power of electric circuit.",
-    "standard": "Achieve the 5 items of action goal."
+    "ideal": "・Understand social and economic mechanisms and be able to explain them accurately. ・Be able to accurately consider responses to the company and society.",
+    "standard": "・Be able to understand and explain social and economic mechanisms. ・Be able to consider responses to companies and society."
   },
   "clipProcess": "",
   "lessons": [
     {
       "index": "1",
-      "content": "10.Three-phase AC circuits\n10.1.1 Configurations of three-phase AC circuits",
-      "operation": "Lecture and Q&A\nSelf-check",
-      "assignments": "Prepare for the section\n10.1.1 of the textbook",
-      "minutes": "200"
+      "content": "Course orientation Market economy",
+      "operation": "Lecture and Q&A",
+      "assignments": "Review",
+      "minutes": "60"
     },
     {
       "index": "2",
-      "content": "10.1.2 Connection diagrams of\nthree-phase sources\n10.1.3 Connection diagrams of\nthree-phase loads\n10.1.4 Conversion of a balanced load\nfrom star and delta connection,\nand vice-verse",
-      "operation": "Lecture and Q&A\nSelf-check",
-      "assignments": "Review materials from the\nlast class\nPrepare for the section\n10.1.2\n10.1.3 and 10.1.4 of the\ntextbook",
-      "minutes": "200"
+      "content": "Nation's economy Central bank",
+      "operation": "Lecture and Q&A",
+      "assignments": "Newspaper report 1 Review",
+      "minutes": "40 60"
     },
     {
       "index": "3",
-      "content": "10.1.5 Analysis of three-phase AC circuits:\nvoltage and current calculations",
-      "operation": "Lecture and Q&A\nSelf-check",
-      "assignments": "Review materials from the\nlast class\nPrepare for the section 10.1.5\n of the textbook",
-      "minutes": "200"
+      "content": "Finance",
+      "operation": "Lecture and Q&A",
+      "assignments": "Report 1 Review",
+      "minutes": "50 60"
     },
     {
       "index": "4",
-      "content": "10.1.6 Analysis of three-phase AC circuits:\npower calculations",
-      "operation": "Lecture and Q&A\nSelf-check",
-      "assignments": "Review materials from the\nlast class\nPrepare for the section 10.1.6\n of the textbook",
-      "minutes": "200"
+      "content": "Social security system",
+      "operation": "Lecture and Q&A",
+      "assignments": "Newspaper report 2 Review",
+      "minutes": "40 60"
     },
     {
       "index": "5",
-      "content": "Review the three-phase AC circuits\nIntegrated learning",
-      "operation": "Lecture and Q&A\nSelf-check",
-      "assignments": "Review chapter 10",
-      "minutes": "200"
+      "content": "Commerce",
+      "operation": "Lecture and Q&A Quiz 1",
+      "assignments": "Report 2 Review",
+      "minutes": "50 60"
     },
     {
       "index": "6",
-      "content": "1st test\n8.1 Introduction of distorted wave",
-      "operation": "Lecture and Q&A\nSelf-check",
-      "assignments": "Prepare for the test\nPrepare for the section 8.1\nof the textbook",
-      "minutes": "200"
+      "content": "Company form",
+      "operation": "Lecture and Q&A",
+      "assignments": "Newspaper report 3 Review",
+      "minutes": "40 60"
     },
     {
       "index": "7",
-      "content": "8.4 Fourier series: Fourier series expansion of\ndistorted waveforms",
-      "operation": "Lecture and Q&A\nSelf-check",
-      "assignments": "Review materials from the\nlast class\nPrepare for the section 8.4\nof the textbook",
-      "minutes": "200"
+      "content": "Company ownership",
+      "operation": "Lecture and Q&A",
+      "assignments": "Report 3 Review",
+      "minutes": "50 60"
     },
     {
       "index": "8",
-      "content": "8.5 Fourier series: Fourier series expansion of\neven and odd functions",
-      "operation": "Lecture and Q&A\nSelf-check",
-      "assignments": "Review materials from the\nlast class\nPrepare for the section 8.5\nof the textbook",
-      "minutes": "200"
+      "content": "Company executive",
+      "operation": "Lecture and Q&A",
+      "assignments": "Newspaper report 4 Review",
+      "minutes": "40 60"
     },
     {
       "index": "9",
-      "content": "8.5 Fourier series: Fourier series expansion of\neven and odd functions",
-      "operation": "Lecture and Q&A\nSelf-check",
-      "assignments": "Review materials from the\nlast class\nPrepare for the section 8.5\nof the textbook",
-      "minutes": "200"
+      "content": "Funding",
+      "operation": "Lecture and Q&A Quiz 2",
+      "assignments": "Report 4 Review",
+      "minutes": "50 60"
     },
     {
       "index": "10",
-      "content": "Integrated learning of Chapter 8",
-      "operation": "Lecture and Q&A\nSelf-check",
-      "assignments": "Review the section 8.4 and 8.5",
-      "minutes": "200"
+      "content": "Company reorganization",
+      "operation": "Lecture and Q&A",
+      "assignments": "Newspaper report 5 Review",
+      "minutes": "40 60"
     },
     {
       "index": "11",
-      "content": "Second test\n8.2 Analysis of distorted waveforms:\npower calculations",
-      "operation": "Lecture and Q&A\nSelf-check",
-      "assignments": "Prepare for the test\nPrepare for the section 8.2\nof the textbook",
-      "minutes": "200"
+      "content": "Digitization",
+      "operation": "Lecture and Q&A",
+      "assignments": "Report 5 Review",
+      "minutes": "50 60"
     },
     {
       "index": "12",
-      "content": "8.2 Analysis of distorted waveforms:\npower calculations\n8.3 Analysis of distorted waveforms:\nthe calculation of form factor,\ncrest factor and distortion factor",
-      "operation": "Lecture and Q&A\nSelf-check",
-      "assignments": "Review materials from the\nlast class\nPrepare for the section 8.2\nand 8.3 of the textbook",
-      "minutes": "200"
+      "content": "Protection of personal information 1",
+      "operation": "Lecture and Q&A",
+      "assignments": "Newspaper report 6 Review",
+      "minutes": "40 60"
     },
     {
       "index": "13",
-      "content": "Integrated learning of Chapter 8",
-      "operation": "Lecture and Q&A\nSelf-check",
-      "assignments": "Review the section 8.1 8.2\nand 8.3",
-      "minutes": "200"
+      "content": "Protection of personal information 2",
+      "operation": "Lecture and Q&A Quiz 3",
+      "assignments": "Report 6 Review",
+      "minutes": "50 60"
     },
     {
       "index": "14",
-      "content": "Test",
-      "operation": "Lecture and Q&A\nSelf-check",
-      "assignments": "Prepare for the test",
-      "minutes": "200"
+      "content": "International community",
+      "operation": "Lecture and Q&A",
+      "assignments": "Review",
+      "minutes": "60"
     },
     {
       "index": "15",
-      "content": "Self evaluation",
-      "operation": "Lecture and Q&A\nSelf-check",
-      "assignments": "",
-      "minutes": ""
+      "content": "Self-evaluation",
+      "operation": "Lecture",
+      "assignments": "Review",
+      "minutes": "60"
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　K318-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Electrical Energy Systems Engineering\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                多相交流回路\n                Polyphase AC Circuits\n\n              2\n              K318-01\n\n                2026年度\n\n                2nd year 2nd semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  FUKAMI Tadashi\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Three-phase electricity\n2.Fourier Series\n3.Distorted wave\n\n              (1)Students will learn how to calculate the electric circuit of three-phase electricity.\n\n(2)Students will learn Fourier series of periodic wave.\n\n(3)Students will learn how to calculate the electric circuit with distorted wave.\n\n              授業の概要および学習上の助言\n\n              We will cover the following materials:\n10.Three-phase AC circuits\n10.1.1 Configurations of three-phase AC circuits\n10.1.2 Connection diagrams of three-phase sources\n10.1.3 Connection diagrams of three-phase loads\n10.1.4 Conversion of a balanced load from star and delta connection, and vice-versa\n10.1.5 Analysis of three-phase AC circuits: voltage and current calculations\n10.1.6 Analysis of three-phase AC circuits: power calculations\n\n8. Distorted wave\n8.1 Introduction of distorted wave\n8.2 Analysis of distorted waveforms: power calculations\n8.3 Analysis of distorted waveforms: the calculation of form factor, crest factor and distortion factor\n8.4 Fourier series: Fourier series expansion of distorted waveforms\n8.5 Fourier series: Fourier series expansion of even and odd function\n\n              教科書および参考書・リザーブドブック\n\n              Fundamentals of Electric Circuits[Corona Publishing Co., Ltd.](in Japanese)\n\n              履修に必要な予備知識や技能\n\n              Fully understanding of “Electric Circuit I, II, III”.\nBasic knowledge and application ability of mathematics such as complex number, calculus and trigonometric function.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                M\n                Be able to understand the basic concept of the three phase electricity and analyze the circuit.\n\n                ②\n                M\n                Be able to calculate the equivalent conversion between the delta and star connection.\n\n                ③\n                M\n                Be able to understand the Fourier series of the distorted wave.\n\n                ④\n                M\n                Be able to calculate the Fourier series of the distorted wave.\n\n                ⑤\n                M\n                Be able to analyze the circuit with the distorted wave.\n\n                ⑥\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                30\n\n                60\n\n                0\n\n                0\n\n                0\n\n                0\n\n                10\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                30\n\n                60\n\n                0\n\n                0\n\n                0\n\n                0\n\n                10\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                30\n\n                60\n\n                0\n\n                0\n\n                0\n\n                0\n\n                10\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  コラボレーションとリーダーシップ\n\n                    0\n\n                    0\n\n                    0\n\n   ",
-  "courseId": "2026:fall:K318-01:0:845",
+  "rawText": "金沢工業大学 学習支援計画書 G018-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\n(Provided by all courses)\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     (Provided by all courses)\nLiberal Arts Courses\nTransdisciplinary Learning\n経済と社会\nEconomy and Society  2 G018-01  2024年度\n 1st year 2nd semester\n2nd year 1st semester  修学規程第4条を参照\n    担当教員名\n NAKANO Makoto\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Economic activity 2.Commercial code 3.Companies act  The purpose of this course is to understand the economy that is involved in modern society and life, and to understand the functions and roles of companies. In this course, students will learn basic knowledge of economics, as well as basic knowledge of corporate systems and laws that play a major role in the economy, and how to respond to society.\n    授業の概要および学習上の助言   In this course, students will learn the following about economics and companies. ・Society and economic activity ・Company purpose and activities ・Company owned and management ・Responding to the information society ・Relationship between company and society\n    教科書および参考書・リザーブドブック   ・Textbooks: None ・Reference books: None ・Reserved books: None\n    履修に必要な予備知識や技能   ・Basic knowledge about the market economy. ・Basic knowledge about the Company.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① A,B Understand the mechanism of market economy and economic policy. And explain the current economic situation.   ② A,B Explain the purpose and role of a company in society.   ③ A,B Investigate and consider cases related to the establishment and survival of a company.   ④ A,B Investigate responses to social situations and consider the results.   ⑤     ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 0 48 36 0 0 0 16 100     指標と評価割合 総合評価割合 0 48 36 0 0 0 16 100   総合力指標 知識を取り込む力 0 48 36 0 0 0 16 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ①      ②     ③     ④     ⑤     ⑥     クイズ\n小テスト ① レ Quiz: Evaluate the content of the lecture and the degree of understanding of the case.   ② レ   ③     ④     ⑤     ⑥     レポート ① レ Report: Evaluate based on the level of understanding of each theme and the content of your own thoughts.   ② レ   ③     ④     ⑤     ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ① レ Newspaper portfolio: Evaluate the degree of understanding of social trends by investigating cases from newspaper articles and summarizing the contents.   ② レ   ③     ④     ⑤     ⑥     その他 ① レ Learning attitude: Evaluate attitude in lectures, such as attendance and active participation.   ②     ③     ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     ・Understand social and economic mechanisms and be able to explain them accurately. ・Be able to accurately consider responses to the company and society. ・Be able to understand and explain social and economic mechanisms. ・Be able to consider responses to companies and society.\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習課題に要する標準的な時間を記載してあります。日々の自学自習時間全体としては、各授業に応じた時間(例えば2単位科目の場合、予習2時間・復習2時間/週)を取るよう努めてください。詳しくは教員の指導に従って下さい。     授業明細   回数 学習内容 授業の運営方法 学習課題(予習・復習) 時間:分※     1  Course orientation Market economy Lecture and Q&A Review  60   2  Nation's economy Central bank Lecture and Q&A Newspaper report 1 Review  40 60   3  Finance Lecture and Q&A Report 1 Review  50 60   4  Social security system Lecture and Q&A Newspaper report 2 Review  40 60   5  Commerce Lecture and Q&A Quiz 1 Report 2 Review  50 60   6  Company form Lecture and Q&A Newspaper report 3 Review  40 60   7  Company ownership Lecture and Q&A Report 3 Review  50 60   8  Company executive Lecture and Q&A News",
+  "courseId": "2024:fall:G018-01:0:845",
   "language": "en"
 }

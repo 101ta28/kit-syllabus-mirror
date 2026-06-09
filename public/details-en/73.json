@@ -1,45 +1,43 @@
 {
   "sourceIndex": 73,
   "sourceUrl": "/opsyllabus/kitos0110/73/1",
-  "importedAt": "2026-06-08T09:33:54.571Z",
-  "title": "情報のための数学",
-  "subtitle": "Mathematics for Informatics",
-  "courseType": "Mathematics and Science ProgramMathematics and Science Courses",
-  "credits": "4",
-  "term": "2026年度\n\n                1st year 2nd semester",
+  "importedAt": "2026-06-09T01:29:19.875Z",
+  "title": "線形代数Ⅰ(再履修クラス)",
+  "subtitle": "Linear Algebra I",
+  "courseType": "Mathematics and Science Program\nMathematics and Science Courses",
+  "credits": "2",
+  "term": "2024年度\n 1st year 1st semester",
   "method": "修学規程第4条を参照",
-  "teachers": [],
-  "keywords": [
-    "n-base, numeral system",
-    "Floating point number",
-    "Sets and logic",
-    "Logical circuit",
-    "Organizing data and basic statistics"
+  "teachers": [
+    "MIYAZAKI Eiji"
   ],
-  "educationalGoal": "Students will:\n(1) learn how to express n-base and floating point numbers (IEEE754).\n(2) apply the concept of sets to logical algebra and learn the basics of how to represent logic in a computer. Learn how to configure logic circuits to implement logic in a computer.\n(3) learn basic probabilities, conditional probabilities, and Bayes' theorem. Learn basic data organization and statistics using Excel.",
-  "advice": "This is a basic course in mathematics, logic, and statistics. We will cover the following topics:\n\n1. n-base: binary system, octal system, hexadecimal system.\n2. Representation of numbers in computers: Floating point number (IEEE754).\n3. Sets and Logic: basic set theory, propositional logic, truth table, logical circuit.\n4. Basic probabilities: Permutations and combinations, probabilities, conditional probabilities and Bayes' theorem.\n5: A data analysis method using statistics: Frequency distribution table, histogram, correlation diagram, mean/variance, covariance/correlation coefficient.\n\nStudents are expected to understand above materials.\nStudents are expected to process data using Excel (computer spreadsheet software).\nStudents are expected to complete the exercises on their own without consulting/copying others.\nStudents are expected to utilize the Math. and Science Education Research Center or the office hours of the teacher.",
-  "books": "Textbooks: Mathematics for Information Science I･II(Kanazawa Institute of Technology)\nReference books: None\nReserved books: None",
-  "requiredKnowledge": "Basic knowledge of probability and statistics learned in high school is desirable. There will be exercises using Excel at the end of the lecture, so be sure to bring your laptop with you.",
+  "keywords": [
+    "Vectors and Scalars 2.Dot product, Cross product 3.Operations of Matrices 4.Row Reduction 5.Linear Maps"
+  ],
+  "educationalGoal": "Students will learn: (1) vector operations. (2) matrix operations. (3) solving linear systems using “row reduction.” (4) representing linear transformations of a plane or a space.",
+  "advice": "This is a basic course in linear algebra. We will cover the following topics: 1. Vectors 1.1 Vectors and their operations 1.2 Dot products and cross products of vectors 1.3 The equation of a plane or a line 2. Matrices and linear maps 2.1 Matrices and their operations 2.2 Linear systems and row reduction 2.3 Linear maps and linear transformation Classes include exercises and quizzes; a final examination will be given at the end of the semester. Daily preparation and review are important. Students are required to complete the designated tasks. Students should prepare reports and study research topics in a planned manner, and strictly avoid plagiarism. Students are expected to utilize the Math. and Science Education Research Center or the office hours of the teacher.",
+  "books": "Textbook: Linear Algebra I (KIT Math and Science Academic Foundations Programs) Reference book: A First Course in Linear Algebra (Open Textbook Library)[Lyryx]",
+  "requiredKnowledge": "Basic knowledge of mathematics, especially trigonometric functions.",
   "activityGoals": [
     {
       "index": "①",
       "type": "D",
-      "body": "Be able to understand radix conversion from decimal to n-base and calculate binary arithmetic operations."
+      "body": "Understand the concept of vectors and be able to properly perform vector operations."
     },
     {
       "index": "②",
       "type": "D",
-      "body": "Be able to understand the concept of sets and logics, the representation of numbers/logic in computers."
+      "body": "Understand the concept of matrices and be able to properly perform matrix operations."
     },
     {
       "index": "③",
       "type": "D",
-      "body": "Be able to understand probabilities, conditional probabilities, and Bayes' theorem."
+      "body": "Be able to find solutions to linear systems by using row reduction."
     },
     {
       "index": "④",
       "type": "D",
-      "body": "Be able to perform basic data processing using Excel."
+      "body": "Understand the concept of a linear transforms and be able to represent them in matrix form."
     },
     {
       "index": "⑤",
@@ -49,27 +47,27 @@
     {
       "index": "⑥",
       "type": "A",
-      "body": "Be able to demonstrate an understanding of all class material, attend every class, and complete the handouts."
+      "body": "Understand the contents of the course and be able to complete the required tasks by the announced deadlines."
     }
   ],
   "evaluationWeights": [
     {
       "label": "総合評価割合",
       "values": [
-        "40",
-        "20",
+        "30",
+        "30",
         "15",
-        "5",
         "0",
         "0",
-        "20",
+        "0",
+        "25",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -79,20 +77,20 @@
     {
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
-        "40",
-        "20",
+        "30",
+        "30",
         "15",
-        "5",
         "0",
         "0",
-        "20",
+        "0",
+        "25",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -102,20 +100,20 @@
     {
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
-        "40",
-        "20",
+        "30",
+        "30",
         "15",
-        "5",
         "0",
         "0",
-        "20",
+        "0",
+        "25",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -136,9 +134,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -146,7 +144,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -159,9 +157,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -182,9 +180,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -193,223 +191,118 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "Demonstrate a 90% achievement level in the following areas:\n(1) Understand relationship between decimal numbers and n-digit numbers accurately.\n(2) Understand the representation of binary fractions and be able to correctly transform to floating point numbers.\n(3) Correctly understand sets and logical operations.\n(4) Correctly calculate probabilities and conditional probabilities, and apply Bayes' theorem.\n(5) Understand the basics of statistics, accurately determine characteristic values of data, and create effective data visualizations.",
-    "standard": "Demonstrate a 60% achievement level in the following areas:\n(1) Understand relationship between decimal numbers and n-digit numbers.\n(2) Understand the representation of binary fractions and be able to transform to floating point numbers.\n(3) Understand set symbols and logical operations.\n(4) Calculate simple probabilities and conditional probabilities, and apply Bayes' theorem.\n(5) Understand the basics of statistics, determine characteristic values of data, and create effective data visualizations."
+    "ideal": "(1) Properly perform vector operations and find the equations of planes or lines. (2) Properly perform matrix operations. (3) Solve 'complex' linear systems using row reduction. (4) Understand the concept of linear maps and properly determine representation matrices.",
+    "standard": "(1) Properly perform vector operations. (2) Properly perform matrix operations. (3) Solve 'fundamental' linear systems using row reduction. (4) Find representation matrices of linear transformations in a plane."
   },
   "clipProcess": "",
   "lessons": [
     {
       "index": "1",
-      "content": "Course introduction\nSelf-introduction",
-      "operation": "Lecture and Q&A",
-      "assignments": "Read the syllabus and confirm\nthe student's target\n(1) Understand the\ncontents shown on the left\n(2) Prepare for class 2",
-      "minutes": "(1)\n20\n(2)\n60"
+      "content": "Course introduction Vectors in a plane Addition of vectors, inverse vectors Scalar multiplication of vectors",
+      "operation": "Lecture and exercises",
+      "assignments": "Understand the objectives of the class Review materials from the previous course Preview for 3-dim vectors",
+      "minutes": "120"
     },
     {
       "index": "2",
-      "content": "Base conversion from decimal to n base\nRelation between decimal number and n-base\nnumber",
-      "operation": "Lecture and practice",
-      "assignments": "(1) Exercise with the\ncontents shown on the left\n(2) Prepare for class 3",
-      "minutes": "(1)\n60\n(2)\n60"
+      "content": "3-dim vectors Operations of 3-dim vectors Dot products of plane vectors",
+      "operation": "Lecture and exercises",
+      "assignments": "Review materials from the last class Preview for dot products and cross products",
+      "minutes": "120"
     },
     {
       "index": "3",
-      "content": "Binary arithmetic operations\nNegative number representation and complement",
-      "operation": "Lecture and practice",
-      "assignments": "(1) Exercise with the\ncontents shown on the left\n(2) Prepare for class 4",
-      "minutes": "(1)\n60\n(2)\n60"
+      "content": "Dot products of 3-dim vectors Cross products of 3-dim vectors",
+      "operation": "Lecture and exercises",
+      "assignments": "Review materials from the last class Preview for the test",
+      "minutes": "180"
     },
     {
       "index": "4",
-      "content": "Binary arithmetic operations\nNegative number representation and complements",
-      "operation": "Lecture and practice",
-      "assignments": "(1) Exercise with the\ncontents shown on the left\n(2) Prepare for class 5",
-      "minutes": "(1)\n60\n(2)\n60"
+      "content": "Quiz (1) Equations of lines in a coordinate plane",
+      "operation": "Quiz on the contents of # 1 - # 3 Lecture and exercises",
+      "assignments": "Review materials from the last class Preview for equations of lines and planes",
+      "minutes": "120"
     },
     {
       "index": "5",
-      "content": "Negative exponents and power laws\nBinary fractions",
-      "operation": "Lecture and practice",
-      "assignments": "(1) Exercise with the\ncontents shown on the left\n(2) Prepare for class 6",
-      "minutes": "(1)\n60\n(2)\n60"
+      "content": "Equations of lines in a 3-dim space Equations of planes in a 3-dim space",
+      "operation": "Lecture and exercises",
+      "assignments": "Review materials from the last class Preview for matrices",
+      "minutes": "120"
     },
     {
       "index": "6",
-      "content": "Floating point numbers\nErrors in computers",
-      "operation": "Lecture and practice",
-      "assignments": "(1) Exercise with the\ncontents shown on the left\n(2) Prepare for class 7",
-      "minutes": "(1)\n60\n(2)\n60"
+      "content": "Definition of matrix Matrix multiplication",
+      "operation": "Lecture and exercises",
+      "assignments": "Review materials from the last class Preview for operations of matrices",
+      "minutes": "120"
     },
     {
       "index": "7",
-      "content": "Exercises on decimal, binary, and hexadecimal\n\ninterrelations, complements, and floating point\nnumbers",
-      "operation": "Lecture and practice",
-      "assignments": "(1) Exercises with the\ncontents shown on the left\n(2) Prepare for quiz",
-      "minutes": "(1)\n90\n(2)\n30"
+      "content": "Additions and scalar products of matrices Square matrices Inverse matrices of order 2",
+      "operation": "Lecture and exercises",
+      "assignments": "Review materials from the last class Preview for operations of matrices",
+      "minutes": "120"
     },
     {
       "index": "8",
-      "content": "Quiz on contents of classes 2 to 7\nSets",
-      "operation": "Quiz\nLecture and practice",
-      "assignments": "(1) Exercise with the\ncontents shown on the left\n(2) Prepare for class 9",
-      "minutes": "(1)\n60\n(2)\n60"
+      "content": "Quiz (2) Row reduction",
+      "operation": "Quiz on contents of # 4 - # 7 Lecture and exercises",
+      "assignments": "Review row reduction Preview for elementary matrices",
+      "minutes": "120"
     },
     {
       "index": "9",
-      "content": "Quiz description\nInclusive relations of a set, de Morgan's law",
-      "operation": "Self-reflection\nLecture and practice",
-      "assignments": "(1) Exercise with\ncontents shown on the left\n(2) Prepare for class 10\n(3) Self-check",
-      "minutes": "(1)\n60\n(2)\n30\n(3)\n30"
+      "content": "Examples of row reduction Row reduction and elementary matrices Inverse of matrices of order 3",
+      "operation": "Lecture and exercises",
+      "assignments": "Review materials from the last class Preview for linear maps and linear transformations",
+      "minutes": "120"
     },
     {
       "index": "10",
-      "content": "Propositional logic and binary logic\nLogical operations and truth tables",
-      "operation": "Lecture and practice",
-      "assignments": "(1) Exercise with the\ncontents shown on the left\n(2) Prepare for class 11",
-      "minutes": "(1)\n60\n(2)\n60"
+      "content": "Definition of linear map and linear transformation Representation matrices of rotations in a plane",
+      "operation": "Lecture and exercises",
+      "assignments": "Review materials from the last class Preview for manipulations of linear transformations",
+      "minutes": "120"
     },
     {
       "index": "11",
-      "content": "Sets and logical algebra\nLogical circuit",
-      "operation": "Lecture and practice",
-      "assignments": "(1) Exercise with the\ncontents shown on the left\n(2) Prepare for class 12",
-      "minutes": "(1)\n60\n(2)\n60"
+      "content": "Compositions of linear transformations Inverse transformations Linear transformations in a 3-dim space",
+      "operation": "Lecture and exercises",
+      "assignments": "Review materials from the last class Preview for the test",
+      "minutes": "180"
     },
     {
       "index": "12",
-      "content": "Sets and logical algebra\nLogical circuit",
-      "operation": "Lecture and practice",
-      "assignments": "(1) Exercise with the\ncontents shown on the left\n(2) Prepare for class 13",
-      "minutes": "(1)\n90\n(2)\n30"
+      "content": "Quiz (3) Integrated assignment: complex numbers and their operations",
+      "operation": "Quiz on contents of # 8 - # 11 Lecture and exercises",
+      "assignments": "Review materials from the last class Preview for Euler's formula",
+      "minutes": "120"
     },
     {
       "index": "13",
-      "content": "Exercises on sets and logic, exercises on\nlogical circuit diagrams",
-      "operation": "Lecture and practice",
-      "assignments": "(1) Exercises with the\ncontents shown on the left\n(2) Prepare for class 14",
-      "minutes": "(1)\n90\n(2)\n30"
+      "content": "Integrated assignment: Euler's formula Self-reflection class",
+      "operation": "Lecture and exercises",
+      "assignments": "Study for the final exam",
+      "minutes": "180"
     },
     {
       "index": "14",
-      "content": "Review of the first half of the class",
-      "operation": "Lecture and practice",
-      "assignments": "(1) Prepare for intermediate\nexam",
-      "minutes": "(1)\n120"
+      "content": "Review Final exam",
+      "operation": "Exam on contents of # 1 - # 11",
+      "assignments": "Study for the final exam Review of this class",
+      "minutes": "120"
     },
     {
       "index": "15",
-      "content": "Intermidiate exam on contents of classes 2 to 13\nPermutations/combinations",
-      "operation": "Exam\nLecture and practice",
-      "assignments": "(1) Exercise with the\ncontents shown on the left\n(2) Prepare for class 16",
-      "minutes": "(1)\n90\n(2)\n30"
-    },
-    {
-      "index": "16",
-      "content": "Exam description\nPermutations/combinations",
-      "operation": "Self-reflection\nLecture and practice",
-      "assignments": "(1) Exercise with the\ncontents shown on the left\n(2) Prepare for class 17\n(3) Self-check",
-      "minutes": "(1)\n60\n(2)\n30\n(3)\n30"
-    },
-    {
-      "index": "17",
-      "content": "Permutations/combinations\nEvents and probabilities",
-      "operation": "Lecture and practice",
-      "assignments": "(1) Exercise with the\ncontents shown on the left\n(2) Prepare for class 18",
-      "minutes": "(1)\n60\n(2)\n60"
-    },
-    {
-      "index": "18",
-      "content": "Events and probabilities",
-      "operation": "Lecture and practice",
-      "assignments": "(1) Exercise with the\ncontents shown on the left\n(2) Prepare for class 19",
-      "minutes": "(1)\n60\n(2)\n60"
-    },
-    {
-      "index": "19",
-      "content": "Exercises on permutations/combinations, events,\nand probabilities",
-      "operation": "Lecture and practice",
-      "assignments": "(1) Exercises with the\ncontents shown on the left\n(2) Prepare for quiz",
-      "minutes": "(1)\n90\n(2)\n30"
-    },
-    {
-      "index": "20",
-      "content": "Quiz on contents of classes 15 to 19\nConditional probability",
-      "operation": "Quiz\nLecture and practice",
-      "assignments": "(1) Exercise with the\ncontents shown on the left\n(2) Prepare for class 21",
-      "minutes": "(1)\n60\n(2)\n60"
-    },
-    {
-      "index": "21",
-      "content": "Quiz description\nConditional probability",
-      "operation": "Self-reflection\nLecture and practice",
-      "assignments": "(1) Exercise with the\ncontents shown on the left\n(2) Prepare for class 22\n(3) Self-check",
-      "minutes": "(1)\n60\n(2)\n30\n(3)\n30"
-    },
-    {
-      "index": "22",
-      "content": "Bayes' theorem",
-      "operation": "Lecture and practice",
-      "assignments": "(1) Exercise with the\ncontents shown on the left\n(2) Prepare for class 23",
-      "minutes": "(1)\n60\n(2)\n60"
-    },
-    {
-      "index": "23",
-      "content": "Review of the second half of the class",
-      "operation": "Lecture and practice",
-      "assignments": "(1) Prepare for final exam",
-      "minutes": "(1)\n120"
-    },
-    {
-      "index": "24",
-      "content": "Final exam\nSummation symbols",
-      "operation": "Final exam and review",
-      "assignments": "(1) Confirm learning and\ndeepen understanding.\nExercise with the\ncontents shown on the left\n(2) Prepare for class 25",
-      "minutes": "(1)\n90\n(2)\n30"
-    },
-    {
-      "index": "25",
-      "content": "Exam description\nStatistical processing of data using Excel\nData characteristic values (mean and variance)\nFrequency distribution table and histogram\nCalculation of average and variance",
-      "operation": "Self-reflection\nLecture and practice",
-      "assignments": "(1) Exercise with the\ncontents shown on the left\n(2) Prepare for class 26\n(3) Self-check",
-      "minutes": "(1)\n60\n(2)\n30\n(3)\n30"
-    },
-    {
-      "index": "26",
-      "content": "Statistical processing of data using Excel\nData characteristic values (mean and variance)\nFrequency distribution table and histogram\nCalculation of average and variance",
-      "operation": "Lecture and practice",
-      "assignments": "(1) Exercise with the\ncontents shown on the left\n(2) Prepare for class 27",
-      "minutes": "(1)\n60\n(2)\n60"
-    },
-    {
-      "index": "27",
-      "content": "Statistical processing of data using Excel\nCovariance and correlation coefficient\nCorrelation diagram and regression line\nCalculation of correlation coefficient\nDrawing a correlation diagram",
-      "operation": "Lecture and practice",
-      "assignments": "(1) Exercise with the\ncontents shown on the left\n(2) Prepare for class 28",
-      "minutes": "(1)\n60\n(2)\n60"
-    },
-    {
-      "index": "28",
-      "content": "Statistical processing of data using Excel\nCovariance and correlation coefficient\nCorrelation diagram and regression line\nCalculation of correlation coefficient\nDrawing a correlation diagram",
-      "operation": "Lecture and practice",
-      "assignments": "(1) Exercise with the\ncontents shown on the left\n(2) Organize data and prepare\nfor presentation",
-      "minutes": "(1)\n60\n(2)\n60"
-    },
-    {
-      "index": "29",
-      "content": "Presentation on statistical data",
-      "operation": "Discussion and practice",
-      "assignments": "(1) Summarize group report",
-      "minutes": "(1)\n120"
-    },
-    {
-      "index": "30",
-      "content": "Self-reflection",
-      "operation": "Self-reflection\nQuestionnaire survey",
-      "assignments": "(1) Confirm learning and\ndeepen understanding\n(2) Self-check",
-      "minutes": "(1)\n60\n(2)\n30"
+      "content": "Review the final exam Self-check",
+      "operation": "Review the final exam Self-check",
+      "assignments": "",
+      "minutes": "120"
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　G211-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Mathematics, Science, Data Science and AI Program\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Mathematics and Science ProgramMathematics and Science Courses\n\n                情報のための数学\n                Mathematics for Informatics\n\n              4\n              G211-01\n\n                2026年度\n\n                1st year 2nd semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.n-base, numeral system\n2.Floating point number\n3.Sets and logic\n4.Logical circuit\n5.Organizing data and basic statistics\n\n              Students will:\n(1) learn how to express n-base and floating point numbers (IEEE754).\n(2) apply the concept of sets to logical algebra and learn the basics of how to represent logic in a computer. Learn how to configure logic circuits to implement logic in a computer.\n(3) learn basic probabilities, conditional probabilities, and Bayes' theorem. Learn basic data organization and statistics using Excel.\n\n              授業の概要および学習上の助言\n\n              This is a basic course in mathematics, logic, and statistics. We will cover the following topics:\n\n1. n-base: binary system, octal system, hexadecimal system.\n2. Representation of numbers in computers: Floating point number (IEEE754).\n3. Sets and Logic: basic set theory, propositional logic, truth table, logical circuit.\n4. Basic probabilities: Permutations and combinations, probabilities, conditional probabilities and Bayes' theorem.\n5: A data analysis method using statistics: Frequency distribution table, histogram, correlation diagram, mean/variance, covariance/correlation coefficient.\n\nStudents are expected to understand above materials.\nStudents are expected to process data using Excel (computer spreadsheet software).\nStudents are expected to complete the exercises on their own without consulting/copying others.\nStudents are expected to utilize the Math. and Science Education Research Center or the office hours of the teacher.\n\n              教科書および参考書・リザーブドブック\n\n              Textbooks: Mathematics for Information Science I･II(Kanazawa Institute of Technology)\nReference books: None\nReserved books: None\n\n              履修に必要な予備知識や技能\n\n              Basic knowledge of probability and statistics learned in high school is desirable. There will be exercises using Excel at the end of the lecture, so be sure to bring your laptop with you.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                D\n                Be able to understand radix conversion from decimal to n-base and calculate binary arithmetic operations.\n\n                ②\n                D\n                Be able to understand the concept of sets and logics, the representation of numbers/logic in computers.\n\n                ③\n                D\n                Be able to understand probabilities, conditional probabilities, and Bayes' theorem.\n\n                ④\n                D\n                Be able to perform basic data processing using Excel.\n\n                ⑤\n                C\n                Understand the meanings of fundamental english words for mathematics.\n\n                ⑥\n                A\n                Be able to demonstrate an understanding of all class material, attend every class, and complete the handouts.\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                40\n\n                20\n\n                15\n\n                5\n\n                0\n\n                0\n\n                20\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n         ",
-  "courseId": "2026:fall:G211-01:0:73",
+  "rawText": "金沢工業大学 学習支援計画書 G201-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nMathematics, Science, Data Science and AI Program\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Mathematics and Science Program\nMathematics and Science Courses\n線形代数Ⅰ(再履修クラス)\nLinear Algebra I  2 G201-01  2024年度\n 1st year 1st semester  修学規程第4条を参照\n    担当教員名\n MIYAZAKI Eiji\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Vectors and Scalars 2.Dot product, Cross product 3.Operations of Matrices 4.Row Reduction 5.Linear Maps  Students will learn: (1) vector operations. (2) matrix operations. (3) solving linear systems using “row reduction.” (4) representing linear transformations of a plane or a space.\n    授業の概要および学習上の助言   This is a basic course in linear algebra. We will cover the following topics: 1. Vectors 1.1 Vectors and their operations 1.2 Dot products and cross products of vectors 1.3 The equation of a plane or a line 2. Matrices and linear maps 2.1 Matrices and their operations 2.2 Linear systems and row reduction 2.3 Linear maps and linear transformation Classes include exercises and quizzes; a final examination will be given at the end of the semester. Daily preparation and review are important. Students are required to complete the designated tasks. Students should prepare reports and study research topics in a planned manner, and strictly avoid plagiarism. Students are expected to utilize the Math. and Science Education Research Center or the office hours of the teacher.\n    教科書および参考書・リザーブドブック   Textbook: Linear Algebra I (KIT Math and Science Academic Foundations Programs) Reference book: A First Course in Linear Algebra (Open Textbook Library)[Lyryx]\n    履修に必要な予備知識や技能   Basic knowledge of mathematics, especially trigonometric functions.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① D Understand the concept of vectors and be able to properly perform vector operations.   ② D Understand the concept of matrices and be able to properly perform matrix operations.   ③ D Be able to find solutions to linear systems by using row reduction.   ④ D Understand the concept of a linear transforms and be able to represent them in matrix form.   ⑤ C Understand the meanings of fundamental english words for mathematics.   ⑥ A Understand the contents of the course and be able to complete the required tasks by the announced deadlines.\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 30 30 15 0 0 0 25 100     指標と評価割合 総合評価割合 30 30 15 0 0 0 25 100   総合力指標 知識を取り込む力 30 30 15 0 0 0 25 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ A final exam will be given at the end of the semester to assess the degree of student achievement. Performance on the exam will comprise 30% of the overall evaluation.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     クイズ\n小テスト ① レ There will be three quizzes. Each quiz will comprise 10% of the overall evaluation (for a total of 30%).   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     レポート ① レ Several reports will be assigned and will together comprise 10% of the overall evaluation. An integrated subject will comprise 5% of the overall evaluation.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ①   An assessment of the results of the exercises and homework during the class will comprise 25% of the overall evaluation.   ②     ③     ④     ⑤     ⑥ レ\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     (1) Properly perform vector operations and find the equations of planes or lines. (2) Properly perform matrix operations. (3) Solve 'complex' linear systems using row reduction. (4) Understand the concept of linear maps and properly determine representation matrices.  (1) Properly perform vector operations. (2) Properly perform matrix operations. (3) Solve 'fundamental' linear systems u",
+  "courseId": "2024:spring:G155-01:0:73",
   "language": "en"
 }

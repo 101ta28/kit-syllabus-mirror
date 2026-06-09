@@ -1,78 +1,58 @@
 {
   "sourceIndex": 180,
   "sourceUrl": "/opsyllabus/kitos0110/180/1",
-  "importedAt": "2026-06-08T09:33:56.833Z",
-  "title": "データアナリティクス入門",
-  "subtitle": "Introduction to Data Analytics",
-  "courseType": "Major ProgramMajor Courses",
-  "credits": "2",
-  "term": "2026年度\n\n                1st year 1st semester",
+  "importedAt": "2026-06-09T01:29:20.898Z",
+  "title": "プロジェクトデザインⅢ(長沼要研究室)",
+  "subtitle": "Design Project III(Naganuma Kaname)",
+  "courseType": "Major Program\nMajor Project Courses",
+  "credits": "8",
+  "term": "2024年度\n All year",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "TAKECHI Shoji",
-    "MIZUTANI Motoki"
+    "NAGANUMA Kaname"
   ],
   "keywords": [
-    "Data Collection",
-    "Statistical Analysis",
-    "Social Survey and Questionnaire",
-    "Graph and Visualization",
-    "Data Science"
+    "Mechanical engineering 2.Automotive engineering 3.Environmentally friendly technologies 4.Energy and mechanics 5.Regional cooperation"
   ],
-  "educationalGoal": "In this course, students will:\n(1) acquire a basic knowledge of data analytics.\n(2) learn how to collect, aggregate, and visualize data based on questionnaire surveys.\n(3) learn how to use statistical methods of sampling.",
-  "advice": "To analyze data properly, the following four abilities are required:\n  1. The ability to collect data according to purpose and hypothesized issues.\n  2. The ability to aggregate data in a table according to the data format.\n  3. The ability to display data visually using graphs.\n  4. The ability to verify hypotheses with statistical methods.\n\nStudents will acquire abilities 1 to 3 mainly through the questionnaire survey exercises in the first half of the course; ability 4 will be learned through exercises using sample data in the second half of the course.",
-  "books": "Textbook : 統計学〈1〉データ分析の基礎 オフィシャルスタディノート 改定第2版(Japanese book)",
-  "requiredKnowledge": "Understanding the meaning of the average, variance, and standard deviation formulas, scatter plots, and correlation coefficients learned in high school mathematics.",
+  "educationalGoal": "Students will (1) learn technical mechanisms and new mechanisms required to research, develop, design, and manufacture socially useful and high-quality products using the basic academic ability acquired by studies in the Department of Mechanical Engineering, (2) scquire the ability to identify and solve problems in mechanical engineering-related fields, (3) learn about the importance of collaboration, particularly with local communities.",
+  "advice": "This is the final comprehensive course in the Department of Mechanical Engineering. To realize the educational objectives of the Department, this course focuses on the following topics: Students will acquire the ability to model phenomena accurately and analyze the models. Students will acquire the ability and the engineering sense to evaluate solutions using the obtained results. In practice, students should reconfirm their project theme, which was determined in Preparatory Seminar, with the supervisors of individual laboratories. (The theme should be revised as necessary.) Students are expected to pursue the identification and solution of problems in accordance with the engineering process. Our laboratory promotes projects with the following content: 1) Environmentally Friendly Technologies 2) Automotive Powertrains 3) Advanced Combustion System Students will learns theory, experimental procedure and computer simulation in thees projects.",
+  "books": "Textbooks: Reference books: Reserved books:",
+  "requiredKnowledge": "It is essential to acquire knowledge and improve the skills necessary for safe research activities. It is desirable to obtain a machining license from the KIT Dream works (Yumekobo).",
   "activityGoals": [
     {
       "index": "①",
-      "type": "A,B",
-      "body": "Be able to understand the concept of data analytics."
+      "type": "A,B,D,G,H,J-P",
+      "body": "Be able to advance your project in accordance with the engineering design process."
     },
     {
       "index": "②",
-      "type": "D,F,G",
-      "body": "Be able to plan a questionnaire survey."
+      "type": "A,B,D,G,H,J-P",
+      "body": "Be able to compile your results correctly into an article and discuss the content through presentations."
     },
     {
       "index": "③",
-      "type": "G,L",
-      "body": "Be able to create and improve a questionnaire sheet."
-    },
-    {
-      "index": "④",
-      "type": "D,J",
-      "body": "Be able to use simple/cross-tabulation to analyze questionnaire results."
-    },
-    {
-      "index": "⑤",
-      "type": "D,E,J",
-      "body": "Be able to be to produce pie, bar, and scatter charts using Excel."
-    },
-    {
-      "index": "⑥",
-      "type": "D,G,L",
-      "body": "Be able to test a hypothesis using confidence intervals and various hypothesis testing methods."
+      "type": "A,B,D,G,H,J-P",
+      "body": "Be able to act independently to solve the issues presented separately."
     }
   ],
   "evaluationWeights": [
     {
       "label": "総合評価割合",
       "values": [
-        "30",
-        "30",
-        "30",
         "0",
         "0",
+        "50",
+        "35",
         "0",
+        "5",
         "10",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -82,20 +62,20 @@
     {
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
-        "30",
-        "30",
-        "30",
         "0",
         "0",
+        "50",
+        "35",
         "0",
+        "5",
         "10",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -105,20 +85,20 @@
     {
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
-        "30",
-        "30",
-        "30",
         "0",
         "0",
+        "50",
+        "35",
         "0",
+        "5",
         "10",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -139,9 +119,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -149,7 +129,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -162,9 +142,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -185,9 +165,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -196,118 +176,48 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "Understand the purpose and issues of data analysis; be able to collect data through questionnaire surveys and reach meaningful conclusions based on appropriate visualization methods.",
-    "standard": "Understand the purpose and issues of data analysis; create a questionnaire.\nVisually display data using a graph (but not necessarily always reach proper conclusions)."
+    "ideal": "(1) Understand the your project and the advancement process accurately, and achieve the established annual goal. In addition, the process can be reported in the Design Project Activity Support System. (2) Compile intermediate results for the project into the interim report, and present and discuss its content. Complete the final report, present it to the Design Project III Public Presentation Review Board, and discuss its content. (3) If necessary, design and manufacture your own experimental devices, and also evaluate the performance of the product.",
+    "standard": "(1) Understand the purpose of your project theme and the advancement process accurately, and achieve the established annual goal. In addition, the process can be reported in the Design Project Activity Support System. (2) Compile intermediate results for the project into the interim report, and present its content. Complete the final report and present it to the Design Project III Public Presentation Review Board. (3) Design and manufacture your own experimental devices as necessary. (The numbers in the text correspond to those of the student's action goals.)"
   },
   "clipProcess": "",
   "lessons": [
     {
       "index": "1",
-      "content": "Course introduction\nFlow of data analytics\nType of data",
-      "operation": "Lecture and interactive\nactivities",
-      "assignments": "Read the textbook\nRepeat the exercise quiz",
-      "minutes": "200"
-    },
-    {
-      "index": "2",
-      "content": "Questionnaire surveys (1)\n Social survey\n Procedure of the survey\n Creation of the survey sheet",
-      "operation": "Lecture and interactive\nactivities",
-      "assignments": "Read the textbook and\nreserved book\nComplete the questionnaire\nsheet",
-      "minutes": "260"
-    },
-    {
-      "index": "3",
-      "content": "Questionnaire surveys (2)\n Method of the survey and question item\n Brushing up the survey sheet",
-      "operation": "Lecture and interactive\nactivities",
-      "assignments": "Read the textbook and\nreserved book\nBrush up the questionnaire\nsheet",
-      "minutes": "260"
-    },
-    {
-      "index": "4",
-      "content": "Qualitative data (1)\n Aggregation by frequency distribution table\n Statistical graph types and selection",
-      "operation": "Lecture and interactive\nactivities",
-      "assignments": "Read the textbook and\nlook up the terminology\nRepeat the exercise quiz",
-      "minutes": "260"
-    },
-    {
-      "index": "5",
-      "content": "Qualitative data (2)\n Cross-tabulation evaluation\n Creating multiple cross-tabulation tables",
-      "operation": "Lecture and interactive\nactivities",
-      "assignments": "Read the textbook and\nlook up the terminology\nRepeat the exercise quiz",
-      "minutes": "260"
-    },
-    {
-      "index": "6",
-      "content": "Quantitative data (1)\n Frequency distribution table and histogram\n Using boxplots",
-      "operation": "Lecture and interactive\nactivities",
-      "assignments": "Read the textbook and\nlook up the terminology\nRepeat the practice quiz",
-      "minutes": "260"
-    },
-    {
-      "index": "7",
-      "content": "Quantitative data (2)\n Typical value of distribution\n Magnitude of variation\n Standard deviation and disparity",
-      "operation": "Lecture and interactive\nactivities",
-      "assignments": "Read the textbook and\nlook up the terminology\nRepeat the practice quiz",
-      "minutes": "260"
-    },
-    {
-      "index": "8",
-      "content": "Mid-semester Exam\nConfirmation of the acquisition of basic\nknowledge",
-      "operation": "Lecture and interactive\nactivities",
-      "assignments": "Prepare for the exam",
-      "minutes": "260"
-    },
-    {
-      "index": "9",
-      "content": "Correlation (1)\n Correlation and scatter plot\n Stratified scatter plot\n Correlation coefficient",
-      "operation": "Lecture and interactive\nactivities",
-      "assignments": "Read the textbook and\nlook up the terminology\nRepeat the practice quiz",
-      "minutes": "260"
-    },
-    {
-      "index": "10",
-      "content": "Correlation (2)\n Spurious correlation\n Points to note for correlation coefficient\n Simple regression analysis",
-      "operation": "Lecture and interactive\nactivities",
-      "assignments": "Read the textbook and\nlook up the terminology\nRepeat the practice quiz",
-      "minutes": "260"
-    },
-    {
-      "index": "11",
-      "content": "Data in chronological order\n Standardization of time series graph\n Moving average\n Standardization of chronological order data",
-      "operation": "Lecture and interactive\nactivities",
-      "assignments": "Read the textbook and\nlook up the terminology\nRepeat the practice quiz",
-      "minutes": "260"
-    },
-    {
-      "index": "12",
-      "content": "Utilization of official statistics\n Establishment of public statistical system\n e-Stat\n Sampling error and probability",
-      "operation": "Lecture and interactive\nactivities",
-      "assignments": "Read the textbook and\nlook up the terminology\nRepeat the practice quiz",
-      "minutes": "260"
-    },
-    {
-      "index": "13",
-      "content": "Using Excel\nIntegrated learning",
-      "operation": "Lecture and interactive\nactivities",
-      "assignments": "Prepare for the exam",
-      "minutes": "260"
-    },
-    {
-      "index": "14",
-      "content": "Final exam\nSelf-reflection",
-      "operation": "Exam and review\nSelf-reflection",
-      "assignments": "Review exam results",
-      "minutes": "330"
-    },
-    {
-      "index": "15",
-      "content": "Self-evaluation based on exam results",
-      "operation": "Interactive activities\nSelf-evaluation",
+      "content": "Course introduction",
+      "operation": "",
       "assignments": "",
-      "minutes": "260"
+      "minutes": ""
+    },
+    {
+      "index": "Apr.",
+      "content": "Reconfirm the project proposal that was submitted during Preparatory Seminar (revise it as necessary)",
+      "operation": "",
+      "assignments": "",
+      "minutes": ""
+    },
+    {
+      "index": "Aug.",
+      "content": "Submit the interim report and present it at the interim report meeting",
+      "operation": "",
+      "assignments": "",
+      "minutes": ""
+    },
+    {
+      "index": "Jan.",
+      "content": "Submit the pre-print",
+      "operation": "",
+      "assignments": "",
+      "minutes": ""
+    },
+    {
+      "index": "Feb.",
+      "content": "Submit the final report and present it to the Design Project III Public Presentation Review Board",
+      "operation": "",
+      "assignments": "",
+      "minutes": ""
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　D104-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Environmental Design and Innovation\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                データアナリティクス入門\n                Introduction to Data Analytics\n\n              2\n              D104-01\n\n                2026年度\n\n                1st year 1st semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  TAKECHI Shoji, MIZUTANI Motoki\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Data Collection\n2.Statistical Analysis\n3.Social Survey and Questionnaire\n4.Graph and Visualization\n5.Data Science\n\n              In this course, students will:\n(1) acquire a basic knowledge of data analytics.\n(2) learn how to collect, aggregate, and visualize data based on questionnaire surveys.\n(3) learn how to use statistical methods of sampling.\n\n              授業の概要および学習上の助言\n\n              To analyze data properly, the following four abilities are required:\n  1. The ability to collect data according to purpose and hypothesized issues.\n  2. The ability to aggregate data in a table according to the data format.\n  3. The ability to display data visually using graphs.\n  4. The ability to verify hypotheses with statistical methods.\n\nStudents will acquire abilities 1 to 3 mainly through the questionnaire survey exercises in the first half of the course; ability 4 will be learned through exercises using sample data in the second half of the course.\n\n              教科書および参考書・リザーブドブック\n\n              Textbook : 統計学〈1〉データ分析の基礎 オフィシャルスタディノート 改定第2版(Japanese book)\n\n              履修に必要な予備知識や技能\n\n              Understanding the meaning of the average, variance, and standard deviation formulas, scatter plots, and correlation coefficients learned in high school mathematics.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                A,B\n                Be able to understand the concept of data analytics.\n\n                ②\n                D,F,G\n                Be able to plan a questionnaire survey.\n\n                ③\n                G,L\n                Be able to create and improve a questionnaire sheet.\n\n                ④\n                D,J\n                Be able to use simple/cross-tabulation to analyze questionnaire results.\n\n                ⑤\n                D,E,J\n                Be able to be to produce pie, bar, and scatter charts using Excel.\n\n                ⑥\n                D,G,L\n                Be able to test a hypothesis using confidence intervals and various hypothesis testing methods.\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                30\n\n                30\n\n                30\n\n                0\n\n                0\n\n                0\n\n                10\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                30\n\n                30\n\n                30\n\n                0\n\n                0\n\n                0\n\n                10\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                30\n\n                30\n\n                30\n\n                0\n\n                0\n\n                0\n\n                10\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  コラボレーションとリーダーシップ\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n       ",
-  "courseId": "2026:spring:D104-01:0:180",
+  "rawText": "金沢工業大学 学習支援計画書 E921-19\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Mechanical Engineering\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Project Courses\nプロジェクトデザインⅢ(長沼要研究室)\nDesign Project III(Naganuma Kaname)  8 E921-19  2024年度\n All year  修学規程第4条を参照\n    担当教員名\n NAGANUMA Kaname\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Mechanical engineering 2.Automotive engineering 3.Environmentally friendly technologies 4.Energy and mechanics 5.Regional cooperation  Students will (1) learn technical mechanisms and new mechanisms required to research, develop, design, and manufacture socially useful and high-quality products using the basic academic ability acquired by studies in the Department of Mechanical Engineering, (2) scquire the ability to identify and solve problems in mechanical engineering-related fields, (3) learn about the importance of collaboration, particularly with local communities.\n    授業の概要および学習上の助言   This is the final comprehensive course in the Department of Mechanical Engineering. To realize the educational objectives of the Department, this course focuses on the following topics: Students will acquire the ability to model phenomena accurately and analyze the models. Students will acquire the ability and the engineering sense to evaluate solutions using the obtained results. In practice, students should reconfirm their project theme, which was determined in Preparatory Seminar, with the supervisors of individual laboratories. (The theme should be revised as necessary.) Students are expected to pursue the identification and solution of problems in accordance with the engineering process. Our laboratory promotes projects with the following content: 1) Environmentally Friendly Technologies 2) Automotive Powertrains 3) Advanced Combustion System Students will learns theory, experimental procedure and computer simulation in thees projects.\n    教科書および参考書・リザーブドブック   Textbooks: Reference books: Reserved books:\n    履修に必要な予備知識や技能   It is essential to acquire knowledge and improve the skills necessary for safe research activities. It is desirable to obtain a machining license from the KIT Dream works (Yumekobo).\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① A,B,D,G,H,J-P Be able to advance your project in accordance with the engineering design process.   ② A,B,D,G,H,J-P Be able to compile your results correctly into an article and discuss the content through presentations.   ③ A,B,D,G,H,J-P Be able to act independently to solve the issues presented separately.   ④     ⑤     ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 0 0 50 35 0 5 10 100     指標と評価割合 総合評価割合 0 0 50 35 0 5 10 100   総合力指標 知識を取り込む力 0 0 50 35 0 5 10 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ①      ②     ③     ④     ⑤     ⑥     クイズ\n小テスト ①      ②     ③     ④     ⑤     ⑥     レポート ① レ Students are evaluated on an interim report submitted during the 1st semester and a final report submitted during the 2nd semester (Project III final report).    ② レ   ③ レ   ④     ⑤     ⑥     成果発表\n(口頭・実技) ① レ Students are evaluated on the results of their presentations at the interim report meeting held at the end of the semester, as well as presentations and questions and answers to the Design Project III Public Presentation Review Board in the 2nd semester. In particular, note that the presentation to the Design Project III Public Presentation Review Board is indispensable for obtaining Design Project III credits.    ② レ   ③ レ   ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ① レ Students are evaluated based on their activities described in the Design Project Activity Support System.   ② レ   ③ レ   ④     ⑤     ⑥     その他 ① レ  Students are evaluated on their activities in class.   ② レ   ③ レ   ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 ",
+  "courseId": "2024:full-year:E921-08:0:180",
   "language": "en"
 }

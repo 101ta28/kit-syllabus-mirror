@@ -1,77 +1,68 @@
 {
   "sourceIndex": 804,
   "sourceUrl": "/opsyllabus/kitos0110/804/1",
-  "importedAt": "2026-06-08T09:34:09.735Z",
-  "title": "制御系プログラミング",
-  "subtitle": "Programming for control systems",
-  "courseType": "Major ProgramMajor Courses",
+  "importedAt": "2026-06-09T01:29:26.748Z",
+  "title": "生命科学",
+  "subtitle": "Bioscience",
+  "courseType": "Major Program\nMajor Courses",
   "credits": "2",
-  "term": "2026年度\n\n                2nd year 2nd semester",
+  "term": "2024年度\n 3rd year 2nd semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "HAYASHI Akio"
+    "HIRATA Hiroaki"
   ],
   "keywords": [
-    "Programming",
-    "Numerical computation",
-    "Control system simulation",
-    "Frequency analysis",
-    "Regional collaboration"
+    "History of life science 2.Biological evolution 3.Biological engineering 4.Biotechnology 5.Green innovation"
   ],
-  "educationalGoal": "Students will:\n(1) Understand how physical phenomena can be modeled using differential equations and analyzed with computers.\n(2) Acquire the ability to implement numerical computation algorithms and perform analyses through programming.\n(3) Develop the ability to interpret analytical results and improve programs for higher accuracy.",
-  "advice": "This course introduces mathematical models used to represent physical phenomena and provides training in numerical computation methods using MATLAB/Simulink. Students will learn how to construct models (block diagrams) and perform control system simulations.\n\nTopics include:\nProgramming using MATLAB\n1. Numerical computation with MATLAB (basic operations and matrix calculations)\n2. Vibration analysis using MATLAB (differential equations; spring–mass–damper models)\n3. Signal processing using MATLAB (FFT: Fast Fourier Transform)\n4. Control system analysis using MATLAB (transfer functions, Bode plots, transient response)\n5. Control system design using Simulink (transient response, PID control)\n\nClasses will be conducted primarily through exercises. Students are expected to prepare adequately before each class.",
+  "educationalGoal": "It is highly expected that life sciences may provide a novel driving force for the development of Japanese industry in this century. However, biological technologies are still developing, and often encounter unexpected difficulties in their development. This course will review a range of topics in life sciences, introduce the cutting edge of biological engineering and technologies, and cultivate understanding of the interrelationship between life sciences and human societies.",
+  "advice": "The lectures in this course are designed for students having knowledge learned in the first and second grade courses including “Basic Biology”, “Structure and Function in Physiology”, “Structure and Function of the Cell”, “Molecular Biology”, “Neuroscience” and “Sensory Information”.",
   "books": "None",
-  "requiredKnowledge": "Students are expected to have a basic understanding of MATLAB usage as learned in the introductory AI course. Knowledge of programming languages such as C or Python is desirable.\n\nConcurrent enrollment in Control Engineering (required) and Mechanical Dynamics II (elective), which supports understanding of vibration models, is recommended.",
+  "requiredKnowledge": "Knowledge of basic biology, cell biology and molecular biology.",
   "activityGoals": [
     {
       "index": "①",
-      "type": "D,H,L",
-      "body": "Be able to develop programs for input/output operations and numerical calculations."
+      "type": "I,K",
+      "body": "Ability to explain the history of life sciences"
     },
     {
       "index": "②",
-      "type": "D,H,L",
-      "body": "Be able to solve differential equations using numerical methods."
+      "type": "I,K",
+      "body": "Ability to explain the mechanism for biological evolution"
     },
     {
       "index": "③",
-      "type": "D,H,L",
-      "body": "Be able to perform frequency analysis using numerical computation."
+      "type": "I,K,L,N",
+      "body": "Ability to explain information flows in the cell"
     },
     {
       "index": "④",
-      "type": "D,H,L",
-      "body": "Be able to plot transient responses and Bode diagrams for mechanical models."
+      "type": "I,J,L",
+      "body": "Ability to explain the interrelationship between life science and human society"
     },
     {
       "index": "⑤",
-      "type": "D,H,L",
-      "body": "Be able to simulate and evaluate system responses from control block diagrams."
-    },
-    {
-      "index": "⑥",
-      "type": "D,H,J,L,N",
-      "body": "Be able to develop and apply programs to solve problems in mechanical engineering."
+      "type": "I,J,K,L",
+      "body": "Ability to explain green innovation"
     }
   ],
   "evaluationWeights": [
     {
       "label": "総合評価割合",
       "values": [
-        "30",
         "40",
         "30",
+        "20",
         "0",
         "0",
         "0",
-        "0",
+        "10",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -81,20 +72,20 @@
     {
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
-        "30",
         "40",
         "30",
+        "20",
         "0",
         "0",
         "0",
-        "0",
+        "10",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -104,20 +95,20 @@
     {
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
-        "30",
         "40",
         "30",
+        "20",
         "0",
         "0",
         "0",
-        "0",
+        "10",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -138,9 +129,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -148,7 +139,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -161,9 +152,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -184,9 +175,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -195,118 +186,118 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "(1) Be able to design and implement efficient and well-structured programs.\n(2) Be able to select appropriate methods considering error and stability.\n(3) Be able to interpret frequency characteristics considering analysis conditions.\n(4)Be able to explain how parameter changes affect dynamic characteristics.\n(5)Be able to adjust and improve system performance based on results.\n(6) Be able to formulate problems algorithmically and apply solutions broadly.",
-    "standard": "(1) Be able to create programs for basic input/output processing and numerical calculations.\n(2) Be able to solve differential equations using common numerical methods.\n(3) Be able to obtain frequency spectra using FFT.\n(4) Be able to generate transient responses and Bode diagrams and identify basic characteristics.\n(5) Be able to simulate system responses and evaluate performance.\n(6) Be able to develop programs to analyze mechanical engineering problems."
+    "ideal": "Be able to explain milestones in life sciences and their significance. Be able to explain detailed mechanisms for biological evolution. Be able to explain systematically the flows of genomic and environmental information in the cell. Be able to explain contributions of life science to human society and their issue. Be able to explain biotechnologies and their underlying principles that contribute to green innovation.",
+    "standard": "Be able to explain briefly milestones in life sciences. Be able to explain basic mechanisms for biological evolution. Be able to explain the basics of the flows of genomic and environmental information in the cell. Be able to explain briefly contributions of life science to human society. Be able to explain briefly biotechnologies contributing to green innovation."
   },
   "clipProcess": "",
   "lessons": [
     {
       "index": "1",
-      "content": "Course introduction\nReview of MATLAB",
+      "content": "Course introduction What is life?",
       "operation": "Lecture and Q&A",
-      "assignments": "Review MATLAB before class.\nUnderstand the relationship\nbetween the educational goals\nof the Department of\nMechanical Engineering and\nthis course.",
-      "minutes": "100\n30"
+      "assignments": "Preview: Summarize characteristics of life. Review: Review the lecture.",
+      "minutes": "60 30"
     },
     {
       "index": "2",
-      "content": "Students will learn basic arithmetic operations\nand matrix calculations using MATLAB.\n\nExercises will be conducted on data import, comp\nutation, visualization of results, and graph cre\nation.",
-      "operation": "Lecture and practice\nQuiz\nSelf-check",
-      "assignments": "",
-      "minutes": "100"
+      "content": "History of life sciences",
+      "operation": "Lecture and Q&A",
+      "assignments": "Preview: Summarize 5-10 milestones in life sciences. Review: Review the lecture.",
+      "minutes": "60 30"
     },
     {
       "index": "3",
-      "content": "Students will learn basic arithmetic operations\nand matrix calculations using MATLAB.\n\nExercises will be conducted on data import, comp\nutation, visualization of results, and graph cre\nation.",
-      "operation": "Lecture and practice\nQuiz\nSelf-check",
-      "assignments": "",
-      "minutes": "100"
+      "content": "Biological evolution I: Theory of evolution",
+      "operation": "Lecture and Q&A",
+      "assignments": "Preview: Summarize the basics of the use-and-disuse theory and the natural selection theory. Review: Review the lecture.",
+      "minutes": "60 30"
     },
     {
       "index": "4",
-      "content": "Students will learn methods for solving differen\ntial equations using the Laplace transform.",
-      "operation": "Lecture and practice\nQuiz\nSelf-check",
-      "assignments": "",
-      "minutes": "100"
+      "content": "Biological evolution II: DNA for evolution",
+      "operation": "Lecture and Q&A",
+      "assignments": "Preview: Summarize factors causing mutagenesis in DNA. Review: Review the lecture.",
+      "minutes": "60 30"
     },
     {
       "index": "5",
-      "content": "Students will learn methods for solving differen\ntial equations using the Laplace transform.",
-      "operation": "Lecture and practice\nQuiz\nSelf-check",
-      "assignments": "",
-      "minutes": "100"
+      "content": "Biological evolution III: Evolution of multicellularity",
+      "operation": "Lecture and Q&A Quiz 1",
+      "assignments": "Preview: Summarize the difference between Chlamydomonas and Volvox. Review: Review the lecture.",
+      "minutes": "60 30"
     },
     {
       "index": "6",
-      "content": "Students will learn about vibration analysis.",
-      "operation": "Lecture and practice\nQuiz\nSelf-check",
-      "assignments": "",
-      "minutes": "90\n\n10"
+      "content": "Information flow in the cell I: From the gene to the protein",
+      "operation": "Lecture and Q&A",
+      "assignments": "Preview: Summarize transcription and translation. Review: Review the lecture.",
+      "minutes": "60 30"
     },
     {
       "index": "7",
-      "content": "Students will learn about signal processing\nusing MATLAB and frequency analysis\nusing the Fast Fourier Transform (FFT).",
-      "operation": "Exercise\n\nReview and Exam\nSelf-reflection",
-      "assignments": "Review",
-      "minutes": "90\n\n10"
+      "content": "Information flow in the cell II: Signal transduction",
+      "operation": "Lecture and Q&A",
+      "assignments": "Preview: Exemplify a signal transduction pathway from the extracellular input to gene transcription. Review: Review the lecture.",
+      "minutes": "60 30"
     },
     {
       "index": "8",
-      "content": "Control system analysis using MATLAB\n\nTransfer functions, Bode diagrams, and transient\n response",
-      "operation": "Exercise",
-      "assignments": "Prepare for exam",
-      "minutes": "90\n\n10"
+      "content": "Information flow in the cell III: Mutagenesis to cancer",
+      "operation": "Lecture and Q&A Report",
+      "assignments": "Preview: Summarize mutagenesis causing cancers. Review: Review the lecture.",
+      "minutes": "60 30"
     },
     {
       "index": "9",
-      "content": "Control system analysis using MATLAB\n\nTransfer functions, Bode diagrams, and transient\n response",
-      "operation": "Lecture and practice\nQuiz\nSelf-check",
-      "assignments": "",
-      "minutes": "90\n\n10"
+      "content": "Information flow in the cell IV: How cells use mechanical information?",
+      "operation": "Lecture and Q&A",
+      "assignments": "Preview: Exemplify mechanical stimuli to cells in the body. Review: Review the lecture.",
+      "minutes": "60 30"
     },
     {
       "index": "10",
-      "content": "Control system design using Simulink\n\nTransient response and PID control",
-      "operation": "Lecture and practice\nQuiz\nSelf-check",
-      "assignments": "",
-      "minutes": "90\n\n10"
+      "content": "Interrelationship between life science and human society I: Biodiversity",
+      "operation": "Lecture and Q&A",
+      "assignments": "Preview: What is inbreeding depression? Review: Review the lecture.",
+      "minutes": "60 30"
     },
     {
       "index": "11",
-      "content": "Control system design using Simulink\n\nTransient response and PID control",
-      "operation": "Lecture and practice\nQuiz\nSelf-check",
-      "assignments": "",
-      "minutes": "90\n\n10"
+      "content": "Interrelationship between life science and human society II: Secondary nature",
+      "operation": "Lecture and Q&A Quiz 2",
+      "assignments": "Preview: Summarize features of village forests. Review: Review the lecture.",
+      "minutes": "60 30"
     },
     {
       "index": "12",
-      "content": "Control system design using Simulink\n\nTransient response and PID control",
-      "operation": "Lecture and practice\nQuiz\nSelf-check",
-      "assignments": "",
-      "minutes": "90\n\n10"
+      "content": "Green innovation I: Biogeochemical cycles and human activities",
+      "operation": "Lecture and Q&A",
+      "assignments": "Preview: Summarize roles of carbon, nitrogen and phosphorus in the biological body. Review: Review the lecture.",
+      "minutes": "60 30"
     },
     {
       "index": "13",
-      "content": "Control system design using Simulink\n\nTransient response and PID control\n\nReview",
-      "operation": "Exercise",
-      "assignments": "review",
-      "minutes": "90\n\n10"
+      "content": "Green innovation II: Bioenergy",
+      "operation": "Lecture and Q&A",
+      "assignments": "Preview: Summarize causes and effects of global warming. Review: Review the lecture.",
+      "minutes": "60 30"
     },
     {
       "index": "14",
-      "content": "Review　and Final exam",
-      "operation": "Test and review\nSelf-check",
-      "assignments": "Create a report on an issue\nassigned in class",
-      "minutes": "90\n\n10"
+      "content": "Final exam Integrated learning",
+      "operation": "Final exam Group discussion",
+      "assignments": "Preview: Prepare for the exam.",
+      "minutes": "120"
     },
     {
       "index": "15",
-      "content": "Review of final exam\nAdvanced numerical analysis",
-      "operation": "Review\nLecture\nSelf-evaluation",
-      "assignments": "Prepare for exam",
-      "minutes": "30\n\n60\n\n10"
+      "content": "Review of the course",
+      "operation": "Lecture and Q&A",
+      "assignments": "Review: Review the lecture.",
+      "minutes": "90"
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　K121-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Advanced Mechanical Systems Engineering\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                制御系プログラミング\n                Programming for control systems\n\n              2\n              K121-01\n\n                2026年度\n\n                2nd year 2nd semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  HAYASHI Akio\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Programming\n2.Numerical computation\n3.Control system simulation\n4.Frequency analysis\n5.Regional collaboration\n\n              Students will:\n(1) Understand how physical phenomena can be modeled using differential equations and analyzed with computers.\n(2) Acquire the ability to implement numerical computation algorithms and perform analyses through programming.\n(3) Develop the ability to interpret analytical results and improve programs for higher accuracy.\n\n              授業の概要および学習上の助言\n\n              This course introduces mathematical models used to represent physical phenomena and provides training in numerical computation methods using MATLAB/Simulink. Students will learn how to construct models (block diagrams) and perform control system simulations.\n\nTopics include:\nProgramming using MATLAB\n1. Numerical computation with MATLAB (basic operations and matrix calculations)\n2. Vibration analysis using MATLAB (differential equations; spring–mass–damper models)\n3. Signal processing using MATLAB (FFT: Fast Fourier Transform)\n4. Control system analysis using MATLAB (transfer functions, Bode plots, transient response)\n5. Control system design using Simulink (transient response, PID control)\n\nClasses will be conducted primarily through exercises. Students are expected to prepare adequately before each class.\n\n              教科書および参考書・リザーブドブック\n\n              None\n\n              履修に必要な予備知識や技能\n\n              Students are expected to have a basic understanding of MATLAB usage as learned in the introductory AI course. Knowledge of programming languages such as C or Python is desirable.\n\nConcurrent enrollment in Control Engineering (required) and Mechanical Dynamics II (elective), which supports understanding of vibration models, is recommended.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                D,H,L\n                Be able to develop programs for input/output operations and numerical calculations.\n\n                ②\n                D,H,L\n                Be able to solve differential equations using numerical methods.\n\n                ③\n                D,H,L\n                Be able to perform frequency analysis using numerical computation.\n\n                ④\n                D,H,L\n                Be able to plot transient responses and Bode diagrams for mechanical models.\n\n                ⑤\n                D,H,L\n                Be able to simulate and evaluate system responses from control block diagrams.\n\n                ⑥\n                D,H,J,L,N\n                Be able to develop and apply programs to solve problems in mechanical engineering.\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                30\n\n                40\n\n                30\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                30\n\n                40\n\n                30\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                30\n\n      ",
-  "courseId": "2026:fall:K121-01:0:804",
+  "rawText": "金沢工業大学 学習支援計画書 B123-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Applied Bioscience\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n生命科学\nBioscience  2 B123-01  2024年度\n 3rd year 2nd semester  修学規程第4条を参照\n    担当教員名\n HIRATA Hiroaki\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.History of life science 2.Biological evolution 3.Biological engineering 4.Biotechnology 5.Green innovation  It is highly expected that life sciences may provide a novel driving force for the development of Japanese industry in this century. However, biological technologies are still developing, and often encounter unexpected difficulties in their development. This course will review a range of topics in life sciences, introduce the cutting edge of biological engineering and technologies, and cultivate understanding of the interrelationship between life sciences and human societies.\n    授業の概要および学習上の助言   The lectures in this course are designed for students having knowledge learned in the first and second grade courses including “Basic Biology”, “Structure and Function in Physiology”, “Structure and Function of the Cell”, “Molecular Biology”, “Neuroscience” and “Sensory Information”.\n    教科書および参考書・リザーブドブック   None\n    履修に必要な予備知識や技能   Knowledge of basic biology, cell biology and molecular biology.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① I,K Ability to explain the history of life sciences   ② I,K Ability to explain the mechanism for biological evolution   ③ I,K,L,N Ability to explain information flows in the cell   ④ I,J,L Ability to explain the interrelationship between life science and human society   ⑤ I,J,K,L Ability to explain green innovation   ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 40 30 20 0 0 0 10 100     指標と評価割合 総合評価割合 40 30 20 0 0 0 10 100   総合力指標 知識を取り込む力 40 30 20 0 0 0 10 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ There is a final exam to assess acquisition of Target Abilities for Students.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     クイズ\n小テスト ① レ There are two quizzes to assess the degree of the understanding of the contents of lectures.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     レポート ① レ A report on the topic delivered in class is required.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ① レ Attitudes and discussions in class are assessed.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     Be able to explain milestones in life sciences and their significance. Be able to explain detailed mechanisms for biological evolution. Be able to explain systematically the flows of genomic and environmental information in the cell. Be able to explain contributions of life science to human society and their issue. Be able to explain biotechnologies and their underlying principles that contribute to green innovation. Be able to explain briefly milestones in life sciences. Be able to explain basic mechanisms for biological evolution. Be able to explain the basics of the flows of genomic and environmental information in the cell. Be able to explain briefly contributions of life science to human society. Be able to explain briefly biotechnologies contributing to green innovation.\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習課題に要する標準的な時間を記載してあります。日々の自学自習時間全体としては、各授業に応じた時間(例えば2単位科目の場合、予習2時間・復習2時間/週)を取るよう努めてください。詳しくは教員の指導に従って下さい。     授業明細   回数 学習内容 授業の運営方法 学習課題(予習・復習) 時間:分※     1  Course introduction What is life? Lecture and Q&A Preview: Summarize characteristics of life. Review: Review the lectu",
+  "courseId": "2024:fall:B123-01:0:804",
   "language": "en"
 }

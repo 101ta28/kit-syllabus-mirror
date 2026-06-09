@@ -1,79 +1,63 @@
 {
   "sourceIndex": 210,
   "sourceUrl": "/opsyllabus/kitos0110/210/1",
-  "importedAt": "2026-06-08T09:33:57.460Z",
-  "title": "航空システム専門実験・演習Ｂ",
-  "subtitle": "Aeronautics Major Lab/Exercises B",
-  "courseType": "Major ProgramMajor Courses",
-  "credits": "3",
-  "term": "2026年度\n\n                3rd year 1st semester3rd year 2nd semester",
+  "importedAt": "2026-06-09T01:29:21.051Z",
+  "title": "宇宙推進工学",
+  "subtitle": "Space Propulsion",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "2",
+  "term": "2024年度\n 3rd year 1st semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "MORIAI Hideki",
-    "MORIYOSHI Takahiro",
-    "HAMAMOTO Yusuke"
+    "MORIAI Hideki"
   ],
   "keywords": [
-    "Planning",
-    "Performing",
-    "Summarizing",
-    "Presentation",
-    "Aeronautics and astronautics engineering"
+    "Space propulsion 2.Rocket 3.Flight performance 4.Liquid rocket engine 5.Electric propulsion"
   ],
-  "educationalGoal": "Students will:\n(1)learn the method and theory of a selected basic subject, and perform\n   experiment and practice on selected subject.\n(2)acquire deeper understanding and ability to apply engineering subjects.\n(3)learn how to write the experimental method in an experiment report.\n(4)learn how to create presentations on experiments and their results.",
-  "advice": "Students will carry out the following experiments in Exercise B. Details on the experiments can be confirmed in the textbook.\n① Wind tunnel test\n② Jet engine performance test\n③ Simulated flight test\nStudents attending the lecture will be divided into three groups (A, B, and C). Group A will carry out experiment ① for five weeks and then theme ② for the next five weeks and finally theme ③ for another five weeks. Group B will follow the order of ②→③→① and group C the order of ③→①→②. In addition, class details are distributed at the time of the start of each experiment theme.",
-  "books": "Textbooks: Aeronautics Major Experiments and Exercises AB\nReference books: None\nReserved books: None",
-  "requiredKnowledge": "Student should read the textbook before an experiment and understand what kind of experiment they will be carrying out. In addition, students should make a lesson report before a class as preparation, if necessary for that class.",
+  "educationalGoal": "Learn how thermal energy systems, mainly liquid rocket engines, are formed and utilized in the aerospace industry, in relation to energy and environmental issues. In addition, students will learn the basics of rocket and rocket engines and deepen understanding of dreamy space technology.",
+  "advice": "Space projects such as the launch of artificial satellites, space travel business by the private sector, and exploration of the moon, Mars, and the solar system by each country government are increasing year by year, and the Age of Discovery of space is expected to arrive in the near future. In space transportation it is necessary to carry the spacecraft including heavy fuel and oxidizer to distant space against gravity. Therefore, in order to expand space development fast, it is essential to develop the ultimate effective use of thermal energy, to significantly reduce transportation costs. Against this background, in this course, a liquid rocket engine is mainly described as an example to learn how thermal energy systems are useful in aviation and space, and what principles, structures, and design ideas are used to form them. This course is roughly divided into the following contents. 1. General remarks on space engineering 2. Rocket fundamentals 3. Liquid rocket engine design and performance 4. Overview of solid / hybrid rocket, electric propulsion, and ramjet 5. Summary, future technology trends of aerospace engines By systematically studying the above, students will deepen understanding of dreamy space technology.",
+  "books": "Textbooks:Yoshiro Nakamura and Koichi Suzuki, “Rocket Engine”, Morikita shuppan Reference books:Koichi Suzuki, “Introduction to Space Engineering”, Morikita shuppan George P. Sutton, “Rocket propulsion elements 9th edition”, Wiley",
+  "requiredKnowledge": "\"thermodynamics I\" in the undergraduate course program. Computational ability based on high school level knowledge of calculus and physics is essential.",
   "activityGoals": [
     {
       "index": "①",
-      "type": "F,M",
-      "body": "Be able to plan an experiment and carry it out independently based on knowledge learned."
+      "type": "D,J,K",
+      "body": "Understand the rocket fundamentals, staging, and how to obtain the final speed."
     },
     {
       "index": "②",
-      "type": "F,M",
-      "body": "Be able to carry out tests safely based on an understanding of the principle of an experiment and the measuremen"
+      "type": "D,J,K",
+      "body": "Understand the utilization of liquid / electric propulsion."
     },
     {
       "index": "③",
-      "type": "F,M,L",
-      "body": "Be able to arrange test data using computers and explain the key and problem appropriately."
+      "type": "D,J,K",
+      "body": "Understand the effects of nozzle and atmosphere on the performance of rocket engines."
     },
     {
       "index": "④",
-      "type": "F,M,D",
-      "body": "Be able to reliably interpret the results of an experiment and evaluate the validity of the test data."
-    },
-    {
-      "index": "⑤",
-      "type": "F,M",
-      "body": "Be able to explain the obtained test data reasonably by comparing it with an analytical solution."
-    },
-    {
-      "index": "⑥",
-      "type": "F",
-      "body": "Be able to summarize the experimental results in a report, submit it before a deadline, and explain them."
+      "type": "D,J,K",
+      "body": "Understand the outline of the basic design of a liquid rocket engine."
     }
   ],
   "evaluationWeights": [
     {
       "label": "総合評価割合",
       "values": [
-        "0",
-        "0",
+        "20",
+        "30",
         "50",
-        "40",
         "0",
-        "10",
+        "0",
+        "0",
         "0",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -83,20 +67,20 @@
     {
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
-        "0",
-        "0",
+        "20",
+        "30",
         "50",
-        "40",
         "0",
-        "10",
+        "0",
+        "0",
         "0",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -106,20 +90,20 @@
     {
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
-        "0",
-        "0",
+        "20",
+        "30",
         "50",
-        "40",
         "0",
-        "10",
+        "0",
+        "0",
         "0",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -140,9 +124,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -150,7 +134,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -163,9 +147,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -186,9 +170,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -197,118 +181,118 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "① i) Explain the cylinder pressure distribution from the flow. ii) Explain the drag errors caused by measurement methods. iii) Explain precisely the forces and moment acting on the wing, and the difference between theory and experiment.\n② Students properly explain engine operation principal, basic structures,  operation characteristics and engine performance relating to the operation performance.\n③Able to consider necessary and sufficient flight test plan considering flight safety and create a flight test sheet. Able to perform flight tests accurately.",
-    "standard": "① i) Explain the cylinder pressure distribution. ii)  Explain cylinder drag. iii) Explain the forces and moment acting on the wing.\n②Students can understand engine operation principal and properly record performance test data. Students also understand and explain the trend of engine performance based on the operation characteristic.\n③A flight test plan considering flight safety can be considered and a flight test sheet can be created."
+    "ideal": "(1) Be able to properly explain the basic principle of the rocket, the final arrival speed, and the outline of the flight plan. (2) Be able to properly explain the design of the liquid rocket engine, the nozzle shape, and the performance impact of the external environment. (3) Be able to properly explain the characteristics and utilization of various rockets such as electric propulsion and hybrid rockets. (4) Be able to calculate electric propulsion performance and explain the difference from the chemical rocket performance and the reason appropriately.",
+    "standard": "(1) Be able to explain the basic principle of the rocket, the final arrival speed, and the outline of the flight plan. (2) Be able to explain the design of the liquid rocket engine, the nozzle shape, and the performance impact of the external environment. (3) Be able to explain the characteristics and utilization of various rockets such as electric propulsion and hybrid rockets. (4) Be able to calculate electric propulsion performance and explain the difference from the chemical rocket performance and the reason."
   },
   "clipProcess": "",
   "lessons": [
     {
       "index": "1",
-      "content": "Students understand the learning objectives,\noutline, and target abilities of this course\nbased on the distributed syllabus.\nIn particular, students understand which role\nthis course assumes within the learning\nobjectives of the department of aeronautics\nand a rough concrete level of achievement.\n① Wind tunnel test\nExplanation of experimental equipment and\nmeasuring device.\nConfirmation of prior knowledge.\nVerification of wind velocity.\nMeasurement of pressure distribution on\ncylinder surface.\nEstimation of cylinder drag.\nFlow visualization around cylinder.",
-      "operation": "Lecture and experiments\nSelf-check",
-      "assignments": "Students understand the\nrelationship between the\nlearning objectives of\nthe department of\naeronautics and this\ncourse.\n①Prepare for pressure\ndistributions on  cylinder\nsurface.\nPrepare for numerical\nintegration.",
-      "minutes": "120"
+      "content": "Theme \"Introduction to Space Engineering\": Space environment and utilization Theme \"Introduction to Rocket 1\": Basic equations",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Preview: Reading the textbook Review: Review of the class notes",
+      "minutes": "40 30"
     },
     {
       "index": "2",
-      "content": "Measurements of wake velocity of cylinder\nEstimation of cylinder drag by momentum method\nDirect measurements of cylinder drag",
-      "operation": "Lecture and experiments\nSelf-check",
-      "assignments": "Prepare for momentum theory.",
-      "minutes": "120"
+      "content": "Theme \"Introduction to Rocket 2\": Final speed and flight paths",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Preview: Reading the textbook Review: Review of the class notes",
+      "minutes": "40 50"
     },
     {
       "index": "3",
-      "content": "Joukowsky transform\nCalculation of wind velocity and pressure\ndistribution of Joukowsky airfoil\nEstimation of the lift acting on airfoil",
-      "operation": "Lecture and experiments\nSelf-check",
-      "assignments": "Prepare for two-dimensional\npotential theory.",
-      "minutes": "120"
+      "content": "Theme \"Introduction to Rocket 3\": Single-stage and Multi-stage rockets",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Preview: Reading the textbook Review: Review of the class notes",
+      "minutes": "40 50"
     },
     {
       "index": "4",
-      "content": "Measurements of forces and moment\nacting on airfoil\nDrawing lift and drag and moment curves\nDrawing polar curves",
-      "operation": "Lecture and experiments\nSelf-check",
-      "assignments": "Prepare for lift and drag\nacting on the wing",
-      "minutes": "120"
+      "content": "Review Quiz (1)",
+      "operation": "Lecture Quiz 10-minute self-inspection",
+      "assignments": "Preview: Reading the textbook Review: Review of the class notes",
+      "minutes": "40 50"
     },
     {
       "index": "5",
-      "content": "Presentation and discussion\n\nStudents self-check the content of the\nexperiments, reports, presentation and\nattendance.",
-      "operation": "Lecture and experiments\nSelf-check",
-      "assignments": "Prepare for presentation by\nstudying literature\nforquestion\nand answer session.",
+      "content": "Theme \"Liquid rocket engine 1\": Nozzle flow and engine performance",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Preview: Reading the textbook Review: Review of the class notes",
       "minutes": "120"
     },
     {
       "index": "6",
-      "content": "②Students will learn the basic\nstructure of the aeroengine, operation\nprincipal and performance measurement\nsystem.\nReview of the engine basic structure\nusing cut model engine and measurement\nof principal dimensions.\nReview of the engine performance test,\nmeasurement items and measurement methods.",
-      "operation": "Lecture and\nexperiments\nSelf-check",
-      "assignments": "Preparation and review\nof gas turbine cycle\nT-S diagrams and process\ndiagrams.",
-      "minutes": "180"
+      "content": "Theme \"Liquid Rocket Engine 2\": Engine system",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Preview: Reading the textbook Review: Review of the class notes",
+      "minutes": "40 50"
     },
     {
       "index": "7",
-      "content": "Engine performance tests\nRecord test data",
-      "operation": "Lecture and experiments",
-      "assignments": "Review of preceding lesson\nUnderstand load cell\nprincipal and prepare\nthe report.",
-      "minutes": "120"
+      "content": "Theme \"Liquid Rocket Engine 3: Engine design",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Preview: Reading the textbook Review: Review of the class notes",
+      "minutes": "40 50"
     },
     {
       "index": "8",
-      "content": "Analyses of engine performance\nSummary of analyses results",
-      "operation": "Lecture and experiments",
-      "assignments": "Review and check of\nthe analyses result.",
+      "content": "Review Quiz (2)",
+      "operation": "Lecture Quiz Self-check",
+      "assignments": "Review of class notes",
       "minutes": "120"
     },
     {
       "index": "9",
-      "content": "Presentation on the test results\nand performance analyses\nRearranging of the indication matter\nfor the presentation\nPreparation of test report",
-      "operation": "Lecture and experiments",
-      "assignments": "Prepare the test report.",
+      "content": "Theme \"Space Propulsion 1\" Electric propulsion fundamentals",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Preview: Reading the textbook Review: Review of the class notes",
       "minutes": "120"
     },
     {
       "index": "10",
-      "content": "Presentation and discussion\nStudents self-check the content of the\nexperiments, reports, presentation and\nattendance.",
-      "operation": "Oral presentation and\nreport submission",
-      "assignments": "Prepare the presentation by\nstudying literatures for\nquestion and answer.",
-      "minutes": "180"
+      "content": "Theme \"Space Propulsion 2\" Ion thruster and MPD thruster",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Preview: Reading the textbook Review: Review of the class notes",
+      "minutes": "40 50"
     },
     {
       "index": "11",
-      "content": "③Simulated flight test (1):\nLecture\nCreate a flight test sheet",
-      "operation": "Exercises\nand Q&A",
-      "assignments": "Prepare the flight test sheet",
-      "minutes": "120"
+      "content": "Theme \"Space Propulsion 3\" Future propulsion",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Preview: Reading the textbook Review: Review of the class notes",
+      "minutes": "40 50"
     },
     {
       "index": "12",
-      "content": "Simulated flight test (2):\nCreate a flight test sheet\nFlight simulation",
-      "operation": "Simulation test",
-      "assignments": "Prepare the flight test sheet\n(2)",
+      "content": "Review Quiz (3)",
+      "operation": "Lecture Quiz Self-check",
+      "assignments": "Review: Review of the class notes",
       "minutes": "120"
     },
     {
       "index": "13",
-      "content": "Simulated flight test (3):\nAnalysis of the flight test data",
-      "operation": "Exercises\nand Q&A",
-      "assignments": "Prepare the test report",
+      "content": "Comprehensive review and practice",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Review: Review of the class notes",
       "minutes": "120"
     },
     {
       "index": "14",
-      "content": "Simulated flight test (4):\nPresentation",
-      "operation": "Presentation",
-      "assignments": "Prepare the test report (2)",
+      "content": "Review Final examination",
+      "operation": "Lecture Final examination Self-check",
+      "assignments": "Review: Review of the class notes",
       "minutes": "180"
     },
     {
       "index": "15",
-      "content": "Oral presentation and integrated learning\nReview and self-evaluation",
-      "operation": "Presentation\nReview and self-evaluation",
-      "assignments": "Prepare for oral presentation\nSelf-evaluation on\nachievement in this course",
-      "minutes": "60"
+      "content": "Review of the final examination Summary of all lectures",
+      "operation": "Lecture Discussion Self-check",
+      "assignments": "Review whole course",
+      "minutes": "40"
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　E130-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Aeronautics and Astronautics(〜2024)\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                航空システム専門実験・演習Ｂ\n                Aeronautics Major Lab/Exercises B\n\n              3\n              E130-01\n\n                2026年度\n\n                3rd year 1st semester3rd year 2nd semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  MORIAI Hideki, MORIYOSHI Takahiro, HAMAMOTO Yusuke\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Planning\n2.Performing\n3.Summarizing\n4.Presentation\n5.Aeronautics and astronautics engineering\n\n              Students will:\n(1)learn the method and theory of a selected basic subject, and perform\n   experiment and practice on selected subject.\n(2)acquire deeper understanding and ability to apply engineering subjects.\n(3)learn how to write the experimental method in an experiment report.\n(4)learn how to create presentations on experiments and their results.\n\n              授業の概要および学習上の助言\n\n              Students will carry out the following experiments in Exercise B. Details on the experiments can be confirmed in the textbook.\n① Wind tunnel test\n② Jet engine performance test\n③ Simulated flight test\nStudents attending the lecture will be divided into three groups (A, B, and C). Group A will carry out experiment ① for five weeks and then theme ② for the next five weeks and finally theme ③ for another five weeks. Group B will follow the order of ②→③→① and group C the order of ③→①→②. In addition, class details are distributed at the time of the start of each experiment theme.\n\n              教科書および参考書・リザーブドブック\n\n              Textbooks: Aeronautics Major Experiments and Exercises AB\nReference books: None\nReserved books: None\n\n              履修に必要な予備知識や技能\n\n              Student should read the textbook before an experiment and understand what kind of experiment they will be carrying out. In addition, students should make a lesson report before a class as preparation, if necessary for that class.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                F,M\n                Be able to plan an experiment and carry it out independently based on knowledge learned.\n\n                ②\n                F,M\n                Be able to carry out tests safely based on an understanding of the principle of an experiment and the measuremen\n\n                ③\n                F,M,L\n                Be able to arrange test data using computers and explain the key and problem appropriately.\n\n                ④\n                F,M,D\n                Be able to reliably interpret the results of an experiment and evaluate the validity of the test data.\n\n                ⑤\n                F,M\n                Be able to explain the obtained test data reasonably by comparing it with an analytical solution.\n\n                ⑥\n                F\n                Be able to summarize the experimental results in a report, submit it before a deadline, and explain them.\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                0\n\n                0\n\n                50\n\n                40\n\n                0\n\n                10\n\n                0\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                0\n\n                0\n\n                50\n\n                40\n\n                0\n\n                10\n\n                0\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                0\n\n                0\n\n                50\n\n                40\n\n        ",
-  "courseId": "2026:spring:E130-01:0:210",
+  "rawText": "金沢工業大学 学習支援計画書 E122-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Aeronautics\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n宇宙推進工学\nSpace Propulsion  2 E122-01  2024年度\n 3rd year 1st semester  修学規程第4条を参照\n    担当教員名\n MORIAI Hideki\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Space propulsion 2.Rocket 3.Flight performance 4.Liquid rocket engine 5.Electric propulsion  Learn how thermal energy systems, mainly liquid rocket engines, are formed and utilized in the aerospace industry, in relation to energy and environmental issues. In addition, students will learn the basics of rocket and rocket engines and deepen understanding of dreamy space technology.\n    授業の概要および学習上の助言   Space projects such as the launch of artificial satellites, space travel business by the private sector, and exploration of the moon, Mars, and the solar system by each country government are increasing year by year, and the Age of Discovery of space is expected to arrive in the near future. In space transportation it is necessary to carry the spacecraft including heavy fuel and oxidizer to distant space against gravity. Therefore, in order to expand space development fast, it is essential to develop the ultimate effective use of thermal energy, to significantly reduce transportation costs. Against this background, in this course, a liquid rocket engine is mainly described as an example to learn how thermal energy systems are useful in aviation and space, and what principles, structures, and design ideas are used to form them. This course is roughly divided into the following contents. 1. General remarks on space engineering 2. Rocket fundamentals 3. Liquid rocket engine design and performance 4. Overview of solid / hybrid rocket, electric propulsion, and ramjet 5. Summary, future technology trends of aerospace engines By systematically studying the above, students will deepen understanding of dreamy space technology.\n    教科書および参考書・リザーブドブック   Textbooks:Yoshiro Nakamura and Koichi Suzuki, “Rocket Engine”, Morikita shuppan Reference books:Koichi Suzuki, “Introduction to Space Engineering”, Morikita shuppan George P. Sutton, “Rocket propulsion elements 9th edition”, Wiley\n    履修に必要な予備知識や技能   \"thermodynamics I\" in the undergraduate course program. Computational ability based on high school level knowledge of calculus and physics is essential.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① D,J,K Understand the rocket fundamentals, staging, and how to obtain the final speed.   ② D,J,K Understand the utilization of liquid / electric propulsion.   ③ D,J,K Understand the effects of nozzle and atmosphere on the performance of rocket engines.   ④ D,J,K Understand the outline of the basic design of a liquid rocket engine.   ⑤     ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 20 30 50 0 0 0 0 100     指標と評価割合 総合評価割合 20 30 50 0 0 0 0 100   総合力指標 知識を取り込む力 20 30 50 0 0 0 0 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ There is an examination at the end of the semester to evaluate the degree of achievement.   ② レ   ③ レ   ④ レ   ⑤     ⑥     クイズ\n小テスト ① レ There are some quizzes to evaluate the degree of achievement.   ② レ   ③ レ   ④ レ   ⑤     ⑥     レポート ① レ Students will be required to submit reports after each lecture and the degree of understanding will be evaluated appropriately based on the achievements of the submitted reports.   ② レ   ③ レ   ④ レ   ⑤     ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ①      ②     ③     ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     (1) Be able to properly explain the basic principle of the rocket, the final arrival speed, and the outline of the flight plan. (2) Be able to properly explain the d",
+  "courseId": "2024:spring:E110-01:0:210",
   "language": "en"
 }

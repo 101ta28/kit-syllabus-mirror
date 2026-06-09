@@ -1,47 +1,48 @@
 {
   "sourceIndex": 265,
   "sourceUrl": "/opsyllabus/kitos0110/265/1",
-  "importedAt": "2026-06-08T09:33:58.487Z",
-  "title": "電気回路Ⅳ（電子工学）",
-  "subtitle": "Electric Circuits IV for Electronic Engineering",
-  "courseType": "Major ProgramMajor Courses",
+  "importedAt": "2026-06-09T01:29:21.602Z",
+  "title": "ロボット要素設計",
+  "subtitle": "Robot Mechanism Design",
+  "courseType": "Major Program\nMajor Courses",
   "credits": "2",
-  "term": "2026年度\n\n                3rd year 1st semester",
+  "term": "2024年度\n 2nd year 1st semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "YAMANAKA Koji"
+    "FUJIKI Nobuaki"
   ],
   "keywords": [
-    "Distributed-Constant Circuits",
-    "Reflection Coefficient",
-    "Smith Chart",
-    "Scattering Matrix",
-    "Impedance Matching"
+    "Degrees of freedom of mechanisms 2.Kinematics of link mechanisms 3.Gear mechanisms 4.Robot mechanisms"
   ],
-  "educationalGoal": "In the previous study of electric circuits, the physical dimensions of a circuit has been assumed to be small enough. At the higher frequencies, however, the size of the circuit must be taken into account, and voltages and currents behave as waves. In this course, students will learn the theory of distributed-constant circuits, propagation of electric waves along transmission lines. They will also study about the tools and techniques for high-frequency circuit analysis and design.",
-  "advice": "1. Voltages and currents on distributed-constant circuits\n2. Reflection Coefficient, standing waves, and input impedance looking into a transmission line.\n3. Smith chart\n4. Impedance matching for a distributed-constant circuit\n5. Scattering matrix\n\nStudents are expected to understand the difference between lumped-constant circuits and distributed-constant circuits, relation between frequency and wavelength, and will learn about the equations for voltages and currents on distributed-constant circuits and their solutions.\nStudents are also expected to learn how to use Smith chart and scattering matrix.",
-  "books": "Textbooks: Fundamentals of Transmission Lines (in Japanese) [Corona publishing]\nReference books: None\nReserved books: None",
-  "requiredKnowledge": "Understanding of Electric Circuits I, II and III, especially theory of alternating voltage and current.\nEnough skills of circuit analysis using complex numbers.",
+  "educationalGoal": "(1) Learn the kinematics of link and gear mechanisms. (2) Learn the degrees of freedom of mechanisms. (3) Learn robot statics and dynamics.",
+  "advice": "This is a basic course in robot kinematics. We will cover the following topics: 1. Analysis of displacement, velocity, and acceleration in mechanisms 2. Statics and dynamics of mechanisms 3. Motion analysis and method for designing planar four-bar linkage mechanisms 4. Gear mechanisms",
+  "books": "",
+  "requiredKnowledge": "Basic knowledge of linear algebra and mechanics Mathematical Operations for Engineering",
   "activityGoals": [
     {
       "index": "①",
-      "type": "J",
-      "body": "Be able to explain the difference between lumped-constant circuits and distributed-constant circuits."
+      "type": "J,N",
+      "body": "Explain the basis of mechanisms."
     },
     {
       "index": "②",
-      "type": "J",
-      "body": "Be able to analyze basic lumped-constant circuits."
+      "type": "J,N",
+      "body": "Explain the degrees of freedom of mechanisms."
     },
     {
       "index": "③",
-      "type": "J",
-      "body": "Be able to use Smith chart."
+      "type": "J,N",
+      "body": "Explain the types and functions of parallel link mechanisms."
     },
     {
       "index": "④",
-      "type": "J",
-      "body": "Be able to design matching circuit."
+      "type": "J,N",
+      "body": "Analyze the motion of parallel link mechanisms using mathematical formula and drawings."
+    },
+    {
+      "index": "⑤",
+      "type": "J,N",
+      "body": "Analyze the motion of gear mechanisms."
     }
   ],
   "evaluationWeights": [
@@ -49,8 +50,8 @@
       "label": "総合評価割合",
       "values": [
         "40",
-        "30",
-        "30",
+        "40",
+        "20",
         "0",
         "0",
         "0",
@@ -59,9 +60,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -72,8 +73,8 @@
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
         "40",
-        "30",
-        "30",
+        "40",
+        "20",
         "0",
         "0",
         "0",
@@ -82,9 +83,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -95,8 +96,8 @@
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
         "40",
-        "30",
-        "30",
+        "40",
+        "20",
         "0",
         "0",
         "0",
@@ -105,9 +106,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -128,9 +129,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -138,7 +139,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -151,9 +152,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -174,9 +175,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -185,118 +186,118 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "Understand the characteristics of distributed-constant circuits, propagation and reflection of waves, and can solve related problems.\nUnderstand the Smith chart and be able to apply it.\nBe able to design a matching circuit for a load of arbitrary impedance.\nUnderstand the scattering matrix and be able to apply it.",
-    "standard": "Reach about 70% of ideal achievement."
+    "ideal": "(1)Analyze the motion of linkage mechanisms with mathematical formula and drawings (2)Analyze the motion of gear mechanisms",
+    "standard": "(1)Explain the basis of various mechanisms (2)Calculate the degree of freedom of mechanisms (3)Predict motions of link and gear mechanisms"
   },
   "clipProcess": "",
   "lessons": [
     {
       "index": "1",
-      "content": "Review of electric circuit theory and related\nmathematical items\n\nVoltages and currents on distributed-constant\ncircuits",
-      "operation": "Review and lecture",
-      "assignments": "Review electric circuit theory",
-      "minutes": "200"
+      "content": "Course introduction Textbook Chapter 1 - Types of kinematic pairs - Degree of freedom of a mechanism",
+      "operation": "Lecture (including Q&A) and practice",
+      "assignments": "Understand the course objectives Study pages 1 to 8 of the textbook",
+      "minutes": "90 90"
     },
     {
       "index": "2",
-      "content": "Voltages and currents on distributed-constant\ncircuits",
-      "operation": "Lecture and practice",
-      "assignments": "Prepare chapter 1 of the\ntextbook\nReview electric waves on\ntransmission lines",
-      "minutes": "200"
+      "content": "Textbook Chapter 1 - Exercise problem",
+      "operation": "Lecture (including Q&A) and practice",
+      "assignments": "Study pages 8 to 14 of the textbook",
+      "minutes": "90"
     },
     {
       "index": "3",
-      "content": "Voltages and currents on distributed-constant\ncircuits",
-      "operation": "Lecture and practice",
-      "assignments": "Review relation between\nreflection and load impedance",
-      "minutes": "200"
+      "content": "Textbook Chapter 2 - Four-bar linkage mechanism - Grashof's theorem",
+      "operation": "Lecture (including Q&A) and practice",
+      "assignments": "Study pages 15 to 20 of the textbook",
+      "minutes": "90"
     },
     {
       "index": "4",
-      "content": "Voltages and currents on distributed-constant\ncircuits\nCharacteristics of transmission lines",
-      "operation": "Lecture and practice",
-      "assignments": "Prepare chapter 2 of the\ntextbook\nReview line parameters",
-      "minutes": "200"
+      "content": "Textbook Chapter 2 - Parallel link mechanism - Slider-crank mechanism - Exercise problem",
+      "operation": "Lecture (including Q&A) and practice",
+      "assignments": "Study pages 20 to 31 of the textbook",
+      "minutes": "90"
     },
     {
       "index": "5",
-      "content": "Characteristics of transmission lines",
-      "operation": "Lecture and practice",
-      "assignments": "Review reflection coefficient\nand standing wave",
-      "minutes": "200"
+      "content": "Textbook Chapter 3 - Analysis of mechanisms",
+      "operation": "Lecture (including Q&A) and practice",
+      "assignments": "Study pages 32 to 40 of the textbook",
+      "minutes": "90"
     },
     {
       "index": "6",
-      "content": "Characteristics of transmission lines",
-      "operation": "Lecture and practice",
-      "assignments": "Review standing wave on a\nlossy transmission line and\nits input impedance",
-      "minutes": "200"
+      "content": "Textbook Chapter 3 - Instantaneous center",
+      "operation": "Lecture (including Q&A) and practice",
+      "assignments": "Study pages 40 to 52 of the textbook",
+      "minutes": "90"
     },
     {
       "index": "7",
-      "content": "Characteristics of transmission lines",
-      "operation": "Lecture and practice",
-      "assignments": "Review relation between load\nimpedance and the position on\nthe Smith chart",
-      "minutes": "200"
+      "content": "Textbook Chapter 3 - Force analysis - Exercise problem",
+      "operation": "Lecture (including Q&A) and practice",
+      "assignments": "Study pages 52 to 63 of the textbook",
+      "minutes": "90"
     },
     {
       "index": "8",
-      "content": "Characteristics of transmission lines\nTransmission of signal and power",
-      "operation": "Lecture and practice",
-      "assignments": "Review decibel\nPrepare chapter 3 of the\ntextbook",
-      "minutes": "200"
+      "content": "Exercises Mid-semester test",
+      "operation": "Practice Test",
+      "assignments": "Prepare for the mid-semester test",
+      "minutes": "180"
     },
     {
       "index": "9",
-      "content": "Review\nPractical transmission lines",
-      "operation": "Lecture and practice",
-      "assignments": "Review transmission\nproperties of practical lines",
-      "minutes": "200"
+      "content": "Review of mid-semester test Self-check",
+      "operation": "Lecture (including Q&A) and practice Self-check",
+      "assignments": "Review the mid-semester test",
+      "minutes": "90"
     },
     {
       "index": "10",
-      "content": "Impedance matching of transmission lines",
-      "operation": "Lecture and practice",
-      "assignments": "Prepare chapter 6 of the\ntextbook",
-      "minutes": "200"
+      "content": "Textbook Chapter 4 - Types of gears - Involute gear",
+      "operation": "Lecture (including Q&A) and practice",
+      "assignments": "Study pages 64 to 72 of the textbook",
+      "minutes": "90"
     },
     {
       "index": "11",
-      "content": "Impedance matching of transmission lines",
-      "operation": "Lecture and practice",
-      "assignments": "Review impedance matching and\nconsider it on the Smith chart",
-      "minutes": "200"
+      "content": "Textbook Chapter 4 - Planetary reduction gear",
+      "operation": "Lecture (including Q&A) and practice",
+      "assignments": "Study pages 72 to 80 of the textbook",
+      "minutes": "90"
     },
     {
       "index": "12",
-      "content": "Impedance matching of transmission lines\nScattering matrix",
-      "operation": "Lecture and practice",
-      "assignments": "Review Scattering matrix",
-      "minutes": "200"
+      "content": "Textbook Chapter 4 - Planetary reduction gear - Exercise problem",
+      "operation": "Lecture (including Q&A) and practice",
+      "assignments": "Study pages 80 to 88 of the textbook",
+      "minutes": "90"
     },
     {
       "index": "13",
-      "content": "Integrated learning",
-      "operation": "Practice\nSelf-reflection",
-      "assignments": "Prepare for the test",
-      "minutes": "200"
+      "content": "Textbook Chapter 5 - Robot manipulator - Degeneracy of degrees of freedom",
+      "operation": "Lecture (including Q&A) and practice",
+      "assignments": "Study pages 89 to 98 of the textbook",
+      "minutes": "90"
     },
     {
       "index": "14",
-      "content": "Final exam and review",
-      "operation": "Exam and review",
-      "assignments": "Prepare for the exam",
-      "minutes": "200"
+      "content": "Practice Semester final examination",
+      "operation": "Practice Examination",
+      "assignments": "Prepare for the semester final examination",
+      "minutes": "180"
     },
     {
       "index": "15",
-      "content": "Review",
-      "operation": "Total review and\nself-check",
-      "assignments": "Self-reflection and evaluation",
-      "minutes": "200"
+      "content": "Review of semester final examination Self-check",
+      "operation": "Lecture (including Q&A) and practice",
+      "assignments": "Review the semester final examination",
+      "minutes": "90"
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　E626-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Electrical and Electronic Engineering(〜2024)\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                電気回路Ⅳ（電子工学）\n                Electric Circuits IV for Electronic Engineering\n\n              2\n              E626-01\n\n                2026年度\n\n                3rd year 1st semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  YAMANAKA Koji\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Distributed-Constant Circuits\n2.Reflection Coefficient\n3.Smith Chart\n4.Scattering Matrix\n5.Impedance Matching\n\n              In the previous study of electric circuits, the physical dimensions of a circuit has been assumed to be small enough. At the higher frequencies, however, the size of the circuit must be taken into account, and voltages and currents behave as waves. In this course, students will learn the theory of distributed-constant circuits, propagation of electric waves along transmission lines. They will also study about the tools and techniques for high-frequency circuit analysis and design.\n\n              授業の概要および学習上の助言\n\n              1. Voltages and currents on distributed-constant circuits\n2. Reflection Coefficient, standing waves, and input impedance looking into a transmission line.\n3. Smith chart\n4. Impedance matching for a distributed-constant circuit\n5. Scattering matrix\n\nStudents are expected to understand the difference between lumped-constant circuits and distributed-constant circuits, relation between frequency and wavelength, and will learn about the equations for voltages and currents on distributed-constant circuits and their solutions.\nStudents are also expected to learn how to use Smith chart and scattering matrix.\n\n              教科書および参考書・リザーブドブック\n\n              Textbooks: Fundamentals of Transmission Lines (in Japanese) [Corona publishing]\nReference books: None\nReserved books: None\n\n              履修に必要な予備知識や技能\n\n              Understanding of Electric Circuits I, II and III, especially theory of alternating voltage and current.\nEnough skills of circuit analysis using complex numbers.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                J\n                Be able to explain the difference between lumped-constant circuits and distributed-constant circuits.\n\n                ②\n                J\n                Be able to analyze basic lumped-constant circuits.\n\n                ③\n                J\n                Be able to use Smith chart.\n\n                ④\n                J\n                Be able to design matching circuit.\n\n                ⑤\n\n                ⑥\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                40\n\n                30\n\n                30\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                40\n\n                30\n\n                30\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                40\n\n                30\n\n                30\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  コラボレーションとリーダーシップ\n\n                    0\n\n                    0\n\n     ",
-  "courseId": "2026:spring:E626-01:0:265",
+  "rawText": "金沢工業大学 学習支援計画書 E221-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Robotics\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\nロボット要素設計\nRobot Mechanism Design  2 E221-01  2024年度\n 2nd year 1st semester  修学規程第4条を参照\n    担当教員名\n FUJIKI Nobuaki\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Degrees of freedom of mechanisms 2.Kinematics of link mechanisms 3.Gear mechanisms 4.Robot mechanisms  (1) Learn the kinematics of link and gear mechanisms. (2) Learn the degrees of freedom of mechanisms. (3) Learn robot statics and dynamics.\n    授業の概要および学習上の助言   This is a basic course in robot kinematics. We will cover the following topics: 1. Analysis of displacement, velocity, and acceleration in mechanisms 2. Statics and dynamics of mechanisms 3. Motion analysis and method for designing planar four-bar linkage mechanisms 4. Gear mechanisms\n    教科書および参考書・リザーブドブック\n    履修に必要な予備知識や技能   Basic knowledge of linear algebra and mechanics Mathematical Operations for Engineering\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① J,N Explain the basis of mechanisms.   ② J,N Explain the degrees of freedom of mechanisms.   ③ J,N Explain the types and functions of parallel link mechanisms.   ④ J,N Analyze the motion of parallel link mechanisms using mathematical formula and drawings.   ⑤ J,N Analyze the motion of gear mechanisms.   ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 40 40 20 0 0 0 0 100     指標と評価割合 総合評価割合 40 40 20 0 0 0 0 100   総合力指標 知識を取り込む力 40 40 20 0 0 0 0 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ A semester final examination is given, as specified in the course schedule, to evaluate your degree of achievement comprehensively. The schedule may change depending on the class progress.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     クイズ\n小テスト ① レ A mid-semester test is given, as specified in the course schedule, to evaluate your degree of achievement until that point. The schedule may change depending on the class progress. Unscheduled tests are also given.    ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     レポート ① レ Students will prepare reports for evaluation.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ①      ②     ③     ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     (1)Analyze the motion of linkage mechanisms with mathematical formula and drawings (2)Analyze the motion of gear mechanisms  (1)Explain the basis of various mechanisms (2)Calculate the degree of freedom of mechanisms (3)Predict motions of link and gear mechanisms\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習課題に要する標準的な時間を記載してあります。日々の自学自習時間全体としては、各授業に応じた時間(例えば2単位科目の場合、予習2時間・復習2時間/週)を取るよう努めてください。詳しくは教員の指導に従って下さい。     授業明細   回数 学習内容 授業の運営方法 学習課題(予習・復習) 時間:分※     1  Course introduction Textbook Chapter 1 - Types of kinematic pairs - Degree of freedom of a mechanism Lecture (including Q&A) and practice Understand the course objectives Study pages 1 to 8 of the textbook  90 90   2  Textbook Chapter 1 - Exercise problem Lecture (including Q&A) and practice Study pages 8 to 14 of the textbook  90   3  Textbook Chapter 2 - Four-bar linkage mechanism - Grashof's theorem Lecture (including Q&A) and practice Study pages 15 to 20 of the textbook  90   4  Textbook Chapter 2 - Parallel link mechanism - Slider-crank mechanism - Exercise problem Lecture (including Q&A) and practice Study pages 20 to 31 of the textbook  90   5  Textbook Chapter 3 - Analysis of mechanisms Lecture (including Q&A) and practice Study pages 32 to 40 of the textbook  90   6  Textbook Chapte",
+  "courseId": "2024:spring:E212-01:0:265",
   "language": "en"
 }

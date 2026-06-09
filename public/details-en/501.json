@@ -1,66 +1,58 @@
 {
   "sourceIndex": 501,
   "sourceUrl": "/opsyllabus/kitos0110/501/1",
-  "importedAt": "2026-06-08T09:34:03.309Z",
-  "title": "ＩＴシステム入門",
-  "subtitle": "Introduction to IT Systems",
-  "courseType": "Major ProgramMajor Courses",
+  "importedAt": "2026-06-09T01:29:23.749Z",
+  "title": "感性形成演習",
+  "subtitle": "Technical Seeing and Hearing",
+  "courseType": "Major Program\nMajor Courses",
   "credits": "2",
-  "term": "2026年度\n\n                1st year 2nd semester",
+  "term": "2024年度\n 1st year 1st semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "SATOU Fujio"
+    "EMURA Norio",
+    "NEGISHI Ippei"
   ],
   "keywords": [
-    "Table calculation",
-    "Network",
-    "Internet",
-    "System analysis",
-    "Regional cooperation"
+    "Sensitivity 2.Color and Sound 3.Perception 4.Identification 5.Refilnal cooperation"
   ],
-  "educationalGoal": "Information technology (IT) affects life and business, but in order to use it efficiently, it is necessary to have an appropriate understanding of its functions.\n\nIn this course, students learn system development and system management based on the fundamental concepts of information systems and communication networks.",
-  "advice": "The following topics, which form a portion of the basic knowledge shared by all IT engineers, will be covered during this course:\n\n1. Table calculation\n Absolute and relative reference, arithmetic functions, and the “if” function.\n\n2. Network and internet\n IP addresses, OSI reference models, and network and Internet mechanisms.\n\n3. System development\n System development, system assessment, and system management\n\n4. Corporate activities",
-  "books": "Textbook: 「キタミ式イラストIT塾 ITパスポート 令和05年」 (技術評論社)",
-  "requiredKnowledge": "Familiarity with PC operations and table calculations will help facilitate learning.\nStudents are required to bring own computers.",
+  "educationalGoal": "In this course, students will: (1) Learn human visual and auditory processing within the context of physiology and psychology. (2) Train to be able to discriminate and identify the value, chroma, and hue of visual stimuli. (3) Train to be able to discriminate between slight differences in the frequency and intensity of auditory stimuli. Additionally, train to be able to identify the frequency and intensity of auditory stimuli quantitatively. (4) Discuss application of the skills obtained for regional cooperation.",
+  "advice": "This is a basic skills course for “technical seeing and hearing”. We will cover the following materials: 1. Human perception processing for visual and auditory stimuli. 2. Training for discrimination or identification of the value, chroma, and hue of visual stimuli. 3. Training for discriminating between slight difference in frequency and intensity of auditory stimuli. 4. Training for identifying the frequency and intensity of auditory stimuli. The contents of this class are related to “Project for Technical Seeing and Hearing”.",
+  "books": "Textbooks:None Reference books:None Reserved books:None",
+  "requiredKnowledge": "None",
   "activityGoals": [
     {
       "index": "①",
-      "type": "A,F,I,J",
-      "body": "Be able to understand absolute and relative reference in table calculation."
+      "type": "L",
+      "body": "Be able to understand human perception processing for visual and auditory stimuli."
     },
     {
       "index": "②",
-      "type": "A,F,I,J",
-      "body": "Be able to use the “if” function in table calculation."
+      "type": "L,M",
+      "body": "Be able to discriminate the value, chroma, and hue of visual stimuli."
     },
     {
       "index": "③",
-      "type": "A,F,I,J,L",
-      "body": "Be able to understand the mechanisms of an IP address."
+      "type": "L,M",
+      "body": "Be able to identify the value, chroma, and hue of visual stimuli using Munsell notation."
     },
     {
       "index": "④",
-      "type": "A,F,I,J,L",
-      "body": "Be able to understand the mechanisms of a network."
+      "type": "L,M",
+      "body": "Be able to discriminate between slight differences in frequency and intensity of auditory stimuli."
     },
     {
       "index": "⑤",
-      "type": "A,F,I,J,L",
-      "body": "Be able to grasp system development and system assessment."
-    },
-    {
-      "index": "⑥",
-      "type": "A,I,J",
-      "body": "Be able to understand corporate activities and their social responsibilities."
+      "type": "L,M",
+      "body": "Be able to identify the frequency and intensity of auditory stimuli."
     }
   ],
   "evaluationWeights": [
     {
       "label": "総合評価割合",
       "values": [
-        "25",
         "40",
-        "25",
+        "40",
+        "10",
         "0",
         "0",
         "0",
@@ -69,9 +61,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -81,9 +73,9 @@
     {
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
-        "25",
         "40",
-        "25",
+        "40",
+        "10",
         "0",
         "0",
         "0",
@@ -92,9 +84,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -104,9 +96,9 @@
     {
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
-        "25",
         "40",
-        "25",
+        "40",
+        "10",
         "0",
         "0",
         "0",
@@ -115,9 +107,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -138,9 +130,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -148,7 +140,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -161,9 +153,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -184,9 +176,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -195,118 +187,118 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "(1) Be able to use table calculations skillfully.\n\n(2) Be able to acquire fundamental knowledge of computer systems, IP addresses, and networks.\n\n(3) Be able to understand the concept of system development and system evaluation.\n\n(4) Be able to assume a role in driving end-user computing as a user representative.",
-    "standard": "(1) Be able to use table calculation.\n\n(2) Be able to acquired fundamental knowledge of computer systems, IP addresses, and networks.\n\n(3) Be able to understand the concept of system development and system evaluation."
+    "ideal": "(1) Be able to explain human visual and auditory perception mechanisms. (2) Be able to explain physical and psychological quantities of visual and auditory stimuli. (3) Be able to represent a color that you imagined using Munsell notation quantitatively. (4) Be able to represent a sound that you imagined by emphasizing the music frequency band.",
+    "standard": "(1)Be able to understand human visual and auditory perception mechanisms. (2)Be able to understand the physical and psychological quantities of visual and auditory stimuli. (3) Be able to discriminate the value, chroma, and hue of color. (4)Be able to identify the value, chroma, and hue of color. (5) Be able to discriminate between slight differences in frequency and intensity of sound. (6) Be able to identify the frequency and intensity of sound. (7) Be able to identify the center frequency of sound that has an emphasized specific frequency band."
   },
   "clipProcess": "",
   "lessons": [
     {
       "index": "1",
-      "content": "Class orientation\nComputer system (1)\n・Basic structure of computer",
-      "operation": "Lecture\nPractice\nSelf-check",
-      "assignments": "Preview: Chapter 1 in the\ntextbook\nReview",
-      "minutes": "60\n30"
+      "content": "Course introduction Prepare for using the training system for technical seeing and hearing",
+      "operation": "Lecture and practice",
+      "assignments": "Lecture review",
+      "minutes": "120"
     },
     {
       "index": "2",
-      "content": "Computer system (2)\n・Storage and interface",
-      "operation": "Lecture\nPractice\nSelf-check",
-      "assignments": "Preview: Chapter 2 and 4 in\nthe textbook\nReview",
-      "minutes": "60\n30"
+      "content": "Light and color 1 Physics of sound 1 Training for discrimination of visual and auditory stimuli.",
+      "operation": "Lecture and training Self-check",
+      "assignments": "Lecture review",
+      "minutes": "90"
     },
     {
       "index": "3",
-      "content": "File formats and OS",
-      "operation": "Lecture\nPractice\nSelf-check",
-      "assignments": "Preview: Chapter 3 and 5 in\nthe textbook\nReview",
-      "minutes": "60\n30"
+      "content": "Light and color 2 Physics of sound 2 Training for discrimination of visual and auditory stimuli.",
+      "operation": "Lecture and training Self-check",
+      "assignments": "Lecture review",
+      "minutes": "90"
     },
     {
       "index": "4",
-      "content": "Table calculation (1)\n・Absolute and relative references",
-      "operation": "Lecture\nPractice\nSelf-check",
-      "assignments": "Preview: Chapter 6-1 to 6-3\nin the textbook\nReview",
-      "minutes": "60\n30"
+      "content": "Munsell color system Characteristics of sound wave Training for discrimination/identification of visual and auditory stimuli.",
+      "operation": "Lecture and training Self-check",
+      "assignments": "Lecture review",
+      "minutes": "90"
     },
     {
       "index": "5",
-      "content": "Table calculation (2)\n・“if” function\n・Database",
-      "operation": "Lecture\nPractice\nSelf-check",
-      "assignments": "Preview: Chapter 6-4 and 7 in\nthe textbook\nReview",
-      "minutes": "60\n30"
+      "content": "Three attributes of color Three attributes of sound Training for discrimination/identification of visual and auditory stimuli.",
+      "operation": "Lecture and training Self-check",
+      "assignments": "Lecture review",
+      "minutes": "90"
     },
     {
       "index": "6",
-      "content": "Network (1)\n・LAN and WAN\n・OSI reference model",
-      "operation": "Lecture\nPractice\nSelf-check",
-      "assignments": "Preview:\n・Chapter 8-1 to 8-3 in the\ntextbook\n・Preparation for the mini\nexam\nReview",
-      "minutes": "60\n30"
+      "content": "Specular reflection and diffuse reflection Sound intensity and sound pressure level 1 Training for discrimination/identification of visual and auditory stimuli.",
+      "operation": "Lecture and training Self-check",
+      "assignments": "Lecture review",
+      "minutes": "90"
     },
     {
       "index": "7",
-      "content": "Network (2)\n・IP address",
-      "operation": "Lecture\nPractice\nSelf-check",
-      "assignments": "Preview: Chapter 8-4 in the\ntextbook\nReview",
-      "minutes": "60\n30"
+      "content": "Color appearance system and color mixing system Sound intensity and sound pressure level 2 Training for discrimination/identification of visual and auditory stimuli.",
+      "operation": "Lecture and training Self-check",
+      "assignments": "Lecture review Prepare for the exam including assignment sheet",
+      "minutes": "240"
     },
     {
       "index": "8",
-      "content": "Network (3)\n・Protocol\n・e-mail\n\nExam",
-      "operation": "Lecture\nPractice\nExam\nSelf-check",
-      "assignments": "Preview: Chapter 8-5 to 8-7\nin the textbook\nReview",
-      "minutes": "60\n30"
+      "content": "RGB color space and XYZ color space Pure tone and complex tone Training for discrimination/identification of visual and auditory stimuli.",
+      "operation": "Lecture and training Self-check",
+      "assignments": "Lecture review",
+      "minutes": "90"
     },
     {
       "index": "9",
-      "content": "Security\n・Network security",
-      "operation": "Lecture\nPractice\nSelf-check",
-      "assignments": "Preview: Chapter 9 in the\ntextbook\nReview",
-      "minutes": "60\n30"
+      "content": "Exam and self-reflection Review about contents learned in Classes Nos. 1 to 8.",
+      "operation": "Exam and self-reflection Lecture and training Self-check",
+      "assignments": "Lecture review",
+      "minutes": "90"
     },
     {
       "index": "10",
-      "content": "System development\n・Development process\n・Development method and test",
-      "operation": "Lecture\nPractice\nSelf-check",
-      "assignments": "Preview: Chapter 10 in the\ntextbook\nReview",
-      "minutes": "60\n30"
+      "content": "Retina and photoreceptors White noise and pink noise Training for discrimination/identification of visual and auditory stimuli.",
+      "operation": "Lecture and training Self-check",
+      "assignments": "Lecture review",
+      "minutes": "90"
     },
     {
       "index": "11",
-      "content": "System Management\n・Troubleshooting\n・Performance measures",
-      "operation": "Lecture\nPractice\nSelf-check",
-      "assignments": "Preview: Chapter 14 and 15 in\nthe textbook\nReview",
+      "content": "Opponent color theory and color vision deficiency Band noise Training for discrimination/identification of visual and auditory stimuli.",
+      "operation": "Lecture and training Self-check",
+      "assignments": "Lecture review",
       "minutes": "90"
     },
     {
       "index": "12",
-      "content": "Project Management",
-      "operation": "Lecture\nPractice\nSelf-check",
-      "assignments": "Preview: Chapter 11 in the\ntextbook\nReview",
-      "minutes": "60\n30"
+      "content": "Assimilation-contrast effect Mechanism for auditory perception 1 Training for discrimination/identification of visual and auditory stimuli.",
+      "operation": "Lecture and training Self-check",
+      "assignments": "Lecture review",
+      "minutes": "90"
     },
     {
       "index": "13",
-      "content": "IT management",
-      "operation": "Lecture\nPractice\nSelf-check",
-      "assignments": "Preview: Chapter 15-16 in the\ntextbook\nReview",
-      "minutes": "60\n30"
+      "content": "Color constancy Mechanism for auditory perception 2 Training for discrimination/identification of visual and auditory stimuli.",
+      "operation": "Lecture and training Self-check",
+      "assignments": "Lecture review Prepare for the exam including assignment sheet",
+      "minutes": "240"
     },
     {
       "index": "14",
-      "content": "Compliance with laws and regulations etc",
-      "operation": "Lecture\nReport\nPractice\nSelf-check",
-      "assignments": "Preview: Chapter 14 in the\ntextbook\nReview",
-      "minutes": "60\n30"
+      "content": "Exam and self-reflection Training for discrimination/identification of visual and auditory stimuli.",
+      "operation": "Exam and self-reflection",
+      "assignments": "Lecture review",
+      "minutes": "240"
     },
     {
       "index": "15",
-      "content": "Course conclusion",
-      "operation": "Self-reflection\nSelf-evaluation",
-      "assignments": "Review",
-      "minutes": "60"
+      "content": "Course conclusion of the course",
+      "operation": "Self-reflection Self-evaluation",
+      "assignments": "",
+      "minutes": ""
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　M005-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Media Information\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                ＩＴシステム入門\n                Introduction to IT Systems\n\n              2\n              M005-01\n\n                2026年度\n\n                1st year 2nd semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  SATOU Fujio\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Table calculation\n2.Network\n3.Internet\n4.System analysis\n5.Regional cooperation\n\n              Information technology (IT) affects life and business, but in order to use it efficiently, it is necessary to have an appropriate understanding of its functions.\n\nIn this course, students learn system development and system management based on the fundamental concepts of information systems and communication networks.\n\n              授業の概要および学習上の助言\n\n              The following topics, which form a portion of the basic knowledge shared by all IT engineers, will be covered during this course:\n\n1. Table calculation\n Absolute and relative reference, arithmetic functions, and the “if” function.\n\n2. Network and internet\n IP addresses, OSI reference models, and network and Internet mechanisms.\n\n3. System development\n System development, system assessment, and system management\n\n4. Corporate activities\n\n              教科書および参考書・リザーブドブック\n\n              Textbook: 「キタミ式イラストIT塾 ITパスポート 令和05年」 (技術評論社)\n\n              履修に必要な予備知識や技能\n\n              Familiarity with PC operations and table calculations will help facilitate learning.\nStudents are required to bring own computers.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                A,F,I,J\n                Be able to understand absolute and relative reference in table calculation.\n\n                ②\n                A,F,I,J\n                Be able to use the “if” function in table calculation.\n\n                ③\n                A,F,I,J,L\n                Be able to understand the mechanisms of an IP address.\n\n                ④\n                A,F,I,J,L\n                Be able to understand the mechanisms of a network.\n\n                ⑤\n                A,F,I,J,L\n                Be able to grasp system development and system assessment.\n\n                ⑥\n                A,I,J\n                Be able to understand corporate activities and their social responsibilities.\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                25\n\n                40\n\n                25\n\n                0\n\n                0\n\n                0\n\n                10\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                25\n\n                40\n\n                25\n\n                0\n\n                0\n\n                0\n\n                10\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                25\n\n                40\n\n                25\n\n                0\n\n                0\n\n                0\n\n                10\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  コラボレーションとリーダーシップ\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  発表・表現・伝達する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n",
-  "courseId": "2026:fall:M005-01:0:501",
+  "rawText": "金沢工業大学 学習支援計画書 F003-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Media Informatics\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n感性形成演習\nTechnical Seeing and Hearing  2 F003-01  2024年度\n 1st year 1st semester  修学規程第4条を参照\n    担当教員名\n EMURA Norio, NEGISHI Ippei\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Sensitivity 2.Color and Sound 3.Perception 4.Identification 5.Refilnal cooperation  In this course, students will: (1) Learn human visual and auditory processing within the context of physiology and psychology. (2) Train to be able to discriminate and identify the value, chroma, and hue of visual stimuli. (3) Train to be able to discriminate between slight differences in the frequency and intensity of auditory stimuli. Additionally, train to be able to identify the frequency and intensity of auditory stimuli quantitatively. (4) Discuss application of the skills obtained for regional cooperation.\n    授業の概要および学習上の助言   This is a basic skills course for “technical seeing and hearing”. We will cover the following materials: 1. Human perception processing for visual and auditory stimuli. 2. Training for discrimination or identification of the value, chroma, and hue of visual stimuli. 3. Training for discriminating between slight difference in frequency and intensity of auditory stimuli. 4. Training for identifying the frequency and intensity of auditory stimuli. The contents of this class are related to “Project for Technical Seeing and Hearing”.\n    教科書および参考書・リザーブドブック   Textbooks:None Reference books:None Reserved books:None\n    履修に必要な予備知識や技能   None\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① L Be able to understand human perception processing for visual and auditory stimuli.   ② L,M Be able to discriminate the value, chroma, and hue of visual stimuli.   ③ L,M Be able to identify the value, chroma, and hue of visual stimuli using Munsell notation.    ④ L,M Be able to discriminate between slight differences in frequency and intensity of auditory stimuli.   ⑤ L,M Be able to identify the frequency and intensity of auditory stimuli.   ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 40 40 10 0 0 0 10 100     指標と評価割合 総合評価割合 40 40 10 0 0 0 10 100   総合力指標 知識を取り込む力 40 40 10 0 0 0 10 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ Midterm and final exams will be conducted in this course to each student’s degree of the achievement.   ②     ③     ④     ⑤     ⑥     クイズ\n小テスト ①   Students will be evaluated on their degree of proficiency during discrimination/identification training for visual and auditory stimuli.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     レポート ① レ Students will receive two assignment sheets as homework. The completed sheets must be submitted before each exam.   ②     ③     ④     ⑤     ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ① レ Student attendance and attitudes displayed during the classes will be evaluated.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     (1) Be able to explain human visual and auditory perception mechanisms. (2) Be able to explain physical and psychological quantities of visual and auditory stimuli. (3) Be able to represent a color that you imagined using Munsell notation quantitatively. (4) Be able to represent a sound that you imagined by emphasizing the music frequency band.  (1)Be able to understand human visual and auditory perception mechanisms. (2)Be able to understand the physical and psychological quantities of visual and auditory stimuli. (3) Be able to discriminate the value, chroma, and hue of color. (4)Be able to identify the value, chroma, and hue of color. (5) Be able to discriminate between slight differences in frequency and intensity",
+  "courseId": "2024:full-year:E928-12:0:501",
   "language": "en"
 }

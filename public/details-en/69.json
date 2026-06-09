@@ -1,57 +1,62 @@
 {
   "sourceIndex": 69,
   "sourceUrl": "/opsyllabus/kitos0110/69/1",
-  "importedAt": "2026-06-08T09:33:54.476Z",
-  "title": "線形代数Ⅱ（再履修クラス）",
-  "subtitle": "Linear Algebra II",
-  "courseType": "Mathematics and Science ProgramMathematics and Science Courses",
+  "importedAt": "2026-06-09T01:29:19.812Z",
+  "title": "技術者のための数理Ⅲ",
+  "subtitle": "Mathematics and Science for Engineer III",
+  "courseType": "Mathematics and Science Program\nMathematics and Science Courses",
   "credits": "2",
-  "term": "2026年度\n\n                1st year 2nd semester",
+  "term": "2024年度\n 2nd year 1st semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "TANAKA Tadayoshi"
+    "TOCHI Kunio",
+    "SHIMA Kazuo",
+    "TANIGUCHI Shinichi",
+    "TANAKA Tadayoshi",
+    "TANIGUCHI Tetsuya",
+    "AKIYAMA Koki",
+    "HORI Haruna",
+    "TAKAI Yuuki",
+    "TAKAMURA Matsuzo",
+    "OYABU Matashige"
   ],
   "keywords": [
-    "Determinant",
-    "Cofactor",
-    "Cramer's rule",
-    "Vector space",
-    "Eigenvalue and eigenvector"
+    "Continuity of a Function 2.Functions Using Parameters 3.Logarithmic Differentiation 4.Increase or Decrease of Functions 5.Integration by Parts and Integration by Substitution"
   ],
-  "educationalGoal": "Students will learn:\n(1) the properties of a determinant and a method to calculate determinants.\n(2) the properties of cofactors.\n(3) the concept of a vector space and a basis.\n(4) eigenvalues and eigenvectors.",
-  "advice": "This is a basic course in linear algebra, continued from “Linea Algebra I.” We will cover the following topics:\n\n1. Determinants\n1.1 Definition of determinant.\n1.2 Properties of the determinant and calculation method\n1.3 Cofactors and their applications\n2. Vector spaces and Eigenvalue\n2.1 Vector spaces\n2.2 Eigenvalues and eigenvectors\n\nClasses include exercises and quizzes; a final examination will be given at the end of the semester.\nDaily preparation and review are important. Students are required to complete the designated tasks.\nStudents should prepare reports and study research topics in a planned manner, and strictly avoid plagiarism.",
-  "books": "Textbook: Linear Algebra Ⅱ (KIT Math and Science Academic Foundations Programs)\nReference book: A First Course in Linear Algebra (Open Textbook Library)[Lyryx]",
-  "requiredKnowledge": "Students should understand the concepts introduced in “Linear Algebra I.” It is especially important that students understand and are able to perform matrix calculations and have a good knowledge of linear transformations.",
+  "educationalGoal": "Students will learn: (1) continuity of a function. (2) functions using parameters. (3) increase or decrease of functions. (4) integration by parts and integration by substitution.",
+  "advice": "This is a basic course in mathematics and science for engineer. We will cover the following topics: 1. Continuity of a function. 2. Functions using parameters. 3. Increase or decrease of functions. 4. Integration by parts and integration by substitution. Extra classes may be held depending the comprehension level of students. Students are required to review and preview each class. As a matter of particular emphasis, students are required to attempt the exercises after each class. Extra materials may be distributed if necessary. Students are required to show their procedure for solution/calculation logically and clearly in each assignment. Students are expected to utilize the Math. and Science Education Research Center or the office hours of the instructor.",
+  "books": "Textbook: Mathematics and Science for Engineer Reference books: Reader of Calculus -1 variable - Engineering Mathematics Text Series - Calculus -",
+  "requiredKnowledge": "Skills and knowledge from the Mathematics and Science for Engineer I and II. Basic calculation skills of numerical formulas (expansion, factorization, division, and calculation of fractional formula) and calculus.",
   "activityGoals": [
     {
       "index": "①",
       "type": "D",
-      "body": "Understand the properties of determinants and be able to calculate the value of a determinant."
+      "body": "Understand the concept of functions using parameters and find their derivatives."
     },
     {
       "index": "②",
       "type": "D",
-      "body": "Be able to find inverse matrices using cofactors."
+      "body": "Find the derivatives using the method of the logarithmic differentiation."
     },
     {
       "index": "③",
       "type": "D",
-      "body": "Understand the concept of vector space and be able to find a basis."
+      "body": "Examine the increase or decrease of functions using higher order derivatives and draw graphs of the functions."
     },
     {
       "index": "④",
       "type": "D",
-      "body": "Be able to find the eigenvalues and eigenvectors of matrices."
+      "body": "Use integration by parts and integration by substitution to find integrals of various functions."
     },
     {
       "index": "⑤",
       "type": "C",
-      "body": "Understand the meanings of fundamental english words for mathematics."
+      "body": "Understand the meanings of fundamental English words for mathematics."
     },
     {
       "index": "⑥",
       "type": "A",
-      "body": "Understand the contents of the course and be able to complete the required tasks by the announced deadlines."
+      "body": "Be able to demonstrate an understanding of all topics, attend every class, and do the required works."
     }
   ],
   "evaluationWeights": [
@@ -69,9 +74,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -92,9 +97,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -115,9 +120,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -138,9 +143,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -148,7 +153,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -161,9 +166,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -184,9 +189,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -195,118 +200,118 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "(1) Understand the definition and properties of determinants and be able to calculate a determinant.\n(2) Understand the properties of cofactors and find inverse matrices.\n(3) Understand the properties of vector spaces and the concept of a basis.\n(4) Find the eigenvalues and eigenvectors of matrices and apply them to diagonalization.",
-    "standard": "(1) Understand the properties of determinants and be able to calculate a determinant.\n(2) Find inverse matrices using cofactors.\n(3) Find the basis of a subspace.\n(4) Find the eigenvalues and eigenvectors of simple matrices."
+    "ideal": "(1) Fully understand the concept of functions using parameters and find their derivatives. (2) Accurately find the derivatives using the method of the logarithmic differentiation. (3) Accurately examine the increase or decrease of functions using higher order derivatives and draw graphs of the functions. (4) Accurately find integrals of various functions using integration by parts and integration by substitution. (5) Demonstrate an understanding of all topics and complete all assignments.",
+    "standard": "(1) Understand the concept of functions using parameters and find their derivatives. (2) Find the derivatives using the method of the logarithmic differentiation. (3) Examine the increase or decrease of functions using higher order derivatives and draw graphs of the functions. (4) Find integrals of various functions using integration by parts and integration by substitution. (5) Demonstrate an understanding of all topics and complete all assignments."
   },
   "clipProcess": "",
   "lessons": [
     {
       "index": "1",
-      "content": "Course introduction\nDefinition of determinant\nCalculation of determinants of\norders 2 and 3",
-      "operation": "Lecture and exercises",
-      "assignments": "Understand the objectives of\nclass\nReview materials from the\nprevious course",
-      "minutes": "120"
+      "content": "Course introduction Review of various functions",
+      "operation": "Instruction Lecture and exercise",
+      "assignments": "Understand the course objectives Review: Functions Preview: Continuity of a function",
+      "minutes": "10 60 30"
     },
     {
       "index": "2",
-      "content": "Fundamental properties of determinants",
-      "operation": "Lecture and exercises",
-      "assignments": "Review materials from the\nlast class\nPrepare for next class",
-      "minutes": "120"
+      "content": "Continuity of a function",
+      "operation": "Lecture and exercise",
+      "assignments": "Self-study: Existence theorem of a solution Review: Continuous and existence theorem of a solution Preview: Functions using parameters",
+      "minutes": "30 60 30"
     },
     {
       "index": "3",
-      "content": "Calculation method of determinants\nbased on the properties of determinants",
-      "operation": "Lecture and exercises",
-      "assignments": "Review materials from the\nlast class\nPrepare for next class",
-      "minutes": "120"
+      "content": "Functions using parameters Review of derivatives of various functions",
+      "operation": "Lecture and exercise",
+      "assignments": "Self-study: Equation of trajectory Review: Functions using parameters Preview: Derivatives of functions using parameters",
+      "minutes": "30 60 30"
     },
     {
       "index": "4",
-      "content": "Cofactor expansion",
-      "operation": "Lecture and exercises",
-      "assignments": "Review materials from the\nlast class\nPreview for next class",
-      "minutes": "120"
+      "content": "Review of derivatives of various functions Derivatives of functions using parameters",
+      "operation": "Lecture and exercise",
+      "assignments": "Self-study: Exercises on derivatives Review: Derivatives of functions using parameters Preview: Logarithmic differentiation",
+      "minutes": "30 60 30"
     },
     {
       "index": "5",
-      "content": "Inverse matrices and Cramer's rule",
-      "operation": "Lecture and exercises",
-      "assignments": "Review materials from the\nlast class\nPrepare for the test",
-      "minutes": "180"
+      "content": "Logarithmic differentiation Higher order derivatives",
+      "operation": "Lecture and exercise",
+      "assignments": "Self-study: Review of logarithmic laws Review: Logarithmic differentiation Preview: Increase or decrease of functions",
+      "minutes": "30 60 30"
     },
     {
       "index": "6",
-      "content": "Quiz (1)\n\nVector spaces, subspaces",
-      "operation": "Quiz on the contents of\n# 1 - # 5\nLecture and exercises",
-      "assignments": "Review materials from the\nlast class\nPrepare for next class",
-      "minutes": "120"
+      "content": "Increase or decrease of functions",
+      "operation": "Lecture and exercise",
+      "assignments": "Self-study: Increase and decrease of functions Review: Increase and decrease of functions, and extreme value Preview: Quiz 1",
+      "minutes": "30 30 60"
     },
     {
       "index": "7",
-      "content": "Linear independence, linear dependence\nof vectors",
-      "operation": "Lecture and exercises\n\nSelf-check",
-      "assignments": "Review materials from the\nlast class\nPrepare for next class",
-      "minutes": "120"
+      "content": "Quiz 1 Review of various definite and indefinite integrals",
+      "operation": "Quiz Lecture and exercise",
+      "assignments": "Self-study: Review of fundamental theorem of calculus Review: Quiz 1 Preview: Exercises on integration",
+      "minutes": "30 60 30"
     },
     {
       "index": "8",
-      "content": "Basis and dimension of a subspace",
-      "operation": "Lecture and exercises",
-      "assignments": "Review materials from the\nlast class\nPrepare for next class",
-      "minutes": "120"
+      "content": "Review of various definite and indefinite integrals",
+      "operation": "Lecture and exercise",
+      "assignments": "Review: Exercises on integration Self-study: Review of a product rule for differentiation Preview: Integration by parts Self-check",
+      "minutes": "60 30 30 30"
     },
     {
       "index": "9",
-      "content": "Eigenvalues and eigenvectors",
-      "operation": "Lecture and exercises",
-      "assignments": "Review materials from the\nlast class\nPrepare for next class",
-      "minutes": "120"
+      "content": "Integration by parts",
+      "operation": "Lecture and exercise",
+      "assignments": "Self-study: Concept of recurrence relation Review: Integration by parts Preview: Integration by substitution",
+      "minutes": "30 60 30"
     },
     {
       "index": "10",
-      "content": "Properties of eigenvalues and eigenvectors",
-      "operation": "Lecture and exercises",
-      "assignments": "Review materials from the\nlast class\nPrepare for next class",
-      "minutes": "120"
+      "content": "Integration by substitution",
+      "operation": "Lecture and exercise",
+      "assignments": "Self-study: Review of a chain rule for differentiation Review: Integration by substitution Preview: Areas between two curves",
+      "minutes": "30 60 30"
     },
     {
       "index": "11",
-      "content": "Diagonalization and its applications",
-      "operation": "Lecture and exercises",
-      "assignments": "Review materials from the\nlast class\nPrepare for the test",
-      "minutes": "180"
+      "content": "Areas between two curves",
+      "operation": "Lecture and exercise",
+      "assignments": "Self-study: Intersection of two curves Review: Areas between two curves Preview: Quiz 2",
+      "minutes": "30 30 60"
     },
     {
       "index": "12",
-      "content": "Quiz (2)\n\nIntegrated subject: standard forms\nof quadratic curves",
-      "operation": "Quiz on the contents of\n# 6 - # 11\nLecture and exercises",
-      "assignments": "Review materials from the\nlast class\nPrepare for next class",
-      "minutes": "120"
+      "content": "Quiz 2 Explanation for report",
+      "operation": "Quiz Lecture and exercise",
+      "assignments": "Self-study: Report Review: Quiz 2 Preview: Final exam",
+      "minutes": "30 60 30"
     },
     {
       "index": "13",
-      "content": "Classifications of quadratic curves\n\nSelf-reflection class",
-      "operation": "Lecture and exercises\n\nSelf-check",
-      "assignments": "Study for the final exam",
-      "minutes": "180"
+      "content": "Review",
+      "operation": "Exercises of #1-#12 Lecture and exercise",
+      "assignments": "Self-study: Report Preview: Final exam Self-check",
+      "minutes": "70 60 30"
     },
     {
       "index": "14",
-      "content": "Review\n\nFinal exam",
-      "operation": "Review\n\nExam on contents of\n# 1 - # 11",
-      "assignments": "Study for the final exam\nReview of this class",
-      "minutes": "120"
+      "content": "Review Final exam",
+      "operation": "Exercises of #1-#12 Final exam",
+      "assignments": "Review: Final exam Self-check: Confirmation of submission, attendance",
+      "minutes": "60"
     },
     {
       "index": "15",
-      "content": "Review the final exam\n\nSelf-check",
-      "operation": "Review the final exam\nSelf-check",
-      "assignments": "Review: Final exam",
-      "minutes": "90"
+      "content": "Review of final exam Self-check",
+      "operation": "Review of final exam Self-check Questionnaire",
+      "assignments": "Review: Final exam Self-check",
+      "minutes": "30 70"
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　G202-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Mathematics, Science, Data Science and AI Program\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Mathematics and Science ProgramMathematics and Science Courses\n\n                線形代数Ⅱ（再履修クラス）\n                Linear Algebra II\n\n              2\n              G202-01\n\n                2026年度\n\n                1st year 2nd semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  TANAKA Tadayoshi\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Determinant\n2.Cofactor\n3.Cramer's rule\n4.Vector space\n5.Eigenvalue and eigenvector\n\n              Students will learn:\n(1) the properties of a determinant and a method to calculate determinants.\n(2) the properties of cofactors.\n(3) the concept of a vector space and a basis.\n(4) eigenvalues and eigenvectors.\n\n              授業の概要および学習上の助言\n\n              This is a basic course in linear algebra, continued from “Linea Algebra I.” We will cover the following topics:\n\n1. Determinants\n1.1 Definition of determinant.\n1.2 Properties of the determinant and calculation method\n1.3 Cofactors and their applications\n2. Vector spaces and Eigenvalue\n2.1 Vector spaces\n2.2 Eigenvalues and eigenvectors\n\nClasses include exercises and quizzes; a final examination will be given at the end of the semester.\nDaily preparation and review are important. Students are required to complete the designated tasks.\nStudents should prepare reports and study research topics in a planned manner, and strictly avoid plagiarism.\n\n              教科書および参考書・リザーブドブック\n\n              Textbook: Linear Algebra Ⅱ (KIT Math and Science Academic Foundations Programs)\nReference book: A First Course in Linear Algebra (Open Textbook Library)[Lyryx]\n\n              履修に必要な予備知識や技能\n\n              Students should understand the concepts introduced in “Linear Algebra I.” It is especially important that students understand and are able to perform matrix calculations and have a good knowledge of linear transformations.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                D\n                Understand the properties of determinants and be able to calculate the value of a determinant.\n\n                ②\n                D\n                Be able to find inverse matrices using cofactors.\n\n                ③\n                D\n                Understand the concept of vector space and be able to find a basis.\n\n                ④\n                D\n                Be able to find the eigenvalues and eigenvectors of matrices.\n\n                ⑤\n                C\n                Understand the meanings of fundamental english words for mathematics.\n\n                ⑥\n                A\n                Understand the contents of the course and be able to complete the required tasks by the announced deadlines.\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                30\n\n                30\n\n                15\n\n                0\n\n                0\n\n                0\n\n                25\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                30\n\n                30\n\n                15\n\n                0\n\n                0\n\n                0\n\n                25\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                30\n\n                30\n\n                15\n\n                0\n\n                0\n\n                0\n\n                25\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n        ",
-  "courseId": "2026:fall:G202-01:0:69",
+  "rawText": "金沢工業大学 学習支援計画書 G160-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nMathematics, Science, Data Science and AI Program\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Mathematics and Science Program\nMathematics and Science Courses\n技術者のための数理Ⅲ\nMathematics and Science for Engineer III  2 G160-01  2024年度\n 2nd year 1st semester  修学規程第4条を参照\n    担当教員名\n TOCHI Kunio, SHIMA Kazuo, TANIGUCHI Shinichi, TANAKA Tadayoshi, TANIGUCHI Tetsuya, AKIYAMA Koki, HORI Haruna, TAKAI Yuuki, TAKAMURA Matsuzo, OYABU Matashige\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Continuity of a Function 2.Functions Using Parameters 3.Logarithmic Differentiation 4.Increase or Decrease of Functions 5.Integration by Parts and Integration by Substitution  Students will learn: (1) continuity of a function. (2) functions using parameters. (3) increase or decrease of functions. (4) integration by parts and integration by substitution.\n    授業の概要および学習上の助言   This is a basic course in mathematics and science for engineer. We will cover the following topics: 1. Continuity of a function. 2. Functions using parameters. 3. Increase or decrease of functions. 4. Integration by parts and integration by substitution. Extra classes may be held depending the comprehension level of students. Students are required to review and preview each class. As a matter of particular emphasis, students are required to attempt the exercises after each class. Extra materials may be distributed if necessary. Students are required to show their procedure for solution/calculation logically and clearly in each assignment. Students are expected to utilize the Math. and Science Education Research Center or the office hours of the instructor.\n    教科書および参考書・リザーブドブック   Textbook: Mathematics and Science for Engineer Reference books: Reader of Calculus -1 variable - Engineering Mathematics Text Series - Calculus -\n    履修に必要な予備知識や技能   Skills and knowledge from the Mathematics and Science for Engineer I and II. Basic calculation skills of numerical formulas (expansion, factorization, division, and calculation of fractional formula) and calculus.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① D Understand the concept of functions using parameters and find their derivatives.   ② D Find the derivatives using the method of the logarithmic differentiation.   ③ D Examine the increase or decrease of functions using higher order derivatives and draw graphs of the functions.   ④ D Use integration by parts and integration by substitution to find integrals of various functions.   ⑤ C Understand the meanings of fundamental English words for mathematics.   ⑥ A Be able to demonstrate an understanding of all topics, attend every class, and do the required works.\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 30 30 15 0 0 0 25 100     指標と評価割合 総合評価割合 30 30 15 0 0 0 25 100   総合力指標 知識を取り込む力 30 30 15 0 0 0 25 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ There will be a final exam. The examination schedule and range of topics are described in the course schedule.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     クイズ\n小テスト ① レ There will be two quizzes. Each quiz will comprise 15% of the overall evaluation (for a total of 30%).   ② レ   ③ レ   ④ レ   ⑤     ⑥     レポート ① レ Students will be evaluated on their report (15%). Students are expected to show their logical thinking in their report. Students are required to show their procedure for solution/calculation logically and are not allowed to copy from others. The deadline for the report will be announced by the instructor.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ①   Students will be evaluated on assignments, exercises, preparation, and review. All of them will comprise 25% of ",
+  "courseId": "2024:spring:G153-01:0:69",
   "language": "en"
 }

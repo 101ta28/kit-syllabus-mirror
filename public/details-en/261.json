@@ -1,68 +1,64 @@
 {
   "sourceIndex": 261,
   "sourceUrl": "/opsyllabus/kitos0110/261/1",
-  "importedAt": "2026-06-08T09:33:58.415Z",
-  "title": "電気エネルギー発生工学",
-  "subtitle": "Electric Power Generation",
-  "courseType": "Major ProgramMajor Courses",
+  "importedAt": "2026-06-09T01:29:21.560Z",
+  "title": "ロボット設計演習Ⅰ",
+  "subtitle": "Engineering Exercise for Robotics I",
+  "courseType": "Major Program\nMajor Courses",
   "credits": "2",
-  "term": "2026年度\n\n                3rd year 1st semester",
+  "term": "2024年度\n 2nd year 1st semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "OSAWA Naoki",
-    "NAKATA Shuhei"
+    "ITO Kouhei",
+    "TAKAMORI Masaya"
   ],
   "keywords": [
-    "Thermal power plant",
-    "Nuclear power plant",
-    "Renewable energy",
-    "Hydro power plant",
-    "Regional cooperation"
+    "Mechanical design 2.Mechanisms 3.Mechanical drawing 4.Machining"
   ],
-  "educationalGoal": "Students will\n(1) learn the working principles and systems of thermal power plants\n(2) learn the working principles and systems of nuclear power plants\n(3) learn the various renewable energy sources such as solar, wind, geothermal and fuel cell.\n(3) learn the working principle and systems of a hydro power plant",
-  "advice": "Course Description\n1. Outline (the demand for electrical energy)\n2. Thermal power plant\n2.1 Principle, basic fundamentals of thermodynamics  2.2 Facilities  2.3 Gas turbine and combined cycle power plant\n3. Nuclear power plant\n3.1 Principle, basic fundamentals of nuclear fission  3.2 Facilities and reactor types  3.3 Basics safety principles   3.4 Plutonium use in a thermal reactor, nuclear fuel cycle, and nuclear waste treatment\n4. Renewable energy\n4.1 Solar power   4.2 Wind power   4.3 Geothermal power plant   4.4 Fuel cell\n5. Hydro power plant\n5.1 Principle, basic fundamentals for hydraulics   5.2 Facilities  5.3 Output and efficiency calculation\nExpectations for Students\nTo understand the lecture well, basic knowledge about physics such as thermodynamics, hydraulics etc. is required.",
-  "books": "Textbook: Power plant and substation (Revised edition), ISBN: 9784886862235 (in Japanese)",
-  "requiredKnowledge": "This course is strongly related with the following courses: ‘electrical machine I’, ‘Transmission and distribution of electrical energy’. It’s necessary to review the basic knowledge obtained from those related courses in advance.",
+  "educationalGoal": "(1) Learn mechanical design skills by designing a microcomputer car in a team environment. (2) Practice mechanical drawing skills while designing the microcomputer car. (3) Apply knowledge of mechanical design and machining to an actual robotic system.",
+  "advice": "This is a practical course in designing a robotic microcomputer car. We will cover the following topics: 1. Design of a steerage mechanism 2. Design of the structural frame 3. Machining and assembly of parts Students are required to actively participate in class. Students are expected to work together on a team to complete tasks in class. Students are expected to machine some car parts after school hours.",
+  "books": "Textbooks:New JIS mechanical drawing(5th edition),Moritika Publishing(in Japanese) Reference books:None Reserved books:None",
+  "requiredKnowledge": "Completion of Engineering Mechanics I and II, Mechanics of Materials, and Mechanical Drawing I and II. Sufficient skill in plate machining, drill press machining, milling machining, and (lathe) turning. Students are required to not only have enough skills but also acquire a YUMEKOBO license (Sheet metal working, Drilling Machine, Lathes, and Milling Machine).",
   "activityGoals": [
     {
       "index": "①",
-      "type": "L",
-      "body": "To be able to calculate energy efficiency for various thermal power plants and to explain various devices"
+      "type": "J,N",
+      "body": "Understand and explain the major points of the design."
     },
     {
       "index": "②",
-      "type": "L",
-      "body": "To be able to explain basic principle of nuclear power plant, systems, safety, fuel cycle and waste treatment"
+      "type": "J,N",
+      "body": "Understand the design process and how to design a microcomputer car."
     },
     {
       "index": "③",
-      "type": "L",
-      "body": "To be able to explain principles and features of solar power, wind power, geothermal and fuel cell"
+      "type": "J,N",
+      "body": "Make detailed technical drawings compliant with JIS requirements with a computer-aided design system."
     },
     {
       "index": "④",
-      "type": "L",
-      "body": "To be able to calculate energy efficiency for various hydro power plants and to explain various devices"
+      "type": "J,N",
+      "body": "Create an assembly drawing and part drawings based on the machining that will be used for manufacturing."
     }
   ],
   "evaluationWeights": [
     {
       "label": "総合評価割合",
       "values": [
-        "20",
+        "0",
+        "0",
         "50",
-        "30",
         "0",
-        "0",
+        "50",
         "0",
         "0",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -72,20 +68,20 @@
     {
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
-        "20",
+        "0",
+        "0",
         "50",
-        "30",
         "0",
-        "0",
+        "50",
         "0",
         "0",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -95,20 +91,20 @@
     {
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
-        "20",
+        "0",
+        "0",
         "50",
-        "30",
         "0",
-        "0",
+        "50",
         "0",
         "0",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -129,9 +125,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -139,7 +135,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -152,9 +148,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -175,9 +171,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -186,118 +182,118 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "To achieve the target abilities listed above up to the level which is sufficient to teach other students",
-    "standard": "To achieve the target abilities for students listed above"
+    "ideal": "(1)Conceive a realistic mechanism and structure for a robotic microcomputer car (2)Create an assembly drawing and part drawings from the assembly drawing (3)Machine parts accurately based on the part drawings (4)Devise solutions when design faults become apparent",
+    "standard": "(1)Conceive the mechanism and form of a microcomputer car (2)Create an assembly drawing or part drawings based on some ideas for a microcomputer car"
   },
   "clipProcess": "",
   "lessons": [
     {
       "index": "1",
-      "content": "[Guidance]\n*Explanation of syllabus\n[Introduction of the generation of electrical\nenergy]\n*The demand for electrical energy",
+      "content": "Course introduction Design steering mechanism and frame of a microcomputer car",
       "operation": "Lecture and Q&A",
-      "assignments": "* To understand the necessity\nof studying this course",
-      "minutes": "200"
+      "assignments": "Review: Understand the objectives of the course Design steering mechanism and frame of a microcomputer car",
+      "minutes": "60"
     },
     {
       "index": "2",
-      "content": "[Thermal power plant 1]\n*Working principle of thermal power plant\n*Basic fundamentals of thermodynamics",
-      "operation": "Lecture and Q&A",
-      "assignments": "*To understand working\nprinciple and thermodynamics\n(enthalpy, entropy, energy\nconservations law, adiabatic\nprocess)",
-      "minutes": "200"
+      "content": "Design steering mechanism and frame of a microcomputer car with your team",
+      "operation": "Lecture, Q&A, and team activity",
+      "assignments": "Preview: Review the courses Mechanical Drawing I and II Review the techniques of plate machining, drill press machining, milling machining, and turning machining Review: Design the steering mechanism and frame of a microcomputer car with your team",
+      "minutes": "60 30"
     },
     {
       "index": "3",
-      "content": "[Thermal power plant 2]\n*Regenerative Rankine cycle with reheat\n*Facilities (boiler, turbine, generator,\nenvironmental protection devices)",
-      "operation": "Lecture and Q&A",
-      "assignments": "*To understand T-s diagram\nfor regenerative Rankine cycle\nwith reheat and facilities",
-      "minutes": "200"
+      "content": "Design steering mechanism and frame of the microcomputer car with your team",
+      "operation": "Lecture, Q&A, and team activity",
+      "assignments": "Preview: Investigate the steering mechanism Review: Verify the steering mechanism",
+      "minutes": "60 30"
     },
     {
       "index": "4",
-      "content": "[Thermal power plant 3]\n*Gas turbine\n*Gas turbine combined cycle\n*Energy efficiency calculation",
-      "operation": "Lecture and Q&A",
-      "assignments": "*To understand gas turbine\ncombined cycle and energy\nefficiency calculation",
-      "minutes": "200"
+      "content": "Create an assembly drawing",
+      "operation": "Lecture, Q&A, and team activity",
+      "assignments": "Preview: Verify the steering mechanism Review: Design the steering mechanism and frame of the microcomputer car with your team",
+      "minutes": "30 60"
     },
     {
       "index": "5",
-      "content": "[Quiz 1 and reflection]\n*Thermal power plant",
-      "operation": "Quiz 60min\nCommentary 40min",
-      "assignments": "To review the contents of the\nlecture 2 to 4",
-      "minutes": "200"
+      "content": "Create an assembly drawing and part drawings",
+      "operation": "Lecture, Q&A, and team activity",
+      "assignments": "Preview: Check the assembly drawing Review: Create part drawings",
+      "minutes": "30 60"
     },
     {
       "index": "6",
-      "content": "[Nuclear power plant 1]\n*Working principle of nuclear power plant",
-      "operation": "Lecture and Q&A",
-      "assignments": "*To understand working\nprinciple of nuclear power\nplant",
-      "minutes": "200"
+      "content": "Prepare for the presentation Make an assembly drawing and part drawings",
+      "operation": "Lecture, Q&A, and team activity",
+      "assignments": "Preview: Check the assembly drawing Review: Prepare presentation slides",
+      "minutes": "30 60"
     },
     {
       "index": "7",
-      "content": "[Nuclear power plant 2]\n*Component (nuclear fuel, coolant, neutron\nabsorbing material, reactor pressure vessel\netc.)\n*BWR, PWR, ABWR, APWR",
-      "operation": "Lecture and Q&A",
-      "assignments": "*To understand component\nand features of reactor types",
-      "minutes": "200"
+      "content": "Integrated learning Presentation Self-evaluation",
+      "operation": "Presentation and discussion",
+      "assignments": "Preview: Practice the presentation Review: Participate in the discussion during the presentation",
+      "minutes": "30 30"
     },
     {
       "index": "8",
-      "content": "[Nuclear power plant 3]\n*Nuclear fuel cycle and waste treatment\n*Basics safety principles\n[Renewable energy 1]\n*Solar power and wind power",
-      "operation": "Lecture and Q&A",
-      "assignments": "*To understand nuclear fuel\ncycle and waste treatment\n*To understand features of\nsolar power and wind power",
-      "minutes": "200"
+      "content": "Create assembly and part drawings",
+      "operation": "Lecture, Q&A, and team activity",
+      "assignments": "Preview: Check the part drawings Review: Complete the assembly drawing with your team",
+      "minutes": "30 60"
     },
     {
       "index": "9",
-      "content": "[Renewable energy 2]\n*Geothermal power plant and fuel cell (PAFC,\nPEFC, MCFC, SOFC)",
-      "operation": "Lecture and Q&A",
-      "assignments": "*To understand features of\ngeothermal power plant and\nfuel cell",
-      "minutes": "200"
+      "content": "Complete the assembly and part drawings",
+      "operation": "Lecture, Q&A, and team activity",
+      "assignments": "Preview: Check the assembly drawing and part drawings Review: Machine parts",
+      "minutes": "30 60"
     },
     {
       "index": "10",
-      "content": "[Quiz 2 and reflection]\n*Nuclear power plant\n*Renewable energy",
-      "operation": "Quiz 60min\nCommentary 40min",
-      "assignments": "To review the contents of the\nlecture 6 to 9",
-      "minutes": "200"
+      "content": "Machine parts",
+      "operation": "Lecture, Q&A, and team activity",
+      "assignments": "Preview: Review the status of parts machining Review: Machine parts",
+      "minutes": "30 60"
     },
     {
       "index": "11",
-      "content": "[Hydro power plant 1]\n*Working principle of hydro power plant\n*basic fundamentals of hydraulics and electrical\n power output calculation based on gravitational\n potential energy law",
-      "operation": "Lecture and Q&A",
-      "assignments": "*To understand working\nprinciple, hydraulics (law of\ncontinuity, Bernoulli’s\nprinciple) and electrical\npower\noutput calculation",
-      "minutes": "200"
+      "content": "Machine parts",
+      "operation": "Lecture, Q&A, and team activity",
+      "assignments": "Preview: Review the status of parts machining Review: Machine parts",
+      "minutes": "30 60"
     },
     {
       "index": "12",
-      "content": "[Hydro power plant 2]\n*Input energy calculation for pumped storage\nhydropower\n*Rated rotational speed of hydro turbine",
-      "operation": "Lecture and Q&A",
-      "assignments": "*To understand input power\ncalculation for pumped\nstorage hydro power",
-      "minutes": "200"
+      "content": "Machine and assemble parts",
+      "operation": "Lecture, Q&A, and team activity",
+      "assignments": "Preview: Review the status of parts machining Review: Machine parts",
+      "minutes": "30 60"
     },
     {
       "index": "13",
-      "content": "[Hydro power plant 3]\n*Facilities (dam, penstock, tank, hydro turbine,\ngenerator etc.)",
-      "operation": "Lecture and Q&A",
-      "assignments": "*To understand facilities",
-      "minutes": "200"
+      "content": "Machine and assemble parts Prepare a report on the design of the microcomputer car",
+      "operation": "Lecture, Q&A, and team activity",
+      "assignments": "Preview: Review the status of parts machining Review: Machine parts",
+      "minutes": "30 60"
     },
     {
       "index": "14",
-      "content": "[Final examination and reflection]\n*Hydro power plant",
-      "operation": "Examination 60min\nCommentary 40min",
-      "assignments": "*To review the contents of\nthe lecture 11 to 13",
-      "minutes": "200"
+      "content": "Machine and assemble parts Prepare a report on the design of the microcomputer car",
+      "operation": "Lecture, Q&A, and team activity",
+      "assignments": "Preview: Review the status of parts machining Review: Prepare a report on the design of the microcomputer car",
+      "minutes": "30 60"
     },
     {
       "index": "15",
-      "content": "[Auxiliary and reflection class]\n*Questionnaire of the lecture\n\n[Self-check]\n*Notice of evaluation results",
-      "operation": "Lecture and Q&A",
-      "assignments": "",
-      "minutes": "200"
+      "content": "Integrated learning Exhibition Self-evaluation",
+      "operation": "Lecture, Q&A, and exhibition",
+      "assignments": "Preview: Review the report and the microcomputer car Review: Review the other teams’ microcomputer cars",
+      "minutes": "60 30"
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　E622-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Electrical and Electronic Engineering(〜2024)\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                電気エネルギー発生工学\n                Electric Power Generation\n\n              2\n              E622-01\n\n                2026年度\n\n                3rd year 1st semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  OSAWA Naoki, NAKATA Shuhei\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Thermal power plant\n2.Nuclear power plant\n3.Renewable energy\n4.Hydro power plant\n5.Regional cooperation\n\n              Students will\n(1) learn the working principles and systems of thermal power plants\n(2) learn the working principles and systems of nuclear power plants\n(3) learn the various renewable energy sources such as solar, wind, geothermal and fuel cell.\n(3) learn the working principle and systems of a hydro power plant\n\n              授業の概要および学習上の助言\n\n              Course Description\n1. Outline (the demand for electrical energy)\n2. Thermal power plant\n2.1 Principle, basic fundamentals of thermodynamics  2.2 Facilities  2.3 Gas turbine and combined cycle power plant\n3. Nuclear power plant\n3.1 Principle, basic fundamentals of nuclear fission  3.2 Facilities and reactor types  3.3 Basics safety principles   3.4 Plutonium use in a thermal reactor, nuclear fuel cycle, and nuclear waste treatment\n4. Renewable energy\n4.1 Solar power   4.2 Wind power   4.3 Geothermal power plant   4.4 Fuel cell\n5. Hydro power plant\n5.1 Principle, basic fundamentals for hydraulics   5.2 Facilities  5.3 Output and efficiency calculation\nExpectations for Students\nTo understand the lecture well, basic knowledge about physics such as thermodynamics, hydraulics etc. is required.\n\n              教科書および参考書・リザーブドブック\n\n              Textbook: Power plant and substation (Revised edition), ISBN: 9784886862235 (in Japanese)\n\n              履修に必要な予備知識や技能\n\n              This course is strongly related with the following courses: ‘electrical machine I’, ‘Transmission and distribution of electrical energy’. It’s necessary to review the basic knowledge obtained from those related courses in advance.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                L\n                To be able to calculate energy efficiency for various thermal power plants and to explain various devices\n\n                ②\n                L\n                To be able to explain basic principle of nuclear power plant, systems, safety, fuel cycle and waste treatment\n\n                ③\n                L\n                To be able to explain principles and features of solar power, wind power, geothermal and fuel cell\n\n                ④\n                L\n                To be able to calculate energy efficiency for various hydro power plants and to explain various devices\n\n                ⑤\n\n                ⑥\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                20\n\n                50\n\n                30\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                20\n\n                50\n\n                30\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                20\n\n                50\n\n                30\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n      ",
-  "courseId": "2026:spring:E622-01:0:261",
+  "rawText": "金沢工業大学 学習支援計画書 E217-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Robotics\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\nロボット設計演習Ⅰ\nEngineering Exercise for Robotics I  2 E217-01  2024年度\n 2nd year 1st semester  修学規程第4条を参照\n    担当教員名\n ITO Kouhei, TAKAMORI Masaya\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Mechanical design 2.Mechanisms 3.Mechanical drawing 4.Machining  (1) Learn mechanical design skills by designing a microcomputer car in a team environment. (2) Practice mechanical drawing skills while designing the microcomputer car. (3) Apply knowledge of mechanical design and machining to an actual robotic system.\n    授業の概要および学習上の助言   This is a practical course in designing a robotic microcomputer car. We will cover the following topics: 1. Design of a steerage mechanism 2. Design of the structural frame 3. Machining and assembly of parts Students are required to actively participate in class. Students are expected to work together on a team to complete tasks in class. Students are expected to machine some car parts after school hours.\n    教科書および参考書・リザーブドブック   Textbooks:New JIS mechanical drawing(5th edition),Moritika Publishing(in Japanese) Reference books:None Reserved books:None\n    履修に必要な予備知識や技能   Completion of Engineering Mechanics I and II, Mechanics of Materials, and Mechanical Drawing I and II. Sufficient skill in plate machining, drill press machining, milling machining, and (lathe) turning. Students are required to not only have enough skills but also acquire a YUMEKOBO license (Sheet metal working, Drilling Machine, Lathes, and Milling Machine).\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① J,N Understand and explain the major points of the design.   ② J,N Understand the design process and how to design a microcomputer car.   ③ J,N Make detailed technical drawings compliant with JIS requirements with a computer-aided design system.   ④ J,N Create an assembly drawing and part drawings based on the machining that will be used for manufacturing.   ⑤     ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 0 0 50 0 50 0 0 100     指標と評価割合 総合評価割合 0 0 50 0 50 0 0 100   総合力指標 知識を取り込む力 0 0 50 0 50 0 0 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ①      ②     ③     ④     ⑤     ⑥     クイズ\n小テスト ①      ②     ③     ④     ⑤     ⑥     レポート ① レ Students will prepare a report regarding their design for a microcomputer car and submit it for evaluation.   ② レ   ③ レ   ④ レ   ⑤     ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ① レ Students will be evaluated on the microcomputer car they construct.   ② レ   ③ レ   ④ レ   ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ①      ②     ③     ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     (1)Conceive a realistic mechanism and structure for a robotic microcomputer car (2)Create an assembly drawing and part drawings from the assembly drawing (3)Machine parts accurately based on the part drawings (4)Devise solutions when design faults become apparent (1)Conceive the mechanism and form of a microcomputer car (2)Create an assembly drawing or part drawings based on some ideas for a microcomputer car\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習課題に要する標準的な時間を記載してあります。日々の自学自習時間全体としては、各授業に応じた時間(例えば2単位科目の場合、予習2時間・復習2時間/週)を取るよう努めてください。詳しくは教員の指導に従って下さい。     授業明細   回数 学習内容 授業の運営方法 学習課題(予習・復習) 時間:分※     1  Course introduction Design steering mechanism and frame of a microcomputer car Lecture and Q&A Review: Understand the objectives of the course Design steering mechanism and frame of a microcomputer car  60   2  Design steering mechanism and fra",
+  "courseId": "2024:spring:E209-01:0:261",
   "language": "en"
 }

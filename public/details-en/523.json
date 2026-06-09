@@ -1,62 +1,63 @@
 {
   "sourceIndex": 523,
   "sourceUrl": "/opsyllabus/kitos0110/523/1",
-  "importedAt": "2026-06-08T09:34:03.752Z",
-  "title": "認知情報データ解析基礎",
-  "subtitle": "Fundamentals of Data Analysis in Psychology and Information Design",
-  "courseType": "Major ProgramMajor Courses",
+  "importedAt": "2026-06-09T01:29:23.989Z",
+  "title": "情報セキュリティ",
+  "subtitle": "Information Security",
+  "courseType": "Major Program\nMajor Courses",
   "credits": "2",
-  "term": "2026年度\n\n                1st year 1st semester",
+  "term": "2024年度\n 3rd year 1st semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "TANAKA Koji"
+    "SENGOKU Yasushi"
   ],
   "keywords": [
-    "Spreadsheet",
-    "Data processing",
-    "Functions",
-    "Basic statistics",
-    "Creating figures and tables"
+    "Information security 2.Cryptography 3.Hash function 4.Authentication 5.Antivirus"
   ],
-  "educationalGoal": "Through practical training using spreadsheet software (Excel) students will:\n・ Be able to understand data processing and chart creation.\n・ Be able to understand how to use functions.\n・ Be able to understand basic statistics.",
-  "advice": "The data analysis courses of the Department of Psychological Science aim to teach the knowledge and skills necessary to analyze data obtained from psychological experiments. In particular, this course will teach students about data processing using the spreadsheet software Excel. The course is conducted with lectures and practical training. In order to spend as much time as possible on the practical training, students are required to prepare for the class, and they are required to understand the contents through preparation and to confirm their understanding through practical training during the course. If students do not understand the information during class time, they should deal with it as soon as possible by using office hours.\nThis course will focus on the following topics:\n1. Spreadsheet software (Excel) basic technology: data processing, creating figures and tables\n2. How to use Excel functions\n3. Concepts of basic statistics: mean, median, mode, maximum, minimum, variance, standard deviation, skewness, kurtosis\n\n* Be sure to bring a computer to each class as you will be using the spreadsheet software (Excel)",
-  "books": "none",
-  "requiredKnowledge": "Students must to bring a personal computer to each class to do the practical training every week.\nThere are many opportunities to use data analysis in psychology, so students should look for solutions with an awareness of the problem.",
+  "educationalGoal": "In this course, students will: (1) Learn an overview of information security technology and its necessity. (2) Learn basic knowledge of technologies such as cryptography and authentication. (3) Learn application systems such as antivirus, digital watermarking, and biometric authentication.",
+  "advice": "This is a basic course on information security. The following materials will be covered: 1. Information security - overview of security technology 2. Cryptographic technology - common-key cryptosystem, and public-key cryptosystem 3. Authentication technology - hash function, digital signature 4. Security tools - client authentication, PKI, PGP, IPsec, TLS, and SSH 5. Application system - antivirus, countermeasures for unauthorized access, digital watermarking, and biometric authentication 6. Information ethics - ethical issues in information security",
+  "books": "Textbooks: Reference books: None Reserved books: None",
+  "requiredKnowledge": "Basic knowledge of information networks is required.",
   "activityGoals": [
     {
       "index": "①",
-      "type": "H,J",
-      "body": "Ability to perform basic Excel operations."
+      "type": "H,I",
+      "body": "Be able to provide an overview of security technology and its necessity."
     },
     {
       "index": "②",
-      "type": "H,J",
-      "body": "Ability to create figures and tables using Excel."
+      "type": "I",
+      "body": "Be able to provide an overview of cryptography."
     },
     {
       "index": "③",
-      "type": "H,J",
-      "body": "Ability to calculate using Excel functions."
+      "type": "I",
+      "body": "Be able to provide an overview of authentication technology."
+    },
+    {
+      "index": "④",
+      "type": "I",
+      "body": "Be able to provide an overview of security application systems."
     }
   ],
   "evaluationWeights": [
     {
       "label": "総合評価割合",
       "values": [
-        "30",
-        "0",
-        "50",
-        "0",
-        "0",
-        "0",
         "20",
+        "60",
+        "20",
+        "0",
+        "0",
+        "0",
+        "0",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -66,20 +67,20 @@
     {
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
-        "30",
-        "0",
-        "50",
-        "0",
-        "0",
-        "0",
         "20",
+        "60",
+        "20",
+        "0",
+        "0",
+        "0",
+        "0",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -89,20 +90,20 @@
     {
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
-        "30",
-        "0",
-        "50",
-        "0",
-        "0",
-        "0",
         "20",
+        "60",
+        "20",
+        "0",
+        "0",
+        "0",
+        "0",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -123,9 +124,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -133,7 +134,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -146,9 +147,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -169,9 +170,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -180,118 +181,118 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "Students will be able to understand the basic operations of spreadsheet software (Excel). Furthermore, they will be able to select and use basic statistics using functions.\nStudents will be able to create figures and tables suitable for the information that they would like to express.",
-    "standard": "Students will be able to understand the basic operations of spreadsheet software (Excel) and calculate basic statistics using functions.\nStudents will be able to create figures and tables for use in psychological experiment reports."
+    "ideal": "(1) Be able to fully understand and explain information security technology. (2) Be able to fully understand and explain the mechanisms of standard cryptography. (3) Be able to fully understand and explain the mechanisms of standard authentication technology. (4) Be able to fully understand and utilize the functions of standard security tools. (5) Be able to fully understand and explain the security application system.",
+    "standard": "(1) Be able to understand and explain information security technology. (2) Be able to understand and explain the mechanisms of standard encryption technology. (3) Be able to understand and explain the mechanisms of standard authentication technology. (4) Be able to understand and use standard security tools. (5) Be able to understand and explain security application systems."
   },
   "clipProcess": "",
   "lessons": [
     {
       "index": "1",
-      "content": "Orientation\nExcel basic operations (1)",
-      "operation": "Lecture\npractical training",
-      "assignments": "Review:\nReview of lecture content",
-      "minutes": "60"
+      "content": "Course introduction 1. Overview of information security",
+      "operation": "Lecture and Q&A Self-check",
+      "assignments": "Understand the objectives of class Prepare for Chapter 2 of the textbook",
+      "minutes": "240"
     },
     {
       "index": "2",
-      "content": "Excel basic operations (2)\nAbsolute and relative references",
-      "operation": "Lecture\npractical training",
-      "assignments": "Review:\nReview of lecture content",
-      "minutes": "60"
+      "content": "2. Cryptography (1) - cryptography basics",
+      "operation": "Lecture and Q&A Self-check",
+      "assignments": "Review materials from the last class",
+      "minutes": "240"
     },
     {
       "index": "3",
-      "content": "Excel functions (1)\n Mathematical function",
-      "operation": "Lecture\npractical training",
-      "assignments": "Review:\nReview of lecture content",
-      "minutes": "60"
+      "content": "2. Cryptography (2) - common-key cryptosystem",
+      "operation": "Quiz Lecture and Q&A Self-check",
+      "assignments": "Review materials from the last class Prepare for Chapter 4 of the textbook",
+      "minutes": "240"
     },
     {
       "index": "4",
-      "content": "Excel functions (2)\n Logical function",
-      "operation": "Lecture\npractical training",
-      "assignments": "Review:\nReview of lecture content",
-      "minutes": "60"
+      "content": "2. Cryptography (3) - public-key cryptosystem",
+      "operation": "Lecture and Q&A Self-check",
+      "assignments": "Review materials from the last class Prepare for Chapter 5 of the textbook",
+      "minutes": "240"
     },
     {
       "index": "5",
-      "content": "Excel functions (3)\n Statistical function (1)",
-      "operation": "Lecture\npractical training",
-      "assignments": "Review:\nReview of lecture content",
-      "minutes": "60"
+      "content": "3. Authentication (1) - hash function",
+      "operation": "Quiz Lecture and Q&A Self-check",
+      "assignments": "Review materials from the last class",
+      "minutes": "240"
     },
     {
       "index": "6",
-      "content": "Excel functions (4)\n Statistical function (2)",
-      "operation": "Lecture\nPractical training",
-      "assignments": "Review:\nReview of lecture content",
-      "minutes": "60"
+      "content": "3. Authentication (2) - digital signature",
+      "operation": "Lecture and Q&A Self-check",
+      "assignments": "Review materials from the last class Prepare for Chapter 9 of the textbook",
+      "minutes": "240"
     },
     {
       "index": "7",
-      "content": "Basic statistics and Excel functions\nMidterm exam",
-      "operation": "Lecture\nPractical training\nMid self-reflection",
-      "assignments": "Review:\nReview of lecture contents\nfrom week 1 to week 7.",
-      "minutes": "60"
+      "content": "4. Security tools (1) - client authentication - PKI - PGP",
+      "operation": "Quiz Lecture and Q&A Self-check",
+      "assignments": "Review materials from the last class Prepare for Chapter 10 of the textbook",
+      "minutes": "240"
     },
     {
       "index": "8",
-      "content": "Excel functions (5)\n Search / matrix function",
-      "operation": "Lecture\nPractical training",
-      "assignments": "Review:\nReview of lecture content",
-      "minutes": "60"
+      "content": "4. Security tools (2) - IPsec - TLS - SSH",
+      "operation": "Lecture and Q&A Self-check",
+      "assignments": "Review materials from the last class Prepare for Chapter 11 of the textbook",
+      "minutes": "240"
     },
     {
       "index": "9",
-      "content": "Creating figures and tables (1)\n Creating figures",
-      "operation": "Lecture\nPractical training",
-      "assignments": "Review:\nReview of lecture content",
-      "minutes": "60"
+      "content": "5. Application system (1) - antivirus",
+      "operation": "Quiz Lecture and Q&A Self-check",
+      "assignments": "Review materials from the last class",
+      "minutes": "240"
     },
     {
       "index": "10",
-      "content": "Creating figures and tables (2)\n Creating tables",
-      "operation": "Lecture\nPractical training",
-      "assignments": "Review:\nReview of lecture content",
-      "minutes": "60"
+      "content": "5. Application system (2) - firewall - IDS",
+      "operation": "Lecture and Q&A Self-check",
+      "assignments": "Review materials from the last class Prepare for Chapter 12 of the textbook",
+      "minutes": "240"
     },
     {
       "index": "11",
-      "content": "Creating figures and tables (3)\n Summary of creating figures and tables",
-      "operation": "Lecture\nPractical training\nSelf-reflection",
-      "assignments": "Review:\nReview of lecture content",
-      "minutes": "60"
+      "content": "5. Application system (3) - digital watermarking - biometrics",
+      "operation": "Quiz Lecture and Q&A Self-check",
+      "assignments": "Review materials from the last class Prepare for Chapter 15 of the textbook",
+      "minutes": "240"
     },
     {
       "index": "12",
-      "content": "Integrated study (1)",
-      "operation": "Lecture\nPractical training",
-      "assignments": "Review:\nReview of lecture content",
-      "minutes": "60"
+      "content": "6. Information ethics - ethical issues in information security",
+      "operation": "Practice and Q&A Self-check",
+      "assignments": "Review materials from the last class",
+      "minutes": "240"
     },
     {
       "index": "13",
-      "content": "Integrated study (2)",
-      "operation": "Lecture\nPractical training",
-      "assignments": "Review:\nReview of lecture content",
-      "minutes": "60"
+      "content": "Integrated learning",
+      "operation": "Quiz Practice and Q&A Self-check",
+      "assignments": "Review materials from the last class",
+      "minutes": "240"
     },
     {
       "index": "14",
-      "content": "Integrated study (3)\nFinal exam",
-      "operation": "Lecture\nPractical training",
-      "assignments": "Review:\nReview of lecture contents\nfrom week 1 to week 13.",
-      "minutes": "60"
+      "content": "Integrated learning Final exam",
+      "operation": "Practice and Q&A Self-check Exam",
+      "assignments": "Review materials from the last class",
+      "minutes": "240"
     },
     {
       "index": "15",
-      "content": "Debriefing of final exam\nGeneral discussion",
-      "operation": "Lecture\nPractical training\nFinal self-reflection",
-      "assignments": "Review:\nReview of lecture content",
-      "minutes": "60"
+      "content": "Integrated learning Self-evaluation",
+      "operation": "Lecture, practice and Q&A Self-check",
+      "assignments": "Review the final exam",
+      "minutes": "240"
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　M105-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Psychology and Information Design\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                認知情報データ解析基礎\n                Fundamentals of Data Analysis in Psychology and Information Design\n\n              2\n              M105-01\n\n                2026年度\n\n                1st year 1st semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  TANAKA Koji\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Spreadsheet\n2.Data processing\n3.Functions\n4.Basic statistics\n5.Creating figures and tables\n\n              Through practical training using spreadsheet software (Excel) students will:\n・ Be able to understand data processing and chart creation.\n・ Be able to understand how to use functions.\n・ Be able to understand basic statistics.\n\n              授業の概要および学習上の助言\n\n              The data analysis courses of the Department of Psychological Science aim to teach the knowledge and skills necessary to analyze data obtained from psychological experiments. In particular, this course will teach students about data processing using the spreadsheet software Excel. The course is conducted with lectures and practical training. In order to spend as much time as possible on the practical training, students are required to prepare for the class, and they are required to understand the contents through preparation and to confirm their understanding through practical training during the course. If students do not understand the information during class time, they should deal with it as soon as possible by using office hours.\nThis course will focus on the following topics:\n1. Spreadsheet software (Excel) basic technology: data processing, creating figures and tables\n2. How to use Excel functions\n3. Concepts of basic statistics: mean, median, mode, maximum, minimum, variance, standard deviation, skewness, kurtosis\n\n* Be sure to bring a computer to each class as you will be using the spreadsheet software (Excel)\n\n              教科書および参考書・リザーブドブック\n\n              none\n\n              履修に必要な予備知識や技能\n\n              Students must to bring a personal computer to each class to do the practical training every week.\nThere are many opportunities to use data analysis in psychology, so students should look for solutions with an awareness of the problem.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                H,J\n                Ability to perform basic Excel operations.\n\n                ②\n                H,J\n                Ability to create figures and tables using Excel.\n\n                ③\n                H,J\n                Ability to calculate using Excel functions.\n\n                ④\n\n                ⑤\n\n                ⑥\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                30\n\n                0\n\n                50\n\n                0\n\n                0\n\n                0\n\n                20\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                30\n\n                0\n\n                50\n\n                0\n\n                0\n\n                0\n\n                20\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                30\n\n                0\n\n                50\n\n                0\n\n                0\n\n                0\n\n                20\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n        ",
-  "courseId": "2026:spring:M105-01:0:523",
+  "rawText": "金沢工業大学 学習支援計画書 F025-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Media Informatics\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n情報セキュリティ\nInformation Security  2 F025-01  2024年度\n 3rd year 1st semester  修学規程第4条を参照\n    担当教員名\n SENGOKU Yasushi\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Information security 2.Cryptography 3.Hash function 4.Authentication 5.Antivirus  In this course, students will: (1) Learn an overview of information security technology and its necessity. (2) Learn basic knowledge of technologies such as cryptography and authentication. (3) Learn application systems such as antivirus, digital watermarking, and biometric authentication.\n    授業の概要および学習上の助言   This is a basic course on information security. The following materials will be covered: 1. Information security - overview of security technology 2. Cryptographic technology - common-key cryptosystem, and public-key cryptosystem 3. Authentication technology - hash function, digital signature 4. Security tools - client authentication, PKI, PGP, IPsec, TLS, and SSH 5. Application system - antivirus, countermeasures for unauthorized access, digital watermarking, and biometric authentication 6. Information ethics - ethical issues in information security\n    教科書および参考書・リザーブドブック   Textbooks: Reference books: None Reserved books: None\n    履修に必要な予備知識や技能   Basic knowledge of information networks is required.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① H,I Be able to provide an overview of security technology and its necessity.   ② I Be able to provide an overview of cryptography.   ③ I Be able to provide an overview of authentication technology.   ④ I Be able to provide an overview of security application systems.   ⑤     ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 20 60 20 0 0 0 0 100     指標と評価割合 総合評価割合 20 60 20 0 0 0 0 100   総合力指標 知識を取り込む力 20 60 20 0 0 0 0 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ An exam to assess student achievement levels will be given at the end of the semester.   ② レ   ③ レ   ④ レ   ⑤     ⑥     クイズ\n小テスト ① レ Quizzes aimed at improving student understanding will be given at appropriate times during the semester.   ② レ   ③ レ   ④ レ   ⑤     ⑥     レポート ① レ Students will be evaluated by one or more reports assigned at appropriate times during the semester.   ② レ   ③ レ   ④ レ   ⑤     ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ①      ②     ③     ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     (1) Be able to fully understand and explain information security technology. (2) Be able to fully understand and explain the mechanisms of standard cryptography. (3) Be able to fully understand and explain the mechanisms of standard authentication technology. (4) Be able to fully understand and utilize the functions of standard security tools. (5) Be able to fully understand and explain the security application system. (1) Be able to understand and explain information security technology. (2) Be able to understand and explain the mechanisms of standard encryption technology. (3) Be able to understand and explain the mechanisms of standard authentication technology. (4) Be able to understand and use standard security tools. (5) Be able to understand and explain security application systems.\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習課題に要する標準的な時間を記載してあります。日々の自学自習時間全体としては、各授業に応じた時間(例えば2単位科目の場合、予習2時間・復習2時間/週)を取るよう努めてください。詳しくは教員の指導に従って下さい。     授業明細   回数 学習内容 授業の運営方法 学習課題(予習・復習) 時間:分※     1  Course introduction 1. ",
+  "courseId": "2024:spring:F020-01:0:523",
   "language": "en"
 }

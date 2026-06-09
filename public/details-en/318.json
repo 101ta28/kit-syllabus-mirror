@@ -1,57 +1,55 @@
 {
   "sourceIndex": 318,
   "sourceUrl": "/opsyllabus/kitos0110/318/1",
-  "importedAt": "2026-06-08T09:33:59.499Z",
-  "title": "プログラミングⅡ（再履修クラス）",
-  "subtitle": "Programming II",
-  "courseType": "Major ProgramMajor Courses",
+  "importedAt": "2026-06-09T01:29:21.893Z",
+  "title": "物性工学",
+  "subtitle": "Solid State Physics",
+  "courseType": "Major Program\nMajor Courses",
   "credits": "2",
-  "term": "2026年度\n\n                1st year 1st semester",
+  "term": "2024年度\n 2nd year 2nd semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "MOTOKI Mitsuo"
+    "ASHINO Makoto",
+    "MORI Takayuki",
+    "MIYATA Toshihiro"
   ],
   "keywords": [
-    "Python",
-    "Java",
-    "Compile",
-    "Dynamic typing programming language",
-    "Static typing programming language"
+    "Fundamentals of quantum theory 2.Band theory 3.Electrical conduction 4.Dielectric properties 5.Magnetic material"
   ],
-  "educationalGoal": "In the first half, students are going to learn basic Python programming and to acquire to write various programs subsequent to the precedent course, i.e., Programming I.\nIn the latter half, students are going to lean basic Java programming that requires compiling and static typing variables, to write simple programs, and to execute Java programs.",
-  "advice": "In this class, students learn two programming languages. In the first half, students learn basic Python programming subsequent to the precedent class, i.e., Programming I. In the latter half, students learn basic of programming with compiling and static typing variables, by using Java with comparing with Python.\n\nContents of Python:\n(1) Data containers such as dictionary and set\n(2) Concept of object, and class\n(3) Programming with iterators that is the mechanism of accessing stored data\n(4) Writing complicated programs using file I/O or exceptions\n\nContents of Java:\n(1) The basic of writing Java program and executing programs\n(2) Concept of variables with typing\n(3) The grammar of Java and typical programming method for Java",
-  "books": "(See the Japanese syllabus.)",
-  "requiredKnowledge": "The precedent course: Programming I\n- Students have to bring own laptop computer, AC adopter, and network cable for software installation, download of course materials, and upload of answer of quizzes\n- PC operation skills (such as touch typing, file operation, etc.) are necessary to write program smoothly",
+  "educationalGoal": "In the field of optoelectronic devices such as electronic devices and lasers, it is essential to understand material properties. In this course, students learn the basics of their material properties. Specifically, we learn the basics of quantum mechanics, band theory, and understand the behavior of electrons in materials where electric and magnetic fields are present. Furthermore, we will understand the electrical, dielectric, magnetic and optical properties of materials from the atomic and molecular level of microscopic perspective.",
+  "advice": "In the field of optoelectronic devices such as electronic devices and lasers, it is essential to understand material properties. In this course, students learn the basics of their material properties. Specifically, we learn the basics of quantum mechanics, band theory, and understand the behavior of electrons in materials where electric and magnetic fields are present. Furthermore, we will understand the electrical, dielectric, magnetic and optical properties of materials from the atomic and molecular level of microscopic perspective.",
+  "books": "",
+  "requiredKnowledge": "All you need to study this subject is to understand the classical physics and mathematics you have already learned. And it is important to derive the equation yourself and to physically understand the meaning and phenomenon of the equation.",
   "activityGoals": [
     {
       "index": "①",
-      "type": "I,J,K",
-      "body": "Be able to write Python programs using objects"
+      "type": "L",
+      "body": "Be able to understand and use Schrodinger's wave equation."
     },
     {
       "index": "②",
-      "type": "I,J,K",
-      "body": "Be able to write Python programs operating data in data structure using iterator appropriately"
+      "type": "L",
+      "body": "Be able to explain the change in energy levels of atoms, molecules and crystalline states, and band formation in"
     },
     {
       "index": "③",
-      "type": "I,J,K",
-      "body": "Be able to write Python programs operating file I/O"
+      "type": "L",
+      "body": "Be able to explain the differences between conductors, semiconductors, and insulators using band theory."
     },
     {
       "index": "④",
-      "type": "I,J,K",
-      "body": "Be able to explain necessary operations step by step to execute Java programs"
+      "type": "L",
+      "body": "Be able to explain the motion of electrons in the crystal using Drude theory, mobility, relaxation time, and eff"
     },
     {
       "index": "⑤",
-      "type": "I,J,K",
-      "body": "Be able to write Java programs using typing of variables appropriately"
+      "type": "L",
+      "body": "Be able to explain the dipole moment and micro phenomena of various dielectric polarizations, and dielectric dis"
     },
     {
       "index": "⑥",
-      "type": "I,J,K",
-      "body": "Be able to write Java programs using flow controls such as if, for, and while, and/or method"
+      "type": "L",
+      "body": "Be able to explain the origin of magnetism and magnetization in a substance, and various magnetic substances usi"
     }
   ],
   "evaluationWeights": [
@@ -59,8 +57,8 @@
       "label": "総合評価割合",
       "values": [
         "40",
-        "60",
-        "0",
+        "40",
+        "20",
         "0",
         "0",
         "0",
@@ -69,9 +67,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -82,8 +80,8 @@
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
         "40",
-        "60",
-        "0",
+        "40",
+        "20",
         "0",
         "0",
         "0",
@@ -92,9 +90,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -105,8 +103,8 @@
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
         "40",
-        "60",
-        "0",
+        "40",
+        "20",
         "0",
         "0",
         "0",
@@ -115,9 +113,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -138,9 +136,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -148,7 +146,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -161,9 +159,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -184,9 +182,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -195,118 +193,118 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "In addition to standard achievement level,\n(1+) Be able to write Python programs using appropriate objects\n(2+) Be able to write Python programs appropriately using list comprehension or itertools module\n(3+) Be able to write Python programs appropriately useing text file I/O\n\n(4+) Be able to fix errors in compiling Java programs\n(9) Be able tor write Java programs with non-complicated specifications",
-    "standard": "(1) Be able to operate objects in Python\n(2) Be able to use the iterator and list comprehension in Python\n(3) Be able to operate text file in Python\n(4) Be able to write and execute Java program\n(5) Be able to write variable declaration, assignment to variables, and type conversion in Java\n(6) Be able to write Java programs using conditional branches\n(7) Be able to write Java programs using loops\n(8) Be able to write Java programs with methods"
+    "ideal": "(1) The Schroedinger wave equation can be used to explain the wave function, and energy levels of electrons. (2) Understanding the bonding of crystals allows us to explain the band theory from the possible energy levels of electrons. (3) The movement of electrons in the crystal can be explained using a band diagram. (4) Debye's dispersion equation can be derived and explained for dielectric dispersion and dielectric loss in a dielectric. (5) The local electric field in the dielectric can be described by the Lorentz electric field and the Clausius-Mosotti equation.",
+    "standard": "(1) Use the Schrodinger wave equation to explain the electron's wave function, orbit and energy levels. (2) The band theory can be explained from the energy levels of electrons in the crystal. (3) The band theory can be used to explain the difference in electric conduction in conductors, semiconductors, and insulators. (4)Be able to explain the difference between Drude's theory and quantum theory about the movement of electrons in crystals. (5) Various dielectric polarization mechanisms can be described from the relationship between electric dipole moment and dielectric dispersion."
   },
   "clipProcess": "",
   "lessons": [
     {
       "index": "1",
-      "content": "- Guidance\n- Review of Programming I",
-      "operation": "Lecture and Exercise",
-      "assignments": "Preview: Read Chapter 1 to 3,\n4-2, 4-4, and 5-1 to 5-3 of\nthe textbook of Python",
-      "minutes": "120"
+      "content": "Course introduction Crystal bonding (ionic, covalent, metallic), typical crystal structures, etc.",
+      "operation": "Lecture and Q&A",
+      "assignments": "Understand the objectives of class",
+      "minutes": "Prepar ation and re view20 0"
     },
     {
       "index": "2",
-      "content": "- Object\n- Dictionary and set",
-      "operation": "Lecture and Exercise",
-      "assignments": "Preview: Watch the lecture\nvideo\nReview: Practice the handout\nand 4-1, 4-4, and 4-5 in the\ntextbook of Python",
-      "minutes": "60\n\n60"
+      "content": "Lattice vibrations in crystals, specific heat of solids, and heat conduction",
+      "operation": "Lecture and Q&A",
+      "assignments": "Preparation and review",
+      "minutes": "Prepar ation and re view20 0"
     },
     {
       "index": "3",
-      "content": "Practical use of iterable object\n- List comprehension\n- Iterator\n- itertools package",
-      "operation": "Lecture and Exercise",
-      "assignments": "Preview: Watch the lecture\nvideo\nReview: Practice the handout",
-      "minutes": "60\n\n60"
+      "content": "The movement of electrons in solids (classical electron conduction model)",
+      "operation": "Lecture and Q&A",
+      "assignments": "Preparation and review",
+      "minutes": "Prepar ation and re view20 0"
     },
     {
       "index": "4",
-      "content": "- Text file I/O",
-      "operation": "Lecture and Exercise",
-      "assignments": "Preview: Watch the lecture\nvideo\nReview: Practice the handout\nand 7-2 in the textbook",
-      "minutes": "60\n\n60"
+      "content": "The fundamentals of quantum mechanics Schrodinger wave equation, well potential, hydrogen atoms, etc",
+      "operation": "Lecture and Q&A",
+      "assignments": "Preparation and review",
+      "minutes": "Prepar ation and re view20 0"
     },
     {
       "index": "5",
-      "content": "- Exceptions",
-      "operation": "Lecture and Exercise",
-      "assignments": "Preview: Watch the lecture\nvideo\nReview: Practice the handout\nand 7-1 in the textbook",
-      "minutes": "60\n\n60"
+      "content": "Quiz about contents learned from No.1 to 4 classes.",
+      "operation": "Quiz, Lecture and Q&A",
+      "assignments": "Preparation and review",
+      "minutes": "Prepar ation and re view20 0"
     },
     {
       "index": "6",
-      "content": "- Overall exercise",
-      "operation": "Lecture and Exercise",
-      "assignments": "Preview: Review whole content\nof Python",
-      "minutes": "120"
+      "content": "Review about quiz carried out previous class. The solid energy band theory",
+      "operation": "review Self-reflection Lecture and Q&A",
+      "assignments": "Preparation and review",
+      "minutes": "Prepar ation and re view20 0"
     },
     {
       "index": "7",
-      "content": "- Exam\n- Self-check",
-      "operation": "Exam\nSelf-check",
-      "assignments": "Prepare for the exam",
-      "minutes": "120"
+      "content": "The solid energy band theory (Kronig-Penny's model, electron motion in crystals, band structure of metal, semiconductor and insulator)",
+      "operation": "Lecture and Q&A",
+      "assignments": "Preparation and review",
+      "minutes": "Prepar ation and re view20 0"
     },
     {
       "index": "8",
-      "content": "Basis of writing programs in Java\n- Installation of Java Development Kit\n- How to write Java programs\n- How to execute Java programs\n- Output",
-      "operation": "Lecture and Exercise",
-      "assignments": "- Preview: Install JDK\naccording to slides\n- Review: Practice the\nhandout, and 1-2 and 2-1 of\nthe textbook of Java",
-      "minutes": "60\n\n60"
+      "content": "Semiconductors (intrinsic semiconductors, impurity semiconductors, Hall effect, diodes and transistors)",
+      "operation": "Lecture and Q&A",
+      "assignments": "Preparation and review",
+      "minutes": "Prepar ation and re view20 0"
     },
     {
       "index": "9",
-      "content": "Typing of variables and operators\n- Type of variables\n- Type conversion\n- Input (Scanner class)\n- Operators",
-      "operation": "Lecture and Exercise",
-      "assignments": "Preview: Watch the lecture\nvideo\nReview: Practice the handout\nand 2-2, 2-3, and 2-4 of the\ntextbook of Java",
-      "minutes": "60\n\n60"
+      "content": "The optical properties of solids (absorption and reflection of light, photoconductive effects, solar cells, semiconductor lasers)",
+      "operation": "Lecture and Q&A",
+      "assignments": "Preparation and review",
+      "minutes": "Prepar ation and re view20 0"
     },
     {
       "index": "10",
-      "content": "- Flow control (conditional branch)",
-      "operation": "Lecture and Exercise",
-      "assignments": "Preview: Watch the lecture\nvideo\nReview: Practice the handout\nand 3-1, and 3-2 of the\ntextbook of Java",
-      "minutes": "60\n\n60"
+      "content": "Quiz about contents learned from No.5 to 9 classes",
+      "operation": "Quiz, Lecture and Q&A",
+      "assignments": "Preparation and review",
+      "minutes": "Prepar ation and re view20 0"
     },
     {
       "index": "11",
-      "content": "- Flow control (loop)",
-      "operation": "Lecture and Exercise",
-      "assignments": "Preview: Watch the lecture\nvideo\nReview: Practice the handout\nand 3-3 of the textbook",
-      "minutes": "60\n\n60"
+      "content": "Review about quiz carried out previous class. Dielectrics (dielectric and polarization, local electric field, mechanism of electric polarization, dielectric dispersion)",
+      "operation": "review Self-reflection Lecture and Q&A",
+      "assignments": "Preparation and review",
+      "minutes": "Prepar ation and re view20 0"
     },
     {
       "index": "12",
-      "content": "- Array",
-      "operation": "Lecture and Exercise",
-      "assignments": "Preview: Watch the lecture\nvideo\nReview: Practice the handout\nand 3-4 of the textbook",
-      "minutes": "60\n\n60"
+      "content": "Magnetics (magnetic susceptibility and permeability, origin of magnetism, classification of magnetics and their applications)",
+      "operation": "Lecture and Q&A",
+      "assignments": "Preparation and review",
+      "minutes": "Prepar ation and re view20 0"
     },
     {
       "index": "13",
-      "content": "- Method",
-      "operation": "Lecture and Exercise",
-      "assignments": "Preview: Watch the lecture\nvideo\nReview: Practice the handout\nand Ch. 4 of the textbook",
-      "minutes": "60\n\n60"
+      "content": "Superconductors and quantum effects of solids (quantum well structure, superlattice)",
+      "operation": "Lecture and Q&A",
+      "assignments": "Preparation and review",
+      "minutes": "Prepar ation and re view20 0"
     },
     {
       "index": "14",
-      "content": "- Overall exercise",
-      "operation": "Lecture and Exercise",
-      "assignments": "Preview: Review whole content\nof Java",
-      "minutes": "120"
+      "content": "Final exam",
+      "operation": "Test Self-reflection",
+      "assignments": "Preparation and review",
+      "minutes": "Prepar ation and re view20 0"
     },
     {
       "index": "15",
-      "content": "- Exam\n- Self-check",
-      "operation": "- Exam\n- Self-check",
-      "assignments": "Prepare for the exam",
-      "minutes": "120"
+      "content": "Review for final exam",
+      "operation": "Review, self-evaluation",
+      "assignments": "Preparation and review",
+      "minutes": "Prepar ation and re view20 0"
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　E505-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Information and Computer Science(〜2024)\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                プログラミングⅡ（再履修クラス）\n                Programming II\n\n              2\n              E505-01\n\n                2026年度\n\n                1st year 1st semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  MOTOKI Mitsuo\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Python\n2.Java\n3.Compile\n4.Dynamic typing programming language\n5.Static typing programming language\n\n              In the first half, students are going to learn basic Python programming and to acquire to write various programs subsequent to the precedent course, i.e., Programming I.\nIn the latter half, students are going to lean basic Java programming that requires compiling and static typing variables, to write simple programs, and to execute Java programs.\n\n              授業の概要および学習上の助言\n\n              In this class, students learn two programming languages. In the first half, students learn basic Python programming subsequent to the precedent class, i.e., Programming I. In the latter half, students learn basic of programming with compiling and static typing variables, by using Java with comparing with Python.\n\nContents of Python:\n(1) Data containers such as dictionary and set\n(2) Concept of object, and class\n(3) Programming with iterators that is the mechanism of accessing stored data\n(4) Writing complicated programs using file I/O or exceptions\n\nContents of Java:\n(1) The basic of writing Java program and executing programs\n(2) Concept of variables with typing\n(3) The grammar of Java and typical programming method for Java\n\n              教科書および参考書・リザーブドブック\n\n              (See the Japanese syllabus.)\n\n              履修に必要な予備知識や技能\n\n              The precedent course: Programming I\n- Students have to bring own laptop computer, AC adopter, and network cable for software installation, download of course materials, and upload of answer of quizzes\n- PC operation skills (such as touch typing, file operation, etc.) are necessary to write program smoothly\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                I,J,K\n                Be able to write Python programs using objects\n\n                ②\n                I,J,K\n                Be able to write Python programs operating data in data structure using iterator appropriately\n\n                ③\n                I,J,K\n                Be able to write Python programs operating file I/O\n\n                ④\n                I,J,K\n                Be able to explain necessary operations step by step to execute Java programs\n\n                ⑤\n                I,J,K\n                Be able to write Java programs using typing of variables appropriately\n\n                ⑥\n                I,J,K\n                Be able to write Java programs using flow controls such as if, for, and while, and/or method\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                40\n\n                60\n\n                0\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                40\n\n                60\n\n                0\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                40\n\n                60\n\n                0\n\n                0\n\n                0\n\n                0\n\n                0\n\n               ",
-  "courseId": "2026:spring:E505-01:0:318",
+  "rawText": "金沢工業大学 学習支援計画書 E619-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Electrical and Electronic Engineering(2018〜)\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n物性工学\nSolid State Physics  2 E619-01  2024年度\n 2nd year 2nd semester  修学規程第4条を参照\n    担当教員名\n ASHINO Makoto, MORI Takayuki, MIYATA Toshihiro\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Fundamentals of quantum theory 2.Band theory 3.Electrical conduction 4.Dielectric properties 5.Magnetic material  In the field of optoelectronic devices such as electronic devices and lasers, it is essential to understand material properties. In this course, students learn the basics of their material properties. Specifically, we learn the basics of quantum mechanics, band theory, and understand the behavior of electrons in materials where electric and magnetic fields are present. Furthermore, we will understand the electrical, dielectric, magnetic and optical properties of materials from the atomic and molecular level of microscopic perspective.\n    授業の概要および学習上の助言   In the field of optoelectronic devices such as electronic devices and lasers, it is essential to understand material properties. In this course, students learn the basics of their material properties. Specifically, we learn the basics of quantum mechanics, band theory, and understand the behavior of electrons in materials where electric and magnetic fields are present. Furthermore, we will understand the electrical, dielectric, magnetic and optical properties of materials from the atomic and molecular level of microscopic perspective.\n    教科書および参考書・リザーブドブック\n    履修に必要な予備知識や技能   All you need to study this subject is to understand the classical physics and mathematics you have already learned. And it is important to derive the equation yourself and to physically understand the meaning and phenomenon of the equation.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① L Be able to understand and use Schrodinger's wave equation.   ② L Be able to explain the change in energy levels of atoms, molecules and crystalline states, and band formation in   ③ L Be able to explain the differences between conductors, semiconductors, and insulators using band theory.   ④ L Be able to explain the motion of electrons in the crystal using Drude theory, mobility, relaxation time, and eff   ⑤ L Be able to explain the dipole moment and micro phenomena of various dielectric polarizations, and dielectric dis   ⑥ L Be able to explain the origin of magnetism and magnetization in a substance, and various magnetic substances usi\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 40 40 20 0 0 0 0 100     指標と評価割合 総合評価割合 40 40 20 0 0 0 0 100   総合力指標 知識を取り込む力 40 40 20 0 0 0 0 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ Evaluation of the test (40%): Conduct a test to confirm the degree of achievement.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥ レ   クイズ\n小テスト ① レ Assessment of quizzes (40%): Determine the scope of the questions and conduct quizzes. The quiz may also ask questions about the degree of comprehension of the submitted report. Also, there may be quizzes during the class without notice.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥ レ   レポート ① レ Evaluation of the report (20%): Evaluation is based on the content of the report on the exercises, the content of the report on the problem on the derivation of the formula, and the result of confirmation of understanding.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥ レ   成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ①      ②     ③     ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     (1) The Schroedinger wave equation can be used to explain the wave function, and energy levels of electrons. (2) Understanding the bonding of crysta",
+  "courseId": "2024:fall:E611-01:0:318",
   "language": "en"
 }

@@ -1,79 +1,70 @@
 {
   "sourceIndex": 144,
   "sourceUrl": "/opsyllabus/kitos0110/144/1",
-  "importedAt": "2026-06-08T09:33:56.122Z",
-  "title": "機械工学専門実験・演習Ａ",
-  "subtitle": "Mechanical Engineering Major Lab/ Exercises A",
-  "courseType": "Major ProgramMajor Courses",
-  "credits": "3",
-  "term": "2026年度\n\n                3rd year 1st semester3rd year 2nd semester",
+  "importedAt": "2026-06-09T01:29:20.553Z",
+  "title": "熱力学Ⅱ",
+  "subtitle": "Thermodynamics II",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "2",
+  "term": "2024年度\n 3rd year 1st semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "MORIMOTO Yoshitaka",
+    "NAGANUMA Kaname",
     "FUKUE Takashi",
-    "NAKADA Masayuki",
-    "SUGIMOTO Yasuhiro"
+    "FUKUDOME Koji"
   ],
   "keywords": [
-    "Thermodynamics",
-    "Fluid mechanics",
-    "Mechanics of materials",
-    "Mechanical dynamics"
+    "Carnot cycle 2.The second law of thermodynamics 3.Entropy, Exergy 4.Real gas 5.Thermal cycles"
   ],
-  "educationalGoal": "Students will:\n(1) Acquire sufficient understanding and application of specialized subjects, such as thermodynamics, fluid mechanics, mechanics of materials and mechanical dynamics.\n(2) Acquire technical writing skills.\n(3) Learn how to create presentation materials and presentation scripts.",
-  "advice": "We will cover the following topics:\nThermodynamics: temperature measurement, heat pump, and coefficient of performance\nFluid mechanics: flow rate, friction factor, and flow around circular cylinder\nMechanics of materials: tensile tests and bending tests\nMechanical dynamics: vibration measurement methods, dynamic vibration systems, and dynamic absorbers\n\nStudents are required to actively participate in class.\nStudents are expected to check for various messages and materials in class.\nStudents should not be absent from class, as they may not receive the handouts.\n\n[Note] Students will be divided into four groups and rotate through the four experimental themes listed above. Group allocations and the dates for each experimental theme will be announced during the guidance session. Please check the e-syllabus for the instruction manual and preparatory assignments for each experiment topic. Please prepare and bring a notebook specifically for specialized experiments.",
-  "books": "Textbooks: Unspecified\nReference books: Unspecified\nReserved books: Thermophysical properties of environmentally acceptable fluorocarbons (Thermodynamics)",
-  "requiredKnowledge": "Before conducting the experiment, students are required to review related subjects and thoroughly read the experiment guide for each theme posted on the e-syllabus to fully understand the type of experiment that will be conducted.\nCreate and submit technical preparatory reports before each experimental class.\nHave basic knowledge of related specialized subjects.\nKnow how to use a calculator and Microsoft Office (Excel, Word, and PowerPoint).",
+  "educationalGoal": "Students will: (1) Learn basic knowledge of the irreversibility in the nature world (2) Learn how to convert energy and obtain work from heat (3) Acquire design skills for energy conversion in mechanical engineering",
+  "advice": "This is an advanced course in thermodynamics that follows Thermodynamics I. We will cover the following topics: 1. Carnot cycle 2. The 2nd law of thermodynamics 3. Entropy, Exergy 4. Thermal characteristics of real gas 5. Gas cycles Students are expected to understand the meaning of terms and formulas. Students are expected to solve exercises independently. Students should be aware of the teacher's instructions in the class, because the schedules of quizzes, tests, and reports may change as the class progresses. Students should not be absent from class, as they may not receive the handouts. Detailed schedules and content of the course are explained in the first class.",
+  "books": "Textbooks : (1) JSME Text Series, Thermodynamics (Maruzen), (2) JSME Text Series, Problems in Thermodynamics (Maruzen) Reference book : Arai, Furuhata, English-Japanese Bilingual Textbook Series, Thermodynamics, Morikita. Reserved books : N/A",
+  "requiredKnowledge": "Have sufficient skill in mathematics (especially differential and integral calculations). Know how to use a calculator.",
   "activityGoals": [
     {
       "index": "①",
-      "type": "D,G,H",
-      "body": "Be able to summarize experimental results."
+      "type": "D,J,M",
+      "body": "Be able to explain the Carnot cycle and apply it to problems"
     },
     {
       "index": "②",
-      "type": "A,D,F,G,N,O,P",
-      "body": "Be able to actively participate in experiments based on your knowledge of related specialized subjects."
+      "type": "D,J,M",
+      "body": "Be able to explain the 2nd law of thermodynamics and apply it to problems"
     },
     {
       "index": "③",
-      "type": "D,F,H,J,M,N,O,P",
-      "body": "Be able to consider the experimental results based on your knowledge of related specialized subjects."
+      "type": "D,J,M",
+      "body": "Be able to explain entropy and apply it to problems"
     },
     {
       "index": "④",
-      "type": "D,J,K,M,N",
-      "body": "Be able to evaluate the experimental results based on your knowledge of related specialized subjects."
+      "type": "D,J,M",
+      "body": "Be able to explain the characteristics of a real gas with phase change and apply it to problems"
     },
     {
       "index": "⑤",
-      "type": "D,M,K",
-      "body": "Be able to use the kinematics model to determine the relationship between experimental and theoretical results."
-    },
-    {
-      "index": "⑥",
-      "type": "A,D,H,M,N,O,P",
-      "body": "Be able to submit and explain your experimental results as a technical report."
+      "type": "D,J,M",
+      "body": "Be able to explain gas cycles and apply the knowledge to probrems about design of thermal equipment"
     }
   ],
   "evaluationWeights": [
     {
       "label": "総合評価割合",
       "values": [
+        "35",
+        "25",
+        "40",
         "0",
         "0",
-        "90",
         "0",
         "0",
-        "0",
-        "10",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -83,20 +74,20 @@
     {
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
+        "35",
+        "25",
+        "40",
         "0",
         "0",
-        "90",
         "0",
         "0",
-        "0",
-        "10",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -106,20 +97,20 @@
     {
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
+        "35",
+        "25",
+        "40",
         "0",
         "0",
-        "90",
         "0",
         "0",
-        "0",
-        "10",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -140,9 +131,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -150,7 +141,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -163,9 +154,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -186,9 +177,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -197,118 +188,118 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "(1) Create thorough technical reports on experimental results using a computer.\n(2) Proactively participate systematically in class experiments based on the related specialized subjects.\n(3) Consider and evaluate the experimental results according to the related specialized subjects.\n(4) Use the kinematics model to compare experimental and theoretical results.\n(5) Explain the experimental results in a thorough technical report and submit it for evaluation.",
-    "standard": "(1) Create technical reports on experimental results using a computer.\n(2) Participate the class experiments based on the related specialized subjects.\n(3) Consider and evaluate the experimental results according to the related specialized subjects.\n(4) Compare the relationship between experimental and theoretical results.\n(5) Explain the experimental results in a technical report and submit it for evaluation."
+    "ideal": "(1) Explain the 2nd law of thermodynamics. Also, use this understanding to solve advanced problems related to thermal issues. (2) Explain Carnot cycle. Also, use this understanding to solve advanced problems related to thermal issues. (3) Explain a real gas and its characteristics. Also, use this understanding to solve advanced problems related to thermal issues. (4) Explain the various gas cycles and the vapor cycle with P-V and T-S diagrams. Also, evaluate the performance of thermal systems.",
+    "standard": "(1) Explain the 2nd law of thermodynamics. Also, use this understanding to solve basic problems related to thermal issues. (2) Explain Carnot cycle. Also, use this understanding to solve basic problems related to thermal issues. (3) Explain a real gas and its characteristics. Also, use this understanding to solve basic problems related to thermal issues. (4) Explain the various gas cycles and the vapor cycle with P-V and T-S diagrams. Also, evaluate the performance of thermal systems."
   },
   "clipProcess": "",
   "lessons": [
     {
       "index": "1",
-      "content": "Guidance\nLearn about how to attend each experiment,\nhow to create a report, and safety\nguidelines.",
-      "operation": "Lecture and Q&A",
-      "assignments": "(Preparation) Check the\nguidance materials\n\n(Review) Confirmation of\nattendance for each\nexperiment, report creation\nmethod, and safety guidelines",
-      "minutes": "100\n\n100"
+      "content": "Guidance for the course The 2nd law of thermodynamics (1)",
+      "operation": "Lecture Self-check",
+      "assignments": "- Review of the outline of the textbook - Review of class content",
+      "minutes": "120 30"
     },
     {
       "index": "2",
-      "content": "Experiments in thermodynamics (1)\nPerform a heat pump performance test using a\nthermocouple.",
-      "operation": "Lecture, experimental\nactivities, and Q&A",
-      "assignments": "Prepare the technical\npreparatory reports\nCreate 1st technical reports",
-      "minutes": "120"
+      "content": "The 2nd law of thermodynamics (2)",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "- Preparation of contents using the testbook - Review of class content",
+      "minutes": "40 50"
     },
     {
       "index": "3",
-      "content": "Experiments in thermodynamics (2)\nPerform a heat pump performance test using a\nradiation thermometer.",
-      "operation": "Lecture, experimental\nactivities, and Q&A",
-      "assignments": "Create 2nd technical reports",
-      "minutes": "120"
+      "content": "The 2nd law of thermodynamics (3)",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "- Preparation of contents using the testbook - Review of class content",
+      "minutes": "40 50"
     },
     {
       "index": "4",
-      "content": "Experiments in thermodynamics (3)\nDesign and optimization of heat pump system",
-      "operation": "Lecture, experimental\nactivities, and Q&A",
-      "assignments": "Create 3rd technical reports",
-      "minutes": "120"
+      "content": "The 2nd law of thermodynamics (4)",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "- Preparation of contents using the testbook - Review of class content",
+      "minutes": "40 50"
     },
     {
       "index": "5",
-      "content": "Experiments in fluid mechanics (1)\nMeasurements of flow rate",
-      "operation": "Lecture, experimental\nactivities, and Q&A",
-      "assignments": "Prepare the technical\npreparatory reports\nCreate 1st technical\nreports",
-      "minutes": "100"
+      "content": "The 2nd law of thermodynamics (5)",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "- Preparation of contents using the testbook - Review of class content",
+      "minutes": "40 50"
     },
     {
       "index": "6",
-      "content": "Experiments in fluid mechanics (2)\nMeasurement of friction loss in a pipe",
-      "operation": "Lecture, experimental\nactivities, and Q&A",
-      "assignments": "Create 2nd technical reports",
-      "minutes": "100"
+      "content": "The 2nd law of thermodynamics (6)",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "- Preparation of contents using the testbook - Review of class content",
+      "minutes": "40 50"
     },
     {
       "index": "7",
-      "content": "Experiments in fluid mechanics (3)\nMeasurement of drag acting on a circular\ncylinder\nExperiment to change the drag acting on a\ncircular cylinder",
-      "operation": "Lecture, experimental\nactivities, and Q&A",
-      "assignments": "Create final technical reports",
-      "minutes": "100"
+      "content": "Midterm test Real gas and its characteristics (1)",
+      "operation": "Test Lecture and practice Self-check",
+      "assignments": "- Review of content of classes 1-6 - Preparation of contents using the testbook - Review of class content",
+      "minutes": "120 60"
     },
     {
       "index": "8",
-      "content": "Factory tour and company research\nLearn about the relationship between\nmanufacturing and engineering\nin a company.",
-      "operation": "Lecture and Q&A",
-      "assignments": "(Preparation) Browse the home\npage of the specified company\nand understand the products\nthat are manufactured\nand sold.\n\n(Review) A report on the\nrelationship between\nmanufacturing and engineering\nin companies.",
-      "minutes": "120\n\n120"
+      "content": "Real gas and its characteristics (2)",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "- Preparation of contents using the testbook - Review of class content",
+      "minutes": "40 50"
     },
     {
       "index": "9",
-      "content": "Experiments in mechanics of materials (1)\nTensile tests for steel, aluminum, and carbon\nfiber-reinforced plastics",
-      "operation": "Lecture, experimental\nactivities, and Q&A",
-      "assignments": "Prepare the technical\npreparatory reports\nCreate 1st technical reports",
-      "minutes": "120"
+      "content": "Real gas and its characteristics (3)",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "- Preparation of contents using the testbook - Review of class content",
+      "minutes": "40 50"
     },
     {
       "index": "10",
-      "content": "Experiments in mechanics of materials (2)\nThree-point bending tests for steel,\naluminum, and carbon fiber-reinforced\nplastics",
-      "operation": "Lecture, experimental\nactivities, and Q&A",
-      "assignments": "Create 2nd technical reports",
-      "minutes": "120"
+      "content": "Real gas and its characteristics (4)",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "- Preparation of contents using the testbook - Review of class content",
+      "minutes": "40 50"
     },
     {
       "index": "11",
-      "content": "Experiments in mechanics of materials (3)\nCheck the 1st and 2nd technical reports",
-      "operation": "Lecture, experimental\nactivities, and Q&A",
-      "assignments": "Revise 1st and 2nd technical\nreports",
-      "minutes": "120"
+      "content": "Gas cycles and their characteristics (1)",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "- Preparation of contents using the testbook - Review of class content",
+      "minutes": "40 50"
     },
     {
       "index": "12",
-      "content": "Experiments in mechanical dynamics (1)\nForced vibration measurement using piezoelectric\nvibration sensor and linear position sensor",
-      "operation": "Lecture, experimental\nactivities, and Q&A",
-      "assignments": "Prepare the technical\npreparatory reports\nCreate 1st technical reports",
-      "minutes": "120"
+      "content": "Gas cycles and their characteristics (2)",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "- Preparation of contents using the testbook - Review of class content",
+      "minutes": "40 50"
     },
     {
       "index": "13",
-      "content": "Experiments in mechanical dynamics (2)\nDynamic vibration system of 2-degree-o -freedom",
-      "operation": "Lecture, experimental\nactivities, and Q&A",
-      "assignments": "Create 2nd technical reports",
-      "minutes": "120"
+      "content": "Applied Thermodynamics and Thermal Engineering",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "- Review of whole contents thr ough the course - Review of class content",
+      "minutes": "40 50"
     },
     {
       "index": "14",
-      "content": "Experiments in mechanical dynamics (3)\nEvaluation of moving table positioning",
-      "operation": "Lecture, experimental\nactivities, and Q&A",
-      "assignments": "JIS B 6190-2:2016 General test\n method for machine tools",
-      "minutes": ""
+      "content": "Final examination and self-inspection Review of thermodynamics",
+      "operation": "Examination and self-inspection of learning",
+      "assignments": "- Preparation for examination",
+      "minutes": "180"
     },
     {
       "index": "15",
-      "content": "Self-check",
-      "operation": "Q&A\nSelf-evaluation",
-      "assignments": "Review items that are not yet\nfully understood.",
-      "minutes": "100"
+      "content": "Final review and self-check",
+      "operation": "Review, discussion Self-check",
+      "assignments": "- Review of content of learned in Thermodynamics II",
+      "minutes": "40"
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　E031-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Mechanical Engineering(〜2024)\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                機械工学専門実験・演習Ａ\n                Mechanical Engineering Major Lab/ Exercises A\n\n              3\n              E031-01\n\n                2026年度\n\n                3rd year 1st semester3rd year 2nd semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  MORIMOTO Yoshitaka, FUKUE Takashi, NAKADA Masayuki, SUGIMOTO Yasuhiro\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Thermodynamics\n2.Fluid mechanics\n3.Mechanics of materials\n4.Mechanical dynamics\n\n              Students will:\n(1) Acquire sufficient understanding and application of specialized subjects, such as thermodynamics, fluid mechanics, mechanics of materials and mechanical dynamics.\n(2) Acquire technical writing skills.\n(3) Learn how to create presentation materials and presentation scripts.\n\n              授業の概要および学習上の助言\n\n              We will cover the following topics:\nThermodynamics: temperature measurement, heat pump, and coefficient of performance\nFluid mechanics: flow rate, friction factor, and flow around circular cylinder\nMechanics of materials: tensile tests and bending tests\nMechanical dynamics: vibration measurement methods, dynamic vibration systems, and dynamic absorbers\n\nStudents are required to actively participate in class.\nStudents are expected to check for various messages and materials in class.\nStudents should not be absent from class, as they may not receive the handouts.\n\n[Note] Students will be divided into four groups and rotate through the four experimental themes listed above. Group allocations and the dates for each experimental theme will be announced during the guidance session. Please check the e-syllabus for the instruction manual and preparatory assignments for each experiment topic. Please prepare and bring a notebook specifically for specialized experiments.\n\n              教科書および参考書・リザーブドブック\n\n              Textbooks: Unspecified\nReference books: Unspecified\nReserved books: Thermophysical properties of environmentally acceptable fluorocarbons (Thermodynamics)\n\n              履修に必要な予備知識や技能\n\n              Before conducting the experiment, students are required to review related subjects and thoroughly read the experiment guide for each theme posted on the e-syllabus to fully understand the type of experiment that will be conducted.\nCreate and submit technical preparatory reports before each experimental class.\nHave basic knowledge of related specialized subjects.\nKnow how to use a calculator and Microsoft Office (Excel, Word, and PowerPoint).\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                D,G,H\n                Be able to summarize experimental results.\n\n                ②\n                A,D,F,G,N,O,P\n                Be able to actively participate in experiments based on your knowledge of related specialized subjects.\n\n                ③\n                D,F,H,J,M,N,O,P\n                Be able to consider the experimental results based on your knowledge of related specialized subjects.\n\n                ④\n                D,J,K,M,N\n                Be able to evaluate the experimental results based on your knowledge of related specialized subjects.\n\n                ⑤\n                D,M,K\n                Be able to use the kinematics model to determine the relationship between experimental and theoretical results.\n\n                ⑥\n                A,D,H,M,N,O,P\n                Be able to submit and explain your experimental results as a technical report.\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成",
-  "courseId": "2026:spring:E031-01:0:144",
+  "rawText": "金沢工業大学 学習支援計画書 E021-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Mechanical Engineering\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n熱力学Ⅱ\nThermodynamics II  2 E021-01  2024年度\n 3rd year 1st semester  修学規程第4条を参照\n    担当教員名\n NAGANUMA Kaname, FUKUE Takashi, FUKUDOME Koji\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Carnot cycle 2.The second law of thermodynamics 3.Entropy, Exergy 4.Real gas 5.Thermal cycles  Students will: (1) Learn basic knowledge of the irreversibility in the nature world (2) Learn how to convert energy and obtain work from heat (3) Acquire design skills for energy conversion in mechanical engineering\n    授業の概要および学習上の助言   This is an advanced course in thermodynamics that follows Thermodynamics I. We will cover the following topics: 1. Carnot cycle 2. The 2nd law of thermodynamics 3. Entropy, Exergy 4. Thermal characteristics of real gas 5. Gas cycles Students are expected to understand the meaning of terms and formulas. Students are expected to solve exercises independently. Students should be aware of the teacher's instructions in the class, because the schedules of quizzes, tests, and reports may change as the class progresses. Students should not be absent from class, as they may not receive the handouts. Detailed schedules and content of the course are explained in the first class.\n    教科書および参考書・リザーブドブック   Textbooks : (1) JSME Text Series, Thermodynamics (Maruzen), (2) JSME Text Series, Problems in Thermodynamics (Maruzen) Reference book : Arai, Furuhata, English-Japanese Bilingual Textbook Series, Thermodynamics, Morikita. Reserved books : N/A\n    履修に必要な予備知識や技能   Have sufficient skill in mathematics (especially differential and integral calculations). Know how to use a calculator.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① D,J,M Be able to explain the Carnot cycle and apply it to problems   ② D,J,M Be able to explain the 2nd law of thermodynamics and apply it to problems   ③ D,J,M Be able to explain entropy and apply it to problems   ④ D,J,M Be able to explain the characteristics of a real gas with phase change and apply it to problems   ⑤ D,J,M Be able to explain gas cycles and apply the knowledge to probrems about design of thermal equipment   ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 35 25 40 0 0 0 0 100     指標と評価割合 総合評価割合 35 25 40 0 0 0 0 100   総合力指標 知識を取り込む力 35 25 40 0 0 0 0 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ An exam is given at the end of the semester to evaluate your degree of achievement.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     クイズ\n小テスト ① レ Tests and quizzes are conducted several times during class to confirm learning of the course content.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     レポート ① レ Several reports need to be prepared as homework. The content of the reports includes previews and reviews of class topics.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ①      ②     ③     ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     (1) Explain the 2nd law of thermodynamics. Also, use this understanding to solve advanced problems related to thermal issues. (2) Explain Carnot cycle. Also, use this understanding to solve advanced problems related to thermal issues. (3) Explain a real gas and its characteristics. Also, use this understanding to solve advanced problems related to thermal issues. (4) Explain the various gas cycles and the vapor cycle with P-V and T-S diagrams. Also, evaluate the performance of thermal systems. (1) Explain the 2nd law of thermodynamics. Also, use this understanding to solve basic problems related to thermal issues. (2) Explain Carnot cycle. Also, use this understanding to solve basic problems relate",
+  "courseId": "2024:spring:E010-01:0:144",
   "language": "en"
 }

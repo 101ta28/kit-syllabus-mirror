@@ -1,78 +1,69 @@
 {
   "sourceIndex": 673,
   "sourceUrl": "/opsyllabus/kitos0110/673/1",
-  "importedAt": "2026-06-08T09:34:06.885Z",
-  "title": "応用化学専門実験・演習Ｂ２",
-  "subtitle": "Applied Chemistry Major Lab/Exercises B2",
-  "courseType": "Major ProgramMajor Courses",
-  "credits": "1",
-  "term": "2026年度\n\n                3rd year 1st semester",
+  "importedAt": "2026-06-09T01:29:25.288Z",
+  "title": "建築構造力学Ⅰ",
+  "subtitle": "Structural Mechanics for Architecture I",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "2",
+  "term": "2024年度\n 1st year 2nd semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "TSUYUMOTO Isao",
-    "TOSA Koji"
+    "YAMAGISHI Kuniaki",
+    "SATO Hiromi"
   ],
   "keywords": [
-    "Chemical Engineering",
-    "High Pressure Gas",
-    "Powder",
-    "Reaction Engineering",
-    "Treatment of Environmental Pollutants"
+    "Structure 2.Beam, truss, and frame 3.Reaction force 4.Stress resultant 5.Stress"
   ],
-  "educationalGoal": "Learn the correct clothing/protective equipment suitable for experiments, use experimental tools correctly, and conduct experiments safely. Learn the specific information for the experiments and conduct experiments on your own. Prepare a report describing the experimental method and results and submit it by the deadline. Acquire the ability to conduct experiments by verifying and reporting on material learned in courses and through experiments.",
-  "advice": "Conduct experiments in chemical engineering. The objective of this experimental course is to acquire more knowledge than that learned in lectures and to gain skills in research, experimental methods, and reporting that are necessary to perform activities in Design Project III (4th year). If understanding experiments is difficult, you need to actively gain the understanding through reading, asking questions, and attending office hours, along with sufficient preparation and review of the experimental method and principles. Be sure to attend the guidance given for each experiment to learn about precautions, handling of experimental apparatus, safety training, and other important information.\n\nExperimental guidance\nSafety training\nChemical Engineering\nHigh Pressure Gas\nPowder\nReaction Engineering\nTreatment of Environmental Pollutants\nExamination and Self-evaluation",
-  "books": "Textbooks: Ouyou Kagaku Kiso Jikken/enshu AB (Kanazawa Institute of Technology Publishing)",
-  "requiredKnowledge": "Bring an A4 size experimental notebook, scientific calculator, and ruler. Experiments should be conducted after reviewing the course material, understanding the experimental theory, and preparing the materials for the experiments. If the progress of the experiment is delayed, class time will be extended until the experiment is completed, so keep some time free after the class on experiment days.",
+  "educationalGoal": "Students learn the mechanical characteristics of statically determinate beams, trusses, and frames, which are basic models of building structures. They understand the balance of forces that work on buildings and learn how to find reaction forces. Students understand the concept of resultant stress and the balance of free bodies, and learn how to determine the distribution of resultant stress in beams and frames. They learn how to find the axial forces in trusses by solving the nodal balance.",
+  "advice": "1. Building structures and structural mechanics 2. Equilibrium of force 3. Structure modeling and reaction forces 4. Loads and external forces 5. Mechanical classification of structures 6. Stress and resultant stress 7. Reaction forces and resultant stresses in statically determinate structures 8. Sectional properties 9. Material properties 10. Stress and member design",
+  "books": "Textbooks: Step up structural mechanics wrighten by Ota Kazuhiko Reference books:None Reserved books:None",
+  "requiredKnowledge": "Students must understand trigonometric functions and elementary mechanics. A scientific calculator is required for testing. Students should review the application of vector operations in Linear Algebra.",
   "activityGoals": [
     {
       "index": "①",
-      "type": "L",
-      "body": "Wear appropriate clothing, understand the use of the equipment, handle reagents properly, and conduct safely."
+      "type": "O",
+      "body": "Building structure and loads/external forces can correspond to the dynamic model."
     },
     {
       "index": "②",
-      "type": "L",
-      "body": "Record experimental conditions and results accurately in the experimental notes."
+      "type": "O",
+      "body": "Students can determine the reaction forces of static structures."
     },
     {
       "index": "③",
-      "type": "L",
-      "body": "Complete the experimental report using the prescribed format and explain it to others."
+      "type": "O",
+      "body": "Students can draw diagrams of axial force, shear force, and bending moment of a statically determinate structure"
     },
     {
       "index": "④",
-      "type": "L",
-      "body": "Describe observed phenomena and obtained data in experiments, based on principles of physics and chemistry."
+      "type": "O",
+      "body": "Students can explain the basic cross-sectional and mechanical properties of materials."
     },
     {
       "index": "⑤",
-      "type": "L",
-      "body": "Conduct the experiments on your own, according to the instructions."
-    },
-    {
-      "index": "⑥",
-      "type": "L",
-      "body": "Understand the fundamental principles of chemical engineering."
+      "type": "O",
+      "body": "Students can determine the stress in a beam."
     }
   ],
   "evaluationWeights": [
     {
       "label": "総合評価割合",
       "values": [
-        "20",
+        "30",
+        "30",
+        "40",
         "0",
-        "60",
         "0",
         "0",
         "0",
-        "20",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -82,20 +73,20 @@
     {
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
-        "20",
+        "30",
+        "30",
+        "40",
         "0",
-        "60",
         "0",
         "0",
         "0",
-        "20",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -105,20 +96,20 @@
     {
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
-        "20",
+        "30",
+        "30",
+        "40",
         "0",
-        "60",
         "0",
         "0",
         "0",
-        "20",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -139,9 +130,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -149,7 +140,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -162,9 +153,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -185,9 +176,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -196,48 +187,118 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "1. Use protective equipment and autonomously conduct experiments safely and competently.\n2. Understand sufficiently the fundamental principles of chemical engineering, and conduct experimental operations accurately.\n3. Understand sufficiently the fundamental principles and objectives of the experimental operation, summarize the experimental data obtained, and discuss the results.\n4. Record experimental contents and results accurately.\n5. Prepare a report using the prescribed format and explain it easily to others.",
-    "standard": "1. Use protective equipment and conduct experiments safely.\n2. Understand the fundamental principles of chemical engineering, and conduct experimental operations.\n3. Understand the fundamental principles and objectives of the experimental operation, summarize the experimental data obtained, and utilize for discussion.\n4. Record experimental contents and results.\n5. Prepare a report using the prescribed format."
+    "ideal": "(1) Students have acquired a basic knowledge of structural mechanics. (2) Students can describe the underlying formulas and find the exact solutions to those formulas. (3) Students can represent the resulting solutions graphically. (4) Students can show a simple structural model and can calculate stress. (5) Students can present a proposal to plan a rational building from a mechanical point of view for a simple building.",
+    "standard": "(1) Students have acquired a basic knowledge of structural mechanics. (2) Students can write the underlying formulas and understands the procedure for finding the solution. (3) Students can represent the resulting solution graphically."
   },
   "clipProcess": "",
   "lessons": [
     {
       "index": "1",
-      "content": "Guidance for physical chemistry experiment and\nsafety training\nSafe handling of a high-pressure gas cylinder\nHow to attach and remove a regulator",
-      "operation": "Lecture, Exercises,\nand Experiments",
-      "assignments": "Pre-Lab Assignment:\nDescribe translational motion\nand classical mechanics.\nAssignment:\nComplete post-laboratory\nreport.",
-      "minutes": "30\n\n90"
+      "content": "Building structures and structural mechanics Force notation Force composition and decomposition Moment of force",
+      "operation": "Lectures and exercises",
+      "assignments": "Review: What is force, Force composition and decomposition Moment of force Preparation: Read all of Chapter 2 to Section 3.1",
+      "minutes": "120"
     },
     {
       "index": "2",
-      "content": "Pulverization and specific surface area of\npowders\n  Specific surface area determination methods\nand devices",
-      "operation": "Lecture, Exercises,\nand Experiments",
-      "assignments": "Pre-Lab Assignment:\nPrepare the vapor-liquid\nequilibrium curve of the\nbinary mixture of ethanol and\nwater.\nAssignment:\nComplete post-laboratory\nreport.",
-      "minutes": "30\n\n90"
+      "content": "Modeling structures and loads Stable and unstable Reaction force",
+      "operation": "Lectures and exercises",
+      "assignments": "Review: Work on textbook issues and report issues. Preparation: Read all of Sections 3.2 to 3.3",
+      "minutes": "120"
     },
     {
       "index": "3",
-      "content": "Reaction engineering\n  Calculation of activation energy by\nArrhenius plot",
-      "operation": "Lecture, Exercises,\nand Experiments",
-      "assignments": "Pre-Lab Assignment:\nUnderstand the theoretical\nstage and operating line in\nthe vapor-liquid equilibrium\ndiagram.\nAssignment:\nComplete post-laboratory\nreport.",
-      "minutes": "30\n\n90"
+      "content": "Resultant stress How to draw a stress diagram",
+      "operation": "Lectures and exercises",
+      "assignments": "Review: Work on textbook issues and report issues. Preparation: Read all of Sections 3.4 to 3.6.",
+      "minutes": "120"
     },
     {
       "index": "4",
-      "content": "Environmental chemical engineering\nTreatment of environmental pollutants using\noxidation-reduction, coagulation-sedimentation,\nand activated carbon adsorption",
-      "operation": "Lecture, Exercises,\nand Experiments",
-      "assignments": "Pre-Lab Assignment:\nCalculate the Reynolds\nnumber under various\nconditions.\nAssignment:\nComplete post-laboratory\nreport.",
-      "minutes": "30\n\n90"
+      "content": "Reaction forces and resultant stress in statically determinate beams",
+      "operation": "Lectures and exercises",
+      "assignments": "Review: Work on textbook issues and report issues. Preparation: Read Chapter 5 and understand the definition of statically determinate trusses and how to solve a static truss.",
+      "minutes": "120"
     },
     {
       "index": "5",
-      "content": "Examination\nSelf-Evaluation",
-      "operation": "Examination and\nSelf-Evaluation",
-      "assignments": "Study for examination\nIdentify your mistakes and\nreview your weaknesses.",
+      "content": "Reaction forces and resultant stress in statically determinate trusses",
+      "operation": "Lectures and exercises",
+      "assignments": "Review: Review the node and cutting methods. Work on textbook examples and exercises. Preparation: Check the lecture contents up to the 5th lecture. Proceed with preparations for quizzes. Address report issues.",
+      "minutes": "120"
+    },
+    {
+      "index": "6",
+      "content": "Comprehensive learning",
+      "operation": "Lectures and exercises",
+      "assignments": "Review: Confirm ability to perform the tasks that are assigned in the 6th lecture. Preparation: Prepare for the quiz.",
+      "minutes": "120"
+    },
+    {
+      "index": "7",
+      "content": "Quiz and explanation",
+      "operation": "Test and lecture",
+      "assignments": "Review: Recalculate the unscored part. Preparation: Read Chapter 4 and understand how to calculate the reaction force and resultant stress in statically determinate frames.",
+      "minutes": "120"
+    },
+    {
+      "index": "8",
+      "content": "Reaction forces and resultant stresses in statically determinate frames",
+      "operation": "Lectures and exercises",
+      "assignments": "Review: Work on textbook examples and exercises. Preparation: Read all of Sections 2.1-2.2. Reconfirm the integration of elementary functions. Address report issues.",
+      "minutes": "120"
+    },
+    {
+      "index": "9",
+      "content": "Sectional properties",
+      "operation": "Lectures and exercises",
+      "assignments": "Review: Centroid, cross-sectional area, cross-section primary moment, and moment of inertia. Work on textbook examples and exercises. Preparation: Read 2.5.",
+      "minutes": "120"
+    },
+    {
+      "index": "10",
+      "content": "Material properties",
+      "operation": "Lectures and exercises",
+      "assignments": "Review: Stress, strain, Young's modulus, shear modulus, etc. Work on textbook examples and exercises. Preparation: Check the lecture contents up to the 10th lecture. Address report issues. Work on the work subject.",
+      "minutes": "120"
+    },
+    {
+      "index": "11",
+      "content": "Normal stress of a member subjected to bending Sectional modulus and edge stress",
+      "operation": "Lectures and exercises",
+      "assignments": "Review: the relationship between vertical stress and section force and the relationship between edge stress and section modulus. Preparation: Read all of Section 2.4. Address report issues. Work on the work subject and submit it at the 12th lecture.",
+      "minutes": "120"
+    },
+    {
+      "index": "12",
+      "content": "Shear stress of a member subjected to bending",
+      "operation": "Lectures and exercises",
+      "assignments": "Review: Review the concept of shear stress and review the distribution of shear stress in rectangular sections. Preparation: Work on report tasks. Rearrange the contents learned so far. In particular, understand the contents after the 8th lecture. Prepare for the exam.",
+      "minutes": "120"
+    },
+    {
+      "index": "13",
+      "content": "Comprehensive learning",
+      "operation": "Lectures and exercises",
+      "assignments": "Review: Confirm ability to perform the tasks. Preparation: Prepare for the examination.",
+      "minutes": "120"
+    },
+    {
+      "index": "14",
+      "content": "Example and explanation",
+      "operation": "Test and lecture",
+      "assignments": "Review: Recalculate the unscored sections.",
+      "minutes": "120"
+    },
+    {
+      "index": "15",
+      "content": "Review of what you learned in this course Commentary on the relationship between this subject and future subjects",
+      "operation": "Lecture and self-check",
+      "assignments": "Review: Review texts and reports to deepen understanding of the contents explained in Structural Mechanics for Architecture I. [Does this correction reflect your intended meaning?]",
       "minutes": "120"
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　B046-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Chemistry and Environmental Science(〜2024)\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                応用化学専門実験・演習Ｂ２\n                Applied Chemistry Major Lab/Exercises B2\n\n              1\n              B046-01\n\n                2026年度\n\n                3rd year 1st semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  TSUYUMOTO Isao, TOSA Koji\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Chemical Engineering\n2.High Pressure Gas\n3.Powder\n4.Reaction Engineering\n5.Treatment of Environmental Pollutants\n\n              Learn the correct clothing/protective equipment suitable for experiments, use experimental tools correctly, and conduct experiments safely. Learn the specific information for the experiments and conduct experiments on your own. Prepare a report describing the experimental method and results and submit it by the deadline. Acquire the ability to conduct experiments by verifying and reporting on material learned in courses and through experiments.\n\n              授業の概要および学習上の助言\n\n              Conduct experiments in chemical engineering. The objective of this experimental course is to acquire more knowledge than that learned in lectures and to gain skills in research, experimental methods, and reporting that are necessary to perform activities in Design Project III (4th year). If understanding experiments is difficult, you need to actively gain the understanding through reading, asking questions, and attending office hours, along with sufficient preparation and review of the experimental method and principles. Be sure to attend the guidance given for each experiment to learn about precautions, handling of experimental apparatus, safety training, and other important information.\n\nExperimental guidance\nSafety training\nChemical Engineering\nHigh Pressure Gas\nPowder\nReaction Engineering\nTreatment of Environmental Pollutants\nExamination and Self-evaluation\n\n              教科書および参考書・リザーブドブック\n\n              Textbooks: Ouyou Kagaku Kiso Jikken/enshu AB (Kanazawa Institute of Technology Publishing)\n\n              履修に必要な予備知識や技能\n\n              Bring an A4 size experimental notebook, scientific calculator, and ruler. Experiments should be conducted after reviewing the course material, understanding the experimental theory, and preparing the materials for the experiments. If the progress of the experiment is delayed, class time will be extended until the experiment is completed, so keep some time free after the class on experiment days.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                L\n                Wear appropriate clothing, understand the use of the equipment, handle reagents properly, and conduct safely.\n\n                ②\n                L\n                Record experimental conditions and results accurately in the experimental notes.\n\n                ③\n                L\n                Complete the experimental report using the prescribed format and explain it to others.\n\n                ④\n                L\n                Describe observed phenomena and obtained data in experiments, based on principles of physics and chemistry.\n\n                ⑤\n                L\n                Conduct the experiments on your own, according to the instructions.\n\n                ⑥\n                L\n                Understand the fundamental principles of chemical engineering.\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                20\n\n                0\n\n           ",
-  "courseId": "2026:spring:B046-01:0:673",
+  "rawText": "金沢工業大学 学習支援計画書 A007-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Architecture(2018〜)\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n建築構造力学Ⅰ\nStructural Mechanics for Architecture I  2 A007-01  2024年度\n 1st year 2nd semester  修学規程第4条を参照\n    担当教員名\n YAMAGISHI Kuniaki, SATO Hiromi\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Structure 2.Beam, truss, and frame 3.Reaction force 4.Stress resultant 5.Stress  Students learn the mechanical characteristics of statically determinate beams, trusses, and frames, which are basic models of building structures. They understand the balance of forces that work on buildings and learn how to find reaction forces. Students understand the concept of resultant stress and the balance of free bodies, and learn how to determine the distribution of resultant stress in beams and frames. They learn how to find the axial forces in trusses by solving the nodal balance.\n    授業の概要および学習上の助言   1. Building structures and structural mechanics 2. Equilibrium of force 3. Structure modeling and reaction forces 4. Loads and external forces 5. Mechanical classification of structures 6. Stress and resultant stress 7. Reaction forces and resultant stresses in statically determinate structures 8. Sectional properties 9. Material properties 10. Stress and member design\n    教科書および参考書・リザーブドブック   Textbooks: Step up structural mechanics wrighten by Ota Kazuhiko Reference books:None Reserved books:None\n    履修に必要な予備知識や技能   Students must understand trigonometric functions and elementary mechanics. A scientific calculator is required for testing. Students should review the application of vector operations in Linear Algebra.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① O Building structure and loads/external forces can correspond to the dynamic model.   ② O Students can determine the reaction forces of static structures.   ③ O Students can draw diagrams of axial force, shear force, and bending moment of a statically determinate structure   ④ O Students can explain the basic cross-sectional and mechanical properties of materials.   ⑤ O Students can determine the stress in a beam.   ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 30 30 40 0 0 0 0 100     指標と評価割合 総合評価割合 30 30 40 0 0 0 0 100   総合力指標 知識を取り込む力 30 30 40 0 0 0 0 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ The exam is used to check whether students have a basic knowledge of structural mechanics, can write basic equations, can find solutions from those equations, and can represent the solutions obtained in diagrams.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     クイズ\n小テスト ① レ Quizzes are used to check whether students have a basic knowledge about beams and trusses, can describe basic equations, can find solutions from those equations, and can represent the solutions obtained in diagrams.   ② レ   ③ レ   ④     ⑤     ⑥     レポート ① レ Reports are assigned to make sure that students understand the content of regular lectures.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ①      ②     ③     ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     (1) Students have acquired a basic knowledge of structural mechanics. (2) Students can describe the underlying formulas and find the exact solutions to those formulas. (3) Students can represent the resulting solutions graphically. (4) Students can show a simple structural model and can calculate stress. (5) Students can present a proposal to plan a rational building from a mechanical point of view for a simple building.  (1) Students have acquired a basic knowledge of structural mechanics. (2) Students can write the underlying formulas and understands the procedure for finding the so",
+  "courseId": "2024:fall:A006-01:0:673",
   "language": "en"
 }

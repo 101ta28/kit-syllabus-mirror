@@ -1,77 +1,63 @@
 {
   "sourceIndex": 198,
   "sourceUrl": "/opsyllabus/kitos0110/198/1",
-  "importedAt": "2026-06-08T09:33:57.174Z",
-  "title": "社会シミュレーション",
-  "subtitle": "Social Simulation",
-  "courseType": "Major ProgramMajor Courses",
+  "importedAt": "2026-06-09T01:29:20.951Z",
+  "title": "機械力学",
+  "subtitle": "Dynamics of Machines",
+  "courseType": "Major Program\nMajor Courses",
   "credits": "2",
-  "term": "2026年度\n\n                2nd year 2nd semester",
+  "term": "2024年度\n 2nd year 1st semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "TAKECHI Shoji"
+    "FUJITA Koji"
   ],
   "keywords": [
-    "Social Systems",
-    "Mathematical Models",
-    "Monte Carlo Method",
-    "Agents",
-    "System Dynamics"
+    "Equation of motion 2.Moment of inertia 3.Momentum 4.Energy 5.Vibration"
   ],
-  "educationalGoal": "In this course, students learn about mathematical modeling of social systems and simulation techniques. Students understand system dynamics and multi-agent models—representative mathematical models that incorporate interactions among people or between humans and the natural environment. Students also understand to acquire insights into the macroscopic characteristics and global behavior of economic, social, and environmental systems through simulations using these models.",
-  "advice": "In this course, students study \"systems thinking\", which means an approach that focuses on the interactions among components of a system considered as a whole system. Students learn the basics of mathematical modeling and perform simulations using these models.\nStudents break down a complex system into its components, analyze causal relationships, and use these relationships to understand changes in outcomes based on different parameter settings via simulation.\nThrough simulation, students grasp real-world social phenomena and trends, forecast future conditions, and clarify what actions are necessary for building a better society.\nAdvice for Students is as follows:\n1. Maintain a habit of considering relationships among various things in daily life.\n2. If you cannot understand something at once, ask questions and review the material.\n3. Engage in hands-on simulation practice, and reflect critically on the results, for example, \"Does this match what I expected?\", \"How should I interpret this result?”",
-  "books": "Textbook: None\nReference Books: None\nReserved Books: None",
-  "requiredKnowledge": "This course is designed so that no special prior knowledge is required.\nHowever, familiarity with computers is desirable.\nBasic mathematical knowledge, such as differential equations and linear algebra, will deepen your understanding of mathematical models and simulation techniques.\nReference materials for mathematics will be introduced during class as needed.",
+  "educationalGoal": "Dynamics of Machines is a part of the subject mechanics which is the basis of mechanical engineering. Students will learn the motions of mass points and rigid bodies due to external force or torque.",
+  "advice": "Students will learn the meanings of mathematical formulas and gain understanding by solving exercises. We will cover the following materials: 1. Momentum, impulse, law of conservation of momentum, and collision 2. Work and energy 3. Law of conservation of mechanical energy 4. Loss of kinetic energy by collision 5. Power 6. Friction",
+  "books": "Same as \"Engineering Mechanics I\", and \"Engineering Mechanics II.\"",
+  "requiredKnowledge": "Acquisition of Engineering mechanics I and II Sufficient skill in mathematics",
   "activityGoals": [
     {
       "index": "①",
-      "type": "D",
-      "body": "Understand mathematical models involving population and competition dynamics ."
+      "type": "J",
+      "body": "Be able to understand the meaning of terms."
     },
     {
       "index": "②",
-      "type": "D,F",
-      "body": "Implement simple mathematical models as simulation models."
+      "type": "D,J",
+      "body": "Be able to not only use but also derive formulas"
     },
     {
       "index": "③",
-      "type": "D,F",
-      "body": "Understand and perform simulations using system dynamics and multi-agent approaches."
+      "type": "D,J",
+      "body": "Be able to derive the equations of motion"
     },
     {
       "index": "④",
-      "type": "D,E",
-      "body": "Execute simulations, organize results, and create visualizations."
-    },
-    {
-      "index": "⑤",
-      "type": "D,G",
-      "body": "Interpret simulation results appropriately."
-    },
-    {
-      "index": "⑥",
-      "type": "D,G",
-      "body": "Consider methods for verifying simulation results."
+      "type": "D,I,J",
+      "body": "Be able to apply mathematics to the derived equations of motion and explain their dynamic behavior."
     }
   ],
   "evaluationWeights": [
     {
       "label": "総合評価割合",
       "values": [
-        "0",
-        "0",
-        "60",
+        "40",
+        "30",
         "20",
         "0",
         "0",
-        "20",
+        "0",
+        "10",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -81,20 +67,20 @@
     {
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
-        "0",
-        "0",
-        "60",
+        "40",
+        "30",
         "20",
         "0",
         "0",
-        "20",
+        "0",
+        "10",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -104,20 +90,20 @@
     {
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
-        "0",
-        "0",
-        "60",
+        "40",
+        "30",
         "20",
         "0",
         "0",
-        "20",
+        "0",
+        "10",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -138,9 +124,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -148,7 +134,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -161,9 +147,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -184,9 +170,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -195,111 +181,83 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "Students can derive mathematical models even for complex systems, implement simulation models, conduct parametric simulations, and explain parameter effects appropriately.\nThey can also explain fundamental concepts of system dynamics and organize the effects of parameters.",
-    "standard": "Students can derive mathematical models for systems with few components and simple relationships, implement simulations, and organize results.\nThey also understand basic concepts of system dynamics."
+    "ideal": "By presenting conditions specific to the aircraft, the equations of motion of the aircraft can be established.",
+    "standard": "Be able to solve textbook exercise level problems."
   },
   "clipProcess": "",
   "lessons": [
     {
       "index": "1",
-      "content": "Guidance: What is Social Simulation?\nCourse overview, evaluation methods\nRegistration for Insight Maker\n (system dynamics tool)\nRegistration for Artisoc Cloud\n (multi-agent simulator)",
-      "operation": "Lecture & Exercises",
-      "assignments": "Review\nTasks",
-      "minutes": "60\n150"
+      "content": "Course introduction, Lecture (Momentum, impulse)",
+      "operation": "Guidance, Lecture",
+      "assignments": "Prepare sec. 7 of the textbook",
+      "minutes": "100"
     },
     {
-      "index": "2",
-      "content": "Modeling and abstraction of social phenomena\n-Assumptions, variables, parameters\n-Population dynamics simulation",
-      "operation": "Lecture & Exercises",
-      "assignments": "Review\nTasks",
-      "minutes": "60\n150"
-    },
-    {
-      "index": "3",
-      "content": "Foundations of decision-making models\n-Perfect rationality and bounded rationality\n-Utility, cost, and reward\n-Decision-making over time\n-Differences between \"optimization\"\n  and \"simulation\"",
-      "operation": "Lecture & Exercises",
-      "assignments": "Review\nTasks",
-      "minutes": "60\n150"
+      "index": "2-3",
+      "content": "Lecture (Momentum, impulse)",
+      "operation": "Lecture and Q&A Self-check",
+      "assignments": "Prepare sec. 7 of the textbook",
+      "minutes": "200"
     },
     {
       "index": "4",
-      "content": "Introduction to System Dynamics (1)\n-Flow and stock\n-Temporal evolution\n-Competition simulation",
-      "operation": "Lecture & Exercises",
-      "assignments": "Review\nTasks",
-      "minutes": "60\n180"
+      "content": "Test and review of classes 1, 2, and 3.",
+      "operation": "Test and review Self-reflection",
+      "assignments": "Prepare sec. 7 of the textbook",
+      "minutes": "50"
     },
     {
-      "index": "5",
-      "content": "Introduction to System Dynamics (2)\n-Infectious disease spread simulation\n-Mechanisms of infection expansion\n-Effects of policy interventions\n  (quarantine, vaccines)",
-      "operation": "Lecture & Exercises",
-      "assignments": "Review\nTasks",
-      "minutes": "60\n150"
-    },
-    {
-      "index": "6",
-      "content": "Complex systems and emergent phenomena\n-Individual behavior and collective phenomena\n-Emergence and self-organization\n-Nonlinearity and prediction difficulty",
-      "operation": "Lecture & Exercises",
-      "assignments": "Review\nTasks",
-      "minutes": "60\n220"
-    },
-    {
-      "index": "7",
-      "content": "Cellular Automata (CA)\n-Basic structure of CA\n-Rules and temporal evolution\n-Applications to social phenomena: fire spread\n-Analysis of the Game of Life",
-      "operation": "Lecture & Exercises",
-      "assignments": "Review\nTasks",
-      "minutes": "60\n220"
-    },
-    {
-      "index": "8",
-      "content": "Introduction to Agent-Based Models (ABM)\n-Agents, environment, interactions\n-Differences from CA\n-Advantages of ABM in social simulation",
-      "operation": "Lecture & Exercises",
-      "assignments": "Review\nTasks",
-      "minutes": "60\n220"
+      "index": "5-8",
+      "content": "Lecture (Work and energy)",
+      "operation": "Lecture and Q&A Self-check",
+      "assignments": "Prepare sec. 8 of the textbook",
+      "minutes": "400"
     },
     {
       "index": "9",
-      "content": "Famous ABM models\n-Schelling’s segregation model:\n  model structure, unintended consequences,\n  policy implications and limitations\n-Competition simulation:\n  differences from system dynamics",
-      "operation": "Lecture & Exercises",
-      "assignments": "Review\nTasks",
-      "minutes": "60\n220"
+      "content": "Test and review of classes 5 to 8.",
+      "operation": "Test and review Self-reflection",
+      "assignments": "Prepare sec. 8 of the textbook",
+      "minutes": "50"
     },
     {
-      "index": "10",
-      "content": "Learning and evolving agents\n-Fixed rules vs. optimization vs. learning\n-Relationship between dynamic programming (DP)\n  and reinforcement learning\n-Modeling social evolution",
-      "operation": "Lecture & Exercises",
-      "assignments": "Review\nTasks",
-      "minutes": "60\n220"
-    },
-    {
-      "index": "11",
-      "content": "Networks and social structure\n-Basics of social networks\n-Diffusion of information, rumors,\n  and infections\n-Influence of network structure\n  on decision-making",
-      "operation": "Lecture & Exercises",
-      "assignments": "Review\nTasks",
-      "minutes": "60\n220"
+      "index": "10,11",
+      "content": "Lecture (Friction)",
+      "operation": "Lecture and Q&A Self-check",
+      "assignments": "Prepare sec. 9 of the textbook",
+      "minutes": "200"
     },
     {
       "index": "12",
-      "content": "Urban, transportation, and evacuation simulation\n-Spatial models\n-Bottlenecks and congestion\n-DP-based route choice vs. local rules",
-      "operation": "Lecture & Exercises",
-      "assignments": "Review\nTasks",
-      "minutes": "60\n220"
+      "content": "Test and review of classes 11 and 12.",
+      "operation": "Test and review Self-reflection",
+      "assignments": "Prepare sec. 9 of the textbook",
+      "minutes": "50"
     },
     {
       "index": "13",
-      "content": "Economic and market simulation\n-Artificial markets\n-Bubbles and crashes\n-Optimal behavior and collective instability",
-      "operation": "Lecture & Exercises",
-      "assignments": "Review\nTasks",
-      "minutes": "60\n220"
+      "content": "Organize knowledge",
+      "operation": "Lecture and Q&A Prepare for the exam Self-check",
+      "assignments": "Review secs. 7 to 9 of the textbook",
+      "minutes": "100"
     },
     {
       "index": "14",
-      "content": "Verification, validity, and ethics\n-Validation and sensitivity analysis\n-Relationship with real data\n-Policy applications and ethical issues",
-      "operation": "Lecture & Exercises",
-      "assignments": "Review\nTasks",
-      "minutes": "60\n220"
+      "content": "Organize knowledge, Final exam and review",
+      "operation": "Prepare for the exam",
+      "assignments": "Review secs. 7 to 9 of the textbook",
+      "minutes": "50"
+    },
+    {
+      "index": "15",
+      "content": "Review",
+      "operation": "Lecture and Q&A Self-check",
+      "assignments": "Answers to exam and review",
+      "minutes": "30"
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　D122-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Environmental Design and Innovation\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                社会シミュレーション\n                Social Simulation\n\n              2\n              D122-01\n\n                2026年度\n\n                2nd year 2nd semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  TAKECHI Shoji\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Social Systems\n2.Mathematical Models\n3.Monte Carlo Method\n4.Agents\n5.System Dynamics\n\n              In this course, students learn about mathematical modeling of social systems and simulation techniques. Students understand system dynamics and multi-agent models—representative mathematical models that incorporate interactions among people or between humans and the natural environment. Students also understand to acquire insights into the macroscopic characteristics and global behavior of economic, social, and environmental systems through simulations using these models.\n\n              授業の概要および学習上の助言\n\n              In this course, students study \"systems thinking\", which means an approach that focuses on the interactions among components of a system considered as a whole system. Students learn the basics of mathematical modeling and perform simulations using these models.\nStudents break down a complex system into its components, analyze causal relationships, and use these relationships to understand changes in outcomes based on different parameter settings via simulation.\nThrough simulation, students grasp real-world social phenomena and trends, forecast future conditions, and clarify what actions are necessary for building a better society.\nAdvice for Students is as follows:\n1. Maintain a habit of considering relationships among various things in daily life.\n2. If you cannot understand something at once, ask questions and review the material.\n3. Engage in hands-on simulation practice, and reflect critically on the results, for example, \"Does this match what I expected?\", \"How should I interpret this result?”\n\n              教科書および参考書・リザーブドブック\n\n              Textbook: None\nReference Books: None\nReserved Books: None\n\n              履修に必要な予備知識や技能\n\n              This course is designed so that no special prior knowledge is required.\nHowever, familiarity with computers is desirable.\nBasic mathematical knowledge, such as differential equations and linear algebra, will deepen your understanding of mathematical models and simulation techniques.\nReference materials for mathematics will be introduced during class as needed.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                D\n                Understand mathematical models involving population and competition dynamics .\n\n                ②\n                D,F\n                Implement simple mathematical models as simulation models.\n\n                ③\n                D,F\n                Understand and perform simulations using system dynamics and multi-agent approaches.\n\n                ④\n                D,E\n                Execute simulations, organize results, and create visualizations.\n\n                ⑤\n                D,G\n                Interpret simulation results appropriately.\n\n                ⑥\n                D,G\n                Consider methods for verifying simulation results.\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                0\n\n                0\n\n                60\n\n                20\n\n                0\n\n                0\n\n                20\n\n           ",
-  "courseId": "2026:fall:D122-01:0:198",
+  "rawText": "金沢工業大学 学習支援計画書 E108-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Aeronautics\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n機械力学\nDynamics of Machines  2 E108-01  2024年度\n 2nd year 1st semester  修学規程第4条を参照\n    担当教員名\n FUJITA Koji\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Equation of motion 2.Moment of inertia 3.Momentum 4.Energy 5.Vibration  Dynamics of Machines is a part of the subject mechanics which is the basis of mechanical engineering. Students will learn the motions of mass points and rigid bodies due to external force or torque.\n    授業の概要および学習上の助言   Students will learn the meanings of mathematical formulas and gain understanding by solving exercises. We will cover the following materials: 1. Momentum, impulse, law of conservation of momentum, and collision 2. Work and energy 3. Law of conservation of mechanical energy 4. Loss of kinetic energy by collision 5. Power 6. Friction\n    教科書および参考書・リザーブドブック   Same as \"Engineering Mechanics I\", and \"Engineering Mechanics II.\"\n    履修に必要な予備知識や技能   Acquisition of Engineering mechanics I and II Sufficient skill in mathematics\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① J Be able to understand the meaning of terms.   ② D,J Be able to not only use but also derive formulas   ③ D,J Be able to derive the equations of motion   ④ D,I,J Be able to apply mathematics to the derived equations of motion and explain their dynamic behavior.   ⑤     ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 40 30 20 0 0 0 10 100     指標と評価割合 総合評価割合 40 30 20 0 0 0 10 100   総合力指標 知識を取り込む力 40 30 20 0 0 0 10 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ On the basis of the exercises used in the lectures and quizzes, students will be evaluated on their understanding of the lectures using problems that require application of principles learned.   ② レ   ③ レ   ④ レ   ⑤     ⑥     クイズ\n小テスト ① レ Via problems that require application of textbook exercises, check the level of understanding of the lectures.   ② レ   ③ レ   ④ レ   ⑤     ⑥     レポート ① レ Students will be evaluated on reports that require research or the application of principles learned.   ② レ   ③ レ   ④ レ   ⑤     ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ① レ A negative rating is given if behavior that interferes with the class, such as private conversations, occurs and is not stopped after a reprimand is given.   ② レ   ③ レ   ④ レ   ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     By presenting conditions specific to the aircraft, the equations of motion of the aircraft can be established. Be able to solve textbook exercise level problems.\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習課題に要する標準的な時間を記載してあります。日々の自学自習時間全体としては、各授業に応じた時間(例えば2単位科目の場合、予習2時間・復習2時間/週)を取るよう努めてください。詳しくは教員の指導に従って下さい。     授業明細   回数 学習内容 授業の運営方法 学習課題(予習・復習) 時間:分※     1  Course introduction, Lecture (Momentum, impulse) Guidance, Lecture Prepare sec. 7 of the textbook  100   2-3  Lecture (Momentum, impulse) Lecture and Q&A Self-check Prepare sec. 7 of the textbook  200   4  Test and review of classes 1, 2, and 3. Test and review Self-reflection Prepare sec. 7 of the textbook  50   5-8  Lecture (Work and energy) Lecture and Q&A Self-check Prepare sec. 8 of the textbook  400   9  Test and review of classes 5 to 8. Test and review Self-reflection Prepare sec. 8 of the textbook  50   10,11  Lecture (Friction) Lecture and Q&A Self-check Prepare sec. 9 of the textbook  200   12  Test and review of classes 11 and 12. Test and review Self-reflection Prepare sec. 9",
+  "courseId": "2024:full-year:E921-28:0:198",
   "language": "en"
 }

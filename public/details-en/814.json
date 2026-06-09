@@ -1,76 +1,69 @@
 {
   "sourceIndex": 814,
   "sourceUrl": "/opsyllabus/kitos0110/814/1",
-  "importedAt": "2026-06-08T09:34:09.931Z",
-  "title": "材料力学",
-  "subtitle": "Strength of  Materials",
-  "courseType": "Major ProgramMajor Courses",
-  "credits": "4",
-  "term": "2026年度\n\n                2nd year 1st semester",
+  "importedAt": "2026-06-09T01:29:26.679Z",
+  "title": "バイオ・化学基礎実験・演習B(応用バイオ)",
+  "subtitle": "Basic Experiments and Practice in Bioscience and Chemistry B (Applied Bioscience)",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "3",
+  "term": "2024年度\n 2nd year 1st semester\n2nd year 2nd semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "OGURI Kazuyuki"
+    "OZEKI Kenji",
+    "HAKAMADA Yoshihiro"
   ],
   "keywords": [
-    "Stress, Strain",
-    "Tension, Compression",
-    "Beams",
-    "Regional collaboration"
+    "Substance concentration 2.Buffer 3.Neutralization titration 4.Microbial culture 5.Microbial metabolism"
   ],
-  "educationalGoal": "Strength of Materials clarify the forces and deformations of various parts of bridges, towers, cars, planes, energy equipment, etc. These results can be used for design safety. It is an important subject that forms the basis of mechanical engineering. In this course, students should gain a thorough understanding of the basics of the strength of materials through lectures and practice. Students will explore examples of structures in the community where material mechanics is utilized, and will also make effective use of generative AI.",
-  "advice": "Students must thoroughly learn the following as the necessary basic knowledge for engineers at any stage of their career.\nIt is important to work through many exercise answers, but the study of strength of materials is extremely difficult to understand by just memorizing formulas and patterns. For all problems, students will start from an understanding of the basic formula and solve the problem by setting appropriate boundary conditions for the problem.\n\n1. Stress and strain, 2. Hooke’s law, 3. Mechanical properties of materials, 4. Allowable stress and safety factors,\n5. Frame structure, 6. Thermal stress, 7. Stress concentration,\n8. Thin-walled cylinder subjected to internal pressure,\n9. Beams and their supporting conditions, 10. Shearing force and bending moment of a beam,\n11. Stress on beams, 12. Deflection of beams\n\nFurthermore, students should understand the real applications of structure by applying strength of materials in their locality.",
-  "books": "Textbooks: Basis of Understanding Strength of Materials, 2nd edition, Kyoritsu Shuppan Co. Ltd. (in Japanese)\nReference books: Unspecified\nReserved books: Unspecified",
-  "requiredKnowledge": "As a prerequisite, it is necessary to fully understand the course Industrial Mechanics I. Students need to fully understand the content of this course as the basis of the courses Mechanics of Aircraft Structure and Design of Aircraft Structure in later semesters.",
+  "educationalGoal": "Through experiments and exercises, students will acquire the basic concepts and techniques in conducting biological and chemical experiments using buffer preparation, pH measurement, neutralization titration, and biochemical experiments and exercises with microorganisms",
+  "advice": "After attending safety training for chemical experiments and microbial experiments, we will start experiments divided into the following three themes: 1. Chemical analysis experiments. 2. Microbial separation experiments. 3. Microbial metabolism experiments. Experiment guidebooks will be distributed for each theme. Students are required to prepare for and complete each experiment.",
+  "books": "None",
+  "requiredKnowledge": "Be sure to read the keywords in the experiment guidebook and the experiment contents before each experiment. Check the e-syllabus.",
   "activityGoals": [
     {
       "index": "①",
-      "type": "D,J,K,L,O",
-      "body": "Be able to explain concept of normal stress, shear stress, normal strain, shear strain and Hooke's law."
+      "type": "F,G",
+      "body": "Ability to explain safe use of laboratory equipment and reagents."
     },
     {
       "index": "②",
-      "type": "D,J,K,L,O",
-      "body": "Be able to explain deformation and fracturing behavior of materials by drawing stress-strain characteristics."
+      "type": "F,G,K",
+      "body": "Ability to explain neutralization titration and substance properties."
     },
     {
       "index": "③",
-      "type": "D,J,K,L,O",
-      "body": "Be able to explain relationship between material properties, reference strength and the allowable stress."
+      "type": "F,G,K",
+      "body": "Ability to explain understand and handle microbial cultures."
     },
     {
       "index": "④",
-      "type": "D,J,K,L,O",
-      "body": "Be able to explain stress in frame structure and thermal stress, and also explain stress concentration."
+      "type": "G,K,L",
+      "body": "Ability to make logical presentations."
     },
     {
       "index": "⑤",
-      "type": "D,J,K,L,O",
-      "body": "Be able to explain the shearing force and bending moment occurring in a beam by drawing SFDs and BMDs."
-    },
-    {
-      "index": "⑥",
-      "type": "D,J,K,L,O",
-      "body": "Be able to determine the stress and deflection occurring in a beam and to design safe structures."
+      "type": "G,K,L",
+      "body": "Ability to explain create reports based on experimental results."
     }
   ],
   "evaluationWeights": [
     {
       "label": "総合評価割合",
       "values": [
-        "40",
-        "30",
+        "0",
+        "15",
+        "50",
+        "15",
+        "0",
+        "0",
         "20",
-        "0",
-        "0",
-        "0",
-        "10",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -80,20 +73,20 @@
     {
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
-        "40",
-        "30",
+        "0",
+        "15",
+        "50",
+        "15",
+        "0",
+        "0",
         "20",
-        "0",
-        "0",
-        "0",
-        "10",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -103,20 +96,20 @@
     {
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
-        "40",
-        "30",
+        "0",
+        "15",
+        "50",
+        "15",
+        "0",
+        "0",
         "20",
-        "0",
-        "0",
-        "0",
-        "10",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -137,9 +130,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -147,7 +140,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -160,9 +153,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -183,9 +176,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -194,223 +187,118 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "1. Understand the concepts of stress and strain.\n2. Distinguish nominal stress and true stress, nominal strain and true strain.\n3. Conduct safe design using standard strength and allowable stress.\n4. Calculate stress in frame structures and thermal stress.\n5. Draw SFDs and BMDs of all beams.\n6. Calculate bending stress and deflection of beams and achieve safety in designs.",
-    "standard": "1. Calculate stress and strain.\n2. Perform calculations with safety factors in mind.\n3. Calculate thermal stress.\n4. Draw SFDs and BMDs of beams.\n5. Calculate bending stress and deflection of simple beams."
+    "ideal": "Students can give presentations that make use of experimental results and charts.",
+    "standard": "Students can give presentations that make use of experimental results and charts."
   },
   "clipProcess": "",
   "lessons": [
     {
       "index": "1",
-      "content": "Understand the learning objective, outline, and\ntarget abilities of this course based on the\ndistributed syllabus. In particular, understand\nwhich role this course assumes within the\nlearning objectives of the department of\naeronautics and a rough concrete level of\nachievement.\nUnderstand the course policies of this subject\nand learn the basics of strength of materials.\nLearn to convert between SI units and\nengineering units.",
-      "operation": "Lecture, Q&A\nSelf-check",
-      "assignments": "Read the text pp. 1 to 4\ncarefully.\nReview syllabus and class to\nunderstand the purpose of\nthis course.",
-      "minutes": "60\n\n60"
+      "content": "Guidance and safety education Reagent preparation",
+      "operation": "Explanation, experiment and exercise",
+      "assignments": "Preview and review",
+      "minutes": "135"
     },
     {
       "index": "2",
-      "content": "Learn about stress.",
-      "operation": "Lecture, Practice\nQ&A, Self-check",
-      "assignments": "Read the text pp. 4 to 6\ncarefully.\nReview to understand concept\nof stress and answer\nexamples.",
-      "minutes": "60\n\n60"
+      "content": "Specific gravity of various sucrose concentration.",
+      "operation": "Explanation, experiment and exercise",
+      "assignments": "Preview and review",
+      "minutes": "135"
     },
     {
       "index": "3",
-      "content": "Learn about strain.",
-      "operation": "Lecture, Practice\nQ&A, Self-check",
-      "assignments": "Read the text pp. 7 to 9\ncarefully.\nReview to understand concept\nof strain and answer\nexamples.",
-      "minutes": "60\n\n60"
+      "content": "Neutralization titration",
+      "operation": "Explanation, experiment and exercise",
+      "assignments": "Preview and review",
+      "minutes": "135"
     },
     {
       "index": "4",
-      "content": "Learn about Hooke's law.",
-      "operation": "Lecture, Practice\nQ&A, Self-check",
-      "assignments": "Read the text pp. 9 to 11\ncarefully.\nReview to understand concept\nof Hooke's law and answer\nexamples.",
-      "minutes": "60\n\n60"
+      "content": "Measurement of tyrosinase activity from mushroom",
+      "operation": "Explanation, experiment and exercise",
+      "assignments": "Study of enzyme kinetics",
+      "minutes": "135"
     },
     {
       "index": "5",
-      "content": "Learn about the mechanical properties of\nmaterials.",
-      "operation": "Lecture, Practice\nQ&A, Self-check",
-      "assignments": "Read the text pp. 11 to 14\ncarefully.\nReview to understand meaning\nof stress-strain curve in\nengineering and answer\nexamples.",
-      "minutes": "60\n\n60"
+      "content": "Inhibition experiment of tyrosinase activity",
+      "operation": "Explanation, experiment and exercise",
+      "assignments": "Study of enzyme inhibition, Km value and Vmax.",
+      "minutes": "120"
     },
     {
       "index": "6",
-      "content": "Learn about allowable stress and safety factors.",
-      "operation": "Lecture, Practice\nQ&A, Self-check",
-      "assignments": "Read the text pp. 14 to 15\ncarefully.\nReview to understand meaning\nof allowable stress in\nengineering and safety\nfactors.",
-      "minutes": "60\n\n60"
+      "content": "TLC analysis",
+      "operation": "Explanation, experiment and exercise",
+      "assignments": "Study of TLC principle",
+      "minutes": "120"
     },
     {
       "index": "7",
-      "content": "Answer the exercises on classes 1 to 6, which\nform the basis of strength of materials, and\ndeepen understanding.",
-      "operation": "Practice, Q&A,\nSelf-check",
-      "assignments": "Answer exercises on Chapter 1.\n\nReview exercises repeatedly\nto understand the basis of\nstrength of materials.",
-      "minutes": "90\n\n60"
+      "content": "Presentation and Q&A",
+      "operation": "Presentation and commentary",
+      "assignments": "Preview and review",
+      "minutes": "120"
     },
     {
       "index": "8",
-      "content": "Test 1 on classes 1 to 6 after review.",
-      "operation": "Test 1\nSelf-check",
-      "assignments": "Answer examples and exercises\nof Chapter 1.\nReview test 1 and understand\npoints insufficiently\ngrasped.",
-      "minutes": "90\n\n90"
+      "content": "Clutivation",
+      "operation": "Explanation, experiment and exercise",
+      "assignments": "Preview and review",
+      "minutes": "135"
     },
     {
       "index": "9",
-      "content": "Explanation of test 1.\nLearn about frame structure.",
-      "operation": "Lecture, Practice\nQ&A, Self-check",
-      "assignments": "Read the text pp. 20 to 21\ncarefully.\nReview to understand frame\nstructure.",
-      "minutes": "60\n\n60"
+      "content": "Bacterial simulation",
+      "operation": "Explanation, experiment and exercise",
+      "assignments": "Preview and review",
+      "minutes": "135"
     },
     {
       "index": "10",
-      "content": "Learn about thermal stress.",
-      "operation": "Lecture, Practice\nQ&A, Self-check",
-      "assignments": "Read the text pp. 33 to 35\ncarefully.\nReview to understand thermal\nstress.",
-      "minutes": "60\n\n60"
+      "content": "Bacteria",
+      "operation": "Explanation, experiment and exercise",
+      "assignments": "Preview and review",
+      "minutes": "120"
     },
     {
       "index": "11",
-      "content": "Learn about stress concentration and thin walled\n cylinders subject to internal pressure.",
-      "operation": "Lecture, Practice\nQ&A, Self-check",
-      "assignments": "Read the text pp. 36 to 39\ncarefully.\nReview to understand stress\nconcentration and thin-walled\ncylinders subjected to\ninternal pressure and answer\nexercises.",
-      "minutes": "60\n\n60"
+      "content": "Lactobacillus",
+      "operation": "Explanation, experiment and exercise",
+      "assignments": "Preview and review",
+      "minutes": "135"
     },
     {
       "index": "12",
-      "content": "Answer the exercises on classes 9 to 11 and\ndeepen understanding.",
-      "operation": "Practice, Q&A,\nSelf-check",
-      "assignments": "Answer exercises Chapter 2.\n\nAnswer exercises of Chapter 2\nand understand points on\nwhich you are weak.",
-      "minutes": "90\n\n60"
+      "content": "Saccharomyces cerevisiae",
+      "operation": "Explanation, experiment and exercise",
+      "assignments": "Preview and review",
+      "minutes": "135"
     },
     {
       "index": "13",
-      "content": "Test 2 on classes 9 to 12 after review.",
-      "operation": "Test 2\nSelf-check",
-      "assignments": "Answer examples and exercises\nof Chapter 2.\nReview test 2 and understand\npoints insufficiently\ngrasped.",
-      "minutes": "90\n\n90"
+      "content": "Aspergillus oryzae",
+      "operation": "Explanation, experiment and exercise",
+      "assignments": "Preview and review",
+      "minutes": "135"
     },
     {
       "index": "14",
-      "content": "Explanation of test 2 and overall review of\nclasses 1 to 13 as intermediate self-\nreflection.",
-      "operation": "Lecture, Practice\nQ&A, Self-check",
-      "assignments": "Preview classes and\nunderstand points\ninsufficiently grasped.\nReview to understand points\ninsufficiently grasped and\nfully understand them.",
-      "minutes": "90\n\n60"
+      "content": "Presentation and Q&A",
+      "operation": "Presentation and commentary",
+      "assignments": "Preview and review",
+      "minutes": "135"
     },
     {
       "index": "15",
-      "content": "Learn about beams and their support conditions.",
-      "operation": "Lecture, Practice\nQ&A, Self-check",
-      "assignments": "Read the text pp. 41 to 42\ncarefully.\nReview to understand beams by\nsupposing familiar problems.",
-      "minutes": "60\n\n60"
-    },
-    {
-      "index": "16",
-      "content": "Learn about beams and their support conditions.",
-      "operation": "Lecture, Practice\nQ&A, Self-check",
-      "assignments": "Read the text pp. 45 to 48\ncarefully.\nReview to understand beams by\nsupposing familiar problems.\nAnswer examples to fully\nunderstand supporting\nconditions and answer related\nexercises.",
-      "minutes": "60\n\n60"
-    },
-    {
-      "index": "17",
-      "content": "Learn about shearing force and bending moments\nof beams.",
-      "operation": "Lecture, Practice\nQ&A, Self-check",
-      "assignments": "Read the text pp. 48 to 52\ncarefully.\nReview to understand shearing\nforce and bending moment of\nbeams and answer related\nexercises.",
-      "minutes": "60\n\n60"
-    },
-    {
-      "index": "18",
-      "content": "Learn about shearing force and bending moments\nof beams.",
-      "operation": "Lecture, Practice\nQ&A, Self-check",
-      "assignments": "Read the text pp. 52 to 58\ncarefully.\nReview to understand shearing\nforce and bending moment of\nbeams and answer related\nexercises.",
-      "minutes": "60\n\n60"
-    },
-    {
-      "index": "19",
-      "content": "Answer exercises on classes 15 to 18 and deepen\nunderstanding.",
-      "operation": "Practice, Q&A,\nSelf-check",
-      "assignments": "Answer exercises of Chapter 3.\n\nAnswer exercises of Chapter 3\nand understand points\ninsufficiently grasped.",
-      "minutes": "90\n\n90"
-    },
-    {
-      "index": "20",
-      "content": "Learn about stresses on beams.",
-      "operation": "Lecture, Practice\nQ&A, Self-check",
-      "assignments": "Read the text pp. 58 to 61\ncarefully.\nReview to understand features\nof stress occurring in beams\nby supposing familiar\nproblems. Answer examples to\nfully understand the stresses\nof beams and answer related\nexercises.",
-      "minutes": "60\n\n60"
-    },
-    {
-      "index": "21",
-      "content": "Learn about stresses on beams.",
-      "operation": "Lecture, Practice\nQ&A, Self-check",
-      "assignments": "Read the text pp. 61 to 65\ncarefully.\nReview to understand features\nof stress occurring in beams\nby supposing familiar\nproblems. Answer examples to\nfully understand stress in\nbeams and answer related\nexercises.",
-      "minutes": "60\n\n60"
-    },
-    {
-      "index": "22",
-      "content": "Answer the exercises on classes 20 to 21\nclasses and deepen understanding.",
-      "operation": "Practice, Q&A,\nSelf-check",
-      "assignments": "Answer exercises of Chapter 3\nfor classes 20 to 21.\nAnswer exercises of Chapter 3\nand understand points\ninsufficiently grasped.",
-      "minutes": "90\n\n90"
-    },
-    {
-      "index": "23",
-      "content": "Learn about deflection of beams.",
-      "operation": "Lecture, Practice\nQ&A, Self-check",
-      "assignments": "Read the text pp. 65 to 69\ncarefully.\nReview to understand features\nof deflection of beams by\nsupposing familiar problems.\nAnswer examples to fully\nunderstand deflection of\nbeams and answer related\nexercises.",
-      "minutes": "60\n\n60"
-    },
-    {
-      "index": "24",
-      "content": "Learn about deflection of beams.",
-      "operation": "Lecture, Practice\nQ&A, Self-check",
-      "assignments": "Read the text pp. 69 to 72\ncarefully.\nReview to understand features\nof deflection of beams and\ncalculate deflection. Answer\nexamples to fully understand\ndeflection of beams and\nanswer related exercises.",
-      "minutes": "60\n\n60"
-    },
-    {
-      "index": "25",
-      "content": "Answer the exercises on classes 23 to 24 and\ndeepen understanding.",
-      "operation": "Practice, Q&A,\nSelf-check",
-      "assignments": "Answer exercises of Chapter 3\nfor classes 23 to 24.\nAnswer exercises of Chapter 3\nand understand points\ninsufficiently grasped.",
-      "minutes": "90\n\n90"
-    },
-    {
-      "index": "26",
-      "content": "Test 3 on classes 15 to 25 after review.",
-      "operation": "Test 3\nSelf-check",
-      "assignments": "Answer examples and exercises\nof Chapter 3.\nReview test 3 and understand\npoints insufficiently grasped.",
-      "minutes": "90\n\n90"
-    },
-    {
-      "index": "27",
-      "content": "Explanation of test 3 and overall review for\nexamination.",
-      "operation": "Lecture, Practice\nQ&A, Self-check",
-      "assignments": "Answer tests 1, 2 and 3 and\nconfirm correctness.\nReview classes for\nexamination.",
-      "minutes": "60\n\n60"
-    },
-    {
-      "index": "28",
-      "content": "Examination after total review.",
-      "operation": "Examination\nSelf-check",
-      "assignments": "Review classes and understand\npoints insufficiently\ngrasped.\nAnswer and fully understand\nexamples and exercises in the\ntext.",
-      "minutes": "90\n\n90"
-    },
-    {
-      "index": "29",
-      "content": "Overall review of important points of this\ncourse.",
-      "operation": "Lecture, Practice\nQ&A, Self-check",
-      "assignments": "Review all classes.",
-      "minutes": "120"
-    },
-    {
-      "index": "30",
-      "content": "Total review.\nSelf-evaluation.",
-      "operation": "Explanation of\nexamination and overall\ncomments.\nSelf-check.",
-      "assignments": "Understand points\ninsufficiently grasped and\nreflect based on target\nabilities.",
+      "content": "Self-check",
+      "operation": "Explanation, experiment and exercise",
+      "assignments": "Preview and review",
       "minutes": "120"
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　K210-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Aeronautics and Astronautics\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                材料力学\n                Strength of  Materials\n\n              4\n              K210-01\n\n                2026年度\n\n                2nd year 1st semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  OGURI Kazuyuki\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Stress, Strain\n2.Tension, Compression\n3.Beams\n4.Regional collaboration\n\n              Strength of Materials clarify the forces and deformations of various parts of bridges, towers, cars, planes, energy equipment, etc. These results can be used for design safety. It is an important subject that forms the basis of mechanical engineering. In this course, students should gain a thorough understanding of the basics of the strength of materials through lectures and practice. Students will explore examples of structures in the community where material mechanics is utilized, and will also make effective use of generative AI.\n\n              授業の概要および学習上の助言\n\n              Students must thoroughly learn the following as the necessary basic knowledge for engineers at any stage of their career.\nIt is important to work through many exercise answers, but the study of strength of materials is extremely difficult to understand by just memorizing formulas and patterns. For all problems, students will start from an understanding of the basic formula and solve the problem by setting appropriate boundary conditions for the problem.\n\n1. Stress and strain, 2. Hooke’s law, 3. Mechanical properties of materials, 4. Allowable stress and safety factors,\n5. Frame structure, 6. Thermal stress, 7. Stress concentration,\n8. Thin-walled cylinder subjected to internal pressure,\n9. Beams and their supporting conditions, 10. Shearing force and bending moment of a beam,\n11. Stress on beams, 12. Deflection of beams\n\nFurthermore, students should understand the real applications of structure by applying strength of materials in their locality.\n\n              教科書および参考書・リザーブドブック\n\n              Textbooks: Basis of Understanding Strength of Materials, 2nd edition, Kyoritsu Shuppan Co. Ltd. (in Japanese)\nReference books: Unspecified\nReserved books: Unspecified\n\n              履修に必要な予備知識や技能\n\n              As a prerequisite, it is necessary to fully understand the course Industrial Mechanics I. Students need to fully understand the content of this course as the basis of the courses Mechanics of Aircraft Structure and Design of Aircraft Structure in later semesters.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                D,J,K,L,O\n                Be able to explain concept of normal stress, shear stress, normal strain, shear strain and Hooke's law.\n\n                ②\n                D,J,K,L,O\n                Be able to explain deformation and fracturing behavior of materials by drawing stress-strain characteristics.\n\n                ③\n                D,J,K,L,O\n                Be able to explain relationship between material properties, reference strength and the allowable stress.\n\n                ④\n                D,J,K,L,O\n                Be able to explain stress in frame structure and thermal stress, and also explain stress concentration.\n\n                ⑤\n                D,J,K,L,O\n                Be able to explain the shearing force and bending moment occurring in a beam by drawing SFDs and BMDs.\n\n                ⑥\n                D,J,K,L,O\n                Be able to determine the stress and deflection occurring in a beam and to design safe structures.\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n            ",
-  "courseId": "2026:spring:K210-01:0:814",
+  "rawText": "金沢工業大学 学習支援計画書 B131-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Applied Bioscience\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\nバイオ・化学基礎実験・演習B(応用バイオ)\nBasic Experiments and Practice in Bioscience and Chemistry B (Applied Bioscience)  3 B131-01  2024年度\n 2nd year 1st semester\n2nd year 2nd semester  修学規程第4条を参照\n    担当教員名\n OZEKI Kenji, HAKAMADA Yoshihiro\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Substance concentration 2.Buffer 3.Neutralization titration 4.Microbial culture 5.Microbial metabolism  Through experiments and exercises, students will acquire the basic concepts and techniques in conducting biological and chemical experiments using buffer preparation, pH measurement, neutralization titration, and biochemical experiments and exercises with microorganisms\n    授業の概要および学習上の助言   After attending safety training for chemical experiments and microbial experiments, we will start experiments divided into the following three themes: 1. Chemical analysis experiments. 2. Microbial separation experiments. 3. Microbial metabolism experiments. Experiment guidebooks will be distributed for each theme. Students are required to prepare for and complete each experiment.\n    教科書および参考書・リザーブドブック   None\n    履修に必要な予備知識や技能   Be sure to read the keywords in the experiment guidebook and the experiment contents before each experiment. Check the e-syllabus.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① F,G Ability to explain safe use of laboratory equipment and reagents.   ② F,G,K Ability to explain neutralization titration and substance properties.   ③ F,G,K Ability to explain understand and handle microbial cultures.   ④ G,K,L Ability to make logical presentations.   ⑤ G,K,L Ability to explain create reports based on experimental results.   ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 0 15 50 15 0 0 20 100     指標と評価割合 総合評価割合 0 15 50 15 0 0 20 100   総合力指標 知識を取り込む力 0 15 50 15 0 0 20 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ①      ②     ③     ④     ⑤     ⑥     クイズ\n小テスト ① レ Preparation for tasks and experiments will be evaluated   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     レポート ① レ Reports including consideration of experimental results will be evaluated.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     成果発表\n(口頭・実技) ① レ Presentations with diagrams that show experimental results will be evaluated.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ① レ Attitude and willingness to participate in experiments will be evaluated.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     Students can give presentations that make use of experimental results and charts. Students can give presentations that make use of experimental results and charts.\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習課題に要する標準的な時間を記載してあります。日々の自学自習時間全体としては、各授業に応じた時間(例えば2単位科目の場合、予習2時間・復習2時間/週)を取るよう努めてください。詳しくは教員の指導に従って下さい。     授業明細   回数 学習内容 授業の運営方法 学習課題(予習・復習) 時間:分※     1  Guidance and safety education Reagent preparation Explanation, experiment and exercise Preview and review  135   2  Specific gravity of various sucrose concentration. Explanation, experiment and exercise Preview and review  135   3  Neutralization titration Explanation, experiment and exercise Preview and review  135   4  Measurement of tyrosinase activity from mushroom Explanation, experiment and exercise Study of enzyme kinetics  135   5  Inhibition experiment of tyrosinase activity Explanation, experiment and exercise Study of enzyme inhibition, Km value and Vmax.  120   6  TLC analysis Explanation, experiment and e",
+  "courseId": "2024:fall:B131-01:0:814",
   "language": "en"
 }

@@ -1,57 +1,70 @@
 {
   "sourceIndex": 323,
   "sourceUrl": "/opsyllabus/kitos0110/323/1",
-  "importedAt": "2026-06-08T09:33:59.634Z",
-  "title": "分散システム",
-  "subtitle": "Distributed Object Oriented Systems",
-  "courseType": "Major ProgramMajor Courses",
+  "importedAt": "2026-06-09T01:29:22.070Z",
+  "title": "自動制御",
+  "subtitle": "Automatic Control",
+  "courseType": "Major Program\nMajor Courses",
   "credits": "2",
-  "term": "2026年度\n\n                3rd year 1st semester",
+  "term": "2024年度\n 3rd year 1st semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "NAKAZAWA Minoru"
+    "OYAMA Daisuke",
+    "ASHINO Makoto",
+    "KONNO Takeshi"
   ],
   "keywords": [
-    "Distributed Processing",
-    "Cloud Computing",
-    "Virtualization",
-    "Network Architecture",
-    "Network Security"
+    "Feedback Control 2.Transfer Function 3.Laplace Conversion & Inversion 4.Transient & Frequency Responses 5.Stability"
   ],
-  "educationalGoal": "A distributed system is a technology for integrating both computers and networks, and is an attempt to link computers that originally operated independently to a network. In this class, we will focus on computer architecture, processes, client-server, communication, naming, clock and synchronization, fault-tolerance, and security, which are necessary for learning distributed systems.",
-  "advice": "Before each class session, students are required to review the prerequisite content and complete a series of questions to confirm that they have mastered the content before attending that week's lectures.\nThe students are required to attend the lectures of the week. In each class session, the main focus is on solving application problems in class based on the assumption that the students understand the pre-study contents.\nThe main focus of each class session is to solve application problems in class, assuming that the students understand the prior learning content. The course is not designed to be an achievement test, as is conventionally the case, in which a lecture is given from a textbook and later students are asked to reproduce parts of the lecture in a written test.\nThe course does not use a test to check the level of achievement of students.",
-  "books": "Distributed System (in Japanese)\nDistributed System (in English)",
-  "requiredKnowledge": "The units of “Programming 3” and “Information Network” are expected to have been acquired. Attendance is completely unrelated to student evaluations. However, if students do not attend at least two-thirds of the whole course, they will not be eligible to take the achievement confirmation test. Instead of covering all the contents described in the textbooks, we will select and explain as necessary. Then, after each commentary, students will have group work to solve presented problems and will give a presentation at the beginning of the next class.",
+  "educationalGoal": "Students will: (1) learn framework of feedback control theory involving \"Mathematical Expression\",\"Laplace Conversions\",\"Block Diagrams\",\"Transfer Functions\" and furthermore (2) learn characteristics \"Transfer Functions\",\"Stability\",\"Transient & Frequency Responses\",\"Steady States\".",
+  "advice": "This is a basic course of Feedback Control. We will cover the following materials: 1. Basic concepts in feedback control: The Laplace inversion & the time functions, System elements and block diagram, Graphical representation by the frequency functions. Representation with elementary blocks. 5. Stability of linear control systems 2. The various elements of a control process: The concept of stability Proportional, integrating, differentiating, and Stability analysis using the Routh-Hurwitz criterion 1st-order-, 2nd-order-, & delay-time lag blocks. (matrices & determinants) 3. Transformation from time (t) to frequency (s) domains: The elementary blocks & the transfer functions, The Laplace transformation & the transfer functions, Examples of electric circuit systems. 4. Transfer characteristics of typical basic blocks: Specifications in the time domain (transient responses), Specifications in the frequency domain (frequency responses)",
+  "books": "None",
+  "requiredKnowledge": "Acquisition of “Computer Engineering for Electrical Engineers” and “Electrical and Electronic Instrumentation”. Enough skill of mathematics (especially matrix / inverse matrix and determinant calculations). Basic knowledge of mathematics (the Laplace conversion & inversion and so on). How to use a calculator.",
   "activityGoals": [
     {
       "index": "①",
-      "type": "K,N,Q",
-      "body": "Be able to explain the needs for and benefits of distributing data and processing."
+      "type": "K",
+      "body": "Be able to explain the elementary blocks and their basic characteristics."
     },
     {
       "index": "②",
-      "type": "K,N,Q",
-      "body": "Be able to explain the needs for and benefits of distributing data and processing."
+      "type": "K",
+      "body": "Be able to explain the Laplace conversion and inversion."
+    },
+    {
+      "index": "③",
+      "type": "K",
+      "body": "Be able to explain the transfer functions and represent control systems with the transfer functions & block diag"
+    },
+    {
+      "index": "④",
+      "type": "K",
+      "body": "Be able to perform basic designs of the feedback control systems using the transfer functions."
+    },
+    {
+      "index": "⑤",
+      "type": "K",
+      "body": "Be able to explain analytical stability criteria on linear control systems."
     }
   ],
   "evaluationWeights": [
     {
       "label": "総合評価割合",
       "values": [
+        "40",
+        "30",
+        "10",
         "0",
-        "40",
-        "40",
+        "0",
+        "0",
         "20",
-        "0",
-        "0",
-        "0",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -61,20 +74,20 @@
     {
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
+        "40",
+        "30",
+        "10",
         "0",
-        "40",
-        "40",
+        "0",
+        "0",
         "20",
-        "0",
-        "0",
-        "0",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -84,20 +97,20 @@
     {
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
+        "40",
+        "30",
+        "10",
         "0",
-        "40",
-        "40",
+        "0",
+        "0",
         "20",
-        "0",
-        "0",
-        "0",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -118,9 +131,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -128,7 +141,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -141,9 +154,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -164,9 +177,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -175,125 +188,118 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "Within 15 weeks you will be able to\n1. Analyze the technical advantages of specific developments in distributed computer systems.\n2. Demonstrate system analysis using existing scientific and engineering knowledge.\n3. Further develop an attitude that allows them to explain problems clearly. Improve the quality of feedback.\n4. Clearly summarize the analysis in a presentation or report.\n5. Evaluate the demonstrated analysis of others.",
-    "standard": "Within 15 weeks you will be able to\n\n1. Explain the technical advantages in the field of distributed systems.\n2. Explain how to analyze a system using existing scientific and engineering knowledge.\n3. Be able to clearly explain the problem.\n4. Be able to summarize the analysis in a presentation or report.\n5. Be able to understand the demonstrated analysis of others."
+    "ideal": "(1) Explain more than six elementary blocks of a control process and their characteristics. (2) Perform the Laplace conversions & inversions for the transfer functions that play key roles in complicated control systems. (3) Express the transfer elements in the frequency (s) domain for some electric circuit models. (4) Calculate and characterize the transient and frequency responses of the transfer functions in the complicated control systems.",
+    "standard": "(1) Explain some basic elements of a control process and their characteristics. (2) Perform the Laplace conversions & inversions for the elementary transfer functions using mathematical formulas. (3) Express the transfer functions of control systems in block diagrams. (4) Explain transient responses to noise signals and their stabilities, and analyze them using the Routh-Hurwitz criterion."
   },
   "clipProcess": "",
   "lessons": [
     {
       "index": "1",
-      "content": "Introduction about Distributed System",
-      "operation": "Lecture",
-      "assignments": "Understand the objectives of\nclass",
-      "minutes": "180"
+      "content": "Course introduction and basic concepts of control systems such as \"Automatic Control\", \"Feedback Control\",\"Elementary Blocks\", \"Block Diagram\" and so on.",
+      "operation": "Lecture and Q&A Self-check (practice)",
+      "assignments": "",
+      "minutes": "90"
     },
     {
       "index": "2",
-      "content": "1. Overview of distributed systems\nI will take up what a distributed system is and\nexplain some of its advantages over a\ncentralized system.",
-      "operation": "Lecture and quizzes",
-      "assignments": "Understand the objectives of\nclass",
-      "minutes": "180"
+      "content": "The basic \"Elements\" of a control process: \"Proportional\", \"Integral\", \"Differential\", \"1st-order-time\",\"2nd-order-time\" elements",
+      "operation": "Lecture and Q&A Self-check (practice)",
+      "assignments": "",
+      "minutes": "120"
     },
     {
       "index": "3",
-      "content": "2. Types of distributed systems\nUnderstand the types and purposes of\ndistributed systems. Learn what is different\nabout how each type of configuration.",
-      "operation": "Lecture and quizzes",
-      "assignments": "Review (Chapter 2 of Textbook)\nPreparation (Chapter 3 of the\ntextbook)",
-      "minutes": "180"
+      "content": "Description of continuum systems in the time domains and transformation from time (t) to frequency (s) domains, including “the elementary blocks & the transfer functions” and “the Laplace transformation & the transfer functions”.",
+      "operation": "Lecture and Q&A Self-check (practice)",
+      "assignments": "",
+      "minutes": "120"
     },
     {
       "index": "4",
-      "content": "3. Communication\nLearn about basic reference models and basic\nfunctions for exchanging data between\ncomponents of a distributed system.",
-      "operation": "Lecture and quizzes",
-      "assignments": "Review (Chapter 3 of Textbook)\nPreparation (Chapter 4 of the\ntextbook)",
-      "minutes": "100"
+      "content": "Test and review about contents learned in No.1 to 3 classes.",
+      "operation": "Lecture and Q&A Test (1) and review Self-reflection",
+      "assignments": "",
+      "minutes": "60"
     },
     {
       "index": "5",
-      "content": "4. Naming\nExplain common naming issues in distributed\nsystems and learn about the main methods of\nnaming.",
-      "operation": "Lecture and quizzes",
-      "assignments": "Review (Chapter 4 of Textbook)\nPreparation (Chapter 5 of the\ntextbook)",
-      "minutes": "180"
+      "content": "Basic connections of elementary blocks and equivalent block manipulations. Description of continuum systems in the time domains and transformation from time (t) to frequency (s) domains in electric circuit systems.",
+      "operation": "Lecture and Q&A Self-check (practice)",
+      "assignments": "",
+      "minutes": "90"
     },
     {
       "index": "6",
-      "content": "5. Architecture\nLearn basic design and concepts such as the\ndesign philosophy and basic design of\ndistributed systems.",
-      "operation": "Lecture and quizzes",
-      "assignments": "Review (Chapter 5 of Textbook)\nPreparation (Chapter 6 of the\ntextbook)",
-      "minutes": "180"
+      "content": "Transfer characteristics of typical basic blocks: Specifications in the time (t) domain (transient response).",
+      "operation": "Lecture and Q&A Self-check (practice)",
+      "assignments": "",
+      "minutes": "120"
     },
     {
       "index": "7",
-      "content": "6. Process\nLearn about the execution units in a\ndistributed system such as “process” and\n“thread”.",
-      "operation": "Lecture and quizzes",
-      "assignments": "Review (Chapter 6 of Textbook)\nPreparation (Chapter 7 of the\ntextbook)",
-      "minutes": "180"
+      "content": "Transformation from time (t) to frequency (s) domains: The elementary blocks & the transfer functions, The Laplace conversion & inversion, and summarize the transfer functions and the block diagrams",
+      "operation": "Lecture and Q&A Self-check (practice)",
+      "assignments": "",
+      "minutes": "60"
     },
     {
       "index": "8",
-      "content": "7. Client-Server model\nLearn the classification and characteristics of\nboth clients and servers from several\nperspectives.",
-      "operation": "Lecture and quizzes",
-      "assignments": "Review (Chapter 7 of Textbook)\nPreparation (Chapter 8 of the\ntextbook)",
-      "minutes": "180"
+      "content": "Test and review about contents learned in No.5 to 7 classes.",
+      "operation": "Lecture and Q&A Test (2) and review Self-reflection",
+      "assignments": "",
+      "minutes": "120"
     },
     {
       "index": "9",
-      "content": "8. Clock and Synchronization\nLearn about the basic methods of clock\nsynchronization and the exclusive control\nalgorithms in distributed systems.",
-      "operation": "Lecture and quizzes",
-      "assignments": "Review (Chapter 8 of Textbook)\nPreparation (Chapter 9 of the\ntextbook)",
-      "minutes": "180"
+      "content": "Stability of linear control systems, especially the concept of stability",
+      "operation": "Lecture and Q&A Self-check (practice)",
+      "assignments": "",
+      "minutes": "120"
     },
     {
       "index": "10",
-      "content": "9. Fault Torrent\nLearn about basic concepts and techniques for\nintroducing fault tolerance into distributed\nsystems.",
-      "operation": "Lecture and quizzes",
-      "assignments": "Review (Chapter 9 of Textbook)\nPreparation (Chapter 10 of\nthe textbook)",
-      "minutes": "180"
+      "content": "Stability of linear control systems, especially mathematical formations (characteristic equations) using matrices and determinants",
+      "operation": "Lecture and Q&A Self-check (practice)",
+      "assignments": "",
+      "minutes": "120"
     },
     {
       "index": "11",
-      "content": "10. Network Security\nLearn about cryptographic technologies,\nauthentication technologies, communication\nmethods, and access control.",
-      "operation": "Lecture and quizzes",
-      "assignments": "Review (Chapter 10 of\nTextbook)\nPreparation (Chapter 11 of\nthe textbook)",
-      "minutes": "180"
+      "content": "Stability of linear control systems, especially analysis using the Routh- Hurwitz criterion (matrices & determinants)",
+      "operation": "Interactive lecture & practice on the basis of questions & proposals",
+      "assignments": "",
+      "minutes": ""
     },
     {
       "index": "12",
-      "content": "11. Distributed files and objects\nLearn the advantages and disadvantages of\ndistributed files compared to centralized file\nsystems.",
-      "operation": "Lecture and quizzes",
-      "assignments": "Review (Chapter 11 of\nTextbook)\nPreparation (Chapter 12 of\nthe textbook)",
-      "minutes": "180"
+      "content": "Test and review about contents learned in No.9 to 11 classes.",
+      "operation": "Lecture and Q&A Test (3) and review Self-reflection",
+      "assignments": "",
+      "minutes": "120"
     },
     {
       "index": "13",
-      "content": "12. Distributed web systems\nLearn about the characteristics of distributed\nweb systems for processing a great deal of data.",
-      "operation": "Lecture and quizzes",
-      "assignments": "Review (Chapter 12 of\nTextbook)\nPreparation (Chapter 13 of\nthe textbook)",
-      "minutes": "180"
+      "content": "Overall exercises for promoting total learning abilities.",
+      "operation": "Interactive lecture & practice on the basis of questions & proposals",
+      "assignments": "",
+      "minutes": "200"
     },
     {
       "index": "14",
-      "content": "Hold a lecture on distributed systems with\nexternal lecturers.",
-      "operation": "Presentation (lecturers)",
-      "assignments": "Prepare for achievement exam.",
-      "minutes": "180"
+      "content": "Final exam and review.",
+      "operation": "Exam and review Self-reflection",
+      "assignments": "",
+      "minutes": ""
     },
     {
       "index": "15",
-      "content": "Summarize learning and Achievement exam.",
-      "operation": "Presentation (student),,\nexam",
-      "assignments": "Prepare for achievement exam.",
-      "minutes": "180"
-    },
-    {
-      "index": "16",
-      "content": "Summarize learning and review.",
-      "operation": "Presentation (student),\nreview",
-      "assignments": "Review of distributed systems",
-      "minutes": "180"
+      "content": "Comment on the exam, grade notification, and self-evaluation",
+      "operation": "Notification of all results, Self-evaluation",
+      "assignments": "",
+      "minutes": "60"
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　E521-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Information and Computer Science(〜2024)\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                分散システム\n                Distributed Object Oriented Systems\n\n              2\n              E521-01\n\n                2026年度\n\n                3rd year 1st semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  NAKAZAWA Minoru\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Distributed Processing\n2.Cloud Computing\n3.Virtualization\n4.Network Architecture\n5.Network Security\n\n              A distributed system is a technology for integrating both computers and networks, and is an attempt to link computers that originally operated independently to a network. In this class, we will focus on computer architecture, processes, client-server, communication, naming, clock and synchronization, fault-tolerance, and security, which are necessary for learning distributed systems.\n\n              授業の概要および学習上の助言\n\n              Before each class session, students are required to review the prerequisite content and complete a series of questions to confirm that they have mastered the content before attending that week's lectures.\nThe students are required to attend the lectures of the week. In each class session, the main focus is on solving application problems in class based on the assumption that the students understand the pre-study contents.\nThe main focus of each class session is to solve application problems in class, assuming that the students understand the prior learning content. The course is not designed to be an achievement test, as is conventionally the case, in which a lecture is given from a textbook and later students are asked to reproduce parts of the lecture in a written test.\nThe course does not use a test to check the level of achievement of students.\n\n              教科書および参考書・リザーブドブック\n\n              Distributed System (in Japanese)\nDistributed System (in English)\n\n              履修に必要な予備知識や技能\n\n              The units of “Programming 3” and “Information Network” are expected to have been acquired. Attendance is completely unrelated to student evaluations. However, if students do not attend at least two-thirds of the whole course, they will not be eligible to take the achievement confirmation test. Instead of covering all the contents described in the textbooks, we will select and explain as necessary. Then, after each commentary, students will have group work to solve presented problems and will give a presentation at the beginning of the next class.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                K,N,Q\n                Be able to explain the needs for and benefits of distributing data and processing.\n\n                ②\n                K,N,Q\n                Be able to explain the needs for and benefits of distributing data and processing.\n\n                ③\n\n                ④\n\n                ⑤\n\n                ⑥\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                0\n\n                40\n\n                40\n\n                20\n\n                0\n\n                0\n\n                0\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                0\n\n                40\n\n                40\n\n                20\n\n                0\n\n                0\n\n                0\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                0\n\n                40\n\n                40\n\n                20\n\n                0\n\n              ",
-  "courseId": "2026:spring:E521-01:0:323",
+  "rawText": "金沢工業大学 学習支援計画書 E624-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Electrical and Electronic Engineering(2018〜)\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n自動制御\nAutomatic Control  2 E624-01  2024年度\n 3rd year 1st semester  修学規程第4条を参照\n    担当教員名\n OYAMA Daisuke, ASHINO Makoto, KONNO Takeshi\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Feedback Control 2.Transfer Function 3.Laplace Conversion & Inversion 4.Transient & Frequency Responses 5.Stability  Students will: (1) learn framework of feedback control theory involving \"Mathematical Expression\",\"Laplace Conversions\",\"Block Diagrams\",\"Transfer Functions\" and furthermore (2) learn characteristics \"Transfer Functions\",\"Stability\",\"Transient & Frequency Responses\",\"Steady States\".\n    授業の概要および学習上の助言   This is a basic course of Feedback Control. We will cover the following materials: 1. Basic concepts in feedback control: The Laplace inversion & the time functions, System elements and block diagram, Graphical representation by the frequency functions. Representation with elementary blocks. 5. Stability of linear control systems 2. The various elements of a control process: The concept of stability Proportional, integrating, differentiating, and Stability analysis using the Routh-Hurwitz criterion 1st-order-, 2nd-order-, & delay-time lag blocks. (matrices & determinants) 3. Transformation from time (t) to frequency (s) domains: The elementary blocks & the transfer functions, The Laplace transformation & the transfer functions, Examples of electric circuit systems. 4. Transfer characteristics of typical basic blocks: Specifications in the time domain (transient responses), Specifications in the frequency domain (frequency responses)\n    教科書および参考書・リザーブドブック   None\n    履修に必要な予備知識や技能   Acquisition of “Computer Engineering for Electrical Engineers” and “Electrical and Electronic Instrumentation”. Enough skill of mathematics (especially matrix / inverse matrix and determinant calculations). Basic knowledge of mathematics (the Laplace conversion & inversion and so on). How to use a calculator.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① K Be able to explain the elementary blocks and their basic characteristics.   ② K Be able to explain the Laplace conversion and inversion.   ③ K Be able to explain the transfer functions and represent control systems with the transfer functions & block diag   ④ K Be able to perform basic designs of the feedback control systems using the transfer functions.   ⑤ K Be able to explain analytical stability criteria on linear control systems.   ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 40 30 10 0 0 0 20 100     指標と評価割合 総合評価割合 40 30 10 0 0 0 20 100   総合力指標 知識を取り込む力 40 30 10 0 0 0 20 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ There is an exam at the end of the semester to evaluate the degree of the achievement involving “Target Abilities 1 to 5”. The questions at the exam will be mainly concerned with the three tests prior to it. They are focused on the Laplace conversion and inversion in the elementary blocks because the transfer functions are of particular significance in the feedback control. The following topics are questioned for some basic electric circuits; the transfer functions, the block diagrams, the transient responses, and the stabilities.    ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     クイズ\n小テスト ① レ There are three tests (60 min/test) according to the “Target Abilities 1 to 5”. Every student’s level of understanding for five keywords is checked through them. The following topics are also questioned for some basic electric circuits: the transfer functions, the block diagrams, the transient responses, and the stabilities. Please be sure of overall review on the materials given at the basic course.   ② レ   ③ レ   ④ レ",
+  "courseId": "2024:fall:E616-01:0:323",
   "language": "en"
 }

@@ -1,71 +1,73 @@
 {
   "sourceIndex": 532,
   "sourceUrl": "/opsyllabus/kitos0110/532/1",
-  "importedAt": "2026-06-08T09:34:03.910Z",
-  "title": "心理情報プログラミングⅡ",
-  "subtitle": "Programing in Psychology and Information Design II",
-  "courseType": "Major ProgramMajor Courses",
+  "importedAt": "2026-06-09T01:29:24.031Z",
+  "title": "メディア数理",
+  "subtitle": "Media Mathematics",
+  "courseType": "Major Program\nMajor Courses",
   "credits": "2",
-  "term": "2026年度\n\n                2nd year 1st semester",
+  "term": "2024年度\n 3rd year 2nd semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "TOKUOKA Masaru"
+    "KAMADA Hiroshi"
   ],
   "keywords": [
-    "Programing",
-    "R",
-    "data handling",
-    "data visualization"
+    "Mathematics 2.Physics 3.Matrix 4.Game programming 5.Information society"
   ],
-  "educationalGoal": "Recent research in psychology tends to yield increasingly large datasets obtained through experiments and surveys. As data sizes grow, spreadsheet software becomes inadequate for reviewing the entire dataset or performing the necessary preprocessing for analysis, necessitating the use of statistical software. This course aims to equip students with data handling techniques - such as data verification and preprocessing - required after data acquisition, using command-line interface (CUI) statistical software.",
-  "advice": "The contents of this course will be used in the “Psychological Informatics Major Lab/Exercises B” course, which is a compulsory course offered the following year.",
-  "books": "Reference books: RユーザのためのRStudio[実践]入門，Data visualization",
-  "requiredKnowledge": "Basic computer skills.\nBasic programing skills.\nStudents should bring their own PC to every class.",
+  "educationalGoal": "In this course, students will learn mathematics, physics, and how to write game programs. More specifically, students will learn the basics of geometry, vector operations, matrix operations, and geometric transformations as mathematics knowledge. Next, they will learn the basic equations of 1D, 2D, and 3D motion, Newton's law of motion. In parallel with learning mathematics and physics, students will also learn how to write programs.",
+  "advice": "In this course, students will learn about mathematics, physics, and corresponding programs up to their application to game programs. Students will learn to solve exercises autonomously and explain the answers appropriately. In addition, students will acquire practical knowledge about familiar game programs through consideration of applications such as contribution to the information society.",
+  "books": "None",
+  "requiredKnowledge": "It is desirable for students to have taken basic mathematical courses.",
   "activityGoals": [
     {
       "index": "①",
-      "type": "H,I",
-      "body": "Ability to write R programs tailored to specific analytical objectives."
+      "type": "D,E,K,L",
+      "body": "Be able to express geometric transformations such as translation, scaling, and rotation in a matrix."
     },
     {
       "index": "②",
-      "type": "H,I",
-      "body": "Ability to preprocess and format collected data into a form suitable for analysis in R."
+      "type": "D,E,K,L",
+      "body": "Be able to express 1D, 2D, and 3D movements using mathematical formulas."
     },
     {
       "index": "③",
-      "type": "E,H,I",
-      "body": "Ability to perform data visualization in R in accordance with analytical objectives."
+      "type": "D,E,K,L",
+      "body": "Be able to express collision detection mathematically."
     },
     {
       "index": "④",
-      "type": "H,I",
-      "body": "Ability to identify outliers in collected data using R."
+      "type": "D,E,K,L",
+      "body": "Be able to express parabolic motion mathematically."
     },
     {
       "index": "⑤",
-      "type": "H,I",
-      "body": "Ability to optimize R code related to data handling tasks."
+      "type": "D,E,K,L",
+      "body": "Be able to understand programs related to geometric expression."
+    },
+    {
+      "index": "⑥",
+      "type": "D,E,K,L",
+      "body": "Be able to understand programs related to physical movement."
     }
   ],
   "evaluationWeights": [
     {
       "label": "総合評価割合",
       "values": [
-        "40",
+        "0",
+        "0",
+        "80",
+        "0",
+        "0",
+        "0",
         "20",
-        "40",
-        "0",
-        "0",
-        "0",
-        "0",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -75,20 +77,20 @@
     {
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
-        "40",
+        "0",
+        "0",
+        "80",
+        "0",
+        "0",
+        "0",
         "20",
-        "40",
-        "0",
-        "0",
-        "0",
-        "0",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -98,20 +100,20 @@
     {
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
-        "40",
+        "0",
+        "0",
+        "80",
+        "0",
+        "0",
+        "0",
         "20",
-        "40",
-        "0",
-        "0",
-        "0",
-        "0",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -132,9 +134,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -142,7 +144,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -155,9 +157,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -178,9 +180,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -189,118 +191,118 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "Students are able to write efficient code, freely perform data handling, and carry out data visualization in accordance with analytical objectives.",
-    "standard": "Students are able to preprocess collected data into a form suitable for analysis, visualize the data, and gain an overall understanding of its characteristics."
+    "ideal": "Be able to understand textbook contents, solve high level problems, and make corresponding programs.",
+    "standard": "Be able to understand textbook contents, solve standard level problems, and understand corresponding programs."
   },
   "clipProcess": "",
   "lessons": [
     {
       "index": "1",
-      "content": "Orientation\ncourse objectives and structure\nlogging in to the RStudio Server",
-      "operation": "Lecture\nSelf-check",
-      "assignments": "Review information from\nprevious programing classes",
-      "minutes": "30"
+      "content": "Explanation of syllabus Programming environment Visual expression language Processing; 3D, Nature of code, ControlP5",
+      "operation": "Lecture & exercise Self-check",
+      "assignments": "Review: Lecture contents",
+      "minutes": "120"
     },
     {
       "index": "2",
-      "content": "The importance of data visualization",
-      "operation": "Lecture\nSelf-check",
-      "assignments": "Review the last class and\npreview the next class",
-      "minutes": "60"
+      "content": "Lecture & exercise: Chapter 1 Points and Lines Lecture & exercise: Chapter 2 Geometry Snippets",
+      "operation": "Lecture & exercise Self-check",
+      "assignments": "Review: Lecture contents Preparation: Describe answers explanation for the specified exercises.",
+      "minutes": "60 60"
     },
     {
       "index": "3",
-      "content": "Basics of RStudio and project setup",
-      "operation": "Lecture\nPractice\nSelf-check",
-      "assignments": "Review the last class and\npreview the next class",
-      "minutes": "60"
+      "content": "Lecture & exercise: Chapter 3 Trigonometry Snippets Lecture & exercise: Chapter 4 Vector Operations",
+      "operation": "Lecture & exercise Self-check",
+      "assignments": "Review: Lecture contents Preparation: Describe answers explanation for the specified exercises.",
+      "minutes": "60 60"
     },
     {
       "index": "4",
-      "content": "Basic data manipulation and visualization in R",
-      "operation": "Lecture\nPractice\nSelf-check",
-      "assignments": "Review the last class and\npreview the next class",
-      "minutes": "60"
+      "content": "Lecture & exercise: Chapter 5 Matrix Operations Lecture & exercise: Chapter 6 Transformations",
+      "operation": "Lecture & exercise Self-check",
+      "assignments": "Review: Lecture contents Preparation: Describe answers explanation for the specified exercises.",
+      "minutes": "60 60"
     },
     {
       "index": "5",
-      "content": "Importing experimental data and inspecting datas\nets",
-      "operation": "Lecture\nPractice\nSelf-check",
-      "assignments": "Review the last class and\npreview the next class",
-      "minutes": "60"
+      "content": "Lecture & exercise: Chapter 7 Unit Conversions Lecture & exercise: Chapter 8 Motion in One Dimension",
+      "operation": "Lecture & exercise Self-check",
+      "assignments": "Review: Lecture contents Preparation: Describe answers explanation for the specified exercises.",
+      "minutes": "60 60"
     },
     {
       "index": "6",
-      "content": "Data inspection",
-      "operation": "Lecture\nPractice\nSelf-check",
-      "assignments": "Review the last class and\npreview the next class",
-      "minutes": "60"
+      "content": "Lecture & exercise: Chapter 9 Derivative Approach to Motion in One Dimension Lecture & exercise: Chapter 10 Motion in Two and Three Dimensions",
+      "operation": "Lecture & exercise Self-check",
+      "assignments": "Review: Lecture contents Preparation: Describe answers explanation for the specified exercises.",
+      "minutes": "60 60"
     },
     {
       "index": "7",
-      "content": "The importance of codebooks and the basics of gg\nplot2",
-      "operation": "Lecture\nPractice\nSelf-check",
-      "assignments": "Review the practice",
-      "minutes": "30"
+      "content": "Lecture & exercise: Chapter 11 Newton's Laws",
+      "operation": "Lecture & exercise Self-check",
+      "assignments": "Review: Lecture contents Preparation: Describe answers explanation for the specified exercises.",
+      "minutes": "60 60"
     },
     {
       "index": "8",
-      "content": "Data visualization",
-      "operation": "Lecture\nPractice\nSelf-check",
-      "assignments": "Review the last class and\npreview the next class",
-      "minutes": "60"
+      "content": "Lecture & exercise: Chapter 12 Energy",
+      "operation": "Lecture & exercise Self-check",
+      "assignments": "Review: Lecture contents Preparation: Describe answers explanation for the specified exercises.",
+      "minutes": "60 60"
     },
     {
       "index": "9",
-      "content": "Importing multiple datasets",
-      "operation": "Lecture\nPractice\nSelf-check",
-      "assignments": "Review the last class and\npreview the next class",
-      "minutes": "60"
+      "content": "Lecture & exercise: Chapter 13 Momentum and Collisions",
+      "operation": "Lecture & exercise Self-check",
+      "assignments": "Review: Lecture contents Preparation: Describe answers explanation for the specified exercises.",
+      "minutes": "60 60"
     },
     {
       "index": "10",
-      "content": "Data structure: tidy data and untidy (messy) dat\na",
-      "operation": "Lecture\nPractice\nSelf-check",
-      "assignments": "Review the last class and\npreview the next class",
-      "minutes": "60"
+      "content": "Lecture & exercise: Chapter 14 Rotational Motion",
+      "operation": "Lecture & exercise Self-check",
+      "assignments": "Review: Lecture contents Preparation: Describe answers explanation for the specified exercises.",
+      "minutes": "60 60"
     },
     {
       "index": "11",
-      "content": "Importing questionnaire data and creating variab\nles",
-      "operation": "Lecture\nPractice\nSelf-check",
-      "assignments": "Review the last class and\npreview the next class",
-      "minutes": "60"
+      "content": "Explanation and preparation for work issues",
+      "operation": "Lecture & exercise Self-check",
+      "assignments": "Review: Concept of the work",
+      "minutes": "90"
     },
     {
       "index": "12",
-      "content": "Merging questionnaire datasets",
-      "operation": "Lecture\nPractice\nSelf-check",
-      "assignments": "Review the last class and\npreview the next class",
-      "minutes": "60"
+      "content": "Presentation of work concept",
+      "operation": "Presentation Lecture & exercise Self-check",
+      "assignments": "Preparation: Produce the first edition of the work.",
+      "minutes": "240"
     },
     {
       "index": "13",
-      "content": "Integrating experimental data with questionnaire\n data",
-      "operation": "Lecture\nPractice\nSelf-check",
-      "assignments": "Prepare for the final exam",
-      "minutes": "60"
+      "content": "First presentation of work",
+      "operation": "Presentation Evaluation Self-check",
+      "assignments": "Preparation: Completion of the work",
+      "minutes": "240"
     },
     {
       "index": "14",
-      "content": "Implement the final practical task\nFinal exam",
-      "operation": "Lecture\nPractice\nSelf-check",
-      "assignments": "Review the final exam",
+      "content": "Final presentation of the work",
+      "operation": "Presentation Evaluation Self-check",
+      "assignments": "Review: Evaluation results.",
       "minutes": "30"
     },
     {
       "index": "15",
-      "content": "Review final exam and whole course",
-      "operation": "Q and A\nSelf-check",
-      "assignments": "Review the whole course",
-      "minutes": "30"
+      "content": "Developmental learning Class summary Self-check",
+      "operation": "Review the entire class Lecture & exercise Self-check",
+      "assignments": "Review: Review the entire class and organize class knowledge.",
+      "minutes": "90"
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　M114-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Psychology and Information Design\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                心理情報プログラミングⅡ\n                Programing in Psychology and Information Design II\n\n              2\n              M114-01\n\n                2026年度\n\n                2nd year 1st semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  TOKUOKA Masaru\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Programing\n2.R\n3.data handling\n4.data visualization\n\n              Recent research in psychology tends to yield increasingly large datasets obtained through experiments and surveys. As data sizes grow, spreadsheet software becomes inadequate for reviewing the entire dataset or performing the necessary preprocessing for analysis, necessitating the use of statistical software. This course aims to equip students with data handling techniques - such as data verification and preprocessing - required after data acquisition, using command-line interface (CUI) statistical software.\n\n              授業の概要および学習上の助言\n\n              The contents of this course will be used in the “Psychological Informatics Major Lab/Exercises B” course, which is a compulsory course offered the following year.\n\n              教科書および参考書・リザーブドブック\n\n              Reference books: RユーザのためのRStudio[実践]入門，Data visualization\n\n              履修に必要な予備知識や技能\n\n              Basic computer skills.\nBasic programing skills.\nStudents should bring their own PC to every class.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                H,I\n                Ability to write R programs tailored to specific analytical objectives.\n\n                ②\n                H,I\n                Ability to preprocess and format collected data into a form suitable for analysis in R.\n\n                ③\n                E,H,I\n                Ability to perform data visualization in R in accordance with analytical objectives.\n\n                ④\n                H,I\n                Ability to identify outliers in collected data using R.\n\n                ⑤\n                H,I\n                Ability to optimize R code related to data handling tasks.\n\n                ⑥\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                40\n\n                20\n\n                40\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                40\n\n                20\n\n                40\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                40\n\n                20\n\n                40\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  コラボレーションとリーダーシップ\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  発表・表現・伝達する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  学習に取組む姿勢・意欲\n\n                    0\n\n                 ",
-  "courseId": "2026:spring:M114-01:0:532",
+  "rawText": "金沢工業大学 学習支援計画書 F032-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Media Informatics\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\nメディア数理\nMedia Mathematics  2 F032-01  2024年度\n 3rd year 2nd semester  修学規程第4条を参照\n    担当教員名\n KAMADA Hiroshi\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Mathematics 2.Physics 3.Matrix 4.Game programming 5.Information society  In this course, students will learn mathematics, physics, and how to write game programs. More specifically, students will learn the basics of geometry, vector operations, matrix operations, and geometric transformations as mathematics knowledge. Next, they will learn the basic equations of 1D, 2D, and 3D motion, Newton's law of motion. In parallel with learning mathematics and physics, students will also learn how to write programs.\n    授業の概要および学習上の助言   In this course, students will learn about mathematics, physics, and corresponding programs up to their application to game programs. Students will learn to solve exercises autonomously and explain the answers appropriately. In addition, students will acquire practical knowledge about familiar game programs through consideration of applications such as contribution to the information society.\n    教科書および参考書・リザーブドブック   None\n    履修に必要な予備知識や技能   It is desirable for students to have taken basic mathematical courses.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① D,E,K,L Be able to express geometric transformations such as translation, scaling, and rotation in a matrix.   ② D,E,K,L Be able to express 1D, 2D, and 3D movements using mathematical formulas.   ③ D,E,K,L Be able to express collision detection mathematically.   ④ D,E,K,L Be able to express parabolic motion mathematically.   ⑤ D,E,K,L Be able to understand programs related to geometric expression.   ⑥ D,E,K,L Be able to understand programs related to physical movement.\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 0 0 80 0 0 0 20 100     指標と評価割合 総合評価割合 0 0 80 0 0 0 20 100   総合力指標 知識を取り込む力 0 0 80 0 0 0 20 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ①      ②     ③     ④     ⑤     ⑥     クイズ\n小テスト ①      ②     ③     ④     ⑤     ⑥     レポート ① レ Students should submit answer explanation reports for exercise questions. Students should submit their work reports.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥ レ   成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ① レ Class attendance, punctuality, attitude, etc. are subject to evaluation.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥ レ\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     Be able to understand textbook contents, solve high level problems, and make corresponding programs. Be able to understand textbook contents, solve standard level problems, and understand corresponding programs.\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習課題に要する標準的な時間を記載してあります。日々の自学自習時間全体としては、各授業に応じた時間(例えば2単位科目の場合、予習2時間・復習2時間/週)を取るよう努めてください。詳しくは教員の指導に従って下さい。     授業明細   回数 学習内容 授業の運営方法 学習課題(予習・復習) 時間:分※     1  Explanation of syllabus Programming environment Visual expression language Processing; 3D, Nature of code, ControlP5  Lecture & exercise Self-check Review: Lecture contents  120   2  Lecture & exercise: Chapter 1 Points and Lines Lecture & exercise: Chapter 2 Geometry Snippets Lecture & exercise Self-check Review: Lecture contents Preparation: Describe answers explanation for the specified exercises.  60 60   3  Lecture & exercise: Chapter 3 Trigonometry Snippets Lecture & exercise: Chapter 4 Vector Operations Lecture & exercise Self-check Review: Lecture contents Preparati",
+  "courseId": "2024:fall:F027-01:0:532",
   "language": "en"
 }

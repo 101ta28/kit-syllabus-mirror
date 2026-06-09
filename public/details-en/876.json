@@ -1,71 +1,64 @@
 {
   "sourceIndex": 876,
   "sourceUrl": "/opsyllabus/kitos0110/876/1",
-  "importedAt": "2026-06-08T09:34:11.374Z",
-  "title": "構造力学Ⅰ",
-  "subtitle": "Structural Mechanics I",
-  "courseType": "Major ProgramMajor Courses",
-  "credits": "2",
-  "term": "2026年度\n\n                1st year 1st semester",
+  "importedAt": "2026-06-09T01:29:27.271Z",
+  "title": "IoTプロトタイピング(夏期集中講義)",
+  "subtitle": "IoT Prototyping",
+  "courseType": "(Provided by all courses)\nLiberal Arts Courses\nTransdisciplinary Learning",
+  "credits": "1",
+  "term": "2024年度",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "TANAKA Yasushi"
+    "KAWANAMI Takashi",
+    "SANO Shoji"
   ],
   "keywords": [
-    "Mechanics of rigid bodies",
-    "Modeling of loads and structures",
-    "Reaction of structures",
-    "Cross-sectional forces in beams"
+    "Prototyping 2.Microcontrollers 3.Sensors & Actuators 4.Networking 5.Communication"
   ],
-  "educationalGoal": "Students will:\n(1)\tlearn the basic theory of structural mechanics which is essential in infrastructure design.\n(2)\tlearn the static mechanics of rigid bodies.\n(3)\tlearn about the equilibrium of forces acting on static structures.\n(4)\tlearn about cross-sectional forces in beam members.",
-  "advice": "This is a structural mechanics course. We will cover the following topics:\n\n1. Infrastructure design\n2. Mechanics of rigid bodies\n3. Moment\n4. Equilibrium of forces\n5. Reaction forces\n6. Boundary conditions\n7. Cross-sectional forces\n\nStudents will also learn about Q-diagrams and M-diagrams for cross sectional forces. Structural mechanics II and Structural design follow, and are based on this course. Therefore, students should come to understand the topics listed above in this course.",
-  "books": "基礎から学ぶ構造力学，藤本一男・西田進・中村一平・本田秀行・木村定雄，森北出版，2005",
-  "requiredKnowledge": "Basic knowledge of mathematical derivation and integration.",
+  "educationalGoal": "Learn prototyping methods using microcontrollers to build IoT systems. - Be able to understand the concept and process of prototyping. - Be able to understand how to use microcontroller-based sensors and actuators and how to use networks as basic knowledge required to build IoT systems. - Be able to propose and prototype IoT systems individually and in teams.",
+  "advice": "In this course, students will learn how to use microcontrollers to configure IoT systems, while creating and evaluating prototypes of their own (or their team's) proposed ideas. 1. Introduction to IoT Prototyping 2. Microcontroller exercise for prototyping 3. Prototyping preparation (individual) 4. Prototyping (team) 5. Evaluation and review 6. Prototyping (team) 7. Evaluation and review",
+  "books": "Textbooks:None Reference books:None Reserved books:None",
+  "requiredKnowledge": "No specialized knowledge is required for the course. Basic computer literacy (Windows/Office operation, typing, etc.) is required. Programming experience is not required. Because, microcomputer development is basically done by visual programming.",
   "activityGoals": [
     {
       "index": "①",
-      "type": "J",
-      "body": "Students can compose or decompose forces."
+      "type": "H",
+      "body": "To be able to explain the concept and methods of IoT prototyping."
     },
     {
       "index": "②",
-      "type": "J",
-      "body": "Students can estimate moment."
+      "type": "H",
+      "body": "To be able to develop IoT devices with sensors, actuators and microcontrollers."
     },
     {
       "index": "③",
-      "type": "J",
-      "body": "Students can describe the equilibrium of forces on a free body."
+      "type": "H",
+      "body": "To be able to construct IoT systems using networks."
     },
     {
       "index": "④",
-      "type": "J",
-      "body": "Students can analyze the reaction forces on static structures using the equilibrium of external forces."
-    },
-    {
-      "index": "⑤",
-      "type": "J",
-      "body": "Students can analyze the cross sectional forces on static beams."
+      "type": "G,H",
+      "body": "To be able to make proposals to use IoT systems to solve actual problems."
     }
   ],
   "evaluationWeights": [
     {
       "label": "総合評価割合",
       "values": [
+        "0",
+        "0",
+        "60",
         "40",
-        "30",
-        "20",
         "0",
         "0",
-        "5",
-        "5",
+        "0",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -75,20 +68,20 @@
     {
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
+        "0",
+        "0",
+        "60",
         "40",
-        "30",
-        "20",
         "0",
         "0",
-        "5",
-        "5",
+        "0",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -98,20 +91,20 @@
     {
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
+        "0",
+        "0",
+        "60",
         "40",
-        "30",
-        "20",
         "0",
         "0",
-        "5",
-        "5",
+        "0",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -132,9 +125,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -142,7 +135,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -155,9 +148,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -178,9 +171,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -189,118 +182,62 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "(1) Students can describe the structural model of beam members.\n(2) Students can estimate reactions in static beams.\n(3) Students can estimate cross-sectional forces.",
-    "standard": "(1) Students can explain how to make a structural model of a beam member.\n(2) Students can explain how to estimate reactions in static beams.\n(3) Students can explain how to estimate cross-sectional forces."
+    "ideal": "- Understand IoT prototyping techniques and be able to explain them to others. - Understand the basic technologies for prototyping IoT systems and be able to develop actual prototypes. - Make proposals to use IoT systems to solve actual problems.",
+    "standard": "- Understand IoT prototyping methods. - Understand basic technologies for prototyping IoT systems. - Understand the application examples of IoT systems."
   },
   "clipProcess": "",
   "lessons": [
     {
       "index": "1",
-      "content": "Course introduction\nAbstract of forces",
-      "operation": "Lecture, practice and Q&A",
-      "assignments": "Review pages 1 to 8 of the\ntextbook.",
-      "minutes": "100"
+      "content": "Guidance Introduction to IoT Prototyping",
+      "operation": "Lectures and Exercises",
+      "assignments": "Review of exercises Prepare a report on the lecture content.",
+      "minutes": "200"
     },
     {
       "index": "2",
-      "content": "Composition and decomposition of forces",
-      "operation": "Lecture, practice and Q&A",
-      "assignments": "Prepare pages 9 to 16 of the\ntextbook.",
-      "minutes": "100\n100"
+      "content": "Microcontroller Exercise for Prototyping (Sensor/Actuator)",
+      "operation": "Lectures and Exercises",
+      "assignments": "Review of exercises Prepare a report on the lecture content.",
+      "minutes": "200"
     },
     {
       "index": "3",
-      "content": "Concept of moment",
-      "operation": "Lecture, practice and Q&A",
-      "assignments": "Prepare pages 17 to 22 of the\ntextbook.",
-      "minutes": "100\n100"
+      "content": "Microcomputer exercise for prototyping (Using network) Prototyping preparation Elevator pitch",
+      "operation": "Lectures and Exercises",
+      "assignments": "Review of exercises Prepare a report on the lecture content.",
+      "minutes": "200"
     },
     {
       "index": "4",
-      "content": "Test and review of contents learned in 1st to\n3rd classes.",
-      "operation": "Test, lecture, Q&A and\nself-check",
-      "assignments": "Prepare for the test.",
-      "minutes": "100\n100"
+      "content": "Prototyping1 (Team)",
+      "operation": "Lectures and Exercises",
+      "assignments": "Review of exercises Prepare a report on the lecture content.",
+      "minutes": "200"
     },
     {
       "index": "5",
-      "content": "Equilibrium of forces acting on free bodies\nSupport condition of structures and reaction\nmodels\nEstimating reactions at supports",
-      "operation": "Lecture, practice and Q&A",
-      "assignments": "Prepare pages 45 to 49 of the\ntextbook.",
-      "minutes": "100\n100"
+      "content": "Evaluation and Reflection",
+      "operation": "Lectures and Exercises Presentation",
+      "assignments": "Review of exercises",
+      "minutes": "200"
     },
     {
       "index": "6",
-      "content": "Stability of rigid body",
-      "operation": "Lecture, practice and Q&A",
-      "assignments": "Review pages 34 to 36 of the\ntextbook.",
-      "minutes": "100\n100"
+      "content": "Prototyping2 (Team)",
+      "operation": "Lectures and Exercises",
+      "assignments": "Review of exercises Prepare a report on the lecture content.",
+      "minutes": "200"
     },
     {
       "index": "7",
-      "content": "Cross-sectional forces of simple beams",
-      "operation": "Lecture, practice and Q&A",
-      "assignments": "Prepare pages 48 to 54 of the\ntextbook.",
-      "minutes": "100\n100"
-    },
-    {
-      "index": "8",
-      "content": "Test and review of contents learned in 5th to\n7th classes",
-      "operation": "Test, lecture, practice,\nQ&A and self-check",
-      "assignments": "Prepare for the test.",
-      "minutes": "100\n100"
-    },
-    {
-      "index": "9",
-      "content": "Shear force and flexural moment of simple beams\nwith distributed forces",
-      "operation": "Lecture, practice and Q&A",
-      "assignments": "Review pages 54 to 58 of the\ntextbook.",
-      "minutes": "100\n100"
-    },
-    {
-      "index": "10",
-      "content": "Shear force and flexural moment of cantilever\nbeam",
-      "operation": "Lecture, practice and Q&A",
-      "assignments": "Review pages 75 to 85 of the\ntextbook.",
-      "minutes": "100\n100"
-    },
-    {
-      "index": "11",
-      "content": "Shear forces and flexural moments in simple beam\n on which external moments or triangular distrib\nutions act",
-      "operation": "Lecture, practice and Q&A",
-      "assignments": "Prepare and review pages 58 to\n 74 of the textbook.",
-      "minutes": "100\n100"
-    },
-    {
-      "index": "12",
-      "content": "Test and review of contents learned in 9th to\n11th classes",
-      "operation": "Test, lecture, practice,\nQ&A and self-check",
-      "assignments": "Prepare for the test.",
-      "minutes": "100\n100"
-    },
-    {
-      "index": "13",
-      "content": "Cross-sectional forces in overhung beams and Ger\nber beams",
-      "operation": "Lecture, practice and Q&A",
-      "assignments": "Prepare and review pages 85 to\n 100 of the textbook.",
-      "minutes": "100\n100"
-    },
-    {
-      "index": "14",
-      "content": "Exam and review",
-      "operation": "Exam and review",
-      "assignments": "Prepare for the exam.",
-      "minutes": "200\n100"
-    },
-    {
-      "index": "15",
-      "content": "Review of final exam, self-evaluation",
-      "operation": "Lecture, Q&A and Self-eval\nuation",
-      "assignments": "Review the class.",
-      "minutes": "100\n100"
+      "content": "Evaluation and Reflection",
+      "operation": "Lectures and Exercises Presentation",
+      "assignments": "Review of exercises",
+      "minutes": "200"
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　K503-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Civil and Environmental Engineering\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                構造力学Ⅰ\n                Structural Mechanics I\n\n              2\n              K503-01\n\n                2026年度\n\n                1st year 1st semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  TANAKA Yasushi\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Mechanics of rigid bodies\n2.Modeling of loads and structures\n3.Reaction of structures\n4.Cross-sectional forces in beams\n\n              Students will:\n(1)\tlearn the basic theory of structural mechanics which is essential in infrastructure design.\n(2)\tlearn the static mechanics of rigid bodies.\n(3)\tlearn about the equilibrium of forces acting on static structures.\n(4)\tlearn about cross-sectional forces in beam members.\n\n              授業の概要および学習上の助言\n\n              This is a structural mechanics course. We will cover the following topics:\n\n1. Infrastructure design\n2. Mechanics of rigid bodies\n3. Moment\n4. Equilibrium of forces\n5. Reaction forces\n6. Boundary conditions\n7. Cross-sectional forces\n\nStudents will also learn about Q-diagrams and M-diagrams for cross sectional forces. Structural mechanics II and Structural design follow, and are based on this course. Therefore, students should come to understand the topics listed above in this course.\n\n              教科書および参考書・リザーブドブック\n\n              基礎から学ぶ構造力学，藤本一男・西田進・中村一平・本田秀行・木村定雄，森北出版，2005\n\n              履修に必要な予備知識や技能\n\n              Basic knowledge of mathematical derivation and integration.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                J\n                Students can compose or decompose forces.\n\n                ②\n                J\n                Students can estimate moment.\n\n                ③\n                J\n                Students can describe the equilibrium of forces on a free body.\n\n                ④\n                J\n                Students can analyze the reaction forces on static structures using the equilibrium of external forces.\n\n                ⑤\n                J\n                Students can analyze the cross sectional forces on static beams.\n\n                ⑥\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                40\n\n                30\n\n                20\n\n                0\n\n                0\n\n                5\n\n                5\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                40\n\n                30\n\n                20\n\n                0\n\n                0\n\n                5\n\n                5\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                40\n\n                30\n\n                20\n\n                0\n\n                0\n\n                5\n\n                5\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  コラボレーションとリーダーシップ\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  発表・表現・伝達する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  学習に取組む姿勢・意欲\n\n                    0\n\n   ",
-  "courseId": "2026:spring:K503-01:0:876",
+  "rawText": "金沢工業大学 学習支援計画書 G265-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\n(Provided by all courses)\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     (Provided by all courses)\nLiberal Arts Courses\nTransdisciplinary Learning\nIoTプロトタイピング(夏期集中講義)\nIoT Prototyping  1 G265-01  2024年度\n   修学規程第4条を参照\n    担当教員名\n KAWANAMI Takashi, SANO Shoji\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Prototyping 2.Microcontrollers 3.Sensors & Actuators 4.Networking 5.Communication  Learn prototyping methods using microcontrollers to build IoT systems. - Be able to understand the concept and process of prototyping. - Be able to understand how to use microcontroller-based sensors and actuators and how to use networks as basic knowledge required to build IoT systems. - Be able to propose and prototype IoT systems individually and in teams.\n    授業の概要および学習上の助言   In this course, students will learn how to use microcontrollers to configure IoT systems, while creating and evaluating prototypes of their own (or their team's) proposed ideas. 1. Introduction to IoT Prototyping 2. Microcontroller exercise for prototyping 3. Prototyping preparation (individual) 4. Prototyping (team) 5. Evaluation and review 6. Prototyping (team) 7. Evaluation and review\n    教科書および参考書・リザーブドブック   Textbooks:None Reference books:None Reserved books:None\n    履修に必要な予備知識や技能   No specialized knowledge is required for the course. Basic computer literacy (Windows/Office operation, typing, etc.) is required. Programming experience is not required. Because, microcomputer development is basically done by visual programming.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① H To be able to explain the concept and methods of IoT prototyping.   ② H To be able to develop IoT devices with sensors, actuators and microcontrollers.   ③ H To be able to construct IoT systems using networks.   ④ G,H To be able to make proposals to use IoT systems to solve actual problems.   ⑤     ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 0 0 60 40 0 0 0 100     指標と評価割合 総合評価割合 0 0 60 40 0 0 0 100   総合力指標 知識を取り込む力 0 0 60 40 0 0 0 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ①      ②     ③     ④     ⑤     ⑥     クイズ\n小テスト ①      ②     ③     ④     ⑤     ⑥     レポート ① レ Report on opinions about IoT prototyping methods(individual) Report on the results of a basic exercise using microcontrollers(individual) Prototyping proposal (individual)    ② レ   ③ レ   ④ レ   ⑤     ⑥     成果発表\n(口頭・実技) ① レ Propose a prototype IoT system to solve a real problem (team): 2 sessions   ② レ   ③ レ   ④ レ   ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ①      ②     ③     ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     - Understand IoT prototyping techniques and be able to explain them to others. - Understand the basic technologies for prototyping IoT systems and be able to develop actual prototypes. - Make proposals to use IoT systems to solve actual problems. - Understand IoT prototyping methods. - Understand basic technologies for prototyping IoT systems. - Understand the application examples of IoT systems.\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習課題に要する標準的な時間を記載してあります。日々の自学自習時間全体としては、各授業に応じた時間(例えば2単位科目の場合、予習2時間・復習2時間/週)を取るよう努めてください。詳しくは教員の指導に従って下さい。     授業明細   回数 学習内容 授業の運営方法 学習課題(予習・復習) 時間:分※     1  Guidance Introduction to IoT Prototyping Lectures and Exercises Review of exercises Prepare a report on the lecture content.  200   2  Microcontroller Exercise for Prototyping (Sensor/Actuator) Lectures and Exercises Review of exercises Prepare a report on the lecture content.  200   3  Microcomputer exer",
+  "courseId": "2024:fall:G259-01:0:876",
   "language": "en"
 }

@@ -1,52 +1,54 @@
 {
   "sourceIndex": 388,
   "sourceUrl": "/opsyllabus/kitos0110/388/1",
-  "importedAt": "2026-06-08T09:34:00.980Z",
-  "title": "プロジェクトデザインⅢ（田中泰司研究室）",
-  "subtitle": "Design Project III(Tanaka Yasushi)",
-  "courseType": "Major ProgramMajor Project Courses",
-  "credits": "8",
-  "term": "2026年度\n\n                All year",
+  "importedAt": "2026-06-09T01:29:22.681Z",
+  "title": "論理回路",
+  "subtitle": "Logic Circuits",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "2",
+  "term": "2024年度\n 1st year 2nd semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "TANAKA Yasushi"
+    "KAWANAMI Takashi",
+    "SANO Shoji"
   ],
   "keywords": [
-    "Infrastructure",
-    "Maintenance",
-    "Disaster prevention",
-    "Engineering design",
-    "Materials for infrastructure"
+    "Logic Circuits 2.Combinational Logic Circuit 3.Flip-flop 4.Sequential Circuit 5.Local Cooperation"
   ],
-  "educationalGoal": "Achieving following abilities to be a civil engineer\n(1)\tBe able to conduct experiments, analyses or surveys.\n(2)\tBe able to design, construct, and maintain infrastructure.\n(3)\tBe able to explain the processes and effects involved in infrastructure.\n(4)\tBe able to analyze social changes taking the future into consideration.\n(5)\tBe able to develop sustainable society.",
-  "advice": "In the Tanaka laboratory, projects of structural mechanics, maintenance, or disaster prevention are carried out in Design Project III. A main theme will be proposed to each student by the instructor. Students will find problems related to the main theme as a first step. Second, they will conduct surveys. Then they will summarize their findings. Solutions will be conceived and implemented in accordance with plans formulated by the students themselves. In this course, each student proceeds with their project under the instruction of the supervisor.\nThe following details the activities for each semester.\nFirst semester:Besides textbooks and lecture notes, students refer to specific papers and journals. By doing a literature survey, students review their basic knowledge of structural mechanics and reinforced concrete engineering. Then students make presentations outlining their theme, background on their project, and their project plan.\nSecond semester:Projects planned in the first semester are carried out by individuals or teams to their conclusion.\nA minimum of 450 hours of learning time is required in this course. Preparation and review times shown in this syllabus are minimum values.",
-  "books": "Textbooks：None\nReference books：None\nReserved books：None",
-  "requiredKnowledge": "Students need an understanding of Structural Mechanics I and II, Structural Mechanics Analysis, and Civil and Environmental Engineering Major Lab/Exercises.",
+  "educationalGoal": "Students will: (1) learn basic logic circuits consisting of commonly used circuit components. (2) learn the actions of logical gates and flip-flop. (3) learn the basic design approach of logic circuits.",
+  "advice": "This is the basic course of computer architecture. We will cover the following materials: 1. Characteristics of logical gates. 2. Truth table for given a logic circuit. 3. Simplification of a logic circuit using a Karnaugh map. 4. Circuit architecture and design methodology of encoders, decoders, data selectors, multiplexers, coincidence circuits, binary adders, flip-flops, shift registers, and counters. 5. Application of local cooperation on logic circuits. Students are required to calculate binary numbers. Students are expected to understand the meaning of terms and characteristics. Students are expected to understand actions of logical circuits using a logic circuit simulator. Students are expected to review each course content.",
+  "books": "Japanese textbook",
+  "requiredKnowledge": "Knowledge of binary arithmetic is required.",
   "activityGoals": [
     {
       "index": "①",
-      "type": "A,D,F-J,M",
-      "body": "Students can explain purpose of the subject selected by themselves."
+      "type": "I,M",
+      "body": "Be able to calculate positive and negative binary numbers."
     },
     {
       "index": "②",
-      "type": "A,D,F-J,M",
-      "body": "Students can make plans to solve their chosen problems."
+      "type": "I,M,N",
+      "body": "Be able to explain the actions of logic circuits consisting of logic gates such as AND, OR, and NOT."
     },
     {
       "index": "③",
-      "type": "A,D,F-J,M",
-      "body": "Students can conduct activities to solve their problems."
+      "type": "I,M,N",
+      "body": "Be able to explain the actions of cascaded decoders."
     },
     {
       "index": "④",
-      "type": "A,D,F-J,M",
-      "body": "Students can analyze the results of their activities."
+      "type": "I,M,N",
+      "body": "Be able to explain a data latch mechanism using various flip-flops."
     },
     {
       "index": "⑤",
-      "type": "A,D,F-J,M",
-      "body": "Students can summarize the achievement of project and to explain it clearly."
+      "type": "I,M,N",
+      "body": "Be able to design an accumulator circuit with adders and general-purpose registers."
+    },
+    {
+      "index": "⑥",
+      "type": "I,M,N",
+      "body": "Be able to design a shift register and counter circuits with a combination of flip-flops."
     }
   ],
   "evaluationWeights": [
@@ -54,19 +56,19 @@
       "label": "総合評価割合",
       "values": [
         "0",
+        "60",
+        "20",
         "0",
-        "40",
-        "30",
         "0",
-        "10",
+        "0",
         "20",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -77,19 +79,19 @@
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
         "0",
+        "60",
+        "20",
         "0",
-        "40",
-        "30",
         "0",
-        "10",
+        "0",
         "20",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -100,19 +102,19 @@
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
         "0",
+        "60",
+        "20",
         "0",
-        "40",
-        "30",
         "0",
-        "10",
+        "0",
         "20",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -133,9 +135,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -143,7 +145,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -156,9 +158,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -179,9 +181,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -190,223 +192,118 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "Students can conceive rational ideas about construction and infrastructure maintenance with the support of the instructor.\nStudents can find methodologies to solve their chosen problems and conduct experiments, analysis and/or surveys appropriate to their methodology.\nStudents can present the achievement of their projects to professionals and students.\nStudents will always act in accordance with engineering ethics.",
-    "standard": "Students can conceive rational ideas about construction and infrastructure maintenance with the guidance of the instructor.\nStudents can find methodologies to solve their chosen problems and conduct experiments, analysis and/or surveys based on the guidance of the instructor and master's students.\nStudents can present their project achievements to professionals.\nStudents will always act in accordance with engineering ethics."
+    "ideal": "(1) Be able to understand the meaning of a logical formula and describe its logical circuit. (2) Be able to design a logical circuit from the condition of the shift register, counter, etc.",
+    "standard": "(1) Be able to understand the meaning of a logical formula and describe its logical circuit. (2) Be able to explain each part of the actions in a logical circuit with the shift register, counter, etc."
   },
   "clipProcess": "",
   "lessons": [
     {
       "index": "1",
-      "content": "Study on project theme 1",
-      "operation": "Presentation and\ndiscussion",
-      "assignments": "",
-      "minutes": "60\n60"
+      "content": "Course introduction, review of binary numbers, multiplication, division",
+      "operation": "Lecture and practice",
+      "assignments": "Review of radix conversion, complement and multiplication",
+      "minutes": "100"
     },
     {
       "index": "2",
-      "content": "Study on project theme 2",
-      "operation": "Presentation and\ndiscussion",
-      "assignments": "",
-      "minutes": "60\n60"
+      "content": "Boolean expressions and simplification(1)",
+      "operation": "Lecture and practice",
+      "assignments": "Review of boolean expressions and simplification",
+      "minutes": "100"
     },
     {
       "index": "3",
-      "content": "Literature survey 1",
-      "operation": "Presentation and\ndiscussion",
-      "assignments": "",
-      "minutes": "180\n60"
+      "content": "Boolean expressions and simplification(2)",
+      "operation": "Lecture and practice",
+      "assignments": "Review of boolean expressions and simplification",
+      "minutes": ""
     },
     {
       "index": "4",
-      "content": "Literature survey 2",
-      "operation": "Presentation and\ndiscussion",
-      "assignments": "",
-      "minutes": "180\n60"
+      "content": "Exam, basic logic gates",
+      "operation": "Lecture and practice Exam Self-reflection",
+      "assignments": "Review of basic logic gates",
+      "minutes": "100"
     },
     {
       "index": "5",
-      "content": "Background study 1",
-      "operation": "Presentation and\ndiscussion",
-      "assignments": "",
-      "minutes": "60\n60"
+      "content": "Code conversion, cascaded decoder",
+      "operation": "Lecture and practice",
+      "assignments": "Review of code conversion, cascaded decoder",
+      "minutes": "100"
     },
     {
       "index": "6",
-      "content": "Background study 2",
-      "operation": "Presentation and\ndiscussion",
-      "assignments": "",
-      "minutes": "60\n60"
+      "content": "Add/Sub Circuits",
+      "operation": "Lecture and practice",
+      "assignments": "Review of Add/Sub Circuits",
+      "minutes": "100"
     },
     {
       "index": "7",
-      "content": "Study on objectives 1",
-      "operation": "Presentation and\ndiscussion",
-      "assignments": "",
-      "minutes": "60\n60"
+      "content": "Sequential logic circuits RS flip-flop",
+      "operation": "Lecture and practice",
+      "assignments": "Review of RS flip-flop",
+      "minutes": "100"
     },
     {
       "index": "8",
-      "content": "Study on objectives 2",
-      "operation": "Presentation and\ndiscussion",
-      "assignments": "",
-      "minutes": "60\n60"
+      "content": "Exam, Flip-flops",
+      "operation": "Lecture and practice Exam Self-reflection",
+      "assignments": "Review of flip-flops",
+      "minutes": "100"
     },
     {
       "index": "9",
-      "content": "Planning 1",
-      "operation": "Presentation and\ndiscussion",
-      "assignments": "",
-      "minutes": "180\n60"
+      "content": "General-purpose registers.",
+      "operation": "Lecture and practice",
+      "assignments": "Review of registers",
+      "minutes": "100"
     },
     {
       "index": "10",
-      "content": "Planning 2",
-      "operation": "Presentation and\ndiscussion",
-      "assignments": "",
-      "minutes": "180\n60"
+      "content": "Accumulator curcuit",
+      "operation": "Lecture and practice",
+      "assignments": "Review of accumulator",
+      "minutes": "100"
     },
     {
       "index": "11",
-      "content": "Execution of experiment, analysis and/or\nsurvey 1",
-      "operation": "Experiment, analysis and\n survey",
-      "assignments": "",
-      "minutes": "60\n60"
+      "content": "Shift-register Binary counter",
+      "operation": "Lecture and practice",
+      "assignments": "Review of shift-register and binary counter",
+      "minutes": "100"
     },
     {
       "index": "12",
-      "content": "Execution of experiment, analysis and/or\nsurvey 2",
-      "operation": "Experiment, analysis and\n survey",
-      "assignments": "",
-      "minutes": "60\n60"
+      "content": "Decimal counter",
+      "operation": "Lecture and practice",
+      "assignments": "Review of decimal counter",
+      "minutes": "100"
     },
     {
       "index": "13",
-      "content": "Execution of experiment, analysis and/or\nsurvey 3",
-      "operation": "Experiment, analysis and\n survey",
-      "assignments": "",
-      "minutes": "60\n60"
+      "content": "Integrated learning",
+      "operation": "Lecture and practice",
+      "assignments": "Review of integrated learning",
+      "minutes": "100"
     },
     {
       "index": "14",
-      "content": "Execution of experiment, analysis and/or\nsurvey 4",
-      "operation": "Experiment, analysis and\n survey",
-      "assignments": "",
-      "minutes": "60\n60"
+      "content": "Exam, Integrated learning",
+      "operation": "Lecture and practice Exam Self-reflection",
+      "assignments": "Review of integrated learning",
+      "minutes": "100"
     },
     {
       "index": "15",
-      "content": "Execution of experiment, analysis and/or\nsurvey 5",
-      "operation": "Experiment, analysis and\n survey",
-      "assignments": "",
-      "minutes": "60\n60"
-    },
-    {
-      "index": "16",
-      "content": "Execution of experiment, analysis and/or\nsurvey 6",
-      "operation": "Experiment, analysis and\n survey",
-      "assignments": "",
-      "minutes": "60\n60"
-    },
-    {
-      "index": "17",
-      "content": "Execution of experiment, analysis and/or\nsurvey 7",
-      "operation": "Experiment, analysis and\n survey",
-      "assignments": "",
-      "minutes": "60\n60"
-    },
-    {
-      "index": "18",
-      "content": "Execution of experiment, analysis and/or\nsurvey 8",
-      "operation": "Experiment, analysis and\n survey",
-      "assignments": "",
-      "minutes": "60\n60"
-    },
-    {
-      "index": "19",
-      "content": "Execution of experiment, analysis and/or\nsurvey 9",
-      "operation": "Experiment, analysis and\n survey",
-      "assignments": "",
-      "minutes": "60\n60"
-    },
-    {
-      "index": "20",
-      "content": "Execution of experiment, analysis and/or\nsurvey 10",
-      "operation": "Experiment, analysis and\n survey",
-      "assignments": "",
-      "minutes": "60\n60"
-    },
-    {
-      "index": "21",
-      "content": "Discussion of experiment, analysis and/or\nsurvey 1",
-      "operation": "Presentation and\ndiscussion",
-      "assignments": "",
-      "minutes": "60\n60"
-    },
-    {
-      "index": "22",
-      "content": "Discussion of experiment, analysis and/or\nsurvey 2",
-      "operation": "Presentation and\ndiscussion",
-      "assignments": "",
-      "minutes": "60\n60"
-    },
-    {
-      "index": "23",
-      "content": "Discussion of experiment, analysis and/or\nsurvey 3",
-      "operation": "Presentation and\ndiscussion",
-      "assignments": "",
-      "minutes": "60\n60"
-    },
-    {
-      "index": "24",
-      "content": "Discussion of experiment, analysis and/or\nsurvey 4",
-      "operation": "Presentation and\ndiscussion",
-      "assignments": "",
-      "minutes": "60\n60"
-    },
-    {
-      "index": "25",
-      "content": "Discussion of experiment, analysis and/or\nsurvey 5",
-      "operation": "Presentation and\ndiscussion",
-      "assignments": "",
-      "minutes": "60\n60"
-    },
-    {
-      "index": "26",
-      "content": "Presentation 1",
-      "operation": "Presentation and\ndiscussion",
-      "assignments": "",
-      "minutes": "340\n60"
-    },
-    {
-      "index": "27",
-      "content": "Presentation 2",
-      "operation": "Presentation and\ndiscussion",
-      "assignments": "",
-      "minutes": "340\n60"
-    },
-    {
-      "index": "28",
-      "content": "Report writing 1",
-      "operation": "Report writing",
-      "assignments": "",
-      "minutes": "340\n60"
-    },
-    {
-      "index": "29",
-      "content": "Report writing 2",
-      "operation": "Report writing",
-      "assignments": "",
-      "minutes": "340\n60"
-    },
-    {
-      "index": "30",
-      "content": "Reflection",
-      "operation": "Presentation and\ndiscussion",
-      "assignments": "",
-      "minutes": "180\n60"
+      "content": "Integrated learning, self-reflection",
+      "operation": "Lecture and Q&A Self-check",
+      "assignments": "Review of inadequate points",
+      "minutes": "100"
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　E928-07\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Civil and Environmental Engineering(〜2024)\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Project Courses\n\n                プロジェクトデザインⅢ（田中泰司研究室）\n                Design Project III(Tanaka Yasushi)\n\n              8\n              E928-07\n\n                2026年度\n\n                All year\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  TANAKA Yasushi\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Infrastructure\n2.Maintenance\n3.Disaster prevention\n4.Engineering design\n5.Materials for infrastructure\n\n              Achieving following abilities to be a civil engineer\n(1)\tBe able to conduct experiments, analyses or surveys.\n(2)\tBe able to design, construct, and maintain infrastructure.\n(3)\tBe able to explain the processes and effects involved in infrastructure.\n(4)\tBe able to analyze social changes taking the future into consideration.\n(5)\tBe able to develop sustainable society.\n\n              授業の概要および学習上の助言\n\n              In the Tanaka laboratory, projects of structural mechanics, maintenance, or disaster prevention are carried out in Design Project III. A main theme will be proposed to each student by the instructor. Students will find problems related to the main theme as a first step. Second, they will conduct surveys. Then they will summarize their findings. Solutions will be conceived and implemented in accordance with plans formulated by the students themselves. In this course, each student proceeds with their project under the instruction of the supervisor.\nThe following details the activities for each semester.\nFirst semester:Besides textbooks and lecture notes, students refer to specific papers and journals. By doing a literature survey, students review their basic knowledge of structural mechanics and reinforced concrete engineering. Then students make presentations outlining their theme, background on their project, and their project plan.\nSecond semester:Projects planned in the first semester are carried out by individuals or teams to their conclusion.\nA minimum of 450 hours of learning time is required in this course. Preparation and review times shown in this syllabus are minimum values.\n\n              教科書および参考書・リザーブドブック\n\n              Textbooks：None\nReference books：None\nReserved books：None\n\n              履修に必要な予備知識や技能\n\n              Students need an understanding of Structural Mechanics I and II, Structural Mechanics Analysis, and Civil and Environmental Engineering Major Lab/Exercises.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                A,D,F-J,M\n                Students can explain purpose of the subject selected by themselves.\n\n                ②\n                A,D,F-J,M\n                Students can make plans to solve their chosen problems.\n\n                ③\n                A,D,F-J,M\n                Students can conduct activities to solve their problems.\n\n                ④\n                A,D,F-J,M\n                Students can analyze the results of their activities.\n\n                ⑤\n                A,D,F-J,M\n                Students can summarize the achievement of project and to explain it clearly.\n\n                ⑥\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                0\n\n                0\n\n                40\n\n                30\n\n                0\n\n                10\n\n                20\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                0\n\n                0\n\n                40\n\n                30\n\n                0\n\n  ",
-  "courseId": "2026:full-year:E928-07:0:388",
+  "rawText": "金沢工業大学 学習支援計画書 E507-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Information and Computer Science\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n論理回路\nLogic Circuits  2 E507-01  2024年度\n 1st year 2nd semester  修学規程第4条を参照\n    担当教員名\n KAWANAMI Takashi, SANO Shoji\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Logic Circuits 2.Combinational Logic Circuit 3.Flip-flop 4.Sequential Circuit 5.Local Cooperation  Students will: (1) learn basic logic circuits consisting of commonly used circuit components. (2) learn the actions of logical gates and flip-flop. (3) learn the basic design approach of logic circuits.\n    授業の概要および学習上の助言   This is the basic course of computer architecture. We will cover the following materials: 1. Characteristics of logical gates. 2. Truth table for given a logic circuit. 3. Simplification of a logic circuit using a Karnaugh map. 4. Circuit architecture and design methodology of encoders, decoders, data selectors, multiplexers, coincidence circuits, binary adders, flip-flops, shift registers, and counters. 5. Application of local cooperation on logic circuits. Students are required to calculate binary numbers. Students are expected to understand the meaning of terms and characteristics. Students are expected to understand actions of logical circuits using a logic circuit simulator. Students are expected to review each course content.\n    教科書および参考書・リザーブドブック   Japanese textbook\n    履修に必要な予備知識や技能   Knowledge of binary arithmetic is required.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① I,M Be able to calculate positive and negative binary numbers.   ② I,M,N Be able to explain the actions of logic circuits consisting of logic gates such as AND, OR, and NOT.   ③ I,M,N Be able to explain the actions of cascaded decoders.   ④ I,M,N Be able to explain a data latch mechanism using various flip-flops.   ⑤ I,M,N Be able to design an accumulator circuit with adders and general-purpose registers.   ⑥ I,M,N Be able to design a shift register and counter circuits with a combination of flip-flops.\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 0 60 20 0 0 0 20 100     指標と評価割合 総合評価割合 0 60 20 0 0 0 20 100   総合力指標 知識を取り込む力 0 60 20 0 0 0 20 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ①      ②     ③     ④     ⑤     ⑥     クイズ\n小テスト ① レ Three tests will be given to measure the depth of understanding of basic knowledge. And mini-quizzes will be given about every other week.    ② レ   ③ レ   ④ レ   ⑤ レ   ⑥ レ   レポート ① レ Two reports on the circuit design assignment.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥ レ   成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ① レ Students will be evaluated on their attitude for assignments.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥ レ\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     (1) Be able to understand the meaning of a logical formula and describe its logical circuit. (2) Be able to design a logical circuit from the condition of the shift register, counter, etc. (1) Be able to understand the meaning of a logical formula and describe its logical circuit. (2) Be able to explain each part of the actions in a logical circuit with the shift register, counter, etc.\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習課題に要する標準的な時間を記載してあります。日々の自学自習時間全体としては、各授業に応じた時間(例えば2単位科目の場合、予習2時間・復習2時間/週)を取るよう努めてください。詳しくは教員の指導に従って下さい。     授業明細   回数 学習内容 授業の運営方法 学習課題(予習・復習) 時間:分※     1  Course introduction, review of binary numbers, multiplication, division Lecture and practice Review of radix conversion, complement and multiplication  100   2",
+  "courseId": "2024:fall:E957-01:0:388",
   "language": "en"
 }

@@ -1,53 +1,43 @@
 {
   "sourceIndex": 783,
   "sourceUrl": "/opsyllabus/kitos0110/783/1",
-  "importedAt": "2026-06-08T09:34:09.276Z",
-  "title": "制御工学",
-  "subtitle": "Control Engineering",
-  "courseType": "Major ProgramMajor Courses",
-  "credits": "2",
-  "term": "2026年度\n\n                2nd year 2nd semester",
+  "importedAt": "2026-06-09T01:29:26.554Z",
+  "title": "進路セミナーⅡ",
+  "subtitle": "Career Planning Seminar II",
+  "courseType": "Major Program\nOther Courses",
+  "credits": "1",
+  "term": "2024年度\n 3rd year 2nd semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "MORIMOTO Yoshitaka",
-    "TAKANO Noriyuki"
+    "YOSHIMURA Osamu"
   ],
   "keywords": [
-    "Control system",
-    "Laplace transform",
-    "Transfer function, block diagram",
-    "Frequency response, transient response",
-    "Regional collaboration, Data Science"
+    "Choice of courses 2.Selection of occupations 3.Company research 4.Simulated interviews"
   ],
-  "educationalGoal": "Students will:\n(1)\tLearn the basics of developing control system\n(2)\tLearn Laplace transformation and the transfer functions of control systems\n(3)\tLearn the simulation method of control system by MATLAB/Simulink\n(4)\tLearn the basics of control system analysis based on the transient and frequency response.",
-  "advice": "This is a basic course in control engineering. We will cover the following topics:\n\n1. Laplace transform\n2. Transfer function\n3. Block diagram\n4. Board diagram\n5. Stability of control system\n6. Design of control system\n\nStudents are expected to understand the meaning of the analysis method for control systems.\nStudents are expected to determine the stability of a control system.",
-  "books": "Text:\nhttps://www.morikita.co.jp/books/mid/091842",
-  "requiredKnowledge": "It is desirable that you fully understand and master the contents of the mechanics and mathematics courses.",
+  "educationalGoal": "By clarifying goals to graduate school or industry / work to be employed, it is possible to realize human formation and self-improvement through self-discovery and self-development in order to realize the goal. By mastering this subject you will be able to clarify the view of occupation, and to select jobs and companies according to their course decisions, abilities and aptitudes.And further improve your aptitude and academic ability by yourself.",
+  "advice": "For this lesson, the following content is the standard, but please refer to the lesson management plan for each department that is distributed at the time of the orientation at the beginning of the semester for details. 1. Lecture 1: Lecture by corporate personnel officer 2. Lecture 2: Lecture by graduates 3. Lecture 3: Experiences from M2 and B4 4. Create a self-appealing seat 5..Self-analysis 6.Employment simulation test: general common knowledge and comprehensiveness",
+  "books": "Textbooks: FUTURE Shuushoku Note 2022(Kanazawa Institute of Technology Publishing) Reference Books: Unspecified Reserved Books in the Library: Unspecified",
+  "requiredKnowledge": "The Career Planning Seminar I and II, which are offered in the first and second semesters, are aimed at job hunting in the next fiscal year, and are designed to prepare for the current severe job-front. All students need to take the course to prepare for the job hunting and prepare for the job hunting, regardless of whether they are going to school or finding employment.",
   "activityGoals": [
     {
       "index": "①",
-      "type": "D,J,K,L,M,O",
-      "body": "Be able to Laplace transform a simple mathematical model of a system and express it using a transfer function."
+      "type": "A",
+      "body": "Explain the activity process from course selection to decision."
     },
     {
       "index": "②",
-      "type": "D,J,K,L,M,O",
-      "body": "Be able to use MATLAB/Simulink to create a block diagram of a system."
+      "type": "A",
+      "body": "Collect, analyze and utilize information necessary for graduate school entry and job hunting activities."
     },
     {
       "index": "③",
-      "type": "D,J,K,L,M,O",
-      "body": "Be able to express the dynamic characteristics of a system as transient and frequency response characteristics."
+      "type": "R",
+      "body": "Acquire the aptitude, academic ability and problem solving ability required by society."
     },
     {
       "index": "④",
-      "type": "D,J,K,L,M,O",
-      "body": "Be able to can use MATLAB/Simulink to simulate the responsiveness of control systems."
-    },
-    {
-      "index": "⑤",
-      "type": "D,J,K,L,M,O",
-      "body": "Be able to learn the latest technology from local technicians and explore a given task."
+      "type": "S",
+      "body": "Utilize knowledge of applied chemistry and experimental technology to contribute to the sustainable development"
     }
   ],
   "evaluationWeights": [
@@ -55,19 +45,19 @@
       "label": "総合評価割合",
       "values": [
         "0",
-        "60",
-        "30",
+        "0",
+        "50",
         "0",
         "0",
         "0",
-        "10",
+        "50",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -78,19 +68,19 @@
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
         "0",
-        "60",
-        "30",
+        "0",
+        "50",
         "0",
         "0",
         "0",
-        "10",
+        "50",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -101,19 +91,19 @@
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
         "0",
-        "60",
-        "30",
+        "0",
+        "50",
         "0",
         "0",
         "0",
-        "10",
+        "50",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -134,9 +124,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -144,7 +134,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -157,9 +147,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -180,9 +170,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -191,118 +181,90 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "(1) Students can design control systems for simple mechanical systems.\n(2) Students can express the mathematical model of an automatic control system as a transfer function.\n(3) Students can express the dynamic characteristics of the automatic control system as transient and frequency response characteristics, and explain what they mean.\n(4) Students can determine and confirm the stability of the designed control system.\n(5) Students can use MATLAB / Simulink to simulate the response characteristics of designed control system.\n(6) Students can understand the problems presented by local engineers and propose solutions.",
-    "standard": "(1) Students can understand the elements necessary for designing control systems for mechanical systems.\n(2) Students can explain the transfer function.\n(3) Students can explain the dynamic characteristics of control systems.\n(4) Students can explain how to determine the stability of the control system.\n(5) Students can simulate control system responses with MATLAB / Simulink.\n(6) Students can understand the problems presented by local technicians."
+    "ideal": "① You can think deeply about the relationship between your life plan and your career. ② In order to discover your own suitability and course, you can do the thought and action necessary for it. ③ Study the knowledge, ability, nutrition and qualifications necessary for setting and achieving course objectives, and prepare and respond by yourselves. ④ You can logically explain your policies and goals, such as entering your graduate school or going to work, so that others can understand it.",
+    "standard": "① You can think the relationship between life plan and course. ② You can do the thought and action necessary for your own suitability and course. ③ Study the knowledge, ability, nutrition and qualifications necessary for setting and achieving course objectives, and prepare and respond. ④ You can explain your policies and goals to others, such as entering your graduate school or going to work."
   },
   "clipProcess": "",
   "lessons": [
     {
       "index": "1",
-      "content": "[Guidance]\nCourse introduction\n\n[Chapter 1 System and Control]\n\n[Regional cooperation]",
-      "operation": "Guidance\nLecture and Q&A",
-      "assignments": "Understand the course\nobjectives",
-      "minutes": "100"
+      "content": "① Guidance (overview of class, how to proceed, evaluation method) ② Recommendation of research on chemical, environment, resources, pharmaceutical companies",
+      "operation": "Lecture and Discussion",
+      "assignments": "Prep: Think about your own field of your choice. Review: Review of lecture content and organization of notes.",
+      "minutes": "50"
     },
     {
       "index": "2",
-      "content": "[Chapter 2 Laplace transform]",
-      "operation": "Lecture and Q&A\nSelf-check",
-      "assignments": "Prepare for learning Laplace\ntransform (report)",
-      "minutes": "100"
+      "content": "Recommendation of Self-analysis and career design",
+      "operation": "Lecture, Exercise and Discussion",
+      "assignments": "Prep: Think about career design and perform your self-analysis. Review: Review of lecture content and organization of notes.",
+      "minutes": "50"
     },
     {
       "index": "3",
-      "content": "Test and review of content learned in classes\n1-2\n\n[Chapter 3 Transfer Function]",
-      "operation": "Test\n\nLecture and Q&A\nSelf-check",
-      "assignments": "Prepare for the test",
+      "content": "How to write entry sheets and resumes",
+      "operation": "Lecture, Exercise, quiz and Discussion",
+      "assignments": "Prep: Read the section of \"Self-appealing sheet\" of resume. Review: Review of lecture content and organization of notes.",
       "minutes": "100"
     },
     {
       "index": "4",
-      "content": "[Chapter 3 Transfer Function]",
-      "operation": "Lecture and Q&A\nSelf-check",
-      "assignments": "",
-      "minutes": "100"
+      "content": "General knowledge quiz",
+      "operation": "Lecture, Exercise, quiz and Discussion",
+      "assignments": "Prep: Find out what the entry sheet is. Review: Write self-appealing seat.",
+      "minutes": "50"
     },
     {
       "index": "5",
-      "content": "[Chapter 4 block diagram]",
-      "operation": "Lecture and Q&A\nPractice\nSelf-check",
-      "assignments": "Prepare for MATLAB / Simulink\ninstallation",
+      "content": "Experiences from M2 and B4",
+      "operation": "Lecture, Exercise and Discussion",
+      "assignments": "Prep: Read the section of \"Collect company information\" of textbook. Review: Review on how to collect company information.",
       "minutes": "100"
     },
     {
       "index": "6",
-      "content": "[Practice with MATLAB / Simulink]\nHow to use MATLAB Simulink",
-      "operation": "Practice\nSelf-check",
-      "assignments": "Prepare for using MATLAB /\nSimulink\n\nSolve the practice problems\nof Transfer function / block\ndiagram (report)",
+      "content": "Interview instruction and simulated interview Company search method",
+      "operation": "Lecture, Exercise, Discussion and Interview practice",
+      "assignments": "Prep: Read the section of \"Self-appealing sheet\" of resume. Review: Review of lecture content and organization of notes.",
       "minutes": "100"
     },
     {
       "index": "7",
-      "content": "Test and review of content learned in classes\n4-6",
-      "operation": "Test\nSelf-check",
-      "assignments": "Prepare for the test",
+      "content": "Lecture by corporate personnel officer",
+      "operation": "Lecture, Exercise and Discussion",
+      "assignments": "Prep: Write self-appealing seat. Study the company to which the speaker belongs. Review: Review of lecture content and organization of notes.",
       "minutes": "100"
     },
     {
       "index": "8",
-      "content": "[Chapter 5 Frequency Response\n(Vector Trajectory)]",
-      "operation": "Lecture and Q&A\nSelf-reflection",
-      "assignments": "Prepare for the test",
-      "minutes": ""
+      "content": "Lecture by graduates",
+      "operation": "Lecture, Exercise and Discussion",
+      "assignments": "Prep: Study the company to which the speaker belongs. Review: Review of lecture content and organization of notes.",
+      "minutes": "100"
     },
     {
       "index": "9",
-      "content": "[Chapter 6 Bode diagram]",
-      "operation": "Lecture and Q&A\nSelf-check",
-      "assignments": "Prepare for block diagrams\nand transient response",
-      "minutes": "100"
+      "content": "SPI test",
+      "operation": "Lecture, Exercise, quiz and Discussion",
+      "assignments": "Prep: Investigate the companies. Review: Review the mistakes.",
+      "minutes": "50"
     },
     {
       "index": "10",
-      "content": "[Chapter 6 Bode diagram]\n\n[Practice with MATLAB / Simulink]\nBode diagram",
-      "operation": "Lecture and Q&A\nPractice\nSelf-check",
-      "assignments": "",
-      "minutes": "100"
+      "content": "General knowledge quiz and SPI test",
+      "operation": "Lecture, Exercise, quiz and Discussion",
+      "assignments": "Prep: Investigate basic knowledge about interview. Review: Review the mistakes.",
+      "minutes": "50"
     },
     {
       "index": "11",
-      "content": "[Chapter 7 Transient characteristics]\n\n[Chapter 8 System stability determination]\n\n[Practice with MATLAB / Simulink]",
-      "operation": "Lecture and Q&A\nPractice\nSelf-check",
-      "assignments": "Bord diagram and frequency\nresponse (report)",
-      "minutes": "100"
-    },
-    {
-      "index": "12",
-      "content": "[Chapter 7 Transient characteristics]\n\n[Chapter 8 System stability determination]\n\n[Practice with MATLAB / Simulink]",
-      "operation": "Lecture and Q&A\nPractice\nSelf-check",
-      "assignments": "",
-      "minutes": "100"
-    },
-    {
-      "index": "13",
-      "content": "[Chapter 9 Control system design]\n\n[Practice with MATLAB / Simulink]",
-      "operation": "Lecture and Q&A\nPractice\nSelf-check",
-      "assignments": "Prepare for stability of\ncontrol systems\nSolve the practice problems",
-      "minutes": "100"
-    },
-    {
-      "index": "14",
-      "content": "[Chapter 9 Control system design]\n\n[Practice with MATLAB / Simulink]",
-      "operation": "Lecture and Q&A\nPractice\nSelf-check",
-      "assignments": "Transient characteristics,\nsystem stability\ndiscrimination (report)",
-      "minutes": "100"
-    },
-    {
-      "index": "15",
-      "content": "Test and review\nSelf-evaluation",
-      "operation": "Test and review\nSelf-evaluation",
-      "assignments": "Prepare for the test",
-      "minutes": "100"
+      "content": "Self-Evaluation Day Review of self-appealing seat Thinking about future career activities",
+      "operation": "Lecture, Exercise, quiz and Discussion",
+      "assignments": "Prep: Read the text \"society manners\" section. Review: Review of lecture content and organization of notes.",
+      "minutes": "50"
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　K021-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Mechanical Engineering\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                制御工学\n                Control Engineering\n\n              2\n              K021-01\n\n                2026年度\n\n                2nd year 2nd semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  MORIMOTO Yoshitaka, TAKANO Noriyuki\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Control system\n2.Laplace transform\n3.Transfer function, block diagram\n4.Frequency response, transient response\n5.Regional collaboration, Data Science\n\n              Students will:\n(1)\tLearn the basics of developing control system\n(2)\tLearn Laplace transformation and the transfer functions of control systems\n(3)\tLearn the simulation method of control system by MATLAB/Simulink\n(4)\tLearn the basics of control system analysis based on the transient and frequency response.\n\n              授業の概要および学習上の助言\n\n              This is a basic course in control engineering. We will cover the following topics:\n\n1. Laplace transform\n2. Transfer function\n3. Block diagram\n4. Board diagram\n5. Stability of control system\n6. Design of control system\n\nStudents are expected to understand the meaning of the analysis method for control systems.\nStudents are expected to determine the stability of a control system.\n\n              教科書および参考書・リザーブドブック\n\n              Text:\nhttps://www.morikita.co.jp/books/mid/091842\n\n              履修に必要な予備知識や技能\n\n              It is desirable that you fully understand and master the contents of the mechanics and mathematics courses.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                D,J,K,L,M,O\n                Be able to Laplace transform a simple mathematical model of a system and express it using a transfer function.\n\n                ②\n                D,J,K,L,M,O\n                Be able to use MATLAB/Simulink to create a block diagram of a system.\n\n                ③\n                D,J,K,L,M,O\n                Be able to express the dynamic characteristics of a system as transient and frequency response characteristics.\n\n                ④\n                D,J,K,L,M,O\n                Be able to can use MATLAB/Simulink to simulate the responsiveness of control systems.\n\n                ⑤\n                D,J,K,L,M,O\n                Be able to learn the latest technology from local technicians and explore a given task.\n\n                ⑥\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                0\n\n                60\n\n                30\n\n                0\n\n                0\n\n                0\n\n                10\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                0\n\n                60\n\n                30\n\n                0\n\n                0\n\n                0\n\n                10\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                0\n\n                60\n\n                30\n\n                0\n\n                0\n\n                0\n\n                10\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  コラボレーションとリーダーシップ\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  発表・表現・伝達する力\n\n                    0\n\n    ",
-  "courseId": "2026:fall:K021-01:0:783",
+  "rawText": "金沢工業大学 学習支援計画書 B951-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Applied Chemistry\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nOther Courses\n進路セミナーⅡ\nCareer Planning Seminar II  1 B951-01  2024年度\n 3rd year 2nd semester  修学規程第4条を参照\n    担当教員名\n YOSHIMURA Osamu\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Choice of courses 2.Selection of occupations 3.Company research 4.Simulated interviews  By clarifying goals to graduate school or industry / work to be employed, it is possible to realize human formation and self-improvement through self-discovery and self-development in order to realize the goal. By mastering this subject you will be able to clarify the view of occupation, and to select jobs and companies according to their course decisions, abilities and aptitudes.And further improve your aptitude and academic ability by yourself.\n    授業の概要および学習上の助言   For this lesson, the following content is the standard, but please refer to the lesson management plan for each department that is distributed at the time of the orientation at the beginning of the semester for details. 1. Lecture 1: Lecture by corporate personnel officer 2. Lecture 2: Lecture by graduates 3. Lecture 3: Experiences from M2 and B4 4. Create a self-appealing seat 5..Self-analysis 6.Employment simulation test: general common knowledge and comprehensiveness\n    教科書および参考書・リザーブドブック   Textbooks: FUTURE Shuushoku Note 2022(Kanazawa Institute of Technology Publishing) Reference Books: Unspecified Reserved Books in the Library: Unspecified\n    履修に必要な予備知識や技能   The Career Planning Seminar I and II, which are offered in the first and second semesters, are aimed at job hunting in the next fiscal year, and are designed to prepare for the current severe job-front. All students need to take the course to prepare for the job hunting and prepare for the job hunting, regardless of whether they are going to school or finding employment.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① A Explain the activity process from course selection to decision.   ② A Collect, analyze and utilize information necessary for graduate school entry and job hunting activities.   ③ R Acquire the aptitude, academic ability and problem solving ability required by society.    ④ S Utilize knowledge of applied chemistry and experimental technology to contribute to the sustainable development    ⑤     ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 0 0 50 0 0 0 50 100     指標と評価割合 総合評価割合 0 0 50 0 0 0 50 100   総合力指標 知識を取り込む力 0 0 50 0 0 0 50 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ①      ②     ③     ④     ⑤     ⑥     クイズ\n小テスト ①      ②     ③     ④     ⑤     ⑥     レポート ① レ Comprehensively evaluate notes that listened to the lecture, self-analysis, self-appealing seat and other approaches and contents.   ② レ   ③ レ   ④ レ   ⑤     ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ① レ It is evaluated with respect to items such as following. Being aware that you need something to go out to society. Settig goals for job hunting and advanced learning. Being actively collecting information related to career paths. Writing Self-analysis sheet sufficiently and etc.   ② レ   ③ レ   ④ レ   ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     ① You can think deeply about the relationship between your life plan and your career. ② In order to discover your own suitability and course, you can do the thought and action necessary for it. ③ Study the knowledge, ability, nutrition and qualifications necessary for setting and achieving course objectives, and prepare and respond by yourselves. ④ You can logically explain your policies and goals, such as entering your graduate school or going to work, so that othe",
+  "courseId": "2024:fall:B951-01:0:783",
   "language": "en"
 }

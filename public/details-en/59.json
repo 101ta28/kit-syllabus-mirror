@@ -1,62 +1,68 @@
 {
   "sourceIndex": 59,
   "sourceUrl": "/opsyllabus/kitos0110/59/1",
-  "importedAt": "2026-06-08T09:33:54.239Z",
-  "title": "情報数理Ａ",
-  "subtitle": "Mathematics for Information Science  A",
-  "courseType": "Mathematics and Science ProgramMathematics and Science Courses",
+  "importedAt": "2026-06-09T01:29:19.636Z",
+  "title": "線形代数学",
+  "subtitle": "Linear Algebra",
+  "courseType": "Mathematics and Science Program\nMathematics and Science Courses",
   "credits": "2",
-  "term": "2026年度\n\n                1st year 2nd semester",
+  "term": "2024年度\n 1st year 2nd semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "YAMAOKA Hidetaka",
+    "TOCHI Kunio",
+    "TAKAHASHI Takeo",
+    "TANAKA Tadayoshi",
     "KODAMA Koichi",
-    "NISHIOKA Keita",
-    "UESU Hiroaki",
-    "WATANABE Shuji",
-    "KAMOYA Toru"
+    "TANIGUCHI Tetsuya",
+    "HORI Haruna",
+    "MIYAZAKI Eiji",
+    "KITAJIMA Takahiro",
+    "KAMOYA Toru",
+    "NAKAGAWA Hayato",
+    "SAEKI Akihiko",
+    "NEMA Hirofumi",
+    "TAKAMURA Matsuzo",
+    "KITASHOJI Nobuyuki",
+    "OYABU Matashige",
+    "HUSSIEN Alaa"
   ],
   "keywords": [
-    "Elementary functions",
-    "Limits of functions",
-    "Differential coefficients and derivatives",
-    "Indefinite integral",
-    "Definite integral"
+    "Vectors and matrices 2.Row reduction 3.Determinants 4.Eigenvalues and eigenvectors 5.Regional cooperation"
   ],
-  "educationalGoal": "Students will:\n(1) Learn about the graphs of functions.\n(2) Learn about the limits of functions.\n(3) Learn about the differential coefficients and derivatives.\n(4) Learn about the indefinite integrals of functions.\n(5) Learn about the definite integrals of functions.",
-  "advice": "This is a basic course of calculus. We will cover the following materials.\n1. Functions and Their Graphs\n2. Limits of Functions\n3  Differential Coefficients and Derivatives\n4. Riemann Integrals and Fundamental Theorem of Calculus\n5. Indefinite and Definite Integrations\n\nClasses include exercises and quizzes, and a final examination at the end of the semester.\nDaily preparation and review are important. Students are required to solve designated tasks.\nStudents should study reports and research topics in a planned manner, and strictly avoid plagiarism.\nStudents should actively use the teachers' office hours and the Math. and Science Education Research Center.",
-  "books": "Textbooks： Mathematics for Information Science A (Calculus) [kanazawa Institute of Technology]\nReference books：None\nReserved books：None",
-  "requiredKnowledge": "Basic knowledge of mathematics (Formula calculation, exponential/ logarithmic/trigonometric functions, etc.)\nBasic Excel skills.",
+  "educationalGoal": "Students will learn (1) vector operations and matrix operations. (2) solving systems of linear equations using “row reduction.” (3) the properties of a determinant and a method to calculate determinants. (4) eigenvalues and eigenvectors. (5) class management and a special lecture will be given in cooperation with local residents and companies.",
+  "advice": "This is a basic course in linear algebra. We will cover the following topics: 1. Vectors and Matrices 2. Systems of linear equations and row reduction 3. Linear transformation 4. Determinants 5. Linearly independence 6. Eigenvalues and eigenvectors Daily preparation and review are important. Students are required to complete the designated tasks. Students are required to show their solution/calculation procedure logically and clearly in each assignment. Students are expected to utilize the Math. and Science Education Research Center or the office hours of the teacher.",
+  "books": "Textbook:Linear Algebra [KIT Mathematics, Science, Data Science and AI Programs] Reference book::A First Course in Linear Algebra (Open Textbook Library)[Lyryx]",
+  "requiredKnowledge": "Basic computational skills for mathematical expressions (calculation of literal expressions, linear and quadratic equations, trigonometric functions) and knowledge of coordinate planes.",
   "activityGoals": [
     {
       "index": "①",
       "type": "D",
-      "body": "Be able to explain the general shape and characteristics of graphs of elementary functions."
+      "body": "Understand the concept of vectors and matrices, and be able to properly perform operations."
     },
     {
       "index": "②",
       "type": "D",
-      "body": "Be able to find the derivatives of basic functions."
+      "body": "Understand the concept of systems of linear equations by using row reduction."
     },
     {
       "index": "③",
       "type": "D",
-      "body": "Be able to find the indefinite integrals of basic functions."
+      "body": "Understand the properties of determinants and be able to calculate the value of a determinant."
     },
     {
       "index": "④",
       "type": "D",
-      "body": "Be able to evaluate the definite integrals of basic functions."
+      "body": "Understand the concept of linear transformations and be able to find the eigenvalues and eigenvectors."
     },
     {
       "index": "⑤",
       "type": "C",
-      "body": "Understand the meanings of fundamental english words for mathematics."
+      "body": "Understand the meanings of fundamental English words for mathematics."
     },
     {
       "index": "⑥",
       "type": "A",
-      "body": "Try to understand the contents, and be able to complete the tasks within the deadlines."
+      "body": "Understand the contents of the course and be able to complete the required tasks by the announced deadlines."
     }
   ],
   "evaluationWeights": [
@@ -65,18 +71,18 @@
       "values": [
         "30",
         "30",
-        "20",
+        "15",
         "0",
         "0",
         "0",
-        "20",
+        "25",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -88,18 +94,18 @@
       "values": [
         "30",
         "30",
-        "20",
+        "15",
         "0",
         "0",
         "0",
-        "20",
+        "25",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -111,18 +117,18 @@
       "values": [
         "30",
         "30",
-        "20",
+        "15",
         "0",
         "0",
         "0",
-        "20",
+        "25",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -143,9 +149,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -153,7 +159,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -166,9 +172,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -189,9 +195,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -200,118 +206,125 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "(1) Be able to explain the general shape and characteristics of graphs of elementary functions.\n(2) Understand the concept of differentiation and be able to calculate the derivatives of various functions.\n(3) Be able to find indefinite integrals of various functions.\n(4) Be able to evaluate definite integral of various functions.\n(5) Understand the basic English expressions of mathematical terms and express themselves.\n(6) Attend classes, try to understand the contents of classes, complete submitted tasks, and challenge development issues.",
-    "standard": "(1) Understand the general shapes and characteristics of graphs of elementary functions.\n(2) Understand the definition of derivative and be able to find derivatives of basic functions.\n(3) Be able to find indefinite integrals of basic functions.\n(4) Be able to evaluate definite integrals of elementary functions.\n(5) Understand the basic English expressions of mathematical terms.\n(6) Attend classes, try to understand the contents of classes, and complete submitted tasks."
+    "ideal": "(1) Perform properly vector operations and matrix operations. (2) Solve “complex” linear systems using row reduction. (3) Understand the concept of linear transformations and properly determine representation matrices. (4) Understand the definition and properties of determinants and be able to calculate determinants. (5) Understand the properties of cofactors and find inverse matrices. (6) Find the eigenvalues and eigenvectors of matrices and apply them to diagonalization.",
+    "standard": "(1) Perform vector operations and matrix operations. (2) Solve “fundamental” linear systems using row reduction. (3) Find representation matrices of linear transformations in a plane. (4) Understand the properties of determinants and be able to calculate determinants. (5) Find inverse matrices using cofactors. (6) Find the eigenvalues and eigenvectors of simple matrices."
   },
   "clipProcess": "",
   "lessons": [
     {
       "index": "1",
-      "content": "Course introduction\nShapes and characteristics of graphs of elementa\nry functions",
+      "content": "Course introduction Vectors and vector operations (Addition, Subtraction, Scalar multiplication)",
       "operation": "Lecture and exercises",
-      "assignments": "Understand the Objectives of\nthe class\nReview materials from the last\nclass\nPreview for the next class",
+      "assignments": "Understand the objectives of class Review materials from the previous course Prepare for next class",
       "minutes": "120"
     },
     {
       "index": "2",
-      "content": "Limits of functions",
+      "content": "Matrices and matrix operations (Addition, Subtraction, Scalar multiplication, Matrix multiplication) Square matrices",
       "operation": "Lecture and exercises",
-      "assignments": "Review materials from the last\nclass\nPreview for the next class",
+      "assignments": "Review materials from the previous course Prepare for next class",
       "minutes": "120"
     },
     {
       "index": "3",
-      "content": "Differential coefficients\nDerivatives",
-      "operation": "Test about contents\nlearned in #1~#2\nLecture and exercises",
-      "assignments": "Review materials from the last\nclass\nPreview for the next class",
+      "content": "Inverse matrices Row reduction",
+      "operation": "Lecture and exercises",
+      "assignments": "Review materials from the previous course Prepare for next class",
       "minutes": "120"
     },
     {
       "index": "4",
-      "content": "Differential formulas",
+      "content": "Inverse matrices of order 3",
       "operation": "Lecture and exercises",
-      "assignments": "Review materials from the last\nclass\nPreview for the next class",
-      "minutes": "120"
+      "assignments": "Review materials from the previous course Prepare for next class",
+      "minutes": "150"
     },
     {
       "index": "5",
-      "content": "Review 1",
-      "operation": "Lecture and exercises",
-      "assignments": "Review materials from the last\nclass\nStudy for the Quiz 1\nPreview for the next class",
-      "minutes": "120"
+      "content": "Quiz (1) Definition of liner transformation and representation matrix",
+      "operation": "Quiz on the contents of #1 - #4 Lecture and exercises",
+      "assignments": "Review materials from the previous course Prepare for next class",
+      "minutes": "90"
     },
     {
       "index": "6",
-      "content": "Quiz 1\nExponential functions\nLogarithmic functions",
-      "operation": "Lecture and exercises",
-      "assignments": "Review materials from the last\nclass\nPreview for the next class",
+      "content": "Compositions of linear transformations Inverse transformations",
+      "operation": "Lecture and exercises Self-check",
+      "assignments": "Review materials from the previous course Prepare for next class",
       "minutes": "120"
     },
     {
       "index": "7",
-      "content": "Trigonometric functions",
-      "operation": "Review and self-reflection\nSelf-check",
-      "assignments": "Review materials from the last\nclass\nPreview for the next class",
+      "content": "Definition of determinant Calculation of determinants of order 2 and 3",
+      "operation": "Lecture and exercises",
+      "assignments": "Review materials from the previous course Prepare for next class",
       "minutes": "120"
     },
     {
       "index": "8",
-      "content": "Indefinite integrals",
-      "operation": "Test about contents\nlearned in #3~#7\nLecture and exercises",
-      "assignments": "Review materials from the last\nclass\nPreview for the next class",
+      "content": "Calculation method of determinants based on the properties of determinants",
+      "operation": "Lecture and exercises",
+      "assignments": "Review materials from the previous course Prepare for next class",
       "minutes": "120"
     },
     {
       "index": "9",
-      "content": "Indefinite integrals of various functions",
+      "content": "Cofactor expansion and its applications",
       "operation": "Lecture and exercises",
-      "assignments": "Review materials from the last\nclass\nPreview for the next class",
-      "minutes": "120"
+      "assignments": "Review materials from the previous course Prepare for next class",
+      "minutes": "150"
     },
     {
       "index": "10",
-      "content": "Review 2",
-      "operation": "Lecture and exercises",
-      "assignments": "Review materials from the last\nclass\nStudy for the Quiz 2\nPreview for the next class",
-      "minutes": "120"
+      "content": "Quiz (2) Dot products of vectors Cross products of 3-dim vectors",
+      "operation": "Quiz on the contents of #5 - #9 Lecture and exercises",
+      "assignments": "Review materials from the previous course Prepare for next class",
+      "minutes": "90"
     },
     {
       "index": "11",
-      "content": "Quiz 2\nRiemann integral\nFundamental theorem of calculus",
+      "content": "Linear independence, Linear dependence of vectors",
       "operation": "Lecture and exercises",
-      "assignments": "Review materials from the last\nclass\nPreview for the next class",
+      "assignments": "Review materials from the previous course Prepare for next class",
       "minutes": "120"
     },
     {
       "index": "12",
-      "content": "Definite integrals",
-      "operation": "Lecture and exercises\nSelf-check",
-      "assignments": "Review materials from the last\nclass\nPreview for the next class",
+      "content": "Eigenvalues and eigenvectors",
+      "operation": "Lecture and exercises",
+      "assignments": "Review materials from the previous course Prepare for next class",
       "minutes": "120"
     },
     {
       "index": "13",
-      "content": "Review class",
-      "operation": "Review and exercises",
-      "assignments": "Study for the final exam",
-      "minutes": "150"
+      "content": "Diagonalization and its applications Review",
+      "operation": "Lecture and exercises",
+      "assignments": "Review materials from the previous course. Study for the final exam",
+      "minutes": "180"
     },
     {
       "index": "14",
-      "content": "Final exam",
-      "operation": "Final exam",
-      "assignments": "Review of the final exam",
-      "minutes": "120"
+      "content": "Review Final exam",
+      "operation": "Review Exam on contents of #1 - #13",
+      "assignments": "Study for the final exam Review of this class",
+      "minutes": "90"
     },
     {
       "index": "15",
-      "content": "Review\nSelf-evaluation",
-      "operation": "Review of the final\nexam",
-      "assignments": "Overall review",
-      "minutes": "60"
+      "content": "Review the final exam Self-check",
+      "operation": "Review the final exam Self-check",
+      "assignments": "Review: Final exam",
+      "minutes": "120"
+    },
+    {
+      "index": "16",
+      "content": "Special lecture (business and mathematics) Lectures by engineers from local companies (regional cooperation)",
+      "operation": "Lecture",
+      "assignments": "(1) Survey of the company (2) Write comments on the lecture",
+      "minutes": "30 30"
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　G156-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Mathematics, Science, Data Science and AI Program\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Mathematics and Science ProgramMathematics and Science Courses\n\n                情報数理Ａ\n                Mathematics for Information Science  A\n\n              2\n              G156-01\n\n                2026年度\n\n                1st year 2nd semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  YAMAOKA Hidetaka, KODAMA Koichi, NISHIOKA Keita, UESU Hiroaki, WATANABE Shuji, KAMOYA Toru\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Elementary functions\n2.Limits of functions\n3.Differential coefficients and derivatives\n4.Indefinite integral\n5.Definite integral\n\n              Students will:\n(1) Learn about the graphs of functions.\n(2) Learn about the limits of functions.\n(3) Learn about the differential coefficients and derivatives.\n(4) Learn about the indefinite integrals of functions.\n(5) Learn about the definite integrals of functions.\n\n              授業の概要および学習上の助言\n\n              This is a basic course of calculus. We will cover the following materials.\n1. Functions and Their Graphs\n2. Limits of Functions\n3  Differential Coefficients and Derivatives\n4. Riemann Integrals and Fundamental Theorem of Calculus\n5. Indefinite and Definite Integrations\n\nClasses include exercises and quizzes, and a final examination at the end of the semester.\nDaily preparation and review are important. Students are required to solve designated tasks.\nStudents should study reports and research topics in a planned manner, and strictly avoid plagiarism.\nStudents should actively use the teachers' office hours and the Math. and Science Education Research Center.\n\n              教科書および参考書・リザーブドブック\n\n              Textbooks： Mathematics for Information Science A (Calculus) [kanazawa Institute of Technology]\nReference books：None\nReserved books：None\n\n              履修に必要な予備知識や技能\n\n              Basic knowledge of mathematics (Formula calculation, exponential/ logarithmic/trigonometric functions, etc.)\nBasic Excel skills.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                D\n                Be able to explain the general shape and characteristics of graphs of elementary functions.\n\n                ②\n                D\n                Be able to find the derivatives of basic functions.\n\n                ③\n                D\n                Be able to find the indefinite integrals of basic functions.\n\n                ④\n                D\n                Be able to evaluate the definite integrals of basic functions.\n\n                ⑤\n                C\n                Understand the meanings of fundamental english words for mathematics.\n\n                ⑥\n                A\n                Try to understand the contents, and be able to complete the tasks within the deadlines.\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                30\n\n                30\n\n                20\n\n                0\n\n                0\n\n                0\n\n                20\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                30\n\n                30\n\n                20\n\n                0\n\n                0\n\n                0\n\n                20\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                30\n\n                30\n\n                20\n\n                0\n\n                0\n\n                0\n\n                20\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                ",
-  "courseId": "2026:fall:G156-01:0:59",
+  "rawText": "金沢工業大学 学習支援計画書 G153-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nMathematics, Science, Data Science and AI Program\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Mathematics and Science Program\nMathematics and Science Courses\n線形代数学\nLinear Algebra  2 G153-01  2024年度\n 1st year 2nd semester  修学規程第4条を参照\n    担当教員名\n TOCHI Kunio, TAKAHASHI Takeo, TANAKA Tadayoshi, KODAMA Koichi, TANIGUCHI Tetsuya, HORI Haruna, MIYAZAKI Eiji, KITAJIMA Takahiro, KAMOYA Toru, NAKAGAWA Hayato, SAEKI Akihiko, NEMA Hirofumi, TAKAMURA Matsuzo, KITASHOJI Nobuyuki, OYABU Matashige, HUSSIEN Alaa\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Vectors and matrices 2.Row reduction 3.Determinants 4.Eigenvalues and eigenvectors 5.Regional cooperation  Students will learn (1) vector operations and matrix operations. (2) solving systems of linear equations using “row reduction.” (3) the properties of a determinant and a method to calculate determinants. (4) eigenvalues and eigenvectors. (5) class management and a special lecture will be given in cooperation with local residents and companies.\n    授業の概要および学習上の助言   This is a basic course in linear algebra. We will cover the following topics: 1. Vectors and Matrices 2. Systems of linear equations and row reduction 3. Linear transformation 4. Determinants 5. Linearly independence 6. Eigenvalues and eigenvectors Daily preparation and review are important. Students are required to complete the designated tasks. Students are required to show their solution/calculation procedure logically and clearly in each assignment. Students are expected to utilize the Math. and Science Education Research Center or the office hours of the teacher.\n    教科書および参考書・リザーブドブック   Textbook:Linear Algebra [KIT Mathematics, Science, Data Science and AI Programs] Reference book::A First Course in Linear Algebra (Open Textbook Library)[Lyryx]\n    履修に必要な予備知識や技能   Basic computational skills for mathematical expressions (calculation of literal expressions, linear and quadratic equations, trigonometric functions) and knowledge of coordinate planes.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① D Understand the concept of vectors and matrices, and be able to properly perform operations.   ② D Understand the concept of systems of linear equations by using row reduction.   ③ D Understand the properties of determinants and be able to calculate the value of a determinant.   ④ D Understand the concept of linear transformations and be able to find the eigenvalues and eigenvectors.   ⑤ C Understand the meanings of fundamental English words for mathematics.   ⑥ A Understand the contents of the course and be able to complete the required tasks by the announced deadlines.\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 30 30 15 0 0 0 25 100     指標と評価割合 総合評価割合 30 30 15 0 0 0 25 100   総合力指標 知識を取り込む力 30 30 15 0 0 0 25 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ A final exam will be given at the end of the semester to assess the degree of student achievement. Performance on the exam will comprise 30% of the overall evaluation.    ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     クイズ\n小テスト ① レ There will be two quizzes. Quizzes will together comprise 30% of the overall evaluation.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     レポート ① レ Several reports will be assigned and will together comprise 15% of the overall evaluation.    ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ①   An assessment of the results of the exercises and homework during the class will comprise 25% of the overall evaluation.   ②     ③     ④     ⑤     ⑥ レ\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     (1) Perform properly vector operations and matrix operations. (2) Solve “complex” linear systems using row reduct",
+  "courseId": "2024:spring:G611-01:0:59",
   "language": "en"
 }

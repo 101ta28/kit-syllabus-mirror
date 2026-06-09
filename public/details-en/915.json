@@ -1,49 +1,53 @@
 {
   "sourceIndex": 915,
   "sourceUrl": "/opsyllabus/kitos0110/915/1",
-  "importedAt": "2026-06-08T09:34:12.308Z",
-  "title": "建築の計画とデザイン",
-  "subtitle": "Planning and Design of Architecture",
-  "courseType": "Major ProgramMajor Courses",
+  "importedAt": "2026-06-09T01:29:27.676Z",
+  "title": "プロジェクトデザイン特別科目(AI活用実践)(春期集中講義)",
+  "subtitle": "Special Subject - Design Project(AI Application and Implementation)",
+  "courseType": "(Provided by all courses)\nLiberal Arts Courses\nTransdisciplinary Learning",
   "credits": "2",
-  "term": "2026年度\n\n                1st year 1st semester",
+  "term": "2024年度\n 1st year 2nd semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "YAMAZAKI Mikihiro",
-    "YAMADA Keijirou",
-    "SATO Kouichi"
+    "NISHITA Yoshito"
   ],
   "keywords": [
-    "Architectural planning",
-    "Design and history of architecture",
-    "Exterior space and landscape",
-    "Building production and profession",
-    "Building structures and equipment"
+    "Project based learning 2.Social implementation 3.Using AI to solve problems 4.Use of Generative AI 5.System development"
   ],
-  "educationalGoal": "Students gain not only an overview of the architectural field but also the expanse of the construction industry. Then they come to understand the importance of planning various elements of architecture that influence the consciousness and actions of people. Furthermore, throughout discussion with construction professionals, students develop their interest in architecture, cultivate a questioning attitude to problems, and acquire an ability to plan for the future.",
-  "advice": "This course explains not only the relationship between architectural planning and society but also the influence of architectural planning on town development and the landscape. Concretely, we presents students the goals of studying architecture by showing the superior instances of architecture and exterior spaces. Next, we expand the viewpoint of architectural planning to the fields of town development and landscapes. Furthermore, we show students various jobs related to architectural planning, and their awareness of architectural jobs and their morals grow.\nThe subjects of this course are as follows:\n　1. Fields of architecture: first and eleventh lectures\n　2. Design and history of architecture and exterior space: second to fifth lectures\n　3. Areas covered by architectural planning: sixth to tenth lectures\n　4. Jobs related to architectural planning: twelfth to fifteenth lectures",
-  "books": "",
-  "requiredKnowledge": "It is important that students not only learn from the textbook of this course but also read as many books and magazines on architecture as possible. Furthermore, it is more important that students observe architecture and urban space in their daily lives. This attitude is needed for the four years of learning in this college as well as in this course.",
+  "educationalGoal": "In this class, students will prototype and verify systems that use AI technology to solve problems on campus. During prototyping and verification, students will utilize generative AI and learn about the system development process. Students will understand AI technology and how to apply generative AI. Students will also improve their skills in effective communication of information through project planning, progress management, and documentation.",
+  "advice": "In this class, students will verify the effectiveness of AI technology by creating a prototype of a system to solve a problem on campus for the purpose of problem solving through PBL. In addition, students will acquire skills in the system development process (design → development → verification), as well as document creation and system development using AI. Main contents of the class 1. Acquisition of skills for each process in system development Learn what needs to be considered in each process (basic design, system design, functional design, etc.) and create the necessary documents by using the generated AI. 2. Prototyping a system that embodies the solution Prototype a system that embodies the solution using AI based on the created documents. 3. Verify the effectiveness of the developed system Evaluate the performance of the system and verify its effectiveness in solving the problem. 4. Presentation Demonstration and presentation of the prototype system will be conducted as a summary of the class.",
+  "books": "None",
+  "requiredKnowledge": "Knowledge and experience learned and acquired by the time of the course.",
   "activityGoals": [
     {
       "index": "①",
-      "type": "J,L",
-      "body": "Students acquire knowledge about attractive architecture and urban space, and develop their interest and motivat"
+      "type": "G",
+      "body": "To be able to apply the knowledge acquired in university studies to problem solving"
     },
     {
       "index": "②",
-      "type": "J,L,M",
-      "body": "Students understand the basics of architectural planning related to buildings and landscapes."
+      "type": "G",
+      "body": "To be able to search, research, and understand anything that is unclear"
     },
     {
       "index": "③",
-      "type": "J",
-      "body": "Students become familiar with jobs related to architectural planning and their mutual relationships."
+      "type": "G,H",
+      "body": "To be able to use AI to solve problems"
     },
     {
       "index": "④",
-      "type": "J",
-      "body": "Students understand the fields of architecture (architectural planning, structural engineering, and environmenta"
+      "type": "G,H",
+      "body": "To be able to proceed smoothly with system development"
+    },
+    {
+      "index": "⑤",
+      "type": "E",
+      "body": "To be able to communicate results to third parties in a logical and easy-to-understand manner"
+    },
+    {
+      "index": "⑥",
+      "type": "A",
+      "body": "To be able to demonstrate a willingness to objectively evaluate one's own abilities"
     }
   ],
   "evaluationWeights": [
@@ -51,19 +55,19 @@
       "label": "総合評価割合",
       "values": [
         "0",
-        "60",
-        "40",
         "0",
-        "0",
-        "0",
+        "50",
+        "20",
+        "20",
+        "10",
         "0",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -74,19 +78,19 @@
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
         "0",
-        "60",
-        "40",
         "0",
-        "0",
-        "0",
+        "50",
+        "20",
+        "20",
+        "10",
         "0",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -97,19 +101,19 @@
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
         "0",
-        "60",
-        "40",
         "0",
-        "0",
-        "0",
+        "50",
+        "20",
+        "20",
+        "10",
         "0",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -130,9 +134,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -140,7 +144,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -153,9 +157,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -176,9 +180,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -187,118 +191,118 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "Students are strongly interested in superior architecture or townscapes, both in Japan and abroad, and are able to explain their distinctive features and significance. They are able to explain in detail ways that architectural planning influences the consciousness and actions of people. They are able not only to give basic explanations of construction-related jobs but also clearly display these learning targets in furthering their career development.",
-    "standard": "Students can explain the distinctive features and significance of superior architecture or townscapes in Japan and abroad. They are able to give rough explanations of how architectural planning influences the consciousness and actions of people. They can explain the basic jobs of construction."
+    "ideal": "1. To be able to implement the processes required for system development 2. To be able to create the necessary documentation for the system development process 3, To be able to build systems using AI to solve problems 4. To be able to conduct efficient activities using generative AI in system development 5, To be able to explain the results of activities logically and clearly in presentations and other oral presentations",
+    "standard": "1. To be able to implement the processes required for system development 2. To be able to conduct efficient activities using generative AI in system development 3, To be able to explain the results of activities logically and clearly in presentations and other oral presentations"
   },
   "clipProcess": "",
   "lessons": [
     {
       "index": "1",
-      "content": "Guidance\nFields of architecture\n　Learning fields and curriculum of the Faculty\n　of Architecture\n　Merits of learning architecture in Kanazawa\n　City",
-      "operation": "Lecture and QA",
-      "assignments": "Review lecture notes to\ndevelop understanding.",
-      "minutes": "100"
+      "content": "Guidance: Understand the outline of the subject, learning objectives, and action goals based on the learning support plan, Determination of theme: To examine and determine the issue to be tackled",
+      "operation": "Class outline with learnin g support plan, Activities, Instructions, Reports",
+      "assignments": "Determination of project theme Research on the system to be d eveloped",
+      "minutes": "30"
     },
     {
       "index": "2",
-      "content": "Famous architecture abroad\n　Designs of famous architecture abroad",
-      "operation": "Lecture and QA",
-      "assignments": "Review lecture notes to\ndevelop understanding.",
-      "minutes": "100"
+      "content": "-Basic System Design- Learn about basic system design, Create a requirements definition for the system to be developed",
+      "operation": "Activities, Instructions, Reports",
+      "assignments": "Preparation and submission of requirement definition for the system to be developed, Investigate the functions requ ired for the system",
+      "minutes": "60"
     },
     {
       "index": "3",
-      "content": "Famous architecture in Japan\n　Designs of famous architecture in Japan",
-      "operation": "Lecture and QA",
-      "assignments": "Review lecture notes to\ndevelop understanding.",
-      "minutes": "100"
+      "content": "-System Design- Learn about the schematic design of a system, Create a schematic design of the system to be de veloped",
+      "operation": "Activities, Instructions, Reports",
+      "assignments": "Preparation of a schematic des ign of the system to be develo ped, Preparation and submission of progress reports on activities",
+      "minutes": "60"
     },
     {
       "index": "4",
-      "content": "Exterior space with famous architecture\n　The relationship between superior architecture\n　in Japan and exterior space.",
-      "operation": "Lecture and QA",
-      "assignments": "Review lecture notes to\ndevelop understanding.",
-      "minutes": "100"
+      "content": "-System Design- Create a schematic design of the system to be de veloped",
+      "operation": "Activities, Instructions, Reports",
+      "assignments": "Research on the technology req uired for the system, Preparation and submission of a schematic design of the syst em to be developed",
+      "minutes": "90"
     },
     {
       "index": "5",
-      "content": "Integration of construction technologies\n　The relationship between architectural\n　planning, structural engineering, and building\n　equipment based on a sample construction site.\n●Small test covering the first to fifth\n　lectures",
-      "operation": "Lecture and QA\n\nSelf-reflection",
-      "assignments": "Review lecture notes to\ndevelop understanding.",
-      "minutes": "100"
+      "content": "-Functional Design- Learn about the functional design of a system, Create a detailed design of the system to be dev eloped",
+      "operation": "Activities, Instructions, Reports",
+      "assignments": "Preparation of detailed design documents for the system to b e developed, Preparation and submission of progress reports on activities",
+      "minutes": "90"
     },
     {
       "index": "6",
-      "content": "Architectural planning and landscapes\n　Learning the relationship not only between\n　architectural planning and townscapes but also\n　between an individual facade designs of\n　buildings and landscapes.",
-      "operation": "Lecture and QA",
-      "assignments": "Review lecture notes to\ndevelop understanding.",
-      "minutes": "100"
+      "content": "-Functional Design- Prepare a detailed design document of the system to be developed",
+      "operation": "Activities, Instructions, Reports",
+      "assignments": "Preparation and submission of a detailed design of the syste m to be developed, Investigation of the technolog y required for the system",
+      "minutes": "90"
     },
     {
       "index": "7",
-      "content": "Site environment around and architectural\nplanning\n　The relationship between the use of buildings\n　and sites' environment including climatic\n　conditions, urban context, and human society.",
-      "operation": "Lecture and QA",
-      "assignments": "Review lecture notes to\ndevelop understanding.",
-      "minutes": "100"
+      "content": "-System development- System development using generative AI",
+      "operation": "Activities, Instructions, Reports",
+      "assignments": "Preparation and submission of progress reports on activities",
+      "minutes": "120"
     },
     {
       "index": "8",
-      "content": "Interior of premises and architectural planning\n　The relationship between elements on premises\n　and architectural planning.",
-      "operation": "Lecture and QA",
-      "assignments": "Review lecture notes to\ndevelop understanding.",
-      "minutes": "100"
+      "content": "-System development- System development using generative AI",
+      "operation": "Activities, Instructions, Reports",
+      "assignments": "Preparation and submission of progress reports on activities",
+      "minutes": "120"
     },
     {
       "index": "9",
-      "content": "Preservation and use of historic buildings\n　The historic and design value of architecture.\n●Small test covering the sixth to ninth\n　lectures",
-      "operation": "Lecture and QA\n\nSelf-reflection",
-      "assignments": "Review lecture notes to\ndevelop understanding.",
-      "minutes": "100"
+      "content": "-System development- System development using generative AI",
+      "operation": "Activities, Instructions, Reports",
+      "assignments": "Preparation and submission of progress reports on activities",
+      "minutes": "120"
     },
     {
       "index": "10",
-      "content": "Historic buildings in Kanazawa City\n　Lecture on architectural planning by\n　a visiting lecturer.",
-      "operation": "Lecture and QA",
-      "assignments": "Review lecture notes to　　　\ndevelop understanding.",
-      "minutes": "100"
+      "content": "-System development- System development using generative AI",
+      "operation": "Activities, Instructions, Reports",
+      "assignments": "Preparation and submission of progress reports on activities",
+      "minutes": "120"
     },
     {
       "index": "11",
-      "content": "Fields of the construction industry\n　Features of the Japanese construction industry\n　explained through an international comparison.",
-      "operation": "Lecture and QA",
-      "assignments": "Review lecture notes to\ndevelop understanding.",
+      "content": "-System test- Learn about system operation tests, Examine the test items for the operation test, Conduct operation tests",
+      "operation": "Activities, Instructions, Reports",
+      "assignments": "Preparation of test specificat ions and reports for developed systems",
       "minutes": "100"
     },
     {
       "index": "12",
-      "content": "People developing building concepts－starting a\nbuilding project\n　Jobs carried out in buildings' planning and\n　design stages.",
-      "operation": "Lecture and QA",
-      "assignments": "Review lecture notes to\ndevelop understanding.",
+      "content": "-System test- Learn about system performance testing methods, Examine test items for performance testing, Conduct performance tests",
+      "operation": "Activities, Instructions, Reports",
+      "assignments": "Preparation and submission of test specifications and report s for the developed system",
       "minutes": "100"
     },
     {
       "index": "13",
-      "content": "People constructing buildings on sites－various\non-site planning functions\n　Jobs involved in realizing a building project\n　plan.",
-      "operation": "Lecture and QA",
-      "assignments": "Review lecture notes to\ndevelop understanding.",
-      "minutes": "100"
+      "content": "-Preparation for presentation- Learn how to prepare a project report, Prepare a project report",
+      "operation": "Activities, Instructions, Reports",
+      "assignments": "Preparation and submission of a project report summarizing a ctivities to date",
+      "minutes": "120"
     },
     {
       "index": "14",
-      "content": "People manufacturing parts of buildings\n－planning for building elements\n　Jobs related to manufacturing structural\n　materials, finishing materials, and building\n　equipment.\n・Report submission",
-      "operation": "Lecture and QA",
-      "assignments": "Review lecture notes to\ndevelop understanding.",
-      "minutes": "100"
+      "content": "-Preparation for presentation- Learn how to prepare presentation materials, Prepare materials for presentation",
+      "operation": "Activities, Instructions, Reports",
+      "assignments": "Preparation and submission of presentation materials to be u sed in the presentation",
+      "minutes": "120"
     },
     {
       "index": "15",
-      "content": "People utilizing buildings－the expansion of the\n role of architectural planning\n　The relationship between area management and\n　various renovations that include barrier-free\n　work, energy saving work, etc.",
-      "operation": "Lecture and QA\n\nSelf-reflection",
-      "assignments": "Review lecture notes to\ndevelop understanding.",
-      "minutes": "100"
+      "content": "-Presentation-",
+      "operation": "Activities, Instructions, Reports",
+      "assignments": "Preparation and submission of a report of the presentation a udit",
+      "minutes": "30"
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　A202-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Architectural Design\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                建築の計画とデザイン\n                Planning and Design of Architecture\n\n              2\n              A202-01\n\n                2026年度\n\n                1st year 1st semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  YAMAZAKI Mikihiro, YAMADA Keijirou, SATO Kouichi\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Architectural planning\n2.Design and history of architecture\n3.Exterior space and landscape\n4.Building production and profession\n5.Building structures and equipment\n\n              Students gain not only an overview of the architectural field but also the expanse of the construction industry. Then they come to understand the importance of planning various elements of architecture that influence the consciousness and actions of people. Furthermore, throughout discussion with construction professionals, students develop their interest in architecture, cultivate a questioning attitude to problems, and acquire an ability to plan for the future.\n\n              授業の概要および学習上の助言\n\n              This course explains not only the relationship between architectural planning and society but also the influence of architectural planning on town development and the landscape. Concretely, we presents students the goals of studying architecture by showing the superior instances of architecture and exterior spaces. Next, we expand the viewpoint of architectural planning to the fields of town development and landscapes. Furthermore, we show students various jobs related to architectural planning, and their awareness of architectural jobs and their morals grow.\nThe subjects of this course are as follows:\n　1. Fields of architecture: first and eleventh lectures\n　2. Design and history of architecture and exterior space: second to fifth lectures\n　3. Areas covered by architectural planning: sixth to tenth lectures\n　4. Jobs related to architectural planning: twelfth to fifteenth lectures\n\n              教科書および参考書・リザーブドブック\n\n              　　　\n\n              履修に必要な予備知識や技能\n\n              It is important that students not only learn from the textbook of this course but also read as many books and magazines on architecture as possible. Furthermore, it is more important that students observe architecture and urban space in their daily lives. This attitude is needed for the four years of learning in this college as well as in this course.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                J,L\n                Students acquire knowledge about attractive architecture and urban space, and develop their interest and motivat\n\n                ②\n                J,L,M\n                Students understand the basics of architectural planning related to buildings and landscapes.\n\n                ③\n                J\n                Students become familiar with jobs related to architectural planning and their mutual relationships.\n\n                ④\n                J\n                Students understand the fields of architecture (architectural planning, structural engineering, and environmenta\n\n                ⑤\n\n                ⑥\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                0\n\n                60\n\n                40\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                0\n\n                60\n\n                40\n",
-  "courseId": "2026:spring:A202-01:0:915",
+  "rawText": "金沢工業大学 学習支援計画書 G558-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\n(Provided by all courses)\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     (Provided by all courses)\nLiberal Arts Courses\nTransdisciplinary Learning\nプロジェクトデザイン特別科目(AI活用実践)(春期集中講義)\nSpecial Subject - Design Project(AI Application and Implementation)  2 G558-01  2024年度\n 1st year 2nd semester  修学規程第4条を参照\n    担当教員名\n NISHITA Yoshito\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Project based learning 2.Social implementation 3.Using AI to solve problems 4.Use of Generative AI 5.System development  In this class, students will prototype and verify systems that use AI technology to solve problems on campus. During prototyping and verification, students will utilize generative AI and learn about the system development process. Students will understand AI technology and how to apply generative AI. Students will also improve their skills in effective communication of information through project planning, progress management, and documentation.\n    授業の概要および学習上の助言   In this class, students will verify the effectiveness of AI technology by creating a prototype of a system to solve a problem on campus for the purpose of problem solving through PBL. In addition, students will acquire skills in the system development process (design → development → verification), as well as document creation and system development using AI. Main contents of the class 1. Acquisition of skills for each process in system development Learn what needs to be considered in each process (basic design, system design, functional design, etc.) and create the necessary documents by using the generated AI. 2. Prototyping a system that embodies the solution Prototype a system that embodies the solution using AI based on the created documents. 3. Verify the effectiveness of the developed system Evaluate the performance of the system and verify its effectiveness in solving the problem. 4. Presentation Demonstration and presentation of the prototype system will be conducted as a summary of the class.\n    教科書および参考書・リザーブドブック   None\n    履修に必要な予備知識や技能   Knowledge and experience learned and acquired by the time of the course.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① G To be able to apply the knowledge acquired in university studies to problem solving   ② G To be able to search, research, and understand anything that is unclear   ③ G,H To be able to use AI to solve problems   ④ G,H To be able to proceed smoothly with system development   ⑤ E To be able to communicate results to third parties in a logical and easy-to-understand manner   ⑥ A To be able to demonstrate a willingness to objectively evaluate one's own abilities\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 0 0 50 20 20 10 0 100     指標と評価割合 総合評価割合 0 0 50 20 20 10 0 100   総合力指標 知識を取り込む力 0 0 50 20 20 10 0 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ①      ②     ③     ④     ⑤     ⑥     クイズ\n小テスト ①      ②     ③     ④     ⑤     ⑥     レポート ① レ Students make to summarize the results of each step of the activity.   ② レ   ③ レ   ④     ⑤ レ   ⑥     成果発表\n(口頭・実技) ① レ Students are required to prepare a presentation summarizing their activities. Students listen to and evaluate the presentations of others.   ② レ   ③     ④     ⑤     ⑥     作品 ① レ Students demonstrate the work they have produced.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     ポートフォリオ ①   Activity records (records of personal activities)   ②     ③     ④     ⑤ レ   ⑥ レ   その他 ①      ②     ③     ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     1. To be able to implement the processes required for system development 2. To be able to create the necessary documentation for the system development process 3, To be able to build systems using AI to solve problems 4. To be able to conduct efficient activities using generativ",
+  "courseId": "2024:spring:G541-01:0:915",
   "language": "en"
 }

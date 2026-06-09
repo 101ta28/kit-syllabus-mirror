@@ -1,50 +1,43 @@
 {
   "sourceIndex": 244,
   "sourceUrl": "/opsyllabus/kitos0110/244/1",
-  "importedAt": "2026-06-08T09:33:58.099Z",
-  "title": "ロボティクス統合演習",
-  "subtitle": "Robotics Integrated Exercise",
-  "courseType": "Major ProgramMajor Courses",
-  "credits": "2",
-  "term": "2026年度\n\n                4th year 1st semester",
+  "importedAt": "2026-06-09T01:29:21.431Z",
+  "title": "進路セミナーⅡ",
+  "subtitle": "Career Planning Seminar II",
+  "courseType": "Major Program\nOther Courses",
+  "credits": "1",
+  "term": "2024年度\n 3rd year 2nd semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "FUJITA Masayuki"
+    "HIROMITSU Nagayoshi"
   ],
   "keywords": [
-    "Pendulum and Dynamical Systems",
-    "Inverted Pendulum and Modern Control",
-    "Inverted Pendulum and Machine Learning"
+    "Continuing study 2.Industry and job type 3.Job search 4.Corporate interview 5.Utilization of database"
   ],
-  "educationalGoal": "With the development of AI, the realization of motion intelligence in robotics has become important. In this course, students learn physical body movements in the real world comprehensively through mathematical pendulum models. First, students learn to analyze a pendulum as a dynamical system. Next, students learn to stabilize an inverted pendulum by modern control based on the model. Then, students learn to control the inverted pendulum based on data-driven machine learning. MATLAB/Python is used in this course.",
-  "advice": "The student should have an understanding of the fundamentals of linear algebra, analysis and dynamics. It is also necessary to understand the fundamentals of system control (control engineering). For preparation, the lecture material will be presented before the class, so students should check the necessary information in advance. For review, students are expected to solve the exercise reports given in the class by themselves and clarify any unclear points by the next class.",
-  "books": "",
-  "requiredKnowledge": "No specific prerequisites",
+  "educationalGoal": "In order to clarify the purpose of continuing studies or finding a job, self-development is required in this course. Students will: (1) learn self-analysis and how to perform a job search (2) learn job types and vocational aptitudes",
+  "advice": "We will cover the following items: (1) Methods of job searches (2) Factory tours (3) Self promotion (4) Corporate interviews (5) Practice exams",
+  "books": "Non",
+  "requiredKnowledge": "Career Planning Seminar II is a required lecture on finding a job. All students are highly recommended to attend this course regardless of study continuation plans.",
   "activityGoals": [
     {
       "index": "①",
-      "type": "L,J,O",
-      "body": "Pendulum can be analyzed as a dynamical system"
+      "type": "A,O",
+      "body": "Be able to explain the activity process from course selection to decision."
     },
     {
       "index": "②",
-      "type": "L,J,O",
-      "body": "Inverted pendulum can be stabilized by modern control"
+      "type": "A,O",
+      "body": "Be able to act by collecting and analyzing information."
     },
     {
       "index": "③",
-      "type": "L,J,O",
-      "body": "Inverted pendulum can be controlled based on machine learning"
+      "type": "O",
+      "body": "Be able to recognize required aptitudes and achievements."
     },
     {
       "index": "④",
-      "type": "L,J,O",
-      "body": "Solve problems by understanding the nature of the problem and integrating the knowledge and skills"
-    },
-    {
-      "index": "⑤",
-      "type": "L,J,O",
-      "body": "Organize and perform tasks systematically under given constraints"
+      "type": "A,O",
+      "body": "Be able to clarify the ideas that form the core of your career path and explain them to others."
     }
   ],
   "evaluationWeights": [
@@ -52,19 +45,19 @@
       "label": "総合評価割合",
       "values": [
         "0",
-        "0",
-        "60",
-        "0",
-        "0",
-        "0",
+        "15",
         "40",
+        "20",
+        "0",
+        "10",
+        "15",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -75,19 +68,19 @@
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
         "0",
-        "0",
-        "60",
-        "0",
-        "0",
-        "0",
+        "15",
         "40",
+        "20",
+        "0",
+        "10",
+        "15",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -98,19 +91,19 @@
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
         "0",
-        "0",
-        "60",
-        "0",
-        "0",
-        "0",
+        "15",
         "40",
+        "20",
+        "0",
+        "10",
+        "15",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -131,9 +124,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -141,7 +134,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -154,9 +147,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -177,9 +170,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -188,118 +181,62 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "Mathematical understanding of the analysis of a pendulum as a dynamical system, stabilization of an inverted pendulum by modern control, and machine learning based control of an inverted pendulum, and the ability to implement them using MATLAB/Python.",
-    "standard": "Analyze a pendulum as a dynamical system, stabilize an inverted pendulum by modern control, and control an inverted pendulum based on machine learning using MATLAB/Python."
+    "ideal": "You can explain your career design in detail.",
+    "standard": "You can imagine your future."
   },
   "clipProcess": "",
   "lessons": [
     {
       "index": "1",
-      "content": "Course Guidance\n  Course Objectives and Motivation",
-      "operation": "Lectures and Exercises",
-      "assignments": "Preparation : Fundamentals of\nRobotics and Systems & Control\nReview: Comprehension of the L\necture Materials",
-      "minutes": "90"
+      "content": "Course introduction Methods of Corporate research",
+      "operation": "Lecture and Q&A",
+      "assignments": "Understand the objectives of class",
+      "minutes": "60"
     },
     {
       "index": "2",
-      "content": "Comprehensive Learning A (Pendulum and Dynamical\n Systems)\nPendulum, State and State equation, State space",
-      "operation": "Lectures and Exercises",
-      "assignments": "Preparation: Reading through t\nhe Lecture Materials\nReview: Comprehension of the L\necture Materials",
-      "minutes": "90"
+      "content": "Learn from the experience of seniors Corporate research",
+      "operation": "Lecture and Q&A Self-check",
+      "assignments": "Prepare for the test Check points of difficulty.",
+      "minutes": "120"
     },
     {
       "index": "3",
-      "content": "Comprehensive Learning A (Pendulum and Dynamical\n Systems)\nState space, Equilibrium, Trajectory",
-      "operation": "Lectures and Exercises",
-      "assignments": "Preparation: Reading through t\nhe Lecture Materials\nReview: Comprehension of the L\necture Materials",
-      "minutes": "90"
+      "content": "Self-analysis report Corporate research",
+      "operation": "Lecture and Q&A Self-check",
+      "assignments": "Prepare for the test Check points of difficulty.",
+      "minutes": "180"
     },
     {
       "index": "4",
-      "content": "Comprehensive Learning A (Pendulum and Dynamical\n Systems)\nLinearization",
-      "operation": "Lectures and Exercises",
-      "assignments": "Preparation: Reading through t\nhe Lecture Materials\nReview: Comprehension of the L\necture Materials",
-      "minutes": "90"
+      "content": "Self-analysis report Corporate research Practice exam. Midterm review",
+      "operation": "Lecture and Q&A Practice Self-check",
+      "assignments": "Prepare for the test Check points of difficulty.",
+      "minutes": "120"
     },
     {
       "index": "5",
-      "content": "Comprehensive Learning A (Pendulum and Dynamical\n Systems)\nMode, Stability",
-      "operation": "Lectures and Exercises",
-      "assignments": "Preparation: Reading through t\nhe Lecture Materials\nReview: Comprehension of the L\necture Materials",
-      "minutes": "90"
+      "content": "Corporate research and roundtable discussions",
+      "operation": "Lecture and Q&A Self-check",
+      "assignments": "Preparing for a presentation",
+      "minutes": "180"
     },
     {
       "index": "6",
-      "content": "Comprehensive Learning B (Inverted Pendulum and\nModern Control)\nEquation of Motion",
-      "operation": "Lectures and Exercises",
-      "assignments": "Preparation: Reading through t\nhe Lecture Materials\nReview: Comprehension of the L\necture Materials",
-      "minutes": "90"
+      "content": "Corporate research and roundtable discussions trial examination",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Preparing for a presentation Create a report",
+      "minutes": "180"
     },
     {
       "index": "7",
-      "content": "Comprehensive Learning B (Inverted Pendulum and\nModern Control)\nFeedback Control",
-      "operation": "Lectures and Exercises",
-      "assignments": "Preparation: Reading through t\nhe Lecture Materials\nReview: Comprehension of the L\necture Materials",
-      "minutes": "90"
-    },
-    {
-      "index": "8",
-      "content": "Comprehensive Learning B (Inverted Pendulum and\nModern Control)\nState Equation",
-      "operation": "Lectures and Exercises",
-      "assignments": "Preparation: Reading through t\nhe Lecture Materials\nReview: Comprehension of the L\necture Materials",
-      "minutes": "90"
-    },
-    {
-      "index": "9",
-      "content": "Comprehensive Learning B (Inverted Pendulum and\nModern Control)\nControllability",
-      "operation": "Lectures and Exercises",
-      "assignments": "Preparation: Reading through t\nhe Lecture Materials\nReview: Comprehension of the L\necture Materials",
-      "minutes": "90"
-    },
-    {
-      "index": "10",
-      "content": "Comprehensive Learning B (Inverted Pendulum and\nModern Control)\nState Feedback Control",
-      "operation": "Lectures and Exercises",
-      "assignments": "Preparation: Reading through t\nhe Lecture Materials\nReview: Comprehension of the L\necture Materials",
-      "minutes": "90"
-    },
-    {
-      "index": "11",
-      "content": "Comprehensive Learning B (Inverted Pendulum and\nModern Control)\nState Feedback Control",
-      "operation": "Lectures and Exercises",
-      "assignments": "Preparation: Reading through t\nhe Lecture Materials\nReview: Comprehension of the L\necture Materials",
-      "minutes": "90"
-    },
-    {
-      "index": "12",
-      "content": "Comprehensive Learning C (Inverted Pendulum and\nMachine Learning)\nReinforcement Learning, Markov Decision Process,\n Q-Learning",
-      "operation": "Lectures and Exercises",
-      "assignments": "Preparation: Reading through t\nhe Lecture Materials\nReview: Comprehension of the L\necture Materials",
-      "minutes": "90"
-    },
-    {
-      "index": "13",
-      "content": "Comprehensive Learning C (Inverted Pendulum and\nMachine Learning)\nDeep Learning",
-      "operation": "Lectures and Exercises",
-      "assignments": "Preparation: Reading through t\nhe Lecture Materials\nReview: Comprehension of the L\necture Materials",
-      "minutes": "90"
-    },
-    {
-      "index": "14",
-      "content": "Comprehensive Learning C (Inverted Pendulum and\nMachine Learning)\nDeep Reinforcement Learning",
-      "operation": "Lectures and Exercises",
-      "assignments": "Preparation: Reading through t\nhe Lecture Materials\nReview: Comprehension of the L\necture Materials",
-      "minutes": "90"
-    },
-    {
-      "index": "15",
-      "content": "Summary\nSelf-evaluation\nReflection on what you have learned",
-      "operation": "Lectures and Exercises\nSummary",
-      "assignments": "Preparation: Reading through t\nhe Lecture Materials\nReview: Comprehension of the L\necture Materials\nReflection on what you have le\narned",
-      "minutes": "60"
+      "content": "Corporate interview and job search Overall review",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Creat a portfolio",
+      "minutes": "120"
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　E237-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Robotics(〜2024)\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                ロボティクス統合演習\n                Robotics Integrated Exercise\n\n              2\n              E237-01\n\n                2026年度\n\n                4th year 1st semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  FUJITA Masayuki\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Pendulum and Dynamical Systems\n2.Inverted Pendulum and Modern Control\n3.Inverted Pendulum and Machine Learning\n\n              With the development of AI, the realization of motion intelligence in robotics has become important. In this course, students learn physical body movements in the real world comprehensively through mathematical pendulum models. First, students learn to analyze a pendulum as a dynamical system. Next, students learn to stabilize an inverted pendulum by modern control based on the model. Then, students learn to control the inverted pendulum based on data-driven machine learning. MATLAB/Python is used in this course.\n\n              授業の概要および学習上の助言\n\n              The student should have an understanding of the fundamentals of linear algebra, analysis and dynamics. It is also necessary to understand the fundamentals of system control (control engineering). For preparation, the lecture material will be presented before the class, so students should check the necessary information in advance. For review, students are expected to solve the exercise reports given in the class by themselves and clarify any unclear points by the next class.\n\n              教科書および参考書・リザーブドブック\n\n              　\n\n              履修に必要な予備知識や技能\n\n              No specific prerequisites\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                L,J,O\n                Pendulum can be analyzed as a dynamical system\n\n                ②\n                L,J,O\n                Inverted pendulum can be stabilized by modern control\n\n                ③\n                L,J,O\n                Inverted pendulum can be controlled based on machine learning\n\n                ④\n                L,J,O\n                Solve problems by understanding the nature of the problem and integrating the knowledge and skills\n\n                ⑤\n                L,J,O\n                Organize and perform tasks systematically under given constraints\n\n                ⑥\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                0\n\n                0\n\n                60\n\n                0\n\n                0\n\n                0\n\n                40\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                0\n\n                0\n\n                60\n\n                0\n\n                0\n\n                0\n\n                40\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                0\n\n                0\n\n                60\n\n                0\n\n                0\n\n                0\n\n                40\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  コラボレーションとリーダーシップ\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  発表・表現・伝達する力\n\n                    0\n\n                    0\n\n                    0\n\n  ",
-  "courseId": "2026:spring:E237-01:0:244",
+  "rawText": "金沢工業大学 学習支援計画書 E952-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Aeronautics\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nOther Courses\n進路セミナーⅡ\nCareer Planning Seminar II  1 E952-01  2024年度\n 3rd year 2nd semester  修学規程第4条を参照\n    担当教員名\n HIROMITSU Nagayoshi\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Continuing study 2.Industry and job type 3.Job search 4.Corporate interview 5.Utilization of database  In order to clarify the purpose of continuing studies or finding a job, self-development is required in this course. Students will: (1) learn self-analysis and how to perform a job search (2) learn job types and vocational aptitudes\n    授業の概要および学習上の助言   We will cover the following items: (1) Methods of job searches (2) Factory tours (3) Self promotion (4) Corporate interviews (5) Practice exams\n    教科書および参考書・リザーブドブック   Non\n    履修に必要な予備知識や技能   Career Planning Seminar II is a required lecture on finding a job. All students are highly recommended to attend this course regardless of study continuation plans.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① A,O Be able to explain the activity process from course selection to decision.   ② A,O Be able to act by collecting and analyzing information.   ③ O Be able to recognize required aptitudes and achievements.   ④ A,O Be able to clarify the ideas that form the core of your career path and explain them to others.   ⑤     ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 0 15 40 20 0 10 15 100     指標と評価割合 総合評価割合 0 15 40 20 0 10 15 100   総合力指標 知識を取り込む力 0 15 40 20 0 10 15 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ①      ②     ③     ④     ⑤     ⑥     クイズ\n小テスト ①   It is important to review using the practice exam.   ② レ   ③ レ   ④     ⑤     ⑥     レポート ① レ Students will be evaluated on several reports.   ② レ   ③ レ   ④     ⑤     ⑥     成果発表\n(口頭・実技) ① レ Students are required to give a presentation.    ② レ   ③ レ   ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①   Students will be evaluated on their portfolio.   ②     ③     ④ レ   ⑤     ⑥     その他 ①   Evaluate level of active participation in lectures and factory tour.   ② レ   ③ レ   ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     You can explain your career design in detail.  You can imagine your future.\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習課題に要する標準的な時間を記載してあります。日々の自学自習時間全体としては、各授業に応じた時間(例えば2単位科目の場合、予習2時間・復習2時間/週)を取るよう努めてください。詳しくは教員の指導に従って下さい。     授業明細   回数 学習内容 授業の運営方法 学習課題(予習・復習) 時間:分※     1  Course introduction Methods of Corporate research Lecture and Q&A  Understand the objectives of class  60   2  Learn from the experience of seniors Corporate research  Lecture and Q&A Self-check Prepare for the test Check points of difficulty.  120   3  Self-analysis report Corporate research  Lecture and Q&A Self-check Prepare for the test Check points of difficulty.  180   4  Self-analysis report Corporate research Practice exam. Midterm review Lecture and Q&A Practice Self-check Prepare for the test Check points of difficulty.  120   5  Corporate research and roundtable discussions  Lecture and Q&A Self-check Preparing for a presentation  180   6  Corporate research and roundtable discussions trial examination Lecture and practice Self-check Preparing for a presentation Create a report  180   7  Corporate interview and job search Overall review  Lecture and practice Self-check Creat a portfolio  120",
+  "courseId": "2024:full-year:E922-06:0:244",
   "language": "en"
 }

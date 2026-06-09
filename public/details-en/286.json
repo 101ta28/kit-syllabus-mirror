@@ -1,42 +1,33 @@
 {
   "sourceIndex": 286,
   "sourceUrl": "/opsyllabus/kitos0110/286/1",
-  "importedAt": "2026-06-08T09:33:58.908Z",
-  "title": "電気法規と電気施設管理",
-  "subtitle": "Laws Regulations and Management for Electrical Facilities",
-  "courseType": "Major ProgramMajor Courses",
-  "credits": "1",
-  "term": "2026年度\n\n                4th year 1st semester",
+  "importedAt": "2026-06-09T01:29:21.682Z",
+  "title": "プログラミング基礎Ⅱ",
+  "subtitle": "Programming Basics II",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "2",
+  "term": "2024年度\n 1st year 2nd semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "NAOE Nobuyuki"
+    "KOGURE Kiyoshi"
   ],
   "keywords": [
-    "Electricity Business Act",
-    "Electrical Appliances and Materials Safety Act",
-    "Electricians Act",
-    "Guide Book of Electrical Equipment",
-    "Management for Electrical Facilities"
+    "Programming 2.C programming language"
   ],
-  "educationalGoal": "Students will: (1) learn about various regulations for electric power companies. (2) learn the regulations to ensure the safety of electrical appliances and materials. (3) learn the license and duties of electricians. (4) learn the standards of electrical equipment. (5) learn about the construction, maintenance and operation of electrical facilities.",
-  "advice": "This course will cover the following materials:\n\n1. Electrical laws and regulations\n 1.1 Electricity business act\n 1.2 Electrical appliances and materials safety act\n 1.3 Electricians act\n 1.4 Guide book of electrical equipment\n2. Management for electrical facilities\n\nStudents are required to actively participate in class.",
-  "books": "Textbook: Koredake　houki (in Japanese)",
-  "requiredKnowledge": "Knowledge of electric power and energy.",
+  "educationalGoal": "Students will learn the basics of the C programming language, as computer programs are essential for developing robots, particularly for implementing motion control and environmental information acquisition.",
+  "advice": "This is a basic course in the C programming language. We will cover the following topics: 1. Pointers 2. Applications of arrays and pointers 3. Structures, unions, and enumerations 4. File input/output Students are expected to actively participate in class. Students are expected to complete exercises independently. Students are required to bring their own laptop computers for use in exercises. Students are required to be aware of the instructor's messages in the class and to check for messages/materials on the KIT Inside website before every class, as the course schedule may change depending on the class progress.",
+  "books": "Textbooks: ISBN 978-4-7973-9258-6 (in Japanese).",
+  "requiredKnowledge": "Completion of “Programming Basics I.” Ability to type efficiently.",
   "activityGoals": [
     {
       "index": "①",
       "type": "M",
-      "body": "Be able to explain the electrical laws and regulations."
+      "body": "Understand how a basic C program works."
     },
     {
       "index": "②",
       "type": "M",
-      "body": "Be able to understand the guide book of electrical equipment and explain the technical standards."
-    },
-    {
-      "index": "③",
-      "type": "M",
-      "body": "Be able to explain the construction, maintenance, and operation of electrical facilities."
+      "body": "Create a basic C program."
     }
   ],
   "evaluationWeights": [
@@ -44,8 +35,8 @@
       "label": "総合評価割合",
       "values": [
         "40",
-        "40",
-        "20",
+        "0",
+        "60",
         "0",
         "0",
         "0",
@@ -54,9 +45,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -67,8 +58,8 @@
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
         "40",
-        "40",
-        "20",
+        "0",
+        "60",
         "0",
         "0",
         "0",
@@ -77,9 +68,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -90,8 +81,8 @@
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
         "40",
-        "40",
-        "20",
+        "0",
+        "60",
         "0",
         "0",
         "0",
@@ -100,9 +91,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -123,9 +114,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -133,7 +124,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -146,9 +137,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -169,9 +160,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -180,62 +171,118 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "(1) Fully understand the electrical laws and regulations and explain them.\n(2) Fully understand the basic terms in the guide book of electrical equipment and explain the technical standards.\n(3) Fully understand the construction, maintenance, and operation of electrical facilities.",
-    "standard": "(1) Understand the electrical laws and regulations and outline them.\n(2) Understand the basic terms in the guide book of electrical equipment and explain some of the technical standards.\n(3) Understand the construction, maintenance, and operation of electrical facilities."
+    "ideal": "Understand sufficiently how a C program works and create a C program at will.",
+    "standard": "Understand how a basic C program works and create a basic C program."
   },
   "clipProcess": "",
   "lessons": [
     {
       "index": "1",
-      "content": "Course introduction\nElectricity business act",
-      "operation": "Lecture, practice,  Q&A,\nand self-check",
-      "assignments": "Understand the objectives of\nclass\nPrepare for pages 1 to 12 of\nthe text book",
-      "minutes": "90"
+      "content": "Course introduction Textbook Lesson 7, “Arrays” (Review of “Programming Basics I”) Self-check",
+      "operation": "Lecture (including Q&A) and exercises Self-check",
+      "assignments": "Preview: Read the indicated textbook lesson Review: Understand the class content",
+      "minutes": "30 60"
     },
     {
       "index": "2",
-      "content": "Electrical appliances and materials safety act\nElectricians act",
-      "operation": "Lecture, practice,  Q&A,\nand self-check",
-      "assignments": "Prepare for pages 13 to 19 of\nthe text book",
-      "minutes": "90"
+      "content": "Textbook Lesson 8, “Functions” (Review of “Programming Basics I”) Self-check",
+      "operation": "Lecture (including Q&A) and exercises Self-check",
+      "assignments": "Preview: Read the indicated textbook lesson Review: Understand the class content",
+      "minutes": "30 60"
     },
     {
       "index": "3",
-      "content": "Test about contents learned in No.1 and 2\nclasses\nGuide book of electrical equipment",
-      "operation": "Test\n\nLecture, practice,  Q&A,\nand self-check",
-      "assignments": "Prepare for the test\n\nPrepare for pages 20 to 29 of\nthe text book",
-      "minutes": "120"
+      "content": "Textbook Lesson 9, “Pointers” (Sections 9.1 and 9.2) Self-check",
+      "operation": "Lecture (including Q&A) and exercises Self-check",
+      "assignments": "Preview: Read the indicated textbook sections Review: Understand the class content",
+      "minutes": "30 60"
     },
     {
       "index": "4",
-      "content": "Guide book of electrical equipment",
-      "operation": "Lecture, practice,  Q&A,\nand self-check",
-      "assignments": "Prepare pages 30 to 56 of the\ntext book",
-      "minutes": "90"
+      "content": "Textbook Lesson 9, “Pointers” (Section 9.3) Self-check",
+      "operation": "Lecture (including Q&A) and exercises Self-check",
+      "assignments": "Preview: Read the indicated textbook section Review: Understand the class content",
+      "minutes": "30 60"
     },
     {
       "index": "5",
-      "content": "Management for electrical facilities",
-      "operation": "Lecture, practice,  Q&A,\nand self-check",
-      "assignments": "Prepare pages 135 to 189 of\nthe text book",
-      "minutes": "90"
+      "content": "Textbook Lesson 10, “Applications of arrays and pointers” (Sections 10.1 and 10.2) Self-check",
+      "operation": "Lecture (including Q&A) and exercises Self-check",
+      "assignments": "Preview: Read the indicated textbook sections Review: Understand the class content",
+      "minutes": "30 60"
     },
     {
       "index": "6",
-      "content": "Exam about contents learned in No.3 and 5\nclasses",
-      "operation": "Exam",
-      "assignments": "Prepare for the exam",
-      "minutes": "120"
+      "content": "Textbook Lesson 10, “Applications of arrays and pointers” (Sections 10.3 and 10.4) Self-check",
+      "operation": "Lecture (including Q&A) and exercises Self-check",
+      "assignments": "Preview: Read the indicated textbook sections Review: Understand the class content",
+      "minutes": "30 60"
     },
     {
       "index": "7",
-      "content": "Self-reflection class",
-      "operation": "Lecture, Q&A, and\nself-evaluation",
-      "assignments": "",
-      "minutes": ""
+      "content": "Textbook Lesson 10, “Applications of arrays and pointers” (Section 10.5) Self-check",
+      "operation": "Lecture (including Q&A) and exercises Self-check",
+      "assignments": "Preview: Read the indicated textbook section Review: Understand the class content",
+      "minutes": "30 60"
+    },
+    {
+      "index": "8",
+      "content": "Textbook Lesson 11, “Various types” (Sections 11.1 through 11.3) Self-check",
+      "operation": "Lecture (including Q&A) and exercises Self-check",
+      "assignments": "Preview: Read the indicated textbook sections Review: Understand the class content",
+      "minutes": "30 60"
+    },
+    {
+      "index": "9",
+      "content": "Textbook Lesson 11, “Various types” (Sections 11.4 through 11.6) Self-check",
+      "operation": "Lecture (including Q&A) and exercises Self-check",
+      "assignments": "Preview: Read the indicated textbook sections Review: Understand the class content",
+      "minutes": "30 60"
+    },
+    {
+      "index": "10",
+      "content": "Textbook Lesson 12, “File input/output” (Sections 12.1 through 12.3) Self-check",
+      "operation": "Lecture (including Q&A) and exercises Self-check",
+      "assignments": "Preview: Read the indicated textbook sections Review: Understand the class content",
+      "minutes": "30 60"
+    },
+    {
+      "index": "11",
+      "content": "Textbook Lesson 12, “File input/output” (Sections 12.4 through 12.6) Self-check",
+      "operation": "Lecture (including Q&A) and exercises Self-check",
+      "assignments": "Preview: Read the indicated textbook sections Review: Understand the class content",
+      "minutes": "30 60"
+    },
+    {
+      "index": "12",
+      "content": "Exercises Self-check",
+      "operation": "Exercises Self-check",
+      "assignments": "Preview: Review the content of classes 1-11 Review: Understand the class content",
+      "minutes": "90 90"
+    },
+    {
+      "index": "13",
+      "content": "Exercises Self-check",
+      "operation": "Exercises Self-check",
+      "assignments": "Preview: Review the content of classes 1-12 Review: Understand the class content",
+      "minutes": "90 90"
+    },
+    {
+      "index": "14",
+      "content": "Exercises Semester final examination Self-check",
+      "operation": "Exercises Examination Self-check",
+      "assignments": "Preview: Review the content of classes 1-13",
+      "minutes": "180"
+    },
+    {
+      "index": "15",
+      "content": "Review of the semester final examination Self-check",
+      "operation": "Lecture (including Q&A) Self-check",
+      "assignments": "Review: Review the content of the semester final examination",
+      "minutes": "90"
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　E645-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Electrical and Electronic Engineering(〜2024)\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                電気法規と電気施設管理\n                Laws Regulations and Management for Electrical Facilities\n\n              1\n              E645-01\n\n                2026年度\n\n                4th year 1st semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  NAOE Nobuyuki\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Electricity Business Act\n2.Electrical Appliances and Materials Safety Act\n3.Electricians Act\n4.Guide Book of Electrical Equipment\n5.Management for Electrical Facilities\n\n              Students will: (1) learn about various regulations for electric power companies. (2) learn the regulations to ensure the safety of electrical appliances and materials. (3) learn the license and duties of electricians. (4) learn the standards of electrical equipment. (5) learn about the construction, maintenance and operation of electrical facilities.\n\n              授業の概要および学習上の助言\n\n              This course will cover the following materials:\n\n1. Electrical laws and regulations\n 1.1 Electricity business act\n 1.2 Electrical appliances and materials safety act\n 1.3 Electricians act\n 1.4 Guide book of electrical equipment\n2. Management for electrical facilities\n\nStudents are required to actively participate in class.\n\n              教科書および参考書・リザーブドブック\n\n              Textbook: Koredake　houki (in Japanese)\n\n              履修に必要な予備知識や技能\n\n              Knowledge of electric power and energy.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                M\n                Be able to explain the electrical laws and regulations.\n\n                ②\n                M\n                Be able to understand the guide book of electrical equipment and explain the technical standards.\n\n                ③\n                M\n                Be able to explain the construction, maintenance, and operation of electrical facilities.\n\n                ④\n\n                ⑤\n\n                ⑥\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                40\n\n                40\n\n                20\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                40\n\n                40\n\n                20\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                40\n\n                40\n\n                20\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  コラボレーションとリーダーシップ\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  発表・表現・伝達する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  学習に取組む姿勢・意欲\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                   ",
-  "courseId": "2026:spring:E645-01:0:286",
+  "rawText": "金沢工業大学 学習支援計画書 E241-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Robotics\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\nプログラミング基礎Ⅱ\nProgramming Basics II  2 E241-01  2024年度\n 1st year 2nd semester  修学規程第4条を参照\n    担当教員名\n KOGURE Kiyoshi\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Programming 2.C programming language  Students will learn the basics of the C programming language, as computer programs are essential for developing robots, particularly for implementing motion control and environmental information acquisition.\n    授業の概要および学習上の助言   This is a basic course in the C programming language. We will cover the following topics: 1. Pointers 2. Applications of arrays and pointers 3. Structures, unions, and enumerations 4. File input/output Students are expected to actively participate in class. Students are expected to complete exercises independently. Students are required to bring their own laptop computers for use in exercises. Students are required to be aware of the instructor's messages in the class and to check for messages/materials on the KIT Inside website before every class, as the course schedule may change depending on the class progress.\n    教科書および参考書・リザーブドブック   Textbooks: ISBN 978-4-7973-9258-6 (in Japanese).\n    履修に必要な予備知識や技能   Completion of “Programming Basics I.” Ability to type efficiently.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① M Understand how a basic C program works.   ② M Create a basic C program.   ③     ④     ⑤     ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 40 0 60 0 0 0 0 100     指標と評価割合 総合評価割合 40 0 60 0 0 0 0 100   総合力指標 知識を取り込む力 40 0 60 0 0 0 0 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ A semester final examination will be given, as specified in the course schedule, to evaluate your degree of achievement comprehensively. The schedule may change depending on the progress of the class.   ② レ   ③     ④     ⑤     ⑥     クイズ\n小テスト ①      ②     ③     ④     ⑤     ⑥     レポート ① レ Students will prepare reports for evaluation.   ② レ   ③     ④     ⑤     ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ①      ②     ③     ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     Understand sufficiently how a C program works and create a C program at will. Understand how a basic C program works and create a basic C program.\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習課題に要する標準的な時間を記載してあります。日々の自学自習時間全体としては、各授業に応じた時間(例えば2単位科目の場合、予習2時間・復習2時間/週)を取るよう努めてください。詳しくは教員の指導に従って下さい。     授業明細   回数 学習内容 授業の運営方法 学習課題(予習・復習) 時間:分※     1  Course introduction Textbook Lesson 7, “Arrays” (Review of “Programming Basics I”) Self-check Lecture (including Q&A) and exercises Self-check Preview: Read the indicated textbook lesson Review: Understand the class content  30 60   2  Textbook Lesson 8, “Functions” (Review of “Programming Basics I”) Self-check Lecture (including Q&A) and exercises Self-check Preview: Read the indicated textbook lesson Review: Understand the class content  30 60   3  Textbook Lesson 9, “Pointers” (Sections 9.1 and 9.2) Self-check Lecture (including Q&A) and exercises Self-check Preview: Read the indicated textbook sections Review: Understand the class content  30 60   4  Textbook Lesson 9, “Pointers” (Section 9.3) Self-check Lecture (including Q&A) and exercises Self-check Preview: Read the indicated textbook section Review: Understand the class content  30 60   5  Textbook Lesson 10, “Applications of arrays and pointers” (Sections 10.1 and 10.2) Self-check Lecture (inc",
+  "courseId": "2024:spring:E232-01:0:286",
   "language": "en"
 }

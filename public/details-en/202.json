@@ -1,51 +1,41 @@
 {
   "sourceIndex": 202,
   "sourceUrl": "/opsyllabus/kitos0110/202/1",
-  "importedAt": "2026-06-08T09:33:57.310Z",
-  "title": "航空制御工学",
-  "subtitle": "Aircraft Control  Engineering",
-  "courseType": "Major ProgramMajor Courses",
-  "credits": "2",
-  "term": "2026年度\n\n                3rd year 1st semester",
+  "importedAt": "2026-06-09T01:29:21.038Z",
+  "title": "飛行力学(再履修クラス)",
+  "subtitle": "Dynamics of Flight",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "4",
+  "term": "2024年度\n 2nd year 2nd semester",
   "method": "修学規程第4条を参照",
-  "teachers": [
-    "AKASAKA Takeshi"
-  ],
+  "teachers": [],
   "keywords": [
-    "Laplace transform",
-    "Transfer function and block diagram",
-    "Frequency response and transient response",
-    "Stability margin"
+    "Equation of motion 2.Flying qualities 3.Flight control"
   ],
-  "educationalGoal": "As represented by FBW aircraft, flight control is an essential technology for modern aircraft.\nIn Aircraft Control Engineering, students will learn control technology and learn the basics of flight control law design/analysis.",
-  "advice": "Students will begin by learning the Laplace transform, transfer functions, block diagrams, etc., which are indispensable for control technology.\nNext, students will learn pole/zero placement, frequency response, and transient response, which are indispensable for understanding control characteristics.\nFinally, students will learn about actual flight control systems through examples.",
+  "educationalGoal": "The “dynamics of flight” is the foundation of aeronautical engineering. In this course, students will learn what kind of forces act on an aircraft in flight and learn about the balance and dynamics characteristics for stable flight.",
+  "advice": "Students will begin by learning basic mathematical knowledge and axis definitions, and learn about the six-degrees-of-freedom equation of motion. Next, students will learn to analyze qualities of flight after learning linearization of the equation of motion. In addition to learning design standards, students will deepen their understanding of qualities of flight by learning the basics of flight control.",
   "books": "_",
-  "requiredKnowledge": "Acquisition of Dynamics of Flight\nSufficient skill in mathematics and physics",
+  "requiredKnowledge": "Acquisition of Dynamics of Machines Sufficient skill in mathematics and physics",
   "activityGoals": [
     {
       "index": "①",
-      "type": "D",
-      "body": "Be able to explain the contrast between time domain motion and Laplace transform domain characteristics."
+      "type": "D,G,I,J",
+      "body": "Be able to understand the principles of flight and its characteristics."
     },
     {
       "index": "②",
-      "type": "D,I,J",
-      "body": "Be able to express a dynamic system by Laplace transform and transfer function and explain pole & zeros."
+      "type": "I,J,L,M,N",
+      "body": "Be able to consider motion mode characteristics by applying equations of motion."
     },
     {
       "index": "③",
-      "type": "D,I,J",
-      "body": "Be able to find the transient response from the transfer function and explain the relation between pole & zeros."
+      "type": "I,J,L,M,N",
+      "body": "Be able to understand the effects on flight motion of changes in the aerodynamic derivative acting."
     },
     {
       "index": "④",
-      "type": "D,I,J",
-      "body": "Be able to draw board diagrams and vector trajectories and also determine whether the system is stable or not."
-    },
-    {
-      "index": "⑤",
-      "type": "D,I,J",
-      "body": "Be able to determine the transfer function with feedback and draw outlines of the root locus"
+      "type": "I,J,L,M,N",
+      "body": "Be able to understand the outline of the flight control system."
     }
   ],
   "evaluationWeights": [
@@ -63,9 +53,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -86,9 +76,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -109,9 +99,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -132,9 +122,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -142,7 +132,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -155,9 +145,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -178,9 +168,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -189,104 +179,111 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "(1) Be able to construct CAS- (control augmentation system) level control laws at the block diagram level\n(2) Be able to determine on a technical basis each parameter of the control law for the mathematical model of the aircraft motion to be controlled",
-    "standard": "(1) Be able to construct SAS- (stability augmentation system) level control laws at the block diagram level\n(2) Be able to determine on a technical basis each parameter of the control law for the mathematical model of the aircraft motion to be controlled"
+    "ideal": "(1) Be able to accurately explain the physical principles and characteristics of aircraft in flight. (2) Understand the equations of motion that describe motion in flight, and be able to explain the mode of motion through actual examples. (3) Be able to explain the effects of the main items of the aerodynamic derivative on flight motion by showing numerical values through examples. (4) Understand the role of flight control systems in aircraft motion and be able to explain its effectiveness concretely.",
+    "standard": "(1) Understand the principle of flight and its characteristics, and be able to explain important items. (2) Understand the equations of motion that describe motion in flight, and be able to explain the results while looking at the text. (3) Be able to explain the effects of the main items of the aerodynamic derivative on flight motion shown by related expressions in the text, and to explain the results while looking at the text. (4) Understand the role of the flight control system in aircraft motion and be able to explain its necessity."
   },
   "clipProcess": "",
   "lessons": [
     {
-      "index": "1",
-      "content": "Course introduction,\nLecture (Mathematics)",
+      "index": "1,2",
+      "content": "Course introduction, Lecture (Equation of motion)",
       "operation": "Guidance, Lecture",
-      "assignments": "Prepare for related items\nusing the e-syllabus",
-      "minutes": "100"
-    },
-    {
-      "index": "2",
-      "content": "Lecture\n(Laplace transform)",
-      "operation": "Lecture and Q&A\nSelf-check",
-      "assignments": "Prepare for related items\nusing the e-syllabus",
-      "minutes": "100"
+      "assignments": "",
+      "minutes": "200"
     },
     {
       "index": "3,4",
-      "content": "Lecture\n(Transfer function and block diagram)",
-      "operation": "Lecture and Q&A\nSelf-check",
-      "assignments": "Prepare for related items\nusing the e-syllabus",
+      "content": "Lecture (Equation of motion)",
+      "operation": "Lecture and Q&A Self-check",
+      "assignments": "",
       "minutes": "200"
     },
     {
-      "index": "5",
-      "content": "Test and review of classes 1 to 4.",
-      "operation": "Test and review\nSelf-reflection",
-      "assignments": "Prepare for related items\nusing the e-syllabus",
-      "minutes": "50"
-    },
-    {
-      "index": "6,7",
-      "content": "Lecture\n(Frequency response and transient response)",
-      "operation": "Lecture and Q&A\nSelf-check",
-      "assignments": "Prepare for related items\nusing the e-syllabus",
-      "minutes": "200"
+      "index": "5 to 7",
+      "content": "Lecture (Coordinate transformation)",
+      "operation": "Lecture and Q&A Self-check",
+      "assignments": "Prepare for related items using the e-syllabus",
+      "minutes": "300"
     },
     {
       "index": "8",
-      "content": "Test and review of classes 6 to 7.",
-      "operation": "Test and review\nSelf-reflection",
-      "assignments": "Prepare for related items\nusing the e-syllabus",
+      "content": "Test and review on classes 1 to 7.",
+      "operation": "Test and review Self-reflection",
+      "assignments": "Prepare for related items using the e-syllabus",
       "minutes": "50"
     },
     {
-      "index": "9",
-      "content": "Lecture (Stability margin)",
-      "operation": "Lecture and Q&A\nSelf-check",
-      "assignments": "Prepare for related items\nusing the e-syllabus",
+      "index": "9 to 1 4",
+      "content": "Lecture (Linearization)",
+      "operation": "Lecture and Q&A Self-check",
+      "assignments": "Prepare for related items using the e-syllabus",
+      "minutes": "600"
+    },
+    {
+      "index": "15,16",
+      "content": "Lecture (Mathematics)",
+      "operation": "Lecture and Q&A Self-check",
+      "assignments": "Prepare for related items using the e-syllabus",
+      "minutes": "200"
+    },
+    {
+      "index": "17",
+      "content": "Lecture (Mode and Flying Quality)",
+      "operation": "Lecture and Q&A Self-check",
+      "assignments": "Prepare for related items using the e-syllabus",
       "minutes": "100"
     },
     {
-      "index": "10",
-      "content": "Lecture (Root locus)",
-      "operation": "Lecture and Q&A\nSelf-check",
-      "assignments": "Prepare for related items\nusing the e-syllabus",
-      "minutes": "100"
-    },
-    {
-      "index": "11",
-      "content": "Lecture (Flight control)",
-      "operation": "Lecture and Q&A\nSelf-check",
-      "assignments": "Prepare for related items\nusing the e-syllabus",
-      "minutes": "100"
-    },
-    {
-      "index": "12",
-      "content": "Test and review of classes 9 to 11.",
-      "operation": "Test and review\nSelf-reflection",
-      "assignments": "Prepare for related items\nusing the e-syllabus",
+      "index": "18",
+      "content": "Test and review on classes 9 to 17.",
+      "operation": "Test and review Self-reflection",
+      "assignments": "Prepare for related items using the e-syllabus",
       "minutes": "50"
     },
     {
-      "index": "13",
+      "index": "19 to 21",
+      "content": "Lecture (Stability and control)",
+      "operation": "Lecture and Q&A Self-check",
+      "assignments": "Prepare for related items using the e-syllabus",
+      "minutes": "300"
+    },
+    {
+      "index": "22",
+      "content": "Test and review on classes 19 to 21.",
+      "operation": "Test and review Self-reflection",
+      "assignments": "Prepare for related items using the e-syllabus",
+      "minutes": "50"
+    },
+    {
+      "index": "23 to 26",
+      "content": "Lecture (Stability and control)",
+      "operation": "Lecture and Q&A Self-check",
+      "assignments": "Prepare for related items using the e-syllabus",
+      "minutes": "400"
+    },
+    {
+      "index": "27",
       "content": "Organize knowledge",
-      "operation": "Lecture and Q&A\nPrepare for the exam\nSelf-check",
-      "assignments": "Prepare for related items\nusing the e-syllabus",
+      "operation": "Lecture and Q&A Prepare for the exam Self-check",
+      "assignments": "Prepare for related items using the e-syllabus",
       "minutes": "100"
     },
     {
-      "index": "14",
-      "content": "Organize knowledge,\nFinal exam and review",
+      "index": "28",
+      "content": "Organize knowledge, Final exam, and review",
       "operation": "Prepare for the exam",
-      "assignments": "Prepare for related items\nusing the e-syllabus",
+      "assignments": "Prepare for related items using the e-syllabus",
       "minutes": "50"
     },
     {
-      "index": "15",
-      "content": "Review",
-      "operation": "Lecture and Q&A\nSelf-check",
+      "index": "29,30",
+      "content": "review",
+      "operation": "Lecture and Q&A Self-check",
       "assignments": "Answers to exam and review",
       "minutes": "30"
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　E118-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Aeronautics and Astronautics(〜2024)\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                航空制御工学\n                Aircraft Control  Engineering\n\n              2\n              E118-01\n\n                2026年度\n\n                3rd year 1st semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  AKASAKA Takeshi\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Laplace transform\n2.Transfer function and block diagram\n3.Frequency response and transient response\n4.Stability margin\n\n              As represented by FBW aircraft, flight control is an essential technology for modern aircraft.\nIn Aircraft Control Engineering, students will learn control technology and learn the basics of flight control law design/analysis.\n\n              授業の概要および学習上の助言\n\n              Students will begin by learning the Laplace transform, transfer functions, block diagrams, etc., which are indispensable for control technology.\nNext, students will learn pole/zero placement, frequency response, and transient response, which are indispensable for understanding control characteristics.\nFinally, students will learn about actual flight control systems through examples.\n\n              教科書および参考書・リザーブドブック\n\n              _\n\n              履修に必要な予備知識や技能\n\n              Acquisition of Dynamics of Flight\nSufficient skill in mathematics and physics\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                D\n                Be able to explain the contrast between time domain motion and Laplace transform domain characteristics.\n\n                ②\n                D,I,J\n                Be able to express a dynamic system by Laplace transform and transfer function and explain pole & zeros.\n\n                ③\n                D,I,J\n                Be able to find the transient response from the transfer function and explain the relation between pole & zeros.\n\n                ④\n                D,I,J\n                Be able to draw board diagrams and vector trajectories and also determine whether the system is stable or not.\n\n                ⑤\n                D,I,J\n                Be able to determine the transfer function with feedback and draw outlines of the root locus\n\n                ⑥\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                40\n\n                30\n\n                20\n\n                0\n\n                0\n\n                0\n\n                10\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                40\n\n                30\n\n                20\n\n                0\n\n                0\n\n                0\n\n                10\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                40\n\n                30\n\n                20\n\n                0\n\n                0\n\n                0\n\n                10\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  コラボレーションとリーダーシップ\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  発表・表現・伝達する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  ",
-  "courseId": "2026:spring:E118-01:0:202",
+  "rawText": "金沢工業大学 学習支援計画書 E112-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Aeronautics\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n飛行力学(再履修クラス)\nDynamics of Flight  4 E112-01  2024年度\n 2nd year 2nd semester  修学規程第4条を参照\n    担当教員名\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Equation of motion 2.Flying qualities 3.Flight control  The “dynamics of flight” is the foundation of aeronautical engineering. In this course, students will learn what kind of forces act on an aircraft in flight and learn about the balance and dynamics characteristics for stable flight.\n    授業の概要および学習上の助言   Students will begin by learning basic mathematical knowledge and axis definitions, and learn about the six-degrees-of-freedom equation of motion. Next, students will learn to analyze qualities of flight after learning linearization of the equation of motion. In addition to learning design standards, students will deepen their understanding of qualities of flight by learning the basics of flight control.\n    教科書および参考書・リザーブドブック   _\n    履修に必要な予備知識や技能   Acquisition of Dynamics of Machines Sufficient skill in mathematics and physics\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① D,G,I,J Be able to understand the principles of flight and its characteristics.   ② I,J,L,M,N Be able to consider motion mode characteristics by applying equations of motion.   ③ I,J,L,M,N Be able to understand the effects on flight motion of changes in the aerodynamic derivative acting.   ④ I,J,L,M,N Be able to understand the outline of the flight control system.   ⑤     ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 40 30 20 0 0 0 10 100     指標と評価割合 総合評価割合 40 30 20 0 0 0 10 100   総合力指標 知識を取り込む力 40 30 20 0 0 0 10 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ On the basis of the exercises used in the lectures and quizzes, students will be evaluated on their understanding of the lectures using problems that apply the knowledge learned.   ② レ   ③ レ   ④ レ   ⑤     ⑥     クイズ\n小テスト ① レ Using a problem that requires the application of textbook exercises, the level of understanding of the lecture content will be checked.   ② レ   ③ レ   ④ レ   ⑤     ⑥     レポート ① レ Students will be evaluated on reports prepared for tasks that require research or application.   ② レ   ③ レ   ④ レ   ⑤     ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ① レ A negative rating will be given if behavior that interferes with the class, such as engaging in private conversation, continues after a reprimand is given.   ② レ   ③ レ   ④ レ   ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     (1) Be able to accurately explain the physical principles and characteristics of aircraft in flight. (2) Understand the equations of motion that describe motion in flight, and be able to explain the mode of motion through actual examples. (3) Be able to explain the effects of the main items of the aerodynamic derivative on flight motion by showing numerical values through examples. (4) Understand the role of flight control systems in aircraft motion and be able to explain its effectiveness concretely. (1) Understand the principle of flight and its characteristics, and be able to explain important items. (2) Understand the equations of motion that describe motion in flight, and be able to explain the results while looking at the text. (3) Be able to explain the effects of the main items of the aerodynamic derivative on flight motion shown by related expressions in the text, and to explain the results while looking at the text. (4) Understand the role of the flight control system in aircraft motion and be able to explain its necessity.\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活",
+  "courseId": "2024:spring:E102-01:0:202",
   "language": "en"
 }

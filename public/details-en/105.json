@@ -1,45 +1,41 @@
 {
   "sourceIndex": 105,
   "sourceUrl": "/opsyllabus/kitos0110/105/1",
-  "importedAt": "2026-06-08T09:33:55.237Z",
-  "title": "プロジェクトデザイン実践（実験）(情報デザイン)",
-  "subtitle": "Design Project / Implementing and Operating",
-  "courseType": "Design Project ProgramDesign Project CoursesDesign Project",
+  "importedAt": "2026-06-09T01:29:20.167Z",
+  "title": "プロジェクトデザイン入門(実験)(応用化学科)",
+  "subtitle": "Design Project / Introduction",
+  "courseType": "Design Project Program\nDesign Project Courses\nDesign Project",
   "credits": "2",
-  "term": "2026年度\n\n                2nd year 2nd semester",
+  "term": "2024年度\n 1st year 1st semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "NAKANO Makoto",
-    "HIRAMOTO Tokutaro",
-    "IKEDA Rika",
-    "SAKAKURA Tadakazu"
+    "OSHIMA Syunichi",
+    "MIYAZAKI Keisuke",
+    "TANIDA Ikuhiro",
+    "SUZUKI Yasutada"
   ],
   "keywords": [
-    "Verification process",
-    "Effectiveness/Acceptability",
-    "Data Science",
-    "Presentation",
-    "PBL for science and technology"
+    "Verification process 2.Problem-solving process 3.Basic skills 4.Data handling skills 5.PBL for science and technology"
   ],
-  "educationalGoal": "-To gain skills to verify hypotheses or solution concept with logical approaches.\n-To understand phenomena, objects and events quantitatively with high credibility　and data science skills.\n-To reliably find characteristics and laws of phenomena, objects, events.\n-To deliver the above information to a third person intelligibly.\n-To gain basic skills to credibly and smoothly conduct verification activities.\n-To have an image of the technology fields and engineers in the discipline.",
-  "advice": "The students will learn methodologies required to carry on processes to verify hypotheses; or, the students will learn methodologies to verify the effectiveness/acceptability of a solution concept, or a specific part of the concept.\n\nOne is that the students will learn the basic“data science skills” needed for data collection → organization → analysis→ hypothesis testing → visualization → reporting.\n\nOne is that the students will learn “skills to proceed with verification processes” and “elementary skills of verification activities” from setting the hypothesis to its verification.\n\nFor “data-handling skills”, students implement field survey and research public information to obtain the data according to its purpose.\n\nFor “skills to proceed with verification process”, students practice the usability tests based on psychological research methods to reveal any problems of the product or event, and propose their solutions.",
-  "books": "None",
-  "requiredKnowledge": "Bring your laptop PC each time. You will use your laptop PC for almost all activities of the lecture (experiment, calculating the data, presentation, etc.).\nSome research might be done for students to get a better understanding of method to create business and for lecturers to investigate any educational effects of the lecture. Whether students participate in the research or not will not affect their grade at all.",
+  "educationalGoal": "-To gain the basic skills needed in processes from finding problems to solutions. -To understand phenomena, objectives, and events quantitatively and qualitatively. -To be able to find characteristics and laws of phenomena, objectives, and events. -To be able to deliver the above information to a third person intelligibly. -To gain various basic skills to proceed smoothly with verification activities. -To be able to have a picture of technology fields and engineers of discipline.",
+  "advice": "In this course, to achieve the above educational goals, the students will learn the basic skills required for verification and problem-solving processes. This course will deal with characteristic things of the corresponding department. One is that the students will learn the basic \"data-handling skills\" needed for data collection → organization → analysis→ hypothesis testing → visualization → reporting. One is that the students will learn the basic skills of \"PBL for science and technology\" including the basic elements of processes from problem-finding to solution and verification activities. For \"data-handling skills\", the students learn basic experimental operations and the analysis method for data obtained through neutralization titration. For “PBL for science and technology\", the students prepare an experimental workflow, analyze data, discuss results, and prepare reports through group activities. The objective of this course is to develop the experimental skills and reporting ability necessary to carry out activities in Basic Experiments and Practice in Bioscience and Chemistry (2nd year), Applied Chemistry Major Lab/Exercises (3rd year), Preparatory Seminar for Design Project III (3rd year), and Design Project III (4th year). We will conduct safety training to explain the handling of experimental instruments and use of chemicals. It is important to check and understand the handling and the risk of chemicals by yourself prior to the experiments.",
+  "books": "Textbooks:Unspecified Reference books:Gakusei no tameno Anzen no Tebiki, Anzen Shishin (Kanazawa Institute of Technology Publishing) Reserved books:Jikken Deta wo Tadashiku Atsukau tameni (Kagaku Dojin Publishing), Jikken wo Anzen ni Okonau tameni (Kagaku Dojin Publishing), Zoku Jikken wo Anzen ni Okonau tameni (Kagaku Dojin Publishing), Dare mo Oshietekurenakatta Jikken Noto no Kakikata (Kagaku Dojin Publishing)",
+  "requiredKnowledge": "Bring a specified A4 size experimental notebook, scientific calculator, and indoor shoes, as well as Lab coat and protective glasses. It is desirable to be aware of the possible risk to carry out the experiments safely. In order to use Word and Excel, it is desirable to be able to perform basic computer operations.",
   "activityGoals": [
     {
       "index": "①",
-      "type": "F,G",
+      "type": "G,F",
       "body": "To be able to proceed with activities from finding problems to solutions."
     },
     {
       "index": "②",
       "type": "D",
-      "body": "To be able to understand phenomena, objectives, and events quantitatively and qualitatively."
+      "body": "To be able to understand phenomena, objects, and events quantitatively and qualitatively."
     },
     {
       "index": "③",
       "type": "D",
-      "body": "To be able to find characteristics, features, and laws of phenomena, objects, and events using data science ski."
+      "body": "To be able to find characteristics, features, and laws of phenomena, objects, and events."
     },
     {
       "index": "④",
@@ -62,19 +58,19 @@
       "label": "総合評価割合",
       "values": [
         "0",
-        "15",
-        "35",
+        "0",
+        "60",
         "20",
         "0",
-        "5",
-        "25",
+        "0",
+        "20",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -85,19 +81,19 @@
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
         "0",
-        "15",
-        "35",
+        "0",
+        "60",
         "20",
         "0",
-        "5",
-        "25",
+        "0",
+        "20",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -108,19 +104,19 @@
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
         "0",
-        "15",
-        "35",
+        "0",
+        "60",
         "20",
         "0",
-        "5",
-        "25",
+        "0",
+        "20",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -141,9 +137,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -151,7 +147,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -164,9 +160,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -187,9 +183,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -198,118 +194,118 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "1) To proceed with verification processes for hypotheses and solution concepts.\n2) To quantitatively and qualitatively recognize phenomena, objects, and events and organize information with data science skills.\n3) To find and understand features, characteristics, and regularities of corresponding phenomena, objects, and events.\n4) To communicate acquired information to a third person intelligibly.\n5) To smoothly conduct verification activities.\n6) To become aware of your specialties and imagine the technological fields and engineers.",
-    "standard": "1) To proceed with verification processes for hypotheses and solution concepts with guidance.\n2) To quantitatively and qualitatively recognize phenomena, objects, and events and organize the information with guidance from the instructor.\n3) To find and understand characteristics and regularities of phenomena, objects, etc., with guidance.\n4) To share acquired information to third person.\n5) To smoothly conduct verification activities with guidance from the instructor.\n6) To recognize your specialties and imagine the technological fields and engineers with guidance."
+    "ideal": "1) To be able to proceed with activities from problem-finding to solution. 2) To be able to quantitatively and qualitatively recognize phenomena, objects, and events. 3) To be able to recognize characteristics and regularities of corresponding phenomena, objects, and events. 4) To be able to communicate acquired information to a third person intelligibly. 5) To be able to smoothly conduct verification activities independently. 6) To be able to recognize the identity of the major (department) and be proud.",
+    "standard": "1) To be able to proceed with activities from problem-finding to solution with guidance by instructor. 2) To be able to quantitatively and qualitatively recognize phenomena, objects, and events with guidance. 3) To be able to recognize characteristics and regularities of phenomena, objects, and events with guidance. 4) To be able to communicate acquired information to a third person. 5) To be able to conduct verification activities with guidance. 6) To be able to recognize the identity of the major (department) and be proud with guidance."
   },
   "clipProcess": "",
   "lessons": [
     {
       "index": "1,2",
-      "content": "Course introduction.\nNarrowing down project theme.",
-      "operation": "Lecture\nTeam activities",
-      "assignments": "Preparation for determining\nthe project theme.",
-      "minutes": "160"
+      "content": "Safety training and guidance How to write lab notebook About neutralization titration",
+      "operation": "Lecture, Exercise, and Self-evaluation",
+      "assignments": "Review: Understand how to write lab notebook.",
+      "minutes": "60"
     },
     {
       "index": "3,4",
-      "content": "Determination of the project theme.\nConsideration of the research plan.",
-      "operation": "Team activities\nResearch",
-      "assignments": "Preparation for research.",
-      "minutes": "160"
+      "content": "Handling of laboratory instruments and reagent preparation",
+      "operation": "Lecture, Exercise, and Self-evaluation",
+      "assignments": "Preview: Investigate the risk of reagents used. Review: Understand the preparation of reagent and the accuracy of handling instruments.",
+      "minutes": "60 60"
     },
     {
       "index": "5,6",
-      "content": "Survey / fieldwork implementation",
-      "operation": "Team activities",
-      "assignments": "Data analysis.\nPreparation for oral\npresentation.",
-      "minutes": "160"
+      "content": "Neutralization titration",
+      "operation": "Experiments and Self-evaluation",
+      "assignments": "Preview: Study about neutralization titration and the experimental workflow. Review: Summarize the obtained data.",
+      "minutes": "30 90"
     },
     {
       "index": "7,8",
-      "content": "Presentation of survey results.\nPreparation for production.",
-      "operation": "Team activities\nOral presentation\nSelf-check",
-      "assignments": "Preparation for production.",
-      "minutes": "160"
+      "content": "Prepare a titration curve (Group activities)",
+      "operation": "Lecture, Exercise, and Self-evaluation",
+      "assignments": "Preview: Investigate the risk of reagents used and understand the experimental workflow. Review: Summarize the obtained data.",
+      "minutes": "30 90"
     },
     {
       "index": "9,10",
-      "content": "Production.",
-      "operation": "Team activities\nProduction",
-      "assignments": "Review and preparation of\nproduction.",
-      "minutes": "160"
+      "content": "Data analysis How to write an experimental report",
+      "operation": "Lecture, Exercise, and Self-evaluation",
+      "assignments": "Preview: Prepare how to calculate averages and standard deviations, and concentration calculations. Review: Understand data analysis and learn how to write a report.",
+      "minutes": "30 90"
     },
     {
       "index": "11,12",
-      "content": "Production.\nPreparation for oral presentation.",
-      "operation": "Team activities\nProduction",
-      "assignments": "Preparation for oral\npresentation.",
-      "minutes": "160"
+      "content": "Prepare an experimental report",
+      "operation": "Lecture and Exercise",
+      "assignments": "Preview: Calculate the theoretical values. Review: Complete an experimental report.",
+      "minutes": "30 120"
     },
     {
       "index": "13,14",
-      "content": "Oral presentation.\nPreparation for verification.",
-      "operation": "Team activities\nOral presentation\nSelf-check",
-      "assignments": "Preparation for verification.",
-      "minutes": "160"
+      "content": "Explain PBL mission activities",
+      "operation": "Lecture, Exercise, and Experiments",
+      "assignments": "Review: Search for references and understand the content of selected theme.",
+      "minutes": "60"
     },
     {
       "index": "15,16",
-      "content": "Preparation for verification.",
-      "operation": "Team activities\nVerification",
-      "assignments": "Review and preparation of\nverification.",
-      "minutes": "160"
+      "content": "Prepare an experimental workflow and Preliminary experiment",
+      "operation": "Lecture, Exercise, and Experiments",
+      "assignments": "Preview: Investigate the risk of reagents and instruments, and prepare an experimental workflow based on the problems. Review: Summarize the obtained data.",
+      "minutes": "45 45"
     },
     {
       "index": "17,18",
-      "content": "Preparation for verification.",
-      "operation": "Team activities\nVerification",
-      "assignments": "Review and preparation of\nverification.",
-      "minutes": "160"
+      "content": "Mission execution 1",
+      "operation": "Exercise and Experiments",
+      "assignments": "Preview: Investigate the risk of reagents and instruments, and prepare an experimental workflow based on the problems. Review: Summarize the obtained data.",
+      "minutes": "45 45"
     },
     {
       "index": "19,20",
-      "content": "Preparation for verification.",
-      "operation": "Team activities\nVerification",
-      "assignments": "Review and preparation of\nverification.",
-      "minutes": "300"
+      "content": "Mission execution 2",
+      "operation": "Exercise and Experiments",
+      "assignments": "Preview: Investigate the risk of reagents and instruments, and prepare an experimental workflow based on the problems. Review: Summarize the obtained data.",
+      "minutes": "45 45"
     },
     {
       "index": "21,22",
-      "content": "Implementation of events for verification.\nPreparation for improvement.",
-      "operation": "Team activities\nImprovement",
-      "assignments": "Review and preparation of\nimprovement.",
-      "minutes": "160"
+      "content": "Mission execution 3",
+      "operation": "Exercise and Experiments",
+      "assignments": "Preview: Investigate the risk of reagents and instruments, and prepare an experimental workflow based on the problems. Review: Summarize the obtained data.",
+      "minutes": "45 45"
     },
     {
       "index": "23,24",
-      "content": "Improvement.\nOverview of the team activities (from research\nto improvement).\nPreparation for oral presentation.",
-      "operation": "Team activities\nOverview",
-      "assignments": "Preparation for oral\npresentation.",
-      "minutes": "160"
+      "content": "Mission execution 4",
+      "operation": "Exercise and Experiments",
+      "assignments": "Preview: Investigate the risk of reagents and instruments, and prepare an experimental workflow based on the problems. Review: Summarize the obtained data.",
+      "minutes": "45 45"
     },
     {
       "index": "25,26",
-      "content": "Preparation for final report.",
-      "operation": "Team activities",
-      "assignments": "Preparation for final report.",
-      "minutes": "160"
+      "content": "Data analysis, discussion and summarization of obtained data",
+      "operation": "Lecture, Exercise, and Experiments",
+      "assignments": "Preview: Summarize the data and discuss the results. Review: Summarize the data and discuss the results.",
+      "minutes": ""
     },
     {
       "index": "27,28",
-      "content": "Final oral presentation.\nSelf-check.",
-      "operation": "Team activities\nOral presentation",
-      "assignments": "Review on the team activities.",
-      "minutes": "160"
+      "content": "Prepare a poster",
+      "operation": "Lecture and Exercise",
+      "assignments": "Review: Complete a poster.",
+      "minutes": "240"
     },
     {
       "index": "29,30",
-      "content": "Oral presentation for the outside.\nSubmission of final report.\nReview on the team activities.\nSelf-evaluation.",
-      "operation": "Team activities\nOral presentation\nReview\nSelf-evaluation",
-      "assignments": "Answering the \"Achievement\nAssessment Portfolio.\"",
-      "minutes": "30"
+      "content": "Poster presentation Self-evaluation",
+      "operation": "Presentation and Self-evaluation",
+      "assignments": "Prepare a poster Check your mistakes and review your weaknesses.",
+      "minutes": "120"
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　G253-08\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Design Project Program\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Design Project ProgramDesign Project CoursesDesign Project\n\n                プロジェクトデザイン実践（実験）(情報デザイン)\n                Design Project / Implementing and Operating\n\n              2\n              G253-08\n\n                2026年度\n\n                2nd year 2nd semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  NAKANO Makoto, HIRAMOTO Tokutaro, IKEDA Rika, SAKAKURA Tadakazu\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Verification process\n2.Effectiveness/Acceptability\n3.Data Science\n4.Presentation\n5.PBL for science and technology\n\n              -To gain skills to verify hypotheses or solution concept with logical approaches.\n-To understand phenomena, objects and events quantitatively with high credibility　and data science skills.\n-To reliably find characteristics and laws of phenomena, objects, events.\n-To deliver the above information to a third person intelligibly.\n-To gain basic skills to credibly and smoothly conduct verification activities.\n-To have an image of the technology fields and engineers in the discipline.\n\n              授業の概要および学習上の助言\n\n              The students will learn methodologies required to carry on processes to verify hypotheses; or, the students will learn methodologies to verify the effectiveness/acceptability of a solution concept, or a specific part of the concept.\n\nOne is that the students will learn the basic“data science skills” needed for data collection → organization → analysis→ hypothesis testing → visualization → reporting.\n\nOne is that the students will learn “skills to proceed with verification processes” and “elementary skills of verification activities” from setting the hypothesis to its verification.\n\nFor “data-handling skills”, students implement field survey and research public information to obtain the data according to its purpose.\n\nFor “skills to proceed with verification process”, students practice the usability tests based on psychological research methods to reveal any problems of the product or event, and propose their solutions.\n\n              教科書および参考書・リザーブドブック\n\n              None\n\n              履修に必要な予備知識や技能\n\n              Bring your laptop PC each time. You will use your laptop PC for almost all activities of the lecture (experiment, calculating the data, presentation, etc.).\nSome research might be done for students to get a better understanding of method to create business and for lecturers to investigate any educational effects of the lecture. Whether students participate in the research or not will not affect their grade at all.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                F,G\n                To be able to proceed with activities from finding problems to solutions.\n\n                ②\n                D\n                To be able to understand phenomena, objectives, and events quantitatively and qualitatively.\n\n                ③\n                D\n                To be able to find characteristics, features, and laws of phenomena, objects, and events using data science ski.\n\n                ④\n                E\n                To be able to deliver acquired information to a third person intelligibly.\n\n                ⑤\n                F\n                To be able to utilize various basic skills needed to proceed smoothly with verification activities.\n\n                ⑥\n                A\n                To be able to have a picture of the technology fields and engineers in the discipline.\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n  ",
-  "courseId": "2026:fall:G253-08:0:105",
+  "rawText": "金沢工業大学 学習支援計画書 G250-11\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDesign Project Program\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Design Project Program\nDesign Project Courses\nDesign Project\nプロジェクトデザイン入門(実験)(応用化学科)\nDesign Project / Introduction  2 G250-11  2024年度\n 1st year 1st semester  修学規程第4条を参照\n    担当教員名\n OSHIMA Syunichi, MIYAZAKI Keisuke, TANIDA Ikuhiro, SUZUKI Yasutada\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Verification process 2.Problem-solving process 3.Basic skills 4.Data handling skills 5.PBL for science and technology  -To gain the basic skills needed in processes from finding problems to solutions. -To understand phenomena, objectives, and events quantitatively and qualitatively. -To be able to find characteristics and laws of phenomena, objectives, and events. -To be able to deliver the above information to a third person intelligibly. -To gain various basic skills to proceed smoothly with verification activities. -To be able to have a picture of technology fields and engineers of discipline.\n    授業の概要および学習上の助言   In this course, to achieve the above educational goals, the students will learn the basic skills required for verification and problem-solving processes. This course will deal with characteristic things of the corresponding department. One is that the students will learn the basic \"data-handling skills\" needed for data collection → organization → analysis→ hypothesis testing → visualization → reporting. One is that the students will learn the basic skills of \"PBL for science and technology\" including the basic elements of processes from problem-finding to solution and verification activities. For \"data-handling skills\", the students learn basic experimental operations and the analysis method for data obtained through neutralization titration. For “PBL for science and technology\", the students prepare an experimental workflow, analyze data, discuss results, and prepare reports through group activities. The objective of this course is to develop the experimental skills and reporting ability necessary to carry out activities in Basic Experiments and Practice in Bioscience and Chemistry (2nd year), Applied Chemistry Major Lab/Exercises (3rd year), Preparatory Seminar for Design Project III (3rd year), and Design Project III (4th year). We will conduct safety training to explain the handling of experimental instruments and use of chemicals. It is important to check and understand the handling and the risk of chemicals by yourself prior to the experiments.\n    教科書および参考書・リザーブドブック   Textbooks:Unspecified Reference books:Gakusei no tameno Anzen no Tebiki, Anzen Shishin (Kanazawa Institute of Technology Publishing) Reserved books:Jikken Deta wo Tadashiku Atsukau tameni (Kagaku Dojin Publishing), Jikken wo Anzen ni Okonau tameni (Kagaku Dojin Publishing), Zoku Jikken wo Anzen ni Okonau tameni (Kagaku Dojin Publishing), Dare mo Oshietekurenakatta Jikken Noto no Kakikata (Kagaku Dojin Publishing)\n    履修に必要な予備知識や技能   Bring a specified A4 size experimental notebook, scientific calculator, and indoor shoes, as well as Lab coat and protective glasses. It is desirable to be aware of the possible risk to carry out the experiments safely. In order to use Word and Excel, it is desirable to be able to perform basic computer operations.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① G,F To be able to proceed with activities from finding problems to solutions.   ② D To be able to understand phenomena, objects, and events quantitatively and qualitatively.   ③ D To be able to find characteristics, features, and laws of phenomena, objects, and events.   ④ E To be able to deliver acquired information to a third person intelligibly.   ⑤ F To be able to utilize various basic skills needed to proceed smoothly with verification activities.   ⑥ A To be able to have a picture of the technology fields and engineers in the discipline.\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 0 0 60 20 0 ",
+  "courseId": "2024:spring:G242-01:0:105",
   "language": "en"
 }

@@ -1,77 +1,69 @@
 {
   "sourceIndex": 324,
   "sourceUrl": "/opsyllabus/kitos0110/324/1",
-  "importedAt": "2026-06-08T09:33:59.652Z",
-  "title": "デジタル通信と信号処理",
-  "subtitle": "Digital Communications and Signal Processing",
-  "courseType": "Major ProgramMajor Courses",
+  "importedAt": "2026-06-09T01:29:22.040Z",
+  "title": "電気回路Ⅳ(電気工学)",
+  "subtitle": "Electric Circuits IV for Electrical Engineering",
+  "courseType": "Major Program\nMajor Courses",
   "credits": "2",
-  "term": "2026年度\n\n                3rd year 1st semester",
+  "term": "2024年度\n 3rd year 1st semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "MUKAI Hiroaki"
+    "TSUDA Toshihiro",
+    "FUKAMI Tadashi"
   ],
   "keywords": [
-    "Discrete time signal and frequency characteristics",
-    "z-transform and transfer function",
-    "Sampling theorem",
-    "Discrete Fourier transform and FFT",
-    "Modulation/demodulation and multiple access"
+    "Three-phase electricity 2.Fourier Series 3.Distorted wave"
   ],
-  "educationalGoal": "Analog signals such as voice, music, images, and video are digitized and processed. Digital signal processing can be implemented as a computer program, which enables flexible and complex processing. In this course, students will learn the basics of digital signal processing by digitizing analog signals such as audio and video. They will also learn the basics of digital communications achieved by digital signal processing.",
-  "advice": "Students will systematically learn the following basic knowledge and theory about digital signal processing and digital communication:\n\n1. Discrete time signals and systems.\n2. Frequency characteristics of discrete-time systems.\n3. z-transform and transfer function.\n4. Sampling theorem.\n5. Discrete Fourier transform (DFT) and fast Fourier transform (FFT).\n6. Digital filter design method.\n7. Baseband transmission, modulation/demodulation and multiple access.",
-  "books": "Textbooks: Reference books: Reserved books:",
-  "requiredKnowledge": "Knowledge of the basics of mathematics such as exponential functions, trigonometric functions, complex numbers, and linear algebra is required. It is desirable that students have knowledge of probability statistics, Fourier transform, and Laplace transform. These are introduced in this course. Numerical calculation software such as Excel are used in the practices.",
+  "educationalGoal": "(1)Students will learn how to calculate the electric circuit of three-phase electricity. (2)Students will learn Fourier series of periodic wave. (3)Students will learn how to calculate the electric circuit with distorted wave.",
+  "advice": "We will cover the following materials: 10.Three-phase AC circuits 10.1.1 Configurations of three-phase AC circuits 10.1.2 Connection diagrams of three-phase sources 10.1.3 Connection diagrams of three-phase loads 10.1.4 Conversion of a balanced load from star and delta connection, and vice-versa 10.1.5 Analysis of three-phase AC circuits: voltage and current calculations 10.1.6 Analysis of three-phase AC circuits: power calculations 8. Distorted wave 8.1 Introduction of distorted wave 8.2 Analysis of distorted waveforms: power calculations 8.3 Analysis of distorted waveforms: the calculation of form factor, crest factor and distortion factor 8.4 Fourier series: Fourier series expansion of distorted waveforms 8.5 Fourier series: Fourier series expansion of even and odd function",
+  "books": "Fundamentals of Electric Circuits[Corona Publishing Co., Ltd.](in Japanese)",
+  "requiredKnowledge": "Fully understanding of “Electric Circuit I, II, III”. Basic knowledge and application ability of mathematics such as complex number, calculus and trigonometric function.",
   "activityGoals": [
     {
       "index": "①",
-      "type": "K,L,M",
-      "body": "Understand and apply the convolution sum and frequency characteristics of discrete-time signals."
+      "type": "J",
+      "body": "Be able to understand the basic concept of the three phase electricity and analyze the circuit."
     },
     {
       "index": "②",
-      "type": "K,L,M",
-      "body": "Understand and apply the relationship between z-transform, the transfer function and circuit."
+      "type": "J",
+      "body": "Be able to calculate the equivalent conversion between the delta and star connection."
     },
     {
       "index": "③",
-      "type": "K,L,M",
-      "body": "Understand and apply the sampling theorem."
+      "type": "J",
+      "body": "Be able to understand the Fourier series of the distorted wave."
     },
     {
       "index": "④",
-      "type": "K,L,M",
-      "body": "Understand and apply DFT and its fast calculation method."
+      "type": "J",
+      "body": "Be able to calculate the Fourier series of the distorted wave."
     },
     {
       "index": "⑤",
-      "type": "K,L,M",
-      "body": "Understand the basics of digital filter design."
-    },
-    {
-      "index": "⑥",
-      "type": "K,L,M",
-      "body": "Understand the basics of modulation/demodulation and multiple access."
+      "type": "J",
+      "body": "Be able to analyze the circuit with the distorted wave."
     }
   ],
   "evaluationWeights": [
     {
       "label": "総合評価割合",
       "values": [
-        "40",
         "30",
-        "30",
+        "60",
         "0",
         "0",
         "0",
         "0",
+        "10",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -81,20 +73,20 @@
     {
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
-        "40",
         "30",
-        "30",
+        "60",
         "0",
         "0",
         "0",
         "0",
+        "10",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -104,20 +96,20 @@
     {
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
-        "40",
         "30",
-        "30",
+        "60",
         "0",
         "0",
         "0",
         "0",
+        "10",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -138,9 +130,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -148,7 +140,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -161,9 +153,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -184,9 +176,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -195,118 +187,118 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "Students can systematically explain the following items related to digital signal processing.\n1. Convolution sum and frequency characteristics of discrete-time signals.\n2. z-transform and transfer function.\n3. Sampling theorem.\n4. Discrete Fourier transform and its Fast Fourier transform\n5. Digital filter design.\n6. Modulation/demodulation and multiple access.\nMoreover, students can systematically explain the basic mechanisms of digital communications.",
-    "standard": "Students can explain the basic contents of the following items related to digital signal processing.\n1. Convolution sum and frequency characteristics of discrete-time signals.\n2. z-transform and transfer function.\n3. Sampling theorem.\n4. Discrete Fourier transform and its fast Fourier transform\n5. Digital filter design.\n6. Modulation/demodulation and multiple access\nMoreover, students can explain the basic mechanisms of digital communications."
+    "ideal": "(1) Explain the concept of three-phase AC circuits by mathematical expressions and conduct circuit calculations. (2) Calculate equivalent impedances between delta and star connection. (3) Calculate the current, voltage, and power of three-phase AC circuits. (4) Derive a Fourier series formula by yourself and explain the meaning of the formula strictly. (5) Calculate Fourier series of periodic waveform. (6) Correctly calculate the distorted wave current, voltage and power of electric circuit.",
+    "standard": "Achieve the 5 items of action goal."
   },
   "clipProcess": "",
   "lessons": [
     {
       "index": "1",
-      "content": "Course introduction\nOverview of digital signal processing",
-      "operation": "Lectures and practices",
-      "assignments": "Review mathematical basics in\nadvance. Deepen understanding\nthrough review and\nself-reflection.",
-      "minutes": "Prepar\nation\nand\nreview\n 100"
+      "content": "10.Three-phase AC circuits 10.1.1 Configurations of three-phase AC circuits",
+      "operation": "Lecture and Q&A Self-check",
+      "assignments": "Prepare for the section 10.1.1 of the textbook",
+      "minutes": "200"
     },
     {
       "index": "2",
-      "content": "Discrete time signal",
-      "operation": "Lectures and practices",
-      "assignments": "Preparation/reviews and\nself-reflection regarding\nlesson content. Review of\npractices.",
-      "minutes": "Prepar\nation\nand\nreview\n 100"
+      "content": "10.1.2 Connection diagrams of three-phase sources 10.1.3 Connection diagrams of three-phase loads 10.1.4 Conversion of a balanced load from star and delta connection, and vice-verse",
+      "operation": "Lecture and Q&A Self-check",
+      "assignments": "Review materials from the last class Prepare for the section 10.1.2 10.1.3 and 10.1.4 of the textbook",
+      "minutes": "200"
     },
     {
       "index": "3",
-      "content": "Fourier analysis",
-      "operation": "Lectures and practices",
-      "assignments": "Preparation/reviews and\nself-reflection regarding\nlesson content. Review of\npractices.",
-      "minutes": "Prepar\nation\nand\nreview\n 100"
+      "content": "10.1.5 Analysis of three-phase AC circuits: voltage and current calculations",
+      "operation": "Lecture and Q&A Self-check",
+      "assignments": "Review materials from the last class Prepare for the section 10.1.5 of the textbook",
+      "minutes": "200"
     },
     {
       "index": "4",
-      "content": "Discrete-time Fourier transform and sampling\ntheorem",
-      "operation": "Lectures and practices",
-      "assignments": "Preparation/reviews and\nself-reflection regarding\nlesson content. Review of\npractices.",
-      "minutes": "Prepar\nation\nand\nreview\n 100"
+      "content": "10.1.6 Analysis of three-phase AC circuits: power calculations",
+      "operation": "Lecture and Q&A Self-check",
+      "assignments": "Review materials from the last class Prepare for the section 10.1.6 of the textbook",
+      "minutes": "200"
     },
     {
       "index": "5",
-      "content": "Discrete Fourier transform",
-      "operation": "Lectures and practices",
-      "assignments": "Preparation/reviews and\nself-reflection regarding\nlesson content. Review of\npractices.",
-      "minutes": "Prepar\nation\nand\nreview\n 100"
+      "content": "Review the three-phase AC circuits Integrated learning",
+      "operation": "Lecture and Q&A Self-check",
+      "assignments": "Review chapter 10",
+      "minutes": "200"
     },
     {
       "index": "6",
-      "content": "Fast Fourier transform",
-      "operation": "Lectures and practices",
-      "assignments": "Preparation/reviews and\nself-reflection regarding\nlesson content. Review of\npractices.",
-      "minutes": "Prepar\nation\nand\nreview\n100"
+      "content": "1st test 8.1 Introduction of distorted wave",
+      "operation": "Lecture and Q&A Self-check",
+      "assignments": "Prepare for the test Prepare for the section 8.1 of the textbook",
+      "minutes": "200"
     },
     {
       "index": "7",
-      "content": "Review and quiz",
-      "operation": "Lectures and quiz",
-      "assignments": "Preparation/reviews and\nself-reflection regarding\nlesson content. Review of\npractices.",
-      "minutes": "Prepar\nation\nand\nreview\n100"
+      "content": "8.4 Fourier series: Fourier series expansion of distorted waveforms",
+      "operation": "Lecture and Q&A Self-check",
+      "assignments": "Review materials from the last class Prepare for the section 8.4 of the textbook",
+      "minutes": "200"
     },
     {
       "index": "8",
-      "content": "linear time invariant system, Convolution sum",
-      "operation": "Lectures and practices",
-      "assignments": "Preparation/reviews and\nself-reflection regarding\nlesson content. Review of\npractices.",
-      "minutes": "Prepar\nation\nand\nreview\n100"
+      "content": "8.5 Fourier series: Fourier series expansion of even and odd functions",
+      "operation": "Lecture and Q&A Self-check",
+      "assignments": "Review materials from the last class Prepare for the section 8.5 of the textbook",
+      "minutes": "200"
     },
     {
       "index": "9",
-      "content": "z-transform and system transfer function",
-      "operation": "Lectures and practices",
-      "assignments": "Preparation/reviews and\nself-reflection regarding\nlesson content. Review of\npractices.",
-      "minutes": "Prepar\nation\nand\nreview\n100"
+      "content": "8.5 Fourier series: Fourier series expansion of even and odd functions",
+      "operation": "Lecture and Q&A Self-check",
+      "assignments": "Review materials from the last class Prepare for the section 8.5 of the textbook",
+      "minutes": "200"
     },
     {
       "index": "10",
-      "content": "System stability and frequency characteristics",
-      "operation": "Lectures and practices",
-      "assignments": "Preparation/reviews and\nself-reflection regarding\nlesson content. Review of\npractices.",
-      "minutes": "Prepar\nation\nand\nreview\n100"
+      "content": "Integrated learning of Chapter 8",
+      "operation": "Lecture and Q&A Self-check",
+      "assignments": "Review the section 8.4 and 8.5",
+      "minutes": "200"
     },
     {
       "index": "11",
-      "content": "Digital filter",
-      "operation": "Lectures and practices",
-      "assignments": "Preparation/reviews and\nself-reflection regarding\nlesson content. Review of\npractices.",
-      "minutes": "Prepar\nation\nand\nreview\n100"
+      "content": "Second test 8.2 Analysis of distorted waveforms: power calculations",
+      "operation": "Lecture and Q&A Self-check",
+      "assignments": "Prepare for the test Prepare for the section 8.2 of the textbook",
+      "minutes": "200"
     },
     {
       "index": "12",
-      "content": "Modeling of communication systems and baseband\ntransmission",
-      "operation": "Lectures and practices",
-      "assignments": "Preparation/reviews and\nself-reflection regarding\nlesson content. Review of\npractices.",
-      "minutes": "Prepar\nation\nand\nreview\n100"
+      "content": "8.2 Analysis of distorted waveforms: power calculations 8.3 Analysis of distorted waveforms: the calculation of form factor, crest factor and distortion factor",
+      "operation": "Lecture and Q&A Self-check",
+      "assignments": "Review materials from the last class Prepare for the section 8.2 and 8.3 of the textbook",
+      "minutes": "200"
     },
     {
       "index": "13",
-      "content": "Modulation/demodulation and multiple access",
-      "operation": "Lectures and practices",
-      "assignments": "Preparation/reviews and\nself-reflection regarding\nlesson content. Review of\npractices.",
-      "minutes": "Prepar\nation\nand\nreview\n100"
+      "content": "Integrated learning of Chapter 8",
+      "operation": "Lecture and Q&A Self-check",
+      "assignments": "Review the section 8.1 8.2 and 8.3",
+      "minutes": "200"
     },
     {
       "index": "14",
-      "content": "Review and exams",
-      "operation": "Lectures and exams",
-      "assignments": "Preparation/reviews and\nself-reflection regarding\nlesson content. Review of\npractices.",
-      "minutes": "Prepar\nation\nand\nreview\n100"
+      "content": "Test",
+      "operation": "Lecture and Q&A Self-check",
+      "assignments": "Prepare for the test",
+      "minutes": "200"
     },
     {
       "index": "15",
-      "content": "Comprehensive learning",
-      "operation": "Explanation of the exam\nanswers\nIndication of temporal\nscore of the course/\nself-reflection",
-      "assignments": "Comprehensive review and\nself-reflection. Review of\nexams.",
-      "minutes": "Prepar\nation\nand\nreview\n100"
+      "content": "Self evaluation",
+      "operation": "Lecture and Q&A Self-check",
+      "assignments": "",
+      "minutes": ""
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　E522-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Information and Computer Science(〜2024)\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                デジタル通信と信号処理\n                Digital Communications and Signal Processing\n\n              2\n              E522-01\n\n                2026年度\n\n                3rd year 1st semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  MUKAI Hiroaki\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Discrete time signal and frequency characteristics\n2.z-transform and transfer function\n3.Sampling theorem\n4.Discrete Fourier transform and FFT\n5.Modulation/demodulation and multiple access\n\n              Analog signals such as voice, music, images, and video are digitized and processed. Digital signal processing can be implemented as a computer program, which enables flexible and complex processing. In this course, students will learn the basics of digital signal processing by digitizing analog signals such as audio and video. They will also learn the basics of digital communications achieved by digital signal processing.\n\n              授業の概要および学習上の助言\n\n              Students will systematically learn the following basic knowledge and theory about digital signal processing and digital communication:\n\n1. Discrete time signals and systems.\n2. Frequency characteristics of discrete-time systems.\n3. z-transform and transfer function.\n4. Sampling theorem.\n5. Discrete Fourier transform (DFT) and fast Fourier transform (FFT).\n6. Digital filter design method.\n7. Baseband transmission, modulation/demodulation and multiple access.\n\n              教科書および参考書・リザーブドブック\n\n              Textbooks: Reference books: Reserved books:\n\n              履修に必要な予備知識や技能\n\n              Knowledge of the basics of mathematics such as exponential functions, trigonometric functions, complex numbers, and linear algebra is required. It is desirable that students have knowledge of probability statistics, Fourier transform, and Laplace transform. These are introduced in this course. Numerical calculation software such as Excel are used in the practices.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                K,L,M\n                Understand and apply the convolution sum and frequency characteristics of discrete-time signals.\n\n                ②\n                K,L,M\n                Understand and apply the relationship between z-transform, the transfer function and circuit.\n\n                ③\n                K,L,M\n                Understand and apply the sampling theorem.\n\n                ④\n                K,L,M\n                Understand and apply DFT and its fast calculation method.\n\n                ⑤\n                K,L,M\n                Understand the basics of digital filter design.\n\n                ⑥\n                K,L,M\n                Understand the basics of modulation/demodulation and multiple access.\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                40\n\n                30\n\n                30\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                40\n\n                30\n\n                30\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                40\n\n                30\n\n                30\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n                  思考・推論・創",
-  "courseId": "2026:spring:E522-01:0:324",
+  "rawText": "金沢工業大学 学習支援計画書 E625-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Electrical and Electronic Engineering(2018〜)\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n電気回路Ⅳ(電気工学)\nElectric Circuits IV for Electrical Engineering  2 E625-01  2024年度\n 3rd year 1st semester  修学規程第4条を参照\n    担当教員名\n TSUDA Toshihiro, FUKAMI Tadashi\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Three-phase electricity 2.Fourier Series 3.Distorted wave  (1)Students will learn how to calculate the electric circuit of three-phase electricity. (2)Students will learn Fourier series of periodic wave. (3)Students will learn how to calculate the electric circuit with distorted wave.\n    授業の概要および学習上の助言   We will cover the following materials: 10.Three-phase AC circuits 10.1.1 Configurations of three-phase AC circuits 10.1.2 Connection diagrams of three-phase sources 10.1.3 Connection diagrams of three-phase loads 10.1.4 Conversion of a balanced load from star and delta connection, and vice-versa 10.1.5 Analysis of three-phase AC circuits: voltage and current calculations 10.1.6 Analysis of three-phase AC circuits: power calculations 8. Distorted wave 8.1 Introduction of distorted wave 8.2 Analysis of distorted waveforms: power calculations 8.3 Analysis of distorted waveforms: the calculation of form factor, crest factor and distortion factor 8.4 Fourier series: Fourier series expansion of distorted waveforms 8.5 Fourier series: Fourier series expansion of even and odd function\n    教科書および参考書・リザーブドブック   Fundamentals of Electric Circuits[Corona Publishing Co., Ltd.](in Japanese)\n    履修に必要な予備知識や技能   Fully understanding of “Electric Circuit I, II, III”. Basic knowledge and application ability of mathematics such as complex number, calculus and trigonometric function.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① J Be able to understand the basic concept of the three phase electricity and analyze the circuit.   ② J Be able to calculate the equivalent conversion between the delta and star connection.   ③ J Be able to understand the Fourier series of the distorted wave.   ④ J Be able to calculate the Fourier series of the distorted wave.   ⑤ J Be able to analyze the circuit with the distorted wave.   ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 30 60 0 0 0 0 10 100     指標と評価割合 総合評価割合 30 60 0 0 0 0 10 100   総合力指標 知識を取り込む力 30 60 0 0 0 0 10 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ Conduct tests on the circuit analysis with the distorted wave and the achievement degree of action target 5 is evaluated.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     クイズ\n小テスト ① レ The first test will be conducted on the three-phase electricity and the achievement degree of action targets 1 and 2 is evaluated. A second test will be conducted on the Fourier series and the achievement degree of action goals 3 and 4 is evaluated.   ② レ   ③ レ   ④ レ   ⑤     ⑥     レポート ①      ②     ③     ④     ⑤     ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ① レ Students will be evaluated on exercises in the class and on the homework.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     (1) Explain the concept of three-phase AC circuits by mathematical expressions and conduct circuit calculations. (2) Calculate equivalent impedances between delta and star connection. (3) Calculate the current, voltage, and power of three-phase AC circuits. (4) Derive a Fourier series formula by yourself and explain the meaning of the formula strictly. (5) Calculate Fourier series of periodic waveform. (6) Correctly calculate the distorted wave current, voltage and power of electric circuit.  Achieve the 5 items of action goal.\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな",
+  "courseId": "2024:fall:E617-01:0:324",
   "language": "en"
 }

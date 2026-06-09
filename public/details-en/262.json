@@ -1,56 +1,54 @@
 {
   "sourceIndex": 262,
   "sourceUrl": "/opsyllabus/kitos0110/262/1",
-  "importedAt": "2026-06-08T09:33:58.433Z",
-  "title": "電気機器Ⅰ",
-  "subtitle": "Electrical Machinery I",
-  "courseType": "Major ProgramMajor Courses",
+  "importedAt": "2026-06-09T01:29:21.591Z",
+  "title": "マイコンプログラミング",
+  "subtitle": "Microcontroller Programming",
+  "courseType": "Major Program\nMajor Courses",
   "credits": "2",
-  "term": "2026年度\n\n                3rd year 1st semester",
+  "term": "2024年度\n 2nd year 2nd semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "TSUDA Toshihiro",
-    "FUKAMI Tadashi"
+    "ITO Kouhei",
+    "MATSUDA Yuki"
   ],
   "keywords": [
-    "Magnetic system",
-    "Transformer",
-    "Direct current machine"
+    "Microcontroller 2.I/O ports 3.Timer interrupt 4.Serial communication"
   ],
-  "educationalGoal": "Students will:\n(1) learn basic theories of transformers, such as principles, structures, operating characteristics.\n(2) learn basic theories of direct current machines, such as principles, structures, operating characteristics, starting methods, and speed control methods.",
-  "advice": "This is the first course in the series of Electrical Machinery.\nWe will cover the following materials:\n1. Fundamentals of electric machines,\n2. Transformers,\n3. Direct current machines.\n\nStudents are required to actively participate in class.",
-  "books": "Electric Machinery and Apparatus Studies [Corona] (in Japanese)",
-  "requiredKnowledge": "Knowledge of electromagnetics and electric circuits.",
+  "educationalGoal": "(1) Learn the foundations of microcontrollers (2) Learn the method for writing microcontroller programs",
+  "advice": "This is a basic course in writing programs for microcontrollers. We will cover the following topics: 1. I/O port programming for AVR and Arduino microcontrollers. 2. Timer interrupt programming for AVR and Arduino microcontrollers. 3. Serial communication programming for AVR and Arduino microcontrollers. 4. Analog-to-digital (AD) conversion programming for Arduino microcontrollers. 5. Pulse-width modulation (PWM) output programming for Arduino microcontrollers.",
+  "books": "None",
+  "requiredKnowledge": "Completion of “Computer Engineering I.”",
   "activityGoals": [
     {
       "index": "①",
-      "type": "L",
-      "body": "Be able to explain the types of electric machines and magnetic systems."
+      "type": "J",
+      "body": "Understand the role of microcontrollers and the structure of microcontroller programs"
     },
     {
       "index": "②",
-      "type": "L",
-      "body": "Be able to understand the transformers and to calculate their operating characteristics."
+      "type": "J",
+      "body": "Understand the role of I/O ports, and write and run I/O port programs"
     },
     {
       "index": "③",
-      "type": "L",
-      "body": "Be able to understand the direct current machines and to calculate their operating characteristics."
+      "type": "J",
+      "body": "Understand the timer interrupt, and write and run timer interrupt programs"
     },
     {
       "index": "④",
-      "type": "L",
-      "body": "Be able to explain the starting method and speed control principle of direct current machines."
+      "type": "J",
+      "body": "Understand serial communication, and write and run serial communication programs"
     }
   ],
   "evaluationWeights": [
     {
       "label": "総合評価割合",
       "values": [
-        "30",
+        "20",
+        "10",
         "40",
         "30",
-        "0",
         "0",
         "0",
         "0",
@@ -58,9 +56,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -70,10 +68,10 @@
     {
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
-        "30",
+        "20",
+        "10",
         "40",
         "30",
-        "0",
         "0",
         "0",
         "0",
@@ -81,9 +79,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -93,10 +91,10 @@
     {
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
-        "30",
+        "20",
+        "10",
         "40",
         "30",
-        "0",
         "0",
         "0",
         "0",
@@ -104,9 +102,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -127,9 +125,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -137,7 +135,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -150,9 +148,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -173,9 +171,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -184,118 +182,118 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "(1) Fully understand the types of electric machines and magnetic systems and explain them.\n(2) Fully understand the principle and structure of transformers and calculate their operating characteristics\n(3) Fully understand the principle and structure of direct current machines and calculate their operating characteristics.\n(4) Fully understand the speed control method of direct current motors and explain them.",
-    "standard": "(1) Understand the types of electric machines and magnetic systems and explain them.\n(2) Understand the principle and structure of transformers and calculate their operating characteristics\n(3) Understand the principle and structure of direct current machines and calculate their operating characteristics.\n(4) Understand the speed control method of direct current motors and explain them."
+    "ideal": "Write and revise programs for I/O ports, timer interrupts, and serial communications.",
+    "standard": "Understand and run confirmations for I/O ports, timer interrupts, and serial communications."
   },
   "clipProcess": "",
   "lessons": [
     {
       "index": "1",
-      "content": "Course introduction",
-      "operation": "Lecture and Q&A",
-      "assignments": "Understand the objectives of\nclass",
-      "minutes": "200"
+      "content": "Course introduction Review of C language 1",
+      "operation": "Lecture and Exercise",
+      "assignments": "Preview: read the text Review the C language",
+      "minutes": "30 60"
     },
     {
       "index": "2",
-      "content": "Types of electric machines and magnetic systems",
-      "operation": "Lecture, practice,  Q&A,\nand self-check",
-      "assignments": "Prepare for Sections 1.1 and 1\n.2 of the text book",
-      "minutes": "200"
+      "content": "Course introduction Install the software",
+      "operation": "Lecture and Exercise",
+      "assignments": "Preview: read the text Review the C language",
+      "minutes": "30 60"
     },
     {
       "index": "3",
-      "content": "Materials for electric machines",
-      "operation": "Lecture, practice,  Q&A,\nand self-check",
-      "assignments": "Prepare for Section 1.3 of\nthe text book",
-      "minutes": "200"
+      "content": "Introduction of microcontrollers I/O port programming for AVR 1",
+      "operation": "Lecture and Exercise",
+      "assignments": "Preview: read the text Review the content",
+      "minutes": "30 60"
     },
     {
       "index": "4",
-      "content": "Losses, efficiency and rating of electric\nmachines",
-      "operation": "Lecture, practice,  Q&A,\nand self-check",
-      "assignments": "Prepare for Section 1.4 of\nthe text book",
-      "minutes": "200"
+      "content": "I/O port programming for AVR 2",
+      "operation": "Lecture and Exercise",
+      "assignments": "Preview: read the text Review the content",
+      "minutes": "30 60"
     },
     {
       "index": "5",
-      "content": "Test about the contents learned in the classes\nfrom No.2 to 4",
-      "operation": "Test",
-      "assignments": "Prepare for the test (solve\nthe exercises in Chapter 1 of\nthe text book )",
-      "minutes": "200"
+      "content": "Timer interrupt programming for AVR",
+      "operation": "Lecture and Exercise",
+      "assignments": "Preview: read the text Review the content",
+      "minutes": "30 60"
     },
     {
       "index": "6",
-      "content": "The ideal transformers",
-      "operation": "Lecture, practice,  Q&A,\nand self-check",
-      "assignments": "Prepare for Section 2.1 of\nthe text book",
-      "minutes": "200"
+      "content": "Serial communication programming for AVR (sending)",
+      "operation": "Lecture and Exercise",
+      "assignments": "Preview: read the text Review the content",
+      "minutes": "30 60"
     },
     {
       "index": "7",
-      "content": "Equivalent circuit of a transformer and their\noperating characteristics",
-      "operation": "Lecture, practice,  Q&A,\nand self-check",
-      "assignments": "Prepare for Sections 2.2 and 2\n.3 of the text book",
-      "minutes": "200"
+      "content": "Serial communication programming for AVR (sending and receiving)",
+      "operation": "Lecture and Exercise",
+      "assignments": "Preview: read the text Review the content",
+      "minutes": "30 60"
     },
     {
       "index": "8",
-      "content": "Types of transformers and their structure",
-      "operation": "Lecture, practice, Q&A,\nand self-check",
-      "assignments": "Prepare for Sections 2.4 and 2\n.5 of the text book",
-      "minutes": "200"
+      "content": "Exam (write and run a program)",
+      "operation": "Lecture and Exercise Self check",
+      "assignments": "Review the content",
+      "minutes": "30 60"
     },
     {
       "index": "9",
-      "content": "Circuit connections of transformers",
-      "operation": "Lecture, practice, Q&A,\nand self-check",
-      "assignments": "Prepare for Section 2.6 of\nthe text book",
-      "minutes": "200"
+      "content": "I/O port programming for Arduino",
+      "operation": "Lecture and Exercise",
+      "assignments": "Preview: read the text Review the content",
+      "minutes": "30 60"
     },
     {
       "index": "10",
-      "content": "Test about the contents learned in the classes\nfrom No.6 to 9",
-      "operation": "Test",
-      "assignments": "Prepare for the test (solve\nthe exercises in Chapter 2 of\nthe text book )",
-      "minutes": "200"
+      "content": "Serial communication programming for Arduino (sending)",
+      "operation": "Lecture and Exercise",
+      "assignments": "Preview: read the text Review the content",
+      "minutes": "30 60"
     },
     {
       "index": "11",
-      "content": "Principle of direct current machines and their\nstructure\nInduced electromotive force and torque",
-      "operation": "Lecture, practice,  Q&A,\nand self-check",
-      "assignments": "Prepare for Sections 5.2 to\n5.3 of the text book",
-      "minutes": "200"
+      "content": "Serial communication programming for Arduino (sending and receiving)",
+      "operation": "Lecture and Exercise",
+      "assignments": "Preview: read the text Review the content",
+      "minutes": "30 60"
     },
     {
       "index": "12",
-      "content": "Armature reaction and function of commutators",
-      "operation": "Lecture, practice,  Q&A,\nand self-check",
-      "assignments": "Prepare for Sections 5.4 to\n5.5 of the text book",
-      "minutes": "200"
+      "content": "AD conversion programming for Arduino",
+      "operation": "Lecture and Exercise",
+      "assignments": "Preview: read the text Review the content",
+      "minutes": "30 60"
     },
     {
       "index": "13",
-      "content": "Types of direct current generators and their\noperating characteristics.\nOperating characteristics of direct current\nmotors and their speed control methods.",
-      "operation": "Lecture, practice,  Q&A,\nand self-check",
-      "assignments": "Prepare for Sections 5.6 to\n5.8 of the text book",
-      "minutes": "200"
+      "content": "PWM output programming for Arduino",
+      "operation": "Lecture and Exercise",
+      "assignments": "Preview: read the text Review the content",
+      "minutes": "30 60"
     },
     {
       "index": "14",
-      "content": "Exam about contents learned in the classes from\nNo.11 to 13",
-      "operation": "Exam",
-      "assignments": "Prepare for the exam (solve\nthe exercises in Chapter 5 of\nthe text book )",
-      "minutes": "200"
+      "content": "Examination of Arduino programming",
+      "operation": "Exercise",
+      "assignments": "Review the content",
+      "minutes": "90"
     },
     {
       "index": "15",
-      "content": "Self-reflection class",
-      "operation": "Lecture, Q&A, and\nself-evaluation",
-      "assignments": "",
-      "minutes": ""
+      "content": "Final exam Self-Check",
+      "operation": "Lecture",
+      "assignments": "Review the content",
+      "minutes": "90"
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　E623-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Electrical and Electronic Engineering(〜2024)\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                電気機器Ⅰ\n                Electrical Machinery I\n\n              2\n              E623-01\n\n                2026年度\n\n                3rd year 1st semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  TSUDA Toshihiro, FUKAMI Tadashi\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Magnetic system\n2.Transformer\n3.Direct current machine\n\n              Students will:\n(1) learn basic theories of transformers, such as principles, structures, operating characteristics.\n(2) learn basic theories of direct current machines, such as principles, structures, operating characteristics, starting methods, and speed control methods.\n\n              授業の概要および学習上の助言\n\n              This is the first course in the series of Electrical Machinery.\nWe will cover the following materials:\n1. Fundamentals of electric machines,\n2. Transformers,\n3. Direct current machines.\n\nStudents are required to actively participate in class.\n\n              教科書および参考書・リザーブドブック\n\n              Electric Machinery and Apparatus Studies [Corona] (in Japanese)\n\n              履修に必要な予備知識や技能\n\n              Knowledge of electromagnetics and electric circuits.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                L\n                Be able to explain the types of electric machines and magnetic systems.\n\n                ②\n                L\n                Be able to understand the transformers and to calculate their operating characteristics.\n\n                ③\n                L\n                Be able to understand the direct current machines and to calculate their operating characteristics.\n\n                ④\n                L\n                Be able to explain the starting method and speed control principle of direct current machines.\n\n                ⑤\n\n                ⑥\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                30\n\n                40\n\n                30\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                30\n\n                40\n\n                30\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                30\n\n                40\n\n                30\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  コラボレーションとリーダーシップ\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  発表・表現・伝達する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  学習に取組む姿勢・意欲\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n        ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n\n              評価の要点\n\n              評価方法\n              行動目標\n      ",
-  "courseId": "2026:spring:E623-01:0:262",
+  "rawText": "金沢工業大学 学習支援計画書 E218-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Robotics\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\nマイコンプログラミング\nMicrocontroller Programming  2 E218-01  2024年度\n 2nd year 2nd semester  修学規程第4条を参照\n    担当教員名\n ITO Kouhei, MATSUDA Yuki\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Microcontroller 2.I/O ports 3.Timer interrupt 4.Serial communication  (1) Learn the foundations of microcontrollers (2) Learn the method for writing microcontroller programs\n    授業の概要および学習上の助言   This is a basic course in writing programs for microcontrollers. We will cover the following topics: 1. I/O port programming for AVR and Arduino microcontrollers. 2. Timer interrupt programming for AVR and Arduino microcontrollers. 3. Serial communication programming for AVR and Arduino microcontrollers. 4. Analog-to-digital (AD) conversion programming for Arduino microcontrollers. 5. Pulse-width modulation (PWM) output programming for Arduino microcontrollers.\n    教科書および参考書・リザーブドブック   None\n    履修に必要な予備知識や技能   Completion of “Computer Engineering I.”\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① J Understand the role of microcontrollers and the structure of microcontroller programs   ② J Understand the role of I/O ports, and write and run I/O port programs   ③ J Understand the timer interrupt, and write and run timer interrupt programs   ④ J Understand serial communication, and write and run serial communication programs   ⑤     ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 20 10 40 30 0 0 0 100     指標と評価割合 総合評価割合 20 10 40 30 0 0 0 100   総合力指標 知識を取り込む力 20 10 40 30 0 0 0 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ An exam is given at the end of semester to evaluate your degree of achievement.   ② レ   ③ レ   ④ レ   ⑤     ⑥     クイズ\n小テスト ① レ Students will write programs for AVR microcontrollers.   ② レ   ③ レ   ④ レ   ⑤     ⑥     レポート ① レ Students will prepare four reports for evaluation.   ② レ   ③ レ   ④ レ   ⑤     ⑥     成果発表\n(口頭・実技) ① レ Students will write and run programs for AVR or Arduino microcontrollers.   ② レ   ③ レ   ④ レ   ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ①      ②     ③     ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     Write and revise programs for I/O ports, timer interrupts, and serial communications. Understand and run confirmations for I/O ports, timer interrupts, and serial communications.\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習課題に要する標準的な時間を記載してあります。日々の自学自習時間全体としては、各授業に応じた時間(例えば2単位科目の場合、予習2時間・復習2時間/週)を取るよう努めてください。詳しくは教員の指導に従って下さい。     授業明細   回数 学習内容 授業の運営方法 学習課題(予習・復習) 時間:分※     1  Course introduction Review of C language 1 Lecture and Exercise Preview: read the text Review the C language  30 60   2  Course introduction Install the software Lecture and Exercise Preview: read the text Review the C language  30 60   3  Introduction of microcontrollers I/O port programming for AVR 1 Lecture and Exercise Preview: read the text Review the content  30 60   4  I/O port programming for AVR 2 Lecture and Exercise Preview: read the text Review the content  30 60   5  Timer interrupt programming for AVR Lecture and Exercise Preview: read the text Review the content  30 60   6  Serial communication programming for AVR (sending) Lecture and Exercise Preview: read the text Review the content  30 60   7  Serial communication programming for AVR (sending and receiving) Lecture and Exercise Preview: read the text Review the content  30 60   8  Exam (write and run a program) Lecture and Exercise Self check Review the content  30 60   9",
+  "courseId": "2024:spring:E210-01:0:262",
   "language": "en"
 }

@@ -1,47 +1,43 @@
 {
   "sourceIndex": 267,
   "sourceUrl": "/opsyllabus/kitos0110/267/1",
-  "importedAt": "2026-06-08T09:33:58.522Z",
-  "title": "電子材料",
-  "subtitle": "Electronic Materials",
-  "courseType": "Major ProgramMajor Courses",
+  "importedAt": "2026-06-09T01:29:21.578Z",
+  "title": "ロボット設計演習Ⅱ",
+  "subtitle": "Engineering Exercise for Robotics II",
+  "courseType": "Major Program\nMajor Courses",
   "credits": "2",
-  "term": "2026年度\n\n                3rd year 1st semester",
+  "term": "2024年度\n 3rd year 1st semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "FUKADA Haruki"
+    "FUJIKI Nobuaki"
   ],
   "keywords": [
-    "Atomic orbital and electron configuration",
-    "Ferroelectrics",
-    "Ferromagnetism",
-    "Superconductor",
-    "Effective utilization of AI"
+    "Machine design 2.Mechanical drawing 3.Japanese Industrial Standard (JIS)"
   ],
-  "educationalGoal": "In this lecture, we learn about the material properties of dielectrics and magnetic materials, which are the basic materials in the electronic field along with semiconductors. To understand the polarization phenomenon and dielectric loss of dielectrics and the physical meaning of the magnetism, and also about applications of ferroelectric and ferromagnetic materials to devices. Make it possible to recognize the importance of materials through lectures.",
-  "advice": "1. Basics of electronic materials : We learn the basic contents in learning electronic materials, especially the atomic orbital and electron configuration in solids, the bonding between atoms, band structures, and electrical conduction.\n2. Dielectric materials and their properties : Learn about polarization, which is a general response phenomenon to the electric field of a solid. After learning the polarization under applying a DC electric field, the complex permittivity is derived under applying an AC electric field, and the dielectric loss. Furthermore, we learn about the properties of ferroelectrics that show strong polarization and their applications.\n3. Magnetic materials and their properties : We understand from a microscopic point of view the magnetization phenomena that occur when a substance is placed in a magnetic field, and learn about the basic content of magnetism that determines the magnetic properties of the substance. Learn about the origin and classification of ferromagnetism, and their applications to the field of electrical and electronic engineering. In addition, we will learn about the basics and applications of spintronics that apply electron spin, which has attracted attention in recent years.",
-  "books": "Electrical and Electronic Materials Engineering, SAIENSU - SHA Co.,Ltd.",
-  "requiredKnowledge": "The purpose of this lecture is to learn the characteristics and practical applications of the dielectric and magnetic materials that make up the various devices that form the basis of the electrical and electronic engineering field, based on the knowledge learned in the Electronic Engineering and Physical Electronics. You will learn about various materials through this class, but please systematically organize your knowledge.",
+  "educationalGoal": "(1) Learn mechanical design skills. (2) Learn mechanical drawing skills. (3) Learn how to use mechanical elements.",
+  "advice": "This is a practical course on the design of a reduction gear. We will cover the following topics: 1. Design of spur gear 2. Design of input and output shafts 3. Bearing selection",
+  "books": "",
+  "requiredKnowledge": "Completion of Industrial Mechanics and Material Mechanics Basic knowledge of mechanical drawing",
   "activityGoals": [
     {
       "index": "①",
-      "type": "IJL",
-      "body": "Be able to explain atomic orbital and electron configuration, the bonds between atoms, and band structure in sol"
+      "type": "I,J",
+      "body": "Understand and explain the major points of the design process."
     },
     {
       "index": "②",
-      "type": "IJL",
-      "body": "Be able to explain properties and applications of dielectrics."
+      "type": "I,J",
+      "body": "Understand the design process and design a reduction gear."
     },
     {
       "index": "③",
-      "type": "IJL",
-      "body": "Be able to explain properties and applications of magnetic materials."
+      "type": "I,J",
+      "body": "Use a computer-aided design system to create detailed technical drawings compliant with JIS requirements."
     },
     {
       "index": "④",
-      "type": "IJL",
-      "body": "Be able to explain properties and applications of superconducting materials."
+      "type": "I,J",
+      "body": "Create an assembly drawing and part drawings based on the machining that will be used for manufacturing."
     }
   ],
   "evaluationWeights": [
@@ -49,8 +45,8 @@
       "label": "総合評価割合",
       "values": [
         "40",
-        "20",
-        "40",
+        "0",
+        "60",
         "0",
         "0",
         "0",
@@ -59,9 +55,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -72,8 +68,8 @@
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
         "40",
-        "20",
-        "40",
+        "0",
+        "60",
         "0",
         "0",
         "0",
@@ -82,9 +78,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -95,8 +91,8 @@
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
         "40",
-        "20",
-        "40",
+        "0",
+        "60",
         "0",
         "0",
         "0",
@@ -105,9 +101,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -128,9 +124,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -138,7 +134,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -151,9 +147,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -174,9 +170,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -185,118 +181,118 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "A level where the 3 target abilities are almost certainly achieved.\nAt the same time, the level at which interest and learning motivation is forming in related subjects such as Electronic Engineering, Physical Electronics, Semiconductor Engineering, Optical and Electronic Devices.",
-    "standard": "A level where the 3 target abilities are achieved in 60 to 70%."
+    "ideal": "(1)Select mechanical elements based on calculation results (2)Create an assembly drawing that conforms to JIS requirements",
+    "standard": "(1)Explain the role of mechanical elements used in the mechanism (2)Predict the mechanism and form of parts from an assembly drawing"
   },
   "clipProcess": "",
   "lessons": [
     {
       "index": "1",
-      "content": "Course introduction\n< Basics of electronic materials >\nAtomic orbital and electron configuration",
+      "content": "Course introduction Design subject and specifications",
       "operation": "Lecture and Q&A",
-      "assignments": "Understand the objectives of\nclass",
-      "minutes": "Prepar\nation\nand re\nview20\n0"
+      "assignments": "Understand the objectives of the course",
+      "minutes": "90"
     },
     {
       "index": "2",
-      "content": "< Basics of electronic materials >\nBonding between atoms, and band structures",
+      "content": "Spur gear design",
       "operation": "Lecture and Q&A",
-      "assignments": "Preparation and review",
-      "minutes": "Prepar\nation\nand re\nview20\n0"
+      "assignments": "Study pp. 109-126 of the textbook",
+      "minutes": "90"
     },
     {
       "index": "3",
-      "content": "< Basics of electronic materials >\nClassical electrical conduction",
+      "content": "Shaft design",
       "operation": "Lecture and Q&A",
-      "assignments": "Preparation and review",
-      "minutes": "Prepar\nation\nand re\nview20\n0"
+      "assignments": "Study pp. 78-86 of the textbook",
+      "minutes": "90"
     },
     {
       "index": "4",
-      "content": "Quiz about contents learned from No.1 to 3\nclasses.",
-      "operation": "Quiz,\nLecture and Q&A",
-      "assignments": "Preparation and review",
-      "minutes": "Prepar\nation\nand re\nview20\n0"
+      "content": "Bearing selection",
+      "operation": "Lecture and Q&A",
+      "assignments": "Study pp. 93-104 of the textbook",
+      "minutes": "90"
     },
     {
       "index": "5",
-      "content": "Review about quiz carried out previous class.\n\nPolarization under applying a DC electric field",
-      "operation": "review\nSelf-reflection\nLecture and Q&A",
-      "assignments": "Preparation and review",
-      "minutes": "Prepar\nation\nand re\nview20\n0"
+      "content": "Design calculation",
+      "operation": "Lecture and Q&A",
+      "assignments": "Check the design calculation",
+      "minutes": "90"
     },
     {
       "index": "6",
-      "content": "Complex permittivity and dielectric loss under\napplying an AC electric field",
+      "content": "Design calculation",
       "operation": "Lecture and Q&A",
-      "assignments": "Preparation and review",
-      "minutes": "100"
+      "assignments": "Check the design calculation",
+      "minutes": "90"
     },
     {
       "index": "7",
-      "content": "Dielectric dispersion and Dielectric relaxation",
-      "operation": "Lecture and Q&A",
-      "assignments": "reparation and review",
-      "minutes": "Prepar\nation\nand re\nview20\n0"
+      "content": "Mid-semester test Assembly drawing",
+      "operation": "Lecture and Q&A Test",
+      "assignments": "Prepare for mid-semester test",
+      "minutes": "90"
     },
     {
       "index": "8",
-      "content": "The properties of ferroelectrics and their\napplications",
-      "operation": "Lecture and Q&A",
-      "assignments": "reparation and review",
-      "minutes": "Prepar\nation\nand re\nview20\n0"
+      "content": "Review of mid-semester test Self-check",
+      "operation": "Lecture and Q&A Self-check",
+      "assignments": "Review mid-semester test",
+      "minutes": "90"
     },
     {
       "index": "9",
-      "content": "Quiz about contents learned from No.4 to 8\nclasses",
-      "operation": "Quiz,\nReview and Q&A",
-      "assignments": "reparation and review",
-      "minutes": "Prepar\nation\nand re\nview20\n0"
+      "content": "Assembly drawing",
+      "operation": "Lecture and Q&A",
+      "assignments": "Check the assembly drawing",
+      "minutes": "90"
     },
     {
       "index": "10",
-      "content": "Review about quiz carried out previous class.\n\nMagnetic susceptibility and permeability,\norigin and classification of ferromagnetism\n(continued to next class)",
-      "operation": "review\nSelf-reflection\nLecture and Q&A",
-      "assignments": "reparation and review",
-      "minutes": "Prepar\nation\nand re\nview20\n0"
+      "content": "Assembly drawing",
+      "operation": "Lecture and Q&A",
+      "assignments": "Check the assembly drawing",
+      "minutes": "90"
     },
     {
       "index": "11",
-      "content": "The origin and classification of ferromagnetism",
+      "content": "Assembly drawing",
       "operation": "Lecture and Q&A",
-      "assignments": "Preparation and review",
-      "minutes": "Prepar\nation\nand re\nview20\n0"
+      "assignments": "Check the assembly drawing",
+      "minutes": "90"
     },
     {
       "index": "12",
-      "content": "Applications of ferromagnetic materials and\nspintronics",
+      "content": "Assembly drawing",
       "operation": "Lecture and Q&A",
-      "assignments": "Preparation and review",
-      "minutes": "Prepar\nation\nand re\nview20\n0"
+      "assignments": "Check the assembly drawing",
+      "minutes": "90"
     },
     {
       "index": "13",
-      "content": "Quiz about contents learned from No.10 to 12\nclasses\nReview about quiz",
-      "operation": "Quiz,\nReview and Q&A\nSelf-reflection",
-      "assignments": "Prepare for the exam",
-      "minutes": "Prepar\nation\nand re\nview20\n0"
+      "content": "Assembly drawing Part drawings",
+      "operation": "Lecture and Q&A",
+      "assignments": "Check the assembly drawing and part drawings",
+      "minutes": "90"
     },
     {
       "index": "14",
-      "content": "Final exam",
-      "operation": "Test\nSelf-reflection",
-      "assignments": "Preparation and review",
-      "minutes": "Prepar\nation\nand re\nview20\n0"
+      "content": "Assembly drawing Part drawings",
+      "operation": "Lecture and Q&A",
+      "assignments": "Check the assembly drawing and part drawings",
+      "minutes": "90"
     },
     {
       "index": "15",
-      "content": "Review for final exam",
-      "operation": "Review,\nself-evaluation",
-      "assignments": "Review",
-      "minutes": "Prepar\nation\nand re\nview20\n0"
+      "content": "Integrated learning Self-check",
+      "operation": "Lecture and Q&A Self-check",
+      "assignments": "Review the assembly drawing",
+      "minutes": "90"
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　E628-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Electrical and Electronic Engineering(〜2024)\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                電子材料\n                Electronic Materials\n\n              2\n              E628-01\n\n                2026年度\n\n                3rd year 1st semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  FUKADA Haruki\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Atomic orbital and electron configuration\n2.Ferroelectrics\n3.Ferromagnetism\n4.Superconductor\n5.Effective utilization of AI\n\n              In this lecture, we learn about the material properties of dielectrics and magnetic materials, which are the basic materials in the electronic field along with semiconductors. To understand the polarization phenomenon and dielectric loss of dielectrics and the physical meaning of the magnetism, and also about applications of ferroelectric and ferromagnetic materials to devices. Make it possible to recognize the importance of materials through lectures.\n\n              授業の概要および学習上の助言\n\n              1. Basics of electronic materials : We learn the basic contents in learning electronic materials, especially the atomic orbital and electron configuration in solids, the bonding between atoms, band structures, and electrical conduction.\n2. Dielectric materials and their properties : Learn about polarization, which is a general response phenomenon to the electric field of a solid. After learning the polarization under applying a DC electric field, the complex permittivity is derived under applying an AC electric field, and the dielectric loss. Furthermore, we learn about the properties of ferroelectrics that show strong polarization and their applications.\n3. Magnetic materials and their properties : We understand from a microscopic point of view the magnetization phenomena that occur when a substance is placed in a magnetic field, and learn about the basic content of magnetism that determines the magnetic properties of the substance. Learn about the origin and classification of ferromagnetism, and their applications to the field of electrical and electronic engineering. In addition, we will learn about the basics and applications of spintronics that apply electron spin, which has attracted attention in recent years.\n\n              教科書および参考書・リザーブドブック\n\n              Electrical and Electronic Materials Engineering, SAIENSU - SHA Co.,Ltd.\n\n              履修に必要な予備知識や技能\n\n              The purpose of this lecture is to learn the characteristics and practical applications of the dielectric and magnetic materials that make up the various devices that form the basis of the electrical and electronic engineering field, based on the knowledge learned in the Electronic Engineering and Physical Electronics. You will learn about various materials through this class, but please systematically organize your knowledge.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                IJL\n                Be able to explain atomic orbital and electron configuration, the bonds between atoms, and band structure in sol\n\n                ②\n                IJL\n                Be able to explain properties and applications of dielectrics.\n\n                ③\n                IJL\n                Be able to explain properties and applications of magnetic materials.\n\n                ④\n                IJL\n                Be able to explain properties and applications of superconducting materials.\n\n                ⑤\n\n                ⑥\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n         ",
-  "courseId": "2026:spring:E628-01:0:267",
+  "rawText": "金沢工業大学 学習支援計画書 E223-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Robotics\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\nロボット設計演習Ⅱ\nEngineering Exercise for Robotics II  2 E223-01  2024年度\n 3rd year 1st semester  修学規程第4条を参照\n    担当教員名\n FUJIKI Nobuaki\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Machine design 2.Mechanical drawing 3.Japanese Industrial Standard (JIS)  (1) Learn mechanical design skills. (2) Learn mechanical drawing skills. (3) Learn how to use mechanical elements.\n    授業の概要および学習上の助言   This is a practical course on the design of a reduction gear. We will cover the following topics: 1. Design of spur gear 2. Design of input and output shafts 3. Bearing selection\n    教科書および参考書・リザーブドブック\n    履修に必要な予備知識や技能   Completion of Industrial Mechanics and Material Mechanics Basic knowledge of mechanical drawing\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① I,J Understand and explain the major points of the design process.   ② I,J Understand the design process and design a reduction gear.   ③ I,J Use a computer-aided design system to create detailed technical drawings compliant with JIS requirements.   ④ I,J Create an assembly drawing and part drawings based on the machining that will be used for manufacturing.   ⑤     ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 40 0 60 0 0 0 0 100     指標と評価割合 総合評価割合 40 0 60 0 0 0 0 100   総合力指標 知識を取り込む力 40 0 60 0 0 0 0 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ A mid-semester test is given, as specified in the course schedule, to evaluate your degree of achievement until that point.   ② レ   ③     ④     ⑤     ⑥     クイズ\n小テスト ①      ②     ③     ④     ⑤     ⑥     レポート ① レ Students will prepare a report regarding their design for a reduction gear and submit it for evaluation.   ② レ   ③ レ   ④ レ   ⑤     ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ①      ②     ③     ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     (1)Select mechanical elements based on calculation results (2)Create an assembly drawing that conforms to JIS requirements (1)Explain the role of mechanical elements used in the mechanism (2)Predict the mechanism and form of parts from an assembly drawing\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習課題に要する標準的な時間を記載してあります。日々の自学自習時間全体としては、各授業に応じた時間(例えば2単位科目の場合、予習2時間・復習2時間/週)を取るよう努めてください。詳しくは教員の指導に従って下さい。     授業明細   回数 学習内容 授業の運営方法 学習課題(予習・復習) 時間:分※     1  Course introduction Design subject and specifications Lecture and Q&A Understand the objectives of the course  90   2  Spur gear design Lecture and Q&A Study pp. 109-126 of the textbook  90   3  Shaft design Lecture and Q&A Study pp. 78-86 of the textbook  90   4  Bearing selection Lecture and Q&A Study pp. 93-104 of the textbook  90   5  Design calculation Lecture and Q&A Check the design calculation  90   6  Design calculation Lecture and Q&A Check the design calculation  90   7  Mid-semester test Assembly drawing Lecture and Q&A Test Prepare for mid-semester test  90   8  Review of mid-semester test Self-check Lecture and Q&A Self-check Review mid-semester test  90   9  Assembly drawing Lecture and Q&A Check the assembly drawing  90   10  Assembly drawing Lecture and Q&A Check the assembly drawing  90   11  Assembly drawing Lecture and Q&A Check the assembly drawing  90   12  Assembly drawing Lecture and Q&A Check the assembly drawing  90   13  Assembly drawing Part drawings Lecture and Q&A Check the assembly drawing and part drawings  90   14  Assembly drawing Part drawings Lecture and Q&",
+  "courseId": "2024:fall:E214-01:0:267",
   "language": "en"
 }

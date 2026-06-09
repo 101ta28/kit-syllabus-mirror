@@ -1,47 +1,70 @@
 {
   "sourceIndex": 427,
   "sourceUrl": "/opsyllabus/kitos0110/427/1",
-  "importedAt": "2026-06-08T09:34:01.767Z",
-  "title": "プロジェクトデザインⅢ（佐藤優太郎研究室）",
-  "subtitle": "Design Project III(Sato Yutaro)",
-  "courseType": "Major ProgramMajor Project Courses",
-  "credits": "8",
-  "term": "2026年度\n\n                All year",
+  "importedAt": "2026-06-09T01:29:22.971Z",
+  "title": "専門ゼミ(情報工学科)",
+  "subtitle": "Preparatory Seminar for Design Project III",
+  "courseType": "Major Program\nMajor Project Courses",
+  "credits": "1",
+  "term": "2024年度\n 3rd year 2nd semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "SATO Yutaro"
+    "GUO Qinglian",
+    "YAMAMOTO Tomohito",
+    "HAYASHI Ryoko",
+    "TAKAGO Daisuke",
+    "MOTOKI Mitsuo",
+    "KAWANAMI Takashi",
+    "ABE Noriyuki",
+    "KUROSE Hiroshi",
+    "KONNO Takeshi",
+    "SANO Shoji",
+    "MATSUI Kunio",
+    "MUKAI Hiroaki",
+    "ISHIBASHI Koichi",
+    "KINDO Toshiki",
+    "SAKAMOTO Shinji",
+    "INAGAKI Mikio",
+    "NAKAZAWA Minoru",
+    "NINAGAWA Shigeru"
   ],
   "keywords": [
-    "Problem detection and solving",
-    "Bodily illusion",
-    "Integration of technology and sensitivity",
-    "Engineering ethic",
-    "Regional cooperation"
+    "Project Design 3 2.Information infrastructure technology 3.Solution & Service 4.Ethics and crisis management for IT engineers 5.Project Proposal"
   ],
-  "educationalGoal": "In this final course, students are expected summarize all of their university studies based on what they have learned thus far.\nEach student will be expected to find a unique theme, think about problems, and then develop a process for proposing solutions to those problems.\nStudents will be expected to integrate their acquired knowledge on the technologies, sensibilities, and logical thinking skills related to media technology and media design in order to implement a project design method based on \"CDIO\" cycle.",
-  "advice": "The Project Design III course is based on the contents of classes from the first to third years of university studies. Hence, it is a culmination of four years of university life, in which students practice problem finding and solving techniques and build deliverables based on their teacher's advice.\n　\nIn this laboratory, based on the knowledge and skills acquired through specialized courses, students will set themes to create new UX and implement media design. In addition, students will acquire and practice the ability to specifically design, develop, and evaluate such media.\n\nStudents are expected to know themselves, work diligently on developing their strengths, and find ways to overcome their shortcomings.\n\nMastery of these techniques will surely be useful when going out into society. Students are expected to achieve their goals by working intensively towards higher objectives.",
-  "books": "None.",
-  "requiredKnowledge": "All prerequisite courses of this department must already be completed.\n\nStudents must be able to summarize what they have learned from the first to third years of study.\n\nStudents are expected to have mastered problem-finding and solving methods through the experiences gained in project design subjects and the specialized seminars held from the first to the third year.",
+  "educationalGoal": "Specialized seminars supplement the knowledge and skills that were not necessarily sufficient in past lectures, exercises, and experiments required for the PD3 project, and acquired new knowledge and skills in each activity area. The aim is to cultivate the basic academic and technical skills so that PD3 can be implemented voluntarily from the 7th term.",
+  "advice": "In order to carry out any research / work / assignment in PD3, the faculty presents the learning area program and clarifies the knowledge and skills required to carry out the project in this learning area program. The student confirms his / her ability, clarifies items to be supplemented and items to be newly acquired, and learns and acquires them. In the course of the lesson, teachers clarify PD3 goals and action plans. Students conduct tests on these learning results to confirm their achievement, and prepare a project proposal for PD3. Specifically, in performing PD3, learn the latest technology trends in specialized fields that are closely related to each project, and summarize the technology explanation and your opinion in the form of an essay. After understanding such a common technical foundation, learn the outline of the technology related to PD3 and plan the project. In addition, each project of PD3 Since the use of equipment and applied software differ for each project, the students will actually experience the operation in the laboratory so that they can grasp the goals and action plan of the project as a real feeling. We will announce the project proposal as the final result of this course.",
+  "books": "Materials will be provided at each laboratory.",
+  "requiredKnowledge": "If you do not earn credits for this course, you will not be allowed to take PD3. Two or more unauthorized absences will be rejected. Be sure to read the booklet “Safety Guidelines for Experiments and Research” provided in the laboratory.",
   "activityGoals": [
     {
       "index": "①",
-      "type": "A,G,O",
-      "body": "Be able to acquire basic skills as a creative engineer by experiencing problem discovery and solution techniques"
+      "type": "A,B,D,G,N,P",
+      "body": "be able to have a clear image of PD3 goals and action plans."
     },
     {
       "index": "②",
-      "type": "A,C,D,E,H,I",
-      "body": "Be able to explain about their fields of specialization."
+      "type": "A,B,D,G,N,P",
+      "body": "be able to explain the theme of PD3"
     },
     {
       "index": "③",
-      "type": "B",
-      "body": "Be able to deepen personal insights related to engineering ethics."
+      "type": "A,B,D,G,N,P",
+      "body": "be able to acquire the knowledge and skills to perform PD3 autonomously"
     },
     {
       "index": "④",
-      "type": "D,E,F,I,J,K,L,M",
-      "body": "Be able to apply their specialized expertise to their project themes."
+      "type": "A,B,D,G,N,P",
+      "body": "be able to give an overview of the latest technological trends in your area of study and your opinions."
+    },
+    {
+      "index": "⑤",
+      "type": "A,B,D,G,N,P",
+      "body": "be able to operate the equipment and software you plan to use in your project."
+    },
+    {
+      "index": "⑥",
+      "type": "A,B",
+      "body": "be able to express his / her thoughts on information technology ethics and crisis management."
     }
   ],
   "evaluationWeights": [
@@ -50,18 +73,18 @@
       "values": [
         "0",
         "0",
-        "40",
-        "40",
+        "55",
+        "25",
         "0",
-        "0",
-        "20",
+        "10",
+        "10",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -73,18 +96,18 @@
       "values": [
         "0",
         "0",
-        "40",
-        "40",
+        "55",
+        "25",
         "0",
-        "0",
-        "20",
+        "10",
+        "10",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -96,18 +119,18 @@
       "values": [
         "0",
         "0",
-        "40",
-        "40",
+        "55",
+        "25",
         "0",
-        "0",
-        "20",
+        "10",
+        "10",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -128,9 +151,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -138,7 +161,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -151,9 +174,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -174,9 +197,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -185,27 +208,20 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "Satisfy a 90% or higher achievement rate for target student abilities.",
-    "standard": "Satisfy 60 to 80% of the evaluation criteria for target student abilities."
+    "ideal": "In addition to the standard achievement levels described on the right, they will be able to explain specific approaches to their issues, their countermeasures, their novelty and effectiveness.",
+    "standard": "Give your opinion on information technology ethics and crisis management. Can be. Engineering design for the next fiscal yearⅢ And explain the purpose, background, issues, and final status."
   },
   "clipProcess": "",
   "lessons": [
     {
-      "index": "First\nsemest\ner",
-      "content": "Students will conduct research, design, and prot\notype production related to the project theme. T\nhrough these activities, students will acquire k\nnowledge and skills in specialized fields relate\nd to the theme and acquire practical skills to c\narry out the project.\nIn addition, they will share their research repo\nrts and progress with faculty members for discus\nsion.",
-      "operation": "Teacher advice and guidanc\ne\nDiscussion\nPresentation",
-      "assignments": "For each research theme,\nStudents should proceed on\nspecific work such as system\n R&D, demonstration\nexperiments, document\ncreations, etc.",
-      "minutes": "720*15"
-    },
-    {
-      "index": "Second\n semes\nter",
-      "content": "Students will make interim presentations, prepar\ne project deliverables, conduct experiments, wri\nte project reports, and prepare presentation mat\nerials.\nIn class, students will also report on their pro\nject progress and experiments, receive guidance\nin writing project reports, and prepare presenta\ntion materials.\nFinally, students compile their research results\n into a project report and present it at a publi\nc review meeting.",
-      "operation": "Teacher advice and guidanc\ne\nDiscussion\nPresentation",
-      "assignments": "For each research theme,\nStudents should proceed on\nspecific work such as system\n R&D, demonstration\nexperiments, document\ncreation, etc.",
-      "minutes": "720*15"
+      "index": "1-8",
+      "content": "Announce the schedule at the first seminar.",
+      "operation": "",
+      "assignments": "",
+      "minutes": ""
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　F921-19\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Media Informatics(〜2024)\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Project Courses\n\n                プロジェクトデザインⅢ（佐藤優太郎研究室）\n                Design Project III(Sato Yutaro)\n\n              8\n              F921-19\n\n                2026年度\n\n                All year\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  SATO Yutaro\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Problem detection and solving\n2.Bodily illusion\n3.Integration of technology and sensitivity\n4.Engineering ethic\n5.Regional cooperation\n\n              In this final course, students are expected summarize all of their university studies based on what they have learned thus far.\nEach student will be expected to find a unique theme, think about problems, and then develop a process for proposing solutions to those problems.\nStudents will be expected to integrate their acquired knowledge on the technologies, sensibilities, and logical thinking skills related to media technology and media design in order to implement a project design method based on \"CDIO\" cycle.\n\n              授業の概要および学習上の助言\n\n              The Project Design III course is based on the contents of classes from the first to third years of university studies. Hence, it is a culmination of four years of university life, in which students practice problem finding and solving techniques and build deliverables based on their teacher's advice.\n　\nIn this laboratory, based on the knowledge and skills acquired through specialized courses, students will set themes to create new UX and implement media design. In addition, students will acquire and practice the ability to specifically design, develop, and evaluate such media.\n\nStudents are expected to know themselves, work diligently on developing their strengths, and find ways to overcome their shortcomings.\n\nMastery of these techniques will surely be useful when going out into society. Students are expected to achieve their goals by working intensively towards higher objectives.\n\n              教科書および参考書・リザーブドブック\n\n              None.\n\n              履修に必要な予備知識や技能\n\n              All prerequisite courses of this department must already be completed.\n\nStudents must be able to summarize what they have learned from the first to third years of study.\n\nStudents are expected to have mastered problem-finding and solving methods through the experiences gained in project design subjects and the specialized seminars held from the first to the third year.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                A,G,O\n                Be able to acquire basic skills as a creative engineer by experiencing problem discovery and solution techniques\n\n                ②\n                A,C,D,E,H,I\n                Be able to explain about their fields of specialization.\n\n                ③\n                B\n                Be able to deepen personal insights related to engineering ethics.\n\n                ④\n                D,E,F,I,J,K,L,M\n                Be able to apply their specialized expertise to their project themes.\n\n                ⑤\n\n                ⑥\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                0\n\n                0\n\n                40\n\n                40\n\n                0\n\n                0\n\n                20\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                0\n\n                0\n\n                40\n\n                40\n\n                0\n\n                0\n\n                20\n\n   ",
-  "courseId": "2026:full-year:F921-19:0:427",
+  "rawText": "金沢工業大学 学習支援計画書 E906-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Information and Computer Science\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Project Courses\n専門ゼミ(情報工学科)\nPreparatory Seminar for Design Project III  1 E906-01  2024年度\n 3rd year 2nd semester  修学規程第4条を参照\n    担当教員名\n GUO Qinglian, YAMAMOTO Tomohito, HAYASHI Ryoko, TAKAGO Daisuke, MOTOKI Mitsuo, KAWANAMI Takashi, ABE Noriyuki, KUROSE Hiroshi, KONNO Takeshi, SANO Shoji, MATSUI Kunio, MUKAI Hiroaki, ISHIBASHI Koichi, KINDO Toshiki, SAKAMOTO Shinji, INAGAKI Mikio, NAKAZAWA Minoru, NINAGAWA Shigeru\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Project Design 3 2.Information infrastructure technology 3.Solution & Service 4.Ethics and crisis management for IT engineers 5.Project Proposal  Specialized seminars supplement the knowledge and skills that were not necessarily sufficient in past lectures, exercises, and experiments required for the PD3 project, and acquired new knowledge and skills in each activity area. The aim is to cultivate the basic academic and technical skills so that PD3 can be implemented voluntarily from the 7th term.\n    授業の概要および学習上の助言   In order to carry out any research / work / assignment in PD3, the faculty presents the learning area program and clarifies the knowledge and skills required to carry out the project in this learning area program. The student confirms his / her ability, clarifies items to be supplemented and items to be newly acquired, and learns and acquires them. In the course of the lesson, teachers clarify PD3 goals and action plans. Students conduct tests on these learning results to confirm their achievement, and prepare a project proposal for PD3. Specifically, in performing PD3, learn the latest technology trends in specialized fields that are closely related to each project, and summarize the technology explanation and your opinion in the form of an essay. After understanding such a common technical foundation, learn the outline of the technology related to PD3 and plan the project. In addition, each project of PD3 Since the use of equipment and applied software differ for each project, the students will actually experience the operation in the laboratory so that they can grasp the goals and action plan of the project as a real feeling. We will announce the project proposal as the final result of this course.\n    教科書および参考書・リザーブドブック   Materials will be provided at each laboratory.\n    履修に必要な予備知識や技能   If you do not earn credits for this course, you will not be allowed to take PD3. Two or more unauthorized absences will be rejected. Be sure to read the booklet “Safety Guidelines for Experiments and Research” provided in the laboratory.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① A,B,D,G,N,P be able to have a clear image of PD3 goals and action plans.   ② A,B,D,G,N,P be able to explain the theme of PD3   ③ A,B,D,G,N,P be able to acquire the knowledge and skills to perform PD3 autonomously   ④ A,B,D,G,N,P be able to give an overview of the latest technological trends in your area of study and your opinions.   ⑤ A,B,D,G,N,P be able to operate the equipment and software you plan to use in your project.   ⑥ A,B be able to express his / her thoughts on information technology ethics and crisis management.\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 0 0 55 25 0 10 10 100     指標と評価割合 総合評価割合 0 0 55 25 0 10 10 100   総合力指標 知識を取り込む力 0 0 55 25 0 10 10 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ①      ②     ③     ④     ⑤     ⑥     クイズ\n小テスト ①      ②     ③     ④     ⑤     ⑥     レポート ① レ Submit the following three reports. ・ Issues related to information-related ethics ・ Issues related to information-related crisis management ・ Project proposal report ・ etc. (Career Design, report of related researches)  ",
+  "courseId": "2024:fall:E539-01:0:427",
   "language": "en"
 }

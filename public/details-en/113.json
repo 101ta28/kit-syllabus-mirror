@@ -1,56 +1,57 @@
 {
   "sourceIndex": 113,
   "sourceUrl": "/opsyllabus/kitos0110/113/1",
-  "importedAt": "2026-06-08T09:33:55.409Z",
-  "title": "データサイエンス入門",
-  "subtitle": "Introduction to Data Science",
-  "courseType": "Design Project ProgramDesign Project CoursesDesign Project",
-  "credits": "1",
-  "term": "2026年度\n\n                1st year 1st semester",
+  "importedAt": "2026-06-09T01:29:20.235Z",
+  "title": "プロジェクトデザイン実践(実験)(ロボティクス学科)",
+  "subtitle": "Design Project / Implementing and Operating",
+  "courseType": "Design Project Program\nDesign Project Courses\nDesign Project",
+  "credits": "2",
+  "term": "2024年度\n 2nd year 2nd semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "MIYATA Takatomi",
-    "KANAI Ryo",
-    "NISHIKAWA Yukinobu",
-    "INABA Yuto",
-    "OOHASHI Kazuki",
-    "MOURI Kengo",
-    "SATOU Fujio",
-    "UMEKI TAKUYA",
-    "OKAMOTO Youhei",
-    "KAWASAKI Munehiro"
+    "ITO Kouhei",
+    "MOROYA Tetsuo",
+    "KOGURE Kiyoshi",
+    "FURUYA Shigehiko",
+    "DEMURA Kosei"
   ],
   "keywords": [
-    "Data Science",
-    "Data handling",
-    "Spreadsheets",
-    "Graphs",
-    "Open data"
+    "Verification process 2.Effectiveness / Acceptability 3.Data handling skills 4.Credibility 5.PBL for science and technology"
   ],
-  "educationalGoal": "Learn the basics of data handling. In this course, you will learn the basic operations of the spreadsheet software Excel, which is an introductory tool for handling data. Then, using Excel, you will learn data handling skills such as aggregation and analysis of experimental data and questionnaire data. In addition, we will visualize actual datasets from the real world using Excel, and thereby gain an understanding of the meaning of the data and acquire the ability to aggregate and analyze the data.",
-  "advice": "In this course, you will learn the following basic knowledge as an introduction to data science.\n\n1. Basic operations of Excel: Learn the basic operations of the spreadsheet software Excel, which is an introductory tool for handling data.\n2. Aggregation/analysis of experimental data: Use Excel to aggregate/analyze experimental data.\n3. Questionnaire data aggregation/analysis: Use Excel to aggregate/analyze questionnaire data.\n4. Aggregation/analysis of open data: Use Excel to aggregate/analyze open data.\n\nEach class session includes a quiz using video materials and the e-syllabus. Students who complete the quiz (scoring full marks) by the day before the class session are exempt from attending the in-person session for that particular session only.\nThere are seven class sessions. Missing three or more sessions will result in failure (due to poor attendance).\nPass/fail is determined by the final report. Only students who have passed all quizzes from the 1st to 7th class session will be permitted to begin the final report.",
-  "books": "Introduction to ICT/Introduction to Data Science 2026(Kanazawa Institute of Technology)",
-  "requiredKnowledge": "No prior knowledge or skills are assumed.\nYou will use your own laptop computer to do the exercises.\nBe sure to bring your laptop computer, power adapter, and network cable (LAN cable) to each class.",
+  "educationalGoal": "-To gain skills to verify hypotheses or solution concept with logical approaches. -To understand phenomena, objects and events quantitatively with high credibility. -To reliably find characteristics and laws of phenomena, objects, events. -To deliver the above information to a third person intelligibly. -To gain basic skills to credibly and smoothly conduct verification activities. -To have an image of the technology fields and engineers in the discipline.",
+  "advice": "The Department of Robotics will set up competitions that are arranged for the Robotics Department with the theme of the ET Robot Contest. Its purpose is to develop embedded engineers. Firstly, students will learn analysis and design methods based on modeling. Secondly, students will develop and verify robots based on the learning results so far. At the same time, this course will build a motivation for specialized fundamental subjects. [Verification of the solution proposal] Students will acquire the knowledge and skills necessary to verify the effectiveness of the solution proposal and create verification models, devices, programs, etc., while devising them by themselves. They will try the validation process and check its validity. [Solution Proposal Redesign] Based on the results of evaluating the effectiveness of the solution, students will examine how to deal with new issues. They will discuss ideas for improvement, and think about revisions. Students will repeat the revision and evaluation, and proceed with the design of the revised solution. Students will repeat the review and summarize the results as a final design. [Activity report] Regardless of whether or not the solution proposals are valid, the results of the project activities are compiled into a project report. Students will present their results at the poster session.",
+  "books": "Handouts",
+  "requiredKnowledge": "Beginner-level knowledge of C language",
   "activityGoals": [
     {
       "index": "①",
-      "type": "H",
-      "body": "To be able to perform basic operations in the spreadsheet software Excel."
+      "type": "G,F",
+      "body": "To be able to proceed with activities from finding problems to solutions."
     },
     {
       "index": "②",
-      "type": "H",
-      "body": "To be able to use Excel to aggregate and analyze experimental data."
+      "type": "D",
+      "body": "To be able to understand phenomena, objectives, and events quantitatively and qualitatively."
     },
     {
       "index": "③",
-      "type": "H",
-      "body": "To be able to use Excel to aggregate and analyze questionnaire data."
+      "type": "D",
+      "body": "To be able to find characteristics, features, and laws of phenomena, objects, and events."
     },
     {
       "index": "④",
-      "type": "H",
-      "body": "To be able to use Excel to aggregate and analyze open data."
+      "type": "E",
+      "body": "To be able to deliver acquired information to a third person intelligibly."
+    },
+    {
+      "index": "⑤",
+      "type": "F",
+      "body": "To be able to utilize various basic skills needed to proceed smoothly with verification activities."
+    },
+    {
+      "index": "⑥",
+      "type": "A",
+      "body": "To be able to have a picture of the technology fields and engineers in the discipline."
     }
   ],
   "evaluationWeights": [
@@ -58,19 +59,19 @@
       "label": "総合評価割合",
       "values": [
         "0",
+        "50",
+        "10",
+        "20",
         "0",
-        "100",
-        "0",
-        "0",
-        "0",
-        "0",
+        "2",
+        "18",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -81,19 +82,19 @@
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
         "0",
+        "50",
+        "10",
+        "20",
         "0",
-        "100",
-        "0",
-        "0",
-        "0",
-        "0",
+        "2",
+        "18",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -104,19 +105,19 @@
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
         "0",
+        "50",
+        "10",
+        "20",
         "0",
-        "100",
-        "0",
-        "0",
-        "0",
-        "0",
+        "2",
+        "18",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -137,9 +138,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -147,7 +148,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -160,9 +161,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -183,9 +184,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -194,62 +195,118 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "With a deep understanding of Excel functions, you can select and respond to various data handling problems by selecting appropriate functions. Data can be collected and analyzed in an optimal way.",
-    "standard": "You have learned the basic operations of Excel and can use it according to your needs."
+    "ideal": "1) To proceed with verification processes for hypotheses and solution concepts. 2) To quantitatively and qualitatively recognize phenomena, objects, and events and organize information. 3) To find and understand features, characteristics, and regularities of corresponding phenomena, objects, and events. 4) To communicate acquired information to a third person intelligibly. 5) To smoothly conduct verification activities. 6) To become aware of your specialties and imagine the technological fields and engineers.",
+    "standard": "1) To proceed with verification processes for hypotheses and solution concepts with guidance. 2) To quantitatively and qualitatively recognize phenomena, objects, and events and organize the information with guidance from the instructor. 3) To find and understand characteristics and regularities of phenomena, objects, etc., with guidance. 4) To share acquired information to third person. 5) To smoothly conduct verification activities with guidance from the instructor. 6) To recognize your specialties and imagine the technological fields and engineers with guidance."
   },
   "clipProcess": "",
   "lessons": [
     {
-      "index": "1",
-      "content": "Excel (Part 1)\n・Starting and quitting Excel, basic\noperations\n・Table creation (Formulas, sums, units,\ncell widths, formatting, cell references)\n\nquiz",
-      "operation": "Lecture and exercises\nusing laptop computer",
-      "assignments": "Review the relevant sections o\nf the textbook beforehand.\nAfter class, review the learni\nng and exercise content.\nOnly students who have cleared\n the 1st quiz (all questions c\norrect) by the day before the\n1st class session will be exem\npt from attendance (counted as\n present) for that session.\nClear the quiz by the final re\nport submission deadline.",
-      "minutes": "90"
+      "index": "1,2",
+      "content": "Course introduction Installation of a development environment",
+      "operation": "Lecture and practice",
+      "assignments": "[Individual assignments] Preview: None Review: Finish the installation",
+      "minutes": "100"
     },
     {
-      "index": "2",
-      "content": "Excel (Part 2)\n・Data entry and worksheets\n・Insert function\n\nquiz",
-      "operation": "Lecture and exercises\nusing laptop computer",
-      "assignments": "Review the relevant sections o\nf the textbook beforehand.\nAfter class, review the learni\nng and exercise content.\nOnly students who have cleared\n the 2nd quiz (all questions c\norrect) by the day before the\n2nd class session will be exem\npt from attendance (counted as\n present) for that session.\nClear the quiz by the final re\nport submission deadline.",
-      "minutes": "90"
+      "index": "3,4",
+      "content": "Program build / upload training",
+      "operation": "Flipped classroom",
+      "assignments": "[Individual assignments] Preview: Watch the video on Moodle and take quiz. Review: The contents of the class",
+      "minutes": "100"
     },
     {
-      "index": "3",
-      "content": "Excel (Part 3)\n・Relative and absolute references\n・Create graph\n・Print tables and graphs\n\nquiz",
-      "operation": "Lecture and exercises\nusing laptop computer",
-      "assignments": "Review the relevant sections o\nf the textbook beforehand.\nAfter class, review the learni\nng and exercise content.\nOnly students who have cleared\n the 3rd quiz (all questions c\norrect) by the day before the\n3rd class session will be exem\npt from attendance (counted as\n present) for that session.\nClear the quiz by the final re\nport submission deadline.",
-      "minutes": "90"
+      "index": "5,6",
+      "content": "TOPPERS/EV3RT programming practice (sensor)",
+      "operation": "Flipped classroom",
+      "assignments": "[Individual assignments] Preview: Watch the video on Moodle and take quiz. Review: The contents of the class",
+      "minutes": "100"
     },
     {
-      "index": "4",
-      "content": "Excel (Part 4)\n・Operation of multiple books\n・Merge printing\n・Image operations (about Paint)\n\nquiz",
-      "operation": "Lecture and exercises\nusing laptop computer",
-      "assignments": "Review the relevant sections o\nf the textbook beforehand.\nAfter class, review the learni\nng and exercise content.\nOnly students who have cleared\n the 4th quiz (all questions c\norrect) by the day before the\n4th class session will be exem\npt from attendance (counted as\n present) for that session.\nClear the quiz by the final re\nport submission deadline.",
-      "minutes": "90"
+      "index": "7,8",
+      "content": "TOPPERS/EV3RT programming practice (motor 1)",
+      "operation": "Flipped classroom",
+      "assignments": "[Individual assignments] Preview: Watch the video on Moodle and take quiz. Review: The contents of the class",
+      "minutes": "100"
     },
     {
-      "index": "5",
-      "content": "Data handling skills (Part 1)\n・Aggregation and graph creation of\nexperimental results using Excel\n・Analysis of experimental results using Excel\n\nquiz",
-      "operation": "Lecture and exercises\nusing laptop computer",
-      "assignments": "Gain an understanding of the\nclass content and exercises\nin advance using class\nmaterials. After class,\nreconfirm the class content\nand exercises.\nOnly students who have cleared\n the 5th quiz (all questions c\norrect) by the day before the\n5th class session will be exem\npt from attendance (counted as\n present) for that session.\nClear the quiz by the final re\nport submission deadline.",
-      "minutes": "90"
+      "index": "9,10",
+      "content": "TOPPERS/EV3R programming practice (motor 2)",
+      "operation": "Flipped classroom",
+      "assignments": "[Individual assignments] Preview: Watch the video on Moodle and take quiz. Review: The contents of the class",
+      "minutes": "100"
     },
     {
-      "index": "6",
-      "content": "Data handling skills (Part 2)\n・Questionnaire survey procedures and notes\n・Aggregation and graphing of questionnaire\nsurvey results using Excel\n・Analysis of questionnaire\nsurvey results using Excel\n\nquiz",
-      "operation": "Lecture and exercises\nusing laptop computer",
-      "assignments": "Gain an understanding of the\nclass content and exercises\nin advance using class\nmaterials. After class,\nreconfirm the class content\nand exercises.\nOnly students who have cleared\n the 6th quiz (all questions c\norrect) by the day before the\n6th class session will be exem\npt from attendance (counted as\n present) for that session.\nClear the quiz by the final re\nport submission deadline.",
-      "minutes": "90"
+      "index": "11,12",
+      "content": "TOPPERS/EV3RT programming practice (multi-task)",
+      "operation": "Flipped classroom",
+      "assignments": "[Individual assignments] Preview: Watch the video on Moodle and take quiz. Review: The contents of the class",
+      "minutes": "100"
     },
     {
-      "index": "7",
-      "content": "Data handling skills (Part 3)\n・Explanation of open data\n・Aggregation and graphing of open data using\nExcel\n・Analysis of open data using Excel\n\nquiz",
-      "operation": "Lecture and exercises\nusing laptop computer",
-      "assignments": "Gain an understanding of the\nclass content and exercises\nin advance using class\nmaterials. Review the\nprevious class content and\nthe exercises on data\nhandling skills.\nOnly students who have cleared\n the 7th quiz (all questions c\norrect) by the day before the\n7th class session will be exem\npt from attendance (counted as\n present) for that session.\nClear the quiz by the final re\nport submission deadline.",
-      "minutes": "90"
+      "index": "13,14",
+      "content": "State transition practice and development for competition 1",
+      "operation": "Flipped classroom",
+      "assignments": "[Team assignments] Create the team technical report",
+      "minutes": "100"
+    },
+    {
+      "index": "15,16",
+      "content": "Development for competition 1",
+      "operation": "Team activities",
+      "assignments": "[Team assignments] Create the team technical report",
+      "minutes": "100"
+    },
+    {
+      "index": "17,18",
+      "content": "Development for competition 1 Trial",
+      "operation": "Team activities",
+      "assignments": "[Team assignments] Create the team technical report",
+      "minutes": "100"
+    },
+    {
+      "index": "19,20",
+      "content": "Competition 1",
+      "operation": "Team activities",
+      "assignments": "[Team assignments] Create the team technical report",
+      "minutes": "100"
+    },
+    {
+      "index": "21,22",
+      "content": "Introduction to competition 2",
+      "operation": "Lecture and Team activities",
+      "assignments": "[Team assignments] Create the team poster",
+      "minutes": "100"
+    },
+    {
+      "index": "23,24",
+      "content": "Development for competition 2",
+      "operation": "Team activities",
+      "assignments": "[Team assignments] Create the team poster",
+      "minutes": "100"
+    },
+    {
+      "index": "25,26",
+      "content": "Development for competition 2 Trial",
+      "operation": "Team activities",
+      "assignments": "[Team assignments] Create the team poster",
+      "minutes": "100"
+    },
+    {
+      "index": "27,28",
+      "content": "Competition 2",
+      "operation": "Team activities",
+      "assignments": "[Team assignments] Create the team poster",
+      "minutes": "100"
+    },
+    {
+      "index": "29,30",
+      "content": "Poster presentation Review",
+      "operation": "Team activities",
+      "assignments": "Review the course",
+      "minutes": "100"
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　G257-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Design Project Program\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Design Project ProgramDesign Project CoursesDesign Project\n\n                データサイエンス入門\n                Introduction to Data Science\n\n              1\n              G257-01\n\n                2026年度\n\n                1st year 1st semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  MIYATA Takatomi, KANAI Ryo, NISHIKAWA Yukinobu, INABA Yuto, OOHASHI Kazuki, MOURI Kengo, SATOU Fujio, UMEKI TAKUYA, OKAMOTO Youhei, KAWASAKI Munehiro\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Data Science\n2.Data handling\n3.Spreadsheets\n4.Graphs\n5.Open data\n\n              Learn the basics of data handling. In this course, you will learn the basic operations of the spreadsheet software Excel, which is an introductory tool for handling data. Then, using Excel, you will learn data handling skills such as aggregation and analysis of experimental data and questionnaire data. In addition, we will visualize actual datasets from the real world using Excel, and thereby gain an understanding of the meaning of the data and acquire the ability to aggregate and analyze the data.\n\n              授業の概要および学習上の助言\n\n              In this course, you will learn the following basic knowledge as an introduction to data science.\n\n1. Basic operations of Excel: Learn the basic operations of the spreadsheet software Excel, which is an introductory tool for handling data.\n2. Aggregation/analysis of experimental data: Use Excel to aggregate/analyze experimental data.\n3. Questionnaire data aggregation/analysis: Use Excel to aggregate/analyze questionnaire data.\n4. Aggregation/analysis of open data: Use Excel to aggregate/analyze open data.\n\nEach class session includes a quiz using video materials and the e-syllabus. Students who complete the quiz (scoring full marks) by the day before the class session are exempt from attending the in-person session for that particular session only.\nThere are seven class sessions. Missing three or more sessions will result in failure (due to poor attendance).\nPass/fail is determined by the final report. Only students who have passed all quizzes from the 1st to 7th class session will be permitted to begin the final report.\n\n              教科書および参考書・リザーブドブック\n\n              Introduction to ICT/Introduction to Data Science 2026(Kanazawa Institute of Technology)\n\n              履修に必要な予備知識や技能\n\n              No prior knowledge or skills are assumed.\nYou will use your own laptop computer to do the exercises.\nBe sure to bring your laptop computer, power adapter, and network cable (LAN cable) to each class.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                H\n                To be able to perform basic operations in the spreadsheet software Excel.\n\n                ②\n                H\n                To be able to use Excel to aggregate and analyze experimental data.\n\n                ③\n                H\n                To be able to use Excel to aggregate and analyze questionnaire data.\n\n                ④\n                H\n                To be able to use Excel to aggregate and analyze open data.\n\n                ⑤\n\n                ⑥\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                0\n\n                0\n\n                100\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                0\n\n                0\n\n                100\n\n                0\n\n            ",
-  "courseId": "2026:spring:G257-01:0:113",
+  "rawText": "金沢工業大学 学習支援計画書 G253-03\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDesign Project Program\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Design Project Program\nDesign Project Courses\nDesign Project\nプロジェクトデザイン実践(実験)(ロボティクス学科)\nDesign Project / Implementing and Operating  2 G253-03  2024年度\n 2nd year 2nd semester  修学規程第4条を参照\n    担当教員名\n ITO Kouhei, MOROYA Tetsuo, KOGURE Kiyoshi, FURUYA Shigehiko, DEMURA Kosei\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Verification process 2.Effectiveness / Acceptability 3.Data handling skills 4.Credibility 5.PBL for science and technology  -To gain skills to verify hypotheses or solution concept with logical approaches. -To understand phenomena, objects and events quantitatively with high credibility. -To reliably find characteristics and laws of phenomena, objects, events. -To deliver the above information to a third person intelligibly. -To gain basic skills to credibly and smoothly conduct verification activities. -To have an image of the technology fields and engineers in the discipline.\n    授業の概要および学習上の助言   The Department of Robotics will set up competitions that are arranged for the Robotics Department with the theme of the ET Robot Contest. Its purpose is to develop embedded engineers. Firstly, students will learn analysis and design methods based on modeling. Secondly, students will develop and verify robots based on the learning results so far. At the same time, this course will build a motivation for specialized fundamental subjects. [Verification of the solution proposal] Students will acquire the knowledge and skills necessary to verify the effectiveness of the solution proposal and create verification models, devices, programs, etc., while devising them by themselves. They will try the validation process and check its validity. [Solution Proposal Redesign] Based on the results of evaluating the effectiveness of the solution, students will examine how to deal with new issues. They will discuss ideas for improvement, and think about revisions. Students will repeat the revision and evaluation, and proceed with the design of the revised solution. Students will repeat the review and summarize the results as a final design. [Activity report] Regardless of whether or not the solution proposals are valid, the results of the project activities are compiled into a project report. Students will present their results at the poster session.\n    教科書および参考書・リザーブドブック   Handouts\n    履修に必要な予備知識や技能   Beginner-level knowledge of C language\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① G,F To be able to proceed with activities from finding problems to solutions.   ② D To be able to understand phenomena, objectives, and events quantitatively and qualitatively.   ③ D To be able to find characteristics, features, and laws of phenomena, objects, and events.   ④ E To be able to deliver acquired information to a third person intelligibly.   ⑤ F To be able to utilize various basic skills needed to proceed smoothly with verification activities.   ⑥ A To be able to have a picture of the technology fields and engineers in the discipline.\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 0 50 10 20 0 2 18 100     指標と評価割合 総合評価割合 0 50 10 20 0 2 18 100   総合力指標 知識を取り込む力 0 50 10 20 0 2 18 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ①      ②     ③     ④     ⑤     ⑥     クイズ\n小テスト ① レ Since it is a flipped classroom, preparation is essential. To confirm the preparation of students, students must take quizzes before each lesson (individual assignment).   ② レ   ③ レ   ④ レ   ⑤     ⑥     レポート ① レ The report is composed of introduction, requirements (competitive goal, strategic tactics), design/implementation (software, hardware), verification and discussion, conclusions, and references (team assignment).    ② レ   ③ レ   ④ レ   ⑤     ⑥",
+  "courseId": "2024:spring:G250-08:0:113",
   "language": "en"
 }

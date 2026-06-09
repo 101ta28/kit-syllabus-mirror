@@ -1,67 +1,75 @@
 {
   "sourceIndex": 135,
   "sourceUrl": "/opsyllabus/kitos0110/135/1",
-  "importedAt": "2026-06-08T09:33:55.916Z",
-  "title": "ビジネス統計学Ⅱ",
-  "subtitle": "Business Statistics II",
-  "courseType": "Major ProgramMajor Courses",
+  "importedAt": "2026-06-09T01:29:20.332Z",
+  "title": "材料力学Ⅱ",
+  "subtitle": "Strength of Materials II",
+  "courseType": "Major Program\nMajor Courses",
   "credits": "2",
-  "term": "2026年度\n\n                2nd year 2nd semester",
+  "term": "2024年度\n 2nd year 2nd semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "NAKANO Makoto"
+    "SAITO Hiroshi",
+    "TANAKA Mototsugu",
+    "NISHIDA Kenji"
   ],
   "keywords": [
-    "Test",
-    "Correlation",
-    "Analysis of variance",
-    "Multiple regression analysis",
-    "Reliability"
+    "Stress in beams 2.Deflection of beams 3.Torsion 4.Combined stress 5.Regional collaboration"
   ],
-  "educationalGoal": "This course deals with statistical and quantitative analysis from a management  techniques perspective. Students will learn to:\n(1)learn the techniques to select, process, and extract necessary information from various information sources.\n(2)understand statistical data analysis methods.",
-  "advice": "This is an introductory course in statistical analysis. Participants will learn various theoretical foundations of statistical analysis, and acquire practical business skills in processing, filtering, and extracting information using Microsoft Excel.\nWe will cover the following topics:\n1)Hypothesis testing\n2)Population intercept ,population slope\n3)Estimated regression relationship\nStudents are required to bring their laptop computer, with Microsoft Excel installed, to every class.",
-  "books": "None",
-  "requiredKnowledge": "Basic computer skills",
+  "educationalGoal": "The strength of materials can clarify the forces and deformations on various parts of bridges, steel towers, cars, planes, energy equipment, and living tissues and cells. Those results can be used to improve designs for safety. Therefore, it is an important subject that forms the basis of mechanical engineering. In this course, students will learn about bending stress in a beam, deflection of a beam, torsion, and combined stress based on the content learned in \"Strength of Materials I\".",
+  "advice": "This is a basic course on the strength of materials. We will cover the following topics: 1. Bending stress in a beam 5. Stress on oblique section in the rod subjected to uniaxial tension 2. Deflection of a beam 6. Principal stress and principal shearing stress 3. Torsion of shaft with circular cross section 7. Mohr's stress circle 4. Power transmission shaft 8.Combined stress problem All of these topics are based on stress, strain, Hook's law, a beam and its supporting condition, and shearing force and bending moment of a beam, which were learned in \"Strength of Materials I\". Therefore, while reviewing the content of \"Strength of Materials I\" topic by topic, it is essential to make an effort to develop a bottom-up understanding by carefully considering the topics' relationship with the content of \"Strength of Materials II\". It is important to do many exercises and review the answers, but the study of strength of materials is extremely difficult to understand by just remembering formulas and patterns. For all problems, start by understanding the basic formula and continue the attitude of answering the problem by setting appropriate boundary conditions for it. Furthermore, students should work on issues related to local companies, and deepen their understanding of the relationship between the strength of materials, society, and technology.",
+  "books": "Textbooks: Basis of Understanding Strength of Materials, 2nd edition, Kyoritsu Shuppan Co. Ltd. (in Japanese) Reference books: Strength of Materials, Basic, Morikita Publishing Co. Ltd. (in Japanese) Reserved books: None specified",
+  "requiredKnowledge": "Students should have a good understanding of balance of force, stress, and strain, Hook's law, support condition of a beam, and shearing force and bending moment of a beam learned in \"Strength of Materials I\". In addition, it is necessary to fully understand differential and integral calculation methods.",
   "activityGoals": [
     {
       "index": "①",
-      "type": "D,J,K",
-      "body": "Be able to understand the average and differences between two sets of data."
+      "type": "D,J,M",
+      "body": "Be able to determine the stress and deflection that occur in a beam and to perform safety design."
     },
     {
       "index": "②",
-      "type": "D,K",
-      "body": "Be able to understand the average and differences between multiple sets of data."
+      "type": "D,J,M",
+      "body": "Be able to determine torsional stress."
     },
     {
       "index": "③",
-      "type": "D,K",
-      "body": "Be able to understand positive and negative relationships between sets of data."
+      "type": "D,J,M",
+      "body": "Be able to determine the diameter of a transmission shaft."
     },
     {
       "index": "④",
-      "type": "D,J,K",
-      "body": "Be able to understand the causal relationships between multiple factors and outcomes."
+      "type": "D,J,M",
+      "body": "Be able to determine the stress in the oblique cross section of a bar subjected to uniaxial tension."
+    },
+    {
+      "index": "⑤",
+      "type": "D,J,M",
+      "body": "Be able to explain the principal stress and principal shearing stress, and to draw a Mohr's stress circle."
+    },
+    {
+      "index": "⑥",
+      "type": "D,J,M",
+      "body": "Be able to explain the relationship between strength of materials, society, and technology."
     }
   ],
   "evaluationWeights": [
     {
       "label": "総合評価割合",
       "values": [
+        "30",
+        "30",
+        "20",
         "0",
-        "48",
-        "40",
         "0",
         "0",
-        "0",
-        "12",
+        "20",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -71,20 +79,20 @@
     {
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
+        "30",
+        "30",
+        "20",
         "0",
-        "48",
-        "40",
         "0",
         "0",
-        "0",
-        "12",
+        "20",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -94,20 +102,20 @@
     {
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
+        "30",
+        "30",
+        "20",
         "0",
-        "48",
-        "40",
         "0",
         "0",
-        "0",
-        "12",
+        "20",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -128,9 +136,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -138,7 +146,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -151,9 +159,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -174,9 +182,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -185,118 +193,118 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "1)Be able to fully explain various statistical data analysis methods.\n2)Be able to use these methods to select, process, and extract data and obtain appropriate analytical results using Microsoft Excel.",
-    "standard": "1)Be able to explain various statistical data analysis methods.\n2)Be able to use these methods to select, process, and extract data and generate analytical results in Microsoft Excel."
+    "ideal": "1. Calculate bending stress and deflection of various beams and indeterminant beam and achieve a safe design. 2. Calculate the torsional stress and twist angle of axis with circular cross section and achieve a safe design. 3. Calculate the combined stress, principal stress, and principal shearing stress and obtain them using Mohr's stress circle. 4. Understand in depth the relationship between strength of materials, society, and technology.",
+    "standard": "1. Calculate the bending stress and deflection of a beam with uniform cross section loaded with a concentrated load and an equally distributed load. 2. Calculate the torsional stress and twist angle of an axis with circular section. 3. Calculate the principal stress and principal shearing stress and understand Mohr's stress circle. 4. Understand the relationship between strength of materials, society, and technology."
   },
   "clipProcess": "",
   "lessons": [
     {
       "index": "1",
-      "content": "Test(1)\nPopulation mean",
-      "operation": "Lecture and exercise",
-      "assignments": "Review\nExercises using Microsoft Exce\nl",
-      "minutes": "240"
+      "content": "Course introduction. Review the mathematics necessary to understand this course and the bending moment of the beam as necessary. Learn about the second moment of area.",
+      "operation": "Lecture Practice Q&A Self-check",
+      "assignments": "Review the differential and integral methods and the bending moment of a beam. Read textbook pp. 58-62 carefully. Review class content and solve related exercises.",
+      "minutes": "60 60 60"
     },
     {
       "index": "2",
-      "content": "Test(2)\nDifference between two population means",
-      "operation": "Lecture and exercise",
-      "assignments": "Review\nExercises using Microsoft Exce\nl",
-      "minutes": "240"
+      "content": "Learn about the stress in a beam.",
+      "operation": "Lecture Practice Q&A Self-check",
+      "assignments": "Read textbook pp. 58-65 and put together preparatory notes. Review class content and solve related exercises.",
+      "minutes": "60 60"
     },
     {
       "index": "3",
-      "content": "Test(3)\nPopulation variance",
-      "operation": "Lecture and exercise",
-      "assignments": "Review\nExercises using Microsoft Exce\nl",
-      "minutes": "240"
+      "content": "Complete the exercises in Chapter 3 and deepen your understanding.",
+      "operation": "Practice Q&A Self-check",
+      "assignments": "As a review, solve the exercises on the content of Chapter 3.",
+      "minutes": "120"
     },
     {
       "index": "4",
-      "content": "Test(4)\nDifference between two population variances",
-      "operation": "Lecture and exercise",
-      "assignments": "Review\nExercises using Microsoft Exce\nl",
-      "minutes": "240"
+      "content": "Learn about the deflection of beams.",
+      "operation": "Lecture Practice Q&A Self-check",
+      "assignments": "Read textbook pp. 65-70 and put together preparatory note. Review class content and solve related exercises.",
+      "minutes": "60 60"
     },
     {
       "index": "5",
-      "content": "Test(5)\nTwo-sample test",
-      "operation": "Lecture and exercise\nQuiz 1",
-      "assignments": "Review",
-      "minutes": "120"
+      "content": "Learn about the deflection of beams. Complete the exercises for Chapter 3 in classes 1-4 and deepen your understanding.",
+      "operation": "Lecture Practice Q&A Self-check",
+      "assignments": "Submit the report. As a review, solve the exercises on the content of Chapter 3.",
+      "minutes": "90 90"
     },
     {
       "index": "6",
-      "content": "Correlation and simple regression",
-      "operation": "Lecture and exercise",
-      "assignments": "Review\nExercises using Microsoft Exce\nl",
-      "minutes": "240"
+      "content": "Review the content of classes 1-5 and take the first test. Learn about indeterminate beams (not included in exam).",
+      "operation": "Test and review Lecture Q&A Self-check",
+      "assignments": "Solve the exercises related to classes 1-5. Read textbook pp. 73-75 and put together preparatory notes. Review the points that you did not understand on the test.",
+      "minutes": "120 30 60"
     },
     {
       "index": "7",
-      "content": "Analysis of variance",
-      "operation": "Lecture and exercise",
-      "assignments": "Review\nExercises using Microsoft Exce\nl",
-      "minutes": "240"
+      "content": "Learn about torsion in solid round shafts.",
+      "operation": "Lecture Practice Q&A Self-check",
+      "assignments": "Read textbook pp. 81-84 and put together preparatory notes. Review class content and solve related exercises.",
+      "minutes": "60 60"
     },
     {
       "index": "8",
-      "content": "Multiple regression analysis(1)\nRegression model",
-      "operation": "Lecture and exercise",
-      "assignments": "Review\nExercises using Microsoft Exce\nl",
-      "minutes": "240"
+      "content": "Learn about the cross-sectional secondary pole moment and torsion in hollow round shafts.",
+      "operation": "Lecture Practice Q&A Self-check",
+      "assignments": "Read textbook pp. 84-88 and put together preparatory notes. Review class content and solve related exercises.",
+      "minutes": "60 60"
     },
     {
       "index": "9",
-      "content": "Multiple regression analysis(2)\nAccuracy of analysis results",
-      "operation": "Lecture and exercise\nQuiz 2",
-      "assignments": "Review",
-      "minutes": "120"
+      "content": "Learn about the transmission shaft. Complete the exercises for Chapter 4 in classes 7 and 8 and deepen your understanding.",
+      "operation": "Lecture Practice Q&A Self-check",
+      "assignments": "Read textbook pp. 89-91 and put together preparatory notes. Solve exercises on the content of Chapter 4.",
+      "minutes": "60 90"
     },
     {
       "index": "10",
-      "content": "Multiple regression analysis(3)\nCoefficients and simple correlations",
-      "operation": "Lecture and exercise",
-      "assignments": "Review\nExercises using Microsoft Exce\nl",
-      "minutes": "240"
+      "content": "Review the content of classes 6-9 and take the second test. Learn about the stress on oblique section of a rod subject to uniaxial tension.",
+      "operation": "Test and review Lecture Practice Q&A Self-check",
+      "assignments": "Solve the exercises related to classes 6-9. Review the test points that you do not understand. Read textbook pp. 97-98 and put together preparatory notes.",
+      "minutes": "120 60 30"
     },
     {
       "index": "11",
-      "content": "Multiple regression analysis(4)\nAnalysis of management issues",
-      "operation": "Lecture and exercise",
-      "assignments": "Review\nExercises using Microsoft Exce\nl",
-      "minutes": "240"
+      "content": "Learn about the principal stress and principal shearing stress.",
+      "operation": "Lecture Practice Q&A Self-check",
+      "assignments": "Read textbook pp. 98-101 and put together preparatory notes. Review class content and solve related exercises.",
+      "minutes": "60 60"
     },
     {
       "index": "12",
-      "content": "Process capability index",
-      "operation": "Lecture and exercise",
-      "assignments": "Review\nExercises using Microsoft Exce\nl",
-      "minutes": "240"
+      "content": "Learn about Mohr's stress circle.",
+      "operation": "Lecture Practice Q&A Self-check",
+      "assignments": "Read textbook pp. 101-104 and put together preparatory notes. Review class content and solve related exercises.",
+      "minutes": "60 60"
     },
     {
       "index": "13",
-      "content": "Reliability(1)",
-      "operation": "Lecture and exercise\nQuiz 3",
-      "assignments": "Review",
-      "minutes": "120"
+      "content": "Complete the exercises for Chapter 5 in classes 10-12 and deepen your understanding considering the combination problem of torsion, bending and axial force.",
+      "operation": "Practice Q&A Self-check",
+      "assignments": "Submit the report. Read textbook pp. 110-112. As a review, solve the exercises related to the content of Chapter 5.",
+      "minutes": "120 90"
     },
     {
       "index": "14",
-      "content": "Reliability(2)",
-      "operation": "Lecture and exercise",
-      "assignments": "Review",
-      "minutes": "120"
+      "content": "Final exam and review.",
+      "operation": "Exam and review Self-check",
+      "assignments": "Solve the exercises related to classes 1-13 and deepen your understanding.",
+      "minutes": "180"
     },
     {
       "index": "15",
-      "content": "Statistical Quality Control",
-      "operation": "Lecture\nSelf-reflection",
-      "assignments": "Self-reflection",
-      "minutes": "120"
+      "content": "Submit a report on regional companies. Self-check.",
+      "operation": "Q&A Self-evaluation",
+      "assignments": "Submit the report on regional company issues. Review items for which learning remains inadequate.",
+      "minutes": "90 120"
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　D022-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Management Systems\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                ビジネス統計学Ⅱ\n                Business Statistics II\n\n              2\n              D022-01\n\n                2026年度\n\n                2nd year 2nd semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  NAKANO Makoto\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Test\n2.Correlation\n3.Analysis of variance\n4.Multiple regression analysis\n5.Reliability\n\n              This course deals with statistical and quantitative analysis from a management  techniques perspective. Students will learn to:\n(1)learn the techniques to select, process, and extract necessary information from various information sources.\n(2)understand statistical data analysis methods.\n\n              授業の概要および学習上の助言\n\n              This is an introductory course in statistical analysis. Participants will learn various theoretical foundations of statistical analysis, and acquire practical business skills in processing, filtering, and extracting information using Microsoft Excel.\nWe will cover the following topics:\n1)Hypothesis testing\n2)Population intercept ,population slope\n3)Estimated regression relationship\nStudents are required to bring their laptop computer, with Microsoft Excel installed, to every class.\n\n              教科書および参考書・リザーブドブック\n\n              None\n\n              履修に必要な予備知識や技能\n\n              Basic computer skills\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                D,J,K\n                Be able to understand the average and differences between two sets of data.\n\n                ②\n                D,K\n                Be able to understand the average and differences between multiple sets of data.\n\n                ③\n                D,K\n                Be able to understand positive and negative relationships between sets of data.\n\n                ④\n                D,J,K\n                Be able to understand the causal relationships between multiple factors and outcomes.\n\n                ⑤\n\n                ⑥\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                0\n\n                48\n\n                40\n\n                0\n\n                0\n\n                0\n\n                12\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                0\n\n                48\n\n                40\n\n                0\n\n                0\n\n                0\n\n                12\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                0\n\n                48\n\n                40\n\n                0\n\n                0\n\n                0\n\n                12\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  コラボレーションとリーダーシップ\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  発表・表現・伝達する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  学習に取組む姿勢・意欲\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                 ",
-  "courseId": "2026:fall:D022-01:0:135",
+  "rawText": "金沢工業大学 学習支援計画書 E012-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Mechanical Engineering\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n材料力学Ⅱ\nStrength of Materials II  2 E012-01  2024年度\n 2nd year 2nd semester  修学規程第4条を参照\n    担当教員名\n SAITO Hiroshi, TANAKA Mototsugu, NISHIDA Kenji\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Stress in beams 2.Deflection of beams 3.Torsion 4.Combined stress 5.Regional collaboration  The strength of materials can clarify the forces and deformations on various parts of bridges, steel towers, cars, planes, energy equipment, and living tissues and cells. Those results can be used to improve designs for safety. Therefore, it is an important subject that forms the basis of mechanical engineering. In this course, students will learn about bending stress in a beam, deflection of a beam, torsion, and combined stress based on the content learned in \"Strength of Materials I\".\n    授業の概要および学習上の助言   This is a basic course on the strength of materials. We will cover the following topics: 1. Bending stress in a beam 5. Stress on oblique section in the rod subjected to uniaxial tension 2. Deflection of a beam 6. Principal stress and principal shearing stress 3. Torsion of shaft with circular cross section 7. Mohr's stress circle 4. Power transmission shaft 8.Combined stress problem All of these topics are based on stress, strain, Hook's law, a beam and its supporting condition, and shearing force and bending moment of a beam, which were learned in \"Strength of Materials I\". Therefore, while reviewing the content of \"Strength of Materials I\" topic by topic, it is essential to make an effort to develop a bottom-up understanding by carefully considering the topics' relationship with the content of \"Strength of Materials II\". It is important to do many exercises and review the answers, but the study of strength of materials is extremely difficult to understand by just remembering formulas and patterns. For all problems, start by understanding the basic formula and continue the attitude of answering the problem by setting appropriate boundary conditions for it. Furthermore, students should work on issues related to local companies, and deepen their understanding of the relationship between the strength of materials, society, and technology.\n    教科書および参考書・リザーブドブック   Textbooks: Basis of Understanding Strength of Materials, 2nd edition, Kyoritsu Shuppan Co. Ltd. (in Japanese) Reference books: Strength of Materials, Basic, Morikita Publishing Co. Ltd. (in Japanese) Reserved books: None specified\n    履修に必要な予備知識や技能   Students should have a good understanding of balance of force, stress, and strain, Hook's law, support condition of a beam, and shearing force and bending moment of a beam learned in \"Strength of Materials I\". In addition, it is necessary to fully understand differential and integral calculation methods.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① D,J,M Be able to determine the stress and deflection that occur in a beam and to perform safety design.   ② D,J,M Be able to determine torsional stress.   ③ D,J,M Be able to determine the diameter of a transmission shaft.   ④ D,J,M Be able to determine the stress in the oblique cross section of a bar subjected to uniaxial tension.   ⑤ D,J,M Be able to explain the principal stress and principal shearing stress, and to draw a Mohr's stress circle.   ⑥ D,J,M Be able to explain the relationship between strength of materials, society, and technology.\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 30 30 20 0 0 0 20 100     指標と評価割合 総合評価割合 30 30 20 0 0 0 20 100   総合力指標 知識を取り込む力 30 30 20 0 0 0 20 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ An exam is given at the end of the semester to evaluate your degree of achievement. The mai",
+  "courseId": "2024:spring:G256-01:0:135",
   "language": "en"
 }

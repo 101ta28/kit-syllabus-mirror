@@ -1,62 +1,59 @@
 {
   "sourceIndex": 138,
   "sourceUrl": "/opsyllabus/kitos0110/138/1",
-  "importedAt": "2026-06-08T09:33:55.986Z",
-  "title": "熱力学Ⅱ",
-  "subtitle": "Thermodynamics II",
-  "courseType": "Major ProgramMajor Courses",
+  "importedAt": "2026-06-09T01:29:20.389Z",
+  "title": "機械力学Ⅰ",
+  "subtitle": "Dynamics of Machines I",
+  "courseType": "Major Program\nMajor Courses",
   "credits": "2",
-  "term": "2026年度\n\n                3rd year 1st semester",
+  "term": "2024年度\n 2nd year 1st semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "NAGANUMA Kaname",
-    "FUKUE Takashi"
+    "SUWABE Hitoshi",
+    "TAKANO Noriyuki",
+    "KISHI Yoichi"
   ],
   "keywords": [
-    "Carnot cycle",
-    "The second law of thermodynamics",
-    "Entropy, Exergy",
-    "Real gas",
-    "Vapor power cycles, Refrigeration cycles and Air Conditioning"
+    "Motion of rigid body 2.Impact 3.Work and energy 4.Friction 5.Moment of inertia"
   ],
-  "educationalGoal": "Students will:\n(1) Learn basic knowledge of the irreversibility in the nature world\n(2) Learn how to convert energy and obtain work from heat\n(3) Acquire design skills for energy conversion in mechanical engineering",
-  "advice": "This is an advanced course in thermodynamics that follows Thermodynamics I.\nWe will cover the following topics:\n\n1. Carnot cycle\n2. The 2nd law of thermodynamics\n3. Entropy, Exergy\n4. Thermal characteristics of real gas\n5. Vapor power cycles, Refrigeration cycles and Air Conditioning\n\nStudents are expected to understand the meaning of terms and formulas.\nStudents are expected to solve exercises independently.\nStudents should be aware of the teacher's instructions in the class, because the schedules of quizzes, tests, and reports may change as the class progresses.\nStudents should not be absent from class, as they may not receive the handouts.\n\nDetailed schedules and content of the course are explained in the first class.",
-  "books": "Textbooks : (1) JSME Text Series, Thermodynamics (Maruzen)\nReference book : (1) Arai, Furuhata, English-Japanese Bilingual Textbook Series, Thermodynamics, Morikita (2) JSME Text Series, Problems in Thermodynamics (Maruzen)\nReserved books : N/A",
-  "requiredKnowledge": "Have sufficient skill in mathematics (especially differential and integral calculations).\nKnow how to use a calculator.",
+  "educationalGoal": "Students will: (1) learn the kinematics of rigid bodies when forces and moments of force act on them. (2) learn the concepts of momentum, work, and energy. (3) learn about machines in which friction is utilized.",
+  "advice": "This is a basic course on the dynamics of machines. We will cover the following topics: 1. Newton's law of motion and inertia force 2. Kinematics of rigid bodies 3. Dynamics of impact 4. Work and energy 5. Dynamics of friction Students will also learn about advanced issues not found in the textbooks, such as three-dimensional motion, if time permits. Students are expected to understand the meaning of terms and formulas. Each student is expected to solve the exercises by himself or herself. Students should pay attention to the teacher's instructions in class, because the schedule of quizzes, tests, and reports may change as the class progresses. Students should not be absent from class, as they may miss handouts.",
+  "books": "Textbooks: (in Japanese) Reference books: Engineering Mechanics: Dynamics [Wiley] Reserved books: None",
+  "requiredKnowledge": "Acquisition of Industrial Mechanics I and II. Enough skill in mathematics (especially differential/integral and vector inner/outcome calculations). Basic knowledge of mechanics (kinematics and moment of force). How to use a calculator.",
   "activityGoals": [
     {
       "index": "①",
-      "type": "D,J,M",
-      "body": "Be able to explain the Carnot cycle and apply it to problems"
+      "type": "J",
+      "body": "Be able to explain the meaning of terms and to use SI units correctly."
     },
     {
       "index": "②",
-      "type": "D,J,M",
-      "body": "Be able to explain the 2nd law of thermodynamics and apply it to problems"
+      "type": "D,M",
+      "body": "Be able to explain the kinetics of rigid bodies."
     },
     {
       "index": "③",
-      "type": "D,J,M",
-      "body": "Be able to explain entropy and apply it to problems"
+      "type": "D,M",
+      "body": "Be able to explain changes in the motion of rigid bodies when they impact each other."
     },
     {
       "index": "④",
-      "type": "D,J,M",
-      "body": "Be able to explain the characteristics of a real gas with phase change and apply it to problems"
+      "type": "D,M",
+      "body": "Be able to describe the energy of rigid bodies in motion."
     },
     {
       "index": "⑤",
       "type": "D,J,M",
-      "body": "Be able to explain vapor power and refrigeration cycles, and apply the knowledge to probrems"
+      "body": "Be able to analyze the motion of a machine using friction."
     }
   ],
   "evaluationWeights": [
     {
       "label": "総合評価割合",
       "values": [
-        "35",
-        "25",
         "40",
+        "30",
+        "30",
         "0",
         "0",
         "0",
@@ -65,9 +62,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -77,9 +74,9 @@
     {
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
-        "35",
-        "25",
         "40",
+        "30",
+        "30",
         "0",
         "0",
         "0",
@@ -88,9 +85,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -100,9 +97,9 @@
     {
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
-        "35",
-        "25",
         "40",
+        "30",
+        "30",
         "0",
         "0",
         "0",
@@ -111,9 +108,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -134,9 +131,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -144,7 +141,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -157,9 +154,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -180,9 +177,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -191,118 +188,118 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "(1) Explain the 2nd law of thermodynamics. Also, use this understanding to solve advanced problems related to thermal issues.\n(2) Explain Carnot cycle. Also, use this understanding to solve advanced problems related to thermal issues.\n(3) Explain a real gas and its characteristics. Also, use this understanding to solve advanced problems related to thermal issues.\n(4) Explain various vapor power cycles, refrigeration cycles and air conditioning. Also, evaluate the performance of thermal systems.",
-    "standard": "(1) Explain the 2nd law of thermodynamics. Also, use this understanding to solve basic problems related to thermal issues.\n(2) Explain Carnot cycle. Also, use this understanding to solve basic problems related to thermal issues.\n(3) Explain a real gas and its characteristics. Also, use this understanding to solve basic problems related to thermal issues.\n(4) Explain the basics of various vapor power cycles, refrigeration cycles, and air conditioning. Also, calculate the performance of basic thermal systems."
+    "ideal": "(1) Explain the concepts of terms such as momentum, energy, conserved force, and center of percussion, and correctly use SI units related to mechanics. (2) Express the three-dimensional motion of rigid bodies by equations and explain their behavior. (3) Analyze oblique impact and non-central impact. (4) Calculate the energy of rigid bodies in three-dimensional motion. (5) Formulate equations of motion for machines using frictional forces and explain their motions.",
+    "standard": "(1) Explain the meaning of terms such as momentum, linear impulse, energy, conserved force, and coefficient of restitution, and correctly use SI units for velocity, acceleration, angular velocity, momentum, angular momentum, work, energy, and power. (2) Express the planar motion of rigid bodies with equations. (3) Analyze the direct central impact of rigid bodies. (4) Calculate the energy of rigid bodies in planar motion. (5) Describe the frictional force in mathematical terms."
   },
   "clipProcess": "",
   "lessons": [
     {
       "index": "1",
-      "content": "Guidance for the course\nThe 2nd law of thermodynamics (1)",
-      "operation": "Lecture\nSelf-check",
-      "assignments": "- Review of the outline of\nthe textbook\n- Review of class content",
-      "minutes": "120\n30"
+      "content": "Course introduction Newton's law of motion and inertia force",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Understand the objectives of the class",
+      "minutes": "90"
     },
     {
       "index": "2",
-      "content": "The 2nd law of thermodynamics (2)",
-      "operation": "Lecture and practice\nSelf-check",
-      "assignments": "- Preparation of contents\nusing the testbook\n- Review of class content",
-      "minutes": "40\n50"
+      "content": "Moment of inertia",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Prepare pages 62 to 72 of the textbook",
+      "minutes": "90"
     },
     {
       "index": "3",
-      "content": "The 2nd law of thermodynamics (3)",
-      "operation": "Lecture and practice\nSelf-check",
-      "assignments": "- Preparation of contents\nusing the testbook\n- Review of class content",
-      "minutes": "40\n50"
+      "content": "Calculation of the moment of inertia of simple bodies.",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Prepare pages 62 to 77 of the textbook",
+      "minutes": "90"
     },
     {
       "index": "4",
-      "content": "The 2nd law of thermodynamics (4)",
-      "operation": "Lecture and practice\nSelf-check",
-      "assignments": "- Preparation of contents\nusing the testbook\n- Review of class content",
-      "minutes": "40\n50"
+      "content": "Planar motion of rigid bodies",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Prepare pages 73 to 77 of the textbook",
+      "minutes": "90"
     },
     {
       "index": "5",
-      "content": "The 2nd law of thermodynamics (5)",
-      "operation": "Lecture and practice\nSelf-check",
-      "assignments": "- Preparation of contents\nusing the testbook\n- Review of class content",
-      "minutes": "40\n50"
+      "content": "Test and review of class content",
+      "operation": "Test and review Self-reflection",
+      "assignments": "Prepare for the test (solve the exercises in Ch. 5 and 6 of the textbook)",
+      "minutes": "150"
     },
     {
       "index": "6",
-      "content": "The 2nd law of thermodynamics (6)",
-      "operation": "Lecture and practice\nSelf-check",
-      "assignments": "- Preparation of contents\nusing the testbook\n- Review of class content",
-      "minutes": "40\n50"
+      "content": "Momentum and linear impulse Relation between these and the motion equation",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Prepare pages 84 to 88 of the textbook",
+      "minutes": "90"
     },
     {
       "index": "7",
-      "content": "Midterm test\n\nReal gas and its characteristics (1)",
-      "operation": "Test\nLecture and practice\nSelf-check",
-      "assignments": "- Review of content of classes\n 1-6\n- Preparation of contents\nusing the testbook\n- Review of class content",
-      "minutes": "120\n60"
+      "content": "Conservation law of momentum and direct central impact Non-central impact (additional)",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Prepare pages 89 to 93 of the textbook",
+      "minutes": "90"
     },
     {
       "index": "8",
-      "content": "Real gas and its characteristics (2)",
-      "operation": "Lecture and practice\nSelf-check",
-      "assignments": "- Preparation of contents\nusing the testbook\n- Review of class content",
-      "minutes": "40\n50"
+      "content": "Work",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Prepare pages 99 to 101 of the textbook",
+      "minutes": "60"
     },
     {
       "index": "9",
-      "content": "Real gas and its characteristics (3)",
-      "operation": "Lecture and practice\nSelf-check",
-      "assignments": "- Preparation of contents\nusing the testbook\n- Review of class content",
-      "minutes": "40\n50"
+      "content": "Test on classes and review.",
+      "operation": "Test and review Self-reflection",
+      "assignments": "Prepare for the test (solve the exercises in Ch. 7 of the textbook)",
+      "minutes": "150"
     },
     {
       "index": "10",
-      "content": "Vapor power cycles (1)",
-      "operation": "Lecture and practice\nSelf-check",
-      "assignments": "- Preparation of contents\nusing the testbook\n- Review of class content",
-      "minutes": "40\n50"
+      "content": "Energy and power",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Prepare pages 102 to 110 of the textbook",
+      "minutes": "90"
     },
     {
       "index": "11",
-      "content": "Vapor power cycles (2)\nRefrigeration cycles and air conditioning (1)",
-      "operation": "Lecture and practice\nSelf-check",
-      "assignments": "- Preparation of contents\nusing the testbook\n- Review of class content",
-      "minutes": "40\n50"
+      "content": "Friction and its application",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Prepare pages 113 to 119 of the textbook",
+      "minutes": "90"
     },
     {
       "index": "12",
-      "content": "Refrigeration cycles and air conditioning (2)",
-      "operation": "Lecture and practice\nSelf-check",
-      "assignments": "- Preparation of contents\nusing the testbook\n- Review of class content",
-      "minutes": "40\n50"
+      "content": "Test and review.",
+      "operation": "Test and review Self-reflection",
+      "assignments": "Prepare for the test (solve the exercises in Ch. 8 and 9 of the textbook)",
+      "minutes": "50"
     },
     {
       "index": "13",
-      "content": "Applied thermodynamics and thermal engineering",
-      "operation": "Lecture and practice\nSelf-check",
-      "assignments": "- Review of whole contents thr\nough the course\n- Review of class content",
-      "minutes": "40\n50"
+      "content": "Exercise",
+      "operation": "practice Self-check",
+      "assignments": "",
+      "minutes": "0"
     },
     {
       "index": "14",
-      "content": "Final examination and self-inspection\nReview of thermodynamics",
-      "operation": "Examination and\nself-inspection of\nlearning",
-      "assignments": "- Preparation for examination",
-      "minutes": "180"
+      "content": "Test and review.",
+      "operation": "Test and review Self-evaluation",
+      "assignments": "Prepare for the test",
+      "minutes": "240"
     },
     {
       "index": "15",
-      "content": "Final review and self-check",
-      "operation": "Review, discussion\nSelf-check",
-      "assignments": "- Review of content of\nlearned in Thermodynamics II",
-      "minutes": "40"
+      "content": "Review",
+      "operation": "review Self-evaluation",
+      "assignments": "Prepare for the test",
+      "minutes": "240"
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　E021-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Mechanical Engineering(〜2024)\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                熱力学Ⅱ\n                Thermodynamics II\n\n              2\n              E021-01\n\n                2026年度\n\n                3rd year 1st semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  NAGANUMA Kaname, FUKUE Takashi\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Carnot cycle\n2.The second law of thermodynamics\n3.Entropy, Exergy\n4.Real gas\n5.Vapor power cycles, Refrigeration cycles and Air Conditioning\n\n              Students will:\n(1) Learn basic knowledge of the irreversibility in the nature world\n(2) Learn how to convert energy and obtain work from heat\n(3) Acquire design skills for energy conversion in mechanical engineering\n\n              授業の概要および学習上の助言\n\n              This is an advanced course in thermodynamics that follows Thermodynamics I.\nWe will cover the following topics:\n\n1. Carnot cycle\n2. The 2nd law of thermodynamics\n3. Entropy, Exergy\n4. Thermal characteristics of real gas\n5. Vapor power cycles, Refrigeration cycles and Air Conditioning\n\nStudents are expected to understand the meaning of terms and formulas.\nStudents are expected to solve exercises independently.\nStudents should be aware of the teacher's instructions in the class, because the schedules of quizzes, tests, and reports may change as the class progresses.\nStudents should not be absent from class, as they may not receive the handouts.\n\nDetailed schedules and content of the course are explained in the first class.\n\n              教科書および参考書・リザーブドブック\n\n              Textbooks : (1) JSME Text Series, Thermodynamics (Maruzen)\nReference book : (1) Arai, Furuhata, English-Japanese Bilingual Textbook Series, Thermodynamics, Morikita (2) JSME Text Series, Problems in Thermodynamics (Maruzen)\nReserved books : N/A\n\n              履修に必要な予備知識や技能\n\n              Have sufficient skill in mathematics (especially differential and integral calculations).\nKnow how to use a calculator.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                D,J,M\n                Be able to explain the Carnot cycle and apply it to problems\n\n                ②\n                D,J,M\n                Be able to explain the 2nd law of thermodynamics and apply it to problems\n\n                ③\n                D,J,M\n                Be able to explain entropy and apply it to problems\n\n                ④\n                D,J,M\n                Be able to explain the characteristics of a real gas with phase change and apply it to problems\n\n                ⑤\n                D,J,M\n                Be able to explain vapor power and refrigeration cycles, and apply the knowledge to probrems\n\n                ⑥\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                35\n\n                25\n\n                40\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                35\n\n                25\n\n                40\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                35\n\n                25\n\n                40\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n             ",
-  "courseId": "2026:spring:E021-01:0:138",
+  "rawText": "金沢工業大学 学習支援計画書 E015-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Mechanical Engineering\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n機械力学Ⅰ\nDynamics of Machines I  2 E015-01  2024年度\n 2nd year 1st semester  修学規程第4条を参照\n    担当教員名\n SUWABE Hitoshi, TAKANO Noriyuki, KISHI Yoichi\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Motion of rigid body 2.Impact 3.Work and energy 4.Friction 5.Moment of inertia  Students will: (1) learn the kinematics of rigid bodies when forces and moments of force act on them. (2) learn the concepts of momentum, work, and energy. (3) learn about machines in which friction is utilized.\n    授業の概要および学習上の助言   This is a basic course on the dynamics of machines. We will cover the following topics: 1. Newton's law of motion and inertia force 2. Kinematics of rigid bodies 3. Dynamics of impact 4. Work and energy 5. Dynamics of friction Students will also learn about advanced issues not found in the textbooks, such as three-dimensional motion, if time permits. Students are expected to understand the meaning of terms and formulas. Each student is expected to solve the exercises by himself or herself. Students should pay attention to the teacher's instructions in class, because the schedule of quizzes, tests, and reports may change as the class progresses. Students should not be absent from class, as they may miss handouts.\n    教科書および参考書・リザーブドブック   Textbooks: (in Japanese) Reference books: Engineering Mechanics: Dynamics [Wiley] Reserved books: None\n    履修に必要な予備知識や技能   Acquisition of Industrial Mechanics I and II. Enough skill in mathematics (especially differential/integral and vector inner/outcome calculations). Basic knowledge of mechanics (kinematics and moment of force). How to use a calculator.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① J Be able to explain the meaning of terms and to use SI units correctly.   ② D,M Be able to explain the kinetics of rigid bodies.   ③ D,M Be able to explain changes in the motion of rigid bodies when they impact each other.   ④ D,M Be able to describe the energy of rigid bodies in motion.   ⑤ D,J,M Be able to analyze the motion of a machine using friction.   ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 40 30 30 0 0 0 0 100     指標と評価割合 総合評価割合 40 30 30 0 0 0 0 100   総合力指標 知識を取り込む力 40 30 30 0 0 0 0 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ Tests will be given at the end of the semester to confirm understanding.   ② レ   ③ レ   ④ レ   ⑤     ⑥     クイズ\n小テスト ① レ Three mini-tests will be given to improve the level of understanding. The calculator specified by this department can be used on every test. It is necessary to understand the idea behind a formula and to be able to formulate an equation of motion.    ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     レポート ① レ Students will be evaluated on three reports.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ①      ②     ③     ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     (1) Explain the concepts of terms such as momentum, energy, conserved force, and center of percussion, and correctly use SI units related to mechanics. (2) Express the three-dimensional motion of rigid bodies by equations and explain their behavior. (3) Analyze oblique impact and non-central impact. (4) Calculate the energy of rigid bodies in three-dimensional motion. (5) Formulate equations of motion for machines using frictional forces and explain their motions. (1) Explain the meaning of terms such as momentum, linear impulse, energy, conserved force, and coefficient of restitution, and correctly use SI units for velocity, acceleration, angular velocity, momentum, angular momentum, work, energy, and",
+  "courseId": "2024:spring:E002-01:0:138",
   "language": "en"
 }

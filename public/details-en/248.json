@@ -1,62 +1,74 @@
 {
   "sourceIndex": 248,
   "sourceUrl": "/opsyllabus/kitos0110/248/1",
-  "importedAt": "2026-06-08T09:33:58.162Z",
-  "title": "プロジェクトデザインⅢ（鈴木亮一研究室）",
-  "subtitle": "Design Project III(Suzuki Ryoichi)",
-  "courseType": "Major ProgramMajor Project Courses",
-  "credits": "8",
-  "term": "2026年度\n\n                All year",
+  "importedAt": "2026-06-09T01:29:21.443Z",
+  "title": "機械系製図Ⅱ",
+  "subtitle": "Mechanical Drawing II",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "2",
+  "term": "2024年度\n 1st year 2nd semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "SUZUKI Ryoichi"
+    "ITO Kouhei",
+    "SETO Masahiro"
   ],
   "keywords": [
-    "Robot mechanics and mechatronics",
-    "Robot intelligence",
-    "Measurement and control",
-    "Robot programming",
-    "Digital technology and Social implementation"
+    "JIS standards and mechanical drawings 2.Mechanical design 3.Manufacturing methods and accuracy/tolerance 4.CAD"
   ],
-  "educationalGoal": "(1) Acquire the ability to find and solve problems to research, develop, design, and create new robotic systems, using the basic knowledge and skills you learned in other Department of Robotics courses.\n(2) Learn what technologies including AI and data science are required to solve problems.\n(3) Learn about the importance of collaboration with society (particularly local communities) and social implementation.",
-  "advice": "This is the final comprehensive course in the Department of Robotics. It is a two-semester course. For the realization of the educational objectives in the Department of Robotics, this course focuses on the following topics:\n(1) Students will acquire the ability to create new robotic systems integrated mechanics, measurement and control engineering, electronics, and programming techniques.\n(2) Students will acquire the ability and the engineering sense to propose optimal solutions through design projects.\n\nStudents should reconfirm their project theme, which has been determined in a preparatory seminar with the supervisors of the individual laboratories.",
-  "books": "",
-  "requiredKnowledge": "Have the skills and knowledge required for carrying out a project at each laboratory.\nObtain a license for using machine tools at YUMEKOBO.",
+  "educationalGoal": "Machine drafting represents a machine with the shape and features imagined by the designer in a drawing that conforms to standards, and at the same time has the role of transmitting the design to a third party through the drawing. In this course, you will learn how to design parts based on the accepted standards of mechanical drafting. You will also learn how to specify tolerances, and how to translate the three-dimensional shape of parts to two-dimensional drawings.",
+  "advice": "In this lecture, you will learn the JIS standards that are the basis of mechanical drafting and you will learn drafting methods related to accuracy and tolerance through a combination of lectures and exercises. In each class there will be a lecture during the first half and exercises during the second half, but the drafting of the assignments that are given does not end with the exercise time during the lecture. Review is necessary. As a prerequisite, you must know the handwritten drawing preparation procedure taught in \"Mechanical Drawing I\". It is necessary to thoroughly review the basic operation methods of CAD from “Mechanical drawing I” before taking this lecture. The contents handled in this lecture are as follows. ・ Outline of JIS standards for drawing creation and CAD operation methods specialized for mechanical drawing ・ Relationship between dimensional tolerance and geometric tolerance ・ Surface roughness ・ Dimension filling method ・ Bolts and nuts ・ Keys and keyways ・ Cross sections ・ Gear basics and design machine elements such as bearings ・ Drawing mechanical parts and assembly drawings with gear pumps and flanged fixed shaft joints In addition, it is necessary to be able to fully understand the design at the actual manufacturing site.  Copying in drafting drawings is against the ethics of engineers, and credits for this subject are revoked when it is found.",
+  "books": "Textbooks:New JIS mechanical drawing(5th edition),Moritika Publishing(in Japanese) JIS mechanical drawing operation method using Solid Edge,Kanazawa Institute of Technology(in Japanese) Reference books:Mechanical drawing Basics and Applications (2nd edition),Shigeo Hirano(in Japanese) Reference books:Practical Mechanical Drawing,Hajime Fujimoto et al.,Moritika Publishing(in Japanese)",
+  "requiredKnowledge": "(1) You can draw on the CAD software drawing creation screen. Your ability should be at a level where it is easy to create a model of the text “Mechanical Drawing”. Basically, items that should have been learned in Mechanical Drawing I (functions written in the text, drawing methods) are not taught in this course. (2) 3D (3D objects) can be modeled using 3D drafting, the 3rd angle method (2D drafting) and using two-dimensional drafting (plan view, front view, side view). (3) You have mastered the method of downloading materials and uploading reports using the student portal.",
   "activityGoals": [
     {
       "index": "①",
-      "type": "A,G,I-O",
-      "body": "Advance your project in according to the engineering design process."
+      "type": "E,H,I,N",
+      "body": "Be able to transmit a design using mechanical drawing."
     },
     {
       "index": "②",
-      "type": "A,G,I-O",
-      "body": "Compile the results correctly into a report and discuss the content through presentations."
+      "type": "E,H,I,N",
+      "body": "Be able to draw a two-dimensional mechanical drawing from a bird's-eye view or a photograph of the machine parts"
     },
     {
       "index": "③",
-      "type": "A,G,I-O",
-      "body": "Act independently to solve the issues presented separately."
+      "type": "E,H,I,N",
+      "body": "Be able to imagine the shape of a part drawn from a two-dimensional mechanical drawing created by a third party."
+    },
+    {
+      "index": "④",
+      "type": "E,H,I,N",
+      "body": "Be able to indicate the machine design, tolerance, and accuracy for the manufacturing method of machine parts."
+    },
+    {
+      "index": "⑤",
+      "type": "E,H,I,N",
+      "body": "Be able to prepare and explain the results of preparation and review as works at the specified time."
+    },
+    {
+      "index": "⑥",
+      "type": "E,H,I,N",
+      "body": "Be able to explain the design process and role at the manufacturing site."
     }
   ],
   "evaluationWeights": [
     {
       "label": "総合評価割合",
       "values": [
+        "40",
         "0",
         "0",
-        "50",
-        "35",
+        "30",
+        "30",
         "0",
-        "5",
-        "10",
+        "0",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -66,20 +78,20 @@
     {
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
+        "40",
         "0",
         "0",
-        "50",
-        "35",
+        "30",
+        "30",
         "0",
-        "5",
-        "10",
+        "0",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -89,20 +101,20 @@
     {
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
+        "40",
         "0",
         "0",
-        "50",
-        "35",
+        "30",
+        "30",
         "0",
-        "5",
-        "10",
+        "0",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -123,9 +135,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -133,7 +145,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -146,9 +158,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -169,9 +181,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -180,12 +192,118 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "Understand the project objective and engineering process.\nAchieve the goal of the project with excellent outcomes.\nPresent results and contributions of the project at domestic or international conferences.",
-    "standard": "Understand the project objective and engineering process.\nAchieve the goal of the project with adequate outcomes."
+    "ideal": "(1) 2D drawings can be drawn with CAD software and by hand, and explain them to third parties. (2) Can recognize outlines, hidden lines, etc., necessary for developing a bird's-eye view of shafts and gears into a two-dimensional drawing. (3) 3D-draftings can be drawn and explained from a two-dimensional drawing. (4) With reference to the text JIS Mechanical Drawing, the correct shape can be drawn. (5) Can self-administer a report within a specified period and explain it to a third party. (6) Can understand and explain the relationship between manufacturing and design at a manufacturing site.",
+    "standard": "(1) 2D drawings can be drawn with CAD software and by hand. (2) Can recognize outlines, hidden lines, etc. and express the shape in the drawing. (3) Can draw a bird's-eye view from a 2D drawing (4) With reference to the text JIS Mechanical Drawings,under given conditions and can draw the shapes. (5) Self-management can be performed by creating a report within a specified time limit. (6) Can understand the relationship between manufacturing and design at a manufacturing site."
   },
   "clipProcess": "",
-  "lessons": [],
-  "rawText": "金沢工業大学　学習支援計画書　E923-05\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Robotics(〜2024)\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Project Courses\n\n                プロジェクトデザインⅢ（鈴木亮一研究室）\n                Design Project III(Suzuki Ryoichi)\n\n              8\n              E923-05\n\n                2026年度\n\n                All year\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  SUZUKI Ryoichi\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Robot mechanics and mechatronics\n2.Robot intelligence\n3.Measurement and control\n4.Robot programming\n5.Digital technology and Social implementation\n\n              (1) Acquire the ability to find and solve problems to research, develop, design, and create new robotic systems, using the basic knowledge and skills you learned in other Department of Robotics courses.\n(2) Learn what technologies including AI and data science are required to solve problems.\n(3) Learn about the importance of collaboration with society (particularly local communities) and social implementation.\n\n              授業の概要および学習上の助言\n\n              This is the final comprehensive course in the Department of Robotics. It is a two-semester course. For the realization of the educational objectives in the Department of Robotics, this course focuses on the following topics:\n(1) Students will acquire the ability to create new robotic systems integrated mechanics, measurement and control engineering, electronics, and programming techniques.\n(2) Students will acquire the ability and the engineering sense to propose optimal solutions through design projects.\n\nStudents should reconfirm their project theme, which has been determined in a preparatory seminar with the supervisors of the individual laboratories.\n\n              教科書および参考書・リザーブドブック\n\n              　\n\n              履修に必要な予備知識や技能\n\n              Have the skills and knowledge required for carrying out a project at each laboratory.\nObtain a license for using machine tools at YUMEKOBO.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                A,G,I-O\n                Advance your project in according to the engineering design process.\n\n                ②\n                A,G,I-O\n                Compile the results correctly into a report and discuss the content through presentations.\n\n                ③\n                A,G,I-O\n                Act independently to solve the issues presented separately.\n\n                ④\n\n                ⑤\n\n                ⑥\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                0\n\n                0\n\n                50\n\n                35\n\n                0\n\n                5\n\n                10\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                0\n\n                0\n\n                50\n\n                35\n\n                0\n\n                5\n\n                10\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                0\n\n                0\n\n                50\n\n                35\n\n                0\n\n                5\n\n                10\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  コラボレーションとリーダーシップ\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  発表・表現・伝達する力\n\n        ",
-  "courseId": "2026:full-year:E923-05:0:248",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Guidance ・ Explain the outline of this course. ・ Understand the objectives, goals and required achievement levels of this course. ・ Understand the learning objectives, outlines, and behavioral goals of subjects based on the learning support plan to be distributed. In particular, understand which part of the department's educational goals this course is responsible for, and the specific measure of achievement level. ・ Introduce the student portal system and download the KIT drafting template file. Drawing screen and KIT drawing ・ For CAD software, Mechanical Drawing I used exercises on the drawing screen, but in Mechanical Drawing II, a drawing is created in the drawing format of KIT, and necessary information is described, laid out, and printed. Drafting exercise -Check the various functions of the CAD software to be used. ・ Exercise A: Within the operation range acquired in Mechanical Drawing I, any three-dimensional object can be represented as a plan view, a front view, and a side view, and printed using the KIT drawing. ・ Exercise B: On the basis of several triangulation drawings, each person can imagine a three-dimensional view (bird's-eye view) and draw it by hand.",
+      "operation": "Lectures, questions, and exercises “Drawing” shown in the lesson details indicates Mechanical Drawing, and “JIS” indicates New JIS Machine Drawing. Drawing: Chapters 1, 2, 3, 4, and 5 JIS: pp. 1-6",
+      "assignments": "[Preparation] Make CAD software usable. Understand the relationship between the department's educational goals and this subject. ・ Review of drafting method from Mechanical Drawing I [Review] Review the content and objectives of this lecture. In addition to reviewing the contents of the lecture, the exercises in Exercise A and Exercise B should be completed. ・ Review of plane display method of objects by 3rd angle method",
+      "minutes": "60 60"
+    },
+    {
+      "index": "2",
+      "content": "Review dimensional tolerances, fits, and surface roughnesses learned in Mechanical Drawing I. Review contents ・ Dimensional tolerance, fit ・ Standard dimensions, dimensional tolerance, etc. ・ Functional dimensions, non-functional dimensions, reference dimensions ・ Explanation of IT tolerance and how to read a dimensional tolerance table ・ Learn about surface roughness in specific mechanical drawings based on the outline explanation of Mechanical Drawing I. ・ Explain how to measure surface roughness. ・ Learn about the relationship between machine manufacturing and processing methods and surface roughness. Dimensional tolerance indication method in CAD software ・ Review the dimensional tolerance indication method in New JIS Machine Drafting. ・ Review how to put dimensional tolerances in CAD software. Surface roughness indication method with CAD software ・ Learn how to indicate surface roughness on JIS machine drawings. ・ Learn how to insert surface roughness with CAD software. Drafting exercise ・ Create a drawing of the gear pumps ② and ④ and fill in the dimensions and tolerances. ・ Download the drawing of the gear pump ③ and⑧ from the student portal and add dimensional tolerances to it. \"Check back\" ・ Confirm how to interpret 3D figures based on specific issues",
+      "operation": "Lectures, questions, and exercises Explain the stipulation of dimensions in mechanical drawing, and understand the concepts of tolerance and fit. Drafting: Chapter 6 JIS: pp. 39-44 Lectures, questions, and exercises Surface finishing in the case of machining will be explained, and the relationship between the method of defining the surface roughness and the processing method will be understood. Drafting: Chapter 7 JIS: pp. 44-47",
+      "assignments": "(Preparation) Prepare the lecture theme. ・ Investigating accuracy requirements in mechanical drawings ・ Review of dimensional tolerances and fit regulations Review of learning contents of Mechanical Drawing I ・ Investigation of how to express surface properties [Review] Review the content of the lecture and complete the assignment. ・ Learn how to define dimensional tolerances and the relationship between JIS rules from fit relationships ・ Understand the meaning of surface roughness regulations and learn how to request them",
+      "minutes": "80 80"
+    },
+    {
+      "index": "3",
+      "content": "Summary of dimensional tolerance, fit, and surface roughness -Review various diameter dimensioning methods and various dimensioning methods (series, parallel, progression, coordinates). -The surface roughness entry method is compared with a method based on the old JIS standard and a method based on the current JIS standard. ・ Explain how to create drawings that are easy for third parties to see. Drafting exercise ・ Create a drawing of the gear pump ⑤ and enter the dimensions and tolerances. \"Check back\"",
+      "operation": "Lectures, questions, and exercises We will explain the dimension specifications that define the dimensions of machine equipment, the fitting regulations that take assembly into account, and the surface roughness instructions that define the finished surface, and help you understand the relationship between the processing method and the geometry of machine parts. JIS: pp. 1-47",
+      "assignments": "Preparation] Prepare a lecture theme. Review of learning contents of Mechanical Drawing I ・ Investigation of JIS surface roughness regulations [Review] Review the content of the lecture and complete the assignment. ・ Learn how to draft surface roughness",
+      "minutes": "60 60"
+    },
+    {
+      "index": "4",
+      "content": "Bolts and nuts ・ Outline explanation on bolts and nuts. ・ Bolt and nut drawing method and bolt hole drawing method explained Drafting exercise ・ Prepare drawings of bolts and nuts and show dimensional tolerances and surface roughnesses. Note that the size of bolts and nuts to be changed will vary depending on the student. \"Check back\" ・ Confirm how to interpret drafting drawings based on issues",
+      "operation": "Lectures, questions, and exercises Explain about bolts and nuts, which are representative parts of screws, which are fastening elements of machines, and understand how to select and request parts based on JIS standards when designing machines. Drafting: Chapter 8 JIS: pp. 26-27, 68, 114-115",
+      "assignments": "[Preparation] Prepare a lecture theme. ・ Investigate the relationship between bolt/ nut function/performance items and design items [Review] Review the content of the lecture and complete the assignment. ・ Acquisition of drafting method for standard parts such as standardized bolts and nuts",
+      "minutes": "60 60"
+    },
+    {
+      "index": "5",
+      "content": "Bolts and nuts (continued) -Explain the types of bolts and nuts, selection methods, usage methods, and strength calculations. -Explain one guideline for the design method of bolt mounting points (mounting seats, etc.). \"Check back\" ・ Confirm how to interpret drafting drawings based on issues",
+      "operation": "Lectures, questions, and exercises Explain how to specify standards for standard parts such as bolts and nuts and understand design requirements. Drafting: Chapter 8 JIS: pp. 68, 114-115",
+      "assignments": "[Preparation] Prepare a lecture theme. ・ Investigation of relationship between standard parts such as bolts and nuts and JIS standards [Review] Review the content of the lecture and complete the assignment. ・ Deepen understanding of the relationship between parts drawings such as bolts and assembly drawings.",
+      "minutes": "60 60"
+    },
+    {
+      "index": "6",
+      "content": "Overall review, interim review ・ Review the outline of dimensional tolerance, surface roughness and instruction method, bolt selection method and instruction method. ・ Interim review \"Check back\" ・ Confirm how to interpret drafting drawings based on issues 1st exam ・ Confirm the basics of machine drafting explained so far and the level of mastery of CAD operation.",
+      "operation": "Lectures, questions, and exercises Examination (practical examination) (interim review) Confirm the acquisition of drafting techniques and JIS standard application methods.",
+      "assignments": "[Preparation] Prepare the lecture content. ・ Check the level of understanding up to chapters 1-8 and improve CAD operation skills [Review] Review the content of the lecture. ・ Review any shortage",
+      "minutes": "60 60"
+    },
+    {
+      "index": "7",
+      "content": "Key and key groove ・ We will give an overview of the role of keys and keyways. ・ Explain the key designation (size), keyway dimension indication method, and dimensional tolerance selection method along with practice. Comprehensive learning ・ Cooperate with local communities to explain design / manufacturing methods of local manufacturing engineers and understand on-site design processes. Drafting exercise ・ Create a drawing of the gear pump (4) and enter the dimensions and tolerances.",
+      "operation": "Lectures, questions and exercises Explain the specifications of keys and key grooves, which are fastening elements related to the assembly of machine parts, from mechanical strength and external dimensions (active learning) JIS: pp. 19-20,110-113",
+      "assignments": "[Preparation] Prepare a lecture theme. ・ Investigate parts fastening, especially to understand key and key groove structure [Review] Review the lecture and complete the assignment. ・ Understand the strength design method for key fastening",
+      "minutes": "60 60"
+    },
+    {
+      "index": "8",
+      "content": "Geometric tolerance ・ Learn about geometric tolerances in specific mechanical drawings based on the outline explanation of Mechanical Drawing I. -Explain the necessity and method of indicating concentricity, squareness, parallelism, etc. -Explain the relationship between dimensional tolerances and geometrical tolerances. Geometry tolerance indication method and drafting exercise in CAD software -Explain how to specify geometric tolerances in JIS machine drafting. -Explain how to add geometric tolerance in CAD software. ・ Add the geometric tolerance to the drawing of the gear pump ②. ・ Create a drawing of the gear pump ①⑥.",
+      "operation": "Lectures, questions, and exercises Explain geometric tolerances, which are the shape specifications for each component considering manufacturing and assembly, and allow them to understand machining techniques and assembly procedures. Drafting: Chapters 7 and 8 JIS: pp. 48-51",
+      "assignments": "[Preparation] Prepare a lecture theme. Review of learning contents of Mechanical Drawing I ・ Investigate the geometric tolerance guidelines for parts shape [Review] Review the content of the lecture and complete the assignment. ・ Understand how to display geometric tolerance indications",
+      "minutes": "60 60"
+    },
+    {
+      "index": "9",
+      "content": "Cross section - Explain the need for a cross-sectional view. ・ Explain how to represent cross-sectional views. Other ・ Description of key, geometric tolerance, dimensional tolerance, etc., using flange-type fixed shaft coupling Master the procedure. Drafting exercise ・ Draw a flange-type fixed shaft joint. \"Check back\" ・ Confirm how to interpret drafting drawings based on issues",
+      "operation": "Lectures, questions, and exercises Cross-sectional view display regulations, which are illustration methods in mechanical drafting, will be explained to improve drafting skills. Drafting: Chapter 8 JIS: pp. 8-10, 79, 147-149",
+      "assignments": "[Preparation] Prepare a lecture theme. ・ Understand cross-section display method [Review] Review the content of the lecture and complete the assignment. ・ Learn how to specify the section. ・ Obtain easy-to-read layout guidelines for parts drawing.",
+      "minutes": "60 60"
+    },
+    {
+      "index": "10",
+      "content": "How to draw dimensions in consideration of the reference plane -Explain how to draw dimensions (how to make reference planes, how to draw dimensions that are easy to see). Gear basics 1 ・ Overview of the basics of gears. - Explain the basic calculation method, such as the number of teeth, and the relationship between the module and the reference circle (pitch circle) diameter. - Re-explain how to indicate dimensional tolerances and geometrical tolerances using gear drawing. Drafting exercise ・Draw the gear. ・Give the number of teeth, modules, tooth width, etc. for each student, and create a simple gear design and draw it. \"Check back\" ・ Confirm how to interpret drafting drawings based on issues",
+      "operation": "Lectures, questions, and exercises Explain the relationship between machining methods to be considered from design to drawing and drawing method Understand the basic mechanism of gears JIS: pp. 28-31, 76",
+      "assignments": "[Preparation] Prepare a lecture theme. ・ Understand the functional performance of gears [Review] Review the content of the lecture and complete the assignment. ・ Understand gear drafting and geometric mechanisms",
+      "minutes": "60 60"
+    },
+    {
+      "index": "11",
+      "content": "Gear basics ② ・ Expression method for meshing of gears, outline explanation and calculation for \"reduction gear\" which is a typical machine using gears Bearings and oil seals ・ Outline and type of bearings and oil seals that are important machine elements for comprehensive force learning ・ Investigate and examine selection methods. Drafting exercise ・ Draw a gear pump assembly drawing. \"Check back\" ・ Confirm how to interpret drafting drawings based on issues",
+      "operation": "Lectures, questions, and exercises Practice gear design specifications for your requirements (Active learning) JIS: pp. 37-38, 152-153",
+      "assignments": "[Preparation] Prepare a lecture theme. ・ Understand the reducer as a mechanical mechanism [Review] Review the content of the lecture and complete the assignment. Report the results of the investigation and examination ・ Understand the interface requirements for ensuring the functional performance of the assembled machine",
+      "minutes": "60 60"
+    },
+    {
+      "index": "12",
+      "content": "Overall review, general exercises (Last review (1)) ・ Review the geometrical tolerances, outline of cross-section display and indication methods, key and keyway selection and indication methods, and drawing of gears. ・ Review items to be confirmed regarding CAD skills \"Check back\" ・ Confirm how to interpret drafting drawings based on issues",
+      "operation": "Lectures, questions, and exercises Explain the relationship between design requirements, design specifications, and drawings, and understand the flow of machine design and the meaning of each drawing. Discuss the pump design of each specification based on gear pump assembly drawings. At the same time, check the design process.",
+      "assignments": "[Preparation] Prepare the lecture content. ・ Review previous drafting rules and improve CAD operation skills [Review] Review the content of the lecture and complete the assignment. ・ Understand the structure of drafting drawings and the significance of drawing management",
+      "minutes": "60 60"
+    },
+    {
+      "index": "13",
+      "content": "Completion of assembly drawings / instructions for balloons and bills of materials -The method for completing the assembly drawing and the content to be specified will be explained using the parts drawings of the gear pump that have been created so far. -Explain the balloon instruction method, the parts table creation method, and the meaning of the title column. Overall review, general exercise ・ Review what you have learned so far. ・ As comprehensive learning, students will conduct a general review. ・ Design and manufacturing methods of local manufacturing engineers in cooperation with the local community Explain and understand the relationship between manufacturing and design at the manufacturing site. 2nd Exam ・ Check the basics of machine drafting explained so far and the degree of mastery of CAD operation.",
+      "operation": "Lectures, questions, and exercises Explain the relationship between design requirements, design specifications, and drawings, and understand the flow of machine design and the meaning of each drawing. (Active learning) Temporary test (practical test) (interim review test) Check the basics of machine drafting and CAD operation.",
+      "assignments": "[Preparation] Prepare the lecture content. ・ Review previous drafting rules and improve CAD operation skills ・ Understanding design procedures for machine design exercises [Review] Review the content of the lecture. ・ Review unaccounted drafting techniques and understand drafting rules",
+      "minutes": "60 60"
+    },
+    {
+      "index": "14",
+      "content": "Review of practical tests (1) ・ Comprehensive examination on the contents of the previous tests (practical tests). ・ Check especially CAD skills Achievement confirmation test",
+      "operation": "Review the contents of the lectures and exercises you have been given so far before taking the exam.",
+      "assignments": "Written examination ・ Review standards and regulations related to practical exams ・ Review of exam",
+      "minutes": "60"
+    },
+    {
+      "index": "15",
+      "content": "Final review (2) ・ Confirm general review of written examination content Self-inspection class",
+      "operation": "Explanation of the achievement confirmation test questions and an overall review.",
+      "assignments": "[Review] Understand the problems of the achievement confirmation test.",
+      "minutes": ""
+    }
+  ],
+  "rawText": "金沢工業大学 学習支援計画書 E204-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Robotics\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n機械系製図Ⅱ\nMechanical Drawing II  2 E204-01  2024年度\n 1st year 2nd semester  修学規程第4条を参照\n    担当教員名\n ITO Kouhei, SETO Masahiro\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.JIS standards and mechanical drawings 2.Mechanical design 3.Manufacturing methods and accuracy/tolerance 4.CAD  Machine drafting represents a machine with the shape and features imagined by the designer in a drawing that conforms to standards, and at the same time has the role of transmitting the design to a third party through the drawing. In this course, you will learn how to design parts based on the accepted standards of mechanical drafting. You will also learn how to specify tolerances, and how to translate the three-dimensional shape of parts to two-dimensional drawings.\n    授業の概要および学習上の助言   In this lecture, you will learn the JIS standards that are the basis of mechanical drafting and you will learn drafting methods related to accuracy and tolerance through a combination of lectures and exercises. In each class there will be a lecture during the first half and exercises during the second half, but the drafting of the assignments that are given does not end with the exercise time during the lecture. Review is necessary. As a prerequisite, you must know the handwritten drawing preparation procedure taught in \"Mechanical Drawing I\". It is necessary to thoroughly review the basic operation methods of CAD from “Mechanical drawing I” before taking this lecture. The contents handled in this lecture are as follows. ・ Outline of JIS standards for drawing creation and CAD operation methods specialized for mechanical drawing ・ Relationship between dimensional tolerance and geometric tolerance ・ Surface roughness ・ Dimension filling method ・ Bolts and nuts ・ Keys and keyways ・ Cross sections ・ Gear basics and design machine elements such as bearings ・ Drawing mechanical parts and assembly drawings with gear pumps and flanged fixed shaft joints In addition, it is necessary to be able to fully understand the design at the actual manufacturing site.  Copying in drafting drawings is against the ethics of engineers, and credits for this subject are revoked when it is found.\n    教科書および参考書・リザーブドブック   Textbooks:New JIS mechanical drawing(5th edition),Moritika Publishing(in Japanese) JIS mechanical drawing operation method using Solid Edge,Kanazawa Institute of Technology(in Japanese) Reference books:Mechanical drawing Basics and Applications (2nd edition),Shigeo Hirano(in Japanese) Reference books:Practical Mechanical Drawing,Hajime Fujimoto et al.,Moritika Publishing(in Japanese)\n    履修に必要な予備知識や技能   (1) You can draw on the CAD software drawing creation screen. Your ability should be at a level where it is easy to create a model of the text “Mechanical Drawing”. Basically, items that should have been learned in Mechanical Drawing I (functions written in the text, drawing methods) are not taught in this course. (2) 3D (3D objects) can be modeled using 3D drafting, the 3rd angle method (2D drafting) and using two-dimensional drafting (plan view, front view, side view). (3) You have mastered the method of downloading materials and uploading reports using the student portal.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① E,H,I,N Be able to transmit a design using mechanical drawing.   ② E,H,I,N Be able to draw a two-dimensional mechanical drawing from a bird's-eye view or a photograph of the machine parts   ③ E,H,I,N Be able to imagine the shape of a part drawn from a two-dimensional mechanical drawing created by a third party.   ④ E,H,I,N Be able to indicate the machine design, tolerance, and accuracy for the manufacturing method of machine parts.   ⑤ E,H,I,N Be able to prepare and explain the results of preparation and review as works at the specified time.   ⑥ E,H,I,N Be able to explain the design process and role",
+  "courseId": "2024:full-year:E922-12:0:248",
   "language": "en"
 }

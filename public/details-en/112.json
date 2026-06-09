@@ -1,66 +1,55 @@
 {
   "sourceIndex": 112,
   "sourceUrl": "/opsyllabus/kitos0110/112/1",
-  "importedAt": "2026-06-08T09:33:55.383Z",
-  "title": "ＩＣＴ入門",
-  "subtitle": "Introduction to ICT",
-  "courseType": "Design Project ProgramDesign Project CoursesDesign Project",
-  "credits": "1",
-  "term": "2026年度\n\n                1st year 1st semester",
+  "importedAt": "2026-06-09T01:29:20.211Z",
+  "title": "プロジェクトデザイン実践(実験)(航空システム工学科)",
+  "subtitle": "Design Project / Implementing and Operating",
+  "courseType": "Design Project Program\nDesign Project Courses\nDesign Project",
+  "credits": "2",
+  "term": "2024年度\n 2nd year 2nd semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "MIYATA Takatomi",
-    "KANAI Ryo",
-    "NISHIKAWA Yukinobu",
-    "INABA Yuto",
-    "UMEKI TAKUYA",
-    "KAWASAKI Munehiro",
-    "OOHASHI Kazuki",
-    "SATOU Fujio",
-    "MOURI Kengo",
-    "OKAMOTO Youhei"
+    "MATSUMOTO Yoshiyuki",
+    "SAKAI Hitomi",
+    "FUJITA Koji"
   ],
   "keywords": [
-    "Windows",
-    "Internet",
-    "Security",
-    "Document creation",
-    "Presentation matearial creation"
+    "Verification process 2.Effectiveness/Acceptability 3.Data handling skills Credibility 4.PBL for science and technology"
   ],
-  "educationalGoal": "Understand the mechanics of personal computers and their capabilities and possibilities. On top of that, students will acquire the basic ability to utilize personal computers as students and members of society for purposes such as education, research, and technological development. In particular, students will acquire the ability to create documents and presentation materials.",
-  "advice": "In this course, you will learn the following basics of using your personal computer (laptop computer) for study and student life.\n1. Basic PC skills: Learn basic operations such as using Windows and software installation.\n2. Networks: Learn how to set up connections to on-campus and off-campus networks, how to view on-campus and off-campus web pages, how to use the on-campus web systems, learn about network security and anti-virus software, and learn the proper behaviors when using networks.\n3. MS Office software: Learn basic skills in document creation and presentation material creation.\n\nThe 1st and 2nd class sessions will be held during the orientation period. Guidance will be provided during the  3rd class session. From the 4th to the 8th class sessions, quizzes using video materials and the e-syllabus will be available. Students who complete the quiz (scoring full marks) by the day before the class session will be exempt from attending the face-to-face class for that session only.\nThere are 8 class sessions. Missing 3 or more sessions will result in failure (due to poor attendance).\nPass/fail is determined by the final report. Only students who pass all quizzes from sessions 4 through 8 will be permitted to begin work on the final report.",
-  "books": "Introduction to ICT/Introduction to Data Sciense 2026(Kanazawa Institute of Technology)",
-  "requiredKnowledge": "No prior knowledge or skills are assumed. The exercises will be done on your own laptop computer. Be sure to bring your laptop computer, power adapter, and network cable (LAN cable) to each class.",
+  "educationalGoal": "-To gain skills to verify hypotheses or solution concept with logical approaches. -To understand phenomena, objects and events quantitatively with high credibility. -To reliably find characteristics and laws of phenomena, objects, events. -To deliver the above information to a third person intelligibly. -To gain basic skills to credibly and smoothly conduct verification activities. -To have an image of the technology fields and engineers in the discipline.",
+  "advice": "Students will learn: - how to proceed with the process of testing hypotheses, or learn how to go through the process of verifying the validity/acceptability of a concept that aims to solve a problem, or a specific part of the concept's features. - \"data handling skills\" required to collect, organize, analyze, hypothesize, visualize, and report data. - “verification process skills” and “validation element skills” from hypothesis planning to verification In the department of aeronautics course, students will: - re-challenge the theme of “Making the main wings lightweight and strong” implemented in the PD introduction, utilizing one year of learning. - predict future drones based on the theme of “thinking about the future of drones” and verify using existing multi-copters.",
+  "books": "_",
+  "requiredKnowledge": "As the lesson progresses, students will discover some interesting events. It is believed that investigating more deeply about these will surely contribute to the improvement of each person's ability. If students need the advice of a faculty member for self-learning to learn more deeply, please apply.",
   "activityGoals": [
     {
       "index": "①",
-      "type": "H",
-      "body": "To be able to understand the basics of personal computers and the usage of laptop computers."
+      "type": "G,F",
+      "body": "To be able to proceed with activities from finding problems to solutions."
     },
     {
       "index": "②",
-      "type": "H",
-      "body": "To be able to understand the basics of Windows and to use Windows and applications that run on Windows."
+      "type": "D",
+      "body": "To be able to understand phenomena, objectives, and events quantitatively and qualitatively."
     },
     {
       "index": "③",
-      "type": "H",
-      "body": "To be able to understand how to install software and make your PC available for use at our university."
+      "type": "D",
+      "body": "To be able to find characteristics, features, and laws of phenomena, objects, and events."
     },
     {
       "index": "④",
-      "type": "H",
-      "body": "To be able to understand the mechanism of virus infection and protect your computer from computer viruses."
+      "type": "E",
+      "body": "To be able to deliver acquired information to a third person intelligibly."
     },
     {
       "index": "⑤",
-      "type": "H",
-      "body": "To be able to set your network settings and use the campus network."
+      "type": "F",
+      "body": "To be able to utilize various basic skills needed to proceed smoothly with verification activities."
     },
     {
       "index": "⑥",
-      "type": "H",
-      "body": "To be able to operate MS Office software and make effective use of data."
+      "type": "A",
+      "body": "To be able to have a picture of the technology fields and engineers in the discipline."
     }
   ],
   "evaluationWeights": [
@@ -68,19 +57,19 @@
       "label": "総合評価割合",
       "values": [
         "0",
+        "15",
+        "35",
+        "30",
         "0",
-        "100",
-        "0",
-        "0",
-        "0",
-        "0",
+        "10",
+        "10",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -91,19 +80,19 @@
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
         "0",
+        "15",
+        "35",
+        "30",
         "0",
-        "100",
-        "0",
-        "0",
-        "0",
-        "0",
+        "10",
+        "10",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -114,19 +103,19 @@
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
         "0",
+        "15",
+        "35",
+        "30",
         "0",
-        "100",
-        "0",
-        "0",
-        "0",
-        "0",
+        "10",
+        "10",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -147,9 +136,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -157,7 +146,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -170,9 +159,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -193,9 +182,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -204,69 +193,76 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "Understand the capabilities of computers and select appropriate functions to respond to various hardware and software problems.\nUse the most appropriate software and utilize its functions when solving a problem.",
-    "standard": "Manage your computer on an everyday basis.\nUse Windows, Word, and PowerPoint as needed."
+    "ideal": "1) To proceed with verification processes for hypotheses and solution concepts. 2) To quantitatively and qualitatively recognize phenomena, objects, and events and organize information. 3) To find and understand features, characteristics, and regularities of corresponding phenomena, objects, and events. 4) To communicate acquired information to a third person intelligibly. 5) To smoothly conduct verification activities. 6) To become aware of your specialties and imagine the technological fields and engineers.",
+    "standard": "1) To proceed with verification processes for hypotheses and solution concepts with guidance. 2) To quantitatively and qualitatively recognize phenomena, objects, and events and organize the information with guidance from the instructor. 3) To find and understand characteristics and regularities of phenomena, objects, etc., with guidance. 4) To share acquired information to third person. 5) To smoothly conduct verification activities with guidance from the instructor. 6) To recognize your specialties and imagine the technological fields and engineers with guidance."
   },
   "clipProcess": "",
   "lessons": [
     {
-      "index": "1",
-      "content": "【Network settings orientation ①】\nPC settings, Windows, Information literacy\n(Part 1)\n・Guidance (overview of classes and schedule)\n・Explanation of PC hardware (textbook 1.2)\n・Laptop setup\n・Windows Part 1 (1.3)\n・How to use the wired campus network\n(Appendix 1)\n・How to use tcampus email (Appendix 3)\n・How to browse and use the campus web systems\n(Appendix 2)\n・How to use the remote-VPN service (Appendix 5)",
-      "operation": "Lecture and exercises\nusing a laptop computer",
-      "assignments": "If you cannot finish the\nsetup/exercises during the\nclass, you must complete them\non your own before the next\nclass.",
-      "minutes": "60"
+      "index": "1,2",
+      "content": "Course introduction, Lecture (Safety training)",
+      "operation": "Guidance, Lecture",
+      "assignments": "Prepare for related items using the e-syllabus",
+      "minutes": "200"
     },
     {
-      "index": "2",
-      "content": "【Network settings orientation ②】\nPC settings, Windows, Information literacy\n(Part 2)\n・Windows Part 2 (1.4)\n・Installation of Microsoft Office (Appendix 4)\n・How to use the cloud storage service \"Box\"\n(Appendix 5)\n・How to use web meeting service \"Zoom\"",
-      "operation": "Lecture and exercises\nusing a laptop computer",
-      "assignments": "If you cannot finish the\nsetup/exercises during the\nclass, you must complete them\non your own before the next\nclass.",
-      "minutes": "60"
+      "index": "3-10",
+      "content": "Team activities (Study of lightweight and high strength main wing spar structure)",
+      "operation": "Lecture and Q&A Team activities, Self-check",
+      "assignments": "Prepare for related items using the e-syllabus",
+      "minutes": "800"
     },
     {
-      "index": "3",
-      "content": "PC settings, Windows, Information literacy\n(Part 3)\n・Report submission exercise (Appendix 2)\n・How to use the campus wifi network(Appendix 5)\n・Installation of anti-virus software\n(Appendix 5)\n・Network printer settings (Appendix 5)\n・Check account list (Appendix 6)",
-      "operation": "Lecture and exercises\nusing a laptop computer",
-      "assignments": "If you cannot finish the\nsetup/exercises during the\nclass, you must complete them\non your own before the next\nclass.",
-      "minutes": "120"
+      "index": "11,12",
+      "content": "Preparation for presentation",
+      "operation": "Lecture and Q&A Team activities, Self-check",
+      "assignments": "Prepare for related items using the e-syllabus",
+      "minutes": "200"
     },
     {
-      "index": "4",
-      "content": "PC settings, Windows, Information literacy\n(Part 4)\n・Japanese input (1.5)\n・Touch typing (1.6)\n・Folder / File operation (1.7)\n・Information literacy (2.1-2.8)\n・Course review\n\nquiz",
-      "operation": "Lecture and exercises\nusing a laptop computer",
-      "assignments": "Review the relevant sections o\nf the textbook beforehand.\nAfter class, review the learni\nng and exercise content.\nOnly students who have cleared\n the 4th quiz (all questions c\norrect) by the day before the\n4th class session will be exem\npt from attendance (counted as\n present) for that session.\nClear the quiz by the final re\nport submission deadline.",
-      "minutes": "90"
+      "index": "13,14",
+      "content": "Presentation (Intermediate)",
+      "operation": "Presentation (Oral)",
+      "assignments": "Prepare for related items using the e-syllabus",
+      "minutes": "200"
     },
     {
-      "index": "5",
-      "content": "Word (Part 1)\n・Start and quit Word, create and save new\nfiles, load and save existing files, basic\nwindow operations, page settings\n・Editing operations ① (range selection,\nmove/copy)\n\nquiz",
-      "operation": "Lecture and exercises\nusing a laptop computer",
-      "assignments": "Review the relevant sections o\nf the textbook beforehand.\nAfter class, review the learni\nng and exercise content.\nOnly students who have cleared\n the 5th quiz (all questions c\norrect) by the day before the\n5th class session will be exem\npt from attendance (counted as\n present) for that session.\nClear the quiz by the final re\nport submission deadline.",
-      "minutes": "90"
+      "index": "15,16",
+      "content": "Team activities (about the future of aircraft)",
+      "operation": "Lecture and Q&A Team activities, Self-check",
+      "assignments": "Prepare for related items using the e-syllabus",
+      "minutes": "200"
     },
     {
-      "index": "6",
-      "content": "Word (Part 2)\n・Editing operations ② (font, center\nalignment, insertion of word art, insertion of\nfigure),\nprinting\n・Editing operations ③ (figures, text boxes,\ncolumns, footnotes)\n・ Basic table operations (creation, insertion,\nediting, deletion)\n\nquiz",
-      "operation": "Lecture and exercises\nusing a laptop computer",
-      "assignments": "Review the relevant sections o\nf the textbook beforehand.\nAfter class, review the learni\nng and exercise content.\nOnly students who have cleared\n the 6th quiz (all questions c\norrect) by the day before the\n6th class session will be exem\npt from attendance (counted as\n present) for that session.\nClear the quiz by the final re\nport submission deadline.",
-      "minutes": "90"
+      "index": "17-24",
+      "content": "Team activities (verify future aircraft)",
+      "operation": "Lecture and Q&A Team activities, Self-check",
+      "assignments": "Prepare for related items using the e-syllabus",
+      "minutes": "800"
     },
     {
-      "index": "7",
-      "content": "Word (Part 3)\n・Word search and replacement, formula input,\nand other functions (bullets, table of\ncontents, headers, footers, help function)\n\nquiz",
-      "operation": "Lecture and exercises\nusing a laptop computer",
-      "assignments": "Review the relevant sections o\nf the textbook beforehand.\nAfter class, review the learni\nng and exercise content.\nOnly students who have cleared\n the 7th quiz (all questions c\norrect) by the day before the\n7th class session will be exem\npt from attendance (counted as\n present) for that session.\nClear the quiz by the final re\nport submission deadline.",
-      "minutes": "90"
+      "index": "25,26",
+      "content": "Preparation for presentation",
+      "operation": "Lecture and Q&A Team activities, Self-check",
+      "assignments": "Prepare for related items using the e-syllabus",
+      "minutes": "200"
     },
     {
-      "index": "8",
-      "content": "PowerPoint\n・Start and quit PowerPoint\n・Presentations\n・Insertion of various objects on slides\n・Slideshows\n・Print presentation\n・Image operations (about Paint)\n\nquiz\n\nSelf-check, Course questionnaire",
-      "operation": "Lecture and exercises\nusing a laptop computer",
-      "assignments": "Review the relevant sections o\nf the textbook beforehand.\nAfter class, review the learni\nng and exercise content.\nOnly students who have cleared\n the 8th quiz (all questions c\norrect) by the day before the\n8th class session will be exem\npt from attendance (counted as\n present) for that session.\nClear the quiz by the final re\nport submission deadline.",
-      "minutes": "90"
+      "index": "27,28",
+      "content": "Presentation (Final)",
+      "operation": "Presentation (Oral)",
+      "assignments": "Prepare for related items using the e-syllabus",
+      "minutes": "200"
+    },
+    {
+      "index": "29,30",
+      "content": "Review",
+      "operation": "Review Self-reflection",
+      "assignments": "Review",
+      "minutes": "30"
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　G256-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Design Project Program\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Design Project ProgramDesign Project CoursesDesign Project\n\n                ＩＣＴ入門\n                Introduction to ICT\n\n              1\n              G256-01\n\n                2026年度\n\n                1st year 1st semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  MIYATA Takatomi, KANAI Ryo, NISHIKAWA Yukinobu, INABA Yuto, UMEKI TAKUYA, KAWASAKI Munehiro, OOHASHI Kazuki, SATOU Fujio, MOURI Kengo, OKAMOTO Youhei\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Windows\n2.Internet\n3.Security\n4.Document creation\n5.Presentation matearial creation\n\n              Understand the mechanics of personal computers and their capabilities and possibilities. On top of that, students will acquire the basic ability to utilize personal computers as students and members of society for purposes such as education, research, and technological development. In particular, students will acquire the ability to create documents and presentation materials.\n\n              授業の概要および学習上の助言\n\n              In this course, you will learn the following basics of using your personal computer (laptop computer) for study and student life.\n1. Basic PC skills: Learn basic operations such as using Windows and software installation.\n2. Networks: Learn how to set up connections to on-campus and off-campus networks, how to view on-campus and off-campus web pages, how to use the on-campus web systems, learn about network security and anti-virus software, and learn the proper behaviors when using networks.\n3. MS Office software: Learn basic skills in document creation and presentation material creation.\n\nThe 1st and 2nd class sessions will be held during the orientation period. Guidance will be provided during the  3rd class session. From the 4th to the 8th class sessions, quizzes using video materials and the e-syllabus will be available. Students who complete the quiz (scoring full marks) by the day before the class session will be exempt from attending the face-to-face class for that session only.\nThere are 8 class sessions. Missing 3 or more sessions will result in failure (due to poor attendance).\nPass/fail is determined by the final report. Only students who pass all quizzes from sessions 4 through 8 will be permitted to begin work on the final report.\n\n              教科書および参考書・リザーブドブック\n\n              Introduction to ICT/Introduction to Data Sciense 2026(Kanazawa Institute of Technology)\n\n              履修に必要な予備知識や技能\n\n              No prior knowledge or skills are assumed. The exercises will be done on your own laptop computer. Be sure to bring your laptop computer, power adapter, and network cable (LAN cable) to each class.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                H\n                To be able to understand the basics of personal computers and the usage of laptop computers.\n\n                ②\n                H\n                To be able to understand the basics of Windows and to use Windows and applications that run on Windows.\n\n                ③\n                H\n                To be able to understand how to install software and make your PC available for use at our university.\n\n                ④\n                H\n                To be able to understand the mechanism of virus infection and protect your computer from computer viruses.\n\n                ⑤\n                H\n                To be able to set your network settings and use the campus network.\n\n                ⑥\n                H\n                To be able to operate MS Office software and make effective use of data.\n\n              達成度評価\n\n              評価方法\n\n              試験\n   ",
-  "courseId": "2026:spring:G256-01:0:112",
+  "rawText": "金沢工業大学 学習支援計画書 G253-02\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDesign Project Program\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Design Project Program\nDesign Project Courses\nDesign Project\nプロジェクトデザイン実践(実験)(航空システム工学科)\nDesign Project / Implementing and Operating  2 G253-02  2024年度\n 2nd year 2nd semester  修学規程第4条を参照\n    担当教員名\n MATSUMOTO Yoshiyuki, SAKAI Hitomi, FUJITA Koji\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Verification process 2.Effectiveness/Acceptability 3.Data handling skills Credibility 4.PBL for science and technology  -To gain skills to verify hypotheses or solution concept with logical approaches. -To understand phenomena, objects and events quantitatively with high credibility. -To reliably find characteristics and laws of phenomena, objects, events. -To deliver the above information to a third person intelligibly. -To gain basic skills to credibly and smoothly conduct verification activities. -To have an image of the technology fields and engineers in the discipline.\n    授業の概要および学習上の助言   Students will learn: - how to proceed with the process of testing hypotheses, or learn how to go through the process of verifying the validity/acceptability of a concept that aims to solve a problem, or a specific part of the concept's features. - \"data handling skills\" required to collect, organize, analyze, hypothesize, visualize, and report data. - “verification process skills” and “validation element skills” from hypothesis planning to verification In the department of aeronautics course, students will: - re-challenge the theme of “Making the main wings lightweight and strong” implemented in the PD introduction, utilizing one year of learning. - predict future drones based on the theme of “thinking about the future of drones” and verify using existing multi-copters.\n    教科書および参考書・リザーブドブック   _\n    履修に必要な予備知識や技能   As the lesson progresses, students will discover some interesting events. It is believed that investigating more deeply about these will surely contribute to the improvement of each person's ability. If students need the advice of a faculty member for self-learning to learn more deeply, please apply.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① G,F To be able to proceed with activities from finding problems to solutions.   ② D To be able to understand phenomena, objectives, and events quantitatively and qualitatively.   ③ D To be able to find characteristics, features, and laws of phenomena, objects, and events.   ④ E To be able to deliver acquired information to a third person intelligibly.   ⑤ F To be able to utilize various basic skills needed to proceed smoothly with verification activities.   ⑥ A To be able to have a picture of the technology fields and engineers in the discipline.\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 0 15 35 30 0 10 10 100     指標と評価割合 総合評価割合 0 15 35 30 0 10 10 100   総合力指標 知識を取り込む力 0 15 35 30 0 10 10 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ①      ②     ③     ④     ⑤     ⑥     クイズ\n小テスト ① レ Students will be asked questions about their work individually during team activities. Students should keep track of the situation and explain it accurately.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥ レ   レポート ① レ The contents of the activity, including the progress, are presented in a variety of forms and presented/submitted. Students have to organize and categorize the contents so that they can be communicated in an easy-to-understand manner.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥ レ   成果発表\n(口頭・実技) ① レ Student will present the final result orally. Students should convey not only the content, but also any misunderstanding. In addition, please make sufficient adjustments before the presentation so that the entire team can participate.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥ レ   作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリ",
+  "courseId": "2024:spring:G250-07:0:112",
   "language": "en"
 }

@@ -1,88 +1,68 @@
 {
   "sourceIndex": 557,
   "sourceUrl": "/opsyllabus/kitos0110/557/1",
-  "importedAt": "2026-06-08T09:34:04.427Z",
-  "title": "建築デザイン総合演習Ｂ",
-  "subtitle": "Architectural Integrated Exercises for Design B",
-  "courseType": "Major ProgramMajor Courses",
-  "credits": "3",
-  "term": "2026年度\n\n                3rd year 2nd semester",
+  "importedAt": "2026-06-09T01:29:24.140Z",
+  "title": "Webデザイン",
+  "subtitle": "Web Design",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "2",
+  "term": "2024年度\n 1st year 1st semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "HACHIYA Toshio",
-    "TAKEUCHI Shinichi",
-    "YAMADA Keijirou",
-    "SATO Kouichi",
-    "FUJII Takeshi",
-    "MASUZAKI Yosuke",
-    "SHIMOKAWA Yuichi",
-    "MIYASHITA Tomohiro",
-    "KOZU Seiichi",
-    "YOSHIMURA Toshihiro",
-    "KOBAYASHI Yoshinori",
-    "TANISHIGE Yoshiyuki"
+    "SAITO Masashi"
   ],
   "keywords": [
-    "Architectural design",
-    "Spatial Composition",
-    "Functional planning (program)",
-    "Inner-outer space",
-    "Regional cooperation"
+    "Internet 2.WWW 3.HTML 4.CSS"
   ],
-  "educationalGoal": "This class is the final stage of the architectural design exercise. Understand the function and composition of large public buildings or complex urban spaces, and plan and design them. In particular, at the stage just before Project Design Ⅲ, the goal is to develop a variety of conditions and functions, and to develop creative abilities that can be integrated as plans and design proposals.",
-  "advice": "Assignment is design and planning of buildings and cities with special surrounding environment and complicated required functions. The design issues are roughly divided into three issues (see below).\nHowever, in addition to general design drawings, students propose appropriate and attractive expressions using drawings and sentences showing concepts, model photographs, CG, etc.\n1) A large-scale building that satisfies the various functions of facilities, such as elementary school buildings and multicultural buildings in central Kanazawa, and that requires attractive architectural spaces. (two assignments).\n2) Planning issues for integrated urban design of buildings and external spaces by decoding and re-editing the contexts of cities and towns (two assignments).\n3) Renovation of buildings with changing the use of existing public buildings (one asignment).\n４）The task of designing the roof of the plaza while learning techniques such as optimization using visual programming (one asignment).\n\nFor the first task, you can freely choose one of the four tasks (1), (2), and (3), and for the second task, you can freely choose one from the four options (1), (2), and (4), and create your work.",
-  "books": "None",
-  "requiredKnowledge": "This course is based on basic knowledge of architecture in general and the design ability of architectural design I and II, Architectural Integrated Exercises for Design A.\nStudents try to apply the knowledge related to the planning and design of architecture and exterior space learned in various classes to the design work.\nIf you choose Course D in ④ above and have not completed the credits for \"Architectural Information Design\" in the previous semester, you will need to study visual programming (Rhino+Grasshopper) in advance.",
+  "educationalGoal": "This course is for an educational goal of the Dept. of Management Systems to acquire \"Information design basic ability\". Students will: (1)acquire the basic ability to utilize IT including mark-up language and the Internet, (2)learn the fundamental theory of WWW (World Wide Web) site, (3)learn how to create, manage and operate web pages.",
+  "advice": "To create, manage and operate a WWW site, the following 3 abilities are required: (1) The ability to understand the WWW site production process, (a) Planning a WWW site, (b) Design and implement a WWW site, (c) Manage and Operate a WWW site. (2) The ability to understand and apply HTML (Hyper-Text Mark-up Language) and CSS (Cascading Style Sheets) to produce a WWW site, (3) The ability to produce a web site that considers effective expression of information, ease of use, and availability to anyone. Students will acquire abilities 1 and 2 mainly through lectures and exercises in the first half of the course; they will acquire ability 3 in the second half of the course.",
+  "books": "Text Book: A book that you can learn HTML & CSS and web design in one book (in Japanese), 2022/1/12, Gijutsu-Hyohron Co., Ltd. (ISBN: 978-4-297-12510-3)",
+  "requiredKnowledge": "Prior knowledge is not required before taking this course, but you should learn the designated part of the textbook. According to students’ understanding degree, lectures and practicums progress may be changed.",
   "activityGoals": [
     {
       "index": "①",
-      "type": "L",
-      "body": "Students can analyze the characteristics of the urban area, traditional space, natural environment of location."
+      "type": "H",
+      "body": "Be able to set up your laptop computer and browse any WWW sites."
     },
     {
       "index": "②",
-      "type": "I,K",
-      "body": "Students can develop their ability to organize and design various spaces as architecture and urban space."
+      "type": "H,J",
+      "body": "Be able to use text editor (Brackets) to design and implement Web pages using text and still images using HTML."
     },
     {
       "index": "③",
-      "type": "L",
-      "body": "Students can analyze the characteristics of the local culture and community and reflect them in urban design."
+      "type": "H,J",
+      "body": "Be able to upload created files (contents) to a web server."
     },
     {
       "index": "④",
-      "type": "I,K,O",
-      "body": "Students can understand and propose about conversion of existing architecture by renovation project."
+      "type": "H,J",
+      "body": "Be able to lay out web contents using CSS."
     },
     {
       "index": "⑤",
-      "type": "P,Q",
-      "body": "Students can work on three-dimensional shape optimization of architectural forms using visual programming."
-    },
-    {
-      "index": "⑥",
-      "type": "J",
-      "body": "Students can create and express drawings, models, photographs, and texts as works, and presentate beautifully."
+      "type": "H,J",
+      "body": "Be able to produce a web site that considers effective expression of information, ease of use, and availability"
     }
   ],
   "evaluationWeights": [
     {
       "label": "総合評価割合",
       "values": [
+        "30",
         "0",
+        "20",
         "0",
-        "0",
-        "0",
-        "90",
+        "40",
         "0",
         "10",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -92,20 +72,20 @@
     {
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
+        "30",
         "0",
+        "20",
         "0",
-        "0",
-        "0",
-        "90",
+        "40",
         "0",
         "10",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -115,20 +95,20 @@
     {
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
+        "30",
         "0",
+        "20",
         "0",
-        "0",
-        "0",
-        "90",
+        "40",
         "0",
         "10",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -149,9 +129,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -159,7 +139,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -172,9 +152,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -195,9 +175,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -206,118 +186,118 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "(1) Satisfy the function of large-scale architecture sufficiently and have a good architectural plan and design. (2) A comfortable urban design that satisfies the urban functions has been proposed. (3) The architectural use change is properly planned and designed. (4)Design proposals are made through optimization of architectural forms.Of the above 4goals, the goals according to student's own task selection have been achieved. Furthermore, they have deepened these as more original and attractive contents, and have proposed using advanced and beautiful presentations.",
-    "standard": "(1) Satisfy the function of large-scale architecture sufficiently and have a good architectural plan and design. (2) A comfortable urban design that satisfies the urban functions has been proposed. (3) The architectural use change is properly planned and designed. (4)Design proposals are made through optimization of architectural forms.Of the above 4 goals, the goals according to student's own task selection have been achieved. Further, these contents can be properly described as drawings."
+    "ideal": "(1) Be able to browse any web sites from your laptop, (2) Be able to produce some web pages using text editor with text and still images. (3) Be able to upload the produced files to a web server. (4) Be able to lay out pages using CSS. (5) Be able to produce a web site considering the effective expression of information, ease of use, and availability to anyone. (6) Be able to produce a web site with unified operations and color schemes by realizing original ideas.",
+    "standard": "(1) Be able to browse any web sites from your laptop computer, (2) Be able to produce some web pages using text editor with text and still images. (3) Be able to upload the produced files to a web server. (4) Be able to lay out pages using CSS. (5) Be able to produce a web site considering the effective expression of information, ease of use, and availability to anyone."
   },
   "clipProcess": "",
   "lessons": [
     {
-      "index": "1-2",
-      "content": "・ General guidance for this subject\n・ Explanation of the first assignment\n(Building / Urban / Renovation issues)\nPresent the purpose of the task, design\nconditions, required drawings, etc.\n-Explain basic architectural plans and city\nplans for design issues using handouts and\nvideos.",
-      "operation": "Lectures, questions and\nanswers, self-checks\nPerform C, P, U, R course\ndivision, and also\nperform group division of\neach course.\nQuestioning P, U, R\ncourse report\nassignments.",
-      "assignments": "・ Search and study similar\ncases for the assignments\nquestioned.\n・ Visit the site of the\nissue to understand the\nenvironment.\n・ Start drafting a basic\nplan. Based on the content\nlearned in the lecture,\nperform esquisse for the next\nclass.",
-      "minutes": "200"
+      "index": "1",
+      "content": "- Guidance - Web sites you should know and basic knowledge of web site design",
+      "operation": "Lecture",
+      "assignments": "Preparation: Textbook Chapter 1 pp.15-44 Review: Chapter 1 Self-evaluation",
+      "minutes": "180"
     },
     {
-      "index": "3-4",
-      "content": "・ Present and comment on P and U course\nreports.\n・ Esquisse 1\nCheck zoning, layout plan, and architectural\nimage Esquisse individually (Architecture)\n・ Check the contents of city survey and\nanalysis (Urban)\n・ Check survey results and analysis of\nexisting buildings (Renovation)",
-      "operation": "Lectures, questions and\nanswers, self-checks\nSupplementary lectures\nand questions will be\nheld as necessary.",
-      "assignments": "・ Modification of last check\n・ Based on the content\nlearned in the lecture,\nperform esquisse for the next\nclass.",
-      "minutes": "200"
+      "index": "2",
+      "content": "- Things to prepare before web site production",
+      "operation": "Lecture and practicum",
+      "assignments": "Preparation: Textbook Chapter 1 pp.45-64 Review: Using up Visual Studio Code and Chrome, self-evaluation",
+      "minutes": "300"
     },
     {
-      "index": "5-6",
-      "content": "・ C and R course interim presentation and\ncommentary\n・ Esquisse 2\n・ Check individual Esquisse mainly on floor\nplan (Architecture)\n・ Check the contents of city survey and\nanalysis (Urban)\n・ Check architectural renovation plans and\nprograms (Renovation)",
-      "operation": "Exercises and self-checks\nin the drafting room.\nSupplementary lectures\nand questions will be\nheld as necessary.",
-      "assignments": "・ Modification of last check\n・ Based on the content\nlearned in the lecture,\nperform esquisse for the next\nclass.",
-      "minutes": "200"
+      "index": "3",
+      "content": "- HTML basics that you should remember",
+      "operation": "Lecture and practicum Reviewing your knowledge of development environment, self-evaluation",
+      "assignments": "Preparation: Textbook Chapter 2 pp.65-92 Review: Complete sample HTML web site, self-evaluation",
+      "minutes": "180"
     },
     {
-      "index": "7-8",
-      "content": "・ Esquisse 3\n・ Esquisse of plan, elevation and section\nplan is checked individually (Architecture)\n・ Check the various contexts of the city\nunderstood from the results of the city\nsurvey and analysis, and the characteristics\nand issues of the extracted “characteristic\npoints” (Urban)\n・ Check esquisse individually in renovation\nspace (Renovation)",
-      "operation": "Exercises and self-checks\nin the drafting room.",
-      "assignments": "・ Modification of last check\nPerforms esquisse of\nelevation and cross section\n (Architecture).\nDeepen city survey and\nanalysis (Urban)\nRehabilitation esquisse of\nelevation and cross section\n (Renovation)",
-      "minutes": "200"
+      "index": "4",
+      "content": "- CSS basics that you should remember",
+      "operation": "Lecture and practicum Reviewing your knowledge of HTML, self-evaluation",
+      "assignments": "Preparation: Textbook Chapter 3 pp.93-128 Review: Complete simple web with CSS, self-evaluation.",
+      "minutes": "300"
     },
     {
-      "index": "9-10",
-      "content": "・ Esquisse 4\n・ Esquisse of plan, elevation and section\nplan is checked individually (Architecture)\n・ Check the contents of various contexts that\nhave been read and the content of improvement\nproposals that make use of the characteristics\nof “characteristic points” (Urban).\n・ Check esquisse individually in renovation\nspace (Renovation)",
-      "operation": "Exercises and self-checks\nin the drafting room.",
-      "assignments": "・ Modification of last check\nPerforms esquisse of\nelevation and cross section\n (Architecture).\nDeepen city survey and\nanalysis (Urban)\nRehabilitation esquisse of\nelevation and cross section\n (Renovation)",
-      "minutes": "200"
+      "index": "5",
+      "content": "- Responsive design basics that you should remember",
+      "operation": "Lecture and practicum Reviewing your knowledge of CSS, self-evaluation",
+      "assignments": "Preparation: Textbook Chapter 4 pp.129-156 Review: Complete simple responsive design web page, self-evaluation.",
+      "minutes": "300"
     },
     {
-      "index": "11-12",
-      "content": "Esquisse 5\nIndividually check the final Esquisse to\ncomplete the examination results of each issue\nand complete the work.",
-      "operation": "Exercises and self-checks\nin the drafting room.",
-      "assignments": "・ Create drawings and models\nto be works (architecture,\nUrban, renovation).",
-      "minutes": "200"
+      "index": "6",
+      "content": "- Creating full screen web pages",
+      "operation": "Lecture and practicum Reviewing your knowledge of responsive design",
+      "assignments": "Preparation: Textbook Chapter 4 pp.157-192 Review: Complete full screen web pages, self-evaluation.",
+      "minutes": "300"
     },
     {
-      "index": "13-14",
-      "content": "・ Check the final work of the first\nassignment and submit it.\n・ Explanation of the second assignment\n(Architecture, Urban, digital design )\nPresent the purpose of the task, design\nconditions, required drawings, etc.\n・ Category C, P, U, R courses will be\ndivided, and report assignments will be given.",
-      "operation": "Exercises and self-checks\nin the drafting room.\nLecture and Q&A",
-      "assignments": "・ Check the work by\nyourself.\n・ Search and study similar\ncases for the issues\nreceived.\n・ Visit the site of the\nissue to understand the\nenvironment.\n・ Start drafting a plan.",
-      "minutes": "200"
+      "index": "7",
+      "content": "- Creating flexible boxes web pages",
+      "operation": "Lecture and practicum Reviewing your created full screen web pages",
+      "assignments": "Preparation: Textbook Chapter 5 pp.193-224 Review: Complete flexible boxes web pages, self-evaluation.",
+      "minutes": "300"
     },
     {
-      "index": "15-16",
-      "content": "・ Review of the first assignment",
-      "operation": "Exercises and self-checks\nin the drafting room.\nLecture and Q&A",
-      "assignments": "Based on the content learned\nin the lecture, perform\nesquisse for the next class.",
-      "minutes": "200"
+      "index": "8",
+      "content": "- Creating single column web pages and embedding moving pictures",
+      "operation": "Lecture and practicum Reviewing your flexible boxes web pages",
+      "assignments": "Preparation: Textbook Chapter 6 pp.225-264 Review: Complete single col. web pages, self-evaluation.",
+      "minutes": "360"
     },
     {
-      "index": "17-18",
-      "content": "・ P, U course report presentation and\ncommentary\nEsquisse 1\n・ Check zoning, layout plan and architectural\nimage of individual esquisses individually\n(Architecture)\n・ Check the characteristics and issues of\n“characteristic points” (Urban)\n・Check the survey results and analysis\ncontents of the plaza roof and digital design\n(digital design)",
-      "operation": "Exercises and self-checks\nin the drafting room.",
-      "assignments": "・ Modification of last check\nPerforms esquisse of\nelevation and cross section\n (Architecture).\nDeepen city survey and\nanalysis, and study design\nconcept and basic composition\n (Urban)\nInvestigate and analyze\nexamples of plaza roofs and\ndigital design (digital\ndesign)",
-      "minutes": "200"
+      "index": "9",
+      "content": "- Creating grid layout web pages",
+      "operation": "Lecture and practicum Reviewing your single column web pages",
+      "assignments": "Preparation: Textbook Chapter 7,8 pp.265-296 Review: Complete grid layout web pages, self-evaluation.",
+      "minutes": "360"
     },
     {
-      "index": "19-20",
-      "content": "Esquisse 2\n・ Check individual esquisses mainly on floor\n plan (Achitecture)\n・ Check the plan / design concept of the\nimprovement proposal, the relationship between\nthe buildings and the external space, and the\nbasic composition (Urban)\n・Check the optimization method of roof design\n(digital design)",
-      "operation": "Exercises and self-checks\nin the drafting room.",
-      "assignments": "・ Modification of last check\nPerforms esquisse of\nelevation and cross section\n (Architecture).\nPerform layout planning and\nlandscape esquisse (Urban)\nRehabilitation esquisse of\nLearning optimization methods\nusing visual programming\n(digital design)",
-      "minutes": "200"
+      "index": "10",
+      "content": "- A written exam and self-evaluation",
+      "operation": "Exam and lecture",
+      "assignments": "Preparation: Review what you learned. Self-evaluation",
+      "minutes": "360"
     },
     {
-      "index": "21-22",
-      "content": "・ C and R course interim presentation and\ncomment\nEsquisse 3\n・ Check esquisse individually on plan,\nelevation and section plan (Architecture)\n・ Plan and cross section layout plan,\nlandscape Esquisse individually checked\n(Urban)\n・ Individually check the progress of roof\ndesign optimization (digital design)",
-      "operation": "Exercises and self-checks\nin the drafting room.",
-      "assignments": "・ Modification of last check\nPerforms esquisse of\nelevation and cross section\n (Architecture).\nPerform plane, elevation,\ncross-section planning and\nlandscape esquisse (Urban)\nOptimization of roof design\nthrough visual programming\n(digital design)",
-      "minutes": "200"
+      "index": "11",
+      "content": "- Creating 2 columns shop web pages",
+      "operation": "Lecture and practicum Reviewing overall HTML/CSS knowledge",
+      "assignments": "Preparation: Textbook Chapter 9,10 pp.297-340 Review: Complete your 2 columns shop web pages, self-evaluation.",
+      "minutes": "360"
     },
     {
-      "index": "23-24",
-      "content": "Esquisse 4\n・ Esquisses for plane elevation and\ncross-section planning are checked\nindividually (Architecture).\n・ Each plan, elevation, section plan, and\nlandscape Esquisses are checked individually\n (Urban)\n・Individually check the safety by optimizing\nthe roof design (digital design)",
-      "operation": "Exercises and self-checks\nin the drafting room.",
-      "assignments": "・ Modification of last check\nPerforms esquisse of\nelevation and cross section\n (Architecture).\nPerform plane, elevation,\ncross-section planning and\nlandscape esquisse (Urban)\nRoof design optimization and\ndesign proposal (digital\ndesign)",
-      "minutes": "200"
+      "index": "12",
+      "content": "- Overall Practicum: Creating your shop or portfolio site (1)",
+      "operation": "Lecture and practicum Reviewing your created web pages",
+      "assignments": "Preparation: Planning your web site Review: Creating your web pages, self-evaluation",
+      "minutes": "300"
     },
     {
-      "index": "25-26",
-      "content": "Esquisse 5\n・ Check esquisse individually on plan,\nelevation and section plan (Architecture)\n・ Each plan, elevation, section plan, and\nlandscape esquisse are checked individually\n(Urban)\n・Individually check the safety by optimizing\nthe roof design (digital design)",
-      "operation": "Exercises and self-checks\nin the drafting room.",
-      "assignments": "・ Modification of last check\nPerforms esquisse of\nelevation and cross section\n (Architecture).\nPerform plane, elevation,\ncross-section planning and\nlandscape esquisse (Urban)\nRoof design optimization and\ndesign proposal (digital\ndesign)",
-      "minutes": "200"
+      "index": "13",
+      "content": "- Overall Practicum: Creating your shop or portfolio site (2) - Uploading created contents to a web server",
+      "operation": "Lecture and practicum Reviewing your created web pages",
+      "assignments": "Review: Complete your web site and upload your contents to a web server Self-evaluation",
+      "minutes": "300"
     },
     {
-      "index": "27-28",
-      "content": "・ Submit the second assignment. Perform a\n self-check on the submission.",
-      "operation": "・ Check and advice from\n teachers in drafting\nroom.\n・ Self-check",
-      "assignments": "・ Check the work by\nthemselves",
-      "minutes": "200"
+      "index": "14",
+      "content": "- Final Presentation: Introducing your shop or portfolio site",
+      "operation": "Presentation by students",
+      "assignments": "Preparation: Prepare your presentation including completion of web creation & upload, self-evaluation",
+      "minutes": "180"
     },
     {
-      "index": "29-30",
-      "content": "After reviewing and returning the second\nassignment as a reflection class, conduct a\nself-check class.",
-      "operation": "Explanation of intention\nof designer / planner\nReview, Q & A, Self-check",
-      "assignments": "Review the strengths and\nweaknesses of their own work,\nand appreciate and refer to\nthe work of others.",
-      "minutes": "200"
+      "index": "15",
+      "content": "- Creating inquiry web pages with google map - Self-evaluation - Questionnaire",
+      "operation": "Lecture and practicum",
+      "assignments": "Review: Overall reviewing Self-evaluation Level of achievement",
+      "minutes": "90"
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　A037-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Architecture(〜2024)\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                建築デザイン総合演習Ｂ\n                Architectural Integrated Exercises for Design B\n\n              3\n              A037-01\n\n                2026年度\n\n                3rd year 2nd semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  HACHIYA Toshio, TAKEUCHI Shinichi, YAMADA Keijirou, SATO Kouichi, FUJII Takeshi, MASUZAKI Yosuke, SHIMOKAWA Yuichi, MIYASHITA Tomohiro, KOZU Seiichi, YOSHIMURA Toshihiro, KOBAYASHI Yoshinori, TANISHIGE Yoshiyuki\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Architectural design\n2.Spatial Composition\n3.Functional planning (program)\n4.Inner-outer space\n5.Regional cooperation\n\n              This class is the final stage of the architectural design exercise. Understand the function and composition of large public buildings or complex urban spaces, and plan and design them. In particular, at the stage just before Project Design Ⅲ, the goal is to develop a variety of conditions and functions, and to develop creative abilities that can be integrated as plans and design proposals.\n\n              授業の概要および学習上の助言\n\n              Assignment is design and planning of buildings and cities with special surrounding environment and complicated required functions. The design issues are roughly divided into three issues (see below).\nHowever, in addition to general design drawings, students propose appropriate and attractive expressions using drawings and sentences showing concepts, model photographs, CG, etc.\n1) A large-scale building that satisfies the various functions of facilities, such as elementary school buildings and multicultural buildings in central Kanazawa, and that requires attractive architectural spaces. (two assignments).\n2) Planning issues for integrated urban design of buildings and external spaces by decoding and re-editing the contexts of cities and towns (two assignments).\n3) Renovation of buildings with changing the use of existing public buildings (one asignment).\n４）The task of designing the roof of the plaza while learning techniques such as optimization using visual programming (one asignment).\n\nFor the first task, you can freely choose one of the four tasks (1), (2), and (3), and for the second task, you can freely choose one from the four options (1), (2), and (4), and create your work.\n\n              教科書および参考書・リザーブドブック\n\n              None\n\n              履修に必要な予備知識や技能\n\n              This course is based on basic knowledge of architecture in general and the design ability of architectural design I and II, Architectural Integrated Exercises for Design A.\nStudents try to apply the knowledge related to the planning and design of architecture and exterior space learned in various classes to the design work.\nIf you choose Course D in ④ above and have not completed the credits for \"Architectural Information Design\" in the previous semester, you will need to study visual programming (Rhino+Grasshopper) in advance.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                L\n                Students can analyze the characteristics of the urban area, traditional space, natural environment of location.\n\n                ②\n                I,K\n                Students can develop their ability to organize and design various spaces as architecture and urban space.\n\n                ③\n                L\n                Students can analyze the characteristics of the local culture and community and reflect them in urban design.\n\n                ④\n                I,K,O\n                Students can understand and propose about conversion of existing archi",
-  "courseId": "2026:fall:A037-01:0:557",
+  "rawText": "金沢工業大学 学習支援計画書 F102-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Management Systems\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\nWebデザイン\nWeb Design  2 F102-01  2024年度\n 1st year 1st semester  修学規程第4条を参照\n    担当教員名\n SAITO Masashi\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Internet 2.WWW 3.HTML 4.CSS  This course is for an educational goal of the Dept. of Management Systems to acquire \"Information design basic ability\". Students will: (1)acquire the basic ability to utilize IT including mark-up language and the Internet, (2)learn the fundamental theory of WWW (World Wide Web) site, (3)learn how to create, manage and operate web pages.\n    授業の概要および学習上の助言   To create, manage and operate a WWW site, the following 3 abilities are required: (1) The ability to understand the WWW site production process, (a) Planning a WWW site, (b) Design and implement a WWW site, (c) Manage and Operate a WWW site. (2) The ability to understand and apply HTML (Hyper-Text Mark-up Language) and CSS (Cascading Style Sheets) to produce a WWW site, (3) The ability to produce a web site that considers effective expression of information, ease of use, and availability to anyone. Students will acquire abilities 1 and 2 mainly through lectures and exercises in the first half of the course; they will acquire ability 3 in the second half of the course.\n    教科書および参考書・リザーブドブック   Text Book: A book that you can learn HTML & CSS and web design in one book (in Japanese), 2022/1/12, Gijutsu-Hyohron Co., Ltd. (ISBN: 978-4-297-12510-3)\n    履修に必要な予備知識や技能   Prior knowledge is not required before taking this course, but you should learn the designated part of the textbook. According to students’ understanding degree, lectures and practicums progress may be changed.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① H Be able to set up your laptop computer and browse any WWW sites.   ② H,J Be able to use text editor (Brackets) to design and implement Web pages using text and still images using HTML.   ③ H,J Be able to upload created files (contents) to a web server.   ④ H,J Be able to lay out web contents using CSS.   ⑤ H,J Be able to produce a web site that considers effective expression of information, ease of use, and availability    ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 30 0 20 0 40 0 10 100     指標と評価割合 総合評価割合 30 0 20 0 40 0 10 100   総合力指標 知識を取り込む力 30 0 20 0 40 0 10 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ A written exam will be held at the middle of the semester to confirm what students have learned from the lectures and practicums.   ② レ   ③     ④     ⑤     ⑥     クイズ\n小テスト ①      ②     ③     ④     ⑤     ⑥     レポート ① レ Students will be evaluated on a report regarding privacy, security, copyright, and netiquette with respect to the Internet.   ②     ③     ④     ⑤     ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ① レ Students will be evaluated by their own produced web site.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ① レ Students will be evaluated by their class attitude.   ②     ③ レ   ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     (1) Be able to browse any web sites from your laptop, (2) Be able to produce some web pages using text editor with text and still images. (3) Be able to upload the produced files to a web server. (4) Be able to lay out pages using CSS. (5) Be able to produce a web site considering the effective expression of information, ease of use, and availability to anyone. (6) Be able to produce a web site with unified operations and color schemes by realizing original ideas.  (1) Be able to browse any web sites from your laptop computer, (2) Be able to produce some web pages using text editor with text and still images. (3) Be able to ",
+  "courseId": "2024:full-year:F921-18:0:557",
   "language": "en"
 }

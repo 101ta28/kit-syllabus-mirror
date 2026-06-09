@@ -1,51 +1,53 @@
 {
   "sourceIndex": 447,
   "sourceUrl": "/opsyllabus/kitos0110/447/1",
-  "importedAt": "2026-06-08T09:34:02.217Z",
-  "title": "システム思考",
-  "subtitle": "Systems Thinking",
-  "courseType": "Major ProgramMajor Courses",
+  "importedAt": "2026-06-09T01:29:23.239Z",
+  "title": "工学大意(環境土木)",
+  "subtitle": "Introduction to Engineering(Civil Environmental Engineering)",
+  "courseType": "Major Program\nMajor Courses",
   "credits": "2",
-  "term": "2026年度\n\n                3rd year 2nd semester",
+  "term": "2024年度\n 1st year 1st semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "SAITO Masashi"
+    "MIYAZATO Shinichi"
   ],
   "keywords": [
-    "System Design",
-    "Stok, Flow, Feed-back loop",
-    "Resilience, Hierarchy, Self organization",
-    "Levalage"
+    "Civil Engineering 2.Actual Field 3.History 4.Career Pass 5.GX, DX"
   ],
-  "educationalGoal": "This course is for an educational goal of the Dept. of Management Systems to acquire \"Information design basic ability\". The environment surrounding us is composed of various things intricately intertwined. Even if systems are observed and analyzed from only one aspect and modeled or made into IT, not only the expected effect may not be obtained, but also new problems may be created. Students will learn not only static modeling, but also components behavior and feedback that change over time.",
-  "advice": "The events occurring in the world are composed of various things and their relationships intricately intertwined. Students will learn methods to model and analyze dynamically changing structures and relationships, as well as changes and stability of the entire system. First, students will acquire the basic skills to read and understand the data accurately, and perform initial analysis based on practical tasks. Next, students will learn about the stock, flow, and feedback loop as the basic structure and behavior of the system. Then students will learn resilience, self-organization, hierarchy as a function of the system, and concrete the ability to search for intervention places as leverage points.",
-  "books": "Thinking in Systems: A Primer, Donella H. Meadows, Chelsea Green Pub Co; Illusrated version (2008/12/3), ISBN: 978-1603580557 (Kindle version is also available)\nFactfulness Illustrated, Hans Rosling, et. al., Sceptre (2019/10/3) ISBN: 978-1473637467",
-  "requiredKnowledge": "To take and earn credits for \"System Modeling,\" which is a second-year class in the Department of Management Information is essential. It is not necessary to take other courses for basic information design skills up to the 1st semester of junior, but it is desirable that you have already taken them. It is also recommended that you will take \"Advanced Programming Applications\" at the same time.",
+  "educationalGoal": "Students will: (1) understand connection between civil engineering and society, (2) understand history of technology, (3) understand academic area of civil and environmental engineering, (4) plan their course of study considering career formation to accomplish their dreams.",
+  "advice": "This is a basic course of study for civil and environmental engineering. We will cover the following materials: 1. Understanding of system in the Department of Civil and Environmental Engineering (GX) 2. Understanding of outline in Civil and Environmental Engineering 3. Development of scientific capabilities that logically consider the essence of phenomena and conditions 4. Introduction of fields to academic and research Students are required to actively participate in class. This is useful for all subjects, in particular Design in Civil and Environmental Engineering.",
+  "books": "none",
+  "requiredKnowledge": "Selecting and finding of an area of interest in civil and environmental engineering.",
   "activityGoals": [
     {
       "index": "①",
-      "type": "J,L",
-      "body": "Be able to understand and explain the basics of systems thinking."
+      "type": "A,I",
+      "body": "Students can understand engineering’s role in contemporary society, and plan their own studies. [0.05A, 0.05I]"
     },
     {
       "index": "②",
-      "type": "J,L",
-      "body": "Be able to explain the basic roles of stock, flow, dynamics, feedback."
+      "type": "A,I",
+      "body": "Students can understand the study area of civil and environmental engineering. [0.1A, 0.1I]"
     },
     {
       "index": "③",
-      "type": "J,L",
-      "body": "Be able to explain system constraints, disturbance recovery, self-organization, and the trade-offs."
+      "type": "J",
+      "body": "Students can give a rough outline of the design, construction, and maintenance of structures. [0.2J]"
     },
     {
       "index": "④",
-      "type": "J,N",
-      "body": "Be able to use a modeler to model complicated systems."
+      "type": "K",
+      "body": "Students can give a rough outline of the use of the natural environment (GX). [0.2K]"
     },
     {
       "index": "⑤",
-      "type": "J,L",
-      "body": "Be able to acquire basic skills to read and understand data accurately."
+      "type": "L",
+      "body": "Students can give a rough outline about measurement, analysis, and evaluation of geoinformatics (DX). [0.2L]"
+    },
+    {
+      "index": "⑥",
+      "type": "A,I",
+      "body": "Students can explain the process engineers follow as they create their own careers. [0.05A, 0.05I]"
     }
   ],
   "evaluationWeights": [
@@ -54,18 +56,18 @@
       "values": [
         "0",
         "0",
-        "50",
-        "40",
         "0",
         "0",
-        "10",
+        "0",
+        "100",
+        "0",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -77,18 +79,18 @@
       "values": [
         "0",
         "0",
-        "50",
-        "40",
         "0",
         "0",
-        "10",
+        "0",
+        "100",
+        "0",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -100,18 +102,18 @@
       "values": [
         "0",
         "0",
-        "50",
-        "40",
         "0",
         "0",
-        "10",
+        "0",
+        "100",
+        "0",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -132,9 +134,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -142,7 +144,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -155,9 +157,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -178,9 +180,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -189,118 +191,118 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "(1) Be able to understand and explain the basics of systems thinking, (2) Be able to understand the basic roles of stock, flow, dynamics, feedback, (3) Be able to explain constraints on the system, recovery from disturbances and self-organization, trade-offs between partial optimization and total optimization, (4) Be able to use a modeler to model some systems.",
-    "standard": "(1) Be able to understand and explain the basics of systems thinking, (2) Be able to understand the basic roles of stock, flow, dynamics, feedback, (3) Be able to explain constraints on the system, recovery from disturbances and self-organization, trade-offs between partial optimization and total optimization."
+    "ideal": "Students clearly consider their study targets in light of their plans to become engineers.",
+    "standard": "Students are interested in the utility of civil and environmental engineering."
   },
   "clipProcess": "",
   "lessons": [
     {
       "index": "1",
-      "content": "- Guidance\n- Read the data accurately\n     Division and negative beliefs",
-      "operation": "Lecture and discussion",
-      "assignments": "Review: Review the relevant\nparts of the lesson materials",
-      "minutes": "180min"
+      "content": "Guidance Outline of College of Engineering Outline of Department of Civil and Environmental Engineering",
+      "operation": "Lecture and interactive activities Self-check Submission of note",
+      "assignments": "Inspect curriculum guidebook",
+      "minutes": "50"
     },
     {
       "index": "2",
-      "content": "- Linear change and fear",
-      "operation": "Lecture and discussion",
-      "assignments": "Review: Review the relevant\nparts of the lesson materials",
-      "minutes": "180min"
+      "content": "Civilization, life, and social infrastructure in the world",
+      "operation": "Lecture and interactive activities Self-check Submission of note",
+      "assignments": "Preview world’s geography and history Review worldwide social infrastructures",
+      "minutes": "50 50"
     },
     {
       "index": "3",
-      "content": "- Exaggeration and patterning",
-      "operation": "Lecture and discussion",
-      "assignments": "Review: Review the relevant\nparts of the lesson materials",
-      "minutes": "180min"
+      "content": "Civilization, life and social infrastructure in Japan",
+      "operation": "Lecture and interactive activities Self-check Submission of note",
+      "assignments": "Preview Japanese geography and history Review social infrastructures in Japan",
+      "minutes": "50 50"
     },
     {
       "index": "4",
-      "content": "- Destiny and simplification",
-      "operation": "Lecture and discussion",
-      "assignments": "Review: Review the relevant\nparts of the lesson materials",
-      "minutes": "180min"
+      "content": "Civilization, life and social infrastructure in Hokuriku region",
+      "operation": "Lecture and interactive activities Self-check Submission of note",
+      "assignments": "Preview Japanese geography and history Review social Hokuriku region infrastructures",
+      "minutes": "50 50"
     },
     {
       "index": "5",
-      "content": "- Investigate the statistics of the United\nNations and/or others and see the world\n  i.e. COVID-19, electric vehicle, renewable\nenergy, global warming",
-      "operation": "Practicum",
-      "assignments": "Creating a report of research\nresults",
-      "minutes": "300min"
+      "content": "Disaster prevention",
+      "operation": "Lecture and interactive activities Self-check Submission of note",
+      "assignments": "Preview disaster prevention Review disaster prevention",
+      "minutes": "50 50"
     },
     {
       "index": "6",
-      "content": "- Investigate the statistics of the United\nNations and/or others and see the world\n  i.e. COVID-19, electric vehicle, renewable\nenergy, global warming",
-      "operation": "Practicum",
-      "assignments": "Completion of research report",
-      "minutes": "300min"
+      "content": "Aging of infrastructures",
+      "operation": "Lecture and interactive activities Self-check Submission of note",
+      "assignments": "Preview maintenance Review maintenance",
+      "minutes": "50 50"
     },
     {
       "index": "7",
-      "content": "- System structure and behavior\n   Stock, flow, feedback loop",
-      "operation": "Lecture and discussion",
-      "assignments": "Review: Review the relevant\nparts of the lesson materials",
-      "minutes": "180min"
+      "content": "Presentation by visiting lecturer (1)",
+      "operation": "Lecture and interactive activities Self-check Submission of note",
+      "assignments": "Preview special lecture Review special lecture",
+      "minutes": "60 60"
     },
     {
       "index": "8",
-      "content": "- System specifics",
-      "operation": "Lecture and discussion",
-      "assignments": "Review: Review the relevant\nparts of the lesson materials",
-      "minutes": "180min"
+      "content": "National land planning and city planning Ground design",
+      "operation": "Lecture and interactive activities Self-check Submission of note",
+      "assignments": "Preview national development plan and structure design Review national land planning and city planning Review structure designing",
+      "minutes": "50 50"
     },
     {
       "index": "9",
-      "content": "- System functions\n   Resilience, self-organization, hierarchy",
-      "operation": "Lecture and discussion",
-      "assignments": "Review: Review the relevant\nparts of the lesson materials",
-      "minutes": "180min"
+      "content": "Infrastructures Construction industry",
+      "operation": "Lecture and interactive activities Self-check Submission of note",
+      "assignments": "Preview infrastructures and construction industry Review infrastructures and construction industry",
+      "minutes": "50 50"
     },
     {
       "index": "10",
-      "content": "- System pitfalls\n   Wrong boundaries, bounded rationality,\nlimiting factors, non-linearity",
-      "operation": "Lecture and discussion",
-      "assignments": "Review: Review the relevant\nparts of the lesson materials",
-      "minutes": "180min"
+      "content": "Presentation by visiting lecturer (2)",
+      "operation": "Lecture and interactive activities Self-check Submission of note",
+      "assignments": "Preview special lecture Review special lecture",
+      "minutes": "60 60"
     },
     {
       "index": "11",
-      "content": "- Leverage point\n   Location of intervention in the system",
-      "operation": "Lecture and discussion",
-      "assignments": "Review: Review the relevant\nparts of the lesson materials",
-      "minutes": "180min"
+      "content": "Technological development Safety and morality",
+      "operation": "Lecture and interactive activities Self-check Submission of note",
+      "assignments": "Preview technology in civil engineering Preview accidents Review needs for technological development Review needs for safety and morality",
+      "minutes": "50 50"
     },
     {
       "index": "12",
-      "content": "- Specific system analysis exercise (1)",
-      "operation": "Practicum",
-      "assignments": "Advance each exercise",
-      "minutes": "300min"
+      "content": "Presentation by visiting lecturer (3)",
+      "operation": "Lecture and interactive activities Self-check Submission of note",
+      "assignments": "Preview special lecture Review special lecture",
+      "minutes": "60 60"
     },
     {
       "index": "13",
-      "content": "- Specific system analysis exercise (2)",
-      "operation": "Practicum",
-      "assignments": "Advance each exercise\nPreparation of presentation\nmaterials",
-      "minutes": "300min"
+      "content": "Presentation by visiting lecturer (4)",
+      "operation": "Lecture and interactive activities Self-check Submission of note",
+      "assignments": "Preview special lecture Review special lecture",
+      "minutes": "60 60"
     },
     {
       "index": "14",
-      "content": "- System analysis presentation",
-      "operation": "Presentation",
-      "assignments": "Feedback on questions and\ncomments at the time of\npresentation",
-      "minutes": "300min"
+      "content": "Connection of university and society Career pass",
+      "operation": "Lecture and interactive activities Self-check Submission of note",
+      "assignments": "Preview current events View of aims as members of society Think career pass",
+      "minutes": "50 50"
     },
     {
       "index": "15",
-      "content": "- Live in the world of systems\n- looking back lectures\n- Self-evaluation\n- Questionnaire",
-      "operation": "Lecture and practicum",
-      "assignments": "Review: Overall reviewing\nSelf-evaluation Level of\nachievement",
-      "minutes": "90min"
+      "content": "Summary",
+      "operation": "Interactive activities and individual conferences",
+      "assignments": "Review of previous classes",
+      "minutes": "50"
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　F141-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Management Systems(〜2024)\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                システム思考\n                Systems Thinking\n\n              2\n              F141-01\n\n                2026年度\n\n                3rd year 2nd semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  SAITO Masashi\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.System Design\n2.Stok, Flow, Feed-back loop\n3.Resilience, Hierarchy, Self organization\n4.Levalage\n\n              This course is for an educational goal of the Dept. of Management Systems to acquire \"Information design basic ability\". The environment surrounding us is composed of various things intricately intertwined. Even if systems are observed and analyzed from only one aspect and modeled or made into IT, not only the expected effect may not be obtained, but also new problems may be created. Students will learn not only static modeling, but also components behavior and feedback that change over time.\n\n              授業の概要および学習上の助言\n\n              The events occurring in the world are composed of various things and their relationships intricately intertwined. Students will learn methods to model and analyze dynamically changing structures and relationships, as well as changes and stability of the entire system. First, students will acquire the basic skills to read and understand the data accurately, and perform initial analysis based on practical tasks. Next, students will learn about the stock, flow, and feedback loop as the basic structure and behavior of the system. Then students will learn resilience, self-organization, hierarchy as a function of the system, and concrete the ability to search for intervention places as leverage points.\n\n              教科書および参考書・リザーブドブック\n\n              Thinking in Systems: A Primer, Donella H. Meadows, Chelsea Green Pub Co; Illusrated version (2008/12/3), ISBN: 978-1603580557 (Kindle version is also available)\nFactfulness Illustrated, Hans Rosling, et. al., Sceptre (2019/10/3) ISBN: 978-1473637467\n\n              履修に必要な予備知識や技能\n\n              To take and earn credits for \"System Modeling,\" which is a second-year class in the Department of Management Information is essential. It is not necessary to take other courses for basic information design skills up to the 1st semester of junior, but it is desirable that you have already taken them. It is also recommended that you will take \"Advanced Programming Applications\" at the same time.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                J,L\n                Be able to understand and explain the basics of systems thinking.\n\n                ②\n                J,L\n                Be able to explain the basic roles of stock, flow, dynamics, feedback.\n\n                ③\n                J,L\n                Be able to explain system constraints, disturbance recovery, self-organization, and the trade-offs.\n\n                ④\n                J,N\n                Be able to use a modeler to model complicated systems.\n\n                ⑤\n                J,L\n                Be able to acquire basic skills to read and understand data accurately.\n\n                ⑥\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                0\n\n                0\n\n                50\n\n                40\n\n                0\n\n                0\n\n                10\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                0\n\n                0\n\n                50\n\n      ",
-  "courseId": "2026:fall:F141-01:0:447",
+  "rawText": "金沢工業大学 学習支援計画書 E701-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Civil and Environmental Engineering(2018〜)\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n工学大意(環境土木)\nIntroduction to Engineering(Civil Environmental Engineering)  2 E701-01  2024年度\n 1st year 1st semester  修学規程第4条を参照\n    担当教員名\n MIYAZATO Shinichi\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Civil Engineering 2.Actual Field 3.History 4.Career Pass 5.GX, DX  Students will: (1) understand connection between civil engineering and society, (2) understand history of technology, (3) understand academic area of civil and environmental engineering, (4) plan their course of study considering career formation to accomplish their dreams.\n    授業の概要および学習上の助言   This is a basic course of study for civil and environmental engineering. We will cover the following materials: 1. Understanding of system in the Department of Civil and Environmental Engineering (GX) 2. Understanding of outline in Civil and Environmental Engineering 3. Development of scientific capabilities that logically consider the essence of phenomena and conditions 4. Introduction of fields to academic and research Students are required to actively participate in class. This is useful for all subjects, in particular Design in Civil and Environmental Engineering.\n    教科書および参考書・リザーブドブック   none\n    履修に必要な予備知識や技能   Selecting and finding of an area of interest in civil and environmental engineering.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① A,I Students can understand engineering’s role in contemporary society, and plan their own studies. [0.05A, 0.05I]   ② A,I Students can understand the study area of civil and environmental engineering. [0.1A, 0.1I]   ③ J Students can give a rough outline of the design, construction, and maintenance of structures. [0.2J]   ④ K Students can give a rough outline of the use of the natural environment (GX). [0.2K]   ⑤ L Students can give a rough outline about measurement, analysis, and evaluation of geoinformatics (DX). [0.2L]   ⑥ A,I Students can explain the process engineers follow as they create their own careers. [0.05A, 0.05I]\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 0 0 0 0 0 100 0 100     指標と評価割合 総合評価割合 0 0 0 0 0 100 0 100   総合力指標 知識を取り込む力 0 0 0 0 0 100 0 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ①      ②     ③     ④     ⑤     ⑥     クイズ\n小テスト ①      ②     ③     ④     ⑤     ⑥     レポート ①      ②     ③     ④     ⑤     ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ① レ Students are required to create several sets of notes. Details for each assignment and grading criteria will be distributed in class.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥ レ   その他 ①      ②     ③     ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     Students clearly consider their study targets in light of their plans to become engineers. Students are interested in the utility of civil and environmental engineering.\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習課題に要する標準的な時間を記載してあります。日々の自学自習時間全体としては、各授業に応じた時間(例えば2単位科目の場合、予習2時間・復習2時間/週)を取るよう努めてください。詳しくは教員の指導に従って下さい。     授業明細   回数 学習内容 授業の運営方法 学習課題(予習・復習) 時間:分※     1  Guidance Outline of College of Engineering Outline of Department of Civil and Environmental Engineering Lecture and interactive activities Self-check Submission of note Inspect curriculum guidebook  50    2  Civilization, life, and social infrastructure in the world Lecture and interactive activities Self-check Submission of note Preview world’s geography and history Review worldwide social infrastructures  50 50  ",
+  "courseId": "2024:full-year:E926-25:0:447",
   "language": "en"
 }

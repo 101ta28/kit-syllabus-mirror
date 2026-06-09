@@ -1,77 +1,63 @@
 {
   "sourceIndex": 742,
   "sourceUrl": "/opsyllabus/kitos0110/742/1",
-  "importedAt": "2026-06-08T09:34:08.402Z",
-  "title": "生命・応用バイオ学入門とキャリアデザイン",
-  "subtitle": "Introduction to Life and Applied Biosciences and Career Design",
-  "courseType": "Major ProgramMajor Courses",
+  "importedAt": "2026-06-09T01:29:26.183Z",
+  "title": "電気化学",
+  "subtitle": "Electrochemistry",
+  "courseType": "Major Program\nMajor Courses",
   "credits": "2",
-  "term": "2026年度\n\n                1st year 1st semester",
+  "term": "2024年度\n 2nd year 2nd semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "HAKAMADA Yoshihiro"
+    "TSUYUMOTO Isao"
   ],
   "keywords": [
-    "Local collaboration",
-    "Life phenomenon",
-    "Biotechnology",
-    "Brain science",
-    "Genetic engineering"
+    "Electrochemistry 2.Energy and equilibrium 3.Electrolysis 4.Batteries 5.Standard electrode potential"
   ],
-  "educationalGoal": "Our college aims to nurture understanding and analytical ability of chemical and biological phenomena and to cultivate chemical and biotechnological engineers. In this course, you will understand the significance of learning chemistry, biology and their application fields, and the roles of engineers in related industrial fields. The objective of this course is to acquire the ideas necessary to achieve your future goals in your individual specialized field.",
-  "advice": "1.System of bioscience and chemistry\n  Understand the curriculum flow chart for 4 years.\n2.Application fields of bioscience\n  Systematic study of bioscience can be applied to a wide range of industries.\n3.Introduction to research fields and fostering scientific thinking abilities\n  In this course, you will understand three areas of study: biotechnology, brain science, and genetic\n  engineering.\n4.State-of-the-art research introduced by professors at the Department\n5.General exercise\n  Writing assignments should be submitted to the Portfolio.",
-  "books": "None",
-  "requiredKnowledge": "No prerequisites. Be sure to prepare for and review the class every week.",
+  "educationalGoal": "Electrochemistry deals with chemical phenomena involving electron exchange. Applications are numerous and include batteries, chemical synthesis by electrolysis, chemical sensors, surface treatment, and metal plating. An understanding of the field requires knowledge of standard electrode potential, the Nernst equation, and other information. Students will learn basic concepts, formulas, and applications such as batteries, chemical synthesis by electrolysis, and metal plating.",
+  "advice": "1. Basic concept of electrochemical systems (such as how electrolysis proceeds and electrode interface description) 2. Energy and equilibrium (such as standard Gibbs free energy of formation and chemical potential) 3. Standard electrode potential and the Nernst equation 4. Electrolysis current (relation between potential and current and the dynamics of electrode interface) 5. State-of-the-art electrochemistry (electrochemical STM, solid electrolytes, secondary batteries, fuel cells, solar cells)",
+  "books": "",
+  "requiredKnowledge": "A knowledge of units is required to solve calculation problems. Bring a scientific calculator.",
   "activityGoals": [
     {
       "index": "①",
-      "type": "I,J,K",
-      "body": "Ability to learn independently based on understanding the roles of bioscience and chemistry."
+      "type": "L-O,Q",
+      "body": "Explain electrolysis in a simple electrochemical system, such as a water and electrolyte solution."
     },
     {
       "index": "②",
-      "type": "I,J,K",
-      "body": "Ability to learn independently based on understanding of the educational objectives of this Department."
+      "type": "L-O,Q",
+      "body": "Determine correctly whether a reaction proceeds spontaneously from the changes in Gibbs free energy."
     },
     {
       "index": "③",
-      "type": "I,J,K",
-      "body": "Ability to explain the significance of studying at university."
+      "type": "L-O,Q",
+      "body": "Calculate standard electrode potential and electromotive force using thermodynamic data and the Nernst equation."
     },
     {
       "index": "④",
-      "type": "K",
-      "body": "Ability to explain the roles of bio-engineers in the related fields of bioscience."
-    },
-    {
-      "index": "⑤",
-      "type": "P",
-      "body": "Ability to consider the future development of bioscience fields logically and explain it properly."
-    },
-    {
-      "index": "⑥",
-      "type": "R",
-      "body": "Ability to describe your career plans and future dreams aimed at contributing to the community."
+      "type": "L-O,Q",
+      "body": "Explain energy conversion between chemical energy and electrical energy."
     }
   ],
   "evaluationWeights": [
     {
       "label": "総合評価割合",
       "values": [
+        "40",
+        "40",
+        "10",
         "0",
         "0",
-        "20",
-        "20",
         "0",
-        "60",
-        "0",
+        "10",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -81,20 +67,20 @@
     {
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
+        "40",
+        "40",
+        "10",
         "0",
         "0",
-        "20",
-        "20",
         "0",
-        "60",
-        "0",
+        "10",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -104,20 +90,20 @@
     {
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
+        "40",
+        "40",
+        "10",
         "0",
         "0",
-        "20",
-        "20",
         "0",
-        "60",
-        "0",
+        "10",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -138,9 +124,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -148,7 +134,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -161,9 +147,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -184,9 +170,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -195,118 +181,118 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "Ability to explain the historical development, social roles, and future prospects of a wide range of fields related to bioscience. Ability to describe your future contribution as engineers, technicians and researchers in your own words. Ability to propose a 4-year learning plan and future career plan based on an understanding of the significance of learning at university. Ability to communicate these plans and future prospects properly with others.",
-    "standard": "Ability to explain the historical development and social roles of a wide range of fields related to bioscience. Ability to describe your future contribution as engineers and technicians in your own words. Ability to propose a 4-year learning plan based on an understanding of the significance of learning at university. Ability to communicate these plans properly with others."
+    "ideal": "Can explain electrolysis in a simple electrochemical system such as water and electrolyte solution. Can determine accurately whether a reaction proceeds spontaneously from the Gibbs energy change. Can calculate accurately standard electrode potential and electromotive force using thermodynamic data and the Nernst equation. Can explain energy conversions between chemical energy and electrical energy.",
+    "standard": "Can explain the basics of electrolysis in a simple electrochemical system such as water and electrolyte solution. Can usually determine accurately whether a reaction proceeds spontaneously from the Gibbs energy change. Can calculate standard electrode potential and electromotive force using thermodynamic data and the Nernst equation. Can explain, on a basic level, energy conversions between chemical energy and electrical energy."
   },
   "clipProcess": "",
   "lessons": [
     {
       "index": "1",
-      "content": "What are the educational objectives of the\nDepartment?",
-      "operation": "Lecture and discussion\n(Head of Department)",
-      "assignments": "Report for the Portfolio",
-      "minutes": "60"
+      "content": "What is electrochemistry?",
+      "operation": "Lecture and Discussion",
+      "assignments": "Read the relevant section of the textbook beforehand and be able to complete the exercises.",
+      "minutes": "60 60"
     },
     {
       "index": "2",
-      "content": "Outlines of the three areas you learn at the\nDepartment of Applied Bioscience. I",
-      "operation": "Lecture and discussion\nSelf-check",
-      "assignments": "Report for the Portfolio",
-      "minutes": "60"
+      "content": "Understanding electrochemical systems 1 (Electrolysis of water)",
+      "operation": "Lecture, Discussion, and Quiz Self-check",
+      "assignments": "Read the relevant section of the textbook beforehand and be able to complete the exercises.",
+      "minutes": "60 60"
     },
     {
       "index": "3",
-      "content": "Outlines of the three areas you learn at the\nDepartment of Applied Bioscience. II",
-      "operation": "Lecture and discussion\nSelf-check",
-      "assignments": "Description and submission on\ndistribution form",
-      "minutes": "60"
+      "content": "Understanding electrochemical systems 2 (Electric double layer)",
+      "operation": "Lecture, Discussion, and Quiz Self-check",
+      "assignments": "Read the relevant section of the textbook beforehand and be able to complete the exercises.",
+      "minutes": "60 60"
     },
     {
       "index": "4",
-      "content": "Curricular programs and extra-curricular\nprograms (1)",
-      "operation": "Lecture and discussion\n(Head of Department)\nSelf-check",
-      "assignments": "Description and submission on\ndistribution form",
-      "minutes": "60"
+      "content": "Energy and equilibrium 1 (eV units, conditions for reactions to proceed)",
+      "operation": "Lecture, Discussion, and Quiz Self-check",
+      "assignments": "Read the relevant section of the textbook beforehand and be able to complete the exercises.",
+      "minutes": "60 60"
     },
     {
       "index": "5",
-      "content": "Curricular programs and extra-curricular\nprograms (2)",
-      "operation": "Lecture and discussion\n(2 teachers)",
-      "assignments": "Description and submission on\ndistribution form",
-      "minutes": "60"
+      "content": "Energy and equilibrium 2 (standard Gibbs free energy of formation, chemical potential)",
+      "operation": "Lecture, Discussion, and Quiz Self-check",
+      "assignments": "Read the relevant section of the textbook beforehand and be able to complete the exercises.",
+      "minutes": "60 60"
     },
     {
       "index": "6",
-      "content": "Laboratory introductions (1)",
-      "operation": "Lecture and discussion\n(2 teachers)",
-      "assignments": "Description and submission on\ndistribution form",
-      "minutes": "60"
+      "content": "Standard electrode potential (relation between Gibbs energy and potential difference)",
+      "operation": "Lecture, Discussion, and Quiz Self-check",
+      "assignments": "Read the relevant section of the textbook beforehand and be able to complete the exercises.",
+      "minutes": "60 60"
     },
     {
       "index": "7",
-      "content": "Laboratory introductions (2)",
-      "operation": "Lecture and discussion\n(2 teachers)",
-      "assignments": "Description and submission on\ndistribution form",
-      "minutes": "60"
+      "content": "Nernst equation 1",
+      "operation": "Lecture, Discussion, and Quiz Self-check",
+      "assignments": "Read the relevant section of the textbook beforehand and be able to complete the exercises.",
+      "minutes": "60 60"
     },
     {
       "index": "8",
-      "content": "Laboratory introductions (3)",
-      "operation": "Lecture and discussion\n(2 teachers)",
-      "assignments": "Description and submission on\ndistribution form",
-      "minutes": "60"
+      "content": "Nernst equation 2 (problem exercises)",
+      "operation": "Lecture, Discussion, and Quiz Self-check",
+      "assignments": "Read the relevant section of the textbook beforehand and be able to complete the exercises.",
+      "minutes": "60 60"
     },
     {
       "index": "9",
-      "content": "Laboratory introductions (4)",
-      "operation": "Lecture and discussion\n(2 teachers)",
-      "assignments": "Description and submission on\ndistribution form",
-      "minutes": "60"
+      "content": "Electrolysis current 1 (activation energy, reaction rate)",
+      "operation": "Lecture, Discussion, and Quiz Self-check",
+      "assignments": "Read the relevant section of the textbook beforehand and be able to complete the exercises.",
+      "minutes": "60 60"
     },
     {
       "index": "10",
-      "content": "Laboratory introductions (5)",
-      "operation": "Lecture and discussion\n(Head of Department)\nSelf-check",
-      "assignments": "Description and submission on\ndistribution form",
-      "minutes": "60"
+      "content": "Electrolysis current 2 (relation between potential and current, Tafel plots)",
+      "operation": "Lecture, Discussion, and Quiz Self-check",
+      "assignments": "Read the relevant section of the textbook beforehand and be able to complete the exercises.",
+      "minutes": "60 60"
     },
     {
       "index": "11",
-      "content": "How to write reports with logical thinking",
-      "operation": "Lecture and discussion\n(Head of Department)\nSelf-check",
-      "assignments": "Description and submission on\ndistribution form",
-      "minutes": "60"
+      "content": "Electrolysis current 3 (diffusion controlled, charge transfer controlled)",
+      "operation": "Lecture, Discussion, and Quiz Self-check",
+      "assignments": "Read the relevant section of the textbook beforehand and be able to complete the exercises.",
+      "minutes": "60 60"
     },
     {
       "index": "12",
-      "content": "Integrated learning (1)",
-      "operation": "Presentation for 1 min.",
-      "assignments": "Report for the Portfolio",
-      "minutes": "90"
+      "content": "Voltammetry",
+      "operation": "Lecture, Discussion, and Quiz Self-check",
+      "assignments": "Read the relevant section of the textbook beforehand and be able to complete the exercises.",
+      "minutes": "60 60"
     },
     {
       "index": "13",
-      "content": "Integrated learning (2)",
-      "operation": "Presentation for 1 min.",
-      "assignments": "Report for the Portfolio",
-      "minutes": "90"
+      "content": "Electrolytes (conductivity, mobility)",
+      "operation": "Lecture, Discussion, and Quiz Self-check",
+      "assignments": "Read the relevant section of the textbook beforehand and be able to complete the exercises.",
+      "minutes": "60 60"
     },
     {
       "index": "14",
-      "content": "Integrated learning (3)",
-      "operation": "Presentation for 1 min.",
-      "assignments": "Report for the Portfolio",
-      "minutes": "90"
+      "content": "Final examination and review",
+      "operation": "Self-evaluation",
+      "assignments": "Identify your mistakes and review your weaknesses.",
+      "minutes": "120"
     },
     {
       "index": "15",
-      "content": "Self-reflection",
-      "operation": "Lecture,\nSelf-reflection and\nindividual meeting",
-      "assignments": "",
-      "minutes": "60"
+      "content": "Batteries (primary battery, secondary battery, fuel cells)",
+      "operation": "Lecture, Discussion, and Quiz Self-check",
+      "assignments": "Read the relevant section of the textbook beforehand and be able to complete the exercises.",
+      "minutes": "60 60"
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　B301-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Life Science and Biotechnology\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                生命・応用バイオ学入門とキャリアデザイン\n                Introduction to Life and Applied Biosciences and Career Design\n\n              2\n              B301-01\n\n                2026年度\n\n                1st year 1st semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  HAKAMADA Yoshihiro\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Local collaboration\n2.Life phenomenon\n3.Biotechnology\n4.Brain science\n5.Genetic engineering\n\n              Our college aims to nurture understanding and analytical ability of chemical and biological phenomena and to cultivate chemical and biotechnological engineers. In this course, you will understand the significance of learning chemistry, biology and their application fields, and the roles of engineers in related industrial fields. The objective of this course is to acquire the ideas necessary to achieve your future goals in your individual specialized field.\n\n              授業の概要および学習上の助言\n\n              1.System of bioscience and chemistry\n  Understand the curriculum flow chart for 4 years.\n2.Application fields of bioscience\n  Systematic study of bioscience can be applied to a wide range of industries.\n3.Introduction to research fields and fostering scientific thinking abilities\n  In this course, you will understand three areas of study: biotechnology, brain science, and genetic\n  engineering.\n4.State-of-the-art research introduced by professors at the Department\n5.General exercise\n  Writing assignments should be submitted to the Portfolio.\n\n              教科書および参考書・リザーブドブック\n\n              None\n\n              履修に必要な予備知識や技能\n\n              No prerequisites. Be sure to prepare for and review the class every week.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                I,J,K\n                Ability to learn independently based on understanding the roles of bioscience and chemistry.\n\n                ②\n                I,J,K\n                Ability to learn independently based on understanding of the educational objectives of this Department.\n\n                ③\n                I,J,K\n                Ability to explain the significance of studying at university.\n\n                ④\n                K\n                Ability to explain the roles of bio-engineers in the related fields of bioscience.\n\n                ⑤\n                P\n                Ability to consider the future development of bioscience fields logically and explain it properly.\n\n                ⑥\n                R\n                Ability to describe your career plans and future dreams aimed at contributing to the community.\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                0\n\n                0\n\n                20\n\n                20\n\n                0\n\n                60\n\n                0\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                0\n\n                0\n\n                20\n\n                20\n\n                0\n\n                60\n\n                0\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                0\n\n                0\n\n                20\n\n                20\n\n                0\n\n                60\n\n                0\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n  ",
-  "courseId": "2026:spring:B301-01:0:742",
+  "rawText": "金沢工業大学 学習支援計画書 B015-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Applied Chemistry\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n電気化学\nElectrochemistry  2 B015-01  2024年度\n 2nd year 2nd semester  修学規程第4条を参照\n    担当教員名\n TSUYUMOTO Isao\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Electrochemistry 2.Energy and equilibrium 3.Electrolysis 4.Batteries 5.Standard electrode potential  Electrochemistry deals with chemical phenomena involving electron exchange. Applications are numerous and include batteries, chemical synthesis by electrolysis, chemical sensors, surface treatment, and metal plating. An understanding of the field requires knowledge of standard electrode potential, the Nernst equation, and other information. Students will learn basic concepts, formulas, and applications such as batteries, chemical synthesis by electrolysis, and metal plating.\n    授業の概要および学習上の助言   1. Basic concept of electrochemical systems (such as how electrolysis proceeds and electrode interface description) 2. Energy and equilibrium (such as standard Gibbs free energy of formation and chemical potential) 3. Standard electrode potential and the Nernst equation 4. Electrolysis current (relation between potential and current and the dynamics of electrode interface) 5. State-of-the-art electrochemistry (electrochemical STM, solid electrolytes, secondary batteries, fuel cells, solar cells)\n    教科書および参考書・リザーブドブック\n    履修に必要な予備知識や技能   A knowledge of units is required to solve calculation problems. Bring a scientific calculator.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① L-O,Q Explain electrolysis in a simple electrochemical system, such as a water and electrolyte solution.   ② L-O,Q Determine correctly whether a reaction proceeds spontaneously from the changes in Gibbs free energy.   ③ L-O,Q Calculate standard electrode potential and electromotive force using thermodynamic data and the Nernst equation.   ④ L-O,Q Explain energy conversion between chemical energy and electrical energy.   ⑤     ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 40 40 10 0 0 0 10 100     指標と評価割合 総合評価割合 40 40 10 0 0 0 10 100   総合力指標 知識を取り込む力 40 40 10 0 0 0 10 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ Exam questions are based on the lectures and exercises. Grading is based on the understanding of the material described in the GAS. The ability to think logically also will be assessed.   ② レ   ③ レ   ④ レ   ⑤     ⑥     クイズ\n小テスト ① レ Quizzes are conducted every week as a general rule. You can prepare for the quizzes by reviewing the lectures and studying related materials.   ② レ   ③ レ   ④ レ   ⑤     ⑥     レポート ① レ The understanding of the material described in the GAS and learning habits are assessed through a report assignment.   ② レ   ③ レ   ④ レ   ⑤     ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ① レ Attitudes toward learning, indicated by activities such as asking good questions and participating in discussions, also will be assessed.   ② レ   ③ レ   ④ レ   ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     Can explain electrolysis in a simple electrochemical system such as water and electrolyte solution. Can determine accurately whether a reaction proceeds spontaneously from the Gibbs energy change. Can calculate accurately standard electrode potential and electromotive force using thermodynamic data and the Nernst equation. Can explain energy conversions between chemical energy and electrical energy.  Can explain the basics of electrolysis in a simple electrochemical system such as water and electrolyte solution. Can usually determine accurately whether a reaction proceeds spontaneously from the Gibbs energy change. Can calculate standard",
+  "courseId": "2024:fall:B014-01:0:742",
   "language": "en"
 }

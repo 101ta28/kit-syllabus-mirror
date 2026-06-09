@@ -1,64 +1,55 @@
 {
   "sourceIndex": 66,
   "sourceUrl": "/opsyllabus/kitos0110/66/1",
-  "importedAt": "2026-06-08T09:33:54.414Z",
-  "title": "技術者のための統計",
-  "subtitle": "Statistics for Engineers",
-  "courseType": "Mathematics and Science ProgramMathematics and Science Courses",
+  "importedAt": "2026-06-09T01:29:19.842Z",
+  "title": "データサイエンス物理",
+  "subtitle": "Physics with Data Science",
+  "courseType": "Mathematics and Science Program\nMathematics and Science Courses",
   "credits": "2",
-  "term": "2026年度\n\n                2nd year 1st semester2nd year 2nd semester",
+  "term": "2024年度\n 1st year 2nd semester\n2nd year 1st semester\n2nd year 2nd semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "TOCHI Kunio",
-    "AKIYAMA Koki",
-    "WATANABE Shuji",
-    "HORI Haruna",
-    "SAEKI Akihiko",
-    "YASHIMA Takamasa",
-    "KITASHOJI Nobuyuki",
-    "NISHI Makoto"
+    "TANAKA Tadayoshi",
+    "NISHIOKA Keita",
+    "WATANABE Shuji"
   ],
   "keywords": [
-    "Data organization and processing",
-    "Probability function and probability distribution",
-    "Evaluation of statistics based on probability theory",
-    "Estimates and tests",
-    "Data Science"
+    "Newton's Laws 2.Work 3.Mechanical Energy 4.Rotational Motion 5.Motion of Rigid Body"
   ],
-  "educationalGoal": "Students will\n(1) learn data organization and processing\n(2) acquire basic knowledge of probability.\n(3) learn typical distribution functions such as the normal distribution,Student's t-distribution, and the chi-square distribution.\n(4) learn methods for interval estimation and hypothesis testing.\n(5) learn methods for multivariate analysis",
-  "advice": "This is a course in statistical analysis of data. We will cover the following topics:\n1.  Data organization and data distribution\n(1) Data collection and organization (2) Data distribution (3) Quantitative data distribution features\n2 Relationships between variates\n(1) Arrangement of bivariate data (2) Correlation and correlation coefficient (3) Estimated bivariate relationship\n3. Basics of Probability Theory\n(1) Basic concept of probability theory (2) Probability distribution of discrete quantity (3) Probability distribution of continuous quantity\n4. Basics of statistical data processing\n(1) Sampling of sample population (2) Evaluation of statistics based on probability theory (3) Statistical estimation of population parameter\n5. Statistical tests and multivariate analysis\n(1) Basic concept of statistical test (2) Method of statistical test (3) To multivariate analysis\n6．Conduct statistical analysis using the programming language \"R\" with real social data",
-  "books": "Textbooks：Getting Started with Data Science [kyoritsu Shuppan]",
-  "requiredKnowledge": "Knowledge of basic mathematics .",
+  "educationalGoal": "In this course, students learn the basics of physics, such as description of motion, equations of motion for mass points and rigid bodies, work and energy, using vectors, differentiation and integral. In addition, the goal is to develop the ability to gain insight into the physics behind natural phenomena by applying the knowledge they have learned and through logical thinking and data analysis.",
+  "advice": "Logical thinking and data analysis are conducted based on actual measurement data, and the ability to gain insight into the physics behind natural phenomena is nurtured. We will cover the following topics: 1. Dimension and units. 2. Motion in one dimension. 3. Motion in two dimensions. 4. Newton's laws of motion. 5. Energy of a system. 6. Conservation of energy. 7. Rotational motion. 8. Oscillatory motion. Students are required to have a knowledge of vectors, differentiation, and integration. Students will learn a number of formulas related to the laws of physics. Students will not only be expected to memorize the formulas but also be required to understand the meaning of these formulas.",
+  "books": "Textbooks:Serway Principles of Physics (mechanics) [Tokyo Kagaku Dougin] Reference books:Basics of Physics 5th Edition [Gakujutsu Tosho Shuppan-sha Co., Ltd.] Reserved books:Basics of Physics (mechanics) [Gakujutsu Tosho Shuppan-sha Co., Ltd.]",
+  "requiredKnowledge": "Background knowledge: Basic knowledge of elementary mathematics such as trigonometric ratios, vectors, differentiation, integration, etc. Skills: Trigonometric ratios, vectors, differentiation, integration, etc., elementary mathematics calculation skills",
   "activityGoals": [
     {
       "index": "①",
       "type": "D",
-      "body": "Be able to organize the data and obtain the basic features of the data."
+      "body": "Basic knowledge of mechanics such as speed, acceleration, and force."
     },
     {
       "index": "②",
       "type": "D",
-      "body": "Be able to calculate mean and variance for random variables."
+      "body": "Ability to evaluate the motion of an object by deriving and solving Newton’s equations of motion."
     },
     {
       "index": "③",
       "type": "D",
-      "body": "Be able to analyze data by calculating the necessary statistics from data."
+      "body": "Ability to calculate potential energy using integral calculus and a knowledge of work and energy."
     },
     {
       "index": "④",
       "type": "D",
-      "body": "Be able to estimate and test population mean, variance, and population ratio using a sample distribution."
+      "body": "Ability to evaluate the rolling motion of a rigid object by deriving and solving relevant equations."
     },
     {
       "index": "⑤",
       "type": "C",
-      "body": "Understand the meanings of fundamental english words for statistics."
+      "body": "Ability to understand basic physics vocabulary and phrases."
     },
     {
       "index": "⑥",
       "type": "A",
-      "body": "Be able to understand the contents of each class, work on assigned tasks, and attend every class."
+      "body": "Ability to understand the content of the lesson by completing the homework and paticipating in group activities."
     }
   ],
   "evaluationWeights": [
@@ -66,19 +57,19 @@
       "label": "総合評価割合",
       "values": [
         "30",
-        "20",
-        "20",
-        "0",
-        "0",
-        "0",
         "30",
+        "20",
+        "0",
+        "0",
+        "0",
+        "20",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -89,19 +80,19 @@
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
         "30",
-        "20",
-        "20",
-        "0",
-        "0",
-        "0",
         "30",
+        "20",
+        "0",
+        "0",
+        "0",
+        "20",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -112,19 +103,19 @@
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
         "30",
-        "20",
-        "20",
-        "0",
-        "0",
-        "0",
         "30",
+        "20",
+        "0",
+        "0",
+        "0",
+        "20",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -145,9 +136,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -155,7 +146,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -168,9 +159,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -191,9 +182,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -202,118 +193,118 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "(1) Understand how to organize the data that is the basis of data science.\n(2) Understand the meaning of random variables appropriately and calculate the mean and variance of a probability distribution.\n(3) Use common probability distributions to calculate probabilities in various situations.\n(4) Correctly calculate the statistical values required for data analysis.\n(5) Perform appropriate interval estimation and hypothesis testing using a sample distribution.\n(6) Apply course contents to various statistical problems.",
-    "standard": "(1) Understand how to organize the data that is the basis of data science.\n(2) Understand the meaning of random variables and calculate the mean and variance of a probability distribution.\n(3) Calculate probability using common probability distributions.\n(4) Calculate the statistical values required for data analysis.\n(5) Perform interval estimation and hypothesis testing using a sample distribution.\n(6) Apply course contents to statistical problems."
+    "ideal": "Accurately calculate position, velocity, and acceleration using appropriate mathematical formulas. Accurately evaluate the motion of an object by deriving and solving Newton's equations of motion. Accurately calculate potential energy using integral calculus based on a knowledge of work and energy. Accurately evaluate the rolling motion of a rigid object by deriving and solving the equations of rolling motion. Understand basic physics vocabulary phrases and use them. Make a strong effort to understand the content of the lesson, and play a leading role in group activities.",
+    "standard": "Calculate position, velocity, and acceleration using appropriate mathematical formulas. Evaluate the motion of an object by deriving and solving Newton's equations of motion. Calculate potential energy using integral calculus based on a knowledge of work and energy. Evaluate the rolling motion of a rigid object by deriving and solving the equations of rolling motion. Unserstabd basic physics vocabulary and phrases. Make a effort to understand the content of the lesson, and actively participate in group activities."
   },
   "clipProcess": "",
   "lessons": [
     {
       "index": "1",
-      "content": "Course introduction\nObtaining data and its types\nCharacteristics of quantitative data\ndistribution.",
-      "operation": "Lecture, practice",
-      "assignments": "Understand the syllabus of\nthis course\nReview the content of the\nlecture\nPrepare for the next class",
-      "minutes": "60\n\n30"
+      "content": "Course introduction Dimension and units Motion in one dimension (Average velocity, Instantane-ous velocity, Acceleration, Freely falling object)",
+      "operation": "Lecture, exercise, and self-check",
+      "assignments": "Preview: Units of length, mass, and time and definitions of average velocity, instantaneous velocity, and acceleration Review: Examples handled in class and related objective questions",
+      "minutes": "30 60"
     },
     {
       "index": "2",
-      "content": "Organizing data",
-      "operation": "Lecture, practice,\ninteractive activities",
-      "assignments": "Review the content of the\nlecture\nPrepare for the next class",
-      "minutes": "60\n\n30"
+      "content": "Motion in two dimensions position vector, velocity vector, acceleration vector, projectile motion, uniform circular motion)",
+      "operation": "Lecture, exercise, and self-check",
+      "assignments": "Preview: Definitions of position vector, velocity vector, acceleration vector, and how to calculate horizontal range and maximum height of a projectile Review: Examples handled in class and related objective questions",
+      "minutes": "30 60"
     },
     {
       "index": "3",
-      "content": "Organizing data of two variables\nCorrelations and correlation coefficients\nregression analysis",
-      "operation": "Lecture, practice,\ninteractive activities",
-      "assignments": "Review the content of the\nlecture\nPrepare for the next class",
-      "minutes": "150"
+      "content": "The laws of motion (the concept of force, Newton's laws)",
+      "operation": "Lecture, exercise, and self-check",
+      "assignments": "Preview: Newton's laws Review: Examples handled in class and related objective questions",
+      "minutes": "30 60"
     },
     {
       "index": "4",
-      "content": "Quiz (classes 1 to 4)\nBasic idea of probability theory",
-      "operation": "Quiz (classes 1 to 3)\nBasic idea of probability\ntheory",
-      "assignments": "Review the content of the\nlecture\nPrepare for the next class",
-      "minutes": "100"
+      "content": "More applications of Newton’s laws (forces of friction, circular motion model, motion in the presence of velocity-dependent resistive force)",
+      "operation": "Lecture, practice, and self-check",
+      "assignments": "Preview: Difference between static friction and kinetic friction and how to calculate a central acceleration Review: Examples handled in class and related",
+      "minutes": "30 60"
     },
     {
       "index": "5",
-      "content": "Basic idea of probability theory\nProbability distribution of discrete quantities",
-      "operation": "Lecture, practice,\ninteractive activities",
-      "assignments": "Review the content of the\nlecture\nPrepare for the next class",
-      "minutes": "100"
+      "content": "Energy of a system (systems and Environments, work, conservative and nonconservative forces, potential energy)",
+      "operation": "Lecture, exercise, and self-check",
+      "assignments": "Preview: Systems and environments and definitions of work, conservative forces and potential energy Review: Examples handled in class and related objective questions",
+      "minutes": "30 60"
     },
     {
       "index": "6",
-      "content": "Conditional probability and Bayes' theorem.",
-      "operation": "Self-check\nLecture, practice,\ninteractive activities",
-      "assignments": "Review the content of the\nlecture\nPrepare for the next class",
-      "minutes": "100"
+      "content": "Quiz 1 on contents learned in #1-#5 Conservation of energy (conservation of mechanical energy, changes in mechanical energy for nonconservative forces)",
+      "operation": "Quiz, lecture, exercise, and self-check",
+      "assignments": "Prepare for quiz 1 Preview: Conservation of mechanical energy and definition of power Review: Examples handled in class and related objective questions",
+      "minutes": "30 60"
     },
     {
       "index": "7",
-      "content": "Probability distribution of discrete quantities\nProbability distribution of continuous\nquantities",
-      "operation": "Lecture, practice,\ninteractive activities",
-      "assignments": "Review the content of the\nlecture\nPrepare for the next class",
-      "minutes": "100"
+      "content": "Group activity related to contents learned in #1-#6",
+      "operation": "Group activity and self-check",
+      "assignments": "Prepare for group activity Writing a report",
+      "minutes": "30 60"
     },
     {
       "index": "8",
-      "content": "Probability distribution of continuous\nquantities",
-      "operation": "Lecture, practice,\ninteractive activities\nReview and self-reflection",
-      "assignments": "Review the content of the\nlecture\nPrepare for the next class",
-      "minutes": "150"
+      "content": "Momentum and collisions (momentum, collisions, center of mass, motion of a system of particles)",
+      "operation": "Lecture, exercise, and self-check",
+      "assignments": "Preview: Definition of momentum and impulse- momentum theorem Review: Examples handled in class and related objective questions",
+      "minutes": "30 60"
     },
     {
       "index": "9",
-      "content": "Quiz (classes 4 to 7)\nPopulation and sample population sampling",
-      "operation": "Lecture, practice,\ninteractive activities",
-      "assignments": "Review the content of the\nlecture\nPrepare for the next class",
-      "minutes": "100"
+      "content": "Rotational motion (angular speed, angular acceleration, rigid object under constant angular acceleration, rotational kinetic energy, torque)",
+      "operation": "Lecture, exercise, and self-check",
+      "assignments": "Preview: Definition of momentum and impulse- momentum theorem Review: Examples handled in class and related objective questions",
+      "minutes": "30 60"
     },
     {
       "index": "10",
-      "content": "Basic idea of inference statistics\nStatistical estimation of population means",
-      "operation": "Self-check\nLecture, practice,\ninteractive activities",
-      "assignments": "Review the content of the\nlecture\nPrepare for the next class",
-      "minutes": "100"
+      "content": "Rotational motion (rigid object in equilibrium, angular momentum, rolling motion of rigid objects)",
+      "operation": "Lecture, exercise, and self-check",
+      "assignments": "Preview: Rigid object in equilibrium and definition of angular momentum Review: Examples handled in class and related objective questions",
+      "minutes": "30 60"
     },
     {
       "index": "11",
-      "content": "Statistical estimation of population means\nBasic idea of statistics.\nmethods and practices of statistical tests.",
-      "operation": "Lecture, practice,\ninteractive activities",
-      "assignments": "Review the content of the\nlecture\nPrepare for the next class",
-      "minutes": "100"
+      "content": "Oscillatory motion (motion of an object attached to a spring, simple harmonic oscillation)",
+      "operation": "Lecture, exercise, and self-check",
+      "assignments": "Preview: Definitions of amplitude, angular frequency, period, and frequency of simple harmonic oscillation Review: Examples handled in class and related objective questions",
+      "minutes": "30 60"
     },
     {
       "index": "12",
-      "content": "methods and practices of statistical tests.",
-      "operation": "Lecture, practice,\ninteractive activities",
-      "assignments": "Review the content of the\nlecture\nPrepare for the next class",
-      "minutes": "100"
+      "content": "Quiz 2 on contents learned in #6-#11 Oscillatory motion (pendulum, damped oscillations)",
+      "operation": "Quiz, lecture, exercise, and self-check",
+      "assignments": "Prepare for quiz 2 Preview: Formulas related to simple harmonic oscillation Review: Examples handled in class and related objective questions",
+      "minutes": "30 60"
     },
     {
       "index": "13",
-      "content": "methods and practices of statistical tests",
-      "operation": "Lecture, practice,\ninteractive activities\nReview and self-reflection",
-      "assignments": "Review the content of the\nlecture\nPrepare for the next class",
-      "minutes": "200"
+      "content": "Group activity related to contents learned in #8-#12",
+      "operation": "Group activity and self-check",
+      "assignments": "Prepare for group activity Writing a report",
+      "minutes": "30 60"
     },
     {
       "index": "14",
-      "content": "Final exam\nApplying course contents to various statistical\nproblems",
-      "operation": "Self-check\nImplementation of test\nLecture, practice,\ninteractive activities",
-      "assignments": "Review the content of the\nlecture",
-      "minutes": "100"
+      "content": "Review for final exam Final exam of contents learned in #1-#13",
+      "operation": "Review, exam, and self-check",
+      "assignments": "Prepare for final exam",
+      "minutes": "90"
     },
     {
       "index": "15",
-      "content": "Self-reflection on class\nSelf-evaluation",
-      "operation": "Review and self-reflection\nQuestionnaire survey",
-      "assignments": "",
-      "minutes": "100"
+      "content": "Group activity Return of final exam paper and review Self-evaluation",
+      "operation": "Group activity (as necessa ry), review, self-check, and self-evaluation",
+      "assignments": "Prepare for group activity",
+      "minutes": "30"
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　G161-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Mathematics, Science, Data Science and AI Program\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Mathematics and Science ProgramMathematics and Science Courses\n\n                技術者のための統計\n                Statistics for Engineers\n\n              2\n              G161-01\n\n                2026年度\n\n                2nd year 1st semester2nd year 2nd semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  TOCHI Kunio, AKIYAMA Koki, WATANABE Shuji, HORI Haruna, SAEKI Akihiko, YASHIMA Takamasa, KITASHOJI Nobuyuki, NISHI Makoto\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Data organization and processing\n2.Probability function and probability distribution\n3.Evaluation of statistics based on probability theory\n4.Estimates and tests\n5.Data Science\n\n              Students will\n(1) learn data organization and processing\n(2) acquire basic knowledge of probability.\n(3) learn typical distribution functions such as the normal distribution,Student's t-distribution, and the chi-square distribution.\n(4) learn methods for interval estimation and hypothesis testing.\n(5) learn methods for multivariate analysis\n\n              授業の概要および学習上の助言\n\n              This is a course in statistical analysis of data. We will cover the following topics:\n1.  Data organization and data distribution\n(1) Data collection and organization (2) Data distribution (3) Quantitative data distribution features\n2 Relationships between variates\n(1) Arrangement of bivariate data (2) Correlation and correlation coefficient (3) Estimated bivariate relationship\n3. Basics of Probability Theory\n(1) Basic concept of probability theory (2) Probability distribution of discrete quantity (3) Probability distribution of continuous quantity\n4. Basics of statistical data processing\n(1) Sampling of sample population (2) Evaluation of statistics based on probability theory (3) Statistical estimation of population parameter\n5. Statistical tests and multivariate analysis\n(1) Basic concept of statistical test (2) Method of statistical test (3) To multivariate analysis\n6．Conduct statistical analysis using the programming language \"R\" with real social data\n\n              教科書および参考書・リザーブドブック\n\n              Textbooks：Getting Started with Data Science [kyoritsu Shuppan]\n\n              履修に必要な予備知識や技能\n\n              Knowledge of basic mathematics .\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                D\n                Be able to organize the data and obtain the basic features of the data.\n\n                ②\n                D\n                Be able to calculate mean and variance for random variables.\n\n                ③\n                D\n                Be able to analyze data by calculating the necessary statistics from data.\n\n                ④\n                D\n                Be able to estimate and test population mean, variance, and population ratio using a sample distribution.\n\n                ⑤\n                C\n                Understand the meanings of fundamental english words for statistics.\n\n                ⑥\n                A\n                Be able to understand the contents of each class, work on assigned tasks, and attend every class.\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                30\n\n                20\n\n                20\n\n                0\n\n                0\n\n                0\n\n                30\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                30\n\n                20\n\n                20\n\n                0\n\n                0\n",
-  "courseId": "2026:fall:G161-01:0:66",
+  "rawText": "金沢工業大学 学習支援計画書 G157-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nMathematics, Science, Data Science and AI Program\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Mathematics and Science Program\nMathematics and Science Courses\nデータサイエンス物理\nPhysics with Data Science  2 G157-01  2024年度\n 1st year 2nd semester\n2nd year 1st semester\n2nd year 2nd semester  修学規程第4条を参照\n    担当教員名\n TANAKA Tadayoshi, NISHIOKA Keita, WATANABE Shuji\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Newton's Laws 2.Work 3.Mechanical Energy 4.Rotational Motion 5.Motion of Rigid Body  In this course, students learn the basics of physics, such as description of motion, equations of motion for mass points and rigid bodies, work and energy, using vectors, differentiation and integral. In addition, the goal is to develop the ability to gain insight into the physics behind natural phenomena by applying the knowledge they have learned and through logical thinking and data analysis.\n    授業の概要および学習上の助言   Logical thinking and data analysis are conducted based on actual measurement data, and the ability to gain insight into the physics behind natural phenomena is nurtured. We will cover the following topics: 1. Dimension and units. 2. Motion in one dimension. 3. Motion in two dimensions. 4. Newton's laws of motion. 5. Energy of a system. 6. Conservation of energy. 7. Rotational motion. 8. Oscillatory motion. Students are required to have a knowledge of vectors, differentiation, and integration. Students will learn a number of formulas related to the laws of physics. Students will not only be expected to memorize the formulas but also be required to understand the meaning of these formulas.\n    教科書および参考書・リザーブドブック   Textbooks:Serway Principles of Physics (mechanics) [Tokyo Kagaku Dougin] Reference books:Basics of Physics 5th Edition [Gakujutsu Tosho Shuppan-sha Co., Ltd.] Reserved books:Basics of Physics (mechanics) [Gakujutsu Tosho Shuppan-sha Co., Ltd.]\n    履修に必要な予備知識や技能   Background knowledge: Basic knowledge of elementary mathematics such as trigonometric ratios, vectors, differentiation, integration, etc. Skills: Trigonometric ratios, vectors, differentiation, integration, etc., elementary mathematics calculation skills\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① D Basic knowledge of mechanics such as speed, acceleration, and force.    ② D Ability to evaluate the motion of an object by deriving and solving Newton’s equations of motion.    ③ D Ability to calculate potential energy using integral calculus and a knowledge of work and energy.    ④ D Ability to evaluate the rolling motion of a rigid object by deriving and solving relevant equations.    ⑤ C Ability to understand basic physics vocabulary and phrases.   ⑥ A Ability to understand the content of the lesson by completing the homework and paticipating in group activities.\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 30 30 20 0 0 0 20 100     指標と評価割合 総合評価割合 30 30 20 0 0 0 20 100   総合力指標 知識を取り込む力 30 30 20 0 0 0 20 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ Students will be evaluated on the final exam. It will comprise 30% of the overall evaluation.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     クイズ\n小テスト ①   Students will be evaluated on the results of two quizzes. Each quiz will comprise 15% of the overall evaluation.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     レポート ① レ Students will be evaluated on two reports on group activities. Each report will comprise 10% of the overall evaluation.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ①   Students will be evaluated on how regularly they attend classes (10% of overall evaluation). Students will be evaluated on homework and exercises in class (10% of overall evaluatio",
+  "courseId": "2024:fall:G151-01:0:66",
   "language": "en"
 }

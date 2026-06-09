@@ -1,72 +1,68 @@
 {
   "sourceIndex": 796,
   "sourceUrl": "/opsyllabus/kitos0110/796/1",
-  "importedAt": "2026-06-08T09:34:09.524Z",
-  "title": "プログラミング基礎",
-  "subtitle": "Introduction to programminng",
-  "courseType": "Major ProgramMajor Courses",
+  "importedAt": "2026-06-09T01:29:26.527Z",
+  "title": "感覚機能論",
+  "subtitle": "Sensory Information",
+  "courseType": "Major Program\nMajor Courses",
   "credits": "2",
-  "term": "2026年度\n\n                2nd year 1st semester",
+  "term": "2024年度\n 2nd year 2nd semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "TAKANO Noriyuki"
+    "HIGUCHI Masanori"
   ],
   "keywords": [
-    "Programinng",
-    "Variables and Types",
-    "Branch processing",
-    "Reptitionprocessing",
-    "Function"
+    "Sense and perception 2.Visual sense 3.Auditory sense 4.Somatosensory sense 5.Gustation and olfactory sense"
   ],
-  "educationalGoal": "Students will:\n(1)\tacquire the ability to perform basic numerical programming.\n(2)\tacquire the ability to utilize branch and repetition processing.\n(3)\tunderstand the types of variables and how they are handled in the computer.",
-  "advice": "This is a basic course on numerical analysis. We will cover the following topics:\n\n1.\tComputer literacy\n2.\tAlgorithms and Flowcharts\n3.\tInput and output\n4.     Variables and Types ( internal representation in computers)\n5.     Sequential  processing\n6.\tBranch processing\n7.\tRepetition processing\n8.     Function",
-  "books": "How to Create Programs: An Introduction to Python Lv.0 (in Japanese)",
-  "requiredKnowledge": "Basic computer operations",
+  "educationalGoal": "When we sense and recognize our environment or target objects, our brain processes a huge amount of information from the sensory system. Students will learn basic functions of various human sensory systems.",
+  "advice": "We will cover the following topics: 1. Basic characteristics and psychophysical measurement of the sensory system 2. Structure and function of the visual information processing system in the periphery and central nervous system 3. Structure and function of the auditory information processing system in the periphery and central nervous system 4. Overview of the somatosensory and tactile information systems 5. Overview of the gustation and olfactory information systems 6. Higher brain functions such as perceptual information processing, memory and learning",
+  "books": "Textbooks: Reference books: Reserved books:",
+  "requiredKnowledge": "No prior knowledge is required, but it is recommended that students complete the “Basic Biology”, “Structure and Function in Physiology” and “Neuroscience” courses.",
   "activityGoals": [
     {
       "index": "①",
-      "type": "H,L",
-      "body": "Be able to draw a shape using a turtle"
+      "type": "I,M,N",
+      "body": "Ability to explain the basic concepts of psychophysical measurement."
     },
     {
       "index": "②",
-      "type": "H,L",
-      "body": "Be able to write code using repetition process"
+      "type": "I,M,N",
+      "body": "Ability to explain the basic structure of the visual system and its functions."
     },
     {
       "index": "③",
-      "type": "H,L",
-      "body": "Be able to write code using branch processs"
+      "type": "I,M,N",
+      "body": "Ability to explain the basics of the auditory system and sound perception."
     },
     {
       "index": "④",
-      "type": "H,L",
-      "body": "Be able to create a simple game code"
+      "type": "I,M,N",
+      "body": "Ability to explain the basics of the somatosensory system and its functional localization of the brain."
     },
     {
       "index": "⑤",
-      "type": "H,L",
-      "body": "Be able to explain types of variables and their internal representation"
+      "type": "I,M,N",
+      "body": "Ability to explain the basics of gustation and olfactory sense."
     }
   ],
   "evaluationWeights": [
     {
       "label": "総合評価割合",
       "values": [
-        "40",
+        "30",
         "30",
         "20",
-        "10",
         "0",
         "0",
         "0",
+        "20",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -76,20 +72,20 @@
     {
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
-        "40",
+        "30",
         "30",
         "20",
-        "10",
         "0",
         "0",
         "0",
+        "20",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -99,20 +95,20 @@
     {
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
-        "40",
+        "30",
         "30",
         "20",
-        "10",
         "0",
         "0",
         "0",
+        "20",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -133,9 +129,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -143,7 +139,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -156,9 +152,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -179,9 +175,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -190,118 +186,118 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "(1) Able to create code that draws complex figures\n(2) Able to create code with multiple repetitions\n(3) Able to create code with four or more branches\n(4) Able to create original games\n(5) Able to explain the internal representation of variables",
-    "standard": "(1) Able to draw simple figures\n(2) Able to write code to calculate the sum of natural numbers from 1 to 100\n(3) Able to write code to process a single conditional expression according to its truth or false.\n(4)\tAble to create simple game code\n(5)\tAble to explain types of variables"
+    "ideal": "Fully explain the basics of psychophysical measurement methods for the human sensory system and structures and the functions and characteristics of sensory organs.",
+    "standard": "Explain the basics of psychophysical measurement methods for the human sensory system and structures and the functions and characteristics of sensory organs."
   },
   "clipProcess": "",
   "lessons": [
     {
       "index": "1",
-      "content": "Course introdction\nBuilding programming environment (python)",
-      "operation": "Lectures and exercises",
-      "assignments": "Review of PC operations",
+      "content": "Course introduction Sensory types and attributes, Sensory scale and psychological measurement, Quantitative evaluation of sensory function",
+      "operation": "Lecture and Q&A",
+      "assignments": "Read the textbook and prepare for the class",
       "minutes": "90"
     },
     {
       "index": "2",
-      "content": "Drawing ahapes  using library \"Turtle\"",
-      "operation": "Lectures and exercises",
-      "assignments": "Viewing preparatory videos",
+      "content": "Visual information processing system (1) Eyeball structure and function, Wavelength of light and color vision, Trichromatic theory",
+      "operation": "Lecture and Q&A Self-check",
+      "assignments": "Read the textbook and prepare for the class",
       "minutes": "90"
     },
     {
       "index": "3",
-      "content": "Repeatedly drawing a shape",
-      "operation": "Lectures and exercises",
-      "assignments": "Viewing preparatory videos",
+      "content": "Visual information processing system (2) Shape perception, Lateral inhibition, Optical illusion",
+      "operation": "Lecture and Q&A Self-check",
+      "assignments": "Read the textbook and prepare for the class",
       "minutes": "90"
     },
     {
       "index": "4",
-      "content": "Drawing complex shapes by using branching\nprocess",
-      "operation": "Lectures and exercises",
-      "assignments": "Viewing preparatory videos",
+      "content": "Visual information processing system (3) Perception of visual space, Binocular stereopsis, Apparent movement",
+      "operation": "Lecture and Q&A Self-check",
+      "assignments": "Read the textbook and prepare for the class",
       "minutes": "90"
     },
     {
       "index": "5",
-      "content": "How to make a program",
-      "operation": "Lectures and exercises",
-      "assignments": "Viewing preparatory videos",
+      "content": "Auditory information processing system (1) Physical attributes of sound, Ear structure",
+      "operation": "Lecture and Q&A Self-check",
+      "assignments": "Read the textbook and prepare for the class",
       "minutes": "90"
     },
     {
       "index": "6",
-      "content": "Sequential Processing",
-      "operation": "Lectures and exercises",
-      "assignments": "Viewing preparatory videos",
+      "content": "Auditory information processing system (2) Sound perception, Audible area, Auditory masking",
+      "operation": "Lecture and Q&A Self-check",
+      "assignments": "Read the textbook and prepare for the class",
       "minutes": "90"
     },
     {
       "index": "7",
-      "content": "Branching processing",
-      "operation": "Lectures and exercises",
-      "assignments": "Viewing preparatory videos",
+      "content": "Auditory information processing system (3) Binaural listening, Sound source localization, Auditory stream segregation",
+      "operation": "Lecture and Q&A Self-check",
+      "assignments": "Read the textbook and prepare for the class",
       "minutes": "90"
     },
     {
       "index": "8",
-      "content": "Repetition processing",
-      "operation": "Lectures and exercises",
-      "assignments": "Viewing preparatory videos",
-      "minutes": "90"
+      "content": "Midterm test Review contents of previous classes",
+      "operation": "Lecture and Test Self-reflection",
+      "assignments": "Prepare for the test",
+      "minutes": "120"
     },
     {
       "index": "9",
-      "content": "Variables and Types",
-      "operation": "Lectures and exercises",
-      "assignments": "Viewing preparatory videos",
+      "content": "Somatosensory information system Pain and tactile sensation, Pain expression, Localization of somatosensory area in the brain",
+      "operation": "Lecture and Q&A Self-check",
+      "assignments": "Read the textbook and prepare for the class",
       "minutes": "90"
     },
     {
       "index": "10",
-      "content": "List",
-      "operation": "Lectures and exercises",
-      "assignments": "Viewing preparatory videos",
+      "content": "Gustation and Olfactory information systems Tongue and taste, Nose and smell, Gustation and olfactory cranial nervous system",
+      "operation": "Lecture and Q&A Self-check",
+      "assignments": "Read the textbook and prepare for the class",
       "minutes": "90"
     },
     {
       "index": "11",
-      "content": "Definition of Function",
-      "operation": "Lectures and exercises",
-      "assignments": "Viewing preparatory videos",
+      "content": "Perceptual information processing Acceptance, retention and processing of information, Selective attention, Mental rotation",
+      "operation": "Lecture and Q&A Self-check",
+      "assignments": "Read the textbook and prepare for the class",
       "minutes": "90"
     },
     {
       "index": "12",
-      "content": "Making a simple game code",
-      "operation": "Exercises",
-      "assignments": "Compllete the game code.",
-      "minutes": "200"
+      "content": "Memory function Short-term memory, Long-term memory Announcement of report subject",
+      "operation": "Lecture and Q&A Self-check",
+      "assignments": "Read the textbook and prepare for the class Prepare for the report subject",
+      "minutes": "120"
     },
     {
       "index": "13",
-      "content": "Present the game you made",
-      "operation": "Presentation",
-      "assignments": "Preparating the presentation",
-      "minutes": "90"
+      "content": "Learning process Conditioning, Discrimination learning",
+      "operation": "Lecture and Q&A Self-check",
+      "assignments": "Read the textbook and prepare for the class Read the textbook and prepare for the class",
+      "minutes": "120"
     },
     {
       "index": "14",
-      "content": "Achievement test and its explanation",
-      "operation": "Examination and review",
-      "assignments": "Review",
-      "minutes": "90"
+      "content": "Final exam",
+      "operation": "Exam Self-reflection",
+      "assignments": "Prepare for Exam.",
+      "minutes": "200"
     },
     {
       "index": "15",
-      "content": "Self-assessment and developmental study",
-      "operation": "Lecture",
-      "assignments": "Re-leraning",
+      "content": "Review the exam and Summary",
+      "operation": "Lecture and Q&A Self-check",
+      "assignments": "Overall review",
       "minutes": "90"
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　K113-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Advanced Mechanical Systems Engineering\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                プログラミング基礎\n                Introduction to programminng\n\n              2\n              K113-01\n\n                2026年度\n\n                2nd year 1st semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  TAKANO Noriyuki\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Programinng\n2.Variables and Types\n3.Branch processing\n4.Reptitionprocessing\n5.Function\n\n              Students will:\n(1)\tacquire the ability to perform basic numerical programming.\n(2)\tacquire the ability to utilize branch and repetition processing.\n(3)\tunderstand the types of variables and how they are handled in the computer.\n\n              授業の概要および学習上の助言\n\n              This is a basic course on numerical analysis. We will cover the following topics:\n\n1.\tComputer literacy\n2.\tAlgorithms and Flowcharts\n3.\tInput and output\n4.     Variables and Types ( internal representation in computers)\n5.     Sequential  processing\n6.\tBranch processing\n7.\tRepetition processing\n8.     Function\n　\n\n              教科書および参考書・リザーブドブック\n\n              How to Create Programs: An Introduction to Python Lv.0 (in Japanese)\n\n              履修に必要な予備知識や技能\n\n              Basic computer operations\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                H,L\n                Be able to draw a shape using a turtle\n\n                ②\n                H,L\n                Be able to write code using repetition process\n\n                ③\n                H,L\n                Be able to write code using branch processs\n\n                ④\n                H,L\n                Be able to create a simple game code\n\n                ⑤\n                H,L\n                Be able to explain types of variables and their internal representation\n\n                ⑥\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                40\n\n                30\n\n                20\n\n                10\n\n                0\n\n                0\n\n                0\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                40\n\n                30\n\n                20\n\n                10\n\n                0\n\n                0\n\n                0\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                40\n\n                30\n\n                20\n\n                10\n\n                0\n\n                0\n\n                0\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  コラボレーションとリーダーシップ\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  発表・表現・伝達する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  学習に取組む姿勢・意欲\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n        ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n\n              評価の要点\n\n              評価方法\n              行動目標\n              評価の実施方法と注意点\n\n                    試験\n\n",
-  "courseId": "2026:spring:K113-01:0:796",
+  "rawText": "金沢工業大学 学習支援計画書 B114-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Applied Bioscience\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n感覚機能論\nSensory Information  2 B114-01  2024年度\n 2nd year 2nd semester  修学規程第4条を参照\n    担当教員名\n HIGUCHI Masanori\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Sense and perception 2.Visual sense 3.Auditory sense 4.Somatosensory sense 5.Gustation and olfactory sense  When we sense and recognize our environment or target objects, our brain processes a huge amount of information from the sensory system. Students will learn basic functions of various human sensory systems.\n    授業の概要および学習上の助言   We will cover the following topics: 1. Basic characteristics and psychophysical measurement of the sensory system 2. Structure and function of the visual information processing system in the periphery and central nervous system 3. Structure and function of the auditory information processing system in the periphery and central nervous system 4. Overview of the somatosensory and tactile information systems 5. Overview of the gustation and olfactory information systems 6. Higher brain functions such as perceptual information processing, memory and learning\n    教科書および参考書・リザーブドブック   Textbooks: Reference books: Reserved books:\n    履修に必要な予備知識や技能   No prior knowledge is required, but it is recommended that students complete the “Basic Biology”, “Structure and Function in Physiology” and “Neuroscience” courses.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① I,M,N Ability to explain the basic concepts of psychophysical measurement.   ② I,M,N Ability to explain the basic structure of the visual system and its functions.   ③ I,M,N Ability to explain the basics of the auditory system and sound perception.   ④ I,M,N Ability to explain the basics of the somatosensory system and its functional localization of the brain.   ⑤ I,M,N Ability to explain the basics of gustation and olfactory sense.   ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 30 30 20 0 0 0 20 100     指標と評価割合 総合評価割合 30 30 20 0 0 0 20 100   総合力指標 知識を取り込む力 30 30 20 0 0 0 20 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ There is a final exam at the end of the semester to evaluate the degree of acquisition of the curriculum.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     クイズ\n小テスト ① レ  There is a midterm quiz to check understanding of the curriculum in the middle of the course.   ② レ   ③ レ   ④     ⑤     ⑥     レポート ① レ Students are required to review the literature and create a report. Details on assignments and grading criteria will be distributed in class.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ① レ Students are required to express their opinions in class.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     Fully explain the basics of psychophysical measurement methods for the human sensory system and structures and the functions and characteristics of sensory organs. Explain the basics of psychophysical measurement methods for the human sensory system and structures and the functions and characteristics of sensory organs.\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習課題に要する標準的な時間を記載してあります。日々の自学自習時間全体としては、各授業に応じた時間(例えば2単位科目の場合、予習2時間・復習2時間/週)を取るよう努めてください。詳しくは教員の指導に従って下さい。     授業明細   回数 学習内容 授業の運営方法 学習課題(予習・復習) 時間:分※     1  Course introduction Sensory types and attributes, Sensory scale and psychological measurement, Quantitative evaluation of sensory function Lecture and Q&A Read the textbook and prepar",
+  "courseId": "2024:fall:B114-01:0:796",
   "language": "en"
 }

@@ -1,47 +1,38 @@
 {
   "sourceIndex": 185,
   "sourceUrl": "/opsyllabus/kitos0110/185/1",
-  "importedAt": "2026-06-08T09:33:56.937Z",
-  "title": "プログラミング基礎",
-  "subtitle": "Computer Programming Basic",
-  "courseType": "Major ProgramMajor Courses",
-  "credits": "2",
-  "term": "2026年度\n\n                1st year 2nd semester",
+  "importedAt": "2026-06-09T01:29:20.906Z",
+  "title": "プロジェクトデザインⅢ(近藤泰光研究室)",
+  "subtitle": "Design Project III(Kondo Yasumitsu)",
+  "courseType": "Major Program\nMajor Project Courses",
+  "credits": "8",
+  "term": "2024年度\n All year",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "TAKEMATA Kazuya"
+    "KONDO Yasumitsu"
   ],
   "keywords": [
-    "Programming",
-    "Variable and data type",
-    "Control",
-    "Array",
-    "Regional cooperation"
+    "Mechanical Engineering 2.Engineering design 3.Manufacturing 4.Engineering analysis 5.Region collaboration"
   ],
-  "educationalGoal": "This course is designed to achieve the learning and education goal of the communication fundamentals in the Department of Environmental Design and Innovation.\nIn order to acquire the basic abilities of computer programming, students will be given a bird's-eye view of programming and an understanding of many of the basic terms and concepts of programming, such as branching, loops, functions, and objects.",
-  "advice": "The purpose of this class is to learn the basics of program input, execution, and debugging through lectures, quizzes, and exercises　for programming. The programming language uses JavaScript, which is the most widely used for all purposes from embedded fields to servers. In the exercise, students will understand various control methods by JavaScript by executing them on a web browser and visually obtaining the results. The web browser used in the class is Google Chrome, so be sure to install Google Chrome on your laptop and bring that laptop with you every time. In addition, students must submit weekly assignments to review each lesson.",
-  "books": "Instructions in class",
-  "requiredKnowledge": "Students need to understand basic PC operation methods such as creating, deleting, moving, and copying files and folders, and editing and saving text files. Students need to bring their PC every time.",
+  "educationalGoal": "Using the basic academic skills that students have learned in this Department of Mechanical Engineering, students acquire the ability to discover and solve different technical problems in mechanical engineering-related fields by themselves, in order to create new technologies that are necessary for researching, developing, designing and manufacturing useful and high-quality products. Students will also learn the importance of collaboration with society, especially the local community.",
+  "advice": "The educational aim of the Department of Mechanical Engineering is to develop mechanical engineers who acquire basic knowledge of mechanical engineering, can design application technology, manufacturing new materials, and their processing methods, and also respond technology related to the environment and energy. PD III is the final subject of the department, and in order to realize the educational goals of the department, the emphasis is placed on developing the ability to set up proper models to describe phenomena, to analyze and solve the problems using the models, and to develop the ability to make engineering evaluations based on the obtained results. In practice, the students check the project proposals prepared by the teachers in the individual laboratories and in the specialist seminars, review them if necessary, and carry out the process of problem finding and solving according to the content of the proposals. Students will also understand the objectives of the subject and the outline and achievement goals based on the syllabus. It is important that student will understand which part of the educational objectives of the Department of Mechanical Engineering this subject is responsible for and the specific level of the achievement. This laboratory mainly approach the subjects concerning high temperature oxidation of metals. These subjects are related real industrial situation.",
+  "books": "Text book: None Reference book: None Reserved book: None",
+  "requiredKnowledge": "It is recommended that student obtain a machining licence of Yume-Kobo the fabrication of experimental equipment and test samples and also recommended that students should study subjects and knowledge related to each project",
   "activityGoals": [
     {
       "index": "①",
-      "type": "H,J",
-      "body": "Be able to explain variables, data types, and arrangement."
+      "type": "A,B,D,G,H,J-P",
+      "body": "To be able to carry out the projects with the proper engineering design."
     },
     {
       "index": "②",
-      "type": "D,H,J",
-      "body": "Be able to understand how to use branching, loops, and functions."
+      "type": "A,B,D,G,H,J-P",
+      "body": "To be able to write technical reports of their work and discuss them in a presentation."
     },
     {
       "index": "③",
-      "type": "H,J",
-      "body": "Be able to make the control programs that perform in a web browser using JavaScript."
-    },
-    {
-      "index": "④",
-      "type": "H,J",
-      "body": "Be able to collect variables and functions into objects and use them."
+      "type": "A,B,D,G,H,J-P",
+      "body": "To be able to act independently on other presented items."
     }
   ],
   "evaluationWeights": [
@@ -49,19 +40,19 @@
       "label": "総合評価割合",
       "values": [
         "0",
-        "30",
-        "30",
-        "30",
         "0",
+        "50",
+        "35",
         "0",
+        "5",
         "10",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -72,19 +63,19 @@
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
         "0",
-        "30",
-        "30",
-        "30",
         "0",
+        "50",
+        "35",
         "0",
+        "5",
         "10",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -95,19 +86,19 @@
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
         "0",
-        "30",
-        "30",
-        "30",
         "0",
+        "50",
+        "35",
         "0",
+        "5",
         "10",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -128,9 +119,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -138,7 +129,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -151,9 +142,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -174,9 +165,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -185,118 +176,69 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "Explain basic programming terms with examples.\nUnderstand and utilize object-oriented programming.",
-    "standard": "Explain basic programming terms with examples.\nImplement a simple JavaScript."
+    "ideal": "(1) Understand the purpose of your project theme and the advancement process accurately, and achieve the established annual goal. In addition, the process can be reported in the Design Project Activity Support System. (2) Compile the intermediate results for the project into the interim report, and present and discuss its content. Complete the final report, present it to the Design Project III Public Presentation Review Board, and discuss its content. (3) If necessary, design and manufacture your own experimental devices, and also evaluate the performance of the product.",
+    "standard": "(1) Understand the purpose of your project theme and the advancement process, and achieve the established annual goal. In addition, the process can be reported in the Design Project Activity Support System. (2) Compile intermediate results for the project into the interim report, and present its content. Complete the final report and present it to the Design Project III Public Presentation Review Board. (3) Design and manufacture your own experimental devices if necessary."
   },
   "clipProcess": "",
   "lessons": [
     {
       "index": "1",
-      "content": "Introduction\nWhat is programming?",
-      "operation": "Lecture",
-      "assignments": "Preview the textbook\nSubmission of assignments",
-      "minutes": "260"
+      "content": "Orientation",
+      "operation": "",
+      "assignments": "",
+      "minutes": ""
     },
     {
       "index": "2",
-      "content": "How the computer works",
-      "operation": "Lecture",
-      "assignments": "Preview the textbook\nReview the textbook\nSubmission of assignments",
-      "minutes": "260"
+      "content": "Submitted proposal in the previous semester is revised as necessary.",
+      "operation": "",
+      "assignments": "",
+      "minutes": ""
     },
     {
       "index": "3",
-      "content": "What is JavaScript?\nThe basics of JavaScript (1)",
-      "operation": "Lecture and exercise",
-      "assignments": "Preview the textbook\nReview the textbook\nSubmission of assignments",
-      "minutes": "260"
+      "content": "Previous research is investigated through PD reports and literature surveys. A research plan is developed and experiments and surveys are carried out.",
+      "operation": "",
+      "assignments": "",
+      "minutes": ""
     },
     {
       "index": "4",
-      "content": "The basics of JavaScript (2)",
-      "operation": "Lecture and exercise",
-      "assignments": "Preview the textbook\nReview the textbook\nSubmission of assignments",
-      "minutes": "260"
+      "content": "Mid-term presentation is conducted at the end of first semester.",
+      "operation": "",
+      "assignments": "",
+      "minutes": ""
     },
     {
       "index": "5",
-      "content": "Conditional branch",
-      "operation": "Lecture and exercise",
-      "assignments": "Preview the textbook\nReview the textbook\nSubmission of assignments",
-      "minutes": "260"
+      "content": "Pre-print report is compiled and submitted in July.",
+      "operation": "",
+      "assignments": "",
+      "minutes": ""
     },
     {
       "index": "6",
-      "content": "Loops",
-      "operation": "Lecture and exercise",
-      "assignments": "Preview the textbook\nReview the textbook\nSubmission of assignments",
-      "minutes": "260"
+      "content": "Final report is submitted in February.",
+      "operation": "",
+      "assignments": "",
+      "minutes": ""
     },
     {
       "index": "7",
-      "content": "Functions",
-      "operation": "Lecture and exercise",
-      "assignments": "Preview the textbook\nReview the textbook\nSubmission of assignments",
-      "minutes": "260"
+      "content": "The researched content is presented at the PD public reviewing in February.",
+      "operation": "",
+      "assignments": "",
+      "minutes": ""
     },
     {
       "index": "8",
-      "content": "Objects",
-      "operation": "Lecture and exercise",
-      "assignments": "Preview the textbook\nReview the textbook\nSubmission of assignments",
-      "minutes": "260"
-    },
-    {
-      "index": "9",
-      "content": "Event",
-      "operation": "Lecture and exercise",
-      "assignments": "Preview the textbook\nReview the textbook\nSubmission of assignments",
-      "minutes": "260"
-    },
-    {
-      "index": "10",
-      "content": "Confirmation of the learned JavaScript\nknowledge",
-      "operation": "Exam and review",
-      "assignments": "Prepare for the exam\nReview exam questions",
-      "minutes": "260"
-    },
-    {
-      "index": "11",
-      "content": "Let's make a useful JavaScript",
-      "operation": "Practicum,\ninteractive activities,\nand self-reflection",
-      "assignments": "Preparation for the practicum\nCompletion of the JavaScript",
-      "minutes": "260"
-    },
-    {
-      "index": "12",
-      "content": "Let's create your own JavaScript 1",
-      "operation": "Practicum,\ninteractive activities,\nand self-reflection",
-      "assignments": "Preparation for the practicum\nCompletion of the JavaScript",
-      "minutes": "340"
-    },
-    {
-      "index": "13",
-      "content": "Let's create your own JavaScript 2",
-      "operation": "Practicum,\ninteractive activities,\nand self-reflection",
-      "assignments": "Preparation for the practicum\nCompletion of the JavaScript",
-      "minutes": "340"
-    },
-    {
-      "index": "14",
-      "content": "Presentation",
-      "operation": "Presentation,\ninteractive activities,\nand self-reflection",
-      "assignments": "Preparation for the\npresentation",
-      "minutes": "260"
-    },
-    {
-      "index": "15",
-      "content": "JQuery\nWeb API\nCombine multiple functions into a website\nSelf-evaluation",
-      "operation": "Lecture\nSelf evaluation",
-      "assignments": "Preview the textbook",
-      "minutes": "100"
+      "content": "Final report is uploaded in February.",
+      "operation": "",
+      "assignments": "",
+      "minutes": ""
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　D109-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Environmental Design and Innovation\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                プログラミング基礎\n                Computer Programming Basic\n\n              2\n              D109-01\n\n                2026年度\n\n                1st year 2nd semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  TAKEMATA Kazuya\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Programming\n2.Variable and data type\n3.Control\n4.Array\n5.Regional cooperation\n\n              This course is designed to achieve the learning and education goal of the communication fundamentals in the Department of Environmental Design and Innovation.\nIn order to acquire the basic abilities of computer programming, students will be given a bird's-eye view of programming and an understanding of many of the basic terms and concepts of programming, such as branching, loops, functions, and objects.\n\n              授業の概要および学習上の助言\n\n              The purpose of this class is to learn the basics of program input, execution, and debugging through lectures, quizzes, and exercises　for programming. The programming language uses JavaScript, which is the most widely used for all purposes from embedded fields to servers. In the exercise, students will understand various control methods by JavaScript by executing them on a web browser and visually obtaining the results. The web browser used in the class is Google Chrome, so be sure to install Google Chrome on your laptop and bring that laptop with you every time. In addition, students must submit weekly assignments to review each lesson.\n\n              教科書および参考書・リザーブドブック\n\n              Instructions in class\n\n              履修に必要な予備知識や技能\n\n              Students need to understand basic PC operation methods such as creating, deleting, moving, and copying files and folders, and editing and saving text files. Students need to bring their PC every time.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                H,J\n                Be able to explain variables, data types, and arrangement.\n\n                ②\n                D,H,J\n                Be able to understand how to use branching, loops, and functions.\n\n                ③\n                H,J\n                Be able to make the control programs that perform in a web browser using JavaScript.\n\n                ④\n                H,J\n                Be able to collect variables and functions into objects and use them.\n\n                ⑤\n\n                ⑥\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                0\n\n                30\n\n                30\n\n                30\n\n                0\n\n                0\n\n                10\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                0\n\n                30\n\n                30\n\n                30\n\n                0\n\n                0\n\n                10\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                0\n\n                30\n\n                30\n\n                30\n\n                0\n\n                0\n\n                10\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  コラボレーションとリーダーシップ\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n  ",
-  "courseId": "2026:fall:D109-01:0:185",
+  "rawText": "金沢工業大学 学習支援計画書 E921-24\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Mechanical Engineering\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Project Courses\nプロジェクトデザインⅢ(近藤泰光研究室)\nDesign Project III(Kondo Yasumitsu)  8 E921-24  2024年度\n All year  修学規程第4条を参照\n    担当教員名\n KONDO Yasumitsu\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Mechanical Engineering 2.Engineering design 3.Manufacturing 4.Engineering analysis 5.Region collaboration  Using the basic academic skills that students have learned in this Department of Mechanical Engineering, students acquire the ability to discover and solve different technical problems in mechanical engineering-related fields by themselves, in order to create new technologies that are necessary for researching, developing, designing and manufacturing useful and high-quality products. Students will also learn the importance of collaboration with society, especially the local community.\n    授業の概要および学習上の助言   The educational aim of the Department of Mechanical Engineering is to develop mechanical engineers who acquire basic knowledge of mechanical engineering, can design application technology, manufacturing new materials, and their processing methods, and also respond technology related to the environment and energy. PD III is the final subject of the department, and in order to realize the educational goals of the department, the emphasis is placed on developing the ability to set up proper models to describe phenomena, to analyze and solve the problems using the models, and to develop the ability to make engineering evaluations based on the obtained results. In practice, the students check the project proposals prepared by the teachers in the individual laboratories and in the specialist seminars, review them if necessary, and carry out the process of problem finding and solving according to the content of the proposals. Students will also understand the objectives of the subject and the outline and achievement goals based on the syllabus. It is important that student will understand which part of the educational objectives of the Department of Mechanical Engineering this subject is responsible for and the specific level of the achievement. This laboratory mainly approach the subjects concerning high temperature oxidation of metals. These subjects are related real industrial situation.\n    教科書および参考書・リザーブドブック   Text book: None Reference book: None Reserved book: None\n    履修に必要な予備知識や技能   It is recommended that student obtain a machining licence of Yume-Kobo the fabrication of experimental equipment and test samples and also recommended that students should study subjects and knowledge related to each project\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① A,B,D,G,H,J-P To be able to carry out the projects with the proper engineering design.   ② A,B,D,G,H,J-P To be able to write technical reports of their work and discuss them in a presentation.   ③ A,B,D,G,H,J-P To be able to act independently on other presented items.   ④     ⑤     ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 0 0 50 35 0 5 10 100     指標と評価割合 総合評価割合 0 0 50 35 0 5 10 100   総合力指標 知識を取り込む力 0 0 50 35 0 5 10 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ①      ②     ③     ④     ⑤     ⑥     クイズ\n小テスト ①      ②     ③     ④     ⑤     ⑥     レポート ① レ Students are evaluated on the content of the mid-term report in the first semester and the final report in the second semester.   ② レ   ③ レ   ④     ⑤     ⑥     成果発表\n(口頭・実技) ① レ Students are evaluated on the results of their presentation at the mid-term presentation at the end of the first semester and the content of their presentation and discussion at the PD III public reviewing in the second semester. It should be noted that passing the PDIII public reviewing is necessary",
+  "courseId": "2024:full-year:E921-13:0:185",
   "language": "en"
 }

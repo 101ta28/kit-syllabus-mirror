@@ -1,52 +1,55 @@
 {
   "sourceIndex": 215,
   "sourceUrl": "/opsyllabus/kitos0110/215/1",
-  "importedAt": "2026-06-08T09:33:57.543Z",
-  "title": "構造解析演習",
-  "subtitle": "Structural Analysis Exercises",
-  "courseType": "Major ProgramMajor Courses",
-  "credits": "1",
-  "term": "2026年度\n\n                3rd year 1st semester",
+  "importedAt": "2026-06-09T01:29:21.116Z",
+  "title": "航空システム専門実験・演習A",
+  "subtitle": "Aeronautics Major Lab/Exercises A",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "3",
+  "term": "2024年度\n 3rd year 1st semester\n3rd year 2nd semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "YOSHIDA Keishiro"
+    "HIROSE Yasuo",
+    "AKASAKA Takeshi",
+    "OGURI Kazuyuki"
   ],
   "keywords": [
-    "Numerical simulation",
-    "Structural analysis",
-    "Finite element method",
-    "Stress concentration",
-    "Boxbeam"
+    "Planning 2.Performing 3.Summarizing 4.Presentation 5.Aeronautical engineering"
   ],
-  "educationalGoal": "Students will learn basic knowledge of the finite element method,\nacquire skills to perform structural analysis using the finite\nelement analysis software, and develop the ability to appropriately\nutilize these knowledge and skills in aircraft structural design.",
-  "advice": "In this course, students will learn how to properly conduct numerical structural analyses\nby using the finite element analysis (FEA) software.\nIn the first half of the course, students will analyze the stress concentration of\na flat plate with semicircular notches.\nIn the second half of the course, students will analyze the deformation and stress\nof the boxbeam which is a simplified model of an aircraft wing structure.\nThrough the exercises, students will learn the basic knowledge of the finite element method,\nacquire the skills to perform structural analysis using the FEA software,\nand develop the ability to appropriately utilize these knowledge and skills in aircraft\nstructural design.",
-  "books": "Keishiro Yoshida, 'Structural Analysis Exercises', Kanazawa Institute of Technology (2022).",
-  "requiredKnowledge": "It is recommended that students have already taken the subject of 'Strength of Materials'.",
+  "educationalGoal": "Students will: (1)learn the method and theory of a selected basic subject, and perform experiment and practice on selected subject. (2)acquire deeper understanding and ability to apply engineering subjects. (3)learn how to write the experimental method in an experiment report. (4)learn how to create presentations on experiments and their results. (5)recommend utilizing open data source.",
+  "advice": "Students will carry out the following experiments in Exercise A. Details on the experiments can be confirmed in the textbook. ① Molding and evaluation of CFRPs (carbon fiber reinforced plastics) ② Strength evaluation of the thin sheet structure with stiffeners (Semi-monocoque structure) ③ Flight dynamics Students attending the lecture will be divided into three groups (A, B, and C). Group A will carry out experiment ① for five weeks and then theme ② for the next five weeks and finally theme ③ for another five weeks. Group B will follow the order of ②→③→① and group C the order of ③→①→②. In addition, class details are distributed at the time of the start of each experiment theme.",
+  "books": "Aeronautics Major Experiments and Exercises A",
+  "requiredKnowledge": "Student should read the textbook before an experiment and understand what kind of experiment they will be carrying out. In addition, students should make a lesson report before a class as preparation, if necessary for that class.",
   "activityGoals": [
     {
       "index": "①",
-      "type": "H,L,N",
-      "body": "Be able to evaluate the effect of elements division on the analysis results"
+      "type": "F,M",
+      "body": "Be able to plan an experiment and carry it out independently based on knowledge learned."
     },
     {
       "index": "②",
-      "type": "H,L,N",
-      "body": "Be able to adjust the density of elements division to conduct an accurate analysis"
+      "type": "F,M",
+      "body": "Be able to carry out tests safely based on an understanding of the principle of an experiment and the measuremen"
     },
     {
       "index": "③",
-      "type": "H,L,N",
-      "body": "Be able to calculate the deformation and stress of boxbeam"
+      "type": "F,M,L",
+      "body": "Be able to arrange test data using computers and explain the key and problem appropriately."
     },
     {
       "index": "④",
-      "type": "H,L,N",
-      "body": "Be able to evaluate the analysis results based on knowledge of strength of materials"
+      "type": "F,M,D",
+      "body": "Be able to reliably interpret the results of an experiment and evaluate the validity of the test data."
     },
     {
       "index": "⑤",
-      "type": "H,L,N",
-      "body": "Be able to design the thickness of skin panels of the boxbeam"
+      "type": "F,M",
+      "body": "Be able to explain the obtained test data reasonably by comparing it with an analytical solution."
+    },
+    {
+      "index": "⑥",
+      "type": "F",
+      "body": "Be able to summarize the experimental results in a report, submit it before a deadline, and explain them."
     }
   ],
   "evaluationWeights": [
@@ -54,19 +57,19 @@
       "label": "総合評価割合",
       "values": [
         "0",
+        "0",
+        "50",
         "40",
-        "60",
         "0",
-        "0",
-        "0",
+        "10",
         "0",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -77,19 +80,19 @@
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
         "0",
+        "0",
+        "50",
         "40",
-        "60",
         "0",
-        "0",
-        "0",
+        "10",
         "0",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -100,19 +103,19 @@
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
         "0",
+        "0",
+        "50",
         "40",
-        "60",
         "0",
-        "0",
-        "0",
+        "10",
         "0",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -133,9 +136,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -143,7 +146,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -156,9 +159,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -179,9 +182,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -190,62 +193,118 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "[Analysis of a flat plate with notches]\n1)Accurately evaluate the effect of elemetnts\n  division on the analysis results.\n2)Appropriately adjust the density of elements\n  division to conduct an accurate analysis.\n[Structural analysis of boxbeam]\n3)Accurately calculate the deformation and stress\n  of boxbeam by using FEA software.\n4)Evaluate the analysis results based on knowledge\n  of strength of materials.\n5)Design the thickness of skin panels of the\n  boxbeam using FEA software.",
-    "standard": "[Analysis of a flat plate with notches]\n1)Evaluate the effect of elements division on the\n  analysis results.\n2)Adjust the density of elements division to\n  conduct an accurate analysis.\n[Structural analysis of boxbeam]\n3)Calculate the deformation and stress of boxbeam\n  by using FEA software.\n4)Analyze various boxbeams with different skin\n  thicknesses using FEA software."
+    "ideal": "① Students understand the basics of carbon fiber reinforced plastics (CFRPs) and design CFRPs laminated plates. Students understand the details of the experiments and carry out molding of laminated plates, cutting of specimens, and bending tests, and also carry out recording, analysis and consideration of test results. ② Students properly conduct tests of three characteristic buckling types for semi-monocoque structures b evaluate the validity of obtained data by comparing it with theoretical or numerical analysis results. ③ Students can properly explain the generation of lift and the principle of stability, the difference between test models and actual aircraft, and record test data.",
+    "standard": "① Students understand features of the mechanical properties of carbon fiber reinforced plastics (CFRPs). Students understand experiments and carry out molding of laminated plates, cutting of specimens, and bending tests, and also carry out recording and analysis of test results. Students prepare reports and presentations as scheduled. ② Students conduct the buckling experiments and give a general explanation of the buckling phenomena in a presentation. ③ Students can roughly explain the generation of lift and the principle of stability, the difference between test models and actual aircraft, and record test data."
   },
   "clipProcess": "",
   "lessons": [
     {
       "index": "1",
-      "content": "Course introduction\n\nImportance of numerical simulation in\naircraft design\nIntroduction to finite element analysis",
-      "operation": "Lecture and practice\nSelf-check",
-      "assignments": "Read textbook Ch.1 and\nSec.2.1.\nReview the last class.",
-      "minutes": "20\n\n40"
+      "content": "Students understand the learning objectives, outline, and target abilities of this course based on the distributed syllabus. In particular, students understand which role this course assumes within the learning objectives of the department of aeronautics and a rough concrete level of achievement. ①Guidance on outline and manner of operation of molding and evaluation of CFRPs (carbon fiber reinforced plastics). Students research design of laminated CFRPs using a prepreg sheet with given properties. Students start to prepare lamination.",
+      "operation": "Lecture and experiments Self-check",
+      "assignments": "Students understand the relationship between the learning objectives of the department of aeronautics and this course. ①Students research the application, molding method and strength properties of CFRPs, and hand in the research report the following week.",
+      "minutes": "120"
     },
     {
       "index": "2",
-      "content": "Analysis of stress concentration on a\nflat plate with notches (1)",
-      "operation": "Lecture and practice\nSelf-check",
-      "assignments": "Read textbook Sec.2.2.\nReview the last class.",
-      "minutes": "20\n40"
+      "content": "Students laminate prepreg sheets based on a defined design in the first week and make laminated plates by hot press molding.",
+      "operation": "Lecture and experiments Self-check",
+      "assignments": "Students research evaluation method of strength properties of CFRPs based on the JIS standards given in the first week.",
+      "minutes": "60"
     },
     {
       "index": "3",
-      "content": "Analysis of stress concentration on a\nflat plate with notches (2)",
-      "operation": "Lecture and practice\nSelf-check",
-      "assignments": "Read textbook Sec. 2.3.\nReview the last class.\nSubmit analysis report 1.",
-      "minutes": "20\n40\n120"
+      "content": "Students cut out specimens from the molded plates by diamond-cutter and measure the dimensions. Students understand the handling of the universal testing machine. Teaching assistants conduct bending tests and obtain load-deflection curve.",
+      "operation": "Lecture and experiments Self-check",
+      "assignments": "Student research strength properties and the calculation method of the strength of the molded plates by load-deflection curve.",
+      "minutes": "120"
     },
     {
       "index": "4",
-      "content": "Analysis of deformation and stress of\nboxbeam (1)",
-      "operation": "Lecture and practice\nSelf-check",
-      "assignments": "Read textbook Sec.3.1-3.3.\nReview the last class.",
-      "minutes": "20\n40"
+      "content": "Students evaluate the bending properties of the molded plates from the experimental results in the third week, and examine these results and compare them with designed values. Students begin preparation of report and presentation.",
+      "operation": "Lecture and experiments Self-check",
+      "assignments": "Students prepare result report, PowerPoint material and presentation.",
+      "minutes": "120"
     },
     {
       "index": "5",
-      "content": "Analysis of deformation and stress of\nboxbeam (2)",
-      "operation": "Lecture and practice\nSelf-check",
-      "assignments": "Read textbook Sec.3.3.\nReview the last class.\nSubmit analysis report 2.",
-      "minutes": "20\n40\n120"
+      "content": "Students hand in result report and deliver presentation and discussion. Students need to research literature before presentation for proper question and answer. Students self-check the content of the experiments, reports, presentation and attendance.",
+      "operation": "Lecture and experiments Self-check",
+      "assignments": "Students rehearse group presentation and prepare presentation by researching literature for question and answer.",
+      "minutes": "60"
     },
     {
       "index": "6",
-      "content": "Structural design of the thickness\nof skin panels in boxbeam",
-      "operation": "Lecture and practice\nSelf-check",
-      "assignments": "Read textbook Subsec.3.3.6.\nReview the last class.",
-      "minutes": "20\n40"
+      "content": "Strength evaluation of Semi-monocoque structure Orientation: It is explained that the aircraftstructure consists of thin sheet metal; therefore, buckling strength becomes a problem for structural design. The experimental method and general background of the buckling experiment,including the calculation method of the buckling load, are explained. In addition, actual examples of aircraft structures, T-3 and OH-6D, are shown as the teaching materials.",
+      "operation": "Lecture and meeting Confirmation of experimental procedure and task allocation in the experiments.",
+      "assignments": "Students should review the three types of buckling typical for semi-monocoque structures from a textbook of structural mechanics. Students should also read p. 5 of the textbook and understand the purpose of the experiment.",
+      "minutes": "120"
     },
     {
       "index": "7",
-      "content": "Analysis of boxbeam with CFRP skin\n\nReview of this course",
-      "operation": "Lecture and practice\nSelf-check",
-      "assignments": "Read textbook Sec.3.4.\nReview the last class.\nSubmit analysis report 3.",
-      "minutes": "20\n40\n120"
+      "content": "Snap buckling test Students can understand the typical failure mode of shell structures though a comparison between a theoretical and experimental buckling load obtained from the snap buckling tests using an aluminum can they prepare. Self-check of lecture content and current progress is conducted.",
+      "operation": "Lecture and experiments",
+      "assignments": "Students review failure behavior of the shell structure and predict the expected failure load and the buckling mode through the textbook pp. 6 to 7.",
+      "minutes": "120"
+    },
+    {
+      "index": "8",
+      "content": "Shear buckling test Students observe the shear buckling process, such as the shear buckling wrinkle and load resistant capability, under a tension field through the shear buckling test. Students learn the shear load resistant capability of the shear load members of the aircraft, including spar-webs and rib-webs through a comparison between the experimental value and the expected failure load. Self-check of lecture content and current progress is conducted.",
+      "operation": "Lecture and experiments",
+      "assignments": "Students should learn tension field theory and predict the expected buckling load and the buckling mode. Students should also read pp. 7 to 10 of the textbook and understand the calculation method of the shear buckling load of the test specimen.",
+      "minutes": "120"
+    },
+    {
+      "index": "9",
+      "content": "Compression buckling test A thin sheet has little load-resistant capability after compression buckling. However, reinforcement with thin stiffeners shows an enhanced load-resistant capability even in a post-buckling situation. Students observe the above state by experiment. At the same time, students also confirm by sight the situation of the structure which caused compression buckling. In addition, students estimate the effective width based on the experimental results and also understand the grounds of the enhancement of strength for the stiffened panel. Self-check of lecture content and current progress is conducted.",
+      "operation": "Lecture and experiments",
+      "assignments": "Students learn the theory of the compression buckling and predict the expected buckling load and the buckling mode. Students read pp. 10 to 12 of the textbook and understand the calculation method of the local buckling load of the test specimen.",
+      "minutes": "120"
+    },
+    {
+      "index": "10",
+      "content": "Oral presentation and report submission Students perform an oral presentation on three kinds of buckling experiments. Using experimental data and a comparison between test results and the theoretical predicted value, students investigate the load resistance capability of the stiffened panels. In the oral presentation, students can appropriately cope with various questions by having researched the reference documents. Self-check of current progress is conducted.",
+      "operation": "Oral presentation and report submission",
+      "assignments": "Students should perform preparations for their oral presentation and the submitted report. Students should understand the style of the submitted report by reading pp. 13 to 14 of the textbook and also prepare for questions in the oral presentation by reviewing the related documents for the concept of stiffened panels.",
+      "minutes": "120"
+    },
+    {
+      "index": "11",
+      "content": "Flight dynamics Equipment: Flight demonstration wind tunnel Flight dynamics test (1): aerodynamic properties Investigation of lift characteristics of the aircraft model as the angle of attack is varied. Comparison between experimental data and theoretical analysis. Self-check the content of the lecture, experiments and theory.",
+      "operation": "Lecture and experiments Data analysis using Excel Self-check",
+      "assignments": "Read textbook pp. 21 to 35 Create 1st report",
+      "minutes": "120"
+    },
+    {
+      "index": "12",
+      "content": "Flight dynamics test (2): trim and neutral points Investigation of static stability and neutral points of the aircraft model as the center of gravity moves. Comparison between experimental data and theoretical analysis. Self-check the content of the lecture, experiments and theory.",
+      "operation": "Lecture and experiments Data analysis using Excel Self-check",
+      "assignments": "Read textbook pp. 36 to 45 Create 2nd report",
+      "minutes": "120"
+    },
+    {
+      "index": "13",
+      "content": "Flight dynamics test (3): short period oscillation and phugoid oscillation Investigation of dynamic stability of the aircraft model as free flight varies. Comparison between experimental data and theoretical analysis. Self-check the content of the lecture, experiments and theory.",
+      "operation": "Lecture and exercises Data analysis and Simulation using Excel Self-check",
+      "assignments": "Read textbook pp. 46 to 51 Create 3rd report",
+      "minutes": "120"
+    },
+    {
+      "index": "14",
+      "content": "Flight dynamics test (4): stalling Investigation of stall characteristics of aircraft model using flow visualization. Self-check the content of the lecture, experiments and theory.",
+      "operation": "Lecture and experiments Self-check",
+      "assignments": "Read textbook pp. 52 to 56",
+      "minutes": "120"
+    },
+    {
+      "index": "15",
+      "content": "Oral presentation and integrated learning Review and self-evaluation",
+      "operation": "Presentation Review and self-evaluation",
+      "assignments": "Prepare to submit second report and oral presentation. Self-evaluation on achievement in this course.",
+      "minutes": "90"
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　E142-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Aeronautics and Astronautics(〜2024)\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                構造解析演習\n                Structural Analysis Exercises\n\n              1\n              E142-01\n\n                2026年度\n\n                3rd year 1st semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  YOSHIDA Keishiro\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Numerical simulation\n2.Structural analysis\n3.Finite element method\n4.Stress concentration\n5.Boxbeam\n\n              Students will learn basic knowledge of the finite element method,\nacquire skills to perform structural analysis using the finite\nelement analysis software, and develop the ability to appropriately\nutilize these knowledge and skills in aircraft structural design.\n\n              授業の概要および学習上の助言\n\n              In this course, students will learn how to properly conduct numerical structural analyses\nby using the finite element analysis (FEA) software.\nIn the first half of the course, students will analyze the stress concentration of\na flat plate with semicircular notches.\nIn the second half of the course, students will analyze the deformation and stress\nof the boxbeam which is a simplified model of an aircraft wing structure.\nThrough the exercises, students will learn the basic knowledge of the finite element method,\nacquire the skills to perform structural analysis using the FEA software,\nand develop the ability to appropriately utilize these knowledge and skills in aircraft\nstructural design.\n\n              教科書および参考書・リザーブドブック\n\n              Keishiro Yoshida, 'Structural Analysis Exercises', Kanazawa Institute of Technology (2022).\n\n              履修に必要な予備知識や技能\n\n              It is recommended that students have already taken the subject of 'Strength of Materials'.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                H,L,N\n                Be able to evaluate the effect of elements division on the analysis results\n\n                ②\n                H,L,N\n                Be able to adjust the density of elements division to conduct an accurate analysis\n\n                ③\n                H,L,N\n                Be able to calculate the deformation and stress of boxbeam\n\n                ④\n                H,L,N\n                Be able to evaluate the analysis results based on knowledge of strength of materials\n\n                ⑤\n                H,L,N\n                Be able to design the thickness of skin panels of the boxbeam\n\n                ⑥\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                0\n\n                40\n\n                60\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                0\n\n                40\n\n                60\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                0\n\n                40\n\n                60\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  コラボレーションとリーダーシップ\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n           ",
-  "courseId": "2026:spring:E142-01:0:215",
+  "rawText": "金沢工業大学 学習支援計画書 E129-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Aeronautics\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n航空システム専門実験・演習A\nAeronautics Major Lab/Exercises A  3 E129-01  2024年度\n 3rd year 1st semester\n3rd year 2nd semester  修学規程第4条を参照\n    担当教員名\n HIROSE Yasuo, AKASAKA Takeshi, OGURI Kazuyuki\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Planning 2.Performing 3.Summarizing 4.Presentation 5.Aeronautical engineering  Students will: (1)learn the method and theory of a selected basic subject, and perform experiment and practice on selected subject. (2)acquire deeper understanding and ability to apply engineering subjects. (3)learn how to write the experimental method in an experiment report. (4)learn how to create presentations on experiments and their results. (5)recommend utilizing open data source.\n    授業の概要および学習上の助言   Students will carry out the following experiments in Exercise A. Details on the experiments can be confirmed in the textbook. ① Molding and evaluation of CFRPs (carbon fiber reinforced plastics) ② Strength evaluation of the thin sheet structure with stiffeners (Semi-monocoque structure) ③ Flight dynamics Students attending the lecture will be divided into three groups (A, B, and C). Group A will carry out experiment ① for five weeks and then theme ② for the next five weeks and finally theme ③ for another five weeks. Group B will follow the order of ②→③→① and group C the order of ③→①→②. In addition, class details are distributed at the time of the start of each experiment theme.\n    教科書および参考書・リザーブドブック   Aeronautics Major Experiments and Exercises A\n    履修に必要な予備知識や技能   Student should read the textbook before an experiment and understand what kind of experiment they will be carrying out. In addition, students should make a lesson report before a class as preparation, if necessary for that class.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① F,M Be able to plan an experiment and carry it out independently based on knowledge learned.   ② F,M Be able to carry out tests safely based on an understanding of the principle of an experiment and the measuremen   ③ F,M,L Be able to arrange test data using computers and explain the key and problem appropriately.   ④ F,M,D Be able to reliably interpret the results of an experiment and evaluate the validity of the test data.   ⑤ F,M Be able to explain the obtained test data reasonably by comparing it with an analytical solution.   ⑥ F Be able to summarize the experimental results in a report, submit it before a deadline, and explain them.\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 0 0 50 40 0 10 0 100     指標と評価割合 総合評価割合 0 0 50 40 0 10 0 100   総合力指標 知識を取り込む力 0 0 50 40 0 10 0 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ①      ②     ③     ④     ⑤     ⑥     クイズ\n小テスト ①      ②     ③     ④     ⑤     ⑥     レポート ① レ Are students able to summarize test data clearly using charts that include the experimental conditions? Are students able to show the theoretical equations that should be used? Are students able to investigate the difference between theoretical solutions and test data? Are students able to consider the difference between a theoretical value and experimental results quantitatively, including errors in the experimental data?    ② レ   ③ レ   ④ レ   ⑤ レ   ⑥ レ   成果発表\n(口頭・実技) ①   Are the purpose of the experiment, the experiment itself, and the results summarized clearly? Are problems in the experiment considered precisely? Are the things that became clear through this experiment summarized clearly? Are things in the experiment that differed from the behavior of an actual aircraft explained? Are the limits of the experimental device grasped sufficiently well? Are the physical phenomena in this experiment clear from the provide",
+  "courseId": "2024:fall:E117-01:0:215",
   "language": "en"
 }

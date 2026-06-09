@@ -1,75 +1,68 @@
 {
   "sourceIndex": 740,
   "sourceUrl": "/opsyllabus/kitos0110/740/1",
-  "importedAt": "2026-06-08T09:34:08.356Z",
-  "title": "バイオ・化学基礎実験・演習Ｂ３（応用化学）",
-  "subtitle": "Basic Experiments and Practice in Bioscience and Chemistry B3 (Applied Chemistry)",
-  "courseType": "Major ProgramMajor Courses",
-  "credits": "1",
-  "term": "2026年度\n\n                2nd year 2nd semester",
+  "importedAt": "2026-06-09T01:29:26.111Z",
+  "title": "化学工学",
+  "subtitle": "Chemical Engineering",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "2",
+  "term": "2024年度\n 2nd year 2nd semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "ONO Shin",
-    "TANIDA Ikuhiro"
+    "TOSA Koji"
   ],
   "keywords": [
-    "Biochemistry",
-    "Microbiology"
+    "Stoichiometry 2.Chemical thermodynamics 3.Transportation phenomena 4.Chemical processes 5.Problem solving ability"
   ],
-  "educationalGoal": "Learn the correct clothing/protective equipment suitable for experiments, use experimental tools correctly, and conduct experiments safely. Learn the specific information for the experiments and conduct experiments on your own. Prepare a report describing the experimental method and results and submit it by the deadline. Acquire the ability to conduct experiments by verifying and reporting on material learned in courses and through experiments.",
-  "advice": "Conduct experiments in biochemistry and microbiology. The objective of this experimental course is to acquire more knowledge than that learned in lectures and to gain skills in research, experimental methods, and reporting that are necessary to perform activities in Design Project III (4th year). If understanding experiments is difficult, you need to actively gain the understanding through reading, asking questions, and attending office hours, along with sufficient preparation and review of the experimental method and principles. Be sure to attend the guidance given for each experiment to learn about precautions, handling of experimental apparatus, safety training, and other important information.\nCommon to all experiments:\n  Experimental guidance, safety training, examination\nBiochemistry/Microbiology experiments:\n  Preparation and culture of media for microorganisms, gram stain and optical microscope, polymerase chain reaction",
-  "books": "Textbooks: Baio Kagaku Kiso Jikken/enshu (Kanazawa Institute of Technology Publishing)\nReference books: Kenkyu no tameno Anzen Shishin (Kanazawa Institute of Technology Publishing)\nReserved books: Jikken Deta wo Tadashiku Atsukau tameni (Kagaku Dojin Publishing), Jikken wo Anzen ni Okonau tameni (Kagaku Dojin Publishing), Zoku Jikken wo Anzen ni Okonau tameni (Kagaku Dojin Publishing)",
-  "requiredKnowledge": "Bring an A4 size experimental notebook, scientific calculator, and ruler. Experiments should be conducted after reviewing the course material, understanding the experimental theory, and preparing the materials for the experiments. If the progress of the experiment is delayed, class time will be extended until the experiment is completed, so keep some time free after the class on experiment days.",
+  "educationalGoal": "Learning objectives to master: (1) Stoichiometry, including mass balance and energy balance. (2) Chemical thermodynamics, including chemical equilibria and chemical kinetics. (3) Transportation phenomena of heat, mass, and momentum. (4) Design of chemical devices and processes. (5) Problem solving using the knowledge gained in areas above.",
+  "advice": "1. Chemical engineering and chemical plants 2. Mass balance 3. Fluid mechanics 4. Thermal engineering 5. Operations involving heat transfer 6. Separation processes 7. Powder engineering 8. Chemical reaction engineering 9. Metrology, control, and management of chemical plants",
+  "books": "Textbooks: General Chemical Engineering (Jikkyo Publishing) Reference books: Basic Chemical Engineering (Kagakudojin Publishing] Reserved books:",
+  "requiredKnowledge": "A basic understanding of physics, physical chemistry, organic chemistry, inorganic chemistry, and mathematics (exponential, logarithmic, and differential calculus) is necessary.",
   "activityGoals": [
     {
       "index": "①",
-      "type": "L",
-      "body": "Wear appropriate clothing, understand the use of the equipment, handle reagents properly, and conduct safely."
+      "type": "M,O",
+      "body": "Calculate mass and energy balance."
     },
     {
       "index": "②",
-      "type": "L",
-      "body": "Record experimental conditions and results accurately in the experimental notes."
+      "type": "M,O",
+      "body": "Calculate chemical thermodynamics, including chemical equilibria and chemical kinetics."
     },
     {
       "index": "③",
-      "type": "L",
-      "body": "Complete the experimental report using the prescribed format and explain it to others."
+      "type": "P,R",
+      "body": "Calculate transportation of heat, mass, and momentum."
     },
     {
       "index": "④",
-      "type": "L",
-      "body": "Describe observed phenomena and obtained data in experiments, based on principles of physics and chemistry."
+      "type": "P,R",
+      "body": "Design chemical processes."
     },
     {
       "index": "⑤",
-      "type": "L",
-      "body": "Conduct the experiments on your own, according to the instructions."
-    },
-    {
-      "index": "⑥",
-      "type": "L",
-      "body": "Understand the fundamental principles of biochemistry and microbiology."
+      "type": "S",
+      "body": "Solve problems using chemical engineering."
     }
   ],
   "evaluationWeights": [
     {
       "label": "総合評価割合",
       "values": [
-        "20",
         "0",
-        "60",
+        "50",
+        "50",
         "0",
         "0",
         "0",
-        "20",
+        "0",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -79,20 +72,20 @@
     {
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
-        "20",
         "0",
-        "60",
+        "50",
+        "50",
         "0",
         "0",
         "0",
-        "20",
+        "0",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -102,20 +95,20 @@
     {
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
-        "20",
         "0",
-        "60",
+        "50",
+        "50",
         "0",
         "0",
         "0",
-        "20",
+        "0",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -136,9 +129,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -146,7 +139,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -159,9 +152,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -182,9 +175,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -193,48 +186,118 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "1. Use protective equipment and autonomously conduct experiments safely and competently.\n2. Understand sufficiently the fundamental principles of biochemistry and conduct experimental operations accurately.\n3. Understand sufficiently the fundamental principles and objectives of the experimental operation, summarize the experimental data obtained, and discuss the results.\n4. Record experimental contents and results accurately.\n5. Prepare a report using the prescribed format and explain it easily to others.",
-    "standard": "1. Use protective equipment and conduct experiments safely.\n2. Understand the fundamental principles of biochemistry and conduct experimental operations.\n3. Understand the fundamental principles and objectives of the experimental operation, summarize the experimental data obtained, and utilize for discussion.\n4. Record experimental contents and results.\n5. Prepare a report using the prescribed format."
+    "ideal": "(1) Can explain and calculate mass and energy balance. (2) Can explain and calculate chemical thermodynamics, including chemical equilibria and chemical kinetics. (3) Can explain and calculate transportation phenomena of heat, mass, and momentum. (4) Can design chemical processes. (5) Can solve problems using chemical engineering.",
+    "standard": "(1) Can explain and calculate basic mass and energy balance. (2) Can explain and calculate basic chemical thermodynamics, including chemical equilibrium and chemical kinetics. (3) Can explain and calculate basic transportation phenomena of heat, mass, and momentum. (4) Can design basic chemical processes. (5) Can solve some problems using chemical engineering."
   },
   "clipProcess": "",
   "lessons": [
     {
       "index": "1",
-      "content": "Guidance for biochemistry and microbiology\nexperiment and safety training",
-      "operation": "Lecture, Exercises,\nand Experiments",
-      "assignments": "Pre-Lab Assignment:\nDescribe translational motion\nand classical mechanics.\nAssignment:\nComplete post-laboratory\nreport.",
-      "minutes": "30\n\n90"
+      "content": "Guidance Distillation",
+      "operation": "Lecture and Exercises",
+      "assignments": "Solve problems and write a report. Submit the report the next week.",
+      "minutes": "100"
     },
     {
       "index": "2",
-      "content": "Preparation of medium and culture of\nmicroorganism 1",
-      "operation": "Lecture, Exercises,\nand Experiments",
-      "assignments": "Pre-Lab Assignment:\nRead the text and understand\nthe contents of the\nexperiment.\nAssignment:\nComplete post-laboratory\nreport.",
-      "minutes": "30\n\n90"
+      "content": "Fluid mechanics",
+      "operation": "Lecture and Exercises",
+      "assignments": "Solve problems and write a report. Submit the report the next week.",
+      "minutes": "100"
     },
     {
       "index": "3",
-      "content": "Preparation of medium and culture of\nmicroorganism 2",
-      "operation": "Lecture, Exercises,\nand Experiments",
-      "assignments": "Pre-Lab Assignment:\nRead the text and understand\nthe contents of the\nexperiment.\nAssignment:\nComplete post-laboratory\nreport.",
-      "minutes": "30\n\n90"
+      "content": "Thermal engineering",
+      "operation": "Lecture and Exercises",
+      "assignments": "Solve problems and write a report. Submit the report the next week.",
+      "minutes": "100"
     },
     {
       "index": "4",
-      "content": "Gram stain and optical microscope",
-      "operation": "Lecture, Exercises,\nand Experiments",
-      "assignments": "Pre-Lab Assignment:\nRead the text and understand\nthe contents of the\nexperiment.\nAssignment:\nComplete post-laboratory\nreport.",
-      "minutes": "30\n\n90"
+      "content": "Chemical plant and chemical engineering",
+      "operation": "Lecture and Exercises",
+      "assignments": "Solve problems and write a report. Submit the report the next week.",
+      "minutes": "100"
     },
     {
       "index": "5",
-      "content": "Polymerase chain reaction",
-      "operation": "Lecture, Exercises,\nand Experiments",
-      "assignments": "Pre-Lab Assignment:\nRead the text and understand\nthe contents of the\nexperiment.\nAssignment:\nComplete post-laboratory\nreport.",
-      "minutes": "30\n\n90"
+      "content": "Material balance",
+      "operation": "Lecture and Exercises",
+      "assignments": "Solve problems and write a report. Submit the report the next week.",
+      "minutes": "100"
+    },
+    {
+      "index": "6",
+      "content": "Application of chemical engineering to environmental and energy engineering",
+      "operation": "Lecture and Exercises",
+      "assignments": "Solve problems and write a report. Submit the report the next week.",
+      "minutes": ""
+    },
+    {
+      "index": "7",
+      "content": "Quizzes 1 Summary of lectures from Week 1 to Week 6",
+      "operation": "Quizzes Lecture and Exercises",
+      "assignments": "Solve problems and write a report. Submit the report the next week.",
+      "minutes": "100"
+    },
+    {
+      "index": "8",
+      "content": "Operations involving heat transfer",
+      "operation": "Lecture and Exercises",
+      "assignments": "Solve problems and write a report. Submit the report the next week.",
+      "minutes": "100"
+    },
+    {
+      "index": "9",
+      "content": "Separation processes",
+      "operation": "Lecture and Exercises",
+      "assignments": "Solve problems and write a report. Submit the report the next week.",
+      "minutes": "100"
+    },
+    {
+      "index": "10",
+      "content": "Powder engineering",
+      "operation": "Lecture and Exercises",
+      "assignments": "Solve problems and write a report. Submit the report the next week.",
+      "minutes": "100"
+    },
+    {
+      "index": "11",
+      "content": "Chemical reaction engineering",
+      "operation": "Lecture and Exercises",
+      "assignments": "Solve problems and write a report. Submit the report the next week.",
+      "minutes": "100"
+    },
+    {
+      "index": "12",
+      "content": "Metrology, and control and management of chemical plants",
+      "operation": "Lecture and Exercises",
+      "assignments": "Solve problems and write a report. Submit the report the next week.",
+      "minutes": "100"
+    },
+    {
+      "index": "13",
+      "content": "Special lecture by an industrial engineer",
+      "operation": "Lecture and Exercises",
+      "assignments": "Solve problems and write a report. Submit the report the next week.",
+      "minutes": "100"
+    },
+    {
+      "index": "14",
+      "content": "Quizzes 2 Summary of lectures from Week 8 to Week 14",
+      "operation": "Quizzes Lecture and Exercises",
+      "assignments": "Solve problems and write a report. Submit the report the next week.",
+      "minutes": "100"
+    },
+    {
+      "index": "15",
+      "content": "Self-Evaluation Day Safety in chemical plants",
+      "operation": "Lecture and Exercises",
+      "assignments": "Solve problems and write a report. Submit the report the next week.",
+      "minutes": "100"
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　B221-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Chemistry and Environmental Science\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                バイオ・化学基礎実験・演習Ｂ３（応用化学）\n                Basic Experiments and Practice in Bioscience and Chemistry B3 (Applied Chemistry)\n\n              1\n              B221-01\n\n                2026年度\n\n                2nd year 2nd semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  ONO Shin, TANIDA Ikuhiro\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Biochemistry\n2.Microbiology\n\n              Learn the correct clothing/protective equipment suitable for experiments, use experimental tools correctly, and conduct experiments safely. Learn the specific information for the experiments and conduct experiments on your own. Prepare a report describing the experimental method and results and submit it by the deadline. Acquire the ability to conduct experiments by verifying and reporting on material learned in courses and through experiments.\n\n              授業の概要および学習上の助言\n\n              Conduct experiments in biochemistry and microbiology. The objective of this experimental course is to acquire more knowledge than that learned in lectures and to gain skills in research, experimental methods, and reporting that are necessary to perform activities in Design Project III (4th year). If understanding experiments is difficult, you need to actively gain the understanding through reading, asking questions, and attending office hours, along with sufficient preparation and review of the experimental method and principles. Be sure to attend the guidance given for each experiment to learn about precautions, handling of experimental apparatus, safety training, and other important information.\nCommon to all experiments:\n  Experimental guidance, safety training, examination\nBiochemistry/Microbiology experiments:\n  Preparation and culture of media for microorganisms, gram stain and optical microscope, polymerase chain reaction\n\n              教科書および参考書・リザーブドブック\n\n              Textbooks: Baio Kagaku Kiso Jikken/enshu (Kanazawa Institute of Technology Publishing)\nReference books: Kenkyu no tameno Anzen Shishin (Kanazawa Institute of Technology Publishing)\nReserved books: Jikken Deta wo Tadashiku Atsukau tameni (Kagaku Dojin Publishing), Jikken wo Anzen ni Okonau tameni (Kagaku Dojin Publishing), Zoku Jikken wo Anzen ni Okonau tameni (Kagaku Dojin Publishing)\n\n              履修に必要な予備知識や技能\n\n              Bring an A4 size experimental notebook, scientific calculator, and ruler. Experiments should be conducted after reviewing the course material, understanding the experimental theory, and preparing the materials for the experiments. If the progress of the experiment is delayed, class time will be extended until the experiment is completed, so keep some time free after the class on experiment days.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                L\n                Wear appropriate clothing, understand the use of the equipment, handle reagents properly, and conduct safely.\n\n                ②\n                L\n                Record experimental conditions and results accurately in the experimental notes.\n\n                ③\n                L\n                Complete the experimental report using the prescribed format and explain it to others.\n\n                ④\n                L\n                Describe observed phenomena and obtained data in experiments, based on principles of physics and chemistry.\n\n                ⑤\n                L\n                Conduct the experiments on your own, according to the instructions.\n\n                ⑥\n                L\n                Understand the",
-  "courseId": "2026:fall:B221-01:0:740",
+  "rawText": "金沢工業大学 学習支援計画書 B013-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Applied Chemistry\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n化学工学\nChemical Engineering  2 B013-01  2024年度\n 2nd year 2nd semester  修学規程第4条を参照\n    担当教員名\n TOSA Koji\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Stoichiometry 2.Chemical thermodynamics 3.Transportation phenomena 4.Chemical processes 5.Problem solving ability  Learning objectives to master: (1) Stoichiometry, including mass balance and energy balance. (2) Chemical thermodynamics, including chemical equilibria and chemical kinetics. (3) Transportation phenomena of heat, mass, and momentum. (4) Design of chemical devices and processes. (5) Problem solving using the knowledge gained in areas above.\n    授業の概要および学習上の助言   1. Chemical engineering and chemical plants 2. Mass balance 3. Fluid mechanics 4. Thermal engineering 5. Operations involving heat transfer 6. Separation processes 7. Powder engineering 8. Chemical reaction engineering 9. Metrology, control, and management of chemical plants\n    教科書および参考書・リザーブドブック   Textbooks: General Chemical Engineering (Jikkyo Publishing) Reference books: Basic Chemical Engineering (Kagakudojin Publishing] Reserved books:\n    履修に必要な予備知識や技能   A basic understanding of physics, physical chemistry, organic chemistry, inorganic chemistry, and mathematics (exponential, logarithmic, and differential calculus) is necessary.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① M,O Calculate mass and energy balance.   ② M,O Calculate chemical thermodynamics, including chemical equilibria and chemical kinetics.   ③ P,R Calculate transportation of heat, mass, and momentum.   ④ P,R Design chemical processes.   ⑤ S Solve problems using chemical engineering.   ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 0 50 50 0 0 0 0 100     指標と評価割合 総合評価割合 0 50 50 0 0 0 0 100   総合力指標 知識を取り込む力 0 50 50 0 0 0 0 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ①      ②     ③     ④     ⑤     ⑥     クイズ\n小テスト ① レ Quizzes will be given in week 7 and 14. Problems will be similar but not identical to those in assignments. A scientific calculator and ruler can be used.   ② レ   ③ レ   ④ レ   ⑤     ⑥     レポート ① レ Assignments should be submitted as reports the following week.   ② レ   ③ レ   ④ レ   ⑤     ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ①      ②     ③     ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     (1) Can explain and calculate mass and energy balance. (2) Can explain and calculate chemical thermodynamics, including chemical equilibria and chemical kinetics. (3) Can explain and calculate transportation phenomena of heat, mass, and momentum. (4) Can design chemical processes. (5) Can solve problems using chemical engineering. (1) Can explain and calculate basic mass and energy balance. (2) Can explain and calculate basic chemical thermodynamics, including chemical equilibrium and chemical kinetics. (3) Can explain and calculate basic transportation phenomena of heat, mass, and momentum. (4) Can design basic chemical processes. (5) Can solve some problems using chemical engineering.\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習課題に要する標準的な時間を記載してあります。日々の自学自習時間全体としては、各授業に応じた時間(例えば2単位科目の場合、予習2時間・復習2時間/週)を取るよう努めてください。詳しくは教員の指導に従って下さい。     授業明細   回数 学習内容 授業の運営方法 学習課題(予習・復習) 時間:分※     1  Guidance Distillation  Lecture and Exercises Solve problems and write a report. Submit the report the next week.  100   2  Fluid mechanics Lecture and Exercises Solve problems and write a r",
+  "courseId": "2024:spring:B012-01:0:740",
   "language": "en"
 }

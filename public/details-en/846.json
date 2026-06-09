@@ -1,72 +1,63 @@
 {
   "sourceIndex": 846,
   "sourceUrl": "/opsyllabus/kitos0110/846/1",
-  "importedAt": "2026-06-08T09:34:10.684Z",
-  "title": "電気電子コンピュータ工学",
-  "subtitle": "Computer architecture for Electrical and Electronic Engineers",
-  "courseType": "Major ProgramMajor Courses",
+  "importedAt": "2026-06-09T01:29:27.098Z",
+  "title": "経済と社会",
+  "subtitle": "Economy and Society",
+  "courseType": "(Provided by all courses)\nLiberal Arts Courses\nTransdisciplinary Learning",
   "credits": "2",
-  "term": "2026年度\n\n                2nd year 2nd semester",
+  "term": "2024年度\n 1st year 2nd semester\n2nd year 1st semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "HAYASHI Keiji"
+    "NAKANO Makoto"
   ],
   "keywords": [
-    "Computer architecture",
-    "Operating principles",
-    "Machine language and assembly language",
-    "CPU architecture",
-    "High performance computing"
+    "Economic activity 2.Commercial code 3.Companies act"
   ],
-  "educationalGoal": "This course intends to study on basic technologies for computer design and utilization for electrical engineers. This course lectures on dual aspects, e.g. hardware and software. Students can understand whole of basic technologies to make use of computers without hesitation after their graduation, because all of industrial fields need engineers with basic knowledge of computers.",
-  "advice": "Major topics in this course are listed as follows.\n\n(1)Background of computer technologies\n- History of computers, Neumann-type computer\n(2)Computer architecture and implementation (Hardware aspect)\n- Logical circuit and its operation, CPU architecture, Machine language\n(3)Introduction of high-level language\n- Summary of typical programming languages, basic syntax of the C language\n(4)Computer architecture and implementation (Software aspect)\n- Assembly language, High-level language, Operating systems, Computing algorithm\n(5)Latest topics in computer R&D\n- Latest technical trends, Methodology of hardware and software development",
-  "books": "Textbooks: None\nReference books: None\nReserved books: None",
-  "requiredKnowledge": "Students should understand the following basic knowledge.\n- Product image with CPU\n- Digital circuit and devices\n- Roughly image of OS and programing language",
+  "educationalGoal": "The purpose of this course is to understand the economy that is involved in modern society and life, and to understand the functions and roles of companies. In this course, students will learn basic knowledge of economics, as well as basic knowledge of corporate systems and laws that play a major role in the economy, and how to respond to society.",
+  "advice": "In this course, students will learn the following about economics and companies. ・Society and economic activity ・Company purpose and activities ・Company owned and management ・Responding to the information society ・Relationship between company and society",
+  "books": "・Textbooks: None ・Reference books: None ・Reserved books: None",
+  "requiredKnowledge": "・Basic knowledge about the market economy. ・Basic knowledge about the Company.",
   "activityGoals": [
     {
       "index": "①",
-      "type": "K",
-      "body": "Understanding computer basic architecture"
+      "type": "A,B",
+      "body": "Understand the mechanism of market economy and economic policy. And explain the current economic situation."
     },
     {
       "index": "②",
-      "type": "K",
-      "body": "Understanding position and function of machine, assembly and high level languages"
+      "type": "A,B",
+      "body": "Explain the purpose and role of a company in society."
     },
     {
       "index": "③",
-      "type": "K",
-      "body": "Understanding configuration and processing flows of CPU"
+      "type": "A,B",
+      "body": "Investigate and consider cases related to the establishment and survival of a company."
     },
     {
       "index": "④",
-      "type": "K",
-      "body": "Understanding configuration of peripheral devices focusing on storage devices"
-    },
-    {
-      "index": "⑤",
-      "type": "K",
-      "body": "Understanding trends in technological development aimed at improving computer performance"
+      "type": "A,B",
+      "body": "Investigate responses to social situations and consider the results."
     }
   ],
   "evaluationWeights": [
     {
       "label": "総合評価割合",
       "values": [
-        "40",
-        "40",
-        "20",
+        "0",
+        "56",
+        "18",
         "0",
         "0",
-        "0",
-        "0",
+        "12",
+        "14",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -76,20 +67,20 @@
     {
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
-        "40",
-        "40",
-        "20",
+        "0",
+        "56",
+        "18",
         "0",
         "0",
-        "0",
-        "0",
+        "12",
+        "14",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -99,20 +90,20 @@
     {
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
-        "40",
-        "40",
-        "20",
+        "0",
+        "56",
+        "18",
         "0",
         "0",
-        "0",
-        "0",
+        "12",
+        "14",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -133,9 +124,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -143,7 +134,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -156,9 +147,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -179,9 +170,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -190,118 +181,118 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "Students can explain following items with precision.\n-Key functional blocks in a computer and operations among these blocks\n-Simple program codes by machine, assembly and high level languages\n-Configuration and processing flows by assembly language in CPU\n-Functions of OS with some examples\n-High performance computing technology with some examples\nThrough these knowledges, students can design A Simple Computer (ASC) which is an educational reference model.",
-    "standard": "Students can explain roughly following items without hesitations\n-Key functional blocks in a computer and operations among these blocks\n-Simple program codes by machine, assembly and high level languages\n-Configuration and processing flows by assembly language in CPU\n-Functions of OS\n-High performance computing technology"
+    "ideal": "・Understand social and economic mechanisms and be able to explain them accurately. ・Be able to accurately consider responses to the company and society.",
+    "standard": "・Be able to understand and explain social and economic mechanisms. ・Be able to consider responses to companies and society."
   },
   "clipProcess": "",
   "lessons": [
     {
       "index": "1",
-      "content": "Introduction\n- Class schedule and operations\n- Objectives of this course",
+      "content": "Course orientation Market economy",
       "operation": "Lecture and Q&A",
-      "assignments": "Prepare the relevant section\nof the class materials\ndistributed via the e-syllabus\n\nReview materials from No. 1\nclass",
-      "minutes": "100\n\n100"
+      "assignments": "Review",
+      "minutes": "60"
     },
     {
       "index": "2",
-      "content": "Computer architecture and implementation\n(Hardware aspect)\n- Principle of computer\n- Definition of \"0\" and \"1\"",
+      "content": "Nation's economy Central bank",
       "operation": "Lecture and Q&A",
-      "assignments": "Prepare the relevant section\nof the class materials\ndistributed via the e-syllabus\n\nReview materials from No. 2\nclass",
-      "minutes": "100\n\n100"
+      "assignments": "Newspaper portfolio 1 Review",
+      "minutes": "40 60"
     },
     {
       "index": "3",
-      "content": "Computer architecture and implementation\n(Hardware aspect)\n- Processing \"0\" and \"1\" in computer\n- Summary of ASC",
-      "operation": "Lecture and Q&A",
-      "assignments": "Prepare the relevant section\nof the class materials\ndistributed via the e-syllabus\n\nReview materials from No. 3\nclass",
-      "minutes": "100\n\n100"
+      "content": "Finance",
+      "operation": "Lecture and Q&A Practice",
+      "assignments": "Report 1 Review",
+      "minutes": "50 60"
     },
     {
       "index": "4",
-      "content": "Computer architecture and implementation\n(Hardware aspect)\n- Design of ASC\n- Review of #1 - #4",
+      "content": "Social security system",
       "operation": "Lecture and Q&A",
-      "assignments": "Prepare the relevant section\nof the class materials\ndistributed via the e-syllabus\n\nReview materials from No. 4\nclass",
-      "minutes": "100\n\n100"
+      "assignments": "Newspaper portfolio 2 Review",
+      "minutes": "40 60"
     },
     {
       "index": "5",
-      "content": "Computer architecture and implementation\n(Hardware aspect)\n- Computing command and data",
-      "operation": "Lecture and Q&A",
-      "assignments": "Prepare the relevant section\nof the class materials\ndistributed via the e-syllabus\n\nReview materials from No. 5\nclass",
-      "minutes": "100\n\n100"
+      "content": "Commerce",
+      "operation": "Lecture and Q&A Practice Quiz 1",
+      "assignments": "Report 2 Review",
+      "minutes": "50 60"
     },
     {
       "index": "6",
-      "content": "Computer architecture and implementation\n(Hardware aspect)\n- Machine language and its execution",
+      "content": "Company form",
       "operation": "Lecture and Q&A",
-      "assignments": "Prepare the relevant section\nof the class materials\ndistributed via the e-syllabus\n\nReview materials from No. 6\nclass",
-      "minutes": "100\n\n100"
+      "assignments": "Newspaper portfolio 3 Review",
+      "minutes": "40 60"
     },
     {
       "index": "7",
-      "content": "Mid-term exam\n　\nExplanation of the correct answers for the exam",
-      "operation": "Exam and review",
-      "assignments": "Preview again and review the\nclass materials covered in the\n exam",
-      "minutes": "200"
+      "content": "Company ownership",
+      "operation": "Lecture and Q&A Practice",
+      "assignments": "Report 3 Review",
+      "minutes": "50 60"
     },
     {
       "index": "8",
-      "content": "Computer architecture and implementation\n(Software aspect)\n- Computing flows by execution of machine\nlanguage\n- Summary of OS",
-      "operation": "Lecture and Q&A",
-      "assignments": "Prepare the relevant section\nof the class materials\ndistributed via the e-syllabus\n\nReview materials from No. 8\nclass",
-      "minutes": "100\n\n100"
+      "content": "Company executive",
+      "operation": "Lecture and Q&A Quiz 2",
+      "assignments": "Newspaper portfolio 4 Review",
+      "minutes": "40 60"
     },
     {
       "index": "9",
-      "content": "Computer architecture and implementation\n(Software aspect)\n- Assembly language and its programing",
-      "operation": "Lecture and Q&A",
-      "assignments": "Prepare the relevant section\nof the class materials\ndistributed via the e-syllabus\n\nReview materials from No. 9\nclass",
-      "minutes": "100\n\n100"
+      "content": "Funding",
+      "operation": "Lecture and Q&A Practice",
+      "assignments": "Report 4 Review",
+      "minutes": "50 60"
     },
     {
       "index": "10",
-      "content": "Computer architecture and implementation\n(Software aspect)\n- High-level language and its programming",
+      "content": "Company reorganization",
       "operation": "Lecture and Q&A",
-      "assignments": "Prepare the relevant section\nof the class materials\ndistributed via the e-syllabus\n\nReview materials from No. 10\nclass",
-      "minutes": "100\n\n100"
+      "assignments": "Newspaper portfolio 5 Review",
+      "minutes": "40 60"
     },
     {
       "index": "11",
-      "content": "Computer architecture and implementation\n(Software aspect)\n- Computing algorithm and some examples",
-      "operation": "Lecture and Q&A",
-      "assignments": "Prepare the relevant section\nof the class materials\ndistributed via the e-syllabus\n\nReview materials from No. 11\nclass",
-      "minutes": "100\n\n100"
+      "content": "Digitization",
+      "operation": "Lecture and Q&A Practice Quiz 3",
+      "assignments": "Report 5 Review",
+      "minutes": "50 60"
     },
     {
       "index": "12",
-      "content": "Final exam\n　\nExplanation of the correct answers for the exam",
-      "operation": "Exam and review",
-      "assignments": "Preview again and review the\nclass materials covered in the\n exam",
-      "minutes": "200"
+      "content": "Protection of personal information 1",
+      "operation": "Lecture and Q&A",
+      "assignments": "Newspaper portfolio 6 Review",
+      "minutes": "40 60"
     },
     {
       "index": "13",
-      "content": "Introduction to R&D of computer",
-      "operation": "Lecture and Q&A",
-      "assignments": "Prepare the relevant section\nof the class materials\ndistributed via the e-syllabus\n\nReview materials from No. 13\nclass",
-      "minutes": "100\n\n100"
+      "content": "Protection of personal information 2",
+      "operation": "Lecture and Q&A Practice Quiz 4",
+      "assignments": "Report 6 Review",
+      "minutes": "50 60"
     },
     {
       "index": "14",
-      "content": "History, trends, and prospects\nof computer development",
+      "content": "International community",
       "operation": "Lecture and Q&A",
-      "assignments": "Prepare the relevant section\nof the class materials\ndistributed via the e-syllabus\n\nReview materials from No. 14\nclass",
-      "minutes": "100\n\n100"
+      "assignments": "Review",
+      "minutes": "60"
     },
     {
       "index": "15",
-      "content": "Summary of whole classes\n\nSelf-evaluation",
-      "operation": "Lecture and Q&A\n\nReview and self-reflection\nSelf-evaluation",
-      "assignments": "Review and self-check on 5\ntarget abilities\nLearn again points on lack of\nunderstanding",
-      "minutes": "200"
+      "content": "Self-evaluation",
+      "operation": "Lecture",
+      "assignments": "Review",
+      "minutes": "60"
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　K319-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Electrical Energy Systems Engineering\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                電気電子コンピュータ工学\n                Computer architecture for Electrical and Electronic Engineers\n\n              2\n              K319-01\n\n                2026年度\n\n                2nd year 2nd semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  HAYASHI Keiji\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Computer architecture\n2.Operating principles\n3.Machine language and assembly language\n4.CPU architecture\n5.High performance computing\n\n              This course intends to study on basic technologies for computer design and utilization for electrical engineers. This course lectures on dual aspects, e.g. hardware and software. Students can understand whole of basic technologies to make use of computers without hesitation after their graduation, because all of industrial fields need engineers with basic knowledge of computers.\n\n              授業の概要および学習上の助言\n\n              Major topics in this course are listed as follows.\n\n(1)Background of computer technologies\n- History of computers, Neumann-type computer\n(2)Computer architecture and implementation (Hardware aspect)\n- Logical circuit and its operation, CPU architecture, Machine language\n(3)Introduction of high-level language\n- Summary of typical programming languages, basic syntax of the C language\n(4)Computer architecture and implementation (Software aspect)\n- Assembly language, High-level language, Operating systems, Computing algorithm\n(5)Latest topics in computer R&D\n- Latest technical trends, Methodology of hardware and software development\n\n              教科書および参考書・リザーブドブック\n\n              Textbooks: None\nReference books: None\nReserved books: None\n\n              履修に必要な予備知識や技能\n\n              Students should understand the following basic knowledge.\n- Product image with CPU\n- Digital circuit and devices\n- Roughly image of OS and programing language\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                K\n                Understanding computer basic architecture\n\n                ②\n                K\n                Understanding position and function of machine, assembly and high level languages\n\n                ③\n                K\n                Understanding configuration and processing flows of CPU\n\n                ④\n                K\n                Understanding configuration of peripheral devices focusing on storage devices\n\n                ⑤\n                K\n                Understanding trends in technological development aimed at improving computer performance\n\n                ⑥\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                40\n\n                40\n\n                20\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                40\n\n                40\n\n                20\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                40\n\n                40\n\n                20\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  コラボレーションとリーダー",
-  "courseId": "2026:fall:K319-01:0:846",
+  "rawText": "金沢工業大学 学習支援計画書 G018-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\n(Provided by all courses)\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     (Provided by all courses)\nLiberal Arts Courses\nTransdisciplinary Learning\n経済と社会\nEconomy and Society  2 G018-01  2024年度\n 1st year 2nd semester\n2nd year 1st semester  修学規程第4条を参照\n    担当教員名\n NAKANO Makoto\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Economic activity 2.Commercial code 3.Companies act  The purpose of this course is to understand the economy that is involved in modern society and life, and to understand the functions and roles of companies. In this course, students will learn basic knowledge of economics, as well as basic knowledge of corporate systems and laws that play a major role in the economy, and how to respond to society.\n    授業の概要および学習上の助言   In this course, students will learn the following about economics and companies. ・Society and economic activity ・Company purpose and activities ・Company owned and management ・Responding to the information society ・Relationship between company and society\n    教科書および参考書・リザーブドブック   ・Textbooks: None ・Reference books: None ・Reserved books: None\n    履修に必要な予備知識や技能   ・Basic knowledge about the market economy. ・Basic knowledge about the Company.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① A,B Understand the mechanism of market economy and economic policy. And explain the current economic situation.   ② A,B Explain the purpose and role of a company in society.   ③ A,B Investigate and consider cases related to the establishment and survival of a company.   ④ A,B Investigate responses to social situations and consider the results.   ⑤     ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 0 56 18 0 0 12 14 100     指標と評価割合 総合評価割合 0 56 18 0 0 12 14 100   総合力指標 知識を取り込む力 0 56 18 0 0 12 14 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ①      ②     ③     ④     ⑤     ⑥     クイズ\n小テスト ① レ Quiz: Evaluate the content of the lecture and the degree of understanding of the case.   ② レ   ③     ④     ⑤     ⑥     レポート ① レ Report: Evaluate based on the level of understanding of each theme and the content of your own thoughts.   ② レ   ③     ④     ⑤     ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ① レ Newspaper portfolio: Evaluate the degree of understanding of social trends by investigating cases from newspaper articles and summarizing the contents.   ② レ   ③     ④     ⑤     ⑥     その他 ① レ Learning attitude: Evaluate attitude in lectures, such as attendance and active participation.   ②     ③     ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     ・Understand social and economic mechanisms and be able to explain them accurately. ・Be able to accurately consider responses to the company and society. ・Be able to understand and explain social and economic mechanisms. ・Be able to consider responses to companies and society.\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習課題に要する標準的な時間を記載してあります。日々の自学自習時間全体としては、各授業に応じた時間(例えば2単位科目の場合、予習2時間・復習2時間/週)を取るよう努めてください。詳しくは教員の指導に従って下さい。     授業明細   回数 学習内容 授業の運営方法 学習課題(予習・復習) 時間:分※     1  Course orientation Market economy Lecture and Q&A Review  60   2  Nation's economy Central bank Lecture and Q&A Newspaper portfolio 1 Review  40 60   3  Finance Lecture and Q&A Practice Report 1 Review  50 60   4  Social security system Lecture and Q&A Newspaper portfolio 2 Review  40 60   5  Commerce Lecture and Q&A Practice Quiz 1 Report 2 Review  50 60   6  Company form Lecture and Q&A Newspaper portfolio 3 Review  40 60   7  Company ownership Lecture and Q&A Practice Report 3 Review  50 60   8 ",
+  "courseId": "2024:spring:G019-01:0:846",
   "language": "en"
 }

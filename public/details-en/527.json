@@ -1,64 +1,70 @@
 {
   "sourceIndex": 527,
   "sourceUrl": "/opsyllabus/kitos0110/527/1",
-  "importedAt": "2026-06-08T09:34:03.824Z",
-  "title": "心理学実験",
-  "subtitle": "Psychological Experiments",
-  "courseType": "Major ProgramMajor Courses",
-  "credits": "2",
-  "term": "2026年度\n\n                2nd year 1st semester",
+  "importedAt": "2026-06-09T01:29:23.993Z",
+  "title": "メディア情報専門実験・演習B",
+  "subtitle": "Media Informatics Major Lab/Exercises B",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "3",
+  "term": "2024年度\n 3rd year 1st semester\n3rd year 2nd semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "TOKUOKA Masaru"
+    "TAKANO Sayoko",
+    "SENGOKU Yasushi",
+    "HIRANO Noriyuki"
   ],
   "keywords": [
-    "Design of psychological experiments",
-    "Psychological measurement"
+    "PC Assembly 2.LAN Construction 3.Physical Computing 4.Interactive Design"
   ],
-  "educationalGoal": "The purpose of psychological experiments is to find general principles of psychological behavior under strictly controlled conditions. The objectives of this course are to learn about the measurement methods necessary for planning psychological experiments and to acquire the methodological framework of psychology as a science.",
-  "advice": "Psychological research carries the risk of misunderstanding psychological mechanisms because everyday experiences are influenced by many factors. To avoid this risk, psychologists have developed their own scientific methodology for using various methods to conduct objective measurements. This course prepares students to design their own experiments and provides basic knowledge of factorial design and method of measurement.",
-  "books": "none",
-  "requiredKnowledge": "This course focuses on factorial design and measurement of psychological methods. Students are required to learn the relationships between the courses of \"psychological statistics\" and \"psychological methods\".",
+  "educationalGoal": "This course is separated into following two parts. The “PC Assembly and Network” part aims to foster the knowledge and skills needed to build a personal computer from parts and construct a simple network. In the \"Physical Computing\" part, students are required to create an original system consisting of I/O devices connected to a microcomputer and learn about practical interaction designing.",
+  "advice": "“PC Assembly and Network” In this part of the course, the following experiments and exercises will be conducted: assembly of an IBM-PC compatible machine, configuration of BIOS, installation of the operating system, configuration of the device drivers, assembly of the LAN cable, construction and configuration of the Ethernet local network based on switching hubs, construction of a client-server system, and troubleshooting. “Physical Computing” The goal of this part of the course is to realize a human-oriented interaction through experiments designed to create many kinds of interactions using I/O devices connected to a microcomputer. Students are required to participate actively in the class and engage in teamwork. Safety must be observed at all times. Compliance with scheduled actions and careful treatment of the equipment and tools are also required. All items must be restored to their original conditions when the class is over. Copyright infringement related to class work is strictly prohibited. To pass this course, students grade points must exceed 60% for each part. If any point is less than 60%, the student will fail the entire course.",
+  "books": "Textbooks: None Reference books: None Reserved books: None",
+  "requiredKnowledge": "Students are expected to have fundamental knowledge about PCs, networks, and programming. Since safety is a top priority, students must follow instructions from supervisors and work carefully during the exercises.",
   "activityGoals": [
     {
       "index": "①",
-      "type": "F",
-      "body": "Ability to understand factorial design and decide which experimental design is appropriate for each study"
+      "type": "E,H,I",
+      "body": "Be able to assemble and configure a properly functioning PC based on correct knowledge and handling of the parts"
     },
     {
       "index": "②",
-      "type": "F",
-      "body": "Ability to interpret data obtained from psychological experiments appropriately"
+      "type": "E,H,I,J",
+      "body": "Be able to construct a simple LAN using multiple PCs and hubs."
     },
     {
       "index": "③",
-      "type": "F,G",
-      "body": "Ability to read and understand articles applying a psychological experiment method"
+      "type": "E,H,I,J,L,W",
+      "body": "Be able to give a presentation about your work."
     },
     {
       "index": "④",
-      "type": "F,G",
-      "body": "Ability to understand the research methods in the important articles and apply them into your own study"
+      "type": "G,H",
+      "body": "Be able to connect and control a microcomputer and input/output devices."
+    },
+    {
+      "index": "⑤",
+      "type": "G,H,E",
+      "body": "Be able to create and produce original interaction designs."
     }
   ],
   "evaluationWeights": [
     {
       "label": "総合評価割合",
       "values": [
-        "40",
-        "40",
         "0",
         "0",
         "0",
         "0",
-        "20",
+        "0",
+        "0",
+        "100",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -68,20 +74,20 @@
     {
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
-        "40",
-        "40",
         "0",
         "0",
         "0",
         "0",
-        "20",
+        "0",
+        "0",
+        "100",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -91,20 +97,20 @@
     {
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
-        "40",
-        "40",
         "0",
         "0",
         "0",
         "0",
-        "20",
+        "0",
+        "0",
+        "100",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -125,9 +131,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -135,7 +141,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -148,9 +154,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -171,9 +177,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -182,118 +188,118 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "To have comprehensive knowledge of psychological experiments, designing psychological experiments, and choosing appropriate methods for obtaining data.",
-    "standard": "To have various knowledge about psychological experiments."
+    "ideal": "Achieve 90% of the learning goals.",
+    "standard": "Achieve at least 60% of the learning goals."
   },
   "clipProcess": "",
   "lessons": [
     {
-      "index": "1",
-      "content": "Guidance",
-      "operation": "Lecture",
-      "assignments": "Review the contents of the\nclass",
-      "minutes": "30"
+      "index": "1,2",
+      "content": "Total Orientation “PC Assembly and Network” Orientation, Introduction to PC Assembly and Network, Safety Instruction, Grouping “Physical Computing” orientation. Safety training, Processing and Arduino installation, Grouping",
+      "operation": "Lecture and Practice (The students separated into two groups in the first part will be swapped in the second part to ensure they acquire orientation instruction for both parts)",
+      "assignments": "Review: Review parts check / Examining physical computing samples Preview: Read the next content",
+      "minutes": "30 30"
     },
     {
-      "index": "2",
-      "content": "The significance of quantification",
-      "operation": "Lecture",
-      "assignments": "Review the contents of the\nclass",
-      "minutes": "30"
+      "index": "3,4",
+      "content": "Parts Check PC Assembly #1",
+      "operation": "Lecture and Practice",
+      "assignments": "Review: Review about PC assembly",
+      "minutes": "60"
     },
     {
-      "index": "3",
-      "content": "Induction and Deduction",
-      "operation": "Lecture",
-      "assignments": "Review the contents of the\nclass",
-      "minutes": "30"
+      "index": "5,6",
+      "content": "PC Assembly #2 OS Installation Report Submission",
+      "operation": "Lecture and Practice",
+      "assignments": "Review: Review about PC assembly Preview: Prepare PC Network with the learning contents",
+      "minutes": "60 30"
     },
     {
-      "index": "4",
-      "content": "Physiological measurement",
-      "operation": "Lecture",
-      "assignments": "Review the contents of the\nclass",
-      "minutes": "30"
+      "index": "7,8",
+      "content": "PC Network Construction #1",
+      "operation": "Lecture and Practice",
+      "assignments": "Review: Review about PC Network Construction",
+      "minutes": "60"
     },
     {
-      "index": "5",
-      "content": "Psychophysical measurement",
-      "operation": "Lecture",
-      "assignments": "Review the contents of the\nclass",
-      "minutes": "30"
+      "index": "9,10",
+      "content": "PC Network Construction #2",
+      "operation": "Lecture and Practice",
+      "assignments": "Review: Review about PC Network Construction",
+      "minutes": "60"
     },
     {
-      "index": "6",
-      "content": "Mental chronometry measurements",
-      "operation": "Lecture",
-      "assignments": "Review the contents of the\nclass",
-      "minutes": "30"
+      "index": "11,12",
+      "content": "PC Network Construction #3",
+      "operation": "Lecture and Practice",
+      "assignments": "Review: Review about PC Network Construction",
+      "minutes": "60"
     },
     {
-      "index": "7",
-      "content": "Exam\nExam description",
-      "operation": "Exam 1\nExam description",
-      "assignments": "Exam description",
-      "minutes": "30"
+      "index": "13,14",
+      "content": "PC Network Construction #4 Presentation Preparation Report Writing",
+      "operation": "Lecture and Practice",
+      "assignments": "Review: Review about PC assembly Preview: Prepare for team presentation",
+      "minutes": "180 180"
     },
     {
-      "index": "8",
-      "content": "Intelligence measurements",
-      "operation": "Lecture",
-      "assignments": "Review the contents of the\nclass",
-      "minutes": "30"
+      "index": "15,16",
+      "content": "Team Presentation Self-Assessment Report Submission",
+      "operation": "Presentation Questionnaire Reflection",
+      "assignments": "Review: Review and summarize the contents which have been learned during the part.",
+      "minutes": "180"
     },
     {
-      "index": "9",
-      "content": "Academic ability measurements",
-      "operation": "Lecture",
-      "assignments": "Review the contents of the\nclass",
-      "minutes": "30"
+      "index": "17,18",
+      "content": "Optical sensor input + CG animation output",
+      "operation": "Lecture and practice, (self-reflection)",
+      "assignments": "Preparation: Reading for the next content. Review: Understanding the content",
+      "minutes": "60"
     },
     {
-      "index": "10",
-      "content": "Measurements using a grading system 1: Two-choic\ne forced selection",
-      "operation": "Lecture",
-      "assignments": "Review the contents of the\nclass",
-      "minutes": "30"
+      "index": "19,20",
+      "content": "Idea creation",
+      "operation": "",
+      "assignments": "Preparation: Making out a draft Review: Understanding the content",
+      "minutes": "60"
     },
     {
-      "index": "11",
-      "content": "Measurements using a rating scale 2: Likert meth\nod",
-      "operation": "Lecture",
-      "assignments": "Review the contents of the\nclass",
-      "minutes": "30"
+      "index": "21,22",
+      "content": "Design, development, and planning Electric circuit",
+      "operation": "Lecture and practice, (self-reflection)",
+      "assignments": "Reading for the next content. Review: Understanding the content",
+      "minutes": "60"
     },
     {
-      "index": "12",
-      "content": "Measurements of effects",
-      "operation": "Lecture",
-      "assignments": "Review the contents of the\nclass",
-      "minutes": "30"
+      "index": "23,24",
+      "content": "Final work production Mechanism of sensors",
+      "operation": "Lecture and practice, (self-reflection)",
+      "assignments": "Reading for the next content. Review: Understanding the content",
+      "minutes": "60"
     },
     {
-      "index": "13",
-      "content": "Validity of measurements",
-      "operation": "Lecture",
-      "assignments": "Review the contents of the\nclass",
-      "minutes": "30"
+      "index": "25,26",
+      "content": "Final work production Mechanism of a microcomputer",
+      "operation": "Lecture and practice, (self-reflection)",
+      "assignments": "Reading for the next content. Review: Understanding the content",
+      "minutes": "60"
     },
     {
-      "index": "14",
-      "content": "Exam",
-      "operation": "Exam",
-      "assignments": "Review the exam",
-      "minutes": "30"
+      "index": "27,28",
+      "content": "Final work production Understandig of Electric circuit",
+      "operation": "Lecture and practice, (self-reflection)",
+      "assignments": "Reading for the next content. Review: Understanding the content",
+      "minutes": "120"
     },
     {
-      "index": "15",
-      "content": "Supplementary class",
-      "operation": "Self-check",
-      "assignments": "",
-      "minutes": ""
+      "index": "29,30",
+      "content": "Final work presentation",
+      "operation": "Lecture and presentation Self-check",
+      "assignments": "Review: Report submission",
+      "minutes": "120"
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　M109-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Psychology and Information Design\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                心理学実験\n                Psychological Experiments\n\n              2\n              M109-01\n\n                2026年度\n\n                2nd year 1st semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  TOKUOKA Masaru\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Design of psychological experiments\n2.Psychological measurement\n\n              The purpose of psychological experiments is to find general principles of psychological behavior under strictly controlled conditions. The objectives of this course are to learn about the measurement methods necessary for planning psychological experiments and to acquire the methodological framework of psychology as a science.\n\n              授業の概要および学習上の助言\n\n              Psychological research carries the risk of misunderstanding psychological mechanisms because everyday experiences are influenced by many factors. To avoid this risk, psychologists have developed their own scientific methodology for using various methods to conduct objective measurements. This course prepares students to design their own experiments and provides basic knowledge of factorial design and method of measurement.\n\n              教科書および参考書・リザーブドブック\n\n              none\n\n              履修に必要な予備知識や技能\n\n              This course focuses on factorial design and measurement of psychological methods. Students are required to learn the relationships between the courses of \"psychological statistics\" and \"psychological methods\".\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                F\n                Ability to understand factorial design and decide which experimental design is appropriate for each study\n\n                ②\n                F\n                Ability to interpret data obtained from psychological experiments appropriately\n\n                ③\n                F,G\n                Ability to read and understand articles applying a psychological experiment method\n\n                ④\n                F,G\n                Ability to understand the research methods in the important articles and apply them into your own study\n\n                ⑤\n\n                ⑥\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                40\n\n                40\n\n                0\n\n                0\n\n                0\n\n                0\n\n                20\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                40\n\n                40\n\n                0\n\n                0\n\n                0\n\n                0\n\n                20\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                40\n\n                40\n\n                0\n\n                0\n\n                0\n\n                0\n\n                20\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  コラボレーションとリーダーシップ\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  発表・表現・伝達する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n      ",
-  "courseId": "2026:spring:M109-01:0:527",
+  "rawText": "金沢工業大学 学習支援計画書 F027-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Media Informatics\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\nメディア情報専門実験・演習B\nMedia Informatics Major Lab/Exercises B  3 F027-01  2024年度\n 3rd year 1st semester\n3rd year 2nd semester  修学規程第4条を参照\n    担当教員名\n TAKANO Sayoko, SENGOKU Yasushi, HIRANO Noriyuki\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.PC Assembly 2.LAN Construction 3.Physical Computing 4.Interactive Design  This course is separated into following two parts. The “PC Assembly and Network” part aims to foster the knowledge and skills needed to build a personal computer from parts and construct a simple network. In the \"Physical Computing\" part, students are required to create an original system consisting of I/O devices connected to a microcomputer and learn about practical interaction designing.\n    授業の概要および学習上の助言   “PC Assembly and Network” In this part of the course, the following experiments and exercises will be conducted: assembly of an IBM-PC compatible machine, configuration of BIOS, installation of the operating system, configuration of the device drivers, assembly of the LAN cable, construction and configuration of the Ethernet local network based on switching hubs, construction of a client-server system, and troubleshooting. “Physical Computing” The goal of this part of the course is to realize a human-oriented interaction through experiments designed to create many kinds of interactions using I/O devices connected to a microcomputer. Students are required to participate actively in the class and engage in teamwork. Safety must be observed at all times. Compliance with scheduled actions and careful treatment of the equipment and tools are also required. All items must be restored to their original conditions when the class is over. Copyright infringement related to class work is strictly prohibited. To pass this course, students grade points must exceed 60% for each part. If any point is less than 60%, the student will fail the entire course.\n    教科書および参考書・リザーブドブック   Textbooks: None Reference books: None Reserved books: None\n    履修に必要な予備知識や技能   Students are expected to have fundamental knowledge about PCs, networks, and programming. Since safety is a top priority, students must follow instructions from supervisors and work carefully during the exercises.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① E,H,I Be able to assemble and configure a properly functioning PC based on correct knowledge and handling of the parts   ② E,H,I,J Be able to construct a simple LAN using multiple PCs and hubs.   ③ E,H,I,J,L,W Be able to give a presentation about your work.   ④ G,H Be able to connect and control a microcomputer and input/output devices.   ⑤ G,H,E Be able to create and produce original interaction designs.   ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 0 0 0 0 0 0 100 100     指標と評価割合 総合評価割合 0 0 0 0 0 0 100 100   総合力指標 知識を取り込む力 0 0 0 0 0 0 100 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ①      ②     ③     ④     ⑤     ⑥     クイズ\n小テスト ①      ②     ③     ④     ⑤     ⑥     レポート ①      ②     ③     ④     ⑤     ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ① レ The percentages of grade evaluation of each part are the following: \"PC Assembly and Network\": Reports 60%, Presentation 30%, Others 10% \"Physical Computing\": Group points 50%, individual points 50%. Group points are evaluated from submitted work and reports. Individual points are calculated from weekly progress reports. Absences will cause critical reductions to the individual points. A detailed explanation will be given during the first class of each part.    ② レ   ③ レ   ④ レ   ⑤ レ   ⑥\n    具体的な達成の目安   理想的",
+  "courseId": "2024:spring:F024-01:0:527",
   "language": "en"
 }

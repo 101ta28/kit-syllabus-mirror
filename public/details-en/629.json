@@ -1,44 +1,53 @@
 {
   "sourceIndex": 629,
   "sourceUrl": "/opsyllabus/kitos0110/629/1",
-  "importedAt": "2026-06-08T09:34:05.958Z",
-  "title": "アルゴリズムとデータ構造",
-  "subtitle": "Algorithms and Data Structure",
-  "courseType": "Major ProgramMajor Courses",
+  "importedAt": "2026-06-09T01:29:24.943Z",
+  "title": "人体の構造と機能及び疾病",
+  "subtitle": "Human Body Structure, Function and Diseases",
+  "courseType": "Major Program\nMajor Courses",
   "credits": "2",
-  "term": "2026年度\n\n                2nd year 1st semester",
+  "term": "2024年度\n 3rd year 1st semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "MATSUI Kunio"
+    "IMARUOKA Toshihide"
   ],
   "keywords": [
-    "Data structure",
-    "Algorithms"
+    "Human Body Structure 2.Human Body Function 3.Human Body Disease 4.Mental Health"
   ],
-  "educationalGoal": "In order to develop good programs, knowledge about data structures and algorithms is necessary. The objectives of this course are the following:\n1. Learning fundamental knowledge about data structures and algorithms.\n2. Developing data structure and algorithm selection skills suitable for the problems.",
-  "advice": "A data structure is a form in which data is stored in a computer, and an algorithm is a \"procedure used to solve a problem\" that abstracts a program. In order to write a good program, a good data structure and a good algorithm are necessary. Since multiple data structures and algorithms can be used to solve a problem, students of this course will learn about time complexity, which is a typical index for comparing them. They will also compare multiple algorithms with varying time complexities in these lessons.\n\nThe order of the learning contents shown in the lesson schedule is a guideline. Students should follow the instructions of the teacher in charge for additional details. At a minimum, the following contents will be addressed: sort algorithms (basic and advanced techniques, including merge sort and quick sort), basic data structures (array, list, stack, queue, tree, and graph), and search algorithms on graph. Other contents may be added.",
-  "books": "「アルゴリズムとデータ構造」（第2版）森北出版株式会社",
-  "requiredKnowledge": "Knowledge about inequality, polynomial functions, exponential functions, logarithm functions, numerical sequences, and recurrence relation.",
+  "educationalGoal": "In this course, students will: (1) learn about psychosomatic function, body structure, and various diseases. (2) understand major illnesses that require psychological support. (3) learn about diseases that require psychological care. (4) learn about multi-professional collaboration in medical practice, and understand the role of a Certified Public Psychologist.",
+  "advice": "Most classes will be lecture format. Because quizzes on the previous class will be held every week, students should review the contents of the current and previous class.",
+  "books": "教科書:人体の構造と機能及び疾病[医歯薬出版]",
+  "requiredKnowledge": "None",
   "activityGoals": [
     {
       "index": "①",
-      "type": "J-N",
-      "body": "Be able to understand several data structures."
+      "type": "G,J,K",
+      "body": "Ability to explain psychosomatic function."
     },
     {
       "index": "②",
-      "type": "J-N",
-      "body": "Be able to understand several algorithms."
+      "type": "G,J,K",
+      "body": "Ability to explain human body structure."
     },
     {
       "index": "③",
-      "type": "L,M",
-      "body": "Be able to judge algorithms from the viewpoint of computational complexity."
+      "type": "G,J,K",
+      "body": "Ability to explain human body diseases."
     },
     {
       "index": "④",
-      "type": "J,L-N",
-      "body": "Be able to select the best algorithm and best data structure for a given problem."
+      "type": "G,J,K",
+      "body": "Ability to explain diseases that require psychological care."
+    },
+    {
+      "index": "⑤",
+      "type": "G,J,K",
+      "body": "Ability to explain multi-professional collaboration in medical practice."
+    },
+    {
+      "index": "⑥",
+      "type": "G,J,K",
+      "body": "Ability to explain the role of Certified Public Psychologists in multi-professional collaboration."
     }
   ],
   "evaluationWeights": [
@@ -47,18 +56,18 @@
       "values": [
         "40",
         "40",
-        "20",
+        "10",
         "0",
         "0",
         "0",
-        "0",
+        "10",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -70,18 +79,18 @@
       "values": [
         "40",
         "40",
-        "20",
+        "10",
         "0",
         "0",
         "0",
-        "0",
+        "10",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -93,18 +102,18 @@
       "values": [
         "40",
         "40",
-        "20",
+        "10",
         "0",
         "0",
         "0",
-        "0",
+        "10",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -125,9 +134,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -135,7 +144,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -148,9 +157,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -171,9 +180,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -182,118 +191,118 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "Be able to explain the algorithms and data structure required for efficient data rearrangement and conduct searches perfectly.\nBe able to evaluate the computational complexity of each algorithm logically.",
-    "standard": "Be able to explain the concrete behavior of the algorithms and data structure required for efficient data rearrangement and searching.\nBe able to evaluate the computational complexity of each algorithm approximately."
+    "ideal": "Explain all target abilities of this course in detail.",
+    "standard": "Explain most target abilities of this course."
   },
   "clipProcess": "",
   "lessons": [
     {
       "index": "1",
-      "content": "Guidance, computational complexity",
-      "operation": "Lecture and exercise",
-      "assignments": "Review",
-      "minutes": "200"
+      "content": "Course introduction Human body structure and function",
+      "operation": "Lecture Self-check",
+      "assignments": "Review the class",
+      "minutes": "30"
     },
     {
       "index": "2",
-      "content": "Data structure: array, list, stack, and queue",
-      "operation": "Lecture and exercise",
-      "assignments": "Preview\nReview",
-      "minutes": "60\n140"
+      "content": "Integrated organ systems related to mind",
+      "operation": "Lecture Quiz Self-check",
+      "assignments": "Review the class",
+      "minutes": "30"
     },
     {
       "index": "3",
-      "content": "Data structure: tree",
-      "operation": "Lecture and exercise",
-      "assignments": "Preview\nReview",
-      "minutes": "60\n140"
+      "content": "Development and diseases of child",
+      "operation": "Lecture Quiz Self-check",
+      "assignments": "Review the class",
+      "minutes": "30"
     },
     {
       "index": "4",
-      "content": "Search algorithm",
-      "operation": "Lecture and exercise",
-      "assignments": "Preview\nReview",
-      "minutes": "60\n140"
+      "content": "Aging and diseases",
+      "operation": "Lecture Quiz Self-check",
+      "assignments": "Review the class",
+      "minutes": "30"
     },
     {
       "index": "5",
-      "content": "Fundamental algorithms for sort",
-      "operation": "Lecture and exercise",
-      "assignments": "Preview\nReview",
-      "minutes": "60\n140"
+      "content": "Understanding medical diseases",
+      "operation": "Lecture Quiz Self-check",
+      "assignments": "Review the class",
+      "minutes": "30"
     },
     {
       "index": "6",
-      "content": "Advanced algorithms for sort; quick sort and\nmarge sort\nReview of sort algorithms: comparison of\ncomputational complexity",
-      "operation": "Lecture and exercise",
-      "assignments": "Preview\nReview",
-      "minutes": "60\n140"
+      "content": "Understanding orthopedic disease",
+      "operation": "Lecture Quiz Self-check",
+      "assignments": "Review the class",
+      "minutes": "30"
     },
     {
       "index": "7",
-      "content": "General exercise 1",
-      "operation": "Lecture and exercise",
-      "assignments": "Preview\nReview",
-      "minutes": "60\n140"
+      "content": "Understanding mental diseases",
+      "operation": "Lecture Quiz Self-check",
+      "assignments": "Review the class",
+      "minutes": "30"
     },
     {
       "index": "8",
-      "content": "Data structure: graph\nMini examination",
-      "operation": "Lecture and exercise",
-      "assignments": "Preview\nReview",
-      "minutes": "60\n140"
+      "content": "Mid-term Exam",
+      "operation": "Exam",
+      "assignments": "Review the class",
+      "minutes": "30"
     },
     {
       "index": "9",
-      "content": "Algorithms for graphs; width-first search and\ndepth-first search",
-      "operation": "Lecture and exercise",
-      "assignments": "Preview\nReview",
-      "minutes": "60\n140"
+      "content": "Understanding neurological diseases",
+      "operation": "Lecture Quiz Self-check",
+      "assignments": "Review the class",
+      "minutes": "30"
     },
     {
       "index": "10",
-      "content": "Graph's shortest path problem",
-      "operation": "Lecture and exercise",
-      "assignments": "Preview\nReview",
-      "minutes": "60\n140"
+      "content": "Understanding intractable diseases",
+      "operation": "Lecture Quiz Self-check",
+      "assignments": "Review the class",
+      "minutes": "30"
     },
     {
       "index": "11",
-      "content": "Algorithm design",
-      "operation": "Lecture and exercise",
-      "assignments": "Preview\nReview",
-      "minutes": "60\n140"
+      "content": "Understanding cancers",
+      "operation": "Lecture Quiz Self-check",
+      "assignments": "Review the class",
+      "minutes": "30"
     },
     {
       "index": "12",
-      "content": "Application of algorithms",
-      "operation": "Lecture and exercise",
-      "assignments": "Preview\nReview",
-      "minutes": "60\n140"
+      "content": "Perinatal medical care",
+      "operation": "Lecture Quiz Self-check",
+      "assignments": "Review the class",
+      "minutes": "30"
     },
     {
       "index": "13",
-      "content": "General exercise 2",
-      "operation": "Lecture and exercise",
-      "assignments": "Preview\nReview",
-      "minutes": "60\n140"
+      "content": "Understanding and control infectious diseases Understanding rehabilitation",
+      "operation": "Lecture Quiz Self-check",
+      "assignments": "Review the class",
+      "minutes": "30"
     },
     {
       "index": "14",
-      "content": "Future of algorithms, final examination",
-      "operation": "Lecture and exercise",
-      "assignments": "Preview\nReview",
-      "minutes": "60\n140"
+      "content": "Summary of the course Final exam",
+      "operation": "Exam",
+      "assignments": "Review the exam",
+      "minutes": "30"
     },
     {
       "index": "15",
-      "content": "Conclusion",
-      "operation": "Lecture",
-      "assignments": "Preview",
-      "minutes": "200"
+      "content": "Review the final exam Health promotion International Classification of Functioning, Disability and Health",
+      "operation": "Discussion",
+      "assignments": "Review the whole class",
+      "minutes": "30"
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　C109-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Artificial Intelligence\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                アルゴリズムとデータ構造\n                Algorithms and Data Structure\n\n              2\n              C109-01\n\n                2026年度\n\n                2nd year 1st semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  MATSUI Kunio\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Data structure\n2.Algorithms\n\n              In order to develop good programs, knowledge about data structures and algorithms is necessary. The objectives of this course are the following:\n1. Learning fundamental knowledge about data structures and algorithms.\n2. Developing data structure and algorithm selection skills suitable for the problems.\n\n              授業の概要および学習上の助言\n\n              A data structure is a form in which data is stored in a computer, and an algorithm is a \"procedure used to solve a problem\" that abstracts a program. In order to write a good program, a good data structure and a good algorithm are necessary. Since multiple data structures and algorithms can be used to solve a problem, students of this course will learn about time complexity, which is a typical index for comparing them. They will also compare multiple algorithms with varying time complexities in these lessons.\n\nThe order of the learning contents shown in the lesson schedule is a guideline. Students should follow the instructions of the teacher in charge for additional details. At a minimum, the following contents will be addressed: sort algorithms (basic and advanced techniques, including merge sort and quick sort), basic data structures (array, list, stack, queue, tree, and graph), and search algorithms on graph. Other contents may be added.\n\n              教科書および参考書・リザーブドブック\n\n              「アルゴリズムとデータ構造」（第2版）森北出版株式会社\n\n              履修に必要な予備知識や技能\n\n              Knowledge about inequality, polynomial functions, exponential functions, logarithm functions, numerical sequences, and recurrence relation.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                J-N\n                Be able to understand several data structures.\n\n                ②\n                J-N\n                Be able to understand several algorithms.\n\n                ③\n                L,M\n                Be able to judge algorithms from the viewpoint of computational complexity.\n\n                ④\n                J,L-N\n                Be able to select the best algorithm and best data structure for a given problem.\n\n                ⑤\n\n                ⑥\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                40\n\n                40\n\n                20\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                40\n\n                40\n\n                20\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                40\n\n                40\n\n                20\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  コラボレーションとリーダーシップ\n\n                    0\n\n                    0\n\n                    0\n\n             ",
-  "courseId": "2026:spring:C109-01:0:629",
+  "rawText": "金沢工業大学 学習支援計画書 F320-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Psychological Science(2018〜)\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n人体の構造と機能及び疾病\nHuman Body Structure, Function and Diseases  2 F320-01  2024年度\n 3rd year 1st semester  修学規程第4条を参照\n    担当教員名\n IMARUOKA Toshihide\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Human Body Structure 2.Human Body Function 3.Human Body Disease 4.Mental Health  In this course, students will: (1) learn about psychosomatic function, body structure, and various diseases. (2) understand major illnesses that require psychological support. (3) learn about diseases that require psychological care. (4) learn about multi-professional collaboration in medical practice, and understand the role of a Certified Public Psychologist.\n    授業の概要および学習上の助言   Most classes will be lecture format. Because quizzes on the previous class will be held every week, students should review the contents of the current and previous class.\n    教科書および参考書・リザーブドブック   教科書:人体の構造と機能及び疾病[医歯薬出版]\n    履修に必要な予備知識や技能   None\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① G,J,K Ability to explain psychosomatic function.   ② G,J,K Ability to explain human body structure.   ③ G,J,K Ability to explain human body diseases.   ④ G,J,K Ability to explain diseases that require psychological care.   ⑤ G,J,K Ability to explain multi-professional collaboration in medical practice.   ⑥ G,J,K Ability to explain the role of Certified Public Psychologists in multi-professional collaboration.\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 40 40 10 0 0 0 10 100     指標と評価割合 総合評価割合 40 40 10 0 0 0 10 100   総合力指標 知識を取り込む力 40 40 10 0 0 0 10 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ There is a final exam at the end of the semester to evaluate knowledge of the course contents.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥ レ   クイズ\n小テスト ① レ There are quizzes every week to evaluate knowledge of the last class.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥ レ   レポート ①   Student will be evaluated on a report.   ②     ③     ④     ⑤ レ   ⑥ レ   成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ① レ Attendance, class attitude, and effort in quizzes will be evaluated.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥ レ\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     Explain all target abilities of this course in detail. Explain most target abilities of this course.\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習課題に要する標準的な時間を記載してあります。日々の自学自習時間全体としては、各授業に応じた時間(例えば2単位科目の場合、予習2時間・復習2時間/週)を取るよう努めてください。詳しくは教員の指導に従って下さい。     授業明細   回数 学習内容 授業の運営方法 学習課題(予習・復習) 時間:分※     1  Course introduction Human body structure and function Lecture Self-check Review the class  30   2  Integrated organ systems related to mind Lecture Quiz Self-check Review the class  30   3  Development and diseases of child Lecture Quiz Self-check Review the class  30   4  Aging and diseases Lecture Quiz Self-check Review the class  30   5  Understanding medical diseases Lecture Quiz Self-check Review the class  30   6  Understanding orthopedic disease Lecture Quiz Self-check Review the class  30   7  Understanding mental diseases Lecture Quiz Self-check Review the class  30   8  Mid-term Exam Exam Review the class  30   9  Understanding neurological diseases Lecture Quiz Self-check Review the class  30   10  Understanding intractable diseases Lecture Quiz Self-check Review the class  30   11  Understanding cancers Lecture Quiz Self-check Review the class  30   12  Perinatal medical care Lecture Quiz Self-check Review the class  30   13  Und",
+  "courseId": "2024:fall:F317-01:0:629",
   "language": "en"
 }

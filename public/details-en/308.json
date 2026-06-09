@@ -1,62 +1,66 @@
 {
   "sourceIndex": 308,
   "sourceUrl": "/opsyllabus/kitos0110/308/1",
-  "importedAt": "2026-06-08T09:33:59.335Z",
-  "title": "プロジェクトデザインⅢ（柳橋秀幸研究室）",
-  "subtitle": "Design Project III(Yanagibashi Hideyuki)",
-  "courseType": "Major ProgramMajor Project Courses",
-  "credits": "8",
-  "term": "2026年度\n\n                All year",
+  "importedAt": "2026-06-09T01:29:21.857Z",
+  "title": "電子回路Ⅰ",
+  "subtitle": "Electronic Circuits I",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "4",
+  "term": "2024年度\n 2nd year 1st semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "YANAGIBASHI Hideyuki"
+    "FUKADA Haruki",
+    "NAKATA Shuhei",
+    "HIRAMA Junji",
+    "MIKAMI Akiyoshi"
   ],
   "keywords": [
-    "Biological Information",
-    "Behavior Control",
-    "Magnetic Fluid",
-    "Magnetic Measurement",
-    "Regional Collaboration"
+    "Diode 2.Transistor Amplifiers 3.Operational Amplifiers 4.Pulse Circuits 5.Regional-Oriented"
   ],
-  "educationalGoal": "Study theme is life science based on electrical and electronic engineering, and will actively collaborate with local farmers and companies. The aim of this course is to help students improve abilities to problem finding and its solution, data processing, academic writing, presentation, communication, etc. In addition, students learn the significance of interdisciplinary science and preciousness of nature, and use it for character building as engineer who is active in society.",
-  "advice": "Students assigned to this laboratory are divided into groups and conduct study activities on the project themes throughout a year. Activity status is reported through study diary and weekly report.\n\nProject theme example\n1. Relationship between electrophysiological properties and morphogenetic properties of mushroom fruit body\n2. Behavior of bio-electric potential and morphogenetic properties to stimulation on mushroom hyphae\n3. Non-contact measurement of plant bioactivity using magnetic fluid\n\nActivity flow\n  First Semester:\nStudents acquire knowledge and equipment operation through literature surveys, and conduct experiments.\nStudents present the results of the period at the end of the semester.\nSecond semester:\n    Students continue the project activities.\n    Students write project report and present it at public examination meeting.\n    Students take over of project works to next year students.",
-  "books": "Textbooks:\nReference books:\nReserved books:",
-  "requiredKnowledge": "1. Teamwork\n2. Electronic circuit\n3. Electromagnetism\n4. Measurement and control\n5. Biology",
+  "educationalGoal": "Students will: (1) learn basic analog electronic circuits consisting of diode or transistor. (2) understand basic amplifiers with bipolar transistor. (3) understand design methods of analog electronic circuits. (4) learn circuits and mechanisms of FET or operational amplifier. (5) learn pulse circuits such as multi-vibrator.",
+  "advice": "Course outline is shown as follows: 1. Fundamental electric circuit 2. Circuit consisting of diode 3. Mechanism of transistor 4. Amplifier using bipolar transistor 5. Grounding methods, equivalent circuit for signal 6. Thermal runaway, design of amplifier 7. DC bias circuit 8. Power amplifier, negative-feedback amplifier 9. Oscillator 10. Modulation and demodulation 11. FET 12. Operational amplifier 13. Pulse circuit",
+  "books": "Textbooks:Electronic Circuits - Fundamentals & Applications - Reference books: Reserved books:None",
+  "requiredKnowledge": "Students should well understand \"Electric Circuits I\" and \"Electric Circuits II.\" Questions are welcome during lecture.",
   "activityGoals": [
     {
       "index": "①",
-      "type": "L,M,N",
-      "body": "Be able to clarify the purpose and the content of your study and develop a study plan."
+      "type": "J",
+      "body": "Be able to explain mechanisms of diode and transistor."
     },
     {
       "index": "②",
-      "type": "M",
-      "body": "Be able to promote study with sufficient communication with laboratory members."
+      "type": "J",
+      "body": "Be able to draw equivalent circuits of transistor amplifier."
     },
     {
       "index": "③",
-      "type": "J,K,L,M,N",
-      "body": "Be able to solve problems and issues in study yourself."
+      "type": "J",
+      "body": "Be able to calculate voltages and currents in each part for transistor amplifiers."
     },
     {
       "index": "④",
-      "type": "I,L,M",
-      "body": "Be able to summarize the study results in a project report."
+      "type": "J",
+      "body": "Be able to draw equivalent circuits of FET amplifier."
     },
     {
       "index": "⑤",
-      "type": "I,J,K,L,M",
-      "body": "Be able to explain about your study and present the results effectively."
+      "type": "J",
+      "body": "Be able to design circuits of operational amplifier."
+    },
+    {
+      "index": "⑥",
+      "type": "J",
+      "body": "Be able to explain pulse circuits such as differential circuit, integrating circuit and multi vibrator."
     }
   ],
   "evaluationWeights": [
     {
       "label": "総合評価割合",
       "values": [
-        "0",
-        "0",
-        "60",
         "40",
+        "40",
+        "20",
+        "0",
         "0",
         "0",
         "0",
@@ -64,9 +68,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -76,10 +80,10 @@
     {
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
-        "0",
-        "0",
-        "60",
         "40",
+        "40",
+        "20",
+        "0",
         "0",
         "0",
         "0",
@@ -87,9 +91,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -99,10 +103,10 @@
     {
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
-        "0",
-        "0",
-        "60",
         "40",
+        "40",
+        "20",
+        "0",
         "0",
         "0",
         "0",
@@ -110,9 +114,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -133,9 +137,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -143,7 +147,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -156,9 +160,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -179,9 +183,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -190,41 +194,223 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "(1) Clarify the study purpose and identify study problems.  Propose solutions and study safely according the plan.\n(2) Properly analyze, consider, evaluate, and discuss the study results. Summarize them as a project report, and present them effectively.\n(3) Condense the study results and publicize them through conference and academic paper.",
-    "standard": "(1) Understand and explain significance, purpose, problem and application of your project theme.\n(2) Perform your project based on the plan, and design and manufacture equipment as necessary.\n(3) Show the results at public examination meeting and related societies effectively."
+    "ideal": "(1) Fully understand and explain mechanism of diode and transistor, equivalent circuits. Also design transistor amplifier. (2) Explain FET amplifier and analyze its signal. (3) Explain mechanism of operational amplifier, and design application circuits. (4) Fully understand pulse circuits and explain them enough.",
+    "standard": "(1) Understand and explain mechanism of diode and transistor, equivalent circuits. (2) Analyze signals of FET amplifier. (3) Explain mechanism of operational amplifier. (4) Explain mechanisms of pulse circuits."
   },
   "clipProcess": "",
   "lessons": [
     {
-      "index": "Apr.\nto May",
-      "content": "Knowledge acquisition for each theme\n(Purpose, goal, experimental equipment)\nWeekly report and guidance",
-      "operation": "Team activity\nWeekly report\nStudy progress review",
-      "assignments": "Literature reading\nSelf-check of the progress\nWeekly report writing",
-      "minutes": ""
+      "index": "1",
+      "content": "Self-introduction Understand the difference of DC and AC, voltage and current sources. Review basic circuit laws and elements such as resistance, capacitor and inductor.",
+      "operation": "Distribute syllabus Lecture, Q&A",
+      "assignments": "Preparation: Read from chapters 1 to 3 of the first textbook. Review: Fundamentals of electric circuits.",
+      "minutes": "Prepar ation 100 Review 100"
     },
     {
-      "index": "June\nto Aug\n.",
-      "content": "Activities according to project theme\nWeekly report and guidance",
-      "operation": "Team activity\nWeekly report\nStudy progress review",
-      "assignments": "Self-check of the progress\nWeekly report writing",
-      "minutes": ""
+      "index": "2",
+      "content": "Review connections in series, parallel and mixed of series and parallel. Integrated learning",
+      "operation": "Lecture, Q&A Self-check",
+      "assignments": "Preparation: Read chapters 2 and 3. Review: Fundamentals of electric circuits.",
+      "minutes": "Prepar ation 100 Review 100"
     },
     {
-      "index": "Sept.\nto Nov\n.",
-      "content": "Activities according to project theme\nWeekly report and guidance\nInterim report",
-      "operation": "Team activity\nWeekly report\nInterim report\nStudy progress review",
-      "assignments": "Self-check of the progress\nWeekly report writing",
-      "minutes": ""
+      "index": "3",
+      "content": "Understand the ratio of voltage-division and current-division, Kirchhoff's laws, and principle of superposition. Integrated learning",
+      "operation": "Lecture, Q&A Self-check",
+      "assignments": "Preparation: Read chapters 2 and 3. Review: Fundamentals of electric circuits.",
+      "minutes": "Prepar ation 100 Review 100"
     },
     {
-      "index": "Dec.\nto Feb\n.",
-      "content": "Activities according to project theme\nWeekly report and guidance\nWriting of project report and abstract\nPreparation and practice of presentation",
-      "operation": "Team activity\nWeekly report\nFinal report\nStudy progress review",
-      "assignments": "Self-check of the progress\nWeekly report writing\nProject report writing\nPresentation preparation",
-      "minutes": ""
+      "index": "4",
+      "content": "Fundamentals of diodes.",
+      "operation": "Lecture, Q&A Self-check",
+      "assignments": "Preparation: Read chapters 4. Review: Read chapter 4 and understand fundamentals of diode.",
+      "minutes": "Prepar ation 120 Review 100"
+    },
+    {
+      "index": "5",
+      "content": "Bias of diode Circuits using diode. Method of analysis for circuits using diode.",
+      "operation": "Lecture, Q&A Self-check",
+      "assignments": "Preparation: Read chapter 4 and understand diode. Review: Read chapter 4 and understand fundamentals of diode.",
+      "minutes": "Prepar ation 100 Review 100"
+    },
+    {
+      "index": "6",
+      "content": "Integrated learning of circuits using diode",
+      "operation": "Exam and lecture Self-check",
+      "assignments": "Preparation: Conduct exercises of chapter 4",
+      "minutes": "Prepar ation 100 Review 100"
+    },
+    {
+      "index": "7",
+      "content": "Conduct Exam A (diode circuits). Understand what transistor is.",
+      "operation": "Exam and lecture Self-check",
+      "assignments": "Preparation: Study for Exam A.",
+      "minutes": "Prepar ation 100 Review 100"
+    },
+    {
+      "index": "8",
+      "content": "Return and explain Exam A. Circuits using transistor.",
+      "operation": "Explain Exam A Lecture, Q&A Self-check",
+      "assignments": "Preparation: Read chapter 6, and understand transistor amplifier. Review: Check the results of Exam A.",
+      "minutes": "Prepar ation 100 Review 100"
+    },
+    {
+      "index": "9",
+      "content": "Working of elements around transistor Static characteristics of transistor",
+      "operation": "Lecture, Q&A Self-check",
+      "assignments": "Preparation: Read chapters 6 and 7, and understand working of elements. Review: Understand static characteristics of transistor.",
+      "minutes": "Prepar ation 100 Review 100"
+    },
+    {
+      "index": "10",
+      "content": "Static characteristics of transistor",
+      "operation": "Exam and lecture Self-check",
+      "assignments": "Preparation: Read chapter 6, and understand static characteristics of transistor. Review: Understand static characteristics of transistor.",
+      "minutes": "Prepar ation 100 Review 100"
+    },
+    {
+      "index": "11",
+      "content": "Understand equivalent circuits for DC and signal, and to draw the equivalent circuits. Also understand input impedance, output impedance and condition of matching.",
+      "operation": "Lecture, Q&A Self-check",
+      "assignments": "Preparation: Read chapters 8 and 9, and understand equivalent circuits for DC and signal. Also understand matching.",
+      "minutes": "Prepar ation 100 Review 100"
+    },
+    {
+      "index": "12",
+      "content": "Understand voltage and current in amplifier, and frequency characteristics of amplifiers.",
+      "operation": "Lecture, Q&A Self-check",
+      "assignments": "Preparation: Read chapter 10, and understand voltage, current and frequency characteristics.",
+      "minutes": "Prepar ation 100 Review 100"
+    },
+    {
+      "index": "13",
+      "content": "Integrated learning of circuits using transistor",
+      "operation": "Exam and lecture Self-check",
+      "assignments": "Preparation: Conduct exercises of chapter 10",
+      "minutes": "Prepar ation 100 Review 100"
+    },
+    {
+      "index": "14",
+      "content": "Understand thermal runaway.",
+      "operation": "Lecture, Q&A Self-check",
+      "assignments": "Preparation: Read chapter 11, and understand thermal runaway.",
+      "minutes": "Prepar ation 100 Review 100"
+    },
+    {
+      "index": "15",
+      "content": "Understand improvement of circuit, grounding methods, DC bias circuit and connection methods related with amplifier.",
+      "operation": "Lecture, Q&A Self-check",
+      "assignments": "Preparation: Read chapters 12 to 15, and understand variation of amplifier with resistors and capacitors.",
+      "minutes": "Prepar ation 100 Review 100"
+    },
+    {
+      "index": "16",
+      "content": "Conduct Exam B (bipolar transistor amplifier). Power amplifier",
+      "operation": "Exam Lecture, Q&A Self-check",
+      "assignments": "Preparation: Study for Exam B. Read chapters 5 to 15, and understand transistor amplifier. Review: Read chapter 16 for power amplifier.",
+      "minutes": "Prepar ation 120 Review 100"
+    },
+    {
+      "index": "17",
+      "content": "Return and explain Exam B. Self-reflection for midterm Negative-feedback amplifier, principle of oscillator, Oscillators of CR, LC and crystal",
+      "operation": "Explain Exam B Lecture, Q&A Self-check",
+      "assignments": "Preparation: Read chapters 17 to 19, and understand negative -feedback amplifier and oscillator. Review: Check the results of Exam B.",
+      "minutes": "Prepar ation 100 Review 100"
+    },
+    {
+      "index": "18",
+      "content": "Understand types and symbols of FET Construction and mechanism of FET",
+      "operation": "Lecture, Q&A Self-check",
+      "assignments": "Preparation: Read chapter 23, and understand types and symbols of FET.",
+      "minutes": "Prepar ation 100 Review 100"
+    },
+    {
+      "index": "19",
+      "content": "Static characteristics of FET, FET amplifier Design of FET circuit",
+      "operation": "Lecture, Q&A Self-check",
+      "assignments": "Preparation: Read chapter 23, and understand feature and circuit of FET.",
+      "minutes": "Prepar ation 100 Review 100"
+    },
+    {
+      "index": "20",
+      "content": "Integrated learning of FET circuit",
+      "operation": "Lecture, Q&A Self-check",
+      "assignments": "Preparation: Conduct exercises of chapter 23.",
+      "minutes": "Prepar ation 100 Review 100"
+    },
+    {
+      "index": "21",
+      "content": "Operational amplifier (1) Features of operational amplifier. Sign convertor, inverter circuit using operational amplifier.",
+      "operation": "Lecture, Q&A Self-check",
+      "assignments": "Preparation: Read chapter 24, and understand features of operational amplifier.",
+      "minutes": "Prepar ation 100 Review 100"
+    },
+    {
+      "index": "22",
+      "content": "Operational amplifier (2) Non-inverting circuit, adder, subtractor, integrator, voltage follower",
+      "operation": "Lecture, Q&A Self-check",
+      "assignments": "Preparation: Read chapter 24, and understand various circuits using operational amplifier.",
+      "minutes": "Prepar ation 100 Review 100"
+    },
+    {
+      "index": "23",
+      "content": "Operational amplifier (3) Integrated learning",
+      "operation": "Lecture, Q&A Self-check",
+      "assignments": "Preparation: Conduct exercises of chapter 24",
+      "minutes": "Prepar ation 100 Review 100"
+    },
+    {
+      "index": "24",
+      "content": "Conduct Exam C (FET circuit and operational amplifier). Difference of digital and analog Difference of digital and analog circuits",
+      "operation": "Exam Lecture, Q&A Self-check",
+      "assignments": "Preparation: Read chapters 23 and 24, and study for Exam C.",
+      "minutes": "Prepar ation 120 Review 100"
+    },
+    {
+      "index": "25",
+      "content": "Return and explain Exam C. Understand what pulse circuit is.",
+      "operation": "Explain Exam C Lecture, Q&A Self-check",
+      "assignments": "Preparation: Read chapter 3 in the second textbook, and understand pulse circuits. Review: Check the results of Exam C.",
+      "minutes": "Prepar ation 100 Review 100"
+    },
+    {
+      "index": "26",
+      "content": "Pulse circuits Differential and integrating circuits using CR or operational amplifier",
+      "operation": "Lecture, Q&A Self-check",
+      "assignments": "Preparation: Read chapter 3, and understand basic pulse circuits.",
+      "minutes": "Prepar ation 100 Review 100"
+    },
+    {
+      "index": "27",
+      "content": "Pulse generator Types and features of multi- vibrator Unstable multi-vibrator",
+      "operation": "Lecture, Q&A Self-check",
+      "assignments": "Preparation: Read chapter 3, and understand basic multi- vibrator",
+      "minutes": "Prepar ation 100 Review 100"
+    },
+    {
+      "index": "28",
+      "content": "Pulse generator Astable multi-vibrator Bistable multi-vibrator Integrated learning (pulse circuits)",
+      "operation": "Lecture, Q&A Self-check",
+      "assignments": "Preparation: Read chapter 3, and understand various multi-vibrator.",
+      "minutes": "Prepar ation 100 Review 100"
+    },
+    {
+      "index": "29",
+      "content": "Conduct Exam D (pulse circuits).",
+      "operation": "Exam D. Self-check",
+      "assignments": "Preparation: Read chapter 3 for Exam D.",
+      "minutes": "Prepar ation 120 Review 100"
+    },
+    {
+      "index": "30",
+      "content": "Return and explain Exam D. Self-check, integrated learning.",
+      "operation": "Explain Exam D check Questionnaire",
+      "assignments": "Check entire target abilities and learn unsatisfied parts.",
+      "minutes": "Review 200"
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　E927-28\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Electrical and Electronic Engineering(〜2024)\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Project Courses\n\n                プロジェクトデザインⅢ（柳橋秀幸研究室）\n                Design Project III(Yanagibashi Hideyuki)\n\n              8\n              E927-28\n\n                2026年度\n\n                All year\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  YANAGIBASHI Hideyuki\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Biological Information\n2.Behavior Control\n3.Magnetic Fluid\n4.Magnetic Measurement\n5.Regional Collaboration\n\n              Study theme is life science based on electrical and electronic engineering, and will actively collaborate with local farmers and companies. The aim of this course is to help students improve abilities to problem finding and its solution, data processing, academic writing, presentation, communication, etc. In addition, students learn the significance of interdisciplinary science and preciousness of nature, and use it for character building as engineer who is active in society.\n\n              授業の概要および学習上の助言\n\n              Students assigned to this laboratory are divided into groups and conduct study activities on the project themes throughout a year. Activity status is reported through study diary and weekly report.\n\nProject theme example\n1. Relationship between electrophysiological properties and morphogenetic properties of mushroom fruit body\n2. Behavior of bio-electric potential and morphogenetic properties to stimulation on mushroom hyphae\n3. Non-contact measurement of plant bioactivity using magnetic fluid\n\nActivity flow\n  First Semester:\nStudents acquire knowledge and equipment operation through literature surveys, and conduct experiments.\nStudents present the results of the period at the end of the semester.\nSecond semester:\n    Students continue the project activities.\n    Students write project report and present it at public examination meeting.\n    Students take over of project works to next year students.\n\n              教科書および参考書・リザーブドブック\n\n              Textbooks:\nReference books:\nReserved books:\n\n              履修に必要な予備知識や技能\n\n              1. Teamwork\n2. Electronic circuit\n3. Electromagnetism\n4. Measurement and control\n5. Biology\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                L,M,N\n                Be able to clarify the purpose and the content of your study and develop a study plan.\n\n                ②\n                M\n                Be able to promote study with sufficient communication with laboratory members.\n\n                ③\n                J,K,L,M,N\n                Be able to solve problems and issues in study yourself.\n\n                ④\n                I,L,M\n                Be able to summarize the study results in a project report.\n\n                ⑤\n                I,J,K,L,M\n                Be able to explain about your study and present the results effectively.\n\n                ⑥\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                0\n\n                0\n\n                60\n\n                40\n\n                0\n\n                0\n\n                0\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                0\n\n                0\n\n                60\n\n                40\n\n                0\n\n                0\n\n                0\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                0\n\n                0\n\n                60\n\n                40\n\n                0\n\n              ",
-  "courseId": "2026:full-year:E927-28:0:308",
+  "rawText": "金沢工業大学 学習支援計画書 E609-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Electrical and Electronic Engineering(2018〜)\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n電子回路Ⅰ\nElectronic Circuits I  4 E609-01  2024年度\n 2nd year 1st semester  修学規程第4条を参照\n    担当教員名\n FUKADA Haruki, NAKATA Shuhei, HIRAMA Junji, MIKAMI Akiyoshi\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Diode 2.Transistor Amplifiers 3.Operational Amplifiers 4.Pulse Circuits 5.Regional-Oriented  Students will: (1) learn basic analog electronic circuits consisting of diode or transistor. (2) understand basic amplifiers with bipolar transistor. (3) understand design methods of analog electronic circuits. (4) learn circuits and mechanisms of FET or operational amplifier. (5) learn pulse circuits such as multi-vibrator.\n    授業の概要および学習上の助言   Course outline is shown as follows: 1. Fundamental electric circuit 2. Circuit consisting of diode 3. Mechanism of transistor 4. Amplifier using bipolar transistor 5. Grounding methods, equivalent circuit for signal 6. Thermal runaway, design of amplifier 7. DC bias circuit 8. Power amplifier, negative-feedback amplifier 9. Oscillator 10. Modulation and demodulation 11. FET 12. Operational amplifier 13. Pulse circuit\n    教科書および参考書・リザーブドブック   Textbooks:Electronic Circuits - Fundamentals & Applications - Reference books: Reserved books:None\n    履修に必要な予備知識や技能   Students should well understand \"Electric Circuits I\" and \"Electric Circuits II.\" Questions are welcome during lecture.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① J Be able to explain mechanisms of diode and transistor.   ② J Be able to draw equivalent circuits of transistor amplifier.   ③ J Be able to calculate voltages and currents in each part for transistor amplifiers.   ④ J Be able to draw equivalent circuits of FET amplifier.   ⑤ J Be able to design circuits of operational amplifier.   ⑥ J Be able to explain pulse circuits such as differential circuit, integrating circuit and multi vibrator.\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 40 40 20 0 0 0 0 100     指標と評価割合 総合評価割合 40 40 20 0 0 0 0 100   総合力指標 知識を取り込む力 40 40 20 0 0 0 0 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ①   Students will be evaluated with two exams of Exam C and Exam D. Exam C is related with FET amplifier and operational amplifier. Exam D is related with pulse circuits. Exams C and D are 20% each.   ②     ③     ④ レ   ⑤ レ   ⑥ レ   クイズ\n小テスト ① レ This evaluation includes Exams A and B, and other quizzes. Exam A is related with diode circuit, while Exam B is about bipolar transistor amplifier. Exams A and B are 10% and 20%, respectively.   ② レ   ③ レ   ④     ⑤     ⑥     レポート ① レ Students will be evaluated with reports related with Exams.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥ レ   成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ①      ②     ③     ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     (1) Fully understand and explain mechanism of diode and transistor, equivalent circuits. Also design transistor amplifier. (2) Explain FET amplifier and analyze its signal. (3) Explain mechanism of operational amplifier, and design application circuits. (4) Fully understand pulse circuits and explain them enough. (1) Understand and explain mechanism of diode and transistor, equivalent circuits. (2) Analyze signals of FET amplifier. (3) Explain mechanism of operational amplifier. (4) Explain mechanisms of pulse circuits.\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習課題に要する標準的な時間を記載してあります。日々の自学自習時間全体としては、各授業に応",
+  "courseId": "2024:spring:E601-01:0:308",
   "language": "en"
 }

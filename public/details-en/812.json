@@ -1,61 +1,65 @@
 {
   "sourceIndex": 812,
   "sourceUrl": "/opsyllabus/kitos0110/812/1",
-  "importedAt": "2026-06-08T09:34:09.898Z",
-  "title": "数理モデルプログラミング",
-  "subtitle": "Mathematical Modeling and Programming",
-  "courseType": "Major ProgramMajor Courses",
-  "credits": "2",
-  "term": "2026年度\n\n                1st year 2nd semester",
+  "importedAt": "2026-06-09T01:29:26.730Z",
+  "title": "バイオ・化学基礎実験・演習A(応用バイオ)",
+  "subtitle": "Basic Experiments and Practice in Bioscience and Chemistry A (Applied Bioscience)",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "3",
+  "term": "2024年度\n 2nd year 1st semester\n2nd year 2nd semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "FUJITA Koji"
+    "SAGARA Jun-ichi",
+    "TATSUMI Hitoshi",
+    "HIRATA Hiroaki"
   ],
   "keywords": [
-    "Programming",
-    "Numerical Computation",
-    "Matlab",
-    "Local Collaboration"
+    "Electrical circuits 2.Audiometer 3.Analytical skills 4.Amplifiers 5.Hearing abilities"
   ],
-  "educationalGoal": "Students will:\n(1) learn the fundamentals of programming through Matlab practice\n(2) learn numerical programming to solve real-world engineering problems",
-  "advice": "In this course, students will learn programming on Matlab. We will cover the following materials:\n1. Overview of Matlab\n2. Vectors and matrixes\n3. Graphics function\n4. Loops and conditional statements\n5. Functions\n6. Input/Output\n7. Numerical algorithms (differentiation, integration, curve fitting, systems of linear equations, differential equations)\n\nStudents are expected to create many programs through the exercises and the reports to obtain practical programming skills and an understanding of various numerical algorithms.\nStudents are expected to solve the exercises on their own.\nStudents should not be late or absent from the class.",
-  "books": "N/A",
-  "requiredKnowledge": "N/A",
+  "educationalGoal": "The aim of this course is to provide freshman/sophomore-level students with the conceptual framework, factual knowledge, and analytical skills necessary to deal critically with the rapidly changing science of biology and to understand measurement techniques in the field of biology and applications of biology, including electrical circuits for making amplifiers and measuring human hearing abilities with audiometers.",
+  "advice": "The aim of this course is to provide freshman/sophomore-level students with the conceptual framework, factual knowledge, and analytical skills necessary to deal critically with the rapidly changing science of biology and to understand measurement techniques in the field of biology and applications of biology. The coursework is done via a series of basic laboratory exercises. Students are required to attend all classes. Students shall inform their instructors of dates they will miss class due to an excused absence prior to the date of that anticipated absence. There are no exams, but students are required to write laboratory reports.",
+  "books": "",
+  "requiredKnowledge": "Basic knowledge of electrical circuits, physics, and human physiology.",
   "activityGoals": [
     {
       "index": "①",
-      "type": "H,I",
-      "body": "Be able to create a program using fundamental arithmetic operations with input/output functions"
+      "type": "I,M,N,O",
+      "body": "Describe the basic mechanism of amplification"
     },
     {
       "index": "②",
-      "type": "H,I",
-      "body": "Be able to create a program using loops and conditional statements"
+      "type": "I,M,N,O",
+      "body": "Describe the role of signaling processors"
     },
     {
       "index": "③",
-      "type": "H,I",
-      "body": "Be able to understand the advantages of functions and create a program using functions"
+      "type": "I,M,N,O",
+      "body": "Describe the human hearing curve"
     },
     {
       "index": "④",
-      "type": "H,I",
-      "body": "Be able to visualize computational results with graphics functions"
+      "type": "M,N,O",
+      "body": "Describe the importance of statistical analysis"
     },
     {
       "index": "⑤",
-      "type": "H,I",
-      "body": "Be able to solve numerical problems by combining statements and functions"
+      "type": "M,N,O",
+      "body": "Writing skills for scientific and technological reports"
+    },
+    {
+      "index": "⑥",
+      "type": "I,M,N,O",
+      "body": "Skills for oral presentation"
     }
   ],
   "evaluationWeights": [
     {
       "label": "総合評価割合",
       "values": [
-        "40",
+        "0",
         "0",
         "50",
-        "0",
+        "40",
         "0",
         "0",
         "10",
@@ -63,9 +67,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -75,10 +79,10 @@
     {
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
-        "40",
+        "0",
         "0",
         "50",
-        "0",
+        "40",
         "0",
         "0",
         "10",
@@ -86,9 +90,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -98,10 +102,10 @@
     {
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
-        "40",
+        "0",
         "0",
         "50",
-        "0",
+        "40",
         "0",
         "0",
         "10",
@@ -109,9 +113,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -132,9 +136,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -142,7 +146,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -155,9 +159,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -178,9 +182,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -189,118 +193,118 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "(1) Create a suitable program with consideration of efficiency and memory usage\n(2) Create a complicated program to solve numerical problems",
-    "standard": "(1) Create a fundamental program\n(2) Understand the numerical algorithms used in the course"
+    "ideal": "Describe the following concepts and discuss progress in the fields of biology and technology: (1) Signal amplification (2) Filtering (3) Characterization of human hearing",
+    "standard": "Describe the basics of the following concepts: (1) Signal amplification (2) Filtering (3) Characterization of human hearing"
   },
   "clipProcess": "",
   "lessons": [
     {
       "index": "1",
-      "content": "[Course introduction]\nIntroduction to programming\nand numerical analysis\n\n[Matlab Overview (1)]\nFundamentals of Matlab",
-      "operation": "Lecture and practice\nSelf-check",
-      "assignments": "Understand the role of this\ncourse in the curriculum\nUnderstand the schedule and\ngoals of this course",
+      "content": "Course introduction",
+      "operation": "Lecture and Q&A",
+      "assignments": "Understand the course aims",
       "minutes": ""
     },
     {
       "index": "2",
-      "content": "[Matlab and Excel integration]\n\n[Matlab Overview (2)]\nFundamentals of Matlab",
-      "operation": "Lecture and practice\nSelf-check",
-      "assignments": "Prepare for the practice\nReview the last class",
+      "content": "Circuit designing and construction for biomedical measurements (1)",
+      "operation": "Lecture and experiments",
+      "assignments": "Read corresponding pages in the textbook",
       "minutes": ""
     },
     {
       "index": "3",
-      "content": "[Vectors and matrixes]\nVectors and matrixes\n[Graphics]\nVisualization of data (graph)",
-      "operation": "Lecture and practice\nSelf-check",
-      "assignments": "Prepare for the practice\nReview the last class",
+      "content": "Circuit designing and construction for biomedical measurements (2)",
+      "operation": "Lecture and experiments",
+      "assignments": "Read corresponding pages in the textbook",
       "minutes": ""
     },
     {
       "index": "4",
-      "content": "[Statement (1)]\nLoop statement",
-      "operation": "Lecture and practice\nSelf-check",
-      "assignments": "Prepare for the practice\nReview the last class",
+      "content": "Circuit designing and construction for biomedical measurements (3)",
+      "operation": "Lecture and experiments",
+      "assignments": "Read corresponding pages in the textbook",
       "minutes": ""
     },
     {
       "index": "5",
-      "content": "[Statement (2)]\nConditional statement",
-      "operation": "Lecture and practice\nSelf-check",
-      "assignments": "Prepare for the practice\nReview the last class",
+      "content": "Circuit designing and construction for biomedical measurements (4)",
+      "operation": "Lecture and experiments",
+      "assignments": "Read corresponding pages in the textbook",
       "minutes": ""
     },
     {
       "index": "6",
-      "content": "[Function]\nFunction usage\n\n[Input and output]\nInput and output",
-      "operation": "Lecture and practice\nSelf-check",
-      "assignments": "Prepare for the practice\nReview the last class",
+      "content": "Electrical Filters 1",
+      "operation": "Experiments and Practice",
+      "assignments": "Q and A",
       "minutes": ""
     },
     {
       "index": "7",
-      "content": "[Function]\nFunction usage\n\n[Input and output]\nInput and output",
-      "operation": "Lecture and practice\nSelf-check",
-      "assignments": "Prepare for the practice\nReview the last class",
+      "content": "Electrical Filters 2",
+      "operation": "Experiments and Practice",
+      "assignments": "Q and A",
       "minutes": ""
     },
     {
       "index": "8",
-      "content": "[Exam and review]",
-      "operation": "Exam\nSelf-evaluation",
-      "assignments": "Prepare for the practice\nReview the last class",
+      "content": "Electrical Filters 3",
+      "operation": "Experiments and Practice",
+      "assignments": "Q and A",
       "minutes": ""
     },
     {
       "index": "9",
-      "content": "[Numerical Differentiation]\nFinite difference formula",
-      "operation": "Lecture and practice\nSelf-check",
-      "assignments": "Prepare for the practice\nReview the last class",
+      "content": "Electrical Filters 4",
+      "operation": "Experiments and Practice",
+      "assignments": "Q and A",
       "minutes": ""
     },
     {
       "index": "10",
-      "content": "[Numerical Integration]\nTrapezoidal rule and Simpson's rule",
-      "operation": "Lecture and practice\nSelf-check",
-      "assignments": "Prepare for the practice\nReview the last class",
+      "content": "Electrical Filters 5",
+      "operation": "Experiments and Practice",
+      "assignments": "Q and A",
       "minutes": ""
     },
     {
       "index": "11",
-      "content": "[Curve fitting]\nLeast square method, Lagrange interpolation\n\n[System of linear equations (1)]\nGaussian elimination method",
-      "operation": "Lecture and practice\nSelf-check",
-      "assignments": "Prepare for the practice\nReview the last class",
+      "content": "Hearing experiments and analysis 1",
+      "operation": "Experiments and Lecture",
+      "assignments": "Q and A",
       "minutes": ""
     },
     {
       "index": "12",
-      "content": "[System of linear equations (2)]\nJacobi method",
-      "operation": "Lecture and practice\nSelf-check",
-      "assignments": "Prepare for the practice\nReview the last class",
+      "content": "Hearing experiments and analysis 2",
+      "operation": "Experiments and Lecture",
+      "assignments": "Q and A",
       "minutes": ""
     },
     {
       "index": "13",
-      "content": "[Ordinary differential equations]\nEuler method and Runge-Kutta method",
-      "operation": "Lecture and practice\nSelf-check",
-      "assignments": "Prepare for the practice\nReview the last class",
+      "content": "Hearing experiments and analysis 3",
+      "operation": "Experiments and Lecture",
+      "assignments": "Q and A",
       "minutes": ""
     },
     {
       "index": "14",
-      "content": "[Exam and review]",
-      "operation": "Exam\nSelf-check",
-      "assignments": "Prepare for the Exam",
+      "content": "Hearing experiments and analysis 4",
+      "operation": "Experiments and Lecture",
+      "assignments": "Q and A",
       "minutes": ""
     },
     {
       "index": "15",
-      "content": "[Practice (2)]\nApplication of numerical algorithms\n\n[Review]",
-      "operation": "Self-evaluation",
-      "assignments": "Review",
+      "content": "Hearing experiments and analysis 5",
+      "operation": "Experiments and Lecture",
+      "assignments": "Q and A",
       "minutes": ""
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　K208-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Aeronautics and Astronautics\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                数理モデルプログラミング\n                Mathematical Modeling and Programming\n\n              2\n              K208-01\n\n                2026年度\n\n                1st year 2nd semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  FUJITA Koji\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Programming\n2.Numerical Computation\n3.Matlab\n4.Local Collaboration\n\n              Students will:\n(1) learn the fundamentals of programming through Matlab practice\n(2) learn numerical programming to solve real-world engineering problems\n\n              授業の概要および学習上の助言\n\n              In this course, students will learn programming on Matlab. We will cover the following materials:\n1. Overview of Matlab\n2. Vectors and matrixes\n3. Graphics function\n4. Loops and conditional statements\n5. Functions\n6. Input/Output\n7. Numerical algorithms (differentiation, integration, curve fitting, systems of linear equations, differential equations)\n\nStudents are expected to create many programs through the exercises and the reports to obtain practical programming skills and an understanding of various numerical algorithms.\nStudents are expected to solve the exercises on their own.\nStudents should not be late or absent from the class.\n\n              教科書および参考書・リザーブドブック\n\n              N/A\n\n              履修に必要な予備知識や技能\n\n              N/A\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                H,I\n                Be able to create a program using fundamental arithmetic operations with input/output functions\n\n                ②\n                H,I\n                Be able to create a program using loops and conditional statements\n\n                ③\n                H,I\n                Be able to understand the advantages of functions and create a program using functions\n\n                ④\n                H,I\n                Be able to visualize computational results with graphics functions\n\n                ⑤\n                H,I\n                Be able to solve numerical problems by combining statements and functions\n\n                ⑥\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                40\n\n                0\n\n                50\n\n                0\n\n                0\n\n                0\n\n                10\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                40\n\n                0\n\n                50\n\n                0\n\n                0\n\n                0\n\n                10\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                40\n\n                0\n\n                50\n\n                0\n\n                0\n\n                0\n\n                10\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  コラボレーションとリーダーシップ\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  発表・表現・伝達する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  学習に取組む姿勢・意欲\n\n                    0\n\n                    0\n",
-  "courseId": "2026:fall:K208-01:0:812",
+  "rawText": "金沢工業大学 学習支援計画書 B130-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Applied Bioscience\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\nバイオ・化学基礎実験・演習A(応用バイオ)\nBasic Experiments and Practice in Bioscience and Chemistry A (Applied Bioscience)  3 B130-01  2024年度\n 2nd year 1st semester\n2nd year 2nd semester  修学規程第4条を参照\n    担当教員名\n SAGARA Jun-ichi, TATSUMI Hitoshi, HIRATA Hiroaki\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Electrical circuits 2.Audiometer 3.Analytical skills 4.Amplifiers 5.Hearing abilities  The aim of this course is to provide freshman/sophomore-level students with the conceptual framework, factual knowledge, and analytical skills necessary to deal critically with the rapidly changing science of biology and to understand measurement techniques in the field of biology and applications of biology, including electrical circuits for making amplifiers and measuring human hearing abilities with audiometers.\n    授業の概要および学習上の助言   The aim of this course is to provide freshman/sophomore-level students with the conceptual framework, factual knowledge, and analytical skills necessary to deal critically with the rapidly changing science of biology and to understand measurement techniques in the field of biology and applications of biology. The coursework is done via a series of basic laboratory exercises. Students are required to attend all classes. Students shall inform their instructors of dates they will miss class due to an excused absence prior to the date of that anticipated absence. There are no exams, but students are required to write laboratory reports.\n    教科書および参考書・リザーブドブック\n    履修に必要な予備知識や技能   Basic knowledge of electrical circuits, physics, and human physiology.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① I,M,N,O Describe the basic mechanism of amplification   ② I,M,N,O Describe the role of signaling processors   ③ I,M,N,O Describe the human hearing curve   ④ M,N,O Describe the importance of statistical analysis   ⑤ M,N,O Writing skills for scientific and technological reports   ⑥ I,M,N,O Skills for oral presentation\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 0 0 50 40 0 0 10 100     指標と評価割合 総合評価割合 0 0 50 40 0 0 10 100   総合力指標 知識を取り込む力 0 0 50 40 0 0 10 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ①      ②     ③     ④     ⑤     ⑥     クイズ\n小テスト ①      ②     ③     ④     ⑤     ⑥     レポート ① レ A final report is required to evaluate the degree of understanding and acquisition of the curriculum.   ② レ   ③     ④     ⑤     ⑥     成果発表\n(口頭・実技) ① レ A short, final presentation is required to evaluate the degree of understanding and acquisition of the curriculum.   ② レ   ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ① レ Participation in lecture activities is appreciated.   ②     ③ レ   ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     Describe the following concepts and discuss progress in the fields of biology and technology: (1) Signal amplification (2) Filtering (3) Characterization of human hearing Describe the basics of the following concepts: (1) Signal amplification (2) Filtering (3) Characterization of human hearing\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習課題に要する標準的な時間を記載してあります。日々の自学自習時間全体としては、各授業に応じた時間(例えば2単位科目の場合、予習2時間・復習2時間/週)を取るよう努めてください。詳しくは教員の指導に従って下さい。     授業明細   回数 学習内容 授業の運営方法 学習課題(予習・復習) 時間:分※     1  Course introduction Lecture and Q&A Understand the course aims     2  Circuit designing and construction for biomedical measurements (1) Lecture and experiments Read corresponding pages in the textbook   ",
+  "courseId": "2024:fall:B130-01:0:812",
   "language": "en"
 }

@@ -1,61 +1,62 @@
 {
   "sourceIndex": 731,
   "sourceUrl": "/opsyllabus/kitos0110/731/1",
-  "importedAt": "2026-06-08T09:34:08.142Z",
-  "title": "化学工学",
-  "subtitle": "Chemical Engineering",
-  "courseType": "Major ProgramMajor Courses",
+  "importedAt": "2026-06-09T01:29:25.996Z",
+  "title": "有機化学",
+  "subtitle": "Organic Chemistry",
+  "courseType": "Major Program\nMajor Courses",
   "credits": "2",
-  "term": "2026年度\n\n                2nd year 2nd semester",
+  "term": "2024年度\n 1st year 1st semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "TOSA Koji"
+    "TANIDA Ikuhiro"
   ],
   "keywords": [
-    "Stoichiometry",
-    "Chemical thermodynamics",
-    "Transportation phenomena",
-    "Chemical processes",
-    "Problem solving ability"
+    "Structure and Chemical bonds 2.Acids and Bases 3.Functional groups 4.Aliphatic Compounds 5.Aromatic Compounds"
   ],
-  "educationalGoal": "Learning objectives to master:\n(1) Stoichiometry, including mass balance and energy balance.\n(2) Chemical thermodynamics, including chemical equilibria and chemical kinetics.\n(3) Transportation phenomena of heat, mass, and momentum.\n(4) Design of chemical devices and processes.\n(5) Problem solving using the knowledge gained in areas above.",
-  "advice": "1. Chemical engineering and chemical plants\n2. Mass balance\n3. Fluid mechanics\n4. Thermal engineering\n5. Operations involving heat transfer\n6. Separation processes\n7. Powder engineering\n8. Chemical reaction engineering\n9. Metrology, control, and management of chemical plants",
-  "books": "Textbooks: General Chemical Engineering (Jikkyo Publishing)\nReference books: Basic Chemical Engineering (Kagakudojin Publishing]\nReserved books:",
-  "requiredKnowledge": "A basic understanding of physics, physical chemistry, organic chemistry, inorganic chemistry, and mathematics (exponential, logarithmic, and differential calculus) is necessary.",
+  "educationalGoal": "Organic compounds outnumber inorganic compounds in the world around us. However, elements that compose organic compounds are relatively few and the bonding types are simple. The purpose of this course is to learn the fundamentals of organic chemistry, including the classification, naming, characteristics, and reactions of organic compounds. You will be able to predict the properties of an organic compound from its chemical structure.",
+  "advice": "This course will cover: 1. Atomic structure 2. Properties of chemical bonds 3. Acids and bases 4. Functional groups 5. Alkanes and alkyl groups 6. Configuration of ethane 7. Cycloalkanes 8. Naming of alkenes and electronic structures 9. Reactions of organic compounds 10. Polar covalent bonds 11. Additions of HX to alkenes 12. Reactions of alkenes 13. Methods for producing alkenes 14. Conjugated dienes and alkynes 15. Electrophilic aromatic substitutions 16. Consideration of regional issues from the view of organic chemistry.",
+  "books": "Textbooks: Fundamentals of Organic Chemistry, Japanese 7th edition [Tokyo kagaku dojin] Reference books: Unspecified Reserved books: Unspecified",
+  "requiredKnowledge": "Organic chemistry is the basis of biotechnology and applied chemistry. You will need the textbook for this course. Chapters 1 to 6 of the textbook are about organic chemistry, chapters 7 to 12 are about organic synthesis, and the subsequent chapters present concepts of analytical chemistry and biochemistry.",
   "activityGoals": [
     {
       "index": "①",
-      "type": "M,O",
-      "body": "Calculate mass and energy balance."
+      "type": "L",
+      "body": "Describe the structures of atoms and electron configurations."
     },
     {
       "index": "②",
-      "type": "M,O",
-      "body": "Calculate chemical thermodynamics, including chemical equilibria and chemical kinetics."
+      "type": "L",
+      "body": "Explain ionic bonds and covalent bonds."
     },
     {
       "index": "③",
-      "type": "P,R",
-      "body": "Calculate transportation of heat, mass, and momentum."
+      "type": "L",
+      "body": "Describe the structures of methane, ethane, ethylene, and acetylene"
     },
     {
       "index": "④",
-      "type": "P,R",
-      "body": "Design chemical processes."
+      "type": "L,K",
+      "body": "Understand the definitions of acid and base."
     },
     {
       "index": "⑤",
-      "type": "S",
-      "body": "Solve problems using chemical engineering."
+      "type": "L,M",
+      "body": "Understand the structures of functional groups."
+    },
+    {
+      "index": "⑥",
+      "type": "L,N",
+      "body": "Name and describe alkanes, alkenes, alkynes, and aromatic compounds and understand their reactions."
     }
   ],
   "evaluationWeights": [
     {
       "label": "総合評価割合",
       "values": [
-        "0",
-        "45",
-        "55",
+        "40",
+        "40",
+        "20",
         "0",
         "0",
         "0",
@@ -64,9 +65,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -76,9 +77,9 @@
     {
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
-        "0",
-        "45",
-        "55",
+        "40",
+        "40",
+        "20",
         "0",
         "0",
         "0",
@@ -87,9 +88,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -99,9 +100,9 @@
     {
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
-        "0",
-        "45",
-        "55",
+        "40",
+        "40",
+        "20",
         "0",
         "0",
         "0",
@@ -110,9 +111,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -133,9 +134,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -143,7 +144,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -156,9 +157,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -179,9 +180,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -190,118 +191,118 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "(1) Can explain and calculate mass and energy balance.\n(2) Can explain and calculate chemical thermodynamics, including chemical equilibria and chemical kinetics.\n(3) Can explain and calculate transportation phenomena of heat, mass, and momentum.\n(4) Can design chemical processes.\n(5) Can solve problems using chemical engineering.",
-    "standard": "(1) Can explain and calculate basic mass and energy balance.\n(2) Can explain and calculate basic chemical thermodynamics, including chemical equilibrium and chemical kinetics.\n(3) Can explain and calculate basic transportation phenomena of heat, mass, and momentum.\n(4) Can design basic chemical processes.\n(5) Can solve some problems using chemical engineering."
+    "ideal": "You will be able to: 1. Explain the structure of atoms and electron configurations 2. Describe ionic and covalent bonds 3. Describe the structures of methane, ethane, ethylene, and acetylene 4. Explain the definitions of acids and bases 5. Describe the structures of functional groups 6. Draw isomers of alkanes 7. Describe the configurations of alkanes and cycloalkanes 8. Name the alkenes 9. Understand the reactions of alkenes and alkynes 10. Propose solutions for regional issues.",
+    "standard": "On a basic level, you will be able to: 1. Explain the structure of atoms and electron configurations 2. Describe ionic and covalent bonds 3. Describe the structures of methane, ethane, ethylene, and acetylene 4. Explain definitions of acids and bases 5. Describe the structures of functional groups 6. Draw isomers of alkanes 7. Describe the configurations of alkanes and cycloalkanes 8. Name the alkenes 9. Understand the reactions of alkenes and alkynes"
   },
   "clipProcess": "",
   "lessons": [
     {
       "index": "1",
-      "content": "Guidance\nDistillation",
-      "operation": "Lecture and Exercises",
-      "assignments": "Solve problems and write a\nreport.\nSubmit the report the next\nweek.",
-      "minutes": "100"
+      "content": "What is organic chemistry? Introduction of organic chemistry History of the discovery of the structure of methane",
+      "operation": "Lecture and Discussion",
+      "assignments": "Review and understand the contents of the lecture. Understand the primary experiment that synthesized inorganic compounds into organic compounds.",
+      "minutes": "120"
     },
     {
       "index": "2",
-      "content": "Fluid mechanics",
-      "operation": "Lecture and Exercises",
-      "assignments": "Solve problems and write a\nreport.\nSubmit the report the next\nweek.",
-      "minutes": "100"
+      "content": "Understanding structures of atoms, electron configurations, and hybridization of carbon",
+      "operation": "Lecture, Discussion, and Exercises",
+      "assignments": "Review the structures of atoms, electron configuraions, and hybridization of carbon.",
+      "minutes": "60 60"
     },
     {
       "index": "3",
-      "content": "Thermal engineering",
-      "operation": "Lecture and Exercises",
-      "assignments": "Solve problems and write a\nreport.\nSubmit the report the next\nweek.",
-      "minutes": "100"
+      "content": "Understanding ionic and covalent bonds, relation between electronegativity and polar covalent bonds",
+      "operation": "Lecture, Discussion, and Exercises",
+      "assignments": "Review ionic and covalent bonds, relation between electronegativity and polar covalent bonds.",
+      "minutes": "60 60"
     },
     {
       "index": "4",
-      "content": "Material balance",
-      "operation": "Lecture and Exercises",
-      "assignments": "Solve problems and write a\nreport.\nSubmit the report the next\nweek.",
-      "minutes": "100"
+      "content": "Understanding the three definitions of acids and bases",
+      "operation": "Lecture, Discussion, and Exercises",
+      "assignments": "Summarize the three definitions of acids and bases.",
+      "minutes": "60 120"
     },
     {
       "index": "5",
-      "content": "Quizzes 1\nChemical plant and chemical engineering",
-      "operation": "Quizzes\nLecture and Exercises",
-      "assignments": "Solve problems and write a\nreport.\nSubmit the report the next\nweek.",
-      "minutes": "100"
+      "content": "1st short test and self-evaluation Review content presented up to this point.",
+      "operation": "Lecture and Discussion Written Test",
+      "assignments": "Study for 1st short test. Review for the short test.",
+      "minutes": "120 60"
     },
     {
       "index": "6",
-      "content": "Operations involving heat transfer",
-      "operation": "Lecture and Exercises",
-      "assignments": "Solve problems and write a\nreport.\nSubmit the report the next\nweek.",
-      "minutes": "100"
+      "content": "Understanding structures and properties of functional groups",
+      "operation": "Lecture, Discussion, and Exercises",
+      "assignments": "Summarize structures and properties of functional groups.",
+      "minutes": "60 60"
     },
     {
       "index": "7",
-      "content": "Separation processes",
-      "operation": "Lecture and Exercises",
-      "assignments": "Solve problems and write a\nreport.\nSubmit the report the next\nweek.",
-      "minutes": "100"
+      "content": "Naming alkanes Comparing planar molecular structures with 3-D molecular structures using molecular models",
+      "operation": "Lecture, Discussion, and Exercises",
+      "assignments": "Review the naming of alkenes.",
+      "minutes": "60 60"
     },
     {
       "index": "8",
-      "content": "Powder engineering",
-      "operation": "Lecture and Exercises",
-      "assignments": "Solve problems and write a\nreport.\nSubmit the report the next\nweek.",
-      "minutes": "100"
+      "content": "Understanding configurations and conformational isomers of chemical compounds and the configuration of ethane",
+      "operation": "Lecture, Discussion, and Exercises",
+      "assignments": "Review configurations and conformational isomers of chemical compounds and the configuration of ethane.",
+      "minutes": "60 60"
     },
     {
       "index": "9",
-      "content": "Quizzes 2\nMetrology and control",
-      "operation": "Quizzes\nLecture and Exercises",
-      "assignments": "Solve problems and write a\nreport.\nSubmit the report the next\nweek.",
-      "minutes": "100"
+      "content": "Understanding the structures and configurations of cycloalkanes",
+      "operation": "Lecture, Discussion, and Exercises",
+      "assignments": "Review the structures and configurations of cycloalkanes.",
+      "minutes": "60 60"
     },
     {
       "index": "10",
-      "content": "Chemical reaction engineering",
-      "operation": "Lecture and Exercises",
-      "assignments": "Solve problems and write a\nreport.\nSubmit the report the next\nweek.",
-      "minutes": "100"
+      "content": "Understanding alkenes and kinds of organic reactions",
+      "operation": "Lecture, Discussion, and Exercises",
+      "assignments": "Review alkenes and kinds of organic reactions.",
+      "minutes": "60 120"
     },
     {
       "index": "11",
-      "content": "Management of chemical plants",
-      "operation": "Lecture and Exercises",
-      "assignments": "Solve problems and write a\nreport.\nSubmit the report the next\nweek.",
-      "minutes": "100"
+      "content": "2nd short test and self-evaluation Review content presented up to this point.",
+      "operation": "Lecture and Discussion Written Test",
+      "assignments": "Study for 2nd short test. Review for the short test.",
+      "minutes": "120 60"
     },
     {
       "index": "12",
-      "content": "Special lecture by industrial engineers",
-      "operation": "Lecture and Exercises",
-      "assignments": "Solve problems and write a\nreport.\nSubmit the report the next\nweek.",
-      "minutes": "100"
+      "content": "Understanding the addition of HX to alkenes and Markovnikov rule",
+      "operation": "Lecture, Discussion, and Exercises",
+      "assignments": "Review the addition of HX to alkenes and the Markovnikov rule.",
+      "minutes": "60 60"
     },
     {
       "index": "13",
-      "content": "Special lecture by industrial engineers",
-      "operation": "Lecture and Exercises",
-      "assignments": "Solve problems and write a\nreport.\nSubmit the report the next\nweek.",
-      "minutes": "100"
+      "content": "Understanding hydroxylation, halogenation, hydrogenation, oxidation of alkenes and alkynes Learning conjugated dienes",
+      "operation": "Lecture, Discussion, and Exercises",
+      "assignments": "Review hydroxylation, halogenation, hydrogenation, and oxidation of alkenes, conjugated dienes and alkynes.",
+      "minutes": "60 60"
     },
     {
       "index": "14",
-      "content": "Quizzes 3\nSafety in chemical plants",
-      "operation": "Quizzes\nLecture and Exercises",
-      "assignments": "Solve problems and write a\nreport.\nSubmit the report the next\nweek.",
-      "minutes": "100"
+      "content": "Learning Friedel-Crafts alkylation Understanding electrophilic aromatic substitution reactions",
+      "operation": "Lecture, Discussion, and Exercises",
+      "assignments": "Review conjugated dienes and alkynes, Friedel-Crafts alkylations, and electrophilic aromatic substitution reactions.",
+      "minutes": "60 120"
     },
     {
       "index": "15",
-      "content": "Supplement\nSelf-Evaluation Day",
-      "operation": "Lecture and Exercises",
-      "assignments": "Solve problems and write a\nreport.\nSubmit the report the next\nweek.",
-      "minutes": "100"
+      "content": "Review content presented up to this point. Final examination and self-evaluation",
+      "operation": "Lecture and Discussion Written Examination",
+      "assignments": "Study/review for final examination Identify your mistakes and review your weaknesses.",
+      "minutes": "180 60"
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　B212-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Chemistry and Environmental Science\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                化学工学\n                Chemical Engineering\n\n              2\n              B212-01\n\n                2026年度\n\n                2nd year 2nd semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  TOSA Koji\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Stoichiometry\n2.Chemical thermodynamics\n3.Transportation phenomena\n4.Chemical processes\n5.Problem solving ability\n\n              Learning objectives to master:\n(1) Stoichiometry, including mass balance and energy balance.\n(2) Chemical thermodynamics, including chemical equilibria and chemical kinetics.\n(3) Transportation phenomena of heat, mass, and momentum.\n(4) Design of chemical devices and processes.\n(5) Problem solving using the knowledge gained in areas above.\n\n              授業の概要および学習上の助言\n\n              1. Chemical engineering and chemical plants\n2. Mass balance\n3. Fluid mechanics\n4. Thermal engineering\n5. Operations involving heat transfer\n6. Separation processes\n7. Powder engineering\n8. Chemical reaction engineering\n9. Metrology, control, and management of chemical plants\n\n              教科書および参考書・リザーブドブック\n\n              Textbooks: General Chemical Engineering (Jikkyo Publishing)\nReference books: Basic Chemical Engineering (Kagakudojin Publishing]\nReserved books:\n\n              履修に必要な予備知識や技能\n\n              A basic understanding of physics, physical chemistry, organic chemistry, inorganic chemistry, and mathematics (exponential, logarithmic, and differential calculus) is necessary.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                M,O\n                Calculate mass and energy balance.\n\n                ②\n                M,O\n                Calculate chemical thermodynamics, including chemical equilibria and chemical kinetics.\n\n                ③\n                P,R\n                Calculate transportation of heat, mass, and momentum.\n\n                ④\n                P,R\n                Design chemical processes.\n\n                ⑤\n                S\n                Solve problems using chemical engineering.\n\n                ⑥\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                0\n\n                45\n\n                55\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                0\n\n                45\n\n                55\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                0\n\n                45\n\n                55\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  コラボレーションとリーダーシップ\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  発表・表現・伝達する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  学習に取組む姿勢・意欲\n\n                    0\n\n         ",
-  "courseId": "2026:fall:B212-01:0:731",
+  "rawText": "金沢工業大学 学習支援計画書 B004-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Applied Chemistry\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n有機化学\nOrganic Chemistry  2 B004-01  2024年度\n 1st year 1st semester  修学規程第4条を参照\n    担当教員名\n TANIDA Ikuhiro\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Structure and Chemical bonds 2.Acids and Bases 3.Functional groups 4.Aliphatic Compounds 5.Aromatic Compounds  Organic compounds outnumber inorganic compounds in the world around us. However, elements that compose organic compounds are relatively few and the bonding types are simple. The purpose of this course is to learn the fundamentals of organic chemistry, including the classification, naming, characteristics, and reactions of organic compounds. You will be able to predict the properties of an organic compound from its chemical structure.\n    授業の概要および学習上の助言   This course will cover: 1. Atomic structure 2. Properties of chemical bonds 3. Acids and bases 4. Functional groups 5. Alkanes and alkyl groups 6. Configuration of ethane 7. Cycloalkanes 8. Naming of alkenes and electronic structures 9. Reactions of organic compounds 10. Polar covalent bonds 11. Additions of HX to alkenes 12. Reactions of alkenes 13. Methods for producing alkenes 14. Conjugated dienes and alkynes 15. Electrophilic aromatic substitutions 16. Consideration of regional issues from the view of organic chemistry.\n    教科書および参考書・リザーブドブック   Textbooks: Fundamentals of Organic Chemistry, Japanese 7th edition [Tokyo kagaku dojin] Reference books: Unspecified Reserved books: Unspecified\n    履修に必要な予備知識や技能   Organic chemistry is the basis of biotechnology and applied chemistry. You will need the textbook for this course. Chapters 1 to 6 of the textbook are about organic chemistry, chapters 7 to 12 are about organic synthesis, and the subsequent chapters present concepts of analytical chemistry and biochemistry.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① L Describe the structures of atoms and electron configurations.   ② L Explain ionic bonds and covalent bonds.   ③ L Describe the structures of methane, ethane, ethylene, and acetylene   ④ L,K Understand the definitions of acid and base.   ⑤ L,M Understand the structures of functional groups.   ⑥ L,N Name and describe alkanes, alkenes, alkynes, and aromatic compounds and understand their reactions.\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 40 40 20 0 0 0 0 100     指標と評価割合 総合評価割合 40 40 20 0 0 0 0 100   総合力指標 知識を取り込む力 40 40 20 0 0 0 0 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ Final examination will be based on the material presented in class. Grading will be done based on an understanding of the matter described in the GAS. The ability to think logically also will be assessed.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥ レ   クイズ\n小テスト ① レ Short tests will be given in the first and second halves of the class.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥ レ   レポート ① レ A report will be prepared every week.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥ レ   成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ①      ②     ③     ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     You will be able to: 1. Explain the structure of atoms and electron configurations 2. Describe ionic and covalent bonds 3. Describe the structures of methane, ethane, ethylene, and acetylene 4. Explain the definitions of acids and bases 5. Describe the structures of functional groups 6. Draw isomers of alkanes 7. Describe the configurations of alkanes and cycloalkanes 8. Name the alkenes 9. Understand the reactions of alkenes and alkynes 10. Propose solutions for regional issues. On a basic level, you will be able to: 1. Explain the structure of atoms and electron configurations 2",
+  "courseId": "2024:fall:B003-01:0:731",
   "language": "en"
 }

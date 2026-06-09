@@ -1,76 +1,76 @@
 {
   "sourceIndex": 128,
   "sourceUrl": "/opsyllabus/kitos0110/128/1",
-  "importedAt": "2026-06-08T09:33:55.768Z",
-  "title": "データベースマネジメント",
-  "subtitle": "Database Management",
-  "courseType": "Major ProgramMajor Courses",
+  "importedAt": "2026-06-09T01:29:20.377Z",
+  "title": "機械の原理・演習",
+  "subtitle": "Mechanical Principles/ Exercises",
+  "courseType": "Major Program\nMajor Courses",
   "credits": "2",
-  "term": "2026年度\n\n                2nd year 1st semester",
+  "term": "2024年度\n 1st year 1st semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "HIRATA Kazufumi"
+    "KONDO Yasumitsu",
+    "SAKAMOTO Shigehiko",
+    "SUGIMOTO Yasuhiro",
+    "SEGAWA Akio"
   ],
   "keywords": [
-    "Relational Database",
-    "Table Definition, ER Diagram",
-    "Normalization, Primary Key, External Key",
-    "Data Manipulation Language, SQL"
+    "Characteristics of machines 2.Structure and motion principles of machines 3.Disassembling/assembling and measurement 4.Materials and production of machines 5.Mathematics for mechanical engineering"
   ],
-  "educationalGoal": "This course is for an educational goal of the Dept. of Management Systems to acquire \"Information design basic ability\". Students will:\n(1) acquire the basic ability to utilize IT.\n(2) learn the fundamental theory of relational databases.\n(3) learn how to design a database, use SQL, and operate a database.",
-  "advice": "To use a database, the following three abilities are required:\n  1. The ability to use SQL, a language for managing data held in a database.\n  2. The ability to maintain data integrity using normalization, primary/foreign key, and so on.\n  3. The ability to design application systems using a database.\n\nStudents will acquire abilities 1 and 2 mainly through lectures and exercises in the first half of the course; they will acquire ability 3 in the second half of the course.",
-  "books": "The Manga Guide to Database by Mana Takahashi, Shoko Azuma, and Trend-Pro Co., Ltd., No Starch Press; ISBN: 978-1-59327-190-9",
-  "requiredKnowledge": "Basic knowledge of computers such as the basic operation of a PC, Web design, IT systems, etc.",
+  "educationalGoal": "Students will: (1)understand the definition of machine. (2)learn the basics of mechanical engineering. (3)disassemble and assemble an actual machine. (4)learn the structure, mechanism, and principles of the machine. (5)learn the mathematics for mechanical engineering.",
+  "advice": "This is an introductory subject of mechanical engineering. We will cover the following: 1. Lectures and actual works 2. Basics of mechanical engineering 3. Basics of mechanical elements 4. How to use tools and measuring instruments 5. How to disassemble/assemble 6. Mathematics for mechanical engineering Students are required to actively participate in class. Students are required to understand the names of the mechanical elements. Students are required to understand the major field of mechanical engineering. Students are required to understand how to use tools. Students are required to understand mathematics for mechanical engineering.",
+  "books": "Textbooks:(1)Introduction to Mechanical Engineering, Maruzen Publishing Co., Ltd. (in Japanese) (2)Mathematics and Science for Engineer, Kanazawa Institute of Technology (in Japanese) (3)Instruction Textbook of Experience, Kanazawa Institute of Technology (in Japanese)",
+  "requiredKnowledge": "Participate actively in experience activities. For safety during experience activities, students should wear proper work clothes and shoes. Reports should be submitted by the deadline.",
   "activityGoals": [
     {
       "index": "①",
-      "type": "A,B",
-      "body": "Be able to explain what a database is."
+      "type": "F,G,I,J,K,M,O,P",
+      "body": "Be able to understand the importance of the structure, materials, mechanism, and principles of motion."
     },
     {
       "index": "②",
-      "type": "IH,I",
-      "body": "Be able to explain a relational database."
+      "type": "F,G,I,J,K,M,O,P",
+      "body": "Be able to disassemble and assemble machines and machine parts."
     },
     {
       "index": "③",
-      "type": "H,N",
-      "body": "Be able to design an E-R diagram."
+      "type": "F,G,I,J,K,M,O,P",
+      "body": "Be able to explain the structure, materials, mechanism and principles of motion of a machine."
     },
     {
       "index": "④",
-      "type": "D,E,G",
-      "body": "Be able to convert an entity to third normal form."
+      "type": "F,G,I,J,K,M,O,P",
+      "body": "Be able to submit a report on the importance and problems of the mechanism of a machine."
     },
     {
       "index": "⑤",
-      "type": "D,H,J",
-      "body": "Be able to use the SQL’s “SELECT” statement."
+      "type": "F,G,I,J,K,M,O,P",
+      "body": "Be able to design the machines by understanding basics of mathematics for mechanical engineering."
     },
     {
       "index": "⑥",
-      "type": "D,H,J",
-      "body": "Be able to design a database."
+      "type": "F,G,I,J,K,M,O,P",
+      "body": "Be able to understand the names and the linkages of the major subject to learn in mechanical engineering."
     }
   ],
   "evaluationWeights": [
     {
       "label": "総合評価割合",
       "values": [
-        "30",
-        "40",
         "20",
+        "20",
+        "40",
         "0",
         "0",
         "0",
-        "10",
+        "20",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -80,20 +80,20 @@
     {
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
-        "30",
-        "40",
         "20",
+        "20",
+        "40",
         "0",
         "0",
         "0",
-        "10",
+        "20",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -103,20 +103,20 @@
     {
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
-        "30",
-        "40",
         "20",
+        "20",
+        "40",
         "0",
         "0",
         "0",
-        "10",
+        "20",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -137,9 +137,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -147,7 +147,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -160,9 +160,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -183,9 +183,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -194,118 +194,118 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "Understand the basic operations of a database, normalization, the design method, and SQL, and be able to model, design, implement, and operate a database.",
-    "standard": "Understand the basic operations of the database and use the basic method of normalization, design, and SQL."
+    "ideal": "(1) Describe the detailed characteristics of the machines used in experience activities. (2) Sketch a figure of a mechanical element, and explain the details. (3) Explain the details of the manufacturing method of the machine, and link this with the characteristics of each mechanical element. (4) Apply linear algebra and calculus to engineering problems. (5) Submit an exemplary report by the scheduled date. (6) Enumerate associated major subjects, and link them with the characteristics of each mechanical element.",
+    "standard": "(1) Describe the characteristics of the machines to be use in experience activities. (2) Sketch a figure of a mechanical element. (3) Explain the manufacturing method of a machine. (4) Calculate using linear algebra and calculus. (5) Submit a report by the scheduled date. (6) Enumerate associated major subjects."
   },
   "clipProcess": "",
   "lessons": [
     {
       "index": "1",
-      "content": "Course introduction\nWhat is a database?",
-      "operation": "Lecture and practicum",
-      "assignments": "Prepare Chapter 1 of the\ntextbook",
-      "minutes": "260"
+      "content": "Course introduction",
+      "operation": "Lecture and Q&A Self-check",
+      "assignments": "Understand the objectives of the class Confirm a schedule",
+      "minutes": "30 30"
     },
     {
       "index": "2",
-      "content": "What is a relational database? (1)",
-      "operation": "Lecture and practicum",
-      "assignments": "Review Chapter 1 of the\ntextbook\nPrepare Chapter 2 of the\ntextbook",
-      "minutes": "260"
+      "content": "Experience (1) Disassembly and assembly of a small engine",
+      "operation": "Experience, sketch, and measurement Self-check",
+      "assignments": "How to disassemble Mechanical elements",
+      "minutes": "30 60"
     },
     {
       "index": "3",
-      "content": "What is a relational database? (2)",
-      "operation": "Lecture and practicum",
-      "assignments": "Solve the exercises in\nChapter 2 of the textbook",
-      "minutes": "260"
+      "content": "Experience (1) Disassembly and assembly of a small engine",
+      "operation": "Experience, sketch, and measurement Self-check",
+      "assignments": "Mechanical elements",
+      "minutes": "60"
     },
     {
       "index": "4",
-      "content": "Designing a database (1)",
-      "operation": "Lecture and practicum",
-      "assignments": "Re-solve the exercises in\nChapter 2 of the textbook\nPrepare Chapter 3 of the\ntextbook",
-      "minutes": "260"
+      "content": "Experience (1) Disassembly and assembly of a small engine",
+      "operation": "Experience, sketch, and measurement Self-check",
+      "assignments": "How to assemble Mechanical elements",
+      "minutes": "30 60"
     },
     {
       "index": "5",
-      "content": "Designing a database (2)",
-      "operation": "Lecture and practicum",
-      "assignments": "Solve the exercises in\nChapter 3 of the textbook",
-      "minutes": "260"
+      "content": "Experience (1) Disassembly and assembly of a small engine",
+      "operation": "Experience, sketch, and measurement Self-check",
+      "assignments": "Mechanical elements Create report",
+      "minutes": "30 70"
     },
     {
       "index": "6",
-      "content": "Utilizing a database (1)\n -Basic operations of SQL",
-      "operation": "Lecture and practicum",
-      "assignments": "Review the basic operations\nof SQL",
-      "minutes": "260"
+      "content": "Experience (2) Disassembly and assembly of a fluid element",
+      "operation": "Experience, sketch, and measurement Self-check",
+      "assignments": "How to disassemble Mechanical elements",
+      "minutes": "30 60"
     },
     {
       "index": "7",
-      "content": "Utilizing a database (2)\n -Basic operations of SQL",
-      "operation": "Lecture and practicum",
-      "assignments": "Review the basic operations\nof SQL",
-      "minutes": "260"
+      "content": "Experience (2) Disassembly and assembly of a fluid element",
+      "operation": "Experience, sketch, and measurement Self-check",
+      "assignments": "Mechanical elements",
+      "minutes": "60"
     },
     {
       "index": "8",
-      "content": "Confirmation of the acquisition of\nbasic knowledge",
-      "operation": "Written Exam and review\nSelf-evaluation",
-      "assignments": "Prepare for the exam",
-      "minutes": "300"
+      "content": "Experience (2) Disassembly and assembly of a fluid element",
+      "operation": "Experience, sketch, and measurement Self-check",
+      "assignments": "How to assemble Mechanical elements",
+      "minutes": "30 60"
     },
     {
       "index": "9",
-      "content": "Self-evaluation based on exam result\nUse-case utilizing a database",
-      "operation": "Lecture and practicum\nSelf-evaluation",
-      "assignments": "Conduct a report",
-      "minutes": "260"
+      "content": "Experience (2) Disassembly and assembly of a fluid element",
+      "operation": "Experience, sketch, and measurement Self-check",
+      "assignments": "Mechanical elements Create report",
+      "minutes": "30 70"
     },
     {
       "index": "10",
-      "content": "Let’s operate a database",
-      "operation": "Lecture and practicum",
-      "assignments": "Solve the exercises in\nChapter 4 of the textbook",
-      "minutes": "260"
+      "content": "Lecture and Exercise (1) Mathematics for mechanical engineering -Linear algebra",
+      "operation": "Lecture and Q&A Self-check",
+      "assignments": "Lecture content",
+      "minutes": "60"
     },
     {
       "index": "11",
-      "content": "The popularization and activities of a database",
-      "operation": "Lecture and practicum",
-      "assignments": "Review Chapter 5 of the\ntextbook\nSolve the exercises in\nChapter 5 of the textbook",
-      "minutes": "260"
+      "content": "Lecture and Exercise (2) Mathematics for mechanical engineering -Linear algebra",
+      "operation": "Lecture and Q&A Self-check",
+      "assignments": "Lecture content",
+      "minutes": "60"
     },
     {
       "index": "12",
-      "content": "The database administration system (1)",
-      "operation": "Lecture and practicum",
-      "assignments": "Review all chapters learned",
-      "minutes": "260"
+      "content": "Lecture and Exercise (3) Mathematics for mechanical engineering -Calculus",
+      "operation": "Lecture and Q&A Self-check",
+      "assignments": "Lecture content",
+      "minutes": "70"
     },
     {
       "index": "13",
-      "content": "The database administration system (2)",
-      "operation": "Lecture and practicum",
-      "assignments": "Prepare for the exam",
-      "minutes": "260"
+      "content": "Lecture and Exercise (4) Mathematics for mechanical engineering -Calculus Test and review",
+      "operation": "Lecture and Q&A Quizzes Self-check",
+      "assignments": "Lecture content",
+      "minutes": "60"
     },
     {
       "index": "14",
-      "content": "Final exam\nSelf-evaluation",
-      "operation": "Written exam and review\nSelf-evaluation",
-      "assignments": "Review exam questions",
-      "minutes": "300"
+      "content": "Final examination",
+      "operation": "Descriptive test",
+      "assignments": "Prepare for examination",
+      "minutes": "90"
     },
     {
       "index": "15",
-      "content": "Self-evaluation based on test results",
-      "operation": "Self-evaluation\nQuestionnaire\nSupplementary lesson",
-      "assignments": "",
-      "minutes": "260"
+      "content": "Review",
+      "operation": "Self-reflection",
+      "assignments": "Self-evaluation",
+      "minutes": "50"
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　D015-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Management Systems\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                データベースマネジメント\n                Database Management\n\n              2\n              D015-01\n\n                2026年度\n\n                2nd year 1st semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  HIRATA Kazufumi\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Relational Database\n2.Table Definition, ER Diagram\n3.Normalization, Primary Key, External Key\n4.Data Manipulation Language, SQL\n\n              This course is for an educational goal of the Dept. of Management Systems to acquire \"Information design basic ability\". Students will:\n(1) acquire the basic ability to utilize IT.\n(2) learn the fundamental theory of relational databases.\n(3) learn how to design a database, use SQL, and operate a database.\n\n              授業の概要および学習上の助言\n\n              To use a database, the following three abilities are required:\n  1. The ability to use SQL, a language for managing data held in a database.\n  2. The ability to maintain data integrity using normalization, primary/foreign key, and so on.\n  3. The ability to design application systems using a database.\n\nStudents will acquire abilities 1 and 2 mainly through lectures and exercises in the first half of the course; they will acquire ability 3 in the second half of the course.\n\n              教科書および参考書・リザーブドブック\n\n              The Manga Guide to Database by Mana Takahashi, Shoko Azuma, and Trend-Pro Co., Ltd., No Starch Press; ISBN: 978-1-59327-190-9\n\n              履修に必要な予備知識や技能\n\n              Basic knowledge of computers such as the basic operation of a PC, Web design, IT systems, etc.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                A,B\n                Be able to explain what a database is.\n\n                ②\n                IH,I\n                Be able to explain a relational database.\n\n                ③\n                H,N\n                Be able to design an E-R diagram.\n\n                ④\n                D,E,G\n                Be able to convert an entity to third normal form.\n\n                ⑤\n                D,H,J\n                Be able to use the SQL’s “SELECT” statement.\n\n                ⑥\n                D,H,J\n                Be able to design a database.\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                30\n\n                40\n\n                20\n\n                0\n\n                0\n\n                0\n\n                10\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                30\n\n                40\n\n                20\n\n                0\n\n                0\n\n                0\n\n                10\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                30\n\n                40\n\n                20\n\n                0\n\n                0\n\n                0\n\n                10\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  コラボレーションとリーダーシップ\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  発表・表現・伝達する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n            ",
-  "courseId": "2026:spring:D015-01:0:128",
+  "rawText": "金沢工業大学 学習支援計画書 E003-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Mechanical Engineering\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n機械の原理・演習\nMechanical Principles/ Exercises  2 E003-01  2024年度\n 1st year 1st semester  修学規程第4条を参照\n    担当教員名\n KONDO Yasumitsu, SAKAMOTO Shigehiko, SUGIMOTO Yasuhiro, SEGAWA Akio\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Characteristics of machines 2.Structure and motion principles of machines 3.Disassembling/assembling and measurement 4.Materials and production of machines 5.Mathematics for mechanical engineering  Students will: (1)understand the definition of machine. (2)learn the basics of mechanical engineering. (3)disassemble and assemble an actual machine. (4)learn the structure, mechanism, and principles of the machine. (5)learn the mathematics for mechanical engineering.\n    授業の概要および学習上の助言   This is an introductory subject of mechanical engineering. We will cover the following: 1. Lectures and actual works 2. Basics of mechanical engineering 3. Basics of mechanical elements 4. How to use tools and measuring instruments 5. How to disassemble/assemble 6. Mathematics for mechanical engineering Students are required to actively participate in class. Students are required to understand the names of the mechanical elements. Students are required to understand the major field of mechanical engineering. Students are required to understand how to use tools. Students are required to understand mathematics for mechanical engineering.\n    教科書および参考書・リザーブドブック   Textbooks:(1)Introduction to Mechanical Engineering, Maruzen Publishing Co., Ltd. (in Japanese) (2)Mathematics and Science for Engineer, Kanazawa Institute of Technology (in Japanese) (3)Instruction Textbook of Experience, Kanazawa Institute of Technology (in Japanese)\n    履修に必要な予備知識や技能   Participate actively in experience activities. For safety during experience activities, students should wear proper work clothes and shoes. Reports should be submitted by the deadline.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① F,G,I,J,K,M,O,P Be able to understand the importance of the structure, materials, mechanism, and principles of motion.   ② F,G,I,J,K,M,O,P Be able to disassemble and assemble machines and machine parts.   ③ F,G,I,J,K,M,O,P Be able to explain the structure, materials, mechanism and principles of motion of a machine.   ④ F,G,I,J,K,M,O,P Be able to submit a report on the importance and problems of the mechanism of a machine.   ⑤ F,G,I,J,K,M,O,P Be able to design the machines by understanding basics of mathematics for mechanical engineering.   ⑥ F,G,I,J,K,M,O,P Be able to understand the names and the linkages of the major subject to learn in mechanical engineering.\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 20 20 40 0 0 0 20 100     指標と評価割合 総合評価割合 20 20 40 0 0 0 20 100   総合力指標 知識を取り込む力 20 20 40 0 0 0 20 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ A descriptive test is conducted on the contents of the experience activities and lectures. There is no partial credit in the scoring.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     クイズ\n小テスト ① レ A descriptive test is conducted on the contents of the lectures. There is no partial credit in the scoring.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     レポート ① レ Experience reports are required to explain problems on the mechanism, principles of motion, and structure of a machine in the text using figures and photographs. Be sure to submit reports by the deadline.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥ レ   成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ①   Students will be evaluated for activities in class.   ②     ③     ④     ⑤     ⑥ レ\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     (1) Describe the det",
+  "courseId": "2024:fall:G253-10:0:128",
   "language": "en"
 }

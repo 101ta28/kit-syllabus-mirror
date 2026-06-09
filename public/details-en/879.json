@@ -1,77 +1,48 @@
 {
   "sourceIndex": 879,
   "sourceUrl": "/opsyllabus/kitos0110/879/1",
-  "importedAt": "2026-06-08T09:34:11.430Z",
-  "title": "測量学Ⅱ",
-  "subtitle": "Surveying II",
-  "courseType": "Major ProgramMajor Courses",
-  "credits": "2",
-  "term": "2026年度\n\n                1st year 2nd semester",
+  "importedAt": "2026-06-09T01:29:27.317Z",
+  "title": "ドローンプログラミング(春期集中講義)",
+  "subtitle": "Drone Programming",
+  "courseType": "(Provided by all courses)\nLiberal Arts Courses\nTransdisciplinary Learning",
+  "credits": "1",
+  "term": "2024年度\n 1st year 2nd semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "NAKANO Kazuya"
+    "TAKAGO Daisuke"
   ],
   "keywords": [
-    "Registered surveyors",
-    "GNSS, GIS, RS",
-    "Mapping, geography",
-    "Flip teaching",
-    "3D surveying simulation"
+    "Drone 2.Python 3.Video processing 4.MultiProcessing 5.Networking"
   ],
-  "educationalGoal": "In Surveying II, students learn about spatial information technologies such as GIS, GNSS, and RS, which are new surveying fields. Specifically, the course covers traverse surveying, GNSS surveying, and geographic information systems. Some subjects will be instructed using flipped teaching.",
-  "advice": "(1) Students will learn traverse surveying; calculation of azimuths, bearings, latitudes and departures, adjustments to latitudes and departures, total latitude and total departure, and area. These are taught using flipped teaching (active learning) e-learning.\n(2) Students will do traverse survey exercises using a 3D simulator (active learning)\n(3) Students will do GIS (geographic information system) exercises using QGIS (active learning)\n(4) Students will become acquainted with other spatial information technologies (GNSS (GPS), laser surveying, etc.)\n(5) Students will do national examination exercises on topics 1 to 4 listed above (related to national qualifications)\n(6) Students will create exam question candidates in cooperation with senior SA (active learning).",
-  "books": "Same the Japanese syllabus.",
-  "requiredKnowledge": "This subject is indispensable preparation for Surveying Practicum/Exercise I and II and Spatial Information Technology. Students can acquire practical skills by taking Surveying Practicum/Exercise I and II. Students can create Excel calculation sheets that they can apply it to many survey calculations. The Power Point slides used in the lecture will be posted on the e-syllabus. This course is closely related to the Registered Surveyor examination.",
+  "educationalGoal": "In this course, students learn how to program and control a small drone (Ryze Tech. Tello) using Python.",
+  "advice": "Create a multi-process program that communicates with Tello via UDP according to the specifications published by Ryze Tech to control the aircraft and acquire aircraft information. The program is designed to communicate with Tello via UDP in accordance with the specifications published by Ryze Tech. 【Development environment】 Operating system: Linux Language: Python3 (mainly used modules: socket, multiprocessing, opencv, pygame, matplotlib) 【Notes】 The course assumes that students have a good understanding of the basics of Python, so no explanations will be given in class. The course covers a wide range of topics in a short period of time, so students are expected to prepare for and review the class slides and programs thoroughly before attending each class.",
+  "books": "",
+  "requiredKnowledge": "Python basics: (1) Variables and lists, (2) Conditional branching, (3) Iteration, (4) Function definition and calling, (5) Using modules) Experience with programming text editors such as VisualStudio Code Experience with Linux",
   "activityGoals": [
     {
       "index": "①",
-      "type": "C,L",
-      "body": "Students can explain the principles of, equipment used, and characteristics of various surveying methods (0.1L)"
-    },
-    {
-      "index": "②",
-      "type": "L",
-      "body": "Students can select survey methods correctly depending on the terrain and purpose of the survey. (0.1L)"
-    },
-    {
-      "index": "③",
-      "type": "M,H",
-      "body": "Students can deepen their knowledge of spatial information technology and design/planning. (0.1M, 0.1H)"
-    },
-    {
-      "index": "④",
-      "type": "L,M",
-      "body": "Students can solve basic and applied problems that appear on national exams for registered surveyors (0.1L, 0.1)"
-    },
-    {
-      "index": "⑤",
-      "type": "L,M",
-      "body": "Students can explain the importance of surveying and spatial information engineering(0.1L, 0.1M)"
-    },
-    {
-      "index": "⑥",
-      "type": "L,M",
-      "body": "Students can actively involved in flipped learning, including questions in collaboration with SA. (0.1L, 0.1M)"
+      "type": "H",
+      "body": "The student understands the basic program given and is able to make modifications as required."
     }
   ],
   "evaluationWeights": [
     {
       "label": "総合評価割合",
       "values": [
-        "30",
-        "25",
-        "30",
         "0",
         "0",
         "0",
-        "15",
+        "0",
+        "0",
+        "0",
+        "100",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -81,20 +52,20 @@
     {
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
-        "30",
-        "25",
-        "30",
         "0",
         "0",
         "0",
-        "15",
+        "0",
+        "0",
+        "0",
+        "100",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -104,20 +75,20 @@
     {
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
-        "30",
-        "25",
-        "30",
         "0",
         "0",
         "0",
-        "15",
+        "0",
+        "0",
+        "0",
+        "100",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -138,9 +109,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -148,7 +119,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -161,9 +132,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -184,9 +155,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -195,118 +166,62 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "In traverse surveying, students understand azimuth, bearing, latitude and distance, and accurately calculate error and area. They can create a data calculation sheet with Excel. They can explain raster data and vector data in GIS and positioning methods in GNSS in detail. Students understand the details of the coordinate reference system, spatial data collection and measurement methods, and can explaine mesh code of map management. They can solve advanced application problems from registered and assistant surveyors’ national tests. They can also create exam and practice question candidates in cooperation with senior SA.",
-    "standard": "In traverse surveying, students understand azimuth, bearing, latitude and distance. They understand the concepts of spatial information technology and understand the three fields (GIS, GNSS, remote sensing) that make up spatial information engineering. They understand the Japanese coordinate reference system, spatial data collection and measurement methods and mesh coding. They can solve basic problems from registered and assistant surveyors’ national tests. Students can do temporary tutoring."
+    "ideal": "Students can freely control the drone through multi-process parallel processing.",
+    "standard": "Students can control drones through multi-process parallel processing."
   },
   "clipProcess": "",
   "lessons": [
     {
       "index": "1",
-      "content": "Lecture guidance. Explanation about flipped\nteaching and Knowledge Square (LC 3F).\nReceive an overview of traverse surveying.\nPre-explain the settings for the PC's operating\nenvironment.",
-      "operation": "Lecture, questions and\nself-checks\nExplanations are mainly\nbased on handouts.",
-      "assignments": "Review: Understand the basics\nof traverse surveying and\nclosed traverses.\nPreparation: Install\napplications and download\ndata and review the manuals\nin the Appendix.\n\"Ace\" shown in the Method\ndetails indicates the book\nAce Surveying,\n while \"Intro.\" denotes the\nbook Introduction of Spatial\nInformation Technology.\nAce: pp.52-78\nIntro.:pp.74-81\nIntro.Appendix:pp.1-18",
-      "minutes": "30\n\n45"
+      "content": "Before Programming - How to use PC - How to connect Tello to PC - Flight Practice - How drones work",
+      "operation": "lectures and exercises",
+      "assignments": "preparation review",
+      "minutes": "100 100"
     },
     {
       "index": "2",
-      "content": "The settings for the PC's operating environment.\nReport writing for PC's settings.",
-      "operation": "Perform environment\nbuilding by installing\nthe applications used in\nSurveying II.\nWrite and submit an\ninstallation report.",
-      "assignments": "Review: Understand combined\ntraversal and azimuths.\nPreparation: Understand\nazimuth, bearings on traverse\nsurveying using Moodle.\nAce: pp.52-78\nIntro.:pp.74-81",
-      "minutes": "60\n\n30"
+      "content": "Network Programming (UDP) After understanding the protocols provided by the Tello, learn how to communicate with the drone via UDP socket using the Python's socket module.",
+      "operation": "lectures and exercises",
+      "assignments": "preparation review",
+      "minutes": "100 100"
     },
     {
       "index": "3",
-      "content": "Traverse surveying 1\nAzimuth, Bearing",
-      "operation": "Lecture, questions and\nself-checks\nBearing practice learned\n through flipped teaching\n(active learning) and\n Knowledge Square:\nself-inspection at LC.\nAce: pp.52-78\nIntro.:pp.74-81",
-      "assignments": "Review: Understand bearings.\nPreparation: Understand\nlatitude and departure.\nAce: pp.52-78\nIntro.:pp.74-81",
-      "minutes": "30\n30"
+      "content": "Video Processing Programming Using Python's opencv module, display the H.264 video stream sent from the drone on a PC screen.",
+      "operation": "lectures and exercises",
+      "assignments": "preparation review",
+      "minutes": "100 100"
     },
     {
       "index": "4",
-      "content": "Traverse surveying 2\nProcedures for calculating latitude and\ndeparture using azimuth and bearing.",
-      "operation": "Lecture, questions and\nself-checks.\nLatitude and departure\npractice learned through\n flipped teaching\n (active learning) and\n Knowledge Square:\nself-inspection at LC.\nAce: pp.52-78\nIntro.:pp.74-81",
-      "assignments": "Review: Understand latitude\nand departure.\nPreparation: Understand\nlatitude and departure\nadjustments.\nAce: pp.52-78\nIntro.:pp.74-81",
-      "minutes": "20\n\n45"
+      "content": "Gamepad Programming Using Python's pygame module, you will learn how to read information (buttons and axes) from a USB gamepad and use it.",
+      "operation": "lectures and exercises",
+      "assignments": "preparation review",
+      "minutes": "100 100"
     },
     {
       "index": "5",
-      "content": "Traverse surveying 3\nCalculation of latitude and departure\nadjustments",
-      "operation": "Lecture, questions and\nself-checks\nLatitude and departure\nadjustment practice\nlearned through flipped\nteaching (active\nlearning) and Knowledge\nSquare: self-inspection\nat LC.\nAce: pp.52-78\nIntro.:pp.74-81",
-      "assignments": "Review: Understand and be\nable to calculate latitude\nand departure adjustments.\nPreparation: Understand total\nlatitude and total departure.\nAce: pp.52-78\nIntro.:pp.74-81",
-      "minutes": "30\n\n45"
+      "content": "Waveform Plot Programming The matplotlib module of Python is used to display the information (attitude, altitude, battery level, etc.) sent from the drone.",
+      "operation": "lectures and exercises",
+      "assignments": "preparation review",
+      "minutes": "100 100"
     },
     {
       "index": "6",
-      "content": "Traverse surveying 4\nCalculation of total latitude and total\ndeparture",
-      "operation": "Lecture, questions and\nself-checks\nTotal latitude and total\ndeparture practice\nlearned through flipped\nteaching (active learning)\n and Knowledge Square:\nself-inspection at LC.\nAce: pp.52-78\nIntro.:pp.74-81",
-      "assignments": "Review: Confirm understanding\nof the calculations for total\nlatitude and total departure.\nPreparation: Understand\nadjustments to total latitude\nand total departure.\nAce: pp.52-78\nIntro.:pp.74-81",
-      "minutes": "60\n\n45"
+      "content": "Multi-processing programming Using Python's multiprocessing module, multiple tasks (i.e., (1) joypad input, (2) drone control, (3) visualization of drone information, and (4) display of video streams.)",
+      "operation": "lectures and exercises",
+      "assignments": "preparation review",
+      "minutes": "100 100"
     },
     {
       "index": "7",
-      "content": "Traverse surveying 5\nAdjustments to total latitude and total\ndeparture",
-      "operation": "Lecture, questions and\nself-checks\nTotal latitude and total\ndeparture adjustment\npractice, learned through\nflipped teaching (active\nlearning) and Knowledge\nSquare: self-inspection\nat LC.\nAce: pp.52-78\nIntro.:pp.74-81",
-      "assignments": "Review: Confirm understanding\nof the adjustment of total\nlatitude and total departure.\nPreparation: Prepare for test.",
-      "minutes": "60\n\n90"
-    },
-    {
-      "index": "8",
-      "content": "[Interim review]; Test and Self-inspection\n\nConsiderations for planning regional\ncollaboration project (Extracurricular\nactivities will be held at LC with senior\nSA/TAs)",
-      "operation": "Review report on\ntraverse survey due.",
-      "assignments": "Review: Distribute corrected\nreports. Students will score\nthem.\nPreparation: Install 3D\nsimulator and start it.",
-      "minutes": "60\n\n15"
-    },
-    {
-      "index": "9",
-      "content": "3D simulator\nTraverse surveying using 3D simulator",
-      "operation": "Explanation of 3D\nsimulator. Students\nshould use the\nsupplementary CD in the\ntextbook and do\nself-inspection at\n Knowledge Square.\nIntroduction:\nAppendix pp. 1-18",
-      "assignments": "Review: How to use the 3D\nsimulator.\nPreparation: Advanced usage\nof 3D simulator.",
-      "minutes": "20\n\n60"
-    },
-    {
-      "index": "10",
-      "content": "3D simulator.\nTraverse surveying using 3D simulator\n[Self-check of 3D simulator]",
-      "operation": "[General exercises]\nExercises using 3D\nsimulator, and\nself-inspection at\nKnowledge Square.\nStudents should use the\nsupplementary CD in the\ntextbook.",
-      "assignments": "Review: Review advanced usage\nof 3D simulator and answers\nto exercises.\nPreparation: Install 3D\nsimulator and start it.\nIntrod. Appendix: pp.1-18",
-      "minutes": "60\n\n15"
-    },
-    {
-      "index": "11",
-      "content": "QGIS\nOverview of GIS\nGIS functions and Data",
-      "operation": "Explanation of\nGIS and Data.\nself-inspection at\nKnowledge Square.\nStudents should use the\nsupplementary CD in the\ntextbook.\nIntrod. Appendix:\npp. 37-52",
-      "assignments": "Review: How to use\nQGIS.\nPreparation: Advanced use of\nQGIS",
-      "minutes": "60\n\n90"
-    },
-    {
-      "index": "12",
-      "content": "QGIS\nGIS functions of QGIS\n[Self-check of QGIS]",
-      "operation": "[General exercises]\nPractice using\nQGIS and\nself-inspection at\nKnowledge Square.\nStudents should use the\nsupplementary CD in the\ntextbook.\nIntrod. Appendix:\npp. 37-52",
-      "assignments": "Review: Advanced use of\nQGIS and answers to\nexercises.\nPreparation: Preparation for\nspatial information technology\nIntrod. Appendix: pp. 37-52",
-      "minutes": "120\n\n30"
-    },
-    {
-      "index": "13",
-      "content": "GIS and GNSS (GPS)\n\nTypes of GIS data and applications\nOutline of GNSS (GPS) and GPS surveys\n(Achievement confirmation tests may be\nconducted instead of 15 times)",
-      "operation": "Lecture, questions and\nself-checks\nPractice spatial\ninformation technology\n(Practice is conducted as\nactive learning and\nself-inspection at\nKnowledge Square)\nIntrod.: pp.189-229,91-128\n.",
-      "assignments": "Review: Review new spatial\ninformation technologies.\nPreparation: Prepare for GIS\nand GNSS.\nIntrod.: pp.189-229, 91-128.\nCreate exercises and exam\nquestions.",
-      "minutes": "30\n\n30"
-    },
-    {
-      "index": "14",
-      "content": "Achievement confirmation test and self-check\nExam similar to national test.",
-      "operation": "Confirmation test\n[Some questions are\nselected from those\ncreated by students and\nsenior SA]\nQuestionnaires",
-      "assignments": "Review: Review GIS and GPS\noutline.\nPreparation: Prepare for\nachievement confirmation test.\nIntrod.: pp.189-229, 91-128.\nCreate exercises and exam\nquestions",
-      "minutes": "30\n\n120"
-    },
-    {
-      "index": "15",
-      "content": "Explain the model answers to the [achievement\nconfirmation test].\nA comprehensive questionnaire is administered. T\nhe achievement test may be held in the 15th\nsession.",
-      "operation": "Students who have taken\nthe achievement test\nshould explain their\nmodel answers.\nComprehensive\nquestionnaire.",
-      "assignments": "Review Surveying I and\nSurveying II in general.\nChallenge the national\nexamination questions\n(Moodle) for points.",
-      "minutes": "120"
+      "content": "Free time Time for flight experiments (each student will m odify the program and make the drone fly.)",
+      "operation": "lectures and exercises",
+      "assignments": "review",
+      "minutes": "100"
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　K506-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Civil and Environmental Engineering\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                測量学Ⅱ\n                Surveying II\n\n              2\n              K506-01\n\n                2026年度\n\n                1st year 2nd semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  NAKANO Kazuya\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Registered surveyors\n2.GNSS, GIS, RS\n3.Mapping, geography\n4.Flip teaching\n5.3D surveying simulation\n\n              In Surveying II, students learn about spatial information technologies such as GIS, GNSS, and RS, which are new surveying fields. Specifically, the course covers traverse surveying, GNSS surveying, and geographic information systems. Some subjects will be instructed using flipped teaching.\n\n              授業の概要および学習上の助言\n\n              (1) Students will learn traverse surveying; calculation of azimuths, bearings, latitudes and departures, adjustments to latitudes and departures, total latitude and total departure, and area. These are taught using flipped teaching (active learning) e-learning.\n(2) Students will do traverse survey exercises using a 3D simulator (active learning)\n(3) Students will do GIS (geographic information system) exercises using QGIS (active learning)\n(4) Students will become acquainted with other spatial information technologies (GNSS (GPS), laser surveying, etc.)\n(5) Students will do national examination exercises on topics 1 to 4 listed above (related to national qualifications)\n(6) Students will create exam question candidates in cooperation with senior SA (active learning).\n\n              教科書および参考書・リザーブドブック\n\n              Same the Japanese syllabus.\n\n              履修に必要な予備知識や技能\n\n              This subject is indispensable preparation for Surveying Practicum/Exercise I and II and Spatial Information Technology. Students can acquire practical skills by taking Surveying Practicum/Exercise I and II. Students can create Excel calculation sheets that they can apply it to many survey calculations. The Power Point slides used in the lecture will be posted on the e-syllabus. This course is closely related to the Registered Surveyor examination.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                C,L\n                Students can explain the principles of, equipment used, and characteristics of various surveying methods (0.1L)\n\n                ②\n                L\n                Students can select survey methods correctly depending on the terrain and purpose of the survey. (0.1L)\n\n                ③\n                M,H\n                Students can deepen their knowledge of spatial information technology and design/planning. (0.1M, 0.1H)\n\n                ④\n                L,M\n                Students can solve basic and applied problems that appear on national exams for registered surveyors (0.1L, 0.1)\n\n                ⑤\n                L,M\n                Students can explain the importance of surveying and spatial information engineering(0.1L, 0.1M)\n\n                ⑥\n                L,M\n                Students can actively involved in flipped learning, including questions in collaboration with SA. (0.1L, 0.1M)\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                30\n\n                25\n\n                30\n\n                0\n\n                0\n\n                0\n\n                15\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                30\n\n                25\n\n       ",
-  "courseId": "2026:fall:K506-01:0:879",
+  "rawText": "金沢工業大学 学習支援計画書 G266-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\n(Provided by all courses)\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     (Provided by all courses)\nLiberal Arts Courses\nTransdisciplinary Learning\nドローンプログラミング(春期集中講義)\nDrone Programming  1 G266-01  2024年度\n 1st year 2nd semester  修学規程第4条を参照\n    担当教員名\n TAKAGO Daisuke\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Drone 2.Python 3.Video processing 4.MultiProcessing 5.Networking  In this course, students learn how to program and control a small drone (Ryze Tech. Tello) using Python.\n    授業の概要および学習上の助言   Create a multi-process program that communicates with Tello via UDP according to the specifications published by Ryze Tech to control the aircraft and acquire aircraft information. The program is designed to communicate with Tello via UDP in accordance with the specifications published by Ryze Tech. 【Development environment】 Operating system: Linux Language: Python3 (mainly used modules: socket, multiprocessing, opencv, pygame, matplotlib) 【Notes】 The course assumes that students have a good understanding of the basics of Python, so no explanations will be given in class. The course covers a wide range of topics in a short period of time, so students are expected to prepare for and review the class slides and programs thoroughly before attending each class.\n    教科書および参考書・リザーブドブック\n    履修に必要な予備知識や技能   Python basics: (1) Variables and lists, (2) Conditional branching, (3) Iteration, (4) Function definition and calling, (5) Using modules) Experience with programming text editors such as VisualStudio Code Experience with Linux\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① H The student understands the basic program given and is able to make modifications as required.   ②     ③     ④     ⑤     ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 0 0 0 0 0 0 100 100     指標と評価割合 総合評価割合 0 0 0 0 0 0 100 100   総合力指標 知識を取り込む力 0 0 0 0 0 0 100 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ①      ②     ③     ④     ⑤     ⑥     クイズ\n小テスト ①      ②     ③     ④     ⑤     ⑥     レポート ①      ②     ③     ④     ⑤     ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ① レ Check that the student understands the given program and makes modifications to it. Also, check that the drone is performing as expected with the modified program.   ②     ③     ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     Students can freely control the drone through multi-process parallel processing.  Students can control drones through multi-process parallel processing.\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習課題に要する標準的な時間を記載してあります。日々の自学自習時間全体としては、各授業に応じた時間(例えば2単位科目の場合、予習2時間・復習2時間/週)を取るよう努めてください。詳しくは教員の指導に従って下さい。     授業明細   回数 学習内容 授業の運営方法 学習課題(予習・復習) 時間:分※     1  Before Programming - How to use PC - How to connect Tello to PC - Flight Practice - How drones work lectures and exercises preparation review  100 100   2  Network Programming (UDP) After understanding the protocols provided by the Tello, learn how to communicate with the drone via UDP socket using the Python's socket module.  lectures and exercises preparation review  100 100   3  Video Processing Programming Using Python's opencv module, display the H.264 video stream sent from the drone on a PC screen. lectures and exercises preparation review  100 100   4  Gamepad Programming Using Python's pygame module, you will learn how to read information (buttons and axes) from a USB gamepad and use it. lectures and exercises preparation review  100 100   5  Waveform Plot Prog",
+  "courseId": "2024:spring:G261-01:0:879",
   "language": "en"
 }

@@ -1,77 +1,60 @@
 {
   "sourceIndex": 648,
   "sourceUrl": "/opsyllabus/kitos0110/648/1",
-  "importedAt": "2026-06-08T09:34:06.338Z",
-  "title": "制御工学入門",
-  "subtitle": "Introduction to Control Engineering",
-  "courseType": "Major ProgramMajor Courses",
-  "credits": "2",
-  "term": "2026年度\n\n                2nd year 2nd semester",
+  "importedAt": "2026-06-09T01:29:25.057Z",
+  "title": "心理実習",
+  "subtitle": "Practical Training in Psychology",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "4",
+  "term": "2024年度\n All year",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "KAWAI Hiroyuki"
+    "OOYA Sumiko",
+    "FUSEJIMA Ayumi",
+    "ISHIKAWA Kensuke"
   ],
   "keywords": [
-    "Complex numbers",
-    "Laplace transforms",
-    "Linear differential equations",
-    "Transfer functions and block diagrams",
-    "Transient response"
+    "Team approach 2.Multi-professional and community collaboration 3.Understanding of professional ethics 4.Understanding of legal obligations"
   ],
-  "educationalGoal": "(1) Review complex numbers for frequency response.\n(2) Learn Laplace transforms for solving linear differential equations.\n(3) Acquire the capability to formulate transfer functions and block diagrams.",
-  "advice": "This is a basic course in control engineering. We will mainly cover the following topics:\n1. Calculation using complex numbers and Laplace transforms.\n2. Solving linear differential equations using inverse Laplace transforms.\n3. Obtaining transfer functions from differential equations and block diagrams.\n4. Transient response analysis using Laplace transforms.\n\nStudents are expected to actively participate in class.\nStudents are expected to complete exercises independently.\nStudents are required to be aware of the instructor's messages in the class and to check for messages/materials on the KIT Inside website before every class because the course schedule may change depending on the class progress.",
-  "books": "",
-  "requiredKnowledge": "Completion of Engineering Mechanics I/II and Electric Circuit I/II.\nBasic knowledge of differential calculus.",
+  "educationalGoal": "In this practical training, students will learn and understand the following issues through observation and other practical training. (a) Team approach to those who need psychological support (b) Multi-professional cooperation and community collaboration (c) Understanding of professional ethics and legal obligations as a licensed psychologist",
+  "advice": "This class consists of off-campus practical training and pre- and post- instruction. Students will learn about the following three main topics through these activities. (a) Team approach to those who need psychological support (b) Multi-professional cooperation and community collaboration (c) Understanding of professional ethics and legal obligations as a licensed psychologist Practical training will be offered throughout the year. The classes are scheduled for various practical training at six facilities. First of all, in the preliminary study, the instructor will instruct the students on how to prepare for the practical training. Students are required to understand and comply with the code of ethics for licensed psychologists and the rules set for practical training at each facility. If students deviate from these rules, they may be suspended from practical training. In addition, students should research and understand the legal status and characteristics of each facility and its role in the community.",
+  "books": "978-4762830365",
+  "requiredKnowledge": "This course is required to obtain the national certification as a licensed psychologist. Students must have completed all courses for licensed psychologists offered by the third year.",
   "activityGoals": [
     {
       "index": "①",
-      "type": "L",
-      "body": "Calculate complex numbers."
+      "type": "K",
+      "body": "Ability to describe the roles of the staffs involved in providing support, based on their practical experience."
     },
     {
       "index": "②",
-      "type": "L",
-      "body": "Use basic Laplace transforms."
+      "type": "K",
+      "body": "Ability to describe the significance of support through multi-professional and community collaboration."
     },
     {
       "index": "③",
-      "type": "L",
-      "body": "Solve linear differential equations with inverse Laplace transforms."
-    },
-    {
-      "index": "④",
-      "type": "L",
-      "body": "Obtain transfer functions from differential equations."
-    },
-    {
-      "index": "⑤",
-      "type": "L",
-      "body": "Obtain transfer functions from block diagrams."
-    },
-    {
-      "index": "⑥",
-      "type": "L",
-      "body": "Obtain impulse response and step response."
+      "type": "K",
+      "body": "Ability to be able to give examples of professional ethics and legal obligations as a licensed psychologist."
     }
   ],
   "evaluationWeights": [
     {
       "label": "総合評価割合",
       "values": [
+        "0",
+        "0",
         "40",
         "40",
+        "0",
+        "0",
         "20",
-        "0",
-        "0",
-        "0",
-        "0",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -81,20 +64,20 @@
     {
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
+        "0",
+        "0",
         "40",
         "40",
+        "0",
+        "0",
         "20",
-        "0",
-        "0",
-        "0",
-        "0",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -104,20 +87,20 @@
     {
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
+        "0",
+        "0",
         "40",
         "40",
+        "0",
+        "0",
         "20",
-        "0",
-        "0",
-        "0",
-        "0",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -138,9 +121,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -148,7 +131,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -161,9 +144,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -184,9 +167,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -195,118 +178,34 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "(1) Perform calculations with complex numbers and Laplace transforms\n(2) Solve linear differential equations by using inverse Laplace transforms\n(3) Obtain transfer functions from differential equations and block diagrams",
-    "standard": "(1) Perform calculations with complex numbers and simple Laplace transforms\n(2) Solve first-order differential equations using inverse Laplace transforms\n(3) Obtain transfer functions from first-order differential equations and simple block diagrams"
+    "ideal": "Explain the knowledge (team approach, multidisciplinary cooperation, community cooperation, etc.) they have learned from textbooks and lectures by applying it to the specific activities of licensed psychologists in each practice facility. Express their own thoughts on how they are expected to support people who need psychological support and the people involved. Explain the actual professional ethics and legal obligations of licensed psychologists through practice.",
+    "standard": "Explain the knowledge (team approach, multidisciplinary cooperation, community cooperation, etc.) they have learned from textbooks and lectures by applying it to the specific activities of licensed psychologists in each practice facility. Explain the actual professional ethics and legal obligations of licensed psychologists through practice."
   },
   "clipProcess": "",
   "lessons": [
     {
-      "index": "1",
-      "content": "Course introduction\nTextbook Chapter 2, ``Basic Mathematics for\nAutomatic Control''\n- 2.1, Complex numbers",
-      "operation": "Lecture (including Q & A)\nand exercises\nSelf-check",
-      "assignments": "Preview: Read the indicated\ntextbook sections\nReview: Understand the\nindicated textbook sections\nUnderstand the course\nobjectives",
-      "minutes": "30\n\n30\n\n30"
+      "index": "1-3",
+      "content": "Course introduction Overview of psychological practice, course requirements, and preparedness for practical training",
+      "operation": "Lecture and practice Group work Discussions Oral presentations",
+      "assignments": "Students should prepare and review the legal status of licensed psychologists, professional ethics, informed consent, team approach, and multi-professional and community collaboration.",
+      "minutes": "120"
     },
     {
-      "index": "2",
-      "content": "Textbook Chapter 2, ``Basic Mathematics for\nAutomatic Control''\n- 2.2, Introduction to Laplace transforms",
-      "operation": "Lecture (including Q & A)\nand exercises\nSelf-check",
-      "assignments": "Preview: Read the indicated\ntextbook sections\nReview: Understand the\nindicated textbook sections",
-      "minutes": "30\n\n60"
+      "index": "4-42",
+      "content": "Practical training at medical institutions and other training facilities. Prior learning: Group work, presentation and discussion on the training facility. Practical training: Participation in the practical training program at the training facility. Post-learning: Summary of practical training and self-evaluation report.",
+      "operation": "Prior learning making of practice notes Post learning",
+      "assignments": "",
+      "minutes": "120 100 120"
     },
     {
-      "index": "3",
-      "content": "Textbook Chapter 2, ``Basic Mathematics for\nAutomatic Control''\n- 2.3, Basic properties of Laplace transforms",
-      "operation": "Lecture (including Q & A)\nand exercises\nSelf-check",
-      "assignments": "Preview: Read the indicated\ntextbook sections\nReview: Understand the\nindicated textbook sections",
-      "minutes": "30\n\n60"
-    },
-    {
-      "index": "4",
-      "content": "Textbook Chapter 2, ``Basic Mathematics for\nAutomatic Control''\n- 2.4, Inverse Laplace transform by partial\nfraction expansion",
-      "operation": "Lecture (including Q & A)\nand exercises\nSelf-check",
-      "assignments": "Preview: Read the indicated\ntextbook sections\nReview: Understand the\nindicated textbook sections",
-      "minutes": "30\n\n60"
-    },
-    {
-      "index": "5",
-      "content": "Textbook Chapter 2, ``Basic Mathematics for\nAutomatic Control''\n- 2.5, Solving differential equations by\nLaplace transform",
-      "operation": "Lecture (including Q & A)\nand exercises\nSelf-check",
-      "assignments": "Preview: Read the indicated\ntextbook sections\nReview: Understand the\nindicated textbook sections",
-      "minutes": "30\n\n60"
-    },
-    {
-      "index": "6",
-      "content": "Exercises",
-      "operation": "Exercises\nSelf-check",
-      "assignments": "Preview the content of classes\n 1-6\nReview of the content of the\nexercises",
-      "minutes": "90\n\n90"
-    },
-    {
-      "index": "7",
-      "content": "Exercises\nMid-semester test",
-      "operation": "Exercises\nTest\nSelf-check",
-      "assignments": "Prepare for the mid-semester\ntest",
-      "minutes": "180"
-    },
-    {
-      "index": "8",
-      "content": "Review of mid-semester test\nSelf-check",
-      "operation": "Lecture (including Q & A)\nand exercises\nSelf-check",
-      "assignments": "Review the mid-semester test",
-      "minutes": "90"
-    },
-    {
-      "index": "9",
-      "content": "Textbook Chapter 3, ``Expression of Automatic\nControl System''\n- 3.1, Transfer functions\n- 3.2, Elements of transfer function",
-      "operation": "Lecture (including Q & A)\nand exercises\nSelf-check",
-      "assignments": "Preview: Read the indicated\ntextbook sections\nReview: Understand the\nindicated textbook sections",
-      "minutes": "30\n\n60"
-    },
-    {
-      "index": "10",
-      "content": "Textbook Chapter 3, ``Expression of Automatic\nControl System''\n- 3.3, Block diagrams",
-      "operation": "Lecture (including Q & A)\nand exercises\nSelf-check",
-      "assignments": "Preview: Read the indicated\ntextbook sections\nReview: Understand the\nindicated textbook sections",
-      "minutes": "30\n\n60"
-    },
-    {
-      "index": "11",
-      "content": "Textbook Chapter 3, ``Expression of Automatic\nControl System''\n- 3.4, Block diagrams for basic automatic\ncontrol systems",
-      "operation": "Lecture (including Q & A)\nand exercises\nSelf-check",
-      "assignments": "Preview: Read the indicated\ntextbook sections\nReview: Understand the\nindicated textbook sections",
-      "minutes": "30\n\n60"
-    },
-    {
-      "index": "12",
-      "content": "Textbook Chapter 4, ``Transient Response''\n-4.1, Impulse response\n-4.2, Step response",
-      "operation": "Lecture (including Q & A)\nand exercises\nSelf-check",
-      "assignments": "Preview: Read the indicated\ntextbook sections\nReview: Understand the\nindicated textbook sections",
-      "minutes": "30\n\n60"
-    },
-    {
-      "index": "13",
-      "content": "Exercises",
-      "operation": "Exercises\nSelf-check",
-      "assignments": "Review the content of classes\n8-12\nReview of the content of the\nexercises",
-      "minutes": "90\n\n90"
-    },
-    {
-      "index": "14",
-      "content": "Exercises\nSemester final examination",
-      "operation": "Exercises\nExamination\nSelf-check",
-      "assignments": "Prepare for the semester final\n examination",
-      "minutes": "180"
-    },
-    {
-      "index": "15",
-      "content": "Review of semester final examination\nSelf-check",
-      "operation": "Lecture (including Q & A)\nand exercises\nSelf-check",
-      "assignments": "Review the semester final\nexamination",
-      "minutes": "90"
+      "index": "43-45",
+      "content": "Review of the practice training",
+      "operation": "Lecture Group work Discussions Oral presentations",
+      "assignments": "Review of the practice training",
+      "minutes": "120"
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　C217-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Robotics\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                制御工学入門\n                Introduction to Control Engineering\n\n              2\n              C217-01\n\n                2026年度\n\n                2nd year 2nd semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  KAWAI Hiroyuki\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Complex numbers\n2.Laplace transforms\n3.Linear differential equations\n4.Transfer functions and block diagrams\n5.Transient response\n\n              (1) Review complex numbers for frequency response.\n(2) Learn Laplace transforms for solving linear differential equations.\n(3) Acquire the capability to formulate transfer functions and block diagrams.\n\n              授業の概要および学習上の助言\n\n              This is a basic course in control engineering. We will mainly cover the following topics:\n1. Calculation using complex numbers and Laplace transforms.\n2. Solving linear differential equations using inverse Laplace transforms.\n3. Obtaining transfer functions from differential equations and block diagrams.\n4. Transient response analysis using Laplace transforms.\n\nStudents are expected to actively participate in class.\nStudents are expected to complete exercises independently.\nStudents are required to be aware of the instructor's messages in the class and to check for messages/materials on the KIT Inside website before every class because the course schedule may change depending on the class progress.\n\n              教科書および参考書・リザーブドブック\n\n              履修に必要な予備知識や技能\n\n              Completion of Engineering Mechanics I/II and Electric Circuit I/II.\nBasic knowledge of differential calculus.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                L\n                Calculate complex numbers.\n\n                ②\n                L\n                Use basic Laplace transforms.\n\n                ③\n                L\n                Solve linear differential equations with inverse Laplace transforms.\n\n                ④\n                L\n                Obtain transfer functions from differential equations.\n\n                ⑤\n                L\n                Obtain transfer functions from block diagrams.\n\n                ⑥\n                L\n                Obtain impulse response and step response.\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                40\n\n                40\n\n                20\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                40\n\n                40\n\n                20\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                40\n\n                40\n\n                20\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  コラボレーションとリーダーシップ\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  発表・表現・伝達する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n    ",
-  "courseId": "2026:fall:C217-01:0:648",
+  "rawText": "金沢工業大学 学習支援計画書 F337-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Psychological Science(2018〜)\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n心理実習\nPractical Training in Psychology  4 F337-01  2024年度\n All year  修学規程第4条を参照\n    担当教員名\n OOYA Sumiko, FUSEJIMA Ayumi, ISHIKAWA Kensuke\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Team approach 2.Multi-professional and community collaboration 3.Understanding of professional ethics 4.Understanding of legal obligations  In this practical training, students will learn and understand the following issues through observation and other practical training. (a) Team approach to those who need psychological support (b) Multi-professional cooperation and community collaboration (c) Understanding of professional ethics and legal obligations as a licensed psychologist\n    授業の概要および学習上の助言   This class consists of off-campus practical training and pre- and post- instruction. Students will learn about the following three main topics through these activities. (a) Team approach to those who need psychological support (b) Multi-professional cooperation and community collaboration (c) Understanding of professional ethics and legal obligations as a licensed psychologist Practical training will be offered throughout the year. The classes are scheduled for various practical training at six facilities. First of all, in the preliminary study, the instructor will instruct the students on how to prepare for the practical training. Students are required to understand and comply with the code of ethics for licensed psychologists and the rules set for practical training at each facility. If students deviate from these rules, they may be suspended from practical training. In addition, students should research and understand the legal status and characteristics of each facility and its role in the community.\n    教科書および参考書・リザーブドブック   978-4762830365\n    履修に必要な予備知識や技能   This course is required to obtain the national certification as a licensed psychologist. Students must have completed all courses for licensed psychologists offered by the third year.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① K Ability to describe the roles of the staffs involved in providing support, based on their practical experience.   ② K Ability to describe the significance of support through multi-professional and community collaboration.   ③ K Ability to be able to give examples of professional ethics and legal obligations as a licensed psychologist.   ④     ⑤     ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 0 0 40 40 0 0 20 100     指標と評価割合 総合評価割合 0 0 40 40 0 0 20 100   総合力指標 知識を取り込む力 0 0 40 40 0 0 20 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ①      ②     ③     ④     ⑤     ⑥     クイズ\n小テスト ①      ②     ③     ④     ⑤     ⑥     レポート ① レ Submit reports summarizing the experience and results of the practical training.   ② レ   ③ レ   ④     ⑤     ⑥     成果発表\n(口頭・実技) ① レ Discussions and oral presentations the findings in their pre practical training. Discussions and oral presentations the findings in their post practical training.    ② レ   ③ レ   ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ① レ Students will be comprehensively evaluated for their active participation in each of the pre-practical training, practical training, and post-practical training processes.   ② レ   ③ レ   ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     Explain the knowledge (team approach, multidisciplinary cooperation, community cooperation, etc.) they have learned from textbooks and lectures by applying it to the specific activities of licensed psychologists in each practice facility. Express their own thoughts on how they are expected to support people who nee",
+  "courseId": "2024:fall:F335-01:0:648",
   "language": "en"
 }

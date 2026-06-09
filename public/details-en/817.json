@@ -1,72 +1,64 @@
 {
   "sourceIndex": 817,
   "sourceUrl": "/opsyllabus/kitos0110/817/1",
-  "importedAt": "2026-06-08T09:34:09.999Z",
-  "title": "流れ学Ⅰ",
-  "subtitle": "Fundamentals of Fluid Mechanics I",
-  "courseType": "Major ProgramMajor Courses",
-  "credits": "2",
-  "term": "2026年度\n\n                2nd year 1st semester",
+  "importedAt": "2026-06-09T01:29:26.710Z",
+  "title": "応用バイオ専門実験・演習B",
+  "subtitle": "Applied Bioscience Major Lab/Exercises B",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "3",
+  "term": "2024年度\n 3rd year 1st semester\n3rd year 2nd semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "MORIYOSHI Takahiro"
+    "SANO Motoaki",
+    "NOMURA Kazuki"
   ],
   "keywords": [
-    "Fluid properties",
-    "Fluid statics",
-    "Basic fluid mechanics",
-    "Bernoulli equation",
-    "Local collaboration"
+    "DNA extraction 2.PCR 3.Enzyme 4.Gel electrophoresis 5.Gene data analysis"
   ],
-  "educationalGoal": "Students will:\n(1) learn the fundamentals of fluid dynamics and aerodynamics\n(2) learn the fluid properties of air because aircraft fly in the air\n(3) learn the measurement principles of fluid devices\n(4) learn fundamental equations and their application",
-  "advice": "This is a fundamental fluid dynamics and aerodynamics course. Students will learn fluid properties, fluid statics, inviscid flow, and incompressible flow. We will cover the following materials:\n\n1. Fluid properties and flow phenomena: units and dimensions, fluid properties, fluid statics\n2. Forces and moments on a body: pressure, hydrostatic pressure, manometer, buoyancy\n3. Fluid and body dynamics: fundamentals of fluids, continuity equation, Bernoulli equation\n4. Laws of similarity: flow similarity, dimensionless numbers (Reynolds, Mach numbers)\n\nStudents should be aware of the teacher's instructions in the class, because the schedules of quizzes, tests and reports may change as the class progresses.\nStudents are expected to solve the exercises by themselves to understand the course.\nStudents are also expected to review their notebooks for better understanding.\nStudents are expected to actively participate in the presentation and discussion.",
-  "books": "N/A",
-  "requiredKnowledge": "Acquisition of Industrial Mechanics I and II.\nSufficient skill in mathematics and physics (dynamics)",
+  "educationalGoal": "Students will learn the skills related to experimental operations, instrument handling, instrumental analysis, data analysis, and report preparation in bioscience. Students will acquire the ability to qualitatively and quantitatively evaluate the results obtained from the experiments, and to think logically. Through experiments and exercises practicing theories and methods, students will acquire comprehension and application ability based on a basic foundation.",
+  "advice": "Students will carry out experiments and exercises based on the topics in bioscience. If components are difficult to understand in experiments and exercises, students will be asked to work on the topic before the next class through research and asking the instructor and other classmates questions. Basics: Experimental guidance, safety training, exam Genetic experiments: DNA Extraction, Polymerase Chain Reaction (PCR), Restriction enzyme treatment, Transformation, Agarose gel electrophoresis Protein research: Protein quantification assay, SDS-PAGE Enzyme research: Enzyme activity, Optimum pH, Optimum temperature",
+  "books": "Textbooks:Unspecified Reference books:Unspecified Reserved books:Unspecified",
+  "requiredKnowledge": "Knowledge of the fundamentals of bioscience, such as molecular cloning and biochemistry.",
   "activityGoals": [
     {
       "index": "①",
-      "type": "D,K,N",
-      "body": "Be able to express fluid properties, particularly density, viscosity, pressure etc."
+      "type": "J,O",
+      "body": "Handle instruments and equipment safely and explain the outline of experimental arrangements."
     },
     {
       "index": "②",
-      "type": "D,K,N",
-      "body": "Be able to calculate forces and moments acting on a body due to pressure"
+      "type": "O",
+      "body": "Read instructions that use technical terms and carry out your own experiments."
     },
     {
       "index": "③",
-      "type": "D,K,N",
-      "body": "Be able to calculate the total pressure applied to an object"
+      "type": "K,O",
+      "body": "Understand the theoretical background and logically examine the experimental results."
     },
     {
       "index": "④",
-      "type": "D,K,N",
-      "body": "Be able to explain Mach and Reynolds numbers"
-    },
-    {
-      "index": "⑤",
-      "type": "D,K,N,O",
-      "body": "Be able to calculate fundamental fluid computation using continuum and Bernoulli equations"
+      "type": "N,O",
+      "body": "Prepare a report on experiments."
     }
   ],
   "evaluationWeights": [
     {
       "label": "総合評価割合",
       "values": [
-        "40",
-        "40",
-        "15",
+        "0",
+        "0",
+        "50",
         "0",
         "0",
         "0",
-        "5",
+        "50",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -76,20 +68,20 @@
     {
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
-        "40",
-        "40",
-        "15",
+        "0",
+        "0",
+        "50",
         "0",
         "0",
         "0",
-        "5",
+        "50",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -99,20 +91,20 @@
     {
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
-        "40",
-        "40",
-        "15",
+        "0",
+        "0",
+        "50",
         "0",
         "0",
         "0",
-        "5",
+        "50",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -133,9 +125,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -143,7 +135,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -156,9 +148,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -179,9 +171,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -190,118 +182,118 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "(1) Compute hydrostatic pressure on various bodies, and also compute forces and moments acting on a body by integration\n(2) Derive continuum and Bernoulli equations, and apply them to solve problems",
-    "standard": "(1) Compute hydrostatic pressure on simple bodies, and also compute forces and moments acting on a body\n(2) Apply continuum and Bernoulli equations to solve problems"
+    "ideal": "Ability to use experimental instruments safely and accurately. Understand and use the measurement principles of the analytical instruments. Ability to devise your own experimental plan according to the experimental instructions and carry out the experiments. Prepare reports logically and on time.",
+    "standard": "Ability to use experimental apparatus safely. Ability to use analytical instruments. Ability to carry out the experiments according to the experimental instructions. Prepare reports on time."
   },
   "clipProcess": "",
   "lessons": [
     {
       "index": "1",
-      "content": "Introduction to the fundamentals of\nfluid dynamics\nFluid properties, units and dimensions",
-      "operation": "Lecture and practice\nSelf-check",
-      "assignments": "Understand the role of this\ncourse in the curriculum\nUnderstand the schedule and\ngoals of this course",
-      "minutes": "30"
+      "content": "Overall guidance and safety training",
+      "operation": "Lecture, Exercise and Experiments",
+      "assignments": "Read the experimental instructions.",
+      "minutes": "60"
     },
     {
       "index": "2",
-      "content": "Fluid properties and classification",
-      "operation": "Lecture and practice\nSelf-check",
-      "assignments": "Prepare for the lecture and\npractice\nReview the last class",
-      "minutes": "90"
+      "content": "PCR",
+      "operation": "Lecture, Exercise and Experiments",
+      "assignments": "Read the experimental instructions. Prepare an experiment report.",
+      "minutes": "30 90"
     },
     {
       "index": "3",
-      "content": "Atmospheric pressure and hydrostatic pressure\nHydrostatic pressure and its integration\n(total pressure) and relatively stationary\nstate",
-      "operation": "Lecture and practice\nSelf-check",
-      "assignments": "Prepare for the lecture and\npractice\nReview the last class",
-      "minutes": "90"
+      "content": "PCR Clean-up",
+      "operation": "Lecture, Exercise and Experiments",
+      "assignments": "Read the experimental instructions. Prepare an experiment report.",
+      "minutes": "30 90"
     },
     {
       "index": "4",
-      "content": "Principle and structure of a flow measurement\ndevice such as a manometer",
-      "operation": "Lecture and practice\nSelf-check",
-      "assignments": "Prepare for the lecture and\npractice\nReview the last class",
-      "minutes": "90"
+      "content": "Transformation",
+      "operation": "Lecture, Exercise and Experiments",
+      "assignments": "Read the experimental instructions. Prepare an experiment report.",
+      "minutes": "30 90"
     },
     {
       "index": "5",
-      "content": "Buoyancy and stability (stable bodies)",
-      "operation": "Lecture and practice\nSelf-check",
-      "assignments": "Prepare for the lecture and\npractice\nReview the last class",
-      "minutes": "90"
+      "content": "Plasmid Purification",
+      "operation": "Lecture, Exercise and Experiments",
+      "assignments": "Read the experimental instructions. Prepare an experiment report.",
+      "minutes": "30 90"
     },
     {
       "index": "6",
-      "content": "Introduction to fluids: steady and unsteady\nflows, one- to three-dimensional flows,\nvortexes",
-      "operation": "Lecture and practice\nSelf-check",
-      "assignments": "Prepare for the lecture and\npractice\nReview the last class",
-      "minutes": "90"
+      "content": "Restriction Enzyme Digestion",
+      "operation": "Lecture, Exercise and Experiments",
+      "assignments": "Prepare a presentation and experiment report.",
+      "minutes": "150"
     },
     {
       "index": "7",
-      "content": "Application of continuum and Bernoulli\nequations (pitot tube, Venturi tube,\nTorricelli tube)",
-      "operation": "Lecture and practice\nSelf-check",
-      "assignments": "Prepare for the lecture and\npractice\nReview the last class",
+      "content": "Gene data analysis (BLAST analysis)",
+      "operation": "Data analysis",
+      "assignments": "Read the experimental instructions.",
       "minutes": "90"
     },
     {
       "index": "8",
-      "content": "Quiz 1",
-      "operation": "Quiz\nSelf-check",
-      "assignments": "Prepare for the quiz and\nlecture\nReview the last class",
-      "minutes": "90"
+      "content": "Protein quantification assay",
+      "operation": "Lecture, Exercise and Experiments",
+      "assignments": "Read the experimental instructions. Prepare an experiment report.",
+      "minutes": "30 90"
     },
     {
       "index": "9",
-      "content": "Application of continuum and Bernoulli\nequations (pitot tube, Venturi tube,\nTorricelli tube)",
-      "operation": "Lecture and practice\nSelf-check",
-      "assignments": "Prepare for the lecture and\npractice\nReview the last class",
-      "minutes": "90"
+      "content": "SDS-PAGE",
+      "operation": "Lecture, Exercise and Experiments",
+      "assignments": "Read the experimental instructions. Prepare an experiment report.",
+      "minutes": "30 90"
     },
     {
       "index": "10",
-      "content": "Non-dimensional parameters (flow similarity):\nMach and Reynolds numbers",
-      "operation": "Lecture and practice\nSelf-check",
-      "assignments": "Prepare for the lecture and\npractice\nReview the last class",
-      "minutes": "90"
+      "content": "Measurement of enzyme reaction rate (1)",
+      "operation": "Lecture, Exercise and Experiments",
+      "assignments": "Read the experimental instructions. Prepare an experiment report.",
+      "minutes": "30 90"
     },
     {
       "index": "11",
-      "content": "Practice 1",
-      "operation": "Practice\nSelf-check",
-      "assignments": "Prepare for the practice",
-      "minutes": "90"
+      "content": "Measurement of enzyme reaction rate (2)",
+      "operation": "Lecture, Exercise and Experiments",
+      "assignments": "Prepare a presentation and experiment report.",
+      "minutes": "150"
     },
     {
       "index": "12",
-      "content": "Quiz 2",
-      "operation": "Quiz\nSelf-check",
-      "assignments": "Prepare for the quiz",
-      "minutes": "120"
+      "content": "Presentation and Report",
+      "operation": "Presentation and answers to questions",
+      "assignments": "Read the experimental instructions. Prepare an experiment report.",
+      "minutes": "30 90"
     },
     {
       "index": "13",
-      "content": "Practice 2",
-      "operation": "Practice\nSelf-check",
-      "assignments": "Prepare for the practice",
-      "minutes": "90"
+      "content": "DNA extraction from human hair",
+      "operation": "Lecture, Exercise and Experiments",
+      "assignments": "Read the experimental instructions. Prepare an experiment report",
+      "minutes": "30 90"
     },
     {
       "index": "14",
-      "content": "Exam\n\nReview",
-      "operation": "Exam and review\nSelf-check",
-      "assignments": "Prepare for the Exam",
-      "minutes": "180"
+      "content": "DNA sequence",
+      "operation": "Lecture, Exercise and Experiments",
+      "assignments": "Read the experimental instructions. Prepare an experiment report",
+      "minutes": "30 90"
     },
     {
       "index": "15",
-      "content": "Practice 3\n\nReview",
-      "operation": "Practice\nPresentation & Discussion\nSelf-evaluation",
-      "assignments": "Prepare for the practice",
+      "content": "Gene data analysis",
+      "operation": "Lecture and Exercise",
+      "assignments": "Prepare an experiment report",
       "minutes": "90"
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　K213-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Aeronautics and Astronautics\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                流れ学Ⅰ\n                Fundamentals of Fluid Mechanics I\n\n              2\n              K213-01\n\n                2026年度\n\n                2nd year 1st semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  MORIYOSHI Takahiro\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Fluid properties\n2.Fluid statics\n3.Basic fluid mechanics\n4.Bernoulli equation\n5.Local collaboration\n\n              Students will:\n(1) learn the fundamentals of fluid dynamics and aerodynamics\n(2) learn the fluid properties of air because aircraft fly in the air\n(3) learn the measurement principles of fluid devices\n(4) learn fundamental equations and their application\n\n              授業の概要および学習上の助言\n\n              This is a fundamental fluid dynamics and aerodynamics course. Students will learn fluid properties, fluid statics, inviscid flow, and incompressible flow. We will cover the following materials:\n\n1. Fluid properties and flow phenomena: units and dimensions, fluid properties, fluid statics\n2. Forces and moments on a body: pressure, hydrostatic pressure, manometer, buoyancy\n3. Fluid and body dynamics: fundamentals of fluids, continuity equation, Bernoulli equation\n4. Laws of similarity: flow similarity, dimensionless numbers (Reynolds, Mach numbers)\n\nStudents should be aware of the teacher's instructions in the class, because the schedules of quizzes, tests and reports may change as the class progresses.\nStudents are expected to solve the exercises by themselves to understand the course.\nStudents are also expected to review their notebooks for better understanding.\nStudents are expected to actively participate in the presentation and discussion.\n\n              教科書および参考書・リザーブドブック\n\n              N/A\n\n              履修に必要な予備知識や技能\n\n              Acquisition of Industrial Mechanics I and II.\nSufficient skill in mathematics and physics (dynamics)\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                D,K,N\n                Be able to express fluid properties, particularly density, viscosity, pressure etc.\n\n                ②\n                D,K,N\n                Be able to calculate forces and moments acting on a body due to pressure\n\n                ③\n                D,K,N\n                Be able to calculate the total pressure applied to an object\n\n                ④\n                D,K,N\n                Be able to explain Mach and Reynolds numbers\n\n                ⑤\n                D,K,N,O\n                Be able to calculate fundamental fluid computation using continuum and Bernoulli equations\n\n                ⑥\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                40\n\n                40\n\n                15\n\n                0\n\n                0\n\n                0\n\n                5\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                40\n\n                40\n\n                15\n\n                0\n\n                0\n\n                0\n\n                5\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                40\n\n                40\n\n                15\n\n                0\n\n                0\n\n                0\n\n                5\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    ",
-  "courseId": "2026:spring:K213-01:0:817",
+  "rawText": "金沢工業大学 学習支援計画書 B133-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Applied Bioscience\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n応用バイオ専門実験・演習B\nApplied Bioscience Major Lab/Exercises B  3 B133-01  2024年度\n 3rd year 1st semester\n3rd year 2nd semester  修学規程第4条を参照\n    担当教員名\n SANO Motoaki, NOMURA Kazuki\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.DNA extraction 2.PCR 3.Enzyme 4.Gel electrophoresis 5.Gene data analysis  Students will learn the skills related to experimental operations, instrument handling, instrumental analysis, data analysis, and report preparation in bioscience. Students will acquire the ability to qualitatively and quantitatively evaluate the results obtained from the experiments, and to think logically. Through experiments and exercises practicing theories and methods, students will acquire comprehension and application ability based on a basic foundation.\n    授業の概要および学習上の助言   Students will carry out experiments and exercises based on the topics in bioscience. If components are difficult to understand in experiments and exercises, students will be asked to work on the topic before the next class through research and asking the instructor and other classmates questions. Basics: Experimental guidance, safety training, exam Genetic experiments: DNA Extraction, Polymerase Chain Reaction (PCR), Restriction enzyme treatment, Transformation, Agarose gel electrophoresis Protein research: Protein quantification assay, SDS-PAGE Enzyme research: Enzyme activity, Optimum pH, Optimum temperature\n    教科書および参考書・リザーブドブック   Textbooks:Unspecified Reference books:Unspecified Reserved books:Unspecified\n    履修に必要な予備知識や技能   Knowledge of the fundamentals of bioscience, such as molecular cloning and biochemistry.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① J,O Handle instruments and equipment safely and explain the outline of experimental arrangements.   ② O Read instructions that use technical terms and carry out your own experiments.   ③ K,O Understand the theoretical background and logically examine the experimental results.   ④ N,O Prepare a report on experiments.   ⑤     ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 0 0 50 0 0 0 50 100     指標と評価割合 総合評価割合 0 0 50 0 0 0 50 100   総合力指標 知識を取り込む力 0 0 50 0 0 0 50 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ①      ②     ③     ④     ⑤     ⑥     クイズ\n小テスト ①      ②     ③     ④     ⑤     ⑥     レポート ① レ Prepare an experimental report in the prescribed format individually for each theme and submit it by the assigned deadline. In the experimental report, describe the contents of the experiment, results, discussion, and include a reference list.    ② レ   ③ レ   ④ レ   ⑤     ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ① レ Evaluate the student's ability to understand the methods and results of the experiments performed and to process the obtained data appropriately. Attendance and attitude during the experiments (achievement degree of preliminary task) will also be evaluated.    ② レ   ③ レ   ④ レ   ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     Ability to use experimental instruments safely and accurately. Understand and use the measurement principles of the analytical instruments. Ability to devise your own experimental plan according to the experimental instructions and carry out the experiments. Prepare reports logically and on time.  Ability to use experimental apparatus safely. Ability to use analytical instruments. Ability to carry out the experiments according to the experimental instructions. Prepare reports on time.\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受け",
+  "courseId": "2024:spring:B133-01:0:817",
   "language": "en"
 }

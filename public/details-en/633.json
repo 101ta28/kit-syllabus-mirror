@@ -1,72 +1,68 @@
 {
   "sourceIndex": 633,
   "sourceUrl": "/opsyllabus/kitos0110/633/1",
-  "importedAt": "2026-06-08T09:34:06.026Z",
-  "title": "コンピュータアーキテクチャ基礎",
-  "subtitle": "Fundamentals of Computer Architecture",
-  "courseType": "Major ProgramMajor Courses",
+  "importedAt": "2026-06-09T01:29:24.924Z",
+  "title": "学習・言語心理学",
+  "subtitle": "Psychology of Learning and Language",
+  "courseType": "Major Program\nMajor Courses",
   "credits": "2",
-  "term": "2026年度\n\n                2nd year 1st semester",
+  "term": "2024年度\n 3rd year 1st semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "SANO Shoji"
+    "TANAKA Yoshifumi"
   ],
   "keywords": [
-    "Von Neumann computer",
-    "Instruction set architecture",
-    "Pipeline processing",
-    "Memory architecture",
-    "Local Cooperation"
+    "Respondent conditioning 2.Operant conditioning 3.Situated cognition 4.Language acquisition 5.Phonetics-syntactics-pragmatics"
   ],
-  "educationalGoal": "Students will:\n(1) Learn data processing using a computer.\n(2) Learn computer architecture that define assignments between hardware and software for data processing.\n(3) Learn the basic structure and operating principles of a computer.",
-  "advice": "This is the basic course on computer architecture. We will cover the following materials:\n\n1.\tData flow and control flow\n2.\tInstruction set architecture\n3.\tPipeline processing\n4.\tCache and virtual memory\n5.\tEmbedded processor\n\nStudents are required to calculate binary numbers.\nStudents are expected to understand the meaning of terms and characteristics.\nStudents are expected to understand the actions of logical circuits using a logic circuit simulator.\nStudents are expected to review the contents of each course.",
-  "books": "Textbooks: Computer Architecture (in Japanese)\nReference books: Introduction to Logic Circuits (in Japanese)\nReserved books: None",
-  "requiredKnowledge": "Knowledge of binary arithmetic and basic logic gates is required.",
+  "educationalGoal": "In this course, we will study high-level cognitive processes such as language and learning that support human intellectual activities. Beginning with behavioral learning theory, we will explain the model of knowledge acquisition in cognitive psychology. In addition, we will explain the characteristics and acquisition process of language as a tool for communication and thinking. Based on this knowledge, the goal is for students to be able to improve their own daily activities and apply them to the real world.",
+  "advice": "We use language, learn various things from past experiences, and change our behavior to live a smooth life. Language also distinguishes humans from other animals and plays a vital role in various cognitive activities. In this course, we aim to teach specialized knowledge on learning and language that supports our higher level cognitive activities, based on what was learned in previous courses. Language and learning are associated with various interesting phenomena in our daily lives. I hope the lessons learned in this course will be used to understand the various phenomena experienced in daily life. Classes will be centered on lectures, but exercises will be introduced as needed to aid understanding.",
+  "books": "Reference books are indicated in each topic.",
+  "requiredKnowledge": "Fully understand basic information on learning, cognition and language learned from previous courses. Be sure to fully understand the basic operations of a PC, as it may be necessary to perform exercises using a PC.",
   "activityGoals": [
     {
       "index": "①",
-      "type": "I,M",
-      "body": "Be able to add and subtract values in a computer system using column addition."
+      "type": "J",
+      "body": "Ability to understand various types of learning."
     },
     {
       "index": "②",
-      "type": "I,M,N",
-      "body": "Be able to show the internal structure of a CPU and explain the calculation process."
+      "type": "J",
+      "body": "Ability to understand the theories of respondent conditioning and operant conditioning."
     },
     {
       "index": "③",
-      "type": "I,M,N",
-      "body": "Be able to explain the structure of an instruction word in a computer system and addressing mode."
+      "type": "J",
+      "body": "Ability to understand the role of social context in learning and language acquisition."
     },
     {
       "index": "④",
-      "type": "I,M,N",
-      "body": "Be able to explain memory hierarchy with some examples."
+      "type": "J",
+      "body": "Ability to understand the characteristics of language acquisition different from learning in general."
     },
     {
       "index": "⑤",
-      "type": "I,M,N",
-      "body": "Be able to explain the characteristic of embedded processor with some examples."
+      "type": "J",
+      "body": "Ability to understand the role of language in learning, thinking, and cognition."
     }
   ],
   "evaluationWeights": [
     {
       "label": "総合評価割合",
       "values": [
-        "30",
-        "30",
         "40",
+        "30",
+        "15",
         "0",
         "0",
         "0",
-        "0",
+        "15",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -76,20 +72,20 @@
     {
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
-        "30",
-        "30",
         "40",
+        "30",
+        "15",
         "0",
         "0",
         "0",
-        "0",
+        "15",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -99,20 +95,20 @@
     {
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
-        "30",
-        "30",
         "40",
+        "30",
+        "15",
         "0",
         "0",
         "0",
-        "0",
+        "15",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -133,9 +129,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -143,7 +139,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -156,9 +152,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -179,9 +175,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -190,118 +186,118 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "(1) Be able to understand the basic structure of a computer and thoroughly explain the calculation process.\n(2) Be able to fully understand the instruction set architecture, addressing mode, control method, memory hierarchy, embedded processor, and explain them with some examples.",
-    "standard": "(1) Be able to understand the basic structure of a computer and thoroughly explain the calculation process.\n(2) Be able to understand the instruction set architecture, addressing mode, control method, memory hierarchy, embedded processor, and explain them with some examples."
+    "ideal": "Ability to understand the types of learning and apply the knowledge to explain various phenomena in daily life. Ability to understand and explain the difference between respondent conditioning and operant conditioning. Ability to understand the role of social situations in learning. Ability to understand and explain the characteristics of human language. Ability to understand and explain the language acquisition process. Ability to understand these findings and apply them to explainf various phenomena experienced in daily life.",
+    "standard": "Ability to understand the different types of human learning. Ability to understand the differences between respondent and operant conditioning in behavioral learning theory. Ability to understand the role of social situations in learning. Ability to understand the characteristics of human language. Ability to understand the language acquisition process. Based on these findings, explain various phenomena experienced in daily life."
   },
   "clipProcess": "",
   "lessons": [
     {
       "index": "1",
-      "content": "Course introduction, review of Logic Circuits",
-      "operation": "Lecture and practice",
-      "assignments": "Review: important matters of\nthe class, prior classes\nPreparation: the logic\ncircuit simulator",
-      "minutes": "130"
+      "content": "Course introduction Review basic knowledge on learning and language",
+      "operation": "Lecture, reflection",
+      "assignments": "Review related topics learned in previous classes",
+      "minutes": "120"
     },
     {
       "index": "2",
-      "content": "Data flow and control flow:\n- Main memory unit",
-      "operation": "Lecture and practice",
-      "assignments": "Review: important matters of\nthe class\nPreparation: contents of the\nnext class",
-      "minutes": "130"
+      "content": "Learning Theory and concepts in classical conditioning",
+      "operation": "Lecture, reflection",
+      "assignments": "Review: List and analyze phenomena in everyday life that are thought to involve respondent conditioning.",
+      "minutes": "120"
     },
     {
       "index": "3",
-      "content": "Data flow and control flow\n- Instruction\n- Decoder\n- Sequencer",
-      "operation": "Lecture and practice",
-      "assignments": "Review: important matters of\nthe class\nPreparation: contents of the\nnext class",
-      "minutes": "130"
+      "content": "Learning Operant conditioning (1) Basic theory and concepts",
+      "operation": "Lecture, reflection",
+      "assignments": "Review: Understand the basic concept of operant conditioning and try to explain the phenomena in everyday life.",
+      "minutes": "120"
     },
     {
       "index": "4",
-      "content": "Instruction set architecture\n- Instruction format, instruction set\n- Addressing, subroutine\n- CISC and RISC",
-      "operation": "Lecture and practice",
-      "assignments": "Review: important matters of\nthe class\nPreparation: contents of the\nnext class",
-      "minutes": "130"
+      "content": "Learning Operant conditioning (2) Application",
+      "operation": "Lecture, reflection",
+      "assignments": "Review: Think about the application of operant conditioning to various areas.",
+      "minutes": "120"
     },
     {
       "index": "5",
-      "content": "Pipeline processing\n - Instruction pipeline\n - Pipeline hazard\n - Solution of pipeline hazard",
-      "operation": "Lecture and practice",
-      "assignments": "Review: important matters of\nthe class, previous classes,\npractice",
+      "content": "Learning Learning theory beyond behaviorism social learning, observational learning",
+      "operation": "Lecture, reflection",
+      "assignments": "Review: List and analyze phenomena in everyday life that are thought to involve social learning and observational learning.",
       "minutes": "120"
     },
     {
       "index": "6",
-      "content": "Integrated learning 1\n - Instruction set",
-      "operation": "Lecture and practice",
-      "assignments": "Preparation: practice\nassignment",
-      "minutes": "120"
+      "content": "Learning Learning in social context Situated cognition, expertise",
+      "operation": "Lecture, reflection",
+      "assignments": "Review: Find exmaples of learning in social context, and analyze them based on the concept of situated cognition. Prepare for the midterm test.",
+      "minutes": "180"
     },
     {
       "index": "7",
-      "content": "Integrated learning 1\n - Simple CPU",
-      "operation": "Lecture and practice",
-      "assignments": "Review: important matters of\nthe class\nPreparation: contents of the\nnext class",
-      "minutes": "130"
+      "content": "Midterm test on Learning Language Four research areas of language (phonetics, vocabulary, syntactics, pragmatics)",
+      "operation": "Lecture, reflection",
+      "assignments": "Review: Find and analyze examples of everyday language problems applying each of the four areas",
+      "minutes": "120"
     },
     {
       "index": "8",
-      "content": "Cache and virtual memory\n- Storage hierarchy\n- Cache memory",
-      "operation": "Short test\nLecture and practice\nSelf-reflection",
-      "assignments": "Review: important matters of\nthe class\nPreparation: contents of the\nnext class",
-      "minutes": "130"
+      "content": "Language Phonetics: characteristics of speech sound, utterance, speech perception",
+      "operation": "Lecture, exercise, reflection",
+      "assignments": "Review: Analyze the characteristics of the sounds of speech",
+      "minutes": "120"
     },
     {
       "index": "9",
-      "content": "Cache and virtual memory\n- Virtual memory\n- Memory access mechanism",
-      "operation": "Lecture and practice",
-      "assignments": "Review: important matters of\nthe class\nPreparation: embedded system",
-      "minutes": "130"
+      "content": "Language Acquisition of vocabulary",
+      "operation": "Lecture, reflection",
+      "assignments": "Review: Find cases of the vocabulary acquisition process in your own experiences or in familiar children, and analyze them",
+      "minutes": "120"
     },
     {
       "index": "10",
-      "content": "Embedded processor 1\n - Embedded system\n - Embedded processor",
-      "operation": "Lecture and practice",
-      "assignments": "Review: important matters of\nthe class\nPreparation: embedded\nprocessor",
-      "minutes": "130"
+      "content": "Language Syntactics and development of grammatical skill",
+      "operation": "Lecture, reflection",
+      "assignments": "Review: Find cases of the grammatical skill acquisition process in your own experiences or in children you know, and analyze them",
+      "minutes": "120"
     },
     {
       "index": "11",
-      "content": "Embedded processor 2\n - I/O ports",
-      "operation": "Lecture and practice",
-      "assignments": "Review: important matters of\nthe previous classes",
+      "content": "Language Pragmatics",
+      "operation": "Lecture, reflection",
+      "assignments": "Review: Examine pragmatic issues in the experience of using language in everyday life.",
       "minutes": "120"
     },
     {
       "index": "12",
-      "content": "Integrated learning 2\n - Cache memory, Virtual memory, Embedded\nprocessor",
-      "operation": "Lecture and practice",
-      "assignments": "Review: contents of the class",
+      "content": "Language Thinking and language",
+      "operation": "Lecture, reflection",
+      "assignments": "Review: Looking back on your learning experience, examine the role of language in thinking and learning.",
       "minutes": "120"
     },
     {
       "index": "13",
-      "content": "Integrated learning 2\n - Cache memory, Virtual memory, Embedded\nprocessor",
-      "operation": "Lecture and practice",
-      "assignments": "Review: contents of the class\nPreparation: practice\nassignment",
-      "minutes": "130"
+      "content": "Language Biological base of language and disorder",
+      "operation": "Lecture, reflection",
+      "assignments": "Review: Understand the biological basis and disabilities of language while correlating them with the knowledge of brain function learned so far. Prepare for the final exam.",
+      "minutes": "180"
     },
     {
       "index": "14",
-      "content": "Review of the class\nTest",
-      "operation": "Test\nSelf-reflection",
-      "assignments": "Review: survey of interesting\nthings and other activities",
+      "content": "Review of the entire classes Final exam",
+      "operation": "Test and review, self-reflection",
+      "assignments": "Review of the entire classes",
       "minutes": "120"
     },
     {
       "index": "15",
-      "content": "Overall review, self-reflection",
-      "operation": "Lecture and practice Q&A\nSelf-check",
-      "assignments": "Review of inadequate points",
+      "content": "Review of important concepts in the course Self-reflection class",
+      "operation": "Lecture, self-reflection",
+      "assignments": "Self-reflection",
       "minutes": "120"
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　C113-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Artificial Intelligence\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                コンピュータアーキテクチャ基礎\n                Fundamentals of Computer Architecture\n\n              2\n              C113-01\n\n                2026年度\n\n                2nd year 1st semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  SANO Shoji\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Von Neumann computer\n2.Instruction set architecture\n3.Pipeline processing\n4.Memory architecture\n5.Local Cooperation\n\n              Students will:\n(1) Learn data processing using a computer.\n(2) Learn computer architecture that define assignments between hardware and software for data processing.\n(3) Learn the basic structure and operating principles of a computer.\n\n              授業の概要および学習上の助言\n\n              This is the basic course on computer architecture. We will cover the following materials:\n\n1.\tData flow and control flow\n2.\tInstruction set architecture\n3.\tPipeline processing\n4.\tCache and virtual memory\n5.\tEmbedded processor\n\nStudents are required to calculate binary numbers.\nStudents are expected to understand the meaning of terms and characteristics.\nStudents are expected to understand the actions of logical circuits using a logic circuit simulator.\nStudents are expected to review the contents of each course.\n\n              教科書および参考書・リザーブドブック\n\n              Textbooks: Computer Architecture (in Japanese)\nReference books: Introduction to Logic Circuits (in Japanese)\nReserved books: None\n\n              履修に必要な予備知識や技能\n\n              Knowledge of binary arithmetic and basic logic gates is required.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                I,M\n                Be able to add and subtract values in a computer system using column addition.\n\n                ②\n                I,M,N\n                Be able to show the internal structure of a CPU and explain the calculation process.\n\n                ③\n                I,M,N\n                Be able to explain the structure of an instruction word in a computer system and addressing mode.\n\n                ④\n                I,M,N\n                Be able to explain memory hierarchy with some examples.\n\n                ⑤\n                I,M,N\n                Be able to explain the characteristic of embedded processor with some examples.\n\n                ⑥\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                30\n\n                30\n\n                40\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                30\n\n                30\n\n                40\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                30\n\n                30\n\n                40\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  コラボレーションとリーダーシップ\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  発表・表現・伝達する力\n\n                    0\n\n                    0\n\n         ",
-  "courseId": "2026:spring:C113-01:0:633",
+  "rawText": "金沢工業大学 学習支援計画書 F324-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Psychological Science(2018〜)\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n学習・言語心理学\nPsychology of Learning and Language  2 F324-01  2024年度\n 3rd year 1st semester  修学規程第4条を参照\n    担当教員名\n TANAKA Yoshifumi\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Respondent conditioning 2.Operant conditioning 3.Situated cognition 4.Language acquisition 5.Phonetics-syntactics-pragmatics  In this course, we will study high-level cognitive processes such as language and learning that support human intellectual activities. Beginning with behavioral learning theory, we will explain the model of knowledge acquisition in cognitive psychology. In addition, we will explain the characteristics and acquisition process of language as a tool for communication and thinking. Based on this knowledge, the goal is for students to be able to improve their own daily activities and apply them to the real world.\n    授業の概要および学習上の助言   We use language, learn various things from past experiences, and change our behavior to live a smooth life. Language also distinguishes humans from other animals and plays a vital role in various cognitive activities. In this course, we aim to teach specialized knowledge on learning and language that supports our higher level cognitive activities, based on what was learned in previous courses. Language and learning are associated with various interesting phenomena in our daily lives. I hope the lessons learned in this course will be used to understand the various phenomena experienced in daily life. Classes will be centered on lectures, but exercises will be introduced as needed to aid understanding.\n    教科書および参考書・リザーブドブック   Reference books are indicated in each topic.\n    履修に必要な予備知識や技能   Fully understand basic information on learning, cognition and language learned from previous courses. Be sure to fully understand the basic operations of a PC, as it may be necessary to perform exercises using a PC.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① J Ability to understand various types of learning.   ② J Ability to understand the theories of respondent conditioning and operant conditioning.   ③ J Ability to understand the role of social context in learning and language acquisition.   ④ J Ability to understand the characteristics of language acquisition different from learning in general.   ⑤ J Ability to understand the role of language in learning, thinking, and cognition.   ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 40 30 15 0 0 0 15 100     指標と評価割合 総合評価割合 40 30 15 0 0 0 15 100   総合力指標 知識を取り込む力 40 30 15 0 0 0 15 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ There is a final exam in the 14th week to evaluate the degree of acquisition of the curriculum.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     クイズ\n小テスト ① レ There is a midterm test to evaluate the degree of acquisition of the curriculum in the first half of the course. In each class, there is a short quiz on the topic of the class.    ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     レポート ① レ Students will be evaluated on several mini reports on the topics introduced in class.    ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ① レ Attendance and attitude towards the class will be evaluated.    ② レ   ③ レ   ④ レ   ⑤ レ   ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     Ability to understand the types of learning and apply the knowledge to explain various phenomena in daily life. Ability to understand and explain the difference between respondent conditioning and operant conditioning. Ability to understand the role of social situations in learning. Ability to understand and explain the charac",
+  "courseId": "2024:spring:F321-01:0:633",
   "language": "en"
 }

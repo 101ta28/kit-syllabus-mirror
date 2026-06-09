@@ -1,62 +1,56 @@
 {
   "sourceIndex": 306,
   "sourceUrl": "/opsyllabus/kitos0110/306/1",
-  "importedAt": "2026-06-08T09:33:59.301Z",
-  "title": "プロジェクトデザインⅢ（池永訓昭研究室）",
-  "subtitle": "Design Project III(Ikenaga Noriaki)",
-  "courseType": "Major ProgramMajor Project Courses",
-  "credits": "8",
-  "term": "2026年度\n\n                All year",
+  "importedAt": "2026-06-09T01:29:21.952Z",
+  "title": "電気回路Ⅲ",
+  "subtitle": "Electric Circuits III",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "2",
+  "term": "2024年度\n 2nd year 1st semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "IKENAGA Noriaki"
+    "HIROTA Tetsuo",
+    "AOKI Shigeaki",
+    "KONO Akihiko",
+    "MIYAGI Katsunori"
   ],
   "keywords": [
-    "Plasma generation / measurement",
-    "Ion / radical species",
-    "Functional thin film / regional collaboration",
-    "Physical sensor",
-    "AI utilization"
+    "Mutual induction 2.Useful theorems 3.Two-port circuit 4.Phasor trajectory"
   ],
-  "educationalGoal": "Utilize knowledge and skills acquired so far to acquire vacuum technology and thin film fabrication technology. Find new themes such as new functional thin film materials with a view to application from from among actual issues in industry, and focus on developing the ability to plan and execute research to achieve the objectives. In particular, it deals with themes that make full use of plasma.  The goal is to acquire comprehensive skills as an engineer.",
-  "advice": "Students will persevere under the advice of their supervisors about the research themes they are working on, and obtain new knowledge while solving problems. Through research activities (project activities), acquire problem-finding / solving ability, self-development / self-management ability, communication ability, literature research ability, importance of safety inspection, and ethical judgment ability as an engineer. Aiming to actively present research results at academic societies, etc., so that questions and answers can be made accurately among experts.\nSpecific lessons are as follows:\n1.Project activities: Divide into 1 or 2 people for each research theme. In the previous semester, we will mainly study basic knowledge and literature on plasma and functional thin films. In the second semester, students will learn basic research skills and communication skills by working on each research theme and at the same time summarizing the research results and reporting on the progress of each research theme.\n2.Presentation of research results: In the second semester, oral presentations will be made at various academic societies for each research theme. In addition, regarding joint research themes based on actual issues with companies, other universities, and public institutions, we participate in regular meetings and actively participate in discussions to conduct specialized Q & A training. . Eventually, a project design III report will be created and presented at a public presentation.",
-  "books": "Distribute each time",
-  "requiredKnowledge": "In order to handle plasma, basic knowledge about the behavior of charged particles (\"electromagnetism\") must be understood. In addition, since improvements and repairs of the equipment are also required, prior knowledge of “electrical circuits”, “transient phenomena”, and “electrical materials” is also necessary, so it is important to review and deepen your understanding.",
+  "educationalGoal": "In this class, including a review of Electric Circuit I and II, contents from the basic circuit combining resistance (R), inductance (L) or capacitance (C) and their combination to a slightly more complex AC circuit are learned. In the calculation of an AC circuit, it is no exaggeration to say that it is common sense to use a so-called symbolic solution using phasors and complex numbers. In the subsequent course Electric Circuit IV, the circuit analysis techniques using symbolic solution becomes the base for learning more advanced and complex analysis methods.",
+  "advice": "1 Mutual induction 2 Useful theorems 3 Two-port circuit 4 Phasor trajectory In addition, since the progress is adjusted while confirming the degree of understanding from the result of the quiz or the like, the schedule of the class and the learning content may be changed. Active learnings, that is, exercises, quizzes, presentation discussions, questions and answers, short breaks, etc. are conducted so that students concentrate on classes. Depending on the presence of Humanity and Nature Seminar, times and contents of review class may change (follow the instructions of the professor in charge)",
+  "books": "Basic electric circuit(2nd edition)New Edition, Morikita Publishing Co., Ltd.",
+  "requiredKnowledge": "In this course, it is important to solve more problems in order to understand the theory and put it into practice. Moreover, since it is the accumulation of learning one by one, daily continuous efforts are required. Therefore, you are required to do things like 1. Check various reference books, 2. Ask the professor in charge, 3. Use the Mathematics Education Center so that you can always clear things that you do not understand. In this classes, Mathematics such as simultaneous linear equations, determinants, matrices, differentiation / integration, basics of complex numbers, and trigonometric functions are utilized.",
   "activityGoals": [
     {
       "index": "①",
-      "type": "L,M,N",
-      "body": "To be able to acquire basic vacuum technology and design more advanced vacuum equipment"
+      "type": "I",
+      "body": "The mutual induction phenomenon can be explained. The basic mutual induction can be analyzed."
     },
     {
       "index": "②",
-      "type": "L,M,N",
-      "body": "To be able to explain scientific definition of plasma and basic calculations on behavior of charged particles"
+      "type": "I",
+      "body": "The electric circuits can be solved using useful theorems."
     },
     {
       "index": "③",
-      "type": "G,L,M,N",
-      "body": "To be able to understand and apply various technologies using ions and plasma"
+      "type": "I",
+      "body": "In a two-terminal pair circuit, calculations using at least Z, Y, and F matrix."
     },
     {
       "index": "④",
-      "type": "G,K,L,M,N",
-      "body": "To be able to acquire thin film fabrication technology using plasma and apply it to various fields"
-    },
-    {
-      "index": "⑤",
-      "type": "G,M,N",
-      "body": "To be able to appropriately communicate your thoughts to third parties through discussions and presentations"
+      "type": "I",
+      "body": "The problem of phasor trajectory can be solved using symbolic solutions."
     }
   ],
   "evaluationWeights": [
     {
       "label": "総合評価割合",
       "values": [
+        "40",
+        "40",
+        "20",
         "0",
-        "0",
-        "50",
-        "50",
         "0",
         "0",
         "0",
@@ -64,9 +58,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -76,10 +70,10 @@
     {
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
+        "40",
+        "40",
+        "20",
         "0",
-        "0",
-        "50",
-        "50",
         "0",
         "0",
         "0",
@@ -87,9 +81,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -99,10 +93,10 @@
     {
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
+        "40",
+        "40",
+        "20",
         "0",
-        "0",
-        "50",
-        "50",
         "0",
         "0",
         "0",
@@ -110,9 +104,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -133,9 +127,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -143,7 +137,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -156,9 +150,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -179,9 +173,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -190,41 +184,118 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "*Understand the purpose of the research theme and develop and execute research plans to achieve the goal.\n*Appropriate evaluation and analysis of various functional thin films.\n*Can propose themes of different fields (regional collaboration, etc.) utilizing research results.\n*Summarize research results and present them at specialized academic societies and gain high acclaim from outside.",
-    "standard": "*Understand the purpose of the research theme and explain problems .\n*Perform experiments necessary to achieve the objectives of the research theme and summarize the results obtained.\n*Further problems can be found from the obtained results.\n*Present research results at academic societies and progress reports."
+    "ideal": "Slightly complicated problems of mutual induction circuit as in an application problem can be analyzed using symbolic solutions. Slightly complicated problems of electric circuit can be solved using useful theorems. Slightly complicated problems of derivation of Z, Y, and F parameters and transform from T-type to π-type (or vice versa) equivalent circuit as in application problems are solved. Slightly complicated problems of phasor trajectory are solved. In order to achieve the above levels, the average for the exams, quizzes and reports is over 85%.",
+    "standard": "Basic problems of mutual induction circuit can be analyzed using symbolic solutions. Basic problems of electric circuit can be solved using useful theorems. Basic problems of derivation of Z, Y, and F parameters and transform from T-type to π-type (or vice versa) equivalent circuit are solved. Basic problems of phasor trajectory are solved. In order to achieve the above levels, the average for the exams, quizzes and reports is over 75%."
   },
   "clipProcess": "",
   "lessons": [
     {
-      "index": "4-7",
-      "content": "*Acquisition of basic knowledge on plasma and\nfunctional thin films.\n*Acquisition of handling of various devices.\n*Drafting a research plan.",
-      "operation": "Lectures and practical\ntraining at seminars.\nMeeting the research plan\nfor each team.",
-      "assignments": "Understand the contents of\nthe lecture more deeply\nthrough literature surveys.\nReview the handling of\nvarious experimental devices\nand be able to handle them\nsafely and accurately.",
-      "minutes": ""
+      "index": "1",
+      "content": "Guidance Mutual induction circuit (Textbook pp. 106-109) Self-check",
+      "operation": "Explanation of the contents of the Syllabus Lectures on mutual induction circuit. Exercises and questions are conducted if necessary.",
+      "assignments": "Preparation: Re-study the parts of the electrical circuit I and II that are not fully understood. Preparation: Read the contents (pp. 106-109). Review: Review the lecture notes. If a homework is made, complete the homework by the deadline.",
+      "minutes": "200"
     },
     {
-      "index": "8-9",
-      "content": "Research progress and progress reports.",
-      "operation": "Lectures at seminars and\nprogress reports for each\nteam.",
-      "assignments": "Understand the points that can\nnot be understood in the\nresearch content more deeply\nthrough literature surveys.\nSummarize experimental\nresults as graphs or tables\nso that you can report them\nto third parties.",
-      "minutes": ""
+      "index": "2",
+      "content": "Mutual induction (Textbook pp.109-111) Self-check",
+      "operation": "Lectures on mutual induction circuit. Exercises and questions are conducted if necessary",
+      "assignments": "Preparation:.Read the contents (pp. 109-111). Review exercises Review: Review the lecture notes. If there is an insufficient understanding of the exercise, ask the professor in charge to solve it. If a homework is made, complete the homework by the deadline.",
+      "minutes": "200"
     },
     {
-      "index": "10-12",
-      "content": "*Research progress and progress reports.\n*Results announcements at various academic\nsocieties.",
-      "operation": "Lectures at seminars and\nprogress reports for each\nteam.",
-      "assignments": "Understand the points that can\nnot be understood in the\nresearch content more deeply\nthrough literature surveys.\nSummarize experimental results\n as graphs or tables so that\nyou can report them to third\nparties.",
-      "minutes": ""
+      "index": "3",
+      "content": "Mutual induction (Textbook pp.112-113) Self-check",
+      "operation": "Explanation of application problems related to the mutual induction. If necessary, a quiz on the mutual induction is conducted and the content is explained. Lectures on mutual induction Exercises and question are conducted if necessary.",
+      "assignments": "Review: Review the lecture notes on the phasor trajectory. If there is an insufficient understanding of the exercise, ask the professor in charge to solve it. If there is a quiz, selfcheck the answer. Complete the homework by the deadline.",
+      "minutes": "200"
     },
     {
-      "index": "1-2",
-      "content": "*Summary of research.\n*Report of research results.",
-      "operation": "Lectures at seminars and\nresearch results reports\nby team.",
-      "assignments": "While logically summarizing\nthe research that has been\nconducted so far, create\npresentation materials and\nexplain them to third parties\nin an easy-to-understand\nmanner.",
-      "minutes": ""
+      "index": "4",
+      "content": "Useful theorems (Textbook pp.121-122) Self-check",
+      "operation": "Lectures on useful theorems. Exercises and questions are conducted if necessary",
+      "assignments": "Preparation: Read the contents (pp. 121-122). If there is a quiz, study enough. Review: Review the lecture notes on the useful theorems. If there is an insufficient understanding of the exercise, ask the professor in charge to solve it. Complete the homework by the deadline.",
+      "minutes": "200"
+    },
+    {
+      "index": "5",
+      "content": "Useful theorems (Textbook pp.122-124) Self-check",
+      "operation": "Lectures on useful theorems. Exercises and questions are conducted if necessary",
+      "assignments": "Preparation: Read the contents (pp. 122-124). If there is a quiz, study enough. Review: Review the lecture notes on the useful theorems. If there is an insufficient understanding of the exercise, ask the professor in charge to solve it. Complete the homework by the deadline.",
+      "minutes": "200"
+    },
+    {
+      "index": "6",
+      "content": "Useful theorems (Textbook pp.124-127) Self-check",
+      "operation": "Lectures on useful theorems. Exercises and questions are conducted if necessary",
+      "assignments": "Preparation: Read the contents (pp. 124-127). If there is a quiz, study enough. Review: Review the lecture notes on the useful theorems. If there is an insufficient understanding of the exercise, ask the professor in charge to solve it. If there is a quiz, self-check the answer. Complete the homework by the deadline.",
+      "minutes": "200"
+    },
+    {
+      "index": "7",
+      "content": "Review about contents learned in between No.1 and 6 classes. Self-check",
+      "operation": "A general discussion is held on the contents of the lectures so far. If necessary, problems are presented and are resolved within the lecture time. If necessary, retrospective exercises and explanations are conducted. If necessary, a temporary test can be conducted. Self-check of class 1 to 6, and confirm the degree of achievement of the program objectives.",
+      "assignments": "Preparation: Review the lecture notes. If there are any questions in the exercises or quizzes, they are resolved before the lecture. Review: Look back on the contents of the lecture. If there is insufficient understanding, ask the professor in charge to solve it. If a homework is made, complete the homework by the deadline.",
+      "minutes": "200"
+    },
+    {
+      "index": "8",
+      "content": "Two-port circuit (Textbook pp. 140-143) Self-check",
+      "operation": "Lectures on two-port circuit. Exercises and questions are conducted if necessary",
+      "assignments": "Preparation: Read the contents of sections 14.1 and 14.2 (pp.140-143) regarding the two-port circuit (Z, Y, and F matrix). Review: Review the lecture notes. If there is an insufficient understanding of the exercise, ask the professor in charge to solve it. If a homework is made, complete the homework by the deadline.",
+      "minutes": "200"
+    },
+    {
+      "index": "9",
+      "content": "Two-port circuit (Textbook pp.144-148) Self-check",
+      "operation": "Lectures on two-port circuit. Exercises and questions are conducted if necessary",
+      "assignments": "Preparation: Try the examples in Chapter 14 (pp.142-143) and exercises (pp.148-149). Also read the contents of the textbooks (p.144, p.147-148, pp.146-147) on the two-port circuit (F parameter, impedance conversion, T-π transform). Review: Review the lecture notes. If there is an insufficient understanding of the exercise, ask the professor in charge to solve it. If a homework is made, complete the homework by the deadline.",
+      "minutes": "200"
+    },
+    {
+      "index": "10",
+      "content": "Applications of two-port circuit (Materials will be distributed if necessary) Self-check",
+      "operation": "Lectures on two-port circuit. There may be cases where a quiz on the two-port circuit and explanation are given",
+      "assignments": "Use the exercises in Chapter 14 (pp.148-149) to enable calculations such as T-π transform, cascade connection, and impedance conversion using F parameters. If necessary, review exercises. If there is a quiz, study enough. Review: Review the lecture notes. If there is an insufficient understanding of the exercise, ask the professor in charge to solve it. If a homework is made, complete the homework by the deadline.",
+      "minutes": "200"
+    },
+    {
+      "index": "11",
+      "content": "Phasor trajectory (Textbook pp.150-155) Self-check",
+      "operation": "Lectures on Phasor trajectory. Exercises and questions are conducted if necessary",
+      "assignments": "Preparation: Read the contents of Section 9.2 (pp. 79-84). Review: If there is an insufficient understanding of the exercise, ask the professor in charge to solve it. Review the lecture notes on the phasor trajectory. Complete the homework by the deadline.",
+      "minutes": "200"
+    },
+    {
+      "index": "12",
+      "content": "Phasor trajectory (Textbook pp.155-156) Self-check",
+      "operation": "Lectures on Phasor trajectory. There may be cases where a quiz on the phasor trajectory and explanation are given.",
+      "assignments": "Preparation: Solve textbook examples (pp.155-156) and distributed exercises. Review: Review the lecture notes. If the content is not fully understood, ask the professor in charge to resolve it before the class starts. Complete the homework by the deadline.",
+      "minutes": "200"
+    },
+    {
+      "index": "13",
+      "content": "Review about contents of No.1 to 12 classes. Self-check Advanced learning",
+      "operation": "Conduct exercises and discussion on the contents of No.1 to 12 classes. The problem will be presented if necessary. Solve in class time. Advanced learning (Three-phase circuit, Distributed constant circuit).",
+      "assignments": "Preparation: Review the lecture notes. If there are any questions in the exercises or quizzes, they are resolved before the lecture. Review: Look back on the contents of the lecture. If there is insufficient understanding, ask the professor in charge to solve it. If a homework is made, complete the homework by the deadline.",
+      "minutes": "200"
+    },
+    {
+      "index": "14",
+      "content": "Final exam Self-check",
+      "operation": "The final exam is conducted on the contents of No.1 to 12 classes. If necessary, explanations and exercises are given after the final exam.",
+      "assignments": "Preparation: Review the lecture notes so far, and if there are unclear points in the exercises and quizzes, resolve them before the lecture. If it cannot be resolved, it will be the subject of general discussion. Review: Review the content of the classes. If there is insufficient understanding, ask task the professor in charge to solve it. If a homework is made, complete the homework by the deadline.",
+      "minutes": "200"
+    },
+    {
+      "index": "15",
+      "content": "Review of final exam Self-check",
+      "operation": "Review the entire lecture content. Confirm final evaluation. Answer the class questionnaire.",
+      "assignments": "Preparation: If there are additional tasks, complete them and submit them by the deadline. Try to self-check and clear where your understanding of the final test and the past questions quizzes and reports is insufficient.",
+      "minutes": "200"
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　E927-26\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Electrical and Electronic Engineering(〜2024)\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Project Courses\n\n                プロジェクトデザインⅢ（池永訓昭研究室）\n                Design Project III(Ikenaga Noriaki)\n\n              8\n              E927-26\n\n                2026年度\n\n                All year\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  IKENAGA Noriaki\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Plasma generation / measurement\n2.Ion / radical species\n3.Functional thin film / regional collaboration\n4.Physical sensor\n5.AI utilization\n\n              Utilize knowledge and skills acquired so far to acquire vacuum technology and thin film fabrication technology. Find new themes such as new functional thin film materials with a view to application from from among actual issues in industry, and focus on developing the ability to plan and execute research to achieve the objectives. In particular, it deals with themes that make full use of plasma.  The goal is to acquire comprehensive skills as an engineer.\n\n              授業の概要および学習上の助言\n\n              Students will persevere under the advice of their supervisors about the research themes they are working on, and obtain new knowledge while solving problems. Through research activities (project activities), acquire problem-finding / solving ability, self-development / self-management ability, communication ability, literature research ability, importance of safety inspection, and ethical judgment ability as an engineer. Aiming to actively present research results at academic societies, etc., so that questions and answers can be made accurately among experts.\nSpecific lessons are as follows:\n1.Project activities: Divide into 1 or 2 people for each research theme. In the previous semester, we will mainly study basic knowledge and literature on plasma and functional thin films. In the second semester, students will learn basic research skills and communication skills by working on each research theme and at the same time summarizing the research results and reporting on the progress of each research theme.\n2.Presentation of research results: In the second semester, oral presentations will be made at various academic societies for each research theme. In addition, regarding joint research themes based on actual issues with companies, other universities, and public institutions, we participate in regular meetings and actively participate in discussions to conduct specialized Q & A training. . Eventually, a project design III report will be created and presented at a public presentation.\n\n              教科書および参考書・リザーブドブック\n\n              Distribute each time\n\n              履修に必要な予備知識や技能\n\n              In order to handle plasma, basic knowledge about the behavior of charged particles (\"electromagnetism\") must be understood. In addition, since improvements and repairs of the equipment are also required, prior knowledge of “electrical circuits”, “transient phenomena”, and “electrical materials” is also necessary, so it is important to review and deepen your understanding.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                L,M,N\n                To be able to acquire basic vacuum technology and design more advanced vacuum equipment\n\n                ②\n                L,M,N\n                To be able to explain scientific definition of plasma and basic calculations on behavior of charged particles\n\n                ③\n                G,L,M,N\n                To be able to understand and apply various technologies using ions and plasma\n\n                ④\n                G,K,L,M,N\n                To be able to acquire thin film ",
-  "courseId": "2026:full-year:E927-26:0:306",
+  "rawText": "金沢工業大学 学習支援計画書 E607-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Electrical and Electronic Engineering(2018〜)\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n電気回路Ⅲ\nElectric Circuits III  2 E607-01  2024年度\n 2nd year 1st semester  修学規程第4条を参照\n    担当教員名\n HIROTA Tetsuo, AOKI Shigeaki, KONO Akihiko, MIYAGI Katsunori\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Mutual induction 2.Useful theorems 3.Two-port circuit 4.Phasor trajectory  In this class, including a review of Electric Circuit I and II, contents from the basic circuit combining resistance (R), inductance (L) or capacitance (C) and their combination to a slightly more complex AC circuit are learned. In the calculation of an AC circuit, it is no exaggeration to say that it is common sense to use a so-called symbolic solution using phasors and complex numbers. In the subsequent course Electric Circuit IV, the circuit analysis techniques using symbolic solution becomes the base for learning more advanced and complex analysis methods.\n    授業の概要および学習上の助言   1 Mutual induction 2 Useful theorems 3 Two-port circuit 4 Phasor trajectory In addition, since the progress is adjusted while confirming the degree of understanding from the result of the quiz or the like, the schedule of the class and the learning content may be changed. Active learnings, that is, exercises, quizzes, presentation discussions, questions and answers, short breaks, etc. are conducted so that students concentrate on classes. Depending on the presence of Humanity and Nature Seminar, times and contents of review class may change (follow the instructions of the professor in charge)\n    教科書および参考書・リザーブドブック   Basic electric circuit(2nd edition)New Edition, Morikita Publishing Co., Ltd.\n    履修に必要な予備知識や技能   In this course, it is important to solve more problems in order to understand the theory and put it into practice. Moreover, since it is the accumulation of learning one by one, daily continuous efforts are required. Therefore, you are required to do things like 1. Check various reference books, 2. Ask the professor in charge, 3. Use the Mathematics Education Center so that you can always clear things that you do not understand. In this classes, Mathematics such as simultaneous linear equations, determinants, matrices, differentiation / integration, basics of complex numbers, and trigonometric functions are utilized.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① I The mutual induction phenomenon can be explained. The basic mutual induction can be analyzed.   ② I The electric circuits can be solved using useful theorems.   ③ I In a two-terminal pair circuit, calculations using at least Z, Y, and F matrix.   ④ I The problem of phasor trajectory can be solved using symbolic solutions.   ⑤     ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 40 40 20 0 0 0 0 100     指標と評価割合 総合評価割合 40 40 20 0 0 0 0 100   総合力指標 知識を取り込む力 40 40 20 0 0 0 0 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ Conduct final test to confirm achievement. The final test covers the range of program objectives (1) to (4), but the details will be explained by the professor in charge, so be careful not to miss it. In principle, re-examination is not conducted for those who have not taken the exam or who have poor grades. You must study well before taking the exam.   ② レ   ③ レ   ④ レ   ⑤     ⑥     クイズ\n小テスト ① レ Multiple quizzes are conducted to confirm the understanding of each program objective. The timing, number of tests, and test range are instructed, so be careful not to miss it. In principle, retests for those who have not taken the exam or who have poor grades are not conducted. You must study well before taking the quizzes.   ② レ   ③ レ   ④ レ   ⑤     ⑥     レポート ① レ In order to check the degree of achievement, a",
+  "courseId": "2024:spring:E943-01:0:306",
   "language": "en"
 }

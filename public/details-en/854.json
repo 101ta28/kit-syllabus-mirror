@@ -1,58 +1,48 @@
 {
   "sourceIndex": 854,
   "sourceUrl": "/opsyllabus/kitos0110/854/1",
-  "importedAt": "2026-06-08T09:34:10.844Z",
-  "title": "電気電子プログラミング",
-  "subtitle": "Programming for Electrical and Electronic Engineering",
-  "courseType": "Major ProgramMajor Courses",
+  "importedAt": "2026-06-09T01:29:27.154Z",
+  "title": "企業の組織と戦略",
+  "subtitle": "Structure and Behavior of Business Management",
+  "courseType": "(Provided by all courses)\nLiberal Arts Courses\nTransdisciplinary Learning",
   "credits": "2",
-  "term": "2026年度\n\n                2nd year 1st semester",
+  "term": "2024年度\n 1st year 2nd semester\n2nd year 1st semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "OYAMA Daisuke",
-    "FUKUI Masahiro"
+    "MIZUTANI Motoki"
   ],
   "keywords": [
-    "Computer Programming",
-    "C Language",
-    "Control Structure",
-    "Algorithm",
-    "Electrical and Electronic Engineers"
+    "Coorporate 2.Company 3.Management Strategy 4.Organization 5.Management"
   ],
-  "educationalGoal": "Students will: (1) learn the fundamental concepts and methods of programming using C language. (2) learn how to solve problems and transform the solutions into computer programs written in C language. The goal of this course is to provide an introduction not just to C but also to logical thinking. (3) learn some applications of C programming in electrical and electronic engineering.",
-  "advice": "This course is designed to familiarize students with computer programming, with an emphasis on a widely used language, C.\nThe classes incorporate lecture with hands-on programming exercises.\nWe will cover the following materials:\n1. Elementary programming in C\n2. Selection statements\n3. Repetition statements\n4. Modular programming with functions\na. Integrated learning  - For applied problems related to the field of electrical and electronic engineering -\nb. Overview of advanced C language syntax\n\nStudents should be aware of the teacher's instructions in the class, because the detailed course schedules may change depending on the students' progress in understanding.",
-  "books": "Textbooks: None\nReference books: やさしく学べるC言語 ANSI規格準拠[森北出版]、新・明解C言語 入門編（第2版）[SBクリエイティブ]、猫でもわかるC言語プログラミング（第3版）[SBクリエイティブ]\nReserved books: None",
-  "requiredKnowledge": "You are expected to bring your Windows laptop to class with you to work on programming exercises.\nNo prior programming knowledge is required.\nThis course and “Computer Engineering for Electrical and Electronic Engineers” are complementary. “Feedback Control” is related to this course.",
+  "educationalGoal": "For students studying at KIT, \"Company\" is and will be closely related. It is important for them to understand the basic knowledge of \"Company\" such as \"Organization\" and \"Management Strategy\", and to pay intellectual attention to \"Cpmpany\" activities. The purpose of this course is to enable students to understand the basic knowledge of \"Company\" through various case stduies.",
+  "advice": "To make students to understand the followings through case studies of company activities. 1. Relationship between \"Company\" and our lives 2. Campany activities in providing products and service 3. Management resorce and Campany activities 4. Management strategy for competition among companies 5. Business diversification 6. Grobalization of Campany activities 7. Campany Organization 8. Motivation",
+  "books": "English textbook not available",
+  "requiredKnowledge": "To be able to pay attention to the society through reading newspapers To make constructive discussions with other members with their own study",
   "activityGoals": [
     {
       "index": "①",
-      "type": "K,D",
-      "body": "Be able to demonstrate problem-solving skills by developing algorithms to solve problems."
+      "type": "A,B,G",
+      "body": "Be able to understand the significance of \"Company\""
     },
     {
       "index": "②",
-      "type": "K,H",
-      "body": "Be able to write C programs that perform sequential operations."
+      "type": "A,B,G",
+      "body": "Be able to understand the significance of \"Company Activity\"."
     },
     {
       "index": "③",
-      "type": "K,H",
-      "body": "Be able to incorporate the selection control structure into C programs."
+      "type": "A,B,G",
+      "body": "Be able to understand \"Management Strategy\" of \"Company\"."
     },
     {
       "index": "④",
-      "type": "K,H",
-      "body": "Be able to incorporate the repetition control structure into C programs."
+      "type": "A,B,G",
+      "body": "Be able to undrstand the mechanizm of \"Company Organization\"."
     },
     {
       "index": "⑤",
-      "type": "K,H",
-      "body": "Be able to decompose the solution into modules at the function level."
-    },
-    {
-      "index": "⑥",
-      "type": "K,H",
-      "body": "Be able to make a computer execute a program you have written in C language."
+      "type": "A,B,G",
+      "body": "Be able to understand the evaluation and analysis of \"Company\"."
     }
   ],
   "evaluationWeights": [
@@ -60,19 +50,19 @@
       "label": "総合評価割合",
       "values": [
         "0",
-        "40",
-        "60",
+        "30",
+        "48",
+        "10",
         "0",
         "0",
-        "0",
-        "0",
+        "12",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -83,19 +73,19 @@
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
         "0",
-        "40",
-        "60",
+        "30",
+        "48",
+        "10",
         "0",
         "0",
-        "0",
-        "0",
+        "12",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -106,19 +96,19 @@
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
         "0",
-        "40",
-        "60",
+        "30",
+        "48",
+        "10",
         "0",
         "0",
-        "0",
-        "0",
+        "12",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -139,9 +129,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -149,7 +139,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -162,9 +152,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -185,9 +175,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -196,118 +186,118 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "(1) Develop modular and efficient programs in C efficiently.\n(2) Identify a problem in electrical and electronic engineering and provide a proper solution by designing algorithms and implementing computer programs.\n(3) Be comfortable using C.",
-    "standard": "(1) Design algorithms to solve rudimentary problems in electric and electronic engineering.\n(2) Demonstrate basic skills in writing and implementing simple structured programs in C.\n(3)  Describe the fundamentals of C based on the hands-on knowledge of programming."
+    "ideal": "1. To understand the significance of Company and to be able to explain it to others with concrete case study result. 2. To understand Company activities and to be able to explain it to others with concrete case study result. 3. To understand Management Strategy and to be able to explain it to others with concrete case study result. 4. To understand Company Organization and to be able to explain it to others with concrete case study result. 5. To be able to understand the evaluation and analysis of company activities toto explain it to others with concrete case study result.",
+    "standard": "1. To understand the significance of Company. 2. To understand Company activities. 3. To understand Management Strategy. 4. To understand Company Organization. 5. To be able to understand the evaluation and analysis of company activities."
   },
   "clipProcess": "",
   "lessons": [
     {
       "index": "1",
       "content": "Course introduction",
-      "operation": "Lecture and Q&A",
-      "assignments": "Understand the objectives of\nclass\nReview materials from No. 1\nclass",
-      "minutes": "100\n\n100"
+      "operation": "Explanation of Syllabus Lecture",
+      "assignments": "WS1 Preparation of the next class",
+      "minutes": "100"
     },
     {
       "index": "2",
-      "content": "1. Elementary programming in C",
-      "operation": "Lecture and Q&A",
-      "assignments": "Prepare Ch. 1 of the class\nmaterials distributed via the\ne-syllabus\nReview materials from No. 2\nclass",
-      "minutes": "100\n\n100"
+      "content": "Chapter 3",
+      "operation": "Group Discussion on WS1 Lecture",
+      "assignments": "WS2 Preparation of the next class",
+      "minutes": "100"
     },
     {
       "index": "3",
-      "content": "continued",
-      "operation": "Lecture and Q&A",
-      "assignments": "Prepare Ch. 1 of the class\nmaterials distributed via the\ne-syllabus\nReview materials from No. 3\nclass",
-      "minutes": "100\n\n100"
+      "content": "Chapter 4",
+      "operation": "Group Discussion on WS2 Lecture",
+      "assignments": "WS3 Preparation of the next class",
+      "minutes": "100"
     },
     {
       "index": "4",
-      "content": "continued",
-      "operation": "Programming exercise",
-      "assignments": "Prepare for the programming\nexercise\nReview materials from No. 4\nclass",
-      "minutes": "100\n\n100"
+      "content": "Chapter 5",
+      "operation": "Group Discussion on WS3 Lecture",
+      "assignments": "WS4 Preparation of the next class",
+      "minutes": "100"
     },
     {
       "index": "5",
-      "content": "2. Selection statements",
-      "operation": "Self-check\n\nLecture and Q&A",
-      "assignments": "Prepare Ch. 2 of the class\nmaterials distributed via the\ne-syllabus\nReview materials from No. 5\nclass",
-      "minutes": "100\n\n100"
+      "content": "Chapter 6",
+      "operation": "Group Discussion on WS4 Lecture",
+      "assignments": "WS5 Preparation of the next class",
+      "minutes": "100"
     },
     {
       "index": "6",
-      "content": "continued",
-      "operation": "Programming exercise",
-      "assignments": "Prepare for the programming\nexercise\nReview materials from No. 6\nclass",
-      "minutes": "100\n\n100"
+      "content": "Chapter 7",
+      "operation": "Mini-Exam #1 Group Discussion on WS5 Lecture",
+      "assignments": "WS6 Preparation of the next class",
+      "minutes": "100"
     },
     {
       "index": "7",
-      "content": "3. Repetition statements",
-      "operation": "Self-check\n\nLecture and Q&A",
-      "assignments": "Prepare Ch. 3 of the class\nmaterials distributed via the\ne-syllabus\nReview materials from No. 7\nclass",
-      "minutes": "100\n\n100"
+      "content": "Chapter 8",
+      "operation": "Group Discussion on WS6 Lecture",
+      "assignments": "WS7 Preparation of the next class",
+      "minutes": "100"
     },
     {
       "index": "8",
-      "content": "continued",
-      "operation": "Programming exercise",
-      "assignments": "Prepare for the programming\nexercise\nReview materials from No. 8\nclass",
-      "minutes": "100\n\n100"
+      "content": "Chapter 9",
+      "operation": "Group Discussion on WS7 Lecture",
+      "assignments": "WS8 Preparation of the next class",
+      "minutes": "100"
     },
     {
       "index": "9",
-      "content": "continued",
-      "operation": "Self-check\n\nLecture and Q&A",
-      "assignments": "Prepare Ch. 3 of the class\nmaterials distributed via the\ne-syllabus\nReview materials from No. 9\nclass",
-      "minutes": "100\n\n100"
+      "content": "Chapter 10",
+      "operation": "Group Discussion on WS8 Lecture",
+      "assignments": "WS9 Preparation of the next class",
+      "minutes": "100"
     },
     {
       "index": "10",
-      "content": "continued",
-      "operation": "Programming exercise",
-      "assignments": "Prepare for the programming\nexercise\nReview materials from No. 10\nclass",
-      "minutes": "100\n\n100"
+      "content": "Chapter 10",
+      "operation": "Mini-Exam #2 Group Discussion on WS9 Lecture",
+      "assignments": "WS10 Preparation of the next class",
+      "minutes": "100"
     },
     {
       "index": "11",
-      "content": "4. Modular programming with functions",
-      "operation": "Self-check\n\nLecture and Q&A",
-      "assignments": "Prepare Ch. 4 of the class\nmaterials distributed via the\ne-syllabus\nReview materials from No. 11\nclass",
-      "minutes": "100\n\n100"
+      "content": "Chapter 11",
+      "operation": "Group Discussion on WS10 Lecture",
+      "assignments": "WS11 Preparation of the next class",
+      "minutes": "100"
     },
     {
       "index": "12",
-      "content": "continued",
-      "operation": "Self-check\n\nLecture and Q&A",
-      "assignments": "Prepare Ch. 4 of the class\nmaterials distributed via the\ne-syllabus\nReview materials from No. 12\nclass",
-      "minutes": "100\n\n100"
+      "content": "Chapter 1",
+      "operation": "Group Discussion on WS11 Lecture",
+      "assignments": "WS12 Preparation of the next class",
+      "minutes": "100"
     },
     {
       "index": "13",
-      "content": "continued",
-      "operation": "Programming exercise",
-      "assignments": "Prepare for the programming\nexercise\nReview materials from No. 13\nclass",
-      "minutes": "100\n\n100"
+      "content": "Preparation of presentation",
+      "operation": "Mini-Exam #3 Preparation of presentation",
+      "assignments": "Preparation of presentation",
+      "minutes": "120"
     },
     {
       "index": "14",
-      "content": "a. Integrated learning  - For applied problems\nrelated to the field of electrical and\nelectronic engineering -\n\nb. Overview of advanced C language syntax",
-      "operation": "Review and self-reflection\n\nLecture and interactive\nactivities",
-      "assignments": "Prepare for Integrated\nlearning\nReview contents learned in\nNos. 2 to 13 classes",
-      "minutes": "100\n\n100"
+      "content": "Presentation of study result",
+      "operation": "Presentation",
+      "assignments": "Preparation of the next class",
+      "minutes": ""
     },
     {
       "index": "15",
-      "content": "continued\n\nSelf-evaluation",
-      "operation": "Lecture and interactive\nactivities\n\nReview and self-reflection\nSelf-evaluation",
-      "assignments": "Prepare for Integrated\nlearning\nReview contents learned in\nNos. 2 to 15 classes",
-      "minutes": "100\n\n100"
+      "content": "Presentation of study result",
+      "operation": "Presentation",
+      "assignments": "",
+      "minutes": ""
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　K412-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Electronics and Information Systems Engineering\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                電気電子プログラミング\n                Programming for Electrical and Electronic Engineering\n\n              2\n              K412-01\n\n                2026年度\n\n                2nd year 1st semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  OYAMA Daisuke, FUKUI Masahiro\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Computer Programming\n2.C Language\n3.Control Structure\n4.Algorithm\n5.Electrical and Electronic Engineers\n\n              Students will: (1) learn the fundamental concepts and methods of programming using C language. (2) learn how to solve problems and transform the solutions into computer programs written in C language. The goal of this course is to provide an introduction not just to C but also to logical thinking. (3) learn some applications of C programming in electrical and electronic engineering.\n\n              授業の概要および学習上の助言\n\n              This course is designed to familiarize students with computer programming, with an emphasis on a widely used language, C.\nThe classes incorporate lecture with hands-on programming exercises.\nWe will cover the following materials:\n1. Elementary programming in C\n2. Selection statements\n3. Repetition statements\n4. Modular programming with functions\na. Integrated learning  - For applied problems related to the field of electrical and electronic engineering -\nb. Overview of advanced C language syntax\n\nStudents should be aware of the teacher's instructions in the class, because the detailed course schedules may change depending on the students' progress in understanding.\n\n              教科書および参考書・リザーブドブック\n\n              Textbooks: None\nReference books: やさしく学べるC言語 ANSI規格準拠[森北出版]、新・明解C言語 入門編（第2版）[SBクリエイティブ]、猫でもわかるC言語プログラミング（第3版）[SBクリエイティブ]\nReserved books: None\n\n              履修に必要な予備知識や技能\n\n              You are expected to bring your Windows laptop to class with you to work on programming exercises.\nNo prior programming knowledge is required.\nThis course and “Computer Engineering for Electrical and Electronic Engineers” are complementary. “Feedback Control” is related to this course.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                K,D\n                Be able to demonstrate problem-solving skills by developing algorithms to solve problems.\n\n                ②\n                K,H\n                Be able to write C programs that perform sequential operations.\n\n                ③\n                K,H\n                Be able to incorporate the selection control structure into C programs.\n\n                ④\n                K,H\n                Be able to incorporate the repetition control structure into C programs.\n\n                ⑤\n                K,H\n                Be able to decompose the solution into modules at the function level.\n\n                ⑥\n                K,H\n                Be able to make a computer execute a program you have written in C language.\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                0\n\n                40\n\n                60\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                0\n\n                40\n\n                60\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                0\n\n     ",
-  "courseId": "2026:spring:K412-01:0:854",
+  "rawText": "金沢工業大学 学習支援計画書 G037-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\n(Provided by all courses)\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     (Provided by all courses)\nLiberal Arts Courses\nTransdisciplinary Learning\n企業の組織と戦略\nStructure and Behavior of Business Management  2 G037-01  2024年度\n 1st year 2nd semester\n2nd year 1st semester  修学規程第4条を参照\n    担当教員名\n MIZUTANI Motoki\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Coorporate 2.Company 3.Management Strategy 4.Organization 5.Management  For students studying at KIT, \"Company\" is and will be closely related. It is important for them to understand the basic knowledge of \"Company\" such as \"Organization\" and \"Management Strategy\", and to pay intellectual attention to \"Cpmpany\" activities. The purpose of this course is to enable students to understand the basic knowledge of \"Company\" through various case stduies.\n    授業の概要および学習上の助言   To make students to understand the followings through case studies of company activities. 1. Relationship between \"Company\" and our lives 2. Campany activities in providing products and service 3. Management resorce and Campany activities 4. Management strategy for competition among companies 5. Business diversification 6. Grobalization of Campany activities 7. Campany Organization 8. Motivation\n    教科書および参考書・リザーブドブック   English textbook not available\n    履修に必要な予備知識や技能   To be able to pay attention to the society through reading newspapers To make constructive discussions with other members with their own study\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① A,B,G Be able to understand the significance of \"Company\"   ② A,B,G Be able to understand the significance of \"Company Activity\".   ③ A,B,G Be able to understand \"Management Strategy\" of \"Company\".   ④ A,B,G Be able to undrstand the mechanizm of \"Company Organization\".   ⑤ A,B,G Be able to understand the evaluation and analysis of \"Company\".   ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 0 30 48 10 0 0 12 100     指標と評価割合 総合評価割合 0 30 48 10 0 0 12 100   総合力指標 知識を取り込む力 0 30 48 10 0 0 12 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ①      ②     ③     ④     ⑤     ⑥     クイズ\n小テスト ① レ 3 mini-exams Evaluate the level of understanding of text book and lectures.   ② レ   ③ レ   ④     ⑤     ⑥     レポート ① レ 22 worksheets Evaluate the contents   ② レ   ③ レ   ④ レ   ⑤     ⑥     成果発表\n(口頭・実技) ① レ Presentations of students' study based on the kowledge through this course Evaluate the contents   ② レ   ③ レ   ④ レ   ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ① レ Evaluate the attitude in lectures   ② レ   ③ レ   ④ レ   ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     1. To understand the significance of Company and to be able to explain it to others with concrete case study result. 2. To understand Company activities and to be able to explain it to others with concrete case study result. 3. To understand Management Strategy and to be able to explain it to others with concrete case study result. 4. To understand Company Organization and to be able to explain it to others with concrete case study result. 5. To be able to understand the evaluation and analysis of company activities toto explain it to others with concrete case study result.  1. To understand the significance of Company. 2. To understand Company activities. 3. To understand Management Strategy. 4. To understand Company Organization. 5. To be able to understand the evaluation and analysis of company activities.\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習課題に要する標準的な時間を記載してあります。日々の自学自習時間全体としては、各授業に応じた時間(例えば2単位科目の場合、予習2時",
+  "courseId": "2024:spring:G026-01:0:854",
   "language": "en"
 }

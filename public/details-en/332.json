@@ -1,80 +1,59 @@
 {
   "sourceIndex": 332,
   "sourceUrl": "/opsyllabus/kitos0110/332/1",
-  "importedAt": "2026-06-08T09:33:59.797Z",
-  "title": "情報工学専門実験・演習Ａ",
-  "subtitle": "Information and Computer Science Major Lab/Exercises A",
-  "courseType": "Major ProgramMajor Courses",
-  "credits": "3",
-  "term": "2026年度\n\n                3rd year 1st semester3rd year 2nd semester",
+  "importedAt": "2026-06-09T01:29:22.064Z",
+  "title": "電気機器Ⅱ",
+  "subtitle": "Electrical Machinery II",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "2",
+  "term": "2024年度\n 3rd year 2nd semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "TAKAGO Daisuke",
-    "MUKAI Hiroaki",
-    "ISHIBASHI Koichi",
-    "NAKAZAWA Minoru"
+    "TSUDA Toshihiro",
+    "FUKAMI Tadashi"
   ],
   "keywords": [
-    "Microcontroller",
-    "Input/output control",
-    "Networking",
-    "Router, switch",
-    "Programming"
+    "Induction Machine 2.Synchronous Machine"
   ],
-  "educationalGoal": "In this course, students will learn programming techniques, wireless network technologies, and data collection methods via evaluation of wireless sensor networks with a microcontroller.\nThey will also be given opportunities to master knowledge regarding the Internet and security using routers and switches, gain knowledge and skill via investigations and exercises related to IPv4/IPv6, and study how to control networks via packet capture.",
-  "advice": "This course covers the following topics:\n1. Embedded programming with c and python language\n2. Wireless network technologies for IoT systems\n3. Communication protocols toward IoT systems\n4. Information network construction method\n5. Analysis of information transmission path by network capturing\n6. Implementation of network capture program using C / C ++\n\nNOTE:\nA review of Programming I, Programming II, Fundamental Computer Architecture, and Information Networks is required.",
-  "books": "None",
-  "requiredKnowledge": "Students of this course are expected to have the following:\n1. C and Python programming skills.\n2. Understanding of CPU, main memory, and register on an embedded processor.\n3. Knowledge and skill related to the construction of information networks.\n4. Knowledge related to information transmissions using packet capturing tools.\n5. Understanding of packet capture implementation techniques.",
+  "educationalGoal": "Students will: (1)Learn basic theories of induction machines, such as principles, structures, operating characteristics, starting methods, and speed controls. (2)Learn basic theories of synchronous machines, such as principles, structures, operating characteristics, and starting methods.",
+  "advice": "This is the second course in the series of Electrical Machinery. We will cover the following materials: 1. Induction machines, 2. Synchronous machines. Students are required to actively participate in class.",
+  "books": "Electric Machinery and Apparatus Studies, CORONA publishing co., LTD.",
+  "requiredKnowledge": "Knowledge of electromagnetics and electric circuits.",
   "activityGoals": [
     {
       "index": "①",
-      "type": "D,F,I,J,K,L,M,N,O,Q",
-      "body": "Be able to explain wireless technologies such as wireless LAN, ZigBee, and LoRaWAN."
+      "type": "L",
+      "body": "Be able to understand the principle and structure of induction machines and to calculate their performance."
     },
     {
       "index": "②",
-      "type": "D,F,I,J,K,L,M,N,O,Q",
-      "body": "Be able to explain a data collection method via MQTT."
+      "type": "L",
+      "body": "Be able to understand the principle and structure of synchronous machines and to calculate their performance."
     },
     {
       "index": "③",
-      "type": "D,F,I,J,K,L,M,N,O,Q",
-      "body": "Be able to design and evaluate a wireless sensor network."
-    },
-    {
-      "index": "④",
-      "type": "D,F,I,J,K,M,Q",
-      "body": "Be able to explain network hierarchical structures."
-    },
-    {
-      "index": "⑤",
-      "type": "D,F,I,J,K,M,N,P,Q",
-      "body": "Be able to understand Internet traffic using packet capture."
-    },
-    {
-      "index": "⑥",
-      "type": "D,F,I,J,K,M,N,P,Q",
-      "body": "Be able to set a personal IP address on a personal computer."
+      "type": "L",
+      "body": "Be able to explain the starting methods of synchronous motors."
     }
   ],
   "evaluationWeights": [
     {
       "label": "総合評価割合",
       "values": [
+        "30",
+        "60",
         "0",
         "0",
-        "50",
-        "50",
         "0",
         "0",
-        "0",
+        "10",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -84,20 +63,20 @@
     {
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
+        "30",
+        "60",
         "0",
         "0",
-        "50",
-        "50",
         "0",
         "0",
-        "0",
+        "10",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -107,20 +86,20 @@
     {
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
+        "30",
+        "60",
         "0",
         "0",
-        "50",
-        "50",
         "0",
         "0",
-        "0",
+        "10",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -141,9 +120,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -151,7 +130,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -164,9 +143,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -187,9 +166,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -198,118 +177,118 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "Students with an ideal achievement level can design and develop a unified complex system that can efficiently control devices.",
-    "standard": "Students with a standard achievement level can design and develop an application that can control devices."
+    "ideal": "(1)Fully understand the principle and structure of induction machines and calculate their operating characteristics. (2)Fully understand the principle and structure of synchronous machines and calculate their operating characteristics. (3)Fully understand the starting methods of synchronous motors and explain them.",
+    "standard": "(1)Understand the principle and structure of induction machines and calculate their operating characteristics. (2)Understand the principle and structure of synchronous machines and calculate their operating characteristics. (3)Understand the starting methods of synchronous motors and explain them."
   },
   "clipProcess": "",
   "lessons": [
     {
       "index": "1",
-      "content": "Joint briefing of two main themes:\n(1) Wireless sensor networks, and\n(2) Network configuration",
-      "operation": "Lecture",
-      "assignments": "Prepare programming\nenvironment (VMware, Linux)",
+      "content": "Course introduction",
+      "operation": "Lecture and Q&A",
+      "assignments": "Understand the objectives of class",
       "minutes": "200"
     },
     {
       "index": "2",
-      "content": "[Wireless sensor network #1]\nLecture: Sleep control on an embedded processor\nExercise: a sensor device via the Arduino UNO R4\n WiFi",
-      "operation": "Lecture and exercise",
-      "assignments": "Preparation: Check website\n\nReview: Understand about\nsensor technologies",
+      "content": "Principle and structure of three-phase induction motors",
+      "operation": "Lecture, practice, Q&A, and self-check",
+      "assignments": "Prepare for Sections 3.1 and 3.2 of the text book",
       "minutes": "200"
     },
     {
       "index": "3",
-      "content": "[Wireless sensor network #2]\nLecture: Network programming\nExercise: Network programming with socket interf\naces",
-      "operation": "Lecture and exercise",
-      "assignments": "Preparation: Check website\n\nReview: Understand about\nsleep mechanism",
+      "content": "Winding factor and induced EMF",
+      "operation": "Lecture, practice, Q&A, and self-check",
+      "assignments": "Prepare for Section 3.3 of the text book",
       "minutes": "200"
     },
     {
       "index": "4",
-      "content": "[Wireless sensor network #3]\nLecture: Data exchange by using MQTT\nExercise: Study of MQTT",
-      "operation": "Lecture and exercise",
-      "assignments": "Preparation: Check website\n\nReview: Understand about a\nmethod for time managements",
+      "content": "Equivalent circuit for three-phase induction motors, Operating characteristics of three-phase induction motors",
+      "operation": "Lecture, practice, Q&A, and self-check",
+      "assignments": "Prepare for Sections 3.4 and 3.5 of the text book",
       "minutes": "200"
     },
     {
       "index": "5",
-      "content": "[Wireless sensor network #4]\nLecture: Wireless communication for IoT\n - Wireless LAN -\nExercise: Study of wireless LAN communication\non an embedded system",
-      "operation": "Lecture and exercise",
-      "assignments": "Preparation: Check website\n\nReview: Understand about MQTT\nand LoRa WAN",
+      "content": "Test about contents learned in the classes from No.2 to 4",
+      "operation": "Test",
+      "assignments": "Prepare for the test (solve the exercises in Chapter 3 of the text book )",
       "minutes": "200"
     },
     {
       "index": "6",
-      "content": "[Wireless sensor network #5]\nLecture: Wireless communication for IoT\n - ZigBee -\nExercise: Study of communication by ZigBee",
-      "operation": "Lecture and exercise",
-      "assignments": "Preparation: Check website\n\nReview: Understand about IoT\nsystem via the wireless LAN",
+      "content": "Starting and braking methods of three-phase induction motors, Speed control of three-phase induction motors",
+      "operation": "Lecture, practice, Q&A, and self-check",
+      "assignments": "Prepare for Sections 3.6 and 3.7 of the text book",
       "minutes": "200"
     },
     {
       "index": "7",
-      "content": "[Wireless sensor network #6]\nLecture: Wireless communication for IoT\n - LoRaWAN -\nExercise: Study of communication by LoRaWAN",
-      "operation": "Lecture and exercise",
-      "assignments": "Preparation: Check website\n\nReview: Understand about\nZigBee technologies",
+      "content": "Principle of single-phase induction motors and their starting methods, Induction voltage regulators",
+      "operation": "Lecture, practice, Q&A, and self-check",
+      "assignments": "Prepare for Sections 3.8 and 3.9 of the text book",
       "minutes": "200"
     },
     {
       "index": "8",
-      "content": "[Wireless sensor network #7]\nLecture: Society 5.0 and Virtual Sensor\nExercise: Construction of an IoT system with\nwireless sensor networks",
-      "operation": "Lecture and exercise",
-      "assignments": "Preparation: Check website\n\nReview: Understand about\nwireless sensor networks",
+      "content": "Principle of synchronous machines, Types of synchronous machines and their structures",
+      "operation": "Lecture, practice, Q&A, and self-check",
+      "assignments": "Prepare for Sections 4.1 and 4.2 of the text book",
       "minutes": "200"
     },
     {
       "index": "9",
-      "content": "[Network Exercise #1]\nAbstracts of lecture (Network Technology) PC\nand network relationships, connect network and\nnetwork cable",
-      "operation": "Lecture and exercise",
-      "assignments": "Preparation: Check website\n\nReview: Understand about\nnetwork technology,\nUnderstand about network\ncable and IP address, Learn\nabout software about network",
+      "content": "Induced EMF and armature reaction Equivalent circuit of a synchronous generator",
+      "operation": "Lecture, practice, Q&A, and self-check",
+      "assignments": "Prepare for Sections 4.3 to 4.4 of the text book",
       "minutes": "200"
     },
     {
       "index": "10",
-      "content": "[Network Exercise #2]\nLecture: VLAN, Switch operations\nExercise: Wireshark",
-      "operation": "Lecture and exercise",
-      "assignments": "Preparation: Check website\n\nReview: Understand about\ncommand for router/switch",
+      "content": "Test about contents learned in the classes from No.6 to 9",
+      "operation": "Test",
+      "assignments": "Prepare for the test (solve the exercises in Chapters 3 and 4 of the text book)",
       "minutes": "200"
     },
     {
       "index": "11",
-      "content": "[Network Exercise #3]\nLecture: Router operations, DHCP\nExercise: Router operations, DHCP",
-      "operation": "Lecture and exercise",
-      "assignments": "Preparation: Check website\n\nReview: Understand about\ncommand for router/switch",
+      "content": "Operating characteristics of synchronous generators, Parallel operation of synchronous generators",
+      "operation": "Lecture, practice, Q&A, and self-check",
+      "assignments": "Prepare for Sections 4.5 to 4.6 of the text book",
       "minutes": "200"
     },
     {
       "index": "12",
-      "content": "[Network Exercise #4]\nLecture: Static routing control, Dynamic\nRouting\nExercise: Static routing control, Dynamic\nrouting, Trace route for Internet and network\naddress",
-      "operation": "Lecture and exercise",
-      "assignments": "Preparation: Check website\n\nReview: Understand about\ncommand for router/switch",
+      "content": "Principle of synchronous motors and their operating characteristics",
+      "operation": "Lecture, practice, Q&A, and self-check",
+      "assignments": "Prepare for Section 4.7 of the text book",
       "minutes": "200"
     },
     {
       "index": "13",
-      "content": "[Network Exercise #5]\nLecture: Network analysis and design\nExercise: Naming resolve, Make ISP map,\nsubnet-working, router, FTP protocol,\nManagement about configuration file,",
-      "operation": "Lecture and exercise",
-      "assignments": "Preparation: Check website\n\nReview: Understand about\ncommand for router/switch",
+      "content": "Starting methods of synchronous motors",
+      "operation": "Lecture, practice, Q&A, and self-check",
+      "assignments": "Prepare for Section 4.8 of the text book",
       "minutes": "200"
     },
     {
       "index": "14",
-      "content": "[Network Exercise #6]\nLecture: Design and implement small network\nExercise: Trouble shooting on network,",
-      "operation": "Lecture and exercise",
-      "assignments": "Preparation: Check website\n\nReview: Understand about\ncommand for router/switch",
+      "content": "Exam about contents learned in the classes from No.11 to 13",
+      "operation": "Exam",
+      "assignments": "Prepare for the exam (solve the exercises in Chapter 4 of the text book )",
       "minutes": "200"
     },
     {
       "index": "15",
-      "content": "[Network Exercise #7]\nPresentation about final program.",
-      "operation": "Lecture and presentation",
-      "assignments": "Preparation: Check website\n\nReview: Understand about\ncommand for router/switch",
-      "minutes": "200"
+      "content": "Self-reflection class",
+      "operation": "Lecture, Q&A, and self-evaluation",
+      "assignments": "",
+      "minutes": ""
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　E534-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Information and Computer Science(〜2024)\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                情報工学専門実験・演習Ａ\n                Information and Computer Science Major Lab/Exercises A\n\n              3\n              E534-01\n\n                2026年度\n\n                3rd year 1st semester3rd year 2nd semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  TAKAGO Daisuke, MUKAI Hiroaki, ISHIBASHI Koichi, NAKAZAWA Minoru\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Microcontroller\n2.Input/output control\n3.Networking\n4.Router, switch\n5.Programming\n\n              In this course, students will learn programming techniques, wireless network technologies, and data collection methods via evaluation of wireless sensor networks with a microcontroller.\nThey will also be given opportunities to master knowledge regarding the Internet and security using routers and switches, gain knowledge and skill via investigations and exercises related to IPv4/IPv6, and study how to control networks via packet capture.\n\n              授業の概要および学習上の助言\n\n              This course covers the following topics:\n1. Embedded programming with c and python language\n2. Wireless network technologies for IoT systems\n3. Communication protocols toward IoT systems\n4. Information network construction method\n5. Analysis of information transmission path by network capturing\n6. Implementation of network capture program using C / C ++\n\nNOTE:\nA review of Programming I, Programming II, Fundamental Computer Architecture, and Information Networks is required.\n\n              教科書および参考書・リザーブドブック\n\n              None\n\n              履修に必要な予備知識や技能\n\n              Students of this course are expected to have the following:\n1. C and Python programming skills.\n2. Understanding of CPU, main memory, and register on an embedded processor.\n3. Knowledge and skill related to the construction of information networks.\n4. Knowledge related to information transmissions using packet capturing tools.\n5. Understanding of packet capture implementation techniques.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                D,F,I,J,K,L,M,N,O,Q\n                Be able to explain wireless technologies such as wireless LAN, ZigBee, and LoRaWAN.\n\n                ②\n                D,F,I,J,K,L,M,N,O,Q\n                Be able to explain a data collection method via MQTT.\n\n                ③\n                D,F,I,J,K,L,M,N,O,Q\n                Be able to design and evaluate a wireless sensor network.\n\n                ④\n                D,F,I,J,K,M,Q\n                Be able to explain network hierarchical structures.\n\n                ⑤\n                D,F,I,J,K,M,N,P,Q\n                Be able to understand Internet traffic using packet capture.\n\n                ⑥\n                D,F,I,J,K,M,N,P,Q\n                Be able to set a personal IP address on a personal computer.\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                0\n\n                0\n\n                50\n\n                50\n\n                0\n\n                0\n\n                0\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                0\n\n                0\n\n                50\n\n                50\n\n                0\n\n                0\n\n                0\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                0\n\n                0\n\n                50\n\n                50\n\n                0\n\n                0\n\n                0\n\n                100\n",
-  "courseId": "2026:spring:E534-01:0:332",
+  "rawText": "金沢工業大学 学習支援計画書 E633-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Electrical and Electronic Engineering(2018〜)\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n電気機器Ⅱ\nElectrical Machinery II  2 E633-01  2024年度\n 3rd year 2nd semester  修学規程第4条を参照\n    担当教員名\n TSUDA Toshihiro, FUKAMI Tadashi\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Induction Machine 2.Synchronous Machine  Students will: (1)Learn basic theories of induction machines, such as principles, structures, operating characteristics, starting methods, and speed controls. (2)Learn basic theories of synchronous machines, such as principles, structures, operating characteristics, and starting methods.\n    授業の概要および学習上の助言   This is the second course in the series of Electrical Machinery. We will cover the following materials: 1. Induction machines, 2. Synchronous machines. Students are required to actively participate in class.\n    教科書および参考書・リザーブドブック   Electric Machinery and Apparatus Studies, CORONA publishing co., LTD.\n    履修に必要な予備知識や技能   Knowledge of electromagnetics and electric circuits.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① L Be able to understand the principle and structure of induction machines and to calculate their performance.   ② L Be able to understand the principle and structure of synchronous machines and to calculate their performance.   ③ L Be able to explain the starting methods of synchronous motors.   ④     ⑤     ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 30 60 0 0 0 0 10 100     指標と評価割合 総合評価割合 30 60 0 0 0 0 10 100   総合力指標 知識を取り込む力 30 60 0 0 0 0 10 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ①   There is an exam to evaluate the level of understanding.   ② レ   ③ レ   ④     ⑤     ⑥     クイズ\n小テスト ① レ There are two tests to evaluate the level of understanding.   ② レ   ③     ④     ⑤     ⑥     レポート ①      ②     ③     ④     ⑤     ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ① レ Perform the practices in the classes at No.4, No.9 and No.13   ② レ   ③ レ   ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     (1)Fully understand the principle and structure of induction machines and calculate their operating characteristics. (2)Fully understand the principle and structure of synchronous machines and calculate their operating characteristics. (3)Fully understand the starting methods of synchronous motors and explain them.  (1)Understand the principle and structure of induction machines and calculate their operating characteristics. (2)Understand the principle and structure of synchronous machines and calculate their operating characteristics. (3)Understand the starting methods of synchronous motors and explain them.\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習課題に要する標準的な時間を記載してあります。日々の自学自習時間全体としては、各授業に応じた時間(例えば2単位科目の場合、予習2時間・復習2時間/週)を取るよう努めてください。詳しくは教員の指導に従って下さい。     授業明細   回数 学習内容 授業の運営方法 学習課題(予習・復習) 時間:分※     1  Course introduction Lecture and Q&A Understand the objectives of class  200   2  Principle and structure of three-phase induction motors Lecture, practice, Q&A, and self-check Prepare for Sections 3.1 and 3.2 of the text book  200   3  Winding factor and induced EMF Lecture, practice, Q&A, and self-check Prepare for Section 3.3 of the text book  200   4  Equivalent circuit for three-phase induction motors, Operating characteristics of three-phase induction motors Lecture, practice, Q&A, and self-check Prepare for Sections 3.4 and 3.5 of the text book  200   5  Test about contents learned in the classes from No.2 to",
+  "courseId": "2024:spring:E625-01:0:332",
   "language": "en"
 }

@@ -1,41 +1,53 @@
 {
   "sourceIndex": 370,
   "sourceUrl": "/opsyllabus/kitos0110/370/1",
-  "importedAt": "2026-06-08T09:34:00.618Z",
-  "title": "建設マネジメントⅠ",
-  "subtitle": "Social Project Management I",
-  "courseType": "Major ProgramMajor Courses",
-  "credits": "2",
-  "term": "2026年度\n\n                3rd year 1st semester",
+  "importedAt": "2026-06-09T01:29:22.452Z",
+  "title": "プロジェクトデザインⅢ(大澤直樹研究室)",
+  "subtitle": "Design Project III(Osawa Naoki)",
+  "courseType": "Major Program\nMajor Project Courses",
+  "credits": "8",
+  "term": "2024年度\n All year",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "KIMURA Sadao"
+    "OSAWA Naoki"
   ],
   "keywords": [
-    "Meaning of social construction projects",
-    "Railway projects",
-    "Road traffic policy",
-    "International construction projects"
+    "Electrical discharges and plasmas 2.Insulation and dielectric phenomena 3.Modeling 4.Verification 5.Effective use of resources"
   ],
-  "educationalGoal": "Students will:\n(1) learn what is meant by “social construction projects”.\n(2) learn procedures followed in railway projects.\n(3) learn general policies with respect to road traffic.\n(4) learn the realities of international construction projects.",
-  "advice": "This course deals with the management of social construction projects. We will cover the following topics:\n\n1. What social construction projects entail.\n2. Railway projects: planning, design, construction, maintenance, and management.\n3. Road traffic policy: changes in road policies in Japan, effects of road network formation, road stock effects, etc.\n4. International construction projects.\n\nPrecautions\nThe lectures described above are special lectures by invited professional engineers involved in each\n   project.\nStudents are required to actively participate in class.\nThe schedule of the special lectures is subject to change.\nRreference documents and practice problems will be distributed to students as appropriate.",
-  "books": "textbooks: None\nreference books: None\nreserved books: None",
-  "requiredKnowledge": "Basic knowledge of civil engineering and engineering ethics.",
+  "educationalGoal": "The aim of this course is to enhance the development of student's R&D skills on electrical and electronic engineering through the research project on plasma science and high voltage engineering. By the end of the course, students will be able to: 1. find an important problem, 2. create a plan for problem-solving, 3. promote a research project, 4. write a project report, and 5. make a presentation of a research work.",
+  "advice": "[Projects] (1) fundamental research on non-thermal plasmas and dielectric breakdown phenomena Elucidation of mechanism on atmospheric pressure air diffuse dielectric barrier discharge generation, dielectric breakdown phenomena of solid/gas composite insulation, etc. (2) applications of non-thermal plasmas Ozone generation by non-thermal plasmas, air and water treatment, surface modification of interfacial bonding property of composite materials, plasma catalysis for green technology, bio-applications, etc. [Advice for learning] Close communication with team members or a professor promotes your research project effectively.",
+  "books": "Textbooks: none Reference books: [1] A. Fridman, \"Plasma Chemistry\", Cambridge University Press (2008), [2] J. Meichsner, M. Schmidt, R. Schneider, H.-E. Wagner, \"Nonthermal Plasma Chemistry and Physics\", Chapman and Hall/CRC (2012) Reserved books: none",
+  "requiredKnowledge": "Fundamental knowledge of electric circuits, electromagnetism, transient phenomena in electric circuits, high-voltage and pulsed-power engineering, and machine tools (drilling, lathe, milling, etc.) are necessary. \"High voltage and high current are extremely dangerous. In order to avoid the risk of electric shock, students must follow safety regulations and instructions.",
   "activityGoals": [
     {
       "index": "①",
-      "type": "I,M",
-      "body": "Students can explain meaning of social construction projects.［0.1I, 0.1M］"
+      "type": "G,I-M",
+      "body": "To be able to find and explain an important problem."
     },
     {
       "index": "②",
-      "type": "I,M",
-      "body": "Students can explain railway projects.［0.2I, 0.2M］"
+      "type": "G,I-M",
+      "body": "To be able to create a plan for problem-solving."
     },
     {
       "index": "③",
-      "type": "I,M",
-      "body": "Students can explain road traffic policy.［0.2I, 0.2M］"
+      "type": "G,I-M",
+      "body": "To be able to promote a research project."
+    },
+    {
+      "index": "④",
+      "type": "G,I-M",
+      "body": "To be able to communicate with team members and/or professor."
+    },
+    {
+      "index": "⑤",
+      "type": "G,I-M",
+      "body": "To be able to write a project report."
+    },
+    {
+      "index": "⑥",
+      "type": "G,I-M",
+      "body": "To be able to make the presentation at PD-III final conference."
     }
   ],
   "evaluationWeights": [
@@ -44,18 +56,18 @@
       "values": [
         "0",
         "0",
-        "80",
+        "60",
+        "40",
         "0",
         "0",
         "0",
-        "20",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -67,18 +79,18 @@
       "values": [
         "0",
         "0",
-        "80",
+        "60",
+        "40",
         "0",
         "0",
         "0",
-        "20",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -90,18 +102,18 @@
       "values": [
         "0",
         "0",
-        "80",
+        "60",
+        "40",
         "0",
         "0",
         "0",
-        "20",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -122,9 +134,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -132,7 +144,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -145,9 +157,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -168,9 +180,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -179,118 +191,27 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "(1) Students can fully and specifically explain what social construction projects entail.\n(2) Students can fully explain the procedures for railway projects.\n(3) Students can fully explain road traffic policy in Japan.",
-    "standard": "(1) Students can explain what social construction projects entail.\n(2) Students can explain the procedures for railway projects.\n(3) Students can explain road traffic policy in Japan."
+    "ideal": "Students can: 1. find and explain an important problem from various viewpoints, 2. create a plan for problem-solving from various viewpoints, 3. promote a research project, 4. communicate with team members and/or professor, 5. write a project report and abstract for a domestic conference, and 6. make an oral presentation at a PD-III final conference and a domestic academic conference.",
+    "standard": "Students can: 1. find and explain an important problem, 2. create a plan for problem-solving, 3. promote a research project, 4. communicate with team members and/or professor, 5. write a project report, and 6. make an oral on presentation at a PD-III final conference."
   },
   "clipProcess": "",
   "lessons": [
     {
-      "index": "1",
-      "content": "Guidance: Students understand what this subject\nentails and its relation to other subjects.\nIntroduction: What do we mean by “social\nconstruction projects”?",
-      "operation": "Lecture\nInteractive activities",
-      "assignments": "Review: What do we mean by\n“social construction\nprojects”?",
-      "minutes": "60"
+      "index": "First semest er",
+      "content": "(1) confirm an important problem and the problem -solving plan refer from pre-seminar for PD-III. (2) promote a research project (3) make the presentation of a research project at a domestic academic conference (if possible).",
+      "operation": "",
+      "assignments": "",
+      "minutes": ""
     },
     {
-      "index": "2",
-      "content": "Special lecture (I-1)\nRoad traffic policy: changes in road policy in\nJapan",
-      "operation": "Lecture\nInteractive activities",
-      "assignments": "Review: Changes in road\npolicy in japan\nPreparation: Effects of road\nnetwork formation",
-      "minutes": "60\n\n40"
-    },
-    {
-      "index": "3",
-      "content": "Special lecture (I-2)\nRoad traffic policy: effects of road network\nformation",
-      "operation": "Lecture\nInteractive activities",
-      "assignments": "Review: Effects of road\nnetwork formation\nPreparation: Stock effects of\nroads, etc.",
-      "minutes": "60\n\n40"
-    },
-    {
-      "index": "4",
-      "content": "Special lecture (I-3)\n Road traffic policy: stock effects of roads,\netc.",
-      "operation": "Lecture\nInteractive activities",
-      "assignments": "Review: Stock effects of\nroads, etc.\nPreparation: Stock effects of\nroads, etc.",
-      "minutes": "60\n\n40"
-    },
-    {
-      "index": "5",
-      "content": "Special lecture (I-4)\n Road traffic policy: stock effects of roads,\netc.",
-      "operation": "Lecture\nInteractive activities",
-      "assignments": "Review: Stock effects of\nroads, etc.\nPreparation: Road traffic\npolicy in general",
-      "minutes": "60\n\n40"
-    },
-    {
-      "index": "6",
-      "content": "Exercises based on special lecture (I)",
-      "operation": "Interactive activities\nReport creation work\n\nSelf-check for special\nlecture (I)",
-      "assignments": "Review: Road traffic policy\n\nSelf-reflection on road\ntraffic policy",
-      "minutes": "100"
-    },
-    {
-      "index": "7",
-      "content": "Special lecture (II-1)\n International construction projects",
-      "operation": "Lecture\nInteractive activities\n\nStudents submit report on\nspecial lecture (I).\nStudents submit\nattendance note for\nspecial lecture (II-1).",
-      "assignments": "Review: International\nconstruction projects",
-      "minutes": "100"
-    },
-    {
-      "index": "8",
-      "content": "Special lecture (II-2)\n International construction projects",
-      "operation": "Lecture\nInteractive activities\n\nStudents submit\nattendance note for\nspecial lecture (II-2).",
-      "assignments": "Review: International\nconstruction projects",
-      "minutes": "100"
-    },
-    {
-      "index": "9",
-      "content": "Special lecture (III-1)\nRailway projects: planning, design,\n construction, maintenance and management",
-      "operation": "Lecture\nInteractive activities",
-      "assignments": "Review: Railway projects:\nplanning\nPreparation: Railway\nprojects: design",
-      "minutes": "60\n\n40"
-    },
-    {
-      "index": "10",
-      "content": "Special lecture (III-2)\nRailway projects: planning, design,\nconstruction, maintenance, and management",
-      "operation": "Lecture\nInteractive activities",
-      "assignments": "Review: Railway projects:\ndesign\nPreparation: Railway\nprojects: construction",
-      "minutes": "60\n\n40"
-    },
-    {
-      "index": "11",
-      "content": "Special lecture (III-3)\nRailway projects: planning, design,\nconstruction, maintenance, and management",
-      "operation": "Lecture\nInteractive activities",
-      "assignments": "Review: Railway projects:\ndesign\nPreparation: Railway\nprojects: construction",
-      "minutes": "60\n\n40"
-    },
-    {
-      "index": "12",
-      "content": "Special lecture (III-4)\nRailway projects: planning, design,\nconstruction, maintenance, and management",
-      "operation": "Lecture\nInteractive activities",
-      "assignments": "Review: Railway projects:\nmaintenance and management",
-      "minutes": "100"
-    },
-    {
-      "index": "13",
-      "content": "Exercises based on special lecture (III)",
-      "operation": "Interactive activities\nReport creation work\n\nSelf-check on special\nlecture (III)",
-      "assignments": "Review: Railway projects\n\nSelf-reflection for railway\nprojects road",
-      "minutes": "60\n\n40"
-    },
-    {
-      "index": "14",
-      "content": "Summary lecture\nWhat do social construction projects comprise?",
-      "operation": "Lecture\nInteractive activities\n\nStudents submit report on\nspecial lecture (III).",
-      "assignments": "Review: What do social\nconstruction projects\ncomprise?",
-      "minutes": "100"
-    },
-    {
-      "index": "15",
-      "content": "Understanding and resolution of students'\nissues.",
-      "operation": "Lecture\nInteractive activities\n\nSelf-reflection",
-      "assignments": "Review: Self-reflection on\ncontents of classes conducted\nso far.",
-      "minutes": "100"
+      "index": "Second semes ter",
+      "content": "(1) promote a research project (2) make an intermediate presentation (3) write a project report (4) make the presentation of a PD-III final conference.",
+      "operation": "",
+      "assignments": "",
+      "minutes": ""
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　E725-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Civil and Environmental Engineering(〜2024)\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                建設マネジメントⅠ\n                Social Project Management I\n\n              2\n              E725-01\n\n                2026年度\n\n                3rd year 1st semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  KIMURA Sadao\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Meaning of social construction projects\n2.Railway projects\n3.Road traffic policy\n4.International construction projects\n\n              Students will:\n(1) learn what is meant by “social construction projects”.\n(2) learn procedures followed in railway projects.\n(3) learn general policies with respect to road traffic.\n(4) learn the realities of international construction projects.\n\n              授業の概要および学習上の助言\n\n              This course deals with the management of social construction projects. We will cover the following topics:\n\n1. What social construction projects entail.\n2. Railway projects: planning, design, construction, maintenance, and management.\n3. Road traffic policy: changes in road policies in Japan, effects of road network formation, road stock effects, etc.\n4. International construction projects.\n\nPrecautions\nThe lectures described above are special lectures by invited professional engineers involved in each\n   project.\nStudents are required to actively participate in class.\nThe schedule of the special lectures is subject to change.\nRreference documents and practice problems will be distributed to students as appropriate.\n\n              教科書および参考書・リザーブドブック\n\n              textbooks: None\nreference books: None\nreserved books: None\n\n              履修に必要な予備知識や技能\n\n              Basic knowledge of civil engineering and engineering ethics.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                I,M\n                Students can explain meaning of social construction projects.［0.1I, 0.1M］\n\n                ②\n                I,M\n                Students can explain railway projects.［0.2I, 0.2M］\n\n                ③\n                I,M\n                Students can explain road traffic policy.［0.2I, 0.2M］\n\n                ④\n\n                ⑤\n\n                ⑥\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                0\n\n                0\n\n                80\n\n                0\n\n                0\n\n                0\n\n                20\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                0\n\n                0\n\n                80\n\n                0\n\n                0\n\n                0\n\n                20\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                0\n\n                0\n\n                80\n\n                0\n\n                0\n\n                0\n\n                20\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  コラボレーションとリーダーシップ\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  発表・表現・伝達する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  学習に取組",
-  "courseId": "2026:spring:E725-01:0:370",
+  "rawText": "金沢工業大学 学習支援計画書 E927-23\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Electrical and Electronic Engineering(2018〜)\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Project Courses\nプロジェクトデザインⅢ(大澤直樹研究室)\nDesign Project III(Osawa Naoki)  8 E927-23  2024年度\n All year  修学規程第4条を参照\n    担当教員名\n OSAWA Naoki\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Electrical discharges and plasmas 2.Insulation and dielectric phenomena 3.Modeling 4.Verification 5.Effective use of resources  The aim of this course is to enhance the development of student's R&D skills on electrical and electronic engineering through the research project on plasma science and high voltage engineering. By the end of the course, students will be able to: 1. find an important problem, 2. create a plan for problem-solving, 3. promote a research project, 4. write a project report, and 5. make a presentation of a research work.\n    授業の概要および学習上の助言   [Projects] (1) fundamental research on non-thermal plasmas and dielectric breakdown phenomena Elucidation of mechanism on atmospheric pressure air diffuse dielectric barrier discharge generation, dielectric breakdown phenomena of solid/gas composite insulation, etc. (2) applications of non-thermal plasmas Ozone generation by non-thermal plasmas, air and water treatment, surface modification of interfacial bonding property of composite materials, plasma catalysis for green technology, bio-applications, etc. [Advice for learning] Close communication with team members or a professor promotes your research project effectively.\n    教科書および参考書・リザーブドブック   Textbooks: none Reference books: [1] A. Fridman, \"Plasma Chemistry\", Cambridge University Press (2008), [2] J. Meichsner, M. Schmidt, R. Schneider, H.-E. Wagner, \"Nonthermal Plasma Chemistry and Physics\", Chapman and Hall/CRC (2012) Reserved books: none\n    履修に必要な予備知識や技能   Fundamental knowledge of electric circuits, electromagnetism, transient phenomena in electric circuits, high-voltage and pulsed-power engineering, and machine tools (drilling, lathe, milling, etc.) are necessary. \"High voltage and high current are extremely dangerous. In order to avoid the risk of electric shock, students must follow safety regulations and instructions.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① G,I-M To be able to find and explain an important problem.   ② G,I-M To be able to create a plan for problem-solving.   ③ G,I-M To be able to promote a research project.   ④ G,I-M To be able to communicate with team members and/or professor.   ⑤ G,I-M To be able to write a project report.   ⑥ G,I-M To be able to make the presentation at PD-III final conference.\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 0 0 60 40 0 0 0 100     指標と評価割合 総合評価割合 0 0 60 40 0 0 0 100   総合力指標 知識を取り込む力 0 0 60 40 0 0 0 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ①      ②     ③     ④     ⑤     ⑥     クイズ\n小テスト ①      ②     ③     ④     ⑤     ⑥     レポート ① レ Weekly report and project report   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     成果発表\n(口頭・実技) ① レ weekly discussion, presentation at PD-III final conference   ② レ   ③ レ   ④ レ   ⑤     ⑥ レ   作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ①      ②     ③     ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     Students can: 1. find and explain an important problem from various viewpoints, 2. create a plan for problem-solving from various viewpoints, 3. promote a research project, 4. communicate with team members and/or professor, 5. write a project report and abstract for a domestic conference, and 6. make an oral presentation at a PD-III final conference and a domestic academic conference. Students can: 1. find and explain an important problem, 2. create a plan for problem-solving, 3. promote a research project, 4. communicate",
+  "courseId": "2024:full-year:E927-15:0:370",
   "language": "en"
 }

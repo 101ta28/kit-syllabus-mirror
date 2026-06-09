@@ -1,77 +1,73 @@
 {
   "sourceIndex": 337,
   "sourceUrl": "/opsyllabus/kitos0110/337/1",
-  "importedAt": "2026-06-08T09:33:59.886Z",
-  "title": "情報セキュリティ",
-  "subtitle": "Information Security",
-  "courseType": "Major ProgramMajor Courses",
+  "importedAt": "2026-06-09T01:29:22.060Z",
+  "title": "通信工学",
+  "subtitle": "Communication Engineering",
+  "courseType": "Major Program\nMajor Courses",
   "credits": "2",
-  "term": "2026年度\n\n                3rd year 2nd semester",
+  "term": "2024年度\n 3rd year 2nd semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "MUKAI Hiroaki",
-    "NINAGAWA Shigeru"
+    "ITO Kenji"
   ],
   "keywords": [
-    "public-key cryptography",
-    "elliptic curve cryptography",
-    "TCP/IP",
-    "security protocol"
+    "Basic topology, QoS 2.Information 3.Digital modulation 4.Imperfection 5.Multiplex"
   ],
-  "educationalGoal": "In this course, you can learn cryptography and network security. The first half of the course deals with elliptic curve cryptography which is gradually spreading in practice. The second half of the course deal with adaptation of security technique such as encryption and authentication to the Internet.",
-  "advice": "In the first half of the course, the textbook \"誤り訂正符号と暗号の基礎数理\" is used and you can learn cryptography especially ellipctic curve cryptography.\nIn the second half of the course, the textbook \"マスタリングTCP/IP　情報セキュリティ編\" is used. The students learn adaptation of security technique such as encryption and authentication to the Internet environment. The students also learn general network security. Understanding TCP/IP is important.",
-  "books": "笠原正雄，佐竹賢治著：誤り訂正符号と暗号の基礎数理，コロナ社，2004\n齋藤孝道著：マスタリングTCP/IP 情報セキュリティ編，オーム社，2013",
-  "requiredKnowledge": "Taking \"Algebra for Computer Science\" helps to learn this course especially for the first half of the course.\nKnowledge about TCP/IP is required.",
+  "educationalGoal": "This course introduced the basic topology of communication systems, properties of basic information like voices and videos, imperfection of transmission systems that makes data errors, basis of digital modulation/demodulation and multiplexing scheme. For each topic, basis and principle are explained with basic formulas.",
+  "advice": "This course is constructed following chapters: i) Basic topology of telecommunication systems, ii) Basic properties of information (voice, video, data) on telecommunication systems, iii) Entropy of information, iv) Communication disturbance due to imperfections of transmission (noise, linear/non-linear distortion), v) Digital modulation/demodulation and its filtering techniques, vi) Multiplexing techniques (Frequency division multiplex, Time division multiplex, Code division multiplex,)",
+  "books": "Yamashita, \"Tsuushin Kogaku Gairon 2nd edi.,\" Morikita pub.",
+  "requiredKnowledge": "Acquisition of Communication and Network Systems. Enough skill of mathematics (especially Fourier transfer) How to use a calculator.",
   "activityGoals": [
     {
       "index": "①",
-      "type": "M",
-      "body": "Be able to explain the public-key cryptography"
+      "type": "L",
+      "body": "Be able to understand and explain basis of telecommunication systems."
     },
     {
       "index": "②",
-      "type": "M",
-      "body": "Be able to explain the details of the discrete logarithm problem"
+      "type": "L",
+      "body": "Be able to understand and explain principles of voice/video coding/decoding schemes."
     },
     {
       "index": "③",
-      "type": "M",
-      "body": "Be able to explain the encoding and decoding in elliptic curve cryptography"
+      "type": "L",
+      "body": "Be able to understand and explain baseband transmission."
     },
     {
       "index": "④",
-      "type": "M",
-      "body": "Be able to explain authentication technique"
+      "type": "L",
+      "body": "Be able to understand and explain digital modulation/demodulation schemes."
     },
     {
       "index": "⑤",
-      "type": "M",
-      "body": "Be able to explain network security technique"
+      "type": "L",
+      "body": "Be able to understand and explain degradation factors on quality of communications."
     },
     {
       "index": "⑥",
-      "type": "M",
-      "body": "Be able to explain security technique for the hosts in networks"
+      "type": "L",
+      "body": "Be able to understand and explain principles of multiplexing systems in communication systems."
     }
   ],
   "evaluationWeights": [
     {
       "label": "総合評価割合",
       "values": [
+        "40",
         "20",
-        "30",
-        "30",
+        "40",
         "0",
         "0",
         "0",
-        "20",
+        "0",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -81,20 +77,20 @@
     {
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
+        "40",
         "20",
-        "30",
-        "30",
+        "40",
         "0",
         "0",
         "0",
-        "20",
+        "0",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -104,20 +100,20 @@
     {
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
+        "40",
         "20",
-        "30",
-        "30",
+        "40",
         "0",
         "0",
         "0",
-        "20",
+        "0",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -138,9 +134,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -148,7 +144,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -161,9 +157,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -184,9 +180,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -195,118 +191,118 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "Be able to explain the details of public-key cryptography and implement elliptic curve cryptosystem.\nBe able to explain the details of network security technique.",
-    "standard": "Be able to explain public-key cryptography and elliptic curve cryptography.\nBe able to explain the basic of network security technique."
+    "ideal": "To explain the concept and principle of the items that are described in “target abilities for students.",
+    "standard": "To explain meanings of the items that are described in “target abilities for students."
   },
   "clipProcess": "",
   "lessons": [
     {
       "index": "1",
-      "content": "Foundation of cryptography",
-      "operation": "Lecture\nQ&A\nself-check",
-      "assignments": "Review and preview of class\nnumber 1",
-      "minutes": "100"
+      "content": "1. Course introduction",
+      "operation": "Lecture and Q&A",
+      "assignments": "Understand the objectives of class",
+      "minutes": "200"
     },
     {
       "index": "2",
-      "content": "Common key cryptography and SPN structure",
-      "operation": "Lecture\nQ&A\nself-check",
-      "assignments": "Review and preview of class\nnumber 2",
-      "minutes": "100"
+      "content": "2.Basic topology of telecommunication systems (1) - Basic configuration - Quality of service",
+      "operation": "Test and review. Lecture based on PPT slides. Practice after the class.",
+      "assignments": "Understanding protocol of communication and principles of voice and its coding/ decoding",
+      "minutes": "200"
     },
     {
       "index": "3",
-      "content": "Information theoretically secure cryptography",
-      "operation": "Lecture\nQ&A\nself-check",
-      "assignments": "Review and preview of class\nnumber 3",
-      "minutes": "100"
+      "content": "2.Basic topology of telecommunication systems (2) - protocol of communication 3. Information in telecommunication (1) - principles of voice signal and its coding/ decoding",
+      "operation": "Test and review. Lecture based on PPT slides. Practice after the class.",
+      "assignments": "Understanding protocol of communication and principles of voice and its coding/ decoding",
+      "minutes": "200"
     },
     {
       "index": "4",
-      "content": "Discrete logarithm problem",
-      "operation": "Lecture\nQ&A\nself-check",
-      "assignments": "Review and preview of class\nnumber 4",
-      "minutes": "100"
+      "content": "3. Information in telecommunication (2) - principles of video signal and its coding/ decoding",
+      "operation": "Test and review. Lecture based on PPT slides. Practice after the class.",
+      "assignments": "Understanding protocol of communication and principles of video and its coding/ decoding",
+      "minutes": "200"
     },
     {
       "index": "5",
-      "content": "Elliptic curve",
-      "operation": "Lecture\nQ&A\nself-check",
-      "assignments": "Review and preview of class\nnumber 5",
-      "minutes": "100"
+      "content": "4. Basis of information - Entropy: quantity of information 5. Communication disturbance due to imperfections of transmission (1) - Property of noise",
+      "operation": "Test and review. Lecture based on PPT slides. Practice after the class",
+      "assignments": "Understanding entropy and its calculation. Understanding property of noise and its influence on communication.",
+      "minutes": "200"
     },
     {
       "index": "6",
-      "content": "Elliptic curve on finite field",
-      "operation": "Lecture\nQ&A\nself-check",
-      "assignments": "Review and preview of class\nnumber 6",
-      "minutes": "100"
+      "content": "5. Communication disturbance due to imperfections of transmission (2) -Property of linear/non-linear distortion - Property of delay dispersion",
+      "operation": "Test and review. Lecture based on PPT slides. Practice after the class.",
+      "assignments": "Understanding property of linear/non-linear distortion and delay dispersion. Understanding their influence on communication",
+      "minutes": "200"
     },
     {
       "index": "7",
-      "content": "Discrete logarithm problem on elliptic curve",
-      "operation": "Lecture\nQ&A\nself-check",
-      "assignments": "Review and preview of class\nnumber 7",
-      "minutes": "100"
+      "content": "Exam 7. Digital modulation (1) - Principle of AD and DA conversion",
+      "operation": "Exam Lecture based on PPT slides. Practice after the class.",
+      "assignments": "Understanding principle of AD and DA conversion.",
+      "minutes": "200"
     },
     {
       "index": "8",
-      "content": "Review of the first half of the course\nSele-check",
-      "operation": "Lecture\nQ&A\nself-check",
-      "assignments": "Review and preview of class\nnumber 8",
-      "minutes": "100"
+      "content": "Self-evaluation of the exam in previous class 7. Digital modulation (2) - Principle of the transmitter filter",
+      "operation": "Test and review. Lecture based on PPT slides. Practice after the class.",
+      "assignments": "Understanding principle of the transmitter filter",
+      "minutes": "200"
     },
     {
       "index": "9",
-      "content": "IT system security overview",
-      "operation": "Lecture\nQ&A\nself-check",
-      "assignments": "Review and preview of class\nnumber 9",
-      "minutes": "100"
+      "content": "7. Digital modulation (2) - Principle of the matched filter",
+      "operation": "Test and review. Lecture based on PPT slides. Practice after the class.",
+      "assignments": "Understanding principle of the matched filter.",
+      "minutes": "200"
     },
     {
       "index": "10",
-      "content": "Encryption and authentication in communication\nnetworks",
-      "operation": "Lecture\nQ&A\nself-check",
-      "assignments": "Review and preview of class\nnumber 10",
-      "minutes": "100"
+      "content": "7. Digital modulation (3) - Modulation method of ASK, PSK and FSK",
+      "operation": "Test and review. Lecture based on PPT slides. Practice after the class.",
+      "assignments": "Understanding modulation details of ASK, PSK and FSK",
+      "minutes": "200"
     },
     {
       "index": "11",
-      "content": "PKI and security protocols",
-      "operation": "Lecture\nQ&A\nself-check",
-      "assignments": "Review and preview of class\nnumber 11",
-      "minutes": "100"
+      "content": "7. Digital modulation (4) - Demodulation method - Bit error rate",
+      "operation": "Test and review. Lecture based on PPT slides. Practice after the class.",
+      "assignments": "Understanding demodulation method and bit error rate",
+      "minutes": "200"
     },
     {
       "index": "12",
-      "content": "Network security",
-      "operation": "Lecture\nQ&A\nself-check",
-      "assignments": "Review and preview of class\nnumber 12",
-      "minutes": "100"
+      "content": "8. Multiplexing method - Method of Frequency Division Multiplexing (FDM), Time Division Multiplexing (TDM) and Code Division Multiplexing (CDM).",
+      "operation": "Test and review. Lecture based on PPT slides. Practice after the class.",
+      "assignments": "Understanding method of FDM, TDM and CDM.",
+      "minutes": "200"
     },
     {
       "index": "13",
-      "content": "Host security, Web security",
-      "operation": "Lecture\nQ&A\nself-check",
-      "assignments": "Review and preview of class\nnumber 13",
-      "minutes": "100"
+      "content": "Final exam",
+      "operation": "Exam",
+      "assignments": "Prepare for the exam",
+      "minutes": "200"
     },
     {
       "index": "14",
-      "content": "Exam and review",
-      "operation": "Lecture\nQ&A\nExam\nself-check",
-      "assignments": "Review and preview of class\nnumber 14",
-      "minutes": "100"
+      "content": "Special lecture by the invited speaker in industry.",
+      "operation": "Lecture",
+      "assignments": "Understanding communication systems at present",
+      "minutes": "200"
     },
     {
       "index": "15",
-      "content": "Review of the second half of the course",
-      "operation": "Lecture\nQ&A\nself-check",
-      "assignments": "Review and preview of class\nnumber 15",
-      "minutes": "100"
+      "content": "Self-evaluation of the exam in previous class",
+      "operation": "Review",
+      "assignments": "",
+      "minutes": "200"
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　E541-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Information and Computer Science(〜2024)\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                情報セキュリティ\n                Information Security\n\n              2\n              E541-01\n\n                2026年度\n\n                3rd year 2nd semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  MUKAI Hiroaki, NINAGAWA Shigeru\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.public-key cryptography\n2.elliptic curve cryptography\n3.TCP/IP\n4.security protocol\n\n              In this course, you can learn cryptography and network security. The first half of the course deals with elliptic curve cryptography which is gradually spreading in practice. The second half of the course deal with adaptation of security technique such as encryption and authentication to the Internet.\n\n              授業の概要および学習上の助言\n\n              In the first half of the course, the textbook \"誤り訂正符号と暗号の基礎数理\" is used and you can learn cryptography especially ellipctic curve cryptography.\nIn the second half of the course, the textbook \"マスタリングTCP/IP　情報セキュリティ編\" is used. The students learn adaptation of security technique such as encryption and authentication to the Internet environment. The students also learn general network security. Understanding TCP/IP is important.\n\n              教科書および参考書・リザーブドブック\n\n              笠原正雄，佐竹賢治著：誤り訂正符号と暗号の基礎数理，コロナ社，2004\n齋藤孝道著：マスタリングTCP/IP 情報セキュリティ編，オーム社，2013\n\n              履修に必要な予備知識や技能\n\n              Taking \"Algebra for Computer Science\" helps to learn this course especially for the first half of the course.\nKnowledge about TCP/IP is required.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                M\n                Be able to explain the public-key cryptography\n\n                ②\n                M\n                Be able to explain the details of the discrete logarithm problem\n\n                ③\n                M\n                Be able to explain the encoding and decoding in elliptic curve cryptography\n\n                ④\n                M\n                Be able to explain authentication technique\n\n                ⑤\n                M\n                Be able to explain network security technique\n\n                ⑥\n                M\n                Be able to explain security technique for the hosts in networks\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                20\n\n                30\n\n                30\n\n                0\n\n                0\n\n                0\n\n                20\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                20\n\n                30\n\n                30\n\n                0\n\n                0\n\n                0\n\n                20\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                20\n\n                30\n\n                30\n\n                0\n\n                0\n\n                0\n\n                20\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  コラボレーションとリーダーシップ\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  発表・表現・伝達する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  ",
-  "courseId": "2026:fall:E541-01:0:337",
+  "rawText": "金沢工業大学 学習支援計画書 E638-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Electrical and Electronic Engineering(2018〜)\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n通信工学\nCommunication Engineering  2 E638-01  2024年度\n 3rd year 2nd semester  修学規程第4条を参照\n    担当教員名\n ITO Kenji\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Basic topology, QoS 2.Information 3.Digital modulation 4.Imperfection 5.Multiplex  This course introduced the basic topology of communication systems, properties of basic information like voices and videos, imperfection of transmission systems that makes data errors, basis of digital modulation/demodulation and multiplexing scheme. For each topic, basis and principle are explained with basic formulas.\n    授業の概要および学習上の助言   This course is constructed following chapters: i) Basic topology of telecommunication systems, ii) Basic properties of information (voice, video, data) on telecommunication systems, iii) Entropy of information, iv) Communication disturbance due to imperfections of transmission (noise, linear/non-linear distortion), v) Digital modulation/demodulation and its filtering techniques, vi) Multiplexing techniques (Frequency division multiplex, Time division multiplex, Code division multiplex,)\n    教科書および参考書・リザーブドブック   Yamashita, \"Tsuushin Kogaku Gairon 2nd edi.,\" Morikita pub.\n    履修に必要な予備知識や技能   Acquisition of Communication and Network Systems. Enough skill of mathematics (especially Fourier transfer) How to use a calculator.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① L Be able to understand and explain basis of telecommunication systems.   ② L Be able to understand and explain principles of voice/video coding/decoding schemes.   ③ L Be able to understand and explain baseband transmission.   ④ L Be able to understand and explain digital modulation/demodulation schemes.   ⑤ L Be able to understand and explain degradation factors on quality of communications.    ⑥ L Be able to understand and explain principles of multiplexing systems in communication systems.\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 40 20 40 0 0 0 0 100     指標と評価割合 総合評価割合 40 20 40 0 0 0 0 100   総合力指標 知識を取り込む力 40 20 40 0 0 0 0 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ There are two exams at the middle/end of the semester to evaluate the degree of the achievement. The calculator specified in this department can be used.    ② レ   ③ レ   ④ レ   ⑤ レ   ⑥ レ   クイズ\n小テスト ① レ There are tests when each chapter is finished to improvement the level of understanding. The calculator specified in this department can be used in every test. It is necessary to understand the idea behind the formula.    ② レ   ③ レ   ④ レ   ⑤ レ   ⑥ レ   レポート ① レ After the class of each chapter, there are reports to improvement the level of understanding, as homework.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥ レ   成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ①      ②     ③     ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     To explain the concept and principle of the items that are described in “target abilities for students. To explain meanings of the items that are described in “target abilities for students.\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習課題に要する標準的な時間を記載してあります。日々の自学自習時間全体としては、各授業に応じた時間(例えば2単位科目の場合、予習2時間・復習2時間/週)を取るよう努めてください。詳しくは教員の指導に従って下さい。     授業明細   回数 学習内容 授業の運営方法 学習課題(予習・復習) 時間:分※     1  1. Course introduction Lecture and Q&A Understand the objectives of class  200   2  2.Basic topology of telecommunication systems (1) - Basic config",
+  "courseId": "2024:spring:E630-01:0:337",
   "language": "en"
 }

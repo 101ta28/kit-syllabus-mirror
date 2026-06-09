@@ -1,53 +1,73 @@
 {
   "sourceIndex": 825,
   "sourceUrl": "/opsyllabus/kitos0110/825/1",
-  "importedAt": "2026-06-08T09:34:10.212Z",
-  "title": "電気数学Ⅱ",
-  "subtitle": "Mathematics for Electrical and Electronic Engineering II",
-  "courseType": "Major ProgramMajor Courses",
-  "credits": "2",
-  "term": "2026年度\n\n                1st year 1st semester",
+  "importedAt": "2026-06-09T01:29:26.893Z",
+  "title": "プロジェクトデザインⅢ(袴田佳宏研究室)",
+  "subtitle": "Design Project III(Hakamada Yoshihiro)",
+  "courseType": "Major Program\nMajor Project Courses",
+  "credits": "8",
+  "term": "2024年度\n All year",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "SHIMAUCHI Suehiro",
-    "FUJITA Hagino"
+    "HAKAMADA Yoshihiro"
   ],
   "keywords": [
-    "Electical & electronic engineering",
-    "Fundamental mathematics",
-    "Differential calculus",
-    "Integral calculus",
-    "Vectors"
+    "Biotechnology 2.Bacillus natto 3.Bioengineering 4.Genetic engineering 5.Regional cooperation"
   ],
-  "educationalGoal": "In this subject, students will learn fundamental mathematics related to electrical & electronic engineering, and will acquire basic knowledge of electric circuits, electromagnetism, and electronic circuits. The purpose of this subject is to develop the ability of applying fundamental mathematics to specific problems through physical and mathematical considerations. This subject is the basis of ``Electromagnetics I''.",
-  "advice": "Cultivation of mathematical skills\n\nStudents will learn the following mathematics that will be widely needed in the electrical & electronic fields.\n(1)Differential culcus deals with derivatives and derivative applications.\n(2)Integral culcus deals with indefinite integral, definite integral, line integral, and area integral.\n(3)Vectors deals with plane coordinates, spatial coordinates, scalar products, and vector products.",
-  "books": "A textbook written in Japanese will be used.",
-  "requiredKnowledge": "This subject is the basis of understanding electrical and electronic engineering. It is important to review mathematics (vectors, differential culcus, integral culcus) learned in high school. It is desirable to study areas that were not taken in high school using self-study and learning support systems in our university.",
+  "educationalGoal": "In modern society, technological development based on life science is expected. In recent years, microorganisms have become widely used in the fields of pharmaceuticals, environmental protection, waste recycling, material production, energy, and food. Students are required to acquire microbial knowledge and related technologies independently. In the Nebaaru project, students can learn the importance of regional collaboration.",
+  "advice": "The research themes in Project design III are listed below. Students are required to think and act independently. Students will acquire knowledge and techniques for problem solving through PD III activities. 1. Utilization of Bacillus natto (application for industry) -Tyrisinase inhibitor, LDH inhibitor, Production of Natto, Screening of Bacillus natto 2.Bioethnol production from Komb using marine microorganisms.",
+  "books": "None",
+  "requiredKnowledge": "Basic knowledge of biology, chemistry, physics, and statistics Basic experimental techniques Safety first",
   "activityGoals": [
     {
       "index": "①",
-      "type": "J",
-      "body": "To understand how to calculate basic and advanced problems related to this subject."
+      "type": "I,N,O",
+      "body": "Ability to understand life phenomena."
+    },
+    {
+      "index": "②",
+      "type": "K,I,O",
+      "body": "Ability to understand and manipulate life phenomena at the molecular and cellular level."
+    },
+    {
+      "index": "③",
+      "type": "K,L,O",
+      "body": "Ability to perform basic operations on proteins and biomolecules."
+    },
+    {
+      "index": "④",
+      "type": "I,M",
+      "body": "Ability to explain human senses and actions, and overall brain functions."
+    },
+    {
+      "index": "⑤",
+      "type": "M,N",
+      "body": "Ability to take basic measurements of human and biological senses, actions and brain functions."
+    },
+    {
+      "index": "⑥",
+      "type": "P",
+      "body": "Ability to create presentations and reports based on logical considerations."
     }
   ],
   "evaluationWeights": [
     {
       "label": "総合評価割合",
       "values": [
-        "30",
+        "0",
+        "0",
+        "40",
+        "40",
+        "0",
+        "0",
         "20",
-        "50",
-        "0",
-        "0",
-        "0",
-        "0",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -57,20 +77,20 @@
     {
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
-        "30",
+        "0",
+        "0",
+        "40",
+        "40",
+        "0",
+        "0",
         "20",
-        "50",
-        "0",
-        "0",
-        "0",
-        "0",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -80,20 +100,20 @@
     {
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
-        "30",
+        "0",
+        "0",
+        "40",
+        "40",
+        "0",
+        "0",
         "20",
-        "50",
-        "0",
-        "0",
-        "0",
-        "0",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -114,9 +134,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -124,7 +144,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -137,9 +157,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -160,9 +180,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -171,118 +191,48 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "The two target abilities are almost achieved, and interest and learning motivation for the following subjects are formed.",
-    "standard": "70% ~ 80% of the three target abilities are achieved"
+    "ideal": "Research objectives and achievements are presented properly. Research papers on a wide range of themes and create research plans independently. Summarize your research as a PD III report and write it logically.",
+    "standard": "Research objectives and achievements are presented properly."
   },
   "clipProcess": "",
   "lessons": [
     {
-      "index": "1",
-      "content": "Students will understand class management, goals\n, evaluation methods, etc.\n\n◆Understand the lecture policy for this subject\n.",
-      "operation": "Lecture and Q&A\nExercises\nSelf-inspection",
-      "assignments": "Review what you learned in cla\nss and solve related practice\nproblems. Prepare for\nthe next class.",
-      "minutes": "200"
+      "index": "1-8",
+      "content": "Literature surveys and experimental plans -Students are required to learn the basic operation of experimental equipment and tools.",
+      "operation": "Research and experiment Analysis of data and discussion",
+      "assignments": "Conduct over 100 hours of research.",
+      "minutes": ""
     },
     {
-      "index": "2",
-      "content": "Chapter 3 differentiation\n3.1 Differential method\n3.2 Differentiation of commonly-used functions",
-      "operation": "Lecture and Q&A\nExercises\nSelf-inspection",
-      "assignments": "Review what you have learned\nin class and solve related\nexercises. and solve the\nrelated exercises.\nPrepare for the next class.",
-      "minutes": "200"
+      "index": "9-18",
+      "content": "Literature surveys and experimental plans -Students are required to start research while formulating short-, medium- and long-term research plans.",
+      "operation": "Research and experiment Analysis of data and discussion",
+      "assignments": "Conduct over 100 hours of research.",
+      "minutes": ""
     },
     {
-      "index": "3",
-      "content": "Chapter 3 differentiation\n3.3 Application of differentiation",
-      "operation": "Lecture and Q&A\nExercises\nSelf-inspection",
-      "assignments": "Review what you have learned\nin class and solve related\nexercises. and solve the\nrelated exercises.\nPrepare for the next class.",
-      "minutes": "200"
+      "index": "19-40",
+      "content": "Literature surveys and experimental plans -Students are required to make an experimental plan using the PCDA cycle, while conducting research.",
+      "operation": "Research and experiment Analysis of data and discussion",
+      "assignments": "Conduct over 100 hours of research.",
+      "minutes": ""
     },
     {
-      "index": "4",
-      "content": "Chapter 4 Integration\n4.1 Indefinite integral",
-      "operation": "Lecture and Q&A\nExercises\nSelf-inspection",
-      "assignments": "Review what you have learned\nin class and solve related\nexercises. and solve the\nrelated exercises.\nPrepare for the next class.",
-      "minutes": "200"
+      "index": "41-49",
+      "content": "Literature surveys and experimental plans -Students are required to summarize the experimental results, while conducting research.",
+      "operation": "Research and experiment Analysis of data and discussion",
+      "assignments": "Conduct over 100 hours of research.",
+      "minutes": ""
     },
     {
-      "index": "5",
-      "content": "Chapter 4 Integration\n4.2 Definite integral",
-      "operation": "Lecture and Q&A\nExercises\nSelf-inspection",
-      "assignments": "Review what you have learned\nin class and solve related\nexercises. and solve the\nrelated exercises.\nPrepare for the next class.",
-      "minutes": "200"
-    },
-    {
-      "index": "6",
-      "content": "Chapter 4 Integration\n4.3 Application of integration\n\nA comprehensive review of the contents of the\nprevious classes will be conducted.",
-      "operation": "Lecture and Q&A\nExercises\nSelf-inspection",
-      "assignments": "Review what you have learned\nin class and solve related\nexercises. and solve the\nrelated exercises.\nPrepare for the next class.\n\nIn preparation for the\nmidterm exam, review what you\nhave learned so far in class.\nReview what you have learned\nin the previous lessons and\nsolve exercises in each\nchapter. and solve the\n exercises in each chapter.",
-      "minutes": "200"
-    },
-    {
-      "index": "7",
-      "content": "Mid-term examination\nStudents will take a mid-term examination on\nthe contents of the first through the sixth\nlessons.\nThe students will take a mid-term test on the\ncontents of the first through the sixth lessons.\n　\nReview\n　Through the explanation of the mid-term test,\nstudents will be able to understand \"what they\ncould understand\" and \"what they could not\nunderstand well enough\".\nand \"areas of insufficient understanding\"\nthrough explanations of the mid-term test, and\nprepare to apply the results to future studies.\nThe students will be prepared to make use of\nthis information in their future studies.",
-      "operation": "Mid-term exam and\nquestions\nSelf-inspection",
-      "assignments": "Review the mid-term\nexaminations and review the\nmaterial that you did not\nfully understand. review the\ncontent of the midterm exam\nand solve the exercises in\neach chapter. and solve the\nexercises in each chapter.",
-      "minutes": "200"
-    },
-    {
-      "index": "8",
-      "content": "Return of Midterm Exam and Feedback\n2.1 Fundamentals of Vectors\n2.2 Vectors and plane coordinates",
-      "operation": "Midterm Exam Commentary\nand Questions\nExercises\nSelf-examination",
-      "assignments": "Review the returned midterm\nexam. review the returned\nmid-term examinations and try\nto solve the problems Review\nthe returned mid-term\nexaminations and try to solve\nthe questions that were\nanswered incorrectly.\nPrepare for the next class.",
-      "minutes": "200"
-    },
-    {
-      "index": "9",
-      "content": "2.3 Vectors and spatial coordinates",
-      "operation": "Lecture and Q&A\nExercises\nSelf-inspection",
-      "assignments": "Review what you have learned\nin class and solve related\nexercises. and solve the\nrelated exercises.\nPrepare for the next class.",
-      "minutes": "200"
-    },
-    {
-      "index": "10",
-      "content": "2.4 Scalar product",
-      "operation": "Lecture and Q&A\nExercises\nSelf-inspection",
-      "assignments": "Review what you have learned\nin class and solve related\nexercises. and solve the\nrelated exercises.\nPrepare for the next class.",
-      "minutes": "200"
-    },
-    {
-      "index": "11",
-      "content": "2.5 Vector product",
-      "operation": "Lecture and Q&A\nExercises\nSelf-inspection",
-      "assignments": "Review what you have learned\nin class and solve related\nexercises. and solve the\nrelated exercises.\nPrepare for the next class.",
-      "minutes": "200"
-    },
-    {
-      "index": "12",
-      "content": "4.4 Line integrals and area integrals\n(line integrals)",
-      "operation": "Lecture and Q&A\nExercises\nSelf-inspection",
-      "assignments": "Review what you have learned\nin class and solve related\nexercises. and solve the\nrelated exercises.\nPrepare for the next class.",
-      "minutes": "200"
-    },
-    {
-      "index": "13",
-      "content": "4.4 Line integrals and area integrals\n(area integrals)\nA comprehensive review of the contents of the\nprevious classes will be conducted.",
-      "operation": "Lecture and Q&A\nExercises\nSelf-inspection",
-      "assignments": "Review what you have learned\nin class and solve related\nexercises. and solve the\nrelated exercises.\nPrepare for the next class.\n\nIn preparation for the final\nexam, review what you have\nlearned in the previous\nclasses. Review what you have\nlearned in the previous\nclasses and solve exercises\nin each chapter. and solve\nthe exercises in each\nchapter.",
-      "minutes": "200"
-    },
-    {
-      "index": "14",
-      "content": "Final Exam & Lectures",
-      "operation": "Examination\nLecture and Q&A",
-      "assignments": "Review the final exam and\nreview the material that you\ndid not fully understand.\nReview the final exam and\npractice questions in each\nchapter. and solve the\nexercises in the chapters.",
-      "minutes": "200"
-    },
-    {
-      "index": "15",
-      "content": "Return of final examinations and feedback\nConfirmation of grades\nReview exercises\nQuestionnaire",
-      "operation": "Explanation of the final\nexamination and questions\nCritique\nCompletion of\nquestionnaire\nSelf-inspection",
-      "assignments": "Review the returned\ncomprehensive examinations\nand try to solve the\nquestions that were answered\nincorrectly.",
-      "minutes": "200"
+      "index": "50-",
+      "content": "Literature surveys, experimental plans and summary of experimental results. -Making a Project Design III report and prepare for presentation",
+      "operation": "Creating a PD III report and presentation materials, such as presentation script and PowerPoint slides.",
+      "assignments": "Conduct over 60 hours of research. Data organization Prepare for presentation",
+      "minutes": ""
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　K302-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Electrical Energy Systems Engineering\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                電気数学Ⅱ\n                Mathematics for Electrical and Electronic Engineering II\n\n              2\n              K302-01\n\n                2026年度\n\n                1st year 1st semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  SHIMAUCHI Suehiro, FUJITA Hagino\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Electical & electronic engineering\n2.Fundamental mathematics\n3.Differential calculus\n4.Integral calculus\n5.Vectors\n\n              In this subject, students will learn fundamental mathematics related to electrical & electronic engineering, and will acquire basic knowledge of electric circuits, electromagnetism, and electronic circuits. The purpose of this subject is to develop the ability of applying fundamental mathematics to specific problems through physical and mathematical considerations. This subject is the basis of ``Electromagnetics I''.\n\n              授業の概要および学習上の助言\n\n              Cultivation of mathematical skills\n\nStudents will learn the following mathematics that will be widely needed in the electrical & electronic fields.\n(1)Differential culcus deals with derivatives and derivative applications.\n(2)Integral culcus deals with indefinite integral, definite integral, line integral, and area integral.\n(3)Vectors deals with plane coordinates, spatial coordinates, scalar products, and vector products.\n\n              教科書および参考書・リザーブドブック\n\n              A textbook written in Japanese will be used.\n\n              履修に必要な予備知識や技能\n\n              This subject is the basis of understanding electrical and electronic engineering. It is important to review mathematics (vectors, differential culcus, integral culcus) learned in high school. It is desirable to study areas that were not taken in high school using self-study and learning support systems in our university.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                J\n                To understand how to calculate basic and advanced problems related to this subject.\n\n                ②\n\n                ③\n\n                ④\n\n                ⑤\n\n                ⑥\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                30\n\n                20\n\n                50\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                30\n\n                20\n\n                50\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                30\n\n                20\n\n                50\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  コラボレーションとリーダーシップ\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  発表・表現・伝達する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  学習に取組む姿勢・意欲",
-  "courseId": "2026:spring:K302-01:0:825",
+  "rawText": "金沢工業大学 学習支援計画書 B922-08\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Applied Bioscience\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Project Courses\nプロジェクトデザインⅢ(袴田佳宏研究室)\nDesign Project III(Hakamada Yoshihiro)  8 B922-08  2024年度\n All year  修学規程第4条を参照\n    担当教員名\n HAKAMADA Yoshihiro\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Biotechnology 2.Bacillus natto 3.Bioengineering 4.Genetic engineering 5.Regional cooperation  In modern society, technological development based on life science is expected. In recent years, microorganisms have become widely used in the fields of pharmaceuticals, environmental protection, waste recycling, material production, energy, and food. Students are required to acquire microbial knowledge and related technologies independently. In the Nebaaru project, students can learn the importance of regional collaboration.\n    授業の概要および学習上の助言   The research themes in Project design III are listed below. Students are required to think and act independently. Students will acquire knowledge and techniques for problem solving through PD III activities. 1. Utilization of Bacillus natto (application for industry) -Tyrisinase inhibitor, LDH inhibitor, Production of Natto, Screening of Bacillus natto 2.Bioethnol production from Komb using marine microorganisms.\n    教科書および参考書・リザーブドブック   None\n    履修に必要な予備知識や技能   Basic knowledge of biology, chemistry, physics, and statistics Basic experimental techniques Safety first\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① I,N,O Ability to understand life phenomena.   ② K,I,O Ability to understand and manipulate life phenomena at the molecular and cellular level.   ③ K,L,O Ability to perform basic operations on proteins and biomolecules.   ④ I,M Ability to explain human senses and actions, and overall brain functions.   ⑤ M,N Ability to take basic measurements of human and biological senses, actions and brain functions.   ⑥ P Ability to create presentations and reports based on logical considerations.\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 0 0 40 40 0 0 20 100     指標と評価割合 総合評価割合 0 0 40 40 0 0 20 100   総合力指標 知識を取り込む力 0 0 40 40 0 0 20 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ①      ②     ③     ④     ⑤     ⑥     クイズ\n小テスト ①      ②     ③     ④     ⑤     ⑥     レポート ① レ Students will be evaluated on scientific and 2 or 3 logical reports. The falsifiability of the experimental results and considerations must be confirmed. Students are required to understand the experimental results and discussions correctly.    ② レ   ③ レ   ④ レ   ⑤ レ   ⑥ レ   成果発表\n(口頭・実技) ① レ Students will be evaluated on presentation materials, such as easy-to-understand PowerPoint slides. Students are required to accurately answer questions on their presentations.    ② レ   ③ レ   ④ レ   ⑤ レ   ⑥ レ   作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ① レ Attitudes toward laboratory work, presentations in the seminar, and research achievements are assessed.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥ レ\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     Research objectives and achievements are presented properly. Research papers on a wide range of themes and create research plans independently. Summarize your research as a PD III report and write it logically.  Research objectives and achievements are presented properly.\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習課題に要する標準的な時間を記載してあります。日々の自学自習時間全体としては、各授業に応じた時間(例えば2単位科目の場合、予習2時間・復習2時間/週)を取るよう努めてください。詳しくは教員の指導に従って下さい。     授業明細   回数 学習内容 授業の運営方法 学習課題(予習・復習) 時間:分※     1-8  Literature surveys and experimental plans -Students are requi",
+  "courseId": "2024:full-year:B922-11:0:825",
   "language": "en"
 }

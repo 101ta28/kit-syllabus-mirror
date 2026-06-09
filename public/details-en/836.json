@@ -1,66 +1,67 @@
 {
   "sourceIndex": 836,
   "sourceUrl": "/opsyllabus/kitos0110/836/1",
-  "importedAt": "2026-06-08T09:34:10.407Z",
-  "title": "電気回路Ⅲ",
-  "subtitle": "Electric Circuits III",
-  "courseType": "Major ProgramMajor Courses",
-  "credits": "2",
-  "term": "2026年度\n\n                2nd year 1st semester",
+  "importedAt": "2026-06-09T01:29:26.926Z",
+  "title": "物理学基礎実験",
+  "subtitle": "Basic Experiments in Physics",
+  "courseType": "Major Program\nOther Courses",
+  "credits": "1",
+  "term": "2024年度\n 2nd year 2nd semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "MIYAGI Katsunori"
+    "TANIGUCHI Masahiro",
+    "OKADA Go",
+    "KUSANO Eiji",
+    "HIGUCHI Masanori",
+    "TSUYUMOTO Isao"
   ],
   "keywords": [
-    "Mutual induction",
-    "Useful theorems",
-    "Two-port circuit",
-    "Phasor trajectory"
+    "Mechanics 2.Electromagnetism 3.Wave 4.Demonstration of physics experiment"
   ],
-  "educationalGoal": "In this class, including a review of Electric Circuit I and II, contents from the basic circuit combining resistance (R), inductance (L) or capacitance (C) and their combination to a slightly more complex AC circuit are learned. In the calculation of an AC circuit, it is no exaggeration to say that it is common sense to use a so-called symbolic solution using phasors and complex numbers. In the subsequent course Electric Circuit IV, the circuit analysis techniques using symbolic solution becomes the base for learning more advanced and complex analysis methods.",
-  "advice": "1 Mutual induction\n2 Useful theorems\n3 Two-port circuit\n4 Phasor trajectory\n\nIn addition, since the progress is adjusted while confirming the degree of understanding from the result of the quiz or the like, the schedule of the class and the learning content may be changed. Active learnings, that is, exercises, quizzes, presentation discussions, questions and answers, short breaks, etc. are conducted so that students concentrate on classes. Depending on the presence of Humanity and Nature Seminar, times and contents of review class may change (follow the instructions of the professor in charge)",
-  "books": "Basic electric circuit(2nd edition)New Edition, Morikita Publishing Co., Ltd.",
-  "requiredKnowledge": "In this course, it is important to solve more problems in order to understand the theory and put it into practice. Moreover, since it is the accumulation of learning one by one, daily continuous efforts are required. Therefore, you are required to do things like 1. Check various reference books, 2. Ask the professor in charge, 3. Use the Mathematics Education Center so that you can always clear things that you do not understand. In this classes, Mathematics such as simultaneous linear equations, determinants, matrices, differentiation / integration, basics of complex numbers, and trigonometric functions are utilized.",
+  "educationalGoal": "●To understand basic knowledge and skills for physics experiments, which include the basic operation of laboratory equipment and safety precautions. ●To understand the methods of data processing using computer. ●To design and conduct physics experiments, and to analyze and report the results of them. ●To plan, conduct, and teach physics experiments in the subject \"Science\" in secondary school.",
+  "advice": "This course mainly aims at students who wish to be science teachers at secondary school. Through learning basic physics experiments, students will acquire knowledge on how to operate laboratory equipment and safety necessary for conducting experiments in the subject \"Science\" of secondary school. Students will experience how to conduct experimental lessons in the subject \"Science\".",
+  "books": "",
+  "requiredKnowledge": "In order to teach Science at secondary school, it is necessary to understand knowledge of physics in senior high school. Therefore, students should review high school physics thoroughly before this course. This course does not only cover the contents specified in the Course of Study of Science, but also the laws of conservation of angular momentum in mechanics and Maxwell's equations in electromagnetism, which are useful for the subject \"Science\".",
   "activityGoals": [
     {
       "index": "①",
-      "type": "I",
-      "body": "The mutual induction phenomenon can be explained. The basic mutual induction can be analyzed."
+      "type": "I,J,K,L,Q,R,S",
+      "body": "Be able to conduct experiments using instruments and devices appropriately in reference to an experiment guide."
     },
     {
       "index": "②",
-      "type": "I",
-      "body": "The electric circuits can be solved using useful theorems."
+      "type": "I,J,K,L,Q,R,S",
+      "body": "Be able to process the data of the experimental results using a computer."
     },
     {
       "index": "③",
-      "type": "I",
-      "body": "In a two-terminal pair circuit, calculations using at least Z, Y, and F matrix."
+      "type": "I,J,K,L,Q,R,S",
+      "body": "Be able to consider experimental results and explain formula and rules."
     },
     {
       "index": "④",
-      "type": "I",
-      "body": "The problem of phasor trajectory can be solved using symbolic solutions."
+      "type": "I,J,K,L,Q,R,S",
+      "body": "Be able to design experiment plans and conduct them."
     }
   ],
   "evaluationWeights": [
     {
       "label": "総合評価割合",
       "values": [
-        "40",
-        "40",
+        "0",
+        "0",
+        "60",
         "20",
         "0",
         "0",
-        "0",
-        "0",
+        "20",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -70,20 +71,20 @@
     {
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
-        "40",
-        "40",
+        "0",
+        "0",
+        "60",
         "20",
         "0",
         "0",
-        "0",
-        "0",
+        "20",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -93,20 +94,20 @@
     {
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
-        "40",
-        "40",
+        "0",
+        "0",
+        "60",
         "20",
         "0",
         "0",
-        "0",
-        "0",
+        "20",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -127,9 +128,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -137,7 +138,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -150,9 +151,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -173,9 +174,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -184,118 +185,118 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "Slightly complicated problems of mutual induction circuit as in an application problem can be analyzed using symbolic solutions. Slightly complicated problems of electric circuit can be solved using  useful theorems.  Slightly complicated problems of derivation of Z, Y, and F parameters and transform from T-type to π-type (or vice versa) equivalent circuit as in application problems are solved. Slightly complicated problems of phasor trajectory are solved.  In order to achieve the above levels, the average for the exams, quizzes and reports is over 85%.",
-    "standard": "Basic problems of mutual induction circuit can be analyzed using symbolic solutions. Basic problems of electric circuit can be solved using useful theorems. Basic problems of derivation of Z, Y, and F parameters and transform from T-type to π-type (or vice versa) equivalent circuit are solved. Basic problems of phasor trajectory are solved. In order to achieve the above levels, the average for the exams, quizzes and reports is over 75%."
+    "ideal": "Understand the physical formulas and laws accurately, and design experiment plans necessary for understanding them in the lessons of physics. Prepare a physical experiment and conduct it safely in reference to an experiment guidebook by oneself. Process the data of the experiments in physics using a computer, and consider them based on physical formulas and laws appropriately.",
+    "standard": "Design experiment plans necessary for understanding them in the lessons of physics. Prepare a physical experiment and conduct it safely in reference to an experiment guidebook. Process the data of the experiments in physics using a computer, and consider them based on physical formulas and laws."
   },
   "clipProcess": "",
   "lessons": [
     {
       "index": "1",
-      "content": "Guidance\n\nMutual induction circuit (Textbook pp. 106-109)\n\nSelf-check",
-      "operation": "Explanation of the\ncontents of the Syllabus\nLectures on mutual\ninduction circuit.\nExercises and questions\nare conducted if\nnecessary.",
-      "assignments": "Preparation: Re-study the\nparts of the electrical\ncircuit I and II that are\nnot fully understood.\nPreparation: Read the contents\n(pp. 106-109).\nReview: Review the lecture\nnotes. If a homework is\nmade, complete the homework by\nthe deadline.",
+      "content": "Course guidance (the outline of this course, the significance of physical experiments on the subject \"Science\", safety education)",
+      "operation": "Lecture Experiment",
+      "assignments": "Create a report.",
       "minutes": "200"
     },
     {
       "index": "2",
-      "content": "Mutual induction (Textbook pp.109-111)\n\nSelf-check",
-      "operation": "Lectures on mutual\ninduction circuit.\nExercises and questions\nare conducted if\nnecessary",
-      "assignments": "Preparation:.Read the\ncontents (pp. 109-111).\nReview exercises\nReview: Review the lecture\nnotes. If there is an\ninsufficient understanding\nof the exercise, ask the\nprofessor in charge to solve\nit. If a homework is made,\ncomplete the homework by the\ndeadline.",
+      "content": "Motion of rigid body (1): law of conservation of angular momentum",
+      "operation": "Experiment",
+      "assignments": "Create a report.",
       "minutes": "200"
     },
     {
       "index": "3",
-      "content": "Mutual induction (Textbook pp.112-113)\n\nSelf-check",
-      "operation": "Explanation of\napplication problems\nrelated to the mutual\ninduction.\nIf necessary, a quiz on\nthe mutual induction is\nconducted and the content\nis explained.\nLectures on mutual\ninduction\nExercises and question\nare conducted if\nnecessary.",
-      "assignments": "Review: Review the lecture\nnotes on the phasor\ntrajectory. If there is an\ninsufficient understanding\nof the exercise, ask the\nprofessor in charge to solve\nit. If there is a quiz,\nselfcheck the answer.\nComplete the homework by\nthe deadline.",
+      "content": "Motion of rigid body (2): cylinder rolling down slope",
+      "operation": "Experiment",
+      "assignments": "Create a report.",
       "minutes": "200"
     },
     {
       "index": "4",
-      "content": "Useful theorems (Textbook pp.121-122)\n\nSelf-check",
-      "operation": "Lectures on useful\ntheorems.\nExercises and questions\nare conducted if\nnecessary",
-      "assignments": "Preparation: Read the\ncontents (pp. 121-122).\nIf there is a quiz, study\nenough.\nReview: Review the lecture\nnotes on the useful theorems.\nIf there is an insufficient\nunderstanding of the\nexercise, ask the professor\nin charge to solve it.\nComplete the homework by\nthe deadline.",
+      "content": "Motion of simple pendulum (1): measurement of period",
+      "operation": "Experiment",
+      "assignments": "Create a report.",
       "minutes": "200"
     },
     {
       "index": "5",
-      "content": "Useful theorems (Textbook pp.122-124)\n\nSelf-check",
-      "operation": "Lectures on useful\ntheorems.\nExercises and questions\nare conducted if necessary",
-      "assignments": "Preparation: Read the\ncontents (pp. 122-124).\nIf there is a quiz, study\nenough.\nReview: Review the lecture\nnotes on the useful theorems.\nIf there is an insufficient\nunderstanding of the exercise,\n ask the professor in\ncharge to solve it.\nComplete the homework by the\ndeadline.",
+      "content": "Motion of simple pendulum (2): measurement of damped vibration amplitude",
+      "operation": "Experiment",
+      "assignments": "Create a report.",
       "minutes": "200"
     },
     {
       "index": "6",
-      "content": "Useful theorems (Textbook pp.124-127)\n\nSelf-check",
-      "operation": "Lectures on useful\ntheorems.\nExercises and questions\nare conducted if necessary",
-      "assignments": "Preparation: Read the contents\n(pp. 124-127). If there is a\nquiz, study enough.\nReview: Review the lecture\nnotes on the useful theorems.\nIf there is an insufficient\nunderstanding of the\nexercise, ask the professor\nin charge to solve it.\nIf there is a quiz,\nself-check the answer.\nComplete the homework by the\ndeadline.",
+      "content": "Optics (1): measurement of refractive index of liquid and glass",
+      "operation": "Experiment",
+      "assignments": "Create a report.",
       "minutes": "200"
     },
     {
       "index": "7",
-      "content": "Review about contents learned in between No.1\nand 6 classes. 　\n\nSelf-check",
-      "operation": "A general discussion is\nheld on the contents of\nthe lectures so far.\nIf necessary, problems\nare presented and are\nresolved within the\nlecture time.\nIf necessary,\nretrospective exercises\nand explanations are\nconducted.\nIf necessary, a temporary\ntest can be conducted.\nSelf-check of class 1 to\n6, and confirm the\ndegree of achievement\nof the program\nobjectives.",
-      "assignments": "Preparation: Review the\nlecture notes. If there are\nany questions in the\nexercises or quizzes, they\nare resolved before the\nlecture.\nReview: Look back on the\ncontents of the lecture.\nIf there is insufficient\nunderstanding, ask the\nprofessor in charge to solve\nit. If a homework is made,\ncomplete the homework by\nthe deadline.",
+      "content": "Optics (2): light diffraction and interference by a diffraction grating",
+      "operation": "Experiment",
+      "assignments": "Create a report.",
       "minutes": "200"
     },
     {
       "index": "8",
-      "content": "Two-port circuit (Textbook pp. 140-143)\n\nSelf-check",
-      "operation": "Lectures on two-port\ncircuit.\nExercises and questions\nare conducted if\nnecessary",
-      "assignments": "Preparation: Read the\ncontents of sections 14.1 and\n14.2 (pp.140-143) regarding\nthe two-port circuit\n(Z, Y, and F matrix).\nReview: Review the lecture\nnotes. If there is an\ninsufficient understanding\nof the exercise, ask the\nprofessor in charge to\nsolve it. If a homework is\nmade, complete the homework\nby the deadline.",
+      "content": "Measurement of electric resistance (1): DC two terminal method",
+      "operation": "Experiment",
+      "assignments": "Create a report.",
       "minutes": "200"
     },
     {
       "index": "9",
-      "content": "Two-port circuit (Textbook pp.144-148)\n\nSelf-check",
-      "operation": "Lectures on two-port\ncircuit.\nExercises and questions\nare conducted if\nnecessary",
-      "assignments": "Preparation: Try the examples\nin Chapter 14 (pp.142-143)\nand exercises (pp.148-149).\nAlso read the contents of the\ntextbooks (p.144, p.147-148,\npp.146-147) on the two-port\n circuit (F parameter,\nimpedance conversion, T-π\ntransform).\nReview: Review the lecture\nnotes. If there is an\ninsufficient understanding\nof the exercise, ask the\nprofessor in charge to\nsolve it. If a homework is\nmade, complete the homework\nby the deadline.",
+      "content": "Measurement of electric resistance (2): DC four terminal method",
+      "operation": "Experiment",
+      "assignments": "Create a report.",
       "minutes": "200"
     },
     {
       "index": "10",
-      "content": "Applications of two-port circuit\n(Materials will be distributed if necessary)\n\nSelf-check",
-      "operation": "Lectures on two-port\ncircuit.\nThere may be cases where\na quiz on the two-port\ncircuit and explanation\nare given",
-      "assignments": "Use the exercises in Chapter\n14 (pp.148-149) to enable\ncalculations such as T-π\ntransform, cascade\nconnection, and impedance\nconversion using F parameters.\nIf necessary, review\nexercises. If there is a\nquiz, study enough.\nReview: Review the lecture\nnotes. If there is an\ninsufficient understanding\nof the exercise, ask the\nprofessor in charge to\nsolve it. If a homework is\nmade, complete the homework\nby the deadline.",
+      "content": "Application of oscilloscope (1): principle and usage",
+      "operation": "Experiment",
+      "assignments": "Create a report.",
       "minutes": "200"
     },
     {
       "index": "11",
-      "content": "Phasor trajectory (Textbook pp.150-155)\n\nSelf-check",
-      "operation": "Lectures on Phasor\ntrajectory.\nExercises and questions\nare conducted if\nnecessary",
-      "assignments": "Preparation: Read the contents\nof Section 9.2 (pp. 79-84).\nReview: If there is an\ninsufficient understanding\nof the exercise, ask the\nprofessor in charge to\nsolve it. Review the lecture\nnotes on the phasor\ntrajectory. Complete the\nhomework by the deadline.",
+      "content": "Application of oscilloscope (2): AC circuit",
+      "operation": "Experiment",
+      "assignments": "Create a report.",
       "minutes": "200"
     },
     {
       "index": "12",
-      "content": "Phasor trajectory (Textbook pp.155-156)\n\nSelf-check",
-      "operation": "Lectures on Phasor\ntrajectory. There may be\ncases where a  quiz on\nthe phasor trajectory\nand explanation are given.",
-      "assignments": "Preparation: Solve textbook\nexamples (pp.155-156) and\ndistributed exercises.\nReview: Review the lecture\nnotes. If the content is\nnot fully understood, ask\nthe professor in charge\nto resolve it before the\nclass starts. Complete\nthe homework by the\ndeadline.",
+      "content": "Sound wave resonance (1): measure of speed of sound in air",
+      "operation": "Experiment",
+      "assignments": "Create a report.",
       "minutes": "200"
     },
     {
       "index": "13",
-      "content": "Review about contents of No.1 to 12 classes.\n\nSelf-check\n\nAdvanced learning",
-      "operation": "Conduct exercises and\ndiscussion on the\ncontents of No.1 to 12\nclasses.\nThe problem will be\npresented if necessary.\nSolve in class time.\nAdvanced learning\n(Three-phase circuit,\nDistributed constant\ncircuit).",
-      "assignments": "Preparation: Review the\nlecture notes. If there are\nany questions in the\nexercises or quizzes, they\nare resolved before the\nlecture.\nReview: Look back on the\ncontents of the lecture.\nIf there is insufficient\nunderstanding, ask the\nprofessor in charge to solve\nit. If a homework is made,\ncomplete the homework by the\ndeadline.",
+      "content": "Sound wave resonance (2): measure of speed of sound in helium",
+      "operation": "Experiment",
+      "assignments": "Create a report.",
       "minutes": "200"
     },
     {
       "index": "14",
-      "content": "Final exam\n\nSelf-check",
-      "operation": "The final exam is\nconducted on the contents\nof No.1 to 12 classes.\nIf necessary,\nexplanations and\nexercises are given\nafter the final exam.",
-      "assignments": "Preparation: Review the\nlecture notes so far, and if\nthere are unclear points in\nthe exercises and quizzes,\nresolve them before the\nlecture. If it cannot be\nresolved, it will be the\nsubject of general discussion.\nReview: Review the content of\nthe classes. If there is\ninsufficient understanding,\nask task the professor in\ncharge to solve it. If a\nhomework is made, complete\nthe homework by the deadline.",
+      "content": "Natural vibration of string",
+      "operation": "Experiment",
+      "assignments": "Create a report.",
       "minutes": "200"
     },
     {
       "index": "15",
-      "content": "Review of final exam\n\nSelf-check",
-      "operation": "Review the entire lecture\ncontent.\nConfirm final evaluation.\nAnswer the class\nquestionnaire.",
-      "assignments": "Preparation: If there are\nadditional tasks, complete\nthem and submit them by the\ndeadline.\nTry to self-check and clear\nwhere your understanding of\nthe final test and the past\nquestions quizzes and reports\nis insufficient.",
+      "content": "The plan of demonstration experiment and presentation The summary of this course",
+      "operation": "Presentation Announcement of grades Comment Reflection",
+      "assignments": "Create a report.",
       "minutes": "200"
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　K309-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Electrical Energy Systems Engineering\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                電気回路Ⅲ\n                Electric Circuits III\n\n              2\n              K309-01\n\n                2026年度\n\n                2nd year 1st semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  MIYAGI Katsunori\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Mutual induction\n2.Useful theorems\n3.Two-port circuit\n4.Phasor trajectory\n\n              In this class, including a review of Electric Circuit I and II, contents from the basic circuit combining resistance (R), inductance (L) or capacitance (C) and their combination to a slightly more complex AC circuit are learned. In the calculation of an AC circuit, it is no exaggeration to say that it is common sense to use a so-called symbolic solution using phasors and complex numbers. In the subsequent course Electric Circuit IV, the circuit analysis techniques using symbolic solution becomes the base for learning more advanced and complex analysis methods.\n\n              授業の概要および学習上の助言\n\n              1 Mutual induction\n2 Useful theorems\n3 Two-port circuit\n4 Phasor trajectory\n\nIn addition, since the progress is adjusted while confirming the degree of understanding from the result of the quiz or the like, the schedule of the class and the learning content may be changed. Active learnings, that is, exercises, quizzes, presentation discussions, questions and answers, short breaks, etc. are conducted so that students concentrate on classes. Depending on the presence of Humanity and Nature Seminar, times and contents of review class may change (follow the instructions of the professor in charge)\n\n              教科書および参考書・リザーブドブック\n\n              Basic electric circuit(2nd edition)New Edition, Morikita Publishing Co., Ltd.\n\n              履修に必要な予備知識や技能\n\n              In this course, it is important to solve more problems in order to understand the theory and put it into practice. Moreover, since it is the accumulation of learning one by one, daily continuous efforts are required. Therefore, you are required to do things like 1. Check various reference books, 2. Ask the professor in charge, 3. Use the Mathematics Education Center so that you can always clear things that you do not understand. In this classes, Mathematics such as simultaneous linear equations, determinants, matrices, differentiation / integration, basics of complex numbers, and trigonometric functions are utilized.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                I\n                The mutual induction phenomenon can be explained. The basic mutual induction can be analyzed.\n\n                ②\n                I\n                The electric circuits can be solved using useful theorems.\n\n                ③\n                I\n                In a two-terminal pair circuit, calculations using at least Z, Y, and F matrix.\n\n                ④\n                I\n                The problem of phasor trajectory can be solved using symbolic solutions.\n\n                ⑤\n\n                ⑥\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                40\n\n                40\n\n                20\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                40\n\n                40\n\n                20\n\n                0\n\n                0\n\n                0\n\n                0\n\n              ",
-  "courseId": "2026:spring:K309-01:0:836",
+  "rawText": "金沢工業大学 学習支援計画書 G951-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nOther\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nOther Courses\n物理学基礎実験\nBasic Experiments in Physics  1 G951-01  2024年度\n 2nd year 2nd semester  修学規程第4条を参照\n    担当教員名\n TANIGUCHI Masahiro, OKADA Go, KUSANO Eiji, HIGUCHI Masanori, TSUYUMOTO Isao\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Mechanics 2.Electromagnetism 3.Wave 4.Demonstration of physics experiment  ●To understand basic knowledge and skills for physics experiments, which include the basic operation of laboratory equipment and safety precautions. ●To understand the methods of data processing using computer. ●To design and conduct physics experiments, and to analyze and report the results of them. ●To plan, conduct, and teach physics experiments in the subject \"Science\" in secondary school.\n    授業の概要および学習上の助言   This course mainly aims at students who wish to be science teachers at secondary school. Through learning basic physics experiments, students will acquire knowledge on how to operate laboratory equipment and safety necessary for conducting experiments in the subject \"Science\" of secondary school. Students will experience how to conduct experimental lessons in the subject \"Science\".\n    教科書および参考書・リザーブドブック\n    履修に必要な予備知識や技能   In order to teach Science at secondary school, it is necessary to understand knowledge of physics in senior high school. Therefore, students should review high school physics thoroughly before this course. This course does not only cover the contents specified in the Course of Study of Science, but also the laws of conservation of angular momentum in mechanics and Maxwell's equations in electromagnetism, which are useful for the subject \"Science\".\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① I,J,K,L,Q,R,S Be able to conduct experiments using instruments and devices appropriately in reference to an experiment guide.   ② I,J,K,L,Q,R,S Be able to process the data of the experimental results using a computer.   ③ I,J,K,L,Q,R,S Be able to consider experimental results and explain formula and rules.   ④ I,J,K,L,Q,R,S Be able to design experiment plans and conduct them.   ⑤     ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 0 0 60 20 0 0 20 100     指標と評価割合 総合評価割合 0 0 60 20 0 0 20 100   総合力指標 知識を取り込む力 0 0 60 20 0 0 20 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ①      ②     ③     ④     ⑤     ⑥     クイズ\n小テスト ①      ②     ③     ④     ⑤     ⑥     レポート ① レ Students will write reports on the details of the experiments performed in each class. The reports will be evaluated whether the relationship between physical formulas and laws and the purpose of the experiment is accurately understood.   ② レ   ③ レ   ④     ⑤     ⑥     成果発表\n(口頭・実技) ①   At the last class, students make a plan and present a demonstration experiment suitable for the physics in secondary school. The plan may be an improved physical experiment performed in class 1-14 or a new one. It will be evaluated whether the students accurately understand the contents of the physical experiment and whether the contents of the experiment are appropriate for instruction.   ②     ③ レ   ④ レ   ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ① レ In conducting a physical experiment in secondary school, leadership in experiments and communication with collaborators are important. Students will be evaluated whether they will demonstrate these elements in the experiments.   ② レ   ③ レ   ④ レ   ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     Understand the physical formulas and laws accurately, and design experiment plans necessary for understanding them in the lessons of physics. Prepare a physical experiment and conduct it safely in reference to an experiment guidebook by",
+  "courseId": "2024:spring:G952-01:0:836",
   "language": "en"
 }

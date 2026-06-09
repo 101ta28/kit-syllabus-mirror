@@ -1,71 +1,73 @@
 {
   "sourceIndex": 402,
   "sourceUrl": "/opsyllabus/kitos0110/402/1",
-  "importedAt": "2026-06-08T09:34:01.266Z",
-  "title": "メディアデザイン",
-  "subtitle": "Media Design",
-  "courseType": "Major ProgramMajor Courses",
+  "importedAt": "2026-06-09T01:29:22.833Z",
+  "title": "デジタル通信と信号処理",
+  "subtitle": "Digital Communications and Signal Processing",
+  "courseType": "Major Program\nMajor Courses",
   "credits": "2",
-  "term": "2026年度\n\n                3rd year 1st semester",
+  "term": "2024年度\n 3rd year 1st semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "IZUHARA Ritsuko"
+    "MUKAI Hiroaki"
   ],
   "keywords": [
-    "Media Design",
-    "Media contents",
-    "Image composition",
-    "XR (VR, AR, MR)"
+    "Discrete time signal and frequency characteristics 2.z-transform and transfer function 3.Sampling theorem 4.Discrete Fourier transform and FFT 5.Modulation/demodulation and multiple access"
   ],
-  "educationalGoal": "This course introduces excellent examples of design and art using media technology. Its purpose is to help students to understand how to use media technology in order to create design value. Content examples using XR technology such as VR, AR, and MR are also introduced.\n\nIn addition, students will acquire the basic methods of visual expression and interactive expression using graphic software and codes.",
-  "advice": "This course introduces excellent examples of design and art using media technology. Its purpose is to help students to understand how to use media technology in order to create design value. Content examples using XR (VR, AR, MR) technology  are also introduced.\n\nFurthermore, students will:\n1) Understand the basic methods of visual expression and interactive expression using graphic software and codes.\n2) Acquire basic visual theory of visual representation such as harmony, proportion, and balance.\n3) Acquire mathematical concepts such as symmetry, the Fibonacci Sequence, and the Golden Ratio, which are the basics of visual expression, and then practice visual expression based on those concepts.\n4) Create original image expressions by coding.",
-  "books": "None.",
-  "requiredKnowledge": "Programming skill is required.\n\nDrawing experience using a paint software application is necessary.",
+  "educationalGoal": "Analog signals such as voice, music, images, and video are digitized and processed. Digital signal processing can be implemented as a computer program, which enables flexible and complex processing. In this course, students will learn the basics of digital signal processing by digitizing analog signals such as audio and video. They will also learn the basics of digital communications achieved by digital signal processing.",
+  "advice": "Students will systematically learn the following basic knowledge and theory about digital signal processing and digital communication: 1. Discrete time signals and systems. 2. Frequency characteristics of discrete-time systems. 3. z-transform and transfer function. 4. Sampling theorem. 5. Discrete Fourier transform (DFT) and fast Fourier transform (FFT). 6. Digital filter design method. 7. Baseband transmission, modulation/demodulation and multiple access.",
+  "books": "Textbooks: Reference books: Reserved books:",
+  "requiredKnowledge": "Knowledge of the basics of mathematics such as exponential functions, trigonometric functions, complex numbers, and linear algebra is required. It is desirable that students have knowledge of probability statistics, Fourier transform, and Laplace transform. These are introduced in this course. Numerical calculation software such as Excel are used in the practices.",
   "activityGoals": [
     {
       "index": "①",
-      "type": "E,L,M",
-      "body": "Be able to understand examples of design and art using media technology."
+      "type": "K,L,M",
+      "body": "Understand and apply the convolution sum and frequency characteristics of discrete-time signals."
     },
     {
       "index": "②",
-      "type": "E,L,M",
-      "body": "Be able to understand examples of contents using XR."
+      "type": "K,L,M",
+      "body": "Understand and apply the relationship between z-transform, the transfer function and circuit."
     },
     {
       "index": "③",
-      "type": "E,H,I,L,M",
-      "body": "Be able to construct images based on visual theory."
+      "type": "K,L,M",
+      "body": "Understand and apply the sampling theorem."
     },
     {
       "index": "④",
-      "type": "E,H,I,L,M",
-      "body": "Be able to create media contents such as dynamic image expressions."
+      "type": "K,L,M",
+      "body": "Understand and apply DFT and its fast calculation method."
     },
     {
       "index": "⑤",
-      "type": "E,H,I,L,M",
-      "body": "Be able to generate digital images by coding."
+      "type": "K,L,M",
+      "body": "Understand the basics of digital filter design."
+    },
+    {
+      "index": "⑥",
+      "type": "K,L,M",
+      "body": "Understand the basics of modulation/demodulation and multiple access."
     }
   ],
   "evaluationWeights": [
     {
       "label": "総合評価割合",
       "values": [
+        "40",
+        "30",
+        "30",
         "0",
         "0",
-        "20",
-        "10",
-        "60",
         "0",
-        "10",
+        "0",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -75,20 +77,20 @@
     {
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
+        "40",
+        "30",
+        "30",
         "0",
         "0",
-        "20",
-        "10",
-        "60",
         "0",
-        "10",
+        "0",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -98,20 +100,20 @@
     {
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
+        "40",
+        "30",
+        "30",
         "0",
         "0",
-        "20",
-        "10",
-        "60",
         "0",
-        "10",
+        "0",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -132,9 +134,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -142,7 +144,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -155,9 +157,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -178,9 +180,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -189,118 +191,118 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "Satisfy 90% or higher achievement rate for student target abilities.",
-    "standard": "Satisfy 75 to 85% of evaluation criteria for student target abilities."
+    "ideal": "Students can systematically explain the following items related to digital signal processing. 1. Convolution sum and frequency characteristics of discrete-time signals. 2. z-transform and transfer function. 3. Sampling theorem. 4. Discrete Fourier transform and its Fast Fourier transform 5. Digital filter design. 6. Modulation/demodulation and multiple access. Moreover, students can systematically explain the basic mechanisms of digital communications.",
+    "standard": "Students can explain the basic contents of the following items related to digital signal processing. 1. Convolution sum and frequency characteristics of discrete-time signals. 2. z-transform and transfer function. 3. Sampling theorem. 4. Discrete Fourier transform and its fast Fourier transform 5. Digital filter design. 6. Modulation/demodulation and multiple access Moreover, students can explain the basic mechanisms of digital communications."
   },
   "clipProcess": "",
   "lessons": [
     {
       "index": "1",
-      "content": "Course introduction\nIntroduce excellent examples of design and art\nusing media technology :\nThe 20th and 21st century",
-      "operation": "Lecture\nSelf-reflection",
-      "assignments": "Review\nAssignment",
-      "minutes": "120"
+      "content": "Course introduction Overview of digital signal processing",
+      "operation": "Lectures and practices",
+      "assignments": "Review mathematical basics in advance. Deepen understanding through review and self-reflection.",
+      "minutes": "Prepar ation and review 100"
     },
     {
       "index": "2",
-      "content": "Introduce excellent examples of contents using X\nR(VR, AR, MR) technology.",
-      "operation": "Lecture\nSelf-reflection",
-      "assignments": "Review",
-      "minutes": "90"
+      "content": "Discrete time signal",
+      "operation": "Lectures and practices",
+      "assignments": "Preparation/reviews and self-reflection regarding lesson content. Review of practices.",
+      "minutes": "Prepar ation and review 100"
     },
     {
       "index": "3",
-      "content": "Basic Visual Expression 1\n\nHarmony, Proportion, Balance\nLayout using Grid System\n\nPractice (Adobe Software)",
-      "operation": "Lecture\nSelf-reflection",
-      "assignments": "Review,",
-      "minutes": "60"
+      "content": "Fourier analysis",
+      "operation": "Lectures and practices",
+      "assignments": "Preparation/reviews and self-reflection regarding lesson content. Review of practices.",
+      "minutes": "Prepar ation and review 100"
     },
     {
       "index": "4",
-      "content": "Basic Visual Expression 2\n\nImage construction consisted of basic figures.",
-      "operation": "Lecture\nSelf-reflection",
-      "assignments": "Review",
-      "minutes": "90"
+      "content": "Discrete-time Fourier transform and sampling theorem",
+      "operation": "Lectures and practices",
+      "assignments": "Preparation/reviews and self-reflection regarding lesson content. Review of practices.",
+      "minutes": "Prepar ation and review 100"
     },
     {
       "index": "5",
-      "content": "Dynamic visual expression 1",
-      "operation": "Lecture\nSelf-reflection",
-      "assignments": "Review,",
-      "minutes": "90"
+      "content": "Discrete Fourier transform",
+      "operation": "Lectures and practices",
+      "assignments": "Preparation/reviews and self-reflection regarding lesson content. Review of practices.",
+      "minutes": "Prepar ation and review 100"
     },
     {
       "index": "6",
-      "content": "Dynamic visual expression 2\n\nPractice (Symmetry, motion graphics)",
-      "operation": "Lecture\nPractice\nSelf-reflection",
-      "assignments": "Review,",
-      "minutes": "90"
+      "content": "Fast Fourier transform",
+      "operation": "Lectures and practices",
+      "assignments": "Preparation/reviews and self-reflection regarding lesson content. Review of practices.",
+      "minutes": "Prepar ation and review 100"
     },
     {
       "index": "7",
-      "content": "Dynamic visual expression 3\n\nOriginal Work",
-      "operation": "Lecture\nSelf-reflection",
-      "assignments": "Review,\nAssignment",
-      "minutes": "120"
+      "content": "Review and quiz",
+      "operation": "Lectures and quiz",
+      "assignments": "Preparation/reviews and self-reflection regarding lesson content. Review of practices.",
+      "minutes": "Prepar ation and review 100"
     },
     {
       "index": "8",
-      "content": "Dynamic visual expression 4\n\nOriginal work",
-      "operation": "Lecture\nPractice\nSelf-reflection",
-      "assignments": "Review\nAssignment",
-      "minutes": "120"
+      "content": "linear time invariant system, Convolution sum",
+      "operation": "Lectures and practices",
+      "assignments": "Preparation/reviews and self-reflection regarding lesson content. Review of practices.",
+      "minutes": "Prepar ation and review 100"
     },
     {
       "index": "9",
-      "content": "Dynamic visual expression 4\n\nPresentation",
-      "operation": "Review",
-      "assignments": "Preparation for presentation",
-      "minutes": "90"
+      "content": "z-transform and system transfer function",
+      "operation": "Lectures and practices",
+      "assignments": "Preparation/reviews and self-reflection regarding lesson content. Review of practices.",
+      "minutes": "Prepar ation and review 100"
     },
     {
       "index": "10",
-      "content": "Coding visual representation\n\nMathematical modeling\nSymmetry, Fibonacci Sequence, and Golden Ratio",
-      "operation": "Lecture\nPractice\nSelf-reflection",
-      "assignments": "Review",
-      "minutes": "60"
+      "content": "System stability and frequency characteristics",
+      "operation": "Lectures and practices",
+      "assignments": "Preparation/reviews and self-reflection regarding lesson content. Review of practices.",
+      "minutes": "Prepar ation and review 100"
     },
     {
       "index": "11",
-      "content": "Generative algorithms of shapes 1\n\nPractice visual expression based on the concepts",
-      "operation": "Lecture\nPractice\nSelf-reflection",
-      "assignments": "Review",
-      "minutes": "90"
+      "content": "Digital filter",
+      "operation": "Lectures and practices",
+      "assignments": "Preparation/reviews and self-reflection regarding lesson content. Review of practices.",
+      "minutes": "Prepar ation and review 100"
     },
     {
       "index": "12",
-      "content": "Generative algorithms of shapes 2\nPractice visual expression based on the concepts",
-      "operation": "Lecture\nPractice\nSelf-reflection",
-      "assignments": "Review,\nAssignment",
-      "minutes": "120"
+      "content": "Modeling of communication systems and baseband transmission",
+      "operation": "Lectures and practices",
+      "assignments": "Preparation/reviews and self-reflection regarding lesson content. Review of practices.",
+      "minutes": "Prepar ation and review 100"
     },
     {
       "index": "13",
-      "content": "Generative algorithms of shapes 3\nPractice visual expression based on the\nconcepts.",
-      "operation": "Lecture\nPractice\nSelf-reflection",
-      "assignments": "Review",
-      "minutes": "120"
+      "content": "Modulation/demodulation and multiple access",
+      "operation": "Lectures and practices",
+      "assignments": "Preparation/reviews and self-reflection regarding lesson content. Review of practices.",
+      "minutes": "Prepar ation and review 100"
     },
     {
       "index": "14",
-      "content": "Integrated learning: presentation of final\nassignment work\n\nPresentation",
-      "operation": "Presentation,\nEvaluation",
-      "assignments": "Preparation for presentation\nReview",
-      "minutes": "120"
+      "content": "Review and exams",
+      "operation": "Lectures and exams",
+      "assignments": "Preparation/reviews and self-reflection regarding lesson content. Review of practices.",
+      "minutes": "Prepar ation and review 100"
     },
     {
       "index": "15",
-      "content": "Self-evaluation",
-      "operation": "Lecture\nSelf-evaluation",
-      "assignments": "Review",
-      "minutes": "60"
+      "content": "Comprehensive learning",
+      "operation": "Explanation of the exam answers Indication of temporal score of the course/ self-reflection",
+      "assignments": "Comprehensive review and self-reflection. Review of exams.",
+      "minutes": "Prepar ation and review 100"
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　F024-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Media Informatics(〜2024)\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                メディアデザイン\n                Media Design\n\n              2\n              F024-01\n\n                2026年度\n\n                3rd year 1st semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  IZUHARA Ritsuko\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Media Design\n2.Media contents\n3.Image composition\n4.XR (VR, AR, MR)\n\n              This course introduces excellent examples of design and art using media technology. Its purpose is to help students to understand how to use media technology in order to create design value. Content examples using XR technology such as VR, AR, and MR are also introduced.\n\nIn addition, students will acquire the basic methods of visual expression and interactive expression using graphic software and codes.\n\n              授業の概要および学習上の助言\n\n              This course introduces excellent examples of design and art using media technology. Its purpose is to help students to understand how to use media technology in order to create design value. Content examples using XR (VR, AR, MR) technology  are also introduced.\n\nFurthermore, students will:\n1) Understand the basic methods of visual expression and interactive expression using graphic software and codes.\n2) Acquire basic visual theory of visual representation such as harmony, proportion, and balance.\n3) Acquire mathematical concepts such as symmetry, the Fibonacci Sequence, and the Golden Ratio, which are the basics of visual expression, and then practice visual expression based on those concepts.\n4) Create original image expressions by coding.\n\n              教科書および参考書・リザーブドブック\n\n              None.\n\n              履修に必要な予備知識や技能\n\n              Programming skill is required.\n\nDrawing experience using a paint software application is necessary.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                E,L,M\n                Be able to understand examples of design and art using media technology.\n\n                ②\n                E,L,M\n                Be able to understand examples of contents using XR.\n\n                ③\n                E,H,I,L,M\n                Be able to construct images based on visual theory.\n\n                ④\n                E,H,I,L,M\n                Be able to create media contents such as dynamic image expressions.\n\n                ⑤\n                E,H,I,L,M\n                Be able to generate digital images by coding.\n\n                ⑥\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                0\n\n                0\n\n                20\n\n                10\n\n                60\n\n                0\n\n                10\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                0\n\n                0\n\n                20\n\n                10\n\n                60\n\n                0\n\n                10\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                0\n\n                0\n\n                20\n\n                10\n\n                60\n\n                0\n\n                10\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  コラボレーションとリーダーシップ\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n ",
-  "courseId": "2026:spring:F024-01:0:402",
+  "rawText": "金沢工業大学 学習支援計画書 E522-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Information and Computer Science\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\nデジタル通信と信号処理\nDigital Communications and Signal Processing  2 E522-01  2024年度\n 3rd year 1st semester  修学規程第4条を参照\n    担当教員名\n MUKAI Hiroaki\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Discrete time signal and frequency characteristics 2.z-transform and transfer function 3.Sampling theorem 4.Discrete Fourier transform and FFT 5.Modulation/demodulation and multiple access  Analog signals such as voice, music, images, and video are digitized and processed. Digital signal processing can be implemented as a computer program, which enables flexible and complex processing. In this course, students will learn the basics of digital signal processing by digitizing analog signals such as audio and video. They will also learn the basics of digital communications achieved by digital signal processing.\n    授業の概要および学習上の助言   Students will systematically learn the following basic knowledge and theory about digital signal processing and digital communication: 1. Discrete time signals and systems. 2. Frequency characteristics of discrete-time systems. 3. z-transform and transfer function. 4. Sampling theorem. 5. Discrete Fourier transform (DFT) and fast Fourier transform (FFT). 6. Digital filter design method. 7. Baseband transmission, modulation/demodulation and multiple access.\n    教科書および参考書・リザーブドブック   Textbooks: Reference books: Reserved books:\n    履修に必要な予備知識や技能   Knowledge of the basics of mathematics such as exponential functions, trigonometric functions, complex numbers, and linear algebra is required. It is desirable that students have knowledge of probability statistics, Fourier transform, and Laplace transform. These are introduced in this course. Numerical calculation software such as Excel are used in the practices.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① K,L,M Understand and apply the convolution sum and frequency characteristics of discrete-time signals.   ② K,L,M Understand and apply the relationship between z-transform, the transfer function and circuit.   ③ K,L,M Understand and apply the sampling theorem.   ④ K,L,M Understand and apply DFT and its fast calculation method.   ⑤ K,L,M Understand the basics of digital filter design.   ⑥ K,L,M Understand the basics of modulation/demodulation and multiple access.\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 40 30 30 0 0 0 0 100     指標と評価割合 総合評価割合 40 30 30 0 0 0 0 100   総合力指標 知識を取り込む力 40 30 30 0 0 0 0 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ The exam covers the contents of the entire course. Textbooks, materials, computers, and calculators can be used. The exam evaluates the basic and applied skills of digital signal processing and digital communication acquired via the course contents, exercises, and quizzes.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥ レ   クイズ\n小テスト ① レ At the middle of course, a quiz is given to confirm the comprehensive understanding and application skills of the learned range. Textbooks, materials, computers, and calculators can be used.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥ レ   レポート ① レ In order to deepen student understanding of what was taught in the course and to confirm their level of understanding, practices or numerical processing exercises using a computer will be performed in every class. Textbooks, materials, computers, and calculators can be used.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥ レ   成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ①      ②     ③     ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     Students can systematically explain the following items related to digital signal processing.",
+  "courseId": "2024:fall:E514-01:0:402",
   "language": "en"
 }

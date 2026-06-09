@@ -1,52 +1,46 @@
 {
   "sourceIndex": 352,
   "sourceUrl": "/opsyllabus/kitos0110/352/1",
-  "importedAt": "2026-06-08T09:34:00.250Z",
-  "title": "プロジェクトデザインⅢ（向井宏明研究室）",
-  "subtitle": "Design Project III(Mukai Hiroaki)",
-  "courseType": "Major ProgramMajor Project Courses",
+  "importedAt": "2026-06-09T01:29:22.309Z",
+  "title": "プロジェクトデザインⅢ(電気電子工学科)",
+  "subtitle": "Design Project III(Electrical And Electronic Engineering)",
+  "courseType": "Major Program\nMajor Project Courses",
   "credits": "8",
-  "term": "2026年度\n\n                All year",
+  "term": "2024年度\n All year",
   "method": "修学規程第4条を参照",
-  "teachers": [
-    "MUKAI Hiroaki"
-  ],
+  "teachers": [],
   "keywords": [
-    "Concept Setting",
-    "Problem Solving Method",
-    "Development Design",
-    "Implementation",
-    "Operation"
+    "Electric Engineering 2.Electronic Engineering 3.Local community"
   ],
-  "educationalGoal": "Based on the concrete knowledge of fundamental technologies, students acquire problem-solving skills related to computer & information engineering. Students are also given opportunities to experience R&D activities related to concrete information technology and systems. Through this process, students cultivate advanced abilities in the areas of problem setting, production process development, information gathering, communications, problem-solving in regional orientation, and making objective evaluations.",
-  "advice": "Investigate and examine the relationships between the technologies and services of interest. Moreover, the following areas should be addressed. Students learn R&D methods through the development of programs or evaluation models.\n1. Information infrastructure design, construction, evaluation and operation\nIn this area, students focus on lifecycles, components, and the development process, tools and methods to solve issues, and so on.\n2. Next-generation information infrastructure\nIn this area, students explore content delivery by combining server, database, network, and program technologies, with the goals of creating reliable networks, collaborative work, and industry applications, etc.\n3. Improving information system stability/disaster recovery\nStudents will address topics such as redundancy, disaster recovery, non-functional design and so on.\n4. Data structure analysis/conversion\nStudents explore data structure analysis, processing, conversion with functions of programming languages such as Python3, Perl6, Elixir, Haskell, Kotlin, and Scala.\n5. Application by cooperation among end users\nSystems that promote end user interaction, relationship extraction, SNS data aggregation, and so on, are examined.",
-  "books": "Not required",
-  "requiredKnowledge": "Research guidance policy\n\nIn this laboratory, seminars by students and faculty members are conducted once a week. Students are expected to set themes, summarize survey analysis results, discover social problems, and conduct annual events such as the writing of academic papers and making conference presentations.",
+  "educationalGoal": "Educational programs focusing on basic knowledge and skills in the fields of electrical engineering and electronics, which are highly important, develop highly creative electrical and electronics engineers who have acquired problem-finding, solving, and applied skills. This is a culmination subject following the project design subjects and specialized seminars up to the third grade.",
+  "advice": "This subject is the final subject of the project design course, including an introduction to project design, and is positioned as a subject that integrates the items learned in all subjects. Aim to review basic subjects and acquire advanced expertise through experimentation and theoretical examination of project themes. They have their own project themes and work independently or in groups. Seminars are held weekly, and progress is reported using weekly reports.",
+  "books": "N/A",
+  "requiredKnowledge": "Students will be informed by the supervisor in each lab.",
   "activityGoals": [
     {
       "index": "①",
-      "type": "A,B,D,E,G,H,L-P",
-      "body": "Be able to set one-year achievement goals in relation to your chosen research."
+      "type": "M",
+      "body": "To clarify the purpose of the project theme and make a research plan."
     },
     {
       "index": "②",
-      "type": "A,B,D,E,G,H,L-P",
-      "body": "Be able to set a specific production approach based on your set research concept."
+      "type": "G,M",
+      "body": "To find the solutions of the problem in the project theme and execute it safely and continuously."
     },
     {
       "index": "③",
-      "type": "A,B,D,E,G,H,L-P",
-      "body": "Be able to use your acquired information engineering expertise to advance your design and analysis efforts."
+      "type": "L,M",
+      "body": "To analyze and evaluate the research results from the viewpoint of social needs."
     },
     {
       "index": "④",
-      "type": "A,B,D,E,G,H,L-P",
-      "body": "Be able to cope with various problems that occur during the design and analysis process."
+      "type": "G,L,M",
+      "body": "To discuss in a team and to make an effective presentation on research results."
     },
     {
       "index": "⑤",
-      "type": "A,B,D,E,G,H,L-P",
-      "body": "Be able to technically describe what you have accomplished in a convincing manner."
+      "type": "I,M",
+      "body": "To summarize the research results as a project report"
     }
   ],
   "evaluationWeights": [
@@ -55,18 +49,18 @@
       "values": [
         "0",
         "0",
+        "50",
+        "40",
         "0",
+        "10",
         "0",
-        "0",
-        "0",
-        "100",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -78,18 +72,18 @@
       "values": [
         "0",
         "0",
+        "50",
+        "40",
         "0",
+        "10",
         "0",
-        "0",
-        "0",
-        "100",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -101,18 +95,18 @@
       "values": [
         "0",
         "0",
+        "50",
+        "40",
         "0",
+        "10",
         "0",
-        "0",
-        "0",
-        "100",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -133,9 +127,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -143,7 +137,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -156,9 +150,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -179,9 +173,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -190,27 +184,12 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "Be able to promote R&D activities smoothly according to the project plan (proposal) that you have created.\n\nIn the results, it is desirable that students be able to announce concrete results that are scientifically and/or technically recognized as novel, effective, and reliable.",
-    "standard": "Be able to promote R&D activities smoothly according to the project plan (proposal) that you have created.\n\nIn the results, it is desirable that students be able to announce concrete results that are based in scientific and technical reality."
+    "ideal": "The significance and purpose of the project theme are fully understood and research activities are actively promoted. The research contents and results can be explained to others in an easy-to-understand manner. The Achievement can be summarized in papers and/or be presented at academic conferences.",
+    "standard": "The significance and purpose of the project theme are understood, and the contents can be explained. The problems in the research can be pointed out. Application of research results in related fields can be proposed. Design and fabrication of the equipment necessary to carry out research on the project theme, can be done. Research results can be presented at the Project Design III Presentation Review and related academic societies’ meeting, and good discussion can be made in Q&A sessions. Research activities can be continued based on the research plan until the end of the project."
   },
   "clipProcess": "",
-  "lessons": [
-    {
-      "index": "1",
-      "content": "Acquisition of knowledge and methods\nStudents spread knowledge and improve\ntechnology among each other through\ndiscussions and observations of other\nstudents' activity reports.",
-      "operation": "Progress seminar,\n study session",
-      "assignments": "Understand existing\ntechnologies, products,\nresearch, and methods, then\norganize purposes, functions,\n and effects.\nStudents compare multiple\nitems and clarify superiority\n based on evaluation\nviewpoints.",
-      "minutes": "100"
-    },
-    {
-      "index": "2",
-      "content": "Improvement of students' ability\nStudents create documents that are easy for\nothers to understand and make progress on\nstudy items that were set based on the advice\n and suggestions of others.\nThe deliverables can be software, system\nconstruction and documentation, and so on.",
-      "operation": "Individual activity or\nteam activity",
-      "assignments": "Refine management abilities\nsuch as those used in\ninvestigation, design,\nprogramming, system\nconstruction, evaluation\nmethod, progress management,\n and problem management.",
-      "minutes": "400"
-    }
-  ],
-  "rawText": "金沢工業大学　学習支援計画書　E926-24\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Information and Computer Science(〜2024)\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Project Courses\n\n                プロジェクトデザインⅢ（向井宏明研究室）\n                Design Project III(Mukai Hiroaki)\n\n              8\n              E926-24\n\n                2026年度\n\n                All year\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  MUKAI Hiroaki\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Concept Setting\n2.Problem Solving Method\n3.Development Design\n4.Implementation\n5.Operation\n\n              Based on the concrete knowledge of fundamental technologies, students acquire problem-solving skills related to computer & information engineering. Students are also given opportunities to experience R&D activities related to concrete information technology and systems. Through this process, students cultivate advanced abilities in the areas of problem setting, production process development, information gathering, communications, problem-solving in regional orientation, and making objective evaluations.\n\n              授業の概要および学習上の助言\n\n              Investigate and examine the relationships between the technologies and services of interest. Moreover, the following areas should be addressed. Students learn R&D methods through the development of programs or evaluation models.\n1. Information infrastructure design, construction, evaluation and operation\nIn this area, students focus on lifecycles, components, and the development process, tools and methods to solve issues, and so on.\n2. Next-generation information infrastructure\nIn this area, students explore content delivery by combining server, database, network, and program technologies, with the goals of creating reliable networks, collaborative work, and industry applications, etc.\n3. Improving information system stability/disaster recovery\nStudents will address topics such as redundancy, disaster recovery, non-functional design and so on.\n4. Data structure analysis/conversion\nStudents explore data structure analysis, processing, conversion with functions of programming languages such as Python3, Perl6, Elixir, Haskell, Kotlin, and Scala.\n5. Application by cooperation among end users\nSystems that promote end user interaction, relationship extraction, SNS data aggregation, and so on, are examined.\n\n              教科書および参考書・リザーブドブック\n\n              Not required\n\n              履修に必要な予備知識や技能\n\n              Research guidance policy\n\nIn this laboratory, seminars by students and faculty members are conducted once a week. Students are expected to set themes, summarize survey analysis results, discover social problems, and conduct annual events such as the writing of academic papers and making conference presentations.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                A,B,D,E,G,H,L-P\n                Be able to set one-year achievement goals in relation to your chosen research.\n\n                ②\n                A,B,D,E,G,H,L-P\n                Be able to set a specific production approach based on your set research concept.\n\n                ③\n                A,B,D,E,G,H,L-P\n                Be able to use your acquired information engineering expertise to advance your design and analysis efforts.\n\n                ④\n                A,B,D,E,G,H,L-P\n                Be able to cope with various problems that occur during the design and analysis process.\n\n                ⑤\n                A,B,D,E,G,H,L-P\n                Be able to technically describe what you have accomplished in a convincing manner.\n\n                ⑥\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n           ",
-  "courseId": "2026:full-year:E926-24:0:352",
+  "lessons": [],
+  "rawText": "金沢工業大学 学習支援計画書 E927-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Electrical and Electronic Engineering(2018〜)\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Project Courses\nプロジェクトデザインⅢ(電気電子工学科)\nDesign Project III(Electrical And Electronic Engineering)  8 E927-01  2024年度\n All year  修学規程第4条を参照\n    担当教員名\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Electric Engineering 2.Electronic Engineering 3.Local community  Educational programs focusing on basic knowledge and skills in the fields of electrical engineering and electronics, which are highly important, develop highly creative electrical and electronics engineers who have acquired problem-finding, solving, and applied skills. This is a culmination subject following the project design subjects and specialized seminars up to the third grade.\n    授業の概要および学習上の助言   This subject is the final subject of the project design course, including an introduction to project design, and is positioned as a subject that integrates the items learned in all subjects. Aim to review basic subjects and acquire advanced expertise through experimentation and theoretical examination of project themes. They have their own project themes and work independently or in groups. Seminars are held weekly, and progress is reported using weekly reports.\n    教科書および参考書・リザーブドブック   N/A\n    履修に必要な予備知識や技能   Students will be informed by the supervisor in each lab.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① M To clarify the purpose of the project theme and make a research plan.   ② G,M To find the solutions of the problem in the project theme and execute it safely and continuously.   ③ L,M To analyze and evaluate the research results from the viewpoint of social needs.   ④ G,L,M To discuss in a team and to make an effective presentation on research results.   ⑤ I,M To summarize the research results as a project report   ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 0 0 50 40 0 10 0 100     指標と評価割合 総合評価割合 0 0 50 40 0 10 0 100   総合力指標 知識を取り込む力 0 0 50 40 0 10 0 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ①      ②     ③     ④     ⑤     ⑥     クイズ\n小テスト ①      ②     ③     ④     ⑤     ⑥     レポート ① レ Evaluate project proposals, weekly reports submitted at weekly seminars, and project reports submitted as a summary.   ② レ   ③     ④     ⑤ レ   ⑥     成果発表\n(口頭・実技) ①   Evaluate the mid-term presentation and the PD-III presentation.   ②     ③     ④ レ   ⑤ レ   ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①   Evaluate weekly activity reports submitted on the web system.   ② レ   ③     ④     ⑤     ⑥     その他 ①      ②     ③     ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     The significance and purpose of the project theme are fully understood and research activities are actively promoted. The research contents and results can be explained to others in an easy-to-understand manner. The Achievement can be summarized in papers and/or be presented at academic conferences.  The significance and purpose of the project theme are understood, and the contents can be explained. The problems in the research can be pointed out. Application of research results in related fields can be proposed. Design and fabrication of the equipment necessary to carry out research on the project theme, can be done. Research results can be presented at the Project Design III Presentation Review and related academic societies’ meeting, and good discussion can be made in Q&A sessions. Research activities can be continued based on the research plan until the end of the project.\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習",
+  "courseId": "2024:spring:E643-01:0:352",
   "language": "en"
 }

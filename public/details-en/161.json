@@ -1,62 +1,70 @@
 {
   "sourceIndex": 161,
   "sourceUrl": "/opsyllabus/kitos0110/161/1",
-  "importedAt": "2026-06-08T09:33:56.494Z",
-  "title": "プロジェクトデザインⅢ（瀬川明夫研究室）",
-  "subtitle": "Design Project III(Segawa Akio)",
-  "courseType": "Major ProgramMajor Project Courses",
-  "credits": "8",
-  "term": "2026年度\n\n                All year",
+  "importedAt": "2026-06-09T01:29:20.755Z",
+  "title": "機械工作法",
+  "subtitle": "Manufacturing process and systems",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "2",
+  "term": "2024年度\n 2nd year 1st semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "SEGAWA Akio"
+    "MORIMOTO Yoshitaka",
+    "SAKAMOTO Shigehiko",
+    "KATO Hideharu"
   ],
   "keywords": [
-    "Engineering design",
-    "Design and manufacturing",
-    "Materials and processing",
-    "Numerical analysis",
-    "Regional collaboration"
+    "Machining methods 2.Machine tools 3.Tool damage 4.Cutting force and cutting temperature 5.Dimensional and shape accuracy"
   ],
-  "educationalGoal": "Students will:\n(1) Acquire the ability to identify and solve problems to research, develop, design, and manufacture socially useful and high-quality products using the basic knowledge learned in the Department of Mechanical Engineering. (2) Learn what technologies or new mechanisms are needed for that purpose. (3) Learn about the importance of collaboration with society (particularly local communities).",
-  "advice": "This is the final comprehensive course in the Department of Mechanical Engineering. To realize the educational objectives of the Department of Mechanical Engineering, this course focuses on the following goals:\n\nStudents will acquire the ability to model phenomena accurately and analyze the models.\nStudents will acquire the ability and the engineering sense to evaluate solutions using the obtained results.\n\nIn practice, students should reconfirm their project theme, which was determined in Preparatory Seminar, with the supervisors of the individual laboratories. (The theme should be revised as necessary.)\nStudents are expected to pursue the identification and solution of problems in accordance with the engineering process.\n\nOur laboratory employs plasticity and forming processing and related techniques. In addition, we aimed to train highly skilled and capable engineers. By studying rolling and forging processes, production technology having high added value is established, and products with high functionality are created. Furthermore, problems from different fields are addressed in cooperation with other local universities and companies.",
-  "books": "Textbooks: None specified\nReference books: None specified\nReserved books: None specified",
-  "requiredKnowledge": "It is desirable to obtain a license for machining at the KIT Dream works (Yumekobo).\nIt is desirable to obtain knowledge and attend courses associated with your projects (e.g., materials, dynamics, and mathematics).",
+  "educationalGoal": "Knowledge of the basic properties of materials, design techniques, and processing techniques is indispensable to manufacturing machine parts. Students will: (1) learn the functions and structures of various machine tools (2) learn how to select an advantageous machining method for the requirements under the basic production manufacturing technology (3) learn how to measure cutting force and cutting edge temperature",
+  "advice": "This course deals with the basics of fundamental machining methods, and with understanding the functions and structures of various machine tools. 1. Outline of manufacturing technology 2. Basics of forming 3. Milling operation 4. Turning operation 5. Drilling operation 6. Grinding operation 7. Basis for chip formation measurement method and quality control 8. Basics of cutting force and cutting temperature measurement 9. Effects of tool damage on finished surface",
+  "books": "Textbooks: Reference books: None Reserved books: None",
+  "requiredKnowledge": "Students are expected to watch videos on machining methods and the functions of machine tools. This will help you understand actual machine motion and machining systems. It is also important to experience the actual machining process by visiting processing plants and industrial fairs.",
   "activityGoals": [
     {
       "index": "①",
-      "type": "A,B,D,G,H,J-P",
-      "body": "Be able to advance your project in accordance with the engineering design process."
+      "type": "E,J,K",
+      "body": "Be able to understand the processing method for forged material"
     },
     {
       "index": "②",
-      "type": "A,B,D,G,H,J-P",
-      "body": "Be able to compile the results correctly into an article and discuss the content through presentations."
+      "type": "E,J,K",
+      "body": "Be able to understand the functions and structures of various machine tools"
     },
     {
       "index": "③",
-      "type": "A,B,D,G,H,J-P",
-      "body": "Be able to act independently to solve the issues presented separately."
+      "type": "E,J,K",
+      "body": "Be able to understand basic manufacturing methods"
+    },
+    {
+      "index": "④",
+      "type": "E,J,K",
+      "body": "Be able to select an advantageous processing method with sufficient accuracy form basic manufacturing technology"
+    },
+    {
+      "index": "⑤",
+      "type": "E,J,K",
+      "body": "Be able to understand the measurement methods used to verify the required accuracy"
     }
   ],
   "evaluationWeights": [
     {
       "label": "総合評価割合",
       "values": [
+        "40",
+        "30",
+        "20",
         "0",
         "0",
-        "50",
-        "35",
         "0",
-        "5",
         "10",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -66,20 +74,20 @@
     {
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
+        "40",
+        "30",
+        "20",
         "0",
         "0",
-        "50",
-        "35",
         "0",
-        "5",
         "10",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -89,20 +97,20 @@
     {
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
+        "40",
+        "30",
+        "20",
         "0",
         "0",
-        "50",
-        "35",
         "0",
-        "5",
         "10",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -123,9 +131,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -133,7 +141,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -146,9 +154,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -169,9 +177,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -180,90 +188,118 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "(1) Understand the purpose of your project theme and the advancement process accurately, and achieve the established annual goal. In addition, the process can be reported in the Design Project Activity Support System.\n(2) Compile the intermediate results for the project into the interim report, and present and discuss its content. Complete the final report, present it to the Design Project III Public Presentation Review Board, and discuss its content.\n(3) If necessary, design and manufacture your own experimental devices, and also evaluate the performance of the product.",
-    "standard": "(1) Understand the purpose of your project theme and the advancement process, and achieve the established annual goal. In addition, the process can be reported in the Design Project Activity Support System.\n(2) Compile intermediate results for the project into the interim report, and present its content. Complete the final report and present it to the Design Project III Public Presentation Review Board.\n(3) Design and manufacture your own experimental devices if necessary."
+    "ideal": "(1) Accurately explain the method of forming materials. (2) Fully understand the functions and structures of various machine tools. (3) Explain basic manufacturing methods correctly. (4) An advantageous manufacturing method can be selected to realize sufficient accuracy to the drawings. (5) Explain the measurement method to accurately verify the accuracy required for the machined parts.",
+    "standard": "(1) Explain the method of forming materials. (2) Understand the functions and structures of various machine tools. (3) Explain basic manufacturing methods. (4) An advantageous manufacturing method can be selected which achieves the required accuracy to the drawings. (5) Explain the measurement method to verify the specified dimensions of machined parts."
   },
   "clipProcess": "",
   "lessons": [
     {
-      "index": "April",
-      "content": "Carefully read previous master theses and\nproject reports from Design Project III.\nReconfirm the project proposal that was\nsubmitted in Preparatory Seminar (revise it\nif necessary).",
-      "operation": "Laboratory seminars\nProject activities",
+      "index": "1",
+      "content": "The learning goal, outline, and action goal of this course are understood on the basis of the syllabus. It is necessary to understand which part of the educational objectives of the department of mechanical engineering are covered by this course, and also to understand the standard of the concrete achievement level. Course introduction Learn basics of machining by watching videos of material formation and mother machines",
+      "operation": "Lecture and Q&A",
       "assignments": "",
       "minutes": ""
     },
     {
-      "index": "May",
-      "content": "Consider and choose your research topics.\nSurvey the related literature.",
-      "operation": "Laboratory seminars\nProject activities",
-      "assignments": "",
+      "index": "2",
+      "content": "Learn basics of metal cutting and cutting theory",
+      "operation": "Lecture and Q&A",
+      "assignments": "Prepare textbook Chapter 2 pages 22 to 62",
+      "minutes": "90"
+    },
+    {
+      "index": "3",
+      "content": "Learn basics of metal cutting and cutting theory Learn basics of machining by watching videos of material formation and mother machines",
+      "operation": "Lecture and Q&A Quiz",
+      "assignments": "Prepare textbook Chapter 2 pages 22 to 62 Review the results of the quiz on the basics of metal cutting",
+      "minutes": "90"
+    },
+    {
+      "index": "4",
+      "content": "Basics of milling Structure of the milling machine and the milling operation Test of review on the milling operation",
+      "operation": "Lecture and Q&A Self-check",
+      "assignments": "Prepare textbook Chapter 9 pages 102 to 111",
+      "minutes": "90"
+    },
+    {
+      "index": "5",
+      "content": "Basics of milling Structure of the milling machine and the milling operation",
+      "operation": "Lecture and Q&A Self-check",
+      "assignments": "Prepare textbook Chapter 4 pages 53 to 56, Chapter 9 pages 102 to 111",
       "minutes": ""
     },
     {
-      "index": "June",
-      "content": "mprove your experimental and analytical\nskills.\nSurvey the related literature.",
-      "operation": "Laboratory seminars\nProject activities",
-      "assignments": "",
-      "minutes": ""
+      "index": "6",
+      "content": "Basics of milling Structure of the milling machine and the milling operation Test of review on the milling operation learned in class 4 to 6",
+      "operation": "Lecture and Q&A Quiz Self-check",
+      "assignments": "Prepare textbook Chapter 4 pages 53 to 56, Chapter 9 pages 102 to 111 Review the results of the quiz on the milling operation",
+      "minutes": "90"
     },
     {
-      "index": "July",
-      "content": "Consider the feasibility of the focused\nresearch topics.\nPursue the research topics.",
-      "operation": "Laboratory seminars\nProject activities",
-      "assignments": "",
-      "minutes": ""
+      "index": "7",
+      "content": "Basics of turning Structure of the universal lathe and the turning operation",
+      "operation": "Lecture and Q&A",
+      "assignments": "Prepare textbook Chapter 7 pages 82 to 97",
+      "minutes": "90"
     },
     {
-      "index": "August",
-      "content": "Submit the interim report and present it at\nthe interim report meeting.\nModify the research topics based on the\ndiscussion at interim report meeting.",
-      "operation": "Laboratory seminars\nProject activities",
-      "assignments": "",
-      "minutes": ""
+      "index": "8",
+      "content": "Basics of turning Structure of the universal lathe and the turning operation Review test on the turning operation learned in class 7 to 8",
+      "operation": "Lecture and Q&A Quiz Self-check",
+      "assignments": "Prepare textbook Chapter 7 pages 82 to 97 Review the results of the quiz on the turning operation",
+      "minutes": "90"
     },
     {
-      "index": "Septem\nber",
-      "content": "Pursue the research topics.",
-      "operation": "Laboratory seminars\nProject activities",
-      "assignments": "",
-      "minutes": ""
+      "index": "9",
+      "content": "Basics of drilling Structure of the upright drilling machine and the drilling operation",
+      "operation": "Lecture and Q&A Self-check",
+      "assignments": "Prepare textbook Chapter 8 pages 98 to 101",
+      "minutes": "90"
     },
     {
-      "index": "Octobe\nr",
-      "content": "Pursue the research topics.\nPoster session.",
-      "operation": "Laboratory seminars\nProject activities",
-      "assignments": "",
-      "minutes": ""
+      "index": "10",
+      "content": "Basics of drilling Structure of the upright drilling machine and the drilling operation Review test on the drilling operation",
+      "operation": "Lecture and Q&A Quiz Self-check",
+      "assignments": "Prepare textbook Chapter 8 pages 98 to 101 Review the results of the quiz on the drilling operation",
+      "minutes": "90"
     },
     {
-      "index": "Novemb\ner",
-      "content": "Pursue the research topics.",
-      "operation": "Laboratory seminars\nProject activities",
-      "assignments": "",
-      "minutes": ""
+      "index": "11",
+      "content": "Basics of grinding Mechanism of the processing to grind and characteristics of the whetstone",
+      "operation": "Lecture and Q&A Self-check",
+      "assignments": "Prepare textbook Chapter 10 pages 112 to 120",
+      "minutes": "90"
     },
     {
-      "index": "Decemb\ner",
-      "content": "Pursue the research topics.",
-      "operation": "Laboratory seminars\nProject activities",
-      "assignments": "",
-      "minutes": ""
+      "index": "12",
+      "content": "Basics of grinding Mechanism of the processing to grind and characteristics of the whetstone Review test on the grinding operation",
+      "operation": "Lecture and Q&A Quiz Self-check",
+      "assignments": "Prepare textbook Chapter 10 pages 112 to 120 Review the results of the quiz on the grinding operation",
+      "minutes": "90"
     },
     {
-      "index": "Januar\ny",
-      "content": "Submit the pre-print.",
-      "operation": "Laboratory seminars\nProject activities",
-      "assignments": "",
-      "minutes": ""
+      "index": "13",
+      "content": "Finishing surface accuracy",
+      "operation": "Lecture and Q&A Self-check",
+      "assignments": "Prepare textbook Chapter 1 pages 16 to 18, Chapter 4, pages 57 to 62",
+      "minutes": "90"
     },
     {
-      "index": "Februa\nry",
-      "content": "Submit the final report and present it to the\n Design Project III Public Presentation\nReview Board.",
-      "operation": "Laboratory seminars\nProject activities",
-      "assignments": "",
-      "minutes": ""
+      "index": "14",
+      "content": "Measurement method and quality control of workpiece",
+      "operation": "Lecture and Q&A Self-check",
+      "assignments": "Prepare textbook chapter 14 pages 159-179",
+      "minutes": "90"
+    },
+    {
+      "index": "15",
+      "content": "Review Self-evaluation",
+      "operation": "review Self-evaluation Q&A",
+      "assignments": "Understand and review class notes, texts, and reference materials thoroughly",
+      "minutes": "90"
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　E921-11\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Mechanical Engineering(〜2024)\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Project Courses\n\n                プロジェクトデザインⅢ（瀬川明夫研究室）\n                Design Project III(Segawa Akio)\n\n              8\n              E921-11\n\n                2026年度\n\n                All year\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  SEGAWA Akio\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Engineering design\n2.Design and manufacturing\n3.Materials and processing\n4.Numerical analysis\n5.Regional collaboration\n\n              Students will:\n(1) Acquire the ability to identify and solve problems to research, develop, design, and manufacture socially useful and high-quality products using the basic knowledge learned in the Department of Mechanical Engineering. (2) Learn what technologies or new mechanisms are needed for that purpose. (3) Learn about the importance of collaboration with society (particularly local communities).\n\n              授業の概要および学習上の助言\n\n              This is the final comprehensive course in the Department of Mechanical Engineering. To realize the educational objectives of the Department of Mechanical Engineering, this course focuses on the following goals:\n\nStudents will acquire the ability to model phenomena accurately and analyze the models.\nStudents will acquire the ability and the engineering sense to evaluate solutions using the obtained results.\n\nIn practice, students should reconfirm their project theme, which was determined in Preparatory Seminar, with the supervisors of the individual laboratories. (The theme should be revised as necessary.)\nStudents are expected to pursue the identification and solution of problems in accordance with the engineering process.\n\nOur laboratory employs plasticity and forming processing and related techniques. In addition, we aimed to train highly skilled and capable engineers. By studying rolling and forging processes, production technology having high added value is established, and products with high functionality are created. Furthermore, problems from different fields are addressed in cooperation with other local universities and companies.\n\n              教科書および参考書・リザーブドブック\n\n              Textbooks: None specified\nReference books: None specified\nReserved books: None specified\n\n              履修に必要な予備知識や技能\n\n              It is desirable to obtain a license for machining at the KIT Dream works (Yumekobo).\nIt is desirable to obtain knowledge and attend courses associated with your projects (e.g., materials, dynamics, and mathematics).\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                A,B,D,G,H,J-P\n                Be able to advance your project in accordance with the engineering design process.\n\n                ②\n                A,B,D,G,H,J-P\n                Be able to compile the results correctly into an article and discuss the content through presentations.\n\n                ③\n                A,B,D,G,H,J-P\n                Be able to act independently to solve the issues presented separately.\n\n                ④\n\n                ⑤\n\n                ⑥\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                0\n\n                0\n\n                50\n\n                35\n\n                0\n\n                5\n\n                10\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                0\n\n                0\n\n                50\n\n                35\n\n                0\n\n                5\n\n                10\n\n          ",
-  "courseId": "2026:full-year:E921-11:0:161",
+  "rawText": "金沢工業大学 学習支援計画書 E038-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Mechanical Engineering\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n機械工作法\nManufacturing process and systems  2 E038-01  2024年度\n 2nd year 1st semester  修学規程第4条を参照\n    担当教員名\n MORIMOTO Yoshitaka, SAKAMOTO Shigehiko, KATO Hideharu\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Machining methods 2.Machine tools 3.Tool damage 4.Cutting force and cutting temperature 5.Dimensional and shape accuracy  Knowledge of the basic properties of materials, design techniques, and processing techniques is indispensable to manufacturing machine parts. Students will: (1) learn the functions and structures of various machine tools (2) learn how to select an advantageous machining method for the requirements under the basic production manufacturing technology (3) learn how to measure cutting force and cutting edge temperature\n    授業の概要および学習上の助言   This course deals with the basics of fundamental machining methods, and with understanding the functions and structures of various machine tools. 1. Outline of manufacturing technology 2. Basics of forming 3. Milling operation 4. Turning operation 5. Drilling operation 6. Grinding operation 7. Basis for chip formation measurement method and quality control 8. Basics of cutting force and cutting temperature measurement 9. Effects of tool damage on finished surface\n    教科書および参考書・リザーブドブック   Textbooks: Reference books: None Reserved books: None\n    履修に必要な予備知識や技能   Students are expected to watch videos on machining methods and the functions of machine tools. This will help you understand actual machine motion and machining systems. It is also important to experience the actual machining process by visiting processing plants and industrial fairs.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① E,J,K Be able to understand the processing method for forged material   ② E,J,K Be able to understand the functions and structures of various machine tools   ③ E,J,K Be able to understand basic manufacturing methods   ④ E,J,K Be able to select an advantageous processing method with sufficient accuracy form basic manufacturing technology   ⑤ E,J,K Be able to understand the measurement methods used to verify the required accuracy   ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 40 30 20 0 0 0 10 100     指標と評価割合 総合評価割合 40 30 20 0 0 0 10 100   総合力指標 知識を取り込む力 40 30 20 0 0 0 10 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ There is an exam at the end of the semester to evaluate students’ achievement.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     クイズ\n小テスト ① レ There are tests at the end of each chapter to evaluate the level of understanding. After watching videos on the following five chapters, answer the quizzes. 1. Basics of manufacturing, 2. Milling operation, 3. Turning operation, 4. Drilling operation, 5. Grinding operation.   ② レ   ③ レ   ④     ⑤     ⑥     レポート ①   Students will submit a report on the subject \"human-friendly manufacturing\" based on the machining technology learned in this course.   ② レ   ③ レ   ④ レ   ⑤     ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ①      ②     ③     ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     (1) Accurately explain the method of forming materials. (2) Fully understand the functions and structures of various machine tools. (3) Explain basic manufacturing methods correctly. (4) An advantageous manufacturing method can be selected to realize sufficient accuracy to the drawings. (5) Explain the measurement method to accurately verify the accuracy required for the machined parts. (1) Explain the method of forming materials. (2) Understand the functions and structures of various machine t",
+  "courseId": "2024:spring:E027-01:0:161",
   "language": "en"
 }

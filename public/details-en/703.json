@@ -1,52 +1,63 @@
 {
   "sourceIndex": 703,
   "sourceUrl": "/opsyllabus/kitos0110/703/1",
-  "importedAt": "2026-06-08T09:34:07.539Z",
-  "title": "タンパク質工学",
-  "subtitle": "Protein Engineering",
-  "courseType": "Major ProgramMajor Courses",
-  "credits": "2",
-  "term": "2026年度\n\n                3rd year 2nd semester",
+  "importedAt": "2026-06-09T01:29:25.664Z",
+  "title": "建築デザイン総合演習B",
+  "subtitle": "Architectural Integrated Exercises for Design B",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "3",
+  "term": "2024年度\n 3rd year 2nd semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "SANO Motoaki"
+    "HACHIYA Toshio",
+    "TAKEUCHI Shinichi",
+    "YAMADA Keijirou",
+    "SATO Kouichi",
+    "FUJII Takeshi",
+    "SHIMOKAWA Yuichi",
+    "MIYASHITA Tomohiro",
+    "KOZU Seiichi",
+    "YOSHIMURA Toshihiro",
+    "TANISHIGE Yoshiyuki",
+    "KOBAYASHI Yoshinori"
   ],
   "keywords": [
-    "Protein conformation",
-    "Purification",
-    "Enzyme",
-    "Molecular genetics",
-    "Genetic engineering"
+    "Architectural design 2.Spatial Composition 3.Functional planning (program) 4.Inner-outer space 5.Regional cooperation"
   ],
-  "educationalGoal": "This course will provide students with knowledge of protein engineering. This course has two aims. The first is to teach students the basic of protein engineering. The second is to introduce the applications of protein engineering.",
-  "advice": "This course will include the following topics:\n\n1) Basic of protein engineering\nProtein conformation (amino acids, conformation, etc.)\nPurification (Protein extraction, protein purification, etc.)\nEnzyme (Reaction kinetics, coenzymes, inhibitors)\n\n 2) Application of protein engineering\nStrategies for protein overproduction\nEnzyme engineering",
-  "books": "Textbooks：Essential Protein Engineering (Kodansha)\nReference books：Genetic Engineering 2nd ed.\nReserved books：Unspecified",
-  "requiredKnowledge": "This course deals with the extension of the topics you learn in the “Basic Biology”, “Bioengineering” and “Gene Engineering” courses. Knowledge of nucleic acids and proteins is required.",
+  "educationalGoal": "This class is the final stage of the architectural design exercise. Understand the function and composition of large public buildings or complex urban spaces, and plan and design them. In particular, at the stage just before Project Design Ⅲ, the goal is to develop a variety of conditions and functions, and to develop creative abilities that can be integrated as plans and design proposals.",
+  "advice": "Assignment is design and planning of buildings and cities with special surrounding environment and complicated required functions. The design issues are roughly divided into three issues (see below). However, in addition to general design drawings, students propose appropriate and attractive expressions using drawings and sentences showing concepts, model photographs, CG, etc. 1) A large-scale building that satisfies the various functions of facilities, such as elementary school buildings and multicultural buildings in central Kanazawa, and that requires attractive architectural spaces. (two assignments). 2) Planning issues for integrated urban design of buildings and external spaces by decoding and re-editing the contexts of cities and towns (two assignments). 3) Renovation of buildings with changing the use of existing public buildings (one asignment). 4)The task of designing the roof of the plaza while learning techniques such as optimization using visual programming (one asignment). For the first task, you can freely choose one of the four tasks (1), (2), and (3), and for the second task, you can freely choose one from the four options (1), (2), and (4), and create your work.",
+  "books": "None",
+  "requiredKnowledge": "This course is based on basic knowledge of architecture in general and the design ability of architectural design I and II, Architectural Integrated Exercises for Design A. Students try to apply the knowledge related to the planning and design of architecture and exterior space learned in various classes to the design work. If you choose Course D in ④ above and have not completed the credits for \"Architectural Information Design\" in the previous semester, you will need to study visual programming (Rhino+Grasshopper) in advance.",
   "activityGoals": [
     {
       "index": "①",
-      "type": "I,K,L",
-      "body": "Ability to explain protein conformation."
+      "type": "L",
+      "body": "Students can analyze the characteristics of the urban area, traditional space, natural environment of location."
     },
     {
       "index": "②",
-      "type": "I,K,L",
-      "body": "Ability to explain protein purification."
+      "type": "I,K",
+      "body": "Students can develop their ability to organize and design various spaces as architecture and urban space."
     },
     {
       "index": "③",
-      "type": "K,L",
-      "body": "Ability to explain enzyme activity."
+      "type": "L",
+      "body": "Students can analyze the characteristics of the local culture and community and reflect them in urban design."
     },
     {
       "index": "④",
-      "type": "J,K,L",
-      "body": "Ability to explain the strategies for protein overproduction."
+      "type": "I,K,O",
+      "body": "Students can understand and propose about conversion of existing architecture by renovation project."
     },
     {
       "index": "⑤",
-      "type": "J,K,L",
-      "body": "Ability to explain recombinant DNA technology."
+      "type": "P,Q",
+      "body": "Students can work on three-dimensional shape optimization of architectural forms using visual programming."
+    },
+    {
+      "index": "⑥",
+      "type": "J",
+      "body": "Students can create and express drawings, models, photographs, and texts as works, and presentate beautifully."
     }
   ],
   "evaluationWeights": [
@@ -54,19 +65,19 @@
       "label": "総合評価割合",
       "values": [
         "0",
-        "60",
-        "30",
         "0",
         "0",
+        "0",
+        "90",
         "0",
         "10",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -77,19 +88,19 @@
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
         "0",
-        "60",
-        "30",
         "0",
         "0",
+        "0",
+        "90",
         "0",
         "10",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -100,19 +111,19 @@
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
         "0",
-        "60",
-        "30",
         "0",
         "0",
+        "0",
+        "90",
         "0",
         "10",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -133,9 +144,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -143,7 +154,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -156,9 +167,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -179,9 +190,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -190,118 +201,118 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "Ability to explain protein conformation.\nAbility to explain the fundamentals of enzyme activity.\nAbility to explain strategies for protein overproduction.",
-    "standard": "Ability to understand protein conformation.\nAbility to understand the fundamentals of enzyme activity.\nAbility to understand strategies for protein overproduction."
+    "ideal": "(1) Satisfy the function of large-scale architecture sufficiently and have a good architectural plan and design. (2) A comfortable urban design that satisfies the urban functions has been proposed. (3) The architectural use change is properly planned and designed. (4)Design proposals are made through optimization of architectural forms.Of the above 4goals, the goals according to student's own task selection have been achieved. Furthermore, they have deepened these as more original and attractive contents, and have proposed using advanced and beautiful presentations.",
+    "standard": "(1) Satisfy the function of large-scale architecture sufficiently and have a good architectural plan and design. (2) A comfortable urban design that satisfies the urban functions has been proposed. (3) The architectural use change is properly planned and designed. (4)Design proposals are made through optimization of architectural forms.Of the above 4 goals, the goals according to student's own task selection have been achieved. Further, these contents can be properly described as drawings."
   },
   "clipProcess": "",
   "lessons": [
     {
-      "index": "1",
-      "content": "Introductions\nReview of protein engineering",
-      "operation": "Lecture and Discussion",
-      "assignments": "Preview:\nRead the textbook (p.1-5)\nReview:\nReview textbook and notes",
-      "minutes": "60\n\n60"
+      "index": "1-2",
+      "content": "・ General guidance for this subject ・ Explanation of the first assignment (Building / Urban / Renovation issues) Present the purpose of the task, design conditions, required drawings, etc. -Explain basic architectural plans and city plans for design issues using handouts and videos.",
+      "operation": "Lectures, questions and answers, self-checks Perform C, P, U, R course division, and also perform group division of each course. Questioning P, U, R course report assignments.",
+      "assignments": "・ Search and study similar cases for the assignments questioned. ・ Visit the site of the issue to understand the environment. ・ Start drafting a basic plan. Based on the content learned in the lecture, perform esquisse for the next class.",
+      "minutes": "200"
     },
     {
-      "index": "2",
-      "content": "Amino acid",
-      "operation": "Lecture and Discussion\nQuiz",
-      "assignments": "Preview:\nRead the textbook (p.7-20)\nReview:\nReview textbook and notes",
-      "minutes": "60\n\n30"
+      "index": "3-4",
+      "content": "・ Present and comment on P and U course reports. ・ Esquisse 1 Check zoning, layout plan, and architectural image Esquisse individually (Architecture) ・ Check the contents of city survey and analysis (Urban) ・ Check survey results and analysis of existing buildings (Renovation)",
+      "operation": "Lectures, questions and answers, self-checks Supplementary lectures and questions will be held as necessary.",
+      "assignments": "・ Modification of last check ・ Based on the content learned in the lecture, perform esquisse for the next class.",
+      "minutes": "200"
     },
     {
-      "index": "3",
-      "content": "Protein conformation",
-      "operation": "Lecture and Discussion",
-      "assignments": "Preview:\nRead the textbook (p.37-49)\nReview:\nReview textbook and notes",
-      "minutes": "60\n\n30"
+      "index": "5-6",
+      "content": "・ C and R course interim presentation and commentary ・ Esquisse 2 ・ Check individual Esquisse mainly on floor plan (Architecture) ・ Check the contents of city survey and analysis (Urban) ・ Check architectural renovation plans and programs (Renovation)",
+      "operation": "Exercises and self-checks in the drafting room. Supplementary lectures and questions will be held as necessary.",
+      "assignments": "・ Modification of last check ・ Based on the content learned in the lecture, perform esquisse for the next class.",
+      "minutes": "200"
     },
     {
-      "index": "4",
-      "content": "Protein extraction",
-      "operation": "Lecture and Discussion",
-      "assignments": "Preview:\nRead the textbook (p.23-28)\nReview:\nReview textbook and notes",
-      "minutes": "60\n\n30"
+      "index": "7-8",
+      "content": "・ Esquisse 3 ・ Esquisse of plan, elevation and section plan is checked individually (Architecture) ・ Check the various contexts of the city understood from the results of the city survey and analysis, and the characteristics and issues of the extracted “characteristic points” (Urban) ・ Check esquisse individually in renovation space (Renovation)",
+      "operation": "Exercises and self-checks in the drafting room.",
+      "assignments": "・ Modification of last check Performs esquisse of elevation and cross section (Architecture). Deepen city survey and analysis (Urban) Rehabilitation esquisse of elevation and cross section (Renovation)",
+      "minutes": "200"
     },
     {
-      "index": "5",
-      "content": "Protein purification",
-      "operation": "Lecture and Discussion\nQui",
-      "assignments": "Preview:\nRead the textbook (p.28-36)\nReview:\nReview textbook and notes",
-      "minutes": "60\n\n30"
+      "index": "9-10",
+      "content": "・ Esquisse 4 ・ Esquisse of plan, elevation and section plan is checked individually (Architecture) ・ Check the contents of various contexts that have been read and the content of improvement proposals that make use of the characteristics of “characteristic points” (Urban). ・ Check esquisse individually in renovation space (Renovation)",
+      "operation": "Exercises and self-checks in the drafting room.",
+      "assignments": "・ Modification of last check Performs esquisse of elevation and cross section (Architecture). Deepen city survey and analysis (Urban) Rehabilitation esquisse of elevation and cross section (Renovation)",
+      "minutes": "200"
     },
     {
-      "index": "6",
-      "content": "Enzymes (1)",
-      "operation": "Lecture and Discussion",
-      "assignments": "Preview:\nRead the textbook (p.85-96)\nReview:\nReview textbook and notes",
-      "minutes": "60\n\n30"
+      "index": "11-12",
+      "content": "Esquisse 5 Individually check the final Esquisse to complete the examination results of each issue and complete the work.",
+      "operation": "Exercises and self-checks in the drafting room.",
+      "assignments": "・ Create drawings and models to be works (architecture, Urban, renovation).",
+      "minutes": "200"
     },
     {
-      "index": "7",
-      "content": "Enzymes (2)",
-      "operation": "Lecture and Discussion",
-      "assignments": "Preview:\nRead the textbook (p.85-96)\nReview:\nReview textbook and notes",
-      "minutes": "60\n\n30"
+      "index": "13-14",
+      "content": "・ Check the final work of the first assignment and submit it. ・ Explanation of the second assignment (Architecture, Urban, digital design ) Present the purpose of the task, design conditions, required drawings, etc. ・ Category C, P, U, R courses will be divided, and report assignments will be given.",
+      "operation": "Exercises and self-checks in the drafting room. Lecture and Q&A",
+      "assignments": "・ Check the work by yourself. ・ Search and study similar cases for the issues received. ・ Visit the site of the issue to understand the environment. ・ Start drafting a plan.",
+      "minutes": "200"
     },
     {
-      "index": "8",
-      "content": "Enzymes (3)",
-      "operation": "Lecture and Discussion\nQuiz",
-      "assignments": "Preview:\nRead the textbook\n(p.100-103)\nReview:\nReview textbook and notes",
-      "minutes": "60\n\n30"
+      "index": "15-16",
+      "content": "・ Review of the first assignment",
+      "operation": "Exercises and self-checks in the drafting room. Lecture and Q&A",
+      "assignments": "Based on the content learned in the lecture, perform esquisse for the next class.",
+      "minutes": "200"
     },
     {
-      "index": "9",
-      "content": "Strategies for protein overproduction (1)",
-      "operation": "Lecture and Discussion",
-      "assignments": "Preview:\nRead the textbook\n(p. 105-134)\nReview:\nReview textbook and notes",
-      "minutes": "60\n\n30"
+      "index": "17-18",
+      "content": "・ P, U course report presentation and commentary Esquisse 1 ・ Check zoning, layout plan and architectural image of individual esquisses individually (Architecture) ・ Check the characteristics and issues of “characteristic points” (Urban) ・Check the survey results and analysis contents of the plaza roof and digital design (digital design)",
+      "operation": "Exercises and self-checks in the drafting room.",
+      "assignments": "・ Modification of last check Performs esquisse of elevation and cross section (Architecture). Deepen city survey and analysis, and study design concept and basic composition (Urban) Investigate and analyze examples of plaza roofs and digital design (digital design)",
+      "minutes": "200"
     },
     {
-      "index": "10",
-      "content": "Strategies for protein overproduction (2)",
-      "operation": "Lecture and Discussion\nQuiz",
-      "assignments": "Preview:\nRead the textbook\n(p.134-137)\nReview:\nReview textbook and notes",
-      "minutes": "60\n\n30"
+      "index": "19-20",
+      "content": "Esquisse 2 ・ Check individual esquisses mainly on floor plan (Achitecture) ・ Check the plan / design concept of the improvement proposal, the relationship between the buildings and the external space, and the basic composition (Urban) ・Check the optimization method of roof design (digital design)",
+      "operation": "Exercises and self-checks in the drafting room.",
+      "assignments": "・ Modification of last check Performs esquisse of elevation and cross section (Architecture). Perform layout planning and landscape esquisse (Urban) Rehabilitation esquisse of Learning optimization methods using visual programming (digital design)",
+      "minutes": "200"
     },
     {
-      "index": "11",
-      "content": "Strategies for protein overproduction (3)",
-      "operation": "Lecture and Discussion",
-      "assignments": "Preview:\nRead the textbook\n(p.139-151)\nReview:\nReview textbook and notes",
-      "minutes": "60\n\n30"
+      "index": "21-22",
+      "content": "・ C and R course interim presentation and comment Esquisse 3 ・ Check esquisse individually on plan, elevation and section plan (Architecture) ・ Plan and cross section layout plan, landscape Esquisse individually checked (Urban) ・ Individually check the progress of roof design optimization (digital design)",
+      "operation": "Exercises and self-checks in the drafting room.",
+      "assignments": "・ Modification of last check Performs esquisse of elevation and cross section (Architecture). Perform plane, elevation, cross-section planning and landscape esquisse (Urban) Optimization of roof design through visual programming (digital design)",
+      "minutes": "200"
     },
     {
-      "index": "12",
-      "content": "Strategies for protein overproduction (4)",
-      "operation": "Lecture and Discussion",
-      "assignments": "Preview:\nRead the textbook\n(p.155-176)\nReview:\nReview textbook and notes",
-      "minutes": "60\n\n30"
+      "index": "23-24",
+      "content": "Esquisse 4 ・ Esquisses for plane elevation and cross-section planning are checked individually (Architecture). ・ Each plan, elevation, section plan, and landscape Esquisses are checked individually (Urban) ・Individually check the safety by optimizing the roof design (digital design)",
+      "operation": "Exercises and self-checks in the drafting room.",
+      "assignments": "・ Modification of last check Performs esquisse of elevation and cross section (Architecture). Perform plane, elevation, cross-section planning and landscape esquisse (Urban) Roof design optimization and design proposal (digital design)",
+      "minutes": "200"
     },
     {
-      "index": "13",
-      "content": "Strategies for protein overproduction (5)",
-      "operation": "Lecture and Discussion",
-      "assignments": "Preview:\nRead the textbook\n(p.179-183)\nReview:\nReview textbook and notes",
-      "minutes": "60\n\n30"
+      "index": "25-26",
+      "content": "Esquisse 5 ・ Check esquisse individually on plan, elevation and section plan (Architecture) ・ Each plan, elevation, section plan, and landscape esquisse are checked individually (Urban) ・Individually check the safety by optimizing the roof design (digital design)",
+      "operation": "Exercises and self-checks in the drafting room.",
+      "assignments": "・ Modification of last check Performs esquisse of elevation and cross section (Architecture). Perform plane, elevation, cross-section planning and landscape esquisse (Urban) Roof design optimization and design proposal (digital design)",
+      "minutes": "200"
     },
     {
-      "index": "14",
-      "content": "Membrane protein",
-      "operation": "Lecture and Discussion\nQuiz",
-      "assignments": "Preview:\nRead the textbook\n(p.185-191)\nReview:\nReview textbook and notes",
-      "minutes": "60\n\n30"
+      "index": "27-28",
+      "content": "・ Submit the second assignment. Perform a self-check on the submission.",
+      "operation": "・ Check and advice from teachers in drafting room. ・ Self-check",
+      "assignments": "・ Check the work by themselves",
+      "minutes": "200"
     },
     {
-      "index": "15",
-      "content": "Fluorescent protein",
-      "operation": "Lecture and Discussion",
-      "assignments": "Preview:\nRead the textbook\n(p.193-195)\nReview:\nReview textbook and notes",
-      "minutes": "60\n\n30"
+      "index": "29-30",
+      "content": "After reviewing and returning the second assignment as a reflection class, conduct a self-check class.",
+      "operation": "Explanation of intention of designer / planner Review, Q & A, Self-check",
+      "assignments": "Review the strengths and weaknesses of their own work, and appreciate and refer to the work of others.",
+      "minutes": "200"
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　B129-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Life Science and Biotechnology(〜2024)\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                タンパク質工学\n                Protein Engineering\n\n              2\n              B129-01\n\n                2026年度\n\n                3rd year 2nd semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  SANO Motoaki\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Protein conformation\n2.Purification\n3.Enzyme\n4.Molecular genetics\n5.Genetic engineering\n\n              This course will provide students with knowledge of protein engineering. This course has two aims. The first is to teach students the basic of protein engineering. The second is to introduce the applications of protein engineering.\n\n              授業の概要および学習上の助言\n\n              This course will include the following topics:\n\n1) Basic of protein engineering\nProtein conformation (amino acids, conformation, etc.)\nPurification (Protein extraction, protein purification, etc.)\nEnzyme (Reaction kinetics, coenzymes, inhibitors)\n\n 2) Application of protein engineering\nStrategies for protein overproduction\nEnzyme engineering\n\n              教科書および参考書・リザーブドブック\n\n              Textbooks：Essential Protein Engineering (Kodansha)\nReference books：Genetic Engineering 2nd ed.\nReserved books：Unspecified\n\n              履修に必要な予備知識や技能\n\n              This course deals with the extension of the topics you learn in the “Basic Biology”, “Bioengineering” and “Gene Engineering” courses. Knowledge of nucleic acids and proteins is required.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                I,K,L\n                Ability to explain protein conformation.\n\n                ②\n                I,K,L\n                Ability to explain protein purification.\n\n                ③\n                K,L\n                Ability to explain enzyme activity.\n\n                ④\n                J,K,L\n                Ability to explain the strategies for protein overproduction.\n\n                ⑤\n                J,K,L\n                Ability to explain recombinant DNA technology.\n\n                ⑥\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                0\n\n                60\n\n                30\n\n                0\n\n                0\n\n                0\n\n                10\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                0\n\n                60\n\n                30\n\n                0\n\n                0\n\n                0\n\n                10\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                0\n\n                60\n\n                30\n\n                0\n\n                0\n\n                0\n\n                10\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  コラボレーションとリーダーシップ\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  発表・表現・伝達する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  学習に取組む姿勢・意欲\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n",
-  "courseId": "2026:fall:B129-01:0:703",
+  "rawText": "金沢工業大学 学習支援計画書 A037-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Architecture(2018〜)\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n建築デザイン総合演習B\nArchitectural Integrated Exercises for Design B  3 A037-01  2024年度\n 3rd year 2nd semester  修学規程第4条を参照\n    担当教員名\n HACHIYA Toshio, TAKEUCHI Shinichi, YAMADA Keijirou, SATO Kouichi, FUJII Takeshi, SHIMOKAWA Yuichi, MIYASHITA Tomohiro, KOZU Seiichi, YOSHIMURA Toshihiro, TANISHIGE Yoshiyuki, KOBAYASHI Yoshinori\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Architectural design 2.Spatial Composition 3.Functional planning (program) 4.Inner-outer space 5.Regional cooperation  This class is the final stage of the architectural design exercise. Understand the function and composition of large public buildings or complex urban spaces, and plan and design them. In particular, at the stage just before Project Design Ⅲ, the goal is to develop a variety of conditions and functions, and to develop creative abilities that can be integrated as plans and design proposals.\n    授業の概要および学習上の助言   Assignment is design and planning of buildings and cities with special surrounding environment and complicated required functions. The design issues are roughly divided into three issues (see below). However, in addition to general design drawings, students propose appropriate and attractive expressions using drawings and sentences showing concepts, model photographs, CG, etc. 1) A large-scale building that satisfies the various functions of facilities, such as elementary school buildings and multicultural buildings in central Kanazawa, and that requires attractive architectural spaces. (two assignments). 2) Planning issues for integrated urban design of buildings and external spaces by decoding and re-editing the contexts of cities and towns (two assignments). 3) Renovation of buildings with changing the use of existing public buildings (one asignment). 4)The task of designing the roof of the plaza while learning techniques such as optimization using visual programming (one asignment). For the first task, you can freely choose one of the four tasks (1), (2), and (3), and for the second task, you can freely choose one from the four options (1), (2), and (4), and create your work.\n    教科書および参考書・リザーブドブック   None\n    履修に必要な予備知識や技能   This course is based on basic knowledge of architecture in general and the design ability of architectural design I and II, Architectural Integrated Exercises for Design A. Students try to apply the knowledge related to the planning and design of architecture and exterior space learned in various classes to the design work. If you choose Course D in ④ above and have not completed the credits for \"Architectural Information Design\" in the previous semester, you will need to study visual programming (Rhino+Grasshopper) in advance.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① L Students can analyze the characteristics of the urban area, traditional space, natural environment of location.   ② I,K Students can develop their ability to organize and design various spaces as architecture and urban space.   ③ L Students can analyze the characteristics of the local culture and community and reflect them in urban design.   ④ I,K,O Students can understand and propose about conversion of existing architecture by renovation project.   ⑤ P,Q Students can work on three-dimensional shape optimization of architectural forms using visual programming.   ⑥ J Students can create and express drawings, models, photographs, and texts as works, and presentate beautifully.\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 0 0 0 0 90 0 10 100     指標と評価割合 総合評価割合 0 0 0 0 90 0 10 100   総合力指標 知識を取り込む力 0 0 0 0 90 0 10 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ①      ②     ③     ④   ",
+  "courseId": "2024:fall:A035-01:0:703",
   "language": "en"
 }

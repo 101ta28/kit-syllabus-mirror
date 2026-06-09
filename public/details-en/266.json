@@ -1,52 +1,48 @@
 {
   "sourceIndex": 266,
   "sourceUrl": "/opsyllabus/kitos0110/266/1",
-  "importedAt": "2026-06-08T09:33:58.505Z",
-  "title": "半導体工学",
-  "subtitle": "Semiconductor Physics and Devices",
-  "courseType": "Major ProgramMajor Courses",
+  "importedAt": "2026-06-09T01:29:21.613Z",
+  "title": "ロボット応用力学Ⅱ",
+  "subtitle": "Dynamics of Machine Systems II",
+  "courseType": "Major Program\nMajor Courses",
   "credits": "2",
-  "term": "2026年度\n\n                3rd year 1st semester",
+  "term": "2024年度\n 3rd year 1st semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "HAYASHI Keiji"
+    "SUZUKI Ryoichi"
   ],
   "keywords": [
-    "Semiconductor Properties",
-    "Quantum Theory",
-    "Carrier Transport Mechanisms",
-    "Semiconductor Diode",
-    "Transistor"
+    "Solving equation of motion 2.Free and forced vibration 3.Natural angular frequency 4.Damping ratio, damped natural frequency 5.Resonance phenomenon"
   ],
-  "educationalGoal": "Student will:\n(1) learn semiconductors properties in order to understand the operation mechanism of semiconductor devices.(2) learn pn junctions and metal-semiconductor contacts using the energy band theory studied on “Physical Electronics”. Those are basics on various devices. (3) learn structures and operation mechanism of various diodes, bipolar transistor (PNP , NPN), and field effective transistor (FET).",
-  "advice": "Using knowledge of the energy band theory and semiconductor fundamental properties studied in “Physical Electronics”, students will learn other aspects of semiconductor fundamental properties. Students will also learn operation mechanisms and characteristics of pn junctions, metal-semiconductor contacts, bipolar transistors, and field-effect transistors.\nWe will cover the following materials:\n1. Fundamentals of electronic properties of semiconductors\n2. Transport mechanisms and spatial distribution formation of free carriers\n3. Semiconductor diode\n4. Transistor\n\nStudents should be aware of the teacher's instructions in the class, because the detailed course schedules may change depending on the students' progress in understanding.\n\nClass materials will be distributed in advance via the e-syllabus.",
-  "books": "Textbooks: None\nReference books: None\nReserved books: None",
-  "requiredKnowledge": "Understanding and knowledge of “Electronic Engineering” and “Physical Electronics”.\nBasic physics and mathematics, especially differential equations.",
+  "educationalGoal": "Acquire basic knowledge about machinery vibration problems. Understand the basics of vibration and apply it to machine design. Model and analyze basic vibration phenomena.",
+  "advice": "In recent years, high speed and high precision have been achieved to improve productivity, but vibrations generated in various machines cause problems. In this course, it is necessary to understand how to derive and solve the equations for expressing the motion of various vibration models. Therefore, students must not only understand the lectures but also work on exercises and reports the help them acquire the ability to solve vibration problems. The following topics are covered: 1.Basics of mechanical vibration: equations of motion, simple vibration, harmonic vibration, vectors, and complex representation of vibration 2.Free vibration of a one-degree-of-freedom system without damping 3.Free vibration of a one-degree-of-freedom system with damping 4.Forced vibration of a one-degree-of-freedom system 5.Basics of vibration of a two-degree-of-freedom system",
+  "books": "Textbook: Basic Vibration Engineering (2nd Edition) [Kyoritsu Shuppan]",
+  "requiredKnowledge": "Review Robot Basic Mechanics I & II and Robot Applied Dynamics I in addition to mathematics such as trigonometric functions and differential equations.",
   "activityGoals": [
     {
       "index": "①",
-      "type": "J,L",
-      "body": "Be able to outline the content of lectures on the quantum state of electrons regarding semiconductor crystals."
+      "type": "J",
+      "body": "Model vibration phenomena and derive equations of motion."
     },
     {
       "index": "②",
-      "type": "J,L",
-      "body": "Be able to outline the electronic state of semiconductors under thermal equilibrium conditions."
+      "type": "J",
+      "body": "Solve equations of motion (differential equations)."
     },
     {
       "index": "③",
-      "type": "J,L",
-      "body": "Be able to outline transport mechanisms and spatial distribution formation of free carriers."
+      "type": "J",
+      "body": "Understand and explain the characteristics of the free vibration system with and without damping."
     },
     {
       "index": "④",
-      "type": "J,L",
-      "body": "Be able to explain the rectifying properties of a pn junction diode based on the diffusion model."
+      "type": "J",
+      "body": "Understand and explain the characteristics of the forced vibration system with and without damping."
     },
     {
       "index": "⑤",
-      "type": "J,L",
-      "body": "Be able to outline the operating principles and characteristics of bipolar transistors and MOSFETs."
+      "type": "J",
+      "body": "Understand and explain the characteristics of a two-degree-of-freedom vibration system using eigenvalue analysis"
     }
   ],
   "evaluationWeights": [
@@ -64,9 +60,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -87,9 +83,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -110,9 +106,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -133,9 +129,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -143,7 +139,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -156,9 +152,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -179,9 +175,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -190,8 +186,8 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "5 target abilities are achieved over 85%, based on understanding and using mathematics and physics.",
-    "standard": "5 target abilities are achieved with 70-85%."
+    "ideal": "Model the vibration generated by various machines, such as production machines and vehicles. Analyze and evaluate dynamic behavior by solving equations of motion based on the model.",
+    "standard": "Derive the equations of motion for a given one- or two-degree-of-freedom vibration system. Analyze and evaluate dynamic behavior by solving the equations of motion."
   },
   "clipProcess": "",
   "lessons": [
@@ -199,109 +195,109 @@
       "index": "1",
       "content": "Course introduction",
       "operation": "Lecture and Q&A",
-      "assignments": "Understand the objectives of\nclass\nReview materials from No. 1\nclass",
-      "minutes": "200"
+      "assignments": "Understand the objectives of the course",
+      "minutes": "100"
     },
     {
       "index": "2",
-      "content": "1. Fundamentals of electronic properties of\nsemiconductors",
-      "operation": "Lecture and Q&A",
-      "assignments": "Prepare Ch. 1 of the class\nmaterials distributed via the\ne-syllabus\nReview is focusing on\nimportant points explained at\nclass",
-      "minutes": "200"
+      "content": "Derivation of equations of motion Homogeneous second-order linear differential equations General solution and initial conditions",
+      "operation": "Lecture and Q&A Self-check",
+      "assignments": "Review lecture content and complete assignments",
+      "minutes": "100"
     },
     {
       "index": "3",
-      "content": "continued",
-      "operation": "Lecture and Q&A",
-      "assignments": "Prepare Ch. 1 of the class\nmaterials distributed via the\ne-syllabus\nReview is focusing on\nimportant points explained at\nclass",
-      "minutes": "200"
+      "content": "Harmonic vibration and vibration synthesis Beat and amplitude modulation Phase and period of beat",
+      "operation": "Lecture and Q&A Self-check",
+      "assignments": "Review lecture content and complete assignments",
+      "minutes": "100"
     },
     {
       "index": "4",
-      "content": "continued",
-      "operation": "Lecture and Q&A",
-      "assignments": "Prepare Ch. 1 of the class\nmaterials distributed via the\ne-syllabus\nReview is focusing on\nimportant points explained at\nclass",
-      "minutes": "200"
+      "content": "Free vibration without damping (non-damped free vibration) Spring-mass system behavior without damping Natural angular frequency and natural period",
+      "operation": "Lecture and Q&A Self-check",
+      "assignments": "Review lecture content and complete assignments",
+      "minutes": "100"
     },
     {
       "index": "5",
-      "content": "continued",
-      "operation": "Lecture and Q&A",
-      "assignments": "Prepare Ch. 1 of the class\nmaterials distributed via the\ne-syllabus\nReview is focusing on\nimportant points explained at\nclass",
-      "minutes": "200"
+      "content": "Free vibration with damping (damped free vibration) Behavior of a spring/mass system with viscous damping Characteristic equation and damping ratio",
+      "operation": "Lecture and Q&A Self-check",
+      "assignments": "Review lecture content and complete assignments",
+      "minutes": "100"
     },
     {
       "index": "6",
-      "content": "2. Transport mechanisms and spatial distribution\n formation of free carriers",
-      "operation": "Lecture and Q&A",
-      "assignments": "Prepare Ch. 2 of the class\nmaterials distributed via the\ne-syllabus\nReview is focusing on\nimportant points explained at\nclass",
-      "minutes": "200"
+      "content": "Free vibration with attenuation (damped free vibration) Overdamping, critical damping, and underdamping Damped natural angular frequency and logarithmic damping rate",
+      "operation": "Lecture and Q&A Self-check",
+      "assignments": "Review lecture content and complete assignments",
+      "minutes": "100"
     },
     {
       "index": "7",
-      "content": "Self-reflection class",
-      "operation": "Review and self-reflection",
-      "assignments": "Review the contents learned in\n Nos. 2 to 6 classes",
-      "minutes": "200"
+      "content": "Free vibration with attenuation (damped free vibration) Overdamping, critical damping, and underdamping Damped natural angular frequency and logarithmic damping rate",
+      "operation": "Lecture and Q&A Self-check",
+      "assignments": "Review lecture content and complete assignments",
+      "minutes": "100"
     },
     {
       "index": "8",
-      "content": "3. Semiconductor diode",
-      "operation": "Lecture and Q&A",
-      "assignments": "Prepare Ch. 3 of the class\nmaterials distributed via the\ne-syllabus\nReview is focusing on\nimportant points explained at\nclass",
-      "minutes": "200"
+      "content": "Forced vibration with damping (damped forced vibration) Relationship between amplitude magnification /phase delay angle and damping ratio",
+      "operation": "Lecture and Q&A Self-check",
+      "assignments": "Review lecture content and complete assignments",
+      "minutes": "∞"
     },
     {
       "index": "9",
-      "content": "continued",
-      "operation": "Lecture and Q&A",
-      "assignments": "Prepare Ch. 3 of the class\nmaterials distributed via the\ne-syllabus\nReview is focusing on\nimportant points explained at\nclass",
-      "minutes": "200"
+      "content": "Relationship between Q value and damping ratio Intermediate test",
+      "operation": "Lecture and Q&A Review Test",
+      "assignments": "Confirm the level of understanding of classes 1-9",
+      "minutes": "100"
     },
     {
       "index": "10",
-      "content": "Mid-term exam\n\nExplanation of the correct answers for the exam",
-      "operation": "Exam and review",
-      "assignments": "Preview again and review the\nclass materials covered in the\n exam",
-      "minutes": "200"
+      "content": "Forced vibration due to harmonic displacement Equation of motion for displacement excitation Relationship between displacement transmissibility, phase delay angle, and damping ratio",
+      "operation": "Lecture and Q&A Self-check",
+      "assignments": "Review lecture content and complete assignments",
+      "minutes": "100"
     },
     {
       "index": "11",
-      "content": "4. Transistor",
-      "operation": "Lecture and Q&A",
-      "assignments": "Prepare Ch. 4 of the class\nmaterials distributed via the\ne-syllabus\nReview is focusing on\nimportant points explained at\nclass",
-      "minutes": "200"
+      "content": "Vibration of seismic system and absolute fixed surface system Principle of vibrometer Force transmission and vibration isolation",
+      "operation": "Lecture and Q&A Self-check",
+      "assignments": "Review lecture content and complete assignments",
+      "minutes": "100"
     },
     {
       "index": "12",
-      "content": "continued",
-      "operation": "Lecture and Q&A",
-      "assignments": "Prepare Ch. 4 of the class\nmaterials distributed via the\ne-syllabus\nReview is focusing on\nimportant points explained at\nclass",
-      "minutes": "200"
+      "content": "Two-degree-of-freedom vibration Characteristic equations and eigenvalues Relationship between vibration mode and phase",
+      "operation": "Lecture and Q&A Self-check",
+      "assignments": "Review lecture content and complete assignments",
+      "minutes": "100"
     },
     {
       "index": "13",
-      "content": "Self-reflection class",
-      "operation": "Review and self-reflection",
-      "assignments": "Review the contents learned in\n Nos. 8, 9, 11, and 12 classes",
-      "minutes": "200"
+      "content": "Vibration transmission and insulation Dynamic absorber Vibration simulation",
+      "operation": "Lecture and Q&A Self-check",
+      "assignments": "Review lecture content and complete assignments",
+      "minutes": "∞"
     },
     {
       "index": "14",
-      "content": "Final exam\n\nExplanation of the correct answers for the exam",
-      "operation": "Exam and review",
-      "assignments": "Preview again and review the\nclass materials covered in the\n exam",
-      "minutes": "200"
+      "content": "Final exam and review",
+      "operation": "Review Exam",
+      "assignments": "Check comprehension for the course",
+      "minutes": "100"
     },
     {
       "index": "15",
-      "content": "Self-check\n\nIntroduction to quantum theory",
-      "operation": "Self-check\n\nLecture and Q&A",
-      "assignments": "Review and self-check on 5\ntarget abilities\nLearn again points on lack of\nunderstanding",
-      "minutes": "200"
+      "content": "Review of final exam Self-evaluation",
+      "operation": "Review Self-evaluation",
+      "assignments": "Check comprehension for the entire course Discuss what was not understood",
+      "minutes": ""
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　E627-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Electrical and Electronic Engineering(〜2024)\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                半導体工学\n                Semiconductor Physics and Devices\n\n              2\n              E627-01\n\n                2026年度\n\n                3rd year 1st semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  HAYASHI Keiji\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Semiconductor Properties\n2.Quantum Theory\n3.Carrier Transport Mechanisms\n4.Semiconductor Diode\n5.Transistor\n\n              Student will:\n(1) learn semiconductors properties in order to understand the operation mechanism of semiconductor devices.(2) learn pn junctions and metal-semiconductor contacts using the energy band theory studied on “Physical Electronics”. Those are basics on various devices. (3) learn structures and operation mechanism of various diodes, bipolar transistor (PNP , NPN), and field effective transistor (FET).\n\n              授業の概要および学習上の助言\n\n              Using knowledge of the energy band theory and semiconductor fundamental properties studied in “Physical Electronics”, students will learn other aspects of semiconductor fundamental properties. Students will also learn operation mechanisms and characteristics of pn junctions, metal-semiconductor contacts, bipolar transistors, and field-effect transistors.\nWe will cover the following materials:\n1. Fundamentals of electronic properties of semiconductors\n2. Transport mechanisms and spatial distribution formation of free carriers\n3. Semiconductor diode\n4. Transistor\n\nStudents should be aware of the teacher's instructions in the class, because the detailed course schedules may change depending on the students' progress in understanding.\n\nClass materials will be distributed in advance via the e-syllabus.\n\n              教科書および参考書・リザーブドブック\n\n              Textbooks: None\nReference books: None\nReserved books: None\n\n              履修に必要な予備知識や技能\n\n              Understanding and knowledge of “Electronic Engineering” and “Physical Electronics”.\nBasic physics and mathematics, especially differential equations.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                J,L\n                Be able to outline the content of lectures on the quantum state of electrons regarding semiconductor crystals.\n\n                ②\n                J,L\n                Be able to outline the electronic state of semiconductors under thermal equilibrium conditions.\n\n                ③\n                J,L\n                Be able to outline transport mechanisms and spatial distribution formation of free carriers.\n\n                ④\n                J,L\n                Be able to explain the rectifying properties of a pn junction diode based on the diffusion model.\n\n                ⑤\n                J,L\n                Be able to outline the operating principles and characteristics of bipolar transistors and MOSFETs.\n\n                ⑥\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                40\n\n                40\n\n                20\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                40\n\n                40\n\n                20\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                40\n\n                40\n\n                20\n\n                0\n\n                0\n\n     ",
-  "courseId": "2026:spring:E627-01:0:266",
+  "rawText": "金沢工業大学 学習支援計画書 E222-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Robotics\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\nロボット応用力学Ⅱ\nDynamics of Machine Systems II  2 E222-01  2024年度\n 3rd year 1st semester  修学規程第4条を参照\n    担当教員名\n SUZUKI Ryoichi\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Solving equation of motion 2.Free and forced vibration 3.Natural angular frequency 4.Damping ratio, damped natural frequency 5.Resonance phenomenon  Acquire basic knowledge about machinery vibration problems. Understand the basics of vibration and apply it to machine design. Model and analyze basic vibration phenomena.\n    授業の概要および学習上の助言   In recent years, high speed and high precision have been achieved to improve productivity, but vibrations generated in various machines cause problems. In this course, it is necessary to understand how to derive and solve the equations for expressing the motion of various vibration models. Therefore, students must not only understand the lectures but also work on exercises and reports the help them acquire the ability to solve vibration problems. The following topics are covered: 1.Basics of mechanical vibration: equations of motion, simple vibration, harmonic vibration, vectors, and complex representation of vibration 2.Free vibration of a one-degree-of-freedom system without damping 3.Free vibration of a one-degree-of-freedom system with damping 4.Forced vibration of a one-degree-of-freedom system 5.Basics of vibration of a two-degree-of-freedom system\n    教科書および参考書・リザーブドブック   Textbook: Basic Vibration Engineering (2nd Edition) [Kyoritsu Shuppan]\n    履修に必要な予備知識や技能   Review Robot Basic Mechanics I & II and Robot Applied Dynamics I in addition to mathematics such as trigonometric functions and differential equations.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① J Model vibration phenomena and derive equations of motion.   ② J Solve equations of motion (differential equations).   ③ J Understand and explain the characteristics of the free vibration system with and without damping.   ④ J Understand and explain the characteristics of the forced vibration system with and without damping.   ⑤ J Understand and explain the characteristics of a two-degree-of-freedom vibration system using eigenvalue analysis   ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 40 40 20 0 0 0 0 100     指標と評価割合 総合評価割合 40 40 20 0 0 0 0 100   総合力指標 知識を取り込む力 40 40 20 0 0 0 0 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ A written exam is given at the end of the term to confirm the knowledge learned throughout the whole class.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     クイズ\n小テスト ① レ Several quizzes are given to confirm the knowledge learned as the course proceeds and the ability to apply this knowledge.    ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     レポート ① レ Reports and exercises are assigned to confirm and deepen the learning content through the class.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ①      ②     ③     ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     Model the vibration generated by various machines, such as production machines and vehicles. Analyze and evaluate dynamic behavior by solving equations of motion based on the model.  Derive the equations of motion for a given one- or two-degree-of-freedom vibration system. Analyze and evaluate dynamic behavior by solving the equations of motion.\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習課題に要する標準的な時間を記載してあります。日々の自学自習時間全体としては、各授業に応じた時間(例",
+  "courseId": "2024:fall:E213-01:0:266",
   "language": "en"
 }

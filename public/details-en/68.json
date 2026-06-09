@@ -1,57 +1,55 @@
 {
   "sourceIndex": 68,
   "sourceUrl": "/opsyllabus/kitos0110/68/1",
-  "importedAt": "2026-06-08T09:33:54.449Z",
-  "title": "線形代数Ⅰ（再履修クラス）",
-  "subtitle": "Linear Algebra I",
-  "courseType": "Mathematics and Science ProgramMathematics and Science Courses",
+  "importedAt": "2026-06-09T01:29:19.807Z",
+  "title": "アドバンスト数理B",
+  "subtitle": "Advanced Mathematics B",
+  "courseType": "Mathematics and Science Program\nMathematics and Science Courses",
   "credits": "2",
-  "term": "2026年度\n\n                1st year 1st semester",
+  "term": "2024年度\n 1st year 2nd semester\n2nd year 2nd semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "WATANABE Shuji"
+    "KUDO Tomoshige",
+    "KITAJIMA Takahiro",
+    "TAKAMURA Matsuzo"
   ],
   "keywords": [
-    "Vectors and Scalars",
-    "Dot product, Cross product",
-    "Operations of Matrices",
-    "Row Reduction",
-    "Linear Maps"
+    "1st order ODEs and properties of their solutions 2.2nd order homogeneous linear ODEs 3.2nd order inhomogeneous linear ODEs 4.Simultaneous systems of linear ODEs 5.Mathematical models for phenomena and analyses of their solutions"
   ],
-  "educationalGoal": "Students will learn:\n(1) vector operations.\n(2) matrix operations.\n(3) solving linear systems using “row reduction.”\n(4) representing linear transformations of a plane or a space.",
-  "advice": "This is a basic course in linear algebra. We will cover the following topics:\n\n1. Vectors\n1.1 Vectors and their operations\n1.2 Dot products and cross products of vectors\n1.3 The equation of a plane or a line\n2. Matrices and linear maps\n2.1 Matrices and their operations\n2.2 Linear systems and row reduction\n2.3 Linear maps and linear transformation\n\nClasses include exercises and quizzes; a final examination will be given at the end of the semester.\nDaily preparation and review are important. Students are required to complete the designated tasks.\nStudents should prepare reports and study research topics in a planned manner, and strictly avoid plagiarism.\nStudents are expected to utilize the Math. and Science Education Research Center or the office hours of the teacher.",
-  "books": "Textbook: Linear Algebra I (KIT Math and Science Academic Foundations Programs)\nReference book: A First Course in Linear Algebra (Open Textbook Library)[Lyryx]",
-  "requiredKnowledge": "Basic knowledge of mathematics, especially trigonometric functions.",
+  "educationalGoal": "Various issues in engineering, science and social science are often described by differential equations. Students will learn how to solve 1st order ordinary differential equations (ODEs), 2nd order constant-coefficient linear ODEs and systems of simultaneous linear ODEs, and will understand (1) how to construct mathematical models of phenomena, (2) solution method and geometrical concept and (3) how to analyze solution properties and characteristics. Students will learn the fundamentals of programming to develop the generic ability to analyze physical phenomena.",
+  "advice": "In the class, the students will learn differential equations (ODEs): (1) 1st order ODEs, (2) 2nd order constant-coefficient linear ODEs (homogeneous and inhomogeneous ODEs), and (3) systems of 1st order simultaneous linear ODEs. The students will learn the following analytical methods: (I) How to express physical and social phenomena with ODEs (construction of mathematical models). (II) How to solve specific types of ODEs and how to think geometrically about phenomena by means of solution curves and direction fields. (III) Analytical methods in which students will analyze obtained solutions and acquire information pertinent to the activities of engineers such as the pattern and the speed of changes in various phenomena. After the student learn the main themes of ODEs, the students will apply the above knowledge (I), (II), and (III) to computing projects by using formula manipulation system, and submit a report of their results. In the class, the students will use MATLAB in the following activities: 1) Visualizing the solutions for ODEs and thinking geometrically. 2) Setting and evaluating the parameters of ODEs. 3) Modeling physical phenomena and deriving and analyzing their solutions. Therefore, the students should install MATLAB on individual notebook computer, and should master basic usage of MATLAB beforehand.",
+  "books": "Textbooks:Advanced Engineering Mathematics 1: Ordinary Differential Equation (8th Edition) [Baifukan] Reference books:None Reserved books:Advanced Engineering Mathematics, 10th Edition [John Wiley & Sons, Inc.]",
+  "requiredKnowledge": "Knowledge of differential and integral calculations, basic differential equations, and linear algebra in the subjects: Integrated Math and Science for Engineering I & II, Linear Algebra I & II. Basic computer skills for computing projects.",
   "activityGoals": [
     {
       "index": "①",
       "type": "D",
-      "body": "Understand the concept of vectors and be able to properly perform vector operations."
+      "body": "Be able to construct 1st order ODEs for various phenomena and obtain the solutions."
     },
     {
       "index": "②",
       "type": "D",
-      "body": "Understand the concept of matrices and be able to properly perform matrix operations."
+      "body": "Be able to construct 2nd order linear ODEs for various phenomena and obtain the solutions."
     },
     {
       "index": "③",
       "type": "D",
-      "body": "Be able to find solutions to linear systems by using row reduction."
+      "body": "Be able to construct simultaneous systems of 1st order ODEs for various phenomena and obtain the solutions."
     },
     {
       "index": "④",
       "type": "D",
-      "body": "Understand the concept of a linear transforms and be able to represent them in matrix form."
+      "body": "Be able to analyze solutions obtained from ODEs and evaluate the pattern and speed of changes in phenomena."
     },
     {
       "index": "⑤",
       "type": "C",
-      "body": "Understand the meanings of fundamental english words for mathematics."
+      "body": "Be able to understand the meanings of fundamental english words for mathematics."
     },
     {
       "index": "⑥",
       "type": "A",
-      "body": "Understand the contents of the course and be able to complete the required tasks by the announced deadlines."
+      "body": "Be able to understand the class contents by completing the homework and attending every class."
     }
   ],
   "evaluationWeights": [
@@ -59,19 +57,19 @@
       "label": "総合評価割合",
       "values": [
         "30",
+        "20",
+        "20",
+        "0",
+        "0",
+        "0",
         "30",
-        "15",
-        "0",
-        "0",
-        "0",
-        "25",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -82,19 +80,19 @@
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
         "30",
+        "20",
+        "20",
+        "0",
+        "0",
+        "0",
         "30",
-        "15",
-        "0",
-        "0",
-        "0",
-        "25",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -105,19 +103,19 @@
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
         "30",
+        "20",
+        "20",
+        "0",
+        "0",
+        "0",
         "30",
-        "15",
-        "0",
-        "0",
-        "0",
-        "25",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -138,9 +136,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -148,7 +146,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -161,9 +159,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -184,9 +182,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -195,118 +193,118 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "(1) Properly perform vector operations and find the equations of planes or lines.\n(2) Properly perform matrix operations.\n(3) Solve 'complex' linear systems using row reduction.\n(4) Understand the concept of linear maps and properly determine representation matrices.",
-    "standard": "(1) Properly perform vector operations.\n(2) Properly perform matrix operations.\n(3) Solve 'fundamental' linear systems using row reduction.\n(4) Find representation matrices of linear transformations in a plane."
+    "ideal": "(1) Understand the concept of ODEs and accurately explain the geometric properties of the solutions. (2) Construct accurate mathematical models with ODEs from scientific and social phenomena. (3) Accurately analyze the structure of ODEs and select an appropriate solution method. (4) Draw the graph of the solution of an ODEs and clearly explain the behavior of the solution. (5) Accurately analyze the behavior of solutions, predict future states of a phenomenon, obtain optimal solutions, and explain the reason for the predictions. (6) Understand and successfully complete all homework.",
+    "standard": "(1) Understand the concept of ODEs and explain the geometric properties of the solutions. (2) Construct mathematical models with ODEs from scientific and social phenomena. (3) Analyze the structure of ODEs and select an appropriate solution method. (4) Draw the graph of the solution of an ODE and explain the behavior of the solution. (5) Analyze the behavior of solutions, predict future states of a phenomenon, and obtain optimal solutions. (6) Understand and complete all homework."
   },
   "clipProcess": "",
   "lessons": [
     {
       "index": "1",
-      "content": "Course introduction\nVectors in a plane\nAddition of vectors, inverse vectors\nScalar multiplication of vectors",
-      "operation": "Lecture and exercises",
-      "assignments": "Understand the objectives of\nthe class\nReview materials from the\nprevious course\nPreview for 3-dim vectors",
-      "minutes": "120"
+      "content": "Course introduction Basic concept of 1st order ODEs Geometrical meaning and direction fields of 1st order ODEs",
+      "operation": "Instruction Lecture and exercise",
+      "assignments": "Review: Basic concept of 1st order ODEs, Geometrical meaning and direction fields of 1st order ODEs Preview: Separable ODEs",
+      "minutes": "60 30"
     },
     {
       "index": "2",
-      "content": "3-dim vectors\nOperations of 3-dim vectors\nDot products of plane vectors",
-      "operation": "Lecture and exercises",
-      "assignments": "Review materials from the\nlast class\nPreview for dot products and\ncross products",
-      "minutes": "120"
+      "content": "Separable ODEs Transformation to separable form Modeling",
+      "operation": "Lecture and exercise",
+      "assignments": "Review: Separable ODEs, Modeling Preview: Exact ODEs",
+      "minutes": "60 30"
     },
     {
       "index": "3",
-      "content": "Dot products of 3-dim vectors\nCross products of 3-dim vectors",
-      "operation": "Lecture and exercises",
-      "assignments": "Review materials from the\nlast class\nPreview for equations of lines\n and planes",
-      "minutes": "120"
+      "content": "Exact ODEs Integrating factors",
+      "operation": "Lecture and exercise",
+      "assignments": "Review: Exact ODEs, Integrating factors Preview: 1st order linear ODEs",
+      "minutes": "60 30"
     },
     {
       "index": "4",
-      "content": "Equations of lines in a coordinate plane\nEquations of lines in a 3-dim space\nEquations of planes in a 3-dim space",
-      "operation": "Lecture and exercises",
-      "assignments": "Review materials from the\nlast class\nPreview for matrices\nPreview for the test",
-      "minutes": "180"
+      "content": "1st order linear ODEs Bernoulli equation",
+      "operation": "Lecture and exercise",
+      "assignments": "Review: 1st order linear ODEs Preview: Modeling",
+      "minutes": "60 30"
     },
     {
       "index": "5",
-      "content": "Quiz (1)\n\nDefinition of matrix\nMatrix multiplication",
-      "operation": "Quiz on the contents of\n# 1 - # 4\n\nLecture and exercises",
-      "assignments": "Review materials from the\nlast class\nPreview for operations of matr\nices",
-      "minutes": "120"
+      "content": "Modeling: Mixing problems, Population dynamics, Electric circuits",
+      "operation": "Lecture and exercise",
+      "assignments": "Review: Modeling, mixing problems Preview: Quiz 1",
+      "minutes": "60 60"
     },
     {
       "index": "6",
-      "content": "Matrix multiplication",
-      "operation": "Lecture and exercises",
-      "assignments": "Review materials from the\nlast class\nPreview for operations of\nmatrices",
-      "minutes": "120"
+      "content": "Quiz 1 Computing project 1",
+      "operation": "Quiz 1 Computing project",
+      "assignments": "Review: Computing project 1 Preview: Computing project 1",
+      "minutes": "30 30"
     },
     {
       "index": "7",
-      "content": "Additions and scalar products of matrices\nSquare matrices\nInverse matrices of order 2",
-      "operation": "Lecture and exercises",
-      "assignments": "Review materials from the\nlast class\nPreview for row reduction",
-      "minutes": "120"
+      "content": "Computing project 1 (Continuation from last class)",
+      "operation": "Computing project Self-check",
+      "assignments": "Review: Computing project 1 Preview: 2nd order linear ODEs",
+      "minutes": "90 30"
     },
     {
       "index": "8",
-      "content": "Row reduction\nExamples of row reduction",
-      "operation": "Lecture and exercises",
-      "assignments": "Review for row reduction\nPreview for elementary\nmatrices",
-      "minutes": "120"
+      "content": "2nd order homogeneous linear ODEs Constant coefficient equations Complex exponential functions Modeling: free oscillations of a mass-spring system",
+      "operation": "Lecture and exercise",
+      "assignments": "Review: 2nd order homogeneous linear ODEs Preview: Wronskian, Nonhomogeneous ODEs",
+      "minutes": "60 30"
     },
     {
       "index": "9",
-      "content": "Row reduction and elementary matrices\nInverse of matrices of order 3",
-      "operation": "Lecture and exercises",
-      "assignments": "Review materials from the\nlast class\nPreview for linear maps and\nlinear transformations",
-      "minutes": "180"
+      "content": "Existence and uniqueness of solutions Wronskian Nonhomogeneous equation Method of undetermined coefficients",
+      "operation": "Lecture and exercise",
+      "assignments": "Review: Method of undetermined coefficients Preview: Solution by variation of parameters",
+      "minutes": "60 30"
     },
     {
       "index": "10",
-      "content": "Quiz (2)\n\nDefinition of linear map and linear\ntransformation\nRepresentation matrices of rotations in a plane",
-      "operation": "Quiz on contents of\n# 5 - # 9\n\nLecture and exercises",
-      "assignments": "Review materials from the\nlast class\nPreview for manipulations of\nlinear transformations",
-      "minutes": "120"
+      "content": "Solution by variation of parameters Modeling: forced oscillations, resonance.",
+      "operation": "Lecture and exercise",
+      "assignments": "Review: Solution by variation of parameters Preview: Quiz 2",
+      "minutes": "60 60"
     },
     {
       "index": "11",
-      "content": "Compositions of linear transformations\nInverse transformations\nLinear transformations in a 3-dim space",
-      "operation": "Lecture and exercises",
-      "assignments": "Review materials from the\nlast class\nPreview for complex numbers",
-      "minutes": "120"
+      "content": "Quiz 2 Vector, matrix, eigenvalue problem",
+      "operation": "Quiz 2 Lecture and exercise",
+      "assignments": "Review: Vector, matrix, eigenvalue problems Preview: Systems of ODEs",
+      "minutes": "30 30"
     },
     {
       "index": "12",
-      "content": "Integrated assignment: complex numbers and their\n operations",
-      "operation": "Lecture and exercises",
-      "assignments": "Review materials from the\nlast class\nPreview for Euler's formula",
-      "minutes": "120"
+      "content": "Systems of ODEs Modeling: coupled oscillations, electrical network, mixing problem",
+      "operation": "Lecture and exercise Self-check",
+      "assignments": "Review: Systems of ODEs, Modeling Preview: Computing project 2",
+      "minutes": "60 30"
     },
     {
       "index": "13",
-      "content": "Integrated assignment: Euler's formula\n\nSelf-reflection class",
-      "operation": "Lecture and exercises",
-      "assignments": "Study for the final exam",
-      "minutes": "180"
+      "content": "Computing project 2",
+      "operation": "Computing project",
+      "assignments": "Review: Computing project 2 Preview: Final exam.",
+      "minutes": "30 90"
     },
     {
       "index": "14",
-      "content": "Review\nFinal exam",
-      "operation": "Exam on contents of\n# 1 - # 11",
-      "assignments": "Study for the final exam",
-      "minutes": "120"
+      "content": "Total review Final exam.",
+      "operation": "Exercise Final exam.",
+      "assignments": "Review: Final exam. Self-check: Confirmation of submission, attendance",
+      "minutes": "60"
     },
     {
       "index": "15",
-      "content": "Review the final exam\nSelf-check",
-      "operation": "Review the final exam\nSelf-check",
-      "assignments": "Review of this class",
-      "minutes": "120"
+      "content": "Review of final exam. Self-check",
+      "operation": "Review of final exam. Self-check Questionnaire",
+      "assignments": "Review: Final exam.",
+      "minutes": "30"
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　G201-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Mathematics, Science, Data Science and AI Program\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Mathematics and Science ProgramMathematics and Science Courses\n\n                線形代数Ⅰ（再履修クラス）\n                Linear Algebra I\n\n              2\n              G201-01\n\n                2026年度\n\n                1st year 1st semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  WATANABE Shuji\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Vectors and Scalars\n2.Dot product, Cross product\n3.Operations of Matrices\n4.Row Reduction\n5.Linear Maps\n\n              Students will learn:\n(1) vector operations.\n(2) matrix operations.\n(3) solving linear systems using “row reduction.”\n(4) representing linear transformations of a plane or a space.\n\n              授業の概要および学習上の助言\n\n              This is a basic course in linear algebra. We will cover the following topics:\n\n1. Vectors\n1.1 Vectors and their operations\n1.2 Dot products and cross products of vectors\n1.3 The equation of a plane or a line\n2. Matrices and linear maps\n2.1 Matrices and their operations\n2.2 Linear systems and row reduction\n2.3 Linear maps and linear transformation\n\nClasses include exercises and quizzes; a final examination will be given at the end of the semester.\nDaily preparation and review are important. Students are required to complete the designated tasks.\nStudents should prepare reports and study research topics in a planned manner, and strictly avoid plagiarism.\nStudents are expected to utilize the Math. and Science Education Research Center or the office hours of the teacher.\n\n              教科書および参考書・リザーブドブック\n\n              Textbook: Linear Algebra I (KIT Math and Science Academic Foundations Programs)\nReference book: A First Course in Linear Algebra (Open Textbook Library)[Lyryx]\n\n              履修に必要な予備知識や技能\n\n              Basic knowledge of mathematics, especially trigonometric functions.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                D\n                Understand the concept of vectors and be able to properly perform vector operations.\n\n                ②\n                D\n                Understand the concept of matrices and be able to properly perform matrix operations.\n\n                ③\n                D\n                Be able to find solutions to linear systems by using row reduction.\n\n                ④\n                D\n                Understand the concept of a linear transforms and be able to represent them in matrix form.\n\n                ⑤\n                C\n                Understand the meanings of fundamental english words for mathematics.\n\n                ⑥\n                A\n                Understand the contents of the course and be able to complete the required tasks by the announced deadlines.\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                30\n\n                30\n\n                15\n\n                0\n\n                0\n\n                0\n\n                25\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                30\n\n                30\n\n                15\n\n                0\n\n                0\n\n                0\n\n                25\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                30\n\n                30\n\n                15\n\n                0\n\n                0\n\n                0\n\n                25\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n              ",
-  "courseId": "2026:spring:G201-01:0:68",
+  "rawText": "金沢工業大学 学習支援計画書 G159-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nMathematics, Science, Data Science and AI Program\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Mathematics and Science Program\nMathematics and Science Courses\nアドバンスト数理B\nAdvanced Mathematics B  2 G159-01  2024年度\n 1st year 2nd semester\n2nd year 2nd semester  修学規程第4条を参照\n    担当教員名\n KUDO Tomoshige, KITAJIMA Takahiro, TAKAMURA Matsuzo\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.1st order ODEs and properties of their solutions 2.2nd order homogeneous linear ODEs 3.2nd order inhomogeneous linear ODEs 4.Simultaneous systems of linear ODEs 5.Mathematical models for phenomena and analyses of their solutions  Various issues in engineering, science and social science are often described by differential equations. Students will learn how to solve 1st order ordinary differential equations (ODEs), 2nd order constant-coefficient linear ODEs and systems of simultaneous linear ODEs, and will understand (1) how to construct mathematical models of phenomena, (2) solution method and geometrical concept and (3) how to analyze solution properties and characteristics. Students will learn the fundamentals of programming to develop the generic ability to analyze physical phenomena.\n    授業の概要および学習上の助言   In the class, the students will learn differential equations (ODEs): (1) 1st order ODEs, (2) 2nd order constant-coefficient linear ODEs (homogeneous and inhomogeneous ODEs), and (3) systems of 1st order simultaneous linear ODEs. The students will learn the following analytical methods: (I) How to express physical and social phenomena with ODEs (construction of mathematical models). (II) How to solve specific types of ODEs and how to think geometrically about phenomena by means of solution curves and direction fields. (III) Analytical methods in which students will analyze obtained solutions and acquire information pertinent to the activities of engineers such as the pattern and the speed of changes in various phenomena. After the student learn the main themes of ODEs, the students will apply the above knowledge (I), (II), and (III) to computing projects by using formula manipulation system, and submit a report of their results. In the class, the students will use MATLAB in the following activities: 1) Visualizing the solutions for ODEs and thinking geometrically. 2) Setting and evaluating the parameters of ODEs. 3) Modeling physical phenomena and deriving and analyzing their solutions. Therefore, the students should install MATLAB on individual notebook computer, and should master basic usage of MATLAB beforehand.\n    教科書および参考書・リザーブドブック   Textbooks:Advanced Engineering Mathematics 1: Ordinary Differential Equation (8th Edition) [Baifukan] Reference books:None Reserved books:Advanced Engineering Mathematics, 10th Edition [John Wiley & Sons, Inc.]\n    履修に必要な予備知識や技能   Knowledge of differential and integral calculations, basic differential equations, and linear algebra in the subjects: Integrated Math and Science for Engineering I & II, Linear Algebra I & II. Basic computer skills for computing projects.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① D Be able to construct 1st order ODEs for various phenomena and obtain the solutions.   ② D Be able to construct 2nd order linear ODEs for various phenomena and obtain the solutions.   ③ D Be able to construct simultaneous systems of 1st order ODEs for various phenomena and obtain the solutions.   ④ D Be able to analyze solutions obtained from ODEs and evaluate the pattern and speed of changes in phenomena.   ⑤ C Be able to understand the meanings of fundamental english words for mathematics.   ⑥ A Be able to understand the class contents by completing the homework and attending every class.\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 30 20 20 0 0 0 30 100     指標と評価割合 総合評価割合 30 20 20 0 0 0 30 100   総合力指標 知識を取り込む力 30 20 20 0 0 0 30 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表",
+  "courseId": "2024:fall:G152-01:0:68",
   "language": "en"
 }

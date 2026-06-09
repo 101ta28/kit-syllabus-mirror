@@ -1,48 +1,53 @@
 {
   "sourceIndex": 398,
   "sourceUrl": "/opsyllabus/kitos0110/398/1",
-  "importedAt": "2026-06-08T09:34:01.150Z",
-  "title": "メディア情報論Ⅱ",
-  "subtitle": "Media Informatics II",
-  "courseType": "Major ProgramMajor Courses",
+  "importedAt": "2026-06-09T01:29:22.607Z",
+  "title": "形式言語とオートマトン",
+  "subtitle": "Formal Languages and Automata",
+  "courseType": "Major Program\nMajor Courses",
   "credits": "2",
-  "term": "2026年度\n\n                3rd year 1st semester",
+  "term": "2024年度\n 3rd year 1st semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "EMURA Norio",
-    "NEGISHI Ippei"
+    "NINAGAWA Shigeru"
   ],
   "keywords": [
-    "Cognitive information processing",
-    "Sensibility and emotional information processing",
-    "Vision psychology",
-    "Auditory psychology",
-    "Psychological experiment"
+    "Finite automaton 2.Regular language 3.Regular expression 4.Context-free grammar"
   ],
-  "educationalGoal": "In this course, students will:\n(1) Learn human visual and auditory processing within the context of physiology and psychology.\n(2) Learn cognitive, sensibility, and emotional information processing for media contents.\n(3) Learn the method for creating affecting contents.",
-  "advice": "In this course.  based on the knowledge imparted during “Media Informatics I”, the cognitive, sensibility, and emotional information processing of media contents (pictures, movies, music, etc.) will be examined.\nAs a part of the course, students will learn and practice to simulate the human processing via computer programming.\nAccordingly,  students should review the contents of “Color and Hearing Training” and “Media Informatics I”.",
-  "books": "Textbooks：None\nReference books：None\nReserved books：None",
-  "requiredKnowledge": "An understanding of the contents of “Color and Hearing Training” and “Media Informatics I” is required.\nBasic computer programming skills are required.",
+  "educationalGoal": "Formal language is a mathematical description of a language and formal grammar is a set of rules that can be used to create sentences with a language. In this course, students learn regular language and context-free language. They also study several kinds of automata that can recognize those languages. The knowledge students learn in this course provide the foundations of the technology that processes natural languages and other languages.",
+  "advice": "In this course, students learn formal grammar and formal language, especially focusing on regular language and context-free language. They also study several kinds of automata that can recognize those languages. The topics are as follows: 1. Deterministic finite automaton 2. Nondeterministic finite automaton 3. Nondeterministic finite automaton with epsilon moves 4. Regular language 5. Regular grammar 6. Regular expression 7. Context-free grammar 8. Context-free language 9. Chomsky hierarchy",
+  "books": "オートマトン・言語理論 第2版,冨田 悦次,横森 貴著,森北出版",
+  "requiredKnowledge": "Review sets and their operations taken up in \"Discrete mathematics\", especially the notation of sets, subsets, power sets, and the direct product of sets.",
   "activityGoals": [
     {
       "index": "①",
-      "type": "D,F,L",
-      "body": "Be able to understand human cognitive processing for visual and auditory stimuli."
+      "type": "L,M",
+      "body": "Be able to explain Chomsky hierarchy."
     },
     {
       "index": "②",
-      "type": "D,F,L",
-      "body": "Be able to understand human affective and emotional processing for visual and auditory stimuli."
+      "type": "L,M",
+      "body": "Be able to perform conversions between equivalent finite automata."
     },
     {
       "index": "③",
-      "type": "I,D,F,L",
-      "body": "Be able to plan and conduct psychological experiments related to the processes described in 1 and 2 above."
+      "type": "K,L,M",
+      "body": "Be able to explain the definition of regular grammar and regular language."
     },
     {
       "index": "④",
       "type": "L,M",
-      "body": "Be able to design media content from an engineering perspective based on the results of the experiments in 3."
+      "body": "Be able to perform conversions between regular grammar and finite automaton."
+    },
+    {
+      "index": "⑤",
+      "type": "L,M",
+      "body": "Be able to explain the definition of regular expression."
+    },
+    {
+      "index": "⑥",
+      "type": "L,M",
+      "body": "Be able to perform derivations in context-free grammar."
     }
   ],
   "evaluationWeights": [
@@ -50,8 +55,8 @@
       "label": "総合評価割合",
       "values": [
         "40",
-        "20",
-        "40",
+        "60",
+        "0",
         "0",
         "0",
         "0",
@@ -60,9 +65,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -73,8 +78,8 @@
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
         "40",
-        "20",
-        "40",
+        "60",
+        "0",
         "0",
         "0",
         "0",
@@ -83,9 +88,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -96,8 +101,8 @@
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
         "40",
-        "20",
-        "40",
+        "60",
+        "0",
         "0",
         "0",
         "0",
@@ -106,9 +111,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -129,9 +134,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -139,7 +144,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -152,9 +157,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -175,9 +180,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -186,118 +191,118 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "(1) Be able to explain human cognitive processing for visual and auditory stimuli. (2) Be able to explain human sensibility and emotional processing for visual and auditory stimuli. (3) Be able to appropriately plan and conduct psychological experiments on the cognitive as well as affective/emotional information-processing mechanisms related to visual and auditory stimuli. (4) Be able to analyze data obtained from psychological experiments and appropriately discuss the affective and emotional information-processing mechanisms underlying human responses to visual and auditory stimuli.",
-    "standard": "(1) Be able to explain human visual and auditory perception mechanism. (2) Be able to understand human cognitive processing for visual and auditory stimuli. (3) Be able to understand human sensibility and emotional processing for visual and auditory stimuli. (4) Be able to plan and conduct psychological experiments on the cognitive as well as affective/emotional information-processing mechanisms related to visual and auditory stimuli. (5) Be able to analyze data obtained from psychological experiments and discuss the affective and emotional information-processing mechanisms underlying human responses to visual and auditory stimuli."
+    "ideal": "Be able to apply the knowledge of formal language and formal grammar to programming. Be able to handle regular expressions.",
+    "standard": "Be able to understand the description of formal language and formal grammar."
   },
   "clipProcess": "",
   "lessons": [
     {
       "index": "1",
-      "content": "Course introduction\nReview of Media Informatics I",
-      "operation": "Lecture\nSelf-check",
-      "assignments": "Lecture review",
-      "minutes": "60"
+      "content": "Outline of the course Formal language and formal grammar",
+      "operation": "Lecture Q&A self-check",
+      "assignments": "Preview: set, operations of sets Review: formal language and formal grammar",
+      "minutes": "40 60"
     },
     {
       "index": "2",
-      "content": "Auditory system I\n・Structure of the Cochlea\n・Place and temporal theories of pitch",
-      "operation": "Lecture\nSelf-check",
-      "assignments": "Lecture review",
-      "minutes": "60"
+      "content": "Chomsky hierarchy",
+      "operation": "Lecture Q&A self-check",
+      "assignments": "Preview: Chomsky hierarchy Review: Chomsky hierarchy",
+      "minutes": "60 60"
     },
     {
       "index": "3",
-      "content": "Auditory system II\n・Role of auditory brain stem\n・Processing in auditory cortex",
-      "operation": "Lecture\nSelf-check",
-      "assignments": "Lecture review",
-      "minutes": "60"
+      "content": "Deterministic finite automaton",
+      "operation": "Lecture Q&A self-check",
+      "assignments": "Preview: deterministic finite automaton Review: deterministic finite automaton",
+      "minutes": "60 60"
     },
     {
       "index": "4",
-      "content": "Psychoacoustics\n・Pitch\n・Loudness\n・Auditory filter\n・Auditory masking",
-      "operation": "Lecture\nSelf-check",
-      "assignments": "Lecture review",
-      "minutes": "60"
+      "content": "Nondeterministic finite automaton",
+      "operation": "Lecture Q&A self-check",
+      "assignments": "Preview: nondeterministic finite automaton Review: nondeterministic finite automaton",
+      "minutes": "60 60"
     },
     {
       "index": "5",
-      "content": "Music information Technologies based on\npsychoacoustics\n・Audio compression\n・Music Information Retrieval",
-      "operation": "Lecture\nSelf-check",
-      "assignments": "Lecture review\nPrepare for the experiment",
-      "minutes": "120"
+      "content": "Conversion between finite automaton and regular grammar",
+      "operation": "Lecture Q&A self-check",
+      "assignments": "Preview: conversion between FA and RG Review: conversion between FA and RG",
+      "minutes": "60 60"
     },
     {
       "index": "6",
-      "content": "Experiment about auditory stream segregation",
-      "operation": "Lecture and Practice\nSelf-check",
-      "assignments": "Lecture review\nPrepare for the exam\n(including assignment sheet)",
-      "minutes": "120"
+      "content": "Nondeterministic finite automaton with epsilon moves",
+      "operation": "Lecture Q&A self-check",
+      "assignments": "Preview: NFA with epsilon moves Review: NFA with epsilon moves",
+      "minutes": "60 60"
     },
     {
       "index": "7",
-      "content": "Exam and self-reflection",
-      "operation": "Exam\nSelf-check",
-      "assignments": "Lecture review",
-      "minutes": "240"
+      "content": "Mid-term review",
+      "operation": "Lecture Q&A self-check",
+      "assignments": "Preview: summary of the first half of the course Review: summary of the first half of the course",
+      "minutes": ""
     },
     {
       "index": "8",
-      "content": "The eye and visual cortex\n・Structure of the eye\n・Retina\n・Signal transfer to the brain\n・Processing in visual cortex",
-      "operation": "Lecture\nSelf-check",
-      "assignments": "Lecture review",
-      "minutes": "60"
+      "content": "Operations of languages",
+      "operation": "Lecture Q&A self-check",
+      "assignments": "Preview: operations of languages Review: operations of languages",
+      "minutes": "60 60"
     },
     {
       "index": "9",
-      "content": "Spatial and temporal properties of visual\nreceptive fields\n・Receptive field\n・Visual temporal properties\n・Visual spatial properties",
-      "operation": "Lecture\nSelf-check",
-      "assignments": "Lecture review",
-      "minutes": "60"
+      "content": "Regular expression",
+      "operation": "Lecture Q&A self-check",
+      "assignments": "Preview: Regular expression Review: Regular expression",
+      "minutes": "60 60"
     },
     {
       "index": "10",
-      "content": "Spatial vision and depth perception\n・Adaptation and after-effect\n・Perception of size and orientation\n・Depth perception",
-      "operation": "Lecture\nSelf-check",
-      "assignments": "Lecture review",
-      "minutes": "60"
+      "content": "Regular expression and finite automaton",
+      "operation": "Lecture Q&A self-check",
+      "assignments": "Preview: RE and FA Review: RE and FA",
+      "minutes": "60 60"
     },
     {
       "index": "11",
-      "content": "Motion perception\n・Retinal motion\n・Motion detector\n・Apparent motion\n・Vection",
-      "operation": "Lecture\nSelf-check",
-      "assignments": "Lecture review\nPrepare for the experiment",
-      "minutes": "120"
+      "content": "Conversion between finite automaton and regular expression",
+      "operation": "Lecture Q&A self-check",
+      "assignments": "Preview: conversion between FA and RE Review: conversion between FA and RE",
+      "minutes": "60 60"
     },
     {
       "index": "12",
-      "content": "Experiment about human vision",
-      "operation": "Practice",
-      "assignments": "Write a paper about the\nexperiment",
-      "minutes": "300"
+      "content": "Context-free grammar",
+      "operation": "Lecture Q&A self-check",
+      "assignments": "Preview: context-free grammar Review: context-free gramar",
+      "minutes": "60 60"
     },
     {
       "index": "13",
-      "content": "Color vision\n・Three cones and opposite color mechanism\n・Munsell color system and 3 attributes of color\n・Color constancy\n・Color naming",
-      "operation": "Lecture\nSelf-check",
-      "assignments": "Lecture review",
-      "minutes": "60"
+      "content": "Parse tree",
+      "operation": "Lecture Q&A self-check",
+      "assignments": "Preview: parse tree Review: parse tree",
+      "minutes": "60 60"
     },
     {
       "index": "14",
-      "content": "Exam",
-      "operation": "Exam\nSelf-check",
-      "assignments": "Prepare for the exam\n(including assignment sheet)",
-      "minutes": "60"
+      "content": "Ambiguous grammar",
+      "operation": "Lecture Q&A self-check",
+      "assignments": "Preview: ambiguous grammar Review: ambiguous gramar",
+      "minutes": "60 60"
     },
     {
       "index": "15",
-      "content": "Course conclusion",
-      "operation": "Self-reflection\nSelf-evaluation",
+      "content": "Self-check",
+      "operation": "Lecture Q&A self-check",
       "assignments": "",
       "minutes": ""
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　F020-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Media Informatics(〜2024)\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                メディア情報論Ⅱ\n                Media Informatics II\n\n              2\n              F020-01\n\n                2026年度\n\n                3rd year 1st semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  EMURA Norio, NEGISHI Ippei\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Cognitive information processing\n2.Sensibility and emotional information processing\n3.Vision psychology\n4.Auditory psychology\n5.Psychological experiment\n\n              In this course, students will:\n(1) Learn human visual and auditory processing within the context of physiology and psychology.\n(2) Learn cognitive, sensibility, and emotional information processing for media contents.\n(3) Learn the method for creating affecting contents.\n\n              授業の概要および学習上の助言\n\n              In this course.  based on the knowledge imparted during “Media Informatics I”, the cognitive, sensibility, and emotional information processing of media contents (pictures, movies, music, etc.) will be examined.\nAs a part of the course, students will learn and practice to simulate the human processing via computer programming.\nAccordingly,  students should review the contents of “Color and Hearing Training” and “Media Informatics I”.\n\n              教科書および参考書・リザーブドブック\n\n              Textbooks：None\nReference books：None\nReserved books：None\n\n              履修に必要な予備知識や技能\n\n              An understanding of the contents of “Color and Hearing Training” and “Media Informatics I” is required.\nBasic computer programming skills are required.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                D,F,L\n                Be able to understand human cognitive processing for visual and auditory stimuli.\n\n                ②\n                D,F,L\n                Be able to understand human affective and emotional processing for visual and auditory stimuli.\n\n                ③\n                I,D,F,L\n                Be able to plan and conduct psychological experiments related to the processes described in 1 and 2 above.\n\n                ④\n                L,M\n                Be able to design media content from an engineering perspective based on the results of the experiments in 3.\n\n                ⑤\n\n                ⑥\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                40\n\n                20\n\n                40\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                40\n\n                20\n\n                40\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                40\n\n                20\n\n                40\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  コラボレーションとリーダーシップ\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  発表・表現・伝達する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n    ",
-  "courseId": "2026:spring:F020-01:0:398",
+  "rawText": "金沢工業大学 学習支援計画書 E517-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Information and Computer Science\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n形式言語とオートマトン\nFormal Languages and Automata  2 E517-01  2024年度\n 3rd year 1st semester  修学規程第4条を参照\n    担当教員名\n NINAGAWA Shigeru\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Finite automaton 2.Regular language 3.Regular expression 4.Context-free grammar  Formal language is a mathematical description of a language and formal grammar is a set of rules that can be used to create sentences with a language. In this course, students learn regular language and context-free language. They also study several kinds of automata that can recognize those languages. The knowledge students learn in this course provide the foundations of the technology that processes natural languages and other languages.\n    授業の概要および学習上の助言   In this course, students learn formal grammar and formal language, especially focusing on regular language and context-free language. They also study several kinds of automata that can recognize those languages. The topics are as follows: 1. Deterministic finite automaton 2. Nondeterministic finite automaton 3. Nondeterministic finite automaton with epsilon moves 4. Regular language 5. Regular grammar 6. Regular expression 7. Context-free grammar 8. Context-free language 9. Chomsky hierarchy\n    教科書および参考書・リザーブドブック   オートマトン・言語理論 第2版,冨田 悦次,横森 貴著,森北出版\n    履修に必要な予備知識や技能   Review sets and their operations taken up in \"Discrete mathematics\", especially the notation of sets, subsets, power sets, and the direct product of sets.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① L,M Be able to explain Chomsky hierarchy.   ② L,M Be able to perform conversions between equivalent finite automata.   ③ K,L,M Be able to explain the definition of regular grammar and regular language.   ④ L,M Be able to perform conversions between regular grammar and finite automaton.   ⑤ L,M Be able to explain the definition of regular expression.   ⑥ L,M Be able to perform derivations in context-free grammar.\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 40 60 0 0 0 0 0 100     指標と評価割合 総合評価割合 40 60 0 0 0 0 0 100   総合力指標 知識を取り込む力 40 60 0 0 0 0 0 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ An exam will be held at the end of the semester. The scope will be announced in the class.    ② レ   ③ レ   ④ レ   ⑤ レ   ⑥ レ   クイズ\n小テスト ① レ Quizzes are given irregularly but announced in advance. The scope will be announced in the class.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥ レ   レポート ①      ②     ③     ④     ⑤     ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ①      ②     ③     ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     Be able to apply the knowledge of formal language and formal grammar to programming. Be able to handle regular expressions. Be able to understand the description of formal language and formal grammar.\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習課題に要する標準的な時間を記載してあります。日々の自学自習時間全体としては、各授業に応じた時間(例えば2単位科目の場合、予習2時間・復習2時間/週)を取るよう努めてください。詳しくは教員の指導に従って下さい。     授業明細   回数 学習内容 授業の運営方法 学習課題(予習・復習) 時間:分※     1  Outline of the course Formal language and formal grammar Lecture Q&A self-check Preview: set, operations of sets Review: formal language and formal grammar  40 60   2  Chomsky hierarchy Lecture Q&A self-check Preview: Chomsky hierarchy Review: Chomsky hierarchy  60 60   3  Deterministic finite automaton Lecture Q&A self-check Preview: deterministic finite automaton Review: deterministic",
+  "courseId": "2024:spring:E510-01:0:398",
   "language": "en"
 }

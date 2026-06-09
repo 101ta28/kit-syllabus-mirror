@@ -1,56 +1,52 @@
 {
   "sourceIndex": 567,
   "sourceUrl": "/opsyllabus/kitos0110/567/1",
-  "importedAt": "2026-06-08T09:34:04.686Z",
-  "title": "プロジェクトデザインⅢ（山崎幹泰研究室）",
-  "subtitle": "Design Project III(Yamazaki Mikihiro)",
-  "courseType": "Major ProgramMajor Project Courses",
-  "credits": "8",
-  "term": "2026年度\n\n                All year",
+  "importedAt": "2026-06-09T01:29:24.323Z",
+  "title": "統計学Ⅱ",
+  "subtitle": "Statistics II",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "2",
+  "term": "2024年度\n 2nd year 2nd semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "YAMAZAKI Mikihiro"
+    "ISHIHARA Masahiko"
   ],
   "keywords": [
-    "History of Japanese architecture",
-    "Shrine and temple architecture",
-    "Traditional house and townscape",
-    "Architectural Archives",
-    "Regional cooperation"
+    "Multivariate analysis 2.Prediction model 3.Multiple regression analysis 4.Principal component analysis"
   ],
-  "educationalGoal": "Students will study historical and traditional Japanese architecture by learning about its expression and technology, social background, and the preservation of Japanese cultural heritage. Alternatively, students will design architectural works. Students will create attractive presentations with drawings, models, and computer graphics.",
-  "advice": "1. Set up a project proposal.\n\n2. Create a project progress report.\n\n3. Publish results.",
-  "books": "Textbooks：none\nReference books：none\nReserved books：none",
-  "requiredKnowledge": "Students need an interest in Japanese history, art history, archeology, folklore, etc., and must try to understand Japanese architecture and architectural culture from a broad perspective.\nIt is also necessary for students to improve their design ability by creating sketches and models.",
+  "educationalGoal": "In evaluation problems related to humanities and social sciences, many properties must be often handled simultaneously and comprehensively, and multivariate analysis methods can often provide effective solutions. In this course, students will learn the concepts of and ways of using multivariate analysis via Excel functions. The primary goal is to give them the opportunity to master the method of prediction analysis and learn how to summarize multivariate data. Another goal is to ensure they are capable of using these methods in future learning activities.",
+  "advice": "The course focuses on the following items: 1. Features and summary of multivariate analysis (prediction and data summarization) 2. The concept and use method of multiple regression analysis 3. The concept and use method of principal component analysis 4. How to use Excel functions Students are expected to review the basic knowledge of linear algebra. In addition, they should learn the contents of descriptive statistics in “Statistics for Information”. It is also desirable to understand the contents of hypothesis testing.",
+  "books": "",
+  "requiredKnowledge": "Review linear algebra (i.e., matrices and vectors). Students must be sure to master the lecture contents by reviewing because each item is closely related to previous lessons. Bring a laptop PC (unless otherwise noted) because the lessons will always include practice sessions using Excel.",
   "activityGoals": [
     {
       "index": "①",
-      "type": "I,K,L,Q",
-      "body": "Students can make an activity plan for the theme they set, and conduct research activities such as field surveys"
+      "type": "D,N,O,Q",
+      "body": "Be able to use multivariate analysis in future learning activities such as Project Design III."
     },
     {
       "index": "②",
-      "type": "J",
-      "body": "Students can create a project report on the results of their research activities."
+      "type": "D,O",
+      "body": "Be able to distinguish the prediction model concept from the data summarization concept."
     },
     {
       "index": "③",
-      "type": "J",
-      "body": "Students can present the contents of their project reports."
+      "type": "D,O",
+      "body": "Be able to understand the basic concepts and application methods of multiple regression analysis."
     },
     {
       "index": "④",
-      "type": "S",
-      "body": "Students understand social trends in the field of architecture, and determine their own direction."
+      "type": "D,O",
+      "body": "Be able to understand the basic concepts and application methods of principal component analysis."
     }
   ],
   "evaluationWeights": [
     {
       "label": "総合評価割合",
       "values": [
+        "20",
         "0",
-        "0",
-        "50",
+        "30",
         "30",
         "0",
         "0",
@@ -59,9 +55,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -71,9 +67,9 @@
     {
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
+        "20",
         "0",
-        "0",
-        "50",
+        "30",
         "30",
         "0",
         "0",
@@ -82,9 +78,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -94,9 +90,9 @@
     {
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
+        "20",
         "0",
-        "0",
-        "50",
+        "30",
         "30",
         "0",
         "0",
@@ -105,9 +101,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -128,9 +124,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -138,7 +134,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -151,9 +147,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -174,9 +170,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -185,34 +181,118 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "Students can make an activity plan for a theme they set and conduct research activities such as field surveys, literature surveys, and interviews.\nThey can create a project report (thesis or work) that fully reflects the results of their research activities.\nThey can present the contents of their project reports in an easy-to-understand manner.",
-    "standard": "Students can conduct research activities such as field surveys, literature surveys, and interviews.\nThey can create a project report (thesis or work) based on the results of their research activities.\nThey can communicate the contents of their project reports to others."
+    "ideal": "Be able to grasp the importance of multivariate analysis in the analysis of evaluation problems. Be able to understand the theory of each method, use statistical procedures properly, and derive suitable knowledge from analysis results.",
+    "standard": "Be able to grasp the importance of multivariate analysis in the analysis for evaluation problems. Be able to understand the basic concepts of each method, use statistical procedures, and interpret analysis results."
   },
   "clipProcess": "",
   "lessons": [
     {
-      "index": "1-4",
-      "content": "Examination of project theme",
-      "operation": "Seminar",
-      "assignments": "Preparation and review for the\n project",
-      "minutes": "480"
+      "index": "1",
+      "content": "Orientation Correlation and correlation coefficient",
+      "operation": "Lecture",
+      "assignments": "Preparation: Understand the inner product of vectors. Review: Review contents and task for this week.",
+      "minutes": "60 90"
     },
     {
-      "index": "5-27",
-      "content": "Laboratory project activities",
-      "operation": "Seminar",
-      "assignments": "Preparation and review for the\n project",
-      "minutes": "2760"
+      "index": "2",
+      "content": "Multiple regression analysis (1) Multiple regression model and multiple regression equation",
+      "operation": "Lecture and practice",
+      "assignments": "Preparation: Read §3.1 to §3.2 in the text. Review: Review contents and task for this week.",
+      "minutes": "60 90"
     },
     {
-      "index": "28-30",
-      "content": "Thesis guidance and final presentation practice",
-      "operation": "Seminar",
-      "assignments": "Preparation and review for the\n project",
-      "minutes": "360"
+      "index": "3",
+      "content": "Multiple regression analysis (2) Meaning of partial regression coefficient (standard partial regression coefficient)",
+      "operation": "Lecture and practice",
+      "assignments": "Preparation: Read §3.3 to §3.4 in the text. Review: Review contents and task for this week.",
+      "minutes": "60 90"
+    },
+    {
+      "index": "4",
+      "content": "Multiple regression analysis (3) Significance and accuracy of multiple regression equations",
+      "operation": "Lecture and practice",
+      "assignments": "Preparation: Read §3.6 to Appendix A.1 in the text. Review: Review contents and task for this week.",
+      "minutes": "60 90"
+    },
+    {
+      "index": "5",
+      "content": "Multiple regression analysis (4) Normal equation and partial regression coefficient (for variables more than 3) Quiz 1",
+      "operation": "Lecture and practice",
+      "assignments": "Preparation: Read §3.1 to §3.5 in the text. Review: Review contents and task for this week.",
+      "minutes": "120 60"
+    },
+    {
+      "index": "6",
+      "content": "Multiple regression analysis (5) T-test and significance of partial regression coefficient",
+      "operation": "Lecture and practice",
+      "assignments": "Preparation: Read t-test in some book. Review: Review contents and task for this week.",
+      "minutes": "90 60"
+    },
+    {
+      "index": "7",
+      "content": "Multiple regression analysis (6) Comprehensive exercise (results interpretation) Report 1",
+      "operation": "Lecture and practice",
+      "assignments": "Preparation: Read §3.1 to §3.7 in the text. Review: Review contents and task for this week.",
+      "minutes": "60 120"
+    },
+    {
+      "index": "8",
+      "content": "Principal component analysis (1) Purpose of principal component analysis",
+      "operation": "Lecture and practice",
+      "assignments": "Preparation: Read §4.1 to §4.2 in the text. Review: Review contents and task for this week",
+      "minutes": "60 90"
+    },
+    {
+      "index": "9",
+      "content": "Principal component analysis (2) Derivation of principal components",
+      "operation": "Lecture and practice",
+      "assignments": "Preparation: Read §4.3 in the text. Review: Review contents and task for this week.",
+      "minutes": "60 90"
+    },
+    {
+      "index": "10",
+      "content": "Principal component analysis (3) Cumulative contribution rate and principal component loading",
+      "operation": "Lecture and practice",
+      "assignments": "Preparation: Read §4.3 and §4.4 in the text. Review: Review contents and task for this week.",
+      "minutes": "60 90"
+    },
+    {
+      "index": "11",
+      "content": "Principal component analysis (4) Comprehensive exercise Report 2",
+      "operation": "Lecture and practice",
+      "assignments": "Review: understand task and § 4.4 in the text, and contents from 8th to 11th weeks.",
+      "minutes": "120"
+    },
+    {
+      "index": "12",
+      "content": "Comprehensive exercise of multivariate analysis (1) Application of multivariate analysis, Other multivariate analysis methods, Basic theory of statistics",
+      "operation": "Lecture and practice",
+      "assignments": "Preparation: Read Chapter 3 in the text. Review: Review contents and task for this week",
+      "minutes": "60 90"
+    },
+    {
+      "index": "13",
+      "content": "Comprehensive exercise of multivariate analysis (2) Application of multivariate analysis, Other multivariate analysis methods, Basic theory of statistics",
+      "operation": "Lecture and practice",
+      "assignments": "Preparation: Read Chapter 4 in the text. Review: Review contents and reports",
+      "minutes": "60 30"
+    },
+    {
+      "index": "14",
+      "content": "Examination for confirmation of achievement",
+      "operation": "Examination",
+      "assignments": "Preparation: Understand contents up to the 13th week.",
+      "minutes": "180"
+    },
+    {
+      "index": "15",
+      "content": "Self-inspection class",
+      "operation": "Examination commentary",
+      "assignments": "Review: understand the examination problems.",
+      "minutes": "60"
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　A921-07\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Architecture(〜2024)\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Project Courses\n\n                プロジェクトデザインⅢ（山崎幹泰研究室）\n                Design Project III(Yamazaki Mikihiro)\n\n              8\n              A921-07\n\n                2026年度\n\n                All year\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  YAMAZAKI Mikihiro\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.History of Japanese architecture\n2.Shrine and temple architecture\n3.Traditional house and townscape\n4.Architectural Archives\n5.Regional cooperation\n\n              Students will study historical and traditional Japanese architecture by learning about its expression and technology, social background, and the preservation of Japanese cultural heritage. Alternatively, students will design architectural works. Students will create attractive presentations with drawings, models, and computer graphics.\n\n              授業の概要および学習上の助言\n\n              1. Set up a project proposal.\n\n2. Create a project progress report.\n\n3. Publish results.\n\n              教科書および参考書・リザーブドブック\n\n              Textbooks：none\nReference books：none\nReserved books：none\n\n              履修に必要な予備知識や技能\n\n              Students need an interest in Japanese history, art history, archeology, folklore, etc., and must try to understand Japanese architecture and architectural culture from a broad perspective.\nIt is also necessary for students to improve their design ability by creating sketches and models.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                I,K,L,Q\n                Students can make an activity plan for the theme they set, and conduct research activities such as field surveys\n\n                ②\n                J\n                Students can create a project report on the results of their research activities.\n\n                ③\n                J\n                Students can present the contents of their project reports.\n\n                ④\n                S\n                Students understand social trends in the field of architecture, and determine their own direction.\n\n                ⑤\n\n                ⑥\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                0\n\n                0\n\n                50\n\n                30\n\n                0\n\n                0\n\n                20\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                0\n\n                0\n\n                50\n\n                30\n\n                0\n\n                0\n\n                20\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                0\n\n                0\n\n                50\n\n                30\n\n                0\n\n                0\n\n                20\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  コラボレーションとリーダーシップ\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  発表・表現・伝達する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  学習に取組む姿勢・意欲\n\n                    0\n\n                    0\n\n                    0\n\n     ",
-  "courseId": "2026:full-year:A921-07:0:567",
+  "rawText": "金沢工業大学 学習支援計画書 F113-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Management Systems\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n統計学Ⅱ\nStatistics II  2 F113-01  2024年度\n 2nd year 2nd semester  修学規程第4条を参照\n    担当教員名\n ISHIHARA Masahiko\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Multivariate analysis 2.Prediction model 3.Multiple regression analysis 4.Principal component analysis  In evaluation problems related to humanities and social sciences, many properties must be often handled simultaneously and comprehensively, and multivariate analysis methods can often provide effective solutions. In this course, students will learn the concepts of and ways of using multivariate analysis via Excel functions. The primary goal is to give them the opportunity to master the method of prediction analysis and learn how to summarize multivariate data. Another goal is to ensure they are capable of using these methods in future learning activities.\n    授業の概要および学習上の助言   The course focuses on the following items: 1. Features and summary of multivariate analysis (prediction and data summarization) 2. The concept and use method of multiple regression analysis 3. The concept and use method of principal component analysis 4. How to use Excel functions Students are expected to review the basic knowledge of linear algebra. In addition, they should learn the contents of descriptive statistics in “Statistics for Information”. It is also desirable to understand the contents of hypothesis testing.\n    教科書および参考書・リザーブドブック\n    履修に必要な予備知識や技能   Review linear algebra (i.e., matrices and vectors). Students must be sure to master the lecture contents by reviewing because each item is closely related to previous lessons. Bring a laptop PC (unless otherwise noted) because the lessons will always include practice sessions using Excel.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① D,N,O,Q Be able to use multivariate analysis in future learning activities such as Project Design III.   ② D,O Be able to distinguish the prediction model concept from the data summarization concept.   ③ D,O Be able to understand the basic concepts and application methods of multiple regression analysis.   ④ D,O Be able to understand the basic concepts and application methods of principal component analysis.   ⑤     ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 20 0 30 30 0 0 20 100     指標と評価割合 総合評価割合 20 0 30 30 0 0 20 100   総合力指標 知識を取り込む力 20 0 30 30 0 0 20 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ In exam will be given in the 6th week. The test time is 60 minutes. The contents of all classes from the first week to the 5th week are within scope of the questions. The exam will include selection, calculation type, and description type questions. In the calculation problems, calculators (without communication functions) can be used, but mobile phones (with calculator functions) and personal computers are prohibited. In the description problem, the characteristics of the evaluation process may be considered from analysis results.   ② レ   ③ レ   ④ レ   ⑤     ⑥     クイズ\n小テスト ①      ②     ③     ④     ⑤     ⑥     レポート ① レ Report submissions are required twice. The problems will be addressed in the 7th and 11th weeks, and each report will be submitted the next week. The 7th and 11th week report contents cover the prediction method (multiple regression analysis) and principal component analysis, respectively. The 11th week may also include issues related to the prediction model. Each report requires data analysis and results consideration.   ② レ   ③ レ   ④ レ   ⑤     ⑥     成果発表\n(口頭・実技) ① レ Evaluate the results of the comprehensive exercise.   ② レ   ③ レ   ④ レ   ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥    ",
+  "courseId": "2024:spring:F109-01:0:567",
   "language": "en"
 }

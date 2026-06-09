@@ -1,72 +1,66 @@
 {
   "sourceIndex": 58,
   "sourceUrl": "/opsyllabus/kitos0110/58/1",
-  "importedAt": "2026-06-08T09:33:54.222Z",
-  "title": "情報のための数学Ⅱ（再履修クラス）",
-  "subtitle": "Mathematics for Informatics II",
-  "courseType": "Mathematics and Science ProgramMathematics and Science Courses",
+  "importedAt": "2026-06-09T01:29:19.732Z",
+  "title": "線形代数学(再履修クラス)",
+  "subtitle": "Linear Algebra",
+  "courseType": "Mathematics and Science Program\nMathematics and Science Courses",
   "credits": "2",
-  "term": "2026年度\n\n                1st year 2nd semester1st year 1st semester",
+  "term": "2024年度\n 2nd year 1st semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "YAMAOKA Hidetaka",
-    "KUDO Tomoshige",
-    "UESU Hiroaki",
+    "TAKAHASHI Takeo",
     "KITAJIMA Takahiro",
     "NAKAGAWA Hayato",
-    "YASHIMA Takamasa"
+    "TAKAMURA Matsuzo"
   ],
   "keywords": [
-    "permutations/combinations",
-    "probability and conditional probability",
-    "bayes' theorem",
-    "basics of statistics",
-    "organization of data using Excel"
+    "Vectors and matrices 2.Row reduction 3.Linear transformations 4.Determinants 5.Eigenvalues and eigenvectors"
   ],
-  "educationalGoal": "Students will:\n(1) Learn basic probabilities, conditional probabilities, and Bayes' theorem.\n(2) Learn basic data organization and statistics.\n(3) Be able to organize data using Excel.",
-  "advice": "This is a basic course in mathematics and statistics. We will cover the following topics:\n\n1. Basic probabilities: Permutations and combinations, probabilities, conditional probabilities and Bayes' theorem.\n2. A data analysis method using statistics: Frequency distribution table, histogram, correlation diagram, mean/variance, covariance/correlation coefficient.\n\nStudents are expected to understand above materials.\nStudents are expected to process data using Excel (computer spreadsheet software).\nStudents are expected to complete the exercises on their own without consulting/copying others.\nStudents are expected to utilize the Math. and Science Education Research Center or the office hours of the teacher.",
-  "books": "Textbooks: Mathematics for Information Science I･II (Kanazawa Institute of Technology)\nReference books: None\nReserved books: None",
-  "requiredKnowledge": "Basic knowledge of probability and statistics learned in high school is desirable. There will be exercises using Excel at the end of the lecture, so be sure to bring your laptop with you.",
+  "educationalGoal": "Students will learn (1) vector operations and matrix operations. (2) solving systems of linear equations using “row reduction.” (3) transformations in physical or data spaces using matrix operations. (4) the properties of a determinant and a method to calculate determinants. (5) eigenvalues and eigenvectors.",
+  "advice": "This is a basic course in linear algebra. We will cover the following topics: 1. Vectors and Matrices 2. Systems of linear equations and row reduction 3. Linear transformation 4. Determinants 5. Linearly independence 6. Eigenvalues and eigenvectors Daily preparation and review are important. Students are required to complete the designated tasks. Students are required to show their solution/calculation procedure logically and clearly in each assignment. Students are expected to utilize the Math. and Science Education Research Center or the office hours of the teacher.",
+  "books": "Textbook:Linear Algebra [KIT Mathematics, Science, Data Science and AI Programs] Reference book::A First Course in Linear Algebra (Open Textbook Library)[Lyryx]",
+  "requiredKnowledge": "Basic computational skills for mathematical expressions (calculation of literal expressions, linear and quadratic equations, trigonometric functions) and knowledge of coordinate planes.",
   "activityGoals": [
     {
       "index": "①",
       "type": "D",
-      "body": "Be able to understand probabilities, conditional probabilities and Bayes' theorem."
+      "body": "Understand the concept of vectors and matrices, and be able to properly perform operations."
     },
     {
       "index": "②",
       "type": "D",
-      "body": "Be able to understand basic descriptive statistics."
+      "body": "Understand the concept of systems of linear equations by using row reduction."
     },
     {
       "index": "③",
       "type": "D",
-      "body": "Be able to understand probabilities, conditional probabilities, and Bayes' theorem."
+      "body": "Understand the properties of determinants and be able to calculate the value of a determinant."
     },
     {
       "index": "④",
       "type": "D",
-      "body": "Be able to perform basic data processing using Excel."
+      "body": "Understand the concept of linear transformations and be able to find the eigenvalues and eigenvectors."
     },
     {
       "index": "⑤",
       "type": "C",
-      "body": "Understand the meanings of fundamental english words for mathematics."
+      "body": "Understand the meanings of fundamental English words for mathematics."
     },
     {
       "index": "⑥",
       "type": "A",
-      "body": "Be able to demonstrate an understanding of all class material, attend every class, and complete the handouts."
+      "body": "Understand the contents of the course and be able to complete the required tasks by the announced deadlines."
     }
   ],
   "evaluationWeights": [
     {
       "label": "総合評価割合",
       "values": [
-        "25",
-        "20",
-        "20",
-        "10",
+        "30",
+        "30",
+        "15",
+        "0",
         "0",
         "0",
         "25",
@@ -74,9 +68,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -86,10 +80,10 @@
     {
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
-        "25",
-        "20",
-        "20",
-        "10",
+        "30",
+        "30",
+        "15",
+        "0",
         "0",
         "0",
         "25",
@@ -97,9 +91,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -109,10 +103,10 @@
     {
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
-        "25",
-        "20",
-        "20",
-        "10",
+        "30",
+        "30",
+        "15",
+        "0",
         "0",
         "0",
         "25",
@@ -120,9 +114,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -143,9 +137,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -153,7 +147,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -166,9 +160,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -189,9 +183,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -200,118 +194,118 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "Demonstrate a 90% achievement level in the following areas:\n(1) Correctly calculate permutations and combinations.\n(2) Correctly calculate probabilities and conditional probabilities, and apply Bayes' theorem.\n(3) Understand the concept of probability and be able to apply it to actual probabilistic problems.\n(4) Understand the basics of statistics, accurately determine characteristic values of data, and create effective data visualizations.",
-    "standard": "Demonstrate a 60% achievement level in the following areas:\n(1) Calculate permutations and combinations.\n(2) Calculate probabilities and conditional probabilities, and apply Bayes' theorem.\n(3) Understand the concept of probability and be able to apply it to actual probabilistic problems.\n(4) Understand the basics of statistics, accurately determine characteristic values of data, and create effective data visualizations."
+    "ideal": "(1) Perform properly vector operations and matrix operations. (2) Solve “complex” linear systems using row reduction. (3) Understand the concept of linear transformations and properly determine representation matrices. (4) Understand the definition and properties of determinants and be able to calculate determinants. (5) Understand the properties of cofactors and find inverse matrices. (6) Find the eigenvalues and eigenvectors of matrices and apply them to diagonalization.",
+    "standard": "(1) Perform vector operations and matrix operations. (2) Solve “fundamental” linear systems using row reduction. (3) Find representation matrices of linear transformations in a plane. (4) Understand the properties of determinants and be able to calculate determinants. (5) Find inverse matrices using cofactors. (6) Find the eigenvalues and eigenvectors of simple matrices."
   },
   "clipProcess": "",
   "lessons": [
     {
       "index": "1",
-      "content": "Course introduction\nPermutations/combinations",
-      "operation": "Lecture and Q&A",
-      "assignments": "Read the syllabus and confirm\nthe student's target\n(1) Understand the\ncontents shown on the left\n(2) Prepare for class 2",
-      "minutes": "(1)\n30\n(2)\n60"
+      "content": "Course introduction Vectors and vector operations (Addition, Subtraction, Scalar multiplication)",
+      "operation": "Lecture and exercises",
+      "assignments": "Understand the objectives of class Review materials from the previous course Prepare for next class",
+      "minutes": "120"
     },
     {
       "index": "2",
-      "content": "Events and probabilities",
-      "operation": "Lecture and practice",
-      "assignments": "(1) Exercise with the\ncontents shown on the left\n(2) Prepare for class 3",
-      "minutes": "(1)\n60\n(2)\n60"
+      "content": "Matrices and matrix operations (Addition, Subtraction, Scalar multiplication, Matrix multiplication) Square matrices",
+      "operation": "Lecture and exercises",
+      "assignments": "Review materials from the previous course Prepare for next class",
+      "minutes": "120"
     },
     {
       "index": "3",
-      "content": "Review on contents of classes 1 to 2\nExercises on permutations, combinations, events\nand probability",
-      "operation": "Lecture and practice",
-      "assignments": "(1) Exercise with the\ncontents shown on the left\n(2) Prepare for quiz",
-      "minutes": "(1)\n120"
+      "content": "Inverse matrices Row reduction",
+      "operation": "Lecture and exercises",
+      "assignments": "Review materials from the previous course Prepare for next class",
+      "minutes": "120"
     },
     {
       "index": "4",
-      "content": "Quiz on contents of classes 1 to 2\nConditional probability (1)",
-      "operation": "Lecture and practice",
-      "assignments": "(1) Exercises with the\ncontents shown on the left\n(2) Prepare for class 5",
-      "minutes": "(1)\n60\n(2)\n60"
+      "content": "Inverse matrices of order 3",
+      "operation": "Lecture and exercises",
+      "assignments": "Review materials from the previous course Prepare for next class",
+      "minutes": "150"
     },
     {
       "index": "5",
-      "content": "Quiz description\nConditional probability (2)",
-      "operation": "Quiz\nLecture and practice",
-      "assignments": "(1) Self-reflection\n(2) Prepare for class 6",
-      "minutes": "(1)\n60\n(2)\n30\n(3)\n30"
+      "content": "Quiz (1) Definition of liner transformation and representation matrix",
+      "operation": "Quiz on the contents of #1 - #4 Lecture and exercises",
+      "assignments": "Review materials from the previous course Prepare for next class",
+      "minutes": "90"
     },
     {
       "index": "6",
-      "content": "Bayes' theorem",
-      "operation": "Lecture and practice",
-      "assignments": "(1) Exercise with the\ncontents shown on the left\n(2) Prepare for class 7",
-      "minutes": "(1)\n60\n(2)\n60"
+      "content": "Compositions of linear transformations Inverse transformations",
+      "operation": "Lecture and exercises Self-check",
+      "assignments": "Review materials from the previous course Prepare for next class",
+      "minutes": "120"
     },
     {
       "index": "7",
-      "content": "Review on contents of classes 1 to 6\nExercises on conditional probability and Bayes'\ntheorem",
-      "operation": "Lecture and practice",
-      "assignments": "(1) Exercise with the\ncontents shown on the left\n(2) Prepare for final exam",
-      "minutes": "(1)\n120"
+      "content": "Definition of determinant Calculation of determinants of order 2 and 3",
+      "operation": "Lecture and exercises",
+      "assignments": "Review materials from the previous course Prepare for next class",
+      "minutes": "120"
     },
     {
       "index": "8",
-      "content": "Final exam\nSummation symbols",
-      "operation": "Final exam\nLecture and practice",
-      "assignments": "(1) Exercises with the\ncontents shown on the left\n(2) Prepare for class 9",
-      "minutes": "(1)\n60\n(2)\n60"
+      "content": "Calculation method of determinants based on the properties of determinants",
+      "operation": "Lecture and exercises",
+      "assignments": "Review materials from the previous course Prepare for next class",
+      "minutes": "120"
     },
     {
       "index": "9",
-      "content": "Final exam description\nDescriptive statistics (univariate)",
-      "operation": "Self-reflection\nLecture and practice",
-      "assignments": "(1) Exercises with the\ncontents shown on the left\n(2) Prepare for class 10",
-      "minutes": "(1)\n60\n(2)\n30\n(3)\n30"
+      "content": "Cofactor expansion and its applications",
+      "operation": "Lecture and exercises",
+      "assignments": "Review materials from the previous course Prepare for next class",
+      "minutes": "150"
     },
     {
       "index": "10",
-      "content": "Descriptive statistics (bivariate)",
-      "operation": "Lecture and practice",
-      "assignments": "(1) Exercises with the\ncontents shown on the left\n(2) Prepare for class 11",
-      "minutes": "(1)\n60\n(2)\n60"
+      "content": "Quiz (2) Dot products of vectors Cross products of 3-dim vectors",
+      "operation": "Quiz on the contents of #5 - #9 Lecture and exercises",
+      "assignments": "Review materials from the previous course Prepare for next class",
+      "minutes": "90"
     },
     {
       "index": "11",
-      "content": "Statistical processing of data using Excel (1)\nData characteristic values (mean and variance)\nFrequency distribution table and histogram\nCalculation of average and variance",
-      "operation": "Lecture and practice",
-      "assignments": "(1) Exercise with the\ncontents shown on the left\n(2) Prepare for class 12",
-      "minutes": "(1)\n60\n(2)\n60"
+      "content": "Linear independence, Linear dependence of vectors",
+      "operation": "Lecture and exercises",
+      "assignments": "Review materials from the previous course Prepare for next class",
+      "minutes": "120"
     },
     {
       "index": "12",
-      "content": "Statistical processing of data using Excel (2)\nCovariance and correlation coefficient\nCorrelation diagram and regression line\nCalculation of correlation coefficient\nDrawing a correlation diagram\nReporting",
-      "operation": "Lecture and practice",
-      "assignments": "(1) Exercise with the\ncontents shown on the left\n(2) Prepare for class 13",
-      "minutes": "(1)\n60\n(2)\n60"
+      "content": "Eigenvalues and eigenvectors",
+      "operation": "Lecture and exercises",
+      "assignments": "Review materials from the previous course Prepare for next class",
+      "minutes": "120"
     },
     {
       "index": "13",
-      "content": "Statistical processing of data using Excel (3)\nTeam activities for presentation",
-      "operation": "Lecture and practice",
-      "assignments": "(1) Exercise with the\ncontents shown on the left\n(2) Organize data and prepare\nfor presentation",
-      "minutes": "(1)\n60\n(2)\n60"
+      "content": "Diagonalization and its applications Review",
+      "operation": "Lecture and exercises",
+      "assignments": "Review materials from the previous course. Study for the final exam",
+      "minutes": "180"
     },
     {
       "index": "14",
-      "content": "Presentation on statistical data",
-      "operation": "Discussion and practice",
-      "assignments": "(1) Summarize group report",
-      "minutes": "(1)\n120"
+      "content": "Review Final exam",
+      "operation": "Review Exam on contents of #1 - #13",
+      "assignments": "Study for the final exam Review of this class",
+      "minutes": "90"
     },
     {
       "index": "15",
-      "content": "Self-reflection",
-      "operation": "Self-reflection\nQuestionnaire survey",
-      "assignments": "(1) Confirm learning and\ndeepen understanding\n(2) Self-check",
-      "minutes": "(1)\n60\n(2)\n60"
+      "content": "Review the final exam Self-check",
+      "operation": "Review the final exam Self-check",
+      "assignments": "Review: Final exam",
+      "minutes": "120"
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　G155-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Mathematics, Science, Data Science and AI Program\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Mathematics and Science ProgramMathematics and Science Courses\n\n                情報のための数学Ⅱ（再履修クラス）\n                Mathematics for Informatics II\n\n              2\n              G155-01\n\n                2026年度\n\n                1st year 2nd semester1st year 1st semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  YAMAOKA Hidetaka, KUDO Tomoshige, UESU Hiroaki, KITAJIMA Takahiro, NAKAGAWA Hayato, YASHIMA Takamasa\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.permutations/combinations\n2.probability and conditional probability\n3.bayes' theorem\n4.basics of statistics\n5.organization of data using Excel\n\n              Students will:\n(1) Learn basic probabilities, conditional probabilities, and Bayes' theorem.\n(2) Learn basic data organization and statistics.\n(3) Be able to organize data using Excel.\n\n              授業の概要および学習上の助言\n\n              This is a basic course in mathematics and statistics. We will cover the following topics:\n\n1. Basic probabilities: Permutations and combinations, probabilities, conditional probabilities and Bayes' theorem.\n2. A data analysis method using statistics: Frequency distribution table, histogram, correlation diagram, mean/variance, covariance/correlation coefficient.\n\nStudents are expected to understand above materials.\nStudents are expected to process data using Excel (computer spreadsheet software).\nStudents are expected to complete the exercises on their own without consulting/copying others.\nStudents are expected to utilize the Math. and Science Education Research Center or the office hours of the teacher.\n\n              教科書および参考書・リザーブドブック\n\n              Textbooks: Mathematics for Information Science I･II (Kanazawa Institute of Technology)\nReference books: None\nReserved books: None\n\n              履修に必要な予備知識や技能\n\n              Basic knowledge of probability and statistics learned in high school is desirable. There will be exercises using Excel at the end of the lecture, so be sure to bring your laptop with you.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                D\n                Be able to understand probabilities, conditional probabilities and Bayes' theorem.\n\n                ②\n                D\n                Be able to understand basic descriptive statistics.\n\n                ③\n                D\n                Be able to understand probabilities, conditional probabilities, and Bayes' theorem.\n\n                ④\n                D\n                Be able to perform basic data processing using Excel.\n\n                ⑤\n                C\n                Understand the meanings of fundamental english words for mathematics.\n\n                ⑥\n                A\n                Be able to demonstrate an understanding of all class material, attend every class, and complete the handouts.\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                25\n\n                20\n\n                20\n\n                10\n\n                0\n\n                0\n\n                25\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                25\n\n                20\n\n                20\n\n                10\n\n                0\n\n                0\n\n                25\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                25\n\n                20\n\n                20\n\n                10\n\n                0\n\n                0\n\n                25\n\n                1",
-  "courseId": "2026:fall:G155-01:0:58",
+  "rawText": "金沢工業大学 学習支援計画書 G153-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nMathematics, Science, Data Science and AI Program\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Mathematics and Science Program\nMathematics and Science Courses\n線形代数学(再履修クラス)\nLinear Algebra  2 G153-01  2024年度\n 2nd year 1st semester  修学規程第4条を参照\n    担当教員名\n TAKAHASHI Takeo, KITAJIMA Takahiro, NAKAGAWA Hayato, TAKAMURA Matsuzo\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Vectors and matrices 2.Row reduction 3.Linear transformations 4.Determinants 5.Eigenvalues and eigenvectors  Students will learn (1) vector operations and matrix operations. (2) solving systems of linear equations using “row reduction.” (3) transformations in physical or data spaces using matrix operations. (4) the properties of a determinant and a method to calculate determinants. (5) eigenvalues and eigenvectors.\n    授業の概要および学習上の助言   This is a basic course in linear algebra. We will cover the following topics: 1. Vectors and Matrices 2. Systems of linear equations and row reduction 3. Linear transformation 4. Determinants 5. Linearly independence 6. Eigenvalues and eigenvectors Daily preparation and review are important. Students are required to complete the designated tasks. Students are required to show their solution/calculation procedure logically and clearly in each assignment. Students are expected to utilize the Math. and Science Education Research Center or the office hours of the teacher.\n    教科書および参考書・リザーブドブック   Textbook:Linear Algebra [KIT Mathematics, Science, Data Science and AI Programs] Reference book::A First Course in Linear Algebra (Open Textbook Library)[Lyryx]\n    履修に必要な予備知識や技能   Basic computational skills for mathematical expressions (calculation of literal expressions, linear and quadratic equations, trigonometric functions) and knowledge of coordinate planes.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① D Understand the concept of vectors and matrices, and be able to properly perform operations.   ② D Understand the concept of systems of linear equations by using row reduction.   ③ D Understand the properties of determinants and be able to calculate the value of a determinant.   ④ D Understand the concept of linear transformations and be able to find the eigenvalues and eigenvectors.   ⑤ C Understand the meanings of fundamental English words for mathematics.   ⑥ A Understand the contents of the course and be able to complete the required tasks by the announced deadlines.\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 30 30 15 0 0 0 25 100     指標と評価割合 総合評価割合 30 30 15 0 0 0 25 100   総合力指標 知識を取り込む力 30 30 15 0 0 0 25 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ A final exam will be given at the end of the semester to assess the degree of student achievement. Performance on the exam will comprise 30% of the overall evaluation.    ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     クイズ\n小テスト ① レ There will be two quizzes. Quizzes will together comprise 30% of the overall evaluation.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     レポート ① レ Several reports will be assigned and will together comprise 15% of the overall evaluation.    ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ①   An assessment of the results of the exercises and homework during the class will comprise 25% of the overall evaluation.   ②     ③     ④     ⑤     ⑥ レ\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     (1) Perform properly vector operations and matrix operations. (2) Solve “complex” linear systems using row reduction. (3) Understand the concept of linear transformations and properly determine representation matrices. (4) Understand the definition and properties of determinants and be able to calculate determinants. (5) Und",
+  "courseId": "2024:spring:G608-01:0:58",
   "language": "en"
 }

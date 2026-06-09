@@ -1,75 +1,68 @@
 {
   "sourceIndex": 219,
   "sourceUrl": "/opsyllabus/kitos0110/219/1",
-  "importedAt": "2026-06-08T09:33:57.608Z",
-  "title": "専門ゼミ",
-  "subtitle": "Preparatory Seminar for Design Project III",
-  "courseType": "Major ProgramMajor Project Courses",
-  "credits": "1",
-  "term": "2026年度\n\n                3rd year 2nd semester",
+  "importedAt": "2026-06-09T01:29:21.047Z",
+  "title": "熱力学Ⅰ",
+  "subtitle": "Thermodynamics I",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "2",
+  "term": "2024年度\n 2nd year 1st semester",
   "method": "修学規程第4条を参照",
-  "teachers": [],
-  "keywords": [
-    "Aeronautics and Astronautics",
-    "Aircraft/Spacecraft design",
-    "Problem finding",
-    "Career building",
-    "3D data"
+  "teachers": [
+    "MORIAI Hideki"
   ],
-  "educationalGoal": "Students will:\n(1)propose a problem for Design Project III.\n(2)study a procedure to solve the problem.\n(3)master the design, production, production technology.\n(4)develop the basic abilities needed for design and production in order to suggest feasible ideas.\n(5)learn the importance of cooperation with society.",
-  "advice": "Students will:\n(1)\tclarify the knowledge and skills necessary to accomplish a project carried out in Design Project III and confirm their ability to perform these.\n(2)\tclarify the knowledge and skills you need to augment your existing knowledge and skills, and apply them to learning new skills.\n(3)\tclarify the aim and the action plan of the Design Project III project as the class proceeds.\n(4)\tclarify the Design Project III proposal and evaluate these learning results, and confirm the degree of acquisition.\n(5)\treceive the following instructions from their lab teacher:\n-rules and the administration methods in the laboratory\n-usage of the apparatuses\n-other conventions of lab use.\n\nNote: The description above are the current plan; the details will be distributed at the time of the first class of the specialized seminar.",
-  "books": "Non",
-  "requiredKnowledge": "Knowledge and skills to take this course are presented in the first lecture of each laboratory.\nStudents cannot take Design Project III if the unit of specialized seminar (this subject) is not obtained.",
+  "keywords": [
+    "Temperature and heat 2.Thermal equilibrium 3.Ideal gas 4.The first law of thermodynamics 5.Regional collaboration"
+  ],
+  "educationalGoal": "Students will: (1) Learn basic knowledge of the irreversibility in the nature world (2) Learn how to convert energy and obtain work from heat (3) Acquire design skills for energy conversion in mechanical engineering",
+  "advice": "This is a basic course in thermodynamics. We will cover the following topics: 1. Definitions of heat, temperature and systems 2. Thermal equilibrium and the zeroth law of thermodynamics 3. Thermal properties of mixed gases 4. Equation of state of ideal gases 5. The first law of thermodynamics Students are expected to understand the meaning of terms and formulas. Students are expected to solve exercises independently. Students should be aware of the teacher's instructions in the class, because the schedules of lectures, quizzes, tests, and reports may change as the class progresses. Students should not be absent from class, as they may not receive the handouts. Detailed schedules and content of the course are explained in the first class.",
+  "books": "Textbook : Koguchi et al., Thermodynamics 2nd edition(in Japanese), Asakura shoten. Reference book : Thermodynamics(in Japanese), JSME Textbook Series, JSME Reserved books : Problems in Thermodynamics(in Japanese), JSME Textbook Series, JSME",
+  "requiredKnowledge": "Have sufficient skill in mathematics (especially differential and integral calculations). Familiarize yourself with how to use a scientific calculator.",
   "activityGoals": [
     {
       "index": "①",
-      "type": "A,O",
-      "body": "Students have a clear image of the aim and the action plan of their Design Project III."
+      "type": "D,J,K",
+      "body": "Be able to explain Temperature and heat and apply it to problems"
     },
     {
       "index": "②",
-      "type": "N,O",
-      "body": "Students can explain the theme of their Design Project III."
+      "type": "D,J,K",
+      "body": "Be able to explain Thermal equilibrium and apply it to problems"
     },
     {
       "index": "③",
-      "type": "A,D,G,K,N,O",
-      "body": "Students acquire the knowledge and skills to independently accomplish their Design Project III."
+      "type": "D,J,K",
+      "body": "Be able to explain Mixed gas and apply it to problems"
     },
     {
       "index": "④",
-      "type": "A",
-      "body": "Students come to understand laboratory conventions through experience."
+      "type": "D,J,K",
+      "body": "Be able to explain Ideal gas and apply it to problems"
     },
     {
       "index": "⑤",
-      "type": "A",
-      "body": "Students understand the safety management guidelines to perform experiments and studies safely."
-    },
-    {
-      "index": "⑥",
-      "type": "B,O",
-      "body": "Students survey future courses and decide the direction of their study."
+      "type": "D,J,K",
+      "body": "Be able to explain The first law of thermo and apply the knowledge to probrems about design of thermal equipment"
     }
   ],
   "evaluationWeights": [
     {
       "label": "総合評価割合",
       "values": [
-        "0",
-        "0",
-        "60",
-        "0",
-        "0",
-        "10",
+        "20",
         "30",
+        "50",
+        "0",
+        "0",
+        "0",
+        "0",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -79,20 +72,20 @@
     {
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
-        "0",
-        "0",
-        "60",
-        "0",
-        "0",
-        "10",
+        "20",
         "30",
+        "50",
+        "0",
+        "0",
+        "0",
+        "0",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -102,20 +95,20 @@
     {
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
-        "0",
-        "0",
-        "60",
-        "0",
-        "0",
-        "10",
+        "20",
         "30",
+        "50",
+        "0",
+        "0",
+        "0",
+        "0",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -136,9 +129,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -146,7 +139,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -159,9 +152,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -182,9 +175,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -193,69 +186,118 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "Students make a realistic enforcement plan for their Design Project III\n\nStudents understand and carry out the safety management guidelines to perform an experiment and a study safely.",
-    "standard": "Students have a clear image for their Design Project III.\n\nStudents understand the safety management guidelines to perform an experiment and a study safely."
+    "ideal": "(1) Explain Thermal equilibrium and the zeroth law of thermodynamics. Also, use this understanding to solve advanced problems related to thermal issues. (2) Explain Thermal properties of mixed gases. Also, use this understanding to solve advanced problems related to thermal issues. (3) Explain Equation of state of ideal gases. Also, use this understanding to solve advanced problems related to thermal issues. (4) Explain The first law of thermodynamics. Also, evaluate the performance of thermal systems.",
+    "standard": "(1) Explain Thermal equilibrium and the zeroth law of thermodynamics. Also, use this understanding to solve basic problems related to thermal issues. (2) Explain Thermal properties of mixed gases. Also, use this understanding to solve basic problems related to thermal issues. (3) Explain Equation of state of ideal gases. Also, use this understanding to solve basic problems related to thermal issues. (4) Explain The first law of thermodynamics. Also, evaluate the performance of thermal systems."
   },
   "clipProcess": "",
   "lessons": [
     {
       "index": "1",
-      "content": "[guidance]\nStudents understand the following:\n(1)objectives of the subject, summary and\n   action target based on this syllabus to\n   be distributed.\n(2)concrete achievement level of\n   the part of the education target of\n   the department of aeronautics and\n   astronautics this subject carries.\n(3)summary of project activities\n   in Design Project III.\n(4)Students should check the content\n   of the lectures and their current\n   situation by themselves.",
-      "operation": "The guidance based on\ndistributed document",
-      "assignments": "Students check the area of\nactivity of each\nlaboratory by document\ninvestigation and visit.",
-      "minutes": "120"
+      "content": "Guidance for the course Introduction of Thermodynamics I",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Review of the outline of the textbook Review the last class",
+      "minutes": "30 30"
     },
     {
       "index": "2",
-      "content": "Students learn the procedure to carry out\na project safely and conduct a self-check\non class content and attendance.",
-      "operation": "Question and answer on\nlecture and safety\nmanagement based on the\nsafety guidelines for an\nexperiment and studies",
-      "assignments": "Students identify the item of\nthe associated security\nguidelines.\nStudents check preventive\nmeasures against possible\naccidents and take\ncountermeasures.\nStudents make a report.\nPreparations for lessons\nand next practice.",
-      "minutes": "120"
+      "content": "Definitions of heat, temperature and systems Property and unit",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Prepare for the lecture and practice Review the last class",
+      "minutes": "30 60"
     },
     {
       "index": "3",
-      "content": "[career building]\nStudents investigate a company they\nwish to join or a type of job.\nStudents think about their future\nLectures by outside lecturers may\nbe given as needed.\nStudents should check the\ncontent of the lectures and their\ncurrent situation by themselves.",
-      "operation": "Lecture and practice.",
-      "assignments": "Students perform\nself-analysis and company\nresearch.",
-      "minutes": "120"
+      "content": "Thermal equilibrium and the zeroth law of thermodynamics",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Prepare for the lecture and practice Review the last class",
+      "minutes": "30 60"
     },
     {
       "index": "4",
-      "content": "[Rearranging information and the\ninterim self-check]\nStudents carry out rearranging of\ninformation and the summary of\nreferences necessary to perform\ntheir project. Based on the result,\nstudents look back on their activity\nup to now and confirm their\nunderstanding of the project theme.\nStudents should check the content\nof the lectures and their current\nsituation by themselves.",
-      "operation": "Check of the reference\ndocument and questions\nand answers.",
-      "assignments": "Research and writing on\nthe proposal\n\nPreparations for lessons\nand next practice.",
+      "content": "Review Quiz (1)",
+      "operation": "Lecture quiz Self-check",
+      "assignments": "Review class1-3",
       "minutes": "120"
     },
     {
       "index": "5",
-      "content": "[The acquisition of the knowledge necessary\nfor project accomplishment]\nStudents learn the basic theory and basic\ntechnology necessary to accomplish their\nproject.\nStudents may also learn design and\nmanufacturing techniques using 3D data.\nStudents should check the content of the\nlectures and their current situation by\nthemselves.",
-      "operation": "Lecture and by the\nteacher and practice\nPresentation of the\npractice results by the\nstudents\nQuestions and\nanswers about\nthe project",
-      "assignments": "Preparations for\nlessons and next\npractice.",
-      "minutes": "120"
+      "content": "The first law of thermodynamics (1)",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Prepare for the lecture and practice Review the last class",
+      "minutes": "30 60"
     },
     {
       "index": "6",
-      "content": "[The acquisition of the knowledge\nnecessary for project\naccomplishment]\nStudents learn the basic\ntheory and basic technology\nnecessary to accomplish\ntheir project.\nStudents should check\nthe content of the lectures\nand their current situation\nby themselves.",
-      "operation": "Lecture by the teacher\nand practice\nPresentation of\nthe practice results\nby the students\nQuestions and\nanswers about\nthe project",
-      "assignments": "Preparations for\nlessons and next\npractice.",
-      "minutes": "120"
+      "content": "The first law of thermodynamics (2)",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Prepare for the lecture and practice Review the last class",
+      "minutes": "30 60"
     },
     {
       "index": "7",
-      "content": "[The acquisition of the knowledge\nnecessary for project\naccomplishment]\nStudents learn the basic theory\nand basic technology necessary\nto accomplish their project.\nStudents should check the\ncontent of the lectures\nand their current situation\nby themselves.",
-      "operation": "Questions and\nanswers and\ndiscussion",
-      "assignments": "Presentation of\nthe proposal",
-      "minutes": "120"
+      "content": "The first law of thermodynamics (3)",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Prepare for the lecture and practice Review the last class",
+      "minutes": "30 60"
     },
     {
       "index": "8",
-      "content": "[Presentation and improvement\nof work]\nStudents submit deliverables\nsuch as proposals and reply to\nquestions.\nStudents should check the\ncontent of the lectures and\ntheir current situation\nby themselves.",
-      "operation": "Questions and\nanswers and\ndiscussion",
-      "assignments": "Presentation of\nthe proposal",
-      "minutes": "120"
+      "content": "Review Quiz (2)",
+      "operation": "Lecture Quiz Self-check",
+      "assignments": "Review of content of previous classes Review the last class",
+      "minutes": "120 60"
+    },
+    {
+      "index": "9",
+      "content": "Ideal Gas and the characteristics (1)",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Prepare for the lecture and practice Review the last class",
+      "minutes": "30 60"
+    },
+    {
+      "index": "10",
+      "content": "Ideal Gas and the characteristics (2)",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Prepare for the lecture and practice Review the last class",
+      "minutes": "30 60"
+    },
+    {
+      "index": "11",
+      "content": "Ideal Gas and the characteristics (3)",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Prepare for the lecture and practice Review the last class",
+      "minutes": "30 60"
+    },
+    {
+      "index": "12",
+      "content": "Review Quiz (3)",
+      "operation": "Lecture Quiz Self-check",
+      "assignments": "Preparation of contents using the textbook Review the last class",
+      "minutes": "120 60"
+    },
+    {
+      "index": "13",
+      "content": "Comprehensive exercises",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Preparation of contents using the textbook Review the last class",
+      "minutes": "30 60"
+    },
+    {
+      "index": "14",
+      "content": "Lecture Examination Self-check",
+      "operation": "Examination and self-inspection of learning Lecture and practice",
+      "assignments": "Preparation for examination",
+      "minutes": "180"
+    },
+    {
+      "index": "15",
+      "content": "Examination review Final Self-check",
+      "operation": "Lecture discussion Self-check",
+      "assignments": "Review learnings in the course",
+      "minutes": "60"
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　E902-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Aeronautics and Astronautics(〜2024)\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Project Courses\n\n                専門ゼミ\n                Preparatory Seminar for Design Project III\n\n              1\n              E902-01\n\n                2026年度\n\n                3rd year 2nd semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Aeronautics and Astronautics\n2.Aircraft/Spacecraft design\n3.Problem finding\n4.Career building\n5.3D data\n\n              Students will:\n(1)propose a problem for Design Project III.\n(2)study a procedure to solve the problem.\n(3)master the design, production, production technology.\n(4)develop the basic abilities needed for design and production in order to suggest feasible ideas.\n(5)learn the importance of cooperation with society.\n\n              授業の概要および学習上の助言\n\n              Students will:\n(1)\tclarify the knowledge and skills necessary to accomplish a project carried out in Design Project III and confirm their ability to perform these.\n(2)\tclarify the knowledge and skills you need to augment your existing knowledge and skills, and apply them to learning new skills.\n(3)\tclarify the aim and the action plan of the Design Project III project as the class proceeds.\n(4)\tclarify the Design Project III proposal and evaluate these learning results, and confirm the degree of acquisition.\n(5)\treceive the following instructions from their lab teacher:\n-rules and the administration methods in the laboratory\n-usage of the apparatuses\n-other conventions of lab use.\n\nNote: The description above are the current plan; the details will be distributed at the time of the first class of the specialized seminar.\n\n              教科書および参考書・リザーブドブック\n\n              Non\n\n              履修に必要な予備知識や技能\n\n              Knowledge and skills to take this course are presented in the first lecture of each laboratory.\nStudents cannot take Design Project III if the unit of specialized seminar (this subject) is not obtained.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                A,O\n                Students have a clear image of the aim and the action plan of their Design Project III.\n\n                ②\n                N,O\n                Students can explain the theme of their Design Project III.\n\n                ③\n                A,D,G,K,N,O\n                Students acquire the knowledge and skills to independently accomplish their Design Project III.\n\n                ④\n                A\n                Students come to understand laboratory conventions through experience.\n\n                ⑤\n                A\n                Students understand the safety management guidelines to perform experiments and studies safely.\n\n                ⑥\n                B,O\n                Students survey future courses and decide the direction of their study.\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                0\n\n                0\n\n                60\n\n                0\n\n                0\n\n                10\n\n                30\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                0\n\n                0\n\n                60\n\n                0\n\n                0\n\n                10\n\n                30\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                0\n\n                0\n\n                60\n\n                0\n\n                0\n\n                10\n\n                30\n\n                100\n\n                  思考・推論・創造する力\n\n",
-  "courseId": "2026:fall:E902-01:0:219",
+  "rawText": "金沢工業大学 学習支援計画書 E133-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Aeronautics\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n熱力学Ⅰ\nThermodynamics I  2 E133-01  2024年度\n 2nd year 1st semester  修学規程第4条を参照\n    担当教員名\n MORIAI Hideki\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Temperature and heat 2.Thermal equilibrium 3.Ideal gas 4.The first law of thermodynamics 5.Regional collaboration  Students will: (1) Learn basic knowledge of the irreversibility in the nature world (2) Learn how to convert energy and obtain work from heat (3) Acquire design skills for energy conversion in mechanical engineering\n    授業の概要および学習上の助言   This is a basic course in thermodynamics. We will cover the following topics: 1. Definitions of heat, temperature and systems 2. Thermal equilibrium and the zeroth law of thermodynamics 3. Thermal properties of mixed gases 4. Equation of state of ideal gases 5. The first law of thermodynamics Students are expected to understand the meaning of terms and formulas. Students are expected to solve exercises independently. Students should be aware of the teacher's instructions in the class, because the schedules of lectures, quizzes, tests, and reports may change as the class progresses. Students should not be absent from class, as they may not receive the handouts. Detailed schedules and content of the course are explained in the first class.\n    教科書および参考書・リザーブドブック   Textbook : Koguchi et al., Thermodynamics 2nd edition(in Japanese), Asakura shoten. Reference book : Thermodynamics(in Japanese), JSME Textbook Series, JSME Reserved books : Problems in Thermodynamics(in Japanese), JSME Textbook Series, JSME\n    履修に必要な予備知識や技能   Have sufficient skill in mathematics (especially differential and integral calculations). Familiarize yourself with how to use a scientific calculator.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① D,J,K Be able to explain Temperature and heat and apply it to problems   ② D,J,K Be able to explain Thermal equilibrium and apply it to problems   ③ D,J,K Be able to explain Mixed gas and apply it to problems   ④ D,J,K Be able to explain Ideal gas and apply it to problems   ⑤ D,J,K Be able to explain The first law of thermo and apply the knowledge to probrems about design of thermal equipment   ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 20 30 50 0 0 0 0 100     指標と評価割合 総合評価割合 20 30 50 0 0 0 0 100   総合力指標 知識を取り込む力 20 30 50 0 0 0 0 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ An exam is given at the end of the semester to evaluate your degree of achievement. The scientific calculator specified in this department can be used.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     クイズ\n小テスト ① レ Tests and quizzes are conducted several times during class to confirm learning of the course content. The scientific calculator specified in this department can be used on every test.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     レポート ① レ Several reports need to be prepared as homework. The report evaluates the following items: 1. Willingness to learn 2. Willingness to discover problems and solve them on their own   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ①      ②     ③     ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     (1) Explain Thermal equilibrium and the zeroth law of thermodynamics. Also, use this understanding to solve advanced problems related to thermal issues. (2) Explain Thermal properties of mixed gases. Also, use this understanding to solve advanced problems related to thermal issues. (3) Explain Equation of state of ideal gases. Also, use this understanding to solve advanced problems related to thermal issues. (4) Explain The first law of thermodynamics.",
+  "courseId": "2024:spring:E121-01:0:219",
   "language": "en"
 }

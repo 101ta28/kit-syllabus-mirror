@@ -1,63 +1,50 @@
 {
   "sourceIndex": 397,
   "sourceUrl": "/opsyllabus/kitos0110/397/1",
-  "importedAt": "2026-06-08T09:34:01.128Z",
-  "title": "プログラミング（再履修クラス）",
-  "subtitle": "Programming",
-  "courseType": "Major ProgramMajor Courses",
-  "credits": "2",
-  "term": "2026年度\n\n                2nd year 1st semester",
+  "importedAt": "2026-06-09T01:29:22.649Z",
+  "title": "情報工学実験Ⅱ(再履修クラス)",
+  "subtitle": "Computer Programming Practice II",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "1",
+  "term": "2024年度\n 1st year 2nd semester",
   "method": "修学規程第4条を参照",
   "teachers": [],
   "keywords": [
-    "Programming language C",
-    "Control structures",
-    "Standard library functions",
-    "File input/output"
+    "Python 2.Programming 3.Unit test 4.Object Oriented 5.Algorithm, Data Structure"
   ],
-  "educationalGoal": "In this course, students conduct programming exercises within small groups.\nSpecifically, students will:\n(1) Learn how to develop programs using their PCs.\n(2) Learn how to create a simple arithmetic program.\n(3) Learn how to create programs using control statements such as \"if\" and \"for.\"\n(4) Learn how to use standard library functions.",
-  "advice": "In this course, students conduct programming exercises within small groups with the aim of acquiring skills related to the C language and other practical skills.\n\nWe will cover the following materials:\n - basic syntax\n - control structures\n - functions\n - standard library functions\n - file input/output\n - command-line arguments\n - pointer\n - structure\n - basic algorithms",
-  "books": "Textbooks:\nReference books:\nReserved books: None",
-  "requiredKnowledge": "Acquisition of the knowledge/skills of \"Fundamentals of Programming\" is required.\nBasic knowledge of C language syntax is required.\nBasic C development environment skills are required.",
+  "educationalGoal": "In this course, students will learn the following three items. 1) The ability to use the Python language to create programs according to exercises. 2) The ability to search and use information such as language specifications, packages, and APIs. 3) The ability to write a concise program and explain the processing outline while considering program restrictions and readability.",
+  "advice": "Python is a programming language widely used not only for education but also in the field of web services and artificial intelligence. Students use the knowledge learned in 'Programming I' and 'Programming II' for exercises and learn programming, software development, how to correct problems when they occur, and software development capabilities to realize the required functions through exercises. Students will be able to create programs that are easy to read and maintain, and learn to easily read the functional overview, program code, and execution results of others. Note: Bring your own laptop computer. You should make sure your laptop can connect to the campus network and use the network printer.",
+  "books": "Textbooks: Reference books: None Reserved books: None",
+  "requiredKnowledge": "Students are required to understand programming basics and object-oriented programming. If you are not good at programming, review 'Programming I, II, III\", and \"Computer Programming Practice I\". In addition, it is desirable to be interested in technologies such as data structures, algorithms, databases, and networks.",
   "activityGoals": [
     {
       "index": "①",
-      "type": "H,I",
-      "body": "Be able to develop programs using their PC."
+      "type": "I,J,K,N",
+      "body": "Be able to create programs using the Python language."
     },
     {
       "index": "②",
-      "type": "H,I",
-      "body": "Be able to find and correct mistakes in programs."
+      "type": "I,J,K,N",
+      "body": "Be able to explain the outline, input, processing, output, and constraints of the created program."
     },
     {
       "index": "③",
-      "type": "H,I",
-      "body": "Be able to create simple calculation programs."
+      "type": "I,J,K,N",
+      "body": "Be able to operate editors and develop programs efficiently."
     },
     {
       "index": "④",
-      "type": "H,I",
-      "body": "Be able to create programs that use control statements such as \"if\" and \"for.\""
-    },
-    {
-      "index": "⑤",
-      "type": "H,I",
-      "body": "Be able to use standard library functions appropriately."
-    },
-    {
-      "index": "⑥",
-      "type": "H,I",
-      "body": "Be able to create practical programs for data processing, such as averages and maximums."
+      "type": "I,J,K,N",
+      "body": "Be able to implement the same process in multiple ways, and explain the advantages and disadvantages of them."
     }
   ],
   "evaluationWeights": [
     {
       "label": "総合評価割合",
       "values": [
-        "20",
-        "50",
-        "30",
+        "0",
+        "0",
+        "100",
         "0",
         "0",
         "0",
@@ -66,9 +53,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -78,9 +65,9 @@
     {
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
-        "20",
-        "50",
-        "30",
+        "0",
+        "0",
+        "100",
         "0",
         "0",
         "0",
@@ -89,9 +76,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -101,9 +88,9 @@
     {
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
-        "20",
-        "50",
-        "30",
+        "0",
+        "0",
+        "100",
         "0",
         "0",
         "0",
@@ -112,9 +99,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -135,9 +122,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -145,7 +132,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -158,9 +145,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -181,9 +168,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -192,118 +179,118 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "(1) Be able to fully understand C basic grammar, control structure, function, file processing, pointer, data structure, basic algorithm, etc.\n(2) Be able to create practical programs that combine these skills.",
-    "standard": "(1) Be able to fully understand C basic grammar, control structure, functions, file processing, pointers, etc.\n(2) Be able to create basic programs using these skills."
+    "ideal": "In addition to standard achievement goals, it is possible to achieve the following three goals: 3) Be able to propose multiple mounting methods and explain their merits and demerits. 4) Be able to explain input, output, and the restrictions of the created program, as well as to create test cases based on them. 5) Be able to write source code that is easy to read and maintain by others.",
+    "standard": "The following two goals can be achieved: 1) Be able to implement the processing required for assignments in the Python language. 2) If any part of a task is incomprehensible, be able to resolve it by investigating the reference."
   },
   "clipProcess": "",
   "lessons": [
     {
       "index": "1",
-      "content": "Course introduction",
-      "operation": "Lecture, Q&A, and practice",
-      "assignments": "Understand the class\nobjectives\nPrepare for Chapter 1 of the\ntextbook",
-      "minutes": "240"
+      "content": "Guidance, Checking Python development / execution environment, Reviewing Python",
+      "operation": "Lecture and exercise",
+      "assignments": "Review Python",
+      "minutes": "100"
     },
     {
       "index": "2",
-      "content": "Basic syntax\n- main function, string, variables",
-      "operation": "Practice and Q&A\nSelf-check\nQuiz",
-      "assignments": "Review materials from the last\nclass",
-      "minutes": "240"
+      "content": "Prime number generator 1, Report #1",
+      "operation": "Lecture and exercise",
+      "assignments": "Review of less understood parts and preparation for the next task",
+      "minutes": "100"
     },
     {
       "index": "3",
-      "content": "Basic syntax\n- calculation, data input/output",
-      "operation": "Practice and Q&A\nSelf-check\nQuiz",
-      "assignments": "Review materials from the last\nclass\nPrepare for Chapter 2 of the\ntextbook",
-      "minutes": "240"
+      "content": "Prime number generator 2, list comprehension, Report #2",
+      "operation": "Lecture and exercise",
+      "assignments": "Review of less understood parts and preparation for the next task",
+      "minutes": "100"
     },
     {
       "index": "4",
-      "content": "Control structures\n- conditional control statements",
-      "operation": "Practice and Q&A\nSelf-check\nQuiz",
-      "assignments": "Review materials from the last\nclass",
-      "minutes": "240"
+      "content": "HTML parser 1, Report #3",
+      "operation": "Lecture and exercise",
+      "assignments": "Review of less understood parts and preparation for the next task",
+      "minutes": "100"
     },
     {
       "index": "5",
-      "content": "Control structures\n- loop control statements",
-      "operation": "Practice and Q&A\nSelf-check\nQuiz",
-      "assignments": "Review materials from the last\nclass\nPrepare for Chapter 3 of the\ntextbook",
-      "minutes": "240"
+      "content": "HTML parser 2, phrase frequency histogram, Report #4",
+      "operation": "Lecture and exercise",
+      "assignments": "Review of less understood parts and preparation for the next task",
+      "minutes": "100"
     },
     {
       "index": "6",
-      "content": "Functions\n- basic form of function",
-      "operation": "Practice and Q&A\nSelf-check\nQuiz",
-      "assignments": "Review materials from the last\nclass",
-      "minutes": "240"
+      "content": "HTML, HTTP server, CGI 1, template engine and DBI, Report #5",
+      "operation": "Lecture and exercise",
+      "assignments": "Review of less understood parts and preparation for the next task",
+      "minutes": "120"
     },
     {
       "index": "7",
-      "content": "Functions\n- practical use of a function",
-      "operation": "Practice and Q&A\nSelf-check\nQuiz",
-      "assignments": "Review materials from the last\nclass\nPrepare for Chapter 4 of the\ntextbook",
-      "minutes": "240"
+      "content": "HTML, HTTP server, CGI 2, Report #6",
+      "operation": "Lecture and exercise",
+      "assignments": "Review of less understood parts and preparation for the next task",
+      "minutes": "120"
     },
     {
       "index": "8",
-      "content": "Standard library functions\n- string processing, character processing\n- mathematical processing, numerical conversion,\n etc.",
-      "operation": "Practice and Q&A\nSelf-check\nQuiz",
-      "assignments": "Review materials from the last\nclass\nPrepare for Chapter 5 of the\ntextbook",
-      "minutes": "240"
+      "content": "CGI application 1",
+      "operation": "Lecture and exercise",
+      "assignments": "Review of less understood parts and preparation for the next task",
+      "minutes": "120"
     },
     {
       "index": "9",
-      "content": "File input / output\nCommand line arguments",
-      "operation": "Practice and Q&A\nSelf-check\nQuiz",
-      "assignments": "Review materials from the last\nclass\nPrepare for Chapter 6 of the\ntextbook",
-      "minutes": "240"
+      "content": "CGI application 1, Report #7",
+      "operation": "Lecture and exercise",
+      "assignments": "Review of less understood parts and preparation for the next task",
+      "minutes": "120"
     },
     {
       "index": "10",
-      "content": "Pointer\nOther features",
-      "operation": "Practice and Q&A\nSelf-check\nQuiz",
-      "assignments": "Review materials from the last\nclass\nPrepare for Chapter 7 of the\ntextbook",
-      "minutes": "240"
+      "content": "Graph algorithm 1, Pseudo language, Network (graph) package, Report #8",
+      "operation": "Lecture and exercise",
+      "assignments": "Review of less understood parts and preparation for the next task",
+      "minutes": "120"
     },
     {
       "index": "11",
-      "content": "Structure\n- stack, queue, list",
-      "operation": "Practice and Q&A\nSelf-check\nQuiz",
-      "assignments": "Review materials from the last\nclass\nPrepare for Chapter 8 of the\ntextbook",
-      "minutes": "240"
+      "content": "Graph algorithm 2, Report #9",
+      "operation": "Lecture and exercise",
+      "assignments": "Review of less understood parts and preparation for the next task",
+      "minutes": "120"
     },
     {
       "index": "12",
-      "content": "Basic algorithms\n- sort, search, etc.",
-      "operation": "Practice and Q&A\nSelf-check\nQuiz",
-      "assignments": "Review materials from the last\nclass",
-      "minutes": "240"
+      "content": "Table games",
+      "operation": "Lecture and exercise",
+      "assignments": "Review of less understood parts and preparation for the next task.",
+      "minutes": "120"
     },
     {
       "index": "13",
-      "content": "Integrated learning",
-      "operation": "Practice and Q&A\nSelf-check\nQuiz",
-      "assignments": "Review materials from the last\nclass",
-      "minutes": "240"
+      "content": "Implement a table game, Report #10",
+      "operation": "Lecture and exercise",
+      "assignments": "Review of less understood parts and preparation for the next task",
+      "minutes": "120"
     },
     {
       "index": "14",
-      "content": "Integrated learning\nFinal exam",
-      "operation": "Practice and Q&A\nSelf-check\nExam",
-      "assignments": "Review materials from the last\nclass",
-      "minutes": "240"
+      "content": "Review",
+      "operation": "Review",
+      "assignments": "Review",
+      "minutes": "120"
     },
     {
       "index": "15",
-      "content": "Integrated learning\nSelf-evaluation",
-      "operation": "Lecture, Q&A, and practice\nSelf-check",
-      "assignments": "Review the final exam",
-      "minutes": "240"
+      "content": "Self-inspection, Another topic",
+      "operation": "Review, Q&A",
+      "assignments": "Review of less understood parts",
+      "minutes": ""
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　F008-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Media Informatics(〜2024)\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                プログラミング（再履修クラス）\n                Programming\n\n              2\n              F008-01\n\n                2026年度\n\n                2nd year 1st semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Programming language C\n2.Control structures\n3.Standard library functions\n4.File input/output\n\n              In this course, students conduct programming exercises within small groups.\nSpecifically, students will:\n(1) Learn how to develop programs using their PCs.\n(2) Learn how to create a simple arithmetic program.\n(3) Learn how to create programs using control statements such as \"if\" and \"for.\"\n(4) Learn how to use standard library functions.\n\n              授業の概要および学習上の助言\n\n              In this course, students conduct programming exercises within small groups with the aim of acquiring skills related to the C language and other practical skills.\n\nWe will cover the following materials:\n - basic syntax\n - control structures\n - functions\n - standard library functions\n - file input/output\n - command-line arguments\n - pointer\n - structure\n - basic algorithms\n\n              教科書および参考書・リザーブドブック\n\n              Textbooks:\nReference books:\nReserved books: None\n\n              履修に必要な予備知識や技能\n\n              Acquisition of the knowledge/skills of \"Fundamentals of Programming\" is required.\nBasic knowledge of C language syntax is required.\nBasic C development environment skills are required.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                H,I\n                Be able to develop programs using their PC.\n\n                ②\n                H,I\n                Be able to find and correct mistakes in programs.\n\n                ③\n                H,I\n                Be able to create simple calculation programs.\n\n                ④\n                H,I\n                Be able to create programs that use control statements such as \"if\" and \"for.\"\n\n                ⑤\n                H,I\n                Be able to use standard library functions appropriately.\n\n                ⑥\n                H,I\n                Be able to create practical programs for data processing, such as averages and maximums.\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                20\n\n                50\n\n                30\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                20\n\n                50\n\n                30\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                20\n\n                50\n\n                30\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  コラボレーションとリーダーシップ\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  発表・表現・伝達する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n ",
-  "courseId": "2026:spring:F008-01:0:397",
+  "rawText": "金沢工業大学 学習支援計画書 E516-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Information and Computer Science\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n情報工学実験Ⅱ(再履修クラス)\nComputer Programming Practice II  1 E516-01  2024年度\n 1st year 2nd semester  修学規程第4条を参照\n    担当教員名\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Python 2.Programming 3.Unit test 4.Object Oriented 5.Algorithm, Data Structure  In this course, students will learn the following three items. 1) The ability to use the Python language to create programs according to exercises. 2) The ability to search and use information such as language specifications, packages, and APIs. 3) The ability to write a concise program and explain the processing outline while considering program restrictions and readability.\n    授業の概要および学習上の助言   Python is a programming language widely used not only for education but also in the field of web services and artificial intelligence. Students use the knowledge learned in 'Programming I' and 'Programming II' for exercises and learn programming, software development, how to correct problems when they occur, and software development capabilities to realize the required functions through exercises. Students will be able to create programs that are easy to read and maintain, and learn to easily read the functional overview, program code, and execution results of others. Note: Bring your own laptop computer. You should make sure your laptop can connect to the campus network and use the network printer.\n    教科書および参考書・リザーブドブック   Textbooks: Reference books: None Reserved books: None\n    履修に必要な予備知識や技能   Students are required to understand programming basics and object-oriented programming. If you are not good at programming, review 'Programming I, II, III\", and \"Computer Programming Practice I\". In addition, it is desirable to be interested in technologies such as data structures, algorithms, databases, and networks.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① I,J,K,N Be able to create programs using the Python language.   ② I,J,K,N Be able to explain the outline, input, processing, output, and constraints of the created program.   ③ I,J,K,N Be able to operate editors and develop programs efficiently.   ④ I,J,K,N Be able to implement the same process in multiple ways, and explain the advantages and disadvantages of them.   ⑤     ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 0 0 100 0 0 0 0 100     指標と評価割合 総合評価割合 0 0 100 0 0 0 0 100   総合力指標 知識を取り込む力 0 0 100 0 0 0 0 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ①      ②     ③     ④     ⑤     ⑥     クイズ\n小テスト ①      ②     ③     ④     ⑤     ⑥     レポート ① レ The grade is evaluated with emphasis on the content of the report and the deadline for submission.   ② レ   ③ レ   ④ レ   ⑤     ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ①      ②     ③     ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     In addition to standard achievement goals, it is possible to achieve the following three goals: 3) Be able to propose multiple mounting methods and explain their merits and demerits. 4) Be able to explain input, output, and the restrictions of the created program, as well as to create test cases based on them. 5) Be able to write source code that is easy to read and maintain by others.  The following two goals can be achieved: 1) Be able to implement the processing required for assignments in the Python language. 2) If any part of a task is incomprehensible, be able to resolve it by investigating the reference.\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識",
+  "courseId": "2024:spring:E509-01:0:397",
   "language": "en"
 }

@@ -1,57 +1,55 @@
 {
   "sourceIndex": 757,
   "sourceUrl": "/opsyllabus/kitos0110/757/1",
-  "importedAt": "2026-06-08T09:34:08.662Z",
-  "title": "バイオ情報基礎",
-  "subtitle": "Fundamental Bioinformatics",
-  "courseType": "Major ProgramMajor Courses",
-  "credits": "2",
-  "term": "2026年度\n\n                2nd year 2nd semester",
+  "importedAt": "2026-06-09T01:29:26.103Z",
+  "title": "バイオ・化学基礎実験・演習A2(応用化学)",
+  "subtitle": "Basic Experiments and Practice in Bioscience and Chemistry A2 (Applied Chemistry)",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "1",
+  "term": "2024年度\n 2nd year 1st semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "SAGARA Jun-ichi"
+    "SAKAMOTO Muneaki",
+    "MIYAZAKI Keisuke",
+    "YOSHIMURA Osamu"
   ],
   "keywords": [
-    "Information literacy",
-    "Gene sequences",
-    "Phylogenetics",
-    "Bio-database",
-    "Protein structures"
+    "Organic synthesis 2.Spectrometry 3.Structure determination of organic compounds"
   ],
-  "educationalGoal": "Students will:\n(1) acquire literacy of information technology\n(2) learn analysis of gene sequence and phylogenetic tree using mathematical methods\n(3) learn how to operate bio-databases\n(4) learn analysis of molecular dynamics",
-  "advice": "This is a basic bioinformatics course. We will cover the following topics:\n\n1. Information literacy\n2. Gene sequence analysis\n3. Phylogenetics\n4. Phylogenetic tree\n5. Bio-databases\n6. Protein structure\n\nStudents will also learn about advanced issues such as dynamics of proteins, if time permits.\nStudents are expected to understand the basics of gene sequence analysis.\nStudents are expected to understand the meaning of terms.\nStudents are expected to solve the exercises independently.\nStudents should pay attention to the teacher's instructions in the class because the schedules of quizzes, tests and reports may change as the class progresses.\nStudents should attend all classes, as the handouts may be not received.",
-  "books": "none.",
-  "requiredKnowledge": "Knowledge of biochemistry, molecular biology and data analysis.\nSufficient knowledge of bioinformatics (mathematics and physics).\nBasic knowledge of biology (gene sequence and protein structure).\nHow to use a personal computer and internet communication technology.",
+  "educationalGoal": "Learn the correct clothing and protective equipment suitable for experiments, use experimental tools correctly, and conduct experiments safely. Learn the specific information for the experiments and conduct experiments on your own. Prepare a report describing the experimental method and results and submit it by the deadline. Acquire the ability to conduct experiments by verifying and reporting on material learned in courses and through experiments.",
+  "advice": "Conduct experiments in analytical chemistry and organic chemistry. The objective of this experimental course is to acquire more knowledge than that learned in lectures and to gain skills in research, experimental methods, and reporting that are necessary to perform activities in Design Project III (4th year). If understanding experiments is difficult, you need to actively gain the understanding through reading, asking questions, and attending office hours, along with sufficient preparation and review of the experimental method and principles. Be sure to attend the guidance given for each experiment to learn about precautions, handling of experimental apparatus, safety training, and other important information. Common to all experiments: Experimental guidance, safety training, examination Organic Chemistry experiments: Fundamentals of distillation, nucleophilic substitution, esterification, and preparation of polymers",
+  "books": "Textbooks: Baio Kagaku Kiso Jikken/enshu AB (Kanazawa Institute of Technology Publishing) Reference books: Kenkyu no tameno Anzen Shishin (Kanazawa Institute of Technology Publishing) Reserved books: Jikken Deta wo Tadashiku Atsukau tameni (Kagaku Dojin Publishing), Jikken wo Anzen ni Okonau tameni (Kagaku Dojin Publishing), Zoku Jikken wo Anzen ni Okonau tameni (Kagaku Dojin Publishing), Daremo oshietakurenai Jikken-note no kakikata (Kagaku Dojin Publishing)",
+  "requiredKnowledge": "Bring an A4 size experimental notebook, scientific calculator, and ruler. Experiments should be conducted after reviewing the course material, understanding the experimental theory, and preparing the materials for the experiments. If the progress of the experiment is delayed, class time will be extended until the experiment is completed, so keep some time free after the class on experiment days.",
   "activityGoals": [
     {
       "index": "①",
-      "type": "I",
-      "body": "Ability to acquire knowledge of information technology"
+      "type": "L",
+      "body": "Wear appropriate clothing, understand the use of the equipment, handle reagents properly, and conduct safely."
     },
     {
       "index": "②",
-      "type": "I,N",
-      "body": "Ability to explain gene sequence analysis"
+      "type": "L",
+      "body": "Record experimental conditions and results accurately in the experimental notes."
     },
     {
       "index": "③",
-      "type": "I,N",
-      "body": "Ability to explain phylogenetics"
+      "type": "L",
+      "body": "Complete the experimental report using the prescribed format and explain it to others."
     },
     {
       "index": "④",
-      "type": "I,K,N",
-      "body": "Ability to make a phylogenetic tree"
+      "type": "L",
+      "body": "Describe observed phenomena and obtained data in experiments, based on principles of physics and chemistry."
     },
     {
       "index": "⑤",
-      "type": "N",
-      "body": "Ability to operate bio-databases"
+      "type": "L",
+      "body": "Conduct the experiments on your own, according to the instructions."
     },
     {
       "index": "⑥",
-      "type": "K,N",
-      "body": "Ability to explain the structure of proteins"
+      "type": "L",
+      "body": "Understand the fundamental principles of analytical chemistry, organic chemistry, and environmental chemistry."
     }
   ],
   "evaluationWeights": [
@@ -59,19 +57,19 @@
       "label": "総合評価割合",
       "values": [
         "20",
-        "30",
-        "40",
+        "0",
+        "60",
         "0",
         "0",
         "0",
-        "10",
+        "20",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -82,19 +80,19 @@
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
         "20",
-        "30",
-        "40",
+        "0",
+        "60",
         "0",
         "0",
         "0",
-        "10",
+        "20",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -105,19 +103,19 @@
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
         "20",
-        "30",
-        "40",
+        "0",
+        "60",
         "0",
         "0",
         "0",
-        "10",
+        "20",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -138,9 +136,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -148,7 +146,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -161,9 +159,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -184,9 +182,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -195,118 +193,48 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "(1) Understand and practice information literacy.\n\n(2) Understand and analyze gene sequences.\n\n(3) Understand and explain the concepts of phylogenetics.\n\n(4) Understand and create phylogenetic trees.\n\n(5) Understand and practice bio-sequences.\n\n(6) Understand and explain the concepts of protein structure.",
-    "standard": "(1) Explain the concepts of information literacy.\n\n(2) Explain the concepts of gene sequence analysis.\n\n(3) Explain the concepts of phylogenetics.\n\n(4) Explain the concepts of phylogenetic trees.\n\n(5) Explain the concepts of bio-databases.\n\n(6) Explain the concepts of protein structure."
+    "ideal": "1. Use protective equipment and autonomously conduct experiments safely and competently. 2. Understand sufficiently the fundamental principles of volumetric analysis, organic synthesis, and chemical analysis, and conduct experimental operations accurately. 3. Understand sufficiently the fundamental principles and objectives of the experimental operation, summarize the experimental data obtained, and discuss the results. 4. Record experimental contents and results accurately. 5. Prepare a report using the prescribed format and explain it easily to others.",
+    "standard": "1. Use protective equipment and conduct experiments safely. 2. Understand the fundamental principles of volumetric analysis, organic synthesis, and chemical analysis, and conduct experimental operations. 3. Understand the fundamental principles and objectives of the experimental operation, summarize the experimental data obtained, and utilize for discussion. 4. Record experimental contents and results. 5. Prepare a report using the prescribed format."
   },
   "clipProcess": "",
   "lessons": [
     {
       "index": "1",
-      "content": "Course introduction",
-      "operation": "Lecture and Q&A",
-      "assignments": "Understand the objectives of\nthe course",
-      "minutes": "90"
+      "content": "Safety training and guidance for organic chemistry experiments Fundamental skills for organic synthesis Water purification by atmospheric distillation",
+      "operation": "Lecture, Exercises, and Experiments",
+      "assignments": "Readings: Section Organic Chemistry, Chapter 0 \"Safety Rules\" Pre-Lab Assignment: Prepare an experimental workflow for water purification. Assignment: Complete post-laboratory report.",
+      "minutes": "30 90"
     },
     {
       "index": "2",
-      "content": "Information literacy (1)\nInformation ethics",
-      "operation": "Lecture and practice\nSelf-check",
-      "assignments": "Read the applicable parts of\nthe textbook\nReview the applicable parts\nof the textbook",
-      "minutes": "60\n\n60"
+      "content": "Acetylation of aniline or Synthesis of p-bromoaniline",
+      "operation": "Lecture, Exercises, and Experiments",
+      "assignments": "Pre-Lab Assignment: Prepare an experimental workflow for synthesis #1. Assignment: Complete post-laboratory report.",
+      "minutes": "30 90"
     },
     {
       "index": "3",
-      "content": "Information literacy (2)\nComputers and the internet",
-      "operation": "Lecture and practice\nSelf-check",
-      "assignments": "Read the applicable parts of\nthe textbook\nReview the applicable parts\nof the textbook",
-      "minutes": "60\n\n60"
+      "content": "Synthesis of esters",
+      "operation": "Lecture, Exercises, and Experiments",
+      "assignments": "Pre-Lab Assignment: Prepare an experimental workflow for synthesis #2. Assignment: Complete post-laboratory report.",
+      "minutes": "30 90"
     },
     {
       "index": "4",
-      "content": "Information literacy (3)\nInformation theory for biology",
-      "operation": "Lecture and practice\nSelf-check",
-      "assignments": "Read the applicable parts of\nthe textbook\nReview the applicable parts\nof the textbook",
-      "minutes": "60\n\n60"
+      "content": "Preparation of Nylon-6,6",
+      "operation": "Lecture, Exercises, and Experiments",
+      "assignments": "Pre-Lab Assignment: Prepare an experimental workflow for synthesis #3. Assignment: Complete post-laboratory report.",
+      "minutes": "30 90"
     },
     {
       "index": "5",
-      "content": "PC practice\nBio-databases on the internet",
-      "operation": "Lecture and practice\nSelf-check",
-      "assignments": "Read the applicable parts of\nthe textbook\nReview the applicable parts\nof the textbook",
-      "minutes": "60\n\n60"
-    },
-    {
-      "index": "6",
-      "content": "Pairwise alignment (1)\nAlgorithm of dot matrix",
-      "operation": "Lecture and practice\nSelf-check",
-      "assignments": "Read the applicable parts of\nthe textbook\nReview the applicable parts of\nthe textbook",
-      "minutes": "60\n\n60"
-    },
-    {
-      "index": "7",
-      "content": "Pairwise alignment (2)\nAlgorithm of dot matrix",
-      "operation": "Lecture and practice\nSelf-check",
-      "assignments": "Read the applicable parts of\nthe textbook\nReview the applicable parts of\nthe textbook",
-      "minutes": "60\n\n60"
-    },
-    {
-      "index": "8",
-      "content": "Pairwise alignment (3)\nAlgorithm of dot matrix",
-      "operation": "Lecture and practice\nSelf-check",
-      "assignments": "Read the applicable parts of\nthe textbook\nReview the applicable parts of\nthe textbook",
-      "minutes": "60\n\n60"
-    },
-    {
-      "index": "9",
-      "content": "Gene sequence analysis (1)\nFASTA",
-      "operation": "Lecture and practice\nSelf-check",
-      "assignments": "Read the applicable parts of\nthe textbook\nReview the applicable parts of\nthe textbook",
-      "minutes": "60\n\n60"
-    },
-    {
-      "index": "10",
-      "content": "Gene sequence analysis (2)\nBLAST",
-      "operation": "Lecture and practice\nSelf-check",
-      "assignments": "Read the applicable parts of\nthe textbook\nReview the applicable parts of\nthe textbook",
-      "minutes": "60\n\n60"
-    },
-    {
-      "index": "11",
-      "content": "Gene sequence analysis (3)\nMultiple alignment",
-      "operation": "Lecture and practice\nSelf-check",
-      "assignments": "Read the applicable parts of\nthe textbook\nReview the applicable parts of\nthe textbook",
-      "minutes": "60\n\n60"
-    },
-    {
-      "index": "12",
-      "content": "PC practice\nFASTA, BLAST and Phylogenetic tree",
-      "operation": "Lecture and practice\nSelf-check",
-      "assignments": "Read the applicable parts of\nthe textbook\nReview the applicable parts of\nthe textbook",
-      "minutes": "60\n\n60"
-    },
-    {
-      "index": "13",
-      "content": "Phylogenetic tree (1)\n UPGMA and NJ",
-      "operation": "Lecture and practice\nSelf-check",
-      "assignments": "Read the applicable parts of\nthe textbook\nReview the applicable parts of\nthe textbook",
-      "minutes": "60\n\n60"
-    },
-    {
-      "index": "14",
-      "content": "Phylogenetic tree (2)\n Maximum parsimony and maximum likelihood",
-      "operation": "Lecture and practice\nSelf-check",
-      "assignments": "Read the applicable parts of\nthe textbook\nReview the applicable parts of\nthe textbook",
-      "minutes": "60\n\n60"
-    },
-    {
-      "index": "15",
-      "content": "Final exam and review",
-      "operation": "Exam and review\nSelf-evaluation",
-      "assignments": "Prepare for the exam",
-      "minutes": "240"
+      "content": "Examination and Self-Evaluation",
+      "operation": "Examination and Self-Evaluation",
+      "assignments": "Assignment: Complete protocols for water purification and syntheses #1 through #3. Study for examination.",
+      "minutes": "120"
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　B316-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Life Science and Biotechnology\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                バイオ情報基礎\n                Fundamental Bioinformatics\n\n              2\n              B316-01\n\n                2026年度\n\n                2nd year 2nd semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  SAGARA Jun-ichi\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Information literacy\n2.Gene sequences\n3.Phylogenetics\n4.Bio-database\n5.Protein structures\n\n              Students will:\n(1) acquire literacy of information technology\n(2) learn analysis of gene sequence and phylogenetic tree using mathematical methods\n(3) learn how to operate bio-databases\n(4) learn analysis of molecular dynamics\n\n              授業の概要および学習上の助言\n\n              This is a basic bioinformatics course. We will cover the following topics:\n\n1. Information literacy\n2. Gene sequence analysis\n3. Phylogenetics\n4. Phylogenetic tree\n5. Bio-databases\n6. Protein structure\n\nStudents will also learn about advanced issues such as dynamics of proteins, if time permits.\nStudents are expected to understand the basics of gene sequence analysis.\nStudents are expected to understand the meaning of terms.\nStudents are expected to solve the exercises independently.\nStudents should pay attention to the teacher's instructions in the class because the schedules of quizzes, tests and reports may change as the class progresses.\nStudents should attend all classes, as the handouts may be not received.\n\n              教科書および参考書・リザーブドブック\n\n              none.\n\n              履修に必要な予備知識や技能\n\n              Knowledge of biochemistry, molecular biology and data analysis.\nSufficient knowledge of bioinformatics (mathematics and physics).\nBasic knowledge of biology (gene sequence and protein structure).\nHow to use a personal computer and internet communication technology.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                I\n                Ability to acquire knowledge of information technology\n\n                ②\n                I,N\n                Ability to explain gene sequence analysis\n\n                ③\n                I,N\n                Ability to explain phylogenetics\n\n                ④\n                I,K,N\n                Ability to make a phylogenetic tree\n\n                ⑤\n                N\n                Ability to operate bio-databases\n\n                ⑥\n                K,N\n                Ability to explain the structure of proteins\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                20\n\n                30\n\n                40\n\n                0\n\n                0\n\n                0\n\n                10\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                20\n\n                30\n\n                40\n\n                0\n\n                0\n\n                0\n\n                10\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                20\n\n                30\n\n                40\n\n                0\n\n                0\n\n                0\n\n                10\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  コラボレーションとリーダーシップ\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  ",
-  "courseId": "2026:fall:B316-01:0:757",
+  "rawText": "金沢工業大学 学習支援計画書 B037-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Applied Chemistry\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\nバイオ・化学基礎実験・演習A2(応用化学)\nBasic Experiments and Practice in Bioscience and Chemistry A2 (Applied Chemistry)  1 B037-01  2024年度\n 2nd year 1st semester  修学規程第4条を参照\n    担当教員名\n SAKAMOTO Muneaki, MIYAZAKI Keisuke, YOSHIMURA Osamu\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Organic synthesis 2.Spectrometry 3.Structure determination of organic compounds  Learn the correct clothing and protective equipment suitable for experiments, use experimental tools correctly, and conduct experiments safely. Learn the specific information for the experiments and conduct experiments on your own. Prepare a report describing the experimental method and results and submit it by the deadline. Acquire the ability to conduct experiments by verifying and reporting on material learned in courses and through experiments.\n    授業の概要および学習上の助言   Conduct experiments in analytical chemistry and organic chemistry. The objective of this experimental course is to acquire more knowledge than that learned in lectures and to gain skills in research, experimental methods, and reporting that are necessary to perform activities in Design Project III (4th year). If understanding experiments is difficult, you need to actively gain the understanding through reading, asking questions, and attending office hours, along with sufficient preparation and review of the experimental method and principles. Be sure to attend the guidance given for each experiment to learn about precautions, handling of experimental apparatus, safety training, and other important information. Common to all experiments: Experimental guidance, safety training, examination Organic Chemistry experiments: Fundamentals of distillation, nucleophilic substitution, esterification, and preparation of polymers\n    教科書および参考書・リザーブドブック   Textbooks: Baio Kagaku Kiso Jikken/enshu AB (Kanazawa Institute of Technology Publishing) Reference books: Kenkyu no tameno Anzen Shishin (Kanazawa Institute of Technology Publishing) Reserved books: Jikken Deta wo Tadashiku Atsukau tameni (Kagaku Dojin Publishing), Jikken wo Anzen ni Okonau tameni (Kagaku Dojin Publishing), Zoku Jikken wo Anzen ni Okonau tameni (Kagaku Dojin Publishing), Daremo oshietakurenai Jikken-note no kakikata (Kagaku Dojin Publishing)\n    履修に必要な予備知識や技能   Bring an A4 size experimental notebook, scientific calculator, and ruler. Experiments should be conducted after reviewing the course material, understanding the experimental theory, and preparing the materials for the experiments. If the progress of the experiment is delayed, class time will be extended until the experiment is completed, so keep some time free after the class on experiment days.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① L Wear appropriate clothing, understand the use of the equipment, handle reagents properly, and conduct safely.   ② L Record experimental conditions and results accurately in the experimental notes.   ③ L Complete the experimental report using the prescribed format and explain it to others.   ④ L Describe observed phenomena and obtained data in experiments, based on principles of physics and chemistry.   ⑤ L Conduct the experiments on your own, according to the instructions.   ⑥ L Understand the fundamental principles of analytical chemistry, organic chemistry, and environmental chemistry.\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 20 0 60 0 0 0 20 100     指標と評価割合 総合評価割合 20 0 60 0 0 0 20 100   総合力指標 知識を取り込む力 20 0 60 0 0 0 20 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ The examination will be based on each experiment in the analytical chemistry, organic chemistry, and environmental chemistry sect",
+  "courseId": "2024:spring:B036-01:0:757",
   "language": "en"
 }

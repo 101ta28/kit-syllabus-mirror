@@ -1,61 +1,57 @@
 {
   "sourceIndex": 328,
   "sourceUrl": "/opsyllabus/kitos0110/328/1",
-  "importedAt": "2026-06-08T09:33:59.721Z",
-  "title": "コンピュータアーキテクチャ設計",
-  "subtitle": "Computer Architecture and Design",
-  "courseType": "Major ProgramMajor Courses",
+  "importedAt": "2026-06-09T01:29:22.122Z",
+  "title": "情報通信ネットワーク",
+  "subtitle": "Network Technology of Information processing and Communication",
+  "courseType": "Major Program\nMajor Courses",
   "credits": "2",
-  "term": "2026年度\n\n                3rd year 1st semester",
+  "term": "2024年度\n 3rd year 1st semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "KAWANAMI Takashi",
-    "TAMURA Osamu"
+    "YOKOTANI Tetsuya"
   ],
   "keywords": [
-    "Processor",
-    "Circuit Design",
-    "ISA",
-    "Pipeline"
+    "IoT 2.Communication Protocol 3.Internet 4.Network design 5.Community cooperation"
   ],
-  "educationalGoal": "Students will:\n(1)\tlearn the processor organization through circuit design.\n(2)\tlearn processor components.\n(3)\tlearn to design the basic processor.\n(4)\tlearn to design advanced processors with additional instructions.",
-  "advice": "This is an advanced computer architecture course. The knowledge learned in this subject is the foundation for AI and IoT technologies. We will cover the following materials:\n\n1. Design method of logic circuits\n2. Design of processor components\n3. Design of basic processor\n4. Design of advanced processors",
-  "books": "コンピュータアーキテクチャ[コロナ社]",
-  "requiredKnowledge": "Knowledge of radix conversion, basic knowledge of logic circuit operations such as adder, selector, and register are required. Students should also understand data flow and control flow in the processor and basic usage of the “Logisim” logic simulator.",
+  "educationalGoal": "Information and Communication Technology (ICT) including IoT and related technologies is an indispensable factor in the social infrastructure. Especially, in communication networks, understanding communication protocol and network configurations are important items. This course focuses on these items. Moreover, this course comes in touch with the latest trends and future directions in ICT.",
+  "advice": "This course is a systems approach of fundamental technologies including \"Communication and Network system\" and \"Transmission of Electronic Information\". This course includes the following topics. (1) Overview of communication network focusing on the Internet (2) Communication protocols in each layer of the Internet reference model - Data link layer (Ethernet, Wireless LAN) - Network layer (IPv4, IPv6) - Transport layer (TCP, UDP) (3) Applications on the Internet - e-mail - Web access - File transfer, etc. (4) Basic technologies on performance analysis in networks (5) IoT services and technologies (6) The latest topics in ICT by a guest lecturer",
+  "books": "Textbooks:Commercially available Japanese book Reference books:White Paper: Information and Communications in Japan, MIC, http://www.soumu.go.jp/johotsusintokei/wp_eng.html Reserved books:",
+  "requiredKnowledge": "Nothing",
   "activityGoals": [
     {
       "index": "①",
-      "type": "I,M,N",
-      "body": "Be able to explain the circuit design procedures that are used in logic circuit simulators."
+      "type": "L",
+      "body": "Understanding summary of typical communication protocols"
     },
     {
       "index": "②",
-      "type": "I,M,N",
-      "body": "Be able to design small processor components from functional specifications."
+      "type": "L",
+      "body": "Understanding the layered reference model"
     },
     {
       "index": "③",
-      "type": "I,M,N",
-      "body": "Be able to conduct basic processor design from functional specifications."
+      "type": "L",
+      "body": "Understanding mechanisms of the Internet"
     },
     {
       "index": "④",
-      "type": "I,M,N",
-      "body": "Be able to add instructions to the basic processor."
+      "type": "L",
+      "body": "Understanding the basic level of traffic theory and its applications"
     },
     {
       "index": "⑤",
-      "type": "I,M,N",
-      "body": "Be able to verify a processor function using an assembler."
+      "type": "L",
+      "body": "Understanding features of network topology"
     }
   ],
   "evaluationWeights": [
     {
       "label": "総合評価割合",
       "values": [
-        "0",
-        "0",
-        "100",
+        "40",
+        "40",
+        "20",
         "0",
         "0",
         "0",
@@ -64,9 +60,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -76,9 +72,9 @@
     {
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
-        "0",
-        "0",
-        "100",
+        "40",
+        "40",
+        "20",
         "0",
         "0",
         "0",
@@ -87,9 +83,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -99,9 +95,9 @@
     {
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
-        "0",
-        "0",
-        "100",
+        "40",
+        "40",
+        "20",
         "0",
         "0",
         "0",
@@ -110,9 +106,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -133,9 +129,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -143,7 +139,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -156,9 +152,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -179,9 +175,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -190,118 +186,118 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "(1)\tBe able to fully acquire circuit design techniques using a logic simulator.\n(2)\tBe able to fully explain a basic computer configuration.\n(3)\tBe able to design basic processors based on specifications.\n(4)\tBe able to expand advanced processors based on specifications.\n(5)\tBe able to report these achievements accurately.",
-    "standard": "(1)\tBe able to design processor components based on specifications.\n(2)\tBe able to explain the operation of a basic processor circuit.\n(3)\tBe able to verify the operation of a basic processor circuit."
+    "ideal": "Students can explain following items with precision. (1) Key technical terms in the ICT field (2) Communication mechanisms of current networks and future directions (3) Modeling and performance evaluation techniques for networks",
+    "standard": "Students can explain roughly following items with hesitations (1) Key technical terms in the ICT field (2) Mechanisms of Ethernet, Wireless LAN and TCP/IP (3) Future directions of communication networks"
   },
   "clipProcess": "",
   "lessons": [
     {
       "index": "1",
-      "content": "Course introduction\nReview of fundamental of computer architecture\nand logic circuit",
-      "operation": "Lecture, practice,\nself-check",
-      "assignments": "Understand the objectives of\nthe class",
-      "minutes": "100"
+      "content": "Introduction Overview of International standardization in ICT for interoperability in networks Overview of the Internet (Chapter 1)",
+      "operation": "Lecture and small practice",
+      "assignments": "Preparation: read syllabus and Chapter 1 of text Review: review class material",
+      "minutes": "Prepar ation 100 Review 100"
     },
     {
       "index": "2",
-      "content": "Design of data memories\n-Register\n-RAM",
-      "operation": "Lecture, practice",
-      "assignments": "Review Chapter 2 in the\ntextbook\nComplete remaining exercises",
-      "minutes": "100"
+      "content": "Network products and their functions (Chapter 2) Overview of communication mechanisms in the Internet (Chapter 3)",
+      "operation": "Lecture and small practice",
+      "assignments": "Preparation: read Chapters 2 and 3 of text Review: review class material",
+      "minutes": "Prepar ation 100 Review"
     },
     {
       "index": "3",
-      "content": "Design of instruction fetch component\n-Sequencer\n-Program ROM\n-Instruction register",
-      "operation": "Lecture, practice",
-      "assignments": "Review Chapter 3 in the\ntextbook\nComplete remaining exercises",
-      "minutes": "100"
+      "content": "Layered reference model (Chapter 4) Architecture of communication links (Chapter 5)",
+      "operation": "Lecture and small practice",
+      "assignments": "Preparation: read Chapters 4 and 5 of text Review: review class material",
+      "minutes": "Prepar ation 100 Review"
     },
     {
       "index": "4",
-      "content": "Design of arithmetic logic component\n-Instruction set architecture\n-Instruction of arithmetic logic",
-      "operation": "Lecture, practice",
-      "assignments": "Review Chapter 3 in the\ntextbook\nComplete remaining exercises",
-      "minutes": "100"
+      "content": "Wired link in networks (Chapter 6) Wireless link networks (Chapter 7)",
+      "operation": "Lecture and small practice",
+      "assignments": "Preparation: read Chapters 6 and 7 of text Review: review class material",
+      "minutes": "Prepar ation 100 Review"
     },
     {
       "index": "5",
-      "content": "Design of arithmetic logic component\n-Instruction of arithmetic logic\n-Instruction decoder",
-      "operation": "Lecture, practice,\nself-check",
-      "assignments": "Review Chapter 3 in the\ntextbook\nComplete remaining exercises",
-      "minutes": "100"
+      "content": "End-to-End communication and IP address structure (Chapter 8) Transfer mechanisms of IP packets (Chapter 9)",
+      "operation": "Lecture and small practice",
+      "assignments": "Preparation: read Chapters 8 and 9 of text Review: review class material",
+      "minutes": "Prepar ation 100 Review"
     },
     {
       "index": "6",
-      "content": "Integration of circuits (Report1)",
-      "operation": "Lecture, practice\nself-check",
-      "assignments": "Review Chapter 3 in the\ntextbook\nComplete remaining exercises",
-      "minutes": "100"
+      "content": "Communication control mechanisms on End-to-End communication (Chapter 10)",
+      "operation": "Lecture and small practice",
+      "assignments": "Preparation: read Chapter 10 of text Review: review class material",
+      "minutes": "Prepar ation 100 Review 100"
     },
     {
       "index": "7",
-      "content": "Design of basic processor #1\n-w/oRAM",
-      "operation": "Lecture, practice",
-      "assignments": "Review Chapter 2 in the\ntextbook\nComplete remaining exercises",
-      "minutes": "100"
+      "content": "IP routing (Chapter 11)",
+      "operation": "Lecture and small practice",
+      "assignments": "Preparation: read Chapter 10 of text Review: review class material",
+      "minutes": "Prepar ation 100 Review 100"
     },
     {
       "index": "8",
-      "content": "Design of basic processor #2\n-Design of instruction decoder\n-Verification using assembly language",
-      "operation": "Lecture, practice",
-      "assignments": "Review Chapter 2 in the\ntextbook\nComplete remaining exercises",
-      "minutes": "100"
+      "content": "Interim examination and explanation of its reference answer Review of #1-#7",
+      "operation": "Interim examination Lecture",
+      "assignments": "Preparation: review class material and text (#1-#7) Review: review reference answer",
+      "minutes": "Prepar ation 100 Review 100"
     },
     {
       "index": "9",
-      "content": "Design of basic processor #3\n-Implementation of data memory\n-Verification using assembly language",
-      "operation": "Lecture, practice",
-      "assignments": "Review Chapter 2 in the\ntextbook\nComplete remaining exercises",
-      "minutes": "100"
+      "content": "Notification of the theme of 1st report DNS and interconnection in Private LAN (Chapter 12) Remote login and file transfer mechanisms (Chapter 13)",
+      "operation": "Lecture and small practice",
+      "assignments": "Preparation: read Chapters 12 and 13 of text Review: review class material and make the report",
+      "minutes": "Prepar ation 100 Review 100"
     },
     {
       "index": "10",
-      "content": "Design of basic processor #4\n-Implementation of IO\n-Verification using assembly language",
-      "operation": "Lecture, practice,",
-      "assignments": "Review Chapters 2 and 3 in\nthe textbook\nComplete remaining exercises",
-      "minutes": "100"
+      "content": "e-mail transfer mechanisms (Chapter 14) WWW access mechanisms (Chapter 15)",
+      "operation": "Lecture and small practice",
+      "assignments": "Preparation: read Chapters 14 and 15 of text Review: review class material",
+      "minutes": "Prepar ation 100 Review 100"
     },
     {
       "index": "11",
-      "content": "Design of Basic processor #5(Report2)\n- Verifying operation",
-      "operation": "Practice\nself-check",
-      "assignments": "Review Chapters 2 and 3 in\nthe textbook\nComplete remaining exercises",
-      "minutes": "100"
+      "content": "Network design techniques (Traffic theory and Traffic simulation)",
+      "operation": "Lecture and small practice",
+      "assignments": "Preparation: read class material Review: review class material",
+      "minutes": "Prepar ation 100 Review 100"
     },
     {
       "index": "12",
-      "content": "Design of advanced processor #1",
-      "operation": "Practice",
-      "assignments": "Review Chapters 2 and 3 in\nthe textbook\nComplete remaining exercises",
-      "minutes": "100"
+      "content": "IoT technology and use cases in Hokuriku areas",
+      "operation": "Lecture and small practice",
+      "assignments": "Preparation: read class material Review: review class material",
+      "minutes": "Prepar ation 100 Review 100"
     },
     {
       "index": "13",
-      "content": "Design of advanced processor #2",
-      "operation": "Practice",
-      "assignments": "Review Chapters 2 and 3 in\nthe textbook\nComplete remaining exercises",
-      "minutes": "100"
+      "content": "Final examination and explanation of its reference answer Review of #9-#12",
+      "operation": "Final examination Lecture",
+      "assignments": "Preparation: review class material and text (#9-#12) Review: review reference answer",
+      "minutes": "Prepar ation 100 Review 100"
     },
     {
       "index": "14",
-      "content": "Design of advanced processor #3(Report3)",
-      "operation": "Practice",
-      "assignments": "Review Chapters 2 and 3 in\nthe textbook\nComplete remaining exercises",
-      "minutes": "100"
+      "content": "Notification of the theme of 2nd report Special lecture: the latest topics of ICT in telecommunication fields",
+      "operation": "Lecture with making lecture note",
+      "assignments": "Preparation: read class material Review: review class material and make the report",
+      "minutes": "Prepar ation 100 Review 100"
     },
     {
       "index": "15",
-      "content": "Presentation\nSelf-evaluation",
-      "operation": "Presentation, self-check",
-      "assignments": "Review Chapters 2 and 3 in\nthe textbook\nComplete remaining exercises",
-      "minutes": "100"
+      "content": "Summary of whole of classes",
+      "operation": "Lecture Interview for each student including notification of score in this course Response unified",
+      "assignments": "Preparation: read class material (#1-#15) Review: review class material (#1-#15)",
+      "minutes": "Prepar ation 100 Review 100"
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　E527-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Information and Computer Science(〜2024)\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                コンピュータアーキテクチャ設計\n                Computer Architecture and Design\n\n              2\n              E527-01\n\n                2026年度\n\n                3rd year 1st semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  KAWANAMI Takashi, TAMURA Osamu\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Processor\n2.Circuit Design\n3.ISA\n4.Pipeline\n\n              Students will:\n(1)\tlearn the processor organization through circuit design.\n(2)\tlearn processor components.\n(3)\tlearn to design the basic processor.\n(4)\tlearn to design advanced processors with additional instructions.\n\n              授業の概要および学習上の助言\n\n              This is an advanced computer architecture course. The knowledge learned in this subject is the foundation for AI and IoT technologies. We will cover the following materials:\n\n1. Design method of logic circuits\n2. Design of processor components\n3. Design of basic processor\n4. Design of advanced processors\n\n              教科書および参考書・リザーブドブック\n\n               コンピュータアーキテクチャ[コロナ社]\n\n              履修に必要な予備知識や技能\n\n              Knowledge of radix conversion, basic knowledge of logic circuit operations such as adder, selector, and register are required. Students should also understand data flow and control flow in the processor and basic usage of the “Logisim” logic simulator.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                I,M,N\n                Be able to explain the circuit design procedures that are used in logic circuit simulators.\n\n                ②\n                I,M,N\n                Be able to design small processor components from functional specifications.\n\n                ③\n                I,M,N\n                Be able to conduct basic processor design from functional specifications.\n\n                ④\n                I,M,N\n                Be able to add instructions to the basic processor.\n\n                ⑤\n                I,M,N\n                Be able to verify a processor function using an assembler.\n\n                ⑥\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                0\n\n                0\n\n                100\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                0\n\n                0\n\n                100\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                0\n\n                0\n\n                100\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  コラボレーションとリーダーシップ\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  発表・表現・伝達する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  学習に取組む姿勢・意欲\n\n                    0\n\n                    0\n\n                    0\n\n        ",
-  "courseId": "2026:spring:E527-01:0:328",
+  "rawText": "金沢工業大学 学習支援計画書 E629-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Electrical and Electronic Engineering(2018〜)\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n情報通信ネットワーク\nNetwork Technology of Information processing and Communication  2 E629-01  2024年度\n 3rd year 1st semester  修学規程第4条を参照\n    担当教員名\n YOKOTANI Tetsuya\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.IoT 2.Communication Protocol 3.Internet 4.Network design 5.Community cooperation  Information and Communication Technology (ICT) including IoT and related technologies is an indispensable factor in the social infrastructure. Especially, in communication networks, understanding communication protocol and network configurations are important items. This course focuses on these items. Moreover, this course comes in touch with the latest trends and future directions in ICT.\n    授業の概要および学習上の助言   This course is a systems approach of fundamental technologies including \"Communication and Network system\" and \"Transmission of Electronic Information\". This course includes the following topics. (1) Overview of communication network focusing on the Internet (2) Communication protocols in each layer of the Internet reference model - Data link layer (Ethernet, Wireless LAN) - Network layer (IPv4, IPv6) - Transport layer (TCP, UDP) (3) Applications on the Internet - e-mail - Web access - File transfer, etc. (4) Basic technologies on performance analysis in networks (5) IoT services and technologies (6) The latest topics in ICT by a guest lecturer\n    教科書および参考書・リザーブドブック   Textbooks:Commercially available Japanese book Reference books:White Paper: Information and Communications in Japan, MIC, http://www.soumu.go.jp/johotsusintokei/wp_eng.html Reserved books:\n    履修に必要な予備知識や技能   Nothing\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① L Understanding summary of typical communication protocols   ② L Understanding the layered reference model   ③ L Understanding mechanisms of the Internet   ④ L Understanding the basic level of traffic theory and its applications   ⑤ L Understanding features of network topology   ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 40 40 20 0 0 0 0 100     指標と評価割合 総合評価割合 40 40 20 0 0 0 0 100   総合力指標 知識を取り込む力 40 40 20 0 0 0 0 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ Two examinations, e.g., interim and final examinations   ② レ   ③ レ   ④     ⑤     ⑥     クイズ\n小テスト ① レ Lecture note and small practice (about 10 minutes) in each class   ② レ   ③ レ   ④     ⑤     ⑥     レポート ① レ Two reports after examinations Topics in reports are selected from generic weak points in results of examinations.    ② レ   ③ レ   ④     ⑤     ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ①      ②     ③     ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     Students can explain following items with precision. (1) Key technical terms in the ICT field (2) Communication mechanisms of current networks and future directions (3) Modeling and performance evaluation techniques for networks  Students can explain roughly following items with hesitations (1) Key technical terms in the ICT field (2) Mechanisms of Ethernet, Wireless LAN and TCP/IP (3) Future directions of communication networks\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習課題に要する標準的な時間を記載してあります。日々の自学自習時間全体としては、各授業に応じた時間(例えば2単位科目の場合、予習2時間・復習2時間/週)を取るよう努めてください。詳しくは教員の指導に従って下さい。     授業明細   回数 学習内容 授業の運営方法 学習課題(予習・復習) 時間:分※     1  Introduction Overview of International standardization in ICT for interoperability i",
+  "courseId": "2024:fall:E621-01:0:328",
   "language": "en"
 }

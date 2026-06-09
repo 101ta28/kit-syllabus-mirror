@@ -1,62 +1,80 @@
 {
   "sourceIndex": 163,
   "sourceUrl": "/opsyllabus/kitos0110/163/1",
-  "importedAt": "2026-06-08T09:33:56.530Z",
-  "title": "プロジェクトデザインⅢ（森本喜隆研究室）",
-  "subtitle": "Design Project III(Morimoto Yoshitaka)",
-  "courseType": "Major ProgramMajor Project Courses",
-  "credits": "8",
-  "term": "2026年度\n\n                All year",
+  "importedAt": "2026-06-09T01:29:20.649Z",
+  "title": "3Dモデリング",
+  "subtitle": "Computer Aided Design and Modeling",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "2",
+  "term": "2024年度\n 3rd year 1st semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "MORIMOTO Yoshitaka"
+    "SAITO Hiroshi",
+    "SETO Masahiro",
+    "MORIMOTO Yoshitaka",
+    "SOGO Norio",
+    "HAYASHI Akio",
+    "SEGAWA Akio",
+    "KANEKO Yoshiyuki",
+    "KANAHIRA Katsufumi"
   ],
   "keywords": [
-    "Mechanical engineering",
-    "Vehicle system",
-    "Creation process",
-    "Energy and mechanics",
-    "Regional cooperation"
+    "3D-CAD 2.Strength and reliability design 3.Manufacturing method and accuracy 4.3-axis 2-stage helical gear reducer 5.Regional cooperation"
   ],
-  "educationalGoal": "Students will:\n(1) Learn technical mechanisms and new mechanisms required to research, develop, design, and manufacture socially useful and high-quality.\n(2) Obtain the ability to identify and solve problems in the related fields.\n(3) Learn about the importance of collaboration, particularly with local communities.",
-  "advice": "This is the final comprehensive course in the Department of Mechanical Engineering. To realize the educational objectives of the Department of Mechanical Engineering, this course focuses on the following goals:\n\nStudents will acquire the ability to model phenomena accurately and analyze the models.\nStudents will acquire the ability and the engineering sense to evaluate solutions using the obtained results.\n\nIn practice, students should reconfirm their project theme, which was determined in Preparatory Seminar, with the supervisors of the individual laboratories. (The theme should be revised as necessary.)\nStudents are expected to pursue the identification and solution of problems in accordance with the engineering process.\n\nOur laboratory develops and analyzes machine tools with new structures that enable the machining of target workpieces with nanometer accuracy, makes full use of structural analysis and positioning control technology on machine tools, and realizes high-speed and high-precision machining.\nFor this reason, we would like to help students engaging in Design Project III to always try to absorb, understand, and apply knowledge. In addition, we will conduct research jointly with local machine tool manufacturers.",
-  "books": "",
-  "requiredKnowledge": "Our laboratory aims to create new product shapes that are expected to be used in fields such as automobiles, IoT, and medical care by controlling precision positioning devices and machine tools. Your goal is to become a mechanical engineer who is familiar with measurement, control, and evaluation methods. Prior to the start of Design Project III, it is desirable to thoroughly review related courses, such as those of mathematics, machining, machining exercises, vibration analysis, and measurement engineering.",
+  "educationalGoal": "Students will learn about machine designs, including functional and performance designs, and manufacturing processes. Students also create design plans and drawings that meet the required specifications. In this course, students will create a design for strength and reliability that follows the engineering drawing, a manufacturing design that considers the manufacturing method and cost, and a draft that represents the mechanism and overall configuration utilizing the three-dimensional computer aided design (3D-CAD) system.",
+  "advice": "The main mechanism studied in this course is a three-axis two-stage helical gear reducer. We will use it to acquire the ability to systematically design machines through designing function, performance, accuracy, strength, and reliability. utilizing 3D-CAD system for embodiment of machine elements. Basically, lectures and exercises are held weekly. However, the design and drafting of assigned tasks will not be completed in the practice time during the lecture, so preparation and review as homework will be necessary. In addition, students will use the basics of Solid Edge that were taught in “Mechanical Elements Design”, “Mechanical Drawing I” and “Mechanical Drawing II” that they attended before taking this course. It is assumed that you have mastered the operating and reference methods of the JIS drawing textbook, so please check this material carefully before taking this course. The topics covered in this course are as follows: (1) Mechanical design and design process improvement; (2) Design problems, design concepts, and basic design; (3) Design problem strength, reliability of design, and detailed design; (4) 3D-CAD mechanical drawing; (5) Inspection of mechanical design problem drawings; and (6) Self-inspection and third-party evaluation of mechanical design problems.",
+  "books": "Textbooks: New JIS Mechanical Drawing (5th edition), Morikita Publishing (in Japanese), Mechanical Drawing, Kanazawa Institute of Technology (in Japanese), Helical Reducer Design, Power-sha Publishing (in Japanese), Mechanical Design of Helical Reducer (Exercise), Kanazawa Institute of Technology (in Japanese) Reference books: None Reserved books: None",
+  "requiredKnowledge": "This course is intended as a design and drafting course in the Department of Mechanical Engineering in accordance with the courses of Mechanical Principles/Exercises, Mechanical Drawing I, Mechanical Drawing II, and Mechanical Element Design. Therefore, to participate in this course, the design and CAD drawing abilities acquired in these courses are required. Before attending this course, it is recommended that you review the content acquired in previous courses. Persistent effort is necessary.",
   "activityGoals": [
     {
       "index": "①",
-      "type": "A,B,D,G,H,J-P",
-      "body": "Be able to advance your project in accordance with the engineering design process."
+      "type": "D,E,G,H,J,L,N,O",
+      "body": "Be able to understand the implementation of mechanical design, and use 3D-CAD drawings to explain design images."
     },
     {
       "index": "②",
-      "type": "A,B,D,G,H,J-P",
-      "body": "Be able to compile the results correctly into an article and discuss the content through presentations."
+      "type": "D,E,G,H,J,L,N,O",
+      "body": "Be able to carry out design calculations, such as basic design and detailed design of components."
     },
     {
       "index": "③",
-      "type": "A,B,D,G,H,J-P",
-      "body": "Be able to act independently to solve the issues presented separately."
+      "type": "D,E,G,H,J,L,N,O",
+      "body": "Be able to model a mechanism design and calculate its strength using a computer."
+    },
+    {
+      "index": "④",
+      "type": "D,E,G,H,J,L,N,O",
+      "body": "Be able to create 3D-CAD machine designs that consider manufacturing methods, according to the machine drafting"
+    },
+    {
+      "index": "⑤",
+      "type": "D,E,G,H,J,L,N,O",
+      "body": "Be able to conceive new design solutions by integrating specialized fields of mechanical engineering."
+    },
+    {
+      "index": "⑥",
+      "type": "G",
+      "body": "Be able to learn the latest technology from local engineers, and organize and discuss assignments."
     }
   ],
   "evaluationWeights": [
     {
       "label": "総合評価割合",
       "values": [
+        "20",
         "0",
         "0",
-        "50",
-        "35",
         "0",
-        "5",
-        "10",
+        "60",
+        "0",
+        "20",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -66,20 +84,20 @@
     {
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
+        "20",
         "0",
         "0",
-        "50",
-        "35",
         "0",
-        "5",
-        "10",
+        "60",
+        "0",
+        "20",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -89,20 +107,20 @@
     {
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
+        "20",
         "0",
         "0",
-        "50",
-        "35",
         "0",
-        "5",
-        "10",
+        "60",
+        "0",
+        "20",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -123,9 +141,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -133,7 +151,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -146,9 +164,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -169,9 +187,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -180,48 +198,118 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "(1) Understand the your project and the advancement process accurately, and achieve the established annual goal. In addition, the process can be reported in the Design Project Activity Support System.\n(2) Compile intermediate results for the project into the interim report, and present and discuss its content. Complete the final report, present it to the Design Project III Public Presentation Review Board, and discuss its content.\n(3) If necessary, design and manufacture your own experimental devices, and also evaluate the performance of the product.",
-    "standard": "(1) Understand the purpose of your project theme and the advancement process accurately, and achieve the established annual goal. In addition, the process can be reported in the Design Project Activity Support System.\n(2) Compile intermediate results for the project into the interim report, and present its content. Complete the final report and present it to the Design Project III Public Presentation Review Board.\n(3) Design and manufacture your own experimental devices as necessary. (The numbers in the text correspond to those of the student’s action goals.)"
+    "ideal": "(1) Understand the substance and shape of the design according to the instructions and prepare an easy-to-read assembly drawing by applying it to your own design conditions. (2) Summarize the flow of design calculations in detail using a computer. (3) Understand design modeling and strength calculations according to the instructions. (4) Perform drawing of a 3D-CAD model of lower casing in addition to a 3D-CAD assembly model consisting of axes, gears, bearing and collar. (5) In designing according to the instructions, it is possible to derive a design solution. (6) Understand the design and problem-solving techniques presented by local engineers.",
+    "standard": "(1) Understand the content and shape of the design according to the instructions. (2) Summarize the flow of design calculations with a chart using a computer and perform design calculations according to the issues. (3) Understand design modeling and strength calculations according to the instructions. (4) Perform drawing of a 3D-CAD assembly model consisting of axes, gears, bearing and collar. (5) In designing according to instructions, derive design solutions. (6) Understand the design and problem-solving techniques presented by local engineers."
   },
   "clipProcess": "",
   "lessons": [
     {
       "index": "1",
-      "content": "Course introduction",
-      "operation": "",
-      "assignments": "",
+      "content": "Outline of 3-stage 2-axis helical gear reducer. Outline of the design specifications. Outline of the design processes. Perform design calculations.",
+      "operation": "Lecture, Q&A and Practice Understand the mechanism of 3-stage 2-axis helical gear reducer. Start the design calculations.",
+      "assignments": "Preparation: ・ Make sure that Solid Edge is ready for use. ・ Understand the relationship between the educational goals of the department and this subject. Review: ・ Progress the design calculations.",
+      "minutes": "60 60"
+    },
+    {
+      "index": "2",
+      "content": "Perform design calculations.",
+      "operation": "Practice and Q&A Progress the design calculations.",
+      "assignments": "Preparation: ・ Development of calculation sheet for leading the design solutions. Review: ・ Perform design calculation based on the calculation sheet developed by each student.",
+      "minutes": "60 60"
+    },
+    {
+      "index": "3",
+      "content": "Perform design calculations.",
+      "operation": "Practice and Q&A Progress the design calculations.",
+      "assignments": "Preparation: ・ Confirm the performance of calculation sheet. Review: ・ Perform design calculation based on the calculation sheet developed by each student.",
+      "minutes": "60 60"
+    },
+    {
+      "index": "4",
+      "content": "Perform design calculations.",
+      "operation": "Practice and Q&A Progress the design calculations.",
+      "assignments": "Preparation and Review: ・ Perform design calculation based on the calculation sheet.",
+      "minutes": "60 60"
+    },
+    {
+      "index": "5",
+      "content": "Finish design calculations.",
+      "operation": "Practice and Q&A Finish the design calculations and submit the design solution.",
+      "assignments": "Preparation and Review: ・ Perform design calculation based on the calculation sheet.",
+      "minutes": "60 60"
+    },
+    {
+      "index": "6",
+      "content": "Review design solutions. Outline of 3D-CAD modelling of axes and gears.",
+      "operation": "Lecture, Q&A and Practice Review the design calculations if necessary. Start drawing of 3D-CAD models of axes and gears.",
+      "assignments": "Preparation: ・ Review the design calculations. Review: ・ Perform drawing of 3D-CAD models of axes and gears.",
+      "minutes": "60 60"
+    },
+    {
+      "index": "7",
+      "content": "Perform 3D-CAD modelling of axes and gears with reviewing design solutions.",
+      "operation": "Practice and Q&A Progress the 3D-CAD modelling of axes and gears. Review the design calculations if necessary.",
+      "assignments": "Preparation and Review: ・ Perform drawing of 3D-CAD models of axes and gears.",
+      "minutes": "60 60"
+    },
+    {
+      "index": "8",
+      "content": "Perform 3D-CAD modelling of axes and gears with reviewing design solutions.",
+      "operation": "Practice and Q&A Progress the 3D-CAD modelling of axes and gears. Review the design calculations if necessary.",
+      "assignments": "Preparation and Review: ・ Perform drawing of 3D-CAD models of axes and gears.",
+      "minutes": "60 60"
+    },
+    {
+      "index": "9",
+      "content": "Assembly 3D-CAD models. Assemble axes and gears.",
+      "operation": "Practice and Q&A Assemble axes and gears models. Review the design calculations if necessary.",
+      "assignments": "Preparation: ・ Review the textbook of Mechanical Design to confirm the assembly function. Review: ・ Perform assembly of axes and gears.",
+      "minutes": "60 60"
+    },
+    {
+      "index": "10",
+      "content": "Assembly 3D-CAD models. Assemble axes and gears.",
+      "operation": "Practice and Q&A Assemble axes and gears models. Review the design calculations if necessary.",
+      "assignments": "Preparation: ・ Review the textbook of Mechanical Design to confirm the assembly function. Review: ・ Perform assembly of axes and gears.",
+      "minutes": "60 60"
+    },
+    {
+      "index": "11",
+      "content": "Adjustment of dimensions and interferences. Review desing calculations.",
+      "operation": "Practice and Q&A Confirm dimensions and interferences between axes and gears in a assembly model. Review the design calculations if necessary.",
+      "assignments": "Preparation and Review: ・ Compare between calculation solutions and dimentions of 3D-CAD models made.",
+      "minutes": "60"
+    },
+    {
+      "index": "12",
+      "content": "Perform 3D-CAD modelling of bearings and collars .",
+      "operation": "Practice and Q&A Perform 3D-CAD modelling of bearings and collars to assemble with axes and gears.",
+      "assignments": "Preparation and Review: ・ Compare between calculation solutions and dimentions of 3D-CAD models made.",
+      "minutes": "60"
+    },
+    {
+      "index": "13",
+      "content": "Submit an assembly model. Outline of the design process of lower casing.",
+      "operation": "Lecture, Q&A and Practice Submit an assembly model consisting of axes, gears, bearings and collars. Understand the locational relationship between the assembled model and a lower casing.",
+      "assignments": "Preparation: ・ Finish assembly of all 3D-CAD models. ・ Prepare the final achievement test.",
       "minutes": ""
     },
     {
-      "index": "(April\n)",
-      "content": "Reconfirm the project proposal that was\nsubmitted in Preparatory Seminar (revise it\nas necessary)",
-      "operation": "",
-      "assignments": "",
+      "index": "14",
+      "content": "Final achievement test and explanations.",
+      "operation": "Test",
+      "assignments": "Preparation: ・ Prepare the final achievement test.",
       "minutes": ""
     },
     {
-      "index": "(Augus\nt)",
-      "content": "Submit the interim report and present it at\nthe interim report meeting",
-      "operation": "",
-      "assignments": "",
-      "minutes": ""
-    },
-    {
-      "index": "(Janua\nry)",
-      "content": "Submit the pre-print",
-      "operation": "",
-      "assignments": "",
-      "minutes": ""
-    },
-    {
-      "index": "(Febru\nary)",
-      "content": "Submit the final report and present it to the\n Design Project III Public Presentation Review\n Board",
-      "operation": "",
-      "assignments": "",
+      "index": "15",
+      "content": "Self-check for reviewing achievement.",
+      "operation": "Overall commentary and evaluation",
+      "assignments": "Review: ・ Understand the results of achievement confirmation test, and confirm the achievement goal of this course. ・ Recognize your knowledge and abilities, including knowledge gaps, and restudy course materials as necessary.",
       "minutes": ""
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　E921-14\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Mechanical Engineering(〜2024)\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Project Courses\n\n                プロジェクトデザインⅢ（森本喜隆研究室）\n                Design Project III(Morimoto Yoshitaka)\n\n              8\n              E921-14\n\n                2026年度\n\n                All year\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  MORIMOTO Yoshitaka\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Mechanical engineering\n2.Vehicle system\n3.Creation process\n4.Energy and mechanics\n5.Regional cooperation\n\n              Students will:\n(1) Learn technical mechanisms and new mechanisms required to research, develop, design, and manufacture socially useful and high-quality.\n(2) Obtain the ability to identify and solve problems in the related fields.\n(3) Learn about the importance of collaboration, particularly with local communities.\n\n              授業の概要および学習上の助言\n\n              This is the final comprehensive course in the Department of Mechanical Engineering. To realize the educational objectives of the Department of Mechanical Engineering, this course focuses on the following goals:\n\nStudents will acquire the ability to model phenomena accurately and analyze the models.\nStudents will acquire the ability and the engineering sense to evaluate solutions using the obtained results.\n\nIn practice, students should reconfirm their project theme, which was determined in Preparatory Seminar, with the supervisors of the individual laboratories. (The theme should be revised as necessary.)\nStudents are expected to pursue the identification and solution of problems in accordance with the engineering process.\n\nOur laboratory develops and analyzes machine tools with new structures that enable the machining of target workpieces with nanometer accuracy, makes full use of structural analysis and positioning control technology on machine tools, and realizes high-speed and high-precision machining.\nFor this reason, we would like to help students engaging in Design Project III to always try to absorb, understand, and apply knowledge. In addition, we will conduct research jointly with local machine tool manufacturers.\n\n              教科書および参考書・リザーブドブック\n\n              　　\n\n              履修に必要な予備知識や技能\n\n              Our laboratory aims to create new product shapes that are expected to be used in fields such as automobiles, IoT, and medical care by controlling precision positioning devices and machine tools. Your goal is to become a mechanical engineer who is familiar with measurement, control, and evaluation methods. Prior to the start of Design Project III, it is desirable to thoroughly review related courses, such as those of mathematics, machining, machining exercises, vibration analysis, and measurement engineering.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                A,B,D,G,H,J-P\n                Be able to advance your project in accordance with the engineering design process.\n\n                ②\n                A,B,D,G,H,J-P\n                Be able to compile the results correctly into an article and discuss the content through presentations.\n\n                ③\n                A,B,D,G,H,J-P\n                Be able to act independently to solve the issues presented separately.\n\n                ④\n\n                ⑤\n\n                ⑥\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                0\n\n                0\n\n                50\n\n                35\n\n                0\n\n                5\n\n                10\n\n  ",
-  "courseId": "2026:full-year:E921-14:0:163",
+  "rawText": "金沢工業大学 学習支援計画書 E040-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Mechanical Engineering\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n3Dモデリング\nComputer Aided Design and Modeling  2 E040-01  2024年度\n 3rd year 1st semester  修学規程第4条を参照\n    担当教員名\n SAITO Hiroshi, SETO Masahiro, MORIMOTO Yoshitaka, SOGO Norio, HAYASHI Akio, SEGAWA Akio, KANEKO Yoshiyuki, KANAHIRA Katsufumi\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.3D-CAD 2.Strength and reliability design 3.Manufacturing method and accuracy 4.3-axis 2-stage helical gear reducer 5.Regional cooperation  Students will learn about machine designs, including functional and performance designs, and manufacturing processes. Students also create design plans and drawings that meet the required specifications. In this course, students will create a design for strength and reliability that follows the engineering drawing, a manufacturing design that considers the manufacturing method and cost, and a draft that represents the mechanism and overall configuration utilizing the three-dimensional computer aided design (3D-CAD) system.\n    授業の概要および学習上の助言   The main mechanism studied in this course is a three-axis two-stage helical gear reducer. We will use it to acquire the ability to systematically design machines through designing function, performance, accuracy, strength, and reliability. utilizing 3D-CAD system for embodiment of machine elements. Basically, lectures and exercises are held weekly. However, the design and drafting of assigned tasks will not be completed in the practice time during the lecture, so preparation and review as homework will be necessary. In addition, students will use the basics of Solid Edge that were taught in “Mechanical Elements Design”, “Mechanical Drawing I” and “Mechanical Drawing II” that they attended before taking this course. It is assumed that you have mastered the operating and reference methods of the JIS drawing textbook, so please check this material carefully before taking this course. The topics covered in this course are as follows: (1) Mechanical design and design process improvement; (2) Design problems, design concepts, and basic design; (3) Design problem strength, reliability of design, and detailed design; (4) 3D-CAD mechanical drawing; (5) Inspection of mechanical design problem drawings; and (6) Self-inspection and third-party evaluation of mechanical design problems.\n    教科書および参考書・リザーブドブック   Textbooks: New JIS Mechanical Drawing (5th edition), Morikita Publishing (in Japanese), Mechanical Drawing, Kanazawa Institute of Technology (in Japanese), Helical Reducer Design, Power-sha Publishing (in Japanese), Mechanical Design of Helical Reducer (Exercise), Kanazawa Institute of Technology (in Japanese) Reference books: None Reserved books: None\n    履修に必要な予備知識や技能   This course is intended as a design and drafting course in the Department of Mechanical Engineering in accordance with the courses of Mechanical Principles/Exercises, Mechanical Drawing I, Mechanical Drawing II, and Mechanical Element Design. Therefore, to participate in this course, the design and CAD drawing abilities acquired in these courses are required. Before attending this course, it is recommended that you review the content acquired in previous courses. Persistent effort is necessary.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① D,E,G,H,J,L,N,O Be able to understand the implementation of mechanical design, and use 3D-CAD drawings to explain design images.   ② D,E,G,H,J,L,N,O Be able to carry out design calculations, such as basic design and detailed design of components.   ③ D,E,G,H,J,L,N,O Be able to model a mechanism design and calculate its strength using a computer.   ④ D,E,G,H,J,L,N,O Be able to create 3D-CAD machine designs that consider manufacturing methods, according to the machine drafting    ⑤ D,E,G,H,J,L,N,O Be able to conceive new design solutions by integrating specialized fields of mechanical engineering.   ⑥ G ",
+  "courseId": "2024:spring:E030-01:0:163",
   "language": "en"
 }

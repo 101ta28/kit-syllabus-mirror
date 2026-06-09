@@ -1,29 +1,25 @@
 {
   "sourceIndex": 100,
   "sourceUrl": "/opsyllabus/kitos0110/100/1",
-  "importedAt": "2026-06-08T09:33:55.113Z",
-  "title": "プロジェクトデザイン実践（実験）（ロボティクス学科）",
-  "subtitle": "Design Project / Implementing and Operating",
-  "courseType": "Design Project ProgramDesign Project CoursesDesign Project",
+  "importedAt": "2026-06-09T01:29:20.185Z",
+  "title": "プロジェクトデザイン入門(実験)(環境土木工学科)",
+  "subtitle": "Design Project / Introduction",
+  "courseType": "Design Project Program\nDesign Project Courses\nDesign Project",
   "credits": "2",
-  "term": "2026年度\n\n                2nd year 2nd semester",
+  "term": "2024年度\n 1st year 1st semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "ITO Kouhei",
-    "FURUYA Shigehiko",
-    "DEMURA Kosei"
+    "SHIN Masako",
+    "HANAOKA Daishin",
+    "TAKAHASHI Shigeki"
   ],
   "keywords": [
-    "Verification process",
-    "Effectiveness of problem-solving proposals",
-    "Data science",
-    "Presentation",
-    "PBL for science and technology"
+    "Verification process 2.Problem-solving process 3.Basic skills 4.Data handling skills 5.PBL for science and technology"
   ],
-  "educationalGoal": "-To gain skills to verify hypotheses or solution concept with logical approaches.\n-To understand phenomena, objects and events quantitatively with high credibility.\n-To reliably find characteristics and laws of phenomena, objects, events.\n-To deliver the above information to a third person intelligibly.\n-To gain basic skills to credibly and smoothly conduct verification activities.\n-To have an image of the technology fields and engineers in the discipline.",
-  "advice": "The Department of Robotics will set up competitions that are arranged for the Robotics Department with the theme of the ET Robot Contest. Its purpose is to develop embedded engineers. Firstly, students will learn analysis and design methods based on modeling. Secondly, students will develop and verify robots based on the learning results so far. At the same time, this course will build a motivation for specialized fundamental subjects.\n[Verification of the solution proposal] Students will acquire the knowledge and skills necessary to verify the effectiveness of the solution proposal and create verification models, devices, programs, etc., while devising them by themselves. They will try the validation process and check its validity.\n[Solution Proposal Redesign] Based on the results of evaluating the effectiveness of the solution, students will examine how to deal with new issues. They will discuss ideas for improvement, and think about revisions. Students will repeat the revision and evaluation, and proceed with the design of the revised solution. Students will repeat the review and summarize the results as a final design.\n[Activity report] Regardless of whether or not the solution proposals are valid, the results of the project activities are compiled into a project report. Students will present their results at the poster session.",
-  "books": "Handouts",
-  "requiredKnowledge": "Beginner-level knowledge of C language",
+  "educationalGoal": "・To gain the basic skills needed in processes from finding problems to solutions. ・To understand phenomena, objects, and events quantitatively and qualitatively. ・To be able to find characteristics and laws of phenomena, objects, and events. ・To be able to deliver the above information to a third person intelligibly. ・To gain various basic skills needed to proceed smoothly with verification activities.",
+  "advice": "In this course, to achieve the above educational goals, the students will learn the basic skills required for verification and problem-solving processes. This course will deal with characteristic things of the corresponding department. One is that the students will learn the basic “data-handling skills” needed for data collection → organization → analysis→ hypothesis testing→ visualization → reporting. One is that the students will learn the basic skills of “PBL for science and technology” including the basic elements of processes from problem-finding to solution and verification activities. For “data-handling skills”, conduct a compressive strength test of mortar and conduct ground liquefaction experiments. For “PBL for science and technology”, we will work on the production of high-strength mortar and a ground model where liquefaction is active. The course focuses on the following two points. (1) Think and actively engage in team activities while receiving instruction from a teacher. (2) Plan and carry out experiments and verification activities according to the purpose, while giving consideration to safety and health.",
+  "books": "土木材料、地盤工学に関する図書",
+  "requiredKnowledge": "Basic knowledge of mathematics, physics, safety, and health learned in higher education.",
   "activityGoals": [
     {
       "index": "①",
@@ -33,12 +29,12 @@
     {
       "index": "②",
       "type": "D",
-      "body": "To be able to understand phenomena, objectives, and events quantitatively and qualitatively."
+      "body": "To be able to understand phenomena, objects, and events quantitatively and qualitatively"
     },
     {
       "index": "③",
       "type": "D",
-      "body": "To be able to find characteristics, features, and laws of phenomena, objects, and events."
+      "body": "To be able to find characteristics, features, and laws of phenomena, objects, and events"
     },
     {
       "index": "④",
@@ -61,19 +57,19 @@
       "label": "総合評価割合",
       "values": [
         "0",
-        "48",
-        "20",
-        "20",
+        "15",
+        "40",
+        "15",
         "0",
-        "2",
-        "10",
+        "0",
+        "30",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -84,19 +80,19 @@
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
         "0",
-        "48",
-        "20",
-        "20",
+        "15",
+        "40",
+        "15",
         "0",
-        "2",
-        "10",
+        "0",
+        "30",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -107,19 +103,19 @@
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
         "0",
-        "48",
-        "20",
-        "20",
+        "15",
+        "40",
+        "15",
         "0",
-        "2",
-        "10",
+        "0",
+        "30",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -140,9 +136,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -150,7 +146,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -163,9 +159,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -186,9 +182,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -197,118 +193,118 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "1) To proceed with verification processes for hypotheses and solution concepts.\n2) To quantitatively and qualitatively recognize phenomena, objects, and events and organize information.\n3) To find and understand features, characteristics, and regularities of corresponding phenomena, objects, and events.\n4) To communicate acquired information to a third person intelligibly.\n5) To smoothly conduct verification activities.\n6) To become aware of your specialties and imagine the technological fields and engineers.",
-    "standard": "1) To proceed with verification processes for hypotheses and solution concepts with guidance.\n2) To quantitatively and qualitatively recognize phenomena, objects, and events and organize the information with guidance from the instructor.\n3) To find and understand characteristics and regularities of phenomena, objects, etc., with guidance.\n4) To share acquired information to third person.\n5) To smoothly conduct verification activities with guidance from the instructor.\n6) To recognize your specialties and imagine the technological fields and engineers with guidance."
+    "ideal": "① To be able to proceed with activities from problem-finding to solution. ② To be able to quantitatively and qualitatively recognize phenomena, objects, and events. ③To be able to communicate acquired information to a third person intelligibly. ④ To be able to smoothly conduct verification activities independently. ⑤ To be able to recognize the identity of the major (department) and be proud.",
+    "standard": "① To be able to proceed with activities from problem-finding to solution with guidance from the instructor. ② To be able to quantitatively and qualitatively recognize phenomena, objects, and events with guidance from the instructor. ③ To be able to communicate acquired information to a third person. ④ To be able to conduct verification activities with guidance from the instructor. ⑤ To be able to recognize the identity of the major and be proud with guidance from the instructor."
   },
   "clipProcess": "",
   "lessons": [
     {
       "index": "1,2",
-      "content": "Course introduction\nInstallation of a development environment",
-      "operation": "Lecture and practice",
-      "assignments": "[Individual assignments]\nPreview: None\nReview: Finish the\ninstallation",
-      "minutes": "100"
+      "content": "Guidance Safety training",
+      "operation": "Guidance Safety training",
+      "assignments": "Safety training report Preparation for next week's experiment",
+      "minutes": "60"
     },
     {
       "index": "3,4",
-      "content": "TOPPERS/ programming practice\n(sensor)",
-      "operation": "Flipped classroom",
-      "assignments": "Review: Lecture content\nPreview: Information will be p\nosted on Moodle.",
-      "minutes": "100"
+      "content": "Group A: Lecture, experiment (Cement material) Group B: Lecture, experiment Slope stability)",
+      "operation": "Group A: Lecture, experiment (Cement material) Group B: Lecture, experiment (Slope stability)",
+      "assignments": "Review of lecture content Preparation for next week's experiment",
+      "minutes": "120"
     },
     {
       "index": "5,6",
-      "content": "TOPPERS/ programming practice\n(sensor)",
-      "operation": "Flipped classroom",
-      "assignments": "Review: Lecture content\nPreview: Information will be p\nosted on Moodle.",
-      "minutes": "100"
+      "content": "Group A: Lecture, experiment (Cement material) Group B: Lecture, experiment Slope stability)",
+      "operation": "Group A: Lecture, experiment (Cement material) Group B: Lecture, experiment (Slope stability)",
+      "assignments": "Organize experimental results (Graphs, tables, etc.)",
+      "minutes": "120"
     },
     {
       "index": "7,8",
-      "content": "TOPPERS/ programming practice\n(motor)",
-      "operation": "Flipped classroom",
-      "assignments": "Review: Lecture content\nPreview: Information will be p\nosted on Moodle.",
-      "minutes": "100"
+      "content": "Group A: Lecture, experiment (Slope stability) Group B: Lecture, experiment (Cement material)",
+      "operation": "Group A: Lecture, experiment (Slope stability) Group B: Lecture, experiment (Cement material)",
+      "assignments": "Review of lecture content Preparation for next week's experiment",
+      "minutes": "120"
     },
     {
       "index": "9,10",
-      "content": "TOPPERS/ programming practice\n(multi-task)",
-      "operation": "Flipped classroom",
-      "assignments": "Review: Lecture content\nPreview: Information will be p\nosted on Moodle.",
-      "minutes": "100"
+      "content": "Group A: Lecture, experiment (Slope stability) Group B: Lecture, experiment (Cement material)",
+      "operation": "Group A: Lecture, experiment (Slope stability) Group B: Lecture, experiment (Cement material)",
+      "assignments": "Organize experimental results (Graphs, tables, etc.)",
+      "minutes": "120"
     },
     {
       "index": "11,12",
-      "content": "TOPPERS/ programming practice\n(cyclic-task)",
-      "operation": "Flipped classroom",
-      "assignments": "Review: Lecture content\nPreview: Information will be p\nosted on Moodle.",
-      "minutes": "100"
+      "content": "Creating an experiment report",
+      "operation": "Lectures and exercises related to report creation",
+      "assignments": "Review on how to write reports",
+      "minutes": "120"
     },
     {
       "index": "13,14",
-      "content": "State transition practice",
-      "operation": "Flipped classroom",
-      "assignments": "Review: Lecture content\nPreview: Information will be p\nosted on Moodle.\n[Team assignments]\nCreate the team technical\nreport",
-      "minutes": "100"
+      "content": "Presentation of mission-type experiment theme",
+      "operation": "Planning for each experimental theme",
+      "assignments": "Planning for each experimental theme",
+      "minutes": "120"
     },
     {
       "index": "15,16",
-      "content": "Analysis and design of a control program",
-      "operation": "Flipped classroom",
-      "assignments": "Review: Lecture content\nPreview: Information will be p\nosted on Moodle.\n[Team assignments]\nCreate the team technical\nreport",
-      "minutes": "100"
+      "content": "In-situ Study of construction projects. ※Conducted somewhere in 15 weeks",
+      "operation": "Site tour",
+      "assignments": "Construction site report",
+      "minutes": "150"
     },
     {
       "index": "17,18",
-      "content": "Development for competition 1\nTrial",
-      "operation": "Lecture and\nTeam activities",
-      "assignments": "Review: Lecture content\nPreview: Information will be p\nosted on Moodle.\n[Team assignments]\nCreate the team technical\nreport",
-      "minutes": "100"
+      "content": "Mission-type experiment theme Group A: Lecture, experiment (Cement material) Group B: site selection prepare to site study (Measures against traffic accidents)",
+      "operation": "Lecture Experiment Grope discussion",
+      "assignments": "Recording and analysis of experiments and practice activities",
+      "minutes": "120"
     },
     {
       "index": "19,20",
-      "content": "Competition 1",
-      "operation": "Team activities",
-      "assignments": "Review: Lecture content\nPreview: Information will be p\nosted on Moodle.\n[Team assignments]\nCreate the team technical\nreport",
-      "minutes": "100"
+      "content": "Mission-type experiment theme Group A: Lecture, experiment (Cement material) Group B: site check for the current status and propose some effective measures against traffic accidents",
+      "operation": "Lecture Experiment Site study",
+      "assignments": "Recording and analysis of experiments and practice activities",
+      "minutes": "120"
     },
     {
       "index": "21,22",
-      "content": "Introduction to competition 2",
-      "operation": "Lecture and\nTeam activities",
-      "assignments": "Review: Lecture content\nPreview: Information will be p\nosted on Moodle.\n[Team assignments]\nCreate the team poster",
-      "minutes": "100"
+      "content": "Mission-type experiment theme Group A: site selection prepare to site study (Measures against traffic accidents) Group B: Lecture, experiment (Cement material)",
+      "operation": "Grope discussion Lecture Experiment",
+      "assignments": "Recording and analysis of experiments and practice activities",
+      "minutes": "120"
     },
     {
       "index": "23,24",
-      "content": "Development for competition 2",
-      "operation": "Team activities",
-      "assignments": "Review: Lecture content\nPreview: Information will be p\nosted on Moodle.\n[Team assignments]\nCreate the team poster",
-      "minutes": "100"
+      "content": "Mission-type experiment theme Group A: Lecture, experiment (Measures against traffic accidents) Group B: site check for the current status and propose some effective measures against traffic accidents",
+      "operation": "Site study Lecture Experiment",
+      "assignments": "Recording and analysis of experiments and practice activities",
+      "minutes": "120"
     },
     {
       "index": "25,26",
-      "content": "Development for competition 2\nTrial",
-      "operation": "Team activities",
-      "assignments": "Review: Lecture content\nPreview: Information will be p\nosted on Moodle.\n[Team assignments]\nCreate the team poster",
-      "minutes": "100"
+      "content": "Creating an experiment report",
+      "operation": "Lectures and exercises related to report creation",
+      "assignments": "Review on how to write reports",
+      "minutes": "150"
     },
     {
       "index": "27,28",
-      "content": "Competition 2",
-      "operation": "Team activities",
-      "assignments": "Review: Lecture content\nPreview: Information will be p\nosted on Moodle.\n[Team assignments]\nCreate the team poster",
-      "minutes": "100"
+      "content": "Creating posters (lectures/practices)",
+      "operation": "Creating posters (lectures/practices)",
+      "assignments": "Creating posters",
+      "minutes": "120"
     },
     {
       "index": "29,30",
-      "content": "Poster presentation\nReview",
-      "operation": "Team activities",
-      "assignments": "Review: Lecture content\nPreview: Information will be p\nosted on Moodle.\nReview the course",
-      "minutes": "100"
+      "content": "Poster session Review",
+      "operation": "Poster session",
+      "assignments": "Review of poster session",
+      "minutes": "120"
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　G253-03\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Design Project Program\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Design Project ProgramDesign Project CoursesDesign Project\n\n                プロジェクトデザイン実践（実験）（ロボティクス学科）\n                Design Project / Implementing and Operating\n\n              2\n              G253-03\n\n                2026年度\n\n                2nd year 2nd semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  ITO Kouhei, FURUYA Shigehiko, DEMURA Kosei\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Verification process\n2.Effectiveness of problem-solving proposals\n3.Data science\n4.Presentation\n5.PBL for science and technology\n\n              -To gain skills to verify hypotheses or solution concept with logical approaches.\n-To understand phenomena, objects and events quantitatively with high credibility.\n-To reliably find characteristics and laws of phenomena, objects, events.\n-To deliver the above information to a third person intelligibly.\n-To gain basic skills to credibly and smoothly conduct verification activities.\n-To have an image of the technology fields and engineers in the discipline.\n\n              授業の概要および学習上の助言\n\n              The Department of Robotics will set up competitions that are arranged for the Robotics Department with the theme of the ET Robot Contest. Its purpose is to develop embedded engineers. Firstly, students will learn analysis and design methods based on modeling. Secondly, students will develop and verify robots based on the learning results so far. At the same time, this course will build a motivation for specialized fundamental subjects.\n[Verification of the solution proposal] Students will acquire the knowledge and skills necessary to verify the effectiveness of the solution proposal and create verification models, devices, programs, etc., while devising them by themselves. They will try the validation process and check its validity.\n[Solution Proposal Redesign] Based on the results of evaluating the effectiveness of the solution, students will examine how to deal with new issues. They will discuss ideas for improvement, and think about revisions. Students will repeat the revision and evaluation, and proceed with the design of the revised solution. Students will repeat the review and summarize the results as a final design.\n[Activity report] Regardless of whether or not the solution proposals are valid, the results of the project activities are compiled into a project report. Students will present their results at the poster session.\n\n              教科書および参考書・リザーブドブック\n\n              Handouts\n\n              履修に必要な予備知識や技能\n\n              Beginner-level knowledge of C language\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                G,F\n                To be able to proceed with activities from finding problems to solutions.\n\n                ②\n                D\n                To be able to understand phenomena, objectives, and events quantitatively and qualitatively.\n\n                ③\n                D\n                To be able to find characteristics, features, and laws of phenomena, objects, and events.\n\n                ④\n                E\n                To be able to deliver acquired information to a third person intelligibly.\n\n                ⑤\n                F\n                To be able to utilize various basic skills needed to proceed smoothly with verification activities.\n\n                ⑥\n                A\n                To be able to have a picture of the technology fields and engineers in the discipline.\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n      ",
-  "courseId": "2026:fall:G253-03:0:100",
+  "rawText": "金沢工業大学 学習支援計画書 G250-06\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDesign Project Program\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Design Project Program\nDesign Project Courses\nDesign Project\nプロジェクトデザイン入門(実験)(環境土木工学科)\nDesign Project / Introduction  2 G250-06  2024年度\n 1st year 1st semester  修学規程第4条を参照\n    担当教員名\n SHIN Masako, HANAOKA Daishin, TAKAHASHI Shigeki\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Verification process 2.Problem-solving process 3.Basic skills 4.Data handling skills 5.PBL for science and technology  ・To gain the basic skills needed in processes from finding problems to solutions. ・To understand phenomena, objects, and events quantitatively and qualitatively. ・To be able to find characteristics and laws of phenomena, objects, and events. ・To be able to deliver the above information to a third person intelligibly. ・To gain various basic skills needed to proceed smoothly with verification activities.\n    授業の概要および学習上の助言   In this course, to achieve the above educational goals, the students will learn the basic skills required for verification and problem-solving processes. This course will deal with characteristic things of the corresponding department. One is that the students will learn the basic “data-handling skills” needed for data collection → organization → analysis→ hypothesis testing→ visualization → reporting. One is that the students will learn the basic skills of “PBL for science and technology” including the basic elements of processes from problem-finding to solution and verification activities. For “data-handling skills”, conduct a compressive strength test of mortar and conduct ground liquefaction experiments. For “PBL for science and technology”, we will work on the production of high-strength mortar and a ground model where liquefaction is active. The course focuses on the following two points. (1) Think and actively engage in team activities while receiving instruction from a teacher. (2) Plan and carry out experiments and verification activities according to the purpose, while giving consideration to safety and health.\n    教科書および参考書・リザーブドブック   土木材料、地盤工学に関する図書\n    履修に必要な予備知識や技能   Basic knowledge of mathematics, physics, safety, and health learned in higher education.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① G,F To be able to proceed with activities from finding problems to solutions.   ② D To be able to understand phenomena, objects, and events quantitatively and qualitatively   ③ D To be able to find characteristics, features, and laws of phenomena, objects, and events   ④ E To be able to deliver acquired information to a third person intelligibly.   ⑤ F To be able to utilize various basic skills needed to proceed smoothly with verification activities.   ⑥ A To be able to have a picture of the technology fields and engineers in the discipline.\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 0 15 40 15 0 0 30 100     指標と評価割合 総合評価割合 0 15 40 15 0 0 30 100   総合力指標 知識を取り込む力 0 15 40 15 0 0 30 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ①      ②     ③     ④     ⑤     ⑥     クイズ\n小テスト ① レ Evaluation of the contents of the assignment sheet.   ② レ   ③ レ   ④     ⑤     ⑥     レポート ①   ・Team report ・Report completed by team ・Personal report ・Les Experiment reports,[Please confirm name \"Les Experiment\".] site tour reports, etc. Evaluation of the contents compiled in the report.    ② レ   ③ レ   ④ レ   ⑤ レ   ⑥ レ   成果発表\n(口頭・実技) ①   Evaluated of the contents of the poster session, such as the degree of completion of the poster, ingenuity to express ideas easily, and questions and answers.   ②     ③     ④ レ   ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ① レ ・Current status of individual issues and activities ・Approach to team activities ・Active attit",
+  "courseId": "2024:fall:G229-01:0:100",
   "language": "en"
 }

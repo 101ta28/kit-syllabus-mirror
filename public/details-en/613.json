@@ -1,34 +1,38 @@
 {
   "sourceIndex": 613,
   "sourceUrl": "/opsyllabus/kitos0110/613/1",
-  "importedAt": "2026-06-08T09:34:05.614Z",
-  "title": "プログラミング基礎Ⅱ",
-  "subtitle": "Programming Basics II",
-  "courseType": "Major ProgramMajor Courses",
+  "importedAt": "2026-06-09T01:29:24.750Z",
+  "title": "心理学概論A",
+  "subtitle": "Introduction to Psychology A",
+  "courseType": "Major Program\nMajor Courses",
   "credits": "2",
-  "term": "2026年度\n\n                1st year 2nd semester",
+  "term": "2024年度\n 1st year 1st semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "FUJIKI Nobuaki"
+    "KAWASHIMA Tomoya"
   ],
   "keywords": [
-    "Programming",
-    "C programming language"
+    "Perception 2.Behavior 3.Learning 4.Cognition"
   ],
-  "educationalGoal": "Students will learn the basics of the C programming language, as computer programs are essential for developing robots, particularly for implementing motion control and environmental information acquisition.",
-  "advice": "This is a basic course in the C programming language. We will cover the following topics:\n1.\tPointers\n2.\tApplications of arrays and pointers\n3.\tStructures, unions, and enumerations\n4.\tFile input/output\n\nStudents are expected to actively participate in class.\nStudents are expected to complete exercises independently.\nStudents are required to bring their own laptop computers for use in exercises.\nStudents are required to be aware of the instructor's messages in the class and to check for messages/materials on the KIT Inside website before every class, as the course schedule may change depending on the class progress.",
-  "books": "Textbooks: ISBN 978-4-7973-9258-6 (in Japanese).",
-  "requiredKnowledge": "Completion of “Programming Basics I.”\nAbility to type efficiently.",
+  "educationalGoal": "In this course, students will: (1) learn the whole picture of psychology. (2) learn in areas such as sensation, perception, memory, cognition, learning, and thinking. (3) learn about the history of psychology and research methods. (4) acquire the ability to apply psychology.",
+  "advice": "This course is required for Certified Public Psychologists. Students learn the big picture of psychology and understand the interrelationships of the psychology classes they will study in the future. Psychology is a scientific study of \"mind\", a study that focuses on issues that are closely related to our daily lives, and students should understand the content of the classes in relation to the various phenomena experienced in everyday life, and encourage them to study while being aware that they will be used in everyday activities. The progress and content of the classes will be adjusted according to the understanding of the content of the classes.",
+  "books": "「Psychology」 Toudai shuppannkai",
+  "requiredKnowledge": "None",
   "activityGoals": [
     {
       "index": "①",
-      "type": "J",
-      "body": "Understand how a basic C program works."
+      "type": "I",
+      "body": "Ability to list some areas being studied in psychology."
     },
     {
       "index": "②",
-      "type": "J",
-      "body": "Create a basic C program."
+      "type": "I",
+      "body": "Ability to explain basic keywords of psychology."
+    },
+    {
+      "index": "③",
+      "type": "K,L",
+      "body": "Ability to think of what you have learned in psychology classes in the context of everyday life."
     }
   ],
   "evaluationWeights": [
@@ -36,19 +40,19 @@
       "label": "総合評価割合",
       "values": [
         "40",
-        "0",
-        "60",
-        "0",
+        "50",
         "0",
         "0",
         "0",
+        "0",
+        "10",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -59,19 +63,19 @@
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
         "40",
-        "0",
-        "60",
-        "0",
+        "50",
         "0",
         "0",
         "0",
+        "0",
+        "10",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -82,19 +86,19 @@
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
         "40",
-        "0",
-        "60",
-        "0",
+        "50",
         "0",
         "0",
         "0",
+        "0",
+        "10",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -115,9 +119,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -125,7 +129,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -138,9 +142,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -161,9 +165,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -172,118 +176,118 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "Understand sufficiently how a C program works and create a C program at will.",
-    "standard": "Understand how a basic C program works and create a basic C program."
+    "ideal": "explain what kind of discipline is psychology and what kind of research area psychology has in their field.",
+    "standard": "understand what kind of discipline is psychology and what kind of research area psychology has in their field."
   },
   "clipProcess": "",
   "lessons": [
     {
       "index": "1",
-      "content": "Course introduction\nTextbook Lesson 7, “Arrays” (Review of\n“Programming Basics I”)\nSelf-check",
-      "operation": "Lecture (including Q&A)\nand exercises\n\nSelf-check",
-      "assignments": "Preview: Read the indicated\ntextbook lesson\nReview: Understand the\nclass content",
-      "minutes": "30\n\n60"
+      "content": "Course introduction. What is psychology?",
+      "operation": "Lecture Self-check",
+      "assignments": "Review the class",
+      "minutes": "60"
     },
     {
       "index": "2",
-      "content": "Textbook Lesson 8, “Functions” (Review of\n“Programming Basics I”)\nSelf-check",
-      "operation": "Lecture (including Q&A)\nand exercises\nSelf-check",
-      "assignments": "Preview: Read the indicated\ntextbook lesson\nReview: Understand the\nclass content",
-      "minutes": "30\n\n60"
+      "content": "basic patterns of behavior",
+      "operation": "Lecture Self-check",
+      "assignments": "Review the class",
+      "minutes": "60"
     },
     {
       "index": "3",
-      "content": "Textbook Lesson 9, “Pointers” (Sections 9.1\nand 9.2)\nSelf-check",
-      "operation": "Lecture (including Q&A)\nand exercises\nSelf-check",
-      "assignments": "Preview: Read the indicated\ntextbook sections\nReview: Understand the\nclass content",
-      "minutes": "30\n\n60"
+      "content": "Senses and perceptions 1",
+      "operation": "Lecture Quiz Self-check",
+      "assignments": "Review the class",
+      "minutes": "60"
     },
     {
       "index": "4",
-      "content": "Textbook Lesson 9, “Pointers” (Section 9.3)\n\nSelf-check",
-      "operation": "Lecture (including Q&A)\nand exercises\nSelf-check",
-      "assignments": "Preview: Read the indicated\ntextbook section\nReview: Understand the\nclass content",
-      "minutes": "30\n\n60"
+      "content": "Senses and perceptions 2",
+      "operation": "Lecture Self-check",
+      "assignments": "Review the class",
+      "minutes": "60"
     },
     {
       "index": "5",
-      "content": "Textbook Lesson 10, “Applications of arrays and\npointers” (Sections 10.1 and 10.2)\nSelf-check",
-      "operation": "Lecture (including Q&A)\nand exercises\nSelf-check",
-      "assignments": "Preview: Read the indicated\ntextbook sections\nReview: Understand the\nclass content",
-      "minutes": "30\n\n60"
+      "content": "Senses and perceptions 3",
+      "operation": "Lecture Quiz Self-check",
+      "assignments": "Review the class",
+      "minutes": "60"
     },
     {
       "index": "6",
-      "content": "Textbook Lesson 10, “Applications of arrays and\npointers” (Sections 10.3 and 10.4)\nSelf-check",
-      "operation": "Lecture (including Q&A)\nand exercises\nSelf-check",
-      "assignments": "Preview: Read the indicated\ntextbook sections\nReview: Understand the\nclass content",
-      "minutes": "30\n\n60"
+      "content": "Learning 1",
+      "operation": "Lecture Self-check",
+      "assignments": "Review the class",
+      "minutes": "60"
     },
     {
       "index": "7",
-      "content": "Textbook Lesson 10, “Applications of arrays and\npointers” (Section 10.5)\nSelf-check",
-      "operation": "Lecture (including Q&A)\nand exercises\nSelf-check",
-      "assignments": "Preview: Read the indicated\ntextbook section\nReview: Understand the\nclass content",
-      "minutes": "30\n\n60"
+      "content": "Learning 2",
+      "operation": "Lecture Self-check",
+      "assignments": "Review the class",
+      "minutes": "60"
     },
     {
       "index": "8",
-      "content": "Textbook Lesson 11, “Various types” (Sections\n11.1 through 11.3)\nSelf-check",
-      "operation": "Lecture (including Q&A)\nand exercises\nSelf-check",
-      "assignments": "Preview: Read the indicated\ntextbook sections\nReview: Understand the\nclass content",
-      "minutes": "30\n\n60"
+      "content": "Learning 3",
+      "operation": "Lecture Quiz Self-check",
+      "assignments": "Review the class",
+      "minutes": "60"
     },
     {
       "index": "9",
-      "content": "Textbook Lesson 11, “Various types” (Sections\n11.4 through 11.6)\nSelf-check",
-      "operation": "Lecture (including Q&A)\nand exercises\nSelf-check",
-      "assignments": "Preview: Read the indicated\ntextbook sections\nReview: Understand the\nclass content",
-      "minutes": "30\n\n60"
+      "content": "Intermediate exam",
+      "operation": "examination Self-check",
+      "assignments": "Review the class",
+      "minutes": "60"
     },
     {
       "index": "10",
-      "content": "Textbook Lesson 12, “File input/output”\n(Sections 12.1 through 12.3)\nSelf-check",
-      "operation": "Lecture (including Q&A)\nand exercises\nSelf-check",
-      "assignments": "Preview: Read the indicated\ntextbook sections\nReview: Understand the\nclass content",
-      "minutes": "30\n\n60"
+      "content": "Cognition and Memory 1",
+      "operation": "Lecture Self-check",
+      "assignments": "Review the class",
+      "minutes": "60"
     },
     {
       "index": "11",
-      "content": "Textbook Lesson 12, “File input/output”\n(Sections 12.4 through 12.6)\nSelf-check",
-      "operation": "Lecture (including Q&A)\nand exercises\nSelf-check",
-      "assignments": "Preview: Read the indicated\ntextbook sections\nReview: Understand the\nclass content",
-      "minutes": "30\n\n60"
+      "content": "Cognition and Memory 2",
+      "operation": "Lecture Self-check",
+      "assignments": "Review the class",
+      "minutes": "60"
     },
     {
       "index": "12",
-      "content": "Exercises\nSelf-check",
-      "operation": "Exercises\nSelf-check",
-      "assignments": "Preview: Review the content of\nclasses 1-11\nReview: Understand the\nclass content",
-      "minutes": "90\n\n90"
+      "content": "Thinking and language 1",
+      "operation": "Lecture Self-check",
+      "assignments": "Review the class",
+      "minutes": "60"
     },
     {
       "index": "13",
-      "content": "Exercises\nSelf-check",
-      "operation": "Exercises\nSelf-check",
-      "assignments": "Preview: Review the content of\nclasses 1-12\nReview: Understand the\nclass content",
-      "minutes": "90\n\n90"
+      "content": "Thinking and language 2",
+      "operation": "Lecture Quiz Self-check",
+      "assignments": "Review the class",
+      "minutes": "60"
     },
     {
       "index": "14",
-      "content": "Exercises\nSemester final examination\nSelf-check",
-      "operation": "Exercises\nExamination\nSelf-check",
-      "assignments": "Preview: Review the content of\nclasses 1-13",
-      "minutes": "180"
+      "content": "Summary of the course Final exam",
+      "operation": "Exam",
+      "assignments": "Review the exam",
+      "minutes": "60"
     },
     {
       "index": "15",
-      "content": "Review of the semester final examination\nSelf-check",
-      "operation": "Lecture (including Q&A)\nSelf-check",
-      "assignments": "Review: Review the content of\nthe semester final examination",
-      "minutes": "90"
+      "content": "Review the final exam",
+      "operation": "Discussion",
+      "assignments": "Review the whole class",
+      "minutes": "60"
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　C209-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Robotics\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                プログラミング基礎Ⅱ\n                Programming Basics II\n\n              2\n              C209-01\n\n                2026年度\n\n                1st year 2nd semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  FUJIKI Nobuaki\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Programming\n2.C programming language\n\n              Students will learn the basics of the C programming language, as computer programs are essential for developing robots, particularly for implementing motion control and environmental information acquisition.\n\n              授業の概要および学習上の助言\n\n              This is a basic course in the C programming language. We will cover the following topics:\n1.\tPointers\n2.\tApplications of arrays and pointers\n3.\tStructures, unions, and enumerations\n4.\tFile input/output\n\nStudents are expected to actively participate in class.\nStudents are expected to complete exercises independently.\nStudents are required to bring their own laptop computers for use in exercises.\nStudents are required to be aware of the instructor's messages in the class and to check for messages/materials on the KIT Inside website before every class, as the course schedule may change depending on the class progress.\n\n              教科書および参考書・リザーブドブック\n\n              Textbooks: ISBN 978-4-7973-9258-6 (in Japanese).\n\n              履修に必要な予備知識や技能\n\n              Completion of “Programming Basics I.”\nAbility to type efficiently.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                J\n                Understand how a basic C program works.\n\n                ②\n                J\n                Create a basic C program.\n\n                ③\n\n                ④\n\n                ⑤\n\n                ⑥\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                40\n\n                0\n\n                60\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                40\n\n                0\n\n                60\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                40\n\n                0\n\n                60\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  コラボレーションとリーダーシップ\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  発表・表現・伝達する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  学習に取組む姿勢・意欲\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n        ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n\n              評価の要点\n\n              評価方法\n              行動目標\n              評価の実施方法と注意点\n\n                    試験\n\n                    ①\n                    レ\n                    A sem",
-  "courseId": "2026:fall:C209-01:0:613",
+  "rawText": "金沢工業大学 学習支援計画書 F303-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Psychological Science(2018〜)\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n心理学概論A\nIntroduction to Psychology A  2 F303-01  2024年度\n 1st year 1st semester  修学規程第4条を参照\n    担当教員名\n KAWASHIMA Tomoya\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Perception 2.Behavior 3.Learning 4.Cognition  In this course, students will: (1) learn the whole picture of psychology. (2) learn in areas such as sensation, perception, memory, cognition, learning, and thinking. (3) learn about the history of psychology and research methods. (4) acquire the ability to apply psychology.\n    授業の概要および学習上の助言   This course is required for Certified Public Psychologists. Students learn the big picture of psychology and understand the interrelationships of the psychology classes they will study in the future. Psychology is a scientific study of \"mind\", a study that focuses on issues that are closely related to our daily lives, and students should understand the content of the classes in relation to the various phenomena experienced in everyday life, and encourage them to study while being aware that they will be used in everyday activities. The progress and content of the classes will be adjusted according to the understanding of the content of the classes.\n    教科書および参考書・リザーブドブック   「Psychology」 Toudai shuppannkai\n    履修に必要な予備知識や技能   None\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① I Ability to list some areas being studied in psychology.   ② I Ability to explain basic keywords of psychology.   ③ K,L Ability to think of what you have learned in psychology classes in the context of everyday life.   ④     ⑤     ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 40 50 0 0 0 0 10 100     指標と評価割合 総合評価割合 40 50 0 0 0 0 10 100   総合力指標 知識を取り込む力 40 50 0 0 0 0 10 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ There are two exams, a midterm and a final exam, to evaluate the degree of acquisition of the curriculum.   ② レ   ③ レ   ④     ⑤     ⑥     クイズ\n小テスト ① レ There are four quizzes to improve students’ level of understanding of the materials covered.   ② レ   ③ レ   ④     ⑤     ⑥     レポート ①      ②     ③     ④     ⑤     ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ① レ Students will be evaluated on written comments submitted at the end of each class and their attitudes in group work and discuss.   ② レ   ③ レ   ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     explain what kind of discipline is psychology and what kind of research area psychology has in their field. understand what kind of discipline is psychology and what kind of research area psychology has in their field.\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習課題に要する標準的な時間を記載してあります。日々の自学自習時間全体としては、各授業に応じた時間(例えば2単位科目の場合、予習2時間・復習2時間/週)を取るよう努めてください。詳しくは教員の指導に従って下さい。     授業明細   回数 学習内容 授業の運営方法 学習課題(予習・復習) 時間:分※     1  Course introduction. What is psychology? Lecture Self-check Review the class  60   2  basic patterns of behavior Lecture Self-check Review the class  60   3  Senses and perceptions 1 Lecture Quiz Self-check Review the class  60   4  Senses and perceptions 2 Lecture Self-check Review the class  60   5  Senses and perceptions 3 Lecture Quiz Self-check Review the class  60   6  Learning 1 Lecture Self-check Review the class  60   7  Learning 2 Lecture Self-check Review the class  60   8  Learning 3 Lecture Quiz Self-check Review the class  60   9  Intermediate exam examination Self-check Review the class  60   10",
+  "courseId": "2024:fall:F952-01:0:613",
   "language": "en"
 }

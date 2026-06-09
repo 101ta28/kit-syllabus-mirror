@@ -1,62 +1,52 @@
 {
   "sourceIndex": 618,
   "sourceUrl": "/opsyllabus/kitos0110/618/1",
-  "importedAt": "2026-06-08T09:34:05.697Z",
-  "title": "データベース",
-  "subtitle": "Database System",
-  "courseType": "Major ProgramMajor Courses",
+  "importedAt": "2026-06-09T01:29:24.731Z",
+  "title": "心理学のためのプログラミングⅠ",
+  "subtitle": "Programming for Psychology I",
+  "courseType": "Major Program\nMajor Courses",
   "credits": "2",
-  "term": "2026年度\n\n                2nd year 1st semester",
+  "term": "2024年度\n 1st year 2nd semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "ABE Noriyuki",
-    "SAKAMOTO Shinji"
+    "IMARUOKA Toshihide"
   ],
   "keywords": [
-    "data models",
-    "3-schema approach",
-    "relational algebra",
-    "SQL",
-    "normalization"
+    "MATLAB 2.Scrits and Functions 3.Input and Output 4.Data Processing 5.Computer Graphics"
   ],
-  "educationalGoal": "This course mainly deals with relational databases. Its goal is to impart skills in designing databases and in accessing them. Specifically, students are expected to be able to explain relational databases and 3-schema approaches, write queries in SQL, design a database using an entity-relationship diagram, and apply normalization procedures to their database appropriately.",
-  "advice": "In this course, students will learn the foundations of data models and database management systems focusing on relational databases.\n\nThere will be report(s) and homework on database design given to check the students' level of understanding.\nIn the curriculum flow, this course is part of the programming and software development track. Therefore, students are expected to pay considerable attention on the mastery of SQL as a programming language.",
-  "books": "(See Japanese syllabus)",
-  "requiredKnowledge": "There is no prerequisite course for Database Systems.\nStudents are required to bring a PC, an AC adapter, and a network cable to the class because there will be exercises where students are asked to write SQL queries and upload them during class hours for later grading.",
+  "educationalGoal": "The use of programing skills is progressively developed for the purpose of conducting psychological experiments and analyzing data. Students will learn basic skills for MATLAB programing, following the Elements of Programing.",
+  "advice": "Students are required to prepare a PC environment to use the MATLAB software. Students are expected to prepare a PC environment to use the university LAN. Students should prepare for the following week’s lesson using the class materials.",
+  "books": "none",
+  "requiredKnowledge": "Basic computer skills. Basic programing skills.",
   "activityGoals": [
     {
       "index": "①",
-      "type": "D",
-      "body": "Be able to explain what a relational database is."
+      "type": "H,I,J",
+      "body": "Ability to understand MATLAB program sources and to remake those for the other purposes."
     },
     {
       "index": "②",
-      "type": "D",
-      "body": "Be able to explain a 3-schema approach."
+      "type": "H,I,J",
+      "body": "Ability to make basic MATLAB programs."
     },
     {
       "index": "③",
-      "type": "J,K",
-      "body": "Be able to express queries in relational algebra and translate them into SQL."
+      "type": "H,I,J",
+      "body": "Ability to make and use MATLAB scripts and MATLAB functions."
     },
     {
       "index": "④",
-      "type": "D,J",
-      "body": "Be able to design a database using an entity-relationship diagram."
-    },
-    {
-      "index": "⑤",
-      "type": "D",
-      "body": "Be able to explain why normalization is necessary and how to do it."
+      "type": "H,I,J",
+      "body": "Ability to create computer graphics made of geometric shapes in the MATLAB environment."
     }
   ],
   "evaluationWeights": [
     {
       "label": "総合評価割合",
       "values": [
+        "30",
         "40",
-        "60",
-        "0",
+        "30",
         "0",
         "0",
         "0",
@@ -65,9 +55,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -77,9 +67,9 @@
     {
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
+        "30",
         "40",
-        "60",
-        "0",
+        "30",
         "0",
         "0",
         "0",
@@ -88,9 +78,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -100,9 +90,9 @@
     {
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
+        "30",
         "40",
-        "60",
-        "0",
+        "30",
         "0",
         "0",
         "0",
@@ -111,9 +101,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -134,9 +124,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -144,7 +134,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -157,9 +147,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -180,9 +170,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -191,118 +181,118 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "In addition to the standard achievement levels on the right:\n\n(6) Be able to write complex queries in SQL that involve joins and subqueries.\n(7) Be able to apply normalization procedures up to 3NF.",
-    "standard": "(1) Be able to explain what a relational database is.\n(2) Be able to explain a 3-schema approach.\n(3) Be able to express queries in relational algebra and translate them into SQL.\n(4) Be able to design a database using an entity-relationship diagram.\n(5) Be able to explain why normalization is necessary and how to do it."
+    "ideal": "Can design and implement computer programs for one's own purpose with functions and scripts efficiently.",
+    "standard": "Can modify sample programs for one's own purpose."
   },
   "clipProcess": "",
   "lessons": [
     {
       "index": "1",
-      "content": "- Orientation\n- Overview of database systems\n- How to setup MySQL",
-      "operation": "Lecture",
-      "assignments": "- Review lecture slides",
-      "minutes": "60"
+      "content": "Course introduction",
+      "operation": "Lecture Self-check",
+      "assignments": "Review information from previous programing classes",
+      "minutes": "30"
     },
     {
       "index": "2",
-      "content": "- Relational models\n- Integrity constraints",
-      "operation": "Lecture",
-      "assignments": "- Review lecture slides and\nthe textbook",
-      "minutes": "120"
+      "content": "Review MATLAB skills Variables, Arrays, Matrixes",
+      "operation": "Lecture Practice Self-check",
+      "assignments": "Review the last class and preview the next class",
+      "minutes": "60"
     },
     {
       "index": "3",
-      "content": "- Relational algebra",
-      "operation": "Lecture",
-      "assignments": "- Review lecture slides and\nthe textbook",
-      "minutes": "120"
+      "content": "Review MATLAB skills Script",
+      "operation": "Lecture Practice Self-check",
+      "assignments": "Review the last class and preview the next class",
+      "minutes": "60"
     },
     {
       "index": "4",
-      "content": "- Relational algebra\n- SQL",
-      "operation": "Lecture",
-      "assignments": "- Review lecture slides and\nthe textbook",
-      "minutes": "120"
+      "content": "Making functions (1)",
+      "operation": "Lecture Practice Self-check",
+      "assignments": "Review the last class and preview the next class",
+      "minutes": "60"
     },
     {
       "index": "5",
-      "content": "- Relational algebra\n- SQL",
-      "operation": "Lecture and SQL quiz",
-      "assignments": "- Review lecture slides and\nthe textbook",
-      "minutes": "120"
+      "content": "Making functions (2)",
+      "operation": "Lecture Practice Self-check",
+      "assignments": "Review the last class and preview the next class",
+      "minutes": "60"
     },
     {
       "index": "6",
-      "content": "- SQL\n- Midterm",
-      "operation": "Lecture and exam",
-      "assignments": "- Prepare for the midterm\nexam",
-      "minutes": "120"
+      "content": "Summary of basic MATLAB skills",
+      "operation": "Lecture Practice Self-check",
+      "assignments": "Review the last class and preview the next class",
+      "minutes": "60"
     },
     {
       "index": "7",
-      "content": "- SQL",
-      "operation": "Lecture and SQL quiz",
-      "assignments": "- Review lecture slides and\nthe textbook",
-      "minutes": "120"
+      "content": "Set up the Psychtoolbox on MATLAB",
+      "operation": "Lecture Practice Self-check",
+      "assignments": "Review the last class and preview the next class",
+      "minutes": "60"
     },
     {
       "index": "8",
-      "content": "- Overall review up to Week 7",
-      "operation": "Lecture and SQL quiz",
-      "assignments": "- Review lecture slides and\nthe textbook",
-      "minutes": "120"
+      "content": "Drawing geometric shapes (1)",
+      "operation": "Lecture Practice Self-check",
+      "assignments": "Review the last class and preview the next class",
+      "minutes": "60"
     },
     {
       "index": "9",
-      "content": "- Explanation of midterm solutions\n- Database design using entity-relationship\ndiagram",
-      "operation": "Lecture",
-      "assignments": "- Review lecture slides and\nthe textbook",
-      "minutes": "120"
+      "content": "Drawing geometric shapes (2)",
+      "operation": "Lecture Practice Self-check",
+      "assignments": "Review the last class and preview the next class",
+      "minutes": "60"
     },
     {
       "index": "10",
-      "content": "- Database design using entity-relationship\ndiagram\n- Midterm",
-      "operation": "Lecture and exam",
-      "assignments": "- Prepare for the midterm\nexam",
-      "minutes": "120"
+      "content": "Animation (1)",
+      "operation": "Lecture Practice Self-check",
+      "assignments": "Review the last class and preview the next class",
+      "minutes": "60"
     },
     {
       "index": "11",
-      "content": "- Normalization",
-      "operation": "Lecture and SQL quiz",
-      "assignments": "- Review lecture slides and\nthe textbook",
-      "minutes": "120"
+      "content": "Animation (2)",
+      "operation": "Lecture Practice Self-check",
+      "assignments": "Review the last class and preview the next class",
+      "minutes": "60"
     },
     {
       "index": "12",
-      "content": "- Normalization",
-      "operation": "Lecture",
-      "assignments": "- Review lecture slides and\nthe textbook",
-      "minutes": "120"
+      "content": "Display transition (1)",
+      "operation": "Lecture Practice Self-check",
+      "assignments": "Review the last class and preview the next class",
+      "minutes": "60"
     },
     {
       "index": "13",
-      "content": "- Normalization",
-      "operation": "Lecture",
-      "assignments": "- Review lecture slides and\nthe textbook",
-      "minutes": "120"
+      "content": "Display transition (2)",
+      "operation": "Lecture Practice Self-check",
+      "assignments": "Review the last class and preview the next class",
+      "minutes": "60"
     },
     {
       "index": "14",
-      "content": "- Overall review of the course\n- Final exam",
-      "operation": "Q&A and exam",
-      "assignments": "- Prepare for the final exam",
-      "minutes": "120"
+      "content": "Final practical task Final exam",
+      "operation": "Lecture Exam Self-check",
+      "assignments": "Review the final exam",
+      "minutes": "30"
     },
     {
       "index": "15",
-      "content": "- Explanation of exam solutions\n- Self-evaluation",
-      "operation": "Lecture",
-      "assignments": "",
-      "minutes": ""
+      "content": "Review final exam and whole course",
+      "operation": "Q and A",
+      "assignments": "Review the whole course",
+      "minutes": "30"
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　C011-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Information and Computer Science\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                データベース\n                Database System\n\n              2\n              C011-01\n\n                2026年度\n\n                2nd year 1st semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  ABE Noriyuki, SAKAMOTO Shinji\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.data models\n2.3-schema approach\n3.relational algebra\n4.SQL\n5.normalization\n\n              This course mainly deals with relational databases. Its goal is to impart skills in designing databases and in accessing them. Specifically, students are expected to be able to explain relational databases and 3-schema approaches, write queries in SQL, design a database using an entity-relationship diagram, and apply normalization procedures to their database appropriately.\n\n              授業の概要および学習上の助言\n\n              In this course, students will learn the foundations of data models and database management systems focusing on relational databases.\n\nThere will be report(s) and homework on database design given to check the students' level of understanding.\nIn the curriculum flow, this course is part of the programming and software development track. Therefore, students are expected to pay considerable attention on the mastery of SQL as a programming language.\n\n              教科書および参考書・リザーブドブック\n\n              (See Japanese syllabus)\n\n              履修に必要な予備知識や技能\n\n              There is no prerequisite course for Database Systems.\nStudents are required to bring a PC, an AC adapter, and a network cable to the class because there will be exercises where students are asked to write SQL queries and upload them during class hours for later grading.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                D\n                Be able to explain what a relational database is.\n\n                ②\n                D\n                Be able to explain a 3-schema approach.\n\n                ③\n                J,K\n                Be able to express queries in relational algebra and translate them into SQL.\n\n                ④\n                D,J\n                Be able to design a database using an entity-relationship diagram.\n\n                ⑤\n                D\n                Be able to explain why normalization is necessary and how to do it.\n\n                ⑥\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                40\n\n                60\n\n                0\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                40\n\n                60\n\n                0\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                40\n\n                60\n\n                0\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  コラボレーションとリーダーシップ\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  発表・表現・伝達する力\n\n                    0\n\n                ",
-  "courseId": "2026:spring:C011-01:0:618",
+  "rawText": "金沢工業大学 学習支援計画書 F309-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Psychological Science(2018〜)\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n心理学のためのプログラミングⅠ\nProgramming for Psychology I  2 F309-01  2024年度\n 1st year 2nd semester  修学規程第4条を参照\n    担当教員名\n IMARUOKA Toshihide\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.MATLAB 2.Scrits and Functions 3.Input and Output 4.Data Processing 5.Computer Graphics  The use of programing skills is progressively developed for the purpose of conducting psychological experiments and analyzing data. Students will learn basic skills for MATLAB programing, following the Elements of Programing.\n    授業の概要および学習上の助言   Students are required to prepare a PC environment to use the MATLAB software. Students are expected to prepare a PC environment to use the university LAN. Students should prepare for the following week’s lesson using the class materials.\n    教科書および参考書・リザーブドブック   none\n    履修に必要な予備知識や技能   Basic computer skills. Basic programing skills.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① H,I,J Ability to understand MATLAB program sources and to remake those for the other purposes.   ② H,I,J Ability to make basic MATLAB programs.   ③ H,I,J Ability to make and use MATLAB scripts and MATLAB functions.   ④ H,I,J Ability to create computer graphics made of geometric shapes in the MATLAB environment.   ⑤     ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 30 40 30 0 0 0 0 100     指標と評価割合 総合評価割合 30 40 30 0 0 0 0 100   総合力指標 知識を取り込む力 30 40 30 0 0 0 0 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ There is a final exam at the end of the semester to evaluate knowledge of MATLAB programing. The ability to read and make programing sources is also evaluated.   ② レ   ③ レ   ④     ⑤     ⑥     クイズ\n小テスト ① レ There are practice assignments in every class to evaluate the level of acquisition of programing skills.   ② レ   ③ レ   ④     ⑤     ⑥     レポート ① レ Students will be evaluated on programing tasks including program design, implementation, and knowledge of statistics.   ② レ   ③ レ   ④ レ   ⑤     ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ①      ②     ③     ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     Can design and implement computer programs for one's own purpose with functions and scripts efficiently. Can modify sample programs for one's own purpose.\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習課題に要する標準的な時間を記載してあります。日々の自学自習時間全体としては、各授業に応じた時間(例えば2単位科目の場合、予習2時間・復習2時間/週)を取るよう努めてください。詳しくは教員の指導に従って下さい。     授業明細   回数 学習内容 授業の運営方法 学習課題(予習・復習) 時間:分※     1  Course introduction Lecture Self-check Review information from previous programing classes  30   2  Review MATLAB skills Variables, Arrays, Matrixes Lecture Practice Self-check Review the last class and preview the next class  60   3  Review MATLAB skills Script Lecture Practice Self-check Review the last class and preview the next class  60   4  Making functions (1) Lecture Practice Self-check Review the last class and preview the next class  60   5  Making functions (2) Lecture Practice Self-check Review the last class and preview the next class  60   6  Summary of basic MATLAB skills Lecture Practice Self-check Review the last class and preview the next class  60   7  Set up the Psychtoolbox on MATLAB Lecture Practice Self-check Review the last class and preview the next class  60   8  Drawing geometric shapes (1) Lecture Practice Self-check Review the last class and preview the next class  60   9  Drawing geometric shap",
+  "courseId": "2024:spring:F305-01:0:618",
   "language": "en"
 }

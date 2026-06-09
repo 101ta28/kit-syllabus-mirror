@@ -1,67 +1,58 @@
 {
   "sourceIndex": 651,
   "sourceUrl": "/opsyllabus/kitos0110/651/1",
-  "importedAt": "2026-06-08T09:34:06.388Z",
-  "title": "マイコンプログラミング",
-  "subtitle": "Microcontroller Programming",
-  "courseType": "Major ProgramMajor Courses",
+  "importedAt": "2026-06-09T01:29:25.039Z",
+  "title": "福祉心理学",
+  "subtitle": "Psychology for Social Welfare",
+  "courseType": "Major Program\nMajor Courses",
   "credits": "2",
-  "term": "2026年度\n\n                2nd year 2nd semester",
+  "term": "2024年度\n 4th year 2nd semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "ITO Kouhei",
-    "MATSUDA Yuki"
+    "FUSEJIMA Ayumi"
   ],
   "keywords": [
-    "Microcontroller",
-    "I/O ports",
-    "Timer interrupt",
-    "Serial communication"
+    "Abuse/violence 2.Dementia 3.Social withdrawal 4.Poverty 5.Interprofessional collaboration"
   ],
-  "educationalGoal": "(1) Learn the foundations of microcontrollers\n(2) Learn the method for writing microcontroller programs",
-  "advice": "This is a basic course in writing programs for microcontrollers. We will cover the following topics:\n\n1. I/O port programming for AVR and Arduino microcontrollers.\n2. Timer interrupt programming for AVR and Arduino microcontrollers.\n3. Serial communication programming for AVR and Arduino microcontrollers.\n4. Analog-to-digital (AD) conversion programming for Arduino microcontrollers.\n5. Pulse-width modulation (PWM) output programming for Arduino microcontrollers.",
-  "books": "None",
-  "requiredKnowledge": "Completion of “Computer Engineering I.”",
+  "educationalGoal": "Students will learn the basic knowledge and skills to provide psychological support in the social welfare field. Students must learn: 1. Psychosocial problems in the welfare field 2. Psychological supportive approach for abuse and dementia care 3. The role of psychologists at welfare sites",
+  "advice": "The course aims to introduce social welfare from a psychological point of view. Students will discuss psychological support for people who are in need of assistance. The course gives students advice to consider psychological support that corresponds to social needs. Students should understand welfare services and facilities in their own local community. Students are expected to read the reference book and other books related to abuse and dementia. The course asks students to answer questionnaires about mental health and welfare to fully understand what is welfare. However, these questionnaires are not mandatory.",
+  "books": "Textbooks: Psychology for Social Welfare, Tomi Publishers, Inc.",
+  "requiredKnowledge": "Students need to read books related to social welfare service (public assistance, welfare for the disabled, child welfare, elderly welfare, etc.). In addition, students should find psychological support in social welfare services in their local community, and should consider what kind of psychological support they want to receive. Students are expected to apply the knowledge of and skills in Psychology for Social Welfare to their personal well-being and to the well-being of others.",
   "activityGoals": [
     {
       "index": "①",
-      "type": "J",
-      "body": "Understand the role of microcontrollers and the structure of microcontroller programs"
+      "type": "J,L",
+      "body": "Ability to explain psychosocial problems in the welfare field"
     },
     {
       "index": "②",
-      "type": "J",
-      "body": "Understand the role of I/O ports, and write and run I/O port programs"
+      "type": "J,L",
+      "body": "Ability to describe psychological supportive approach for abuse and dementia care"
     },
     {
       "index": "③",
-      "type": "J",
-      "body": "Understand the timer interrupt, and write and run timer interrupt programs"
-    },
-    {
-      "index": "④",
-      "type": "J",
-      "body": "Understand serial communication, and write and run serial communication programs"
+      "type": "J,L",
+      "body": "Ability to describe the role of psychologists at welfare sites"
     }
   ],
   "evaluationWeights": [
     {
       "label": "総合評価割合",
       "values": [
-        "40",
+        "25",
+        "30",
+        "30",
         "0",
         "0",
-        "60",
-        "0",
-        "0",
-        "0",
+        "5",
+        "10",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -71,20 +62,20 @@
     {
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
-        "40",
+        "25",
+        "30",
+        "30",
         "0",
         "0",
-        "60",
-        "0",
-        "0",
-        "0",
+        "5",
+        "10",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -94,20 +85,20 @@
     {
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
-        "40",
+        "25",
+        "30",
+        "30",
         "0",
         "0",
-        "60",
-        "0",
-        "0",
-        "0",
+        "5",
+        "10",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -128,9 +119,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -138,7 +129,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -151,9 +142,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -174,9 +165,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -185,118 +176,118 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "Write and revise programs for I/O ports, timer interrupts, and serial communications.",
-    "standard": "Understand and run confirmations for I/O ports, timer interrupts, and serial communications."
+    "ideal": "(1) Explain the relationship between welfare and psychology with reference to own local community (2) Fully explain the types of and role of psychological support at welfare sites (3) Fully discuss the psychological view of solving various problems in social welfare with consideration of each situatio",
+    "standard": "(1) Explain the relationship between welfare and psychology (2) Explain the types of and role of psychological support at welfare sites (3) Discuss the psychological view of solving various problems in social welfare"
   },
   "clipProcess": "",
   "lessons": [
     {
       "index": "1",
-      "content": "Course introduction\n\nReview of C language 1",
-      "operation": "Lecture and Exercise",
-      "assignments": "Preview: read the text\n\nReview the C language",
-      "minutes": "30\n\n60"
+      "content": "Orientation Definition of social welfare and Psychology for Social Welfare",
+      "operation": "Lecture Self-reflection",
+      "assignments": "Understand the course objectives",
+      "minutes": "60"
     },
     {
       "index": "2",
-      "content": "Course introduction\n\nInstall the software",
-      "operation": "Lecture and Exercise",
-      "assignments": "Preview: read the text\n\nReview the C language",
-      "minutes": "30\n\n60"
+      "content": "Overview of abuse",
+      "operation": "Lecture Practice Self-reflection",
+      "assignments": "Read chapters one and two of the text",
+      "minutes": "60"
     },
     {
       "index": "3",
-      "content": "Introduction of microcontrollers\n\nI/O port programming for AVR 1",
-      "operation": "Lecture and Exercise",
-      "assignments": "Preview: read the text\n\nReview the content",
-      "minutes": "30\n\n60"
+      "content": "Overview of dementia",
+      "operation": "Lecture Practice Self-reflection",
+      "assignments": "Read chapters seven and eight of the text",
+      "minutes": "60"
     },
     {
       "index": "4",
-      "content": "I/O port programming for AVR 2",
-      "operation": "Lecture and Exercise",
-      "assignments": "Preview: read the text\n\nReview the content",
-      "minutes": "30\n\n60"
+      "content": "Quiz 1 Institution and system in social welfare",
+      "operation": "Lecture Quiz Self-reflection",
+      "assignments": "Read chapters one, two, three, and twelve of the text Prepare for quiz 1",
+      "minutes": "120"
     },
     {
       "index": "5",
-      "content": "Timer interrupt programming for AVR",
-      "operation": "Lecture and Exercise",
-      "assignments": "Preview: read the text\n\nReview the content",
-      "minutes": "30\n\n60"
+      "content": "Foundation of supportive activities in welfare site",
+      "operation": "Lecture Practice Self-reflection",
+      "assignments": "Read chapters one, two, and thirteen of the text",
+      "minutes": "60"
     },
     {
       "index": "6",
-      "content": "Serial communication programming for AVR\n(sending)",
-      "operation": "Lecture and Exercise",
-      "assignments": "Preview: read the text\n\nReview the content",
-      "minutes": "30\n\n60"
+      "content": "Psychological support in child welfare (1)",
+      "operation": "Lecture Practice Self-reflection",
+      "assignments": "Read chapters three, seven, and eight of the text Prepare for the report",
+      "minutes": "240"
     },
     {
       "index": "7",
-      "content": "Serial communication programming for AVR\n(sending and receiving)",
-      "operation": "Lecture and Exercise",
-      "assignments": "Preview: read the text\n\nReview the content",
-      "minutes": "30\n\n60"
+      "content": "Psychological support in child welfare (2)",
+      "operation": "Lecture Practice Self-reflection",
+      "assignments": "Read chapters three, seven, and eight of the text",
+      "minutes": "60"
     },
     {
       "index": "8",
-      "content": "Exam (write and run a program)",
-      "operation": "Lecture and Exercise\n\nSelf check",
-      "assignments": "Review the content",
-      "minutes": "30\n\n60"
+      "content": "Psychological support in family welfare (1)",
+      "operation": "Lecture Practice Self-reflection",
+      "assignments": "Read chapters six, ten, and twelve of the text",
+      "minutes": "60"
     },
     {
       "index": "9",
-      "content": "I/O port programming for Arduino",
-      "operation": "Lecture and Exercise",
-      "assignments": "Preview: read the text\n\nReview the content",
-      "minutes": "30\n\n60"
+      "content": "Psychological support in family welfare (2)",
+      "operation": "Lecture Practice Self-reflection",
+      "assignments": "Read chapters six, ten, and twelve of the text",
+      "minutes": "90"
     },
     {
       "index": "10",
-      "content": "Serial communication programming for Arduino\n(sending)",
-      "operation": "Lecture and Exercise",
-      "assignments": "Preview: read the text\n\nReview the content",
-      "minutes": "30\n\n60"
+      "content": "Quiz 2 Psychological support in elderly welfare (1)",
+      "operation": "Lecture Quiz Self-reflection",
+      "assignments": "Read chapters four and nine of the text Prepare for quiz 2",
+      "minutes": "120"
     },
     {
       "index": "11",
-      "content": "Serial communication programming for Arduino\n(sending and receiving)",
-      "operation": "Lecture and Exercise",
-      "assignments": "Preview: read the text\n\nReview the content",
-      "minutes": "30\n\n60"
+      "content": "Psychological support in elderly welfare (2)",
+      "operation": "Lecture Practice Self-reflection",
+      "assignments": "Read chapters four and nine of the text Prepare for the report",
+      "minutes": "240"
     },
     {
       "index": "12",
-      "content": "AD conversion programming for Arduino",
-      "operation": "Lecture and Exercise",
-      "assignments": "Preview: read the text\n\nReview the content",
-      "minutes": "30\n\n60"
+      "content": "Psychological support in welfare for the disabled (1)",
+      "operation": "Lecture Practice Self-reflection",
+      "assignments": "Read chapters five and eleven of the text",
+      "minutes": "60"
     },
     {
       "index": "13",
-      "content": "PWM output programming for Arduino",
-      "operation": "Lecture and Exercise",
-      "assignments": "Preview: read the text\n\nReview the content",
-      "minutes": "30\n\n60"
+      "content": "Psychological support in welfare for the disabled (2)",
+      "operation": "Lecture Practice Self-reflection",
+      "assignments": "Read chapters five and eleven of the text",
+      "minutes": "60"
     },
     {
       "index": "14",
-      "content": "Examination of Arduino programming",
-      "operation": "Exercise",
-      "assignments": "Review the content",
-      "minutes": "90"
+      "content": "Integrated class Final exam",
+      "operation": "Lecture Exam",
+      "assignments": "Prepare for the final exam",
+      "minutes": "240"
     },
     {
       "index": "15",
-      "content": "Final exam\n\nSelf-Check",
-      "operation": "Lecture",
-      "assignments": "Review the content",
-      "minutes": "90"
+      "content": "Review grade Additional learning",
+      "operation": "Lecture Self-evaluation",
+      "assignments": "Evaluate own learning",
+      "minutes": "60"
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　C220-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Robotics\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                マイコンプログラミング\n                Microcontroller Programming\n\n              2\n              C220-01\n\n                2026年度\n\n                2nd year 2nd semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  ITO Kouhei, MATSUDA Yuki\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Microcontroller\n2.I/O ports\n3.Timer interrupt\n4.Serial communication\n\n              (1) Learn the foundations of microcontrollers\n(2) Learn the method for writing microcontroller programs\n\n              授業の概要および学習上の助言\n\n              This is a basic course in writing programs for microcontrollers. We will cover the following topics:\n\n1. I/O port programming for AVR and Arduino microcontrollers.\n2. Timer interrupt programming for AVR and Arduino microcontrollers.\n3. Serial communication programming for AVR and Arduino microcontrollers.\n4. Analog-to-digital (AD) conversion programming for Arduino microcontrollers.\n5. Pulse-width modulation (PWM) output programming for Arduino microcontrollers.\n\n              教科書および参考書・リザーブドブック\n\n              None\n\n              履修に必要な予備知識や技能\n\n              Completion of “Computer Engineering I.”\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                J\n                Understand the role of microcontrollers and the structure of microcontroller programs\n\n                ②\n                J\n                Understand the role of I/O ports, and write and run I/O port programs\n\n                ③\n                J\n                Understand the timer interrupt, and write and run timer interrupt programs\n\n                ④\n                J\n                Understand serial communication, and write and run serial communication programs\n\n                ⑤\n\n                ⑥\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                40\n\n                0\n\n                0\n\n                60\n\n                0\n\n                0\n\n                0\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                40\n\n                0\n\n                0\n\n                60\n\n                0\n\n                0\n\n                0\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                40\n\n                0\n\n                0\n\n                60\n\n                0\n\n                0\n\n                0\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  コラボレーションとリーダーシップ\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  発表・表現・伝達する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  学習に取組む姿勢・意欲\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n        ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n\n              評価の要点\n\n              評価方法\n              行動目標\n              評価の実施方法と注意点\n\n                    試験\n\n                    ①\n               ",
-  "courseId": "2026:fall:C220-01:0:651",
+  "rawText": "金沢工業大学 学習支援計画書 F340-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Psychological Science(2018〜)\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n福祉心理学\nPsychology for Social Welfare  2 F340-01  2024年度\n 4th year 2nd semester  修学規程第4条を参照\n    担当教員名\n FUSEJIMA Ayumi\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Abuse/violence 2.Dementia 3.Social withdrawal 4.Poverty 5.Interprofessional collaboration  Students will learn the basic knowledge and skills to provide psychological support in the social welfare field. Students must learn: 1. Psychosocial problems in the welfare field 2. Psychological supportive approach for abuse and dementia care 3. The role of psychologists at welfare sites\n    授業の概要および学習上の助言   The course aims to introduce social welfare from a psychological point of view. Students will discuss psychological support for people who are in need of assistance. The course gives students advice to consider psychological support that corresponds to social needs. Students should understand welfare services and facilities in their own local community. Students are expected to read the reference book and other books related to abuse and dementia. The course asks students to answer questionnaires about mental health and welfare to fully understand what is welfare. However, these questionnaires are not mandatory.\n    教科書および参考書・リザーブドブック   Textbooks: Psychology for Social Welfare, Tomi Publishers, Inc.\n    履修に必要な予備知識や技能   Students need to read books related to social welfare service (public assistance, welfare for the disabled, child welfare, elderly welfare, etc.). In addition, students should find psychological support in social welfare services in their local community, and should consider what kind of psychological support they want to receive. Students are expected to apply the knowledge of and skills in Psychology for Social Welfare to their personal well-being and to the well-being of others.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① J,L Ability to explain psychosocial problems in the welfare field   ② J,L Ability to describe psychological supportive approach for abuse and dementia care   ③ J,L Ability to describe the role of psychologists at welfare sites   ④     ⑤     ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 25 30 30 0 0 5 10 100     指標と評価割合 総合評価割合 25 30 30 0 0 5 10 100   総合力指標 知識を取り込む力 25 30 30 0 0 5 10 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ Students will have a final exam at the end of the semester to evaluate the degree of acquisition of the curriculum.   ② レ   ③ レ   ④     ⑤     ⑥     クイズ\n小テスト ① レ Students will have two quizzes during the semester. Quiz 1 will cover classes 1 to 3. Quiz 2 will cover classes 4 to 7.    ② レ   ③ レ   ④     ⑤     ⑥     レポート ① レ Students will write two short reports during the semester. Students must submit the reports by the deadlines (class 6 and class 10). The theme of the reports will be presented in class. Students should read the reference materials on abuse/dementia care in advance.   ② レ   ③ レ   ④     ⑤     ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ① レ Students will reflect on the course during the semester. Students will self-evaluate their own understanding and attitude towards class.    ② レ   ③ レ   ④     ⑤     ⑥     その他 ① レ Students will be evaluated on the following materials: 1. Worksheet 2. Attitude towards class 3. Assignments 4. Other    ② レ   ③ レ   ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     (1) Explain the relationship between welfare and psychology with reference to own local community (2) Fully explain the types of and role of psychological support at welfare sites (3) Fully discuss the psychological view of solving various problems in soc",
+  "courseId": "2024:full-year:F337-01:0:651",
   "language": "en"
 }

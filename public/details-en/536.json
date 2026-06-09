@@ -1,62 +1,71 @@
 {
   "sourceIndex": 536,
   "sourceUrl": "/opsyllabus/kitos0110/536/1",
-  "importedAt": "2026-06-08T09:34:03.981Z",
-  "title": "健康・医療心理学",
-  "subtitle": "Health and Medical Psychology",
-  "courseType": "Major ProgramMajor Courses",
-  "credits": "2",
-  "term": "2026年度\n\n                2nd year 2nd semester",
+  "importedAt": "2026-06-09T01:29:23.955Z",
+  "title": "プログラミング入門",
+  "subtitle": "Introduction to Programming",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "1",
+  "term": "2024年度\n 1st year 1st semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "FUSEJIMA Ayumi"
+    "MATSUSHITA Yutaka",
+    "NEGISHI Ippei",
+    "KAMATA Tonan",
+    "SHIMAMOTO Shingo"
   ],
   "keywords": [
-    "Stress",
-    "Health care activity",
-    "Health",
-    "Medical site",
-    "Prevention"
+    "C programing language 2.Input/output 3.Data type 4.Array 5.Arithmetic operation"
   ],
-  "educationalGoal": "Students will learn the basic knowledge and skills to provide psychological support in the health care field.\nStudents must learn:\n1.\tStress process and disease in daily life\n2.\tPsychosocial problems at medical sites\n3.\tPsychological supportive approach for victims of the disaster",
-  "advice": "The course aims to introduce health and medical care from a psychology point of view. Students will discuss psychological support for people who need to improve their mental/physical health. The course gives students advice to improve people's (and their own) health. Students should understand their own health and stress process with relation to experiences in daily life. Students are expected to read the reference book and other books related to stress and stress management.\nThe course asks students to answer questionnaires about mental health to fully understand their own health.  However, these questionnaires are not mandatory.\nThis course is subject to the course credit system.",
-  "books": "Textbooks: Health and Medical Psychology, koudansya Publishers, Inc.\nReference books: None\nReserved books: None",
-  "requiredKnowledge": "Students need to read books related to stress health care and health behaviors (eating, exercise, sleep, smoking, etc.). In addition, students should find health promotion and medical psychological support in their local community, and should consider what kind of psychological support they want to receive. Students are expected to apply the knowledge of and skills in health/medical psychology to people's (and their own) health care.",
+  "educationalGoal": "Computer systems are constructions of hardware and software technology. This course focuses on the software side of the combination. Programming is the skill used to create software, and knowledge regarding it also helps users employ software effectively. Dealing with a typical programing language, C programing language, we will learn basic elements (input/output, data type, and array).",
+  "advice": "Specifically, students in this course will learn about the following topics: ・Fundamental programming procedures ・Variable and data type ・Input/output, and arithmetic operation ・Array and string Using the development environment of C programing language, students will learn programming by actually creating programs written in the textbook, debugging them, and checking the results. The results of examinations will be reported to students, who will then be encouraged and required to use those results to improve their skills.",
+  "books": "",
+  "requiredKnowledge": "The installation of the development environment will be covered during the first class and each student must establish the environment before the second class. Students will be expected to write source code during in the class, so advanced keyboard skills are expected.",
   "activityGoals": [
     {
       "index": "①",
-      "type": "J,L",
-      "body": "Ability to explain the relationship between stress process and disease"
+      "type": "H,I,K",
+      "body": "Be able to create programs under development environment of C programming language."
     },
     {
       "index": "②",
-      "type": "J,L",
-      "body": "Ability to describe psychological support at medical sites"
+      "type": "H,I,K",
+      "body": "Be able to execute instructions for Input/output."
     },
     {
       "index": "③",
-      "type": "J,L",
-      "body": "Ability to describe the role of Certified Public Psychologists at medical sites"
+      "type": "H,I,K",
+      "body": "Be able to understand the concept of data type."
+    },
+    {
+      "index": "④",
+      "type": "H,I,K",
+      "body": "Be able to understand the concept of array."
+    },
+    {
+      "index": "⑤",
+      "type": "H,I,K",
+      "body": "Be able to execute basic arithmetic calculations."
     }
   ],
   "evaluationWeights": [
     {
       "label": "総合評価割合",
       "values": [
-        "25",
-        "45",
+        "40",
+        "40",
+        "0",
+        "0",
+        "0",
+        "0",
         "20",
-        "5",
-        "0",
-        "0",
-        "5",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -66,20 +75,20 @@
     {
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
-        "25",
-        "45",
+        "40",
+        "40",
+        "0",
+        "0",
+        "0",
+        "0",
         "20",
-        "5",
-        "0",
-        "0",
-        "5",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -89,20 +98,20 @@
     {
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
-        "25",
-        "45",
+        "40",
+        "40",
+        "0",
+        "0",
+        "0",
+        "0",
         "20",
-        "5",
-        "0",
-        "0",
-        "5",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -123,9 +132,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -133,7 +142,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -146,9 +155,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -169,9 +178,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -180,118 +189,69 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "(1)\tExplain the relationship between daily hassles and diseases (or symptoms) with reference to own experiences\n(2)\tFully explain the ways and role of psychological support at medical sites\n(3)\tFully discuss the psychological view of solving various problems in health and medicine with consideration of each situation",
-    "standard": "(1)\tExplain the relationship between daily hassles and diseases (or symptoms)\n(2)\tExplain the ways and role of psychological support at medical sites\n(3)\tDiscuss the psychological view of solving various problems in health and medicine"
+    "ideal": "(1) Be able to achieve over 80% of the target student abilities. (2) Be able to acquire a satisfactory understanding of input/output instructions. (3) Be able acquire a satisfactory understanding of the concept of array. (4) be able to execute arithmetic operations.",
+    "standard": "(1) Achieve over 60% of the target student abilities. (2) Be able acquire a basic understanding of input/output instructions. (3) Be able to acquire a basic understanding of the concepts of array. (4) Be able to execute arithmetic operations."
   },
   "clipProcess": "",
   "lessons": [
     {
       "index": "1",
-      "content": "Orientation\nDefinition of health psychology and Medical\npsychology",
-      "operation": "Lecture\nSelf-reflection",
-      "assignments": "Understand the objectives of\nthe course\nRead part one of  the text",
-      "minutes": "60"
+      "content": "Orientation Installation method of Visual Studio Flowchart",
+      "operation": "Lecture",
+      "assignments": "Review: Read the commentary slide. Preparation: Install Visual Studio.",
+      "minutes": "30 60"
     },
     {
       "index": "2",
-      "content": "Stress process\nAssessment of stress process",
-      "operation": "Lecture\nPractice\nSelf-reflection",
-      "assignments": "Read part one of the text",
-      "minutes": "60"
+      "content": "How to use Visual Studio Experience of executing a program",
+      "operation": "Lecture and practice",
+      "assignments": "Review: Review the installation of Visual Studio and execute the program deal with in the class. Preparation: Read Chapter 3 in the text.",
+      "minutes": "60 30"
     },
     {
       "index": "3",
-      "content": "Health care\nStress management",
-      "operation": "Lecture\nPractice\nSelf-reflection",
-      "assignments": "Read part one of the text",
-      "minutes": "60"
+      "content": "Output characters",
+      "operation": "Lecture and practice",
+      "assignments": "Review: Read the class slide and review tasks for this week. Preparation: Prepare for Quiz 1 and read §4.1 to 4.5 in the text.",
+      "minutes": "30 60"
     },
     {
       "index": "4",
-      "content": "Quiz 1\nRelationships between physiology in stress\nprocess and disease",
-      "operation": "Lecture\nQuiz 1\nSelf-reflection",
-      "assignments": "Read part one of the text",
-      "minutes": "120"
+      "content": "Variable (data type) Quiz 1",
+      "operation": "Lecture and practice",
+      "assignments": "Review: Read the class slide and review tasks for this week. Preparation: Prepare for Quiz 2 and read §4.6 to 4.10 in the text.",
+      "minutes": "30 60"
     },
     {
       "index": "5",
-      "content": "Relationships between physiology in stress\nprocess and disease\nHealthy Japan 21",
-      "operation": "Lecture\nPractice\nSelf-reflection",
-      "assignments": "Read part one of the text",
-      "minutes": "60"
+      "content": "Array Quiz 2",
+      "operation": "Lecture and practice",
+      "assignments": "Review: Read the class slide and review tasks for this week. Preparation: Prepare for Quiz 3 and read Chapter 5 and §6.1, 6.2 in the text.",
+      "minutes": "30 60"
     },
     {
       "index": "6",
-      "content": "Health support activities\nStress check system",
-      "operation": "Lecture\nPractice\nSelf-reflection",
-      "assignments": "Read parts two and three of\nthe text",
-      "minutes": "240"
+      "content": "Arithmetic operation and input/output Quiz 3",
+      "operation": "Lecture and practice",
+      "assignments": "Review: Read the class slide and review tasks for this week. Preparation: Prepare for Quiz 4 and read Chapter 6 in the text.",
+      "minutes": "30 60"
     },
     {
       "index": "7",
-      "content": "Health care activities\n (prevention and self-care)",
-      "operation": "Lecture\nPractice\nSelf-reflection",
-      "assignments": "Read parts two and three of\nthe text",
-      "minutes": "60"
+      "content": "Input/output Quiz 4",
+      "operation": "Lecture and practice",
+      "assignments": "Review: Understand contents up to the 7th week.",
+      "minutes": "150"
     },
     {
       "index": "8",
-      "content": "Suicide prevention\nQuiz 2",
-      "operation": "Lecture\nQuiz\nSelf-reflection",
-      "assignments": "Read parts two and three of\nthe text",
-      "minutes": "120"
-    },
-    {
-      "index": "9",
-      "content": "Psychological support at disaster sites",
-      "operation": "Lecture\nPractice\nSelf-reflection",
-      "assignments": "Read part four of the text",
-      "minutes": "60"
-    },
-    {
-      "index": "10",
-      "content": "Psychological activity at medical sites",
-      "operation": "Lecture\nPractice\nSelf-evaluation",
-      "assignments": "Read parts two and three of\nthe text",
+      "content": "Examination for confirmation of achievement Self-inspection class",
+      "operation": "Examination Self-check",
+      "assignments": "Review: Understand the contents of the examination.",
       "minutes": "90"
-    },
-    {
-      "index": "11",
-      "content": "Laws, systems, and ethics of health care",
-      "operation": "Lecture\nPractice\nSelf-reflection",
-      "assignments": "Read parts two and three of\nthe text",
-      "minutes": "240"
-    },
-    {
-      "index": "12",
-      "content": "Psychological support at medical sites\n(Psychiatry, Psychosomatic medicine, Medical\ninstitutions designated for specific\ninfectious diseases)",
-      "operation": "Lecture\nPractice\nSelf-reflection",
-      "assignments": "Read parts two and three of\nthe text",
-      "minutes": "60"
-    },
-    {
-      "index": "13",
-      "content": "Psychological support for\nfatherless families/elderly people",
-      "operation": "Lecture\nPractice\nSelf-reflection",
-      "assignments": "Read parts two and three of\nthe text",
-      "minutes": "60"
-    },
-    {
-      "index": "14",
-      "content": "Integrated class\nFinal exam",
-      "operation": "Lecture\nExam",
-      "assignments": "Prepare for the final exam",
-      "minutes": "240"
-    },
-    {
-      "index": "15",
-      "content": "Review grade\nAdditional learning",
-      "operation": "Lecture\nSelf-evaluation",
-      "assignments": "Evaluate own learning",
-      "minutes": "60"
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　M118-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Psychology and Information Design\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                健康・医療心理学\n                Health and Medical Psychology\n\n              2\n              M118-01\n\n                2026年度\n\n                2nd year 2nd semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  FUSEJIMA Ayumi\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Stress\n2.Health care activity\n3.Health\n4.Medical site\n5.Prevention\n\n              Students will learn the basic knowledge and skills to provide psychological support in the health care field.\nStudents must learn:\n1.\tStress process and disease in daily life\n2.\tPsychosocial problems at medical sites\n3.\tPsychological supportive approach for victims of the disaster\n\n              授業の概要および学習上の助言\n\n              The course aims to introduce health and medical care from a psychology point of view. Students will discuss psychological support for people who need to improve their mental/physical health. The course gives students advice to improve people's (and their own) health. Students should understand their own health and stress process with relation to experiences in daily life. Students are expected to read the reference book and other books related to stress and stress management.\nThe course asks students to answer questionnaires about mental health to fully understand their own health.  However, these questionnaires are not mandatory.\nThis course is subject to the course credit system.\n\n              教科書および参考書・リザーブドブック\n\n              Textbooks: Health and Medical Psychology, koudansya Publishers, Inc.\nReference books: None\nReserved books: None\n\n              履修に必要な予備知識や技能\n\n              Students need to read books related to stress health care and health behaviors (eating, exercise, sleep, smoking, etc.). In addition, students should find health promotion and medical psychological support in their local community, and should consider what kind of psychological support they want to receive. Students are expected to apply the knowledge of and skills in health/medical psychology to people's (and their own) health care.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                J,L\n                Ability to explain the relationship between stress process and disease\n\n                ②\n                J,L\n                Ability to describe psychological support at medical sites\n\n                ③\n                J,L\n                Ability to describe the role of Certified Public Psychologists at medical sites\n\n                ④\n\n                ⑤\n\n                ⑥\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                25\n\n                45\n\n                20\n\n                5\n\n                0\n\n                0\n\n                5\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                25\n\n                45\n\n                20\n\n                5\n\n                0\n\n                0\n\n                5\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                25\n\n                45\n\n                20\n\n                5\n\n                0\n\n                0\n\n                5\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  コラボレーションとリーダーシップ\n\n               ",
-  "courseId": "2026:fall:M118-01:0:536",
+  "rawText": "金沢工業大学 学習支援計画書 F036-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Media Informatics\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\nプログラミング入門\nIntroduction to Programming  1 F036-01  2024年度\n 1st year 1st semester  修学規程第4条を参照\n    担当教員名\n MATSUSHITA Yutaka, NEGISHI Ippei, KAMATA Tonan, SHIMAMOTO Shingo\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.C programing language 2.Input/output 3.Data type 4.Array 5.Arithmetic operation  Computer systems are constructions of hardware and software technology. This course focuses on the software side of the combination. Programming is the skill used to create software, and knowledge regarding it also helps users employ software effectively. Dealing with a typical programing language, C programing language, we will learn basic elements (input/output, data type, and array).\n    授業の概要および学習上の助言   Specifically, students in this course will learn about the following topics: ・Fundamental programming procedures ・Variable and data type ・Input/output, and arithmetic operation ・Array and string Using the development environment of C programing language, students will learn programming by actually creating programs written in the textbook, debugging them, and checking the results. The results of examinations will be reported to students, who will then be encouraged and required to use those results to improve their skills.\n    教科書および参考書・リザーブドブック\n    履修に必要な予備知識や技能   The installation of the development environment will be covered during the first class and each student must establish the environment before the second class. Students will be expected to write source code during in the class, so advanced keyboard skills are expected.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① H,I,K Be able to create programs under development environment of C programming language.   ② H,I,K Be able to execute instructions for Input/output.   ③ H,I,K Be able to understand the concept of data type.   ④ H,I,K Be able to understand the concept of array.   ⑤ H,I,K Be able to execute basic arithmetic calculations.   ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 40 40 0 0 0 0 20 100     指標と評価割合 総合評価割合 40 40 0 0 0 0 20 100   総合力指標 知識を取り込む力 40 40 0 0 0 0 20 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ Final exams will be given in the 8th week to confirm student levels of understanding.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     クイズ\n小テスト ① レ A quiz will be given in every week from the 3rd to 7th week. Students are checked the understanding of contents learned in the previous week.    ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     レポート ①      ②     ③     ④     ⑤     ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ① レ Student evaluations are made based on attendance, degree of concentration, and submission status of tasks raised during class.    ② レ   ③ レ   ④ レ   ⑤ レ   ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     (1) Be able to achieve over 80% of the target student abilities. (2) Be able to acquire a satisfactory understanding of input/output instructions. (3) Be able acquire a satisfactory understanding of the concept of array. (4) be able to execute arithmetic operations.  (1) Achieve over 60% of the target student abilities. (2) Be able acquire a basic understanding of input/output instructions. (3) Be able to acquire a basic understanding of the concepts of array. (4) Be able to execute arithmetic operations.\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習課題に要する標準的な時間を記載してあります。日々の自学自習時間全体としては、各授業に応じた時間(例えば2単位科目の場合、予習2時間・復習2時",
+  "courseId": "2024:fall:F031-01:0:536",
   "language": "en"
 }

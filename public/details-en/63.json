@@ -1,78 +1,77 @@
 {
   "sourceIndex": 63,
   "sourceUrl": "/opsyllabus/kitos0110/63/1",
-  "importedAt": "2026-06-08T09:33:54.329Z",
-  "title": "アドバンスト数理Ｂ",
-  "subtitle": "Advanced Mathematics B",
-  "courseType": "Mathematics and Science ProgramMathematics and Science Courses",
+  "importedAt": "2026-06-09T01:29:19.788Z",
+  "title": "情報のための数学Ⅱ(再履修クラス)",
+  "subtitle": "Mathematics for Informatics II",
+  "courseType": "Mathematics and Science Program\nMathematics and Science Courses",
   "credits": "2",
-  "term": "2026年度\n\n                1st year 2nd semester2nd year 2nd semester",
+  "term": "2024年度\n 1st year 2nd semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "KUDO Tomoshige",
-    "KITAJIMA Takahiro"
+    "TANIGUCHI Tetsuya",
+    "UESU Hiroaki",
+    "TAKAI Yuuki",
+    "NAKAGAWA Hayato",
+    "NISHI Makoto"
   ],
   "keywords": [
-    "1st order ODEs and properties of their solutions",
-    "2nd order homogeneous linear ODEs",
-    "2nd order inhomogeneous linear ODEs",
-    "Simultaneous systems of linear ODEs",
-    "Mathematical models for phenomena and analyses of their solutions"
+    "permutations/combinations 2.probability and conditional probability 3.bayes' theorem 4.basics of statistics 5.organization of data using Excel"
   ],
-  "educationalGoal": "Various issues in engineering, science and social science are often described by differential equations. Students will learn how to solve 1st order ordinary differential equations (ODEs), 2nd order constant-coefficient linear ODEs and systems of simultaneous linear ODEs, and will understand (1) how to construct mathematical models of phenomena, (2) solution method and geometrical concept and (3) how to analyze solution properties and characteristics. Students will learn the fundamentals of programming to develop the generic ability to analyze physical phenomena.",
-  "advice": "In the class, the students will learn differential equations (ODEs): (1) 1st order ODEs, (2) 2nd order constant-coefficient linear ODEs (homogeneous and inhomogeneous ODEs), and (3) systems of 1st order simultaneous linear ODEs. The students will learn the following analytical methods:\n(I) How to express physical and social phenomena with ODEs (construction of mathematical models).\n(II) How to solve specific types of ODEs and how to think geometrically about phenomena by means of solution curves and direction fields.\n(III) Analytical methods in which students will analyze obtained solutions and acquire information pertinent to the activities of engineers such as the pattern and the speed of changes in various phenomena.\nAfter the student learn the main themes of ODEs, the students will apply the above knowledge (I), (II), and (III) to computing projects by using formula manipulation system, and submit a report of their results.\nIn the class, the students will use MATLAB in the following activities:\n1) Visualizing the solutions for ODEs and thinking geometrically.\n2) Setting and evaluating the parameters of ODEs.\n3) Modeling physical phenomena and deriving and analyzing their solutions.\nTherefore, the students should install MATLAB on individual notebook computer, and should master basic usage of MATLAB beforehand.",
-  "books": "Textbooks：Advanced Engineering Mathematics 1: Ordinary Differential Equation (8th Edition) [Baifukan]\nReference books：None\nReserved books：Advanced Engineering Mathematics, 10th Edition [John Wiley & Sons, Inc.]",
-  "requiredKnowledge": "Knowledge of differential and integral calculations, basic differential equations, and linear algebra in the subjects: Integrated Math and Science for Engineering I & II, Linear Algebra I & II.\nBasic computer skills for computing projects.",
+  "educationalGoal": "Students will: (1) Learn basic probabilities, conditional probabilities, and Bayes' theorem. (2) Learn basic data organization and statistics. (3) Be able to organize data using Excel.",
+  "advice": "This is a basic course in mathematics and statistics. We will cover the following topics: 1. Basic probabilities: Permutations and combinations, probabilities, conditional probabilities and Bayes' theorem. 2. A data analysis method using statistics: Frequency distribution table, histogram, correlation diagram, mean/variance, covariance/correlation coefficient. Students are expected to understand above materials. Students are expected to process data using Excel (computer spreadsheet software). Students are expected to complete the exercises on their own without consulting/copying others. Students are expected to utilize the Math. and Science Education Research Center or the office hours of the teacher.",
+  "books": "Textbooks: Mathematics for Information Science I・II (Kanazawa Institute of Technology) Reference books: None Reserved books: None",
+  "requiredKnowledge": "Basic knowledge of probability and statistics learned in high school is desirable.",
   "activityGoals": [
     {
       "index": "①",
       "type": "D",
-      "body": "Be able to construct 1st order ODEs for various phenomena and obtain the solutions."
+      "body": "Be able to understand probabilities, conditional probabilities and Bayes' theorem."
     },
     {
       "index": "②",
       "type": "D",
-      "body": "Be able to construct 2nd order linear ODEs for various phenomena and obtain the solutions."
+      "body": "Be able to understand basic descriptive statistics."
     },
     {
       "index": "③",
       "type": "D",
-      "body": "Be able to construct simultaneous systems of 1st order ODEs for various phenomena and obtain the solutions."
+      "body": "Be able to understand probabilities, conditional probabilities, and Bayes' theorem."
     },
     {
       "index": "④",
       "type": "D",
-      "body": "Be able to analyze solutions obtained from ODEs and evaluate the pattern and speed of changes in phenomena."
+      "body": "Be able to perform basic data processing using Excel."
     },
     {
       "index": "⑤",
       "type": "C",
-      "body": "Be able to understand the meanings of fundamental english words for mathematics."
+      "body": "Understand the meanings of fundamental english words for mathematics."
     },
     {
       "index": "⑥",
       "type": "A",
-      "body": "Be able to understand the class contents by completing the homework and attending every class."
+      "body": "Be able to demonstrate an understanding of all class material, attend every class, and complete the handouts."
     }
   ],
   "evaluationWeights": [
     {
       "label": "総合評価割合",
       "values": [
-        "30",
+        "25",
         "20",
         "20",
+        "10",
         "0",
         "0",
-        "0",
-        "30",
+        "25",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -82,20 +81,20 @@
     {
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
-        "30",
+        "25",
         "20",
         "20",
+        "10",
         "0",
         "0",
-        "0",
-        "30",
+        "25",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -105,20 +104,20 @@
     {
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
-        "30",
+        "25",
         "20",
         "20",
+        "10",
         "0",
         "0",
-        "0",
-        "30",
+        "25",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -139,9 +138,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -149,7 +148,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -162,9 +161,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -185,9 +184,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -196,118 +195,118 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "(1) Understand the concept of ODEs and accurately explain the geometric properties of the solutions.\n(2) Construct accurate mathematical models with ODEs from scientific and social phenomena.\n(3) Accurately analyze the structure of ODEs and select an appropriate solution method.\n(4) Draw the graph of the solution of an ODEs and clearly explain the behavior of the solution.\n(5) Accurately analyze the behavior of solutions, predict future states of a phenomenon, obtain optimal solutions, and explain the reason for the predictions.\n(6) Understand and successfully complete all homework.",
-    "standard": "(1) Understand the concept of ODEs and explain the geometric properties of the solutions.\n(2) Construct mathematical models with ODEs from scientific and social phenomena.\n(3) Analyze the structure of ODEs and select an appropriate solution method.\n(4) Draw the graph of the solution of an ODE and explain the behavior of the solution.\n(5) Analyze the behavior of solutions, predict future states of a phenomenon, and obtain optimal solutions.\n(6) Understand and complete all homework."
+    "ideal": "Demonstrate a 90% achievement level in the following areas: (1) Correctly calculate permutations and combinations. (2) Correctly calculate probabilities and conditional probabilities, and apply Bayes' theorem. (3) Understand the concept of probability and be able to apply it to actual probabilistic problems. (4) Understand the basics of statistics, accurately determine characteristic values of data, and create effective data visualizations.",
+    "standard": "Demonstrate a 60% achievement level in the following areas: (1) Calculate permutations and combinations. (2) Calculate probabilities and conditional probabilities, and apply Bayes' theorem. (3) Understand the concept of probability and be able to apply it to actual probabilistic problems. (4) Understand the basics of statistics, accurately determine characteristic values of data, and create effective data visualizations."
   },
   "clipProcess": "",
   "lessons": [
     {
       "index": "1",
-      "content": "Course introduction\n\nBasic concept of 1st order ODEs Geometrical\nmeaning and direction fields of 1st order ODEs",
-      "operation": "Instruction\n\nLecture and exercise",
-      "assignments": "Review: Basic concept of 1st\n  order ODEs, Geometrical\n  meaning and direction fields\n  of 1st order ODEs\nPreview: Separable ODEs",
-      "minutes": "60\n\n30"
+      "content": "Course introduction Permutations/combinations",
+      "operation": "Lecture and Q&A",
+      "assignments": "Read the syllabus and confirm the student's target (1) Understand the contents shown on the left (2) Prepare for class 2",
+      "minutes": "(1) 30 (2) 60"
     },
     {
       "index": "2",
-      "content": "Separable ODEs\nTransformation to separable form\nModeling",
-      "operation": "Lecture and exercise",
-      "assignments": "Review: Separable ODEs,\n  Modeling\nPreview: Exact ODEs",
-      "minutes": "60\n\n30"
+      "content": "Events and probabilities",
+      "operation": "Lecture and practice",
+      "assignments": "(1) Exercise with the contents shown on the left (2) Prepare for class 3",
+      "minutes": "(1) 60 (2) 60"
     },
     {
       "index": "3",
-      "content": "Exact ODEs\nIntegrating factors",
-      "operation": "Lecture and exercise",
-      "assignments": "Review: Exact ODEs,\n  Integrating factors\nPreview: 1st order linear ODEs",
-      "minutes": "60\n\n30"
+      "content": "Review on contents of classes 1 to 2 Exercises on permutations, combinations, events and probability",
+      "operation": "Lecture and practice",
+      "assignments": "(1) Exercise with the contents shown on the left (2) Prepare for quiz",
+      "minutes": "(1) 120"
     },
     {
       "index": "4",
-      "content": "1st order linear ODEs\nBernoulli equation",
-      "operation": "Lecture and exercise",
-      "assignments": "Review: 1st order linear ODEs\nPreview: Modeling",
-      "minutes": "60\n30"
+      "content": "Quiz on contents of classes 1 to 2 Conditional probability (1)",
+      "operation": "Lecture and practice",
+      "assignments": "(1) Exercises with the contents shown on the left (2) Prepare for class 5",
+      "minutes": "(1) 60 (2) 60"
     },
     {
       "index": "5",
-      "content": "Modeling:\n Mixing problems, Population dynamics, Electric\ncircuits",
-      "operation": "Lecture and exercise",
-      "assignments": "Review: Modeling,\n  mixing problems\nPreview: Quiz 1",
-      "minutes": "60\n\n60"
+      "content": "Quiz description Conditional probability (2)",
+      "operation": "Quiz Lecture and practice",
+      "assignments": "(1) Self-reflection (2) Prepare for class 6",
+      "minutes": "(1) 60 (2) 30 (3) 30"
     },
     {
       "index": "6",
-      "content": "Quiz 1\n\nComputing project 1",
-      "operation": "Quiz 1\n\nComputing project",
-      "assignments": "Review: Computing project 1\nPreview: Computing project 1",
-      "minutes": "30\n30"
+      "content": "Bayes' theorem",
+      "operation": "Lecture and practice",
+      "assignments": "(1) Exercise with the contents shown on the left (2) Prepare for class 7",
+      "minutes": "(1) 60 (2) 60"
     },
     {
       "index": "7",
-      "content": "Computing project 1\n(Continuation from last class)",
-      "operation": "Computing project\n\nSelf-check",
-      "assignments": "Review: Computing project 1\nPreview: 2nd order linear ODEs",
-      "minutes": "90\n30"
+      "content": "Review on contents of classes 1 to 6 Exercises on conditional probability and Bayes' theorem",
+      "operation": "Lecture and practice",
+      "assignments": "(1) Exercise with the contents shown on the left (2) Prepare for final exam",
+      "minutes": "(1) 120"
     },
     {
       "index": "8",
-      "content": "2nd order homogeneous linear ODEs\nConstant coefficient equations\nComplex exponential functions\nModeling:\n  free oscillations of a mass-spring system",
-      "operation": "Lecture and exercise",
-      "assignments": "Review: 2nd order homogeneous\n  linear ODEs\nPreview: Wronskian,\n  Nonhomogeneous ODEs",
-      "minutes": "60\n\n30"
+      "content": "Final exam Summation symbols",
+      "operation": "Final exam Lecture and practice",
+      "assignments": "(1) Exercises with the contents shown on the left (2) Prepare for class 9",
+      "minutes": "(1) 60 (2) 60"
     },
     {
       "index": "9",
-      "content": "Existence and uniqueness of solutions\nWronskian\nNonhomogeneous equation\nMethod of undetermined coefficients",
-      "operation": "Lecture and exercise",
-      "assignments": "Review: Method of undetermined\n  coefficients\nPreview: Solution by variation\n  of parameters",
-      "minutes": "60\n\n30"
+      "content": "Final exam description Descriptive statistics (univariate)",
+      "operation": "Self-reflection Lecture and practice",
+      "assignments": "(1) Exercises with the contents shown on the left (2) Prepare for class 10",
+      "minutes": "(1) 60 (2) 30 (3) 30"
     },
     {
       "index": "10",
-      "content": "Solution by variation of parameters\nModeling: forced oscillations, resonance.",
-      "operation": "Lecture and exercise",
-      "assignments": "Review: Solution by variation\n  of parameters\nPreview: Quiz 2",
-      "minutes": "60\n\n60"
+      "content": "Descriptive statistics (bivariate)",
+      "operation": "Lecture and practice",
+      "assignments": "(1) Exercises with the contents shown on the left (2) Prepare for class 11",
+      "minutes": "(1) 60 (2) 60"
     },
     {
       "index": "11",
-      "content": "Quiz 2\n\nVector, matrix, eigenvalue problem",
-      "operation": "Quiz 2\n\nLecture and exercise",
-      "assignments": "Review: Vector, matrix,\n  eigenvalue problems\nPreview: Systems of ODEs",
-      "minutes": "30\n\n30"
+      "content": "Statistical processing of data using Excel (1) Data characteristic values (mean and variance) Frequency distribution table and histogram Calculation of average and variance",
+      "operation": "Lecture and practice",
+      "assignments": "(1) Exercise with the contents shown on the left (2) Prepare for class 12",
+      "minutes": "(1) 60 (2) 60"
     },
     {
       "index": "12",
-      "content": "Systems of ODEs\nModeling: coupled oscillations,\n  electrical network, mixing problem",
-      "operation": "Lecture and exercise\n\nSelf-check",
-      "assignments": "Review: Systems of ODEs,\n  Modeling\nPreview: Computing project 2",
-      "minutes": "60\n\n30"
+      "content": "Statistical processing of data using Excel (2) Covariance and correlation coefficient Correlation diagram and regression line Calculation of correlation coefficient Drawing a correlation diagram Reporting",
+      "operation": "Lecture and practice",
+      "assignments": "(1) Exercise with the contents shown on the left (2) Prepare for class 13",
+      "minutes": "(1) 60 (2) 60"
     },
     {
       "index": "13",
-      "content": "Computing project 2",
-      "operation": "Computing project",
-      "assignments": "Review: Computing project 2\nPreview: Final exam.",
-      "minutes": "30\n90"
+      "content": "Statistical processing of data using Excel (3) Team activities for presentation",
+      "operation": "Lecture and practice",
+      "assignments": "(1) Exercise with the contents shown on the left (2) Organize data and prepare for presentation",
+      "minutes": "(1) 60 (2) 60"
     },
     {
       "index": "14",
-      "content": "Total review\nFinal exam.",
-      "operation": "Exercise\nFinal exam.",
-      "assignments": "Review: Final exam.\nSelf-check: Confirmation of\n  submission, attendance",
-      "minutes": "60"
+      "content": "Presentation on statistical data",
+      "operation": "Discussion and practice",
+      "assignments": "(1) Summarize group report",
+      "minutes": "(1) 120"
     },
     {
       "index": "15",
-      "content": "Review of final exam.\nSelf-check",
-      "operation": "Review of final exam.\nSelf-check\nQuestionnaire",
-      "assignments": "Review: Final exam.",
-      "minutes": "30"
+      "content": "Self-reflection",
+      "operation": "Self-reflection Questionnaire survey",
+      "assignments": "(1) Confirm learning and deepen understanding (2) Self-check",
+      "minutes": "(1) 60 (2) 60"
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　G159-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Mathematics, Science, Data Science and AI Program\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Mathematics and Science ProgramMathematics and Science Courses\n\n                アドバンスト数理Ｂ\n                Advanced Mathematics B\n\n              2\n              G159-01\n\n                2026年度\n\n                1st year 2nd semester2nd year 2nd semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  KUDO Tomoshige, KITAJIMA Takahiro\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.1st order ODEs and properties of their solutions\n2.2nd order homogeneous linear ODEs\n3.2nd order inhomogeneous linear ODEs\n4.Simultaneous systems of linear ODEs\n5.Mathematical models for phenomena and analyses of their solutions\n\n              Various issues in engineering, science and social science are often described by differential equations. Students will learn how to solve 1st order ordinary differential equations (ODEs), 2nd order constant-coefficient linear ODEs and systems of simultaneous linear ODEs, and will understand (1) how to construct mathematical models of phenomena, (2) solution method and geometrical concept and (3) how to analyze solution properties and characteristics. Students will learn the fundamentals of programming to develop the generic ability to analyze physical phenomena.\n\n              授業の概要および学習上の助言\n\n              In the class, the students will learn differential equations (ODEs): (1) 1st order ODEs, (2) 2nd order constant-coefficient linear ODEs (homogeneous and inhomogeneous ODEs), and (3) systems of 1st order simultaneous linear ODEs. The students will learn the following analytical methods:\n(I) How to express physical and social phenomena with ODEs (construction of mathematical models).\n(II) How to solve specific types of ODEs and how to think geometrically about phenomena by means of solution curves and direction fields.\n(III) Analytical methods in which students will analyze obtained solutions and acquire information pertinent to the activities of engineers such as the pattern and the speed of changes in various phenomena.\nAfter the student learn the main themes of ODEs, the students will apply the above knowledge (I), (II), and (III) to computing projects by using formula manipulation system, and submit a report of their results.\nIn the class, the students will use MATLAB in the following activities:\n1) Visualizing the solutions for ODEs and thinking geometrically.\n2) Setting and evaluating the parameters of ODEs.\n3) Modeling physical phenomena and deriving and analyzing their solutions.\nTherefore, the students should install MATLAB on individual notebook computer, and should master basic usage of MATLAB beforehand.\n\n              教科書および参考書・リザーブドブック\n\n              Textbooks：Advanced Engineering Mathematics 1: Ordinary Differential Equation (8th Edition) [Baifukan]\nReference books：None\nReserved books：Advanced Engineering Mathematics, 10th Edition [John Wiley & Sons, Inc.]\n\n              履修に必要な予備知識や技能\n\n              Knowledge of differential and integral calculations, basic differential equations, and linear algebra in the subjects: Integrated Math and Science for Engineering I & II, Linear Algebra I & II.\nBasic computer skills for computing projects.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                D\n                Be able to construct 1st order ODEs for various phenomena and obtain the solutions.\n\n                ②\n                D\n                Be able to construct 2nd order linear ODEs for various phenomena and obtain the solutions.\n\n                ③\n                D\n                Be able to construct simultaneous systems of 1st order ODEs for various phenome",
-  "courseId": "2026:fall:G159-01:0:63",
+  "rawText": "金沢工業大学 学習支援計画書 G155-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nMathematics, Science, Data Science and AI Program\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Mathematics and Science Program\nMathematics and Science Courses\n情報のための数学Ⅱ(再履修クラス)\nMathematics for Informatics II  2 G155-01  2024年度\n 1st year 2nd semester  修学規程第4条を参照\n    担当教員名\n TANIGUCHI Tetsuya, UESU Hiroaki, TAKAI Yuuki, NAKAGAWA Hayato, NISHI Makoto\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.permutations/combinations 2.probability and conditional probability 3.bayes' theorem 4.basics of statistics 5.organization of data using Excel  Students will: (1) Learn basic probabilities, conditional probabilities, and Bayes' theorem. (2) Learn basic data organization and statistics. (3) Be able to organize data using Excel.\n    授業の概要および学習上の助言   This is a basic course in mathematics and statistics. We will cover the following topics: 1. Basic probabilities: Permutations and combinations, probabilities, conditional probabilities and Bayes' theorem. 2. A data analysis method using statistics: Frequency distribution table, histogram, correlation diagram, mean/variance, covariance/correlation coefficient. Students are expected to understand above materials. Students are expected to process data using Excel (computer spreadsheet software). Students are expected to complete the exercises on their own without consulting/copying others. Students are expected to utilize the Math. and Science Education Research Center or the office hours of the teacher.\n    教科書および参考書・リザーブドブック   Textbooks: Mathematics for Information Science I・II (Kanazawa Institute of Technology) Reference books: None Reserved books: None\n    履修に必要な予備知識や技能   Basic knowledge of probability and statistics learned in high school is desirable.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① D Be able to understand probabilities, conditional probabilities and Bayes' theorem.    ② D Be able to understand basic descriptive statistics.   ③ D Be able to understand probabilities, conditional probabilities, and Bayes' theorem.   ④ D Be able to perform basic data processing using Excel.   ⑤ C Understand the meanings of fundamental english words for mathematics.   ⑥ A Be able to demonstrate an understanding of all class material, attend every class, and complete the handouts.\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 25 20 20 10 0 0 25 100     指標と評価割合 総合評価割合 25 20 20 10 0 0 25 100   総合力指標 知識を取り込む力 25 20 20 10 0 0 25 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ Students will be evaluated on final exam. Performance on the exam will comprise 25% of the overall evaluation. The exam is designed to determine whether the student has acquired sufficient knowledge and has the ability to apply the learned skills. The scope of the final examination will be the content of all classes throughout the term.   ② レ   ③     ④     ⑤ レ   ⑥     クイズ\n小テスト ① レ Students will be evaluated on quiz. Quiz will comprise 20% of the overall evaluation. Students will be able to check their level of understanding based on quiz results.   ② レ   ③     ④     ⑤ レ   ⑥     レポート ①   Students will be evaluated on report. Students will organize the data, consider the analysis results, and summarize their work in a report. The report will comprise 20% of the overall evaluation.   ②     ③ レ   ④ レ   ⑤ レ   ⑥ レ   成果発表\n(口頭・実技) ①   Students will be evaluated on presentation. Each team will present the results of their analysis and will be evaluated on their presentation materials (presentation script, slides, etc.) The presentation will comprise 10% of the overall evaluation.   ②     ③ レ   ④ レ   ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ①   Students will be evaluated on attendance, exercises, homework etc. An ev",
+  "courseId": "2024:fall:G613-01:0:63",
   "language": "en"
 }

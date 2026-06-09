@@ -1,66 +1,63 @@
 {
   "sourceIndex": 213,
   "sourceUrl": "/opsyllabus/kitos0110/213/1",
-  "importedAt": "2026-06-08T09:33:57.510Z",
-  "title": "航空宇宙材料",
-  "subtitle": "Materials for Aircraft and Spacecraft",
-  "courseType": "Major ProgramMajor Courses",
+  "importedAt": "2026-06-09T01:29:21.069Z",
+  "title": "航空原動機",
+  "subtitle": "Aeroengines",
+  "courseType": "Major Program\nMajor Courses",
   "credits": "2",
-  "term": "2026年度\n\n                3rd year 2nd semester",
+  "term": "2024年度\n 3rd year 2nd semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "OGURI Kazuyuki"
+    "HIROMITSU Nagayoshi"
   ],
   "keywords": [
-    "New materials for aircraft",
-    "Lightning-resistant technology for aircraft",
-    "Electromagnetic wave shield technology for aircraft",
-    "Materials for spacecraft"
+    "Cycle Performance of Gas Turbine and Jet Engine 2.Compressor 3.Combustor 4.Turbine 5.Utilization of database"
   ],
-  "educationalGoal": "New materials such as carbon fiver reinforced plastic and Al-Li alloy are applied for resent aircraft from view points of high functioning and earth-friendly aspects. Students firstly learn some details of materials learned at Materials for Aircraft Structure I and then new materials. Students secondly learn new topics such as lightning-resistant technology and electromagnetic wave shield and stealth technology, and their materials. Student thirdly learn materials for spacecraft.\nStudents will also learn about possible local job market in aerospace industry.",
-  "advice": "1. Review of materials learned at Materials for Aircraft Structure I\n 1.1 Common metallic materials\n 1.2 Existing composite of materials\n2. New materials for aircraft\n 2.1 New metallic materials\n 2.2 New composite materials\n3. Lightning-resistant technology\n 3.1 Lightning-resistant technology\n 3.2 Lightning-resistant materials\n4. Electromagnetic wave shield and stealth technology\n 4.1 Electromagnetic wave shield technology\n 4.2 Stealth technology\n 4.3 Materials for electromagnetic shield and stealth\n5. Materials for spacecraft\n 5.1 Heat-resistant materials\n 5.2 Space environmental materials",
-  "books": "Textbooks: Unspecified\nReference books: Unspecified\nReserved books: Unspecified",
-  "requiredKnowledge": "As a prerequisite, it is necessary to fully understand Materials for Aircraft Structure.",
+  "educationalGoal": "Students will: (1)learn the basic principles and system components of gas turbines and jet engines (2)learn the cycle calculations and how to evaluate performances of gas turbines (3)learn the performance of components such as compressor, combustor, turbine (4)learn the technical trend of the jet engines and environmental measures (5)research the status of Aeroengines technologies using a database",
+  "advice": "This is a basic course of the aeroengines (aircraft gas turbines and jet engines) technology. The following subjects will be covered: 1. History, basic principle, and technology development of gas turbines and jet engines 2. Gas turbine cycles and thermodynamic analysis 3. Major performance parameters such as specific thrust, specific fuel consumption, thermal efficiency, propulsive efficiency, and overall efficiency 4. Cycle performance calculation of a turbojet engine 5. Gas turbine engine core components such as compressor, turbine, and combustor 6. Technical trend and environmental measures of jet engines Students will be expected to understand the meaning of technical terms and formulas. Students will be expected to solve the exercises by themselves. Students should be aware of the teacher’s instructions in the class because the schedules of quizzes, tests, and reports may be changed as the class progresses. Students should not be absent from the classes as the handouts may not be received.",
+  "books": "Textbooks: Turbine engine, JAPAN AERONAUTICAL ENGINEERS' ASSOCIATION Reference books: Jet engine, Morikita syuppan Reserved books: None",
+  "requiredKnowledge": "High school level mathematics (especially differential/integral and vector calculations). Basic knowledge of thermodynamics, fluid-dynamics, and heat transfer",
   "activityGoals": [
     {
       "index": "①",
-      "type": "D,J,M",
-      "body": "Be able to explain kinds and properties of new materials for aircraft."
+      "type": "D,J",
+      "body": "Be able to explain the basic principles and system components of gas turbines and jet engines"
     },
     {
       "index": "②",
-      "type": "D,J,M",
-      "body": "Be able to explain which new materials are used in which areas of aircrafts."
+      "type": "D,J",
+      "body": "Be able to perform the cycle calculations and to evaluate cycle performances of gas turbines and jet engines"
     },
     {
       "index": "③",
       "type": "D,J,M",
-      "body": "Be able to explain lightning-resistant technology, electromagnetic wave shield and stealth technology."
+      "body": "Be able to explain about the core components such as compressor, combustor, and turbine"
     },
     {
       "index": "④",
-      "type": "D,J,M",
-      "body": "Be able to explain materials for spacecraft."
+      "type": "D,J,M,N",
+      "body": "Be able to describe and explain the technical trend and environmental measures of gas turbines and jet engines"
     }
   ],
   "evaluationWeights": [
     {
       "label": "総合評価割合",
       "values": [
-        "30",
+        "40",
         "30",
         "30",
         "0",
         "0",
         "0",
-        "10",
+        "0",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -70,20 +67,20 @@
     {
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
-        "30",
+        "40",
         "30",
         "30",
         "0",
         "0",
         "0",
-        "10",
+        "0",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -93,20 +90,20 @@
     {
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
-        "30",
+        "40",
         "30",
         "30",
         "0",
         "0",
         "0",
-        "10",
+        "0",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -127,9 +124,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -137,7 +134,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -150,9 +147,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -173,9 +170,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -184,118 +181,118 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "1. Understand the kinds of new materials and clearly explain the properties in comparison with conventional materials.\n2. Explain which new materials are used in which areas of aircrafts with the reason for application of concrete example.\n3. Explain lightning-resistant technology,  electromagnetic shield technology and stealth technology with the understanding of their principles and the methods.\n4. Explain the necessary properties of materials on the purposes for spacecraft.",
-    "standard": "1. Understand the kinds of new materials and explain the properties.\n2. Explain representative example which new materials are used in which areas of aircrafts.\n3. Explain the outline of lightning-resistant technology,  electromagnetic shield technology and stealth technology.\n4. Explain the representative materials for spacecraft."
+    "ideal": "(1) Be able to explain properly the basic principles and system components of gas turbines and jet engines (2) Be able to perform correctly the cycle calculations and to evaluate properly cycle performances of gas turbines and jet engines (3) Be able to explain accurately about the components such as compressor, combustor, and turbine (4) Be able to describe fully and explain appropriately the trend of technical development for future engines",
+    "standard": "(1) Be able to explain the basic principles and system components of gas turbines and jet engines (2) Be able to perform the cycle calculations and to evaluate cycle performances of gas turbines and jet engines (3) Be able to explain about the components such as compressor, combustor, and turbine (4) Be able to describe and explain the trend of technical development for future engines"
   },
   "clipProcess": "",
   "lessons": [
     {
       "index": "1",
-      "content": "Introduction to the course.\nReview the metallic materials learned at\nMaterials for Aircraft Structure I (Part 1).",
-      "operation": "Lecture, Q&A\nSelf-check",
-      "assignments": "Preview metallic materials\nlearned at Materials for\nAircraft Structure I.\nReview metallic materials for\nAircraft Structure.",
-      "minutes": "30\n\n30"
+      "content": "Introduction of Aeroengines Schedule and contents Overview of gas turbines and jet engines",
+      "operation": "Lecture Practice Q&A",
+      "assignments": "Read through the text and references Review the lecture",
+      "minutes": "45 90"
     },
     {
       "index": "2",
-      "content": "Review the metallic materials learned at\nMaterials for Aircraft Structure I (Part 2).",
-      "operation": "Lecture, Q&A\nSelf-check",
-      "assignments": "Preview metallic materials\nlearned at Materials for\nAircraft Structure I.\nReview metallic materials for\nAircraft Structure.",
-      "minutes": "30\n\n30"
+      "content": "Principle of jet engine's pulpusion Classification and feature of jet engines Jet engine development Turbofan, Turboprop, Turboshaft engines Basic thermodynamics",
+      "operation": "Lecture Practice Q&A",
+      "assignments": "Read through the text and references Review the lecture",
+      "minutes": "30 120"
     },
     {
       "index": "3",
-      "content": "Review the composite materials learned at\nMaterials for Aircraft Structure I.",
-      "operation": "Lecture, Q&A\nSelf-check",
-      "assignments": "Preview composite materials\nlearned at Materials for\nAircraft Structure I.\nReview composite materials\nfor Aircraft Structure.",
-      "minutes": "30\n\n30"
+      "content": "Principles of turbine engines and heat cycle(1)",
+      "operation": "Lecture Practice Q&A",
+      "assignments": "Read through the text and references Review the lecture",
+      "minutes": "30 120"
     },
     {
       "index": "4",
-      "content": "Review classes 1 to 3.\nTest No. 1 on classes 1 to 3.",
-      "operation": "Revies, Q&A\nTest No. 1\nSelf-check",
-      "assignments": "Preview content of classes 1\nto 3 and understand the\ncontent.\nReview Test No. 1 and\nunderstand points of\ndifficulty.",
-      "minutes": "60\n\n60"
+      "content": "Small test (1):Covering class 1-3 Principles of turbine engines and heat cycle(2)",
+      "operation": "Small test Lecture Practice Q&A",
+      "assignments": "Review subjects of the last classes and solve exercises of text Review and understand the test",
+      "minutes": "90 90"
     },
     {
       "index": "5",
-      "content": "Learn new metallic materials for aircraft",
-      "operation": "Lecture, Q&A\nSelf-check",
-      "assignments": "Preview new metallic\nmaterials for aircraft.\nReview new metallic materials\nfor aircraft.",
-      "minutes": "30\n\n30"
+      "content": "Principles of turbine engines and heat cycle(3)",
+      "operation": "Lecture Practice Q&A",
+      "assignments": "Read through the text and references Review the lecture",
+      "minutes": "30 120"
     },
     {
       "index": "6",
-      "content": "Learn new composite materials for aircraft.",
-      "operation": "Lecture, Q&A\nSelf-check",
-      "assignments": "Preview new composite\nmaterials for aircraft.\nReview new composite\nmaterials for aircraft.",
-      "minutes": "30\n\n30"
+      "content": "Engine performance parameters Specific thrust, specific fuel consumption, thermal efficiency, propulsive efficiency",
+      "operation": "Lecture Practice Q&A",
+      "assignments": "Read through the text and references Review the lecture",
+      "minutes": "30 120"
     },
     {
       "index": "7",
-      "content": "Learn lightning-resistant technology for\naircraft.",
-      "operation": "Lecture, Q&A\nSelf-check",
-      "assignments": "Preview lightning-resistant\ntechnology for aircraft.\nReview lightning-resistant\ntechnology for aircraft.",
-      "minutes": "30\n\n30"
+      "content": "External factors which affect engine power Atmospheric conditions, flight altitude and speed",
+      "operation": "Lecture Practice Q&A",
+      "assignments": "Read through the text and references Review the lecture",
+      "minutes": "30 120"
     },
     {
       "index": "8",
-      "content": "Learn materials for lightning-resistant\ntechnology for aircraft.",
-      "operation": "Lecture, Q&A\nSelf-check",
-      "assignments": "Preview materials for\nlightning-resistant\ntechnology for aircraft.\nReview materials for\nlightning-resistant\ntechnology for aircraft.",
-      "minutes": "30\n\n30"
+      "content": "Midterm review Small test (2):Covering class 5-7",
+      "operation": "Small test Lecture Practice Q&A",
+      "assignments": "Review subjects of the last classes and solve exercises of text Review and understand the test",
+      "minutes": "90 90"
     },
     {
       "index": "9",
-      "content": "Midterm review, practice and discussion on\nclasses 5 to 8.\nCheck understanding with Test No. 2.",
-      "operation": "Revies, Q&A\nTest No. 2\nSelf-check",
-      "assignments": "Review classes 5 to 8.\nReview Test No. 2 and\nunderstand points of\ndifficulty.",
-      "minutes": "60\n\n60"
+      "content": "Compressor, combustor and turbine(1) Basic structure and function of the core components of the gas turbine",
+      "operation": "Lecture Practice Q&A",
+      "assignments": "Preview chapter 5-4 of the text Review the lecture",
+      "minutes": "30 120"
     },
     {
       "index": "10",
-      "content": "Learn electromagnetic wave shield and stealth\ntechnology.",
-      "operation": "Lecture, Q&A\nSelf-check",
-      "assignments": "Preview electromagnetic wave\nshield and stealth technology.\n\nReview electromagnetic wave\nshield and stealth technology.",
-      "minutes": "30\n\n30"
+      "content": "Compressor, combustor and turbine(2) Basic structure and function of the core components of the gas turbine",
+      "operation": "Lecture Practice Q&A",
+      "assignments": "Read through the text and references Review the lecture",
+      "minutes": "30 120"
     },
     {
       "index": "11",
-      "content": "Learn materials for electromagnetic wave shield\nand stealth technology.",
-      "operation": "Lecture, Q&A\nSelf-check",
-      "assignments": "Preview materials for\nelectromagnetic wave shield\nand stealth technology.\nReview materials for\nelectromagnetic wave shield\nand stealth technology.",
-      "minutes": "30\n\n30"
+      "content": "Compressor, combustor and turbine(3) Basic structure and function of the core components of the gas turbine environmental compatibility",
+      "operation": "Lecture Practice Q&A",
+      "assignments": "Lecture Practice Q&A",
+      "minutes": "30 120"
     },
     {
       "index": "12",
-      "content": "Learn materials for spacecraft such as rocket\nand satellite.",
-      "operation": "Lecture, Q&A\nSelf-check",
-      "assignments": "Preview materials for\nspacecraft such as rockets\nand satellite.\nReview materials for\nspacecraft such as rockets\nand satellite.",
-      "minutes": "30\n\n30"
+      "content": "Small test (3):Covering class 9-12 Overall review(1)",
+      "operation": "Small test Lecture Practice Q&A",
+      "assignments": "Review subjects of the last classes and solve exercises of text Review and understand the test",
+      "minutes": "90 90"
     },
     {
       "index": "13",
-      "content": "Learn materials for space reentry vehicle.",
-      "operation": "Lecture, Q&A\nSelf-check",
-      "assignments": "Preview materials for space\nreentry vehicle.\nReview materials for space\nreentry vehicle.",
-      "minutes": "30\n\n30"
+      "content": "Final exam :Covering class 1-12 Overall review(2)",
+      "operation": "Final examination Lecture Q&A",
+      "assignments": "Review subjects of all the classes and solve exercises of text Review and understand the test",
+      "minutes": "150 60"
     },
     {
       "index": "14",
-      "content": "Review and discussion of all classes.\nExamination.",
-      "operation": "Practice, discussion\nExamination\nSelf-check",
-      "assignments": "Review all classes.",
-      "minutes": "120"
+      "content": "Future tecnologies of aeroengines The technical directions of the future aeroengines The reduction technologies of CO2, NOx, PM",
+      "operation": "Lecture Q&A",
+      "assignments": "Preparation: Think about the technical directions of the future aeroengines Review: Understand the lecture and prepare a report",
+      "minutes": "60 90"
     },
     {
       "index": "15",
-      "content": "Review of examination.\nSelf-evaluation.",
-      "operation": "Explanation of\nexamination and overall\ncomments.\nSelf-check",
-      "assignments": "Understand points of\ndifficulty and reflect based\non target abilities.",
-      "minutes": "60"
+      "content": "Review of the final examination Self-evaluation",
+      "operation": "Lecture Q&A Self-reflection",
+      "assignments": "Preparation: list up items which you cannot understand Review the lecture or Q&A",
+      "minutes": "60 60"
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　E140-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Aeronautics and Astronautics(〜2024)\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                航空宇宙材料\n                Materials for Aircraft and Spacecraft\n\n              2\n              E140-01\n\n                2026年度\n\n                3rd year 2nd semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  OGURI Kazuyuki\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.New materials for aircraft\n2.Lightning-resistant technology for aircraft\n3.Electromagnetic wave shield technology for aircraft\n4.Materials for spacecraft\n\n              New materials such as carbon fiver reinforced plastic and Al-Li alloy are applied for resent aircraft from view points of high functioning and earth-friendly aspects. Students firstly learn some details of materials learned at Materials for Aircraft Structure I and then new materials. Students secondly learn new topics such as lightning-resistant technology and electromagnetic wave shield and stealth technology, and their materials. Student thirdly learn materials for spacecraft.\nStudents will also learn about possible local job market in aerospace industry.\n\n              授業の概要および学習上の助言\n\n              1. Review of materials learned at Materials for Aircraft Structure I\n 1.1 Common metallic materials\n 1.2 Existing composite of materials\n2. New materials for aircraft\n 2.1 New metallic materials\n 2.2 New composite materials\n3. Lightning-resistant technology\n 3.1 Lightning-resistant technology\n 3.2 Lightning-resistant materials\n4. Electromagnetic wave shield and stealth technology\n 4.1 Electromagnetic wave shield technology\n 4.2 Stealth technology\n 4.3 Materials for electromagnetic shield and stealth\n5. Materials for spacecraft\n 5.1 Heat-resistant materials\n 5.2 Space environmental materials\n\n              教科書および参考書・リザーブドブック\n\n              Textbooks: Unspecified\nReference books: Unspecified\nReserved books: Unspecified\n\n              履修に必要な予備知識や技能\n\n              As a prerequisite, it is necessary to fully understand Materials for Aircraft Structure.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                D,J,M\n                Be able to explain kinds and properties of new materials for aircraft.\n\n                ②\n                D,J,M\n                Be able to explain which new materials are used in which areas of aircrafts.\n\n                ③\n                D,J,M\n                Be able to explain lightning-resistant technology, electromagnetic wave shield and stealth technology.\n\n                ④\n                D,J,M\n                Be able to explain materials for spacecraft.\n\n                ⑤\n\n                ⑥\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                30\n\n                30\n\n                30\n\n                0\n\n                0\n\n                0\n\n                10\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                30\n\n                30\n\n                30\n\n                0\n\n                0\n\n                0\n\n                10\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                30\n\n                30\n\n                30\n\n                0\n\n                0\n\n                0\n\n                10\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n              ",
-  "courseId": "2026:fall:E140-01:0:213",
+  "rawText": "金沢工業大学 学習支援計画書 E126-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Aeronautics\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n航空原動機\nAeroengines  2 E126-01  2024年度\n 3rd year 2nd semester  修学規程第4条を参照\n    担当教員名\n HIROMITSU Nagayoshi\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Cycle Performance of Gas Turbine and Jet Engine 2.Compressor 3.Combustor 4.Turbine 5.Utilization of database  Students will: (1)learn the basic principles and system components of gas turbines and jet engines (2)learn the cycle calculations and how to evaluate performances of gas turbines (3)learn the performance of components such as compressor, combustor, turbine (4)learn the technical trend of the jet engines and environmental measures (5)research the status of Aeroengines technologies using a database\n    授業の概要および学習上の助言   This is a basic course of the aeroengines (aircraft gas turbines and jet engines) technology. The following subjects will be covered: 1. History, basic principle, and technology development of gas turbines and jet engines 2. Gas turbine cycles and thermodynamic analysis 3. Major performance parameters such as specific thrust, specific fuel consumption, thermal efficiency, propulsive efficiency, and overall efficiency 4. Cycle performance calculation of a turbojet engine 5. Gas turbine engine core components such as compressor, turbine, and combustor 6. Technical trend and environmental measures of jet engines Students will be expected to understand the meaning of technical terms and formulas. Students will be expected to solve the exercises by themselves. Students should be aware of the teacher’s instructions in the class because the schedules of quizzes, tests, and reports may be changed as the class progresses. Students should not be absent from the classes as the handouts may not be received.\n    教科書および参考書・リザーブドブック   Textbooks: Turbine engine, JAPAN AERONAUTICAL ENGINEERS' ASSOCIATION Reference books: Jet engine, Morikita syuppan Reserved books: None\n    履修に必要な予備知識や技能   High school level mathematics (especially differential/integral and vector calculations). Basic knowledge of thermodynamics, fluid-dynamics, and heat transfer\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① D,J Be able to explain the basic principles and system components of gas turbines and jet engines   ② D,J Be able to perform the cycle calculations and to evaluate cycle performances of gas turbines and jet engines   ③ D,J,M Be able to explain about the core components such as compressor, combustor, and turbine   ④ D,J,M,N Be able to describe and explain the technical trend and environmental measures of gas turbines and jet engines   ⑤     ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 40 30 30 0 0 0 0 100     指標と評価割合 総合評価割合 40 30 30 0 0 0 0 100   総合力指標 知識を取り込む力 40 30 30 0 0 0 0 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ There is a final examination at the end of the semester to evaluate the degree of achievement. 1. Understanding of technical terms 2. Performing cycle and performance calculation 3. Explaining about the core components and functions The technical calculator specified by the department can be used in the examination.    ② レ   ③ レ   ④ レ   ⑤     ⑥     クイズ\n小テスト ① レ There are some small tests to evaluate the degree of understanding. It is necessary to understand the basic idea behind the formula and to formulate the equation appropriately. 1. Understanding of technical terms 2. Performing easy cycle and performance calculation 3. Explaining about the core components   ② レ   ③ レ   ④ レ   ⑤     ⑥     レポート ①   Students will be required to submit reports discussing the future technical trend and issues of the jet engines. The degree of understanding will be evaluated based on the achievements of the submitted re",
+  "courseId": "2024:fall:E115-01:0:213",
   "language": "en"
 }

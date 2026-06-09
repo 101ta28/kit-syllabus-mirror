@@ -1,75 +1,63 @@
 {
   "sourceIndex": 609,
   "sourceUrl": "/opsyllabus/kitos0110/609/1",
-  "importedAt": "2026-06-08T09:34:05.541Z",
-  "title": "プログラミング基礎Ⅰ（再履修クラス）",
-  "subtitle": "Programming Basics I",
-  "courseType": "Major ProgramMajor Courses",
-  "credits": "2",
-  "term": "2026年度\n\n                1st year 2nd semester",
+  "importedAt": "2026-06-09T01:29:24.689Z",
+  "title": "進路セミナーⅠ",
+  "subtitle": "Career Planning Seminar I",
+  "courseType": "Major Program\nOther Courses",
+  "credits": "1",
+  "term": "2024年度\n 3rd year 1st semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "DEMURA Kosei",
-    "HIRASAWA Kazuki"
+    "SAITO Masashi"
   ],
   "keywords": [
-    "Programming",
-    "C programming language"
+    "Profession and life 2.Goal setting 3.Self-analysis and self-development 4.Career design 5.Regional cooperation"
   ],
-  "educationalGoal": "Students will learn the foundations of the C programming language, as computer programs are essential for developing robots, particularly for implementing motion control and environmental information acquisition.",
-  "advice": "This is a basic course in the C programming language. We will cover the following topics:\n1.\tCreating and running a computer program\n2.\tInput and output\n3.\tVariables\n4.\tExpressions and operators\n5.\tConditional branching\n6.\tIteration\n7.\tArrays\n8.\tFunctions\n\nStudents are expected to actively participate in class.\nStudents are expected to complete exercises independently.\nStudents are required to bring their own laptop computers for use in exercises.\nStudents are required to be aware of the instructor's messages in the class and to check for messages/materials on  the KIT Inside website before every class, as the course schedule may change depending on the class progress.",
-  "books": "Textbook: ISBN 978-4797392586 (in Japanese).",
-  "requiredKnowledge": "Ability to type efficiently.",
+  "educationalGoal": "This course is for an educational goal of the Department of Management Systems to acquire \"Career Design Ability\". Students will: (1) confirm the learning style including self-study, and get ready to become a human resource who can stand up by yourself and contribute to society, (2) Recognize your ability and personality correctly, continue self-development, improve self-management ability and continue to strive for self-realization.",
+  "advice": "This class is conducted in departmental units. (1) Guidance (2) Lecture by career advisor (3) Self-analysis (4) Lectures / practices by career development department staff (5) Corporate research (mainly local companies) (6) Employment practice exam",
+  "books": "None",
+  "requiredKnowledge": "Career seminars I and II, which are held in the 1st semester and the 2nd semester, are mainly courses for job hunting. All students should take these courses whether you are going to plan taking Master’s degree or getting a job. The results of this study will be a reference material for job placement.",
   "activityGoals": [
     {
       "index": "①",
-      "type": "J",
-      "body": "Understand the behavior of a basic C program that includes input/output and create such a program."
+      "type": "P",
+      "body": "Be able to deeply consider the relationship between life design and career path."
     },
     {
       "index": "②",
-      "type": "J",
-      "body": "Understand the behavior of a basic C program that includes a variable and create such a program."
+      "type": "P",
+      "body": "Be able to think and act as needed to find out the right profession."
     },
     {
       "index": "③",
-      "type": "J",
-      "body": "Understand the behavior of a basic C program that includes conditional branching and create such a program."
+      "type": "P",
+      "body": "Be able to define their own policy and goal regarding their professions and to explain logically to others."
     },
     {
       "index": "④",
-      "type": "J",
-      "body": "Understand the behavior of a basic C program that includes iteration and create such a program."
-    },
-    {
-      "index": "⑤",
-      "type": "J",
-      "body": "Understand the behavior of a basic C program that includes an array and create such a program."
-    },
-    {
-      "index": "⑥",
-      "type": "J",
-      "body": "Understand the behavior of a basic C program that includes a user-defined function and create such a program."
+      "type": "P",
+      "body": "Be able to improve their own knowledge, skills, abilities and capacity to achieve their own professional goals."
     }
   ],
   "evaluationWeights": [
     {
       "label": "総合評価割合",
       "values": [
-        "40",
-        "0",
-        "60",
         "0",
         "0",
+        "75",
         "0",
         "0",
+        "0",
+        "25",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -79,20 +67,20 @@
     {
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
-        "40",
-        "0",
-        "60",
         "0",
         "0",
+        "75",
         "0",
         "0",
+        "0",
+        "25",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -102,20 +90,20 @@
     {
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
-        "40",
-        "0",
-        "60",
         "0",
         "0",
+        "75",
         "0",
         "0",
+        "0",
+        "25",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -136,9 +124,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -146,7 +134,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -159,9 +147,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -182,9 +170,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -193,118 +181,62 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "Understand sufficiently the behavior of a C program that includes any combination of input/output, a variable, conditional branching, iteration, an array, and a user-defined function, and create a C program with such features at will.",
-    "standard": "Understand the behavior of a basic C program that includes any combination of input/output, a variable, conditional branching, iteration, an array, and a user-defined function, and create a basic C program with such features."
+    "ideal": "(1) Be able to deeply consider the relationship between life design and career path. (2) Be able to find the right career path, the necessary thoughts and actions. (3) Be able to define their own policy and goal regarding their professions and explain logically to others. (4) Be able to prepare necessary knowledge, skills, abilities and capacity to achieve their own profession goal.",
+    "standard": "(1) Be able to consider the relationship between life design and career path. (2) Be able to find the right career path, the necessary thoughts. (3) Be able to define their own policy and goal regarding their professions and explain to others. (4) Be able to prepare some knowledge, skills, abilities and capacity to achieve their own profession goal."
   },
   "clipProcess": "",
   "lessons": [
     {
       "index": "1",
-      "content": "Course introduction\nTextbook Lesson 1, “The first step”\nTextbook Lesson 2, “The basics of the C\nlanguage”\nSelf-check",
-      "operation": "Lecture (including Q&A)\nand exercises\nSelf-check",
-      "assignments": "Preview: Read the indicated\ntextbook lesson\nReview: Understand the\nclass content",
-      "minutes": "30\n\n60"
+      "content": "- Guidance - Understanding employment and going to master's course environment",
+      "operation": "- Lecture - Review discussion",
+      "assignments": "Review: Organizing the lack of understanding Challenge: Thinking Personal path",
+      "minutes": "250"
     },
     {
       "index": "2",
-      "content": "Textbook Lesson 3, “Variables”\nSelf-check",
-      "operation": "Lecture (including Q&A)\nand exercises\nSelf-check",
-      "assignments": "Preview: Read the indicated\ntextbook lesson\nReview: Understand the\nclass content",
-      "minutes": "30\n\n60"
+      "content": "- How to use the career center",
+      "operation": "- Lecture - Review discussion",
+      "assignments": "Review: Reconfirming your career and career path",
+      "minutes": "60"
     },
     {
       "index": "3",
-      "content": "Textbook Lesson 4, “Expressions and operators”\nSelf-check",
-      "operation": "Lecture (including Q&A)\nand exercises\nSelf-check",
-      "assignments": "Preview: Read the indicated\ntextbook lesson\nReview: Understand the\nclass content",
-      "minutes": "30\n\n60"
+      "content": "- Self-analysis (practicum)",
+      "operation": "- Lecture - Practicum - Review discussion",
+      "assignments": "Preparation: Organizing episodes for self-analysis Review: Completing self-analysis",
+      "minutes": "350"
     },
     {
       "index": "4",
-      "content": "Textbook Lesson 5, “Conditional procedures”(1)\nSelf-check",
-      "operation": "Lecture (including Q&A)\nand exercises\nSelf-check",
-      "assignments": "Preview: Read the indicated\ntextbook lesson\nReview: Understand the\nclass content",
-      "minutes": "30\n\n60"
+      "content": "- Corporate research and analysis",
+      "operation": "- Lecture - Practicum - Review discussion",
+      "assignments": "Review: Completing company research on some companies",
+      "minutes": "300"
     },
     {
       "index": "5",
-      "content": "Textbook Lesson 5, “Conditional procedures”(2)\nSelf-check",
-      "operation": "Lecture (including Q&A)\nand exercises\nSelf-check",
-      "assignments": "Preview: Read the indicated\ntextbook lesson\nReview: Understand the\nclass content",
-      "minutes": "30\n\n60"
+      "content": "- Mock test (SPI-A: Synthetic Personality Inventory)",
+      "operation": "- Mock test",
+      "assignments": "Review: Continuing practice SPI",
+      "minutes": "400"
     },
     {
       "index": "6",
-      "content": "Textbook Lesson 6, “Iteration” (1)\nSelf-check",
-      "operation": "Lecture (including Q&A)\nand exercises\nSelf-check",
-      "assignments": "Review: Understand the\nclass content",
-      "minutes": "60"
+      "content": "- Mock test (General common sense)",
+      "operation": "- Mock test",
+      "assignments": "Review: Being interested in social trends y reading newspapers",
+      "minutes": "300"
     },
     {
       "index": "7",
-      "content": "Textbook Lesson 6, “Iteration” (2)\nSelf-check",
-      "operation": "Lecture (including Q&A)\nand exercises\nSelf-check",
-      "assignments": "Preview: Read the indicated\ntextbook lesson\nReview: Understand the\nclass content",
-      "minutes": "30\n\n60"
-    },
-    {
-      "index": "8",
-      "content": "Midterm examination\nSelf-check",
-      "operation": "Examination\nSelf-check",
-      "assignments": "Review: Understand the\nclass content",
+      "content": "- Business Manners - Self-inspection",
+      "operation": "- Lecture - Self-inspection",
+      "assignments": "Review: Practicing and learning business manners",
       "minutes": "60"
-    },
-    {
-      "index": "9",
-      "content": "Textbook Lesson 7, “Arrays” (1)\n\nSelf-check",
-      "operation": "Lecture (including Q&A)\nand exercises\nSelf-check",
-      "assignments": "Preview: Read the indicated\ntextbook lesson\nReview: Understand the\nclass content",
-      "minutes": "30\n\n60"
-    },
-    {
-      "index": "10",
-      "content": "Textbook Lesson 7, “Arrays” (2)\n\nSelf-check",
-      "operation": "Lecture (including Q&A)\nand exercises\nSelf-check",
-      "assignments": "Review: Understand the\nclass content",
-      "minutes": "60"
-    },
-    {
-      "index": "11",
-      "content": "Textbook Lesson 8, “Functions” (1)\n\nSelf-check",
-      "operation": "Lecture (including Q&A)\nand exercises\nSelf-check",
-      "assignments": "Preview: Read the indicated\ntextbook lesson\nReview: Understand the\nclass content",
-      "minutes": "30\n\n60"
-    },
-    {
-      "index": "12",
-      "content": "Textbook Lesson 8, “Functions” (2)\n\nSelf-check",
-      "operation": "Lecture (including Q&A)\nand exercises\nSelf-check",
-      "assignments": "Review: Understand the\nclass content",
-      "minutes": "60"
-    },
-    {
-      "index": "13",
-      "content": "Exercises\nSelf-check",
-      "operation": "Exercises\nSelf-check",
-      "assignments": "Preview: Review the content of\nclasses 1-12\nReview: Understand the\nclass content",
-      "minutes": "90\n\n90"
-    },
-    {
-      "index": "14",
-      "content": "Exercises\nSemester final examination\nSelf-check",
-      "operation": "Exercises\nExamination\nSelf-check",
-      "assignments": "Preview: Review the content of\nclasses 1-13",
-      "minutes": "180"
-    },
-    {
-      "index": "15",
-      "content": "Review of the semester final examination\nSelf-check",
-      "operation": "Lecture (including Q&A)\nSelf-check",
-      "assignments": "Review: Review the content of\nthe semester final examination",
-      "minutes": "90"
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　C205-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Robotics\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                プログラミング基礎Ⅰ（再履修クラス）\n                Programming Basics I\n\n              2\n              C205-01\n\n                2026年度\n\n                1st year 2nd semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  DEMURA Kosei, HIRASAWA Kazuki\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Programming\n2.C programming language\n\n              Students will learn the foundations of the C programming language, as computer programs are essential for developing robots, particularly for implementing motion control and environmental information acquisition.\n\n              授業の概要および学習上の助言\n\n              This is a basic course in the C programming language. We will cover the following topics:\n1.\tCreating and running a computer program\n2.\tInput and output\n3.\tVariables\n4.\tExpressions and operators\n5.\tConditional branching\n6.\tIteration\n7.\tArrays\n8.\tFunctions\n\nStudents are expected to actively participate in class.\nStudents are expected to complete exercises independently.\nStudents are required to bring their own laptop computers for use in exercises.\nStudents are required to be aware of the instructor's messages in the class and to check for messages/materials on  the KIT Inside website before every class, as the course schedule may change depending on the class progress.\n\n              教科書および参考書・リザーブドブック\n\n              Textbook: ISBN 978-4797392586 (in Japanese).\n\n              履修に必要な予備知識や技能\n\n              Ability to type efficiently.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                J\n                Understand the behavior of a basic C program that includes input/output and create such a program.\n\n                ②\n                J\n                Understand the behavior of a basic C program that includes a variable and create such a program.\n\n                ③\n                J\n                Understand the behavior of a basic C program that includes conditional branching and create such a program.\n\n                ④\n                J\n                Understand the behavior of a basic C program that includes iteration and create such a program.\n\n                ⑤\n                J\n                Understand the behavior of a basic C program that includes an array and create such a program.\n\n                ⑥\n                J\n                Understand the behavior of a basic C program that includes a user-defined function and create such a program.\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                40\n\n                0\n\n                60\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                40\n\n                0\n\n                60\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                40\n\n                0\n\n                60\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  コラボレーションとリーダーシップ\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n         ",
-  "courseId": "2026:fall:C205-01:0:609",
+  "rawText": "金沢工業大学 学習支援計画書 F942-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Management Systems\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nOther Courses\n進路セミナーⅠ\nCareer Planning Seminar I  1 F942-01  2024年度\n 3rd year 1st semester  修学規程第4条を参照\n    担当教員名\n SAITO Masashi\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Profession and life 2.Goal setting 3.Self-analysis and self-development 4.Career design 5.Regional cooperation  This course is for an educational goal of the Department of Management Systems to acquire \"Career Design Ability\". Students will: (1) confirm the learning style including self-study, and get ready to become a human resource who can stand up by yourself and contribute to society, (2) Recognize your ability and personality correctly, continue self-development, improve self-management ability and continue to strive for self-realization.\n    授業の概要および学習上の助言   This class is conducted in departmental units. (1) Guidance (2) Lecture by career advisor (3) Self-analysis (4) Lectures / practices by career development department staff (5) Corporate research (mainly local companies) (6) Employment practice exam\n    教科書および参考書・リザーブドブック   None\n    履修に必要な予備知識や技能   Career seminars I and II, which are held in the 1st semester and the 2nd semester, are mainly courses for job hunting. All students should take these courses whether you are going to plan taking Master’s degree or getting a job. The results of this study will be a reference material for job placement.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① P Be able to deeply consider the relationship between life design and career path.   ② P Be able to think and act as needed to find out the right profession.   ③ P Be able to define their own policy and goal regarding their professions and to explain logically to others.   ④ P Be able to improve their own knowledge, skills, abilities and capacity to achieve their own professional goals.   ⑤     ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 0 0 75 0 0 0 25 100     指標と評価割合 総合評価割合 0 0 75 0 0 0 25 100   総合力指標 知識を取り込む力 0 0 75 0 0 0 25 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ①      ②     ③     ④     ⑤     ⑥     クイズ\n小テスト ①      ②     ③     ④     ⑤     ⑥     レポート ① レ Students will be evaluated on some reports and essays, especially their description and contents comprehensively.   ② レ   ③ レ   ④ レ   ⑤     ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ① レ Students will be evaluated on the followings: (1) Be able to deeply consider the relationship between life design and career path. (2) Be able to think and act as needed to find out the right profession. (3) Be able to define their own policy and goal regarding their professions. (4) Be able to improve their own knowledge, skills, abilities and capacity to achieve their own professional goals.    ② レ   ③ レ   ④ レ   ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     (1) Be able to deeply consider the relationship between life design and career path. (2) Be able to find the right career path, the necessary thoughts and actions. (3) Be able to define their own policy and goal regarding their professions and explain logically to others. (4) Be able to prepare necessary knowledge, skills, abilities and capacity to achieve their own profession goal.  (1) Be able to consider the relationship between life design and career path. (2) Be able to find the right career path, the necessary thoughts. (3) Be able to define their own policy and goal regarding their professions and explain to others. (4) Be able to prepare some knowledge, skills, abilities and capacity to achieve their own profession goal.\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によ",
+  "courseId": "2024:full-year:F922-14:0:609",
   "language": "en"
 }

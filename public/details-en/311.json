@@ -1,72 +1,71 @@
 {
   "sourceIndex": 311,
   "sourceUrl": "/opsyllabus/kitos0110/311/1",
-  "importedAt": "2026-06-08T09:33:59.385Z",
-  "title": "プロジェクトデザインⅢ（森貴之研究室）",
-  "subtitle": "Design Project III(Mori Takayuki)",
-  "courseType": "Major ProgramMajor Project Courses",
-  "credits": "8",
-  "term": "2026年度\n\n                All year",
+  "importedAt": "2026-06-09T01:29:21.922Z",
+  "title": "電気電子コンピュータ工学",
+  "subtitle": "Computer architecture for Electrical and Electronic Engineers",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "2",
+  "term": "2024年度\n 2nd year 2nd semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "MORI Takayuki"
+    "YOKOTANI Tetsuya",
+    "SHIMAUCHI Suehiro",
+    "MIYATA Toshihiro",
+    "HAYASHI Keiji"
   ],
   "keywords": [
-    "Semiconductor Physics",
-    "Semiconductor Device",
-    "Integrated Circuit",
-    "Neuromorphic Device",
-    "Quantum Device"
+    "Computer architecture 2.Operating principles 3.Machine language and assembly language 4.Operating system 5.High performance computing"
   ],
-  "educationalGoal": "Training will be carried out to grow engineers in the electrical & electronic fields with problem-finding ability, solution ability, and application ability through educational programs that emphasize basic knowledge and skills in the fields of electrical engineering and electronic engineering, which are highly important in modern society.",
-  "advice": "This course is the final course of the project design course, including an introduction to project design, and is positioned as a course that integrates the items learned in all courses. Aim to review basic subjects and acquire advanced expertise through experiment and theoretical examination of project themes.\nDivide into teams for each project theme shown below and conduct research activities. Report research progress about once a week and discuss how to proceed.\n\n(1) Ultralow Power Devices\n(2) Ultralow Power Circuits\n(3) Neuromorphic Devices\n(4) Quantum Devices\n(5) Machine Learning for Semiconductor Field",
-  "books": "N/A",
-  "requiredKnowledge": "Review what you have learned in mathematics, semiconductor engineering, and electronic properties.\nEnglish is also required to read academic papers.\nComputer programming skills are also desired.",
+  "educationalGoal": "This course intends to study on basic technologies for computer design and utilization for electrical engineers. This course lectures on dual aspects, e.g. hardware and software. Students can understand whole of basic technologies to make use of computers without hesitation after their graduation, because all of industrial fields need engineers with basic knowledge of computers.",
+  "advice": "Major topics in this course are listed as follows. (1)Background of computer technologies - History of computer, Neumann type computer (2)Computer architecture and implementation (Hardware aspect) - Logical circuit and its operation, CPU architecture, Machine language (3)Introduction of high level language - Summary of typical programing languages, basic syntax of C language (4)Computer architecture and implementation (Software aspect) - Assembly language, High level language, Operating systems, Computing algorithm (5)Latest topics in computer R&D by a guest lecturer - Latest technical trends, Methodology of hardware and software development in the industrial company",
+  "books": "",
+  "requiredKnowledge": "Students should understand the following basic knowledge. - Product image with CPU - Digital circuit and devices - Roughly image of OS and programing language",
   "activityGoals": [
     {
       "index": "①",
-      "type": "M",
-      "body": "To clarify the purpose of the project theme and make a research plan."
+      "type": "K",
+      "body": "Understanding computer basic architecture"
     },
     {
       "index": "②",
-      "type": "G,M",
-      "body": "To consider a problem-solving method of the project theme and execute it safely and continuously."
+      "type": "K",
+      "body": "Understanding position and function of machine, assembly and high level languages"
     },
     {
       "index": "③",
-      "type": "L,M",
-      "body": "To analyze and evaluate the research results correctly based on the social needs."
+      "type": "K",
+      "body": "Understanding configuration and processing flows of CPU"
     },
     {
       "index": "④",
-      "type": "G,L,M",
-      "body": "To discuss actively in group and make a presentation on research results effectively"
+      "type": "K",
+      "body": "Understanding configuration of peripheral devices focusing on storage devices"
     },
     {
       "index": "⑤",
-      "type": "I,M",
-      "body": "To summarize the research results as project reports.."
+      "type": "K",
+      "body": "Understanding objectives and functions of OS"
     }
   ],
   "evaluationWeights": [
     {
       "label": "総合評価割合",
       "values": [
-        "0",
-        "0",
-        "50",
         "40",
+        "60",
         "0",
-        "10",
+        "0",
+        "0",
+        "0",
         "0",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -76,20 +75,20 @@
     {
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
-        "0",
-        "0",
-        "50",
         "40",
+        "60",
         "0",
-        "10",
+        "0",
+        "0",
+        "0",
         "0",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -99,20 +98,20 @@
     {
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
-        "0",
-        "0",
-        "50",
         "40",
+        "60",
         "0",
-        "10",
+        "0",
+        "0",
+        "0",
         "0",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -133,9 +132,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -143,7 +142,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -156,9 +155,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -179,9 +178,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -190,12 +189,118 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "The significance and purpose of the project theme are fully understood, and research activities are actively promoted. The research contents and results can be explained to others in an easy-to-understand manner. The achievement can be summarized in papers and/or presented at academic conferences.",
-    "standard": "The significance and purpose of the project theme are understood, and the contents can be explained. The problems in the research can be pointed out. Application of research results in related fields can be proposed. Design and fabrication of the equipment necessary to carry out research on the project theme can be done. Research results can be presented at the Project Design III presentation review, and related academic societies, meetings, and good discussions can be made in Q&A sessions. Research activities can be continued based on the research plan until the end of the project."
+    "ideal": "Students can explain following items with precision. -Key functional blocks in a computer and operations among these blocks -Simple program codes by machine, assembly and high level languages -Configuration and processing flows by assembly language in CPU -Functions of OS with some examples -High performance computing technology with some examples Through these knowledges, students can design A Simple Computer (ASC) which is an educational reference model.",
+    "standard": "Students can explain roughly following items without hesitations -Key functional blocks in a computer and operations among these blocks -Simple program codes by machine, assembly and high level languages -Configuration and processing flows by assembly language in CPU -Functions of OS -High performance computing technology"
   },
   "clipProcess": "",
-  "lessons": [],
-  "rawText": "金沢工業大学　学習支援計画書　E927-32\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Electrical and Electronic Engineering(〜2024)\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Project Courses\n\n                プロジェクトデザインⅢ（森貴之研究室）\n                Design Project III(Mori Takayuki)\n\n              8\n              E927-32\n\n                2026年度\n\n                All year\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  MORI Takayuki\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Semiconductor Physics\n2.Semiconductor Device\n3.Integrated Circuit\n4.Neuromorphic Device\n5.Quantum Device\n\n              Training will be carried out to grow engineers in the electrical & electronic fields with problem-finding ability, solution ability, and application ability through educational programs that emphasize basic knowledge and skills in the fields of electrical engineering and electronic engineering, which are highly important in modern society.\n\n              授業の概要および学習上の助言\n\n              This course is the final course of the project design course, including an introduction to project design, and is positioned as a course that integrates the items learned in all courses. Aim to review basic subjects and acquire advanced expertise through experiment and theoretical examination of project themes.\nDivide into teams for each project theme shown below and conduct research activities. Report research progress about once a week and discuss how to proceed.\n\n(1) Ultralow Power Devices\n(2) Ultralow Power Circuits\n(3) Neuromorphic Devices\n(4) Quantum Devices\n(5) Machine Learning for Semiconductor Field\n\n              教科書および参考書・リザーブドブック\n\n              N/A\n\n              履修に必要な予備知識や技能\n\n              Review what you have learned in mathematics, semiconductor engineering, and electronic properties.\nEnglish is also required to read academic papers.\nComputer programming skills are also desired.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                M\n                To clarify the purpose of the project theme and make a research plan.\n\n                ②\n                G,M\n                To consider a problem-solving method of the project theme and execute it safely and continuously.\n\n                ③\n                L,M\n                To analyze and evaluate the research results correctly based on the social needs.\n\n                ④\n                G,L,M\n                To discuss actively in group and make a presentation on research results effectively\n\n                ⑤\n                I,M\n                To summarize the research results as project reports..\n\n                ⑥\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                0\n\n                0\n\n                50\n\n                40\n\n                0\n\n                10\n\n                0\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                0\n\n                0\n\n                50\n\n                40\n\n                0\n\n                10\n\n                0\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                0\n\n                0\n\n                50\n\n                40\n\n                0\n\n                10\n\n                0\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  コラボレーションとリーダーシップ\n\n                    0\n\n                    0\n\n                    0\n\n  ",
-  "courseId": "2026:full-year:E927-32:0:311",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Introduction - Objectives of this course - History of computer - Major applied areas on computer - Class schedule and operations",
+      "operation": "Lecture with making lecture note",
+      "assignments": "Preparation: read syllabus Review: review class material",
+      "minutes": "Prepar ation and re view20 0"
+    },
+    {
+      "index": "2",
+      "content": "Computer architecture and implementation (Hardware aspect) - Principle of computer - Definition of \"0\" and \"1\"",
+      "operation": "Lecture with making lecture note and small practice",
+      "assignments": "Preparation: read text Chapters 1 and 2 Review: review class material and text",
+      "minutes": "Prepar ation and re view20 0"
+    },
+    {
+      "index": "3",
+      "content": "Computer architecture and implementation (Hardware aspect) - Processing \"0\" and \"1\" in computer - Summary of ASC",
+      "operation": "Lecture with making lecture note",
+      "assignments": "Preparation: read text Chapter 3 Review: review class material and text",
+      "minutes": "Prepar ation and re view20 0"
+    },
+    {
+      "index": "4",
+      "content": "Computer architecture and implementation (Hardware aspect) - Design of ASC - Review of #1 - #4",
+      "operation": "Lecture with making lecture note and small practice",
+      "assignments": "Preparation: read text Chapter 4 Review: review class material and text (#1 - #4)",
+      "minutes": "Prepar ation and re view20 0"
+    },
+    {
+      "index": "5",
+      "content": "Computer architecture and implementation (Hardware aspect) - Computing command and data",
+      "operation": "Lecture with making lecture note",
+      "assignments": "Preparation: read text Chapter 5 Review: review class material and text",
+      "minutes": "Prepar ation and re view20 0"
+    },
+    {
+      "index": "6",
+      "content": "Computer architecture and implementation (Hardware aspect) - Machine language and its execution",
+      "operation": "Lecture with making lecture note and small practice",
+      "assignments": "Preparation: read text Chapter 6 Review: review class material and text (#1-#6)",
+      "minutes": "Prepar ation and re view20 0"
+    },
+    {
+      "index": "7",
+      "content": "Interim examination and explanation of its reference answer Review of #1-#6",
+      "operation": "Interim examination Lecture",
+      "assignments": "Preparation: review class material and text (#1-#6) Review: review reference answer",
+      "minutes": "Prepar ation and re view20 0"
+    },
+    {
+      "index": "8",
+      "content": "Computer architecture and implementation (Software aspect) - Computing flows by execution of machine language - Summary of OS",
+      "operation": "Lecture with making lecture note and small practice",
+      "assignments": "Preparation: read text Chapter 7 Review: review class material and text",
+      "minutes": "Prepar ation and re view20 00"
+    },
+    {
+      "index": "9",
+      "content": "Computer architecture and implementation (Software aspect) - Assembly language and its programing",
+      "operation": "Lecture with making lecture note",
+      "assignments": "Preparation: read text Chapter 8 Review: review class material and text",
+      "minutes": "Prepar ation and re view20 0"
+    },
+    {
+      "index": "10",
+      "content": "Computer architecture and implementation (Software aspect) - High level language and its programing Review of #8-#10",
+      "operation": "Lecture with making lecture note and small practice",
+      "assignments": "Preparation: read text Chapter 9 Review: review class material and text (#8-#10)",
+      "minutes": "Prepar ation and re view20 0"
+    },
+    {
+      "index": "11",
+      "content": "Computer architecture and implementation (Software aspect) - Computing algorithm and some examples",
+      "operation": "Lecture with making lecture note and small practice",
+      "assignments": "Preparation: read text Chapter 10 Review: review class material and text",
+      "minutes": "Prepar ation and re view20 0"
+    },
+    {
+      "index": "12",
+      "content": "Computer architecture and implementation (Software aspect) - Summary Introduction to high level programing language",
+      "operation": "Lecture with making lecture note and small practice",
+      "assignments": "Preparation: read class material Review: review class material",
+      "minutes": "Prepar ation and re view20 0"
+    },
+    {
+      "index": "13",
+      "content": "Final examination and explanation of its reference answer Review of #8-#12",
+      "operation": "Final examination Lecture",
+      "assignments": "Preparation: review class material and text (#8-#12) Review: review reference answer",
+      "minutes": "Prepar ation and re view20 0"
+    },
+    {
+      "index": "14",
+      "content": "Special lecture: Introduction to R&D of computer in the industrial company by a guest lecturer",
+      "operation": "Lecture with making lecture note",
+      "assignments": "Preparation: read class material provided by the guest lecturer Review: review class material provided by the guest lecturer",
+      "minutes": "Prepar ation and re view20 0"
+    },
+    {
+      "index": "15",
+      "content": "Summary of whole of classes",
+      "operation": "Lecture Making the final report",
+      "assignments": "Preparation: read class material (#1-#14) Review: double check class material (#1-#14)",
+      "minutes": "Prepar ation and re view20 0"
+    }
+  ],
+  "rawText": "金沢工業大学 学習支援計画書 E612-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Electrical and Electronic Engineering(2018〜)\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n電気電子コンピュータ工学\nComputer architecture for Electrical and Electronic Engineers  2 E612-01  2024年度\n 2nd year 2nd semester  修学規程第4条を参照\n    担当教員名\n YOKOTANI Tetsuya, SHIMAUCHI Suehiro, MIYATA Toshihiro, HAYASHI Keiji\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Computer architecture 2.Operating principles 3.Machine language and assembly language 4.Operating system 5.High performance computing  This course intends to study on basic technologies for computer design and utilization for electrical engineers. This course lectures on dual aspects, e.g. hardware and software. Students can understand whole of basic technologies to make use of computers without hesitation after their graduation, because all of industrial fields need engineers with basic knowledge of computers.\n    授業の概要および学習上の助言   Major topics in this course are listed as follows. (1)Background of computer technologies - History of computer, Neumann type computer (2)Computer architecture and implementation (Hardware aspect) - Logical circuit and its operation, CPU architecture, Machine language (3)Introduction of high level language - Summary of typical programing languages, basic syntax of C language (4)Computer architecture and implementation (Software aspect) - Assembly language, High level language, Operating systems, Computing algorithm (5)Latest topics in computer R&D by a guest lecturer - Latest technical trends, Methodology of hardware and software development in the industrial company\n    教科書および参考書・リザーブドブック\n    履修に必要な予備知識や技能   Students should understand the following basic knowledge. - Product image with CPU - Digital circuit and devices - Roughly image of OS and programing language\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① K Understanding computer basic architecture   ② K Understanding position and function of machine, assembly and high level languages    ③ K Understanding configuration and processing flows of CPU   ④ K Understanding configuration of peripheral devices focusing on storage devices   ⑤ K Understanding objectives and functions of OS   ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 40 60 0 0 0 0 0 100     指標と評価割合 総合評価割合 40 60 0 0 0 0 0 100   総合力指標 知識を取り込む力 40 60 0 0 0 0 0 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ Two examinations, e.g. interim and final examinations   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     クイズ\n小テスト ① レ Lecture notes, small practice (almost 10 minutes) in each class   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     レポート ①      ②     ③     ④     ⑤     ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ①      ②     ③     ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     Students can explain following items with precision. -Key functional blocks in a computer and operations among these blocks -Simple program codes by machine, assembly and high level languages -Configuration and processing flows by assembly language in CPU -Functions of OS with some examples -High performance computing technology with some examples Through these knowledges, students can design A Simple Computer (ASC) which is an educational reference model. Students can explain roughly following items without hesitations -Key functional blocks in a computer and operations among these blocks -Simple program codes by machine, assembly and high level languages -Configuration and processing flows by assembly language in CPU -Functions of OS -High performance computing technology\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的",
+  "courseId": "2024:fall:E604-01:0:311",
   "language": "en"
 }

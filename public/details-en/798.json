@@ -1,77 +1,63 @@
 {
   "sourceIndex": 798,
   "sourceUrl": "/opsyllabus/kitos0110/798/1",
-  "importedAt": "2026-06-08T09:34:09.559Z",
-  "title": "機械要素設計",
-  "subtitle": "Mechanical Elements Design",
-  "courseType": "Major ProgramMajor Courses",
+  "importedAt": "2026-06-09T01:29:26.507Z",
+  "title": "生命と倫理",
+  "subtitle": "Bioethics",
+  "courseType": "Major Program\nMajor Courses",
   "credits": "2",
-  "term": "2026年度\n\n                2nd year 2nd semester",
+  "term": "2024年度\n 3rd year 1st semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "SEGAWA Akio"
+    "HIGUCHI Masanori"
   ],
   "keywords": [
-    "Machine design",
-    "Mechanical element",
-    "Reliability design",
-    "Detailed design",
-    "Community cooperation"
+    "Reproduction 2.Regenerative medicine 3.Genetic manipulation 4.Death and Euthanasia 5.Quality of life (QOL)"
   ],
-  "educationalGoal": "Students will:\n(1)\tUnderstand the mechanical elements.\n(2)\tLearn the method of machine design.\n(3)\tPractice the design of a screw, shaft, and gear.",
-  "advice": "This is a course on the basics of machine design. We will cover the following topics:\n\n1. Basics of design:\n  (1) procedure of the design, (2) design and processing, and (3) reliability design\n2. Strength and stiffness of materials:\n  (1) load and material properties, (2) fatigue strength and deformation stress, and (3) detailed design and safety factor\n3. Mechanical elements:\n  (1) screws, (2) shafts and bearings, and (3) gears\n\nStudents should strive to improve their design ability.",
-  "books": "Textbooks: Methods of Machine Design, Morikita Publishing Co., Ltd. (in Japanese)\nReference books: JIS Mechanical Drawing, Morikita Publishing Co., Ltd. (in Japanese)\nReserved books: None",
-  "requiredKnowledge": "Complete Mechanical Drawing I and II, Engineering Mechanics, and Strength of Materials I.\nKnow how to use a calculator.",
+  "educationalGoal": "As a result of the remarkable progress made in science and technology, we now face bioethics issues such as genetic manipulation and reproduction. Students will learn what is being asked about these issues.",
+  "advice": "We will cover the following topics: 1. Bioethics: Life and QOL 2. Genetic manipulation: Genetic recombination and gene therapy 3. Organ transplantation: Brain death and cloning technology 4. Reproduction: Fertilization and prenatal diagnosis",
+  "books": "Textbooks: Reference books: Reserved books:",
+  "requiredKnowledge": "Read the textbook before class Check any unknown terminology",
   "activityGoals": [
     {
       "index": "①",
-      "type": "J",
-      "body": "Be able to explain the design process."
+      "type": "I,J",
+      "body": "Ability to explain the basic idea of bioethics."
     },
     {
       "index": "②",
-      "type": "B,D,J",
-      "body": "Be able to explain engineering ethics, design for reliability, and safety factors."
+      "type": "I,J,K",
+      "body": "Ability to explain the outline of genetic manipulation, and give an opinion about it."
     },
     {
       "index": "③",
-      "type": "J,M",
-      "body": "Be able to design for strength."
+      "type": "I,J",
+      "body": "Ability to discuss the problem of bioethics with respect to medical treatment."
     },
     {
       "index": "④",
-      "type": "J,M",
-      "body": "Be able to perform calculations necessary for screw, shaft and bearing, and design them."
-    },
-    {
-      "index": "⑤",
-      "type": "J,M",
-      "body": "Be able to perform calculations necessary for gear, and design it."
-    },
-    {
-      "index": "⑥",
-      "type": "J,K",
-      "body": "Be able to choose appropriate part dimensions and shapes with reference to various standards"
+      "type": "I,J,N",
+      "body": "Ability to form an opinion about reproduction."
     }
   ],
   "evaluationWeights": [
     {
       "label": "総合評価割合",
       "values": [
-        "30",
-        "50",
+        "0",
+        "0",
+        "40",
+        "40",
+        "0",
+        "0",
         "20",
-        "0",
-        "0",
-        "0",
-        "0",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -81,20 +67,20 @@
     {
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
-        "30",
-        "50",
+        "0",
+        "0",
+        "40",
+        "40",
+        "0",
+        "0",
         "20",
-        "0",
-        "0",
-        "0",
-        "0",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -104,20 +90,20 @@
     {
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
-        "30",
-        "50",
+        "0",
+        "0",
+        "40",
+        "40",
+        "0",
+        "0",
         "20",
-        "0",
-        "0",
-        "0",
-        "0",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -138,9 +124,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -148,7 +134,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -161,9 +147,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -184,9 +170,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -195,118 +181,118 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "(1) Understand design solutions and explain the design process clearly.\n(2) Extensively understand safety factors and have the ethical perspective of an engineer.\n(3) Confidently select the dimensions and shape of a material based on a standard.\n(4) Confidently select screw and shaft diameters based on a dynamic calculation.\n(5) Calculate the gear dimensions and number of teeth using the speed transmission ratio and module.\n(6) Understand the ethics information taught by a local engineer.",
-    "standard": "(1) Understand design solutions and explain the design process.\n(2) Understand safety factors and have the ethical perspective of an engineer.\n(3) Select the dimensions and shape of a material based on a standard.\n(4) Select screw and shaft diameters based on a dynamic calculation.\n(5) Calculate the number of gear teeth using the speed transmission ratio and module.\n(6) Understand the information provided by a local engineer."
+    "ideal": "Fully understand the meaning of bioethics keywords. Deliver own ideas about bioethics problems in oral presentations and written reports properly.",
+    "standard": "Understand the meaning of bioethics keywords. Deliver own ideas about bioethics problems in oral presentations and written reports."
   },
   "clipProcess": "",
   "lessons": [
     {
       "index": "1",
-      "content": "Course introduction\nBasics of design",
-      "operation": "Lecture and Q&A\nSelf-check",
-      "assignments": "Understand the course\nobjectives\nConfirm the course schedule",
+      "content": "Course introduction Overview of bioethics",
+      "operation": "Lecture and Q&A",
+      "assignments": "Read the introduction in the textbook",
       "minutes": "60"
     },
     {
       "index": "2",
-      "content": "Strength and stiffness of materials:\n Load, mechanical properties,\n fatigue strength, stress, and deformation",
-      "operation": "Lecture and Q&A\nSelf-check",
-      "assignments": "Preview: balance of forces\nReview: stress and strain",
-      "minutes": "30\n40"
+      "content": "Bioethics of reproduction (1) Artificial insemination, Fertilization, Microscope insemination",
+      "operation": "Lecture and Q&A Self-check",
+      "assignments": "Read Chapter 1 of the textbook and prepare for bioethics of reproduction (1)",
+      "minutes": "90"
     },
     {
       "index": "3",
-      "content": "Strength and stiffness of materials:\n Detailed design, allowable stress,\n and safety factor\n\nQuizzes",
-      "operation": "Lecture and Q&A\nSelf-check",
-      "assignments": "Preview: stress\nReview: difference between\nload and stress",
-      "minutes": "30\n40"
+      "content": "Bioethics of reproduction (2) Regenerative medicine, Human cloning",
+      "operation": "Lecture and Q&A Self-check",
+      "assignments": "Read Chapter 1 of the textbook and prepare for bioethics of reproduction (2)",
+      "minutes": "90"
     },
     {
       "index": "4",
-      "content": "Mechanical elements: screws\n Basics of screws",
-      "operation": "Lecture and Q&A\nSelf-check",
-      "assignments": "Preview: screw types\nReview: metric screw threads",
-      "minutes": "40\n50"
+      "content": "Bioethics of reproduction (3) Commercialization of reproductive technology",
+      "operation": "Lecture and Q&A Self-check",
+      "assignments": "Read Chapter 1 of the textbook and prepare for bioethics of reproduction (3)",
+      "minutes": "90"
     },
     {
       "index": "5",
-      "content": "Mechanical elements: screws\n Strength of screws\n\nQuizzes",
-      "operation": "Lecture and Q&A\nSelf-check",
-      "assignments": "Preview: screw design process\nReview: loading condition",
-      "minutes": "30\n50"
+      "content": "Dignity of Life Prenatal diagnosis, Fertilized egg diagnosis",
+      "operation": "Lecture and Q&A Self-check",
+      "assignments": "Read Chapter 2 of the textbook and prepare for dignity of life",
+      "minutes": "90"
     },
     {
       "index": "6",
-      "content": "Mechanical elements: shafts and couplings\n Basics of shafts\n Strength and load",
-      "operation": "Lecture and Q&A\nSelf-check",
-      "assignments": "Preview: dynamics of a beam\nReview: torque, bending\nstress and design process",
-      "minutes": "30\n60"
+      "content": "Death and Bioethics (1) Brain death, Organ transplantation",
+      "operation": "Lecture and Q&A Self- check",
+      "assignments": "Read Chapter 3 of the textbook and prepare for death and bioethics (1)",
+      "minutes": "90"
     },
     {
       "index": "7",
-      "content": "Mechanical elements: shafts and couplings\n Strength and combined load",
-      "operation": "Lecture and Q&A\nSelf-check",
-      "assignments": "Preview: dynamics of a beam\nReview: equivalent torsional\nmoment, equivalent bending\nmoment and design process",
-      "minutes": "30\n60"
+      "content": "Death and Bioethics (2) Euthanasia, Death with dignity",
+      "operation": "Lecture and Q&A Self- check",
+      "assignments": "Read Chapter 3 of the textbook and prepare for death and bioethics (2)",
+      "minutes": "90"
     },
     {
       "index": "8",
-      "content": "Mechanical elements: shafts and couplings\n Basics of keys\n Strength and load\n\nQuizzes",
-      "operation": "Lecture and Q&A\nSelf-check",
-      "assignments": "Preview: key types\nReview: design process",
-      "minutes": "30\n40"
+      "content": "Terminal care Announcement of presentation subject",
+      "operation": "Lecture and Q&A Self-check",
+      "assignments": "Read Chapter 4 of the textbook and prepare for terminal care",
+      "minutes": "90"
     },
     {
       "index": "9",
-      "content": "Mechanical elements: bearings\n Basics of bearings\n Roller bearings\n\nQuizzes",
-      "operation": "Lecture and Q&A\nSelf-check",
-      "assignments": "Preview: roller bearings\nReview: design process",
-      "minutes": "40\n60"
+      "content": "Informed consent",
+      "operation": "Lecture and Q&A Self-check",
+      "assignments": "Read Chapter 5 of the textbook and prepare for informed consent",
+      "minutes": "90"
     },
     {
       "index": "10",
-      "content": "Mechanical elements: bearings\n Plain bearings",
-      "operation": "Lecture and Q&A\nSelf-check",
-      "assignments": "Preview: plain bearings\nReview: bearing selection",
-      "minutes": "30\n40"
+      "content": "Presentation 1",
+      "operation": "Presentation and Q&A Self-check",
+      "assignments": "Review Prepare for presentation",
+      "minutes": "100"
     },
     {
       "index": "11",
-      "content": "Mechanical elements: gears\n Basics of gears\n Module and diameter of reference circle",
-      "operation": "Lecture and Q&A\nSelf-check",
-      "assignments": "Preview: drawing gears\nReview: design process",
-      "minutes": "40\n60"
+      "content": "Presentation 2 Announcement of the report subject",
+      "operation": "Presentation and Q&A Self-check",
+      "assignments": "Review Prepare for presentation Prepare for the report subject",
+      "minutes": "100"
     },
     {
       "index": "12",
-      "content": "Mechanical elements: gears\n Speed transmission ratio",
-      "operation": "Lecture and Q&A\nSelf-check",
-      "assignments": "Preview: drawing gears\nReview: design process",
-      "minutes": "40\n60"
+      "content": "Presentation 3",
+      "operation": "Presentation and Q&A Self-check",
+      "assignments": "Review Prepare for presentation Prepare for the report subject",
+      "minutes": "100"
     },
     {
       "index": "13",
-      "content": "Integrated learning",
-      "operation": "Lecture and Q&A\nSelf-check",
-      "assignments": "Creating the design report",
+      "content": "Presentation 4",
+      "operation": "Presentation and Q&A Self-check",
+      "assignments": "Review Prepare for presentation Prepare for the report subject",
       "minutes": "100"
     },
     {
       "index": "14",
-      "content": "Integrated learning2\n Final examination\n Mechanical elements",
-      "operation": "Descriptive test\nLecture and Q&A\nSelf-check",
-      "assignments": "Preview: design process,\nshafts, bearings, and gears",
-      "minutes": "100"
+      "content": "General comments on the presentation",
+      "operation": "Lecture and Q&A Self- check",
+      "assignments": "Review Complete the report",
+      "minutes": "120"
     },
     {
       "index": "15",
-      "content": "Review",
-      "operation": "Self-reflection",
-      "assignments": "Self-evaluation",
-      "minutes": "50"
+      "content": "General comments on the report and Summary",
+      "operation": "Lecture and Q&A Self-check",
+      "assignments": "Review materials from all classes",
+      "minutes": "90"
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　K115-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Advanced Mechanical Systems Engineering\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                機械要素設計\n                Mechanical Elements Design\n\n              2\n              K115-01\n\n                2026年度\n\n                2nd year 2nd semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  SEGAWA Akio\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Machine design\n2.Mechanical element\n3.Reliability design\n4.Detailed design\n5.Community cooperation\n\n              Students will:\n(1)\tUnderstand the mechanical elements.\n(2)\tLearn the method of machine design.\n(3)\tPractice the design of a screw, shaft, and gear.\n\n              授業の概要および学習上の助言\n\n              This is a course on the basics of machine design. We will cover the following topics:\n\n1. Basics of design:\n  (1) procedure of the design, (2) design and processing, and (3) reliability design\n2. Strength and stiffness of materials:\n  (1) load and material properties, (2) fatigue strength and deformation stress, and (3) detailed design and safety factor\n3. Mechanical elements:\n  (1) screws, (2) shafts and bearings, and (3) gears\n\nStudents should strive to improve their design ability.\n\n              教科書および参考書・リザーブドブック\n\n              Textbooks: Methods of Machine Design, Morikita Publishing Co., Ltd. (in Japanese)\nReference books: JIS Mechanical Drawing, Morikita Publishing Co., Ltd. (in Japanese)\nReserved books: None\n\n              履修に必要な予備知識や技能\n\n              Complete Mechanical Drawing I and II, Engineering Mechanics, and Strength of Materials I.\nKnow how to use a calculator.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                J\n                Be able to explain the design process.\n\n                ②\n                B,D,J\n                Be able to explain engineering ethics, design for reliability, and safety factors.\n\n                ③\n                J,M\n                Be able to design for strength.\n\n                ④\n                J,M\n                Be able to perform calculations necessary for screw, shaft and bearing, and design them.\n\n                ⑤\n                J,M\n                Be able to perform calculations necessary for gear, and design it.\n\n                ⑥\n                J,K\n                Be able to choose appropriate part dimensions and shapes with reference to various standards\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                30\n\n                50\n\n                20\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                30\n\n                50\n\n                20\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                30\n\n                50\n\n                20\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  コラボレーションとリーダーシップ\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  発表・表現・伝達する力\n\n                    0\n\n                    0\n\n",
-  "courseId": "2026:fall:K115-01:0:798",
+  "rawText": "金沢工業大学 学習支援計画書 B117-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Applied Bioscience\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n生命と倫理\nBioethics  2 B117-01  2024年度\n 3rd year 1st semester  修学規程第4条を参照\n    担当教員名\n HIGUCHI Masanori\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Reproduction 2.Regenerative medicine 3.Genetic manipulation 4.Death and Euthanasia 5.Quality of life (QOL)  As a result of the remarkable progress made in science and technology, we now face bioethics issues such as genetic manipulation and reproduction. Students will learn what is being asked about these issues.\n    授業の概要および学習上の助言   We will cover the following topics: 1. Bioethics: Life and QOL 2. Genetic manipulation: Genetic recombination and gene therapy 3. Organ transplantation: Brain death and cloning technology 4. Reproduction: Fertilization and prenatal diagnosis\n    教科書および参考書・リザーブドブック   Textbooks: Reference books: Reserved books:\n    履修に必要な予備知識や技能   Read the textbook before class Check any unknown terminology\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① I,J Ability to explain the basic idea of bioethics.   ② I,J,K Ability to explain the outline of genetic manipulation, and give an opinion about it.   ③ I,J Ability to discuss the problem of bioethics with respect to medical treatment.   ④ I,J,N Ability to form an opinion about reproduction.   ⑤     ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 0 0 40 40 0 0 20 100     指標と評価割合 総合評価割合 0 0 40 40 0 0 20 100   総合力指標 知識を取り込む力 0 0 40 40 0 0 20 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ①      ②     ③     ④     ⑤     ⑥     クイズ\n小テスト ①      ②     ③     ④     ⑤     ⑥     レポート ① レ Students will be evaluated on the validity and originality of their own opinion about bioethics issues in their reports.   ② レ   ③ レ   ④ レ   ⑤     ⑥     成果発表\n(口頭・実技) ① レ Students are required to give presentations about a bioethics topic. Details about assignments and grading criteria will be announced in class.   ② レ   ③ レ   ④ レ   ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ① レ Students are required to express their opinions in class.   ② レ   ③ レ   ④ レ   ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     Fully understand the meaning of bioethics keywords. Deliver own ideas about bioethics problems in oral presentations and written reports properly.  Understand the meaning of bioethics keywords. Deliver own ideas about bioethics problems in oral presentations and written reports.\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習課題に要する標準的な時間を記載してあります。日々の自学自習時間全体としては、各授業に応じた時間(例えば2単位科目の場合、予習2時間・復習2時間/週)を取るよう努めてください。詳しくは教員の指導に従って下さい。     授業明細   回数 学習内容 授業の運営方法 学習課題(予習・復習) 時間:分※     1  Course introduction Overview of bioethics Lecture and Q&A Read the introduction in the textbook  60   2  Bioethics of reproduction (1) Artificial insemination, Fertilization, Microscope insemination Lecture and Q&A Self-check Read Chapter 1 of the textbook and prepare for bioethics of reproduction (1)  90   3  Bioethics of reproduction (2) Regenerative medicine, Human cloning Lecture and Q&A Self-check Read Chapter 1 of the textbook and prepare for bioethics of reproduction (2)  90   4  Bioethics of reproduction (3) Commercialization of reproductive technology Lecture and Q&A Self-check Read Chapter 1 of the textbook and prepare for bioethics of reproduction (3)  90   5  Dignity of Life Prenatal diagnosis, Fertilized egg diagnosis Lecture and Q&A Self-check Read Chapter 2 of the textbook and prepare for dignity of life  90   6  Death and Bioethics (1) Brain death, ",
+  "courseId": "2024:spring:B117-01:0:798",
   "language": "en"
 }

@@ -1,72 +1,70 @@
 {
   "sourceIndex": 423,
   "sourceUrl": "/opsyllabus/kitos0110/423/1",
-  "importedAt": "2026-06-08T09:34:01.706Z",
-  "title": "プロジェクトデザインⅢ（中沢憲二研究室）",
-  "subtitle": "Design Project III(Nakazawa Kenji)",
-  "courseType": "Major ProgramMajor Project Courses",
-  "credits": "8",
-  "term": "2026年度\n\n                All year",
+  "importedAt": "2026-06-09T01:29:23.007Z",
+  "title": "プログラミングⅡ",
+  "subtitle": "Programming II",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "1",
+  "term": "2024年度\n 1st year 2nd semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "NAKAZAWA Kenji"
+    "MOTOKI Mitsuo",
+    "ABE Noriyuki",
+    "INAGAKI Mikio"
   ],
   "keywords": [
-    "Problem discovery/solution",
-    "CDIO",
-    "Summary of learning",
-    "Engineer ethics",
-    "AI"
+    "Python 2.object 3.iterator 4.file 5.exeption"
   ],
-  "educationalGoal": "In this course, students are given the opportunity to summarize what they have learned by finding a unique theme related to media information, thinking about a problem related to that theme, and then going through a scientific process in order to formulate and propose a solution. Based on the knowledge learned in specialized seminars, etc., the project design method embodied by CDIO cycle is utilized and each student’s ability to become a creative engineer is cultivated.",
-  "advice": "Project Design III is based on the first- to third-year class contents of the Department of Media Informatics\nIn this course, students will work on individual themes. Within that process, they will practice problem finding and problem solving techniques and construct deliverables based on the advice and guidance of their faculty adviser.\nThe result is the culmination of four years of university life.\nBased on the knowledge and skills of specialized subjects acquired so far, students will further deepen their understanding of their specialized fields and learn problem finding, investigation, and solution methods. In addition, students can be expected to acquire the ability to specifically design, develop, and evaluate those fields.\n\nLearning Tips:\nProject Design III is a full-year, eight-credit class during which students will work on individual project themes to produce results.\nTo do so, it will be necessary for them to develop proper self-management skills. We strongly encourage students to actively acquire the skills and knowledge necessary for their theme.",
-  "books": "",
-  "requiredKnowledge": "All required courses up to the second year of this department must have already been completed.\nStudents must be able to summarize what they have learned from the first to third years.\nEach student is required to have mastered, through class experience, how to find and solve problems in Project Design I/II and through project design practice.",
+  "educationalGoal": "Subsequent to the precedent course, i.e., Programming I, students learn basic Python programming to acquire writing various programs. Specifically, students learn the following: using objects, iterators, and file operations.",
+  "advice": "In this class, students learn basic Python programming subsequent to the precedent class, i.e., Programming I. Contents of Python: (1) Data containers such as dictionary and set (2) Concept of object, and class (3) Programming with iterators that is the mechanism of accessing stored data (4) Writing complicated programs using file I/O or exceptions",
+  "books": "(See the Japanese syllabus.)",
+  "requiredKnowledge": "The precedent course: Programming I - Students have to bring own laptop computer, AC adopter, and network cable for software installation, download of course materials, and upload of answer of quizzes - PC operation skills (such as touch typing, file operation, etc.) are necessary to write program smoothly",
   "activityGoals": [
     {
       "index": "①",
-      "type": "A,G,O",
-      "body": "Be able to build a foundation as a creative engineer using problem discovery and solution techniques."
+      "type": "I,J,K",
+      "body": "Be able to write Python programs using dictionary, and/or set"
     },
     {
       "index": "②",
-      "type": "A,C,D,H",
-      "body": "Be able to explain things related to specialized fields."
+      "type": "I,J,K",
+      "body": "Be able to write Python programs using objects"
     },
     {
       "index": "③",
-      "type": "B,E",
-      "body": "Be able to deepen insight individual insights into “engineer ethics”."
+      "type": "I,J,K",
+      "body": "Be able to write Python programs operating data in data structure using iterator appropriately"
     },
     {
       "index": "④",
-      "type": "E,F,J,K,L,M",
-      "body": "Be able to apply existing expertise to project themes."
+      "type": "I,J,K",
+      "body": "Understand the concept of exception"
     },
     {
       "index": "⑤",
-      "type": "A,F,G,N",
-      "body": "Be able to conduct CDIO-based research and development on the set project theme."
+      "type": "I,J,K",
+      "body": "Be able to write Python programs operating file I/O"
     }
   ],
   "evaluationWeights": [
     {
       "label": "総合評価割合",
       "values": [
-        "0",
-        "0",
         "40",
-        "40",
+        "60",
         "0",
         "0",
-        "20",
+        "0",
+        "0",
+        "0",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -76,20 +74,20 @@
     {
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
-        "0",
-        "0",
         "40",
-        "40",
+        "60",
         "0",
         "0",
-        "20",
+        "0",
+        "0",
+        "0",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -99,20 +97,20 @@
     {
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
-        "0",
-        "0",
         "40",
-        "40",
+        "60",
         "0",
         "0",
-        "20",
+        "0",
+        "0",
+        "0",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -133,9 +131,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -143,7 +141,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -156,9 +154,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -179,9 +177,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -190,27 +188,62 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "Students are required to satisfy an achievement rate of 90% or more for all action goals.",
-    "standard": "Students are required to satisfy 60 to 80% of the evaluation criteria for all action goals."
+    "ideal": "In addition to standard achievement level, (1+) Be able to write Python programs using dictionary and/or set appropriately (2+) Be able to write Python programs using objects appropriately (3+) Be able to write Python programs using list comprehension or itertools module appropriately (4+) Be able to write Python programs useing text file I/O appropriately",
+    "standard": "(1) Be able to operate dictionary and set in Python (2) Be able to operate objects in Python (3) Be able to use the iterator and list comprehension in Python (4) Be able to operate text file in Python"
   },
   "clipProcess": "",
   "lessons": [
     {
       "index": "1",
-      "content": "Acquire basic knowledge and techniques in\nspecialized fields, and conduct research,\ndesign, and production on project themes.\nIn seminars held every week, research reports\n and progress will be announced and\ndiscussions will be held.",
-      "operation": "Guidance on progress and\n survey reports and\ndiscussion with all\nmembers",
-      "assignments": "Conduct activities related to\n specialized learning and\nproject themes",
-      "minutes": "540\nminute\ns\nper\nweek,\n15\nweeks"
+      "content": "- Guidance - Review of Programming I",
+      "operation": "Lecture and Exercise",
+      "assignments": "Preview: Read Chapter 1 to 3, Ch. 4-2, 4-4, and 5-1 to 5-3 of the textbook",
+      "minutes": "120"
     },
     {
       "index": "2",
-      "content": "Interim announcements, creation of project\ndeliverables, experiments, writing of project\n reports, preparation of presentation\nmaterials, etc. will be performed.\nIn seminars held every week, project progress\n and experiment reports will be announced.\nIn addition, project report writing guidance\nand presentation material creation guidance\nwill be provided.",
-      "operation": "Guidance on progress/\nexperiment reports,\nwriting project reports,\n creating presentation\nmaterials",
-      "assignments": "Conduct activities related to\n specialized learning and\nproject themes",
-      "minutes": "540\nminute\ns\nper\nweek,\n15\nweeks"
+      "content": "- Object - Dictionary and set",
+      "operation": "Lecture and Exercise",
+      "assignments": "Preview: Watch the lecture video Review: Practice the handout and 4-1, 4-4, and 4-5 of the textbook",
+      "minutes": "60 60"
+    },
+    {
+      "index": "3",
+      "content": "Practical use of iterable object - List comprehension - Iterator - itertools package",
+      "operation": "Lecture and Exercise",
+      "assignments": "Preview: Watch the lecture video Review: Practice the handout",
+      "minutes": "60 60"
+    },
+    {
+      "index": "4",
+      "content": "- Exceptions",
+      "operation": "Lecture and Exercise",
+      "assignments": "Preview: Watch the lecture video Review: Practice the handout and 7-1 of the textbook",
+      "minutes": "60 60"
+    },
+    {
+      "index": "5",
+      "content": "- Text file I/O",
+      "operation": "Lecture and Exercise",
+      "assignments": "Preview: Watch the lecture video Review: Practice the handout and 7-2 of the textbook",
+      "minutes": "60 60"
+    },
+    {
+      "index": "6",
+      "content": "- Overall exercise",
+      "operation": "Lecture and Exercise",
+      "assignments": "Preview: Review whole content of this class",
+      "minutes": "120"
+    },
+    {
+      "index": "7",
+      "content": "- Exam - Self-check",
+      "operation": "Exam Self-check",
+      "assignments": "Prepare for the exam",
+      "minutes": "120"
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　F921-14\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Media Informatics(〜2024)\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Project Courses\n\n                プロジェクトデザインⅢ（中沢憲二研究室）\n                Design Project III(Nakazawa Kenji)\n\n              8\n              F921-14\n\n                2026年度\n\n                All year\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  NAKAZAWA Kenji\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Problem discovery/solution\n2.CDIO\n3.Summary of learning\n4.Engineer ethics\n5.AI\n\n              In this course, students are given the opportunity to summarize what they have learned by finding a unique theme related to media information, thinking about a problem related to that theme, and then going through a scientific process in order to formulate and propose a solution. Based on the knowledge learned in specialized seminars, etc., the project design method embodied by CDIO cycle is utilized and each student’s ability to become a creative engineer is cultivated.\n\n              授業の概要および学習上の助言\n\n              Project Design III is based on the first- to third-year class contents of the Department of Media Informatics\nIn this course, students will work on individual themes. Within that process, they will practice problem finding and problem solving techniques and construct deliverables based on the advice and guidance of their faculty adviser.\nThe result is the culmination of four years of university life.\nBased on the knowledge and skills of specialized subjects acquired so far, students will further deepen their understanding of their specialized fields and learn problem finding, investigation, and solution methods. In addition, students can be expected to acquire the ability to specifically design, develop, and evaluate those fields.\n\nLearning Tips:\nProject Design III is a full-year, eight-credit class during which students will work on individual project themes to produce results.\nTo do so, it will be necessary for them to develop proper self-management skills. We strongly encourage students to actively acquire the skills and knowledge necessary for their theme.\n\n              教科書および参考書・リザーブドブック\n\n              履修に必要な予備知識や技能\n\n              All required courses up to the second year of this department must have already been completed.\nStudents must be able to summarize what they have learned from the first to third years.\nEach student is required to have mastered, through class experience, how to find and solve problems in Project Design I/II and through project design practice.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                A,G,O\n                Be able to build a foundation as a creative engineer using problem discovery and solution techniques.\n\n                ②\n                A,C,D,H\n                Be able to explain things related to specialized fields.\n\n                ③\n                B,E\n                Be able to deepen insight individual insights into “engineer ethics”.\n\n                ④\n                E,F,J,K,L,M\n                Be able to apply existing expertise to project themes.\n\n                ⑤\n                A,F,G,N\n                Be able to conduct CDIO-based research and development on the set project theme.\n\n                ⑥\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                0\n\n                0\n\n                40\n\n                40\n\n                0\n\n                0\n\n                20\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n    ",
-  "courseId": "2026:full-year:F921-14:0:423",
+  "rawText": "金沢工業大学 学習支援計画書 E542-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Information and Computer Science\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\nプログラミングⅡ\nProgramming II  1 E542-01  2024年度\n 1st year 2nd semester  修学規程第4条を参照\n    担当教員名\n MOTOKI Mitsuo, ABE Noriyuki, INAGAKI Mikio\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Python 2.object 3.iterator 4.file 5.exeption  Subsequent to the precedent course, i.e., Programming I, students learn basic Python programming to acquire writing various programs. Specifically, students learn the following: using objects, iterators, and file operations.\n    授業の概要および学習上の助言   In this class, students learn basic Python programming subsequent to the precedent class, i.e., Programming I. Contents of Python: (1) Data containers such as dictionary and set (2) Concept of object, and class (3) Programming with iterators that is the mechanism of accessing stored data (4) Writing complicated programs using file I/O or exceptions\n    教科書および参考書・リザーブドブック   (See the Japanese syllabus.)\n    履修に必要な予備知識や技能   The precedent course: Programming I - Students have to bring own laptop computer, AC adopter, and network cable for software installation, download of course materials, and upload of answer of quizzes - PC operation skills (such as touch typing, file operation, etc.) are necessary to write program smoothly\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① I,J,K Be able to write Python programs using dictionary, and/or set   ② I,J,K Be able to write Python programs using objects   ③ I,J,K Be able to write Python programs operating data in data structure using iterator appropriately   ④ I,J,K Understand the concept of exception   ⑤ I,J,K Be able to write Python programs operating file I/O   ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 40 60 0 0 0 0 0 100     指標と評価割合 総合評価割合 40 60 0 0 0 0 0 100   総合力指標 知識を取り込む力 40 60 0 0 0 0 0 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ Check whether students comprehensively achieve learning objectives by exams. The detail of exam will be announced at least 1 week before the exam.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     クイズ\n小テスト ① レ Check whether students acquire necessary knowledge for each appropriate unit of subjects on the LMS. It is required to register to the LMS.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     レポート ①      ②     ③     ④     ⑤     ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ①      ②     ③     ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     In addition to standard achievement level, (1+) Be able to write Python programs using dictionary and/or set appropriately (2+) Be able to write Python programs using objects appropriately (3+) Be able to write Python programs using list comprehension or itertools module appropriately (4+) Be able to write Python programs useing text file I/O appropriately  (1) Be able to operate dictionary and set in Python (2) Be able to operate objects in Python (3) Be able to use the iterator and list comprehension in Python (4) Be able to operate text file in Python\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習課題に要する標準的な時間を記載してあります。日々の自学自習時間全体としては、各授業に応じた時間(例えば2単位科目の場合、予習2時間・復習2時間/週)を取るよう努めてください。詳しくは教員の指導に従って下さい。     授業明細   回数 学習内容 授業の運営方法 学習課題(予習・復習) 時間:分※     1  - Guidance - Review of Programming I Lecture and Exercise Preview: Read Chapter 1 to 3, Ch. 4-2, 4-4, and 5-1 to 5-3 of the textbook  120   2  - Object - Dictionary and set Lecture and Exercise Preview: Watch the lecture video Review: Practice the h",
+  "courseId": "2024:spring:E535-01:0:423",
   "language": "en"
 }

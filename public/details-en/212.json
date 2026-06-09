@@ -1,67 +1,68 @@
 {
   "sourceIndex": 212,
   "sourceUrl": "/opsyllabus/kitos0110/212/1",
-  "importedAt": "2026-06-08T09:33:57.493Z",
-  "title": "航空構造力学Ⅰ",
-  "subtitle": "Mechanics of Aircraft Structures I",
-  "courseType": "Major ProgramMajor Courses",
-  "credits": "2",
-  "term": "2026年度\n\n                3rd year 1st semester",
+  "importedAt": "2026-06-09T01:29:21.111Z",
+  "title": "航空工学演習",
+  "subtitle": "Aircraft Engineering Exercises",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "4",
+  "term": "2024年度\n 3rd year 2nd semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "YOSHIDA Keishiro"
+    "HASHIMOTO Kazunori"
   ],
   "keywords": [
-    "Structural configuration",
-    "Torsion, bending, and tension",
-    "Buckling of long column",
-    "Buckling of flat plate",
-    "Effective width"
+    "Flight performance 2.Stability 3.Maneuverability 4.Flight control 5.Regional cooperation"
   ],
-  "educationalGoal": "Students will learn\n(1) Slender bar under torsional, bending, and tensile load\n(2) Buckling of long column under compression load\n(3) How to analyze the buckling load of thin flat plate\n(4) Concept of effective width of flat plate with stiffeners",
-  "advice": "On the basis of knowledge learned in subjects such as ‘Strength of Materials' and ‘Strength of Materials for Aircraft Structures’, student will learn the advanced mechanics for aircraft structures.\nWe will cover the following materials:\n\n(1) Stress of bar under combination of torsional, bending, and tensile load\n(2) Buckling of long column under compression load\n(3) Buckling of thin flat plate\n(4) Buckling and effective width of plate with stiffeners\n\nStudents should thoroughly review what they have learned in ‘Strength of Materials' and ‘Strength of Materials for Aircraft Structures’ before taking this course.",
-  "books": "Basis of Understanding Strength of Materials -Second Edition, Kyoritsu Syuppan, 2013",
-  "requiredKnowledge": "Basic knowledge of Strength of Materials and Strength of Materials for Aircraft Structures.",
+  "educationalGoal": "Aircraft Engineering Exercises makes full use of the various knowledge that students have learned, and it is important to apply this knowledge by performing basic design of aircraft on a team and learn the importance of team activities in aircraft design.",
+  "advice": "Each student team will perform the basic tasks of designing one aircraft. First, each team will aim to design a bestseller, determine the operational goals and performance of the aircraft, and outline the aircraft shape and flight control to satisfy these requirements. Next, the team will estimate the aerodynamics from the airframe shape, the flight performance, the stability, and the maneuverability, and evaluate flight performance using a flight simulator, and then complete the basic design. As a result of the above, each team will experience actual aircraft development, such as making presentations for airlines in a timely manner and making incremental improvements.",
+  "books": "_",
+  "requiredKnowledge": "Students need to make full use of all the knowledge they have learned, so must review everything studied up to this point.",
   "activityGoals": [
     {
       "index": "①",
-      "type": "D,K,N",
-      "body": "Be able to calculate the maximum principal stress of the bar under both torsional and tensile loads"
+      "type": "J",
+      "body": "Be able to understand the equation of motion of an aircraft"
     },
     {
       "index": "②",
-      "type": "D,K,N",
-      "body": "Be able to calculate the buckling load of long columns with various ends’ conditions"
+      "type": "G,J,N",
+      "body": "Be able to design aircraft that satisfy flight performance"
     },
     {
       "index": "③",
-      "type": "D,K,N",
-      "body": "Be able to calculate buckling load of thin flat plates"
+      "type": "J",
+      "body": "Be able to estimate an aerodynamic coefficient"
     },
     {
       "index": "④",
-      "type": "D,K,N",
-      "body": "Be able to understand the concept of effective width and calculate the effective width of plate with stiffeners"
+      "type": "D,L",
+      "body": "Be able to perform flight simulation"
+    },
+    {
+      "index": "⑤",
+      "type": "L,M",
+      "body": "Be able to understand evaluation methods in a flight simulator"
     }
   ],
   "evaluationWeights": [
     {
       "label": "総合評価割合",
       "values": [
-        "40",
-        "60",
+        "30",
+        "0",
+        "45",
+        "15",
         "0",
         "0",
-        "0",
-        "0",
-        "0",
+        "10",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -71,20 +72,20 @@
     {
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
-        "40",
-        "60",
+        "30",
+        "0",
+        "45",
+        "15",
         "0",
         "0",
-        "0",
-        "0",
-        "0",
+        "10",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -94,20 +95,20 @@
     {
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
-        "40",
-        "60",
+        "30",
+        "0",
+        "45",
+        "15",
         "0",
         "0",
-        "0",
-        "0",
-        "0",
+        "10",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -128,9 +129,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -138,7 +139,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -151,9 +152,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -174,9 +175,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -185,118 +186,118 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "1) Calculate the maximum principal stress and the\n   maximum shear stress of the bar under both\n   torsional and tensile loads\n2) Calculate the buckling load of long columns with\n   various ends’ conditions\n3) Calculate the buckling load of a flat plate\n   under various constraint conditions\n4) Fully understand the concept of effective\n   width and accurately calculate the\n   effective width of plate with stiffeners",
-    "standard": "1) Calculate the maximum principal stress of\n    the bar under both torsional and tensile loads\n2) Calculate the buckling load of a long column\n   pin-support at both ends.\n3) Calculate the buckling load of a flat plate\n    simply supported at all edges\n4) Explain the concept of effective width"
+    "ideal": "(1) Be able to actively investigate and consider necessary information for the exercise, and be able to explain it physically and accurately (2) Be able to physically explain how the aircraft flies (3) Be able to investigate and study ideas for stabilizing flight and explain the functions of flight control laws accurately (4) Be able to explain flight characteristics accurately from flight simulator results",
+    "standard": "(1) Be able to physically explain how the aircraft flies (2) Be able to explain the functions of flight control laws (3) Be able to explain flight characteristics from flight simulator results"
   },
   "clipProcess": "",
   "lessons": [
     {
-      "index": "1",
-      "content": "Course introduction\nOverview of aircraft structural configuration",
-      "operation": "Lecture and practice\nSelf-check",
-      "assignments": "Review class content",
-      "minutes": "40"
+      "index": "1,2",
+      "content": "Course introduction, Exercises (the operational goals)",
+      "operation": "Guidance, exercises and Q&A",
+      "assignments": "Prepare for related items using the e-syllabus and text",
+      "minutes": "200"
     },
     {
-      "index": "2",
-      "content": "Stress of bar under combination of\ntorsional, bending, and tensile\nload #1",
-      "operation": "Lecture and practice\nSelf-check",
-      "assignments": "Read text book 5.4\n(to example 5.14)\nReview class content",
-      "minutes": "20\n\n40"
+      "index": "3,4",
+      "content": "Presentation",
+      "operation": "Presentation",
+      "assignments": "Prepare your presentation materials",
+      "minutes": "200"
     },
     {
-      "index": "3",
-      "content": "Stress of bar under combination of\ntorsional, bending, and tensile\nload #2",
-      "operation": "Lecture and practice\nSelf-check",
-      "assignments": "Read text book 5.4\nReview class content",
-      "minutes": "20\n40"
+      "index": "5,6",
+      "content": "Exercises (aircraft shape, engine selection)",
+      "operation": "Exercises and Q&A",
+      "assignments": "Prepare for related items using the e-syllabus and text",
+      "minutes": "200"
     },
     {
-      "index": "4",
-      "content": "Stress of bar under combination of\ntorsional, bending, and tensile\nload #3",
-      "operation": "Lecture and practice\nSelf-check",
-      "assignments": "Read text book 5.4\nReview class content",
-      "minutes": "20\n40"
+      "index": "7,8",
+      "content": "Exercises (aircraft shape, engine selection)",
+      "operation": "Exercises and Q&A",
+      "assignments": "Prepare for related items using the e-syllabus and text",
+      "minutes": "200"
     },
     {
-      "index": "5",
-      "content": "Buckling of long column under\ncompression load #1",
-      "operation": "Lecture and practice\nSelf-check",
-      "assignments": "Read text book 6.2.1-6.2.4\nReview class content",
-      "minutes": "20\n40"
+      "index": "9,10",
+      "content": "Presentation",
+      "operation": "Presentation",
+      "assignments": "Prepare your presentation materials",
+      "minutes": "200"
     },
     {
-      "index": "6",
-      "content": "Buckling of long column under\ncompression load #2",
-      "operation": "Lecture and practice\nSelf-check",
-      "assignments": "Read text book 6.2.1-6.2.4\nReview class content",
-      "minutes": "20\n40"
+      "index": "11,12",
+      "content": "Exercises (flying qualities)",
+      "operation": "Exercises and Q&A",
+      "assignments": "Prepare for related items using the e-syllabus and text",
+      "minutes": "200"
     },
     {
-      "index": "7",
-      "content": "Buckling of long column under\ncompression load #3",
-      "operation": "Lecture and practice\nSelf-check",
-      "assignments": "Read text book 6.2.5, 6.2.6\nReview class content",
-      "minutes": "20\n40"
+      "index": "13,14",
+      "content": "Exercises (flying qualities)",
+      "operation": "Exercises and Q&A",
+      "assignments": "Prepare for related items using the e-syllabus and text",
+      "minutes": "200"
     },
     {
-      "index": "8",
-      "content": "Buckling of thin flat plate #1",
-      "operation": "Lecture and practice\nSelf-check",
-      "assignments": "Read handout #1\nReview class content",
-      "minutes": "20\n40"
+      "index": "15,16",
+      "content": "Presentation",
+      "operation": "Presentation",
+      "assignments": "Prepare your presentation materials",
+      "minutes": "200"
     },
     {
-      "index": "9",
-      "content": "Buckling of thin flat plate #2",
-      "operation": "Lecture and practice\nSelf-check",
-      "assignments": "Read handout #1\nReview class content",
-      "minutes": "20\n40"
+      "index": "17,18",
+      "content": "Exercises (flight control)",
+      "operation": "Exercises and Q&A",
+      "assignments": "Prepare for related items using the e-syllabus and text",
+      "minutes": "200"
     },
     {
-      "index": "10",
-      "content": "Buckling of thin flat plate #3",
-      "operation": "Lecture and practice\nSelf-check",
-      "assignments": "Read handout #1\nReview class content",
-      "minutes": "20\n40"
+      "index": "19,20",
+      "content": "Presentation",
+      "operation": "Presentation",
+      "assignments": "Prepare your presentation materials",
+      "minutes": "200"
     },
     {
-      "index": "11",
-      "content": "Buckling of plate with stiffeners\nand effective width #1",
-      "operation": "Lecture and practice\nSelf-check",
-      "assignments": "Read handout #2\nReview class content",
-      "minutes": "20\n40"
-    },
-    {
-      "index": "12",
-      "content": "Buckling of plate with stiffeners\nand effective width #2",
-      "operation": "Lecture and practice\nSelf-check",
-      "assignments": "Read handout #2\nReview class content",
-      "minutes": "20\n40"
-    },
-    {
-      "index": "13",
-      "content": "Integrated learning for\nclass number 9 to 12",
-      "operation": "Lecture and practice\nSelf-check",
-      "assignments": "Review class content",
-      "minutes": "40"
-    },
-    {
-      "index": "14",
-      "content": "Self-reflection (class)\n[Test]",
-      "operation": "Lecture and test\nSelf-check",
-      "assignments": "Prepare for test",
+      "index": "21",
+      "content": "Organize knowledge",
+      "operation": "Prepare for the exam",
+      "assignments": "Prepare for related items using the e-syllabus and text",
       "minutes": "100"
     },
     {
-      "index": "15",
-      "content": "Integrated learning\nSelf-evaluation",
-      "operation": "Lecture and practice\nSelf-check",
-      "assignments": "Self-evaluation on\nachievement in this subject",
-      "minutes": "40"
+      "index": "22",
+      "content": "Organize knowledge, exam and review",
+      "operation": "Prepare for the exam",
+      "assignments": "Prepare for related items using the e-syllabus and text",
+      "minutes": "100"
+    },
+    {
+      "index": "23-26",
+      "content": "Flight simulation",
+      "operation": "Simulation test",
+      "assignments": "Prepare for related items using the e-syllabus and text",
+      "minutes": "400"
+    },
+    {
+      "index": "27,28",
+      "content": "Presentation",
+      "operation": "Presentation",
+      "assignments": "Prepare your presentation materials",
+      "minutes": "200"
+    },
+    {
+      "index": "29,30",
+      "content": "Review",
+      "operation": "Lecture and Q&A Self-check",
+      "assignments": "Answers of exam and review",
+      "minutes": "200"
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　E139-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Aeronautics and Astronautics(〜2024)\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                航空構造力学Ⅰ\n                Mechanics of Aircraft Structures I\n\n              2\n              E139-01\n\n                2026年度\n\n                3rd year 1st semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  YOSHIDA Keishiro\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Structural configuration\n2.Torsion, bending, and tension\n3.Buckling of long column\n4.Buckling of flat plate\n5.Effective width\n\n              Students will learn\n(1) Slender bar under torsional, bending, and tensile load\n(2) Buckling of long column under compression load\n(3) How to analyze the buckling load of thin flat plate\n(4) Concept of effective width of flat plate with stiffeners\n\n              授業の概要および学習上の助言\n\n              On the basis of knowledge learned in subjects such as ‘Strength of Materials' and ‘Strength of Materials for Aircraft Structures’, student will learn the advanced mechanics for aircraft structures.\nWe will cover the following materials:\n\n(1) Stress of bar under combination of torsional, bending, and tensile load\n(2) Buckling of long column under compression load\n(3) Buckling of thin flat plate\n(4) Buckling and effective width of plate with stiffeners\n\nStudents should thoroughly review what they have learned in ‘Strength of Materials' and ‘Strength of Materials for Aircraft Structures’ before taking this course.\n\n              教科書および参考書・リザーブドブック\n\n              Basis of Understanding Strength of Materials -Second Edition, Kyoritsu Syuppan, 2013\n\n              履修に必要な予備知識や技能\n\n              Basic knowledge of Strength of Materials and Strength of Materials for Aircraft Structures.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                D,K,N\n                Be able to calculate the maximum principal stress of the bar under both torsional and tensile loads\n\n                ②\n                D,K,N\n                Be able to calculate the buckling load of long columns with various ends’ conditions\n\n                ③\n                D,K,N\n                Be able to calculate buckling load of thin flat plates\n\n                ④\n                D,K,N\n                Be able to understand the concept of effective width and calculate the effective width of plate with stiffeners\n\n                ⑤\n\n                ⑥\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                40\n\n                60\n\n                0\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                40\n\n                60\n\n                0\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                40\n\n                60\n\n                0\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  コラボレーションとリーダーシップ\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  発表・表現・伝達する力\n\n                    0\n\n       ",
-  "courseId": "2026:spring:E139-01:0:212",
+  "rawText": "金沢工業大学 学習支援計画書 E125-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Aeronautics\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n航空工学演習\nAircraft Engineering Exercises  4 E125-01  2024年度\n 3rd year 2nd semester  修学規程第4条を参照\n    担当教員名\n HASHIMOTO Kazunori\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Flight performance 2.Stability 3.Maneuverability 4.Flight control 5.Regional cooperation  Aircraft Engineering Exercises makes full use of the various knowledge that students have learned, and it is important to apply this knowledge by performing basic design of aircraft on a team and learn the importance of team activities in aircraft design.\n    授業の概要および学習上の助言   Each student team will perform the basic tasks of designing one aircraft. First, each team will aim to design a bestseller, determine the operational goals and performance of the aircraft, and outline the aircraft shape and flight control to satisfy these requirements. Next, the team will estimate the aerodynamics from the airframe shape, the flight performance, the stability, and the maneuverability, and evaluate flight performance using a flight simulator, and then complete the basic design. As a result of the above, each team will experience actual aircraft development, such as making presentations for airlines in a timely manner and making incremental improvements.\n    教科書および参考書・リザーブドブック   _\n    履修に必要な予備知識や技能   Students need to make full use of all the knowledge they have learned, so must review everything studied up to this point.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① J Be able to understand the equation of motion of an aircraft   ② G,J,N Be able to design aircraft that satisfy flight performance   ③ J Be able to estimate an aerodynamic coefficient   ④ D,L Be able to perform flight simulation   ⑤ L,M Be able to understand evaluation methods in a flight simulator   ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 30 0 45 15 0 0 10 100     指標と評価割合 総合評価割合 30 0 45 15 0 0 10 100   総合力指標 知識を取り込む力 30 0 45 15 0 0 10 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ Based on the exercises used in lectures, students will be evaluated on their understanding of the lectures using problems that apply knowledge learned.   ② レ   ③ レ   ④     ⑤     ⑥     クイズ\n小テスト ①      ②     ③     ④     ⑤     ⑥     レポート ① レ Students will be evaluated on reports prepared for tasks that require research or application.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     成果発表\n(口頭・実技) ① レ Students will be evaluated based on their active participation in the presentation.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ① レ A negative rating will be given if behavior that interferes with the class, such as private conversations, continues after a reprimand is given.   ② レ   ③ レ   ④ レ   ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     (1) Be able to actively investigate and consider necessary information for the exercise, and be able to explain it physically and accurately (2) Be able to physically explain how the aircraft flies (3) Be able to investigate and study ideas for stabilizing flight and explain the functions of flight control laws accurately (4) Be able to explain flight characteristics accurately from flight simulator results (1) Be able to physically explain how the aircraft flies (2) Be able to explain the functions of flight control laws (3) Be able to explain flight characteristics from flight simulator results\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習課題に要する標準的な時間を記載してあります。日々の自学自習時間全体としては、各授業に応じた時間(例",
+  "courseId": "2024:fall:E112-01:0:212",
   "language": "en"
 }

@@ -1,79 +1,64 @@
 {
   "sourceIndex": 927,
   "sourceUrl": "/opsyllabus/kitos0110/927/1",
-  "importedAt": "2026-06-08T09:34:12.597Z",
-  "title": "建築構造力学Ⅱ",
-  "subtitle": "Structural Mechanics for Architecture II",
-  "courseType": "Major ProgramMajor Courses",
+  "importedAt": "2026-06-09T01:29:27.916Z",
+  "title": "教育相談(夏期集中講義)",
+  "subtitle": "School Counseling",
+  "courseType": "Teacher Certification Program\nTeacher Certification Courses",
   "credits": "2",
-  "term": "2026年度\n\n                2nd year 1st semester",
+  "term": "2024年度\n 3rd year 1st semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "NISHIMURA Toku",
-    "SUDA Tatsuru",
-    "SATO Hiromi"
+    "FUSEJIMA Ayumi",
+    "TAIRA Mayuko"
   ],
   "keywords": [
-    "Elastic curve",
-    "Principle of virtual work",
-    "Buckling",
-    "Slope-deflection method",
-    "Moment distribution method"
+    "Counseling 2.Truant and Bullying 3.Developmental Disorder 4.Developmental Counseling 5.Cooperation between School and Community"
   ],
-  "educationalGoal": "First, they must understand how to decide whether a structure is statically determinate or indeterminate. In addition, students learn to estimate structural deformation using the principle of virtual work and simple solutions for statically indeterminate structures. We give a lecture on the slope-deflection method and finding solutions using the linear moment distribution method of modeling statically indeterminate structures. Students will be able to solve for design stresses at the end of this class.",
-  "advice": "1. Outline and review\n2. Deformation of members (elastic curves, Mall's theorem)\n3. Deformation of statically determinate structures using the principle of virtual work\n4. Solution of primary statically indeterminate structures using the stress method\n5. Buckling of compression members\n6. Solution of statically indeterminate frames using the deflection angle method\n7. Solution of statically indeterminate frames using the fixed moment method\n8. Solution of statically indeterminate frames using the slope-deflection method",
-  "books": "ステップアップ建築構造力学",
-  "requiredKnowledge": "Students must have credit for Structural Mechanics for Architecture I.",
+  "educationalGoal": "This course covers psychological problems in secondary school(relationship between students and parents, truant, bullying, school maladjustment, developmental disorder, and so on). Students will discuss psychological features in adolescence, relationship between teachers and students, and relationship between teachers and parents, and aim to acquire the correct view and skill for students with school maladjustment.",
+  "advice": "This course includes the following materials: (1) To consider the current issues of school maladjustment in secondary education(truant, bullying, and school maladjustment) (2) To understand psychological features and psychological problems in adolescence, and the support system for students with school maladjustment (3) To understand basic theories of school counseling and psychological support for students with school maladjustment. Students are expected to consider what is necessary for secondary school students.",
+  "books": "Toshiyuki Kasugai & Minako Itoh(2011) Yoku Wakaru Kyouiku-Soudan, Mineruva-Shobou.",
+  "requiredKnowledge": "To understand basic knowledge of educational psychology.",
   "activityGoals": [
     {
       "index": "①",
-      "type": "I,O",
-      "body": "Students can calculate bending deformation."
+      "type": "G",
+      "body": "Be able to answer the space filling and descriptive questions about truant, bullying, and school maladjustment."
     },
     {
       "index": "②",
-      "type": "I,O",
-      "body": "Students can calculate structural deformation using the principle of virtual work."
+      "type": "G",
+      "body": "Be able to explain how to understand secondary school students with psychological problems."
     },
     {
       "index": "③",
-      "type": "I,O",
-      "body": "Students can calculate of buckling loads."
+      "type": "G",
+      "body": "Be able to explain the correct psychological support for secondary school students."
     },
     {
       "index": "④",
-      "type": "I,O",
-      "body": "Students can calculate stress and deformation of indeterminate frames using the slope-deflection method."
-    },
-    {
-      "index": "⑤",
-      "type": "I,O",
-      "body": "Students can calculate stress and deformation of indeterminate frames using the the moment distribution method."
-    },
-    {
-      "index": "⑥",
-      "type": "I,O",
-      "body": "Students can calculate stress and deformation of indeterminate frames using the D-value method."
+      "type": "A",
+      "body": "Be able to engage in this course and self-evaluate objectives of this course to be achieved."
     }
   ],
   "evaluationWeights": [
     {
       "label": "総合評価割合",
       "values": [
-        "30",
-        "30",
+        "0",
+        "40",
         "40",
         "0",
         "0",
-        "0",
-        "0",
+        "10",
+        "10",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -83,20 +68,20 @@
     {
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
-        "30",
-        "30",
+        "0",
+        "40",
         "40",
         "0",
         "0",
-        "0",
-        "0",
+        "10",
+        "10",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -106,20 +91,20 @@
     {
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
-        "30",
-        "30",
+        "0",
+        "40",
         "40",
         "0",
         "0",
-        "0",
-        "0",
+        "10",
+        "10",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -140,9 +125,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -150,7 +135,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -163,9 +148,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -186,9 +171,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -197,118 +182,118 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "Fully understand calculation methods for structures using structural mechanics.",
-    "standard": "Understand calculation methods for structures using structural mechanics."
+    "ideal": "(1) Describe truant, bullying, school maladjustment, and developmental disorder correctly, and answer the space filling and descriptive questions about them correctly. (2) Describe how to solve the psychological problems and make effective use of school support system correctly, and answer the space filling and descriptive questions about them correctly. (3) Explain psychological support for secondary school students from various points.",
+    "standard": "(1) Describe truant, bullying, school maladjustment, and developmental disorder. (2) Describe how to solve the psychological problems and make effective use of school support system. (3) Explain psychological support for secondary school students."
   },
   "clipProcess": "",
   "lessons": [
     {
       "index": "1",
-      "content": "(1)\tExplanation of learning objectives\n(2)\tJudgment of statically determinate and\nstatically indeterminate structures\n(3)\tSolution methods for static structures",
-      "operation": "Lecture, exercises, and\nself-reflection",
-      "assignments": "Review and preparation for\nnext lesson",
-      "minutes": "120\n120"
+      "content": "Course introduction What is school counseling? Self-reflection",
+      "operation": "Lecture and Q&A",
+      "assignments": "Understand the syllabus of this course",
+      "minutes": "30"
     },
     {
       "index": "2",
-      "content": "Deformation of static structures Part 1",
-      "operation": "Lecture, exercises, and\nself-reflection",
-      "assignments": "Review and preparation for\nnext lesson",
-      "minutes": "120\n120"
+      "content": "Counseling(1): Basic theory and technique Self-reflection",
+      "operation": "Lecture and Q&A",
+      "assignments": "Read chap.1-2 of the textbook and review the content of the lecture",
+      "minutes": "30"
     },
     {
       "index": "3",
-      "content": "Deformation of static structures Part 2",
-      "operation": "Lecture, exercises, and\nself-reflection",
-      "assignments": "Review and preparation for\nnext lesson",
-      "minutes": "120\n120"
+      "content": "Counseling(2): Practical method Self-reflection",
+      "operation": "Lecture and Q&A Watching a video Practice",
+      "assignments": "Read chap.1-2 of the textbook and review the content of the lecture",
+      "minutes": "30"
     },
     {
       "index": "4",
-      "content": "Principles of virtual work Part 1",
-      "operation": "Lecture, exercises, and\nself-reflection",
-      "assignments": "Review and preparation for\nnext lesson",
-      "minutes": "120\n120"
+      "content": "Quiz(1) Summery of 1-3 classes Psychological problems in adolescence(1): Basic issues Self-reflection",
+      "operation": "Quiz Lecture and Q&A",
+      "assignments": "Review the content of the 1-3 classes. Read chap.3-4 of the textbook and review the content of the lecture",
+      "minutes": "90 30"
     },
     {
       "index": "5",
-      "content": "Principles of virtual work part 2",
-      "operation": "Lecture, exercises, and\nself-reflection",
-      "assignments": "Review and preparation for\nnext lesson",
-      "minutes": "120\n120"
+      "content": "Psychological problems in adolescence(2): Truant Self-reflection",
+      "operation": "Lecture and Q&A",
+      "assignments": "Read chap.6 of the textbook and review the content of the lecture",
+      "minutes": "30"
     },
     {
       "index": "6",
-      "content": "Buckling of compression members",
-      "operation": "Lecture, exercises, and\nself-reflection",
-      "assignments": "Review",
-      "minutes": "150\n120"
+      "content": "Psychological problems in adolescence(3): Bullying Self-reflection",
+      "operation": "Lecture and Q&A",
+      "assignments": "Read chap.7 of the textbook and review the content of the lecture",
+      "minutes": "30"
     },
     {
       "index": "7",
-      "content": "Mid-semester test",
-      "operation": "Mid-semester test",
-      "assignments": "Review",
-      "minutes": "120\n120"
+      "content": "Psychological problems in adolescence(4): Class collapse Self-reflection",
+      "operation": "Lecture and Q&A",
+      "assignments": "Investigate the current state of class collapse on the web",
+      "minutes": "30"
     },
     {
       "index": "8",
-      "content": "Slope-deflection method Part 1",
-      "operation": "Lecture, exercises, and\nself-reflection",
-      "assignments": "Review and preparation for\nnext lesson",
-      "minutes": "120\n120"
+      "content": "Psychological problems in adolescence(5): Antisocial behavior Self-reflection",
+      "operation": "Lecture and Q&A",
+      "assignments": "Investigate the current state of delinquency on the web",
+      "minutes": "30"
     },
     {
       "index": "9",
-      "content": "Slope-deflection method Part 2",
-      "operation": "Lecture, exercises, and\nself-reflection",
-      "assignments": "Review and preparation for\nnext lesson",
-      "minutes": "120\n120"
+      "content": "Psychological problems in adolescence(6): Neurosis, mental illness, and personality disorder Self-reflection",
+      "operation": "Lecture and Q&A",
+      "assignments": "Read chap.9 of the textbook and review the content of the lecture",
+      "minutes": "30"
     },
     {
       "index": "10",
-      "content": "Slope-deflection method Part 3",
-      "operation": "Lecture, exercises, and\nself-reflection",
-      "assignments": "Review and preparation for\nnext lesson",
-      "minutes": "120\n120"
+      "content": "Psychological problems in adolescence(7): Developmental disorder Self-reflection",
+      "operation": "Lecture and Q&A",
+      "assignments": "Read chap.13-14 of the textbook used in the course “Educational Psychology” and review the content of the lecture",
+      "minutes": "45"
     },
     {
       "index": "11",
-      "content": "Fixed moment method Part 1",
-      "operation": "Lecture, exercises, and\nself-reflection",
-      "assignments": "Review and preparation for\nnext lesson",
-      "minutes": "120\n120"
+      "content": "Quiz(2) Summery of 4-10classes Self-reflection",
+      "operation": "Quiz Lecture and Q&A",
+      "assignments": "Review the content of the 4-10 classes",
+      "minutes": "180"
     },
     {
       "index": "12",
-      "content": "Fixed moment method Part 2",
-      "operation": "Lecture, exercises, and\nself-reflection",
-      "assignments": "Review and preparation for\nnext lesson",
-      "minutes": "120\n120"
+      "content": "Support for parents Self-reflection",
+      "operation": "Lecture and Q&A",
+      "assignments": "Read the handout distributed in class and review the content of the lecture",
+      "minutes": "45"
     },
     {
       "index": "13",
-      "content": "D-value method",
-      "operation": "Lecture, exercises, and\nself-reflection",
-      "assignments": "Review",
-      "minutes": "150\n120"
+      "content": "Collaboration support system for students with psychological problems inside school Self-reflection",
+      "operation": "Lecture and Q&A",
+      "assignments": "Read the handout distributed in class and review the content of the lecture",
+      "minutes": "45"
     },
     {
       "index": "14",
-      "content": "Final examination",
-      "operation": "Examination",
-      "assignments": "Review",
-      "minutes": "150"
+      "content": "Collaboration support system for students with institutions outside school Self-reflection",
+      "operation": "Lecture and Q&A",
+      "assignments": "Read the handout distributed in class and review the content of the lecture",
+      "minutes": "45"
     },
     {
       "index": "15",
-      "content": "Self-reflection",
-      "operation": "Lecture, exercises, and\nself-reflection",
-      "assignments": "Review and preparation for\nnext lesson",
-      "minutes": "120\n120"
+      "content": "Practice on school counseling Summary of this course",
+      "operation": "Practice(including role-playing) Create a report",
+      "assignments": "Read the handout distributed in class and review the practice and create a report",
+      "minutes": "180"
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　A213-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Architectural Design\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                建築構造力学Ⅱ\n                Structural Mechanics for Architecture II\n\n              2\n              A213-01\n\n                2026年度\n\n                2nd year 1st semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  NISHIMURA Toku, SUDA Tatsuru, SATO Hiromi\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Elastic curve\n2.Principle of virtual work\n3.Buckling\n4.Slope-deflection method\n5.Moment distribution method\n\n              First, they must understand how to decide whether a structure is statically determinate or indeterminate. In addition, students learn to estimate structural deformation using the principle of virtual work and simple solutions for statically indeterminate structures. We give a lecture on the slope-deflection method and finding solutions using the linear moment distribution method of modeling statically indeterminate structures. Students will be able to solve for design stresses at the end of this class.\n\n              授業の概要および学習上の助言\n\n              1. Outline and review\n2. Deformation of members (elastic curves, Mall's theorem)\n3. Deformation of statically determinate structures using the principle of virtual work\n4. Solution of primary statically indeterminate structures using the stress method\n5. Buckling of compression members\n6. Solution of statically indeterminate frames using the deflection angle method\n7. Solution of statically indeterminate frames using the fixed moment method\n8. Solution of statically indeterminate frames using the slope-deflection method\n\n              教科書および参考書・リザーブドブック\n\n              ステップアップ建築構造力学\n\n              履修に必要な予備知識や技能\n\n              Students must have credit for Structural Mechanics for Architecture I.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                I,O\n                Students can calculate bending deformation.\n\n                ②\n                I,O\n                Students can calculate structural deformation using the principle of virtual work.\n\n                ③\n                I,O\n                Students can calculate of buckling loads.\n\n                ④\n                I,O\n                Students can calculate stress and deformation of indeterminate frames using the slope-deflection method.\n\n                ⑤\n                I,O\n                Students can calculate stress and deformation of indeterminate frames using the the moment distribution method.\n\n                ⑥\n                I,O\n                Students can calculate stress and deformation of indeterminate frames using the D-value method.\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                30\n\n                30\n\n                40\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                30\n\n                30\n\n                40\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                30\n\n                30\n\n                40\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n          ",
-  "courseId": "2026:spring:A213-01:0:927",
+  "rawText": "金沢工業大学 学習支援計画書 G918-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nTeacher Certification Program\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Teacher Certification Program\nTeacher Certification Courses\n教育相談(夏期集中講義)\nSchool Counseling  2 G918-01  2024年度\n 3rd year 1st semester  修学規程第4条を参照\n    担当教員名\n FUSEJIMA Ayumi, TAIRA Mayuko\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Counseling 2.Truant and Bullying 3.Developmental Disorder 4.Developmental Counseling 5.Cooperation between School and Community  This course covers psychological problems in secondary school(relationship between students and parents, truant, bullying, school maladjustment, developmental disorder, and so on). Students will discuss psychological features in adolescence, relationship between teachers and students, and relationship between teachers and parents, and aim to acquire the correct view and skill for students with school maladjustment.\n    授業の概要および学習上の助言   This course includes the following materials: (1) To consider the current issues of school maladjustment in secondary education(truant, bullying, and school maladjustment) (2) To understand psychological features and psychological problems in adolescence, and the support system for students with school maladjustment (3) To understand basic theories of school counseling and psychological support for students with school maladjustment. Students are expected to consider what is necessary for secondary school students.\n    教科書および参考書・リザーブドブック   Toshiyuki Kasugai & Minako Itoh(2011) Yoku Wakaru Kyouiku-Soudan, Mineruva-Shobou.\n    履修に必要な予備知識や技能   To understand basic knowledge of educational psychology.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① G Be able to answer the space filling and descriptive questions about truant, bullying, and school maladjustment.   ② G Be able to explain how to understand secondary school students with psychological problems.   ③ G Be able to explain the correct psychological support for secondary school students.   ④ A Be able to engage in this course and self-evaluate objectives of this course to be achieved.   ⑤     ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 0 40 40 0 0 10 10 100     指標と評価割合 総合評価割合 0 40 40 0 0 10 10 100   総合力指標 知識を取り込む力 0 40 40 0 0 10 10 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ①      ②     ③     ④     ⑤     ⑥     クイズ\n小テスト ① レ Students will take two quizzes. Each of them will be evaluates with 20% score.   ② レ   ③     ④     ⑤     ⑥     レポート ①   Students will take one report which will be evaluated with 40% score.   ②     ③ レ   ④     ⑤     ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①   Students will create a portfolio at the last class to reflect on this course. It will be evaluated with 10% score.   ②     ③     ④ レ   ⑤     ⑥     その他 ①   Students will be evaluated on the attitude toward this course with 10% score.   ②     ③     ④ レ   ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     (1) Describe truant, bullying, school maladjustment, and developmental disorder correctly, and answer the space filling and descriptive questions about them correctly. (2) Describe how to solve the psychological problems and make effective use of school support system correctly, and answer the space filling and descriptive questions about them correctly. (3) Explain psychological support for secondary school students from various points.  (1) Describe truant, bullying, school maladjustment, and developmental disorder. (2) Describe how to solve the psychological problems and make effective use of school support system. (3) Explain psychological support for secondary school students.\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、Goo",
+  "courseId": "2024:spring:G553-01:0:927",
   "language": "en"
 }

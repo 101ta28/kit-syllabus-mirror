@@ -1,58 +1,48 @@
 {
   "sourceIndex": 404,
   "sourceUrl": "/opsyllabus/kitos0110/404/1",
-  "importedAt": "2026-06-08T09:34:01.317Z",
-  "title": "メディア情報専門実験・演習Ａ",
-  "subtitle": "Media Informatics Major Lab/Exercises A",
-  "courseType": "Major ProgramMajor Courses",
-  "credits": "3",
-  "term": "2026年度\n\n                3rd year 1st semester3rd year 2nd semester",
+  "importedAt": "2026-06-09T01:29:22.776Z",
+  "title": "映像メディア処理",
+  "subtitle": "Visual Media Processing",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "2",
+  "term": "2024年度\n 3rd year 2nd semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "EMURA Norio",
-    "URA Masahiro",
-    "KANE Kazuhiro"
+    "GUO Qinglian"
   ],
   "keywords": [
-    "3D Modeling",
-    "3D Printer",
-    "Video production",
-    "Non-linear editing"
+    "Image processing 2.Movie editing 3.Movie creation 4.Digital content 5.Projection mapping"
   ],
-  "educationalGoal": "This course is based on two themes, Modeling and Fabrication, and Video Prodoction.\nIn Fabrication and Modeling, students will be given opportunities to design and output 3DCG data to a real 3D object by using a 3D printer.\nIn video production, students will learn the production process of video work and  the expertise of shooting and editing.",
-  "advice": "Fabrication and Modeling:\nStudents experience prototyping by designing, modeling and outputting  objects that they will use personally.\nStudents learn digital manufacturing for personal use by outputting their individually created designs to 3D printer, paper and AR.\n\nVideo Prodcution:\nStudents learn and practice the expertise of shooting and editing.\nStudents experience a series of the video production process through making original movie by shooting and editing based on storyboard.",
-  "books": "none",
-  "requiredKnowledge": "Students must pay sufficient attention to safety during experiments.\nStudents must perform their fabrication experiments carefully and according to given instructions.",
+  "educationalGoal": "Students will: (1) Learn a wider range of image processing algorithms. (2) Learn how to edit movies and videos. (3) Learn how to create 3D CG animations. (4) Learn how to create digital contents for projection mapping. (5) Learn and practice projection mapping.",
+  "advice": "Students are required to install 3D CG software of Blender on their computer.",
+  "books": "no required textbooks",
+  "requiredKnowledge": "Knowledge about computer graphics is required.",
   "activityGoals": [
     {
       "index": "①",
-      "type": "E,H,I,L,M",
-      "body": "Be able to create 3DCG digital data suitable for fabrication use and output the data as actual 3D objects."
+      "type": "A,B,C,R",
+      "body": "Be able to understand various image processing algorithms."
     },
     {
       "index": "②",
-      "type": "E,H,I,L,M",
-      "body": "Be able to conceive and produce appropriate designs."
+      "type": "A,B,C,R",
+      "body": "Be able to edit videos and make short movies."
     },
     {
       "index": "③",
-      "type": "E,H,I,J,L,M",
-      "body": "Be able to make presentations regarding student efforts."
+      "type": "D,E,R",
+      "body": "Be able to create 3D CG videos."
     },
     {
       "index": "④",
-      "type": "E,H,I,L,M",
-      "body": "Be able to explain video production process"
+      "type": "D,E,R",
+      "body": "Be able to create 3D content for projection mapping."
     },
     {
       "index": "⑤",
-      "type": "E,H,I,L,M",
-      "body": "Be able to prepare progress schedule and storyboard"
-    },
-    {
-      "index": "⑥",
-      "type": "E,H,I,L,M,N",
-      "body": "Be able to create movie using non-linear editing software"
+      "type": "D,E,R",
+      "body": "Be able to carry out projection mapping event."
     }
   ],
   "evaluationWeights": [
@@ -61,18 +51,18 @@
       "values": [
         "0",
         "0",
+        "80",
+        "20",
         "0",
         "0",
         "0",
-        "0",
-        "100",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -84,18 +74,18 @@
       "values": [
         "0",
         "0",
+        "80",
+        "20",
         "0",
         "0",
         "0",
-        "0",
-        "100",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -107,18 +97,18 @@
       "values": [
         "0",
         "0",
+        "80",
+        "20",
         "0",
         "0",
         "0",
-        "0",
-        "100",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -139,9 +129,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -149,7 +139,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -162,9 +152,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -185,9 +175,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -196,118 +186,118 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "Achieve more than 90% of the \"Target Abilities\".",
-    "standard": "Achieve at least 60% of the \"Target Abilities\"."
+    "ideal": "Be able to acquire basic knowledge about image processing and various algorithms. Be able to design and create original high level digital contents for projection mapping.",
+    "standard": "Be able to acquire basic knowledge about image processing and various algorithms. Be able to create standard level digital contents for projection mapping."
   },
   "clipProcess": "",
   "lessons": [
     {
-      "index": "１",
-      "content": "[Fabrication and Modeling]\n\n-Survey of 3D printer, paper, and AR\n-Survey of prototyping and personal use",
-      "operation": "Lecture and practice\nSelf-reflection",
-      "assignments": "Task: Production ideas",
-      "minutes": "225"
+      "index": "1",
+      "content": "Digital image and image processing install Blender",
+      "operation": "",
+      "assignments": "Review",
+      "minutes": "30 min"
     },
     {
       "index": "2",
-      "content": "Prototyping 1 -Production-:\n-3DCG Modeling\n-Output 3D model using a 3D Printer, Paper or AR\n-Collect feedback comments",
-      "operation": "Lecture and practice\nSelf-reflection",
-      "assignments": "-Improvement idea based on\nfeedback comments",
-      "minutes": "225"
+      "content": "Digital image and image processing report 1 creation",
+      "operation": "",
+      "assignments": "Review",
+      "minutes": "30 min"
     },
     {
       "index": "3",
-      "content": "Prototyping 1 -Improvement-:\n-Modify 3D model\n-Product PR media",
-      "operation": "Lecture and practice\nSelf-reflection",
-      "assignments": "Task:\n-Experiment report\n-PR media",
-      "minutes": "225"
+      "content": "Digital image and image processing report 1 creation",
+      "operation": "",
+      "assignments": "Review",
+      "minutes": "40 min"
     },
     {
       "index": "4",
-      "content": "Prototyping 2 -Production-:\n-3DCG Modeling\n-Output 3D model using a 3D Printer, Paper or AR\n-Collect feedback comments",
-      "operation": "Lecture and practice\nSelf-reflection",
-      "assignments": "-Improvement idea based on\nfeedback comments",
-      "minutes": "225"
+      "content": "edit videos and movies report 1 creation",
+      "operation": "",
+      "assignments": "Review",
+      "minutes": "40 min"
     },
     {
       "index": "5",
-      "content": "Prototyping 2 -Improvement-:\n-Modify 3D model\n-Product PR media",
-      "operation": "Lecture and practice\nSelf-reflection",
-      "assignments": "Task:\n-Experiment report\n-PR media",
-      "minutes": "225"
+      "content": "edit videos and movies report 1 creation",
+      "operation": "",
+      "assignments": "Review",
+      "minutes": "40 min"
     },
     {
       "index": "6",
-      "content": "Prototyping 3 -Production-:\n-3DCG Modeling\n-Output 3D model using a 3D Printer, Paper or AR\n-Collect feedback comments",
-      "operation": "Lecture and Practice\nSelf-reflection",
-      "assignments": "-Improvement idea based on\nfeedback comments",
-      "minutes": "225"
+      "content": "3D CG Creation CG animation report 1 creation",
+      "operation": "",
+      "assignments": "Review",
+      "minutes": "40 min"
     },
     {
       "index": "7",
-      "content": "Prototyping 3 -Improvement-:\n-Modify 3D model\n-Product PR media",
-      "operation": "Lecture and Practice\nSelf-reflection",
-      "assignments": "Task:\n-Experiment report\n-PR media",
-      "minutes": "225"
+      "content": "3D CG Creation CG animation report 1 creation",
+      "operation": "",
+      "assignments": "Submission of report 1",
+      "minutes": "40 min"
     },
     {
       "index": "8",
-      "content": "-Output any of improved 3D model\n-Presentation",
-      "operation": "Practice\nPresentation\nSelf-check",
-      "assignments": "Task:\n-Review previous contents of\nstudy",
-      "minutes": "225"
+      "content": "review",
+      "operation": "",
+      "assignments": "Review",
+      "minutes": "40 min"
     },
     {
       "index": "9",
-      "content": "[Video Production]\n\nLecture:\nCourse introduction\nVideo production process\n- Pre-production, Production, and\nPost-production\n\nPractice:\n- How to shoot videp using a camera\n- Camera work\n- draft a storyboard",
-      "operation": "Lecture and practice\nSelf-reflection",
-      "assignments": "Lecture review\nWrite project plan",
-      "minutes": "100"
+      "content": "Digital content design report 2 creation",
+      "operation": "",
+      "assignments": "Review",
+      "minutes": "40 min"
     },
     {
       "index": "10",
-      "content": "Lecture:\nLighting\n\nPractice:\nLighting\ndraft a progress schedule\nLocation hunting",
-      "operation": "Lecture and practice\nSelf-reflection",
-      "assignments": "Lecture review\nWrite project plan",
-      "minutes": "100"
+      "content": "Digital content design report 2 creation",
+      "operation": "",
+      "assignments": "Review",
+      "minutes": "40 min"
     },
     {
       "index": "11",
-      "content": "Lecture:\nEditing\n\nPractice:\nLocation hunting and shooting\nImprove the storyboard",
-      "operation": "Lecture and practice\nSelf-reflection",
-      "assignments": "Review Lecture\nModify project plan",
-      "minutes": "100"
+      "content": "Digital content creation report 2 creation",
+      "operation": "",
+      "assignments": "Review",
+      "minutes": "60 min"
     },
     {
       "index": "12",
-      "content": "Lecture:\nMusic and sound effects\n\nPractice:\nShooting and editing\nPrepare for midterm presentation",
-      "operation": "Practice\nSelf-reflection",
-      "assignments": "Review lecture\nCreate the midterm\npresentation material",
-      "minutes": "100"
+      "content": "Digital content creation report 2 creation",
+      "operation": "",
+      "assignments": "Review",
+      "minutes": "60 min"
     },
     {
       "index": "13",
-      "content": "Midterm Presentation\n\nPractice:\nMusic and sound editing",
-      "operation": "Presentation\nPractice\nSelf-reflection",
-      "assignments": "Improve video work",
-      "minutes": "100"
+      "content": "Projection mapping report 2 creation",
+      "operation": "",
+      "assignments": "Review",
+      "minutes": "60 min"
     },
     {
       "index": "14",
-      "content": "Improve video work\nPrepare for final presentation",
-      "operation": "Practice\nSelf-reflection",
-      "assignments": "Create final presentation\nmaterial",
-      "minutes": "100"
+      "content": "Projection mapping report 2 submission",
+      "operation": "",
+      "assignments": "Review",
+      "minutes": "60 min"
     },
     {
       "index": "15",
-      "content": "Final presentation and review",
-      "operation": "Presentation\nSelf-evaluation",
+      "content": "Summary",
+      "operation": "",
       "assignments": "",
       "minutes": ""
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　F026-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Media Informatics(〜2024)\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                メディア情報専門実験・演習Ａ\n                Media Informatics Major Lab/Exercises A\n\n              3\n              F026-01\n\n                2026年度\n\n                3rd year 1st semester3rd year 2nd semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  EMURA Norio, URA Masahiro, KANE Kazuhiro\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.3D Modeling\n2.3D Printer\n3.Video production\n4.Non-linear editing\n\n              This course is based on two themes, Modeling and Fabrication, and Video Prodoction.\nIn Fabrication and Modeling, students will be given opportunities to design and output 3DCG data to a real 3D object by using a 3D printer.\nIn video production, students will learn the production process of video work and  the expertise of shooting and editing.\n\n              授業の概要および学習上の助言\n\n              Fabrication and Modeling:\nStudents experience prototyping by designing, modeling and outputting  objects that they will use personally.\nStudents learn digital manufacturing for personal use by outputting their individually created designs to 3D printer, paper and AR.\n\nVideo Prodcution:\nStudents learn and practice the expertise of shooting and editing.\nStudents experience a series of the video production process through making original movie by shooting and editing based on storyboard.\n\n              教科書および参考書・リザーブドブック\n\n              none\n\n              履修に必要な予備知識や技能\n\n              Students must pay sufficient attention to safety during experiments.\nStudents must perform their fabrication experiments carefully and according to given instructions.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                E,H,I,L,M\n                Be able to create 3DCG digital data suitable for fabrication use and output the data as actual 3D objects.\n\n                ②\n                E,H,I,L,M\n                Be able to conceive and produce appropriate designs.\n\n                ③\n                E,H,I,J,L,M\n                Be able to make presentations regarding student efforts.\n\n                ④\n                E,H,I,L,M\n                Be able to explain video production process\n\n                ⑤\n                E,H,I,L,M\n                Be able to prepare progress schedule and storyboard\n\n                ⑥\n                E,H,I,L,M,N\n                Be able to create movie using non-linear editing software\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                0\n\n                0\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                0\n\n                0\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                0\n\n                0\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  コラボレーションとリーダーシップ\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n          ",
-  "courseId": "2026:spring:F026-01:0:404",
+  "rawText": "金沢工業大学 学習支援計画書 E524-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Information and Computer Science\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n映像メディア処理\nVisual Media Processing  2 E524-01  2024年度\n 3rd year 2nd semester  修学規程第4条を参照\n    担当教員名\n GUO Qinglian\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Image processing 2.Movie editing 3.Movie creation 4.Digital content 5.Projection mapping  Students will: (1) Learn a wider range of image processing algorithms. (2) Learn how to edit movies and videos. (3) Learn how to create 3D CG animations. (4) Learn how to create digital contents for projection mapping. (5) Learn and practice projection mapping.\n    授業の概要および学習上の助言   Students are required to install 3D CG software of Blender on their computer.\n    教科書および参考書・リザーブドブック   no required textbooks\n    履修に必要な予備知識や技能   Knowledge about computer graphics is required.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① A,B,C,R Be able to understand various image processing algorithms.   ② A,B,C,R Be able to edit videos and make short movies.   ③ D,E,R Be able to create 3D CG videos.   ④ D,E,R Be able to create 3D content for projection mapping.   ⑤ D,E,R Be able to carry out projection mapping event.   ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 0 0 80 20 0 0 0 100     指標と評価割合 総合評価割合 0 0 80 20 0 0 0 100   総合力指標 知識を取り込む力 0 0 80 20 0 0 0 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ①      ②     ③     ④     ⑤     ⑥     クイズ\n小テスト ①      ②     ③     ④     ⑤     ⑥     レポート ① レ 2 times 60% group activities 20%    ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     成果発表\n(口頭・実技) ① レ once 20%   ② レ   ③ レ   ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ①      ②     ③     ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     Be able to acquire basic knowledge about image processing and various algorithms. Be able to design and create original high level digital contents for projection mapping.   Be able to acquire basic knowledge about image processing and various algorithms. Be able to create standard level digital contents for projection mapping.\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習課題に要する標準的な時間を記載してあります。日々の自学自習時間全体としては、各授業に応じた時間(例えば2単位科目の場合、予習2時間・復習2時間/週)を取るよう努めてください。詳しくは教員の指導に従って下さい。     授業明細   回数 学習内容 授業の運営方法 学習課題(予習・復習) 時間:分※     1  Digital image and image processing install Blender  Review  30 min   2  Digital image and image processing report 1 creation  Review  30 min   3  Digital image and image processing report 1 creation  Review  40 min   4  edit videos and movies report 1 creation  Review  40 min   5  edit videos and movies report 1 creation  Review  40 min   6  3D CG Creation CG animation report 1 creation  Review  40 min   7  3D CG Creation CG animation report 1 creation  Submission of report 1  40 min   8  review  Review  40 min   9  Digital content design report 2 creation  Review  40 min   10  Digital content design report 2 creation  Review  40 min   11  Digital content creation report 2 creation  Review  60 min   12  Digital content creation report 2 creation  Review  60 min   13  Projection mapping report 2 creation  Review  60 min   14  Projection mapping report 2 submission  Review  60 min   15  Summary",
+  "courseId": "2024:fall:E516-01:0:404",
   "language": "en"
 }

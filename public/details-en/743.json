@@ -1,77 +1,68 @@
 {
   "sourceIndex": 743,
   "sourceUrl": "/opsyllabus/kitos0110/743/1",
-  "importedAt": "2026-06-08T09:34:08.419Z",
-  "title": "基礎生物学Ⅰ",
-  "subtitle": "Basic Biology I",
-  "courseType": "Major ProgramMajor Courses",
+  "importedAt": "2026-06-09T01:29:26.149Z",
+  "title": "応用生化学",
+  "subtitle": "Applied Biochemistry",
+  "courseType": "Major Program\nMajor Courses",
   "credits": "2",
-  "term": "2026年度\n\n                1st year 1st semester",
+  "term": "2024年度\n 2nd year 2nd semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "HIRATA Hiroaki"
+    "ONO Shin"
   ],
   "keywords": [
-    "Proteins",
-    "Metabolism",
-    "Gene Expression",
-    "Immunity",
-    "Ecosystems"
+    "Enzyme 2.Enzyme Kinetics 3.Carbohydrate Metabolism 4.Lipid Metabolism 5.Protein Metabolism"
   ],
-  "educationalGoal": "Students will learn:\n(1) roles of various substances common to all organisms,\n(2) the mechanism of metabolism,\n(3) the mechanism of gene expression and cell division,\n(4) types of immunity, and\n(5) biodiversity and environmental degradation in ecosystems.",
-  "advice": "Together with Basic Biology 2, this course provides basic knowledge of biology.\n\nWe will cover the following materials:\n1. Biomolecules and the chemistry of life,\n2. Energy, enzymes, and metabolism,\n3. Control of gene expression,\n4. The process of cell division,\n5. Types and mechanism of immunity, and\n6. Biodiversity and the interconnectedness of life.\n\nStudents are expected to understand the meaning of terms.\nStudents are expected to complete exercises independently.\nStudents are expected to work together in groups to complete tasks in class.\nStudents should pay attention to the teacher’s instructions in the class since the schedule for quizzes, tests and reports may change depending on progress of classes.\nStudents should attend all classes; otherwise, the handouts may not be received.\nStudents are expected to check for messages/materials on the KIT Inside website before each class.",
-  "books": "Textbooks：Daigakusei no tameno kangaete manabu Kisoseibutsugaku (Kyoritsu Shuppan)\nReference books：None\nReserved books：None",
-  "requiredKnowledge": "Basic knowledge of biology.\nBasic computer skills.\nStudents are requested to prepare for and review each class.",
+  "educationalGoal": "Biochemistry that elucidates phenomena occurring in life at the molecular level has evolved as a life science including development of applied technology in the medical field. You learn the characteristic structures of amino acids, proteins, nucleic acids, sugars, and lipids as fundamental knowledge of life sciences, and then the chemical and physiochemical features and the biological functions of those biomolecules.",
+  "advice": "1. Enzyme (structural features and fuctions) 2. Enzyme kinetics (Michaelis-Menten equation, Lineweaver-Burk plot, Km, Vmax, kcat) and vitamins 3. Catabolism process of glucose (glycolysis, TCA cycle, electron transport system, oxidative phosphorylation) 4. Catabolism process of lipids (beta oxidation of fatty acids) 5. Protein degradation and catabolism process of amino acids",
+  "books": "Textbook: Basic Lecture Biochemistry (ed. by H. Inoue), Familiar Biology (ed. by S. Yoshimura) Reference books: not specified Reserved books: not specified",
+  "requiredKnowledge": "The textbook used in the lecture of the fundamental of biological macromolecules will be continued to be used in this lecture. It is good to read the textbook and to organize the important matters on the summary notebook.",
   "activityGoals": [
     {
       "index": "①",
-      "type": "J,K",
-      "body": "Ability to explain structures and functions of proteins"
+      "type": "L",
+      "body": "Be able to explain the structural features and functions of enzymes."
     },
     {
       "index": "②",
-      "type": "J,K",
-      "body": "Ability to explain catabolism and anabolism"
+      "type": "L",
+      "body": "Be able to calculate the reaction rate parameters using enzyme kinetics."
     },
     {
       "index": "③",
-      "type": "J,K",
-      "body": "Ability to explain the process of gene expression"
+      "type": "L",
+      "body": "Be able to explain the catabolism process of glucose."
     },
     {
       "index": "④",
-      "type": "J,K",
-      "body": "Ability to explain the types of immunity"
+      "type": "L",
+      "body": "Be able to explain the catabolism process of fatty acids."
     },
     {
       "index": "⑤",
-      "type": "J,K",
-      "body": "Ability to explain interactions among species in ecosystems"
-    },
-    {
-      "index": "⑥",
-      "type": "J,K",
-      "body": "Ability to conduct literature research"
+      "type": "L",
+      "body": "Be able to explain the protein degradation and the catabolism process of amino acids."
     }
   ],
   "evaluationWeights": [
     {
       "label": "総合評価割合",
       "values": [
+        "30",
+        "50",
         "0",
-        "60",
+        "15",
         "0",
         "0",
-        "0",
-        "0",
-        "40",
+        "5",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -81,20 +72,20 @@
     {
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
+        "30",
+        "50",
         "0",
-        "60",
+        "15",
         "0",
         "0",
-        "0",
-        "0",
-        "40",
+        "5",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -104,20 +95,20 @@
     {
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
+        "30",
+        "50",
         "0",
-        "60",
+        "15",
         "0",
         "0",
-        "0",
-        "0",
-        "40",
+        "5",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -138,9 +129,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -148,7 +139,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -161,9 +152,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -184,9 +175,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -195,118 +186,118 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "(1) Fully understand structures/functions of proteins and their industrial uses.\n(2) Fully understand pathways of catabolism and anabolism.\n(3) Fully understand the detailed process of gene expression.\n(4) Fully understand the detailed mechanism of immunity.\n(5) Fully understand interactions among species in ecosystems and present own opinions on them.",
-    "standard": "(1) Explain structures/functions of proteins.\n(2) Explain catabolism and anabolism.\n(3) Explain the outline of gene expression.\n(4) Explain types of immunity.\n(5) Explain interactions among species in ecosystems.\n(6) Report on literature research."
+    "ideal": "1. Explain the catabolism processes of glucose, fatty acids, and amino acids. 2. Apply the basic enzyme reaction kinetics to speculate a chemical property of enzymes. 3. Understand and imagine phenomena occurring in living organisms at the molecular level.",
+    "standard": "1. Understand the catabolism processes of glucose, fatty acids, and amino acids. 2. Apply the basic enzyme reaction kinetics to speculate a chemical property of enzymes."
   },
   "clipProcess": "",
   "lessons": [
     {
       "index": "1",
-      "content": "Course introduction\nProcaryotic and eucaryotic cells",
-      "operation": "Lecture and Q&A\nSelf-check",
-      "assignments": "Read pages 1-10 of the\ntextbook.",
-      "minutes": "60"
+      "content": "Introductions Review of carbohydrates, lipids, and proteins",
+      "operation": "Lecture & Discussion",
+      "assignments": "Preparation: Read the corresponding parts in the textbook Review: Complete the summary notebook",
+      "minutes": "90 90"
     },
     {
       "index": "2",
-      "content": "Building blocks of life: Proteins",
-      "operation": "Lecture and Q&A\nSelf-check",
-      "assignments": "Read pages 18-28 of the\ntextbook.",
-      "minutes": "140"
+      "content": "Enzymes 1 Structural features and functions",
+      "operation": "Lecture & Discussion",
+      "assignments": "Preparation: Read the textbook Review: Complete the summary notebook",
+      "minutes": "90 90"
     },
     {
       "index": "3",
-      "content": "Energy and metabolism: Photosynthesis",
-      "operation": "Test\nLecture and Q&A\nSelf-check",
-      "assignments": "Read pages 37-42 and 44-47\nof the textbook.",
-      "minutes": "140"
+      "content": "Enzymes 2 Reaction mechanism",
+      "operation": "Lecture & Discussion",
+      "assignments": "Preparation: Read the textbook Review: Complete the summary notebook",
+      "minutes": "90 90"
     },
     {
       "index": "4",
-      "content": "Energy and metabolism: Respiration",
-      "operation": "Lecture and Q&A\nSelf-check",
-      "assignments": "Read pages 53-60 of the\ntextbook.",
-      "minutes": "140"
+      "content": "Enzymes 3 Summary of Reaction mechanism Enzyme Kinetics 1 Control of enzymatic reaction Michaelis-Menten equation",
+      "operation": "Quiz (Structural features and functions of Enzymes) Exercise",
+      "assignments": "Preparation: Read the textbook Review: Complete the summary notebook",
+      "minutes": "90 90"
     },
     {
       "index": "5",
-      "content": "Gene and heredity: Mechanism of gene expression",
-      "operation": "Test\nLecture and Q&A\nSelf-check",
-      "assignments": "Read pages 69-80 of the\ntextbook.",
-      "minutes": "140"
+      "content": "Enzyme Kinetics 2 Lineweaver-Burk plot Reaction rate parameters (Km, Vmax, and kcat)",
+      "operation": "Exercise",
+      "assignments": "Preparation: Read the textbook Review: Complete the summary notebook",
+      "minutes": "90 90"
     },
     {
       "index": "6",
-      "content": "Gene and heredity: Mitosis and meiosis",
-      "operation": "Lecture and Q&A\nSelf-check",
-      "assignments": "Read pages 88-95 of the\ntextbook.",
-      "minutes": "140"
+      "content": "Basics of Metabolism Energy and ATP",
+      "operation": "Lecture & Discussion",
+      "assignments": "Preparation: Read the textbook Review: Complete the summary notebook",
+      "minutes": "90 90"
     },
     {
       "index": "7",
-      "content": "With the aid of AI, investigating nutrients in\nown meals and digestive enzymes in the\ningredients",
-      "operation": "Test\nLecture and Q&A\nSelf-check",
-      "assignments": "",
-      "minutes": "180"
+      "content": "Carbohydrates Metabolism 1 Catabolism process of glucose Glycolysis TCA cycle",
+      "operation": "Lecture & Discussion",
+      "assignments": "Preparation: Read the textbook Review: Complete the summary notebook",
+      "minutes": "90 90"
     },
     {
       "index": "8",
-      "content": "Gene and heredity: Mendel’s laws of dominance\nand segregation",
-      "operation": "Lecture and Q&A\nSelf-check",
-      "assignments": "Read pages 106-114 of the\ntextbook.",
-      "minutes": "140"
+      "content": "Carbohydrates Metabolism 2 Catabolism process of glucose TCA cycle Electron transport system Acidic phosphorylation",
+      "operation": "Lecture & Discussion",
+      "assignments": "Preparation: Read the textbook Review: Complete the summary notebook",
+      "minutes": "90 90"
     },
     {
       "index": "9",
-      "content": "Homeostasis and immunity: Information\ntransmission in the nervous system",
-      "operation": "Test\nLecture and Q&A\nSelf-check",
-      "assignments": "Read pages 125-134 of the\ntextbook.",
-      "minutes": "140"
+      "content": "Summary for catabolism process of glucose Energy and Lipids",
+      "operation": "Quiz (Carbohydrate Metabolism) Lecture & Discussion",
+      "assignments": "Preparation: Read the textbook Review: Complete the summary notebook",
+      "minutes": "90 90"
     },
     {
       "index": "10",
-      "content": "Homeostasis and immunity: Humoral and cell-\nmediated immunity",
-      "operation": "Lecture and Q&A\nSelf-check",
-      "assignments": "Read pages 144-149 of the\ntextbook.",
-      "minutes": "140"
+      "content": "Lipids Metabolism Catabolism process of fatty acids Beta oxidation",
+      "operation": "Lecture & Discussion",
+      "assignments": "Preparation: Read the textbook Review: Complete the summary notebook",
+      "minutes": "90 90"
     },
     {
       "index": "11",
-      "content": "Biofunctions and biodiversity: Ecosystems, and\nintra- and inter-species interactions",
-      "operation": "Test\nLecture and Q&A\nSelf-check",
-      "assignments": "Read pages 161-168 of the\ntextbook.",
-      "minutes": "140"
+      "content": "Summary for catabolism process of fatty acids Proteins Metabolism Proteins degradation Proteases and Peptidases",
+      "operation": "Quiz: (Fatty Acid Metabolism) Lecture & Discussion",
+      "assignments": "Preparation: Read the textbook Review: Complete the summary notebook",
+      "minutes": "90 90"
     },
     {
       "index": "12",
-      "content": "Biofunctions and biodiversity: Diversity in\nbiological systems",
-      "operation": "Lecture and Q&A\nSelf-check",
-      "assignments": "Read pages 179-188 of the\ntextbook.",
-      "minutes": "140"
+      "content": "Amino Acids Metabolism Catabolism process of amino acids",
+      "operation": "Lecture & Discussion",
+      "assignments": "Preparation: Read the textbook Review: Complete the summary notebook",
+      "minutes": "90 90"
     },
     {
       "index": "13",
-      "content": "Biofunctions and biodiversity: Literature\nresearch and report on issues of regional\nenvironments",
-      "operation": "Test\nLecture and Q&A\nSelf-check",
-      "assignments": "Read pages 188-193 of the\ntextbook.",
-      "minutes": "180"
+      "content": "Summary of amino acids metabolism Biological Molecules in Life and Industry 1",
+      "operation": "Quiz (Amino Acids Metabolism) Lecture & Discussion",
+      "assignments": "Preparation: Read the textbook Review: Complete the summary notebook",
+      "minutes": "90 90"
     },
     {
       "index": "14",
-      "content": "Comprehensive review of classes",
-      "operation": "Practice problems\nSelf-check",
-      "assignments": "Review contents of Classes 1-\n13.",
-      "minutes": "120"
+      "content": "Final Examination Biological Molecules in Life and Industry 2",
+      "operation": "Final Examination Lecture & Discussion",
+      "assignments": "Preparation: Read the textbook Review: Complete the summary notebook",
+      "minutes": "270 90"
     },
     {
       "index": "15",
-      "content": "Integrated learning and self-check",
-      "operation": "Review and Q&A\nSelf-check",
-      "assignments": "Review the course.",
-      "minutes": "60"
+      "content": "Self-Evaluation Biological Molecules in Life and Industry 3",
+      "operation": "Lecture & Discussion",
+      "assignments": "Preparation: Read the textbook Review: Self-discussion",
+      "minutes": "90 90"
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　B302-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Life Science and Biotechnology\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                基礎生物学Ⅰ\n                Basic Biology I\n\n              2\n              B302-01\n\n                2026年度\n\n                1st year 1st semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  HIRATA Hiroaki\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Proteins\n2.Metabolism\n3.Gene Expression\n4.Immunity\n5.Ecosystems\n\n              Students will learn:\n(1) roles of various substances common to all organisms,\n(2) the mechanism of metabolism,\n(3) the mechanism of gene expression and cell division,\n(4) types of immunity, and\n(5) biodiversity and environmental degradation in ecosystems.\n\n              授業の概要および学習上の助言\n\n              Together with Basic Biology 2, this course provides basic knowledge of biology.\n\nWe will cover the following materials:\n1. Biomolecules and the chemistry of life,\n2. Energy, enzymes, and metabolism,\n3. Control of gene expression,\n4. The process of cell division,\n5. Types and mechanism of immunity, and\n6. Biodiversity and the interconnectedness of life.\n\nStudents are expected to understand the meaning of terms.\nStudents are expected to complete exercises independently.\nStudents are expected to work together in groups to complete tasks in class.\nStudents should pay attention to the teacher’s instructions in the class since the schedule for quizzes, tests and reports may change depending on progress of classes.\nStudents should attend all classes; otherwise, the handouts may not be received.\nStudents are expected to check for messages/materials on the KIT Inside website before each class.\n\n              教科書および参考書・リザーブドブック\n\n              Textbooks：Daigakusei no tameno kangaete manabu Kisoseibutsugaku (Kyoritsu Shuppan)\nReference books：None\nReserved books：None\n\n              履修に必要な予備知識や技能\n\n              Basic knowledge of biology.\nBasic computer skills.\nStudents are requested to prepare for and review each class.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                J,K\n                Ability to explain structures and functions of proteins\n\n                ②\n                J,K\n                Ability to explain catabolism and anabolism\n\n                ③\n                J,K\n                Ability to explain the process of gene expression\n\n                ④\n                J,K\n                Ability to explain the types of immunity\n\n                ⑤\n                J,K\n                Ability to explain interactions among species in ecosystems\n\n                ⑥\n                J,K\n                Ability to conduct literature research\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                0\n\n                60\n\n                0\n\n                0\n\n                0\n\n                0\n\n                40\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                0\n\n                60\n\n                0\n\n                0\n\n                0\n\n                0\n\n                40\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                0\n\n                60\n\n                0\n\n                0\n\n                0\n\n                0\n\n                40\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  コラボ",
-  "courseId": "2026:spring:B302-01:0:743",
+  "rawText": "金沢工業大学 学習支援計画書 B016-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Applied Chemistry\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n応用生化学\nApplied Biochemistry  2 B016-01  2024年度\n 2nd year 2nd semester  修学規程第4条を参照\n    担当教員名\n ONO Shin\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Enzyme 2.Enzyme Kinetics 3.Carbohydrate Metabolism 4.Lipid Metabolism 5.Protein Metabolism  Biochemistry that elucidates phenomena occurring in life at the molecular level has evolved as a life science including development of applied technology in the medical field. You learn the characteristic structures of amino acids, proteins, nucleic acids, sugars, and lipids as fundamental knowledge of life sciences, and then the chemical and physiochemical features and the biological functions of those biomolecules.\n    授業の概要および学習上の助言   1. Enzyme (structural features and fuctions) 2. Enzyme kinetics (Michaelis-Menten equation, Lineweaver-Burk plot, Km, Vmax, kcat) and vitamins 3. Catabolism process of glucose (glycolysis, TCA cycle, electron transport system, oxidative phosphorylation) 4. Catabolism process of lipids (beta oxidation of fatty acids) 5. Protein degradation and catabolism process of amino acids\n    教科書および参考書・リザーブドブック   Textbook: Basic Lecture Biochemistry (ed. by H. Inoue), Familiar Biology (ed. by S. Yoshimura) Reference books: not specified Reserved books: not specified\n    履修に必要な予備知識や技能   The textbook used in the lecture of the fundamental of biological macromolecules will be continued to be used in this lecture. It is good to read the textbook and to organize the important matters on the summary notebook.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① L Be able to explain the structural features and functions of enzymes.   ② L Be able to calculate the reaction rate parameters using enzyme kinetics.   ③ L Be able to explain the catabolism process of glucose.   ④ L Be able to explain the catabolism process of fatty acids.   ⑤ L Be able to explain the protein degradation and the catabolism process of amino acids.   ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 30 50 0 15 0 0 5 100     指標と評価割合 総合評価割合 30 50 0 15 0 0 5 100   総合力指標 知識を取り込む力 30 50 0 15 0 0 5 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ In the final test, an understanding of the catabolism processes of glucose, fatty acids, and amino acids is evaluated. It is also necessary to understand the basic enzyme reaction kinetics.    ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     クイズ\n小テスト ① レ Evaluation of the understanding of lecture contents (enzymes, catabolism processes of glucose, fatty acids, and amino acids) is conducted through multiple small tests.   ②     ③ レ   ④ レ   ⑤ レ   ⑥     レポート ①      ②     ③     ④     ⑤     ⑥     成果発表\n(口頭・実技) ①   In order to understand the basic enzyme reaction kinetics, you learn how to elucidate the reaction rate parameters (Km, Vmax, and kcat) using the L-B plot by exercises.   ② レ   ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ① レ Participation in special seminars, submission of reports, utilization of office hours, and content of questions and comments in the lecture are added to the evaluation.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     1. Explain the catabolism processes of glucose, fatty acids, and amino acids. 2. Apply the basic enzyme reaction kinetics to speculate a chemical property of enzymes. 3. Understand and imagine phenomena occurring in living organisms at the molecular level.  1. Understand the catabolism processes of glucose, fatty acids, and amino acids. 2. Apply the basic enzyme reaction kinetics to speculate a chemical property of enzymes.\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチー",
+  "courseId": "2024:fall:B015-01:0:743",
   "language": "en"
 }

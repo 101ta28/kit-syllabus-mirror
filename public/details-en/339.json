@@ -1,75 +1,63 @@
 {
   "sourceIndex": 339,
   "sourceUrl": "/opsyllabus/kitos0110/339/1",
-  "importedAt": "2026-06-08T09:33:59.918Z",
-  "title": "専門ゼミ",
-  "subtitle": "Preparatory Seminar for Design Project III",
-  "courseType": "Major ProgramMajor Project Courses",
-  "credits": "1",
-  "term": "2026年度\n\n                3rd year 2nd semester",
+  "importedAt": "2026-06-09T01:29:22.139Z",
+  "title": "光情報工学",
+  "subtitle": "Optical Information Engineering",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "2",
+  "term": "2024年度\n 3rd year 2nd semester",
   "method": "修学規程第4条を参照",
-  "teachers": [],
-  "keywords": [
-    "Project Design 3",
-    "Information infrastructure technology",
-    "Solution & Service",
-    "Ethics and  crisis management for IT engineers",
-    "Project Proposal"
+  "teachers": [
+    "MIKAMI Akiyoshi"
   ],
-  "educationalGoal": "Specialized seminars supplement the knowledge and skills that were not necessarily sufficient in past lectures, exercises, and experiments required for the PD3 project, and acquired new knowledge and skills in each activity area. The aim is to cultivate the basic academic and technical skills so that PD3 can be implemented voluntarily from the 7th term.",
-  "advice": "In order to carry out any research / work / assignment in PD3, the faculty presents the learning area program and clarifies the knowledge and skills required to carry out the project in this learning area program. The student confirms his / her ability, clarifies items to be supplemented and items to be newly acquired, and learns and acquires them.\n\nIn the course of the lesson, teachers clarify PD3 goals and action plans. Students conduct tests on these learning results to confirm their achievement, and prepare a project proposal for PD3.\n\nSpecifically, in performing PD3, learn the latest technology trends in specialized fields that are closely related to each project, and summarize the technology explanation and your opinion in the form of an essay.\n\nAfter understanding such a common technical foundation, learn the outline of the technology related to PD3 and plan the project. In addition, each project of PD3\nSince the use of equipment and applied software differ for each project, the students will actually experience the operation in the laboratory so that they can grasp the goals and action plan of the project as a real feeling. We will announce the project proposal as the final result of this course.",
-  "books": "Materials will be provided at each laboratory.",
-  "requiredKnowledge": "If you do not earn credits for this course, you will not be allowed to take PD3. Two or more unauthorized absences will be rejected.\nBe sure to read the booklet “Safety Guidelines for Experiments and Research” provided in the laboratory.",
+  "keywords": [
+    "Electromagnetic Wave 2.Wave Optics 3.Linear Optical System 4.Linear Optical System 5.Image Analysis"
+  ],
+  "educationalGoal": "Students will: (1)learn the basic properties of light (reflection, refraction, interference, diffraction, and diffusion). (2)learn the structures, operating principles and applications about various information devices, systems and display device. (3)learn the image recognition and quality evaluation technology.",
+  "advice": "We will cover the following materials: 1. Basics of wave optics 2. Coherence of light waves 3. Optical waveguide 4. Light wave recording and playback 5. Linear optical system 6. Basics of optical information processing 7. Digital processing of image information",
+  "books": "\"Fundamentals of Optical Information Processing\",Takeaki Yoshimura, Corona Publishing Co., LTD.",
+  "requiredKnowledge": "Review basics of “Electromagnetics”, “Opt-electronic device engineering” and “Introduction to audio and video”.",
   "activityGoals": [
     {
       "index": "①",
-      "type": "A,B,D,G,N,P",
-      "body": "be able to have a clear image of PD3 goals and action plans."
+      "type": "L",
+      "body": "Be able to explain the basic characteristics of light waves, the interaction between light and matter."
     },
     {
       "index": "②",
-      "type": "A,B,D,G,N,P",
-      "body": "be able to explain the theme of PD3"
+      "type": "L",
+      "body": "Be able to describe polarized light wave."
     },
     {
       "index": "③",
-      "type": "A,B,D,G,N,P",
-      "body": "be able to acquire the knowledge and skills to perform PD3 autonomously"
+      "type": "L",
+      "body": "Be able to describe reflection, refraction and coherence of light wave."
     },
     {
       "index": "④",
-      "type": "A,B,D,G,N,P",
-      "body": "be able to give an overview of the latest technological trends in your area of study and your opinions."
-    },
-    {
-      "index": "⑤",
-      "type": "A,B,D,G,N,P",
-      "body": "be able to operate the equipment and software you plan to use in your project."
-    },
-    {
-      "index": "⑥",
-      "type": "A,B",
-      "body": "be able to express his / her thoughts on information technology ethics and crisis management."
+      "type": "L",
+      "body": "Be able to explain light weave transform using an optical system."
     }
   ],
   "evaluationWeights": [
     {
       "label": "総合評価割合",
       "values": [
+        "40",
+        "30",
+        "30",
         "0",
         "0",
-        "55",
-        "25",
         "0",
-        "10",
-        "10",
+        "0",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -79,20 +67,20 @@
     {
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
+        "40",
+        "30",
+        "30",
         "0",
         "0",
-        "55",
-        "25",
         "0",
-        "10",
-        "10",
+        "0",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -102,20 +90,20 @@
     {
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
+        "40",
+        "30",
+        "30",
         "0",
         "0",
-        "55",
-        "25",
         "0",
-        "10",
-        "10",
+        "0",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -136,9 +124,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -146,7 +134,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -159,9 +147,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -182,9 +170,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -193,20 +181,118 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "In addition to the standard achievement levels described on the right, they will be able to explain specific approaches to their issues, their countermeasures, their novelty and effectiveness.",
-    "standard": "Give your opinion on information technology ethics and crisis management.\nCan be. Engineering design for the next fiscal yearⅢ\nAnd explain the purpose, background, issues, and final status."
+    "ideal": "(1) Understand the basic properties of light and explain quantitatively using mathematical formulas. (2) Understand reflection, refraction, interference and propagation of light using mathematical formulas. (3) Understand light wave transform technology for optical design and be able to analyze image processing operations.",
+    "standard": "(1) Understand the basic properties of light and explain qualitatively using mathematical formulas. (2) Understand the concepts of reflection, refraction, interference, propagation of light and explain qualitatively. (3) Understand the basics of light wave transform for optical design and be able to explain the mechanism of image processing operations."
   },
   "clipProcess": "",
   "lessons": [
     {
-      "index": "1-8",
-      "content": "Announce the schedule at the first seminar.",
-      "operation": "",
-      "assignments": "",
-      "minutes": ""
+      "index": "1",
+      "content": "Course introduction Basic characteristics of Electromagnetic wave",
+      "operation": "Lecture and Q&A",
+      "assignments": "Understand the objectives of class",
+      "minutes": "100"
+    },
+    {
+      "index": "2",
+      "content": "Ch. 1. Basic characteristics of light wave Poralized light wave Reflection and optical wave",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Review previous lesson and prepare Ch. 1 of the text book",
+      "minutes": "200"
+    },
+    {
+      "index": "3",
+      "content": "Ch. 1. Basic characteristics of light wave Poralized light wave Reflection and optical wave",
+      "operation": "Test and review Self-reflection",
+      "assignments": "Review previous lesson and prepare Ch. 1 of the text book",
+      "minutes": "200"
+    },
+    {
+      "index": "4",
+      "content": "Ch. 2. Optical interference of light wave Single wave optical interference Multi-wave optical interference",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Review previous lesson and prepare Ch. 2 of the text book",
+      "minutes": "200"
+    },
+    {
+      "index": "5",
+      "content": "Ch. 2. Optical interference of light wave Single wave optical interference Multi-wave optical interference",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Review previous lesson and prepare Ch. 2 of the text book",
+      "minutes": "200"
+    },
+    {
+      "index": "6",
+      "content": "Ch. 3. Propagation of light wave Amplitude modulation Phase modulation Recording and playback",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Review previous lesson and prepare Ch. 3 of the text book",
+      "minutes": "200"
+    },
+    {
+      "index": "7",
+      "content": "Ch. 3. Propagation of light wave Amplitude modulation Phase modulation Recording and playback",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Review previous lesson and prepare Ch. 3 of the text book",
+      "minutes": "200"
+    },
+    {
+      "index": "8",
+      "content": "Intermediate exam and review of Ch. 1 to 3",
+      "operation": "Test and review Self-reflection",
+      "assignments": "Prepare for the test (solve the exercises in Ch. 1 to 3 of the text book )",
+      "minutes": "200"
+    },
+    {
+      "index": "9",
+      "content": "Ch. 4. Coherence of light wave Time coherence Space coherence",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Review previous lesson and prepare Ch. 4 of the text book",
+      "minutes": "200"
+    },
+    {
+      "index": "10",
+      "content": "Ch. 4. Coherence of light wave Time coherence Space coherence",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Review previous lesson and prepare Ch. 4 of the text book",
+      "minutes": "200"
+    },
+    {
+      "index": "11",
+      "content": "Ch. 5. Linear optical system Fourier transformation Basic characteristics of optical system",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Review previous lesson and prepare the optical device for display technology",
+      "minutes": "200"
+    },
+    {
+      "index": "12",
+      "content": "Appendix. Application for Information Display technology Optical device in display technology",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Review previous lesson and prepare Ch. 5 of the text book",
+      "minutes": "200"
+    },
+    {
+      "index": "13",
+      "content": "Appendix. Application for Information Display technology Liquid crystal, Organic light emitting diode and 3D technology",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Review previous lesson and prepare the examination",
+      "minutes": "200"
+    },
+    {
+      "index": "14",
+      "content": "Final exam and review",
+      "operation": "Test and review Self-reflection",
+      "assignments": "Prepare for the test (solve the exercises in Ch. 4 to 6 of the text book)",
+      "minutes": "200"
+    },
+    {
+      "index": "15",
+      "content": "Exam answer and review Self-evaluation",
+      "operation": "Exam and review Self-evaluation",
+      "assignments": "Prepare for the exam",
+      "minutes": "100"
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　E906-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Information and Computer Science(〜2024)\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Project Courses\n\n                専門ゼミ\n                Preparatory Seminar for Design Project III\n\n              1\n              E906-01\n\n                2026年度\n\n                3rd year 2nd semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Project Design 3\n2.Information infrastructure technology\n3.Solution & Service\n4.Ethics and  crisis management for IT engineers\n5.Project Proposal\n\n              Specialized seminars supplement the knowledge and skills that were not necessarily sufficient in past lectures, exercises, and experiments required for the PD3 project, and acquired new knowledge and skills in each activity area. The aim is to cultivate the basic academic and technical skills so that PD3 can be implemented voluntarily from the 7th term.\n\n              授業の概要および学習上の助言\n\n              In order to carry out any research / work / assignment in PD3, the faculty presents the learning area program and clarifies the knowledge and skills required to carry out the project in this learning area program. The student confirms his / her ability, clarifies items to be supplemented and items to be newly acquired, and learns and acquires them.\n\nIn the course of the lesson, teachers clarify PD3 goals and action plans. Students conduct tests on these learning results to confirm their achievement, and prepare a project proposal for PD3.\n\nSpecifically, in performing PD3, learn the latest technology trends in specialized fields that are closely related to each project, and summarize the technology explanation and your opinion in the form of an essay.\n\nAfter understanding such a common technical foundation, learn the outline of the technology related to PD3 and plan the project. In addition, each project of PD3\nSince the use of equipment and applied software differ for each project, the students will actually experience the operation in the laboratory so that they can grasp the goals and action plan of the project as a real feeling. We will announce the project proposal as the final result of this course.\n\n              教科書および参考書・リザーブドブック\n\n              Materials will be provided at each laboratory.\n\n              履修に必要な予備知識や技能\n\n              If you do not earn credits for this course, you will not be allowed to take PD3. Two or more unauthorized absences will be rejected.\nBe sure to read the booklet “Safety Guidelines for Experiments and Research” provided in the laboratory.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                A,B,D,G,N,P\n                be able to have a clear image of PD3 goals and action plans.\n\n                ②\n                A,B,D,G,N,P\n                be able to explain the theme of PD3\n\n                ③\n                A,B,D,G,N,P\n                be able to acquire the knowledge and skills to perform PD3 autonomously\n\n                ④\n                A,B,D,G,N,P\n                be able to give an overview of the latest technological trends in your area of study and your opinions.\n\n                ⑤\n                A,B,D,G,N,P\n                be able to operate the equipment and software you plan to use in your project.\n\n                ⑥\n                A,B\n                be able to express his / her thoughts on information technology ethics and crisis management.\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                0\n\n            ",
-  "courseId": "2026:fall:E906-01:0:339",
+  "rawText": "金沢工業大学 学習支援計画書 E640-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Electrical and Electronic Engineering(2018〜)\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n光情報工学\nOptical Information Engineering  2 E640-01  2024年度\n 3rd year 2nd semester  修学規程第4条を参照\n    担当教員名\n MIKAMI Akiyoshi\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Electromagnetic Wave 2.Wave Optics 3.Linear Optical System 4.Linear Optical System 5.Image Analysis  Students will: (1)learn the basic properties of light (reflection, refraction, interference, diffraction, and diffusion). (2)learn the structures, operating principles and applications about various information devices, systems and display device. (3)learn the image recognition and quality evaluation technology.\n    授業の概要および学習上の助言   We will cover the following materials: 1. Basics of wave optics 2. Coherence of light waves 3. Optical waveguide 4. Light wave recording and playback 5. Linear optical system 6. Basics of optical information processing 7. Digital processing of image information\n    教科書および参考書・リザーブドブック   \"Fundamentals of Optical Information Processing\",Takeaki Yoshimura, Corona Publishing Co., LTD.\n    履修に必要な予備知識や技能   Review basics of “Electromagnetics”, “Opt-electronic device engineering” and “Introduction to audio and video”.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① L Be able to explain the basic characteristics of light waves, the interaction between light and matter.   ② L Be able to describe polarized light wave.   ③ L Be able to describe reflection, refraction and coherence of light wave.   ④ L Be able to explain light weave transform using an optical system.   ⑤     ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 40 30 30 0 0 0 0 100     指標と評価割合 総合評価割合 40 30 30 0 0 0 0 100   総合力指標 知識を取り込む力 40 30 30 0 0 0 0 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ There are exams at the middle and end of the semester to evaluate the degree of the achievement. Knowledge acquisition and the ability to think, reason and create will be important.   ② レ   ③ レ   ④ レ   ⑤     ⑥     クイズ\n小テスト ① レ There are tests to improve your understanding at the end of each chapter. Knowledge utilization skills and continuous self-study will be important.   ② レ   ③ レ   ④ レ   ⑤     ⑥     レポート ① レ Students will be evaluated on several reports based on the contents of classes and textbooks. Learning attitude and expressive ability will be important.   ② レ   ③ レ   ④ レ   ⑤     ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ①      ②     ③     ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     (1) Understand the basic properties of light and explain quantitatively using mathematical formulas. (2) Understand reflection, refraction, interference and propagation of light using mathematical formulas. (3) Understand light wave transform technology for optical design and be able to analyze image processing operations. (1) Understand the basic properties of light and explain qualitatively using mathematical formulas. (2) Understand the concepts of reflection, refraction, interference, propagation of light and explain qualitatively. (3) Understand the basics of light wave transform for optical design and be able to explain the mechanism of image processing operations.\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習課題に要する標準的な時間を記載してあります。日々の自学自習時間全体としては、各授業に応じた時間(例えば2単位科目の場合、予習2時間・復習2時間/週)を取るよう努めてください。詳しくは教員の指導に従って下さい。     授業明細   回数 学習内容 授業の運営方法 学習課題(予習・復習) 時間:分※     1  Course introduction Basic character",
+  "courseId": "2024:fall:E632-01:0:339",
   "language": "en"
 }

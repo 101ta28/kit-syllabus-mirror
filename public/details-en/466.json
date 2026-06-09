@@ -1,47 +1,48 @@
 {
   "sourceIndex": 466,
   "sourceUrl": "/opsyllabus/kitos0110/466/1",
-  "importedAt": "2026-06-08T09:34:02.596Z",
-  "title": "産業・組織心理学",
-  "subtitle": "Industrial and Organizational Psychology",
-  "courseType": "Major ProgramMajor Courses",
+  "importedAt": "2026-06-09T01:29:23.387Z",
+  "title": "構造設計学",
+  "subtitle": "Structual Design",
+  "courseType": "Major Program\nMajor Courses",
   "credits": "2",
-  "term": "2026年度\n\n                3rd year 1st semester",
+  "term": "2024年度\n 3rd year 1st semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "KATO Juri"
+    "TANAKA Yasushi"
   ],
   "keywords": [
-    "Organization",
-    "Motivation",
-    "Stress",
-    "Human resources",
-    "Career development"
+    "Beam deflection 2.Axial forces in trusses 3.Column strength 4.Statically indeterminate structures 5.Slope deflection method"
   ],
-  "educationalGoal": "Students will learn about:\n(1) dynamics in an organization.\n(2) stress caused by the working environment.\n(3) motivation for work and human resource management.\n\nThis subject is subject to the course credit system.",
-  "advice": "We will cover the following topics:\n\n1. Organizational behavior\n2. Motivation for work\n3. Stress caused by the working environment\n4. Workers' health and safety\n5. Human resource management\n6. Career development",
-  "books": "Textbooks：None\nReference books：None\nReserved books：None",
-  "requiredKnowledge": "Completion of the “Elements of Psychology” and “Method of Psychological Research” courses is recommended.",
+  "educationalGoal": "Students will: (1) learn how to estimate deflection of beams and axial forces in trusses. (2) learn how to estimate axial force in short columns and buckling loads of long columns. (3) learn analysis of statically indeterminate structures. (4) learn the slope deflection method.",
+  "advice": "This course will cover the following topics: 1. Deflection of beams 2. Axial forces in truss structures 3. Stresses in short columns and the cross-sectional core 4. Buckling of long columns 5. Statically indeterminate structures 6. Rigid frames In the study of deflection of beams, the second moment of area, bending moment and second-order differential equations are used. In the study of statically indeterminate structures, bending moment and shear force are used. Before taking this course, students are requested to understand Structural Mechanics I and II.",
+  "books": "基礎から学ぶ構造力学,藤本一男・西田進・中村一平・本田秀行・木村定雄,森北出版,2005",
+  "requiredKnowledge": "Understanding of Structural Mechanics I and II.",
   "activityGoals": [
     {
       "index": "①",
-      "type": "L",
-      "body": "Ability to understand human behavior, cognition, and emotion in an organization."
+      "type": "J",
+      "body": "Students can estimate beam deflection."
     },
     {
       "index": "②",
-      "type": "L",
-      "body": "Ability to understand and assess the characteristic traits of a leader in an organization."
+      "type": "J",
+      "body": "Students can estimate axial forces in truss structures."
     },
     {
       "index": "③",
-      "type": "L",
-      "body": "Ability to understand psychological stress caused by the working environment."
+      "type": "J",
+      "body": "Students can estimate stresses in short columns."
     },
     {
       "index": "④",
-      "type": "L",
-      "body": "Ability to consider career development for oneself."
+      "type": "J",
+      "body": "Students can estimate the buckling stress of long columns."
+    },
+    {
+      "index": "⑤",
+      "type": "J",
+      "body": "Students can explain statically indeterminate structures."
     }
   ],
   "evaluationWeights": [
@@ -49,19 +50,19 @@
       "label": "総合評価割合",
       "values": [
         "40",
-        "10",
         "30",
-        "10",
+        "20",
         "0",
         "0",
-        "10",
+        "5",
+        "5",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -72,19 +73,19 @@
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
         "40",
-        "10",
         "30",
-        "10",
+        "20",
         "0",
         "0",
-        "10",
+        "5",
+        "5",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -95,19 +96,19 @@
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
         "40",
-        "10",
         "30",
-        "10",
+        "20",
         "0",
         "0",
-        "10",
+        "5",
+        "5",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -128,9 +129,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -138,7 +139,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -151,9 +152,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -174,9 +175,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -185,118 +186,118 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "Understand and explain the whole picture of industrial and organizational psychology.\nApply this knowledge to an industrial field and to career development for oneself.",
-    "standard": "Understand and explain the whole picture of industrial and organizational psychology."
+    "ideal": "Students can estimate beam deflection, axial forces in trusses, the strength of short and long columns, and the response of statically indeterminate structures.",
+    "standard": "Students can understand beam deflection, axial forces in trusses, the strength of short and long columns, and the response of statically indeterminate structures."
   },
   "clipProcess": "",
   "lessons": [
     {
       "index": "1",
-      "content": "Course introduction\nBasics of industrial and\n organizational psychology",
-      "operation": "Lecture",
-      "assignments": "Review and Preview: Review\n themes and the overview of\n industrial and\n organizational psychology",
-      "minutes": "60"
+      "content": "Deflection of beams 1",
+      "operation": "Lecture, practice and Q&A",
+      "assignments": "Review pages 156 to 159 of the textbook.",
+      "minutes": "100"
     },
     {
       "index": "2",
-      "content": "Organizational psychology (1)",
-      "operation": "Lecture and practice",
-      "assignments": "Review: Review notes from\n today's lecture\nPreview: Consider the task\n presented at the end of\n the lecture",
-      "minutes": "60\n\n60"
+      "content": "Deflection of beams 2",
+      "operation": "Lecture, practice and Q&A",
+      "assignments": "Prepare pages 159 to 171 of the textbook.",
+      "minutes": "100 100"
     },
     {
       "index": "3",
-      "content": "Organizational psychology (2)",
-      "operation": "Lecture and practice",
-      "assignments": "Review: Review notes from\n today's lecture\nPreview: Consider the task\n presented at the end of\n the lecture",
-      "minutes": "60\n\n60"
+      "content": "Deflection of beams 3",
+      "operation": "Lecture, practice and Q&A",
+      "assignments": "Prepare pages 156 to 171 of the textbook.",
+      "minutes": "100 100"
     },
     {
       "index": "4",
-      "content": "Organizational psychology (3)",
-      "operation": "Lecture and practice\nSelf-check",
-      "assignments": "Review: Review notes from\n today's lecture\nPreview: Consider the task\n presented at the end of\n the lecture",
-      "minutes": "60\n\n60"
+      "content": "Test and review of contents learned in 1st to 3rd classes.",
+      "operation": "Test, lecture, Q&A and self-check",
+      "assignments": "Prepare for the test.",
+      "minutes": "100 100"
     },
     {
       "index": "5",
-      "content": "Stress caused by working environment (1)",
-      "operation": "Lecture and practice\nSelf-check",
-      "assignments": "Review: Review notes from\n today's lecture\nPreview: Consider the task\n presented at the end of\n the lecture",
-      "minutes": "60\n\n60"
+      "content": "Truss structure 1",
+      "operation": "Lecture, practice and Q&A",
+      "assignments": "Prepare pages 181 to 189 of the textbook.",
+      "minutes": "100 100"
     },
     {
       "index": "6",
-      "content": "Stress caused by working environment (2)",
-      "operation": "Lecture and practice\nSelf-check",
-      "assignments": "Prepare for the midterm exam",
-      "minutes": "120"
+      "content": "Truss structures 2 / Short column",
+      "operation": "Lecture, practice and Q&A",
+      "assignments": "Prepare pages 189 to 202 of the textbook.",
+      "minutes": "100 100"
     },
     {
       "index": "7",
-      "content": "Midterm exam\nMotivation for work (1)",
-      "operation": "Midterm exam\nLecture and practice",
-      "assignments": "Review: Review notes from\n today's lecture\nPreview: Consider the task\n presented at the end of\n the lecture",
-      "minutes": "60\n\n60"
+      "content": "Long columns",
+      "operation": "Lecture, practice and Q&A",
+      "assignments": "Review pages 202 to 208 of the textbook.",
+      "minutes": "100 100"
     },
     {
       "index": "8",
-      "content": "Motivation for work (2)",
-      "operation": "Review\nLecture and practice\nSelf-check",
-      "assignments": "Review: Review notes from\n today's lecture\nPreview: Consider the task\n presented at the end of\n the lecture",
-      "minutes": "60"
+      "content": "Test and review of contents learned in 5th to 7th classes.",
+      "operation": "Test, lecture, practice, Q&A and self-check",
+      "assignments": "Prepare for the test.",
+      "minutes": "100 100"
     },
     {
       "index": "9",
-      "content": "Human resource management (1)",
-      "operation": "Lecture and practice\nSelf-check",
-      "assignments": "Prepare for the presentation",
-      "minutes": "120"
+      "content": "Statically indeterminate beam",
+      "operation": "Lecture, practice and Q&A",
+      "assignments": "Prepare pages 214 to 217 of the textbook.",
+      "minutes": "100 100"
     },
     {
       "index": "10",
-      "content": "Exercise of study of Industrial and\n Organizational Psychology (1)",
-      "operation": "Exercise\nSelf-check",
-      "assignments": "Prepare for the presentation",
-      "minutes": "120"
+      "content": "Both ends fixed beam",
+      "operation": "Lecture, practice and Q&A",
+      "assignments": "Review pages 217 to 218 of the textbook.",
+      "minutes": "100 100"
     },
     {
       "index": "11",
-      "content": "Exercise of study of Industrial and\n Organizational Psychology (2)",
-      "operation": "Exercise\nSelf-check",
-      "assignments": "Preview: Consider the task\n presented at the end of\n the lecture",
-      "minutes": "60"
+      "content": "Rigid frame",
+      "operation": "Lecture, practice and Q&A",
+      "assignments": "Prepare pages 226 to 230 of the textbook.",
+      "minutes": "100 100"
     },
     {
       "index": "12",
-      "content": "Human resource management (2)",
-      "operation": "Lecture\nSelf-check",
-      "assignments": "Prepare for the final exam",
-      "minutes": "240"
+      "content": "Test and review of contents learned in 9th to 11th classes.",
+      "operation": "Test, lecture, practice, Q&A and self-check",
+      "assignments": "Prepare for the test.",
+      "minutes": "100 100"
     },
     {
       "index": "13",
-      "content": "Review contents from all classes\nFinal exam",
-      "operation": "Final exam and review\nSelf-check",
-      "assignments": "Review the final exam",
-      "minutes": "240"
+      "content": "integrated exercises",
+      "operation": "Lecture, practice and Q&A",
+      "assignments": "Review whole contents in this lecture",
+      "minutes": "100 100"
     },
     {
       "index": "14",
-      "content": "Lecture by outside lecturer",
-      "operation": "Lecture\nSelf-check",
-      "assignments": "Review: Review notes from\n today's lecture",
-      "minutes": "120"
+      "content": "Exam and review",
+      "operation": "Exam and review",
+      "assignments": "Prepare for the exam.",
+      "minutes": "100 100"
     },
     {
       "index": "15",
-      "content": "Self-reflection\nIndustrial and organizational\n psychology in region\nCareer development",
-      "operation": "Review\nLecture\nSelf-check",
-      "assignments": "Review notes of all lectures",
-      "minutes": "120"
+      "content": "Lecture and Reflection",
+      "operation": "Lecture, practice and Q&A Self-evaluation",
+      "assignments": "Review and reflection",
+      "minutes": "100"
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　F325-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Psychological Science(〜2024)\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                産業・組織心理学\n                Industrial and Organizational Psychology\n\n              2\n              F325-01\n\n                2026年度\n\n                3rd year 1st semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  KATO Juri\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Organization\n2.Motivation\n3.Stress\n4.Human resources\n5.Career development\n\n              Students will learn about:\n(1) dynamics in an organization.\n(2) stress caused by the working environment.\n(3) motivation for work and human resource management.\n\nThis subject is subject to the course credit system.\n\n              授業の概要および学習上の助言\n\n              We will cover the following topics:\n\n1. Organizational behavior\n2. Motivation for work\n3. Stress caused by the working environment\n4. Workers' health and safety\n5. Human resource management\n6. Career development\n\n              教科書および参考書・リザーブドブック\n\n              Textbooks：None\nReference books：None\nReserved books：None\n\n              履修に必要な予備知識や技能\n\n              Completion of the “Elements of Psychology” and “Method of Psychological Research” courses is recommended.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                L\n                Ability to understand human behavior, cognition, and emotion in an organization.\n\n                ②\n                L\n                Ability to understand and assess the characteristic traits of a leader in an organization.\n\n                ③\n                L\n                Ability to understand psychological stress caused by the working environment.\n\n                ④\n                L\n                Ability to consider career development for oneself.\n\n                ⑤\n\n                ⑥\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                40\n\n                10\n\n                30\n\n                10\n\n                0\n\n                0\n\n                10\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                40\n\n                10\n\n                30\n\n                10\n\n                0\n\n                0\n\n                10\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                40\n\n                10\n\n                30\n\n                10\n\n                0\n\n                0\n\n                10\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  コラボレーションとリーダーシップ\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  発表・表現・伝達する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  学習に取組む姿勢・意欲\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n        ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n\n              評価の要点\n\n              評価方法\n              行動目標\n              評価の実施方法と注意点\n\n                    試験\n\n                    ①\n                    レ\n ",
-  "courseId": "2026:spring:F325-01:0:466",
+  "rawText": "金沢工業大学 学習支援計画書 E720-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Civil and Environmental Engineering(2018〜)\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n構造設計学\nStructual Design  2 E720-01  2024年度\n 3rd year 1st semester  修学規程第4条を参照\n    担当教員名\n TANAKA Yasushi\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Beam deflection 2.Axial forces in trusses 3.Column strength 4.Statically indeterminate structures 5.Slope deflection method  Students will: (1) learn how to estimate deflection of beams and axial forces in trusses. (2) learn how to estimate axial force in short columns and buckling loads of long columns. (3) learn analysis of statically indeterminate structures. (4) learn the slope deflection method.\n    授業の概要および学習上の助言   This course will cover the following topics: 1. Deflection of beams 2. Axial forces in truss structures 3. Stresses in short columns and the cross-sectional core 4. Buckling of long columns 5. Statically indeterminate structures 6. Rigid frames In the study of deflection of beams, the second moment of area, bending moment and second-order differential equations are used. In the study of statically indeterminate structures, bending moment and shear force are used. Before taking this course, students are requested to understand Structural Mechanics I and II.\n    教科書および参考書・リザーブドブック   基礎から学ぶ構造力学,藤本一男・西田進・中村一平・本田秀行・木村定雄,森北出版,2005\n    履修に必要な予備知識や技能   Understanding of Structural Mechanics I and II.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① J Students can estimate beam deflection.   ② J Students can estimate axial forces in truss structures.   ③ J Students can estimate stresses in short columns.   ④ J Students can estimate the buckling stress of long columns.   ⑤ J Students can explain statically indeterminate structures.   ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 40 30 20 0 0 5 5 100     指標と評価割合 総合評価割合 40 30 20 0 0 5 5 100   総合力指標 知識を取り込む力 40 30 20 0 0 5 5 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ There is an exam at the end of the semester to evaluate students’ achievement. Calculators specified by this academic department can be used.    ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     クイズ\n小テスト ① レ There is a test at the end of each chapter to improve students’ understanding. Calculators specified by this academic department can be used in every test.    ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     レポート ① レ There are about 10 reports to enhance the level of understanding.    ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ① レ Students are requested to conduct self-checks of their own achievement in this class.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     その他 ① レ Students' attitude and interest in this class are evaluated from activity records.    ② レ   ③ レ   ④ レ   ⑤ レ   ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     Students can estimate beam deflection, axial forces in trusses, the strength of short and long columns, and the response of statically indeterminate structures.  Students can understand beam deflection, axial forces in trusses, the strength of short and long columns, and the response of statically indeterminate structures.\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習課題に要する標準的な時間を記載してあります。日々の自学自習時間全体としては、各授業に応じた時間(例えば2単位科目の場合、予習2時間・復習2時間/週)を取るよう努めてください。詳しくは教員の指導に従って下さい。     授業明細   回数 学習内容 授業の運営方法 学習課題(予習・復習) 時間:分※     1  Deflection of beams 1 Lecture, practice and Q&A Review pages 156 to 159 of the textbook.  100   2  Deflection of beams 2 Lecture, practice and Q&A Prepare pages 159 to 171 of the textbook.  100 100   3  D",
+  "courseId": "2024:fall:E714-01:0:466",
   "language": "en"
 }

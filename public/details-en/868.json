@@ -1,68 +1,63 @@
 {
   "sourceIndex": 868,
   "sourceUrl": "/opsyllabus/kitos0110/868/1",
-  "importedAt": "2026-06-08T09:34:11.214Z",
-  "title": "電気回路Ⅰ（再履修クラス）",
-  "subtitle": "Electric Circuit I",
-  "courseType": "Major ProgramMajor Courses",
-  "credits": "2",
-  "term": "2026年度\n\n                1st year 2nd semester",
+  "importedAt": "2026-06-09T01:29:27.321Z",
+  "title": "IoTプログラミング入門(春期集中講義)",
+  "subtitle": "IoT Programming for Beginners",
+  "courseType": "(Provided by all courses)\nLiberal Arts Courses\nTransdisciplinary Learning",
+  "credits": "1",
+  "term": "2024年度\n 1st year 2nd semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "FUKADA Haruki",
-    "FUKASAWA Toru"
+    "NISHIKAWA Yukinobu"
   ],
   "keywords": [
-    "AC circuits",
-    "Sine wave AC",
-    "Average and RMS values",
-    "Phasor representation",
-    "AI utilization"
+    "Embedded systems 2.C language 3.Microcomputers 4.Programming exercises 5.Electronic circuits"
   ],
-  "educationalGoal": "This is a fundamental and important subject in the electrical engineering curriculum. The objective is to acquire a basic knowledge of electrical circuits and develop the ability to analyze and design electrical circuits through physical and mathematical considerations. Students will learn the fundamentals of electric circuits consisting of resistance (R), inductance (L), capacitance (C), and their combinations connected to an AC power source. In addition, students will learn about phasor representation of sinusoidal AC.",
-  "advice": "Below is an outline of the topics to be covered:\n\nAC circuit basics: properties of sine wave AC, effects of resistance, inductance, and capacitance, average and RMS values, phasor indication of sinusoidal AC\n\nThis subject is not only important as preparation for subsequent courses (Electrical Circuit II, Electrical Circuit III, and Electrical Circuit IV), but also each specialized topic should be studied keeping in mind that it is a basic course requirement.\nBased on the level of student understanding as indicated by quiz results, etc., changes may occur in the class schedule and course content.",
-  "books": "Basic electric circuit (2nd edition) New Edition, Morikita Publishing Co., Ltd.",
-  "requiredKnowledge": "It is important that you solve as many problems as possible in order to understand and practice the theory presented. In addition, continuous effort is required on a daily basis. We encourage you to 1) examine various reference books, 2) ask the lecturer questions, and 3) take advantage of the Mathematical and Science Education Research Center so that you can clarify what you don't understand.",
+  "educationalGoal": "You will learn coding technology (C language) while operating a microcomputer. Specifically, you will combine sensors, LEDs, motors, etc. to create code that realizes your ideas.",
+  "advice": "In this course, you will learn the programming technologies necessary for building an IoT system using the C language, which is widely used as a programming language for microcomputers, and the basic functions of microcomputers. The first half of the exercises focus on understanding the basic grammar of the C language and on understanding activity diagrams, and the second half of the exercises use activity diagrams to perform programming exercises to operate input/output devices such as sensors, LEDs, and motors with a microcomputer. Since circuit diagrams for connecting the input/output device to a microcomputer are also explained, students should be aware of the relationship between the software and the hardware.",
+  "books": "Textbooks:Handouts Reference books: Reserved books:",
+  "requiredKnowledge": "You must be able to perform basic Windows operations.",
   "activityGoals": [
     {
       "index": "①",
-      "type": "J",
-      "body": "Participants can draw and explain the waveform of a sine wave alternating current."
+      "type": "H",
+      "body": "You will be able to create code using the C language."
     },
     {
       "index": "②",
-      "type": "J",
-      "body": "Participants can formulate the circuit equations for AC circuits consisting of R, L, and C."
+      "type": "H",
+      "body": "You will be able to create code that uses I / O ports, A / D conversion, PWM, and UART communication."
     },
     {
       "index": "③",
-      "type": "J",
-      "body": "Participants can calculate average and rms values of sine wave AC."
+      "type": "E,H",
+      "body": "You will be able to write code from activity diagrams."
     },
     {
       "index": "④",
-      "type": "J",
-      "body": "Participants can represent the phasor of sine wave AC."
+      "type": "H",
+      "body": "You will be able to read the schematics that connect sensors, LEDs, motors, etc. to the microcontroller."
     }
   ],
   "evaluationWeights": [
     {
       "label": "総合評価割合",
       "values": [
-        "40",
-        "40",
-        "20",
         "0",
+        "10",
+        "30",
+        "15",
         "0",
-        "0",
-        "0",
+        "30",
+        "15",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -72,20 +67,20 @@
     {
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
-        "40",
-        "40",
-        "20",
         "0",
+        "10",
+        "30",
+        "15",
         "0",
-        "0",
-        "0",
+        "30",
+        "15",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -95,20 +90,20 @@
     {
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
-        "40",
-        "40",
-        "20",
         "0",
+        "10",
+        "30",
+        "15",
         "0",
-        "0",
-        "0",
+        "30",
+        "15",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -129,9 +124,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -139,7 +134,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -152,9 +147,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -175,9 +170,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -186,118 +181,62 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "Participants can correctly draw and sufficiently explain the waveform of a sine wave AC and be able to correctly formulate the circuit equations of a sine wave AC circuit consisting of R, L, and C. They can correctly calculate the average and RMS values of a sine wave AC and sufficiently explain the physical meaning of the RMS value. They can represent correctly the phasor of a sine wave AC and sufficiently explain why complex numbers are introduced in the calculation of sine wave AC circuits.",
-    "standard": "Participants can draw and explain the waveform of a sine wave AC, and formulate the circuit equations of a sine wave AC circuit consisting of R, L, and C. They can calculate the average and RMS values of a sine wave AC and explain the physical meaning of the RMS value. They can represent the phasor of a sine wave AC and explain why complex numbers are introduced in the calculation of sine wave AC circuits."
+    "ideal": "(1) You can write non-redundant code. (2) You can modify activity diagrams and code according to changes in requirement specifications. (3) You can write code that works for I/O devices that are not used in class.",
+    "standard": "(1) You can write code using the C language. (2) You can write code corresponding to an activity diagram. (3) You can write the code to operate a sensor, LED, motor, etc."
   },
   "clipProcess": "",
   "lessons": [
     {
       "index": "1",
-      "content": "Chapter 1 Circuit Elements\n1.2 Element voltage and current\n1.3 Element energy\n\nChapter 5 Sine-wave AC circuit\n5.1 Circuit equation",
-      "operation": "Lecture, practice, and\nquestions. In principle,\nsubtests are conducted as\nmany times as is\nappropriate with advance\nnotice. The test is\nexplained appropriately.",
-      "assignments": "Read the sections of the\ntextbook indicated in the\nleft column.\nReview the matters learned\nthat day. Write the correct\nanswers for the tests. Be\nsure to submit your report by\nthe deadline.\nReview the lecture and learn\nmore about the circuit\nelements and circuit\nequations of a sine wave AC.\nStudy textbooks to understand\nsinusoidal voltage and\ncurrent.",
+      "content": "Guidance Understand the grammar of the C language C language exercises",
+      "operation": "Lecture Exercises (coding and debugging)",
+      "assignments": "Review of exercises Activity record (knowledge gained and portfolio)",
       "minutes": "200"
     },
     {
       "index": "2",
-      "content": "Chapter 5 Sine wave AC circuit\n5.2 Sinusoidal voltage, sinusoidal current",
-      "operation": "Lecture and practice\nInteractive activities",
-      "assignments": "Review the lecture and deepen\nyour understanding of\nsinusoidal voltage and\ncurrent.\nStudy textbooks to understand\ncircuit equations for a\nsingle element.",
+      "content": "Understand the grammar of the C language C language exercises",
+      "operation": "Lecture Exercises (coding and debugging)",
+      "assignments": "Review of exercises Activity record (knowledge gained and portfolio)",
       "minutes": "200"
     },
     {
       "index": "3",
-      "content": "Chapter 5 Sine wave AC circuit\n5.3 Circuit equations for a single element",
-      "operation": "Lecture and practice\nInteractive activities",
-      "assignments": "Review the content of the\nlecture and deepen your\nunderstanding of circuit\nequations for a single\nelement.\nStudy textbooks to understand\ncircuit equations for\nmultiple elements.",
+      "content": "Understand the grammar of the C language C language exercises",
+      "operation": "Lecture Exercises (coding and debugging)",
+      "assignments": "Review of exercises Activity record (knowledge gained and portfolio)",
       "minutes": "200"
     },
     {
       "index": "4",
-      "content": "Chapter 5 Sine wave AC circuit\n5.4 Circuit equations for multiple elements",
-      "operation": "Lecture and practice\nInteractive activities",
-      "assignments": "Review the content of the\nlecture and deepen your\nunderstanding of circuit\nequations for multiple\nelements.\nStudy textbooks to understand\nthe power and power factor of\nsine wave AC circuits.",
+      "content": "C language exercises",
+      "operation": "Lecture Exercises (coding and debugging)",
+      "assignments": "Review of exercises Microcomputer programming exercise (report) Quizzes Activity record (knowledge gained and portfolio)",
       "minutes": "200"
     },
     {
       "index": "5",
-      "content": "Chapter 5 Sine wave AC circuit\n5.5 Power and power factor",
-      "operation": "Lecture and practice\nInteractive activities",
-      "assignments": "Review the content of the\nlecture and deepen your\nunderstanding of the power\nand power factor of sine wave\nAC circuits.",
+      "content": "Programming exercises",
+      "operation": "Lecture Exercises (coding and debugging)",
+      "assignments": "Review of exercises Activity record (knowledge gained and portfolio)",
       "minutes": "200"
     },
     {
       "index": "6",
-      "content": "Exercises on basic circuits of sine wave AC.",
-      "operation": "Lecture and practice\nInteractive activities",
-      "assignments": "Review the content of the\nlecture and deepen your\nunderstanding of basic sine\nwave AC circuits.\nStudy textbooks to understand\nthe average and RMS values of\nperiodic waveforms.",
+      "content": "Programming exercises",
+      "operation": "Lecture Exercises (coding and debugging)",
+      "assignments": "Review of exercises Microcomputer programming exercise (report) Activity record (knowledge gained and portfolio)",
       "minutes": "200"
     },
     {
       "index": "7",
-      "content": "Chapter 6 Average and RMS values of periodic\nwaveform\n6.1 Average value\n6.2 RMS value",
-      "operation": "Lecture and practice\nInteractive activities",
-      "assignments": "Review the content of the\nlecture and deepen your\nunderstanding of the average\nand RMS values of periodic\nwaveforms.\nStudy textbooks to understand\nthe representation of\nsinusoidal functions in\nphasor form.",
-      "minutes": "200"
-    },
-    {
-      "index": "8",
-      "content": "Chapter 7 Phasor representation of sine wave AC\n7.1 Representation of sinusoidal functions in\nphasor form",
-      "operation": "Lecture and practice\nInteractive activities",
-      "assignments": "Review the content of the\nlecture and deepen your\nunderstanding of the\nrepresentation of sinusoidal\nfunctions in phasor form.\nStudy textbooks to understand\ncomplex numbers, conjugate\ncomplex numbers and phasor\nrotation.",
-      "minutes": "200"
-    },
-    {
-      "index": "9",
-      "content": "Chapter 7 Phasor representation of sine wave AC\n7.2 Complex numbers\n7.3 Phasor in exponential form",
-      "operation": "Lecture and practice\nInteractive activities",
-      "assignments": "Review the content of the\nlecture and deepen your\nunderstanding of complex\nnumbers, conjugate complex\nnumbers and the phasor\nrotation.\nStudy textbooks to understand\nthe differentiation and\nintegration of sinusoidal\nfunctions.",
-      "minutes": "200"
-    },
-    {
-      "index": "10",
-      "content": "Chapter 7 Phasor representation of sine wave AC\n7.4 Differentiation and integration of\nsinusoidal functions",
-      "operation": "Lecture and practice\nInteractive activities",
-      "assignments": "Review the content of the\nlecture and deepen your\nunderstanding of the\ndifferentiation and\nintegration of sinusoidal\nfunctions.",
-      "minutes": "200"
-    },
-    {
-      "index": "11",
-      "content": "Preparation for “Electric Circuit II”\n(Analysis of sine wave AC circuits using the\nsymbolic method)",
-      "operation": "Lecture and practice\nInteractive activities",
-      "assignments": "Review the content of the\nlecture and deepen your\nunderstanding of the analysis\nof sine wave AC circuits\nusing the symbolic method.",
-      "minutes": "200"
-    },
-    {
-      "index": "12",
-      "content": "Integrated learning 1,\nSelf-reflection",
-      "operation": "Lecture and practice\nInteractive activities",
-      "assignments": "Review for final exam.",
-      "minutes": "200"
-    },
-    {
-      "index": "13",
-      "content": "Integrated learning 2,\nSelf-reflection",
-      "operation": "Lecture and practice\nInteractive activities",
-      "assignments": "Review for final exam.",
-      "minutes": "200"
-    },
-    {
-      "index": "14",
-      "content": "Term exam and explanation",
-      "operation": "The exam covers the\ncontent of all lectures.",
-      "assignments": "Review lecture and exercise\nquestions that were not\nfully answered in the final\nexam.",
-      "minutes": "200"
-    },
-    {
-      "index": "15",
-      "content": "Integrated learning of this course,\nSelf-evaluation",
-      "operation": "Return the final exam and\nexplain the questions and\nanswers.\nClear unmet action goals\nidentified in previous\ntests.",
-      "assignments": "Self-check and try to\nresolve any lack of\nunderstanding of the\nprevious practices and test\nquestions.",
+      "content": "Presentation and discussion",
+      "operation": "Lecture Presentation",
+      "assignments": "Review of exercises Activity record (knowledge gained and portfolio)",
       "minutes": "200"
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　K404-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Electronics and Information Systems Engineering\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                電気回路Ⅰ（再履修クラス）\n                Electric Circuit I\n\n              2\n              K404-01\n\n                2026年度\n\n                1st year 2nd semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  FUKADA Haruki, FUKASAWA Toru\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.AC circuits\n2.Sine wave AC\n3.Average and RMS values\n4.Phasor representation\n5.AI utilization\n\n              This is a fundamental and important subject in the electrical engineering curriculum. The objective is to acquire a basic knowledge of electrical circuits and develop the ability to analyze and design electrical circuits through physical and mathematical considerations. Students will learn the fundamentals of electric circuits consisting of resistance (R), inductance (L), capacitance (C), and their combinations connected to an AC power source. In addition, students will learn about phasor representation of sinusoidal AC.\n\n              授業の概要および学習上の助言\n\n              Below is an outline of the topics to be covered:\n\nAC circuit basics: properties of sine wave AC, effects of resistance, inductance, and capacitance, average and RMS values, phasor indication of sinusoidal AC\n\nThis subject is not only important as preparation for subsequent courses (Electrical Circuit II, Electrical Circuit III, and Electrical Circuit IV), but also each specialized topic should be studied keeping in mind that it is a basic course requirement.\nBased on the level of student understanding as indicated by quiz results, etc., changes may occur in the class schedule and course content.\n\n              教科書および参考書・リザーブドブック\n\n              Basic electric circuit (2nd edition) New Edition, Morikita Publishing Co., Ltd.\n\n              履修に必要な予備知識や技能\n\n              It is important that you solve as many problems as possible in order to understand and practice the theory presented. In addition, continuous effort is required on a daily basis. We encourage you to 1) examine various reference books, 2) ask the lecturer questions, and 3) take advantage of the Mathematical and Science Education Research Center so that you can clarify what you don't understand.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                J\n                Participants can draw and explain the waveform of a sine wave alternating current.\n\n                ②\n                J\n                Participants can formulate the circuit equations for AC circuits consisting of R, L, and C.\n\n                ③\n                J\n                Participants can calculate average and rms values of sine wave AC.\n\n                ④\n                J\n                Participants can represent the phasor of sine wave AC.\n\n                ⑤\n\n                ⑥\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                40\n\n                40\n\n                20\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                40\n\n                40\n\n                20\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                40\n\n                40\n\n                20\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n                  思",
-  "courseId": "2026:fall:K404-01:0:868",
+  "rawText": "金沢工業大学 学習支援計画書 G259-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\n(Provided by all courses)\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     (Provided by all courses)\nLiberal Arts Courses\nTransdisciplinary Learning\nIoTプログラミング入門(春期集中講義)\nIoT Programming for Beginners  1 G259-01  2024年度\n 1st year 2nd semester  修学規程第4条を参照\n    担当教員名\n NISHIKAWA Yukinobu\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Embedded systems 2.C language 3.Microcomputers 4.Programming exercises 5.Electronic circuits  You will learn coding technology (C language) while operating a microcomputer. Specifically, you will combine sensors, LEDs, motors, etc. to create code that realizes your ideas.\n    授業の概要および学習上の助言   In this course, you will learn the programming technologies necessary for building an IoT system using the C language, which is widely used as a programming language for microcomputers, and the basic functions of microcomputers. The first half of the exercises focus on understanding the basic grammar of the C language and on understanding activity diagrams, and the second half of the exercises use activity diagrams to perform programming exercises to operate input/output devices such as sensors, LEDs, and motors with a microcomputer. Since circuit diagrams for connecting the input/output device to a microcomputer are also explained, students should be aware of the relationship between the software and the hardware.\n    教科書および参考書・リザーブドブック   Textbooks:Handouts Reference books: Reserved books:\n    履修に必要な予備知識や技能   You must be able to perform basic Windows operations.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① H You will be able to create code using the C language.   ② H You will be able to create code that uses I / O ports, A / D conversion, PWM, and UART communication.   ③ E,H You will be able to write code from activity diagrams.   ④ H You will be able to read the schematics that connect sensors, LEDs, motors, etc. to the microcontroller.   ⑤     ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 0 10 30 15 0 30 15 100     指標と評価割合 総合評価割合 0 10 30 15 0 30 15 100   総合力指標 知識を取り込む力 0 10 30 15 0 30 15 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ①      ②     ③     ④     ⑤     ⑥     クイズ\n小テスト ① レ The contents of the quiz are the learning contents from the 1st to the 4th.   ② レ   ③ レ   ④ レ   ⑤     ⑥     レポート ① レ Coding using activity diagrams   ② レ   ③ レ   ④ レ   ⑤     ⑥     成果発表\n(口頭・実技) ① レ Presentation of knowledge acquired so far   ② レ   ③ レ   ④ レ   ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ① レ Record of approach to the task   ② レ   ③ レ   ④ レ   ⑤     ⑥     その他 ① レ Recording of knowledge gained   ② レ   ③ レ   ④ レ   ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     (1) You can write non-redundant code. (2) You can modify activity diagrams and code according to changes in requirement specifications. (3) You can write code that works for I/O devices that are not used in class. (1) You can write code using the C language. (2) You can write code corresponding to an activity diagram. (3) You can write the code to operate a sensor, LED, motor, etc.\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習課題に要する標準的な時間を記載してあります。日々の自学自習時間全体としては、各授業に応じた時間(例えば2単位科目の場合、予習2時間・復習2時間/週)を取るよう努めてください。詳しくは教員の指導に従って下さい。     授業明細   回数 学習内容 授業の運営方法 学習課題(予習・復習) 時間:分※     1  Guidance Understand the grammar of the C language C language exercises Lecture Exercises (coding and debugging) Review of exercises Activity record (knowledge gained and portfolio)  200   2  Understand the grammar of the C language C language exercises Lecture Exercises (coding and debugging) Review of exercises Act",
+  "courseId": "2024:fall:G246-01:0:868",
   "language": "en"
 }

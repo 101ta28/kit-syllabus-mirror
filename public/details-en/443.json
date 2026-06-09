@@ -1,60 +1,48 @@
 {
   "sourceIndex": 443,
   "sourceUrl": "/opsyllabus/kitos0110/443/1",
-  "importedAt": "2026-06-08T09:34:02.149Z",
-  "title": "経営情報専門実験・演習Ｂ",
-  "subtitle": "Management Systems Major Lab/Exercises B",
-  "courseType": "Major ProgramMajor Courses",
-  "credits": "3",
-  "term": "2026年度\n\n                3rd year 1st semester3rd year 2nd semester",
+  "importedAt": "2026-06-09T01:29:23.127Z",
+  "title": "プロジェクトデザインⅢ(金道敏樹研究室)",
+  "subtitle": "Design Project III(Kindo Toshiki)",
+  "courseType": "Major Program\nMajor Project Courses",
+  "credits": "8",
+  "term": "2024年度\n All year",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "NAKANO Makoto",
-    "ISHIHARA Masahiko",
-    "TOKUNAGA Yuichi",
-    "HIRATA Kazufumi"
+    "KINDO Toshiki"
   ],
   "keywords": [
-    "Strategy Planning",
-    "Costs, Sales, & Profit",
-    "Business Game",
-    "Profit Planning",
-    "Programming for Embedded Systems"
+    "Conceive 2.Design 3.Implementation 4.Creativity"
   ],
-  "educationalGoal": "This practicum in applied business management is a compulsory course for third-year students. In this course, students will: (1) Use the case method to develop the analytical and planning skills needed to formulate a business strategy. (2) Participate in a business game intended to develop the analytical and planning skills needed to make a profit. (3) Implement their ideas and exercise their programming skills using Arduino.",
-  "advice": "This compulsory course uses the following:\n1) Strategy planning in which students will review and analyze the strategies of ‘real’ companies and develop new strategies for these companies. (group activity)\nStudents will be required to create documents such as a strategic analysis report and devise a new strategic plan.\n2) the YBG Bakery Game, a competitive business game accessible on the Internet, which serves as a review of the relationship between sales volume, costs and profit, and profit planning. (group activity)\n  Students will be required to create documents such as financial reports, business operation reports, market mechanism reports, and game review reports.\n3) Programming for an original system using Arduino. (individual activity)\nStudents will be required to implement their ideas via Arduino and give a presentation describing the implementation.",
-  "books": "Make:Getting Started with Arduino 4th Edition(Publisher:Make Community)",
-  "requiredKnowledge": "Basic knowledge of management\nBasic computer skills",
+  "educationalGoal": "In this capstone project, students will conduct research activities related to IT systems based on the knowledge and skills related to computer science and technology that they have learned so far. Through these activities, students acquire the abilities needed for identifying a problem, designing the project, and implementing an IT system. Additionally, students will acquire generic abilities related to communicating with others, and evaluating results.",
+  "advice": "In accordance with the lab policy of \"Research that affects society\", you will study in implementation / development of \"slightly intelligent agents\" that respond to social needs using artificial intelligence or information technology in a broad sense. On recommended steps, first identify your social needs, and then clarify existing technologies and new necessary functions to solve them. In doing so, make sure that the technology or function you handle belongs to the artificial intelligence and information technology fields in a broad sense. In the field of artificial intelligence, comprehensive materials will be provided, so be sure to acquire broad and well-balanced knowledge as well as technologies used to solve problems. Your studies will be either system research that combines existing technologies and new functions, or elemental technology research that realizes new functions, or both. When you would like to tackle systems research, you will do collaborative works with other students. 2022 theme candidates: 1) Natural language processing area, 2) Computer vision area.",
+  "books": "You have to read books you need to reach your goal.",
+  "requiredKnowledge": "Major achievements are the results of small and daily achievements. Students are recommended to conduct self-checking every quarter.",
   "activityGoals": [
     {
       "index": "①",
-      "type": "R",
-      "body": "Be able to understand the operations of the business game used in the course."
+      "type": "A,B,D,E,G,H,L-P",
+      "body": "Be able to set a project schedule based on a set research topic goal."
     },
     {
       "index": "②",
-      "type": "R,M",
-      "body": "Be able to understand the relation between sales revenue, cost, and profit in the business game."
+      "type": "A,B,D,E,G,H,L-P",
+      "body": "Be able to set an appropriate approach or method for the project."
     },
     {
       "index": "③",
-      "type": "R,M",
-      "body": "Be able to engage in effective profit planning."
+      "type": "A,B,D,E,G,H,L-P",
+      "body": "Be able to acquire the IT knowledge and skills needed for proceeding with the project."
     },
     {
       "index": "④",
-      "type": "R,M",
-      "body": "Be able to create simple financial statements."
+      "type": "A,B,D,E,G,H,L-P",
+      "body": "Be able to deal with the problems that will occur in the analysis and design process."
     },
     {
       "index": "⑤",
-      "type": "R,K",
-      "body": "Be able to engage in effective strategy planning in a business framework."
-    },
-    {
-      "index": "⑥",
-      "type": "R,K",
-      "body": "Be able to create a program using Arduino."
+      "type": "A,B,D,E,G,H,L-P",
+      "body": "Be able to evaluate the result from subjective and objective viewpoints for better understanding."
     }
   ],
   "evaluationWeights": [
@@ -62,19 +50,19 @@
       "label": "総合評価割合",
       "values": [
         "0",
-        "10",
-        "20",
-        "40",
-        "30",
         "0",
         "0",
+        "0",
+        "0",
+        "0",
+        "100",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -85,19 +73,19 @@
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
         "0",
-        "10",
-        "20",
-        "40",
-        "30",
         "0",
         "0",
+        "0",
+        "0",
+        "0",
+        "100",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -108,19 +96,19 @@
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
         "0",
-        "10",
-        "20",
-        "40",
-        "30",
         "0",
         "0",
+        "0",
+        "0",
+        "0",
+        "100",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -141,9 +129,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -151,7 +139,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -164,9 +152,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -187,9 +175,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -198,118 +186,41 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "1) Review and analyze the strategy of a ‘real’ company based on published information such as financial reports, and formulate a creative strategy for the company.\n2) Develop a profit plan and implement optimum operations according to the plan in the business game.\n3) Produce a work of creative programming using Arduino based on original ideas.",
-    "standard": "1) Review and analyze the strategy of a ‘real’ company based on news releases, and formulate a strategy for the company.\n2) Develop a profit plan and implement operations in the business game.\n3) Create a programming work using Arduino."
+    "ideal": "Students with ideal achievement levels can conduct research activities smoothly based on a set plan and schedule designed autonomously and can present outcomes that are novel, useful, and reliable at academic meetings.",
+    "standard": "Students with standard achievement levels can conduct research activities based on a set plan and schedule, and can present the outcomes that showcase a meaningful and academic or engineering idea."
   },
   "clipProcess": "",
   "lessons": [
     {
-      "index": "1",
-      "content": "Course Introduction\nStrategy planning introduction",
-      "operation": "Lecture",
-      "assignments": "Re-read the safety guidelines\nCompany analysis",
-      "minutes": "300"
+      "index": "1-10",
+      "content": "Goal setting of PD3 Approach description how to reach the goal. Proceed with research activities. Report and present research project results.",
+      "operation": "",
+      "assignments": "",
+      "minutes": ""
     },
     {
-      "index": "2",
-      "content": "Strategy planning (1)",
-      "operation": "Practice,\ngroup activities,\nand self-reflection",
-      "assignments": "Prepare for presentation of\nstrategy planning",
-      "minutes": "400"
+      "index": "11-30",
+      "content": "Making a prototype and test. Proceed with research activities. Report and present research project results.",
+      "operation": "",
+      "assignments": "",
+      "minutes": ""
     },
     {
-      "index": "3",
-      "content": "Strategy planning (2)",
-      "operation": "Lecture and presentation",
-      "assignments": "Consideration of business plan\nning",
-      "minutes": "600"
+      "index": "31-80",
+      "content": "Making a system and evaluation of the system Proceed with research activities. Report and present research project results.",
+      "operation": "",
+      "assignments": "",
+      "minutes": ""
     },
     {
-      "index": "4",
-      "content": "Strategy planning (3)",
-      "operation": "Practice,\ngroup activities,\nand self-reflection",
-      "assignments": "Prepare for presentation of\nstrategy planning",
-      "minutes": "400"
-    },
-    {
-      "index": "5",
-      "content": "Strategy planning (4)\nBusiness game introduction",
-      "operation": "Lecture and presentation",
-      "assignments": "Quiz for\nthe business game exercise",
-      "minutes": "300"
-    },
-    {
-      "index": "6",
-      "content": "Business game (1)",
-      "operation": "Lecture, practice,\nand group activities",
-      "assignments": "Create a document for\nthe business game\nexercise",
-      "minutes": "300"
-    },
-    {
-      "index": "7",
-      "content": "Business game (2)",
-      "operation": "Practice,\ngroup activities,\nand self-reflection",
-      "assignments": "Reverse engineering exercise",
-      "minutes": "600"
-    },
-    {
-      "index": "8",
-      "content": "Business game (3)",
-      "operation": "Presentation,\nLecture,\nand group activities",
-      "assignments": "Prepare for presentation",
-      "minutes": "450"
-    },
-    {
-      "index": "9",
-      "content": "Business game (4)\nArduino programming introduction",
-      "operation": "Presentation and lecture",
-      "assignments": "Building the programming envir\nonment",
-      "minutes": "600"
-    },
-    {
-      "index": "10",
-      "content": "Arduino programming (1)",
-      "operation": "Lecture and excersise",
-      "assignments": "Programming report",
-      "minutes": "750"
-    },
-    {
-      "index": "11",
-      "content": "Arduino programming (2)",
-      "operation": "Lecture and excersise",
-      "assignments": "Programming report",
-      "minutes": "600"
-    },
-    {
-      "index": "12",
-      "content": "Arduino programming (3)",
-      "operation": "Lecture and excersise",
-      "assignments": "Programming report",
-      "minutes": "600"
-    },
-    {
-      "index": "13",
-      "content": "Arduino programming (4)",
-      "operation": "Lecture and practicum",
-      "assignments": "Prepare for presentation of\nthe programing works",
-      "minutes": "700"
-    },
-    {
-      "index": "14",
-      "content": "Arduino programming (5)",
-      "operation": "Presentation,\ninteractive activities,\nand self-reflection",
-      "assignments": "Review of Arduino programming",
-      "minutes": "600"
-    },
-    {
-      "index": "15",
-      "content": "Course Summary",
-      "operation": "Self-evaluation",
-      "assignments": "Review what you've learned\nthrough this course",
-      "minutes": "100"
+      "index": "81-90",
+      "content": "Writing PD3 report Proceed with research activities. Report and present research project results.",
+      "operation": "",
+      "assignments": "",
+      "minutes": ""
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　F134-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Management Systems(〜2024)\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                経営情報専門実験・演習Ｂ\n                Management Systems Major Lab/Exercises B\n\n              3\n              F134-01\n\n                2026年度\n\n                3rd year 1st semester3rd year 2nd semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  NAKANO Makoto, ISHIHARA Masahiko, TOKUNAGA Yuichi, HIRATA Kazufumi\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Strategy Planning\n2.Costs, Sales, & Profit\n3.Business Game\n4.Profit Planning\n5.Programming for Embedded Systems\n\n              This practicum in applied business management is a compulsory course for third-year students. In this course, students will: (1) Use the case method to develop the analytical and planning skills needed to formulate a business strategy. (2) Participate in a business game intended to develop the analytical and planning skills needed to make a profit. (3) Implement their ideas and exercise their programming skills using Arduino.\n\n              授業の概要および学習上の助言\n\n              This compulsory course uses the following:\n1) Strategy planning in which students will review and analyze the strategies of ‘real’ companies and develop new strategies for these companies. (group activity)\nStudents will be required to create documents such as a strategic analysis report and devise a new strategic plan.\n2) the YBG Bakery Game, a competitive business game accessible on the Internet, which serves as a review of the relationship between sales volume, costs and profit, and profit planning. (group activity)\n  Students will be required to create documents such as financial reports, business operation reports, market mechanism reports, and game review reports.\n3) Programming for an original system using Arduino. (individual activity)\nStudents will be required to implement their ideas via Arduino and give a presentation describing the implementation.\n\n              教科書および参考書・リザーブドブック\n\n              Make:Getting Started with Arduino 4th Edition(Publisher:Make Community)\n\n              履修に必要な予備知識や技能\n\n              Basic knowledge of management\nBasic computer skills\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                R\n                Be able to understand the operations of the business game used in the course.\n\n                ②\n                R,M\n                Be able to understand the relation between sales revenue, cost, and profit in the business game.\n\n                ③\n                R,M\n                Be able to engage in effective profit planning.\n\n                ④\n                R,M\n                Be able to create simple financial statements.\n\n                ⑤\n                R,K\n                Be able to engage in effective strategy planning in a business framework.\n\n                ⑥\n                R,K\n                Be able to create a program using Arduino.\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                0\n\n                10\n\n                20\n\n                40\n\n                30\n\n                0\n\n                0\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                0\n\n                10\n\n                20\n\n                40\n\n                30\n\n                0\n\n                0\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                0\n\n                10\n\n                20\n\n                40\n\n                30\n\n            ",
-  "courseId": "2026:fall:F134-01:0:443",
+  "rawText": "金沢工業大学 学習支援計画書 E926-27\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Information and Computer Science\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Project Courses\nプロジェクトデザインⅢ(金道敏樹研究室)\nDesign Project III(Kindo Toshiki)  8 E926-27  2024年度\n All year  修学規程第4条を参照\n    担当教員名\n KINDO Toshiki\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Conceive 2.Design 3.Implementation 4.Creativity  In this capstone project, students will conduct research activities related to IT systems based on the knowledge and skills related to computer science and technology that they have learned so far. Through these activities, students acquire the abilities needed for identifying a problem, designing the project, and implementing an IT system. Additionally, students will acquire generic abilities related to communicating with others, and evaluating results.\n    授業の概要および学習上の助言   In accordance with the lab policy of \"Research that affects society\", you will study in implementation / development of \"slightly intelligent agents\" that respond to social needs using artificial intelligence or information technology in a broad sense. On recommended steps, first identify your social needs, and then clarify existing technologies and new necessary functions to solve them. In doing so, make sure that the technology or function you handle belongs to the artificial intelligence and information technology fields in a broad sense. In the field of artificial intelligence, comprehensive materials will be provided, so be sure to acquire broad and well-balanced knowledge as well as technologies used to solve problems. Your studies will be either system research that combines existing technologies and new functions, or elemental technology research that realizes new functions, or both. When you would like to tackle systems research, you will do collaborative works with other students. 2022 theme candidates: 1) Natural language processing area, 2) Computer vision area.\n    教科書および参考書・リザーブドブック   You have to read books you need to reach your goal.\n    履修に必要な予備知識や技能   Major achievements are the results of small and daily achievements. Students are recommended to conduct self-checking every quarter.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① A,B,D,E,G,H,L-P Be able to set a project schedule based on a set research topic goal.   ② A,B,D,E,G,H,L-P Be able to set an appropriate approach or method for the project.   ③ A,B,D,E,G,H,L-P Be able to acquire the IT knowledge and skills needed for proceeding with the project.   ④ A,B,D,E,G,H,L-P Be able to deal with the problems that will occur in the analysis and design process.   ⑤ A,B,D,E,G,H,L-P Be able to evaluate the result from subjective and objective viewpoints for better understanding.   ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 0 0 0 0 0 0 100 100     指標と評価割合 総合評価割合 0 0 0 0 0 0 100 100   総合力指標 知識を取り込む力 0 0 0 0 0 0 100 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ①      ②     ③     ④     ⑤     ⑥     クイズ\n小テスト ①      ②     ③     ④     ⑤     ⑥     レポート ①      ②     ③     ④     ⑤     ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ① レ Evaluations are assessed based on research activity (time and research outcomes, 60%) and the project report (content of description and presentation, 40%). An important checkpoint for me to evaluate your research activity is that you keep PDCA cycles in your studies. I strongly recommend you to report your issues clearly, to discuss on them with our lab members in weekly briefings and/or monthly meetings, and to receive supports from the members. Your concrete comments and effective supports to solve other members' issues will be highly evaluated.    ② レ   ③ レ   ④ レ   ⑤ レ",
+  "courseId": "2024:full-year:E926-21:0:443",
   "language": "en"
 }

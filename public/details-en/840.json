@@ -1,78 +1,68 @@
 {
   "sourceIndex": 840,
   "sourceUrl": "/opsyllabus/kitos0110/840/1",
-  "importedAt": "2026-06-08T09:34:10.560Z",
-  "title": "過渡現象論",
-  "subtitle": "Transient Phenomena in Linear Circuits",
-  "courseType": "Major ProgramMajor Courses",
+  "importedAt": "2026-06-09T01:29:27.079Z",
+  "title": "日本文学の世界",
+  "subtitle": "Introduction of Japanese Literature",
+  "courseType": "(Provided by all courses)\nLiberal Arts Courses\nTransdisciplinary Learning",
   "credits": "2",
-  "term": "2026年度\n\n                2nd year 2nd semester",
+  "term": "2024年度\n 1st year 2nd semester\n2nd year 1st semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "AOKI Shigeaki",
-    "YANAGIBASHI Hideyuki"
+    "ISHIKAWA Michiko"
   ],
   "keywords": [
-    "Transient Analysis",
-    "Circuit Equation",
-    "Laplace Transform",
-    "Transient Phenomena",
-    "Online/on-demand classes"
+    "Japanese literature 2.History 3.Honorific language 4.Letter 5.Cooperation in the community"
   ],
-  "educationalGoal": "The aim of this course is to help students acquire the necessary knowledge needed to understand the theory to learn in “Feedback Control” course in the 5th term.\nStudents will:\n(1) solve transient electrical circuits using circuit equations and initial conditions.\n(2) analyze transient phenomena of more complex circuits by Laplace transform.\n(3) understand the various transient phenomena that occur in electrical circuits.",
-  "advice": "1. Transient phenomena and differential equation (circuit equations)\n     Learn the basics needed to analyze transient phenomena.\n     //Transient phenomena and steady phenomena, differential equations of electrical circuits and its solutions\n\n2. Transient phenomena of electrical circuits\n     Solve the transient phenomena of various circuits according to the solution of differential equation.\n     //AC and DC circuit of RC, RL, LC, and LCR\n\n3. Analysis by Laplace transform\n     Learn how to analyze transient phenomena in electrical circuits using Laplace transform.\n     //Laplace transform and inverse transform, Laplace transform for functions and its application to circuits.\n\nThere is possibility to change the learning contents (progress) of the course schedule depending on the situation.\nExercises, quizzes, discussions and questions, etc. are included to help students concentrate on this class.\nThe order of learning may be changed as needed, and digital technology may be used for learning such as online (remote) or on-demand classes.",
-  "books": "Some materials will be shown in lecture.",
-  "requiredKnowledge": "1. Fundamentals of electrical circuits.\n2. Fundamentals of mathematics such as exponential, trigonometric function, differential and integral, etc.\n3. Attitude to take each class seriously and review and deepen understanding.\n4. Attitude to learn theoretical thinking and applied methods through exercises without relying on memorization.",
+  "educationalGoal": "Students will: (1) Learn about classical Japanese literature (e.g., narrative, verse, story, chronicles of war). (2) Improve their reading comprehension skills by reading Japanese literature. (3) Learn about “Japanese language expression” and improve their ability to think.",
+  "advice": "This basic course on Japanese literature will cover the following: 1. Reading classical Japanese literature 2. Composing waka (“Japanese poetry”) 3. Writing critical essays and letters Students are required to participate actively in class. Students are expected to bring their textbooks, handouts, and other necessary materials to every class. Students are expected to learn proper citation methods. Students are expected to think about their own life through reading classical Japanese literature. Students are expected to write some waka. Students are expected to check for message/materials on the KIT Inside website before every class.",
+  "books": "社会人のための国語の常識",
+  "requiredKnowledge": "Knowledge of basic Japanese vocabulary regarding literature Basic study skills",
   "activityGoals": [
     {
       "index": "①",
-      "type": "K",
-      "body": "Be able to show circuit equations (differential equation) from electric circuits."
+      "type": "A,B",
+      "body": "Be able to understand and explain the basics of Japanese literature, such as culture."
     },
     {
       "index": "②",
-      "type": "K",
-      "body": "Be able to show initial conditions from electric circuits and apply to circuit equations."
+      "type": "A,B",
+      "body": "Be able to explain and deepen interest in the characteristics of Japanese literature in the text."
     },
     {
       "index": "③",
-      "type": "K",
-      "body": "Be able to solve differential equations and express the transient phenomenon with equations."
+      "type": "A,B",
+      "body": "Be able to complete assignments according to the rules and submit them by the deadline."
     },
     {
       "index": "④",
-      "type": "K",
-      "body": "Be able to graph transient phenomena based on the equations."
+      "type": "A,B",
+      "body": "Be able to write various types of sentences depending on the situation."
     },
     {
       "index": "⑤",
-      "type": "K",
-      "body": "Be able to understand Laplace transform."
-    },
-    {
-      "index": "⑥",
-      "type": "K",
-      "body": "Be able to solve transient phenomena of electrical circuits by Laplace transform."
+      "type": "A",
+      "body": "Be able to perform a self-assessment about class goals."
     }
   ],
   "evaluationWeights": [
     {
       "label": "総合評価割合",
       "values": [
-        "40",
         "30",
         "30",
+        "20",
         "0",
         "0",
-        "0",
-        "0",
+        "15",
+        "5",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -82,20 +72,20 @@
     {
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
-        "40",
         "30",
         "30",
+        "20",
         "0",
         "0",
-        "0",
-        "0",
+        "15",
+        "5",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -105,20 +95,20 @@
     {
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
-        "40",
         "30",
         "30",
+        "20",
         "0",
         "0",
-        "0",
-        "0",
+        "15",
+        "5",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -139,9 +129,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -149,7 +139,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -162,9 +152,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -185,9 +175,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -196,118 +186,118 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "(1) Explain Laplace transform.\n(2) Solve AC circuits transient phenomena using Laplace transform.\n(3) Mark 90% or more of the score.",
-    "standard": "(1) Show circuit equations and initial conditions from circuits.\n(2) Solve AC circuits transient phenomena using Laplace transform.\n(3) Mark 80% level score."
+    "ideal": "(1) Fully understand the importance of and explain the main points of stories. (2) Fully understand literary works since the Meiji period. (3) Use honorific language properly in accordance with the scene. (4) Write a formal letter to a superior using the proper format. *Students are required to write characters correctly on all exams.",
+    "standard": "Achieve a passing score."
   },
   "clipProcess": "",
   "lessons": [
     {
       "index": "1",
-      "content": "Guidance\nTransient phenomena and steady phenomena\nFundamentals of transient phenomena",
-      "operation": "Syllabus explanation\nSelf-check\nLecture (take notes)\nMay exercise and quiz",
-      "assignments": "Preview:\n  Basic of math and circuit\n  Text 1 to 4, 7 to 11\nReview: Lectured contents",
-      "minutes": "Previe\nw：100\nReview\n：100"
+      "content": "Course introduction",
+      "operation": "Lecture and Q&A",
+      "assignments": "Understand the class objectives.",
+      "minutes": "30"
     },
     {
       "index": "2",
-      "content": "Initial condition\n1st and 2nd order differential equation",
-      "operation": "Last lecture review\nLecture (take notes)\nMay exercise and quiz",
-      "assignments": "Preview:\n  Text 11 to 24\nReview:\nLectured contents",
-      "minutes": "Previe\nw：100\nReview\n：100"
+      "content": "Japanese mythology \"Kojiki\" \"Nihon Shoki\"",
+      "operation": "Lecture and Q&A",
+      "assignments": "Reread the print and deepen understanding. Prepare for the next lecture.",
+      "minutes": "30"
     },
     {
       "index": "3",
-      "content": "DC-RC Transient phenomena (charge)\nDC-RC Transient phenomena (discharge)\n1. Differential equation\n2. Initial condition\n3. Graph\n4. Time constant",
-      "operation": "Last lecture review\nLecture (take notes)\nMay exercise and quiz",
-      "assignments": "Preview:\n  Text 25 to 27, 29 to 33\nReview:\nLectured contents",
-      "minutes": "Previe\nw：100\nReview\n：100"
+      "content": "Waka \"Manyoshu\" \"Kokin Wakashu\" \"Shin Kokin Wakashu\"",
+      "operation": "Lecture and Q&A",
+      "assignments": "Reread the print and deepen understanding. Prepare for the next lecture.",
+      "minutes": "30"
     },
     {
       "index": "4",
-      "content": "DC-RL Transient phenomena\n1. Differential equation\n2. Initial condition\n3. Graph\n4. Time constant",
-      "operation": "Last lecture review\nLecture (take notes)\nMay exercise and quiz",
-      "assignments": "Preview:\n  Text 35 to 39\nReview:\nLectured contents",
-      "minutes": "Previe\nw：100\nReview\n：100"
+      "content": "Monogatari \"Ise Monogatari (The Tales of Ise)\" \"Genji Monogatari (The Tales of Genji)\"",
+      "operation": "Lecture and Q&A",
+      "assignments": "Reread the print and deepen understanding. Prepare for the next lecture.",
+      "minutes": "30"
     },
     {
       "index": "5",
-      "content": "DC-LC Transient phenomena\n1. Differential equation\n2. Initial condition\n3. Graph\nDC-LCR Transient phenomena",
-      "operation": "Last lecture review\nLecture (take notes)\nMay exercise and quiz",
-      "assignments": "Preview:\n  Text 60 to 63, 66 to 68\nReview:\nLectured contents",
-      "minutes": "Previe\nw：100\nReview\n：100\n100"
+      "content": "Essays \"Makura no Soushi (The Pillow Book)\" \"Hojoki (Square-jo Record)\" \"Tsurezuregusa (Essays in Idleness)\"",
+      "operation": "Lecture and Q&A",
+      "assignments": "Reread the print and deepen understanding. Prepare for the next lecture.",
+      "minutes": "30"
     },
     {
       "index": "6",
-      "content": "DC-LCR Transient phenomena\n1. Differential equation\n2. Solution for each condition\n3. Graph",
-      "operation": "Last lecture review\nLecture (take notes)\nMay exercise and quiz",
-      "assignments": "Preview:\n  Text 68 to 73\nReview:\nLectured contents",
-      "minutes": "Previe\nw：100\nReview\n：100"
+      "content": "War chronicles “Heike Monogatari (The Tale of Heike)”",
+      "operation": "Lecture and Q&A",
+      "assignments": "Reread the print and deepen understanding. Prepare for the next lecture.",
+      "minutes": "30"
     },
     {
       "index": "7",
-      "content": "Midterm review\n\nFeedback and self-check",
-      "operation": "Last lecture review\nExercise for review\nExam\nSubmission check",
-      "assignments": "Preview and review:\nReview the quizzes and\nreports and motivate it to\nstudy in the future.",
-      "minutes": "Previe\nw：100\nReview\n：100"
+      "content": "Narrative “Konjaku Monogatarishu (Anthology of Tales from the Past)”",
+      "operation": "Lecture and Q&A",
+      "assignments": "Reread the print and deepen understanding. Prepare for the next lecture.",
+      "minutes": "30 60"
     },
     {
       "index": "8",
-      "content": "Laplace transform overview\nLaplace transform of simple functions\nBasic properties of Laplace transform\n1. Calculus\n2. Complex functions",
-      "operation": "Exam review\nSelf-check\nLecture (take notes)\nMay exercise and quiz",
-      "assignments": "Preview:\n  Text 105 to 120\nReview:\nLectured contents",
-      "minutes": "Previe\nw：100\nReview\n：100"
+      "content": "First exam The exam will cover classes 2 to 7.",
+      "operation": "First exam",
+      "assignments": "Reread the print and deepen understanding. Prepare for the next lecture.",
+      "minutes": "30"
     },
     {
       "index": "9",
-      "content": "Laplace inversion\n 1. Laplace inversion overview\n 2. Partial fraction expansion",
-      "operation": "Last lecture review\nLecture (take notes)\nMay exercise and quiz",
-      "assignments": "Preview:\n  Text 121 to 133\nReview:\nLectured contents",
-      "minutes": "Previe\nw：100\nReview\n：100"
+      "content": "Modern literature “Gebun-icchi-tai”",
+      "operation": "Lecture and Q&A",
+      "assignments": "Reread the print and deepen understanding. Prepare for the next lecture.",
+      "minutes": "30"
     },
     {
       "index": "10",
-      "content": "Application of Laplace transform to circuit\n 1. Case of DC-RC circuit\n 2. Case of DC-RL circuit",
-      "operation": "Last lecture review\nLecture (take notes)\nMay exercise and quiz",
-      "assignments": "Preview:\n  Text 134 to 137\nReview:\nLectured contents",
-      "minutes": "Previe\nw：100\nReview\n：100"
+      "content": "Modern literature “Maihime (by Mori Ogai)”",
+      "operation": "Lecture and Q&A",
+      "assignments": "Reread the print and deepen understanding. Prepare for the next lecture.",
+      "minutes": "30"
     },
     {
       "index": "11",
-      "content": "Application of Laplace transform to circuit\n 1. Case fo DC-LC circuit\n 2. Case of DC-LCR circuit",
-      "operation": "Last lecture review\nLecture (take notes)\nMay exercise and quiz",
-      "assignments": "Preview:\n  Text 137 to 139\nReview:\nLectured contents",
-      "minutes": "Previe\nw：100\nReview\n：100"
+      "content": "The first mini-test will cover classes 9 and 10. Write a waka.",
+      "operation": "First mini-test Submit a waka",
+      "assignments": "Reread the print and deepen understanding. Prepare for the next lecture.",
+      "minutes": "30 30"
     },
     {
       "index": "12",
-      "content": "Application of Laplace transform to circuit\n 1. Case of AC-RC circuit\n 2. Case of AC-RL circuit",
-      "operation": "Last lecture review\nLecture (take notes)\nMay exercise and quiz",
-      "assignments": "Preview:\n  Text 140 to 144\nReview:\nLectured contents",
-      "minutes": "Previe\nw：100\nReview\n：100"
+      "content": "Honorific language Understand respectful, humble, and polite expres sions.",
+      "operation": "Lecture and Q&A",
+      "assignments": "Reread the print and deepen understanding. Prepare for the next lecture.",
+      "minutes": "30 30"
     },
     {
       "index": "13",
-      "content": "Integrated learning\n\nFeedback and self-check",
-      "operation": "All lectures review\nSelf-check\nLecture (take notes)\nMay exercise and quiz",
-      "assignments": "Preview and review:\nReview the quizzes and\nreports. Confirm status of\nsubmissions.",
-      "minutes": "Previe\nw：100\nReview\n：100"
+      "content": "How to write a letter The second mini-test will cover class 12. Draft a letter for a superior.",
+      "operation": "Second mini-test Lecture and Q&A",
+      "assignments": "Reread the print and deepen its understanding. Prepare for the next lecture. Draft a letter.",
+      "minutes": "30 60"
     },
     {
       "index": "14",
-      "content": "Final exam and its explanation\n\nFeedback and self-check",
-      "operation": "Exam\nExam explanation",
-      "assignments": "Preview and review:\nReview lecture notebook and\ntextbook.",
-      "minutes": "Previe\nw：100\nReview\n：100"
+      "content": "Make a clean copy Make a clean copy of a letter based on the draft .",
+      "operation": "Submit a letter",
+      "assignments": "Reread the print and deepen understanding. Prepare for the next lecture. Things to bring: black pen.",
+      "minutes": "20"
     },
     {
       "index": "15",
-      "content": "Feedback Exercises\n\nSelf-check",
-      "operation": "All contents review\nQuestionnaire\nGrade notification\nQuestions and answers",
-      "assignments": "Preview:\n  Overcome weakness. If task\nis imposed, complete by the\ndeadline.",
-      "minutes": "Previe\nw：100"
+      "content": "Self-evaluation Course questionnaire",
+      "operation": "Lecture and Q&A",
+      "assignments": "Use this evaluation as a reference for the future.",
+      "minutes": "20"
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　K313-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Electrical Energy Systems Engineering\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                過渡現象論\n                Transient Phenomena in Linear Circuits\n\n              2\n              K313-01\n\n                2026年度\n\n                2nd year 2nd semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  AOKI Shigeaki, YANAGIBASHI Hideyuki\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Transient Analysis\n2.Circuit Equation\n3.Laplace Transform\n4.Transient Phenomena\n5.Online/on-demand classes\n\n              The aim of this course is to help students acquire the necessary knowledge needed to understand the theory to learn in “Feedback Control” course in the 5th term.\nStudents will:\n(1) solve transient electrical circuits using circuit equations and initial conditions.\n(2) analyze transient phenomena of more complex circuits by Laplace transform.\n(3) understand the various transient phenomena that occur in electrical circuits.\n\n              授業の概要および学習上の助言\n\n              1. Transient phenomena and differential equation (circuit equations)\n     Learn the basics needed to analyze transient phenomena.\n     //Transient phenomena and steady phenomena, differential equations of electrical circuits and its solutions\n\n2. Transient phenomena of electrical circuits\n     Solve the transient phenomena of various circuits according to the solution of differential equation.\n     //AC and DC circuit of RC, RL, LC, and LCR\n\n3. Analysis by Laplace transform\n     Learn how to analyze transient phenomena in electrical circuits using Laplace transform.\n     //Laplace transform and inverse transform, Laplace transform for functions and its application to circuits.\n\nThere is possibility to change the learning contents (progress) of the course schedule depending on the situation.\nExercises, quizzes, discussions and questions, etc. are included to help students concentrate on this class.\nThe order of learning may be changed as needed, and digital technology may be used for learning such as online (remote) or on-demand classes.\n\n              教科書および参考書・リザーブドブック\n\n              Some materials will be shown in lecture.\n\n              履修に必要な予備知識や技能\n\n              1. Fundamentals of electrical circuits.\n2. Fundamentals of mathematics such as exponential, trigonometric function, differential and integral, etc.\n3. Attitude to take each class seriously and review and deepen understanding.\n4. Attitude to learn theoretical thinking and applied methods through exercises without relying on memorization.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                K\n                Be able to show circuit equations (differential equation) from electric circuits.\n\n                ②\n                K\n                Be able to show initial conditions from electric circuits and apply to circuit equations.\n\n                ③\n                K\n                Be able to solve differential equations and express the transient phenomenon with equations.\n\n                ④\n                K\n                Be able to graph transient phenomena based on the equations.\n\n                ⑤\n                K\n                Be able to understand Laplace transform.\n\n                ⑥\n                K\n                Be able to solve transient phenomena of electrical circuits by Laplace transform.\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                40\n\n                30\n\n                30\n\n                0\n\n    ",
-  "courseId": "2026:fall:K313-01:0:840",
+  "rawText": "金沢工業大学 学習支援計画書 G015-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\n(Provided by all courses)\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     (Provided by all courses)\nLiberal Arts Courses\nTransdisciplinary Learning\n日本文学の世界\nIntroduction of Japanese Literature  2 G015-01  2024年度\n 1st year 2nd semester\n2nd year 1st semester  修学規程第4条を参照\n    担当教員名\n ISHIKAWA Michiko\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Japanese literature 2.History 3.Honorific language 4.Letter 5.Cooperation in the community  Students will: (1) Learn about classical Japanese literature (e.g., narrative, verse, story, chronicles of war). (2) Improve their reading comprehension skills by reading Japanese literature. (3) Learn about “Japanese language expression” and improve their ability to think.\n    授業の概要および学習上の助言   This basic course on Japanese literature will cover the following: 1. Reading classical Japanese literature 2. Composing waka (“Japanese poetry”) 3. Writing critical essays and letters Students are required to participate actively in class. Students are expected to bring their textbooks, handouts, and other necessary materials to every class. Students are expected to learn proper citation methods. Students are expected to think about their own life through reading classical Japanese literature. Students are expected to write some waka. Students are expected to check for message/materials on the KIT Inside website before every class.\n    教科書および参考書・リザーブドブック   社会人のための国語の常識\n    履修に必要な予備知識や技能   Knowledge of basic Japanese vocabulary regarding literature Basic study skills\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① A,B Be able to understand and explain the basics of Japanese literature, such as culture.   ② A,B Be able to explain and deepen interest in the characteristics of Japanese literature in the text.   ③ A,B Be able to complete assignments according to the rules and submit them by the deadline.   ④ A,B Be able to write various types of sentences depending on the situation.   ⑤ A Be able to perform a self-assessment about class goals.   ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 30 30 20 0 0 15 5 100     指標と評価割合 総合評価割合 30 30 20 0 0 15 5 100   総合力指標 知識を取り込む力 30 30 20 0 0 15 5 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ An exam will be given in the middle of the semester to evaluate the degree of achievement. The exam will cover parts 1-7. Student are required to write all proper nouns in Kanji. Student are required to write characters correctly on all exams.   ② レ   ③     ④ レ   ⑤     ⑥     クイズ\n小テスト ① レ Two exams will be conducted: First: covers parts 9 and 10 Second: covers part 12   ② レ   ③     ④ レ   ⑤     ⑥     レポート ①      ②     ③     ④     ⑤     ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①   Students are required to self-assess the state of attainment of the action goal.   ②     ③     ④     ⑤ レ   ⑥     その他 ①   Students will be evaluated based on the following: participation, attitude in the class, attendance, and adherence to deadlines   ②     ③     ④     ⑤ レ   ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     (1) Fully understand the importance of and explain the main points of stories. (2) Fully understand literary works since the Meiji period. (3) Use honorific language properly in accordance with the scene. (4) Write a formal letter to a superior using the proper format. *Students are required to write characters correctly on all exams. Achieve a passing score.\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習課題に要する標準的な時間を記載してあります。日々の自学自習時間全体としては、各授業に応じた時間(例えば2単位科目の場合、予習2時間・復習2時間/週)を取",
+  "courseId": "2024:fall:G015-01:0:840",
   "language": "en"
 }

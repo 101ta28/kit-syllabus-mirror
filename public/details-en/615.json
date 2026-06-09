@@ -1,75 +1,58 @@
 {
   "sourceIndex": 615,
   "sourceUrl": "/opsyllabus/kitos0110/615/1",
-  "importedAt": "2026-06-08T09:34:05.646Z",
-  "title": "プログラミングⅢ（再履修クラス）",
-  "subtitle": "Programming III",
-  "courseType": "Major ProgramMajor Courses",
-  "credits": "1",
-  "term": "2026年度\n\n                1st year 1st semester",
+  "importedAt": "2026-06-09T01:29:24.746Z",
+  "title": "心理学データ解析基礎",
+  "subtitle": "Elements of Psychological Data Analysis",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "2",
+  "term": "2024年度\n 1st year 1st semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "MOTOKI Mitsuo"
+    "TANAKA Koji"
   ],
   "keywords": [
-    "Java",
-    "compile",
-    "Dynamic typing programming language"
+    "Spreadsheet 2.Data processing 3.Functions 4.Basic statistics 5.Creating figures and tables"
   ],
-  "educationalGoal": "In this course, student learn basic programming in Java which is often used in web systems.  Specifically, it contains the followings: understanding the basic of Java that requires  compiling and static typing variables, writing simple programs, and how to execute Java programs.",
-  "advice": "Students learn basic of programming with compiling and static typing variables, by using Java with comparing with Python.\n\nContents of Java:\n(1) The basic of writing Java program and executing programs\n(2) Concept of variables with typing\n(3) The grammar of Java and typical programming method for Java",
-  "books": "(See the Japanese syllabus.)",
-  "requiredKnowledge": "The precedent course: Programming I\n- Students have to bring own laptop computer, AC adopter, and network cable for software installation, download of course materials, and upload of answer of quizzes\n- PC operation skills (such as touch typing, file operation, etc.) are necessary to write program smoothly",
+  "educationalGoal": "Through practical training using spreadsheet software (Excel) students will: ・ Be able to understand data processing and chart creation. ・ Be able to understand how to use functions. ・ Be able to understand basic statistics.",
+  "advice": "The data analysis courses of the Department of Psychological Science aim to teach the knowledge and skills necessary to analyze data obtained from psychological experiments. In particular, this course will teach students about data processing using the spreadsheet software Excel. The course is conducted with lectures and practical training. In order to spend as much time as possible on the practical training, students are required to prepare for the class, and they are required to understand the contents through preparation and to confirm their understanding through practical training during the course. If students do not understand the information during class time, they should deal with it as soon as possible by using office hours. This course will focus on the following topics: 1. Spreadsheet software (Excel) basic technology: data processing, creating figures and tables 2. How to use Excel functions 3. Concepts of basic statistics: mean, median, mode, maximum, minimum, variance, standard deviation, skewness, kurtosis * Be sure to bring a computer to each class as you will be using the spreadsheet software (Excel)",
+  "books": "none",
+  "requiredKnowledge": "Students must to bring a personal computer to each class to do the practical training every week. There are many opportunities to use data analysis in psychology, so students should look for solutions with an awareness of the problem.",
   "activityGoals": [
     {
       "index": "①",
-      "type": "I,J,K",
-      "body": "Be able to explain necessary operations step by step to execute Java programs"
+      "type": "H,J",
+      "body": "Ability to perform basic Excel operations."
     },
     {
       "index": "②",
-      "type": "I,J,K",
-      "body": "Be able to write Java programs using typing of variables appropriately"
+      "type": "H,J",
+      "body": "Ability to create figures and tables using Excel."
     },
     {
       "index": "③",
-      "type": "I,J,K",
-      "body": "Be able to write Java programs with conditional branches appropriately"
-    },
-    {
-      "index": "④",
-      "type": "I,J,K",
-      "body": "Be able to write Java programs with loops appropriately"
-    },
-    {
-      "index": "⑤",
-      "type": "I,J,K",
-      "body": "Be able to write Java programs using arrays appropriately"
-    },
-    {
-      "index": "⑥",
-      "type": "I,J,K",
-      "body": "Be able to write Java programs using methods appropriately"
+      "type": "H,J",
+      "body": "Ability to calculate using Excel functions."
     }
   ],
   "evaluationWeights": [
     {
       "label": "総合評価割合",
       "values": [
-        "40",
-        "60",
+        "30",
+        "0",
+        "50",
         "0",
         "0",
         "0",
-        "0",
-        "0",
+        "20",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -79,20 +62,20 @@
     {
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
-        "40",
-        "60",
+        "30",
+        "0",
+        "50",
         "0",
         "0",
         "0",
-        "0",
-        "0",
+        "20",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -102,20 +85,20 @@
     {
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
-        "40",
-        "60",
+        "30",
+        "0",
+        "50",
         "0",
         "0",
         "0",
-        "0",
-        "0",
+        "20",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -136,9 +119,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -146,7 +129,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -159,9 +142,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -182,9 +165,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -193,69 +176,118 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "In addition to standard achievement level,\n(1+) Be able to fix errors in compiling Java programs\n(6) Be able tor write Java programs with non-complicated specifications",
-    "standard": "(1) Be able to write and execute Java program\n(2) Be able to write variable declaration, assignment to variables, and type conversion in Java\n(3) Be able to write Java programs using conditional branches\n(4) Be able to write Java programs using loops\n(5) Be able to write Java programs with methods"
+    "ideal": "Students will be able to understand the basic operations of spreadsheet software (Excel). Furthermore, they will be able to select and use basic statistics using functions. Students will be able to create figures and tables suitable for the information that they would like to express.",
+    "standard": "Students will be able to understand the basic operations of spreadsheet software (Excel) and calculate basic statistics using functions. Students will be able to create figures and tables for use in psychological experiment reports."
   },
   "clipProcess": "",
   "lessons": [
     {
       "index": "1",
-      "content": "Basis of writing programs in Java\n- Installation of Java Development Kit\n- How to write Java programs\n- How to execute Java programs\n- Output",
-      "operation": "Lecture and Exercise",
-      "assignments": "- Preview: Install JDK\naccording to slides\n- Review: Practice the\nhandout, and 1-2 and 2-1 of\nthe textbook",
-      "minutes": "60\n\n60"
+      "content": "Orientation Excel basic operations (1)",
+      "operation": "Lecture practical training",
+      "assignments": "Review: Review of lecture content",
+      "minutes": "60"
     },
     {
       "index": "2",
-      "content": "Typing of variables and operators\n- Type of variables\n- Type conversion\n- Input (Scanner class)\n- Operators",
-      "operation": "Lecture and Exercise",
-      "assignments": "Preview: Watch the lecture\nvideo\nReview: Practice the handout\nand 2-2, 2-3, and 2-4 of the\ntextbook",
-      "minutes": "60\n\n60"
+      "content": "Excel basic operations (2) Absolute and relative references",
+      "operation": "Lecture practical training",
+      "assignments": "Review: Review of lecture content",
+      "minutes": "60"
     },
     {
       "index": "3",
-      "content": "- Flow control (conditional branch)",
-      "operation": "Lecture and Exercise",
-      "assignments": "Preview: Watch the lecture\nvideo\nReview: Practice the handout\nand 3-1, and 3-2 of the\ntextbook",
-      "minutes": "60\n\n60"
+      "content": "Excel functions (1) Mathematical function",
+      "operation": "Lecture practical training",
+      "assignments": "Review: Review of lecture content",
+      "minutes": "60"
     },
     {
       "index": "4",
-      "content": "- Flow control (loop)",
-      "operation": "Lecture and Exercise",
-      "assignments": "Preview: Watch the lecture\nvideo\nReview: Practice the handout\nand 3-3 of the textbook",
-      "minutes": "60\n\n60"
+      "content": "Excel functions (2) Logical function",
+      "operation": "Lecture practical training",
+      "assignments": "Review: Review of lecture content",
+      "minutes": "60"
     },
     {
       "index": "5",
-      "content": "- Array",
-      "operation": "Lecture and Exercise",
-      "assignments": "Preview: Watch the lecture\nvideo\nReview: Practice the handout\nand 3-4 of the textbook",
-      "minutes": "60\n\n60"
+      "content": "Excel functions (3) Statistical function (1)",
+      "operation": "Lecture practical training",
+      "assignments": "Review: Review of lecture content",
+      "minutes": "60"
     },
     {
       "index": "6",
-      "content": "- Method",
-      "operation": "Lecture and Exercise",
-      "assignments": "Preview: Watch the lecture\nvideo\nReview: Practice the handout\nand Ch. 4 of the textbook",
-      "minutes": "60\n\n60"
+      "content": "Excel functions (4) Statistical function (2)",
+      "operation": "Lecture Practical training",
+      "assignments": "Review: Review of lecture content",
+      "minutes": "60"
     },
     {
       "index": "7",
-      "content": "- Overall exercise",
-      "operation": "Lecture and Exercise",
-      "assignments": "Preview: Review whole content\nof this class",
-      "minutes": "120"
+      "content": "Basic statistics and Excel functions Midterm exam",
+      "operation": "Lecture Practical training Mid self-reflection",
+      "assignments": "Review: Review of lecture contents from week 1 to week 7.",
+      "minutes": "60"
     },
     {
       "index": "8",
-      "content": "- Exam\n- Self-check",
-      "operation": "Exam\nSelf-check",
-      "assignments": "Prepare for the exam",
-      "minutes": "120"
+      "content": "Excel functions (5) Search / matrix function",
+      "operation": "Lecture Practical training",
+      "assignments": "Review: Review of lecture content",
+      "minutes": "60"
+    },
+    {
+      "index": "9",
+      "content": "Creating figures and tables (1) Creating figures",
+      "operation": "Lecture Practical training",
+      "assignments": "Review: Review of lecture content",
+      "minutes": "60"
+    },
+    {
+      "index": "10",
+      "content": "Creating figures and tables (2) Creating tables",
+      "operation": "Lecture Practical training",
+      "assignments": "Review: Review of lecture content",
+      "minutes": "60"
+    },
+    {
+      "index": "11",
+      "content": "Creating figures and tables (3) Summary of creating figures and tables",
+      "operation": "Lecture Practical training Self-reflection",
+      "assignments": "Review: Review of lecture content",
+      "minutes": "60"
+    },
+    {
+      "index": "12",
+      "content": "Integrated study (1)",
+      "operation": "Lecture Practical training",
+      "assignments": "Review: Review of lecture content",
+      "minutes": "60"
+    },
+    {
+      "index": "13",
+      "content": "Integrated study (2)",
+      "operation": "Lecture Practical training",
+      "assignments": "Review: Review of lecture content",
+      "minutes": "60"
+    },
+    {
+      "index": "14",
+      "content": "Integrated study (3) Final exam",
+      "operation": "Lecture Practical training",
+      "assignments": "Review: Review of lecture contents from week 1 to week 13.",
+      "minutes": "60"
+    },
+    {
+      "index": "15",
+      "content": "Debriefing of final exam General discussion",
+      "operation": "Lecture Practical training Final self-reflection",
+      "assignments": "Review: Review of lecture content",
+      "minutes": "60"
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　C008-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Information and Computer Science\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                プログラミングⅢ（再履修クラス）\n                Programming III\n\n              1\n              C008-01\n\n                2026年度\n\n                1st year 1st semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  MOTOKI Mitsuo\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Java\n2.compile\n3.Dynamic typing programming language\n\n              In this course, student learn basic programming in Java which is often used in web systems.  Specifically, it contains the followings: understanding the basic of Java that requires  compiling and static typing variables, writing simple programs, and how to execute Java programs.\n\n              授業の概要および学習上の助言\n\n              Students learn basic of programming with compiling and static typing variables, by using Java with comparing with Python.\n\nContents of Java:\n(1) The basic of writing Java program and executing programs\n(2) Concept of variables with typing\n(3) The grammar of Java and typical programming method for Java\n\n              教科書および参考書・リザーブドブック\n\n              (See the Japanese syllabus.)\n\n              履修に必要な予備知識や技能\n\n              The precedent course: Programming I\n- Students have to bring own laptop computer, AC adopter, and network cable for software installation, download of course materials, and upload of answer of quizzes\n- PC operation skills (such as touch typing, file operation, etc.) are necessary to write program smoothly\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                I,J,K\n                Be able to explain necessary operations step by step to execute Java programs\n\n                ②\n                I,J,K\n                Be able to write Java programs using typing of variables appropriately\n\n                ③\n                I,J,K\n                Be able to write Java programs with conditional branches appropriately\n\n                ④\n                I,J,K\n                Be able to write Java programs with loops appropriately\n\n                ⑤\n                I,J,K\n                Be able to write Java programs using arrays appropriately\n\n                ⑥\n                I,J,K\n                Be able to write Java programs using methods appropriately\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                40\n\n                60\n\n                0\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                40\n\n                60\n\n                0\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                40\n\n                60\n\n                0\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  コラボレーションとリーダーシップ\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  発表・表現・伝達する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n          ",
-  "courseId": "2026:spring:C008-01:0:615",
+  "rawText": "金沢工業大学 学習支援計画書 F305-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Psychological Science(2018〜)\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n心理学データ解析基礎\nElements of Psychological Data Analysis  2 F305-01  2024年度\n 1st year 1st semester  修学規程第4条を参照\n    担当教員名\n TANAKA Koji\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Spreadsheet 2.Data processing 3.Functions 4.Basic statistics 5.Creating figures and tables  Through practical training using spreadsheet software (Excel) students will: ・ Be able to understand data processing and chart creation. ・ Be able to understand how to use functions. ・ Be able to understand basic statistics.\n    授業の概要および学習上の助言   The data analysis courses of the Department of Psychological Science aim to teach the knowledge and skills necessary to analyze data obtained from psychological experiments. In particular, this course will teach students about data processing using the spreadsheet software Excel. The course is conducted with lectures and practical training. In order to spend as much time as possible on the practical training, students are required to prepare for the class, and they are required to understand the contents through preparation and to confirm their understanding through practical training during the course. If students do not understand the information during class time, they should deal with it as soon as possible by using office hours. This course will focus on the following topics: 1. Spreadsheet software (Excel) basic technology: data processing, creating figures and tables 2. How to use Excel functions 3. Concepts of basic statistics: mean, median, mode, maximum, minimum, variance, standard deviation, skewness, kurtosis * Be sure to bring a computer to each class as you will be using the spreadsheet software (Excel)\n    教科書および参考書・リザーブドブック   none\n    履修に必要な予備知識や技能   Students must to bring a personal computer to each class to do the practical training every week. There are many opportunities to use data analysis in psychology, so students should look for solutions with an awareness of the problem.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① H,J Ability to perform basic Excel operations.   ② H,J Ability to create figures and tables using Excel.   ③ H,J Ability to calculate using Excel functions.   ④     ⑤     ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 30 0 50 0 0 0 20 100     指標と評価割合 総合評価割合 30 0 50 0 0 0 20 100   総合力指標 知識を取り込む力 30 0 50 0 0 0 20 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ The midterm exam will be conducted during the 7th week. The final exam will be conducted during the 14th week. The exam will confirm students’ understanding of the curriculum. The exams account for 30% of the final grade.   ② レ   ③ レ   ④     ⑤     ⑥     クイズ\n小テスト ①      ②     ③     ④     ⑤     ⑥     レポート ① レ Small report: conducted during classes and/or as homework. Report: conducted as an assignment during lectures and/or as homework. Reports account for 50% of the final grade.   ② レ   ③ レ   ④     ⑤     ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ① レ Attitude, participation in discussions, and status of report submission (strict adherence to submission deadline) will be evaluated. This accounts for 20% of the final grade.   ② レ   ③ レ   ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     Students will be able to understand the basic operations of spreadsheet software (Excel). Furthermore, they will be able to select and use basic statistics using functions. Students will be able to create figures and tables suitable for the information that they would like to express. Students will be able to understand the basic operations of spreadsheet softwa",
+  "courseId": "2024:spring:F302-01:0:615",
   "language": "en"
 }

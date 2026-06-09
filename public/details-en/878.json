@@ -1,42 +1,28 @@
 {
   "sourceIndex": 878,
   "sourceUrl": "/opsyllabus/kitos0110/878/1",
-  "importedAt": "2026-06-08T09:34:11.410Z",
-  "title": "環境土木工学設計Ⅰ",
-  "subtitle": "Design in Civil and Environmental Engineering I",
-  "courseType": "Major ProgramMajor Courses",
-  "credits": "2",
-  "term": "2026年度\n\n                1st year 2nd semester",
+  "importedAt": "2026-06-09T01:29:27.306Z",
+  "title": "ドローンプログラミング(夏期集中講義)",
+  "subtitle": "Drone Programming",
+  "courseType": "(Provided by all courses)\nLiberal Arts Courses\nTransdisciplinary Learning",
+  "credits": "1",
+  "term": "2024年度",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "TAKAHASHI Shigeki"
+    "TAKAGO Daisuke"
   ],
   "keywords": [
-    "Field of civil engineering",
-    "Civil engineering industry",
-    "Construction history",
-    "Career pass",
-    "Regional alliances"
+    "Drone 2.Python 3.Video processing 4.MultiProcessing 5.Networking"
   ],
-  "educationalGoal": "Students will:\n(1) systematically understand the curriculum studied in the undergraduate and graduate programs of the dept of civil and environmental engineering.\n(2) be conscious of learning objectives and set targets as an engineer.\n(3) understand the scheme of the construction industry.\n(4) understand the history of civil engineering from the past to the future.\n(5) design their own career paths, including graduate school.",
-  "advice": "This is a basic course in the study of civil and environmental engineering. We will cover the following topics:\n\n1. Understanding the content areas and flow of subjects studied in the department of civil and environmental engineering\n2. Understanding what civil engineering entails\n3. Understanding trends of civil engineering from the past to the future\n4. Understanding civil engineering technologies applied in the development of the Hokuriku region, the whole country of Japan, Asian nations, and the world, and the spirit of the engineers engaged in that development\n\nStudents are required to actively participate in class.\n\nThis learning is useful for all subjects.",
+  "educationalGoal": "In this course, students learn how to program and control a small drone (Ryze Tech. Tello) using Python.",
+  "advice": "Create a multi-process program that communicates with Tello via UDP according to the specifications published by Ryze Tech to control the aircraft and acquire aircraft information. The program is designed to communicate with Tello via UDP in accordance with the specifications published by Ryze Tech. 【Development environment】 Operating system: Linux Language: Python3 (mainly used modules: socket, multiprocessing, opencv, pygame, matplotlib) 【Notes】 The course assumes that students have a good understanding of the basics of Python, so no explanations will be given in class. The course covers a wide range of topics in a short period of time, so students are expected to prepare for and review the class slides and programs thoroughly before attending each class.",
   "books": "",
-  "requiredKnowledge": "Students must have attended Basic Style for Study A and Introduction to Engineering (Civil Environmental Engineering) lectures.",
+  "requiredKnowledge": "Python basics: (1) Variables and lists, (2) Conditional branching, (3) Iteration, (4) Function definition and calling, (5) Using modules) Experience with programming text editors such as VisualStudio Code Experience with Linux",
   "activityGoals": [
     {
       "index": "①",
-      "type": "J,K,L,M",
-      "body": "Students will be acquainted with the flow of the undergraduate and graduate curricula. [0.1J,0.1K,0.1L,0.1M]"
-    },
-    {
-      "index": "②",
-      "type": "I",
-      "body": "tudents will be acquainted with the construction industry.  [0.3I]"
-    },
-    {
-      "index": "③",
-      "type": "A",
-      "body": "Students can plan their own career paths. [0.3A]"
+      "type": "H",
+      "body": "The student understands the basic program given and is able to make modifications as required."
     }
   ],
   "evaluationWeights": [
@@ -44,19 +30,19 @@
       "label": "総合評価割合",
       "values": [
         "0",
-        "15",
-        "70",
         "0",
         "0",
-        "10",
-        "5",
+        "0",
+        "0",
+        "0",
+        "100",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -67,19 +53,19 @@
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
         "0",
-        "15",
-        "70",
         "0",
         "0",
-        "10",
-        "5",
+        "0",
+        "0",
+        "0",
+        "100",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -90,19 +76,19 @@
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
         "0",
-        "15",
-        "70",
         "0",
         "0",
-        "10",
-        "5",
+        "0",
+        "0",
+        "0",
+        "100",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -123,9 +109,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -133,7 +119,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -146,9 +132,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -169,9 +155,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -180,118 +166,62 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "Explain the general field of civil engineering.",
-    "standard": "Understand general field of civil engineering."
+    "ideal": "Students can freely control the drone through multi-process parallel processing.",
+    "standard": "Students can control drones through multi-process parallel processing."
   },
   "clipProcess": "",
   "lessons": [
     {
       "index": "1",
-      "content": "Guidance\nIntroduce several historical projects.",
-      "operation": "Lecture and printed matter",
-      "assignments": "Review the guidance",
-      "minutes": "30"
+      "content": "Before Programming - How to use PC - How to connect Tello to PC - Flight Practice - How drones work",
+      "operation": "lectures and exercises",
+      "assignments": "preparation review",
+      "minutes": "100 100"
     },
     {
       "index": "2",
-      "content": "Civil engineering industry (1)\n- Sabo",
-      "operation": "Lecture and Video material",
-      "assignments": "Preview: Study what the\nSabo is.\nReview the lecture",
-      "minutes": "60\n\n40"
+      "content": "Network Programming (UDP) After understanding the protocols provided by the Tello, learn how to communicate with the drone via UDP socket using the Python's socket module.",
+      "operation": "lectures and exercises",
+      "assignments": "preparation review",
+      "minutes": "100 100"
     },
     {
       "index": "3",
-      "content": "Civil engineering industry (2)\n- River control and Dam construction.",
-      "operation": "Lecture",
-      "assignments": "Preview: Study about previous\nflooding record.\nReview the lecture",
-      "minutes": "60\n\n40"
+      "content": "Video Processing Programming Using Python's opencv module, display the H.264 video stream sent from the drone on a PC screen.",
+      "operation": "lectures and exercises",
+      "assignments": "preparation review",
+      "minutes": "100 100"
     },
     {
       "index": "4",
-      "content": "Civil engineering industry (3)\n- Power plants",
-      "operation": "Lecture",
-      "assignments": "Preview: Current issue about\nluck of power supply in Japan.\nReview the lecture",
-      "minutes": "60\n\n40"
+      "content": "Gamepad Programming Using Python's pygame module, you will learn how to read information (buttons and axes) from a USB gamepad and use it.",
+      "operation": "lectures and exercises",
+      "assignments": "preparation review",
+      "minutes": "100 100"
     },
     {
       "index": "5",
-      "content": "Study a famous civil engineer and achievement.",
-      "operation": "Video material (On-demand)",
-      "assignments": "Report submission",
-      "minutes": "100"
+      "content": "Waveform Plot Programming The matplotlib module of Python is used to display the information (attitude, altitude, battery level, etc.) sent from the drone.",
+      "operation": "lectures and exercises",
+      "assignments": "preparation review",
+      "minutes": "100 100"
     },
     {
       "index": "6",
-      "content": "Civil engineering industry (4)\n- Transportation",
-      "operation": "Lecture",
-      "assignments": "Preview: National development\npolicy. Show your opinion.\nReview the lecture",
-      "minutes": "60\n\n40"
+      "content": "Multi-processing programming Using Python's multiprocessing module, multiple tasks (i.e., (1) joypad input, (2) drone control, (3) visualization of drone information, and (4) display of video streams.)",
+      "operation": "lectures and exercises",
+      "assignments": "preparation review",
+      "minutes": "100 100"
     },
     {
       "index": "7",
-      "content": "Mid term Test",
-      "operation": "Paper test to check your\nunderstandings in the\nprevious lectures.\nSubmit your study note.",
-      "assignments": "Review of previous lectures\nSelf check study",
-      "minutes": "120\n30"
-    },
-    {
-      "index": "8",
-      "content": "Water supply & sanitary",
-      "operation": "Lecture and Video material",
-      "assignments": "Preview: Study the given slide\ns\nReview the lecture",
-      "minutes": "60\n\n40"
-    },
-    {
-      "index": "9",
-      "content": "International projects in civil engineering",
-      "operation": "Lecture and Video material",
-      "assignments": "Preview: Case study of\ninternational project\nReview the lecture",
-      "minutes": "60\n\n40"
-    },
-    {
-      "index": "10",
-      "content": "Special Lecture (1), presentation by senior\nexpert engineers",
-      "operation": "Lecture",
-      "assignments": "report submission",
+      "content": "Free time Time for flight experiments (each student will m odify the program and make the drone fly.)",
+      "operation": "lectures and exercises",
+      "assignments": "review",
       "minutes": "100"
-    },
-    {
-      "index": "11",
-      "content": "Environmental issues (1)\n- Industrial pollution, environmental\nAssessment and protection of Buried Cultural\nProperties.",
-      "operation": "Lecture",
-      "assignments": "Preview: study some previous\nindustrial pollution.\nReview the lecture",
-      "minutes": "60\n\n40"
-    },
-    {
-      "index": "12",
-      "content": "Environmental issues (2)\n- Global warming and Climate change",
-      "operation": "Lecture and Video material",
-      "assignments": "Preview: Study the climate\nchange issue\nReview the lecture",
-      "minutes": "60\n\n40"
-    },
-    {
-      "index": "13",
-      "content": "Special Lecture (2), presentation by senior\nexpert engineer",
-      "operation": "Lecture",
-      "assignments": "report submission",
-      "minutes": "100"
-    },
-    {
-      "index": "14",
-      "content": "Final test\nSummary",
-      "operation": "Paper test to check your\nunderstandings in the\nprevious lectures.\nSubmit your study note.",
-      "assignments": "Review the series of this\nclass contents\nSelf check study",
-      "minutes": "120\n\n30"
-    },
-    {
-      "index": "15",
-      "content": "Career paths designing\n- Job introduction by several professional civil\n engineers.",
-      "operation": "Lecture\nreport submission",
-      "assignments": "Preview: job analysis based on\n your interest.\nReview: collecting further job\n information.\nunderstanding up-coming class\nin next year and research proj\nects.",
-      "minutes": "60\n\n60"
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　K505-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Civil and Environmental Engineering\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                環境土木工学設計Ⅰ\n                Design in Civil and Environmental Engineering I\n\n              2\n              K505-01\n\n                2026年度\n\n                1st year 2nd semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  TAKAHASHI Shigeki\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Field of civil engineering\n2.Civil engineering industry\n3.Construction history\n4.Career pass\n5.Regional alliances\n\n              Students will:\n(1) systematically understand the curriculum studied in the undergraduate and graduate programs of the dept of civil and environmental engineering.\n(2) be conscious of learning objectives and set targets as an engineer.\n(3) understand the scheme of the construction industry.\n(4) understand the history of civil engineering from the past to the future.\n(5) design their own career paths, including graduate school.\n\n              授業の概要および学習上の助言\n\n              This is a basic course in the study of civil and environmental engineering. We will cover the following topics:\n\n1. Understanding the content areas and flow of subjects studied in the department of civil and environmental engineering\n2. Understanding what civil engineering entails\n3. Understanding trends of civil engineering from the past to the future\n4. Understanding civil engineering technologies applied in the development of the Hokuriku region, the whole country of Japan, Asian nations, and the world, and the spirit of the engineers engaged in that development\n\nStudents are required to actively participate in class.\n\nThis learning is useful for all subjects.\n\n              教科書および参考書・リザーブドブック\n\n              　\n\n              履修に必要な予備知識や技能\n\n              Students must have attended Basic Style for Study A and Introduction to Engineering (Civil Environmental Engineering) lectures.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                J,K,L,M\n                Students will be acquainted with the flow of the undergraduate and graduate curricula. [0.1J,0.1K,0.1L,0.1M]\n\n                ②\n                I\n                tudents will be acquainted with the construction industry.  [0.3I]\n\n                ③\n                A\n                Students can plan their own career paths. [0.3A]\n\n                ④\n\n                ⑤\n\n                ⑥\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                0\n\n                15\n\n                70\n\n                0\n\n                0\n\n                10\n\n                5\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                0\n\n                15\n\n                70\n\n                0\n\n                0\n\n                10\n\n                5\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                0\n\n                15\n\n                70\n\n                0\n\n                0\n\n                10\n\n                5\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  コラボレーションとリーダーシップ\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  発表・表現・伝達する力\n\n     ",
-  "courseId": "2026:fall:K505-01:0:878",
+  "rawText": "金沢工業大学 学習支援計画書 G266-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\n(Provided by all courses)\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     (Provided by all courses)\nLiberal Arts Courses\nTransdisciplinary Learning\nドローンプログラミング(夏期集中講義)\nDrone Programming  1 G266-01  2024年度\n   修学規程第4条を参照\n    担当教員名\n TAKAGO Daisuke\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Drone 2.Python 3.Video processing 4.MultiProcessing 5.Networking  In this course, students learn how to program and control a small drone (Ryze Tech. Tello) using Python.\n    授業の概要および学習上の助言   Create a multi-process program that communicates with Tello via UDP according to the specifications published by Ryze Tech to control the aircraft and acquire aircraft information. The program is designed to communicate with Tello via UDP in accordance with the specifications published by Ryze Tech. 【Development environment】 Operating system: Linux Language: Python3 (mainly used modules: socket, multiprocessing, opencv, pygame, matplotlib) 【Notes】 The course assumes that students have a good understanding of the basics of Python, so no explanations will be given in class. The course covers a wide range of topics in a short period of time, so students are expected to prepare for and review the class slides and programs thoroughly before attending each class.\n    教科書および参考書・リザーブドブック\n    履修に必要な予備知識や技能   Python basics: (1) Variables and lists, (2) Conditional branching, (3) Iteration, (4) Function definition and calling, (5) Using modules) Experience with programming text editors such as VisualStudio Code Experience with Linux\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① H The student understands the basic program given and is able to make modifications as required.   ②     ③     ④     ⑤     ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 0 0 0 0 0 0 100 100     指標と評価割合 総合評価割合 0 0 0 0 0 0 100 100   総合力指標 知識を取り込む力 0 0 0 0 0 0 100 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ①      ②     ③     ④     ⑤     ⑥     クイズ\n小テスト ①      ②     ③     ④     ⑤     ⑥     レポート ①      ②     ③     ④     ⑤     ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ① レ Check that the student understands the given program and makes modifications to it. Also, check that the drone is performing as expected with the modified program.   ②     ③     ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     Students can freely control the drone through multi-process parallel processing.  Students can control drones through multi-process parallel processing.\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習課題に要する標準的な時間を記載してあります。日々の自学自習時間全体としては、各授業に応じた時間(例えば2単位科目の場合、予習2時間・復習2時間/週)を取るよう努めてください。詳しくは教員の指導に従って下さい。     授業明細   回数 学習内容 授業の運営方法 学習課題(予習・復習) 時間:分※     1  Before Programming - How to use PC - How to connect Tello to PC - Flight Practice - How drones work lectures and exercises preparation review  100 100   2  Network Programming (UDP) After understanding the protocols provided by the Tello, learn how to communicate with the drone via UDP socket using the Python's socket module.  lectures and exercises preparation review  100 100   3  Video Processing Programming Using Python's opencv module, display the H.264 video stream sent from the drone on a PC screen. lectures and exercises preparation review  100 100   4  Gamepad Programming Using Python's pygame module, you will learn how to read information (buttons and axes) from a USB gamepad and use it. lectures and exercises preparation review  100 100   5  Waveform Plot Programming The matplotli",
+  "courseId": "2024:fall:G260-01:0:878",
   "language": "en"
 }

@@ -1,58 +1,48 @@
 {
   "sourceIndex": 63,
   "sourceUrl": "/opsyllabus/kitos0110/63/0",
-  "importedAt": "2026-06-08T09:21:04.196Z",
-  "title": "アドバンスト数理Ｂ",
-  "subtitle": "Advanced Mathematics B",
-  "courseType": "数理・DS・AI教育課程数理基礎科目数理基礎",
+  "importedAt": "2026-06-09T01:29:02.012Z",
+  "title": "Japanese Basics 1",
+  "subtitle": "Japanese Basics 1",
+  "courseType": "英語教育課程\n英語科目\n英語",
   "credits": "2",
-  "term": "2026年度\n\n                ２期（後学期）４期（後学期）",
+  "term": "2024年度\n 2期(後学期)",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "工藤　知草",
-    "北島　孝浩"
+    "藤井 清美"
   ],
   "keywords": [
-    "１階の微分方程式と解の性質",
-    "２階の線形同次微分方程式",
-    "２階の線形非同次微分方程式",
-    "連立線形微分方程式",
-    "現象の数学モデルと解の分析"
+    "Speaking 2.Listening 3.Reading 4.Writing"
   ],
-  "educationalGoal": "学習・教育目標\n工学や理学，社会科学の諸問題は微分方程式で記述される場合が多い．この科目では１階の\n常微分方程式,２階の定数係数線形微分方程式および連立微分方程式の解法について学習し,\n①現象の数学モデルを構成する方法，②具体的な解法と幾何学的な考え方，③解の性質や特\n徴を分析する方法を理解する．MATLABを活用して微分方程式の解析解や幾何学的な描像によ\nり，物理現象を分析する汎用的能力を培うためのプログラミングの基礎を学修する．",
-  "advice": "授業では，①１階の微分方程式，②２階の定数係数線形微分方程式（同次および非同次方程式），③１階の連立微分方程式\nと分類されるそれぞれの微分方程式に対して，\n（Ⅰ）物理的，社会的現象を微分方程式で表現する方法 （数学モデルの作成法）\n（Ⅱ）多様な形式の微分方程式を具体的に解く方法や解曲線、方向場により幾何学的に考える方法\n（Ⅲ）得られた解を分析し，変化のパターンや変動の速さなど，技術者(職業人)としての活動に必要な一連の情報を得る\n      分析手法を学ぶ．\nまた，主要な学習テーマを学んだ後，数式処理システムを用い，上述の（Ⅰ），（Ⅱ），（Ⅲ）の知識を応用するプロジェク\nト (Computing Project　全２回) を実施し，分析報告レポートの提出を求める．\n授業では，次の活動にMATLABを用いる．\n  １）微分方程式の解の可視化と幾何学的な考え方\n  ２）微分方程式のパラメータを設定し評価する．\n  ３）物理現象をモデル化し，その解の導出や分析を行う．\nしたがって，予め MATLAB を自分のノートPCにインストールし，基本的な使用法に習熟しておくとよい．(MATLABをインスト\nールする際，インストールするアプリケーションモジュール(複数)の中に“SymbolicMath Toolbox”を含ませておくこと．)",
-  "books": "教科書：技術者のための高等数学1 常微分方程式（原書第8版）[培風館]\n参考書：Advanced Engineering Mathematics, 10th Edition[Wiley]\nﾘｻﾞｰﾌﾞﾄﾞﾌﾞｯｸ：指定なし",
-  "requiredKnowledge": "関数のグラフ，微分，積分，線形代数に関する科目を履修しておくこと．\nまた，応用プロジェクトではMathWorks社の技術計算言語MATLABを使用するため，操作に習熟しておくことが望ましい．\n（MATLAB の基本的な使用法については資料を配布する．）",
+  "educationalGoal": "This course is a continuation of Japanese Communication 1 and aims to help student s develop the four basic skills of communication in modern Japanese. Students will learn the Japanese writing system, fundamental grammatical structures of Japanese , and practice simple conversational skills such as make a request or suggestion a nd talk about family members. Students will also be familiar with various aspects of Japanese culture including sociolinguistic facts about accurate communication.",
+  "advice": "The class will be conducted using the following topics: Lesson 6 A day in Robert’s Life Lesson 7 Family Picture Lesson 8 Barbecue Lesson 9 Kabuki Lesson 10 Winter Vacation Plans This class has a Moodle course management site (https://e-learn01.mars.kanazawa-it.ac.jp/). All information abou t course related materials, such as assignments, will be posted on this site. It is your responsibility to check the site regularly to keep track of what is going on in the course.",
+  "books": "教科書:Genki 1 Workbook[ジャパンタイムズ出版]、Genki 1: An Integraded Course in Elementary Japanese, Third Edit ion[ジャパンタイムズ出版] 参考書:指定なし リザーブドブック:指定なし",
+  "requiredKnowledge": "Japanese Communication 1 with a grade of C or higher. Transfer students or students seeking to take this course after a break of one semester or more from their study of Japanese must take a placement test. Talk to the head instructor immediately if you need to take the placement test.",
   "activityGoals": [
     {
       "index": "①",
-      "type": "D",
-      "body": "対象となる現象から１階の微分方程式を構成でき，解を求めることができる．"
+      "type": "C",
+      "body": "Read and write the Japanese writing system (hiragana, katakana, and kanji) ."
     },
     {
       "index": "②",
-      "type": "D",
-      "body": "対象となる現象から2階の線形微分方程式を構成でき，解を求めることができる．"
+      "type": "C",
+      "body": "For each topic, understand the meaning of important words and phrases and be able to use them correctly."
     },
     {
       "index": "③",
-      "type": "D",
-      "body": "対象となる現象から連立１階微分方程式を構成でき，解を求めることができる．"
+      "type": "C",
+      "body": "Understand fundamental grammatical structures."
     },
     {
       "index": "④",
-      "type": "D",
-      "body": "微分方程式から得た解を解釈し，現象の変動パターンや変化の速さ，収束値などを評価できる．"
+      "type": "C",
+      "body": "Have simple conversational skills such as introductions, describing"
     },
     {
       "index": "⑤",
-      "type": "C",
-      "body": "数学用語の英単語を理解し，英語で出題された問題に対応することができる．"
-    },
-    {
-      "index": "⑥",
       "type": "A",
-      "body": "毎回の授業に出席し，授業内容を理解し，宿題やレポート課題をやり遂げることができる．"
+      "body": "Develop effective study skills."
     }
   ],
   "evaluationWeights": [
@@ -60,19 +50,19 @@
       "label": "総合評価割合",
       "values": [
         "30",
-        "20",
-        "20",
-        "0",
-        "0",
-        "0",
         "30",
+        "30",
+        "0",
+        "0",
+        "0",
+        "10",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -83,19 +73,19 @@
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
         "30",
-        "20",
-        "20",
-        "0",
-        "0",
-        "0",
         "30",
+        "30",
+        "0",
+        "0",
+        "0",
+        "10",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -105,20 +95,20 @@
     {
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
-        "15",
+        "10",
+        "10",
         "10",
         "0",
         "0",
         "0",
         "0",
-        "10",
-        "35"
+        "30"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -128,20 +118,20 @@
     {
       "label": "思考・推論・創造する力",
       "values": [
-        "15",
+        "10",
         "10",
         "10",
         "0",
         "0",
         "0",
-        "10",
-        "45"
+        "0",
+        "30"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -149,7 +139,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -162,9 +152,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -174,20 +164,20 @@
     {
       "label": "発表・表現・伝達する力",
       "values": [
-        "0",
-        "0",
         "10",
         "0",
         "0",
         "0",
         "0",
-        "10"
+        "0",
+        "5",
+        "15"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -196,118 +186,125 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "①微分方程式とは何かを説明でき，解の幾何学的な性質や，\n一般解と特殊解の違いを正確に説明できる．\n②文章や図を用いて説明されている物理現象や社会現象を\n微分方程式を用いた数学モデルに正確に変換できる．\n③得られた１階微分方程式や高階微分方程式の構造を正確\nに分析することができ，適切な計算手法を選択できる．\n④求めた解を，グラフやその他の表現法を用いて提示する\nことができ，多様な方法で分り易く解の挙動を説明できる．\n⑤解の挙動を分析し，将来の状態の予測や，最適解を\n求めることができる．また，その理由を正確に説明できる．\n⑥全授業に出席し，授業内容の詳細を理解し，宿題と\nレポート課題を高い評価でやり遂げられる．",
-    "standard": "①微分方程式とは何かを説明でき，解の幾何学的な性質や一般\n解と特殊解の違いを説明できる．\n②文章や図を用いて説明されている物理現象や社会現象を微分\n方程式を用いた数学モデルに変換できる．\n③得られた１階微分方程式や２階微分方程式の構造を調べ，適\n切な計算手法を選択でき，解を求めることができる．\n④求められた解を，グラフやその他の表現法を用いて提示する\nことができ，解の挙動を調べることができる．\n⑤解の挙動を分析し，将来の状態の予測や，最適解を\n求めることができる．\n⑥毎回の授業に出席し，授業内容を理解し，宿題とレポート課\n題をやり遂げることができる．"
+    "ideal": "- Accurately read and write the Japanese writing system (hiragana, katakana, and kanji). - For each topic, understand the meaning of important w ords and phrases and be able to use them appropriately i n context. - Understand fundamental grammatical structur es and appl y that knowledge appropriately in context. - Appropriately exhibit conversational skills for speech acts such as introductions and describing things. - Develop effective study skills.",
+    "standard": "- Read and write the Japanese writing system (hiragana, katakana, and kanji). - For each topic, understand the meaning of important wo rds and phrases. - Understand fundamental grammatical structures. - Understand conversational skills necessary for speech acts such as introductions and describing things. - Understand effective study skills."
   },
   "clipProcess": "",
   "lessons": [
     {
-      "index": "第１週",
-      "content": "・ガイダンス\n・1階微分方程式の基本的な諸概念\n・1階微分方程式の幾何学的意味と方向場",
-      "operation": "・科目ガイダンス\n・講義，例題の解説\n・演習",
-      "assignments": "【復習】\n1階微分方程式の基本的な諸概念\nおよび幾何学的意味と方向場を理\n解する．\n\n【予習】\n教科書(pp.19〜26)を読み，分離\n可能な微分方程式，モデル化：分\n離可能な方程式について予習する\n．",
-      "minutes": "60\n\n30"
+      "index": "1",
+      "content": "Course Orientation - Review",
+      "operation": "Lecture",
+      "assignments": "",
+      "minutes": ""
     },
     {
-      "index": "第２週",
-      "content": "・分離可能な微分方程式\n・変数分離型への変換\n・モデル化：分離可能な微分方程式",
-      "operation": "・講義，例題の解説\n・演習",
-      "assignments": "【復習】\n分離可能な微分方程式，モデル化\nについての問題を解き，学習内容\nで不確実な点を復習する．\n\n【予習】\n教科書(pp.29〜35)を読み，完全\n微分方程式：積分因子について予\n習する．",
-      "minutes": "60\n\n30"
+      "index": "2",
+      "content": "Lesson 6 - Grammar 1-2 (pp.150-151) Kanji (p.318)",
+      "operation": "Active learning & Self ref lection",
+      "assignments": "Review - Grammar 1-2 (pp.150-151) Preview - Grammar 3-5 (pp.151-152) Study for Quiz1 (Verbs) WB 1 (pp.61,62)",
+      "minutes": ""
     },
     {
-      "index": "第３週",
-      "content": "・完全微分方程式：積分因子",
-      "operation": "・講義，例題の解説\n・演習",
-      "assignments": "【復習】\n完全微分方程式についての問題を\n解き，学習内容で不確実な点を復\n習する．\n\n【予習】\n教科書(pp.37〜42)を読み，線形\n微分方程式：ベルヌーイの方程式\nについて予習する．",
-      "minutes": "60\n\n30"
+      "index": "3",
+      "content": "Quiz 1: Vocabulary (Verbs, pp.148‐149) Lesson 6 - Dialogue (pp.146‐147) - Grammar 3‐5 (pp.151‐152) - Kanji (p.318)",
+      "operation": "Active learning & Self ref lection",
+      "assignments": "Review - Grammar 3‐5 (pp.151‐152) Preview - Grammar 6‐7 (p.153) - Study for Quiz 2 (Nouns adje ctives, others) Language Project Proposal WB 2 (pp.63, 64, 65)",
+      "minutes": ""
     },
     {
-      "index": "第４週",
-      "content": "・線形微分方程式\n・ベルヌーイの方程式",
-      "operation": "・講義，例題の解説\n・演習",
-      "assignments": "【復習】\n・線形微分方程式，ベルヌーイの\n方程式についての問題を解き，学\n習内容で不確実な点を復習する．\n\n【予習】\n教科書を読み，モデル化の例(pp.\n38〜39：混合問題，pp.41〜42：\n人口動態，p.46〜p.51：電気回路\n)について予習する．",
-      "minutes": "60\n\n30"
+      "index": "4",
+      "content": "Language Project Proposal Quiz 2: Vocabulary (Nouns adjectives, others, p. 148‐149) Lesson 6 - Grammar 6‐7 (p.153) - Reading (pp.321‐323) - Kanji (p.319)",
+      "operation": "Active learning & Self ref lection",
+      "assignments": "Review - 6‐7 (p.153) Preview - Dialogue (pp.166‐167) - Grammar 1‐3 (pp.170‐173) Study for Quiz 3 (Adjectives & Verbs, pp.168‐169) WB 3 (pp.66)",
+      "minutes": ""
     },
     {
-      "index": "第５週",
-      "content": "・モデル化：混合問題，人口動態，電気回路，その他",
-      "operation": "・講義，例題の解説\n・演習",
-      "assignments": "【復習】\n・モデル化についての問題を解き\n，学習内容で不確実な点を復習す\nる．\n・小テスト1のための総復習\n\n【予習】\nMATLABの基本的な使い方を予習す\nる．",
-      "minutes": "90\n\n30"
+      "index": "5",
+      "content": "Quiz 3: Vocabulary (Adjectives & Verbs, pp.168‐ 169) Lesson 7 - Dialogue (pp.166‐167) - Grammar 1‐3 (pp.170‐173) - Kanji (p.324)",
+      "operation": "Active learning & Self ref lection",
+      "assignments": "Review - Grammar 5‐7 (p.62‐64) Preview - Grammar 4‐6 (pp.173‐175) Study for Quiz 4 (Nouns & othe rs, pp.168‐169) WB4 (pp.70,71,72)",
+      "minutes": ""
     },
     {
-      "index": "第６週",
-      "content": "・小テスト1（範囲：第1〜5回）\n・MATLABを用いたコンピューティング・プロジェクト\n(第1回)．授業には，MATLABをインストールしたノー\nトPC，電源アダプタ，LANケーブルを忘れずに持参す\nること．",
-      "operation": "・小テスト1の実施\n・コンピューティング・プロ\nジェクト(第1回)の実施．",
-      "assignments": "【復習】\nコンピューティング・プロジェク\nトについての不確実な点を復習す\nる．",
-      "minutes": "60"
+      "index": "6",
+      "content": "Quiz 4: Vocabulary (Nouns & others, pp.168‐169) Lesson 7 - Grammar 4‐6 (pp.173‐175) - Kanji (p.325) - Reading (pp.327‐328)",
+      "operation": "Active learning & Self ref lection",
+      "assignments": "Review - Grammar 4‐6 (pp.173‐175) Study for Test 1 Language Project Mid‐report",
+      "minutes": ""
     },
     {
-      "index": "第７週",
-      "content": "・MATLABを用いたコンピューティング・プロジェクト\n(第1回)[前回のつづき]．授業には，MATLABをインス\nトールしたノートPC，電源アダプタ，LANケーブルを\n忘れずに持参すること．",
-      "operation": "・小テスト1の解説と自己点\n検\n・コンピューティング・プロ\nジェクト(第1回)の実施．",
-      "assignments": "【復習】\n小テスト1を振り返り点検する．\nコンピューティング・プロジェク\nトの解析レポートを執筆・完成す\nる．\n\n【予習】\n教科書を読み，2階同次線形微分\n方程式(pp.70〜85)，自由振動（\n質量‐ばね系）(pp.89〜95)につ\nいて予習する．",
-      "minutes": "90\n\n30"
+      "index": "7",
+      "content": "Test 1 Speaking Test 1 Language Project Mid‐report",
+      "operation": "Active learning & Self ref lection",
+      "assignments": "Preview - Grammar 1‐4 (pp.190‐193) Study for Quiz 5 (Adjectives & Verbs, pp.188‐189)",
+      "minutes": ""
     },
     {
-      "index": "第８週",
-      "content": "・2階の同次線形微分方程式\n・定数係数の2階同次方程式\n・複素根の場合，複素指数関数\n・モデル化：自由振動（質量‐ばね系)，その他（調\n和振動，減衰振動の他のモデル）",
-      "operation": "・講義，例題の解説，演習\n・プロジェクトレポート(No.\n1)の収集",
-      "assignments": "【復習】\n2階同次線形微分方程式について\nの問題を解き，学習内容で不確実\nな点を復習する．\n\n【予習】\n教科書(pp.102〜112)を読み，解\nの存在と一意性の理論，ロンスキ\n行列式，非同次方程式，未定係数\n法について予習する．",
-      "minutes": "60\n\n60"
+      "index": "8",
+      "content": "Quiz 5: Vocabulary (Adjectives & Verbs, pp.188‐ 189) Lesson 8 - Dialogue (pp.186‐187) - Grammar 1‐4 (pp.190‐193) - Kanji (p.329)",
+      "operation": "Active learning & Self ref lection",
+      "assignments": "Review - Grammar 1‐4 (pp.190‐193) Preview - Grammar 5‐8 (pp.194‐196) Study for Quiz 6 (Nouns & othe rs, pp.188‐189) WB6 (pp.79,80,81)",
+      "minutes": ""
     },
     {
-      "index": "第９週",
-      "content": "・解の存在と一意性の理論，ロンスキ行列式\n・非同次方程式\n・未定係数法",
-      "operation": "・講義，例題の解説\n・演習",
-      "assignments": "【復習】\n学習内容についての問題を解き，\n不確実な点を復習する．\n\n【予習】\n教科書を読み，定数変化法(pp.11\n4〜116)，モデル化：強制振動・\n共振(pp.117〜122)について予習\nする．",
-      "minutes": "60\n\n60"
+      "index": "9",
+      "content": "Quiz 6: Vocabulary (Nouns & others, pp.188‐189) Lesson 8 - Grammar 5‐8 (pp.194‐196) - Kanji (p.330) - Reading (pp.332‐333)",
+      "operation": "Active learning & Self ref lection",
+      "assignments": "Review - Grammar 5‐8 (pp.194‐196) Preview - Grammar 1‐4 (pp.214‐216) Study for Quiz 7 (Adjectives & Verbs, pp.212‐213) WB7 (pp.82,83,84)",
+      "minutes": ""
     },
     {
-      "index": "第１０\n週",
-      "content": "・定数変化法\n・モデル化：強制振動，共振",
-      "operation": "・講義，例題の解説\n・演習",
-      "assignments": "【復習】\n未定係数法についての問題を解き\n，学習内容で不確実な点を復習す\nる．小テスト2のための総復習．\n\n【予習】\n教科書(p.154〜p.159)を読み，連\n立微分方程式に必要なベクトル・\n行列の概念を復習しておく．",
-      "minutes": "90\n\n30"
+      "index": "10",
+      "content": "Quiz 7: Vocabulary (Adjectives & Verbs, pp.212‐ 213) Lesson 9 - Dialogue (pp.210‐211) - Grammar 1‐4 (pp.214‐216) - Kanji (p.334)",
+      "operation": "Active learning & Self ref lection",
+      "assignments": "Review - Grammar 1‐4 (pp.214‐216) Preview - Lesson 5 (pp.128‐134) Study for Quiz 8 (Nouns & othe rs, pp.212‐213) WB8 (pp.88,89.90)",
+      "minutes": ""
     },
     {
-      "index": "第１１\n週",
-      "content": "・小テスト2（範囲：第8〜10回）\n・ベクトル，行列，固有値",
-      "operation": "・小テスト2の実施\n・講義，例題の解説\n・演習",
-      "assignments": "【復習】\n学習内容についての問題を解き，\n不確実な点を復習する．\n\n【予習】\n教科書(pp.160〜166)における連\n立微分方程式のモデル化の項目を\n読み予習する．",
-      "minutes": "60\n\n60"
+      "index": "11",
+      "content": "Quiz 8: Vocabulary (Nouns & others, pp.212‐213) Lesson 9 - Grammar 5‐7 (pp.216‐218) - Kanji (p.335) - Reading (pp.336‐338)",
+      "operation": "Active learning & Self ref lection",
+      "assignments": "Review - Grammar 5‐7 (pp.216‐218) Preview - Grammar 5‐7 (pp.216‐218) Study for Quiz 9 (Nouns p.232) WB9 (pp.91,92,93)",
+      "minutes": ""
     },
     {
-      "index": "第１２\n週",
-      "content": "・連立微分方程式\n・モデル化：連成振動，電気回路網，混合問題，その\n他",
-      "operation": "・小テスト2の解説と自己点\n検\n・講義，例題の解説\n・演習",
-      "assignments": "【復習】\n小テスト2を振り返り点検する．\n連立微分方程式についての問題を\n解き，学習内容で不確実な点を復\n習する．\n\n【予習】\nノートPCでMATLABが動作すること\nを確認しておく．MATLABの基本的\n操作法を復習しておく．",
-      "minutes": "60\n\n60"
+      "index": "12",
+      "content": "Quiz 9: Vocabulary (Nouns p.232) Lesson 10 - Dialogue (pp.230‐231) - Grammar 1, 2 (pp.234‐235) - Kanji (p.340)",
+      "operation": "Active learning & Self ref lection",
+      "assignments": "Review - Grammar 1,2 (pp.234‐235) Preview - Grammar 3‐5 (pp.235‐237) Study for Quiz 10 (p.131) WB10 (pp.96,97)",
+      "minutes": ""
     },
     {
-      "index": "第１３\n週",
-      "content": "・MATLABを用いたコンピューティング・プロジェクト\n(第２回)．授業には，MATLABをインストールしたノー\nトPC，電源アダプタ，LANケーブルを忘れずに持参す\nること．",
-      "operation": "コンピューティング・プロジ\nェクト(第２回)の実施",
-      "assignments": "【復習】\nコンピューティング・プロジェク\nトの解析レポートを執筆・完成す\nる．\n期末試験のための総復習",
-      "minutes": "120"
+      "index": "13",
+      "content": "Quiz 10: Vocabulary (p.233) Lesson 10 - Grammar 3‐5 (pp.235‐237) - Kanji (p.340)",
+      "operation": "Active learning & Self ref lection",
+      "assignments": "Review - Grammar 3‐5 (pp.235‐237) Preview - Grammar 6‐7 (p.237‐238) WB11 (pp.98,99,100)",
+      "minutes": ""
     },
     {
-      "index": "第１４\n週",
-      "content": "・学習内容の総復習\n・期末試験",
-      "operation": "第1〜5,8〜12回授業の学習内\n容について復習\n達成度確認試験を実施（範囲\n：第1〜5,8〜12回）\nプロジェクトレポート(No.2)\nの収集",
-      "assignments": "【振り返り学習】\n教科書や授業で配付された資料等\nを参照しながら，期末試験で解答\nできなかった分野について再度復\n習する．",
-      "minutes": "60"
+      "index": "14",
+      "content": "Lesson 10 - Grammar 6‐7 (p.237‐238) - Kanji (p.340) Reading (pp.343‐345)",
+      "operation": "Active learning & Self ref lection",
+      "assignments": "Review Study for Test 2 and Speaking Test Prepare for Presentation WB12 (pp100.101)",
+      "minutes": ""
     },
     {
-      "index": "第１５\n週",
-      "content": "・期末試験の返却・解説\n・自己点検授業",
-      "operation": "・出席，提出物等の確認\n・期末試験の解答についての\n解説・講評\n・成績評価についての説明\n・アンケートの実施",
-      "assignments": "期末試験の結果を振り返り，重要\nな概念等を再確認する．",
+      "index": "15",
+      "content": "Test 2: Lesson 3 4, and 5 Speaking Test 2 Presentation: Language Project",
+      "operation": "Active learning & Self ref lection",
+      "assignments": "",
+      "minutes": ""
+    },
+    {
+      "index": "15",
+      "content": "Self‐evaluation",
+      "operation": "Self‐reflection",
+      "assignments": "",
       "minutes": ""
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　G159-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    数理・DS・AI教育課程\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              数理・DS・AI教育課程数理基礎科目数理基礎\n\n                アドバンスト数理Ｂ\n                Advanced Mathematics B\n\n              2\n              G159-01\n\n                2026年度\n\n                ２期（後学期）４期（後学期）\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  工藤　知草、北島　孝浩\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.１階の微分方程式と解の性質\n2.２階の線形同次微分方程式\n3.２階の線形非同次微分方程式\n4.連立線形微分方程式\n5.現象の数学モデルと解の分析\n\n              工学や理学，社会科学の諸問題は微分方程式で記述される場合が多い．この科目では１階の\n常微分方程式,２階の定数係数線形微分方程式および連立微分方程式の解法について学習し,\n①現象の数学モデルを構成する方法，②具体的な解法と幾何学的な考え方，③解の性質や特\n徴を分析する方法を理解する．MATLABを活用して微分方程式の解析解や幾何学的な描像によ\nり，物理現象を分析する汎用的能力を培うためのプログラミングの基礎を学修する．\n\n              授業の概要および学習上の助言\n\n              授業では，①１階の微分方程式，②２階の定数係数線形微分方程式（同次および非同次方程式），③１階の連立微分方程式\nと分類されるそれぞれの微分方程式に対して，\n（Ⅰ）物理的，社会的現象を微分方程式で表現する方法 （数学モデルの作成法）\n（Ⅱ）多様な形式の微分方程式を具体的に解く方法や解曲線、方向場により幾何学的に考える方法\n（Ⅲ）得られた解を分析し，変化のパターンや変動の速さなど，技術者(職業人)としての活動に必要な一連の情報を得る\n      分析手法を学ぶ．\nまた，主要な学習テーマを学んだ後，数式処理システムを用い，上述の（Ⅰ），（Ⅱ），（Ⅲ）の知識を応用するプロジェク\nト (Computing Project　全２回) を実施し，分析報告レポートの提出を求める．\n授業では，次の活動にMATLABを用いる．\n  １）微分方程式の解の可視化と幾何学的な考え方\n  ２）微分方程式のパラメータを設定し評価する．\n  ３）物理現象をモデル化し，その解の導出や分析を行う．\nしたがって，予め MATLAB を自分のノートPCにインストールし，基本的な使用法に習熟しておくとよい．(MATLABをインスト\nールする際，インストールするアプリケーションモジュール(複数)の中に“SymbolicMath Toolbox”を含ませておくこと．)\n\n              教科書および参考書・リザーブドブック\n\n              教科書：技術者のための高等数学1 常微分方程式（原書第8版）[培風館]\n参考書：Advanced Engineering Mathematics, 10th Edition[Wiley]\nﾘｻﾞｰﾌﾞﾄﾞﾌﾞｯｸ：指定なし\n\n              履修に必要な予備知識や技能\n\n              関数のグラフ，微分，積分，線形代数に関する科目を履修しておくこと．\nまた，応用プロジェクトではMathWorks社の技術計算言語MATLABを使用するため，操作に習熟しておくことが望ましい．\n（MATLAB の基本的な使用法については資料を配布する．）\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                D\n                対象となる現象から１階の微分方程式を構成でき，解を求めることができる．\n\n                ②\n                D\n                対象となる現象から2階の線形微分方程式を構成でき，解を求めることができる．\n\n                ③\n                D\n                対象となる現象から連立１階微分方程式を構成でき，解を求めることができる．\n\n                ④\n                D\n                微分方程式から得た解を解釈し，現象の変動パターンや変化の速さ，収束値などを評価できる．\n\n                ⑤\n                C\n                数学用語の英単語を理解し，英語で出題された問題に対応することができる．\n\n                ⑥\n                A\n                毎回の授業に出席し，授業内容を理解し，宿題やレポート課題をやり遂げることができる．\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                30\n\n                20\n\n                20\n\n                0\n\n                0\n\n                0\n\n                30\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                30\n\n                20\n\n                20\n\n                0\n\n                0\n\n                0\n\n                30\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                15\n\n                10\n\n                0\n\n                0\n\n                0\n\n                0\n\n                10\n\n                35\n\n                  思考・推論・創造する力\n\n                    15\n\n                    10\n\n                    10\n\n                    0\n\n                    0\n\n                    0\n\n                    10\n\n                    45\n\n                  コラボレーションとリーダーシップ\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  発表・表現・伝達する力\n\n                    0\n\n                    0\n\n                    10\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    10\n\n                  学習に取組む姿勢・意欲\n\n         ",
-  "courseId": "2026:fall:G159-01:0:63",
+  "rawText": "金沢工業大学 学習支援計画書 G613-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\n英語教育課程\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     英語教育課程\n英語科目\n英語\nJapanese Basics 1\nJapanese Basics 1  2 G613-01  2024年度\n 2期(後学期)  修学規程第4条を参照\n    担当教員名\n 藤井 清美\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Speaking 2.Listening 3.Reading 4.Writing  This course is a continuation of Japanese Communication 1 and aims to help student s develop the four basic skills of communication in modern Japanese. Students will learn the Japanese writing system, fundamental grammatical structures of Japanese , and practice simple conversational skills such as make a request or suggestion a nd talk about family members. Students will also be familiar with various aspects of Japanese culture including sociolinguistic facts about accurate communication.\n    授業の概要および学習上の助言   The class will be conducted using the following topics: Lesson 6 A day in Robert’s Life Lesson 7 Family Picture Lesson 8 Barbecue Lesson 9 Kabuki Lesson 10 Winter Vacation Plans This class has a Moodle course management site (https://e-learn01.mars.kanazawa-it.ac.jp/). All information abou t course related materials, such as assignments, will be posted on this site. It is your responsibility to check the site regularly to keep track of what is going on in the course.\n    教科書および参考書・リザーブドブック   教科書:Genki 1 Workbook[ジャパンタイムズ出版]、Genki 1: An Integraded Course in Elementary Japanese, Third Edit ion[ジャパンタイムズ出版] 参考書:指定なし リザーブドブック:指定なし\n    履修に必要な予備知識や技能   Japanese Communication 1 with a grade of C or higher. Transfer students or students seeking to take this course after a break of one semester or more from their study of Japanese must take a placement test. Talk to the head instructor immediately if you need to take the placement test.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① C Read and write the Japanese writing system (hiragana, katakana, and kanji) .   ② C For each topic, understand the meaning of important words and phrases and be able to use them correctly.   ③ C Understand fundamental grammatical structures.   ④ C Have simple conversational skills such as introductions, describing   ⑤ A Develop effective study skills.   ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 30 30 30 0 0 0 10 100     指標と評価割合 総合評価割合 30 30 30 0 0 0 10 100   総合力指標 知識を取り込む力 10 10 10 0 0 0 0 30   思考・推論・創造する力 10 10 10 0 0 0 0 30   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 10 0 0 0 0 0 5 15   学習に取組む姿勢・意欲 0 10 10 0 0 0 5 25    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ Unit Exams - Unit Exams will cover all material addressed in each unit. The format and other details will be announced later in class. - There will also be a speaking portion included in the exams.    ② レ   ③ レ   ④ レ   ⑤     ⑥     クイズ\n小テスト ① レ Kana quizzes, vocabulary quizzes and kanji quizzes are given periodically. They will usually t ake place at the beginning of the class. See the course schedule for the details.   ② レ   ③ レ   ④ レ   ⑤     ⑥     レポート ① レ All assignments must be submitted at the beginning of class on the scheduled due date.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ① レ Students are required to complete a project of their own choosing. They must make three report s to the instructor. The first report will be the project proposal and you must have the instr uctor’s permission to start. The mid-term report must be submitted. The final report (complet ed project) must be submitted at the end of the course. Students will also be required to give a presentation of their completed project.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     - Accurately read and write the Japanese writing system (hiragana, katakana, and kanji). - For each topic, understand the meaning of important w ords and phrases and be able to use them appropriatel",
+  "courseId": "2024:fall:G613-01:0:63",
   "language": "ja"
 }

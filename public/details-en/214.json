@@ -1,52 +1,43 @@
 {
   "sourceIndex": 214,
   "sourceUrl": "/opsyllabus/kitos0110/214/1",
-  "importedAt": "2026-06-08T09:33:57.527Z",
-  "title": "航空構造力学Ⅱ",
-  "subtitle": "Mechanics of Aircraft Structures II",
-  "courseType": "Major ProgramMajor Courses",
+  "importedAt": "2026-06-09T01:29:21.121Z",
+  "title": "航空流体力学Ⅱ",
+  "subtitle": "Aerodynamics II",
+  "courseType": "Major Program\nMajor Courses",
   "credits": "2",
-  "term": "2026年度\n\n                3rd year 2nd semester",
+  "term": "2024年度\n 3rd year 2nd semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "YOSHIDA Keishiro"
+    "MORIYOSHI Takahiro"
   ],
   "keywords": [
-    "Light wight structure",
-    "Thin-walled section bar",
-    "Static strength",
-    "Fatigue strength",
-    "Damage tolerance design"
+    "Compressible fluid 2.Shock wave 3.Viscous fluid 4.Boundary layer"
   ],
-  "educationalGoal": "Students will learn\n(1) Thin-walled cross section bar under torsional moment\n(2) Aircraft structural design under static loads\n(3) Aircraft structural design under fatigue loads\"",
-  "advice": "On the basis of knowledge learned in subjects such as'Strength of Materials for Aircraft structure' and 'Mechanics of Aircraft Structures I', student will learn the advanced topics in mechanics of aircraft structures.\nWe will cover the following materials:\n(1) Thin-walled cross section bar under torsional moment\n(2) Basic concepts of structural design methods under static loads\n    (Strength ratio, Margin of safety)\n(3) Basic concepts of structural design methods under fatigue loads\n    (Safe life design, Damage tolerance design)\n\nStudents should thoroughly review what they have learned in\n'Strength of Materials for Aircraft structure' and\n'Mechanics of Aircraft Structures I'\nbefore taking this course.",
-  "books": "Basis of Understanding Strength of Materials -Second Edition, Kyoritsu Syuppan, 2013",
-  "requiredKnowledge": "Basic knowledge of Mechanics of Materials and Mechanics of Aircraft Structure.",
+  "educationalGoal": "Students will learn the basics of aerodynamics through lectures and exercises on aircraft wings. The goal of this subject is to understand the phenomena that occur in compressible and viscous fluids, and solve fluid problems using mathematical formulas.",
+  "advice": "We will study compressible and viscous fluids and how to apply the theory to airplane wings. We will cover the following materials: 1. Governing equations of fluids 2. Sonic speed and Mach number 3. Vertical shock waves and oblique shock waves 4. Shock waves generated around wings 5. Aerodynamic characteristics of high-speed airfoils 6. Boundary layer 7. Laminar and turbulent flows and transition of boundary layer 8. Derivation of boundary layer equations 9. Separation and wake vortex 10. Aerodynamic drag",
+  "books": "Introduction to Aerodynamics (in Japanese) Maruzen Publishing",
+  "requiredKnowledge": "Knowledge of aerodynamics and thermodynamics.",
   "activityGoals": [
     {
       "index": "①",
-      "type": "D,K,N",
-      "body": "Be able to calculate torsional stiffness and shear stress of bars with circular cross sections"
+      "type": "J",
+      "body": "Be able to explain the governing equation of fluids."
     },
     {
       "index": "②",
-      "type": "D,K,N",
-      "body": "Be able to explain the meanings of 'limit load' and 'ultimate load'"
+      "type": "J,D,M",
+      "body": "Be able to explain shock waves and their generation mechanism."
     },
     {
       "index": "③",
-      "type": "D,K,N",
-      "body": "Be able to evaluate the static strength of aircraft structure using strength ratio or margin of safety"
+      "type": "J,D,M",
+      "body": "Be able to explain the effects of viscosity of a fluid acting on an object."
     },
     {
       "index": "④",
-      "type": "D,K,N",
-      "body": "Be able to analyze fatigue strength in aircraft structures through fatigue life calculation"
-    },
-    {
-      "index": "⑤",
-      "type": "D,K,N",
-      "body": "Be able to analyze fatigue strength in aircraft structures through damage progression calculation"
+      "type": "J,D,M,N",
+      "body": "Be able to understand friction drag, pressure drag, and wave drag, and calculate the aerodynamic forces acting o"
     }
   ],
   "evaluationWeights": [
@@ -54,19 +45,19 @@
       "label": "総合評価割合",
       "values": [
         "40",
-        "60",
+        "30",
+        "20",
         "0",
         "0",
         "0",
-        "0",
-        "0",
+        "10",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -77,19 +68,19 @@
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
         "40",
-        "60",
+        "30",
+        "20",
         "0",
         "0",
         "0",
-        "0",
-        "0",
+        "10",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -100,19 +91,19 @@
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
         "40",
-        "60",
+        "30",
+        "20",
         "0",
         "0",
         "0",
-        "0",
-        "0",
+        "10",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -133,9 +124,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -143,7 +134,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -156,9 +147,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -179,9 +170,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -190,118 +181,118 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "(1) Accurately calculate the torsional stiffness\n    and the torsional stress of bars with\n    thin-walled section\n(2) Accurately explain the meanings of 'limit load'\n    and 'ultimate load'\n(3) Utilize the strength factor or margin of safety\n    to improve structural design\n(4) Analyze fatigue strength in aircraft structures\n    through fatigue life calculation\n(5) Conduct damage progression calculation based on\n    fracture mechanics and explain the concept of\n    damage tolerance design",
-    "standard": "(1) Calculate the torsional stiffness of bars with\n    circular cross section\n(2) Explain the meanings of 'ultimate load'\n(3) Evaluate the strength of aircraft structures\n    under static loads using the strength factor\n    or margin of safety\n(4) Conduct  fatigue life calculation by using\n    S-N curve\n(5) Conduct damage progression calculation based on\n    fracture mechanics"
+    "ideal": "(1) Explain compressible fluids and viscous fluids. (2) Estimate the aerodynamic forces acting on several objects. (3) Evaluate quantitatively the phenomenon.",
+    "standard": "(1) Explain compressible fluids and the viscous fluids (2) Estimate the aerodynamic forces acting on several objects."
   },
   "clipProcess": "",
   "lessons": [
     {
       "index": "1",
-      "content": "Course introduction\nReview on torsion of bar with circular\ncross section",
-      "operation": "Lecture and practice\nSelf-check",
-      "assignments": "Review class content",
-      "minutes": "40"
+      "content": "Course introduction",
+      "operation": "Lecture and Q&A",
+      "assignments": "Understand the objectives of the class",
+      "minutes": "150"
     },
     {
       "index": "2",
-      "content": "Torsion of bars with thin-walled closed\ncross section #1",
-      "operation": "Lecture and practice\nSelf-check",
-      "assignments": "Read handout 1\nReview class content",
-      "minutes": "20\n40"
+      "content": "Review equation of state (ideal gas law).",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Prepare chapter 5.1 of the textbook",
+      "minutes": "150"
     },
     {
       "index": "3",
-      "content": "Torsion of bars with thin-walled closed\ncross section #2",
-      "operation": "Lecture and practice\nSelf-check",
-      "assignments": "Read handout 1\nReview class content",
-      "minutes": "20\n40"
+      "content": "Review speed of sound, Mach number, and compressible flow.",
+      "operation": "Practice exercises Lecture and practice Self-check",
+      "assignments": "Prepare chapter 5.1 of the textbook",
+      "minutes": "150"
     },
     {
       "index": "4",
-      "content": "Torsion of bars with thin-walled open\ncross section #1",
-      "operation": "Lecture and practice\nSelf-check",
-      "assignments": "Read handout 2\nReview class content",
-      "minutes": "20\n40"
+      "content": "Review speed of sound, Mach number and compressible flow.",
+      "operation": "Practice example Lecture and practice Self-check",
+      "assignments": "Prepare chapter 5.1 of the textbook",
+      "minutes": "150"
     },
     {
       "index": "5",
-      "content": "Torsion of bars with thin-walled open\ncross section #2",
-      "operation": "Lecture and practice\nSelf-check",
-      "assignments": "Read handout 2\nReview class content",
-      "minutes": "20\n40"
+      "content": "Review the energy equation for compressible fluids.",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Review your own notes from the lectures.",
+      "minutes": "150"
     },
     {
       "index": "6",
-      "content": "Static strength #1\nStrength factor or Margin of safety",
-      "operation": "Lecture and practice\nSelf-check",
-      "assignments": "Read handout 3\nReview class content",
-      "minutes": "20\n40"
+      "content": "Review normal shock waves and oblique shock waves",
+      "operation": "Test and review Self-reflection",
+      "assignments": "Prepare chapter 5.1 of the textbook.",
+      "minutes": "150"
     },
     {
       "index": "7",
-      "content": "Static strength #2\nBar under tensile load",
-      "operation": "Lecture and practice\nSelf-check",
-      "assignments": "Read handout 3\nReview class content",
-      "minutes": "20\n40"
+      "content": "Review supersonic airfoils.",
+      "operation": "Self-checkLecture and practice",
+      "assignments": "Prepare chapter 5.2 of the textbook.",
+      "minutes": "150"
     },
     {
       "index": "8",
-      "content": "Static strength #3\nBeam under bending load",
-      "operation": "Lecture and practice\nSelf-check",
-      "assignments": "Read handout 3\nReview class content",
-      "minutes": "20\n40"
+      "content": "[Integrated learning 1] Exercise and discussion",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Confirm what you learned and create an assignment report.",
+      "minutes": "150"
     },
     {
       "index": "9",
-      "content": "Self-reflection (class)\nFatigue strength #1\nSafe life design  (1)",
-      "operation": "Lecture and practice\nSelf-check",
-      "assignments": "Read handout 4\nReview class content",
-      "minutes": "20\n40"
+      "content": "Test and review",
+      "operation": "Test and review Self-reflection",
+      "assignments": "Prepare for the test Review",
+      "minutes": "180"
     },
     {
       "index": "10",
-      "content": "Fatigue strength #2\nSafe life design (2)",
-      "operation": "Lecture and practice\nSelf-check",
-      "assignments": "Read handout 4\nReview class content",
-      "minutes": "20\n40"
+      "content": "Review the boundary layer equations.",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Prepare chapter 4 of the textbook.",
+      "minutes": "150"
     },
     {
       "index": "11",
-      "content": "Fatigue strength #3\nDamage tolerance design (1)",
-      "operation": "Lecture and practice\nSelf-check",
-      "assignments": "Read handout 4\nReview class content",
-      "minutes": "20\n40"
+      "content": "Review the laminar boundary layer and turbulent boundary layer.",
+      "operation": "Test and review Self-reflection",
+      "assignments": "Prepare chapter 5.2 of the textbook.",
+      "minutes": "150"
     },
     {
       "index": "12",
-      "content": "Fatigue strength #4\nDamage tolerance design (2)",
-      "operation": "Lecture and practice\nSelf-check",
-      "assignments": "Read handout 4\nReview class content",
-      "minutes": "20\n40"
+      "content": "Review the separation and the wake vortex.",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Prepare chapter 5.2 of the textbook.",
+      "minutes": "150"
     },
     {
       "index": "13",
-      "content": "Integrated learning\non fatigue strength",
-      "operation": "Lecture and practice\nSelf-check",
-      "assignments": "Review class content",
-      "minutes": "40"
+      "content": "Review forces acting on objects in fluids",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Review your own notes from the lectures.",
+      "minutes": "150"
     },
     {
       "index": "14",
-      "content": "Self-reflection (class)\n[Test]",
-      "operation": "Lecture and practice\nTest\nSelf-check",
-      "assignments": "Review 2nd half of this\ncourse\nPrepare for test",
-      "minutes": "20\n\n60"
+      "content": "Final exam and review",
+      "operation": "Exam and review",
+      "assignments": "Self-reflection Prepare for the exam",
+      "minutes": "180"
     },
     {
       "index": "15",
-      "content": "Integrated learning\nSelf-evaluation",
-      "operation": "Lecture and practice\nSelf-check",
-      "assignments": "Self-evaluation on\nachievement in this subject",
-      "minutes": "40"
+      "content": "[Integrated learning 2] Exercise and discussion",
+      "operation": "Active learning and presentation Self-evaluation",
+      "assignments": "Confirm what you learned",
+      "minutes": "180"
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　E141-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Aeronautics and Astronautics(〜2024)\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                航空構造力学Ⅱ\n                Mechanics of Aircraft Structures II\n\n              2\n              E141-01\n\n                2026年度\n\n                3rd year 2nd semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  YOSHIDA Keishiro\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Light wight structure\n2.Thin-walled section bar\n3.Static strength\n4.Fatigue strength\n5.Damage tolerance design\n\n              Students will learn\n(1) Thin-walled cross section bar under torsional moment\n(2) Aircraft structural design under static loads\n(3) Aircraft structural design under fatigue loads\"\n\n              授業の概要および学習上の助言\n\n              On the basis of knowledge learned in subjects such as'Strength of Materials for Aircraft structure' and 'Mechanics of Aircraft Structures I', student will learn the advanced topics in mechanics of aircraft structures.\nWe will cover the following materials:\n(1) Thin-walled cross section bar under torsional moment\n(2) Basic concepts of structural design methods under static loads\n    (Strength ratio, Margin of safety)\n(3) Basic concepts of structural design methods under fatigue loads\n    (Safe life design, Damage tolerance design)\n\nStudents should thoroughly review what they have learned in\n'Strength of Materials for Aircraft structure' and\n'Mechanics of Aircraft Structures I'\nbefore taking this course.\n\n              教科書および参考書・リザーブドブック\n\n              Basis of Understanding Strength of Materials -Second Edition, Kyoritsu Syuppan, 2013\n\n              履修に必要な予備知識や技能\n\n              Basic knowledge of Mechanics of Materials and Mechanics of Aircraft Structure.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                D,K,N\n                Be able to calculate torsional stiffness and shear stress of bars with circular cross sections\n\n                ②\n                D,K,N\n                Be able to explain the meanings of 'limit load' and 'ultimate load'\n\n                ③\n                D,K,N\n                Be able to evaluate the static strength of aircraft structure using strength ratio or margin of safety\n\n                ④\n                D,K,N\n                Be able to analyze fatigue strength in aircraft structures through fatigue life calculation\n\n                ⑤\n                D,K,N\n                Be able to analyze fatigue strength in aircraft structures through damage progression calculation\n\n                ⑥\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                40\n\n                60\n\n                0\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                40\n\n                60\n\n                0\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                40\n\n                60\n\n                0\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  コラボレーションとリーダーシップ\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n             ",
-  "courseId": "2026:fall:E141-01:0:214",
+  "rawText": "金沢工業大学 学習支援計画書 E128-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Aeronautics\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n航空流体力学Ⅱ\nAerodynamics II  2 E128-01  2024年度\n 3rd year 2nd semester  修学規程第4条を参照\n    担当教員名\n MORIYOSHI Takahiro\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Compressible fluid 2.Shock wave 3.Viscous fluid 4.Boundary layer  Students will learn the basics of aerodynamics through lectures and exercises on aircraft wings. The goal of this subject is to understand the phenomena that occur in compressible and viscous fluids, and solve fluid problems using mathematical formulas.\n    授業の概要および学習上の助言   We will study compressible and viscous fluids and how to apply the theory to airplane wings. We will cover the following materials: 1. Governing equations of fluids 2. Sonic speed and Mach number 3. Vertical shock waves and oblique shock waves 4. Shock waves generated around wings 5. Aerodynamic characteristics of high-speed airfoils 6. Boundary layer 7. Laminar and turbulent flows and transition of boundary layer 8. Derivation of boundary layer equations 9. Separation and wake vortex 10. Aerodynamic drag\n    教科書および参考書・リザーブドブック   Introduction to Aerodynamics (in Japanese) Maruzen Publishing\n    履修に必要な予備知識や技能   Knowledge of aerodynamics and thermodynamics.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① J Be able to explain the governing equation of fluids.   ② J,D,M Be able to explain shock waves and their generation mechanism.   ③ J,D,M Be able to explain the effects of viscosity of a fluid acting on an object.   ④ J,D,M,N Be able to understand friction drag, pressure drag, and wave drag, and calculate the aerodynamic forces acting o   ⑤     ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 40 30 20 0 0 0 10 100     指標と評価割合 総合評価割合 40 30 20 0 0 0 10 100   総合力指標 知識を取り込む力 40 30 20 0 0 0 10 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ There is an exam at the end of the semester to evaluate the degree of achievement. The exam consists of the expansion and calculation of equations and the explanation of phenomenon.    ② レ   ③ レ   ④ レ   ⑤     ⑥     クイズ\n小テスト ① レ There are mini tests to improve the level of understanding at the end of each chapter. Students will be required to submit assignments.    ② レ   ③ レ   ④ レ   ⑤     ⑥     レポート ①   Students will be evaluated on several reports.   ② レ   ③ レ   ④ レ   ⑤     ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ①   Attitudes in presentations and discussions will be evaluated   ② レ   ③ レ   ④ レ   ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     (1) Explain compressible fluids and viscous fluids. (2) Estimate the aerodynamic forces acting on several objects. (3) Evaluate quantitatively the phenomenon.  (1) Explain compressible fluids and the viscous fluids (2) Estimate the aerodynamic forces acting on several objects.\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習課題に要する標準的な時間を記載してあります。日々の自学自習時間全体としては、各授業に応じた時間(例えば2単位科目の場合、予習2時間・復習2時間/週)を取るよう努めてください。詳しくは教員の指導に従って下さい。     授業明細   回数 学習内容 授業の運営方法 学習課題(予習・復習) 時間:分※     1  Course introduction Lecture and Q&A Understand the objectives of the class  150   2  Review equation of state (ideal gas law).  Lecture and practice Self-check Prepare chapter 5.1 of the textbook  150   3  Review speed of sound, Mach number, and compressible flow. Practice exercises Lecture and practice Self-check  Prepare chapter 5.1 of the textbook  150   4  Review speed of sound, Mach number and compressible flow.  Practice example Lectur",
+  "courseId": "2024:spring:E116-01:0:214",
   "language": "en"
 }

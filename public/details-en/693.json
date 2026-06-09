@@ -1,77 +1,58 @@
 {
   "sourceIndex": 693,
   "sourceUrl": "/opsyllabus/kitos0110/693/1",
-  "importedAt": "2026-06-08T09:34:07.293Z",
-  "title": "運動機能論",
-  "subtitle": "Motor Function",
-  "courseType": "Major ProgramMajor Courses",
+  "importedAt": "2026-06-09T01:29:25.449Z",
+  "title": "建築環境学Ⅲ",
+  "subtitle": "Architectural Environment Ⅲ",
+  "courseType": "Major Program\nMajor Courses",
   "credits": "2",
-  "term": "2026年度\n\n                3rd year 1st semester",
+  "term": "2024年度\n 3rd year 1st semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "TATSUMI Hitoshi"
+    "TSUCHIDA Yoshio"
   ],
   "keywords": [
-    "Motor control",
-    "Brain",
-    "Learning",
-    "Memory",
-    "Brain disorder"
+    "noise 2.sign planning 3.environmental psychology 4.statistics 5.regional cooperation"
   ],
-  "educationalGoal": "This course provides an overview of the neuroscience of:\n(1) motor control\n(2) learning through motor control of the peripheral and central nervous systems\n(3) mind, brain, and health, and the intersection of psychology and cognitive neuroscience.",
-  "advice": "This course provides an overview of the neuroscience of motor control and learning through motor control of the peripheral and central nervous systems, mind, brain, and health, and the intersection of psychology and cognitive neuroscience. Fundamental biological, psychological, social, and environmental factors are introduced with an emphasis on critical functions related to motor control and animal neuroscience of learning, such as sensitive periods, and neuroplasticity. In addition, factors that facilitate and roadblocks that inhibit optimization of learning are explored as we discuss key cognitive constructs (language, attention, memory, executive functions, brain disorders), with special attention on neurocognitive processes and motor control. These studies will be directly applied by each student in future Project Design III activities conducted in an area of each student’s personal interest.",
-  "books": "",
-  "requiredKnowledge": "Basic knowledge of biochemistry, physics and chemistry is required. High school-level knowledge of biology, and students should have knowledge of basic cell biology, anatomy of human body, and sensory physiology.",
+  "educationalGoal": "Students learn the content and measures of social problems related to the building environment or building equipment. Students learn basic ideas that lead to architecture and community design. *Prediction method of noise propagation and countermeasures. *Sign planning for guiding pedestrians and users. *Relationship between environmental factors and psychology.",
+  "advice": "1. Noise prediction method and countermeasures. 2. Sign planning and universal design. 3. Psychological reaction to the environment. 4. Psychological analysis method. 5. Building environment and statistics.",
+  "books": "Illustrated Text Building Environmental Engineering 2nd Edition (SHOKOKUSYA)",
+  "requiredKnowledge": "It is a continuous and evolving content of \"Architectural environment I,II\".Review of the previous knowledge.",
   "activityGoals": [
     {
       "index": "①",
-      "type": "KMNQ",
-      "body": "Describe the basic cellular structures and functions of neurons"
+      "type": "M",
+      "body": "Explain human perception and psychological cognition."
     },
     {
       "index": "②",
-      "type": "JKMN",
-      "body": "Describe the basic signaling process in the brain"
+      "type": "M",
+      "body": "Understand the fundamentals of sound propagation and control."
     },
     {
       "index": "③",
-      "type": "JKMN",
-      "body": "Describe the pharmacological approach to brain disorders"
-    },
-    {
-      "index": "④",
-      "type": "JKMN",
-      "body": "Describe the plasticity of brain circuits"
-    },
-    {
-      "index": "⑤",
-      "type": "JKMN",
-      "body": "Describe motor control in humans"
-    },
-    {
-      "index": "⑥",
-      "type": "JKLN",
-      "body": "Describe the role of the hippocampus in the short-term memory formation"
+      "type": "M",
+      "body": "Understand the basics of color planning using knowledge of light and color."
     }
   ],
   "evaluationWeights": [
     {
       "label": "総合評価割合",
       "values": [
-        "30",
+        "40",
+        "0",
+        "40",
+        "0",
+        "0",
+        "0",
         "20",
-        "20",
-        "0",
-        "0",
-        "0",
-        "30",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -81,20 +62,20 @@
     {
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
-        "30",
+        "40",
+        "0",
+        "40",
+        "0",
+        "0",
+        "0",
         "20",
-        "20",
-        "0",
-        "0",
-        "0",
-        "30",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -104,20 +85,20 @@
     {
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
-        "30",
+        "40",
+        "0",
+        "40",
+        "0",
+        "0",
+        "0",
         "20",
-        "20",
-        "0",
-        "0",
-        "0",
-        "30",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -138,9 +119,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -148,7 +129,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -161,9 +142,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -184,9 +165,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -195,48 +176,118 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "Describe the following concepts and discuss the progress in the field of modern neuroscience:\n(1) motor control\n(2) learning through motor control of the peripheral and central nervous systems\n(3) mind, brain, and health, and the intersection of psychology and cognitive neuroscience",
-    "standard": "Describe the basics of the following concepts:\n\n(1) motor control\n(2) learning through motor control of the peripheral and central nervous systems\n(3) mind, brain, and health, and the intersection of psychology and cognitive neuroscience"
+    "ideal": "Understand the knowledge about creating a comfortable environment. Perform basic calculations of acoustic and light environments. Appropriately evaluate the environment and show solutions to various problems.",
+    "standard": "Understand the knowledge about creating a comfortable environment. Perform basic calculations of acoustic and light environments."
   },
   "clipProcess": "",
   "lessons": [
     {
       "index": "1",
-      "content": "Course introduction",
-      "operation": "Lecture and Q&A",
-      "assignments": "Understand the objectives\nof class",
-      "minutes": ""
+      "content": "Guidance Understand the relationship between environment and psychology. Indicates the time of the report.Understand the relationship between the regional collaboration projects \"Tsukimi Kouro\" and \"Camellia Kids\" and the learning content.",
+      "operation": "Lectures, self-checks",
+      "assignments": "Understand the significance of learning about sound and light.",
+      "minutes": "120"
     },
     {
       "index": "2",
-      "content": "Review of motor control and\nlearning through motor control of the peripheral\n and central nervous systems",
-      "operation": "Lecture and Q&A",
-      "assignments": "Read the corresponding pages\nin the textbook",
-      "minutes": ""
+      "content": "Acoustic environment Attenuation due to transmission.",
+      "operation": "Lectures, exercises, self-checks",
+      "assignments": "Perform prediction calculations and learn about acoustic control. Prepare for the textbook.",
+      "minutes": "120"
     },
     {
       "index": "3",
-      "content": "Motor control (I)",
-      "operation": "Lecture and Q&A",
-      "assignments": "Read the corresponding pages\nin the textbook",
-      "minutes": ""
+      "content": "Acoustic environment Attenuation due to diffraction.",
+      "operation": "Lectures, exercises, self-checks",
+      "assignments": "Perform prediction calculations and learn about acoustic control. Prepare for the textbook.",
+      "minutes": "120"
     },
     {
       "index": "4",
-      "content": "Motor control (II)",
-      "operation": "Lecture and Q&A",
-      "assignments": "Read the corresponding pages\nin the textbook",
-      "minutes": ""
+      "content": "Acoustic environment Noise evaluation.",
+      "operation": "Lectures, exercises, self-checks",
+      "assignments": "Perform prediction calculations and learn about acoustic control. Prepare for the textbook.",
+      "minutes": "120"
     },
     {
       "index": "5",
-      "content": "Motor control (III)",
-      "operation": "Lecture and Q&A and short\nexamination",
-      "assignments": "Read the corresponding pages\nin the textbook",
-      "minutes": ""
+      "content": "Acoustic environment Perform prediction calculations assuming the actual environment. Learning about sound propagation.",
+      "operation": "Lectures, exercises, self-checks",
+      "assignments": "Comprehensive exercises based on examples. Prepare for the textbook.",
+      "minutes": "180"
+    },
+    {
+      "index": "6",
+      "content": "Acoustic environment Confirmation of understanding",
+      "operation": "Test and examination",
+      "assignments": "Confirm the learning content about the sound environment. Prepare for the textbook.",
+      "minutes": "240"
+    },
+    {
+      "index": "7",
+      "content": "Visual environment Color system, color plan, sign",
+      "operation": "Lectures, exercises, self-checks",
+      "assignments": "Learn about sign planning and color harmony theory. Prepare for the textbook.",
+      "minutes": "120"
+    },
+    {
+      "index": "8",
+      "content": "Visual environment Town development, landscape evaluation, landscape creation techniques, universal design",
+      "operation": "Lectures, exercises, self-checks",
+      "assignments": "Learn about the landscape. Prepare for the textbook.",
+      "minutes": "120"
+    },
+    {
+      "index": "9",
+      "content": "Visual environment Confirmation of understanding",
+      "operation": "Lectures, quiz, exercises, self-checks",
+      "assignments": "Learn color planning and landscape in general. Prepare for the textbook.",
+      "minutes": "120"
+    },
+    {
+      "index": "10",
+      "content": "Environmental psychology and statistics Psychological measurement in general",
+      "operation": "Lectures, exercises, self-checks",
+      "assignments": "Psychological measurement. Prepare for the textbook.",
+      "minutes": "120"
+    },
+    {
+      "index": "11",
+      "content": "Environmental psychology and statistics Qualitative measurement",
+      "operation": "Lectures, exercises, self-checks",
+      "assignments": "Interview method. Prepare for the textbook.",
+      "minutes": "120"
+    },
+    {
+      "index": "12",
+      "content": "Environmental psychology and statistics Quantitative measurement",
+      "operation": "Lectures, exercises, self-checks",
+      "assignments": "ME method and SD method. Prepare for the textbook.",
+      "minutes": "120"
+    },
+    {
+      "index": "13",
+      "content": "Environmental psychology and statistics Test",
+      "operation": "Lectures, exercises, self-checks",
+      "assignments": "Analysis of variance, T-test. Prepare for the textbook.",
+      "minutes": "120"
+    },
+    {
+      "index": "14",
+      "content": "Environmental psychology and statistics Multivariate analysis",
+      "operation": "Lectures, exercises, self-checks",
+      "assignments": "Factor analysis, cluster analysis. Prepare for the textbook.",
+      "minutes": "120"
+    },
+    {
+      "index": "15",
+      "content": "General review (sound, light, psychology)",
+      "operation": "Quize, self-checks",
+      "assignments": "General review. Prepare for the textbook.",
+      "minutes": "240"
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　B119-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Life Science and Biotechnology(〜2024)\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                運動機能論\n                Motor Function\n\n              2\n              B119-01\n\n                2026年度\n\n                3rd year 1st semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  TATSUMI Hitoshi\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Motor control\n2.Brain\n3.Learning\n4.Memory\n5.Brain disorder\n\n              This course provides an overview of the neuroscience of:\n(1) motor control\n(2) learning through motor control of the peripheral and central nervous systems\n(3) mind, brain, and health, and the intersection of psychology and cognitive neuroscience.\n\n              授業の概要および学習上の助言\n\n              This course provides an overview of the neuroscience of motor control and learning through motor control of the peripheral and central nervous systems, mind, brain, and health, and the intersection of psychology and cognitive neuroscience. Fundamental biological, psychological, social, and environmental factors are introduced with an emphasis on critical functions related to motor control and animal neuroscience of learning, such as sensitive periods, and neuroplasticity. In addition, factors that facilitate and roadblocks that inhibit optimization of learning are explored as we discuss key cognitive constructs (language, attention, memory, executive functions, brain disorders), with special attention on neurocognitive processes and motor control. These studies will be directly applied by each student in future Project Design III activities conducted in an area of each student’s personal interest.\n\n              教科書および参考書・リザーブドブック\n\n              　　\n\n              履修に必要な予備知識や技能\n\n              Basic knowledge of biochemistry, physics and chemistry is required. High school-level knowledge of biology, and students should have knowledge of basic cell biology, anatomy of human body, and sensory physiology.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                KMNQ\n                Describe the basic cellular structures and functions of neurons\n\n                ②\n                JKMN\n                Describe the basic signaling process in the brain\n\n                ③\n                JKMN\n                Describe the pharmacological approach to brain disorders\n\n                ④\n                JKMN\n                Describe the plasticity of brain circuits\n\n                ⑤\n                JKMN\n                Describe motor control in humans\n\n                ⑥\n                JKLN\n                Describe the role of the hippocampus in the short-term memory formation\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                30\n\n                20\n\n                20\n\n                0\n\n                0\n\n                0\n\n                30\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                30\n\n                20\n\n                20\n\n                0\n\n                0\n\n                0\n\n                30\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                30\n\n                20\n\n                20\n\n                0\n\n                0\n\n                0\n\n                30\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  ",
-  "courseId": "2026:spring:B119-01:0:693",
+  "rawText": "金沢工業大学 学習支援計画書 A027-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Architecture(2018〜)\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n建築環境学Ⅲ\nArchitectural Environment Ⅲ  2 A027-01  2024年度\n 3rd year 1st semester  修学規程第4条を参照\n    担当教員名\n TSUCHIDA Yoshio\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.noise 2.sign planning 3.environmental psychology 4.statistics 5.regional cooperation  Students learn the content and measures of social problems related to the building environment or building equipment. Students learn basic ideas that lead to architecture and community design. *Prediction method of noise propagation and countermeasures. *Sign planning for guiding pedestrians and users. *Relationship between environmental factors and psychology.\n    授業の概要および学習上の助言   1. Noise prediction method and countermeasures. 2. Sign planning and universal design. 3. Psychological reaction to the environment. 4. Psychological analysis method. 5. Building environment and statistics.\n    教科書および参考書・リザーブドブック   Illustrated Text Building Environmental Engineering 2nd Edition (SHOKOKUSYA)\n    履修に必要な予備知識や技能   It is a continuous and evolving content of \"Architectural environment I,II\".Review of the previous knowledge.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① M Explain human perception and psychological cognition.   ② M Understand the fundamentals of sound propagation and control.   ③ M Understand the basics of color planning using knowledge of light and color.   ④     ⑤     ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 40 0 40 0 0 0 20 100     指標と評価割合 総合評価割合 40 0 40 0 0 0 20 100   総合力指標 知識を取り込む力 40 0 40 0 0 0 20 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ Ask questions about the following and evaluate your answers. a. Psychological measurement. b. Calculation of noise transmission and noise evaluation method. c. Color planning and sign design.   ② レ   ③ レ   ④     ⑤     ⑥     クイズ\n小テスト ①      ②     ③     ④     ⑤     ⑥     レポート ① レ Active learning about environment elements and psychological mesuemant. Consider the environment around you and create a report.   ② レ   ③ レ   ④     ⑤     ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ① レ Evaluation is based on attendance and self-assessment sheets.   ② レ   ③ レ   ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     Understand the knowledge about creating a comfortable environment. Perform basic calculations of acoustic and light environments. Appropriately evaluate the environment and show solutions to various problems. Understand the knowledge about creating a comfortable environment. Perform basic calculations of acoustic and light environments.\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習課題に要する標準的な時間を記載してあります。日々の自学自習時間全体としては、各授業に応じた時間(例えば2単位科目の場合、予習2時間・復習2時間/週)を取るよう努めてください。詳しくは教員の指導に従って下さい。     授業明細   回数 学習内容 授業の運営方法 学習課題(予習・復習) 時間:分※     1  Guidance Understand the relationship between environment and psychology. Indicates the time of the report.Understand the relationship between the regional collaboration projects \"Tsukimi Kouro\" and \"Camellia Kids\" and the learning content. Lectures, self-checks Understand the significance of learning about sound and light.  120   2  Acoustic environment Attenuation due to transmission. Lectures, exercises, self-checks Perform prediction calculations and learn about acoustic control. Prepare for the textbook.  120   3  Acoustic environment Attenuation due to diffraction. Lectures, exercises, self-checks Perform prediction calculat",
+  "courseId": "2024:spring:A025-01:0:693",
   "language": "en"
 }

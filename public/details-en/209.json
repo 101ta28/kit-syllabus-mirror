@@ -1,79 +1,58 @@
 {
   "sourceIndex": 209,
   "sourceUrl": "/opsyllabus/kitos0110/209/1",
-  "importedAt": "2026-06-08T09:33:57.443Z",
-  "title": "航空システム専門実験・演習Ａ",
-  "subtitle": "Aeronautics Major Lab/Exercises A",
-  "courseType": "Major ProgramMajor Courses",
-  "credits": "3",
-  "term": "2026年度\n\n                3rd year 1st semester3rd year 2nd semester",
+  "importedAt": "2026-06-09T01:29:21.081Z",
+  "title": "熱流体工学",
+  "subtitle": "Introduction to Thermofluids",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "2",
+  "term": "2024年度\n 3rd year 1st semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "YOSHIDA Keishiro",
-    "AKASAKA Takeshi",
-    "OGURI Kazuyuki"
+    "HIROMITSU Nagayoshi"
   ],
   "keywords": [
-    "Planning",
-    "Performing",
-    "Summarizing",
-    "Presentation",
-    "Aerospace engineering"
+    "Energy Exchange Process 2.Exergy 3.Engine Cycle 4.Heat Transfer 5.Regional collaboration"
   ],
-  "educationalGoal": "Students will:\n(1)learn the method and theory of a selected basic subject, and perform\n   experiment and practice on selected subject.\n(2)acquire deeper understanding and ability to apply engineering subjects.\n(3)learn how to write the experimental method in an experiment report.\n(4)learn how to create presentations on experiments and their results.",
-  "advice": "Students will carry out the following experiments in Exercise A. Details on the experiments can be confirmed in the textbook.\n① Molding and evaluation of CFRPs (carbon fiber reinforced plastics)\n② Strength evaluation of the thin sheet structure with stiffeners (Semi-monocoque structure)\n③ Flight dynamics\nStudents attending the lecture will be divided into three groups (A, B, and C). Group A will carry out experiment ① for five weeks and then theme ② for the next five weeks and finally theme ③ for another five weeks. Group B will follow the order of ②→③→① and group C the order of ③→①→②. In addition, class details are distributed at the time of the start of each experiment theme.\nIt is also important to utilize AI and open data as assistance to own learning.",
-  "books": "Textbook \"Aerospace Major Lab/Exercises AB\" published by Kanazawa Institute of Technology",
-  "requiredKnowledge": "Student should read the textbook and handout before an experiment and understand what kind of experiment they will be carrying out. In addition, students should make a lesson report before a class as preparation, if necessary for that class.",
+  "educationalGoal": "Students will learn : 1. the energy exchange processes and systems (1)energy exchange processes and exergy (2)jet engines as thermodynamic cycle 2. the heat transfer process in machine element parts conduction, convection, radiation",
+  "advice": "This is a basic course on thermofluids. We will cover the following materials: 1. Lecture on engine system and principle of energy exchange process, exercises. (1)overview (2)energy exchange processes and exergy, exercises. (3)jet engine cycle and performance calculation, exercises. 2. Lecture on basics of heat transfer Fourier law on heat conduction and application to simple models. non-dimensional parameter governing heat convection and application to simple models. Students will also learn about advanced issues such as radiation. Students are expected to understand the meaning of terms and formulas. Students are expected to solve advanced exercises on their own. Students should be aware of the teacher's instructions in the class, because the schedules of lectures, quizzes, tests and reports may change as the class progresses.",
+  "books": "Textbooks: Mechanical Engineering Series 2 “Thermodynamics”, Asakura shoten Reference books : \"Heat transfer engineering\", Morikita Syuppan , \"Hajimetemanabu idougenshouron\", Morikita Syuppan",
+  "requiredKnowledge": "Acquisition of Fluid Dynamics and Thermodynamics Sufficient skill in mathematics (especially differential / integral calculations) How to use a scientific calculator",
   "activityGoals": [
     {
       "index": "①",
-      "type": "F,M",
-      "body": "Be able to plan an experiment and carry it out independently based on knowledge learned."
+      "type": "D",
+      "body": "Be able to explain basic concept of energy exchange."
     },
     {
       "index": "②",
-      "type": "F,M",
-      "body": "Be able to carry out tests safely based on an understanding of the principle of an experiment and the measuremen"
+      "type": "D,J,M",
+      "body": "Be able to explain jet engine and piston engine cycle calculations."
     },
     {
       "index": "③",
-      "type": "F,M,L",
-      "body": "Be able to arrange test data using computers and explain the key and problem appropriately."
-    },
-    {
-      "index": "④",
-      "type": "F,M,D",
-      "body": "Be able to reliably interpret the results of an experiment and evaluate the validity of the test data."
-    },
-    {
-      "index": "⑤",
-      "type": "F,M",
-      "body": "Be able to explain the obtained test data reasonably by comparing it with an analytical solution."
-    },
-    {
-      "index": "⑥",
-      "type": "F",
-      "body": "Be able to summarize the experimental results in a report, submit it before a deadline, and explain them."
+      "type": "D,J,M",
+      "body": "Be able to calculate basic heat conduction and heat convection."
     }
   ],
   "evaluationWeights": [
     {
       "label": "総合評価割合",
       "values": [
-        "0",
-        "0",
-        "50",
+        "30",
         "40",
+        "30",
         "0",
-        "10",
+        "0",
+        "0",
         "0",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -83,20 +62,20 @@
     {
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
-        "0",
-        "0",
-        "50",
+        "30",
         "40",
+        "30",
         "0",
-        "10",
+        "0",
+        "0",
         "0",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -106,20 +85,20 @@
     {
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
-        "0",
-        "0",
-        "50",
+        "30",
         "40",
+        "30",
         "0",
-        "10",
+        "0",
+        "0",
         "0",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -140,9 +119,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -150,7 +129,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -163,9 +142,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -186,9 +165,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -197,118 +176,118 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "①\tStudents understand the basics of carbon fiber reinforced plastics (CFRPs) and design CFRPs laminated plates. Students understand the details of the experiments and carry out molding of laminated plates, cutting of specimens, and bending tests, and also carry out recording, analysis and consideration of test results.\n②\tStudents properly conduct tests of three characteristic buckling types for semi-monocoque structures b evaluate the validity of obtained data by comparing it with theoretical or numerical analysis results.\n③\tStudents can properly explain the generation of lift and the principle of stability, the difference between test models and actual aircraft, and record test data.",
-    "standard": "①\tStudents understand features of the mechanical properties of carbon fiber reinforced plastics (CFRPs). Students understand experiments and carry out molding of laminated plates, cutting of specimens, and bending tests, and also carry out recording and analysis of test results. Students prepare reports and presentations as scheduled.\n②\tStudents conduct the buckling experiments and give a general explanation of the buckling phenomena in a presentation.\n③\tStudents can roughly explain the generation of lift and the principle of stability, the difference between test models and actual aircraft, and record test data."
+    "ideal": "(1) Explain the concept of the energy exchange mechanism. (2) On the basis of the concept of the energy exchange mechanism, formulate the calculation of actual engine performance. (3) Explain the concept of heat transfer and formulate it correctly.",
+    "standard": "(1) Explain the means of the energy exchange mechanism. (2) Calculate engine performance using the formulated equations. (3) Explain the meaning of heat transfer and calculate heat transfer using the formulated equations."
   },
   "clipProcess": "",
   "lessons": [
     {
       "index": "1",
-      "content": "Students understand the learning objectives,\noutline, and target abilities of this course\nbased on the distributed syllabus.\nIn particular, students understand which role\nthis course assumes within the learning\nobjectives of the department of aeronautics\nand a rough concrete level of achievement.\n①Guidance on outline and manner of operation\nof molding and evaluation of CFRPs (carbon\nfiber reinforced plastics). Students research\ndesign of laminated CFRPs using a prepreg\nsheet with given properties. Students start\nto prepare lamination.",
-      "operation": "Lecture and experiments\nSelf-check",
-      "assignments": "Students understand the\nrelationship between the\nlearning objectives of\nthe department of\naeronautics and this\ncourse.\n①Students research the\napplication, molding\nmethod and strength\nproperties of CFRPs,\nand hand in the\nresearch report the\nfollowing week.",
-      "minutes": ""
+      "content": "Course introduction Basic thermal cycles and each process excergy",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Study heat cycle in textbook Review the last class",
+      "minutes": "30 30"
     },
     {
       "index": "2",
-      "content": "Students laminate prepreg sheets based on a\ndefined design in the first week and make\nlaminated plates by hot press molding.",
-      "operation": "Lecture and experiments\nSelf-check",
-      "assignments": "Students research evaluation\nmethod of strength properties\nof CFRPs based on the JIS\nstandards given in the first\nweek.",
-      "minutes": ""
+      "content": "Review of previous class Gas turbine cycle",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Prepare for the lecture and practice Review the last class",
+      "minutes": "30 60"
     },
     {
       "index": "3",
-      "content": "Students cut out specimens from the molded\nplates by diamond-cutter and measure the\ndimensions.\nStudents understand the handling of the\nuniversal testing machine. Teaching\nassistants conduct bending tests and\nobtain load-deflection curve.",
-      "operation": "Lecture and experiments\nSelf-check",
-      "assignments": "Student research strength\nproperties and the\ncalculation method of the\nstrength of the molded plates\nby load-deflection curve.",
-      "minutes": ""
+      "content": "Review of previous class Jet engine cycle",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Prepare for the lecture and practice Review the last class",
+      "minutes": "30 60"
     },
     {
       "index": "4",
-      "content": "Students evaluate the bending properties of the\nmolded plates from the experimental results in\nthe third week, and examine these results and\ncompare them with designed values.\nStudents begin preparation of report and\npresentation.",
-      "operation": "Lecture and experiments\nSelf-check",
-      "assignments": "Students prepare result\nreport, PowerPoint material\nand presentation.",
-      "minutes": ""
+      "content": "Test (1) : classes 1 to 3 Concept of heat transfer",
+      "operation": "Test Lecture Self-reflection",
+      "assignments": "Prepare for the test and lecture Review the test contents and the lecture",
+      "minutes": "120 60"
     },
     {
       "index": "5",
-      "content": "Students hand in result report and deliver\npresentation and discussion. Students need\nto research literature before presentation\nfor proper question and answer.\nStudents self-check the content of the\nexperiments, reports, presentation and\nattendance.",
-      "operation": "Lecture and experiments\nSelf-check",
-      "assignments": "Students rehearse group\npresentation and prepare\npresentation by researching\nliterature for question and\nanswer.",
-      "minutes": ""
+      "content": "Review of previous class Heat conduction (1) : steady-state conduction through plane wall / composite plane wall",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Prepare for the lecture and practice Review the last class",
+      "minutes": "30 60"
     },
     {
       "index": "6",
-      "content": "Strength evaluation of Semi-monocoque\nstructure\nOrientation: It is explained\nthat the aircraftstructure consists\nof thin sheet metal; therefore,\nbuckling strength becomes\na problem for structural design.\nThe experimental method and general\nbackground of the buckling\nexperiment,including the calculation\nmethod of the buckling load, are\nexplained. In addition, actual\nexamples of aircraft structures,\nT-3 and OH-6D, are shown\nas the teaching materials.",
-      "operation": "Lecture and meeting\nConfirmation of\nexperimental procedure and\n task allocation\nin the experiments.",
-      "assignments": "Students should review\nthe three types of\nbuckling typical\nfor semi-monocoque structures\nfrom a textbook\nof structural mechanics.\nStudents should also\nread p. 5 of the textbook\nand understand\nthe purpose of the\nexperiment.",
-      "minutes": ""
+      "content": "Review of previous class Heat conduction (2) : steady-state conduction through cylinder and sphere",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Prepare for the lecture and practice Review the last class",
+      "minutes": "30 60"
     },
     {
       "index": "7",
-      "content": "Snap buckling test\nStudents can understand the typical failure mode\n of shell structures though\na comparison between a theoretical and\nexperimental buckling load obtained\nfrom the snap buckling tests using\nan aluminum can they prepare.\nSelf-check of lecture content\nand current progress is conducted.",
-      "operation": "Lecture and experiments",
-      "assignments": "Students review failure\nbehavior of the shell\nstructure and predict the\nexpected failure\nload and the buckling mode\nthrough the textbook pp. 6 to\n7.",
-      "minutes": ""
+      "content": "Review of previous class Exercises on heat conduction",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Prepare for the lecture and practice Review the last class",
+      "minutes": "30 60"
     },
     {
       "index": "8",
-      "content": "Shear buckling test\nStudents observe the shear buckling\nprocess, such as the shear buckling\nwrinkle and load resistant capability,\nunder a tension field through the shear\nbuckling test. Students learn the shear\nload resistant capability of the shear\nload members of the aircraft, including\nspar-webs and rib-webs through\na comparison between the experimental\nvalue and the expected failure load.\nSelf-check of lecture content and\ncurrent progress is conducted.",
-      "operation": "Lecture and experiments",
-      "assignments": "Students should learn tension\nfield theory and predict the\nexpected buckling\nload and the buckling\nmode. Students should\nalso read pp. 7 to\n10 of the textbook\nand understand the\ncalculation method of\nthe shear buckling load\nof the test specimen.",
-      "minutes": ""
+      "content": "Test (2) : classes 5 to 7 Heat convection (1) : concept of heat convection",
+      "operation": "Test Lecture Self-check",
+      "assignments": "Prepare for the test and lecture Review the test contents and the lecture",
+      "minutes": "120 60"
     },
     {
       "index": "9",
-      "content": "Compression buckling test\nA thin sheet has little load-resistant\ncapability after compression buckling.\nHowever, reinforcement with thin stiffeners\nshows an enhanced load-resistant capability\neven in a post-buckling situation.\nStudents observe the above state by\nexperiment. At the same time,\nstudents also confirm by sight\nthe situation of the structure\nwhich caused compression buckling.\nIn addition, students estimate\nthe effective width based on\nthe experimental results and also\nunderstand the grounds of the enhancement\nof strength for the stiffened panel.\n Self-check of lecture content\nand current progress is conducted.",
-      "operation": "Lecture and experiments",
-      "assignments": "Students learn the theory of\nthe compression buckling\nand predict the expected\nbuckling load and the\nbuckling mode. Students\nread pp. 10 to 12 of the\ntextbook and understand\nthe calculation method\nof the local buckling\nload of the test\nspecimen.",
-      "minutes": ""
+      "content": "Review of previous class Heat convection (2) : basic formulas of heat convection",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Prepare for the lecture and practice Review the last class",
+      "minutes": "30 60"
     },
     {
       "index": "10",
-      "content": "Oral presentation and report submission\nStudents perform an oral presentation\non three kinds of buckling experiments.\nUsing experimental data and a comparison\nbetween test results and the theoretical\npredicted value, students investigate\nthe load resistance capability of\nthe stiffened panels. In the oral\npresentation, students can\nappropriately cope with various\nquestions by having researched\nthe reference documents.\nSelf-check of current progress is\nconducted.",
-      "operation": "Oral presentation and\nreport submission",
-      "assignments": "Students should perform\npreparations for their\noral presentation and\nthe submitted report.\nStudents should\nunderstand the style\nof the submitted report\nby reading pp. 13 to 14\nof the textbook and\nalso prepare for questions\nin the oral presentation\nby reviewing the related\ndocuments for the concept\nof stiffened panels.",
-      "minutes": ""
+      "content": "Review of previous class Heat convection (3) : non-dimensional parameter governing heat convection",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Prepare for the lecture and practice Review the last class",
+      "minutes": "30 60"
     },
     {
       "index": "11",
-      "content": "Flight dynamics\nEquipment: Flight demonstration wind tunnel\nFlight dynamics test (1): aerodynamic properties\nInvestigation of lift characteristics of the\naircraft model as the angle of attack is varied.\nComparison between experimental data and\ntheoretical analysis.\nSelf-check the content of the lecture,\nexperiments and theory.",
-      "operation": "Lecture and experiments\nSelf-check",
-      "assignments": "Read textbook pp. 21-35\nCreate 1st report",
-      "minutes": "120"
+      "content": "Review of previous class Experimental formula for heat convection on flat plate Exercises on heat convection",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Prepare for the lecture and practice Review the last class",
+      "minutes": "30 60"
     },
     {
       "index": "12",
-      "content": "Flight dynamics test (2): trim and neutral\npoints\nInvestigation of static stability and neutral\npoints of the aircraft model as the center of\ngravity moves.\nComparison between experimental data and\ntheoretical analysis.\nSelf-check the content of the lecture,\nexperiments and theory.",
-      "operation": "Lecture and experiments\nSelf-check",
-      "assignments": "Read textbook pp. 36 to 45\nCreate 2nd report",
-      "minutes": "120"
+      "content": "Test (3) : classes 9 to 11",
+      "operation": "Test Lecture and practice Self-check",
+      "assignments": "Prepare for the test and lecture Review the test contents and the lecture",
+      "minutes": "120 60"
     },
     {
       "index": "13",
-      "content": "Flight dynamics test (3): short period\noscillation and phugoid oscillation\nInvestigation of dynamic stability of the\naircraft model as free flight varies.\nComparison between experimental data and\ntheoretical analysis.\nSelf-check the content of the lecture,\nexperiments and theory.",
-      "operation": "Lecture and experiments\nSelf-check",
-      "assignments": "Read textbook pp. 46 to 51\nCreate 3rd report",
-      "minutes": "120"
+      "content": "Comprehensive exercise (1)",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Prepare for the practice Review the last class",
+      "minutes": "60 60"
     },
     {
       "index": "14",
-      "content": "Flight dynamics test\n(4): stalling\nInvestigation of stall characteristics of\naircraft model using flow visualization.\nSelf-check the content of the lecture,\nexperiments and theory.",
-      "operation": "Lecture and experiments\nSelf-check",
-      "assignments": "Read textbook pp. 52 to 56",
-      "minutes": "120"
+      "content": "Final examination Comprehensive exercise (2)",
+      "operation": "examination Lecture and practice Self-check",
+      "assignments": "Prepare for the exam Self-reflection",
+      "minutes": "120 30"
     },
     {
       "index": "15",
-      "content": "Oral presentation and integrated learning\nReview and self-evaluation",
-      "operation": "Presentation\nReview and self-evaluation",
-      "assignments": "Prepare to submit second\nreport and oral presentation.\nSelf-evaluation on\nachievement in this course.",
-      "minutes": "90"
+      "content": "Comprehensive exercise (3) Self-evaluation",
+      "operation": "Lecture nd interactive activities Self-evaluation",
+      "assignments": "Review the contents of the exam",
+      "minutes": "30 30"
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　E129-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Aeronautics and Astronautics(〜2024)\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                航空システム専門実験・演習Ａ\n                Aeronautics Major Lab/Exercises A\n\n              3\n              E129-01\n\n                2026年度\n\n                3rd year 1st semester3rd year 2nd semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  YOSHIDA Keishiro, AKASAKA Takeshi, OGURI Kazuyuki\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Planning\n2.Performing\n3.Summarizing\n4.Presentation\n5.Aerospace engineering\n\n              Students will:\n(1)learn the method and theory of a selected basic subject, and perform\n   experiment and practice on selected subject.\n(2)acquire deeper understanding and ability to apply engineering subjects.\n(3)learn how to write the experimental method in an experiment report.\n(4)learn how to create presentations on experiments and their results.\n\n              授業の概要および学習上の助言\n\n              Students will carry out the following experiments in Exercise A. Details on the experiments can be confirmed in the textbook.\n① Molding and evaluation of CFRPs (carbon fiber reinforced plastics)\n② Strength evaluation of the thin sheet structure with stiffeners (Semi-monocoque structure)\n③ Flight dynamics\nStudents attending the lecture will be divided into three groups (A, B, and C). Group A will carry out experiment ① for five weeks and then theme ② for the next five weeks and finally theme ③ for another five weeks. Group B will follow the order of ②→③→① and group C the order of ③→①→②. In addition, class details are distributed at the time of the start of each experiment theme.\nIt is also important to utilize AI and open data as assistance to own learning.\n\n              教科書および参考書・リザーブドブック\n\n              Textbook \"Aerospace Major Lab/Exercises AB\" published by Kanazawa Institute of Technology\n\n              履修に必要な予備知識や技能\n\n              Student should read the textbook and handout before an experiment and understand what kind of experiment they will be carrying out. In addition, students should make a lesson report before a class as preparation, if necessary for that class.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                F,M\n                Be able to plan an experiment and carry it out independently based on knowledge learned.\n\n                ②\n                F,M\n                Be able to carry out tests safely based on an understanding of the principle of an experiment and the measuremen\n\n                ③\n                F,M,L\n                Be able to arrange test data using computers and explain the key and problem appropriately.\n\n                ④\n                F,M,D\n                Be able to reliably interpret the results of an experiment and evaluate the validity of the test data.\n\n                ⑤\n                F,M\n                Be able to explain the obtained test data reasonably by comparing it with an analytical solution.\n\n                ⑥\n                F\n                Be able to summarize the experimental results in a report, submit it before a deadline, and explain them.\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                0\n\n                0\n\n                50\n\n                40\n\n                0\n\n                10\n\n                0\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                0\n\n                0\n\n                50\n\n                40\n\n                0\n\n                10\n\n  ",
-  "courseId": "2026:fall:E129-01:0:209",
+  "rawText": "金沢工業大学 学習支援計画書 E121-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Aeronautics\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n熱流体工学\nIntroduction to Thermofluids  2 E121-01  2024年度\n 3rd year 1st semester  修学規程第4条を参照\n    担当教員名\n HIROMITSU Nagayoshi\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Energy Exchange Process 2.Exergy 3.Engine Cycle 4.Heat Transfer 5.Regional collaboration  Students will learn : 1. the energy exchange processes and systems (1)energy exchange processes and exergy (2)jet engines as thermodynamic cycle 2. the heat transfer process in machine element parts conduction, convection, radiation\n    授業の概要および学習上の助言   This is a basic course on thermofluids. We will cover the following materials: 1. Lecture on engine system and principle of energy exchange process, exercises. (1)overview (2)energy exchange processes and exergy, exercises. (3)jet engine cycle and performance calculation, exercises. 2. Lecture on basics of heat transfer Fourier law on heat conduction and application to simple models. non-dimensional parameter governing heat convection and application to simple models. Students will also learn about advanced issues such as radiation. Students are expected to understand the meaning of terms and formulas. Students are expected to solve advanced exercises on their own. Students should be aware of the teacher's instructions in the class, because the schedules of lectures, quizzes, tests and reports may change as the class progresses.\n    教科書および参考書・リザーブドブック   Textbooks: Mechanical Engineering Series 2 “Thermodynamics”, Asakura shoten Reference books : \"Heat transfer engineering\", Morikita Syuppan , \"Hajimetemanabu idougenshouron\", Morikita Syuppan\n    履修に必要な予備知識や技能   Acquisition of Fluid Dynamics and Thermodynamics Sufficient skill in mathematics (especially differential / integral calculations) How to use a scientific calculator\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① D Be able to explain basic concept of energy exchange.   ② D,J,M Be able to explain jet engine and piston engine cycle calculations.   ③ D,J,M Be able to calculate basic heat conduction and heat convection.   ④     ⑤     ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 30 40 30 0 0 0 0 100     指標と評価割合 総合評価割合 30 40 30 0 0 0 0 100   総合力指標 知識を取り込む力 30 40 30 0 0 0 0 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ There is an exam at the end of the semester to evaluate students' achievement. The calculator specified in this department can be used.   ② レ   ③ レ   ④     ⑤     ⑥     クイズ\n小テスト ① レ There are tests at the end of each category to confirm the level of understanding. The calculator specified in this department can be used on every test. It is necessary to understand the idea behind the formulas.   ② レ   ③ レ   ④     ⑤     ⑥     レポート ① レ Students will be evaluated on several reports.   ② レ   ③ レ   ④     ⑤     ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ①      ②     ③     ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     (1) Explain the concept of the energy exchange mechanism. (2) On the basis of the concept of the energy exchange mechanism, formulate the calculation of actual engine performance. (3) Explain the concept of heat transfer and formulate it correctly. (1) Explain the means of the energy exchange mechanism. (2) Calculate engine performance using the formulated equations. (3) Explain the meaning of heat transfer and calculate heat transfer using the formulated equations.\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動し",
+  "courseId": "2024:spring:E109-01:0:209",
   "language": "en"
 }

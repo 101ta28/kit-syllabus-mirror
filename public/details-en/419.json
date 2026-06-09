@@ -1,52 +1,49 @@
 {
   "sourceIndex": 419,
   "sourceUrl": "/opsyllabus/kitos0110/419/1",
-  "importedAt": "2026-06-08T09:34:01.588Z",
-  "title": "プロジェクトデザインⅢ（松下裕研究室）",
-  "subtitle": "Design Project III(Matsushita Yutaka)",
-  "courseType": "Major ProgramMajor Project Courses",
-  "credits": "8",
-  "term": "2026年度\n\n                All year",
+  "importedAt": "2026-06-09T01:29:22.816Z",
+  "title": "組込みシステム",
+  "subtitle": "Embedded System",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "2",
+  "term": "2024年度\n 2nd year 2nd semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "MATSUSHITA Yutaka"
+    "TAKAGO Daisuke",
+    "TAMURA Osamu"
   ],
   "keywords": [
-    "Problem/solution",
-    "Video",
-    "Web site",
-    "Kansei evaluation",
-    "Regional cooperation"
+    "Microcontroller 2.Interruption Control 3.Timer/Counter 4.Serial Communication"
   ],
-  "educationalGoal": "This course integrates what has been learned so far. The purpose of this course is to provide students with opportunities to discover problems (e.g., usability, response time) that are involved in the use of digital contents (videos and websites) and to propose solutions. In order to create digital contents useful for people and society, students will not only create digital contents based on the knowledge they have learned so far but will also assess the physiological properties and emotional states of people using the contents.",
-  "advice": "Our laboratory aims to teach mastery of the techniques used to effectively edit scenes of videos and to design attractive websites.\n\nIn order to create digital contents that people can easily use and enjoy, the assessment of their physiological properties and emotional states is just as important as the technique used to create the contents.\n\nTherefore, aiming to develop a human sensory measurement technology based on data analysis methods and psychological knowledge, students will use their acquired knowledge to create novel digital contents.\n\nLearning Tips:\nStudents of this course are expected to take a full year to solve the problems that they have raised. To ensure this work progresses smoothly, it is important that their research themes be set properly. Indeed, if students set a research theme to which they are strongly committed, they will be able to devote their energies to acquiring necessary knowledge and deriving new ideas, even when they experience difficulties.\n\nAdditionally, although some may feel that bibliographical search and information gathering process are redundant when determining themes, students should be aware that they are extremely helpful for solving related problems.",
-  "books": "",
-  "requiredKnowledge": "Students are required to have completed all the prerequisite subjects of the department.\n\nStudents must be able to generalize what they have learned from the first to third year.\n\nStudents are expected to have mastered some of the techniques used for creating digital contents or a technique of programming.",
+  "educationalGoal": "In this course, students will learn the basic mechanisms of microcontrollers and embedded programming.",
+  "advice": "This course covers the following topics: 1. Embedded programming with C/C ++ and assembly language. 2. Basics of microcontroller programming: digital I/O, analog digital conversion, pulse width modulation, and dynamic scanning.",
+  "books": "ISBN-13 : 978-4764905610",
+  "requiredKnowledge": "Students of this course are expected to have the following: 1. C programming skills. 2. Understanding of the differences between IO mapped register and memory mapped register.",
   "activityGoals": [
     {
       "index": "①",
-      "type": "AGO",
-      "body": "Be able to demonstrate basic ability as a creative engineer by setting a problem and providing its solution."
+      "type": "I,J,K,L,M,N,O",
+      "body": "Be able to program using GPIO."
     },
     {
       "index": "②",
-      "type": "ACDH",
-      "body": "Be able to explain contents related to your specialized field."
+      "type": "I,J,K,L,M,N,O",
+      "body": "Be able to program using internal-timer function."
     },
     {
       "index": "③",
-      "type": "AB",
-      "body": "Be able to deepen insights into \"engineer ethics.\""
+      "type": "I,J,K,L,M,N,O",
+      "body": "Be able to program using serial communication function."
     },
     {
       "index": "④",
-      "type": "EFJKLM",
-      "body": "Be able apply specialized expertise to the project theme."
+      "type": "I,J,K,L,M,N,O",
+      "body": "Be able to program using interrupt service routine."
     },
     {
       "index": "⑤",
-      "type": "AFGN",
-      "body": "Be able to conduct CDIO-based research and development on the set project theme."
+      "type": "I,J,K,M,N,P,Q",
+      "body": "Be able to program using state machines."
     }
   ],
   "evaluationWeights": [
@@ -55,18 +52,18 @@
       "values": [
         "0",
         "0",
-        "40",
-        "40",
+        "100",
         "0",
         "0",
-        "20",
+        "0",
+        "0",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -78,18 +75,18 @@
       "values": [
         "0",
         "0",
-        "40",
-        "40",
+        "100",
         "0",
         "0",
-        "20",
+        "0",
+        "0",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -101,18 +98,18 @@
       "values": [
         "0",
         "0",
-        "40",
-        "40",
+        "100",
         "0",
         "0",
-        "20",
+        "0",
+        "0",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -133,9 +130,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -143,7 +140,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -156,9 +153,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -179,9 +176,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -190,27 +187,118 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "Satisfy an achievement rate of more than 90% for all action goals.",
-    "standard": "Satisfy an achievement rate between 60% and 80% for all action goals."
+    "ideal": "Students with an ideal achievement level can design and develop a unified complex system that can efficiently control devices.",
+    "standard": "Students with a standard achievement level can design and develop an application that can control devices."
   },
   "clipProcess": "",
   "lessons": [
     {
-      "index": "Former\n semes\n ter",
-      "content": "By reading papers related to their set research\ntheme, each student determines digital content\nto be created, clarifies the accompanying\nproblems, and then imagines solutions.\n\nBefore the summer vacation, each student will\ncreate a prototype of their content and\nidentify problems.\n\nIf necessary, students will be expected to\nacquire any missing skills during their summer\nvacation.",
-      "operation": "Each student reads papers\nand gives a presentation.\n\nThis is done in the form\nof a seminar, and all\nparticipants will discuss\nand comprehend the\ncontents.",
-      "assignments": "Students study their\nspecialized fields and\ninvestigate their project\ntheme for about nine hours\neach week.",
-      "minutes": "540\nx\n15"
+      "index": "1",
+      "content": "1) Overview of microcontroller 2) Development environment construction",
+      "operation": "Lecture and exercise",
+      "assignments": "Review: report",
+      "minutes": "180"
     },
     {
-      "index": "Latter\n semes\n ter",
-      "content": "In the first half, a preliminary experiment is\nconducted for the evaluation of a digital\ncontent. Students will recreate the content\nif necessary.\n\nIn the second half, a full-scale experiment is\nconducted, after which students analyze results,\n consider them, and derive conclusions\nrelated to the problem.\n\nUltimately, each student integrates their\nresearch results to create clear documents.",
-      "operation": "Each student reports their\n progress and analysis\nresults.\n\nIf necessary, the seminar\nis conducted on analysis\nmethods.\n\nGuidance is provided for\ncreating project reports\nand presentations.",
-      "assignments": "Students study analysis\nmethods and endeavor to\ncomplete their research\nproject for about nine hours\neach week.",
-      "minutes": "540\nx15"
+      "index": "2",
+      "content": "1) Basics of electronic circuits 2) GPIO(General Purpose Input/Output)",
+      "operation": "Lecture and exercise",
+      "assignments": "Preparation: report Review: report",
+      "minutes": "180"
+    },
+    {
+      "index": "3",
+      "content": "1) Basics of electronic circuits 2) GPIO(General Purpose Input/Output)",
+      "operation": "Lecture and exercise",
+      "assignments": "Preparation: report Review: report",
+      "minutes": "180"
+    },
+    {
+      "index": "4",
+      "content": "1) Dynamically lighting controll 2) How to write a program using a state machine",
+      "operation": "Lecture and exercise",
+      "assignments": "Preparation: report Review: report",
+      "minutes": "180"
+    },
+    {
+      "index": "5",
+      "content": "1) Dynamically lighting controll 2) How to write a program using a state machine",
+      "operation": "Lecture and exercise",
+      "assignments": "Preparation: report Review: report",
+      "minutes": "180"
+    },
+    {
+      "index": "6",
+      "content": "1) Pull-up circuit 2) Switch reading",
+      "operation": "Lecture and exercise",
+      "assignments": "Preparation: report Review: report",
+      "minutes": "180"
+    },
+    {
+      "index": "7",
+      "content": "1) Pull-up circuit 2) Switch reading",
+      "operation": "Lecture and exercise",
+      "assignments": "Preparation: report Review: report",
+      "minutes": "180"
+    },
+    {
+      "index": "8",
+      "content": "1) Pin change interruption 2) Timer interruption",
+      "operation": "Lecture and exercise",
+      "assignments": "Preparation: report Review: report",
+      "minutes": "180"
+    },
+    {
+      "index": "9",
+      "content": "1) Pin change interruption 2) Timer interruption",
+      "operation": "Lecture and exercise",
+      "assignments": "Preparation: report Review: report",
+      "minutes": "180"
+    },
+    {
+      "index": "10",
+      "content": "Use of compare match output",
+      "operation": "Lecture and exercise",
+      "assignments": "Preparation: report Review: report",
+      "minutes": "180"
+    },
+    {
+      "index": "11",
+      "content": "Use of compare match output",
+      "operation": "Lecture and exercise",
+      "assignments": "Preparation: report Review: report",
+      "minutes": "180"
+    },
+    {
+      "index": "12",
+      "content": "How to read the analog sensor",
+      "operation": "Lecture and exercise",
+      "assignments": "Preparation: report Review: report",
+      "minutes": "180"
+    },
+    {
+      "index": "13",
+      "content": "How to read the analog sensor",
+      "operation": "Lecture and exercise",
+      "assignments": "Preparation: report Review: report",
+      "minutes": "180"
+    },
+    {
+      "index": "14",
+      "content": "1) Pseudo-random number 2) Serial communication",
+      "operation": "Lecture and exercise",
+      "assignments": "Preparation: report Review: report",
+      "minutes": "180"
+    },
+    {
+      "index": "15",
+      "content": "1) Pseudo-random number 2) Serial communication",
+      "operation": "Lecture and exercise",
+      "assignments": "Preparation: report Review: report",
+      "minutes": "180"
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　F921-07\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Media Informatics(〜2024)\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Project Courses\n\n                プロジェクトデザインⅢ（松下裕研究室）\n                Design Project III(Matsushita Yutaka)\n\n              8\n              F921-07\n\n                2026年度\n\n                All year\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  MATSUSHITA Yutaka\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Problem/solution\n2.Video\n3.Web site\n4.Kansei evaluation\n5.Regional cooperation\n\n              This course integrates what has been learned so far. The purpose of this course is to provide students with opportunities to discover problems (e.g., usability, response time) that are involved in the use of digital contents (videos and websites) and to propose solutions. In order to create digital contents useful for people and society, students will not only create digital contents based on the knowledge they have learned so far but will also assess the physiological properties and emotional states of people using the contents.\n\n              授業の概要および学習上の助言\n\n              Our laboratory aims to teach mastery of the techniques used to effectively edit scenes of videos and to design attractive websites.\n\nIn order to create digital contents that people can easily use and enjoy, the assessment of their physiological properties and emotional states is just as important as the technique used to create the contents.\n\nTherefore, aiming to develop a human sensory measurement technology based on data analysis methods and psychological knowledge, students will use their acquired knowledge to create novel digital contents.\n\nLearning Tips:\nStudents of this course are expected to take a full year to solve the problems that they have raised. To ensure this work progresses smoothly, it is important that their research themes be set properly. Indeed, if students set a research theme to which they are strongly committed, they will be able to devote their energies to acquiring necessary knowledge and deriving new ideas, even when they experience difficulties.\n\nAdditionally, although some may feel that bibliographical search and information gathering process are redundant when determining themes, students should be aware that they are extremely helpful for solving related problems.\n\n              教科書および参考書・リザーブドブック\n\n              履修に必要な予備知識や技能\n\n              Students are required to have completed all the prerequisite subjects of the department.\n\nStudents must be able to generalize what they have learned from the first to third year.\n\nStudents are expected to have mastered some of the techniques used for creating digital contents or a technique of programming.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                AGO\n                Be able to demonstrate basic ability as a creative engineer by setting a problem and providing its solution.\n\n                ②\n                ACDH\n                Be able to explain contents related to your specialized field.\n\n                ③\n                AB\n                Be able to deepen insights into \"engineer ethics.\"\n\n                ④\n                EFJKLM\n                Be able apply specialized expertise to the project theme.\n\n                ⑤\n                AFGN\n                Be able to conduct CDIO-based research and development on the set project theme.\n\n                ⑥\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                0\n\n                0\n\n                40\n",
-  "courseId": "2026:full-year:F921-07:0:419",
+  "rawText": "金沢工業大学 学習支援計画書 E538-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Information and Computer Science\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n組込みシステム\nEmbedded System  2 E538-01  2024年度\n 2nd year 2nd semester  修学規程第4条を参照\n    担当教員名\n TAKAGO Daisuke, TAMURA Osamu\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Microcontroller 2.Interruption Control 3.Timer/Counter 4.Serial Communication  In this course, students will learn the basic mechanisms of microcontrollers and embedded programming.\n    授業の概要および学習上の助言   This course covers the following topics: 1. Embedded programming with C/C ++ and assembly language. 2. Basics of microcontroller programming: digital I/O, analog digital conversion, pulse width modulation, and dynamic scanning.\n    教科書および参考書・リザーブドブック   ISBN-13 : 978-4764905610\n    履修に必要な予備知識や技能   Students of this course are expected to have the following: 1. C programming skills. 2. Understanding of the differences between IO mapped register and memory mapped register.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① I,J,K,L,M,N,O Be able to program using GPIO.   ② I,J,K,L,M,N,O Be able to program using internal-timer function.   ③ I,J,K,L,M,N,O Be able to program using serial communication function.   ④ I,J,K,L,M,N,O Be able to program using interrupt service routine.   ⑤ I,J,K,M,N,P,Q Be able to program using state machines.   ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 0 0 100 0 0 0 0 100     指標と評価割合 総合評価割合 0 0 100 0 0 0 0 100   総合力指標 知識を取り込む力 0 0 100 0 0 0 0 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ①      ②     ③     ④     ⑤     ⑥     クイズ\n小テスト ①      ②     ③     ④     ⑤     ⑥     レポート ① レ Submitted reports are used to assess effort and achievement.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ①      ②     ③     ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     Students with an ideal achievement level can design and develop a unified complex system that can efficiently control devices. Students with a standard achievement level can design and develop an application that can control devices.\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習課題に要する標準的な時間を記載してあります。日々の自学自習時間全体としては、各授業に応じた時間(例えば2単位科目の場合、予習2時間・復習2時間/週)を取るよう努めてください。詳しくは教員の指導に従って下さい。     授業明細   回数 学習内容 授業の運営方法 学習課題(予習・復習) 時間:分※     1  1) Overview of microcontroller 2) Development environment construction Lecture and exercise Review: report  180   2  1) Basics of electronic circuits 2) GPIO(General Purpose Input/Output) Lecture and exercise Preparation: report Review: report  180   3  1) Basics of electronic circuits 2) GPIO(General Purpose Input/Output) Lecture and exercise Preparation: report Review: report  180   4  1) Dynamically lighting controll 2) How to write a program using a state machine Lecture and exercise Preparation: report Review: report  180   5  1) Dynamically lighting controll 2) How to write a program using a state machine Lecture and exercise Preparation: report Review: report  180   6  1) Pull-up circuit 2) Switch reading Lecture and exercise Preparation: report Review: report  180   7  1) Pull-up circuit 2) Switch reading Lecture and exercise Preparation: report Review: report  180   8  1) Pin change interruption 2) Timer interruption Lecture and exercise Preparation: report Review: report  180   9  1) Pin change interruption 2) Timer interruption Lecture and exercise Preparation: report Review: report  180   10  Use of compare match output Lecture and exercise Preparation: r",
+  "courseId": "2024:spring:E532-02:0:419",
   "language": "en"
 }

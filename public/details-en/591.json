@@ -1,68 +1,73 @@
 {
   "sourceIndex": 591,
   "sourceUrl": "/opsyllabus/kitos0110/591/1",
-  "importedAt": "2026-06-08T09:34:05.166Z",
-  "title": "情報ネットワーク",
-  "subtitle": "Information Networks",
-  "courseType": "Major ProgramMajor Courses",
+  "importedAt": "2026-06-09T01:29:24.511Z",
+  "title": "データアナリティックス入門",
+  "subtitle": "Introduction to Data Analytics",
+  "courseType": "Major Program\nMajor Courses",
   "credits": "2",
-  "term": "2026年度\n\n                1st year 2nd semester2nd year 2nd semester",
+  "term": "2024年度\n 1st year 1st semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "MUKAI Hiroaki",
-    "SAKAMOTO Shinji"
+    "TAKECHI Shoji"
   ],
   "keywords": [
-    "Computer networks",
-    "Protocols",
-    "OSI reference model",
-    "TCP/IP",
-    "Internet"
+    "Data Collection 2.Statistical Analysis 3.Social Survey and Questionnaire 4.Graph and Visualization 5.Data Science"
   ],
-  "educationalGoal": "This course introduces the knowledge and theory of TCP/IP protocols supporting the current Internet, and imparts various related communication technologies to students taking this course. Through this, students will gain an understanding of computer networks such as LAN and WAN to acquire basic skills related to network operations.",
-  "advice": "Students will systematically learn the basic knowledge and theories related to computer networks as shown below.\n\n1. Basic mechanisms of computer networks\n2. OSI reference model and TCP/IP\n3. Physical layer and datalink layer\n4. Network layer and transport layer\n5. Routing protocol and application layer",
-  "books": "textbooks, reference books, reserved books",
-  "requiredKnowledge": "Basic knowledge and skills (binary number calculation, programming, etc.) related to first-year computer learning are required.",
+  "educationalGoal": "In this course, students will: (1) acquire a basic knowledge of data analytics. (2) learn how to collect, aggregate, and visualize data based on questionnaire surveys. (3) learn how to use statistical methods of sampling.",
+  "advice": "To analyze data properly, the following four abilities are required: 1. The ability to collect data according to purpose and hypothesized issues. 2. The ability to aggregate data in a table according to the data format. 3. The ability to display data visually using graphs. 4. The ability to verify hypotheses with statistical methods. Students will acquire abilities 1 to 3 mainly through the questionnaire survey exercises in the first half of the course; ability 4 will be learned through exercises using sample data in the second half of the course.",
+  "books": "Textbook : 統計学〈1〉データ分析の基礎 オフィシャルスタディノート 改定第2版(Japanese book) Reference book : 図解入門ビジネスアンケート調査とデータ解析の仕組みがよ~くわかる本[第2版](Japanese book) Reserved book : アンケート調査入門―失敗しない顧客情報の読み方・まとめ方(Japanese book)",
+  "requiredKnowledge": "Understanding the meaning of the average, variance, and standard deviation formulas, scatter plots, and correlation coefficients learned in high school mathematics.",
   "activityGoals": [
     {
       "index": "①",
-      "type": "I",
-      "body": "Be able to explain the basic mechanisms of computer networks."
+      "type": "A,B",
+      "body": "Be able to understand the concept of data analytics."
     },
     {
       "index": "②",
-      "type": "I,Q",
-      "body": "Be able to explain the functions of each layer in the OSI reference model and TCP/IP protocols."
+      "type": "D,F,G",
+      "body": "Be able to plan a questionnaire survey."
     },
     {
       "index": "③",
-      "type": "I,Q",
-      "body": "Be able to explain the basic mechanisms of the Internet."
+      "type": "G,L",
+      "body": "Be able to create and improve a questionnaire sheet."
     },
     {
       "index": "④",
-      "type": "I,K",
-      "body": "Be able to perform network diagnostics using basic network commands and tools."
+      "type": "D,J",
+      "body": "Be able to use simple/cross-tabulation to analyze questionnaire results."
+    },
+    {
+      "index": "⑤",
+      "type": "D,E,J",
+      "body": "Be able to be to produce pie, bar, and scatter charts using Excel."
+    },
+    {
+      "index": "⑥",
+      "type": "D,G,L",
+      "body": "Be able to test a hypothesis using confidence intervals and various hypothesis testing methods."
     }
   ],
   "evaluationWeights": [
     {
       "label": "総合評価割合",
       "values": [
-        "40",
-        "40",
-        "20",
+        "30",
+        "30",
+        "30",
         "0",
         "0",
         "0",
-        "0",
+        "10",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -72,20 +77,20 @@
     {
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
-        "40",
-        "40",
-        "20",
+        "30",
+        "30",
+        "30",
         "0",
         "0",
         "0",
-        "0",
+        "10",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -95,20 +100,20 @@
     {
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
-        "40",
-        "40",
-        "20",
+        "30",
+        "30",
+        "30",
         "0",
         "0",
         "0",
-        "0",
+        "10",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -129,9 +134,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -139,7 +144,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -152,9 +157,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -175,9 +180,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -186,118 +191,118 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "By the end of the course, students should be able to explain the following items systematically related to computer networks:\n\n1. Basic information and communication systems\n2. OSI reference model and TCP/IP models\n3. Physical layer and datalink layer\n4. Network layer and transport layer\n5. Routing protocol and application layer\n\nAdditionally, students should be able to use appropriate network commands and tools for network maintenance and management.",
-    "standard": "By the end of the course, students should be able to explain the basic contents of the following items related to computer networks:\n\n1. Basic information and communication systems\n2. OSI reference model and TCP/IP model\n3. Physical layer and datalink layer\n4. Network layer and transport layer\n5. Routing protocol and application layer\n\nAdditionally, students should be able to use appropriate network commands and tools for basic network diagnostics."
+    "ideal": "Understand the purpose and issues of data analysis; be able to collect data through questionnaire surveys and reach meaningful conclusions based on appropriate visualization methods.",
+    "standard": "Understand the purpose and issues of data analysis; create a questionnaire. Visually display data using a graph (but not necessarily always reach proper conclusions)."
   },
   "clipProcess": "",
   "lessons": [
     {
       "index": "1",
-      "content": "Overview for information & communication\nnetwork (Part 1):\nLearn the history of various communication\ntechnologies and protocol standardization.",
-      "operation": "Lecture and exercises",
-      "assignments": "Review of lecture content\n(history of information\nnetwork, etc.) and\npreparation for Chapter 1\n(basic network knowledge)\nof the textbook.",
-      "minutes": "100"
+      "content": "Course introduction Flow of data analytics Type of data",
+      "operation": "Lecture and interactive activities",
+      "assignments": "Read the textbook Repeat the exercise quiz",
+      "minutes": "200"
     },
     {
       "index": "2",
-      "content": "Overview for information & communication\nnetwork (Part 2):\nOutline network technologies and usage\npatterns in recent years and learn about their\nrelationship with this course.",
-      "operation": "Lecture and exercises",
-      "assignments": "Review of lecture contents\n(current network usage) and\npreparation for Chapter 2\n(basic knowledge of TCP/IP)\nof the textbook.",
-      "minutes": "100"
+      "content": "Questionnaire surveys (1) Social survey Procedure of the survey Creation of the survey sheet",
+      "operation": "Lecture and interactive activities",
+      "assignments": "Read the textbook and reserved book Complete the questionnaire sheet",
+      "minutes": "260"
     },
     {
       "index": "3",
-      "content": "Fundamentals of TCP/IP:\nLearn the basic principles of TCP/IP networks,\nthe mechanisms and roles of layering and\nencapsulation using the OSI reference model,\ncoexistence of different models within a\nnetwork, and multiprotocol networks.",
-      "operation": "Lecture and exercises",
-      "assignments": "Review of lecture contents\n(OSI reference model and TCP/\nIP), and preparation for\nChapter 3 (Datalink) of the\ntextbook.",
-      "minutes": "100"
+      "content": "Questionnaire surveys (2) Method of the survey and question item Brushing up the survey sheet",
+      "operation": "Lecture and interactive activities",
+      "assignments": "Read the textbook and reserved book Brush up the questionnaire sheet",
+      "minutes": "260"
     },
     {
       "index": "4",
-      "content": "Datalink (Part 1):\nLearn about datalink systems, MAC address,\nEthernet, etc.",
-      "operation": "Lecture and exercises",
-      "assignments": "Review and preparation of\nlecture contents\n(various datalink systems).",
-      "minutes": "100"
+      "content": "Qualitative data (1) Aggregation by frequency distribution table Statistical graph types and selection",
+      "operation": "Lecture and interactive activities",
+      "assignments": "Read the textbook and look up the terminology Repeat the exercise quiz",
+      "minutes": "260"
     },
     {
       "index": "5",
-      "content": "Datalink (Part 2):\nLearn about wireless communication, PPP,\npublic access network, etc.",
-      "operation": "Lecture and exercises",
-      "assignments": "Review of lecture contents\n(various datalink systems),\nand preparation for Chapter 4\n(IP protocol) of the\ntextbook.",
-      "minutes": "100"
+      "content": "Qualitative data (2) Cross-tabulation evaluation Creating multiple cross-tabulation tables",
+      "operation": "Lecture and interactive activities",
+      "assignments": "Read the textbook and look up the terminology Repeat the exercise quiz",
+      "minutes": "260"
     },
     {
       "index": "6",
-      "content": "IP protocol:\nLearn about IP, IP address (IPv4/IPv6),\nrouting, IP segmentation and reconstruction.",
-      "operation": "Lecture and exercises",
-      "assignments": "Review not only the basic\ncontents of IP and IP address\ncalculation.",
-      "minutes": "100"
+      "content": "Quantitative data (1) Frequency distribution table and histogram Using boxplots",
+      "operation": "Lecture and interactive activities",
+      "assignments": "Read the textbook and look up the terminology Repeat the practice quiz",
+      "minutes": "260"
     },
     {
       "index": "7",
-      "content": "IP related technologies:\nLearn about DNS, ARP, ICMP, DHCP, NAT, etc.",
-      "operation": "Lecture and exercises",
-      "assignments": "Review of lecture contents\n(IP-related technologies)\nand preparation for Chapter 5\n(Technologies related to IP)\nof the textbook.",
-      "minutes": "100"
+      "content": "Quantitative data (2) Typical value of distribution Magnitude of variation Standard deviation and disparity",
+      "operation": "Lecture and interactive activities",
+      "assignments": "Read the textbook and look up the terminology Repeat the practice quiz",
+      "minutes": "260"
     },
     {
       "index": "8",
-      "content": "Midterm Review:\nExam or exercises will be conducted to deepen\nunderstanding of the content and exercises\nrelating to the lectures that have been given\nthus far.",
-      "operation": "Exam or exercises",
-      "assignments": "Review of the contents of\nthe lectures learned in the\nfirst half.\nPreparation for Chapter 6 (TCP\n and UDP) of the\ntextbook.",
-      "minutes": "100"
+      "content": "Mid-semester Exam Confirmation of the acquisition of basic knowledge",
+      "operation": "Lecture and interactive activities",
+      "assignments": "Prepare for the exam",
+      "minutes": "260"
     },
     {
       "index": "9",
-      "content": "TCP and UDP (Part 1):\nLearn about TCP, UDP, port number, window\ncontrol, retransmission control, flow control,\nand congestion control.",
-      "operation": "Lecture and exercises",
-      "assignments": "Review and preparation for\nChapter 6 (TCP and UDP) of\nthe textbook.",
-      "minutes": "100"
+      "content": "Correlation (1) Correlation and scatter plot Stratified scatter plot Correlation coefficient",
+      "operation": "Lecture and interactive activities",
+      "assignments": "Read the textbook and look up the terminology Repeat the practice quiz",
+      "minutes": "260"
     },
     {
       "index": "10",
-      "content": "TCP and UDP (Part 2):\nLearn about TCP, UDP, port number, window\ncontrol, retransmission control, flow control,\nand congestion control. Additionally,\nexercises using these protocols will be\nconducted.",
-      "operation": "Lecture and exercises",
-      "assignments": "Review of Chapter 6\n(TCP and UDP) and preparation\nfor Chapter 7\n(Routing Protocol) of the\ntextbook.",
-      "minutes": "100"
+      "content": "Correlation (2) Spurious correlation Points to note for correlation coefficient Simple regression analysis",
+      "operation": "Lecture and interactive activities",
+      "assignments": "Read the textbook and look up the terminology Repeat the practice quiz",
+      "minutes": "260"
     },
     {
       "index": "11",
-      "content": "Routing Protocol:\nLearn about static routing, dynamic routing,\nand routing algorithms such as RIP and OSPF.",
-      "operation": "Lecture and exercises",
-      "assignments": "Review of lecture contents\n(Routing Protocol) and\npreparation for Chapter 8\n(Application Protocol) of the\ntextbook.",
-      "minutes": "100"
+      "content": "Data in chronological order Standardization of time series graph Moving average Standardization of chronological order data",
+      "operation": "Lecture and interactive activities",
+      "assignments": "Read the textbook and look up the terminology Repeat the practice quiz",
+      "minutes": "260"
     },
     {
       "index": "12",
-      "content": "Application Protocol:\nLearn about the server-client communication\nmechanism using the TCP/IP protocol and\nactually use various protocols.",
-      "operation": "Lecture and exercises",
-      "assignments": "Review of lecture contents\n(various protocols in\nApplication layer) and\npreparation for Chapter 9\n(security) and appendix\n(Physical layer) of the\ntextbook.",
-      "minutes": "100"
+      "content": "Utilization of official statistics Establishment of public statistical system e-Stat Sampling error and probability",
+      "operation": "Lecture and interactive activities",
+      "assignments": "Read the textbook and look up the terminology Repeat the practice quiz",
+      "minutes": "260"
     },
     {
       "index": "13",
-      "content": "Security and Appendix (Physical layer):\nLearn about the importance of network security\nin the Internet, its realization technologies\nand physical layer.",
-      "operation": "Lecture and exercises",
-      "assignments": "Review of lecture content and\nreview for final exam.",
-      "minutes": "100"
+      "content": "Using Excel Integrated learning",
+      "operation": "Lecture and interactive activities",
+      "assignments": "Prepare for the exam",
+      "minutes": "260"
     },
     {
       "index": "14",
-      "content": "General exercise and final exam of achievement\nconfirmation test:\nThrough lectures by external lecturers,\nstudents will deepen their understanding of\nwhat they have learned so far, and confirm\nwhether they have internalized the knowledge\nand skills they have learned.",
-      "operation": "Lectures by external\nlecturers & written exam",
-      "assignments": "Review what you have learned\nso far.",
-      "minutes": "100"
+      "content": "Final exam Self-reflection",
+      "operation": "Exam and review Self-reflection",
+      "assignments": "Review exam results",
+      "minutes": "330"
     },
     {
       "index": "15",
-      "content": "Self-evaluate achievement and general\nexercise:\nReview the returned answer-sheet and confirm\nthe level of understanding of the lecture.\nThrough exercises, students will deepen their\nunderstanding of what they have learned.",
-      "operation": "Self-check and exercises\n(LAN-cable fabrication)",
-      "assignments": "Review what you have learned\nso far.",
-      "minutes": "100"
+      "content": "Self-evaluation based on exam results",
+      "operation": "Interactive activities Self-evaluation",
+      "assignments": "",
+      "minutes": "260"
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　C006-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Information and Computer Science\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                情報ネットワーク\n                Information Networks\n\n              2\n              C006-01\n\n                2026年度\n\n                1st year 2nd semester2nd year 2nd semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  MUKAI Hiroaki, SAKAMOTO Shinji\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Computer networks\n2.Protocols\n3.OSI reference model\n4.TCP/IP\n5.Internet\n\n              This course introduces the knowledge and theory of TCP/IP protocols supporting the current Internet, and imparts various related communication technologies to students taking this course. Through this, students will gain an understanding of computer networks such as LAN and WAN to acquire basic skills related to network operations.\n\n              授業の概要および学習上の助言\n\n              Students will systematically learn the basic knowledge and theories related to computer networks as shown below.\n\n1. Basic mechanisms of computer networks\n2. OSI reference model and TCP/IP\n3. Physical layer and datalink layer\n4. Network layer and transport layer\n5. Routing protocol and application layer\n\n              教科書および参考書・リザーブドブック\n\n              textbooks, reference books, reserved books\n\n              履修に必要な予備知識や技能\n\n              Basic knowledge and skills (binary number calculation, programming, etc.) related to first-year computer learning are required.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                I\n                Be able to explain the basic mechanisms of computer networks.\n\n                ②\n                I,Q\n                Be able to explain the functions of each layer in the OSI reference model and TCP/IP protocols.\n\n                ③\n                I,Q\n                Be able to explain the basic mechanisms of the Internet.\n\n                ④\n                I,K\n                Be able to perform network diagnostics using basic network commands and tools.\n\n                ⑤\n\n                ⑥\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                40\n\n                40\n\n                20\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                40\n\n                40\n\n                20\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                40\n\n                40\n\n                20\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  コラボレーションとリーダーシップ\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  発表・表現・伝達する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  学習に取組む姿勢・意欲\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n          ",
-  "courseId": "2026:fall:C006-01:0:591",
+  "rawText": "金沢工業大学 学習支援計画書 F136-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Management Systems\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\nデータアナリティックス入門\nIntroduction to Data Analytics  2 F136-01  2024年度\n 1st year 1st semester  修学規程第4条を参照\n    担当教員名\n TAKECHI Shoji\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Data Collection 2.Statistical Analysis 3.Social Survey and Questionnaire 4.Graph and Visualization 5.Data Science  In this course, students will: (1) acquire a basic knowledge of data analytics. (2) learn how to collect, aggregate, and visualize data based on questionnaire surveys. (3) learn how to use statistical methods of sampling.\n    授業の概要および学習上の助言   To analyze data properly, the following four abilities are required: 1. The ability to collect data according to purpose and hypothesized issues. 2. The ability to aggregate data in a table according to the data format. 3. The ability to display data visually using graphs. 4. The ability to verify hypotheses with statistical methods. Students will acquire abilities 1 to 3 mainly through the questionnaire survey exercises in the first half of the course; ability 4 will be learned through exercises using sample data in the second half of the course.\n    教科書および参考書・リザーブドブック   Textbook : 統計学〈1〉データ分析の基礎 オフィシャルスタディノート 改定第2版(Japanese book) Reference book : 図解入門ビジネスアンケート調査とデータ解析の仕組みがよ~くわかる本[第2版](Japanese book) Reserved book : アンケート調査入門―失敗しない顧客情報の読み方・まとめ方(Japanese book)\n    履修に必要な予備知識や技能   Understanding the meaning of the average, variance, and standard deviation formulas, scatter plots, and correlation coefficients learned in high school mathematics.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① A,B Be able to understand the concept of data analytics.   ② D,F,G Be able to plan a questionnaire survey.   ③ G,L Be able to create and improve a questionnaire sheet.   ④ D,J Be able to use simple/cross-tabulation to analyze questionnaire results.   ⑤ D,E,J Be able to be to produce pie, bar, and scatter charts using Excel.   ⑥ D,G,L Be able to test a hypothesis using confidence intervals and various hypothesis testing methods.\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 30 30 30 0 0 0 10 100     指標と評価割合 総合評価割合 30 30 30 0 0 0 10 100   総合力指標 知識を取り込む力 30 30 30 0 0 0 10 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ There will be a written exam at the end of the semester to confirm what the student has learned from the lectures and exercises.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     クイズ\n小テスト ① レ There will be a mid-semester test to confirm the student's acquisition of basic knowledge.   ② レ   ③ レ   ④ レ   ⑤     ⑥     レポート ① レ Students will be evaluated on their mini-reports and summary report.   ② レ   ③ レ   ④ レ   ⑤     ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ① レ Students will be evaluated on their attendance and attitude in the course.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     Understand the purpose and issues of data analysis; be able to collect data through questionnaire surveys and reach meaningful conclusions based on appropriate visualization methods. Understand the purpose and issues of data analysis; create a questionnaire. Visually display data using a graph (but not necessarily always reach proper conclusions).\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習課題に要する標準的な時間を記載してあります。日々の自学自習時間全体としては、各授業に応じた時間(例えば2単位科目の場合、予習2時間・復習2時間/週)を取るよう努めてください。詳しくは教員の指導に従って下さい。     授業明細   回数 学習内容 授業の運営方法 学習課題(予習・復習) 時間:分※     1  Course introduction Fl",
+  "courseId": "2024:fall:F133-01:0:591",
   "language": "en"
 }

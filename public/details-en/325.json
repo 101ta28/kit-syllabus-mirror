@@ -1,40 +1,44 @@
 {
   "sourceIndex": 325,
   "sourceUrl": "/opsyllabus/kitos0110/325/1",
-  "importedAt": "2026-06-08T09:33:59.669Z",
-  "title": "ネットワークプログラミング",
-  "subtitle": "Network Programming",
-  "courseType": "Major ProgramMajor Courses",
+  "importedAt": "2026-06-09T01:29:22.052Z",
+  "title": "電気回路Ⅳ(電子工学)",
+  "subtitle": "Electric Circuits IV for Electronic Engineering",
+  "courseType": "Major Program\nMajor Courses",
   "credits": "2",
-  "term": "2026年度\n\n                3rd year 2nd semester",
+  "term": "2024年度\n 3rd year 1st semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "TAMURA Osamu"
+    "HIROTA Tetsuo",
+    "FUKASAWA Toru"
   ],
   "keywords": [
-    "Linux Programming",
-    "Inter Process Communication",
-    "Socket Communications"
+    "Distributed-Constant Circuits 2.Reflection Coefficient 3.Smith Chart 4.Scattering Matrix 5.Impedance Matching"
   ],
-  "educationalGoal": "Today, many computer systems around the world are connected to each other. In these systems, network operating systems such as Linux and Windows are used. In this course, students will learn about the role of the network operating system (OS) and its basic principles. In addition, students will learn about the implementation methods of socket based network applications.",
-  "advice": "In this course, students will learn about socket based network programming using Linux. Accordingly, it is desirable that students fully understand the contents learned in \"Operating System\" before taking this course. In addition, it is desirable that students have sufficient skills about Linux.\n\nThe following topics are covered:\n1. Basic operation and programming of Linux.\n2. Network and protocol.\n3. Basic knowledge of socket communication.\n4. Socket programming\n5. Socket programming (concurrent server)",
-  "books": "",
-  "requiredKnowledge": "1. Linux basic operations (command line operation, pipe, redirection).\n2. C programming basics.\n3. System call programming learned in \"Operating System\" (open, close, read, write, fork, wait, exec)\n4. POSIX thread programming learned in \"Operating System\"\n5. Signal handing learned in \"Operating System\"",
+  "educationalGoal": "In the previous study of electric circuits, the physical dimensions of a circuit has been assumed to be small enough. At the higher frequencies, however, the size of the circuit must be taken into account, and voltages and currents behave as waves. In this course, students will learn the theory of distributed-constant circuits, propagation of electric waves along transmission lines. They will also study about the tools and techniques for high-frequency circuit analysis and design.",
+  "advice": "1. Voltages and currents on distributed-constant circuits 2. Reflection Coefficient, standing waves, and input impedance looking into a transmission line. 3. Smith chart 4. Impedance matching for a distributed-constant circuit 5. Scattering matrix Students are expected to understand the difference between lumped-constant circuits and distributed-constant circuits, relation between frequency and wavelength, and will learn about the equations for voltages and currents on distributed-constant circuits and their solutions. Students are also expected to learn how to use Smith chart and scattering matrix.",
+  "books": "Textbooks: Fundamentals of Transmission Lines (in Japanese) [Corona publishing] Reference books: None Reserved books: None",
+  "requiredKnowledge": "Understanding of Electric Circuits I, II and III, especially theory of alternating voltage and current. Enough skills of circuit analysis using complex numbers.",
   "activityGoals": [
     {
       "index": "①",
-      "type": "K,M,Q",
-      "body": "Be able to explain the principles of a computer network."
+      "type": "J",
+      "body": "Be able to explain the difference between lumped-constant circuits and distributed-constant circuits."
     },
     {
       "index": "②",
-      "type": "K,M,Q",
-      "body": "Be able to program with the INET domain socket.c"
+      "type": "J",
+      "body": "Be able to analyze basic lumped-constant circuits."
     },
     {
       "index": "③",
-      "type": "K,M,Q",
-      "body": "Be able to design and implement network applications."
+      "type": "J",
+      "body": "Be able to use Smith chart."
+    },
+    {
+      "index": "④",
+      "type": "J",
+      "body": "Be able to design matching circuit."
     }
   ],
   "evaluationWeights": [
@@ -52,9 +56,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -75,9 +79,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -98,9 +102,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -121,9 +125,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -131,7 +135,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -144,9 +148,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -167,9 +171,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -178,118 +182,118 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "Students with ideal achievement levels will have expert level knowledge and can explain the concepts of network programming. They will also have sufficient skills to design and implement network applications.",
-    "standard": "Students with standard achievement levels will have basic level knowledge and can explain the concepts of network programming. They will also have sufficient skills to design and implement simple network applications."
+    "ideal": "Understand the characteristics of distributed-constant circuits, propagation and reflection of waves, and can solve related problems. Understand the Smith chart and be able to apply it. Be able to design a matching circuit for a load of arbitrary impedance. Understand the scattering matrix and be able to apply it.",
+    "standard": "Reach about 70% of ideal achievement."
   },
   "clipProcess": "",
   "lessons": [
     {
       "index": "1",
-      "content": "The roles of Kernel and Processes",
-      "operation": "Lecture, exercise, and\nself-check",
-      "assignments": "Prepare programming\nenvironment (VMware, Linux)",
-      "minutes": "Review\n: 90\n\nPrepar\nation:\n 45"
+      "content": "Review of electric circuit theory and related mathematical items Voltages and currents on distributed-constant circuits",
+      "operation": "Review and lecture",
+      "assignments": "Review electric circuit theory",
+      "minutes": "200"
     },
     {
       "index": "2",
-      "content": "File Access\nSystem calls (open, read, write, close)",
-      "operation": "Lecture, exercise, and\nself-check",
-      "assignments": "",
-      "minutes": "Review\n: 90\n\nPrepar\nation:\n 45"
+      "content": "Voltages and currents on distributed-constant circuits",
+      "operation": "Lecture and practice",
+      "assignments": "Prepare chapter 1 of the textbook Review electric waves on transmission lines",
+      "minutes": "200"
     },
     {
       "index": "3",
-      "content": "File Access (blocking and no-blocking I/O)",
-      "operation": "Lecture, exercise, and\nself-check",
-      "assignments": "",
-      "minutes": "Review\n: 90\n\nPrepar\nation:\n 45"
+      "content": "Voltages and currents on distributed-constant circuits",
+      "operation": "Lecture and practice",
+      "assignments": "Review relation between reflection and load impedance",
+      "minutes": "200"
     },
     {
       "index": "4",
-      "content": "Inter Process Communication using socket INET\ndomain socket (TCP, UDP socket)",
-      "operation": "Lecture, exercise, and\nself-checkc",
-      "assignments": "",
-      "minutes": "Review\n: 90\nPrepar\nation:\n 45"
+      "content": "Voltages and currents on distributed-constant circuits Characteristics of transmission lines",
+      "operation": "Lecture and practice",
+      "assignments": "Prepare chapter 2 of the textbook Review line parameters",
+      "minutes": "200"
     },
     {
       "index": "5",
-      "content": "Details of UDP socket\nDatagram socket communication\nSystem calls (socket, sendto, recvfrom )",
-      "operation": "Lecture, exercise, and\nself-check",
-      "assignments": "",
-      "minutes": "Review\n: 90\nPrepar\nation:\n 45"
+      "content": "Characteristics of transmission lines",
+      "operation": "Lecture and practice",
+      "assignments": "Review reflection coefficient and standing wave",
+      "minutes": "200"
     },
     {
       "index": "6",
-      "content": "Details of TCP socket\nStream socket communication\nSystem calls (bind, listen, accept, connect,\nsend, recv, getsockname, getpeername)",
-      "operation": "Lecture, exercise, and\nself-check",
-      "assignments": "",
-      "minutes": "Review\n: 90\nPrepar\nation:\n 45"
+      "content": "Characteristics of transmission lines",
+      "operation": "Lecture and practice",
+      "assignments": "Review standing wave on a lossy transmission line and its input impedance",
+      "minutes": "200"
     },
     {
       "index": "7",
-      "content": "An implementation example of a simple Web\nserver",
-      "operation": "Lecture, exercise, and\nself-check",
-      "assignments": "",
-      "minutes": "Review\n: 90\nPrepar\nation:\n 45"
+      "content": "Characteristics of transmission lines",
+      "operation": "Lecture and practice",
+      "assignments": "Review relation between load impedance and the position on the Smith chart",
+      "minutes": "200"
     },
     {
       "index": "8",
-      "content": "Midterm review: understand all learning topics.",
-      "operation": "Lecture, exercise, and\nself-check",
-      "assignments": "",
-      "minutes": "Review\n: 90\nPrepar\nation:\n 45"
+      "content": "Characteristics of transmission lines Transmission of signal and power",
+      "operation": "Lecture and practice",
+      "assignments": "Review decibel Prepare chapter 3 of the textbook",
+      "minutes": "200"
     },
     {
       "index": "9",
-      "content": "Report #1 deadline\nTake a test (60 min).\nAnswers of the test and their explanations.",
-      "operation": "Quizzes and self-check",
-      "assignments": "Report #2",
-      "minutes": "Review\n: 90\nPrepar\nation:\n 45"
+      "content": "Review Practical transmission lines",
+      "operation": "Lecture and practice",
+      "assignments": "Review transmission properties of practical lines",
+      "minutes": "200"
     },
     {
       "index": "10",
-      "content": "Multi-process programming\nMulti-thread programming",
-      "operation": "",
-      "assignments": "Lecture, exercise and\nself-check",
-      "minutes": "Review\n: 90\nPrepar\nation:\n 45"
+      "content": "Impedance matching of transmission lines",
+      "operation": "Lecture and practice",
+      "assignments": "Prepare chapter 6 of the textbook",
+      "minutes": "200"
     },
     {
       "index": "11",
-      "content": "Multi-process based Concurrent server",
-      "operation": "Lecture, exercise, and\nself-check",
-      "assignments": "",
-      "minutes": "Review\n: 90\n\nPrepar\nation:\n 45"
+      "content": "Impedance matching of transmission lines",
+      "operation": "Lecture and practice",
+      "assignments": "Review impedance matching and consider it on the Smith chart",
+      "minutes": "200"
     },
     {
       "index": "12",
-      "content": "Multi-thread based Concurrent server",
-      "operation": "Lecture, exercise, and\nself-check",
-      "assignments": "",
-      "minutes": "Review\n: 90\n\nPrepar\nation:\n 45"
+      "content": "Impedance matching of transmission lines Scattering matrix",
+      "operation": "Lecture and practice",
+      "assignments": "Review Scattering matrix",
+      "minutes": "200"
     },
     {
       "index": "13",
-      "content": "Multiplexed IO based server",
-      "operation": "Lecture, exercise, and\nself-check",
-      "assignments": "",
-      "minutes": "Review\n: 90\n\nPrepar\nation:\n 45"
+      "content": "Integrated learning",
+      "operation": "Practice Self-reflection",
+      "assignments": "Prepare for the test",
+      "minutes": "200"
     },
     {
       "index": "14",
-      "content": "Final review: understand all learning topics.",
-      "operation": "Lecture, exercise, and\nself-check",
-      "assignments": "",
-      "minutes": "Review\n: 90\n\nPrepar\nation:\n 45"
+      "content": "Final exam and review",
+      "operation": "Exam and review",
+      "assignments": "Prepare for the exam",
+      "minutes": "200"
     },
     {
       "index": "15",
-      "content": "Report #2 deadline\nTake a test (60 min).\nAnswers and their explanations.",
-      "operation": "Test and self-check",
-      "assignments": "Report #2",
-      "minutes": "Review\n: 135"
+      "content": "Review",
+      "operation": "Total review and self-check",
+      "assignments": "Self-reflection and evaluation",
+      "minutes": "200"
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　E523-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Information and Computer Science(〜2024)\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                ネットワークプログラミング\n                Network Programming\n\n              2\n              E523-01\n\n                2026年度\n\n                3rd year 2nd semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  TAMURA Osamu\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Linux Programming\n2.Inter Process Communication\n3.Socket Communications\n\n              Today, many computer systems around the world are connected to each other. In these systems, network operating systems such as Linux and Windows are used. In this course, students will learn about the role of the network operating system (OS) and its basic principles. In addition, students will learn about the implementation methods of socket based network applications.\n\n              授業の概要および学習上の助言\n\n              In this course, students will learn about socket based network programming using Linux. Accordingly, it is desirable that students fully understand the contents learned in \"Operating System\" before taking this course. In addition, it is desirable that students have sufficient skills about Linux.\n\nThe following topics are covered:\n1. Basic operation and programming of Linux.\n2. Network and protocol.\n3. Basic knowledge of socket communication.\n4. Socket programming\n5. Socket programming (concurrent server)\n\n              教科書および参考書・リザーブドブック\n\n              履修に必要な予備知識や技能\n\n              1. Linux basic operations (command line operation, pipe, redirection).\n2. C programming basics.\n3. System call programming learned in \"Operating System\" (open, close, read, write, fork, wait, exec)\n4. POSIX thread programming learned in \"Operating System\"\n5. Signal handing learned in \"Operating System\"\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                K,M,Q\n                Be able to explain the principles of a computer network.\n\n                ②\n                K,M,Q\n                Be able to program with the INET domain socket.c\n\n                ③\n                K,M,Q\n                Be able to design and implement network applications.\n\n                ④\n\n                ⑤\n\n                ⑥\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                40\n\n                30\n\n                30\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                40\n\n                30\n\n                30\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                40\n\n                30\n\n                30\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  コラボレーションとリーダーシップ\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  発表・表現・伝達する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n       ",
-  "courseId": "2026:fall:E523-01:0:325",
+  "rawText": "金沢工業大学 学習支援計画書 E626-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Electrical and Electronic Engineering(2018〜)\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n電気回路Ⅳ(電子工学)\nElectric Circuits IV for Electronic Engineering  2 E626-01  2024年度\n 3rd year 1st semester  修学規程第4条を参照\n    担当教員名\n HIROTA Tetsuo, FUKASAWA Toru\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Distributed-Constant Circuits 2.Reflection Coefficient 3.Smith Chart 4.Scattering Matrix 5.Impedance Matching  In the previous study of electric circuits, the physical dimensions of a circuit has been assumed to be small enough. At the higher frequencies, however, the size of the circuit must be taken into account, and voltages and currents behave as waves. In this course, students will learn the theory of distributed-constant circuits, propagation of electric waves along transmission lines. They will also study about the tools and techniques for high-frequency circuit analysis and design.\n    授業の概要および学習上の助言   1. Voltages and currents on distributed-constant circuits 2. Reflection Coefficient, standing waves, and input impedance looking into a transmission line. 3. Smith chart 4. Impedance matching for a distributed-constant circuit 5. Scattering matrix Students are expected to understand the difference between lumped-constant circuits and distributed-constant circuits, relation between frequency and wavelength, and will learn about the equations for voltages and currents on distributed-constant circuits and their solutions. Students are also expected to learn how to use Smith chart and scattering matrix.\n    教科書および参考書・リザーブドブック   Textbooks: Fundamentals of Transmission Lines (in Japanese) [Corona publishing] Reference books: None Reserved books: None\n    履修に必要な予備知識や技能   Understanding of Electric Circuits I, II and III, especially theory of alternating voltage and current. Enough skills of circuit analysis using complex numbers.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① J Be able to explain the difference between lumped-constant circuits and distributed-constant circuits.   ② J Be able to analyze basic lumped-constant circuits.   ③ J Be able to use Smith chart.   ④ J Be able to design matching circuit.   ⑤     ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 40 30 30 0 0 0 0 100     指標と評価割合 総合評価割合 40 30 30 0 0 0 0 100   総合力指標 知識を取り込む力 40 30 30 0 0 0 0 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ There is an exam at the end of the semester to evaluate the degree of achievement.   ② レ   ③ レ   ④ レ   ⑤     ⑥     クイズ\n小テスト ① レ There tests about target abilities 1 to 4.   ② レ   ③ レ   ④ レ   ⑤     ⑥     レポート ① レ Student will be required to hand in reports on the specified task.   ② レ   ③ レ   ④ レ   ⑤     ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ①      ②     ③     ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     Understand the characteristics of distributed-constant circuits, propagation and reflection of waves, and can solve related problems. Understand the Smith chart and be able to apply it. Be able to design a matching circuit for a load of arbitrary impedance. Understand the scattering matrix and be able to apply it. Reach about 70% of ideal achievement.\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習課題に要する標準的な時間を記載してあります。日々の自学自習時間全体としては、各授業に応じた時間(例えば2単位科目の場合、予習2時間・復習2時間/週)を取るよう努めてください。詳しくは教員の指導に従って下さい。     授業明細   回数 学習内容 授業の運営方法 学習課題(予習・復習) 時間:分※     1  Review of electric circuit theory and related mathematical items Voltages and cu",
+  "courseId": "2024:fall:E618-01:0:325",
   "language": "en"
 }

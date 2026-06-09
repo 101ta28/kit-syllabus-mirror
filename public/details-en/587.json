@@ -1,78 +1,75 @@
 {
   "sourceIndex": 587,
   "sourceUrl": "/opsyllabus/kitos0110/587/1",
-  "importedAt": "2026-06-08T09:34:05.096Z",
-  "title": "プログラミングⅠ",
-  "subtitle": "Programming I",
-  "courseType": "Major ProgramMajor Courses",
-  "credits": "2",
-  "term": "2026年度\n\n                1st year 1st semester",
+  "importedAt": "2026-06-09T01:29:24.549Z",
+  "title": "経営情報専門実験・演習A",
+  "subtitle": "Management Systems Major Lab/Exercises A",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "3",
+  "term": "2024年度\n 3rd year 1st semester\n3rd year 2nd semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "SAKAMOTO Shinji",
-    "INAGAKI Mikio"
+    "HIRAMOTO Tokutaro",
+    "KITAGAWA Tatsuya",
+    "OSAWA Jun"
   ],
   "keywords": [
-    "expressions and operations",
-    "variables and data types",
-    "conditional statements",
-    "loops",
-    "functions"
+    "Business plan 2.Social impact 3.Balanced Scorecard 4.Non financial indicator 5.Metrics"
   ],
-  "educationalGoal": "The goal of this course is to be able to write and execute basic computer programs in Python. By completing this course, students are expected to obtain skills to setup an appropriate development environment on their PC, to write basic Python programs, and to execute them.",
-  "advice": "In Programming I (this course) and the subsequent course, Programming II, students will learn how to write programs in Python to accomplish certain tasks. This introductory course covers the following topics.\n\n  (1) How to install software necessary for developing programs in Python and running them.\n  (2) How to edit and save programs written in Python and execute them.\n  (3) How to combine basic building blocks of Python to accomplish certain tasks.\n\nFor (3), students will have a lot of opportunities to engage in hands-on exercises where they can acquire working knowledge of computer programming.",
-  "books": "(See Japanese syllabus)",
-  "requiredKnowledge": "There is no prerequisite course for Programming I.\n\nStudents have to bring a PC, an AC adapter, and a network cable to the class due to exercises where students are asked to write programs and upload them during class hours for later grading.  It is required to be able to turn on PC, to shutdown PC, and to type on the keyboard.  The network connection permmission is also required until the 3rd week.",
+  "educationalGoal": "This course is aimed at improving \"business application / project execution ability\", which is the learning / educational goal of the Department of Management Information. Deepen understanding of the knowledge and skills of (1) finance and (2) management (SDGs and data analysis) of specialized subjects, using activities devised in PD practice as the theme.",
+  "advice": "1) Business (financial) planning exercise Exercises to study and create business (financial) plans for activities devised in PD practice. In the exercise, the necessary data will be the primary data acquired during PD practice and the secondary data in desktop research, and active learning will be made by effectively utilizing the related learned knowledge and skills. Therefore, it is required to thoroughly review the already-learned subjects shown in the lesson details before attending the lesson. 2) Balanced Scorecard planning exercise Exercise to study and create Balanced Scorecard as tools to manage both financial and non financial performance.",
+  "books": "None",
+  "requiredKnowledge": "In business (financial) planning exercises, basic knowledge and skills to collect and analyze data from the Internet, newspapers, publications, etc., and basic knowledge and skills to create a financial plan are required.",
   "activityGoals": [
     {
       "index": "①",
-      "type": "I,J,K",
-      "body": "Be able to explain what operations it takes to run a program."
+      "type": "J,K,L,M,N,O",
+      "body": "Be able to understand and explain the elements of financial management necessary for creating a financial plan."
     },
     {
       "index": "②",
-      "type": "I,J,K",
-      "body": "Be able to assign various values to variables, and to use the print function to display their contents."
+      "type": "J,K,L,M,N,O",
+      "body": "Be able to formulate a financial plan that is consistent with social impact"
     },
     {
       "index": "③",
-      "type": "I,J,K",
-      "body": "Be able to write expressions combining properly named variables and operators, and to evaluate them."
+      "type": "J,K,L,M,N,O",
+      "body": "Be able to make both financial goal and non financial goal in their strategy"
     },
     {
       "index": "④",
-      "type": "I,J,K",
-      "body": "Be able to define lists and tuples, and to write programs that use them."
+      "type": "J,K,L,M,N,O",
+      "body": "Be able to make a story between several goals"
     },
     {
       "index": "⑤",
-      "type": "I,J,K",
-      "body": "Be able to use control flow structures such as conditional statements and loops in writing programs."
+      "type": "J,K,L,M,N,O",
+      "body": "Set proper metrics to achieve goals logically."
     },
     {
       "index": "⑥",
-      "type": "I,J,K",
-      "body": "Be able to define functions for relatively simple tasks."
+      "type": "J,K,L,M,N,O",
+      "body": "Be able to explain how to increase financial and social impact"
     }
   ],
   "evaluationWeights": [
     {
       "label": "総合評価割合",
       "values": [
-        "40",
-        "60",
+        "0",
+        "30",
+        "30",
+        "30",
         "0",
         "0",
-        "0",
-        "0",
-        "0",
+        "10",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -82,20 +79,20 @@
     {
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
-        "40",
-        "60",
+        "0",
+        "30",
+        "30",
+        "30",
         "0",
         "0",
-        "0",
-        "0",
-        "0",
+        "10",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -105,20 +102,20 @@
     {
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
-        "40",
-        "60",
+        "0",
+        "30",
+        "30",
+        "30",
         "0",
         "0",
-        "0",
-        "0",
-        "0",
+        "10",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -139,9 +136,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -149,7 +146,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -162,9 +159,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -185,9 +182,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -196,118 +193,118 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "In addition to the standard achievement levels on the right:\n(7) Be able to write clean and readable programs.\n(8) Be able to write more complex programs, for instance, with nested control flows.",
-    "standard": "(1) Be able to setup development environment on their PC and execute programs using it.\n(2) Be able to use variables: assign values to them and then evaluate them.\n(3) Be able to write appropriate expressions using variables and operators.\n(4) Be able to write programs using lists and tuples.\n(5) Be able to use if, for and while statements.\n(6) Be able to write simple functions."
+    "ideal": "・Be able to understand and explain to others the elements of financial management necessary for creating a financial plan. ・Be able to formulate a financial plan that is consistent with social impact ・Be able to make both financial and non financial goals ・Be able to make a story between goals ・Be able to explain relationship between goal index and indicators ・Be able to explain how to increase financial and social impact",
+    "standard": "・Be able to understand the elements of financial management required for financial planning. ・Be able to understand the need to formulate a financial plan that is consistent with social impact. ・Be able to understand how to make both financial and non financial goals ・Be able to understand how to make a story between goals ・Be able to understand how to make a relationship between goal index and indicators ・Be able to understand how to increase financial and social impact"
   },
   "clipProcess": "",
   "lessons": [
     {
-      "index": "1",
-      "content": "- Orientation\n- Overview of various programming languages\n- How to run programs",
-      "operation": "Lecture",
-      "assignments": "Review: read and practice\nhandouts and the section 1-1\nin the textbook",
-      "minutes": "30"
+      "index": "1,2",
+      "content": "Orientation ・ Theme selection ・ Team building ・ Points for formulating business plans",
+      "operation": "Lecture Group exercise",
+      "assignments": "Preparation: Review what you have learned in PDII, PD practice, and finance-related subjects Review: Addressing exercise-related issues.",
+      "minutes": "60 300"
     },
     {
-      "index": "2",
-      "content": "- Setup Python development environment\n- Use interactive mode\n- Write simple sequential programs and execute t\nhem",
-      "operation": "Lecture and programming\nlab",
-      "assignments": "Review: practice handouts and\nthe sections 1-2 and 1-3 in\nthe textbook",
+      "index": "3,4",
+      "content": "Business plan formulation (1)",
+      "operation": "Lecture Group exercise",
+      "assignments": "Preparation: Review what you have learned in PDII, PD practice, and finance-related subjects Review: Addressing exercise-related issues.",
+      "minutes": "60 300"
+    },
+    {
+      "index": "5,6",
+      "content": "・Simplified interim presentation ・Business plan formulation (2)",
+      "operation": "Presentation and Q & A Lecture Group exercise",
+      "assignments": "Preparation: Review what you have learned in PDII, PD practice, and finance-related subjects Review: Addressing exercise-related issues.",
+      "minutes": "60 300"
+    },
+    {
+      "index": "7,8",
+      "content": "Organizing the relationship between finance and social impact",
+      "operation": "Lecture Group exercise",
+      "assignments": "Preparation: Review what you have learned in PDII, PD practice, and finance-related subjects Review: Addressing exercise-related issues.",
+      "minutes": "60 300"
+    },
+    {
+      "index": "9,10",
+      "content": "Presentation and feedback",
+      "operation": "Presentation and Q & A Lecture",
+      "assignments": "Preparation: compile a business plan and prepare for presentation Review: Organize what you have learned and what you need to improve, and use it in your next lesson.",
+      "minutes": "240 120"
+    },
+    {
+      "index": "11,12",
+      "content": "Confirm external and internal environment Make a strategy story",
+      "operation": "Lectures and exercises",
+      "assignments": "Preparation: Review what you have learned in PDII, PD practice, and SDGs-related subjects Review: Addressing exercise-related issues.",
+      "minutes": "60 300"
+    },
+    {
+      "index": "13,14",
+      "content": "Stakeholder and internal business process",
+      "operation": "Lectures and exercises",
+      "assignments": "Preparation: Review what you have learned in PDII, PD practice, and SDGs-related subjects Review: Addressing exercise-related issues.",
+      "minutes": "60 300"
+    },
+    {
+      "index": "15,16",
+      "content": "interim presentation and social impact",
+      "operation": "Presentation and Q & A Lectures and exercises",
+      "assignments": "Preparation: Review what you have learned in PDII, PD practice, and SDGs-related subjects Review: Addressing exercise-related issues.",
+      "minutes": "60 300"
+    },
+    {
+      "index": "17,18",
+      "content": "management method for non financial indicators",
+      "operation": "Exercises, extracurricular activities",
+      "assignments": "Preparation: Review what you have learned in PDII, PD practice, and SDGs-related subjects Review: Addressing exercise-related issues.",
+      "minutes": "60 300"
+    },
+    {
+      "index": "19,20",
+      "content": "Presentation and feedback",
+      "operation": "Presentation and Q & A Lecture",
+      "assignments": "Preparation: compile a strategy map and prepare for presentation Review: Organize what you have learned and what you need to improve, and use it in your next lesson.",
+      "minutes": "240 120"
+    },
+    {
+      "index": "21,22",
+      "content": "Restructuring the business plan ①",
+      "operation": "Lecture Group exercise",
+      "assignments": "Preparation: Review what you have learned in PDII, PD practice, and data analysis-related subjects Review: Addressing exercise-related issues.",
+      "minutes": "360"
+    },
+    {
+      "index": "23,24",
+      "content": "Restructuring the business plan ②",
+      "operation": "Presentation and Q & A Lecture Group exercise",
+      "assignments": "Preparation: Review what you have learned in PDII, PD practice, and data analysis-related subjects Review: Addressing exercise-related issues.",
+      "minutes": "360"
+    },
+    {
+      "index": "25,26",
+      "content": "・Simplified interim presentation ・Investigating important variables",
+      "operation": "Group exercise",
+      "assignments": "Preparation: Review what you have learned in PDII, PD practice, and data analysis-related subjects Review: Addressing exercise-related issues.",
+      "minutes": "420"
+    },
+    {
+      "index": "27,28",
+      "content": "・Analysis of survey results ・Reflection in business planning and social impact",
+      "operation": "Lecture Group exercise",
+      "assignments": "Preparation: Review what you have learned in PDII, PD practice, and data analysis-related subjects Review: Addressing exercise-related issues.",
+      "minutes": "200 300"
+    },
+    {
+      "index": "29,30",
+      "content": "Final presentation Wrap up the hole materials Self reflection",
+      "operation": "Presentation and Q & A Lecture",
+      "assignments": "Review what you have learned.",
       "minutes": "60"
-    },
-    {
-      "index": "3",
-      "content": "- Variables\n  - assign\n  - refer\n- Data types\n  - integer\n  - floating point value\n  - string\n  - boolean value\n- Arithmetic operations",
-      "operation": "Lecture and programming\nlab",
-      "assignments": "Preview: watch lecture videos\nand practice the sections 1-4\nand 2-1 in the textbook\n\nReview: Online homework",
-      "minutes": "60\n\n60"
-    },
-    {
-      "index": "4",
-      "content": "- Variables and data types\n  - data type conversion\n- Using modules",
-      "operation": "Lecture and programming\nlab",
-      "assignments": "Preview: watch lecture videos\nand practice the sections 2-2\nand 2-4 in the textbook\n\nReview: Online homework",
-      "minutes": "60\n\n60"
-    },
-    {
-      "index": "5",
-      "content": "- Conditional statements\n  - if statement\n  - comparison operators",
-      "operation": "Lecture and programming\nlab",
-      "assignments": "Preview: watch lecture videos\nand practice the sections 3-1\nand 3-2 in the textbook\n\nReview: Online homework",
-      "minutes": "60\n\n60"
-    },
-    {
-      "index": "6",
-      "content": "- Conditional statements\n  - logical operators",
-      "operation": "Lecture and programming\nlab",
-      "assignments": "Preview: watch lecture videos\nand practice the sections 3-2\nand 3-3 in the textbook\n\nReview: Online homework",
-      "minutes": "60\n\n60"
-    },
-    {
-      "index": "7",
-      "content": "- Overall review up to Week 6\n- Midterm exam",
-      "operation": "Q&A and exam",
-      "assignments": "Preview: prepare for the\nmidterm exam",
-      "minutes": "120"
-    },
-    {
-      "index": "8",
-      "content": "- Strings\n- Lists and tuples",
-      "operation": "Lecture and programming\nlab",
-      "assignments": "Preview: watch lecture videos\nand practice the sections 2-3,\n 4-2, and 4-3 in the textbook\n\nReview: Online homework",
-      "minutes": "60\n\n60"
-    },
-    {
-      "index": "9",
-      "content": "- Loops\n  - while statement",
-      "operation": "Lecture and programming\nlab",
-      "assignments": "Preview: watch lecture videos\nand practice the section 3-4\nin the textbook\n\nReview: Online homework",
-      "minutes": "60\n\n60"
-    },
-    {
-      "index": "10",
-      "content": "- Loops\n  - for statement",
-      "operation": "Lecture and programming\nlab",
-      "assignments": "Preview: watch lecture videos\nand practice the section3-4 in\n the textbook\n\nReview: Online homework",
-      "minutes": "60\n\n60"
-    },
-    {
-      "index": "11",
-      "content": "- Complex loops\n  - break\n  - continue\n  - nest of loops",
-      "operation": "Lecture and programming\nlab",
-      "assignments": "Preview: watch lecture videos\nand practice the section 3-4\nin the textbook\n\nReview: Online homework",
-      "minutes": "60\n\n60"
-    },
-    {
-      "index": "12",
-      "content": "- Functions\n  - definition of function\n  - arguments\n  - return value",
-      "operation": "Lecture and programming\nlab",
-      "assignments": "Preview: watch lecture videos\nand practice the sections 5-1,\n  5-2, and 5-3 in the textbook\n\nReview: Online homework",
-      "minutes": "60\n\n60"
-    },
-    {
-      "index": "13",
-      "content": "- Functions\n  - advanced techniques",
-      "operation": "Lecture and programming\nlab",
-      "assignments": "Preview: watch lecture videos\nand practice the sections 5-1,\n  5-2, and 5-3 in the textbook\n\nReview: Online homework",
-      "minutes": "60\n\n60"
-    },
-    {
-      "index": "14",
-      "content": "- Overall review of the course\n- Final exam",
-      "operation": "Q&A and exam",
-      "assignments": "Preview: prepare for the\nfinal exam",
-      "minutes": "120"
-    },
-    {
-      "index": "15",
-      "content": "- Explanation of exam solutions\n- Self-evaluation",
-      "operation": "Lecture",
-      "assignments": "",
-      "minutes": ""
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　C002-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Information and Computer Science\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                プログラミングⅠ\n                Programming I\n\n              2\n              C002-01\n\n                2026年度\n\n                1st year 1st semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  SAKAMOTO Shinji, INAGAKI Mikio\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.expressions and operations\n2.variables and data types\n3.conditional statements\n4.loops\n5.functions\n\n              The goal of this course is to be able to write and execute basic computer programs in Python. By completing this course, students are expected to obtain skills to setup an appropriate development environment on their PC, to write basic Python programs, and to execute them.\n\n              授業の概要および学習上の助言\n\n              In Programming I (this course) and the subsequent course, Programming II, students will learn how to write programs in Python to accomplish certain tasks. This introductory course covers the following topics.\n\n  (1) How to install software necessary for developing programs in Python and running them.\n  (2) How to edit and save programs written in Python and execute them.\n  (3) How to combine basic building blocks of Python to accomplish certain tasks.\n\nFor (3), students will have a lot of opportunities to engage in hands-on exercises where they can acquire working knowledge of computer programming.\n\n              教科書および参考書・リザーブドブック\n\n              (See Japanese syllabus)\n\n              履修に必要な予備知識や技能\n\n              There is no prerequisite course for Programming I.\n\nStudents have to bring a PC, an AC adapter, and a network cable to the class due to exercises where students are asked to write programs and upload them during class hours for later grading.  It is required to be able to turn on PC, to shutdown PC, and to type on the keyboard.  The network connection permmission is also required until the 3rd week.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                I,J,K\n                Be able to explain what operations it takes to run a program.\n\n                ②\n                I,J,K\n                Be able to assign various values to variables, and to use the print function to display their contents.\n\n                ③\n                I,J,K\n                Be able to write expressions combining properly named variables and operators, and to evaluate them.\n\n                ④\n                I,J,K\n                Be able to define lists and tuples, and to write programs that use them.\n\n                ⑤\n                I,J,K\n                Be able to use control flow structures such as conditional statements and loops in writing programs.\n\n                ⑥\n                I,J,K\n                Be able to define functions for relatively simple tasks.\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                40\n\n                60\n\n                0\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                40\n\n                60\n\n                0\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                40\n\n                60\n\n                0\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n                  思考・推論・創造する力\n\n               ",
-  "courseId": "2026:spring:C002-01:0:587",
+  "rawText": "金沢工業大学 学習支援計画書 F133-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Management Systems\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n経営情報専門実験・演習A\nManagement Systems Major Lab/Exercises A  3 F133-01  2024年度\n 3rd year 1st semester\n3rd year 2nd semester  修学規程第4条を参照\n    担当教員名\n HIRAMOTO Tokutaro, KITAGAWA Tatsuya, OSAWA Jun\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Business plan 2.Social impact 3.Balanced Scorecard 4.Non financial indicator 5.Metrics  This course is aimed at improving \"business application / project execution ability\", which is the learning / educational goal of the Department of Management Information. Deepen understanding of the knowledge and skills of (1) finance and (2) management (SDGs and data analysis) of specialized subjects, using activities devised in PD practice as the theme.\n    授業の概要および学習上の助言   1) Business (financial) planning exercise Exercises to study and create business (financial) plans for activities devised in PD practice. In the exercise, the necessary data will be the primary data acquired during PD practice and the secondary data in desktop research, and active learning will be made by effectively utilizing the related learned knowledge and skills. Therefore, it is required to thoroughly review the already-learned subjects shown in the lesson details before attending the lesson. 2) Balanced Scorecard planning exercise Exercise to study and create Balanced Scorecard as tools to manage both financial and non financial performance.\n    教科書および参考書・リザーブドブック   None\n    履修に必要な予備知識や技能   In business (financial) planning exercises, basic knowledge and skills to collect and analyze data from the Internet, newspapers, publications, etc., and basic knowledge and skills to create a financial plan are required.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① J,K,L,M,N,O Be able to understand and explain the elements of financial management necessary for creating a financial plan.   ② J,K,L,M,N,O Be able to formulate a financial plan that is consistent with social impact   ③ J,K,L,M,N,O Be able to make both financial goal and non financial goal in their strategy   ④ J,K,L,M,N,O Be able to make a story between several goals   ⑤ J,K,L,M,N,O Set proper metrics to achieve goals logically.   ⑥ J,K,L,M,N,O Be able to explain how to increase financial and social impact\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 0 30 30 30 0 0 10 100     指標と評価割合 総合評価割合 0 30 30 30 0 0 10 100   総合力指標 知識を取り込む力 0 30 30 30 0 0 10 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ①      ②     ③     ④     ⑤     ⑥     クイズ\n小テスト ① レ Evaluate understanding important method in each session   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥ レ   レポート ① レ Evaluate understanding important method in each session   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥ レ   成果発表\n(口頭・実技) ① レ Evaluate understanding important method in each session   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥ レ   作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ① レ Evaluate attitudes toward class activities and contributions and aggressiveness to team activities.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥ レ\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     ・Be able to understand and explain to others the elements of financial management necessary for creating a financial plan. ・Be able to formulate a financial plan that is consistent with social impact ・Be able to make both financial and non financial goals ・Be able to make a story between goals ・Be able to explain relationship between goal index and indicators ・Be able to explain how to increase financial and social impact ・Be able to understand the elements of financial management required for financial planning. ・Be able to understand the need to formulate a financial plan that is consistent with social impact. ・Be able to un",
+  "courseId": "2024:spring:F130-01:0:587",
   "language": "en"
 }

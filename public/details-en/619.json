@@ -1,61 +1,63 @@
 {
   "sourceIndex": 619,
   "sourceUrl": "/opsyllabus/kitos0110/619/1",
-  "importedAt": "2026-06-08T09:34:05.715Z",
-  "title": "情報工学基礎演習",
-  "subtitle": "Computer Programming Practice",
-  "courseType": "Major ProgramMajor Courses",
+  "importedAt": "2026-06-09T01:29:24.726Z",
+  "title": "心理学実験",
+  "subtitle": "Psychological Experiments",
+  "courseType": "Major Program\nMajor Courses",
   "credits": "2",
-  "term": "2026年度\n\n                2nd year 1st semester",
+  "term": "2024年度\n 2nd year 1st semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "TAKAGO Daisuke",
-    "TAMURA Osamu",
-    "KAJI Shunpei"
+    "KAWASHIMA Tomoya"
   ],
   "keywords": [
-    "Linux",
-    "C"
+    "Design of psychological experiments 2.Factorial design 3.Statistical analysis"
   ],
-  "educationalGoal": "Students will:\n(1) Learn basic management and operational skills for computer systems.\n(2) Acquire various C programming skills on Linux command line.\n(3) Acquire Linux environment construction and operation technology.",
-  "advice": "This is a basic C programming course. We will cover the following materials:\n\n1. Installing virtual machines and Linux\n2. Linux command exercises\n3. Programming with the basic data types and array\n4. Standard input/output stream\n5. Programming with the function definitions and its calls\n6. Recursive function call\n7. Programming with the structure and pointer\n8. String processing\n9. File input/output processing\n10. Programming with the bitwise logical operators\n\nStudents are expected to bring their textbook, notebook PC, and other necessary materials to every class.\nStudents are expected to check for messages/materials on the KIT Inside website before every class and on a regular basis.",
-  "books": "Textbooks:ISBN-13:978-4815624316\nReference books: None\nReserved books: None",
-  "requiredKnowledge": "This course requires the following knowledge/skills:\n1. The units of “Programming 1” and “Programming 2” have been acquired.\n2. Knowledge of basic logical operation.\n3. Basic computer programming skills.",
+  "educationalGoal": "The purpose of psychological experiments is to find general principles of psychological behavior under strictly controlled conditions. The objectives of this course are to learn the methods of factorial design for psychological experiments, to acquire the basic knowledge necessary for statistical analysis of data, and to learn the methodological framework of psychology as a science.",
+  "advice": "Psychological research carries the risk of misunderstanding psychological mechanisms because everyday experiences are influenced by many factors. To avoid this risk, psychologists have developed their own scientific methodology for designing experiments with strict control of factors. This course prepares students to design their own experiments and provides basic knowledge of factorial design and statistical analysis of data.",
+  "books": "none",
+  "requiredKnowledge": "This course focuses on factorial design and statistical analysis of psychological methods. Students are required to learn the relationships between the courses of \"psychological statistics\" and \"psychological methods\".",
   "activityGoals": [
     {
       "index": "①",
-      "type": "I,J,K",
-      "body": "Be able to manage programming, debugging, and execution."
+      "type": "F",
+      "body": "Ability to understand factorial design and decide which experimental design is appropriate for each study."
     },
     {
       "index": "②",
-      "type": "I,J,K",
-      "body": "Be able to create a program with appropriate combinations of functions, pointers, structures, etc."
+      "type": "F",
+      "body": "Ability to run statistical analyses with appropriate methods."
     },
     {
       "index": "③",
-      "type": "I,J,K,N",
-      "body": "Be able to verify that the program is executing correctly."
+      "type": "F,G",
+      "body": "Ability to read and understand articles applying a psychological experiment method."
+    },
+    {
+      "index": "④",
+      "type": "F,G",
+      "body": "Ability to understand the research methods in the important articles and apply them into your own study."
     }
   ],
   "evaluationWeights": [
     {
       "label": "総合評価割合",
       "values": [
-        "0",
-        "100",
-        "0",
-        "0",
+        "40",
+        "40",
         "0",
         "0",
         "0",
+        "0",
+        "20",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -65,20 +67,20 @@
     {
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
-        "0",
-        "100",
-        "0",
-        "0",
+        "40",
+        "40",
         "0",
         "0",
         "0",
+        "0",
+        "20",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -88,20 +90,20 @@
     {
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
-        "0",
-        "100",
-        "0",
-        "0",
+        "40",
+        "40",
         "0",
         "0",
         "0",
+        "0",
+        "20",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -122,9 +124,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -132,7 +134,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -145,9 +147,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -168,9 +170,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -179,118 +181,118 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "Be able to learn the following multiple elemental technologies required for C programming and create an advanced program on the Linux command line:\n\n1. Basic data types\n2. Array and Structure\n3. String and Pointer\n4. Function definition\n5. File input/output processing\n6. Recursive function call\n7. Bitwise logical operator\n8. Linux system call",
-    "standard": "Be able to learn the following multiple elemental technologies required for C programming and create a basic program on the Linux command line:\n\n1. Basic data types\n2. Array and Structure\n3. String and Pointer\n4. Function definition\n5. File input/output processing\n6. Recursive function call"
+    "ideal": "To have a comprehensive knowledge of psychological experiments, designing psychological experiments, and performing statistical analysis of data using appropriate methods.",
+    "standard": "To have various knowledge about psychological experiments."
   },
   "clipProcess": "",
   "lessons": [
     {
       "index": "1",
-      "content": "Overview of Linux, Installation",
-      "operation": "Lecture and exercises",
-      "assignments": "Preparation and review with\ntextbooks",
-      "minutes": "100"
+      "content": "Guidance",
+      "operation": "Lecture",
+      "assignments": "Review the contents of the class",
+      "minutes": "30"
     },
     {
       "index": "2",
-      "content": "Basic Linux Operations 1\nTerminal and Shell\nBasic commands (cat, ls, cd, pwd, mkdir, rm, etc\n.)\nManual commands (man)\nHow to use the editor\nHow to call various processing systems (python,\njava, rust, c, c++)",
-      "operation": "Lecture and exercises",
-      "assignments": "Preparation and review with\ntextbooks",
-      "minutes": "100"
+      "content": "Scientific Method in Psychology",
+      "operation": "Lecture",
+      "assignments": "Review the contents of the class",
+      "minutes": "30"
     },
     {
       "index": "3",
-      "content": "Basic Linux Operations 2\nCommands for files and directories\nStandard input, standard output, and standard er\nror output\nRedirects and pipes\nProcess management commands",
-      "operation": "Quiz(1/5)\n\nLecture and exercises",
-      "assignments": "Preparation and review with\ntextbooks",
-      "minutes": "100"
+      "content": "Factorial design",
+      "operation": "Lecture",
+      "assignments": "Review the contents of the class",
+      "minutes": "30"
     },
     {
       "index": "4",
-      "content": "Basic Linux Operations 3\nCommands for files and directories\nStandard input, standard output, and standard er\nror output\nRedirects and pipes\nProcess management commands",
-      "operation": "Lecture and exercises",
-      "assignments": "Preparation and review with\ntextbooks",
-      "minutes": "100"
+      "content": "Measurement of sensory perception (1)",
+      "operation": "Lecture",
+      "assignments": "Review the contents of the class",
+      "minutes": "30"
     },
     {
       "index": "5",
-      "content": "Basic Linux Operations 4\nCommands for files and directories\nStandard input, standard output, and standard er\nror output\nRedirects and pipes\nProcess management commands",
-      "operation": "Lecture and exercises",
-      "assignments": "Preparation and review with\ntextbooks",
-      "minutes": "100"
+      "content": "Measurement of sensory perception (2)",
+      "operation": "Lecture",
+      "assignments": "Review the contents of the class",
+      "minutes": "30"
     },
     {
       "index": "6",
-      "content": "How to make C programs (preprocessor, compiler,\nassembler, linker, library)",
-      "operation": "Quiz(2/5)\n\nLecture and exercises",
-      "assignments": "Preparation and review with\ntextbooks",
-      "minutes": "100"
+      "content": "Report Writing",
+      "operation": "Lecture",
+      "assignments": "Review the contents of the class",
+      "minutes": "30"
     },
     {
       "index": "7",
-      "content": "C Language Basics 1\nAssembly language has no data types\nData types, arrays, terminal I/O\nData types (char, int, float, double, size_t, in\nt8_t uint8_t, int32_t, uint32_t) and arrays\nInput/output using printf(), scanf(), getchar(),\n putchar()\nAddress operators\nSizeof operator\nCharacter codes",
-      "operation": "Lecture and exercises",
-      "assignments": "Preparation and review with\ntextbooks",
-      "minutes": "100"
+      "content": "Exam Exam description",
+      "operation": "Exam 1 Exam description",
+      "assignments": "Exam description",
+      "minutes": "30"
     },
     {
       "index": "8",
-      "content": "C Language Basics 2\nOperators and Control Syntax, Constant Macros\nTernary operators, sizeof()\nif, while, for, do-while, switch-case, continue,\n break\nDefine\nSleep sleep(), usleep()　\nNumerical calculations (moving averages, integra\nls...)\nState machine\nRandom numbers, seeds",
-      "operation": "Lecture and exercises",
-      "assignments": "Preparation and review with\ntextbooks",
-      "minutes": "100"
+      "content": "Reaction times",
+      "operation": "Lecture",
+      "assignments": "Review the contents of the class",
+      "minutes": "30"
     },
     {
       "index": "9",
-      "content": "C Language Basics 3\nUser function definition and invocation, scope,\nstack area, commonly used standard functions\nStatic modifiers\nAtoi, atof, strlen, fgets\nRecursive calls",
-      "operation": "Quiz(3/5)\n\nLecture and exercises",
-      "assignments": "Preparation and review with\ntextbooks",
-      "minutes": "100"
+      "content": "Questionnaire and testing methods",
+      "operation": "Lecture",
+      "assignments": "Review the contents of the class",
+      "minutes": "30"
     },
     {
       "index": "10",
-      "content": "C Language Applications 1\nPointers",
-      "operation": "Lecture and exercises",
-      "assignments": "Preparation and review with\ntextbooks",
-      "minutes": "100"
+      "content": "Implicit attitude",
+      "operation": "Lecture",
+      "assignments": "Review the contents of the class",
+      "minutes": "30"
     },
     {
       "index": "11",
-      "content": "C Language Applications 2\nPointers, dynamic allocation of memory, command\nline arguments\nmalloc(), free()",
-      "operation": "Lecture and exercises",
-      "assignments": "Preparation and review with\ntextbooks",
-      "minutes": "100"
+      "content": "Measurement of brain activity",
+      "operation": "Lecture",
+      "assignments": "Review the contents of the class",
+      "minutes": "30"
     },
     {
       "index": "12",
-      "content": "C Language Application 3\nStructure\n#struct\n#typedef",
-      "operation": "Quiz(4/5)\nLecture and exercises",
-      "assignments": "Preparation and review with\ntextbooks",
-      "minutes": "100"
+      "content": "Questionable psychological research and data Analysis (1)",
+      "operation": "Lecture",
+      "assignments": "Review the contents of the class",
+      "minutes": "30"
     },
     {
       "index": "13",
-      "content": "C Language Applications 4\nFile operations (stream I/O), reading and writin\ng text and binary files -- .\nFILE*, stdin, stdout\nfopen, fclose, fread, fwrite, fprintf, fprintf,\nfprintf, fprintf, fprintf, fprintf, fprintf, fpr\nintf, fprintf",
-      "operation": "Lecture and exercises",
-      "assignments": "Preparation and review with\ntextbooks",
-      "minutes": "100"
+      "content": "Questionable psychological research and data Analysis (2)",
+      "operation": "Lecture",
+      "assignments": "Review the contents of the class",
+      "minutes": "30"
     },
     {
       "index": "14",
-      "content": "C Language Applications 5\nC: Bitwise Operators",
-      "operation": "Lecture and exercises",
-      "assignments": "Preparation and review with\ntextbooks",
-      "minutes": "100"
+      "content": "Exam",
+      "operation": "Exam",
+      "assignments": "Review the exam",
+      "minutes": "30"
     },
     {
       "index": "15",
-      "content": "Self-reflection class.\nSelf-evaluation.",
-      "operation": "Quiz(5/5)\n\nLecture,\nself-reflection",
+      "content": "Supplementary class",
+      "operation": "Self-check",
       "assignments": "",
-      "minutes": "100"
+      "minutes": ""
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　C012-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Information and Computer Science\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                情報工学基礎演習\n                Computer Programming Practice\n\n              2\n              C012-01\n\n                2026年度\n\n                2nd year 1st semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  TAKAGO Daisuke, TAMURA Osamu, KAJI Shunpei\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Linux\n2.C\n\n              Students will:\n(1) Learn basic management and operational skills for computer systems.\n(2) Acquire various C programming skills on Linux command line.\n(3) Acquire Linux environment construction and operation technology.\n\n              授業の概要および学習上の助言\n\n              This is a basic C programming course. We will cover the following materials:\n\n1. Installing virtual machines and Linux\n2. Linux command exercises\n3. Programming with the basic data types and array\n4. Standard input/output stream\n5. Programming with the function definitions and its calls\n6. Recursive function call\n7. Programming with the structure and pointer\n8. String processing\n9. File input/output processing\n10. Programming with the bitwise logical operators\n\nStudents are expected to bring their textbook, notebook PC, and other necessary materials to every class.\nStudents are expected to check for messages/materials on the KIT Inside website before every class and on a regular basis.\n\n              教科書および参考書・リザーブドブック\n\n              Textbooks:ISBN-13:978-4815624316\nReference books: None\nReserved books: None\n\n              履修に必要な予備知識や技能\n\n              This course requires the following knowledge/skills:\n1. The units of “Programming 1” and “Programming 2” have been acquired.\n2. Knowledge of basic logical operation.\n3. Basic computer programming skills.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                I,J,K\n                Be able to manage programming, debugging, and execution.\n\n                ②\n                I,J,K\n                Be able to create a program with appropriate combinations of functions, pointers, structures, etc.\n\n                ③\n                I,J,K,N\n                Be able to verify that the program is executing correctly.\n\n                ④\n\n                ⑤\n\n                ⑥\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                0\n\n                100\n\n                0\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                0\n\n                100\n\n                0\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                0\n\n                100\n\n                0\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  コラボレーションとリーダーシップ\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  発表・表現・伝達する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n          ",
-  "courseId": "2026:spring:C012-01:0:619",
+  "rawText": "金沢工業大学 学習支援計画書 F310-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Psychological Science(2018〜)\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n心理学実験\nPsychological Experiments  2 F310-01  2024年度\n 2nd year 1st semester  修学規程第4条を参照\n    担当教員名\n KAWASHIMA Tomoya\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Design of psychological experiments 2.Factorial design 3.Statistical analysis  The purpose of psychological experiments is to find general principles of psychological behavior under strictly controlled conditions. The objectives of this course are to learn the methods of factorial design for psychological experiments, to acquire the basic knowledge necessary for statistical analysis of data, and to learn the methodological framework of psychology as a science.\n    授業の概要および学習上の助言   Psychological research carries the risk of misunderstanding psychological mechanisms because everyday experiences are influenced by many factors. To avoid this risk, psychologists have developed their own scientific methodology for designing experiments with strict control of factors. This course prepares students to design their own experiments and provides basic knowledge of factorial design and statistical analysis of data.\n    教科書および参考書・リザーブドブック   none\n    履修に必要な予備知識や技能   This course focuses on factorial design and statistical analysis of psychological methods. Students are required to learn the relationships between the courses of \"psychological statistics\" and \"psychological methods\".\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① F Ability to understand factorial design and decide which experimental design is appropriate for each study.   ② F Ability to run statistical analyses with appropriate methods.   ③ F,G Ability to read and understand articles applying a psychological experiment method.    ④ F,G Ability to understand the research methods in the important articles and apply them into your own study.   ⑤     ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 40 40 0 0 0 0 20 100     指標と評価割合 総合評価割合 40 40 0 0 0 0 20 100   総合力指標 知識を取り込む力 40 40 0 0 0 0 20 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ There are two exams to evaluates students' understanding of the curriculum.    ② レ   ③ レ   ④ レ   ⑤     ⑥     クイズ\n小テスト ① レ There are 12 quizes in the course to evaluate students' understanding of the material presented in each class.   ②     ③ レ   ④     ⑤     ⑥     レポート ①      ②     ③     ④     ⑤     ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ① レ Students are evaluated on their attendance and attitudes throughout the course.   ② レ   ③ レ   ④ レ   ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     To have a comprehensive knowledge of psychological experiments, designing psychological experiments, and performing statistical analysis of data using appropriate methods. To have various knowledge about psychological experiments.\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習課題に要する標準的な時間を記載してあります。日々の自学自習時間全体としては、各授業に応じた時間(例えば2単位科目の場合、予習2時間・復習2時間/週)を取るよう努めてください。詳しくは教員の指導に従って下さい。     授業明細   回数 学習内容 授業の運営方法 学習課題(予習・復習) 時間:分※     1  Guidance Lecture Review the contents of the class  30   2  Scientific Method in Psychology Lecture Review the contents of the class  30   3  Factorial design Lecture Review the contents of the class  30   4  Measurement of sensory perception (1) Lecture Review the contents of the class  30   5  Measurement of sensory perception (2) Lecture Review the contents of the class  30   6  Report Writing Lecture",
+  "courseId": "2024:fall:F306-01:0:619",
   "language": "en"
 }

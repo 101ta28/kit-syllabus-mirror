@@ -1,57 +1,53 @@
 {
   "sourceIndex": 838,
   "sourceUrl": "/opsyllabus/kitos0110/838/1",
-  "importedAt": "2026-06-08T09:34:10.450Z",
-  "title": "電子回路Ⅰ",
-  "subtitle": "Electronic Circuits I",
-  "courseType": "Major ProgramMajor Courses",
-  "credits": "4",
-  "term": "2026年度\n\n                2nd year 1st semester",
+  "importedAt": "2026-06-09T01:29:26.919Z",
+  "title": "地球環境学",
+  "subtitle": "Environmental Science of Earth",
+  "courseType": "Major Program\nOther Courses",
+  "credits": "2",
+  "term": "2024年度\n 3rd year 2nd semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "HIRAMA Junji"
+    "SUZUKI Yasutada"
   ],
   "keywords": [
-    "Diode",
-    "Transistor Amplifiers",
-    "Operational Amplifiers",
-    "Pulse Circuits",
-    "Regional-Oriented"
+    "Biogeochemical cycle 2.Chemical composiiton of the earth's crust 3.Basic chemical equilibria 4.Environmental issues"
   ],
-  "educationalGoal": "Students will:\n(1) learn basic analog electronic circuits consisting of diode or transistor.\n(2) understand basic amplifiers with bipolar transistor.\n(3) understand design methods of analog electronic circuits.\n(4) learn circuits and mechanisms of FET or operational amplifier.\n(5) learn pulse circuits such as multi-vibrator.",
-  "advice": "Course outline is shown as follows:\n\n1. Fundamental electric circuit\n2. Circuit consisting of diode\n3. Mechanism of transistor\n4. Amplifier using bipolar transistor\n5. Grounding methods, equivalent circuit for signal\n6. Thermal runaway, design of amplifier\n7. DC bias circuit\n8. Power amplifier, negative-feedback amplifier\n9. Oscillator\n10. Modulation and demodulation\n11. FET\n12. Operational amplifier\n13. Pulse circuit",
-  "books": "Textbooks：Electronic Circuits - Fundamentals & Applications - Reference books： Reserved books：None",
-  "requiredKnowledge": "Students should well understand \"Electric Circuits I\" and \"Electric Circuits II.\" Questions are welcome during lecture.",
+  "educationalGoal": "The earth can be divided into the atmosphere, the lithosphere, and the hydrosphere, but elements such as carbon, nitrogen, and phosphorus circulate among all of these spheres. This course will cover the behavior of substances in the global environment and the chemical reactions related to the behavior of the substances. The goal of this course is to raise awareness of the factors affecting the global environment.",
+  "advice": "1. Chemical composition of the earth's crust. 2. The evolution of the earth and changes in the atmosphere. 3. Basics of analytical chemistry. 4. Basics of aquatic environment. 5. Chemical equilibria in environmental water. 6. Environmental problems.",
+  "books": "(Textbook) An Introduction to Environmental Chemistry, Julian E. Andrews, et al., Wiley-Blackwell, ISBN: 9780632059058",
+  "requiredKnowledge": "A knowledge of high school level chemistry and biology is required to understand the lectures.",
   "activityGoals": [
     {
       "index": "①",
-      "type": "J",
-      "body": "Be able to explain mechanisms of diode and transistor."
+      "type": "P",
+      "body": "Understand the origins of the earth and changes in the global environment."
     },
     {
       "index": "②",
-      "type": "J",
-      "body": "Be able to draw equivalent circuits of transistor amplifier."
+      "type": "P",
+      "body": "Understand atmospheric changes of the earth from the beginning to the present."
     },
     {
       "index": "③",
-      "type": "J",
-      "body": "Be able to calculate voltages and currents in each part for transistor amplifiers."
+      "type": "P",
+      "body": "Describe the greenhouse effect caused by carbon dioxide.."
     },
     {
       "index": "④",
-      "type": "J",
-      "body": "Be able to draw equivalent circuits of FET amplifier."
+      "type": "P",
+      "body": "Understand major chemical equilibria in environmental water."
     },
     {
       "index": "⑤",
-      "type": "J",
-      "body": "Be able to design circuits of operational amplifier."
+      "type": "P",
+      "body": "Understand the mecanisms of seasonal variations in the water quality of lakes."
     },
     {
       "index": "⑥",
-      "type": "J",
-      "body": "Be able to explain pulse circuits such as differential circuit, integrating circuit and multi vibrator."
+      "type": "P",
+      "body": "Understand global environmental problems."
     }
   ],
   "evaluationWeights": [
@@ -59,19 +55,19 @@
       "label": "総合評価割合",
       "values": [
         "40",
-        "40",
-        "20",
+        "50",
         "0",
         "0",
         "0",
         "0",
+        "10",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -82,19 +78,19 @@
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
         "40",
-        "40",
-        "20",
+        "50",
         "0",
         "0",
         "0",
         "0",
+        "10",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -105,19 +101,19 @@
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
         "40",
-        "40",
-        "20",
+        "50",
         "0",
         "0",
         "0",
         "0",
+        "10",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -138,9 +134,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -148,7 +144,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -161,9 +157,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -184,9 +180,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -195,223 +191,118 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "(1) Fully understand and explain mechanism of diode and transistor, equivalent circuits. Also design transistor amplifier.\n(2) Explain FET amplifier and analyze its signal.\n(3) Explain mechanism of operational amplifier, and design application circuits.\n(4) Fully understand pulse circuits and explain them enough.",
-    "standard": "(1) Understand and explain mechanism of diode and transistor, equivalent circuits.\n(2) Analyze signals of FET amplifier.\n(3) Explain mechanism of operational amplifier.\n(4) Explain mechanisms of pulse circuits."
+    "ideal": "Can describe the following: - Atmospheric changes of the earth over time - Mechanism of the variation of water quality in lake water - Environmental problems with a concrete example. Students also must be able to give a presentation on a global environmental problem based on journal articles.",
+    "standard": "Can describe the following with reference to textbooks, reference books, and dictionaries: - Atmospheric changes of the earth over time - Chemical composition of earth's crust - Biogeochemical cycle of substances - Mechanism of variation of water quality in lake water - Environmental problems Can also understand an article on a global environmental problem."
   },
   "clipProcess": "",
   "lessons": [
     {
       "index": "1",
-      "content": "Self-introduction\nUnderstand the difference of DC and AC, voltage\nand current sources. Review basic circuit laws\nand elements such as resistance, capacitor and\ninductor.",
-      "operation": "Distribute syllabus\nLecture, Q&A",
-      "assignments": "Preparation: Read from\nchapters 1 to 3 of the first\ntextbook.\nReview: Fundamentals of\nelectric circuits.",
-      "minutes": "Prepar\nation\n100\nReview\n 100"
+      "content": "Introduction and history of the space and the earth",
+      "operation": "Lecture Exercise",
+      "assignments": "Preview Read the syllabus Review History of the space and the earth",
+      "minutes": "60 60"
     },
     {
       "index": "2",
-      "content": "Review connections in series, parallel\nand mixed of series and parallel.\nIntegrated learning",
-      "operation": "Lecture, Q&A\nSelf-check",
-      "assignments": "Preparation: Read chapters 2\nand 3.\nReview: Fundamentals of\nelectric circuits.",
-      "minutes": "Prepar\nation\n100\nReview\n 100"
+      "content": "Lecture on basic chemistry to understand environmental chemistry",
+      "operation": "Lecture Exercise",
+      "assignments": "Preview Read the distributed document Review Basic chemistry",
+      "minutes": "60 60"
     },
     {
       "index": "3",
-      "content": "Understand the ratio of voltage-division and\ncurrent-division, Kirchhoff's laws, and\nprinciple of superposition.\nIntegrated learning",
-      "operation": "Lecture, Q&A\nSelf-check",
-      "assignments": "Preparation: Read chapters 2\nand 3.\nReview: Fundamentals of\nelectric circuits.",
-      "minutes": "Prepar\nation\n100\nReview\n 100"
+      "content": "Understanding the structure, composition, and chemical reaction of the earth's atmosphere",
+      "operation": "Lecture Exercise",
+      "assignments": "Preview Read the distributed document Review Composition of the atmosphere",
+      "minutes": "60 60"
     },
     {
       "index": "4",
-      "content": "Fundamentals of diodes.",
-      "operation": "Lecture, Q&A\nSelf-check",
-      "assignments": "Preparation: Read chapters 4.\nReview: Read chapter 4 and\nunderstand fundamentals of\ndiode.",
-      "minutes": "Prepar\nation\n120\nReview\n 100"
+      "content": "First examination Understanding the pollution of the atmosphere",
+      "operation": "Short examination Lecture",
+      "assignments": "Preview Preparation for the examination Review Review of the examination",
+      "minutes": "120 60"
     },
     {
       "index": "5",
-      "content": "Bias of diode\nCircuits using diode.\nMethod of analysis for circuits using diode.",
-      "operation": "Lecture, Q&A\nSelf-check",
-      "assignments": "Preparation: Read chapter 4\nand understand diode.\nReview: Read chapter 4 and\nunderstand fundamentals of\ndiode.",
-      "minutes": "Prepar\nation\n100\nReview\n 100"
+      "content": "Understanding the remedy for the atmospheric pollution",
+      "operation": "Lecture Exercise",
+      "assignments": "Preview Read the distributed document Review Remedy for the atmospheric pollution",
+      "minutes": "60 60"
     },
     {
       "index": "6",
-      "content": "Integrated learning of circuits using diode",
-      "operation": "Exam and lecture\nSelf-check",
-      "assignments": "Preparation: Conduct\nexercises of chapter 4",
-      "minutes": "Prepar\nation\n100\nReview\n 100"
+      "content": "Understanding the chemistry of land in terms of minerals and their weathering",
+      "operation": "Lecture Exercise",
+      "assignments": "Preview Read the distributed document Review Mechanism of the rock weathering",
+      "minutes": "60 60"
     },
     {
       "index": "7",
-      "content": "Conduct Exam A (diode circuits).\nUnderstand what transistor is.",
-      "operation": "Exam and lecture\nSelf-check",
-      "assignments": "Preparation: Study for Exam A.",
-      "minutes": "Prepar\nation\n100\nReview\n 100"
+      "content": "Understanding weathering and the formation of soil",
+      "operation": "Lecture Exercise",
+      "assignments": "Preview Read the distributed document Review Types and properties of soils",
+      "minutes": "60 60"
     },
     {
       "index": "8",
-      "content": "Return and explain Exam A.\nCircuits using transistor.",
-      "operation": "Explain Exam A Lecture,\nQ&A\nSelf-check",
-      "assignments": "Preparation: Read chapter 6,\nand understand transistor\namplifier.\nReview: Check the results of\nExam A.",
-      "minutes": "Prepar\nation\n100\nReview\n 100"
+      "content": "Understanding the pollution of soil and its remediation",
+      "operation": "Lecture Exercise",
+      "assignments": "Preview Read the distributed document Review Mechanism of soil pollution and its remediation",
+      "minutes": "60 60"
     },
     {
       "index": "9",
-      "content": "Working of elements around transistor\nStatic characteristics of transistor",
-      "operation": "Lecture, Q&A\nSelf-check",
-      "assignments": "Preparation: Read chapters 6\nand 7, and understand working\nof elements.\nReview: Understand static\ncharacteristics of transistor.",
-      "minutes": "Prepar\nation\n100\nReview\n 100"
+      "content": "Second examination Understanding the land water",
+      "operation": "Short examination Lecture",
+      "assignments": "Preview Preparation for the examination Review Review of the examination",
+      "minutes": "120 60"
     },
     {
       "index": "10",
-      "content": "Static characteristics of transistor",
-      "operation": "Exam and lecture\nSelf-check",
-      "assignments": "Preparation: Read chapter 6,\nand understand static\ncharacteristics of transistor.\nReview: Understand static\ncharacteristics of transistor.",
-      "minutes": "Prepar\nation\n100\nReview\n 100"
+      "content": "Understanding the nature of land water",
+      "operation": "Lecture Exercise",
+      "assignments": "Preview Read the distributed document Review Changes in river water composition",
+      "minutes": "60 60"
     },
     {
       "index": "11",
-      "content": "Understand equivalent circuits for DC and\nsignal, and to draw the equivalent circuits.\nAlso understand input impedance, output\nimpedance and condition of matching.",
-      "operation": "Lecture, Q&A\nSelf-check",
-      "assignments": "Preparation: Read chapters 8\nand 9, and understand\nequivalent circuits for DC\nand signal. Also understand\nmatching.",
-      "minutes": "Prepar\nation\n100\nReview\n 100"
+      "content": "Understanding the pollution of land water",
+      "operation": "Lecture Exercise",
+      "assignments": "Preview Read the distributed document Review Case study of the land water pollution",
+      "minutes": "60 60"
     },
     {
       "index": "12",
-      "content": "Understand voltage and current in amplifier,\nand frequency characteristics of amplifiers.",
-      "operation": "Lecture, Q&A\nSelf-check",
-      "assignments": "Preparation: Read chapter 10,\nand understand voltage,\ncurrent and frequency\ncharacteristics.",
-      "minutes": "Prepar\nation\n100\nReview\n 100"
+      "content": "Understanding the chemistry of seawater",
+      "operation": "Lecture Exercise",
+      "assignments": "Preview Read the distributed document Review Composition of seawater",
+      "minutes": "60 60"
     },
     {
       "index": "13",
-      "content": "Integrated learning of circuits using transistor",
-      "operation": "Exam and lecture\nSelf-check",
-      "assignments": "Preparation: Conduct\nexercises of chapter 10",
-      "minutes": "Prepar\nation\n100\nReview\n 100"
+      "content": "Understanding the reaction of major constituents in seawater",
+      "operation": "Lecture Exercise",
+      "assignments": "Preview Read the distributed document Review Reaction and circulation of major constituents in seawater",
+      "minutes": "60 60"
     },
     {
       "index": "14",
-      "content": "Understand thermal runaway.",
-      "operation": "Lecture, Q&A\nSelf-check",
-      "assignments": "Preparation: Read chapter 11,\nand understand thermal\nrunaway.",
-      "minutes": "Prepar\nation\n100\nReview\n 100"
+      "content": "Final examination Understanding the reaction of minor constituents in seawater",
+      "operation": "Examination Lecture",
+      "assignments": "Preview Preparation for the final examination Review Review of the examination",
+      "minutes": "180 60"
     },
     {
       "index": "15",
-      "content": "Understand improvement of circuit, grounding\nmethods, DC bias circuit and connection methods\nrelated with amplifier.",
-      "operation": "Lecture, Q&A\nSelf-check",
-      "assignments": "Preparation: Read chapters 12\nto 15, and understand\nvariation of amplifier with\nresistors and capacitors.",
-      "minutes": "Prepar\nation\n100\nReview\n 100"
-    },
-    {
-      "index": "16",
-      "content": "Conduct Exam B (bipolar transistor amplifier).\nPower amplifier",
-      "operation": "Exam\nLecture, Q&A\nSelf-check",
-      "assignments": "Preparation: Study for Exam B.\n Read chapters 5 to 15,\nand understand transistor\namplifier.\nReview: Read chapter 16 for\npower amplifier.",
-      "minutes": "Prepar\nation\n120\nReview\n 100"
-    },
-    {
-      "index": "17",
-      "content": "Return and explain Exam B.\nSelf-reflection for midterm\nNegative-feedback amplifier, principle of\noscillator, Oscillators of CR, LC and crystal",
-      "operation": "Explain Exam B\nLecture, Q&A\nSelf-check",
-      "assignments": "Preparation: Read chapters 17\nto 19, and understand negative\n-feedback amplifier and\noscillator.\nReview: Check the results of\nExam B.",
-      "minutes": "Prepar\nation\n100\nReview\n 100"
-    },
-    {
-      "index": "18",
-      "content": "Understand types and symbols of FET\nConstruction and mechanism of FET",
-      "operation": "Lecture, Q&A\nSelf-check",
-      "assignments": "Preparation: Read chapter 23,\nand understand types and\nsymbols of FET.",
-      "minutes": "Prepar\nation\n100\nReview\n 100"
-    },
-    {
-      "index": "19",
-      "content": "Static characteristics of FET, FET amplifier\nDesign of FET circuit",
-      "operation": "Lecture, Q&A\nSelf-check",
-      "assignments": "Preparation: Read chapter 23,\nand understand feature and\ncircuit of FET.",
-      "minutes": "Prepar\nation\n100\nReview\n 100"
-    },
-    {
-      "index": "20",
-      "content": "Integrated learning of FET circuit",
-      "operation": "Lecture, Q&A\nSelf-check",
-      "assignments": "Preparation: Conduct\nexercises of chapter 23.",
-      "minutes": "Prepar\nation\n100\nReview\n 100"
-    },
-    {
-      "index": "21",
-      "content": "Operational amplifier (1)\nFeatures of operational amplifier.\nSign convertor, inverter circuit using\noperational amplifier.",
-      "operation": "Lecture, Q&A\nSelf-check",
-      "assignments": "Preparation: Read chapter 24,\nand understand features of\noperational amplifier.",
-      "minutes": "Prepar\nation\n100\nReview\n 100"
-    },
-    {
-      "index": "22",
-      "content": "Operational amplifier (2)\nNon-inverting circuit, adder, subtractor,\nintegrator, voltage follower",
-      "operation": "Lecture, Q&A\nSelf-check",
-      "assignments": "Preparation: Read chapter 24,\nand understand various\ncircuits using operational\namplifier.",
-      "minutes": "Prepar\nation\n100\nReview\n 100"
-    },
-    {
-      "index": "23",
-      "content": "Operational amplifier (3)\nIntegrated learning",
-      "operation": "Lecture, Q&A\nSelf-check",
-      "assignments": "Preparation: Conduct\nexercises of chapter 24",
-      "minutes": "Prepar\nation\n100\nReview\n 100"
-    },
-    {
-      "index": "24",
-      "content": "Conduct Exam C (FET circuit and operational\namplifier).\n\nDifference of digital and analog\nDifference of digital and analog circuits",
-      "operation": "Exam\nLecture, Q&A\nSelf-check",
-      "assignments": "Preparation: Read chapters 23\nand 24, and study for Exam C.",
-      "minutes": "Prepar\nation\n120\nReview\n 100"
-    },
-    {
-      "index": "25",
-      "content": "Return and explain Exam C.\nUnderstand what pulse circuit is.",
-      "operation": "Explain Exam C\nLecture, Q&A\nSelf-check",
-      "assignments": "Preparation: Read chapter 3\nin the second textbook, and\nunderstand pulse circuits.\nReview: Check the results of\nExam C.",
-      "minutes": "Prepar\nation\n100\nReview\n 100"
-    },
-    {
-      "index": "26",
-      "content": "Pulse circuits\nDifferential and integrating circuits using CR\nor operational amplifier",
-      "operation": "Lecture, Q&A\nSelf-check",
-      "assignments": "Preparation: Read chapter 3,\nand understand basic pulse\ncircuits.",
-      "minutes": "Prepar\nation\n100\nReview\n 100"
-    },
-    {
-      "index": "27",
-      "content": "Pulse generator\nTypes and features of multi- vibrator\nUnstable multi-vibrator",
-      "operation": "Lecture, Q&A\nSelf-check",
-      "assignments": "Preparation: Read chapter 3,\nand understand basic\nmulti- vibrator",
-      "minutes": "Prepar\nation\n100\nReview\n 100"
-    },
-    {
-      "index": "28",
-      "content": "Pulse generator\nAstable multi-vibrator\nBistable multi-vibrator\nIntegrated learning (pulse circuits)",
-      "operation": "Lecture, Q&A\nSelf-check",
-      "assignments": "Preparation: Read chapter 3,\nand understand various\nmulti-vibrator.",
-      "minutes": "Prepar\nation\n100\nReview\n 100"
-    },
-    {
-      "index": "29",
-      "content": "Conduct Exam D (pulse circuits).",
-      "operation": "Exam D.\nSelf-check",
-      "assignments": "Preparation: Read chapter 3\nfor Exam D.",
-      "minutes": "Prepar\nation\n120\nReview\n 100"
-    },
-    {
-      "index": "30",
-      "content": "Return and explain Exam D.\nSelf-check, integrated learning.",
-      "operation": "Explain Exam D check\nQuestionnaire",
-      "assignments": "Check entire target abilities\nand learn unsatisfied parts.",
-      "minutes": "Review\n 200"
+      "content": "Wrap up of the course",
+      "operation": "Short evaluation",
+      "assignments": "Wrap up problem sets for week 1 through week 14",
+      "minutes": ""
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　K311-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Electrical Energy Systems Engineering\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                電子回路Ⅰ\n                Electronic Circuits I\n\n              4\n              K311-01\n\n                2026年度\n\n                2nd year 1st semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  HIRAMA Junji\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Diode\n2.Transistor Amplifiers\n3.Operational Amplifiers\n4.Pulse Circuits\n5.Regional-Oriented\n\n              Students will:\n(1) learn basic analog electronic circuits consisting of diode or transistor.\n(2) understand basic amplifiers with bipolar transistor.\n(3) understand design methods of analog electronic circuits.\n(4) learn circuits and mechanisms of FET or operational amplifier.\n(5) learn pulse circuits such as multi-vibrator.\n\n              授業の概要および学習上の助言\n\n              Course outline is shown as follows:\n\n1. Fundamental electric circuit\n2. Circuit consisting of diode\n3. Mechanism of transistor\n4. Amplifier using bipolar transistor\n5. Grounding methods, equivalent circuit for signal\n6. Thermal runaway, design of amplifier\n7. DC bias circuit\n8. Power amplifier, negative-feedback amplifier\n9. Oscillator\n10. Modulation and demodulation\n11. FET\n12. Operational amplifier\n13. Pulse circuit\n\n              教科書および参考書・リザーブドブック\n\n              Textbooks：Electronic Circuits - Fundamentals & Applications - Reference books： Reserved books：None\n\n              履修に必要な予備知識や技能\n\n              Students should well understand \"Electric Circuits I\" and \"Electric Circuits II.\" Questions are welcome during lecture.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                J\n                Be able to explain mechanisms of diode and transistor.\n\n                ②\n                J\n                Be able to draw equivalent circuits of transistor amplifier.\n\n                ③\n                J\n                Be able to calculate voltages and currents in each part for transistor amplifiers.\n\n                ④\n                J\n                Be able to draw equivalent circuits of FET amplifier.\n\n                ⑤\n                J\n                Be able to design circuits of operational amplifier.\n\n                ⑥\n                J\n                Be able to explain pulse circuits such as differential circuit, integrating circuit and multi vibrator.\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                40\n\n                40\n\n                20\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                40\n\n                40\n\n                20\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                40\n\n                40\n\n                20\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  コラボレーションとリーダーシップ\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  発表・表現・伝達する力\n\n                    0\n\n                    ",
-  "courseId": "2026:spring:K311-01:0:838",
+  "rawText": "金沢工業大学 学習支援計画書 G954-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nOther\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nOther Courses\n地球環境学\nEnvironmental Science of Earth  2 G954-01  2024年度\n 3rd year 2nd semester  修学規程第4条を参照\n    担当教員名\n SUZUKI Yasutada\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Biogeochemical cycle 2.Chemical composiiton of the earth's crust 3.Basic chemical equilibria 4.Environmental issues  The earth can be divided into the atmosphere, the lithosphere, and the hydrosphere, but elements such as carbon, nitrogen, and phosphorus circulate among all of these spheres. This course will cover the behavior of substances in the global environment and the chemical reactions related to the behavior of the substances. The goal of this course is to raise awareness of the factors affecting the global environment.\n    授業の概要および学習上の助言   1. Chemical composition of the earth's crust. 2. The evolution of the earth and changes in the atmosphere. 3. Basics of analytical chemistry. 4. Basics of aquatic environment. 5. Chemical equilibria in environmental water. 6. Environmental problems.\n    教科書および参考書・リザーブドブック   (Textbook) An Introduction to Environmental Chemistry, Julian E. Andrews, et al., Wiley-Blackwell, ISBN: 9780632059058\n    履修に必要な予備知識や技能   A knowledge of high school level chemistry and biology is required to understand the lectures.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① P Understand the origins of the earth and changes in the global environment.   ② P Understand atmospheric changes of the earth from the beginning to the present.   ③ P Describe the greenhouse effect caused by carbon dioxide..   ④ P Understand major chemical equilibria in environmental water.   ⑤ P Understand the mecanisms of seasonal variations in the water quality of lakes.   ⑥ P Understand global environmental problems.\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 40 50 0 0 0 0 10 100     指標と評価割合 総合評価割合 40 50 0 0 0 0 10 100   総合力指標 知識を取り込む力 40 50 0 0 0 0 10 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ Final examination is given in Week 15. The time allotted for the test is 60 minutes. Calculation problems and essay problems will be based on the six items in the TAS. Since you are expected to develop your own level of professional knowledge, textbooks and other reference books are not allowed during the test.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥ レ   クイズ\n小テスト ① レ Two quizzes are given. The scope of the lectures is covered in the quiz to evaluate the level of understanding of the course material.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     レポート ①      ②     ③     ④     ⑤     ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ① レ A small quiz is given at the end of every lecture. The scope of the lecture is covered in the quiz to evaluate the level of understanding.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥ レ\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     Can describe the following: - Atmospheric changes of the earth over time - Mechanism of the variation of water quality in lake water - Environmental problems with a concrete example. Students also must be able to give a presentation on a global environmental problem based on journal articles.  Can describe the following with reference to textbooks, reference books, and dictionaries: - Atmospheric changes of the earth over time - Chemical composition of earth's crust - Biogeochemical cycle of substances - Mechanism of variation of water quality in lake water - Environmental problems Can also understand an article on a global environmental problem.\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを",
+  "courseId": "2024:fall:G955-01:0:838",
   "language": "en"
 }

@@ -1,50 +1,56 @@
 {
   "sourceIndex": 309,
   "sourceUrl": "/opsyllabus/kitos0110/309/1",
-  "importedAt": "2026-06-08T09:33:59.354Z",
-  "title": "プロジェクトデザインⅢ（津田敏宏研究室）",
-  "subtitle": "Design Project III(Tsuda Toshihiro)",
-  "courseType": "Major ProgramMajor Project Courses",
-  "credits": "8",
-  "term": "2026年度\n\n                All year",
+  "importedAt": "2026-06-09T01:29:21.936Z",
+  "title": "電気電子プログラミング演習",
+  "subtitle": "Programming Practice for Electrical and Electronic Engineers",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "3",
+  "term": "2024年度\n 2nd year 1st semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "TSUDA Toshihiro"
+    "AIZAWA Koji",
+    "KONNO Takeshi",
+    "SHIMAUCHI Suehiro",
+    "HAYASHI Keiji"
   ],
   "keywords": [
-    "Rotating Machine",
-    "Motor",
-    "Generator"
+    "Computer 2.Programing 3.C Language 4.Algorithm 5.Electrical and Electronic Engineers"
   ],
-  "educationalGoal": "The subject of this course is a basic study on rotating machines, which is useful for solving environmental and energy issues.\nThrough the study, students will:\n(1) learn how to find technical challenges and solve them.\n(2) learn how to compile technical reports and give their presentations.",
-  "advice": "In this course, we will cover the following topics:\n1. Design and analysis of rotating machines.\n2. Development of a new type of rotating machine.\n\nStudents are required to actively participate in class.",
-  "books": "Textbooks：None\nReference books：None\nReserved books：None",
-  "requiredKnowledge": "Knowledge of electromagnetics and electric circuits.",
+  "educationalGoal": "Students will: (1) learn the fundamental concepts and methods of programming using C language. (2) learn how to solve problems and transform the solutions into computer programs written in C language. The goal of this course is to provide an introduction not just to C but also to logical thinking. (3) learn some applications of C programming in electrical and electronic engineering.",
+  "advice": "This course is designed to familiarize students with computer programming, with an emphasis on a widely used language, C. The classes incorporate lecture with hands-on programming exercises. We will cover the following materials: 1. Elementary programming in C 2. Selection statements 3. Repetition statements 4. Arrays 5. Modular programming with functions 6. Pointers 7. Structures 8. File input/output 9. Using C in electrical and electronic engineering applications Students should be aware of the teacher's instructions in the class, because the detailed course schedules may change depending on the students' progress in understanding.",
+  "books": "Textbooks: None Reference books: None Reserved books: None",
+  "requiredKnowledge": "You are expected to bring your Windows laptop to class with you to work on programming exercises using Visual Studio. No prior programming knowledge is required. This course and “Computer Engineering for Electrical and Electronic Engineers” are complementary. “Electronic Circuits II” and “Feedback Control” are related to this course.",
   "activityGoals": [
     {
       "index": "①",
-      "type": "I,K,L,M,N",
-      "body": "Be able to clearly define the goal of the study and to create a plan for achieving it."
+      "type": "K,D",
+      "body": "Be able to demonstrate problem-solving skills by developing algorithms to solve problems."
     },
     {
       "index": "②",
-      "type": "N",
-      "body": "Be able to communicate well with group members and to pursue the study."
+      "type": "K,H",
+      "body": "Be able to incorporate the selection and repetition control structures into C programs."
     },
     {
       "index": "③",
-      "type": "I,K,L,M,N",
-      "body": "Be able to solve technical challenges in the study by yourself."
+      "type": "K,H",
+      "body": "Be able to demonstrate understanding of the use of arrays and structures."
     },
     {
       "index": "④",
-      "type": "I,K,L,M,N",
-      "body": "Be able to compile results of the study as a final report (i.e., project report)."
+      "type": "K,H",
+      "body": "Be able to decompose the solution into modules at the function level."
     },
     {
       "index": "⑤",
-      "type": "I,K,L,M,N",
-      "body": "Be able to make presentations about results of the study effectively."
+      "type": "K,H",
+      "body": "Be able to demonstrate understanding of the use of pointers."
+    },
+    {
+      "index": "⑥",
+      "type": "K,H",
+      "body": "Be able to implement programs using file input/output."
     }
   ],
   "evaluationWeights": [
@@ -52,9 +58,9 @@
       "label": "総合評価割合",
       "values": [
         "0",
-        "0",
-        "60",
         "40",
+        "60",
+        "0",
         "0",
         "0",
         "0",
@@ -62,9 +68,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -75,9 +81,9 @@
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
         "0",
-        "0",
-        "60",
         "40",
+        "60",
+        "0",
         "0",
         "0",
         "0",
@@ -85,9 +91,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -98,9 +104,9 @@
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
         "0",
-        "0",
-        "60",
         "40",
+        "60",
+        "0",
         "0",
         "0",
         "0",
@@ -108,9 +114,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -131,9 +137,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -141,7 +147,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -154,9 +160,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -177,9 +183,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -188,27 +194,223 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "Achieve significant results in the study.",
-    "standard": "Obtain new findings toward a purpose of the study."
+    "ideal": "(1) Develop modular and efficient programs in C efficiently. (2) Identify a problem in electrical and electronic engineering and provide a proper solution by designing algorithms and implementing computer programs. (3) Be comfortable using C.",
+    "standard": "(1) Design algorithms to solve rudimentary problems in electric and electronic engineering. (2) Demonstrate basic skills in writing and implementing simple structured programs in C. (3) Describe the fundamentals of C based on the hands-on knowledge of programming."
   },
   "clipProcess": "",
   "lessons": [
     {
-      "index": "First\nsemest\ner",
-      "content": "Course introduction\nBasics of rotating machines\nStudy activity",
-      "operation": "Q&A",
-      "assignments": "Understand the objective of\nthe course\nPrepare for the learning on\nrotating machines",
-      "minutes": ""
+      "index": "1",
+      "content": "Course introduction",
+      "operation": "Lecture and Q&A",
+      "assignments": "Understand the objectives of class",
+      "minutes": "100"
     },
     {
-      "index": "Second\n semes\nter",
-      "content": "Study activity",
-      "operation": "Q&A",
-      "assignments": "Prepare for the final report\n and its presentation",
-      "minutes": ""
+      "index": "2",
+      "content": "continued",
+      "operation": "Programming exercise",
+      "assignments": "Review materials from Nos. 1 and 2 classes",
+      "minutes": "200"
+    },
+    {
+      "index": "3",
+      "content": "1. Elementary programming in C",
+      "operation": "Self-check Lecture and Q&A",
+      "assignments": "Prepare Ch. 1 of the class materials distributed via the e-syllabus",
+      "minutes": "200"
+    },
+    {
+      "index": "4",
+      "content": "continued",
+      "operation": "Programming exercise",
+      "assignments": "Review materials from Nos. 3 and 4 classes",
+      "minutes": "200"
+    },
+    {
+      "index": "5",
+      "content": "2. Selection statements",
+      "operation": "Self-check Lecture and Q&A",
+      "assignments": "Prepare Ch. 2 of the class materials distributed via the e-syllabus",
+      "minutes": "200"
+    },
+    {
+      "index": "6",
+      "content": "continued",
+      "operation": "Programming exercise",
+      "assignments": "Review materials from Nos. 5 and 6 classes",
+      "minutes": "200"
+    },
+    {
+      "index": "7",
+      "content": "3. Repetition statements",
+      "operation": "Self-check Lecture and Q&A",
+      "assignments": "Prepare Ch. 3 of the class materials distributed via the e-syllabus",
+      "minutes": "200"
+    },
+    {
+      "index": "8",
+      "content": "continued",
+      "operation": "Programming exercise",
+      "assignments": "Review materials from Nos. 7 and 8 classes",
+      "minutes": "200"
+    },
+    {
+      "index": "9",
+      "content": "continued",
+      "operation": "Self-check Lecture and Q&A",
+      "assignments": "Prepare Ch. 3 of the class materials distributed via the e-syllabus",
+      "minutes": "200"
+    },
+    {
+      "index": "10",
+      "content": "continued",
+      "operation": "Programming exercise",
+      "assignments": "Review materials from Nos. 9 and 10 classes",
+      "minutes": "200"
+    },
+    {
+      "index": "11",
+      "content": "4. Arrays",
+      "operation": "Self-check Lecture and Q&A",
+      "assignments": "Prepare Ch. 4 of the class materials distributed via the e-syllabus",
+      "minutes": "200"
+    },
+    {
+      "index": "12",
+      "content": "continued",
+      "operation": "Programming exercise",
+      "assignments": "Review materials from Nos. 11 and 12 classes",
+      "minutes": "200"
+    },
+    {
+      "index": "13",
+      "content": "Test and review about contents learned in Nos. 3 to 12 classes",
+      "operation": "Test and review Self-reflection",
+      "assignments": "Prepare for the test",
+      "minutes": "300"
+    },
+    {
+      "index": "14",
+      "content": "Self-reflection class",
+      "operation": "Review and self-reflection",
+      "assignments": "Review contents learned in Nos. 1 to 12 classes",
+      "minutes": "200"
+    },
+    {
+      "index": "15",
+      "content": "5. Modular programming with functions",
+      "operation": "Self-check Lecture and Q&A",
+      "assignments": "Prepare Ch. 5 of the class materials distributed via the e-syllabus",
+      "minutes": "200"
+    },
+    {
+      "index": "16",
+      "content": "continued",
+      "operation": "Programming exercise",
+      "assignments": "Review materials from Nos. 15 and 16 classes",
+      "minutes": "200"
+    },
+    {
+      "index": "17",
+      "content": "continued",
+      "operation": "Self-check Lecture and Q&A",
+      "assignments": "Prepare Ch. 5 of the class materials distributed via the e-syllabus",
+      "minutes": "200"
+    },
+    {
+      "index": "18",
+      "content": "continued",
+      "operation": "Programming exercise",
+      "assignments": "Review materials from Nos. 17 and 18 classes",
+      "minutes": "200"
+    },
+    {
+      "index": "19",
+      "content": "Test and review about contents learned in Nos. 13 to 18 classes 6. Pointers",
+      "operation": "Test and review Self-reflection Self-check Lecture and Q&A",
+      "assignments": "Prepare for the test Prepare Ch. 6 of the class materials distributed via the e-syllabus",
+      "minutes": "300"
+    },
+    {
+      "index": "20",
+      "content": "continued",
+      "operation": "Programming exercise",
+      "assignments": "Review materials from Nos. 19 and 20 classes class",
+      "minutes": "200"
+    },
+    {
+      "index": "21",
+      "content": "7. Structures",
+      "operation": "Self-check Lecture and Q&A",
+      "assignments": "Prepare Ch. 7 of the class materials distributed via the e-syllabus",
+      "minutes": "200"
+    },
+    {
+      "index": "22",
+      "content": "continued",
+      "operation": "Programming exercise",
+      "assignments": "Review materials from Nos. 21 and 22 classes",
+      "minutes": "200"
+    },
+    {
+      "index": "23",
+      "content": "8. File input/output",
+      "operation": "Self-check Lecture and Q&A",
+      "assignments": "Prepare Ch. 8 of the class materials distributed via the e-syllabus",
+      "minutes": "200"
+    },
+    {
+      "index": "24",
+      "content": "continued",
+      "operation": "Programming exercise",
+      "assignments": "Review materials from Nos. 23 and 24 classes",
+      "minutes": "200"
+    },
+    {
+      "index": "25",
+      "content": "Test and review about contents learned in Nos. 19 to 24 classes",
+      "operation": "Test and review Self-reflection",
+      "assignments": "Prepare for the test",
+      "minutes": "300"
+    },
+    {
+      "index": "26",
+      "content": "Self-reflection class",
+      "operation": "Review and self-reflection",
+      "assignments": "Review contents learned in Nos. 13 to 24 classes",
+      "minutes": "200"
+    },
+    {
+      "index": "27",
+      "content": "9. Using C in electrical and electronic engineering applications",
+      "operation": "Lecture and interactive activities",
+      "assignments": "Prepare for Integrated learning",
+      "minutes": "100"
+    },
+    {
+      "index": "28",
+      "content": "continued",
+      "operation": "Lecture and interactive activities",
+      "assignments": "Prepare for Integrated learning",
+      "minutes": "100"
+    },
+    {
+      "index": "29",
+      "content": "continued",
+      "operation": "Lecture and interactive activities",
+      "assignments": "Prepare for Integrated learning",
+      "minutes": "100"
+    },
+    {
+      "index": "30",
+      "content": "continued Self-evaluation",
+      "operation": "Lecture and interactive activities Self-evaluation",
+      "assignments": "Review materials from Nos. 27 and 30 classes",
+      "minutes": "200"
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　E927-30\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Electrical and Electronic Engineering(〜2024)\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Project Courses\n\n                プロジェクトデザインⅢ（津田敏宏研究室）\n                Design Project III(Tsuda Toshihiro)\n\n              8\n              E927-30\n\n                2026年度\n\n                All year\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  TSUDA Toshihiro\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Rotating Machine\n2.Motor\n3.Generator\n\n              The subject of this course is a basic study on rotating machines, which is useful for solving environmental and energy issues.\nThrough the study, students will:\n(1) learn how to find technical challenges and solve them.\n(2) learn how to compile technical reports and give their presentations.\n\n              授業の概要および学習上の助言\n\n              In this course, we will cover the following topics:\n1. Design and analysis of rotating machines.\n2. Development of a new type of rotating machine.\n\nStudents are required to actively participate in class.\n\n              教科書および参考書・リザーブドブック\n\n              Textbooks：None\nReference books：None\nReserved books：None\n\n              履修に必要な予備知識や技能\n\n              Knowledge of electromagnetics and electric circuits.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                I,K,L,M,N\n                Be able to clearly define the goal of the study and to create a plan for achieving it.\n\n                ②\n                N\n                Be able to communicate well with group members and to pursue the study.\n\n                ③\n                I,K,L,M,N\n                Be able to solve technical challenges in the study by yourself.\n\n                ④\n                I,K,L,M,N\n                Be able to compile results of the study as a final report (i.e., project report).\n\n                ⑤\n                I,K,L,M,N\n                Be able to make presentations about results of the study effectively.\n\n                ⑥\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                0\n\n                0\n\n                60\n\n                40\n\n                0\n\n                0\n\n                0\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                0\n\n                0\n\n                60\n\n                40\n\n                0\n\n                0\n\n                0\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                0\n\n                0\n\n                60\n\n                40\n\n                0\n\n                0\n\n                0\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  コラボレーションとリーダーシップ\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  発表・表現・伝達する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  学習に取組む姿勢・意欲\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n        ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n\n              評価の要点\n\n",
-  "courseId": "2026:full-year:E927-30:0:309",
+  "rawText": "金沢工業大学 学習支援計画書 E610-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Electrical and Electronic Engineering(2018〜)\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n電気電子プログラミング演習\nProgramming Practice for Electrical and Electronic Engineers  3 E610-01  2024年度\n 2nd year 1st semester  修学規程第4条を参照\n    担当教員名\n AIZAWA Koji, KONNO Takeshi, SHIMAUCHI Suehiro, HAYASHI Keiji\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Computer 2.Programing 3.C Language 4.Algorithm 5.Electrical and Electronic Engineers  Students will: (1) learn the fundamental concepts and methods of programming using C language. (2) learn how to solve problems and transform the solutions into computer programs written in C language. The goal of this course is to provide an introduction not just to C but also to logical thinking. (3) learn some applications of C programming in electrical and electronic engineering.\n    授業の概要および学習上の助言   This course is designed to familiarize students with computer programming, with an emphasis on a widely used language, C. The classes incorporate lecture with hands-on programming exercises. We will cover the following materials: 1. Elementary programming in C 2. Selection statements 3. Repetition statements 4. Arrays 5. Modular programming with functions 6. Pointers 7. Structures 8. File input/output 9. Using C in electrical and electronic engineering applications Students should be aware of the teacher's instructions in the class, because the detailed course schedules may change depending on the students' progress in understanding.\n    教科書および参考書・リザーブドブック   Textbooks: None Reference books: None Reserved books: None\n    履修に必要な予備知識や技能   You are expected to bring your Windows laptop to class with you to work on programming exercises using Visual Studio. No prior programming knowledge is required. This course and “Computer Engineering for Electrical and Electronic Engineers” are complementary. “Electronic Circuits II” and “Feedback Control” are related to this course.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① K,D Be able to demonstrate problem-solving skills by developing algorithms to solve problems.   ② K,H Be able to incorporate the selection and repetition control structures into C programs.   ③ K,H Be able to demonstrate understanding of the use of arrays and structures.   ④ K,H Be able to decompose the solution into modules at the function level.   ⑤ K,H Be able to demonstrate understanding of the use of pointers.   ⑥ K,H Be able to implement programs using file input/output.\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 0 40 60 0 0 0 0 100     指標と評価割合 総合評価割合 0 40 60 0 0 0 0 100   総合力指標 知識を取り込む力 0 40 60 0 0 0 0 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ①      ②     ③     ④     ⑤     ⑥     クイズ\n小テスト ①   The level of understanding of the lecture content is frequently checked by written tests to encourage students to self-check.   ②     ③ レ   ④ レ   ⑤ レ   ⑥ レ   レポート ① レ Reasoning ability, comprehension level, creative ability, and willingness to learn will be evaluated mainly based on programming exercise reports.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥ レ   成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ①      ②     ③     ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     (1) Develop modular and efficient programs in C efficiently. (2) Identify a problem in electrical and electronic engineering and provide a proper solution by designing algorithms and implementing computer programs. (3) Be comfortable using C. (1) Design algorithms to solve rudimentary problems in electric and electronic engineering. (2) Demonstrate basic skills in writing and implementing simple structured programs in C. (3) Describe the fundame",
+  "courseId": "2024:spring:E602-01:0:309",
   "language": "en"
 }

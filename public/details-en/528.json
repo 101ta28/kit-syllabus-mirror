@@ -1,66 +1,63 @@
 {
   "sourceIndex": 528,
   "sourceUrl": "/opsyllabus/kitos0110/528/1",
-  "importedAt": "2026-06-08T09:34:03.841Z",
-  "title": "心理学統計法",
-  "subtitle": "Psychological Statistics",
-  "courseType": "Major ProgramMajor Courses",
+  "importedAt": "2026-06-09T01:29:24.002Z",
+  "title": "モバイルアプリケーション",
+  "subtitle": "Mobile Application",
+  "courseType": "Major Program\nMajor Courses",
   "credits": "2",
-  "term": "2026年度\n\n                2nd year 1st semester",
+  "term": "2024年度\n 3rd year 2nd semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "TOKUOKA Masaru"
+    "NAKAZAWA Kenji"
   ],
   "keywords": [
-    "Data and Scales",
-    "Descriptive statistics",
-    "Population and sample",
-    "Statistical tests"
+    "JavaScript 2.HTML/CSS 3.Web browser 4.Smartphone 5.Regional contribution"
   ],
-  "educationalGoal": "Statistical analysis is required for psychological research with high generalizability. The goal of this course is to provide students with the basic knowledge to run statistical tests and to understand the results of the tests precisely.",
-  "advice": "The class proceeds with lectures on the basic theory of psychological statistics and practical training of statistical analyses that include calculations with real data using Microsoft Excel and R. Students are expected to understand the basics of psychological statistics and learn the method of statistical analysis to avoid misuse of statistical analysis and misinterpretation of the results of analyses.\nNote that the course flow can be changed according to other closely related courses such as “Practice of Elementary Psychological Experiments.”\n\nThis subject is subject to the course credit system.",
-  "books": "心理学統計法　清水裕士\nNHK出版",
-  "requiredKnowledge": "Students are required to bring their own personal computer for statistical analysis.",
+  "educationalGoal": "In this course, students will learn how to develop graphical interactive Web applications for mobile devices such as smartphones and tablets using HTML/CSS/JavaScript.",
+  "advice": "In this course, students will develop applications on the client side of the Web using JavaScript. As basic knowledge, it is assumed that students have acquired the HTML/CSS webpage creation method that was taught in the first-year “Web Design” class. In this class, students will learn basic application development methods using JavaScript through exercises and assignments. As an overall assignment, teams will be formed to address themes related to community contributions. Therefore, students are expected and encouraged to collect information about the region and try to extract relevant issues on a continuing basis.",
+  "books": "",
+  "requiredKnowledge": "Students are expected to have basic knowledge of object-oriented languages and HTML/CSS. In addition, students will need to install the Google Chrome browser on their laptop in order to use the features of Google Chrome developer tools.",
   "activityGoals": [
     {
       "index": "①",
-      "type": "D,G",
-      "body": "Ability to decide which statistical analyses are appropriate for the data acquired in experiments and surveys."
+      "type": "I",
+      "body": "Be able to understand and explain basic JavaScript code."
     },
     {
       "index": "②",
-      "type": "D,G",
-      "body": "Ability to run statistical analyses with appropriate methods and to interpret the results in appropriate ways."
+      "type": "I,K,M",
+      "body": "Be able to utilize basic technologies such as event processing and Canvas drawing."
     },
     {
       "index": "③",
-      "type": "D",
-      "body": "Ability to understand the selection, computation, and interpretation of descriptive statistics."
+      "type": "I,K,L,M,N",
+      "body": "Be able to design and develop graphical applications that are intended for mobile use."
     },
     {
       "index": "④",
-      "type": "D",
-      "body": "Ability to understand inferential statistics."
+      "type": "I,K,L,M,N,G",
+      "body": "Be able to design and develop applications using functions specific to mobile devices such as GPS and sensors"
     }
   ],
   "evaluationWeights": [
     {
       "label": "総合評価割合",
       "values": [
+        "20",
+        "0",
+        "20",
+        "0",
         "40",
-        "45",
         "0",
-        "0",
-        "0",
-        "0",
-        "15",
+        "20",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -70,20 +67,20 @@
     {
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
+        "20",
+        "0",
+        "20",
+        "0",
         "40",
-        "45",
         "0",
-        "0",
-        "0",
-        "0",
-        "15",
+        "20",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -93,20 +90,20 @@
     {
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
+        "20",
+        "0",
+        "20",
+        "0",
         "40",
-        "45",
         "0",
-        "0",
-        "0",
-        "0",
-        "15",
+        "20",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -127,9 +124,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -137,7 +134,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -150,9 +147,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -173,9 +170,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -184,118 +181,118 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "1)\tCalculate the data acquired in experiments, surveys and observations precisely and interpret their features.\n2)\tDecide which statistical analyses are appropriate for the experimental design and run the statistical analyses with appropriate methods.\n3)\tInterpret the results of the analyses and make a conclusion according to the purpose of the experiment.",
-    "standard": "1)\tCalculate the data acquired in experiments, surveys and observations precisely and interpret their features.\n2)\tDecide which statistical analyses are appropriate for the experimental design and run the statistical analyses with appropriate methods.\n3)\tUnderstand why statistical analyses are required in psychological research and explain the reason."
+    "ideal": "Students are required to achieve an overall goal of 90% or higher of the target values.",
+    "standard": "Students are required to achieve an overall goal of 70% of the target values."
   },
   "clipProcess": "",
   "lessons": [
     {
       "index": "1",
-      "content": "Guidance\nData for psychological research and its\nmeasurement",
-      "operation": "Lecture",
-      "assignments": "Read the text",
-      "minutes": "45"
+      "content": "Course introduction HTML/CSS/JavaScript Development of environment construction How to write and run programs",
+      "operation": "Lecture and practice",
+      "assignments": "Review of today's lecture Prepare for the next lecture",
+      "minutes": "60"
     },
     {
       "index": "2",
-      "content": "Descriptive statistics: average, median,\ndispersion",
-      "operation": "Lecture\nPractical training\n(Excel or R)\nQuiz 2",
-      "assignments": "Read the text\nReview the calculation in the\nclass",
-      "minutes": "45\n30"
+      "content": "Object/array/function basics Expressions and operators",
+      "operation": "Lecture and practice",
+      "assignments": "Review of today's lecture Prepare for the next lecture",
+      "minutes": "90"
     },
     {
       "index": "3",
-      "content": "Relation between two variables",
-      "operation": "Lecture\nPractical training",
-      "assignments": "Read the text\nReview the calculation in the\nclass",
-      "minutes": "45\n30"
+      "content": "Web browser input/output Web browser object",
+      "operation": "Lecture and practice",
+      "assignments": "Review of today's lecture Prepare for the next lecture",
+      "minutes": ""
     },
     {
       "index": "4",
-      "content": "Linear regression",
-      "operation": "Lecture\nPractical training",
-      "assignments": "Read the text\nReview the calculation in the\nclass",
-      "minutes": "45\n30"
+      "content": "Document control Event processing",
+      "operation": "Lecture and practice",
+      "assignments": "Review of today's lecture Prepare for the next lecture",
+      "minutes": "90"
     },
     {
       "index": "5",
-      "content": "Partial correlation coefficient and causal effec\nt",
-      "operation": "Lecture\nPractical training",
-      "assignments": "Read the text\nReview the calculation in the\nclass",
-      "minutes": "40\n30"
+      "content": "Canvas API",
+      "operation": "Lecture and practice",
+      "assignments": "Review of today's lecture Prepare for the next lecture",
+      "minutes": "90"
     },
     {
       "index": "6",
-      "content": "Population and sampling",
-      "operation": "Lecture",
-      "assignments": "Read the text\nReview the calculation in the\nclass",
-      "minutes": "45"
+      "content": "Object Application using tilt sensor",
+      "operation": "Lecture and practice",
+      "assignments": "Review of today's lecture Prepare for the next lecture",
+      "minutes": "90"
     },
     {
       "index": "7",
-      "content": "Interval estimation with probabilistic model",
-      "operation": "Lecture\nPractical training",
-      "assignments": "Read the text\nReview the calculation in the\nclass",
-      "minutes": "40\n30"
+      "content": "Audio/Video Applications using cameras Asynchronous processing",
+      "operation": "Lecture and practice",
+      "assignments": "Review of today's lecture Prepare for the next lecture",
+      "minutes": "90"
     },
     {
       "index": "8",
-      "content": "Interval estimation of population mean",
-      "operation": "Lecture\nPractical training",
-      "assignments": "Read the text\nReview the calculation in the\nclass",
-      "minutes": "40\n30"
+      "content": "Application using location information and map API",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Review of today's lecture Prepare for the next lecture",
+      "minutes": "90"
     },
     {
       "index": "9",
-      "content": "Exam 1",
-      "operation": "Exam\nReview",
-      "assignments": "Read the text\nReview the calculation in the\nclass",
-      "minutes": "40\n30"
+      "content": "Responsive Web design",
+      "operation": "Lecture and practice",
+      "assignments": "Prepare for the overall assignment",
+      "minutes": "90"
     },
     {
       "index": "10",
-      "content": "Statistics that express the relationship between\n two variables",
-      "operation": "Lecture\nPractical training",
-      "assignments": "Read the text\nReview the calculation in the\nclass",
-      "minutes": "40\n30"
+      "content": "Native app development Organize groups",
+      "operation": "Practice Self-check",
+      "assignments": "Create original product",
+      "minutes": "120"
     },
     {
       "index": "11",
-      "content": "Test for the difference between the means of two\n conditions",
-      "operation": "Lecture\nPractical training",
-      "assignments": "Read the text\nReview the calculation in the\nclass",
-      "minutes": "40\n30"
+      "content": "Group work production practice",
+      "operation": "Practice",
+      "assignments": "Create original product",
+      "minutes": "120"
     },
     {
       "index": "12",
-      "content": "Statistical test",
-      "operation": "Lecture\nPractical training",
-      "assignments": "Read the text\nReview the calculation in the\nclass",
-      "minutes": "40\n30"
+      "content": "Group work production practice",
+      "operation": "Practice",
+      "assignments": "Create original product Prepare for the presentation and the group assignment",
+      "minutes": "120"
     },
     {
       "index": "13",
-      "content": "Test for more than three mean value differences",
-      "operation": "Lecture\nDiscussion",
-      "assignments": "Read the text\nReview the calculation in the\nclass",
-      "minutes": "45\n30"
+      "content": "Presentation of production",
+      "operation": "Presentation and discussion",
+      "assignments": "Review of own team's work Prepare for the personal assignment",
+      "minutes": "60"
     },
     {
       "index": "14",
-      "content": "Exam 2",
-      "operation": "Test",
-      "assignments": "Read the text\nReview the calculation in the\nclass",
-      "minutes": "40\n30"
+      "content": "Presentation of production",
+      "operation": "Presentation and discussion",
+      "assignments": "Review of own team's work",
+      "minutes": "60"
     },
     {
       "index": "15",
-      "content": "Reviewing lessons\nEffect size, design of sample size\nSelf-check",
-      "operation": "Lecture\nSelf-check",
-      "assignments": "",
-      "minutes": ""
+      "content": "Review Evolutionary learning",
+      "operation": "Review Lecture Self-evaluation",
+      "assignments": "Review",
+      "minutes": "30"
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　M110-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Psychology and Information Design\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                心理学統計法\n                Psychological Statistics\n\n              2\n              M110-01\n\n                2026年度\n\n                2nd year 1st semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  TOKUOKA Masaru\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Data and Scales\n2.Descriptive statistics\n3.Population and sample\n4.Statistical tests\n\n              Statistical analysis is required for psychological research with high generalizability. The goal of this course is to provide students with the basic knowledge to run statistical tests and to understand the results of the tests precisely.\n\n              授業の概要および学習上の助言\n\n              The class proceeds with lectures on the basic theory of psychological statistics and practical training of statistical analyses that include calculations with real data using Microsoft Excel and R. Students are expected to understand the basics of psychological statistics and learn the method of statistical analysis to avoid misuse of statistical analysis and misinterpretation of the results of analyses.\nNote that the course flow can be changed according to other closely related courses such as “Practice of Elementary Psychological Experiments.”\n\nThis subject is subject to the course credit system.\n\n              教科書および参考書・リザーブドブック\n\n              心理学統計法　清水裕士\nNHK出版\n\n              履修に必要な予備知識や技能\n\n              Students are required to bring their own personal computer for statistical analysis.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                D,G\n                Ability to decide which statistical analyses are appropriate for the data acquired in experiments and surveys.\n\n                ②\n                D,G\n                Ability to run statistical analyses with appropriate methods and to interpret the results in appropriate ways.\n\n                ③\n                D\n                Ability to understand the selection, computation, and interpretation of descriptive statistics.\n\n                ④\n                D\n                Ability to understand inferential statistics.\n\n                ⑤\n\n                ⑥\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                40\n\n                45\n\n                0\n\n                0\n\n                0\n\n                0\n\n                15\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                40\n\n                45\n\n                0\n\n                0\n\n                0\n\n                0\n\n                15\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                40\n\n                45\n\n                0\n\n                0\n\n                0\n\n                0\n\n                15\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  コラボレーションとリーダーシップ\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  発表・表現・伝達する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                 ",
-  "courseId": "2026:spring:M110-01:0:528",
+  "rawText": "金沢工業大学 学習支援計画書 F028-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Media Informatics\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\nモバイルアプリケーション\nMobile Application  2 F028-01  2024年度\n 3rd year 2nd semester  修学規程第4条を参照\n    担当教員名\n NAKAZAWA Kenji\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.JavaScript 2.HTML/CSS 3.Web browser 4.Smartphone 5.Regional contribution  In this course, students will learn how to develop graphical interactive Web applications for mobile devices such as smartphones and tablets using HTML/CSS/JavaScript.\n    授業の概要および学習上の助言   In this course, students will develop applications on the client side of the Web using JavaScript. As basic knowledge, it is assumed that students have acquired the HTML/CSS webpage creation method that was taught in the first-year “Web Design” class. In this class, students will learn basic application development methods using JavaScript through exercises and assignments. As an overall assignment, teams will be formed to address themes related to community contributions. Therefore, students are expected and encouraged to collect information about the region and try to extract relevant issues on a continuing basis.\n    教科書および参考書・リザーブドブック\n    履修に必要な予備知識や技能   Students are expected to have basic knowledge of object-oriented languages and HTML/CSS. In addition, students will need to install the Google Chrome browser on their laptop in order to use the features of Google Chrome developer tools.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① I Be able to understand and explain basic JavaScript code.   ② I,K,M Be able to utilize basic technologies such as event processing and Canvas drawing.    ③ I,K,L,M,N Be able to design and develop graphical applications that are intended for mobile use.    ④ I,K,L,M,N,G Be able to design and develop applications using functions specific to mobile devices such as GPS and sensors   ⑤     ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 20 0 20 0 40 0 20 100     指標と評価割合 総合評価割合 20 0 20 0 40 0 20 100   総合力指標 知識を取り込む力 20 0 20 0 40 0 20 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ Students will be evaluated as to whether they have basic knowledge of JavaScript, Canvas drawing, event processing, and basic knowledge of application creation using sensors and location information.   ② レ   ③     ④     ⑤     ⑥     クイズ\n小テスト ①      ②     ③     ④     ⑤     ⑥     レポート ① レ Students will be evaluated the work reports produced in the mid-term assignment. The evaluation will consider whether the devised points have been clarified, and whether the contents have been adequately explained from both technology and expression viewpoints.   ② レ   ③ レ   ④ レ   ⑤     ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ① レ Students will organize into groups and use the knowledge and techniques learned in class to develop applications related to community contributions. Based on the produced products, reports, and announcements, students will be evaluated on the basic and applied skills. In addition, students will be evaluated on their individual contributions within the group.    ② レ   ③ レ   ④ レ   ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ① レ Students will be evaluated on attitudes and motivation (attitudes, punctuality, attendance, etc.)   ② レ   ③ レ   ④ レ   ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     Students are required to achieve an overall goal of 90% or higher of the target values. Students are required to achieve an overall goal of 70% of the target values.\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習課題に要する",
+  "courseId": "2024:spring:F025-01:0:528",
   "language": "en"
 }

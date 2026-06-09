@@ -1,56 +1,73 @@
 {
   "sourceIndex": 820,
   "sourceUrl": "/opsyllabus/kitos0110/820/1",
-  "importedAt": "2026-06-08T09:34:10.124Z",
-  "title": "飛行力学Ⅰ",
-  "subtitle": "Dynamics of Flight I",
-  "courseType": "Major ProgramMajor Courses",
+  "importedAt": "2026-06-09T01:29:26.930Z",
+  "title": "基礎生物学Ⅱ",
+  "subtitle": "Basic Biology II",
+  "courseType": "Major Program\nMajor Courses",
   "credits": "2",
-  "term": "2026年度\n\n                2nd year 2nd semester",
+  "term": "2024年度\n 1st year 1st semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "HAMAMOTO Yusuke"
+    "DOHMOTO Mitsuko"
   ],
   "keywords": [
-    "Equation of motion",
-    "Flying qualities",
-    "Flight control",
-    "Regional cooperation"
+    "Organelle 2.Energy Metabolism 3.Reproduction and Heredity 4.Homeostasis 5.Biomimetics and AI"
   ],
-  "educationalGoal": "The “dynamics of flight” is the foundation of aeronautical engineering. In this course, students will learn what kind of forces act on an aircraft in flight and learn about the balance and dynamics characteristics for stable flight.",
-  "advice": "Students will begin by learning basic mathematical knowledge and axis definitions, and learn about the six-degrees-of-freedom equation of motion.\nNext, students will learn to analyze qualities of flight after learning linearization of the equation of motion.\nIn addition to learning design standards, students will deepen their understanding of qualities of flight by learning the basics of flight control.",
-  "books": "_",
-  "requiredKnowledge": "Acquisition of Dynamics of Machines\nSufficient skill in mathematics and physics",
+  "educationalGoal": "Based on knowledge acquired in Basic Biology 1, this course cultivates further understanding of common features and diversity of life. This objective is achieved by learning and discussing on the topics including (1) cell structure and genetics behind common biological functions, (2) variation in respiratory substrates and photosynthetic pathways underlying organisms diversity, and (3) industrial application of biological structures and functions.",
+  "advice": "We will cover the following materials: 1. Structure and function of organelle, 2. Energy metabolism, 3. Regulation of gene expression, 4. Reproduction and heredity, 5. Signal transduction in disease, 6. Material cycles in ecosystem, and 7. Human uses of biology. This course is designed to be understandable even to the students who have not taken the biology course in high school. However, students are highly recommended to go through, in advance, the contents of high school biology. Students should pay attention to the teacher’s instructions in the class since the schedule may change depending on the class progresses. Students should attend all classes; otherwise, the handouts may not be received. Students are expected to check for messages/materials on the KIT Inside website before each class.",
+  "books": "Textbooks:Daigakusei no tameno kangaete manabu Kisoseibutsugaku (Kyoritsu Shuppan) Reference books:Seibutsugaku jiten (Iwanami Shoten) Reserved books:None",
+  "requiredKnowledge": "Basic knowledge of biology. Basic computer skills. Students are requested to prepare for and review each class.",
   "activityGoals": [
     {
       "index": "①",
-      "type": "D,G,J,K",
-      "body": "Be able to understand the principles of flight and its characteristics."
+      "type": "J,K",
+      "body": "Ability to explain structures and functions of cell organelle"
     },
     {
       "index": "②",
-      "type": "J,K,M,N,O",
-      "body": "Be able to understand the effects on flight motion of changes in the aerodynamic derivative acting on the aircra"
+      "type": "J,K",
+      "body": "Ability to explain biological energy consumption"
+    },
+    {
+      "index": "③",
+      "type": "J,K",
+      "body": "Ability to explain features of sexual and asexual reproduction"
+    },
+    {
+      "index": "④",
+      "type": "J,K",
+      "body": "Ability to explain chromosomal basis of inheritance"
+    },
+    {
+      "index": "⑤",
+      "type": "J,K",
+      "body": "Ability to explain the role of hormones in homeostasis"
+    },
+    {
+      "index": "⑥",
+      "type": "J,K",
+      "body": "Ability to design and conduct literature research and oral presentation on biofunctions/biomimetics"
     }
   ],
   "evaluationWeights": [
     {
       "label": "総合評価割合",
       "values": [
-        "40",
         "30",
         "20",
         "0",
+        "20",
         "0",
         "0",
-        "10",
+        "30",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -60,20 +77,20 @@
     {
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
-        "40",
         "30",
         "20",
         "0",
+        "20",
         "0",
         "0",
-        "10",
+        "30",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -83,20 +100,20 @@
     {
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
-        "40",
         "30",
         "20",
         "0",
+        "20",
         "0",
         "0",
-        "10",
+        "30",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -117,9 +134,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -127,7 +144,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -140,9 +157,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -163,9 +180,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -174,118 +191,118 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "(1) Be able to accurately explain the physical principles and characteristics of aircraft in flight.\n(2) Be able to explain the effects of the main items of the aerodynamic derivative on flight motion by showing numerical values through examples.",
-    "standard": "(1) Understand the principle of flight and its characteristics, and be able to explain important items.\n(2) Be able to explain the effects of the main items of the aerodynamic derivative on flight motion shown by related expressions in the text, and to explain the results while looking at the text."
+    "ideal": "(1) Fully understand the structure-function relationship of cell organelle. (2) Fully understand the mechanism of biological energy consumption. (3) Fully understand advantage, disadvantage and the mechanism of sexual and asexual reproduction. (4) Fully understand the chromosomal basis of inheritance. (5) Fully understand the role of hormones in homeostasis and health. (6) Present a novel idea for application of biofunctions and biomimetics.",
+    "standard": "(1) Explain structures and functions of cell organelle. (2) Explain biological energy consumption. (3) Explain features of sexual and asexual reproduction. (4) Explain the chromosomal basis of inheritance. (5) Explain significance of hormones in homeostasis. (6) Present application examples of biofunctions and biomimetics."
   },
   "clipProcess": "",
   "lessons": [
     {
       "index": "1",
-      "content": "Course introduction",
-      "operation": "Guidance, Lecture",
-      "assignments": "",
-      "minutes": "100"
+      "content": "Course introduction Structure and function of cell organelle",
+      "operation": "Lecture and Q&A Self-check",
+      "assignments": "Read pages 10-15 of the textbook.",
+      "minutes": "60"
     },
     {
       "index": "2",
-      "content": "Lecture\n(Equation of motion)",
-      "operation": "Lecture\nand Q&A\nSelf-check",
-      "assignments": "Prepare for\nrelated items\nusing the e-syllabus",
-      "minutes": "100"
+      "content": "Building blocks of life: Carbohydrates and lipids Methods of protein detection",
+      "operation": "Lecture and Q&A Self-check",
+      "assignments": "Read pages 28-34 of the textbook.",
+      "minutes": "140"
     },
     {
       "index": "3",
-      "content": "Lecture\n(Equation of motion)",
-      "operation": "Lecture\nand Q&A\nSelf-check",
-      "assignments": "Prepare for\nrelated items\nusing the e-syllabus",
-      "minutes": "100"
+      "content": "Energy and metabolism: regulatory mechanism of enzymatic reaction, unconventional photosynthesis, and nitrogen assimilation",
+      "operation": "Lecture and Q&A Self-check",
+      "assignments": "Read pages 42-44 and 47-50 of the textbook.",
+      "minutes": "140"
     },
     {
       "index": "4",
-      "content": "Test and review\non classes 1 to 3.",
-      "operation": "Test and review\nSelf-reflection",
-      "assignments": "Prepare for\nrelated items\nusing the e-syllabus",
-      "minutes": "50"
+      "content": "Energy and metabolism: catabolism of proteins and lipids, uses of ATP, and passive and active transport",
+      "operation": "Lecture and Q&A Self-check",
+      "assignments": "Read pages 60-66 of the textbook.",
+      "minutes": "140"
     },
     {
       "index": "5",
-      "content": "Lecture\n(Coordinate transformation)",
-      "operation": "Lecture\nand Q&A\nSelf-check",
-      "assignments": "Prepare for\nrelated items\nusing the e-syllabus",
-      "minutes": "100"
+      "content": "Gene and heredity: regulation of gene expression, and types of mutation",
+      "operation": "Lecture and Q&A Self-check",
+      "assignments": "Read pages 75 and 81-86 of the textbook.",
+      "minutes": "140"
     },
     {
       "index": "6",
-      "content": "Lecture\n(Coordinate transformation)",
-      "operation": "Lecture\nand Q&A\nSelf-check",
-      "assignments": "Prepare for\nrelated items\nusing the e-syllabus",
-      "minutes": "100"
+      "content": "Midterm review of classes Group meeting for literature research on application of biofunctions",
+      "operation": "Midterm exam Group work",
+      "assignments": "Review contents of Classes 1-5. Conduct literature research.",
+      "minutes": "160"
     },
     {
       "index": "7",
-      "content": "Lecture\n(Linearization)",
-      "operation": "Lecture\nand Q&A\nSelf-check",
-      "assignments": "Prepare for\nrelated items\nusing the e-syllabus",
-      "minutes": "100"
+      "content": "Gene and heredity: gametogenesis, and ways of reproduction",
+      "operation": "Lecture and Q&A Self-check",
+      "assignments": "Read pages 96-103 of the textbook.",
+      "minutes": "140"
     },
     {
       "index": "8",
-      "content": "Lecture\n(Linearization)",
-      "operation": "Lecture\nand Q&A\nSelf-check",
-      "assignments": "Prepare for\nrelated items\nusing the e-syllabus",
-      "minutes": "100"
+      "content": "Gene and heredity: Mendel's law of independent assortment, and sex chromosome inheritance",
+      "operation": "Lecture and Q&A Self-check",
+      "assignments": "Read pages 114-121 of the textbook.",
+      "minutes": "140"
     },
     {
       "index": "9",
-      "content": "Test and review\non classes 4 to 8.",
-      "operation": "Test and review\nSelf-reflection",
-      "assignments": "Prepare for\nrelated items\nusing the e-syllabus",
-      "minutes": "50"
+      "content": "Homeostasis and immunity: hormones for homeostasis",
+      "operation": "Lecture and Q&A Self-check",
+      "assignments": "Read pages 134-141 of the textbook.",
+      "minutes": "140"
     },
     {
       "index": "10",
-      "content": "Lecture\n(Linearization)",
-      "operation": "Lecture\nand Q&A\nSelf-check",
-      "assignments": "Prepare for\nrelated items\nusing the e-syllabus",
-      "minutes": "100"
+      "content": "Homeostasis and immunity: immunity in disease",
+      "operation": "Lecture and Q&A Self-check",
+      "assignments": "Read pages 150-157 of the textbook.",
+      "minutes": "140"
     },
     {
       "index": "11",
-      "content": "Lecture\n(Linearization)",
-      "operation": "Lecture\nand Q&A\nSelf-check",
-      "assignments": "Prepare for\nrelated items\nusing the e-syllabus",
-      "minutes": "100"
+      "content": "Biofunctions and biodiversity: material cycles and energy flows in ecosystems, and human uses of biology",
+      "operation": "Lecture and Q&A Self-check",
+      "assignments": "Read pages 169-176 and 196-197 of the textbook.",
+      "minutes": "140"
     },
     {
       "index": "12",
-      "content": "Test and review\non classes 9 to 11.",
-      "operation": "Test and review\nSelf-reflection",
-      "assignments": "Prepare for\nrelated items\nusing the e-syllabus",
-      "minutes": "100"
+      "content": "Term-end review of classes Finalization of literature research",
+      "operation": "Term-end exam Group work",
+      "assignments": "Review contents of Classes 1-11. Finalize literature research.",
+      "minutes": "180"
     },
     {
       "index": "13",
-      "content": "Lecture\n(Linearization)",
-      "operation": "Lecture\nand Q&A\nSelf-check",
-      "assignments": "Prepare for\nrelated items\nusing the e-syllabus",
-      "minutes": "100"
+      "content": "Biofunctions and biodiversity: environmental adaptation of organisms Progress discussion on literature research",
+      "operation": "Lecture and Q&A Group work Self-check",
+      "assignments": "Read pages 197-206 of the textbook.",
+      "minutes": "150"
     },
     {
       "index": "14",
-      "content": "Organize knowledge,\nFinal exam, and review",
-      "operation": "Prepare\nfor the exam",
-      "assignments": "Prepare for\nrelated items\nusing the e-syllabus",
-      "minutes": "50"
+      "content": "Group presentation of literature research on application of biofunctions",
+      "operation": "Group work Comment on presentations",
+      "assignments": "Report on other groups' presentations.",
+      "minutes": "60"
     },
     {
       "index": "15",
-      "content": "review",
-      "operation": "Lecture\nand Q&A\nSelf-check",
-      "assignments": "Answers to exam\nand review",
-      "minutes": "50"
+      "content": "Integrated learning and self-check",
+      "operation": "Review and Q&A Self-check",
+      "assignments": "Review the course.",
+      "minutes": "60"
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　K216-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Aeronautics and Astronautics\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                飛行力学Ⅰ\n                Dynamics of Flight I\n\n              2\n              K216-01\n\n                2026年度\n\n                2nd year 2nd semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  HAMAMOTO Yusuke\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Equation of motion\n2.Flying qualities\n3.Flight control\n4.Regional cooperation\n\n              The “dynamics of flight” is the foundation of aeronautical engineering. In this course, students will learn what kind of forces act on an aircraft in flight and learn about the balance and dynamics characteristics for stable flight.\n\n              授業の概要および学習上の助言\n\n              Students will begin by learning basic mathematical knowledge and axis definitions, and learn about the six-degrees-of-freedom equation of motion.\nNext, students will learn to analyze qualities of flight after learning linearization of the equation of motion.\nIn addition to learning design standards, students will deepen their understanding of qualities of flight by learning the basics of flight control.\n\n              教科書および参考書・リザーブドブック\n\n              _\n\n              履修に必要な予備知識や技能\n\n              Acquisition of Dynamics of Machines\nSufficient skill in mathematics and physics\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                D,G,J,K\n                Be able to understand the principles of flight and its characteristics.\n\n                ②\n                J,K,M,N,O\n                Be able to understand the effects on flight motion of changes in the aerodynamic derivative acting on the aircra\n\n                ③\n\n                ④\n\n                ⑤\n\n                ⑥\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                40\n\n                30\n\n                20\n\n                0\n\n                0\n\n                0\n\n                10\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                40\n\n                30\n\n                20\n\n                0\n\n                0\n\n                0\n\n                10\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                40\n\n                30\n\n                20\n\n                0\n\n                0\n\n                0\n\n                10\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  コラボレーションとリーダーシップ\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  発表・表現・伝達する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  学習に取組む姿勢・意欲\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n        ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n\n              評価の要点\n\n              評価方法\n              行動目標\n              評価の実施方法と注意点\n\n                    試験\n\n                    ①\n                    レ\n                    On the basis of the exercises used ",
-  "courseId": "2026:fall:K216-01:0:820",
+  "rawText": "金沢工業大学 学習支援計画書 B136-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Applied Bioscience\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n基礎生物学Ⅱ\nBasic Biology II  2 B136-01  2024年度\n 1st year 1st semester  修学規程第4条を参照\n    担当教員名\n DOHMOTO Mitsuko\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Organelle 2.Energy Metabolism 3.Reproduction and Heredity 4.Homeostasis 5.Biomimetics and AI  Based on knowledge acquired in Basic Biology 1, this course cultivates further understanding of common features and diversity of life. This objective is achieved by learning and discussing on the topics including (1) cell structure and genetics behind common biological functions, (2) variation in respiratory substrates and photosynthetic pathways underlying organisms diversity, and (3) industrial application of biological structures and functions.\n    授業の概要および学習上の助言   We will cover the following materials: 1. Structure and function of organelle, 2. Energy metabolism, 3. Regulation of gene expression, 4. Reproduction and heredity, 5. Signal transduction in disease, 6. Material cycles in ecosystem, and 7. Human uses of biology. This course is designed to be understandable even to the students who have not taken the biology course in high school. However, students are highly recommended to go through, in advance, the contents of high school biology. Students should pay attention to the teacher’s instructions in the class since the schedule may change depending on the class progresses. Students should attend all classes; otherwise, the handouts may not be received. Students are expected to check for messages/materials on the KIT Inside website before each class.\n    教科書および参考書・リザーブドブック   Textbooks:Daigakusei no tameno kangaete manabu Kisoseibutsugaku (Kyoritsu Shuppan) Reference books:Seibutsugaku jiten (Iwanami Shoten) Reserved books:None\n    履修に必要な予備知識や技能   Basic knowledge of biology. Basic computer skills. Students are requested to prepare for and review each class.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① J,K Ability to explain structures and functions of cell organelle   ② J,K Ability to explain biological energy consumption   ③ J,K Ability to explain features of sexual and asexual reproduction   ④ J,K Ability to explain chromosomal basis of inheritance   ⑤ J,K Ability to explain the role of hormones in homeostasis   ⑥ J,K Ability to design and conduct literature research and oral presentation on biofunctions/biomimetics\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 30 20 0 20 0 0 30 100     指標と評価割合 総合評価割合 30 20 0 20 0 0 30 100   総合力指標 知識を取り込む力 30 20 0 20 0 0 30 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ Term-end exams to evaluate the degree of acquisition of the curriculum. Usage of PC, mobiles or textbooks is prohibited in these exams.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     クイズ\n小テスト ① レ Midterm exams to evaluate the degree of acquisition of the curriculum. Usage of PC, mobiles or textbooks is prohibited in these exams.   ② レ   ③     ④     ⑤     ⑥     レポート ①      ②     ③     ④     ⑤     ⑥     成果発表\n(口頭・実技) ①   Students are requested to conduct literature research and give oral presentation on industrial application of biological structures/functions. Students are also requested to report summaries of presentations from other groups.   ②     ③     ④     ⑤     ⑥ レ   作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ① レ Students must actively participate in classes. Absence, tardiness, early departure and inappropriate behavior are subject to deduction in grades.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥ レ\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     (1) Fully understand the structure-function relationship of cell organelle. (2) Fully understand the mechanism of biological energy consumpti",
+  "courseId": "2024:spring:B136-01:0:820",
   "language": "en"
 }

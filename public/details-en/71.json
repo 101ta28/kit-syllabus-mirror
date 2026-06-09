@@ -1,77 +1,78 @@
 {
   "sourceIndex": 71,
   "sourceUrl": "/opsyllabus/kitos0110/71/1",
-  "importedAt": "2026-06-08T09:33:54.533Z",
-  "title": "工学のための数理工Ⅱ（再履修クラス）",
-  "subtitle": "Integrated Math and Science for Engineering II",
-  "courseType": "Mathematics and Science ProgramMathematics and Science Courses",
-  "credits": "4",
-  "term": "2026年度\n\n                1st year 2nd semester",
+  "importedAt": "2026-06-09T01:29:19.851Z",
+  "title": "技術者のための統計",
+  "subtitle": "Statistics for Engineers",
+  "courseType": "Mathematics and Science Program\nMathematics and Science Courses",
+  "credits": "2",
+  "term": "2024年度\n 2nd year 1st semester\n2nd year 2nd semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "KODAMA Koichi"
+    "YAMAOKA Hidetaka",
+    "WATANABE Shuji",
+    "TANAKA Yasuhiro",
+    "NAKAGAWA Hayato",
+    "SAEKI Akihiko",
+    "NISHI Makoto"
   ],
   "keywords": [
-    "Definite and indefinite integrals",
-    "Differential equations",
-    "Line integrals and energy",
-    "Center of gravity",
-    "Moments of inertia"
+    "Data organization and processing 2.Probability function and probability distribution 3.Evaluation of statistics based on probability theory 4.Estimates and tests 5.Data Science"
   ],
-  "educationalGoal": "Students will learn:\n(1) definite and indefinite integrals, integration by parts and integration by substitution.\n(2) equations of motion as an application of integrals.\n(3) line integrals and energy.\n(4) moments of force, center of gravity, and moments of inertia.",
-  "advice": "This is a basic course in integrated mathematics and science for engineering. We will cover the following topics:\n1. Sum of sequences and their limit, definite and indefinite integrals, integration by parts and integration by substitution.\n2. 1st-order differential equations, 2nd-order linear differential equations, equations of motion and mechanics.\n3. Line integral, work and energy, motion of a system of particles.\n4. Areas between two curves, multiple integrals, volume of a solid, center of gravity, rotational motion and moments of inertia.\nExtra classes may be held depending the comprehension level of students.\nStudents are required to review and preview each class. As a matter of particular emphasis, students are required to attempt the exercises after each class.\nExtra materials may be distributed if necessary.\nStudents are required to show their procedure for solution/calculation logically and clearly in each assignment.\nStudents are expected to utilize the Math. and Science Education Research Center or the office hours of the instructor.",
-  "books": "Textbook:             Integrated Math and Science for Engineering II\nReference books:  Integrated Math and Science for Engineering I\nCalculus Volume 1, 2, 3 (OpenStax) https://openstax.org/details/books/calculus-volume-1,\nhttps://openstax.org/details/books/calculus-volume-2, https://openstax.org/details/books/calculus-volume-3",
-  "requiredKnowledge": "Skills and knowledge from the Integrated Math and Science for Engineering I.\nKnowledge of exponential functions, logarithmic functions, and trigonometric functions.\nBasic calculation skills for differentiation.",
+  "educationalGoal": "Students will (1) learn data organization and processing (2) acquire basic knowledge of probability. (3) learn typical distribution functions such as the normal distribution,Student's t-distribution, and the chi-square distribution. (4) learn methods for interval estimation and hypothesis testing. (5) learn methods for multivariate analysis",
+  "advice": "This is a course in statistical analysis of data. We will cover the following topics: 1. Data organization and data distribution (1) Data collection and organization (2) Data distribution (3) Quantitative data distribution features 2 Relationships between variates (1) Arrangement of bivariate data (2) Correlation and correlation coefficient (3) Estimated bivariate relationship 3. Basics of Probability Theory (1) Basic concept of probability theory (2) Probability distribution of discrete quantity (3) Probability distribution of continuous quantity 4. Basics of statistical data processing (1) Sampling of sample population (2) Evaluation of statistics based on probability theory (3) Statistical estimation of population parameter 5. Statistical tests and multivariate analysis (1) Basic concept of statistical test (2) Method of statistical test (3) To multivariate analysis 6.Conduct statistical analysis using the programming language \"R\" with real social data",
+  "books": "Textbooks:Getting Started with Data Science [kyoritsu Shuppan]",
+  "requiredKnowledge": "Knowledge of basic mathematics .",
   "activityGoals": [
     {
       "index": "①",
       "type": "D",
-      "body": "Evaluate the integrals of various functions and integration by parts and integration by substitution."
+      "body": "Be able to organize the data and obtain the basic features of the data."
     },
     {
       "index": "②",
       "type": "D",
-      "body": "Solve separable, 1st-order linear and 2nd-order, linear, homogeneous differential equations."
+      "body": "Be able to calculate mean and variance for random variables."
     },
     {
       "index": "③",
       "type": "D",
-      "body": "Understand the concept of line integrals, and explain the energy of a system."
+      "body": "Be able to analyze data by calculating the necessary statistics from data."
     },
     {
       "index": "④",
       "type": "D",
-      "body": "Evaluate the areas, the volumes of a solid, moments of inertia, and the center of gravity for a solid."
+      "body": "Be able to estimate and test population mean, variance, and population ratio using a sample distribution."
     },
     {
       "index": "⑤",
       "type": "C",
-      "body": "Understand the meanings of fundamental English words for mathematics."
+      "body": "Understand the meanings of fundamental english words for statistics."
     },
     {
       "index": "⑥",
       "type": "A",
-      "body": "Be able to demonstrate an understanding of all topics, attend every class, and do the required works."
+      "body": "Be able to understand the contents of each class, work on assigned tasks, and attend every class."
     }
   ],
   "evaluationWeights": [
     {
       "label": "総合評価割合",
       "values": [
-        "40",
-        "24",
-        "16",
-        "0",
-        "0",
-        "0",
+        "30",
         "20",
+        "20",
+        "0",
+        "0",
+        "0",
+        "30",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -81,20 +82,20 @@
     {
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
-        "40",
-        "24",
-        "16",
-        "0",
-        "0",
-        "0",
+        "30",
         "20",
+        "20",
+        "0",
+        "0",
+        "0",
+        "30",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -104,20 +105,20 @@
     {
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
-        "40",
-        "24",
-        "16",
-        "0",
-        "0",
-        "0",
+        "30",
         "20",
+        "20",
+        "0",
+        "0",
+        "0",
+        "30",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -138,9 +139,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -148,7 +149,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -161,9 +162,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -184,9 +185,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -195,223 +196,118 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "(1) Accurately evaluate integrals of basic functions and use integration by substitution and integration by parts.\n(2) Fully understand the equations of motion and accurately solve separable, 1st-order linear and 2nd-order, linear, homogeneous differential equations.\n(3) Accurately evaluate line integrals, and explain the energy of a system correctly.\n(4) Accurately evaluate areas and volumes using definite integrals and find the center of gravity.\n(5) Fully understand multiple integrals and accurately find the moments of inertia. (6) Demonstrate an understanding of all topics and complete all assignments.",
-    "standard": "(1) Evaluate integrals of basic functions and use integration by substitution and integration by parts.\n(2) Understand the equations of motion, and solve separable, 1st-order linear and 2nd-order, linear, homogeneous differential equations.\n(3) Evaluate line integrals and explain the energy of a system.\n(4) Evaluate areas and volumes using definite integrals and find the center of gravity.\n(5) Understand multiple integrals and find the moments of inertia. (6) Demonstrate an understanding of all topics and complete all assignments."
+    "ideal": "(1) Understand how to organize the data that is the basis of data science. (2) Understand the meaning of random variables appropriately and calculate the mean and variance of a probability distribution. (3) Use common probability distributions to calculate probabilities in various situations. (4) Correctly calculate the statistical values required for data analysis. (5) Perform appropriate interval estimation and hypothesis testing using a sample distribution. (6) Apply course contents to various statistical problems.",
+    "standard": "(1) Understand how to organize the data that is the basis of data science. (2) Understand the meaning of random variables and calculate the mean and variance of a probability distribution. (3) Calculate probability using common probability distributions. (4) Calculate the statistical values required for data analysis. (5) Perform interval estimation and hypothesis testing using a sample distribution. (6) Apply course contents to statistical problems."
   },
   "clipProcess": "",
   "lessons": [
     {
       "index": "1",
-      "content": "Course introduction\n\nSequences and sigma (summation) notation",
-      "operation": "Instruction\n\nLecture and exercise",
-      "assignments": "Understand the course\nobjectives.\nReview: Sequences and sigma\n(summation) notation\nPreview: Riemann sums",
-      "minutes": "10\n\n60\n\n30"
+      "content": "Course introduction Obtaining data and its types Characteristics of quantitative data distribution.",
+      "operation": "Lecture, practice",
+      "assignments": "Understand the syllabus of this course Review the content of the lecture Prepare for the next class",
+      "minutes": "60 30"
     },
     {
       "index": "2",
-      "content": "Sequences and sigma (summation) notation and\ntheir limits\n\nRiemann sums",
-      "operation": "Lecture and exercise",
-      "assignments": "Self-study: Limits\nReview: Riemann sums\nPreview: Fundamental theorem\nof calculus",
-      "minutes": "30\n60\n30"
+      "content": "Organizing data",
+      "operation": "Lecture, practice, interactive activities",
+      "assignments": "Review the content of the lecture Prepare for the next class",
+      "minutes": "60 30"
     },
     {
       "index": "3",
-      "content": "Definite integrals\n\nFundamental theorem of calculus\n\nVarious indefinite integrals",
-      "operation": "Lecture and exercise",
-      "assignments": "Self-study:\nReview of differentiation\nReview:\nExercises on integration\nPreview:\nIndefinite integrals",
-      "minutes": "30\n\n60\n\n30"
+      "content": "Organizing data of two variables Correlations and correlation coefficients regression analysis",
+      "operation": "Lecture, practice, interactive activities",
+      "assignments": "Review the content of the lecture Prepare for the next class",
+      "minutes": "150"
     },
     {
       "index": "4",
-      "content": "Various indefinite integrals",
-      "operation": "Lecture and exercise",
-      "assignments": "Self-study:\nReview of differentiation\nReview:\nExercises on integration\nPreview: Review of a product\nrule for differentiation",
-      "minutes": "30\n\n60\n\n30"
+      "content": "Quiz (classes 1 to 4) Basic idea of probability theory",
+      "operation": "Quiz (classes 1 to 3) Basic idea of probability theory",
+      "assignments": "Review the content of the lecture Prepare for the next class",
+      "minutes": "100"
     },
     {
       "index": "5",
-      "content": "Integration by parts",
-      "operation": "Lecture and exercise",
-      "assignments": "Self-study:\nReview of integration\nReview: Integration by parts\nPreview:\nIntegration by substitution",
-      "minutes": "30\n\n60\n30"
+      "content": "Basic idea of probability theory Probability distribution of discrete quantities",
+      "operation": "Lecture, practice, interactive activities",
+      "assignments": "Review the content of the lecture Prepare for the next class",
+      "minutes": "100"
     },
     {
       "index": "6",
-      "content": "Integration by substitution",
-      "operation": "Lecture and exercise",
-      "assignments": "Self-study: Concept of\nrecurrence relation\nReview:\nIntegration by substitution\nPreview: Various integrals",
-      "minutes": "30\n\n60\n\n30"
+      "content": "Conditional probability and Bayes' theorem.",
+      "operation": "Self-check Lecture, practice, interactive activities",
+      "assignments": "Review the content of the lecture Prepare for the next class",
+      "minutes": "100"
     },
     {
       "index": "7",
-      "content": "Review of integrals",
-      "operation": "Lecture and exercise",
-      "assignments": "Review: Various integrals\nPreview: Quiz 1",
-      "minutes": "30\n90"
+      "content": "Probability distribution of discrete quantities Probability distribution of continuous quantities",
+      "operation": "Lecture, practice, interactive activities",
+      "assignments": "Review the content of the lecture Prepare for the next class",
+      "minutes": "100"
     },
     {
       "index": "8",
-      "content": "Quiz 1\n\nSimple, 1st-order differential equations",
-      "operation": "Quiz\n\nLecture and exercise",
-      "assignments": "Self-study: Simple,\n1st-order differential\nequations\nReview: Quiz 1\nPreview: Separable,\n1st-order differential\nequations",
-      "minutes": "30\n\n60\n30"
+      "content": "Probability distribution of continuous quantities",
+      "operation": "Lecture, practice, interactive activities Review and self-reflection",
+      "assignments": "Review the content of the lecture Prepare for the next class",
+      "minutes": "150"
     },
     {
       "index": "9",
-      "content": "Separable, 1st-order differential equations",
-      "operation": "Lecture and exercise\n\nSelf-check",
-      "assignments": "Self-study: Separable,\n1st-order differential\nequations\nReview: Solution to\ndifferential equations\nPreview: 1st-order linear\ndifferential equations",
-      "minutes": "30\n\n60\n\n30"
+      "content": "Quiz (classes 4 to 7) Population and sample population sampling",
+      "operation": "Lecture, practice, interactive activities",
+      "assignments": "Review the content of the lecture Prepare for the next class",
+      "minutes": "100"
     },
     {
       "index": "10",
-      "content": "1st-order linear differential equations",
-      "operation": "Lecture and exercise",
-      "assignments": "Self-study:\nSolution curve group\nReview: 1st-order linear\ndifferential equations\nPreview: 2nd-order, linear,\nhomogeneous differential\nequations",
-      "minutes": "30\n\n60\n\n30"
+      "content": "Basic idea of inference statistics Statistical estimation of population means",
+      "operation": "Self-check Lecture, practice, interactive activities",
+      "assignments": "Review the content of the lecture Prepare for the next class",
+      "minutes": "100"
     },
     {
       "index": "11",
-      "content": "2nd-order, linear, homogeneous differential\nequations",
-      "operation": "Lecture and exercise",
-      "assignments": "Self-study: Solutions to\nquadratic equations and\ncomplex numbers\n\nReview: 2nd-order, linear,\nhomogeneous differential\nequations",
-      "minutes": "60\n\n60"
+      "content": "Statistical estimation of population means Basic idea of statistics.",
+      "operation": "Lecture, practice, interactive activities",
+      "assignments": "Review the content of the lecture Prepare for the next class",
+      "minutes": "100"
     },
     {
       "index": "12",
-      "content": "Review of differential equations",
-      "operation": "Lecture and exercise",
-      "assignments": "Review: Various\ndifferential equations\nPreview: Quiz 2",
-      "minutes": "30\n\n90"
+      "content": "methods and practices of statistical tests",
+      "operation": "Lecture, practice, interactive activities",
+      "assignments": "Review the content of the lecture Prepare for the next class",
+      "minutes": "100"
     },
     {
       "index": "13",
-      "content": "Quiz 2\n\n[Report 1]\n Significant digit\n Scientific notation\n Application of differential equations to\n engineering",
-      "operation": "Quiz\n\nLecture and exercise",
-      "assignments": "Self-study:\nReview of integrals and\ndifferential equations\nReview: Quiz 2\nPreview: Report 1",
-      "minutes": "30\n\n60\n30"
+      "content": "methods and practices of statistical tests",
+      "operation": "Lecture, practice, interactive activities Review and self-reflection",
+      "assignments": "Review the content of the lecture Prepare for the next class",
+      "minutes": "200"
     },
     {
       "index": "14",
-      "content": "[Report 1]\n Application of differential equations to\n engineering\n\nReview of the first half",
-      "operation": "Lecture and exercise\n\nSelf-check",
-      "assignments": "Self-study: Report 1\nReview: Class contents of\n#1-#13",
-      "minutes": "30\n90"
+      "content": "Final exam Applying course contents to various statistical problems",
+      "operation": "Self-check Implementation of test Lecture, practice, interactive activities",
+      "assignments": "Review the content of the lecture",
+      "minutes": "100"
     },
     {
       "index": "15",
-      "content": "Intermediate exam\n\nArc length of a curve and line integrals",
-      "operation": "Intermediate exam\n\nLecture and exercise",
-      "assignments": "Self-study: Arc length of a\ncurve and line integrals\nReview: Intermediate exam\nSelf-check; Confirmation of\nsubmission, attendance\nPreview: Works and powers",
-      "minutes": "30\n\n30\n30\n\n30"
-    },
-    {
-      "index": "16",
-      "content": "Works and powers",
-      "operation": "Lecture and exercise\n\nSelf-check of\nthe first half",
-      "assignments": "Self-study: Dot product of\ntwo vectors\nReview: Works and powers\nPreview:\nMechanical energy",
-      "minutes": "30\n\n60\n30"
-    },
-    {
-      "index": "17",
-      "content": "Works and kinetic energy\n\nPotential energy and the law of conservation of\nmechanical energy\n\nReview of line integrals, works and energy",
-      "operation": "Lecture and exercise",
-      "assignments": "Self-study: Law of\nconservation of mechanical\nenergy\nReview: Works and energy\nPreview: Quiz 3",
-      "minutes": "30\n\n30\n60"
-    },
-    {
-      "index": "18",
-      "content": "Quiz 3\n\nMoments of force\n\nCenter of gravity of point masses",
-      "operation": "Quiz\n\nLecture and exercise",
-      "assignments": "Self-study:\nVarious integrals\nReview: Center of gravity of\npoint masses, quiz 3\nPreview:\nAreas between two curves",
-      "minutes": "30\n\n60\n\n30"
-    },
-    {
-      "index": "19",
-      "content": "Areas between two curves\n\nThe center of gravity of a thin plate",
-      "operation": "Lecture and exercise\n\nSelf-check",
-      "assignments": "Self-study:\nVarious integrals\nReview: The center of\ngravity of a thin plate\nPreview: Multiple integrals\nand iterated integral",
-      "minutes": "30\n\n60\n\n30"
-    },
-    {
-      "index": "20",
-      "content": "Multiple integrals and iterated integral",
-      "operation": "Lecture and exercise",
-      "assignments": "Self-study:\nVarious integrals\nReview: Multiple integrals\nand iterated integral\nPreview: Volume of a solid\nand its center of gravity",
-      "minutes": "30\n\n60\n\n30"
-    },
-    {
-      "index": "21",
-      "content": "Volume of a solid and its center of gravity",
-      "operation": "Lecture and exercise",
-      "assignments": "Self-study:\nPolar coordinates\nReview: Multiple integrals\nand iterated integral\nPreview: Volume of\na solid of revolution",
-      "minutes": "30\n\n60\n\n30"
-    },
-    {
-      "index": "22",
-      "content": "Volume of a solid of revolution and\nits center of gravity",
-      "operation": "Lecture and exercise",
-      "assignments": "Self-study:\nA solid of revolution\nReview: Volume of\na solid of revolution\nand its center of gravity\nPreview: Moments of inertia",
-      "minutes": "30\n\n60\n\n30"
-    },
-    {
-      "index": "23",
-      "content": "Moments of inertia",
-      "operation": "Lecture and exercise",
-      "assignments": "Self-study: Density\nReview: Moments of inertia\nPreview:\nVarious multiple integrals",
-      "minutes": "30\n60\n30"
-    },
-    {
-      "index": "24",
-      "content": "Review of multiple integrals",
-      "operation": "Lecture and exercise",
-      "assignments": "Self-study:\nVarious integrals\nReview: Multiple integrals\nPreview: Quiz 4",
-      "minutes": "30\n\n30\n60"
-    },
-    {
-      "index": "25",
-      "content": "Quiz 4\n\n [Report 2]\n Moments of inertia",
-      "operation": "Quiz\n\nLecture and exercise",
-      "assignments": "Self-study: Report 2\nReview: Quiz 4",
-      "minutes": "60\n60"
-    },
-    {
-      "index": "26",
-      "content": "[Report 2]\n Moments of inertia",
-      "operation": "Lecture and exercise\n\nSelf-check",
-      "assignments": "Self-study: Report 2\nReview: Quiz 4",
-      "minutes": "60\n30"
-    },
-    {
-      "index": "27",
-      "content": "Review of the second half",
-      "operation": "Exercises on #15-#26",
-      "assignments": "Review: Class contents of\n#15-#26\nPreview: Final exam",
-      "minutes": "30\n\n60"
-    },
-    {
-      "index": "28",
-      "content": "Final exam\n\n[Report 2]\n Translational motions of a rigid body",
-      "operation": "Final exam\n\nLecture and exercise",
-      "assignments": "Self-study: Report 2\nReview: Final exam",
-      "minutes": "30\n60"
-    },
-    {
-      "index": "29",
-      "content": "Review of the final exam\n\n[Report 2]\n Translational motions of a rigid body",
-      "operation": "Self-check\n\nLecture and exercise",
-      "assignments": "Review: Report 2\nSelf-check: Confirmation of\nsubmission, attendance",
-      "minutes": "60\n30"
-    },
-    {
-      "index": "30",
-      "content": "Review of the report 2\n\nSelf-check",
-      "operation": "Self-check\n\nQuestionnaire",
-      "assignments": "Review: Report 2",
-      "minutes": "30"
+      "content": "Self-reflection on class Self-evaluation",
+      "operation": "Review and self-reflection Questionnaire survey",
+      "assignments": "",
+      "minutes": "100"
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　G204-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Mathematics, Science, Data Science and AI Program\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Mathematics and Science ProgramMathematics and Science Courses\n\n                工学のための数理工Ⅱ（再履修クラス）\n                Integrated Math and Science for Engineering II\n\n              4\n              G204-01\n\n                2026年度\n\n                1st year 2nd semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  KODAMA Koichi\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Definite and indefinite integrals\n2.Differential equations\n3.Line integrals and energy\n4.Center of gravity\n5.Moments of inertia\n\n              Students will learn:\n(1) definite and indefinite integrals, integration by parts and integration by substitution.\n(2) equations of motion as an application of integrals.\n(3) line integrals and energy.\n(4) moments of force, center of gravity, and moments of inertia.\n\n              授業の概要および学習上の助言\n\n              This is a basic course in integrated mathematics and science for engineering. We will cover the following topics:\n1. Sum of sequences and their limit, definite and indefinite integrals, integration by parts and integration by substitution.\n2. 1st-order differential equations, 2nd-order linear differential equations, equations of motion and mechanics.\n3. Line integral, work and energy, motion of a system of particles.\n4. Areas between two curves, multiple integrals, volume of a solid, center of gravity, rotational motion and moments of inertia.\nExtra classes may be held depending the comprehension level of students.\nStudents are required to review and preview each class. As a matter of particular emphasis, students are required to attempt the exercises after each class.\nExtra materials may be distributed if necessary.\nStudents are required to show their procedure for solution/calculation logically and clearly in each assignment.\nStudents are expected to utilize the Math. and Science Education Research Center or the office hours of the instructor.\n\n              教科書および参考書・リザーブドブック\n\n              Textbook:             Integrated Math and Science for Engineering II\nReference books:  Integrated Math and Science for Engineering I\nCalculus Volume 1, 2, 3 (OpenStax) https://openstax.org/details/books/calculus-volume-1,\nhttps://openstax.org/details/books/calculus-volume-2, https://openstax.org/details/books/calculus-volume-3\n\n              履修に必要な予備知識や技能\n\n              Skills and knowledge from the Integrated Math and Science for Engineering I.\nKnowledge of exponential functions, logarithmic functions, and trigonometric functions.\nBasic calculation skills for differentiation.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                D\n                Evaluate the integrals of various functions and integration by parts and integration by substitution.\n\n                ②\n                D\n                Solve separable, 1st-order linear and 2nd-order, linear, homogeneous differential equations.\n\n                ③\n                D\n                Understand the concept of line integrals, and explain the energy of a system.\n\n                ④\n                D\n                Evaluate the areas, the volumes of a solid, moments of inertia, and the center of gravity for a solid.\n\n                ⑤\n                C\n                Understand the meanings of fundamental English words for mathematics.\n\n                ⑥\n                A\n                Be able to demonstrate an understanding of all topics, attend every class, and do the required works.\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n ",
-  "courseId": "2026:fall:G204-01:0:71",
+  "rawText": "金沢工業大学 学習支援計画書 G161-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nMathematics, Science, Data Science and AI Program\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Mathematics and Science Program\nMathematics and Science Courses\n技術者のための統計\nStatistics for Engineers  2 G161-01  2024年度\n 2nd year 1st semester\n2nd year 2nd semester  修学規程第4条を参照\n    担当教員名\n YAMAOKA Hidetaka, WATANABE Shuji, TANAKA Yasuhiro, NAKAGAWA Hayato, SAEKI Akihiko, NISHI Makoto\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Data organization and processing 2.Probability function and probability distribution 3.Evaluation of statistics based on probability theory 4.Estimates and tests 5.Data Science  Students will (1) learn data organization and processing (2) acquire basic knowledge of probability. (3) learn typical distribution functions such as the normal distribution,Student's t-distribution, and the chi-square distribution. (4) learn methods for interval estimation and hypothesis testing. (5) learn methods for multivariate analysis\n    授業の概要および学習上の助言   This is a course in statistical analysis of data. We will cover the following topics: 1. Data organization and data distribution (1) Data collection and organization (2) Data distribution (3) Quantitative data distribution features 2 Relationships between variates (1) Arrangement of bivariate data (2) Correlation and correlation coefficient (3) Estimated bivariate relationship 3. Basics of Probability Theory (1) Basic concept of probability theory (2) Probability distribution of discrete quantity (3) Probability distribution of continuous quantity 4. Basics of statistical data processing (1) Sampling of sample population (2) Evaluation of statistics based on probability theory (3) Statistical estimation of population parameter 5. Statistical tests and multivariate analysis (1) Basic concept of statistical test (2) Method of statistical test (3) To multivariate analysis 6.Conduct statistical analysis using the programming language \"R\" with real social data\n    教科書および参考書・リザーブドブック   Textbooks:Getting Started with Data Science [kyoritsu Shuppan]\n    履修に必要な予備知識や技能   Knowledge of basic mathematics .\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① D Be able to organize the data and obtain the basic features of the data.   ② D Be able to calculate mean and variance for random variables.   ③ D Be able to analyze data by calculating the necessary statistics from data.   ④ D Be able to estimate and test population mean, variance, and population ratio using a sample distribution.   ⑤ C Understand the meanings of fundamental english words for statistics.   ⑥ A Be able to understand the contents of each class, work on assigned tasks, and attend every class.\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 30 20 20 0 0 0 30 100     指標と評価割合 総合評価割合 30 20 20 0 0 0 30 100   総合力指標 知識を取り込む力 30 20 20 0 0 0 30 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ A final exam covering the contents of the entire semester will be given. Performance on this exam will comprise 30% of the overall evaluation.    ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     クイズ\n小テスト ① レ Students will take two quizzes, each of which will comprise 15% of the overall evaluation (for a total of 30%). Dates and contents are listed in the course schedule.    ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     レポート ① レ A report will be assigned and will comprise 20% of the overall evaluation. The report should be written carefully with text, mathematical formulas, numerical values, graphs, etc. It should logically describe the process of tackling the problem. Copying the reports of others is not permitted. The submission date is to be strictly observed. Details for each assignment and the grading criteria will be announced in class.    ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥   ",
+  "courseId": "2024:spring:G154-01:0:71",
   "language": "en"
 }

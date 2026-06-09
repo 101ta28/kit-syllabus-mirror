@@ -1,72 +1,76 @@
 {
   "sourceIndex": 314,
   "sourceUrl": "/opsyllabus/kitos0110/314/1",
-  "importedAt": "2026-06-08T09:33:59.431Z",
-  "title": "プロジェクトデザインⅢ（南出章幸研究室）",
-  "subtitle": "Design Project III(Minamide Akiyuki)",
-  "courseType": "Major ProgramMajor Project Courses",
-  "credits": "8",
-  "term": "2026年度\n\n                All year",
+  "importedAt": "2026-06-09T01:29:21.889Z",
+  "title": "過渡現象論",
+  "subtitle": "Transient Phenomena in Linear Circuits",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "2",
+  "term": "2024年度\n 2nd year 2nd semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "MINAMIDE Akiyuki"
+    "AIZAWA Koji",
+    "AOKI Shigeaki",
+    "YANAGIBASHI Hideyuki",
+    "KONO Akihiko"
   ],
   "keywords": [
-    "Elecric Enginnering",
-    "Electronic Enginnering",
-    "Acoustic Measurement",
-    "Optical Measurement",
-    "DX(Digital Transformation)"
+    "Transient Analysis 2.Circuit Equation 3.Laplace Transform 4.Transient Phenomena 5.Online/on-demand classes"
   ],
-  "educationalGoal": "Educational programs focusing on basic knowledge and skills in the fields of electrical engineering and electronics, which are highly important, develop highly creative electrical and electronics engineers who have acquired problem-finding, solving, and applied skills. This is a culmination subject following the project design subjects and specialized seminars up to the third grade.",
-  "advice": "Each student has a project theme and works alone or in groups.  A seminar will be held weekly, and the progress will be reported in the weekly paper.   Students should acquire the licenses and qualifications for activities if necessary.  The annual schedule is as follows.\n[Previous semester]  Students review the project themes and project proposals defined in the preparatory seminar, and carry out the project according to the action plan.  Students will also present the results of the project at an interim presentation after the end of the previous semester.\n[Second semester]  Students carry out the project while reviewing the project proposal.  In addition, students will compile the results in a project report by the end of December and prepare a presentation at the design project III (PDIII) public presentation examination committee at the end of the semester.  The contents of the ongoing project will be handed over to students in the next fiscal year.\n The project theme is decided by consultation with professor.  This seminar is the final of the project design process.  Students should review basic subjects and acquire advanced specialized knowledge through experiment and theory examination of the project.  To pass, students must earn at least 60% out of 100%.",
-  "books": "Textbooks：Specified from professor of this seminar if necessary.\nReference books：Specified from professor of this seminar if necessary.\nReserved books：Specified from professor of this seminar if necessary.",
-  "requiredKnowledge": "Not only foundational knowledge of electrical circuits, electronic circuits, measurement engineering, and programming, but also mathematical knowledge for explaining physical phenomena is often required.",
+  "educationalGoal": "The aim of this course is to help students acquire the necessary knowledge needed to understand the theory to learn in “Feedback Control” course in the 5th term. Students will: (1) solve transient electrical circuits using circuit equations and initial conditions. (2) analyze transient phenomena of more complex circuits by Laplace transform. (3) understand the various transient phenomena that occur in electrical circuits.",
+  "advice": "1. Transient phenomena and differential equation (circuit equations) Learn the basics needed to analyze transient phenomena. //Transient phenomena and steady phenomena, differential equations of electrical circuits and its solutions 2. Transient phenomena of electrical circuits Solve the transient phenomena of various circuits according to the solution of differential equation. //AC and DC circuit of RC, RL, LC, and LCR 3. Analysis by Laplace transform Learn how to analyze transient phenomena in electrical circuits using Laplace transform. //Laplace transform and inverse transform, Laplace transform for functions and its application to circuits. There is possibility to change the learning contents (progress) of the course schedule depending on the situation. Exercises, quizzes, discussions and questions, etc. are included to help students concentrate on this class. The order of learning may be changed as needed, and digital technology may be used for learning such as online (remote) or on-demand classes.",
+  "books": "Some materials will be shown in lecture.",
+  "requiredKnowledge": "1. Fundamentals of electrical circuits. 2. Fundamentals of mathematics such as exponential, trigonometric function, differential and integral, etc. 3. Attitude to take each class seriously and review and deepen understanding. 4. Attitude to learn theoretical thinking and applied methods through exercises without relying on memorization.",
   "activityGoals": [
     {
       "index": "①",
-      "type": "G",
-      "body": "Be able to build research plans by clarifying the purpose of the project."
+      "type": "J",
+      "body": "Be able to show circuit equations (differential equation) from electric circuits."
     },
     {
       "index": "②",
-      "type": "G,M",
-      "body": "Be able to embody the problem of project and its solution and execute it safely and continuously."
+      "type": "J",
+      "body": "Be able to show initial conditions from electric circuits and apply to circuit equations."
     },
     {
       "index": "③",
-      "type": "L,M",
-      "body": "Be able to correctly analyze and evaluate research results."
+      "type": "J",
+      "body": "Be able to solve differential equations and express the transient phenomenon with equations."
     },
     {
       "index": "④",
-      "type": "G,L,M",
-      "body": "Be able to effectively present research results in group discussions."
+      "type": "J",
+      "body": "Be able to graph transient phenomena based on the equations."
     },
     {
       "index": "⑤",
-      "type": "I,M",
-      "body": "Be able to summarize the research results as a project report."
+      "type": "J",
+      "body": "Be able to understand Laplace transform."
+    },
+    {
+      "index": "⑥",
+      "type": "J",
+      "body": "Be able to solve transient phenomena of electrical circuits by Laplace transform."
     }
   ],
   "evaluationWeights": [
     {
       "label": "総合評価割合",
       "values": [
-        "0",
-        "0",
-        "50",
         "40",
+        "30",
+        "30",
         "0",
-        "10",
+        "0",
+        "0",
         "0",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -76,20 +80,20 @@
     {
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
-        "0",
-        "0",
-        "50",
         "40",
+        "30",
+        "30",
         "0",
-        "10",
+        "0",
+        "0",
         "0",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -99,20 +103,20 @@
     {
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
-        "0",
-        "0",
-        "50",
         "40",
+        "30",
+        "30",
         "0",
-        "10",
+        "0",
+        "0",
         "0",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -133,9 +137,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -143,7 +147,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -156,9 +160,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -179,9 +183,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -190,48 +194,118 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "Students can explain the contents of the project through completely understanding of the meaning and purpose, and can also point out the problem of the project.  Students can propose more research results.  Students must design and manufacture the equipment needed for the project.  Students can present the research results of project not only at the PD III public presentation examination, but also at academic conferences.  Students can satisfactory answer to the questions at the examination.  Students can go through the entire research activity according to the action plan.",
-    "standard": "Students can explain the contents of the project through understanding of the meaning and purpose, and can also point out the problem of the project.  Students can propose a research result.  Students must design and manufacture the equipment needed for the project.  Students can present the research results of project at the PD III public presentation examination.  Students can answer to the questions at the examination.  Students can go through the research activity according to the action plan."
+    "ideal": "(1) Explain Laplace transform. (2) Solve AC circuits transient phenomena using Laplace transform. (3) Mark 90% or more of the score.",
+    "standard": "(1) Show circuit equations and initial conditions from circuits. (2) Solve AC circuits transient phenomena using Laplace transform. (3) Mark 80% level score."
   },
   "clipProcess": "",
   "lessons": [
     {
       "index": "1",
-      "content": "(Previous semester)\nThe main class contents are flowing below.\n1. Outline of project, rule of lab activity\nand safety instruction\n2. About the aim of project and planning\n3. About the writing of weekly paper",
-      "operation": "Lecture and discussion\nAnswer and question",
-      "assignments": "(Preview)  Confirm the\ncontents of this syllabus and\n safety guideline.\n(Review)  Not only study\nyourself, but also consult\nwith professor, if you do not\n understand something.\n(Self-checking )  Confirm the\n submission status and\nevaluation.",
-      "minutes": "1500\n\n1500\n\n15"
+      "content": "Guidance Transient phenomena and steady phenomena Fundamentals of transient phenomena",
+      "operation": "Syllabus explanation Self-check Lecture (take notes) May exercise and quiz",
+      "assignments": "Preview: Basic of math and circuit Text 1 to 4, 7 to 11 Review: Lectured contents",
+      "minutes": "Previe w:100 Review :100"
     },
     {
-      "index": "2-14",
-      "content": "(Previous semester)\nThe main class contents are flowing below.\n1. Decide the aim of the project and the\nplanning.\n2. Solutions and their realization.\n3. Analysis and evaluation of experimental\nresults.\n4. Discussion of experimental results.",
-      "operation": "Lecture and discussion\nAnswer and question\nPresentation from student",
-      "assignments": "(Preview)  Write and submit\nthe weekly paper.  Prepare\nthe presentation.  Record the\n contents and time of\nactivity.\n(Review)  Revise the returned\n weekly paper and submit the\n revised paper promptly.\n(Self-checking )  Confirm the\n submission status and\nevaluation.",
-      "minutes": "1500\n\n1500\n\n15"
+      "index": "2",
+      "content": "Initial condition 1st and 2nd order differential equation",
+      "operation": "Last lecture review Lecture (take notes) May exercise and quiz",
+      "assignments": "Preview: Text 11 to 24 Review: Lectured contents",
+      "minutes": "Previe w:100 Review :100"
+    },
+    {
+      "index": "3",
+      "content": "DC-RC Transient phenomena (charge) DC-RC Transient phenomena (discharge) 1. Differential equation 2. Initial condition 3. Graph 4. Time constant",
+      "operation": "Last lecture review Lecture (take notes) May exercise and quiz",
+      "assignments": "Preview: Text 25 to 27, 29 to 33 Review: Lectured contents",
+      "minutes": "Previe w:100 Review :100"
+    },
+    {
+      "index": "4",
+      "content": "DC-RL Transient phenomena 1. Differential equation 2. Initial condition 3. Graph 4. Time constant",
+      "operation": "Last lecture review Lecture (take notes) May exercise and quiz",
+      "assignments": "Preview: Text 35 to 39 Review: Lectured contents",
+      "minutes": "Previe w:100 Review :100"
+    },
+    {
+      "index": "5",
+      "content": "DC-LC Transient phenomena 1. Differential equation 2. Initial condition 3. Graph DC-LCR Transient phenomena",
+      "operation": "Last lecture review Lecture (take notes) May exercise and quiz",
+      "assignments": "Preview: Text 60 to 63, 66 to 68 Review: Lectured contents",
+      "minutes": "Previe w:100 Review :100 100"
+    },
+    {
+      "index": "6",
+      "content": "DC-LCR Transient phenomena 1. Differential equation 2. Solution for each condition 3. Graph",
+      "operation": "Last lecture review Lecture (take notes) May exercise and quiz",
+      "assignments": "Preview: Text 68 to 73 Review: Lectured contents",
+      "minutes": "Previe w:100 Review :100"
+    },
+    {
+      "index": "7",
+      "content": "Midterm review Feedback and self-check",
+      "operation": "Last lecture review Exercise for review Exam Submission check",
+      "assignments": "Preview and review: Review the quizzes and reports and motivate it to study in the future.",
+      "minutes": "Previe w:100 Review :100"
+    },
+    {
+      "index": "8",
+      "content": "Laplace transform overview Laplace transform of simple functions Basic properties of Laplace transform 1. Calculus 2. Complex functions",
+      "operation": "Exam review Self-check Lecture (take notes) May exercise and quiz",
+      "assignments": "Preview: Text 105 to 120 Review: Lectured contents",
+      "minutes": "Previe w:100 Review :100"
+    },
+    {
+      "index": "9",
+      "content": "Laplace inversion 1. Laplace inversion overview 2. Partial fraction expansion",
+      "operation": "Last lecture review Lecture (take notes) May exercise and quiz",
+      "assignments": "Preview: Text 121 to 133 Review: Lectured contents",
+      "minutes": "Previe w:100 Review :100"
+    },
+    {
+      "index": "10",
+      "content": "Application of Laplace transform to circuit 1. Case of DC-RC circuit 2. Case of DC-RL circuit",
+      "operation": "Last lecture review Lecture (take notes) May exercise and quiz",
+      "assignments": "Preview: Text 134 to 137 Review: Lectured contents",
+      "minutes": "Previe w:100 Review :100"
+    },
+    {
+      "index": "11",
+      "content": "Application of Laplace transform to circuit 1. Case fo DC-LC circuit 2. Case of DC-LCR circuit",
+      "operation": "Last lecture review Lecture (take notes) May exercise and quiz",
+      "assignments": "Preview: Text 137 to 139 Review: Lectured contents",
+      "minutes": "Previe w:100 Review :100"
+    },
+    {
+      "index": "12",
+      "content": "Application of Laplace transform to circuit 1. Case of AC-RC circuit 2. Case of AC-RL circuit",
+      "operation": "Last lecture review Lecture (take notes) May exercise and quiz",
+      "assignments": "Preview: Text 140 to 144 Review: Lectured contents",
+      "minutes": "Previe w:100 Review :100"
+    },
+    {
+      "index": "13",
+      "content": "Integrated learning Feedback and self-check",
+      "operation": "All lectures review Self-check Lecture (take notes) May exercise and quiz",
+      "assignments": "Preview and review: Review the quizzes and reports. Confirm status of submissions.",
+      "minutes": "Previe w:100 Review :100"
+    },
+    {
+      "index": "14",
+      "content": "Final exam and its explanation Feedback and self-check",
+      "operation": "Exam Exam explanation",
+      "assignments": "Preview and review: Review lecture notebook and textbook.",
+      "minutes": "Previe w:100 Review :100"
     },
     {
       "index": "15",
-      "content": "(Preview)  Write and submit the weekly paper.\nPrepare the presentation.  Record the contents\n and time of activity.\n(Review)  Revise the returned weekly paper and\n submit the revised paper promptly.\n(Self-checking )  Confirm the submission\nstatus and evaluation.",
-      "operation": "Lecture and discussion\nAnswer and question\nPresentation from student",
-      "assignments": "(Preview)  Write and submit\nthe weekly paper.  Prepare\nthe presentation.  Record the\n contents and time of\nactivity.\n(Review)  Organize the\nindicated matters which are\npointed out at the\npresentation.  Revise the\nreturned weekly paper and\nsubmit the revised paper\npromptly.\n(Self-checking )  Confirm the\n submission status and\nevaluation.",
-      "minutes": "1500\n\n1500\n\n15"
-    },
-    {
-      "index": "16-29",
-      "content": "(second semester)\nThe main class contents are flowing below.\n1. Decide the aim of the project and the\nplanning.\n2. Solutions and their realization.\n3. Analysis and evaluation of experimental\nresults.\n4. Discussion of experimental results.",
-      "operation": "Lecture and discussion\nAnswer and question\nPresentation from student",
-      "assignments": "(Preview)  Write and submit\nthe weekly paper.  Prepare\nthe presentation.  Record the\n contents and time of\nactivity.\n(Review)  Revise the returned\n weekly paper and submit the\n revised paper promptly.\n(Self-checking )  Confirm the\n submission status and\nevaluation.",
-      "minutes": "1500\n\n1500\n\n15"
-    },
-    {
-      "index": "30",
-      "content": "(The end of second semester)\nThe main class contents are flowing below.\n1. Decide the aim of the project and the\nplanning.\n2. Solutions and their realization.\n3. Analysis and evaluation of experimental\nresults.\n4. Discussion of experimental results.\n5. Final presentation",
-      "operation": "Lecture and discussion\nAnswer and question\nPresentation at PD III\npublic presentation\nexamination.",
-      "assignments": "(Preview)  Write and submit\nthe project report.  Prepare\n the presentation.  Record\nthe contents and time of\nactivity.\n(Review)  Organize the\nindicated matters which are\npointed out at the\npresentation.  Revise the\nreturned project report and\nsubmit the revised it\npromptly.\n(Self-checking )  Confirm the\n submission status and\nevaluation.",
-      "minutes": "1500\n\n1500\n\n15"
+      "content": "Feedback Exercises Self-check",
+      "operation": "All contents review Questionnaire Grade notification Questions and answers",
+      "assignments": "Preview: Overcome weakness. If task is imposed, complete by the deadline.",
+      "minutes": "Previe w:100"
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　E927-35\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Electrical and Electronic Engineering(〜2024)\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Project Courses\n\n                プロジェクトデザインⅢ（南出章幸研究室）\n                Design Project III(Minamide Akiyuki)\n\n              8\n              E927-35\n\n                2026年度\n\n                All year\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  MINAMIDE Akiyuki\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Elecric Enginnering\n2.Electronic Enginnering\n3.Acoustic Measurement\n4.Optical Measurement\n5.DX(Digital Transformation)\n\n              Educational programs focusing on basic knowledge and skills in the fields of electrical engineering and electronics, which are highly important, develop highly creative electrical and electronics engineers who have acquired problem-finding, solving, and applied skills. This is a culmination subject following the project design subjects and specialized seminars up to the third grade.\n\n              授業の概要および学習上の助言\n\n               Each student has a project theme and works alone or in groups.  A seminar will be held weekly, and the progress will be reported in the weekly paper.   Students should acquire the licenses and qualifications for activities if necessary.  The annual schedule is as follows.\n[Previous semester]  Students review the project themes and project proposals defined in the preparatory seminar, and carry out the project according to the action plan.  Students will also present the results of the project at an interim presentation after the end of the previous semester.\n[Second semester]  Students carry out the project while reviewing the project proposal.  In addition, students will compile the results in a project report by the end of December and prepare a presentation at the design project III (PDIII) public presentation examination committee at the end of the semester.  The contents of the ongoing project will be handed over to students in the next fiscal year.\n The project theme is decided by consultation with professor.  This seminar is the final of the project design process.  Students should review basic subjects and acquire advanced specialized knowledge through experiment and theory examination of the project.  To pass, students must earn at least 60% out of 100%.\n\n              教科書および参考書・リザーブドブック\n\n              Textbooks：Specified from professor of this seminar if necessary.\nReference books：Specified from professor of this seminar if necessary.\nReserved books：Specified from professor of this seminar if necessary.\n\n              履修に必要な予備知識や技能\n\n              Not only foundational knowledge of electrical circuits, electronic circuits, measurement engineering, and programming, but also mathematical knowledge for explaining physical phenomena is often required.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                G\n                Be able to build research plans by clarifying the purpose of the project.\n\n                ②\n                G,M\n                Be able to embody the problem of project and its solution and execute it safely and continuously.\n\n                ③\n                L,M\n                Be able to correctly analyze and evaluate research results.\n\n                ④\n                G,L,M\n                Be able to effectively present research results in group discussions.\n\n                ⑤\n                I,M\n                Be able to summarize the research results as a project report.\n\n                ⑥\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n ",
-  "courseId": "2026:full-year:E927-35:0:314",
+  "rawText": "金沢工業大学 学習支援計画書 E615-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Electrical and Electronic Engineering(2018〜)\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n過渡現象論\nTransient Phenomena in Linear Circuits  2 E615-01  2024年度\n 2nd year 2nd semester  修学規程第4条を参照\n    担当教員名\n AIZAWA Koji, AOKI Shigeaki, YANAGIBASHI Hideyuki, KONO Akihiko\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Transient Analysis 2.Circuit Equation 3.Laplace Transform 4.Transient Phenomena 5.Online/on-demand classes  The aim of this course is to help students acquire the necessary knowledge needed to understand the theory to learn in “Feedback Control” course in the 5th term. Students will: (1) solve transient electrical circuits using circuit equations and initial conditions. (2) analyze transient phenomena of more complex circuits by Laplace transform. (3) understand the various transient phenomena that occur in electrical circuits.\n    授業の概要および学習上の助言   1. Transient phenomena and differential equation (circuit equations) Learn the basics needed to analyze transient phenomena. //Transient phenomena and steady phenomena, differential equations of electrical circuits and its solutions 2. Transient phenomena of electrical circuits Solve the transient phenomena of various circuits according to the solution of differential equation. //AC and DC circuit of RC, RL, LC, and LCR 3. Analysis by Laplace transform Learn how to analyze transient phenomena in electrical circuits using Laplace transform. //Laplace transform and inverse transform, Laplace transform for functions and its application to circuits. There is possibility to change the learning contents (progress) of the course schedule depending on the situation. Exercises, quizzes, discussions and questions, etc. are included to help students concentrate on this class. The order of learning may be changed as needed, and digital technology may be used for learning such as online (remote) or on-demand classes.\n    教科書および参考書・リザーブドブック   Some materials will be shown in lecture.\n    履修に必要な予備知識や技能   1. Fundamentals of electrical circuits. 2. Fundamentals of mathematics such as exponential, trigonometric function, differential and integral, etc. 3. Attitude to take each class seriously and review and deepen understanding. 4. Attitude to learn theoretical thinking and applied methods through exercises without relying on memorization.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① J Be able to show circuit equations (differential equation) from electric circuits.   ② J Be able to show initial conditions from electric circuits and apply to circuit equations.   ③ J Be able to solve differential equations and express the transient phenomenon with equations.   ④ J Be able to graph transient phenomena based on the equations.   ⑤ J Be able to understand Laplace transform.   ⑥ J Be able to solve transient phenomena of electrical circuits by Laplace transform.\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 40 30 30 0 0 0 0 100     指標と評価割合 総合評価割合 40 30 30 0 0 0 0 100   総合力指標 知識を取り込む力 40 30 30 0 0 0 0 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ There are two exams during the semester to evaluate the degree of the achievement. The exams cover the range of “Target Abilities for Students” No.1 to 6. The details will be explained by the teacher, so be careful not to miss them. No reexamination will be conducted for untaken applicants and poor results students in principle.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥ レ   クイズ\n小テスト ① レ There are quizzes during the semester to evaluate the understanding and the solving ability. The details will be explained by the teacher, so be careful not to miss them. No reexamination will be conducted for untaken applicants and poor results students in principle.   ② レ   ③ レ   ④",
+  "courseId": "2024:spring:E607-01:0:314",
   "language": "en"
 }

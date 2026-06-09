@@ -1,57 +1,49 @@
 {
   "sourceIndex": 399,
   "sourceUrl": "/opsyllabus/kitos0110/399/1",
-  "importedAt": "2026-06-08T09:34:01.167Z",
-  "title": "データベース",
-  "subtitle": "Database System",
-  "courseType": "Major ProgramMajor Courses",
+  "importedAt": "2026-06-09T01:29:22.645Z",
+  "title": "情報と符号の理論",
+  "subtitle": "Information and coding theory",
+  "courseType": "Major Program\nMajor Courses",
   "credits": "2",
-  "term": "2026年度\n\n                3rd year 1st semester",
+  "term": "2024年度\n 3rd year 1st semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "NEGISHI Ippei",
-    "OZO Daisuke"
+    "KINDO Toshiki",
+    "NINAGAWA Shigeru"
   ],
   "keywords": [
-    "Relational Database",
-    "E-R Diagram",
-    "Normalization",
-    "SQL"
+    "Information content 2.Entropy 3.Information source 4.Channel 5.Error-correcting Code"
   ],
-  "educationalGoal": "A database is a system that shares, updates, and reuses data between multiple applications, thereby ensuring data consistency.\n In this course, students learn the fundamental theory of a relational database, database design, Structured Query Language (SQL), which is the language used for database management, and practical database operations using an actual database management system.",
-  "advice": "There are three essential abilities needed to manage a database:\n\n(1)\tThe ability to handle SQL.\n(2)\tThe ability to ensure data consistency based on the concept of normal form, primary key, and foreign key, etc.\n(3)\tThe ability to design a database application system using transactions.\n\nIn this course we mainly focused on (1) and (2), but (3) will be also mentioned in the later classes.\n\nSince SQL is used for comprehensive database operations such as design, handling, and/or maintenance, it will be necessary to polish student SQL management skills by providing them with significant amounts of experience.\n\nWith that point in mind, students will be required to connect with and use our database server and then use it to manipulate their own databases in order to foster skills and knowledge related to the operation and management of a relational database.",
-  "books": "None",
-  "requiredKnowledge": "Students are expected to have acquired fundamental knowledge related to computers via other courses such as “Information Technology Basic” or “Introduction to Server Management”",
+  "educationalGoal": "Considerable progress has been made in computer networks and ever-increasing amounts of information are now being exchanged. In this course, we learn the information theory and coding theory. First, we learn how to quantify information and related knowledge based on the probability theory. Next, we study the information source and its coding method. Finally, we learn how channel coding can be used to correct errors that have occurred in the channel.",
+  "advice": "Information theory can be used to quantify and encode information output by an information source. It can also be used to correct errors that have occurred in the channel. The topics of this course are as follows: 1. Set and probability 2. Conditional probability and Bayes' theorem 3. Definition of information content and entropy 4. Information source 5. Entropy of information source 6. Source coding 7. Channel coding and error-correcting code",
+  "books": "わかりやすい ディジタル情報理論(改訂2版)[オーム社]",
+  "requiredKnowledge": "Students are expected to review the following: (1) calculation of probability taken up in \"Probability and Statistics(E537-01)\", (2) logarithm calculations. If there is anything they cannot understand, they will need to resolve those issues by utilizing office hours. Students are expected to make good use of the exercises at the back of the textbook.",
   "activityGoals": [
     {
       "index": "①",
-      "type": "I,H",
-      "body": "Be able to understand what a database is."
+      "type": "D,M",
+      "body": "Be able to explain terms such as information content, entropy, information source, and coding."
     },
     {
       "index": "②",
-      "type": "A,B,I",
-      "body": "Be able to understand what a relational database is."
+      "type": "D,M",
+      "body": "Be able to explain the source coding theorem."
     },
     {
       "index": "③",
-      "type": "H,N",
-      "body": "Be able to draw an E-R diagram."
+      "type": "D,M",
+      "body": "Be able to perform Shannon-Fano coding."
     },
     {
       "index": "④",
-      "type": "D,E,G",
-      "body": "Be able to complete the third normalization."
+      "type": "D,M",
+      "body": "Be able to perform Huffman coding."
     },
     {
       "index": "⑤",
-      "type": "C,F,M",
-      "body": "Be able to use the SELECT statement of SQL."
-    },
-    {
-      "index": "⑥",
-      "type": "J,K,L",
-      "body": "Be able to design a database."
+      "type": "D,M",
+      "body": "Be able to explain error correcting code by parity check."
     }
   ],
   "evaluationWeights": [
@@ -59,8 +51,8 @@
       "label": "総合評価割合",
       "values": [
         "40",
-        "30",
-        "30",
+        "60",
+        "0",
         "0",
         "0",
         "0",
@@ -69,9 +61,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -82,8 +74,8 @@
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
         "40",
-        "30",
-        "30",
+        "60",
+        "0",
         "0",
         "0",
         "0",
@@ -92,9 +84,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -105,8 +97,8 @@
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
         "40",
-        "30",
-        "30",
+        "60",
+        "0",
         "0",
         "0",
         "0",
@@ -115,9 +107,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -138,9 +130,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -148,7 +140,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -161,9 +153,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -184,9 +176,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -195,118 +187,118 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "90% or higher achievement rate for target student abilities.",
-    "standard": "At least a 60% achievement rate for target student abilities."
+    "ideal": "Be able to calculate probability and entropy without using a reference. Be able to perform Shannon-Fano coding and Huffman coding. Be able to explain the procedure used for error-correcting codes.",
+    "standard": "Be able to calculate probability and entropy while using a reference. Be able to explain Shannon-Fano coding and Huffman coding. Be able to understand the procedure used for error-correcting codes."
   },
   "clipProcess": "",
   "lessons": [
     {
       "index": "1",
-      "content": "Introduction",
-      "operation": "Lecture and Practice\nSelf-Assessment\nReview",
-      "assignments": "Review: Introduction\nPreview: Relational Database\nBasics, E-R Diagram",
-      "minutes": "60"
-    },
-    {
-      "index": "2",
-      "content": "Relational Database Basics\nE-R Diagram",
-      "operation": "Lecture and Practice\nSelf-Assessment\nReview",
-      "assignments": "Review: Relational Database\nBasics, E-R Diagram\nPreview: 1st and 2nd Normal\nForm",
-      "minutes": "60"
-    },
-    {
-      "index": "3",
-      "content": "Normalization #1\n1st and 2nd Normal Form",
-      "operation": "Lecture and Practice\nSelf-Assessment\nReview",
-      "assignments": "Review: 1st and 2nd Normal\nForm\nPreview: 3rd Normal Form",
-      "minutes": "60"
-    },
-    {
-      "index": "4",
-      "content": "Normalization #2\n3rd Normal Form",
-      "operation": "Lecture and Practice\nSelf-Assessment\nReview",
-      "assignments": "Review: 3rd Normal Form\nPreview: MySQL(Database\nCreation, Deletion and\nInsertion of Records)",
-      "minutes": "60"
-    },
-    {
-      "index": "5",
-      "content": "SQL Basics #1\nDatabase Creation, Deletion and Insertion of\nRecords",
-      "operation": "Lecture and Practice\nSelf-Assessment\nReview",
-      "assignments": "Review: MySQL(Database\nCreation, Deletion and\nInsertion of Records)\nPreview: MySQL(Data Query)",
-      "minutes": "60"
-    },
-    {
-      "index": "6",
-      "content": "SQL Basics #2\nData Query",
-      "operation": "Lecture and Practice\nSelf-Assessment\nReview",
-      "assignments": "Review: MySQL(Data Query)\nPreview: MySQL(Equi-join of\nTables)",
-      "minutes": "60"
-    },
-    {
-      "index": "7",
-      "content": "SQL Basics #3\nEqui-join of Tables",
-      "operation": "Lecture and Practice\nSelf-Assessment\nReview",
-      "assignments": "Review: Review all of the\ncontents which have been\nacquired so far to prepare\nfor Mid-term Quiz",
-      "minutes": "60"
-    },
-    {
-      "index": "8",
-      "content": "Mid-term Quiz",
-      "operation": "Paper Test",
-      "assignments": "Preview: MySQL(Subquery,\nInner-join, Outer-join and\nSum)",
-      "minutes": "60"
-    },
-    {
-      "index": "9",
-      "content": "SQL Basics #4\nSubquery, Inner-join, Outer-join and Sum",
-      "operation": "Lecture and Practice\nSelf-Assessment\nReview",
-      "assignments": "Review: MySQL(Subquery,\nInner-join, Outer-join and\nSum)\nPreview: Transaction, Grant",
-      "minutes": "60"
-    },
-    {
-      "index": "10",
-      "content": "Transaction, Grant and Web Application\nIndividual Work: Investigation of Existing\nSystem",
-      "operation": "Lecture and Practice\nSelf-Assessment\nReview",
-      "assignments": "Review: Transaction, Grant\nPreview: Investigate for the\nsubject of the work",
-      "minutes": "60"
-    },
-    {
-      "index": "11",
-      "content": "Work: Making Screen Transition Diagram",
-      "operation": "Lecture and Practice\nSelf-Assessment\nReview",
-      "assignments": "Review/Preview: Carry out the\nactivity",
-      "minutes": "60"
-    },
-    {
-      "index": "12",
-      "content": "Work: Making E-R Diagram",
-      "operation": "Lecture and Practice\nSelf-Assessment\nReview",
-      "assignments": "Review/Preview: Carry out the\nactivity",
-      "minutes": "60"
-    },
-    {
-      "index": "13",
-      "content": "Work: Construction of Database",
-      "operation": "Lecture and Practice\nSelf-Assessment\nReview",
-      "assignments": "Review/Preview: Carry out the\nactivity",
-      "minutes": "120"
-    },
-    {
-      "index": "14",
-      "content": "Term-end Examination",
-      "operation": "Paper Test\nSelf-Assessment\nReview",
-      "assignments": "Review all of the contents\nthat have been acquired so\nfar to prepare for Term-end\nExam.",
+      "content": "Outline of the course Elements of probability theory",
+      "operation": "Lecture Q&A self-check",
+      "assignments": "Preparation/reviews and self-reflection regarding lesson content.",
       "minutes": "30"
     },
     {
+      "index": "2",
+      "content": "Information content Entropy",
+      "operation": "Lecture Q&A self-check",
+      "assignments": "Preparation/reviews and self-reflection regarding lesson content.",
+      "minutes": "90"
+    },
+    {
+      "index": "3",
+      "content": "Mutual information",
+      "operation": "Lecture Q&A self-check",
+      "assignments": "Preparation/reviews and self-reflection regarding lesson content.",
+      "minutes": "90"
+    },
+    {
+      "index": "4",
+      "content": "Divergence",
+      "operation": "Lecture Q&A self-check",
+      "assignments": "Preparation/reviews and self-reflection regarding lesson content.",
+      "minutes": "90"
+    },
+    {
+      "index": "5",
+      "content": "Information source",
+      "operation": "Lecture Q&A self-check",
+      "assignments": "Preparation/reviews and self-reflection regarding lesson content.",
+      "minutes": "90"
+    },
+    {
+      "index": "6",
+      "content": "Channel",
+      "operation": "Lecture Q&A self-check",
+      "assignments": "Preparation/reviews and self-reflection regarding lesson content.",
+      "minutes": "90"
+    },
+    {
+      "index": "7",
+      "content": "Midterm review",
+      "operation": "Review Q&A self-check",
+      "assignments": "Preparation/reviews and self-reflection regarding lesson content.",
+      "minutes": "90"
+    },
+    {
+      "index": "8",
+      "content": "Source coding",
+      "operation": "Lecture Q&A self-check",
+      "assignments": "Preparation/reviews and self-reflection regarding lesson content.",
+      "minutes": "90"
+    },
+    {
+      "index": "9",
+      "content": "Source coding theorem",
+      "operation": "Lecture Q&A self-check",
+      "assignments": "Preparation/reviews and self-reflection regarding lesson content.",
+      "minutes": "90"
+    },
+    {
+      "index": "10",
+      "content": "Shannon-Fano coding, Huffman coding",
+      "operation": "Lecture Q&A self-check",
+      "assignments": "Preparation/reviews and self-reflection regarding lesson content.",
+      "minutes": "90"
+    },
+    {
+      "index": "11",
+      "content": "Error-correcting code",
+      "operation": "Lecture Q&A self-check",
+      "assignments": "Preparation/reviews and self-reflection regarding lesson content.",
+      "minutes": "90"
+    },
+    {
+      "index": "12",
+      "content": "Hamming code",
+      "operation": "Lecture Q&A self-check",
+      "assignments": "Preparation/reviews and self-reflection regarding lesson content.",
+      "minutes": "90"
+    },
+    {
+      "index": "13",
+      "content": "Linear code",
+      "operation": "Lecture Q&A self-check",
+      "assignments": "Preparation/reviews and self-reflection regarding lesson content.",
+      "minutes": "90"
+    },
+    {
+      "index": "14",
+      "content": "Cyclic code",
+      "operation": "Lecture Q&A self-check",
+      "assignments": "Preparation/reviews and self-reflection regarding lesson content.",
+      "minutes": "90"
+    },
+    {
       "index": "15",
-      "content": "Summary of the class",
-      "operation": "Commentary\nSelf-Assessment\nReview\nQuestionnaire",
-      "assignments": "",
-      "minutes": ""
+      "content": "Overall review Self-check",
+      "operation": "Review Q&A self-check",
+      "assignments": "reviews and self-reflection regarding lesson content.",
+      "minutes": "30"
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　F021-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Media Informatics(〜2024)\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                データベース\n                Database System\n\n              2\n              F021-01\n\n                2026年度\n\n                3rd year 1st semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  NEGISHI Ippei, OZO Daisuke\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Relational Database\n2.E-R Diagram\n3.Normalization\n4.SQL\n\n               A database is a system that shares, updates, and reuses data between multiple applications, thereby ensuring data consistency.\n In this course, students learn the fundamental theory of a relational database, database design, Structured Query Language (SQL), which is the language used for database management, and practical database operations using an actual database management system.\n\n              授業の概要および学習上の助言\n\n              There are three essential abilities needed to manage a database:\n\n(1)\tThe ability to handle SQL.\n(2)\tThe ability to ensure data consistency based on the concept of normal form, primary key, and foreign key, etc.\n(3)\tThe ability to design a database application system using transactions.\n\nIn this course we mainly focused on (1) and (2), but (3) will be also mentioned in the later classes.\n\nSince SQL is used for comprehensive database operations such as design, handling, and/or maintenance, it will be necessary to polish student SQL management skills by providing them with significant amounts of experience.\n\nWith that point in mind, students will be required to connect with and use our database server and then use it to manipulate their own databases in order to foster skills and knowledge related to the operation and management of a relational database.\n\n              教科書および参考書・リザーブドブック\n\n              None\n\n              履修に必要な予備知識や技能\n\n              Students are expected to have acquired fundamental knowledge related to computers via other courses such as “Information Technology Basic” or “Introduction to Server Management”\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                I,H\n                Be able to understand what a database is.\n\n                ②\n                A,B,I\n                Be able to understand what a relational database is.\n\n                ③\n                H,N\n                Be able to draw an E-R diagram.\n\n                ④\n                D,E,G\n                Be able to complete the third normalization.\n\n                ⑤\n                C,F,M\n                Be able to use the SELECT statement of SQL.\n\n                ⑥\n                J,K,L\n                Be able to design a database.\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                40\n\n                30\n\n                30\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                40\n\n                30\n\n                30\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                40\n\n                30\n\n                30\n\n                0\n\n                0\n\n                0\n\n                0\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n         ",
-  "courseId": "2026:spring:F021-01:0:399",
+  "rawText": "金沢工業大学 学習支援計画書 E518-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Information and Computer Science\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n情報と符号の理論\nInformation and coding theory  2 E518-01  2024年度\n 3rd year 1st semester  修学規程第4条を参照\n    担当教員名\n KINDO Toshiki, NINAGAWA Shigeru\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Information content 2.Entropy 3.Information source 4.Channel 5.Error-correcting Code  Considerable progress has been made in computer networks and ever-increasing amounts of information are now being exchanged. In this course, we learn the information theory and coding theory. First, we learn how to quantify information and related knowledge based on the probability theory. Next, we study the information source and its coding method. Finally, we learn how channel coding can be used to correct errors that have occurred in the channel.\n    授業の概要および学習上の助言   Information theory can be used to quantify and encode information output by an information source. It can also be used to correct errors that have occurred in the channel. The topics of this course are as follows: 1. Set and probability 2. Conditional probability and Bayes' theorem 3. Definition of information content and entropy 4. Information source 5. Entropy of information source 6. Source coding 7. Channel coding and error-correcting code\n    教科書および参考書・リザーブドブック   わかりやすい ディジタル情報理論(改訂2版)[オーム社]\n    履修に必要な予備知識や技能   Students are expected to review the following: (1) calculation of probability taken up in \"Probability and Statistics(E537-01)\", (2) logarithm calculations. If there is anything they cannot understand, they will need to resolve those issues by utilizing office hours. Students are expected to make good use of the exercises at the back of the textbook.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① D,M Be able to explain terms such as information content, entropy, information source, and coding.   ② D,M Be able to explain the source coding theorem.   ③ D,M Be able to perform Shannon-Fano coding.   ④ D,M Be able to perform Huffman coding.   ⑤ D,M Be able to explain error correcting code by parity check.   ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 40 60 0 0 0 0 0 100     指標と評価割合 総合評価割合 40 60 0 0 0 0 0 100   総合力指標 知識を取り込む力 40 60 0 0 0 0 0 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ An exam will be given at the end of semester. The scope will be announced in the class.    ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     クイズ\n小テスト ① レ Quizzes will be given irregularly but announced in advance. Their scopes will be announced in the class.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     レポート ①      ②     ③     ④     ⑤     ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ①      ②     ③     ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     Be able to calculate probability and entropy without using a reference. Be able to perform Shannon-Fano coding and Huffman coding. Be able to explain the procedure used for error-correcting codes.  Be able to calculate probability and entropy while using a reference. Be able to explain Shannon-Fano coding and Huffman coding. Be able to understand the procedure used for error-correcting codes.\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習課題に要する標準的な時間を記載してあります。日々の自学自習時間全体としては、各授業に応じた時間(例えば2単位科目の場合、予習2時間・復習2時間/週)を取るよう努めてください。詳しくは教員の指導に従って下さい。     授業明細   回数 学習内容 授業の運営方法 学習課題(予習・復習) 時間:分※     1  Outline of the course Elements of probability theory Lecture Q&A self-check Preparation/reviews and self-reflection rega",
+  "courseId": "2024:spring:E511-01:0:399",
   "language": "en"
 }

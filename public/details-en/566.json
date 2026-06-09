@@ -1,77 +1,73 @@
 {
   "sourceIndex": 566,
   "sourceUrl": "/opsyllabus/kitos0110/566/1",
-  "importedAt": "2026-06-08T09:34:04.670Z",
-  "title": "プロジェクトデザインⅢ（宮下智裕研究室）",
-  "subtitle": "Design Project III(Miyashita Tomohiro)",
-  "courseType": "Major ProgramMajor Project Courses",
-  "credits": "8",
-  "term": "2026年度\n\n                All year",
+  "importedAt": "2026-06-09T01:29:24.365Z",
+  "title": "データベースマネジメント",
+  "subtitle": "Database Management",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "2",
+  "term": "2024年度\n 2nd year 1st semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "MIYASHITA Tomohiro"
+    "SAITO Masashi"
   ],
   "keywords": [
-    "Architectural design",
-    "Space design",
-    "Construction design",
-    "Sustainable architecture",
-    "Region and design (regional cooperation)"
+    "Relational Database 2.Table Definition, ER Diagram 3.Normalization, Primary Key, External Key 4.Data Manipulation Language, SQL"
   ],
-  "educationalGoal": "This course focuses on social requirements and problems when designing architecture and space, and aims to conduct architectural design and research that meets the needs of the times from various aspects such as design, structure, and environment. Students gain their knowledge by understanding the structure of architecture and space and observing better works.",
-  "advice": "Research architecture and space design.\n1. First term (seventh term):\nStudents create attractive architectural and spatial design works by participating in team assignments and open design competitions.\nStudents participate in the renovation project conducted by the laboratory and design while directly interacting with the community. Students also gain skills such as leadership and coordination through collaboration.\n2. Second term (8th term)\nStudents will design complex building facilities based on the project proposals they have proposed.",
-  "books": "None",
-  "requiredKnowledge": "Students always browse architectural journals and work to understand social demands and the latest designs and trends.\nStudents need to actively participate in design activities in extracurricular lessons and daily life and train their design skills.",
+  "educationalGoal": "This course is for an educational goal of the Dept. of Management Systems to acquire \"Information design basic ability\". Students will: (1) acquire the basic ability to utilize IT. (2) learn the fundamental theory of relational databases. (3) learn how to design a database, use SQL, and operate a database.",
+  "advice": "To use a database, the following three abilities are required: 1. The ability to use SQL, a language for managing data held in a database. 2. The ability to maintain data integrity using normalization, primary/foreign key, and so on. 3. The ability to design application systems using a database. Students will acquire abilities 1 and 2 mainly through lectures and exercises in the first half of the course; they will acquire ability 3 in the second half of the course.",
+  "books": "The Manga Guide to Database by Mana Takahashi, Shoko Azuma, and Trend-Pro Co., Ltd., No Starch Press; ISBN: 978-1-59327-190-9",
+  "requiredKnowledge": "Basic knowledge of computers such as the basic operation of a PC, Web design, IT systems, etc.",
   "activityGoals": [
     {
       "index": "①",
-      "type": "I,L,K,Q,S,P",
-      "body": "Students can extract and design themes from social needs and local issues."
+      "type": "A,B",
+      "body": "Be able to explain what a database is."
     },
     {
       "index": "②",
-      "type": "I,J,K",
-      "body": "Students can study architecture extensively and understand the architectural space required in the future."
+      "type": "IH,I",
+      "body": "Be able to explain a relational database."
     },
     {
       "index": "③",
-      "type": "M,N",
-      "body": "Students can understand the structure, environmental facilities, and construction methods."
+      "type": "H,N",
+      "body": "Be able to design an E-R diagram."
     },
     {
       "index": "④",
-      "type": "O",
-      "body": "Students can design after understanding the concept of Sustainability."
+      "type": "D,E,G",
+      "body": "Be able to convert an entity to third normal form."
     },
     {
       "index": "⑤",
-      "type": "J,O,R",
-      "body": "Students can draw attractive design expressions using presentation techniques such as models and CAD / CG."
+      "type": "D,H,J",
+      "body": "Be able to use the SQL’s “SELECT” statement."
     },
     {
       "index": "⑥",
-      "type": "K,Q,R,P",
-      "body": "Students can compile reports based on theoretical thinking according to the research theme."
+      "type": "D,H,J",
+      "body": "Be able to design a database."
     }
   ],
   "evaluationWeights": [
     {
       "label": "総合評価割合",
       "values": [
-        "0",
-        "0",
-        "50",
         "30",
-        "0",
-        "0",
+        "40",
         "20",
+        "0",
+        "0",
+        "0",
+        "10",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -81,20 +77,20 @@
     {
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
-        "0",
-        "0",
-        "50",
         "30",
-        "0",
-        "0",
+        "40",
         "20",
+        "0",
+        "0",
+        "0",
+        "10",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -104,20 +100,20 @@
     {
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
-        "0",
-        "0",
-        "50",
         "30",
-        "0",
-        "0",
+        "40",
         "20",
+        "0",
+        "0",
+        "0",
+        "10",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -138,9 +134,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -148,7 +144,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -161,9 +157,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -184,9 +180,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -195,125 +191,118 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "Students can comprehensively understand architecture from the perspectives of design, structure, environment, city, and region, and can design based on appropriate architectural plans. In addition, students can create unique designs and attractive spaces, and articulate them as sophisticated and beautiful presentations.",
-    "standard": "Students can comprehensively understand architecture from the perspectives of design, structure, environment, city, and region, and can design based on appropriate architectural plans. In addition, students can draw these exactly as design drawings."
+    "ideal": "Understand the basic operations of a database, normalization, the design method, and SQL, and be able to model, design, implement, and operate a database.",
+    "standard": "Understand the basic operations of the database and use the basic method of normalization, design, and SQL."
   },
   "clipProcess": "",
   "lessons": [
     {
       "index": "1",
-      "content": "Subject guidance /\n Explanation of Design Issue 1",
-      "operation": "Lecture.",
-      "assignments": "review",
-      "minutes": "480"
+      "content": "Course introduction What is a database?",
+      "operation": "Lecture and practicum",
+      "assignments": "Prepare Chapter 1 of the textbook",
+      "minutes": "260"
     },
     {
-      "index": "2-3",
-      "content": "Seminar on Design Issue 1 and presentations.",
-      "operation": "Lecture and\npresentations.",
-      "assignments": "review and Preparation",
-      "minutes": "480"
+      "index": "2",
+      "content": "What is a relational database? (1)",
+      "operation": "Lecture and practicum",
+      "assignments": "Review Chapter 1 of the textbook Prepare Chapter 2 of the textbook",
+      "minutes": "260"
     },
     {
-      "index": "4-6",
-      "content": "Exercise on Design Issue 1",
-      "operation": "Exercise",
-      "assignments": "review and Preparation",
-      "minutes": "480"
+      "index": "3",
+      "content": "What is a relational database? (2)",
+      "operation": "Lecture and practicum",
+      "assignments": "Solve the exercises in Chapter 2 of the textbook",
+      "minutes": "260"
+    },
+    {
+      "index": "4",
+      "content": "Designing a database (1)",
+      "operation": "Lecture and practicum",
+      "assignments": "Re-solve the exercises in Chapter 2 of the textbook Prepare Chapter 3 of the textbook",
+      "minutes": "260"
+    },
+    {
+      "index": "5",
+      "content": "Designing a database (2)",
+      "operation": "Lecture and practicum",
+      "assignments": "Solve the exercises in Chapter 3 of the textbook",
+      "minutes": "260"
+    },
+    {
+      "index": "6",
+      "content": "Utilizing a database (1) -Basic operations of SQL",
+      "operation": "Lecture and practicum",
+      "assignments": "Review the basic operations of SQL",
+      "minutes": "260"
     },
     {
       "index": "7",
-      "content": "Review of Design Issue 1",
-      "operation": "Review and presentation",
-      "assignments": "review and Preparation",
-      "minutes": "480"
+      "content": "Utilizing a database (2) -Basic operations of SQL",
+      "operation": "Lecture and practicum",
+      "assignments": "Review the basic operations of SQL",
+      "minutes": "260"
     },
     {
       "index": "8",
-      "content": "Explanation of Design Issue 2",
-      "operation": "Lecture.",
-      "assignments": "review and Preparation",
-      "minutes": "480"
+      "content": "Confirmation of the acquisition of basic knowledge",
+      "operation": "Written Exam and review Self-evaluation",
+      "assignments": "Prepare for the exam",
+      "minutes": "300"
     },
     {
-      "index": "9-10",
-      "content": "Exercise on Design Issue 2",
-      "operation": "Exercise",
-      "assignments": "review and Preparation",
-      "minutes": "480"
+      "index": "9",
+      "content": "Self-evaluation based on exam result Use-case utilizing a database",
+      "operation": "Lecture and practicum Self-evaluation",
+      "assignments": "Conduct a report",
+      "minutes": "260"
     },
     {
-      "index": "11-14",
-      "content": "Exercise for Design Issue 2 /\nEsquisse of the final assignment",
-      "operation": "Exercise and\nLecture",
-      "assignments": "review and Preparation",
-      "minutes": "480"
+      "index": "10",
+      "content": "Let’s operate a database",
+      "operation": "Lecture and practicum",
+      "assignments": "Solve the exercises in Chapter 4 of the textbook",
+      "minutes": "260"
+    },
+    {
+      "index": "11",
+      "content": "The popularization and activities of a database",
+      "operation": "Lecture and practicum",
+      "assignments": "Review Chapter 5 of the textbook Solve the exercises in Chapter 5 of the textbook",
+      "minutes": "260"
+    },
+    {
+      "index": "12",
+      "content": "The database administration system (1)",
+      "operation": "Lecture and practicum",
+      "assignments": "Review all chapters learned",
+      "minutes": "260"
+    },
+    {
+      "index": "13",
+      "content": "The database administration system (2)",
+      "operation": "Lecture and practicum",
+      "assignments": "Prepare for the exam",
+      "minutes": "260"
+    },
+    {
+      "index": "14",
+      "content": "Final exam Self-evaluation",
+      "operation": "Written exam and review Self-evaluation",
+      "assignments": "Review exam questions",
+      "minutes": "300"
     },
     {
       "index": "15",
-      "content": "Review of Design Issue 2 /\nSubmission of interim report /\nSelf-inspection on design issue 2",
-      "operation": "Presentations at the\nreview meeting with the\ninstructor and Self-check",
-      "assignments": "review and Preparation",
-      "minutes": "480"
-    },
-    {
-      "index": "16-19",
-      "content": "Exercises for design tasks in the second\n semester /\nIndividual presentation of final assignment",
-      "operation": "Exercise\n/ Presentation",
-      "assignments": "review and Preparation",
-      "minutes": ""
-    },
-    {
-      "index": "20",
-      "content": "Submission of design semester/\nInterim presentation of final assignment",
-      "operation": "Review of design works in\n the second semester /\nInterim presentation of\nfinal assignment",
-      "assignments": "review and Preparation",
-      "minutes": "480"
-    },
-    {
-      "index": "21-22",
-      "content": "Exercise for final assignment /\nSeminar on final assignment",
-      "operation": "Exercises and seminars",
-      "assignments": "review and Preparation",
-      "minutes": "480"
-    },
-    {
-      "index": "23",
-      "content": "Exercise for final assignment",
-      "operation": "Exercises",
-      "assignments": "review and Preparation",
-      "minutes": "480"
-    },
-    {
-      "index": "24",
-      "content": "Interim presentation review committee on final\n assignment",
-      "operation": "Presentation at Interim\nPresentation Review\nCommittee /\nSelf-check",
-      "assignments": "review and Preparation",
-      "minutes": "480"
-    },
-    {
-      "index": "25-28",
-      "content": "Esquisse of the final assignment",
-      "operation": "Esquisse",
-      "assignments": "review and Preparation",
-      "minutes": "960"
-    },
-    {
-      "index": "29",
-      "content": "Esquisse of the final assignment /\nRehearsal of the public presentation\nexamination committee",
-      "operation": "Esquisse /\nRehearsal of the public\npresentation examination\n committee",
-      "assignments": "review and Preparation",
-      "minutes": "960"
-    },
-    {
-      "index": "30",
-      "content": "Project designⅢ review meeting at the public\n presentation examination committee /\nSelf-check through presentation screening\ncommittee",
-      "operation": "Presentation /\nSelf-check",
-      "assignments": "review",
-      "minutes": "300"
+      "content": "Self-evaluation based on test results",
+      "operation": "Self-evaluation Questionnaire Supplementary lesson",
+      "assignments": "",
+      "minutes": "260"
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　A921-06\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Architecture(〜2024)\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Project Courses\n\n                プロジェクトデザインⅢ（宮下智裕研究室）\n                Design Project III(Miyashita Tomohiro)\n\n              8\n              A921-06\n\n                2026年度\n\n                All year\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  MIYASHITA Tomohiro\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Architectural design\n2.Space design\n3.Construction design\n4.Sustainable architecture\n5.Region and design (regional cooperation)\n\n              This course focuses on social requirements and problems when designing architecture and space, and aims to conduct architectural design and research that meets the needs of the times from various aspects such as design, structure, and environment. Students gain their knowledge by understanding the structure of architecture and space and observing better works.\n\n              授業の概要および学習上の助言\n\n              Research architecture and space design.\n1. First term (seventh term):\nStudents create attractive architectural and spatial design works by participating in team assignments and open design competitions.\nStudents participate in the renovation project conducted by the laboratory and design while directly interacting with the community. Students also gain skills such as leadership and coordination through collaboration.\n2. Second term (8th term)\nStudents will design complex building facilities based on the project proposals they have proposed.\n\n              教科書および参考書・リザーブドブック\n\n              None\n\n              履修に必要な予備知識や技能\n\n              Students always browse architectural journals and work to understand social demands and the latest designs and trends.\nStudents need to actively participate in design activities in extracurricular lessons and daily life and train their design skills.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                I,L,K,Q,S,P\n                Students can extract and design themes from social needs and local issues.\n\n                ②\n                I,J,K\n                Students can study architecture extensively and understand the architectural space required in the future.\n\n                ③\n                M,N\n                Students can understand the structure, environmental facilities, and construction methods.\n\n                ④\n                O\n                Students can design after understanding the concept of Sustainability.\n\n                ⑤\n                J,O,R\n                Students can draw attractive design expressions using presentation techniques such as models and CAD / CG.\n\n                ⑥\n                K,Q,R,P\n                Students can compile reports based on theoretical thinking according to the research theme.\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                0\n\n                0\n\n                50\n\n                30\n\n                0\n\n                0\n\n                20\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                0\n\n                0\n\n                50\n\n                30\n\n                0\n\n                0\n\n                20\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                0\n\n                0\n\n                50\n\n                30\n\n                0\n\n                0\n\n                20\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n ",
-  "courseId": "2026:full-year:A921-06:0:566",
+  "rawText": "金沢工業大学 学習支援計画書 F112-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Management Systems\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\nデータベースマネジメント\nDatabase Management  2 F112-01  2024年度\n 2nd year 1st semester  修学規程第4条を参照\n    担当教員名\n SAITO Masashi\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Relational Database 2.Table Definition, ER Diagram 3.Normalization, Primary Key, External Key 4.Data Manipulation Language, SQL  This course is for an educational goal of the Dept. of Management Systems to acquire \"Information design basic ability\". Students will: (1) acquire the basic ability to utilize IT. (2) learn the fundamental theory of relational databases. (3) learn how to design a database, use SQL, and operate a database.\n    授業の概要および学習上の助言   To use a database, the following three abilities are required: 1. The ability to use SQL, a language for managing data held in a database. 2. The ability to maintain data integrity using normalization, primary/foreign key, and so on. 3. The ability to design application systems using a database. Students will acquire abilities 1 and 2 mainly through lectures and exercises in the first half of the course; they will acquire ability 3 in the second half of the course.\n    教科書および参考書・リザーブドブック   The Manga Guide to Database by Mana Takahashi, Shoko Azuma, and Trend-Pro Co., Ltd., No Starch Press; ISBN: 978-1-59327-190-9\n    履修に必要な予備知識や技能   Basic knowledge of computers such as the basic operation of a PC, Web design, IT systems, etc.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① A,B Be able to explain what a database is.   ② IH,I Be able to explain a relational database.   ③ H,N Be able to design an E-R diagram.   ④ D,E,G Be able to convert an entity to third normal form.   ⑤ D,H,J Be able to use the SQL’s “SELECT” statement.   ⑥ D,H,J Be able to design a database.\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 30 40 20 0 0 0 10 100     指標と評価割合 総合評価割合 30 40 20 0 0 0 10 100   総合力指標 知識を取り込む力 30 40 20 0 0 0 10 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ There will be a written exam at the end of the semester to confirm what students have learned from the lectures and exercises.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥ レ   クイズ\n小テスト ① レ There will be a mid-semester exam to confirm the student’s acquisition of basic knowledge.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥ レ   レポート ① レ Students will be evaluated on a report on a specified theme.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥ レ   成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ① レ Students will be evaluated on attendance and attitude during the course.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥ レ\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     Understand the basic operations of a database, normalization, the design method, and SQL, and be able to model, design, implement, and operate a database. Understand the basic operations of the database and use the basic method of normalization, design, and SQL.\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習課題に要する標準的な時間を記載してあります。日々の自学自習時間全体としては、各授業に応じた時間(例えば2単位科目の場合、予習2時間・復習2時間/週)を取るよう努めてください。詳しくは教員の指導に従って下さい。     授業明細   回数 学習内容 授業の運営方法 学習課題(予習・復習) 時間:分※     1  Course introduction What is a database? Lecture and practicum Prepare Chapter 1 of the textbook  260   2  What is a relational database? (1) Lecture and practicum Review Chapter 1 of the textbook Prepare Chapter 2 of the textbook  260   3  What is a relational database? (2) Lecture and practicum Solve the exercises in Chapter 2 of the textbook  260   4  Designing a database (1) Lecture an",
+  "courseId": "2024:spring:F108-01:0:566",
   "language": "en"
 }

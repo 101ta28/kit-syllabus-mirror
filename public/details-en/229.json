@@ -1,47 +1,38 @@
 {
   "sourceIndex": 229,
   "sourceUrl": "/opsyllabus/kitos0110/229/1",
-  "importedAt": "2026-06-08T09:33:57.800Z",
-  "title": "進路セミナーⅡ",
-  "subtitle": "Career Planning Seminar II",
-  "courseType": "Major ProgramOther Courses",
+  "importedAt": "2026-06-09T01:29:21.256Z",
+  "title": "空力解析演習",
+  "subtitle": "Aerodynamics Analysis Exercises",
+  "courseType": "Major Program\nMajor Courses",
   "credits": "1",
-  "term": "2026年度\n\n                3rd year 1st semester",
+  "term": "2024年度\n 3rd year 2nd semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "HIROMITSU Nagayoshi"
+    "MORIAI Hideki"
   ],
   "keywords": [
-    "Continuing study",
-    "Industry and job type",
-    "Job search",
-    "Corporate interview",
-    "Utilization of database"
+    "Numerical simulation 2.Aerodynamic analysis 3.Computational Fluid Dynamics 4.Finite volume method 5.Local collaboration"
   ],
-  "educationalGoal": "In order to clarify the purpose of continuing studies or finding a job, self-development is required in this course.\nStudents will:\n(1) learn self-analysis and how to perform a job search\n(2) learn job types and vocational aptitudes",
-  "advice": "We will cover the following items:\n(1) Methods of job searches\n(2) Factory tours\n(3) Self promotion\n(4) Corporate interviews\n(5) Practice exams",
-  "books": "Non",
-  "requiredKnowledge": "Career Seminar II is a lecture designed to prepare students for the actual job-hunting process.\nNo particular prior knowledge is required, but all students, regardless of whether they plan to continue their studies or find employment, should take this course in order to gain numerous contact points with actual companies, shape their career paths, and learn about the mindset required for job hunting, the preparations they need to make, and key points to keep in mind.",
+  "educationalGoal": "With the rapid development of computers, numerical simulations for aerodynamic analysis are essential in the aircraft design process. In this practical training course, students will learn how to properly use numerical simulation for fluid dynamics in the aircraft design process. Students will also learn how to utilize numerical simulation to solve actual engineering problems that occur in their local community.",
+  "advice": "In this course, students will learn numerical analysis through the use of numerical analysis software. We will cover the following materials: 1 Introduction to numerical simulation 2 Aerodynamic analysis Geometry modelling, Meshing, Computational method, Initial and boundary conditions, Execution of analysis, Evaluation of results, Comparison with experimental results",
+  "books": "Required materials will be specified in the first lesson.",
+  "requiredKnowledge": "It is recommended that students have already taken the following courses: Fundamentals of Fluid Mechanics, 3D-CAD, Aerodynamics for Aircraft I, and Mathematical Modeling and Programming. The textbook will be handed out during the class.",
   "activityGoals": [
     {
       "index": "①",
-      "type": "A,O",
-      "body": "Be able to explain the activity process from course selection to decision."
+      "type": "H,L,N",
+      "body": "Be able to conduct basic flow field by using standard numerical analysis software"
     },
     {
       "index": "②",
-      "type": "A,O",
-      "body": "Be able to act by collecting and analyzing information."
+      "type": "H,L,N",
+      "body": "Be able to explain factors that affect analysis results"
     },
     {
       "index": "③",
-      "type": "A,O",
-      "body": "Be able to recognize required aptitudes and achievements."
-    },
-    {
-      "index": "④",
-      "type": "A,O",
-      "body": "Be able to clarify the ideas that form the core of your career path and explain them to others."
+      "type": "H,L,N",
+      "body": "Be able to obtain information from analysis results to understand the flow field"
     }
   ],
   "evaluationWeights": [
@@ -49,19 +40,19 @@
       "label": "総合評価割合",
       "values": [
         "0",
-        "15",
-        "40",
-        "20",
         "0",
-        "10",
-        "15",
+        "100",
+        "0",
+        "0",
+        "0",
+        "0",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -72,19 +63,19 @@
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
         "0",
-        "15",
-        "40",
-        "20",
         "0",
-        "10",
-        "15",
+        "100",
+        "0",
+        "0",
+        "0",
+        "0",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -95,19 +86,19 @@
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
         "0",
-        "15",
-        "40",
-        "20",
         "0",
-        "10",
-        "15",
+        "100",
+        "0",
+        "0",
+        "0",
+        "0",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -128,9 +119,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -138,7 +129,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -151,9 +142,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -174,9 +165,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -185,76 +176,62 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "You can explain your career design in detail.",
-    "standard": "You can imagine your future."
+    "ideal": "In analysis of a 2D circular cylinder, set up a suitable boundary condition and recognize the influence of meshing on the computational result. In analysis of airfoil shapes, accurately compute the pressure distribution, lift, drag, and moment. In addition, evaluate the computational results based on knowledge of aerodynamics.",
+    "standard": "In analysis of a 2D circular cylinder, explain a suitable boundary condition and the influence of meshing on the computational result. In analysis of airfoil shapes, accurately compute the pressure distribution, lift, drag and moment."
   },
   "clipProcess": "",
   "lessons": [
     {
       "index": "1",
-      "content": "Course introduction\nMethods of Corporate research",
-      "operation": "Lecture and Q&A",
-      "assignments": "Understand the objectives of\nclass",
-      "minutes": "60"
+      "content": "[Aerodynamic analysis] Introduction to aerodynamic analysis Analysis of transonic airfoil (1)",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Prepare for the practice Review the last class",
+      "minutes": "90"
     },
     {
       "index": "2",
-      "content": "Corporate research and roundtable discussions",
-      "operation": "Lecture and Q&A\nSelf-check",
-      "assignments": "Create a report",
+      "content": "[Aerodynamic analysis] Analysis of transonic airfoil (2)",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Prepare for the practice Review the last class",
       "minutes": "120"
     },
     {
       "index": "3",
-      "content": "Corporate research and roundtable discussions",
-      "operation": "Lecture and Q&A\nSelf-check",
-      "assignments": "Create a report",
-      "minutes": "120"
+      "content": "[Aerodynamic analysis] Analysis of unsteady (laminar) flows around circular cylinder (1)",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Prepare for the practice Review the last class",
+      "minutes": "90"
     },
     {
       "index": "4",
-      "content": "Corporate research and roundtable discussions",
-      "operation": "Lecture and Q&A\nSelf-check",
-      "assignments": "Create a report",
-      "minutes": "120"
+      "content": "[Aerodynamic analysis] Analysis of unsteady (laminar) flows around circular cylinder (2)",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Prepare for the practice Review the last class",
+      "minutes": "90"
     },
     {
       "index": "5",
-      "content": "trial examination",
-      "operation": "Lecture and Q&A\nSelf-check",
-      "assignments": "Prepare for the test\nCheck points of difficulty.",
+      "content": "[Aerodynamic analysis] Analysis of RANS (steady) simulation of airfoil (1)",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Prepare for the practice Review the last class",
       "minutes": "120"
     },
     {
       "index": "6",
-      "content": "Corporate research and roundtable discussions",
-      "operation": "Lecture and Q&A\nSelf-check",
-      "assignments": "Create a report",
-      "minutes": "120"
+      "content": "[Aerodynamic analysis] Analysis of RANS (steady) simulation of airfoil (2)",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Prepare for the practice Review the last class",
+      "minutes": "180"
     },
     {
       "index": "7",
-      "content": "Learn from the experience of seniors\nOverall review",
-      "operation": "Lecture and Q&A\nSelf-check",
-      "assignments": "Creat a portfolio",
-      "minutes": "120"
-    },
-    {
-      "index": "extra\nclass",
-      "content": "Corporate research and roundtable discussions",
-      "operation": "Lecture and practice\nSelf-check",
-      "assignments": "Create a report",
-      "minutes": "120"
-    },
-    {
-      "index": "Non-re\ngular\nclass\nsessio\nn",
-      "content": "Supplementary lecture\n  as Company visits\n(It will be held only if possible)",
-      "operation": "Company visits\nmeeting",
-      "assignments": "Research Reports",
-      "minutes": ""
+      "content": "[Practice] Practice of numerical simulation [Review]",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Prepare for the practice",
+      "minutes": "60"
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　E952-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Aeronautics and Astronautics(〜2024)\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramOther Courses\n\n                進路セミナーⅡ\n                Career Planning Seminar II\n\n              1\n              E952-01\n\n                2026年度\n\n                3rd year 1st semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  HIROMITSU Nagayoshi\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Continuing study\n2.Industry and job type\n3.Job search\n4.Corporate interview\n5.Utilization of database\n\n              In order to clarify the purpose of continuing studies or finding a job, self-development is required in this course.\nStudents will:\n(1) learn self-analysis and how to perform a job search\n(2) learn job types and vocational aptitudes\n\n              授業の概要および学習上の助言\n\n              We will cover the following items:\n(1) Methods of job searches\n(2) Factory tours\n(3) Self promotion\n(4) Corporate interviews\n(5) Practice exams\n\n              教科書および参考書・リザーブドブック\n\n              Non\n\n              履修に必要な予備知識や技能\n\n              Career Seminar II is a lecture designed to prepare students for the actual job-hunting process.\nNo particular prior knowledge is required, but all students, regardless of whether they plan to continue their studies or find employment, should take this course in order to gain numerous contact points with actual companies, shape their career paths, and learn about the mindset required for job hunting, the preparations they need to make, and key points to keep in mind.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                A,O\n                Be able to explain the activity process from course selection to decision.\n\n                ②\n                A,O\n                Be able to act by collecting and analyzing information.\n\n                ③\n                A,O\n                Be able to recognize required aptitudes and achievements.\n\n                ④\n                A,O\n                Be able to clarify the ideas that form the core of your career path and explain them to others.\n\n                ⑤\n\n                ⑥\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                0\n\n                15\n\n                40\n\n                20\n\n                0\n\n                10\n\n                15\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                0\n\n                15\n\n                40\n\n                20\n\n                0\n\n                10\n\n                15\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                0\n\n                15\n\n                40\n\n                20\n\n                0\n\n                10\n\n                15\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  コラボレーションとリーダーシップ\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  発表・表現・伝達する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  学習に取組む姿勢・意欲\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n         ",
-  "courseId": "2026:spring:E952-01:0:229",
+  "rawText": "金沢工業大学 学習支援計画書 E143-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Aeronautics\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n空力解析演習\nAerodynamics Analysis Exercises  1 E143-01  2024年度\n 3rd year 2nd semester  修学規程第4条を参照\n    担当教員名\n MORIAI Hideki\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Numerical simulation 2.Aerodynamic analysis 3.Computational Fluid Dynamics 4.Finite volume method 5.Local collaboration  With the rapid development of computers, numerical simulations for aerodynamic analysis are essential in the aircraft design process. In this practical training course, students will learn how to properly use numerical simulation for fluid dynamics in the aircraft design process. Students will also learn how to utilize numerical simulation to solve actual engineering problems that occur in their local community.\n    授業の概要および学習上の助言   In this course, students will learn numerical analysis through the use of numerical analysis software. We will cover the following materials: 1 Introduction to numerical simulation 2 Aerodynamic analysis Geometry modelling, Meshing, Computational method, Initial and boundary conditions, Execution of analysis, Evaluation of results, Comparison with experimental results\n    教科書および参考書・リザーブドブック   Required materials will be specified in the first lesson.\n    履修に必要な予備知識や技能   It is recommended that students have already taken the following courses: Fundamentals of Fluid Mechanics, 3D-CAD, Aerodynamics for Aircraft I, and Mathematical Modeling and Programming. The textbook will be handed out during the class.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① H,L,N Be able to conduct basic flow field by using standard numerical analysis software   ② H,L,N Be able to explain factors that affect analysis results   ③ H,L,N Be able to obtain information from analysis results to understand the flow field   ④     ⑤     ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 0 0 100 0 0 0 0 100     指標と評価割合 総合評価割合 0 0 100 0 0 0 0 100   総合力指標 知識を取り込む力 0 0 100 0 0 0 0 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ①      ②     ③     ④     ⑤     ⑥     クイズ\n小テスト ①      ②     ③     ④     ⑤     ⑥     レポート ① レ Students will be evaluated on reports on aerodynamics problems related to aeronautics. Students will be required to evaluate the computational results.   ② レ   ③ レ   ④     ⑤     ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ①      ②     ③     ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     In analysis of a 2D circular cylinder, set up a suitable boundary condition and recognize the influence of meshing on the computational result. In analysis of airfoil shapes, accurately compute the pressure distribution, lift, drag, and moment. In addition, evaluate the computational results based on knowledge of aerodynamics. In analysis of a 2D circular cylinder, explain a suitable boundary condition and the influence of meshing on the computational result. In analysis of airfoil shapes, accurately compute the pressure distribution, lift, drag and moment.\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習課題に要する標準的な時間を記載してあります。日々の自学自習時間全体としては、各授業に応じた時間(例えば2単位科目の場合、予習2時間・復習2時間/週)を取るよう努めてください。詳しくは教員の指導に従って下さい。     授業明細   回数 学習内容 授業の運営方法 学習課題(予習・復習) 時間:分※     1  [Aerodynamic analysis] Introduction to aerodynamic analysis Analysis of transonic airfoil (1) Lecture and practice Self-check Prepare for the practice Review the last class  90   2  [Aerodynamic analysis] Analysis of transonic airfoil (2) Lecture and p",
+  "courseId": "2024:spring:E133-01:0:229",
   "language": "en"
 }

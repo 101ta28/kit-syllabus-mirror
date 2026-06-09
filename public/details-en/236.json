@@ -1,67 +1,58 @@
 {
   "sourceIndex": 236,
   "sourceUrl": "/opsyllabus/kitos0110/236/1",
-  "importedAt": "2026-06-08T09:33:57.918Z",
-  "title": "メカトロニクス",
-  "subtitle": "Mechatronics",
-  "courseType": "Major ProgramMajor Courses",
-  "credits": "2",
-  "term": "2026年度\n\n                3rd year 1st semester",
+  "importedAt": "2026-06-09T01:29:21.217Z",
+  "title": "プロジェクトデザインⅢ(赤坂剛史研究室)",
+  "subtitle": "Design Project III(Akasaka Takeshi)",
+  "courseType": "Major Program\nMajor Project Courses",
+  "credits": "8",
+  "term": "2024年度\n All year",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "FURUYA Shigehiko"
+    "AKASAKA Takeshi"
   ],
   "keywords": [
-    "Mechatronics",
-    "sensor",
-    "servo motor",
-    "Computer",
-    "IoT(Internet of Things)"
+    "Aeronautics 2.Flight dynamics and control 3.Rotorcraft 4.Drone 5.Regional alliance"
   ],
-  "educationalGoal": "Understand mechatronics, a multidisciplinary field of mechanical engineering, electrical engineering, and computer engineering.\nLearn sensor technology, principles of motors, and electrical and electronic circuits for sensors and motors.",
-  "advice": "Course Content\n\n1.Sensor Selection and Circuit Design\nStudents will learn how to interpret data sheets for various sensors and develop a deeper understanding of sensor circuits that interface with microcontrollers.\n\n2.DC Servo Motors and Control Circuits\nThe course will cover the characteristics and selection methods of DC servo motors, which serve as representative actuators in robotic systems, along with an in-depth study of motor control circuits.\n\n3.Mechanical Transmission and Motor Selection\nStudents will learn how to mathematically model mechanical transmission mechanisms and apply these models to select appropriate DC motors for specific applications.",
-  "books": "Textbooks: handout, Fundamentals of Mechatronics, Morikita Syuppan (in Japanese)\nReference books: None\nReserved books: None",
-  "requiredKnowledge": "Basic knowledge of electronic circuits, control engineering, and computer engineering.",
+  "educationalGoal": "Based on the design and fabrication technology of the basics of aeronautical engineering learned so far, a basic ability to design, fabricate and propose feasible ideas on transportation machines by application of aeronautical engineering theory will be obtained. At the same time, students will learn the importance of cooperation with society (community in particular) to advance their ideas.",
+  "advice": "Specific project themes will be determined through discussion, and problems will be discovered and resolved according to these discussions. Themes can be broadly classified as follows. (1) Rotary wing such as high speed helicopter and propeller (2) Design and control system such as drone and eVTOL (3) Airborne wind turbine (4) Flexible wing such as parachute and paraglider",
+  "books": "Non",
+  "requiredKnowledge": "Because Design Project III is based on lectures, experiments, and practice of quarters 1-6 in the department of aeronautics, students must review them appropriately as needed.",
   "activityGoals": [
     {
       "index": "①",
-      "type": "K,M",
-      "body": "Be able to select sensors that meet the specified requirements."
+      "type": "A,B,D,G,H,I-O",
+      "body": "Be able to establish a project theme and put it into action based on an engineering design process."
     },
     {
       "index": "②",
-      "type": "K,M",
-      "body": "Be able to select DC servo motors that meet the specified requirements."
+      "type": "A,B,D,G,H,I-O",
+      "body": "Be able to finalize the results students obtained in documents and conduct the presentation."
     },
     {
       "index": "③",
-      "type": "K,M",
-      "body": "Be able to design interface circuits and wiring diagrams to connect sensors and DC servo motors with microcontro"
-    },
-    {
-      "index": "④",
-      "type": "K,M",
-      "body": "Be able to conceptualize mechatronic devices based on given specifications."
+      "type": "A,B,D,G,H,I-O",
+      "body": "Be able to perform design, drafting, manufacturing (production) and simulation."
     }
   ],
   "evaluationWeights": [
     {
       "label": "総合評価割合",
       "values": [
-        "30",
-        "20",
-        "30",
         "0",
+        "0",
+        "50",
+        "35",
         "0",
         "5",
-        "15",
+        "10",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -71,20 +62,20 @@
     {
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
-        "30",
-        "20",
-        "30",
         "0",
+        "0",
+        "50",
+        "35",
         "0",
         "5",
-        "15",
+        "10",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -94,20 +85,20 @@
     {
       "label": "総合力指標 / 知識を取り込む力",
       "values": [
-        "30",
-        "20",
-        "30",
         "0",
+        "0",
+        "50",
+        "35",
         "0",
         "5",
-        "15",
+        "10",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -128,9 +119,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -138,7 +129,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -151,9 +142,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -174,9 +165,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -185,118 +176,20 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "(1) Appropriately select sensors and motors for making a new mechatronic system.\n(2) Design an interface circuit to connect sensors and actuators using microcomputers.",
-    "standard": "(1) Select sensors and DC motors for making a required mechatronic system.\n(2) Select IO ports of a microcomputer to connect sensors and DC motors."
+    "ideal": "(1) Student clearly understands the purpose and the promotion process of the project theme and can achieve annual objectives that suit this purpose. (2) Students prepare an interim result of the project as an interim report and present and discuss it. Students prepare their research result as a final report and make a presentation and discuss it in an open presentation and evaluation meeting. In addition, students can report this final result in the scientific journal relating to their major subject and can receive outside evaluation. (3) Students conduct design and production activities on their own as needed and can evaluate their performance.",
+    "standard": "(1) Student clearly understands the purpose and the promotion process of the project theme and can achieve annual objectives that suit this purpose. (2) Students should prepare an interim result of the project as an interim report and present it. Students prepare the final result as a final report and present it in an open presentation and evaluation meeting."
   },
   "clipProcess": "",
   "lessons": [
     {
-      "index": "1",
-      "content": "Introduction",
-      "operation": "Lecture and practice",
-      "assignments": "Exercise",
-      "minutes": "200"
-    },
-    {
-      "index": "2",
-      "content": "Actuator #1\n- DC motor\n- AC motor",
-      "operation": "Lecture and practice",
-      "assignments": "Exercise",
-      "minutes": "200"
-    },
-    {
-      "index": "3",
-      "content": "Actuator #2\n- Stepping motor\n- Other actuators",
-      "operation": "Lecture and practice",
-      "assignments": "Exercise\nQuiz / Short Test #1",
-      "minutes": "200"
-    },
-    {
-      "index": "4",
-      "content": "Selection of DC Motor",
-      "operation": "Lecture and practice",
-      "assignments": "Exercise",
-      "minutes": "200"
-    },
-    {
-      "index": "5",
-      "content": "Mechanical Transmission Mechanisms\n- Gear mechanism\n- Belt and pulley mechanism\n- Ball screw mechanism\n- Other mechanisms",
-      "operation": "Lecture and practice",
-      "assignments": "Exercise",
-      "minutes": "200"
-    },
-    {
-      "index": "6",
-      "content": "Examination\nSummary of learning on mechatronic devices",
-      "operation": "Lecture and practice",
-      "assignments": "Examination: Content from Sess\nions 1 to 5\nExercise\nReport #1",
-      "minutes": "200"
-    },
-    {
-      "index": "7",
-      "content": "Sensor #1",
-      "operation": "Lecture and practice",
-      "assignments": "Exercise",
-      "minutes": "200"
-    },
-    {
-      "index": "8",
-      "content": "Sensor #2",
-      "operation": "Lecture and practice",
-      "assignments": "Exercise",
-      "minutes": "200"
-    },
-    {
-      "index": "9",
-      "content": "Sensor #3",
-      "operation": "Lecture and practice",
-      "assignments": "Exercise",
-      "minutes": "200"
-    },
-    {
-      "index": "10",
-      "content": "Sensor #4",
-      "operation": "Lecture and practice",
-      "assignments": "Exercise\nQuiz / Short Test #2\nReport #2",
-      "minutes": "200"
-    },
-    {
-      "index": "11",
-      "content": "- Electronic circuit components and their applic\nations\n- Controllers and their peripheral devices",
-      "operation": "Lecture and practice",
-      "assignments": "Examination: Content from Sess\nions 7 to 11\nExercise",
-      "minutes": "200"
-    },
-    {
-      "index": "12",
-      "content": "Examination\nSelection of motor driver",
-      "operation": "Lecture and practice",
-      "assignments": "Exercise",
-      "minutes": "200"
-    },
-    {
-      "index": "13",
-      "content": "Design of Mechanical Mechanisms #1",
-      "operation": "Lecture and practice",
-      "assignments": "Exercise\nQuiz / Short Test #3\nReport #3",
-      "minutes": "200"
-    },
-    {
-      "index": "14",
-      "content": "Design of Mechanical Mechanisms #2\nSummary of learning on mechatronic devices",
-      "operation": "Lecture and practice",
-      "assignments": "Exercise",
-      "minutes": "200"
-    },
-    {
-      "index": "15",
-      "content": "Review and summary",
-      "operation": "Lecture and Self-evaluatio\nn",
-      "assignments": "",
-      "minutes": "200"
+      "index": "2 and after",
+      "content": "Students conduct their research activities.",
+      "operation": "Study meeting, seminar, lecture.",
+      "assignments": "Paper, Report and document search on the reference book relation to their major subject.",
+      "minutes": "120"
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　E227-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Robotics(〜2024)\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                メカトロニクス\n                Mechatronics\n\n              2\n              E227-01\n\n                2026年度\n\n                3rd year 1st semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  FURUYA Shigehiko\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Mechatronics\n2.sensor\n3.servo motor\n4.Computer\n5.IoT(Internet of Things)\n\n              Understand mechatronics, a multidisciplinary field of mechanical engineering, electrical engineering, and computer engineering.\nLearn sensor technology, principles of motors, and electrical and electronic circuits for sensors and motors.\n\n              授業の概要および学習上の助言\n\n              Course Content\n\n1.Sensor Selection and Circuit Design\nStudents will learn how to interpret data sheets for various sensors and develop a deeper understanding of sensor circuits that interface with microcontrollers.\n\n2.DC Servo Motors and Control Circuits\nThe course will cover the characteristics and selection methods of DC servo motors, which serve as representative actuators in robotic systems, along with an in-depth study of motor control circuits.\n\n3.Mechanical Transmission and Motor Selection\nStudents will learn how to mathematically model mechanical transmission mechanisms and apply these models to select appropriate DC motors for specific applications.\n\n              教科書および参考書・リザーブドブック\n\n              Textbooks: handout, Fundamentals of Mechatronics, Morikita Syuppan (in Japanese)\nReference books: None\nReserved books: None\n\n              履修に必要な予備知識や技能\n\n              Basic knowledge of electronic circuits, control engineering, and computer engineering.\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                K,M\n                Be able to select sensors that meet the specified requirements.\n\n                ②\n                K,M\n                Be able to select DC servo motors that meet the specified requirements.\n\n                ③\n                K,M\n                Be able to design interface circuits and wiring diagrams to connect sensors and DC servo motors with microcontro\n\n                ④\n                K,M\n                Be able to conceptualize mechatronic devices based on given specifications.\n\n                ⑤\n\n                ⑥\n\n              達成度評価\n\n              評価方法\n\n              試験\n              クイズ小テスト\n              レポート\n              成果発表(口頭・実技)\n              作品\n              ポートフォリオ\n              その他\n              合計\n\n              総合評価割合\n\n                30\n\n                20\n\n                30\n\n                0\n\n                0\n\n                5\n\n                15\n\n                100\n\n              指標と評価割合\n              総合評価割合\n\n                30\n\n                20\n\n                30\n\n                0\n\n                0\n\n                5\n\n                15\n\n                100\n\n              総合力指標\n              知識を取り込む力\n\n                30\n\n                20\n\n                30\n\n                0\n\n                0\n\n                5\n\n                15\n\n                100\n\n                  思考・推論・創造する力\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  コラボレーションとリーダーシップ\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                    0\n\n                  発表・表現・伝達する力\n\n                    0\n\n                    0\n\n                    0\n\n            ",
-  "courseId": "2026:spring:E227-01:0:236",
+  "rawText": "金沢工業大学 学習支援計画書 E922-08\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Aeronautics\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Project Courses\nプロジェクトデザインⅢ(赤坂剛史研究室)\nDesign Project III(Akasaka Takeshi)  8 E922-08  2024年度\n All year  修学規程第4条を参照\n    担当教員名\n AKASAKA Takeshi\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Aeronautics 2.Flight dynamics and control 3.Rotorcraft 4.Drone 5.Regional alliance  Based on the design and fabrication technology of the basics of aeronautical engineering learned so far, a basic ability to design, fabricate and propose feasible ideas on transportation machines by application of aeronautical engineering theory will be obtained. At the same time, students will learn the importance of cooperation with society (community in particular) to advance their ideas.\n    授業の概要および学習上の助言   Specific project themes will be determined through discussion, and problems will be discovered and resolved according to these discussions. Themes can be broadly classified as follows. (1) Rotary wing such as high speed helicopter and propeller (2) Design and control system such as drone and eVTOL (3) Airborne wind turbine (4) Flexible wing such as parachute and paraglider\n    教科書および参考書・リザーブドブック   Non\n    履修に必要な予備知識や技能   Because Design Project III is based on lectures, experiments, and practice of quarters 1-6 in the department of aeronautics, students must review them appropriately as needed.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① A,B,D,G,H,I-O Be able to establish a project theme and put it into action based on an engineering design process.   ② A,B,D,G,H,I-O Be able to finalize the results students obtained in documents and conduct the presentation.    ③ A,B,D,G,H,I-O Be able to perform design, drafting, manufacturing (production) and simulation.   ④     ⑤     ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 0 0 50 35 0 5 10 100     指標と評価割合 総合評価割合 0 0 50 35 0 5 10 100   総合力指標 知識を取り込む力 0 0 50 35 0 5 10 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ①      ②     ③     ④     ⑤     ⑥     クイズ\n小テスト ①      ②     ③     ④     ⑤     ⑥     レポート ① レ Students are evaluated on the content of an interim report submitted in the first semester and a final report (Design Project III final report) submitted in the second semester.   ② レ   ③ レ   ④     ⑤     ⑥     成果発表\n(口頭・実技) ① レ Students are evaluated on the results of their interim presentation held at the end of the firstsemester. The content and question and answer of the Design Project III open presentation and evaluation meeting held at the end of the second semester.    ② レ   ③ レ   ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ① レ Students are evaluated on the result of a weekly report using the Web.   ② レ   ③ レ   ④     ⑤     ⑥     その他 ① レ Students are evaluated on their engagement in everyday activities in the laboratory and their contribution to the laboratory research activities.   ② レ   ③ レ   ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     (1) Student clearly understands the purpose and the promotion process of the project theme and can achieve annual objectives that suit this purpose. (2) Students prepare an interim result of the project as an interim report and present and discuss it. Students prepare their research result as a final report and make a presentation and discuss it in an open presentation and evaluation meeting. In addition, students can report this final result in the scientific journal relating to their major subject and can receive outside evaluation. (3) Students conduct design and production activities on their own as needed and can evaluate their performance.  (1) Student clearly understands the purpose and the promotion process of the project theme and can achieve annual objectives that suit thi",
+  "courseId": "2024:fall:E140-01:0:236",
   "language": "en"
 }

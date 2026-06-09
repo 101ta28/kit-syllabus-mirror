@@ -1,55 +1,49 @@
 {
   "sourceIndex": 886,
   "sourceUrl": "/opsyllabus/kitos0110/886/1",
-  "importedAt": "2026-06-08T09:34:11.650Z",
-  "title": "測量実習・演習Ⅰ",
-  "subtitle": "Surveying Practicum / Exercises I",
-  "courseType": "Major ProgramMajor Courses",
-  "credits": "2",
-  "term": "2026年度\n\n                2nd year 1st semester",
+  "importedAt": "2026-06-09T01:29:27.522Z",
+  "title": "専門教養特別科目(教養としての半導体技術入門)",
+  "subtitle": "Special Subject - Specialties Education(Introduction to Semiconductor Technology)",
+  "courseType": "(Provided by all courses)\nLiberal Arts Courses\nTransdisciplinary Learning",
+  "credits": "1",
+  "term": "2024年度\n 1st year 2nd semester\n2nd year 1st semester",
   "method": "修学規程第4条を参照",
   "teachers": [
-    "NAKANO Kazuya",
-    "HASHIMOTO Takuya",
-    "TOKUDA Yoshitaka",
-    "KONAKA Masamichi"
+    "YAMAGUCHI Atsushi",
+    "IDA Jiro"
   ],
   "keywords": [
-    "Distance, Degree, Bearing",
-    "Error, Precision",
-    "Total Station",
-    "Distance survey, Control point survey",
-    "Declination survey, Leveling survey"
+    "Semiconductor 2.IC, LSI 3.Optical devices (LED, laser diode) 4.Power devices 5.Diodes and Transistors"
   ],
-  "educationalGoal": "(1) Practice the surveying methods learned in Surveying I and Surveying II\n(2) Practice distance, control point, leveling and declination surveys and reports.\n(3) Reports are equivalent to company reports. Students will learn how to create data in required formats.\n(4) Students who master the topics in Surveying I/II and Surveying Practicum I/II will have the skills necessary for an Assistant Surveyor national license.",
-  "advice": "Field training is implemented as a practice of active learning and [self-inspection], which is \"comprehensive ability\" learning. 1. Distance surveying: \"Learn the basics of distance measurement.\" pacing, cloth tape measure, steel tape measure and distance measurement by total station. 2. Leveling: Learn how to handle automatic levels and electronic levels. Conduct small-scale direct leveling to understand the person. Understand survey error adjustments. 3. Handling the total station: Learn how to use the total station (TS) and how to handle equipment using the built-in programs. 4. Angular survey: Learn the basics of horizontal angle observation (double observation) by the single measurement method using a total station. With the measurement of eccentric elements as the subject. Then conduct angle observations around Building 2 and 3, and practice repeatedly so that observations can be made accurately. 5. (Advice): Moodle teaching materials (Surveying I, II) are useful for practical training and writing reports, so please refer to them. Please note that the schedule may change due to the weather, as the training will be held outdoors.",
-  "books": "Reference the Japanese syllabus.",
-  "requiredKnowledge": "In this course, students learn through practical skills the contents of the lectures learned in \"Surveying I\". Therefore, the contents of the classroom lectures (especially It is necessary to fully understand the advanced courses such as \"Surveying II\", \"Surveying Practice/Exercise II\", \"Spatial Information Technology\", etc. There is in addition, there are related subjects such as \"Environmental Civil Engineering Experiments and Exercises B\" and \"Exercises in Geoinformatics\".",
+  "educationalGoal": "Students will study the basic technology of semiconductors. More specifically, they will learn about optical devices, power devices, integrated circuits, and other fundermental devices made from semiconductors. Their applications, history, current status, and future of semiconductor devices will be lectured.",
+  "advice": "Students will learn general knowledge of semiconductor technology, including n-type and p-type semiconductors, diodes and transistors, microfabrication techniques, optoelectronics (optical semiconductors), power semiconductors, and integrated circuits. For integrated circuits, learn about their history, current status, and future. They will learn the meaning of MOS, scaling laws, Moore's law, etc. The future of next-generation artificial intelligence is also a topic of discussion.",
+  "books": "N/A",
+  "requiredKnowledge": "This is a liberal arts course for all departments, so there are no specific prior knowledge or skills required.",
   "activityGoals": [
     {
       "index": "①",
-      "type": "L,M",
-      "body": "Students can handle various surveying instruments (0.1L,0.1M)"
+      "type": "B",
+      "body": "To understand the content of media reports (newspaper articles and news) on semiconductors."
     },
     {
       "index": "②",
-      "type": "L,M",
-      "body": "Students understand each type of survey, and can convert survey results into drawings and reports. (0.1L,0.1M)"
+      "type": "B",
+      "body": "To understand the outline of basic elements such as diodes and transistors."
     },
     {
       "index": "③",
-      "type": "L,M",
-      "body": "Students can make presentations on survey results. (0.1L,0.1M)"
+      "type": "B",
+      "body": "To have an overview of optical and power semiconductors."
     },
     {
       "index": "④",
-      "type": "M",
-      "body": "Students deepen knowledge of spatial information measurement and social infrastructure maintenance. (0.1L,0.1M)"
+      "type": "B",
+      "body": "To explain what integrated circuits are."
     },
     {
       "index": "⑤",
-      "type": "M",
-      "body": "Students acquire ethical sense as an engineer through practical training. (0.2M)"
+      "type": "B",
+      "body": "To explain scaling laws and Moore's Law."
     }
   ],
   "evaluationWeights": [
@@ -58,18 +52,18 @@
       "values": [
         "0",
         "0",
-        "70",
+        "100",
         "0",
         "0",
         "0",
-        "30",
+        "0",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -81,18 +75,18 @@
       "values": [
         "0",
         "0",
-        "70",
+        "100",
         "0",
         "0",
         "0",
-        "30",
+        "0",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -104,18 +98,18 @@
       "values": [
         "0",
         "0",
-        "70",
+        "100",
         "0",
         "0",
         "0",
-        "30",
+        "0",
         "100"
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -136,9 +130,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -146,7 +140,7 @@
       ]
     },
     {
-      "label": "コラボレーションとリーダーシップ",
+      "label": "コラボレーションと\nリーダーシップ",
       "values": [
         "0",
         "0",
@@ -159,9 +153,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -182,9 +176,9 @@
       ],
       "columns": [
         "試験",
-        "クイズ小テスト",
+        "クイズ 小テスト",
         "レポート",
-        "成果発表(口頭・実技)",
+        "成果発表 (口頭・実技)",
         "作品",
         "ポートフォリオ",
         "その他",
@@ -193,223 +187,62 @@
     }
   ],
   "achievementLevels": {
-    "ideal": "●Distance surveying: Clear the standard achievement level, and the measurement results will appear in the order of the most accurate methods (steel tape measure, cloth tape measure, pacing).\n●Leveling: Clear the standard achievement level, and in addition can perform leveling with high accuracy.\n●Total station: clear the standard achievement level, plus advanced handling using the built-in program.\n● Angular surveying: Clear the standard achievement level, and in addition, it is possible to perform angular surveying with high accuracy.\n●Able to lead practical training independently and play a central role in the group.",
-    "standard": "●Distance surveying: Understand surveying methods, and be able to accurately organize data and calculate accuracy.\n●Leveling: Be able to understand the installation of automatic levels and electronic levels and carry out leveling. You can fill in the profile leveling and rise and fall method level book.\n●Total station: Understand the basic usage of a total station.\n● Angular surveying: A solid understanding of the installation and operation of a total station and the ability to perform angular surveying."
+    "ideal": "Educated understanding of semiconductors in general. The student will have an understanding of individual semiconductors (e.g. diodes, transistors, etc.), logic integrated circuits, memory integrated circuits, etc. To be able to explain in one's own way why integrated circuits have come to be called the brains of all industries. Explain in one's own way why integrated circuits have come to be known as the brains of entire industries.",
+    "standard": "To understand the main points about semiconductor-related media articles (newspaper articles, or TV news)."
   },
   "clipProcess": "",
   "lessons": [
     {
       "index": "1",
-      "content": "Guidance on how Surveying Practicum I is to\nbe conducted.",
-      "operation": "Explanation of Surveying\nPracticum.",
-      "assignments": "Preparation: Review the\ndistance measurement and\nleveling that you learned in\n \"Surveying I \"",
-      "minutes": "30"
+      "content": "Introduction of semiconductor materials & devicesare.",
+      "operation": "Lecture and review",
+      "assignments": "Preparation and Review",
+      "minutes": "200"
     },
     {
       "index": "2",
-      "content": "Introduction of surveying equipment used\nin practical training. Introduction of\ntape      measure, level and total station\nDistance surveying (1) Measure your stride",
-      "operation": "Outdoor practice and\n[Self -inspection]\n (active learning)",
-      "assignments": "",
-      "minutes": ""
+      "content": "Fundamentals of semiconductors (how diodes and transistors work).",
+      "operation": "Lecture and review",
+      "assignments": "Preparation and Review",
+      "minutes": "200"
     },
     {
       "index": "3",
-      "content": "Handling of the total station (1)Installation me\nthod, understanding the display , reading\nmethod. Distance surveying (2) Distance\nmeasurement using pacing, tape measure,\ntotal station and precision calculation",
-      "operation": "Outdoor practice and\n [Self -inspection]\n (active learning)",
-      "assignments": "Preparation: Prepare for\nthe handling of TS.\nReview: Review how to\norganize and calculate\ndistance measurement data,\nand create a report.",
-      "minutes": "30\n\n60"
+      "content": "Overview of the history of the development of LEDs (light-emitting diodes) and lasers and their use in society.",
+      "operation": "Lecture and review",
+      "assignments": "Preparation and Review",
+      "minutes": "200"
     },
     {
       "index": "4",
-      "content": "Handling of the total station (1)Installation\nmethod, understanding the display , reading\nmethod. Distance surveying (2) Distance\nmeasurement using pacing, tape measure,\ntotal station and precision calculation.",
-      "operation": "Outdoor practice and\n[Self-inspection]\n(Active learning)",
-      "assignments": "",
-      "minutes": ""
+      "content": "Special lecture on power semiconductors by a visiting lecturer.",
+      "operation": "Lecture and review",
+      "assignments": "Preparation, Review, and reports.",
+      "minutes": "200"
     },
     {
       "index": "5",
-      "content": "Basics of direct leveling (1) Recording\nmethod and calculation method in the field\nnotebook for rise and fall method and direct\nleveling, Electronic level handling and\nGeneral Standard Operation Specification for\nPublic Surveys.",
-      "operation": "Outdoor practice and\n [Self -inspection]\n (active learning)",
-      "assignments": "Review: Calculation method\nof misclosure between fore\nand back leveling.",
-      "minutes": "30\n\n60"
+      "content": "Overview on Integrated Circuits, CMOS, Scaling Laws, Moore's Law,",
+      "operation": "Lecture and review",
+      "assignments": "Preparation and Review.",
+      "minutes": "200"
     },
     {
       "index": "6",
-      "content": "Basics of direct leveling (1)Recording method\nand calculation method in the field notebook\nfor rise and fall method and direct leveling,\nElectronic level handling and General\nStandard Operation Specification for Public\nSurveys.",
-      "operation": "Outdoor training and\n self-check.\n(Active learning)",
-      "assignments": "",
+      "content": "History and Current Status of Integrated Circuits. Why are they called the brains of all industries?",
+      "operation": "Lecture and review",
+      "assignments": "Preparation and review.",
       "minutes": ""
     },
     {
       "index": "7",
-      "content": "Basics of direct leveling (2) Recording\nmethod and calculation method in the field\nnotebook for rise and fall method and direct\nleveling, Electronic level handling and\nGeneral Standard Operation Specification for\nPublic Surveys",
-      "operation": "Outdoor practice and\n [Self -inspection]\n (active learning)",
-      "assignments": "Review: Calculation method\nof misclosure between fore\nand back leveling.",
-      "minutes": "60"
-    },
-    {
-      "index": "8",
-      "content": "Basics of direct leveling (2)Recording metho\nand calculation method in the field notebook\nfor rise and fall method and direct leveling,\nElectronic level handling and General\nStandard Operation Specification for Public\nSurveys.",
-      "operation": "Outdoor training and\n self-check.\n(Active learning)",
-      "assignments": "",
-      "minutes": ""
-    },
-    {
-      "index": "9",
-      "content": "Basics of direct leveling (3)Recording method\nand calculation method in the field notebook\nfor rise and fall method and direct leveling,\nGeneral Standard Operation Specification for\nPublic  Surveys.",
-      "operation": "Outdoor practice and\n[Self -inspection]\n(active learning)",
-      "assignments": "Review: Review the rules of\nthe rise and fall method and\ncreate a report.",
-      "minutes": "60"
-    },
-    {
-      "index": "10",
-      "content": "Basics of direct leveling (3)Recording method\nand calculation method in the field notebook\nfor rise and fall method and direct leveling,\nElectronic level handling and General\nStandard Operation Specification for Public\nSurveys.",
-      "operation": "Outdoor practice and\n[Self -inspection]\n(active learning)",
-      "assignments": "",
-      "minutes": ""
-    },
-    {
-      "index": "11",
-      "content": "Basics of direct leveling (4) Recording\nmethod and calculation method in the field\nnotebook for rise and fall method and direct\nleveling, Electronic level handling and\nGeneral Standard Operation Specification for\nPublic Surveys.",
-      "operation": "Outdoor practice and\n[Self -inspection]\n (active learning)",
-      "assignments": "Review: Review the points to\nnote in the rise and fall\nmethod and create a report.",
-      "minutes": "60"
-    },
-    {
-      "index": "12",
-      "content": "Basics of direct leveling (4)Recording method\nand calculation method in the field notebook\nfor rise and fall method and direct leveling,\nElectronic level handling and General\nStandard Operation Specification for Public\nSurveys.",
-      "operation": "Outdoor practice and\n [Self -inspection]\n (active learning)",
-      "assignments": "",
-      "minutes": ""
-    },
-    {
-      "index": "13",
-      "content": "Application of direct leveling (1)Recording\nmethod and calculation method in the field\nnotebook for profile leveling method and\ndirect leveling, Automatic level handling,\nlongitudinal profile and General Standard\nOperation Specification for Public Surveys.",
-      "operation": "Outdoor training and\nself-check.\n(Active learning)",
-      "assignments": "Preparation: Prepare profile\nleveling\nReview: Review how to make\nfield notebooks.",
-      "minutes": "30\n\n60"
-    },
-    {
-      "index": "14",
-      "content": "Application of direct leveling (1) Recording\nmethod and calculation method in the field\nnotebook for profile leveling method and\ndirect leveling, Automatic level handling,\nlongitudinal profile and General Standard\nOperation Specification for Public Surveys.",
-      "operation": "Outdoor training and\nself-check.\n(Active learning)",
-      "assignments": "",
-      "minutes": ""
-    },
-    {
-      "index": "15",
-      "content": "Application of direct leveling (2) Recording\nmethod and calculation method in the field\nnotebook for profile leveling method and\ndirect leveling, Automatic level handling,\nlongitudinal profile and General Standard\nOperation Specification for Public Surveys.",
-      "operation": "Outdoor training and\nself-check.\n(Active learning)",
-      "assignments": "Review:　Review calculation\nmethod of misclosure between\nfore and back leveling and\nmisclosure.",
-      "minutes": "60"
-    },
-    {
-      "index": "16",
-      "content": "Application of direct leveling (2) Recording\nmethod and calculation method in the field\nnotebook for profile leveling method and\ndirect leveling, Automatic level handling,\nlongitudinal profile and General Standard\nOperation Specification for Public Surveys.",
-      "operation": "Outdoor training and\nself-check.\n(Active learning)",
-      "assignments": "",
-      "minutes": ""
-    },
-    {
-      "index": "17",
-      "content": "Application of direct leveling (3) Recording\nmethod and calculation method in the field\nnotebook for profile leveling method and\ndirect leveling, Automatic level handling,\nlongitudinal profile and General Standard\nOperation Specification for Public Surveys.",
-      "operation": "Outdoor training and\n self-check.\n(Active learning)",
-      "assignments": "Review: How error allocation\nis calculated and create a\nreport.",
-      "minutes": "60"
-    },
-    {
-      "index": "18",
-      "content": "Application of direct leveling (3) Recording\nmethod and calculation method in the field\nnotebook for profile leveling method and\ndirect leveling, Automatic level handling,\nlongitudinal profile and General Standard\nOperation Specification for Public Surveys.",
-      "operation": "Outdoor training and\nself-check.\n(Active learning)",
-      "assignments": "",
-      "minutes": ""
-    },
-    {
-      "index": "19",
-      "content": "Application of direct leveling (4) Recording\nmethod and calculation method in the field\nnotebook for profile leveling method and\ndirect leveling, Automatic level handling,\nlongitudinal profile and General Standard\nOperation Specification for Public Surveys.",
-      "operation": "Outdoor training and\nself-check.\n(Active learning)",
-      "assignments": "Review: Points to note in\nthe profile leveling and\ncreate a report.",
-      "minutes": "60"
-    },
-    {
-      "index": "20",
-      "content": "Application of direct leveling (4) Recording\nmethod and calculation method in the field\n notebook for profile leveling method and\ndirect leveling, Automatic level handling,\nlongitudinal profile and General Standard\nOperation Specification for Public Surveys.",
-      "operation": "Outdoor training and\nself-check.\n(Active learning)",
-      "assignments": "",
-      "minutes": ""
-    },
-    {
-      "index": "21",
-      "content": "Handling the total station (2) How to\ninstall, understanding the display, how to\nread data.\nMethod of angle surveying (1)Two cycle method\nof horizontal angle and notes, calculation\nmethod, handling Total Station, General\nStandard Operation Specification for Public\nSurveys and mathematical basic of Surveying.",
-      "operation": "Outdoor training and\nself-check.\n(Active learning)",
-      "assignments": "Preparations: How to install\nTS and procedure of two\ncycle method.\nReview: How to record and\ncalculate of level book.",
-      "minutes": "30\n\n60"
-    },
-    {
-      "index": "22",
-      "content": "Handling the total station (2)How to install\nunderstanding the display, how to read data.\nMethod of angle surveying  (1) Two cycle\nmethod of horizontal angle and notes,\ncalculation method, handling Total Station,\nGeneral Standard Operation Specification for\nPublic Surveys and mathematical basic of\nSurveying",
-      "operation": "Outdoor training and\nself-check.\n(Active learning)",
-      "assignments": "",
-      "minutes": ""
-    },
-    {
-      "index": "23",
-      "content": "Method of angle (2) Two cycle method of\nhorizontal angle and notes, calculation\nmethod, handling Total Station, General\nStandard Operation Specification for Public\nSurveys and mathematical basic of Surveying.",
-      "operation": "Outdoor training and\nself-check.\n(Active learning)",
-      "assignments": "Review: Review two cycle\nmethod, double angle\ndifference, calculation\nmethod of error and create\na report.",
-      "minutes": "60"
-    },
-    {
-      "index": "24",
-      "content": "Method of angle surveying (2) Two cycle\nmethod of horizontal angle and notes,\ncalculation method, handling Total Station,\nGeneral Standard Operation Specification for\nPublic Surveys and mathematical basic of\nSurveying",
-      "operation": "Outdoor training and\nself-check.\n(Active learning)",
-      "assignments": "",
-      "minutes": ""
-    },
-    {
-      "index": "25",
-      "content": "Method of angle surveying (3)Two cycle method\nof horizontal angle and notes, calculation\nmethod, handling Total Station, General\nStandard Operation Specification for Public\nSurveys and mathematical basic of Surveying.",
-      "operation": "Outdoor training and\nself-check.\n(Active learning)",
-      "assignments": "Review: Sine formula, cosine\nformula and create a\nreport.",
-      "minutes": "60"
-    },
-    {
-      "index": "26",
-      "content": "Method of angle surveying (3)Two cycle method\nof horizontal angle and notes, calculation\nmethod, handling Total Station, General\nStandard Operation Specification for Public\nSurveys and mathematical basic of Surveying.",
-      "operation": "Outdoor training and\nself-check.\n(Active learning)",
-      "assignments": "",
-      "minutes": ""
-    },
-    {
-      "index": "27",
-      "content": "Method of angle surveying (4)Two cycle method\nof horizontal angle and notes, calculation\nmethod, handling Total Station, General\nStandard Operation Specification for Public\nSurveys and mathematical basic of Surveying.",
-      "operation": "Outdoor practice and\n[Self -inspection]\n(active learning)",
-      "assignments": "Review: Notes important\npoint on angular surveys and\ncreate a report",
-      "minutes": "60"
-    },
-    {
-      "index": "28",
-      "content": "Method of angle surveying (4)Two cycle method\nof horizontal angle and notes, calculation\nmethod, handling Total Station, General\nStandard Operation Specification for Public\nSurveys and mathematical basic of Surveying.",
-      "operation": "Outdoor practice and\n[Self -inspection]\n(active learning)",
-      "assignments": "Self-check on all of\nsurveying practicum.",
-      "minutes": ""
-    },
-    {
-      "index": "29",
-      "content": "Preliminary class time for weather\nadjustment. (If the practical schedule is\nover or the training is not possible due to\nthe weather, you will learn the preliminary\nknowledge about the survey training and\nexercise II.)",
-      "operation": "Follow teacher's\ninstructions",
-      "assignments": "Self-inspection of practical\ntraining content",
-      "minutes": ""
-    },
-    {
-      "index": "30",
-      "content": "Preliminary class time for weather\nadjustment. (If the practical schedule is\nover or the training is not possible due to\nthe weather, you will learn the preliminary\nknowledge about the survey training and\nexercise II.)",
-      "operation": "Follow teacher's\ninstructions",
-      "assignments": "Self-inspection of practical\ntraining content",
+      "content": "The Future of Integrated Circuits (Toward Next Generation Artificial Intelligence and Quantum Computers)",
+      "operation": "Lecture and review",
+      "assignments": "Preparation, review and report .",
       "minutes": ""
     }
   ],
-  "rawText": "金沢工業大学　学習支援計画書　K513-01\n\n    日本語(Japanese)\n    || 英語(English)\n\n      学習支援計画書(シラバス)　検索システム\n\n          印刷\n\n          閉じる\n\n    Department of Civil and Environmental Engineering\n\n              授業科目区分\n              科目名\n              単位数\n              科目コード\n              開講時期\n              履修方法\n\n              Major ProgramMajor Courses\n\n                測量実習・演習Ⅰ\n                Surveying Practicum / Exercises I\n\n              2\n              K513-01\n\n                2026年度\n\n                2nd year 1st semester\n\n              修学規程第4条を参照\n\n              担当教員名\n\n                  NAKANO Kazuya, HASHIMOTO Takuya, TOKUDA Yoshitaka, KONAKA Masamichi\n\n        ＊印は、実務経験のある教員を示しています。\n\n              授業科目の学習・教育目標\n\n              キーワード\n              学習・教育目標\n\n              1.Distance, Degree, Bearing\n2.Error, Precision\n3.Total Station\n4.Distance survey, Control point survey\n5.Declination survey, Leveling survey\n\n              (1) Practice the surveying methods learned in Surveying I and Surveying II\n(2) Practice distance, control point, leveling and declination surveys and reports.\n(3) Reports are equivalent to company reports. Students will learn how to create data in required formats.\n(4) Students who master the topics in Surveying I/II and Surveying Practicum I/II will have the skills necessary for an Assistant Surveyor national license.\n\n              授業の概要および学習上の助言\n\n              Field training is implemented as a practice of active learning and [self-inspection], which is \"comprehensive ability\" learning. 1. Distance surveying: \"Learn the basics of distance measurement.\" pacing, cloth tape measure, steel tape measure and distance measurement by total station. 2. Leveling: Learn how to handle automatic levels and electronic levels. Conduct small-scale direct leveling to understand the person. Understand survey error adjustments. 3. Handling the total station: Learn how to use the total station (TS) and how to handle equipment using the built-in programs. 4. Angular survey: Learn the basics of horizontal angle observation (double observation) by the single measurement method using a total station. With the measurement of eccentric elements as the subject. Then conduct angle observations around Building 2 and 3, and practice repeatedly so that observations can be made accurately. 5. (Advice): Moodle teaching materials (Surveying I, II) are useful for practical training and writing reports, so please refer to them. Please note that the schedule may change due to the weather, as the training will be held outdoors.\n\n              教科書および参考書・リザーブドブック\n\n              Reference the Japanese syllabus.\n\n              履修に必要な予備知識や技能\n\n              In this course, students learn through practical skills the contents of the lectures learned in \"Surveying I\". Therefore, the contents of the classroom lectures (especially It is necessary to fully understand the advanced courses such as \"Surveying II\", \"Surveying Practice/Exercise II\", \"Spatial Information Technology\", etc. There is in addition, there are related subjects such as \"Environmental Civil Engineering Experiments and Exercises B\" and \"Exercises in Geoinformatics\".\n\n              学生が達成すべき行動目標\n\n              No.\n              学科教育目標（記号表記）\n\n                ①\n                L,M\n                Students can handle various surveying instruments (0.1L,0.1M)\n\n                ②\n                L,M\n                Students understand each type of survey, and can convert survey results into drawings and reports. (0.1L,0.1M)\n\n                ③\n                L,M\n                Students can make presentations on survey results. (0.1L,0.1M)\n\n                ④\n                M\n                Students deepen knowledge of spatial information measurement and social infrastructure maintenance. (0.1L,0.1M)\n\n                ⑤\n                M\n                Students acquire ethical sense as an engineer through practical training. (0.2M)\n\n                ⑥\n\n              達成度評価\n\n              評価方法\n\n              試験\n    ",
-  "courseId": "2026:spring:K513-01:0:886",
+  "rawText": "金沢工業大学 学習支援計画書 G522-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\n(Provided by all courses)\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     (Provided by all courses)\nLiberal Arts Courses\nTransdisciplinary Learning\n専門教養特別科目(教養としての半導体技術入門)\nSpecial Subject - Specialties Education(Introduction to Semiconductor Technology)  1 G522-01  2024年度\n 1st year 2nd semester\n2nd year 1st semester  修学規程第4条を参照\n    担当教員名\n YAMAGUCHI Atsushi, IDA Jiro\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Semiconductor 2.IC, LSI 3.Optical devices (LED, laser diode) 4.Power devices 5.Diodes and Transistors  Students will study the basic technology of semiconductors. More specifically, they will learn about optical devices, power devices, integrated circuits, and other fundermental devices made from semiconductors. Their applications, history, current status, and future of semiconductor devices will be lectured.\n    授業の概要および学習上の助言   Students will learn general knowledge of semiconductor technology, including n-type and p-type semiconductors, diodes and transistors, microfabrication techniques, optoelectronics (optical semiconductors), power semiconductors, and integrated circuits. For integrated circuits, learn about their history, current status, and future. They will learn the meaning of MOS, scaling laws, Moore's law, etc. The future of next-generation artificial intelligence is also a topic of discussion.\n    教科書および参考書・リザーブドブック   N/A\n    履修に必要な予備知識や技能   This is a liberal arts course for all departments, so there are no specific prior knowledge or skills required.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① B To understand the content of media reports (newspaper articles and news) on semiconductors.   ② B To understand the outline of basic elements such as diodes and transistors.   ③ B To have an overview of optical and power semiconductors.   ④ B To explain what integrated circuits are.   ⑤ B To explain scaling laws and Moore's Law.   ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 0 0 100 0 0 0 0 100     指標と評価割合 総合評価割合 0 0 100 0 0 0 0 100   総合力指標 知識を取り込む力 0 0 100 0 0 0 0 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ①      ②     ③     ④     ⑤     ⑥     クイズ\n小テスト ①      ②     ③     ④     ⑤     ⑥     レポート ① レ Students will be asked to submit a report on the content of the first half of the class (semiconductor fundamentals to individual semiconductors) and the second half of the class (integrated circuits) to assess their understanding. Also, students will be asked to submit reports on the special lectures given by visiting lecturers.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ①      ②     ③     ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     Educated understanding of semiconductors in general. The student will have an understanding of individual semiconductors (e.g. diodes, transistors, etc.), logic integrated circuits, memory integrated circuits, etc. To be able to explain in one's own way why integrated circuits have come to be called the brains of all industries. Explain in one's own way why integrated circuits have come to be known as the brains of entire industries. To understand the main points about semiconductor-related media articles (newspaper articles, or TV news).\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習課題に要する標準的な時間を記載してあります。日々の自学自習時間全体としては、各授業に応じた時間(例えば2単位科目の場合、予習2時間・復習2時間/週)を取るよう努めてください。詳しくは教員の指導に従って下さい。     授業明細   回数 学習内容 授業の運営方法 学習課題(予習・復習) 時間:分※     1  Introduction of semiconductor materials & devicesare. ",
+  "courseId": "2024:fall:G265-01:0:886",
   "language": "en"
 }
