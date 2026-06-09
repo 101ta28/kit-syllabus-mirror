@@ -34,9 +34,19 @@
 
 このプロトタイプは親ディレクトリにある取得済みファイル `../europa-syllabus-search-detail.json` と、Chrome DevTools Protocol 経由で取得した `data/syllabus-details-cache.json` / `data/syllabus-details-cache-en.json` からデータを生成します。検索結果 1056 件は一覧として取り込み、日本語詳細本文は 1056 件すべてを `public/details/*.json` に、英語詳細本文は取得できた 1011 件を `public/details-en/*.json` に分割して生成しています。
 
+検索結果一覧を再取得する場合:
+
+    bun run fetch-search-results
+    bun run prepare-data
+
+年度を指定する場合:
+
+    $env:COURSE_YEAR='2025'; bun run fetch-search-results; Remove-Item Env:COURSE_YEAR
+
 詳細を再取得する場合:
 
-    bun run scrape-details
-    $env:LANGUAGE_TYPE='1'; bun run scrape-details
+    $env:FORCE='1'; bun run scrape-details:http; Remove-Item Env:FORCE
+    $env:LANGUAGE_TYPE='1'; $env:FORCE='1'; bun run scrape-details:http
     Remove-Item Env:LANGUAGE_TYPE
+    Remove-Item Env:FORCE
     bun run prepare-data

@@ -4,8 +4,10 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "fetch-search-results": "node scripts/fetch-search-results.mjs",
     "prepare-data": "node scripts/prepare-data.mjs",
     "scrape-details": "node scripts/scrape-details-cdp.mjs",
+    "scrape-details:http": "node scripts/scrape-details-http.mjs",
     "dev": "vite",
     "build": "tsc -b && vite build",
     "preview": "vite preview"
@@ -13,6 +15,7 @@
   "dependencies": {
     "@vitejs/plugin-react": "^5.0.0",
     "budoux": "^0.8.4",
+    "linkedom": "^0.18.12",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "typescript": "^5.8.0",

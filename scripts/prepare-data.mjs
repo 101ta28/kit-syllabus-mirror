@@ -298,6 +298,8 @@ try {
   englishDetails = [];
 }
 
+await fs.rm(detailsOutputDir, { recursive: true, force: true });
+await fs.rm(englishDetailsOutputDir, { recursive: true, force: true });
 await fs.mkdir(detailsOutputDir, { recursive: true });
 await fs.mkdir(englishDetailsOutputDir, { recursive: true });
 const validDetails = [];
