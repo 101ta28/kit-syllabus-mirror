@@ -1,0 +1,316 @@
+{
+  "sourceIndex": 10335,
+  "sourceUrl": "/opsyllabus/kitos0110/164/1",
+  "importedAt": "2026-06-12T08:02:13.741Z",
+  "title": "機械設計統合演習",
+  "subtitle": "Machine Design Project",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "2",
+  "term": "2023年度\n 3rd year 2nd semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "SAITO Hiroshi",
+    "SETO Masahiro",
+    "SOGO Norio",
+    "HAYASHI Akio",
+    "SAKAMOTO Shigehiko",
+    "SEGAWA Akio",
+    "KAWANISHI Masahiro"
+  ],
+  "keywords": [
+    "3D-CAD 2.Mechanical design, strength and reliability design 3.Manufacturing and assembly 4.3-axis 2-stage helical gear reducer 5.Regional cooperation"
+  ],
+  "educationalGoal": "Students will learn about machine design and manufacturing processes and create design plans and drawings that meet the required specifications. In this course, students will learn the design and engineering drawing abilities using 3D-CAD through the practices of modeling mechanical structures assembled with multiple part models.",
+  "advice": "The main mechanism studied in this course is a three-axis two-stage helical gear reducer. We will use it to acquire the ability to systematically design machines through comprehensive exercises on modeling and assembly of mechanical element parts. designing function, performance, accuracy, strength, and reliability of design. utilizing 3D-CAD system for embodiment of machine elements. Basically, lectures and exercises are held weekly. However, the design and drafting of assigned tasks will not be completed in the practice time during the lecture, so preparation and review as homework will be necessary. In addition, students will use the basics of Solid Edge that were taught in “Mechanical Elements Design”, “Mechanical Drawing I”, “Mechanical Drawing II” and “Computer Aided Design and Modeling” that they attended before taking this course. It is assumed that you have mastered the operating and reference methods of the JIS drawing textbook, so please check this material carefully before taking this course. The topics covered in this course are as follows: (1) Mechanical design and design process improvement; (2) Mechanical drawing using 3D-CAD and 2D-CAD; (3) 3D-CAD mechanical assembly; (4) Analytical calculation of mechanical design; and (5) Self-inspection and third-party evaluation of mechanical design problems. A 64-bit version Windows PC is necessary for use of a CAD software.",
+  "books": "Textbooks: New JIS mechanical drawing (5th edition) , Morita Kita Publishing (in Japanese) Mechanical Drawing -operation method using Solid Edge- ,Kanazawa Institute of Technology (in Japanese) Helical Reducer Design, Power-sha Publishing (in Japanese) Mechanical Design of Helical Reducer (Exercise), Kanazawa Institute of Technology (in Japanese) Reference books: None Reserved books: None",
+  "requiredKnowledge": "This course is intended as a design and drafting course in the Department of Mechanical Engineering in accordance with the courses of Mechanical Principles/Exercises, Mechanical Drawing I, Mechanical Drawing II, Mechanical Element Design, and Computer Aided Design and Modeling. Therefore, to participate in this course, the design and CAD drawing abilities acquired in these courses are required. Before attending this course, it is recommended that you review the content acquired in previous courses. Persistent effort is necessary.",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "D,E,G,H,J,L,N,O",
+      "body": "Be able to understand the implementation of mechanical design, and use drawings to explain design images."
+    },
+    {
+      "index": "②",
+      "type": "D,E,G,H,J,L,N,O",
+      "body": "Be able to carry out design calculations, such as basic design and detailed design of components."
+    },
+    {
+      "index": "③",
+      "type": "D,E,G,H,J,L,N,O",
+      "body": "Be able to model a mechanism design and calculate its strength using a computer."
+    },
+    {
+      "index": "④",
+      "type": "D,E,G,H,J,L,N,O",
+      "body": "Be able to create machine designs that consider manufacturing methods, according to the machine drafting rules."
+    },
+    {
+      "index": "⑤",
+      "type": "D,E,G,H,J,L,N,O",
+      "body": "Be able to conceive new design solutions by integrating specialized fields of mechanical engineering."
+    },
+    {
+      "index": "⑥",
+      "type": "G",
+      "body": "Be able to learn the latest technology from local engineers, and organize and discuss assignments."
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "15",
+        "0",
+        "0",
+        "15",
+        "60",
+        "0",
+        "10",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "15",
+        "0",
+        "0",
+        "15",
+        "60",
+        "0",
+        "10",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "15",
+        "0",
+        "0",
+        "15",
+        "60",
+        "0",
+        "10",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションと\nリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "(1) Understand the substance and shape of the design according to the instructions and prepare 3D-CAD and 2D-CAD part models by applying it to your own design conditions. (2) Reflect and feedback the results of structural calculations and analytical approaches for your own design. (3) Perform drafting while fully avoiding shapes that cannot be manufactured or are difficult to form. (4) In designing according to the instructions, it is possible to derive a design solution. (5) Understand the design and problem-solving techniques presented by local engineers.",
+    "standard": "(1) Understand the content and shape of the design according to the instructions and prepare 3D-CAD and 2D-CAD part models by applying it to your own design conditions. (2) Reflect the results of structural calculations and analytical approaches for your own design. (3) Perform drafting while avoiding shapes that cannot be manufactured or are difficult to form. (4) In designing according to instructions, derive design solutions. (5) Understand the design and problem-solving techniques presented by local engineers."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Outline of 3-stage 2-axis helical gear reducer. Outline of the design specifications. Perform modeling of bearing parts. Review design calculations.",
+      "operation": "Lecture, Q&A and Practice ・ Understand the mechanis m of 3-stage 2-axis helica l gear reducer.",
+      "assignments": "Preparation: ・ Make sure that CAD software is ready for use. ・ Understand the relationship between the educational goals of the department and this subject. Review: ・ Progress modeling 3D parts.",
+      "minutes": "30 60"
+    },
+    {
+      "index": "2",
+      "content": "Perform modeling of bearing parts. Review design calculations.",
+      "operation": "Practice and Q&A ・ Progress modeling of be aring parts.",
+      "assignments": "Preparation and Review: ・ Progress modeling 3D parts.",
+      "minutes": "60 60"
+    },
+    {
+      "index": "3",
+      "content": "Perform modeling of bearing parts. Review design calculations.",
+      "operation": "Lecture, Practice and Q&A ・ Progress modeling of lo wer casing. ・ Progress modeling of be aring ring.",
+      "assignments": "Preparation and Review: ・ Progress modeling 3D parts.",
+      "minutes": "60 60"
+    },
+    {
+      "index": "4",
+      "content": "Perform modeling of bearing parts. Review design calculations.",
+      "operation": "Lecture, Practice and Q&A ・ Progress modeling of be aring ring. ・ Progress modeling of be aring cap.",
+      "assignments": "Preparation and Review: ・ Progress modeling 3D parts.",
+      "minutes": "60 60"
+    },
+    {
+      "index": "5",
+      "content": "Perform modeling of bearing parts. Review design calculations.",
+      "operation": "Lecture, Practice and Q&A ・ Progress modeling of be aring ring. ・ Progress modeling of be aring cap.",
+      "assignments": "Preparation and Review: ・ Progress modeling 3D parts.",
+      "minutes": "60 60"
+    },
+    {
+      "index": "6",
+      "content": "Assembly all parts modeled so far. Submit an assembly model.",
+      "operation": "Practice and Q&A ・ Assembly all 3D-CAD mod els, including axes, gears and bearings modelled in Computer Aided Design and Modeling. ・ Submit an assembly mode l as a design solution.",
+      "assignments": "Preparation: ・ Progress assemblying of all parts. Review: ・ Prepare the practical exam.",
+      "minutes": "60 60"
+    },
+    {
+      "index": "7",
+      "content": "Practical exam",
+      "operation": "Presentation ・ Confirm comprehension o f machine desin, mechanica l desing and CAD.",
+      "assignments": "Preparation: ・ Prepare the practical exam.",
+      "minutes": ""
+    },
+    {
+      "index": "8",
+      "content": "Perform modeling of lower casing. Review design calculations.",
+      "operation": "Lecture, Practice and Q&A ・ Progress the 3D-CAD mod eling of lower casing. ・ Explain the report of s tress analysis in axes.",
+      "assignments": "Preparation and Review: ・ Progress modeling of lower casing.",
+      "minutes": "60 60"
+    },
+    {
+      "index": "9",
+      "content": "Perform modeling of lower casing. Review design calculations.",
+      "operation": "Lecture, Practice and Q&A ・ Progress the 3D-CAD mod eling of lower casing.",
+      "assignments": "Preparation and Review: ・ Progress modeling of lower casing.",
+      "minutes": "60 60"
+    },
+    {
+      "index": "10",
+      "content": "Perform modeling of lower casing. Assembly all parts modeled so far. Perform 2D-CAD drawing of specified parts.",
+      "operation": "Lecture, Practice and Q&A ・ Progress the 3D-CAD mod eling of lower casing. ・ Start 2D-CAD drawing.",
+      "assignments": "Preparation and Review: ・ Review the design calculati on and 3D-CAD model. ・ Perform 2D-CAD drawing.",
+      "minutes": "60 60"
+    },
+    {
+      "index": "11",
+      "content": "Assembly all parts modeled so far. Perform 2D-CAD drawing of specified parts.",
+      "operation": "Practice and Q&A ・ Assembly 3D-CAD parts. ・ Perform 2D-CAD drawing.",
+      "assignments": "Preparation: ・ Compare between calculation solutions and dimentions of 3 D-CAD models made. Review: ・ Progress assemblying of all parts. ・ Perform 2D-CAD drawing.",
+      "minutes": "60 60"
+    },
+    {
+      "index": "12",
+      "content": "Assembly all parts modeled so far. Perform 2D-CAD drawing of specified parts.",
+      "operation": "Practice and Q&A ・ Assembly 3D-CAD parts. ・ Perform 2D-CAD drawing.",
+      "assignments": "Preparation: ・ Compare between calculation solutions and dimentions of 3 D-CAD models made. Review: ・ Progress assemblying of all parts. ・ Perform 2D-CAD drawing.",
+      "minutes": "60 60"
+    },
+    {
+      "index": "13",
+      "content": "Review and Total practice",
+      "operation": "Practice and Q&A",
+      "assignments": "Preparation: ・ Prepare the final achieveme nt test.",
+      "minutes": ""
+    },
+    {
+      "index": "14",
+      "content": "Final achievement test and explanations.",
+      "operation": "Test ・ Understand the results of achievement confirmatio n test, and confirm the achievement goal of this course.",
+      "assignments": "Preparation: ・ Prepare the final achieveme nt test.",
+      "minutes": ""
+    },
+    {
+      "index": "15",
+      "content": "Self-check for reviewing achievement.",
+      "operation": "Overall commentary and evaluation",
+      "assignments": "Review: ・ Recognize your knowledge and abilities, including knowledge gaps, and restudy course materials as necessary.",
+      "minutes": ""
+    }
+  ],
+  "rawText": "金沢工業大学 学習支援計画書 E022-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Mechanical Engineering\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n機械設計統合演習\nMachine Design Project  2 E022-01  2023年度\n 3rd year 2nd semester  修学規程第4条を参照\n    担当教員名\n SAITO Hiroshi, SETO Masahiro, SOGO Norio, HAYASHI Akio, SAKAMOTO Shigehiko, SEGAWA Akio, KAWANISHI Masahiro\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.3D-CAD 2.Mechanical design, strength and reliability design 3.Manufacturing and assembly 4.3-axis 2-stage helical gear reducer 5.Regional cooperation  Students will learn about machine design and manufacturing processes and create design plans and drawings that meet the required specifications. In this course, students will learn the design and engineering drawing abilities using 3D-CAD through the practices of modeling mechanical structures assembled with multiple part models.\n    授業の概要および学習上の助言   The main mechanism studied in this course is a three-axis two-stage helical gear reducer. We will use it to acquire the ability to systematically design machines through comprehensive exercises on modeling and assembly of mechanical element parts. designing function, performance, accuracy, strength, and reliability of design. utilizing 3D-CAD system for embodiment of machine elements. Basically, lectures and exercises are held weekly. However, the design and drafting of assigned tasks will not be completed in the practice time during the lecture, so preparation and review as homework will be necessary. In addition, students will use the basics of Solid Edge that were taught in “Mechanical Elements Design”, “Mechanical Drawing I”, “Mechanical Drawing II” and “Computer Aided Design and Modeling” that they attended before taking this course. It is assumed that you have mastered the operating and reference methods of the JIS drawing textbook, so please check this material carefully before taking this course. The topics covered in this course are as follows: (1) Mechanical design and design process improvement; (2) Mechanical drawing using 3D-CAD and 2D-CAD; (3) 3D-CAD mechanical assembly; (4) Analytical calculation of mechanical design; and (5) Self-inspection and third-party evaluation of mechanical design problems. A 64-bit version Windows PC is necessary for use of a CAD software.\n    教科書および参考書・リザーブドブック   Textbooks: New JIS mechanical drawing (5th edition) , Morita Kita Publishing (in Japanese) Mechanical Drawing -operation method using Solid Edge- ,Kanazawa Institute of Technology (in Japanese) Helical Reducer Design, Power-sha Publishing (in Japanese) Mechanical Design of Helical Reducer (Exercise), Kanazawa Institute of Technology (in Japanese) Reference books: None Reserved books: None\n    履修に必要な予備知識や技能   This course is intended as a design and drafting course in the Department of Mechanical Engineering in accordance with the courses of Mechanical Principles/Exercises, Mechanical Drawing I, Mechanical Drawing II, Mechanical Element Design, and Computer Aided Design and Modeling. Therefore, to participate in this course, the design and CAD drawing abilities acquired in these courses are required. Before attending this course, it is recommended that you review the content acquired in previous courses. Persistent effort is necessary.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① D,E,G,H,J,L,N,O Be able to understand the implementation of mechanical design, and use drawings to explain design images.   ② D,E,G,H,J,L,N,O Be able to carry out design calculations, such as basic design and detailed design of components.   ③ D,E,G,H,J,L,N,O Be able to model a mechanism design and calculate its strength using a computer.   ④ D,E,G,H,J,L,N,O Be able to create machine designs that consider manufacturing methods, according to the machine drafting rules.   ⑤ D,E,G,H,J,L,N,O Be able to conceive new design solutions by integrating specialized fields of mechanical engineering.   ⑥ G Be able to learn the latest technology f",
+  "sourceYear": "2023",
+  "originalSourceIndex": 164,
+  "courseId": "2023:fall:E005-01:0:10335",
+  "language": "en"
+}

@@ -1,0 +1,293 @@
+{
+  "sourceIndex": 7874,
+  "sourceUrl": "/opsyllabus/kitos0110/377/1",
+  "importedAt": "2026-06-12T08:01:15.476Z",
+  "title": "数値処理",
+  "subtitle": "Numerical Computing",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "2",
+  "term": "2020年度\n 2nd year 2nd semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [],
+  "keywords": [
+    "Nonlinear Equations 2.Linear Equations 3.Data Fitting 4.Numerical Integration 5.Ordinary Differential Equations"
+  ],
+  "educationalGoal": "After taking this course, students should be able to: 1. Explain numerical algorithms 2. Use numerical algorithms appropriately 3. Evaluate the accuracy of the approximate solution",
+  "advice": "This is a basic course on numerical computation. We will cover the following topics: 1. Nonlinear equations 2. Systems of linear equations 3. Data fitting 4. Numerical integration (quadrature) 5. Initial value problems for ordinary differential equations Students are expected to participate in class using a PC, textbook, and notebook.",
+  "books": "Nara et al.: \"Numerical Computation (in Japanese)\", Asakura Publishing, ISBN 978-4-254-22732-1 (1991).",
+  "requiredKnowledge": "Basic knowledge of linear algebra is preferred.",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "J,N",
+      "body": "Be able to explain numerical algorithms."
+    },
+    {
+      "index": "②",
+      "type": "J,N",
+      "body": "Be able to solve equations by using numerical algorithms appropriately."
+    },
+    {
+      "index": "③",
+      "type": "J,N",
+      "body": "Be able to evaluate the accuracy of the approximate solution."
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "40",
+        "0",
+        "60",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "40",
+        "0",
+        "60",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "40",
+        "0",
+        "60",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションと\nリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "(1) Fully understand numerical algorithms, use them efficiently, and evaluate the accuracy of the solution appropriately. (2) Explain how to derive formulas.",
+    "standard": "(1) Generally understand numerical algorithms and use them. (2) Remember the formulas."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Course introduction Nonlinear equations (1) (based on intermediate value theorem) Bisection method",
+      "operation": "Lecture, practice, and self-check",
+      "assignments": "Review important points of bisection method through the report.",
+      "minutes": "60"
+    },
+    {
+      "index": "2",
+      "content": "Nonlinear equations (2) (based on fixed point theorem) Newton-Raphson method",
+      "operation": "Lecture, practice, and self-check",
+      "assignments": "Review important points of the Newton-Raphson method through the report.",
+      "minutes": "60"
+    },
+    {
+      "index": "3",
+      "content": "Systems of linear equations (1) (direct methods) Gaussian elimination method LU-factorization with partial pivoting",
+      "operation": "Lecture, practice, and self-check",
+      "assignments": "Review important points of LU-factorization through the report.",
+      "minutes": "120"
+    },
+    {
+      "index": "4",
+      "content": "Systems of linear equations (2) (iteration methods) Jacobi method Gauss-Seidel method",
+      "operation": "Lecture, practice, and self-check",
+      "assignments": "Review important points of the Jacobi method and Gauss-Seidel method through the report.",
+      "minutes": "60"
+    },
+    {
+      "index": "5",
+      "content": "Midterm Exam (50 min) Review",
+      "operation": "Exam and review",
+      "assignments": "Prepare for the exam.",
+      "minutes": "120"
+    },
+    {
+      "index": "6",
+      "content": "Data fitting (1) Linear least squares",
+      "operation": "Lecture, practice, and self-check",
+      "assignments": "Review important points of linear least squares through the report.",
+      "minutes": "120"
+    },
+    {
+      "index": "7",
+      "content": "Data fitting (2) Lagrange interpolation formula",
+      "operation": "Lecture, practice, and self-check",
+      "assignments": "Review important points of the Lagrange interpolation formula through the report.",
+      "minutes": "120"
+    },
+    {
+      "index": "8",
+      "content": "Data fitting (3) Newton’s divided difference Newton interpolation formula",
+      "operation": "Lecture, practice, and self-check",
+      "assignments": "Review important points of the Newton interpolation formula through the report.",
+      "minutes": "120"
+    },
+    {
+      "index": "9",
+      "content": "Data fitting (4) Runge's phenomenon Cubic spline",
+      "operation": "Lecture, practice, and self-check",
+      "assignments": "Review important points of natural cubic splines through the report.",
+      "minutes": "120"
+    },
+    {
+      "index": "10",
+      "content": "Numerical integration (1) (Newton-Cotes quadrature formula) Trapezoid rule Simpson's rule",
+      "operation": "Lecture, practice, and self-check",
+      "assignments": "Review important points of the trapezoid rule and Simpson's rule through the report.",
+      "minutes": "60"
+    },
+    {
+      "index": "11",
+      "content": "Numerical integration (2) (Gaussian quadrature) Gauss-Legendre quadrature",
+      "operation": "Lecture, practice, and self-check",
+      "assignments": "Review important points of Gauss-Legendre quadrature through the report.",
+      "minutes": "90"
+    },
+    {
+      "index": "12",
+      "content": "IVPs for ODEs (1) Euler's method Adams-Bashforth methods (1)",
+      "operation": "Lecture, practice, and self-check",
+      "assignments": "Review important points of Euler's method and AB methods through the report.",
+      "minutes": "90"
+    },
+    {
+      "index": "13",
+      "content": "IVPs for ODEs (2) Adams-Bashforth methods (2) Runge-Kutta methods",
+      "operation": "Lecture, practice, and self-check",
+      "assignments": "Review important points of the AB methods and RK methods through the report.",
+      "minutes": "90"
+    },
+    {
+      "index": "14",
+      "content": "Final Exam (50 min) Review",
+      "operation": "Exam and review",
+      "assignments": "Prepare for the exam.",
+      "minutes": "120"
+    },
+    {
+      "index": "15",
+      "content": "Reflection class Self-evaluation",
+      "operation": "Lecture, reflection, and self-evaluation",
+      "assignments": "",
+      "minutes": "10"
+    }
+  ],
+  "rawText": "金沢工業大学 学習支援計画書 E519-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Information and Computer Science\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n数値処理\nNumerical Computing  2 E519-01  2020年度\n 2nd year 2nd semester  修学規程第4条を参照\n    担当教員名\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Nonlinear Equations 2.Linear Equations 3.Data Fitting 4.Numerical Integration 5.Ordinary Differential Equations  After taking this course, students should be able to: 1. Explain numerical algorithms 2. Use numerical algorithms appropriately 3. Evaluate the accuracy of the approximate solution\n    授業の概要および学習上の助言   This is a basic course on numerical computation. We will cover the following topics: 1. Nonlinear equations 2. Systems of linear equations 3. Data fitting 4. Numerical integration (quadrature) 5. Initial value problems for ordinary differential equations Students are expected to participate in class using a PC, textbook, and notebook.\n    教科書および参考書・リザーブドブック   Nara et al.: \"Numerical Computation (in Japanese)\", Asakura Publishing, ISBN 978-4-254-22732-1 (1991).\n    履修に必要な予備知識や技能   Basic knowledge of linear algebra is preferred.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① J,N Be able to explain numerical algorithms.   ② J,N Be able to solve equations by using numerical algorithms appropriately.   ③ J,N Be able to evaluate the accuracy of the approximate solution.   ④     ⑤     ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 40 0 60 0 0 0 0 100     指標と評価割合 総合評価割合 40 0 60 0 0 0 0 100   総合力指標 知識を取り込む力 40 0 60 0 0 0 0 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ There are two exams in this course. One is the midterm exam and the other is the final exam. Both of them are written exams. No textbook or calculator is allowed for these exams. The instructor evaluates whether students understand algorithms for numerical computations through these two exams.   ② レ   ③ レ   ④     ⑤     ⑥     クイズ\n小テスト ①      ②     ③     ④     ⑤     ⑥     レポート ① レ More than 10 reports will be assigned. Some reports involve problems that can be solved by hand. In such reports, derivations of formulas or explanations of reasons are required. However, some reports involve problems that are a little bit difficult to solve without a computer. These may require simple computer programming or the aid of certain software.    ② レ   ③ レ   ④     ⑤     ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ①      ②     ③     ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     (1) Fully understand numerical algorithms, use them efficiently, and evaluate the accuracy of the solution appropriately. (2) Explain how to derive formulas.  (1) Generally understand numerical algorithms and use them. (2) Remember the formulas.\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習課題に要する標準的な時間を記載してあります。日々の自学自習時間全体としては、各授業に応じた時間(例えば2単位科目の場合、予習2時間・復習2時間/週)を取るよう努めてください。詳しくは教員の指導に従って下さい。     授業明細   回数 学習内容 授業の運営方法 学習課題(予習・復習) 時間:分※     1  Course introduction Nonlinear equations (1) (based on intermediate value theorem) Bisection method Lecture, practice, and self-check Review important points of bisection method through the report.  60   2  Nonlinear equations (2) (based on fixed point theorem) Newton-Raphson method Lecture, practice, and self-check Review important points of the Newton-Raphson method through the report.  60   3  Systems of linear equations (1) (direct methods) Gaussian elimination method LU-factorization with partial pivoting Lecture, practice, and self-check ",
+  "sourceYear": "2020",
+  "originalSourceIndex": 377,
+  "courseId": "2020:full-year:E924-08:0:7874",
+  "language": "en"
+}

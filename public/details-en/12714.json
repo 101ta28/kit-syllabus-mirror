@@ -1,0 +1,305 @@
+{
+  "sourceIndex": 12714,
+  "sourceUrl": "/opsyllabus/kitos0110/631/1",
+  "importedAt": "2026-06-12T08:02:51.408Z",
+  "title": "鉄筋コンクリート構造",
+  "subtitle": "Reinforced Concrete Structure",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "2",
+  "term": "2025年度\n 3rd year 1st semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "YAMAGISHI Kuniaki"
+  ],
+  "keywords": [
+    "Reinforced concrete 2.Structural analysis 3.Section design calculation 4.E-Leaning 5.Regional cooperation"
+  ],
+  "educationalGoal": "Students will: (1) learn basic structural design of RC structures involving cross section calculations. (2) learn the concept and procedures of structural design through a design exercise for a small-scale building in a snowy region. (3) learn construction methods and structural safety for RC structures.",
+  "advice": "This is a specialty course in structural engineering. We will cover the following topics: 1. Characteristics of RC structures 2. Basics of structural design 3. Mechanical properties of materials (reinforcing bar, concrete) 4. Beam design 5. Column design 6. Shear design of RC structures and design of RC beam-column joints 7. Design of shear walls and slabs 8. Bonding, anchorage, and joints",
+  "books": "Reinforced concrete structure (in Japanese) writen by Kuniaki Yamagishi Publisher: Kanazawa Institute of Technology",
+  "requiredKnowledge": "The contents of the subjects “Structural mechanics I ”and “Structural mechanics II” must be understood as basic knowledge of RC structures. Since this subject has a direct connection with “Structural Design for Architecture”[Course name unified with that in #23 syllabi of this job. Please confirm here and there.] and “Architectural Integrated Exercises B”, credit for these classes is recommended.",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "N",
+      "body": "Students understand the basics of structural design for RC structures."
+    },
+    {
+      "index": "②",
+      "type": "N",
+      "body": "Students can design RC beams."
+    },
+    {
+      "index": "③",
+      "type": "N",
+      "body": "Students can design RC columns."
+    },
+    {
+      "index": "④",
+      "type": "N",
+      "body": "Students can perform shear design for RC structures and design RC beam-column joints."
+    },
+    {
+      "index": "⑤",
+      "type": "N",
+      "body": "Students can design shear walls."
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "40",
+        "0",
+        "50",
+        "0",
+        "0",
+        "0",
+        "10",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "40",
+        "0",
+        "50",
+        "0",
+        "0",
+        "0",
+        "10",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "40",
+        "0",
+        "50",
+        "0",
+        "0",
+        "0",
+        "10",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションと\nリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "Students fully understand RC structural design flow and the derivation of calculation equations, and perform preparation calculations and cross section calculations with no mistakes.",
+    "standard": "Students understand RC structural design flow and the meaning of the calculation equations, and can execute preparation calculation and cross section calculation with almost no mistakes."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Course introduction Definition and features of RC structure Basics of structural design -Flow of structural design and planning",
+      "operation": "Lecture, Q&A, and self- reflection",
+      "assignments": "Review basic knowledge of RC Preparation: understand the hand-out distributed in the first lecture and characteristics of your allotted building",
+      "minutes": "240"
+    },
+    {
+      "index": "2",
+      "content": "Basics of structural design -Preparation calc. (load) -Preparation calc. (max. section force with simple boundary conditions and axial forces in columns)",
+      "operation": "Lecture, Q&A, and self- reflection",
+      "assignments": "Review loads, maximum section forces in beam with simple boundary conditions, and axial forces in columns. Preparation: understand eismic shear force and relative stiffness ratio",
+      "minutes": "240"
+    },
+    {
+      "index": "3",
+      "content": "Basics of structural design -Preparation calc. (story shear force and relative stiffness ratio) -Integrated learning",
+      "operation": "Lecture, Q&A, report assignment, and self-reflection",
+      "assignments": "and relative stiffness ratio Preparation: review the moment distribution method learned in \"Structural Mechanics II\" and understand the calculation of cross section forces under lateral loading. Work on the first report.",
+      "minutes": "240"
+    },
+    {
+      "index": "4",
+      "content": "Basic of structural design - Cross section forces under vertical loading - Cross section forces under lateral loading",
+      "operation": "Lecture, Q&A, and self-reflection",
+      "assignments": "Review: calculate cross section forces under vertical and lateral forces Preparation: read text section 2 and review the strain-stress relationship learned in \"Structural Mechanics I for Architecture”",
+      "minutes": "240"
+    },
+    {
+      "index": "5",
+      "content": "Mechanical characteristics of materials -reinforcing bars -concrete",
+      "operation": "Lecture, Q&A, and self-reflection",
+      "assignments": "Review: understand text section 2 Preparation: read text section 3 (beam design)",
+      "minutes": "240"
+    },
+    {
+      "index": "6",
+      "content": "Beam design - Stress distribution in beam sections under bending moment - Force equilibrium equations - Design formulas and design diagrams - T-beam design",
+      "operation": "Lecture, Q&A, and self-reflection",
+      "assignments": "Review: understand text section 2 Preparation: read text section 3 (beam design)",
+      "minutes": "240"
+    },
+    {
+      "index": "7",
+      "content": "Explanation of examples -Beam design -Integrated learning",
+      "operation": "Lecture, Q&A, report assignment, and self-reflection",
+      "assignments": "Review: understand the assumptions, force equilibrium, and design formulas of RC beams and review the usage of design diagrams Preparation: read text section 3 (beam design)",
+      "minutes": "240"
+    },
+    {
+      "index": "8",
+      "content": "Column design -Stress distribution in column sections under axial force and bending moment -Force equilibrium equations -Design formulas and design diagrams",
+      "operation": "Lecture, Q&A, and self-reflection",
+      "assignments": "Review: understand the assumptions, force equilibrium and design formulas of RC columns and review the usage of design diagrams Preparation: read text section 4",
+      "minutes": "240"
+    },
+    {
+      "index": "9",
+      "content": "Column design -Cross section calculation methods Explanation of examples -Column design -Integrated learning",
+      "operation": "Lecture, Q&A, Report assignment and self-reflection",
+      "assignments": "Review: design RC columns referring to examples and following RC standard constraints Preparation: read text section 5 and work on report",
+      "minutes": "240"
+    },
+    {
+      "index": "10",
+      "content": "Shear design of RC structure -Allowable shear force and design shear force -Design of stirrups Explanation of examples -Shear design of beams",
+      "operation": "Lecture, Q&A, and self-reflection",
+      "assignments": "Review: design of members under shear force and stirrups Preparation: read text section 5.3",
+      "minutes": "240"
+    },
+    {
+      "index": "11",
+      "content": "Shear design of RC structures -Shear design of columns Explanation of examples -Shear design of columns -Integrated learning",
+      "operation": "Lecture, Q&A, report assignment, and self-reflection",
+      "assignments": "Review: shear design of columns and hoops Preparation: work on report and study for test",
+      "minutes": "240"
+    },
+    {
+      "index": "12",
+      "content": "Shear design of RC structures -Design of RC beam-column joints Explanation of examples -Design of RC beam-column joints -Integrated learning",
+      "operation": "Lecture, Q&A, report assignment, and self-reflection",
+      "assignments": "Review: design of RC beam-column joints Preparation: read text section 6 (shear walls)",
+      "minutes": "240"
+    },
+    {
+      "index": "13",
+      "content": "Test and review -Design of RC beam or column Test explanation",
+      "operation": "Test and review, Q&A, and self-reflection",
+      "assignments": "Review: correct mistakes on problems Preparation: read text section 5.4",
+      "minutes": "240"
+    },
+    {
+      "index": "14",
+      "content": "Shear wall design Explanation of examples -Shear wall design -Integrated learning",
+      "operation": "Lecture, Q&A, Report assignment and self-reflection",
+      "assignments": "Review: understand shear walls and be able to design them Preparation: read text section 6 (Slab design 8)",
+      "minutes": "240"
+    },
+    {
+      "index": "15",
+      "content": "Design of slabs and stairs -Slab and stair design - Bonding, anchorage, and joints Self-evaluation",
+      "operation": "Lecture, Q&A, and self-reflection",
+      "assignments": "Review: understand slab design",
+      "minutes": "240"
+    }
+  ],
+  "rawText": "金沢工業大学 学習支援計画書 A024-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Architecture(〜2024)\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n鉄筋コンクリート構造\nReinforced Concrete Structure  2 A024-01  2025年度\n 3rd year 1st semester  修学規程第4条を参照\n    担当教員名\n YAMAGISHI Kuniaki\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Reinforced concrete 2.Structural analysis 3.Section design calculation 4.E-Leaning 5.Regional cooperation  Students will: (1) learn basic structural design of RC structures involving cross section calculations. (2) learn the concept and procedures of structural design through a design exercise for a small-scale building in a snowy region. (3) learn construction methods and structural safety for RC structures.\n    授業の概要および学習上の助言   This is a specialty course in structural engineering. We will cover the following topics: 1. Characteristics of RC structures 2. Basics of structural design 3. Mechanical properties of materials (reinforcing bar, concrete) 4. Beam design 5. Column design 6. Shear design of RC structures and design of RC beam-column joints 7. Design of shear walls and slabs 8. Bonding, anchorage, and joints\n    教科書および参考書・リザーブドブック   Reinforced concrete structure (in Japanese) writen by Kuniaki Yamagishi Publisher: Kanazawa Institute of Technology\n    履修に必要な予備知識や技能   The contents of the subjects “Structural mechanics I ”and “Structural mechanics II” must be understood as basic knowledge of RC structures. Since this subject has a direct connection with “Structural Design for Architecture”[Course name unified with that in #23 syllabi of this job. Please confirm here and there.] and “Architectural Integrated Exercises B”, credit for these classes is recommended.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① N Students understand the basics of structural design for RC structures.   ② N Students can design RC beams.   ③ N Students can design RC columns.   ④ N Students can perform shear design for RC structures and design RC beam-column joints.   ⑤ N Students can design shear walls.   ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 40 0 50 0 0 0 10 100     指標と評価割合 総合評価割合 40 0 50 0 0 0 10 100   総合力指標 知識を取り込む力 40 0 50 0 0 0 10 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ Students’ comprehension of RC structures and structural design is evaluated by test. The test poses basic problems about the design of beams, columns, and shear members, and cross section calculations for designing beams or columns.   ② レ   ③ レ   ④ レ   ⑤     ⑥     クイズ\n小テスト ①      ②     ③     ④     ⑤     ⑥     レポート ① レ Students will be evaluated on six reports about RC structural design involving preparation calculations and cross section calculations. The quality of the reports are also evaluated for readability, smartness, and completeness. In light of the high level at which reports are evaluated, taking the time to complete these reports is strongly recommended.    ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ① レ Students will be evaluated on their approach to this subject based on attendance and report submission.    ② レ   ③ レ   ④ レ   ⑤ レ   ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     Students fully understand RC structural design flow and the derivation of calculation equations, and perform preparation calculations and cross section calculations with no mistakes. Students understand RC structural design flow and the meaning of the calculation equations, and can execute preparation calculation and cross section calculation with almost no mistakes.\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(",
+  "sourceYear": "2025",
+  "originalSourceIndex": 631,
+  "courseId": "2025:spring:A024-01:0:12714",
+  "language": "en"
+}

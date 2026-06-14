@@ -1,0 +1,308 @@
+{
+  "sourceIndex": 7862,
+  "sourceUrl": "/opsyllabus/kitos0110/365/1",
+  "importedAt": "2026-06-12T08:01:15.189Z",
+  "title": "論理回路",
+  "subtitle": "Logic Circuits",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "2",
+  "term": "2020年度\n 1st year 2nd semester\n2nd year 1st semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [],
+  "keywords": [
+    "Logic Circuits 2.Combinational Logic Circuit 3.Flip-flop 4.Sequential Circuit 5.Local Cooperation"
+  ],
+  "educationalGoal": "Students will: (1) learn basic logic circuits consisting of commonly used circuit components. (2) learn the actions of logical gates and flip-flop. (3) learn the basic design approach of logic circuits.",
+  "advice": "This is the basic course of computer architecture. We will cover the following materials: 1. Characteristics of logical gates. 2. Truth table for given a logic circuit. 3. Simplification of a logic circuit using a Karnaugh map. 4. Circuit architecture and design methodology of encoders, decoders, data selectors, multiplexers, coincidence circuits, binary adders, flip-flops, shift registers, and counters. 5. Application of local cooperation on logic circuits. Students are required to calculate binary numbers. Students are expected to understand the meaning of terms and characteristics. Students are expected to understand actions of logical circuits using a logic circuit simulator. Students are expected to review each course content.",
+  "books": "Introduction to Logic Circuit[Please confirm literal title versus \"Circuits\".] (in Japanese)",
+  "requiredKnowledge": "Knowledge of binary arithmetic is required.",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "I,M",
+      "body": "Be able to calculate positive and negative binary numbers."
+    },
+    {
+      "index": "②",
+      "type": "I,M,N",
+      "body": "Be able to explain the actions of logic circuits consisting of logic gates such as AND, OR, and NOT."
+    },
+    {
+      "index": "③",
+      "type": "I,M,N",
+      "body": "Be able to explain the actions of encoders, decoders, data selectors, and multiplexers."
+    },
+    {
+      "index": "④",
+      "type": "I,M,N",
+      "body": "Be able to design an n-bit adder with full adders."
+    },
+    {
+      "index": "⑤",
+      "type": "I,M,N",
+      "body": "Be able to explain a data latch mechanism using various flip-flops."
+    },
+    {
+      "index": "⑥",
+      "type": "I,M,N",
+      "body": "Be able to design a shift register and counter circuits with a combination of flip-flops."
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "0",
+        "80",
+        "0",
+        "0",
+        "0",
+        "0",
+        "20",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "0",
+        "80",
+        "0",
+        "0",
+        "0",
+        "0",
+        "20",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "0",
+        "80",
+        "0",
+        "0",
+        "0",
+        "0",
+        "20",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションと\nリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "(1) Be able to understand the meaning of a logical formula and describe its logical circuit. (2) Be able to design a logical circuit from the condition of the shift register, counter, etc.",
+    "standard": "(1) Be able to understand the meaning of a logical formula and describe its logical circuit. (2) Be able to explain each part of the actions in a logical circuit with the shift register, counter, etc."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Course introduction, n-adic number representation, radix conversion, fixed-point number, floating-point number, complement",
+      "operation": "Lecture and practice",
+      "assignments": "Review of radix conversion and complement",
+      "minutes": "100"
+    },
+    {
+      "index": "2",
+      "content": "Order of operations, shift operation, addition, subtraction, multiplication, self-reflection",
+      "operation": "Lecture and practice",
+      "assignments": "Review of multiplication",
+      "minutes": "100"
+    },
+    {
+      "index": "3",
+      "content": "Theorems and axioms of logical functions",
+      "operation": "Lecture and practice Test Self-reflection",
+      "assignments": "Review of theorems and axioms of logical functions",
+      "minutes": "100"
+    },
+    {
+      "index": "4",
+      "content": "Disjunctive normal form, conjunctive normal form, truth table, Karnaugh map",
+      "operation": "Lecture and practice",
+      "assignments": "Review of disjunctive normal, Karnaugh map",
+      "minutes": "100"
+    },
+    {
+      "index": "5",
+      "content": "Theorems and axioms, simplification of logic circuit using Karnaugh map, self-reflection",
+      "operation": "Lecture and practice",
+      "assignments": "Review of simplification of logic circuit using Karnaugh map",
+      "minutes": "100"
+    },
+    {
+      "index": "6",
+      "content": "Symbol map of logic gates, basic function, AND expression and OR expression of logic circuits",
+      "operation": "Lecture and practice Test Self-reflection",
+      "assignments": "Review of symbol map of logic gates, basic function, AND expression and OR expression of logic circuits",
+      "minutes": "100"
+    },
+    {
+      "index": "7",
+      "content": "Genetic circuits such as encoder, decoder, code conversion, data selector",
+      "operation": "Lecture and practice",
+      "assignments": "Review of encoder, decoder, code conversion, data selector",
+      "minutes": "100"
+    },
+    {
+      "index": "8",
+      "content": "Multiplexer, demultiplexer, complement circuit, incrementer circuit, coincidence circuit",
+      "operation": "Lecture and practice",
+      "assignments": "Review of multiplexer, complement circuit, coincidence circuit",
+      "minutes": "100"
+    },
+    {
+      "index": "9",
+      "content": "Comparator, half adder, full adder, self-reflection",
+      "operation": "Lecture and practice",
+      "assignments": "Review of half adder, full adder",
+      "minutes": "100"
+    },
+    {
+      "index": "10",
+      "content": "n-bit adder, BCD adder, flip-flop, timing chart",
+      "operation": "Lecture and practice Test Self-reflection",
+      "assignments": "Review of n-bit adder, flip-flop",
+      "minutes": "100"
+    },
+    {
+      "index": "11",
+      "content": "D-FF, JK-FF, T-FF, register, shift register",
+      "operation": "Lecture and practice",
+      "assignments": "Review of the structure of D-FF, JK-FF, T-FF, register, shift register",
+      "minutes": "100"
+    },
+    {
+      "index": "12",
+      "content": "Counter, synchronous counter, asynchronous counter, self-reflection",
+      "operation": "Lecture and practice",
+      "assignments": "Review of counters",
+      "minutes": "100"
+    },
+    {
+      "index": "13",
+      "content": "Integrated learning",
+      "operation": "Lecture and practice Test Self-reflection",
+      "assignments": "Review of assignment",
+      "minutes": "100"
+    },
+    {
+      "index": "14",
+      "content": "Integrated learning",
+      "operation": "Lecture and practice",
+      "assignments": "Review of assignment",
+      "minutes": "100"
+    },
+    {
+      "index": "15",
+      "content": "Integrated learning, self-reflection",
+      "operation": "Lecture and Q&A Self-check",
+      "assignments": "Review of inadequate points",
+      "minutes": "100"
+    }
+  ],
+  "rawText": "金沢工業大学 学習支援計画書 E507-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Information and Computer Science\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n論理回路\nLogic Circuits  2 E507-01  2020年度\n 1st year 2nd semester\n2nd year 1st semester  修学規程第4条を参照\n    担当教員名\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Logic Circuits 2.Combinational Logic Circuit 3.Flip-flop 4.Sequential Circuit 5.Local Cooperation  Students will: (1) learn basic logic circuits consisting of commonly used circuit components. (2) learn the actions of logical gates and flip-flop. (3) learn the basic design approach of logic circuits.\n    授業の概要および学習上の助言   This is the basic course of computer architecture. We will cover the following materials: 1. Characteristics of logical gates. 2. Truth table for given a logic circuit. 3. Simplification of a logic circuit using a Karnaugh map. 4. Circuit architecture and design methodology of encoders, decoders, data selectors, multiplexers, coincidence circuits, binary adders, flip-flops, shift registers, and counters. 5. Application of local cooperation on logic circuits. Students are required to calculate binary numbers. Students are expected to understand the meaning of terms and characteristics. Students are expected to understand actions of logical circuits using a logic circuit simulator. Students are expected to review each course content.\n    教科書および参考書・リザーブドブック   Introduction to Logic Circuit[Please confirm literal title versus \"Circuits\".] (in Japanese)\n    履修に必要な予備知識や技能   Knowledge of binary arithmetic is required.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① I,M Be able to calculate positive and negative binary numbers.   ② I,M,N Be able to explain the actions of logic circuits consisting of logic gates such as AND, OR, and NOT.   ③ I,M,N Be able to explain the actions of encoders, decoders, data selectors, and multiplexers.   ④ I,M,N Be able to design an n-bit adder with full adders.   ⑤ I,M,N Be able to explain a data latch mechanism using various flip-flops.   ⑥ I,M,N Be able to design a shift register and counter circuits with a combination of flip-flops.\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 0 80 0 0 0 0 20 100     指標と評価割合 総合評価割合 0 80 0 0 0 0 20 100   総合力指標 知識を取り込む力 0 80 0 0 0 0 20 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ①      ②     ③     ④     ⑤     ⑥     クイズ\n小テスト ① レ Four tests will be given to measure the depth of understanding of basic knowledge.    ② レ   ③ レ   ④ レ   ⑤ レ   ⑥ レ   レポート ①      ②     ③     ④     ⑤     ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ① レ Students will be evaluated on their attitude for assignments.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥ レ\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     (1) Be able to understand the meaning of a logical formula and describe its logical circuit. (2) Be able to design a logical circuit from the condition of the shift register, counter, etc.  (1) Be able to understand the meaning of a logical formula and describe its logical circuit. (2) Be able to explain each part of the actions in a logical circuit with the shift register, counter, etc.\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習課題に要する標準的な時間を記載してあります。日々の自学自習時間全体としては、各授業に応じた時間(例えば2単位科目の場合、予習2時間・復習2時間/週)を取るよう努めてください。詳しくは教員の指導に従って下さい。     授業明細   回数 学習内容 授業の運営方法 学習課題(予習・復習) 時間:分※     1  Course introduction, n-adic number representation, radix conversion, fixed-point number, floating-point number, complement Lecture and practice Review of radix conversion and complement  100   ",
+  "sourceYear": "2020",
+  "originalSourceIndex": 365,
+  "courseId": "2020:fall:E636-01:0:7862",
+  "language": "en"
+}

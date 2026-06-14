@@ -1,0 +1,408 @@
+{
+  "sourceIndex": 13901,
+  "sourceUrl": "/opsyllabus/kitos0110/814/1",
+  "importedAt": "2026-06-12T08:03:10.699Z",
+  "title": "工業力学Ⅰ",
+  "subtitle": "Engineering Mechanics I",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "3",
+  "term": "2026年度\n 1st year 1st semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "HIROMITSU Nagayoshi"
+  ],
+  "keywords": [
+    "Force 2.Synthesis and decomposition of forces 3.Balance of forces 4.Moments of forces 5.Center of gravity"
+  ],
+  "educationalGoal": "Students will: (1) learn the basic concepts of static mechanics. (2) learn what kind of forces act on rigid bodies. (3) learn how to calculate the balance condition of forces. (4) learn how to calculate the center of gravity.",
+  "advice": "This is a basic engineering mechanics course. We will cover the following materials: 1. Kinds of forces 2. Synthesis and decomposition of forces 3. Balance of forces 4. Moments of forces 5. Center of gravity of rigid bodies Classes will be held on 22 classes(the basis of every 1.5 classes/week). Students will also learn about advanced issues not included in the textbooks. Students will be expected to understand the meanings of the terms and formulas. Students will be expected to solve the exercises on their own. Students are required to review each unit with on-demand learning materials. Students should be aware of the teacher's instructions in the class, because the schedules of lectures, quizzes, tests and reports may change as the class progresses. Students should not be absent from the class, as handouts may be not received.",
+  "books": "Textbooks : Kougyou Rikigaku ( Morikita syuppan )",
+  "requiredKnowledge": "Sufficient skill in mathematics (especially basical knowidgement of trigonometric functions,differentiation/integration and vector composition.) Basic knowledge of mechanics How to use a scientific calculator",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "D,K,L,N",
+      "body": "Be able to indicate the forces on rigid bodies and to describe using SI unit correctly"
+    },
+    {
+      "index": "②",
+      "type": "D,K,L,N",
+      "body": "Be able to synthesize and decomposit forces"
+    },
+    {
+      "index": "③",
+      "type": "D,K,L,N",
+      "body": "Be able to calculate the moments of forces"
+    },
+    {
+      "index": "④",
+      "type": "D,K,L,N",
+      "body": "Be able to formulate the balance of forces and moments of forces"
+    },
+    {
+      "index": "⑤",
+      "type": "D,K,L,N",
+      "body": "Be able to calculate the center of gravity for rigid bodies"
+    },
+    {
+      "index": "⑥",
+      "type": "D,K,L,N",
+      "body": "Be able to explain the stability of rigid bodies"
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "30",
+        "40",
+        "30",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "30",
+        "40",
+        "30",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "30",
+        "40",
+        "30",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションと\nリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "(1) Indicate the forces using any coordinates. (2) Decompose forces in any directions and synthesize forces. acting at different points and in different directions. (3) Calculate three dimensional moment vectors. (4) Calculate local load on the actual rigid bodies. (5) Calculate the center of gravity of actual rigid bodies. (6) Evaluate the stability of actual rigid bodies.",
+    "standard": "(1) Explain the three elements to indicate force vectors, and describe forces using SI unit. (2) Decompose forces into the three directions x, y, z and synthesize three forces at different points of application. (3) Calculate moment of force acting on rigid bodies, and indicate in suitable SI units. (4) Calculate the reaction force at rotational support points. (5) Calculate the center of gravity of an object which is composed of two simple rigid bodies. (6) Evaluate the stability of a simple rigid body."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Course introduction What is force? Indications of force, Units of force",
+      "operation": "Lecture and practice Q&A Self-check",
+      "assignments": "Understand the objectives of the course Prepare for the lecture Review the last class",
+      "minutes": "30 30"
+    },
+    {
+      "index": "1.5",
+      "content": "(same as above)",
+      "operation": "(same as above)",
+      "assignments": "(same as above)",
+      "minutes": ""
+    },
+    {
+      "index": "2",
+      "content": "Review of previous class Synthesis and decomposition of forces acting at same point",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Prepare for the lecture Review the last class",
+      "minutes": "60 60"
+    },
+    {
+      "index": "2.5",
+      "content": "(same as above)",
+      "operation": "(same as above)",
+      "assignments": "(same as above)",
+      "minutes": ""
+    },
+    {
+      "index": "3",
+      "content": "Review of previous class Moment of force Coupling force",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Prepare for the lecture Review the last class",
+      "minutes": "60 60"
+    },
+    {
+      "index": "3.5",
+      "content": "(same as above)",
+      "operation": "(same as above)",
+      "assignments": "(same as above)",
+      "minutes": ""
+    },
+    {
+      "index": "4",
+      "content": "Review of previous classes Synthesis of forces acting at different points",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Review the previous classes Review the last class",
+      "minutes": "60 60"
+    },
+    {
+      "index": "4.5",
+      "content": "(same as above)",
+      "operation": "(same as above)",
+      "assignments": "(same as above)",
+      "minutes": ""
+    },
+    {
+      "index": "5",
+      "content": "Test (1): classes 1 to 4 Exercises on previous lessons (1)",
+      "operation": "Review test lecture Self-check",
+      "assignments": "Prepare for the test and lecture Review the last class",
+      "minutes": "120 60"
+    },
+    {
+      "index": "5.5",
+      "content": "(same as above)",
+      "operation": "(same as above)",
+      "assignments": "(same as above)",
+      "minutes": ""
+    },
+    {
+      "index": "6",
+      "content": "Balance of forces acting at same point Confirmation of test result",
+      "operation": "Test review Lecture and practice Self-check",
+      "assignments": "Prepare for the lecture Review the last class",
+      "minutes": "60 60"
+    },
+    {
+      "index": "6.5",
+      "content": "(same as above)",
+      "operation": "(same as above)",
+      "assignments": "(same as above)",
+      "minutes": ""
+    },
+    {
+      "index": "7",
+      "content": "Review of previous class Forces at contact and supporting points Balance of forces acting at different points",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Prepare for the lecture Review the last class",
+      "minutes": "60 60"
+    },
+    {
+      "index": "7.5",
+      "content": "(same as above)",
+      "operation": "(same as above)",
+      "assignments": "(same as above)",
+      "minutes": ""
+    },
+    {
+      "index": "8",
+      "content": "Test (2): classes 5 to 7 Exercises on previous lessons (2)",
+      "operation": "Review and test lecture Self-check",
+      "assignments": "Prepare for the test and lecture Review the last class",
+      "minutes": "120 60"
+    },
+    {
+      "index": "8.5",
+      "content": "(same as above)",
+      "operation": "(same as above)",
+      "assignments": "(same as above)",
+      "minutes": ""
+    },
+    {
+      "index": "9",
+      "content": "Center of gravity Confirmation of test results",
+      "operation": "Test review Lecture and practice Self-check",
+      "assignments": "Prepare for the lecture Review the last class",
+      "minutes": "60 60"
+    },
+    {
+      "index": "9.5",
+      "content": "(same as above)",
+      "operation": "(same as above)",
+      "assignments": "(same as above)",
+      "minutes": ""
+    },
+    {
+      "index": "10",
+      "content": "Center of gravity for rigid bodies Review of previous class",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Prepare for the lecture Review the last class",
+      "minutes": "120 60"
+    },
+    {
+      "index": "10.5",
+      "content": "(same as above)",
+      "operation": "(same as above)",
+      "assignments": "(same as above)",
+      "minutes": ""
+    },
+    {
+      "index": "11",
+      "content": "Stability of rigid bodies Review of previous class",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Prepare for the lecture Review the last class",
+      "minutes": "60 60"
+    },
+    {
+      "index": "11.5",
+      "content": "(same as above)",
+      "operation": "(same as above)",
+      "assignments": "(same as above)",
+      "minutes": ""
+    },
+    {
+      "index": "12",
+      "content": "Test (3): classes 8 to 11 Exercises on previous lessons (3)",
+      "operation": "Review and test lecture Self-check",
+      "assignments": "Prepare for the test and lecture Review the last class",
+      "minutes": "120 60"
+    },
+    {
+      "index": "12.5",
+      "content": "(same as above)",
+      "operation": "(same as above)",
+      "assignments": "(same as above)",
+      "minutes": ""
+    },
+    {
+      "index": "13",
+      "content": "Review of this course and solve exercises (1) Confirmation of test results",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Review all lectures, practices and tests Review the last class",
+      "minutes": "60 60"
+    },
+    {
+      "index": "13.5",
+      "content": "(same as above)",
+      "operation": "(same as above)",
+      "assignments": "(same as above)",
+      "minutes": ""
+    },
+    {
+      "index": "14",
+      "content": "Final examination Review of this course and solve exercises (2)",
+      "operation": "Test and review Self-reflection",
+      "assignments": "Review all lectures, practices and tests Review the test contents",
+      "minutes": "180 30"
+    },
+    {
+      "index": "14.5",
+      "content": "(same as above)",
+      "operation": "(same as above)",
+      "assignments": "(same as above)",
+      "minutes": ""
+    },
+    {
+      "index": "15",
+      "content": "Review of this course and solve exercises (3) Confirmation of the results of examination Self-evaluation Questionnaire of the course",
+      "operation": "Lecture and interractive activities Self-reflection",
+      "assignments": "Review of the all classes Reflect on the achievement",
+      "minutes": "30 30"
+    }
+  ],
+  "rawText": "金沢工業大学 学習支援計画書 K204-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Aeronautics and Astronautics\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n工業力学Ⅰ\nEngineering Mechanics I  3 K204-01  2026年度\n 1st year 1st semester  修学規程第4条を参照\n    担当教員名\n HIROMITSU Nagayoshi      *印は、実務経験のある教員を示しています。\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Force 2.Synthesis and decomposition of forces 3.Balance of forces 4.Moments of forces 5.Center of gravity  Students will: (1) learn the basic concepts of static mechanics. (2) learn what kind of forces act on rigid bodies. (3) learn how to calculate the balance condition of forces. (4) learn how to calculate the center of gravity.\n    授業の概要および学習上の助言   This is a basic engineering mechanics course. We will cover the following materials: 1. Kinds of forces 2. Synthesis and decomposition of forces 3. Balance of forces 4. Moments of forces 5. Center of gravity of rigid bodies Classes will be held on 22 classes(the basis of every 1.5 classes/week). Students will also learn about advanced issues not included in the textbooks. Students will be expected to understand the meanings of the terms and formulas. Students will be expected to solve the exercises on their own. Students are required to review each unit with on-demand learning materials. Students should be aware of the teacher's instructions in the class, because the schedules of lectures, quizzes, tests and reports may change as the class progresses. Students should not be absent from the class, as handouts may be not received.\n    教科書および参考書・リザーブドブック   Textbooks : Kougyou Rikigaku ( Morikita syuppan )\n    履修に必要な予備知識や技能   Sufficient skill in mathematics (especially basical knowidgement of trigonometric functions,differentiation/integration and vector composition.) Basic knowledge of mechanics How to use a scientific calculator\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① D,K,L,N Be able to indicate the forces on rigid bodies and to describe using SI unit correctly   ② D,K,L,N Be able to synthesize and decomposit forces   ③ D,K,L,N Be able to calculate the moments of forces   ④ D,K,L,N Be able to formulate the balance of forces and moments of forces   ⑤ D,K,L,N Be able to calculate the center of gravity for rigid bodies   ⑥ D,K,L,N Be able to explain the stability of rigid bodies\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 30 40 30 0 0 0 0 100     指標と評価割合 総合評価割合 30 40 30 0 0 0 0 100   総合力指標 知識を取り込む力 30 40 30 0 0 0 0 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ There is an exam at the end of the semester to evaluate students' achievement. The scientific calculator specified in this department can be used.    ② レ   ③ レ   ④ レ   ⑤ レ   ⑥ レ   クイズ\n小テスト ① レ There are several tests at the end of each chapter to improve the level of understanding. The calculator specified in this department can be used on every test. It is necessary to understand the idea behind formulas and to be able to formulate the equations of motion. Students will be evaluated additionally by reporting the analysis of their understanding and weaknesses of each unit based on the results of the quizzies.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥ レ   レポート ① レ Students will be evaluated on several reports during the course.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥ レ   成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ①      ②     ③     ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     (1) Indicate the forces using any coordinates. (2) Decompose forces in any directions and synthesize forces. acting at different points and in different directions. (3) Calculate three dimensional moment vectors. (4) Calculate local load on the actual rigid bodies. (5) Calculate the center of gravit",
+  "sourceYear": "2026",
+  "originalSourceIndex": 814,
+  "courseId": "2026:spring:K210-01:0:13901",
+  "language": "en"
+}

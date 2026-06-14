@@ -1,0 +1,298 @@
+{
+  "sourceIndex": 11325,
+  "sourceUrl": "/opsyllabus/kitos0110/201/1",
+  "importedAt": "2026-06-12T08:02:31.295Z",
+  "title": "振動工学",
+  "subtitle": "Vibration Engineering",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "2",
+  "term": "2024年度\n 2nd year 2nd semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "AKASAKA Takeshi"
+  ],
+  "keywords": [
+    "Initial excitation 2.Harmonic excitation 3.Nonperiodic excitation 4.Natural frequency 5.Resonance"
+  ],
+  "educationalGoal": "Structural vibration behavior should be well investigated in the process of aircraft structural design. For example, to design a wing structure, it is necessary to clarify its vibration behaviors such as its response to a gust load and its bending-torsional flutter property. In this course, students will learn the basics of vibration engineering necessary to treat practical problems on structural vibration in aircrafts.",
+  "advice": "In order to understand the nature of structural vibration, students will learn how to express the motions of various vibration systems in mathematical equations, how to solve the equations, and how to examine the meanings of the obtained solutions. Students are required not only to study actively during the class but also to work hard on exams and assignments. In this course, we will cover the following materials: 1. Basic knowledge of vibration in mechanical systems Types of vibration, Harmonic vibration, Synthesis of vibration 2. Response of single degree of freedom systems to initial excitation Undamped or damped systems, viscous damping, coulomb damping 3. Response of single degree of freedom systems to harmonic excitation Response to harmonic force or harmonic displacement excitation, Vibration isolation 4. Response of single degree of freedom systems to nonperiodic excitation Impulse response, Inditial response 5. Vibration measurement and control Vibration measurement, seismic system",
+  "books": "Required materials will be specified in the first lesson.",
+  "requiredKnowledge": "Knowledge of Industrial Mechanics and Mechanical Mechanics. Basic knowledge of industrial mechanics, including equilibrium (balance) of forces and the equation of motion for an accelerated object.",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "D,J,M",
+      "body": "Be able to create an analysis model for the structural vibration"
+    },
+    {
+      "index": "②",
+      "type": "D,J,M",
+      "body": "Be able to derive equations of motion based on the analysis model and solve them"
+    },
+    {
+      "index": "③",
+      "type": "D,J,M",
+      "body": "Be able to explain the resonance phenomenon"
+    },
+    {
+      "index": "④",
+      "type": "D,J,M",
+      "body": "Be able to explain the effect of the damping on responses to both initial excitation and harmonic excitation"
+    },
+    {
+      "index": "⑤",
+      "type": "D,J,M",
+      "body": "Be able to analyze the simple vibration problems and capture the nature of the phenomenon"
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "40",
+        "40",
+        "15",
+        "0",
+        "0",
+        "0",
+        "5",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "40",
+        "40",
+        "15",
+        "0",
+        "0",
+        "0",
+        "5",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "40",
+        "40",
+        "15",
+        "0",
+        "0",
+        "0",
+        "5",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションと\nリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "(1) Derive and solve the equation of motion (differential equation) for a single degree of freedom vibration system under harmonic excitation as well as the initial excitation with or without the damping effect (2) Evaluate the vibration behavior of the system (3) Explain exactly the resonance phenomenon (4) Explain exactly the effect of the damping on the responses to both the initial excitation and harmonic excitation",
+    "standard": "(1) Solve the equation of motion (differential equations) for a single degree of freedom vibration system under harmonic excitation with or without the damping effect (2) Evaluate the vibration behavior of the system (3) Explain the resonance phenomenon (4) Explain the effect of the damping on the response to harmonic excitation"
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Course introduction Basics of vibration engineering Types of vibration Units for vibration Harmonic vibration",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Review class content Confirm the schedule of exams and assignment Read textbook pp. 1-12",
+      "minutes": "60"
+    },
+    {
+      "index": "2",
+      "content": "Basics of vibration engineering Synthesis of vibration Rotational motion Moment of inertia Response to initial excitation without damping",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Review class content Read textbook pp. 16-25 Read textbook pp. 27-32",
+      "minutes": "60"
+    },
+    {
+      "index": "3",
+      "content": "Response to initial excitation without damping",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Review class content Read textbook pp. 32-37",
+      "minutes": "60"
+    },
+    {
+      "index": "4",
+      "content": "Response to initial excitation with damping",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Review class content Read textbook pp. 37-47",
+      "minutes": "60"
+    },
+    {
+      "index": "5",
+      "content": "Response to harmonic excitation without damping",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Review class content Read textbook pp. 49-53",
+      "minutes": "60"
+    },
+    {
+      "index": "6",
+      "content": "Response to harmonic excitation with damping",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Review class content Read textbook pp. 53-60",
+      "minutes": "60"
+    },
+    {
+      "index": "7",
+      "content": "Integrated learning [1st Test]",
+      "operation": "Lecture and practice Test",
+      "assignments": "Prepare for test",
+      "minutes": "100"
+    },
+    {
+      "index": "8",
+      "content": "Vibration transmissibility and vibration isolation Principle of vibration measurements",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Review class content Read textbook pp. 60-62 and pp. 155-160",
+      "minutes": "60"
+    },
+    {
+      "index": "9",
+      "content": "Response to non-periodic excitation",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Review class content Read textbook pp. 63-71",
+      "minutes": "60"
+    },
+    {
+      "index": "10",
+      "content": "Vibration of 2-Degree of freedom systems",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Review class content Read textbook pp. 77-98",
+      "minutes": "60"
+    },
+    {
+      "index": "11",
+      "content": "Vibration of multi-degree of freedom systems Vibration of continuous media",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Review class content Read textbook pp. 99-153",
+      "minutes": "60"
+    },
+    {
+      "index": "12",
+      "content": "Vibration measurements and controls Computational analysis",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Review class content Read textbook pp. 155-214",
+      "minutes": "60"
+    },
+    {
+      "index": "14",
+      "content": "Integrated learning [2nd Test]",
+      "operation": "Lecture and practice Test",
+      "assignments": "Prepare for test",
+      "minutes": "100"
+    },
+    {
+      "index": "15",
+      "content": "Comprehensive Review Self-evaluation",
+      "operation": "Lecture and practice Self-evaluation",
+      "assignments": "Self-evaluation on this course",
+      "minutes": "60"
+    }
+  ],
+  "rawText": "金沢工業大学 学習支援計画書 E111-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Aeronautics\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n振動工学\nVibration Engineering  2 E111-01  2024年度\n 2nd year 2nd semester  修学規程第4条を参照\n    担当教員名\n AKASAKA Takeshi\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Initial excitation 2.Harmonic excitation 3.Nonperiodic excitation 4.Natural frequency 5.Resonance  Structural vibration behavior should be well investigated in the process of aircraft structural design. For example, to design a wing structure, it is necessary to clarify its vibration behaviors such as its response to a gust load and its bending-torsional flutter property. In this course, students will learn the basics of vibration engineering necessary to treat practical problems on structural vibration in aircrafts.\n    授業の概要および学習上の助言   In order to understand the nature of structural vibration, students will learn how to express the motions of various vibration systems in mathematical equations, how to solve the equations, and how to examine the meanings of the obtained solutions. Students are required not only to study actively during the class but also to work hard on exams and assignments. In this course, we will cover the following materials: 1. Basic knowledge of vibration in mechanical systems Types of vibration, Harmonic vibration, Synthesis of vibration 2. Response of single degree of freedom systems to initial excitation Undamped or damped systems, viscous damping, coulomb damping 3. Response of single degree of freedom systems to harmonic excitation Response to harmonic force or harmonic displacement excitation, Vibration isolation 4. Response of single degree of freedom systems to nonperiodic excitation Impulse response, Inditial response 5. Vibration measurement and control Vibration measurement, seismic system\n    教科書および参考書・リザーブドブック   Required materials will be specified in the first lesson.\n    履修に必要な予備知識や技能   Knowledge of Industrial Mechanics and Mechanical Mechanics. Basic knowledge of industrial mechanics, including equilibrium (balance) of forces and the equation of motion for an accelerated object.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① D,J,M Be able to create an analysis model for the structural vibration   ② D,J,M Be able to derive equations of motion based on the analysis model and solve them   ③ D,J,M Be able to explain the resonance phenomenon   ④ D,J,M Be able to explain the effect of the damping on responses to both initial excitation and harmonic excitation   ⑤ D,J,M Be able to analyze the simple vibration problems and capture the nature of the phenomenon   ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 40 40 15 0 0 0 5 100     指標と評価割合 総合評価割合 40 40 15 0 0 0 5 100   総合力指標 知識を取り込む力 40 40 15 0 0 0 5 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ Students will be evaluated on their achievement on tests. Students will have two tests during the semester: in the middle of the semester and at the end of the semester.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     クイズ\n小テスト ① レ Students will be evaluated on mini tests. Students will have four or five mini tests during the semester.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     レポート ① レ Students will be evaluated on a report. Students should submit one report for the semester.    ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ① レ Students participation in class discussion will be evaluated. Class absences may be evaluated negatively.    ② レ   ③ レ   ④ レ   ⑤ レ   ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     (1) Derive and solve the equation of motion (differential equation) for a single degree of freedom vibration system under harmonic excitati",
+  "sourceYear": "2024",
+  "originalSourceIndex": 201,
+  "courseId": "2024:spring:E101-01:0:11325",
+  "language": "en"
+}

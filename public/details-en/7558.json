@@ -1,0 +1,298 @@
+{
+  "sourceIndex": 7558,
+  "sourceUrl": "/opsyllabus/kitos0110/61/1",
+  "importedAt": "2026-06-12T08:01:12.861Z",
+  "title": "情報数理B",
+  "subtitle": "Mathematics for Information Science B",
+  "courseType": "Mathematics and Science Program\nMathematics and Science Courses",
+  "credits": "2",
+  "term": "2020年度\n 2nd year 2nd semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [],
+  "keywords": [
+    "Multivariate analysis 2.Prediction model 3.Multiple regression analysis 4.Principal component analysis"
+  ],
+  "educationalGoal": "In evaluation problems related to humanities and social sciences, many properties must be often handled simultaneously and comprehensively, and multivariate analysis methods can often provide effective solutions. In this course, students will learn the concepts of and ways of using multivariate analysis via Excel functions. The primary goal is to give them the opportunity to master the method of prediction analysis and learn how to summarize multivariate data. Another goal is to ensure they are capable of using these methods in future learning activities.",
+  "advice": "The course focuses on the following items: 1. Features and summary of multivariate analysis (prediction and data summarization) 2. The concept and use method of multiple regression analysis 3. The concept and use method of principal component analysis 4. How to use Excel functions Students are expected to review the basic knowledge of linear algebra. In addition, they should learn the contents of descriptive statistics in “Statistics for Information”. It is also desirable to understand the contents of hypothesis testing.",
+  "books": "Textbooks:none Reference books: Reserved books:none",
+  "requiredKnowledge": "Review linear algebra (i.e., matrices and vectors). Students must be sure to master the lecture contents by reviewing because each item is closely related to previous lessons. Bring a laptop PC (unless otherwise noted) because the lessons will always include practice sessions using Excel.",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "D,N,O,Q",
+      "body": "Be able to use multivariate analysis in future learning activities such as Project Design III."
+    },
+    {
+      "index": "②",
+      "type": "D,O",
+      "body": "Be able to distinguish the prediction model concept from the data summarization concept."
+    },
+    {
+      "index": "③",
+      "type": "D,O",
+      "body": "Be able to understand the basic concepts and application methods of multiple regression analysis."
+    },
+    {
+      "index": "④",
+      "type": "D,O",
+      "body": "Be able to understand the basic concepts and application methods of principal component analysis."
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "40",
+        "10",
+        "30",
+        "0",
+        "0",
+        "0",
+        "20",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "40",
+        "10",
+        "30",
+        "0",
+        "0",
+        "0",
+        "20",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "40",
+        "10",
+        "30",
+        "0",
+        "0",
+        "0",
+        "20",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションと\nリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "Be able to grasp the importance of multivariate analysis in the analysis of evaluation problems. Be able to understand the theory of each method, use statistical procedures properly, and derive suitable knowledge from analysis results.",
+    "standard": "Be able to grasp the importance of multivariate analysis in the analysis for evaluation problems. Be able to understand the basic concepts of each method, use statistical procedures, and interpret analysis results."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Orientation Correlation and correlation coefficient",
+      "operation": "Lecture",
+      "assignments": "Preparation: Understand the inner product of vectors. Review: Review contents and task for this week.",
+      "minutes": "60 90"
+    },
+    {
+      "index": "2",
+      "content": "Multiple regression analysis (1) Multiple regression model and multiple regression equation",
+      "operation": "Lecture and practice",
+      "assignments": "Preparation: Read §3.1 to §3.2 in the text. Review: Review contents and task for this week.",
+      "minutes": "60 90"
+    },
+    {
+      "index": "3",
+      "content": "Multiple regression analysis (2) Meaning of partial regression coefficient (standard partial regression coefficient)",
+      "operation": "Lecture and practice",
+      "assignments": "Preparation: Read §3.3 to §3.4 in the text. Review: Review contents and task for this week.",
+      "minutes": "60 90"
+    },
+    {
+      "index": "4",
+      "content": "Multiple regression analysis (3) Significance and accuracy of multiple regression equations",
+      "operation": "Lecture and practice",
+      "assignments": "Preparation: Read §3.6 to Appendix A.1 in the text. Review: Review contents and task for this week.",
+      "minutes": "60 90"
+    },
+    {
+      "index": "5",
+      "content": "Multiple regression analysis (4) Normal equation and partial regression coefficient (for variables more than 3) Quiz 1",
+      "operation": "Lecture and practice",
+      "assignments": "Preparation: Read §3.1 to §3.5 in the text. Review: Review contents and task for this week.",
+      "minutes": "120 60"
+    },
+    {
+      "index": "6",
+      "content": "Multiple regression analysis (5) T-test and significance of partial regression coefficient",
+      "operation": "Lecture and practice",
+      "assignments": "Preparation: Read t-test in some book. Review: Review contents and task for this week.",
+      "minutes": "90 60"
+    },
+    {
+      "index": "7",
+      "content": "Multiple regression analysis (6) Comprehensive exercise (results interpretation) Report 1",
+      "operation": "Lecture and practice",
+      "assignments": "Preparation: Read §3.1 to §3.7 in the text. Review: Review contents and task for this week.",
+      "minutes": "60 120"
+    },
+    {
+      "index": "8",
+      "content": "Principal component analysis (1) Purpose of principal component analysis",
+      "operation": "Lecture and practice",
+      "assignments": "Preparation: Read §4.1 to §4.2 in the text. Review: Review contents and task for this week",
+      "minutes": "60 90"
+    },
+    {
+      "index": "9",
+      "content": "Principal component analysis (2) Derivation of principal components",
+      "operation": "Lecture and practice",
+      "assignments": "Preparation: Read §4.3 in the text. Review: Review contents and task for this week.",
+      "minutes": "60 90"
+    },
+    {
+      "index": "10",
+      "content": "Principal component analysis (3) Cumulative contribution rate and principal component loading",
+      "operation": "Lecture and practice",
+      "assignments": "Preparation: Read §4.3 and §4.4 in the text. Review: Review contents and task for this week.",
+      "minutes": "60 90"
+    },
+    {
+      "index": "11",
+      "content": "Principal component analysis (4) Comprehensive exercise Report 2",
+      "operation": "Lecture and practice",
+      "assignments": "Review: understand task and § 4.4 in the text, and contents from 8th to 11th weeks.",
+      "minutes": "120"
+    },
+    {
+      "index": "12",
+      "content": "Comprehensive exercise of multivariate analysis (1) Application of multivariate analysis, basic theory of statistics",
+      "operation": "Lecture and practice",
+      "assignments": "Preparation: Read Chapter 3 in the text. Review: Review contents and task for this week",
+      "minutes": "60 90"
+    },
+    {
+      "index": "13",
+      "content": "Comprehensive exercise of multivariate analysis (2) Application of multivariate analysis, other multivariate analysis methods",
+      "operation": "Lecture and practice",
+      "assignments": "Preparation: Read Chapter 4 in the text. Review: Review contents and reports",
+      "minutes": "60 30"
+    },
+    {
+      "index": "14",
+      "content": "Examination for confirmation of achievement",
+      "operation": "Examination",
+      "assignments": "Preparation: Understand contents up to the 13th week.",
+      "minutes": "180"
+    },
+    {
+      "index": "15",
+      "content": "Self-inspection class",
+      "operation": "Examination commentary",
+      "assignments": "Review: understand the examination problems.",
+      "minutes": "60"
+    }
+  ],
+  "rawText": "金沢工業大学 学習支援計画書 G215-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nMathematics and Science Program\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Mathematics and Science Program\nMathematics and Science Courses\n情報数理B\nMathematics for Information Science B  2 G215-01  2020年度\n 2nd year 2nd semester  修学規程第4条を参照\n    担当教員名\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Multivariate analysis 2.Prediction model 3.Multiple regression analysis 4.Principal component analysis  In evaluation problems related to humanities and social sciences, many properties must be often handled simultaneously and comprehensively, and multivariate analysis methods can often provide effective solutions. In this course, students will learn the concepts of and ways of using multivariate analysis via Excel functions. The primary goal is to give them the opportunity to master the method of prediction analysis and learn how to summarize multivariate data. Another goal is to ensure they are capable of using these methods in future learning activities.\n    授業の概要および学習上の助言   The course focuses on the following items: 1. Features and summary of multivariate analysis (prediction and data summarization) 2. The concept and use method of multiple regression analysis 3. The concept and use method of principal component analysis 4. How to use Excel functions Students are expected to review the basic knowledge of linear algebra. In addition, they should learn the contents of descriptive statistics in “Statistics for Information”. It is also desirable to understand the contents of hypothesis testing.\n    教科書および参考書・リザーブドブック   Textbooks:none Reference books: Reserved books:none\n    履修に必要な予備知識や技能   Review linear algebra (i.e., matrices and vectors). Students must be sure to master the lecture contents by reviewing because each item is closely related to previous lessons. Bring a laptop PC (unless otherwise noted) because the lessons will always include practice sessions using Excel.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① D,N,O,Q Be able to use multivariate analysis in future learning activities such as Project Design III.   ② D,O Be able to distinguish the prediction model concept from the data summarization concept.   ③ D,O Be able to understand the basic concepts and application methods of multiple regression analysis.   ④ D,O Be able to understand the basic concepts and application methods of principal component analysis.   ⑤     ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 40 10 30 0 0 0 20 100     指標と評価割合 総合評価割合 40 10 30 0 0 0 20 100   総合力指標 知識を取り込む力 40 10 30 0 0 0 20 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ In exam will be given in the 14th week. The test time is 60 minutes. The contents of all classes from the first week to the 13th week are within scope of the questions. The exam will include selection, calculation type, and description type questions. In the calculation problems, calculators (without communication functions) can be used, but mobile phones (with calculator functions) and personal computers are prohibited. In the description problem, the characteristics of the evaluation process may be considered from analysis results.   ② レ   ③ レ   ④ レ   ⑤     ⑥     クイズ\n小テスト ① レ A quiz will be given in the 5th week. In particular, normal equations and the significance of multiple regression equations are important confirmation items.   ②     ③ レ   ④     ⑤     ⑥     レポート ① レ Report submissions are required twice. The problems will be addressed in the 7th and 11th weeks, and each report will be submitted the next week. The 7th and 11th week report contents cover the prediction method (multiple regression analysis) and principal component analysis, respectively. The 11th week may also include issues related to the prediction model. Each report requires data",
+  "sourceYear": "2020",
+  "originalSourceIndex": 61,
+  "courseId": "2020:spring:G473-01:0:7558",
+  "language": "en"
+}

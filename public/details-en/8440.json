@@ -1,0 +1,312 @@
+{
+  "sourceIndex": 8440,
+  "sourceUrl": "/opsyllabus/kitos0110/78/1",
+  "importedAt": "2026-06-12T08:01:33.348Z",
+  "title": "アドバンスト数理B",
+  "subtitle": "Advanced Mathematics B",
+  "courseType": "Mathematics and Science Program\nMathematics and Science Courses",
+  "credits": "2",
+  "term": "2021年度\n 2nd year 2nd semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "NISHIOKA Keita",
+    "KUDO Tomoshige",
+    "KITAJIMA Takahiro"
+  ],
+  "keywords": [
+    "1st order ODEs and properties of their solutions 2.2nd order homogeneous linear ODEs 3.2nd order inhomogeneous linear ODEs 4.Simultaneous systems of linear ODEs 5.Mathematical models for phenomena and analyses of their solutions"
+  ],
+  "educationalGoal": "Various issues in engineering, science and social science are often described by differential equations. Students will learn how to solve 1st order ordinary differential equations (ODEs), 2nd order constant-coefficient linear ODEs and systems of simultaneous linear ODEs, and will understand (1) how to construct mathematical models of phenomena, (2) concrete solution method and (3) how to analyze solution properties and characteristics. The students will join computing project using MATLAB, and will gain experience to apply ODEs to real various problems.",
+  "advice": "In the class, the students will learn differential equations (ODEs): (1) 1st order ODEs, (2) 2nd order constant-coefficient linear ODEs (homogeneous and inhomogeneous ODEs), and (3) systems of 1st order simultaneous linear ODEs. The students will learn the following analytical methods: (I) How to express physical and social phenomena with ODEs (construction of mathematical models). (II) How to solve specific types of ODEs. (III) Analytical methods in which students will analyze obtained solutions and acquire information pertinent to the activities of engineers such as the pattern and the speed of changes in various phenomena. After the student learn the main themes of ODEs, the students will apply the above knowledge (I), (II), and (III) to computing projects by using formula manipulation system, and submit a report of their results. In the class, the students will use MATLAB in the following activities: 1) Visualizing the solutions for ODEs. 2) Setting and evaluating the parameters of ODEs. 3) Modeling physical phenomena and deriving and analyzing their solutions. Therefore, the students should install MATLAB on individual notebook computer, and should master basic usage of MATLAB beforehand.",
+  "books": "Textbooks:Advanced Engineering Mathematics 1: Ordinary Differential Equation (8th Edition) [Baifukan] Reference books:None Reserved books:Advanced Engineering Mathematics, 10th Edition [John Wiley & Sons, Inc.]",
+  "requiredKnowledge": "Knowledge of differential and integral calculations, basic differential equations, and linear algebra in the subjects: Integrated Math and Science for Engineering I & II, Linear Algebra I & II. Basic computer skills for computing projects.",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "D",
+      "body": "Be able to construct 1st order ODEs for various phenomena and obtain the solutions."
+    },
+    {
+      "index": "②",
+      "type": "D",
+      "body": "Be able to construct 2nd order linear ODEs for various phenomena and obtain the solutions."
+    },
+    {
+      "index": "③",
+      "type": "D",
+      "body": "Be able to construct simultaneous systems of 1st order ODEs for various phenomena and obtain the solutions."
+    },
+    {
+      "index": "④",
+      "type": "D",
+      "body": "Be able to analyze solutions obtained from ODEs and evaluate the pattern and speed of changes in phenomena."
+    },
+    {
+      "index": "⑤",
+      "type": "C",
+      "body": "Be able to understand the meanings of fundamental english words for mathematics."
+    },
+    {
+      "index": "⑥",
+      "type": "A",
+      "body": "Be able to understand the class contents by completing the homework and attending every class."
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "30",
+        "20",
+        "20",
+        "0",
+        "0",
+        "0",
+        "30",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "30",
+        "20",
+        "20",
+        "0",
+        "0",
+        "0",
+        "30",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "30",
+        "20",
+        "20",
+        "0",
+        "0",
+        "0",
+        "30",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションと\nリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "(1) Understand the concept of ODEs and accurately explain the geometric properties of the solutions. (2) Construct accurate mathematical models with ODEs from scientific and social phenomena. (3) Accurately analyze the structure of ODEs and select an appropriate solution method. (4) Draw the graph of the solution of an ODEs and clearly explain the behavior of the solution. (5) Accurately analyze the behavior of solutions, predict future states of a phenomenon, obtain optimal solutions, and explain the reason for the predictions. (6) Understand and successfully complete all homework.",
+    "standard": "(1) Understand the concept of ODEs and explain the geometric properties of the solutions. (2) Construct mathematical models with ODEs from scientific and social phenomena. (3) Analyze the structure of ODEs and select an appropriate solution method. (4) Draw the graph of the solution of an ODE and explain the behavior of the solution. (5) Analyze the behavior of solutions, predict future states of a phenomenon, and obtain optimal solutions. (6) Understand and complete all homework."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Course introduction Basic concept of 1st order ODEs Geometrical meaning and direction fields of 1st order ODEs",
+      "operation": "Instruction Lecture and exercise",
+      "assignments": "Review: Basic concept of 1st order ODEs, Geometrical meaning and direction fields of 1st order ODEs Preview: Separable ODEs",
+      "minutes": "60 30"
+    },
+    {
+      "index": "2",
+      "content": "Separable ODEs Transformation to separable form Modeling",
+      "operation": "Lecture and exercise",
+      "assignments": "Review: Separable ODEs, Modeling Preview: Exact ODEs",
+      "minutes": "60 30"
+    },
+    {
+      "index": "3",
+      "content": "Exact ODEs Integrating factors",
+      "operation": "Lecture and exercise",
+      "assignments": "Review: Exact ODEs, Integrating factors Preview: 1st order linear ODEs",
+      "minutes": "60 30"
+    },
+    {
+      "index": "4",
+      "content": "1st order linear ODEs Bernoulli equation",
+      "operation": "Lecture and exercise",
+      "assignments": "Review: 1st order linear ODEs Preview: Modeling",
+      "minutes": "60 30"
+    },
+    {
+      "index": "5",
+      "content": "Modeling: Mixing problems, Population dynamics, Electric circuits",
+      "operation": "Lecture and exercise",
+      "assignments": "Review: Modeling, mixing problems Preview: Quiz 1",
+      "minutes": "60 60"
+    },
+    {
+      "index": "6",
+      "content": "Quiz 1 Computing project 1",
+      "operation": "Quiz 1 Computing project",
+      "assignments": "Review: Computing project 1 Preview: Computing project 1",
+      "minutes": "30 30"
+    },
+    {
+      "index": "7",
+      "content": "Computing project 1 (Continuation from last class)",
+      "operation": "Computing project Self-check",
+      "assignments": "Review: Computing project 1 Preview: 2nd order linear ODEs",
+      "minutes": "90 30"
+    },
+    {
+      "index": "8",
+      "content": "2nd order homogeneous linear ODEs Constant coefficient equations Complex exponential functions Modeling: free oscillations of a mass-spring system",
+      "operation": "Lecture and exercise",
+      "assignments": "Review: 2nd order homogeneous linear ODEs Preview: Wronskian, Nonhomogeneous ODEs",
+      "minutes": "60 30"
+    },
+    {
+      "index": "9",
+      "content": "Existence and uniqueness of solutions Wronskian Nonhomogeneous equation Method of undetermined coefficients",
+      "operation": "Lecture and exercise",
+      "assignments": "Review: Method of undetermined coefficients Preview: Solution by variation of parameters",
+      "minutes": "60 30"
+    },
+    {
+      "index": "10",
+      "content": "Solution by variation of parameters Modeling: forced oscillations, resonance.",
+      "operation": "Lecture and exercise",
+      "assignments": "Review: Solution by variation of parameters Preview: Quiz 2",
+      "minutes": "60 60"
+    },
+    {
+      "index": "11",
+      "content": "Quiz 2 Vector, matrix, eigenvalue problem",
+      "operation": "Quiz 2 Lecture and exercise",
+      "assignments": "Review: Vector, matrix, eigenvalue problems Preview: Systems of ODEs",
+      "minutes": "30 30"
+    },
+    {
+      "index": "12",
+      "content": "Systems of ODEs Modeling: coupled oscillations, electrical network, mixing problem",
+      "operation": "Lecture and exercise Self-check",
+      "assignments": "Review: Systems of ODEs, Modeling Preview: Computing project 2",
+      "minutes": "60 30"
+    },
+    {
+      "index": "13",
+      "content": "Computing project 2",
+      "operation": "Computing project",
+      "assignments": "Review: Computing project 2 Preview: Final exam.",
+      "minutes": "30 90"
+    },
+    {
+      "index": "14",
+      "content": "Total review Final exam.",
+      "operation": "Exercise Final exam.",
+      "assignments": "Review: Final exam. Self-check: Confirmation of submission, attendance",
+      "minutes": "60"
+    },
+    {
+      "index": "15",
+      "content": "Review of final exam. Self-check",
+      "operation": "Review of final exam. Self-check Questionnaire",
+      "assignments": "Review: Final exam.",
+      "minutes": "30"
+    }
+  ],
+  "rawText": "金沢工業大学 学習支援計画書 G226-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nMathematics and Science Program\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Mathematics and Science Program\nMathematics and Science Courses\nアドバンスト数理B\nAdvanced Mathematics B  2 G226-01  2021年度\n 2nd year 2nd semester  修学規程第4条を参照\n    担当教員名\n NISHIOKA Keita, KUDO Tomoshige, KITAJIMA Takahiro\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.1st order ODEs and properties of their solutions 2.2nd order homogeneous linear ODEs 3.2nd order inhomogeneous linear ODEs 4.Simultaneous systems of linear ODEs 5.Mathematical models for phenomena and analyses of their solutions  Various issues in engineering, science and social science are often described by differential equations. Students will learn how to solve 1st order ordinary differential equations (ODEs), 2nd order constant-coefficient linear ODEs and systems of simultaneous linear ODEs, and will understand (1) how to construct mathematical models of phenomena, (2) concrete solution method and (3) how to analyze solution properties and characteristics. The students will join computing project using MATLAB, and will gain experience to apply ODEs to real various problems.\n    授業の概要および学習上の助言   In the class, the students will learn differential equations (ODEs): (1) 1st order ODEs, (2) 2nd order constant-coefficient linear ODEs (homogeneous and inhomogeneous ODEs), and (3) systems of 1st order simultaneous linear ODEs. The students will learn the following analytical methods: (I) How to express physical and social phenomena with ODEs (construction of mathematical models). (II) How to solve specific types of ODEs. (III) Analytical methods in which students will analyze obtained solutions and acquire information pertinent to the activities of engineers such as the pattern and the speed of changes in various phenomena. After the student learn the main themes of ODEs, the students will apply the above knowledge (I), (II), and (III) to computing projects by using formula manipulation system, and submit a report of their results. In the class, the students will use MATLAB in the following activities: 1) Visualizing the solutions for ODEs. 2) Setting and evaluating the parameters of ODEs. 3) Modeling physical phenomena and deriving and analyzing their solutions. Therefore, the students should install MATLAB on individual notebook computer, and should master basic usage of MATLAB beforehand.\n    教科書および参考書・リザーブドブック   Textbooks:Advanced Engineering Mathematics 1: Ordinary Differential Equation (8th Edition) [Baifukan] Reference books:None Reserved books:Advanced Engineering Mathematics, 10th Edition [John Wiley & Sons, Inc.]\n    履修に必要な予備知識や技能   Knowledge of differential and integral calculations, basic differential equations, and linear algebra in the subjects: Integrated Math and Science for Engineering I & II, Linear Algebra I & II. Basic computer skills for computing projects.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① D Be able to construct 1st order ODEs for various phenomena and obtain the solutions.   ② D Be able to construct 2nd order linear ODEs for various phenomena and obtain the solutions.   ③ D Be able to construct simultaneous systems of 1st order ODEs for various phenomena and obtain the solutions.   ④ D Be able to analyze solutions obtained from ODEs and evaluate the pattern and speed of changes in phenomena.   ⑤ C Be able to understand the meanings of fundamental english words for mathematics.   ⑥ A Be able to understand the class contents by completing the homework and attending every class.\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 30 20 20 0 0 0 30 100     指標と評価割合 総合評価割合 30 20 20 0 0 0 30 100   総合力指標 知識を取り込む力 30 20 20 0 0 0 30 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ There will be an exam covering all ",
+  "sourceYear": "2021",
+  "originalSourceIndex": 78,
+  "courseId": "2021:fall:G481-01:0:8440",
+  "language": "en"
+}

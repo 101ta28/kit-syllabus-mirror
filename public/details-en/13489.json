@@ -1,0 +1,301 @@
+{
+  "sourceIndex": 13489,
+  "sourceUrl": "/opsyllabus/kitos0110/402/1",
+  "importedAt": "2026-06-12T08:03:07.929Z",
+  "title": "ゲーム制作演習",
+  "subtitle": "Video-Game Production",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "2",
+  "term": "2026年度\n 3rd year 1st semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "NAKAZAWA Kenji",
+    "SATOU Fujio"
+  ],
+  "keywords": [
+    "Unity 2.Setting the production environment 3.Game production process 4.Game programming"
+  ],
+  "educationalGoal": "In this course, students will learn the basics of game production using Unity. More specifically, they will build a development environment on their individual PCs and learn the game production process through 2D and 3D sample programs. By applying original ideas such as game design, images and animation expressions, and program functions, students will be able to acquire the application skills needed to expand into original game creation.",
+  "advice": "In this course, students will learn to understand the configuration and operation of the game sample program used by checking the game operations and rules described in each chapter in the textbook. Based on this sample program, students will then try various ideas and work to create original games. In this class, the Unity game engine is used. In addition, since C# is used for the script that controls the game, an object-oriented language review is essential for all students.",
+  "books": "",
+  "requiredKnowledge": "Experience in programming with object-oriented languages and a good understanding of programming basics is required.",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "K",
+      "body": "Be able to build a game in the Unity production development environment."
+    },
+    {
+      "index": "②",
+      "type": "K,E,F,I",
+      "body": "Be able to understand the game production process."
+    },
+    {
+      "index": "③",
+      "type": "K,E,F,I,N",
+      "body": "Be able to create multiple basic games."
+    },
+    {
+      "index": "④",
+      "type": "K,E,F,I,N",
+      "body": "Be able to extend a game with originality by adding original stories, images, and animations to the basic game."
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "20",
+        "0",
+        "20",
+        "0",
+        "40",
+        "0",
+        "20",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "20",
+        "0",
+        "20",
+        "0",
+        "40",
+        "0",
+        "20",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "20",
+        "0",
+        "20",
+        "0",
+        "40",
+        "0",
+        "20",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションと\nリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "Students are required to achieve an overall goal of 90% or higher.",
+    "standard": "Students are required to achieve an overall goal of 70%."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Course introduction Development environment construction, basic operation of Unity Chapter 1 “Basics of game making”",
+      "operation": "Lecture and practice",
+      "assignments": "Review of today's lecture Prepare Chapter 2 of the textbook",
+      "minutes": "120"
+    },
+    {
+      "index": "2",
+      "content": "How to write a script required to run the game Chapter 2 “C# Script basics”",
+      "operation": "Lecture and practice",
+      "assignments": "Review of today's lecture Prepare Chapter 3 of the textbook",
+      "minutes": "180"
+    },
+    {
+      "index": "3",
+      "content": "How to place and move objects such as characters Chapter 3 “How to place and move objects”",
+      "operation": "Lecture and practice",
+      "assignments": "Review of today's lecture Prepare Chapter 4 of the textbook",
+      "minutes": "180"
+    },
+    {
+      "index": "4",
+      "content": "Objects that manage the user interface and game progress and status Chapter 4 “UI and supervision objects”",
+      "operation": "Lecture and practice",
+      "assignments": "Review of today's lecture Prepare Chapter 5 of the textbook",
+      "minutes": "180"
+    },
+    {
+      "index": "5",
+      "content": "Object duplication method and hit judgment Chapter 5 “Prefab and hit judgment”",
+      "operation": "Lecture and practice",
+      "assignments": "Review of today's lecture Prepare Chapter 6 of the textbook",
+      "minutes": "180"
+    },
+    {
+      "index": "6",
+      "content": "How to use Physics, animation using Mecanim and scene transition Chapter 6 “Physics and animation”",
+      "operation": "Lecture and practice",
+      "assignments": "Review of today's lecture Prepare for the confirmation test",
+      "minutes": "180"
+    },
+    {
+      "index": "7",
+      "content": "Confirmation test Game production practice",
+      "operation": "Exam and practice",
+      "assignments": "Prepare Chapter 7 of the textbook",
+      "minutes": "180"
+    },
+    {
+      "index": "8",
+      "content": "How to make a 3D game, how to create Terrain, how to create particles Chapter 7 “How to make a 3D game”",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Review of today's lecture Prepare Chapter 8 of the textbook",
+      "minutes": "180"
+    },
+    {
+      "index": "9",
+      "content": "Setting the game difficulty Chapter 8 “Level design”",
+      "operation": "Lecture and practice",
+      "assignments": "Review of today's lecture Prepare for 3D game",
+      "minutes": "240"
+    },
+    {
+      "index": "10",
+      "content": "Organize groups Explanation about the overall assignment Game production practice by group",
+      "operation": "Practice Self-check",
+      "assignments": "Create original 3D game",
+      "minutes": "240"
+    },
+    {
+      "index": "11",
+      "content": "Game production practice by group",
+      "operation": "Practice",
+      "assignments": "Create original 3D game",
+      "minutes": "300"
+    },
+    {
+      "index": "12",
+      "content": "Game production practice by group",
+      "operation": "Practice",
+      "assignments": "Finalize the original 3D game Prepare for the presentation and the group assignment",
+      "minutes": "300"
+    },
+    {
+      "index": "13",
+      "content": "Presentation of production",
+      "operation": "Presentation and Presentation of production Presentation and discussion",
+      "assignments": "Review of own team's work Prepare for the personal assignment",
+      "minutes": "300"
+    },
+    {
+      "index": "14",
+      "content": "Presentation of production",
+      "operation": "Presentation and discussion",
+      "assignments": "Review of own team's work",
+      "minutes": "60"
+    },
+    {
+      "index": "15",
+      "content": "Review Evolutionary learning",
+      "operation": "Review Lecture Self-evaluation",
+      "assignments": "Review",
+      "minutes": "60"
+    }
+  ],
+  "rawText": "金沢工業大学 学習支援計画書 F023-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Media Informatics(〜2024)\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\nゲーム制作演習\nVideo-Game Production  2 F023-01  2026年度\n 3rd year 1st semester  修学規程第4条を参照\n    担当教員名\n NAKAZAWA Kenji, SATOU Fujio      *印は、実務経験のある教員を示しています。\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Unity 2.Setting the production environment 3.Game production process 4.Game programming  In this course, students will learn the basics of game production using Unity. More specifically, they will build a development environment on their individual PCs and learn the game production process through 2D and 3D sample programs. By applying original ideas such as game design, images and animation expressions, and program functions, students will be able to acquire the application skills needed to expand into original game creation.\n    授業の概要および学習上の助言   In this course, students will learn to understand the configuration and operation of the game sample program used by checking the game operations and rules described in each chapter in the textbook. Based on this sample program, students will then try various ideas and work to create original games. In this class, the Unity game engine is used. In addition, since C# is used for the script that controls the game, an object-oriented language review is essential for all students.\n    教科書および参考書・リザーブドブック\n    履修に必要な予備知識や技能   Experience in programming with object-oriented languages and a good understanding of programming basics is required.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① K Be able to build a game in the Unity production development environment.   ② K,E,F,I Be able to understand the game production process.   ③ K,E,F,I,N Be able to create multiple basic games.   ④ K,E,F,I,N Be able to extend a game with originality by adding original stories, images, and animations to the basic game.   ⑤     ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 20 0 20 0 40 0 20 100     指標と評価割合 総合評価割合 20 0 20 0 40 0 20 100   総合力指標 知識を取り込む力 20 0 20 0 40 0 20 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ Students will be evaluated on their level of understanding of how to set up and operate the game production environment, as well as how to create and express basic games.   ② レ   ③ レ   ④     ⑤     ⑥     クイズ\n小テスト ①      ②     ③     ④     ⑤     ⑥     レポート ① レ Students will be evaluated the work reports produced in the midterm assignment. The evaluation will consider whether the devised points have been clarified, and whether the contents have been adequately explained from both technology and expression viewpoints.   ② レ   ③ レ   ④     ⑤     ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ① レ Students will be evaluated the work produced in the final-term assignment and their report concerning it. The evaluation can be extended to original games by adding original stories and image expressions to basic games.   ② レ   ③ レ   ④ レ   ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ① レ Students will be evaluated on their attitudes and motivation (attitude, attendance, punctuality, etc.)   ② レ   ③ レ   ④ レ   ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     Students are required to achieve an overall goal of 90% or higher. Students are required to achieve an overall goal of 70%.\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習課題に要する標準的な時間を記載してあります。日々の自学自習時間全体としては、各授業に応じた時間(例えば2単位科目の場合、予習2時間・復習2時間/週)を取るよう努めてください。詳しくは教員の指導に従って下さい。     授業明細   回数 学習内容 授業の運営方法 学習課題(予習・復習) 時間:分※     1  Course introduction Development environment con",
+  "sourceYear": "2026",
+  "originalSourceIndex": 402,
+  "courseId": "2026:spring:F024-01:0:13489",
+  "language": "en"
+}

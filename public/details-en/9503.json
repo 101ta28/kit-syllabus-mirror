@@ -1,0 +1,301 @@
+{
+  "sourceIndex": 9503,
+  "sourceUrl": "/opsyllabus/kitos0110/246/1",
+  "importedAt": "2026-06-12T08:01:53.925Z",
+  "title": "数値シミュレーション(再履修クラス)",
+  "subtitle": "Numerical Simulation",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "2",
+  "term": "2022年度\n 3rd year 2nd semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "YOSHIDA Keishiro",
+    "SASAKI Daisuke"
+  ],
+  "keywords": [
+    "Numerical simulation 2.Structural analysis 3.Aerodynamic analysis 4.Finite element method 5.Local collaboration"
+  ],
+  "educationalGoal": "With the rapid development of computers, numerical simulations for structural analysis and aerodynamic analysis are essential in the aircraft design process. In this practical training course, students will learn how to properly use numerical simulation for structural mechanics and fluid dynamics in the aircraft design process. Students will also learn how to utilize numerical simulation to solve actual engineering problems that occur in their local community.",
+  "advice": "In this course, students will learn numerical analysis through the use of numerical analysis software. We will cover the following materials: 1 Introduction to numerical simulation 2 Structural analysis Geometrical modeling, Finite element modeling, Load and constraint conditions, Execution of analysis, Evaluation of results, Comparison with theoretical result 3 Aerodynamic analysis Geometry modelling, Meshing, Computational method, Initial and boundary conditions, Execution of analysis, Evaluation of results, Comparison with experimental results Lectures on structural analysis and aerodynamic analysis will be given separately in the first half and the second half of semester. The order of the two lectures may change. A fixed schedule will be announced in the first lecture of the semester.",
+  "books": "Required materials will be specified in the first lesson.",
+  "requiredKnowledge": "It is recommended that students have already taken the following courses: Mechanics of Materials, Fundamentals of Fluid Mechanics, 3D-CAD, Aerodynamics for Aircraft A, Applied Mathematics, and Computer Engineering. In structural analysis, we will use the textbook specified above. In aerodynamic analysis, the textbook will be handed out during the class.",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "H,L,N",
+      "body": "Be able to analyze deformation and stress of a basic structure by using standard numerical analysis software"
+    },
+    {
+      "index": "②",
+      "type": "H,L,N",
+      "body": "Be able to conduct basic flaw field by using standard numerical analysis software"
+    },
+    {
+      "index": "③",
+      "type": "H,L,N",
+      "body": "Be able to explain factors that affect analysis results"
+    },
+    {
+      "index": "④",
+      "type": "H,L,N",
+      "body": "Be able to obtain information from analysis results to understand the stress field or the flow field"
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "0",
+        "40",
+        "60",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "0",
+        "40",
+        "60",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "0",
+        "40",
+        "60",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションと\nリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "[Structural analysis] In the analysis of a flat plate with a semicircular notch, accurately evaluate the effect of mesh division on the analysis results. In the analysis of a box beam, evaluate the analysis results based on knowledge of mechanics of materials. [Aerodynamic analysis] In analysis of a 2D circular cylinder, set up a suitable boundary condition and recognize the influence of meshing on the computational result. In analysis of airfoil shapes, accurately compute the pressure distribution, lift, drag, and moment. In addition, evaluate the computational results based on knowledge of aerodynamics.",
+    "standard": "[Structural analysis] In analysis of a flat plate with a semicircular notch, evaluate the effect of mesh division on the analysis results. In analysis of a box beam, accurately calculate the deformation and stress. [Aerodynamic analysis] In analysis of a 2D circular cylinder, explain a suitable boundary condition and the influence of meshing on the computational result. In analysis of airfoil shapes, accurately compute the pressure distribution, lift, drag and moment."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "[Course introduction] Importance of numerical simulation in aircraft design",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Understand the role of this course in the curriculum Understand the schedule and goals of this course",
+      "minutes": "60"
+    },
+    {
+      "index": "2",
+      "content": "[Structural analysis] Introduction to finite element analysis Analysis of stress concentration on a flat plate with a semicircular notch (1)",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Read textbook Ch.1, Sec. 2.1, and Sec. 2.2 Review the last class",
+      "minutes": "60"
+    },
+    {
+      "index": "3",
+      "content": "[Structural analysis] Analysis of stress concentration on a flat plate with a semicircular notch (2)",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Read textbook Sec. 2.3 Review the last class",
+      "minutes": "60"
+    },
+    {
+      "index": "4",
+      "content": "[Structural analysis] Analysis of deformation and stress of box beam (1)",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Read textbook Sec. 3.1-3.2 Review the last class",
+      "minutes": "60"
+    },
+    {
+      "index": "5",
+      "content": "[Structural analysis] Analysis of deformation and stress of box beam (2)",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Read textbook Sec. 3.3 Review the last class",
+      "minutes": "60"
+    },
+    {
+      "index": "6",
+      "content": "[Structural analysis] Analysis of deformation and stress of box beam (3)",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Read textbook Subsec. 3.3.6 Review the last class",
+      "minutes": "60"
+    },
+    {
+      "index": "7",
+      "content": "[Structural analysis] Analysis of deformation and stress of box beam with CFRP skin",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Read textbook Sec. 3.4 Review the last class",
+      "minutes": "60"
+    },
+    {
+      "index": "8",
+      "content": "[Aerodynamic analysis] Introduction to aerodynamic analysis Analysis of transonic airfoil (1)",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Prepare for the practice Review the last class",
+      "minutes": "90"
+    },
+    {
+      "index": "9",
+      "content": "[Aerodynamic analysis] Analysis of transonic airfoil (2)",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Prepare for the practice Review the last class",
+      "minutes": "120"
+    },
+    {
+      "index": "10",
+      "content": "[Aerodynamic analysis] Analysis of unsteady (laminar) flows around circular cylinder (1)",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Prepare for the practice Review the last class",
+      "minutes": "90"
+    },
+    {
+      "index": "11",
+      "content": "[Aerodynamic analysis] Analysis of unsteady (laminar) flows around circular cylinder (2)",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Prepare for the practice Review the last class",
+      "minutes": "90"
+    },
+    {
+      "index": "12",
+      "content": "[Aerodynamic analysis] Analysis of RANS (steady) simulation of airfoil (1)",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Prepare for the practice Review the last class",
+      "minutes": "120"
+    },
+    {
+      "index": "13",
+      "content": "[Aerodynamic analysis] Analysis of RANS (steady) simulation of airfoil (2)",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Prepare for the practice Review the last class",
+      "minutes": "180"
+    },
+    {
+      "index": "14",
+      "content": "[Practice (1)] Practice of numerical simulation",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Prepare for the practice Review the last class",
+      "minutes": "120"
+    },
+    {
+      "index": "15",
+      "content": "[Practice (2)] Practice of numerical simulation [Review]",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Prepare for the practice",
+      "minutes": "60"
+    }
+  ],
+  "rawText": "金沢工業大学 学習支援計画書 E127-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Aeronautics\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n数値シミュレーション(再履修クラス)\nNumerical Simulation  2 E127-01  2022年度\n 3rd year 2nd semester  修学規程第4条を参照\n    担当教員名\n YOSHIDA Keishiro, SASAKI Daisuke\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Numerical simulation 2.Structural analysis 3.Aerodynamic analysis 4.Finite element method 5.Local collaboration  With the rapid development of computers, numerical simulations for structural analysis and aerodynamic analysis are essential in the aircraft design process. In this practical training course, students will learn how to properly use numerical simulation for structural mechanics and fluid dynamics in the aircraft design process. Students will also learn how to utilize numerical simulation to solve actual engineering problems that occur in their local community.\n    授業の概要および学習上の助言   In this course, students will learn numerical analysis through the use of numerical analysis software. We will cover the following materials: 1 Introduction to numerical simulation 2 Structural analysis Geometrical modeling, Finite element modeling, Load and constraint conditions, Execution of analysis, Evaluation of results, Comparison with theoretical result 3 Aerodynamic analysis Geometry modelling, Meshing, Computational method, Initial and boundary conditions, Execution of analysis, Evaluation of results, Comparison with experimental results Lectures on structural analysis and aerodynamic analysis will be given separately in the first half and the second half of semester. The order of the two lectures may change. A fixed schedule will be announced in the first lecture of the semester.\n    教科書および参考書・リザーブドブック   Required materials will be specified in the first lesson.\n    履修に必要な予備知識や技能   It is recommended that students have already taken the following courses: Mechanics of Materials, Fundamentals of Fluid Mechanics, 3D-CAD, Aerodynamics for Aircraft A, Applied Mathematics, and Computer Engineering. In structural analysis, we will use the textbook specified above. In aerodynamic analysis, the textbook will be handed out during the class.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① H,L,N Be able to analyze deformation and stress of a basic structure by using standard numerical analysis software   ② H,L,N Be able to conduct basic flaw field by using standard numerical analysis software   ③ H,L,N Be able to explain factors that affect analysis results   ④ H,L,N Be able to obtain information from analysis results to understand the stress field or the flow field   ⑤     ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 0 40 60 0 0 0 0 100     指標と評価割合 総合評価割合 0 40 60 0 0 0 0 100   総合力指標 知識を取り込む力 0 40 60 0 0 0 0 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ①      ②     ③     ④     ⑤     ⑥     クイズ\n小テスト ① レ [Structural analysis] Students will be evaluated on a mini test on structural analysis that will be conducted once in the first (or second) half of the course. [Aerodynamic analysis] Students will be evaluated on reports on aerodynamics problems through aerodynamics analysis.   ② レ   ③ レ   ④ レ   ⑤     ⑥     レポート ① レ [Structural analysis] Students will be evaluated on two reports on structural analysis that will be assigned in the first (or second) half of the course. [Aerodynamic analysis] Students will be evaluated on reports on aerodynamics problems related to aeronautics. Students will be required to evaluate the computational results.   ② レ   ③ レ   ④ レ   ⑤     ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ①      ②     ③     ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     [Structural anal",
+  "sourceYear": "2022",
+  "originalSourceIndex": 246,
+  "courseId": "2022:full-year:E921-22:0:9503",
+  "language": "en"
+}

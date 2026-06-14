@@ -1,0 +1,313 @@
+{
+  "sourceIndex": 8438,
+  "sourceUrl": "/opsyllabus/kitos0110/76/1",
+  "importedAt": "2026-06-12T08:01:33.378Z",
+  "title": "技術者のための統計",
+  "subtitle": "Statistics for Engineers",
+  "courseType": "Mathematics and Science Program\nMathematics and Science Courses",
+  "credits": "2",
+  "term": "2021年度\n 1st year 1st semester\n2nd year 1st semester\n2nd year 2nd semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "ITO Takao",
+    "TSUTSUMI Atsuhiro",
+    "NISHIOKA Keita",
+    "NISHI Makoto"
+  ],
+  "keywords": [
+    "Probability 2.Bayes' Theorem 3.Probability Distribution 4.Estimation 5.Hypothesis Testing"
+  ],
+  "educationalGoal": "Students will (1) acquire basic knowledge of probability. (2) learn probability calculations using Bayes' theorem. (3) learn typical distribution functions such as the normal distribution,Student's t-distribution, and the chi-square distribution. (4) learn methods for interval estimation and hypothesis testing.",
+  "advice": "This is a course in statistical analysis of data. We will cover the following topics: 1. Probability and Random Variables (1) Event and Sample Space (2) Probability and Conditional Probability (3) Bayes' Theorem (4) Random Variables and Probability Distribution Functions (5) Typical Probability Distribution Functions 2. Descriptive Statistics (1) Frequency Distribution Table and Histogram (2) Average 3. Interval Estimation and Hypothesis Testing (1) Population and Sample (2) Interval Estimation of Population Mean and Population Variance (3) Hypothesis Testing of Population Mean Students are required to actively participate in the class. Students are expected to check for messages/materials on the KIT Inside website before every class/on a regular basis.",
+  "books": "Textbooks:Statistics that can be learned easily : Sonoko Ishizono [kyoritsu Shuppan] Reference books:None",
+  "requiredKnowledge": "Knowledge of basic calculus.",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "D",
+      "body": "Be able to understand the concept of probability and calculate probability using the laws probability."
+    },
+    {
+      "index": "②",
+      "type": "D",
+      "body": "Be able to calculate mean and variance for random variables."
+    },
+    {
+      "index": "③",
+      "type": "D",
+      "body": "Be able to analyze data by calculating the necessary statistics from data."
+    },
+    {
+      "index": "④",
+      "type": "D",
+      "body": "Be able to estimate and test population mean, variance, and population ratio using a sample distribution."
+    },
+    {
+      "index": "⑤",
+      "type": "C",
+      "body": "Understand the meanings of fundamental english words for statistics."
+    },
+    {
+      "index": "⑥",
+      "type": "A",
+      "body": "Be able to understand the contents of each class, work on assigned tasks, and attend every class."
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "30",
+        "30",
+        "20",
+        "0",
+        "0",
+        "0",
+        "20",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "30",
+        "30",
+        "20",
+        "0",
+        "0",
+        "0",
+        "20",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "30",
+        "30",
+        "20",
+        "0",
+        "0",
+        "0",
+        "20",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションと\nリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "(1) Understand the concept of probability correctly and be able to calculate probabilities appropriately. (2) Understand the meaning of random variables appropriately and calculate the mean and variance of a probability distribution. (3) Use common probability distributions to calculate probabilities in various situations. (4) Correctly calculate the statistical values required for data analysis. (5) Perform appropriate interval estimation and hypothesis testing using a sample distribution. (6) Apply course contents to various statistical problems.",
+    "standard": "(1) Understand the concept of probability and be able to calculate probabilities. (2) Understand the meaning of random variables and calculate the mean and variance of a probability distribution. (3) Calculate probability using common probability distributions. (4) Calculate the statistical values required for data analysis. (5) Perform interval estimation and hypothesis testing using a sample distribution. (6) Apply course contents to statistical problems."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Course introduction Basic statistics Basics of probability",
+      "operation": "Lecture, practice",
+      "assignments": "Understand the syllabus of this course Review the content of the lecture Prepare for the next class",
+      "minutes": "60"
+    },
+    {
+      "index": "2",
+      "content": "Basics of probability Conditional probability",
+      "operation": "Lecture, practice, interactive activities",
+      "assignments": "Review the content of the lecture Prepare for the next class",
+      "minutes": "100"
+    },
+    {
+      "index": "3",
+      "content": "Conditional probabilities, Bayes' theorem",
+      "operation": "Lecture, practice, interactive activities Review and self-reflection",
+      "assignments": "Review the content of the lecture Prepare for the next class",
+      "minutes": "150"
+    },
+    {
+      "index": "4",
+      "content": "Quiz (classes 1 to 3) Random variables and probability distributions",
+      "operation": "Lecture, practice, interactive activities",
+      "assignments": "Review the content of the lecture Prepare for the next class",
+      "minutes": "100"
+    },
+    {
+      "index": "5",
+      "content": "Mean and variance of a random variable",
+      "operation": "Self-check Lecture, practice, interactive activities",
+      "assignments": "Review the content of the lecture Prepare for the next class",
+      "minutes": "100"
+    },
+    {
+      "index": "6",
+      "content": "Common probability distributions (binomial distribution, normal distribution)",
+      "operation": "Lecture, practice, interactive activities",
+      "assignments": "Review the content of the lecture Prepare for the next class",
+      "minutes": "100"
+    },
+    {
+      "index": "7",
+      "content": "Common probability distributions (Student's t-distribution, chi-square distribution)",
+      "operation": "Lecture, practice, interactive activities Review and self-reflection",
+      "assignments": "Review the content of the lecture Prepare for the next class",
+      "minutes": "150"
+    },
+    {
+      "index": "8",
+      "content": "Quiz (classes 4 to 7) Organization and analysis of data",
+      "operation": "Lecture, practice, interactive activities",
+      "assignments": "Review the content of the lecture Prepare for the next class",
+      "minutes": "100"
+    },
+    {
+      "index": "9",
+      "content": "Basic concept of estimation and testing",
+      "operation": "Self-check Lecture, practice, interactive activities",
+      "assignments": "Review the content of the lecture Prepare for the next class",
+      "minutes": "100"
+    },
+    {
+      "index": "10",
+      "content": "Basic concept of speculative statistics Population and sample",
+      "operation": "Lecture, practice, interactive activities",
+      "assignments": "Review the content of the lecture Prepare for the next class",
+      "minutes": "100"
+    },
+    {
+      "index": "11",
+      "content": "Interval estimation of population mean and population ratio",
+      "operation": "Lecture, practice, interactive activities",
+      "assignments": "Review the content of the lecture Prepare for the next class",
+      "minutes": "100"
+    },
+    {
+      "index": "12",
+      "content": "Concept of hypothesis testing Test of population mean and population ratio",
+      "operation": "Lecture, practice, interactive activities",
+      "assignments": "Review the content of the lecture Prepare for the next class",
+      "minutes": "100"
+    },
+    {
+      "index": "13",
+      "content": "Test of population mean and population ratio Integrated learning",
+      "operation": "Lecture, practice, interactive activities Review and self-reflection",
+      "assignments": "Review the content of the lecture Prepare for the next class",
+      "minutes": "100"
+    },
+    {
+      "index": "14",
+      "content": "Final exam Applying course contents to various statistical problems",
+      "operation": "Self-check Implementation of test Lecture, practice, interactive activities",
+      "assignments": "Review the content of the lecture",
+      "minutes": "100"
+    },
+    {
+      "index": "15",
+      "content": "Self-reflection on class Self-evaluation",
+      "operation": "Review and self-reflection Questionnaire survey",
+      "assignments": "",
+      "minutes": "100"
+    }
+  ],
+  "rawText": "金沢工業大学 学習支援計画書 G224-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nMathematics and Science Program\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Mathematics and Science Program\nMathematics and Science Courses\n技術者のための統計\nStatistics for Engineers  2 G224-01  2021年度\n 1st year 1st semester\n2nd year 1st semester\n2nd year 2nd semester  修学規程第4条を参照\n    担当教員名\n ITO Takao, TSUTSUMI Atsuhiro, NISHIOKA Keita, NISHI Makoto\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Probability 2.Bayes' Theorem 3.Probability Distribution 4.Estimation 5.Hypothesis Testing  Students will (1) acquire basic knowledge of probability. (2) learn probability calculations using Bayes' theorem. (3) learn typical distribution functions such as the normal distribution,Student's t-distribution, and the chi-square distribution. (4) learn methods for interval estimation and hypothesis testing.\n    授業の概要および学習上の助言   This is a course in statistical analysis of data. We will cover the following topics: 1. Probability and Random Variables (1) Event and Sample Space (2) Probability and Conditional Probability (3) Bayes' Theorem (4) Random Variables and Probability Distribution Functions (5) Typical Probability Distribution Functions 2. Descriptive Statistics (1) Frequency Distribution Table and Histogram (2) Average 3. Interval Estimation and Hypothesis Testing (1) Population and Sample (2) Interval Estimation of Population Mean and Population Variance (3) Hypothesis Testing of Population Mean Students are required to actively participate in the class. Students are expected to check for messages/materials on the KIT Inside website before every class/on a regular basis.\n    教科書および参考書・リザーブドブック   Textbooks:Statistics that can be learned easily : Sonoko Ishizono [kyoritsu Shuppan] Reference books:None\n    履修に必要な予備知識や技能   Knowledge of basic calculus.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① D Be able to understand the concept of probability and calculate probability using the laws probability.   ② D Be able to calculate mean and variance for random variables.   ③ D Be able to analyze data by calculating the necessary statistics from data.   ④ D Be able to estimate and test population mean, variance, and population ratio using a sample distribution.   ⑤ C Understand the meanings of fundamental english words for statistics.   ⑥ A Be able to understand the contents of each class, work on assigned tasks, and attend every class.\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 30 30 20 0 0 0 20 100     指標と評価割合 総合評価割合 30 30 20 0 0 0 20 100   総合力指標 知識を取り込む力 30 30 20 0 0 0 20 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ A final exam covering the contents of the entire semester will be given. Performance on this exam will comprise 30% of the overall evaluation.    ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     クイズ\n小テスト ① レ Students will take two quizzes, each of which will comprise 15% of the overall evaluation (for a total of 30%). Dates and contents are listed in the course schedule.    ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     レポート ① レ A report will be assigned and will comprise 20% of the overall evaluation. The report should be written carefully with text, mathematical formulas, numerical values, graphs, etc. It should logically describe the process of tackling the problem. Copying the reports of others is not permitted. The submission date is to be strictly observed. Details for each assignment and the grading criteria will be announced in class.    ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ① レ Students will be evaluated on motivation, attitude and commitment to task. This will comprise 20% of the overall (term) evaluation.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥ レ\n    具体的な達成の目安   理想的な達成レベルの目安 ",
+  "sourceYear": "2021",
+  "originalSourceIndex": 76,
+  "courseId": "2021:spring:G480-01:0:8438",
+  "language": "en"
+}

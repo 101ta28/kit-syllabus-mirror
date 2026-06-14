@@ -1,0 +1,244 @@
+{
+  "sourceIndex": 11984,
+  "sourceUrl": "/opsyllabus/kitos0110/860/1",
+  "importedAt": "2026-06-12T08:02:35.763Z",
+  "title": "AI応用Ⅱ(自然言語処理)(春期集中講義)",
+  "subtitle": "Natural Language Processing",
+  "courseType": "(Provided by all courses)\nLiberal Arts Courses\nTransdisciplinary Learning",
+  "credits": "1",
+  "term": "2024年度\n 1st year 2nd semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "KONNO Takeshi"
+  ],
+  "keywords": [
+    "Artificial Intelligence 2.Natural language processing 3.Neural network 4.Large Language Model 5.Experimental Semiotics"
+  ],
+  "educationalGoal": "Artificial Intelligence, which gives intelligence to machines and realizes human cognition and information processing, is becoming more and more important in various areas of ICT society. In this course, students will acquire basic knowledge and techniques of natural language processing, which is at the heart of artificial intelligence, and deepen their understanding of the characteristics of human languages and their differences.",
+  "advice": "In this course, students will learn basic technologies and build and evaluate prototypes of applied systems based on them, based on an overview of the past and future of natural language processing. Through this lecture, students are expected to learn how to use the technical elements of natural language processing and how to realize services as a system by combining them, and to be able to evaluate the social problems and issues that these services may have. The lecture will begin with an introduction for beginners, so students are encouraged to deepen their understanding of the knowledge and techniques they already know. The content and level of the lectures will be adjusted flexibly according to the students' needs.",
+  "books": "Textbooks:None Reference books:None Reserved books:None",
+  "requiredKnowledge": "Programming skills, especially the Python language, are required. The lecturer will use Mac OS, although Windows and Linux are acceptable. If you have any concerns about the execution environment of your program, please consult with the lecturer in advance.",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "F",
+      "body": "Be able to explain basic technology in intelligent information processing."
+    },
+    {
+      "index": "②",
+      "type": "D",
+      "body": "Be able to understand various techniques for natural language processing."
+    },
+    {
+      "index": "③",
+      "type": "F",
+      "body": "Be able to implement various natural language processing algorithms and build their application systems."
+    },
+    {
+      "index": "④",
+      "type": "B",
+      "body": "Be able to evaluate application systems based on various natural language processing algorithms."
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "0",
+        "0",
+        "60",
+        "40",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "0",
+        "0",
+        "60",
+        "40",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "0",
+        "0",
+        "60",
+        "40",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションと\nリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "In addition to the standard level of achievement, the student will be able to understand the issues involved in the content there. The student should also be able to construct an applied system of natural language processing that combines basic technologies.",
+    "standard": "The student should be able to understand most of the material covered in each lecture and be able to answer typical exercises related to that material with most accuracy."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Basic principles and progress of neural networks - Basic principles, modeling, learning framework (vs. reinforcement learning), back-propagation, and why deepening was achieved.",
+      "operation": "Lecture and exercise",
+      "assignments": "180",
+      "minutes": ""
+    },
+    {
+      "index": "2",
+      "content": "Past and future of natural language processing - Introduction and handling of morphological analysis (ex. Mecab), synonym database (ex. wordnet), Vectorization (ex. word2vec), development to transformers (overview of major papers).",
+      "operation": "Lecture, exercise, and discussion",
+      "assignments": "180",
+      "minutes": ""
+    },
+    {
+      "index": "3",
+      "content": "Realization of dialogue systems using large language models (LLMs) - Creation of programs using large language models. - Creation of dialogue systems combining speech recognition and speech synthesis.",
+      "operation": "Lecture, exercise, and discussion",
+      "assignments": "180",
+      "minutes": ""
+    },
+    {
+      "index": "4",
+      "content": "Devising a service using the dialogue system and creating a prototype for its realization 1 - How to proceed with group work to create innovation. - Creation exercise and presentation.",
+      "operation": "Presentation Lecture, exercise, and discussion",
+      "assignments": "180",
+      "minutes": ""
+    },
+    {
+      "index": "5",
+      "content": "Differences from human language systems - Systematic understanding of human language by experimental semiotics. - Origin and evolution of language, Shared intentionality and hierarchy.",
+      "operation": "Lecture, exercise, and discussion",
+      "assignments": "180",
+      "minutes": ""
+    },
+    {
+      "index": "6",
+      "content": "Devising a service using an dialogue system and creating a prototype for its realization 2 - How new technologies gain trust. - Creation exercise, Presentation.",
+      "operation": "Lecture, exercise, and discussion",
+      "assignments": "180",
+      "minutes": ""
+    },
+    {
+      "index": "7",
+      "content": "Is artificial intelligence a tool or a partner? - Human agency and responsibility. - Criteria for determining whether an artificial intelligence is a member of our moral community.",
+      "operation": "Presentation Lecture, exercise, and discussion",
+      "assignments": "180",
+      "minutes": ""
+    }
+  ],
+  "rawText": "金沢工業大学 学習支援計画書 G245-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\n(Provided by all courses)\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     (Provided by all courses)\nLiberal Arts Courses\nTransdisciplinary Learning\nAI応用Ⅱ(自然言語処理)(春期集中講義)\nNatural Language Processing  1 G245-01  2024年度\n 1st year 2nd semester  修学規程第4条を参照\n    担当教員名\n KONNO Takeshi\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Artificial Intelligence 2.Natural language processing 3.Neural network 4.Large Language Model 5.Experimental Semiotics  Artificial Intelligence, which gives intelligence to machines and realizes human cognition and information processing, is becoming more and more important in various areas of ICT society. In this course, students will acquire basic knowledge and techniques of natural language processing, which is at the heart of artificial intelligence, and deepen their understanding of the characteristics of human languages and their differences.\n    授業の概要および学習上の助言   In this course, students will learn basic technologies and build and evaluate prototypes of applied systems based on them, based on an overview of the past and future of natural language processing. Through this lecture, students are expected to learn how to use the technical elements of natural language processing and how to realize services as a system by combining them, and to be able to evaluate the social problems and issues that these services may have. The lecture will begin with an introduction for beginners, so students are encouraged to deepen their understanding of the knowledge and techniques they already know. The content and level of the lectures will be adjusted flexibly according to the students' needs.\n    教科書および参考書・リザーブドブック   Textbooks:None Reference books:None Reserved books:None\n    履修に必要な予備知識や技能   Programming skills, especially the Python language, are required. The lecturer will use Mac OS, although Windows and Linux are acceptable. If you have any concerns about the execution environment of your program, please consult with the lecturer in advance.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① F Be able to explain basic technology in intelligent information processing.   ② D Be able to understand various techniques for natural language processing.   ③ F Be able to implement various natural language processing algorithms and build their application systems.   ④ B Be able to evaluate application systems based on various natural language processing algorithms.   ⑤     ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 0 0 60 40 0 0 0 100     指標と評価割合 総合評価割合 0 0 60 40 0 0 0 100   総合力指標 知識を取り込む力 0 0 60 40 0 0 0 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ①      ②     ③     ④     ⑤     ⑥     クイズ\n小テスト ①      ②     ③     ④     ⑤     ⑥     レポート ① レ Students will be evaluated on two reports.   ② レ   ③ レ   ④ レ   ⑤     ⑥     成果発表\n(口頭・実技) ① レ Students are required to give two presentations on the submitted reports.   ② レ   ③ レ   ④ レ   ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ①      ②     ③     ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     In addition to the standard level of achievement, the student will be able to understand the issues involved in the content there. The student should also be able to construct an applied system of natural language processing that combines basic technologies. The student should be able to understand most of the material covered in each lecture and be able to answer typical exercises related to that material with most accuracy.\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習課題に要する標",
+  "sourceYear": "2024",
+  "originalSourceIndex": 860,
+  "courseId": "2024:fall:G037-01:0:11984",
+  "language": "en"
+}

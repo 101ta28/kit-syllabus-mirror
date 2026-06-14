@@ -1,0 +1,305 @@
+{
+  "sourceIndex": 9554,
+  "sourceUrl": "/opsyllabus/kitos0110/297/1",
+  "importedAt": "2026-06-12T08:01:54.403Z",
+  "title": "ロボット応用力学Ⅱ",
+  "subtitle": "Dynamics of Machine Systems II",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "2",
+  "term": "2022年度\n 3rd year 1st semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "OHTA Kazuhiko"
+  ],
+  "keywords": [
+    "Solving equation of motion 2.Free and forced vibration 3.Natural angular frequency 4.Damping ratio, damped natural frequency 5.Resonance phenomenon"
+  ],
+  "educationalGoal": "Acquire basic knowledge about machinery vibration problems. Understand the basics of vibration and apply it to machine design. Model and analyze basic vibration phenomena.",
+  "advice": "In recent years, high speed and high precision have been achieved to improve productivity, but vibrations generated in various machines cause problems. In this course, it is necessary to understand how to derive and solve the equations for expressing the motion of various vibration models. Therefore, students must not only understand the lectures but also work on exercises and reports the help them acquire the ability to solve vibration problems. The following topics are covered: 1.Basics of mechanical vibration: equations of motion, simple vibration, harmonic vibration, vectors, and complex representation of vibration 2.Free vibration of a one-degree-of-freedom system without damping 3.Free vibration of a one-degree-of-freedom system with damping 4.Forced vibration of a one-degree-of-freedom system 5.Basics of vibration of a two-degree-of-freedom system",
+  "books": "Textbook: Basic Vibration Engineering (2nd Edition) [Kyoritsu Shuppan]",
+  "requiredKnowledge": "Review Robot Basic Mechanics I & II and Robot Applied Dynamics I in addition to mathematics such as trigonometric functions and differential equations.",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "I",
+      "body": "Model vibration phenomena and derive equations of motion."
+    },
+    {
+      "index": "②",
+      "type": "I",
+      "body": "Solve equations of motion (differential equations)."
+    },
+    {
+      "index": "③",
+      "type": "I",
+      "body": "Understand and explain the characteristics of the free vibration system with and without damping."
+    },
+    {
+      "index": "④",
+      "type": "I",
+      "body": "Understand and explain the characteristics of the forced vibration system with and without damping."
+    },
+    {
+      "index": "⑤",
+      "type": "I",
+      "body": "Understand and explain the characteristics of a two-degree-of-freedom vibration system using eigenvalue analysis"
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "40",
+        "50",
+        "10",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "40",
+        "50",
+        "10",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "40",
+        "50",
+        "10",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションと\nリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "Model the vibration generated by various machines, such as production machines and vehicles. Analyze and evaluate dynamic behavior by solving equations of motion based on the model.",
+    "standard": "Derive the equations of motion for a given one- or two-degree-of-freedom vibration system. Analyze and evaluate dynamic behavior by solving the equations of motion."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Course introduction",
+      "operation": "Lecture and Q&A",
+      "assignments": "Understand the objectives of the course",
+      "minutes": "120"
+    },
+    {
+      "index": "2",
+      "content": "Derivation of equations of motion Homogeneous second-order linear differential equations General solution and initial conditions",
+      "operation": "Lecture and Q&A Self-check",
+      "assignments": "Review lecture content and complete assignments",
+      "minutes": "120"
+    },
+    {
+      "index": "3",
+      "content": "Harmonic vibration and vibration synthesis Beat and amplitude modulation Phase and period of beat",
+      "operation": "Lecture and Q&A Self-check",
+      "assignments": "Review lecture content and complete assignments",
+      "minutes": "120"
+    },
+    {
+      "index": "4",
+      "content": "Free vibration without damping (non-damped free vibration) Spring-mass system behavior without damping Natural angular frequency and natural period",
+      "operation": "Lecture and Q&A Self-check",
+      "assignments": "Review lecture content and complete assignments",
+      "minutes": "120"
+    },
+    {
+      "index": "5",
+      "content": "Free vibration with damping (damped free vibration) Behavior of a spring/mass system with viscous damping Characteristic equation and damping ratio",
+      "operation": "Lecture and Q&A Self-check",
+      "assignments": "Review lecture content and complete assignments",
+      "minutes": "120"
+    },
+    {
+      "index": "6",
+      "content": "Free vibration with attenuation (damped free vibration) Overdamping, critical damping, and underdamping Damped natural angular frequency and logarithmic damping rate",
+      "operation": "Lecture and Q&A Self-check",
+      "assignments": "Review lecture content and complete assignments",
+      "minutes": "120"
+    },
+    {
+      "index": "7",
+      "content": "Free vibration with attenuation (damped free vibration) Overdamping, critical damping, and underdamping Damped natural angular frequency and logarithmic damping rate",
+      "operation": "Lecture and Q&A Self-check",
+      "assignments": "Review lecture content and complete assignments",
+      "minutes": "120"
+    },
+    {
+      "index": "8",
+      "content": "Forced vibration with damping (damped forced vibration) Relationship between amplitude magnification /phase delay angle and damping ratio",
+      "operation": "Lecture and Q&A Self-check",
+      "assignments": "Review lecture content and complete assignments",
+      "minutes": "120"
+    },
+    {
+      "index": "9",
+      "content": "Relationship between Q value and damping ratio Intermediate test",
+      "operation": "Lecture and Q&A Review Test",
+      "assignments": "Confirm the level of understanding of classes 1-9",
+      "minutes": "120"
+    },
+    {
+      "index": "10",
+      "content": "Forced vibration due to harmonic displacement Equation of motion for displacement excitation Relationship between displacement transmissibility, phase delay angle, and damping ratio",
+      "operation": "Lecture and Q&A Self-check",
+      "assignments": "Review lecture content and complete assignments",
+      "minutes": "120"
+    },
+    {
+      "index": "11",
+      "content": "Vibration of seismic system and absolute fixed surface system Principle of vibrometer Force transmission and vibration isolation",
+      "operation": "Lecture and Q&A Self-check",
+      "assignments": "Review lecture content and complete assignments",
+      "minutes": "120"
+    },
+    {
+      "index": "12",
+      "content": "Two-degree-of-freedom vibration Characteristic equations and eigenvalues Relationship between vibration mode and phase",
+      "operation": "Lecture and Q&A Self-check",
+      "assignments": "Review lecture content and complete assignments",
+      "minutes": "120"
+    },
+    {
+      "index": "13",
+      "content": "Vibration transmission and insulation Dynamic absorber Vibration simulation",
+      "operation": "Lecture and Q&A Self-check",
+      "assignments": "Review lecture content and complete assignments",
+      "minutes": "120"
+    },
+    {
+      "index": "14",
+      "content": "Final exam and review",
+      "operation": "Review Exam",
+      "assignments": "Check comprehension for the course",
+      "minutes": "120"
+    },
+    {
+      "index": "15",
+      "content": "Review of final exam Self-evaluation",
+      "operation": "Review Self-evaluation",
+      "assignments": "Check comprehension for the entire course Discuss what was not understood",
+      "minutes": "120"
+    }
+  ],
+  "rawText": "金沢工業大学 学習支援計画書 E222-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Robotics\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\nロボット応用力学Ⅱ\nDynamics of Machine Systems II  2 E222-01  2022年度\n 3rd year 1st semester  修学規程第4条を参照\n    担当教員名\n OHTA Kazuhiko\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Solving equation of motion 2.Free and forced vibration 3.Natural angular frequency 4.Damping ratio, damped natural frequency 5.Resonance phenomenon  Acquire basic knowledge about machinery vibration problems. Understand the basics of vibration and apply it to machine design. Model and analyze basic vibration phenomena.\n    授業の概要および学習上の助言   In recent years, high speed and high precision have been achieved to improve productivity, but vibrations generated in various machines cause problems. In this course, it is necessary to understand how to derive and solve the equations for expressing the motion of various vibration models. Therefore, students must not only understand the lectures but also work on exercises and reports the help them acquire the ability to solve vibration problems. The following topics are covered: 1.Basics of mechanical vibration: equations of motion, simple vibration, harmonic vibration, vectors, and complex representation of vibration 2.Free vibration of a one-degree-of-freedom system without damping 3.Free vibration of a one-degree-of-freedom system with damping 4.Forced vibration of a one-degree-of-freedom system 5.Basics of vibration of a two-degree-of-freedom system\n    教科書および参考書・リザーブドブック   Textbook: Basic Vibration Engineering (2nd Edition) [Kyoritsu Shuppan]\n    履修に必要な予備知識や技能   Review Robot Basic Mechanics I & II and Robot Applied Dynamics I in addition to mathematics such as trigonometric functions and differential equations.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① I Model vibration phenomena and derive equations of motion.   ② I Solve equations of motion (differential equations).   ③ I Understand and explain the characteristics of the free vibration system with and without damping.   ④ I Understand and explain the characteristics of the forced vibration system with and without damping.   ⑤ I Understand and explain the characteristics of a two-degree-of-freedom vibration system using eigenvalue analysis   ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 40 50 10 0 0 0 0 100     指標と評価割合 総合評価割合 40 50 10 0 0 0 0 100   総合力指標 知識を取り込む力 40 50 10 0 0 0 0 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ A written exam is given at the end of the term to confirm the knowledge learned throughout the whole class.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     クイズ\n小テスト ① レ Several quizzes are given to confirm the knowledge learned as the course proceeds and the ability to apply this knowledge.    ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     レポート ① レ Reports and exercises are assigned to confirm and deepen the learning content through the class.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ①      ②     ③     ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     Model the vibration generated by various machines, such as production machines and vehicles. Analyze and evaluate dynamic behavior by solving equations of motion based on the model.  Derive the equations of motion for a given one- or two-degree-of-freedom vibration system. Analyze and evaluate dynamic behavior by solving the equations of motion.\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習課題に要する標準的な時間を記載してあります。日々の自学自習時間全体としては、各授業に応じた時間(例え",
+  "sourceYear": "2022",
+  "originalSourceIndex": 297,
+  "courseId": "2022:fall:E143-01:0:9554",
+  "language": "en"
+}

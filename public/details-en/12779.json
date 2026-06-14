@@ -1,0 +1,311 @@
+{
+  "sourceIndex": 12779,
+  "sourceUrl": "/opsyllabus/kitos0110/696/1",
+  "importedAt": "2026-06-12T08:02:51.854Z",
+  "title": "ロボット基礎力学Ⅱ",
+  "subtitle": "Engineering Mechanics II",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "2",
+  "term": "2025年度\n 1st year 2nd semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "ITO Kouhei",
+    "OTA Kazuhiko"
+  ],
+  "keywords": [
+    "Motion of a mass system 2.Moment of inertia 3.Laws of conservation of momentum and angular momentum 4.Collision and force impulse 5.Rigid body motion"
+  ],
+  "educationalGoal": "In \"Engineering Mechanics I,\" students mainly studied statics such as the balance of forces acting on masses and rigid bodies. In this course, students understand the dynamic relationship between external force and momentum, torque and angular momentum acting on system of particles, and learn basic analytical methods for collision problems and dynamics such as force impulse, moment of inertia and rotational motion of a rigid body.",
+  "advice": "For studying mechanics, it is important to solve a variety of mechanical problems independently in addition to understanding the meaning of terms and mathematical formulas. In this course, the following basic mechanics topics are covered: 1. Equation of motion of a mass system 2. Motion of the center of gravity and system of particles 3. Collision mechanics and force impulse 4. Momentum, angular momentum, and kinetic energy 5. Moment of inertia 6. Rigid body motion",
+  "books": "Basic Mechanics of Machines",
+  "requiredKnowledge": "Mathematics for basic engineering (description of equations of motion and derivatives / integrals, inner and outer products of vectors) and \"Engineering Mechanics I\".",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "I,J",
+      "body": "Explain the motion around the center of gravity of a mass system."
+    },
+    {
+      "index": "②",
+      "type": "I,J",
+      "body": "Explain the collision phenomenon using the law of conservation of momentum."
+    },
+    {
+      "index": "③",
+      "type": "I,J",
+      "body": "Understand the relationship between angular momentum and moment of force."
+    },
+    {
+      "index": "④",
+      "type": "I,J",
+      "body": "Explain the motion of a mass system and rigid body using the law of conservation of angular momentum."
+    },
+    {
+      "index": "⑤",
+      "type": "I,J",
+      "body": "Calculate the center of gravity and moment of inertia of objects with simple shapes."
+    },
+    {
+      "index": "⑥",
+      "type": "I,J",
+      "body": "Explain the dynamic behavior of a rigid body using the equation of motion."
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "40",
+        "50",
+        "10",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "40",
+        "50",
+        "10",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "40",
+        "50",
+        "10",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションと\nリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "1.Calculate the moment of inertia of various machine models from the definition of moment of inertia. 2.Derive equations of motion for various machine models and solve them so as to explain the dynamic behavior of machine models. 3.Analyze various collision phenomena using the momentum conservation law. 4.Explain the dynamic behavior of various machine models using the law of conservation of angular momentum. 5.Explain the dynamic behavior of rigid bodies with respect to rotational and planar motion.",
+    "standard": "1. Calculate the moment of inertia of an object consisting of a combination of basic form. 2. Describe the equations related to motion for the center of gravity of mass systems. 3. Derive the velocity after the centripetal collision of two bodies on a straight line by using the conservation of momentum. 4. Describe the equations related to rotation and plane motion of rigid bodies. 5.Describe the equations for rotational and planar motion of a rigid body."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Course introduction Review of \"Engineering Mechanics I” Momentum of a point mass Motion of a mass system",
+      "operation": "Guidance Lecture and Q&A",
+      "assignments": "Review of \"Engineering Mechanics I” Review lecture content and assignments",
+      "minutes": "120"
+    },
+    {
+      "index": "2",
+      "content": "Movement of the center of gravity Total momentum of a mass system",
+      "operation": "Lecture and Q&A",
+      "assignments": "Review lecture content and assignments",
+      "minutes": "120"
+    },
+    {
+      "index": "3",
+      "content": "Conservation law of total momentum Kinetic energy",
+      "operation": "Lecture and Q&A",
+      "assignments": "Review lecture content and assignments",
+      "minutes": "120"
+    },
+    {
+      "index": "4",
+      "content": "Force Impulse Elastic collision and Non-elastic collision",
+      "operation": "Lecture and Q&A",
+      "assignments": "Review lecture content and assignments",
+      "minutes": "120"
+    },
+    {
+      "index": "5",
+      "content": "Restitution coefficient Motion of a colliding mass system",
+      "operation": "Lecture and Q&A",
+      "assignments": "Review lecture content and assignments Prepare for Intermediate test",
+      "minutes": "150"
+    },
+    {
+      "index": "6",
+      "content": "Review Intermediate test",
+      "operation": "Review Test",
+      "assignments": "Review lecture content and assignments",
+      "minutes": "120"
+    },
+    {
+      "index": "7",
+      "content": "Rotational motion Angular momentum of a point mass",
+      "operation": "Review of Intermediate test Lecture and Q&A",
+      "assignments": "Review lecture content and assignments",
+      "minutes": "120"
+    },
+    {
+      "index": "8",
+      "content": "Angular momentum versus moment of force Simple pendulum Angular force impulse",
+      "operation": "Lecture and Q&A",
+      "assignments": "Review lecture content and assignments",
+      "minutes": "120"
+    },
+    {
+      "index": "9",
+      "content": "Total angular momentum of a mass system Total angular momentum around the center of gravity of a mass system",
+      "operation": "Lecture and Q&A",
+      "assignments": "Review lecture content and assignments",
+      "minutes": "120"
+    },
+    {
+      "index": "10",
+      "content": "Moment of inertia of a mass system Center of gravity/moment of inertia of continuous body",
+      "operation": "Lecture and Q&A",
+      "assignments": "Review lecture content and assignments",
+      "minutes": "120"
+    },
+    {
+      "index": "11",
+      "content": "Moment of inertia of rigid body Parallel axis theorem and Orthogonal axis theorem Degrees of freedom of a mass system and rigid body",
+      "operation": "Lecture and Q&A",
+      "assignments": "Review lecture content and assignments",
+      "minutes": "120"
+    },
+    {
+      "index": "12",
+      "content": "Motion of a rigid body with a fixed axis Movement of pulley",
+      "operation": "Lecture and Q&A",
+      "assignments": "Review lecture content and assignments",
+      "minutes": "120"
+    },
+    {
+      "index": "13",
+      "content": "Equation of motion of a rigid body Rigid body motion in plane",
+      "operation": "Lecture and Q&A",
+      "assignments": "Review lecture content and assignments Prepare for final exam",
+      "minutes": "180"
+    },
+    {
+      "index": "14",
+      "content": "Review Final exam",
+      "operation": "Review Exam",
+      "assignments": "Check comprehension",
+      "minutes": "60"
+    },
+    {
+      "index": "15",
+      "content": "Review of final exam Self-evaluation",
+      "operation": "Review of final exam Self-evaluation",
+      "assignments": "Review of the entire course",
+      "minutes": "60"
+    }
+  ],
+  "rawText": "金沢工業大学 学習支援計画書 C207-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Robotics\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\nロボット基礎力学Ⅱ\nEngineering Mechanics II  2 C207-01  2025年度\n 1st year 2nd semester  修学規程第4条を参照\n    担当教員名\n ITO Kouhei, OTA Kazuhiko\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Motion of a mass system 2.Moment of inertia 3.Laws of conservation of momentum and angular momentum 4.Collision and force impulse 5.Rigid body motion  In \"Engineering Mechanics I,\" students mainly studied statics such as the balance of forces acting on masses and rigid bodies. In this course, students understand the dynamic relationship between external force and momentum, torque and angular momentum acting on system of particles, and learn basic analytical methods for collision problems and dynamics such as force impulse, moment of inertia and rotational motion of a rigid body.\n    授業の概要および学習上の助言   For studying mechanics, it is important to solve a variety of mechanical problems independently in addition to understanding the meaning of terms and mathematical formulas. In this course, the following basic mechanics topics are covered: 1. Equation of motion of a mass system 2. Motion of the center of gravity and system of particles 3. Collision mechanics and force impulse 4. Momentum, angular momentum, and kinetic energy 5. Moment of inertia 6. Rigid body motion\n    教科書および参考書・リザーブドブック   Basic Mechanics of Machines\n    履修に必要な予備知識や技能   Mathematics for basic engineering (description of equations of motion and derivatives / integrals, inner and outer products of vectors) and \"Engineering Mechanics I\".\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① I,J Explain the motion around the center of gravity of a mass system.   ② I,J Explain the collision phenomenon using the law of conservation of momentum.   ③ I,J Understand the relationship between angular momentum and moment of force.   ④ I,J Explain the motion of a mass system and rigid body using the law of conservation of angular momentum.    ⑤ I,J Calculate the center of gravity and moment of inertia of objects with simple shapes.   ⑥ I,J Explain the dynamic behavior of a rigid body using the equation of motion.\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 40 50 10 0 0 0 0 100     指標と評価割合 総合評価割合 40 50 10 0 0 0 0 100   総合力指標 知識を取り込む力 40 50 10 0 0 0 0 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ A written exam is given at the end of the term. Students need to understand the concept behind the formulas, formulate equations of motion, and practice to be able to apply the formulas.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥ レ   クイズ\n小テスト ① レ Several tests and quizzes are given to improve comprehension.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥ レ   レポート ① レ Students are required to submit the report on the specified matters/issues.    ② レ   ③ レ   ④ レ   ⑤ レ   ⑥ レ   成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ①      ②     ③     ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     1.Calculate the moment of inertia of various machine models from the definition of moment of inertia. 2.Derive equations of motion for various machine models and solve them so as to explain the dynamic behavior of machine models. 3.Analyze various collision phenomena using the momentum conservation law. 4.Explain the dynamic behavior of various machine models using the law of conservation of angular momentum. 5.Explain the dynamic behavior of rigid bodies with respect to rotational and planar motion.  1. Calculate the moment of inertia of an object consisting of a combination of basic form. 2. Describe the equations related to motion for the center of gravity of mass systems. 3. Derive the velocity after the centr",
+  "sourceYear": "2025",
+  "originalSourceIndex": 696,
+  "courseId": "2025:fall:C206-01:0:12779",
+  "language": "en"
+}

@@ -1,0 +1,308 @@
+{
+  "sourceIndex": 7856,
+  "sourceUrl": "/opsyllabus/kitos0110/359/1",
+  "importedAt": "2026-06-12T08:01:15.364Z",
+  "title": "プログラミングⅠ",
+  "subtitle": "Programming I",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "2",
+  "term": "2020年度\n 1st year 1st semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [],
+  "keywords": [
+    "expressions and operations 2.variables and data types 3.collections 4.control flow 5.functions"
+  ],
+  "educationalGoal": "The goal of this course is to be able to write and execute basic computer programs in Python. By completing this course, students are expected to obtain skills to setup an appropriate development environment on their PC, write basic Python programs, and execute them.",
+  "advice": "In Programming I (this course) and the first half of the subsequent course, Programming II, students will learn how to write programs in Python to accomplish certain tasks. This introductory course covers the following topics. (1) How to install software necessary for developing programs in Python and running them. (2) How to edit and save programs written in Python and execute them. (3) How to combine basic building blocks of Python to accomplish certain tasks. For (3), students will have a lot of opportunities to engage in hands-on exercises where they can acquire working knowledge of computer programming.",
+  "books": "(See the Japanese syllabus.)",
+  "requiredKnowledge": "There is no prerequisite course for Programming I. Students have to bring a PC, an AC adapter, and a network cable to the class because there will be exercises where students are asked to write programs and upload them during class hours for later grading.",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "I,J,K",
+      "body": "Be able to explain what operations it takes to run a program."
+    },
+    {
+      "index": "②",
+      "type": "I,J,K",
+      "body": "Be able to assign values to various variables and use the print function to display their contents."
+    },
+    {
+      "index": "③",
+      "type": "I,J,K",
+      "body": "Be able to write expressions combining properly named variables and operators and evaluate them."
+    },
+    {
+      "index": "④",
+      "type": "I,J,K",
+      "body": "Be able to define lists and dictionaries and write programs that use them."
+    },
+    {
+      "index": "⑤",
+      "type": "I,J,K",
+      "body": "Be able to use control flow structures such as conditional statements and loops in writing programs."
+    },
+    {
+      "index": "⑥",
+      "type": "I,J,K",
+      "body": "Be able to define functions for relatively simple tasks."
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "40",
+        "60",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "40",
+        "60",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "40",
+        "60",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションと\nリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "In addition to the standard achievement levels on the right: (7) Be able to write clean and readable programs. (8) Be able to write more complex programs, for instance, with nested if and for statements.",
+    "standard": "(1) Be able to setup development environment on their PC and execute programs using it. (2) Be able to use variables: assign values to them and then evaluate them. (3) Be able to write expressions using variables and operators. (4) Be able to write programs using lists and dictionaries. (5) Be able to use if and for statements. (6) Be able to write simple functions."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "- Orientation - Overview of various programming languages - How to run programs",
+      "operation": "Lecture",
+      "assignments": "- Review lecture slides",
+      "minutes": "30"
+    },
+    {
+      "index": "2",
+      "content": "- Setup Python development environment - Use interactive mode - Write simple programs and execute them",
+      "operation": "Lecture and programming lab",
+      "assignments": "- Review lecture slides",
+      "minutes": "60"
+    },
+    {
+      "index": "3",
+      "content": "- Variables and data types",
+      "operation": "Lecture and programming lab",
+      "assignments": "- Read relevant chapters in the textbook before class - Solve relevant practice problems in the textbook",
+      "minutes": "120"
+    },
+    {
+      "index": "4",
+      "content": "- Variables and data types",
+      "operation": "Lecture and programming lab",
+      "assignments": "- Read relevant chapters in the textbook before class - Solve relevant practice problems in the textbook",
+      "minutes": "120"
+    },
+    {
+      "index": "5",
+      "content": "- Collections",
+      "operation": "Lecture and programming lab",
+      "assignments": "- Read relevant chapters in the textbook before class - Solve relevant practice problems in the textbook",
+      "minutes": "120"
+    },
+    {
+      "index": "6",
+      "content": "- Collections",
+      "operation": "Lecture and programming lab",
+      "assignments": "- Read relevant chapters in the textbook before class - Solve relevant practice problems in the textbook",
+      "minutes": "120"
+    },
+    {
+      "index": "7",
+      "content": "- Overall review up to Week 6 - Midterm exam",
+      "operation": "Q&A and exam",
+      "assignments": "- Prepare for the midterm exam",
+      "minutes": "120"
+    },
+    {
+      "index": "8",
+      "content": "- Conditional statements",
+      "operation": "Lecture and programming lab",
+      "assignments": "- Read relevant chapters in the textbook before class - Solve relevant practice problems in the textbook",
+      "minutes": "120"
+    },
+    {
+      "index": "9",
+      "content": "- Conditional statements - Loops",
+      "operation": "Lecture and programming lab",
+      "assignments": "- Read relevant chapters in the textbook before class - Solve relevant practice problems in the textbook",
+      "minutes": "120"
+    },
+    {
+      "index": "10",
+      "content": "- Loops",
+      "operation": "Lecture and programming lab",
+      "assignments": "- Read relevant chapters in the textbook before class - Solve relevant practice problems in the textbook",
+      "minutes": "120"
+    },
+    {
+      "index": "11",
+      "content": "- Functions",
+      "operation": "Lecture and programming lab",
+      "assignments": "- Read relevant chapters in the textbook before class - Solve relevant practice problems in the textbook",
+      "minutes": "120"
+    },
+    {
+      "index": "12",
+      "content": "- Functions",
+      "operation": "Lecture and programming lab",
+      "assignments": "- Read relevant chapters in the textbook before class - Solve relevant practice problems in the textbook",
+      "minutes": "120"
+    },
+    {
+      "index": "13",
+      "content": "- Functions",
+      "operation": "Lecture and programming lab",
+      "assignments": "- Read relevant chapters in the textbook before class - Solve relevant practice problems in the textbook",
+      "minutes": "120"
+    },
+    {
+      "index": "14",
+      "content": "- Overall review of the course - Final exam",
+      "operation": "Q&A and exam",
+      "assignments": "- Prepare for the final exam",
+      "minutes": "120"
+    },
+    {
+      "index": "15",
+      "content": "- Explanation of exam solutions - Self-evaluation",
+      "operation": "Lecture",
+      "assignments": "",
+      "minutes": ""
+    }
+  ],
+  "rawText": "金沢工業大学 学習支援計画書 E502-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Information and Computer Science\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\nプログラミングⅠ\nProgramming I  2 E502-01  2020年度\n 1st year 1st semester  修学規程第4条を参照\n    担当教員名\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.expressions and operations 2.variables and data types 3.collections 4.control flow 5.functions  The goal of this course is to be able to write and execute basic computer programs in Python. By completing this course, students are expected to obtain skills to setup an appropriate development environment on their PC, write basic Python programs, and execute them.\n    授業の概要および学習上の助言   In Programming I (this course) and the first half of the subsequent course, Programming II, students will learn how to write programs in Python to accomplish certain tasks. This introductory course covers the following topics. (1) How to install software necessary for developing programs in Python and running them. (2) How to edit and save programs written in Python and execute them. (3) How to combine basic building blocks of Python to accomplish certain tasks. For (3), students will have a lot of opportunities to engage in hands-on exercises where they can acquire working knowledge of computer programming.\n    教科書および参考書・リザーブドブック   (See the Japanese syllabus.)\n    履修に必要な予備知識や技能   There is no prerequisite course for Programming I. Students have to bring a PC, an AC adapter, and a network cable to the class because there will be exercises where students are asked to write programs and upload them during class hours for later grading.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① I,J,K Be able to explain what operations it takes to run a program.   ② I,J,K Be able to assign values to various variables and use the print function to display their contents.   ③ I,J,K Be able to write expressions combining properly named variables and operators and evaluate them.   ④ I,J,K Be able to define lists and dictionaries and write programs that use them.   ⑤ I,J,K Be able to use control flow structures such as conditional statements and loops in writing programs.   ⑥ I,J,K Be able to define functions for relatively simple tasks.\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 40 60 0 0 0 0 0 100     指標と評価割合 総合評価割合 40 60 0 0 0 0 0 100   総合力指標 知識を取り込む力 40 60 0 0 0 0 0 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ There will be midterm and final exams that test students' understandings of the Python programming. Both are open-book exams but the use of the PC is not allowed.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥ レ   クイズ\n小テスト ① レ There will be homework assignments using our E-learning platform and in-class programming quizzes.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥ レ   レポート ①      ②     ③     ④     ⑤     ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ①      ②     ③     ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     In addition to the standard achievement levels on the right: (7) Be able to write clean and readable programs. (8) Be able to write more complex programs, for instance, with nested if and for statements.  (1) Be able to setup development environment on their PC and execute programs using it. (2) Be able to use variables: assign values to them and then evaluate them. (3) Be able to write expressions using variables and operators. (4) Be able to write programs using lists and dictionaries. (5) Be able to use if and for statements. (6) Be able to write simple functions.\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが",
+  "sourceYear": "2020",
+  "originalSourceIndex": 359,
+  "courseId": "2020:spring:E630-01:0:7856",
+  "language": "en"
+}

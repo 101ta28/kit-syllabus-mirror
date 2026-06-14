@@ -1,0 +1,310 @@
+{
+  "sourceIndex": 11524,
+  "sourceUrl": "/opsyllabus/kitos0110/400/1",
+  "importedAt": "2026-06-12T08:02:32.541Z",
+  "title": "情報システムデザイン",
+  "subtitle": "Information Systems Design",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "2",
+  "term": "2024年度\n 3rd year 1st semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "KUROSE Hiroshi"
+  ],
+  "keywords": [
+    "Information systems 2.Reliability 3.Availability 4.Virtualization 5.Project management"
+  ],
+  "educationalGoal": "In addition to IT knowledge, project management and business knowledge are required to build or use information systems. In information system construction, the user and the builder confirm the requirements for many items such as functions, reliability, shortening of disaster recovery time, and improvement of operability. In this course, students will learn basic knowledge about the construction and use of information systems.",
+  "advice": "Information systems are created by integrating IT knowledge such as programs, databases, networks, and system configurations. In order to design a good information system, it is necessary to confirm the usage requirements for many items such as functions, reliability, operability, and operability. In design, it is necessary to consider important matters, costs and trade-offs. In information system construction, both the builder side and the user side are constructed by the project, so a project management method is required. In this class, students will learn the basic knowledge necessary to build an information system.",
+  "books": "N/A",
+  "requiredKnowledge": "Students should bring a laptop. The prerequisite skills for this course are programming, databases, networking, and system architecture.",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "I,J,O",
+      "body": "Be able to explain points to note regarding the design and construction of information systems."
+    },
+    {
+      "index": "②",
+      "type": "I,J,O,Q",
+      "body": "Be able to break down information systems into components and explain the role of each component."
+    },
+    {
+      "index": "③",
+      "type": "I,J,O,Q",
+      "body": "Be able to integrate each component into a system and set numerical indicators to evaluate."
+    },
+    {
+      "index": "④",
+      "type": "I,J,O",
+      "body": "Be able to explain the basics of development life cycle and project management."
+    },
+    {
+      "index": "⑤",
+      "type": "I,J,O",
+      "body": "Be able to explain stakeholders and their roles related to information systems."
+    },
+    {
+      "index": "⑥",
+      "type": "I,J,O",
+      "body": "Be able to explain the method of quantitative evaluation of information systems."
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "40",
+        "30",
+        "30",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "40",
+        "30",
+        "30",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "40",
+        "30",
+        "30",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションと\nリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "In addition to standard achievement goals, the following are required: 4) Be able to explain the trade-off resolution policy and the reason. 5) Be able to objectively explain the task from the perspectives of both the user and the builder. 6) Be able to explain items for improving the system along with priorities.",
+    "standard": "The following three goals can be achieved: 1) Be able to explain the components of information systems. 2) Be able to explain how to evaluate information systems. 3) Be able to explain how to develop and manage information systems."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Class guidance, information systems type",
+      "operation": "Lecture and exercises",
+      "assignments": "Review unclear points",
+      "minutes": "100"
+    },
+    {
+      "index": "2",
+      "content": "Reliability, availability, disaster recovery",
+      "operation": "Lecture and exercises",
+      "assignments": "Calculation exercise",
+      "minutes": "100"
+    },
+    {
+      "index": "3",
+      "content": "Virtualization",
+      "operation": "Lecture and exercises",
+      "assignments": "Review unclear points",
+      "minutes": "100"
+    },
+    {
+      "index": "4",
+      "content": "Data management",
+      "operation": "Lecture and exercises",
+      "assignments": "Review unclear points",
+      "minutes": "100"
+    },
+    {
+      "index": "5",
+      "content": "Networking, synchronization",
+      "operation": "Lecture and exercises",
+      "assignments": "Review unclear points",
+      "minutes": "100"
+    },
+    {
+      "index": "6",
+      "content": "System operations",
+      "operation": "Lecture and exercises",
+      "assignments": "Review unclear points",
+      "minutes": "100"
+    },
+    {
+      "index": "7",
+      "content": "System evaluation",
+      "operation": "Lecture and exercises",
+      "assignments": "Review unclear points",
+      "minutes": "100"
+    },
+    {
+      "index": "8",
+      "content": "Review",
+      "operation": "Q&A, mini exams",
+      "assignments": "Review of previous lectures and exercises",
+      "minutes": "100"
+    },
+    {
+      "index": "9",
+      "content": "Business system and organization 1",
+      "operation": "Lecture and exercises",
+      "assignments": "Investigate companies on the Internet and books",
+      "minutes": "100"
+    },
+    {
+      "index": "10",
+      "content": "Business system and organization 2",
+      "operation": "Lecture and exercises",
+      "assignments": "Investigate companies on the Internet and books",
+      "minutes": "100"
+    },
+    {
+      "index": "11",
+      "content": "Redundant system",
+      "operation": "Lecture and exercises",
+      "assignments": "Review unclear points",
+      "minutes": "100"
+    },
+    {
+      "index": "12",
+      "content": "Project management",
+      "operation": "Lecture and exercises",
+      "assignments": "Review unclear points, Calculation exercises",
+      "minutes": "100"
+    },
+    {
+      "index": "13",
+      "content": "Goal management",
+      "operation": "Lecture and exercises",
+      "assignments": "Review unclear points, Calculation exercises",
+      "minutes": "100"
+    },
+    {
+      "index": "14",
+      "content": "Exam",
+      "operation": "Q&A, Exam",
+      "assignments": "Review previous lectures",
+      "minutes": "100"
+    },
+    {
+      "index": "15",
+      "content": "Commentary for exams and reports, self-inspection, related topics",
+      "operation": "Review and Q&A",
+      "assignments": "Looking back on what has been learned so far. It will lead to future learning and research.",
+      "minutes": "100"
+    }
+  ],
+  "rawText": "金沢工業大学 学習支援計画書 E520-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Information and Computer Science\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n情報システムデザイン\nInformation Systems Design  2 E520-01  2024年度\n 3rd year 1st semester  修学規程第4条を参照\n    担当教員名\n KUROSE Hiroshi\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Information systems 2.Reliability 3.Availability 4.Virtualization 5.Project management  In addition to IT knowledge, project management and business knowledge are required to build or use information systems. In information system construction, the user and the builder confirm the requirements for many items such as functions, reliability, shortening of disaster recovery time, and improvement of operability. In this course, students will learn basic knowledge about the construction and use of information systems.\n    授業の概要および学習上の助言   Information systems are created by integrating IT knowledge such as programs, databases, networks, and system configurations. In order to design a good information system, it is necessary to confirm the usage requirements for many items such as functions, reliability, operability, and operability. In design, it is necessary to consider important matters, costs and trade-offs. In information system construction, both the builder side and the user side are constructed by the project, so a project management method is required. In this class, students will learn the basic knowledge necessary to build an information system.\n    教科書および参考書・リザーブドブック   N/A\n    履修に必要な予備知識や技能   Students should bring a laptop. The prerequisite skills for this course are programming, databases, networking, and system architecture.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① I,J,O Be able to explain points to note regarding the design and construction of information systems.   ② I,J,O,Q Be able to break down information systems into components and explain the role of each component.   ③ I,J,O,Q Be able to integrate each component into a system and set numerical indicators to evaluate.   ④ I,J,O Be able to explain the basics of development life cycle and project management.   ⑤ I,J,O Be able to explain stakeholders and their roles related to information systems.   ⑥ I,J,O Be able to explain the method of quantitative evaluation of information systems.\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 40 30 30 0 0 0 0 100     指標と評価割合 総合評価割合 40 30 30 0 0 0 0 100   総合力指標 知識を取り込む力 40 30 30 0 0 0 0 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ Exams will be conducted to confirm student understanding of the System integration and project management knowledge explained in this course.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥ レ   クイズ\n小テスト ① レ Some small exams or quizzes are given using part of the regular class slot. Basic system integration and project management understanding are confirmed. the time and content of the exams and quizzes will be explained during class.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥ レ   レポート ① レ Student evaluations will be depend on the degree of understanding demonstrated by submitted reports. Report contents and submission deadlines will be explained during class.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥ レ   成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ①      ②     ③     ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     In addition to standard achievement goals, the following are required: 4) Be able to explain the trade-off resolution policy and the reason. 5) Be able to objectively explain the task from the perspectives of both the user and the builder. 6) Be able to explain items for improving the system along with priorities. The following three goals can be achieved: 1) Be able to explain the",
+  "sourceYear": "2024",
+  "originalSourceIndex": 400,
+  "courseId": "2024:spring:E512-01:0:11524",
+  "language": "en"
+}

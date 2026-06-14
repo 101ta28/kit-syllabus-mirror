@@ -1,0 +1,310 @@
+{
+  "sourceIndex": 10451,
+  "sourceUrl": "/opsyllabus/kitos0110/280/1",
+  "importedAt": "2026-06-12T08:02:14.376Z",
+  "title": "ロボットセンシング",
+  "subtitle": "Measurement Engineering",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "2",
+  "term": "2023年度\n 3rd year 2nd semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "ITO Kouhei"
+  ],
+  "keywords": [
+    "Measurement technique 2.Robot 3.Sensor 4.Actuator 5.Signal processing"
+  ],
+  "educationalGoal": "(1) Learn the technology for physical and chemical sensors. (2) Learn sensor systems. (3) Learn how to process signals from acquired sensor output.",
+  "advice": "This is a course on measurement engineering for robots. Students will learn how to select and use sensors.",
+  "books": "Foundation of Sensor and Practical Use of Electic Circuit",
+  "requiredKnowledge": "None",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "L",
+      "body": "Explain the necessity of sensors."
+    },
+    {
+      "index": "②",
+      "type": "L",
+      "body": "To be able to explain that various sensors are based on physical principles."
+    },
+    {
+      "index": "③",
+      "type": "L",
+      "body": "To be able to explain simple circuits of analog circuits, especially operational amplifiers."
+    },
+    {
+      "index": "④",
+      "type": "L",
+      "body": "To be able to explain about bridge circuits ."
+    },
+    {
+      "index": "⑤",
+      "type": "L",
+      "body": "To be able to explain simple digital circuits"
+    },
+    {
+      "index": "⑥",
+      "type": "L",
+      "body": "To be able to explain in general what kind of sensors are equivalent to the five senses of human beings."
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "40",
+        "60",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "40",
+        "60",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "40",
+        "60",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションと\nリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "Explain the theory of each sensor and how it is used in society. Explain the sensor systems applied to robots.",
+    "standard": "Explain each sensor’s electrical basis and the optical characteristics of semiconductors. Explain where sensors are used in robots."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Classroom Guidance 1 Outline of Sensors 2 Noise Suppression 3 Digital conversion of sensor signals (Contents up to P12 in the textbook)",
+      "operation": "Lecture and Quiz",
+      "assignments": "This week review Read next week text",
+      "minutes": "30 45"
+    },
+    {
+      "index": "2",
+      "content": "1Basic Knowledge of Sensors 2Statistical data and signal processing 3Sensor Characterization",
+      "operation": "Lecture and Quiz",
+      "assignments": "Review: Basic knowledge of sensors Statistical data processing an d signal processing Characterization of sensors Preparation: Electronic circui ts for sensor application Electronic circuits for sensor utilization Operational Amplifiers Transistors",
+      "minutes": "30 60"
+    },
+    {
+      "index": "3",
+      "content": "Electronic Circuits for Sensor Application 1 Operational Amplifier 2 Transistor",
+      "operation": "Lecture and Quiz",
+      "assignments": "Review:. Electronic Circuits for Sensor Application Preparation Fundamentals of logic circuits Application of logic circuits",
+      "minutes": "30 60"
+    },
+    {
+      "index": "4",
+      "content": "Electronic Circuits for Sensor Application Fundamentals of Logic Circuits Applications of Logic Circuits",
+      "operation": "Lecture and Quiz",
+      "assignments": "",
+      "minutes": "30 60"
+    },
+    {
+      "index": "5",
+      "content": "Force Sensor (1) 1Force and Torque 2Strain Gages 3Bridge Circuit",
+      "operation": "Lecture and Quiz",
+      "assignments": "Review. Force sensor (1) Preparation: Force sensors (2) Force sensors (2)",
+      "minutes": "30 60"
+    },
+    {
+      "index": "6",
+      "content": "Force and Sensors 1 2 Gauge Method Temperature Compensation 2 Force Calibration 3 Center of Gravity 4 Piezoelectric Force Sensors 5 Capacitive Force Sensors",
+      "operation": "Lecture and Quiz",
+      "assignments": "Review: Force sensor Preparation Accelerometer",
+      "minutes": "30 60"
+    },
+    {
+      "index": "7",
+      "content": "Accelerometer 1 Acceleration 2 Operating Principle of Accelerometers 3 Dynamic and Static Acceleration 4 Frequency Response of Accelerometers 5 Low Pass Filter Circuit",
+      "operation": "Lecture and Quiz",
+      "assignments": "Review: Accelerometer Preparation Review of the past",
+      "minutes": "30 60"
+    },
+    {
+      "index": "8",
+      "content": "Middle Examination Review of examination",
+      "operation": "Test and Lecture",
+      "assignments": "Preview: Distance Sensors",
+      "minutes": "30 60"
+    },
+    {
+      "index": "9",
+      "content": "Distance Sensors 1 Displacement and velocity 2 Linear Potentiometers 3 Electric Micrometers 4 Cantilever Type Displacement Sensors 5 Optical Distance Sensors 6 Ultrasonic Distance Sensors",
+      "operation": "Lecture and Quiz",
+      "assignments": "Review: Distance Sensors Preparation: Angle and angular rate sensors",
+      "minutes": "90"
+    },
+    {
+      "index": "10",
+      "content": "Angle and angular rate sensor (1) 1 Potentiometer 2 Rotary encoder (1)",
+      "operation": "Lecture and Quiz",
+      "assignments": "Review:. Angle and Angular Rate Sensors Preparation: Angle and Angular Rate Sensors Angle and angular rate sensor",
+      "minutes": "60 30"
+    },
+    {
+      "index": "11",
+      "content": "Angle and angular rate sensors (2) 1 Optical gyro 2 Fluid Gyro 3 Mechanical gyros 4 Sagnac effect 5 Coriolis force 6 Gyro Precession",
+      "operation": "Lecture and Quiz",
+      "assignments": "Review: Angular rate sensor Preparation Optical sensors",
+      "minutes": "60 30"
+    },
+    {
+      "index": "12",
+      "content": "Optical Sensor 1 Cds 2 Photodiode 3 Photo transistors 4 Photo interrupters 5 Line Trace Robot",
+      "operation": "Lecture and Quiz",
+      "assignments": "Review:. Optical sensor Preparation Magnetic sensors",
+      "minutes": "60 30"
+    },
+    {
+      "index": "13",
+      "content": "Magnetic Sensors 1 Electromagnetic induction type 2 Magneto-electric conversion type 3 Examples of use",
+      "operation": "Lecture and Quiz",
+      "assignments": "Review:. Magnetic sensors Preparation Temperature sensors",
+      "minutes": "60 30"
+    },
+    {
+      "index": "14",
+      "content": "Temperature Sensors 1 About Temperature 2 Thermocouples 3 Thermistors 4 Resistance Thermometer 5 Pyroelectric Infrared Sensor 6 Temperature Sensitive Switches",
+      "operation": "Lecture and Quiz",
+      "assignments": "Review:. Magnetic sensors Preparation: Review of the past",
+      "minutes": "180"
+    },
+    {
+      "index": "15",
+      "content": "Final Examination Review of examination Review this semester",
+      "operation": "Test and Lecture",
+      "assignments": "Review this semester",
+      "minutes": "90"
+    }
+  ],
+  "rawText": "金沢工業大学 学習支援計画書 E219-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Robotics\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\nロボットセンシング\nMeasurement Engineering  2 E219-01  2023年度\n 3rd year 2nd semester  修学規程第4条を参照\n    担当教員名\n ITO Kouhei\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Measurement technique 2.Robot 3.Sensor 4.Actuator 5.Signal processing  (1) Learn the technology for physical and chemical sensors. (2) Learn sensor systems. (3) Learn how to process signals from acquired sensor output.\n    授業の概要および学習上の助言   This is a course on measurement engineering for robots. Students will learn how to select and use sensors.\n    教科書および参考書・リザーブドブック   Foundation of Sensor and Practical Use of Electic Circuit\n    履修に必要な予備知識や技能   None\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① L Explain the necessity of sensors.   ② L To be able to explain that various sensors are based on physical principles.   ③ L To be able to explain simple circuits of analog circuits, especially operational amplifiers.   ④ L To be able to explain about bridge circuits .   ⑤ L To be able to explain simple digital circuits   ⑥ L To be able to explain in general what kind of sensors are equivalent to the five senses of human beings.\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 40 60 0 0 0 0 0 100     指標と評価割合 総合評価割合 40 60 0 0 0 0 0 100   総合力指標 知識を取り込む力 40 60 0 0 0 0 0 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ An exam is given at the end of semester to evaluate your degree of achievement.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     クイズ\n小テスト ① レ Three or four quizzes are given during the semester.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     レポート ①      ②     ③     ④     ⑤     ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ①      ②     ③     ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     Explain the theory of each sensor and how it is used in society. Explain the sensor systems applied to robots.  Explain each sensor’s electrical basis and the optical characteristics of semiconductors. Explain where sensors are used in robots.\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習課題に要する標準的な時間を記載してあります。日々の自学自習時間全体としては、各授業に応じた時間(例えば2単位科目の場合、予習2時間・復習2時間/週)を取るよう努めてください。詳しくは教員の指導に従って下さい。     授業明細   回数 学習内容 授業の運営方法 学習課題(予習・復習) 時間:分※     1  Classroom Guidance 1 Outline of Sensors 2 Noise Suppression 3 Digital conversion of sensor signals (Contents up to P12 in the textbook) Lecture and Quiz This week review Read next week text  30 45   2  1Basic Knowledge of Sensors 2Statistical data and signal processing 3Sensor Characterization Lecture and Quiz Review: Basic knowledge of sensors Statistical data processing an d signal processing Characterization of sensors Preparation: Electronic circui ts for sensor application Electronic circuits for sensor utilization Operational Amplifiers Transistors  30 60   3  Electronic Circuits for Sensor Application 1 Operational Amplifier 2 Transistor Lecture and Quiz Review:. Electronic Circuits for Sensor Application Preparation Fundamentals of logic circuits Application of logic circuits  30 60   4  Electronic Circuits for Sensor Application Fundamentals of Logic Circuits Applications of Logic Circuits Lecture and Quiz   30 60   5  Force Sensor (1) 1Force and Torque 2Strain Gages 3Bridge Circuit Lecture and Quiz Review. Force sensor (1) Preparation: Force sensors (2) Force sensors (2)  30 60   6  Force and Sensors 1 2 Gauge Method Temperature Compensation 2 Force Calibration 3 Center of Gravity 4 Piezoelectric Force Sensors 5 Cap",
+  "sourceYear": "2023",
+  "originalSourceIndex": 280,
+  "courseId": "2023:spring:E202-01:0:10451",
+  "language": "en"
+}

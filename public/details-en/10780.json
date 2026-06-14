@@ -1,0 +1,312 @@
+{
+  "sourceIndex": 10780,
+  "sourceUrl": "/opsyllabus/kitos0110/609/1",
+  "importedAt": "2026-06-12T08:02:17.524Z",
+  "title": "経営情報専門実験・演習B",
+  "subtitle": "Management Systems Major Lab/Exercises B",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "3",
+  "term": "2023年度\n 3rd year 1st semester\n3rd year 2nd semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "ISHIHARA Masahiko",
+    "TOKUNAGA Yuichi",
+    "KANO Tsuyoshi"
+  ],
+  "keywords": [
+    "Strategy Planning 2.Costs, Sales, & Profit 3.Business Game 4.Profit Planning 5.Programming for Embedded Systems"
+  ],
+  "educationalGoal": "This practicum in applied business management is a compulsory course for third-year students. In this course, students will: (1) Use the case method to develop the analytical and planning skills needed to formulate a business strategy. (2) Participate in a business game intended to develop the analytical and planning skills needed to make a profit. (3) Implement their ideas and exercise their programming skills using Arduino.",
+  "advice": "This compulsory course uses the following: 1) the YBG Bakery Game, a competitive business game accessible on the Internet, which serves as a review of the relationship between sales volume, costs and profit, and profit planning. (group activity) Students will be required to create documents such as financial reports, business operation reports, market mechanism reports, and game review reports. 2) Strategy planning in which students will review and analyze the strategies of ‘real’ companies and develop new strategies for these companies. (group activity) Students will be required to create documents such as a strategic analysis report and devise a new strategic plan. 3) Programming for an original system using Arduino. (individual activity) Students will be required to implement their ideas via Arduino and give a presentation describing the implementation.",
+  "books": "Make:Getting Started with Arduino 3rd Edition(Publisher:Make Community)",
+  "requiredKnowledge": "Basic knowledge of management Basic computer skills",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "R",
+      "body": "Be able to understand the operations of the business game used in the course."
+    },
+    {
+      "index": "②",
+      "type": "R,M",
+      "body": "Be able to understand the relation between sales revenue, cost, and profit in the business game."
+    },
+    {
+      "index": "③",
+      "type": "R,M",
+      "body": "Be able to engage in effective profit planning."
+    },
+    {
+      "index": "④",
+      "type": "R,M",
+      "body": "Be able to create simple financial statements."
+    },
+    {
+      "index": "⑤",
+      "type": "R,K",
+      "body": "Be able to engage in effective strategy planning in a business framework."
+    },
+    {
+      "index": "⑥",
+      "type": "R,K",
+      "body": "Be able to create a program using Arduino."
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "0",
+        "10",
+        "35",
+        "25",
+        "30",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "0",
+        "10",
+        "35",
+        "25",
+        "30",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "0",
+        "10",
+        "35",
+        "25",
+        "30",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションと\nリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "1) Review and analyze the strategy of a ‘real’ company based on published information such as financial reports, and formulate a creative strategy for the company. 2) Develop a profit plan and implement optimum operations according to the plan in the business game. 3) Produce a work of creative programming using Arduino based on original ideas.",
+    "standard": "1) Review and analyze the strategy of a ‘real’ company based on news releases, and formulate a strategy for the company. 2) Develop a profit plan and implement operations in the business game. 3) Create a programming work using Arduino."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Course Introduction Introduction of the business game",
+      "operation": "Lecture, practice and group activities",
+      "assignments": "Preview the class materials",
+      "minutes": "300"
+    },
+    {
+      "index": "2",
+      "content": "Business game (1)",
+      "operation": "Lecture, practice, group activities and self-reflection",
+      "assignments": "Create a document for the business game (1) exercise",
+      "minutes": "300"
+    },
+    {
+      "index": "3",
+      "content": "Business game (2)",
+      "operation": "Lecture, practice and group activities",
+      "assignments": "Create a document for the business game (2) exercise",
+      "minutes": "600"
+    },
+    {
+      "index": "4",
+      "content": "Business game (3)",
+      "operation": "Practice, group activities and self-reflection",
+      "assignments": "Create a document for the business game (3) exercise",
+      "minutes": "450"
+    },
+    {
+      "index": "5",
+      "content": "Business game (4)",
+      "operation": "Practice, group activities and self-reflection",
+      "assignments": "Create a document for the business game (4) exercise",
+      "minutes": "450"
+    },
+    {
+      "index": "6",
+      "content": "Reverse engineering Strategy planning (1)",
+      "operation": "Reverse engineering Strategy planning (1)",
+      "assignments": "Reverse engineering Strategy planning (1)",
+      "minutes": "600"
+    },
+    {
+      "index": "7",
+      "content": "Strategy planning (2)",
+      "operation": "Practice, group activities and self-reflection",
+      "assignments": "Prepare for presentation of strategy planning",
+      "minutes": "400"
+    },
+    {
+      "index": "8",
+      "content": "Strategy planning (3)",
+      "operation": "Lecture, practice, group activities and self-reflection",
+      "assignments": "Prepare for presentation of strategy planning",
+      "minutes": "600"
+    },
+    {
+      "index": "9",
+      "content": "Strategy planning (4)",
+      "operation": "Practice, group activities and self-reflection",
+      "assignments": "Submit the final strategy planning report",
+      "minutes": "400"
+    },
+    {
+      "index": "10",
+      "content": "Strategy planning (5) Arduino programming (1)",
+      "operation": "Lecture, presentation and practice",
+      "assignments": "Review materials from previous courses Prepare for Arduino programming",
+      "minutes": "750"
+    },
+    {
+      "index": "11",
+      "content": "Arduino programming (2)",
+      "operation": "Practicum, interactive activities, and self-reflection",
+      "assignments": "Prepare for Arduino programming Review materials from the class",
+      "minutes": "600"
+    },
+    {
+      "index": "12",
+      "content": "Arduino programming (3)",
+      "operation": "Practicum, interactive activities, and self-reflection",
+      "assignments": "Prepare for Arduino programming Review materials from the class",
+      "minutes": "600"
+    },
+    {
+      "index": "13",
+      "content": "Arduino programming (4)",
+      "operation": "Practicum, interactive activities, and self-reflection",
+      "assignments": "Prepare for Arduino programming Review materials from the class",
+      "minutes": "700"
+    },
+    {
+      "index": "14",
+      "content": "Arduino programming (5)",
+      "operation": "Presentation, interactive activities, and self-reflection",
+      "assignments": "Prepare for presentation of t he programing works",
+      "minutes": "600"
+    },
+    {
+      "index": "15",
+      "content": "Course Summay",
+      "operation": "Self-evaluation",
+      "assignments": "Review what you've learned through this course",
+      "minutes": "100"
+    }
+  ],
+  "rawText": "金沢工業大学 学習支援計画書 F134-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Management Systems\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n経営情報専門実験・演習B\nManagement Systems Major Lab/Exercises B  3 F134-01  2023年度\n 3rd year 1st semester\n3rd year 2nd semester  修学規程第4条を参照\n    担当教員名\n ISHIHARA Masahiko, TOKUNAGA Yuichi, KANO Tsuyoshi\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Strategy Planning 2.Costs, Sales, & Profit 3.Business Game 4.Profit Planning 5.Programming for Embedded Systems  This practicum in applied business management is a compulsory course for third-year students. In this course, students will: (1) Use the case method to develop the analytical and planning skills needed to formulate a business strategy. (2) Participate in a business game intended to develop the analytical and planning skills needed to make a profit. (3) Implement their ideas and exercise their programming skills using Arduino.\n    授業の概要および学習上の助言   This compulsory course uses the following: 1) the YBG Bakery Game, a competitive business game accessible on the Internet, which serves as a review of the relationship between sales volume, costs and profit, and profit planning. (group activity) Students will be required to create documents such as financial reports, business operation reports, market mechanism reports, and game review reports. 2) Strategy planning in which students will review and analyze the strategies of ‘real’ companies and develop new strategies for these companies. (group activity) Students will be required to create documents such as a strategic analysis report and devise a new strategic plan. 3) Programming for an original system using Arduino. (individual activity) Students will be required to implement their ideas via Arduino and give a presentation describing the implementation.\n    教科書および参考書・リザーブドブック   Make:Getting Started with Arduino 3rd Edition(Publisher:Make Community)\n    履修に必要な予備知識や技能   Basic knowledge of management Basic computer skills\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① R Be able to understand the operations of the business game used in the course.   ② R,M Be able to understand the relation between sales revenue, cost, and profit in the business game.   ③ R,M Be able to engage in effective profit planning.   ④ R,M Be able to create simple financial statements.   ⑤ R,K Be able to engage in effective strategy planning in a business framework.   ⑥ R,K Be able to create a program using Arduino.\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 0 10 35 25 30 0 0 100     指標と評価割合 総合評価割合 0 10 35 25 30 0 0 100   総合力指標 知識を取り込む力 0 10 35 25 30 0 0 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ①      ②     ③     ④     ⑤     ⑥     クイズ\n小テスト ① レ There will be a number of quizzes to measure and improve the student’s level of understanding. Details for each quiz and the grading criteria will be announced in class.   ② レ   ③ レ   ④     ⑤ レ   ⑥     レポート ① レ Students will be evaluated on documents submitted for each of the exercises. Details for each assignment and the grading criteria will be announced in class.   ② レ   ③ レ   ④ レ   ⑤     ⑥     成果発表\n(口頭・実技) ① レ Students be required to give a presentation. Details and the grading criteria will be announced in class.   ② レ   ③ レ   ④ レ   ⑤     ⑥     作品 ①   Students will be evaluated on their ability to program using Arduino.   ②     ③     ④     ⑤     ⑥ レ   ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ①      ②     ③     ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     1) Review and analyze the strategy of a ‘real’ company based on published information such as financial reports, and formulate a creative strategy for the company. 2) Develop a profit plan and implement optimum operations according to the plan in the business game. 3) Produce",
+  "sourceYear": "2023",
+  "originalSourceIndex": 609,
+  "courseId": "2023:spring:F121-01:0:10780",
+  "language": "en"
+}

@@ -1,0 +1,305 @@
+{
+  "sourceIndex": 13351,
+  "sourceUrl": "/opsyllabus/kitos0110/264/1",
+  "importedAt": "2026-06-12T08:03:06.885Z",
+  "title": "半導体工学",
+  "subtitle": "Semiconductor Physics and Devices",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "2",
+  "term": "2026年度\n 3rd year 1st semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "HAYASHI Keiji"
+  ],
+  "keywords": [
+    "Semiconductor Properties 2.Quantum Theory 3.Carrier Transport Mechanisms 4.Semiconductor Diode 5.Transistor"
+  ],
+  "educationalGoal": "Student will: (1) learn semiconductors properties in order to understand the operation mechanism of semiconductor devices.(2) learn pn junctions and metal-semiconductor contacts using the energy band theory studied on “Physical Electronics”. Those are basics on various devices. (3) learn structures and operation mechanism of various diodes, bipolar transistor (PNP , NPN), and field effective transistor (FET).",
+  "advice": "Using knowledge of the energy band theory and semiconductor fundamental properties studied in “Physical Electronics”, students will learn other aspects of semiconductor fundamental properties. Students will also learn operation mechanisms and characteristics of pn junctions, metal-semiconductor contacts, bipolar transistors, and field-effect transistors. We will cover the following materials: 1. Fundamentals of electronic properties of semiconductors 2. Transport mechanisms and spatial distribution formation of free carriers 3. Semiconductor diode 4. Transistor Students should be aware of the teacher's instructions in the class, because the detailed course schedules may change depending on the students' progress in understanding. Class materials will be distributed in advance via the e-syllabus.",
+  "books": "Textbooks: None Reference books: None Reserved books: None",
+  "requiredKnowledge": "Understanding and knowledge of “Electronic Engineering” and “Physical Electronics”. Basic physics and mathematics, especially differential equations.",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "J,L",
+      "body": "Be able to outline the content of lectures on the quantum state of electrons regarding semiconductor crystals."
+    },
+    {
+      "index": "②",
+      "type": "J,L",
+      "body": "Be able to outline the electronic state of semiconductors under thermal equilibrium conditions."
+    },
+    {
+      "index": "③",
+      "type": "J,L",
+      "body": "Be able to outline transport mechanisms and spatial distribution formation of free carriers."
+    },
+    {
+      "index": "④",
+      "type": "J,L",
+      "body": "Be able to explain the rectifying properties of a pn junction diode based on the diffusion model."
+    },
+    {
+      "index": "⑤",
+      "type": "J,L",
+      "body": "Be able to outline the operating principles and characteristics of bipolar transistors and MOSFETs."
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "40",
+        "40",
+        "20",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "40",
+        "40",
+        "20",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "40",
+        "40",
+        "20",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションと\nリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "5 target abilities are achieved over 85%, based on understanding and using mathematics and physics.",
+    "standard": "5 target abilities are achieved with 70-85%."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Course introduction",
+      "operation": "Lecture and Q&A",
+      "assignments": "Understand the objectives of class Review materials from No. 1 class",
+      "minutes": "200"
+    },
+    {
+      "index": "2",
+      "content": "1. Fundamentals of electronic properties of semiconductors",
+      "operation": "Lecture and Q&A",
+      "assignments": "Prepare Ch. 1 of the class materials distributed via the e-syllabus Review is focusing on important points explained at class",
+      "minutes": "200"
+    },
+    {
+      "index": "3",
+      "content": "continued",
+      "operation": "Lecture and Q&A",
+      "assignments": "Prepare Ch. 1 of the class materials distributed via the e-syllabus Review is focusing on important points explained at class",
+      "minutes": "200"
+    },
+    {
+      "index": "4",
+      "content": "continued",
+      "operation": "Lecture and Q&A",
+      "assignments": "Prepare Ch. 1 of the class materials distributed via the e-syllabus Review is focusing on important points explained at class",
+      "minutes": "200"
+    },
+    {
+      "index": "5",
+      "content": "continued",
+      "operation": "Lecture and Q&A",
+      "assignments": "Prepare Ch. 1 of the class materials distributed via the e-syllabus Review is focusing on important points explained at class",
+      "minutes": "200"
+    },
+    {
+      "index": "6",
+      "content": "2. Transport mechanisms and spatial distribution formation of free carriers",
+      "operation": "Lecture and Q&A",
+      "assignments": "Prepare Ch. 2 of the class materials distributed via the e-syllabus Review is focusing on important points explained at class",
+      "minutes": "200"
+    },
+    {
+      "index": "7",
+      "content": "Self-reflection class",
+      "operation": "Review and self-reflection",
+      "assignments": "Review the contents learned in Nos. 2 to 6 classes",
+      "minutes": "200"
+    },
+    {
+      "index": "8",
+      "content": "3. Semiconductor diode",
+      "operation": "Lecture and Q&A",
+      "assignments": "Prepare Ch. 3 of the class materials distributed via the e-syllabus Review is focusing on important points explained at class",
+      "minutes": "200"
+    },
+    {
+      "index": "9",
+      "content": "continued",
+      "operation": "Lecture and Q&A",
+      "assignments": "Prepare Ch. 3 of the class materials distributed via the e-syllabus Review is focusing on important points explained at class",
+      "minutes": "200"
+    },
+    {
+      "index": "10",
+      "content": "Mid-term exam Explanation of the correct answers for the exam",
+      "operation": "Exam and review",
+      "assignments": "Preview again and review the class materials covered in the exam",
+      "minutes": "200"
+    },
+    {
+      "index": "11",
+      "content": "4. Transistor",
+      "operation": "Lecture and Q&A",
+      "assignments": "Prepare Ch. 4 of the class materials distributed via the e-syllabus Review is focusing on important points explained at class",
+      "minutes": "200"
+    },
+    {
+      "index": "12",
+      "content": "continued",
+      "operation": "Lecture and Q&A",
+      "assignments": "Prepare Ch. 4 of the class materials distributed via the e-syllabus Review is focusing on important points explained at class",
+      "minutes": "200"
+    },
+    {
+      "index": "13",
+      "content": "Self-reflection class",
+      "operation": "Review and self-reflection",
+      "assignments": "Review the contents learned in Nos. 8, 9, 11, and 12 classes",
+      "minutes": "200"
+    },
+    {
+      "index": "14",
+      "content": "Final exam Explanation of the correct answers for the exam",
+      "operation": "Exam and review",
+      "assignments": "Preview again and review the class materials covered in the exam",
+      "minutes": "200"
+    },
+    {
+      "index": "15",
+      "content": "Self-check Introduction to quantum theory",
+      "operation": "Self-check Lecture and Q&A",
+      "assignments": "Review and self-check on 5 target abilities Learn again points on lack of understanding",
+      "minutes": "200"
+    }
+  ],
+  "rawText": "金沢工業大学 学習支援計画書 E627-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Electrical and Electronic Engineering(〜2024)\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n半導体工学\nSemiconductor Physics and Devices  2 E627-01  2026年度\n 3rd year 1st semester  修学規程第4条を参照\n    担当教員名\n HAYASHI Keiji      *印は、実務経験のある教員を示しています。\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Semiconductor Properties 2.Quantum Theory 3.Carrier Transport Mechanisms 4.Semiconductor Diode 5.Transistor  Student will: (1) learn semiconductors properties in order to understand the operation mechanism of semiconductor devices.(2) learn pn junctions and metal-semiconductor contacts using the energy band theory studied on “Physical Electronics”. Those are basics on various devices. (3) learn structures and operation mechanism of various diodes, bipolar transistor (PNP , NPN), and field effective transistor (FET).\n    授業の概要および学習上の助言   Using knowledge of the energy band theory and semiconductor fundamental properties studied in “Physical Electronics”, students will learn other aspects of semiconductor fundamental properties. Students will also learn operation mechanisms and characteristics of pn junctions, metal-semiconductor contacts, bipolar transistors, and field-effect transistors. We will cover the following materials: 1. Fundamentals of electronic properties of semiconductors 2. Transport mechanisms and spatial distribution formation of free carriers 3. Semiconductor diode 4. Transistor Students should be aware of the teacher's instructions in the class, because the detailed course schedules may change depending on the students' progress in understanding. Class materials will be distributed in advance via the e-syllabus.\n    教科書および参考書・リザーブドブック   Textbooks: None Reference books: None Reserved books: None\n    履修に必要な予備知識や技能   Understanding and knowledge of “Electronic Engineering” and “Physical Electronics”. Basic physics and mathematics, especially differential equations.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① J,L Be able to outline the content of lectures on the quantum state of electrons regarding semiconductor crystals.   ② J,L Be able to outline the electronic state of semiconductors under thermal equilibrium conditions.   ③ J,L Be able to outline transport mechanisms and spatial distribution formation of free carriers.   ④ J,L Be able to explain the rectifying properties of a pn junction diode based on the diffusion model.   ⑤ J,L Be able to outline the operating principles and characteristics of bipolar transistors and MOSFETs.   ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 40 40 20 0 0 0 0 100     指標と評価割合 総合評価割合 40 40 20 0 0 0 0 100   総合力指標 知識を取り込む力 40 40 20 0 0 0 0 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ There are exams to evaluate the degree of achievement.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     クイズ\n小テスト ① レ There are small tests and quizzes in accordance with progress of course, mainly, in order to check the level of understanding on “target abilities of student”.    ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     レポート ① レ Students will be evaluated on two or more reports, mainly, in order to check achievement on “target abilities of student”, in accordance with progress of course. Reports must be submitted before the deadline.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ①      ②     ③     ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     5 target abilities are achieved over 85%, based on understanding and using mathematics and physics. 5 target abilities are achieved with 70-85%.\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評",
+  "sourceYear": "2026",
+  "originalSourceIndex": 264,
+  "courseId": "2026:spring:E625-01:0:13351",
+  "language": "en"
+}

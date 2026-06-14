@@ -1,0 +1,295 @@
+{
+  "sourceIndex": 8562,
+  "sourceUrl": "/opsyllabus/kitos0110/200/1",
+  "importedAt": "2026-06-12T08:01:34.652Z",
+  "title": "熱流体工学",
+  "subtitle": "Introduction to Thermofluids",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "2",
+  "term": "2021年度\n 3rd year 1st semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "HIROMITSU Nagayoshi"
+  ],
+  "keywords": [
+    "Engine System 2.Energy Exchange Process 3.Jet Engine Cycle 4.Piston Engine Cycle 5.Heat Transfer"
+  ],
+  "educationalGoal": "Students will: (1)learn the energy exchange process in jet engines (2)learn the energy exchange process in piston engines (3)learn the heat transfer process",
+  "advice": "This is a basic course on thermofluids.We will cover the following materials: 1.Lecture on engine system and principle of energy exchange process, exercises. 2.Lecture on piston engine cycle and performance calculation,exercises. 3.Lecture on jet engine cycle and performance calculation,exercises. 4.Lecture on Fourier law on heat conduction and application to flat plate model,exercises. 5.Lecture on non dimensional parameter governing heat convection and application to flat plate model,exercises. Students will also learn about advanced issues such as radiation. Students are expected to understand the meaning of terms and formulas. Students are expected to solve advanced exerciseson their own. Students should be aware of the teacher7s instructions in the class,because the schdules of quizzes,tests and reports may change as the class progresses.",
+  "books": "Mechanical Engineering Series 2 「Thermodynamics」",
+  "requiredKnowledge": "Acquisition of Fluid Dynamics and Thermodynamics Sufficient skill in mathematics(especially differntial/integral calculations) Know how to use a calculator",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "D",
+      "body": "Be able to explain basic concept of energy exchange."
+    },
+    {
+      "index": "②",
+      "type": "D,J,M",
+      "body": "Be able to explain jet engine and piston engine cycle calculations."
+    },
+    {
+      "index": "③",
+      "type": "D,J,M",
+      "body": "Be able to calculate basic heat conduction and heat convection."
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "30",
+        "40",
+        "30",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "30",
+        "40",
+        "30",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "30",
+        "40",
+        "30",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションと\nリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "(1)Explain the concept of the energy exchaange mechanism. (2)On the basis of the concept of the energy exchange mechanism,formulate the calculation of actual engine performance. (3)Explain the concept of heat transfer and formulate it correctly.",
+    "standard": "(1)Explain the means of the energy exchange mechanism. (2)Calculate engine performance using the formulated equations. (3)Explain the meaning of heat transfer and calculate heat transfer using the formulated equations."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Course introduction Otto cycle",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Understand the objectives of course Study Otto cycle in textbook",
+      "minutes": "90"
+    },
+    {
+      "index": "2",
+      "content": "Review of previous class Gas turbine cycle",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Study gas turbine cycle in textbook",
+      "minutes": "90"
+    },
+    {
+      "index": "3",
+      "content": "Review of previous class Jet engine cycle",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Study jet engine cycle in text book",
+      "minutes": "90"
+    },
+    {
+      "index": "4",
+      "content": "Test on classes 1 to 3",
+      "operation": "Test and practice Self-reflection",
+      "assignments": "Review classes 1 to 3",
+      "minutes": "90"
+    },
+    {
+      "index": "5",
+      "content": "Review of previous class Concept of heat transfer",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Study concept of heat transfer in handout text",
+      "minutes": "90"
+    },
+    {
+      "index": "6",
+      "content": "Review of previous class Heat conduction in flat plates",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Study concept of heat conductionrin handout text",
+      "minutes": "90"
+    },
+    {
+      "index": "7",
+      "content": "Review of previous class Heat conduction in pipe",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Study concept of heat conductionrin handout text",
+      "minutes": "90"
+    },
+    {
+      "index": "8",
+      "content": "Exercises on heat conduction",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Review classes 5 to 7",
+      "minutes": "90"
+    },
+    {
+      "index": "9",
+      "content": "Test on classes 5 to 8",
+      "operation": "Test and review Self-reflection",
+      "assignments": "Review class 5 to 8",
+      "minutes": ""
+    },
+    {
+      "index": "10",
+      "content": "Concept of heat convection",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Study concept of heat convectionrin handout text",
+      "minutes": "90"
+    },
+    {
+      "index": "11",
+      "content": "Review of previous class Non-dimensional parameter governing heat convection",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Study heat convection in handout text",
+      "minutes": "90"
+    },
+    {
+      "index": "12",
+      "content": "Review of previous class Experimental formula for heat convection in flat plate Exercises on heat convection",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Study heat convection in handout text",
+      "minutes": "90"
+    },
+    {
+      "index": "13",
+      "content": "Test on classes 10 to 13",
+      "operation": "Test and review Self-reflection",
+      "assignments": "Review classes 10 to 12",
+      "minutes": "90"
+    },
+    {
+      "index": "14",
+      "content": "Final examination",
+      "operation": "Test and review Self-reflection",
+      "assignments": "Review classes 1 to 13",
+      "minutes": "120"
+    },
+    {
+      "index": "15",
+      "content": "Self-evaluation",
+      "operation": "Lecture nd interactive activities Self-evaluation",
+      "assignments": "Study the exam",
+      "minutes": "90"
+    }
+  ],
+  "rawText": "金沢工業大学 学習支援計画書 E121-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Aeronautics\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n熱流体工学\nIntroduction to Thermofluids  2 E121-01  2021年度\n 3rd year 1st semester  修学規程第4条を参照\n    担当教員名\n HIROMITSU Nagayoshi\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Engine System 2.Energy Exchange Process 3.Jet Engine Cycle 4.Piston Engine Cycle 5.Heat Transfer  Students will: (1)learn the energy exchange process in jet engines (2)learn the energy exchange process in piston engines (3)learn the heat transfer process\n    授業の概要および学習上の助言   This is a basic course on thermofluids.We will cover the following materials: 1.Lecture on engine system and principle of energy exchange process, exercises. 2.Lecture on piston engine cycle and performance calculation,exercises. 3.Lecture on jet engine cycle and performance calculation,exercises. 4.Lecture on Fourier law on heat conduction and application to flat plate model,exercises. 5.Lecture on non dimensional parameter governing heat convection and application to flat plate model,exercises. Students will also learn about advanced issues such as radiation. Students are expected to understand the meaning of terms and formulas. Students are expected to solve advanced exerciseson their own. Students should be aware of the teacher7s instructions in the class,because the schdules of quizzes,tests and reports may change as the class progresses.\n    教科書および参考書・リザーブドブック   Mechanical Engineering Series 2 「Thermodynamics」\n    履修に必要な予備知識や技能   Acquisition of Fluid Dynamics and Thermodynamics Sufficient skill in mathematics(especially differntial/integral calculations) Know how to use a calculator\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① D Be able to explain basic concept of energy exchange.   ② D,J,M Be able to explain jet engine and piston engine cycle calculations.   ③ D,J,M Be able to calculate basic heat conduction and heat convection.   ④     ⑤     ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 30 40 30 0 0 0 0 100     指標と評価割合 総合評価割合 30 40 30 0 0 0 0 100   総合力指標 知識を取り込む力 30 40 30 0 0 0 0 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ There is an exam at the end of the semester to evaluate students' achievement. The calculator specified in this department can be used.   ② レ   ③ レ   ④     ⑤     ⑥     クイズ\n小テスト ① レ There are tests at the end of each chapter to improve the level of understanding. The calculator specified in this department can be used on every test. It is necessary to understand the idea behind the formulas.   ② レ   ③ レ   ④     ⑤     ⑥     レポート ① レ Students will be evaluated on three reports.   ② レ   ③ レ   ④     ⑤     ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ①      ②     ③     ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     (1)Explain the concept of the energy exchaange mechanism. (2)On the basis of the concept of the energy exchange mechanism,formulate the calculation of actual engine performance. (3)Explain the concept of heat transfer and formulate it correctly. (1)Explain the means of the energy exchange mechanism. (2)Calculate engine performance using the formulated equations. (3)Explain the meaning of heat transfer and calculate heat transfer using the formulated equations.\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習課題に要する標準的な時間を記載してあります。日々の自学自習時間全体としては、各授業に応じた時間(例えば2単位科目の場合、予習2時間・復習2時間/週)を取るよう努めてください。詳しくは教員の指導に従って下さい。     授業明細   回数 学習内容 授業の運営方法 学習課題(予習・復習) 時間:分※     1  Course introduction Otto cycle ",
+  "sourceYear": "2021",
+  "originalSourceIndex": 200,
+  "courseId": "2021:fall:E024-01:0:8562",
+  "language": "en"
+}

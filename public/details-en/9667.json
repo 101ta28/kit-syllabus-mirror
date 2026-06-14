@@ -1,0 +1,311 @@
+{
+  "sourceIndex": 9667,
+  "sourceUrl": "/opsyllabus/kitos0110/410/1",
+  "importedAt": "2026-06-12T08:01:55.559Z",
+  "title": "コンピュータシステム基礎",
+  "subtitle": "Foundations of Computer Systems",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "2",
+  "term": "2022年度\n 1st year 1st semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "KAWANAMI Takashi",
+    "SANO Shoji"
+  ],
+  "keywords": [
+    "Binary Encoding 2.Arithmetic Logic Unit 3.CPU 4.Machine Code 5.Assembly Language"
+  ],
+  "educationalGoal": "Students will: (1) Learn how to store information as “binary data” on computer systems. (2) Learn the basic mechanism of processing “machine code” inside computer systems. (3) Acquire skills to program in “machine code” using an assembly language.",
+  "advice": "This is a basic course for understanding computer architecture and utilizing it for programming. We will cover the following materials: 1. Basic computer configuration 2. Binary encoding 3. Boolean expression 4. Logic circuit basics 5. Arithmetic logic unit 6. Memory configuration 7. Instruction cycle 8. Machine code 9. Addressing mode 10. Assembly languages 11. Programming techniques in assembly languages Students are expected to bring their textbook, notebook PC, and other necessary materials to every class. Students are expected to check for messages/materials on the KIT Inside website before every class/on a regular",
+  "books": "",
+  "requiredKnowledge": "None",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "I,M,N",
+      "body": "Be able to explain the information encoding, and basic features of computer systems."
+    },
+    {
+      "index": "②",
+      "type": "I,M,N",
+      "body": "Be able to derive Boolean expressions from truth tables."
+    },
+    {
+      "index": "③",
+      "type": "I,M,N",
+      "body": "Be able to explain the addressing mode."
+    },
+    {
+      "index": "④",
+      "type": "I,M,N",
+      "body": "Be able to explain the instruction cycle."
+    },
+    {
+      "index": "⑤",
+      "type": "I,M,N",
+      "body": "Be able to explain the conditional branch instruction, and create programs utilizing it."
+    },
+    {
+      "index": "⑥",
+      "type": "I,M,N",
+      "body": "Be able to trace the program execution process."
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "40",
+        "40",
+        "20",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "40",
+        "40",
+        "20",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "40",
+        "40",
+        "20",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションと\nリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "Be able to learn the following elemental technologies required for the basic computer configuration appropriately, explain the concrete technical contents, and accurately use machine code to create a program. 1. Boolean expression 2. Logic circuit basics 3. Arithmetic logic unit 4. Memory configuration 5. Instruction cycle 6. Machine code 7. Addressing mode. 8. Assembly languages",
+    "standard": "Be able to learn the following elemental technologies required for the basic computer configuration, explain the concrete technical contents, and create a program in machine code. 1. Boolean expression 2. Logic circuit basics 3. Arithmetic logic unit 4. Memory configuration 5. Instruction cycle 6. Machine code 7. Addressing mode. 8. Assembly languages"
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Basic Computer Configuration 1 Understand overview of the computer configuration consisting of CPU and memory.",
+      "operation": "Lecture and exercises",
+      "assignments": "Understand the objectives of class",
+      "minutes": "100"
+    },
+    {
+      "index": "2",
+      "content": "Basic Computer Configuration 2 Learn the two's complement (radix complements) and hexadecimal.",
+      "operation": "Lecture and exercises",
+      "assignments": "Review (overview of the computer configuration) Preparation (Chapter 4 of textbook 1)",
+      "minutes": "100"
+    },
+    {
+      "index": "3",
+      "content": "Basic Computer Configuration 3 Learn fixed-point arithmetic and floating-point arithmetic in computing.",
+      "operation": "Lecture, exercises, and self-reflection",
+      "assignments": "Review (two's complement and hexadecimal) Preparation (Chapter 5 of textbook 1)",
+      "minutes": "100"
+    },
+    {
+      "index": "4",
+      "content": "Basic Computer Configuration 4 Learn truth tables, Boolean expression, and logic gates.",
+      "operation": "Lecture, exercises",
+      "assignments": "Review (fixed-point arithmetic and floating-point arithmetic) Preparation (Chapter 5 of textbook 1)",
+      "minutes": "100"
+    },
+    {
+      "index": "5",
+      "content": "Basic Computer Configuration 5 Learn the logic circuit and ALU basics (half adder, full adder, and 8-bit adder).",
+      "operation": "Lecture and exercises",
+      "assignments": "Review (truth tables, Boolean expression, and logic gates) Preparation (Chapter 5 of textbook 1)",
+      "minutes": "100"
+    },
+    {
+      "index": "6",
+      "content": "Basic Computer Configuration 6 Learn the memory configuration, instruction cycle, and machine code.",
+      "operation": "Lecture, exercises, and self-reflection",
+      "assignments": "Review (logic circuit and ALU basics) Preparation (Chapter 1 and Chapter 2 of textbook 2)",
+      "minutes": "100"
+    },
+    {
+      "index": "7",
+      "content": "Machine Code Programming 1 Learn overview of assembly language CASL 2/COMET 2.",
+      "operation": "Lecture, exercises",
+      "assignments": "Review (Chapter 1 and Chapter 2 of textbook 2) Preparation (Chapter 3 of textbook 2)",
+      "minutes": "100"
+    },
+    {
+      "index": "8",
+      "content": "Machine Code Programming 2 Learn addressing mode on CASL 2/COMET 2.",
+      "operation": "Lecture, exercises, and exam",
+      "assignments": "Review (Chapter 3 of textbook 2) Preparation (Chapter 4 of textbook 2)",
+      "minutes": "100"
+    },
+    {
+      "index": "9",
+      "content": "Machine Code Programming 3 Learn moves-instruction on CASL 2/COMET 2.",
+      "operation": "Lecture, exercises, and self-reflection",
+      "assignments": "Review (Chapter 4 of textbook 2) Preparation (Chapter 5 of textbook 2)",
+      "minutes": "100"
+    },
+    {
+      "index": "10",
+      "content": "Machine Code Programming 4 Learn arithmetic instructions and logic operations on CASL 2/COMET 2.",
+      "operation": "Lecture and exercises",
+      "assignments": "Review (Chapter 5 of textbook 2) Preparation (Chapter 6 of textbook 2)",
+      "minutes": "100"
+    },
+    {
+      "index": "11",
+      "content": "Machine Code Programming 5 Learn branch instructions and conditions on CASL 2/COMET 2",
+      "operation": "Lecture and exercises",
+      "assignments": "Review (Chapter 6 of textbook 2) Preparation (Chapter 7 of textbook 2)",
+      "minutes": "100"
+    },
+    {
+      "index": "12",
+      "content": "Machine Code Programming 6 Learn stack operations and subroutine on CASL 2/COMET 2.",
+      "operation": "Lecture, exercises, and self-reflection",
+      "assignments": "Review (Chapter 7 of textbook 2)",
+      "minutes": "100"
+    },
+    {
+      "index": "13",
+      "content": "Integrated learning Learn various programming techniques.",
+      "operation": "Lecture and exercises",
+      "assignments": "Review (Integrated learning) Preparation (Achievement exam)",
+      "minutes": "100"
+    },
+    {
+      "index": "14",
+      "content": "Achievement exam.",
+      "operation": "Exam and review",
+      "assignments": "Review (Achievement exam)",
+      "minutes": "100"
+    },
+    {
+      "index": "15",
+      "content": "Self-reflection class. Self-evaluation.",
+      "operation": "Lecture, self-reflection, and individual conference",
+      "assignments": "Review (Achievement exam)",
+      "minutes": "100"
+    }
+  ],
+  "rawText": "金沢工業大学 学習支援計画書 E504-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Information and Computer Science\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\nコンピュータシステム基礎\nFoundations of Computer Systems  2 E504-01  2022年度\n 1st year 1st semester  修学規程第4条を参照\n    担当教員名\n KAWANAMI Takashi, SANO Shoji\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Binary Encoding 2.Arithmetic Logic Unit 3.CPU 4.Machine Code 5.Assembly Language  Students will: (1) Learn how to store information as “binary data” on computer systems. (2) Learn the basic mechanism of processing “machine code” inside computer systems. (3) Acquire skills to program in “machine code” using an assembly language.\n    授業の概要および学習上の助言   This is a basic course for understanding computer architecture and utilizing it for programming. We will cover the following materials: 1. Basic computer configuration 2. Binary encoding 3. Boolean expression 4. Logic circuit basics 5. Arithmetic logic unit 6. Memory configuration 7. Instruction cycle 8. Machine code 9. Addressing mode 10. Assembly languages 11. Programming techniques in assembly languages Students are expected to bring their textbook, notebook PC, and other necessary materials to every class. Students are expected to check for messages/materials on the KIT Inside website before every class/on a regular\n    教科書および参考書・リザーブドブック\n    履修に必要な予備知識や技能   None\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① I,M,N Be able to explain the information encoding, and basic features of computer systems.   ② I,M,N Be able to derive Boolean expressions from truth tables.   ③ I,M,N Be able to explain the addressing mode.   ④ I,M,N Be able to explain the instruction cycle.   ⑤ I,M,N Be able to explain the conditional branch instruction, and create programs utilizing it.   ⑥ I,M,N Be able to trace the program execution process.\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 40 40 20 0 0 0 0 100     指標と評価割合 総合評価割合 40 40 20 0 0 0 0 100   総合力指標 知識を取り込む力 40 40 20 0 0 0 0 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ The first exam will check the student's understanding of the CPU and memory configurations. The second test will check the student's understanding of machine code and programming.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥ レ   クイズ\n小テスト ① レ Check the learning outcomes of each lesson.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥ レ   レポート ①   Students will be evaluated on reports. Each report will consist of the answers to the exercises.    ②     ③     ④ レ   ⑤ レ   ⑥ レ   成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ①      ②     ③     ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     Be able to learn the following elemental technologies required for the basic computer configuration appropriately, explain the concrete technical contents, and accurately use machine code to create a program. 1. Boolean expression 2. Logic circuit basics 3. Arithmetic logic unit 4. Memory configuration 5. Instruction cycle 6. Machine code 7. Addressing mode. 8. Assembly languages  Be able to learn the following elemental technologies required for the basic computer configuration, explain the concrete technical contents, and create a program in machine code. 1. Boolean expression 2. Logic circuit basics 3. Arithmetic logic unit 4. Memory configuration 5. Instruction cycle 6. Machine code 7. Addressing mode. 8. Assembly languages\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習課題に要する標準的な時間を記載してあります。日々の自学自習時間全体としては、各授業に応じた時間(例えば2単位科目の場合、予習2時間・復習2時間/週)を取るよう努めてください。詳しくは教員の指導に従って下さい。    ",
+  "sourceYear": "2022",
+  "originalSourceIndex": 410,
+  "courseId": "2022:full-year:E927-03:0:9667",
+  "language": "en"
+}

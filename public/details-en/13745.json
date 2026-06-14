@@ -1,0 +1,295 @@
+{
+  "sourceIndex": 13745,
+  "sourceUrl": "/opsyllabus/kitos0110/658/1",
+  "importedAt": "2026-06-12T08:03:09.612Z",
+  "title": "信号処理",
+  "subtitle": "Signal Processing",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "2",
+  "term": "2026年度\n 2nd year 2nd semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "TAKEI Yoshinori"
+  ],
+  "keywords": [
+    "Digital signal processing 2.Convolution 3.Z-transform 4.Fourier analysis"
+  ],
+  "educationalGoal": "(1) Learn the foundations of signal processing, including analog-to-digital conversion. (2) Understand the basic concepts for digital signals processing, including convolution, Z-transform, sampling theorem, and Fourier analysis. (3) Acquire the ability to evaluate signals transmitted between linear time-invariant (LTI) systems and to extract the features underlying signals.",
+  "advice": "This is a basic course in signal processing for discrete time signals. We will mainly cover the following topics: 1. Basic concepts of digital signal processing. 2. Expressing LTI systems with linear convolution. 3. Expressing discrete time transfer functions using Z-transform and its frequency domain property. 4. Expressing Fourier series and Fourier transform for continuous and discrete time signals in relation to the sampling theorem. Students are expected to actively participate in class. Students are expected to complete exercises independently. Students are required to be aware of the instructor’s messages in the class and to check for messages/materials on the KIT Inside website before every class because the course schedule may change depending on the class progress.",
+  "books": "Hitoshi Kiya, Digital Signal Processing (in Japanese), Ohmsha",
+  "requiredKnowledge": "Sufficient mathematical calculation skills (especially those covered in Control Engineering I). Basic knowledge of differential and integral calculus.",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "K",
+      "body": "Explain expressions of discrete time signals obtained by sampling various continuous time signals"
+    },
+    {
+      "index": "②",
+      "type": "K",
+      "body": "Explain the characteristics of transient responses and frequency responses of discrete LTI systems"
+    },
+    {
+      "index": "③",
+      "type": "K",
+      "body": "Explain the Fourier analysis"
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "40",
+        "30",
+        "30",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "40",
+        "30",
+        "30",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "40",
+        "30",
+        "30",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションと\nリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "(1) Calculate convolution, Z-transform, and Fourier series expansion signals from various sampled continuous time signals (2) Express the discrete time transfer function and its frequency domain property for discrete LTI systems (3) Express the characteristics of the frequency domain of discrete time signals in relation to the sampling theorem",
+    "standard": "(1) Calculate convolution, Z-transform, and Fourier series expansion for basic discrete time signals (2) Express the discrete time transfer function of discrete LTI systems (3) Explain the characteristics of frequency domain of discrete time signals in relation to the sampling theorem"
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Course introduction Basic concepts of digital signal processing",
+      "operation": "Lecture (including Q&A) and Exercises",
+      "assignments": "Understand the course objectives Read and understand the pertinent sections of the textbook",
+      "minutes": "180"
+    },
+    {
+      "index": "2",
+      "content": "Expression of signals",
+      "operation": "Lecture (including Q&A) and Exercises",
+      "assignments": "Understand the course objectives Read and understand the pertinent sections of the textbook",
+      "minutes": "180"
+    },
+    {
+      "index": "3",
+      "content": "Signal processing system LTI systems",
+      "operation": "Lecture (including Q&A) and Exercises",
+      "assignments": "Read and understand the pertinent section of the textbook",
+      "minutes": "90"
+    },
+    {
+      "index": "4",
+      "content": "Linear convolution",
+      "operation": "Lecture (including Q&A) and Exercises",
+      "assignments": "Read and understand the pertinent section of the textbook",
+      "minutes": "90"
+    },
+    {
+      "index": "5",
+      "content": "Properties of systems, stability, and causality",
+      "operation": "Lecture (including Q&A) and Exercises",
+      "assignments": "Read and understand the pertinent section of the textbook",
+      "minutes": "90"
+    },
+    {
+      "index": "6",
+      "content": "Z-transform and transfer function",
+      "operation": "Lecture (including Q&A) and Exercises",
+      "assignments": "Read and understand the pertinent section of the textbook",
+      "minutes": "90"
+    },
+    {
+      "index": "7",
+      "content": "Inverted Z-transform and stability of system in Z-domain",
+      "operation": "Lecture (including Q&A) and Exercises",
+      "assignments": "Read and understand the pertinent section of the textbook",
+      "minutes": "90"
+    },
+    {
+      "index": "8",
+      "content": "Exercises Mid-semester test",
+      "operation": "Exercises Test",
+      "assignments": "Review the content of classes 1-6",
+      "minutes": "180"
+    },
+    {
+      "index": "9",
+      "content": "Review of the mid-semester test Self-check",
+      "operation": "Lecture (including Q&A) and Exercises Self-check",
+      "assignments": "Review the content of the mid-semester test",
+      "minutes": "90"
+    },
+    {
+      "index": "10",
+      "content": "Frequency analysis and Fourier series",
+      "operation": "Lecture (including Q&A) and Exercises",
+      "assignments": "Read and understand the pertinent section of the textbook",
+      "minutes": "150"
+    },
+    {
+      "index": "11",
+      "content": "Fourier series expansion",
+      "operation": "Lecture (including Q&A) and Exercises",
+      "assignments": "Read and understand the pertinent section of the textbook",
+      "minutes": "90"
+    },
+    {
+      "index": "12",
+      "content": "Discrete-time Fourier series and sampling theorem",
+      "operation": "Lecture (including Q&A) and Exercises",
+      "assignments": "Read and understand the pertinent section of the textbook",
+      "minutes": "90"
+    },
+    {
+      "index": "13",
+      "content": "Exercises",
+      "operation": "Exercises",
+      "assignments": "Review the content of classes 1-12 Review the content of the exercises",
+      "minutes": "90 90"
+    },
+    {
+      "index": "14",
+      "content": "Exercises Semester final examination",
+      "operation": "Exercises Examination",
+      "assignments": "Review the content of classes 1-13",
+      "minutes": "180"
+    },
+    {
+      "index": "15",
+      "content": "Review of semester final examination Self-check",
+      "operation": "Lecture (including Q&A) and Exercises Self-check",
+      "assignments": "Review the content of the semester final examination",
+      "minutes": "90"
+    }
+  ],
+  "rawText": "金沢工業大学 学習支援計画書 C223-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Robotics\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n信号処理\nSignal Processing  2 C223-01  2026年度\n 2nd year 2nd semester  修学規程第4条を参照\n    担当教員名\n TAKEI Yoshinori      *印は、実務経験のある教員を示しています。\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Digital signal processing 2.Convolution 3.Z-transform 4.Fourier analysis  (1) Learn the foundations of signal processing, including analog-to-digital conversion. (2) Understand the basic concepts for digital signals processing, including convolution, Z-transform, sampling theorem, and Fourier analysis. (3) Acquire the ability to evaluate signals transmitted between linear time-invariant (LTI) systems and to extract the features underlying signals.\n    授業の概要および学習上の助言   This is a basic course in signal processing for discrete time signals. We will mainly cover the following topics: 1. Basic concepts of digital signal processing. 2. Expressing LTI systems with linear convolution. 3. Expressing discrete time transfer functions using Z-transform and its frequency domain property. 4. Expressing Fourier series and Fourier transform for continuous and discrete time signals in relation to the sampling theorem. Students are expected to actively participate in class. Students are expected to complete exercises independently. Students are required to be aware of the instructor’s messages in the class and to check for messages/materials on the KIT Inside website before every class because the course schedule may change depending on the class progress.\n    教科書および参考書・リザーブドブック   Hitoshi Kiya, Digital Signal Processing (in Japanese), Ohmsha\n    履修に必要な予備知識や技能   Sufficient mathematical calculation skills (especially those covered in Control Engineering I). Basic knowledge of differential and integral calculus.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① K Explain expressions of discrete time signals obtained by sampling various continuous time signals   ② K Explain the characteristics of transient responses and frequency responses of discrete LTI systems   ③ K Explain the Fourier analysis   ④     ⑤     ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 40 30 30 0 0 0 0 100     指標と評価割合 総合評価割合 40 30 30 0 0 0 0 100   総合力指標 知識を取り込む力 40 30 30 0 0 0 0 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ A semester final examination is given, as specified in the course schedule, to evaluate your degree of achievement comprehensively. The schedule may change depending on the class progress.   ② レ   ③ レ   ④     ⑤     ⑥     クイズ\n小テスト ① レ A mid-semester test is given, as specified in the course schedule, to evaluate your degree of achievement until that point. The schedule may change depending on the class progress. Unscheduled tests are also given.    ② レ   ③ レ   ④     ⑤     ⑥     レポート ① レ Students will prepare reports for evaluation.   ② レ   ③ レ   ④     ⑤     ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ①      ②     ③     ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     (1) Calculate convolution, Z-transform, and Fourier series expansion signals from various sampled continuous time signals (2) Express the discrete time transfer function and its frequency domain property for discrete LTI systems (3) Express the characteristics of the frequency domain of discrete time signals in relation to the sampling theorem  (1) Calculate convolution, Z-transform, and Fourier series expansion for basic discrete time signals (2) Express the discrete time transfer function of discrete LTI systems (3) Explain the characteristics of frequency domain of discrete time signals in relation to the sampling theorem\n\n CLIP学習プロセスについて\n 一般に、授業ある",
+  "sourceYear": "2026",
+  "originalSourceIndex": 658,
+  "courseId": "2026:spring:B018-01:0:13745",
+  "language": "en"
+}

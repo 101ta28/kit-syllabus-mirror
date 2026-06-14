@@ -1,0 +1,310 @@
+{
+  "sourceIndex": 9866,
+  "sourceUrl": "/opsyllabus/kitos0110/609/1",
+  "importedAt": "2026-06-12T08:01:57.086Z",
+  "title": "データアナリティックス入門",
+  "subtitle": "Introduction to Data Analytics",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "2",
+  "term": "2022年度\n 1st year 1st semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "TAKECHI Shoji"
+  ],
+  "keywords": [
+    "Data Collection 2.Statistical Analysis 3.Social Survey 4.Questionnaire 5.Graph"
+  ],
+  "educationalGoal": "In this course, students will: (1) acquire a basic knowledge of data analytics. (2) learn how to collect, aggregate, and visualize data based on questionnaire surveys. (3) learn how to use statistical methods of sampling.",
+  "advice": "To analyze data properly, the following four abilities are required: 1. The ability to collect data according to purpose and hypothesized issues. 2. The ability to aggregate data in a table according to the data format. 3. The ability to display data visually using graphs. 4. The ability to verify hypotheses with statistical methods. Students will acquire abilities 1 to 3 mainly through the questionnaire survey exercises in the first half of the course; ability 4 will be learned through exercises using sample data in the second half of the course.",
+  "books": "Textbook : 統計学〈1〉データ分析の基礎 オフィシャルスタディノート 改定第2版(Japanese book) Reference book : 図解入門ビジネスアンケート調査とデータ解析の仕組みがよ~くわかる本[第2版](Japanese book) Reserved book : アンケート調査入門―失敗しない顧客情報の読み方・まとめ方(Japanese book)",
+  "requiredKnowledge": "Understanding the meaning of the average, variance, and standard deviation formulas, scatter plots, and correlation coefficients learned in high school mathematics.",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "A,B",
+      "body": "Be able to understand the concept of data analytics."
+    },
+    {
+      "index": "②",
+      "type": "D,F,G",
+      "body": "Be able to plan a questionnaire survey."
+    },
+    {
+      "index": "③",
+      "type": "G,L",
+      "body": "Be able to create and improve a questionnaire sheet."
+    },
+    {
+      "index": "④",
+      "type": "D,J",
+      "body": "Be able to use simple/cross-tabulation to analyze questionnaire results."
+    },
+    {
+      "index": "⑤",
+      "type": "D,E,J",
+      "body": "Be able to be to produce pie, bar, and scatter charts using Excel."
+    },
+    {
+      "index": "⑥",
+      "type": "D,G,L",
+      "body": "Be able to test a hypothesis using confidence intervals and various hypothesis testing methods."
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "30",
+        "30",
+        "30",
+        "0",
+        "0",
+        "0",
+        "10",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "30",
+        "30",
+        "30",
+        "0",
+        "0",
+        "0",
+        "10",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "30",
+        "30",
+        "30",
+        "0",
+        "0",
+        "0",
+        "10",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションと\nリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "Understand the purpose and issues of data analysis; be able to collect data through questionnaire surveys and reach meaningful conclusions based on appropriate visualization methods.",
+    "standard": "Understand the purpose and issues of data analysis; create a questionnaire. Visually display data using a graph (but not necessarily always reach proper conclusions)."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Course introduction Flow of data analytics Type of data",
+      "operation": "Lecture and interactive activities",
+      "assignments": "Read the textbook Repeat the exercise quiz",
+      "minutes": "200"
+    },
+    {
+      "index": "2",
+      "content": "Questionnaire surveys (1) Social survey Procedure of the survey Creation of the survey sheet",
+      "operation": "Lecture and interactive activities",
+      "assignments": "Read the textbook and reserved book Complete the questionnaire sheet",
+      "minutes": "260"
+    },
+    {
+      "index": "3",
+      "content": "Questionnaire surveys (2) Method of the survey and question item Brushing up the survey sheet",
+      "operation": "Lecture and interactive activities",
+      "assignments": "Read the textbook and reserved book Brush up the questionnaire sheet",
+      "minutes": "260"
+    },
+    {
+      "index": "4",
+      "content": "Qualitative data (1) Aggregation by frequency distribution table Statistical graph types and selection",
+      "operation": "Lecture and interactive activities",
+      "assignments": "Read the textbook and look up the terminology Repeat the exercise quiz",
+      "minutes": "260"
+    },
+    {
+      "index": "5",
+      "content": "Qualitative data (2) Cross-tabulation evaluation Creating multiple cross-tabulation tables",
+      "operation": "Lecture and interactive activities",
+      "assignments": "Read the textbook and look up the terminology Repeat the exercise quiz",
+      "minutes": "260"
+    },
+    {
+      "index": "6",
+      "content": "Quantitative data (1) Frequency distribution table and histogram Using boxplots",
+      "operation": "Lecture and interactive activities",
+      "assignments": "Read the textbook and look up the terminology Repeat the practice quiz",
+      "minutes": "260"
+    },
+    {
+      "index": "7",
+      "content": "Quantitative data (2) Typical value of distribution Magnitude of variation Standard deviation and disparity",
+      "operation": "Lecture and interactive activities",
+      "assignments": "Read the textbook and look up the terminology Repeat the practice quiz",
+      "minutes": "260"
+    },
+    {
+      "index": "8",
+      "content": "Mid-semester Exam Confirmation of the acquisition of basic knowledge",
+      "operation": "Lecture and interactive activities",
+      "assignments": "Prepare for the exam",
+      "minutes": "260"
+    },
+    {
+      "index": "9",
+      "content": "Correlation (1) Correlation and scatter plot Stratified scatter plot Correlation coefficient",
+      "operation": "Lecture and interactive activities",
+      "assignments": "Read the textbook and look up the terminology Repeat the practice quiz",
+      "minutes": "260"
+    },
+    {
+      "index": "10",
+      "content": "Correlation (2) Spurious correlation Points to note for correlation coefficient Simple regression analysis",
+      "operation": "Lecture and interactive activities",
+      "assignments": "Read the textbook and look up the terminology Repeat the practice quiz",
+      "minutes": "260"
+    },
+    {
+      "index": "11",
+      "content": "Data in chronological order Standardization of time series graph Moving average Standardization of chronological order data",
+      "operation": "Lecture and interactive activities",
+      "assignments": "Read the textbook and look up the terminology Repeat the practice quiz",
+      "minutes": "260"
+    },
+    {
+      "index": "12",
+      "content": "Utilization of official statistics Establishment of public statistical system e-Stat Sampling error and probability",
+      "operation": "Lecture and interactive activities",
+      "assignments": "Read the textbook and look up the terminology Repeat the practice quiz",
+      "minutes": "260"
+    },
+    {
+      "index": "13",
+      "content": "Using Excel Integrated learning",
+      "operation": "Lecture and interactive activities",
+      "assignments": "Prepare for the exam",
+      "minutes": "260"
+    },
+    {
+      "index": "14",
+      "content": "Final exam Self-reflection",
+      "operation": "Exam and review Self-reflection",
+      "assignments": "Review exam results",
+      "minutes": "330"
+    },
+    {
+      "index": "15",
+      "content": "Self-evaluation based on exam results",
+      "operation": "Interactive activities Self-evaluation",
+      "assignments": "",
+      "minutes": "260"
+    }
+  ],
+  "rawText": "金沢工業大学 学習支援計画書 F136-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Management Systems\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\nデータアナリティックス入門\nIntroduction to Data Analytics  2 F136-01  2022年度\n 1st year 1st semester  修学規程第4条を参照\n    担当教員名\n TAKECHI Shoji\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Data Collection 2.Statistical Analysis 3.Social Survey 4.Questionnaire 5.Graph  In this course, students will: (1) acquire a basic knowledge of data analytics. (2) learn how to collect, aggregate, and visualize data based on questionnaire surveys. (3) learn how to use statistical methods of sampling.\n    授業の概要および学習上の助言   To analyze data properly, the following four abilities are required: 1. The ability to collect data according to purpose and hypothesized issues. 2. The ability to aggregate data in a table according to the data format. 3. The ability to display data visually using graphs. 4. The ability to verify hypotheses with statistical methods. Students will acquire abilities 1 to 3 mainly through the questionnaire survey exercises in the first half of the course; ability 4 will be learned through exercises using sample data in the second half of the course.\n    教科書および参考書・リザーブドブック   Textbook : 統計学〈1〉データ分析の基礎 オフィシャルスタディノート 改定第2版(Japanese book) Reference book : 図解入門ビジネスアンケート調査とデータ解析の仕組みがよ~くわかる本[第2版](Japanese book) Reserved book : アンケート調査入門―失敗しない顧客情報の読み方・まとめ方(Japanese book)\n    履修に必要な予備知識や技能   Understanding the meaning of the average, variance, and standard deviation formulas, scatter plots, and correlation coefficients learned in high school mathematics.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① A,B Be able to understand the concept of data analytics.   ② D,F,G Be able to plan a questionnaire survey.   ③ G,L Be able to create and improve a questionnaire sheet.   ④ D,J Be able to use simple/cross-tabulation to analyze questionnaire results.   ⑤ D,E,J Be able to be to produce pie, bar, and scatter charts using Excel.   ⑥ D,G,L Be able to test a hypothesis using confidence intervals and various hypothesis testing methods.\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 30 30 30 0 0 0 10 100     指標と評価割合 総合評価割合 30 30 30 0 0 0 10 100   総合力指標 知識を取り込む力 30 30 30 0 0 0 10 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ There will be a written exam at the end of the semester to confirm what the student has learned from the lectures and exercises.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     クイズ\n小テスト ① レ There will be a mid-semester test to confirm the student's acquisition of basic knowledge.   ② レ   ③ レ   ④ レ   ⑤     ⑥     レポート ① レ Students will be evaluated on their mini-reports and summary report.   ② レ   ③ レ   ④ レ   ⑤     ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ① レ Students will be evaluated on their attendance and attitude in the course.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     Understand the purpose and issues of data analysis; be able to collect data through questionnaire surveys and reach meaningful conclusions based on appropriate visualization methods. Understand the purpose and issues of data analysis; create a questionnaire. Visually display data using a graph (but not necessarily always reach proper conclusions).\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習課題に要する標準的な時間を記載してあります。日々の自学自習時間全体としては、各授業に応じた時間(例えば2単位科目の場合、予習2時間・復習2時間/週)を取るよう努めてください。詳しくは教員の指導に従って下さい。     授業明細   回数 学習内容 授業の運営方法 学習課題(予習・復習) 時間:分※     1  Course introduction Flow of data analytics Type of data L",
+  "sourceYear": "2022",
+  "originalSourceIndex": 609,
+  "courseId": "2022:spring:F105-01:0:9866",
+  "language": "en"
+}

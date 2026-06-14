@@ -1,0 +1,303 @@
+{
+  "sourceIndex": 8646,
+  "sourceUrl": "/opsyllabus/kitos0110/284/1",
+  "importedAt": "2026-06-12T08:01:34.881Z",
+  "title": "電気回路Ⅱ",
+  "subtitle": "Electric Circuits II",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "2",
+  "term": "2021年度\n 1st year 2nd semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "AIZAWA Koji",
+    "AOKI Shigeaki",
+    "IKENAGA Noriaki",
+    "NOGUCHI Keisuke"
+  ],
+  "keywords": [
+    "Phasor 2.Complex impedance 3.Complex admittance 4.Resonance, Electric power"
+  ],
+  "educationalGoal": "This course, including a review of “Electric Circuits I”, covers resistance (R), inductance (L), capacitance (C), and basic circuits that combine them to slightly more complex AC circuits. In the calculation of AC circuit, it is no exaggeration to say that it is common sense to use a so-called symbolic method using phasors and complex numbers. Here, students learn circuit analysis techniques using symbolic methods. After this course, “Electric Circuits III” will be the basis for learning more advanced and complex analysis methods for electrical circuits.",
+  "advice": "1. Phasor of a complex number and symbolic method of AC circuit 2. Series and parallel connection of complex impedance and complex admittance 3. Phase condition problem in series-parallel circuit 4. Series resonant circuit and parallel resonant circuit 5. Calculation of the electric power by symbolic method",
+  "books": "Basic electric circuit(2nd edition)New Edition, Morikita Publishing Co., Ltd.",
+  "requiredKnowledge": "In this course, it is important to solve more problems in order to understand the theory and put it into practice. Moreover, since they are one by one, continuous efforts are required. Therefore, do not leave what you do not understand, so be sure to clear 1) check various reference books, 2) ask the teachers, 3) use the Mathematics Education Center. In this course, students use mathematical equations such as simultaneous linear equations, determinants, matrices, differentiation / integration, basics of complex numbers, and trigonometric functions.",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "J",
+      "body": "To be able to analyze and establish circuit equations of R, L, C series and parallel circuits by symbolic method"
+    },
+    {
+      "index": "②",
+      "type": "J",
+      "body": "To be able to calculate the phase condition problems of series and parallel circuits and basic problems of AC"
+    },
+    {
+      "index": "③",
+      "type": "J",
+      "body": "To be able to calculate the problems of series and parallel resonant circuits using symbolic method"
+    },
+    {
+      "index": "④",
+      "type": "J",
+      "body": "To be able to calculate the power problems using symbolic method"
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "40",
+        "40",
+        "20",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "40",
+        "40",
+        "20",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "40",
+        "40",
+        "20",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションと\nリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "At the end of the course, using the symbolic method, R-L, R-C, or R-L-C series and parallel circuit equations can be set up and analyzed. Using symbolic methods, you can solve from basic to applied problems of phase conditions, resonant circuits, AC power in series and parallel circuits.",
+    "standard": "At the end of the course, using the symbolic method, R-L, R-C, or R-L-C series and parallel circuit equations can be set up and analyzed. Using symbolic methods, you can solve phase condition problems in series and parallel circuits, basic problems in AC power, in series resonant circuits and in parallel resonant circuits."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Sine wave AC phasor (1): Display format of sine wave function",
+      "operation": "In addition to lectures, practice sessions, questions, and quizzes will be held as appropriate. Also explain the quizzes as appropriate.",
+      "assignments": "Review the contents, examples, problems, etc. of textbooks or handouts that correspond to the learning content of the sine wave AC phasor display. Prepare textbooks or handouts that correspond to your next study. Also, when a report is presented, strictly observe the deadline for submission.",
+      "minutes": "200"
+    },
+    {
+      "index": "2",
+      "content": "Sine wave AC phasor (2): Differentiation and integration of phasor displayed sine wave functions",
+      "operation": "Lectures and practices Q & A",
+      "assignments": "Review the contents, examples, problems, etc. of textbooks or handouts that correspond to the learning content of the sine wave AC phasor display. Prepare textbooks or handouts that correspond to your next study. Also, when a report is presented, strictly observe the deadline for submission.",
+      "minutes": "200"
+    },
+    {
+      "index": "3",
+      "content": "Complex impedance and complex admittance",
+      "operation": "Lectures and practices Q & A",
+      "assignments": "Review the contents, examples, problems, etc. of textbooks or handouts that correspond to the learning content of the series or parallel connection of complex impedance and complex admittance. Prepare textbooks or handouts that correspond to your next study. Also, when a report is presented, strictly observe the deadline for submission.",
+      "minutes": "200"
+    },
+    {
+      "index": "4",
+      "content": "Series and parallel connection of complex impedance and complex admittance",
+      "operation": "Lectures and practices Q & A",
+      "assignments": "Review the contents, examples, problems, etc. of textbooks or handouts that correspond to the learning content of the series or parallel connection of complex impedance and complex admittance. Prepare textbooks or handouts that correspond to your next study. Also, when a report is presented, strictly observe the deadline for submission.",
+      "minutes": "200"
+    },
+    {
+      "index": "5",
+      "content": "Calculation of voltage and current of AC circuit (1) : Calculation of series and parallel circuit",
+      "operation": "Lectures and practices Q & A",
+      "assignments": "Review the contents, examples, problems, etc. of textbooks or handouts that correspond to the learning content of AC circuit voltage and current calculation. Prepare textbooks or handouts that correspond to your next study. Also, when a report is presented, strictly observe the deadline for submission.",
+      "minutes": "200"
+    },
+    {
+      "index": "6",
+      "content": "Calculation of voltage and current of AC circuit (2) : Series circuit phasor diagram",
+      "operation": "Lectures and practices Q & A",
+      "assignments": "Review the contents, examples, problems, etc. of textbooks or handouts that correspond to the learning content of AC circuit voltage and current calculation. Prepare textbooks or handouts that correspond to your next study. Also, when a report is presented, strictly observe the deadline for submission.",
+      "minutes": "200"
+    },
+    {
+      "index": "7",
+      "content": "Calculation of voltage and current of AC circuit (3) : Parallel circuit phasor diagram",
+      "operation": "Lectures and practices Q & A",
+      "assignments": "Review the contents, examples, problems, etc. of textbooks or handouts that correspond to the learning content of AC circuit voltage and current calculation. Prepare textbooks or handouts that correspond to your next study. Also, when a report is presented, strictly observe the deadline for submission.",
+      "minutes": "200"
+    },
+    {
+      "index": "8",
+      "content": "Interim examination and explanation Self-reflection",
+      "operation": "Review and discuss about 1 to 7 practices and quizzes.",
+      "assignments": "Try to clear any indigestion in previous practices and quiz.",
+      "minutes": "200"
+    },
+    {
+      "index": "9",
+      "content": "Series resonant circuit and parallel resonant circuit (1): Calculation of resonance frequency",
+      "operation": "Lectures and practices Q & A",
+      "assignments": "Review the contents, examples, problems, etc. of textbooks or handouts that correspond to the learning content of series resonant circuit and parallel resonant circuit. Prepare textbooks or handouts that correspond to your next study. Also, when a report is presented, strictly observe the deadline for submission.",
+      "minutes": "200"
+    },
+    {
+      "index": "10",
+      "content": "Series resonant circuit and parallel resonant circuit (2): Calculation of voltage and current in resonant circuit",
+      "operation": "Lectures and practices Q & A",
+      "assignments": "Review the contents, examples, problems, etc. of textbooks or handouts that correspond to the learning content of series resonant circuit and parallel resonant circuit. Prepare textbooks or handouts that correspond to your next study. Also, when a report is presented, strictly observe the deadline for submission.",
+      "minutes": "200"
+    },
+    {
+      "index": "11",
+      "content": "AC circuit power (1): Calculation of power in AC circuits",
+      "operation": "Lectures and practices Q & A",
+      "assignments": "Review the contents, examples, problems, etc. of textbooks or handouts that correspond to the learning content of AC circuit power. Prepare textbooks or handouts that correspond to your next study. Also, when a report is presented, strictly observe the deadline for submission.",
+      "minutes": "200"
+    },
+    {
+      "index": "12",
+      "content": "AC circuit power (2): Complex power",
+      "operation": "Lectures and practices Q & A",
+      "assignments": "Review the contents, examples, problems, etc. of textbooks or handouts that correspond to the learning content of AC circuit power. Prepare textbooks or handouts that correspond to your next study. Also, when a report is presented, strictly observe the deadline for submission.",
+      "minutes": "200"
+    },
+    {
+      "index": "13",
+      "content": "Integrated learning (1): AC circuit analysis using symbolic methods Integrated learning (2): Analysis of resonance circuit and power calculation of AC circuit Self-reflection",
+      "operation": "Practicing and discussing the contents of 1 to 12 times",
+      "assignments": "Try to clear any indigestion in previous practices and quiz.",
+      "minutes": "200"
+    },
+    {
+      "index": "14",
+      "content": "Final examination and explanation",
+      "operation": "The final examination is conducted on the contents of 1 to 14 times",
+      "assignments": "Organize and review what you have learned so far in preparation for the final examination",
+      "minutes": "200"
+    },
+    {
+      "index": "15",
+      "content": "Integrated learning of electric circuits II",
+      "operation": "Clear places where action goals have not been reached in the tests conducted so far",
+      "assignments": "Efforts are made to self-check and clear the indigestion of previous practices and test questions",
+      "minutes": "0"
+    }
+  ],
+  "rawText": "金沢工業大学 学習支援計画書 E603-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Electrical and Electronic Engineering(2018〜)\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n電気回路Ⅱ\nElectric Circuits II  2 E603-01  2021年度\n 1st year 2nd semester  修学規程第4条を参照\n    担当教員名\n AIZAWA Koji, AOKI Shigeaki, IKENAGA Noriaki, NOGUCHI Keisuke\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Phasor 2.Complex impedance 3.Complex admittance 4.Resonance, Electric power  This course, including a review of “Electric Circuits I”, covers resistance (R), inductance (L), capacitance (C), and basic circuits that combine them to slightly more complex AC circuits. In the calculation of AC circuit, it is no exaggeration to say that it is common sense to use a so-called symbolic method using phasors and complex numbers. Here, students learn circuit analysis techniques using symbolic methods. After this course, “Electric Circuits III” will be the basis for learning more advanced and complex analysis methods for electrical circuits.\n    授業の概要および学習上の助言   1. Phasor of a complex number and symbolic method of AC circuit 2. Series and parallel connection of complex impedance and complex admittance 3. Phase condition problem in series-parallel circuit 4. Series resonant circuit and parallel resonant circuit 5. Calculation of the electric power by symbolic method\n    教科書および参考書・リザーブドブック   Basic electric circuit(2nd edition)New Edition, Morikita Publishing Co., Ltd.\n    履修に必要な予備知識や技能   In this course, it is important to solve more problems in order to understand the theory and put it into practice. Moreover, since they are one by one, continuous efforts are required. Therefore, do not leave what you do not understand, so be sure to clear 1) check various reference books, 2) ask the teachers, 3) use the Mathematics Education Center. In this course, students use mathematical equations such as simultaneous linear equations, determinants, matrices, differentiation / integration, basics of complex numbers, and trigonometric functions.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① J To be able to analyze and establish circuit equations of R, L, C series and parallel circuits by symbolic method   ② J To be able to calculate the phase condition problems of series and parallel circuits and basic problems of AC   ③ J To be able to calculate the problems of series and parallel resonant circuits using symbolic method   ④ J To be able to calculate the power problems using symbolic method   ⑤     ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 40 40 20 0 0 0 0 100     指標と評価割合 総合評価割合 40 40 20 0 0 0 0 100   総合力指標 知識を取り込む力 40 40 20 0 0 0 0 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ A final examination will be conducted to confirm the achievement level. The final examination covers the range of target abilities 1 to 4. By taking the examination, the degree of achievement of target abilities 1 to 4 is confirmed.   ② レ   ③ レ   ④ レ   ⑤     ⑥     クイズ\n小テスト ① レ In order to check the achievement, a quiz will be announced almost every week. By taking a quiz, the achievement of target abilities 1 to 4 is confirmed    ② レ   ③ レ   ④ レ   ⑤     ⑥     レポート ① レ Request report submission more than once during the period to confirm achievement. Request reports at least once in the range of target abilities 1 to 2 and at least once in the range of 3 to 4. Achievement is confirmed by submitting a prescribed report   ② レ   ③ レ   ④ レ   ⑤     ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ①      ②     ③     ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     At the end of the course, using the symbolic method, R-L, R-C, or R-L-C series and parallel circuit equations can be set",
+  "sourceYear": "2021",
+  "originalSourceIndex": 284,
+  "courseId": "2021:full-year:E922-02:0:8646",
+  "language": "en"
+}

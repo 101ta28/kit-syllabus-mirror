@@ -1,0 +1,306 @@
+{
+  "sourceIndex": 8606,
+  "sourceUrl": "/opsyllabus/kitos0110/244/1",
+  "importedAt": "2026-06-12T08:01:34.471Z",
+  "title": "制御工学入門",
+  "subtitle": "Introduction to Control Engineering",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "2",
+  "term": "2021年度\n 2nd year 2nd semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "KAWAI Hiroyuki",
+    "MURAO Toshiyuki"
+  ],
+  "keywords": [
+    "Complex numbers 2.Laplace transforms 3.Linear differential equations 4.Transfer functions 5.Block diagrams"
+  ],
+  "educationalGoal": "(1) Review complex numbers for frequency response. (2) Learn Laplace transforms for solving linear differential equations. (3) Acquire the capability to formulate transfer functions and block diagrams.",
+  "advice": "This is a basic course in control engineering. We will mainly cover the following topics: 1. Calculation using complex numbers and Laplace transforms. 2. Solving linear differential equations using inverse Laplace transforms. 3. Obtaining transfer functions from differential equations and block diagrams. Students are expected to actively participate in class. Students are expected to complete exercises independently. Students are required to be aware of the instructor's messages in the class and to check for messages/materials on the KIT Inside website before every class because the course schedule may change depending on the class progress.",
+  "books": "",
+  "requiredKnowledge": "Completion of Engineering Mechanics I/II and Electric Circuit I/II. Basic knowledge of differential calculus.",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "I",
+      "body": "Calculate complex numbers."
+    },
+    {
+      "index": "②",
+      "type": "I",
+      "body": "Use basic Laplace transforms."
+    },
+    {
+      "index": "③",
+      "type": "I",
+      "body": "Solve linear differential equations with inverse Laplace transforms."
+    },
+    {
+      "index": "④",
+      "type": "I",
+      "body": "Obtain transfer functions from differential equations."
+    },
+    {
+      "index": "⑤",
+      "type": "I",
+      "body": "Obtain transfer functions from block diagrams."
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "40",
+        "40",
+        "20",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "40",
+        "40",
+        "20",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "40",
+        "40",
+        "20",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションと\nリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "(1) Perform calculations with complex numbers and Laplace transforms (2) Solve linear differential equations by using inverse Laplace transforms (3) Obtain transfer functions from differential equations and block diagrams",
+    "standard": "(1) Perform calculations with complex numbers and simple Laplace transforms (2) Solve first-order differential equations using inverse Laplace transforms (3) Obtain transfer functions from first-order differential equations and simple block diagrams"
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Course introduction Textbook Chapter 2, ``Basic Mathematics for Automatic Control'' - 2.1, Complex numbers",
+      "operation": "Lecture (including Q & A) and exercises Self-check",
+      "assignments": "Preview: Read the indicated textbook sections Review: Understand the indicated textbook sections Understand the course objectives",
+      "minutes": "30 30 30"
+    },
+    {
+      "index": "2",
+      "content": "Textbook Chapter 2, ``Basic Mathematics for Automatic Control'' - 2.2, Introduction to Laplace transforms",
+      "operation": "Lecture (including Q & A) and exercises Self-check",
+      "assignments": "Preview: Read the indicated textbook sections Review: Understand the indicated textbook sections",
+      "minutes": "30 60"
+    },
+    {
+      "index": "3",
+      "content": "Textbook Chapter 2, ``Basic Mathematics for Automatic Control'' - 2.3, Basic properties of Laplace transforms",
+      "operation": "Lecture (including Q & A) and exercises Self-check",
+      "assignments": "Preview: Read the indicated textbook sections Review: Understand the indicated textbook sections",
+      "minutes": "30 60"
+    },
+    {
+      "index": "4",
+      "content": "Textbook Chapter 2, ``Basic Mathematics for Automatic Control'' - 2.4, Inverse Laplace transform by partial fraction expansion",
+      "operation": "Lecture (including Q & A) and exercises Self-check",
+      "assignments": "Preview: Read the indicated textbook sections Review: Understand the indicated textbook sections",
+      "minutes": "30 60"
+    },
+    {
+      "index": "5",
+      "content": "Textbook Chapter 2, ``Basic Mathematics for Automatic Control'' - 2.5, Solving differential equations by Laplace transform",
+      "operation": "Lecture (including Q & A) and exercises Self-check",
+      "assignments": "Preview: Read the indicated textbook sections Review: Understand the indicated textbook sections",
+      "minutes": "30 60"
+    },
+    {
+      "index": "6",
+      "content": "Exercises",
+      "operation": "Exercises Self-check",
+      "assignments": "Preview the content of classes 1-6 Review of the content of the exercises",
+      "minutes": "90 90"
+    },
+    {
+      "index": "7",
+      "content": "Exercises Mid-semester test",
+      "operation": "Exercises Test Self-check",
+      "assignments": "Prepare for the mid-semester test",
+      "minutes": "180"
+    },
+    {
+      "index": "8",
+      "content": "Review of mid-semester test Self-check",
+      "operation": "Lecture (including Q & A) and exercises Self-check",
+      "assignments": "Review the mid-semester test",
+      "minutes": "90"
+    },
+    {
+      "index": "9",
+      "content": "Textbook Chapter 3, ``Expression of Automatic Control System'' - 3.1, Transfer functions",
+      "operation": "Lecture (including Q & A) and exercises Self-check",
+      "assignments": "Preview: Read the indicated textbook sections Review: Understand the indicated textbook sections",
+      "minutes": "30 60"
+    },
+    {
+      "index": "10",
+      "content": "Textbook Chapter 3, ``Expression of Automatic Control System'' - 3.2, Elements of transfer function",
+      "operation": "Lecture (including Q & A) and exercises Self-check",
+      "assignments": "Preview: Read the indicated textbook sections Review: Understand the indicated textbook sections",
+      "minutes": "30 60"
+    },
+    {
+      "index": "11",
+      "content": "Textbook Chapter 3, ``Expression of Automatic Control System'' - 3.3, Block diagrams",
+      "operation": "Lecture (including Q & A) and exercises Self-check",
+      "assignments": "Preview: Read the indicated textbook sections Review: Understand the indicated textbook sections",
+      "minutes": "30 60"
+    },
+    {
+      "index": "12",
+      "content": "Textbook Chapter 3, ``Expression of Automatic Control System'' - 3.4, Block diagrams for basic automatic control systems",
+      "operation": "Lecture (including Q & A) and exercises Self-check",
+      "assignments": "Preview: Read the indicated textbook sections Review: Understand the indicated textbook sections",
+      "minutes": "30 60"
+    },
+    {
+      "index": "13",
+      "content": "Exercises",
+      "operation": "Exercises Self-check",
+      "assignments": "Review the content of classes 8-12 Review of the content of the exercises",
+      "minutes": "90 90"
+    },
+    {
+      "index": "14",
+      "content": "Exercises Semester final examination",
+      "operation": "Exercises Examination Self-check",
+      "assignments": "Prepare for the semester final examination",
+      "minutes": "180"
+    },
+    {
+      "index": "15",
+      "content": "Review of semester final examination Self-check",
+      "operation": "Lecture (including Q & A) and exercises Self-check",
+      "assignments": "Review the semester final examination",
+      "minutes": "90"
+    }
+  ],
+  "rawText": "金沢工業大学 学習支援計画書 E214-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Robotics\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n制御工学入門\nIntroduction to Control Engineering  2 E214-01  2021年度\n 2nd year 2nd semester  修学規程第4条を参照\n    担当教員名\n KAWAI Hiroyuki, MURAO Toshiyuki\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Complex numbers 2.Laplace transforms 3.Linear differential equations 4.Transfer functions 5.Block diagrams  (1) Review complex numbers for frequency response. (2) Learn Laplace transforms for solving linear differential equations. (3) Acquire the capability to formulate transfer functions and block diagrams.\n    授業の概要および学習上の助言   This is a basic course in control engineering. We will mainly cover the following topics: 1. Calculation using complex numbers and Laplace transforms. 2. Solving linear differential equations using inverse Laplace transforms. 3. Obtaining transfer functions from differential equations and block diagrams. Students are expected to actively participate in class. Students are expected to complete exercises independently. Students are required to be aware of the instructor's messages in the class and to check for messages/materials on the KIT Inside website before every class because the course schedule may change depending on the class progress.\n    教科書および参考書・リザーブドブック\n    履修に必要な予備知識や技能   Completion of Engineering Mechanics I/II and Electric Circuit I/II. Basic knowledge of differential calculus.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① I Calculate complex numbers.   ② I Use basic Laplace transforms.   ③ I Solve linear differential equations with inverse Laplace transforms.   ④ I Obtain transfer functions from differential equations.   ⑤ I Obtain transfer functions from block diagrams.   ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 40 40 20 0 0 0 0 100     指標と評価割合 総合評価割合 40 40 20 0 0 0 0 100   総合力指標 知識を取り込む力 40 40 20 0 0 0 0 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ A semester final examination is given, as specified in the course schedule, to evaluate your degree of achievement comprehensively. The schedule may change depending on the class progress.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     クイズ\n小テスト ① レ A mid-semester test is given, as specified in the course schedule, to evaluate your degree of achievement until that point. The schedule may change depending on the class progress.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     レポート ① レ Students will prepare four or five reports for evaluation.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ①      ②     ③     ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     (1) Perform calculations with complex numbers and Laplace transforms (2) Solve linear differential equations by using inverse Laplace transforms (3) Obtain transfer functions from differential equations and block diagrams  (1) Perform calculations with complex numbers and simple Laplace transforms (2) Solve first-order differential equations using inverse Laplace transforms (3) Obtain transfer functions from first-order differential equations and simple block diagrams\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習課題に要する標準的な時間を記載してあります。日々の自学自習時間全体としては、各授業に応じた時間(例えば2単位科目の場合、予習2時間・復習2時間/週)を取るよう努めてください。詳しくは教員の指導に従って下さい。     授業明細   回数 学習内容 授業の運営方法 学習課題(予習・復習) 時間:分※     1  Course introduction Textbook Chapter 2, ``Basic Mathematics for Automatic Control'' - 2.1, Complex numbers Lecture (including Q & A) and exercises Self-check Preview: Read the indicate",
+  "sourceYear": "2021",
+  "originalSourceIndex": 244,
+  "courseId": "2021:spring:E103-01:0:8606",
+  "language": "en"
+}

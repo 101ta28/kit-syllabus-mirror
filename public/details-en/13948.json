@@ -1,0 +1,311 @@
+{
+  "sourceIndex": 13948,
+  "sourceUrl": "/opsyllabus/kitos0110/861/1",
+  "importedAt": "2026-06-12T08:03:10.998Z",
+  "title": "過渡現象論",
+  "subtitle": "Transient Phenomena in Linear Circuits",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "2",
+  "term": "2026年度\n 2nd year 2nd semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "OYAMA Daisuke",
+    "MINAMIDE Akiyuki"
+  ],
+  "keywords": [
+    "Transient Analysis 2.Circuit Equation 3.Laplace Transform 4.Transient Phenomena 5.Online/on-demand classes"
+  ],
+  "educationalGoal": "The aim of this course is to help students acquire the necessary knowledge needed to understand the theory to learn in “Feedback Control” course in the 5th term. Students will: (1) solve transient electrical circuits using circuit equations and initial conditions. (2) analyze transient phenomena of more complex circuits by Laplace transform. (3) understand the various transient phenomena that occur in electrical circuits.",
+  "advice": "1. Transient phenomena and differential equation (circuit equations) Learn the basics needed to analyze transient phenomena. //Transient phenomena and steady phenomena, differential equations of electrical circuits and its solutions 2. Transient phenomena of electrical circuits Solve the transient phenomena of various circuits according to the solution of differential equation. //AC and DC circuit of RC, RL, LC, and LCR 3. Analysis by Laplace transform Learn how to analyze transient phenomena in electrical circuits using Laplace transform. //Laplace transform and inverse transform, Laplace transform for functions and its application to circuits. There is possibility to change the learning contents (progress) of the course schedule depending on the situation. Exercises, quizzes, discussions and questions, etc. are included to help students concentrate on this class. The order of learning may be changed as needed, and digital technology may be used for learning such as online (remote) or on-demand classes.",
+  "books": "Some materials will be shown in lecture.",
+  "requiredKnowledge": "1. Fundamentals of electrical circuits. 2. Fundamentals of mathematics such as exponential, trigonometric function, differential and integral, etc. 3. Attitude to take each class seriously and review and deepen understanding. 4. Attitude to learn theoretical thinking and applied methods through exercises without relying on memorization.",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "K",
+      "body": "Be able to show circuit equations (differential equation) from electric circuits."
+    },
+    {
+      "index": "②",
+      "type": "K",
+      "body": "Be able to show initial conditions from electric circuits and apply to circuit equations."
+    },
+    {
+      "index": "③",
+      "type": "K",
+      "body": "Be able to solve differential equations and express the transient phenomenon with equations."
+    },
+    {
+      "index": "④",
+      "type": "K",
+      "body": "Be able to graph transient phenomena based on the equations."
+    },
+    {
+      "index": "⑤",
+      "type": "K",
+      "body": "Be able to understand Laplace transform."
+    },
+    {
+      "index": "⑥",
+      "type": "K",
+      "body": "Be able to solve transient phenomena of electrical circuits by Laplace transform."
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "40",
+        "30",
+        "30",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "40",
+        "30",
+        "30",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "40",
+        "30",
+        "30",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションと\nリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "(1) Explain Laplace transform. (2) Solve AC circuits transient phenomena using Laplace transform. (3) Mark 90% or more of the score.",
+    "standard": "(1) Show circuit equations and initial conditions from circuits. (2) Solve AC circuits transient phenomena using Laplace transform. (3) Mark 80% level score."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Guidance Transient phenomena and steady phenomena Fundamentals of transient phenomena",
+      "operation": "Syllabus explanation Self-check Lecture (take notes) May exercise and quiz",
+      "assignments": "Preview: Basic of math and circuit Text 1 to 4, 7 to 11 Review: Lectured contents",
+      "minutes": "Previe w:100 Review :100"
+    },
+    {
+      "index": "2",
+      "content": "Initial condition 1st and 2nd order differential equation",
+      "operation": "Last lecture review Lecture (take notes) May exercise and quiz",
+      "assignments": "Preview: Text 11 to 24 Review: Lectured contents",
+      "minutes": "Previe w:100 Review :100"
+    },
+    {
+      "index": "3",
+      "content": "DC-RC Transient phenomena (charge) DC-RC Transient phenomena (discharge) 1. Differential equation 2. Initial condition 3. Graph 4. Time constant",
+      "operation": "Last lecture review Lecture (take notes) May exercise and quiz",
+      "assignments": "Preview: Text 25 to 27, 29 to 33 Review: Lectured contents",
+      "minutes": "Previe w:100 Review :100"
+    },
+    {
+      "index": "4",
+      "content": "DC-RL Transient phenomena 1. Differential equation 2. Initial condition 3. Graph 4. Time constant",
+      "operation": "Last lecture review Lecture (take notes) May exercise and quiz",
+      "assignments": "Preview: Text 35 to 39 Review: Lectured contents",
+      "minutes": "Previe w:100 Review :100"
+    },
+    {
+      "index": "5",
+      "content": "DC-LC Transient phenomena 1. Differential equation 2. Initial condition 3. Graph DC-LCR Transient phenomena",
+      "operation": "Last lecture review Lecture (take notes) May exercise and quiz",
+      "assignments": "Preview: Text 60 to 63, 66 to 68 Review: Lectured contents",
+      "minutes": "Previe w:100 Review :100 100"
+    },
+    {
+      "index": "6",
+      "content": "DC-LCR Transient phenomena 1. Differential equation 2. Solution for each condition 3. Graph",
+      "operation": "Last lecture review Lecture (take notes) May exercise and quiz",
+      "assignments": "Preview: Text 68 to 73 Review: Lectured contents",
+      "minutes": "Previe w:100 Review :100"
+    },
+    {
+      "index": "7",
+      "content": "Midterm review Feedback and self-check",
+      "operation": "Last lecture review Exercise for review Exam Submission check",
+      "assignments": "Preview and review: Review the quizzes and reports and motivate it to study in the future.",
+      "minutes": "Previe w:100 Review :100"
+    },
+    {
+      "index": "8",
+      "content": "Laplace transform overview Laplace transform of simple functions Basic properties of Laplace transform 1. Calculus 2. Complex functions",
+      "operation": "Exam review Self-check Lecture (take notes) May exercise and quiz",
+      "assignments": "Preview: Text 105 to 120 Review: Lectured contents",
+      "minutes": "Previe w:100 Review :100"
+    },
+    {
+      "index": "9",
+      "content": "Laplace inversion 1. Laplace inversion overview 2. Partial fraction expansion",
+      "operation": "Last lecture review Lecture (take notes) May exercise and quiz",
+      "assignments": "Preview: Text 121 to 133 Review: Lectured contents",
+      "minutes": "Previe w:100 Review :100"
+    },
+    {
+      "index": "10",
+      "content": "Application of Laplace transform to circuit 1. Case of DC-RC circuit 2. Case of DC-RL circuit",
+      "operation": "Last lecture review Lecture (take notes) May exercise and quiz",
+      "assignments": "Preview: Text 134 to 137 Review: Lectured contents",
+      "minutes": "Previe w:100 Review :100"
+    },
+    {
+      "index": "11",
+      "content": "Application of Laplace transform to circuit 1. Case fo DC-LC circuit 2. Case of DC-LCR circuit",
+      "operation": "Last lecture review Lecture (take notes) May exercise and quiz",
+      "assignments": "Preview: Text 137 to 139 Review: Lectured contents",
+      "minutes": "Previe w:100 Review :100"
+    },
+    {
+      "index": "12",
+      "content": "Application of Laplace transform to circuit 1. Case of AC-RC circuit 2. Case of AC-RL circuit",
+      "operation": "Last lecture review Lecture (take notes) May exercise and quiz",
+      "assignments": "Preview: Text 140 to 144 Review: Lectured contents",
+      "minutes": "Previe w:100 Review :100"
+    },
+    {
+      "index": "13",
+      "content": "Integrated learning Feedback and self-check",
+      "operation": "All lectures review Self-check Lecture (take notes) May exercise and quiz",
+      "assignments": "Preview and review: Review the quizzes and reports. Confirm status of submissions.",
+      "minutes": "Previe w:100 Review :100"
+    },
+    {
+      "index": "14",
+      "content": "Final exam and its explanation Feedback and self-check",
+      "operation": "Exam Exam explanation",
+      "assignments": "Preview and review: Review lecture notebook and textbook.",
+      "minutes": "Previe w:100 Review :100"
+    },
+    {
+      "index": "15",
+      "content": "Feedback Exercises Self-check",
+      "operation": "All contents review Questionnaire Grade notification Questions and answers",
+      "assignments": "Preview: Overcome weakness. If task is imposed, complete by the deadline.",
+      "minutes": "Previe w:100"
+    }
+  ],
+  "rawText": "金沢工業大学 学習支援計画書 K413-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Electronics and Information Systems Engineering\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n過渡現象論\nTransient Phenomena in Linear Circuits  2 K413-01  2026年度\n 2nd year 2nd semester  修学規程第4条を参照\n    担当教員名\n OYAMA Daisuke, MINAMIDE Akiyuki      *印は、実務経験のある教員を示しています。\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Transient Analysis 2.Circuit Equation 3.Laplace Transform 4.Transient Phenomena 5.Online/on-demand classes  The aim of this course is to help students acquire the necessary knowledge needed to understand the theory to learn in “Feedback Control” course in the 5th term. Students will: (1) solve transient electrical circuits using circuit equations and initial conditions. (2) analyze transient phenomena of more complex circuits by Laplace transform. (3) understand the various transient phenomena that occur in electrical circuits.\n    授業の概要および学習上の助言   1. Transient phenomena and differential equation (circuit equations) Learn the basics needed to analyze transient phenomena. //Transient phenomena and steady phenomena, differential equations of electrical circuits and its solutions 2. Transient phenomena of electrical circuits Solve the transient phenomena of various circuits according to the solution of differential equation. //AC and DC circuit of RC, RL, LC, and LCR 3. Analysis by Laplace transform Learn how to analyze transient phenomena in electrical circuits using Laplace transform. //Laplace transform and inverse transform, Laplace transform for functions and its application to circuits. There is possibility to change the learning contents (progress) of the course schedule depending on the situation. Exercises, quizzes, discussions and questions, etc. are included to help students concentrate on this class. The order of learning may be changed as needed, and digital technology may be used for learning such as online (remote) or on-demand classes.\n    教科書および参考書・リザーブドブック   Some materials will be shown in lecture.\n    履修に必要な予備知識や技能   1. Fundamentals of electrical circuits. 2. Fundamentals of mathematics such as exponential, trigonometric function, differential and integral, etc. 3. Attitude to take each class seriously and review and deepen understanding. 4. Attitude to learn theoretical thinking and applied methods through exercises without relying on memorization.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① K Be able to show circuit equations (differential equation) from electric circuits.   ② K Be able to show initial conditions from electric circuits and apply to circuit equations.   ③ K Be able to solve differential equations and express the transient phenomenon with equations.   ④ K Be able to graph transient phenomena based on the equations.   ⑤ K Be able to understand Laplace transform.   ⑥ K Be able to solve transient phenomena of electrical circuits by Laplace transform.\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 40 30 30 0 0 0 0 100     指標と評価割合 総合評価割合 40 30 30 0 0 0 0 100   総合力指標 知識を取り込む力 40 30 30 0 0 0 0 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ There are two exams during the semester to evaluate the degree of the achievement. The exams cover the range of “Target Abilities for Students” No.1 to 6. The details will be explained by the teacher, so be careful not to miss them. No reexamination will be conducted for untaken applicants and poor results students in principle.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥ レ   クイズ\n小テスト ① レ There are quizzes during the semester to evaluate the understanding and the solving ability. The details will be explained by the teacher, so be careful not to miss them. No reexamination will be conducted for untaken applicants and poor results students in principle.   ② レ   ③ レ   ④ ",
+  "sourceYear": "2026",
+  "originalSourceIndex": 861,
+  "courseId": "2026:fall:K419-01:0:13948",
+  "language": "en"
+}

@@ -1,0 +1,298 @@
+{
+  "sourceIndex": 7646,
+  "sourceUrl": "/opsyllabus/kitos0110/149/1",
+  "importedAt": "2026-06-12T08:01:13.083Z",
+  "title": "電気基礎",
+  "subtitle": "Fundamentals of Electrical Engineering",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "2",
+  "term": "2020年度\n 1st year 1st semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [],
+  "keywords": [
+    "Electric current, voltage 2.Electric resistor 3.Condenser 4.Coil 5.Motor"
+  ],
+  "educationalGoal": "Students will: (1) Learn the basic of electronics for a machine engineer (2) Learn the basic concepts such as electric current and voltage (3) Learn the principles and the functions such as resistor, condenser and coil (4) Learn the principle of motor",
+  "advice": "This is a basic course in electric engineering. Step 1: students will understand the concepts as follows, electric current, voltage, resistance, electric power, magnetic field, magnetic force, alternating current, electric field Step 2: students will understand the laws and use them as follows, Ohm's law, Kirchhoff's current law, Joule's law, Coulomb's law, Ampere's law, Biobersal's law, Fleming's law, Faraday's law Step 3: students will apply them to electric circuits and equipments as follows, voltage and current measuremnt, whetastone brigde, heater, temperature measuremnt, electromagnetic induction, motor, electric transformer, electric storage",
+  "books": "Textbooks: (in Japanese) Reference books: Reserved books: None",
+  "requiredKnowledge": "Students are required basic mathematical skills. It is desirable to understand differentiation and integration.",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "D,O,P",
+      "body": "Be able to explain the difference between direct current and alternating current."
+    },
+    {
+      "index": "②",
+      "type": "D,O,P",
+      "body": "Be able to explain the relationship between current, voltage, and power throuhg a resistor."
+    },
+    {
+      "index": "③",
+      "type": "D,O,P",
+      "body": "Be able to explain the functions of a condensor and a coil."
+    },
+    {
+      "index": "④",
+      "type": "D,O,P",
+      "body": "Be able to explain the principle of a motor."
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "0",
+        "50",
+        "30",
+        "0",
+        "0",
+        "0",
+        "20",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "0",
+        "50",
+        "30",
+        "0",
+        "0",
+        "0",
+        "20",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "0",
+        "50",
+        "30",
+        "0",
+        "0",
+        "0",
+        "20",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションと\nリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "(1) Explain the diffrence in the use of direct current and alternating current and the reasons. (2) Calculate the voltage and the current in complicated circuits using Kirchhoff's law. (3) Calculate the voltage and the current in RLC circuits. (4) Explain the principle of a DC motor.",
+    "standard": "(1) Explain the diffrence in the properties of direct current and alternating current. (2) Calculate the voltage, the current and the power of resistors connected in parallel or in series. (3) Explain the role of condenser s and coils. (4) Explain Fleming's left-hand rule."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Basics I in DC circuits : current, voltage and resistor",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Prepare ch.1 in textbook Organize in your note",
+      "minutes": "40 60"
+    },
+    {
+      "index": "2",
+      "content": "Basics II in DC circuits : calculation combined resistance",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Prepare ch.2 in textbook Organize in your note",
+      "minutes": "40 60"
+    },
+    {
+      "index": "3",
+      "content": "Basic rules in electric circuits : Kirchhoff's law",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Prepare ch.3 in textbook Organize in your note",
+      "minutes": "40 60"
+    },
+    {
+      "index": "4",
+      "content": "Electric energy : power consumptipon",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Prepare ch.4 in textbook Organize in your note",
+      "minutes": "40 60"
+    },
+    {
+      "index": "5",
+      "content": "Electric resistor : conductivity, temperature coefficient",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Prepare ch.5 in textbook Organize in your note",
+      "minutes": "40 60"
+    },
+    {
+      "index": "6",
+      "content": "Properties of magnets : relationship between a current and magnetic field",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Prepare ch.6 in textbook Organize in your note",
+      "minutes": "40 60"
+    },
+    {
+      "index": "7",
+      "content": "Strength of magnetic field : Biobersal's law",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Prepare ch.7 in textbook Organize in your note",
+      "minutes": "40 60"
+    },
+    {
+      "index": "8",
+      "content": "Quiz on class 1 to 7 and review",
+      "operation": "Quiz and review Self-reflection",
+      "assignments": "Prepare for th quiz",
+      "minutes": "200"
+    },
+    {
+      "index": "9",
+      "content": "Motor : torque acting on a coil",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Prepare ch.8 in textbook Organize in your note",
+      "minutes": "40 60"
+    },
+    {
+      "index": "10",
+      "content": "Magnetic circuits : magnetic materials and magnetic circuits",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Prepare ch.9 in textbook Organize in your note",
+      "minutes": "40 60"
+    },
+    {
+      "index": "11",
+      "content": "Electromotive force genarated in coils : induced electromotive force",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Prepare ch.10 in textbook Organize in your note",
+      "minutes": "40 60"
+    },
+    {
+      "index": "12",
+      "content": "Basics of alternating circuits : properties of alternating current",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Prepare ch.11 in textbook Organize in your note",
+      "minutes": "40 60"
+    },
+    {
+      "index": "13",
+      "content": "Functions of coils : self-inductance, mutual inductance",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Prepare ch.12 in textbook Organize in your note",
+      "minutes": "40 60"
+    },
+    {
+      "index": "14",
+      "content": "Functions of condensors : Coulomb's law and capcitance",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Prepare ch.13 in textbook Organize in your note",
+      "minutes": "40 60"
+    },
+    {
+      "index": "15",
+      "content": "Quiz on class 9 to 14 and review",
+      "operation": "Quiz and review Self-reflection",
+      "assignments": "Prepare for th quiz",
+      "minutes": "200"
+    }
+  ],
+  "rawText": "金沢工業大学 学習支援計画書 E037-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Mechanical Engineering\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n電気基礎\nFundamentals of Electrical Engineering  2 E037-01  2020年度\n 1st year 1st semester  修学規程第4条を参照\n    担当教員名\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Electric current, voltage 2.Electric resistor 3.Condenser 4.Coil 5.Motor  Students will: (1) Learn the basic of electronics for a machine engineer (2) Learn the basic concepts such as electric current and voltage (3) Learn the principles and the functions such as resistor, condenser and coil (4) Learn the principle of motor\n    授業の概要および学習上の助言   This is a basic course in electric engineering. Step 1: students will understand the concepts as follows, electric current, voltage, resistance, electric power, magnetic field, magnetic force, alternating current, electric field Step 2: students will understand the laws and use them as follows, Ohm's law, Kirchhoff's current law, Joule's law, Coulomb's law, Ampere's law, Biobersal's law, Fleming's law, Faraday's law Step 3: students will apply them to electric circuits and equipments as follows, voltage and current measuremnt, whetastone brigde, heater, temperature measuremnt, electromagnetic induction, motor, electric transformer, electric storage\n    教科書および参考書・リザーブドブック   Textbooks: (in Japanese) Reference books: Reserved books: None\n    履修に必要な予備知識や技能   Students are required basic mathematical skills. It is desirable to understand differentiation and integration.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① D,O,P Be able to explain the difference between direct current and alternating current.   ② D,O,P Be able to explain the relationship between current, voltage, and power throuhg a resistor.    ③ D,O,P Be able to explain the functions of a condensor and a coil.   ④ D,O,P Be able to explain the principle of a motor.   ⑤     ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 0 50 30 0 0 0 20 100     指標と評価割合 総合評価割合 0 50 30 0 0 0 20 100   総合力指標 知識を取り込む力 0 50 30 0 0 0 20 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ①      ②     ③     ④     ⑤     ⑥     クイズ\n小テスト ① レ Students will be evaluated on two quizzes.   ② レ   ③ レ   ④ レ   ⑤     ⑥     レポート ① レ Students will be evaluated on three reports.   ② レ   ③ レ   ④ レ   ⑤     ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ① レ Students will be evaluated contents in 'Self-check' on e-syllabus evvry after class. Listing key words only is not allowed. Moreover, activities as to questions and dicussions will be evaluated in class.   ② レ   ③ レ   ④ レ   ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     (1) Explain the diffrence in the use of direct current and alternating current and the reasons. (2) Calculate the voltage and the current in complicated circuits using Kirchhoff's law. (3) Calculate the voltage and the current in RLC circuits. (4) Explain the principle of a DC motor. (1) Explain the diffrence in the properties of direct current and alternating current. (2) Calculate the voltage, the current and the power of resistors connected in parallel or in series. (3) Explain the role of condenser s and coils. (4) Explain Fleming's left-hand rule.\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習課題に要する標準的な時間を記載してあります。日々の自学自習時間全体としては、各授業に応じた時間(例えば2単位科目の場合、予習2時間・復習2時間/週)を取るよう努めてください。詳しくは教員の指導に従って下さい。     授業明細   回数 学習内容 授業の運営方法 学習課題(予習・復習) 時間:分※     1  Basics I in DC circuits : current, voltage and resistor Lecture and practice Self-check Prepare",
+  "sourceYear": "2020",
+  "originalSourceIndex": 149,
+  "courseId": "2020:spring:G252-02:0:7646",
+  "language": "en"
+}

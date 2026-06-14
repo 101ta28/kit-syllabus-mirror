@@ -1,0 +1,300 @@
+{
+  "sourceIndex": 8570,
+  "sourceUrl": "/opsyllabus/kitos0110/208/1",
+  "importedAt": "2026-06-12T08:01:34.461Z",
+  "title": "航空流体力学B",
+  "subtitle": "Aerodynamics B",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "2",
+  "term": "2021年度\n 3rd year 2nd semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "OKAMOTO Masato"
+  ],
+  "keywords": [
+    "Compressible fluid 2.Shock wave 3.Viscous fluid 4.Boundary layer"
+  ],
+  "educationalGoal": "Students will learn the basics of aerodynamics through lectures and exercises on aircraft wings. The goal of this subject is to understand the phenomena that occur in compressible and viscous fluids, and solve fluid problems using mathematical formulas.",
+  "advice": "We will study compressible and viscous fluids and how to apply the theory to airplane wings. We will cover the following materials: 1. Governing equations of fluids 2. Sonic speed and Mach number 3. Vertical shock waves and oblique shock waves 4. Shock waves generated around wings 5. Aerodynamic characteristics of high-speed airfoils 6. Boundary layer 7. Laminar and turbulent flows and transition of boundary layer 8. Derivation of boundary layer equations 9. Separation and wake vortex 10. Aerodynamic drag",
+  "books": "Introduction of Aerodynamics (in Japanese) Maruzen Publishing",
+  "requiredKnowledge": "Knowledge of aerodynamics and thermodynamics.",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "J",
+      "body": "Be able to explain the governing equation of fluids."
+    },
+    {
+      "index": "②",
+      "type": "J,D,M",
+      "body": "Be able to explain shock waves and their generation mechanism."
+    },
+    {
+      "index": "③",
+      "type": "J,D,M",
+      "body": "Be able to explain the effects of viscosity of a fluid acting on an object."
+    },
+    {
+      "index": "④",
+      "type": "J,D,M,N",
+      "body": "Be able to understand friction drag, pressure drag, and wave drag, and calculate the aerodynamic forces acting o"
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "40",
+        "30",
+        "20",
+        "0",
+        "0",
+        "0",
+        "10",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "40",
+        "30",
+        "20",
+        "0",
+        "0",
+        "0",
+        "10",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "40",
+        "30",
+        "20",
+        "0",
+        "0",
+        "0",
+        "10",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションと\nリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "(1) Explain compressible fluids and viscous fluids. (2) Estimate the aerodynamic forces acting on several objects. (3) Evaluate quantitatively the phenomenon.",
+    "standard": "(1) Explain compressible fluids and the viscous fluids (2) Estimate the aerodynamic forces acting on several objects."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Course introduction",
+      "operation": "Lecture and Q&A",
+      "assignments": "Understand the objectives of the class",
+      "minutes": "150"
+    },
+    {
+      "index": "2",
+      "content": "Review equation of state (ideal gas law).",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Prepare chapter 5.1 of the textbook",
+      "minutes": "150"
+    },
+    {
+      "index": "3",
+      "content": "Review speed of sound, Mach number, and compressible flow.",
+      "operation": "Practice exercises Lecture and practice Self-check",
+      "assignments": "Prepare chapter 5.1 of the textbook",
+      "minutes": "150"
+    },
+    {
+      "index": "4",
+      "content": "Review speed of sound, Mach number and compressible flow.",
+      "operation": "Practice example Lecture and practice Self-check",
+      "assignments": "Prepare chapter 5.1 of the textbook",
+      "minutes": "150"
+    },
+    {
+      "index": "5",
+      "content": "Review the energy equation for compressible fluids.",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Review your own notes from the lectures.",
+      "minutes": "150"
+    },
+    {
+      "index": "6",
+      "content": "Review normal shock waves and oblique shock waves",
+      "operation": "Test and review Self-reflection",
+      "assignments": "Prepare chapter 5.1 of the textbook.",
+      "minutes": "150"
+    },
+    {
+      "index": "7",
+      "content": "Review supersonic airfoils.",
+      "operation": "Self-checkLecture and practice",
+      "assignments": "Prepare chapter 5.2 of the textbook.",
+      "minutes": "150"
+    },
+    {
+      "index": "8",
+      "content": "[Integrated learning 1] Exercise and discussion",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Confirm what you learned and create an assignment report.",
+      "minutes": "150"
+    },
+    {
+      "index": "9",
+      "content": "Test and review",
+      "operation": "Test and review Self-reflection",
+      "assignments": "Prepare for the test Review",
+      "minutes": "180"
+    },
+    {
+      "index": "10",
+      "content": "Review the boundary layer equations.",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Prepare chapter 4 of the textbook.",
+      "minutes": "150"
+    },
+    {
+      "index": "11",
+      "content": "Review the laminar boundary layer and turbulent boundary layer.",
+      "operation": "Test and review Self-reflection",
+      "assignments": "Prepare chapter 5.2 of the textbook.",
+      "minutes": "150"
+    },
+    {
+      "index": "12",
+      "content": "Review the separation and the wake vortex.",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Prepare chapter 5.2 of the textbook.",
+      "minutes": "150"
+    },
+    {
+      "index": "13",
+      "content": "Review forces acting on objects in fluids",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Review your own notes from the lectures.",
+      "minutes": "150"
+    },
+    {
+      "index": "14",
+      "content": "Final exam and review",
+      "operation": "Exam and review",
+      "assignments": "Self-reflection Prepare for the exam",
+      "minutes": "180"
+    },
+    {
+      "index": "15",
+      "content": "[Integrated learning 2] Exercise and discussion",
+      "operation": "Active learning and presentation Self-evaluation",
+      "assignments": "Confirm what you learned",
+      "minutes": "180"
+    }
+  ],
+  "rawText": "金沢工業大学 学習支援計画書 E128-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Aeronautics\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n航空流体力学B\nAerodynamics B  2 E128-01  2021年度\n 3rd year 2nd semester  修学規程第4条を参照\n    担当教員名\n OKAMOTO Masato\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Compressible fluid 2.Shock wave 3.Viscous fluid 4.Boundary layer  Students will learn the basics of aerodynamics through lectures and exercises on aircraft wings. The goal of this subject is to understand the phenomena that occur in compressible and viscous fluids, and solve fluid problems using mathematical formulas.\n    授業の概要および学習上の助言   We will study compressible and viscous fluids and how to apply the theory to airplane wings. We will cover the following materials: 1. Governing equations of fluids 2. Sonic speed and Mach number 3. Vertical shock waves and oblique shock waves 4. Shock waves generated around wings 5. Aerodynamic characteristics of high-speed airfoils 6. Boundary layer 7. Laminar and turbulent flows and transition of boundary layer 8. Derivation of boundary layer equations 9. Separation and wake vortex 10. Aerodynamic drag\n    教科書および参考書・リザーブドブック   Introduction of Aerodynamics (in Japanese) Maruzen Publishing\n    履修に必要な予備知識や技能   Knowledge of aerodynamics and thermodynamics.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① J Be able to explain the governing equation of fluids.   ② J,D,M Be able to explain shock waves and their generation mechanism.   ③ J,D,M Be able to explain the effects of viscosity of a fluid acting on an object.   ④ J,D,M,N Be able to understand friction drag, pressure drag, and wave drag, and calculate the aerodynamic forces acting o   ⑤     ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 40 30 20 0 0 0 10 100     指標と評価割合 総合評価割合 40 30 20 0 0 0 10 100   総合力指標 知識を取り込む力 40 30 20 0 0 0 10 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ There is an exam at the end of the semester to evaluate the degree of achievement. The exam consists of the expansion and calculation of equations and the explanation of phenomenon.    ② レ   ③ レ   ④ レ   ⑤     ⑥     クイズ\n小テスト ① レ There are mini tests to improve the level of understanding at the end of each chapter. Students will be required to submit assignments.    ② レ   ③ レ   ④ レ   ⑤     ⑥     レポート ①   Students will be evaluated on several reports.   ② レ   ③ レ   ④ レ   ⑤     ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ①   Attitudes in presentations and discussions will be evaluated   ② レ   ③ レ   ④ レ   ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     (1) Explain compressible fluids and viscous fluids. (2) Estimate the aerodynamic forces acting on several objects. (3) Evaluate quantitatively the phenomenon.  (1) Explain compressible fluids and the viscous fluids (2) Estimate the aerodynamic forces acting on several objects.\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習課題に要する標準的な時間を記載してあります。日々の自学自習時間全体としては、各授業に応じた時間(例えば2単位科目の場合、予習2時間・復習2時間/週)を取るよう努めてください。詳しくは教員の指導に従って下さい。     授業明細   回数 学習内容 授業の運営方法 学習課題(予習・復習) 時間:分※     1  Course introduction Lecture and Q&A Understand the objectives of the class  150   2  Review equation of state (ideal gas law).  Lecture and practice Self-check Prepare chapter 5.1 of the textbook  150   3  Review speed of sound, Mach number, and compressible flow. Practice exercises Lecture and practice Self-check  Prepare chapter 5.1 of the textbook  150   4  Review speed of sound, Mach number and compressible flow.  Practice example Lecture and",
+  "sourceYear": "2021",
+  "originalSourceIndex": 208,
+  "courseId": "2021:fall:E031-01:0:8570",
+  "language": "en"
+}

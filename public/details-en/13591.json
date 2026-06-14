@@ -1,0 +1,258 @@
+{
+  "sourceIndex": 13591,
+  "sourceUrl": "/opsyllabus/kitos0110/504/1",
+  "importedAt": "2026-06-12T08:03:08.588Z",
+  "title": "プログラミング入門",
+  "subtitle": "Introduction to Programming",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "1",
+  "term": "2026年度\n 1st year 1st semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "MATSUSHITA Yutaka",
+    "NEGISHI Ippei",
+    "SHIMAMOTO Shingo"
+  ],
+  "keywords": [
+    "C programing language 2.Input/output 3.Data type 4.Array 5.Arithmetic operation"
+  ],
+  "educationalGoal": "Computer systems are constructions of hardware and software technology. This course focuses on the software side of the combination. Programming is the skill used to create software, and knowledge regarding it also helps users employ software effectively. Dealing with a typical programing language, C programing language, we will learn basic elements (input/output, data type, and array).",
+  "advice": "Specifically, students in this course will learn about the following topics: ・Fundamental programming procedures ・Variable and data type ・Input/output, and arithmetic operation ・Array and string Using the development environment of C programing language, students will learn programming by actually creating programs written in the textbook, debugging them, and checking the results. The results of examinations will be reported to students, who will then be encouraged and required to use those results to improve their skills.",
+  "books": "",
+  "requiredKnowledge": "The installation of the development environment will be covered during the first class and each student must establish the environment before the second class. Students will be expected to write source code during in the class, so advanced keyboard skills are expected.",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "H,I,K",
+      "body": "Be able to create programs under development environment of C programming language."
+    },
+    {
+      "index": "②",
+      "type": "H,I,K",
+      "body": "Be able to execute instructions for Input/output."
+    },
+    {
+      "index": "③",
+      "type": "H,I,K",
+      "body": "Be able to understand the concept of data type."
+    },
+    {
+      "index": "④",
+      "type": "H,I,K",
+      "body": "Be able to understand the concept of array."
+    },
+    {
+      "index": "⑤",
+      "type": "H,I,K",
+      "body": "Be able to execute basic arithmetic calculations."
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "40",
+        "20",
+        "40",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "40",
+        "20",
+        "40",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "40",
+        "20",
+        "40",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションと\nリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "(1) Be able to achieve over 80% of the target student abilities. (2) Be able to acquire a satisfactory understanding of input/output instructions. (3) Be able acquire a satisfactory understanding of the concept of array. (4) be able to execute arithmetic operations.",
+    "standard": "(1) Achieve over 60% of the target student abilities. (2) Be able acquire a basic understanding of input/output instructions. (3) Be able to acquire a basic understanding of the concepts of array. (4) Be able to execute arithmetic operations."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Orientation Installation method of Visual Studio Flowchart",
+      "operation": "Lecture",
+      "assignments": "Review: Read the commentary slide. Preparation: Install Visual Studio.",
+      "minutes": "30 60"
+    },
+    {
+      "index": "2",
+      "content": "How to use Visual Studio Experience of executing a program",
+      "operation": "Lecture and practice",
+      "assignments": "Review: Review the installation of Visual Studio and execute the program deal with in the class. Preparation: Read Chapter 3 in the text.",
+      "minutes": "60 30"
+    },
+    {
+      "index": "3",
+      "content": "Output characters",
+      "operation": "Lecture and practice",
+      "assignments": "Review: Read the class slide and review tasks for this week. Preparation: Read §4.1 to 4.5 in the text.",
+      "minutes": "30 60"
+    },
+    {
+      "index": "4",
+      "content": "Variable (data type)",
+      "operation": "Lecture and practice",
+      "assignments": "Review: Read the class slide and review tasks for this week. Preparation: Read §4.6 to 4.1 0 in the text.",
+      "minutes": "30 60"
+    },
+    {
+      "index": "5",
+      "content": "Array",
+      "operation": "Lecture and practice",
+      "assignments": "Review: Read the class slide and review tasks for this week. Preparation: Read Chapter 5 and §6.1, 6.2 in the text. Preparation for midterm exams.",
+      "minutes": "30 60"
+    },
+    {
+      "index": "6",
+      "content": "Arithmetic operation and input/output Midterm exam",
+      "operation": "Lecture and practice",
+      "assignments": "Review: Read the class slide and review tasks for this week. Preparation: Read Chapter 6 in the text.",
+      "minutes": "30 60"
+    },
+    {
+      "index": "7",
+      "content": "Input/output",
+      "operation": "Lecture and practice",
+      "assignments": "Review: Understand contents up to the 7th week.",
+      "minutes": "150"
+    },
+    {
+      "index": "8",
+      "content": "Examination for confirmation of achievement Self-inspection class",
+      "operation": "Examination Self-check",
+      "assignments": "Review: Understand the contents of the examination.",
+      "minutes": "90"
+    }
+  ],
+  "rawText": "金沢工業大学 学習支援計画書 M004-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Media Information\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\nプログラミング入門\nIntroduction to Programming  1 M004-01  2026年度\n 1st year 1st semester  修学規程第4条を参照\n    担当教員名\n MATSUSHITA Yutaka, NEGISHI Ippei, SHIMAMOTO Shingo      *印は、実務経験のある教員を示しています。\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.C programing language 2.Input/output 3.Data type 4.Array 5.Arithmetic operation  Computer systems are constructions of hardware and software technology. This course focuses on the software side of the combination. Programming is the skill used to create software, and knowledge regarding it also helps users employ software effectively. Dealing with a typical programing language, C programing language, we will learn basic elements (input/output, data type, and array).\n    授業の概要および学習上の助言   Specifically, students in this course will learn about the following topics: ・Fundamental programming procedures ・Variable and data type ・Input/output, and arithmetic operation ・Array and string Using the development environment of C programing language, students will learn programming by actually creating programs written in the textbook, debugging them, and checking the results. The results of examinations will be reported to students, who will then be encouraged and required to use those results to improve their skills.\n    教科書および参考書・リザーブドブック\n    履修に必要な予備知識や技能   The installation of the development environment will be covered during the first class and each student must establish the environment before the second class. Students will be expected to write source code during in the class, so advanced keyboard skills are expected.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① H,I,K Be able to create programs under development environment of C programming language.   ② H,I,K Be able to execute instructions for Input/output.   ③ H,I,K Be able to understand the concept of data type.   ④ H,I,K Be able to understand the concept of array.   ⑤ H,I,K Be able to execute basic arithmetic calculations.   ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 40 20 40 0 0 0 0 100     指標と評価割合 総合評価割合 40 20 40 0 0 0 0 100   総合力指標 知識を取り込む力 40 20 40 0 0 0 0 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ A final exam will be given in the 8th week to confirm student levels of understanding.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     クイズ\n小テスト ① レ A midterm exam will be held in the sixth week to assess students' understanding of the material learned up to the fifth week.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     レポート ① レ Reports are weekly presented from the 2nd to 7th week, and students are expected to complete their reports by the next week.   ② レ   ③ レ   ④ レ   ⑤     ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ①      ②     ③     ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     (1) Be able to achieve over 80% of the target student abilities. (2) Be able to acquire a satisfactory understanding of input/output instructions. (3) Be able acquire a satisfactory understanding of the concept of array. (4) be able to execute arithmetic operations.  (1) Achieve over 60% of the target student abilities. (2) Be able acquire a basic understanding of input/output instructions. (3) Be able to acquire a basic understanding of the concepts of array. (4) Be able to execute arithmetic operations.\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習課題に要する標準的な時間を記載してあります。日々の自学自習時間全体としては、各授業に応じた時間(例えば2単位科目の場合、予習2時間・復習2時間/週)を取",
+  "sourceYear": "2026",
+  "originalSourceIndex": 504,
+  "courseId": "2026:fall:M008-01:0:13591",
+  "language": "en"
+}

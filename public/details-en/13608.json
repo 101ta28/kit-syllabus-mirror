@@ -1,0 +1,310 @@
+{
+  "sourceIndex": 13608,
+  "sourceUrl": "/opsyllabus/kitos0110/521/1",
+  "importedAt": "2026-06-12T08:03:08.429Z",
+  "title": "情報ネットワーク",
+  "subtitle": "Information Networks",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "2",
+  "term": "2026年度\n 2nd year 2nd semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "NAKAZAWA Kenji"
+  ],
+  "keywords": [
+    "Computer Network 2.Protocol 3.TCP/IP 4.Internetworking"
+  ],
+  "educationalGoal": "This course introduces the basic knowledge of information network technology supporting the information society. Students will get an overview of the services provided on the Internet and learn various related communication and security technologies, focusing on the hierarchical protocols essential for realizing the services. Through these, students will gain an understanding of what the Internet is like and acquire basic network operation techniques.",
+  "advice": "Students will learn the basic knowledge related to computer networks as shown below. 1. Basic mechanisms of computer networks 2. TCP/IP hierarchy model and OSI reference model 3. Network service and application layer 4. Transport layer 5. Internet layer and routing 6. Network interface layer and hardware 7. Security",
+  "books": "",
+  "requiredKnowledge": "Students are expected to have credits of “Information Technology Basic” and “Introduction to Server Management”.",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "I,J",
+      "body": "Be able to explain the basic mechanisms of computer networks."
+    },
+    {
+      "index": "②",
+      "type": "I,J",
+      "body": "Be able to explain the functions of each layer in the TCP/IP hierarchy model."
+    },
+    {
+      "index": "③",
+      "type": "I,J",
+      "body": "Be able to explain the protocol of the application layer that provides services such as Web and email."
+    },
+    {
+      "index": "④",
+      "type": "J",
+      "body": "Be able to explain the mechanism of data transfer at the transport, internet and network interface layer."
+    },
+    {
+      "index": "⑤",
+      "type": "J",
+      "body": "Be able to explain the security technology used on the Internet."
+    },
+    {
+      "index": "⑥",
+      "type": "J",
+      "body": "Be able to examine the network configuration using basic network commands and tools."
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "40",
+        "30",
+        "20",
+        "0",
+        "0",
+        "0",
+        "10",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "40",
+        "30",
+        "20",
+        "0",
+        "0",
+        "0",
+        "10",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "40",
+        "30",
+        "20",
+        "0",
+        "0",
+        "0",
+        "10",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションと\nリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "Students are required to achieve an overall goal of 90% or higher of the target values.",
+    "standard": "Students are required to achieve an overall goal of 70% of the target values."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "1 World of Computer Network #1 01 Introduction to Computer Network 02 Usage of the Network 03 Server and Client 04 Packet Exchange",
+      "operation": "Lecture and Practice",
+      "assignments": "Review of today's lecture Prepare Chapt.1 of the textbook",
+      "minutes": "60"
+    },
+    {
+      "index": "2",
+      "content": "1 World of Computer Network #2 05 Hierarchy Model 06 Four Layers 07 Communication Rules 08 Impact of Internet",
+      "operation": "Lecture and Practice",
+      "assignments": "Review of today's lecture Prepare Chapt.2 of the textbook",
+      "minutes": "60"
+    },
+    {
+      "index": "3",
+      "content": "2 Network Services & Application Layer #1 01 Application Layer 02 HTTP 03 Web Service 04 Cookie",
+      "operation": "Lecture and Practice",
+      "assignments": "Review of today's lecture Prepare Chapt.2 of the textbook",
+      "minutes": "60"
+    },
+    {
+      "index": "4",
+      "content": "2 Network Services & Application Layer #2 05 E-Mail 06 File Sharing 07 FTP 08 Remote Access",
+      "operation": "Lecture and Practice",
+      "assignments": "Review of today's lecture Prepare Chapt.3 of the textbook",
+      "minutes": "60"
+    },
+    {
+      "index": "5",
+      "content": "3 Transport Layer #1 01 The Role of the Layer 02 Port Number 03 Technology of the Layer",
+      "operation": "Lecture and Practice",
+      "assignments": "Review of today's lecture Prepare Chapt.3 of the textbook",
+      "minutes": "60"
+    },
+    {
+      "index": "6",
+      "content": "3 Transport Layer #2 04 UDP 05 netstat Command",
+      "operation": "Lecture and Practice",
+      "assignments": "Review of today's lecture Prepare Chapt.4 of the textbook",
+      "minutes": "60"
+    },
+    {
+      "index": "7",
+      "content": "4 Internet Layer & Routing #1 01 The Role of the Layer 02 IPv4 and IPv6 03 IP Address",
+      "operation": "Lecture and Practice",
+      "assignments": "Prepare for Mid-term Examination",
+      "minutes": "180"
+    },
+    {
+      "index": "8",
+      "content": "Mid-term Examination Review of Internet Protocol",
+      "operation": "Examination Lecture and Practice",
+      "assignments": "Review of Examination Prepare Chapt.4 of the textbook",
+      "minutes": "30"
+    },
+    {
+      "index": "9",
+      "content": "4 Internet Layer & Routing #2 04 Introduction to Routing 05 Protocols 06 ICMP",
+      "operation": "Lecture and Practice",
+      "assignments": "Review of today's lecture Prepare Chapt.5 of the textbook",
+      "minutes": "60"
+    },
+    {
+      "index": "10",
+      "content": "5 Network Interface Layer and Hardware #1 01 The Role of the Layer 02 MAC Address 03 Ethernet 04 Hub",
+      "operation": "Lecture and Practice",
+      "assignments": "Review of today's lecture Prepare Chapt.5 of the textbook",
+      "minutes": "60"
+    },
+    {
+      "index": "11",
+      "content": "5 Network Interface Layer and Hardware #2 05 Wireless LAN 06 ARP 07 FTTx 08 PPP",
+      "operation": "Lecture and Practice",
+      "assignments": "Review of today's lecture Prepare Chapt.6 of the textbook",
+      "minutes": "60"
+    },
+    {
+      "index": "12",
+      "content": "6 Security #1 01 Network Security 02 Public and Private Keys 03 e-Certificate and e-Signature 04 SSL/TLS",
+      "operation": "Lecture and Practice",
+      "assignments": "Review of today's lecture Prepare Chapt.6 of the textbook",
+      "minutes": "60"
+    },
+    {
+      "index": "13",
+      "content": "6 Security #2 05 SSH 06 Firewall 07 Wireless Security 04 VPN",
+      "operation": "Lecture and Practice",
+      "assignments": "Review of today's lecture Prepare for Term-end Examination",
+      "minutes": "180"
+    },
+    {
+      "index": "14",
+      "content": "Term-end Examination",
+      "operation": "Examination Lecture and Practice",
+      "assignments": "Review of Examination Review of Assignments",
+      "minutes": "30"
+    },
+    {
+      "index": "15",
+      "content": "Self-Assessment Evolutionary learning",
+      "operation": "Review of Lecture Self-estimation",
+      "assignments": "Review",
+      "minutes": "30"
+    }
+  ],
+  "rawText": "金沢工業大学 学習支援計画書 M022-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Media Information\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n情報ネットワーク\nInformation Networks  2 M022-01  2026年度\n 2nd year 2nd semester  修学規程第4条を参照\n    担当教員名\n NAKAZAWA Kenji      *印は、実務経験のある教員を示しています。\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Computer Network 2.Protocol 3.TCP/IP 4.Internetworking  This course introduces the basic knowledge of information network technology supporting the information society. Students will get an overview of the services provided on the Internet and learn various related communication and security technologies, focusing on the hierarchical protocols essential for realizing the services. Through these, students will gain an understanding of what the Internet is like and acquire basic network operation techniques.\n    授業の概要および学習上の助言   Students will learn the basic knowledge related to computer networks as shown below. 1. Basic mechanisms of computer networks 2. TCP/IP hierarchy model and OSI reference model 3. Network service and application layer 4. Transport layer 5. Internet layer and routing 6. Network interface layer and hardware 7. Security\n    教科書および参考書・リザーブドブック\n    履修に必要な予備知識や技能   Students are expected to have credits of “Information Technology Basic” and “Introduction to Server Management”.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① I,J Be able to explain the basic mechanisms of computer networks.   ② I,J Be able to explain the functions of each layer in the TCP/IP hierarchy model.   ③ I,J Be able to explain the protocol of the application layer that provides services such as Web and email.   ④ J Be able to explain the mechanism of data transfer at the transport, internet and network interface layer.   ⑤ J Be able to explain the security technology used on the Internet.   ⑥ J Be able to examine the network configuration using basic network commands and tools.\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 40 30 20 0 0 0 10 100     指標と評価割合 総合評価割合 40 30 20 0 0 0 10 100   総合力指標 知識を取り込む力 40 30 20 0 0 0 10 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ Students will be evaluated on their understanding of computer networks knowledge through the mid-term and final tests.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     クイズ\n小テスト ① レ Students will be evaluated on their understanding of computer networks knowledge through a few quizzes.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     レポート ① レ Students will be evaluated on several reports about the basic knowledge of computer networks learned in class and whether they can be utilized.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ① レ Students will be evaluated on attitudes and motivation (attitude, punctuality, attendance, etc.)   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     Students are required to achieve an overall goal of 90% or higher of the target values. Students are required to achieve an overall goal of 70% of the target values.\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習課題に要する標準的な時間を記載してあります。日々の自学自習時間全体としては、各授業に応じた時間(例えば2単位科目の場合、予習2時間・復習2時間/週)を取るよう努めてください。詳しくは教員の指導に従って下さい。     授業明細   回数 学習内容 授業の運営方法 学習課題(予習・復習) 時間:分※     1  1 World of Computer Network #1 01 Introduction to Computer Network 02 Usage of the Network 03 Server and Client 04 Packet Exchange Lecture and Practice Review of today's lecture Prepare Chapt.1 of the textbook  60   2  1 World of Computer Network #2 05 Hierarchy Model 06 Four Layers 07 Communica",
+  "sourceYear": "2026",
+  "originalSourceIndex": 521,
+  "courseId": "2026:spring:M103-01:0:13608",
+  "language": "en"
+}

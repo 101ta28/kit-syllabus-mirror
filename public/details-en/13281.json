@@ -1,0 +1,303 @@
+{
+  "sourceIndex": 13281,
+  "sourceUrl": "/opsyllabus/kitos0110/194/1",
+  "importedAt": "2026-06-12T08:03:06.303Z",
+  "title": "社会シミュレーション",
+  "subtitle": "Social Simulation",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "2",
+  "term": "2026年度\n 2nd year 2nd semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "TAKECHI Shoji"
+  ],
+  "keywords": [
+    "Social Systems 2.Mathematical Models 3.Monte Carlo Method 4.Agents 5.System Dynamics"
+  ],
+  "educationalGoal": "In this course, students learn about mathematical modeling of social systems and simulation techniques. Students understand system dynamics and multi-agent models—representative mathematical models that incorporate interactions among people or between humans and the natural environment. Students also understand to acquire insights into the macroscopic characteristics and global behavior of economic, social, and environmental systems through simulations using these models.",
+  "advice": "In this course, students study \"systems thinking\", which means an approach that focuses on the interactions among components of a system considered as a whole system. Students learn the basics of mathematical modeling and perform simulations using these models. Students break down a complex system into its components, analyze causal relationships, and use these relationships to understand changes in outcomes based on different parameter settings via simulation. Through simulation, students grasp real-world social phenomena and trends, forecast future conditions, and clarify what actions are necessary for building a better society. Advice for Students is as follows: 1. Maintain a habit of considering relationships among various things in daily life. 2. If you cannot understand something at once, ask questions and review the material. 3. Engage in hands-on simulation practice, and reflect critically on the results, for example, \"Does this match what I expected?\", \"How should I interpret this result?”",
+  "books": "Textbook: None Reference Books: None Reserved Books: None",
+  "requiredKnowledge": "This course is designed so that no special prior knowledge is required. However, familiarity with computers is desirable. Basic mathematical knowledge, such as differential equations and linear algebra, will deepen your understanding of mathematical models and simulation techniques. Reference materials for mathematics will be introduced during class as needed.",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "D",
+      "body": "Understand mathematical models involving population and competition dynamics ."
+    },
+    {
+      "index": "②",
+      "type": "D,F",
+      "body": "Implement simple mathematical models as simulation models."
+    },
+    {
+      "index": "③",
+      "type": "D,F",
+      "body": "Understand and perform simulations using system dynamics and multi-agent approaches."
+    },
+    {
+      "index": "④",
+      "type": "D,E",
+      "body": "Execute simulations, organize results, and create visualizations."
+    },
+    {
+      "index": "⑤",
+      "type": "D,G",
+      "body": "Interpret simulation results appropriately."
+    },
+    {
+      "index": "⑥",
+      "type": "D,G",
+      "body": "Consider methods for verifying simulation results."
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "0",
+        "0",
+        "60",
+        "20",
+        "0",
+        "0",
+        "20",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "0",
+        "0",
+        "60",
+        "20",
+        "0",
+        "0",
+        "20",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "0",
+        "0",
+        "60",
+        "20",
+        "0",
+        "0",
+        "20",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションと\nリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "Students can derive mathematical models even for complex systems, implement simulation models, conduct parametric simulations, and explain parameter effects appropriately. They can also explain fundamental concepts of system dynamics and organize the effects of parameters.",
+    "standard": "Students can derive mathematical models for systems with few components and simple relationships, implement simulations, and organize results. They also understand basic concepts of system dynamics."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Guidance: What is Social Simulation? Course overview, evaluation methods Registration for Insight Maker (system dynamics tool) Registration for Artisoc Cloud (multi-agent simulator)",
+      "operation": "Lecture & Exercises",
+      "assignments": "Review Tasks",
+      "minutes": "60 150"
+    },
+    {
+      "index": "2",
+      "content": "Modeling and abstraction of social phenomena -Assumptions, variables, parameters -Population dynamics simulation",
+      "operation": "Lecture & Exercises",
+      "assignments": "Review Tasks",
+      "minutes": "60 150"
+    },
+    {
+      "index": "3",
+      "content": "Foundations of decision-making models -Perfect rationality and bounded rationality -Utility, cost, and reward -Decision-making over time -Differences between \"optimization\" and \"simulation\"",
+      "operation": "Lecture & Exercises",
+      "assignments": "Review Tasks",
+      "minutes": "60 150"
+    },
+    {
+      "index": "4",
+      "content": "Introduction to System Dynamics (1) -Flow and stock -Temporal evolution -Competition simulation",
+      "operation": "Lecture & Exercises",
+      "assignments": "Review Tasks",
+      "minutes": "60 180"
+    },
+    {
+      "index": "5",
+      "content": "Introduction to System Dynamics (2) -Infectious disease spread simulation -Mechanisms of infection expansion -Effects of policy interventions (quarantine, vaccines)",
+      "operation": "Lecture & Exercises",
+      "assignments": "Review Tasks",
+      "minutes": "60 150"
+    },
+    {
+      "index": "6",
+      "content": "Complex systems and emergent phenomena -Individual behavior and collective phenomena -Emergence and self-organization -Nonlinearity and prediction difficulty",
+      "operation": "Lecture & Exercises",
+      "assignments": "Review Tasks",
+      "minutes": "60 220"
+    },
+    {
+      "index": "7",
+      "content": "Cellular Automata (CA) -Basic structure of CA -Rules and temporal evolution -Applications to social phenomena: fire spread -Analysis of the Game of Life",
+      "operation": "Lecture & Exercises",
+      "assignments": "Review Tasks",
+      "minutes": "60 220"
+    },
+    {
+      "index": "8",
+      "content": "Introduction to Agent-Based Models (ABM) -Agents, environment, interactions -Differences from CA -Advantages of ABM in social simulation",
+      "operation": "Lecture & Exercises",
+      "assignments": "Review Tasks",
+      "minutes": "60 220"
+    },
+    {
+      "index": "9",
+      "content": "Famous ABM models -Schelling’s segregation model: model structure, unintended consequences, policy implications and limitations -Competition simulation: differences from system dynamics",
+      "operation": "Lecture & Exercises",
+      "assignments": "Review Tasks",
+      "minutes": "60 220"
+    },
+    {
+      "index": "10",
+      "content": "Learning and evolving agents -Fixed rules vs. optimization vs. learning -Relationship between dynamic programming (DP) and reinforcement learning -Modeling social evolution",
+      "operation": "Lecture & Exercises",
+      "assignments": "Review Tasks",
+      "minutes": "60 220"
+    },
+    {
+      "index": "11",
+      "content": "Networks and social structure -Basics of social networks -Diffusion of information, rumors, and infections -Influence of network structure on decision-making",
+      "operation": "Lecture & Exercises",
+      "assignments": "Review Tasks",
+      "minutes": "60 220"
+    },
+    {
+      "index": "12",
+      "content": "Urban, transportation, and evacuation simulation -Spatial models -Bottlenecks and congestion -DP-based route choice vs. local rules",
+      "operation": "Lecture & Exercises",
+      "assignments": "Review Tasks",
+      "minutes": "60 220"
+    },
+    {
+      "index": "13",
+      "content": "Economic and market simulation -Artificial markets -Bubbles and crashes -Optimal behavior and collective instability",
+      "operation": "Lecture & Exercises",
+      "assignments": "Review Tasks",
+      "minutes": "60 220"
+    },
+    {
+      "index": "14",
+      "content": "Verification, validity, and ethics -Validation and sensitivity analysis -Relationship with real data -Policy applications and ethical issues",
+      "operation": "Lecture & Exercises",
+      "assignments": "Review Tasks",
+      "minutes": "60 220"
+    }
+  ],
+  "rawText": "金沢工業大学 学習支援計画書 D122-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Environmental Design and Innovation\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n社会シミュレーション\nSocial Simulation  2 D122-01  2026年度\n 2nd year 2nd semester  修学規程第4条を参照\n    担当教員名\n TAKECHI Shoji      *印は、実務経験のある教員を示しています。\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Social Systems 2.Mathematical Models 3.Monte Carlo Method 4.Agents 5.System Dynamics  In this course, students learn about mathematical modeling of social systems and simulation techniques. Students understand system dynamics and multi-agent models—representative mathematical models that incorporate interactions among people or between humans and the natural environment. Students also understand to acquire insights into the macroscopic characteristics and global behavior of economic, social, and environmental systems through simulations using these models.\n    授業の概要および学習上の助言   In this course, students study \"systems thinking\", which means an approach that focuses on the interactions among components of a system considered as a whole system. Students learn the basics of mathematical modeling and perform simulations using these models. Students break down a complex system into its components, analyze causal relationships, and use these relationships to understand changes in outcomes based on different parameter settings via simulation. Through simulation, students grasp real-world social phenomena and trends, forecast future conditions, and clarify what actions are necessary for building a better society. Advice for Students is as follows: 1. Maintain a habit of considering relationships among various things in daily life. 2. If you cannot understand something at once, ask questions and review the material. 3. Engage in hands-on simulation practice, and reflect critically on the results, for example, \"Does this match what I expected?\", \"How should I interpret this result?”\n    教科書および参考書・リザーブドブック   Textbook: None Reference Books: None Reserved Books: None\n    履修に必要な予備知識や技能   This course is designed so that no special prior knowledge is required. However, familiarity with computers is desirable. Basic mathematical knowledge, such as differential equations and linear algebra, will deepen your understanding of mathematical models and simulation techniques. Reference materials for mathematics will be introduced during class as needed.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① D Understand mathematical models involving population and competition dynamics .   ② D,F Implement simple mathematical models as simulation models.   ③ D,F Understand and perform simulations using system dynamics and multi-agent approaches.   ④ D,E Execute simulations, organize results, and create visualizations.   ⑤ D,G Interpret simulation results appropriately.   ⑥ D,G Consider methods for verifying simulation results.\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 0 0 60 20 0 0 20 100     指標と評価割合 総合評価割合 0 0 60 20 0 0 20 100   総合力指標 知識を取り込む力 0 0 60 20 0 0 20 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ①      ②     ③     ④     ⑤     ⑥     クイズ\n小テスト ①      ②     ③     ④     ⑤     ⑥     レポート ① レ Reports check understanding and achievement of course content.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥ レ   成果発表\n(口頭・実技) ① レ Presentations check understanding and achievement of course content.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥ レ   作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ① レ Participation and contribution during class are considered in the \"Other\" category.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥ レ\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     Students can derive mathematical models even for complex systems, implement simulation models, conduct parametric simulations, and explain param",
+  "sourceYear": "2026",
+  "originalSourceIndex": 194,
+  "courseId": "2026:fall:D118-01:0:13281",
+  "language": "en"
+}

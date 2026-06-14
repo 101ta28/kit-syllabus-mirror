@@ -1,57 +1,64 @@
 {
   "sourceIndex": 929,
   "sourceUrl": "/opsyllabus/kitos0110/929/0",
-  "importedAt": "2026-06-09T01:29:10.959Z",
-  "title": "国際教養理工学特別科目(PD Ⅰnnovation)(夏期集中講義)",
-  "subtitle": "PD Innovation",
-  "courseType": "(全課程からの提供)\nリベラルアーツ系科目\n文理横断",
-  "credits": "1",
-  "term": "2024年度\n 1期(前学期)",
+  "importedAt": "2026-06-12T07:59:14.088Z",
+  "title": "無機機能化学",
+  "subtitle": "Chemistry of Advanced Inorganic Materials",
+  "courseType": "専門教育課程\n専門コア科目\n専門コア",
+  "credits": "2",
+  "term": "2012年度\n 6期(後学期)",
   "method": "修学規程第4条を参照",
-  "teachers": [
-    "グエン ハン",
-    "鈴木 亮一"
-  ],
+  "teachers": [],
   "keywords": [
-    "Design project 2.Innovation 3.Value creation 4.Self-improvement 5.Collaboration and teamwork"
+    "セラミックス 2.金属と半導体 3.誘電体 4.磁性体 5.機械的物性"
   ],
-  "educationalGoal": "This course will provide learners the basic concept of innovation, and why we need innovation capacity as required in our future society. Students identify and solve problems or challenges in a logical, scientific, and creative way to commercialize a business idea. The course focuses on exploring how feasible the business idea can be.",
-  "advice": "In the course, students work in groups and individually, developing skills in teamwork to create value of creative ideas. 1. The five disciplines of innovation of Stanford Research Institute (SRI) will be utilized and demonstrated through the lessons. 2. The course uses the SRI's NABC framework (Needs - Approach - Benefits/Costs - Competition) as the backbone of the course in describing and expressing the value proposition of innovative business ideas. 3. The value of the innovation projects will be continuously added through the Value Creation Forum (VCF). 4. The propositions are also expressed through the Project Design Model Canvas (PDMC) to provide customers / stakeholders the best overview of the project.",
-  "books": "教科書:指定なし 参考書:指定なし リザーブドブック:指定なし",
-  "requiredKnowledge": "To be successful in the course, the learners are required: - to be positive and creative in the process of identifying and solving problems. - to be responsible and collaborative in completing all assignments in the team. - to have a positive mindset and a growth mindset in all activities to create new values for themselves and for community.",
+  "educationalGoal": "機能性無機材料には、セラミックス、ガラス、金属等がある。一部の無機材料は非常に有用 な特長的な機能を有しているが、これらの機能は、電気的性質,光学的性質,機械的性質, および電気化学的性質などから説明できることが多い。本講義では、実際の材料を例にとっ て、無機材料全般について総合力ラーニング方式を取り入れて学習する。",
+  "advice": "1.無機材料の歴史(セメントからインテリジェントマテリアルまで) 2.無機材料の電気的性質 3.無機材料の磁気的性質 4.無機材料の光学的性質 5.無機材料の機械的性質 5.無機材料の電気化学的性質",
+  "books": "教科書:E-コンシャス セラミックス材料[三共出版株式会社] 参考書:指定なし リザーブドブック:指定なし",
+  "requiredKnowledge": "専門基礎科目の無機化学、物質の状態の発展科目としての専門コア科目である。予備知識として無機化学・物理化学の知識が 必要となる。",
   "activityGoals": [
     {
       "index": "①",
-      "type": "G",
-      "body": "Form the basic concept of a creative project and develop it toward innovations."
+      "type": "M,P-S",
+      "body": "代表的な無機化合物の結晶構造を説明できる"
     },
     {
       "index": "②",
-      "type": "G",
-      "body": "Develop each learner's creative thinking based on their existing potentials (learned knowledge and skills)."
+      "type": "M,P-S",
+      "body": "無機材料の力学的性質の特徴とこれを応用した製品について説明することができる"
     },
     {
       "index": "③",
-      "type": "G",
-      "body": "Develop teamwork capacity to create new values."
+      "type": "M,P-S",
+      "body": "無機材料の熱的性質の特徴とこれを応用した製品について説明することができる"
     },
     {
       "index": "④",
-      "type": "G",
-      "body": "Develop other important skills/competencies, such as communication skills(speaking,writing,graphics,listening)."
+      "type": "M,P-S",
+      "body": "無機材料の光学的性質の特徴とこれを応用した製品について説明することができる"
+    },
+    {
+      "index": "⑤",
+      "type": "M,P-S",
+      "body": "無機材料の電気的性質の特徴とこれを応用した製品について説明することができる"
+    },
+    {
+      "index": "⑥",
+      "type": "M,P-S",
+      "body": "無機材料の磁気的性質の特徴とこれを応用した製品について説明することができる"
     }
   ],
   "evaluationWeights": [
     {
       "label": "総合評価割合",
       "values": [
-        "0",
-        "0",
         "40",
         "40",
+        "10",
         "0",
         "0",
-        "20",
+        "0",
+        "10",
         "100"
       ],
       "columns": [
@@ -68,13 +75,13 @@
     {
       "label": "指標と評価割合 / 総合評価割合",
       "values": [
-        "0",
-        "0",
         "40",
         "40",
+        "10",
         "0",
         "0",
-        "20",
+        "0",
+        "10",
         "100"
       ],
       "columns": [
@@ -90,6 +97,75 @@
     },
     {
       "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "20",
+        "20",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "40"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "20",
+        "20",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "40"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションと\nリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
       "values": [
         "0",
         "0",
@@ -110,134 +186,130 @@
         "その他",
         "合計"
       ]
-    },
-    {
-      "label": "思考・推論・創造する力",
-      "values": [
-        "0",
-        "0",
-        "10",
-        "10",
-        "0",
-        "0",
-        "0",
-        "20"
-      ],
-      "columns": [
-        "試験",
-        "クイズ 小テスト",
-        "レポート",
-        "成果発表 (口頭・実技)",
-        "作品",
-        "ポートフォリオ",
-        "その他",
-        "合計"
-      ]
-    },
-    {
-      "label": "コラボレーションと\nリーダーシップ",
-      "values": [
-        "0",
-        "0",
-        "10",
-        "10",
-        "0",
-        "0",
-        "10",
-        "30"
-      ],
-      "columns": [
-        "試験",
-        "クイズ 小テスト",
-        "レポート",
-        "成果発表 (口頭・実技)",
-        "作品",
-        "ポートフォリオ",
-        "その他",
-        "合計"
-      ]
-    },
-    {
-      "label": "発表・表現・伝達する力",
-      "values": [
-        "0",
-        "0",
-        "10",
-        "20",
-        "0",
-        "0",
-        "0",
-        "30"
-      ],
-      "columns": [
-        "試験",
-        "クイズ 小テスト",
-        "レポート",
-        "成果発表 (口頭・実技)",
-        "作品",
-        "ポートフォリオ",
-        "その他",
-        "合計"
-      ]
     }
   ],
   "achievementLevels": {
-    "ideal": "Understands well learning contents, and able to communic ate own ideas to others in group activities. Collaborate with team members to solve problems related to innovations and propose new customer values, as well as lead and organize a team.",
-    "standard": "Work hard on individual assignments, recognize their own role, and work with team members to solve problems and propose new customer values."
+    "ideal": "セラミックスを中心とする無機材料化学の入門分野について、 入社試験問題、公務員試験の化学の問題、大学院入試問題とし て一般に出題される問題を、参考書、辞典などを参照せずに解 くことができる。",
+    "standard": "セラミックスを中心とする無機材料化学の入門分野について、 入社試験問題、公務員試験の化学の問題、大学院入試問題とし て一般に出題される問題を、参考書、辞典などを参照しながら 十分に時間をかければ解くことができる。"
   },
   "clipProcess": "",
   "lessons": [
     {
-      "index": "1",
-      "content": "- Course introduction - Team organization - Introducing SRI's 5DOIs/ D3-4-5-1 - Mini-project - Why innovation - Identify the problem/ challenges",
-      "operation": "Lecture Discussion Presentation",
-      "assignments": "Personal and team activities Worksheets and reports",
-      "minutes": "100"
+      "index": "1-2",
+      "content": "人類と材料の関わり",
+      "operation": "講義と質疑",
+      "assignments": "あらかじめ教科書の該当箇所を読 み、演習問題を解答できるように 準備しておく",
+      "minutes": "180"
     },
     {
-      "index": "2",
-      "content": "- Survey the existing conditions and needs for solving the problem/ challenge - Propose the individual innovation",
-      "operation": "Lecture Discussion Presentation",
-      "assignments": "Personal and team activities Worksheets and reports",
-      "minutes": "100"
+      "index": "3-4",
+      "content": "材料物質の特性",
+      "operation": "講義と質疑",
+      "assignments": "あらかじめ教科書の該当箇所を読 み、演習問題を解答できるように 準備しておく",
+      "minutes": "180"
     },
     {
-      "index": "3",
-      "content": "D2: Value creation - Define customer value & value proposition (NABC) - Build NABC for innovation project - Elevator pitch and value creation forum (VCF) - Prepare VCF1",
-      "operation": "Lecture Discussion Presentation",
-      "assignments": "Personal and team activities Worksheets and reports",
-      "minutes": "100"
+      "index": "5-6",
+      "content": "固体化学の基礎(1)",
+      "operation": "講義と質疑",
+      "assignments": "あらかじめ教科書の該当箇所を読 み、演習問題を解答できるように 準備しておく",
+      "minutes": "180"
     },
     {
-      "index": "4",
-      "content": "- VCF1 - Business ecosystem",
-      "operation": "Lecture Discussion Presentation",
-      "assignments": "Personal and team activities Worksheets and reports",
-      "minutes": "100"
+      "index": "7-8",
+      "content": "固体化学の基礎(2)",
+      "operation": "講義と質疑",
+      "assignments": "あらかじめ教科書の該当箇所を読 み、演習問題を解答できるように 準備しておく",
+      "minutes": "180"
     },
     {
-      "index": "5",
-      "content": "- Business Model Canvas/ Lean Model Canvas - Evaluate business innovations (successful / failed) - SWOT analysis (strategies for developing the project) - Introduce Poster design templates",
-      "operation": "Lecture Discussion Presentation",
-      "assignments": "Personal and team activities Worksheets and reports",
-      "minutes": "100"
+      "index": "9-10",
+      "content": "セラミックスの特徴(1)",
+      "operation": "講義と質疑",
+      "assignments": "あらかじめ教科書の該当箇所を読 み、演習問題を解答できるように 準備しておく",
+      "minutes": "180"
     },
     {
-      "index": "6",
-      "content": "- Survey the experts' opinions for innovation feasibility - Revise the project - PD Model Canvas - Design the poster (VCF2)",
-      "operation": "Lecture Discussion Presentation",
-      "assignments": "Personal and team activities Worksheets and reports",
-      "minutes": "100"
+      "index": "11-12",
+      "content": "セラミックスの構造(1)",
+      "operation": "講義と質疑",
+      "assignments": "あらかじめ教科書の該当箇所を読 み、演習問題を解答できるように 準備しておく",
+      "minutes": "180"
     },
     {
-      "index": "7",
-      "content": "- Present the Poster (VCF2) - Course evaluation",
-      "operation": "Discussion Presentation Summary",
-      "assignments": "Personal and team activities Worksheets and reports",
-      "minutes": "100"
+      "index": "13-14",
+      "content": "セラミックスの構造(2)",
+      "operation": "講義と質疑",
+      "assignments": "あらかじめ教科書の該当箇所を読 み、演習問題を解答できるように 準備しておく",
+      "minutes": "180"
+    },
+    {
+      "index": "15-16",
+      "content": "セラミックスの構造(3)",
+      "operation": "講義と質疑",
+      "assignments": "あらかじめ教科書の該当箇所を読 み、演習問題を解答できるように 準備しておく",
+      "minutes": "180"
+    },
+    {
+      "index": "17-18",
+      "content": "セラミックスの製造(1)",
+      "operation": "講義と質疑",
+      "assignments": "あらかじめ教科書の該当箇所を読 み、演習問題を解答できるように 準備しておく",
+      "minutes": "180"
+    },
+    {
+      "index": "19-20",
+      "content": "セラミックスの製造(2)",
+      "operation": "講義と質疑",
+      "assignments": "あらかじめ教科書の該当箇所を読 み、演習問題を解答できるように 準備しておく",
+      "minutes": "180"
+    },
+    {
+      "index": "21-22",
+      "content": "汎用および高性能セラミックス材料",
+      "operation": "講義と質疑",
+      "assignments": "あらかじめ教科書の該当箇所を読 み、演習問題を解答できるように 準備しておく",
+      "minutes": "180"
+    },
+    {
+      "index": "23-24",
+      "content": "非酸化物セラミック",
+      "operation": "講義と質疑",
+      "assignments": "あらかじめ教科書の該当箇所を読 み、演習問題を解答できるように 準備しておく",
+      "minutes": "180"
+    },
+    {
+      "index": "25-26",
+      "content": "カーボン系セラミックス",
+      "operation": "講義と質疑",
+      "assignments": "あらかじめ教科書の該当箇所を読 み、演習問題を解答できるように 準備しておく",
+      "minutes": "180"
+    },
+    {
+      "index": "27-28",
+      "content": "環境・エネルギー・生命とセラミックス",
+      "operation": "講義と質疑",
+      "assignments": "あらかじめ教科書の該当箇所を読 み、演習問題を解答できるように 準備しておく",
+      "minutes": "180"
+    },
+    {
+      "index": "29-30",
+      "content": "試験",
+      "operation": "試験",
+      "assignments": "試験に備えての予習",
+      "minutes": "270"
+    },
+    {
+      "index": "31",
+      "content": "自己点検授業",
+      "operation": "",
+      "assignments": "",
+      "minutes": ""
     }
   ],
-  "rawText": "金沢工業大学 学習支援計画書 G556-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\n(全課程からの提供)\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     (全課程からの提供)\nリベラルアーツ系科目\n文理横断\n国際教養理工学特別科目(PD Ⅰnnovation)(夏期集中講義)\nPD Innovation  1 G556-01  2024年度\n 1期(前学期)  修学規程第4条を参照\n    担当教員名\n グエン ハン、鈴木 亮一\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Design project 2.Innovation 3.Value creation 4.Self-improvement 5.Collaboration and teamwork  This course will provide learners the basic concept of innovation, and why we need innovation capacity as required in our future society. Students identify and solve problems or challenges in a logical, scientific, and creative way to commercialize a business idea. The course focuses on exploring how feasible the business idea can be.\n    授業の概要および学習上の助言   In the course, students work in groups and individually, developing skills in teamwork to create value of creative ideas. 1. The five disciplines of innovation of Stanford Research Institute (SRI) will be utilized and demonstrated through the lessons. 2. The course uses the SRI's NABC framework (Needs - Approach - Benefits/Costs - Competition) as the backbone of the course in describing and expressing the value proposition of innovative business ideas. 3. The value of the innovation projects will be continuously added through the Value Creation Forum (VCF). 4. The propositions are also expressed through the Project Design Model Canvas (PDMC) to provide customers / stakeholders the best overview of the project.\n    教科書および参考書・リザーブドブック   教科書:指定なし 参考書:指定なし リザーブドブック:指定なし\n    履修に必要な予備知識や技能   To be successful in the course, the learners are required: - to be positive and creative in the process of identifying and solving problems. - to be responsible and collaborative in completing all assignments in the team. - to have a positive mindset and a growth mindset in all activities to create new values for themselves and for community.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① G Form the basic concept of a creative project and develop it toward innovations.   ② G Develop each learner's creative thinking based on their existing potentials (learned knowledge and skills).   ③ G Develop teamwork capacity to create new values.   ④ G Develop other important skills/competencies, such as communication skills(speaking,writing,graphics,listening).   ⑤     ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 0 0 40 40 0 0 20 100     指標と評価割合 総合評価割合 0 0 40 40 0 0 20 100   総合力指標 知識を取り込む力 0 0 10 0 0 0 0 10   思考・推論・創造する力 0 0 10 10 0 0 0 20   コラボレーションと\nリーダーシップ 0 0 10 10 0 0 10 30   発表・表現・伝達する力 0 0 10 20 0 0 0 30   学習に取組む姿勢・意欲 0 0 0 0 0 0 10 10    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ①      ②     ③     ④     ⑤     ⑥     クイズ\n小テスト ①      ②     ③     ④     ⑤     ⑥     レポート ① レ Completing the individual assignment and the team assignment. Worksheets, Poster design.   ② レ   ③ レ   ④ レ   ⑤     ⑥     成果発表\n(口頭・実技) ① レ Personal presentation and team presentation.   ② レ   ③ レ   ④ レ   ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ① レ Personal attitude and activity.   ② レ   ③ レ   ④ レ   ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     Understands well learning contents, and able to communic ate own ideas to others in group activities. Collaborate with team members to solve problems related to innovations and propose new customer values, as well as lead and organize a team. Work hard on individual assignments, recognize their own role, and work with team members to solve problems and propose new customer values.\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習課題に要する標準的な時間を記載してあります。日々の自学自習時間全体としては、各授業に応じた時間(例えば2単位科目の場合、予習2時間・復習2時間/週)を取るよう努めてください。詳しくは教員の指導に従って下さい。     授業明細   回数 学習内容 授業の運営方法 学習課題(予習・復習) ",
-  "courseId": "2024:spring:G556-01:0:929",
+  "rawText": "金沢工業大学 学習支援計画書 8342-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\n応用化学科\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     専門教育課程\n専門コア科目\n専門コア\n無機機能化学\nChemistry of Advanced Inorganic Materials  2 8342-01  2012年度\n 6期(後学期)  修学規程第4条を参照\n    担当教員名\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.セラミックス 2.金属と半導体 3.誘電体 4.磁性体 5.機械的物性  機能性無機材料には、セラミックス、ガラス、金属等がある。一部の無機材料は非常に有用 な特長的な機能を有しているが、これらの機能は、電気的性質,光学的性質,機械的性質, および電気化学的性質などから説明できることが多い。本講義では、実際の材料を例にとっ て、無機材料全般について総合力ラーニング方式を取り入れて学習する。\n    授業の概要および学習上の助言   1.無機材料の歴史(セメントからインテリジェントマテリアルまで) 2.無機材料の電気的性質 3.無機材料の磁気的性質 4.無機材料の光学的性質 5.無機材料の機械的性質 5.無機材料の電気化学的性質\n    教科書および参考書・リザーブドブック   教科書:E-コンシャス セラミックス材料[三共出版株式会社] 参考書:指定なし リザーブドブック:指定なし\n    履修に必要な予備知識や技能   専門基礎科目の無機化学、物質の状態の発展科目としての専門コア科目である。予備知識として無機化学・物理化学の知識が 必要となる。\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① M,P-S 代表的な無機化合物の結晶構造を説明できる   ② M,P-S 無機材料の力学的性質の特徴とこれを応用した製品について説明することができる   ③ M,P-S 無機材料の熱的性質の特徴とこれを応用した製品について説明することができる   ④ M,P-S 無機材料の光学的性質の特徴とこれを応用した製品について説明することができる   ⑤ M,P-S 無機材料の電気的性質の特徴とこれを応用した製品について説明することができる   ⑥ M,P-S 無機材料の磁気的性質の特徴とこれを応用した製品について説明することができる\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 40 40 10 0 0 0 10 100     指標と評価割合 総合評価割合 40 40 10 0 0 0 10 100   総合力指標 知識を取り込む力 20 20 0 0 0 0 0 40   思考・推論・創造する力 20 20 0 0 0 0 0 40   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 10 0 0 0 0 10   学習に取組む姿勢・意欲 0 0 0 0 0 0 10 10    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ 最終週に実施する。時間は60分で、6つの行動目標に沿った内容で出題する。行動目標が達成できてい るかが確認できる論述問題、計算問題を中心に出題する。専門的な知識を自分のものとして活用できるか が重要なので、教科書、参考書などの持込は不可とする。内容は講義、2回実施した小テストに準じて出 題する。   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥ レ   クイズ\n小テスト ① レ 小テストは原則として2回実施する。それまでの講義内容を出題範囲とし、理解度を確認する。普段から 学習習慣を付けるために、毎日の復習時間は2時間を目安にして欲しい。   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥ レ   レポート ① レ 時間があれば総合力ラーニング方式により発表してもらう。   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥ レ   成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ① レ 質疑の態度、出欠状況などを考慮する。   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥ レ\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     セラミックスを中心とする無機材料化学の入門分野について、 入社試験問題、公務員試験の化学の問題、大学院入試問題とし て一般に出題される問題を、参考書、辞典などを参照せずに解 くことができる。 セラミックスを中心とする無機材料化学の入門分野について、 入社試験問題、公務員試験の化学の問題、大学院入試問題とし て一般に出題される問題を、参考書、辞典などを参照しながら 十分に時間をかければ解くことができる。\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習課題に要する標準的な時間を記載してあります。日々の自学自習時間全体としては、各授業に応じた時間(例えば2単位科目の場合、予習2時間・復習2時間/週)を取るよう努めてください。詳しくは教員の指導に従って下さい。     授業明細   回数 学習内容 授業の運営方法 学習課題(予習・復習) 時間:分※     1-2  人類と材料の関わり 講義と質疑 あらかじめ教科書の該当箇所を読 み、演習問題を解答できるように 準備しておく  180   3-4  材料物質の特性 講義と質疑 あらかじめ教科書の該当箇所を読 み、演習問題を解答できるように 準備しておく  180   5-6  固体化学の基礎(1) 講義と質疑 あらかじめ教科書の該当箇所を読 み、演習問題を解答できるように 準備しておく  180   7-8  固体化学の基礎(2) 講義と質疑 あらかじめ教科書の該当箇所を読 み、演習問題を解答できるように 準備しておく  180   9-10  セラミックスの特徴(1) 講義と質疑 あらかじめ教科書の該当箇所を読 み、演習問題を解答できるように 準備しておく  180   11-12  セラミックスの構造(1) 講義と質疑 あらかじめ教科書の該当箇所を読 み、演習問題を解答できるように 準備しておく  180   13-14  セラミックスの構造(2) 講義と質疑 あらかじめ教科書の該当箇所を読 み、演習問題を解答できるように 準備しておく  180   15-16  セラミックスの構造(3) 講義と質疑 あらかじめ教科書の該当箇所を読 み、演習問題を解答できるように 準備しておく  180   17-18  セラミックスの製造(1) 講義と質疑 あらかじめ教科書の該当箇所を読 み、演習問題を解答できるように 準備しておく  180   19-20  セラミックスの製造(2) 講義と質疑 あらかじめ教科書の該当箇所を読 み、演習問題を解答できるように 準備しておく  180   21-22  汎用および高性能セラミックス材料 講義と質疑 あらかじめ教科書の該当箇所を読 み、演習問題を解答できるように 準備しておく  180   23-24  非酸化物セラミック 講義と質疑 あらかじめ教科書の該当箇所を読 み、演習問題を解答できるように 準備しておく  180   25-26  カーボン系セラミックス 講義と質疑 あらかじめ教科書の該当箇所を読 み、演習問題を解答できるように 準備しておく  180   27-28  環境・エネルギー・生命とセラミックス 講義と質疑 あらかじめ教科書の該当箇所を読 み、演習問題を解答できるように 準備しておく  180   29-30  試験 試験 試験に備えての予習  270   31  自己点検授業",
+  "sourceYear": "2012",
+  "originalSourceIndex": 929,
+  "courseId": "2012:fall:8342-01:0:929",
   "language": "ja"
 }

@@ -1,0 +1,306 @@
+{
+  "sourceIndex": 13680,
+  "sourceUrl": "/opsyllabus/kitos0110/593/1",
+  "importedAt": "2026-06-12T08:03:08.952Z",
+  "title": "離散数学",
+  "subtitle": "Discrete Mathematics",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "2",
+  "term": "2026年度\n 1st year 2nd semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "KINDO Toshiki",
+    "NINAGAWA Shigeru"
+  ],
+  "keywords": [
+    "Set and logic 2.Relation and mapping 3.Algebraic system"
+  ],
+  "educationalGoal": "Following the recent progress in information technology demands a knowledge of mathematics. Discrete mathematics is an essential part of mathematics necessary for developing information technology. The subjects dealt with in this course are required in succeeding courses.",
+  "advice": "In this course, we learn the following topics: 1. Sets and their operations 2. Propositional logic 3. Predicate and quantifier 4. Mathematical induction 5. Relation 6. Equivalence class 7. Mapping 8. Semigroup 9. Group 10. Modulo arithmetics and residue class 11. Ring 12. Field Since all topics are abstract, students are strongly recommended to solve the exercises by themselves.",
+  "books": "やさしく学べる離散数学,石村園子,共立出版",
+  "requiredKnowledge": "There are no prerequisites. If students encounter something they cannot understand, they will be expected to resolve it by utilizing office hours.",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "M",
+      "body": "Be able to obtain the truth value of a formula in propositional logic."
+    },
+    {
+      "index": "②",
+      "type": "M",
+      "body": "Be able to classify elements according to the equivalence class."
+    },
+    {
+      "index": "③",
+      "type": "M",
+      "body": "Be able to perform modulo arithmetic."
+    },
+    {
+      "index": "④",
+      "type": "M",
+      "body": "Be able to explain isomorphism of groups."
+    },
+    {
+      "index": "⑤",
+      "type": "M",
+      "body": "Be able to perform arithmetic operations of polynomials over a field."
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "40",
+        "60",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "40",
+        "60",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "40",
+        "60",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションと\nリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "Be able to apply knowledge of discrete mathematics to solving practical problems.",
+    "standard": "Be able to understand the notions and terms used in discrete mathematics."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Outline of the course Sets and their operations",
+      "operation": "Lecture Q&A self-check",
+      "assignments": "Preview: Sets and their operations Review: Sets and their operations",
+      "minutes": "40"
+    },
+    {
+      "index": "2",
+      "content": "Proposition and logical connectives",
+      "operation": "Lecture Q&A self-check",
+      "assignments": "Preview: Proposition and logical connectives Review: Proposition and logical connectives",
+      "minutes": "60 60"
+    },
+    {
+      "index": "3",
+      "content": "Mathematical induction",
+      "operation": "Lecture Q&A self-check",
+      "assignments": "Preview: Mathematical induction Review: Mathematical induction",
+      "minutes": "60 60"
+    },
+    {
+      "index": "4",
+      "content": "Direct product Relation",
+      "operation": "Lecture Q&A self-check",
+      "assignments": "Preview: Direct product, relation Review: Direct product, relation",
+      "minutes": "60 60"
+    },
+    {
+      "index": "5",
+      "content": "Equivalence class",
+      "operation": "Lecture Q&A self-check",
+      "assignments": "Preview: Equivalence class Review: Equivalence class",
+      "minutes": "60 60"
+    },
+    {
+      "index": "6",
+      "content": "Mapping Mid-term review",
+      "operation": "Lecture Q&A self-check",
+      "assignments": "Preview: Mapping Review: Mapping",
+      "minutes": "60 60"
+    },
+    {
+      "index": "7",
+      "content": "Binary operation Algebraic system",
+      "operation": "Lecture Q&A self-check",
+      "assignments": "Preview: Binary operation, algebraic system Review: Binary operation, algebraic system",
+      "minutes": "60 60"
+    },
+    {
+      "index": "8",
+      "content": "Commutative law and associative law Identity element and inverse element",
+      "operation": "Lecture Q&A self-check",
+      "assignments": "Preview: Commutative law and associative law Review: Identity element and inverse element",
+      "minutes": "60 60"
+    },
+    {
+      "index": "9",
+      "content": "Semigroup and group",
+      "operation": "Lecture Q&A self-check",
+      "assignments": "Preview: Semigroup and group Review: Semigroup and group",
+      "minutes": "60 60"
+    },
+    {
+      "index": "10",
+      "content": "Isomorphism",
+      "operation": "Lecture Q&A self-check",
+      "assignments": "Preview: Isomorphism Review: Isomorphism",
+      "minutes": "60 60"
+    },
+    {
+      "index": "11",
+      "content": "Subgroup and symmetric group",
+      "operation": "Lecture Q&A self-check",
+      "assignments": "Preview: Subgroup and symmetric group Review: Subgroup and symmetric group",
+      "minutes": "60 60"
+    },
+    {
+      "index": "12",
+      "content": "Ring and field",
+      "operation": "Lecture Q&A self-check",
+      "assignments": "Preview: Ring and field Review: Ring and field",
+      "minutes": "60 60"
+    },
+    {
+      "index": "13",
+      "content": "Polynomial on field",
+      "operation": "Lecture Q&A self-check",
+      "assignments": "Preview: Polynomial on field Review: Polynomial on field",
+      "minutes": "60 60"
+    },
+    {
+      "index": "14",
+      "content": "Review Examination",
+      "operation": "Lecture Q&A self-check",
+      "assignments": "Preview: All topics",
+      "minutes": "120"
+    },
+    {
+      "index": "15",
+      "content": "Review Self-check",
+      "operation": "Lecture Q&A self-check",
+      "assignments": "Review: Self-check",
+      "minutes": "40"
+    }
+  ],
+  "rawText": "金沢工業大学 学習支援計画書 C004-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Information and Computer Science\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n離散数学\nDiscrete Mathematics  2 C004-01  2026年度\n 1st year 2nd semester  修学規程第4条を参照\n    担当教員名\n KINDO Toshiki, NINAGAWA Shigeru      *印は、実務経験のある教員を示しています。\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Set and logic 2.Relation and mapping 3.Algebraic system  Following the recent progress in information technology demands a knowledge of mathematics. Discrete mathematics is an essential part of mathematics necessary for developing information technology. The subjects dealt with in this course are required in succeeding courses.\n    授業の概要および学習上の助言   In this course, we learn the following topics: 1. Sets and their operations 2. Propositional logic 3. Predicate and quantifier 4. Mathematical induction 5. Relation 6. Equivalence class 7. Mapping 8. Semigroup 9. Group 10. Modulo arithmetics and residue class 11. Ring 12. Field Since all topics are abstract, students are strongly recommended to solve the exercises by themselves.\n    教科書および参考書・リザーブドブック   やさしく学べる離散数学,石村園子,共立出版\n    履修に必要な予備知識や技能   There are no prerequisites. If students encounter something they cannot understand, they will be expected to resolve it by utilizing office hours.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① M Be able to obtain the truth value of a formula in propositional logic.   ② M Be able to classify elements according to the equivalence class.   ③ M Be able to perform modulo arithmetic.   ④ M Be able to explain isomorphism of groups.   ⑤ M Be able to perform arithmetic operations of polynomials over a field.   ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 40 60 0 0 0 0 0 100     指標と評価割合 総合評価割合 40 60 0 0 0 0 0 100   総合力指標 知識を取り込む力 40 60 0 0 0 0 0 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ Exams will be held at the end of the semester. The exam scope will be announced in the class.    ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     クイズ\n小テスト ① レ Quizzes will be given intermittently but announced in advance. The scope will be announced in the class.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     レポート ①      ②     ③     ④     ⑤     ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ①      ②     ③     ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     Be able to apply knowledge of discrete mathematics to solving practical problems. Be able to understand the notions and terms used in discrete mathematics.\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習課題に要する標準的な時間を記載してあります。日々の自学自習時間全体としては、各授業に応じた時間(例えば2単位科目の場合、予習2時間・復習2時間/週)を取るよう努めてください。詳しくは教員の指導に従って下さい。     授業明細   回数 学習内容 授業の運営方法 学習課題(予習・復習) 時間:分※     1  Outline of the course Sets and their operations Lecture Q&A self-check Preview: Sets and their operations Review: Sets and their operations  40   2  Proposition and logical connectives Lecture Q&A self-check Preview: Proposition and logical connectives Review: Proposition and logical connectives  60 60   3  Mathematical induction Lecture Q&A self-check Preview: Mathematical induction Review: Mathematical induction  60 60   4  Direct product Relation Lecture Q&A self-check Preview: Direct product, relation Review: Direct product, relation  60 60   5  Equivalence class Lecture Q&A self-check Preview: Equivalence class Review: Equivalence class  60 60   6  Mapping Mid-term review Lecture Q&A self-check Preview: Mapping Review: Mapping  60 60   7  Binary operation Algebraic system Lecture Q&A self-check Preview: Binary ",
+  "sourceYear": "2026",
+  "originalSourceIndex": 593,
+  "courseId": "2026:fall:C008-01:0:13680",
+  "language": "en"
+}

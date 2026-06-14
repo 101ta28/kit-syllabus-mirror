@@ -1,0 +1,305 @@
+{
+  "sourceIndex": 9557,
+  "sourceUrl": "/opsyllabus/kitos0110/300/1",
+  "importedAt": "2026-06-12T08:01:54.860Z",
+  "title": "制御工学Ⅱ",
+  "subtitle": "Control Engineering II",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "2",
+  "term": "2022年度\n 3rd year 1st semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "SUZUKI Ryoichi"
+  ],
+  "keywords": [
+    "Stability criteria 2.Gain and phase margin 3.PID control 4.State space representation 5.Behavior of dynamic system"
+  ],
+  "educationalGoal": "(1) Learn the stability and control performance of dynamic systems and learn proportional integral derivative (PID) control. (2) Learn the state space representation, state transition matrix, and behavior of dynamic systems. (3) Acquire basic knowledge for state feedback control. (4) Acquire basic knowledge and skills for control system design and analysis.",
+  "advice": "This is another basic course in control engineering that follows completion of Control Engineering I. Students are expected to actively participate in class reviews of basic mathematics (e.g., differential equations and linear algebra). Students are expected to complete exercises independently and to identify their own abilities. Students will acquire basic knowledge and skills to control robotic and mechatronic systems.",
+  "books": "",
+  "requiredKnowledge": "Completion of Mathematics for Robotics I and Control Engineering I. Sufficient mathematical skill (differentials, integrals, differential equations, and linear algebra).",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "I",
+      "body": "Apply knowledge of differential equations and linear algebra to the design and analysis of dynamic systems."
+    },
+    {
+      "index": "②",
+      "type": "I",
+      "body": "Calculate gain and phase margins, and determine the stability of systems."
+    },
+    {
+      "index": "③",
+      "type": "I",
+      "body": "Understand PID control and apply this control method to systems."
+    },
+    {
+      "index": "④",
+      "type": "I,K",
+      "body": "Understand state space representation and obtain a mathematical model using this representation."
+    },
+    {
+      "index": "⑤",
+      "type": "I,K",
+      "body": "Understand the behavior of dynamic systems and perform design and analysis to control objects."
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "40",
+        "40",
+        "20",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "40",
+        "40",
+        "20",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "40",
+        "40",
+        "20",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションと\nリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "(1) Obtain a state space model for a dynamic system. (2) Analyze the behavior of dynamic systems. (3) Design a control system that operates with state feedback.",
+    "standard": "(1) Understand a state space model for a dynamic system. (2) Understand the behavior of the system. (3) Understand state feedback control of a system with stability."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Course introduction Review of Mathematics for Robotics I and Control Engineering I",
+      "operation": "Lecture (including Q&A) and exercises",
+      "assignments": "Review previous basic math and control engineering courses.",
+      "minutes": "90"
+    },
+    {
+      "index": "2",
+      "content": "Stability Stability criteria I",
+      "operation": "Lecture (including Q&A) and exercises",
+      "assignments": "Review Control Engineering I",
+      "minutes": "60"
+    },
+    {
+      "index": "3",
+      "content": "Stability Stability criteria II",
+      "operation": "Lecture (including Q&A) and exercises",
+      "assignments": "Review Control Engineering I",
+      "minutes": "60"
+    },
+    {
+      "index": "4",
+      "content": "Control performance Gain margin and phase margin I",
+      "operation": "Lecture (including Q&A) and exercises",
+      "assignments": "Review Control Engineering I Frequency response",
+      "minutes": "60"
+    },
+    {
+      "index": "5",
+      "content": "Control performance Gain margin and phase margin II",
+      "operation": "Lecture (including Q&A) and exercises",
+      "assignments": "Review Control Engineering I Frequency response",
+      "minutes": "60"
+    },
+    {
+      "index": "6",
+      "content": "PID control I",
+      "operation": "Lecture (including Q&A) and exercises",
+      "assignments": "Read the PID control section of the textbook",
+      "minutes": "60"
+    },
+    {
+      "index": "7",
+      "content": "PID control II",
+      "operation": "Lecture (including Q&A) and exercises",
+      "assignments": "Read the PID control section of the textbook",
+      "minutes": "60"
+    },
+    {
+      "index": "8",
+      "content": "Summary Midterm exam",
+      "operation": "Test Self-check",
+      "assignments": "Review the content of classes 1-7",
+      "minutes": "!!!"
+    },
+    {
+      "index": "9",
+      "content": "Representation of dynamical system Differential equation State space representation",
+      "operation": "Lecture (including Q&A) and exercises Self-check of the exam",
+      "assignments": "Review differential equations",
+      "minutes": "60"
+    },
+    {
+      "index": "10",
+      "content": "Representation of dynamical system State space representation Equivalent system",
+      "operation": "Lecture (including Q&A) and exercises",
+      "assignments": "Review the content of class 10",
+      "minutes": "60"
+    },
+    {
+      "index": "11",
+      "content": "Solution of differential equations Solution of autonomous system State transfer function",
+      "operation": "Lecture (including Q&A) and exercises",
+      "assignments": "Review the content of class 11",
+      "minutes": "60"
+    },
+    {
+      "index": "12",
+      "content": "Solution of differential equations Solution of dynamical system Transfer function",
+      "operation": "Lecture (including Q&A) and exercises",
+      "assignments": "Review the content of class 12",
+      "minutes": "60"
+    },
+    {
+      "index": "13",
+      "content": "Behavior of dynamical systems Impulse response and step response State feedback",
+      "operation": "Lecture (including Q&A) and exercises",
+      "assignments": "Review the content of class 13",
+      "minutes": "60"
+    },
+    {
+      "index": "14",
+      "content": "Summary Final exam",
+      "operation": "Test Self-check",
+      "assignments": "Review the content of classes 1-13 Prepare for the exam",
+      "minutes": "!!!"
+    },
+    {
+      "index": "15",
+      "content": "Review of course and final exam",
+      "operation": "Lecture (including Q&A) Self-check of the exam",
+      "assignments": "",
+      "minutes": ""
+    }
+  ],
+  "rawText": "金沢工業大学 学習支援計画書 E225-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Robotics\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n制御工学Ⅱ\nControl Engineering II  2 E225-01  2022年度\n 3rd year 1st semester  修学規程第4条を参照\n    担当教員名\n SUZUKI Ryoichi\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Stability criteria 2.Gain and phase margin 3.PID control 4.State space representation 5.Behavior of dynamic system  (1) Learn the stability and control performance of dynamic systems and learn proportional integral derivative (PID) control. (2) Learn the state space representation, state transition matrix, and behavior of dynamic systems. (3) Acquire basic knowledge for state feedback control. (4) Acquire basic knowledge and skills for control system design and analysis.\n    授業の概要および学習上の助言   This is another basic course in control engineering that follows completion of Control Engineering I. Students are expected to actively participate in class reviews of basic mathematics (e.g., differential equations and linear algebra). Students are expected to complete exercises independently and to identify their own abilities. Students will acquire basic knowledge and skills to control robotic and mechatronic systems.\n    教科書および参考書・リザーブドブック\n    履修に必要な予備知識や技能   Completion of Mathematics for Robotics I and Control Engineering I. Sufficient mathematical skill (differentials, integrals, differential equations, and linear algebra).\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① I Apply knowledge of differential equations and linear algebra to the design and analysis of dynamic systems.   ② I Calculate gain and phase margins, and determine the stability of systems.   ③ I Understand PID control and apply this control method to systems.   ④ I,K Understand state space representation and obtain a mathematical model using this representation.   ⑤ I,K Understand the behavior of dynamic systems and perform design and analysis to control objects.   ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 40 40 20 0 0 0 0 100     指標と評価割合 総合評価割合 40 40 20 0 0 0 0 100   総合力指標 知識を取り込む力 40 40 20 0 0 0 0 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ A semester final examination is given, as specified in the course schedule, to evaluate your degree of achievement comprehensively.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     クイズ\n小テスト ① レ A midterm test is given, as specified in the course schedule, to evaluate your degree of achievement until that point.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     レポート ① レ Students will prepare four or five reports for evaluation.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ①      ②     ③     ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     (1) Obtain a state space model for a dynamic system. (2) Analyze the behavior of dynamic systems. (3) Design a control system that operates with state feedback.  (1) Understand a state space model for a dynamic system. (2) Understand the behavior of the system. (3) Understand state feedback control of a system with stability.\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習課題に要する標準的な時間を記載してあります。日々の自学自習時間全体としては、各授業に応じた時間(例えば2単位科目の場合、予習2時間・復習2時間/週)を取るよう努めてください。詳しくは教員の指導に従って下さい。     授業明細   回数 学習内容 授業の運営方法 学習課題(予習・復習) 時間:分※     1  Course introduction Review of Mathematics for Robotics I and Control Engineering I  Lecture (including Q&A) and exercises Review previous basic math and control engineering courses.  90   2  Stability Stability criteria I Lecture (including Q&A) and exercises Rev",
+  "sourceYear": "2022",
+  "originalSourceIndex": 300,
+  "courseId": "2022:full-year:E922-06:0:9557",
+  "language": "en"
+}

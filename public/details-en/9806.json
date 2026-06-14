@@ -1,0 +1,300 @@
+{
+  "sourceIndex": 9806,
+  "sourceUrl": "/opsyllabus/kitos0110/549/1",
+  "importedAt": "2026-06-12T08:01:56.449Z",
+  "title": "モバイルアプリケーション",
+  "subtitle": "Mobile Application",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "2",
+  "term": "2022年度\n 3rd year 2nd semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "NAKAZAWA Kenji"
+  ],
+  "keywords": [
+    "JavaScript 2.HTML/CSS 3.Web browser 4.Smartphone 5.Regional contribution"
+  ],
+  "educationalGoal": "In this course, students will learn how to develop graphical interactive Web applications for mobile devices such as smartphones and tablets using HTML/CSS/JavaScript.",
+  "advice": "In this course, students will develop applications on the client side of the Web using JavaScript. As basic knowledge, it is assumed that students have acquired the HTML/CSS webpage creation method that was taught in the first-year “Web Design” class. In this class, students will learn basic application development methods using JavaScript through exercises and assignments. As an overall assignment, teams will be formed to address themes related to community contributions. Therefore, students are expected and encouraged to collect information about the region and try to extract relevant issues on a continuing basis.",
+  "books": "",
+  "requiredKnowledge": "Students are expected to have basic knowledge of object-oriented languages and HTML/CSS. In addition, students will need to install the Google Chrome browser on their laptop in order to use the features of Google Chrome developer tools.",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "I,K,L,M,N",
+      "body": "Be able to understand and explain basic JavaScript code."
+    },
+    {
+      "index": "②",
+      "type": "I,K,L,M,N",
+      "body": "Be able to utilize basic technologies such as event processing and Canvas drawing."
+    },
+    {
+      "index": "③",
+      "type": "I,K,L,M,N",
+      "body": "Be able to design and develop graphical applications that are intended for mobile use."
+    },
+    {
+      "index": "④",
+      "type": "I,K,L,M,N",
+      "body": "Be able to design and develop applications using functions specific to mobile devices such as GPS and sensors"
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "20",
+        "0",
+        "20",
+        "0",
+        "40",
+        "0",
+        "20",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "20",
+        "0",
+        "20",
+        "0",
+        "40",
+        "0",
+        "20",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "20",
+        "0",
+        "20",
+        "0",
+        "40",
+        "0",
+        "20",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションと\nリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "Students are required to achieve an overall goal of 90% or higher of the target values.",
+    "standard": "Students are required to achieve an overall goal of 70% of the target values."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Course introduction HTML/CSS/JavaScript Development of environment construction How to write and run programs",
+      "operation": "Lecture and practice",
+      "assignments": "Review of today's lecture Prepare for the next lecture",
+      "minutes": "60"
+    },
+    {
+      "index": "2",
+      "content": "Object/array/function basics Expressions and operators",
+      "operation": "Lecture and practice",
+      "assignments": "Review of today's lecture Prepare for the next lecture",
+      "minutes": "90"
+    },
+    {
+      "index": "3",
+      "content": "Web browser input/output Web browser object",
+      "operation": "Lecture and practice",
+      "assignments": "Review of today's lecture Prepare for the next lecture",
+      "minutes": ""
+    },
+    {
+      "index": "4",
+      "content": "Document control Event processing",
+      "operation": "Lecture and practice",
+      "assignments": "Review of today's lecture Prepare for the next lecture",
+      "minutes": "90"
+    },
+    {
+      "index": "5",
+      "content": "Canvas API",
+      "operation": "Lecture and practice",
+      "assignments": "Review of today's lecture Prepare for the next lecture",
+      "minutes": "90"
+    },
+    {
+      "index": "6",
+      "content": "Object Application using tilt sensor",
+      "operation": "Lecture and practice",
+      "assignments": "Review of today's lecture Prepare for the next lecture",
+      "minutes": "90"
+    },
+    {
+      "index": "7",
+      "content": "Application using location information and map API",
+      "operation": "Lecture and practice",
+      "assignments": "Review of today's lecture Prepare for the next lecture",
+      "minutes": "90"
+    },
+    {
+      "index": "8",
+      "content": "Audio/Video Applications using cameras Asynchronous processing",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Review of today's lecture Prepare for the next lecture",
+      "minutes": "90"
+    },
+    {
+      "index": "9",
+      "content": "Responsive Web design",
+      "operation": "Lecture and practice",
+      "assignments": "Prepare for the overall assignment",
+      "minutes": "90"
+    },
+    {
+      "index": "10",
+      "content": "Native app development Organize groups",
+      "operation": "Practice Self-check",
+      "assignments": "Create original product",
+      "minutes": "120"
+    },
+    {
+      "index": "11",
+      "content": "Group work production practice",
+      "operation": "Practice",
+      "assignments": "Create original product",
+      "minutes": "120"
+    },
+    {
+      "index": "12",
+      "content": "Group work production practice",
+      "operation": "Practice",
+      "assignments": "Create original product Prepare for the presentation and the group assignment",
+      "minutes": "120"
+    },
+    {
+      "index": "13",
+      "content": "Presentation of production",
+      "operation": "Presentation and discussion",
+      "assignments": "Review of own team's work Prepare for the personal assignment",
+      "minutes": "60"
+    },
+    {
+      "index": "14",
+      "content": "Presentation of production",
+      "operation": "Presentation and discussion",
+      "assignments": "Review of own team's work",
+      "minutes": "60"
+    },
+    {
+      "index": "15",
+      "content": "Review Evolutionary learning",
+      "operation": "Review Lecture Self-evaluation",
+      "assignments": "Review",
+      "minutes": "30"
+    }
+  ],
+  "rawText": "金沢工業大学 学習支援計画書 F028-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Media Informatics\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\nモバイルアプリケーション\nMobile Application  2 F028-01  2022年度\n 3rd year 2nd semester  修学規程第4条を参照\n    担当教員名\n NAKAZAWA Kenji\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.JavaScript 2.HTML/CSS 3.Web browser 4.Smartphone 5.Regional contribution  In this course, students will learn how to develop graphical interactive Web applications for mobile devices such as smartphones and tablets using HTML/CSS/JavaScript.\n    授業の概要および学習上の助言   In this course, students will develop applications on the client side of the Web using JavaScript. As basic knowledge, it is assumed that students have acquired the HTML/CSS webpage creation method that was taught in the first-year “Web Design” class. In this class, students will learn basic application development methods using JavaScript through exercises and assignments. As an overall assignment, teams will be formed to address themes related to community contributions. Therefore, students are expected and encouraged to collect information about the region and try to extract relevant issues on a continuing basis.\n    教科書および参考書・リザーブドブック\n    履修に必要な予備知識や技能   Students are expected to have basic knowledge of object-oriented languages and HTML/CSS. In addition, students will need to install the Google Chrome browser on their laptop in order to use the features of Google Chrome developer tools.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① I,K,L,M,N Be able to understand and explain basic JavaScript code.   ② I,K,L,M,N Be able to utilize basic technologies such as event processing and Canvas drawing.    ③ I,K,L,M,N Be able to design and develop graphical applications that are intended for mobile use.    ④ I,K,L,M,N Be able to design and develop applications using functions specific to mobile devices such as GPS and sensors   ⑤     ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 20 0 20 0 40 0 20 100     指標と評価割合 総合評価割合 20 0 20 0 40 0 20 100   総合力指標 知識を取り込む力 20 0 20 0 40 0 20 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ Students will be evaluated as to whether they have basic knowledge of JavaScript, Canvas drawing, event processing, and basic knowledge of application creation using sensors and location information.   ② レ   ③     ④     ⑤     ⑥     クイズ\n小テスト ①      ②     ③     ④     ⑤     ⑥     レポート ① レ Students will be evaluated the work reports produced in the mid-term assignment. The evaluation will consider whether the devised points have been clarified, and whether the contents have been adequately explained from both technology and expression viewpoints.   ② レ   ③ レ   ④ レ   ⑤     ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ① レ Students will organize into groups and use the knowledge and techniques learned in class to develop applications related to community contributions. Based on the produced products, reports, and announcements, students will be evaluated on the basic and applied skills. In addition, students will be evaluated on their individual contributions within the group.    ② レ   ③ レ   ④ レ   ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ① レ Students will be evaluated on attitudes and motivation (attitudes, punctuality, attendance, etc.)   ② レ   ③ レ   ④ レ   ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     Students are required to achieve an overall goal of 90% or higher of the target values. Students are required to achieve an overall goal of 70% of the target values.\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定さ",
+  "sourceYear": "2022",
+  "originalSourceIndex": 549,
+  "courseId": "2022:full-year:E928-09:0:9806",
+  "language": "en"
+}

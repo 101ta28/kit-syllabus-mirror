@@ -1,0 +1,298 @@
+{
+  "sourceIndex": 7799,
+  "sourceUrl": "/opsyllabus/kitos0110/302/1",
+  "importedAt": "2026-06-12T08:01:14.698Z",
+  "title": "半導体工学",
+  "subtitle": "Semiconductor Engineering",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "2",
+  "term": "2020年度\n 3rd year 1st semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [],
+  "keywords": [
+    "Semiconductor properties 2.PN junction 3.Schottky contact 4.Diode 5.Transistor"
+  ],
+  "educationalGoal": "Student will: (1) learn semiconductors properties in order to understand the operation mechanism of semiconductor devices.(2) learn pn junctions and metal-semiconductor contacts using the energy band theory studied on “Physical Electronics”. Those are basics on various devices. (3) learn structures and operation mechanism of various diodes, bipolar transistor (PNP , NPN), and field effective transistor (FET).",
+  "advice": "Using knowledge of the energy band theory and semiconductor fundamental properties studied on “Physical Electronics”, students will learn another aspects of semiconductor fundamental properties and operation mechanism and characteristics of pn junctions, metal-semiconductors contacts, bipolar transistor and field effective transistor. Contents are following; [A] Fundamental properties of semiconductors 1. Density of states and Distribution function 2. Carrier density of impurity semiconductor 3. Drift current and diffusion current [B] Diodes 4. pn junction diode, its I-V characteristics, C-V characteristics, breakdown phenomena 5. MS(metal-semiconductor) contact and Schottky barrier diode [C] Transistors 6. Bipolar junction transistor, its operation mechanism, characteristics 7. MOS (metal-oxide-semiconductor), its structure and properties 8. MOS-FET (field effective transistor), its structure, operation mechanism, characteristics",
+  "books": "Textbooks: Reference books:",
+  "requiredKnowledge": "Understanding and knowledge of “Electronic Engineering” and “Physical Electronics. Mathematics, especially differential equation in order to derive equations of device characteristics, and basic physics of motion equations.",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "J,L",
+      "body": "Be able to explain drift current and diffusion current, quantitatively."
+    },
+    {
+      "index": "②",
+      "type": "J,L",
+      "body": "Be able to explain drift current and diffusion current, quantitatively."
+    },
+    {
+      "index": "③",
+      "type": "J,L",
+      "body": "Be able to explain operation mechanism of pn junction diode and Schottky diode, able to derive I-V, C-V equation"
+    },
+    {
+      "index": "④",
+      "type": "J,L",
+      "body": "Be able to explain operation mechanism of bipolar transistor and field effective transistor."
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "40",
+        "40",
+        "20",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "40",
+        "40",
+        "20",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "40",
+        "40",
+        "20",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションと\nリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "4 target abilities are achieved over 80%, based on understanding and using mathematics and physics.",
+    "standard": "4 target abilities are achieved with 60-70%."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Course introduction learn objective of learning “semiconductor engineering”",
+      "operation": "Lecture and Q&A Self-check Materials will be given for adding text. Small tests and quizzes will be given with announcement.",
+      "assignments": "Preview and review are important for effective class Review is recommended with using text",
+      "minutes": "100"
+    },
+    {
+      "index": "2",
+      "content": "Chap.5 Carrier density & Electric conductivity (Former Part)",
+      "operation": "Lecture and Q&A Practice Self-reflection/check",
+      "assignments": "Preview and review Review is focusing on important points explained at class.",
+      "minutes": "200"
+    },
+    {
+      "index": "3",
+      "content": "Chap.5 Carrier density & Electric conductivity (Latter Part)",
+      "operation": "Lecture and Q&A Practice Self-reflection/check",
+      "assignments": "Preview and review Review is focusing on important points explained at class",
+      "minutes": "200"
+    },
+    {
+      "index": "4",
+      "content": "Chap 6. Effective mass & Mobility",
+      "operation": "Lecture and Q&A Practice Self-reflection/check",
+      "assignments": "Preview and review Review is focusing on important points explained at class",
+      "minutes": "200"
+    },
+    {
+      "index": "5",
+      "content": "Chap 7. Diffusion current & Equation of continuity",
+      "operation": "Lecture and Q&A Practice Self-reflection/check",
+      "assignments": "Preview and review Review is focusing on important points explained at class",
+      "minutes": "200"
+    },
+    {
+      "index": "6",
+      "content": "Chap 8. p-n junction (former part)",
+      "operation": "Lecture and Q&A Self-reflection/check",
+      "assignments": "Preview and review on contents of past class for self-reflection /small test",
+      "minutes": "200"
+    },
+    {
+      "index": "7",
+      "content": "Chap 8. p-n junction (latter part)",
+      "operation": "Lecture and Q&A Practice Self-reflection/check",
+      "assignments": "Preview and review Review is focusing on important points explained at class",
+      "minutes": "200"
+    },
+    {
+      "index": "8",
+      "content": "Mid-term Exam",
+      "operation": "Exam",
+      "assignments": "Preview and review on all class",
+      "minutes": "200"
+    },
+    {
+      "index": "9",
+      "content": "Chap. 9 Bipolar junction transistor",
+      "operation": "Lecture and Q&A Practice Self-reflection/check",
+      "assignments": "Preview and review Review is focusing on important points explained at class",
+      "minutes": "200"
+    },
+    {
+      "index": "10",
+      "content": "Chap 10. Metal-semiconductor contact",
+      "operation": "Lecture and Q&A Self-reflection/check",
+      "assignments": "Preview and review on contents of past class for self-reflection /small test",
+      "minutes": "200"
+    },
+    {
+      "index": "11",
+      "content": "Chap. 11 Metal-Insulator-Semiconductor Structure",
+      "operation": "Lecture and Q&A Practice Self-reflection/check",
+      "assignments": "Preview and review Review is focusing on important points explained at class",
+      "minutes": "200"
+    },
+    {
+      "index": "12",
+      "content": "Chap. 12 MOSFET (former part)",
+      "operation": "Lecture and Q&A Practice Self-reflection/check",
+      "assignments": "Preview and review Review is focusing on important points explained at class",
+      "minutes": "200"
+    },
+    {
+      "index": "13",
+      "content": "Chap. 12 MOSFET (latter part)",
+      "operation": "Lecture and Q&A Practice Self-reflection/check",
+      "assignments": "Preview and review Review is focusing on important points explained at class",
+      "minutes": "200"
+    },
+    {
+      "index": "14",
+      "content": "Final exam.",
+      "operation": "Exam",
+      "assignments": "Preview and review on all class",
+      "minutes": "200"
+    },
+    {
+      "index": "15",
+      "content": "Review on final exam. Self-check",
+      "operation": "Lecture and Q&A",
+      "assignments": "Review and self-check on 4 target abilities Learn again points on lack of understanding",
+      "minutes": "100"
+    }
+  ],
+  "rawText": "金沢工業大学 学習支援計画書 E627-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Electrical and Electronic Engineering(2018〜)\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n半導体工学\nSemiconductor Engineering  2 E627-01  2020年度\n 3rd year 1st semester  修学規程第4条を参照\n    担当教員名\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Semiconductor properties 2.PN junction 3.Schottky contact 4.Diode 5.Transistor  Student will: (1) learn semiconductors properties in order to understand the operation mechanism of semiconductor devices.(2) learn pn junctions and metal-semiconductor contacts using the energy band theory studied on “Physical Electronics”. Those are basics on various devices. (3) learn structures and operation mechanism of various diodes, bipolar transistor (PNP , NPN), and field effective transistor (FET).\n    授業の概要および学習上の助言   Using knowledge of the energy band theory and semiconductor fundamental properties studied on “Physical Electronics”, students will learn another aspects of semiconductor fundamental properties and operation mechanism and characteristics of pn junctions, metal-semiconductors contacts, bipolar transistor and field effective transistor. Contents are following; [A] Fundamental properties of semiconductors 1. Density of states and Distribution function 2. Carrier density of impurity semiconductor 3. Drift current and diffusion current [B] Diodes 4. pn junction diode, its I-V characteristics, C-V characteristics, breakdown phenomena 5. MS(metal-semiconductor) contact and Schottky barrier diode [C] Transistors 6. Bipolar junction transistor, its operation mechanism, characteristics 7. MOS (metal-oxide-semiconductor), its structure and properties 8. MOS-FET (field effective transistor), its structure, operation mechanism, characteristics\n    教科書および参考書・リザーブドブック   Textbooks: Reference books:\n    履修に必要な予備知識や技能   Understanding and knowledge of “Electronic Engineering” and “Physical Electronics. Mathematics, especially differential equation in order to derive equations of device characteristics, and basic physics of motion equations.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① J,L Be able to explain drift current and diffusion current, quantitatively.    ② J,L Be able to explain drift current and diffusion current, quantitatively.    ③ J,L Be able to explain operation mechanism of pn junction diode and Schottky diode, able to derive I-V, C-V equation   ④ J,L Be able to explain operation mechanism of bipolar transistor and field effective transistor.   ⑤     ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 40 40 20 0 0 0 0 100     指標と評価割合 総合評価割合 40 40 20 0 0 0 0 100   総合力指標 知識を取り込む力 40 40 20 0 0 0 0 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ There are exams to evaluate the degree of achievement.   ② レ   ③ レ   ④ レ   ⑤     ⑥     クイズ\n小テスト ① レ There are small tests and quizzes in accordance with progress of course, mainly, in order to check the level of understanding on “target abilities of student”.    ② レ   ③ レ   ④ レ   ⑤     ⑥     レポート ① レ Students will be evaluated on two or more reports, mainly, in order to check achievement on “target abilities of student”, in accordance with progress of course. Reports must be submitted before the deadline.   ② レ   ③ レ   ④ レ   ⑤     ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ①      ②     ③     ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安      4 target abilities are achieved over 80%, based on understanding and using mathematics and physics. 4 target abilities are achieved with 60-70%.\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら",
+  "sourceYear": "2020",
+  "originalSourceIndex": 302,
+  "courseId": "2020:spring:E229-01:0:7799",
+  "language": "en"
+}

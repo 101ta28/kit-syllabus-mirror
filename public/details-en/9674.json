@@ -1,0 +1,295 @@
+{
+  "sourceIndex": 9674,
+  "sourceUrl": "/opsyllabus/kitos0110/417/1",
+  "importedAt": "2026-06-12T08:01:55.403Z",
+  "title": "情報工学基礎演習",
+  "subtitle": "Computer Programming Practice",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "2",
+  "term": "2022年度\n 2nd year 1st semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "TAKAGO Daisuke"
+  ],
+  "keywords": [
+    "Linux 2.C 3.Pointer 4.Structure 5.File input/output"
+  ],
+  "educationalGoal": "Students will: (1) Learn basic management and operational skills for computer systems. (2) Acquire various C programming skills on Linux command line. (3) Acquire Linux environment construction and operation technology.",
+  "advice": "This is a basic C programming course. We will cover the following materials: 1. Installing virtual machines and Linux 2. Linux command exercises 3. Programming with the basic data types and array 4. Standard input/output stream 5. Programming with the function definitions and its calls 6. Recursive function call 7. Programming with the structure and pointer 8. String processing 9. File input/output processing 10. Programming with the bitwise logical operators Students are expected to bring their textbook, notebook PC, and other necessary materials to every class. Students are expected to check for messages/materials on the KIT Inside website before every class and on a regular basis.",
+  "books": "Textbooks:C language for beginners(ISBN 978-4-407-32089-3, Japaneses Version Only) Reference books: None Reserved books: None",
+  "requiredKnowledge": "This course requires the following knowledge/skills: 1. The units of “Programming 1” and “Programming 2” have been acquired. 2. Knowledge of basic logical operation. 3. Basic computer programming skills.",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "I,J,K",
+      "body": "Be able to manage programming, debugging, and execution."
+    },
+    {
+      "index": "②",
+      "type": "I,J,K",
+      "body": "Be able to create a program with appropriate combinations of functions, pointers, structures, etc."
+    },
+    {
+      "index": "③",
+      "type": "I,J,K",
+      "body": "Be able to verify that the program is executing correctly."
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "0",
+        "0",
+        "100",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "0",
+        "0",
+        "100",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "0",
+        "0",
+        "100",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションと\nリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "Be able to learn the following multiple elemental technologies required for C programming and create an advanced program on the Linux command line: 1. Basic data types 2. Array and Structure 3. String and Pointer 4. Function definition 5. File input/output processing 6. Recursive function call 7. Bitwise logical operator 8. Linux system call",
+    "standard": "Be able to learn the following multiple elemental technologies required for C programming and create a basic program on the Linux command line: 1. Basic data types 2. Array and Structure 3. String and Pointer 4. Function definition 5. File input/output processing 6. Recursive function call"
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Overview of Linux and C programming Install Linux on your own notebook PC, and learn the overview of C programming",
+      "operation": "Lecture and exercises",
+      "assignments": "Preparation and review with te xtbooks",
+      "minutes": "100"
+    },
+    {
+      "index": "2",
+      "content": "How to write reports",
+      "operation": "Lecture and exercises",
+      "assignments": "Preparation and review with te xtbooks",
+      "minutes": "100"
+    },
+    {
+      "index": "3",
+      "content": "Programming Basics (Variables, text output, computation)",
+      "operation": "Lecture and exercises",
+      "assignments": "Preparation and review with te xtbooks",
+      "minutes": "100"
+    },
+    {
+      "index": "4",
+      "content": "Programming Basics (Key Input, Preprocessing)",
+      "operation": "Lecture and exercises",
+      "assignments": "Preparation and review with te xtbooks",
+      "minutes": "100"
+    },
+    {
+      "index": "5",
+      "content": "Programming Basics (Arrays)",
+      "operation": "Lecture and exercises",
+      "assignments": "Preparation and review with te xtbooks",
+      "minutes": "100"
+    },
+    {
+      "index": "6",
+      "content": "Programming Basics (Character Arrays, Standard functions)",
+      "operation": "Lecture and exercises",
+      "assignments": "Preparation and review with te xtbooks",
+      "minutes": "100"
+    },
+    {
+      "index": "7",
+      "content": "Programming Basics (Pointers)",
+      "operation": "Lecture and exercises",
+      "assignments": "Preparation and review with te xtbooks",
+      "minutes": "100"
+    },
+    {
+      "index": "8",
+      "content": "Programming Basics (Function definition, Recursive call)",
+      "operation": "Lecture and exercises",
+      "assignments": "Preparation and review with te xtbooks",
+      "minutes": "100"
+    },
+    {
+      "index": "9",
+      "content": "Programming Basics (Structures)",
+      "operation": "Lecture and exercises",
+      "assignments": "Preparation and review with te xtbooks",
+      "minutes": "100"
+    },
+    {
+      "index": "10",
+      "content": "Programming Basics (File processings)",
+      "operation": "Lecture and exercises",
+      "assignments": "Preparation and review with te xtbooks",
+      "minutes": "100"
+    },
+    {
+      "index": "11",
+      "content": "Programming Basics (Bit operations)",
+      "operation": "Lecture and exercises",
+      "assignments": "Preparation and review with te xtbooks",
+      "minutes": "100"
+    },
+    {
+      "index": "12",
+      "content": "Programming Basics (Data representation on the memory)",
+      "operation": "Lecture and exercises",
+      "assignments": "Preparation and review with te xtbooks",
+      "minutes": "100"
+    },
+    {
+      "index": "13",
+      "content": "Other topics about Linux and C",
+      "operation": "Lecture and exercises",
+      "assignments": "Preparation and review with te xtbooks",
+      "minutes": "100"
+    },
+    {
+      "index": "14",
+      "content": "Other topics about Linux and C",
+      "operation": "Lecture and exercises",
+      "assignments": "Preparation and review with te xtbooks",
+      "minutes": "100"
+    },
+    {
+      "index": "15",
+      "content": "15. Self-reflection class. Self-evaluation.",
+      "operation": "Lecture, self-reflection",
+      "assignments": "",
+      "minutes": "100"
+    }
+  ],
+  "rawText": "金沢工業大学 学習支援計画書 E511-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Information and Computer Science\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n情報工学基礎演習\nComputer Programming Practice  2 E511-01  2022年度\n 2nd year 1st semester  修学規程第4条を参照\n    担当教員名\n TAKAGO Daisuke\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Linux 2.C 3.Pointer 4.Structure 5.File input/output  Students will: (1) Learn basic management and operational skills for computer systems. (2) Acquire various C programming skills on Linux command line. (3) Acquire Linux environment construction and operation technology.\n    授業の概要および学習上の助言   This is a basic C programming course. We will cover the following materials: 1. Installing virtual machines and Linux 2. Linux command exercises 3. Programming with the basic data types and array 4. Standard input/output stream 5. Programming with the function definitions and its calls 6. Recursive function call 7. Programming with the structure and pointer 8. String processing 9. File input/output processing 10. Programming with the bitwise logical operators Students are expected to bring their textbook, notebook PC, and other necessary materials to every class. Students are expected to check for messages/materials on the KIT Inside website before every class and on a regular basis.\n    教科書および参考書・リザーブドブック   Textbooks:C language for beginners(ISBN 978-4-407-32089-3, Japaneses Version Only) Reference books: None Reserved books: None\n    履修に必要な予備知識や技能   This course requires the following knowledge/skills: 1. The units of “Programming 1” and “Programming 2” have been acquired. 2. Knowledge of basic logical operation. 3. Basic computer programming skills.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① I,J,K Be able to manage programming, debugging, and execution.   ② I,J,K Be able to create a program with appropriate combinations of functions, pointers, structures, etc.   ③ I,J,K Be able to verify that the program is executing correctly.   ④     ⑤     ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 0 0 100 0 0 0 0 100     指標と評価割合 総合評価割合 0 0 100 0 0 0 0 100   総合力指標 知識を取り込む力 0 0 100 0 0 0 0 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ An exam is held at the end of the semester to evaluate the degree of the achievement. In the exam, questions related to programming are presented. Students will be evaluated on their responses to the exam.    ② レ   ③ レ   ④     ⑤     ⑥     クイズ\n小テスト ①      ②     ③     ④     ⑤     ⑥     レポート ① レ Students will be evaluated on eight reports. The reports consist of program-related materials that were created in the reporting assignments, such as program source code and execution results.    ② レ   ③ レ   ④     ⑤     ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ①      ②     ③     ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     Be able to learn the following multiple elemental technologies required for C programming and create an advanced program on the Linux command line: 1. Basic data types 2. Array and Structure 3. String and Pointer 4. Function definition 5. File input/output processing 6. Recursive function call 7. Bitwise logical operator 8. Linux system call Be able to learn the following multiple elemental technologies required for C programming and create a basic program on the Linux command line: 1. Basic data types 2. Array and Structure 3. String and Pointer 4. Function definition 5. File input/output processing 6. Recursive function call\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。",
+  "sourceYear": "2022",
+  "originalSourceIndex": 417,
+  "courseId": "2022:full-year:E927-10:0:9674",
+  "language": "en"
+}

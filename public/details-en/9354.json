@@ -1,0 +1,244 @@
+{
+  "sourceIndex": 9354,
+  "sourceUrl": "/opsyllabus/kitos0110/97/1",
+  "importedAt": "2026-06-12T08:01:53.106Z",
+  "title": "AI応用Ⅰ(深層学習)(夏期集中講義)",
+  "subtitle": "Deep Learning",
+  "courseType": "Mathematics and Science Program\nMathematics and Science Courses",
+  "credits": "1",
+  "term": "2022年度\n 1st year 1st semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "NAGATA Shigemi"
+  ],
+  "keywords": [
+    "Artificial Intelligence 2.Machine Learning 3.Deep Learning 4.Neural Network 5.Computer vision"
+  ],
+  "educationalGoal": "Artificial intelligence that can bring intelligence to machines is becoming increasingly important in various areas of the ICT society. This course aims to have students master basic technologies related to artificial intelligence, and in particular, to deepen their understanding of deep learning and its application systems, which are important technologies for realizing intelligent systems. Students will further develop their basic knowledge of intelligent information processing and deepen their understanding of how to build intelligent systems.",
+  "advice": "Course Description and Expectations for Students This course covers the basic to application of intelligent information processing. Students will learn the basic techniques for various deep learning and build and evaluate application systems based on these deep learning techniques. Students are expected to be able to evaluate the methods and challenges of implementing an application system for intelligent information processing.",
+  "books": "Textbooks:Deep Learning with Python, Second Edition [Manning] Reference books:None Reserved books:None",
+  "requiredKnowledge": "Knowledge/Skills Needed to Take This Course(Prerequisites) It is desirable for students to have knowledge and programming skills on intelligent information processing at the undergraduate level.",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "D",
+      "body": "Be able to explain basic technology in intelligent information processing."
+    },
+    {
+      "index": "②",
+      "type": "D",
+      "body": "Be able to understand various techniques for deep learning."
+    },
+    {
+      "index": "③",
+      "type": "D,F",
+      "body": "Be able to implement various deep learning algorithms and build their application systems."
+    },
+    {
+      "index": "④",
+      "type": "D,F",
+      "body": "Be able to evaluate application systems based on various deep learning algorithms."
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "0",
+        "0",
+        "50",
+        "50",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "0",
+        "0",
+        "50",
+        "50",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "0",
+        "0",
+        "50",
+        "50",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションと\nリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "In addition to the standard achievement level, the student is able to -challenge research issues and build an application system in intelligent information processing.",
+    "standard": "Understand the week-by-week content covered in this course and be able to generally solve typical exercises related to the content."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Course introduction What is artificial intelligence? What is deep learning?",
+      "operation": "Lecture and Q&A",
+      "assignments": "Prepare for the next class about the mathematical building blocks of neural networks.",
+      "minutes": "180"
+    },
+    {
+      "index": "2",
+      "content": "Before we begin: the mathematical building blocks of neural network",
+      "operation": "Lecture and Q&A",
+      "assignments": "Prepare for the next class about getting started with neural networks.",
+      "minutes": "180"
+    },
+    {
+      "index": "3",
+      "content": "Getting started with neural networks",
+      "operation": "Lecture and Q&A",
+      "assignments": "Prepare for the next class on the fundamentals of machine learning.",
+      "minutes": "180"
+    },
+    {
+      "index": "4",
+      "content": "Fundamentals of machine learning",
+      "operation": "Lecture and Q&A",
+      "assignments": "Prepare for the next class on deep learning for computer vision.",
+      "minutes": "180"
+    },
+    {
+      "index": "5",
+      "content": "Deep learning for computer vision",
+      "operation": "Lecture and Q&A",
+      "assignments": "Prepare for the next class on deep learning for text and sequences.",
+      "minutes": "180"
+    },
+    {
+      "index": "6",
+      "content": "Deep learning for text and sequences",
+      "operation": "Lecture and Q&A",
+      "assignments": "Prepare presentation to be given in the next class.",
+      "minutes": "180"
+    },
+    {
+      "index": "7",
+      "content": "Integrated learning Review Self-evaluation",
+      "operation": "Presentation and discussion",
+      "assignments": "Review Self-check",
+      "minutes": "180"
+    }
+  ],
+  "rawText": "金沢工業大学 学習支援計画書 G244-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nMathematics, Science, Data Science and AI Program\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Mathematics and Science Program\nMathematics and Science Courses\nAI応用Ⅰ(深層学習)(夏期集中講義)\nDeep Learning  1 G244-01  2022年度\n 1st year 1st semester  修学規程第4条を参照\n    担当教員名\n NAGATA Shigemi\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Artificial Intelligence 2.Machine Learning 3.Deep Learning 4.Neural Network 5.Computer vision  Artificial intelligence that can bring intelligence to machines is becoming increasingly important in various areas of the ICT society. This course aims to have students master basic technologies related to artificial intelligence, and in particular, to deepen their understanding of deep learning and its application systems, which are important technologies for realizing intelligent systems. Students will further develop their basic knowledge of intelligent information processing and deepen their understanding of how to build intelligent systems.\n    授業の概要および学習上の助言   Course Description and Expectations for Students This course covers the basic to application of intelligent information processing. Students will learn the basic techniques for various deep learning and build and evaluate application systems based on these deep learning techniques. Students are expected to be able to evaluate the methods and challenges of implementing an application system for intelligent information processing.\n    教科書および参考書・リザーブドブック   Textbooks:Deep Learning with Python, Second Edition [Manning] Reference books:None Reserved books:None\n    履修に必要な予備知識や技能   Knowledge/Skills Needed to Take This Course(Prerequisites) It is desirable for students to have knowledge and programming skills on intelligent information processing at the undergraduate level.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① D Be able to explain basic technology in intelligent information processing.   ② D Be able to understand various techniques for deep learning.   ③ D,F Be able to implement various deep learning algorithms and build their application systems.   ④ D,F Be able to evaluate application systems based on various deep learning algorithms.   ⑤     ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 0 0 50 50 0 0 0 100     指標と評価割合 総合評価割合 0 0 50 50 0 0 0 100   総合力指標 知識を取り込む力 0 0 50 50 0 0 0 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ①      ②     ③     ④     ⑤     ⑥     クイズ\n小テスト ①      ②     ③     ④     ⑤     ⑥     レポート ① レ Students will be evaluated on two reports.   ② レ   ③ レ   ④ レ   ⑤     ⑥     成果発表\n(口頭・実技) ① レ Students are required to give two presentations on the submitted reports.   ② レ   ③ レ   ④ レ   ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ①      ②     ③     ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     In addition to the standard achievement level, the student is able to -challenge research issues and build an application system in intelligent information processing. Understand the week-by-week content covered in this course and be able to generally solve typical exercises related to the content.\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習課題に要する標準的な時間を記載してあります。日々の自学自習時間全体としては、各授業に応じた時間(例えば2単位科目の場合、予習2時間・復習2時間/週)を取るよう努めてください。詳しくは教員の指導に従って下さい。     授業明細   回数 学習内容 授業の運営方法 学習課題(予習・復習) 時間:分※     1  Course introduction What is artificial intelligence? What is deep learning? Lecture and Q&A Prepare for the next class about the mathematical building blocks of neural networks.  180   2  Before we begin: the mathematical building blocks ",
+  "sourceYear": "2022",
+  "originalSourceIndex": 97,
+  "courseId": "2022:spring:G203-01:0:9354",
+  "language": "en"
+}

@@ -1,0 +1,305 @@
+{
+  "sourceIndex": 9519,
+  "sourceUrl": "/opsyllabus/kitos0110/262/1",
+  "importedAt": "2026-06-12T08:01:54.346Z",
+  "title": "航空構造設計Ⅱ",
+  "subtitle": "Aircraft Structure Design II",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "2",
+  "term": "2022年度\n 3rd year 2nd semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "YOSHIDA Keishiro"
+  ],
+  "keywords": [
+    "Buckling 2.Stiffened plate 3.Effective width 4.Composite material 5.Laminate"
+  ],
+  "educationalGoal": "Students will learn (1) how to analyze the buckling load of thin flat plate (2) the concept of effective width flat plate with stiffeners (3) mechanics of composite lamina (4) mechanics of composite laminate",
+  "advice": "On the basis of knowledge learned in subjects such as Mechanics of Materials and Mechanics of Aircraft Structure, student will learn the advanced mechanics for aircraft structural design. We will cover the following materials: (1) Buckling of thin flat plate (2) Buckling and effective width of plate with stiffeners (3) Mechanics of composite lamina (4) Mechanics of composite laminate Students should thoroughly review what they have learned in Mechanics of Materials and Mechanics of Aircraft Structure before taking this course.",
+  "books": "Basis of Understanding Strength of Materials -Second Edition, Kyoritsu Syuppan, 2013",
+  "requiredKnowledge": "Basic knowledge of Mechanics of Materials and Mechanics of Aircraft Structure.",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "D,J,M",
+      "body": "Be able to calculate buckling load of thin flat plates"
+    },
+    {
+      "index": "②",
+      "type": "D,J,M",
+      "body": "Be able to understand the concept of effective width and calculate the effective width of plate with stiffeners"
+    },
+    {
+      "index": "③",
+      "type": "D,J,M",
+      "body": "Be able to calculate the stiffness matrix of composite lamina and explain the mechanical behavior"
+    },
+    {
+      "index": "④",
+      "type": "D,J,M",
+      "body": "Be able to calculate the coordinate-transformed stiffness matrix of composite lamina"
+    },
+    {
+      "index": "⑤",
+      "type": "D,J,M",
+      "body": "Be able to calculate the stiffness matrix of composite laminates and explain the mechanical behavior"
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "40",
+        "50",
+        "0",
+        "0",
+        "0",
+        "0",
+        "10",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "40",
+        "50",
+        "0",
+        "0",
+        "0",
+        "0",
+        "10",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "40",
+        "50",
+        "0",
+        "0",
+        "0",
+        "0",
+        "10",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションと\nリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "(1)Calculate the buckling load of a flat plate under various constraint conditions (2)Fully understand the concept of effective width and accurately calculate the effective width of plate with stiffeners (3)Accurately calculate the stiffness matrix of composite lamina and explain the mechanical behavior (4)Accurately calculate the coordinate-transformed stiffness matrix of composite lamina (5)Accurately calculate the stiffness matrix of composite laminate and explain the mechanical behavior",
+    "standard": "(1)Calculate the buckling load of a flat plate simply supported at all edges (2)Explain the concept of effective width (3)Calculate the stiffness matrix of composite lamina (4)Calculate the coordinate-transformed stiffness matrix of composite lamina (5)Calculate the stiffness matrix of composite laminate"
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Course introduction Review on buckling of slender bars",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Review class content",
+      "minutes": "40"
+    },
+    {
+      "index": "2",
+      "content": "Buckling of thin flat plate (1)",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Read handout 'Buckling of plate' Review class content",
+      "minutes": "20 40"
+    },
+    {
+      "index": "3",
+      "content": "Buckling of thin flat plate (2)",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Read handout 'Buckling of plate' Review class content",
+      "minutes": "20 40"
+    },
+    {
+      "index": "4",
+      "content": "Buckling of plate with stiffeners and effective width (1)",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Read handout 'Effective width' Review class content",
+      "minutes": "20 40"
+    },
+    {
+      "index": "5",
+      "content": "Buckling of plate with stiffeners and effective width (2)",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Read handout 'Effective width' Review class content",
+      "minutes": "20 40"
+    },
+    {
+      "index": "6",
+      "content": "Integrated learning",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Review class content",
+      "minutes": "40"
+    },
+    {
+      "index": "7",
+      "content": "Self-reflection (class) [1st test]",
+      "operation": "Lecture and practice Test Self-check",
+      "assignments": "Review first half of this course. Prepare for test",
+      "minutes": "20 100"
+    },
+    {
+      "index": "8",
+      "content": "Mechanics of composite lamina (1)",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Read handout 'Mechanics of composite material' Review class content",
+      "minutes": "20 40"
+    },
+    {
+      "index": "9",
+      "content": "Mechanics of composite lamina (2)",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Read handout 'Mechanics of composite material' Review class content",
+      "minutes": "20 40"
+    },
+    {
+      "index": "10",
+      "content": "Mechanics of composite laminate (1)",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Read handout 'Mechanics of composite material' Review class content",
+      "minutes": "20 40"
+    },
+    {
+      "index": "11",
+      "content": "Mechanics of composite laminate (2)",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Read handout 'Mechanics of composite material' Review class content",
+      "minutes": "20 40"
+    },
+    {
+      "index": "12",
+      "content": "Mechanics of composite laminate (3)",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Read handout 'Mechanics of composite material' Review class content",
+      "minutes": "20 40"
+    },
+    {
+      "index": "13",
+      "content": "Integrated learning",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Review class content",
+      "minutes": "40"
+    },
+    {
+      "index": "14",
+      "content": "Self-reflection (class) [2nd test]",
+      "operation": "Lecture and practice Test Self-check",
+      "assignments": "Review 2nd half of this course Prepare for test",
+      "minutes": "20 100"
+    },
+    {
+      "index": "15",
+      "content": "Integrated learning Self-evaluation",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Self-evaluation on achievement in this subject",
+      "minutes": "40"
+    }
+  ],
+  "rawText": "金沢工業大学 学習支援計画書 E141-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Aeronautics\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n航空構造設計Ⅱ\nAircraft Structure Design II  2 E141-01  2022年度\n 3rd year 2nd semester  修学規程第4条を参照\n    担当教員名\n YOSHIDA Keishiro\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Buckling 2.Stiffened plate 3.Effective width 4.Composite material 5.Laminate  Students will learn (1) how to analyze the buckling load of thin flat plate (2) the concept of effective width flat plate with stiffeners (3) mechanics of composite lamina (4) mechanics of composite laminate\n    授業の概要および学習上の助言   On the basis of knowledge learned in subjects such as Mechanics of Materials and Mechanics of Aircraft Structure, student will learn the advanced mechanics for aircraft structural design. We will cover the following materials: (1) Buckling of thin flat plate (2) Buckling and effective width of plate with stiffeners (3) Mechanics of composite lamina (4) Mechanics of composite laminate Students should thoroughly review what they have learned in Mechanics of Materials and Mechanics of Aircraft Structure before taking this course.\n    教科書および参考書・リザーブドブック   Basis of Understanding Strength of Materials -Second Edition, Kyoritsu Syuppan, 2013\n    履修に必要な予備知識や技能   Basic knowledge of Mechanics of Materials and Mechanics of Aircraft Structure.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① D,J,M Be able to calculate buckling load of thin flat plates   ② D,J,M Be able to understand the concept of effective width and calculate the effective width of plate with stiffeners   ③ D,J,M Be able to calculate the stiffness matrix of composite lamina and explain the mechanical behavior   ④ D,J,M Be able to calculate the coordinate-transformed stiffness matrix of composite lamina   ⑤ D,J,M Be able to calculate the stiffness matrix of composite laminates and explain the mechanical behavior   ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 40 50 0 0 0 0 10 100     指標と評価割合 総合評価割合 40 50 0 0 0 0 10 100   総合力指標 知識を取り込む力 40 50 0 0 0 0 10 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ Students will be evaluated on their achievement in tests. Student will have two tests: in the middle of the semester and at the end of the semester.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     クイズ\n小テスト ① レ Students will be evaluated on their achievement on mini tests. Students will have about five mini tests during the semester.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     レポート ①      ②     ③     ④     ⑤     ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ① レ Students’ participation in class discussion will be evaluated. Class absences may be evaluated negatively.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     (1)Calculate the buckling load of a flat plate under various constraint conditions (2)Fully understand the concept of effective width and accurately calculate the effective width of plate with stiffeners (3)Accurately calculate the stiffness matrix of composite lamina and explain the mechanical behavior (4)Accurately calculate the coordinate-transformed stiffness matrix of composite lamina (5)Accurately calculate the stiffness matrix of composite laminate and explain the mechanical behavior (1)Calculate the buckling load of a flat plate simply supported at all edges (2)Explain the concept of effective width (3)Calculate the stiffness matrix of composite lamina (4)Calculate the coordinate-transformed stiffness matrix of composite lamina (5)Calculate the stiffness matrix of composite laminate\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返",
+  "sourceYear": "2022",
+  "originalSourceIndex": 262,
+  "courseId": "2022:spring:E110-01:0:9519",
+  "language": "en"
+}

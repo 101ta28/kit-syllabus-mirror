@@ -1,0 +1,313 @@
+{
+  "sourceIndex": 11539,
+  "sourceUrl": "/opsyllabus/kitos0110/415/1",
+  "importedAt": "2026-06-12T08:02:32.680Z",
+  "title": "情報工学専門実験・演習A",
+  "subtitle": "Information and Computer Science Major Lab/Exercises A",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "3",
+  "term": "2024年度\n 3rd year 1st semester\n3rd year 2nd semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "MUKAI Hiroaki",
+    "ISHIBASHI Koichi",
+    "SAKAMOTO Shinji",
+    "NAKAZAWA Minoru"
+  ],
+  "keywords": [
+    "Wireless sensor network 2.Internet of Things 3.Networking 4.Router, switch 5.Programming"
+  ],
+  "educationalGoal": "In this course, students will learn programming techniques, wireless network technologies, and data collection methods via evaluation of wireless sensor networks with a microcontroller. They will also be given opportunities to master knowledge regarding the Internet and security using routers and switches, gain knowledge and skill via investigations and exercises related to IPv4/IPv6, and study how to control networks via packet capture.",
+  "advice": "This course covers the following topics: 1. Embedded programming with c and python language 2. Wireless network technologies for IoT systems 3. Communication protocols toward IoT systems 4. Information network construction method 5. Analysis of information transmission path by network capturing 6. Implementation of network capture program using C / C ++ NOTE: A review of Programming I, Programming II, Fundamental Computer Architecture, and Information Networks is required.",
+  "books": "None",
+  "requiredKnowledge": "Students of this course are expected to have the following: 1. C and Python programming skills. 2. Understanding of CPU, main memory, and register on an embedded processor. 3. Knowledge and skill related to the construction of information networks. 4. Knowledge related to information transmissions using packet capturing tools. 5. Understanding of packet capture implementation techniques.",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "D,F,I,J,K,L,M,N,O,Q",
+      "body": "Be able to explain wireless technologies such as wireless LAN, ZigBee, and LoRaWAN."
+    },
+    {
+      "index": "②",
+      "type": "D,F,I,J,K,L,M,N,O,Q",
+      "body": "Be able to explain a data collection method via MQTT."
+    },
+    {
+      "index": "③",
+      "type": "D,F,I,J,K,L,M,N,O,Q",
+      "body": "Be able to design and evaluate a wireless sensor network."
+    },
+    {
+      "index": "④",
+      "type": "D,F,I,J,K,M,Q",
+      "body": "Be able to explain network hierarchical structures."
+    },
+    {
+      "index": "⑤",
+      "type": "D,F,I,J,K,M,N,P,Q",
+      "body": "Be able to understand Internet traffic using packet capture."
+    },
+    {
+      "index": "⑥",
+      "type": "D,F,I,J,K,M,N,P,Q",
+      "body": "Be able to set a personal IP address on a personal computer."
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "0",
+        "0",
+        "50",
+        "50",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "0",
+        "0",
+        "50",
+        "50",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "0",
+        "0",
+        "50",
+        "50",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションと\nリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "Students with an ideal achievement level can design and develop a unified complex system that can efficiently control devices.",
+    "standard": "Students with a standard achievement level can design and develop an application that can control devices."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Joint briefing of two main themes: (1) Wirelesse sensor network technology, and (2) Network configuration",
+      "operation": "Lecture",
+      "assignments": "Prepare programming environment (VMware, Linux)",
+      "minutes": "200"
+    },
+    {
+      "index": "2",
+      "content": "[Wireless sensor network #1] Lecture: Signal processing on a sensor device and sleep control o an embedded processor. Exercise: a sensor device via the Arduino.",
+      "operation": "Lecture and exercise",
+      "assignments": "Preparation: Check website Review: Understand about sensor technologies",
+      "minutes": "200"
+    },
+    {
+      "index": "3",
+      "content": "[Wireless sensor network #2] Lecture: Data exchange by using MQTT Exercise: Study of MQTT",
+      "operation": "Lecture and exercise",
+      "assignments": "Preparation: Check website Review: Understand about sleep mechanism",
+      "minutes": "200"
+    },
+    {
+      "index": "4",
+      "content": "[Wireless sensor network #3] Lecture: Wireless communication for IoT - Wireless LAN - Exercise: Study of wireless LAN communication on an embedded system",
+      "operation": "Lecture and exercise",
+      "assignments": "Preparation: Check website Review: Understand about a method for time managements",
+      "minutes": "200"
+    },
+    {
+      "index": "5",
+      "content": "[Wireless sensor network #4] Lecture: Wireless communication - ZigBee - Exercise: Study of communication by ZigBee",
+      "operation": "Lecture and exercise",
+      "assignments": "Preparation: Check website Review: Understand about MQTT and LoRa WAN",
+      "minutes": "200"
+    },
+    {
+      "index": "6",
+      "content": "[Wireless sensor network #5] Lecture: Wireless communication - LoRaWAN - Exercise: Study of communication by LoRaWAN",
+      "operation": "Lecture and exercise",
+      "assignments": "Preparation: Check website Review: Understand about IoT system via the wireless LAN",
+      "minutes": "200"
+    },
+    {
+      "index": "7",
+      "content": "[Wireless sensor network #6] Lecture: Society 5.0 and Virtual sensor Exercise: Implementation of an Virtual sensor device",
+      "operation": "Lecture and exercise",
+      "assignments": "Preparation: Check website Review: Understand about ZigBee technologies",
+      "minutes": "200"
+    },
+    {
+      "index": "8",
+      "content": "[Wireless sensor network #7] Exercise: Construction of an IoT system with wireless sensor networks.",
+      "operation": "Lecture and exercise",
+      "assignments": "Preparation: Check website Review: Understand about wireless sensor networks",
+      "minutes": "200"
+    },
+    {
+      "index": "9",
+      "content": "[Network Exercise #1] Abstracts of lecture (Network Technology) PC and network relationships, connect network and network cable",
+      "operation": "Lecture and exercise",
+      "assignments": "Preparation: Check website Review: Understand about network technology, Understand about network cable and IP address, Learn about software about network",
+      "minutes": "200"
+    },
+    {
+      "index": "10",
+      "content": "[Network Exercise #2] Lecture: VLAN, Switch operations Exercise: Wireshark",
+      "operation": "Lecture and exercise",
+      "assignments": "Preparation: Check website Review: Understand about command for router/switch",
+      "minutes": "200"
+    },
+    {
+      "index": "11",
+      "content": "[Network Exercise #3] Lecture: Router operations, DHCP Exercise: Router operations, DHCP",
+      "operation": "Lecture and exercise",
+      "assignments": "Preparation: Check website Review: Understand about command for router/switch",
+      "minutes": "200"
+    },
+    {
+      "index": "12",
+      "content": "[Network Exercise #4] Lecture: Static routing control, Dynamic Routing Exercise: Static routing control, Dynamic routing, Trace route for Internet and network address",
+      "operation": "Lecture and exercise",
+      "assignments": "Preparation: Check website Review: Understand about command for router/switch",
+      "minutes": "200"
+    },
+    {
+      "index": "13",
+      "content": "[Network Exercise #5] Lecture: Network analysis and design Exercise: Naming resolve, Make ISP map, subnet-working, router, FTP protocol, Management about configuration file,",
+      "operation": "Lecture and exercise",
+      "assignments": "Preparation: Check website Review: Understand about command for router/switch",
+      "minutes": "200"
+    },
+    {
+      "index": "14",
+      "content": "[Network Exercise #6] Lecture: Design and implement small network Exercise: Trouble shooting on network,",
+      "operation": "Lecture and exercise",
+      "assignments": "Preparation: Check website Review: Understand about command for router/switch",
+      "minutes": "200"
+    },
+    {
+      "index": "15",
+      "content": "[Network Exercise #7] Presentation about final program.",
+      "operation": "Lecture and presentation",
+      "assignments": "Preparation: Check website Review: Understand about command for router/switch",
+      "minutes": "200"
+    }
+  ],
+  "rawText": "金沢工業大学 学習支援計画書 E534-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Information and Computer Science\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n情報工学専門実験・演習A\nInformation and Computer Science Major Lab/Exercises A  3 E534-01  2024年度\n 3rd year 1st semester\n3rd year 2nd semester  修学規程第4条を参照\n    担当教員名\n MUKAI Hiroaki, ISHIBASHI Koichi, SAKAMOTO Shinji, NAKAZAWA Minoru\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Wireless sensor network 2.Internet of Things 3.Networking 4.Router, switch 5.Programming  In this course, students will learn programming techniques, wireless network technologies, and data collection methods via evaluation of wireless sensor networks with a microcontroller. They will also be given opportunities to master knowledge regarding the Internet and security using routers and switches, gain knowledge and skill via investigations and exercises related to IPv4/IPv6, and study how to control networks via packet capture.\n    授業の概要および学習上の助言   This course covers the following topics: 1. Embedded programming with c and python language 2. Wireless network technologies for IoT systems 3. Communication protocols toward IoT systems 4. Information network construction method 5. Analysis of information transmission path by network capturing 6. Implementation of network capture program using C / C ++ NOTE: A review of Programming I, Programming II, Fundamental Computer Architecture, and Information Networks is required.\n    教科書および参考書・リザーブドブック   None\n    履修に必要な予備知識や技能   Students of this course are expected to have the following: 1. C and Python programming skills. 2. Understanding of CPU, main memory, and register on an embedded processor. 3. Knowledge and skill related to the construction of information networks. 4. Knowledge related to information transmissions using packet capturing tools. 5. Understanding of packet capture implementation techniques.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① D,F,I,J,K,L,M,N,O,Q Be able to explain wireless technologies such as wireless LAN, ZigBee, and LoRaWAN.   ② D,F,I,J,K,L,M,N,O,Q Be able to explain a data collection method via MQTT.   ③ D,F,I,J,K,L,M,N,O,Q Be able to design and evaluate a wireless sensor network.   ④ D,F,I,J,K,M,Q Be able to explain network hierarchical structures.   ⑤ D,F,I,J,K,M,N,P,Q Be able to understand Internet traffic using packet capture.   ⑥ D,F,I,J,K,M,N,P,Q Be able to set a personal IP address on a personal computer.\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 0 0 50 50 0 0 0 100     指標と評価割合 総合評価割合 0 0 50 50 0 0 0 100   総合力指標 知識を取り込む力 0 0 50 50 0 0 0 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ①      ②     ③     ④     ⑤     ⑥     クイズ\n小テスト ①      ②     ③     ④     ⑤     ⑥     レポート ① レ Submitted reports are used to assess effort and achievement.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥ レ   成果発表\n(口頭・実技) ① レ Comprehension is checked through work demonstrations.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥ レ   作品 ① レ The functionality and technicality of student work is evaluated.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥ レ   ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ①      ②     ③     ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     Students with an ideal achievement level can design and develop a unified complex system that can efficiently control devices. Students with a standard achievement level can design and develop an application that can control devices.\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習課題に要する標準的な時間を記載してあります。日々の自学自習時間全体としては、各授業に応じた時間(例えば2単位科目の場合、予習2時間・復習2時間/週)を取るよう努めてください。詳しくは教員の指導に従って下さい。     授業明細   回数 学習内容 授業の運営方法 学習課題(予習・復習) 時間:",
+  "sourceYear": "2024",
+  "originalSourceIndex": 415,
+  "courseId": "2024:spring:E528-01:0:11539",
+  "language": "en"
+}

@@ -1,0 +1,288 @@
+{
+  "sourceIndex": 7876,
+  "sourceUrl": "/opsyllabus/kitos0110/379/1",
+  "importedAt": "2026-06-12T08:01:15.491Z",
+  "title": "分散システム",
+  "subtitle": "Distributed Object Oriented Systems",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "2",
+  "term": "2020年度\n 3rd year 1st semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [],
+  "keywords": [
+    "Distributed Processing 2.Cloud Computing 3.Virtualization 4.Network Architecture 5.Network Security"
+  ],
+  "educationalGoal": "A distributed system is a technology for integrating both computers and networks. Currently, many distributed systems have been formed from many technologies. Although I can't explain them all in this course, I will systematically explain as many as I can in the limited time of 15 weeks.",
+  "advice": "This is application course of computer network within which we will cover the following materials: 1. Network Architecture 2. Client&Server Model 3. Computer Communication (Remote Procedure Call) 4. Synchronization 5. Replication and Consistency 6. Fault Torrance 7. Network Security Students are expected to understand the mechanisms of network computing (include cluster computing). At the end of each chapter, some quizzes are attached so that the student's level of understanding can be confirmed. In addition, I will recommend related materials (books and URLs) that are suitable for furthering student understanding.",
+  "books": "Textbooks: Distributed System (in Japanese) Reference books: Distributed Processing System Reserved books: None",
+  "requiredKnowledge": "The units of “Programming 3” and “Information Network” are expected to have been acquired. Attendance is completely unrelated to student evaluations. However, if students do not attend at least two-thirds of the whole course, they will not be eligible to take the achievement confirmation test. Instead of covering all the contents described in the textbooks, we will select and explain as necessary. Then, after each commentary, students will have group work to solve presented problems and will give a presentation at the beginning of the next class.",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "K,N,Q",
+      "body": "Be able to explain the needs for and benefits of distributing data and processing."
+    },
+    {
+      "index": "②",
+      "type": "K,N,Q",
+      "body": "Be able to explain the needs for and benefits of distributing data and processing."
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "40",
+        "30",
+        "30",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "40",
+        "30",
+        "30",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "40",
+        "30",
+        "30",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションと\nリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "Explain distributed systems. The following elemental technologies required for distributed systems can be learned, and concrete technical contents can be explained: 1. Network architecture 2. Client-server model 3. Computer communication (remote procedure call) 4. Synchronization 5. Replication and consistency 6. Fault Torrance 7. Network security",
+    "standard": "Understand distributed systems. The following multiple elemental technologies required for a distributed system can be learned, and technical contents at the word level can be explained: 1. Network architecture 2. Client-server model 3. Computer communication (remote procedure call) 4. Synchronization 5. Replication and consistency 6. Fault Torrance 7. Network security"
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "1. Overview of distributed systems I will take up what a distributed system is and explain some of its advantages over a centralized system.",
+      "operation": "Lecture and quizzes",
+      "assignments": "Understand the objectives of class",
+      "minutes": "100"
+    },
+    {
+      "index": "2",
+      "content": "2. Types of distributed systems Understand the types and purposes of distributed systems. Learn what is different about how each type of configuration.",
+      "operation": "Presentation (student), Lecture and quizzes",
+      "assignments": "Review (Chapter 2 of Textbook) Preparation (Chapter 3 of the textbook)",
+      "minutes": "100"
+    },
+    {
+      "index": "3",
+      "content": "3. Architecture Learn basic design and concepts such as the design philosophy and basic design of distributed systems.",
+      "operation": "Presentation (student), Lecture and quizzes",
+      "assignments": "Review (Chapter 3 of Textbook) Preparation (Chapter 4 of the textbook)",
+      "minutes": "100"
+    },
+    {
+      "index": "4",
+      "content": "4. Process Learn about the execution units in a distributed system such as “process” and “thread”.",
+      "operation": "Presentation (student), Lecture and quizzes",
+      "assignments": "Review (Chapter 4 of Textbook) Preparation (Chapter 5 of the textbook)",
+      "minutes": "100"
+    },
+    {
+      "index": "5",
+      "content": "5. Client-Server model Learn the classification and characteristics of both clients and servers from several perspectives.",
+      "operation": "Presentation (student), Lecture and quizzes",
+      "assignments": "Review (Chapter 5 of Textbook) Preparation (Chapter 6 of the textbook)",
+      "minutes": "100"
+    },
+    {
+      "index": "6",
+      "content": "6. Communication Learn about basic reference models and basic functions for exchanging data between components of a distributed system.",
+      "operation": "Presentation (student), Lecture and quizzes",
+      "assignments": "Review (Chapter 6 of Textbook) Preparation (Chapter 7 of the textbook)",
+      "minutes": "100"
+    },
+    {
+      "index": "7",
+      "content": "7. Naming Explain common naming issues in distributed systems and learn about the main methods of naming.",
+      "operation": "Presentation (student), Lecture and quizzes",
+      "assignments": "Review (Chapter 7 of Textbook) Preparation (Chapter 8 of the textbook)",
+      "minutes": "100"
+    },
+    {
+      "index": "8",
+      "content": "- Mid-term exam 8. Synchronization Learn about the basic methods of clock synchronization and the exclusive control algorithms in distributed systems.",
+      "operation": "Presentation (student), Lecture and quizzes",
+      "assignments": "Review (Chapter 8 of Textbook) Preparation (Chapter 9 of the textbook)",
+      "minutes": "100"
+    },
+    {
+      "index": "9",
+      "content": "9. Replication and Consistency Learn about replication and consistency models for improved reliability and performance.",
+      "operation": "Presentation (student), Lecture and quizzes",
+      "assignments": "Review (Chapter 9 of Textbook) Preparation (Chapter 10 of the textbook)",
+      "minutes": "100"
+    },
+    {
+      "index": "10",
+      "content": "10. Fault Torrent Learn about basic concepts and techniques for introducing fault tolerance into distributed systems.",
+      "operation": "Presentation (student), Lecture and quizzes",
+      "assignments": "Review (Chapter 10 of Textbook) Preparation (Chapter 11 of the textbook)",
+      "minutes": "100"
+    },
+    {
+      "index": "11",
+      "content": "11. Network Security Learn about cryptographic technologies, authentication technologies, communication methods, and access control.",
+      "operation": "Presentation (student), Lecture and quizzes",
+      "assignments": "Review (Chapter 11 of Textbook) Preparation (Chapter 12 of the textbook)",
+      "minutes": "100"
+    },
+    {
+      "index": "12",
+      "content": "12. Distributed files and objects Learn the advantages and disadvantages of distributed files compared to centralized file systems.",
+      "operation": "Presentation (student), Lecture and quizzes",
+      "assignments": "Review (Chapter 12 of Textbook) Preparation (Chapter 13 of the textbook)",
+      "minutes": "100"
+    },
+    {
+      "index": "13",
+      "content": "Hold a lecture on distributed systems with external lecturers.",
+      "operation": "Presentation (lecturers)",
+      "assignments": "Review (Chapter 13 of Textbook)",
+      "minutes": "100"
+    },
+    {
+      "index": "14",
+      "content": "Summarize learning.",
+      "operation": "Presentation, quizzes",
+      "assignments": "Prepare for achievement exam.",
+      "minutes": "100"
+    },
+    {
+      "index": "15",
+      "content": "Achievement exam and review",
+      "operation": "Exam and review",
+      "assignments": "Prepare for achievement exam.",
+      "minutes": "100"
+    }
+  ],
+  "rawText": "金沢工業大学 学習支援計画書 E521-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Information and Computer Science\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n分散システム\nDistributed Object Oriented Systems  2 E521-01  2020年度\n 3rd year 1st semester  修学規程第4条を参照\n    担当教員名\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Distributed Processing 2.Cloud Computing 3.Virtualization 4.Network Architecture 5.Network Security  A distributed system is a technology for integrating both computers and networks. Currently, many distributed systems have been formed from many technologies. Although I can't explain them all in this course, I will systematically explain as many as I can in the limited time of 15 weeks.\n    授業の概要および学習上の助言   This is application course of computer network within which we will cover the following materials: 1. Network Architecture 2. Client&Server Model 3. Computer Communication (Remote Procedure Call) 4. Synchronization 5. Replication and Consistency 6. Fault Torrance 7. Network Security Students are expected to understand the mechanisms of network computing (include cluster computing). At the end of each chapter, some quizzes are attached so that the student's level of understanding can be confirmed. In addition, I will recommend related materials (books and URLs) that are suitable for furthering student understanding.\n    教科書および参考書・リザーブドブック   Textbooks: Distributed System (in Japanese) Reference books: Distributed Processing System Reserved books: None\n    履修に必要な予備知識や技能   The units of “Programming 3” and “Information Network” are expected to have been acquired. Attendance is completely unrelated to student evaluations. However, if students do not attend at least two-thirds of the whole course, they will not be eligible to take the achievement confirmation test. Instead of covering all the contents described in the textbooks, we will select and explain as necessary. Then, after each commentary, students will have group work to solve presented problems and will give a presentation at the beginning of the next class.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① K,N,Q Be able to explain the needs for and benefits of distributing data and processing.   ② K,N,Q Be able to explain the needs for and benefits of distributing data and processing.   ③     ④     ⑤     ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 40 30 30 0 0 0 0 100     指標と評価割合 総合評価割合 40 30 30 0 0 0 0 100   総合力指標 知識を取り込む力 40 30 30 0 0 0 0 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ An exam will be given at the end of the semester to evaluate the degree of achievement. Choose from the quizzes that will be given during the lecture. During the exam, only writing instruments are allowed.    ② レ   ③     ④     ⑤     ⑥     クイズ\n小テスト ① レ Quizzes will be given when each chapter is finished to determine improvements to the level of understanding.   ② レ   ③     ④     ⑤     ⑥     レポート ① レ  Students will be evaluated on seven or eight reports.    ② レ   ③     ④     ⑤     ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ①      ②     ③     ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     Explain distributed systems. The following elemental technologies required for distributed systems can be learned, and concrete technical contents can be explained: 1. Network architecture 2. Client-server model 3. Computer communication (remote procedure call) 4. Synchronization 5. Replication and consistency 6. Fault Torrance 7. Network security  Understand distributed systems. The following multiple elemental technologies required for a distributed system can be learned, and technical contents at the word level can be explained: 1. Network architecture 2",
+  "sourceYear": "2020",
+  "originalSourceIndex": 379,
+  "courseId": "2020:full-year:E924-11:0:7876",
+  "language": "en"
+}

@@ -1,0 +1,308 @@
+{
+  "sourceIndex": 11437,
+  "sourceUrl": "/opsyllabus/kitos0110/313/1",
+  "importedAt": "2026-06-12T08:02:31.952Z",
+  "title": "電子回路Ⅱ",
+  "subtitle": "Electronic Circuits II",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "2",
+  "term": "2024年度\n 2nd year 2nd semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "FUKADA Haruki",
+    "ITO Kenji",
+    "HIRAMA Junji",
+    "NOGUCHI Keisuke"
+  ],
+  "keywords": [
+    "Boolean function 2.Logic circuits 3.Flip-flops 4.Counter circuits 5.A/D D/A converter"
+  ],
+  "educationalGoal": "Electronic circuits is a very important topic. In this subject, Digital Circuits, the objective is to learn the fndamentals of Boolean equations (logic algebra) and logic circuits, and to understand the principles behind how various logic circuits operate.In addition to combined logic circuits such as AND, OR, and NOT gates, the students will learn to understand and explain the operating principles of sequential circuits such as flip-flops and counters as well as more functional circuits such as analog to digital(A/D) and digital to analog (D/A) converters.",
+  "advice": "We will cover the following materials. 1. Fundamental logic circuits and boolean function AND, OR, NOT, EX-OR 2. Design for combination logical circuit Conversion circuit (NAND, NOR) Simplification using the karnaugh map Logical circuit design Adder Circuit 3. Flip Flop(FF) Circuit Synchronous / asynchronous 4 types of FF RS-FF, JK-FF, T-FF, D-FF 4. Counter Circuit Synchronous/asynchronous type UP/DOWN counter Ripple counter Shift resister 5. A/D and D/A converter circuit Principle and design",
+  "books": "wakaru dejitaru densikairo nishin syuppan",
+  "requiredKnowledge": "All you need to study this subject is to understand the physical electronics and basic electric circuit.",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "J",
+      "body": "Be able to explain the digital electronics and fundamental logicl circuits."
+    },
+    {
+      "index": "②",
+      "type": "J",
+      "body": "Be able to design the basic combination logical circuit."
+    },
+    {
+      "index": "③",
+      "type": "J",
+      "body": "Be able to explain the 4 types for Flip Flop."
+    },
+    {
+      "index": "④",
+      "type": "J",
+      "body": "Be able to design the synchro and asynchro type digital counter circuit."
+    },
+    {
+      "index": "⑤",
+      "type": "J",
+      "body": "Be able to explain the principle opreration for A/D and D/A converter."
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "40",
+        "30",
+        "30",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "40",
+        "30",
+        "30",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "40",
+        "30",
+        "30",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションと\nリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "●To sufficiently explain the design of combined logic circuits (NAND, mutual conversion to NOR circuits, simplification using Karnaugh maps, Adder circuits, etc.). ● To sufficiently explain asynchronous/synchronous flip-flop circuits (Triggering FF circuits, RS-FF, JK-FF, T-FF, D-FF). In addition, the ability to apply multiple FF components to design digital circuits. ● The ability to explain synchronous counters, asynchronous counters, shift registers, and to design complex counter circuits. ● To sufficiently explain A/D and D/A converter basic construction and operation principles.",
+    "standard": "● Have the ability to design basic combination logic circuits, and particularly be able to explain the simplification process using Karnaugh map. ● Be able to explain specifications for the 4 types of FFs. ● Be able to explain synchronous/asynchronous digital counters. ● Be able to explain the principle of A/D and D/A converter circuits."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Course introduction and self introduction of the teacher Basic Operation of logical circuit (AND, OR, NOT, typical gates) Truth table and Logical symbol Self-check",
+      "operation": "Lecture and practice Q & A",
+      "assignments": "Understand the objectives of class",
+      "minutes": "100"
+    },
+    {
+      "index": "2",
+      "content": "Combination Logical Circuit Boolean function(algebra) Self-check",
+      "operation": "Lecture and practice Q & A",
+      "assignments": "Preparation and review",
+      "minutes": "100"
+    },
+    {
+      "index": "3",
+      "content": "Boolean function Simplification using the karnaugh map Self-check",
+      "operation": "Test and review Lecture and practice Q & A",
+      "assignments": "Preparation and review",
+      "minutes": "100"
+    },
+    {
+      "index": "4",
+      "content": "Simplification process using the karnaugh map The conversion from the karnaugh map to logic circuit Self-check",
+      "operation": "Lecture and practice Q & A",
+      "assignments": "Preparation and review",
+      "minutes": "100"
+    },
+    {
+      "index": "5",
+      "content": "Harf adder(HA) and Full adder(FA) logic circuit Work(Combination Logical Circuit) Self-check",
+      "operation": "Test and review Lecture and practice Q & A",
+      "assignments": "Preparation and review",
+      "minutes": "100"
+    },
+    {
+      "index": "6",
+      "content": "HA and FA logic circuit Work(total practice) Self-check",
+      "operation": "Lecture and practice Q & A",
+      "assignments": "Preparation and review",
+      "minutes": "100"
+    },
+    {
+      "index": "7",
+      "content": "Test and Review about contents learned in No.1〜No.6 classes Self-check",
+      "operation": "Test and Review",
+      "assignments": "Preparation and review",
+      "minutes": "100"
+    },
+    {
+      "index": "8",
+      "content": "Self-reflection class Flip Flop circuit (RS-FF) Self-check",
+      "operation": "Review and Self-refrection Lecture and practice Q & A",
+      "assignments": "Preparation and review",
+      "minutes": "100"
+    },
+    {
+      "index": "9",
+      "content": "Flip Flop circuit (JK-FF, T-FF, D-FF) Self-check",
+      "operation": "Lecture and practice Q & A",
+      "assignments": "Preparation and review",
+      "minutes": "100"
+    },
+    {
+      "index": "10",
+      "content": "Flip Flop circuit (Maste Slave type of FF) Work(FF variously) Self-check",
+      "operation": "Test and review Lecture and practice Q & A",
+      "assignments": "Preparation and review",
+      "minutes": "100"
+    },
+    {
+      "index": "11",
+      "content": "The design of the sequential logic circuit Asynchronous type counter 3-bit and 4-bit binary counter Self-check",
+      "operation": "Lecture and practice Q & A",
+      "assignments": "Preparation and review",
+      "minutes": "100"
+    },
+    {
+      "index": "12",
+      "content": "Synchronous type UP/DOWN counter Self-check",
+      "operation": "Test and review Lecture and practice Q & A",
+      "assignments": "Preparation and review",
+      "minutes": "100"
+    },
+    {
+      "index": "13",
+      "content": "Shift resister A/D converter, D/Aconverter Work Self-check",
+      "operation": "Lecture and practice Q & A",
+      "assignments": "Preparation and review",
+      "minutes": "100"
+    },
+    {
+      "index": "14",
+      "content": "Final exam",
+      "operation": "Test Self-reflection",
+      "assignments": "Preparation and review",
+      "minutes": "100"
+    },
+    {
+      "index": "15",
+      "content": "Review for final exam",
+      "operation": "Review Self-evaluation",
+      "assignments": "Preparation and review",
+      "minutes": "100"
+    }
+  ],
+  "rawText": "金沢工業大学 学習支援計画書 E614-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Electrical and Electronic Engineering(2018〜)\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n電子回路Ⅱ\nElectronic Circuits II  2 E614-01  2024年度\n 2nd year 2nd semester  修学規程第4条を参照\n    担当教員名\n FUKADA Haruki, ITO Kenji, HIRAMA Junji, NOGUCHI Keisuke\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Boolean function 2.Logic circuits 3.Flip-flops 4.Counter circuits 5.A/D D/A converter  Electronic circuits is a very important topic. In this subject, Digital Circuits, the objective is to learn the fndamentals of Boolean equations (logic algebra) and logic circuits, and to understand the principles behind how various logic circuits operate.In addition to combined logic circuits such as AND, OR, and NOT gates, the students will learn to understand and explain the operating principles of sequential circuits such as flip-flops and counters as well as more functional circuits such as analog to digital(A/D) and digital to analog (D/A) converters.\n    授業の概要および学習上の助言   We will cover the following materials. 1. Fundamental logic circuits and boolean function AND, OR, NOT, EX-OR 2. Design for combination logical circuit Conversion circuit (NAND, NOR) Simplification using the karnaugh map Logical circuit design Adder Circuit 3. Flip Flop(FF) Circuit Synchronous / asynchronous 4 types of FF RS-FF, JK-FF, T-FF, D-FF 4. Counter Circuit Synchronous/asynchronous type UP/DOWN counter Ripple counter Shift resister 5. A/D and D/A converter circuit Principle and design\n    教科書および参考書・リザーブドブック   wakaru dejitaru densikairo nishin syuppan\n    履修に必要な予備知識や技能   All you need to study this subject is to understand the physical electronics and basic electric circuit.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① J Be able to explain the digital electronics and fundamental logicl circuits.   ② J Be able to design the basic combination logical circuit.   ③ J Be able to explain the 4 types for Flip Flop.   ④ J Be able to design the synchro and asynchro type digital counter circuit.   ⑤ J Be able to explain the principle opreration for A/D and D/A converter.   ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 40 30 30 0 0 0 0 100     指標と評価割合 総合評価割合 40 30 30 0 0 0 0 100   総合力指標 知識を取り込む力 40 30 30 0 0 0 0 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ There will be two tests. The first (mid-term examination) will focus on material from objectives ① and ②. The second test (final examination) will focus on material from objectives ③〜⑤. Each test will present an integrated problem (some of which is an applied problem) based on questions given in quizzes. Some example topics are, fundamental logic circuit theory (AND・OR・NOT・EX-OR, etc.), Boolean algebra, Karnaugh Maps, combined logic circuits, the basic operations of the 4 flip-flop types, synchronous/asynchronous counter circuits, and A/D and D/A converter circuits.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     クイズ\n小テスト ① レ To test how well the students know the lesson content, multiple quizzes will be given for class objectives ①〜⑤. The quizzes will be given as needed, therefore the student should study and review so that they are prepared at all times.    ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     レポート ① レ Students will be evaluated on 2 or 3 reports. It is necessary to understand the lecture contents. Report questions (practice questions) will be assigned as needed to improve the level of understanding for the class content. Reports written with a positive attitude will help to increase their evaluation results.    ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ①      ②     ③     ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レ",
+  "sourceYear": "2024",
+  "originalSourceIndex": 313,
+  "courseId": "2024:spring:E606-01:0:11437",
+  "language": "en"
+}

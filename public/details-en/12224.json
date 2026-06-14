@@ -1,0 +1,306 @@
+{
+  "sourceIndex": 12224,
+  "sourceUrl": "/opsyllabus/kitos0110/141/1",
+  "importedAt": "2026-06-12T08:02:48.033Z",
+  "title": "制御工学",
+  "subtitle": "Control Engineering",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "2",
+  "term": "2025年度\n 2nd year 2nd semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "MORIMOTO Yoshitaka",
+    "HAYASHI Akio"
+  ],
+  "keywords": [
+    "Control system 2.Laplace transform 3.Transfer function, block diagram 4.Frequency response, transient response 5.Regional collaboration, Data Science"
+  ],
+  "educationalGoal": "Students will: (1) Learn the basics of developing control system (2) Learn Laplace transformation and the transfer functions of control systems (3) Learn the simulation method of control system by MATLAB/Simulink (4) Learn the basics of control system analysis based on the transient and frequency response.",
+  "advice": "This is a basic course in control engineering. We will cover the following topics: 1. Laplace transform 2. Transfer function 3. Block diagram 4. Board diagram 5. Stability of control system 6. Design of control system Students are expected to understand the meaning of the analysis method for control systems. Students are expected to determine the stability of a control system.",
+  "books": "Text: https://www.morikita.co.jp/books/mid/091842",
+  "requiredKnowledge": "It is desirable that you fully understand and master the contents of the mechanics and mathematics courses.",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "D,J,K,L,M,O",
+      "body": "Be able to Laplace transform a simple mathematical model of a system and express it using a transfer function."
+    },
+    {
+      "index": "②",
+      "type": "D,J,K,L,M,O",
+      "body": "Be able to use MATLAB/Simulink to create a block diagram of a system."
+    },
+    {
+      "index": "③",
+      "type": "D,J,K,L,M,O",
+      "body": "Be able to express the dynamic characteristics of a system as transient and frequency response characteristics."
+    },
+    {
+      "index": "④",
+      "type": "D,J,K,L,M,O",
+      "body": "Be able to can use MATLAB/Simulink to simulate the responsiveness of control systems."
+    },
+    {
+      "index": "⑤",
+      "type": "D,J,K,L,M,O",
+      "body": "Be able to learn the latest technology from local technicians and explore a given task."
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "0",
+        "60",
+        "30",
+        "0",
+        "0",
+        "0",
+        "10",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "0",
+        "60",
+        "30",
+        "0",
+        "0",
+        "0",
+        "10",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "0",
+        "60",
+        "30",
+        "0",
+        "0",
+        "0",
+        "10",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションと\nリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "(1) Students can design control systems for simple mechanical systems. (2) Students can express the mathematical model of an automatic control system as a transfer function. (3) Students can express the dynamic characteristics of the automatic control system as transient and frequency response characteristics, and explain what they mean. (4) Students can determine and confirm the stability of the designed control system. (5) Students can use MATLAB / Simulink to simulate the response characteristics of designed control system. (6) Students can understand the problems presented by local engineers and propose solutions.",
+    "standard": "(1) Students can understand the elements necessary for designing control systems for mechanical systems. (2) Students can explain the transfer function. (3) Students can explain the dynamic characteristics of control systems. (4) Students can explain how to determine the stability of the control system. (5) Students can simulate control system responses with MATLAB / Simulink. (6) Students can understand the problems presented by local technicians."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "[Guidance] Course introduction [Chapter 1 System and Control] [Regional cooperation]",
+      "operation": "Guidance Lecture and Q&A",
+      "assignments": "Understand the course objectives",
+      "minutes": "100"
+    },
+    {
+      "index": "2",
+      "content": "[Chapter 2 Laplace transform]",
+      "operation": "Lecture and Q&A Self-check",
+      "assignments": "Prepare for learning Laplace transform (report)",
+      "minutes": "100"
+    },
+    {
+      "index": "3",
+      "content": "Test and review of content learned in classes 1-2 [Chapter 3 Transfer Function]",
+      "operation": "Test Lecture and Q&A Self-check",
+      "assignments": "Prepare for the test",
+      "minutes": "100"
+    },
+    {
+      "index": "4",
+      "content": "[Chapter 3 Transfer Function]",
+      "operation": "Lecture and Q&A Self-check",
+      "assignments": "",
+      "minutes": "100"
+    },
+    {
+      "index": "5",
+      "content": "[Chapter 4 block diagram]",
+      "operation": "Lecture and Q&A Practice Self-check",
+      "assignments": "Prepare for MATLAB / Simulink installation",
+      "minutes": "100"
+    },
+    {
+      "index": "6",
+      "content": "[Practice with MATLAB / Simulink] How to use MATLAB Simulink",
+      "operation": "Practice Self-check",
+      "assignments": "Prepare for using MATLAB / Simulink Solve the practice problems of Transfer function / block diagram (report)",
+      "minutes": "100"
+    },
+    {
+      "index": "7",
+      "content": "Test and review of content learned in classes 4-6",
+      "operation": "Test Self-check",
+      "assignments": "Prepare for the test",
+      "minutes": "100"
+    },
+    {
+      "index": "8",
+      "content": "[Chapter 5 Frequency Response (Vector Trajectory)]",
+      "operation": "Lecture and Q&A Self-reflection",
+      "assignments": "Prepare for the test",
+      "minutes": ""
+    },
+    {
+      "index": "9",
+      "content": "[Chapter 6 Bode diagram]",
+      "operation": "Lecture and Q&A Self-check",
+      "assignments": "Prepare for block diagrams and transient response",
+      "minutes": "100"
+    },
+    {
+      "index": "10",
+      "content": "[Chapter 6 Bode diagram] [Practice with MATLAB / Simulink] Bode diagram",
+      "operation": "Lecture and Q&A Practice Self-check",
+      "assignments": "",
+      "minutes": "100"
+    },
+    {
+      "index": "11",
+      "content": "[Chapter 7 Transient characteristics] [Chapter 8 System stability determination] [Practice with MATLAB / Simulink]",
+      "operation": "Lecture and Q&A Practice Self-check",
+      "assignments": "Bord diagram and frequency response (report)",
+      "minutes": "100"
+    },
+    {
+      "index": "12",
+      "content": "[Chapter 7 Transient characteristics] [Chapter 8 System stability determination] [Practice with MATLAB / Simulink]",
+      "operation": "Lecture and Q&A Practice Self-check",
+      "assignments": "",
+      "minutes": "100"
+    },
+    {
+      "index": "13",
+      "content": "[Chapter 9 Control system design] [Practice with MATLAB / Simulink]",
+      "operation": "Lecture and Q&A Practice Self-check",
+      "assignments": "Prepare for stability of control systems Solve the practice problems",
+      "minutes": "100"
+    },
+    {
+      "index": "14",
+      "content": "[Chapter 9 Control system design] [Practice with MATLAB / Simulink]",
+      "operation": "Lecture and Q&A Practice Self-check",
+      "assignments": "Transient characteristics, system stability discrimination (report)",
+      "minutes": "100"
+    },
+    {
+      "index": "15",
+      "content": "Test and review Self-evaluation",
+      "operation": "Test and review Self-evaluation",
+      "assignments": "Prepare for the test",
+      "minutes": "100"
+    }
+  ],
+  "rawText": "金沢工業大学 学習支援計画書 E024-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Mechanical Engineering(〜2024)\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n制御工学\nControl Engineering  2 E024-01  2025年度\n 2nd year 2nd semester  修学規程第4条を参照\n    担当教員名\n MORIMOTO Yoshitaka, HAYASHI Akio\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Control system 2.Laplace transform 3.Transfer function, block diagram 4.Frequency response, transient response 5.Regional collaboration, Data Science  Students will: (1) Learn the basics of developing control system (2) Learn Laplace transformation and the transfer functions of control systems (3) Learn the simulation method of control system by MATLAB/Simulink (4) Learn the basics of control system analysis based on the transient and frequency response.\n    授業の概要および学習上の助言   This is a basic course in control engineering. We will cover the following topics: 1. Laplace transform 2. Transfer function 3. Block diagram 4. Board diagram 5. Stability of control system 6. Design of control system Students are expected to understand the meaning of the analysis method for control systems. Students are expected to determine the stability of a control system.\n    教科書および参考書・リザーブドブック   Text: https://www.morikita.co.jp/books/mid/091842\n    履修に必要な予備知識や技能   It is desirable that you fully understand and master the contents of the mechanics and mathematics courses.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① D,J,K,L,M,O Be able to Laplace transform a simple mathematical model of a system and express it using a transfer function.   ② D,J,K,L,M,O Be able to use MATLAB/Simulink to create a block diagram of a system.   ③ D,J,K,L,M,O Be able to express the dynamic characteristics of a system as transient and frequency response characteristics.   ④ D,J,K,L,M,O Be able to can use MATLAB/Simulink to simulate the responsiveness of control systems.   ⑤ D,J,K,L,M,O Be able to learn the latest technology from local technicians and explore a given task.   ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 0 60 30 0 0 0 10 100     指標と評価割合 総合評価割合 0 60 30 0 0 0 10 100   総合力指標 知識を取り込む力 0 60 30 0 0 0 10 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ①      ②     ③     ④     ⑤     ⑥     クイズ\n小テスト ① レ Tests are given after each topic is finished to improve your level of understanding.    ② レ   ③ レ   ④ レ   ⑤     ⑥     レポート ① レ Students will be evaluated on four or five reports. Students are required to meet submission deadlines.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ① レ Students will be evaluated based on learning efforts in lectures and practices and report submission.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     (1) Students can design control systems for simple mechanical systems. (2) Students can express the mathematical model of an automatic control system as a transfer function. (3) Students can express the dynamic characteristics of the automatic control system as transient and frequency response characteristics, and explain what they mean. (4) Students can determine and confirm the stability of the designed control system. (5) Students can use MATLAB / Simulink to simulate the response characteristics of designed control system. (6) Students can understand the problems presented by local engineers and propose solutions. (1) Students can understand the elements necessary for designing control systems for mechanical systems. (2) Students can explain the transfer function. (3) Students can explain the dynamic characteristics of control systems. (4) Students can explain how to determine the stability of the control system. (5) Students can simulate control sys",
+  "sourceYear": "2025",
+  "originalSourceIndex": 141,
+  "courseId": "2025:spring:E018-01:0:12224",
+  "language": "en"
+}

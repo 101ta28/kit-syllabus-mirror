@@ -1,0 +1,298 @@
+{
+  "sourceIndex": 7929,
+  "sourceUrl": "/opsyllabus/kitos0110/432/1",
+  "importedAt": "2026-06-12T08:01:15.907Z",
+  "title": "構造力学Ⅱ",
+  "subtitle": "Structural Mechanics II",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "2",
+  "term": "2020年度\n 2nd year 2nd semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [],
+  "keywords": [
+    "Stress-strain relationship 2.Sectional moment of inertia 3.Moment of inertia area 4.Stress of structural members 5.Influence line"
+  ],
+  "educationalGoal": "Students will: (1) learn the strength and stress-strain relationship of materials. (2) learn about the sectional moment of inertia and moment of inertia area. (3) learn how to estimate flexural and shear stresses in beams. (4) learn the concept of influence lines in static beams. (5) learn how to estimate cross sectional forces using influence lines.",
+  "advice": "This is the second basic structural mechanics course. We will cover the following topics: 1. Estimating reaction and shear forces and flexural moment using influence lines 2. Stress and strain 3. Sectional moment of inertia and moment of inertia area 4. Stress in structural members 5. Estimating shear stress and flexural stress in beam members 6. The influence line concept These concepts are often used in structural design. Students should gain a deep understanding of this material. The concepts are also useful in studying Structural Mechanics Analysis, design project/implementing and operation, Reinforced Concrete and civil engineering design.",
+  "books": "Textbooks: Reference books:None Reserved books:None",
+  "requiredKnowledge": "Understanding of Structural Mechanics I.",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "J",
+      "body": "Students can explain the relationship between stress and strain."
+    },
+    {
+      "index": "②",
+      "type": "J",
+      "body": "Students can estimate the sectional moment of inertia and moment of inertia area of complex cross sections."
+    },
+    {
+      "index": "③",
+      "type": "J",
+      "body": "Students can estimate the shear stress and flexural stress in beam members."
+    },
+    {
+      "index": "④",
+      "type": "J",
+      "body": "Students can estimate reaction and shear forces and flexural moment using influence lines."
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "40",
+        "40",
+        "10",
+        "0",
+        "0",
+        "5",
+        "5",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "40",
+        "40",
+        "10",
+        "0",
+        "0",
+        "5",
+        "5",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "40",
+        "40",
+        "10",
+        "0",
+        "0",
+        "5",
+        "5",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションと\nリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "Students can estimate stress-strain relationships, sectional moments of inertia, moment of inertia areas, stresses in members and influence lines.",
+    "standard": "Students can understand stress-strain relationships, sectional moments of inertia, moment of inertia areas, stresses in members and influence lines."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Sectional moments of inertia and moment of inertia areas of complex cross sections",
+      "operation": "Lecture, practice and Q&A",
+      "assignments": "Prepare and review pages 134 to 138 of the textbook.",
+      "minutes": "100 100"
+    },
+    {
+      "index": "2",
+      "content": "Sectional moments of inertia and moment of inertia areas of reinforced concrete",
+      "operation": "Lecture, practice and Q&A",
+      "assignments": "Prepare and review relating materials including other classes.",
+      "minutes": "100 100"
+    },
+    {
+      "index": "3",
+      "content": "Cross-sectional forces in cantilever beams",
+      "operation": "Lecture, practice and Q&A",
+      "assignments": "Prepare and review pages 75 to 85 of the textbook.",
+      "minutes": "100 100"
+    },
+    {
+      "index": "4",
+      "content": "Test and review on contents learned in 1st to 3rd classes.",
+      "operation": "Test, lecture, Q&A, portfolio and self-check",
+      "assignments": "Prepare for the test. Review the test.",
+      "minutes": "100 100"
+    },
+    {
+      "index": "5",
+      "content": "Shear forces and flexural moments in simple beam on which external moments or triangular distributions act",
+      "operation": "Lecture, practice and Q&A",
+      "assignments": "Prepare and review pages 58 to 74 of the textbook.",
+      "minutes": "100 100"
+    },
+    {
+      "index": "6",
+      "content": "Cross-sectional forces in overhung beams and Gerber beams",
+      "operation": "Lecture, practice and Q&A",
+      "assignments": "Prepare and review pages 85 to 100 of the textbook.",
+      "minutes": "100 100"
+    },
+    {
+      "index": "7",
+      "content": "Stress, strain and their relationship.",
+      "operation": "Lecture, practice and Q&A",
+      "assignments": "Prepare and review pages 112 to 119 of the textbook.",
+      "minutes": "100 100"
+    },
+    {
+      "index": "8",
+      "content": "Test and review of contents learned in 5th to 7th classes.",
+      "operation": "Test, lecture, Q&A, portfolio and self-check",
+      "assignments": "Prepare for the test. Review the test.",
+      "minutes": "100 100"
+    },
+    {
+      "index": "9",
+      "content": "Flexural and shear stresses in beam members",
+      "operation": "Lecture, practice and Q&A",
+      "assignments": "Prepare and review pages 143 to 154 of the textbook.",
+      "minutes": "100 100"
+    },
+    {
+      "index": "10",
+      "content": "Estimating reaction and cross sectional forces from influence lines in simple beams",
+      "operation": "Lecture, practice and Q&A",
+      "assignments": "Prepare and review pages 102 to 105 of the textbook.",
+      "minutes": "100 100"
+    },
+    {
+      "index": "11",
+      "content": "Estimating reaction and cross sectional forces from influence lines in cantilever beams",
+      "operation": "Lecture, practice and Q&A",
+      "assignments": "Prepare and review pages 109 to 110 of the textbook.",
+      "minutes": "100 100"
+    },
+    {
+      "index": "12",
+      "content": "Test and review of contents learned in 9th to 11th classes",
+      "operation": "Test, lecture, practice, Q&A, portfolio and self-check",
+      "assignments": "Prepare for the test. Review the test.",
+      "minutes": "100 100"
+    },
+    {
+      "index": "13",
+      "content": "Influence line in overhung beams",
+      "operation": "Lecture, practice and Q&A",
+      "assignments": "Prepare and review pages 102 to 110 of the textbook.",
+      "minutes": "100 100"
+    },
+    {
+      "index": "14",
+      "content": "Practice on cross sectional stress and influence lines",
+      "operation": "Practice and Q&A",
+      "assignments": "Review 1-13 th class",
+      "minutes": "100 100"
+    },
+    {
+      "index": "15",
+      "content": "Final exam and review",
+      "operation": "Exam and review, self-evaluation",
+      "assignments": "Prepare for the exam. Review the class.",
+      "minutes": "100 100"
+    }
+  ],
+  "rawText": "金沢工業大学 学習支援計画書 E713-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Civil and Environmental Engineering(2018〜)\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n構造力学Ⅱ\nStructural Mechanics II  2 E713-01  2020年度\n 2nd year 2nd semester  修学規程第4条を参照\n    担当教員名\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Stress-strain relationship 2.Sectional moment of inertia 3.Moment of inertia area 4.Stress of structural members 5.Influence line  Students will: (1) learn the strength and stress-strain relationship of materials. (2) learn about the sectional moment of inertia and moment of inertia area. (3) learn how to estimate flexural and shear stresses in beams. (4) learn the concept of influence lines in static beams. (5) learn how to estimate cross sectional forces using influence lines.\n    授業の概要および学習上の助言   This is the second basic structural mechanics course. We will cover the following topics: 1. Estimating reaction and shear forces and flexural moment using influence lines 2. Stress and strain 3. Sectional moment of inertia and moment of inertia area 4. Stress in structural members 5. Estimating shear stress and flexural stress in beam members 6. The influence line concept These concepts are often used in structural design. Students should gain a deep understanding of this material. The concepts are also useful in studying Structural Mechanics Analysis, design project/implementing and operation, Reinforced Concrete and civil engineering design.\n    教科書および参考書・リザーブドブック   Textbooks: Reference books:None Reserved books:None\n    履修に必要な予備知識や技能   Understanding of Structural Mechanics I.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① J Students can explain the relationship between stress and strain.   ② J Students can estimate the sectional moment of inertia and moment of inertia area of complex cross sections.   ③ J Students can estimate the shear stress and flexural stress in beam members.   ④ J Students can estimate reaction and shear forces and flexural moment using influence lines.   ⑤     ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 40 40 10 0 0 5 5 100     指標と評価割合 総合評価割合 40 40 10 0 0 5 5 100   総合力指標 知識を取り込む力 40 40 10 0 0 5 5 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ There is an exam at the end of the semester to evaluate students’ achievement. Calculators specified by this academic department can be used.    ② レ   ③ レ   ④ レ   ⑤     ⑥     クイズ\n小テスト ① レ There is a test at the end of each chapter to improve students’ understanding. Calculators specified by this academic department can be used in every test.    ② レ   ③ レ   ④ レ   ⑤     ⑥     レポート ① レ There are several reports to enhance the level of understanding.   ② レ   ③ レ   ④ レ   ⑤     ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ① レ Students are requested to conduct self-checks of their own achievement in this class.   ② レ   ③ レ   ④ レ   ⑤     ⑥     その他 ① レ Students’ attitude and interest in this class are evaluated from activity records.    ② レ   ③ レ   ④ レ   ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     Students can estimate stress-strain relationships, sectional moments of inertia, moment of inertia areas, stresses in members and influence lines.  Students can understand stress-strain relationships, sectional moments of inertia, moment of inertia areas, stresses in members and influence lines.\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習課題に要する標準的な時間を記載してあります。日々の自学自習時間全体としては、各授業に応じた時間(例えば2単位科目の場合、予習2時間・復習2時間/週)を取るよう努めてください。詳しくは教員の指導に従って下さい。     授業明細   回数 学習内容 授業の運営方法 学習課題(予習・復習) 時間:分※  ",
+  "sourceYear": "2020",
+  "originalSourceIndex": 432,
+  "courseId": "2020:fall:E519-01:0:7929",
+  "language": "en"
+}

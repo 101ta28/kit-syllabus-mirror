@@ -1,0 +1,305 @@
+{
+  "sourceIndex": 12340,
+  "sourceUrl": "/opsyllabus/kitos0110/257/1",
+  "importedAt": "2026-06-12T08:02:49.016Z",
+  "title": "アドバンストロボティクス",
+  "subtitle": "Advanced Robotics",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "2",
+  "term": "2025年度\n 3rd year 2nd semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "FUJITA Masayuki"
+  ],
+  "keywords": [
+    "Linear Regression and Classification 2.Kernel Regression 3.support Vector Machine 4.Gauss Process Regression 5.Model Learning and Learning Based Control"
+  ],
+  "educationalGoal": "Acquire the necessary knowledge of machine learning in robotics. Students will understand how to learn the motion of a robot in space from data and be able to use it for model learning and learning-based control. Students will learn linear regression and classification, polynomial regression, Gaussian kernel regression, and other kernel methods, as well as support vector machines and Gaussian process regression, and be able to use these methods in Python. Students will also acquire knowledge and skills for model learning and learning-based control.",
+  "advice": "The student should understand the fundamentals of linear algebra and probability. It is also necessary to understand the fundamentals of system control (control engineering). Preparation for the next lecture will be given in class, and students are expected to check the contents of the lecture in advance. For review, solve the exercise reports (using Python) given in the class by yourself, and clarify any unclear points by the next class.",
+  "books": "",
+  "requiredKnowledge": "The student should have an understanding of the fundamentals of linear algebra and probability. The student should also have an understanding of the fundamentals of system control (control engineering).",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "L,J,O",
+      "body": "Machine learning of linear regression and classification can be performed."
+    },
+    {
+      "index": "②",
+      "type": "L,J,O",
+      "body": "Can perform machine learning using the kernel method of polynomial regression and Gaussian kernel regression."
+    },
+    {
+      "index": "③",
+      "type": "L,J,O",
+      "body": "Can perform machine learning with support vector machines."
+    },
+    {
+      "index": "④",
+      "type": "L,J,O",
+      "body": "Machine learning by Gaussian process regression."
+    },
+    {
+      "index": "⑤",
+      "type": "L,J,O",
+      "body": "Model learning and learning-based control."
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "0",
+        "0",
+        "60",
+        "0",
+        "0",
+        "0",
+        "40",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "0",
+        "0",
+        "60",
+        "0",
+        "0",
+        "0",
+        "40",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "0",
+        "0",
+        "60",
+        "0",
+        "0",
+        "0",
+        "40",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションと\nリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "Mathematical understanding of linear regression and classification, kernel methods such as polynomial and Gaussian kernel regression, support vector machines and Gaussian process regression, model learning and learning-based control.",
+    "standard": "Use Python for linear regression and classification, kernel methods such as polynomial and Gaussian kernel regression, support vector machines and Gaussian process regression, model learning and learning-based control."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Guidance Objectives and Motivation",
+      "operation": "Lecture",
+      "assignments": "Preparation: Fundamentals of R obotics and System Control Review: Understanding of the r elevant sections of the textbo ok",
+      "minutes": "90"
+    },
+    {
+      "index": "2",
+      "content": "Linear Regression Systems of Linear Equations Normal Equations",
+      "operation": "Lecture",
+      "assignments": "Preparation: Read through the textbook Review: Understanding of the r elevant sections of the textbo ok",
+      "minutes": "90"
+    },
+    {
+      "index": "3",
+      "content": "Linear Regression Least-Squares Method Simple Regression Multiple Regression",
+      "operation": "Lecture",
+      "assignments": "Preparation: Read through the textbook Review: Understanding of the r elevant sections of the textbo ok",
+      "minutes": "90"
+    },
+    {
+      "index": "4",
+      "content": "Model Learning Simple Regression Multiple Regression Model Learning",
+      "operation": "Lecture and Exercises",
+      "assignments": "Preparation: Read through the textbook Review: Understanding of the r elevant sections of the textbo ok",
+      "minutes": "90"
+    },
+    {
+      "index": "5",
+      "content": "Linear Classification Optimization",
+      "operation": "Lecture and Exercises",
+      "assignments": "Preparation: Read through the textbook Review: Understanding of the r elevant sections of the textbo ok",
+      "minutes": "90"
+    },
+    {
+      "index": "6",
+      "content": "Linear Classification Linear Support Vector Machine Gaussian Distribution",
+      "operation": "Lecture and Exercises",
+      "assignments": "Preparation: Read through the textbook Review: Understanding of the r elevant sections of the textbo ok",
+      "minutes": "90"
+    },
+    {
+      "index": "7",
+      "content": "Kernel Regression From Linear to Kernel Polynomial Regression",
+      "operation": "Lecture and Exercises",
+      "assignments": "Preparation: Read through the textbook Review: Understanding of the r elevant sections of the textbo ok",
+      "minutes": "90"
+    },
+    {
+      "index": "8",
+      "content": "Kernel Regression Maximum Likelihood Estimation Gaussian kernel Regression Ridge Regression",
+      "operation": "Lecture and Exercises",
+      "assignments": "Preparation: Read through the textbook Review: Understanding of the r elevant sections of the textbo ok",
+      "minutes": "90"
+    },
+    {
+      "index": "9",
+      "content": "Model Learning Model Learning based on Kernel Regression Model Uncertainties Learning based Control",
+      "operation": "Lecture and Exercises",
+      "assignments": "Preparation: Read through the textbook Review: Understanding of the r elevant sections of the textbo ok",
+      "minutes": "90"
+    },
+    {
+      "index": "10",
+      "content": "Support Vector Machine Hard Support Vector Machine Soft Support Vector Machine",
+      "operation": "Lecture and Exercises",
+      "assignments": "Preparation: Read through the textbook Review: Understanding of the r elevant sections of the textbo ok",
+      "minutes": "90"
+    },
+    {
+      "index": "11",
+      "content": "Support Vector Machine Gaussian Kernel based Support Vector Machine Environmental Model Learning based on Support V ector Machine",
+      "operation": "Lecture and Exercises",
+      "assignments": "Preparation: Read through the textbook Review: Understanding of the r elevant sections of the textbo ok",
+      "minutes": "90"
+    },
+    {
+      "index": "12",
+      "content": "Model Learning Kernel Regression based Model Learning",
+      "operation": "Lecture and Exercises",
+      "assignments": "Preparation: Read through the textbook Review: Understanding of the r elevant sections of the textbo ok",
+      "minutes": "90"
+    },
+    {
+      "index": "13",
+      "content": "Gaussian Process Regression Gaussian Process Regression",
+      "operation": "Lecture and Exercises",
+      "assignments": "Preparation: Read through the textbook Review: Understanding of the r elevant sections of the textbo ok",
+      "minutes": "90"
+    },
+    {
+      "index": "14",
+      "content": "Gaussian Process Regression Gaussian Process Regression Optimization of Hyper Parameters",
+      "operation": "Lecture and Exercises",
+      "assignments": "Preparation: Read through the textbook Review: Understanding of the r elevant sections of the textbo ok",
+      "minutes": "90"
+    },
+    {
+      "index": "15",
+      "content": "Learning based Control Summary Self-Assessment Review on what you have learned",
+      "operation": "Lecture and Exercises Summary",
+      "assignments": "Preparation: Read through the textbook Review: Understanding of the r elevant sections of the textbo ok, Review on what you have le arned",
+      "minutes": "60"
+    }
+  ],
+  "rawText": "金沢工業大学 学習支援計画書 E228-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Robotics(〜2024)\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\nアドバンストロボティクス\nAdvanced Robotics  2 E228-01  2025年度\n 3rd year 2nd semester  修学規程第4条を参照\n    担当教員名\n FUJITA Masayuki\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Linear Regression and Classification 2.Kernel Regression 3.support Vector Machine 4.Gauss Process Regression 5.Model Learning and Learning Based Control  Acquire the necessary knowledge of machine learning in robotics. Students will understand how to learn the motion of a robot in space from data and be able to use it for model learning and learning-based control. Students will learn linear regression and classification, polynomial regression, Gaussian kernel regression, and other kernel methods, as well as support vector machines and Gaussian process regression, and be able to use these methods in Python. Students will also acquire knowledge and skills for model learning and learning-based control.\n    授業の概要および学習上の助言   The student should understand the fundamentals of linear algebra and probability. It is also necessary to understand the fundamentals of system control (control engineering). Preparation for the next lecture will be given in class, and students are expected to check the contents of the lecture in advance. For review, solve the exercise reports (using Python) given in the class by yourself, and clarify any unclear points by the next class.\n    教科書および参考書・リザーブドブック\n    履修に必要な予備知識や技能   The student should have an understanding of the fundamentals of linear algebra and probability. The student should also have an understanding of the fundamentals of system control (control engineering).\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① L,J,O Machine learning of linear regression and classification can be performed.   ② L,J,O Can perform machine learning using the kernel method of polynomial regression and Gaussian kernel regression.   ③ L,J,O Can perform machine learning with support vector machines.    ④ L,J,O Machine learning by Gaussian process regression.   ⑤ L,J,O Model learning and learning-based control.   ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 0 0 60 0 0 0 40 100     指標と評価割合 総合評価割合 0 0 60 0 0 0 40 100   総合力指標 知識を取り込む力 0 0 60 0 0 0 40 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ①      ②     ③     ④     ⑤     ⑥     クイズ\n小テスト ①      ②     ③     ④     ⑤     ⑥     レポート ① レ Assesses understanding of linear regression and classification, kernel methods such as polynomial and Gaussian kernel regression, support vector machines and Gaussian process regression, model learning and learning-based control, and skills in using Python.    ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ① レ Evaluate the student's attitude and willingness to learn.    ② レ   ③ レ   ④ レ   ⑤ レ   ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     Mathematical understanding of linear regression and classification, kernel methods such as polynomial and Gaussian kernel regression, support vector machines and Gaussian process regression, model learning and learning-based control.  Use Python for linear regression and classification, kernel methods such as polynomial and Gaussian kernel regression, support vector machines and Gaussian process regression, model learning and learning-based control.\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習課題に要する標準的な時間を記載してあります。日々の自学自習時間全体としては、各授業に応じた時間(例えば2単位科目の場合、予習2時間・復習2時間/週)を取るよう努",
+  "sourceYear": "2025",
+  "originalSourceIndex": 257,
+  "courseId": "2025:spring:E224-01:0:12340",
+  "language": "en"
+}

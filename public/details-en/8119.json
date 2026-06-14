@@ -1,0 +1,308 @@
+{
+  "sourceIndex": 8119,
+  "sourceUrl": "/opsyllabus/kitos0110/622/1",
+  "importedAt": "2026-06-12T08:01:18.063Z",
+  "title": "建築構造力学Ⅱ",
+  "subtitle": "Structural Mechanics for Architecture II",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "2",
+  "term": "2020年度\n 2nd year 1st semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [],
+  "keywords": [
+    "Deflection curve 2.Buckling 3.Principle of virtual work 4.Slope-deflection method 5.Moment distribution method"
+  ],
+  "educationalGoal": "First, they must understand how to decide whether a structure is statically determinate or indeterminate. In addition, students learn to estimate structural deformation using the principle of virtual work and simple solutions for statically indeterminate structures. We give a lecture on the slope-deflection method and finding solutions using the linear moment distribution method of modeling statically indeterminate structures. Students will be able to solve for design stresses at the end of this class.",
+  "advice": "0. Solving static structures (complete understanding) 1. Outline 2. Discriminating between statically determinate and statically indeterminate structures 3. Deformation of elements 4. Buckling of compressed materials 5. Principles of work 6. Solving statically indeterminate rigid frames using the stress method 7. Solving statically indeterminate trusses using the stress method 8. Solving rigid rectangular frames using the slope-deflection method 9. Solving rigid rectangular frames using the moment distribution method",
+  "books": "Textbooks:hennkei wo rikaisuru kouzourikigaku Reference books:None Reserved books:None",
+  "requiredKnowledge": "Students must have credit for Structural Mechanics for Architecture I.",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "O",
+      "body": "Students can calculate bending deformation."
+    },
+    {
+      "index": "②",
+      "type": "O",
+      "body": "Students can calculate of buckling loads."
+    },
+    {
+      "index": "③",
+      "type": "O",
+      "body": "Students can calculate structural deformation using the principle of virtual work."
+    },
+    {
+      "index": "④",
+      "type": "O",
+      "body": "Students can calculate statically indeterminate structures using the principle of virtual work."
+    },
+    {
+      "index": "⑤",
+      "type": "O",
+      "body": "Students can calculate stresses in rectangular frames using the deflection angle method."
+    },
+    {
+      "index": "⑥",
+      "type": "O",
+      "body": "Students can calculate stresses in rectangular frames using the fixed moment method."
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "40",
+        "40",
+        "10",
+        "0",
+        "0",
+        "0",
+        "10",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "40",
+        "40",
+        "10",
+        "0",
+        "0",
+        "0",
+        "10",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "40",
+        "40",
+        "10",
+        "0",
+        "0",
+        "0",
+        "10",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションと\nリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "Fully understand calculation methods for structures using structural mechanics.",
+    "standard": "Understand calculation methods for structures using structural mechanics."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "(1) Explanation of learning objectives (2) Judgment of statically determinate and statically indeterminate structures (3) Deformation of members under axial force",
+      "operation": "Lecture, exercises, and self-reflection",
+      "assignments": "Review and preparation for next lesson",
+      "minutes": "120 60"
+    },
+    {
+      "index": "2",
+      "content": "Behavior of beams using the elastic curve equation, Part 1",
+      "operation": "Lecture, exercises, and self-reflection",
+      "assignments": "Review and preparation for next lesson",
+      "minutes": "120 60"
+    },
+    {
+      "index": "3",
+      "content": "Behavior of beams using the elastic curve equation, Part 2",
+      "operation": "Lecture, exercises, and self-reflection",
+      "assignments": "Review and preparation for next lesson",
+      "minutes": "120 60"
+    },
+    {
+      "index": "4",
+      "content": "Buckling of compressed members",
+      "operation": "Lecture, exercises, and self-reflection",
+      "assignments": "Review and preparation for next lesson",
+      "minutes": "120 60"
+    },
+    {
+      "index": "5",
+      "content": "Work principle",
+      "operation": "Lecture, exercises, and self-reflection",
+      "assignments": "Review and preparation for next lesson",
+      "minutes": "120 60"
+    },
+    {
+      "index": "6",
+      "content": "Methods of statically indeterminate structures",
+      "operation": "Lecture, exercises, and self-reflection",
+      "assignments": "Review",
+      "minutes": "120 60"
+    },
+    {
+      "index": "7",
+      "content": "Mid-semester test",
+      "operation": "Mid-semester test",
+      "assignments": "Review",
+      "minutes": "120 60"
+    },
+    {
+      "index": "8",
+      "content": "Mechanics of beams",
+      "operation": "Lecture, exercises, and self-reflection",
+      "assignments": "Review and preparation for next lesson",
+      "minutes": "120 60"
+    },
+    {
+      "index": "9",
+      "content": "Calculating stresses in rectangular frames using the deflection angle method, Part 1",
+      "operation": "Lecture, exercises, and self-reflection",
+      "assignments": "Review and preparation for next lesson",
+      "minutes": "120 60"
+    },
+    {
+      "index": "10",
+      "content": "Calculating stresses in rectangular frames using the deflection angle method, Part 2",
+      "operation": "Lecture, exercises, and self-reflection",
+      "assignments": "Review and preparation for next lesson",
+      "minutes": "120 60"
+    },
+    {
+      "index": "11",
+      "content": "Calculating stresses on rectangular frames using the deflection angle method, Part 3",
+      "operation": "Lecture, exercises, and self-reflection",
+      "assignments": "Review and preparation for next lesson",
+      "minutes": "120 60"
+    },
+    {
+      "index": "12",
+      "content": "Calculating stresses in rectangular frames using the fixed moment method, Part 1",
+      "operation": "Lecture, exercises, and self-reflection",
+      "assignments": "Review and preparation for next lesson",
+      "minutes": "120 60"
+    },
+    {
+      "index": "13",
+      "content": "Calculating stresses in rectangular frames using the fixed moment method Part 2",
+      "operation": "Lecture, exercises, and self-reflection",
+      "assignments": "Review and preparation for next lesson",
+      "minutes": "120 60"
+    },
+    {
+      "index": "14",
+      "content": "Final examination",
+      "operation": "Examination",
+      "assignments": "Review",
+      "minutes": "150"
+    },
+    {
+      "index": "15",
+      "content": "Self-reflection",
+      "operation": "Lecture, exercises, and self-reflection",
+      "assignments": "Review and preparation for next lesson",
+      "minutes": "120 60"
+    }
+  ],
+  "rawText": "金沢工業大学 学習支援計画書 A013-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Architecture(2018〜)\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n建築構造力学Ⅱ\nStructural Mechanics for Architecture II  2 A013-01  2020年度\n 2nd year 1st semester  修学規程第4条を参照\n    担当教員名\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Deflection curve 2.Buckling 3.Principle of virtual work 4.Slope-deflection method 5.Moment distribution method  First, they must understand how to decide whether a structure is statically determinate or indeterminate. In addition, students learn to estimate structural deformation using the principle of virtual work and simple solutions for statically indeterminate structures. We give a lecture on the slope-deflection method and finding solutions using the linear moment distribution method of modeling statically indeterminate structures. Students will be able to solve for design stresses at the end of this class.\n    授業の概要および学習上の助言   0. Solving static structures (complete understanding) 1. Outline 2. Discriminating between statically determinate and statically indeterminate structures 3. Deformation of elements 4. Buckling of compressed materials 5. Principles of work 6. Solving statically indeterminate rigid frames using the stress method 7. Solving statically indeterminate trusses using the stress method 8. Solving rigid rectangular frames using the slope-deflection method 9. Solving rigid rectangular frames using the moment distribution method\n    教科書および参考書・リザーブドブック   Textbooks:hennkei wo rikaisuru kouzourikigaku Reference books:None Reserved books:None\n    履修に必要な予備知識や技能   Students must have credit for Structural Mechanics for Architecture I.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① O Students can calculate bending deformation.   ② O Students can calculate of buckling loads.   ③ O Students can calculate structural deformation using the principle of virtual work.   ④ O Students can calculate statically indeterminate structures using the principle of virtual work.   ⑤ O Students can calculate stresses in rectangular frames using the deflection angle method.   ⑥ O Students can calculate stresses in rectangular frames using the fixed moment method.\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 40 40 10 0 0 0 10 100     指標と評価割合 総合評価割合 40 40 10 0 0 0 10 100   総合力指標 知識を取り込む力 40 40 10 0 0 0 10 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ Students can calculate stresses in rectangular frames using the fixed moment method and the deflection angle method.   ② レ   ③ レ   ④ レ   ⑤     ⑥     クイズ\n小テスト ①   Statically determinate structures Students will take two tests on the mechanics of beams, elastic curve equations and the principle of virtual work.    ②     ③     ④     ⑤ レ   ⑥ レ   レポート ① レ Students will write a report on bending deformation. Students will write a report on buckling loads. Students will write a report on structural deformation using the principle of virtual work. Students will write a report on indeterminate structures using the principle of virtual work. Students will write a report on rectangular frames using the deflection angle method. Students will write a report on rectangular frames using the fixed moment method.    ② レ   ③ レ   ④ レ   ⑤ レ   ⑥ レ   成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ①      ②     ③     ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     Fully understand calculation methods for structures using structural mechanics. Understand calculation methods for structures using structural mechanics.\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある",
+  "sourceYear": "2020",
+  "originalSourceIndex": 622,
+  "courseId": "2020:spring:F307-01:0:8119",
+  "language": "en"
+}

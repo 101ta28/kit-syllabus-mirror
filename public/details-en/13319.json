@@ -1,0 +1,305 @@
+{
+  "sourceIndex": 13319,
+  "sourceUrl": "/opsyllabus/kitos0110/232/1",
+  "importedAt": "2026-06-12T08:03:06.604Z",
+  "title": "シミュレーション工学",
+  "subtitle": "Modeling and Simulation in Robotics",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "2",
+  "term": "2026年度\n 3rd year 1st semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "MURAO Toshiyuki"
+  ],
+  "keywords": [
+    "Dynamic model 2.Transfer function 3.Transient response 4.Frequency response 5.Controller design"
+  ],
+  "educationalGoal": "Learn how to simulate a dynamical system using MATLAB. In particular, apply the MATLAB software to mathematical modeling of a dynamical system, analysis of transient response and frequency response of a dynamic model, and design of a controller.",
+  "advice": "We will cover the following topics: 1. How to use MATLAB software 2. Methods for modeling a dynamical system 3. Analysis of dynamic characteristics of a robotic arm 4. Transient response and steady-state response 5. Frequency response through plotting of a Bode diagram and the vector locus 6. Design and analysis of robot control through proportional integral derivative (PID) control",
+  "books": "We have one textbook. The textbook is written in Japanese.",
+  "requiredKnowledge": "Completion of Mathematics for Robotics I and Control Engineering I. Students should concurrently attend Control Engineering II, which is offered the same semester.",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "L",
+      "body": "Understand how to use MATLAB."
+    },
+    {
+      "index": "②",
+      "type": "L",
+      "body": "Model a dynamical system and simulate its transient and frequency response."
+    },
+    {
+      "index": "③",
+      "type": "L",
+      "body": "Plot the vector locus, create a Nyquist plot, and use them to check the system stability and properties."
+    },
+    {
+      "index": "④",
+      "type": "L",
+      "body": "Plot a Bode diagram and use it to check the system stability and properties."
+    },
+    {
+      "index": "⑤",
+      "type": "L",
+      "body": "Design and analyze a dynamical system."
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "40",
+        "40",
+        "20",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "40",
+        "40",
+        "20",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "40",
+        "40",
+        "20",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションと\nリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "Analyze a dynamical system with mathematical modeling and apply analysis techniques to transient response and frequency response. Use MATLAB to design a controller to satisfy design specifications based on transient response and frequency response.",
+    "standard": "Analyze a dynamical system with the analysis techniques of transient response and frequency response for a given model. Use MATLAB to design a controller based on transient response and frequency response."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "How to use MATLAB through linear algebra",
+      "operation": "Lecture and exercises",
+      "assignments": "Preview: Install MATLAB on your PC and read the MATLAB handout Review: Review how to use MATLAB through linear algebra",
+      "minutes": "60 60"
+    },
+    {
+      "index": "2",
+      "content": "Transfer functions for modeling a dynamical system",
+      "operation": "Lecture and exercises",
+      "assignments": "Preview: Read the handout on transfer functions Review: Define the transfer function in MATLAB",
+      "minutes": "30 60"
+    },
+    {
+      "index": "3",
+      "content": "Step response and ramp response",
+      "operation": "Lecture and exercises",
+      "assignments": "Preview: Read the handout on first-order and second-order systems Review: Plot the step response for a second-order system in MATLAB",
+      "minutes": "30 60"
+    },
+    {
+      "index": "4",
+      "content": "Transient response and steady-state response of first-order and second-order systems Poles, zeroes, and stability",
+      "operation": "Lecture and exercises",
+      "assignments": "Preview: Read the handout on first-order and second-order systems Review: Plot the step response for a second-order system in MATLAB",
+      "minutes": "30 60"
+    },
+    {
+      "index": "5",
+      "content": "Internal stability Reference tracking property Disturbance rejection property",
+      "operation": "Lecture and exercises",
+      "assignments": "Preview: Read the handout on the reference tracking and disturbance rejection properties Review: Calculate the reference tracking and disturbance rejection properties in MATLAB",
+      "minutes": "30 60"
+    },
+    {
+      "index": "6",
+      "content": "PID control",
+      "operation": "Lecture and exercises",
+      "assignments": "Preview: Read the handout on PID control Review: Design a PID controller and plot the step response in MATLAB",
+      "minutes": "30 90"
+    },
+    {
+      "index": "7",
+      "content": "General training",
+      "operation": "General training",
+      "assignments": "Preview: Read the previous handouts Review: Design a PID controller and plot the transient response in MATLAB",
+      "minutes": "60 60"
+    },
+    {
+      "index": "8",
+      "content": "Midterm test and training",
+      "operation": "Midterm test and general training",
+      "assignments": "Preview: Review all content of classes 1-7",
+      "minutes": "180"
+    },
+    {
+      "index": "9",
+      "content": "Review of midterm test Frequency transfer function Vector locus",
+      "operation": "Lecture and exercises",
+      "assignments": "Preview: Read the handout on the vector locus Review: Plot a vector locus in MATLAB",
+      "minutes": "30 60"
+    },
+    {
+      "index": "10",
+      "content": "Bode diagrams",
+      "operation": "Lecture and exercises",
+      "assignments": "Preview: Read the handout on Bode diagrams Review: Plot a Bode diagram in MATLAB",
+      "minutes": "30 60"
+    },
+    {
+      "index": "11",
+      "content": "Nyquist plot and the stability property Gain margin and phase margin",
+      "operation": "Lecture and exercises",
+      "assignments": "Preview: Read the handout on the stability property Review: Calculate the stability margin in MATLAB",
+      "minutes": "30 30"
+    },
+    {
+      "index": "12",
+      "content": "Frequency property for PID control",
+      "operation": "Lecture and exercises",
+      "assignments": "Preview: Read the handout on the frequency property for PID control Review: Plot the frequency response for PID control in MATLAB",
+      "minutes": "30 60"
+    },
+    {
+      "index": "13",
+      "content": "General training",
+      "operation": "General training",
+      "assignments": "Preview: Read the previous handouts Review: Design a PID controller and plot the frequency response in MATLAB",
+      "minutes": "60 60"
+    },
+    {
+      "index": "14",
+      "content": "Final examination and training",
+      "operation": "Examination and general training",
+      "assignments": "Preview: Review all content of this course",
+      "minutes": "180"
+    },
+    {
+      "index": "15",
+      "content": "Review of final examination",
+      "operation": "General training",
+      "assignments": "",
+      "minutes": ""
+    }
+  ],
+  "rawText": "金沢工業大学 学習支援計画書 E226-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Robotics(〜2024)\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\nシミュレーション工学\nModeling and Simulation in Robotics  2 E226-01  2026年度\n 3rd year 1st semester  修学規程第4条を参照\n    担当教員名\n MURAO Toshiyuki      *印は、実務経験のある教員を示しています。\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Dynamic model 2.Transfer function 3.Transient response 4.Frequency response 5.Controller design  Learn how to simulate a dynamical system using MATLAB. In particular, apply the MATLAB software to mathematical modeling of a dynamical system, analysis of transient response and frequency response of a dynamic model, and design of a controller.\n    授業の概要および学習上の助言   We will cover the following topics: 1. How to use MATLAB software 2. Methods for modeling a dynamical system 3. Analysis of dynamic characteristics of a robotic arm 4. Transient response and steady-state response 5. Frequency response through plotting of a Bode diagram and the vector locus 6. Design and analysis of robot control through proportional integral derivative (PID) control\n    教科書および参考書・リザーブドブック   We have one textbook. The textbook is written in Japanese.\n    履修に必要な予備知識や技能   Completion of Mathematics for Robotics I and Control Engineering I. Students should concurrently attend Control Engineering II, which is offered the same semester.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① L Understand how to use MATLAB.   ② L Model a dynamical system and simulate its transient and frequency response.   ③ L Plot the vector locus, create a Nyquist plot, and use them to check the system stability and properties.   ④ L Plot a Bode diagram and use it to check the system stability and properties.   ⑤ L Design and analyze a dynamical system.   ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 40 40 20 0 0 0 0 100     指標と評価割合 総合評価割合 40 40 20 0 0 0 0 100   総合力指標 知識を取り込む力 40 40 20 0 0 0 0 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ An examination is given at the end of the semester to evaluate your degree of achievement. MATLAB can be used during the exam.    ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     クイズ\n小テスト ① レ Two quizzes are given to improve your level of understanding. A midterm test will be given during class 7 or 8.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     レポート ① レ Students will prepare four or five reports for evaluation.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ①      ②     ③     ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     Analyze a dynamical system with mathematical modeling and apply analysis techniques to transient response and frequency response. Use MATLAB to design a controller to satisfy design specifications based on transient response and frequency response.  Analyze a dynamical system with the analysis techniques of transient response and frequency response for a given model. Use MATLAB to design a controller based on transient response and frequency response.\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習課題に要する標準的な時間を記載してあります。日々の自学自習時間全体としては、各授業に応じた時間(例えば2単位科目の場合、予習2時間・復習2時間/週)を取るよう努めてください。詳しくは教員の指導に従って下さい。     授業明細   回数 学習内容 授業の運営方法 学習課題(予習・復習) 時間:分※     1  How to use MATLAB through linear algebra Lecture and exercises Preview: Install MATLAB on your PC and read the MATLAB handout Review: Review how to use MATLAB through linear algebra  60 60   2  Transfer functions for modeling a dynamical system Lecture and exercises Preview: Read the handout on transfer functions Review: Def",
+  "sourceYear": "2026",
+  "originalSourceIndex": 232,
+  "courseId": "2026:spring:E222-01:0:13319",
+  "language": "en"
+}

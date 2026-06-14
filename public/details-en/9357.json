@@ -1,0 +1,244 @@
+{
+  "sourceIndex": 9357,
+  "sourceUrl": "/opsyllabus/kitos0110/100/1",
+  "importedAt": "2026-06-12T08:01:53.332Z",
+  "title": "AI応用Ⅱ(自然言語処理)(春期集中講義)",
+  "subtitle": "Natural Language Processing",
+  "courseType": "Mathematics and Science Program\nMathematics and Science Courses",
+  "credits": "1",
+  "term": "2022年度\n 1st year 2nd semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "MATSUI Kunio"
+  ],
+  "keywords": [
+    "Artificial Intelligence 2.Natural language processing 3.Analysis 4.Information retrieval 5.Text categolization"
+  ],
+  "educationalGoal": "Artificial intelligence that can bring intelligence to machines is becoming increasingly important in various areas of the ICT society. This course aims to have students master basic technologies related to artificial intelligence, and in particular, to deepen their understanding of natural language processing and its application systems, which are important technologies for realizing intelligent systems. Students will further develop their basic knowledge of intelligent information processing and deepen their understanding of how to build intelligent systems.",
+  "advice": "Course Description and Expectations for Students This course covers the basic to application of intelligent information processing. Students will learn the basic techniques for various natural language processing and build and evaluate application systems based on these analysis and generation techniques. Students are expected to be able to evaluate the methods and challenges of implementing an application system for intelligent information processing.",
+  "books": "Textbooks:None Reference books:None Reserved books:None",
+  "requiredKnowledge": "Knowledge/Skills Needed to Take This Course(Prerequisites) It is desirable for students to have knowledge and programming skills on intelligent information processing at the undergraduate level.",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "F",
+      "body": "Be able to explain basic technology in intelligent information processing."
+    },
+    {
+      "index": "②",
+      "type": "D",
+      "body": "Be able to understand various techniques for natural language processing."
+    },
+    {
+      "index": "③",
+      "type": "F",
+      "body": "Be able to implement various natural language processing algorithms and build their application systems."
+    },
+    {
+      "index": "④",
+      "type": "B",
+      "body": "Be able to evaluate application systems based on various natural language processing algorithms."
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "0",
+        "0",
+        "60",
+        "40",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "0",
+        "0",
+        "60",
+        "40",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "0",
+        "0",
+        "60",
+        "40",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションと\nリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "In addition to the standard achievement level, the student is able to -challenge research issues and build an application system in intelligent information processing.",
+    "standard": "Understand the week-by-week content covered in this course and be able to generally solve typical exercises related to the content."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "What is natural Artificial Intelligence? History AI vs. Human",
+      "operation": "Lecture and exercise",
+      "assignments": "180",
+      "minutes": ""
+    },
+    {
+      "index": "2",
+      "content": "What is natural language processing? Basic technology Application",
+      "operation": "Lecture and exercise",
+      "assignments": "180",
+      "minutes": ""
+    },
+    {
+      "index": "3",
+      "content": "Morphological Analysis MeCab Principle",
+      "operation": "Lecture and exercise",
+      "assignments": "180",
+      "minutes": ""
+    },
+    {
+      "index": "4",
+      "content": "Syntax Analysis Cabocha Principle",
+      "operation": "Lecture and exercise",
+      "assignments": "180",
+      "minutes": ""
+    },
+    {
+      "index": "5",
+      "content": "Relative Analysis Word2vec Principle Machine Translation",
+      "operation": "Lecture and exercise",
+      "assignments": "180",
+      "minutes": ""
+    },
+    {
+      "index": "6",
+      "content": "Information Retrieval Boolian Cosine Similarity Categolization",
+      "operation": "Lecture and exercise",
+      "assignments": "180",
+      "minutes": ""
+    },
+    {
+      "index": "7",
+      "content": "Dialog System QA system Free conversation",
+      "operation": "Lecture and exercise Presentaion",
+      "assignments": "180",
+      "minutes": ""
+    }
+  ],
+  "rawText": "金沢工業大学 学習支援計画書 G245-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nMathematics, Science, Data Science and AI Program\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Mathematics and Science Program\nMathematics and Science Courses\nAI応用Ⅱ(自然言語処理)(春期集中講義)\nNatural Language Processing  1 G245-01  2022年度\n 1st year 2nd semester  修学規程第4条を参照\n    担当教員名\n MATSUI Kunio\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Artificial Intelligence 2.Natural language processing 3.Analysis 4.Information retrieval 5.Text categolization  Artificial intelligence that can bring intelligence to machines is becoming increasingly important in various areas of the ICT society. This course aims to have students master basic technologies related to artificial intelligence, and in particular, to deepen their understanding of natural language processing and its application systems, which are important technologies for realizing intelligent systems. Students will further develop their basic knowledge of intelligent information processing and deepen their understanding of how to build intelligent systems.\n    授業の概要および学習上の助言   Course Description and Expectations for Students This course covers the basic to application of intelligent information processing. Students will learn the basic techniques for various natural language processing and build and evaluate application systems based on these analysis and generation techniques. Students are expected to be able to evaluate the methods and challenges of implementing an application system for intelligent information processing.\n    教科書および参考書・リザーブドブック   Textbooks:None Reference books:None Reserved books:None\n    履修に必要な予備知識や技能   Knowledge/Skills Needed to Take This Course(Prerequisites) It is desirable for students to have knowledge and programming skills on intelligent information processing at the undergraduate level.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① F Be able to explain basic technology in intelligent information processing.   ② D Be able to understand various techniques for natural language processing.   ③ F Be able to implement various natural language processing algorithms and build their application systems.   ④ B Be able to evaluate application systems based on various natural language processing algorithms.   ⑤     ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 0 0 60 40 0 0 0 100     指標と評価割合 総合評価割合 0 0 60 40 0 0 0 100   総合力指標 知識を取り込む力 0 0 60 40 0 0 0 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ①      ②     ③     ④     ⑤     ⑥     クイズ\n小テスト ①      ②     ③     ④     ⑤     ⑥     レポート ① レ Students will be evaluated on two reports.   ② レ   ③ レ   ④ レ   ⑤     ⑥     成果発表\n(口頭・実技) ① レ Students are required to give two presentations on the submitted reports.   ② レ   ③ レ   ④ レ   ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ①      ②     ③     ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     In addition to the standard achievement level, the student is able to -challenge research issues and build an application system in intelligent information processing. Understand the week-by-week content covered in this course and be able to generally solve typical exercises related to the content.\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習課題に要する標準的な時間を記載してあります。日々の自学自習時間全体としては、各授業に応じた時間(例えば2単位科目の場合、予習2時間・復習2時間/週)を取るよう努めてください。詳しくは教員の指導に従って下さい。     授業明細   回数 学習内容 授業の運営方法 学習課題(予習・復習) 時間:分※     1  What is natural Artificial Intelligence? History AI vs. Human Lecture and exercise 180     2  What is natural language processing? Basic technology Application Lecture and exerci",
+  "sourceYear": "2022",
+  "originalSourceIndex": 100,
+  "courseId": "2022:fall:G209-01:0:9357",
+  "language": "en"
+}

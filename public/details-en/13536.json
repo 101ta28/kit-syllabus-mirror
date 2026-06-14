@@ -1,0 +1,305 @@
+{
+  "sourceIndex": 13536,
+  "sourceUrl": "/opsyllabus/kitos0110/449/1",
+  "importedAt": "2026-06-12T08:03:07.886Z",
+  "title": "システム思考",
+  "subtitle": "Systems Thinking",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "2",
+  "term": "2026年度\n 3rd year 2nd semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "SAITO Masashi"
+  ],
+  "keywords": [
+    "System Design 2.Stok, Flow, Feed-back loop 3.Resilience, Hierarchy, Self organization 4.Levalage"
+  ],
+  "educationalGoal": "This course is for an educational goal of the Dept. of Management Systems to acquire \"Information design basic ability\". The environment surrounding us is composed of various things intricately intertwined. Even if systems are observed and analyzed from only one aspect and modeled or made into IT, not only the expected effect may not be obtained, but also new problems may be created. Students will learn not only static modeling, but also components behavior and feedback that change over time.",
+  "advice": "The events occurring in the world are composed of various things and their relationships intricately intertwined. Students will learn methods to model and analyze dynamically changing structures and relationships, as well as changes and stability of the entire system. First, students will acquire the basic skills to read and understand the data accurately, and perform initial analysis based on practical tasks. Next, students will learn about the stock, flow, and feedback loop as the basic structure and behavior of the system. Then students will learn resilience, self-organization, hierarchy as a function of the system, and concrete the ability to search for intervention places as leverage points.",
+  "books": "Thinking in Systems: A Primer, Donella H. Meadows, Chelsea Green Pub Co; Illusrated version (2008/12/3), ISBN: 978-1603580557 (Kindle version is also available) Factfulness Illustrated, Hans Rosling, et. al., Sceptre (2019/10/3) ISBN: 978-1473637467",
+  "requiredKnowledge": "To take and earn credits for \"System Modeling,\" which is a second-year class in the Department of Management Information is essential. It is not necessary to take other courses for basic information design skills up to the 1st semester of junior, but it is desirable that you have already taken them. It is also recommended that you will take \"Advanced Programming Applications\" at the same time.",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "J,L",
+      "body": "Be able to understand and explain the basics of systems thinking."
+    },
+    {
+      "index": "②",
+      "type": "J,L",
+      "body": "Be able to explain the basic roles of stock, flow, dynamics, feedback."
+    },
+    {
+      "index": "③",
+      "type": "J,L",
+      "body": "Be able to explain system constraints, disturbance recovery, self-organization, and the trade-offs."
+    },
+    {
+      "index": "④",
+      "type": "J,N",
+      "body": "Be able to use a modeler to model complicated systems."
+    },
+    {
+      "index": "⑤",
+      "type": "J,L",
+      "body": "Be able to acquire basic skills to read and understand data accurately."
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "0",
+        "0",
+        "50",
+        "40",
+        "0",
+        "0",
+        "10",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "0",
+        "0",
+        "50",
+        "40",
+        "0",
+        "0",
+        "10",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "0",
+        "0",
+        "50",
+        "40",
+        "0",
+        "0",
+        "10",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションと\nリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "(1) Be able to understand and explain the basics of systems thinking, (2) Be able to understand the basic roles of stock, flow, dynamics, feedback, (3) Be able to explain constraints on the system, recovery from disturbances and self-organization, trade-offs between partial optimization and total optimization, (4) Be able to use a modeler to model some systems.",
+    "standard": "(1) Be able to understand and explain the basics of systems thinking, (2) Be able to understand the basic roles of stock, flow, dynamics, feedback, (3) Be able to explain constraints on the system, recovery from disturbances and self-organization, trade-offs between partial optimization and total optimization."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "- Guidance - Read the data accurately Division and negative beliefs",
+      "operation": "Lecture and discussion",
+      "assignments": "Review: Review the relevant parts of the lesson materials",
+      "minutes": "180min"
+    },
+    {
+      "index": "2",
+      "content": "- Linear change and fear",
+      "operation": "Lecture and discussion",
+      "assignments": "Review: Review the relevant parts of the lesson materials",
+      "minutes": "180min"
+    },
+    {
+      "index": "3",
+      "content": "- Exaggeration and patterning",
+      "operation": "Lecture and discussion",
+      "assignments": "Review: Review the relevant parts of the lesson materials",
+      "minutes": "180min"
+    },
+    {
+      "index": "4",
+      "content": "- Destiny and simplification",
+      "operation": "Lecture and discussion",
+      "assignments": "Review: Review the relevant parts of the lesson materials",
+      "minutes": "180min"
+    },
+    {
+      "index": "5",
+      "content": "- Investigate the statistics of the United Nations and/or others and see the world i.e. COVID-19, electric vehicle, renewable energy, global warming",
+      "operation": "Practicum",
+      "assignments": "Creating a report of research results",
+      "minutes": "300min"
+    },
+    {
+      "index": "6",
+      "content": "- Investigate the statistics of the United Nations and/or others and see the world i.e. COVID-19, electric vehicle, renewable energy, global warming",
+      "operation": "Practicum",
+      "assignments": "Completion of research report",
+      "minutes": "300min"
+    },
+    {
+      "index": "7",
+      "content": "- System structure and behavior Stock, flow, feedback loop",
+      "operation": "Lecture and discussion",
+      "assignments": "Review: Review the relevant parts of the lesson materials",
+      "minutes": "180min"
+    },
+    {
+      "index": "8",
+      "content": "- System specifics",
+      "operation": "Lecture and discussion",
+      "assignments": "Review: Review the relevant parts of the lesson materials",
+      "minutes": "180min"
+    },
+    {
+      "index": "9",
+      "content": "- System functions Resilience, self-organization, hierarchy",
+      "operation": "Lecture and discussion",
+      "assignments": "Review: Review the relevant parts of the lesson materials",
+      "minutes": "180min"
+    },
+    {
+      "index": "10",
+      "content": "- System pitfalls Wrong boundaries, bounded rationality, limiting factors, non-linearity",
+      "operation": "Lecture and discussion",
+      "assignments": "Review: Review the relevant parts of the lesson materials",
+      "minutes": "180min"
+    },
+    {
+      "index": "11",
+      "content": "- Leverage point Location of intervention in the system",
+      "operation": "Lecture and discussion",
+      "assignments": "Review: Review the relevant parts of the lesson materials",
+      "minutes": "180min"
+    },
+    {
+      "index": "12",
+      "content": "- Specific system analysis exercise (1)",
+      "operation": "Practicum",
+      "assignments": "Advance each exercise",
+      "minutes": "300min"
+    },
+    {
+      "index": "13",
+      "content": "- Specific system analysis exercise (2)",
+      "operation": "Practicum",
+      "assignments": "Advance each exercise Preparation of presentation materials",
+      "minutes": "300min"
+    },
+    {
+      "index": "14",
+      "content": "- System analysis presentation",
+      "operation": "Presentation",
+      "assignments": "Feedback on questions and comments at the time of presentation",
+      "minutes": "300min"
+    },
+    {
+      "index": "15",
+      "content": "- Live in the world of systems - looking back lectures - Self-evaluation - Questionnaire",
+      "operation": "Lecture and practicum",
+      "assignments": "Review: Overall reviewing Self-evaluation Level of achievement",
+      "minutes": "90min"
+    }
+  ],
+  "rawText": "金沢工業大学 学習支援計画書 F141-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Management Systems(〜2024)\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\nシステム思考\nSystems Thinking  2 F141-01  2026年度\n 3rd year 2nd semester  修学規程第4条を参照\n    担当教員名\n SAITO Masashi      *印は、実務経験のある教員を示しています。\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.System Design 2.Stok, Flow, Feed-back loop 3.Resilience, Hierarchy, Self organization 4.Levalage  This course is for an educational goal of the Dept. of Management Systems to acquire \"Information design basic ability\". The environment surrounding us is composed of various things intricately intertwined. Even if systems are observed and analyzed from only one aspect and modeled or made into IT, not only the expected effect may not be obtained, but also new problems may be created. Students will learn not only static modeling, but also components behavior and feedback that change over time.\n    授業の概要および学習上の助言   The events occurring in the world are composed of various things and their relationships intricately intertwined. Students will learn methods to model and analyze dynamically changing structures and relationships, as well as changes and stability of the entire system. First, students will acquire the basic skills to read and understand the data accurately, and perform initial analysis based on practical tasks. Next, students will learn about the stock, flow, and feedback loop as the basic structure and behavior of the system. Then students will learn resilience, self-organization, hierarchy as a function of the system, and concrete the ability to search for intervention places as leverage points.\n    教科書および参考書・リザーブドブック   Thinking in Systems: A Primer, Donella H. Meadows, Chelsea Green Pub Co; Illusrated version (2008/12/3), ISBN: 978-1603580557 (Kindle version is also available) Factfulness Illustrated, Hans Rosling, et. al., Sceptre (2019/10/3) ISBN: 978-1473637467\n    履修に必要な予備知識や技能   To take and earn credits for \"System Modeling,\" which is a second-year class in the Department of Management Information is essential. It is not necessary to take other courses for basic information design skills up to the 1st semester of junior, but it is desirable that you have already taken them. It is also recommended that you will take \"Advanced Programming Applications\" at the same time.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① J,L Be able to understand and explain the basics of systems thinking.    ② J,L Be able to explain the basic roles of stock, flow, dynamics, feedback.   ③ J,L Be able to explain system constraints, disturbance recovery, self-organization, and the trade-offs.   ④ J,N Be able to use a modeler to model complicated systems.    ⑤ J,L Be able to acquire basic skills to read and understand data accurately.    ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 0 0 50 40 0 0 10 100     指標と評価割合 総合評価割合 0 0 50 40 0 0 10 100   総合力指標 知識を取り込む力 0 0 50 40 0 0 10 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ①      ②     ③     ④     ⑤     ⑥     クイズ\n小テスト ①      ②     ③     ④     ⑤     ⑥     レポート ① レ Students will be evaluated on describing investigation results by using a modeler in some examples of complicated systems as a written report.    ② レ   ③ レ   ④ レ   ⑤     ⑥     成果発表\n(口頭・実技) ① レ Students will be evaluated on presenting the process of influence and change as well as what is an essential thing to change systems behavior by using PowerPoint.    ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ① レ Students will be evaluated by their class attitude.   ②     ③     ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     (1) Be able to understand and explain the basics of systems thinking, (2) Be able to ",
+  "sourceYear": "2026",
+  "originalSourceIndex": 449,
+  "courseId": "2026:fall:F902-01:0:13536",
+  "language": "en"
+}

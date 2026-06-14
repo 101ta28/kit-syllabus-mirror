@@ -1,0 +1,251 @@
+{
+  "sourceIndex": 11547,
+  "sourceUrl": "/opsyllabus/kitos0110/423/1",
+  "importedAt": "2026-06-12T08:02:32.457Z",
+  "title": "プログラミングⅡ",
+  "subtitle": "Programming II",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "1",
+  "term": "2024年度\n 1st year 2nd semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "MOTOKI Mitsuo",
+    "ABE Noriyuki",
+    "INAGAKI Mikio"
+  ],
+  "keywords": [
+    "Python 2.object 3.iterator 4.file 5.exeption"
+  ],
+  "educationalGoal": "Subsequent to the precedent course, i.e., Programming I, students learn basic Python programming to acquire writing various programs. Specifically, students learn the following: using objects, iterators, and file operations.",
+  "advice": "In this class, students learn basic Python programming subsequent to the precedent class, i.e., Programming I. Contents of Python: (1) Data containers such as dictionary and set (2) Concept of object, and class (3) Programming with iterators that is the mechanism of accessing stored data (4) Writing complicated programs using file I/O or exceptions",
+  "books": "(See the Japanese syllabus.)",
+  "requiredKnowledge": "The precedent course: Programming I - Students have to bring own laptop computer, AC adopter, and network cable for software installation, download of course materials, and upload of answer of quizzes - PC operation skills (such as touch typing, file operation, etc.) are necessary to write program smoothly",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "I,J,K",
+      "body": "Be able to write Python programs using dictionary, and/or set"
+    },
+    {
+      "index": "②",
+      "type": "I,J,K",
+      "body": "Be able to write Python programs using objects"
+    },
+    {
+      "index": "③",
+      "type": "I,J,K",
+      "body": "Be able to write Python programs operating data in data structure using iterator appropriately"
+    },
+    {
+      "index": "④",
+      "type": "I,J,K",
+      "body": "Understand the concept of exception"
+    },
+    {
+      "index": "⑤",
+      "type": "I,J,K",
+      "body": "Be able to write Python programs operating file I/O"
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "40",
+        "60",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "40",
+        "60",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "40",
+        "60",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションと\nリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "In addition to standard achievement level, (1+) Be able to write Python programs using dictionary and/or set appropriately (2+) Be able to write Python programs using objects appropriately (3+) Be able to write Python programs using list comprehension or itertools module appropriately (4+) Be able to write Python programs useing text file I/O appropriately",
+    "standard": "(1) Be able to operate dictionary and set in Python (2) Be able to operate objects in Python (3) Be able to use the iterator and list comprehension in Python (4) Be able to operate text file in Python"
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "- Guidance - Review of Programming I",
+      "operation": "Lecture and Exercise",
+      "assignments": "Preview: Read Chapter 1 to 3, Ch. 4-2, 4-4, and 5-1 to 5-3 of the textbook",
+      "minutes": "120"
+    },
+    {
+      "index": "2",
+      "content": "- Object - Dictionary and set",
+      "operation": "Lecture and Exercise",
+      "assignments": "Preview: Watch the lecture video Review: Practice the handout and 4-1, 4-4, and 4-5 of the textbook",
+      "minutes": "60 60"
+    },
+    {
+      "index": "3",
+      "content": "Practical use of iterable object - List comprehension - Iterator - itertools package",
+      "operation": "Lecture and Exercise",
+      "assignments": "Preview: Watch the lecture video Review: Practice the handout",
+      "minutes": "60 60"
+    },
+    {
+      "index": "4",
+      "content": "- Exceptions",
+      "operation": "Lecture and Exercise",
+      "assignments": "Preview: Watch the lecture video Review: Practice the handout and 7-1 of the textbook",
+      "minutes": "60 60"
+    },
+    {
+      "index": "5",
+      "content": "- Text file I/O",
+      "operation": "Lecture and Exercise",
+      "assignments": "Preview: Watch the lecture video Review: Practice the handout and 7-2 of the textbook",
+      "minutes": "60 60"
+    },
+    {
+      "index": "6",
+      "content": "- Overall exercise",
+      "operation": "Lecture and Exercise",
+      "assignments": "Preview: Review whole content of this class",
+      "minutes": "120"
+    },
+    {
+      "index": "7",
+      "content": "- Exam - Self-check",
+      "operation": "Exam Self-check",
+      "assignments": "Prepare for the exam",
+      "minutes": "120"
+    }
+  ],
+  "rawText": "金沢工業大学 学習支援計画書 E542-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Information and Computer Science\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\nプログラミングⅡ\nProgramming II  1 E542-01  2024年度\n 1st year 2nd semester  修学規程第4条を参照\n    担当教員名\n MOTOKI Mitsuo, ABE Noriyuki, INAGAKI Mikio\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Python 2.object 3.iterator 4.file 5.exeption  Subsequent to the precedent course, i.e., Programming I, students learn basic Python programming to acquire writing various programs. Specifically, students learn the following: using objects, iterators, and file operations.\n    授業の概要および学習上の助言   In this class, students learn basic Python programming subsequent to the precedent class, i.e., Programming I. Contents of Python: (1) Data containers such as dictionary and set (2) Concept of object, and class (3) Programming with iterators that is the mechanism of accessing stored data (4) Writing complicated programs using file I/O or exceptions\n    教科書および参考書・リザーブドブック   (See the Japanese syllabus.)\n    履修に必要な予備知識や技能   The precedent course: Programming I - Students have to bring own laptop computer, AC adopter, and network cable for software installation, download of course materials, and upload of answer of quizzes - PC operation skills (such as touch typing, file operation, etc.) are necessary to write program smoothly\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① I,J,K Be able to write Python programs using dictionary, and/or set   ② I,J,K Be able to write Python programs using objects   ③ I,J,K Be able to write Python programs operating data in data structure using iterator appropriately   ④ I,J,K Understand the concept of exception   ⑤ I,J,K Be able to write Python programs operating file I/O   ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 40 60 0 0 0 0 0 100     指標と評価割合 総合評価割合 40 60 0 0 0 0 0 100   総合力指標 知識を取り込む力 40 60 0 0 0 0 0 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ Check whether students comprehensively achieve learning objectives by exams. The detail of exam will be announced at least 1 week before the exam.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     クイズ\n小テスト ① レ Check whether students acquire necessary knowledge for each appropriate unit of subjects on the LMS. It is required to register to the LMS.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     レポート ①      ②     ③     ④     ⑤     ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ①      ②     ③     ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     In addition to standard achievement level, (1+) Be able to write Python programs using dictionary and/or set appropriately (2+) Be able to write Python programs using objects appropriately (3+) Be able to write Python programs using list comprehension or itertools module appropriately (4+) Be able to write Python programs useing text file I/O appropriately  (1) Be able to operate dictionary and set in Python (2) Be able to operate objects in Python (3) Be able to use the iterator and list comprehension in Python (4) Be able to operate text file in Python\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習課題に要する標準的な時間を記載してあります。日々の自学自習時間全体としては、各授業に応じた時間(例えば2単位科目の場合、予習2時間・復習2時間/週)を取るよう努めてください。詳しくは教員の指導に従って下さい。     授業明細   回数 学習内容 授業の運営方法 学習課題(予習・復習) 時間:分※     1  - Guidance - Review of Programming I Lecture and Exercise Preview: Read Chapter 1 to 3, Ch. 4-2, 4-4, and 5-1 to 5-3 of the textbook  120   2  - Object - Dictionary and set Lecture and Exercise Preview: Watch the lecture video Review: Practice the h",
+  "sourceYear": "2024",
+  "originalSourceIndex": 423,
+  "courseId": "2024:spring:E535-01:0:11547",
+  "language": "en"
+}

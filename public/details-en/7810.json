@@ -1,0 +1,308 @@
+{
+  "sourceIndex": 7810,
+  "sourceUrl": "/opsyllabus/kitos0110/313/1",
+  "importedAt": "2026-06-12T08:01:14.626Z",
+  "title": "通信工学",
+  "subtitle": "Communication Engineering",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "2",
+  "term": "2020年度\n 3rd year 2nd semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [],
+  "keywords": [
+    "Basic topology, QoS 2.Information 3.Digital modulation 4.Imperfection 5.Multiplex"
+  ],
+  "educationalGoal": "This course introduced the basic topology of communication systems, properties of basic information like voices and videos, imperfection of transmission systems that makes data errors, basis of digital modulation/demodulation and multiplexing scheme. For each topic, basis and principle are explained with basic formulas.",
+  "advice": "This course is constructed following chapters: i) Basic topology of telecommunication systems, ii) Basic properties of information (voice, video, data) on telecommunication systems, iii) Entropy of information, iv) Communication disturbance due to imperfections of transmission (noise, linear/non-linear distortion), v) Digital modulation/demodulation and its filtering techniques, vi) Multiplexing techniques (Frequency division multiplex, Time division multiplex, Code division multiplex,)",
+  "books": "Textbooks:Tsuusin kougaku gairon (in japanese) [Morikita shuppan]",
+  "requiredKnowledge": "Acquisition of Communication and Network Systems. Enough skill of mathematics (especially Fourier transfer) How to use a calculator.",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "L",
+      "body": "Be able to understand and explain basis of telecommunication systems."
+    },
+    {
+      "index": "②",
+      "type": "L",
+      "body": "Be able to understand and explain principles of voice/video coding/decoding schemes."
+    },
+    {
+      "index": "③",
+      "type": "L",
+      "body": "Be able to understand and explain baseband transmission."
+    },
+    {
+      "index": "④",
+      "type": "L",
+      "body": "Be able to understand and explain digital modulation/demodulation schemes."
+    },
+    {
+      "index": "⑤",
+      "type": "L",
+      "body": "Be able to understand and explain degradation factors on quality of communications."
+    },
+    {
+      "index": "⑥",
+      "type": "L",
+      "body": "Be able to understand and explain principles of multiplexing systems in communication systems."
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "40",
+        "20",
+        "40",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "40",
+        "20",
+        "40",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "40",
+        "20",
+        "40",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションと\nリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "To explain the concept and principle of the items that are described in “target abilities for students.",
+    "standard": "To explain meanings of the items that are described in “target abilities for students."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "1. Course introduction",
+      "operation": "Lecture and Q&A",
+      "assignments": "Understand the objectives of class",
+      "minutes": "100"
+    },
+    {
+      "index": "2",
+      "content": "2.Basic topology of telecommunication systems (1) - Basic configuration - Quality of service",
+      "operation": "Test and review. Lecture based on PPT slides. Practice after the class.",
+      "assignments": "Understanding protocol of communication and principles of voice and its coding/ decoding",
+      "minutes": "100"
+    },
+    {
+      "index": "3",
+      "content": "2.Basic topology of telecommunication systems (2) - protocol of communication 3. Information in telecommunication (1) - principles of voice signal and its coding/ decoding",
+      "operation": "Test and review. Lecture based on PPT slides. Practice after the class.",
+      "assignments": "Understanding protocol of communication and principles of voice and its coding/ decoding",
+      "minutes": "100"
+    },
+    {
+      "index": "4",
+      "content": "3. Information in telecommunication (2) - principles of video signal and its coding/ decoding",
+      "operation": "Test and review. Lecture based on PPT slides. Practice after the class.",
+      "assignments": "Understanding protocol of communication and principles of video and its coding/ decoding",
+      "minutes": "100"
+    },
+    {
+      "index": "5",
+      "content": "4. Basis of information - Entropy: quantity of information 5. Communication disturbance due to imperfections of transmission (1) - Property of noise",
+      "operation": "Test and review. Lecture based on PPT slides. Practice after the class",
+      "assignments": "Understanding entropy and its calculation. Understanding property of noise and its influence on communication.",
+      "minutes": "100"
+    },
+    {
+      "index": "6",
+      "content": "5. Communication disturbance due to imperfections of transmission (2) -Property of linear/non-linear distortion - Property of delay dispersion",
+      "operation": "Test and review. Lecture based on PPT slides. Practice after the class.",
+      "assignments": "Understanding property of linear/non-linear distortion and delay dispersion. Understanding their influence on communication",
+      "minutes": "100"
+    },
+    {
+      "index": "7",
+      "content": "Exam 7. Digital modulation (1) - Principle of AD and DA conversion",
+      "operation": "Exam Lecture based on PPT slides. Practice after the class.",
+      "assignments": "Understanding principle of AD and DA conversion.",
+      "minutes": "100"
+    },
+    {
+      "index": "8",
+      "content": "Self-evaluation of the exam in previous class 7. Digital modulation (2) - Principle of the transmitter filter",
+      "operation": "Test and review. Lecture based on PPT slides. Practice after the class.",
+      "assignments": "Understanding principle of the transmitter filter",
+      "minutes": "100"
+    },
+    {
+      "index": "9",
+      "content": "7. Digital modulation (2) - Principle of the matched filter",
+      "operation": "Test and review. Lecture based on PPT slides. Practice after the class.",
+      "assignments": "Understanding principle of the matched filter.",
+      "minutes": "100"
+    },
+    {
+      "index": "10",
+      "content": "7. Digital modulation (3) - Modulation method of ASK, PSK and FSK",
+      "operation": "Test and review. Lecture based on PPT slides. Practice after the class.",
+      "assignments": "Understanding modulation details of ASK, PSK and FSK",
+      "minutes": ""
+    },
+    {
+      "index": "11",
+      "content": "7. Digital modulation (4) - Demodulation method - Bit error rate",
+      "operation": "Test and review. Lecture based on PPT slides. Practice after the class.",
+      "assignments": "Understanding demodulation method and bit error rate",
+      "minutes": "100"
+    },
+    {
+      "index": "12",
+      "content": "8. Multiplexing method - Method of Frequency Division Multiplexing (FDM), Time Division Multiplexing (TDM) and Code Division Multiplexing (CDM).",
+      "operation": "Test and review. Lecture based on PPT slides. Practice after the class.",
+      "assignments": "Understanding method of FDM, TDM and CDM.",
+      "minutes": "100"
+    },
+    {
+      "index": "13",
+      "content": "Final exam",
+      "operation": "Exam",
+      "assignments": "Prepare for the exam",
+      "minutes": "100"
+    },
+    {
+      "index": "14",
+      "content": "Special lecture by the invited speaker in industry.",
+      "operation": "Lecture",
+      "assignments": "Understanding communication systems at present",
+      "minutes": "100"
+    },
+    {
+      "index": "15",
+      "content": "Self-evaluation of the exam in previous class",
+      "operation": "Review",
+      "assignments": "",
+      "minutes": "100"
+    }
+  ],
+  "rawText": "金沢工業大学 学習支援計画書 E638-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Electrical and Electronic Engineering(2018〜)\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n通信工学\nCommunication Engineering  2 E638-01  2020年度\n 3rd year 2nd semester  修学規程第4条を参照\n    担当教員名\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Basic topology, QoS 2.Information 3.Digital modulation 4.Imperfection 5.Multiplex  This course introduced the basic topology of communication systems, properties of basic information like voices and videos, imperfection of transmission systems that makes data errors, basis of digital modulation/demodulation and multiplexing scheme. For each topic, basis and principle are explained with basic formulas.\n    授業の概要および学習上の助言   This course is constructed following chapters: i) Basic topology of telecommunication systems, ii) Basic properties of information (voice, video, data) on telecommunication systems, iii) Entropy of information, iv) Communication disturbance due to imperfections of transmission (noise, linear/non-linear distortion), v) Digital modulation/demodulation and its filtering techniques, vi) Multiplexing techniques (Frequency division multiplex, Time division multiplex, Code division multiplex,)\n    教科書および参考書・リザーブドブック   Textbooks:Tsuusin kougaku gairon (in japanese) [Morikita shuppan]\n    履修に必要な予備知識や技能   Acquisition of Communication and Network Systems. Enough skill of mathematics (especially Fourier transfer) How to use a calculator.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① L Be able to understand and explain basis of telecommunication systems.   ② L Be able to understand and explain principles of voice/video coding/decoding schemes.   ③ L Be able to understand and explain baseband transmission.   ④ L Be able to understand and explain digital modulation/demodulation schemes.   ⑤ L Be able to understand and explain degradation factors on quality of communications.    ⑥ L Be able to understand and explain principles of multiplexing systems in communication systems.\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 40 20 40 0 0 0 0 100     指標と評価割合 総合評価割合 40 20 40 0 0 0 0 100   総合力指標 知識を取り込む力 40 20 40 0 0 0 0 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ There are two exams at the middle/end of the semester to evaluate the degree of the achievement. The calculator specified in this department can be used.    ② レ   ③ レ   ④ レ   ⑤ レ   ⑥ レ   クイズ\n小テスト ① レ There are tests when each chapter is finished to improvement the level of understanding. The calculator specified in this department can be used in every test. It is necessary to understand the idea behind the formula.    ② レ   ③ レ   ④ レ   ⑤ レ   ⑥ レ   レポート ① レ After the class of each chapter, there are reports to improvement the level of understanding, as homework.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥ レ   成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ①      ②     ③     ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     To explain the concept and principle of the items that are described in “target abilities for students. To explain meanings of the items that are described in “target abilities for students.\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習課題に要する標準的な時間を記載してあります。日々の自学自習時間全体としては、各授業に応じた時間(例えば2単位科目の場合、予習2時間・復習2時間/週)を取るよう努めてください。詳しくは教員の指導に従って下さい。     授業明細   回数 学習内容 授業の運営方法 学習課題(予習・復習) 時間:分※     1  1. Course introduction Lecture and Q&A Understand the objectives of class  100   2  2.Basic topology of telecommunication systems (1) - Basic configurati",
+  "sourceYear": "2020",
+  "originalSourceIndex": 313,
+  "courseId": "2020:fall:E903-01:0:7810",
+  "language": "en"
+}

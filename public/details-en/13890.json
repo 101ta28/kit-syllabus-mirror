@@ -1,0 +1,305 @@
+{
+  "sourceIndex": 13890,
+  "sourceUrl": "/opsyllabus/kitos0110/803/1",
+  "importedAt": "2026-06-12T08:03:10.703Z",
+  "title": "基礎熱力学",
+  "subtitle": "Basic Thermodynamics",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "2",
+  "term": "2026年度\n 2nd year 2nd semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "FUKUE Takashi"
+  ],
+  "keywords": [
+    "Thermal equilibrium 2.The first law of thermodynamics 3.Thermodynamic process of ideal gas 4.Gas cycle 5.Contribution to local community, IoT"
+  ],
+  "educationalGoal": "Students will: (1) Learn basic knowledge of the irreversibility in the nature world (2) Learn how to convert energy and obtain work from heat (3) Acquire design skills for energy conversion in mechanical engineering",
+  "advice": "Even in advanced mechanical systems, proper energy management is key to their operation and energy efficiency, underscoring thermodynamics as a crucial foundational discipline. Therefore, this course aims to cover the fundamentals of thermodynamics, focusing specifically on the following topics. 1. Definitions of heat, temperature, and systems 2. Thermal equilibrium and the zeroth law of thermodynamics 3. The first law of thermodynamics 4. Equation of state of ideal gases and thermodynamic process of ideal gas 5. Gas cycle The ability to accurately model and simulate the course contents provides a foundation for the use of CAE and AI in design and manufacturing. Students are advised not merely to memorize formulas, but to envision the physical phenomena that the equations represent constantly. Note: This course plan is subject to change. Details will be provided in the first week of class.",
+  "books": "JSME Textbook Series Thermodynamics ISBN:4-88898-104-3 C3353",
+  "requiredKnowledge": "Have sufficient skill in mathematics (especially differential and integral calculations). Know how to use a calculator.",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "D,J,M",
+      "body": "Be able to explain heat, temperature, thermodynamic quantities of state and work and apply it to problems"
+    },
+    {
+      "index": "②",
+      "type": "D,J,M",
+      "body": "Be able to explain thermal equilibrium and apply it to problems"
+    },
+    {
+      "index": "③",
+      "type": "D,J,M",
+      "body": "Be able to explain the first law of thermodynamics and apply it to probrems about design of thermal equipment"
+    },
+    {
+      "index": "④",
+      "type": "D,J,M",
+      "body": "Be able to explain themodynamic process of ideal gas abd apply it to probrems about design of thermal equipment"
+    },
+    {
+      "index": "⑤",
+      "type": "D,J,M",
+      "body": "Be able to explain gas cycles and apply the knowledge to probrems about design of thermal equipment"
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "35",
+        "25",
+        "40",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "35",
+        "25",
+        "40",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "35",
+        "25",
+        "40",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションと\nリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "(1) Explain thermal equilibrium, the zeroth law of thermodynamics, heat, temperature, thermodynamic quantities of state, and work. Also, use this understanding to solve advanced problems. (2) Explain the thermal properties of mixed gases. Also, use this understanding to solve advanced problems. (3) Explain the first law of thermodynamics. Also, use this understanding to solve advanced problems related to thermal issues. (4) Explain the thermodynamic process of an ideal gas. Also, evaluate the performance of thermal systems. (5) Explain gas cycles. Also, evaluate the performance of thermal systems.",
+    "standard": "(1) Explain thermal equilibrium, the zeroth law of thermodynamics, heat, temperature, thermodynamic quantities of state, and work. Also, use this understanding to solve basic problems. (2) Explain the thermal properties of mixed gases. Also, use this understanding to solve basic problems. (3) Explain the first law of thermodynamics. Also, use this understanding to solve basic problems. (4) Explain the thermodynamic process of an ideal gas. Also, use this understanding to solve basic problems. (5) Explain gas cycles. Also, use this understanding to solve basic problems."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Guidance for the course Introduction of thermodynamics I",
+      "operation": "Lecture Self-check",
+      "assignments": "Review of the outline of the textbook Review of class content",
+      "minutes": "40 50"
+    },
+    {
+      "index": "2",
+      "content": "Definitions of heat, temperature and systems",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Preparation of contents using the testbook Review of class content",
+      "minutes": "40 50"
+    },
+    {
+      "index": "3",
+      "content": "Thermal equilibrium and the zeroth law of thermodynamics",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Preparation of contents using the testbook Review of class content",
+      "minutes": "40 50"
+    },
+    {
+      "index": "4",
+      "content": "The 1st law of thermodynamics",
+      "operation": "Review and practice Self-check",
+      "assignments": "Review of content of previous classes Review the practice conducted in the class",
+      "minutes": "40 50"
+    },
+    {
+      "index": "5",
+      "content": "Specific heat and mix gas",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Preparation of contents using the testbook Review of class content",
+      "minutes": "40 50"
+    },
+    {
+      "index": "6",
+      "content": "Ideal gas and the characteristics (1)",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Preparation of contents using the testbook Review of class content",
+      "minutes": "40 50"
+    },
+    {
+      "index": "7",
+      "content": "Ideal gas and the characteristics (2)",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Preparation of contents using the testbook Review of class content",
+      "minutes": "40 50"
+    },
+    {
+      "index": "8",
+      "content": "Review Test",
+      "operation": "Review and practice Self-check",
+      "assignments": "Review of content of previous classes Review the practice conducted in the class",
+      "minutes": "40 50"
+    },
+    {
+      "index": "9",
+      "content": "Gas cycle(1)",
+      "operation": "Test,Lecture and practice Self-check",
+      "assignments": "Preparation of contents using the testbook Review of class content",
+      "minutes": "40 50"
+    },
+    {
+      "index": "10",
+      "content": "Gas cycle(2)",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Preparation of contents using the testbook Review of class content",
+      "minutes": "40 50"
+    },
+    {
+      "index": "11",
+      "content": "Gas cycle(3)",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Preparation of contents using the testbook Review of class content",
+      "minutes": "40 50"
+    },
+    {
+      "index": "12",
+      "content": "Gas cycle(4)",
+      "operation": "Review, Lecture and practice Self-check",
+      "assignments": "Preparation of contents using the testbook Review of class content",
+      "minutes": "40 50"
+    },
+    {
+      "index": "13",
+      "content": "Review",
+      "operation": "Test,Lecture and practice Self-check",
+      "assignments": "Preparation of contents using the testbook Review of class content",
+      "minutes": "40 50"
+    },
+    {
+      "index": "14",
+      "content": "Exam Introduction to applied thermodynamics",
+      "operation": "Examination and self-inspection of learning Lecture and practice",
+      "assignments": "Preparation for examination",
+      "minutes": "40 50"
+    },
+    {
+      "index": "15",
+      "content": "Final review and self-check",
+      "operation": "Review, discussion Self-check",
+      "assignments": "Review of the content learned in thermodynamics I",
+      "minutes": "40 50"
+    }
+  ],
+  "rawText": "金沢工業大学 学習支援計画書 K114-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Advanced Mechanical Systems Engineering\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n基礎熱力学\nBasic Thermodynamics  2 K114-01  2026年度\n 2nd year 2nd semester  修学規程第4条を参照\n    担当教員名\n FUKUE Takashi      *印は、実務経験のある教員を示しています。\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Thermal equilibrium 2.The first law of thermodynamics 3.Thermodynamic process of ideal gas 4.Gas cycle 5.Contribution to local community, IoT  Students will: (1) Learn basic knowledge of the irreversibility in the nature world (2) Learn how to convert energy and obtain work from heat (3) Acquire design skills for energy conversion in mechanical engineering\n    授業の概要および学習上の助言   Even in advanced mechanical systems, proper energy management is key to their operation and energy efficiency, underscoring thermodynamics as a crucial foundational discipline. Therefore, this course aims to cover the fundamentals of thermodynamics, focusing specifically on the following topics. 1. Definitions of heat, temperature, and systems 2. Thermal equilibrium and the zeroth law of thermodynamics 3. The first law of thermodynamics 4. Equation of state of ideal gases and thermodynamic process of ideal gas 5. Gas cycle The ability to accurately model and simulate the course contents provides a foundation for the use of CAE and AI in design and manufacturing. Students are advised not merely to memorize formulas, but to envision the physical phenomena that the equations represent constantly. Note: This course plan is subject to change. Details will be provided in the first week of class.\n    教科書および参考書・リザーブドブック   JSME Textbook Series Thermodynamics ISBN:4-88898-104-3 C3353\n    履修に必要な予備知識や技能   Have sufficient skill in mathematics (especially differential and integral calculations). Know how to use a calculator.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① D,J,M Be able to explain heat, temperature, thermodynamic quantities of state and work and apply it to problems   ② D,J,M Be able to explain thermal equilibrium and apply it to problems   ③ D,J,M Be able to explain the first law of thermodynamics and apply it to probrems about design of thermal equipment   ④ D,J,M Be able to explain themodynamic process of ideal gas abd apply it to probrems about design of thermal equipment   ⑤ D,J,M Be able to explain gas cycles and apply the knowledge to probrems about design of thermal equipment   ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 35 25 40 0 0 0 0 100     指標と評価割合 総合評価割合 35 25 40 0 0 0 0 100   総合力指標 知識を取り込む力 35 25 40 0 0 0 0 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ An exam is given at the end of the semester to evaluate your degree of achievement.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     クイズ\n小テスト ① レ Tests and quizzes are conducted several times during class to confirm learning of the course content.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     レポート ① レ Several reports need to be prepared as homework. The content of the reports includes previews and reviews of class topics.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ①      ②     ③     ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     (1) Explain thermal equilibrium, the zeroth law of thermodynamics, heat, temperature, thermodynamic quantities of state, and work. Also, use this understanding to solve advanced problems. (2) Explain the thermal properties of mixed gases. Also, use this understanding to solve advanced problems. (3) Explain the first law of thermodynamics. Also, use this understanding to solve advanced problems related to thermal issues. (4) Explain the thermodynamic process of an ideal gas. Also, evalu",
+  "sourceYear": "2026",
+  "originalSourceIndex": 803,
+  "courseId": "2026:fall:K120-01:0:13890",
+  "language": "en"
+}

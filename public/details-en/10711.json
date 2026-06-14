@@ -1,0 +1,311 @@
+{
+  "sourceIndex": 10711,
+  "sourceUrl": "/opsyllabus/kitos0110/540/1",
+  "importedAt": "2026-06-12T08:02:16.729Z",
+  "title": "データベース",
+  "subtitle": "Database System",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "2",
+  "term": "2023年度\n 3rd year 1st semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "NEGISHI Ippei",
+    "SAKA Tomoki"
+  ],
+  "keywords": [
+    "Relational Database 2.E-R Diagram 3.Normalization 4.SQL"
+  ],
+  "educationalGoal": "A database is a system that shares, updates, and reuses data between multiple applications, thereby ensuring data consistency. In this course, students learn the fundamental theory of a relational database, database design, Structured Query Language (SQL), which is the language used for database management, and practical database operations using an actual database management system.",
+  "advice": "There are three essential abilities needed to manage a database: (1) The ability to handle SQL. (2) The ability to ensure data consistency based on the concept of normal form, primary key, and foreign key, etc. (3) The ability to design a database application system using transactions. In this course we mainly focused on (1) and (2), but (3) will be also mentioned in the later classes. Since SQL is used for comprehensive database operations such as design, handling, and/or maintenance, it will be necessary to polish student SQL management skills by providing them with significant amounts of experience. With that point in mind, students will be required to connect with and use our database server and then use it to manipulate their own databases in order to foster skills and knowledge related to the operation and management of a relational database.",
+  "books": "None",
+  "requiredKnowledge": "Students are expected to have acquired fundamental knowledge related to computers via other courses such as “Information Technology Basic” or “Introduction to Server Management”",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "I,H",
+      "body": "Be able to understand what a database is."
+    },
+    {
+      "index": "②",
+      "type": "A,B,I",
+      "body": "Be able to understand what a relational database is."
+    },
+    {
+      "index": "③",
+      "type": "H,N",
+      "body": "Be able to draw an E-R diagram."
+    },
+    {
+      "index": "④",
+      "type": "D,E,G",
+      "body": "Be able to complete the third normalization."
+    },
+    {
+      "index": "⑤",
+      "type": "C,F,M",
+      "body": "Be able to use the SELECT statement of SQL."
+    },
+    {
+      "index": "⑥",
+      "type": "J,K,L",
+      "body": "Be able to design a database."
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "40",
+        "30",
+        "30",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "40",
+        "30",
+        "30",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "40",
+        "30",
+        "30",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションと\nリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "90% or higher achievement rate for target student abilities.",
+    "standard": "At least a 60% achievement rate for target student abilities."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Introduction",
+      "operation": "Lecture and Practice Self-Assessment Review",
+      "assignments": "Review: Introduction Preview: Relational Database B asics, E-R Diagram",
+      "minutes": "60"
+    },
+    {
+      "index": "2",
+      "content": "Relational Database Basics E-R Diagram",
+      "operation": "Lecture and Practice Self-Assessment Review",
+      "assignments": "Review: Relational Database Ba sics, E-R Diagram Preview: 1st and 2nd Normal Fo rm",
+      "minutes": "60"
+    },
+    {
+      "index": "3",
+      "content": "Normalization #1 1st and 2nd Normal Form",
+      "operation": "Lecture and Practice Self-Assessment Review",
+      "assignments": "Review: 1st and 2nd Normal For m Preview: 3rd Normal Form",
+      "minutes": "60"
+    },
+    {
+      "index": "4",
+      "content": "Normalization #2 3rd Normal Form",
+      "operation": "Lecture and Practice Self-Assessment Review",
+      "assignments": "Review: 3rd Normal Form Preview: MySQL(Database Creati on, Deletion and Insertion of Records)",
+      "minutes": "60"
+    },
+    {
+      "index": "5",
+      "content": "SQL Basics #1 Database Creation, Deletion and Insertion of Records",
+      "operation": "Lecture and Practice Self-Assessment Review",
+      "assignments": "Review: MySQL(Database Creatio n, Deletion and Insertion of Records) Preview: MySQL(Data Query)",
+      "minutes": "60"
+    },
+    {
+      "index": "6",
+      "content": "SQL Basics #2 Data Query",
+      "operation": "Lecture and Practice Self-Assessment Review",
+      "assignments": "Review: MySQL(Data Query) Preview: MySQL(Equi-join of Ta bles)",
+      "minutes": "60"
+    },
+    {
+      "index": "7",
+      "content": "SQL Basics #3 Equi-join of Tables",
+      "operation": "Lecture and Practice Self-Assessment Review",
+      "assignments": "Review: Review all of the contents which have been acquired so far to prepare for Mid-term Quiz",
+      "minutes": "60"
+    },
+    {
+      "index": "8",
+      "content": "Mid-term Quiz",
+      "operation": "Paper Test",
+      "assignments": "Preview: MySQL(Subquery, Inner -join, Outer-join and Sum)",
+      "minutes": "60"
+    },
+    {
+      "index": "9",
+      "content": "SQL Basics #4 Subquery, Inner-join, Outer-join and Sum",
+      "operation": "Lecture and Practice Self-Assessment Review",
+      "assignments": "Review: MySQL(Subquery, Inner- join, Outer-join and Sum) Preview: Transaction, Grant",
+      "minutes": "60"
+    },
+    {
+      "index": "10",
+      "content": "Transaction, Grant and Web Application Individual Work: Investigation of Existing System",
+      "operation": "Lecture and Practice Self-Assessment Review",
+      "assignments": "Review: Transaction, Grant Preview: Investigate for the subject of the work",
+      "minutes": "60"
+    },
+    {
+      "index": "11",
+      "content": "Work: Making Screen Transition Diagram",
+      "operation": "Lecture and Practice Self-Assessment Review",
+      "assignments": "Review/Preview: Carry out the activity",
+      "minutes": "60"
+    },
+    {
+      "index": "12",
+      "content": "Work: Making E-R Diagram",
+      "operation": "Lecture and Practice Self-Assessment Review",
+      "assignments": "Review/Preview: Carry out the activity",
+      "minutes": "60"
+    },
+    {
+      "index": "13",
+      "content": "Work: Construction of Database",
+      "operation": "Lecture and Practice Self-Assessment Review",
+      "assignments": "Review/Preview: Carry out the activity",
+      "minutes": "120"
+    },
+    {
+      "index": "14",
+      "content": "Term-end Examination",
+      "operation": "Paper Test Self-Assessment Review",
+      "assignments": "Review all of the contents that have been acquired so far to prepare for Term-end Exam.",
+      "minutes": "30"
+    },
+    {
+      "index": "15",
+      "content": "Summary of the class",
+      "operation": "Commentary Self-Assessment Review Questionnaire",
+      "assignments": "",
+      "minutes": ""
+    }
+  ],
+  "rawText": "金沢工業大学 学習支援計画書 F021-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Media Informatics\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\nデータベース\nDatabase System  2 F021-01  2023年度\n 3rd year 1st semester  修学規程第4条を参照\n    担当教員名\n NEGISHI Ippei, SAKA Tomoki\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Relational Database 2.E-R Diagram 3.Normalization 4.SQL   A database is a system that shares, updates, and reuses data between multiple applications, thereby ensuring data consistency. In this course, students learn the fundamental theory of a relational database, database design, Structured Query Language (SQL), which is the language used for database management, and practical database operations using an actual database management system.\n    授業の概要および学習上の助言   There are three essential abilities needed to manage a database: (1) The ability to handle SQL. (2) The ability to ensure data consistency based on the concept of normal form, primary key, and foreign key, etc. (3) The ability to design a database application system using transactions. In this course we mainly focused on (1) and (2), but (3) will be also mentioned in the later classes. Since SQL is used for comprehensive database operations such as design, handling, and/or maintenance, it will be necessary to polish student SQL management skills by providing them with significant amounts of experience. With that point in mind, students will be required to connect with and use our database server and then use it to manipulate their own databases in order to foster skills and knowledge related to the operation and management of a relational database.\n    教科書および参考書・リザーブドブック   None\n    履修に必要な予備知識や技能   Students are expected to have acquired fundamental knowledge related to computers via other courses such as “Information Technology Basic” or “Introduction to Server Management”\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① I,H Be able to understand what a database is.   ② A,B,I Be able to understand what a relational database is.   ③ H,N Be able to draw an E-R diagram.   ④ D,E,G Be able to complete the third normalization.   ⑤ C,F,M Be able to use the SELECT statement of SQL.   ⑥ J,K,L Be able to design a database.\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 40 30 30 0 0 0 0 100     指標と評価割合 総合評価割合 40 30 30 0 0 0 0 100   総合力指標 知識を取り込む力 40 30 30 0 0 0 0 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ An examination will be conducted at the end of the semester to evaluate each student's final achievement level.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥ レ   クイズ\n小テスト ① レ A quiz will be conducted at the intermediate term of the semester to evaluate each student's achievements at that time.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥ レ   レポート ① レ Students will be tasked with making reports during almost all of the classes.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥ レ   成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ①      ②     ③     ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     90% or higher achievement rate for target student abilities. At least a 60% achievement rate for target student abilities.\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習課題に要する標準的な時間を記載してあります。日々の自学自習時間全体としては、各授業に応じた時間(例えば2単位科目の場合、予習2時間・復習2時間/週)を取るよう努めてください。詳しくは教員の指導に従って下さい。     授業明細   回数 学習内容 授業の運営方法 学習課題(予習・復習) 時間:分※     1  Introduction Lecture and Practice Self-Assessment Review Review: Introduction Preview: Relational Database B asics, E-R Diagram  60   2  Relational Database Basics E-R Diagram Lecture and Practice Self-Assess",
+  "sourceYear": "2023",
+  "originalSourceIndex": 540,
+  "courseId": "2023:full-year:F005-01:0:10711",
+  "language": "en"
+}

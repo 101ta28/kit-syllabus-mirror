@@ -1,0 +1,307 @@
+{
+  "sourceIndex": 9607,
+  "sourceUrl": "/opsyllabus/kitos0110/350/1",
+  "importedAt": "2026-06-12T08:01:55.074Z",
+  "title": "自動制御",
+  "subtitle": "Automatic Control",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "2",
+  "term": "2022年度\n 3rd year 1st semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "ASHINO Makoto",
+    "KOYAMA Masato",
+    "KONNO Takeshi"
+  ],
+  "keywords": [
+    "Feedback Control 2.Transfer Function 3.Laplace Conversion & Inversion 4.Transient & Frequency Responses 5.Stability"
+  ],
+  "educationalGoal": "Students will: (1) learn framework of feedback control theory involving \"Mathematical Expression\",\"Laplace Conversions\",\"Block Diagrams\",\"Transfer Functions\" and furthermore (2) learn characteristics \"Transfer Functions\",\"Stability\",\"Transient & Frequency Responses\",\"Steady States\".",
+  "advice": "This is a basic course of Feedback Control. We will cover the following materials: 1. Basic concepts in feedback control: The Laplace inversion & the time functions, System elements and block diagram, Graphical representation by the frequency functions. Representation with elementary blocks. 5. Stability of linear control systems 2. The various elements of a control process: The concept of stability Proportional, integrating, differentiating, and Stability analysis using the Routh-Hurwitz criterion 1st-order-, 2nd-order-, & delay-time lag blocks. (matrices & determinants) 3. Transformation from time (t) to frequency (s) domains: The elementary blocks & the transfer functions, The Laplace transformation & the transfer functions, Examples of electric circuit systems. 4. Transfer characteristics of typical basic blocks: Specifications in the time domain (transient responses), Specifications in the frequency domain (frequency responses)",
+  "books": "None",
+  "requiredKnowledge": "Acquisition of “Computer Engineering for Electrical Engineers” and “Electrical and Electronic Instrumentation”. Enough skill of mathematics (especially matrix / inverse matrix and determinant calculations). Basic knowledge of mathematics (the Laplace conversion & inversion and so on). How to use a calculator.",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "K",
+      "body": "Be able to explain the elementary blocks and their basic characteristics."
+    },
+    {
+      "index": "②",
+      "type": "K",
+      "body": "Be able to explain the Laplace conversion and inversion."
+    },
+    {
+      "index": "③",
+      "type": "K",
+      "body": "Be able to explain the transfer functions and represent control systems with the transfer functions & block diag"
+    },
+    {
+      "index": "④",
+      "type": "K",
+      "body": "Be able to perform basic designs of the feedback control systems using the transfer functions."
+    },
+    {
+      "index": "⑤",
+      "type": "K",
+      "body": "Be able to explain analytical stability criteria on linear control systems."
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "40",
+        "30",
+        "10",
+        "0",
+        "0",
+        "0",
+        "20",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "40",
+        "30",
+        "10",
+        "0",
+        "0",
+        "0",
+        "20",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "40",
+        "30",
+        "10",
+        "0",
+        "0",
+        "0",
+        "20",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションと\nリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "(1) Explain more than six elementary blocks of a control process and their characteristics. (2) Perform the Laplace conversions & inversions for the transfer functions that play key roles in complicated control systems. (3) Express the transfer elements in the frequency (s) domain for some electric circuit models. (4) Calculate and characterize the transient and frequency responses of the transfer functions in the complicated control systems.",
+    "standard": "(1) Explain some basic elements of a control process and their characteristics. (2) Perform the Laplace conversions & inversions for the elementary transfer functions using mathematical formulas. (3) Express the transfer functions of control systems in block diagrams. (4) Explain transient responses to noise signals and their stabilities, and analyze them using the Routh-Hurwitz criterion."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Course introduction and basic concepts of control systems such as \"Automatic Control\", \"Feedback Control\",\"Elementary Blocks\", \"Block Diagram\" and so on.",
+      "operation": "Lecture and Q&A Self-check (practice)",
+      "assignments": "",
+      "minutes": "90"
+    },
+    {
+      "index": "2",
+      "content": "The basic \"Elements\" of a control process: \"Proportional\", \"Integral\", \"Differential\", \"1st-order-time\",\"2nd-order-time\" elements",
+      "operation": "Lecture and Q&A Self-check (practice)",
+      "assignments": "",
+      "minutes": "120"
+    },
+    {
+      "index": "3",
+      "content": "Description of continuum systems in the time domains and transformation from time (t) to frequency (s) domains, including “the elementary blocks & the transfer functions” and “the Laplace transformation & the transfer functions”.",
+      "operation": "Lecture and Q&A Self-check (practice)",
+      "assignments": "",
+      "minutes": "120"
+    },
+    {
+      "index": "4",
+      "content": "Test and review about contents learned in No.1 to 3 classes.",
+      "operation": "Lecture and Q&A Test (1) and review Self-reflection",
+      "assignments": "",
+      "minutes": "60"
+    },
+    {
+      "index": "5",
+      "content": "Basic connections of elementary blocks and equivalent block manipulations. Description of continuum systems in the time domains and transformation from time (t) to frequency (s) domains in electric circuit systems.",
+      "operation": "Lecture and Q&A Self-check (practice)",
+      "assignments": "",
+      "minutes": "90"
+    },
+    {
+      "index": "6",
+      "content": "Transfer characteristics of typical basic blocks: Specifications in the time (t) domain (transient response).",
+      "operation": "Lecture and Q&A Self-check (practice)",
+      "assignments": "",
+      "minutes": "120"
+    },
+    {
+      "index": "7",
+      "content": "Transformation from time (t) to frequency (s) domains: The elementary blocks & the transfer functions, The Laplace conversion & inversion, and summarize the transfer functions and the block diagrams",
+      "operation": "Lecture and Q&A Self-check (practice)",
+      "assignments": "",
+      "minutes": "60"
+    },
+    {
+      "index": "8",
+      "content": "Test and review about contents learned in No.5 to 7 classes.",
+      "operation": "Lecture and Q&A Test (2) and review Self-reflection",
+      "assignments": "",
+      "minutes": "120"
+    },
+    {
+      "index": "9",
+      "content": "Stability of linear control systems, especially the concept of stability",
+      "operation": "Lecture and Q&A Self-check (practice)",
+      "assignments": "",
+      "minutes": "120"
+    },
+    {
+      "index": "10",
+      "content": "Stability of linear control systems, especially mathematical formations (characteristic equations) using matrices and determinants",
+      "operation": "Lecture and Q&A Self-check (practice)",
+      "assignments": "",
+      "minutes": "120"
+    },
+    {
+      "index": "11",
+      "content": "Stability of linear control systems, especially analysis using the Routh- Hurwitz criterion (matrices & determinants)",
+      "operation": "Interactive lecture & practice on the basis of questions & proposals",
+      "assignments": "",
+      "minutes": ""
+    },
+    {
+      "index": "12",
+      "content": "Test and review about contents learned in No.9 to 11 classes.",
+      "operation": "Lecture and Q&A Test (3) and review Self-reflection",
+      "assignments": "",
+      "minutes": "120"
+    },
+    {
+      "index": "13",
+      "content": "Overall exercises for promoting total learning abilities.",
+      "operation": "Interactive lecture & practice on the basis of questions & proposals",
+      "assignments": "",
+      "minutes": "200"
+    },
+    {
+      "index": "14",
+      "content": "Final exam and review.",
+      "operation": "Exam and review Self-reflection",
+      "assignments": "",
+      "minutes": ""
+    },
+    {
+      "index": "15",
+      "content": "Comment on the exam, grade notification, and self-evaluation",
+      "operation": "Notification of all results, Self-evaluation",
+      "assignments": "",
+      "minutes": "60"
+    }
+  ],
+  "rawText": "金沢工業大学 学習支援計画書 E624-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Electrical and Electronic Engineering(2018〜)\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n自動制御\nAutomatic Control  2 E624-01  2022年度\n 3rd year 1st semester  修学規程第4条を参照\n    担当教員名\n ASHINO Makoto, KOYAMA Masato, KONNO Takeshi\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Feedback Control 2.Transfer Function 3.Laplace Conversion & Inversion 4.Transient & Frequency Responses 5.Stability  Students will: (1) learn framework of feedback control theory involving \"Mathematical Expression\",\"Laplace Conversions\",\"Block Diagrams\",\"Transfer Functions\" and furthermore (2) learn characteristics \"Transfer Functions\",\"Stability\",\"Transient & Frequency Responses\",\"Steady States\".\n    授業の概要および学習上の助言   This is a basic course of Feedback Control. We will cover the following materials: 1. Basic concepts in feedback control: The Laplace inversion & the time functions, System elements and block diagram, Graphical representation by the frequency functions. Representation with elementary blocks. 5. Stability of linear control systems 2. The various elements of a control process: The concept of stability Proportional, integrating, differentiating, and Stability analysis using the Routh-Hurwitz criterion 1st-order-, 2nd-order-, & delay-time lag blocks. (matrices & determinants) 3. Transformation from time (t) to frequency (s) domains: The elementary blocks & the transfer functions, The Laplace transformation & the transfer functions, Examples of electric circuit systems. 4. Transfer characteristics of typical basic blocks: Specifications in the time domain (transient responses), Specifications in the frequency domain (frequency responses)\n    教科書および参考書・リザーブドブック   None\n    履修に必要な予備知識や技能   Acquisition of “Computer Engineering for Electrical Engineers” and “Electrical and Electronic Instrumentation”. Enough skill of mathematics (especially matrix / inverse matrix and determinant calculations). Basic knowledge of mathematics (the Laplace conversion & inversion and so on). How to use a calculator.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① K Be able to explain the elementary blocks and their basic characteristics.   ② K Be able to explain the Laplace conversion and inversion.   ③ K Be able to explain the transfer functions and represent control systems with the transfer functions & block diag   ④ K Be able to perform basic designs of the feedback control systems using the transfer functions.   ⑤ K Be able to explain analytical stability criteria on linear control systems.   ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 40 30 10 0 0 0 20 100     指標と評価割合 総合評価割合 40 30 10 0 0 0 20 100   総合力指標 知識を取り込む力 40 30 10 0 0 0 20 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ There is an exam at the end of the semester to evaluate the degree of the achievement involving “Target Abilities 1 to 5”. The questions at the exam will be mainly concerned with the three tests prior to it. They are focused on the Laplace conversion and inversion in the elementary blocks because the transfer functions are of particular significance in the feedback control. The following topics are questioned for some basic electric circuits; the transfer functions, the block diagrams, the transient responses, and the stabilities.    ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     クイズ\n小テスト ① レ There are three tests (60 min/test) according to the “Target Abilities 1 to 5”. Every student’s level of understanding for five keywords is checked through them. The following topics are also questioned for some basic electric circuits: the transfer functions, the block diagrams, the transient responses, and the stabilities. Please be sure of overall review on the materials given at the basic course.   ② レ   ③ レ   ④ レ",
+  "sourceYear": "2022",
+  "originalSourceIndex": 350,
+  "courseId": "2022:full-year:E923-05:0:9607",
+  "language": "en"
+}

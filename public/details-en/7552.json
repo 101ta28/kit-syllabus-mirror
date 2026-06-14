@@ -1,0 +1,303 @@
+{
+  "sourceIndex": 7552,
+  "sourceUrl": "/opsyllabus/kitos0110/55/1",
+  "importedAt": "2026-06-12T08:01:12.706Z",
+  "title": "電気数学",
+  "subtitle": "Mathematics for Electrical Engineers",
+  "courseType": "Mathematics and Science Program\nMathematics and Science Courses",
+  "credits": "2",
+  "term": "2020年度\n 2nd year 2nd semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [],
+  "keywords": [
+    "Fourier series 2.Fourier transform 3.Laplace transform 4.FFT 5.Differential equation"
+  ],
+  "educationalGoal": "In this course, students will learn the advanced mathematics which is considered necessary to understand specialized subjects in the field of electrical and electronic fields. Specifically, students will learn Fourier series, Fourier transform, and Laplace transform. These are necessary to understand the following subjects: \"Transient Phenomena in Linear Circuits\", \"Electric Circuits IV for Electrical Engineering Course\", \"Feedback Control\", \"Power Electronics\" and “ Transmission of Electronic Information”",
+  "advice": "The following items are handled in the course: Introduction: What is Fourier analysis? Chapter 1 Fourier Series Chapter 2 Fourier Transform Chapter 3 Laplace Transform Chapter 4 Discrete Fourier Transform and Discrete Cosine Transform Chapter 5 Fast Fourier Transform Chapter 6 Fourier analysis and differential equations Chapter 7 Fourier Analysis and Linear Response Theory",
+  "books": "We have not prepared English Textbook yet, but you can find a lot of English textbooks on this subject in book stores.",
+  "requiredKnowledge": "The following knowledge is needed to study this course. - General mathematics learned in high school. - Sophisticated mathematics learned in “Integrated Math and Science for Engineering” and “Linear Algebra”",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "I",
+      "body": "To understand the Fourier series and to solve basic calculations and application problems."
+    },
+    {
+      "index": "②",
+      "type": "I",
+      "body": "To understand the Fourier transform and to solve basic calculations and application problems."
+    },
+    {
+      "index": "③",
+      "type": "I",
+      "body": "To understand the Laplace transform and to solve basic calculations and application problems."
+    },
+    {
+      "index": "④",
+      "type": "I",
+      "body": "To understand the algorithms for discrete Fourier transforms on computers."
+    },
+    {
+      "index": "⑤",
+      "type": "I",
+      "body": "To solve the problems of differential equations using Fourier transform and/or Laplace transform."
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "40",
+        "30",
+        "30",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "40",
+        "30",
+        "30",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "40",
+        "30",
+        "30",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションと\nリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "The five target abilities are almost achieved, and interest and learning motivation for the following subjects are formed.",
+    "standard": "70% ~ 80% of the five target abilities are achieved"
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Guidance & Introduction: What is Fourier analysis?",
+      "operation": "Lecture and Q&A.",
+      "assignments": "Review what you have learned in class and solve related exercises. Prepare for the next lesson.",
+      "minutes": "100min"
+    },
+    {
+      "index": "2",
+      "content": "Chapter 1 Fourier Series What is a Fourier series? Fourier sine series & Fourier cosine series.",
+      "operation": "Lecture and Q&A. Practice problems",
+      "assignments": "Review what you have learned in class and solve related exercises. Prepare for the next lesson.",
+      "minutes": "100min"
+    },
+    {
+      "index": "3",
+      "content": "Chapter 1 Fourier Series Fourier series expansion Complex Fourier series",
+      "operation": "Lecture and Q&A. Practice problems",
+      "assignments": "Review what you have learned in class and solve related exercises. Prepare for the next lesson.",
+      "minutes": "100min"
+    },
+    {
+      "index": "4",
+      "content": "Chapter 2 Fourier Transform Derivation of Fourier transform formula.",
+      "operation": "Lecture and Q&A. Practice problems",
+      "assignments": "Review what you have learned in class and solve related exercises. Prepare for the next lesson",
+      "minutes": "100min"
+    },
+    {
+      "index": "5",
+      "content": "Chapter 2 Fourier Transform Properties of Fourier transform",
+      "operation": "Lecture and Q&A. Practice problems",
+      "assignments": "Review what you have learned in class and solve related exercises. Prepare for the next lesson",
+      "minutes": "100min"
+    },
+    {
+      "index": "6",
+      "content": "Chapter 3 Laplace Transform Derivation of Laplace transform formula Relationship between Laplace transform and Fourier transform",
+      "operation": "Lecture and Q&A. Practice problems",
+      "assignments": "Review what you have learned in class and solve related exercises. Prepare for the next lesson",
+      "minutes": "100min"
+    },
+    {
+      "index": "7",
+      "content": "Middle-term exam",
+      "operation": "Exam",
+      "assignments": "Preparation for the middle-term exam",
+      "minutes": "100min"
+    },
+    {
+      "index": "8",
+      "content": "Return of mid-term exam Chapter 3 Laplace transform Properties of Laplace transform Reverse Laplace transform",
+      "operation": "Lecture and Q&A. Practice problems",
+      "assignments": "Review what you have learned in class and solve related exercises. Prepare for the next lesson",
+      "minutes": "100min"
+    },
+    {
+      "index": "9",
+      "content": "Chapter 4 Discrete Fourier Transform and Discrete Cosine Transform Discrete signal for discrete Fourier transform Concept and application of discrete Fourier transform",
+      "operation": "Lecture and Q&A. Practice problems",
+      "assignments": "Review what you have learned in class and solve related exercises. Prepare for the next lesson",
+      "minutes": "100min"
+    },
+    {
+      "index": "10",
+      "content": "Chapter 4 Discrete Fourier Transform and Discrete Cosine Transform Discrete signal for discrete cosine transform Discrete cosine transform concept and information compression",
+      "operation": "Lecture and Q&A. Practice problems",
+      "assignments": "Review what you have learned in class and solve related exercises. Prepare for the next lesson",
+      "minutes": "100min"
+    },
+    {
+      "index": "11",
+      "content": "Chapter 5 Fast Fourier Transform (FFT)",
+      "operation": "Lecture and Q&A. Practice problems",
+      "assignments": "Review what you have learned in class and solve related exercises. Prepare for the next lesson.",
+      "minutes": "100min"
+    },
+    {
+      "index": "12",
+      "content": "Chapter 6 Fourier analysis and differential equations",
+      "operation": "Lecture and Q&A. Practice problems",
+      "assignments": "Review what you have learned in class and solve related exercises. Prepare for the next lesson.",
+      "minutes": "100min"
+    },
+    {
+      "index": "13",
+      "content": "Chapter 7 Fourier Analysis and Linear Response Theory",
+      "operation": "Lecture and Q&A. Practice problems",
+      "assignments": "Review what you have learned in class and solve related exercises. Prepare for the next lesson.",
+      "minutes": "100min"
+    },
+    {
+      "index": "14",
+      "content": "Final Exam",
+      "operation": "Lecture and Q&A. Practice problems",
+      "assignments": "Review what you have learned in class and solve related exercises. Prepare for the next lesson.",
+      "minutes": "100min"
+    },
+    {
+      "index": "15",
+      "content": "Self-inspection class Explanation of model answers for exams Comprehensive learning (reviews and exercises for lessons) Group discussion",
+      "operation": "Lecture and Q&A. Practice problems",
+      "assignments": "Review what you have learned in class and solve related exercises. Prepare for the next lesson.",
+      "minutes": "100min"
+    }
+  ],
+  "rawText": "金沢工業大学 学習支援計画書 G206-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nMathematics and Science Program\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Mathematics and Science Program\nMathematics and Science Courses\n電気数学\nMathematics for Electrical Engineers  2 G206-01  2020年度\n 2nd year 2nd semester  修学規程第4条を参照\n    担当教員名\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Fourier series 2.Fourier transform 3.Laplace transform 4.FFT 5.Differential equation  In this course, students will learn the advanced mathematics which is considered necessary to understand specialized subjects in the field of electrical and electronic fields. Specifically, students will learn Fourier series, Fourier transform, and Laplace transform. These are necessary to understand the following subjects: \"Transient Phenomena in Linear Circuits\", \"Electric Circuits IV for Electrical Engineering Course\", \"Feedback Control\", \"Power Electronics\" and “ Transmission of Electronic Information”\n    授業の概要および学習上の助言   The following items are handled in the course: Introduction: What is Fourier analysis? Chapter 1 Fourier Series Chapter 2 Fourier Transform Chapter 3 Laplace Transform Chapter 4 Discrete Fourier Transform and Discrete Cosine Transform Chapter 5 Fast Fourier Transform Chapter 6 Fourier analysis and differential equations Chapter 7 Fourier Analysis and Linear Response Theory\n    教科書および参考書・リザーブドブック   We have not prepared English Textbook yet, but you can find a lot of English textbooks on this subject in book stores.\n    履修に必要な予備知識や技能   The following knowledge is needed to study this course. - General mathematics learned in high school. - Sophisticated mathematics learned in “Integrated Math and Science for Engineering” and “Linear Algebra”\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① I To understand the Fourier series and to solve basic calculations and application problems.   ② I To understand the Fourier transform and to solve basic calculations and application problems.   ③ I To understand the Laplace transform and to solve basic calculations and application problems.   ④ I To understand the algorithms for discrete Fourier transforms on computers.   ⑤ I To solve the problems of differential equations using Fourier transform and/or Laplace transform.   ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 40 30 30 0 0 0 0 100     指標と評価割合 総合評価割合 40 30 30 0 0 0 0 100   総合力指標 知識を取り込む力 40 30 30 0 0 0 0 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ The exams to check each student’s achievement will be held twice, and the score will be determined based on the results of the two exams.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     クイズ\n小テスト ① レ The quizzes will be held several times, and the score will be determined based on the results.    ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     レポート ① レ Students will be requested to submit reports a few times, and the score will be determined based on the evaluation rating of the reports.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ①      ②     ③     ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     The five target abilities are almost achieved, and interest and learning motivation for the following subjects are formed. 70% ~ 80% of the five target abilities are achieved\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習課題に要する標準的な時間を記載してあります。日々の自学自習時間全体としては、各授業に応じた時間(例えば2単位科目の場合、予習2時間・復習2時間/週)を取るよう努めてください。詳しくは教員の指導に従って下さい。     授業明細   回数 学習内容 授業の運営方法 学習課題(予習・復習) 時間:分※     1  Guidance & Introduction: What is Fourier analysis? Lecture and Q&A. Rev",
+  "sourceYear": "2020",
+  "originalSourceIndex": 55,
+  "courseId": "2020:spring:G469-01:0:7552",
+  "language": "en"
+}

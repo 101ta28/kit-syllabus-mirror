@@ -1,0 +1,305 @@
+{
+  "sourceIndex": 9798,
+  "sourceUrl": "/opsyllabus/kitos0110/541/1",
+  "importedAt": "2026-06-12T08:01:56.280Z",
+  "title": "Webプログラミング",
+  "subtitle": "Web Programming",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "2",
+  "term": "2022年度\n 3rd year 1st semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "HASEGAWA Wataru"
+  ],
+  "keywords": [
+    "Web Application 2.Script Language 3.Web Server 4.PHP, HTML 5.Regional Corporation"
+  ],
+  "educationalGoal": "Websites not only show home pages, but also provide a more useful system by hosting applications on the internet that are associated with databases. In this course, students will master the scripting language that enables web programming to be executed on the server side. In addition, by acquiring technologies related to web production, students will develop an awareness of issues related to regional collaboration and future information dissemination to society.",
+  "advice": "In this course, students will learn programming for the processes executed on the server side for the purpose of mastering web applications using Apache for the web server and Hypertext Preprocesser 5 (PHP5) for the scripting language. Practice will take place on each student's laptop PC operating in a Windows environment. Specific class topics include the installation and configuration of the PHP development environment, the basics of PHP grammar, PHP built-in functions, PHP programs on the web, and creating applications using classes and objects in PHP. Before joining the class, students are requested to enter textbook program examples, practice using them, and understand the contents of the textbook. Students should note that, because there is insufficient time to explain each legal item and each program in detail, they are expected to read the textbook thoroughly beforehand. In class, lectures will focus extensively on supplementary and advanced textbook explanations.",
+  "books": "基礎からのPHP[SBクリエイティブ]",
+  "requiredKnowledge": "Students are expected to understand the contents of the following previous courses: Web Design, Information Technology Basic, Fundamentals of Programming, and Programming. The ability to write HTML is essential for this course.",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "FIJKL",
+      "body": "Be able to understand how web applications work."
+    },
+    {
+      "index": "②",
+      "type": "FIJKL",
+      "body": "Be able to set up web servers running PHP."
+    },
+    {
+      "index": "③",
+      "type": "FIJKL",
+      "body": "Be able to master the basics of PHP grammar."
+    },
+    {
+      "index": "④",
+      "type": "FIJKL",
+      "body": "Be able to utilize PHP built-in functions."
+    },
+    {
+      "index": "⑤",
+      "type": "FIJKL",
+      "body": "Be able to perform PHP-based web programming."
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "40",
+        "20",
+        "20",
+        "0",
+        "0",
+        "0",
+        "20",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "40",
+        "20",
+        "20",
+        "0",
+        "0",
+        "0",
+        "20",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "40",
+        "20",
+        "20",
+        "0",
+        "0",
+        "0",
+        "20",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションと\nリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "Be able to acquire not only the skills needed to create web programs at the same level as examples in the textbook, but also the abilities to implement web programs that utilize freely the knowledge about PHP, and to manage web servers. Be able to find necessary information by yourself and use it to solve problems such as errors.",
+    "standard": "Be able to install the PHP development environment on a laptop and manage it correctly. Be able to acquire skills that can be used to create web programs at the same level as examples in the textbook."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Environment of developing PHP (1)",
+      "operation": "Lecture and practice Installation of Apache and PHP",
+      "assignments": "Prepare your environment beforehand if you cannot install PHP during the class.",
+      "minutes": "60"
+    },
+    {
+      "index": "2",
+      "content": "Environment of developing PHP (2)",
+      "operation": "Lecture and practice Practice for creating Web applications",
+      "assignments": "Review: Review how to create a web application.",
+      "minutes": "60"
+    },
+    {
+      "index": "3",
+      "content": "PHP basics (1)",
+      "operation": "Lecture and practice",
+      "assignments": "Preparation: Read the basic concepts of PHP (Chapter 4) in the textbook.",
+      "minutes": "60"
+    },
+    {
+      "index": "4",
+      "content": "PHP basics (2)",
+      "operation": "Lecture and practice",
+      "assignments": "Preparation: Read the basic concepts of PHP (Chapter 5-01) in the textbook.",
+      "minutes": "60"
+    },
+    {
+      "index": "5",
+      "content": "PHP basics (3)",
+      "operation": "Lecture and practice",
+      "assignments": "Preparation: Read the basic concepts of PHP (Chapter 5-02) in the textbook.",
+      "minutes": "60"
+    },
+    {
+      "index": "6",
+      "content": "PHP basics (4)",
+      "operation": "Lecture and practice",
+      "assignments": "Preparation: Read Chapter 6,7 in the textbook.",
+      "minutes": "90"
+    },
+    {
+      "index": "7",
+      "content": "PHP basics (5) Quiz 1",
+      "operation": "Lecture and practice",
+      "assignments": "Preparation: Read Chapter 8 in the textbook. Prepare the first quiz.",
+      "minutes": "60 120"
+    },
+    {
+      "index": "8",
+      "content": "Comprehensive practice: (1): conditional branch, iteration, function, array",
+      "operation": "Lecture and practice",
+      "assignments": "Preparation: Read Chapters 5, 6, 7 and 8 in the textbook.",
+      "minutes": "90"
+    },
+    {
+      "index": "9",
+      "content": "Comprehensive practice: (2): conditional branch, iteration, function, array",
+      "operation": "Lecture and practice",
+      "assignments": "Preparation: Read Chapters 5, 6, 7 and 8 in the textbook.",
+      "minutes": "90"
+    },
+    {
+      "index": "10",
+      "content": "Sending data from a web page (1)",
+      "operation": "Lecture and practice",
+      "assignments": "Preparation: Read Chapter 9 in the textbook. Review: Understand contents of hangouts.",
+      "minutes": "60 60"
+    },
+    {
+      "index": "11",
+      "content": "Sending data from a web page (2)",
+      "operation": "Lecture and practice",
+      "assignments": "Preparation: Design a program for the report Review: Read Chapter 9 in the textbook.",
+      "minutes": "60 30"
+    },
+    {
+      "index": "12",
+      "content": "Sending data from a web page (3)",
+      "operation": "Lecture and practice Presentation of a problem of the report",
+      "assignments": "Preparation: Create a program for the report.",
+      "minutes": "90"
+    },
+    {
+      "index": "13",
+      "content": "Comprehensive practice: (3)",
+      "operation": "Lecture and practice",
+      "assignments": "Create a program for the report.",
+      "minutes": "150"
+    },
+    {
+      "index": "14",
+      "content": "Examination for confirmation of achievement",
+      "operation": "Examination",
+      "assignments": "Preparation: Ensure that you understand what you have learned so far.",
+      "minutes": "150"
+    },
+    {
+      "index": "15",
+      "content": "Self-inspection class",
+      "operation": "Commentary of the examination",
+      "assignments": "Review: Ensure you understand the examination problems.",
+      "minutes": "60"
+    }
+  ],
+  "rawText": "金沢工業大学 学習支援計画書 F022-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Media Informatics\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\nWebプログラミング\nWeb Programming  2 F022-01  2022年度\n 3rd year 1st semester  修学規程第4条を参照\n    担当教員名\n HASEGAWA Wataru\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Web Application 2.Script Language 3.Web Server 4.PHP, HTML 5.Regional Corporation  Websites not only show home pages, but also provide a more useful system by hosting applications on the internet that are associated with databases. In this course, students will master the scripting language that enables web programming to be executed on the server side. In addition, by acquiring technologies related to web production, students will develop an awareness of issues related to regional collaboration and future information dissemination to society.\n    授業の概要および学習上の助言   In this course, students will learn programming for the processes executed on the server side for the purpose of mastering web applications using Apache for the web server and Hypertext Preprocesser 5 (PHP5) for the scripting language. Practice will take place on each student's laptop PC operating in a Windows environment. Specific class topics include the installation and configuration of the PHP development environment, the basics of PHP grammar, PHP built-in functions, PHP programs on the web, and creating applications using classes and objects in PHP. Before joining the class, students are requested to enter textbook program examples, practice using them, and understand the contents of the textbook. Students should note that, because there is insufficient time to explain each legal item and each program in detail, they are expected to read the textbook thoroughly beforehand. In class, lectures will focus extensively on supplementary and advanced textbook explanations.\n    教科書および参考書・リザーブドブック    基礎からのPHP[SBクリエイティブ]\n    履修に必要な予備知識や技能   Students are expected to understand the contents of the following previous courses: Web Design, Information Technology Basic, Fundamentals of Programming, and Programming. The ability to write HTML is essential for this course.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① FIJKL Be able to understand how web applications work.    ② FIJKL Be able to set up web servers running PHP.   ③ FIJKL Be able to master the basics of PHP grammar.    ④ FIJKL Be able to utilize PHP built-in functions.    ⑤ FIJKL Be able to perform PHP-based web programming.    ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 40 20 20 0 0 0 20 100     指標と評価割合 総合評価割合 40 20 20 0 0 0 20 100   総合力指標 知識を取り込む力 40 20 20 0 0 0 20 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ The examination assesses each student's level of understanding of web applications, web server settings, PHP grammar basics, and the programming for creating database-linked web pages. It will be conducted in the 15th week.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     クイズ\n小テスト ① レ Simple tests on lecture contents will be conducted to confirm each student's level of understanding and learning. Two quizzes, each of which will confirm basic PHP concepts, are normally given, but the number may be reduced to one, depending on class progress.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     レポート ① レ Students will make reports to verify their web application programming abilities. Knowledge about various concepts and important techniques is checked under the assumption that the program is actually created. Report submission is scheduled for the 14th week.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ① レ Evaluations are made based on attendance, degree of class concentration, and submission stat",
+  "sourceYear": "2022",
+  "originalSourceIndex": 541,
+  "courseId": "2022:fall:E908-01:0:9798",
+  "language": "en"
+}

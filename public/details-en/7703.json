@@ -1,0 +1,298 @@
+{
+  "sourceIndex": 7703,
+  "sourceUrl": "/opsyllabus/kitos0110/206/1",
+  "importedAt": "2026-06-12T08:01:13.957Z",
+  "title": "信頼性工学",
+  "subtitle": "Reliability Engineering",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "2",
+  "term": "2020年度\n 4th year 1st semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [],
+  "keywords": [
+    "Statistical data 2.Quantity for reliability 3.Reliability of structures 4.Reliability of systems"
+  ],
+  "educationalGoal": "To minimize the risk of aircraft accidents, it is important to eliminate defects in electronic control systems or structural systems. In this course students will learn: (1) the basic mathematics used in reliability engineering, (2) the concept of structural reliability design, (3) reliability analysis and reliability design methods for aircraft equipment systems",
+  "advice": "After learning the basic mathematics used in reliability engineering (basics of probability and statistics), students will learn the concept of structural reliability design of aircraft. Students will also learn about reliability analysis and reliability design methods for aircraft equipment systems. In this course, we will cover the following materials: 1. Reliability and reliability engineering 2. The basic The basic mathematics used in reliability engineering 3. Statistical analysis of reliability data 4. Reliability for structural systems 5. Reliability for electronic control systems",
+  "books": "Textbooks: None Reference books: Textbooks on Statistics Reserved books: None",
+  "requiredKnowledge": "Basic knowledge of probability and statistics Basic knowledge of calculus, including differentiation and integration",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "D,M",
+      "body": "Be able to understand and explain the importance of reliability engineering in aircraft systems"
+    },
+    {
+      "index": "②",
+      "type": "D,M",
+      "body": "Be able to explain basic quantities of system reliability"
+    },
+    {
+      "index": "③",
+      "type": "D,M",
+      "body": "Be able to calculate the reliability of parallel, series and bridge systems"
+    },
+    {
+      "index": "④",
+      "type": "D,M",
+      "body": "Be able to determine the design allowable stress of metallic materials from tensile strength test data"
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "40",
+        "0",
+        "50",
+        "0",
+        "0",
+        "0",
+        "10",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "40",
+        "0",
+        "50",
+        "0",
+        "0",
+        "0",
+        "10",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "40",
+        "0",
+        "50",
+        "0",
+        "0",
+        "0",
+        "10",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションと\nリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "(1) Understand and explain the importance of reliability engineering in aircraft systems (2) Explain basic quantities of system reliability (reliability, probability density function of failure time, instantaneous failure rate) and the relationships between them. (3) Calculate the reliability of the parallel, series and bridge systems. (4) Determine the design allowable stress of metallic materials used in aircraft from tensile strength test data. Explain the concept of the reliability of aircraft structures.",
+    "standard": "(1) Explain the importance of reliability engineering in aircraft systems (2) Explain basic quantities of system reliability (reliability, probability density function of failure time, instantaneous failure rate). (3) Calculate the reliability of the parallel and series systems. (4) Explain the design allowable stress of metallic materials used in aircraft"
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "[Reliability and reliability engineering] Reliability, safety, risk",
+      "operation": "Lecture and practice",
+      "assignments": "Read textbook ch. 1.",
+      "minutes": "90"
+    },
+    {
+      "index": "2",
+      "content": "[Basic mathematics for reliability analysis] Basics of probability",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Review class content. Read textbook sec. 2.1.",
+      "minutes": "90"
+    },
+    {
+      "index": "3",
+      "content": "[Basic mathematics for reliability analysis] Probability distribution",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Review class content. Read textbook sec. 2.1 and 2.4.",
+      "minutes": "90"
+    },
+    {
+      "index": "4",
+      "content": "[Basic mathematics for reliability analysis] Basic quantities of system reliability",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Review class content. Read textbook sec. 2.2.",
+      "minutes": "90"
+    },
+    {
+      "index": "5",
+      "content": "[Basic mathematics for reliability analysis] Pattern of failure rate",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Review class content. Read textbook sec. 2.3.",
+      "minutes": "90"
+    },
+    {
+      "index": "6",
+      "content": "[Basic mathematics for reliability analysis] Probability distribution of failure time",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Review class content. Read textbook sec. 2.4.",
+      "minutes": "90"
+    },
+    {
+      "index": "7",
+      "content": "Integrated learning 1st Test",
+      "operation": "Lecture and practice Test",
+      "assignments": "Review contents in first half of semester.",
+      "minutes": "90"
+    },
+    {
+      "index": "8",
+      "content": "Self-reflection [Statistical analysis of reliability data] Population and sample Point estimation for population",
+      "operation": "Review and self-reflection Lecture and practice",
+      "assignments": "Review class content. Read textbook sec. 3.1 and 3.2.",
+      "minutes": "90"
+    },
+    {
+      "index": "9",
+      "content": "[Statistical analysis of reliability data] How to use normal distribution formatted sheet Sample from population",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Review class content. Read textbook sec. 3.1 and 3.2.",
+      "minutes": "90"
+    },
+    {
+      "index": "10",
+      "content": "[Reliability of structure] How to determine design allowable stress of metallic materials from the test data",
+      "operation": "Lecture and practice. Self-check.",
+      "assignments": "Review class content. Read handouts related to reliability of structure.",
+      "minutes": "90"
+    },
+    {
+      "index": "11",
+      "content": "[Reliability of structure] How to determine design allowable stress of metallic materials from the test data",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Review class content. Read handouts related to reliability of structure.",
+      "minutes": "90"
+    },
+    {
+      "index": "12",
+      "content": "[Reliability of equipment system] Reliability of parallel and series systems",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Review class content. Read textbook sec. 4.1.",
+      "minutes": "90"
+    },
+    {
+      "index": "13",
+      "content": "[Reliability of equipment system] Reliability of general systems",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Review class content. Read textbook sec. 4.2.",
+      "minutes": "90"
+    },
+    {
+      "index": "14",
+      "content": "Integrated learning",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Review content of second half of semester.",
+      "minutes": "90"
+    },
+    {
+      "index": "15",
+      "content": "2nd Test Self-evaluation",
+      "operation": "Test Self-evaluation",
+      "assignments": "Self-evaluation on achievement in this course.",
+      "minutes": "90"
+    }
+  ],
+  "rawText": "金沢工業大学 学習支援計画書 E131-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Aeronautics\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n信頼性工学\nReliability Engineering  2 E131-01  2020年度\n 4th year 1st semester  修学規程第4条を参照\n    担当教員名\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Statistical data 2.Quantity for reliability 3.Reliability of structures 4.Reliability of systems  To minimize the risk of aircraft accidents, it is important to eliminate defects in electronic control systems or structural systems. In this course students will learn: (1) the basic mathematics used in reliability engineering, (2) the concept of structural reliability design, (3) reliability analysis and reliability design methods for aircraft equipment systems\n    授業の概要および学習上の助言   After learning the basic mathematics used in reliability engineering (basics of probability and statistics), students will learn the concept of structural reliability design of aircraft. Students will also learn about reliability analysis and reliability design methods for aircraft equipment systems. In this course, we will cover the following materials: 1. Reliability and reliability engineering 2. The basic The basic mathematics used in reliability engineering 3. Statistical analysis of reliability data 4. Reliability for structural systems 5. Reliability for electronic control systems\n    教科書および参考書・リザーブドブック   Textbooks: None Reference books: Textbooks on Statistics Reserved books: None\n    履修に必要な予備知識や技能   Basic knowledge of probability and statistics Basic knowledge of calculus, including differentiation and integration\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① D,M Be able to understand and explain the importance of reliability engineering in aircraft systems   ② D,M Be able to explain basic quantities of system reliability   ③ D,M Be able to calculate the reliability of parallel, series and bridge systems   ④ D,M Be able to determine the design allowable stress of metallic materials from tensile strength test data   ⑤     ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 40 0 50 0 0 0 10 100     指標と評価割合 総合評価割合 40 0 50 0 0 0 10 100   総合力指標 知識を取り込む力 40 0 50 0 0 0 10 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ Students will be evaluated on their achievement on tests. Students will have two tests during the semester: in the middle of the semester and at the end of the semester.    ② レ   ③ レ   ④ レ   ⑤     ⑥     クイズ\n小テスト ①      ②     ③     ④     ⑤     ⑥     レポート ① レ Students will be evaluated on reports. Students will have two report assignments during the semester.   ② レ   ③ レ   ④ レ   ⑤     ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ① レ Students’ participation in class discussion will be evaluated. Class absences may be evaluated negatively.   ② レ   ③ レ   ④ レ   ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     (1) Understand and explain the importance of reliability engineering in aircraft systems (2) Explain basic quantities of system reliability (reliability, probability density function of failure time, instantaneous failure rate) and the relationships between them. (3) Calculate the reliability of the parallel, series and bridge systems. (4) Determine the design allowable stress of metallic materials used in aircraft from tensile strength test data. Explain the concept of the reliability of aircraft structures. (1) Explain the importance of reliability engineering in aircraft systems (2) Explain basic quantities of system reliability (reliability, probability density function of failure time, instantaneous failure rate). (3) Calculate the reliability of the parallel and series systems. (4) Explain the design allowable stress of metallic",
+  "sourceYear": "2020",
+  "originalSourceIndex": 206,
+  "courseId": "2020:full-year:E921-06:0:7703",
+  "language": "en"
+}

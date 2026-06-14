@@ -1,0 +1,300 @@
+{
+  "sourceIndex": 10750,
+  "sourceUrl": "/opsyllabus/kitos0110/579/1",
+  "importedAt": "2026-06-12T08:02:17.063Z",
+  "title": "プログラミング基礎",
+  "subtitle": "Computer Programming Basic",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "2",
+  "term": "2023年度\n 1st year 2nd semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "TOKUNAGA Yuichi"
+  ],
+  "keywords": [
+    "Programming 2.Variable and data type 3.Control 4.Array 5.Regional cooperation"
+  ],
+  "educationalGoal": "This course is designed to achieve the learning and education goal of the information design fundamentals in the Department of Management Information. In order to acquire the basic abilities of computer programming, students will be given a bird's-eye view of programming and an understanding of many of the basic terms and concepts of programming, such as branching, loops, functions, and objects.",
+  "advice": "The purpose of this class is to learn the basics of program input, execution, and debugging through lectures, quizzes, and exercises for programming. The programming language uses Java, which is the most widely used for all purposes from embedded fields to servers. In the exercise, students will understand various control methods by Javascript by executing them on a web browser and visually obtaining the results. The web browser used in the class is Google Chrome, so be sure to install Google Chrome on your laptop and bring that laptop with you every time. In addition, students must submit weekly assignments to review each lesson.",
+  "books": "Instructions in class",
+  "requiredKnowledge": "Students need to understand basic PC operation methods such as creating, deleting, moving, and copying files and folders, and editing and saving text files. Students need to bring their PC every time.",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "H,J",
+      "body": "Be able to explain variables, data types, and arrangement."
+    },
+    {
+      "index": "②",
+      "type": "D,H,J",
+      "body": "Be able to understand how to use branching, loops, and functions."
+    },
+    {
+      "index": "③",
+      "type": "H,J",
+      "body": "Be able to make the control programs that perform in a web browser using JavaScript."
+    },
+    {
+      "index": "④",
+      "type": "H,J",
+      "body": "Be able to collect variables and functions into objects and use them."
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "0",
+        "30",
+        "30",
+        "30",
+        "0",
+        "0",
+        "10",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "0",
+        "30",
+        "30",
+        "30",
+        "0",
+        "0",
+        "10",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "0",
+        "30",
+        "30",
+        "30",
+        "0",
+        "0",
+        "10",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションと\nリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "Explain basic programming terms with examples. Understand and utilize object-oriented programming.",
+    "standard": "Explain basic programming terms with examples. Implement a simple Javascript."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Introduction What is programming?",
+      "operation": "Lecture",
+      "assignments": "Preview the textbook Submission of assignments",
+      "minutes": "260"
+    },
+    {
+      "index": "2",
+      "content": "How the computer works",
+      "operation": "Lecture",
+      "assignments": "Preview the textbook Review the textbook Submission of assignments",
+      "minutes": "260"
+    },
+    {
+      "index": "3",
+      "content": "What is JavaScript? The basics of JavaScript (1)",
+      "operation": "Lecture and exercise",
+      "assignments": "Preview the textbook Review the textbook Submission of assignments",
+      "minutes": "260"
+    },
+    {
+      "index": "4",
+      "content": "The basics of JavaScript (2)",
+      "operation": "Lecture and exercise",
+      "assignments": "Preview the textbook Review the textbook Submission of assignments",
+      "minutes": "260"
+    },
+    {
+      "index": "5",
+      "content": "Conditional branch",
+      "operation": "Lecture and exercise",
+      "assignments": "Preview the textbook Review the textbook Submission of assignments",
+      "minutes": "260"
+    },
+    {
+      "index": "6",
+      "content": "Loops",
+      "operation": "Lecture and exercise",
+      "assignments": "Preview the textbook Review the textbook Submission of assignments",
+      "minutes": "260"
+    },
+    {
+      "index": "7",
+      "content": "Functions",
+      "operation": "Lecture and exercise",
+      "assignments": "Preview the textbook Review the textbook Submission of assignments",
+      "minutes": "260"
+    },
+    {
+      "index": "8",
+      "content": "Objects",
+      "operation": "Lecture and exercise",
+      "assignments": "Preview the textbook Review the textbook Submission of assignments",
+      "minutes": "260"
+    },
+    {
+      "index": "9",
+      "content": "Event",
+      "operation": "Lecture and exercise",
+      "assignments": "Preview the textbook Review the textbook Submission of assignments",
+      "minutes": "260"
+    },
+    {
+      "index": "10",
+      "content": "Confirmation of the learned JavaScript knowledge",
+      "operation": "Exam and review",
+      "assignments": "Prepare for the exam Review exam questions",
+      "minutes": "260"
+    },
+    {
+      "index": "11",
+      "content": "Let's make a useful JavaScript",
+      "operation": "Practicum, interactive activities, and self-reflection",
+      "assignments": "Preparation for the practicum Completion of the JavaScript",
+      "minutes": "260"
+    },
+    {
+      "index": "12",
+      "content": "Let's create your own JavaScript 1",
+      "operation": "Practicum, interactive activities, and self-reflection",
+      "assignments": "Preparation for the practicum Completion of the JavaScript",
+      "minutes": "340"
+    },
+    {
+      "index": "13",
+      "content": "Let's create your own JavaScript 2",
+      "operation": "Practicum, interactive activities, and self-reflection",
+      "assignments": "Preparation for the practicum Completion of the JavaScript",
+      "minutes": "340"
+    },
+    {
+      "index": "14",
+      "content": "Presentation",
+      "operation": "Presentation, interactive activities, and self-reflection",
+      "assignments": "Preparation for the presentati on",
+      "minutes": "260"
+    },
+    {
+      "index": "15",
+      "content": "JQuery Web API Combine multiple functions into a website Self-evaluation",
+      "operation": "Lecture Self evaluation",
+      "assignments": "Preview the textbook",
+      "minutes": "100"
+    }
+  ],
+  "rawText": "金沢工業大学 学習支援計画書 F104-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Management Systems\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\nプログラミング基礎\nComputer Programming Basic  2 F104-01  2023年度\n 1st year 2nd semester  修学規程第4条を参照\n    担当教員名\n TOKUNAGA Yuichi\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Programming 2.Variable and data type 3.Control 4.Array 5.Regional cooperation  This course is designed to achieve the learning and education goal of the information design fundamentals in the Department of Management Information. In order to acquire the basic abilities of computer programming, students will be given a bird's-eye view of programming and an understanding of many of the basic terms and concepts of programming, such as branching, loops, functions, and objects.\n    授業の概要および学習上の助言   The purpose of this class is to learn the basics of program input, execution, and debugging through lectures, quizzes, and exercises for programming. The programming language uses Java, which is the most widely used for all purposes from embedded fields to servers. In the exercise, students will understand various control methods by Javascript by executing them on a web browser and visually obtaining the results. The web browser used in the class is Google Chrome, so be sure to install Google Chrome on your laptop and bring that laptop with you every time. In addition, students must submit weekly assignments to review each lesson.\n    教科書および参考書・リザーブドブック   Instructions in class\n    履修に必要な予備知識や技能   Students need to understand basic PC operation methods such as creating, deleting, moving, and copying files and folders, and editing and saving text files. Students need to bring their PC every time.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① H,J Be able to explain variables, data types, and arrangement.   ② D,H,J Be able to understand how to use branching, loops, and functions.   ③ H,J Be able to make the control programs that perform in a web browser using JavaScript.   ④ H,J Be able to collect variables and functions into objects and use them.   ⑤     ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 0 30 30 30 0 0 10 100     指標と評価割合 総合評価割合 0 30 30 30 0 0 10 100   総合力指標 知識を取り込む力 0 30 30 30 0 0 10 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ①      ②     ③     ④     ⑤     ⑥     クイズ\n小テスト ① レ The quizzes will be used to evaluate the student's overall programming and mastery of Java basics.    ② レ   ③ レ   ④     ⑤     ⑥     レポート ① レ The reports will be used to evaluate the comprehension of each class.   ② レ   ③ レ   ④ レ   ⑤     ⑥     成果発表\n(口頭・実技) ① レ The presentation of the results of the exercises will be used to evaluate the overall basic programming ability.   ② レ   ③ レ   ④ レ   ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ① レ Students will be evaluated on their attitude during the classes.    ② レ   ③ レ   ④ レ   ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     Explain basic programming terms with examples. Understand and utilize object-oriented programming.  Explain basic programming terms with examples. Implement a simple Javascript.\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習課題に要する標準的な時間を記載してあります。日々の自学自習時間全体としては、各授業に応じた時間(例えば2単位科目の場合、予習2時間・復習2時間/週)を取るよう努めてください。詳しくは教員の指導に従って下さい。     授業明細   回数 学習内容 授業の運営方法 学習課題(予習・復習) 時間:分※     1  Introduction What is programming? Lecture Preview the textbook Submission of assignments  260   2  How the computer works Lecture Preview the textbook Review the textbook Submission of assignments  260   3  What is JavaScript? The basi",
+  "sourceYear": "2023",
+  "originalSourceIndex": 579,
+  "courseId": "2023:full-year:F921-08:0:10750",
+  "language": "en"
+}

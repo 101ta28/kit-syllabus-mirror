@@ -1,0 +1,249 @@
+{
+  "sourceIndex": 10420,
+  "sourceUrl": "/opsyllabus/kitos0110/249/1",
+  "importedAt": "2026-06-12T08:02:14.086Z",
+  "title": "航空基礎数学",
+  "subtitle": "Basic Mathematics for Aeronautics",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "1",
+  "term": "2023年度\n 1st year 2nd semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "YOSHIDA Keishiro"
+  ],
+  "keywords": [
+    "Differential and integral calculus 2.Differential equations 3.Equations of motion 4.Falling motions 5.Vibration motions"
+  ],
+  "educationalGoal": "In this course, students will learn basic mathematics knowledge necessary for studying major subjects in Department of Aeronautics. In addition, students will use their knowledge of mathematics to deal with the dynamics of mass points, and acquire the basic skills for examining various engineering problems using mathematics.",
+  "advice": "In this course, students will learn the basic mathematics knowledge necessary for studying major subjects in Department of Aeronautics. Contents are as follows: 1 Differential and integral calculus 2 Differential equations 3 Equations of motion 4 Falling motions Free-fall motion Falling motion with drag which is proportional to the falling velocity 5 Vibration motions Response to initial excitation without damping Response to initial excitation with damping Response to harmonic excitation with damping",
+  "books": "No specific textbook is specified. Lectures will be conducted according to handouts.",
+  "requiredKnowledge": "Basic knowledge on differential/integral calculus and trigometric functions at the high school graduation level.",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "J,L",
+      "body": "Be able to find derivatives of basic functions"
+    },
+    {
+      "index": "②",
+      "type": "J,L",
+      "body": "Be able to find indefinite integrals of basic functions"
+    },
+    {
+      "index": "③",
+      "type": "J,L",
+      "body": "Be able to solve first-order linear differential equations"
+    },
+    {
+      "index": "④",
+      "type": "J,L",
+      "body": "Be able to solve second-order linear differential equations"
+    },
+    {
+      "index": "⑤",
+      "type": "J,L",
+      "body": "Be able to derive the equation of motion for the response to initial excitation with damping"
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "25",
+        "75",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "25",
+        "75",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "25",
+        "75",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションと\nリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "1) Find derivatives of basic functions 2) Find indefinite integrals of basic functions 3) Solve first-order linear differential equations 4) Solve second-order linear differential equations 5) Be able to derive the equation of motion for the response to initial excitation with damping and find a solution which satisfies the initial conditions.",
+    "standard": "1) Explain on derivatives of functions 2) Explain on indefinite integrals of functions 3) Explain on first-order linear differential equations 4) Explain on second-order linear differential equations 5) Be able to derive the equation of motion for the response to initial excitation with damping"
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Course introduction Derivative of function (1)",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Review class content",
+      "minutes": "40"
+    },
+    {
+      "index": "2",
+      "content": "Derivative function (2)",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Read handout No.2 Review class content",
+      "minutes": "20 40"
+    },
+    {
+      "index": "3",
+      "content": "Integral of basic functions",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Read handout No.3 Review class content",
+      "minutes": "20 40"
+    },
+    {
+      "index": "4",
+      "content": "Differential equations",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Read handout No.4 Review class content",
+      "minutes": "20 40"
+    },
+    {
+      "index": "5",
+      "content": "Equations of motion Falling motions Free-fall motion Falling motion with drag proportional to the falling velocity Vibration motions (1) Response to initial excitation without damping",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Read handout No.5 Review class content",
+      "minutes": "20 40"
+    },
+    {
+      "index": "6",
+      "content": "Vibration motions(2) Response to initial excitation with damping Response to harmonic excitation with damping",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Read handout No.6 Review class content",
+      "minutes": "20 40"
+    },
+    {
+      "index": "7",
+      "content": "Integrated learning Test",
+      "operation": "Lecture and practice Test Self-check",
+      "assignments": "Review test Review practice Self-evalusiotn on achievement in this subject",
+      "minutes": "20 40 20"
+    }
+  ],
+  "rawText": "金沢工業大学 学習支援計画書 E147-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Aeronautics\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n航空基礎数学\nBasic Mathematics for Aeronautics  1 E147-01  2023年度\n 1st year 2nd semester  修学規程第4条を参照\n    担当教員名\n YOSHIDA Keishiro\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Differential and integral calculus 2.Differential equations 3.Equations of motion 4.Falling motions 5.Vibration motions  In this course, students will learn basic mathematics knowledge necessary for studying major subjects in Department of Aeronautics. In addition, students will use their knowledge of mathematics to deal with the dynamics of mass points, and acquire the basic skills for examining various engineering problems using mathematics.\n    授業の概要および学習上の助言   In this course, students will learn the basic mathematics knowledge necessary for studying major subjects in Department of Aeronautics. Contents are as follows: 1 Differential and integral calculus 2 Differential equations 3 Equations of motion 4 Falling motions Free-fall motion Falling motion with drag which is proportional to the falling velocity 5 Vibration motions Response to initial excitation without damping Response to initial excitation with damping Response to harmonic excitation with damping\n    教科書および参考書・リザーブドブック   No specific textbook is specified. Lectures will be conducted according to handouts.\n    履修に必要な予備知識や技能   Basic knowledge on differential/integral calculus and trigometric functions at the high school graduation level.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① J,L Be able to find derivatives of basic functions   ② J,L Be able to find indefinite integrals of basic functions   ③ J,L Be able to solve first-order linear differential equations   ④ J,L Be able to solve second-order linear differential equations   ⑤ J,L Be able to derive the equation of motion for the response to initial excitation with damping   ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 25 75 0 0 0 0 0 100     指標と評価割合 総合評価割合 25 75 0 0 0 0 0 100   総合力指標 知識を取り込む力 25 75 0 0 0 0 0 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ Students will be evaluated on their achievement on a test held at the end of the semester.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     クイズ\n小テスト ① レ Students will be evaluated on their achievement on mini tests. Students will have four or five mini tests during the semester.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     レポート ①      ②     ③     ④     ⑤     ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ①      ②     ③     ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     1) Find derivatives of basic functions 2) Find indefinite integrals of basic functions 3) Solve first-order linear differential equations 4) Solve second-order linear differential equations 5) Be able to derive the equation of motion for the response to initial excitation with damping and find a solution which satisfies the initial conditions. 1) Explain on derivatives of functions 2) Explain on indefinite integrals of functions 3) Explain on first-order linear differential equations 4) Explain on second-order linear differential equations 5) Be able to derive the equation of motion for the response to initial excitation with damping\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習課題に要する標準的な時間を記載してあります。日々の自学自習時間全体としては、各授業に応じた時間(例えば2単位科目の場合、予習2時間・復習2時間/週)を取るよう努めてください。詳しくは教員の指導に従って下さい。     授業明細   回数 学習内容 授業の運営方法 学習課題(予習・復習) 時間:分※     1  Course introduction Derivative of function (1) Lecture and p",
+  "sourceYear": "2023",
+  "originalSourceIndex": 249,
+  "courseId": "2023:fall:E127-01:0:10420",
+  "language": "en"
+}

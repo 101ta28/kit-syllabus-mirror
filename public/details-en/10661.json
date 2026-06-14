@@ -1,0 +1,295 @@
+{
+  "sourceIndex": 10661,
+  "sourceUrl": "/opsyllabus/kitos0110/490/1",
+  "importedAt": "2026-06-12T08:02:16.102Z",
+  "title": "空間情報工学",
+  "subtitle": "Geoinformatics",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "2",
+  "term": "2023年度\n 3rd year 1st semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "TOKUNAGA Mitsuharu"
+  ],
+  "keywords": [
+    "Geoinformatics 2.Remote Sensing 3.GIS 4.3D Mapping 5.Regional Cooperation"
+  ],
+  "educationalGoal": "A variety of spatial information is necessary for environmental management of the earth and its regions. Students will acquire basic knowledge on geospatial information engineering, and technology for collecting, accumulating, and analyzing geospatial information.",
+  "advice": "This class focuses on remote sensing, geographic information systems, and 3D mapping in spatial information engineering. In recent years, environmental problems such as global environmental problems have attracted attention, and it is desirable to grasp changes in the environment. Remote sensing technology is a technology suitable for analyzing satellite data and monitoring the environment over a wide area. A geographic information system is a means of storing, searching, and analyzing geographic information. 3D mapping is used for advanced navigation systems and augmented reality technologies. The lectures match the basic materials that are distributed. We provide a wealth of examples such as remote sensing images and explain them using PowerPoint presentations. In addition, in order to deepen our knowledge, we conduct exercises using computers. For exercises, students use software such as EISEI, Google Earth, Google Map, SKETCHUP, etc. Special lectures will be held by invited representatives from companies that are making use of these technologies.",
+  "books": "none",
+  "requiredKnowledge": "Students must be familiar with the concepts from Surveying 1 and Surveying 2. During the exercises, students need to bring a laptop computer that can connect to the Internet on campus. Materials and data used in the class will be distributed in the teaching material distribution system. Use of private language in class is strictly prohibited.",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "L",
+      "body": "Students can give an outline of Geoinformatics [0.3L]"
+    },
+    {
+      "index": "②",
+      "type": "K,L",
+      "body": "Students can process remote sensing data and combine it into reports. [0.1K,0.2L]"
+    },
+    {
+      "index": "③",
+      "type": "E,H",
+      "body": "Students can create three-dimensional models using 3D modeling software. [0.2E,0.2H]"
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "0",
+        "0",
+        "70",
+        "0",
+        "0",
+        "0",
+        "30",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "0",
+        "0",
+        "70",
+        "0",
+        "0",
+        "0",
+        "30",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "0",
+        "0",
+        "70",
+        "0",
+        "0",
+        "0",
+        "30",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションと\nリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "Students can give a detailed outline of geoinformatics and explain applications in the field. Students can give a detailed outline of remote sensing and explain applications in the field. Students can create detailed models using a 3D modeling system.",
+    "standard": "Students can give an overview of geoinformatics. Students can give an overview of remote sensing. Students can use a 3D modeling system."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Class Guidance Overview of Geoinformatics",
+      "operation": "Lecture",
+      "assignments": "Review the geoinformatics overview",
+      "minutes": "60"
+    },
+    {
+      "index": "2",
+      "content": "Global Navigation Satellite System",
+      "operation": "Lecture and demo",
+      "assignments": "Review the contents of the lecture.",
+      "minutes": "60"
+    },
+    {
+      "index": "3",
+      "content": "Laser Measurement",
+      "operation": "Lecture and demo",
+      "assignments": "Review the contents of the lecture.",
+      "minutes": "60"
+    },
+    {
+      "index": "4",
+      "content": "Geoinformatics applications",
+      "operation": "Lecture and demo",
+      "assignments": "Review the contents of the lecture.",
+      "minutes": "90"
+    },
+    {
+      "index": "5",
+      "content": "Regional Cooperation",
+      "operation": "Lectures by companies",
+      "assignments": "Review the contents of the lecture.",
+      "minutes": "90"
+    },
+    {
+      "index": "6",
+      "content": "Digital Imaging Surveys",
+      "operation": "Lecture",
+      "assignments": "Review the contents of the lecture. Report on class learnings.",
+      "minutes": "180"
+    },
+    {
+      "index": "7",
+      "content": "Fundamentals of Remote Sensing",
+      "operation": "Lecture and Exercises",
+      "assignments": "Review the contents of the lecture.",
+      "minutes": "60"
+    },
+    {
+      "index": "8",
+      "content": "Processing remote sensing data",
+      "operation": "Lecture and Exercises",
+      "assignments": "Review the contents of the lecture.",
+      "minutes": "90"
+    },
+    {
+      "index": "9",
+      "content": "Processing remote sensing data and applications",
+      "operation": "Lecture and Exercises",
+      "assignments": "Review the contents of the lecture.",
+      "minutes": "90"
+    },
+    {
+      "index": "10",
+      "content": "Digital Mapping",
+      "operation": "Lecture",
+      "assignments": "Review the contents of the lecture.",
+      "minutes": "60"
+    },
+    {
+      "index": "11",
+      "content": "3D Modeling",
+      "operation": "Lecture and Exercises",
+      "assignments": "Review the contents of the lecture.",
+      "minutes": "60"
+    },
+    {
+      "index": "12",
+      "content": "3D Modeling",
+      "operation": "Lecture and Exercises",
+      "assignments": "Review the contents of the lecture.",
+      "minutes": "60"
+    },
+    {
+      "index": "13",
+      "content": "3D Modeling",
+      "operation": "Lecture and Exercises",
+      "assignments": "Review the contents of the lecture.",
+      "minutes": "60"
+    },
+    {
+      "index": "14",
+      "content": "3D Modeling",
+      "operation": "Lecture and Exercises",
+      "assignments": "Review the contents of the lecture.",
+      "minutes": "120"
+    },
+    {
+      "index": "15",
+      "content": "3D Modeling Self-Check",
+      "operation": "Self-Check",
+      "assignments": "",
+      "minutes": "120"
+    }
+  ],
+  "rawText": "金沢工業大学 学習支援計画書 E722-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Civil and Environmental Engineering(2018〜)\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n空間情報工学\nGeoinformatics  2 E722-01  2023年度\n 3rd year 1st semester  修学規程第4条を参照\n    担当教員名\n TOKUNAGA Mitsuharu\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Geoinformatics 2.Remote Sensing 3.GIS 4.3D Mapping 5.Regional Cooperation  A variety of spatial information is necessary for environmental management of the earth and its regions. Students will acquire basic knowledge on geospatial information engineering, and technology for collecting, accumulating, and analyzing geospatial information.\n    授業の概要および学習上の助言   This class focuses on remote sensing, geographic information systems, and 3D mapping in spatial information engineering. In recent years, environmental problems such as global environmental problems have attracted attention, and it is desirable to grasp changes in the environment. Remote sensing technology is a technology suitable for analyzing satellite data and monitoring the environment over a wide area. A geographic information system is a means of storing, searching, and analyzing geographic information. 3D mapping is used for advanced navigation systems and augmented reality technologies. The lectures match the basic materials that are distributed. We provide a wealth of examples such as remote sensing images and explain them using PowerPoint presentations. In addition, in order to deepen our knowledge, we conduct exercises using computers. For exercises, students use software such as EISEI, Google Earth, Google Map, SKETCHUP, etc. Special lectures will be held by invited representatives from companies that are making use of these technologies.\n    教科書および参考書・リザーブドブック   none\n    履修に必要な予備知識や技能   Students must be familiar with the concepts from Surveying 1 and Surveying 2. During the exercises, students need to bring a laptop computer that can connect to the Internet on campus. Materials and data used in the class will be distributed in the teaching material distribution system. Use of private language in class is strictly prohibited.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① L Students can give an outline of Geoinformatics [0.3L]   ② K,L Students can process remote sensing data and combine it into reports. [0.1K,0.2L]   ③ E,H Students can create three-dimensional models using 3D modeling software. [0.2E,0.2H]   ④     ⑤     ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 0 0 70 0 0 0 30 100     指標と評価割合 総合評価割合 0 0 70 0 0 0 30 100   総合力指標 知識を取り込む力 0 0 70 0 0 0 30 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ①      ②     ③     ④     ⑤     ⑥     クイズ\n小テスト ①      ②     ③     ④     ⑤     ⑥     レポート ① レ Students' level of understanding of applications in the fields of geoinformatics, remote sensing, and geographic information systems is evaluated based on a report they produce.   ② レ   ③ レ   ④     ⑤     ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①   Students are evaluate on the completeness of their 3D modeling.   ② レ   ③ レ   ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ① レ Students are evaluate based on their learning attitude.   ② レ   ③     ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     Students can give a detailed outline of geoinformatics and explain applications in the field. Students can give a detailed outline of remote sensing and explain applications in the field. Students can create detailed models using a 3D modeling system.  Students can give an overview of geoinformatics. Students can give an overview of remote sensing. Students can use a 3D modeling system.\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達す",
+  "sourceYear": "2023",
+  "originalSourceIndex": 490,
+  "courseId": "2023:spring:E708-01:0:10661",
+  "language": "en"
+}

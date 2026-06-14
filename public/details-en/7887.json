@@ -1,0 +1,303 @@
+{
+  "sourceIndex": 7887,
+  "sourceUrl": "/opsyllabus/kitos0110/390/1",
+  "importedAt": "2026-06-12T08:01:15.237Z",
+  "title": "パターン認識",
+  "subtitle": "Pattern Analysis",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "2",
+  "term": "2020年度\n 3rd year 2nd semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [],
+  "keywords": [
+    "Computer vision 2.Binary images 3.Text analysis 4.Perceptron 5.Neural networks"
+  ],
+  "educationalGoal": "Students will: (1) Learn a wider range of pattern recongnition algorithms. (2) Learn how to develop programming codes for binary image analysis. (3) Learn how to develop perceptron programming codes. (4) Learn a wider range of neural network applications.",
+  "advice": "Students are required o install Processing into their computers (+ OpenCV)",
+  "books": "Non textbooks are required.",
+  "requiredKnowledge": "The ability to perform programming with C or Java is required.",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "A,B,C",
+      "body": "Be able to understand a wider range of pattern recongnition algorithms."
+    },
+    {
+      "index": "②",
+      "type": "A,B,C,D",
+      "body": "Be able to develop programming codes for binary image analysis."
+    },
+    {
+      "index": "③",
+      "type": "A,B,C,D",
+      "body": "Be able to develop perceptron programming codes."
+    },
+    {
+      "index": "④",
+      "type": "A,B,C,D",
+      "body": "Be able to understand a wider range of neural networks applications."
+    },
+    {
+      "index": "⑤",
+      "type": "B,C,D",
+      "body": "Be able to explain the whole processes of extracting data from images and analysizing the data."
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "30",
+        "30",
+        "40",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "30",
+        "30",
+        "40",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "30",
+        "30",
+        "40",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションと\nリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "Be able to acquire basic knowledge about pattern recognition, various algorithms, and develop programming codes for deep learning and pattern classification.",
+    "standard": "Be able to acquire basic knowledge about pattern recognition, and develop simple perceptron programming codes."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Review of image processing",
+      "operation": "Lecture Programming practice",
+      "assignments": "Review",
+      "minutes": "60min"
+    },
+    {
+      "index": "2",
+      "content": "History of data science",
+      "operation": "Lecture Programming practice",
+      "assignments": "Review",
+      "minutes": "60min"
+    },
+    {
+      "index": "3",
+      "content": "Binary images",
+      "operation": "Lecture Programming practice",
+      "assignments": "Review",
+      "minutes": "60min"
+    },
+    {
+      "index": "4",
+      "content": "Features extraction",
+      "operation": "Lecture Programming practice",
+      "assignments": "Review",
+      "minutes": "60min"
+    },
+    {
+      "index": "5",
+      "content": "Feature extraction",
+      "operation": "Lecture Programming practice",
+      "assignments": "Review",
+      "minutes": "60min"
+    },
+    {
+      "index": "6",
+      "content": "Text analysis",
+      "operation": "Lecture Programming practice",
+      "assignments": "Review",
+      "minutes": "60min"
+    },
+    {
+      "index": "7",
+      "content": "Quizzes",
+      "operation": "Lecture Programming practice",
+      "assignments": "Review",
+      "minutes": "60min"
+    },
+    {
+      "index": "8",
+      "content": "Simple perceptron",
+      "operation": "Lecture Programming practice",
+      "assignments": "Review",
+      "minutes": "60min"
+    },
+    {
+      "index": "9",
+      "content": "Simple perceptron",
+      "operation": "Lecture Programming practice",
+      "assignments": "Review",
+      "minutes": "60min"
+    },
+    {
+      "index": "10",
+      "content": "Perceptron of three layers",
+      "operation": "Lecture Programming practice",
+      "assignments": "Review",
+      "minutes": "60min"
+    },
+    {
+      "index": "11",
+      "content": "Perceptron of three layers",
+      "operation": "Lecture Programming practice",
+      "assignments": "Review",
+      "minutes": "60min"
+    },
+    {
+      "index": "12",
+      "content": "Neural networks",
+      "operation": "Lecture Programming practice",
+      "assignments": "Review",
+      "minutes": "60min"
+    },
+    {
+      "index": "13",
+      "content": "Neural networks and applications",
+      "operation": "Lecture Programming practice",
+      "assignments": "Review",
+      "minutes": "60min"
+    },
+    {
+      "index": "14",
+      "content": "Exam Neural networks and applications",
+      "operation": "Make report No. 2",
+      "assignments": "Review",
+      "minutes": "60min"
+    },
+    {
+      "index": "15",
+      "content": "Summary",
+      "operation": "Lecture Interview",
+      "assignments": "",
+      "minutes": ""
+    }
+  ],
+  "rawText": "金沢工業大学 学習支援計画書 E532-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Information and Computer Science\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\nパターン認識\nPattern Analysis  2 E532-01  2020年度\n 3rd year 2nd semester  修学規程第4条を参照\n    担当教員名\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Computer vision 2.Binary images 3.Text analysis 4.Perceptron 5.Neural networks  Students will: (1) Learn a wider range of pattern recongnition algorithms. (2) Learn how to develop programming codes for binary image analysis. (3) Learn how to develop perceptron programming codes. (4) Learn a wider range of neural network applications.\n    授業の概要および学習上の助言   Students are required o install Processing into their computers (+ OpenCV)\n    教科書および参考書・リザーブドブック   Non textbooks are required.\n    履修に必要な予備知識や技能   The ability to perform programming with C or Java is required.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① A,B,C Be able to understand a wider range of pattern recongnition algorithms.   ② A,B,C,D Be able to develop programming codes for binary image analysis.   ③ A,B,C,D Be able to develop perceptron programming codes.   ④ A,B,C,D Be able to understand a wider range of neural networks applications.   ⑤ B,C,D Be able to explain the whole processes of extracting data from images and analysizing the data.   ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 30 30 40 0 0 0 0 100     指標と評価割合 総合評価割合 30 30 40 0 0 0 0 100   総合力指標 知識を取り込む力 30 30 40 0 0 0 0 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ Once(30%)   ② レ   ③ レ   ④ レ   ⑤     ⑥     クイズ\n小テスト ① レ Once(30%)   ② レ   ③ レ   ④ レ   ⑤     ⑥     レポート ① レ Twice (40%) Students will be evaluated on their programming codes, implementation results, and presentation materials.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ①      ②     ③     ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     Be able to acquire basic knowledge about pattern recognition, various algorithms, and develop programming codes for deep learning and pattern classification. Be able to acquire basic knowledge about pattern recognition, and develop simple perceptron programming codes.\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習課題に要する標準的な時間を記載してあります。日々の自学自習時間全体としては、各授業に応じた時間(例えば2単位科目の場合、予習2時間・復習2時間/週)を取るよう努めてください。詳しくは教員の指導に従って下さい。     授業明細   回数 学習内容 授業の運営方法 学習課題(予習・復習) 時間:分※     1  Review of image processing Lecture Programming practice Review  60min   2  History of data science Lecture Programming practice Review  60min   3  Binary images Lecture Programming practice Review  60min   4  Features extraction Lecture Programming practice Review  60min   5  Feature extraction Lecture Programming practice Review  60min   6  Text analysis Lecture Programming practice Review  60min   7  Quizzes Lecture Programming practice Review  60min   8  Simple perceptron Lecture Programming practice Review  60min   9  Simple perceptron Lecture Programming practice Review  60min   10  Perceptron of three layers Lecture Programming practice Review  60min   11  Perceptron of three layers Lecture Programming practice Review  60min   12  Neural networks Lecture Programming practice Review  60min   13  Neural networks and applications Lecture Programming practice Review  60min   14  Exam Neural networks and applications Make report No. 2 Review  60min   15  Summary Lecture Interview",
+  "sourceYear": "2020",
+  "originalSourceIndex": 390,
+  "courseId": "2020:full-year:E924-23:0:7887",
+  "language": "en"
+}

@@ -1,0 +1,305 @@
+{
+  "sourceIndex": 9693,
+  "sourceUrl": "/opsyllabus/kitos0110/436/1",
+  "importedAt": "2026-06-12T08:01:55.576Z",
+  "title": "データサイエンス",
+  "subtitle": "Data Science",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "2",
+  "term": "2022年度\n 3rd year 1st semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "SAKAMOTO Shinji"
+  ],
+  "keywords": [
+    "Scientific calculation 2.Numerical analysis 3.Data visualization 4.Machine learning 5.Data mining"
+  ],
+  "educationalGoal": "Students will: (1) Acquire how to conduct scientific computing. (2) Acquire how to conduct numerical analysis on a computer. (3) Acquire how to visualize data. (4) Understand the abstract of machine learning and acquire how to implement it on a computer. (5) Understand the abstract of data mining and get the ability to explain it.",
+  "advice": "This course gives how to deal with data using a computer. Before joining this course, you should know the basics of Linear Algebra and Statistics. Moreover, you must make free 20GiB space on your computer before starting this course.",
+  "books": "no text book",
+  "requiredKnowledge": "(1) Knowledge of Linear Algebra (2) Knowledge of Statistics (3) Skills to implement some basic python programming",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "D,J,L,M,N",
+      "body": "Be able to conduct scientific computing by a computer."
+    },
+    {
+      "index": "②",
+      "type": "D,J,L,M,N",
+      "body": "Be able to conduct numerical analysis by a computer."
+    },
+    {
+      "index": "③",
+      "type": "J,N",
+      "body": "Be able to explain data visualization."
+    },
+    {
+      "index": "④",
+      "type": "D,L,M,N",
+      "body": "Be able to implement a program based on Machine Learning."
+    },
+    {
+      "index": "⑤",
+      "type": "D,L,M,N",
+      "body": "Be able to explain the abstract of data mining."
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "0",
+        "40",
+        "60",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "0",
+        "40",
+        "60",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "0",
+        "40",
+        "60",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションと\nリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "Be able to visualize the data and evaluate data suitably using scientific computing and/or numerical analysis. Also, be capable of extracting valuable information from the data using the idea of Machine Learning in order to consider.",
+    "standard": "Be able to visualize data, conduct scientific computing, conduct numerical analysis. Also, be capable of explaining Machine Learning briefly."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Orientation",
+      "operation": "Lecture",
+      "assignments": "Download specific files before 2nd class.",
+      "minutes": "100"
+    },
+    {
+      "index": "2",
+      "content": "Building of the Environment",
+      "operation": "Lecture Programming practice",
+      "assignments": "Review: homework",
+      "minutes": "100"
+    },
+    {
+      "index": "3",
+      "content": "How to Use Python Libraries",
+      "operation": "Lecture Programming practice",
+      "assignments": "Review: homework",
+      "minutes": "100"
+    },
+    {
+      "index": "4",
+      "content": "Descriptive Statistics and Simple Linear Regress ion",
+      "operation": "Lecture Programming practice",
+      "assignments": "Review: homework",
+      "minutes": "100"
+    },
+    {
+      "index": "5",
+      "content": "Probability and Inferential Statistics",
+      "operation": "Lecture Programming practice",
+      "assignments": "Review: homework",
+      "minutes": "100"
+    },
+    {
+      "index": "6",
+      "content": "Scientific Computing by Python",
+      "operation": "Lecture Programming practice",
+      "assignments": "Review: homework",
+      "minutes": "100"
+    },
+    {
+      "index": "7",
+      "content": "Data Processing and Visualization",
+      "operation": "Lecture Programming practice",
+      "assignments": "Review: homework and 1st repor t",
+      "minutes": "200"
+    },
+    {
+      "index": "8",
+      "content": "Supervised Learning 1",
+      "operation": "Lecture Programming practice",
+      "assignments": "Review: homework",
+      "minutes": "100"
+    },
+    {
+      "index": "9",
+      "content": "Supervised Learning 2",
+      "operation": "Lecture Programming practice",
+      "assignments": "Review: homework",
+      "minutes": "100"
+    },
+    {
+      "index": "10",
+      "content": "Unsupervised Learning 1",
+      "operation": "Lecture Programming practice",
+      "assignments": "Review: homework",
+      "minutes": "100"
+    },
+    {
+      "index": "11",
+      "content": "Unsupervised Learning 2",
+      "operation": "Lecture Programming practice",
+      "assignments": "Review: homework",
+      "minutes": "100"
+    },
+    {
+      "index": "12",
+      "content": "Tuning of Hyperparameters 1",
+      "operation": "Lecture Programming practice",
+      "assignments": "Review: homework",
+      "minutes": "100"
+    },
+    {
+      "index": "13",
+      "content": "Tuning of Hyperparameters 2",
+      "operation": "Lecture Programming practice",
+      "assignments": "Review: homework",
+      "minutes": "100"
+    },
+    {
+      "index": "14",
+      "content": "Summary and Comprehensive Exercise",
+      "operation": "Lecture Make a report",
+      "assignments": "Review: homework",
+      "minutes": "200"
+    },
+    {
+      "index": "15",
+      "content": "Explanation of Comprehensive Exercise and Final Summary",
+      "operation": "Lecture Interview",
+      "assignments": "",
+      "minutes": ""
+    }
+  ],
+  "rawText": "金沢工業大学 学習支援計画書 E532-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Information and Computer Science\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\nデータサイエンス\nData Science  2 E532-01  2022年度\n 3rd year 1st semester  修学規程第4条を参照\n    担当教員名\n SAKAMOTO Shinji\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Scientific calculation 2.Numerical analysis 3.Data visualization 4.Machine learning 5.Data mining  Students will: (1) Acquire how to conduct scientific computing. (2) Acquire how to conduct numerical analysis on a computer. (3) Acquire how to visualize data. (4) Understand the abstract of machine learning and acquire how to implement it on a computer. (5) Understand the abstract of data mining and get the ability to explain it.\n    授業の概要および学習上の助言   This course gives how to deal with data using a computer. Before joining this course, you should know the basics of Linear Algebra and Statistics. Moreover, you must make free 20GiB space on your computer before starting this course.\n    教科書および参考書・リザーブドブック   no text book\n    履修に必要な予備知識や技能   (1) Knowledge of Linear Algebra (2) Knowledge of Statistics (3) Skills to implement some basic python programming\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① D,J,L,M,N Be able to conduct scientific computing by a computer.   ② D,J,L,M,N Be able to conduct numerical analysis by a computer.   ③ J,N Be able to explain data visualization.   ④ D,L,M,N Be able to implement a program based on Machine Learning.   ⑤ D,L,M,N Be able to explain the abstract of data mining.   ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 0 40 60 0 0 0 0 100     指標と評価割合 総合評価割合 0 40 60 0 0 0 0 100   総合力指標 知識を取り込む力 0 40 60 0 0 0 0 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ①      ②     ③     ④     ⑤     ⑥     クイズ\n小テスト ① レ Every each class (40%)   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     レポート ① レ Twice (60%) Students will be evaluated on their report, focused on programming codes, implementation results, and their own conclusions.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ①      ②     ③     ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     Be able to visualize the data and evaluate data suitably using scientific computing and/or numerical analysis. Also, be capable of extracting valuable information from the data using the idea of Machine Learning in order to consider. Be able to visualize data, conduct scientific computing, conduct numerical analysis. Also, be capable of explaining Machine Learning briefly.\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習課題に要する標準的な時間を記載してあります。日々の自学自習時間全体としては、各授業に応じた時間(例えば2単位科目の場合、予習2時間・復習2時間/週)を取るよう努めてください。詳しくは教員の指導に従って下さい。     授業明細   回数 学習内容 授業の運営方法 学習課題(予習・復習) 時間:分※     1  Orientation Lecture Download specific files before 2nd class.  100   2  Building of the Environment Lecture Programming practice Review: homework  100   3  How to Use Python Libraries Lecture Programming practice Review: homework  100   4  Descriptive Statistics and Simple Linear Regress ion Lecture Programming practice Review: homework  100   5  Probability and Inferential Statistics Lecture Programming practice Review: homework  100   6  Scientific Computing by Python Lecture Programming practice Review: homework  100   7  Data Processing and Visualization Lecture Programming practice Review: homework and 1st repor t  200   8  Supervised Learning 1 Lecture Programming practice Review: homework  100   9  Supervised Learning 2 Lecture Programming practice Review: homework  1",
+  "sourceYear": "2022",
+  "originalSourceIndex": 436,
+  "courseId": "2022:full-year:E927-29:0:9693",
+  "language": "en"
+}

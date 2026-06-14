@@ -1,0 +1,301 @@
+{
+  "sourceIndex": 9919,
+  "sourceUrl": "/opsyllabus/kitos0110/662/1",
+  "importedAt": "2026-06-12T08:01:57.324Z",
+  "title": "心理科学専門実験・演習B",
+  "subtitle": "Psychological Science Major Lab/Exercises B",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "3",
+  "term": "2022年度\n 3rd year 1st semester\n3rd year 2nd semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "IMARUOKA Toshihide",
+    "WATANABE Nobuyuki"
+  ],
+  "keywords": [
+    "Programming 2.Stimulus-Response Relationship 3.Analysis of Variance 4.Measurement of Brain Activity 5.Measurement of Biological Information"
+  ],
+  "educationalGoal": "Programming and Psychological Experiment: Students practice writing a program for a psychological experiment using MATLAB and PsychToolBox, run the experiment, and perform analysis of variance with the data obtained in the experiment. Measurement of Brain Activity and Biological Information: Students practice measuring brain activity and biological information with different measurement devices, and analyze the data.",
+  "advice": "This course is required for Certified Psychologists. In order to reveal the system for processing on Kansei and cognition, it is necessary to measure and analyze not only overt behavioral indices, but also implicit ones like brain and biological activity. In “Programming and Psychological Experiment”, students practice writing a program for a experiment on cognitive psychology using MATLAB and PsychToolBox. In “Measurement of Brain Activity and Biological Information”, students practice experiments to measure brain activity and biological information. Both components include not only experiments, but presentations and writing reports on the experiments. Understanding these methods is important to understand the system for processing on Kansei and cognition, and to prepare for experiments in Design Project III.",
+  "books": "Textbooks: None Reference books: None Reserved books: None",
+  "requiredKnowledge": "Review thoroughly what you learned in the previous courses on statistics and programming, especially “Programming for Psychology II”. If you have not taken” Programming for Psychology II” yet, tell the lecturer in advance to receive study advice.",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "F,G,H,I,J",
+      "body": "Ability to understand programs for psychological experiments and how to write them."
+    },
+    {
+      "index": "②",
+      "type": "F,G,H,I,J",
+      "body": "Ability to analyze behavioral indices like reaction time and error rate properly."
+    },
+    {
+      "index": "③",
+      "type": "J",
+      "body": "Ability to explain the basic of measuring brain activity and biological information."
+    },
+    {
+      "index": "④",
+      "type": "F,G,I,J,K,L",
+      "body": "Ability to measure brain activity and biological information and analyze the data."
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "0",
+        "25",
+        "50",
+        "15",
+        "5",
+        "0",
+        "5",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "0",
+        "25",
+        "50",
+        "15",
+        "5",
+        "0",
+        "5",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "0",
+        "25",
+        "50",
+        "15",
+        "5",
+        "0",
+        "5",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションと\nリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "Ability to write an adequate program and run the experiment, measure behavioral data, and analyze the data with an appropriate method. Ability to measure human brain activity and biological responses, and analyze the data.",
+    "standard": "Ability to run an experiment with an existing program, and analyze the data with an appropriate method. Ability to understand the procedures of measuring brain activity and biological information."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Course introduction [Programming and Psychological Experiment] Psychological experiment and experimental design",
+      "operation": "Lecture and practice",
+      "assignments": "Check what you need to review in the course introduction. Prep: Review the design of psychological experiments.",
+      "minutes": "30 45"
+    },
+    {
+      "index": "2",
+      "content": "[Programming and Psychological Experiment] Review of programming",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Prep: Review what you've learn ed in programming lectures. Review: Review what you learned in the 3rd lecture.",
+      "minutes": "45 45"
+    },
+    {
+      "index": "3",
+      "content": "[Programming and Psychological Experiment] Writing a program for experiment 1",
+      "operation": "Practice",
+      "assignments": "Review: Perform an operation check of the program you wrote in the 4th lecture.",
+      "minutes": "45"
+    },
+    {
+      "index": "4",
+      "content": "[Programming and Psychological Experiment] Statistical analysis/Experiment 1",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Prep: Review analysis of variance.",
+      "minutes": "45"
+    },
+    {
+      "index": "5",
+      "content": "[Programming and Psychological Experiment] Two-way analysis of variance",
+      "operation": "Quiz Lecture",
+      "assignments": "Review & Prep: Check the results of experiment 1 and consider the design of experiment 2.",
+      "minutes": "45"
+    },
+    {
+      "index": "6",
+      "content": "[Programming and Psychological Experiment] Multi-way analysis of variance/ Experiment 2",
+      "operation": "Lecture and practice",
+      "assignments": "Review: Review analysis of variance.",
+      "minutes": "45"
+    },
+    {
+      "index": "7",
+      "content": "[Programming and Psychological Experiment] Oral presentation",
+      "operation": "Presentation Self-check",
+      "assignments": "Prep: Read the chapter on measuring brain activity in the textbook.",
+      "minutes": "60"
+    },
+    {
+      "index": "8",
+      "content": "[Measurement of Brain Activity and Biological Information] Introduction of the theme",
+      "operation": "Lecture and practice",
+      "assignments": "Write a report on experimental design",
+      "minutes": "60"
+    },
+    {
+      "index": "9",
+      "content": "[Measurement of Brain Activity and Biological Information] Practice measuring brain activity",
+      "operation": "Practice",
+      "assignments": "Prepare the experimental task",
+      "minutes": "60"
+    },
+    {
+      "index": "10",
+      "content": "[Measurement of Brain Activity and Biological Information] Preliminary experiment Data analysis",
+      "operation": "Practice",
+      "assignments": "Analysis of data",
+      "minutes": "60"
+    },
+    {
+      "index": "11",
+      "content": "[Measurement of Brain Activity and Biological Information] Experiment 1 Data analysis",
+      "operation": "Presentation",
+      "assignments": "Review the data analysis",
+      "minutes": "60"
+    },
+    {
+      "index": "12",
+      "content": "[Measurement of Brain Activity and Biological Information] Experiment 2 Data analysis",
+      "operation": "Lecture and practice",
+      "assignments": "Review the data analysis",
+      "minutes": "60"
+    },
+    {
+      "index": "13",
+      "content": "[Measurement of Brain Activity and Biological Information] Summary of data analysis Prepare oral presentation",
+      "operation": "Practice",
+      "assignments": "Write a report on experiment",
+      "minutes": "120"
+    },
+    {
+      "index": "14",
+      "content": "[Measurement of Brain Activity and Biological Information] Oral presentation",
+      "operation": "Review",
+      "assignments": "Modify a report with feedback to the presentation",
+      "minutes": "60"
+    },
+    {
+      "index": "15",
+      "content": "Review Self-evaluation",
+      "operation": "Review Self-evaluation",
+      "assignments": "Review what you've learned through this practice.",
+      "minutes": "60"
+    }
+  ],
+  "rawText": "金沢工業大学 学習支援計画書 F336-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Psychological Science(2018〜)\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n心理科学専門実験・演習B\nPsychological Science Major Lab/Exercises B  3 F336-01  2022年度\n 3rd year 1st semester\n3rd year 2nd semester  修学規程第4条を参照\n    担当教員名\n IMARUOKA Toshihide, WATANABE Nobuyuki\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Programming 2.Stimulus-Response Relationship 3.Analysis of Variance 4.Measurement of Brain Activity 5.Measurement of Biological Information  Programming and Psychological Experiment: Students practice writing a program for a psychological experiment using MATLAB and PsychToolBox, run the experiment, and perform analysis of variance with the data obtained in the experiment. Measurement of Brain Activity and Biological Information: Students practice measuring brain activity and biological information with different measurement devices, and analyze the data.\n    授業の概要および学習上の助言   This course is required for Certified Psychologists. In order to reveal the system for processing on Kansei and cognition, it is necessary to measure and analyze not only overt behavioral indices, but also implicit ones like brain and biological activity. In “Programming and Psychological Experiment”, students practice writing a program for a experiment on cognitive psychology using MATLAB and PsychToolBox. In “Measurement of Brain Activity and Biological Information”, students practice experiments to measure brain activity and biological information. Both components include not only experiments, but presentations and writing reports on the experiments. Understanding these methods is important to understand the system for processing on Kansei and cognition, and to prepare for experiments in Design Project III.\n    教科書および参考書・リザーブドブック   Textbooks: None Reference books: None Reserved books: None\n    履修に必要な予備知識や技能   Review thoroughly what you learned in the previous courses on statistics and programming, especially “Programming for Psychology II”. If you have not taken” Programming for Psychology II” yet, tell the lecturer in advance to receive study advice.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① F,G,H,I,J Ability to understand programs for psychological experiments and how to write them.   ② F,G,H,I,J Ability to analyze behavioral indices like reaction time and error rate properly.   ③ J Ability to explain the basic of measuring brain activity and biological information.   ④ F,G,I,J,K,L Ability to measure brain activity and biological information and analyze the data.   ⑤     ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 0 25 50 15 5 0 5 100     指標と評価割合 総合評価割合 0 25 50 15 5 0 5 100   総合力指標 知識を取り込む力 0 25 50 15 5 0 5 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ①      ②     ③     ④     ⑤     ⑥     クイズ\n小テスト ① レ Experiment design and programming ability are evaluated as Quizzes.   ②     ③     ④     ⑤     ⑥     レポート ①   The degree of understanding of the experiments and their data, and of the appropriateness of interpreting the data are evaluated by Reports.   ② レ   ③ レ   ④ レ   ⑤     ⑥     成果発表\n(口頭・実技) ① レ Attitude toward experiments and presentation of results of experiments are evaluated in oral presentations.   ② レ   ③ レ   ④ レ   ⑤     ⑥     作品 ① レ Experiment programs are evaluated as Works.   ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ① レ Attitude in each lecture is evaluated.   ② レ   ③ レ   ④ レ   ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     Ability to write an adequate program and run the experiment, measure behavioral data, and analyze the data with an appropriate method. Ability to measure human brain activity and biological responses, and analyze the data. Ability to run an experiment with an existing",
+  "sourceYear": "2022",
+  "originalSourceIndex": 662,
+  "courseId": "2022:spring:F303-01:0:9919",
+  "language": "en"
+}

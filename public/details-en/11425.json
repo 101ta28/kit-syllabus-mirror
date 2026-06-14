@@ -1,0 +1,407 @@
+{
+  "sourceIndex": 11425,
+  "sourceUrl": "/opsyllabus/kitos0110/301/1",
+  "importedAt": "2026-06-12T08:02:31.852Z",
+  "title": "電気回路Ⅰ(再履修クラス)",
+  "subtitle": "Electric Circuits I",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "4",
+  "term": "2024年度\n 1st year 1st semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "HIROTA Tetsuo",
+    "FUKADA Haruki",
+    "KONNO Takeshi"
+  ],
+  "keywords": [
+    "DC circuits 2.Ohm's law 3.Kirchhoff's law 4.Sinusoids 5.AC basic circuits, Phasors"
+  ],
+  "educationalGoal": "This is a fundamental and important subject in the electrical engineering course. To acquire basic knowledge about electrical circuits and develop the ability to conduct analysis and design of electrical circuits through physical and mathematical considerations. First, a case where a circuit having resistors (R) are connected to DC sources is learned, and then a case where a circuit comprising resistors (R), inductors (L), capacitors (C), and combinations thereof are connected to an AC power supply is learned.",
+  "advice": "The outline of the subjects is as follows. 1.DC circuits: electric circuits and Ohm's law, Kirchhoff's law, superposition principle, Thevenin's Theorem, power and energy. 2.AC basic circuits: sinusoids, phasors relationships for resistors, inductors, and capacitors. AVIS Video Courseware has been prepared for each item in the above, and will be used actively for preparation and review to deepen understanding. This subject is not only \"Electrical Circuit II\", \"Electrical Circuit III\", and \"Electrical Circuit IV\", but also each specialized subject should be studied keeping in mind that it is a special basic course required. Since the progress is adjusted while checking the level of understanding based on the results of a quiz, etc., changes may occur in the class schedule and the content of study.",
+  "books": "Basic electric circuit (2nd edition) New Edition, Morikita Publishing Co., Ltd.",
+  "requiredKnowledge": "In this subject, it is important to solve more problems in order to understand and practice the theory. In addition, since they are made one by one, continuous efforts are required on a daily basis. Therefore, we would like you to take actions such as 1) examining various reference books, 2) asking questions to the lecturer, 3) taking advantage of the Mathematical and Science Education Research Center, so that you can definitely clear what you don't understand.",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "J",
+      "body": "Participants can explain Ohm's and Kirchhoff's law in DC circuits, and calculate it using these laws."
+    },
+    {
+      "index": "②",
+      "type": "J",
+      "body": "Participants can calculate the maximum power condition in the DC circuit."
+    },
+    {
+      "index": "③",
+      "type": "J",
+      "body": "Participants can calculate the mean and rms value of sinusoids, and analyze combined circuits of R, L and C."
+    },
+    {
+      "index": "④",
+      "type": "J",
+      "body": "Participants can analyze circuits by the phasors of complex number, and draw graph in each part of the circuit."
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "40",
+        "40",
+        "20",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "40",
+        "40",
+        "20",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "40",
+        "40",
+        "20",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションと\nリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "Participants can explain sufficiently the physical and mathematical implications of Ohm's and Kirchhoff's laws. Using the knowledge, they can calculate correctly voltages, currents and energy in the DC circuits. They can calculate the average and effective value of sinusoids, and draw the waveform. they can analyze series and parallel AC circuits composed of R-L, R-C or R-L-C, and calculate correctly the voltage, current and impedance of each part of the circuits.",
+    "standard": "Participants can explain the physical and mathematical implications of Ohm's and Kirchhoff's laws. Using the knowledge, they can calculate voltages, currents and energy in the DC circuits. They can calculate the average and effective value of sinusoids, and draw the waveform. they can analyze series and parallel AC circuits composed of R-L, R-C or R-L-C, and calculate the voltage, current and impedance of each part of the circuits."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Circuit elements, Ohm's law, Integrated learning: consideration of familiar electrical products and circuits.",
+      "operation": "Lecture, practices, and questions. In principle, subtests are conducted as many times as is appropriate with advance notice. And, the test is explained appropriately.",
+      "assignments": "Prepare the contents of the textbook corresponding to the study on the left column. Also, review the matters learned that day. Write the correct answers for the tests. Be sure to submit your report by the deadline. Review the lecture and learn more about Ohm's Law. Study textbooks to understand series and parallel connections of resistors.",
+      "minutes": "200"
+    },
+    {
+      "index": "2",
+      "content": "Series and parallel connection of resistors",
+      "operation": "Lecture and practices Interactive activities",
+      "assignments": "Review the lecture and deepen your understanding of the series and parallel connection of resistors. Study textbooks to understand voltage sources, power and energy.",
+      "minutes": "200"
+    },
+    {
+      "index": "3",
+      "content": "Voltage and current sources, Power and energy",
+      "operation": "Lecture and practices Interactive activities",
+      "assignments": "Review the content of the lecture and deepen understanding of power and energy. Study textbooks and understand the conditions for maximum power transfer.",
+      "minutes": "200"
+    },
+    {
+      "index": "4",
+      "content": "Maximum power transfer",
+      "operation": "Lecture and practices Interactive activities",
+      "assignments": "Review the content of the lecture and deepen understanding of the conditions for maximum power transfer. Study textbooks and understand the conditions for Kirchhoff's laws.",
+      "minutes": "200"
+    },
+    {
+      "index": "5",
+      "content": "Kirchhoff's laws",
+      "operation": "Lecture and practices Interactive activities",
+      "assignments": "Review the content of the lecture and deepen understanding of the Kirchhoff's laws. Study textbooks and understand the application of Kirchhoff's laws.",
+      "minutes": "200"
+    },
+    {
+      "index": "6",
+      "content": "Kirchhoff's Law lecture and Exercise 1",
+      "operation": "Lecture and practices Interactive activities",
+      "assignments": "Review the content of the lecture and deepen understanding of the Kirchhoff's laws.",
+      "minutes": "200"
+    },
+    {
+      "index": "7",
+      "content": "Kirchhoff's Law lecture and Exercise 2",
+      "operation": "Lecture and practices Interactive activities",
+      "assignments": "Review the content of the lecture and deepen understanding of the Kirchhoff's laws. Study textbooks and understand bridge circuit, voltage divider circuit and shunt circuit.",
+      "minutes": "200"
+    },
+    {
+      "index": "8",
+      "content": "Bridge circuit, Calculation of voltage divider circuit and shunt circuit",
+      "operation": "Lecture and practices Interactive activities",
+      "assignments": "Review the content of the lecture and deepen understanding of the bridge circuit, voltage divider circuit and shunt circuit. Study textbooks and understand superposition principle and Thevenin's theorem.",
+      "minutes": "200"
+    },
+    {
+      "index": "9",
+      "content": "Superposition principle, Thevenin's theorem",
+      "operation": "Practices Interactive activities",
+      "assignments": "Review the content of the lecture and deepen understanding of superposition principle and Thevenin's theorem.",
+      "minutes": "200"
+    },
+    {
+      "index": "10",
+      "content": "Integrated learning 1, Self-reflection",
+      "operation": "Lecture and practices Interactive activities",
+      "assignments": "Review for interim exam.",
+      "minutes": "200"
+    },
+    {
+      "index": "11",
+      "content": "Integrated learning 2, Self-reflection",
+      "operation": "Practices Interactive activities",
+      "assignments": "Review for interim exam.",
+      "minutes": "200"
+    },
+    {
+      "index": "12",
+      "content": "Interim exam and explanation",
+      "operation": "The first half will be tested for comprehensibility using the interim test.",
+      "assignments": "Review the lecture and exercise questions that were not fully answered in the interim exam.",
+      "minutes": "200"
+    },
+    {
+      "index": "13",
+      "content": "Reflections of interim exam",
+      "operation": "Return the interim exam and explain the questions and answers. Lecture and practices Interactive activities",
+      "assignments": "As a review, solve problems of the interim exam again and deepen understanding. Study textbooks and understand sinusoidal voltage and current.",
+      "minutes": "200"
+    },
+    {
+      "index": "14",
+      "content": "Sinusoidal voltage and current",
+      "operation": "Lecture and practices Interactive activities",
+      "assignments": "Review the content of the lecture and deepen understanding of sinusoidal voltage and current. Study textbooks and understand the mean value of sinusoid and effective value.",
+      "minutes": "200"
+    },
+    {
+      "index": "15",
+      "content": "Mean value of sinusoid, Effective value",
+      "operation": "Lecture and practices Interactive activities",
+      "assignments": "Review the content of the lecture and deepen understanding of the mean value of sinusoid and effective value. Study textbooks and understand circuit equations of sinusoidal AC circuits.",
+      "minutes": "200"
+    },
+    {
+      "index": "16",
+      "content": "Circuit equations of sinusoidal AC circuits",
+      "operation": "Lecture and practices Interactive activities",
+      "assignments": "Review the content of the lecture and deepen understanding of the circuit equations. Study textbooks and understand phasor of sinusoids.",
+      "minutes": "200"
+    },
+    {
+      "index": "17",
+      "content": "Phasor of sinusoids",
+      "operation": "Lecture and practices Interactive activities",
+      "assignments": "Review the content of the lecture and deepen understanding of phasor of sinusoids. Study textbooks and understand complex numbers.",
+      "minutes": "200"
+    },
+    {
+      "index": "18",
+      "content": "Complex numbers in AC circuits",
+      "operation": "Lecture and practices Interactive activities",
+      "assignments": "Review the content of the lecture and deepen understanding of complex numbers. Study textbooks and understand phasor rotation and conjugate complex numbers.",
+      "minutes": "200"
+    },
+    {
+      "index": "19",
+      "content": "j and phasor rotation, conjugate complex numbers",
+      "operation": "Lecture and practices Interactive activities",
+      "assignments": "Review the content of the lecture and deepen understanding of phasor rotation and conjugate complex numbers. Study textbooks and understand the phasor of complex numbers.",
+      "minutes": "200"
+    },
+    {
+      "index": "20",
+      "content": "Phasor of complex numbers",
+      "operation": "Lecture and practices Interactive activities",
+      "assignments": "Review the content of the lecture and deepen understanding of the phasor of complex numbers. Study textbooks and understand phasors and impedance of AC circuits.",
+      "minutes": "200"
+    },
+    {
+      "index": "21",
+      "content": "Phasors and impedance of AC circuits",
+      "operation": "Lecture and practices Interactive activities",
+      "assignments": "Review the content of the lecture and deepen understanding of phasors and impedance of AC circuits. Study textbooks and understand analysis of series AC circuits.",
+      "minutes": "200"
+    },
+    {
+      "index": "22",
+      "content": "Analysis of R-L, R-C, and R-L-C series AC circuits",
+      "operation": "Lecture and practices Interactive activities",
+      "assignments": "Review the content of the lecture and deepen understanding of analysis of series AC circuits.",
+      "minutes": "200"
+    },
+    {
+      "index": "23",
+      "content": "Lectures and exercises on analysis of R-L, R-C, and R-L-C series AC circuits",
+      "operation": "Lecture and practices Interactive activities",
+      "assignments": "Review the content of the lecture and deepen understanding of analysis of series AC circuits. Study textbooks and understand analysis of parallel AC circuits.",
+      "minutes": "200"
+    },
+    {
+      "index": "24",
+      "content": "Analysis of R-L, R-C, and R-L-C parallel AC circuits",
+      "operation": "Lecture and practices Interactive activities",
+      "assignments": "Review the content of the lecture and deepen understanding of analysis of parallel AC circuits.",
+      "minutes": "200"
+    },
+    {
+      "index": "25",
+      "content": "Lectures and exercises on analysis of R-L, R-C, and R-L-C parallel AC circuits",
+      "operation": "Lecture and practices Interactive activities",
+      "assignments": "Review the content of the lecture and deepen understanding of analysis of parallel AC circuits.",
+      "minutes": "200"
+    },
+    {
+      "index": "26",
+      "content": "Integrated learning 3, Self-reflection",
+      "operation": "Lecture and practices Interactive activities",
+      "assignments": "Review for term exam.",
+      "minutes": "200"
+    },
+    {
+      "index": "27",
+      "content": "Integrated learning 4, Self-reflection",
+      "operation": "Lecture and practices Interactive activities",
+      "assignments": "Review for term exam.",
+      "minutes": "200"
+    },
+    {
+      "index": "28",
+      "content": "Integrated learning 5, Self-reflection",
+      "operation": "Lecture and practices Interactive activities",
+      "assignments": "Review for term exam.",
+      "minutes": "200"
+    },
+    {
+      "index": "29",
+      "content": "Term exam and explanation",
+      "operation": "The exam covers contents of the latter half of the lecture.",
+      "assignments": "Review lecture and exercise questions that were not fully answered in the term exam.",
+      "minutes": "200"
+    },
+    {
+      "index": "30",
+      "content": "Integrated learning of this course, Self-evaluation",
+      "operation": "Return the term exam and explain the questions and answers. Clear unmet action goals identified in previous tests.",
+      "assignments": "Self-check and try to understand the lack of understanding among the previous practices and test questions.",
+      "minutes": "200"
+    }
+  ],
+  "rawText": "金沢工業大学 学習支援計画書 E602-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Electrical and Electronic Engineering(2018〜)\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n電気回路Ⅰ(再履修クラス)\nElectric Circuits I  4 E602-01  2024年度\n 1st year 1st semester  修学規程第4条を参照\n    担当教員名\n HIROTA Tetsuo, FUKADA Haruki, KONNO Takeshi\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.DC circuits 2.Ohm's law 3.Kirchhoff's law 4.Sinusoids 5.AC basic circuits, Phasors  This is a fundamental and important subject in the electrical engineering course. To acquire basic knowledge about electrical circuits and develop the ability to conduct analysis and design of electrical circuits through physical and mathematical considerations. First, a case where a circuit having resistors (R) are connected to DC sources is learned, and then a case where a circuit comprising resistors (R), inductors (L), capacitors (C), and combinations thereof are connected to an AC power supply is learned.\n    授業の概要および学習上の助言   The outline of the subjects is as follows. 1.DC circuits: electric circuits and Ohm's law, Kirchhoff's law, superposition principle, Thevenin's Theorem, power and energy. 2.AC basic circuits: sinusoids, phasors relationships for resistors, inductors, and capacitors. AVIS Video Courseware has been prepared for each item in the above, and will be used actively for preparation and review to deepen understanding. This subject is not only \"Electrical Circuit II\", \"Electrical Circuit III\", and \"Electrical Circuit IV\", but also each specialized subject should be studied keeping in mind that it is a special basic course required. Since the progress is adjusted while checking the level of understanding based on the results of a quiz, etc., changes may occur in the class schedule and the content of study.\n    教科書および参考書・リザーブドブック   Basic electric circuit (2nd edition) New Edition, Morikita Publishing Co., Ltd.\n    履修に必要な予備知識や技能   In this subject, it is important to solve more problems in order to understand and practice the theory. In addition, since they are made one by one, continuous efforts are required on a daily basis. Therefore, we would like you to take actions such as 1) examining various reference books, 2) asking questions to the lecturer, 3) taking advantage of the Mathematical and Science Education Research Center, so that you can definitely clear what you don't understand.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① J Participants can explain Ohm's and Kirchhoff's law in DC circuits, and calculate it using these laws.   ② J Participants can calculate the maximum power condition in the DC circuit.   ③ J Participants can calculate the mean and rms value of sinusoids, and analyze combined circuits of R, L and C.   ④ J Participants can analyze circuits by the phasors of complex number, and draw graph in each part of the circuit.   ⑤     ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 40 40 20 0 0 0 0 100     指標と評価割合 総合評価割合 40 40 20 0 0 0 0 100   総合力指標 知識を取り込む力 40 40 20 0 0 0 0 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ The evaluation is made by an interim examination which confirms the learning items in the first half and a term examination which confirms the learning items after that. These two examinations are conducted in order to confirm the degree of achievement of the above-mentioned action goals. The interim examination is conducted on the basis of the above-mentioned action goals No. 1 to 3, and the term examination is conducted on the basis of No.3 and 4. The score is 40 percent for the interim and term exam, 20 each.   ② レ   ③ レ   ④ レ   ⑤     ⑥     クイズ\n小テスト ① レ Quizzes are also conducted to confirm the achievement of the above action goals. The quiz is conducted in several intervals based on the action goal of 1 to 4 and",
+  "sourceYear": "2024",
+  "originalSourceIndex": 301,
+  "courseId": "2024:full-year:E923-08:0:11425",
+  "language": "en"
+}

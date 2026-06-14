@@ -5,7 +5,7 @@ process.env.NODE_TLS_REJECT_UNAUTHORIZED ??= "0";
 
 const baseUrl = "https://europa.kanazawa-it.ac.jp";
 const sourceUrl = `${baseUrl}/opsyllabus/kitos0100/0`;
-const outputPath = path.resolve(process.cwd(), "../europa-syllabus-search-detail.json");
+const outputPath = path.resolve(process.cwd(), process.env.OUTPUT_PATH ?? "../europa-syllabus-search-detail.json");
 const year = String(process.env.COURSE_YEAR ?? "2026");
 const languageType = String(process.env.LANGUAGE_TYPE ?? "0");
 

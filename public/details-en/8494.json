@@ -1,0 +1,304 @@
+{
+  "sourceIndex": 8494,
+  "sourceUrl": "/opsyllabus/kitos0110/132/1",
+  "importedAt": "2026-06-12T08:01:33.954Z",
+  "title": "機械力学Ⅱ",
+  "subtitle": "Dynamics of Machines II",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "2",
+  "term": "2021年度\n 2nd year 2nd semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "MORIMOTO Yoshitaka",
+    "SOGO Norio",
+    "HAYASHI Akio",
+    "SUWABE Hitoshi",
+    "UNEDA Michio"
+  ],
+  "keywords": [
+    "Non-damping vibration 2.Application of non-damping vibration 3.Damping vibration and forced vibration 4.Multi-freedom vibration 5.Collaboration"
+  ],
+  "educationalGoal": "Students will: (1) Learn the basics of vibration problems that occur in machines. (2) Learn how to apply vibration analysis to mechanical designs. (3) Learn how to make a dynamic model of vibration phenomena consisting of multi-freedom vibration, and use it for analysis.",
+  "advice": "This is a basic and applied course in mechanical dynamics. We will cover the following topics: 1. Non-damping vibration (keywords: linear vibration, torsional vibration, pendulum vibration) 2. Viscous damping phenomenon (keywords: damping ratio, viscous damping coefficient) 3. Forced vibration (keywords: forced vibration by external force, forced vibration by displacement) 4. Application to various vibration problems (keywords: critical speed, vibration measurement) 5. Application to multi-freedom vibration (keyword: dynamic absorber) Students are required to actively participate in class. Students are expected to check for various messages and materials in class. Students should not be absent from class, as they may not receive the handouts.",
+  "books": "Textbooks: Introduction to Vibration Engineering, Powersha (in Japanese) Reference books: Engineering Mechanics: Dynamics Reserved books: None",
+  "requiredKnowledge": "Complete Industrial Mechanics I and II, and Dynamics of Mechanics I. Have sufficient skill in mathematics (especially differential/integral and vector inner/outcome calculations) Have basic knowledge of mechanics (kinematics and moment of force). Know how to use a calculator.",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "D,J,M",
+      "body": "Be able to express an appropriate model for mechanical vibration."
+    },
+    {
+      "index": "②",
+      "type": "D,J,M",
+      "body": "Be able to formulate a motion equation based on the expressed vibration model."
+    },
+    {
+      "index": "③",
+      "type": "D,J,M",
+      "body": "Be able to analyze a vibration motion equation."
+    },
+    {
+      "index": "④",
+      "type": "D,J,M",
+      "body": "Be able to apply to various vibration problems consisting of multi-freedom vibration."
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "0",
+        "70",
+        "30",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "0",
+        "70",
+        "30",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "0",
+        "70",
+        "30",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションと\nリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "Be able to do the following things based on an understanding of various vibration phenomena in industrial machines: (1) Express mechanical vibration with the appropriate vibration model. (2) Create a formula of motion based on the expressed vibration model. (3) Calculate the solution for the formula of motion. (4) Apply the formula to various vibration problems within the multi-freedom vibration model, and design a fundamental dynamic absorber. (5) Explain the regional vibration problem.",
+    "standard": "Be able to do the following things based on an understanding of various vibration phenomena: (1) Express mechanical vibration with a simplified vibration model. (2) Create a formula of motion based on the expressed vibration model. (3) Calculate the solution for the formula of motion. (4) Apply the formula to various vibration problems within the multi-freedom vibration model, and explain a fundamental dynamic absorber. (5) Explain the regional vibration problem."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Course introduction Non-damping one-freedom vibration",
+      "operation": "Lecture and Q&A",
+      "assignments": "Understand the course objectives",
+      "minutes": "100"
+    },
+    {
+      "index": "2",
+      "content": "Non-damping one-freedom vibration in linear vibration system Relationship between the motion equation and natural frequency",
+      "operation": "Lecture and Q&A",
+      "assignments": "Review of formulation of motion equation based on expressed one-freedom linear vibration model",
+      "minutes": "100"
+    },
+    {
+      "index": "3",
+      "content": "Non-damping one-freedom vibration in both linear and pendulum vibration systems Relationship between the motion equation and natural frequency",
+      "operation": "Lecture and Q&A",
+      "assignments": "Review of formulation of motion equation based on expressed one-freedom linear and pendulum vibration model",
+      "minutes": "100"
+    },
+    {
+      "index": "4",
+      "content": "Application of non-damping one-freedom vibration",
+      "operation": "Lecture and Q&A",
+      "assignments": "Lecture and Q&A",
+      "minutes": "100"
+    },
+    {
+      "index": "5",
+      "content": "Test and review of content learned in classes 1-4",
+      "operation": "Lecture and practice Self-check Self-reflection",
+      "assignments": "",
+      "minutes": "200"
+    },
+    {
+      "index": "6",
+      "content": "Energy method for solving complex non-damping one-freedom vibration",
+      "operation": "Lecture and Q&A",
+      "assignments": "Review to solve motion equation using energy method",
+      "minutes": "100"
+    },
+    {
+      "index": "7",
+      "content": "Energy method for solving complex non-damping one-freedom vibration Basis of one-freedom damping vibration",
+      "operation": "Lecture and Q&A",
+      "assignments": "Review to solve motion equation using energy method Review of formulation of motion formula for one- freedom damping vibration",
+      "minutes": "100"
+    },
+    {
+      "index": "8",
+      "content": "One-freedom damping vibration based on viscous damping phenomena",
+      "operation": "Lecture and Q&A",
+      "assignments": "Review to formulate and solve the motion formula of one-freedom damping vibration based on viscous damping",
+      "minutes": "100"
+    },
+    {
+      "index": "9",
+      "content": "One-freedom damping vibration based on Coulomb damping phenomena",
+      "operation": "Lecture and Q&A",
+      "assignments": "Review to formulate and solve the motion formula of one-DOF damping vibration based on Coulomb damping",
+      "minutes": "100"
+    },
+    {
+      "index": "10",
+      "content": "Test and review of content learned in classes 1-9",
+      "operation": "Lecture and practice Self-check Self-reflection",
+      "assignments": "",
+      "minutes": "200"
+    },
+    {
+      "index": "11",
+      "content": "One-freedom non-damping forced vibration Relationship between the motion equation and natural frequency",
+      "operation": "Lecture and Q&A",
+      "assignments": "Review to formulate and solve the motion equation based on expressed one- freedom non-damping forced vibration model",
+      "minutes": "100"
+    },
+    {
+      "index": "12",
+      "content": "One-freedom damping forced vibration by external force Relationship between the motion equation and natural frequency",
+      "operation": "Lecture and Q&A",
+      "assignments": "Review to formulate and solve the motion equation based on expressed one- freedom damping forced vibration model by external force",
+      "minutes": "100"
+    },
+    {
+      "index": "13",
+      "content": "One-freedom damping forced vibration by displacement Relationship between the motion equation and natural frequency",
+      "operation": "Lecture and Q&A",
+      "assignments": "Review to formulate and solve the motion equation based on expressed one- freedom damping forced vibration model by displacement",
+      "minutes": "100"
+    },
+    {
+      "index": "14",
+      "content": "Application to multi-freedom vibration problem, including the dynamic absorber mechanism, critical speed, and vibration measurement",
+      "operation": "Lecture and Q&A",
+      "assignments": "Review to formulate and solve the motion equation based on expressed multi- freedom vibration model",
+      "minutes": "100"
+    },
+    {
+      "index": "15",
+      "content": "Final test and review of content learned in classes 1-14",
+      "operation": "Lecture and practice Self-check Self-reflection",
+      "assignments": "",
+      "minutes": "200"
+    }
+  ],
+  "rawText": "金沢工業大学 学習支援計画書 E019-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Mechanical Engineering\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n機械力学Ⅱ\nDynamics of Machines II  2 E019-01  2021年度\n 2nd year 2nd semester  修学規程第4条を参照\n    担当教員名\n MORIMOTO Yoshitaka, SOGO Norio, HAYASHI Akio, SUWABE Hitoshi, UNEDA Michio\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Non-damping vibration 2.Application of non-damping vibration 3.Damping vibration and forced vibration 4.Multi-freedom vibration 5.Collaboration  Students will: (1) Learn the basics of vibration problems that occur in machines. (2) Learn how to apply vibration analysis to mechanical designs. (3) Learn how to make a dynamic model of vibration phenomena consisting of multi-freedom vibration, and use it for analysis.\n    授業の概要および学習上の助言   This is a basic and applied course in mechanical dynamics. We will cover the following topics: 1. Non-damping vibration (keywords: linear vibration, torsional vibration, pendulum vibration) 2. Viscous damping phenomenon (keywords: damping ratio, viscous damping coefficient) 3. Forced vibration (keywords: forced vibration by external force, forced vibration by displacement) 4. Application to various vibration problems (keywords: critical speed, vibration measurement) 5. Application to multi-freedom vibration (keyword: dynamic absorber) Students are required to actively participate in class. Students are expected to check for various messages and materials in class. Students should not be absent from class, as they may not receive the handouts.\n    教科書および参考書・リザーブドブック   Textbooks: Introduction to Vibration Engineering, Powersha (in Japanese) Reference books: Engineering Mechanics: Dynamics Reserved books: None\n    履修に必要な予備知識や技能   Complete Industrial Mechanics I and II, and Dynamics of Mechanics I. Have sufficient skill in mathematics (especially differential/integral and vector inner/outcome calculations) Have basic knowledge of mechanics (kinematics and moment of force). Know how to use a calculator.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① D,J,M Be able to express an appropriate model for mechanical vibration.   ② D,J,M Be able to formulate a motion equation based on the expressed vibration model.   ③ D,J,M Be able to analyze a vibration motion equation.   ④ D,J,M Be able to apply to various vibration problems consisting of multi-freedom vibration.   ⑤     ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 0 70 30 0 0 0 0 100     指標と評価割合 総合評価割合 0 70 30 0 0 0 0 100   総合力指標 知識を取り込む力 0 70 30 0 0 0 0 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ①      ②     ③     ④     ⑤     ⑥     クイズ\n小テスト ① レ Tests are given after each topic is finished to improve your level of understanding. The calculator specified in this department can be used in every test. It is necessary to understand the ideas behind formulas when formulating the equation of motion.   ② レ   ③ レ   ④ レ   ⑤     ⑥     レポート ① レ Students are evaluated on four or five reports. Students are required to meet submission deadlines.   ② レ   ③ レ   ④ レ   ⑤     ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ①      ②     ③     ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     Be able to do the following things based on an understanding of various vibration phenomena in industrial machines: (1) Express mechanical vibration with the appropriate vibration model. (2) Create a formula of motion based on the expressed vibration model. (3) Calculate the solution for the formula of motion. (4) Apply the formula to various vibration problems within the multi-freedom vibration model, and design a fundamental dynamic absorber. (5) Explain the regional vibration problem. Be ab",
+  "sourceYear": "2021",
+  "originalSourceIndex": 132,
+  "courseId": "2021:spring:G224-01:0:8494",
+  "language": "en"
+}

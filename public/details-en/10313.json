@@ -1,0 +1,301 @@
+{
+  "sourceIndex": 10313,
+  "sourceUrl": "/opsyllabus/kitos0110/142/1",
+  "importedAt": "2026-06-12T08:02:13.305Z",
+  "title": "エンベデッドシステム(春期集中講義)",
+  "subtitle": "Embedded System",
+  "courseType": "Practical Engineering Education Program\nPractical Engineering Education Courses",
+  "credits": "2",
+  "term": "2023年度\n 2nd year 2nd semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "TAKAGO Daisuke",
+    "NISHIKAWA Yukinobu"
+  ],
+  "keywords": [
+    "Embedded systems 2.Linux device driver programming 3.Embedded systemss programming 4.Raspberry Pi 5.Electronic circuits"
+  ],
+  "educationalGoal": "- Understand embedded systems from a broad perspective, and also specifically understand the technology of embedded systems, how embedded systems interrelate with industry, and the product trends of embedded systems. - Understand the technical knowledge and terminology related to embedded systems. - Understand Linux device driver development and utilize its design method to develop embedded systems. - Understand the skills required for embedded systems engineers.",
+  "advice": "Learn about the technology of embedded systems being used as edge devices to support the IoT. Deepen understanding of embedded systems through lectures, training, and development exercises. [Embedded systems technology lectures] Listen to lectures by embedded systems engineers and learn about embedded systems from a broad perspective, and also specifically learn about the technology of embedded systems, how embedded systems interrelate with industry, and the product trends of embedded systems. [Embedded systems technology training] Systematically learn the basic technology of embedded systems. [Embedded systems development exercises] Learn practical techniques for building embedded systems through Linux device driver development exercises. No textbook is specified for this subject. Materials used in this class will be distributed.",
+  "books": "None",
+  "requiredKnowledge": "1) Basic computer literacy (Windows and MS office, use of a text editor, etc.). 2) Understanding of the basic elements of C programming (conditional branching, iteration, functions, file I/O, pointers, etc.). Students should have taken “Introduction to IoT Programming” or have the equivalent knowledge. 3) Knowledge and experience with rudimentary Python programming and Linux programming is desirable.",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "A",
+      "body": "To be able to explain embedded systems from a broad perspective and the technology of embedded systems."
+    },
+    {
+      "index": "②",
+      "type": "H",
+      "body": "To be able to explain the technical knowledge and terminology related to embedded systems."
+    },
+    {
+      "index": "③",
+      "type": "G,H",
+      "body": "To understand practical embedded systems design from a broad perspective and be able to build embedded systems."
+    },
+    {
+      "index": "④",
+      "type": "A",
+      "body": "To understand the skills required for embedded systems engineers and be able to identify your skill level."
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "0",
+        "50",
+        "15",
+        "25",
+        "0",
+        "10",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "0",
+        "50",
+        "15",
+        "25",
+        "0",
+        "10",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "0",
+        "50",
+        "15",
+        "25",
+        "0",
+        "10",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションと\nリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "- Deeply understand embedded systems and your skill level as an embedded systems engineer, and use this understanding to consider future career design. - Deeply understand the specialized knowledge and terms related to embedded systems and exchange opinions with others. - Deeply understand Linux device driver development and utilize its design method to develop advanced embedded systems.",
+    "standard": "- Understand embedded systems and your skill level as an embedded systems engineer. - Understand the specialized knowledge and terms related to embedded systems and explain them to others. - Understand Linux device driver development and utilize its design method to develop embedded systems."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "Lectur e1 (1s t-2nd)",
+      "content": "[Guidance, Embedded systems technology lecture] - Guidance for the entire class - Listen to lectures by corporate engineers deve loping embedded systems to deepen their understa nding of embedded systems from a broad perspecti ve, and also specifically understand the technol ogy of embedded systems, how embedded systems in terrelate with industry, and the product trends of embedded systems. Classes taught by practicing teachers.",
+      "operation": "Lecture",
+      "assignments": "Write a report on the lecture.",
+      "minutes": "90"
+    },
+    {
+      "index": "Lectur e2(3rd -4th)",
+      "content": "[Embedded systems technology training (technical elements)] Systematically learn the technical elements of s oftware knowledge for embedded systems technolog y required by a company when graduating from uni versity. Classes taught by practicing teachers.",
+      "operation": "Lecture",
+      "assignments": "Work on the lecture review ass ignment.",
+      "minutes": "90"
+    },
+    {
+      "index": "Lectur e3(5th -6th)",
+      "content": "[Embedded systems technology training (developme nt technology)] Systematically learn the development technology of software knowledge for embedded systems techn ology required by a company when graduating from university. Classes taught by practicing teachers.",
+      "operation": "Lecture",
+      "assignments": "Work on the lecture review ass ignment.",
+      "minutes": "90"
+    },
+    {
+      "index": "Lectur e4(7th -8th)",
+      "content": "[Embedded systems technology training (comprehen sive exercises)] Acquire comprehensive knowledge of software for embedded systems technology. Classes taught by practicing teachers.",
+      "operation": "Lecture",
+      "assignments": "Work on the lecture review ass ignment.",
+      "minutes": "90"
+    },
+    {
+      "index": "Lectur e5(9th -10th)",
+      "content": "[Embedded systems development exercises] -Linux device driver development exercise: Devel opment environment construction Classes taught by practicing teachers.",
+      "operation": "Lecture, exercise",
+      "assignments": "Work on the lecture review ass ignment.",
+      "minutes": "90"
+    },
+    {
+      "index": "Lectur e6(11t h-12th )",
+      "content": "[Embedded systems development exercises] -Linux device driver development exercise: Intro duction to Linux Classes taught by practicing teachers.",
+      "operation": "Lecture, exercises",
+      "assignments": "Work on the lecture review ass ignment.",
+      "minutes": "90"
+    },
+    {
+      "index": "Lectur e7(13t h-14th )",
+      "content": "[Embedded systems development exercises] -Linux device driver development exercise: Linux programming (system calls, sockets) Classes taught by practicing teachers.",
+      "operation": "Lecture, exercises",
+      "assignments": "Work on the lecture review ass ignment.",
+      "minutes": "90"
+    },
+    {
+      "index": "Lectur e8(15t h-16th )",
+      "content": "[Embedded systems development exercises] -Linux device driver development exercise: Elect ronic circuit experiment using Raspberry Pi and breadboard Classes taught by practicing teachers.",
+      "operation": "Lecture, exercises",
+      "assignments": "Work on the lecture review ass ignment.",
+      "minutes": "90"
+    },
+    {
+      "index": "Lectur e9(17t h-18th )",
+      "content": "[Embedded systems development exercises] -Linux device driver development exercise: Linux kernel module programming Classes taught by practicing teachers.",
+      "operation": "Lecture, exercises",
+      "assignments": "Work on the lecture review ass ignment.",
+      "minutes": "90"
+    },
+    {
+      "index": "Lectur e10(19 th-20t h)",
+      "content": "[Embedded systems development exercises] -Linux device driver development exercise: Linux kernel module programming Classes taught by practicing teachers.",
+      "operation": "Lecture, exercises",
+      "assignments": "Work on the lecture review ass ignment.",
+      "minutes": "90"
+    },
+    {
+      "index": "Lectur e11(21 th-22t h)",
+      "content": "[Embedded systems development exercises] -Linux device driver development exercise: Linux device driver programming Classes taught by practicing teachers.",
+      "operation": "Lecture, exercises",
+      "assignments": "Work on the lecture review ass ignment.",
+      "minutes": "90"
+    },
+    {
+      "index": "Lectur e12(23 3th-24 th)",
+      "content": "[Embedded systems development exercises] -Linux device driver development exercise: Free assignment production Classes taught by practicing teachers. Discussion time.",
+      "operation": "Lecture, exercises",
+      "assignments": "Summarize the free task effort s in the presentation material s.",
+      "minutes": "90"
+    },
+    {
+      "index": "Lectur e13(25 th-26t h)",
+      "content": "[Embedded systems development exercises] -Linux device driver development exercise: Free assignment production (continued) Classes taught by practicing teachers. Discussion time.",
+      "operation": "Lecture, exercises",
+      "assignments": "Summarize the free task effort s in the presentation material s.",
+      "minutes": "90"
+    },
+    {
+      "index": "Lectur e14(27 th-28t h)",
+      "content": "[Embedded systems development exercises] -Linux device driver development exercise: Free assignment production (final) Classes taught by practicing teachers. Classes for discussion.",
+      "operation": "Lecture, exercises",
+      "assignments": "Summarize the free task effort s in the presentation material s.",
+      "minutes": "90"
+    },
+    {
+      "index": "Lectur e15(29 th-30t h)",
+      "content": "[Embedded systems development exercises] -Linux device driver development exercise: Prese ntation of learning results for free assignments [Self assessment] - Input the evaluation system for training embed ded system engineers. Understand your current sk ill level. Classes taught by practicing teachers. Discussion time.",
+      "operation": "Presentation, self assessm ent, creation of presentat ion materials",
+      "assignments": "Submit presentation materials for free assignments. In addition, the input of the evaluation system for training embedded system engineers is completed.",
+      "minutes": "90"
+    }
+  ],
+  "rawText": "金沢工業大学 学習支援計画書 G262-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDesign Project Program\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Practical Engineering Education Program\nPractical Engineering Education Courses\nエンベデッドシステム(春期集中講義)\nEmbedded System  2 G262-01  2023年度\n 2nd year 2nd semester  修学規程第4条を参照\n    担当教員名\n TAKAGO Daisuke, NISHIKAWA Yukinobu\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Embedded systems 2.Linux device driver programming 3.Embedded systemss programming 4.Raspberry Pi 5.Electronic circuits  - Understand embedded systems from a broad perspective, and also specifically understand the technology of embedded systems, how embedded systems interrelate with industry, and the product trends of embedded systems. - Understand the technical knowledge and terminology related to embedded systems. - Understand Linux device driver development and utilize its design method to develop embedded systems. - Understand the skills required for embedded systems engineers.\n    授業の概要および学習上の助言   Learn about the technology of embedded systems being used as edge devices to support the IoT. Deepen understanding of embedded systems through lectures, training, and development exercises. [Embedded systems technology lectures] Listen to lectures by embedded systems engineers and learn about embedded systems from a broad perspective, and also specifically learn about the technology of embedded systems, how embedded systems interrelate with industry, and the product trends of embedded systems. [Embedded systems technology training] Systematically learn the basic technology of embedded systems. [Embedded systems development exercises] Learn practical techniques for building embedded systems through Linux device driver development exercises. No textbook is specified for this subject. Materials used in this class will be distributed.\n    教科書および参考書・リザーブドブック   None\n    履修に必要な予備知識や技能   1) Basic computer literacy (Windows and MS office, use of a text editor, etc.). 2) Understanding of the basic elements of C programming (conditional branching, iteration, functions, file I/O, pointers, etc.). Students should have taken “Introduction to IoT Programming” or have the equivalent knowledge. 3) Knowledge and experience with rudimentary Python programming and Linux programming is desirable.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① A To be able to explain embedded systems from a broad perspective and the technology of embedded systems.   ② H To be able to explain the technical knowledge and terminology related to embedded systems.   ③ G,H To understand practical embedded systems design from a broad perspective and be able to build embedded systems.   ④ A To understand the skills required for embedded systems engineers and be able to identify your skill level.   ⑤     ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 0 50 15 25 0 10 0 100     指標と評価割合 総合評価割合 0 50 15 25 0 10 0 100   総合力指標 知識を取り込む力 0 50 15 25 0 10 0 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ①      ②     ③     ④     ⑤     ⑥     クイズ\n小テスト ①   Students’ understanding of the review assignments for embedded systems technology training and embedded systems development exercises will be evaluated. [Review assignments to be evaluated] Lectures 2-4: Review assignments for each session Lectures 5-11: Review assignments for each session    ② レ   ③ レ   ④     ⑤     ⑥     レポート ① レ Students’ reports on the embedded systems technology lectures will be evaluated. [Reports to be evaluated]. Lecture 1: Report on embedded systems technology conference    ② レ   ③     ④ レ   ⑤     ⑥     成果発表\n(口頭・実技) ① レ Students will be evaluated on their presentation of the results of their studies. [Presentation subject to be evaluated] Lecture 15: Presentation of the results of the free assignments from Lectures 12 to 15   ",
+  "sourceYear": "2023",
+  "originalSourceIndex": 142,
+  "courseId": "2023:spring:G252-02:0:10313",
+  "language": "en"
+}

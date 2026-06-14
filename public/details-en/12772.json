@@ -1,0 +1,262 @@
+{
+  "sourceIndex": 12772,
+  "sourceUrl": "/opsyllabus/kitos0110/689/1",
+  "importedAt": "2026-06-12T08:02:51.861Z",
+  "title": "知能情報プログラミングⅢ(後学期冬)",
+  "subtitle": "Intelligent Information Programming III",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "1",
+  "term": "2025年度\n 1st year 2nd semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "MOTOKI Mitsuo",
+    "INAGAKI Mikio"
+  ],
+  "keywords": [
+    "Java 2.compile 3.Dynamic typing programming language"
+  ],
+  "educationalGoal": "In this course, student learn basic Java programming. Specifically, it contains the followings: understanding the basic of Java that requires compiling and static typing variables, writing simple programs, and how to execute Java programs.",
+  "advice": "Students learn basic of programming with compiling and static typing variables, by using Java with comparing with Python. Contents of Java: (1) The basic of writing Java program and executing programs (2) Concept of variables with typing (3) The grammar of Java and typical programming method for Java",
+  "books": "(See the Japanese syllabus.)",
+  "requiredKnowledge": "The precedent course: Programming I - Students have to bring own laptop computer, AC adopter, and network cable for software installation, download of course materials, and upload of answer of quizzes - PC operation skills (such as touch typing, file operation, etc.) are necessary to write program smoothly",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "I,J,K",
+      "body": "Be able to explain necessary operations step by step to execute Java programs"
+    },
+    {
+      "index": "②",
+      "type": "I,J,K",
+      "body": "Be able to write Java programs using typing of variables appropriately"
+    },
+    {
+      "index": "③",
+      "type": "I,J,K",
+      "body": "Be able to write Java programs with conditional branches appropriately"
+    },
+    {
+      "index": "④",
+      "type": "I,J,K",
+      "body": "Be able to write Java programs with loops appropriately"
+    },
+    {
+      "index": "⑤",
+      "type": "I,J,K",
+      "body": "Be able to write Java programs using arrays appropriately"
+    },
+    {
+      "index": "⑥",
+      "type": "I,J,K",
+      "body": "Be able to write Java programs using methods appropriately"
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "40",
+        "60",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "40",
+        "60",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "40",
+        "60",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションと\nリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "In addition to standard achievement level, (1+) Be able to fix errors in compiling Java programs (6) Be able tor write Java programs with non-complicated specifications",
+    "standard": "(1) Be able to write and execute Java program (2) Be able to write variable declaration, assignment to variables, and type conversion in Java (3) Be able to write Java programs using conditional branches (4) Be able to write Java programs using loops (5) Be able to write Java programs with methods"
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Basis of writing programs in Java - Installation of Java Development Kit - How to write Java programs - How to execute Java programs - Output",
+      "operation": "Lecture and Exercise",
+      "assignments": "- Preview: Install JDK according to slides - Review: Practice the handout, and 1-2 and 2-1 of the textbook",
+      "minutes": "60 60"
+    },
+    {
+      "index": "2",
+      "content": "Typing of variables and operators - Type of variables - Type conversion - Input (Scanner class) - Operators",
+      "operation": "Lecture and Exercise",
+      "assignments": "Preview: Watch the lecture video Review: Practice the handout and 2-2, 2-3, and 2-4 of the textbook",
+      "minutes": "60 60"
+    },
+    {
+      "index": "3",
+      "content": "- Flow control (conditional branch)",
+      "operation": "Lecture and Exercise",
+      "assignments": "Preview: Watch the lecture video Review: Practice the handout and 3-1, and 3-2 of the textbook",
+      "minutes": "60 60"
+    },
+    {
+      "index": "4",
+      "content": "- Flow control (loop)",
+      "operation": "Lecture and Exercise",
+      "assignments": "Preview: Watch the lecture video Review: Practice the handout and 3-3 of the textbook",
+      "minutes": "60 60"
+    },
+    {
+      "index": "5",
+      "content": "- Array",
+      "operation": "Lecture and Exercise",
+      "assignments": "Preview: Watch the lecture video Review: Practice the handout and 3-4 of the textbook",
+      "minutes": "60 60"
+    },
+    {
+      "index": "6",
+      "content": "- Method",
+      "operation": "Lecture and Exercise",
+      "assignments": "Preview: Watch the lecture video Review: Practice the handout and Ch. 4 of the textbook",
+      "minutes": "60 60"
+    },
+    {
+      "index": "7",
+      "content": "- Overall exercise",
+      "operation": "Lecture and Exercise",
+      "assignments": "Preview: Review whole content of this class",
+      "minutes": "120"
+    },
+    {
+      "index": "8",
+      "content": "- Exam - Self-check",
+      "operation": "Exam Self-check",
+      "assignments": "Prepare for the exam",
+      "minutes": "120"
+    }
+  ],
+  "rawText": "金沢工業大学 学習支援計画書 C108-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Artificial Intelligence\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n知能情報プログラミングⅢ(後学期冬)\nIntelligent Information Programming III  1 C108-01  2025年度\n 1st year 2nd semester  修学規程第4条を参照\n    担当教員名\n MOTOKI Mitsuo, INAGAKI Mikio\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Java 2.compile 3.Dynamic typing programming language  In this course, student learn basic Java programming. Specifically, it contains the followings: understanding the basic of Java that requires compiling and static typing variables, writing simple programs, and how to execute Java programs.\n    授業の概要および学習上の助言   Students learn basic of programming with compiling and static typing variables, by using Java with comparing with Python. Contents of Java: (1) The basic of writing Java program and executing programs (2) Concept of variables with typing (3) The grammar of Java and typical programming method for Java\n    教科書および参考書・リザーブドブック   (See the Japanese syllabus.)\n    履修に必要な予備知識や技能   The precedent course: Programming I - Students have to bring own laptop computer, AC adopter, and network cable for software installation, download of course materials, and upload of answer of quizzes - PC operation skills (such as touch typing, file operation, etc.) are necessary to write program smoothly\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① I,J,K Be able to explain necessary operations step by step to execute Java programs   ② I,J,K Be able to write Java programs using typing of variables appropriately   ③ I,J,K Be able to write Java programs with conditional branches appropriately   ④ I,J,K Be able to write Java programs with loops appropriately   ⑤ I,J,K Be able to write Java programs using arrays appropriately   ⑥ I,J,K Be able to write Java programs using methods appropriately\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 40 60 0 0 0 0 0 100     指標と評価割合 総合評価割合 40 60 0 0 0 0 0 100   総合力指標 知識を取り込む力 40 60 0 0 0 0 0 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ Check whether students comprehensively achieve learning objectives by exams. The detail of exam will be announced at least 1 week before the exam.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥ レ   クイズ\n小テスト ① レ Check whether students acquire necessary knowledge for each appropriate unit of subjects on the LMS. It is required to register to the LMS.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥ レ   レポート ①      ②     ③     ④     ⑤     ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ①      ②     ③     ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     In addition to standard achievement level, (1+) Be able to fix errors in compiling Java programs (6) Be able tor write Java programs with non-complicated specifications (1) Be able to write and execute Java program (2) Be able to write variable declaration, assignment to variables, and type conversion in Java (3) Be able to write Java programs using conditional branches (4) Be able to write Java programs using loops (5) Be able to write Java programs with methods\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習課題に要する標準的な時間を記載してあります。日々の自学自習時間全体としては、各授業に応じた時間(例えば2単位科目の場合、予習2時間・復習2時間/週)を取るよう努めてください。詳しくは教員の指導に従って下さい。     授業明細   回数 学習内容 授業の運営方法 学習課題(予習・復習) 時間:分※     1  Basis of writing programs in Java - Installation of Java Development Kit - How to write Java programs - How to execute Java programs - Output Lecture and Exercise - Preview: Install JDK according to slides - Review: Practice the handout, and 1-2 and",
+  "sourceYear": "2025",
+  "originalSourceIndex": 689,
+  "courseId": "2025:fall:C971-01:0:12772",
+  "language": "en"
+}

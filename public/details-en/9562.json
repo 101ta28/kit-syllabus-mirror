@@ -1,0 +1,295 @@
+{
+  "sourceIndex": 9562,
+  "sourceUrl": "/opsyllabus/kitos0110/305/1",
+  "importedAt": "2026-06-12T08:01:54.758Z",
+  "title": "ロボットプログラミングⅡ",
+  "subtitle": "Robot Programming II",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "2",
+  "term": "2022年度\n 3rd year 2nd semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "DEMURA Kosei"
+  ],
+  "keywords": [
+    "Robot programming 2.AI 3.Human support robot 4.ROS2 5.Python"
+  ],
+  "educationalGoal": "(1) Learn the basic theory of AI robotics. (2) Learn the Robot Operating System 2(ROS2). (3) Learn how to develop software for robots, including wheeled robots, robotic arms, and legged robots.",
+  "advice": "This is a unique course that provides instruction on the basics of AI robotics and robot programming from a global perspective. This course serves as a hub for theory and practice. To develop an intelligent robot, a large-scale program is needed. Thus, students will learn the ROS2 and Python language, which are used very often. Python is learned using a flipped classroom style. Students watch videos and take quizzes before class, and programming exercises are held in class. This class will cover the following topics: 1. Development environment and ROS installation 2. Python language 3. Wheeled robot 4. Speech recognition and synthesis 5. Robot vision 6. Robot arm 7. Programming exercises",
+  "books": "Kosei Demura et al. \"An introduction of AI robot programming by ROS and Python,\" Kodansha, 2022 (in Japanese)",
+  "requiredKnowledge": "Programming skill",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "K",
+      "body": "Understand the theories presented in the textbooks and other class materials."
+    },
+    {
+      "index": "②",
+      "type": "K",
+      "body": "Understand programs presented in the textbooks and other materials, and develop programs at the same level."
+    },
+    {
+      "index": "③",
+      "type": "K",
+      "body": "Develop simple robot programs."
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "30",
+        "0",
+        "70",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "30",
+        "0",
+        "70",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "30",
+        "0",
+        "70",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションと\nリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "(1) Understand all basic theories of AI robotics. (2) Use your robotics knowledge to develop efficient programs on the simulator.",
+    "standard": "(1) Understand important basic theories in AI robotics. (2) Use your robotics knowledge to develop executable programs on the simulator."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Course introduction",
+      "operation": "Lecture and Q&A",
+      "assignments": "Review: Lecture content Preview: Install the development environment using reference materials",
+      "minutes": "200"
+    },
+    {
+      "index": "2",
+      "content": "ROS2 introduction",
+      "operation": "Lecture and practice",
+      "assignments": "Review: Finish the installation",
+      "minutes": "200"
+    },
+    {
+      "index": "3",
+      "content": "ROS2 programming",
+      "operation": "Lecture and practice",
+      "assignments": "Review: Content of class",
+      "minutes": "200"
+    },
+    {
+      "index": "4",
+      "content": "Localization and Map",
+      "operation": "Lecture and practice",
+      "assignments": "Review: Content of class",
+      "minutes": "200"
+    },
+    {
+      "index": "5",
+      "content": "Navigation",
+      "operation": "Lecture and practice",
+      "assignments": "Review: Content of class",
+      "minutes": "200"
+    },
+    {
+      "index": "6",
+      "content": "Vision 1",
+      "operation": "Lecture and practice",
+      "assignments": "Review: content of class",
+      "minutes": "200"
+    },
+    {
+      "index": "7",
+      "content": "Vision 2",
+      "operation": "Lecture and practice",
+      "assignments": "Review: Content of class",
+      "minutes": "200"
+    },
+    {
+      "index": "8",
+      "content": "Test",
+      "operation": "Test",
+      "assignments": "Review: Content of class",
+      "minutes": "200"
+    },
+    {
+      "index": "9",
+      "content": "Speech recognition and synthesis",
+      "operation": "Lecture and practice",
+      "assignments": "Review: Content of class",
+      "minutes": "200"
+    },
+    {
+      "index": "10",
+      "content": "Manipulation 1",
+      "operation": "Lecture and practice",
+      "assignments": "Review: Content of class",
+      "minutes": "200"
+    },
+    {
+      "index": "11",
+      "content": "Manipulation 2",
+      "operation": "Lecture and practice",
+      "assignments": "Review: Content of class",
+      "minutes": "300"
+    },
+    {
+      "index": "12",
+      "content": "Planning 1",
+      "operation": "Lecture and practice",
+      "assignments": "Review: Content of class",
+      "minutes": "300"
+    },
+    {
+      "index": "13",
+      "content": "Planning 2",
+      "operation": "Lecture and practics",
+      "assignments": "Review: Content of class",
+      "minutes": "300"
+    },
+    {
+      "index": "14",
+      "content": "Practice",
+      "operation": "Lecture and practice",
+      "assignments": "Review: Content of class",
+      "minutes": "300"
+    },
+    {
+      "index": "15",
+      "content": "Final presentation",
+      "operation": "Oral presentation about the class project Self-evaluation",
+      "assignments": "Prepare for the class project",
+      "minutes": "100"
+    }
+  ],
+  "rawText": "金沢工業大学 学習支援計画書 E230-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Robotics\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\nロボットプログラミングⅡ\nRobot Programming II  2 E230-01  2022年度\n 3rd year 2nd semester  修学規程第4条を参照\n    担当教員名\n DEMURA Kosei\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Robot programming 2.AI 3.Human support robot 4.ROS2 5.Python  (1) Learn the basic theory of AI robotics. (2) Learn the Robot Operating System 2(ROS2). (3) Learn how to develop software for robots, including wheeled robots, robotic arms, and legged robots.\n    授業の概要および学習上の助言   This is a unique course that provides instruction on the basics of AI robotics and robot programming from a global perspective. This course serves as a hub for theory and practice. To develop an intelligent robot, a large-scale program is needed. Thus, students will learn the ROS2 and Python language, which are used very often. Python is learned using a flipped classroom style. Students watch videos and take quizzes before class, and programming exercises are held in class. This class will cover the following topics: 1. Development environment and ROS installation 2. Python language 3. Wheeled robot 4. Speech recognition and synthesis 5. Robot vision 6. Robot arm 7. Programming exercises\n    教科書および参考書・リザーブドブック   Kosei Demura et al. \"An introduction of AI robot programming by ROS and Python,\" Kodansha, 2022 (in Japanese)\n    履修に必要な予備知識や技能   Programming skill\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① K Understand the theories presented in the textbooks and other class materials.   ② K Understand programs presented in the textbooks and other materials, and develop programs at the same level.   ③ K Develop simple robot programs.   ④     ⑤     ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 30 0 70 0 0 0 0 100     指標と評価割合 総合評価割合 30 0 70 0 0 0 0 100   総合力指標 知識を取り込む力 30 0 70 0 0 0 0 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ Students will take online tests to improve their level of understanding.   ②     ③     ④     ⑤     ⑥     クイズ\n小テスト ①      ②     ③     ④     ⑤     ⑥     レポート ①   Students will be evaluated on reports: 1. Wheeled robot (dead reckoning and localization) 2. Speech recognition and synthesis 3. Robot vision 4. Planning 5. Robotic arm (kinematics, inverse kinematics, and PID control)    ② レ   ③ レ   ④     ⑤     ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ①      ②     ③     ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     (1) Understand all basic theories of AI robotics. (2) Use your robotics knowledge to develop efficient programs on the simulator.  (1) Understand important basic theories in AI robotics. (2) Use your robotics knowledge to develop executable programs on the simulator.\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習課題に要する標準的な時間を記載してあります。日々の自学自習時間全体としては、各授業に応じた時間(例えば2単位科目の場合、予習2時間・復習2時間/週)を取るよう努めてください。詳しくは教員の指導に従って下さい。     授業明細   回数 学習内容 授業の運営方法 学習課題(予習・復習) 時間:分※     1  Course introduction Lecture and Q&A Review: Lecture content Preview: Install the development environment using reference materials  200   2  ROS2 introduction Lecture and practice Review: Finish the installation  200   3  ROS2 programming Lecture and practice Review: Content of class  200   4  Localization and Map Lecture and practice Review: Content of class  200   5  Navigation Lecture and practice Review: Content of class  200   6  Vision 1 Lecture and practice Review: content of class  200   7  Vision 2 Lecture and practice Review: Content of ",
+  "sourceYear": "2022",
+  "originalSourceIndex": 305,
+  "courseId": "2022:full-year:E922-11:0:9562",
+  "language": "en"
+}

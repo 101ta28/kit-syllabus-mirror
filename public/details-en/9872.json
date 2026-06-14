@@ -1,0 +1,294 @@
+{
+  "sourceIndex": 9872,
+  "sourceUrl": "/opsyllabus/kitos0110/615/1",
+  "importedAt": "2026-06-12T08:01:57.082Z",
+  "title": "先進プログラミング応用",
+  "subtitle": "Advanced Programming Applications",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "2",
+  "term": "2022年度\n 3rd year 2nd semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "SAITO Masashi",
+    "TOKUNAGA Yuichi"
+  ],
+  "keywords": [
+    "Data analysis 2.Machine learning 3.Agile development method 4.Data visualization 5.Python"
+  ],
+  "educationalGoal": "This course is designed to achieve the learning and education goal of the information design fundamentals in the Department of Management Information. Students take big data analysis as a realistic system and use Python to perform analysis such as data visualization, classification, identification, regression, prediction, and clustering. The goal is to acquire the basic skills of system development.",
+  "advice": "Participate in the data analysis competition platform \"Kaggle\", create highly accurate machine learning models, and aim to rank up through analysis of given data, algorithm selection, training data preprocessing and learning, and improving Python programming. By competing with data scientists around the world, students aim to acquire more practical advanced programming development capabilities. For the students who do not have sufficient knowledge to create machine learning models, it will be difficult to keep up with the lessons, so be careful when choosing this course.",
+  "books": "Instructions in class",
+  "requiredKnowledge": "Must have basic knowledge of Python programming. Moreover, should have the following knowledge: - Data analyzing knowledge to organize the data into appropriate tables or graphs and evaluate using representative values of distributions and correlation coefficients. - Machine learning knowledge to generate learning data by appropriately separating objective variables and explanatory variables.",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "J",
+      "body": "Be able to explain agile development method."
+    },
+    {
+      "index": "②",
+      "type": "J",
+      "body": "Be able to implement basic techniques for data analysis using Python."
+    },
+    {
+      "index": "③",
+      "type": "J",
+      "body": "Be able to access the time series database."
+    },
+    {
+      "index": "④",
+      "type": "D,J,O",
+      "body": "Be able to explain the developed system in an easy-to-understand manner."
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "0",
+        "0",
+        "30",
+        "60",
+        "0",
+        "0",
+        "10",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "0",
+        "0",
+        "30",
+        "60",
+        "0",
+        "0",
+        "10",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "0",
+        "0",
+        "30",
+        "60",
+        "0",
+        "0",
+        "10",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションと\nリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "Be able to evolve into learning algorithms with higher prediction accuracy through appropriate processing of data based on data analysis and trial and error of algorithms.",
+    "standard": "Be able to create a machine learning model from the data sets using Python."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Course introduction What is \"Kaggle\"",
+      "operation": "Lecture",
+      "assignments": "Review: research of Kaggle",
+      "minutes": "100"
+    },
+    {
+      "index": "2",
+      "content": "Data analysis procedure and construction of the environment Kaggle competition(1) : Titanics - Data analysis, visualization - Preprocessing, feature generation",
+      "operation": "Lecture and practice",
+      "assignments": "Preview: construction of data alalysis environment Review: self-practice",
+      "minutes": "300"
+    },
+    {
+      "index": "3",
+      "content": "Kaggle competition(1) : Titanics - Modeling - Submission of results - Analytical perspective other than accuracy",
+      "operation": "Lecture and practice",
+      "assignments": "Preview/Review: self-practice",
+      "minutes": "300"
+    },
+    {
+      "index": "4",
+      "content": "Kaggle competition(1) : Titanics - Modeling trial 1",
+      "operation": "Practicum",
+      "assignments": "Preview/Review: self-practice",
+      "minutes": "300"
+    },
+    {
+      "index": "6",
+      "content": "Kaggle competition(1) : Titanics - Modeling trial 3",
+      "operation": "Practicum",
+      "assignments": "Preview/Review: self-practice",
+      "minutes": "300"
+    },
+    {
+      "index": "7",
+      "content": "Kaggle competition(1) : Titanics - Presentation",
+      "operation": "Presentation",
+      "assignments": "Preparation of the presentatio n",
+      "minutes": "200"
+    },
+    {
+      "index": "8",
+      "content": "Kaggle competition(2) : Energy Predictor - Overview of the competition - Obtaining the dataset - Time-series database",
+      "operation": "Lecture and practice",
+      "assignments": "Preview: research of the compe tition Review: analysis of the compet ition data",
+      "minutes": "300"
+    },
+    {
+      "index": "9",
+      "content": "Kaggle competition(2) : Energy Predictor - Time-series data analysis",
+      "operation": "Lecture and practice",
+      "assignments": "Preview: practice accessing da ta from a time-series database Review: analysis of the compet ition data",
+      "minutes": "300"
+    },
+    {
+      "index": "10",
+      "content": "Kaggle competition(2) : Energy Predictor - Modeling trial 1",
+      "operation": "Practicum",
+      "assignments": "Preview/Review: self-practice",
+      "minutes": "300"
+    },
+    {
+      "index": "11",
+      "content": "Kaggle competition(2) : Energy Predictor - Modeling trial 2",
+      "operation": "Practicum",
+      "assignments": "Preview/Review: self-practice",
+      "minutes": "300"
+    },
+    {
+      "index": "12",
+      "content": "Kaggle competition(2) : Energy Predictor - Modeling trial 3",
+      "operation": "Practicum",
+      "assignments": "Preview/Review: self-practice",
+      "minutes": "300"
+    },
+    {
+      "index": "13",
+      "content": "Kaggle competition(2) : Energy Predictor - Modeling trial 4",
+      "operation": "Practicum",
+      "assignments": "Preview/Review: self-practice",
+      "minutes": "300"
+    },
+    {
+      "index": "14",
+      "content": "Kaggle competition(2) : Energy Predictor - Presentation",
+      "operation": "Presentation",
+      "assignments": "Preparation of the presentatio n",
+      "minutes": "200"
+    },
+    {
+      "index": "15",
+      "content": "Agile development method Course summary",
+      "operation": "Lecture, self-evaluation, questionnaire",
+      "assignments": "Review what you've learned through this cource",
+      "minutes": "100"
+    }
+  ],
+  "rawText": "金沢工業大学 学習支援計画書 F142-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Management Systems\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n先進プログラミング応用\nAdvanced Programming Applications  2 F142-01  2022年度\n 3rd year 2nd semester  修学規程第4条を参照\n    担当教員名\n SAITO Masashi, TOKUNAGA Yuichi\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Data analysis 2.Machine learning 3.Agile development method 4.Data visualization 5.Python  This course is designed to achieve the learning and education goal of the information design fundamentals in the Department of Management Information. Students take big data analysis as a realistic system and use Python to perform analysis such as data visualization, classification, identification, regression, prediction, and clustering. The goal is to acquire the basic skills of system development.\n    授業の概要および学習上の助言   Participate in the data analysis competition platform \"Kaggle\", create highly accurate machine learning models, and aim to rank up through analysis of given data, algorithm selection, training data preprocessing and learning, and improving Python programming. By competing with data scientists around the world, students aim to acquire more practical advanced programming development capabilities. For the students who do not have sufficient knowledge to create machine learning models, it will be difficult to keep up with the lessons, so be careful when choosing this course.\n    教科書および参考書・リザーブドブック   Instructions in class\n    履修に必要な予備知識や技能   Must have basic knowledge of Python programming. Moreover, should have the following knowledge: - Data analyzing knowledge to organize the data into appropriate tables or graphs and evaluate using representative values of distributions and correlation coefficients. - Machine learning knowledge to generate learning data by appropriately separating objective variables and explanatory variables.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① J Be able to explain agile development method.   ② J Be able to implement basic techniques for data analysis using Python.   ③ J Be able to access the time series database.   ④ D,J,O Be able to explain the developed system in an easy-to-understand manner.   ⑤     ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 0 0 30 60 0 0 10 100     指標と評価割合 総合評価割合 0 0 30 60 0 0 10 100   総合力指標 知識を取り込む力 0 0 30 60 0 0 10 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ①      ②     ③     ④     ⑤     ⑥     クイズ\n小テスト ①      ②     ③     ④     ⑤     ⑥     レポート ① レ Students will be evaluated for progress in each lesson through weekly reports on the competition efforts.    ② レ   ③ レ   ④ レ   ⑤     ⑥     成果発表\n(口頭・実技) ① レ Students will be evaluated for their overall achievement through the presentation of the results of the two competitions.   ② レ   ③ レ   ④ レ   ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ① レ Students will be evaluated on attendance and attitude in class.   ② レ   ③ レ   ④ レ   ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     Be able to evolve into learning algorithms with higher prediction accuracy through appropriate processing of data based on data analysis and trial and error of algorithms. Be able to create a machine learning model from the data sets using Python.\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習課題に要する標準的な時間を記載してあります。日々の自学自習時間全体としては、各授業に応じた時間(例えば2単位科目の場合、予習2時間・復習2時間/週)を取るよう努めてください。詳しくは教員の指導に従って下さい。     授業明細   回数 学習内容 授業の運営方法 学習課題(予習・復習) 時間:分※     1  Course introduction What is \"Kaggle\" Lecture Review: research of Kaggle  100   2  Data analysis procedu",
+  "sourceYear": "2022",
+  "originalSourceIndex": 615,
+  "courseId": "2022:spring:F111-01:0:9872",
+  "language": "en"
+}

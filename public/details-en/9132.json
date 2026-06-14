@@ -1,0 +1,300 @@
+{
+  "sourceIndex": 9132,
+  "sourceUrl": "/opsyllabus/kitos0110/770/1",
+  "importedAt": "2026-06-12T08:01:41.448Z",
+  "title": "医用工学",
+  "subtitle": "Medical Engineering",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "2",
+  "term": "2021年度\n 3rd year 2nd semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "KOJIMA Masami"
+  ],
+  "keywords": [
+    "Examine the inside of the body 2.Examining blood and cells 3.Measure motor function 4.Examine the brain 5.Optical measurement/biosensor"
+  ],
+  "educationalGoal": "Engineering plays an extremely important role in the medical field. Medical engineering is the application of engineering principles and design concepts to medicine and is indispensable for medical diagnosis and treatment. This course aims to help students understand how these principles are applied to diagnostic devices and treatment devices that are actually used in the medical field. Students also learn about safety measures for the human body in diagnosis and treatment.",
+  "advice": "The course will provide information which should enable the student to explain: 1. Historical views of medical engineering. 2. Cutting edge medical engineering equipment. 3. Bioelectric measurement (intracellular recording, extracellular recording, EEG, etc.). 4. Analog signal processing (current, voltage, resistance, AC, DC, passive circuit elements). 5. Operational amplifiers (negative resistive feedback, imaginary short). 6. Filter circuits and frequency response (low pass filter, high pass filter). 7. Electric shock and leakage (ground, earth). 8. Digital signal processing (transistors, binary logic, TTL). 9. Computer architecture and programming (information theory, units of information, assembly language). 10. Temporal and spatial resolution (analog-to-digital conversion, sampling frequency). 11. Medical imaging and nuclear medicine (computed tomography (CT), magnetic resonance imaging (MRI), positron emission tomography (PET), etc.). 12. Mechanisms of cancer and treatments (radiation therapy, chemotherapy, immunotherapy, etc.). 13. Separation and analysis of biological materials (high performance liquid chromatography). 14. Analysis of brain hormone using HPLC-ECD (biogenic amines, electrochemical detection). 15. Artificial intelligence in medicine (machine learning for medical diagnostics, robotic surgical systems).",
+  "books": "Textbooks:Unspecified Reference books:Unspecified Reserved books:Unspecified",
+  "requiredKnowledge": "The content of this lecture includes items for basic experiments in the second grade, so please review them. Preparing the basics of medical engineering It is also preferable.",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "I,J,M,N",
+      "body": "Explain how to look inside the body"
+    },
+    {
+      "index": "②",
+      "type": "I,J,M,N",
+      "body": "Explain the principle of medical engineering"
+    },
+    {
+      "index": "③",
+      "type": "I,J,M,N",
+      "body": "Explain the principle of measuring blood / cells as materials"
+    },
+    {
+      "index": "④",
+      "type": "I,J,M,N",
+      "body": "Explain the measurement principle of optical measurement and biosensor"
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "20",
+        "60",
+        "0",
+        "0",
+        "0",
+        "0",
+        "20",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "20",
+        "60",
+        "0",
+        "0",
+        "0",
+        "0",
+        "20",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "20",
+        "60",
+        "0",
+        "0",
+        "0",
+        "0",
+        "20",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションと\nリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "Principles of diagnostic equipment and analytical equipment used in medical practice. Explain in detail each medical device system. Also given produce appropriate solutions to the biometric information measurement system construction problem can be done.",
+    "standard": "Understand the principles of diagnostic equipment and analytical equipment used in the medical field, and each medical equipment system. Explain the outline of the required biometric information measurement processing system."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Orientation Explanation of the goals and outline of this lecture",
+      "operation": "Lecture and Discussion",
+      "assignments": "Review after each lesson",
+      "minutes": "200"
+    },
+    {
+      "index": "2",
+      "content": "Learn technology in the body (1)",
+      "operation": "Lecture and Discussion",
+      "assignments": "Review after each lesson",
+      "minutes": "200"
+    },
+    {
+      "index": "3",
+      "content": "Learn technology in the body (2)",
+      "operation": "Lecture and Q & A brief exam",
+      "assignments": "Exam about learning techniques in the body (No. 2 and No. 3)",
+      "minutes": "200"
+    },
+    {
+      "index": "4",
+      "content": "Examining blood and cells (Part 1)",
+      "operation": "Lecture and Discussion",
+      "assignments": "Review after each lesson",
+      "minutes": "200"
+    },
+    {
+      "index": "5",
+      "content": "Examining blood and cells (Part 2)",
+      "operation": "Lecture and Q & A brief exam",
+      "assignments": "Perform a brief exam on the technique of examining blood and cells (No. 1 and No. 2).",
+      "minutes": "200"
+    },
+    {
+      "index": "6",
+      "content": "Technology for diagnosing motor function (1)",
+      "operation": "Lecture and Discussion",
+      "assignments": "Review after each lesson",
+      "minutes": "200"
+    },
+    {
+      "index": "7",
+      "content": "Technology for diagnosing motor function (1)",
+      "operation": "Lecture and Discussion",
+      "assignments": "Exam about learning techniques in the body (No. 1 and No. 2)",
+      "minutes": "200"
+    },
+    {
+      "index": "8",
+      "content": "Principle of technology for examining the brain (Part 1)",
+      "operation": "Lecture and Discussion",
+      "assignments": "Review after each lesson",
+      "minutes": "200"
+    },
+    {
+      "index": "9",
+      "content": "Principle of technology for examining the brain (Part 1)",
+      "operation": "Lecture and Discussion",
+      "assignments": "Exam about learning techniques in the body (No. 1 and No. 2)",
+      "minutes": "200"
+    },
+    {
+      "index": "10",
+      "content": "Optical technology applied to medical measurement (1)",
+      "operation": "Lecture and Discussion",
+      "assignments": "Review after each lesson",
+      "minutes": "200"
+    },
+    {
+      "index": "11",
+      "content": "Biosensor Principle and Configuration (Part 1)",
+      "operation": "Lecture and Discussion",
+      "assignments": "Review after each lesson",
+      "minutes": "200"
+    },
+    {
+      "index": "12",
+      "content": "Biosensor Principle and Configuration (Part 2)",
+      "operation": "Lecture and Discussion",
+      "assignments": "Exam about learning techniques in the body (No. 1 and No. 2)",
+      "minutes": "200"
+    },
+    {
+      "index": "13",
+      "content": "Brain hormones and illness",
+      "operation": "Lecture and Discussion",
+      "assignments": "Review after each lesson",
+      "minutes": "200"
+    },
+    {
+      "index": "14",
+      "content": "Presentation exam",
+      "operation": "Confirm achievement and test presentation ability",
+      "assignments": "After the presentation exam total review of the lesson",
+      "minutes": "200"
+    },
+    {
+      "index": "15",
+      "content": "Presentation exam, disucussion about the future of medical measurement technology, Individual interview",
+      "operation": "Lecture and Q & A Class questionnaire",
+      "assignments": "Class questionnaire and general review of this class",
+      "minutes": "200"
+    }
+  ],
+  "rawText": "金沢工業大学 学習支援計画書 B125-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Applied Bioscience\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n医用工学\nMedical Engineering  2 B125-01  2021年度\n 3rd year 2nd semester  修学規程第4条を参照\n    担当教員名\n KOJIMA Masami\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Examine the inside of the body 2.Examining blood and cells 3.Measure motor function 4.Examine the brain 5.Optical measurement/biosensor  Engineering plays an extremely important role in the medical field. Medical engineering is the application of engineering principles and design concepts to medicine and is indispensable for medical diagnosis and treatment. This course aims to help students understand how these principles are applied to diagnostic devices and treatment devices that are actually used in the medical field. Students also learn about safety measures for the human body in diagnosis and treatment.\n    授業の概要および学習上の助言   The course will provide information which should enable the student to explain: 1. Historical views of medical engineering. 2. Cutting edge medical engineering equipment. 3. Bioelectric measurement (intracellular recording, extracellular recording, EEG, etc.). 4. Analog signal processing (current, voltage, resistance, AC, DC, passive circuit elements). 5. Operational amplifiers (negative resistive feedback, imaginary short). 6. Filter circuits and frequency response (low pass filter, high pass filter). 7. Electric shock and leakage (ground, earth). 8. Digital signal processing (transistors, binary logic, TTL). 9. Computer architecture and programming (information theory, units of information, assembly language). 10. Temporal and spatial resolution (analog-to-digital conversion, sampling frequency). 11. Medical imaging and nuclear medicine (computed tomography (CT), magnetic resonance imaging (MRI), positron emission tomography (PET), etc.). 12. Mechanisms of cancer and treatments (radiation therapy, chemotherapy, immunotherapy, etc.). 13. Separation and analysis of biological materials (high performance liquid chromatography). 14. Analysis of brain hormone using HPLC-ECD (biogenic amines, electrochemical detection). 15. Artificial intelligence in medicine (machine learning for medical diagnostics, robotic surgical systems).\n    教科書および参考書・リザーブドブック   Textbooks:Unspecified Reference books:Unspecified Reserved books:Unspecified\n    履修に必要な予備知識や技能   The content of this lecture includes items for basic experiments in the second grade, so please review them. Preparing the basics of medical engineering It is also preferable.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① I,J,M,N Explain how to look inside the body   ② I,J,M,N Explain the principle of medical engineering   ③ I,J,M,N Explain the principle of measuring blood / cells as materials   ④ I,J,M,N Explain the measurement principle of optical measurement and biosensor   ⑤     ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 20 60 0 0 0 0 20 100     指標と評価割合 総合評価割合 20 60 0 0 0 0 20 100   総合力指標 知識を取り込む力 20 60 0 0 0 0 20 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ An achievement confirmation test is conducted to determine whether or not the knowledge and application skills to be acquired are sufficiently acquired.   ② レ   ③ レ   ④ レ   ⑤     ⑥     クイズ\n小テスト ① レ Take an exam to determine if you have the knowledge you need to acquire.   ② レ   ③ レ   ④ レ   ⑤     ⑥     レポート ①      ②     ③     ④     ⑤     ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ① レ As a learning attitude, consider the response to questions during the lesson, the attitude toward the lesson, and the attendance status.   ② レ   ③ レ   ④ レ   ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達",
+  "sourceYear": "2021",
+  "originalSourceIndex": 770,
+  "courseId": "2021:fall:B009-01:0:9132",
+  "language": "en"
+}

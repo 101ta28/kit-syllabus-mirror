@@ -1,0 +1,305 @@
+{
+  "sourceIndex": 12348,
+  "sourceUrl": "/opsyllabus/kitos0110/265/1",
+  "importedAt": "2026-06-12T08:02:49.086Z",
+  "title": "ロボティクス統合演習",
+  "subtitle": "Robotics Integrated Exercise",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "2",
+  "term": "2025年度\n 4th year 1st semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "FUJITA Masayuki"
+  ],
+  "keywords": [
+    "Pendulum and Dynamical Systems 2.Inverted Pendulum and Modern Control 3.Inverted Pendulum and Machine Learning"
+  ],
+  "educationalGoal": "With the development of AI, the realization of motion intelligence in robotics has become important. In this course, students learn physical body movements in the real world comprehensively through mathematical pendulum models. First, students learn to analyze a pendulum as a dynamical system. Next, students learn to stabilize an inverted pendulum by modern control based on the model. Then, students learn to control the inverted pendulum based on data-driven machine learning. MATLAB/Python is used in this course.",
+  "advice": "The student should have an understanding of the fundamentals of linear algebra, analysis and dynamics. It is also necessary to understand the fundamentals of system control (control engineering). For preparation, the lecture material will be presented before the class, so students should check the necessary information in advance. For review, students are expected to solve the exercise reports given in the class by themselves and clarify any unclear points by the next class.",
+  "books": "",
+  "requiredKnowledge": "No specific prerequisites",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "L,J,O",
+      "body": "Pendulum can be analyzed as a dynamical system"
+    },
+    {
+      "index": "②",
+      "type": "L,J,O",
+      "body": "Inverted pendulum can be stabilized by modern control"
+    },
+    {
+      "index": "③",
+      "type": "L,J,O",
+      "body": "Inverted pendulum can be controlled based on machine learning"
+    },
+    {
+      "index": "④",
+      "type": "L,J,O",
+      "body": "Solve problems by understanding the nature of the problem and integrating the knowledge and skills"
+    },
+    {
+      "index": "⑤",
+      "type": "L,J,O",
+      "body": "Organize and perform tasks systematically under given constraints"
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "0",
+        "0",
+        "60",
+        "0",
+        "0",
+        "0",
+        "40",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "0",
+        "0",
+        "60",
+        "0",
+        "0",
+        "0",
+        "40",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "0",
+        "0",
+        "60",
+        "0",
+        "0",
+        "0",
+        "40",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションと\nリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "Mathematical understanding of the analysis of a pendulum as a dynamical system, stabilization of an inverted pendulum by modern control, and machine learning based control of an inverted pendulum, and the ability to implement them using MATLAB/Python.",
+    "standard": "Analyze a pendulum as a dynamical system, stabilize an inverted pendulum by modern control, and control an inverted pendulum based on machine learning using MATLAB/Python."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Course Guidance Course Objectives and Motivation",
+      "operation": "Lectures and Exercises",
+      "assignments": "Preparation : Fundamentals of Robotics and Systems & Control Review: Comprehension of the L ecture Materials",
+      "minutes": "90"
+    },
+    {
+      "index": "2",
+      "content": "Comprehensive Learning A (Pendulum and Dynamical Systems) Pendulum, State and State equation, State space",
+      "operation": "Lectures and Exercises",
+      "assignments": "Preparation: Reading through t he Lecture Materials Review: Comprehension of the L ecture Materials",
+      "minutes": "90"
+    },
+    {
+      "index": "3",
+      "content": "Comprehensive Learning A (Pendulum and Dynamical Systems) State space, Equilibrium, Trajectory",
+      "operation": "Lectures and Exercises",
+      "assignments": "Preparation: Reading through t he Lecture Materials Review: Comprehension of the L ecture Materials",
+      "minutes": "90"
+    },
+    {
+      "index": "4",
+      "content": "Comprehensive Learning A (Pendulum and Dynamical Systems) Linearization",
+      "operation": "Lectures and Exercises",
+      "assignments": "Preparation: Reading through t he Lecture Materials Review: Comprehension of the L ecture Materials",
+      "minutes": "90"
+    },
+    {
+      "index": "5",
+      "content": "Comprehensive Learning A (Pendulum and Dynamical Systems) Mode, Stability",
+      "operation": "Lectures and Exercises",
+      "assignments": "Preparation: Reading through t he Lecture Materials Review: Comprehension of the L ecture Materials",
+      "minutes": "90"
+    },
+    {
+      "index": "6",
+      "content": "Comprehensive Learning B (Inverted Pendulum and Modern Control) Equation of Motion",
+      "operation": "Lectures and Exercises",
+      "assignments": "Preparation: Reading through t he Lecture Materials Review: Comprehension of the L ecture Materials",
+      "minutes": "90"
+    },
+    {
+      "index": "7",
+      "content": "Comprehensive Learning B (Inverted Pendulum and Modern Control) Feedback Control",
+      "operation": "Lectures and Exercises",
+      "assignments": "Preparation: Reading through t he Lecture Materials Review: Comprehension of the L ecture Materials",
+      "minutes": "90"
+    },
+    {
+      "index": "8",
+      "content": "Comprehensive Learning B (Inverted Pendulum and Modern Control) State Equation",
+      "operation": "Lectures and Exercises",
+      "assignments": "Preparation: Reading through t he Lecture Materials Review: Comprehension of the L ecture Materials",
+      "minutes": "90"
+    },
+    {
+      "index": "9",
+      "content": "Comprehensive Learning B (Inverted Pendulum and Modern Control) Controllability",
+      "operation": "Lectures and Exercises",
+      "assignments": "Preparation: Reading through t he Lecture Materials Review: Comprehension of the L ecture Materials",
+      "minutes": "90"
+    },
+    {
+      "index": "10",
+      "content": "Comprehensive Learning B (Inverted Pendulum and Modern Control) State Feedback Control",
+      "operation": "Lectures and Exercises",
+      "assignments": "Preparation: Reading through t he Lecture Materials Review: Comprehension of the L ecture Materials",
+      "minutes": "90"
+    },
+    {
+      "index": "11",
+      "content": "Comprehensive Learning B (Inverted Pendulum and Modern Control) State Feedback Control",
+      "operation": "Lectures and Exercises",
+      "assignments": "Preparation: Reading through t he Lecture Materials Review: Comprehension of the L ecture Materials",
+      "minutes": "90"
+    },
+    {
+      "index": "12",
+      "content": "Comprehensive Learning C (Inverted Pendulum and Machine Learning) Reinforcement Learning, Markov Decision Process, Q-Learning",
+      "operation": "Lectures and Exercises",
+      "assignments": "Preparation: Reading through t he Lecture Materials Review: Comprehension of the L ecture Materials",
+      "minutes": "90"
+    },
+    {
+      "index": "13",
+      "content": "Comprehensive Learning C (Inverted Pendulum and Machine Learning) Deep Learning",
+      "operation": "Lectures and Exercises",
+      "assignments": "Preparation: Reading through t he Lecture Materials Review: Comprehension of the L ecture Materials",
+      "minutes": "90"
+    },
+    {
+      "index": "14",
+      "content": "Comprehensive Learning C (Inverted Pendulum and Machine Learning) Deep Reinforcement Learning",
+      "operation": "Lectures and Exercises",
+      "assignments": "Preparation: Reading through t he Lecture Materials Review: Comprehension of the L ecture Materials",
+      "minutes": "90"
+    },
+    {
+      "index": "15",
+      "content": "Summary Self-evaluation Reflection on what you have learned",
+      "operation": "Lectures and Exercises Summary",
+      "assignments": "Preparation: Reading through t he Lecture Materials Review: Comprehension of the L ecture Materials Reflection on what you have le arned",
+      "minutes": "60"
+    }
+  ],
+  "rawText": "金沢工業大学 学習支援計画書 E237-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Robotics(〜2024)\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\nロボティクス統合演習\nRobotics Integrated Exercise  2 E237-01  2025年度\n 4th year 1st semester  修学規程第4条を参照\n    担当教員名\n FUJITA Masayuki\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Pendulum and Dynamical Systems 2.Inverted Pendulum and Modern Control 3.Inverted Pendulum and Machine Learning  With the development of AI, the realization of motion intelligence in robotics has become important. In this course, students learn physical body movements in the real world comprehensively through mathematical pendulum models. First, students learn to analyze a pendulum as a dynamical system. Next, students learn to stabilize an inverted pendulum by modern control based on the model. Then, students learn to control the inverted pendulum based on data-driven machine learning. MATLAB/Python is used in this course.\n    授業の概要および学習上の助言   The student should have an understanding of the fundamentals of linear algebra, analysis and dynamics. It is also necessary to understand the fundamentals of system control (control engineering). For preparation, the lecture material will be presented before the class, so students should check the necessary information in advance. For review, students are expected to solve the exercise reports given in the class by themselves and clarify any unclear points by the next class.\n    教科書および参考書・リザーブドブック\n    履修に必要な予備知識や技能   No specific prerequisites\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① L,J,O Pendulum can be analyzed as a dynamical system   ② L,J,O Inverted pendulum can be stabilized by modern control   ③ L,J,O Inverted pendulum can be controlled based on machine learning   ④ L,J,O Solve problems by understanding the nature of the problem and integrating the knowledge and skills    ⑤ L,J,O Organize and perform tasks systematically under given constraints   ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 0 0 60 0 0 0 40 100     指標と評価割合 総合評価割合 0 0 60 0 0 0 40 100   総合力指標 知識を取り込む力 0 0 60 0 0 0 40 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ①      ②     ③     ④     ⑤     ⑥     クイズ\n小テスト ①      ②     ③     ④     ⑤     ⑥     レポート ① レ Summarize the answers and solutions to the problems and write a report on them.    ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ① レ Evaluate the student's attitude and willingness to learn.    ② レ   ③ レ   ④ レ   ⑤ レ   ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     Mathematical understanding of the analysis of a pendulum as a dynamical system, stabilization of an inverted pendulum by modern control, and machine learning based control of an inverted pendulum, and the ability to implement them using MATLAB/Python. Analyze a pendulum as a dynamical system, stabilize an inverted pendulum by modern control, and control an inverted pendulum based on machine learning using MATLAB/Python.\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習課題に要する標準的な時間を記載してあります。日々の自学自習時間全体としては、各授業に応じた時間(例えば2単位科目の場合、予習2時間・復習2時間/週)を取るよう努めてください。詳しくは教員の指導に従って下さい。     授業明細   回数 学習内容 授業の運営方法 学習課題(予習・復習) 時間:分※     1  Course Guidance Course Objectives and Motivation Lectures and Exercises Preparation : Fundamentals of Robotics and Systems & Control Review: Comprehension of the L ecture Materials  90   2  Comprehensive Learning A (Pendulum and Dynamical Systems) Pendulum, State and State equation, State space Lectures and Exercises Preparation: Reading through ",
+  "sourceYear": "2025",
+  "originalSourceIndex": 265,
+  "courseId": "2025:spring:E233-01:0:12348",
+  "language": "en"
+}

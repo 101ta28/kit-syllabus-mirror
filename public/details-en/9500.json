@@ -1,0 +1,415 @@
+{
+  "sourceIndex": 9500,
+  "sourceUrl": "/opsyllabus/kitos0110/243/1",
+  "importedAt": "2026-06-12T08:01:53.975Z",
+  "title": "航空構造設計(再履修クラス)",
+  "subtitle": "Aircraft Structure Design",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "4",
+  "term": "2022年度\n 3rd year 2nd semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "YOSHIDA Keishiro"
+  ],
+  "keywords": [
+    "Stress and strain 2.Torsion, bending, and tension 3.Buckling 4.Stiffened plate 5.Composite material"
+  ],
+  "educationalGoal": "Students will learn (1) relationship between stress and strain of 3D elastic body (2) slender bar under torsional, bending, and tensile load (3) buckling of long column and thin flat plate (4) the concept of effective width flat plate with stiffeners (5) mechanics of composite laminate",
+  "advice": "On the basis of knowledge learned in subjects such as ‘Mechanics of Materials’ and ‘Mechanics of Aircraft Structure’, student will learn the advanced mechanics for aircraft structural design. We will cover the following materials: (1) Relationship between stress and strain of 3D elastic body (2) Stress of bar under combination of torsional, bending, and tensile load (3) Stress of short column under eccentric compression load (4) Buckling of long column and flat plate (5) Buckling and effective width of plate with stiffeners (6) Mechanics of composite laminate Students should thoroughly review what they have learned in ‘Mechanics of Materials’ and ‘Mechanics of Aircraft Structure’ before taking this course.",
+  "books": "Basis of Understanding Strength of Materials -Second Edition, Kyoritsu Syuppan, 2013",
+  "requiredKnowledge": "Basic knowledge of Mechanics of Materials and Mechanics of Aircraft Structure",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "D,J,M",
+      "body": "Be able to express the relationship between stresses and strains of 3D elastic body"
+    },
+    {
+      "index": "②",
+      "type": "D,J,M",
+      "body": "Be able to calculate the maximum principal stress of the bar under both torsional and tensile loads"
+    },
+    {
+      "index": "③",
+      "type": "D,J,M",
+      "body": "Be able to calculate the core of section of a short column under eccentric compression load"
+    },
+    {
+      "index": "④",
+      "type": "D,J,M",
+      "body": "Be able to calculate the buckling load of long column and plat plate"
+    },
+    {
+      "index": "⑤",
+      "type": "D,J,M",
+      "body": "Be able to understand the concept of effective width and calculate the effective width of plate with stiffener"
+    },
+    {
+      "index": "⑥",
+      "type": "D,J,M",
+      "body": "Be able to calculate the stiffness matrix of composite laminates and explain the mechanical behavior"
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "40",
+        "50",
+        "0",
+        "0",
+        "0",
+        "0",
+        "10",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "40",
+        "50",
+        "0",
+        "0",
+        "0",
+        "0",
+        "10",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "40",
+        "50",
+        "0",
+        "0",
+        "0",
+        "0",
+        "10",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションと\nリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "1) Accurately express the relationship between stresses and strains of 3D elastic body 2) Accurately calculate the maximum principal stress of the bar under both torsional and tensile loads 3) Calculate the core of section of a short column under eccentric compression load 4) Calculate the buckling load of a flat plate under various constraint conditions 5) Accurately calculate the effective width of plate with stiffeners 6) Accurately calculate the stiffness matrix of composite laminate",
+    "standard": "1) Express the relationship between stresses and strains of 3D elastic body 2) Calculate the maximum principal stress of the bar under both torsional and tensile loads 3) Calculate the normal stress of a short column under eccentric compression load 4) Calculate the buckling load of a flat plate simply supported at all edges 5) Explain the concept of effective width 6) Calculate the stiffness matrix of composite laminate"
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Course introduction 1 Relationship between stress and strain (1)",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Review class content",
+      "minutes": "40"
+    },
+    {
+      "index": "2",
+      "content": "1 Relationship between stress and strain (2)",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Review class content Read text book 5.3.1 and 5.3.2",
+      "minutes": "20 40"
+    },
+    {
+      "index": "3",
+      "content": "1 Relationship between stress and strain (3)",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Review class content Read text book 5.3.3",
+      "minutes": "20 40"
+    },
+    {
+      "index": "4",
+      "content": "2 Stress of bar under combination of torsional, bending, and tensile load (1)",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Review class content Read text book 5.4 (to example 5.14)",
+      "minutes": "20 40"
+    },
+    {
+      "index": "5",
+      "content": "2 Stress of bar under combination of torsional, bending, and tensile load (2)",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Review class content Read text book 5.4",
+      "minutes": "20 40"
+    },
+    {
+      "index": "6",
+      "content": "Integrated learning for class number 1 to 5",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Review class content",
+      "minutes": "40"
+    },
+    {
+      "index": "7",
+      "content": "Self-reflection (class) [1st test]",
+      "operation": "Lecture and test Self-check",
+      "assignments": "Prepare for test",
+      "minutes": "60"
+    },
+    {
+      "index": "8",
+      "content": "3 Stress of short column under eccentric compression load (1)",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Review class content Read text book 6.1.1",
+      "minutes": "20 40"
+    },
+    {
+      "index": "9",
+      "content": "3 Stress of short column under eccentric compression load (2)",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Review class content Read text book 6.1.2 (to example 6.3)",
+      "minutes": "20 40"
+    },
+    {
+      "index": "10",
+      "content": "3 Stress of short column under eccentric compression load (3)",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Review class content Read text book 6.1.2",
+      "minutes": "20 40"
+    },
+    {
+      "index": "11",
+      "content": "4 Buckling of long column under compression load (1)",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Review class content Read text book 6.2.1 -6.2.4",
+      "minutes": "20 40"
+    },
+    {
+      "index": "12",
+      "content": "4 Buckling of long column under compression load (2)",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Review class content Read text book 6.2.5, 6.2.6",
+      "minutes": "20 40"
+    },
+    {
+      "index": "13",
+      "content": "Integrated learning for class number 8 to 12",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Review class content",
+      "minutes": "40"
+    },
+    {
+      "index": "14",
+      "content": "Self-reflection (class) [2nd test]",
+      "operation": "Lecture and test Self-check",
+      "assignments": "Prepare for test",
+      "minutes": "60"
+    },
+    {
+      "index": "15",
+      "content": "Integrated learning Self-evaluation",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Self-evaluation on achievement in first half of the course",
+      "minutes": "40"
+    },
+    {
+      "index": "16",
+      "content": "Buckling of thin flat plate (1)",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Review class content Read handout ‘Buckling of plate’",
+      "minutes": "20 40"
+    },
+    {
+      "index": "17",
+      "content": "Buckling of thin flat plate (2)",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Review class content Read handout ‘Buckling of plate’",
+      "minutes": "20 40"
+    },
+    {
+      "index": "18",
+      "content": "Buckling of thin flat plate (3)",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Review class content Read handout ‘Buckling of plate’",
+      "minutes": "20 40"
+    },
+    {
+      "index": "19",
+      "content": "Buckling of plate with stiffeners and effective width (1)",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Review class content Read handout ‘Effective width’",
+      "minutes": "20 40"
+    },
+    {
+      "index": "20",
+      "content": "Buckling of plate with stiffeners and effective width (2)",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Review class content Read handout ‘Effective width’",
+      "minutes": "20 40"
+    },
+    {
+      "index": "21",
+      "content": "Integrated learning",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Review class content",
+      "minutes": "40"
+    },
+    {
+      "index": "22",
+      "content": "Self-reflection (class) [3rd test]",
+      "operation": "Lecture and test Self-check",
+      "assignments": "Prepare for test",
+      "minutes": "60"
+    },
+    {
+      "index": "23",
+      "content": "Mechanics of composite lamina (1)",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Review class content Read handout ‘Mechanics of composite material’",
+      "minutes": "20 40"
+    },
+    {
+      "index": "24",
+      "content": "Mechanics of composite lamina (2)",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Review class content Read handout ‘Mechanics of composite material’",
+      "minutes": "20 40"
+    },
+    {
+      "index": "25",
+      "content": "Mechanics of composite laminate (1)",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Review class content Read handout ‘Mechanics of composite material’",
+      "minutes": "20 40"
+    },
+    {
+      "index": "26",
+      "content": "Mechanics of composite laminate (2)",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Review class content Read handout ‘Mechanics of composite material’",
+      "minutes": "20 40"
+    },
+    {
+      "index": "27",
+      "content": "Mechanics of composite laminate (3)",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Review class content Read handout ‘Mechanics of composite material’",
+      "minutes": "20 40"
+    },
+    {
+      "index": "28",
+      "content": "Integrated learning",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Review class content",
+      "minutes": "40"
+    },
+    {
+      "index": "29",
+      "content": "Self-reflection (class) [4th test]",
+      "operation": "Lecture and test Self-check",
+      "assignments": "Prepare for test",
+      "minutes": "60"
+    },
+    {
+      "index": "30",
+      "content": "Integrated learning Self-evaluation",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Self-evaluation on achievement in this subject.",
+      "minutes": "20 40"
+    }
+  ],
+  "rawText": "金沢工業大学 学習支援計画書 E124-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Aeronautics\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n航空構造設計(再履修クラス)\nAircraft Structure Design  4 E124-01  2022年度\n 3rd year 2nd semester  修学規程第4条を参照\n    担当教員名\n YOSHIDA Keishiro\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Stress and strain 2.Torsion, bending, and tension 3.Buckling 4.Stiffened plate 5.Composite material  Students will learn (1) relationship between stress and strain of 3D elastic body (2) slender bar under torsional, bending, and tensile load (3) buckling of long column and thin flat plate (4) the concept of effective width flat plate with stiffeners (5) mechanics of composite laminate\n    授業の概要および学習上の助言   On the basis of knowledge learned in subjects such as ‘Mechanics of Materials’ and ‘Mechanics of Aircraft Structure’, student will learn the advanced mechanics for aircraft structural design. We will cover the following materials: (1) Relationship between stress and strain of 3D elastic body (2) Stress of bar under combination of torsional, bending, and tensile load (3) Stress of short column under eccentric compression load (4) Buckling of long column and flat plate (5) Buckling and effective width of plate with stiffeners (6) Mechanics of composite laminate Students should thoroughly review what they have learned in ‘Mechanics of Materials’ and ‘Mechanics of Aircraft Structure’ before taking this course.\n    教科書および参考書・リザーブドブック   Basis of Understanding Strength of Materials -Second Edition, Kyoritsu Syuppan, 2013\n    履修に必要な予備知識や技能   Basic knowledge of Mechanics of Materials and Mechanics of Aircraft Structure\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① D,J,M Be able to express the relationship between stresses and strains of 3D elastic body   ② D,J,M Be able to calculate the maximum principal stress of the bar under both torsional and tensile loads   ③ D,J,M Be able to calculate the core of section of a short column under eccentric compression load   ④ D,J,M Be able to calculate the buckling load of long column and plat plate   ⑤ D,J,M Be able to understand the concept of effective width and calculate the effective width of plate with stiffener   ⑥ D,J,M Be able to calculate the stiffness matrix of composite laminates and explain the mechanical behavior\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 40 50 0 0 0 0 10 100     指標と評価割合 総合評価割合 40 50 0 0 0 0 10 100   総合力指標 知識を取り込む力 40 50 0 0 0 0 10 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ Students will be evaluated on their achievement in tests. Student will have four tests.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥ レ   クイズ\n小テスト ① レ Students will be evaluated on their achievement on mini tests. Students will have ten mini tests during the semester.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥ レ   レポート ①      ②     ③     ④     ⑤     ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ① レ Students’ participation in class discussion will be evaluated. Class absences may be evaluated negatively.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥ レ\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     1) Accurately express the relationship between stresses and strains of 3D elastic body 2) Accurately calculate the maximum principal stress of the bar under both torsional and tensile loads 3) Calculate the core of section of a short column under eccentric compression load 4) Calculate the buckling load of a flat plate under various constraint conditions 5) Accurately calculate the effective width of plate with stiffeners 6) Accurately calculate the stiffness matrix of composite laminate 1) Express the relationship between stresses and strains of 3D elastic body 2) Calculate the maximum principal stress of the bar under",
+  "sourceYear": "2022",
+  "originalSourceIndex": 243,
+  "courseId": "2022:full-year:E921-19:0:9500",
+  "language": "en"
+}

@@ -1,0 +1,305 @@
+{
+  "sourceIndex": 12615,
+  "sourceUrl": "/opsyllabus/kitos0110/532/1",
+  "importedAt": "2026-06-12T08:02:50.758Z",
+  "title": "ビジネスアナリティックス",
+  "subtitle": "Data Analytics for Business",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "2",
+  "term": "2025年度\n 3rd year 1st semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "TAKECHI Shoji"
+  ],
+  "keywords": [
+    "Regression analysis 2.Clustering analysis 3.Decision tree analysis 4.KNIME 5.Python"
+  ],
+  "educationalGoal": "This course provides the principles and practices of basic methods of data science. Students learn data aggregation, regression analysis, cluster analysis, decision tree analysis, and artificial neural networks, which are the basis of recent deep learning. Students also learn two types of data science tools: KNIME and Python with visual operations.",
+  "advice": "In recent years, mathematics, AI, and data science have attracted a great deal of attention of various fields. This course is especially designed for the students who have learned basic statistics. Students learn data aggregation, which is a first-step method of data science, and then learn typical data science techniques such as regression analysis, cluster analysis, decision tree analysis, artificial neural networks. This course provides both classroom lectures and hands-on analysis exercises with KNIME and Python that are useful and use freeware tools for data analysis. Students learn theories, analytical skills, and some examples of business intelligence, which is considered to be the use of data in actual business. The instructor expect students to acquire the ability of data analysis trough this class to develop business in the future.",
+  "books": "Textbooks: Data Sceience nyuumon, Asakura Shoten (ISBN-9784254129113) (in Japanese language) Reference books: None Reserved books: None",
+  "requiredKnowledge": "Students are required to bring their own laptop computer to each class. The laptop PC needs to be able to install KNIME and Python with connecting to the Internet. Students are expected to understand basics of statistics and Python programming, so the instructor strongly recommend to take three courses, \"Statistics I\", \"Statistics II\", and \"Algorithms and Data Structures\" before taking this course.",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "D,J",
+      "body": "Be able to calculate basic statistics such as mean value for given data"
+    },
+    {
+      "index": "②",
+      "type": "D,J",
+      "body": "Be able to apply a method of multiple regression analysis for given data"
+    },
+    {
+      "index": "③",
+      "type": "D,J",
+      "body": "Be able to apply a method of cluster analysis for given data"
+    },
+    {
+      "index": "④",
+      "type": "D,J",
+      "body": "Be able to apply a method of decision tree analysis for given data"
+    },
+    {
+      "index": "⑤",
+      "type": "D,G,L,N",
+      "body": "Be able to apply an appropriate analytical method of to make predictions and classifications for given data"
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "0",
+        "0",
+        "90",
+        "0",
+        "0",
+        "0",
+        "10",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "0",
+        "0",
+        "90",
+        "0",
+        "0",
+        "0",
+        "10",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "0",
+        "0",
+        "90",
+        "0",
+        "0",
+        "0",
+        "10",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションと\nリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "1) Calculate basic statistics for various numerical data, visualize them, and explain their characteristics. 2) Apply major analytical methods such as multiple regression analysis, decision tree analysis, and cluster analysis to a variety of numerical data, and ten explain the results of them appropriately.",
+    "standard": "1) Calculate basic statistics for given numerical data and explain their characteristics. 2) Apply major analytical methods such as multiple regression analysis, decision tree analysis, and cluster analysis to a variety of numerical data."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Oritentation - What is data science? (textbook chap.1) - Installations of KNIME and Anaconda",
+      "operation": "Lecture",
+      "assignments": "Review of textbook Installations of KNIME and Anaconda",
+      "minutes": "60 120"
+    },
+    {
+      "index": "2",
+      "content": "Basic operations of KNIME",
+      "operation": "Lecture & Exercise",
+      "assignments": "Report assignment instructed in the class",
+      "minutes": "300"
+    },
+    {
+      "index": "3",
+      "content": "Linear regression analysis",
+      "operation": "Lecture & Exercise",
+      "assignments": "Review of hands-on materials Report assignment instructed in the class",
+      "minutes": "180 180"
+    },
+    {
+      "index": "4",
+      "content": "Logistic regression analysis",
+      "operation": "Lecture & Exercise",
+      "assignments": "Review of hands-on materials Report assignment instructed in the class",
+      "minutes": "120 180"
+    },
+    {
+      "index": "5",
+      "content": "Cluster analysis",
+      "operation": "Lecture & Exercise",
+      "assignments": "Review of hands-on materials Report assignment instructed in the class",
+      "minutes": "120 180"
+    },
+    {
+      "index": "6",
+      "content": "Decision tree analysis",
+      "operation": "Lecture & Exercise",
+      "assignments": "Review of hands-on materials Report assignment instructed in the class",
+      "minutes": "120 180"
+    },
+    {
+      "index": "7",
+      "content": "Artificial neural network",
+      "operation": "Lecture & Exercise",
+      "assignments": "Review of hands-on materials Report assignment instructed in the class",
+      "minutes": "180 180"
+    },
+    {
+      "index": "8",
+      "content": "Integrated exercise",
+      "operation": "Exercise, interactive activities, and self-reflection",
+      "assignments": "Report assignment instructed in the class",
+      "minutes": "360"
+    },
+    {
+      "index": "9",
+      "content": "Reintroduction of Python",
+      "operation": "Lecture & Exercise",
+      "assignments": "Review of hands-on materials Report assignment instructed in the class",
+      "minutes": "120 180"
+    },
+    {
+      "index": "10",
+      "content": "Data summarization and aggregation (textbook chap.2)",
+      "operation": "Lecture & Exercise",
+      "assignments": "Review of textbook Report assignment instructed in the class",
+      "minutes": "120 180"
+    },
+    {
+      "index": "11",
+      "content": "Relationships among data (textbook chap.3)",
+      "operation": "Lecture & Exercise",
+      "assignments": "Review of textbook Report assignment instructed in the class",
+      "minutes": "120 180"
+    },
+    {
+      "index": "12",
+      "content": "Basics of time series analysis (textbook chap.4)",
+      "operation": "Lecture & Exercise",
+      "assignments": "Review of textbook Report assignment instructed in the class",
+      "minutes": "120 180"
+    },
+    {
+      "index": "13",
+      "content": "Regression analysis (textbook chap.5)",
+      "operation": "Lecture & Exercise",
+      "assignments": "Review of textbook Report assignment instructed in the class",
+      "minutes": "120 180"
+    },
+    {
+      "index": "14",
+      "content": "Cluster analysis (textbook chap.6)",
+      "operation": "Lecture & Exercise",
+      "assignments": "Review of textbook Report assignment instructed in the class",
+      "minutes": "120 180"
+    },
+    {
+      "index": "15",
+      "content": "Final review Self-evaluation",
+      "operation": "Lecture, interactive activities, and self-reflection",
+      "assignments": "Review of all materials including textbook",
+      "minutes": "120"
+    }
+  ],
+  "rawText": "金沢工業大学 学習支援計画書 F139-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Management Systems(〜2024)\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\nビジネスアナリティックス\nData Analytics for Business  2 F139-01  2025年度\n 3rd year 1st semester  修学規程第4条を参照\n    担当教員名\n TAKECHI Shoji\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Regression analysis 2.Clustering analysis 3.Decision tree analysis 4.KNIME 5.Python  This course provides the principles and practices of basic methods of data science. Students learn data aggregation, regression analysis, cluster analysis, decision tree analysis, and artificial neural networks, which are the basis of recent deep learning. Students also learn two types of data science tools: KNIME and Python with visual operations.\n    授業の概要および学習上の助言   In recent years, mathematics, AI, and data science have attracted a great deal of attention of various fields. This course is especially designed for the students who have learned basic statistics. Students learn data aggregation, which is a first-step method of data science, and then learn typical data science techniques such as regression analysis, cluster analysis, decision tree analysis, artificial neural networks. This course provides both classroom lectures and hands-on analysis exercises with KNIME and Python that are useful and use freeware tools for data analysis. Students learn theories, analytical skills, and some examples of business intelligence, which is considered to be the use of data in actual business. The instructor expect students to acquire the ability of data analysis trough this class to develop business in the future.\n    教科書および参考書・リザーブドブック   Textbooks: Data Sceience nyuumon, Asakura Shoten (ISBN-9784254129113) (in Japanese language) Reference books: None Reserved books: None\n    履修に必要な予備知識や技能   Students are required to bring their own laptop computer to each class. The laptop PC needs to be able to install KNIME and Python with connecting to the Internet. Students are expected to understand basics of statistics and Python programming, so the instructor strongly recommend to take three courses, \"Statistics I\", \"Statistics II\", and \"Algorithms and Data Structures\" before taking this course.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① D,J Be able to calculate basic statistics such as mean value for given data   ② D,J Be able to apply a method of multiple regression analysis for given data   ③ D,J Be able to apply a method of cluster analysis for given data   ④ D,J Be able to apply a method of decision tree analysis for given data   ⑤ D,G,L,N Be able to apply an appropriate analytical method of to make predictions and classifications for given data   ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 0 0 90 0 0 0 10 100     指標と評価割合 総合評価割合 0 0 90 0 0 0 10 100   総合力指標 知識を取り込む力 0 0 90 0 0 0 10 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ①      ②     ③     ④     ⑤     ⑥     クイズ\n小テスト ①      ②     ③     ④     ⑤     ⑥     レポート ① レ Students will be evaluated on their reports on the simple exercises in nearly every class. Details of each assignment and the grading criteria will be announced in class.    ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ① レ Students will be evaluated on their active commitment to the class, including the frequency with which they speak, offer insights, answer questions, etc.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     1) Calculate basic statistics for various numerical data, visualize them, and explain their characteristics. 2) Apply major analytical methods such as multiple regression analysis, decision tree analysis, and cluster analysis to a var",
+  "sourceYear": "2025",
+  "originalSourceIndex": 532,
+  "courseId": "2025:spring:F137-01:0:12615",
+  "language": "en"
+}

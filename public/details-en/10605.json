@@ -1,0 +1,300 @@
+{
+  "sourceIndex": 10605,
+  "sourceUrl": "/opsyllabus/kitos0110/434/1",
+  "importedAt": "2026-06-12T08:02:15.976Z",
+  "title": "プログラミング言語とコンパイラ",
+  "subtitle": "Programming Languages and Compiler",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "2",
+  "term": "2023年度\n 3rd year 2nd semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "KUROSE Hiroshi"
+  ],
+  "keywords": [
+    "Lexical analysis, Token 2.Parsing, DSL 3.Semantic analysis 4.Expression processing 5.Prefix, Infix, Postfix, AST"
+  ],
+  "educationalGoal": "In this course, students will learn how a compiler works. This technology can also be used for analysis and processing of data formats distributed on the network. Students will also come to understand the control flow and data management methods of programming languages and gain a deeper understanding of programming languages by learning the compiler algorithms and their implementation technologies.",
+  "advice": "In this course, students learn practically how to develop compilers and interpreters through compact examples. The following are the main items: 1) Programming language control structure and data management. 2) String search for text data, HTML, etc. 3) Compiler processing (lexical, syntax, expression, semantic analysis, code generation). 4) Memory management for program execution. 5) Execution environment (byte code, virtual machine, interpreter). 6) Compiler-related tools.",
+  "books": "Textbooks: Reference books: None Reserved books: None",
+  "requiredKnowledge": "As students evolve with programming languages, architectures, operating systems, software engineering, and usage, it is important for them to have a broad perspective. Since each process of your compiler may not work the first time, please check the operation yourself and gradually expand and understand the functions. Since this course requires knowledge of algorithms, programming, and operating systems, students should check themselves for weaknesses in those fields.",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "I,K,N",
+      "body": "Be able to understand principles of a compiler and explain how a compiler works."
+    },
+    {
+      "index": "②",
+      "type": "I,K,N",
+      "body": "Be able to extend the token type and syntax from the analysis sample codes."
+    },
+    {
+      "index": "③",
+      "type": "I,K,N",
+      "body": "Be able to explain the operation of functions necessary for program execution such as stack and heap, and data."
+    },
+    {
+      "index": "④",
+      "type": "I,K,N",
+      "body": "Be able to convert expressions to infix, prefix, postfix notation, or AST."
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "40",
+        "30",
+        "30",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "40",
+        "30",
+        "30",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "40",
+        "30",
+        "30",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションと\nリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "In addition to the standard achievement goal, students should: Be able to understand the nature of a compiler algorithm and create a parser that suits their purpose. Be able to read and extend the source code of compilers for existing programming languages.",
+    "standard": "Be able to explain the compiler's processing flow and the characteristics of intermediate products. Be able to extend the problem program based on the sample code to get normal output."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Guidance, Compiler overview, Programming language overview, Python language review",
+      "operation": "Lecture, Exercise",
+      "assignments": "Python language review",
+      "minutes": "150"
+    },
+    {
+      "index": "2",
+      "content": "String search: HTML language, natural language search (morpheme analysis, n-gram), use of HTML parser, regular expression",
+      "operation": "Lecture, Exercise",
+      "assignments": "Creating a histogram of word frequencies",
+      "minutes": "150"
+    },
+    {
+      "index": "3",
+      "content": "Lexical analysis: extracting Token, BNF, Syntax diagram, Constant, Identifier, Operator, Comment, Keyword, how to use PyParsing",
+      "operation": "Lecture, Exercise, Exam",
+      "assignments": "Review: Explaining each system development process.",
+      "minutes": "150"
+    },
+    {
+      "index": "4",
+      "content": "Lexical analysis (continued): Lexical analysis program, Pretty print, Block level counter",
+      "operation": "Lecture, Exercise, A small exam or quiz",
+      "assignments": "Completing the token extraction program. Report #1",
+      "minutes": "150"
+    },
+    {
+      "index": "5",
+      "content": "Parsing: Domain Specific Language (DSL), Statement (Declaration, assignment, while, if, return), Function, Block",
+      "operation": "Lecture, Exercise",
+      "assignments": "Completing a sentence extraction program.",
+      "minutes": "150"
+    },
+    {
+      "index": "6",
+      "content": "Parsing (continued): Handling compound statements",
+      "operation": "Lecture, Exercise",
+      "assignments": "Report #2",
+      "minutes": "150"
+    },
+    {
+      "index": "7",
+      "content": "Expression processing: Prefix/Infix/Postfix Notation, Priority of operator, Delta (Three-way railroad junction) algorithm, Stack machine",
+      "operation": "Lecture, Exercise",
+      "assignments": "Create prefix from/to postfix conversion program",
+      "minutes": "150"
+    },
+    {
+      "index": "8",
+      "content": "Expression processing (continued)",
+      "operation": "Exercise A small exam or quiz",
+      "assignments": "Report #3",
+      "minutes": "150"
+    },
+    {
+      "index": "9",
+      "content": "AST (abstract syntax tree): Add and search nodes, Implement tree structure with lists and dictionaries, Structure visualization",
+      "operation": "Lecture, Exercise, A small exam or quiz",
+      "assignments": "Create the convert program from source to Syntax tree",
+      "minutes": "150"
+    },
+    {
+      "index": "10",
+      "content": "Creating a simple calculator",
+      "operation": "Lecture, Exercise",
+      "assignments": "Check and complete the interpreter",
+      "minutes": "150"
+    },
+    {
+      "index": "11",
+      "content": "Semantic analysis, code generation: Conversion method to other languages, Memory allocation, Virtual machine",
+      "operation": "Lecture, Exercise",
+      "assignments": "Symbol table creation, cross-reference table creation",
+      "minutes": "150"
+    },
+    {
+      "index": "12",
+      "content": "Recursive, Re-entrant, Reusable, Reallocation, Frame pointer, Heap, Scope, Buddy algorithm",
+      "operation": "Lecture, Exercise",
+      "assignments": "Report #4",
+      "minutes": ""
+    },
+    {
+      "index": "13",
+      "content": "Optimization, related tools: Optimizer, linker, librarian, compiler- compiler , lint, document generator",
+      "operation": "Exercise",
+      "assignments": "Comprehensive review",
+      "minutes": "150"
+    },
+    {
+      "index": "14",
+      "content": "Exam and review of previous classes",
+      "operation": "Exam, Review",
+      "assignments": "Comprehensive review",
+      "minutes": "150"
+    },
+    {
+      "index": "15",
+      "content": "Commentary for Exam, Self-inspection, Related topics",
+      "operation": "Review, Q&A",
+      "assignments": "",
+      "minutes": ""
+    }
+  ],
+  "rawText": "金沢工業大学 学習支援計画書 E533-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Information and Computer Science\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\nプログラミング言語とコンパイラ\nProgramming Languages and Compiler  2 E533-01  2023年度\n 3rd year 2nd semester  修学規程第4条を参照\n    担当教員名\n KUROSE Hiroshi\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Lexical analysis, Token 2.Parsing, DSL 3.Semantic analysis 4.Expression processing 5.Prefix, Infix, Postfix, AST  In this course, students will learn how a compiler works. This technology can also be used for analysis and processing of data formats distributed on the network. Students will also come to understand the control flow and data management methods of programming languages and gain a deeper understanding of programming languages by learning the compiler algorithms and their implementation technologies.\n    授業の概要および学習上の助言   In this course, students learn practically how to develop compilers and interpreters through compact examples. The following are the main items: 1) Programming language control structure and data management. 2) String search for text data, HTML, etc. 3) Compiler processing (lexical, syntax, expression, semantic analysis, code generation). 4) Memory management for program execution. 5) Execution environment (byte code, virtual machine, interpreter). 6) Compiler-related tools.\n    教科書および参考書・リザーブドブック   Textbooks: Reference books: None Reserved books: None\n    履修に必要な予備知識や技能   As students evolve with programming languages, architectures, operating systems, software engineering, and usage, it is important for them to have a broad perspective. Since each process of your compiler may not work the first time, please check the operation yourself and gradually expand and understand the functions. Since this course requires knowledge of algorithms, programming, and operating systems, students should check themselves for weaknesses in those fields.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① I,K,N Be able to understand principles of a compiler and explain how a compiler works.   ② I,K,N Be able to extend the token type and syntax from the analysis sample codes.   ③ I,K,N Be able to explain the operation of functions necessary for program execution such as stack and heap, and data.   ④ I,K,N Be able to convert expressions to infix, prefix, postfix notation, or AST.   ⑤     ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 40 30 30 0 0 0 0 100     指標と評価割合 総合評価割合 40 30 30 0 0 0 0 100   総合力指標 知識を取り込む力 40 30 30 0 0 0 0 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ Evaluations are based on a written examination covering the contents of this course.   ② レ   ③ レ   ④ レ   ⑤     ⑥     クイズ\n小テスト ① レ Three small quizzes or reports related to lecture content will be given.   ② レ   ③ レ   ④ レ   ⑤     ⑥     レポート ① レ Evaluations depend on the contents of the exercise results and adherence to submission deadlines.   ② レ   ③ レ   ④ レ   ⑤     ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ①      ②     ③     ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     In addition to the standard achievement goal, students should: Be able to understand the nature of a compiler algorithm and create a parser that suits their purpose. Be able to read and extend the source code of compilers for existing programming languages. Be able to explain the compiler's processing flow and the characteristics of intermediate products. Be able to extend the problem program based on the sample code to get normal output.\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身",
+  "sourceYear": "2023",
+  "originalSourceIndex": 434,
+  "courseId": "2023:spring:E517-01:0:10605",
+  "language": "en"
+}

@@ -1,0 +1,306 @@
+{
+  "sourceIndex": 11653,
+  "sourceUrl": "/opsyllabus/kitos0110/529/1",
+  "importedAt": "2026-06-12T08:02:33.226Z",
+  "title": "画像情報処理",
+  "subtitle": "Image Processing",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "2",
+  "term": "2024年度\n 3rd year 1st semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "KAMADA Hiroshi",
+    "NAKAZAWA Kenji"
+  ],
+  "keywords": [
+    "Digital image 2.Geometric transformation 3.Histogram 4.Edge, binarization, line information extraction 5.Information society"
+  ],
+  "educationalGoal": "The objective of this course is to ensure students understand the basic methods used to process digital image data using computers. Learning Objectives: 1. Students will understand fundamental image processing techniques. 2. Students will be able to make programs that process real digital images and video image data using programming language.",
+  "advice": "In this course, students will learn the fundamental digital image processing methods that input, output, and transform digital images. In addition, students will learn to make programs that process real digital images using various fundamental techniques. Lectures and exercises regarding the following items will be given. The outline of the class content is as follows: (1) Basics of image processing History of image processing, light and color, image digitization, image conversion (2) Fundamental real image processing Image data input/output, image data enhancement, geometric transformation, smoothing/sharpening, Binarization (3) Programming method to realize various fundamental image processing methods Students will learn the skills necessary to make application programs through the creation of works aimed at contributing to the information society.",
+  "books": "Textbooks:ディジタル画像処理 改訂第二版[CG-ARTS協会],reference books:none,reserved books:none",
+  "requiredKnowledge": "It is important to use textbooks for preparation and review. The scope of the exam is based primarily on materials presented in the class, so it is necessary to understand the class contents well. If students study the class contents in advance and ask questions on matters than need clarification in the class, they can proceed more efficiently. In image processing programming exercises, it is important for students to review and acquire the presented lessons well.",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "E,F",
+      "body": "Be able to understand and explain the basics of digital image processing."
+    },
+    {
+      "index": "②",
+      "type": "I,K",
+      "body": "Be able to make fundamental programs that process digital image data and video image data."
+    },
+    {
+      "index": "③",
+      "type": "E,I,K,M",
+      "body": "Be able to understand binary images, gray images, and color images and then display them."
+    },
+    {
+      "index": "④",
+      "type": "E,I,K,M",
+      "body": "Be able to understand and explain the manipulation of pixel values of image data, calculation between images."
+    },
+    {
+      "index": "⑤",
+      "type": "E,I,K,M",
+      "body": "Be able to understand and explain histograms, contour extraction, and edge extraction from image data."
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "40",
+        "0",
+        "40",
+        "0",
+        "0",
+        "0",
+        "20",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "40",
+        "0",
+        "40",
+        "0",
+        "0",
+        "0",
+        "20",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "40",
+        "0",
+        "40",
+        "0",
+        "0",
+        "0",
+        "20",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションと\nリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "Be able not only to use fundamental image processing programs, but also to employ application image processing programs.",
+    "standard": "Be able to understand basic image processing programs and develop basic real image processing programs."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Explanation about class outline What is \"image processing\"? The programming environment necessary for class exercises First sample program",
+      "operation": "Lectures and exercises Self-check",
+      "assignments": "Review about the programming environment",
+      "minutes": "120"
+    },
+    {
+      "index": "2",
+      "content": "Pixel value manipulation RGB-HSI conversion",
+      "operation": "Lectures and Programming exercises Self-check",
+      "assignments": "Review about pixel value manipulation",
+      "minutes": "120"
+    },
+    {
+      "index": "3",
+      "content": "Calculation between images",
+      "operation": "Lectures and Programming exercises Self-check",
+      "assignments": "Review about calculation between images",
+      "minutes": "120"
+    },
+    {
+      "index": "4",
+      "content": "Geometric transformation (knowledge)",
+      "operation": "Lectures Self-check",
+      "assignments": "Review about geometric transformation (knowledge)",
+      "minutes": "120"
+    },
+    {
+      "index": "5",
+      "content": "Geometric transformation (program)",
+      "operation": "Lectures and programming exercises Self-check",
+      "assignments": "Review about geometric transformation (program)",
+      "minutes": "180"
+    },
+    {
+      "index": "6",
+      "content": "Intermediate examination Matrix operation Binarization",
+      "operation": "Examination Lectures and programming exercises Self-check",
+      "assignments": "Review about matrix operations and binarization",
+      "minutes": "120"
+    },
+    {
+      "index": "7",
+      "content": "Histogram",
+      "operation": "Lectures and programming exercises Self-check",
+      "assignments": "Review about histogram",
+      "minutes": "120"
+    },
+    {
+      "index": "8",
+      "content": "Shading conversion based on region (spatial filtering)",
+      "operation": "Lectures Self-check",
+      "assignments": "Review about region-based shading conversion (spatial filtering)",
+      "minutes": "90"
+    },
+    {
+      "index": "9",
+      "content": "Binary image processing ・Edge extraction ・Contour extraction",
+      "operation": "Lectures and programming exercises Self-check",
+      "assignments": "Review about binary image processing",
+      "minutes": "120"
+    },
+    {
+      "index": "10",
+      "content": "Final examination Work (1)",
+      "operation": "Examination Work Self-check",
+      "assignments": "Work",
+      "minutes": "180"
+    },
+    {
+      "index": "11",
+      "content": "Presentation about group program work (concept) Work(2)",
+      "operation": "Presentation of work theme Work Self-check",
+      "assignments": "Work",
+      "minutes": "180"
+    },
+    {
+      "index": "12",
+      "content": "Intermediate presentation about program work Work(3)",
+      "operation": "Intermediate presentation Work Self-check",
+      "assignments": "Work",
+      "minutes": "180"
+    },
+    {
+      "index": "13",
+      "content": "Presentation about program work just before the end Work(4)",
+      "operation": "Pre-presentation Work Self-check",
+      "assignments": "Work",
+      "minutes": "180"
+    },
+    {
+      "index": "14",
+      "content": "Final presentation about program work and submission of final report",
+      "operation": "Final presentation and evaluation Self-check",
+      "assignments": "Review about final presentation",
+      "minutes": "60"
+    },
+    {
+      "index": "15",
+      "content": "Advanced learning History of image processing Self-check",
+      "operation": "Lectures Questionnaire survey Grade notification Self-check",
+      "assignments": "Reflections on class activities",
+      "minutes": "60"
+    }
+  ],
+  "rawText": "金沢工業大学 学習支援計画書 F029-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Media Informatics\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n画像情報処理\nImage Processing  2 F029-01  2024年度\n 3rd year 1st semester  修学規程第4条を参照\n    担当教員名\n KAMADA Hiroshi, NAKAZAWA Kenji\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Digital image 2.Geometric transformation 3.Histogram 4.Edge, binarization, line information extraction 5.Information society  The objective of this course is to ensure students understand the basic methods used to process digital image data using computers. Learning Objectives: 1. Students will understand fundamental image processing techniques. 2. Students will be able to make programs that process real digital images and video image data using programming language.\n    授業の概要および学習上の助言   In this course, students will learn the fundamental digital image processing methods that input, output, and transform digital images. In addition, students will learn to make programs that process real digital images using various fundamental techniques. Lectures and exercises regarding the following items will be given. The outline of the class content is as follows: (1) Basics of image processing History of image processing, light and color, image digitization, image conversion (2) Fundamental real image processing Image data input/output, image data enhancement, geometric transformation, smoothing/sharpening, Binarization (3) Programming method to realize various fundamental image processing methods Students will learn the skills necessary to make application programs through the creation of works aimed at contributing to the information society.\n    教科書および参考書・リザーブドブック   Textbooks:ディジタル画像処理 改訂第二版[CG-ARTS協会],reference books:none,reserved books:none\n    履修に必要な予備知識や技能   It is important to use textbooks for preparation and review. The scope of the exam is based primarily on materials presented in the class, so it is necessary to understand the class contents well. If students study the class contents in advance and ask questions on matters than need clarification in the class, they can proceed more efficiently. In image processing programming exercises, it is important for students to review and acquire the presented lessons well.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① E,F Be able to understand and explain the basics of digital image processing.   ② I,K Be able to make fundamental programs that process digital image data and video image data.   ③ E,I,K,M Be able to understand binary images, gray images, and color images and then display them.   ④ E,I,K,M Be able to understand and explain the manipulation of pixel values of image data, calculation between images.   ⑤ E,I,K,M Be able to understand and explain histograms, contour extraction, and edge extraction from image data.   ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 40 0 40 0 0 0 20 100     指標と評価割合 総合評価割合 40 0 40 0 0 0 20 100   総合力指標 知識を取り込む力 40 0 40 0 0 0 20 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ Each student's basic knowledge about image data and understanding of typical image processing methods will be evaluated via the intermediate and final tests.   ② レ   ③ レ   ④ レ   ⑤     ⑥     クイズ\n小テスト ①      ②     ③     ④     ⑤     ⑥     レポート ① レ Using image processing and image data, students will create work that aims at contributing to the regional community. Students will apply fundamental image processing methods to their work and submit the results as a report. Student evaluations will be based on the degree to which they have solved problems, their degree of understanding of the basic methods, and their ability to apply the lessons learned.   ② レ   ③ レ   ④ レ   ⑤     ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③",
+  "sourceYear": "2024",
+  "originalSourceIndex": 529,
+  "courseId": "2024:spring:F026-01:0:11653",
+  "language": "en"
+}

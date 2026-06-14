@@ -1,0 +1,308 @@
+{
+  "sourceIndex": 7877,
+  "sourceUrl": "/opsyllabus/kitos0110/380/1",
+  "importedAt": "2026-06-12T08:01:15.462Z",
+  "title": "デジタル通信と信号処理",
+  "subtitle": "Digital Communications and Signal Processing",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "2",
+  "term": "2020年度\n 3rd year 1st semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [],
+  "keywords": [
+    "Discrete time signal and frequency characteristics 2.z-transform and transfer function 3.Sampling theorem 4.Discrete Fourier transform and FFT 5.Modulation/demodulation and multiple access"
+  ],
+  "educationalGoal": "Analog signals such as voice, music, images, and video are digitized and processed. Digital signal processing can be implemented as a computer program, which enables flexible and complex processing. In this course, students will learn the basics of digital signal processing by digitizing analog signals such as audio and video. They will also learn the basics of digital communications achieved by digital signal processing.",
+  "advice": "Students will systematically learn the following basic knowledge and theory about digital signal processing and digital communication: 1. Discrete time signals and systems. 2. Frequency characteristics of discrete-time systems. 3. z-transform and transfer function. 4. Sampling theorem. 5. Discrete Fourier transform (DFT) and fast Fourier transform (FFT). 6. Digital filter design method. 7. Baseband transmission, modulation/demodulation and multiple access.",
+  "books": "Textbooks: Reference books: Reserved books:",
+  "requiredKnowledge": "Knowledge of the basics of mathematics such as exponential functions, trigonometric functions, complex numbers, and linear algebra is required. It is desirable that students have knowledge of probability statistics, Fourier transform, and Laplace transform. These are introduced in this course. Numerical calculation software such as Excel are used in the practices.",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "K,L,M",
+      "body": "Understand and apply the convolution sum and frequency characteristics of discrete-time signals."
+    },
+    {
+      "index": "②",
+      "type": "K,L,M",
+      "body": "Understand and apply the relationship between z-transform, the transfer function and circuit."
+    },
+    {
+      "index": "③",
+      "type": "K,L,M",
+      "body": "Understand and apply the sampling theorem."
+    },
+    {
+      "index": "④",
+      "type": "K,L,M",
+      "body": "Understand and apply DFT and its fast calculation method."
+    },
+    {
+      "index": "⑤",
+      "type": "K,L,M",
+      "body": "Understand the basics of digital filter design."
+    },
+    {
+      "index": "⑥",
+      "type": "K,L,M",
+      "body": "Understand the basics of modulation/demodulation and multiple access."
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "40",
+        "30",
+        "30",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "40",
+        "30",
+        "30",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "40",
+        "30",
+        "30",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションと\nリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "Students can systematically explain the following items related to digital signal processing. 1. Convolution sum and frequency characteristics of discrete-time signals. 2. z-transform and transfer function. 3. Sampling theorem. 4. Discrete Fourier transform and its Fast Fourier transform 5. Digital filter design. 6. Modulation/demodulation and multiple access. Moreover, students can systematically explain the basic mechanisms of digital communications.",
+    "standard": "Students can explain the basic contents of the following items related to digital signal processing. 1. Convolution sum and frequency characteristics of discrete-time signals. 2. z-transform and transfer function. 3. Sampling theorem. 4. Discrete Fourier transform and its fast Fourier transform 5. Digital filter design. 6. Modulation/demodulation and multiple access Moreover, students can explain the basic mechanisms of digital communications."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Course introduction Overview of digital signal processing",
+      "operation": "Lectures and practices",
+      "assignments": "Review mathematical basics in advance. Deepen understanding through review and self-reflection.",
+      "minutes": "Prepar ation and review 100"
+    },
+    {
+      "index": "2",
+      "content": "Discrete time signal, linear time invariant system",
+      "operation": "Lectures and practices",
+      "assignments": "Preparation/reviews and self-reflection regarding lesson content. Review of practices.",
+      "minutes": "Prepar ation and review 100"
+    },
+    {
+      "index": "3",
+      "content": "Convolution sum",
+      "operation": "Lectures and practices",
+      "assignments": "Preparation/reviews and self-reflection regarding lesson content. Review of practices.",
+      "minutes": "Prepar ation and review 100"
+    },
+    {
+      "index": "4",
+      "content": "z-transform and system transfer function",
+      "operation": "Lectures and practices",
+      "assignments": "Preparation/reviews and self-reflection regarding lesson content. Review of practices.",
+      "minutes": "Prepar ation and review 100"
+    },
+    {
+      "index": "5",
+      "content": "System stability and frequency characteristics",
+      "operation": "Lectures and practices",
+      "assignments": "Preparation/reviews and self-reflection regarding lesson content. Review of practices.",
+      "minutes": "Prepar ation and review 100"
+    },
+    {
+      "index": "6",
+      "content": "Fourier analysis",
+      "operation": "Lectures and practices",
+      "assignments": "Preparation/reviews and self-reflection regarding lesson content. Review of practices.",
+      "minutes": "Prepar ation and review 100"
+    },
+    {
+      "index": "7",
+      "content": "Discrete-time Fourier transform and sampling theorem",
+      "operation": "Lectures and practices",
+      "assignments": "Preparation/reviews and self-reflection regarding lesson content. Review of practices.",
+      "minutes": "Prepar ation and review 100"
+    },
+    {
+      "index": "8",
+      "content": "Review and quiz",
+      "operation": "Lectures and quiz",
+      "assignments": "Preparation/reviews and self-reflection regarding lesson content. Review of practices.",
+      "minutes": "Prepar ation and review 100"
+    },
+    {
+      "index": "9",
+      "content": "Discrete Fourier transform",
+      "operation": "Lectures and practices",
+      "assignments": "Preparation/reviews and self-reflection regarding lesson content. Review of practices.",
+      "minutes": "Prepar ation and review 100"
+    },
+    {
+      "index": "10",
+      "content": "Fast Fourier transform",
+      "operation": "Lectures and practices",
+      "assignments": "Preparation/reviews and self-reflection regarding lesson content. Review of practices.",
+      "minutes": "Prepar ation and review 100"
+    },
+    {
+      "index": "11",
+      "content": "Digital filter",
+      "operation": "Lectures and practices",
+      "assignments": "Preparation/reviews and self-reflection regarding lesson content. Review of practices.",
+      "minutes": "Prepar ation and review 100"
+    },
+    {
+      "index": "12",
+      "content": "Modeling of communication systems and baseband transmission",
+      "operation": "Lectures and practices",
+      "assignments": "Preparation/reviews and self-reflection regarding lesson content. Review of practices.",
+      "minutes": "Prepar ation and review 100"
+    },
+    {
+      "index": "13",
+      "content": "Modulation/demodulation and multiple access",
+      "operation": "Lectures and practices",
+      "assignments": "Preparation/reviews and self-reflection regarding lesson content. Review of practices.",
+      "minutes": "Prepar ation and review 100"
+    },
+    {
+      "index": "14",
+      "content": "Review and exams",
+      "operation": "Lectures and exams",
+      "assignments": "Preparation/reviews and self-reflection regarding lesson content. Review of practices.",
+      "minutes": "Prepar ation and review 100"
+    },
+    {
+      "index": "15",
+      "content": "Comprehensive learning",
+      "operation": "Explanation of the exam answers Indication of temporal score of the course/ self-reflection",
+      "assignments": "Comprehensive review and self-reflection. Review of exams.",
+      "minutes": "Prepar ation and review 100"
+    }
+  ],
+  "rawText": "金沢工業大学 学習支援計画書 E522-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Information and Computer Science\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\nデジタル通信と信号処理\nDigital Communications and Signal Processing  2 E522-01  2020年度\n 3rd year 1st semester  修学規程第4条を参照\n    担当教員名\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Discrete time signal and frequency characteristics 2.z-transform and transfer function 3.Sampling theorem 4.Discrete Fourier transform and FFT 5.Modulation/demodulation and multiple access  Analog signals such as voice, music, images, and video are digitized and processed. Digital signal processing can be implemented as a computer program, which enables flexible and complex processing. In this course, students will learn the basics of digital signal processing by digitizing analog signals such as audio and video. They will also learn the basics of digital communications achieved by digital signal processing.\n    授業の概要および学習上の助言   Students will systematically learn the following basic knowledge and theory about digital signal processing and digital communication: 1. Discrete time signals and systems. 2. Frequency characteristics of discrete-time systems. 3. z-transform and transfer function. 4. Sampling theorem. 5. Discrete Fourier transform (DFT) and fast Fourier transform (FFT). 6. Digital filter design method. 7. Baseband transmission, modulation/demodulation and multiple access.\n    教科書および参考書・リザーブドブック   Textbooks: Reference books: Reserved books:\n    履修に必要な予備知識や技能   Knowledge of the basics of mathematics such as exponential functions, trigonometric functions, complex numbers, and linear algebra is required. It is desirable that students have knowledge of probability statistics, Fourier transform, and Laplace transform. These are introduced in this course. Numerical calculation software such as Excel are used in the practices.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① K,L,M Understand and apply the convolution sum and frequency characteristics of discrete-time signals.   ② K,L,M Understand and apply the relationship between z-transform, the transfer function and circuit.   ③ K,L,M Understand and apply the sampling theorem.   ④ K,L,M Understand and apply DFT and its fast calculation method.   ⑤ K,L,M Understand the basics of digital filter design.   ⑥ K,L,M Understand the basics of modulation/demodulation and multiple access.\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 40 30 30 0 0 0 0 100     指標と評価割合 総合評価割合 40 30 30 0 0 0 0 100   総合力指標 知識を取り込む力 40 30 30 0 0 0 0 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ The exam covers the contents of the entire course. Textbooks, materials, computers, and calculators can be used. The exam evaluates the basic and applied skills of digital signal processing and digital communication acquired via the course contents, exercises, and quizzes.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥ レ   クイズ\n小テスト ① レ At the middle of course, a quiz is given to confirm the comprehensive understanding and application skills of the learned range. Textbooks, materials, computers, and calculators can be used.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥ レ   レポート ① レ In order to deepen student understanding of what was taught in the course and to confirm their level of understanding, practices or numerical processing exercises using a computer will be performed in every class. Textbooks, materials, computers, and calculators can be used.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥ レ   成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ①      ②     ③     ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     Students can systematically explain the following items related to digital signal processing. 1. Convolution",
+  "sourceYear": "2020",
+  "originalSourceIndex": 380,
+  "courseId": "2020:full-year:E924-12:0:7877",
+  "language": "en"
+}

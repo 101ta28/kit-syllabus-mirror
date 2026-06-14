@@ -1,0 +1,305 @@
+{
+  "sourceIndex": 12343,
+  "sourceUrl": "/opsyllabus/kitos0110/260/1",
+  "importedAt": "2026-06-12T08:02:49.115Z",
+  "title": "ロボット制御",
+  "subtitle": "Robot Control",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "2",
+  "term": "2025年度\n 3rd year 1st semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "KAWAI Hiroyuki"
+  ],
+  "keywords": [
+    "Kinematics 2.Dynamics 3.Position control 4.Q-learning 5.Python"
+  ],
+  "educationalGoal": "(1) Learn kinematics and dynamics of robot manipulators. (2) Learn modeling and control methods for robotic systems. (3) Learn Q-learning and Python code for grid world environments.",
+  "advice": "This is a basic course in control engineering. We will mainly cover the following topics: 1. Fundamentals of Robot Control 2. Fundamentals of Reinforcement Learning Students are expected to actively participate in class. Students are expected to complete exercises independently. Students are required to be aware of the instructor’s messages in the class and to check for messages/materials on the KIT Inside website before every class because the course schedule may change depending on the class progress.",
+  "books": "We have one textbook. The textbook is written in Japanese.",
+  "requiredKnowledge": "Sufficient mathematical skills (differential equations, integrals, and linear algebra). Basic knowledge of dynamics and control engineering.",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "L",
+      "body": "Represent position and orientation of manipulators mathematically."
+    },
+    {
+      "index": "②",
+      "type": "L",
+      "body": "Understand kinematics and calculate end point position."
+    },
+    {
+      "index": "③",
+      "type": "L",
+      "body": "Obtain a dynamic equation and understand position control."
+    },
+    {
+      "index": "④",
+      "type": "M",
+      "body": "Explain the role of the Bellman equation in dynamic programming."
+    },
+    {
+      "index": "⑤",
+      "type": "M",
+      "body": "Implement Q-learning code using Python."
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "0",
+        "30",
+        "70",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "0",
+        "30",
+        "70",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "0",
+        "30",
+        "70",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションと\nリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "Be able to derive mathematical expressions for modeling a robot manipulator. Be able to implement position control for a robot using Python code and modify the control methods. Be able to appropriately set state value functions and action value functions for a grid world environment using Python code.",
+    "standard": "Be able to understand the mathematical model of a robot manipulator expressed in equations. Be able to implement position control for a robot using Python code. Be able to implement Q-learning in a grid world environment using Python code."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Introduction Review and practice of basic mathematics",
+      "operation": "Lecture (including Q & A) and exercises Self-check",
+      "assignments": "Preview: Read the indicated handouts Review: Understand the indicated handouts Understand the course objectives",
+      "minutes": "60 30 30"
+    },
+    {
+      "index": "2",
+      "content": "1DOF vehicle robot and 1DOF robot arm",
+      "operation": "Lecture (including Q & A) and exercises Self-check",
+      "assignments": "Preview: Read the indicated handouts Review: Understand the indicated handouts",
+      "minutes": "60 60"
+    },
+    {
+      "index": "3",
+      "content": "Position and orientation",
+      "operation": "Lecture (including Q & A) and exercises Self-check",
+      "assignments": "Preview: Read the indicated handouts Review: Understand the indicated handouts",
+      "minutes": "60 60"
+    },
+    {
+      "index": "4",
+      "content": "Forward kinematics and Jacobian matrix",
+      "operation": "Lecture (including Q & A) and exercises Self-check",
+      "assignments": "Preview: Read the indicated handouts Review: Understand the indicated handouts",
+      "minutes": "60 60"
+    },
+    {
+      "index": "5",
+      "content": "Modeling of 2DOF robot arm",
+      "operation": "Lecture (including Q & A) and exercises Self-check",
+      "assignments": "Preview: Read the indicated handouts Review: Understand the indicated handouts",
+      "minutes": "60 60"
+    },
+    {
+      "index": "6",
+      "content": "Position control of 2DOF robot arm",
+      "operation": "Lecture (including Q & A) and exercises Self-check",
+      "assignments": "Preview: Read the indicated handouts Review: Understand the indicated handouts",
+      "minutes": "60 60"
+    },
+    {
+      "index": "7",
+      "content": "3DOF vehicle robot and exercises",
+      "operation": "Lecture (including Q & A) and exercises Self-check",
+      "assignments": "Preview: Read the indicated handouts Review: Understand the indicated handouts",
+      "minutes": "60 60"
+    },
+    {
+      "index": "8",
+      "content": "Exercises Mid-semester test",
+      "operation": "Exercises Test Self-check",
+      "assignments": "Prepare for the mid-semester test",
+      "minutes": "120"
+    },
+    {
+      "index": "9",
+      "content": "Review of the mid-semester test Self-check",
+      "operation": "Lecture (including Q & A) and exercises Self-check",
+      "assignments": "Preview: Read the indicated textbook sections Review: Understand the indicated textbook sections",
+      "minutes": "60 60"
+    },
+    {
+      "index": "10",
+      "content": "Multi-armed bandit problem",
+      "operation": "Lecture (including Q & A) and exercises Self-check",
+      "assignments": "Preview: Read the indicated textbook sections Review: Understand the indicated textbook sections",
+      "minutes": "60 60"
+    },
+    {
+      "index": "11",
+      "content": "Markov decision process",
+      "operation": "Lecture (including Q & A) and exercises Self-check",
+      "assignments": "Preview: Read the indicated textbook sections Review: Understand the indicated textbook sections",
+      "minutes": "60 60"
+    },
+    {
+      "index": "12",
+      "content": "Bellman equation",
+      "operation": "Lecture (including Q & A) and exercises Self-check",
+      "assignments": "Preview: Read the indicated textbook sections Review: Understand the indicated textbook sections",
+      "minutes": "60 60"
+    },
+    {
+      "index": "13",
+      "content": "Dynamic programming",
+      "operation": "Lecture (including Q & A) and exercises Self-check",
+      "assignments": "Preview: Read the indicated textbook sections Review: Understand the indicated textbook sections",
+      "minutes": "60 60"
+    },
+    {
+      "index": "14",
+      "content": "Q-learning",
+      "operation": "Lecture (including Q & A) and exercises Self-check",
+      "assignments": "Preview: Read the indicated textbook sections Review: Understand the indicated textbook sections",
+      "minutes": "60 60"
+    },
+    {
+      "index": "15",
+      "content": "Exercise and review",
+      "operation": "Lecture and Self-evaluation",
+      "assignments": "",
+      "minutes": ""
+    }
+  ],
+  "rawText": "金沢工業大学 学習支援計画書 E232-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Robotics(〜2024)\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\nロボット制御\nRobot Control  2 E232-01  2025年度\n 3rd year 1st semester  修学規程第4条を参照\n    担当教員名\n KAWAI Hiroyuki\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Kinematics 2.Dynamics 3.Position control 4.Q-learning 5.Python  (1) Learn kinematics and dynamics of robot manipulators. (2) Learn modeling and control methods for robotic systems. (3) Learn Q-learning and Python code for grid world environments.\n    授業の概要および学習上の助言   This is a basic course in control engineering. We will mainly cover the following topics: 1. Fundamentals of Robot Control 2. Fundamentals of Reinforcement Learning Students are expected to actively participate in class. Students are expected to complete exercises independently. Students are required to be aware of the instructor’s messages in the class and to check for messages/materials on the KIT Inside website before every class because the course schedule may change depending on the class progress.\n    教科書および参考書・リザーブドブック   We have one textbook. The textbook is written in Japanese.\n    履修に必要な予備知識や技能   Sufficient mathematical skills (differential equations, integrals, and linear algebra). Basic knowledge of dynamics and control engineering.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① L Represent position and orientation of manipulators mathematically.   ② L Understand kinematics and calculate end point position.   ③ L Obtain a dynamic equation and understand position control.   ④ M Explain the role of the Bellman equation in dynamic programming.   ⑤ M Implement Q-learning code using Python.   ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 0 30 70 0 0 0 0 100     指標と評価割合 総合評価割合 0 30 70 0 0 0 0 100   総合力指標 知識を取り込む力 0 30 70 0 0 0 0 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ①      ②     ③     ④     ⑤     ⑥     クイズ\n小テスト ① レ A mid-semester test is given, as specified in the course schedule, to evaluate your degree of achievement until that point. The schedule may change depending on the class progress.    ② レ   ③ レ   ④     ⑤     ⑥     レポート ① レ Students will prepare seven or eight reports for evaluation.    ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ①      ②     ③     ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     Be able to derive mathematical expressions for modeling a robot manipulator. Be able to implement position control for a robot using Python code and modify the control methods. Be able to appropriately set state value functions and action value functions for a grid world environment using Python code. Be able to understand the mathematical model of a robot manipulator expressed in equations. Be able to implement position control for a robot using Python code. Be able to implement Q-learning in a grid world environment using Python code.\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習課題に要する標準的な時間を記載してあります。日々の自学自習時間全体としては、各授業に応じた時間(例えば2単位科目の場合、予習2時間・復習2時間/週)を取るよう努めてください。詳しくは教員の指導に従って下さい。     授業明細   回数 学習内容 授業の運営方法 学習課題(予習・復習) 時間:分※     1  Introduction Review and practice of basic mathematics Lecture (including Q & A) and exercises Self-check Preview: Read the indicated handouts Review: Understand the indicated handouts Understand the course objectives  60 30 30   2  1DOF vehicle robot and 1DOF robot arm Lecture (including Q & A) and exercises Self-check Preview: Read the indicated handouts Review: Understand the indic",
+  "sourceYear": "2025",
+  "originalSourceIndex": 260,
+  "courseId": "2025:spring:E227-01:0:12343",
+  "language": "en"
+}

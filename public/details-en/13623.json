@@ -1,0 +1,305 @@
+{
+  "sourceIndex": 13623,
+  "sourceUrl": "/opsyllabus/kitos0110/536/1",
+  "importedAt": "2026-06-12T08:03:08.552Z",
+  "title": "心理情報プログラミングⅡ",
+  "subtitle": "Programing in Psychology and Information Design II",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "2",
+  "term": "2026年度\n 2nd year 1st semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "TOKUOKA Masaru"
+  ],
+  "keywords": [
+    "Programing 2.R 3.data handling 4.data visualization"
+  ],
+  "educationalGoal": "Recent research in psychology tends to yield increasingly large datasets obtained through experiments and surveys. As data sizes grow, spreadsheet software becomes inadequate for reviewing the entire dataset or performing the necessary preprocessing for analysis, necessitating the use of statistical software. This course aims to equip students with data handling techniques - such as data verification and preprocessing - required after data acquisition, using command-line interface (CUI) statistical software.",
+  "advice": "The contents of this course will be used in the “Psychological Informatics Major Lab/Exercises B” course, which is a compulsory course offered the following year.",
+  "books": "Reference books: RユーザのためのRStudio[実践]入門,Data visualization",
+  "requiredKnowledge": "Basic computer skills. Basic programing skills. Students should bring their own PC to every class.",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "H,I",
+      "body": "Ability to write R programs tailored to specific analytical objectives."
+    },
+    {
+      "index": "②",
+      "type": "H,I",
+      "body": "Ability to preprocess and format collected data into a form suitable for analysis in R."
+    },
+    {
+      "index": "③",
+      "type": "E,H,I",
+      "body": "Ability to perform data visualization in R in accordance with analytical objectives."
+    },
+    {
+      "index": "④",
+      "type": "H,I",
+      "body": "Ability to identify outliers in collected data using R."
+    },
+    {
+      "index": "⑤",
+      "type": "H,I",
+      "body": "Ability to optimize R code related to data handling tasks."
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "40",
+        "20",
+        "40",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "40",
+        "20",
+        "40",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "40",
+        "20",
+        "40",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションと\nリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "Students are able to write efficient code, freely perform data handling, and carry out data visualization in accordance with analytical objectives.",
+    "standard": "Students are able to preprocess collected data into a form suitable for analysis, visualize the data, and gain an overall understanding of its characteristics."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Orientation course objectives and structure logging in to the RStudio Server",
+      "operation": "Lecture Self-check",
+      "assignments": "Review information from previous programing classes",
+      "minutes": "30"
+    },
+    {
+      "index": "2",
+      "content": "The importance of data visualization",
+      "operation": "Lecture Self-check",
+      "assignments": "Review the last class and preview the next class",
+      "minutes": "60"
+    },
+    {
+      "index": "3",
+      "content": "Basics of RStudio and project setup",
+      "operation": "Lecture Practice Self-check",
+      "assignments": "Review the last class and preview the next class",
+      "minutes": "60"
+    },
+    {
+      "index": "4",
+      "content": "Basic data manipulation and visualization in R",
+      "operation": "Lecture Practice Self-check",
+      "assignments": "Review the last class and preview the next class",
+      "minutes": "60"
+    },
+    {
+      "index": "5",
+      "content": "Importing experimental data and inspecting datas ets",
+      "operation": "Lecture Practice Self-check",
+      "assignments": "Review the last class and preview the next class",
+      "minutes": "60"
+    },
+    {
+      "index": "6",
+      "content": "Data inspection",
+      "operation": "Lecture Practice Self-check",
+      "assignments": "Review the last class and preview the next class",
+      "minutes": "60"
+    },
+    {
+      "index": "7",
+      "content": "The importance of codebooks and the basics of gg plot2",
+      "operation": "Lecture Practice Self-check",
+      "assignments": "Review the practice",
+      "minutes": "30"
+    },
+    {
+      "index": "8",
+      "content": "Data visualization",
+      "operation": "Lecture Practice Self-check",
+      "assignments": "Review the last class and preview the next class",
+      "minutes": "60"
+    },
+    {
+      "index": "9",
+      "content": "Importing multiple datasets",
+      "operation": "Lecture Practice Self-check",
+      "assignments": "Review the last class and preview the next class",
+      "minutes": "60"
+    },
+    {
+      "index": "10",
+      "content": "Data structure: tidy data and untidy (messy) dat a",
+      "operation": "Lecture Practice Self-check",
+      "assignments": "Review the last class and preview the next class",
+      "minutes": "60"
+    },
+    {
+      "index": "11",
+      "content": "Importing questionnaire data and creating variab les",
+      "operation": "Lecture Practice Self-check",
+      "assignments": "Review the last class and preview the next class",
+      "minutes": "60"
+    },
+    {
+      "index": "12",
+      "content": "Merging questionnaire datasets",
+      "operation": "Lecture Practice Self-check",
+      "assignments": "Review the last class and preview the next class",
+      "minutes": "60"
+    },
+    {
+      "index": "13",
+      "content": "Integrating experimental data with questionnaire data",
+      "operation": "Lecture Practice Self-check",
+      "assignments": "Prepare for the final exam",
+      "minutes": "60"
+    },
+    {
+      "index": "14",
+      "content": "Implement the final practical task Final exam",
+      "operation": "Lecture Practice Self-check",
+      "assignments": "Review the final exam",
+      "minutes": "30"
+    },
+    {
+      "index": "15",
+      "content": "Review final exam and whole course",
+      "operation": "Q and A Self-check",
+      "assignments": "Review the whole course",
+      "minutes": "30"
+    }
+  ],
+  "rawText": "金沢工業大学 学習支援計画書 M114-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Psychology and Information Design\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n心理情報プログラミングⅡ\nPrograming in Psychology and Information Design II  2 M114-01  2026年度\n 2nd year 1st semester  修学規程第4条を参照\n    担当教員名\n TOKUOKA Masaru      *印は、実務経験のある教員を示しています。\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Programing 2.R 3.data handling 4.data visualization  Recent research in psychology tends to yield increasingly large datasets obtained through experiments and surveys. As data sizes grow, spreadsheet software becomes inadequate for reviewing the entire dataset or performing the necessary preprocessing for analysis, necessitating the use of statistical software. This course aims to equip students with data handling techniques - such as data verification and preprocessing - required after data acquisition, using command-line interface (CUI) statistical software.\n    授業の概要および学習上の助言   The contents of this course will be used in the “Psychological Informatics Major Lab/Exercises B” course, which is a compulsory course offered the following year.\n    教科書および参考書・リザーブドブック   Reference books: RユーザのためのRStudio[実践]入門,Data visualization\n    履修に必要な予備知識や技能   Basic computer skills. Basic programing skills. Students should bring their own PC to every class.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① H,I Ability to write R programs tailored to specific analytical objectives.   ② H,I Ability to preprocess and format collected data into a form suitable for analysis in R.   ③ E,H,I Ability to perform data visualization in R in accordance with analytical objectives.   ④ H,I Ability to identify outliers in collected data using R.   ⑤ H,I Ability to optimize R code related to data handling tasks.   ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 40 20 40 0 0 0 0 100     指標と評価割合 総合評価割合 40 20 40 0 0 0 0 100   総合力指標 知識を取り込む力 40 20 40 0 0 0 0 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ A final examination will be administered to assess students' understanding of the knowledge required for programming.   ② レ   ③     ④     ⑤     ⑥     クイズ\n小テスト ① レ There are practice assignments in every class to evaluate the level of acquisition of programing skills.   ② レ   ③     ④     ⑤     ⑥     レポート ① レ To assess the acquisition of programming skills related to data handling, students will be assigned tasks that involve performing data handling procedures in practice.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ①      ②     ③     ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     Students are able to write efficient code, freely perform data handling, and carry out data visualization in accordance with analytical objectives. Students are able to preprocess collected data into a form suitable for analysis, visualize the data, and gain an overall understanding of its characteristics.\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習課題に要する標準的な時間を記載してあります。日々の自学自習時間全体としては、各授業に応じた時間(例えば2単位科目の場合、予習2時間・復習2時間/週)を取るよう努めてください。詳しくは教員の指導に従って下さい。     授業明細   回数 学習内容 授業の運営方法 学習課題(予習・復習) 時間:分※     1  Orientation course objectives and structure logging in to the RStudio Server Lecture Self-check Review information from previous programing classes  30   2  The importance of data visualization Lecture Self-check Review the last class and preview the next class  60   3  Basics of RStudio and project setup Lecture Practice Self-check Review the last class and preview",
+  "sourceYear": "2026",
+  "originalSourceIndex": 536,
+  "courseId": "2026:fall:M118-01:0:13623",
+  "language": "en"
+}

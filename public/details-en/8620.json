@@ -1,0 +1,300 @@
+{
+  "sourceIndex": 8620,
+  "sourceUrl": "/opsyllabus/kitos0110/258/1",
+  "importedAt": "2026-06-12T08:01:34.943Z",
+  "title": "システム数学Ⅱ",
+  "subtitle": "Mathematics for Robotics II",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "2",
+  "term": "2021年度\n 3rd year 2nd semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "SUZUKI Ryoichi"
+  ],
+  "keywords": [
+    "Vector space 2.Linear mapping 3.Linearly independence 4.Basis and dimension 5.Eigenvalue and eigenvector"
+  ],
+  "educationalGoal": "(1) Learn basic mathematics to analyze dynamic systems, such as robotic systems. (2) Acquire basic knowledge and logical thinking skills for designing control systems.",
+  "advice": "This is a basic mathematics course in linear algebra. The course covers the following topics: 1. Vector space 2. Linear independence and linear dependence of vectors 3. Basis of dimension of baa vector space 4. Linear mapping and simultaneous equations 5. Eigenvalues and eigenvectors.",
+  "books": "",
+  "requiredKnowledge": "Completion of Linear Algebra I and II. Sufficient mathematical skills (vectors, matrixes, determinants, linear mapping, and simultaneous equations).",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "I",
+      "body": "Understand concept of vector space and calculate vector spaces."
+    },
+    {
+      "index": "②",
+      "type": "I",
+      "body": "Discriminate linear independence of vectors and find the bases and dimensions of vector spaces."
+    },
+    {
+      "index": "③",
+      "type": "I",
+      "body": "Understand the relationship between linear mapping and simultaneous equations and find their solutions."
+    },
+    {
+      "index": "④",
+      "type": "I",
+      "body": "Calculate eigenvalues and eigenvectors."
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "40",
+        "40",
+        "20",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "40",
+        "40",
+        "20",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "40",
+        "40",
+        "20",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションと\nリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "Achieve 80% of learning objectives 1-4. Understand the concepts of the course. Find exact solutions for problems.",
+    "standard": "Achieve 60% of learning objectives 1-4. Generally understand the concepts of the course. Find solutions for problems with small errors."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Introduction -Course objectives, course description, and expectations for students",
+      "operation": "Lecture and practice",
+      "assignments": "Review of linear algebra Prepare for the next class (Handouts)",
+      "minutes": "150 50"
+    },
+    {
+      "index": "2",
+      "content": "Vector space Linear combination Subspace",
+      "operation": "Lecture and practice",
+      "assignments": "Review of class (Handouts) Prepare for the next class (Handouts)",
+      "minutes": "150 50"
+    },
+    {
+      "index": "3",
+      "content": "Linear mapping Matrix representation Kernel and image",
+      "operation": "Lecture and practice",
+      "assignments": "Review of class (Handouts) Prepare for the next class (Handouts)",
+      "minutes": "150 50"
+    },
+    {
+      "index": "4",
+      "content": "Linear independence Linear dependence determinants",
+      "operation": "Lecture and practice",
+      "assignments": "Review of class (Handouts)",
+      "minutes": "200"
+    },
+    {
+      "index": "5",
+      "content": "Exercise (Contents of the 1st to 4th classes)",
+      "operation": "Lecture and practice",
+      "assignments": "Review of class (Handouts) Prepare for the next class (Handouts)",
+      "minutes": "150 50"
+    },
+    {
+      "index": "6",
+      "content": "Basis and dimension of vector space -Definition of basis -Condition of basis",
+      "operation": "Lecture and practice",
+      "assignments": "Review of class (Handouts) Prepare for the next class (Handouts)",
+      "minutes": "150 50"
+    },
+    {
+      "index": "7",
+      "content": "Basis and dimension of vector space -Definition of dimension -Relationship of base and dimension",
+      "operation": "Lecture and practice",
+      "assignments": "Review of class (Handouts) Prepare for the next class (Handouts)",
+      "minutes": "150 50"
+    },
+    {
+      "index": "8",
+      "content": "Basis transformation -Transformation of vectors -Basis transformation matrix",
+      "operation": "Lecture and practice",
+      "assignments": "Review of class (Handouts)",
+      "minutes": "200"
+    },
+    {
+      "index": "9",
+      "content": "Exercise (Contents of the 6th to 8th classes)",
+      "operation": "Lecture and practice",
+      "assignments": "Review of class (Handouts) Prepare for the next class (Handouts)",
+      "minutes": "150 50"
+    },
+    {
+      "index": "10",
+      "content": "Linear mapping and simultaneous equations",
+      "operation": "Lecture and practice",
+      "assignments": "Review of class (Handouts) Prepare for the next class (Handouts)",
+      "minutes": "150 50"
+    },
+    {
+      "index": "11",
+      "content": "Dimensions of subspace and simultaneous linear equations Solution and conditions",
+      "operation": "Lecture and practice",
+      "assignments": "Review of class (Handouts) Prepare for the next class (Handouts)",
+      "minutes": "150 50"
+    },
+    {
+      "index": "12",
+      "content": "Orthonormal basis -Diagonal matrix -eigenvalue and eigenvector",
+      "operation": "Lecture and practice",
+      "assignments": "Review of class (Handouts) Prepare for the next class (Handouts)",
+      "minutes": "150 50"
+    },
+    {
+      "index": "13",
+      "content": "Diagonal matrix and eigenvalue and eigenvector Calculation of eigenvalue and eigenvector",
+      "operation": "Lecture and practice",
+      "assignments": "Review of class (Handouts) Preparation for final exam",
+      "minutes": "150 ∞"
+    },
+    {
+      "index": "14",
+      "content": "Exercise and Final exam",
+      "operation": "Lecture and practice",
+      "assignments": "Review of class (Handouts)",
+      "minutes": "50"
+    },
+    {
+      "index": "15",
+      "content": "Review and summary Self-reflection Self-evaluation",
+      "operation": "Lecture",
+      "assignments": "Review course summary",
+      "minutes": "50"
+    }
+  ],
+  "rawText": "金沢工業大学 学習支援計画書 E228-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Robotics\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\nシステム数学Ⅱ\nMathematics for Robotics II  2 E228-01  2021年度\n 3rd year 2nd semester  修学規程第4条を参照\n    担当教員名\n SUZUKI Ryoichi\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Vector space 2.Linear mapping 3.Linearly independence 4.Basis and dimension 5.Eigenvalue and eigenvector  (1) Learn basic mathematics to analyze dynamic systems, such as robotic systems. (2) Acquire basic knowledge and logical thinking skills for designing control systems.\n    授業の概要および学習上の助言   This is a basic mathematics course in linear algebra. The course covers the following topics: 1. Vector space 2. Linear independence and linear dependence of vectors 3. Basis of dimension of baa vector space 4. Linear mapping and simultaneous equations 5. Eigenvalues and eigenvectors.\n    教科書および参考書・リザーブドブック\n    履修に必要な予備知識や技能   Completion of Linear Algebra I and II. Sufficient mathematical skills (vectors, matrixes, determinants, linear mapping, and simultaneous equations).\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① I Understand concept of vector space and calculate vector spaces.   ② I Discriminate linear independence of vectors and find the bases and dimensions of vector spaces.   ③ I Understand the relationship between linear mapping and simultaneous equations and find their solutions.   ④ I Calculate eigenvalues and eigenvectors.   ⑤     ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 40 40 20 0 0 0 0 100     指標と評価割合 総合評価割合 40 40 20 0 0 0 0 100   総合力指標 知識を取り込む力 40 40 20 0 0 0 0 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ An exam is given at the end of the semester to evaluate your degree of achievement.   ② レ   ③ レ   ④ レ   ⑤     ⑥     クイズ\n小テスト ① レ Check the level of understanding of the content of each lesson.   ② レ   ③ レ   ④ レ   ⑤     ⑥     レポート ① レ Reports are given for understanding contents.   ② レ   ③ レ   ④ レ   ⑤     ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ①      ②     ③     ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     Achieve 80% of learning objectives 1-4. Understand the concepts of the course. Find exact solutions for problems. Achieve 60% of learning objectives 1-4. Generally understand the concepts of the course. Find solutions for problems with small errors.\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習課題に要する標準的な時間を記載してあります。日々の自学自習時間全体としては、各授業に応じた時間(例えば2単位科目の場合、予習2時間・復習2時間/週)を取るよう努めてください。詳しくは教員の指導に従って下さい。     授業明細   回数 学習内容 授業の運営方法 学習課題(予習・復習) 時間:分※     1  Introduction -Course objectives, course description, and expectations for students Lecture and practice Review of linear algebra Prepare for the next class (Handouts)  150 50   2  Vector space Linear combination Subspace Lecture and practice Review of class (Handouts) Prepare for the next class (Handouts)  150 50   3  Linear mapping Matrix representation Kernel and image Lecture and practice Review of class (Handouts) Prepare for the next class (Handouts)  150 50   4  Linear independence Linear dependence determinants Lecture and practice Review of class (Handouts)  200   5  Exercise (Contents of the 1st to 4th classes) Lecture and practice Review of class (Handouts) Prepare for the next class (Handouts)  150 50   6  Basis and dimension of vector space -Definition of basis -Condition of basis Lecture and practice Review of class (Handouts) Prepare for the next class (Handouts)  150 50   7  Basis and dimension of vector space -Definition ",
+  "sourceYear": "2021",
+  "originalSourceIndex": 258,
+  "courseId": "2021:fall:E117-01:0:8620",
+  "language": "en"
+}

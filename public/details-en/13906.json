@@ -1,0 +1,265 @@
+{
+  "sourceIndex": 13906,
+  "sourceUrl": "/opsyllabus/kitos0110/819/1",
+  "importedAt": "2026-06-12T08:03:10.545Z",
+  "title": "機械力学",
+  "subtitle": "Dynamics of Machines",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "2",
+  "term": "2026年度\n 2nd year 1st semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "FUJITA Koji"
+  ],
+  "keywords": [
+    "Equation of motion 2.Moment of inertia 3.Momentum 4.Energy 5.Vibration"
+  ],
+  "educationalGoal": "Dynamics of Machines is a part of the subject mechanics which is the basis of mechanical engineering. Students will learn the motions of mass points and rigid bodies due to external force or torque.",
+  "advice": "Students will learn the meanings of mathematical formulas and gain understanding by solving exercises. We will cover the following materials: 1. Momentum, impulse, law of conservation of momentum, and collision 2. Work and energy 3. Law of conservation of mechanical energy 4. Loss of kinetic energy by collision 5. Power 6. Friction",
+  "books": "Same as \"Engineering Mechanics I\", and \"Engineering Mechanics II.\"",
+  "requiredKnowledge": "Acquisition of Engineering mechanics I and II Sufficient skill in mathematics",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "J",
+      "body": "Be able to understand the meaning of terms."
+    },
+    {
+      "index": "②",
+      "type": "D,J",
+      "body": "Be able to not only use but also derive formulas"
+    },
+    {
+      "index": "③",
+      "type": "D,J",
+      "body": "Be able to derive the equations of motion"
+    },
+    {
+      "index": "④",
+      "type": "D,I,J",
+      "body": "Be able to apply mathematics to the derived equations of motion and explain their dynamic behavior."
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "40",
+        "30",
+        "20",
+        "0",
+        "0",
+        "0",
+        "10",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "40",
+        "30",
+        "20",
+        "0",
+        "0",
+        "0",
+        "10",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "40",
+        "30",
+        "20",
+        "0",
+        "0",
+        "0",
+        "10",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションと\nリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "By presenting conditions specific to the aircraft, the equations of motion of the aircraft can be established.",
+    "standard": "Be able to solve textbook exercise level problems."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Course introduction, Lecture (Momentum, impulse)",
+      "operation": "Guidance, Lecture",
+      "assignments": "Prepare sec. 7 of the textbook",
+      "minutes": "100"
+    },
+    {
+      "index": "2-3",
+      "content": "Lecture (Momentum, impulse)",
+      "operation": "Lecture and Q&A Self-check",
+      "assignments": "Prepare sec. 7 of the textbook",
+      "minutes": "200"
+    },
+    {
+      "index": "4",
+      "content": "Test and review of classes 1, 2, and 3.",
+      "operation": "Test and review Self-reflection",
+      "assignments": "Prepare sec. 7 of the textbook",
+      "minutes": "50"
+    },
+    {
+      "index": "5-8",
+      "content": "Lecture (Work and energy)",
+      "operation": "Lecture and Q&A Self-check",
+      "assignments": "Prepare sec. 8 of the textbook",
+      "minutes": "400"
+    },
+    {
+      "index": "9",
+      "content": "Test and review of classes 5 to 8.",
+      "operation": "Test and review Self-reflection",
+      "assignments": "Prepare sec. 8 of the textbook",
+      "minutes": "50"
+    },
+    {
+      "index": "10,11",
+      "content": "Lecture (Friction)",
+      "operation": "Lecture and Q&A Self-check",
+      "assignments": "Prepare sec. 9 of the textbook",
+      "minutes": "200"
+    },
+    {
+      "index": "12",
+      "content": "Test and review of classes 11 and 12.",
+      "operation": "Test and review Self-reflection",
+      "assignments": "Prepare sec. 9 of the textbook",
+      "minutes": "50"
+    },
+    {
+      "index": "13",
+      "content": "Organize knowledge",
+      "operation": "Lecture and Q&A Prepare for the exam Self-check",
+      "assignments": "Review secs. 7 to 9 of the textbook",
+      "minutes": "100"
+    },
+    {
+      "index": "14",
+      "content": "Organize knowledge, Final exam and review",
+      "operation": "Prepare for the exam",
+      "assignments": "Review secs. 7 to 9 of the textbook",
+      "minutes": "50"
+    },
+    {
+      "index": "15",
+      "content": "Review",
+      "operation": "Lecture and Q&A Self-check",
+      "assignments": "Answers to exam and review",
+      "minutes": "30"
+    }
+  ],
+  "rawText": "金沢工業大学 学習支援計画書 K209-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Aeronautics and Astronautics\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n機械力学\nDynamics of Machines  2 K209-01  2026年度\n 2nd year 1st semester  修学規程第4条を参照\n    担当教員名\n FUJITA Koji      *印は、実務経験のある教員を示しています。\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Equation of motion 2.Moment of inertia 3.Momentum 4.Energy 5.Vibration  Dynamics of Machines is a part of the subject mechanics which is the basis of mechanical engineering. Students will learn the motions of mass points and rigid bodies due to external force or torque.\n    授業の概要および学習上の助言   Students will learn the meanings of mathematical formulas and gain understanding by solving exercises. We will cover the following materials: 1. Momentum, impulse, law of conservation of momentum, and collision 2. Work and energy 3. Law of conservation of mechanical energy 4. Loss of kinetic energy by collision 5. Power 6. Friction\n    教科書および参考書・リザーブドブック   Same as \"Engineering Mechanics I\", and \"Engineering Mechanics II.\"\n    履修に必要な予備知識や技能   Acquisition of Engineering mechanics I and II Sufficient skill in mathematics\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① J Be able to understand the meaning of terms.   ② D,J Be able to not only use but also derive formulas   ③ D,J Be able to derive the equations of motion   ④ D,I,J Be able to apply mathematics to the derived equations of motion and explain their dynamic behavior.   ⑤     ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 40 30 20 0 0 0 10 100     指標と評価割合 総合評価割合 40 30 20 0 0 0 10 100   総合力指標 知識を取り込む力 40 30 20 0 0 0 10 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ On the basis of the exercises used in the lectures and quizzes, students will be evaluated on their understanding of the lectures using problems that require application of principles learned.   ② レ   ③ レ   ④ レ   ⑤     ⑥     クイズ\n小テスト ① レ Via problems that require application of textbook exercises, check the level of understanding of the lectures.   ② レ   ③ レ   ④ レ   ⑤     ⑥     レポート ① レ Students will be evaluated on reports that require research or the application of principles learned.   ② レ   ③ レ   ④ レ   ⑤     ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ① レ A negative rating is given if behavior that interferes with the class, such as private conversations, occurs and is not stopped after a reprimand is given.   ② レ   ③ レ   ④ レ   ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     By presenting conditions specific to the aircraft, the equations of motion of the aircraft can be established. Be able to solve textbook exercise level problems.\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習課題に要する標準的な時間を記載してあります。日々の自学自習時間全体としては、各授業に応じた時間(例えば2単位科目の場合、予習2時間・復習2時間/週)を取るよう努めてください。詳しくは教員の指導に従って下さい。     授業明細   回数 学習内容 授業の運営方法 学習課題(予習・復習) 時間:分※     1  Course introduction, Lecture (Momentum, impulse) Guidance, Lecture Prepare sec. 7 of the textbook  100   2-3  Lecture (Momentum, impulse) Lecture and Q&A Self-check Prepare sec. 7 of the textbook  200   4  Test and review of classes 1, 2, and 3. Test and review Self-reflection Prepare sec. 7 of the textbook  50   5-8  Lecture (Work and energy) Lecture and Q&A Self-check Prepare sec. 8 of the textbook  400   9  Test and review of classes 5 to 8. Test and review Self-reflection Prepare sec. 8 of the textbook  50   10,11  Lecture (Friction) Lecture and Q&A Self-check Prepare sec. 9 of the textbook  200   12  Test and review of classes 11 and 12. Te",
+  "sourceYear": "2026",
+  "originalSourceIndex": 819,
+  "courseId": "2026:fall:K215-01:0:13906",
+  "language": "en"
+}

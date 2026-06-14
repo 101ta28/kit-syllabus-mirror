@@ -1,0 +1,312 @@
+{
+  "sourceIndex": 8506,
+  "sourceUrl": "/opsyllabus/kitos0110/144/1",
+  "importedAt": "2026-06-12T08:01:33.931Z",
+  "title": "流体力学",
+  "subtitle": "Fluid Dynamics",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "2",
+  "term": "2021年度\n 3rd year 2nd semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "FUKUE Takashi",
+    "SUGIMOTO Yasuhiro",
+    "KIMU Choruho"
+  ],
+  "keywords": [
+    "Viscous fluid 2.Conservation law 3.Turbulent flow 4.CFD 5.Contribution to local community"
+  ],
+  "educationalGoal": "Students will acquire a basic ability for theoretical analysis of actual events related to fluid dynamics. Through exercises using CFD, students will predict the flow field and experience the actual flow analysis method. In addition, will deepen their understanding of advanced technology and problems to be solved related to regional thermal and fluid dynamics.",
+  "advice": "Classes will be conducted with emphasis on understanding of engineering and physical meaning. The following items will be practices as the basis of actual fluid motion: 1. Fluid dynamics overview 2. Conservation law, continuous equation, Navier-Stokes equation, and energy equation 3. Turbulent flow, Reynolds stress, and Prandtl mixing distance theory 4. Numerical analysis and CFD exercises 5. Comprehensive exercises for the regional community",
+  "books": "textbooks related to Fluid dynamics",
+  "requiredKnowledge": "Completion of Industrial Mechanics I and II. Acquisition of basic hydrostatic knowledge learned in Fundamentals of Fluid Mechanics I and II.",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "D,J",
+      "body": "Be able to analyze fluid phenomena theoretically."
+    },
+    {
+      "index": "②",
+      "type": "D,M",
+      "body": "Be able to understand the conservation law and apply it to fluid phenomena."
+    },
+    {
+      "index": "③",
+      "type": "D,M",
+      "body": "Be able to model viscous fluid phenomena theoretically."
+    },
+    {
+      "index": "④",
+      "type": "D,J,M,H",
+      "body": "Be able to simulate fluid phenomena using CFD."
+    },
+    {
+      "index": "⑤",
+      "type": "D,J,M",
+      "body": "Be able to investigate comprehensive problems that can contribute to the community."
+    },
+    {
+      "index": "⑥",
+      "type": "D,M",
+      "body": "Be able to discuss issues and outcomes actively."
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "30",
+        "30",
+        "30",
+        "10",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "30",
+        "30",
+        "30",
+        "10",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "30",
+        "30",
+        "30",
+        "10",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションと\nリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "Understand that fluid phenomena are governed by the basic equation of mechanics, and viscosity-related fluid phenomena, especially flow in pipes can be completely realized. Completely explain the mechanism of fluid loss and calculate the flow in the pipe. Understand the approximations and problems in fluid phenomena modeling when using basic equations. Understand problems related to the local community, evaluate related flow phenomena using CFD and other methods, and explain applications regarding flow phenomena scientifically and essentially.",
+    "standard": "Understand that fluid phenomena are governed by the basic equations of mechanics, and explain and develop methods of the induction of the basic equation of viscosity related fluid phenomena, especially equations of the flow in a pipe. Understand the approximations and problems in fluid phenomena when using basic equations. Understand problems in the community, and easily explain related flow phenomena and the application of CFD and other methods. Actively participate in questions and answers and also in essential discussions."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Review the course policy, purpose, and outline,and understand the educational goal and achievement level of this subject. Detailed schedule will be explained in the first lecture.",
+      "operation": "Lecture and practice",
+      "assignments": "Review the contents learned in Fundamental Fluid Mechanics I and II through questions on taken during the course.",
+      "minutes": "180"
+    },
+    {
+      "index": "2",
+      "content": "Learn about conservation laws and continuity equations derived from them.",
+      "operation": "Lecture and practice",
+      "assignments": "Read pp. 44-46 of the textbook carefully. Review Euler’s equations of motion learned during Fluid Mechanics I and implementation of designated preparatory note tasks. Review class content.",
+      "minutes": "120"
+    },
+    {
+      "index": "3",
+      "content": "Learn about Euler's equation and Navier-Stokes equation.",
+      "operation": "Lecture and practice",
+      "assignments": "Read pp. 46-50 of the textbook. Preparatory note on Navier-Stokes equations. Review exercises. Review class content. Understand the meaning of Euler's equations of motion and Navier-Stokes equations",
+      "minutes": "180"
+    },
+    {
+      "index": "4",
+      "content": "Learn about energy equation.",
+      "operation": "Lecture and practice",
+      "assignments": "Read pp. 48-50 of the textbook. Review exercises. Review class content.",
+      "minutes": "180"
+    },
+    {
+      "index": "5",
+      "content": "Learn about turbulence phenomena, especially about Reynolds stress and the Prandtl mixing length theory.",
+      "operation": "Lecture and practice",
+      "assignments": "Read pp. 97-99 of the textbook. Preparatory note on shear stress, Reynolds stress, and turbulent flow. Review class content.",
+      "minutes": "180"
+    },
+    {
+      "index": "6",
+      "content": "Through the exam, confirm your level of understanding of lecture content. Review and self-check your understanding.",
+      "operation": "Test and exercises",
+      "assignments": "Review exercises. Review class content",
+      "minutes": "210"
+    },
+    {
+      "index": "7",
+      "content": "Understand problems related to flow phenomena in the local community and the potential of CFD for problem solving.",
+      "operation": "Lecture",
+      "assignments": "Propose issues to solve using CFD.",
+      "minutes": "90"
+    },
+    {
+      "index": "8",
+      "content": "Learn basic knowledge of CFD and turbulence models.",
+      "operation": "Lecture and practice",
+      "assignments": "Review exercises. Review class content",
+      "minutes": "120"
+    },
+    {
+      "index": "9",
+      "content": "Learn principles and methods through CFD exercises.",
+      "operation": "Lecture and practice",
+      "assignments": "Review class content.",
+      "minutes": "120"
+    },
+    {
+      "index": "10",
+      "content": "CFD exercise on flow in a pipe and around a body.",
+      "operation": "CFD exercise about flow in an orifice",
+      "assignments": "Review class content.",
+      "minutes": "180"
+    },
+    {
+      "index": "11",
+      "content": "CFD exercise on flow in a pipe and around a body.",
+      "operation": "CFD exercise about flow around a car",
+      "assignments": "Review class content.",
+      "minutes": "180"
+    },
+    {
+      "index": "12",
+      "content": "CFD exercise on problems that students choose themselves.",
+      "operation": "CFD exercise",
+      "assignments": "Review class content.",
+      "minutes": "180"
+    },
+    {
+      "index": "13",
+      "content": "CFD exercise on problems that students choose themselves.",
+      "operation": "CFD exercise",
+      "assignments": "Review class content.",
+      "minutes": "240"
+    },
+    {
+      "index": "14",
+      "content": "CFD exercise on problems that students choose themselves.",
+      "operation": "CFD exercise",
+      "assignments": "Prepare for presentation and report.",
+      "minutes": "240"
+    },
+    {
+      "index": "15",
+      "content": "Presentation and discussion on comprehensive problems.",
+      "operation": "Presentation and discussion",
+      "assignments": "Comprehensive exercise report.",
+      "minutes": "240"
+    }
+  ],
+  "rawText": "金沢工業大学 学習支援計画書 E029-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Mechanical Engineering\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n流体力学\nFluid Dynamics  2 E029-01  2021年度\n 3rd year 2nd semester  修学規程第4条を参照\n    担当教員名\n FUKUE Takashi, SUGIMOTO Yasuhiro, KIMU Choruho\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Viscous fluid 2.Conservation law 3.Turbulent flow 4.CFD 5.Contribution to local community  Students will acquire a basic ability for theoretical analysis of actual events related to fluid dynamics. Through exercises using CFD, students will predict the flow field and experience the actual flow analysis method. In addition, will deepen their understanding of advanced technology and problems to be solved related to regional thermal and fluid dynamics.\n    授業の概要および学習上の助言   Classes will be conducted with emphasis on understanding of engineering and physical meaning. The following items will be practices as the basis of actual fluid motion: 1. Fluid dynamics overview 2. Conservation law, continuous equation, Navier-Stokes equation, and energy equation 3. Turbulent flow, Reynolds stress, and Prandtl mixing distance theory 4. Numerical analysis and CFD exercises 5. Comprehensive exercises for the regional community\n    教科書および参考書・リザーブドブック   textbooks related to Fluid dynamics\n    履修に必要な予備知識や技能   Completion of Industrial Mechanics I and II. Acquisition of basic hydrostatic knowledge learned in Fundamentals of Fluid Mechanics I and II.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① D,J Be able to analyze fluid phenomena theoretically.   ② D,M Be able to understand the conservation law and apply it to fluid phenomena.   ③ D,M Be able to model viscous fluid phenomena theoretically.   ④ D,J,M,H Be able to simulate fluid phenomena using CFD.   ⑤ D,J,M Be able to investigate comprehensive problems that can contribute to the community.   ⑥ D,M Be able to discuss issues and outcomes actively.\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 30 30 30 10 0 0 0 100     指標と評価割合 総合評価割合 30 30 30 10 0 0 0 100   総合力指標 知識を取り込む力 30 30 30 10 0 0 0 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ An exam is given at the end of the semester to evaluate your degree of achievement. The exam includes explanatory problems, introduction/expansion problems with formulas, and calculation problems. Review the lecture content of all classes, exercises, and studies with a focus on the textbook. The calculator specified in this department can be used.    ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     クイズ\n小テスト ① レ Tests are given when each chapter is finished to improve your level of understanding. The calculator specified in this department can be used in every test.    ② レ   ③ レ   ④ レ   ⑤     ⑥     レポート ① レ Reports and exercises will be assigned several times. Basically, this is done after each chapter or section. As a comprehensive exercise subject, the report subject will be assigned and the report content will be evaluated according to specialized fluid mechanics topics (including contribution to the local community). These tasks are an important part of class learning.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥ レ   成果発表\n(口頭・実技) ① レ Students will make presentations and participate in discussion of the content of their comprehensive exercise report using PowerPoint and posters. In addition to evaluating the presenters, we will evaluate those actively asking questions, particularly during question and answer sessions. Active exchange of opinions and questions and answers is expected.    ② レ   ③ レ   ④ レ   ⑤ レ   ⑥ レ   作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ①      ②     ③     ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     Understand that fluid phenomena are governed by the basic equation of m",
+  "sourceYear": "2021",
+  "originalSourceIndex": 144,
+  "courseId": "2021:spring:G250-02:0:8506",
+  "language": "en"
+}

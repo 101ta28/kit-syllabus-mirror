@@ -1,0 +1,305 @@
+{
+  "sourceIndex": 13939,
+  "sourceUrl": "/opsyllabus/kitos0110/852/1",
+  "importedAt": "2026-06-12T08:03:11.031Z",
+  "title": "電気電子コンピュータ工学",
+  "subtitle": "Computer architecture for Electrical and Electronic Engineers",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "2",
+  "term": "2026年度\n 2nd year 2nd semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "HAYASHI Keiji"
+  ],
+  "keywords": [
+    "Computer architecture 2.Operating principles 3.Machine language and assembly language 4.CPU architecture 5.High performance computing"
+  ],
+  "educationalGoal": "This course intends to study on basic technologies for computer design and utilization for electrical engineers. This course lectures on dual aspects, e.g. hardware and software. Students can understand whole of basic technologies to make use of computers without hesitation after their graduation, because all of industrial fields need engineers with basic knowledge of computers.",
+  "advice": "Major topics in this course are listed as follows. (1)Background of computer technologies - History of computers, Neumann-type computer (2)Computer architecture and implementation (Hardware aspect) - Logical circuit and its operation, CPU architecture, Machine language (3)Introduction of high-level language - Summary of typical programming languages, basic syntax of the C language (4)Computer architecture and implementation (Software aspect) - Assembly language, High-level language, Operating systems, Computing algorithm (5)Latest topics in computer R&D - Latest technical trends, Methodology of hardware and software development",
+  "books": "Textbooks: None Reference books: None Reserved books: None",
+  "requiredKnowledge": "Students should understand the following basic knowledge. - Product image with CPU - Digital circuit and devices - Roughly image of OS and programing language",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "K",
+      "body": "Understanding computer basic architecture"
+    },
+    {
+      "index": "②",
+      "type": "K",
+      "body": "Understanding position and function of machine, assembly and high level languages"
+    },
+    {
+      "index": "③",
+      "type": "K",
+      "body": "Understanding configuration and processing flows of CPU"
+    },
+    {
+      "index": "④",
+      "type": "K",
+      "body": "Understanding configuration of peripheral devices focusing on storage devices"
+    },
+    {
+      "index": "⑤",
+      "type": "K",
+      "body": "Understanding trends in technological development aimed at improving computer performance"
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "40",
+        "40",
+        "20",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "40",
+        "40",
+        "20",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "40",
+        "40",
+        "20",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションと\nリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "Students can explain following items with precision. -Key functional blocks in a computer and operations among these blocks -Simple program codes by machine, assembly and high level languages -Configuration and processing flows by assembly language in CPU -Functions of OS with some examples -High performance computing technology with some examples Through these knowledges, students can design A Simple Computer (ASC) which is an educational reference model.",
+    "standard": "Students can explain roughly following items without hesitations -Key functional blocks in a computer and operations among these blocks -Simple program codes by machine, assembly and high level languages -Configuration and processing flows by assembly language in CPU -Functions of OS -High performance computing technology"
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Introduction - Class schedule and operations - Objectives of this course",
+      "operation": "Lecture and Q&A",
+      "assignments": "Prepare the relevant section of the class materials distributed via the e-syllabus Review materials from No. 1 class",
+      "minutes": "100 100"
+    },
+    {
+      "index": "2",
+      "content": "Computer architecture and implementation (Hardware aspect) - Principle of computer - Definition of \"0\" and \"1\"",
+      "operation": "Lecture and Q&A",
+      "assignments": "Prepare the relevant section of the class materials distributed via the e-syllabus Review materials from No. 2 class",
+      "minutes": "100 100"
+    },
+    {
+      "index": "3",
+      "content": "Computer architecture and implementation (Hardware aspect) - Processing \"0\" and \"1\" in computer - Summary of ASC",
+      "operation": "Lecture and Q&A",
+      "assignments": "Prepare the relevant section of the class materials distributed via the e-syllabus Review materials from No. 3 class",
+      "minutes": "100 100"
+    },
+    {
+      "index": "4",
+      "content": "Computer architecture and implementation (Hardware aspect) - Design of ASC - Review of #1 - #4",
+      "operation": "Lecture and Q&A",
+      "assignments": "Prepare the relevant section of the class materials distributed via the e-syllabus Review materials from No. 4 class",
+      "minutes": "100 100"
+    },
+    {
+      "index": "5",
+      "content": "Computer architecture and implementation (Hardware aspect) - Computing command and data",
+      "operation": "Lecture and Q&A",
+      "assignments": "Prepare the relevant section of the class materials distributed via the e-syllabus Review materials from No. 5 class",
+      "minutes": "100 100"
+    },
+    {
+      "index": "6",
+      "content": "Computer architecture and implementation (Hardware aspect) - Machine language and its execution",
+      "operation": "Lecture and Q&A",
+      "assignments": "Prepare the relevant section of the class materials distributed via the e-syllabus Review materials from No. 6 class",
+      "minutes": "100 100"
+    },
+    {
+      "index": "7",
+      "content": "Mid-term exam Explanation of the correct answers for the exam",
+      "operation": "Exam and review",
+      "assignments": "Preview again and review the class materials covered in the exam",
+      "minutes": "200"
+    },
+    {
+      "index": "8",
+      "content": "Computer architecture and implementation (Software aspect) - Computing flows by execution of machine language - Summary of OS",
+      "operation": "Lecture and Q&A",
+      "assignments": "Prepare the relevant section of the class materials distributed via the e-syllabus Review materials from No. 8 class",
+      "minutes": "100 100"
+    },
+    {
+      "index": "9",
+      "content": "Computer architecture and implementation (Software aspect) - Assembly language and its programing",
+      "operation": "Lecture and Q&A",
+      "assignments": "Prepare the relevant section of the class materials distributed via the e-syllabus Review materials from No. 9 class",
+      "minutes": "100 100"
+    },
+    {
+      "index": "10",
+      "content": "Computer architecture and implementation (Software aspect) - High-level language and its programming",
+      "operation": "Lecture and Q&A",
+      "assignments": "Prepare the relevant section of the class materials distributed via the e-syllabus Review materials from No. 10 class",
+      "minutes": "100 100"
+    },
+    {
+      "index": "11",
+      "content": "Computer architecture and implementation (Software aspect) - Computing algorithm and some examples",
+      "operation": "Lecture and Q&A",
+      "assignments": "Prepare the relevant section of the class materials distributed via the e-syllabus Review materials from No. 11 class",
+      "minutes": "100 100"
+    },
+    {
+      "index": "12",
+      "content": "Final exam Explanation of the correct answers for the exam",
+      "operation": "Exam and review",
+      "assignments": "Preview again and review the class materials covered in the exam",
+      "minutes": "200"
+    },
+    {
+      "index": "13",
+      "content": "Introduction to R&D of computer",
+      "operation": "Lecture and Q&A",
+      "assignments": "Prepare the relevant section of the class materials distributed via the e-syllabus Review materials from No. 13 class",
+      "minutes": "100 100"
+    },
+    {
+      "index": "14",
+      "content": "History, trends, and prospects of computer development",
+      "operation": "Lecture and Q&A",
+      "assignments": "Prepare the relevant section of the class materials distributed via the e-syllabus Review materials from No. 14 class",
+      "minutes": "100 100"
+    },
+    {
+      "index": "15",
+      "content": "Summary of whole classes Self-evaluation",
+      "operation": "Lecture and Q&A Review and self-reflection Self-evaluation",
+      "assignments": "Review and self-check on 5 target abilities Learn again points on lack of understanding",
+      "minutes": "200"
+    }
+  ],
+  "rawText": "金沢工業大学 学習支援計画書 K319-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Electrical Energy Systems Engineering\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n電気電子コンピュータ工学\nComputer architecture for Electrical and Electronic Engineers  2 K319-01  2026年度\n 2nd year 2nd semester  修学規程第4条を参照\n    担当教員名\n HAYASHI Keiji      *印は、実務経験のある教員を示しています。\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Computer architecture 2.Operating principles 3.Machine language and assembly language 4.CPU architecture 5.High performance computing  This course intends to study on basic technologies for computer design and utilization for electrical engineers. This course lectures on dual aspects, e.g. hardware and software. Students can understand whole of basic technologies to make use of computers without hesitation after their graduation, because all of industrial fields need engineers with basic knowledge of computers.\n    授業の概要および学習上の助言   Major topics in this course are listed as follows. (1)Background of computer technologies - History of computers, Neumann-type computer (2)Computer architecture and implementation (Hardware aspect) - Logical circuit and its operation, CPU architecture, Machine language (3)Introduction of high-level language - Summary of typical programming languages, basic syntax of the C language (4)Computer architecture and implementation (Software aspect) - Assembly language, High-level language, Operating systems, Computing algorithm (5)Latest topics in computer R&D - Latest technical trends, Methodology of hardware and software development\n    教科書および参考書・リザーブドブック   Textbooks: None Reference books: None Reserved books: None\n    履修に必要な予備知識や技能   Students should understand the following basic knowledge. - Product image with CPU - Digital circuit and devices - Roughly image of OS and programing language\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① K Understanding computer basic architecture   ② K Understanding position and function of machine, assembly and high level languages    ③ K Understanding configuration and processing flows of CPU   ④ K Understanding configuration of peripheral devices focusing on storage devices   ⑤ K Understanding trends in technological development aimed at improving computer performance   ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 40 40 20 0 0 0 0 100     指標と評価割合 総合評価割合 40 40 20 0 0 0 0 100   総合力指標 知識を取り込む力 40 40 20 0 0 0 0 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ There are exams to evaluate the degree of achievement.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     クイズ\n小テスト ① レ There are small tests in accordance with the progress of the course, mainly, to check the level of understanding of “target abilities for students”.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     レポート ① レ Students will be evaluated on reports, mainly, to check the achievement of “target abilities for students”, in accordance with the progress of the course.    ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ①      ②     ③     ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     Students can explain following items with precision. -Key functional blocks in a computer and operations among these blocks -Simple program codes by machine, assembly and high level languages -Configuration and processing flows by assembly language in CPU -Functions of OS with some examples -High performance computing technology with some examples Through these knowledges, students can design A Simple Computer (ASC) which is an educational reference model. Students can explain roughly following items without hesitations -Key functional blocks in a computer and operations among these blocks -Simple program codes by machin",
+  "sourceYear": "2026",
+  "originalSourceIndex": 852,
+  "courseId": "2026:spring:K410-01:0:13939",
+  "language": "en"
+}

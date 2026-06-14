@@ -1,0 +1,300 @@
+{
+  "sourceIndex": 9915,
+  "sourceUrl": "/opsyllabus/kitos0110/658/1",
+  "importedAt": "2026-06-12T08:01:57.298Z",
+  "title": "脳生理データ解析演習",
+  "subtitle": "Analysis of Brain and Physiological Data",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "2",
+  "term": "2022年度\n 2nd year 2nd semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "IMARUOKA Toshihide"
+  ],
+  "keywords": [
+    "Eye movement data 2.ECG data 3.MATLAB 4.Data analysis"
+  ],
+  "educationalGoal": "In recent years, there has been an increase in the use of various measuring devices in psychology to conduct physiological and brain measurements. The data obtained from these measurements are characterized by a large number of data, time series, and multiple channels compared to conventional psychological experiment data. In this course, we will focus on a few types of brain and physiological measurement data that are often used in psychological research, and aim to learn the basics of analyzing these data.",
+  "advice": "In this course, students will learn a wide range of analysis methods, from the basics of data processing using the basic functions of MATLAB to how to use software commonly used in actual research situations, mainly through exercises. This is not just a class of listening to lectures, so please be motivated to work hard.",
+  "books": "none",
+  "requiredKnowledge": "MATLAB will be used, so be sure to have it installed before the class starts.",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "D,F,I,J",
+      "body": "Be able to run the statistical analyses with MATLAB."
+    },
+    {
+      "index": "②",
+      "type": "D,F,I,J",
+      "body": "Be able to visualize data with MATLAB."
+    },
+    {
+      "index": "③",
+      "type": "D,F,I,J",
+      "body": "Be able to choose an adequate analyzing tool with data."
+    },
+    {
+      "index": "④",
+      "type": "D,F,I,J",
+      "body": "Be able to use effectively various analyzing tools implemented in MATLAB."
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "30",
+        "30",
+        "20",
+        "10",
+        "0",
+        "0",
+        "10",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "30",
+        "30",
+        "20",
+        "10",
+        "0",
+        "0",
+        "10",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "30",
+        "30",
+        "20",
+        "10",
+        "0",
+        "0",
+        "10",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションと\nリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "1)Understand the characteristics of physioloigical and brain function data 2)Execute data analyses with apropriate tools and softwares",
+    "standard": "Understand how to use tools and softwares for analysis of physiological and brain function data"
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "orientation MATLAB preparation",
+      "operation": "lecture practice",
+      "assignments": "preparation of software",
+      "minutes": "30"
+    },
+    {
+      "index": "2",
+      "content": "data processing 1",
+      "operation": "practice",
+      "assignments": "review the class",
+      "minutes": "30"
+    },
+    {
+      "index": "3",
+      "content": "data processing 2",
+      "operation": "practice",
+      "assignments": "review the class",
+      "minutes": "30"
+    },
+    {
+      "index": "4",
+      "content": "ECG data 1",
+      "operation": "practice",
+      "assignments": "review the class",
+      "minutes": "30"
+    },
+    {
+      "index": "5",
+      "content": "ECG data 2",
+      "operation": "practice",
+      "assignments": "review the class",
+      "minutes": "30"
+    },
+    {
+      "index": "6",
+      "content": "ECG data 3",
+      "operation": "practice",
+      "assignments": "review the class",
+      "minutes": "30"
+    },
+    {
+      "index": "7",
+      "content": "NIRS data 1",
+      "operation": "practice",
+      "assignments": "review the class",
+      "minutes": "30"
+    },
+    {
+      "index": "8",
+      "content": "NIRS data 2 review the class",
+      "operation": "practice discussion",
+      "assignments": "make a report",
+      "minutes": "60"
+    },
+    {
+      "index": "9",
+      "content": "Eye movement / Pupil size 1",
+      "operation": "practice",
+      "assignments": "review the class",
+      "minutes": "30"
+    },
+    {
+      "index": "10",
+      "content": "Eye movement / Pupil size 2",
+      "operation": "practice",
+      "assignments": "review the class",
+      "minutes": "30"
+    },
+    {
+      "index": "11",
+      "content": "Eye movement / Pupil size 3",
+      "operation": "practice",
+      "assignments": "review the class",
+      "minutes": "30"
+    },
+    {
+      "index": "12",
+      "content": "Data acquiring and data analysis practice 1",
+      "operation": "practice",
+      "assignments": "review the class",
+      "minutes": "30"
+    },
+    {
+      "index": "13",
+      "content": "Data acquiring and data analysis practice 2",
+      "operation": "practice",
+      "assignments": "make a report",
+      "minutes": "60"
+    },
+    {
+      "index": "14",
+      "content": "Review the class Exam",
+      "operation": "Q and A exam",
+      "assignments": "review the whole course",
+      "minutes": "60"
+    },
+    {
+      "index": "15",
+      "content": "Review the exam and the class",
+      "operation": "lecture discussion",
+      "assignments": "review the exam",
+      "minutes": "30"
+    }
+  ],
+  "rawText": "金沢工業大学 学習支援計画書 F333-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Psychological Science(2018〜)\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n脳生理データ解析演習\nAnalysis of Brain and Physiological Data  2 F333-01  2022年度\n 2nd year 2nd semester  修学規程第4条を参照\n    担当教員名\n IMARUOKA Toshihide\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Eye movement data 2.ECG data 3.MATLAB 4.Data analysis  In recent years, there has been an increase in the use of various measuring devices in psychology to conduct physiological and brain measurements. The data obtained from these measurements are characterized by a large number of data, time series, and multiple channels compared to conventional psychological experiment data. In this course, we will focus on a few types of brain and physiological measurement data that are often used in psychological research, and aim to learn the basics of analyzing these data.\n    授業の概要および学習上の助言   In this course, students will learn a wide range of analysis methods, from the basics of data processing using the basic functions of MATLAB to how to use software commonly used in actual research situations, mainly through exercises. This is not just a class of listening to lectures, so please be motivated to work hard.\n    教科書および参考書・リザーブドブック   none\n    履修に必要な予備知識や技能   MATLAB will be used, so be sure to have it installed before the class starts.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① D,F,I,J Be able to run the statistical analyses with MATLAB.   ② D,F,I,J Be able to visualize data with MATLAB.   ③ D,F,I,J Be able to choose an adequate analyzing tool with data.    ④ D,F,I,J Be able to use effectively various analyzing tools implemented in MATLAB.   ⑤     ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 30 30 20 10 0 0 10 100     指標と評価割合 総合評価割合 30 30 20 10 0 0 10 100   総合力指標 知識を取り込む力 30 30 20 10 0 0 10 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ①   There is an exam, which evaluates students’ understanding of the learning contents during the course.   ②     ③ レ   ④     ⑤     ⑥     クイズ\n小テスト ①      ②     ③     ④     ⑤     ⑥     レポート ① レ Students’ ability for statistical analysis is evaluated by their reports on the data analysis.    ② レ   ③ レ   ④ レ   ⑤     ⑥     成果発表\n(口頭・実技) ① レ Students’ understanding of statistical analysis and ability to interpret the results are evaluated by their presentation   ② レ   ③ レ   ④ レ   ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ① レ Students are evaluated from their attendance and attitudes for the course.   ② レ   ③ レ   ④ レ   ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     1)Understand the characteristics of physioloigical and brain function data 2)Execute data analyses with apropriate tools and softwares Understand how to use tools and softwares for analysis of physiological and brain function data\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習課題に要する標準的な時間を記載してあります。日々の自学自習時間全体としては、各授業に応じた時間(例えば2単位科目の場合、予習2時間・復習2時間/週)を取るよう努めてください。詳しくは教員の指導に従って下さい。     授業明細   回数 学習内容 授業の運営方法 学習課題(予習・復習) 時間:分※     1  orientation MATLAB preparation lecture practice preparation of software  30   2  data processing 1 practice review the class  30   3  data processing 2 practice review the class  30   4  ECG data 1 practice review the class  30   5  ECG data 2 practice review the class  30   6  ECG data 3 practice review the class  30   7  NIRS data 1 practice review the class  30   8  NIRS data 2 review the class practice discussion make a report  60   9  Eye movement / Pupil size 1 practice review the class  30   10  Eye mo",
+  "sourceYear": "2022",
+  "originalSourceIndex": 658,
+  "courseId": "2022:spring:F942-01:0:9915",
+  "language": "en"
+}

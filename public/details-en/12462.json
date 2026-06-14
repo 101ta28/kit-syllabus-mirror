@@ -1,0 +1,308 @@
+{
+  "sourceIndex": 12462,
+  "sourceUrl": "/opsyllabus/kitos0110/379/1",
+  "importedAt": "2026-06-12T08:02:49.657Z",
+  "title": "情報工学専門実験・演習B",
+  "subtitle": "Information and Computer Science Major Lab/Exercises B",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "3",
+  "term": "2025年度\n 3rd year 1st semester\n3rd year 2nd semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "YAMAMOTO Tomohito",
+    "MOTOKI Mitsuo",
+    "ABE Noriyuki",
+    "KONNO Takeshi"
+  ],
+  "keywords": [
+    "Lego Mindstorms 2.Developing embedded system 3.Android programming 4.UI and APIs 5.Solution proposal"
+  ],
+  "educationalGoal": "- Students will acquire knowledge and skills for developing control systems and embedded systems using object-oriented programming while making control programs for a Lego Mindstorms line tracing car. - Students will also acquire knowledge and skills for developing Android applications using various UI and APIs and propose valuable IT solutions.",
+  "advice": "Overview of this class: [Developing control programs for Lego Mindstorms] 1) Introduction of Lego Mindstorms and installation of development environment. 2) Object-oriented programming for Java based on UML design. 3) Basic motions and control methods of Lego Mindstorms. 4) Development of individual control programs for line trace car, i.e., defining requirements, design (modeling by UML), implementation, testing, and refinement. 5) Demonstrate results of individual control program, i.e., time trial. [Developing Android apps] 6) Introduction of development environment and basic Android programming. 7) Android programming using various UIs. 8) Android programming using APIs and proposing an IT solution. 9) Android programming using “Intent” and implementation of the IT solution. 10) Presentation on the IT solution",
+  "books": "Required Materials will be provided in the class.",
+  "requiredKnowledge": "- Review Java programming and object-oriented development. - Review basic mechanisms of computer networks (TCP/IP). - Review the methods of group development.",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "D,F,I,K,L,N",
+      "body": "Be able to explain the motions of a Lego Mindstorms line trace car."
+    },
+    {
+      "index": "②",
+      "type": "D,F,I,J,K,L,N",
+      "body": "Be able to develop individualized control programs using IDEs (such as Eclipse)."
+    },
+    {
+      "index": "③",
+      "type": "D,F,I,J,K,L,N,O,R",
+      "body": "Be able to develop basic Android apps using a proper UI."
+    },
+    {
+      "index": "④",
+      "type": "D,F,I,J,K,L,N,O,R",
+      "body": "Be able to develop useful Android apps using proper APIs."
+    },
+    {
+      "index": "⑤",
+      "type": "D,F,I,J,K,L,N,O,R",
+      "body": "Be able to propose valuable IT solutions with Android apps."
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "0",
+        "0",
+        "100",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "0",
+        "0",
+        "100",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "0",
+        "0",
+        "100",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションと\nリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "[Developing control programs for Lego Mindstorms] -Students with ideal achievement levels can design and implement practical control programs for Lego Mindstorms using object-oriented programming and explain complicated control methods for Lego Mindstorms car with sensors and servomotors. [Developing Android apps] -Students with ideal achievement levels can implement Android apps realizing high usability using various UIs and APIs and they can also understand the customer needs sufficiently and deploy IT solutions based on them, as well as present them to customers in a comprehensive way.",
+    "standard": "[Developing control programs for Lego Mindstorms ] -Students with standard achievement levels can implement basic control programs using object-oriented programing based on a given design and explain simple control methods for a Lego Mindstorms car with sensors and servomotors. -They can implement control programs with Java. [Developing Android apps] -Students with standard achievement levels can implement basic Android apps using online documents for developers and they can also understand what IT solutions are applicable and acquire the basic skills for proposing them."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "[Developing control programs for Lego Mindstorms ] Introduction of Lego Mindstorms and installation of development environment [Developing Android apps] Learn the overview of the apps development and introduce development environment",
+      "operation": "Lecture, exercise, experiment, and self- check",
+      "assignments": "[Developing control pro- grams for Lego Mind-storms] Review basic Java pro-gramming and how to use Eclipse. [Developing Android apps] Introduce development environment for Android apps in each student’s notebook computer and review Java programming.",
+      "minutes": "Reflec tion: 90 Prepar ation: 90"
+    },
+    {
+      "index": "2",
+      "content": "Lego Mindstorms programming 1: Learn programming and tuning up basic programs for input and output (i.e., sensors and servomotors).",
+      "operation": "Lecture, exercise, experiment, and self- check",
+      "assignments": "Preview basic object ori-ented programming (classes, fields, methods, and object), and how to write in Java.",
+      "minutes": "Reflec tion: 60 Prepar ation: 60"
+    },
+    {
+      "index": "3",
+      "content": "Lego Mindstorms programming 2: Learn programming basic control pro-grams based on given specifications in UML.",
+      "operation": "Lecture, exercise, experiment, and self- check",
+      "assignments": "Preview abstract class, concrete class, and the Strategy pattern.",
+      "minutes": "Reflec tion: 60 Prepar ation: 60"
+    },
+    {
+      "index": "4",
+      "content": "Lego Mindstorms programming 2: Extend basic control programs by introducing system control techniques to improve speed and stability. 1st report.",
+      "operation": "Lecture, exercise, experiment, and self- check",
+      "assignments": "Preview on-off control and PID control.",
+      "minutes": "Reflec tion: 60 Prepar ation: 60"
+    },
+    {
+      "index": "5",
+      "content": "Developing own control programs 1: Analyze line trace courses and design individualized control programs.",
+      "operation": "Lecture, exercise, experiment, and self- check",
+      "assignments": "Finish individual designs.",
+      "minutes": "Reflec tion: 120 Prepar ation: 120"
+    },
+    {
+      "index": "6",
+      "content": "Developing own control programs 2: Implement and test individualized control programs",
+      "operation": "Lecture, exercise, experiment, and self-check",
+      "assignments": "Review test results and consider further improve-ment.",
+      "minutes": "Reflec tion: 120 Prepar ation: 120"
+    },
+    {
+      "index": "7",
+      "content": "Developing own control programs 3: Improve individualized control programs to make them faster and more stable Final report.",
+      "operation": "Lecture, experiment, and self-check",
+      "assignments": "Record test data and make report.",
+      "minutes": "Reflec tion: 120 Prepar ation: 120"
+    },
+    {
+      "index": "8",
+      "content": "Demonstrate own control programs, i.e., run line trace courses in a time trial.",
+      "operation": "Lecture, presentation, and self-check",
+      "assignments": "Review all topics of this class and connect them for future studies and re-search.",
+      "minutes": "Reflec tion: 60"
+    },
+    {
+      "index": "9",
+      "content": "Android programming 1: Learn basic Android programming using various UI.",
+      "operation": "Lecture, exercise, experiment, and self- check",
+      "assignments": "Review Android programming with UI and prepare for event-driven programming.",
+      "minutes": "Reflec tion: 90 Prepar ation: 90"
+    },
+    {
+      "index": "10",
+      "content": "Android programming 2: Learn Android programming using several “View” and event-driven processes.",
+      "operation": "Lecture, exercise, experiment, and self- check",
+      "assignments": "Review the programming with View and event-driven processes and prepare for programming with APIs.",
+      "minutes": "Reflec tion: 90 Prepar ation: 90"
+    },
+    {
+      "index": "11",
+      "content": "Android programming 3: Learn Android programming using various APIs (Multimedia, Graphics, Database).",
+      "operation": "Lecture, exercise, Experiment, and self- check",
+      "assignments": "Review the programming with APIs and consider the overview of IT solutions.",
+      "minutes": "Reflec tion: 90 Prepar ation: 90"
+    },
+    {
+      "index": "12",
+      "content": "Android programming 4: Learn Android programming using various APIs (Sensors, Google Maps). Present the idea of IT solutions.",
+      "operation": "Lecture, exercise, presentation, and self-check",
+      "assignments": "Review the programming with APIs and develop the apps for IT solutions.",
+      "minutes": "Reflec tion: 90 Prepar ation: 90"
+    },
+    {
+      "index": "13",
+      "content": "Android programming 5: Learn Android programming using “Intent” for cooperation between apps.",
+      "operation": "Lecture, exercise, experiment, and self- check",
+      "assignments": "Review the programming with Intent and develop the apps for IT solutions.",
+      "minutes": "Reflec tion: 120 Prepar ation: 120"
+    },
+    {
+      "index": "14",
+      "content": "Develop IT solutions with Android apps and prepare the final presentation and report.",
+      "operation": "Lecture, exercise, experiment, and self- check",
+      "assignments": "Develop IT solutions with Android apps and prepare the final presentation and report.",
+      "minutes": "Reflec tion: 120 Prepar ation: 120"
+    },
+    {
+      "index": "15",
+      "content": "Present developed IT solution with Android apps and submit the final report.",
+      "operation": "Lecture, exercise, presentation, and self- check",
+      "assignments": "Review all topics of this class and connect them for future studies and research.",
+      "minutes": "Reflec tion: 60"
+    }
+  ],
+  "rawText": "金沢工業大学 学習支援計画書 E535-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Information and Computer Science(〜2024)\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n情報工学専門実験・演習B\nInformation and Computer Science Major Lab/Exercises B  3 E535-01  2025年度\n 3rd year 1st semester\n3rd year 2nd semester  修学規程第4条を参照\n    担当教員名\n YAMAMOTO Tomohito, MOTOKI Mitsuo, ABE Noriyuki, KONNO Takeshi\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Lego Mindstorms 2.Developing embedded system 3.Android programming 4.UI and APIs 5.Solution proposal  - Students will acquire knowledge and skills for developing control systems and embedded systems using object-oriented programming while making control programs for a Lego Mindstorms line tracing car. - Students will also acquire knowledge and skills for developing Android applications using various UI and APIs and propose valuable IT solutions.\n    授業の概要および学習上の助言   Overview of this class: [Developing control programs for Lego Mindstorms] 1) Introduction of Lego Mindstorms and installation of development environment. 2) Object-oriented programming for Java based on UML design. 3) Basic motions and control methods of Lego Mindstorms. 4) Development of individual control programs for line trace car, i.e., defining requirements, design (modeling by UML), implementation, testing, and refinement. 5) Demonstrate results of individual control program, i.e., time trial. [Developing Android apps] 6) Introduction of development environment and basic Android programming. 7) Android programming using various UIs. 8) Android programming using APIs and proposing an IT solution. 9) Android programming using “Intent” and implementation of the IT solution. 10) Presentation on the IT solution\n    教科書および参考書・リザーブドブック   Required Materials will be provided in the class.\n    履修に必要な予備知識や技能   - Review Java programming and object-oriented development. - Review basic mechanisms of computer networks (TCP/IP). - Review the methods of group development.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① D,F,I,K,L,N Be able to explain the motions of a Lego Mindstorms line trace car.   ② D,F,I,J,K,L,N Be able to develop individualized control programs using IDEs (such as Eclipse).   ③ D,F,I,J,K,L,N,O,R Be able to develop basic Android apps using a proper UI.   ④ D,F,I,J,K,L,N,O,R Be able to develop useful Android apps using proper APIs.   ⑤ D,F,I,J,K,L,N,O,R Be able to propose valuable IT solutions with Android apps.   ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 0 0 100 0 0 0 0 100     指標と評価割合 総合評価割合 0 0 100 0 0 0 0 100   総合力指標 知識を取り込む力 0 0 100 0 0 0 0 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ①      ②     ③     ④     ⑤     ⑥     クイズ\n小テスト ①      ②     ③     ④     ⑤     ⑥     レポート ① レ The grade is based on midterm reports (10 pt. * 4 times) and final reports (30 pt. * 2 times). Every report is evaluated from the level of report (Overview, System, Specification, Experiment and its results, Discussion, and Conclusion should be included.). In the final report, creativity and presentation are also evaluated.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ①      ②     ③     ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     [Developing control programs for Lego Mindstorms] -Students with ideal achievement levels can design and implement practical control programs for Lego Mindstorms using object-oriented programming and explain complicated control methods for Lego Mindstorms car with sensors and servomotors. [Developing Android apps] -Students with ideal achievement levels can implement Android apps realizing high usability using various UIs and APIs and they can also understand the",
+  "sourceYear": "2025",
+  "originalSourceIndex": 379,
+  "courseId": "2025:spring:E532-01:0:12462",
+  "language": "en"
+}

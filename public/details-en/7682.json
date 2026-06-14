@@ -1,0 +1,408 @@
+{
+  "sourceIndex": 7682,
+  "sourceUrl": "/opsyllabus/kitos0110/185/1",
+  "importedAt": "2026-06-12T08:01:13.685Z",
+  "title": "熱力学",
+  "subtitle": "Thermodynamics",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "4",
+  "term": "2020年度\n 2nd year 2nd semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [],
+  "keywords": [
+    "Heat energy 2.First law of thermodynamics 3.Ideal gas 4.Second law of thermodynamics 5.Entropy"
+  ],
+  "educationalGoal": "Students will: (1)learn the relationship between heat energy and material properties (2)learn the formulation of this relationship",
+  "advice": "This is a basic thermodynamics course.We will cover the following materials: 1.Lecture and exercises on heat equilibrium. 2,Lecture and exercises on technical terms and SI unit. 3.Lecture and exercises on first law of thermodynamics. 4.Lecture and exercises on gases and the state equation of an ideal gas. 5.Lecture and exercises on second law of thermodynamics and entropy. Students will also learn about advanced issues such as the state equation of existing gases on their own. Students are expected to understand the meaning of terms and formulas. Students are expected to solve advanced exercises on their own. Students should be aware of the teacher's instructions in the class,because the schedules of quizzes,tests and reports may change as the class progresses.",
+  "books": "Textbooks:Mechanical Engineering Series 2 Thermodynamics(Asakura Shoten) Reference books:None Reserved books:None",
+  "requiredKnowledge": "Sufficient skill in mathematics(especially differential/integral calculations) How to use a calculator.",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "D,J,M",
+      "body": "Be able to explain heat equilibrium and adapt it to solve practical problems."
+    },
+    {
+      "index": "②",
+      "type": "D,J,M",
+      "body": "Be able to explain the first law of thermodynamics."
+    },
+    {
+      "index": "③",
+      "type": "D,J,M",
+      "body": "Be able to solve practical problems concerning the first law of thermodynamics."
+    },
+    {
+      "index": "④",
+      "type": "D,J,M",
+      "body": "Be able to explain the state equation of an ideal gas,state change of an ideal gas,and solve practical problems."
+    },
+    {
+      "index": "⑤",
+      "type": "D,J,M",
+      "body": "Be able to explain the second law of thermodynamics,the Carnot cycle and entropy,and adapt them to solve practic"
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "40",
+        "40",
+        "20",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "40",
+        "40",
+        "20",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "40",
+        "40",
+        "20",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションと\nリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "(1)Explain the concept of the first and second law of thermodynamics,the Carnot cycle and entropy. (2)Apply these to solve problems.",
+    "standard": "(1)Explain the meaning of the first and secondlaw of thermodynamics,the Carnot cycle and entropy. (2)Perform calculations on problems concerning the first and second law of thermodynamics,the Carnot cycle and entropy."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Course introduction",
+      "operation": "Lecture and Q&A",
+      "assignments": "Understand the objectives of course",
+      "minutes": "90"
+    },
+    {
+      "index": "2",
+      "content": "Heat and heat phenomena",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Prepare for heat and heat phenomena in textbook.",
+      "minutes": "90"
+    },
+    {
+      "index": "3",
+      "content": "Review of previous lesson Three states of material,SI units",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Prepare for three states of materials in textbook.",
+      "minutes": "90"
+    },
+    {
+      "index": "4",
+      "content": "Test on classes 1 to 3",
+      "operation": "Test and review Self-reflection",
+      "assignments": "Review classes 1 to 3",
+      "minutes": "90"
+    },
+    {
+      "index": "5",
+      "content": "Temperature and heat energy (1)",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Prepare for temperature and heat energy in textbook",
+      "minutes": "90"
+    },
+    {
+      "index": "6",
+      "content": "Temperature and heat energy(2)",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Prepare for temperature and heat energy in textbook",
+      "minutes": "90"
+    },
+    {
+      "index": "7",
+      "content": "Excises on temperature and heat",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Review classes 5 to 6",
+      "minutes": "90"
+    },
+    {
+      "index": "8",
+      "content": "Test on classes 5 to 7",
+      "operation": "Test and review Self-reflection",
+      "assignments": "Review classes 5 to 7",
+      "minutes": "90"
+    },
+    {
+      "index": "9",
+      "content": "Ideal gas and properties(1) State equation of an ideal gas",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Prepare for ideal gas and properties intextbook",
+      "minutes": "90"
+    },
+    {
+      "index": "10",
+      "content": "Ideal gas and properties(2) Mixed gases",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Prepare for mixed gases in textbook",
+      "minutes": "90"
+    },
+    {
+      "index": "11",
+      "content": "Ideal gas and properties(3) Mixed gases and their properties",
+      "operation": "Lecture and practice",
+      "assignments": "Prepare for mixed gases and their properties in textbook",
+      "minutes": "90"
+    },
+    {
+      "index": "12",
+      "content": "Test on classes 9 to 11",
+      "operation": "Test and review Self-reflection",
+      "assignments": "Review classes 9 to 11",
+      "minutes": "90"
+    },
+    {
+      "index": "13",
+      "content": "First law of thermodynamics(1) Work,Work rate",
+      "operation": "Lecture and practice",
+      "assignments": "Prepare for work and work rate in textbook",
+      "minutes": "90"
+    },
+    {
+      "index": "14",
+      "content": "First law of thermodynamics(2) First law of thermodynamics for closed system",
+      "operation": "Lecture and practice Self check",
+      "assignments": "Prepare for first law of thermodynamics for closed system",
+      "minutes": "90"
+    },
+    {
+      "index": "15",
+      "content": "First law of thermodynamics(3) First law of thermodynamics for open system",
+      "operation": "Lecture and practice Self check",
+      "assignments": "Prepare for first law of thermodynamics for open system",
+      "minutes": "90"
+    },
+    {
+      "index": "16",
+      "content": "First law of thermodynamics(4) Relation between heat energy and work",
+      "operation": "Lecture and practice self-check",
+      "assignments": "Prepare for relation between heat energy and work in textbook",
+      "minutes": "90"
+    },
+    {
+      "index": "17",
+      "content": "Test on classes 13 to 16",
+      "operation": "Test and review Self-reflection",
+      "assignments": "Review classes 13 to 16",
+      "minutes": "90"
+    },
+    {
+      "index": "18",
+      "content": "Integrated learning from 1 to 17",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Review classes 1 to 17",
+      "minutes": "90"
+    },
+    {
+      "index": "19",
+      "content": "Test on classes 1 to 18",
+      "operation": "Test and review Self-reflection",
+      "assignments": "Reviewclasses 1 to 18",
+      "minutes": ""
+    },
+    {
+      "index": "20",
+      "content": "Self-reflection",
+      "operation": "Lecture and interactive activities self-reflection",
+      "assignments": "Review materials from first class",
+      "minutes": "90"
+    },
+    {
+      "index": "21",
+      "content": "Second law of thermodynamics(1) Direction of change,Expression of second law,Car not cycle",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Prepare for tne introduction of second law of thermodynamics in textbook",
+      "minutes": "90"
+    },
+    {
+      "index": "22",
+      "content": "Second law of thermodynamics(2) Clausius inequality,Definition of entropy",
+      "operation": "Lecture nd practice Self-check",
+      "assignments": "Prepare for Clausius inequality,definition of entropy in textbook",
+      "minutes": "90"
+    },
+    {
+      "index": "23",
+      "content": "Second law of thermodynamics(3) Second law",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Prepare for second law in textbook",
+      "minutes": "90"
+    },
+    {
+      "index": "24",
+      "content": "Second law of thermodynamics(4) T-S curve",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Prepare for T-S curve in textbook",
+      "minutes": "90"
+    },
+    {
+      "index": "25",
+      "content": "Exercises on second law of thermodynamics",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Review classes 21 to 25",
+      "minutes": "90"
+    },
+    {
+      "index": "26",
+      "content": "Test on classes 21 to 25",
+      "operation": "Test and review Self-check",
+      "assignments": "Prepare classes 21 to 25",
+      "minutes": "90"
+    },
+    {
+      "index": "27",
+      "content": "Second law of thermodynamics(5) Entropy change in isentropic conditions",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Prepare for entropy change in isentropic condtions in textbook",
+      "minutes": "90"
+    },
+    {
+      "index": "28",
+      "content": "Exercises on this course",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "Review classes 1 to 28",
+      "minutes": "90"
+    },
+    {
+      "index": "29",
+      "content": "Final examination for this course",
+      "operation": "Test and review Self-reflection",
+      "assignments": "Review classes 1 to 28",
+      "minutes": "120"
+    },
+    {
+      "index": "30",
+      "content": "Self-evaluation",
+      "operation": "Lecture and interactive activities",
+      "assignments": "Review classes 1 to 29",
+      "minutes": "50"
+    }
+  ],
+  "rawText": "金沢工業大学 学習支援計画書 E113-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Aeronautics\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n熱力学\nThermodynamics  4 E113-01  2020年度\n 2nd year 2nd semester  修学規程第4条を参照\n    担当教員名\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Heat energy 2.First law of thermodynamics 3.Ideal gas 4.Second law of thermodynamics 5.Entropy  Students will: (1)learn the relationship between heat energy and material properties (2)learn the formulation of this relationship\n    授業の概要および学習上の助言   This is a basic thermodynamics course.We will cover the following materials: 1.Lecture and exercises on heat equilibrium. 2,Lecture and exercises on technical terms and SI unit. 3.Lecture and exercises on first law of thermodynamics. 4.Lecture and exercises on gases and the state equation of an ideal gas. 5.Lecture and exercises on second law of thermodynamics and entropy. Students will also learn about advanced issues such as the state equation of existing gases on their own. Students are expected to understand the meaning of terms and formulas. Students are expected to solve advanced exercises on their own. Students should be aware of the teacher's instructions in the class,because the schedules of quizzes,tests and reports may change as the class progresses.\n    教科書および参考書・リザーブドブック   Textbooks:Mechanical Engineering Series 2 Thermodynamics(Asakura Shoten) Reference books:None Reserved books:None\n    履修に必要な予備知識や技能   Sufficient skill in mathematics(especially differential/integral calculations) How to use a calculator.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① D,J,M Be able to explain heat equilibrium and adapt it to solve practical problems.   ② D,J,M Be able to explain the first law of thermodynamics.   ③ D,J,M Be able to solve practical problems concerning the first law of thermodynamics.   ④ D,J,M Be able to explain the state equation of an ideal gas,state change of an ideal gas,and solve practical problems.   ⑤ D,J,M Be able to explain the second law of thermodynamics,the Carnot cycle and entropy,and adapt them to solve practic   ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 40 40 20 0 0 0 0 100     指標と評価割合 総合評価割合 40 40 20 0 0 0 0 100   総合力指標 知識を取り込む力 40 40 20 0 0 0 0 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ There is an exam at the halfway point,and end of the semester to evaluate the students' achievement. The calculator specified in the department can be used.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     クイズ\n小テスト ① レ  There are tests when each chapter is finished to improve the level of understanding. The calculator specified in this department can be used on every test. It is necessary to understand the idea behind the formulas.    ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     レポート ① レ Students will be evaluated on three reports.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ①      ②     ③     ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     (1)Explain the concept of the first and second law of thermodynamics,the Carnot cycle and entropy. (2)Apply these to solve problems.  (1)Explain the meaning of the first and secondlaw of thermodynamics,the Carnot cycle and entropy. (2)Perform calculations on problems concerning the first and second law of thermodynamics,the Carnot cycle and entropy.\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習課題に要する標準的な時間を記載してあります。日々の自学自習時間全体としては、各授業に応じた時間(例えば2単位科目の場合、予習2時間・復習2時間/週)を取るよう努めてください。詳しくは教員の指導に従って下さい。     授業明細   回数 学習内容 授業の運営方法 学習課題(予習・復習) 時間:分",
+  "sourceYear": "2020",
+  "originalSourceIndex": 185,
+  "courseId": "2020:spring:E022-01:0:7682",
+  "language": "en"
+}

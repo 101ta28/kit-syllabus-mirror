@@ -1,0 +1,418 @@
+{
+  "sourceIndex": 9592,
+  "sourceUrl": "/opsyllabus/kitos0110/335/1",
+  "importedAt": "2026-06-12T08:01:54.768Z",
+  "title": "電子回路Ⅰ",
+  "subtitle": "Electronic Circuits I",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "4",
+  "term": "2022年度\n 2nd year 1st semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "FUKADA Haruki",
+    "NAKATA Shuhei",
+    "SHIMAUCHI Suehiro",
+    "MIKAMI Akiyoshi"
+  ],
+  "keywords": [
+    "Diode 2.Transistor Amplifiers 3.Operational Amplifiers 4.Pulse Circuits 5.Regional-Oriented"
+  ],
+  "educationalGoal": "Students will: (1) learn basic analog electronic circuits consisting of diode or transistor. (2) understand basic amplifiers with bipolar transistor. (3) understand design methods of analog electronic circuits. (4) learn circuits and mechanisms of FET or operational amplifier. (5) learn pulse circuits such as multi-vibrator.",
+  "advice": "Course outline is shown as follows: 1. Fundamental electric circuit 2. Circuit consisting of diode 3. Mechanism of transistor 4. Amplifier using bipolar transistor 5. Grounding methods, equivalent circuit for signal 6. Thermal runaway, design of amplifier 7. DC bias circuit 8. Power amplifier, negative-feedback amplifier 9. Oscillator 10. Modulation and demodulation 11. FET 12. Operational amplifier 13. Pulse circuit",
+  "books": "Textbooks:Electronic Circuits - Fundamentals & Applications - Reference books: Reserved books:None",
+  "requiredKnowledge": "Students should well understand \"Electric Circuits I\" and \"Electric Circuits II.\" Questions are welcome during lecture.",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "J",
+      "body": "Be able to explain mechanisms of diode and transistor."
+    },
+    {
+      "index": "②",
+      "type": "J",
+      "body": "Be able to draw equivalent circuits of transistor amplifier."
+    },
+    {
+      "index": "③",
+      "type": "J",
+      "body": "Be able to calculate voltages and currents in each part for transistor amplifiers."
+    },
+    {
+      "index": "④",
+      "type": "J",
+      "body": "Be able to draw equivalent circuits of FET amplifier."
+    },
+    {
+      "index": "⑤",
+      "type": "J",
+      "body": "Be able to design circuits of operational amplifier."
+    },
+    {
+      "index": "⑥",
+      "type": "J",
+      "body": "Be able to explain pulse circuits such as differential circuit, integrating circuit and multi vibrator."
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "40",
+        "40",
+        "20",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "40",
+        "40",
+        "20",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "40",
+        "40",
+        "20",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションと\nリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "(1) Fully understand and explain mechanism of diode and transistor, equivalent circuits. Also design transistor amplifier. (2) Explain FET amplifier and analyze its signal. (3) Explain mechanism of operational amplifier, and design application circuits. (4) Fully understand pulse circuits and explain them enough.",
+    "standard": "(1) Understand and explain mechanism of diode and transistor, equivalent circuits. (2) Analyze signals of FET amplifier. (3) Explain mechanism of operational amplifier. (4) Explain mechanisms of pulse circuits."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Self-introduction Conduct basic achievement test about electric. Understand the difference of DC and AC, voltage and current sources. Review basic circuit laws and elements such as resistance, capacitor and inductor.",
+      "operation": "Distribute syllabus Lecture, Q&A Basic achievement test Self-check",
+      "assignments": "Preparation: Read from chapters 1 to 3 of the first textbook. Review: Fundamentals of electric circuits.",
+      "minutes": "Prepar ation 100 Review 100"
+    },
+    {
+      "index": "2",
+      "content": "Return and explanation of basic achievement test. Review connections in series, parallel and mixed of series and parallel. Integrated learning",
+      "operation": "Lecture, Q&A Distribute answer of the basic achievement test Self-check",
+      "assignments": "Preparation: Read chapters 2 and 3. Review: Fundamentals of electric circuits.",
+      "minutes": "Prepar ation 100 Review 100"
+    },
+    {
+      "index": "3",
+      "content": "Understand the ratio of voltage-division and current-division, Kirchhoff's laws, and principle of superposition. Integrated learning",
+      "operation": "Lecture, Q&A Self-check",
+      "assignments": "Preparation: Read chapters 2 and 3. Review: Fundamentals of electric circuits.",
+      "minutes": "Prepar ation 100 Review 100"
+    },
+    {
+      "index": "4",
+      "content": "Fundamentals of diodes.",
+      "operation": "Lecture, Q&A Self-check",
+      "assignments": "Preparation: Read chapters 4. Review: Read chapter 4 and understand fundamentals of diode.",
+      "minutes": "Prepar ation 120 Review 100"
+    },
+    {
+      "index": "5",
+      "content": "Bias of diode Circuits using diode. Method of analysis for circuits using diode.",
+      "operation": "Lecture, Q&A Self-check",
+      "assignments": "Preparation: Read chapter 4 and understand diode. Review: Read chapter 4 and understand fundamentals of diode.",
+      "minutes": "Prepar ation 100 Review 100"
+    },
+    {
+      "index": "6",
+      "content": "Integrated learning of circuits using diode",
+      "operation": "Exam and lecture Self-check",
+      "assignments": "Preparation: Conduct exercises of chapter 4",
+      "minutes": "Prepar ation 100 Review 100"
+    },
+    {
+      "index": "7",
+      "content": "Conduct Exam A (diode circuits). Understand what transistor is.",
+      "operation": "Exam and lecture Self-check",
+      "assignments": "Preparation: Study for Exam A.",
+      "minutes": "Prepar ation 100 Review 100"
+    },
+    {
+      "index": "8",
+      "content": "Return and explain Exam A. Circuits using transistor.",
+      "operation": "Explain Exam A Lecture, Q&A Self-check",
+      "assignments": "Preparation: Read chapter 6, and understand transistor amplifier. Review: Check the results of Exam A.",
+      "minutes": "Prepar ation 100 Review 100"
+    },
+    {
+      "index": "9",
+      "content": "Working of elements around transistor Static characteristics of transistor",
+      "operation": "Lecture, Q&A Self-check",
+      "assignments": "Preparation: Read chapters 6 and 7, and understand working of elements. Review: Understand static characteristics of transistor.",
+      "minutes": "Prepar ation 100 Review 100"
+    },
+    {
+      "index": "10",
+      "content": "Static characteristics of transistor",
+      "operation": "Exam and lecture Self-check",
+      "assignments": "Preparation: Read chapter 6, and understand static characteristics of transistor. Review: Understand static characteristics of transistor.",
+      "minutes": "Prepar ation 100 Review 100"
+    },
+    {
+      "index": "11",
+      "content": "Understand equivalent circuits for DC and signal, and to draw the equivalent circuits. Also understand input impedance, output impedance and condition of matching.",
+      "operation": "Lecture, Q&A Self-check",
+      "assignments": "Preparation: Read chapters 8 and 9, and understand equivalent circuits for DC and signal. Also understand matching.",
+      "minutes": "Prepar ation 100 Review 100"
+    },
+    {
+      "index": "12",
+      "content": "Understand voltage and current in amplifier, and frequency characteristics of amplifiers.",
+      "operation": "Lecture, Q&A Self-check",
+      "assignments": "Preparation: Read chapter 10, and understand voltage, current and frequency characteristics.",
+      "minutes": "Prepar ation 100 Review 100"
+    },
+    {
+      "index": "13",
+      "content": "Integrated learning of circuits using transistor",
+      "operation": "Exam and lecture Self-check",
+      "assignments": "Preparation: Conduct exercises of chapter 10",
+      "minutes": "Prepar ation 100 Review 100"
+    },
+    {
+      "index": "14",
+      "content": "Understand thermal runaway.",
+      "operation": "Lecture, Q&A Self-check",
+      "assignments": "Preparation: Read chapter 11, and understand thermal runaway.",
+      "minutes": "Prepar ation 100 Review 100"
+    },
+    {
+      "index": "15",
+      "content": "Understand improvement of circuit, grounding methods, DC bias circuit and connection methods related with amplifier.",
+      "operation": "Lecture, Q&A Self-check",
+      "assignments": "Preparation: Read chapters 12 to 15, and understand variation of amplifier with resistors and capacitors.",
+      "minutes": "Prepar ation 100 Review 100"
+    },
+    {
+      "index": "16",
+      "content": "Conduct Exam B (bipolar transistor amplifier). Power amplifier",
+      "operation": "Exam Lecture, Q&A Self-check",
+      "assignments": "Preparation: Study for Exam B. Read chapters 5 to 15, and understand transistor amplifier. Review: Read chapter 16 for power amplifier.",
+      "minutes": "Prepar ation 120 Review 100"
+    },
+    {
+      "index": "17",
+      "content": "Return and explain Exam B. Self-reflection for midterm Negative-feedback amplifier, principle of oscillator, Oscillators of CR, LC and crystal",
+      "operation": "Explain Exam B Lecture, Q&A Self-check",
+      "assignments": "Preparation: Read chapters 17 to 19, and understand negative -feedback amplifier and oscillator. Review: Check the results of Exam B.",
+      "minutes": "Prepar ation 100 Review 100"
+    },
+    {
+      "index": "18",
+      "content": "Understand types and symbols of FET Construction and mechanism of FET",
+      "operation": "Lecture, Q&A Self-check",
+      "assignments": "Preparation: Read chapter 23, and understand types and symbols of FET.",
+      "minutes": "Prepar ation 100 Review 100"
+    },
+    {
+      "index": "19",
+      "content": "Static characteristics of FET, FET amplifier Design of FET circuit",
+      "operation": "Lecture, Q&A Self-check",
+      "assignments": "Preparation: Read chapter 23, and understand feature and circuit of FET.",
+      "minutes": "Prepar ation 100 Review 100"
+    },
+    {
+      "index": "20",
+      "content": "Integrated learning of FET circuit",
+      "operation": "Lecture, Q&A Self-check",
+      "assignments": "Preparation: Conduct exercises of chapter 23.",
+      "minutes": "Prepar ation 100 Review 100"
+    },
+    {
+      "index": "21",
+      "content": "Operational amplifier (1) Features of operational amplifier. Sign convertor, inverter circuit using operational amplifier.",
+      "operation": "Lecture, Q&A Self-check",
+      "assignments": "Preparation: Read chapter 24, and understand features of operational amplifier.",
+      "minutes": "Prepar ation 100 Review 100"
+    },
+    {
+      "index": "22",
+      "content": "Operational amplifier (2) Non-inverting circuit, adder, subtractor, integrator, voltage follower",
+      "operation": "Lecture, Q&A Self-check",
+      "assignments": "Preparation: Read chapter 24, and understand various circuits using operational amplifier.",
+      "minutes": "Prepar ation 100 Review 100"
+    },
+    {
+      "index": "23",
+      "content": "Operational amplifier (3) Integrated learning",
+      "operation": "Lecture, Q&A Self-check",
+      "assignments": "Preparation: Conduct exercises of chapter 24",
+      "minutes": "Prepar ation 100 Review 100"
+    },
+    {
+      "index": "24",
+      "content": "Conduct Exam C (FET circuit and operational amplifier). Difference of digital and analog Difference of digital and analog circuits",
+      "operation": "Exam Lecture, Q&A Self-check",
+      "assignments": "Preparation: Read chapters 23 and 24, and study for Exam C.",
+      "minutes": "Prepar ation 120 Review 100"
+    },
+    {
+      "index": "25",
+      "content": "Return and explain Exam C. Understand what pulse circuit is.",
+      "operation": "Explain Exam C Lecture, Q&A Self-check",
+      "assignments": "Preparation: Read chapter 3 in the second textbook, and understand pulse circuits. Review: Check the results of Exam C.",
+      "minutes": "Prepar ation 100 Review 100"
+    },
+    {
+      "index": "26",
+      "content": "Pulse circuits Differential and integrating circuits using CR or operational amplifier",
+      "operation": "Lecture, Q&A Self-check",
+      "assignments": "Preparation: Read chapter 3, and understand basic pulse circuits.",
+      "minutes": "Prepar ation 100 Review 100"
+    },
+    {
+      "index": "27",
+      "content": "Pulse generator Types and features of multi- vibrator Unstable multi-vibrator",
+      "operation": "Lecture, Q&A Self-check",
+      "assignments": "Preparation: Read chapter 3, and understand basic multi- vibrator",
+      "minutes": "Prepar ation 100 Review 100"
+    },
+    {
+      "index": "28",
+      "content": "Pulse generator Astable multi-vibrator Bistable multi-vibrator Integrated learning (pulse circuits)",
+      "operation": "Lecture, Q&A Self-check",
+      "assignments": "Preparation: Read chapter 3, and understand various multi-vibrator.",
+      "minutes": "Prepar ation 100 Review 100"
+    },
+    {
+      "index": "29",
+      "content": "Conduct Exam D (pulse circuits).",
+      "operation": "Exam D. Self-check",
+      "assignments": "Preparation: Read chapter 3 for Exam D.",
+      "minutes": "Prepar ation 120 Review 100"
+    },
+    {
+      "index": "30",
+      "content": "Return and explain Exam D. Self-check, integrated learning.",
+      "operation": "Explain Exam D check Questionnaire",
+      "assignments": "Check entire target abilities and learn unsatisfied parts.",
+      "minutes": "Review 200"
+    }
+  ],
+  "rawText": "金沢工業大学 学習支援計画書 E609-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Electrical and Electronic Engineering(2018〜)\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n電子回路Ⅰ\nElectronic Circuits I  4 E609-01  2022年度\n 2nd year 1st semester  修学規程第4条を参照\n    担当教員名\n FUKADA Haruki, NAKATA Shuhei, SHIMAUCHI Suehiro, MIKAMI Akiyoshi\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Diode 2.Transistor Amplifiers 3.Operational Amplifiers 4.Pulse Circuits 5.Regional-Oriented  Students will: (1) learn basic analog electronic circuits consisting of diode or transistor. (2) understand basic amplifiers with bipolar transistor. (3) understand design methods of analog electronic circuits. (4) learn circuits and mechanisms of FET or operational amplifier. (5) learn pulse circuits such as multi-vibrator.\n    授業の概要および学習上の助言   Course outline is shown as follows: 1. Fundamental electric circuit 2. Circuit consisting of diode 3. Mechanism of transistor 4. Amplifier using bipolar transistor 5. Grounding methods, equivalent circuit for signal 6. Thermal runaway, design of amplifier 7. DC bias circuit 8. Power amplifier, negative-feedback amplifier 9. Oscillator 10. Modulation and demodulation 11. FET 12. Operational amplifier 13. Pulse circuit\n    教科書および参考書・リザーブドブック   Textbooks:Electronic Circuits - Fundamentals & Applications - Reference books: Reserved books:None\n    履修に必要な予備知識や技能   Students should well understand \"Electric Circuits I\" and \"Electric Circuits II.\" Questions are welcome during lecture.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① J Be able to explain mechanisms of diode and transistor.   ② J Be able to draw equivalent circuits of transistor amplifier.   ③ J Be able to calculate voltages and currents in each part for transistor amplifiers.   ④ J Be able to draw equivalent circuits of FET amplifier.   ⑤ J Be able to design circuits of operational amplifier.   ⑥ J Be able to explain pulse circuits such as differential circuit, integrating circuit and multi vibrator.\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 40 40 20 0 0 0 0 100     指標と評価割合 総合評価割合 40 40 20 0 0 0 0 100   総合力指標 知識を取り込む力 40 40 20 0 0 0 0 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ①   Students will be evaluated with two exams of Exam C and Exam D. Exam C is related with FET amplifier and operational amplifier. Exam D is related with pulse circuits. Exams C and D are 20% each.   ②     ③     ④ レ   ⑤ レ   ⑥ レ   クイズ\n小テスト ① レ This evaluation includes Exams A and B, and other quizzes. Exam A is related with diode circuit, while Exam B is about bipolar transistor amplifier. Exams A and B are 10% and 20%, respectively.   ② レ   ③ レ   ④     ⑤     ⑥     レポート ① レ Students will be evaluated with reports related with Exams.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥ レ   成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ①      ②     ③     ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     (1) Fully understand and explain mechanism of diode and transistor, equivalent circuits. Also design transistor amplifier. (2) Explain FET amplifier and analyze its signal. (3) Explain mechanism of operational amplifier, and design application circuits. (4) Fully understand pulse circuits and explain them enough. (1) Understand and explain mechanism of diode and transistor, equivalent circuits. (2) Analyze signals of FET amplifier. (3) Explain mechanism of operational amplifier. (4) Explain mechanisms of pulse circuits.\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習課題に要する標準的な時間を記載してあります。日々の自学自習時間全体としては、",
+  "sourceYear": "2022",
+  "originalSourceIndex": 335,
+  "courseId": "2022:spring:E227-01:0:9592",
+  "language": "en"
+}

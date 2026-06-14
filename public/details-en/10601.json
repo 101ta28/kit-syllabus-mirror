@@ -1,0 +1,306 @@
+{
+  "sourceIndex": 10601,
+  "sourceUrl": "/opsyllabus/kitos0110/430/1",
+  "importedAt": "2026-06-12T08:02:15.722Z",
+  "title": "知識情報処理",
+  "subtitle": "Intelligent Information Processing",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "2",
+  "term": "2023年度\n 3rd year 2nd semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "MATSUI Kunio",
+    "KINDO Toshiki"
+  ],
+  "keywords": [
+    "Artificial Intelligence 2.Problem Solving 3.Inference 4.Machine Learning 5.Natural Language Processing"
+  ],
+  "educationalGoal": "Intelligent information processing requires knowledge to be represented and stored systematically. Students will: (1) Learn how to represent and use knowledge for problem solving and transform knowledge into a data structure for knowledge representation in computers. (2) Touch briefly on AI programming and deepen their understanding of problem solving, machine learning, natural language processing, etc.",
+  "advice": "This course is a lecture/practice course that gives an overview of artificial intelligence, which has recently been in the spotlight again. First, students will learn an outline of intelligent information processing. Next, students learn about search algorithms used in computer shogi programs, localization techniques important for robot cars (automated driving vehicles), and machine learning for big data processing. Finally, students learn about natural language processing, image processing, etc. To deepen their understanding of each method, emphasis is placed on tackling the quizzes that are presented throughout the semester. We will cover the following materials: 1. Basics of intelligent information processing. 2. Problem solving (state space model, various search algorithms, and dynamic programming). 3. Probabilistic methods (Bayesian theory, reinforcement learning, and localization). 4. Machine learning (clustering and pattern recognition). 5. Natural language processing.",
+  "books": "Textbooks:An Illusrated Guide to Artificial Intelligence Reference books:None Reserved books:None",
+  "requiredKnowledge": "“Problem solving” requires basic algorithms, “inference” requires probability theory at a high school level, and “machine learning” requires understanding of linear algebra. Additionally, the quizzes include tasks that students are encouraged to solve in their favorite programming language because they take a considerable amount of time if done manually.",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "D,J,L,M",
+      "body": "Be able to understand and explain the basic concepts of intelligent information processing."
+    },
+    {
+      "index": "②",
+      "type": "D,J,L,M",
+      "body": "Be able to understand and explain search algorithms and dynamic programming for problem solving."
+    },
+    {
+      "index": "③",
+      "type": "D,J,L,M",
+      "body": "Be able to understand and explain localization methods."
+    },
+    {
+      "index": "④",
+      "type": "D,J,L,M",
+      "body": "Be able to understand and explain how to apply machine learning to those problem and solve them."
+    },
+    {
+      "index": "⑤",
+      "type": "D,J,L,M",
+      "body": "Be able to understand and explain the basics of natural language processing and image processing."
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "40",
+        "60",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "40",
+        "60",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "40",
+        "60",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションと\nリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "(1) Be able to explain in detail basic intelligent information processing such as problem solving, inference, natural language processing, etc. (2) Be able to solve medium- and large-scale problems using computers.",
+    "standard": "(1) Be able to explain basic intelligent information processing such as problem solving, inference, natural language processing, etc. (2) Be able to solve simple concrete examples by hand calculation."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Guidance in class and understanding of learning objectives. Understand the overview of knowledge information processing. Also, understand what artificial intelligence is .",
+      "operation": "Lecture and Q&A",
+      "assignments": "Understand the learning objectives and what intelligent information processing is",
+      "minutes": "60"
+    },
+    {
+      "index": "2",
+      "content": "Understand state space and basic search.",
+      "operation": "lectures and exercises State-space and basic sear ch exercises",
+      "assignments": "Understand the contents of the teaching materials (PowerPoin t materials). Read Chapter 2 of the textbook .",
+      "minutes": "120"
+    },
+    {
+      "index": "3",
+      "content": "Understand optimal route search.",
+      "operation": "lectures and exercises Question about optimal rou te search",
+      "assignments": "Understand the contents of the teaching materials (PowerPoin t materials). Read Chapter 3 of the textbook .",
+      "minutes": "120"
+    },
+    {
+      "index": "4",
+      "content": "Understand game theory.",
+      "operation": "lectures and exercises Game theory questions",
+      "assignments": "Understand the contents of the teaching materials (PowerPoin t materials). Read Chapter 4 of the textbook .",
+      "minutes": "120"
+    },
+    {
+      "index": "5",
+      "content": "Understand dynamic programming.",
+      "operation": "ectures and exercises Questions about dynamic pr ogramming",
+      "assignments": "Understand the contents of the teaching materials (PowerPoin t materials). Read Chapter 5 of the textbook .",
+      "minutes": "120"
+    },
+    {
+      "index": "6",
+      "content": "Understand the basics of probability and Bayesia n theory.",
+      "operation": "lectures and exercises Questions about Bayesian t heory",
+      "assignments": "Understand the contents of the teaching materials (PowerPoin t materials). Read Chapter 6 of the textbook .",
+      "minutes": "120"
+    },
+    {
+      "index": "7",
+      "content": "Understand probabilistic generative models and N aive Bayes.",
+      "operation": "lectures and exercises Exercises about Naive Baye s",
+      "assignments": "Understand the contents of the teaching materials (PowerPoin t materials). Read Chapter 7 of the textbook .",
+      "minutes": "120"
+    },
+    {
+      "index": "8",
+      "content": "Understand Bayesian filters.",
+      "operation": "lectures and exercises Exercise about Bayes filte r",
+      "assignments": "Understand the contents of the teaching materials (PowerPoin t materials). Read Chapter 9 of the textbook .",
+      "minutes": "120"
+    },
+    {
+      "index": "9",
+      "content": "Understand particle filters.",
+      "operation": "lectures and exercises Question about particle fi lter",
+      "assignments": "Understand the contents of the teaching materials (PowerPoin t materials). Read Chapter 10 of the textboo k.",
+      "minutes": "120"
+    },
+    {
+      "index": "10",
+      "content": "Understand clustering using machine learning.",
+      "operation": "lectures and exercises Question about clustering",
+      "assignments": "Understand the contents of the teaching materials (PowerPoin t materials). Read Chapter 11 of the textboo k.",
+      "minutes": "120"
+    },
+    {
+      "index": "11",
+      "content": "Understand pattern recognition and supervised le arning.",
+      "operation": "lectures and exercises Questions about supervised learning",
+      "assignments": "Understand the contents of the teaching materials (PowerPoin t materials). Read Chapter 12 of the textboo k.",
+      "minutes": "120"
+    },
+    {
+      "index": "12",
+      "content": "Understand neural networks + basic perceptrons.",
+      "operation": "lectures and exercises Neural network + basic per ceptron assignment questio ns",
+      "assignments": "Understand the contents of the teaching materials (PowerPoin t materials). Read Chapter 13 of the textboo k.",
+      "minutes": "120"
+    },
+    {
+      "index": "13",
+      "content": "Understand natural language processing. Review what you have learned so far.",
+      "operation": "lectures and exercises Questions related to natur al language processing",
+      "assignments": "Understand the contents of the teaching materials (PowerPoin t materials). Read Chapter 14 of the textboo k.",
+      "minutes": "120"
+    },
+    {
+      "index": "14",
+      "content": "Review and final exam",
+      "operation": "Lecture and practice Final exam",
+      "assignments": "Review contents learned so far and deepen understanding Prepare for the final exam",
+      "minutes": "120"
+    },
+    {
+      "index": "15",
+      "content": "Explanation of the final exam Review",
+      "operation": "Lecture Self-evaluation",
+      "assignments": "Review contents learned from this course and deepen understanding.",
+      "minutes": "120"
+    }
+  ],
+  "rawText": "金沢工業大学 学習支援計画書 E529-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Information and Computer Science\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n知識情報処理\nIntelligent Information Processing  2 E529-01  2023年度\n 3rd year 2nd semester  修学規程第4条を参照\n    担当教員名\n MATSUI Kunio, KINDO Toshiki\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Artificial Intelligence 2.Problem Solving 3.Inference 4.Machine Learning 5.Natural Language Processing  Intelligent information processing requires knowledge to be represented and stored systematically. Students will: (1) Learn how to represent and use knowledge for problem solving and transform knowledge into a data structure for knowledge representation in computers. (2) Touch briefly on AI programming and deepen their understanding of problem solving, machine learning, natural language processing, etc.\n    授業の概要および学習上の助言   This course is a lecture/practice course that gives an overview of artificial intelligence, which has recently been in the spotlight again. First, students will learn an outline of intelligent information processing. Next, students learn about search algorithms used in computer shogi programs, localization techniques important for robot cars (automated driving vehicles), and machine learning for big data processing. Finally, students learn about natural language processing, image processing, etc. To deepen their understanding of each method, emphasis is placed on tackling the quizzes that are presented throughout the semester. We will cover the following materials: 1. Basics of intelligent information processing. 2. Problem solving (state space model, various search algorithms, and dynamic programming). 3. Probabilistic methods (Bayesian theory, reinforcement learning, and localization). 4. Machine learning (clustering and pattern recognition). 5. Natural language processing.\n    教科書および参考書・リザーブドブック   Textbooks:An Illusrated Guide to Artificial Intelligence Reference books:None Reserved books:None\n    履修に必要な予備知識や技能   “Problem solving” requires basic algorithms, “inference” requires probability theory at a high school level, and “machine learning” requires understanding of linear algebra. Additionally, the quizzes include tasks that students are encouraged to solve in their favorite programming language because they take a considerable amount of time if done manually.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① D,J,L,M Be able to understand and explain the basic concepts of intelligent information processing.   ② D,J,L,M Be able to understand and explain search algorithms and dynamic programming for problem solving.   ③ D,J,L,M Be able to understand and explain localization methods.   ④ D,J,L,M Be able to understand and explain how to apply machine learning to those problem and solve them.   ⑤ D,J,L,M Be able to understand and explain the basics of natural language processing and image processing.   ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 40 60 0 0 0 0 0 100     指標と評価割合 総合評価割合 40 60 0 0 0 0 0 100   総合力指標 知識を取り込む力 40 60 0 0 0 0 0 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ There is an exam at the end of the semester to evaluate the degree of the achievement.    ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     クイズ\n小テスト ①   To improve the level of student understanding, a quiz is normally presented after each class that should be completed and submitted within one week.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     レポート ①      ②     ③     ④     ⑤     ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ①      ②     ③     ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     (1) Be able to explain in detail basic intelligent information processing such as problem solving",
+  "sourceYear": "2023",
+  "originalSourceIndex": 430,
+  "courseId": "2023:fall:E513-01:0:10601",
+  "language": "en"
+}

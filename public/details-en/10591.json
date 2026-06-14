@@ -1,0 +1,306 @@
+{
+  "sourceIndex": 10591,
+  "sourceUrl": "/opsyllabus/kitos0110/420/1",
+  "importedAt": "2026-06-12T08:02:15.754Z",
+  "title": "情報と符号の理論",
+  "subtitle": "Information and coding theory",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "2",
+  "term": "2023年度\n 3rd year 1st semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "KINDO Toshiki",
+    "NINAGAWA Shigeru"
+  ],
+  "keywords": [
+    "Information content 2.Entropy 3.Information source 4.Channel 5.Error-correcting Code"
+  ],
+  "educationalGoal": "Considerable progress has been made in computer networks and ever-increasing amounts of information are now being exchanged. In this course, we learn the information theory and coding theory. First, we learn how to quantify information and related knowledge based on the probability theory. Next, we study the information source and its coding method. Finally, we learn how channel coding can be used to correct errors that have occurred in the channel.",
+  "advice": "Information theory can be used to quantify and encode information output by an information source. It can also be used to correct errors that have occurred in the channel. The topics of this course are as follows: 1. Set and probability 2. Conditional probability and Bayes' theorem 3. Definition of information content and entropy 4. Information source 5. Entropy of information source 6. Source coding 7. Channel coding and error-correcting code",
+  "books": "わかりやすい ディジタル情報理論(改訂2版)[オーム社]",
+  "requiredKnowledge": "Students are expected to review the following: (1) calculation of probability taken up in \"Probability and Statistics(E537-01)\", (2) logarithm calculations. If there is anything they cannot understand, they will need to resolve those issues by utilizing office hours. Students are expected to make good use of the exercises at the back of the textbook.",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "D,M",
+      "body": "Be able to explain terms such as information content, entropy, information source, and coding."
+    },
+    {
+      "index": "②",
+      "type": "D,M",
+      "body": "Be able to explain the source coding theorem."
+    },
+    {
+      "index": "③",
+      "type": "D,M",
+      "body": "Be able to perform Shannon-Fano coding."
+    },
+    {
+      "index": "④",
+      "type": "D,M",
+      "body": "Be able to perform Huffman coding."
+    },
+    {
+      "index": "⑤",
+      "type": "D,M",
+      "body": "Be able to explain error correcting code by parity check."
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "40",
+        "60",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "40",
+        "60",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "40",
+        "60",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションと\nリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "Be able to calculate probability and entropy without using a reference. Be able to perform Shannon-Fano coding and Huffman coding. Be able to explain the procedure used for error-correcting codes.",
+    "standard": "Be able to calculate probability and entropy while using a reference. Be able to explain Shannon-Fano coding and Huffman coding. Be able to understand the procedure used for error-correcting codes."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Outline of the course Elements of probability theory",
+      "operation": "Lecture Q&A self-check",
+      "assignments": "Preparation/reviews and self-r eflection regarding lesson con tent.",
+      "minutes": "30"
+    },
+    {
+      "index": "2",
+      "content": "Information content Entropy",
+      "operation": "Lecture Q&A self-check",
+      "assignments": "Preparation/reviews and self-r eflection regarding lesson con tent.",
+      "minutes": "90"
+    },
+    {
+      "index": "3",
+      "content": "Mutual information",
+      "operation": "Lecture Q&A self-check",
+      "assignments": "Preparation/reviews and self-r eflection regarding lesson con tent.",
+      "minutes": "90"
+    },
+    {
+      "index": "4",
+      "content": "Divergence",
+      "operation": "Lecture Q&A self-check",
+      "assignments": "Preparation/reviews and self-r eflection regarding lesson con tent.",
+      "minutes": "90"
+    },
+    {
+      "index": "5",
+      "content": "Information source",
+      "operation": "Lecture Q&A self-check",
+      "assignments": "Preparation/reviews and self-r eflection regarding lesson con tent.",
+      "minutes": "90"
+    },
+    {
+      "index": "6",
+      "content": "Channel",
+      "operation": "Lecture Q&A self-check",
+      "assignments": "Preparation/reviews and self-r eflection regarding lesson con tent.",
+      "minutes": "90"
+    },
+    {
+      "index": "7",
+      "content": "Midterm review",
+      "operation": "Review Q&A self-check",
+      "assignments": "Preparation/reviews and self-r eflection regarding lesson con tent.",
+      "minutes": "90"
+    },
+    {
+      "index": "8",
+      "content": "Source coding",
+      "operation": "Lecture Q&A self-check",
+      "assignments": "Preparation/reviews and self-r eflection regarding lesson con tent.",
+      "minutes": "90"
+    },
+    {
+      "index": "9",
+      "content": "Source coding theorem",
+      "operation": "Lecture Q&A self-check",
+      "assignments": "Preparation/reviews and self-r eflection regarding lesson con tent.",
+      "minutes": "90"
+    },
+    {
+      "index": "10",
+      "content": "Shannon-Fano coding, Huffman coding",
+      "operation": "Lecture Q&A self-check",
+      "assignments": "Preparation/reviews and self-r eflection regarding lesson con tent.",
+      "minutes": "90"
+    },
+    {
+      "index": "11",
+      "content": "Error-correcting code",
+      "operation": "Lecture Q&A self-check",
+      "assignments": "Preparation/reviews and self-r eflection regarding lesson con tent.",
+      "minutes": "90"
+    },
+    {
+      "index": "12",
+      "content": "Hamming code",
+      "operation": "Lecture Q&A self-check",
+      "assignments": "Preparation/reviews and self-r eflection regarding lesson con tent.",
+      "minutes": "90"
+    },
+    {
+      "index": "13",
+      "content": "Linear code",
+      "operation": "Lecture Q&A self-check",
+      "assignments": "Preparation/reviews and self-r eflection regarding lesson con tent.",
+      "minutes": "90"
+    },
+    {
+      "index": "14",
+      "content": "Cyclic code",
+      "operation": "Lecture Q&A self-check",
+      "assignments": "Preparation/reviews and self-r eflection regarding lesson con tent.",
+      "minutes": "90"
+    },
+    {
+      "index": "15",
+      "content": "Overall review Self-check",
+      "operation": "Review Q&A self-check",
+      "assignments": "reviews and self-reflection re garding lesson content.",
+      "minutes": "30"
+    }
+  ],
+  "rawText": "金沢工業大学 学習支援計画書 E518-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Information and Computer Science\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n情報と符号の理論\nInformation and coding theory  2 E518-01  2023年度\n 3rd year 1st semester  修学規程第4条を参照\n    担当教員名\n KINDO Toshiki, NINAGAWA Shigeru\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Information content 2.Entropy 3.Information source 4.Channel 5.Error-correcting Code  Considerable progress has been made in computer networks and ever-increasing amounts of information are now being exchanged. In this course, we learn the information theory and coding theory. First, we learn how to quantify information and related knowledge based on the probability theory. Next, we study the information source and its coding method. Finally, we learn how channel coding can be used to correct errors that have occurred in the channel.\n    授業の概要および学習上の助言   Information theory can be used to quantify and encode information output by an information source. It can also be used to correct errors that have occurred in the channel. The topics of this course are as follows: 1. Set and probability 2. Conditional probability and Bayes' theorem 3. Definition of information content and entropy 4. Information source 5. Entropy of information source 6. Source coding 7. Channel coding and error-correcting code\n    教科書および参考書・リザーブドブック   わかりやすい ディジタル情報理論(改訂2版)[オーム社]\n    履修に必要な予備知識や技能   Students are expected to review the following: (1) calculation of probability taken up in \"Probability and Statistics(E537-01)\", (2) logarithm calculations. If there is anything they cannot understand, they will need to resolve those issues by utilizing office hours. Students are expected to make good use of the exercises at the back of the textbook.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① D,M Be able to explain terms such as information content, entropy, information source, and coding.   ② D,M Be able to explain the source coding theorem.   ③ D,M Be able to perform Shannon-Fano coding.   ④ D,M Be able to perform Huffman coding.   ⑤ D,M Be able to explain error correcting code by parity check.   ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 40 60 0 0 0 0 0 100     指標と評価割合 総合評価割合 40 60 0 0 0 0 0 100   総合力指標 知識を取り込む力 40 60 0 0 0 0 0 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ An exam will be given at the end of semester. The scope will be announced in the class.    ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     クイズ\n小テスト ① レ Quizzes will be given irregularly but announced in advance. Their scopes will be announced in the class.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     レポート ①      ②     ③     ④     ⑤     ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ①      ②     ③     ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     Be able to calculate probability and entropy without using a reference. Be able to perform Shannon-Fano coding and Huffman coding. Be able to explain the procedure used for error-correcting codes.  Be able to calculate probability and entropy while using a reference. Be able to explain Shannon-Fano coding and Huffman coding. Be able to understand the procedure used for error-correcting codes.\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習課題に要する標準的な時間を記載してあります。日々の自学自習時間全体としては、各授業に応じた時間(例えば2単位科目の場合、予習2時間・復習2時間/週)を取るよう努めてください。詳しくは教員の指導に従って下さい。     授業明細   回数 学習内容 授業の運営方法 学習課題(予習・復習) 時間:分※     1  Outline of the course Elements of probability theory Lecture Q&A self-check Preparation/reviews and self-r eflection reg",
+  "sourceYear": "2023",
+  "originalSourceIndex": 420,
+  "courseId": "2023:fall:E503-01:0:10591",
+  "language": "en"
+}

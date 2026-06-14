@@ -1,0 +1,311 @@
+{
+  "sourceIndex": 13874,
+  "sourceUrl": "/opsyllabus/kitos0110/787/1",
+  "importedAt": "2026-06-12T08:03:10.345Z",
+  "title": "数値計算プログラミング",
+  "subtitle": "Numerical analysis and programming",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "2",
+  "term": "2026年度\n 2nd year 2nd semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "SAITO Hiroshi",
+    "ICHIKI Makoto"
+  ],
+  "keywords": [
+    "Python programming 2.Simultaneous equations 3.Nonlinear equations 4.Numerical differentiation and integration 5.Differential equation"
+  ],
+  "educationalGoal": "Students will: (1) Acquire numerical computation skills. (2) Develop the ability to perform numerical analysis. (3) Learn algorithms for high-accuracy computation.",
+  "advice": "This course teaches numerical computation methods using Python programming. Numerical computation requires an understanding of numerical algorithms as well as the ability to create and execute programs. Students will develop numerous programs through exercises and reports. Through this process, students will acquire the skills to implement and solve various engineering problems as computer programs. [Learning Topics] 1. Basic linear calculus 2. Numerical solving of simultaneous linear equations 3. Numerical calculation of eigenvalues and eigenvectors 4. Numerical solving of nonlinear equations 5. Interpolation and least squares methods 6. Numerical differentiation and integration 7. Numerical solving of ordinary differential equations This course emphasizes programming exercises, so students should prepare thoroughly before each class. After class, students are expected to refine the coding programs and apply them to various engineering problems.",
+  "books": "Python数値計算プログラミング[講談社サイエンティフィク]",
+  "requiredKnowledge": "[Required] Completion of \"Programming fundamentals\" and \"Linear algebra\". Students should also review python operations and vector/matrix operations. [Related] Calculus, differential equations, and basic mechanics",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "D,H,L",
+      "body": "Be able to create source code, including I/O and simple mathematical calculations."
+    },
+    {
+      "index": "②",
+      "type": "D,H,L",
+      "body": "Be able to solve equations numerically."
+    },
+    {
+      "index": "③",
+      "type": "D,H,L",
+      "body": "Be able to solve linear algebraic equations numerically."
+    },
+    {
+      "index": "④",
+      "type": "D,H,L",
+      "body": "Be able to calculate volume and the center of gravity using numerical integration."
+    },
+    {
+      "index": "⑤",
+      "type": "D,H,L",
+      "body": "Be able to analyze an equation of simple oscillation numerically."
+    },
+    {
+      "index": "⑥",
+      "type": "D,H,J,L,N",
+      "body": "Be able to develop and use source code that addresses a problem in mechanical engineering."
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "40",
+        "30",
+        "30",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "40",
+        "30",
+        "30",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "40",
+        "30",
+        "30",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションと\nリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "1. Coding in consideration of calculation accuracy. 2. Calculate solutions to nonlinear equations. 3. Calculate solutions to n-array linear equations with high accuracy. 4. Calculate the center of gravity numerically. 5. Solve simple hermonic motion numerically with high accuracy. 6. Apply to mechanical problems such as a rigid motion.",
+    "standard": "1. Perform four arithmetic operations, including logical expressions. 2. Obtain solutions to quadratic equations numerically. 3. Obtain solutions to simultaneous equations numerically. 4. Calculate integrals numerically using trapezoidal formulas. 5. Solve first-order differential equations numerically. 6. Analyze the motion of free fall numerically."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "[Course Guidance] [Numerical Computation Fundamentals]",
+      "operation": "Lectures Exercises and Explanations Quizzes",
+      "assignments": "Preparation: Text chapter 2",
+      "minutes": "90"
+    },
+    {
+      "index": "2",
+      "content": "[Floating-point Arithmetic and Rounding Errors]",
+      "operation": "Lectures Exercises and Explanations Quizzes",
+      "assignments": "Preparation: Text chapter 3, 4",
+      "minutes": "90"
+    },
+    {
+      "index": "3",
+      "content": "[Basic Linear Calculation]",
+      "operation": "Lectures Exercises and Explanations Quizzes",
+      "assignments": "Preparation: Text chapter 6",
+      "minutes": "90"
+    },
+    {
+      "index": "4",
+      "content": "[Solving of Simultaneous Linear Equations 1] (Direct method)",
+      "operation": "Lectures Exercises and Explanations Quizzes",
+      "assignments": "Preparation: Text chapter 7",
+      "minutes": "90"
+    },
+    {
+      "index": "5",
+      "content": "[Solving of Simultaneous Linear Equations 2] (Iterative method)",
+      "operation": "Lectures Exercises and Explanations Quizzes",
+      "assignments": "Preparation: Text chapter 8",
+      "minutes": "90"
+    },
+    {
+      "index": "6",
+      "content": "[Solving of Eigenvalues and Eigenvectors]",
+      "operation": "Lectures Exercises and Explanations Quizzes",
+      "assignments": "Preparation: Text chapter 9",
+      "minutes": "90"
+    },
+    {
+      "index": "7",
+      "content": "[Comprehensive Exercises 1]",
+      "operation": "Exercises and Explanations Q&A",
+      "assignments": "Review: 1st to 7th sessions Assignment: Report 1",
+      "minutes": "180"
+    },
+    {
+      "index": "8",
+      "content": "[Confirmation Test 1]",
+      "operation": "Exams and Explanations Self-examinations",
+      "assignments": "Review:",
+      "minutes": "90"
+    },
+    {
+      "index": "9",
+      "content": "[Solving of Nonlinear Equations]",
+      "operation": "Lectures Exercises and Explanations Quizzes",
+      "assignments": "Preparation: Text chapter 10",
+      "minutes": "90"
+    },
+    {
+      "index": "10",
+      "content": "[Interpolation and Least Squares]",
+      "operation": "Lectures Exercises and Explanations Quizzes",
+      "assignments": "Preparation: Text chapter 11",
+      "minutes": "90"
+    },
+    {
+      "index": "11",
+      "content": "[Differentiation and Integration of Functions]",
+      "operation": "Lectures Exercises and Explanations Quizzes",
+      "assignments": "Preparation: Text chapter 12",
+      "minutes": "90"
+    },
+    {
+      "index": "12",
+      "content": "[Solving of Ordinary Differential Equations]",
+      "operation": "Lectures Exercises and Explanations Quizzes",
+      "assignments": "Preparation: Text chapter 13",
+      "minutes": "90"
+    },
+    {
+      "index": "13",
+      "content": "[Comprehensive Exercises 2]",
+      "operation": "Exercises and Explanations Q&A",
+      "assignments": "Review: 9th to 12th sessions Assignment: Report 2",
+      "minutes": "180"
+    },
+    {
+      "index": "14",
+      "content": "[Confirmation Test 2]",
+      "operation": "Exams and Explanations Self-examinations",
+      "assignments": "Review:",
+      "minutes": "90"
+    },
+    {
+      "index": "15",
+      "content": "[Overall Review] [Confirmation of Achievement]",
+      "operation": "Self-examinations Q&A",
+      "assignments": "Putting learning outcomes into practice.",
+      "minutes": "90"
+    }
+  ],
+  "rawText": "金沢工業大学 学習支援計画書 K019-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Mechanical Engineering\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n数値計算プログラミング\nNumerical analysis and programming  2 K019-01  2026年度\n 2nd year 2nd semester  修学規程第4条を参照\n    担当教員名\n SAITO Hiroshi, ICHIKI Makoto      *印は、実務経験のある教員を示しています。\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Python programming 2.Simultaneous equations 3.Nonlinear equations 4.Numerical differentiation and integration 5.Differential equation  Students will: (1) Acquire numerical computation skills. (2) Develop the ability to perform numerical analysis. (3) Learn algorithms for high-accuracy computation.\n    授業の概要および学習上の助言   This course teaches numerical computation methods using Python programming. Numerical computation requires an understanding of numerical algorithms as well as the ability to create and execute programs. Students will develop numerous programs through exercises and reports. Through this process, students will acquire the skills to implement and solve various engineering problems as computer programs. [Learning Topics] 1. Basic linear calculus 2. Numerical solving of simultaneous linear equations 3. Numerical calculation of eigenvalues and eigenvectors 4. Numerical solving of nonlinear equations 5. Interpolation and least squares methods 6. Numerical differentiation and integration 7. Numerical solving of ordinary differential equations This course emphasizes programming exercises, so students should prepare thoroughly before each class. After class, students are expected to refine the coding programs and apply them to various engineering problems.\n    教科書および参考書・リザーブドブック   Python数値計算プログラミング[講談社サイエンティフィク]\n    履修に必要な予備知識や技能   [Required] Completion of \"Programming fundamentals\" and \"Linear algebra\". Students should also review python operations and vector/matrix operations. [Related] Calculus, differential equations, and basic mechanics\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① D,H,L Be able to create source code, including I/O and simple mathematical calculations.   ② D,H,L Be able to solve equations numerically.   ③ D,H,L Be able to solve linear algebraic equations numerically.   ④ D,H,L Be able to calculate volume and the center of gravity using numerical integration.   ⑤ D,H,L Be able to analyze an equation of simple oscillation numerically.   ⑥ D,H,J,L,N Be able to develop and use source code that addresses a problem in mechanical engineering.\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 40 30 30 0 0 0 0 100     指標と評価割合 総合評価割合 40 30 30 0 0 0 0 100   総合力指標 知識を取り込む力 40 30 30 0 0 0 0 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ To check understanding of algorithms for numerical computation. In addition to the usual written questions, students will be asked to code a program for a given problem and answer the results accurately. In addition to the usual written questions, the students will be asked to code a program for a given task and answer the results with the required accuracy.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     クイズ\n小テスト ① レ Students will take tests every class, in which their understanding level of the preview and review will be checked.    ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     レポート ① レ Students will be evaluated on two reports concerning development of source code and analysis of its execution results for an issue assigned by a teacher.    ② レ   ③ レ   ④ レ   ⑤ レ   ⑥ レ   成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ①      ②     ③     ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     1. Coding in consideration of calculation accuracy. 2. Calculate solutions to nonlinear equations. 3. Calculate solutions to n-array linear equatio",
+  "sourceYear": "2026",
+  "originalSourceIndex": 787,
+  "courseId": "2026:spring:K104-01:0:13874",
+  "language": "en"
+}

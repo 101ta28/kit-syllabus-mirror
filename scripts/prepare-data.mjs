@@ -6,7 +6,7 @@ const sourcePath = path.resolve(root, "../europa-syllabus-search-detail.json");
 const detailCachePath = path.resolve(root, "data/syllabus-details-cache.json");
 const englishDetailCachePath = path.resolve(root, "data/syllabus-details-cache-en.json");
 const outputPath = path.resolve(root, "src/data/generated.ts");
-const searchIndexOutputPath = path.resolve(root, "public/search-index.json");
+const searchIndexOutputDir = path.resolve(root, "public/search-index");
 const detailsOutputDir = path.resolve(root, "public/details");
 const englishDetailsOutputDir = path.resolve(root, "public/details-en");
 
@@ -302,6 +302,9 @@ await fs.rm(detailsOutputDir, { recursive: true, force: true });
 await fs.rm(englishDetailsOutputDir, { recursive: true, force: true });
 await fs.mkdir(detailsOutputDir, { recursive: true });
 await fs.mkdir(englishDetailsOutputDir, { recursive: true });
+await fs.rm(path.resolve(root, "public/search-index.json"), { force: true });
+await fs.rm(searchIndexOutputDir, { recursive: true, force: true });
+await fs.mkdir(searchIndexOutputDir, { recursive: true });
 const validDetails = [];
 async function writeDetailsForLanguage(detailList, language, outputDir) {
   const valid = [];
@@ -340,6 +343,7 @@ async function writeDetailsForLanguage(detailList, language, outputDir) {
 validDetails.push(...await writeDetailsForLanguage(details, "ja", detailsOutputDir));
 const validEnglishDetails = await writeDetailsForLanguage(englishDetails, "en", englishDetailsOutputDir);
 
+const courseJson = JSON.stringify(courses.map(({ searchText, ...course }) => course));
 const generated = `export interface CourseSummary {
   id: string;
   schoolType: number;
@@ -406,10 +410,16 @@ export interface SyllabusDetail {
   rawText: string;
 }
 
-export const courses: CourseSummary[] = ${JSON.stringify(courses.map(({ searchText, ...course }) => course), null, 2)};
+const coursesJson = ${JSON.stringify(courseJson)};
+export const courses = JSON.parse(coursesJson) as CourseSummary[];
 `;
 
 await fs.writeFile(outputPath, generated, "utf8");
-await fs.writeFile(searchIndexOutputPath, JSON.stringify(Object.fromEntries(courses.map((course) => [course.id, course.searchText ?? ""]))), "utf8");
+for (const yearLabel of [...new Set(courses.map((course) => course.yearLabel))].sort()) {
+  const yearSearchIndex = Object.fromEntries(
+    courses.filter((course) => course.yearLabel === yearLabel).map((course) => [course.id, course.searchText ?? ""]),
+  );
+  await fs.writeFile(path.join(searchIndexOutputDir, `${yearLabel}.json`), JSON.stringify(yearSearchIndex), "utf8");
+}
 console.log(`Generated ${courses.length} courses, ${validDetails.length} Japanese detail pages, and ${validEnglishDetails.length} English detail pages.`);
 console.log(`Example route: ${courses[0].routePath}`);

@@ -1,0 +1,321 @@
+{
+  "sourceIndex": 8424,
+  "sourceUrl": "/opsyllabus/kitos0110/62/1",
+  "importedAt": "2026-06-12T08:01:33.373Z",
+  "title": "情報のための統計",
+  "subtitle": "Statistics for Information Science",
+  "courseType": "Mathematics and Science Program\nMathematics and Science Courses",
+  "credits": "2",
+  "term": "2021年度\n 1st year 2nd semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "YAMAOKA Hidetaka",
+    "TANIGUCHI Tetsuya",
+    "WATANABE Shuji",
+    "TAKAI Yuuki",
+    "NISHI Makoto"
+  ],
+  "keywords": [
+    "Data science 2.Random variables & probability distributions 3.Statistical processing 4.Statistical processing by R or Python 5.Regional cooperation"
+  ],
+  "educationalGoal": "In modern society, a large amount of data can be easily collected due to the development of information technology. An academic field that statistically analyzes and evaluates a large amount of data is called data science. In this course, we will conduct practical exercises and understand the mathematical meaning of statistical analysis of numerical data, which is a basic method of data science. Also, learn statistical processing methods and expression techniques using computer software such as R and Python.",
+  "advice": "This is a basic course in statistics. We will cover the following topics: 1. Data science. 2. Mathematical meaning of probability . 3. Probability distributions. 4. Data analysis methods using statistics. Students are expected to understand that measurement data in an experiment have variation and that this variation is a variable associated with a stochastic phenomenon. Students are expected to understand the normal distribution as a common probability distribution function. Students are expected to learn statistics in data analysis, including correlation and regression analysis. Students are expected to analyze data using Excel (computer spreadsheet software). Students are expected to complete the exercises on their own and not copy/consult with others.",
+  "books": "Do not use textbook.",
+  "requiredKnowledge": "Mathematics skills learned in Mathematics for Information Science. Basic computer skills.",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "D",
+      "body": "Be able to understand the role of data science"
+    },
+    {
+      "index": "②",
+      "type": "D",
+      "body": "Be able to treat data values as a random variable and fit data to an appropriate probability function."
+    },
+    {
+      "index": "③",
+      "type": "D",
+      "body": "Be able to calculate probability values using a normal distribution table."
+    },
+    {
+      "index": "④",
+      "type": "D",
+      "body": "Be able to process data using Excel."
+    },
+    {
+      "index": "⑤",
+      "type": "A",
+      "body": "Be able to attend every class and complete the handouts."
+    },
+    {
+      "index": "⑥",
+      "type": "C",
+      "body": "Understand the English expressions of basic technical terms in subjects."
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "30",
+        "20",
+        "10",
+        "20",
+        "0",
+        "0",
+        "20",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "30",
+        "20",
+        "10",
+        "20",
+        "0",
+        "0",
+        "20",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "30",
+        "20",
+        "10",
+        "20",
+        "0",
+        "0",
+        "20",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションと\nリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "(1) Explain keywords accurately. (2) Be able to summarize and accurately analyze data obtained from an experiment by using appropriate descriptive statistics. (3) Be able to effectively display data in tables and graphs.",
+    "standard": "(1) Explain keywords. (2) Be able to summarize and analyze data obtained from an experiment by using appropriate descriptive statistics. (3) Be able to effectively display data in tables and graphs."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Course introduction, Self-introduction. Learning about the role of data science and managing data",
+      "operation": "Lecture and Q&A",
+      "assignments": "Read the syllabus and confirm the student's target (1) Understand the contents on the left (2) Prepare for class 2",
+      "minutes": "(*1) 30 (*2) 30"
+    },
+    {
+      "index": "2",
+      "content": "Probability functions, probability function graphs, binomial distribution",
+      "operation": "Lecture and practice",
+      "assignments": "(1) Exercise with the contents shown on the left (2) Prepare for class 3",
+      "minutes": "(*1) 60 (*2) 60"
+    },
+    {
+      "index": "3",
+      "content": "Probability functions, probability function graphs, binomial distribution",
+      "operation": "Lecture and practice",
+      "assignments": "(1) Exercise with the contents shown on the left (2) Prepare for quiz",
+      "minutes": "(*1) 60 (*2) 60"
+    },
+    {
+      "index": "4",
+      "content": "Statistical methods for data analysis",
+      "operation": "Lecture and practice",
+      "assignments": "(1) Exercise with the contents shown on the left (2) Prepare for class 5",
+      "minutes": "(*1) 60 (*2) 60"
+    },
+    {
+      "index": "5",
+      "content": "Statistical methods for data analysis",
+      "operation": "Lecture and practice",
+      "assignments": "(1) Exercise with the contents shown on the left (2) Prepare for quiz",
+      "minutes": "(*1) 60 (*2) 60"
+    },
+    {
+      "index": "6",
+      "content": "Quiz on contents from classes 1 to 5 Statistical learning for bivariate analysis",
+      "operation": "Quiz Lecture and practice",
+      "assignments": "(1) Exercise with the contents shown on the left (2) Prepare for class 7",
+      "minutes": "(*1) 60 (*2) 60"
+    },
+    {
+      "index": "7",
+      "content": "Quiz description Statistical learning for bivariate analysis",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "(1) Exercise with the contents shown on the left (2) Prepare for class 8",
+      "minutes": "(*1) 60 (*2) 60"
+    },
+    {
+      "index": "8",
+      "content": "Statistical learning for bivariate analysis",
+      "operation": "Lecture and practice",
+      "assignments": "(1) Exercise with the contents shown on the left (2) Prepare for class 8",
+      "minutes": "(*1) 60 (*2) 60"
+    },
+    {
+      "index": "9",
+      "content": "Techniques for data analysis practice",
+      "operation": "Lecture and practice",
+      "assignments": "(1) Prepare for test",
+      "minutes": "(*1) 120"
+    },
+    {
+      "index": "10",
+      "content": "Quiz on contents from classes 6 to 9 Practice of data analysis by computer",
+      "operation": "Quiz Lecture and practice",
+      "assignments": "(1) Exercise with the contents shown on the left (2) Prepare for class 11",
+      "minutes": "(*1) 60 (*2) 60"
+    },
+    {
+      "index": "11",
+      "content": "Quiz description Practice of data analysis by computer",
+      "operation": "Lecture and practice Self-check",
+      "assignments": "(1) Exercise with the contents shown on the left (2) Prepare for final exam",
+      "minutes": "(*1) 60 (*2) 60"
+    },
+    {
+      "index": "12",
+      "content": "Practice of data analysis by computer",
+      "operation": "Team discussion and practice",
+      "assignments": "(2) Organize data with the team and prepare for the presentation",
+      "minutes": ""
+    },
+    {
+      "index": "12",
+      "content": "Final exam on contents from classes 1 to 13 Team learning and data analysis.",
+      "operation": "Final exam and review Self-reflection",
+      "assignments": "(1) Evaluate other team (2) Summarize the report",
+      "minutes": "(*1) 30 (*2) 90"
+    },
+    {
+      "index": "13",
+      "content": "Explanation of answers to final exam.",
+      "operation": "Lecture and Q&A Self-evaluation",
+      "assignments": "(1) Review of final exam (2) Organize data with the team and prepare for the presentation",
+      "minutes": "(*1) 60 (*2) 60"
+    },
+    {
+      "index": "15",
+      "content": "Self-reflection class",
+      "operation": "Self-evaluation",
+      "assignments": "(1) Self-check",
+      "minutes": "(*1) 60"
+    },
+    {
+      "index": "16",
+      "content": "Special lecture (business and mathematics) Lectures by engineers from local companies (regional cooperation)",
+      "operation": "Lecture",
+      "assignments": "(1) Survey of the company (2) Write comments on the lecture",
+      "minutes": "(*1)30 (*2)30"
+    }
+  ],
+  "rawText": "金沢工業大学 学習支援計画書 G213-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nMathematics and Science Program\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Mathematics and Science Program\nMathematics and Science Courses\n情報のための統計\nStatistics for Information Science  2 G213-01  2021年度\n 1st year 2nd semester  修学規程第4条を参照\n    担当教員名\n YAMAOKA Hidetaka, TANIGUCHI Tetsuya, WATANABE Shuji, TAKAI Yuuki, NISHI Makoto\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Data science 2.Random variables & probability distributions 3.Statistical processing 4.Statistical processing by R or Python 5.Regional cooperation  In modern society, a large amount of data can be easily collected due to the development of information technology. An academic field that statistically analyzes and evaluates a large amount of data is called data science. In this course, we will conduct practical exercises and understand the mathematical meaning of statistical analysis of numerical data, which is a basic method of data science. Also, learn statistical processing methods and expression techniques using computer software such as R and Python.\n    授業の概要および学習上の助言   This is a basic course in statistics. We will cover the following topics: 1. Data science. 2. Mathematical meaning of probability . 3. Probability distributions. 4. Data analysis methods using statistics. Students are expected to understand that measurement data in an experiment have variation and that this variation is a variable associated with a stochastic phenomenon. Students are expected to understand the normal distribution as a common probability distribution function. Students are expected to learn statistics in data analysis, including correlation and regression analysis. Students are expected to analyze data using Excel (computer spreadsheet software). Students are expected to complete the exercises on their own and not copy/consult with others.\n    教科書および参考書・リザーブドブック   Do not use textbook.\n    履修に必要な予備知識や技能   Mathematics skills learned in Mathematics for Information Science. Basic computer skills.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① D Be able to understand the role of data science    ② D Be able to treat data values as a random variable and fit data to an appropriate probability function.   ③ D Be able to calculate probability values using a normal distribution table.   ④ D Be able to process data using Excel.   ⑤ A Be able to attend every class and complete the handouts.   ⑥ C Understand the English expressions of basic technical terms in subjects.\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 30 20 10 20 0 0 20 100     指標と評価割合 総合評価割合 30 20 10 20 0 0 20 100   総合力指標 知識を取り込む力 30 20 10 20 0 0 20 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ There will be an exam at the end of the semester to evaluate the student’s degree of achievement. Performance on the exam will comprise 30% of the overall evaluation. This exam is designed to determine whether the student has sufficient knowledge and application skills in this subject. The scope of this examination will be class content from the entire semester.    ② レ   ③ レ   ④ レ   ⑤     ⑥ レ   クイズ\n小テスト ① レ There will be 2 quizzes as the class progresses to confirm the student’s level of understanding. Each quiz will comprise 10% of the overall evaluation (for a total of 20%). The quizzes will allow students to check their level of understanding based on their quiz results.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥ レ   レポート ① レ Students will form teams and analyze data acquired by the team using Excel. Students will evaluate data variability, produce a graph, consider the analysis results, and summarize their work in a report. The report will comprise 10% of the overall (term) evaluation.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥ レ   成果発表\n(口頭・実技) ① レ The team will present an analysis of thei",
+  "sourceYear": "2021",
+  "originalSourceIndex": 62,
+  "courseId": "2021:fall:G470-01:0:8424",
+  "language": "en"
+}

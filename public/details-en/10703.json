@@ -1,0 +1,306 @@
+{
+  "sourceIndex": 10703,
+  "sourceUrl": "/opsyllabus/kitos0110/532/1",
+  "importedAt": "2026-06-12T08:02:16.566Z",
+  "title": "コンピュータグラフィックス演習",
+  "subtitle": "Computer Graphics Laboratory",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "2",
+  "term": "2023年度\n 2nd year 1st semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "TAKANO Sayoko",
+    "URA Masahiro"
+  ],
+  "keywords": [
+    "History of CG 2.Geometric Transformation 3.Modeling 4.Rendering 5.Regional Cooperation"
+  ],
+  "educationalGoal": "In this course, students will: (1) Learn the history of computer graphics (CG). (2) Gain an understanding of geometric transformation. (3) Acquire knowledge and basic theory related to modeling. (4) Acquire knowledge and basic theory related to rendering. (5) Create CG works about regions.",
+  "advice": "This course aims to teach students how to the master basic theory and expression techniques of CG, after acquiring basic knowledge of the field such as the history, systems, intellectual property (IP) rights issue, and so on. Students will also experientially learn basic theory related to coordinate transformation, modeling and rendering through lectures and practices by using three-dimensional CG (3DCG) software. A basic outline of the course subjects is provided below: 1. What is CG, History of CG, and Construction of CG System 2. 2D and 3D Coordinate Transformation 3. Modeling 4. Rendering 5. Copyright (IP)",
+  "books": "none",
+  "requiredKnowledge": "Knowledge of geometry learned in junior and senior high school is required. Knowledge related to physical optics is required.",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "E,L,M",
+      "body": "Be able to understand history and system of CG."
+    },
+    {
+      "index": "②",
+      "type": "E,M",
+      "body": "Be able to understand geometric transformation and create shapes by using it."
+    },
+    {
+      "index": "③",
+      "type": "E,M",
+      "body": "Be able to understand the basic knowledge and theory of modeling and express basic shapes."
+    },
+    {
+      "index": "④",
+      "type": "E,M",
+      "body": "Be able to understand the basic knowledge and theory of rendering and output realistic image."
+    },
+    {
+      "index": "⑤",
+      "type": "E,M",
+      "body": "Be able to create CG works about regions."
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "15",
+        "0",
+        "15",
+        "10",
+        "50",
+        "0",
+        "10",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "15",
+        "0",
+        "15",
+        "10",
+        "50",
+        "0",
+        "10",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "15",
+        "0",
+        "15",
+        "10",
+        "50",
+        "0",
+        "10",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションと\nリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "Achieve “Target Abilities” in excess of 80%.",
+    "standard": "Achieve “Target Abilities” from 60 to 70%."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "[What is CG] History of CG Copyright (IP) Construction of a CG System",
+      "operation": "Lecture Self-reflection",
+      "assignments": "Review \"history of CG\", \"Copyright\" and \"CG System\" using textbook",
+      "minutes": "180"
+    },
+    {
+      "index": "2",
+      "content": "[Coordinate Transformation (Theory)] 2D coordinate transformation such as translation, zoom, and rotation",
+      "operation": "Lecture and practice Self-reflection",
+      "assignments": "Review \"2D Coordinate Transformation\" using textbook",
+      "minutes": "180"
+    },
+    {
+      "index": "3",
+      "content": "[Coordinate Transformation (Practice)] 2D/3D coordinate transformation such as translation, zoom, and rotation",
+      "operation": "Lecture and practice Self-reflection",
+      "assignments": "Review \"Coordinate Transformation\" using CG software",
+      "minutes": "180"
+    },
+    {
+      "index": "4",
+      "content": "[Work 1] Works by using \"Coordinate Transformation\" in the course",
+      "operation": "Lecture and practice Self-reflection",
+      "assignments": "Wrok 1",
+      "minutes": "180"
+    },
+    {
+      "index": "5",
+      "content": "[Modeling (Theory)] Solid Model Constructive Solid Geometry (CSG) Sweeping",
+      "operation": "Lecture and practice Self-reflection",
+      "assignments": "Review \"Modeling\" using textbook",
+      "minutes": "180"
+    },
+    {
+      "index": "6",
+      "content": "[Modeling (Practice 1)] Solid Model Constructive Solid Geometry (CSG) Sweeping",
+      "operation": "Lecture and practice Self-reflection",
+      "assignments": "Review \"Modeling\" using CG software",
+      "minutes": "180"
+    },
+    {
+      "index": "7",
+      "content": "[Modeling (Practice 2)] Solid Model Constructive Solid Geometry (CSG) Sweeping",
+      "operation": "Lecture and practice Self-reflection",
+      "assignments": "Review \"Modeling\" using CG software",
+      "minutes": "180"
+    },
+    {
+      "index": "8",
+      "content": "[Work 2] Works by using \"Coordinate Modeling\" in the course",
+      "operation": "Lecture and practice Self-reflection",
+      "assignments": "Work 2",
+      "minutes": "180"
+    },
+    {
+      "index": "9",
+      "content": "[Rendering (Theory)] Shading Shadowing Mapping",
+      "operation": "Lecture and practice Self-reflection",
+      "assignments": "Review \"Shading\", \"Shadowing\" and \"Mapping\" using textbook",
+      "minutes": "180"
+    },
+    {
+      "index": "10",
+      "content": "[Rendering (Practice 1)] Shading Shadowing Mapping",
+      "operation": "Lecture and practice Self-reflection",
+      "assignments": "Review \"Rendering\" using CG software",
+      "minutes": "180"
+    },
+    {
+      "index": "11",
+      "content": "[Rendering (Practice 2)] Shading Shadowing Mapping",
+      "operation": "Lecture and practice Self-reflection",
+      "assignments": "Review \"Rendering\" using CG software",
+      "minutes": "180"
+    },
+    {
+      "index": "12",
+      "content": "[Examination] Examination Reflection",
+      "operation": "Examination Lecture and practice Self-check Self-reflection",
+      "assignments": "Review contents in the course",
+      "minutes": "180"
+    },
+    {
+      "index": "13",
+      "content": "[Work 3] Works by using \"Rendering\" in the course",
+      "operation": "Lecture and practice Self-reflection",
+      "assignments": "Work 3",
+      "minutes": "180"
+    },
+    {
+      "index": "14",
+      "content": "[Portfolio] Portfolio",
+      "operation": "Lecture and practice Self-reflection",
+      "assignments": "Portfolio",
+      "minutes": "180"
+    },
+    {
+      "index": "15",
+      "content": "Presentation",
+      "operation": "Presentation Self-check Self-reflection",
+      "assignments": "Review all contents of study given in the course",
+      "minutes": "180"
+    }
+  ],
+  "rawText": "金沢工業大学 学習支援計画書 F013-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Media Informatics\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\nコンピュータグラフィックス演習\nComputer Graphics Laboratory  2 F013-01  2023年度\n 2nd year 1st semester  修学規程第4条を参照\n    担当教員名\n TAKANO Sayoko, URA Masahiro\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.History of CG 2.Geometric Transformation 3.Modeling 4.Rendering 5.Regional Cooperation  In this course, students will: (1) Learn the history of computer graphics (CG). (2) Gain an understanding of geometric transformation. (3) Acquire knowledge and basic theory related to modeling. (4) Acquire knowledge and basic theory related to rendering. (5) Create CG works about regions.\n    授業の概要および学習上の助言   This course aims to teach students how to the master basic theory and expression techniques of CG, after acquiring basic knowledge of the field such as the history, systems, intellectual property (IP) rights issue, and so on. Students will also experientially learn basic theory related to coordinate transformation, modeling and rendering through lectures and practices by using three-dimensional CG (3DCG) software. A basic outline of the course subjects is provided below: 1. What is CG, History of CG, and Construction of CG System 2. 2D and 3D Coordinate Transformation 3. Modeling 4. Rendering 5. Copyright (IP)\n    教科書および参考書・リザーブドブック   none\n    履修に必要な予備知識や技能   Knowledge of geometry learned in junior and senior high school is required. Knowledge related to physical optics is required.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① E,L,M Be able to understand history and system of CG.   ② E,M Be able to understand geometric transformation and create shapes by using it.   ③ E,M Be able to understand the basic knowledge and theory of modeling and express basic shapes.   ④ E,M Be able to understand the basic knowledge and theory of rendering and output realistic image.   ⑤ E,M Be able to create CG works about regions.   ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 15 0 15 10 50 0 10 100     指標と評価割合 総合評価割合 15 0 15 10 50 0 10 100   総合力指標 知識を取り込む力 15 0 15 10 50 0 10 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ Students will be evaluated on their technical-theoretical knowledge of CG including geometric deformation, modeling, and rendering through examination.   ② レ   ③ レ   ④ レ   ⑤     ⑥     クイズ\n小テスト ①      ②     ③     ④     ⑤     ⑥     レポート ① レ Students will be evaluated on their ability to explain their CG production skills through portfolio of their own work.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     成果発表\n(口頭・実技) ① レ Students will be evaluated as to whether they can properly explain purpose of their work and expression techniques they used.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     作品 ① レ Students will demonstrate an understanding of the attitudes and mathematics related to CG and create CG works by using various expression techniques.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ① レ Students will be evaluated on their commitment to the class.   ② レ   ③ レ   ④ レ   ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     Achieve “Target Abilities” in excess of 80%. Achieve “Target Abilities” from 60 to 70%.\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習課題に要する標準的な時間を記載してあります。日々の自学自習時間全体としては、各授業に応じた時間(例えば2単位科目の場合、予習2時間・復習2時間/週)を取るよう努めてください。詳しくは教員の指導に従って下さい。     授業明細   回数 学習内容 授業の運営方法 学習課題(予習・復習) 時間:分※     1  [What is CG] History of CG Copyright (IP) Construction of a CG System Lecture Self-reflection Review \"history of CG\", \"Copyright\" and \"CG System\" using textbook  180   2  [Coordinate",
+  "sourceYear": "2023",
+  "originalSourceIndex": 532,
+  "courseId": "2023:full-year:E928-11:0:10703",
+  "language": "en"
+}

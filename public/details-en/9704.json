@@ -1,0 +1,305 @@
+{
+  "sourceIndex": 9704,
+  "sourceUrl": "/opsyllabus/kitos0110/447/1",
+  "importedAt": "2026-06-12T08:01:55.482Z",
+  "title": "学習理論",
+  "subtitle": "Machine Learning",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "2",
+  "term": "2022年度\n 3rd year 2nd semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "NAGATA Shigemi"
+  ],
+  "keywords": [
+    "Artificial Intelligence 2.Machine Learning 3.Regression 4.Classification 5.Neural Network"
+  ],
+  "educationalGoal": "Artificial Intelligence that can bring intelligence to machines is becoming increasingly important in various areas of the ICT society. This course aims to have students master basic technologies related to artificial intelligence, and in particular, to deepen their understanding of machine learning and its application systems, which are important technologies for realizing intelligent systems.",
+  "advice": "This course covers the basic to application of machine learning, which is one of important technologies for realizing intelligent systems. Students will learn the basic techniques for various machine learning and build and evaluate application systems based on these machine learning techniques. Students are expected to be able to evaluate the methods and challenges of implementing an application system for machine learning.",
+  "books": "Textbooks: Reference books:None Reserved books:None",
+  "requiredKnowledge": "It is desirable for students to have sufficient knowledge in mathematics (especially regarding differential and integral calculus, linear algebra, probability etc.) and programming skills with Python.",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "D,J,L,M",
+      "body": "Be able to explain the basic concepts in machine learning."
+    },
+    {
+      "index": "②",
+      "type": "D,J,L,M",
+      "body": "Be able to understand and explain various techniques or models for regression."
+    },
+    {
+      "index": "③",
+      "type": "D,J,L,M",
+      "body": "Be able to understand and explain various techniques or models for classification."
+    },
+    {
+      "index": "④",
+      "type": "D,J,L,M",
+      "body": "Be able to understand and explain various techniques or models for neural networks."
+    },
+    {
+      "index": "⑤",
+      "type": "D,J,L,M",
+      "body": "Be able to build and evaluate application systems based on various machine learning techniques or models."
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "40",
+        "60",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "40",
+        "60",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "40",
+        "60",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションと\nリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "Be able to understand and comprehensively explain the basic concepts and techniques or models in machine learning.",
+    "standard": "Be able to understand and approximately explain the basic concepts and techniques or models in machine learning."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Cource introduction What is machine learning ?",
+      "operation": "Lecture and Q&A",
+      "assignments": "Preview: Understand the learning objectives. Read the indicated textbook section. Review: Understand the content of class 1.",
+      "minutes": "60 60"
+    },
+    {
+      "index": "2",
+      "content": "Introduction to Python programming.",
+      "operation": "Lecture and exercise Self-check",
+      "assignments": "Preview: Read the indicated textbook section. Review: Understand the content of class 2.",
+      "minutes": "60 60"
+    },
+    {
+      "index": "3",
+      "content": "Review of mathmatics (1) - Linear algebra - Optimization",
+      "operation": "Lecture and exercise Self-check",
+      "assignments": "Preview: Read the indicated textbook section. Review: Understand the content of class 3.",
+      "minutes": "60 60"
+    },
+    {
+      "index": "4",
+      "content": "Review of mathmatics (2) - Probability - Statistics",
+      "operation": "Lecture and exercise Self-check",
+      "assignments": "Preview: Read the indicated textbook section. Review: Understand the content of class 4.",
+      "minutes": "60 60"
+    },
+    {
+      "index": "5",
+      "content": "Regression analysis (1) - Linear regression analysis",
+      "operation": "Lecture and exercise Self-check",
+      "assignments": "Preview: Read the indicated textbook section. Review: Understand the content of class 5.",
+      "minutes": "60 60"
+    },
+    {
+      "index": "6",
+      "content": "Regression analysis (2) - Generalized linear model",
+      "operation": "Lecture and exercise Self-check",
+      "assignments": "Preview: Read the indicated textbook section. Review: Understand the content of class 6.",
+      "minutes": "60 60"
+    },
+    {
+      "index": "7",
+      "content": "Classification (1) - Linear discriminant analysis - Support vector machine",
+      "operation": "Lecture and exercise Self-check",
+      "assignments": "Preview: Read the indicated textbook section. Review: Understand the content of class 7.",
+      "minutes": "60 60"
+    },
+    {
+      "index": "8",
+      "content": "Classification (2) - Probablistic classification - Decision tree",
+      "operation": "Lecture and exercise Self-check",
+      "assignments": "Preview: Read the indicated textbook section. Review: Understand the content of class 8.",
+      "minutes": "60 60"
+    },
+    {
+      "index": "9",
+      "content": "Neural Network (1) - Neural network - Backpropagation",
+      "operation": "Lecture and exercise Self-check",
+      "assignments": "Preview: Read the indicated textbook section. Review: Understand the content of class 9.",
+      "minutes": "60 60"
+    },
+    {
+      "index": "10",
+      "content": "Neural Network (2) - Issues and extensions",
+      "operation": "Lecture and exercise Self-check",
+      "assignments": "Preview: Read the indicated textbook section. Review: Understand the content of class 10.",
+      "minutes": "60 60"
+    },
+    {
+      "index": "11",
+      "content": "Neural Network (3) - Application and evaluation to multiclass classification",
+      "operation": "Lecture and exercise Self-check",
+      "assignments": "Preview: Read the indicated textbook section. Review: Understand the content of class 11.",
+      "minutes": "60 60"
+    },
+    {
+      "index": "12",
+      "content": "Unsupervised learning - Principal component analysis - Factor analysis - Cluster analysis",
+      "operation": "Lecture and exercise Self-check",
+      "assignments": "Preview: Read the indicated textbook section. Review: Understand the content of class 12.",
+      "minutes": "60 60"
+    },
+    {
+      "index": "13",
+      "content": "Integrated learning (1)",
+      "operation": "Lecture and exercise Self-check",
+      "assignments": "Preview: Review the content of classes 1-12. Review: Understand the content of classes 1-13.",
+      "minutes": "60 60"
+    },
+    {
+      "index": "14",
+      "content": "Integrated learning (2) Final exam",
+      "operation": "Lecture and exercise Final exam",
+      "assignments": "Preview: Review the content of classes 1-13 and deepen understanding. Prepare for the final exam. Review: Review the items that are not well understood.",
+      "minutes": "60 60"
+    },
+    {
+      "index": "15",
+      "content": "Explanation of the final exam Self-evaluation",
+      "operation": "Lecture Self-evaluation",
+      "assignments": "Review: Review all of the subjects covered in this course and deepen understanding.",
+      "minutes": "120"
+    }
+  ],
+  "rawText": "金沢工業大学 学習支援計画書 E540-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Information and Computer Science\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n学習理論\nMachine Learning  2 E540-01  2022年度\n 3rd year 2nd semester  修学規程第4条を参照\n    担当教員名\n NAGATA Shigemi\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Artificial Intelligence 2.Machine Learning 3.Regression 4.Classification 5.Neural Network  Artificial Intelligence that can bring intelligence to machines is becoming increasingly important in various areas of the ICT society. This course aims to have students master basic technologies related to artificial intelligence, and in particular, to deepen their understanding of machine learning and its application systems, which are important technologies for realizing intelligent systems.\n    授業の概要および学習上の助言   This course covers the basic to application of machine learning, which is one of important technologies for realizing intelligent systems. Students will learn the basic techniques for various machine learning and build and evaluate application systems based on these machine learning techniques. Students are expected to be able to evaluate the methods and challenges of implementing an application system for machine learning.\n    教科書および参考書・リザーブドブック   Textbooks: Reference books:None Reserved books:None\n    履修に必要な予備知識や技能   It is desirable for students to have sufficient knowledge in mathematics (especially regarding differential and integral calculus, linear algebra, probability etc.) and programming skills with Python.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① D,J,L,M Be able to explain the basic concepts in machine learning.   ② D,J,L,M Be able to understand and explain various techniques or models for regression.   ③ D,J,L,M Be able to understand and explain various techniques or models for classification.   ④ D,J,L,M Be able to understand and explain various techniques or models for neural networks.   ⑤ D,J,L,M Be able to build and evaluate application systems based on various machine learning techniques or models.   ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 40 60 0 0 0 0 0 100     指標と評価割合 総合評価割合 40 60 0 0 0 0 0 100   総合力指標 知識を取り込む力 40 60 0 0 0 0 0 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ There is an exam at the end of the semester to evaluate the degree of the achievement.   ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     クイズ\n小テスト ① レ To improve the level of student understanding, a quiz is normally presented after each class that should be completed and submitted within one week.    ② レ   ③ レ   ④ レ   ⑤ レ   ⑥     レポート ①      ②     ③     ④     ⑤     ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ①      ②     ③     ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     Be able to understand and comprehensively explain the basic concepts and techniques or models in machine learning. Be able to understand and approximately explain the basic concepts and techniques or models in machine learning.\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習課題に要する標準的な時間を記載してあります。日々の自学自習時間全体としては、各授業に応じた時間(例えば2単位科目の場合、予習2時間・復習2時間/週)を取るよう努めてください。詳しくは教員の指導に従って下さい。     授業明細   回数 学習内容 授業の運営方法 学習課題(予習・復習) 時間:分※     1  Cource introduction What is machine learning ? Lecture and Q&A Preview: Understand the learning objectives. Read the indicated textbook section. Review: Understand the content of class 1.  60 60   2  Introduction to Python programming. Lecture and exercise Self-check Preview: Read the indicated textbook section. Review: ",
+  "sourceYear": "2022",
+  "originalSourceIndex": 447,
+  "courseId": "2022:spring:E508-01:0:9704",
+  "language": "en"
+}

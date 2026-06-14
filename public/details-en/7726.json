@@ -1,0 +1,288 @@
+{
+  "sourceIndex": 7726,
+  "sourceUrl": "/opsyllabus/kitos0110/229/1",
+  "importedAt": "2026-06-12T08:01:13.991Z",
+  "title": "コンピュータ工学Ⅰ",
+  "subtitle": "Computer Engineering I",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "2",
+  "term": "2020年度\n 2nd year 1st semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [],
+  "keywords": [
+    "Programming 2.C programming language 3.Regional cooperation"
+  ],
+  "educationalGoal": "Learn the basics of the C programming language because computer programs are essential for developing a robot, especially to implement motion control and acquire environmental information. Consider how programming can play a role in regional cooperation.",
+  "advice": "This is a basic course on the C language. We will cover the following topics: 1. Creating and running a computer program 2. Input and output 3. Variables 4. Conditional branching and iteration 5. Arrays 6. Functions 7. Pointers Students are expected to actively participate in class. Students are expected to complete exercises independently. Students are required to bring their own laptop computers for use in exercises. Students are required to be aware of the instructor’s messages in the class and to check for messages/materials on the KIT Inside website before every class because the course schedule may change depending on the class progress.",
+  "books": "",
+  "requiredKnowledge": "Ability to type efficiently.",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "J",
+      "body": "Understand the basic grammar of the C language, including how textbook example-level programs work."
+    },
+    {
+      "index": "②",
+      "type": "J",
+      "body": "Create and run a textbook example-level program."
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "40",
+        "20",
+        "40",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "40",
+        "20",
+        "40",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "40",
+        "20",
+        "40",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションと\nリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "Understand the basics of the C language sufficiently and create a basic program at will.",
+    "standard": "Understand the basics of the C language to some extent and create a textbook example-level program."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Course introduction Textbook Lesson 1, “The first step”",
+      "operation": "Lecture (including Q&A) and exercises",
+      "assignments": "Preview: Read the indicated textbook lesson Review: Understand the course objectives and the indicated textbook lesson",
+      "minutes": "30 60"
+    },
+    {
+      "index": "2",
+      "content": "Textbook Lesson 2, “The basics of the C language”",
+      "operation": "Lecture (including Q&A) and exercises",
+      "assignments": "Preview: Read the indicated textbook lesson Review: Understand the indicated textbook lesson",
+      "minutes": "30 60"
+    },
+    {
+      "index": "3",
+      "content": "Textbook Lesson 3, “Variables”",
+      "operation": "Lecture (including Q&A) and exercises",
+      "assignments": "Preview: Read the indicated textbook lesson Review: Understand the indicated textbook lesson",
+      "minutes": "30 60"
+    },
+    {
+      "index": "4",
+      "content": "Textbook Lesson 4, “Expressions and operators”",
+      "operation": "Lecture (including Q&A) and exercises",
+      "assignments": "Preview: Read the indicated textbook lesson Review: Understand the indicated textbook lesson",
+      "minutes": "30 60"
+    },
+    {
+      "index": "5",
+      "content": "Textbook Lesson 5, “Conditional procedures”",
+      "operation": "Lecture (including Q&A) and exercises",
+      "assignments": "Preview: Read the indicated textbook lesson Review: Understand the indicated textbook lesson",
+      "minutes": "30 60"
+    },
+    {
+      "index": "6",
+      "content": "Textbook Lesson 6, “Iteration”",
+      "operation": "Lecture (including Q&A) and exercises",
+      "assignments": "Preview: Read the indicated textbook lesson Review: Understand the indicated textbook lesson",
+      "minutes": "30 60"
+    },
+    {
+      "index": "7",
+      "content": "Exercises",
+      "operation": "Exercises",
+      "assignments": "Preview: Review the content of classes 1-6 Review: Review the content of the exercises",
+      "minutes": "90 90"
+    },
+    {
+      "index": "8",
+      "content": "Exercises Mid-semester test",
+      "operation": "Exercises Test",
+      "assignments": "Preview: Review the content of classes 1-7",
+      "minutes": "180"
+    },
+    {
+      "index": "9",
+      "content": "Review of the mid-semester test Self-check",
+      "operation": "Lecture (including Q&A) Self-check",
+      "assignments": "Review: Review the content of the mid-semester test",
+      "minutes": "90"
+    },
+    {
+      "index": "10",
+      "content": "Textbook Lesson 7, “Arrays”",
+      "operation": "Lecture (including Q&A) and exercises",
+      "assignments": "Preview: Read the indicated textbook lesson Review: Understand the indicated textbook lesson",
+      "minutes": "30 60"
+    },
+    {
+      "index": "11",
+      "content": "Textbook Lesson 8, “Functions”",
+      "operation": "Lecture (including Q&A) and exercises",
+      "assignments": "Preview: Read the indicated textbook lesson Review: Understand the indicated textbook lesson",
+      "minutes": "30 60"
+    },
+    {
+      "index": "12",
+      "content": "Textbook Lesson 9, “Pointers”",
+      "operation": "Lecture (including Q&A) and exercises",
+      "assignments": "Preview: Read the indicated textbook lesson Review: Understand the indicated textbook lesson",
+      "minutes": "30 60"
+    },
+    {
+      "index": "13",
+      "content": "Exercises",
+      "operation": "Exercises",
+      "assignments": "Preview: Review the content of classes 1-12 Review: Review the content of the exercises",
+      "minutes": "90 90"
+    },
+    {
+      "index": "14",
+      "content": "Exercises Semester final examination",
+      "operation": "Exercises Examination",
+      "assignments": "Preview: Review the content of classes 1-13",
+      "minutes": "180"
+    },
+    {
+      "index": "15",
+      "content": "Review of the semester final examination Self-check",
+      "operation": "Lecture (including Q&A) Self-check",
+      "assignments": "Review: Review the content of the semester final examination",
+      "minutes": "90"
+    }
+  ],
+  "rawText": "金沢工業大学 学習支援計画書 E210-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Robotics\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\nコンピュータ工学Ⅰ\nComputer Engineering I  2 E210-01  2020年度\n 2nd year 1st semester  修学規程第4条を参照\n    担当教員名\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Programming 2.C programming language 3.Regional cooperation  Learn the basics of the C programming language because computer programs are essential for developing a robot, especially to implement motion control and acquire environmental information. Consider how programming can play a role in regional cooperation.\n    授業の概要および学習上の助言   This is a basic course on the C language. We will cover the following topics: 1. Creating and running a computer program 2. Input and output 3. Variables 4. Conditional branching and iteration 5. Arrays 6. Functions 7. Pointers Students are expected to actively participate in class. Students are expected to complete exercises independently. Students are required to bring their own laptop computers for use in exercises. Students are required to be aware of the instructor’s messages in the class and to check for messages/materials on the KIT Inside website before every class because the course schedule may change depending on the class progress.\n    教科書および参考書・リザーブドブック\n    履修に必要な予備知識や技能   Ability to type efficiently.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① J Understand the basic grammar of the C language, including how textbook example-level programs work.   ② J Create and run a textbook example-level program.   ③     ④     ⑤     ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 40 20 40 0 0 0 0 100     指標と評価割合 総合評価割合 40 20 40 0 0 0 0 100   総合力指標 知識を取り込む力 40 20 40 0 0 0 0 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ A semester final examination is given, as specified in the course schedule, to evaluate your degree of achievement comprehensively. The schedule may change depending on the class progress.   ② レ   ③     ④     ⑤     ⑥     クイズ\n小テスト ① レ A mid-semester test is given, as specified in the course schedule, to evaluate your degree of achievement until that point. The schedule may change depending on the class progress.   ② レ   ③     ④     ⑤     ⑥     レポート ① レ Students will prepare reports for evaluation.   ② レ   ③     ④     ⑤     ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ①      ②     ③     ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     Understand the basics of the C language sufficiently and create a basic program at will.  Understand the basics of the C language to some extent and create a textbook example-level program.\n\n CLIP学習プロセスについて\n 一般に、授業あるいは課外での学習では:「知識などを取り込む」→「知識などをいろいろな角度から、場合によってはチーム活動として、考え、推論し、創造する」→「修得した内容を表現、発表、伝達する」→「総合的に評価を受ける、GoodWork!」:のようなプロセス(一部あるいは全体)を繰り返し行いながら、応用力のある知識やスキルを身につけていくことが重要です。このような学習プロセスを大事に行動してください。\n ※学習課題の時間欄には、指定された学習課題に要する標準的な時間を記載してあります。日々の自学自習時間全体としては、各授業に応じた時間(例えば2単位科目の場合、予習2時間・復習2時間/週)を取るよう努めてください。詳しくは教員の指導に従って下さい。     授業明細   回数 学習内容 授業の運営方法 学習課題(予習・復習) 時間:分※     1  Course introduction Textbook Lesson 1, “The first step” Lecture (including Q&A) and exercises Preview: Read the indicated textbook lesson Review: Understand the course objectives and the indicated textbook lesson  30 60   2  Textbook Lesson 2, “The basics of the C language” Lecture (including Q&A) and exercises Preview: Read the indicated textbook lesson Review: Understand the indicated textbook lesson  30 60   3  Textbook Lesson 3, “Variables” Lecture (including Q&A) and exercises Preview: Read the indicated textbook lesson Review: Understand the indicated textbook lesson  30 60   4  Textbook Lesson 4, “Expressions and operators” Lecture (including Q&A) and exercise",
+  "sourceYear": "2020",
+  "originalSourceIndex": 229,
+  "courseId": "2020:spring:E105-01:0:7726",
+  "language": "en"
+}

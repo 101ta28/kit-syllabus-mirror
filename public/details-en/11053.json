@@ -1,0 +1,249 @@
+{
+  "sourceIndex": 11053,
+  "sourceUrl": "/opsyllabus/kitos0110/882/1",
+  "importedAt": "2026-06-12T08:02:19.414Z",
+  "title": "IoT応用(夏期集中講義)",
+  "subtitle": "IoT Advanced",
+  "courseType": "(Provided by all courses)\nLiberal Arts Courses\nTransdisciplinary Learning",
+  "credits": "1",
+  "term": "2023年度\n 1st year 1st semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "NISHIKAWA Yukinobu"
+  ],
+  "keywords": [
+    "IoT 2.Edge computing 3.Cloud computing 4.Sensors 5.Actuators"
+  ],
+  "educationalGoal": "- To be able to build an edge computer consisting of a microcomputer, sensors, and actuators. - To be able to send the sensor values of edge computers to cloud computers via a network. - To be able to control the actuators of edge computers from cloud computers via the network.",
+  "advice": "In this course, students will learn practical methods for building the basic systems necessary for realizing IoT using hardware and sensors. Students will learn the method of collecting and storing sensor values to cloud computers via a network using a microcomputer (Raspberry Pi) and various sensors, and learn how to analyze the stored data on cloud computers and output data from devices such as motors and small LED displays. Programming in C or Python language. The course flow of this subject is as follows. (1) Basic IoT system building - Exercises in building and networking an edge computer consisting of a microcomputer, sensors, and actuators. - Exercises in sending sensor information from an edge computer to a cloud computer via a network. - Exercises in controlling the actuators of edge computers from a cloud computer via a network. - Exercises in visualizing and analyzing sensor information stored in a cloud computer. (2) Advanced IoT system building - Free task: Students will plan and build an IoT system that solves a real-world problem and present it. In this course, no textbook is specified, but materials used in the class will be distributed.",
+  "books": "None",
+  "requiredKnowledge": "1) Basic computer literacy (Windows and MS office operation, text editor operation, etc.). 2) Understand the basic elements of C or Python programming (conditional branching, iteration, functions, etc.). Students should have taken “Introduction to IoT Programming”or “Python Programming”or be equivalent to those. 3) Knowledge and experience with rudimentary Python programming and Linux programming is desirable.",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "H",
+      "body": "To be able to build an edge computer consisting of a microcomputer, sensors, and actuators."
+    },
+    {
+      "index": "②",
+      "type": "H",
+      "body": "To be able to send the sensor values of an edge computer to a cloud computer via a network."
+    },
+    {
+      "index": "③",
+      "type": "H",
+      "body": "To be able to control the actuators of an edge computer from a cloud computer via a network."
+    },
+    {
+      "index": "④",
+      "type": "H",
+      "body": "To be able to visualize and analyze sensor information stored in cloud computers."
+    },
+    {
+      "index": "⑤",
+      "type": "G,H",
+      "body": "To be able to plan and build IoT systems that solve real-world problems."
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "0",
+        "70",
+        "0",
+        "30",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "0",
+        "70",
+        "0",
+        "30",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "0",
+        "70",
+        "0",
+        "30",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションと\nリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "- Able to deeply understand how to build IoT systems and explain it to others. - Able to build advanced IoT systems that are effective in solving real-world problems.",
+    "standard": "- Able to understand how to build IoT systems. - Able to build basic IoT systems."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Basic IoT system building - Explanation of electronic circuits using Raspberry Pi and a breadboard - Exercises using digital output, PWM output, and digital input of Raspberry Pi Classes taught by practicing teachers.",
+      "operation": "Lecture and Exercises",
+      "assignments": "Create and submit the assigned program using the sample program as a reference.",
+      "minutes": "100"
+    },
+    {
+      "index": "2",
+      "content": "Basic IoT system building - Exercises using analog and digital sensor inputs of Raspberry Pi. Classes taught by practicing teachers.",
+      "operation": "Lecture and Exercises",
+      "assignments": "Create and submit the assigned program using the sample program as a reference.",
+      "minutes": "100"
+    },
+    {
+      "index": "3",
+      "content": "Basic IoT system building Exercises for collecting and storing the sensor values of Raspberry Pi to a cloud computer. Classes taught by practicing teachers.",
+      "operation": "Lecture and Exercises",
+      "assignments": "Create and submit the assigned program using the sample program as a reference.",
+      "minutes": "100"
+    },
+    {
+      "index": "4",
+      "content": "Basic IoT system building Exercises for controlling the actuators of Raspberry Pi from a cloud computer. Classes taught by practicing teachers.",
+      "operation": "Lecture and Exercises",
+      "assignments": "Create and submit the assigned program using the sample program as a reference.",
+      "minutes": "100"
+    },
+    {
+      "index": "5",
+      "content": "Basic IoT system building Exercises for visualizing and analyzing the data collected and stored in a cloud computer. Classes taught by practicing teachers.",
+      "operation": "Lecture and Exercises",
+      "assignments": "Create and submit the assigned program using the sample program as a reference.",
+      "minutes": "100"
+    },
+    {
+      "index": "6",
+      "content": "Advanced IoT System Building - Free task: Freely plan and build an IoT system that solves real-world problems. Classes taught by practicing teachers. Discussion time.",
+      "operation": "Exercises, Preparation of presentation materials",
+      "assignments": "Summarize the free assignment and use it as the basis for the presentation materials.",
+      "minutes": "100"
+    },
+    {
+      "index": "7",
+      "content": "Advanced IoT System Building - Free task: Presentation of the results of the effort to plan and build an IoT system that solves a real-world problem. Classes taught by practicing teachers. Discussion time.",
+      "operation": "Exercises, Preparation of presentation materials, Presentation",
+      "assignments": "Give a presentation on the results of your free assignment. Presentation materials will be submitted.",
+      "minutes": "100"
+    }
+  ],
+  "rawText": "金沢工業大学 学習支援計画書 G260-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\n(Provided by all courses)\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     (Provided by all courses)\nLiberal Arts Courses\nTransdisciplinary Learning\nIoT応用(夏期集中講義)\nIoT Advanced  1 G260-01  2023年度\n 1st year 1st semester  修学規程第4条を参照\n    担当教員名\n NISHIKAWA Yukinobu\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.IoT 2.Edge computing 3.Cloud computing 4.Sensors 5.Actuators  - To be able to build an edge computer consisting of a microcomputer, sensors, and actuators. - To be able to send the sensor values of edge computers to cloud computers via a network. - To be able to control the actuators of edge computers from cloud computers via the network.\n    授業の概要および学習上の助言   In this course, students will learn practical methods for building the basic systems necessary for realizing IoT using hardware and sensors. Students will learn the method of collecting and storing sensor values to cloud computers via a network using a microcomputer (Raspberry Pi) and various sensors, and learn how to analyze the stored data on cloud computers and output data from devices such as motors and small LED displays. Programming in C or Python language. The course flow of this subject is as follows. (1) Basic IoT system building - Exercises in building and networking an edge computer consisting of a microcomputer, sensors, and actuators. - Exercises in sending sensor information from an edge computer to a cloud computer via a network. - Exercises in controlling the actuators of edge computers from a cloud computer via a network. - Exercises in visualizing and analyzing sensor information stored in a cloud computer. (2) Advanced IoT system building - Free task: Students will plan and build an IoT system that solves a real-world problem and present it. In this course, no textbook is specified, but materials used in the class will be distributed.\n    教科書および参考書・リザーブドブック   None\n    履修に必要な予備知識や技能   1) Basic computer literacy (Windows and MS office operation, text editor operation, etc.). 2) Understand the basic elements of C or Python programming (conditional branching, iteration, functions, etc.). Students should have taken “Introduction to IoT Programming”or “Python Programming”or be equivalent to those. 3) Knowledge and experience with rudimentary Python programming and Linux programming is desirable.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① H To be able to build an edge computer consisting of a microcomputer, sensors, and actuators.   ② H To be able to send the sensor values of an edge computer to a cloud computer via a network.   ③ H To be able to control the actuators of an edge computer from a cloud computer via a network.   ④ H To be able to visualize and analyze sensor information stored in cloud computers.   ⑤ G,H To be able to plan and build IoT systems that solve real-world problems.   ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 0 70 0 30 0 0 0 100     指標と評価割合 総合評価割合 0 70 0 30 0 0 0 100   総合力指標 知識を取り込む力 0 70 0 30 0 0 0 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ①      ②     ③     ④     ⑤     ⑥     クイズ\n小テスト ① レ Students will be evaluated on the assignment programs in the exercises of Basic IoT System Building (Sessions 1 to 5).   ② レ   ③ レ   ④ レ   ⑤     ⑥     レポート ①      ②     ③     ④     ⑤     ⑥     成果発表\n(口頭・実技) ① レ Students will be evaluated on the presentation of the free assignment in Advanced IoT System Building (Sessions 6 to 7).   ② レ   ③ レ   ④ レ   ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ①      ②     ③     ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     - Able to deeply understand how to build IoT systems and explain it to others. - Able to build advanced IoT systems that are effective in solving real-wor",
+  "sourceYear": "2023",
+  "originalSourceIndex": 882,
+  "courseId": "2023:fall:G027-01:0:11053",
+  "language": "en"
+}

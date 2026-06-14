@@ -7,10 +7,10 @@ process.env.NODE_TLS_REJECT_UNAUTHORIZED ??= "0";
 const baseUrl = "https://europa.kanazawa-it.ac.jp";
 const sourceUrl = `${baseUrl}/opsyllabus/kitos0100/0`;
 const root = process.cwd();
-const searchSourcePath = path.resolve(root, "../europa-syllabus-search-detail.json");
+const searchSourcePath = path.resolve(root, process.env.SEARCH_SOURCE_PATH ?? "../europa-syllabus-search-detail.json");
 const languageType = String(process.env.LANGUAGE_TYPE ?? "0");
 const languageSuffix = languageType === "1" ? "-en" : "";
-const cachePath = path.resolve(root, `data/syllabus-details-cache${languageSuffix}.json`);
+const cachePath = path.resolve(root, process.env.CACHE_PATH ?? `data/syllabus-details-cache${languageSuffix}.json`);
 const batchSize = Number(process.env.BATCH_SIZE ?? 20);
 
 const cookies = new Map();

@@ -1,0 +1,302 @@
+{
+  "sourceIndex": 11542,
+  "sourceUrl": "/opsyllabus/kitos0110/418/1",
+  "importedAt": "2026-06-12T08:02:32.514Z",
+  "title": "確率と統計",
+  "subtitle": "Probability and Statistics",
+  "courseType": "Major Program\nMajor Courses",
+  "credits": "2",
+  "term": "2024年度\n 2nd year 2nd semester",
+  "method": "修学規程第4条を参照",
+  "teachers": [
+    "HAYASHI Ryoko",
+    "KINDO Toshiki",
+    "INAGAKI Mikio"
+  ],
+  "keywords": [
+    "Probability 2.Statistics 3.Data Science 4.Python"
+  ],
+  "educationalGoal": "Probability and statistics are two of the basic knowledge of science and technology. Machine learning has been attracting attention in recent years, and probability and statistics are the basis of machine learning. In this course, students will acquire basic knowledge of probability and statistics, which are essential in science and technology, through classroom lectures and practical training.",
+  "advice": "In this course, you will learn the basic contents of probability and statistics in classroom lectures, and deepen your understanding through computer exercises. You will use Python for most computer exercises. The order of the learning contents shown in the course schedule is a guide, and the details will be provided by the instructor. At least the following contents will be included: 1. Probability (dependent and independent, conditional probability, random variable, normal distribution) 2. Statistics (representative values, scatter, correlation, statistical hypothesis testing, confidence intervals, Bayesian inference) Other contents may be added at the discretion of the instructor. If necessary, study by yourself during the course period to supplement the programming abilities required to acquire this course.",
+  "books": "「ゼロからはじめるデータサイエンス第2版」,[株式会社オライリー・ジャパン],(2020).",
+  "requiredKnowledge": "Knowledge of mathematics is required. Specifically, you should have a general understanding of the basics of inequalities, equations, elementary functions such as polynomial functions and exponential functions, and calculus.",
+  "activityGoals": [
+    {
+      "index": "①",
+      "type": "D",
+      "body": "Be able to express your thoughts on statistical information on various events."
+    },
+    {
+      "index": "②",
+      "type": "D",
+      "body": "Acquire basic probability and statistical knowledge and experience with a view to developing into data science."
+    },
+    {
+      "index": "③",
+      "type": "F",
+      "body": "Learn the basics of how to handle data and understand the possibility of creating new value from data."
+    },
+    {
+      "index": "④",
+      "type": "D",
+      "body": "Learn the application examples of probability and statistics, and understand the significance of returning what"
+    }
+  ],
+  "evaluationWeights": [
+    {
+      "label": "総合評価割合",
+      "values": [
+        "40",
+        "20",
+        "40",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "指標と評価割合 / 総合評価割合",
+      "values": [
+        "40",
+        "20",
+        "40",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "総合力指標 / 知識を取り込む力",
+      "values": [
+        "40",
+        "20",
+        "40",
+        "0",
+        "0",
+        "0",
+        "0",
+        "100"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "思考・推論・創造する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "コラボレーションと\nリーダーシップ",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    },
+    {
+      "label": "発表・表現・伝達する力",
+      "values": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "columns": [
+        "試験",
+        "クイズ 小テスト",
+        "レポート",
+        "成果発表 (口頭・実技)",
+        "作品",
+        "ポートフォリオ",
+        "その他",
+        "合計"
+      ]
+    }
+  ],
+  "achievementLevels": {
+    "ideal": "You can fully understand the learning contents related to probability and statistics and apply them to real-world problems. You can master both Python and Excel in computer training and apply the learning contents to actual data.",
+    "standard": "You can generally understand the learning contents related to probability and statistics, and apply the basic contents to real-world problems. In computer training, you can apply the learning contents to actual data using at least one of Python and Excel."
+  },
+  "clipProcess": "",
+  "lessons": [
+    {
+      "index": "1",
+      "content": "Guidance. Explanation of outline of the subject, how to proceed with the lesson, preparation, review, and evaluation method.",
+      "operation": "It is basically face-to- face, but it may be done online.",
+      "assignments": "Review (Check Python and reinstall if necessary, try using Python) Preparation (learn the relevant part of the textbook)",
+      "minutes": "120 120"
+    },
+    {
+      "index": "2",
+      "content": "Textbook Chapter 2 (First Half) Python Quick Learning Course",
+      "operation": "It is basically face-to- face, but it may be done online.",
+      "assignments": "Preparation (learn the relevant part of the textbook) Review (actually process data on a computer using Python)",
+      "minutes": "120 120"
+    },
+    {
+      "index": "3",
+      "content": "Textbook Chapter 2 (Second Half) Python Quick Learning Course",
+      "operation": "It is basically face-to- face, but it may be done online.",
+      "assignments": "Preparation (learn the relevant part of the textbook) Review (actually process data on a computer using Python)",
+      "minutes": "120 120"
+    },
+    {
+      "index": "4",
+      "content": "Textbook Chapter 3 Data Visualization Chapter 4 Linear algebra",
+      "operation": "It is basically face-to- face, but it may be done online.",
+      "assignments": "Preparation (learn the relevant part of the textbook) Review (actually process data on a computer using Python)",
+      "minutes": "120 120"
+    },
+    {
+      "index": "5",
+      "content": "Textbook Chapter 5 Statistics",
+      "operation": "It is basically face-to- face, but it may be done online.",
+      "assignments": "Preparation (learn the relevant part of the textbook) Review (actually process data on a computer using Python)",
+      "minutes": "120 120"
+    },
+    {
+      "index": "6",
+      "content": "Comprehensive exercise 1",
+      "operation": "It is basically face-to- face, but it may be done online.",
+      "assignments": "Review (lean the previous parts of the textbook) Review (resolve the problem)",
+      "minutes": "240"
+    },
+    {
+      "index": "7",
+      "content": "Quiz (The actual schedule may change because the quiz will be conducted face-to-face. The instructor will set a sufficient preparation period and inform the details.) Textbook Chapter 6 Probability (first half)",
+      "operation": "It is basically face-to- face, but it may be done online.",
+      "assignments": "Preparation for quiz Review (actually process data on a computer using Python)",
+      "minutes": "240"
+    },
+    {
+      "index": "8",
+      "content": "Textbook Chapter 6 Probability (Second half)",
+      "operation": "It is basically face-to- face, but it may be done online.",
+      "assignments": "Preparation (learn the relevant part of the textbook) Review (actually process data on a computer using Python)",
+      "minutes": "120 120"
+    },
+    {
+      "index": "9",
+      "content": "Textbook Chapter 7 Hypothesis and Presumption",
+      "operation": "It is basically face-to- face, but it may be done online.",
+      "assignments": "Preparation (learn the relevant part of the textbook) Review (actually process data on a computer using Python)",
+      "minutes": "120 120"
+    },
+    {
+      "index": "10",
+      "content": "Textbook Chapter 8 Gradient descent method",
+      "operation": "It is basically face-to- face, but it may be done online.",
+      "assignments": "Preparation (learn the relevant part of the textbook) Review (actually process data on a computer using Python)",
+      "minutes": "120 120"
+    },
+    {
+      "index": "11",
+      "content": "Textbook Chapter 9 Data Acquisition",
+      "operation": "It is basically face-to- face, but it may be done online.",
+      "assignments": "Preparation (learn the relevant part of the textbook) Review (actually process data on a computer using Python)",
+      "minutes": "120 120"
+    },
+    {
+      "index": "12",
+      "content": "Textbook Chapter 10 Data Manipulation",
+      "operation": "It is basically face-to- face, but it may be done online.",
+      "assignments": "Preparation (learn the relevant part of the textbook) Review (actually process data on a computer using Python)",
+      "minutes": "120 120"
+    },
+    {
+      "index": "13",
+      "content": "Comprehensive exercise 2",
+      "operation": "It is basically face-to- face, but it may be done online.",
+      "assignments": "Review (lean the previous parts of the textbook) Review (resolve the problem)",
+      "minutes": "120 120"
+    },
+    {
+      "index": "14",
+      "content": "Quiz (The actual schedule may change because the exam will be conducted face-to-face. The instructor will set a sufficient preparation period and inform the details.) Textbook Chapter 11 Machine Learning",
+      "operation": "It is basically face-to- face, but it may be done online.",
+      "assignments": "Preparation for exam Review (actually process data on a computer using Python)",
+      "minutes": "240"
+    },
+    {
+      "index": "15",
+      "content": "Quiz answer commentary For future development of probability and statistics, further learning",
+      "operation": "It is basically face-to- face, but it may be done online.",
+      "assignments": "Review (actually processdata on a computer using Python)",
+      "minutes": "120"
+    }
+  ],
+  "rawText": "金沢工業大学 学習支援計画書 E537-01\n 日本語(Japanese) || 英語(English)\n\n 学習支援計画書(シラバス) 検索システム\n\n 印刷\n 閉じる\nDepartment of Information and Computer Science\n\n    授業科目区分 科目名 単位数 科目コード 開講時期 履修方法     Major Program\nMajor Courses\n確率と統計\nProbability and Statistics  2 E537-01  2024年度\n 2nd year 2nd semester  修学規程第4条を参照\n    担当教員名\n HAYASHI Ryoko, KINDO Toshiki, INAGAKI Mikio\n    授業科目の学習・教育目標   キーワード 学習・教育目標     1.Probability 2.Statistics 3.Data Science 4.Python  Probability and statistics are two of the basic knowledge of science and technology. Machine learning has been attracting attention in recent years, and probability and statistics are the basis of machine learning. In this course, students will acquire basic knowledge of probability and statistics, which are essential in science and technology, through classroom lectures and practical training.\n    授業の概要および学習上の助言   In this course, you will learn the basic contents of probability and statistics in classroom lectures, and deepen your understanding through computer exercises. You will use Python for most computer exercises. The order of the learning contents shown in the course schedule is a guide, and the details will be provided by the instructor. At least the following contents will be included: 1. Probability (dependent and independent, conditional probability, random variable, normal distribution) 2. Statistics (representative values, scatter, correlation, statistical hypothesis testing, confidence intervals, Bayesian inference) Other contents may be added at the discretion of the instructor. If necessary, study by yourself during the course period to supplement the programming abilities required to acquire this course.\n    教科書および参考書・リザーブドブック   「ゼロからはじめるデータサイエンス第2版」,[株式会社オライリー・ジャパン],(2020).\n    履修に必要な予備知識や技能   Knowledge of mathematics is required. Specifically, you should have a general understanding of the basics of inequalities, equations, elementary functions such as polynomial functions and exponential functions, and calculus.\n    学生が達成すべき行動目標   No. 学科教育目標\n(記号表記)      ① D Be able to express your thoughts on statistical information on various events.   ② D Acquire basic probability and statistical knowledge and experience with a view to developing into data science.   ③ F Learn the basics of how to handle data and understand the possibility of creating new value from data.   ④ D Learn the application examples of probability and statistics, and understand the significance of returning what    ⑤     ⑥\n    達成度評価     評価方法   試験 クイズ\n小テスト レポート 成果発表\n(口頭・実技) 作品 ポートフォリオ その他 合計     総合評価割合 40 20 40 0 0 0 0 100     指標と評価割合 総合評価割合 40 20 40 0 0 0 0 100   総合力指標 知識を取り込む力 40 20 40 0 0 0 0 100   思考・推論・創造する力 0 0 0 0 0 0 0 0   コラボレーションと\nリーダーシップ 0 0 0 0 0 0 0 0   発表・表現・伝達する力 0 0 0 0 0 0 0 0   学習に取組む姿勢・意欲 0 0 0 0 0 0 0 0    ※総合力指標で示す数値内訳、授業運営上のおおよその目安を示したものです。\n    評価の要点   評価方法 行動目標 評価の実施方法と注意点     試験 ① レ Make sure that you understand the basic knowledge of probability and statistics, and that you can apply it properly.   ② レ   ③ レ   ④ レ   ⑤     ⑥     クイズ\n小テスト ① レ Make sure that you understand the basic knowledge of probability and statistics, and that you can apply it properly.   ② レ   ③ レ   ④ レ   ⑤     ⑥     レポート ① レ Make sure that you understand the basic knowledge of probability and statistics, and that you can apply it properly. In order to confirm whether the learning content can be used properly using a computer, the deliverables of the computer training may be submitted.   ② レ   ③ レ   ④ レ   ⑤     ⑥     成果発表\n(口頭・実技) ①      ②     ③     ④     ⑤     ⑥     作品 ①      ②     ③     ④     ⑤     ⑥     ポートフォリオ ①      ②     ③     ④     ⑤     ⑥     その他 ①      ②     ③     ④     ⑤     ⑥\n    具体的な達成の目安   理想的な達成レベルの目安 標準的な達成レベルの目安     You can fully understand the learning contents related to probability and statistics and apply them to real-world problems. You can master both Python and Excel in computer training and apply the learning contents to actual data. You can generally understand the learning contents related to probability",
+  "sourceYear": "2024",
+  "originalSourceIndex": 418,
+  "courseId": "2024:spring:E532-01:0:11542",
+  "language": "en"
+}
