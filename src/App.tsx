@@ -1,5 +1,15 @@
 import { useEffect, useMemo, useState } from "react";
 import { loadDefaultJapaneseParser } from "budoux";
+import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { Checkbox } from "@/components/ui/checkbox";
+import { Input } from "@/components/ui/input";
+import { Progress } from "@/components/ui/progress";
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
+import { Separator } from "@/components/ui/separator";
+import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
+import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { courses, type CourseSummary, type SyllabusDetail } from "./data/generated";
 
 type View =
@@ -66,6 +76,7 @@ const commonRequirement = { label: "課程共通", required: 6 };
 const graduationRequirementUrl = "https://www.kanazawa-it.ac.jp/campus_guide/2021/chapter_3/list_1/page_9.html";
 const japaneseParser = loadDefaultJapaneseParser();
 const breakOpportunity = "\u200b";
+const allSelectValue = "__all__";
 
 function normalizeDisplayWidth(value: string) {
   return value
@@ -74,9 +85,13 @@ function normalizeDisplayWidth(value: string) {
     .replace(/\u3000/g, " ");
 }
 
+function removeJapaneseIntraWordSpaces(value: string) {
+  return value.replace(/([\p{Script=Han}\p{Script=Hiragana}\p{Script=Katakana}])[\s　]+(?=[\p{Script=Han}\p{Script=Hiragana}\p{Script=Katakana}])/gu, "$1");
+}
+
 function displayText(value: string | number | null | undefined) {
   if (value == null) return "";
-  return normalizeDisplayWidth(String(value));
+  return removeJapaneseIntraWordSpaces(normalizeDisplayWidth(String(value)));
 }
 
 function normalizeSoftLineBreaks(value: string) {
@@ -110,6 +125,28 @@ function readableText(value: string | number | null | undefined) {
     .split("\n")
     .map((line) => (line.trim() ? japaneseParser.parse(line).join(breakOpportunity) : line))
     .join("\n");
+}
+
+function splitNumberedItems(value: string) {
+  const normalized = removeJapaneseIntraWordSpaces(displayText(value).replace(/\u200b/g, ""));
+  if (!/(?:^|\s)[0-9０-９]+[.．]/.test(normalized)) return null;
+  const marked = normalized.replace(/(?:^|\s)([0-9０-９]+[.．])/g, "\n$1");
+  const items = marked
+    .split("\n")
+    .map((item) => item.trim())
+    .filter(Boolean)
+    .map((item) => item.replace(/^[0-9０-９]+[.．]\s*/, "").trim())
+    .filter(Boolean);
+  return items.length >= 2 ? items : null;
+}
+
+function splitKeywordItems(keywords: string[]) {
+  return keywords.flatMap((keyword) =>
+    displayText(keyword)
+      .split(/\s+(?=[0-9０-９]+[.．])/)
+      .map((item) => item.replace(/^[0-9０-９]+[.．]\s*/, "").trim())
+      .filter(Boolean),
+  );
 }
 
 function normalizeDetailText<T>(value: T): T {
@@ -172,6 +209,34 @@ function clampPage(page: number, totalPages: number) {
   return Math.min(Math.max(page, 1), totalPages);
 }
 
+function SelectField({
+  value,
+  onValueChange,
+  options,
+  placeholder = "すべて",
+}: {
+  value: string;
+  onValueChange: (value: string) => void;
+  options: Array<{ value: string; label: string }>;
+  placeholder?: string;
+}) {
+  return (
+    <Select value={value || allSelectValue} onValueChange={(next) => onValueChange(next === allSelectValue ? "" : next)}>
+      <SelectTrigger className="w-full">
+        <SelectValue placeholder={placeholder} />
+      </SelectTrigger>
+      <SelectContent>
+        <SelectItem value={allSelectValue}>{placeholder}</SelectItem>
+        {options.map((option) => (
+          <SelectItem key={option.value} value={option.value}>
+            {displayText(option.label)}
+          </SelectItem>
+        ))}
+      </SelectContent>
+    </Select>
+  );
+}
+
 function selectedCreditStats(selectedCourses: CourseSummary[]) {
   const creditsByCategory = new Map<string, number>();
   for (const course of selectedCourses) {
@@ -198,10 +263,14 @@ function AppHeader() {
         </span>
       </button>
       <nav>
-        <button onClick={() => navigate("/courses")}>科目一覧</button>
-        <a href="https://europa.kanazawa-it.ac.jp/opsyllabus/kitos0100/0" target="_blank" rel="noreferrer">
-          元サイト
-        </a>
+        <Button variant="outline" onClick={() => navigate("/courses")}>
+          科目一覧
+        </Button>
+        <Button variant="outline" asChild>
+          <a href="https://europa.kanazawa-it.ac.jp/opsyllabus/kitos0100/0" target="_blank" rel="noreferrer">
+            元サイト
+          </a>
+        </Button>
       </nav>
     </header>
   );
@@ -222,24 +291,24 @@ function CreditCalculator({
   const commonFulfilled = Math.min(stats.commonCredits, commonRequirement.required);
   const graduationMinimum = 124;
   return (
-    <section className={`credit-calculator ${isOpen ? "open" : "collapsed"}`} aria-label="単位計算">
-      <div className="credit-calculator-header">
+    <Card className={`credit-calculator ${isOpen ? "open" : "collapsed"}`} aria-label="単位計算">
+      <CardHeader className="credit-calculator-header">
         <div>
           <p className="eyebrow">credit calculator</p>
-          <h2>選択科目の単位計算</h2>
+          <CardTitle>選択科目の単位計算</CardTitle>
         </div>
         <div className="credit-actions">
           <div className="credit-total">
             <strong>{displayText(stats.total)}</strong>
             <span>/ {graduationMinimum} 単位</span>
           </div>
-          <button onClick={onToggle} aria-expanded={isOpen}>
+          <Button variant="outline" onClick={onToggle} aria-expanded={isOpen}>
             {isOpen ? "閉じる" : "単位計算を開く"}
-          </button>
+          </Button>
         </div>
-      </div>
+      </CardHeader>
       {isOpen && (
-        <>
+        <CardContent>
           <div className="credit-bars">
             {creditRequirements.map((requirement) => {
               const credits = stats.creditsByCategory.get(requirement.id) ?? 0;
@@ -253,9 +322,7 @@ function CreditCalculator({
                       {displayText(credits)} / {displayText(requirement.required)}
                     </span>
                   </div>
-                  <div className="credit-bar" aria-hidden="true">
-                    <span style={{ width: `${percent}%` }} />
-                  </div>
+                  <Progress className="credit-bar" value={percent} aria-hidden="true" />
                 </article>
               );
             })}
@@ -266,11 +333,10 @@ function CreditCalculator({
                   {displayText(commonFulfilled)} / {displayText(commonRequirement.required)}
                 </span>
               </div>
-              <div className="credit-bar" aria-hidden="true">
-                <span style={{ width: `${Math.min(100, (commonFulfilled / commonRequirement.required) * 100)}%` }} />
-              </div>
+              <Progress className="credit-bar" value={Math.min(100, (commonFulfilled / commonRequirement.required) * 100)} aria-hidden="true" />
             </article>
           </div>
+          <Separator className="my-4" />
           <div className="credit-calculator-footer">
             <p>
               卒業に必要な最低単位数 124 単位と科目群別の最低単位数を目安に集計します。課程共通 6 単位は、対象科目群の最低単位を超えた分から計算します。
@@ -278,13 +344,13 @@ function CreditCalculator({
                 出典
               </a>
             </p>
-            <button onClick={onClear} disabled={!selectedCourses.length}>
+            <Button variant="outline" onClick={onClear} disabled={!selectedCourses.length}>
               選択解除
-            </button>
+            </Button>
           </div>
-        </>
+        </CardContent>
       )}
-    </section>
+    </Card>
   );
 }
 
@@ -301,8 +367,10 @@ function CourseList() {
   const pageSize = 50;
   const [selectedCourseIds, setSelectedCourseIds] = useState<Set<string>>(() => new Set());
   const [creditCalculatorOpen, setCreditCalculatorOpen] = useState(false);
-  const [searchIndex, setSearchIndex] = useState<Record<string, string> | null>(null);
+  const [searchIndexes, setSearchIndexes] = useState<Record<string, Record<string, string>>>({});
+  const [searchIndexLoadingYears, setSearchIndexLoadingYears] = useState<Set<string>>(() => new Set());
   const years = useMemo(() => uniqueSorted(courses.map((course) => course.yearLabel)).reverse(), []);
+  const selectedSearchYears = useMemo(() => (year ? [year] : years), [year, years]);
   const programDepartmentOptions = useMemo(() => {
     const scoped = courses.filter((course) => !year || course.yearLabel === year);
     return [
@@ -325,7 +393,7 @@ function CourseList() {
     return courses.filter((course) => {
       const courseName = normalizeForSearch(course.courseName);
       const courseCode = normalizeForSearch(course.courseCodeLabel);
-      const searchText = normalizeForSearch(searchIndex?.[course.id] ?? [course.courseName, course.courseCodeLabel, course.programLabel, course.departmentLabel ?? ""].join(" "));
+      const searchText = normalizeForSearch(searchIndexes[course.yearLabel]?.[course.id] ?? [course.courseName, course.courseCodeLabel, course.programLabel, course.departmentLabel ?? ""].join(" "));
       const matchesProgramDepartment =
         !programDepartment ||
         (programDepartment.startsWith("program:") && course.programLabel === programDepartment.slice("program:".length)) ||
@@ -345,7 +413,7 @@ function CourseList() {
         (!practicalOnly || course.hasPracticalTeacher)
       );
     });
-  }, [courseCodeQuery, courseNameQuery, fuzzyCondition, fuzzyKeywords, practicalOnly, programDepartment, searchIndex, semester, year]);
+  }, [courseCodeQuery, courseNameQuery, fuzzyCondition, fuzzyKeywords, practicalOnly, programDepartment, searchIndexes, semester, year]);
   const totalPages = Math.max(1, Math.ceil(filtered.length / pageSize));
   const currentPage = clampPage(page, totalPages);
   const pageStart = (currentPage - 1) * pageSize;
@@ -361,23 +429,36 @@ function CourseList() {
   }, [courseCodeQuery, courseNameQuery, fuzzyCondition, fuzzyKeywords, practicalOnly, programDepartment, semester, year]);
 
   useEffect(() => {
-    if (!fuzzyKeywords.trim() || searchIndex) return;
+    if (!fuzzyKeywords.trim()) return;
+    const missingYears = selectedSearchYears.filter((searchYear) => !searchIndexes[searchYear] && !searchIndexLoadingYears.has(searchYear));
+    if (!missingYears.length) return;
     let cancelled = false;
-    fetch("/search-index.json")
-      .then((response) => {
-        if (!response.ok) throw new Error(`HTTP ${response.status}`);
-        return response.json() as Promise<Record<string, string>>;
+    setSearchIndexLoadingYears((current) => new Set([...current, ...missingYears]));
+    Promise.all(
+      missingYears.map(async (searchYear) => {
+        const response = await fetch(`/search-index/${searchYear}.json`);
+        if (!response.ok) return [searchYear, {}] as const;
+        return [searchYear, (await response.json()) as Record<string, string>] as const;
+      }),
+    )
+      .then((entries) => {
+        if (!cancelled) {
+          setSearchIndexes((current) => Object.fromEntries([...Object.entries(current), ...entries]));
+        }
       })
-      .then((value) => {
-        if (!cancelled) setSearchIndex(value);
-      })
-      .catch(() => {
-        if (!cancelled) setSearchIndex({});
+      .finally(() => {
+        if (!cancelled) {
+          setSearchIndexLoadingYears((current) => {
+            const next = new Set(current);
+            for (const searchYear of missingYears) next.delete(searchYear);
+            return next;
+          });
+        }
       });
     return () => {
       cancelled = true;
     };
-  }, [fuzzyKeywords, searchIndex]);
+  }, [fuzzyKeywords, searchIndexes, searchIndexLoadingYears, selectedSearchYears]);
 
   useEffect(() => {
     setPage((value) => clampPage(value, totalPages));
@@ -422,7 +503,7 @@ function CourseList() {
     <main>
       <section className="list-hero">
         <div>
-          <p className="eyebrow">2026 captured dataset</p>
+          <p className="eyebrow">2012-2026 captured dataset</p>
           <h1>URL で共有できるシラバス検索</h1>
           <p>
             元サイトの検索結果を React で再構成しています。各科目は年度・学期・科目コード・科目名 slug を含む共有用 URL を持ちます。
@@ -434,83 +515,68 @@ function CourseList() {
         </div>
       </section>
 
-      <section className="search-panel" aria-label="検索条件">
-        <div className="search-panel-header">
+      <Card className="search-panel" aria-label="検索条件">
+        <CardHeader className="search-panel-header">
           <div>
-            <h2>検索条件</h2>
-            <p>科目名・科目コード・キーワードで絞り込みできます。</p>
+            <CardTitle>検索条件</CardTitle>
+            <CardDescription>科目名・科目コード・キーワードで絞り込みできます。</CardDescription>
           </div>
-          <button className="secondary-button" type="button" onClick={clearFilters}>
+          <Button variant="outline" type="button" onClick={clearFilters}>
             条件クリア
-          </button>
-        </div>
+          </Button>
+        </CardHeader>
 
-        <div className="primary-filters">
-          <label className="keyword-filter">
-            <span>キーワード</span>
-            <div>
-              <input value={fuzzyKeywords} onChange={(event) => setFuzzyKeywords(event.target.value)} placeholder="全文検索" />
-              <fieldset className="inline-options" aria-label="キーワード検索条件">
-                <label>
-                  <input checked={fuzzyCondition === "AND"} name="fuzzy-condition" type="radio" onChange={() => setFuzzyCondition("AND")} />
-                  <span>AND</span>
-                </label>
-                <label>
-                  <input checked={fuzzyCondition === "OR"} name="fuzzy-condition" type="radio" onChange={() => setFuzzyCondition("OR")} />
-                  <span>OR</span>
-                </label>
-              </fieldset>
-            </div>
-          </label>
-          <label>
-            <span>科目名</span>
-            <input value={courseNameQuery} onChange={(event) => setCourseNameQuery(event.target.value)} placeholder="部分一致検索" />
-          </label>
-          <label>
-            <span>科目コード</span>
-            <input value={courseCodeQuery} onChange={(event) => setCourseCodeQuery(event.target.value)} maxLength={7} placeholder="前方一致検索" />
-          </label>
-        </div>
-
-        <details className="advanced-filters">
-          <summary>詳細条件</summary>
-          <div className="filters">
-            <label>
-              <span>年度</span>
-              <select value={year} onChange={(event) => setYear(event.target.value)}>
-                <option value="">すべて</option>
-                {years.map((value) => (
-                  <option key={value}>{displayText(value)}</option>
-                ))}
-              </select>
+        <CardContent>
+          <div className="primary-filters">
+            <label className="keyword-filter">
+              <span>キーワード</span>
+              <div>
+                <Input value={fuzzyKeywords} onChange={(event) => setFuzzyKeywords(event.target.value)} placeholder="全文検索" />
+                <fieldset className="inline-options" aria-label="キーワード検索条件">
+                  <label>
+                    <input checked={fuzzyCondition === "AND"} name="fuzzy-condition" type="radio" onChange={() => setFuzzyCondition("AND")} />
+                    <span>AND</span>
+                  </label>
+                  <label>
+                    <input checked={fuzzyCondition === "OR"} name="fuzzy-condition" type="radio" onChange={() => setFuzzyCondition("OR")} />
+                    <span>OR</span>
+                  </label>
+                </fieldset>
+              </div>
             </label>
             <label>
-              <span>学期</span>
-              <select value={semester} onChange={(event) => setSemester(event.target.value)}>
-                <option value="">すべて</option>
-                {semesters.map((value) => (
-                  <option key={value}>{displayText(value)}</option>
-                ))}
-              </select>
+              <span>科目名</span>
+              <Input value={courseNameQuery} onChange={(event) => setCourseNameQuery(event.target.value)} placeholder="部分一致検索" />
             </label>
             <label>
-              <span>課程／学科</span>
-              <select value={programDepartment} onChange={(event) => setProgramDepartment(event.target.value)}>
-                <option value="">すべて</option>
-                {programDepartmentOptions.map((option) => (
-                  <option key={option.value} value={option.value}>
-                    {displayText(option.label)}
-                  </option>
-                ))}
-              </select>
-            </label>
-            <label className="checkbox-filter">
-              <input checked={practicalOnly} type="checkbox" onChange={(event) => setPracticalOnly(event.target.checked)} />
-              <span>実務経験のある教員の担当科目</span>
+              <span>科目コード</span>
+              <Input value={courseCodeQuery} onChange={(event) => setCourseCodeQuery(event.target.value)} maxLength={7} placeholder="前方一致検索" />
             </label>
           </div>
-        </details>
-      </section>
+
+          <details className="advanced-filters">
+            <summary>詳細条件</summary>
+            <div className="filters">
+              <label>
+                <span>年度</span>
+                <SelectField value={year} onValueChange={setYear} options={years.map((value) => ({ value, label: value }))} />
+              </label>
+              <label>
+                <span>学期</span>
+                <SelectField value={semester} onValueChange={setSemester} options={semesters.map((value) => ({ value, label: value }))} />
+              </label>
+              <label>
+                <span>課程／学科</span>
+                <SelectField value={programDepartment} onValueChange={setProgramDepartment} options={programDepartmentOptions} />
+              </label>
+              <label className="checkbox-filter">
+                <Checkbox checked={practicalOnly} onCheckedChange={(checked) => setPracticalOnly(checked === true)} />
+                <span>実務経験のある教員の担当科目</span>
+              </label>
+            </div>
+          </details>
+        </CardContent>
+      </Card>
 
       <section className="result-summary">
         <div>
@@ -532,66 +598,65 @@ function CourseList() {
           <span>件を単位計算に選択中</span>
         </div>
         <nav className="pagination" aria-label="ページネーション">
-          <button disabled={currentPage <= 1} onClick={() => setPage(1)}>
+          <Button variant="outline" disabled={currentPage <= 1} onClick={() => setPage(1)}>
             最初
-          </button>
-          <button disabled={currentPage <= 1} onClick={() => setPage((value) => value - 1)}>
+          </Button>
+          <Button variant="outline" disabled={currentPage <= 1} onClick={() => setPage((value) => value - 1)}>
             前へ
-          </button>
+          </Button>
           <span>
             {displayText(currentPage)} / {displayText(totalPages)} ページ（{displayText(pageRangeStart)}-
             {displayText(pageRangeEnd)} 件）
           </span>
-          <button disabled={currentPage >= totalPages} onClick={() => setPage((value) => value + 1)}>
+          <Button variant="outline" disabled={currentPage >= totalPages} onClick={() => setPage((value) => value + 1)}>
             次へ
-          </button>
-          <button disabled={currentPage >= totalPages} onClick={() => setPage(totalPages)}>
+          </Button>
+          <Button variant="outline" disabled={currentPage >= totalPages} onClick={() => setPage(totalPages)}>
             最後
-          </button>
+          </Button>
         </nav>
       </div>
 
       <section className="course-table-wrap">
-        <table className="course-table">
-          <thead>
-            <tr>
-              <th className="selection-cell">
-                <input
+        <Table className="course-table">
+          <TableHeader>
+            <TableRow>
+              <TableHead className="selection-cell">
+                <Checkbox
                   aria-label="このページの科目を選択"
                   checked={allOnPageSelected}
                   disabled={!paginated.length}
-                  type="checkbox"
-                  onChange={togglePageSelection}
+                  onCheckedChange={togglePageSelection}
                 />
-              </th>
-              <th>年度</th>
-              <th>学期</th>
-              <th>科目コード</th>
-              <th>単位</th>
-              <th>科目名</th>
-              <th>課程</th>
-              <th>対象学科</th>
-            </tr>
-          </thead>
-          <tbody>
+              </TableHead>
+              <TableHead>年度</TableHead>
+              <TableHead>学期</TableHead>
+              <TableHead>科目コード</TableHead>
+              <TableHead>単位</TableHead>
+              <TableHead>科目名</TableHead>
+              <TableHead>課程</TableHead>
+              <TableHead>対象学科</TableHead>
+            </TableRow>
+          </TableHeader>
+          <TableBody>
             {paginated.map((course) => (
-              <tr key={course.id} onClick={() => navigate(course.routePath)}>
-                <td className="selection-cell" onClick={(event) => event.stopPropagation()}>
-                  <input
+              <TableRow key={course.id} onClick={() => navigate(course.routePath)}>
+                <TableCell className="selection-cell" onClick={(event) => event.stopPropagation()}>
+                  <Checkbox
                     aria-label={`${displayText(course.courseName)}を単位計算に追加`}
                     checked={selectedCourseIds.has(course.id)}
-                    type="checkbox"
-                    onChange={() => toggleCourse(course.id)}
+                    onCheckedChange={() => toggleCourse(course.id)}
                   />
-                </td>
-                <td>{displayText(course.yearLabel)}</td>
-                <td>{displayText(course.semesterLabel)}</td>
-                <td>
+                </TableCell>
+                <TableCell>{displayText(course.yearLabel)}</TableCell>
+                <TableCell>{displayText(course.semesterLabel)}</TableCell>
+                <TableCell>
                   <code>{displayText(course.courseCodeLabel)}</code>
-                </td>
-                <td>{displayText(course.credits)}</td>
-                <td>
-                  <button
+                </TableCell>
+                <TableCell>{displayText(course.credits)}</TableCell>
+                <TableCell>
+                  <Button
+                    variant="link"
                     className="link-button"
                     onClick={(event) => {
                       event.stopPropagation();
@@ -599,15 +664,19 @@ function CourseList() {
                     }}
                   >
                     {displayText(course.courseName)}
-                  </button>
-                  {course.hasDetail && <span className="detail-badge">{course.hasEnglishDetail ? "日英詳細あり" : "詳細あり"}</span>}
-                </td>
-                <td>{displayText(course.programLabel)}</td>
-                <td>{displayText(course.departmentLabel ?? "全学")}</td>
-              </tr>
+                  </Button>
+                  {course.hasDetail && (
+                    <Badge className="detail-badge" variant="outline">
+                      {course.hasEnglishDetail ? "日英詳細あり" : "詳細あり"}
+                    </Badge>
+                  )}
+                </TableCell>
+                <TableCell>{displayText(course.programLabel)}</TableCell>
+                <TableCell>{displayText(course.departmentLabel ?? "全学")}</TableCell>
+              </TableRow>
             ))}
-          </tbody>
-        </table>
+          </TableBody>
+        </Table>
       </section>
     </main>
   );
@@ -641,11 +710,24 @@ function TextSection({ title, body }: { title: string; body?: string }) {
   if (!body) return null;
   const normalizedBody = displayText(body);
   const visibleBody = normalizedBody.startsWith(title) ? normalizedBody.slice(title.length).trimStart() : normalizedBody;
+  const numberedItems = splitNumberedItems(visibleBody);
   return (
-    <section className="detail-section">
-      <h2>{title}</h2>
-      <p className="preline">{readableText(visibleBody)}</p>
-    </section>
+    <Card className="detail-section">
+      <CardHeader>
+        <CardTitle>{title}</CardTitle>
+      </CardHeader>
+      <CardContent>
+        {numberedItems ? (
+          <ol className="text-list">
+            {numberedItems.map((item, index) => (
+              <li key={`${title}-${index}`}>{readableText(item)}</li>
+            ))}
+          </ol>
+        ) : (
+          <p className="preline">{readableText(visibleBody)}</p>
+        )}
+      </CardContent>
+    </Card>
   );
 }
 
@@ -686,9 +768,9 @@ function DetailPage({ course, language }: Extract<View, { name: "detail" }>) {
 
   return (
     <main>
-      <button className="back-button" onClick={() => navigate("/courses")}>
+      <Button className="back-button" variant="outline" onClick={() => navigate("/courses")}>
         ← 一覧へ戻る
-      </button>
+      </Button>
       <section className="detail-hero">
         <p className="eyebrow">
           {displayText(course.programLabel)} / {displayText(course.departmentLabel ?? "全学")}
@@ -696,65 +778,81 @@ function DetailPage({ course, language }: Extract<View, { name: "detail" }>) {
         <h1>{readableText(title)}</h1>
         {subtitle && <p className="subtitle">{readableText(subtitle)}</p>}
         <MetadataStrip course={course} detail={detail} language={language} />
-        <div className="language-tabs" aria-label="シラバス言語">
-          <button className={language === "ja" ? "active" : ""} onClick={() => navigate(japanesePath)}>
-            日本語
-          </button>
-          <button className={language === "en" ? "active" : ""} disabled={!course.hasEnglishDetail} onClick={() => navigate(englishPath)}>
-            English
-          </button>
-        </div>
+        <Tabs value={language} onValueChange={(value) => navigate(value === "en" ? englishPath : japanesePath)} className="language-tabs">
+          <TabsList aria-label="シラバス言語">
+            <TabsTrigger value="ja">日本語</TabsTrigger>
+            <TabsTrigger value="en" disabled={!course.hasEnglishDetail}>
+              English
+            </TabsTrigger>
+          </TabsList>
+        </Tabs>
       </section>
 
       {status === "loading" && (
-        <section className="empty-detail">
-          <h2>{labels.loading}</h2>
-          <p>{labels.loadingBody}</p>
-        </section>
+        <Card className="empty-detail">
+          <CardHeader>
+            <CardTitle>{labels.loading}</CardTitle>
+            <CardDescription>{labels.loadingBody}</CardDescription>
+          </CardHeader>
+        </Card>
       )}
 
       {(status === "empty" || status === "error") && (
-        <section className="empty-detail">
-          <h2>{status === "error" ? "詳細を読み込めませんでした" : "共有 URL は作成済みです"}</h2>
-          <p>
-            {language === "en"
-              ? "この科目の英語シラバス本文は取得データ内で確認できませんでした。日本語版は同じ URL から切り替えて確認できます。"
-              : "この科目のフルシラバス本文はまだ取り込んでいません。検索結果由来の基本情報は URL に固定済みなので、今後の詳細取り込み時にも同じ共有リンクを使えます。"}
-          </p>
-          <code>{displayText(course.routePath)}</code>
-        </section>
+        <Card className="empty-detail">
+          <CardHeader>
+            <CardTitle>{status === "error" ? "詳細を読み込めませんでした" : "共有 URL は作成済みです"}</CardTitle>
+            <CardDescription>
+              {language === "en"
+                ? "この科目の英語シラバス本文は取得データ内で確認できませんでした。日本語版は同じ URL から切り替えて確認できます。"
+                : "この科目のフルシラバス本文はまだ取り込んでいません。検索結果由来の基本情報は URL に固定済みなので、今後の詳細取り込み時にも同じ共有リンクを使えます。"}
+            </CardDescription>
+          </CardHeader>
+          <CardContent>
+            <code>{displayText(course.routePath)}</code>
+          </CardContent>
+        </Card>
       )}
 
       {detail && (
         <>
           {detail.teachers.length > 0 && (
-            <section className="detail-section teachers">
-              <h2>{labels.teachers}</h2>
-              <div className="teacher-list">
+            <Card className="detail-section teachers">
+              <CardHeader>
+                <CardTitle>{labels.teachers}</CardTitle>
+              </CardHeader>
+              <CardContent className="teacher-list">
                 {detail.teachers.map((teacher) => (
-                  <span key={teacher}>{displayText(teacher)}</span>
+                  <Badge key={teacher} variant="secondary">
+                    {displayText(teacher)}
+                  </Badge>
                 ))}
-              </div>
-            </section>
+              </CardContent>
+            </Card>
           )}
 
-          <section className="detail-section">
-            <h2>{labels.keywords}</h2>
-            <div className="keyword-list">
-              {detail.keywords.map((keyword) => (
-                <span key={keyword}>{displayText(keyword)}</span>
+          <Card className="detail-section">
+            <CardHeader>
+              <CardTitle>{labels.keywords}</CardTitle>
+            </CardHeader>
+            <CardContent className="keyword-list">
+              {splitKeywordItems(detail.keywords).map((keyword) => (
+                <Badge key={keyword} variant="outline">
+                  {displayText(keyword)}
+                </Badge>
               ))}
-            </div>
-          </section>
+            </CardContent>
+          </Card>
 
           <TextSection title={labels.educationalGoal} body={detail.educationalGoal} />
           <TextSection title={labels.advice} body={detail.advice} />
           <TextSection title={labels.books} body={detail.books} />
           <TextSection title={labels.requiredKnowledge} body={detail.requiredKnowledge} />
 
-          <section className="detail-section">
-            <h2>{labels.activityGoals}</h2>
-            <div className="goal-list">
+          <Card className="detail-section">
+            <CardHeader>
+              <CardTitle>{labels.activityGoals}</CardTitle>
+            </CardHeader>
+            <CardContent className="goal-list">
               {detail.activityGoals.map((goal) => (
                 <article key={goal.index}>
                   <strong>{displayText(goal.index)}</strong>
@@ -762,38 +860,42 @@ function DetailPage({ course, language }: Extract<View, { name: "detail" }>) {
                   <p>{readableText(goal.body)}</p>
                 </article>
               ))}
-            </div>
-          </section>
+            </CardContent>
+          </Card>
 
-          <section className="detail-section">
-            <h2>{labels.evaluation}</h2>
+          <Card className="detail-section">
+            <CardHeader>
+              <CardTitle>{labels.evaluation}</CardTitle>
+            </CardHeader>
+            <CardContent>
             <div className="evaluation-table-wrap">
-              <table className="evaluation-table">
-                <thead>
-                  <tr>
-                    <th scope="col">評価方法</th>
+              <Table className="evaluation-table">
+                <TableHeader>
+                  <TableRow>
+                    <TableHead scope="col">評価方法</TableHead>
                     {(detail.evaluationWeights[0]?.columns?.length ? detail.evaluationWeights[0].columns : detail.evaluationWeights[0]?.values.map((_, index) => `${index + 1}`) ?? []).map((column) => (
-                      <th key={column} scope="col">
+                      <TableHead key={column} scope="col">
                         {displayText(column)}
-                      </th>
+                      </TableHead>
                     ))}
-                  </tr>
-                </thead>
-                <tbody>
+                  </TableRow>
+                </TableHeader>
+                <TableBody>
                   {detail.evaluationWeights.map((row) => (
-                    <tr key={row.label}>
-                      <th scope="row">{displayText(row.label)}</th>
+                    <TableRow key={row.label}>
+                      <TableHead scope="row">{displayText(row.label)}</TableHead>
                       {row.values.map((value, index) => (
-                        <td key={`${row.label}-${index}`}>{displayText(value)}</td>
+                        <TableCell key={`${row.label}-${index}`}>{displayText(value)}</TableCell>
                       ))}
-                    </tr>
+                    </TableRow>
                   ))}
-                </tbody>
-              </table>
+                </TableBody>
+              </Table>
             </div>
-          </section>
+            </CardContent>
+          </Card>
 
-          <section className="detail-section split-section">
+          <Card className="detail-section split-section">
             <div>
               <h2>{labels.ideal}</h2>
               <p className="preline">{readableText(detail.achievementLevels.ideal)}</p>
@@ -802,12 +904,15 @@ function DetailPage({ course, language }: Extract<View, { name: "detail" }>) {
               <h2>{labels.standard}</h2>
               <p className="preline">{readableText(detail.achievementLevels.standard)}</p>
             </div>
-          </section>
+          </Card>
 
           <TextSection title={labels.clip} body={detail.clipProcess} />
 
-          <section className="detail-section">
-            <h2>{labels.lessons}</h2>
+          <Card className="detail-section">
+            <CardHeader>
+              <CardTitle>{labels.lessons}</CardTitle>
+            </CardHeader>
+            <CardContent>
             {detail.lessons.length ? (
               <div className="lesson-list">
                 {detail.lessons.map((lesson) => (
@@ -835,7 +940,8 @@ function DetailPage({ course, language }: Extract<View, { name: "detail" }>) {
             ) : (
               <p className="muted">この科目の授業明細は取得データ内で確認できませんでした。</p>
             )}
-          </section>
+            </CardContent>
+          </Card>
         </>
       )}
     </main>
