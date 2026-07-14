@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { loadDefaultJapaneseParser } from "budoux";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
@@ -368,7 +368,7 @@ function CourseList() {
   const [selectedCourseIds, setSelectedCourseIds] = useState<Set<string>>(() => new Set());
   const [creditCalculatorOpen, setCreditCalculatorOpen] = useState(false);
   const [searchIndexes, setSearchIndexes] = useState<Record<string, Record<string, string>>>({});
-  const [searchIndexLoadingYears, setSearchIndexLoadingYears] = useState<Set<string>>(() => new Set());
+  const searchIndexLoadingYears = useRef(new Set<string>());
   const years = useMemo(() => uniqueSorted(courses.map((course) => course.yearLabel)).reverse(), []);
   const selectedSearchYears = useMemo(() => (year ? [year] : years), [year, years]);
   const programDepartmentOptions = useMemo(() => {
@@ -430,35 +430,19 @@ function CourseList() {
 
   useEffect(() => {
     if (!fuzzyKeywords.trim()) return;
-    const missingYears = selectedSearchYears.filter((searchYear) => !searchIndexes[searchYear] && !searchIndexLoadingYears.has(searchYear));
+    const missingYears = selectedSearchYears.filter(
+      (searchYear) => !searchIndexes[searchYear] && !searchIndexLoadingYears.current.has(searchYear),
+    );
     if (!missingYears.length) return;
-    let cancelled = false;
-    setSearchIndexLoadingYears((current) => new Set([...current, ...missingYears]));
-    Promise.all(
-      missingYears.map(async (searchYear) => {
+    for (const searchYear of missingYears) searchIndexLoadingYears.current.add(searchYear);
+    for (const searchYear of missingYears) {
+      void (async () => {
         const response = await fetch(`/search-index/${searchYear}.json`);
-        if (!response.ok) return [searchYear, {}] as const;
-        return [searchYear, (await response.json()) as Record<string, string>] as const;
-      }),
-    )
-      .then((entries) => {
-        if (!cancelled) {
-          setSearchIndexes((current) => Object.fromEntries([...Object.entries(current), ...entries]));
-        }
-      })
-      .finally(() => {
-        if (!cancelled) {
-          setSearchIndexLoadingYears((current) => {
-            const next = new Set(current);
-            for (const searchYear of missingYears) next.delete(searchYear);
-            return next;
-          });
-        }
-      });
-    return () => {
-      cancelled = true;
-    };
-  }, [fuzzyKeywords, searchIndexes, searchIndexLoadingYears, selectedSearchYears]);
+        const index = response.ok ? ((await response.json()) as Record<string, string>) : {};
+        setSearchIndexes((current) => ({ ...current, [searchYear]: index }));
+      })().finally(() => searchIndexLoadingYears.current.delete(searchYear));
+    }
+  }, [fuzzyKeywords, searchIndexes, selectedSearchYears]);
 
   useEffect(() => {
     setPage((value) => clampPage(value, totalPages));
